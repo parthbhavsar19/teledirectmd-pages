@@ -1,0 +1,408 @@
+{
+  "guide": "affordability/surprise-medical-bills",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 0 verified (no journal references or DOIs in this guide; all ten references are government pages or eCFR regulation sections), retractions: none",
+  "references": [
+    {
+      "n": 1,
+      "kind": "agency_page",
+      "cited_as": "CMS, No Surprises: Understand your rights against surprise medical bills (fact sheet)",
+      "url": "https://www.cms.gov/newsroom/fact-sheets/no-surprises-understand-your-rights-against-surprise-medical-bills",
+      "record_title": "No Surprises: Understand your rights against surprise medical bills | CMS",
+      "record_journal": "CMS Newsroom (fact sheet)",
+      "version_or_date": "fact sheet dated Jan 03, 2022; read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F9AZC7FQTQTQQ55QCSP0V9)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The fact sheet's $400 / 120-day dispute sentence is scoped 'For services provided in 2022', so the page no longer cites it for the current dispute rule (now refs 7, 8).",
+      "claims": [
+        {
+          "text": "Takeaway 2 / protects section: people with private insurance are protected for most emergency services, non-emergency services from out-of-network providers at in-network facilities, and out-of-network air ambulance",
+          "quote": "The No Surprises Act protects people covered under group and individual health plans from receiving surprise medical bills when they receive most emergency services, non-emergency services from out-of-network providers at in-network facilities, and services from out-of-network air ambulance service providers.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Takeaway 3 / protects section / FAQ 'Do I have to pay': you can't be charged more than in-network cost-sharing",
+          "quote": "Ban out-of-network cost-sharing (like out-of-network coinsurance or copayments) for most emergency and some non-emergency services. You can't be charged more than in-network cost-sharing for these services.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Protects list item 1 / FAQ emergency room: most emergency services even out of network and without prior authorization",
+          "quote": "Ban surprise bills for most emergency services, even if you get them out-of-network and without approval beforehand (prior authorization).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Protects list item 2 / FAQ balance billing: certain services like anesthesiology or radiology from out-of-network providers during a visit to an in-network facility",
+          "quote": "Ban out-of-network charges and balance bills for certain additional services (like anesthesiology or radiology) furnished by out-of-network providers as part of a patient's visit to an in-network facility.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Citable summary / FAQ 'What is a surprise medical bill': CMS term for an unexpected balance bill from an out-of-network provider; difference between billed charge and what the plan paid",
+          "quote": "could bill you for the difference between the billed charge and the amount your health plan paid ... An unexpected balance bill from an out-of-network provider is also called a surprise medical bill.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Citable summary: starting in 2022, bans the most common types for people with private insurance; uninsured/self-pay can often get a good faith estimate up front",
+          "quote": "Starting in 2022 ... If you have private health insurance, these new protections ban the most common types of surprise bills. If you're uninsured ... you can often get a good faith estimate",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Protects section: applies to coverage through employer, Marketplace or individual plan",
+          "quote": "If you get health coverage through your employer, a Health Insurance Marketplace®, [1] or an individual health insurance plan you purchase directly from an insurance company, these new rules will:",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "agency_page",
+      "cited_as": "CFPB, What should I do if I can't pay a medical bill?",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-if-i-cant-pay-a-medical-bill-en-2125/",
+      "record_title": "What should I do if I can’t pay a medical bill? | Consumer Financial Protection Bureau",
+      "record_journal": "Consumer Financial Protection Bureau (Ask CFPB)",
+      "version_or_date": "last reviewed Oct 28, 2026; page last modified Oct 29, 2026; read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F9AZC7FQTQTQQ55QCSP0V9)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Takeaway 4 / not-covered section / FAQ ground ambulance: ground ambulance is not protected",
+          "quote": "Some services, such as ground ambulance transportation services, are NOT protected by the No Surprises Act.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "What-to-do section / FAQ 'Do I have to pay' / FAQ 'balance bills me anyway': make sure you owe the amount before you pay",
+          "quote": "Make sure the provider accurately calculated the medical bill and that you owe it before you pay.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "What-to-do section: the Act can protect you from owing the difference between the out-of-network billed cost and what insurance paid",
+          "quote": "In these situations, the No Surprises Act can protect you from owing the difference between the out-of-network billed cost and the amount your health insurance paid.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "What-to-do section / FAQ: CFPB complaint for debt-collection or credit-reporting problems",
+          "quote": "If you have a problem with debt collection because of a surprise medical bill, or a problem with credit reporting because of surprise medical charges ... you can submit a complaint with the CFPB online",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "What-to-do section: state consumer assistance programs and state insurance departments may offer help and a complaint process",
+          "quote": "Many states provide help for consumers experiencing problems with their health insurance. ... state insurance department or insurance commissioner may also offer helpful information as well as a complaint process.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "agency_page",
+      "cited_as": "CMS, Medical bill rights (No Surprises Act consumer page)",
+      "url": "https://www.cms.gov/initiatives/your-patient-rights/medical-bill-rights",
+      "record_title": "Medical bill rights | CMS",
+      "record_journal": "CMS",
+      "version_or_date": "page last modified 10/05/2026; read 2026-11-15. Old link https://www.cms.gov/nosurprises/consumers redirects here.",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F9AZC7FQTQTQQ55QCSP0V9)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Takeaway 1: the No Surprises Act went into effect on January 1, 2022",
+          "quote": "The No Surprises Act is a federal law that went into effect on January 1, 2022.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "agency_page",
+      "cited_as": "DOL EBSA, Avoid Surprise Healthcare Expenses: How the No Surprises Act Can Protect You",
+      "url": "https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/publications/avoid-surprise-healthcare-expenses",
+      "record_title": "Avoid Surprise Healthcare Expenses: How the No Surprises Act Can Protect You | U.S. Department of Labor",
+      "record_journal": "U.S. Department of Labor, Employee Benefits Security Administration",
+      "version_or_date": "no page date shown; read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F9AZC7FQTQTQQ55QCSP0V9)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Definition of surprise billing",
+          "quote": "Surprise billing occurs when you have health coverage and unknowingly or unavoidably receive care from an out-of-network provider or at an out-of-network healthcare facility and are billed directly for that care when your health plan does not cover",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Definition of balance billing (difference between billed charge and allowed amount)",
+          "quote": "the out-of-network provider or healthcare facility could bill you directly for the difference between their billed charge and the amount your health plan will to pay for the charge (the \"allowed amount\"). This is called \"balance billing.\"",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Examples: out-of-network anesthesiologist after surgery at an in-network facility, emergency room, air ambulance",
+          "quote": "Visited the emergency room for treatment, only to receive a surprise bill? Had major surgery performed at an in-network facility ... only to receive an unexpected bill from an out-of-network anesthesiologist? ... air ambulance ride",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cost-sharing counts toward in-network deductible and out-of-pocket maximum",
+          "quote": "Any cost-sharing payments you make must count toward your in-network deductible or out-of-pocket maximums as if an in-network provider charged them.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "If plan does not cover air ambulance at all (or a ground ambulance transports you), you may be responsible for the uncovered amount",
+          "quote": "However, if your plan does not cover air ambulance services at all or if a ground ambulance transports you, then you may be responsible for the uncovered amount.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Not every unexpected bill is covered; can still be billed for services not covered by the plan",
+          "quote": "It does not cover every unexpected or high medical bill. For example, you can still be billed for services and treatments that are not covered by your plan.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Notice and consent not permitted for emergency services before stabilization or for ancillary services (emergency medicine, anesthesiology, pathology, radiology, neonatology); FAQ waive",
+          "quote": "In emergency situations, notice and consent is not permitted when providing: any emergency services before your condition is stabilized ... notice and consent is not permitted for ancillary services ... related to emergency medicine, anesthesiology, pathology, radiology, and neonatology",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQ waive: notice and consent may be used for some scheduled non-emergency services or post-stabilization care; signing is your choice",
+          "quote": "you schedule certain non-emergency services (other than ancillary services) at an in-network healthcare facility, or you need post-stabilization care after an emergency ... Signing this form is entirely your choice.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "EOB shows what the plan will pay and what you owe",
+          "quote": "The EOB tells you what services you got, when you got them, how much your plan will pay, and how much you owe.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Contact the No Surprises Help Desk at 1-800-985-3059 if bill exceeds EOB cost sharing or the law is not followed",
+          "quote": "Contact the No Surprises Help Desk at (1 800) 985-3059 if: you receive a bill that exceeds what the EOB shows you owe in cost sharing ... you believe that the No Surprises Act is not being followed",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "agency_page",
+      "cited_as": "CMS, What is a good faith health insurance estimate?",
+      "url": "https://www.cms.gov/initiatives/your-patient-rights/medical-bill-rights/get-help/guides-resources/what-good-faith-estimate",
+      "record_title": "What is a good faith health insurance estimate? | CMS",
+      "record_journal": "CMS",
+      "version_or_date": "page last modified 10/05/2026; read 2026-11-15. Old link https://www.cms.gov/medical-bill-rights/help/guides/good-faith-estimate redirects here.",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F9AZC7FQTQTQQ55QCSP0V9)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Takeaway 5 / no-insurance section / FAQ good faith estimate: usually must give a good faith estimate on request or when scheduled at least 3 business days ahead",
+          "quote": "Usually, if you aren't using health insurance to pay for your care, your health care provider must give you a good faith estimate of expected charges if you request one or schedule services at least 3 business days in advance.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Estimate covers a single provider or facility; e.g. separate estimates from surgeon and hospital",
+          "quote": "Good faith estimates only list expected charges for a single provider or facility. ... You should request 2 good faith estimates: one from the surgeon, and one from the hospital.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "agency_page",
+      "cited_as": "CMS, Know your medical bill rights when using insurance",
+      "url": "https://www.cms.gov/initiatives/your-patient-rights/medical-bill-rights/know-your-rights/insurance",
+      "record_title": "Know your medical bill rights when using insurance | CMS",
+      "record_journal": "CMS",
+      "version_or_date": "page last modified 10/01/2026; read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F9D5WAJS1DCWTH84S9HATY)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Non-emergency protections apply to care related to a visit to an in-network hospital, hospital outpatient department or ambulatory surgical center; air ambulance",
+          "quote": "The Act protects you from unexpected out-of-network bills from: Emergency room visits; Non-emergency care related to a visit to an in-network: Hospital; Hospital outpatient department; Ambulatory surgical center; Air ambulance services",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Applies to employer, Marketplace and individual market coverage",
+          "quote": "These protections apply to you if you have health insurance through an employer (including a Federal Employees Health Benefits plan), the federal Health Insurance Marketplace, a State-based Marketplace, or other individual market coverage.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Emergency room includes hospital ERs and independent freestanding emergency departments; post-stabilization protected in most cases",
+          "quote": "Emergency rooms at a hospital; Independent, freestanding emergency departments ... After an emergency room visit, you're protected from unexpected out-of-network bills for post-stabilization services in most cases.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Example: in-network hospital with out-of-network attending physician",
+          "quote": "For example, your local hospital may be in-network, but an attending physician might be out-of-network.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Some health plans don't cover emergency care",
+          "quote": "Note: Some health plans don't cover emergency care.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Ground ambulance can still charge out-of-network rates and cost-sharing unless state law bars it; FAQ ground ambulance state law",
+          "quote": "Currently, ground ambulance services aren't covered by billing protections in the No Surprises Act. They're still allowed to charge out-of-network rates and cost-sharing (unless they're not allowed to under state law).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Planned-care protections don't apply in other settings like a doctor's office or at an out-of-network facility",
+          "quote": "These protections don't apply at other settings (like a doctor's office that isn't a hospital outpatient department), or if you go to an out-of-network facility.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Exceptions: short-term limited duration, health care sharing ministry, fixed indemnity plans; vision-only and dental-only generally",
+          "quote": "These balance billing protections generally don't apply to vision-only and dental-only insurance plans ... Short-term limited duration and health care sharing ministry plans ... Fixed indemnity excepted benefits plans, like hospital indemnity insurance",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Medicare, Medicaid, IHS, VA, TRICARE already protect from some unexpected out-of-network bills",
+          "quote": "Do you use Medicare, Medicaid, Indian Health Services, Veterans Affairs Health Care, or TRICARE? These plans already protect you from some unexpected out-of-network bills.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Notice and consent for some out-of-network care at an in-network facility or post-stabilization; signing is your choice; you will likely pay more; FAQ balance billing (signing gives up protections)",
+          "quote": "Signing this form means that you agree to get care out-of-network and give up your protections from unexpected out-of-network bills. ... You will likely have to pay more ... Signing the notice and consent form is your choice.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "agency_page",
+      "cited_as": "CMS, Know your medical bill rights when not using insurance",
+      "url": "https://www.cms.gov/initiatives/your-patient-rights/medical-bill-rights/know-your-rights/without-insurance",
+      "record_title": "Know your medical bill rights when not using insurance | CMS",
+      "record_journal": "CMS",
+      "version_or_date": "page last modified 10/05/2026; read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F9D5WAJS1DCWTH84S9HATY)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "No good faith estimate during emergency care",
+          "quote": "Note: You won't get an estimate during emergency care.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dispute within 120 days of getting the initial bill",
+          "quote": "You have to start a dispute within 120 days (about 4 months) of getting your initial bill.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "other_web",
+      "cited_as": "45 CFR 149.620, Requirements for the patient-provider dispute resolution process (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-149/subpart-G/section-149.620",
+      "record_title": "eCFR :: 45 CFR 149.620 -- Requirements for the patient-provider dispute resolution process.",
+      "record_journal": "Electronic Code of Federal Regulations (HHS rule; source 86 FR 56134, Oct. 7, 2021)",
+      "version_or_date": "eCFR title 45 up to date as of 11/12/2026, last amended 11/05/2026; read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F9AZC7FQTQTQQ55QCSP0V9)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "$400 threshold is per provider or facility against that provider's or facility's own good faith estimate",
+          "quote": "with respect to the total billed charges by a provider or facility, an amount that is at least $400 more than the total amount of expected charges listed on the good faith estimate for the provider or facility.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Deadline: 120 calendar days of receiving the initial bill",
+          "quote": "postmarked within 120 calendar days of receiving the initial bill containing charges for the item or service that is substantially in excess of the expected charges in the good faith estimate.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "other_web",
+      "cited_as": "45 CFR 149.610, Requirements for provision of good faith estimates for uninsured (or self-pay) individuals (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-149/subpart-G/section-149.610",
+      "record_title": "eCFR :: 45 CFR 149.610 -- Requirements for provision of good faith estimates of expected charges for uninsured (or self-pay) individuals.",
+      "record_journal": "Electronic Code of Federal Regulations (HHS rule; source 86 FR 56134, Oct. 7, 2021)",
+      "version_or_date": "eCFR title 45 up to date as of 11/12/2026, last amended 11/05/2026; read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F9AZC7FQTQTQQ55QCSP0V9)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "CMS (ref 5) states that estimates currently list a single provider or facility; the rule text also describes co-provider estimates, so the page relies on CMS for the per-provider statement.",
+      "claims": [
+        {
+          "text": "Good faith estimate on request or when scheduled at least 3 business days ahead",
+          "quote": "When a primary item or service is scheduled at least 3 business days before the date the item or service is scheduled to be furnished: Not later than 1 business day after the date of scheduling",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Good faith estimate when requested by the uninsured or self-pay individual",
+          "quote": "When a good faith estimate is requested by an uninsured (or self-pay) individual: Not later than 3 business days after the date of the request.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "agency_page",
+      "cited_as": "CMS, Dispute a medical bill",
+      "url": "https://www.cms.gov/initiatives/your-patient-rights/medical-bill-rights/get-help/dispute-bill",
+      "record_title": "Dispute a medical bill | CMS",
+      "record_journal": "CMS",
+      "version_or_date": "page last modified 10/02/2026; read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F9D5WAJS1DCWTH84S9HATY)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "$25 non-refundable administrative fee to file a dispute",
+          "quote": "You'll need to pay a $25 non-refundable administrative fee to file a dispute.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "If insurer decided not to pay and you think it violates the Act, appeal following plan documents and denial notices",
+          "quote": "Your insurer may have decided not to pay part or all of a claim. If you think this decision violates the No Surprises Act, appeal your bill. Follow the process described in your plan's documents and denial notices.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}
