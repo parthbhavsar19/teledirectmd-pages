@@ -1,0 +1,723 @@
+{
+ "guide": "tinea-ringworm-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 5 verified, retractions: none (5 DOIs: refs 2, 4, 5, 6, 7; no editorial notices, no contrasting evidence flagged, no predatory journals). Ref 1 has no DOI; Scite could not verify it by reference text, so it was confirmed through PubMed (PMID 41118183) and the PMC page. PubMed article types checked for refs 1, 2, 4, 5, 6, 7: no Retracted Publication or Retraction Notice. Refs 3 and 8 to 14 are web pages and labels without DOIs.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "journal",
+   "cited_as": "Caplan AS, Gold JAW, Smith DJ, Ely JW. Diagnosis and Management of Tinea Infections. American Family Physician. 2025;112(4):382-392.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12707599",
+   "pmid": "41118183",
+   "pmcid": "PMC12707599",
+   "record_title": "Diagnosis and Management of Tinea Infections.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2025",
+   "article_type": "Journal Article; Review",
+   "version_or_date": "Am Fam Physician 2025 Oct;112(4):382-392 (PubMed 41118183; PMC page citation header read 2026-11-15)",
+   "retrieved_with": "PubMed get_full_text_article (PMC12707599, full text), PubMed get_article_metadata (41118183, 25403034), PubMed convert_article_ids, WebFetch of the PMC article page (citation header, Table 3 and Table 4 cells, italic organism names stripped by the PubMed tool)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "The old reference cited Ely JW et al., Am Fam Physician 2014;90(10):702-710 (PMID 25403034) but linked PMC12707599, which serves the 2025 update by Caplan, Gold, Smith and Ely (PubMed 41118183, no DOI). NCBI's ID converter still maps PMC12707599 to the 2014 PMID 25403034; the PMC page itself prints the 2025 citation. Reference rewritten to the record the link opens. Scite verify_papers could not verify this reference (no DOI, no Scite record); PubMed article types (Journal Article, Review) show no retraction. The PMC table subpage (/table/T4/) returned a reCAPTCHA browser check on a second read and was not retried; Table 4 cells are from the first read of the main article page. Contrasting point carried into the page: Table 3 advises against topical clotrimazole or miconazole.",
+   "claims": [
+    {
+     "text": "Tinea of body, groin and feet usually responds to topical creams such as terbinafine, butenafine, ketoconazole (key takeaway; ketoconazole table row)",
+     "quote": "Tinea corporis, tinea cruris, and tinea pedis usually respond to topical creams, such as butenafine, ketoconazole, or terbinafine.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Oral therapy for extensive disease, failed topical treatment, immunocompromise, hair follicle involvement (corporis paragraph, oral section intro)",
+     "quote": "Oral antifungal agents may be used for patients with extensive disease, lack of response to topical treatment, immunocompromise, or hair follicle involvement.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tinea capitis needs oral therapy because topicals do not penetrate follicles (key takeaway)",
+     "quote": "Systemic antifungals should be used to treat tinea capitis because topical agents do not penetrate hair follicles.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Oral therapy generally more effective than topical for onychomycosis; ciclopirox and tavaborole low cure rates 29%-36% and 31%-36% (key takeaway, ciclopirox row, FAQ)",
+     "quote": "Oral antifungal therapy is generally more effective than topical therapy [...] Ciclopirox nail lacquer or tavaborole may be offered with education about their low cure rates (29%–36% and 31%–36%, respectively).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Treatment is optional depending on patient preference (nail FAQ)",
+     "quote": "Treatment is optional depending on patient preference, but many patients request treatment for cosmetic reasons or discomfort from shoes.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Efinaconazole mycological cure rate 61.6% but expensive (nail FAQ)",
+     "quote": "Efinaconazole (Jublia), a topical antifungal recently approved by the US Food and Drug Administration, is an effective option for distal and lateral subungual onychomycosis. It has a mycological cure rate of 61.6% but is expensive.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "More than 89% of US tinea capitis caused by Trichophyton; terbinafine reasonable first choice without recent travel outside the US (key takeaway, organisms, capitis, summary, FAQ)",
+     "quote": "terbinafine is a reasonable first choice in patients without recent travel outside of the United States because more than 89% of US tinea capitis cases are caused by Trichophyton.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Terbinafine may be better for Trichophyton (black dot), griseofulvin for Microsporum (gray patch); Microsporum more common in South America, Southern and Central Europe, Africa, Middle East",
+     "quote": "Terbinafine may be superior to griseofulvin for Trichophyton species (typically associated with black dot tinea) [...] (typically associated with gray patch tinea). [...] particularly in South America, Southern and Central Europe, Africa, and the Middle East.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Griseofulvin when culture shows Microsporum (griseofulvin paragraph and oral table, summary)",
+     "quote": "However, if cultures show that the pathogen is Microsporum, patients may require treatment with griseofulvin.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Randomized trials: 4 to 6 week terbinafine courses as effective and safe as griseofulvin, traditionally 6 to 8 weeks; 4-6 weeks for tinea capitis (oral table, FAQ)",
+     "quote": "Although 6 to 8 weeks of griseofulvin therapy has been considered first-line treatment for tinea capitis, randomized clinical trials have shown that shorter treatment courses (4–6 weeks) of terbinafine are equally effective and safe.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Topical terbinafine 1% once daily 1-2 weeks (corporis paragraph, summary)",
+     "quote": "Terbinafine (topical): \"1% once daily\", \"1–2 weeks\" (Table 4 cells as quoted from the PMC article page)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Butenafine 1% once daily 1-4 weeks; ketoconazole 2% once daily 2-4 weeks; ciclopirox 8% lacquer once daily up to 48 weeks (topical table)",
+     "quote": "Butenafine (topical) \"1% once daily\" \"1–4 weeks\"; Ketoconazole (topical) \"2% once daily\" \"2–4 weeks\"; Ciclopirox (topical) \"8% once daily (lacquer)\", up to 48 weeks for onychomycosis (Table 4 cells)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Review advises against topical clotrimazole or miconazole; butenafine and terbinafine work better at similar cost (corporis paragraph, topical section, clotrimazole and miconazole rows, summary)",
+     "quote": "Do not use topical clotrimazole or miconazole to treat tinea infections because topical butenafine and terbinafine have better effectiveness and similar cost.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tinea corporis: red, scaly, itchy annular plaque with active border and central clearing",
+     "quote": "Tinea corporis classically presents as a red, annular, scaly, pruritic plaque with central clearing and an active border",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tinea pedis patterns: chronic interdigital scaling (more common), moccasin pattern, acute interdigital erythema and maceration with painful vesicles",
+     "quote": "Chronic tinea pedis, the more common form, usually involves interdigital scaling, peeling, and erythema [...] The term \"moccasin pattern\" describes tinea pedis that involves erythema and hyperkeratosis on the plantar and lateral aspects of the foot.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Topical terbinafine a first choice for tinea pedis",
+     "quote": "Tinea corporis, tinea cruris, and tinea pedis usually respond to topical creams, such as butenafine, ketoconazole, or terbinafine.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Scrotum typically spared; scrotal involvement suggests candidiasis",
+     "quote": "The scrotum typically is spared, and scrotal involvement may help differentiate tinea cruris from candidiasis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Black dot most common type in the US; untreated tinea capitis can progress to kerion with boggy, tender plaques and pustules; prompt kerion treatment prevents scarring and permanent hair loss",
+     "quote": "Black dot is most common in the United States [...] Untreated tinea capitis may progress to kerion, a condition characterized by boggy, tender plaques and pustules. [...] Prompt treatment of kerion is critical to prevent scarring and permanent hair loss.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Shampoos (selenium sulfide 1% or 2.5%, ketoconazole 2%, ciclopirox 1.5%) for first 2 weeks may reduce transmission (capitis, children section, FAQ)",
+     "quote": "Concomitant treatment with selenium sulfide 1% or 2.5% shampoo, ketoconazole 2% shampoo, or ciclopirox 1.5% shampoo for the first 2 weeks may reduce transmission.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Onychomycosis common cause of dystrophic toenails; long courses, high failure rates, recurrence 20% to 25%; distal subungual form thickened brittle discolored nails",
+     "quote": "Onychomycosis is a common cause of dystrophic toenails in adolescents and adults. [...] Treatment courses for onychomycosis are long (4–48 weeks), failure rates are high, and recurrence rates are 20% to 25%.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Testing recommended before treating nail fungus because course is long and mimics common",
+     "quote": "Diagnostic testing should be used to confirm suspected onychomycosis because the treatment course is long and nonfungal mimics are common.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cultures can take 2 to 6 weeks; tinea capitis often treated empirically",
+     "quote": "Tinea capitis is often treated empirically without diagnostic testing when the clinical presentation is typical. [...] Cultures can take 2 to 6 weeks to yield results",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "2-week topical antifungal trial without steroid, with follow-up, when testing or referral impractical; worsening redirects workup (KOH callout, differential FAQ)",
+     "quote": "When diagnostic testing or dermatology referral is impractical, a 2-week trial of topical antifungal therapy (without a corticosteroid component), with follow-up to document improvement, is a reasonable alternative.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Combination antifungal-corticosteroid creams discouraged: high- or medium-potency steroid, atrophy, systemic effects, may contribute to resistant strains",
+     "quote": "this practice is generally discouraged because the corticosteroid component is often high-potency (clotrimazole-betamethasone) or medium-potency (nystatin-triamcinolone), which can result in skin atrophy or systemic adverse effects.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Non-fungal rash treated with antifungal likely will not improve or will worsen (replaces old claim that eczema will not worsen)",
+     "quote": "If a nonfungal lesion is treated with an antifungal cream, the lesion likely will not improve or will worsen.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Oral terbinafine first-line for onychomycosis, preferred over itraconazole; itraconazole second-line; azoles less effective for mycological cure (oral table, FAQ)",
+     "quote": "For most patients, oral terbinafine, 250 mg once daily for 6 to 12 weeks, is preferred over oral itraconazole [...] azoles were less effective than terbinafine for achieving mycological cure (risk ratio = 0.77; 95% CI, 0.68–0.88).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Oral itraconazole second-line agent for onychomycosis",
+     "quote": "Oral itraconazole is a second-line agent for onychomycosis and is typically used in patients who do not respond to terbinafine",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Assessing cure takes 9 to 12 months because toenails grow slowly (key takeaway, onychomycosis, FAQ)",
+     "quote": "Assessment of cure takes 9 to 12 months because toenails grow slowly.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Onychomycosis confused with chronic trauma or psoriasis; only little toe suggests trauma",
+     "quote": "Onychomycosis may be confused with chronic trauma or psoriasis. [...] Exclusive involvement of the little toe suggests trauma rather than fungal infection.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "T. indotineae uncommon in US; cases most frequently with travel to South Asia or contact with traveler",
+     "quote": "It is uncommon in the United States, but cases have been documented in multiple states, most frequently in patients with travel to or contact with someone who has traveled to South Asia.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "T. indotineae identification requires fungal culture and DNA sequencing at select labs; itraconazole up to 3 months first-line, based mainly on studies from India",
+     "quote": "requires fungal culture and DNA sequencing available only at select laboratories. Based primarily on studies from India, the preferred first-line drug for T indotineae infection is itraconazole (up to 3 months)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "journal",
+   "cited_as": "Nenoff P, Kruger C, Ginter-Hanselmayer G, Tietz HJ. Mycology - an update. Part 1: Dermatomycoses: causative agents, epidemiology and pathogenesis. J Dtsch Dermatol Ges. 2014;12(3):188-209.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24533779/",
+   "pmid": "24533779",
+   "doi": "10.1111/ddg.12245",
+   "record_title": "Mycology - an update. Part 1: Dermatomycoses: causative agents, epidemiology and pathogenesis.",
+   "record_journal": "J Dtsch Dermatol Ges",
+   "record_year": "2014",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract-only source; claims limited to the abstract. Previously cited for onychomycosis prevalence (10%, 20-30% over 60) and allylamine vs azole superiority, neither of which is in the abstract: both removed from this reference (prevalence cut; allylamine claim re-sourced to refs 1 and 4).",
+   "claims": [
+    {
+     "text": "Trichophyton rubrum is the most frequent cause of dermatophyte infection worldwide",
+     "quote": "The anthropophilic dermatophyte Trichophyton rubrum is still the most frequent causative agent worldwide.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "other_web",
+   "cited_as": "American Academy of Dermatology. Ringworm: Diagnosis and Treatment.",
+   "url": "https://www.aad.org/public/diseases/a-z/ringworm-treatment",
+   "version_or_date": "No page date shown (copyright 2026); read 2026-11-15",
+   "retrieved_with": "WebFetch",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Was cited for the Trichophyton indotineae warning, which this page does not contain; that claim moved to refs 1 and 8. Kept only for tinea cruris dosing.",
+   "claims": [
+    {
+     "text": "Tinea cruris: topical antifungal twice daily for 10 to 14 days",
+     "quote": "You typically apply the antifungal twice a day for 10 to 14 days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Bennassar A, Grimalt R. Management of tinea capitis in childhood. Clin Cosmet Investig Dermatol. 2010;3:89-98.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3047946/",
+   "pmid": "21437064",
+   "pmcid": "PMC3047946",
+   "doi": "10.2147/ccid.s7992",
+   "record_title": "Management of tinea capitis in childhood.",
+   "record_journal": "Clin Cosmet Investig Dermatol",
+   "record_year": "2010",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC3047946); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Old entry merged Kakourou T, Uksal U (ESPD guideline, Pediatr Dermatol 2010, PMID 20609140) with this CCID paper; the link opens only the CCID paper by Bennassar and Grimalt, so the merge was removed. The PubMed full-text tool strips italic organism names; claims needing a species name use the abstract or ref 1. A second WebFetch of the PMC page hit a reCAPTCHA check and was not retried. The paper itself still calls griseofulvin the overall drug of choice; the page attributes the US terbinafine preference to ref 1.",
+   "claims": [
+    {
+     "text": "Tinea capitis always requires systemic treatment; topicals do not penetrate to hair follicle root; topical only adjuvant (capitis, children, FAQ)",
+     "quote": "TC always requires systemic treatment because topical antifungal agents do not penetrate down to the hair follicle root. Topical treatment is only used as adjuvant therapy to systemic antifungals.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dermatophytes are keratinophilic; classified as anthropophilic, zoophilic, geophilic",
+     "quote": "Dermatophytes are keratinophilic fungi which belong to three genera [...] On the basis of host preference and natural habitat, dermatophytes are classified as anthropophilic, zoophilic, and geophilic.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "M. canis main cause in many Mediterranean countries; carried by cats, dogs, puppies, kittens, rabbits",
+     "quote": "M. canis remains the predominant causative organism in many countries of the Mediterranean basin, the most important dermatophyte carriers being stray cats and dogs as well as pet puppies, kittens and rabbits.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pediatric terbinafine 62.5 mg (10-20 kg), 125 mg (20-40 kg), 250 mg (40 kg or more) daily; weight-based dosing (table, key takeaway)",
+     "quote": "The standard pediatric single daily dose is 62.5 mg (10–20 kg); 125 mg (20–40 kg) and 250 mg (≥40 kg).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Terbinafine is fungicidal to dermatophytes (topical section, oral table)",
+     "quote": "It is fungicidal to dermatophytes since it inhibits squalene epoxidase",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Griseofulvin microsize 15-25 mg/kg/day, ultramicrosize at lower dose, 6-12 weeks, with fatty foods (griseofulvin paragraph, oral table)",
+     "quote": "The pediatric dose authorized for treating TC is 15–25 mg/kg/day using the microsize formulation. When the ultramicrosize formulation is used a dose of 10–15 mg is recommended because it is better-absorbed",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Griseofulvin duration 6-12 weeks; fatty meals enhance absorption",
+     "quote": "Taking the drug with fatty meals (eg, creamy yoghurt, chocolate or whole milk) may enhance absorption. The recommended duration of therapy for TC is 6–12 weeks",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Griseofulvin: headaches and GI disturbances most common side effects; long course reduces compliance",
+     "quote": "Headaches and gastrointestinal disturbances are the most common side effects. [...] This long duration of treatment required with griseofulvin is a significant disadvantage and leads to noncompliance.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Kerion: oral steroids (prednisolone 1 mg/kg/day for 7 days) reduce scaling and itching but not clearance time; not routine",
+     "quote": "may reduce scaling and itching but does not reduce the clearance time compared with griseofulvin alone. [...] Prednisolone as oral treatment at 1 mg/kg per day for 7 days though this is not recommended as part of routine care",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "School attendance: most children return once treatment started; about 1 week for most contagious type; avoid sharing combs, brushes, scarves, hats",
+     "quote": "the child should usually be allowed school/kindergarten attendance one week after initiation of treatment. [...] In all other cases the child should be allowed to attend school/kindergarten as soon as the treatment has been initiated.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tinea capitis most often caught from infected child directly or via shared items",
+     "quote": "These dermatophytosis are most frequently incurred by contact with an infected child, either directly or via fomites.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Culture media: Sabouraud agar and dermatophyte test medium identify the organism",
+     "quote": "The two most common media are Sabouraud's agar and Mycobiotic agar [...] Dermatophyte test medium (DTM) is similar to Mycobiotic agar but contains a color indicator",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pets should be examined and treated as needed",
+     "quote": "Pets (eg, dogs, cats, guinea pigs, hamsters) should also be examined and treated as necessary.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Household spores; launder, vacuum, disinfect or discard combs and brushes; 5 minutes boiling water (replaces old claim that dermatophytes do not survive long on objects)",
+     "quote": "Viable fungal spores have been isolated from the floor, backs of chairs, clothing, beds, pillows, curtains, brushes, combs [...] for items that can be boiled, eg, combs or possibly hairbrushes, 5 min in boiling water is sufficient.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Zacharopoulou A, Tsiogka A, Tsimpidakis A, et al. Tinea Incognito: Challenges in Diagnosis and Management. J Clin Med. 2024;13(11):3267.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11172699/",
+   "pmid": "38892976",
+   "pmcid": "PMC11172699",
+   "doi": "10.3390/jcm13113267",
+   "record_title": "Tinea Incognito: Challenges in Diagnosis and Management.",
+   "record_journal": "J Clin Med",
+   "record_year": "2024",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC11172699); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Tinea incognito altered by topical/systemic steroids or immunosuppressants; mimics eczema, seborrheic dermatitis, lupus, psoriasis (key takeaway, incognito section)",
+     "quote": "Atypical clinical appearance often necessitates differentiation from other diseases such as eczema, seborrheic dermatitis, lupus erythematosus, psoriasis, or other non-fungal skin conditions.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Confirmation requires mycological examination after stopping topical steroids (incognito section, FAQ)",
+     "quote": "Confirmation of TI diagnosis requires mycological examination after discontinuing topical steroids.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "KOH: quick, simple, affordable; 10% for skin, 40% for nails",
+     "quote": "Direct microscopic examination is a quick, simple, and affordable method for screening superficial mycosis. A 10–40% potassium hydroxide solution (KOH-10% for skin scrapings and 40% for nail clippings) is applied.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "KOH accuracy depends on sample and examiner; DMSO or stain improves visualization; collect scales from periphery",
+     "quote": "The accuracy of the diagnosis depends on the quality of the sample and the skill of the physician [...] skin scales should be collected from the periphery of the plaque",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Treatment: stop steroid or immunosuppressant, treat with antifungals; oral antifungals may be required for severe recurrent infection",
+     "quote": "This can result in a more severe and recurrent infection that is harder to treat. In such cases, oral antifungal medications may be required for a more aggressive treatment approach",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Complete the full course even if symptoms improve (key takeaway, topical section, OTC FAQ)",
+     "quote": "Physicians should emphasize the importance of completing the prescribed treatment in order to completely eradicate the infection, even if the symptoms improve earlier.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Steroids suppress immune response and may contribute to spread; avoid sharing bed linens, towels, clothes, shoes (spreading FAQ)",
+     "quote": "These medications [...] can suppress normal immune responses, and reduce the inflammation limiting fungal infections. This may contribute to the growth and spread of the infection",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "De Doncker P, Decroix J, Pierard GE, et al. Antifungal pulse therapy for onychomycosis. Arch Dermatol. 1996;132(1):34-41.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8546481/",
+   "pmid": "8546481",
+   "doi": "10.1001/archderm.132.1.34",
+   "record_title": "Antifungal pulse therapy for onychomycosis. A pharmacokinetic and pharmacodynamic investigation of monthly cycles of 1-week pulse therapy with itraconazole.",
+   "record_journal": "Arch Dermatol",
+   "record_year": "1996",
+   "article_type": "Clinical Trial; Comparative Study; Randomized Controlled Trial",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. Old text attributed the 2-pulse fingernail regimen and 77-82% figures to this paper; those come from ref 7 and are now cited there.",
+   "claims": [
+    {
+     "text": "50 toenail patients randomized to 3 or 4 pulses; drug detected after first pulse; above 300 ng/g for several months after last pulse",
+     "quote": "Fifty patients with confirmed onychomycosis of the toenails [...] randomly assigned to three (n = 25) or four (n = 25) pulses [...] the drug remains in the nail plate at levels above 300 ng/g for several months.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pulse = 400 mg/day (200 mg twice daily) for 1 week each month; clinical cure 76%-84%, negative mycology 72%-80%",
+     "quote": "pulse therapy with itraconazole (400 mg/d given for 1 week each month for 3 to 4 months) [...] Clinical cure rates between 76% and 84% and negative mycological examination findings between 72% and 80%, respectively, were observed in toenail onychomycosis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "De Doncker P, Gupta AK, Marynissen G, et al. Itraconazole pulse therapy for onychomycosis and dermatomycoses: an overview. J Am Acad Dermatol. 1997;37(6):969-974.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9418766/",
+   "pmid": "9418766",
+   "doi": "10.1016/s0190-9622(97)70074-4",
+   "record_title": "Itraconazole pulse therapy for onychomycosis and dermatomycoses: an overview.",
+   "record_journal": "J Am Acad Dermatol",
+   "record_year": "1997",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "PubMed indexes the first author as Doncker PD. Previously listed but not cited; now cited for the pooled pulse-therapy results (industry-affiliated first author: Janssen Research Foundation).",
+   "claims": [
+    {
+     "text": "Pooled: 3 toenail pulses 77% mycologic cure at 12 months (n=1389); 2 fingernail pulses 87%",
+     "quote": "When three pulses of itraconazole are used to treat toenail onychomycosis (n = 1389), the clinical cure rate, clinical response, and mycologic cure rate [...] were 58% +/- 10%, 82% +/- 3%, and 77% +/- 5%",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Two fingernail pulses: 87% mycologic cure at follow-up",
+     "quote": "With two pulses for onychomycosis of the fingernails, the clinical cure rate, clinical response, and mycologic cure rate at follow-up, 9 months after the start of therapy, were 78% +/- 10%, 89% +/- 6%, and 87% +/- 8%",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. Clinician Brief: Emerging Ringworm. Last reviewed October 13, 2026.",
+   "url": "https://www.cdc.gov/ringworm/hcp/clinical-overview/emerging-ringworm-facts-for-clinicians.html",
+   "version_or_date": "Last reviewed October 13, 2026; read 2026-11-15",
+   "retrieved_with": "WebSearch; WebFetch (two reads)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New reference (replaces old ref 8, Andrews and Burns, Am Fam Physician 2008, which was listed but never cited and had a wrong corporate author). Fetched at cdc.gov/...; the page reports its URL as www.cdc.gov/..., which is the link used.",
+   "claims": [
+    {
+     "text": "T. indotineae widespread in South Asia; reported in Europe, North America, South America, Africa",
+     "quote": "In South Asia, cases of antimicrobial-resistant T. indotineae infections are widespread. [...] increasingly being reported outside of the Indian subcontinent",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Often severe, large areas, difficult to treat; mutations causing terbinafine resistance",
+     "quote": "Ringworm caused by T. indotineae is often severe, covering large regions of the body, and difficult to treat. [...] often has genetic mutations that make it resistant to antifungal drugs, including terbinafine",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Consider travel history; consider susceptibility testing when not improving; testing not widely available (callout, culture paragraph)",
+     "quote": "Healthcare providers should consider patients' travel history if severe or antimicrobial-resistant ringworm is suspected. [...] Consider antimicrobial susceptibility testing when symptoms do not improve with treatment.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antifungal susceptibility testing for dermatophytes not widely available",
+     "quote": "Antifungal susceptibility testing for dermatophytes is not widely available and the United States does not require reporting.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "label",
+   "cited_as": "Terbinafine hydrochloride tablets 250 mg, prescribing information (Dr. Reddy's Laboratories), DailyMed.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e0b309a5-bebe-c6da-2847-bda21aa488b1",
+   "version_or_date": "DailyMed 'Updated December 19, 2024' (current version published Dec 23, 2024; highlights 'Revised: 4/2011'); read 2026-11-15",
+   "retrieved_with": "WebSearch; WebFetch (two reads)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source for oral terbinafine dosing, liver and taste warnings, nail testing before treatment, and time to visible result. Replaces the uncited 'Check LFTs in patients with hepatic disease' and 'taste disturbance ~3%'.",
+   "claims": [
+    {
+     "text": "250 mg once daily 6 weeks fingernail, 12 weeks toenail (key takeaway, oral table, FAQ, summary)",
+     "quote": "Fingernail onychomycosis: One 250 mg tablet once daily for 6 weeks. [...] Toenail onychomycosis: One 250 mg tablet once daily for 12 weeks.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Liver failure, some with transplant or death; not recommended in chronic or active liver disease; ALT/AST before starting",
+     "quote": "Cases of liver failure, some leading to liver transplant or death, have occurred with the use of terbinafine tablets in individuals with and without pre-existing liver disease. [...] not recommended for patients with chronic or active liver disease.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Measure transaminases before starting",
+     "quote": "Measurement of serum transaminases (ALT and AST) is advised for all patients before taking terbinafine tablets.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Taste disturbance 2.8% vs 0.7% placebo; taste and smell loss reported",
+     "quote": "Taste Disturbance | 2.8 | 0.7 [adverse reactions table]; Taste disturbance, including taste loss, has been reported [...] Smell disturbance, including loss of smell, has been reported",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Indication is onychomycosis; nail specimens (KOH, culture, biopsy) before treatment",
+     "quote": "indicated for the treatment of onychomycosis of the toenail or fingernail due to dermatophytes [...] appropriate nail specimens for laboratory testing (KOH preparation, fungal culture, or nail biopsy) should be obtained",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Best visible result some months after mycological cure and end of treatment",
+     "quote": "The optimal clinical effect is seen some months after mycological cure and cessation of treatment.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "label",
+   "cited_as": "Itraconazole capsules 100 mg, prescribing information (AvPAK), DailyMed.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=68165d90-953c-e2f5-e053-2a91aa0ada25",
+   "version_or_date": "DailyMed updated January 11, 2026 (repackager label; source NDC 65162-630); read 2026-11-15",
+   "retrieved_with": "WebSearch; WebFetch (two reads, offset 0 and 100000)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source. Corrects the old table (toenail pulse regimen presented as standard, 'equally effective to terbinafine', 'take with food'). The boxed-warning CHF sentence was truncated in the tool output, so the patient-information wording is quoted.",
+   "claims": [
+    {
+     "text": "Toenail 200 mg once daily 12 weeks; fingernail two 1-week courses 200 mg twice daily separated by 3 weeks (oral table, pulse section)",
+     "quote": "The recommended dose is 200 mg (2 capsules) once daily for 12 consecutive weeks. [...] Fingernails only: The recommended dosing regimen is 2 treatment courses each consisting of 200 mg (2 capsules) b.i.d. (400 mg/day) for 1 week.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Capsules after a full meal",
+     "quote": "Itraconazole capsules should be administered after a full meal.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Boxed warning: heart failure, drug interactions; not for nail fungus with history of heart failure",
+     "quote": "Congestive Heart Failure, Cardiac Effects and Drug Interactions: [...] Do not take itraconazole capsules for fungal nail infections if you have had heart failure, including congestive heart failure.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nail specimens (KOH, culture, biopsy) before treatment",
+     "quote": "appropriate nail specimens for laboratory testing (KOH preparation, fungal culture, or nail biopsy) should be obtained",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "label",
+   "cited_as": "Griseofulvin oral suspension USP (microsize) 125 mg/5 mL, prescribing information (Actavis Pharma), DailyMed.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=af318d5d-cc39-4a63-a590-b87c50f2694f",
+   "version_or_date": "Label text 'Updated September 30, 2023'; DailyMed archive lists version 17 published Jun 18, 2025; read 2026-11-15",
+   "retrieved_with": "WebSearch; WebFetch",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source. The US label pediatric dose (10 mg/kg daily) is lower than the published regimens in ref 4 (15-25 mg/kg/day); the page now states both. The 'safety above 10 mg/kg' wording was relayed by the fetch tool in part as a paraphrase, so it is logged partly_supported.",
+   "claims": [
+    {
+     "text": "Pediatric 10 mg/kg daily usually adequate; tinea capitis 4 to 6 weeks (griseofulvin paragraph, oral table)",
+     "quote": "A dosage of 10 mg/kg daily is usually adequate [...] tinea capitis, 4 to 6 weeks; tinea corporis, 2 to 4 weeks; tinea pedis, 4 to 8 weeks",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Safety not established above 10 mg/kg daily or at 2 years and younger",
+     "quote": "Safety and effectiveness in pediatric patients 2 years of age and younger have not been established. [...] in pediatric patients older than 2 years of age at dosages greater than 10 mg/kg daily has not been established",
+     "quote_source": "label",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "High-fat meal increases serum level",
+     "quote": "The serum level may be increased by giving the drug with a meal with a high fat content.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Contraindicated in porphyria, hepatocellular failure, pregnancy",
+     "quote": "Griseofulvin is contraindicated in patients with porphyria or hepatocellular failure [...] griseofulvin is contraindicated in women who are or may become pregnant during treatment",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "label",
+   "cited_as": "Terbinafine hydrochloride cream 1% (OTC), Drug Facts (Preferred Pharmaceuticals), DailyMed.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6016e546-6c02-4af0-888c-c0899865c5f0",
+   "version_or_date": "DailyMed updated October 9, 2026 (repackager label; source NDC 51672-2080); read 2026-11-15",
+   "retrieved_with": "WebSearch; WebFetch",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Jock itch and ringworm once daily for 1 week (corporis paragraph, table, FAQ)",
+     "quote": "for jock itch and ringworm: apply once a day (morning or night) for 1 week or as directed by a doctor.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Athlete's foot twice daily 1 week between toes, 2 weeks bottom or sides (pedis paragraph, table, FAQ)",
+     "quote": "between the toes only: apply twice a day (morning and night) for 1 week [...] on the bottom or sides of the foot: apply twice a day (morning and night) for 2 weeks",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Labeled to cure most athlete's foot, jock itch, ringworm; do not use on nails or scalp (OTC FAQ)",
+     "quote": "cures most jock itch (tinea cruris) and ringworm (tinea corporis) [...] Do not use on nails or scalp",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "label",
+   "cited_as": "Clotrimazole cream USP 1% (OTC), Drug Facts (Sun Pharmaceutical Industries), DailyMed.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a3a5cbf5-cabb-48d8-8877-74a97f7c0f57",
+   "version_or_date": "DailyMed updated July 3, 2025; read 2026-11-15",
+   "retrieved_with": "WebSearch; WebFetch",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Twice daily; 2 weeks jock itch, 4 weeks athlete's foot and ringworm (corporis paragraph, table, FAQ, summary)",
+     "quote": "For athlete's foot and ringworm:use daily for 4 weeks. For jock itch:use daily for 2 weeks. [...] apply a thin layer of the product over affected area twice daily (morning and night)",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ask a doctor if no improvement within 4 weeks (athlete's foot, ringworm) or 2 weeks (jock itch); cures most tinea (FAQs)",
+     "quote": "there is no improvement within 4 weeks (for athlete's foot and ringworm) or within 2 weeks (for jock itch)",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Labeled to cure most athlete's foot, jock itch, ringworm (OTC FAQ)",
+     "quote": "cures most athlete's foot (tinea pedis), jock itch (tinea cruris), and ringworm (tinea corporis)",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "label",
+   "cited_as": "Miconazole nitrate cream USP 2% (OTC), Drug Facts (Cardinal Health), DailyMed.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=776ca76a-a6cc-5238-e053-2a91aa0abfcb",
+   "version_or_date": "DailyMed updated November 25, 2025; read 2026-11-15",
+   "retrieved_with": "WebSearch; WebFetch",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Twice daily; 2 weeks jock itch, 4 weeks athlete's foot and ringworm (corporis paragraph, table, FAQ)",
+     "quote": "Apply a thin layer over affected area twice daily (morning and night) [...] For jock itch, use daily for 2 weeks [...] For athlete's foot and ringworm, use daily for 4 weeks",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Labeled for most athlete's foot, jock itch, ringworm (OTC FAQ)",
+     "quote": "For the treatment of most athlete's foot, tinea pedis, jock itch, tinea crusis, ringworm, tinea corporis",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}
