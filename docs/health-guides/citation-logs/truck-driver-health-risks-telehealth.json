@@ -447,6 +447,31 @@
       ],
       "retrieved_at": "2026-11-15",
       "editorial_notices": []
+    },
+    {
+      "n": 14,
+      "cited_as": "988 Suicide & Crisis Lifeline. Home page. Accessed November 15, 2026.",
+      "url": "https://988lifeline.org/",
+      "kind": "agency_page",
+      "retrieved_with": "WebFetch of the official 988 Lifeline home page (full page text, HTTP 200)",
+      "version_or_date": "No last-updated date shown on page; accessed 2026-11-15",
+      "notes": "Added on assembly to give a crisis resource where suicide is discussed. Page buttons: Call (tel:988), Text (sms:988), Chat (chat.988lifeline.org).",
+      "claims": [
+        {
+          "text": "988 Lifeline available 24/7/365; conversations free and confidential",
+          "quote": "The 988 Lifeline is available 24/7/365. Your conversations are free and confidential.",
+          "quote_source": "page text, section What to Expect",
+          "verdict": "supported"
+        },
+        {
+          "text": "Reach the Lifeline by call, text or chat",
+          "quote": "Call, text, or chat with a 988 Lifeline counselor for help during difficult moments anytime, day or night.",
+          "quote_source": "page text, section Find Support for a Friend or Loved One",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
     }
   ]
 }
