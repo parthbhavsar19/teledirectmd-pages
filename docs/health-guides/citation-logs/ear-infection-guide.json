@@ -1,0 +1,596 @@
+{
+ "guide": "ear-infection-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 4 verified (10.1177/0194599813517083, 10.1136/bmj.327.7425.1201, 10.1002/14651858.CD004740.pub2, plus cut ref 10.1136/bmj.n714), retractions: none. Jackson 2023 has no DOI; Scite matched a different paper, so PubMed record relied on. PubMed article types: no Retracted Publication or Retraction Notice. Ref 1 has a correction/erratum (2014), noted.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "Rosenfeld RM, Schwartz SR, Cannon CR, et al. Clinical practice guideline: acute otitis externa. Otolaryngol Head Neck Surg. 2014;150(1 Suppl):S1-S24.",
+   "pmid": "24491310",
+   "doi": "10.1177/0194599813517083",
+   "record_title": "Clinical practice guideline: acute otitis externa.",
+   "record_journal": "Otolaryngol Head Neck Surg",
+   "record_year": "2014",
+   "article_type": "Journal Article; Meta-Analysis; Review (AAO-HNSF clinical practice guideline)",
+   "version_or_date": "February 2014 update of the 2006 guideline; erratum 2014-02-24",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite read_fulltext (abstract only, full text access-restricted); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [
+    "Correction/erratum 10.1177/0194599814524717 (2014-02-24), per Scite; PubMed abstract shows the 48 to 72 hour figure as [corrected]; this is a correction only."
+   ],
+   "notes": "Full text not readable (Wiley page failed; Scite served abstract only). Claims limited to the abstract. Target patient aged 2 years or older.",
+   "claims": [
+    {
+     "text": "Distinguish swimmer's ear from other causes, including middle-ear disease; need exam",
+     "quote": "clinicians should distinguish diffuse AOE from other causes of otalgia, otorrhea, and inflammation of the external ear canal",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Topical therapy is initial treatment for uncomplicated AOE",
+     "quote": "clinicians should prescribe topical preparations for initial therapy of diffuse, uncomplicated AOE",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No routine systemic antibiotics unless extension outside canal or host factors",
+     "quote": "clinicians should not prescribe systemic antimicrobials as initial therapy for diffuse, uncomplicated AOE unless there is extension outside the ear canal or the presence of specific host factors",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Assess and treat pain",
+     "quote": "clinicians should assess patients with AOE for pain and recommend analgesic treatment based on the severity of pain",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Non-ototoxic drop when perforation known or suspected, including tube",
+     "quote": "clinicians should prescribe a non-ototoxic preparation when the patient has a known or suspected perforation of the tympanic membrane, including a tympanostomy tube",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Reassess if no response in 48 to 72 hours",
+     "quote": "clinicians should reassess the patient who fails to respond to the initial therapeutic option within 48 to 72 hours [corrected] to confirm the diagnosis of diffuse AOE and to exclude other causes of illness",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Obstructed canal: clinician aural toilet and/or wick; teach drop administration",
+     "quote": "enhance the delivery of topical drops by informing the patient how to administer topical drops and by performing aural toilet, placing a wick, or both, when the ear canal is obstructed",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Diabetes, immunocompromised state, prior radiotherapy, nonintact TM, tubes modify management",
+     "quote": "assess the patient with diffuse AOE for factors that modify management (nonintact tympanic membrane, tympanostomy tube, diabetes, immunocompromised state, prior radiotherapy)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "AOE is diffuse inflammation of the canal, almost exclusively bacterial (contagious section)",
+     "quote": "recommendations for management will be limited to diffuse AOE, which is almost exclusively a bacterial infection",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24491310/"
+  },
+  {
+   "n": 2,
+   "kind": "guideline",
+   "cited_as": "American Academy of Otolaryngology–Head and Neck Surgery. Clinical Practice Guideline: Acute Otitis Externa (Update). Published February 2014; page last modified April 25, 2023.",
+   "version_or_date": "Published February 2014; page last modified April 25, 2023",
+   "retrieved_with": "WebFetch of official AAO-HNS page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Society landing page; no key action statements on the page itself. Cited only to date and name the guideline.",
+   "claims": [
+    {
+     "text": "The named US specialty guideline is the 2014 AAO-HNSF AOE guideline, target patients 2 years and older",
+     "quote": "The target patient is aged 2 years or older with diffuse AOE.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ],
+   "url": "https://www.entnet.org/quality-practice/quality-products/clinical-practice-guidelines/aoe/"
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "Jackson EA, Geer K. Acute Otitis Externa: Rapid Evidence Review. Am Fam Physician. 2023;107(2):145-151.",
+   "pmid": "36791445",
+   "record_title": "Acute Otitis Externa: Rapid Evidence Review.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2023",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of aafp.org full text (three reads); Scite verify_papers by reference (matched a different 2022 paper, so PubMed record relied on)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "No DOI in PubMed. Full-text quotes come via WebFetch extraction of the AAFP article page. Mastoiditis is not mentioned in this article.",
+   "claims": [
+    {
+     "text": "Topical antibiotics and analgesics are mainstays; oral antibiotics only for spread beyond canal or host factors",
+     "quote": "Oral antibiotics are indicated only if evidence of cellulitis occurs outside of the ear canal or if associated conditions such as immunocompromise, diabetes mellitus, or conditions that would not allow for the use of topical treatment are found.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No preparation clinically superior; choice by cost, TM integrity, adherence",
+     "quote": "There is no evidence that any one preparation is clinically superior to another, and the choice of treatment is based on factors such as cost, whether the tympanic membrane is intact, and patient adherence.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tragus/pinna tenderness classic; redness and swelling of canal",
+     "quote": "Tenderness on movement of the pinna or tragus is the classic finding.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptoms: itching, fullness, hearing change, discharge",
+     "quote": "Itching ... Sense of fullness ... With or without hearing loss or jaw pain ... May also have otorrhea, tympanic membrane rupture, pinna cellulitis, or local lymphadenitis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Risk factors: hearing aids, earbuds, earplugs, instrumentation, eczema, swimming most common",
+     "quote": "Swimming is the most common risk factor for acute otitis externa. ... Hearing aid or ear bud usage ... Earplug usage ... Instrumentation or itching of canal ... Eczema",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "AOM: middle-ear effusion, no tragal or pinnal tenderness; treated with systemic antibiotics (different plan)",
+     "quote": "Presence of middle ear effusion, no tragal or pinnal tenderness ... Use pneumatic otoscopy or tympanometry; treat with systemic antibiotics",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ototoxic agents (aminoglycosides, isopropyl alcohol) not used with perforation; neomycin product warning",
+     "quote": "If a perforation or suspected perforation of the tympanic membrane has occurred, topical medications that are potentially ototoxic (e.g., aminoglycosides, isopropyl alcohol) should not be used",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ofloxacin and cipro/dex usable with perforated TM; quinolones only FDA-approved for middle ear",
+     "quote": "The only topical agents approved by the U.S. Food and Drug Administration for the middle ear are quinolones.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Wick for marked canal edema",
+     "quote": "If marked canal edema has occurred, the physician may use a wick to improve drug delivery to the canal.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Analgesics: acetaminophen, NSAIDs",
+     "quote": "Analgesics that can provide relief include acetaminophen, nonsteroidal anti-inflammatory drugs",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most patients improve within 24 to 72 hours; reassess if not",
+     "quote": "Most patients will improve within 24 to 72 hours of beginning treatment. For those who do not improve in that time frame, reassessment is warranted.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Follow-up if symptoms not resolved after two weeks",
+     "quote": "Follow-up should be recommended for any patient who does not have symptom resolution after two weeks of therapy.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Specialist referral if condition worsens despite adequate therapy",
+     "quote": "if the patient's condition worsens despite adequate therapy",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Facial numbness or paralysis with ear pain fits Ramsay Hunt syndrome, treated with antivirals and systemic corticosteroids",
+     "quote": "Herpetic ulcers in canal; may have facial numbness or paralysis, severe pain, loss of taste ... Treatment includes antivirals, systemic corticosteroids",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prevention: avoid canal injury, keep canal dry; poorly fitting earplugs raise risk",
+     "quote": "Keys to prevention include avoiding injury to the ear canal and keeping it free of water.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Video visit cannot replace otoscopy: pneumatic otoscopy differentiates AOE from otitis media",
+     "quote": "Use of pneumatic otoscopy is recommended to help differentiate acute otitis externa from otitis media",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36791445/"
+  },
+  {
+   "n": 4,
+   "kind": "agency_page",
+   "cited_as": "CDC. Preventing Swimmer’s Ear. Updated May 28, 2025.",
+   "version_or_date": "May 28, 2025",
+   "retrieved_with": "WebFetch of official CDC page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Page does not address swimming during treatment; that claim was moved to refs 5 and 11.",
+   "claims": [
+    {
+     "text": "No drying drops with tubes, punctured eardrum, swimmer's ear, or drainage",
+     "quote": "Don't use these drops if you have ear tubes (tympanostomy tubes), punctured ear drums, swimmer's ear, or ear drainage.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ask a clinician about preventive drying drops; see clinician for ear pain or drainage",
+     "quote": "Check with your healthcare provider about using ear-drying drops after swimming ... Check with your healthcare provider if you have ear pain or drainage from the ear.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prevention: towel dry, tilt head to drain, no objects including cotton swabs",
+     "quote": "Tilt head back and forth so that each ear faces down to allow water to drain out of the ear canal. ... Use a towel to dry ears well. ... Including cotton-tip swabs, pencils, paperclips, or keys.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Swimmer's ear is not contagious",
+     "quote": "Swimmer's ear cannot be spread from one person to another.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://www.cdc.gov/healthy-swimming/prevention/preventing-swimmers-ear.html"
+  },
+  {
+   "n": 5,
+   "kind": "label",
+   "cited_as": "DailyMed. Ofloxacin otic solution 0.3% (Apotex; repackaged by Proficient Rx), prescribing information. Updated September 1, 2022.",
+   "version_or_date": "DailyMed label version 4, updated September 1, 2022 (setid 14e6e355-3a87-43dc-80a2-070b9df93bf1)",
+   "retrieved_with": "WebFetch of DailyMed label (two reads)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "213-adult trial figures previously cited here were moved to ref 7.",
+   "claims": [
+    {
+     "text": "Otitis externa age 13+: 10 drops once daily for 7 days",
+     "quote": "Ten drops (0.5 mL, 1.5 mg ofloxacin) instilled into the affected ear once daily for seven days.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Different twice-daily middle-ear regimens; indications involving non-intact membrane",
+     "quote": "Ten drops (0.5 mL, 1.5 mg ofloxacin) instilled into the affected ear twice daily for fourteen days.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Warm bottle in hand one or two minutes",
+     "quote": "The solution should be warmed by holding the bottle in the hand for one or two minutes.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pull outer ear up and back for canal infection; avoid tip contamination; wash hands",
+     "quote": "the person giving the drops should gently pull the outer ear upward and backward. ... Avoid contaminating the applicator tip with material from the fingers or other sources.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Remain in position five minutes",
+     "quote": "This position should be maintained for five minutes to facilitate penetration of the drops into the ear canal.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Avoid swimming unless doctor instructs otherwise",
+     "quote": "Avoid swimming unless the doctor has instructed otherwise.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14e6e355-3a87-43dc-80a2-070b9df93bf1"
+  },
+  {
+   "n": 6,
+   "kind": "label",
+   "cited_as": "DailyMed. Ciprofloxacin 0.3% and dexamethasone 0.1% otic suspension (Sentiss), prescribing information. Revised April 2026.",
+   "version_or_date": "Revised 4/2026 (effective 2026-04-16), setid 355fa56f-d7a8-444e-9dec-8ba1fa4ab0d8",
+   "retrieved_with": "WebFetch of DailyMed label (two reads)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "AOE: 4 drops twice daily for 7 days",
+     "quote": "instilled into the affected ear twice daily for seven days.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Indicated for AOE and for AOM with tympanostomy tubes (non-intact membrane)",
+     "quote": "Acute Otitis Media (AOM) in pediatric patients (age 6 months and older with tympanostomy tubes",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Shake well; warm in hand",
+     "quote": "Shake well immediately before use. ... The suspension should be warmed by holding the bottle in the hand for one or two minutes to avoid dizziness",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lie with ear up; maintain 60 seconds (one minute)",
+     "quote": "The patient should lie with the affected ear upward, and then the drops should be instilled. ... This position should be maintained for 60 seconds to facilitate penetration of the drops into the ear canal.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Wash hands; do not touch tip; pull outer ear up and back",
+     "quote": "Wash your hands with soap and water ... Do not touch your ear, fingers, or other surfaces with the tip ... Gently pull the outer ear lobe upward and backward",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=355fa56f-d7a8-444e-9dec-8ba1fa4ab0d8&type=display"
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "van Balen FA, Smit WM, Zuithoff NP, Verheij TJ. Clinical efficacy of three common treatments in acute otitis externa in primary care: randomised controlled trial. BMJ. 2003;327(7425):1201-5.",
+   "pmid": "14630756",
+   "pmcid": "PMC274056",
+   "doi": "10.1136/bmj.327.7425.1201",
+   "record_title": "Clinical efficacy of three common treatments in acute otitis externa in primary care: randomised controlled trial.",
+   "record_journal": "BMJ",
+   "record_year": "2003",
+   "article_type": "Randomized Controlled Trial; Multicenter Study",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC returned no body text, abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Only abstract readable; the earlier claim that the trial excluded perforated eardrums was cut.",
+   "claims": [
+    {
+     "text": "213 adults in Dutch general practice; median 6 to 8 days across three drops",
+     "quote": "213 adults with acute otitis externa. ... Symptoms lasted for a median of 8.0 days (95% confidence interval 7.0 to 9.0) in the acetic acid group, 7.0 days ... and 6.0 days",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Acetic acid alone worse later than steroid-containing drops",
+     "quote": "Compared with the acetic acid group, significantly more patients were cured in the steroid and acetic acid group and steroid and antibiotic group at day 14",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14630756/"
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "Kaushik V, Malik T, Saeed SR. Interventions for acute otitis externa. Cochrane Database Syst Rev. 2010;(1):CD004740.",
+   "pmid": "20091565",
+   "pmcid": "PMC13273800",
+   "doi": "10.1002/14651858.CD004740.pub2",
+   "record_title": "Interventions for acute otitis externa.",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2010",
+   "article_type": "Systematic Review; Meta-Analysis",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "19 RCTs, 3,382 participants; only two in primary care; low quality",
+     "quote": "Nineteen randomised controlled trials with a total of 3382 participants were included. ... only two of the 19 trials included in the review were conducted in a primary care population setting",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No clinically meaningful differences among most topical treatments; steroid not proven necessary",
+     "quote": "In general, no clinically meaningful differences were noted in clinical cure rates between the various topical interventions reviewed.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Topical treatment alone effective; choice by ototoxicity, contact sensitivity, cost, dosing",
+     "quote": "Topical treatments alone, as distinct from systemic ones, are effective for uncomplicated acute otitis externa.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Drop choice factors include contact sensitivity (allergy), cost, dosing schedule",
+     "quote": "the preferred choice of topical treatment may be determined by other factors, such as risk of ototoxicity, risk of contact sensitivity, risk of developing resistance, availability, cost and dosing schedule",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptoms persisting beyond two weeks are treatment failures",
+     "quote": "Patients with persisting symptoms beyond two weeks should be considered treatment failures and alternative management initiated.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20091565/"
+  },
+  {
+   "n": 9,
+   "kind": "agency_page",
+   "cited_as": "National Health Service. Ear infections. Page last reviewed January 16, 2025.",
+   "version_or_date": "Page last reviewed 16 January 2025",
+   "retrieved_with": "WebFetch of official NHS page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "UK page; does not list facial weakness, stiff neck or 999/A&E signs.",
+   "claims": [
+    {
+     "text": "Urgent signs: very high temperature, swelling around the ear, fluid from ear, hearing change, feeling unwell",
+     "quote": "have a very high temperature, or feel hot, cold or shivery ... have swelling around the ear ... fluid is coming out of the ear ... have a change in hearing or new hearing loss",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Outer ear vs middle ear; middle ear often from colds and flu; middle ear is the area behind the eardrum",
+     "quote": "Caused by viruses like colds and flu ... connects the middle ear (area behind the eardrum) to the back of the nose ... Affects the ear canal (the tube between the outer ear and the eardrum)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Change in hearing or new hearing loss with an ear infection needs urgent assessment",
+     "quote": "have a change in hearing or new hearing loss",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Self-care: painkillers, keep water out, no cotton buds",
+     "quote": "Do not let water or shampoo get in your ear.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://www.nhs.uk/conditions/ear-infections/"
+  },
+  {
+   "n": 10,
+   "kind": "other_web",
+   "cited_as": "TeleDirectMD. Ear Pain Online Treatment.",
+   "version_or_date": "Accessed 2026-11-15",
+   "retrieved_with": "WebFetch of teledirectmd.com service page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Self-citation for service scope only. Page says adults, $79, 40+ states. 'Short-term assessment' and the list of items reviewed by video are original guide wording kept under the service-scope rule; page says 'We review your symptom history, severity, and red flags.'",
+   "claims": [
+    {
+     "text": "Video cannot reliably inspect canal or eardrum; in-person otoscopy when uncertain",
+     "quote": "Telehealth cannot replace direct visualization of the ear canal and tympanic membrane for complex cases.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "TeleDirectMD lists adult ear-pain care; video reviews history and warning signs",
+     "quote": "This page is for adults located in one of our covered states ... We review your symptom history, severity, and red flags.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ],
+   "url": "https://teledirectmd.com/ear-pain-treatment-online/"
+  },
+  {
+   "n": 11,
+   "kind": "guideline",
+   "cited_as": "AAO-HNSF. Plain Language Summary: Acute Otitis Externa (Swimmer’s Ear), based on the February 2014 guideline.",
+   "version_or_date": "Undated PDF (uploaded 2021-04) based on the February 2014 guideline",
+   "retrieved_with": "WebFetch of entnet.org PDF (two reads)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Guideline body's own patient summary. WebFetch caps quotes at 125 characters; quotes below are as extracted.",
+   "claims": [
+    {
+     "text": "Stay away from water 7 to 10 days during treatment",
+     "quote": "During treatment: Patients with swimmer's ear should stay away from water for 7-10 days during their treatment.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Return to swimming 2 to 3 days after completing treatment if pain gone",
+     "quote": "Swimmers may return to swimming 2-3 days after completing treatment",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://www.entnet.org/wp-content/uploads/2021/04/AOEGuidelinePLSFinal.pdf"
+  },
+  {
+   "n": 12,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. Malignant otitis externa. Review date April 29, 2026.",
+   "version_or_date": "Review Date 4/29/2026",
+   "retrieved_with": "WebFetch of medlineplus.gov page (four reads)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "NLM patient encyclopedia. Does not mention stiff neck.",
+   "claims": [
+    {
+     "text": "Emergency (911): convulsions, decreased consciousness, severe confusion, facial weakness, loss of voice or difficulty swallowing with ear pain or drainage",
+     "quote": "Go to the emergency room or call the local emergency number (such as 911) if you have: Convulsions ... Decreased consciousness ... Severe confusion ... Facial weakness, loss of voice, or difficulty swallowing associated with ear pain or drainage",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Risk mainly in diabetes or weakened immune system",
+     "quote": "Risks for this condition include: ... Diabetes",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Warning symptoms: deep ear pain, foul drainage, fever, facial weakness",
+     "quote": "Ongoing drainage from the ear that is yellow or green and smells bad. Ear pain deep inside the ear. ... Fever. ... Weakness in the muscles of the face.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://medlineplus.gov/ency/article/000672.htm"
+  },
+  {
+   "n": 13,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. Mastoiditis. Review date April 29, 2026.",
+   "version_or_date": "Review Date 4/29/2026",
+   "retrieved_with": "WebFetch of medlineplus.gov page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Lists meningitis and facial paralysis as possible complications; does not list stiff neck or confusion as warning signs.",
+   "claims": [
+    {
+     "text": "Mastoiditis is infection of the mastoid bone, most often from a middle-ear infection",
+     "quote": "Mastoiditis is an infection of the mastoid bone of the skull. ... most often caused by a middle ear infection",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptoms: redness or swelling behind the ear, ear sticks out, drainage, fever, hearing loss",
+     "quote": "Redness of the ear or behind the ear ... Swelling behind the ear may cause ear to stick out ... Drainage from the ear ... Fever, may be high or suddenly increase ... Hearing loss",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Contact a clinician for mastoiditis symptoms or an ear infection not responding to treatment",
+     "quote": "Contact your health care provider if you have symptoms of mastoiditis. ... You have an ear infection that does not respond to treatment or is followed by new symptoms.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://medlineplus.gov/ency/article/001034.htm"
+  },
+  {
+   "n": 14,
+   "kind": "agency_page",
+   "cited_as": "National Health Service. Mastoiditis. Page last reviewed August 17, 2026.",
+   "version_or_date": "Page last reviewed 17 August 2026",
+   "retrieved_with": "WebFetch of nhs.uk page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "NHS urgency level is urgent GP appointment or NHS 111, not 999/A&E; the guide labels these urgent same-day signs, not emergency signs.",
+   "claims": [
+    {
+     "text": "Pain, soreness, tenderness, redness, swelling behind the ear (may stick out), discharge, high temperature, headache, hearing loss",
+     "quote": "pain, soreness or tenderness behind the ear ... redness behind the ear ... swelling behind the ear, which can cause it to stick out ... a high temperature ... headache ... hearing loss in the affected ear",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Urgent care for mastoiditis symptoms",
+     "quote": "Urgent advice: Ask for an urgent GP appointment or get help from NHS 111 if: ... have symptoms of mastoiditis",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://www.nhs.uk/conditions/mastoiditis/"
+  }
+ ]
+}

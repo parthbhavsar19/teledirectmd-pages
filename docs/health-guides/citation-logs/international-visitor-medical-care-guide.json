@@ -1,0 +1,1006 @@
+{
+  "guide": "international-visitor-medical-care-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 14 verified (all 14 DOIs from the original page, including the 7 now cut), retractions: 10.1016/j.wem.2023.05.013 (WMS 2024 altitude guideline; Scite shows Retracted 2023-10-11 and Withdrawn 2023-12-27 notices) was cut. The 7 DOIs kept (Barrett, Riddle, Gupta, Huttner, Noe, Murphy, Furian) have no editorial notices; PubMed article types show no Retracted Publication or Retraction Notice for any of them.",
+  "references": [
+    {
+      "n": 1,
+      "kind": "agency_page",
+      "cited_as": "Centers for Medicare & Medicaid Services. Providers: Payment Resolution with Patients (good faith estimates and patient-provider dispute resolution). Page last modified August 26, 2026. Accessed November 15, 2026.",
+      "url": "https://www.cms.gov/initiatives/no-surprise-billing/overview/policies-resources/providers-payment-resolution-patients",
+      "version_or_date": "Page last modified 08/26/2026",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Uninsured or self-pay patients must get a good faith estimate once they schedule an item or service, and also when they ask for one (takeaways, cost section, FAQ, citable summary)",
+          "quote": "Once an uninsured (or self-pay) consumer schedules an item or service ... that provider or facility must give them a good faith estimate ... A provider or facility must also give this good faith estimate when a consumer requests it",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "A provider bill at least $400 more than the good faith estimate can go to the federal patient-provider dispute resolution process",
+          "quote": "who get a bill from a provider that’s at least $400 more than the expected charges",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Good faith estimate rules protect uninsured or self-pay people (No Surprises Act callout)",
+          "quote": "protect uninsured (or self-pay) consumers",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "agency_page",
+      "cited_as": "Centers for Medicare & Medicaid Services. Ending Surprise Medical Bills (No Surprises Act). Page last modified September 10, 2024. Accessed November 15, 2026.",
+      "url": "https://www.cms.gov/nosurprises/ending-surprise-medical-bills",
+      "version_or_date": "Page last modified 09/10/2024",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "No Surprises Act, effective January 1, 2022, protects insured patients from balance billing for emergency care regardless of network status",
+          "quote": "As of January 1, 2022, consumers have new billing protections when getting emergency care ... regardless of whether or not a provider or facility is in-network",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Protections also cover air ambulance and non-emergency care from out-of-network providers at in-network facilities",
+          "quote": "non-emergency care from out-of-network providers at in-network facilities ... air ambulance services from out-of-network providers",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "CMS describes these protections for people with health coverage",
+          "quote": "if consumers had health coverage",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "other_web",
+      "cited_as": "United States Code, Title 21, Section 353(b)(1). Exemptions and consideration for certain drugs, devices, and biological products. 2024 edition, U.S. Government Publishing Office. Accessed November 15, 2026.",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title21/html/USCODE-2024-title21-chap9-subchapV-partA-sec353.htm",
+      "version_or_date": "U.S. Code 2024 edition",
+      "retrieved_with": "WebFetch of govinfo.gov (USCODE-2024 edition)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The statute says \"practitioner licensed by law\"; that a home-country license does not qualify is an inference the page states as a planning step, not a quote.",
+      "claims": [
+        {
+          "text": "A prescription drug is dispensed only on the prescription of a practitioner licensed by law to administer it (quoted in the prescriptions section)",
+          "quote": "shall be dispensed only (i) upon a written prescription of a practitioner licensed by law to administer such drug",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "So plan on a US-licensed clinician writing a new prescription (takeaways, FAQ, citable summary; plain inference from the statute)",
+          "quote": "shall be dispensed only (i) upon a written prescription of a practitioner licensed by law to administer such drug",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "agency_page",
+      "cited_as": "U.S. Drug Enforcement Administration. Traveling to the U.S. with Medication (flyer; file dated May 2026, no printed date). Accessed November 15, 2026.",
+      "url": "https://www.dea.gov/sites/default/files/2026-05/Traveling%20With%20Medication_5.pdf",
+      "version_or_date": "DEA flyer, file path dated 2026-05; no printed date",
+      "retrieved_with": "WebFetch of official DEA PDF",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The flyer says \"Customs and Border Patrol\"; the page uses the agency's correct name, Customs and Border Protection.",
+      "claims": [
+        {
+          "text": "Foreign visitors may bring up to 50 dosage units of controlled substances for personal use",
+          "quote": "Foreign visitors are allowed to bring up to 50 dosage units of controlled substances into the U.S. for personal use.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Original container; label with chemical or trade name and schedule symbol, or pharmacy/practitioner information and prescription number",
+          "quote": "Medication is in its original container ... The medication label includes the drug’s chemical or trade name and schedule symbol. ... the label must include the pharmacy/practitioner information, and a prescription number",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Declare all medications to US Customs and Border Protection",
+          "quote": "Declare all medications to U.S. Customs and Border Patrol",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Medications legal abroad can be confiscated and can result in severe penalties if not approved for use in the US",
+          "quote": "While legal abroad, prescription and over-the-counter medications are subject to confiscation and can result in severe penalties if not approved for use in the U.S.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Additional state laws may apply",
+          "quote": "Additional state laws may apply.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "guideline",
+      "cited_as": "Connor BA, Leung DT. Travelers’ Diarrhea. CDC Yellow Book 2026. Last reviewed March 24, 2026. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/travelers-diarrhea.html",
+      "version_or_date": "CDC Yellow Book 2026; last reviewed March 24, 2026; read 2026-11-15",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Authors Bradley A. Connor and Daniel T. Leung. The page calls TD \"the most predictable travel-related illness\"; the old text said \"most common\", which the page does not say. Rifaximin indication wording (\"noninvasive strains of E. coli\") is from the page text.",
+      "claims": [
+        {
+          "text": "TD is the most predictable travel-related illness; attack rates 30 to 70 percent over 2 weeks, depending on destination and season (takeaways, body, citable summary)",
+          "quote": "Attack rates range from 30% to 70% of travelers during a 2-week period, depending on the destination and season of travel.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Untreated bacterial diarrhea usually lasts 3 to 7 days; antibiotics shorten it by about 1 to 2 days for susceptible bacteria",
+          "quote": "Untreated, bacterial diarrhea usually lasts 3–7 days. ... Antibiotics are effective in reducing the duration of diarrhea by approximately 1–2 days",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Severity defined by effect on planned activities; all dysentery is severe (body and figure)",
+          "quote": "Tolerable, not distressing, does not interfere with planned activities ... Distressing or interferes with planned activities ... Incapacitating or completely prevents planned activities (all dysentery is considered severe)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Azithromycin first-line empiric treatment in Southeast Asia or where fluoroquinolone-resistant bacteria are suspected; preferred for dysentery or febrile diarrhea",
+          "quote": "Use empirically as first-line treatment for travelers' diarrhea in Southeast Asia or other areas if fluoroquinolone-resistant bacteria are suspected. ... Preferred treatment for dysentery or febrile diarrhea.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Azithromycin 1,000 mg single or divided dose, or 500 mg once daily for 3 days",
+          "quote": "1,000 mg / Single or divided dose ... 500 mg QD / 3 days",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Ciprofloxacin 750 mg single dose or 500 mg twice daily for 3 days; fluoroquinolone resistance limits usefulness, particularly in South and Southeast Asia",
+          "quote": "750 mg / Single dose ... 500 mg BID / 3 days ... limits their usefulness in many destinations, particularly South and Southeast Asia, where both Campylobacter infection and fluoroquinolone resistance are prevalent",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Rifaximin 200 mg three times daily for 3 days for noninvasive E. coli; not when invasive diarrhea suspected",
+          "quote": "200 mg TID / 3 days ... Do not use if clinical suspicion for Campylobacter, Salmonella, Shigella, or other causes of invasive diarrhea.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Antibiotics can be combined with loperamide 4 mg then 2 mg after each loose stool, max 16 mg in 24 hours",
+          "quote": "Antibiotic regimens can be combined with loperamide 4 mg, initially, followed by 2 mg after each loose stool, not to exceed 16 mg in a 24-hour period.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Antimotility agents alone not recommended for bloody diarrhea or diarrhea with fever",
+          "quote": "Antimotility agents alone are not recommended for patients with bloody diarrhea or those who have diarrhea and fever.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "agency_page",
+      "cited_as": "U.S. Department of Health and Human Services, Office for Civil Rights. Language Access Provisions of the Final Rule Implementing Section 1557 of the Affordable Care Act. December 5, 2024. Accessed November 15, 2026.",
+      "url": "https://www.hhs.gov/sites/default/files/ocr-dcl-section-1557-language-access.pdf",
+      "version_or_date": "Dear colleague letter dated December 5, 2024",
+      "retrieved_with": "WebFetch of HHS OCR PDF",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The emergency exception for minors was read in the letter but only the prohibition is quoted here. The OCR complaint quote is from the letter's notice requirements, which tell people how to file; it does not itself give filing steps.",
+      "claims": [
+        {
+          "text": "About 68 million people in the US speak a language other than English at home; 8.2 percent of them speak English less than very well",
+          "quote": "Approximately 68 million people in the United States speak a language other than English at home ... of those, 8.2 percent speak English less than very well",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Covered entities include recipients of federal financial assistance and HHS programs, and must take reasonable steps to provide meaningful access to individuals with LEP",
+          "quote": "recipients of Federal financial assistance, programs administered by HHS, and entities established under Title I of the Affordable Care Act (ACA) ... must take reasonable steps to provide meaningful access to each individual",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Language assistance is free of charge; a covered entity such as a hospital must offer a qualified interpreter when interpretation is requested (body, takeaways, FAQ, citable summary)",
+          "quote": "Language assistance services must be provided free of charge ... When interpretation is requested, a covered entity, such as a hospital, a state health department, or a non-profit funded by an HHS grant, must offer a qualified interpreter",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Machine translations of critical documents must be reviewed by a qualified human translator",
+          "quote": "for critical documents, those translations must be reviewed by a qualified human translator to ensure accuracy",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Covered entities must not rely on unqualified adults to interpret except in limited situations; minor children are prohibited except in narrow emergencies",
+          "quote": "must not rely on unqualified adults to interpret or facilitate communication, except: ... the use of minor children to interpret or facilitate communication is prohibited",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "A complaint can be filed with the HHS Office for Civil Rights",
+          "quote": "Details on how to file a discrimination complaint with OCR",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "guideline",
+      "cited_as": "Backer HD, Freer L. Heat and Cold Illness in Travelers. CDC Yellow Book 2026. Last reviewed April 23, 2025. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/heat-and-cold-illness-in-travelers.html",
+      "version_or_date": "CDC Yellow Book 2026; last reviewed April 23, 2025",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Authors Howard D. Backer and Luanne Freer. The page prints \"≥41°C (≥104°F)\"; 41°C is about 105.8°F, so the page is internally inconsistent. The guide gives only the 104°F figure the page prints, and Parth may want to check this against the source. Clothing quote: \"lightweight, loose, light-colored clothing that allows maximum air circulation for evaporation but also gives protection from the sun.\"",
+      "claims": [
+        {
+          "text": "Heat stroke is an emergency; rapid cooling first: an ice bath cools fastest, and cooling should not be delayed while EMS is activated (takeaways and body)",
+          "quote": "An ice bath cools fastest. ... Activate emergency medical services or plan for urgent evacuation, but do not delay cooling measures by one or more of these methods",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Presumptive field diagnosis of heat stroke: body temperature 104°F or higher with marked alteration of mental status (delirium, convulsions, coma)",
+          "quote": "A presumptive diagnosis of heat stroke is made in the field when people have body temperature ≥41°C (≥104°F) and marked alteration of mental status, including delirium, convulsions, or coma;",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Heat exhaustion: body temperature normal or mildly to moderately elevated",
+          "quote": "Body temperature could be normal or mildly to moderately elevated.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Prevention: thirst alone not sufficient; forcing water raises hyponatremia risk; avoid strenuous activity during hottest part of day; lightweight, loose, light-colored clothing with sun protection",
+          "quote": "Reliance on thirst alone is not sufficient to prevent mild dehydration, but forcing a person who is not thirsty to drink water increases the risk of hyponatremia. ... avoid strenuous activity during the hottest part of the day.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "dataset",
+      "cited_as": "U.S. Department of Commerce, National Travel and Tourism Office. December and Annual 2024 Total International Travel Volume. Accessed November 15, 2026.",
+      "url": "https://www.trade.gov/feature-article/december-and-annual-2024-total-international-travel-volume",
+      "version_or_date": "NTTO page created 2025-03-14, last changed 2026-09-25 (page metadata); calendar year 2024 data",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Replaces the NTTO landing page, which gave no arrival figures. The old 62.4 million total and 9.2 million Asia figure were not found and were removed.",
+      "claims": [
+        {
+          "text": "72.4 million international visitor arrivals in 2024 (body and citable summary; rounding of 72,390,321)",
+          "quote": "Total international visitor arrivals of 72,390,321 increased 9.1% from 2023 to 91.1% of arrivals in 2019.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Western Europe was the largest region, about 13.1 million (rounding of 13,067,365)",
+          "quote": "The largest region in visitor volume was Western Europe with 13,067,365.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "agency_page",
+      "cited_as": "Centers for Medicare & Medicaid Services. Emergency Medical Treatment & Labor Act (EMTALA). Page last modified March 10, 2026. Accessed November 15, 2026.",
+      "url": "https://www.cms.gov/regulations-and-guidance/legislation/emtala",
+      "version_or_date": "Page last modified 03/10/2026",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The page's only payment wording is \"regardless of an individual's ability to pay\"; the guide's statement that the page does not say care is free describes the page, it is not a quote. The old FAQ line that EMTALA does not apply to urgent care or telehealth was cut (not on the page).",
+      "claims": [
+        {
+          "text": "Medicare-participating hospitals that offer emergency services must provide a medical screening examination and stabilizing treatment regardless of ability to pay (system section, red flags, FAQ)",
+          "quote": "specific obligations on Medicare-participating hospitals that offer emergency services to provide a medical screening examination (MSE) ... regardless of an individual's ability to pay. Hospitals are then required to provide stabilizing treatment for patients with EMCs.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Or an appropriate transfer if the hospital cannot stabilize the patient (FAQ)",
+          "quote": "If a hospital is unable to stabilize a patient within its capability, or if the patient requests, an appropriate transfer should be implemented.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "The CMS summary covers screening, stabilization and transfer and does not say the care is free (statement about the page)",
+          "quote": "regardless of an individual's ability to pay",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "agency_page",
+      "cited_as": "U.S. Drug Enforcement Administration. DEA Extends Telemedicine Flexibilities to Ensure Continued Access to Care. Press release, December 31, 2025. Accessed November 15, 2026.",
+      "url": "https://www.dea.gov/press-releases/2025/12/31/dea-extends-telemedicine-flexibilities-ensure-continued-access-care",
+      "version_or_date": "Press release dated December 31, 2025; read 2026-11-15",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Corrects the old text, which said telehealth generally cannot prescribe controlled substances without an in-person relationship. The flexibilities end December 31, 2026 unless extended again, so this needs re-checking at the next refresh.",
+      "claims": [
+        {
+          "text": "Federal telemedicine flexibilities extended through December 31, 2026",
+          "quote": "extending the current telemedicine flexibilities through December 31, 2026",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "DEA-registered practitioners may prescribe Schedule II to V medications by audio-video telemedicine without a prior in-person evaluation, if prescriptions comply with DEA rules and federal and state law (where-to-go, prescriptions, Table 2, FAQ)",
+          "quote": "DEA-registered practitioners are permitted to remotely prescribe Schedule II-V controlled medications via audio-video telemedicine encounters ... without having ever conducted an in-person medical evaluation, provided that such prescriptions otherwise comply with",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "agency_page",
+      "cited_as": "Internal Revenue Service. Financial Assistance Policy and Emergency Medical Care Policy, Section 501(r)(4). Page last reviewed or updated July 3, 2026. Accessed November 15, 2026.",
+      "url": "https://www.irs.gov/charities-non-profits/financial-assistance-policy-and-emergency-medical-care-policy-section-501r4",
+      "version_or_date": "Page last reviewed or updated 03-Jul-2026",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Section 501(r) applies to hospital organizations recognized under 501(c)(3); the guide names the code section rather than saying \"nonprofit hospitals\".",
+      "claims": [
+        {
+          "text": "Under IRC 501(r)(4) a hospital organization must establish a written financial assistance policy for each hospital facility, with eligibility criteria, whether assistance includes free or discounted care, and how to apply (cost section, FAQs)",
+          "quote": "requires a hospital organization to establish a written financial assistance policy (FAP) ... Eligibility criteria for financial assistance, and whether such assistance includes free or discounted care ... The method for applying for financial assistance",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. Personal Importation. Content current as of August 18, 2025. Accessed November 15, 2026.",
+      "url": "https://www.fda.gov/industry/import-basics/personal-importation",
+      "version_or_date": "Content current as of 08/18/2025",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Replaces the FDA Drug Info Rounds video page, which returned 404. The old direct FDA quote (\"patients should not assume ...\") could not be found and was removed.",
+      "claims": [
+        {
+          "text": "A drug approved in another country but unapproved in the US is illegal to import (quoted; also Table 3)",
+          "quote": "If a drug is approved for use in another country but is an unapproved new drug in the U.S. it is illegal to import.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FDA allows foreign nationals to bring or ship a 90-day supply (quoted; Table 3 \"Up to a 90-day supply\")",
+          "quote": "The FDA will allow foreign nationals to bring or ship a 90-day supply of drug products.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "guideline",
+      "cited_as": "Coronado F, Hynes NA. Travelers with Chronic Illnesses. CDC Yellow Book 2026. Last reviewed May 19, 2026. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travelers-with-additional-considerations/travelers-with-chronic-illnesses.html",
+      "version_or_date": "CDC Yellow Book 2026; last reviewed May 19, 2026",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Authors Fatima Coronado and Noreen A. Hynes. The page does not mention a copy of the prescription or a week of extra supply; both were removed from the cited sentence. Also replaces the blocked NCBI Bookshelf ref for the generic-name advice.",
+      "claims": [
+        {
+          "text": "Clinician letter on office letterhead listing medications including generic names and doses",
+          "quote": "should be on office letterhead stationery ... medications prescribed (including generic names and doses)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Carry medications in hand luggage, not checked baggage",
+          "quote": "All medications should be carried in hand luggage rather than in checked baggage.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Medications for the entire trip plus extra for delays, in original containers",
+          "quote": "ensure that the traveler has medications for the entire trip plus extra in case of unexpected delays ... in their original containers",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "agency_page",
+      "cited_as": "U.S. Transportation Security Administration. I am traveling with medication. Are there any requirements I should be aware of? (FAQ). Accessed November 15, 2026.",
+      "url": "https://www.tsa.gov/travel/frequently-asked-questions/i-am-traveling-medication-are-there-any-requirements-i-should-be",
+      "version_or_date": "No page date shown; read 2026-11-15",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Old text said TSA \"recommends\"; the page permits. Reworded to \"allows\".",
+      "claims": [
+        {
+          "text": "TSA allows medically necessary liquids, medications and creams over 3.4 oz in carry-on; remove for separate screening (body and Table 3)",
+          "quote": "You may bring medically necessary liquids, medications and creams in excess of 3.4 ounces or 100 milliliters ... Remove them from your carry-on bag to be screened separately from the rest of your belongings.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "guideline",
+      "cited_as": "Riddle MS, Connor BA, Beeching NJ, et al. Guidelines for the prevention and treatment of travelers’ diarrhea: a graded expert panel report. J Travel Med. 2017;24(suppl_1):S57-S74. doi:10.1093/jtm/tax026. PMID 28521004.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5731448/",
+      "pmid": "28521004",
+      "pmcid": "PMC5731448",
+      "doi": "10.1093/jtm/tax026",
+      "record_title": "Guidelines for the prevention and treatment of travelers' diarrhea: a graded expert panel report.",
+      "record_journal": "J Travel Med",
+      "record_year": "2017",
+      "article_type": "Journal Article; Review (PubMed)",
+      "retrieved_with": "mcp__PubMed__get_article_metadata; mcp__PubMed__get_full_text_article (PMC returned abstract only); mcp__Scite__verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Abstract only this run; claims limited to the abstract. The old text called it an IDSA/ISTM guideline; the abstract does not name IDSA, so \"IDSA\" was dropped. Scite flagged one contrasting citation (10.1136/annrheumdis-2019-216736, on musculoskeletal sequelae) that does not bear on the cited claims.",
+      "claims": [
+        {
+          "text": "A 2017 graded expert-panel guideline developed new definitions of TD severity",
+          "quote": "New definitions for severity of travelers' diarrhea were developed.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "For most mild TD, fluids alone, loperamide or bismuth subsalicylate may suffice",
+          "quote": "either increasing intake of fluids only or loperamide or bismuth subsalicylate may suffice for most cases of mild diarrhea",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Strong evidence supports antibiotic treatment in most moderate to severe TD",
+          "quote": "Strong evidence supports the effectiveness of antimicrobial therapy in most cases of moderate to severe travelers' diarrhea",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "label",
+      "cited_as": "National Library of Medicine, DailyMed. Anti-Diarrheal (loperamide HCl 2 mg) caplet, human OTC drug label (Valu Merchandisers Company), updated April 21, 2026. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=70a7f827-f5be-454f-99bf-a7fd1037694e",
+      "version_or_date": "HUMAN OTC DRUG LABEL, Valu Merchandisers Company, updated April 21, 2026",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source. Corrects the old mild-TD self-care line, which gave \"up to 16 mg per day\"; the OTC label limit is 8 mg (4 caplets) in 24 hours. 8 mg is 4 x 2 mg, plain arithmetic from the label.",
+      "claims": [
+        {
+          "text": "OTC loperamide 2 mg: 2 caplets after first loose stool, 1 after each later loose stool, no more than 4 caplets (8 mg) in 24 hours",
+          "quote": "Loperamide HCl 2 mg ... 2 caplets after the first loose stool; 1 caplet after each subsequent loose stool; but no more than 4 caplets in 24 hours",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Do not use with bloody or black stool; ask a doctor first with fever; stop and ask a doctor if diarrhea lasts more than 2 days",
+          "quote": "if you have bloody or black stool ... a fever ... diarrhea lasts for more than 2 days",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "The 16 mg clinician-directed maximum in the CDC Yellow Book is higher than the 8 mg OTC label limit (comparison of two sources)",
+          "quote": "but no more than 4 caplets in 24 hours",
+          "quote_source": "label",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "kind": "journal",
+      "cited_as": "Barrett J, Brown M. Travellers’ diarrhoea. BMJ. 2016;353:i1937. doi:10.1136/bmj.i1937. PMID 27094342.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27094342/",
+      "pmid": "27094342",
+      "doi": "10.1136/bmj.i1937",
+      "record_title": "Travellers' diarrhoea.",
+      "record_journal": "BMJ",
+      "record_year": "2016",
+      "article_type": "Journal Article; Review; Video-Audio Media (PubMed)",
+      "retrieved_with": "mcp__PubMed__get_article_metadata (no abstract); WebFetch of bmj.com article page (opening text only; rest paywalled); mcp__Scite__verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Only the opening of the article was readable. The old 30 to 70 percent attack rate (the review gives 20% to 60%), the dosing claims and the nine-trial loperamide meta-analysis were not verifiable here and are no longer cited to it.",
+      "claims": [
+        {
+          "text": "A short course (1 to 3 days) of antibiotics taken at onset reduces illness duration from 3 days to 1.5 days",
+          "quote": "A short course (1-3 days) of antibiotics taken at the onset of travellers' diarrhoea reduces the duration of the illness from 3 days to 1.5 days",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "kind": "guideline",
+      "cited_as": "CDC Yellow Book 2024. Perspectives: Antibiotics in Travelers’ Diarrhea, Balancing Benefit & Risk. Accessed November 15, 2026.",
+      "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/preparing/antibiotics-in-travelers-diarrhea",
+      "version_or_date": "CDC Yellow Book 2024 edition",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The sentence continues with colonization by extended-spectrum beta-lactamase-producing Enterobacteriaceae (read on the page; quote cut for length).",
+      "claims": [
+        {
+          "text": "Travelers, especially to South and Southeast Asia, who develop TD and take antibiotics are at risk for ESBL-PE colonization",
+          "quote": "travelers (in particular, travelers to South and Southeast Asia) who develop TD and take antibiotics are at risk",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Carriage is most often transient",
+          "quote": "carriage is most often transient",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "kind": "guideline",
+      "cited_as": "Gupta K, Hooton TM, Naber KG, et al. International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: a 2010 update by the Infectious Diseases Society of America and the European Society for Microbiology and Infectious Diseases. Clin Infect Dis. 2011;52(5):e103-e120. doi:10.1093/cid/ciq257. PMID 21292654.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21292654/",
+      "pmid": "21292654",
+      "doi": "10.1093/cid/ciq257",
+      "record_title": "International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: A 2010 update by the Infectious Diseases Society of America and the European Society for Microbiology and Infectious Diseases.",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2011",
+      "article_type": "Journal Article; Practice Guideline; Review (PubMed)",
+      "retrieved_with": "mcp__PubMed__get_article_metadata; WebFetch of full text at academic.oup.com/cid/article/52/5/e103/388285; mcp__Scite__verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Population limited in the guide to healthy non-pregnant premenopausal women, per the abstract. Reference title corrected (\"ESMID\" -> full society names). Scite flagged a contrasting citation (10.3855/jidc.8124) about high local TMP-SMX resistance; the guide keeps the guideline's 20 percent resistance condition.",
+      "claims": [
+        {
+          "text": "Nitrofurantoin 100 mg twice daily for 5 days",
+          "quote": "Nitrofurantoin monohydrate/macrocrystals (100 mg twice daily for 5 days) is an appropriate choice for therapy",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "TMP-SMX 160/800 mg twice daily for 3 days where local resistance does not exceed 20 percent",
+          "quote": "Trimethoprim-sulfamethoxazole (160/800 mg [1 double-strength tablet] twice-daily for 3 days) ... if local resistance rates of uropathogens causing acute uncomplicated cystitis do not exceed 20%",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Fosfomycin 3 g single dose",
+          "quote": "Fosfomycin trometamol (3 g in a single dose)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Fosfomycin appears to have inferior efficacy to standard short-course regimens (quoted)",
+          "quote": "but it appears to have inferior efficacy compared with standard short-course regimens",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Fluoroquinolones should be reserved",
+          "quote": "should be reserved for important uses other than acute cystitis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Outpatient Clinical Care for Adults (antibiotic prescribing). Last reviewed April 16, 2024. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html",
+      "version_or_date": "Last reviewed April 16, 2024",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source. The page gives no doses; doses come from ref Gupta 2011.",
+      "claims": [
+        {
+          "text": "First-line agents for uncomplicated cystitis: nitrofurantoin, TMP-SMX where local resistance under 20 percent, fosfomycin",
+          "quote": "Nitrofurantoin, trimethoprim/sulfamethoxazole (TMP-SMX, where local resistance is <20%), and fosfomycin",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Fluoroquinolones should be reserved for situations in which other agents are not appropriate",
+          "quote": "Fluoroquinolones (e.g., ciprofloxacin) should be reserved for situations in which other agents are not appropriate.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "kind": "journal",
+      "cited_as": "Huttner A, Kowalczyk A, Turjeman A, et al. Effect of 5-day nitrofurantoin vs single-dose fosfomycin on clinical resolution of uncomplicated lower urinary tract infection in women: a randomized clinical trial. JAMA. 2018;319(17):1781-1789. doi:10.1001/jama.2018.3627. PMID 29710295.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29710295/",
+      "pmid": "29710295",
+      "pmcid": "PMC6134435",
+      "doi": "10.1001/jama.2018.3627",
+      "record_title": "Effect of 5-Day Nitrofurantoin vs Single-Dose Fosfomycin on Clinical Resolution of Uncomplicated Lower Urinary Tract Infection in Women: A Randomized Clinical Trial.",
+      "record_journal": "JAMA",
+      "record_year": "2018",
+      "article_type": "Randomized Controlled Trial; Multicenter Study (PubMed)",
+      "retrieved_with": "mcp__PubMed__get_article_metadata (abstract); mcp__Scite__verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Old text said \"reviewed in BMJ Evidence-Based Medicine\" (not retrieved; removed) and gave an NNT of 8, which the abstract does not state (removed). The trial dose (three times daily) differs from the guideline dose (twice daily); the page now says so.",
+      "claims": [
+        {
+          "text": "513 women; nitrofurantoin 100 mg three times a day for 5 days vs single 3 g fosfomycin; clinical resolution through day 28 70% vs 58%",
+          "quote": "oral nitrofurantoin, 100 mg 3 times a day for 5 days (n = 255), or a single 3-g dose of oral fosfomycin ... 171 of 244 patients (70%) receiving nitrofurantoin vs 139 of 241 patients (58%) receiving fosfomycin",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "kind": "guideline",
+      "cited_as": "Centers for Disease Control and Prevention. Vulvovaginal Candidiasis. Sexually Transmitted Infections Treatment Guidelines, 2021. Last reviewed July 22, 2021. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/candidiasis.htm",
+      "version_or_date": "STI Treatment Guidelines 2021; last reviewed July 22, 2021",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source. Corrects the old text, which offered a single fluconazole 150 mg dose \"for recurrent or severe cases\"; CDC lists the single dose for uncomplicated VVC and longer regimens for severe and recurrent VVC. The 7-14 day entry is clotrimazole 1% cream, listed under the page heading \"Over-the-Counter Intravaginal Agents\".",
+      "claims": [
+        {
+          "text": "Typical VVC symptoms",
+          "quote": "Typical symptoms of VVC include pruritus, vaginal soreness, dyspareunia, external dysuria, and abnormal vaginal discharge.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "OTC clotrimazole and miconazole intravaginal courses of 1 to 14 days",
+          "quote": "Miconazole 1,200 mg vaginal suppository one suppository for 1 day ... 5 g intravaginally daily for 7–14 days",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Oral fluconazole 150 mg single dose for uncomplicated VVC",
+          "quote": "Fluconazole 150 mg orally in a single dose",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Severe VVC: two 150 mg fluconazole doses 72 hours apart; recurrent VVC needs longer regimen",
+          "quote": "150 mg of fluconazole in two sequential oral doses (second dose 72 hours after initial dose)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "kind": "journal",
+      "cited_as": "Noe RS, Choudhary E, Cheng-Dobson J, Wolkin AF, Newman SB. Exertional heat-related illnesses at the Grand Canyon National Park, 2004-2009. Wilderness Environ Med. 2013;24(4):422-428. doi:10.1016/j.wem.2013.06.008. PMID 24119571.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4910089/",
+      "pmid": "24119571",
+      "pmcid": "PMC4910089",
+      "doi": "10.1016/j.wem.2013.06.008",
+      "record_title": "Exertional heat-related illnesses at the Grand Canyon National Park, 2004-2009.",
+      "record_journal": "Wilderness Environ Med",
+      "record_year": "2013",
+      "article_type": "Journal Article; Research Support, U.S. Gov't, P.H.S. (retrospective cross-sectional study)",
+      "retrieved_with": "mcp__PubMed__get_article_metadata; mcp__PubMed__get_full_text_article (PMC4910089); mcp__Scite__verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Old text said \"over a 5-year period\" (study covers six seasons, 2004-2009) and gave median age 43 (abstract) while the full text says 45; age was removed. The full text says 40% of evacuated cases were helicoptered; the guide keeps the abstract wording.",
+      "claims": [
+        {
+          "text": "April-September 2004-2009; 474 nonfatal and 6 fatal HRI cases; 90 percent hiking; 40 percent helicopter evacuation; 84 percent US residents; highest rates in May",
+          "quote": "Grand Canyon EMS responded to 474 nonfatal and 6 fatal HRI cases, with the majority (84%) being US residents ... Almost all (90%) were hiking; 40% required helicopter evacuation. The highest HRI rates were seen in May.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Temperatures at the bottom of the canyon can exceed 120°F (44°C)",
+          "quote": "air temperatures can exceed 100°F (37°C) on the rim and 120°F (44°C) at the bottom of the canyon",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "kind": "agency_page",
+      "cited_as": "National Institute for Occupational Safety and Health, Centers for Disease Control and Prevention. Heat-related Illnesses. Last reviewed March 3, 2026. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/niosh/heat-stress/about/illnesses.html",
+      "version_or_date": "Last reviewed March 3, 2026",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source (CDC NIOSH). The cold-compress step is quoted; moving to a cooler place, removing excess clothing and drinking fluids are general first-aid steps not quoted from this page.",
+      "claims": [
+        {
+          "text": "Heat exhaustion symptoms",
+          "quote": "Headache ... Nausea ... Dizziness ... Weakness ... Irritability ... Thirst ... Heavy sweating ... Elevated body temperature ... Decreased urine output",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Heat exhaustion first aid: cool environment, remove clothing, fluids, cold compresses or cold water on head, face and neck",
+          "quote": "Cool the worker with cold compresses or have the worker wash their head, face, and neck with cold water.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Heat stroke symptoms; fatal if treatment delayed",
+          "quote": "Confusion, altered mental status, slurred speech ... Loss of consciousness (coma) ... Hot, dry skin or profuse sweating ... Seizures ... Fatal if treatment delayed",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "kind": "journal",
+      "cited_as": "Murphy CE, DeGroot DW, O’Connor FG. Exertional Heat Illness in Active Populations. NEJM Evid. 2026;5(5):EVIDra2500270. doi:10.1056/EVIDra2500270. PMID 42047556.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42047556/",
+      "pmid": "42047556",
+      "doi": "10.1056/EVIDra2500270",
+      "record_title": "Exertional Heat Illness in Active Populations.",
+      "record_journal": "NEJM Evid",
+      "record_year": "2026",
+      "article_type": "Journal Article; Review (PubMed)",
+      "retrieved_with": "mcp__PubMed__get_article_metadata (abstract); mcp__Scite__verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Citation corrected to Murphy CE, DeGroot DW, O'Connor FG, 2026 (old text: no authors, 2025). The old \"ten times more common than serious cardiac events\" claim is not in the abstract and was cut.",
+      "claims": [
+        {
+          "text": "A 2026 NEJM Evidence review describes exertional heat illness as a leading yet preventable cause of morbidity and mortality in active populations",
+          "quote": "Exertional heat illness (EHI) is a leading yet preventable cause of morbidity and mortality in active populations.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Heat and Medications: Guidance for Clinicians. Last reviewed September 18, 2025. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/heat-health/hcp/clinical-guidance/heat-and-medications-guidance-for-clinicians.html",
+      "version_or_date": "Last reviewed September 18, 2025",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source; replaces an uncited medication list.",
+      "claims": [
+        {
+          "text": "Medications that raise heat-illness risk include diuretics, beta blockers, anticholinergic drugs, antipsychotics, tricyclic antidepressants, antihistamines with anticholinergic properties",
+          "quote": "Commonly prescribed medications that increase risk from heat include diuretics, anticholinergic agents, and some psychotropic medications. ... Beta blockers ... Antipsychotics ... Tricyclic antidepressants (TCAs) ... Antihistamines with anticholinergic properties",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Heat and Health: Clinical Overview. Last reviewed September 18, 2025. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/heat-health/hcp/clinical-overview/index.html",
+      "version_or_date": "Last reviewed September 18, 2025",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "This page does not give the specific prevention steps the old text attributed to it; the prevention list now cites the Yellow Book heat chapter.",
+      "claims": [
+        {
+          "text": "CDC lists infants and children and adults over 65 among people who may be more at risk from heat",
+          "quote": "infants and children ... adults over age 65",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "kind": "guideline",
+      "cited_as": "Hackett PH, Shlim DR. High-Altitude Travel and Altitude Illness. CDC Yellow Book 2026. Last reviewed April 23, 2025. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html",
+      "version_or_date": "CDC Yellow Book 2026; last reviewed April 23, 2025",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Authors Peter H. Hackett and David R. Shlim. New source; replaces Bartsch and Swenson 2013 (abstract is a case vignette; claims unverifiable), the WMS 2024 guideline (Scite retraction/withdrawal notices) and Hackett and Roach 2001 (cited under the wrong authors; no abstract). The anaphylaxis/multiple-allergy caution was read on the page but is not in the quote.",
+      "claims": [
+        {
+          "text": "AMS affects 25 percent of visitors sleeping above 2,450 m (8,000 ft) in Colorado",
+          "quote": "25% of all visitors sleeping at altitudes >2,450 m (>8,000 ft) in Colorado",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Unacclimatized travelers to a sleeping altitude of 2,450 m or higher are at risk",
+          "quote": "Any unacclimatized traveler proceeding to a sleeping altitude of ≥2,450 m (≥8,000 ft)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "AMS onset usually 2 to 12 hours after arrival",
+          "quote": "Symptom onset is usually 2–12 hours after initial arrival at a high altitude",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Headache cardinal symptom with anorexia, dizziness, fatigue or nausea",
+          "quote": "headache is the cardinal symptom, usually accompanied by ≥1 of the following: anorexia, dizziness, fatigue, nausea",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "AMS improves with descent of 300 m (1,000 ft) or more; acetaminophen or ibuprofen for headache",
+          "quote": "AMS improves rapidly with a descent of 300 m (1,000 ft) or more ... ibuprofen 600 mg or acetaminophen 500 mg every 8 hours",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Acetazolamide prevention 125 mg every 12 hours starting the day before ascent; treatment dose studied 250 mg as 2 doses 8 hours apart",
+          "quote": "125 mg every 12 hours, beginning the day before ascent ... To date, the only dose studied for treatment is 250 mg (2 doses taken 8 hours apart)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "HACE signs; rare below 4,300 m; in remote areas start descent; dexamethasone 8 mg once then 4 mg every 6 hours",
+          "quote": "altered mental status, ataxia, confusion, and drowsiness ... HACE is rare, especially at elevations <4,300 m (<14,000 ft) ... initiate descent for anyone suspected of having HACE ... HACE: 8 mg once, then 4 mg every 6 hours",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "HAPE early signs; descent urgent and mandatory; mild HAPE can be treated with oxygen over 2-4 days and bedrest",
+          "quote": "chest congestion, cough, exaggerated dyspnea on exertion ... In most circumstances, descent is urgent and mandatory. ... can be treated with oxygen over 2–4 days and bedrest at the current altitude",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Nifedipine 30 mg sustained-release every 12 hours or 20 mg every 8 hours for HAPE prevention or treatment",
+          "quote": "The adult dose for prevention or treatment is 30 mg of the sustained-release version every 12 hours or 20 mg every 8 hours.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "People allergic to sulfa antibiotics can take acetazolamide; caution with anaphylaxis or multiple drug allergies",
+          "quote": "Thus, people allergic to sulfa antibiotics can take acetazolamide.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "kind": "journal",
+      "cited_as": "Furian M, Mademilov M, Buergin A, et al. Acetazolamide to Prevent Adverse Altitude Effects in COPD and Healthy Adults. NEJM Evid. 2022;1(1):EVIDoa2100006. doi:10.1056/EVIDoa2100006. PMID 38296630.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38296630/",
+      "pmid": "38296630",
+      "doi": "10.1056/EVIDoa2100006",
+      "record_title": "Acetazolamide to Prevent Adverse Altitude Effects in COPD and Healthy Adults.",
+      "record_journal": "NEJM Evid",
+      "record_year": "2022",
+      "article_type": "Randomized Controlled Trial (PubMed)",
+      "retrieved_with": "mcp__PubMed__get_article_metadata (abstract); mcp__Scite__verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Corrects the old figures (73% vs 46%; NNT 10 applied to the composite in healthy adults) and the old \"125 mg morning plus 250 mg evening\" split, which the abstract does not state. Co-authors corrected to the PubMed record (Furian M, Mademilov M, Buergin A, et al.). PubMed date 2021-12-22, issue 2022;1(1).",
+      "claims": [
+        {
+          "text": "Acetazolamide 375 mg/day from 24 h before a 2-day stay at 3,100 m",
+          "quote": "treated with acetazolamide capsules (375 mg/day) or placebo, starting 24 hours before staying for 2 days at 3100 m",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "COPD: ARAHE 76% placebo vs 49% acetazolamide, NNT 4",
+          "quote": "68 of 90 (76%) receiving placebo and 42 of 86 (49%) receiving acetazolamide experienced ARAHE ... The number needed to treat (NNT) to prevent one case of ARAHE was 4",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Healthy lowlanders 40 or older: AMS 32% vs 22%, NNT 10",
+          "quote": "54 of 170 (32%) receiving placebo and 38 of 175 (22%) receiving acetazolamide experienced AMS ... The NNT to prevent one case of AMS was 10",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "kind": "other_web",
+      "cited_as": "American Academy of Pediatrics, HealthyChildren.org. Fever and Your Baby. Last updated September 23, 2025. Accessed November 15, 2026.",
+      "url": "https://www.healthychildren.org/English/health-issues/conditions/fever/Pages/Fever-and-Your-Baby.aspx",
+      "version_or_date": "Last updated 9/23/2025",
+      "retrieved_with": "WebFetch of AAP HealthyChildren.org page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source (AAP parent site). Replaces the old claim that AAP sets an \"urgent in-person evaluation, usually at an ER\" standard for all infants under 3 months, which the AAP guideline page does not say. The quote was retrieved in two consecutive pieces of the same sentence.",
+      "claims": [
+        {
+          "text": "Infant 3 months or younger with rectal temperature 100.4°F (38°C) or higher: call a pediatrician immediately",
+          "quote": "If your baby is 3 months of age or younger and has a rectal temperature of 100.4 degrees Fahrenheit (38 degrees Celsius) or higher, call your pediatrician immediately.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "kind": "guideline",
+      "cited_as": "American Academy of Pediatrics. Infant Fever (Clinical Practice Guideline): Evaluation and Management of Well-Appearing Febrile Infants 8 to 60 Days Old. Accessed November 15, 2026.",
+      "url": "https://www.aap.org/en/patient-care/infant-fever/",
+      "version_or_date": "AAP clinical practice guideline page; read 2026-11-15",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The list of evaluation topics (urine, blood culture, inflammatory markers, cerebrospinal fluid) was read on the page but the full sentence exceeded the quote limit.",
+      "claims": [
+        {
+          "text": "The AAP guideline for well-appearing febrile infants 8 to 60 days old covers evaluation with urine, blood culture, inflammatory markers and cerebrospinal fluid testing",
+          "quote": "otherwise well-appearing infants between 8-60 days old ... seven key action statements are provided: four deal with evaluation",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. How to Buy Medicines Safely From an Online Pharmacy. Consumer Update; content current as of January 2, 2025. Accessed November 15, 2026.",
+      "url": "https://www.fda.gov/consumers/consumer-updates/how-buy-medicines-safely-online-pharmacy",
+      "version_or_date": "Content current as of 01/02/2025",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source for the FAQ, which previously asserted FDA findings without a citation.",
+      "claims": [
+        {
+          "text": "FDA warns that unsafe online pharmacies often sell unapproved, counterfeit or otherwise unsafe medicines (FAQ)",
+          "quote": "These internet-based pharmacies often sell unapproved, counterfeit or otherwise unsafe medicines",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}
