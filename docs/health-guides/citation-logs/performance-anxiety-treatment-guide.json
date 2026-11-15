@@ -1,0 +1,651 @@
+{
+  "guide": "performance-anxiety-treatment-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 10 verified (all 10 cited DOIs; the dropped Furmark 2025 DOI also verified, no notices), retractions: none. Elman 1998 has no DOI and Scite could not match it; PubMed record (PMID 10360293) checked instead, no retraction notice. No PubMed record shows Retracted Publication or Retraction Notice. Contrasting citations flagged for refs 9, 11, 13, 14 (see notes).",
+  "references": [
+    {
+      "n": 1,
+      "cited_as": "Szeleszczuk Ł, Frączkowski D. Propranolol versus Other Selected Drugs in the Treatment of Various Types of Anxiety or Stress, with Particular Reference to Stage Fright and Post-Traumatic Stress Disorder. International Journal of Molecular Sciences. 2022 Sep 3; 23(17):10099.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9456064/",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "journal",
+      "pmid": "36077489",
+      "pmcid": "PMC9456064",
+      "doi": "10.3390/ijms231710099",
+      "record_title": "Propranolol versus Other Selected Drugs in the Treatment of Various Types of Anxiety or Stress, with Particular Reference to Stage Fright and Post-Traumatic Stress Disorder.",
+      "record_journal": "Int J Mol Sci",
+      "record_year": "2022",
+      "article_type": "Review",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC9456064); Scite verify_papers",
+      "notes": "Authors Szeleszczuk L, Fraczkowski D (matches record). Review itself concludes evidence is insufficient for routine use in stage fright; guide now says so. Secondhand Albus and File and Lister data previously cited to this review are now cited to the primary papers (refs 15, 14). Musician prevalence figure moved to ref 11.",
+      "claims": [
+        {
+          "text": "beta blockers have been used for decades for situational anxiety such as stage fright and exam or interview anxiety",
+          "quote": "For decades, beta blockers such as propranolol have been used to treat situational anxiety such as stage fright and exam- or interview-related anxiety",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "2022 review judged the evidence insufficient to support routine use for stage fright",
+          "quote": "In conclusion, the quality of evidence for the efficacy of propranolol at present is insufficient to support the routine use of propranolol in the treatment of stage fright",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "review found no randomized clinical trials of propranolol for stage fright",
+          "quote": "No random clinical trials were available on the effects of propranolol in the treatment of stage fright.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "most stage fright studies are small placebo-controlled non-comparative studies",
+          "quote": "most of the works devoted to studying the effect of propranolol in the stage fright treatment are solely non-comparative placebo-controlled studies",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "beta-blockers used for stage fright act peripherally rather than centrally",
+          "quote": "Beta-blocking medications used to treat stage fright act peripherally rather than centrally.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "tremor and palpitations come from increased release of adrenaline and norepinephrine from the sympathetic nervous system and adrenal glands",
+          "quote": "Many of the symptoms of performance anxiety, including tremor and palpitations, are brought on by an increase in the release of adrenaline and NE from the sympathetic nervous system and adrenal medulla",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "propranolol, a competitive beta blocker, prevents adrenaline/NE binding and can reduce or eliminate tremor and palpitations",
+          "quote": "medications that block beta-adrenoceptors, such as propranolol, minimise or eliminate these symptoms",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "propranolol is a competitive beta blocker",
+          "quote": "It is classified as a competitive non-cardioselective sympatholytic beta blocker",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "instrumentalists most affected, followed by singers, dancers, actors",
+          "quote": "Among performing artists, instrumentalists seem to be the most affected by anxiety, followed by singers, dancers, and actors",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "physical anxiety symptoms usually worsen the patient's distress",
+          "quote": "Considering that physical anxiety symptoms usually worsen the patient's anguish",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Brantigan: given 1.5 h before recitals on two successive days; performers preferred propranolol in every category rated (incl. sweating, memory, comfort)",
+          "quote": "given 1.5 h before recitals on 2 successive days. The performers preferred the use of propranolol in all categories: nervousness, anxiety, tremor, sweating, accuracy, style, ease of performance, control, tempo, rhythm, patience, memory, and comfort",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Brantigan: propranolol lowered average and maximum pulse during performance",
+          "quote": "the application of propranolol successfully lowered both the average and maximum pulse during the performance",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "cited_as": "Awosika AO, Patel P. Propranolol. StatPearls. NIH/NCBI Bookshelf. Last update June 25, 2026.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557801/",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "other_web",
+      "retrieved_with": "WebFetch of NCBI Bookshelf page",
+      "version_or_date": "Last Update: June 25, 2026",
+      "record_title": "Propranolol",
+      "record_journal": "StatPearls (NCBI Bookshelf)",
+      "record_year": "2026",
+      "notes": "Reference date corrected from 'Updated May 2023' to the page's current Last Update, June 25, 2026.",
+      "claims": [
+        {
+          "text": "propranolol is a nonselective beta-adrenergic receptor antagonist",
+          "quote": "Propranolol is a nonselective beta-adrenergic receptor antagonist and is classified as a class II antiarrhythmic.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "beta-1 receptors on heart muscle cells; beta-2 receptors relax smooth muscle in many organs and vessels",
+          "quote": "Beta-1 receptors are present on cardiac myocytes, including the sinoatrial and atrioventricular nodes. ... Beta-2 receptor activation ... relaxing smooth muscle cells in various organs and vessels.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "in COPD, cardioselective beta-blockers are typically preferred",
+          "quote": "In COPD, cardioselective beta-blockers are typically preferred when beta-blocker therapy is indicated.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "off-label use for situational or performance anxiety is common",
+          "quote": "off-label administration is common for situational or performance anxiety",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "cited_as": "Substance Abuse and Mental Health Services Administration. Table 16: DSM-IV to DSM-5 Social Phobia/Social Anxiety Disorder Comparison. In: DSM-5 Changes: Implications for Child Serious Emotional Disturbance. Rockville (MD): SAMHSA; 2016. NBK519712.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK519712/table/ch3.t12/",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "agency_page",
+      "retrieved_with": "WebFetch of NCBI Bookshelf table page",
+      "version_or_date": "2016 (SAMHSA, DSM-5 Changes: Implications for Child Serious Emotional Disturbance)",
+      "claims": [
+        {
+          "text": "DSM-5 SAD: marked fear or anxiety about social situations with possible scrutiny by others",
+          "quote": "Marked fear or anxiety about one or more social situations in which the individual is exposed to possible scrutiny by others",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "fear out of proportion to actual threat",
+          "quote": "The fear or anxiety is out of proportion to the actual threat posed by the social situation",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "persistent, typically lasting six months or more",
+          "quote": "The fear, anxiety, or avoidance is persistent, typically lasting for 6 months or more.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "clinically significant distress or impairment",
+          "quote": "causes clinically significant distress or impairment in social, occupational, or other important areas",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "performance only specifier when fear is restricted to speaking or performing in public",
+          "quote": "Specify if: Performance only: if the fear is restricted to speaking or performing in public.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "cited_as": "Garakani A, Murrough JW, Freire RC, et al. Pharmacotherapy of Anxiety Disorders: Current and Emerging Treatment Options. Frontiers in Psychiatry. 2020 Dec 23; 11:595584.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7786299/",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "journal",
+      "pmid": "33424664",
+      "pmcid": "PMC7786299",
+      "doi": "10.3389/fpsyt.2020.595584",
+      "record_title": "Pharmacotherapy of Anxiety Disorders: Current and Emerging Treatment Options.",
+      "record_journal": "Front Psychiatry",
+      "record_year": "2020",
+      "article_type": "Review",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC7786299); Scite verify_papers",
+      "notes": "Review covers pharmacotherapy only, so the CBT durability claim previously cited here was removed. Table 1 is flattened in the PMC text extraction (columns run together); read in column order it lists sertraline 'PD, SAD' and paroxetine 'PD, SAD, GAD' under FDA approvals and escitalopram 'PD, SAD' and fluvoxamine 'GAD, PD, SAD' under off-label uses. The PMC web page was behind a bot check and was not used. The venlafaxine SAD approval claim was cut: the flattened table lists venlafaxine XR approvals as GAD only and SAD as off-label, which could not be reconciled without the label, so the guide no longer states venlafaxine's FDA status.",
+      "claims": [
+        {
+          "text": "SSRIs and SNRIs are first-line medications for SAD",
+          "quote": "Selective serotonin reuptake inhibitors and SNRIs are both first-line treatments for PD, GAD, and SAD",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "review's drug table lists sertraline and paroxetine as FDA-approved for SAD, escitalopram and fluvoxamine as off-label uses for SAD",
+          "quote": "FluoxetineSertralineCitalopramEscitalopramParoxetineParoxetine ERFluvoxamine ... PDPD, SADNoneGADPD, SAD, GADPD, SADNone ... GAD, SADGADGAD, PD, SADPD, SADNoneGADGAD, PD, SAD",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "benzodiazepines carry potential risks of tolerance, dependence, and misuse",
+          "quote": "potential risks of tolerance, dependence, abuse or misuse",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "benzodiazepines are GABAergic medications",
+          "quote": "GABAergic medications (benzodiazepines, pregabalin, and gabapentin)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "propranolol has been widely prescribed for performance anxiety",
+          "quote": "Although it is not approved for any psychiatric indications, it has been widely prescribed for SAD and performance anxiety.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "cited_as": "Gingnell M, Frick A, Engman J, et al. Combining escitalopram and cognitive-behavioural therapy for social anxiety disorder: randomised controlled fMRI trial. Br J Psychiatry. 2016;209(3):229-235. PMID 27340112.",
+      "url": "https://doi.org/10.1192/bjp.bp.115.175794",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "journal",
+      "pmid": "27340112",
+      "doi": "10.1192/bjp.bp.115.175794",
+      "record_title": "Combining escitalopram and cognitive-behavioural therapy for social anxiety disorder: randomised controlled fMRI trial.",
+      "record_journal": "Br J Psychiatry",
+      "record_year": "2016",
+      "article_type": "Randomized Controlled Trial",
+      "retrieved_with": "PubMed search_articles + get_article_metadata; Scite verify_papers",
+      "notes": "Replaces Furmark T, Wahlstedt K, Faria V. Front Psychol 2025 (PMID 40420982), which the guide had printed as 'Frick A, Gingnell M' and which is a perspective paper quoting this trial's results; per spec section 4.4 the primary trial is cited instead. Claim narrowed: one SSRI (escitalopram), CBT+drug vs CBT+placebo only.",
+      "claims": [
+        {
+          "text": "few studies have examined SSRI plus CBT combination",
+          "quote": "Selective serotonin reuptake inhibitors (SSRIs) and cognitive-behavioural therapy (CBT) are often used concomitantly to treat social anxiety disorder (SAD), but few studies have examined the effect of this combination.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "double-blind RCT of 48 adults: internet CBT plus escitalopram (24) vs plus placebo (24), 15-month follow-up",
+          "quote": "Double-blind, randomised, placebo-controlled neuroimaging trial of ICBT combined either with escitalopram (n = 24) or placebo (n = 24), including a 15-month clinical follow-up",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "more clinical responders and larger reductions in social anxiety severity at 15 months",
+          "quote": "Escitalopram+ICBT, relative to placebo+ICBT, resulted in significantly more clinical responders, larger reductions in anticipatory speech state anxiety at post-treatment and larger reductions in social anxiety symptom severity at 15-month follow-up",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "cited_as": "Elman MJ, Sugar J, Fiscella R, et al. The effect of propranolol versus placebo on resident surgical performance. Trans Am Ophthalmol Soc. 1998;96:283-291; discussion 291-294. PMID 10360293.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1298399/",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "journal",
+      "pmid": "10360293",
+      "pmcid": "PMC1298399",
+      "record_title": "The effect of propranolol versus placebo on resident surgical performance.",
+      "record_journal": "Trans Am Ophthalmol Soc",
+      "record_year": "1998",
+      "article_type": "Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "notes": "No DOI; Scite verify_papers could not match the reference (no DOI record). PubMed record and article type checked: no retraction notice. Pages corrected to 283-91; discussion 291-4 per PubMed.",
+      "claims": [
+        {
+          "text": "randomized double-masked crossover; 5 residents; 40 mg or placebo 1 h before microsurgery",
+          "quote": "In this randomized, double-masked, crossover study, 5 third-year ophthalmology residents ingested a capsule containing either propranolol, 40 mg, or placebo 1 hour prior to performing ophthalmic microsurgery.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "73 cases; propranolol reduced self-rated anxiety and tremor",
+          "quote": "A total of 73 surgical cases were performed ... As judged by the resident surgeon, there was a highly significant effect of propranolol in decreasing anxiety (P = .0058), reducing surgical tremor overall (P < .0001)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "no difference in complications between propranolol and placebo",
+          "quote": "Complications and difficulty of the case, as judged by both the resident and attending surgeons, were not significantly different in the propranolol versus placebo groups (P > .05).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "every participant first took a test dose without side effects",
+          "quote": "Prior to commencement of the study, all participants had successfully been administered a test dose of propranolol without side effects.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "cited_as": "Propranolol hydrochloride tablets. Prescribing information. Mylan Pharmaceuticals Inc. DailyMed, U.S. National Library of Medicine. Revised January 2026. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b94dcec7-7633-4a33-9cea-48161adeaf93",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "label",
+      "retrieved_with": "WebFetch of DailyMed SPL page (setid b94dcec7-7633-4a33-9cea-48161adeaf93); direct DailyMed API download blocked by session proxy",
+      "version_or_date": "Mylan Pharmaceuticals Inc. (Viatris); page 'Updated January 15, 2026'; How Supplied 'Revised: 1/2026'; archive lists current version 13",
+      "record_title": "PROPRANOLOL HYDROCHLORIDE tablet",
+      "record_journal": "DailyMed",
+      "record_year": "2026",
+      "notes": "WebFetch returns quotes of up to 125 characters, so long label sentences are quoted in segments. Contraindication list rewritten to the label's four items; 'resting heart rate below 60 bpm' and 'decompensated heart failure' as contraindications were not in the label and were removed (heart failure moved to cautions with the label's wording).",
+      "claims": [
+        {
+          "text": "contraindicated in cardiogenic shock, sinus bradycardia and greater than first degree block, bronchial asthma, known hypersensitivity",
+          "quote": "Propranolol is contraindicated in 1) cardiogenic shock; 2) sinus bradycardia and greater than first degree block; 3) bronchial asthma; and 4) in patients with known hypersensitivity to propranolol hydrochloride.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "propranolol may provoke an asthma attack",
+          "quote": "Propranolol should be administered with caution in this setting since it may provoke a bronchial asthmatic attack",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "patients with bronchospastic lung disease generally should not receive beta blockers",
+          "quote": "In general, patients with bronchospastic lung disease should not receive beta blockers.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "beta-blockade can hide warning signs of low blood sugar (pulse rate and pressure changes), especially in labile insulin-dependent diabetics",
+          "quote": "Beta-adrenergic blockade may prevent the appearance of certain premonitory signs and symptoms (pulse rate and pressure changes) of acute hypoglycemia, especially in labile insulin-dependent diabetics",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "beta blockers should be avoided in overt congestive heart failure",
+          "quote": "Although beta blockers should be avoided in overt congestive heart failure,",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "side effects: lightheadedness, fatigue, vivid dreams, slow heart rate, low blood pressure, nausea",
+          "quote": "Central Nervous System: Light-headedness ... fatigue; ... For immediate-release formulations, fatigue, lethargy, and vivid dreams appear dose-related. ... Cardiovascular: Bradycardia; congestive heart failure; intensification of AV block; hypotension; ... Gastrointestinal: Nausea, vomiting",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Raynaud-type arterial insufficiency is a listed adverse reaction",
+          "quote": "arterial insufficiency, usually of the Raynaud type",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "verapamil: significant bradycardia, heart failure, cardiovascular collapse; diltiazem: bradycardia in cardiac disease",
+          "quote": "There have been reports of significant bradycardia, heart failure, and cardiovascular collapse with concurrent use of verapamil ... Co-administration of propranolol and diltiazem in patients with cardiac disease has been associated with bradycardia,",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "label indications do not include performance anxiety (off-label)",
+          "quote": "INDICATIONS AND USAGE headings: Hypertension; Angina Pectoris Due to Coronary Atherosclerosis; Atrial Fibrillation; Myocardial Infarction; Migraine; Essential Tremor; Hypertrophic Subaortic Stenosis; Pheochromocytoma",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "abrupt stopping of propranolol therapy followed by worsened angina and in some cases heart attack",
+          "quote": "There have been reports of exacerbation of angina and, in some cases, myocardial infarction",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "peak plasma levels about 1 to 4 hours after oral dose; plasma half-life 3 to 6 hours",
+          "quote": "Peak plasma concentrations occur about 1 to 4 hours after an oral dose. ... The plasma half-life of propranolol is from 3 to 6 hours.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "cited_as": "Brantigan CO, Brantigan TA, Joseph N. Effect of beta blockade and beta stimulation on stage fright. Am J Med. 1982;72(1):88-94.",
+      "url": "https://doi.org/10.1016/0002-9343(82)90592-7",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "journal",
+      "pmid": "6120650",
+      "doi": "10.1016/0002-9343(82)90592-7",
+      "record_title": "Effect of beta blockade and beta stimulation on stage fright.",
+      "record_journal": "Am J Med",
+      "record_year": "1982",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "notes": "Abstract-only. Guide previously said 29 musicians in one crossover study and 'did not report cognitive impairment'; corrected to two trials totalling 29 subjects and the authors' 'without tranquilization' wording.",
+      "claims": [
+        {
+          "text": "two double-blind trials with a total of 29 subjects",
+          "quote": "we have investigated the effects of beta blockade on musical performance with propranolol in a double blind fashion ... Stage fright symptoms were evaluated in two trials, which included a total of 29 subjects",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "beta blockade eliminated dry mouth",
+          "quote": "Beta blockade eliminates the physical impediments to performance caused by stage fright and even eliminates the dry mouth so frequently encountered.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "critics judged performance quality significantly improved; achieved without tranquilization",
+          "quote": "The quality of musical performance as judged by experienced music critics is significantly improved. This effect is achieved without tranquilization.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "cited_as": "Faigel HC. The effect of beta blockade on stress-induced cognitive dysfunction in adolescents. Clin Pediatr (Phila). 1991;30(7):441-445.",
+      "url": "https://doi.org/10.1177/000992289103000706",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "journal",
+      "pmid": "1879101",
+      "doi": "10.1177/000992289103000706",
+      "record_title": "The effect of beta blockade on stress-induced cognitive dysfunction in adolescents.",
+      "record_journal": "Clin Pediatr (Phila)",
+      "record_year": "1991",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "notes": "Abstract-only. 'Uncontrolled' describes the before/after design in the abstract (no control group); ref 1 Table 1 also lists it as 'Uncontrolled open-label trial'. Scite flagged one contrasting citation (10.1155/2009/827101) about noradrenergic effects on lexical tasks; it does not bear on the SAT figures quoted.",
+      "claims": [
+        {
+          "text": "32 high school students with test anxiety took 40 mg one hour before retaking the SAT; mean 130 points higher; no control group",
+          "quote": "Thirty-two high school students who had already taken the SAT ... were given 40 mg of propranolol one hour before they retook those tests. Mean SAT scores with beta-blockade were 130 points higher",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "cited_as": "Steenen SA, van Wijk AJ, van der Heijden GJ, et al. Propranolol for the treatment of anxiety disorders: Systematic review and meta-analysis. J Psychopharmacol. 2016;30(2):128-139.",
+      "url": "https://doi.org/10.1177/0269881115612236",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "journal",
+      "pmid": "26487439",
+      "pmcid": "PMC4724794",
+      "doi": "10.1177/0269881115612236",
+      "record_title": "Propranolol for the treatment of anxiety disorders: Systematic review and meta-analysis.",
+      "record_journal": "J Psychopharmacol",
+      "record_year": "2015 (epub Oct 2015; print 2016;30(2):128-39)",
+      "article_type": "Meta-Analysis; Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "claims": [
+        {
+          "text": "evidence insufficient to support routine propranolol use in any anxiety disorder",
+          "quote": "In conclusion, the quality of evidence for the efficacy of propranolol at present is insufficient to support the routine use of propranolol in the treatment of any of the anxiety disorders.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "cited_as": "Fernholz I, Mumm JLM, Plag J, et al. Performance anxiety in professional musicians: a systematic review on prevalence, risk factors and clinical treatment effects. Psychol Med. 2019;49(14):2287-2306.",
+      "url": "https://doi.org/10.1017/S0033291719001910",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "journal",
+      "pmid": "31474244",
+      "doi": "10.1017/S0033291719001910",
+      "record_title": "Performance anxiety in professional musicians: a systematic review on prevalence, risk factors and clinical treatment effects.",
+      "record_journal": "Psychol Med",
+      "record_year": "2019",
+      "article_type": "Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "notes": "Now cited for the musician prevalence range (16.5% to 60%), which the guide had misattributed to ref 1 as 16-59% in orchestral musicians. Scite flagged one contrasting citation (10.1177/03057356231155970) on age patterns; not used in the guide.",
+      "claims": [
+        {
+          "text": "systematic review of 43 studies: MPA prevalence 16.5% to 60% in professional musicians",
+          "quote": "A total of 43 studies were included ... The prevalence of MPA was between 16.5% and 60%.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "CBT and beta-blockers most studied, beneficial results for CBT, better-controlled CBT studies needed",
+          "quote": "Regarding treatment cognitive behavioural therapy (CBT) and β-blockers were most often researched with beneficial results for CBT. However, studies with adequate control groups for CBT interventions are needed to clarify its efficacy.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "cited_as": "World Anti-Doping Agency. The 2026 Prohibited List, section P1 Beta-blockers. In effect January 1, 2026.",
+      "url": "https://www.wada-ama.org/en/prohibited-list",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "other_web",
+      "retrieved_with": "WebFetch of WADA Prohibited List page",
+      "version_or_date": "2026 Prohibited List, in force 1 January 2026",
+      "notes": "Cited by name in the FAQ (no inline number). FAQ wording 'some underwater sports' corrected to the list's disciplines.",
+      "claims": [
+        {
+          "text": "beta-blockers prohibited in competition only in automobile, billiards, darts, golf, mini-golf; also out of competition in archery, shooting, underwater sports (freediving, spearfishing, target shooting)",
+          "quote": "Beta-blockers are prohibited In-Competition only, in the following sports ... Archery (WA)* ... Shooting (ISSF, IPC)* ... Underwater sports (CMAS)* in all subdisciplines of freediving, spearfishing and target shooting ... Also prohibited Out-of-Competition",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "cited_as": "Mayo-Wilson E, Dias S, Mavranezouli I, et al. Psychological and pharmacological interventions for social anxiety disorder in adults: a systematic review and network meta-analysis. Lancet Psychiatry. 2014;1(5):368-376. PMID 26361000.",
+      "url": "https://doi.org/10.1016/S2215-0366(14)70329-3",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "journal",
+      "pmid": "26361000",
+      "pmcid": "PMC4287862",
+      "doi": "10.1016/S2215-0366(14)70329-3",
+      "record_title": "Psychological and pharmacological interventions for social anxiety disorder in adults: a systematic review and network meta-analysis.",
+      "record_journal": "Lancet Psychiatry",
+      "record_year": "2014",
+      "article_type": "Journal Article (systematic review and network meta-analysis per title)",
+      "retrieved_with": "PubMed search_articles + get_article_metadata (abstract); Scite verify_papers",
+      "notes": "New source, added to support CBT first-line and SSRI/SNRI statements that were previously cited to a pharmacotherapy-only review. A published comment challenged the analysis (author reply: 'Heightened risk of false positives in a network meta-analysis of social anxiety--Author's reply', Lancet Psychiatry 2015;2(4):293-4, PMID 26360072). Scite flagged one contrasting citation (10.1037/ccp0000301) comparing effect sizes; it does not dispute the conclusion cited.",
+      "claims": [
+        {
+          "text": "101 trials, 13,164 participants",
+          "quote": "We included 101 trials (13 164 participants) of 41 interventions or control conditions (17 classes) in the analyses.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "individual CBT large effect sizes; best intervention for initial treatment of SAD",
+          "quote": "Individual CBT (which other studies have shown to have a lower risk of side-effects than pharmacotherapy) is associated with large effect sizes. Thus, it should be regarded as the best intervention for the initial treatment of social anxiety disorder.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "only individual CBT and SSRIs/SNRIs outperformed an appropriate placebo",
+          "quote": "Individual CBT compared with psychological placebo (SMD -0·56, 95% CrI -1·00 to -0·11), and SSRIs and SNRIs compared with pill placebo (-0·44, -0·67 to -0·22) were the only classes of interventions that had greater effects on outcomes than appropriate placebo.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "for people who decline psychological treatment, SSRIs show the most consistent evidence",
+          "quote": "For individuals who decline psychological intervention, SSRIs show the most consistent evidence of benefit.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "exposure and social skills interventions outperformed waitlist; benzodiazepines outperformed waitlist",
+          "quote": "benzodiazepines (-0·96, -1·56 to -0·36) ... efficacious classes of psychological interventions were ... exposure and social skills (-0·86, -1·42 to -0·29)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "cited_as": "File SE, Lister RG. A comparison of the effects of lorazepam with those of propranolol on experimentally-induced anxiety and performance. Br J Clin Pharmacol. 1985;19(4):445-451. PMID 3888241.",
+      "url": "https://doi.org/10.1111/j.1365-2125.1985.tb02669.x",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "journal",
+      "pmid": "3888241",
+      "pmcid": "PMC1463811",
+      "doi": "10.1111/j.1365-2125.1985.tb02669.x",
+      "record_title": "A comparison of the effects of lorazepam with those of propranolol on experimentally-induced anxiety and performance.",
+      "record_journal": "Br J Clin Pharmacol",
+      "record_year": "1985",
+      "article_type": "Controlled Clinical Trial",
+      "retrieved_with": "PubMed search_articles + get_article_metadata (abstract); Scite verify_papers",
+      "notes": "Primary source for the lorazepam comparison previously cited secondhand via ref 1. The primary abstract adds findings the guide had omitted: both drugs increased simple reaction time, neither changed anxiety ratings, and the authors concluded neither drug was beneficial for short-term anxiety under intellectual stress. Scite flagged one citing statement (10.1111/j.1600-0773.1993.tb01924.x) noting other studies did not reproduce the reaction-time effect; the guide states the finding for this study only.",
+      "claims": [
+        {
+          "text": "double-blind crossover in student volunteers, propranolol 80 mg vs lorazepam 1 or 2.5 mg",
+          "quote": "In a double-blind cross-over study the effects of propranolol (80 mg) and of lorazepam (1 or 2.5 mg) were assessed in normal student volunteers",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "high-dose lorazepam impaired performance tests and increased dizziness; propranolol did not",
+          "quote": "The high dose of lorazepam impaired performance in digit-symbol substitution, symbol copying and verbal learning tests, and increased subjects' ratings of dizziness.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "both drugs increased simple reaction time; lorazepam but not propranolol increased sedation ratings",
+          "quote": "Both lorazepam and propranolol increased simple reaction time. Lorazepam but not propranolol increased ratings of sedation.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "propranolol decreased and lorazepam increased pulse; neither drug changed anxiety ratings",
+          "quote": "Although the stressor increased subjects' ratings of anxiety, neither drug altered anxiety ratings. Propranolol decreased and lorazepam increased subjects' pulse.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "authors concluded neither drug beneficial for short-term anxiety with intellectual stress",
+          "quote": "The results suggest that if administered acutely, neither drug is beneficial in the treatment of short-term anxiety associated with intellectual stress.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "cited_as": "Albus M, Zellner A, Bondy B, et al. Influence of CGP 361A, propranolol and diazepam on autonomous reactions to different stressors. Prog Neuropsychopharmacol Biol Psychiatry. 1989;13(1-2):87-97. PMID 2568663.",
+      "url": "https://doi.org/10.1016/0278-5846(89)90006-7",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "journal",
+      "pmid": "2568663",
+      "doi": "10.1016/0278-5846(89)90006-7",
+      "record_title": "Influence of CGP 361A, propranolol and diazepam on autonomous reactions to different stressors.",
+      "record_journal": "Prog Neuropsychopharmacol Biol Psychiatry",
+      "record_year": "1989",
+      "article_type": "Randomized Controlled Trial",
+      "retrieved_with": "PubMed search_articles + get_article_metadata (abstract); Scite verify_papers",
+      "notes": "Primary source for the Albus data previously cited secondhand via ref 1. Abstract-only: the 40 mg propranolol / 10 mg diazepam / 4 mg isamoltane doses and the norepinephrine and blood pressure comparisons do not appear in the abstract, so they were cut. The abstract's 'minor tranquilizer' is diazepam (the only one in the study per title).",
+      "claims": [
+        {
+          "text": "randomized study of 40 healthy volunteers exposed to stressors",
+          "quote": "40 healthy subjects selected with regard to personality traits were randomly assigned to 5 groups",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "beta-blockers reduced heart rate increases due to mental stress; diazepam reduced skin conductance",
+          "quote": "Beta-blockers reduced HR increases due to mental stress, whereas the minor tranquilizer reduced skin conductance level throughout the whole trial.",
+          "quote_source": "abstract",
+          "verdict": "partly_supported"
+        }
+      ]
+    }
+  ]
+}
