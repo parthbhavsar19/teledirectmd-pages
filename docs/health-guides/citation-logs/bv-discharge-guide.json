@@ -1,0 +1,873 @@
+{
+ "guide": "bv-discharge-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 11 verified (8 journal and guideline DOIs cited plus the 3 removed: Ravel 2011, Sutton 2026, Sobel 1998), retractions: none (no retraction, withdrawal or expression-of-concern notices). PubMed article types checked for all PubMed records: no Retracted Publication or Retraction Notice. Contrasting-evidence excerpts on refs 1, 4, 5, 6, 9, 10 reviewed; only ref 9 bears on a cited claim and the page frames 58 percent as one study.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "Workowski KA, Bachmann LH, Chan PA, et al. Sexually Transmitted Infections Treatment Guidelines, 2021. MMWR Recomm Rep. 2021;70(4):1-187. PMID 34292926",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34292926/",
+   "pmid": "34292926",
+   "pmcid": "PMC8344968",
+   "doi": "10.15585/mmwr.rr7004a1",
+   "record_title": "Sexually Transmitted Infections Treatment Guidelines, 2021.",
+   "record_journal": "MMWR Recomm Rep",
+   "record_year": "2021",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "MMWR Recomm Rep 70(4), published 2021-07-23. CDC web versions read 2026-11-15: BV and VVC pages Last Reviewed July 22, 2021; trichomoniasis page Last Reviewed September 21, 2022 (drug names only). The cervicitis web page failed to load.",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC8344968, saved and searched locally; vaginitis overview, BV, trichomoniasis, VVC, cervicitis, chlamydia, gonorrhea and PID sections read); WebFetch of cdc.gov/std/treatment-guidelines/bv.htm, candidiasis.htm and trichomoniasis.htm for organism and drug names that the PMC text drops; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "PMC full text strips italicized organism and drug names; those names were confirmed on the CDC web pages (official_page quotes). Scite flagged one contrasting citation about gonorrhea loads; it does not bear on any claim here.",
+   "claims": [
+    {
+     "text": "BV discharge is homogeneous and thin, milklike, and smoothly coats the vaginal walls (takeaway, body, Amsel table, FAQ, citable summary)",
+     "quote": "Homogeneous, thin discharge (milklike consistency) that smoothly coats the vaginal walls",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lactobacilli are replaced by high concentrations of anaerobic bacteria",
+     "quote": "BV is a vaginal dysbiosis resulting from replacement of normal hydrogen peroxide and lactic-acid–producingspecies in the vagina with high concentrations of anaerobic bacteria",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "The anaerobes include Gardnerella vaginalis, Prevotella and Mobiluncus species",
+     "quote": "high concentrations of anaerobic bacteria, including G. vaginalis, Prevotella species, Mobiluncus species, A. vaginae",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A polymicrobial biofilm forms on vaginal cells",
+     "quote": "A notable feature is the appearance of a polymicrobial biofilm on vaginal epithelial cells",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Thick, curdy discharge is typical of yeast (body, table, FAQ, takeaway, citable summary)",
+     "quote": "Signs include vulvar edema, fissures, excoriations, and thick curdy vaginal discharge.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Trichomoniasis discharge can be diffuse, malodorous, or yellow-green, with or without vulvar irritation",
+     "quote": "women with trichomoniasis sometimes have vaginal discharge, which can be diffuse, malodorous, or yellow-green with or without vulvar irritation",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "70 to 85 percent of people with trichomoniasis have minimal or no genital symptoms",
+     "quote": "The majority of persons who have trichomoniasis (70%–85%) either have minimal or no genital symptoms",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Trichomoniasis is readily passed between sex partners",
+     "quote": "it is readily passed between sex partners during penile-vaginal sex",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "A medical history alone is insufficient for accurate diagnosis of vaginitis and can lead to the wrong medicine",
+     "quote": "Obtaining a medical history alone has been reported to be insufficient for accurate diagnosis of vaginitis and can lead to inappropriate administration of medication",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV, trichomoniasis and yeast are the infections most often behind vaginal symptoms; cervicitis can also cause discharge",
+     "quote": "The infections most frequently associated with vaginal symptoms are BV ... trichomoniasis, and vulvovaginal candidiasis (VVC). Cervicitis can also cause an abnormal vaginal discharge.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "pH above 4.5 common with BV or trichomoniasis, trichomoniasis can have normal pH; pH testing not highly specific (table, testing section)",
+     "quote": "an elevated pH (i.e., >4.5) is common with BV or trichomoniasis (although trichomoniasis can also be present with a normal vaginal pH). Because pH testing is not highly specific",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Yeast infection is associated with a normal pH, below 4.5 (table)",
+     "quote": "is associated with normal vaginal pH (<4.5)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Typical yeast symptoms: itching, soreness, pain with sex, external burning; none is specific (table, trichomoniasis paragraph)",
+     "quote": "Typical symptoms of VVC include pruritus, vaginal soreness, dyspareunia, external dysuria, and abnormal vaginal discharge. None of these symptoms is specific for VVC.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Odor is not among the typical yeast symptoms (table row)",
+     "quote": "Typical symptoms of VVC include pruritus, vaginal soreness, dyspareunia, external dysuria, and abnormal vaginal discharge.",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Yeast infection is usually caused by Candida albicans",
+     "quote": "VVC usually is caused by Candida albicans but can occasionally be caused by other Candida species or yeasts.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Trichomoniasis treatment for women: metronidazole 500 mg twice daily for 7 days; tinidazole 2 g single dose alternative",
+     "quote": "Metronidazole 500 mg 2 times/day for 7 days ... Tinidazole 2 g orally in a single dose",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Uncomplicated yeast infection is treated with an antifungal azole",
+     "quote": "Short-course topical formulations (i.e., single dose and regimens of 1–3 days) effectively treat uncomplicated VVC. Treatment with azoles results in relief of symptoms",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC estimates 75 percent of women will have at least one yeast infection",
+     "quote": "An estimated 75% of women will have at least one episode of VVC",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Women with BV are at increased risk of acquiring STIs such as HIV and of pregnancy complications",
+     "quote": "Women with BV are at increased risk for STI acquisition, such as HIV",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Treatment is recommended for women with symptoms",
+     "quote": "Treatment for BV is recommended for women with symptoms.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Treatment recommended for all pregnant women with symptoms because of premature rupture of membranes and preterm birth (asymptomatic, normal and red-flag sections)",
+     "quote": "BV treatment is recommended for all symptomatic pregnant women because symptomatic BV has been associated with adverse pregnancy outcomes, including premature rupture of membranes, preterm birth",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Treatment of BV without symptoms in pregnancy has yielded mixed results",
+     "quote": "Treatment of asymptomatic BV among pregnant women at high risk for preterm delivery ... has been evaluated by multiple studies, which have yielded mixed results.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cervicitis, when a cause is found, is most often chlamydia or gonorrhea; it needs its own chlamydia and gonorrhea testing and PID assessment",
+     "quote": "is the most common etiology of cervicitis defined by diagnostic testing.",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Cervicitis is often silent; some women notice abnormal discharge and bleeding between periods, especially after sex",
+     "quote": "Cervicitis frequently is asymptomatic; however, certain women might report an abnormal vaginal discharge and intermenstrual vaginal bleeding (e.g., especially after sexual intercourse).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Women with cervicitis should be assessed for PID and tested by NAAT",
+     "quote": "women should be assessed for signs of PID and tested forandwith NAAT on vaginal, cervical, or urine samples",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "In the office, pH, KOH test and microscopy can often identify the cause",
+     "quote": "In the clinician’s office, the cause of vaginal symptoms can often be determined by pH, a potassium hydroxide (KOH) test, and microscopic examination of a wet mount of fresh samples of vaginal discharge.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Vaginal swabs are an optimal specimen for chlamydia and gonorrhea NAAT testing",
+     "quote": "Optimal urogenital specimen types for chlamydia screening by using NAAT include first-catch urine (for men) and vaginal swabs (for women)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Amsel criteria require at least three of four findings",
+     "quote": "Clinical diagnosis of BV by Amsel criteria requires at least three of the following four symptoms or signs",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Amsel findings: clue cells; pH above 4.5; fishy odor before or after adding 10% KOH (whiff test)",
+     "quote": "Clue cells (e.g., vaginal epithelial cells studded with adherent bacteria) on microscopic examination pH of vaginal fluid >4.5 A fishy odor of vaginal discharge before or after addition of 10% KOH (i.e., the whiff test)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Amsel sensitivity 37 to 70 percent, specificity 94 to 99 percent vs Nugent",
+     "quote": "The sensitivity and specificity of the Amsel criteria are 37%–70% and 94%–99%, respectively, compared with the Nugent score",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Gram stain is the reference standard laboratory method; Nugent 7 to 10 indicates BV",
+     "quote": "Vaginal Gram stain, considered the reference standard laboratory method for diagnosing BV",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nugent score of 7 to 10 is BV (takeaway)",
+     "quote": "A Nugent score of 0–3 is consistent with a-predominant vaginal microbiota, 4–6 with intermediate microbiota (emergence of), and 7–10 with BV.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Molecular tests (NAATs) detect bacterial DNA with high sensitivity and specificity",
+     "quote": "These tests are based on detection of specific bacterial nucleic acids and have high sensitivity and specificity for BV",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV NAATs should be used only in women with symptoms",
+     "quote": "BV NAATs should be used among symptomatic women only (e.g., women with vaginal discharge, odor, or itch)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Office testing: pH paper, saline wet mount for clue cells and motile trichomonads, KOH for whiff test and yeast hyphae or blastospores",
+     "quote": "The saline-solution specimen might display motile trichomonads or clue cells ... The KOH specimen typically is used to identify hyphae or blastospores observed with candidiasis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Microscopy picks up only about half of trichomoniasis and yeast infections compared with NAAT or culture",
+     "quote": "the sensitivity of microscopy is approximately 50% compared with NAAT (trichomoniasis) or culture (yeast)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Some molecular BV panels also report Candida species and Trichomonas vaginalis",
+     "quote": "It also provides results for Candida species and T. vaginalis.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV molecular tests can use clinician- or self-collected vaginal specimens",
+     "quote": "They can be performed on either clinician- or self-collected vaginal specimens",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Patient-collected vaginal swabs are equivalent to clinician-collected ones for chlamydia NAAT",
+     "quote": "Patient-collected vaginal swab specimens are equivalent in sensitivity and specificity to those collected by a clinician using NAATs",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clinicians ask about douching, vaginal products and self-treatment",
+     "quote": "vaginal hygiene practices (e.g., douching), and self-treatment with oral and intravaginal medications or other products should be elicited.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Douching might increase the risk of relapse; no data support it for treatment or symptom relief (takeaway, normal, prevention, FAQ)",
+     "quote": "Douching might increase the risk for relapse, and no data support use of douching for treatment or symptom relief.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "During treatment, avoid sex or use condoms consistently and correctly",
+     "quote": "Women should be advised to refrain from sexual activity or to use condoms consistently and correctly during the BV treatment regimen.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Red-flag list: fever, pelvic pain, pain with sex, bleeding between periods, discharge in pregnancy (CDC part: PID symptoms are often subtle; symptomatic BV in pregnancy treated)",
+     "quote": "Women with PID often have subtle or nonspecific symptoms or are asymptomatic. Delay in diagnosis and treatment probably contributes to inflammatory sequelae in the upper genital tract.",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Severe illness, nausea and vomiting, or temperature above 38.5 C (101 F) are among reasons for hospital care in PID",
+     "quote": "Severe illness, nausea and vomiting, or oral temperature >38.5°C (101°F)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Return for evaluation if symptoms recur; retreatment with the same regimen is acceptable after a first recurrence",
+     "quote": "women should be advised to return for evaluation if symptoms recur. ... retreatment with the same recommended regimen is an acceptable approach for treating persistent or recurrent BV after the first occurrence",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Suppressive 0.75% metronidazole gel twice weekly for more than 3 months reduces recurrences; benefit does not persist after stopping",
+     "quote": "either 0.75% metronidazole gel or 750 mg metronidazole vaginal suppository twice weekly for >3 months has been reported to reduce recurrences, although this benefit does not persist when suppressive therapy is discontinued",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recommended regimens with doses: metronidazole 500 mg twice daily 7 days; gel one full applicator (5 g) daily 5 days; clindamycin cream one full applicator (5 g) at bedtime 7 days (body, table, figure 3, FAQ)",
+     "quote": "500 mg orally 2 times/day for 7 days or one full applicator (5 g) intravaginally, once daily for 5 days or one full applicator (5 g) intravaginally at bedtime for 7 days",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Drug names of the recommended and alternative regimens (metronidazole, metronidazole gel, clindamycin cream; clindamycin oral and ovules, secnidazole, tinidazole)",
+     "quote": "The page lists Metronidazole 500 mg, Metronidazole gel 0.75%, Clindamycin cream 2% as recommended; Clindamycin 300 mg, Clindamycin ovules 100 mg, Secnidazole 2 g oral granules, Tinidazole 2 g and 1 g as alternatives",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Alternatives include secnidazole oral granules, tinidazole and oral or vaginal clindamycin",
+     "quote": "Alternative regimens include secnidazole oral granules (–), multiple oral tinidazole regimens (), or clindamycin (oral or intravaginal)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Secnidazole is an alternative because of higher cost and lack of long-term outcomes (body, FAQ)",
+     "quote": "Secnidazole is listed as an alternative regimen, due to its higher cost and lack of long-term outcomes compared with recommended BV treatments.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Secnidazole granules are sprinkled on applesauce, yogurt or pudding (table)",
+     "quote": "Oral granules should be sprinkled onto unsweetened applesauce, yogurt, or pudding before ingestion.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clindamycin cream is oil based and might weaken latex condoms and diaphragms for 5 days",
+     "quote": "Clindamycin cream is oil based and might weaken latex condoms and diaphragms for 5 days after use",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Relief of symptoms and signs is an established benefit of treatment (FAQ)",
+     "quote": "Established benefits of therapy among nonpregnant women are to relieve vaginal symptoms and signs of infection.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "The cause of the bacterial shift behind BV is not fully understood (FAQ)",
+     "quote": "The cause of the microbial alteration that precipitates BV is not fully understood",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Trichomoniasis treated with metronidazole or tinidazole and should prompt testing (FAQ yellow-green)",
+     "quote": "Testing for other STIs, including HIV, syphilis, gonorrhea, and chlamydia, should be performed for persons with",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Bleeding between periods or after sex can come from cervicitis (FAQ brown or bloody)",
+     "quote": "certain women might report an abnormal vaginal discharge and intermenstrual vaginal bleeding (e.g., especially after sexual intercourse)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. About Bacterial Vaginosis (BV). Last reviewed December 11, 2023.",
+   "url": "https://www.cdc.gov/bacterial-vaginosis/about/index.html",
+   "version_or_date": "Page dated Dec. 11, 2023 (meta last_reviewed and last_updated December 11, 2023); read 2026-11-15",
+   "retrieved_with": "WebFetch of official page (verbatim short quotes)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "The page does not name Lactobacillus, Gardnerella or anaerobes; that claim moved to ref 1.",
+   "claims": [
+    {
+     "text": "BV discharge is thin and white or gray",
+     "quote": "A thin white or gray vaginal discharge",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A strong fish-like odor, especially after sex",
+     "quote": "A strong fish-like odor, especially after sex",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Itching or burning can occur with BV (table, trichomoniasis paragraph)",
+     "quote": "Pain, itching, or burning in the vagina",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV is treated with antibiotics by a healthcare provider (takeaway, FAQ)",
+     "quote": "A healthcare provider can treat BV with antibiotics.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Take all the medicine even if symptoms go away (treatment, prevention, figure 3, FAQ)",
+     "quote": "It is important to take all the medicine your provider prescribes, even if your symptoms go away.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptoms may ease before the course ends (figure 3 box, inferred from the advice above)",
+     "quote": "It is important to take all the medicine your provider prescribes, even if your symptoms go away.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Not douching and using condoms the right way every time may help lower BV risk",
+     "quote": "The following basic prevention steps may help lower your risk of getting BV: ... Not douching ... Using condoms the right way every time you have sex",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "How BV spreads and how best to prevent it are not completely understood",
+     "quote": "Healthcare providers and scientists do not completely understand how BV spreads or know how best to prevent it.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "Amsel R, Totten PA, Spiegel CA, Chen KC, Eschenbach D, Holmes KK. Nonspecific vaginitis. Diagnostic criteria and microbial and epidemiologic associations. Am J Med. 1983;74(1):14-22. PMID 6600371",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6600371/",
+   "pmid": "6600371",
+   "doi": "10.1016/0002-9343(83)91112-9",
+   "record_title": "Nonspecific vaginitis. Diagnostic criteria and microbial and epidemiologic associations.",
+   "record_journal": "Am J Med",
+   "record_year": "1983",
+   "article_type": "Comparative Study; Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract does not list the four criteria; the criteria, odor and discharge claims moved to ref 1. Now cited only for the study that proposed the criteria and in the figure 2 source line.",
+   "claims": [
+    {
+     "text": "The Amsel criteria were proposed in a 1983 study of 397 university students",
+     "quote": "We studied 397 consecutive unselected female university students ... Practical diagnostic criteria for standard clinical use are proposed.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Nugent RP, Krohn MA, Hillier SL. Reliability of diagnosing bacterial vaginosis is improved by a standardized method of gram stain interpretation. J Clin Microbiol. 1991;29(2):297-301. PMID 1706728",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1706728/",
+   "pmid": "1706728",
+   "pmcid": "PMC269757",
+   "doi": "10.1128/jcm.29.2.297-301.1991",
+   "record_title": "Reliability of diagnosing bacterial vaginosis is improved by a standardized method of gram stain interpretation.",
+   "record_journal": "J Clin Microbiol",
+   "record_year": "1991",
+   "article_type": "Comparative Study; Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite contrasting excerpt concerns colonisation in another population; does not bear on the scoring claim.",
+   "claims": [
+    {
+     "text": "Nugent Gram stain scored 0 to 10 from lactobacilli, Gardnerella or Bacteroides morphotypes and curved gram-variable rods",
+     "quote": "The scoring system (0 to 10) was described as a weighted combination of the following morphotypes: lactobacilli, Gardnerella vaginalis or bacteroides (small gram-variable rods or gram-negative rods), and curved gram-variable rods.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "A score of 7 or higher indicates BV (takeaway, Amsel section, FAQ)",
+     "quote": "a score of 7 or higher was considered indicative of bacterial vaginosis",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Gram stain grades bacterial morphotypes in the lab (testing section)",
+     "quote": "A new scoring system that uses the most reliable morphotypes from the vaginal smear was proposed for diagnosing bacterial vaginosis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Koumans EH, Sternberg M, Bruce C, et al. The prevalence of bacterial vaginosis in the United States, 2001-2004; associations with symptoms, sexual behaviors, and reproductive health. Sex Transm Dis. 2007;34(11):864-869. PMID 17621244",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17621244/",
+   "pmid": "17621244",
+   "doi": "10.1097/OLQ.0b013e318074e565",
+   "record_title": "The prevalence of bacterial vaginosis in the United States, 2001-2004; associations with symptoms, sexual behaviors, and reproductive health.",
+   "record_journal": "Sex Transm Dis",
+   "record_year": "2007",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Cross-sectional survey. Douching is described only as an association (more BV with increasing douching frequency), not as a cause. Smoking was associated only before multivariate adjustment, so it was removed from the schema riskFactor list. Scite contrasting excerpt concerns ethnicity in a Brazilian sample; not cited here.",
+   "claims": [
+    {
+     "text": "84 percent of women with BV did not report symptoms (takeaway, FAQ, citable summary, figure)",
+     "quote": "84% of women with BV did not report symptoms",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Only 15.7 percent of women with BV reported vaginal symptoms; figure shows 16 percent (rounded)",
+     "quote": "only 15.7% of the women with BV reported vaginal symptoms",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV determined by Nugent Gram stain of a self-collected swab in NHANES 2001-2004",
+     "quote": "Women aged 14-49 years participating in the National Health and Nutrition Examination Survey 2001-2004 were asked to submit a self-collected vaginal swab for Gram staining.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "29.2 percent of women aged 14 to 49 had BV",
+     "quote": "The prevalence of BV was 29.2% (95% confidence interval 27.2%-31.3%)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV was more common with more frequent douching (association only)",
+     "quote": "BV only remained positively associated with race/ethnicity, increasing lifetime sex partners (chi2 P <0.001 for trend), increasing douching frequency (chi2 P for trend <0.001)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV is associated with increased risk of STIs including HIV and with adverse pregnancy outcomes",
+     "quote": "is associated with an increased risk of acquisition of sexually transmitted infections, HIV, and with adverse pregnancy outcomes",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Fredricks DN, Fiedler TL, Marrazzo JM. Molecular identification of bacteria associated with bacterial vaginosis. N Engl J Med. 2005;353(18):1899-1911. PMID 16267321",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16267321/",
+   "pmid": "16267321",
+   "doi": "10.1056/NEJMoa043802",
+   "record_title": "Molecular identification of bacteria associated with bacterial vaginosis.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2005",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite contrasting excerpt concerns L. crispatus detection in another population; does not bear on the claim.",
+   "claims": [
+    {
+     "text": "Women without BV had 1 to 6 species per sample, mostly lactobacilli; women with BV had 9 to 17",
+     "quote": "Women without bacterial vaginosis had 1 to 6 vaginal bacterial species (phylotypes) in each sample ... Women with bacterial vaginosis had greater bacterial diversity (P<0.001), with 9 to 17 phylotypes",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lactobacilli predominated in women without BV",
+     "quote": "lactobacillus species were the predominant bacteria noted (83 to 100 percent of clones)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus, U.S. National Library of Medicine. Vaginal itching and discharge: adult and adolescent. Medical Encyclopedia. Reviewed August 18, 2025.",
+   "url": "https://medlineplus.gov/ency/article/003158.htm",
+   "version_or_date": "Review date 8/18/2025; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page (three reads; verbatim short quotes)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New in slot 7, replacing Ravel 2011 (16S study of asymptomatic women whose abstract does not describe physiologic discharge). The WebFetch rendering showed \"BZV\" in one sentence; that sentence is not quoted.",
+   "claims": [
+    {
+     "text": "Glands in the cervix and vaginal walls normally produce clear mucus",
+     "quote": "Glands in the cervix and the walls of the vagina normally produce clear mucus.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Mucus may turn white or yellow when exposed to air",
+     "quote": "These secretions may turn white or yellow when exposed to the air.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "The amount varies during the menstrual cycle with hormone levels",
+     "quote": "The amount of mucus produced varies during the menstrual cycle. This happens due to the change in hormone levels in the body.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ovulation, pregnancy and sexual excitement can increase normal discharge (normal section, pregnancy paragraph)",
+     "quote": "The following factors can increase the amount of normal vaginal discharge: Ovulation ... Pregnancy ... Sexual excitement",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A forgotten tampon or foreign body can cause a foul odor",
+     "quote": "Forgotten tampon or foreign body. This may cause a foul odor.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A sudden change in amount, color, odor or consistency, or itching, redness or swelling, is a reason to be evaluated (normal section, FAQ)",
+     "quote": "You have a sudden change in the amount, color, odor, or consistency of discharge. ... You have itching, redness, and swelling in the genital area.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fever or pelvic or belly pain: contact a clinician right away (FAQ, red flags)",
+     "quote": "Contact your provider right away if: ... You have fever or pain in your pelvis or belly area",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Douching removes healthy bacteria that line the vagina; avoid it (normal section, FAQ)",
+     "quote": "Avoid douching. ... it may actually worsen symptoms because it removes healthy bacteria that line the vagina.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Red-flag list incl. greenish or gray foul discharge and any discharge during pregnancy (MedlinePlus covers fever and pelvic pain; color and pregnancy items rest on refs 8 and 1)",
+     "quote": "Contact your provider right away if: ... You have fever or pain in your pelvis or belly area",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus, U.S. National Library of Medicine. Pelvic Inflammatory Disease. Last updated July 15, 2025.",
+   "url": "https://medlineplus.gov/pelvicinflammatorydisease.html",
+   "version_or_date": "Last updated July 15, 2025; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page (verbatim short quotes)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New in slot 8, replacing Sutton 2026 (cut: no abstract in PubMed, so the \"3 in 10\" figure could not be checked).",
+   "claims": [
+    {
+     "text": "PID is an infection of the uterus, ovaries and other reproductive organs",
+     "quote": "Pelvic inflammatory disease (PID) is an infection of the uterus, ovaries, and other female reproductive organs.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Gonorrhea and chlamydia are the most common causes of PID",
+     "quote": "Gonorrhea and chlamydia are the most common causes of PID.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Foul-smelling discharge, fever, lower abdominal pain, pain or bleeding during sex and bleeding between periods can signal PID (body, red flags, FAQs)",
+     "quote": "the most common symptom is pain in the lower abdomen (belly). ... Fever ... Foul-smelling vaginal discharge ... Pain or bleeding during sex ... Bleeding between periods",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "See a provider for any PID symptoms or possible STI exposure",
+     "quote": "See your health care provider if you have any symptoms of PID or if you think you or your partner were exposed to an STI.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Bradshaw CS, Morton AN, Hocking J, et al. High recurrence rates of bacterial vaginosis over the course of 12 months after oral metronidazole therapy and factors associated with recurrence. J Infect Dis. 2006;193(11):1478-1486. PMID 16652274",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16652274/",
+   "pmid": "16652274",
+   "doi": "10.1086/503780",
+   "record_title": "High recurrence rates of bacterial vaginosis over the course of 12 months after oral metronidazole therapy and factors associated with recurrence.",
+   "record_journal": "J Infect Dis",
+   "record_year": "2006",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite flagged a later trial reporting better 6-month cure (10.1186/s12879-015-0971-3), so the page frames 58 percent as one study. The stopping-early and reservoir claims were removed from this ref.",
+   "claims": [
+    {
+     "text": "In one study of women treated with oral metronidazole 400 mg twice daily for 7 days, 58 percent had BV again within 12 months (body, FAQ)",
+     "quote": "BV was treated with 400 mg of oral metronidazole twice a day for 7 days. ... Sixty-eight women (58% [95% confidence interval {CI}, 49%-66%]) had a recurrence of BV (NS 7-10)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Past BV and a regular sex partner were linked to recurrence",
+     "quote": "A past history of BV, a regular sex partner throughout the study, and female sex partners were significantly associated with recurrence of BV",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Sobel JD. Vulvovaginal candidosis. Lancet. 2007;369(9577):1961-1971. PMID 17560449",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17560449/",
+   "pmid": "17560449",
+   "doi": "10.1016/S0140-6736(07)60917-9",
+   "record_title": "Vulvovaginal candidosis.",
+   "record_journal": "Lancet",
+   "record_year": "2007",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. The C. albicans and inflammatory-debris claim moved to ref 1. Scite contrasting excerpt concerns recurrence prevalence in another study; not cited here.",
+   "claims": [
+    {
+     "text": "Without rapid, simple tests, yeast infection is both overdiagnosed and underdiagnosed",
+     "quote": "The absence of rapid, simple, and inexpensive diagnostic tests continues to result in both overdiagnosis and underdiagnosis of vulvovaginal candidosis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "journal",
+   "cited_as": "Reichman O, Sobel J. Desquamative inflammatory vaginitis. Best Pract Res Clin Obstet Gynaecol. 2014;28(7):1042-1050. PMID 25132275",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25132275/",
+   "pmid": "25132275",
+   "doi": "10.1016/j.bpobgyn.2014.07.003",
+   "record_title": "Desquamative inflammatory vaginitis.",
+   "record_journal": "Best Pract Res Clin Obstet Gynaecol",
+   "record_year": "2014",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed search_articles and get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces Sobel 1998 (Dermatol Clin), whose abstract covers problematic Candida vaginitis only.",
+   "claims": [
+    {
+     "text": "DIV is an uncommon form of chronic purulent vaginitis with purulent discharge, irritation and pain with sex; diagnosis of exclusion",
+     "quote": "Desquamative inflammatory vaginitis (DIV) is an uncommon form of chronic purulent vaginitis. ... DIV is a diagnosis of exclusion ... The main symptoms include purulent discharge, vestibulo-vaginal irritation, and dyspareunia.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus, U.S. National Library of Medicine. Vaginal dryness. Medical Encyclopedia. Reviewed July 3, 2025.",
+   "url": "https://medlineplus.gov/ency/article/000892.htm",
+   "version_or_date": "Review date 7/3/2025; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page (verbatim short quotes)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Page does not use the term genitourinary syndrome of menopause; that phrase was cut.",
+   "claims": [
+    {
+     "text": "Atrophic vaginitis is caused by a decrease in estrogen, which normally drops after menopause; tissues thin",
+     "quote": "Atrophic vaginitis is caused by a decrease in estrogen. ... Estrogen levels normally drop after menopause. ... the tissues of the vagina gradually shrink and become thinner.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptoms include dryness, slight discharge, burning and light bleeding after intercourse",
+     "quote": "Slight vaginal discharge ... Burning on urination ... Vaginal soreness, itching or burning ... Light bleeding after intercourse",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus, U.S. National Library of Medicine. Vaginal bleeding in pregnancy. Medical Encyclopedia. Reviewed March 17, 2026.",
+   "url": "https://medlineplus.gov/ency/article/003264.htm",
+   "version_or_date": "Review date 3/17/2026; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page (verbatim short quotes)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Any vaginal bleeding during pregnancy should be treated as a potential emergency (normal, red flags, FAQ)",
+     "quote": "You have any vaginal bleeding during pregnancy. Treat this as a potential emergency.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "label",
+   "cited_as": "DailyMed, U.S. National Library of Medicine. VANDAZOLE (metronidazole gel) 0.75%, vaginal: prescribing information. Label revised February 2021; DailyMed entry updated December 2, 2025.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27d71471-8f89-4a1e-8c55-020a58961454",
+   "version_or_date": "DailyMed setid 27d71471-8f89-4a1e-8c55-020a58961454, version 14, updated December 2, 2025; label Revised 2/2021",
+   "retrieved_with": "WebFetch of DailyMed label page (two reads)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "About 10 percent developed Candida vaginitis during or right after metronidazole gel therapy; may need an antifungal",
+     "quote": "Approximately 10% of patients treated with VANDAZOLE developed Candida vaginitis during or immediately after therapy.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Vaginal fungal infections can occur after use (counseling)",
+     "quote": "Inform the patient that vaginal fungal infections can occur following use of VANDAZOLE",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "label",
+   "cited_as": "DailyMed, U.S. National Library of Medicine. CLEOCIN (clindamycin phosphate) Vaginal Cream 2%: prescribing information. Label revised March 2025; DailyMed entry updated November 19, 2025.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f9be442d-0782-4b93-828f-9ebbf67dbced",
+   "version_or_date": "DailyMed setid f9be442d-0782-4b93-828f-9ebbf67dbced, SPL version 23, updated November 19, 2025; label Revised 3/2025",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Vaginal moniliasis in 10.4 percent on the 7-day clindamycin cream regimen",
+     "quote": "Vaginal moniliasis ... 10.4% (7-day regimen, n=1325, adverse reaction table)",
+     "quote_source": "label",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Overgrowth of nonsusceptible organisms can occur",
+     "quote": "The use of CLEOCIN Vaginal Cream 2% may result in the overgrowth of nonsusceptible organisms in the vagina.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "label",
+   "cited_as": "DailyMed, U.S. National Library of Medicine. SOLOSEC (secnidazole) oral granules: prescribing information. Label revised October 2024; DailyMed version 2.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=056485b6-8bba-4a21-ae00-cdb4e7ae4bfa",
+   "version_or_date": "DailyMed setid 056485b6-8bba-4a21-ae00-cdb4e7ae4bfa, version 2 (published Nov 3, 2026 per page); label Revised 10/2024",
+   "retrieved_with": "WebFetch of DailyMed label page (first 100,000 of 101,457 characters read)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Secnidazole is a single 2 g dose of oral granules (FAQ)",
+     "quote": "Administer a single 2-gram packet of granules once orally, without regard to the timing of meals.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clinical response 21 to 30 days after the dose: 67.7 and 53.3 percent vs 17.7 and 19.3 percent placebo (FAQ rounds to 53 to 68 vs about 18 to 19)",
+     "quote": "Trial 1: 67.7% vs. 17.7%; Trial 2: 53.3% vs. 19.3% (clinical responder, 21-30 days, SOLOSEC vs placebo) ... In both trials, a statistically significantly greater percentage of patients experienced clinical response",
+     "quote_source": "label",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Vulvovaginal candidiasis in 9.6 percent after secnidazole; may need an antifungal",
+     "quote": "vulvovaginal candidiasis developed in 19/197 (9.6%) of patients who received 2 g SOLOSEC",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}
