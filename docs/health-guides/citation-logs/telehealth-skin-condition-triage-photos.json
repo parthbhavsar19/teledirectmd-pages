@@ -1,0 +1,496 @@
+{
+  "guide": "telehealth-skin-condition-triage-photos",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 8 verified (all 8 journal DOIs), retractions: none; no expressions of concern, no contrasting evidence flagged, none in predatory journals. PubMed article types checked for refs 1-4, 6-8: none is Retracted Publication or Retraction Notice (ref 5 not in PubMed).",
+  "references": [
+    {
+      "n": 1,
+      "kind": "journal",
+      "cited_as": "Bourkas AN, Barone N, Bourkas MEC, et al. Diagnostic reliability in teledermatology: a systematic review and a meta-analysis. BMJ Open. 2023;13(8):e068207.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10423833/",
+      "pmid": "37567745",
+      "pmcid": "PMC10423833",
+      "doi": "10.1136/bmjopen-2022-068207",
+      "record_title": "Diagnostic reliability in teledermatology: a systematic review and a meta-analysis.",
+      "record_journal": "BMJ Open",
+      "record_year": "2023",
+      "article_type": "Systematic Review; Meta-Analysis",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The review excluded studies where patients captured their own photographs, so the 75.9% training figure refers to training of whoever acquired images, not patient training. Guide text corrected accordingly.",
+      "claims": [
+        {
+          "text": "44 studies; pooled agreement 68.9% (95% CI 64.4% to 73.1%), kappa 0.67",
+          "quote": "The overall diagnostic agreement rate ranged from 13.9% to 98.0% (mean 68.9%, CI 64.4% to 73.1%), with a concordance that ranged from 0.21 to 0.96 (mean 0.67, CI 0.60 to 0.74).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "only a few included studies used live video",
+          "quote": "our study only included a limited number of live video conferencing studies",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "review excluded studies in which patients took their own photos",
+          "quote": "Exclusion criteria encompassed ... studies where patients captured their own photographs.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "with trained image acquisition 75.9% (kappa 0.77) vs 62.1% (kappa 0.60) without",
+          "quote": "The mean agreement rate ... was 75.9% (CI 74.4% to 77.27%), significantly higher than the 62.1% (CI 60.5% to 63.7%) observed when no training was provided",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "kappa 0.77 with training vs 0.60 without",
+          "quote": "Concordance values were also higher when training was provided (mean 0.77, CI 0.66 to 0.84) compared with when no training was provided (mean 0.60, CI 0.49 to 0.69)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "digital cameras 71.7% vs smartphones or tablets 59.8%",
+          "quote": "the mean percentage agreement rate for digital cameras was 71.7% (CI 70.3% to 73.1%) compared with 59.8% (CI 57.2% to 62.3%) for smartphones or tablets.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "study range 13.9% to 98.0%",
+          "quote": "The overall diagnostic agreement rate ranged from 13.9% to 98.0%",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "55.7% agreement with histopathology across all skin biopsies; not calculable by lesion type",
+          "quote": "a 55.7% (CI 53.0% to 58.4%) agreement rate between teledermatology and histopathology. This low agreement rate reflects all skin biopsies, and specific diagnostic accuracy rates could not be calculated by lesion type",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "higher agreement with trained photographers and digital cameras (key takeaway, photo section, bottom line)",
+          "quote": "Higher diagnostic agreements were also noted with image acquisition training and digital photography.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "table: 55.7% vs histopathology across all biopsied lesions",
+          "quote": "55.7% between teledermatology and histopathology",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Saade S, Khoury DM, Abou Shahla W, et al. Teledermatology Diagnostic Accuracy: A Randomized Cohort Study Comparing Three Image Acquisition Techniques. Int J Telemed Appl. 2025;2025:5789165.",
+      "url": "https://doi.org/10.1155/ijta/5789165",
+      "pmid": "41041428",
+      "pmcid": "PMC12488292",
+      "doi": "10.1155/ijta/5789165",
+      "record_title": "Teledermatology Diagnostic Accuracy: A Randomized Cohort Study Comparing Three Image Acquisition Techniques.",
+      "record_journal": "Int J Telemed Appl",
+      "record_year": "2025",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Abstract only used. Claims limited to the abstract. 'Near-perfect' wording and eczema/rosacea/psoriasis claims removed from this citation.",
+      "claims": [
+        {
+          "text": "360 patients, three photo methods: 79% unassisted, 84% after brief training, 87% resident-taken",
+          "quote": "Diagnostic concordance improved with image quality: 79% for unassisted patient images, 84% for assisted images, and 87% for resident-taken images.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "brief standardized training; 360 adult dermatology patients at AUB",
+          "quote": "A total of 360 adult patients presenting for dermatologic evaluation at the American University of Beirut Medical Center were enrolled.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "acne had the highest diagnostic match across all photo types",
+          "quote": "Acne showed the highest diagnostic match across all image types.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "journal",
+      "cited_as": "Shapiro J, Lavi IK, Kun D, Ingber A, Freud T, Grunfeld O. Dermatology. 2024;240(3):425-433.",
+      "url": "https://doi.org/10.1159/000537823",
+      "pmid": "38522421",
+      "doi": "10.1159/000537823",
+      "record_title": "Does the Diagnostic Accuracy and Rates of Face-to-Face Visits Occurring Shortly after an Asynchronized Teledermatology Consultation Justify Its Implementation? An 18-Month Cohort Study.",
+      "record_journal": "Dermatology",
+      "record_year": "2024",
+      "article_type": "Journal Article (cohort study)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Abstract only. Link changed from karger.com to doi.org. Context added: 97.4% = full plus partial concordance in same-indication visits within 2 weeks.",
+      "claims": [
+        {
+          "text": "program used by 12,815 members; 901 had a face-to-face visit within two weeks",
+          "quote": "Dermadetect was used by 12,815 MHS beneficiaries. In 30% of cases, following FTFC occurred within the subsequent 5 months, and 901 of them occurred in the subsequent 2 weeks and were analyzed.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "97.4% agreement (68.1% full, 29.3% partial) for same problem",
+          "quote": "The diagnosis concordance between the TC and recurrent FTFC for the same indication was 97.4%, with full concordance at 68.1% and partial concordance at 29.3%.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "13 of 901 (1.4%) received a different diagnosis",
+          "quote": "13 patients (1.4%) of the 901 patients using the application only once had a subsequent FTFC within 2 weeks and received a different diagnosis",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Funkhouser CH, Funkhouser ME, Wolverton JE, Maurer T. Teledermatology Consults in a County Hospital Setting: Retrospective Analysis. JMIR Dermatol. 2021;4(2):e30530.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10334958/",
+      "pmid": "37632816",
+      "pmcid": "PMC10334958",
+      "doi": "10.2196/30530",
+      "record_title": "Teledermatology Consults in a County Hospital Setting: Retrospective Analysis.",
+      "record_journal": "JMIR Dermatol",
+      "record_year": "2021",
+      "article_type": "Journal Article (research letter, retrospective)",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "450 consults, 2017-2019, San Mateo County. Contains no 2019-2020 billing/claims data: the acne+rosacea claims-share sentence was cut. Table row 'scarring alopecia 100%' was wrong (source reports alopecia areata); replaced with the paper's hair/scalp statement. Small per-condition n now shown.",
+      "claims": [
+        {
+          "text": "1 of 30 eczema consults (3%) referred; ~97% managed remotely",
+          "quote": "Eczema NOS 30 1 (3) 29",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "none of 6 atopic dermatitis consults referred",
+          "quote": "Atopic dermatitis 6 0 (0) 6",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "rosacea 6 of 8 (~75%) managed remotely",
+          "quote": "Rosacea 8 2 (25) 6",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "contact dermatitis 6 of 9 (~67%) managed remotely",
+          "quote": "Contact dermatitis 9 3 (33) 6",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "seborrheic dermatitis 18 of 20 (~90%) managed remotely",
+          "quote": "Seborrheic dermatitis 20 2 (10) 18",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "all 17 actinic keratosis and all 28 rule-out NMSC consults referred in person",
+          "quote": "Rule out NMSC 28 28 (100) 0 ... Actinic keratosis 17 17 (100) 0",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "warts 10 of 11 (~91%) referred, often for procedures",
+          "quote": "Wart 11 10 (91) 1 ... or that required procedural management, such as alopecia areata, verruca, and keloids.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "hair and scalp conditions frequently needed in-person visit",
+          "quote": "hair disorders and scalp lesions can be difficult to capture via photo and frequently necessitated an in-person visit.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "papulosquamous conditions (includes psoriasis) referred less often",
+          "quote": "The papulosquamous disorders and acneiform disorders groups were referred for an in-person visit less frequently.",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "most eczema, rosacea and contact dermatitis consults managed without in-person visit (key takeaway)",
+          "quote": "Eczema NOS 30 1 (3) 29 ... Contact dermatitis 9 3 (33) 6 ... Rosacea 8 2 (25) 6",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "suspected skin cancer should be evaluated in person (key takeaway)",
+          "quote": "serving as a triage tool for more concerning lesions that should be evaluated in person.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Rangkuti ADP, Jusuf NK, Putra IB. Comparison between the diagnosis of acne vulgaris by teledermatology and face-to-face consultations. Bali Med J. 2021;10(3):1037-1040.",
+      "url": "https://doi.org/10.15562/bmj.v10i3.2792",
+      "doi": "10.15562/bmj.v10i3.2792",
+      "record_title": "Comparison between the diagnosis of acne vulgaris by teledermatology and face-to-face consultations",
+      "record_journal": "Bali Medical Journal",
+      "record_year": "2021",
+      "article_type": "Observational cross-sectional study (per abstract); not indexed in PubMed",
+      "retrieved_with": "Scite search_literature (record + abstract) and Scite verify_papers (verified, not on predatory list). Publisher page not fetched: prior audit found it country-blocked, so it was not routed around.",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Abstract only. Photos were taken by a resident (5 standardized facial views), not by patients; 105 of 110 had acne, so specificity rests on 5 non-acne patients. Guide wording narrowed to one study with resident-taken photos; 'multiple studies' removed. Author initials taken from Scite full names (Nelva Karmila Jusuf, Imam Budi Putra). Link changed to DOI.",
+      "claims": [
+        {
+          "text": "110 suspected acne patients; resident-taken facial photos; 100% sensitivity, specificity, accuracy",
+          "quote": "involving 110 suspected acne vulgaris ... Teledermatology showed 100% sensitivity, specificity, positive predictive value, negative predictive value, and accuracy.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "photos were standardized facial views taken by a resident",
+          "quote": "The resident established the diagnosis of acne vulgaris directly and teledermatologically by the consultant based on photo documentation of 5 facial lesion areas",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "journal",
+      "cited_as": "Lee MS, Stavert R. Factors Contributing to Diagnostic Discordance Between Store-and-Forward Teledermatology Consultations and In-Person Visits: Case Series. JMIR Dermatol. 2021;4(1):e24820.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10501508/",
+      "pmid": "37632800",
+      "pmcid": "PMC10501508",
+      "doi": "10.2196/24820",
+      "record_title": "Factors Contributing to Diagnostic Discordance Between Store-and-Forward Teledermatology Consultations and In-Person Visits: Case Series.",
+      "record_journal": "JMIR Dermatol",
+      "record_year": "2021",
+      "article_type": "Journal Article (case series)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Removed as support for melanoma/AK triage and for the cellulitis table cell. Discordance factor list rewritten to the paper's own list (no dermoscopy or body-distribution factors).",
+      "claims": [
+        {
+          "text": "discordance factors: poor image quality, inadequate history or workup, texture, atypical presentations, evolution over time",
+          "quote": "Factors contributing to diagnostic discordance ... included poor image quality, inadequate history or diagnostic workup, inability to evaluate textural characteristics, diagnostic uncertainty due to atypical presentations, and evolution in appearance of skin conditions over time.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "journal",
+      "cited_as": "Jones LK, Oakley A. Store-and-Forward Teledermatology for Assessing Skin Cancer in 2023: Literature Review. JMIR Dermatol. 2023;6:e43395.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10335330/",
+      "pmid": "37632914",
+      "pmcid": "PMC10335330",
+      "doi": "10.2196/43395",
+      "record_title": "Store-and-Forward Teledermatology for Assessing Skin Cancer in 2023: Literature Review.",
+      "record_journal": "JMIR Dermatol",
+      "record_year": "2023",
+      "article_type": "Review",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Tap-to-focus / zoom advice and 'most common reason consults are returned' claim removed (not in source). Now cited for patient image quality, dermoscopy, in-person review of suspected malignancy, time to advice, and smartphone resolution.",
+      "claims": [
+        {
+          "text": "patient-taken images generally lowest quality, partly from less experience focusing",
+          "quote": "Images obtained by patients generally have the lowest image quality []. This is likely due to the increased difficulty taking the images, less experience in focusing lesions",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "dermoscopy images more effective than clinical photos alone",
+          "quote": "Most research suggests adding dermoscopy images for teledermatology is more effective than clinical images alone.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "most guidelines suggest in-person review for suspected malignant lesions",
+          "quote": "Most guidelines suggest in-person review for suspected malignant lesions. Improved accuracy noted with teledermoscopy.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "most studies show teledermatology reduces time to advice",
+          "quote": "Most literature shows that teledermatology reduces time to advice and definitive treatment compared to outpatient clinic assessment.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "improving smartphone resolution means newer research likely reports higher image quality",
+          "quote": "Given advances in imaging quality, notably improved smartphone camera resolution, more recent research is likely to report higher image quality regardless of the operator.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "journal",
+      "cited_as": "Lindemann H, Bonetzki T, Frank J. Diagnostic spectrum and therapeutic efficiency in teledermatology: Results of the largest cohort study to date. J Dermatol. 2023;50(6):800-803.",
+      "url": "https://doi.org/10.1111/1346-8138.16769",
+      "pmid": "36890665",
+      "doi": "10.1111/1346-8138.16769",
+      "record_title": "Diagnostic spectrum and therapeutic efficiency in teledermatology-Results of the largest cohort study to date.",
+      "record_journal": "J Dermatol",
+      "record_year": "2023",
+      "article_type": "Journal Article (cohort)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Abstract only. Author order fixed to PubMed (Lindemann, Bonetzki, Frank). 81.2% now attributed to the 1,802 (~10%) with 3-month follow-up and described as not requiring face-to-face consultation. 'German' cohort descriptor removed (abstract does not state the country). Psoriasis table citation removed (abstract does not mention psoriasis). Link changed from a Wiley PDF to DOI.",
+      "claims": [
+        {
+          "text": "21,725 patients; ~10% (1,802) had 3-month follow-up; 81.2% of those did not require face-to-face consultation",
+          "quote": "21 725 individuals received a diagnosis ... 1802 individuals (~10%) ... received a follow-up 3 months after the initial consultation ... Of these, 81.2% did not require a face-to-face consultation.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "guideline",
+      "cited_as": "American Academy of Dermatology. AAD Teledermatology Standards (web page).",
+      "url": "https://www.aad.org/member/practice/telederm/standards",
+      "version_or_date": "No standards date or version shown on page (footer copyright 2026); same text as AAD PDF 21-762-DC",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Title corrected from 'AAD Position Statement on Teledermatology ... Updated 2021' (no such date on page). 'Requires' changed to 'recommends'. Unsupported claim that photo factors improve concordance and that virtual access must not substitute for local dermatologists removed.",
+      "claims": [
+        {
+          "text": "AAD recommends all platforms offer the option of in-person dermatology care",
+          "quote": "The AAD recommends that all teledermatology platforms offer patients the option to access in-person dermatology services",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "when necessary or preferred; payers should not offer virtual access alone",
+          "quote": "Payers should not offer virtual access alone without an option to obtain in-person care.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "patients should use a digital camera with minimum 800 x 600 pixels",
+          "quote": "The AAD recommends patients use a digital camera with a minimum resolution of 800 x 600 pixels.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "other_web",
+      "cited_as": "American Academy of Dermatology. How to take pictures of your skin for your dermatologist. Last updated 7/20/23.",
+      "url": "https://www.aad.org/public/fad/digital-health/taking-pictures-skin",
+      "version_or_date": "Last updated 7/20/23",
+      "retrieved_with": "WebFetch of official page (found via WebSearch restricted to aad.org)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference. Replaces the duplicate AAD Teledermatology Standards PDF (old ref 10, which no claim cited). Supports the patient photo tips that previously cited the meta-analysis, the AAD standards page and Jones & Oakley without support.",
+      "claims": [
+        {
+          "text": "natural window light is excellent; lamp or flashlight otherwise",
+          "quote": "An excellent source of good lighting is natural lighting that's coming in through a window on a sunny day.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "free of shadows, glare and harsh lighting",
+          "quote": "Free of shadows, glare, and harsh lighting.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "crisp detail, no blurring means in focus; turn off filters",
+          "quote": "When you see crisp detail and no blurring, you know the picture is in focus.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "take three photos from different perspectives; wide shot shows location; close-up shows fine lines",
+          "quote": "Take three photos of your concern. ... This shot lets your dermatologist see where the concern appears on your body.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "coin, pencil eraser or ruler next to it without covering it",
+          "quote": "by placing a coin, pencil eraser, or ruler next to it. ... Make sure that the coin, pencil eraser, or ruler doesn't cover up part of your spot or rash.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "comparison shot with unaffected skin; neutral one-color background",
+          "quote": "This shot lets your dermatologist see both your concern and unaffected skin around that concern.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "agency_page",
+      "cited_as": "NHS. Cellulitis. Page last reviewed 18 April 2024.",
+      "url": "https://www.nhs.uk/conditions/cellulitis/",
+      "version_or_date": "Page last reviewed 18 April 2024; next review due 18 April 2027",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference supporting added emergency red-flag sentence and the cellulitis table cell. NHS says 'Call 999 or go to A&E'; the guide uses the US equivalent (911 or an emergency department), same urgency.",
+      "claims": [
+        {
+          "text": "emergency care for cellulitis with very high temperature or hot/cold/shivery, fast heartbeat or breathing, purple patches, dizzy or faint, confusion, cold clammy pale skin",
+          "quote": "Call 999 or go to A&E if: You have cellulitis with: a very high temperature, or you feel hot, cold or shivery; a fast heartbeat or fast breathing; purple patches on your skin",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "painful, hot, swollen skin needs urgent care (table)",
+          "quote": "Ask for an urgent GP appointment or get help from NHS 111 if: your skin is painful, hot and swollen",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "agency_page",
+      "cited_as": "NHS. Stevens-Johnson syndrome. Last reviewed 4 March 2026.",
+      "url": "https://www.nhs.uk/conditions/stevens-johnson-syndrome/",
+      "version_or_date": "Last reviewed 4 March 2026; next review due 4 March 2029",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference supporting the added emergency red-flag sentence. NHS 'Call 999 or go to A&E' rendered as 911 or an emergency department.",
+      "claims": [
+        {
+          "text": "emergency care for rash spreading across the body, blistered or peeling skin, swollen or sore mouth/face/lips/tongue/throat/eyes, wheezing, chest or throat tightness; may be Stevens-Johnson syndrome",
+          "quote": "Call 999 or go to A&E if you or your child: have a rash spreading across the body ... These may be signs of a serious reaction like Stevens-Johnson syndrome",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

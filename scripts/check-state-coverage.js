@@ -120,6 +120,7 @@ function main() {
     'lib/compare-pages-config.js',        // competitor coverage claims
     'app/compare/',                       // competitor comparison prose
     'public/health-guides/',              // clinical facts, policy stats
+    'docs/health-guides/citation-logs/',  // verbatim quotes from cited sources (e.g. CDC EPT state counts)
     'data/outbreaks/',                    // CDC outbreak reports
     'public/flu-hub/data/',               // pharmacy addresses ("48 State Rt 23")
     'scripts/check-state-coverage.js',    // this file (self-reference)

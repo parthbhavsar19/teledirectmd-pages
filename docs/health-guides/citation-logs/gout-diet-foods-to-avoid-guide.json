@@ -1,0 +1,603 @@
+{
+ "guide": "gout-diet-foods-to-avoid-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 10 verified (all 10 DOIs: 9 original journal refs plus Kaneko 2014), retractions: none; no expressions of concern; PubMed article types show no Retracted Publication or Retraction Notice. Scite flagged one potential contrasting citation for 9 of 10 papers; see entry notes.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "FitzGerald JD, Dalbeth N, Mikuls T, et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care & Research. 2020;72(6):744-760.",
+   "pmid": "32391934",
+   "pmcid": "PMC10563586",
+   "doi": "10.1002/acr.24180",
+   "record_title": "2020 American College of Rheumatology Guideline for the Management of Gout.",
+   "record_journal": "Arthritis Care Res (Hoboken)",
+   "record_year": "2020",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "2020 guideline (published online 2020-05-11), PMC author manuscript read 2026-11-15",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC10563586); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite verify_papers 2026-11-15: verified, no editorial notices. The 2026-11-06 audit had recorded two errata (10.1002/acr.24401, 10.1002/acr.24566); not re-retrieved this run; errata are corrections, not retractions. Vitamin C recommendation text in PMC full text reads \"conditionally recommended\" with the word \"against\" apparently lost in conversion; the guide only cites the explanatory sentence that data were insufficient to support vitamin C. Scite contrasting excerpt concerns ULT deprescribing in dialysis patients, not the lifestyle claims cited.",
+   "claims": [
+    {
+     "text": "Dietary changes likely produce only small changes in serum urate; dietary factors may act as flare triggers",
+     "quote": "Dietary modifications likely yield only small changes in SU concentration, but dietary factors may serve as triggers for flares",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "ACR conditionally recommends limiting alcohol, purine intake and high-fructose corn syrup, and weight loss if overweight/obese",
+     "quote": "Using a weight loss program (no specific program endorsed) is conditionally recommended for those patients with gout who are overweight/obese, regardless of disease activity.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Limiting purine intake is a conditional recommendation",
+     "quote": "Limiting purine intake is conditionally recommended for patients with gout, regardless of disease activity.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Limiting high-fructose corn syrup is conditionally recommended",
+     "quote": "Limiting high-fructose corn syrup intake is conditionally recommended for patients with gout, regardless of disease activity.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Limiting alcohol is conditionally recommended",
+     "quote": "Limiting alcohol intake is conditionally recommended for patients with gout, regardless of disease activity.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Weight-loss evidence rated very low certainty",
+     "quote": "the certainty of the evidence was rated as very low for both SU and flares",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Conditional recommendations reflect less than moderate or high certainty, including diet and lifestyle",
+     "quote": "Where certainty of data is less than moderate or high, conditional recommendations made herein are meant to highlight those decisions that would benefit from a shared patient-provider decision-making process. This would include areas such as diet, lifestyle",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cherry and dairy evidence low or very low certainty; no specific recommendation",
+     "quote": "The Voting Panel reviewed the data for cherries/cherry extract and dairy protein. The certainty of evidence drawn mainly from observational studies was low or very low, precluding specific recommendations on these topics.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Vitamin C data insufficient to support its use",
+     "quote": "The Voting Panel reached consensus that data on vitamin C were insufficient to support continued recommendation for its use in patients with gout.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "More than 1 to 2 drinks in prior 24 hours linked to 40 percent higher flare risk, dose-response",
+     "quote": "consuming >1–2 alcoholic beverage servings in the prior 24 hours was associated with a 40% higher risk of gout flare than periods without alcohol consumption, with a dose-response relationship",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Flare risk rose with purine intake, but low-purine education trial did not lower serum urate",
+     "quote": "there was a dose-response relationship between increasing purine intake and risk of gout flare (). However, a small RCT (n = 29 ...) using an educational intervention focused on low purine intake did not demonstrate lower SU concentrations",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "1 g/kg fructose raised serum urate by 1 to 2 mg/dL within 2 hours",
+     "quote": "The ingestion of 1 gm of fructose/kg of body weight increases SU concentration by 1–2 mg/dl within 2 hours of ingestion",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "HFCS associated with incident gout in Nurses Health Study; no data focused on patients with existing gout",
+     "quote": "In the Nurses’ Health Study, greater consumption of high-fructose corn syrup was associated with higher risk of incident gout (). However, there were no data focused on patients with existing gout.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Obesity associated with incident gout; BMI decrease over 5 percent linked to 40 percent lower odds of recurrent flare",
+     "quote": "obesity was associated with a higher risk of incident gout ... a decrease in BMI of >5% was associated with 40% lower odds of recurrent flare",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Small study of 11 people: 5 kg weight loss lowered serum urate by 1.1 mg/dL",
+     "quote": "In a small cohort (n = 11) of obese patients, a mean weight loss of 5 kg resulted in a mean SU lowering of 1.1 mg/dl",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Effect of DASH and healthy diets on serum urate was small",
+     "quote": "the impact of diet or individual food items on SU concentration was small. As an example, a unit of beer raised SU concentrations by 0.16 mg/dl. The effects of a healthy diet, Mediterranean diet, or Dietary Approaches to Stop Hypertension (DASH) diet were even smaller",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "One unit of beer raised serum urate by 0.16 mg/dL",
+     "quote": "As an example, a unit of beer raised SU concentrations by 0.16 mg/dl.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "ULT strongly recommended for tophi, radiographic damage or 2 or more flares a year",
+     "quote": "Initiating ULT is strongly recommended for gout patients with any of the following: ≥1 subcutaneous tophi; evidence of radiographic damage (any modality) attributable to gout; OR frequent gout flares, with frequent being defined as ≥2 annually.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Allopurinol preferred first-line; treat-to-target serum urate below 6 mg/dL",
+     "quote": "allopurinol as the preferred first-line ULT ... and a treat-to-target management strategy with ULT dose titration guided by serial serum urate (SU) measurements, with an SU target of <6 mg/dl",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "ULT has high-certainty evidence for lowering serum urate, reducing flares and tophi",
+     "quote": "there was high certainty of evidence regarding the efficacy of ULT in reducing flare frequency (–), tophi (,), and SU concentrations",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lower urate levels hasten the resolution of tophi",
+     "quote": "There is ample evidence that lower SU levels hasten the resolution of tophi",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "ACR mentions hydration only for people taking uricosurics",
+     "quote": "For patients who are treated with uricosurics, patients should receive counseling about adequate hydration",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    }
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/"
+  },
+  {
+   "n": 2,
+   "kind": "journal",
+   "cited_as": "Choi HK, Curhan G. Soft drinks, fructose consumption, and the risk of gout in men: prospective cohort study. BMJ. 2008;336(7639):309-312.",
+   "pmid": "18244959",
+   "pmcid": "PMC2234536",
+   "doi": "10.1136/bmj.39449.819271.BE",
+   "record_title": "Soft drinks, fructose consumption, and the risk of gout in men: prospective cohort study.",
+   "record_journal": "BMJ",
+   "record_year": "2008",
+   "article_type": "Journal Article (prospective cohort study)",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC returned abstract only); Scite read_fulltext (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only; claims limited to abstract. Scite flagged a contrasting citation (10.1002/acr.21999) that found no association of fructose-rich soft drinks with serum urate levels; the guide now states the cohort had no gout at baseline and does not claim a urate effect from this study.",
+   "claims": [
+    {
+     "text": "Two or more sugar-sweetened soft drinks a day RR 1.85 vs less than one a month; diet soft drinks not associated; 46,393 men",
+     "quote": "for two or more servings a day was 1.85 (1.08 to 3.16; P for trend=0.002). Diet soft drinks were not associated with risk of gout (P for trend=0.99).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cohort of 46,393 men with no gout at baseline",
+     "quote": "46 393 men with no history of gout at baseline",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Highest fifth of fructose intake RR 2.02",
+     "quote": "The multivariate relative risk of gout according to increasing fifths of fructose intake were 1.00, 1.29, 1.41, 1.84, and 2.02",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fruit juice and fructose-rich fruits such as apples and oranges also associated with higher risk",
+     "quote": "Other major contributors to fructose intake such as total fruit juice or fructose rich fruits (apples and oranges) were also associated with a higher risk of gout",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sugar-sweetened soft drinks strongly associated with gout; clearest fructose concern",
+     "quote": "consumption of sugar sweetened soft drinks and fructose is strongly associated with an increased risk of gout in men",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Water instead of sugar-sweetened soft drinks removes a drink linked to gout",
+     "quote": "Increasing intake of sugar sweetened soft drinks was associated with an increasing risk of gout.",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18244959/"
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "Choi HK, Atkinson K, Karlson EW, Willett W, Curhan G. Alcohol intake and risk of incident gout in men: a prospective study. The Lancet. 2004;363(9417):1277-1281.",
+   "pmid": "15094272",
+   "doi": "10.1016/S0140-6736(04)16000-5",
+   "record_title": "Alcohol intake and risk of incident gout in men: a prospective study.",
+   "record_journal": "Lancet",
+   "record_year": "2004",
+   "article_type": "Journal Article (prospective cohort)",
+   "retrieved_with": "PubMed get_article_metadata; Scite read_fulltext (no text); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. Previous guide figures (beer RR 2.51 and spirits RR 1.60 per serving) did not match; abstract per-daily-serving RRs are 1.49 (beer) and 1.15 (spirits). Scite contrasting excerpt (10.1002/acr.23347) concerns urate control under ULT, not incident gout.",
+   "claims": [
+    {
+     "text": "Each daily 12-oz beer RR 1.49; each daily spirits drink RR 1.15; wine RR 1.04 per 4-oz serving, not significant",
+     "quote": "Beer consumption showed the strongest independent association with the risk of gout (multivariate RR per 12-oz serving per day 1.49; 95% CI 1.32-1.70).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Spirits RR 1.15; wine 1.04 not significant",
+     "quote": "Consumption of spirits was also significantly associated with gout (multivariate RR per drink or shot per day 1.15; 95% CI 1.04-1.28); however, wine consumption was not (multivariate RR per 4-oz serving per day 1.04",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Alcohol strongly associated; risk differs by drink; beer > spirits; moderate wine no increase",
+     "quote": "Alcohol intake is strongly associated with an increased risk of gout. This risk varies substantially according to type of alcoholic beverage: beer confers a larger risk than spirits, whereas moderate wine drinking does not increase the risk.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cohort of 47,150 men",
+     "quote": "risk of incident gout in 47?150 male participants with no history of gout at baseline",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Beer is the drink most worth limiting; figures are associations from cohorts of men",
+     "quote": "Beer consumption showed the strongest independent association with the risk of gout",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15094272/"
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Choi HK, Atkinson K, Karlson EW, Willett W, Curhan G. Purine-rich foods, dairy and protein intake, and the risk of gout in men. New England Journal of Medicine. 2004;350(11):1093-1103.",
+   "pmid": "15014182",
+   "doi": "10.1056/NEJMoa035700",
+   "record_title": "Purine-rich foods, dairy and protein intake, and the risk of gout in men.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2004",
+   "article_type": "Journal Article (prospective cohort)",
+   "retrieved_with": "PubMed get_article_metadata; Scite read_fulltext (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. RR 0.56 is for total dairy intake (highest vs lowest quintile), not lower-fat dairy; the citable summary previously said \"High-fat dairy\". Specific seafood species and \"game\" are not in the abstract and now cite NIAMS (ref 10). Scite contrasting excerpt (10.1002/acr.24150) reports higher dairy linked to hyperuricemia in a Chinese population; guide frames dairy result as one cohort of men and notes ACR low-certainty rating.",
+   "claims": [
+    {
+     "text": "Highest fifth meat RR 1.41; seafood RR 1.51 vs lowest fifth; 47,150 men",
+     "quote": "The multivariate relative risk of gout among men in the highest quintile of meat intake, as compared with those in the lowest quintile, was 1.41 ... seafood intake was 1.51",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Highest dairy intake RR 0.56",
+     "quote": "the incidence of gout decreased with increasing intake of dairy products; the multivariate relative risk among men in the highest quintile, as compared with those in the lowest quintile, was 0.56",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Purine-rich vegetables and total protein not associated with gout",
+     "quote": "The level of consumption of purine-rich vegetables and the total protein intake were not associated with an increased risk of gout.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Meat and seafood linked to higher gout risk; vegetables need not be eliminated",
+     "quote": "Higher levels of meat and seafood consumption are associated with an increased risk of gout ... Moderate intake of purine-rich vegetables or protein is not associated with an increased risk of gout.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Health Professionals Follow-up Study of 47,150 men",
+     "quote": "we prospectively examined the relationship between purported dietary risk factors and new cases of gout among 47,150 men who had no history of gout at base line",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15014182/"
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Kuo CF, Grainge MJ, Zhang W, Doherty M. Global epidemiology of gout: prevalence, incidence and risk factors. Nature Reviews Rheumatology. 2015;11(11):649-662.",
+   "pmid": "26150127",
+   "doi": "10.1038/nrrheum.2015.91",
+   "record_title": "Global epidemiology of gout: prevalence, incidence and risk factors.",
+   "record_journal": "Nat Rev Rheumatol",
+   "record_year": "2015",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. Removed unsupported uses (obesity mechanism, \"weight loss most evidence-backed\", \"medication dissolves crystals\"). Now cited only for gout definition and for genetics, comorbidities and medications influencing risk.",
+   "claims": [
+    {
+     "text": "Gout is a crystal-deposition disease from long-term urate elevation above MSU saturation point",
+     "quote": "Gout is a crystal-deposition disease that results from chronic elevation of uric acid levels above the saturation point for monosodium urate (MSU) crystal formation.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Diet is one of several influences alongside genetics, other conditions and medicines",
+     "quote": "Some ethnic groups are particularly susceptible to gout, supporting the importance of genetic predisposition. Socioeconomic and dietary factors, as well as comorbidities and medications that can influence uric acid levels",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Other health conditions and medicines influence urate and gout risk; heart-healthy pattern serves more than joints",
+     "quote": "comorbidities and medications that can influence uric acid levels and/or facilitate MSU crystal formation, are also important in determining the risk of developing clinically evident gout",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26150127/"
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Zhang Y, Neogi T, Chen C, Chaisson C, Hunter DJ, Choi HK. Cherry consumption and decreased risk of recurrent gout attacks. Arthritis & Rheumatism. 2012;64(12):4004-4011.",
+   "pmid": "23023818",
+   "pmcid": "PMC3510330",
+   "doi": "10.1002/art.34677",
+   "record_title": "Cherry consumption and decreased risk of recurrent gout attacks.",
+   "record_journal": "Arthritis Rheum",
+   "record_year": "2012",
+   "article_type": "Journal Article (case-crossover study)",
+   "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Link is the PMC record of this PMID. Removed \"servings about a cup\" and \"supplements not a substitute\" (not in abstract; abstract reports cherry extract OR 0.55). Scite contrasting excerpt concerns inflammatory markers after tart cherry in a feeding study.",
+   "claims": [
+    {
+     "text": "Cherry intake over prior 2 days OR 0.65, 35 percent lower odds; 633 people",
+     "quote": "Our study included 633 individuals with gout. Cherry intake over a 2-day period was associated with a 35% lower risk of gout attacks compared with no intake (multivariate OR 0.65 [95% CI 0.50-0.85]).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cherry extract similar association OR 0.55",
+     "quote": "Cherry extract intake showed a similar inverse association (multivariate OR 0.55 [95% CI 0.30-0.98]).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cherry intake linked to fewer recurrent attacks in observational data",
+     "quote": "These findings suggest that cherry intake is associated with a lower risk of gout attacks.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3510330/"
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Choi HK, Willett W, Curhan G. Coffee consumption and risk of incident gout in men: a prospective study. Arthritis & Rheumatism. 2007;56(6):2049-2055.",
+   "pmid": "17530645",
+   "doi": "10.1002/art.22712",
+   "record_title": "Coffee consumption and risk of incident gout in men: a prospective study.",
+   "record_journal": "Arthritis Rheum",
+   "record_year": "2007",
+   "article_type": "Journal Article (prospective cohort)",
+   "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Corrected \"four or more cups RR 0.60\": 0.60 is for 4-5 cups/day; 6 or more cups 0.41.",
+   "claims": [
+    {
+     "text": "4 to 5 cups/day RR 0.60; 6 or more 0.41",
+     "quote": "(0, <1, 1-3, 4-5, and > or = 6 cups per day) were 1.00, 0.97, 0.92, 0.60 (95% confidence interval [95% CI] 0.41-0.87), and 0.41 (95% CI 0.19-0.88)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Coffee intake associated with lower gout risk in prospective data",
+     "quote": "These prospective data suggest that long-term coffee consumption is associated with a lower risk of incident gout.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "FAQ: coffee associated with lower risk; not a treatment; current drinkers need not stop",
+     "quote": "Increasing coffee intake was inversely associated with the risk of gout.",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17530645/"
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "Rai SK, Fung TT, Lu N, Keller SF, Curhan GC, Choi HK. The Dietary Approaches to Stop Hypertension (DASH) diet, Western diet, and risk of gout in men: prospective cohort study. BMJ. 2017;357:j1794.",
+   "pmid": "28487277",
+   "pmcid": "PMC5423545",
+   "doi": "10.1136/bmj.j1794",
+   "record_title": "The Dietary Approaches to Stop Hypertension (DASH) diet, Western diet, and risk of gout in men: prospective cohort study.",
+   "record_journal": "BMJ",
+   "record_year": "2017",
+   "article_type": "Journal Article (prospective cohort)",
+   "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Title in reference list corrected to the PubMed record. \"Hazard ratio\" changed to \"relative risk\" as reported.",
+   "claims": [
+    {
+     "text": "Highest DASH adherence RR 0.68",
+     "quote": "A higher DASH dietary pattern score was associated with a lower risk for gout (adjusted relative risk for extreme fifths 0.68, 95% confidence interval 0.57 to 0.80",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "DASH components: fruits, vegetables, nuts and legumes, low fat dairy, whole grains; low sodium, sweetened beverages, red and processed meats",
+     "quote": "based on high intake of fruits, vegetables, nuts and legumes, low fat dairy products, and whole grains, and low intake of sodium, sweetened beverages, and red and processed meats",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "DASH-style pattern a reasonable default for men at risk",
+     "quote": "The DASH diet may provide an attractive preventive dietary approach for men at risk of gout.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Whole grains including oatmeal part of DASH pattern linked to lower risk; fruit and legumes part of the pattern",
+     "quote": "based on high intake of fruits, vegetables, nuts and legumes, low fat dairy products, and whole grains",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28487277/"
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Stamp LK, O'Donnell JL, Frampton C, Drake JM, Zhang M, Chapman PT. Clinically insignificant effect of supplemental vitamin C on serum urate in patients with gout: a pilot randomized controlled trial. Arthritis & Rheumatism. 2013;65(6):1636-1642.",
+   "pmid": "23681955",
+   "doi": "10.1002/art.37925",
+   "record_title": "Clinically insignificant effect of supplemental vitamin C on serum urate in patients with gout: a pilot randomized controlled trial.",
+   "record_journal": "Arthritis Rheum",
+   "record_year": "2013",
+   "article_type": "Journal Article; Randomized Controlled Trial",
+   "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Unit error fixed: reduction was 0.014 mmol/L = 0.23 mg/dL (guide had said 0.014 mg/dL). \"Megadoses\" removed; trial used 500 mg/day.",
+   "claims": [
+    {
+     "text": "500 mg daily for 8 weeks lowered urate about 0.23 mg/dL (0.014 mmol/L) vs 1.9 mg/dL for allopurinol",
+     "quote": "The reduction in SU level over 8 weeks was significantly less in those patients receiving vitamin C compared to those who started or increased the dose of allopurinol (mean reduction 0.014 mmoles/liter [0.23 mg/dl] versus 0.118 mmoles/liter [1.9 mg/dl]",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "40 people with gout randomized",
+     "quote": "Twenty patients already taking allopurinol were randomized ... Twenty patients who had not been taking allopurinol were randomized",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No clinically significant urate-lowering effect",
+     "quote": "A modest dosage of vitamin C (500 mg/day) for 8 weeks had no clinically significant urate-lowering effects in patients with gout",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23681955/"
+  },
+  {
+   "n": 10,
+   "kind": "agency_page",
+   "cited_as": "National Institute of Arthritis and Musculoskeletal and Skin Diseases. Gout: Diagnosis, Treatment, and Steps to Take. Accessed November 15, 2026.",
+   "version_or_date": "Page shows a \"Last Reviewed\" label with no date; accessed 2026-11-15",
+   "retrieved_with": "WebFetch of official page (three passes; quotes are the exact strings returned)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added source. Direct curl blocked by proxy, so quotes come from WebFetch exact-string extraction; one bullet longer than the extraction limit is quoted in part.",
+   "claims": [
+    {
+     "text": "NIAMS advises avoiding red meats and organ meats (liver, kidney, tongue, sweetbreads)",
+     "quote": "Avoiding red meats and organ meats (liver, kidney, tongue, and sweetbreads)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "NIAMS advises avoiding certain seafood such as shellfish (shrimp and lobster), sardines, anchovies",
+     "quote": "Avoiding certain seafood, such as shellfish (shrimp and lobster), sardines, and anchovies.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "DASH-style guidance includes poultry and low-fat or fat-free dairy",
+     "quote": "Eating low-fat or fat-free dairy products, poultry, and oils.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://www.niams.nih.gov/health-topics/gout/diagnosis-treatment-and-steps-to-take"
+  },
+  {
+   "n": 11,
+   "kind": "journal",
+   "cited_as": "Kaneko K, Aoyagi Y, Fukuuchi T, Inazawa K, Yamaoka N. Total purine and purine base content of common foodstuffs for facilitating nutritional therapy for gout and hyperuricemia. Biological & Pharmaceutical Bulletin. 2014;37(5):709-721.",
+   "pmid": "24553148",
+   "doi": "10.1248/bpb.b13-00967",
+   "record_title": "Total purine and purine base content of common foodstuffs for facilitating nutritional therapy for gout and hyperuricemia.",
+   "record_journal": "Biol Pharm Bull",
+   "record_year": "2014",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata; WebFetch of J-STAGE page (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added source. Abstract only: used for qualitative purine statements; no mg values taken. Scite contrasting excerpt concerns xanthine values in specific shellfish, not the qualitative claims.",
+   "claims": [
+    {
+     "text": "Purine-rich foods include animal meats, fish, organs such as liver, and yeast",
+     "quote": "purine-rich foods are also energy-rich foods, and include animal meats, fish meats, organs such as the liver and fish milt, and yeast",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Purines found in all body cells and nearly all foods; metabolized to uric acid; food only part of urate pool",
+     "quote": "Purines are natural substances found in all of the body's cells and in virtually all foods. In humans, purines are metabolized to uric acid",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24553148/"
+  },
+  {
+   "n": 12,
+   "kind": "agency_page",
+   "cited_as": "NHS. Septic arthritis. Page last reviewed September 3, 2026. Accessed November 15, 2026.",
+   "version_or_date": "Page last reviewed: 03 September 2026; next review due 03 September 2029",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added to source the red-flag paragraph (joint infection warning signs).",
+   "claims": [
+    {
+     "text": "Get urgent help for sudden severe joint pain or swelling with feeling unwell and high temperature or hot, cold or shivery",
+     "quote": "Urgent advice: Ask for an urgent GP appointment or get help from NHS 111 if: ... you have pain in a joint and feel generally unwell and have a high temperature, or feel hot, cold or shivery",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "These can be signs of septic arthritis",
+     "quote": "sudden severe pain in a joint ... hot, swollen or red skin over the affected joint ... a high temperature (fever)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://www.nhs.uk/conditions/septic-arthritis/"
+  },
+  {
+   "n": 13,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. Septic arthritis. Review date May 12, 2025. Accessed November 15, 2026.",
+   "version_or_date": "Review Date 5/12/2025",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Prompt antibiotic treatment matters; delayed treatment may cause permanent joint damage",
+     "quote": "Recovery is good with prompt antibiotic treatment. If treatment is delayed, permanent joint damage may result.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://medlineplus.gov/ency/article/000430.htm"
+  }
+ ]
+}
