@@ -446,7 +446,7 @@
    "editorial_notices": [],
    "version_or_date": "Revised: 2/2026; DailyMed updated February 19, 2026",
    "retrieved_with": "WebFetch of DailyMed drug label page (curl blocked by proxy)",
-   "notes": "New. Primary source for indication, timing, 5-day course, boxed warning and interaction examples. Newer than the 01/2025 revision cited in the sibling Xocova repair.",
+   "notes": "New. Primary source for indication, timing, 5-day course, boxed warning, interaction examples and (follow-up edit) renal dose adjustment from section 2.3 / Table 1, re-retrieved 2026-11-15. Newer than the 01/2025 revision cited in the sibling Xocova repair.",
    "claims": [
     {
      "text": "Indicated for mild-to-moderate COVID-19 in adults at high risk",
@@ -481,6 +481,36 @@
     {
      "text": "Rivaroxaban and calcineurin inhibitors to be avoided unless closely managed",
      "quote": "Increased bleeding risk with rivaroxaban. Avoid concomitant use. ... Avoid concomitant use of calcineurin inhibitors with PAXLOVID when close monitoring of immunosuppressant concentrations is not feasible.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Moderate renal impairment (eGFR 30 to under 60 mL/min): 150 mg nirmatrelvir with 100 mg ritonavir twice daily, days 1 to 5",
+     "quote": "In patients with moderate renal impairment (eGFR ≥30 to <60 mL/min) ... 150 mg nirmatrelvir (one 150 mg tablet) with 100 mg ritonavir (one 100 mg tablet) twice daily",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Severe renal impairment (eGFR under 30 mL/min) incl. hemodialysis, day 1: 300 mg nirmatrelvir with 100 mg ritonavir once",
+     "quote": "severe renal impairment (eGFR <30 mL/min) including those requiring hemodialysis ... Day 1: 300 mg nirmatrelvir (two 150 mg tablets) with 100 mg ritonavir (one 100 mg tablet) once",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Severe renal impairment, days 2 to 5: 150 mg nirmatrelvir with 100 mg ritonavir once daily",
+     "quote": "Days 2-5: 150 mg nirmatrelvir (one 150 mg tablet) with 100 mg ritonavir (one 100 mg tablet) once daily",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Give dose after hemodialysis on dialysis days",
+     "quote": "On days patients with severe renal impairment undergo hemodialysis, the PAXLOVID dose should be administered after hemodialysis.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "No adjustment for mild renal impairment (eGFR 60 to under 90 mL/min)",
+     "quote": "No dosage adjustment is recommended in patients with mild renal impairment [estimated glomerular filtration rate (eGFR) ≥60 to <90 mL/min].",
      "quote_source": "label",
      "verdict": "supported"
     },
@@ -586,6 +616,37 @@
     {
      "text": "Government patient assistance program may remove cost for eligible patients",
      "quote": "eligible Medicare, Medicaid, and uninsured patients may access PAXLOVID for free",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "agency_page",
+   "cited_as": "CDC, Symptoms of COVID-19",
+   "url": "https://www.cdc.gov/covid/signs-symptoms/index.html",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "version_or_date": "Last updated March 10, 2025 (page also shows a June 17, 2026 publication timestamp)",
+   "retrieved_with": "WebFetch of CDC page",
+   "notes": "New (follow-up edit requested by coordinator). Supports the new When to Get Emergency Care section. Footnote on page: list does not include all possible symptoms.",
+   "claims": [
+    {
+     "text": "Emergency warning signs: trouble breathing; persistent chest pain or pressure; new confusion; inability to wake or stay awake",
+     "quote": "Look for emergency warning signs* for COVID 19: Trouble breathing Persistent pain or pressure in the chest New confusion Inability to wake or stay awake",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lips, nail beds or skin pale, gray, or blue depending on skin tone",
+     "quote": "Depending on skin tone, lips, nail beds and skin may appear pale, gray, or blue.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Call 911 or call ahead to emergency facility; tell operator about COVID-19",
+     "quote": "If someone is showing any of these signs, call 911 or call ahead to your local emergency facility. Notify the operator that you are seeking care for someone who has or may have COVID-19.",
      "quote_source": "official_page",
      "verdict": "supported"
     }
