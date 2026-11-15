@@ -1,0 +1,412 @@
+{
+ "guide": "telehealth-ear-infections-adults",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 4 verified (10.1136/bmjoq-2021-001444, 10.1177/0194599813517083, 10.7759/cureus.14149, plus Jackson 2023 by reference, which Scite matched to a different paper so the PubMed record was relied on), retractions: none. PubMed article types: no Retracted Publication or Retraction Notice. Ref 2 erratum noted.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "journal",
+   "cited_as": "Forde CT, Dimitrov L, Doal S, et al. Delivery of remote otology care: a UK pilot feasibility study. BMJ Open Qual. 2022;11(1):e001444.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35135752/",
+   "pmid": "35135752",
+   "pmcid": "PMC8830265",
+   "doi": "10.1136/bmjoq-2021-001444",
+   "record_title": "Delivery of remote otology care: a UK pilot feasibility study.",
+   "record_journal": "BMJ Open Qual",
+   "record_year": "2022",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Population was adult referrals with hearing loss or tinnitus, not ear infections; the page now says so. PubMed lists no page range; e001444 is the article number in the DOI/PII.",
+   "claims": [
+    {
+     "text": "58 adults aged 18 to 70 referred with hearing loss or tinnitus; audiology-led community clinic; smartphone otoscope; remote ENT review",
+     "quote": "New adult otology referrals at a tertiary ear, nose and throat (ENT) hospital aged between 18 and 70 with hearing loss or tinnitus were included. Patients attended an audiology-led community clinic",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "65% avoided any hospital attendance; 75% pathway shortened by one visit",
+     "quote": "58 patients participated. 75% of patients had their pathways shortened by one hospital visit with 65% avoiding any hospital attendances.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "95% diagnostic concordance by blinded consultant otologist; 98% satisfied",
+     "quote": "Electronic validation by a blinded consultant otologist demonstrated a diagnosis concordance of 95% ... 98% of patients were satisfied with the pathway.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "24% needed an additional face-to-face appointment for incomplete eardrum views or more examination; 83.3% concordance in 12 with in-person review",
+     "quote": "24% required an additional face-to-face appointment due to incomplete views of the tympanic membrane or need for additional examinations ... in the 12 patients who agreed to attend for an in-person review was 83.3%.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Judged feasible, safe and non-inferior in the included patient group",
+     "quote": "This pilot service is feasible, safe and non-inferior to the traditional outpatient model in the included patient group.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "guideline",
+   "cited_as": "Rosenfeld RM, Schwartz SR, Cannon CR, et al. Clinical practice guideline: acute otitis externa. Otolaryngol Head Neck Surg. 2014;150(1 Suppl):S1-S24.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24491310/",
+   "pmid": "24491310",
+   "doi": "10.1177/0194599813517083",
+   "record_title": "Clinical practice guideline: acute otitis externa.",
+   "record_journal": "Otolaryngol Head Neck Surg",
+   "record_year": "2014",
+   "article_type": "Journal Article; Meta-Analysis; Review (clinical practice guideline)",
+   "version_or_date": "February 2014 update of the 2006 AAO-HNSF guideline",
+   "retrieved_with": "PubMed get_article_metadata (abstract only; full text not read this run); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [
+    "Correction/erratum: PubMed abstract marks '48 to 72 hours [corrected]'; Scite returned no editorial notice this run"
+   ],
+   "notes": "Abstract only, so claims are limited to the abstract's recommendations. The earlier claims that symptom history alone usually suffices and that oral dosing gives lower canal levels were not in the abstract and were removed or re-sourced to refs 3 and 4.",
+   "claims": [
+    {
+     "text": "Topical drops are initial therapy for uncomplicated AOE",
+     "quote": "clinicians should prescribe topical preparations for initial therapy of diffuse, uncomplicated AOE",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No systemic antibiotics as initial therapy unless extension outside the canal or specific host factors",
+     "quote": "clinicians should not prescribe systemic antimicrobials as initial therapy for diffuse, uncomplicated AOE unless there is extension outside the ear canal or the presence of specific host factors",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clinicians should distinguish AOE from other causes of ear pain and discharge",
+     "quote": "clinicians should distinguish diffuse AOE from other causes of otalgia, otorrhea, and inflammation of the external ear canal",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Guideline target patients are aged 2 years and older",
+     "quote": "The target patient is aged 2 years or older with diffuse AOE.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Reassess if not improving within 48 to 72 hours to confirm diagnosis and exclude other causes",
+     "quote": "clinicians should reassess the patient who fails to respond to the initial therapeutic option within 48 to 72 hours [corrected] to confirm the diagnosis of diffuse AOE and to exclude other causes of illness",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "Mughal Z, Swaminathan R, Al-Deerawi HB, Henney S, Bickerton R. A systematic review of antibiotic prescription for acute otitis externa. Cureus. 2021;13(3):e14149.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8076578/",
+   "pmid": "33927951",
+   "pmcid": "PMC8076578",
+   "doi": "10.7759/cureus.14149",
+   "record_title": "A Systematic Review of Antibiotic Prescription for Acute Otitis Externa.",
+   "record_journal": "Cureus",
+   "record_year": "2021",
+   "article_type": "Journal Article; Review (systematic review)",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC full text); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Link changed from cureus.com (refused automated reads at audit) to the PMC full-text record. The old '67% of 72,278 patients prescribed oral antibiotics' claim misread a secondary UK study cited in this review (67% was the rate of inappropriate antibiotic choice); that study could not be found on PubMed this run, so the 67% figure was cut and the review's own 6% to 30% finding is used.",
+   "claims": [
+    {
+     "text": "Oral antibiotics alone in 6% to 30% of primary care AOE patients; amoxicillin and co-amoxiclav most common",
+     "quote": "oral antibiotics varied between 6% and 30% in patients that were managed only in primary care ... The most commonly prescribed oral antibiotics were Amoxicillin and Co-amoxiclav",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Seven studies, 31,650 patients",
+     "quote": "seven studies that were eligible for final analysis, in which 31,650 patients with otitis externa (OE) were assessed",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Topical antibiotics prescribed for 77% to 95% in primary care; oral choice frequently did not cover typical bacteria; call for better topical prescribing",
+     "quote": "The rate of topical antibiotic prescriptions was between 77% and 95% ... the choice of antibiotic for empirical treatment frequently did not cover the typical bacteria in AOE. There is a need for improvement",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Amoxicillin and co-amoxiclav are inactive against Pseudomonas aeruginosa and Staphylococcus aureus",
+     "quote": "the causative bacteria in AOE are predominantly Pseudomonas aeruginosa and Staphylococcus aureus [], and these antibiotics are inactive against these pathogens",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Inappropriate oral antibiotics risk avoidable adverse effects and antibiotic resistance",
+     "quote": "Not only ineffective, this practice may also lead to avoidable adverse drug events, non-compliance, antibiotic resistance, and the associated healthcare costs",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Jackson EA, Geer K. Acute otitis externa: rapid evidence review. Am Fam Physician. 2023;107(2):145-151.",
+   "url": "https://www.aafp.org/pubs/afp/issues/2023/0200/acute-otitis-externa.html",
+   "pmid": "36791445",
+   "record_title": "Acute Otitis Externa: Rapid Evidence Review.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2023",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of aafp.org full text (two reads); Scite verify_papers by reference (matched a different 2022 paper, 10.12968/coan.2022.0054, so the PubMed record is relied on)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "No DOI in PubMed. New reference, added to replace claims that ref 2's abstract did not support.",
+   "claims": [
+    {
+     "text": "Most patients improve within 24 to 72 hours of treatment",
+     "quote": "Most patients will improve within 24 to 72 hours of beginning treatment.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptoms: ear pain, itching, fullness; may have otorrhea; classic finding is tenderness on moving pinna or tragus",
+     "quote": "Ear pain (otalgia) ... Itching ... Sense of fullness ... May also have otorrhea ... Tenderness on movement of the pinna or tragus is the classic finding.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Risk factors: swimming most common; hearing aids, earbuds, earplugs, instrumentation or itching of canal",
+     "quote": "Swimming or prolonged water exposure ... Hearing aid or ear bud usage ... Earplug usage ... Instrumentation or itching of canal ... with the most common factor being swimming",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "AOM has no tragal or pinnal tenderness and is treated with systemic antibiotics",
+     "quote": "Presence of middle ear effusion, no tragal or pinnal tenderness ... Use pneumatic otoscopy or tympanometry; treat with systemic antibiotics",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pneumatic otoscopy is recommended to differentiate AOE from otitis media",
+     "quote": "Use of pneumatic otoscopy is recommended to help differentiate acute otitis externa from otitis media",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Main bacteria are Pseudomonas aeruginosa and Staphylococcus aureus",
+     "quote": "The primary bacterial infections are Pseudomonas aeruginosa and Staphylococcus aureus.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Topical therapy delivers higher antimicrobial concentrations than oral",
+     "quote": "Topical therapy delivers higher concentrations of antimicrobials than can be achieved orally",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Topical options include acetic acid, aminoglycosides, polymyxin B, quinolones",
+     "quote": "Topical medications include acetic acid 2%, aminoglycosides, polymyxin B, and quinolones with and without corticosteroids.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Malignant otitis externa: diabetes or immunocompromise; medical emergency warranting emergent otolaryngology consultation",
+     "quote": "patient has diabetes mellitus or is immunocompromised ... Medical emergency with high morbidity rate and possible mortality; warrants emergent consultation with otolaryngologist",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Facial numbness or paralysis with severe ear pain can be Ramsay Hunt syndrome",
+     "quote": "Herpetic ulcers in canal; may have facial numbness or paralysis, severe pain, loss of taste",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. Malignant otitis externa. Review date April 29, 2026.",
+   "url": "https://medlineplus.gov/ency/article/000672.htm",
+   "version_or_date": "Review Date 4/29/2026",
+   "retrieved_with": "WebFetch of medlineplus.gov page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Same page and findings as the sibling ear-infection-guide repair; re-retrieved this run. WebFetch summarized the 911 list (tool quote limit), wording below is as returned.",
+   "claims": [
+    {
+     "text": "911/ER for facial weakness, loss of voice or difficulty swallowing with ear pain or drainage",
+     "quote": "Go to the emergency room or call your local emergency number (such as 911) for convulsions, decreased consciousness, severe confusion, or facial weakness, loss of voice, or difficulty swallowing that occurs with ear pain or drainage.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "911/ER for severe confusion, decreased consciousness or convulsions",
+     "quote": "Go to the emergency room or call your local emergency number (such as 911) for convulsions, decreased consciousness, severe confusion",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Risk in diabetes or weakened immune system; symptoms deep ear pain, foul yellow or green drainage, fever",
+     "quote": "Chemotherapy, diabetes, and a weakened immune system ... Ongoing ear drainage that is yellow or green and foul-smelling ... Deep ear pain ... Fever",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. Mastoiditis. Review date April 29, 2026.",
+   "url": "https://medlineplus.gov/ency/article/001034.htm",
+   "version_or_date": "Review Date 4/29/2026",
+   "retrieved_with": "WebFetch of medlineplus.gov page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Mastoiditis most often follows a middle-ear infection; redness or swelling behind the ear, ear sticks out, fever, drainage, headache",
+     "quote": "Mastoiditis is most often caused by a middle ear infection (acute otitis media). ... Redness of the ear or behind the ear ... Swelling behind the ear may cause ear to stick out",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Meningitis is a possible complication of mastoiditis",
+     "quote": "Possible Complications: ... Facial paralysis ... Meningitis",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "agency_page",
+   "cited_as": "National Health Service. Mastoiditis. Page last reviewed August 17, 2026.",
+   "url": "https://www.nhs.uk/conditions/mastoiditis/",
+   "version_or_date": "Page last reviewed 17 August 2026",
+   "retrieved_with": "WebFetch of nhs.uk page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "NHS rates mastoiditis symptoms as urgent GP or NHS 111, not 999; the page says urgent medical assessment.",
+   "claims": [
+    {
+     "text": "Pain, redness, swelling behind the ear, ear sticking out, discharge, high temperature, headache; urgent assessment",
+     "quote": "swelling behind the ear, which can cause it to stick out ... Urgent advice: Ask for an urgent GP appointment or get help from NHS 111 if: ... have symptoms of mastoiditis",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "agency_page",
+   "cited_as": "National Health Service. Ear infections. Page last reviewed January 16, 2025.",
+   "url": "https://www.nhs.uk/conditions/ear-infections/",
+   "version_or_date": "Page last reviewed 16 January 2025",
+   "retrieved_with": "WebFetch of nhs.uk page (two reads)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Middle ear is behind the eardrum and middle-ear infection is caused by viruses like colds and flu; symptoms pressure or fullness, difficulty hearing",
+     "quote": "Caused by viruses like colds and flu ... connects the middle ear (area behind the eardrum) to the back of the nose ... a feeling of pressure or fullness inside the ear",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "New hearing loss with an ear infection needs urgent assessment",
+     "quote": "Urgent advice: Ask for an urgent GP appointment or get help from NHS 111 now if: ... have a change in hearing or new hearing loss",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Citable summary: swelling around the ear, new hearing loss, diabetes or weakened immune system call for urgent assessment",
+     "quote": "have swelling around the ear ... have a change in hearing or new hearing loss ... have diabetes ... have a weakened immune system",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "agency_page",
+   "cited_as": "NIDCD. Sudden Deafness. Last updated September 14, 2018.",
+   "url": "https://www.nidcd.nih.gov/health/sudden-deafness",
+   "version_or_date": "Last updated September 14, 2018",
+   "retrieved_with": "WebFetch of nidcd.nih.gov page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Sudden hearing loss: treat as a medical emergency and see a doctor immediately",
+     "quote": "you should consider sudden deafness symptoms a medical emergency and visit a doctor immediately.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. Skull fracture. Review date October 14, 2025.",
+   "url": "https://medlineplus.gov/ency/article/000060.htm",
+   "version_or_date": "Review Date 10/14/2025",
+   "retrieved_with": "WebFetch of medlineplus.gov page (two reads)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces the unsourced 'could be cerebrospinal fluid' wording. 911 instruction is in the page's first-aid steps for a suspected skull fracture.",
+   "claims": [
+    {
+     "text": "Clear or bloody fluid from the ear after head injury can be a sign of skull fracture; call 911",
+     "quote": "Drainage of clear or bloody fluid from the ears or nose ... Have someone call 911 or the local emergency number for medical assistance.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. Meningitis. Review date November 10, 2024.",
+   "url": "https://medlineplus.gov/ency/article/000680.htm",
+   "version_or_date": "Review Date 11/10/2024",
+   "retrieved_with": "WebFetch of medlineplus.gov page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "The page does not tie meningitis to ear infections; that link comes from ref 6 (mastoiditis complications). The combined sentence is logged as partly_supported.",
+   "claims": [
+    {
+     "text": "Stiff neck, severe headache and fever after an ear infection can be meningitis (a mastoiditis complication); get emergency help immediately",
+     "quote": "Fever and chills ... Severe headache ... Stiff neck ... If you think that you or your child has symptoms of meningitis, get emergency medical help immediately.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "label",
+   "cited_as": "DailyMed. Ofloxacin otic solution 0.3%, prescribing information. Updated September 1, 2022.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14e6e355-3a87-43dc-80a2-070b9df93bf1",
+   "version_or_date": "Label version 4, updated September 1, 2022 (setid 14e6e355-3a87-43dc-80a2-070b9df93bf1)",
+   "retrieved_with": "WebFetch of DailyMed label",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Ofloxacin otic is labeled for otitis externa caused by organisms including P. aeruginosa and S. aureus",
+     "quote": "Otitis Externa in adults and pediatric patients, 6 months and older ... Escherichia coli, Pseudomonas aeruginosa, and Staphylococcus aureus",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}
