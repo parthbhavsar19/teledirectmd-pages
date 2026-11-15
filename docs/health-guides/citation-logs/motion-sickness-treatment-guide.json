@@ -1,0 +1,1054 @@
+{
+ "guide": "motion-sickness-treatment-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 5 verified, retractions: none (no editorial notices, no contrasting evidence flagged, no predatory journals); PubMed article types for all 5 PMIDs include no Retracted Publication or Retraction Notice",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "Centers for Disease Control and Prevention. Motion Sickness. CDC Yellow Book 2026. Published April 23, 2025; accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/yellow-book/hcp/travel-air-sea/motion-sickness.html",
+   "retrieved_with": "Monid firecrawl /scrape of official CDC page (basic proxy, statusCode 200)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Medicines work best when taken before motion starts",
+     "quote": "Individuals should be advised that medication is most effective when taken before exposure, rather than after the onset of symptoms.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Once nausea is established, gastric slowing can make oral absorption less reliable",
+     "quote": "Once the initial symptoms of motion sickness begin, gastric stasis may prevent absorption.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC lists an estimated 6-to-8-hour onset for the Transderm Scop patch (Table 7.6.2)",
+     "quote": "Scopolamine | Transderm Scop | Transdermal | 1 mg | 6–8 | 72",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Drowsiness is the most common effect; less drowsy is not no drowsiness",
+     "quote": "The most common side effect is drowsiness or sedation. Scopolamine is slightly less sedating than dimenhydrinate or meclizine, whereas promethazine is the most sedating.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Avoid alcohol",
+     "quote": "Alcohol consumption and smoking (nicotine) should be avoided because they increase motion sickness.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC suggests considering a trial dose before departure",
+     "quote": "Because side effects differ among travelers, consider recommending a trial dose of one or more medications before departure.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not cut the patch",
+     "quote": "The transdermal patch should never be cut up in mistaken attempts to vary the dose, since this disrupts the mechanism of release.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sensory conflict between eyes, inner ear and body sense",
+     "quote": "The most widely accepted explanation for motion sickness is the sensory conflict or neural mismatch theory.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Horizon view, avoiding close visual tasks and head movements reduce conflicting signals",
+     "quote": "behavioral countermeasures, such as obtaining a horizon view and avoiding visual tasks, are based on reducing visual-vestibular mismatches",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Typical features include nausea, vomiting, pallor, sweating, dizziness, yawning, fatigue or drowsiness",
+     "quote": "Patterns of symptoms vary but usually progress from initial symptoms, such as stomach awareness, feelings of warmth, yawning, sweating, dizziness, through to nausea and ultimately to vomiting.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Controlled breathing can be a useful measure",
+     "quote": "Laboratory trials show this strategy to be around half as effective as anti-motion-sickness drugs; unlike drugs, it is free of side effects",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Habituation can help but is stimulus-specific and may take time",
+     "quote": "Can be slow to acquire, often stimulus-specific; it may need periodic re-exposure to motion to maintain adaptive protection",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Adequate rest helps",
+     "quote": "Being sleep-deprived can worsen motion sickness.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC describes the evidence for diets, supplements and ginger as weak and contradictory",
+     "quote": "The efficacy of particular diets, supplements, vitamins, ginger, and so on, has only weak and contradictory supporting evidence.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Laboratory trials of acupressure bands have not shown them to outperform placebo",
+     "quote": "Laboratory trials show that acupressure bands or similar treatments are no more effective than placebo.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Minimally sedating antihistamines such as loratadine and fexofenadine are not effective because they do not reach the brain",
+     "quote": "The newer, \"minimally sedating\" antihistamines (e.g., cetirizine, fexofenadine, loratadine) are not effective for treatment of motion sickness because they are designed to avoid penetration into the brain.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC states 5-HT3 antiemetics such as ondansetron are not effective against motion sickness",
+     "quote": "Other antiemetics such as the highly potent 5-HT3 antagonists (ondansetron and granisetron) are not effective against motion sickness because their sites of action are not at the central vestibular centers of the brain.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Not every dizzy spell is motion sickness; other causes need excluding",
+     "quote": "For healthcare professionals managing a traveler with acute symptoms consistent with motion sickness, other causes should be excluded, including peripheral and central vestibular disease.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Repeated vomiting should prompt a hydration assessment",
+     "quote": "Ensure adequate fluid and electrolyte intake if the individual is vomiting.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Persistent rocking after travel (post-disembarkation) needs evaluation, not self-treatment",
+     "quote": "A very rare condition termed mal de debarquement syndrome involves symptoms persisting for weeks or more. For such cases, the traveler should be referred to a medical specialist in vestibular disorders.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Glaucoma or urinary history can change the choice",
+     "quote": "Scopolamine should not be used in travelers with glaucoma or who are at risk of prostatic urinary retention.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Match the ingredient and timing to the trip (exposure length)",
+     "quote": "The following general recommendations can aid in choosing the preferred drugs for adults:",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ],
+   "version_or_date": "CDC Yellow Book 2026 edition, chapter by John F. Golding; Published April 23, 2025; Updated April 23, 2025; cdc:last_published metadata 2026-07-21",
+   "notes": "Direct curl to cdc.gov was refused by the session proxy; WebFetch also succeeded (summarised), verbatim quotes taken from the firecrawl markdown. Table quote is the Table 7.6.2 row; columns are Drug, Example Trade Name, Route, Adult Dose, Time on Onset (h), Duration of Action (h)."
+  },
+  {
+   "n": 2,
+   "kind": "label",
+   "cited_as": "DailyMed. Transderm Scop (scopolamine transdermal system), prescribing information and patient information. Revised June 2025; accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b877a694-a1d0-4280-937a-a06820b12a88",
+   "retrieved_with": "Monid firecrawl /scrape of DailyMed drugInfo page (basic proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Prescription patch indicated in adults for prevention of motion-sickness nausea and vomiting",
+     "quote": "TRANSDERM SCŌP is an anticholinergic indicated in adults for the prevention of: •nausea and vomiting associated with motion sickness.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "One patch behind one ear at least 4 hours before effect is needed, up to 3 days",
+     "quote": "Apply one TRANSDERM SCŌP transdermal system to the hairless area behind one ear at least 4 hours before the antiemetic effect is required – for use up to 3 days.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "If continuing, remove the old system and apply a new one behind the other ear",
+     "quote": "If therapy is required for longer than 3 days, remove the first transdermal system and apply a new TRANSDERM SCŌP transdermal system behind the other ear.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Wear only one at a time; do not cut",
+     "quote": "•Only wear one transdermal system at any time.•Do not cut the transdermal system.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Each system contains 1.3 mg of scopolamine",
+     "quote": "Each system contains 1.3 mg of scopolamine base.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Formulated to deliver approximately 1 mg over 3 days",
+     "quote": "Each TRANSDERM SCŌP transdermal system is formulated to deliver in vivo approximately 1 mg of scopolamine over 3 days.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Scopolamine can reduce sweating and raise core temperature; external heat worsens it",
+     "quote": "Anticholinergic agents, including scopolamine, can increase core body temperature and reduce sweating, which may cause further increases in body temperature. Hyperthermia may be exacerbated by exposure to external heat sources or high environmental temperature.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptoms may persist after removal because absorption continues through the skin",
+     "quote": "Symptoms may persist following removal of the used transdermal system as there may be continued systemic absorption of scopolamine through the skin.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "If unusually hot or not sweating, remove the patch and contact a healthcare professional",
+     "quote": "Advise patients if body temperature increases, or they are not sweating in warm environmental conditions, to remove the transdermal system and contact their healthcare provider.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Contraindicated in angle-closure glaucoma and hypersensitivity to belladonna alkaloids",
+     "quote": "hypersensitivity to scopolamine or other belladonna alkaloids or to any ingredient or component in the formulation or delivery system.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Open-angle glaucoma requires monitoring",
+     "quote": "Monitor intraocular pressure in patients with open angle glaucoma and adjust glaucoma therapy during TRANSDERM SCŌP use, as needed.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Eye pain, red eyes, blurred vision or halos: remove the system and get medical advice",
+     "quote": "Advise patients to immediately remove the transdermal system and contact their healthcare provider if they experience symptoms of acute angle closure glaucoma (e.g., eye pain or discomfort, blurred vision, visual halos or colored images",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Urinary retention warning; difficulty urinating",
+     "quote": "Scopolamine, due to its anticholinergic properties, can decrease gastrointestinal motility and cause urinary retention.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Confusion and cognitive effects; severe persistent symptoms need medical attention",
+     "quote": "Scopolamine can cause drowsiness, disorientation, and confusion. Discontinue TRANSDERM SCŌP if signs or symptoms of cognitive impairment develop. If, despite this, the symptoms persist in a severe form, instruct patients to seek medical attention.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Can impair driving and machinery; alcohol and sedatives add to it",
+     "quote": "TRANSDERM SCŌP may impair the mental and/or physical abilities required for the performance of hazardous tasks such as driving a motor vehicle, operating machinery or participating in underwater sports.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Avoid alcohol with the patch",
+     "quote": "You should not drink alcohol while using TRANSDERM SCŌP. It can increase your chances of having serious side effects.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Combining with meclizine or other sedating drugs can increase effects",
+     "quote": "have anticholinergic properties (e.g., other belladonna alkaloids, sedating antihistamines, meclizine, tricyclic antidepressants, and muscle relaxants) may potentiate the effects of TRANSDERM SCŌP",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Withdrawal symptoms 24 hours or more after removal include nausea, vomiting, dizziness, balance disturbance",
+     "quote": "Discontinuation of TRANSDERM SCŌP, usually after several days of use, may result in withdrawal symptoms, such as disturbances of equilibrium, dizziness, nausea, vomiting, abdominal cramps, sweating, headache, mental confusion",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Withdrawal onset 24 hours or more after removal",
+     "quote": "The onset of these symptoms is generally 24 hours or more after the transdermal system has been removed.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Transferred drug can dilate a pupil or blur vision; wash hands",
+     "quote": "Scopolamine can cause temporary dilation of the pupils resulting in blurred vision if it comes in contact with the eyes.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Remove before MRI",
+     "quote": "Remove TRANSDERM SCŌP before undergoing an MRI.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dry mouth, drowsiness and visual effects are common",
+     "quote": "Motion Sickness (>15%): dry mouth, drowsiness, blurred vision and dilation of the pupils.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Not for children (no pediatric pathway)",
+     "quote": "TRANSDERM SCŌP is not approved for use in pediatric patients",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Older adults more vulnerable",
+     "quote": "elderly patients had an increased risk of neurologic and psychiatric adverse reactions, such as hallucinations, confusion, dizziness and drug withdrawal syndrome",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Patient information calls for discussing pregnancy and breastfeeding",
+     "quote": "are pregnant or plan to become pregnant. It is not known if TRANSDERM SCŌP can harm your unborn baby.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ],
+   "version_or_date": "Revised: 6/2025 (Recent Major Changes lists Warnings and Precautions, Hyperthermia (5.5) 4/2025)"
+  },
+  {
+   "n": 3,
+   "kind": "agency_page",
+   "cited_as": "American Society of Health-System Pharmacists. Scopolamine Transdermal Patch. MedlinePlus. Revised July 15, 2025; accessed November 15, 2026.",
+   "url": "https://medlineplus.gov/druginfo/meds/a682509.html",
+   "retrieved_with": "Monid firecrawl /scrape of MedlinePlus page (basic proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "FDA added a hyperthermia warning in 2025",
+     "quote": "On June 18, 2025, the FDA issued a drug safety notification warning about the risk of hyperthermia (increased body temperature) that can occur with scopolamine transdermal.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Effects may persist after removal",
+     "quote": "Symptoms can continue after the patch has been removed.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "At least 4 hours ahead, up to 3 days",
+     "quote": "apply the patch at least 4 hours before its effects will be needed and leave in place for up to 3 days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not cut; not more than one at a time",
+     "quote": "Do not apply more than one patch at a time.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Eye pain, confusion, urinary difficulty or vomiting: remove patch and call doctor",
+     "quote": "If you experience any of the following symptoms, remove the patch and call your doctor immediately:",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Eye symptoms listed",
+     "quote": "eye pain, redness, or discomfort; blurred vision; seeing halos or colored images",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Collapse or not breathing is an emergency: call 911",
+     "quote": "If the victim has collapsed or is not breathing, call local emergency services at 911.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Alcohol worsens side effects",
+     "quote": "Alcohol can make the side effects caused by scopolamine patches worse.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Driving caution",
+     "quote": "Do not drive a car or operate machinery until you know how scopolamine patches will affect you.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Older adults more vulnerable",
+     "quote": "Older adults should not usually use scopolamine because it is not as safe or effective as other medications that can be used to treat the same condition.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Discuss pregnancy and breastfeeding",
+     "quote": "tell your doctor if you are pregnant, plan to become pregnant, or are breastfeeding.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Withdrawal can start 24 hours or more after removal",
+     "quote": "you may experience withdrawal symptoms that could start 24 hours or more after removing the scopolamine patch",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "version_or_date": "Last Revised - 07/15/2025"
+  },
+  {
+   "n": 4,
+   "kind": "label",
+   "cited_as": "DailyMed. Dramamine Original Formula (dimenhydrinate 50 mg), Drug Facts. Revised October 2025; accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=f9302a5a-295a-4501-9332-e3f5eb387362&type=display",
+   "retrieved_with": "Monid firecrawl /scrape of DailyMed fdaDrugXsl page (basic proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Dramamine Original Formula contains dimenhydrinate 50 mg",
+     "quote": "Dimenhydrinate 50 mg",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "1 to 2 tablets every 4 to 6 hours",
+     "quote": "take 1 to 2 tables every 4-6 hours",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "No more than 8 tablets in 24 hours unless directed by a doctor",
+     "quote": "do not take more than 8 tablets in 24 hours, or as directed by a doctor",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "First dose 30 to 60 minutes before activity",
+     "quote": "to prevent motion sickness, the first dose should be taken ½ to 1 hour before starting activity",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Marked drowsiness; avoid alcohol; alcohol and sedatives increase effects; care driving",
+     "quote": "marked drowsiness may occur",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Avoid alcohol",
+     "quote": "avoid alcoholic drinks",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Alcohol, sedatives and tranquilizers increase dizziness",
+     "quote": "alcohol, sedatives, and tranquilizers may increase dizziness",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ask a doctor with glaucoma, trouble urinating or breathing problems",
+     "quote": "trouble urinating due to an enlarged prostate gland",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pregnancy or breastfeeding: ask a doctor",
+     "quote": "If pregnant or breast-feeding, ask a doctor before use.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "OTC label lists prevention and treatment use",
+     "quote": "for prevention and treatment of these symptoms associated with motion sickness",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ],
+   "version_or_date": "Revised: 10/2025; Version 8; Effective Time 20251023",
+   "notes": "Label typo \"tables\" is verbatim."
+  },
+  {
+   "n": 5,
+   "kind": "label",
+   "cited_as": "DailyMed. Dramamine Less Drowsy (meclizine hydrochloride 25 mg), Drug Facts. Updated September 4, 2026; accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fa6a0969-7427-4b87-bc04-a2792665c218",
+   "retrieved_with": "Monid firecrawl /scrape of DailyMed drugInfo page (basic proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Dramamine Less Drowsy contains meclizine 25 mg",
+     "quote": "Meclizine HCI 25 mg",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Adults 1 to 2 tablets once daily",
+     "quote": "adults and children 12 years and over:1 to 2 tablets once daily, or as directed by a doctor",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "First dose 30 to 60 minutes before activity",
+     "quote": "take first dose 1/2 to 1 hour before starting activity",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Less drowsy does not mean no drowsiness",
+     "quote": "drowsiness may occur",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Alcohol, sedatives and tranquilizers increase drowsiness",
+     "quote": "alcohol, sedatives, and tranquilizers may increase drowsiness",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ask a doctor with glaucoma, trouble urinating or breathing problems",
+     "quote": "a breathing problem such as emphysema or chronic bronchitis",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pregnancy or breastfeeding: ask a doctor",
+     "quote": "If pregnant or breast-feeding, ask a doctor before use.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ],
+   "version_or_date": "DailyMed \"Updated September 4, 2026\"",
+   "notes": "Label text shows \"Meclizine HCI\" (sic)."
+  },
+  {
+   "n": 6,
+   "kind": "label",
+   "cited_as": "DailyMed. Bonine (meclizine hydrochloride 25 mg chewable), Drug Facts. Updated March 21, 2025; accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0b2ea6b8-b342-4940-8922-898758fbeb31",
+   "retrieved_with": "Monid firecrawl /scrape of DailyMed lookup page (basic proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Bonine chewable contains meclizine 25 mg",
+     "quote": "Meclizine HCl 25 mg",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Adults 1 to 2 chewable tablets once daily",
+     "quote": "adults and children 12 years and over: take 1 to 2 chewable tablets once daily or as directed by a doctor",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dose 1 hour before travel",
+     "quote": "dosage should be taken one hour before travel starts",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Chew or crush completely",
+     "quote": "chew or crush tablets completely before swallowing; do not swallow tablets whole",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Drowsiness; avoid alcohol",
+     "quote": "avoid alcoholic beverages",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Drowsiness may occur",
+     "quote": "drowsiness may occur",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ask a doctor with urinary difficulty or glaucoma",
+     "quote": "difficulty in urination due to enlargement of the prostate gland",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pregnancy or breastfeeding: ask",
+     "quote": "ask a health professional before use.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ],
+   "version_or_date": "DailyMed \"Updated March 21, 2025\"",
+   "notes": "Original citation also printed \"current archive version published May 21, 2026\"; not shown on the page retrieved today, removed."
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Spinks A, Wasiak J. Scopolamine (hyoscine) for preventing and treating motion sickness. The Cochrane database of systematic reviews. 2011;2011(6):CD002851. doi:10.1002/14651858.CD002851.pub4.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21678338/",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "14 trials, 1,025 participants; benefit versus placebo for prevention",
+     "quote": "Of 35 studies considered potentially relevant, 14 studies enrolling 1025 subjects met the entry criteria.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Scopolamine more effective than placebo for prevention",
+     "quote": "Scopolamine was more effective than placebo in the prevention of symptoms.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No randomized trials of treating established symptoms",
+     "quote": "we identified no randomised controlled trials that examined the effectiveness of scopolamine in the treatment of established symptoms of motion sickness.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "pmid": "21678338",
+   "pmcid": "PMC7138049",
+   "doi": "10.1002/14651858.CD002851.pub4",
+   "record_title": "Scopolamine (hyoscine) for preventing and treating motion sickness.",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2011",
+   "article_type": "Journal Article; Meta-Analysis; Systematic Review"
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "Karrim N, Byrne R, Magula N, et al. Antihistamines for motion sickness. The Cochrane database of systematic reviews. 2022;10(10):CD012715. doi:10.1002/14651858.CD012715.pub2.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36250781/",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Nine trials with 658 participants",
+     "quote": "We included nine RCTs (658 participants).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Natural-condition studies only evaluated first-generation agents",
+     "quote": "All the naturally induced studies only evaluated first-generation antihistamines (cinnarizine and dimenhydrinate).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antihistamine-versus-scopolamine prevention evidence very uncertain",
+     "quote": "The evidence is very uncertain about the effect of antihistamines on preventing motion sickness under natural conditions when compared to scopolamine",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No studies reported resolution of existing symptoms",
+     "quote": "No studies reported results on the resolution of existing motion sickness symptoms.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antihistamines probably better than placebo for prevention",
+     "quote": "Antihistamines are probably more effective than placebo at preventing motion sickness symptoms under natural conditions",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "pmid": "36250781",
+   "pmcid": "PMC9575651",
+   "doi": "10.1002/14651858.CD012715.pub2",
+   "record_title": "Antihistamines for motion sickness.",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2022",
+   "article_type": "Journal Article; Research Support, Non-U.S. Gov't; Systematic Review"
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Murdin L, Golding J, Bronstein A. Managing motion sickness. BMJ (Clinical research ed.). 2011;343:d7430. doi:10.1136/bmj.d7430.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22138695/",
+   "retrieved_with": "PubMed get_article_metadata (no abstract); Monid firecrawl /scrape of bmj.com article page (public summary points; full text restricted, not read); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Sensory conflict mechanism",
+     "quote": "Motion sickness is a common and potentially disabling problem, thought to be due to sensory conflict or “mismatch” involving the vestibular system",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Scopolamine (hyoscine) effective for prevention",
+     "quote": "Hyoscine is an effective preventive medication for which oral preparations and transdermal patches are established in clinical practice",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Evidence for other drugs weaker; comparisons limited",
+     "quote": "Evidence to support the use of other drugs, taking into account the trade off between efficacy and adverse effects, is weaker.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Ginger and acupressure bands not shown effective",
+     "quote": "Management of motion sickness with traditional remedies such as ginger and acupressure bands has not been shown to be effective.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptom pattern includes nausea, vomiting, pallor, sweating, dizziness, drowsiness",
+     "quote": "Motion sickness is a syndrome of nausea and vomiting, pallor, sweating, headache, dizziness, malaise, increased salivation, apathy, drowsiness, belching, hyperventilation, and stomach awareness.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "pmid": "22138695",
+   "doi": "10.1136/bmj.d7430",
+   "record_title": "Managing motion sickness.",
+   "record_journal": "BMJ",
+   "record_year": "2011",
+   "article_type": "Journal Article; Review",
+   "notes": "Only the publisher page summary points and opening paragraph were readable (DC.AccessRights restricted). [9] removed from 22 sentences that relied on unread full text; kept on 9 sentences the summary supports."
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Leung AK, Hon KL. Motion sickness: an overview. Drugs in context. 2019;8:2019-9-4. doi:10.7573/dic.2019-9-4.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32158479/",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC7048153); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Conflict between eyes, inner ear and body sense",
+     "quote": "The principal sensors are the eyes, the vestibular apparatus, and proprioceptive receptors.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Environmental measures may be enough for some adults",
+     "quote": "In most cases, motion sickness can be prevented by behavioral and environmental modifications (avoidance, habituation, and minimization of motion stimuli).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Medicines work better as prevention; gastric stasis limits oral absorption",
+     "quote": "Anti-motion sickness medications are helpful when given prophylactically. They are less effective for treatment because motion sickness may induce gastric stasis that interferes with the absorption of the medications given orally.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Choice depends on the trip and the person",
+     "quote": "The types of medication used should depend on the duration of exposure, the susceptibility of the individual to motion sickness and the severity of expected symptoms, the incidence and severity of adverse events",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Migraine, inner-ear disorders, stroke and other conditions overlap with motion sickness",
+     "quote": "Differential diagnosis of motion sickness includes migraine, pregnancy, concussion, intoxication, hangover, basilar artery occlusion, cerebral vascular accident, vestibulopathy, hypoglycemia, depression, and anxiety.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Repeated vomiting can lead to dehydration",
+     "quote": "In severe cases, intractable retching and vomiting, postural instability, inability to walk, incapacitation, dehydration, and electrolyte imbalance may result.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Review gives 24 hours in one section",
+     "quote": "Once the triggering factors are eliminated, the symptoms usually resolve completely within 24 hours.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Review gives 72 hours in another section",
+     "quote": "The symptoms usually resolve in 72 hours after the cessation of the provoking stimuli.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fatigue and drowsiness may outlast nausea",
+     "quote": "may persist for hours to days following exposure to the motion stimuli",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Horizon, avoid screens, reduce head movement, lie back with eyes closed",
+     "quote": "If the above measures do not work, individuals with motion sickness may obtain relief by closing the eyes and lying supine where practical.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Second-generation antihistamines not effective",
+     "quote": "In general, second-generation antihistamines (e.g., cetirizine, fexofenadine, astemizole, loratadine) are nonsedating and not effective in the prevention or treatment of motion sickness.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Acupressure studies mixed with methodological limits",
+     "quote": "Other investigators did not find acupressure and acustimulation useful in the treatment of motion sickness.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Some studies discuss ginger",
+     "quote": "Some authors suggest the use of ginger",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Older adults need caution",
+     "quote": "should be used with caution in the elderly",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antihistamine sedation potentiated by alcohol",
+     "quote": "The sedative effect may be potentiated by alcohol and some central nervous system depressants.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Avoid alcohol before travel",
+     "quote": "Susceptible individuals should avoid heavy meals, ingestion of caffeine, alcohol, foods high in histamine content (e.g., cheese, tuna, salami) or a large volume of liquid, before traveling.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Scopolamine adverse effects include urinary retention and confusion",
+     "quote": "Less common adverse events include headache, drowsiness, confusion, palpitations, tachycardia, bloating, constipation, and urinary retention.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ],
+   "pmid": "32158479",
+   "pmcid": "PMC7048153",
+   "doi": "10.7573/dic.2019-9-4",
+   "record_title": "Motion sickness: an overview.",
+   "record_journal": "Drugs Context",
+   "record_year": "2019",
+   "article_type": "Journal Article; Review",
+   "notes": "Audit marked red-flag/differential statements unverifiable from the abstract; PMC full text now read and supports the differential and dehydration statements."
+  },
+  {
+   "n": 11,
+   "kind": "label",
+   "cited_as": "DailyMed. Nereus (tradipitant), prescribing information. Initial US approval 2025; label revised September 2026, DailyMed record updated September 1, 2026; accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1a021ebd-16ac-4354-b4b2-1c3950c091e5&audience=consumer",
+   "retrieved_with": "Monid firecrawl /scrape of DailyMed drugInfo consumer-audience page (basic proxy); FDA Novel Drug Approvals for 2025 page via WebFetch",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Initial US approval 2025",
+     "quote": "Initial U.S. Approval: 2025",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Indicated for prevention of motion-induced vomiting in adults",
+     "quote": "NEREUS is a substance P/neurokinin 1 (NK1) receptor antagonist indicated for the prevention of vomiting induced by motion in adults.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Single prescriber-selected dose about 60 minutes before exposure",
+     "quote": "Administer NEREUS orally approximately 60 minutes before an event expected to cause vomiting induced by motion.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Maximum one dose in 24 hours",
+     "quote": "The maximum dosage in a 24-hour period is a single dose of 85 mg or 170 mg.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fasting directions",
+     "quote": "Administer NEREUS on an empty stomach, at least 1 hour prior to or 2 hours after a full meal",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Impaired alertness; CNS depressants and strong CYP3A4 inhibitors interact",
+     "quote": "May impair mental and/or physical abilities required for driving a motor vehicle or operating heavy machinery. Concomitant use of other drugs that cause central nervous system depression and strong CYP3A4 inhibitors may increase this effect.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Established episodes not studied",
+     "quote": "The efficacy of NEREUS for the treatment of established nausea and vomiting was not evaluated in the studies.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nausea-score differences did not reach significance",
+     "quote": "These differences did not reach statistical significance in either study.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ],
+   "version_or_date": "Revised: 9/2026; DailyMed \"Updated September 1, 2026\"",
+   "notes": "FDA Novel Drug Approvals for 2025 page (content current as of 07/08/2026) lists Nereus (tradipitant) approval date 12/30/2025, use \"To treat vomiting associated with motion\"; the page relies on the label indication wording. Audit note about a date mismatch no longer applies: the live DailyMed page shows Updated September 1, 2026."
+  },
+  {
+   "n": 12,
+   "kind": "journal",
+   "cited_as": "Polymeropoulos VM, Kiely L, Bushman ML, et al. Motion Syros: tradipitant effective in the treatment of motion sickness; a multicenter, randomized, double-blind, placebo-controlled study. Frontiers in neurology. 2025;16:1550670. doi:10.3389/fneur.2025.1550670.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40103934/",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC11913704); Monid firecrawl /scrape of frontiersin.org article (funding and COI statements); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Vomiting 54/122 placebo, 24/123 with 85 mg, 22/120 with 170 mg",
+     "quote": "In the placebo group, 44.3% of participants (54/122) vomited as compared to 18.3% of participants (22/120) in the 170 mg tradipitant group (p < 0.0001) and 19.5% of participants (24/123) in the 85 mg tradipitant group",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Susceptible adults on boat trips; single doses versus placebo",
+     "quote": "A total of 365 adult participants with a history of motion sickness embarked on boat trips under variable sea conditions.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Funded by Vanda; all authors employees",
+     "quote": "All authors were employed by Vanda Pharmaceuticals Inc. This study received funding from Vanda Pharmaceuticals Inc.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nausea and overall-symptom scores not significantly different from placebo",
+     "quote": "In the ITT population, no statistically significant differences between treatment groups were observed for the NA, MSAQ total and subscales, and PGI-S.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Placebo comparator only (no scopolamine or antihistamine arm)",
+     "quote": "Participants were randomized 1:1:1 and received 170 mg tradipitant (n = 120), 85 mg tradipitant (n = 123) or placebo (n = 122).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "pmid": "40103934",
+   "pmcid": "PMC11913704",
+   "doi": "10.3389/fneur.2025.1550670",
+   "record_title": "Motion Syros: tradipitant effective in the treatment of motion sickness; a multicenter, randomized, double-blind, placebo-controlled study.",
+   "record_journal": "Front Neurol",
+   "record_year": "2025",
+   "article_type": "Journal Article (randomized controlled trial per title; PubMed type list shows Journal Article only)"
+  },
+  {
+   "n": 13,
+   "kind": "agency_page",
+   "cited_as": "NHS. Vertigo. Page last reviewed May 2, 2023 (next review was due May 2, 2026); accessed November 15, 2026. Used for symptom escalation, not US medication selection or UK service instructions.",
+   "url": "https://www.nhs.uk/conditions/vertigo/",
+   "retrieved_with": "Monid firecrawl /scrape of nhs.uk page (basic proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Vertigo means a spinning sensation",
+     "quote": "Vertigo feels like you or everything around you is spinning – enough to affect your balance.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "New double vision, speech difficulty, limb weakness: emergency",
+     "quote": "Call 999 or go to A&E if: You have vertigo and: double vision or loss of vision hearing loss trouble speaking leg or arm weakness, numbness or tingling",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Severe headache or being sick with vertigo needs urgent advice",
+     "quote": "Ask for an urgent GP appointment or get help from NHS 111 if: You have vertigo and: have a severe headache are being sick or feel very sick",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Inability to wake someone is an emergency",
+     "quote": "Always take someone who cannot be woken up to A&E or call 999.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not drive yourself",
+     "quote": "Do not drive to A&E. Ask someone to drive you or call 999 and ask for an ambulance.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Inner-ear disorders, migraine and medicines can cause vertigo",
+     "quote": "Inner ear problems, which affect balance, are the most common causes of vertigo.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Migraine and medicines listed as other causes",
+     "quote": "Other things that can cause vertigo include: migraine some types of medicine",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "version_or_date": "Page last reviewed: 02 May 2023; Next review due: 02 May 2026 (overdue on retrieval)",
+   "notes": "List items joined with spaces where the page uses bullets."
+  },
+  {
+   "n": 14,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. Signs and Symptoms of Stroke. Updated May 19, 2026; accessed November 15, 2026. Used for emergency warning signs.",
+   "url": "https://www.cdc.gov/stroke/signs-symptoms/index.html",
+   "retrieved_with": "Monid firecrawl /scrape of official CDC page (basic proxy, statusCode 200)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Sudden trouble walking, trouble seeing, weakness, confusion, trouble speaking or sudden severe headache: call 911",
+     "quote": "Sudden trouble walking, dizziness, loss of balance, or lack of coordination.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Weakness or numbness and vision trouble are stroke signs",
+     "quote": "Sudden trouble seeing. Sudden numbness or weakness in the face, arm, or leg, especially on one side of the body.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Confusion and trouble speaking",
+     "quote": "Sudden confusion, trouble speaking, or difficulty understanding speech.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sudden severe headache with no known cause",
+     "quote": "Sudden severe headache with no known cause.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Call 911 right away",
+     "quote": "Call 9-1-1 right away if you or someone else has any of these symptoms.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not drive yourself",
+     "quote": "Do not drive to the hospital or let someone else drive you.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "version_or_date": "Published May 15, 2024; Updated and reviewed May 19, 2026",
+   "notes": "New reference added in repair to support emergency (call 911) red flags and \"trouble walking\", which NHS ref 13 does not list."
+  }
+ ]
+}

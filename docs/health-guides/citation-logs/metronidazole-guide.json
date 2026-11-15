@@ -1,0 +1,438 @@
+{
+ "guide": "metronidazole-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 4 verified (all 4 DOIs: 10.1097/OLQ.0000000000002276, 10.1345/aph.1A066, 10.4045/tidsskr.14.0081, 10.1016/j.adaj.2019.08.020), retractions: none; no expressions of concern, no contrasting evidence flagged. PubMed article types checked: no Retracted Publication or Retraction Notice.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "label",
+   "cited_as": "U.S. Food and Drug Administration. FLAGYL (metronidazole) tablets: prescribing information. Revised July 2024.",
+   "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/012623s072lbl.pdf",
+   "version_or_date": "FLAGYL tablets label, Revised: 07/2024; read 2026-11-15",
+   "retrieved_with": "WebFetch of FDA label PDF (Drugs@FDA, accessdata.fda.gov), three passes",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces StatPearls (old ref 1) for mechanism, uses, alcohol, side effects, interactions and warnings. The label has no C. difficile diarrhea warning in the retrieved text. Label dosing for male trichomoniasis says treatment should be individualized; the guide uses CDC regimens for trichomoniasis.",
+   "claims": [
+    {
+     "text": "Nitroimidazole that works against anaerobic bacteria (takeaway, what-is)",
+     "quote": "Metronidazole, a nitroimidazole, exerts antibacterial effects in an anaerobic environment against most obligate anaerobes.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Protozoal and other uses: trichomoniasis, amebiasis, intra-abdominal and gynecologic (pelvic) anaerobic infections (takeaway, uses table, FAQ)",
+     "quote": "FLAGYL is indicated in the treatment of acute intestinal amebiasis (amebic dysentery) and amebic liver abscess. ... INTRA-ABDOMINAL INFECTIONS, including peritonitis, intra-abdominal abscess, and liver abscess ... GYNECOLOGIC INFECTIONS, including endometritis, endomyometritis, tubo-ovarian abscess",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Available as tablets taken by mouth",
+     "quote": "FLAGYL is indicated for the treatment of T. vaginalis infection in females and males",
+     "quote_source": "label",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "No clinically relevant activity against bacteria that use or tolerate oxygen; spares aerobic bacteria",
+     "quote": "Metronidazole does not possess any clinically relevant activity against facultative anaerobes or obligate aerobes.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Reduced drug and free radicals interact with DNA, inhibiting synthesis; precise mechanism unclear",
+     "quote": "The reduced form of metronidazole and free radicals can interact with DNA leading to inhibition of DNA synthesis ... The precise mechanism of action of metronidazole is unclear.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Other anaerobic infections: dose varies by infection",
+     "quote": "The usual adult oral dosage is 7.5 mg/kg every six hours (approx. 500 mg for a 70-kg adult). ... 750 mg orally three times daily for 5 to 10 days.",
+     "quote_source": "label",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Finish the full course; skipping doses or stopping early can reduce effectiveness and promote resistance",
+     "quote": "Skipping doses or not completing the full course of therapy may (1) decrease the effectiveness of the immediate treatment ... increase the likelihood that bacteria will develop resistance and will not be treatable by FLAGYL in the future.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Label: avoid alcohol and propylene glycol during and for at least three days after, because cramps, nausea, vomiting, headaches, flushing may occur",
+     "quote": "Discontinue consumption of alcoholic beverages or products containing propylene glycol while taking FLAGYL and for at least three days afterward because abdominal cramps, nausea, vomiting, headaches, and flushing may occur",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not give metronidazole within two weeks of disulfiram; psychotic reactions reported",
+     "quote": "Use of oral metronidazole is associated with psychotic reactions in alcoholic patients who were using disulfiram concurrently. ... Do not administer metronidazole to patients who have taken disulfiram within the last two weeks",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most common side effects are gastrointestinal, particularly nausea; metallic taste not unusual",
+     "quote": "The most common adverse reactions reported have been referable to the gastrointestinal tract, particularly nausea, sometimes accompanied by headache ... A sharp, unpleasant metallic taste is not unusual.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Darkened urine is rare (about 1 in 100,000), almost certainly a metabolite, no clinical significance (side effects, FAQ, SVG)",
+     "quote": "Instances of darkened urine have been reported by approximately one patient in 100,000. ... it is almost certainly a metabolite of metronidazole and seems to have no clinical significance.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Peripheral neuropathy, persistent in some on prolonged treatment; seizures",
+     "quote": "Since persistent peripheral neuropathy has been reported in some patients receiving prolonged administration ... Convulsive seizures have been reported in patients treated with metronidazole.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Warfarin: stronger anticoagulant effect; INR needs careful monitoring",
+     "quote": "Metronidazole has been reported to potentiate the anticoagulant effect of warfarin and other oral coumarin anticoagulants ... prothrombin time and INR should be carefully monitored.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lithium: can raise levels; check several days after starting",
+     "quote": "short-term metronidazole therapy has been associated with elevation of serum lithium ... Serum lithium and serum creatinine levels should be obtained several days after beginning metronidazole",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Red flags: stop the drug and contact a clinician right away for nerve symptoms or severe skin reactions",
+     "quote": "should be told to stop the drug and report immediately to their physicians if any neurologic symptoms occur ... If symptoms or signs of SCARs develop, discontinue FLAGYL tablets immediately and institute appropriate therapy.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Contact a clinician if severe nausea prevents completing the course",
+     "quote": "particularly nausea, sometimes accompanied by headache, anorexia, and occasionally vomiting ... not completing the full course of therapy may (1) decrease the effectiveness of the immediate treatment",
+     "quote_source": "label",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "journal",
+   "cited_as": "Orire I, Sagoe M, Muzny CA, Kissinger PJ. Revisiting the disulfiram-like reaction between alcohol and oral metronidazole. Sex Transm Dis. 2026;53(4):205-208. PMID 41366815",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41366815/",
+   "pmid": "41366815",
+   "doi": "10.1097/OLQ.0000000000002276",
+   "record_title": "Revisiting the Disulfiram-Like Reaction Between Alcohol and Oral Metronidazole.",
+   "record_journal": "Sex Transm Dis",
+   "record_year": "2025 (epub 2025-12-05); 53(4):205-208",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. PubMed types include no Retracted Publication or Retraction Notice; Scite verified, no notices, no contrasting evidence flagged.",
+   "claims": [
+    {
+     "text": "Active against anaerobic bacteria and protozoa",
+     "quote": "Oral metronidazole is a widely used drug in the 5-nitroimidazole class effective against various anaerobic bacteria and protozoa.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Reviews find no convincing evidence of a clinically significant disulfiram-like interaction (alcohol section, FAQ)",
+     "quote": "the available evidence does not strongly support a clinically significant interaction between alcohol and oral metronidazole, calling into question the need for strict alcohol abstinence during treatment.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "guideline",
+   "cited_as": "Centers for Disease Control and Prevention. Trichomoniasis: STI Treatment Guidelines, 2021.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/trichomoniasis.htm",
+   "version_or_date": "CDC STI Treatment Guidelines 2021, trichomoniasis web page Last Reviewed: September 21, 2022; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page (two passes)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Page does not mention alcohol.",
+   "claims": [
+    {
+     "text": "CDC recommends metronidazole for trichomoniasis",
+     "quote": "Recommended Regimen for Trichomoniasis Among Women: Metronidazole 500 mg 2 times/day for 7 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Curable; treat partners too",
+     "quote": "Treatment reduces symptoms and signs of T. vaginalis infection, cures infection, and might reduce transmission. ... Concurrent treatment of all sex partners is vital for preventing reinfections.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Women: 500 mg twice daily for 7 days",
+     "quote": "Metronidazole 500 mg 2 times/day for 7 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Men: 2 g single dose",
+     "quote": "Metronidazole 2 g orally in a single dose",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Used in pregnancy when indicated and considered low risk",
+     "quote": "Symptomatic pregnant women, regardless of pregnancy stage, should be tested and treated. ... Although metronidazole crosses the placenta, data indicate that it poses a low risk to the developing fetus",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "guideline",
+   "cited_as": "Centers for Disease Control and Prevention. Bacterial Vaginosis: STI Treatment Guidelines, 2021.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/bv.htm",
+   "version_or_date": "CDC STI Treatment Guidelines 2021, BV web page Last Reviewed: July 22, 2021; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "",
+   "claims": [
+    {
+     "text": "CDC recommends metronidazole for BV",
+     "quote": "Metronidazole 500 mg orally 2 times/day for 7 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Common cause of discharge",
+     "quote": "BV is a highly prevalent condition and the most common cause of vaginal discharge worldwide",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV: 500 mg twice daily for 7 days",
+     "quote": "Metronidazole 500 mg orally 2 times/day for 7 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC: no inhibition of acetaldehyde dehydrogenase; refraining from alcohol unnecessary (takeaway, alcohol section, table, FAQ, summary)",
+     "quote": "Metronidazole does not inhibit acetaldehyde dehydrogenase, as occurs with disulfiram. ... Thus, refraining from alcohol use while taking metronidazole (or tinidazole) is unnecessary.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Low risk in pregnancy",
+     "quote": "Although metronidazole crosses the placenta ... These data indicate that metronidazole therapy poses low risk during pregnancy.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "guideline",
+   "cited_as": "Lockhart PB, Tampi MP, Abt E, et al. Evidence-based clinical practice guideline on antibiotic use for the urgent management of pulpal- and periapical-related dental pain and intraoral swelling. J Am Dent Assoc. 2019;150(11):906-921.e12. PMID 31668170",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31668170/",
+   "pmid": "31668170",
+   "pmcid": "PMC8270006",
+   "doi": "10.1016/j.adaj.2019.08.020",
+   "record_title": "Evidence-based clinical practice guideline on antibiotic use for the urgent management of pulpal- and periapical-related dental pain and intraoral swelling: A report from the American Dental Association.",
+   "record_journal": "J Am Dent Assoc",
+   "record_year": "2019",
+   "article_type": "Journal Article; Practice Guideline; Systematic Review",
+   "version_or_date": "ADA guideline, JADA November 2019",
+   "retrieved_with": "PubMed connector get_article_metadata + get_full_text_article (PMC full text); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source for the dental use. ADA places metronidazole as an add-on when first-line amoxicillin or penicillin fails, not first line. Scite verified, no notices.",
+   "claims": [
+    {
+     "text": "Used for certain dental infections (takeaway, uses table, FAQ)",
+     "quote": "For cases that do not respond promptly to antibiotics, clinicians may consider either complementing first-line treatment with oral metronidazole ... to enhance the efficacy against Gram negative anaerobic organisms.",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Do not save leftover antibiotics or share them",
+     "quote": "Prescription medications, including antibiotics, should not be saved for later use nor shared with others.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus, U.S. National Library of Medicine. Metronidazole.",
+   "url": "https://medlineplus.gov/druginfo/meds/a689011.html",
+   "version_or_date": "Last Revised 08/15/2026; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "MedlinePlus does not list dark urine, and does not list severe diarrhea or difficulty breathing among serious side effects.",
+   "claims": [
+    {
+     "text": "Nitroimidazole antimicrobial (what-is, summary link)",
+     "quote": "Metronidazole is in a class of medications called nitroimidazole antimicrobials.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Keep taking it even if you feel better",
+     "quote": "Continue to take this medication even if you feel well.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Metallic taste and nausea are side effects",
+     "quote": "vomiting, nausea, diarrhea; upset stomach ... sharp, unpleasant metallic taste",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Numbness, tingling, burning or pain in hands or feet, and seizures, are serious effects",
+     "quote": "If you experience any of the following symptoms, call your doctor immediately: numbness, pain, burning, or tingling in your hands or feet ... seizures; problems with coordination; confusion; dizziness",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Allergic-type signs (rash, hives, blistering, swelling): call a clinician right away",
+     "quote": "call your doctor immediately: ... rash, itching, hives; flushing ... peeling or blistering skin; blisters or sores in your mouth; redness or swelling of your face, hands, or soles of your feet",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "label",
+   "cited_as": "DailyMed, U.S. National Library of Medicine. VANDAZOLE (metronidazole gel) 0.75%, for intravaginal use: prescribing information. Revised February 2021.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27d71471-8f89-4a1e-8c55-020a58961454",
+   "version_or_date": "Label Revised: 2/2021; DailyMed version 14, updated December 2, 2025; read 2026-11-15",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Category HUMAN PRESCRIPTION DRUG LABEL; Rx only.",
+   "claims": [
+    {
+     "text": "Available as a prescription vaginal gel",
+     "quote": "VANDAZOLE is a nitroimidazole antimicrobial indicated for the treatment of bacterial vaginosis in post-menarchal females. ... Rx only",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Gel label gives the same three-day alcohol advice",
+     "quote": "Discontinue alcohol consumption during and for at least three days after therapy with VANDAZOLE.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "other_web",
+   "cited_as": "National Rosacea Society. FDA-Approved Rosacea Treatments.",
+   "url": "https://www.rosacea.org/patients/management-options/fda-approved-rosacea-treatments",
+   "version_or_date": "No page date shown (footer copyright 1996-2026); read 2026-11-15",
+   "retrieved_with": "WebFetch of page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Patient advocacy organization page; cited only for the available topical forms.",
+   "claims": [
+    {
+     "text": "Prescription gels, creams and lotions applied to the skin for rosacea",
+     "quote": "It is available by prescription in gel, cream, and lotion preparations of 0.75% formulations",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. Patient Care for Giardia Infection.",
+   "url": "https://www.cdc.gov/giardia/hcp/clinical-care/index.html",
+   "version_or_date": "Page dated Feb. 20, 2024; read 2026-11-15",
+   "retrieved_with": "Keenable web search via Monid to locate the page, then WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source for giardiasis.",
+   "claims": [
+    {
+     "text": "Giardiasis is a protozoal gut infection metronidazole treats",
+     "quote": "Effective medications include: Tinidazole, Nitazoxanide, Metronidazole",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Visapää JP, Tillonen JS, Kaihovaara PS, Salaspuro MP. Lack of disulfiram-like reaction with metronidazole and ethanol. Ann Pharmacother. 2002;36(6):971-974. PMID 12022894",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12022894/",
+   "pmid": "12022894",
+   "doi": "10.1345/aph.1A066",
+   "record_title": "Lack of disulfiram-like reaction with metronidazole and ethanol.",
+   "record_journal": "Ann Pharmacother",
+   "record_year": "2002",
+   "article_type": "Clinical Trial; Controlled Clinical Trial; Journal Article",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. Small study (12 healthy men); abstract notes a reaction may still occur in some subgroups by other mechanisms. Scite verified, no notices.",
+   "claims": [
+    {
+     "text": "Small double-blind study of 12 healthy men: no rise in blood acetaldehyde, no objective or subjective adverse effects",
+     "quote": "Of 12 healthy male volunteers in this double-blind study ... Metronidazole did not raise blood acetaldehyde or have any objective or subjective adverse effects when used together with ethanol.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "journal",
+   "cited_as": "Fjeld H, Raknes G. Is combining metronidazole and alcohol really hazardous? Tidsskr Nor Laegeforen. 2014;134(17):1661-1663. PMID 25223673",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25223673/",
+   "pmid": "25223673",
+   "doi": "10.4045/tidsskr.14.0081",
+   "record_title": "[Is combining metronidazole and alcohol really hazardous?].",
+   "record_journal": "Tidsskr Nor Laegeforen",
+   "record_year": "2014",
+   "article_type": "English Abstract; Journal Article; Review",
+   "retrieved_with": "PubMed connector get_article_metadata (English abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Norwegian-language review; English abstract only. Published 2014 (the brief named it as a 2017 review; PubMed record is 2014). Scite verified, no notices.",
+   "claims": [
+    {
+     "text": "Reviews find no convincing evidence of a disulfiram-like interaction",
+     "quote": "No in-vitro studies, animal models, reports of adverse effects or clinical studies provide any convincing evidence of a disulfiram-like interaction between ethanol and metronidazole.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus, U.S. National Library of Medicine. Drug allergies.",
+   "url": "https://medlineplus.gov/ency/article/000819.htm",
+   "version_or_date": "Review Date 1/20/2026; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source for the emergency advice on difficulty breathing (red flag kept and strengthened to match the source).",
+   "claims": [
+    {
+     "text": "Difficulty breathing: go to the emergency room or call 911",
+     "quote": "Go to the emergency room or call the local emergency number (such as 911) if you have difficulty breathing or develop other symptoms of severe asthma or anaphylaxis.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}
