@@ -1,0 +1,1038 @@
+{
+ "guide": "cholesterol-hyperlipidemia-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 10 verified (all 10 journal and guideline DOIs), retractions: none; no expressions of concern; PubMed article types show no Retracted Publication or Retraction Notice for any cited record. Contrasting-citation flags on refs 4, 10, 13, 27 reviewed (see notes); none bears on the claims cited.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). High Cholesterol Facts. Last updated October 24, 2024. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/cholesterol/data-research/facts-stats/index.html",
+   "version_or_date": "Last updated October 24, 2024; last reviewed May 15, 2024",
+   "retrieved_with": "WebFetch of official page (excerpts limited to 125 characters by the tool)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Former claim citing this page (CDC March 2026 analysis, 13.7% rise 2019-2023) is not on the page and was cut.",
+   "claims": [
+    {
+     "text": "About 86 million U.S. adults age 20+ have total cholesterol above 200 mg/dL",
+     "quote": "About 86 million US adults age 20 or older have total cholesterol levels above 200 mg/dL.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nearly 25 million have levels above 240 mg/dL",
+     "quote": "Nearly 25 million adults in the United States have total cholesterol levels above 240 mg/dL.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "High cholesterol has no symptoms, so many people don't know it is too high",
+     "quote": "High cholesterol has no symptoms, so many people don’t know that their cholesterol is too high.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "guideline",
+   "cited_as": "Blumenthal RS, Morris PB, Gaudino M, et al. 2026 ACC/AHA/AACVPR/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Dyslipidemia: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Journal of the American College of Cardiology. 2026;87(19):2624-2757. Practice guideline (PubMed record). PMID 41824590.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41824590/",
+   "pmid": "41824590",
+   "doi": "10.1016/j.jacc.2025.11.016",
+   "record_title": "2026 ACC/AHA/AACVPR/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Dyslipidemia: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines.",
+   "record_journal": "J Am Coll Cardiol",
+   "record_year": "2026",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "Published 2026-03-13; J Am Coll Cardiol 87(19):2624-2757. Also published in Circulation 153(17):e1154-e1276 (PMID 41824552), which has two published errata (PMID 42330109, 2026-06-22; PMID 42709919, 2026-09-08). Read 2026-11-15.",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Full guideline text could not be read: jacc.org, ahajournals.org and europepmc.org returned client errors; not in PMC. This entry supports only what the abstract says. LDL-C goals, PREVENT-ASCVD, once-in-adulthood Lp(a), CAC use and special populations are stated on the page only as the ACC's summary and are cited to ref 3 (ACC Journal Scan), not to this record. Class of Recommendation labels, Lp(a) thresholds, apoB, numeric CAC thresholds and statin-intensity statements remain cut. Errata on the Circulation version noted; content of errata not read.",
+   "claims": [
+    {
+     "text": "2026 guideline retires and replaces the 2018 blood cholesterol guideline",
+     "quote": "The \"2026 ACC/AHA/AACVPR/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Dyslipidemia\" retires and replaces the \"2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol.\"",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Scope: evaluation, management and monitoring of dyslipidemias incl. high blood cholesterol, hypertriglyceridemia, elevated Lp(a)",
+     "quote": "The focus of this clinical practice guideline is to address the evaluation, management, and monitoring of individuals with dyslipidemias, including high blood cholesterol, hypertriglyceridemia, and elevated lipoprotein(a).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Literature search October to December 2024",
+     "quote": "A comprehensive literature search was conducted from October 2024 to December 2024",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Published March 13, 2026",
+     "quote": "PubMed publication_date 2026-03-13",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "other_web",
+   "cited_as": "American College of Cardiology. ACC, AHA Release New Clinical Guideline For Managing Dyslipidemia. Journal Scan, March 13, 2026. Accessed November 15, 2026.",
+   "url": "https://www.acc.org/latest-in-cardiology/journal-scans/2026/03/13/15/20/acc-aha-release-new-clinical-guideline-for-managing-dyslipidemia",
+   "version_or_date": "ACC Journal Scan, URL dated 2026/03/13; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page (excerpts limited to 125 characters by the tool); re-fetched 2026-11-15 after coordinator direction that the ACC page counts as the issuing organization's official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "ACC's own Journal Scan summary of the 2026 guideline (issuing organization's official page). Initially used only for the chair's quote; after coordinator direction (2026-11-15) that this page counts as an official page under the brief, the LDL-C goals, PREVENT-ASCVD, once-in-adulthood Lp(a), CAC and special-population points were restored, attributed in the text as the ACC's summary. Only statements the page makes were restored: the page does not define the numeric thresholds for 'high risk' or 'very high risk', gives no CAC numeric thresholds, no Class of Recommendation labels, no risk enhancers or ancestry, no statin intensity, and does not mention ESC or evinacumab, so none of those were restored. apoB is on the page but was not part of the requested restoration and stays out. Quotes are joined from tool excerpts (the fetch tool limits each excerpt to 125 characters); '+' marks a join between excerpts.",
+   "claims": [
+    {
+     "text": "Blumenthal, chair of the guideline writing committee, quote 'Lower [LDL-C] for longer...'",
+     "quote": "\"Lower [LDL-C] for longer, just like lower blood pressure for longer,\" + \"results in much greater protection against future heart attack and stroke risk.\" + \"said Roger S. Blumenthal, MD, FACC, chair of the guideline writing committee.\"",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "ACC summary: LDL-C and non-HDL-C treatment goals are back",
+     "quote": "LDL-C and non-HDL cholesterol (non-HDL-C) treatment goals are back to guide LLT, according to the guideline authors.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "ACC summary: LDL-C goal <100 mg/dL for borderline or intermediate risk; <70 mg/dL for high risk",
+     "quote": "The guideline recommends an LDL-C goal of <100 mg/dL for those at borderline or intermediate risk + and <70 mg/dL in those at high risk.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "ACC summary: LDL-C goal <55 mg/dL for people with ASCVD at very high risk",
+     "quote": "For individuals with ASCVD who are at very high risk of ASCVD events, the LDL-C goal should be <55 mg/dL",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "ACC summary: PREVENT-ASCVD instead of Pooled Cohort Equations for 10- and 30-year risk, primary prevention, ages 30 to 79",
+     "quote": "use of the newer PREVENT-ASCVD equations instead of the older Pooled Cohort Equations + for 10- and 30-year risk assessment + primary prevention in adults aged 30 to 79 years.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "ACC summary: LDL-lowering therapy reasonable at borderline PREVENT risk 3% to <5%; recommended at intermediate 5% to <10%",
+     "quote": "LDL-lowering therapy is reasonable in adults for primary prevention of ASCVD with + a borderline 10-year PREVENT-ASCVD risk estimate of 3% to <5% + and is recommended for those with + an intermediate 10-year PREVENT ASCVD risk of 5% to <10%",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "ACC summary: Lp(a) measured at least once in adulthood; repeat testing generally not needed",
+     "quote": "Lp(a) should be measured at least once in adulthood. + According to the guideline, lifestyle changes minimally affect Lp(a) levels, so repeat testing is generally not needed.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "ACC summary: selective CAC scan for men over 40 and women over 45 with borderline or intermediate risk; any CAC supports LDL-C <100, lower targets with more calcium",
+     "quote": "Selective use of a noncontrast coronary artery calcium (CAC) scan is recommended for + men over the age of 40 and women over the age of 45 + with borderline or intermediate 10-year risk of heart attack or stroke. + Having any amount of CAC supports an LDL-C goal of <100 mg/dL + with lower LDL-C target levels with higher amounts of calcium.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "ACC summary special populations: start LLT at 40+ with CKD stage 3+, HIV, type 1 or 2 diabetes; continue in cancer treatment; defer most LLT in conception, pregnancy, lactation",
+     "quote": "Initiating LLT for people age 40 or older who have chronic kidney disease (stage 3 or higher), HIV or type 1 or type 2 diabetes. + Continuing LLT in people being treated for cancer, unless contraindicated. + Deferring most LLTs during conception, pregnancy and lactation.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Assessment of adverse effects attributed to statin therapy in product labels: a meta-analysis of double-blind randomised controlled trials. Lancet. 2026;407(10529):689-703. Meta-analysis. PMID 41655587.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41655587/",
+   "pmid": "41655587",
+   "pmcid": "PMC7619005",
+   "doi": "10.1016/S0140-6736(25)01578-8",
+   "record_title": "Assessment of adverse effects attributed to statin therapy in product labels: a meta-analysis of double-blind randomised controlled trials.",
+   "record_journal": "Lancet",
+   "record_year": "2026",
+   "article_type": "Journal Article; Meta-Analysis",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces the Science Media Centre Espana news page formerly bundled into old ref 5. PubMed lists no individual authors (collective authorship), so none are printed. Correction: old text said only 4 of 66 statin side effects are caused by statins and that most muscle symptoms are nocebo; the paper counts muscle outcomes and diabetes as established effects outside the 66. Scite flagged one contrasting citation (10.1093/ehjcvp/pvag048) about statin intensity and adherence; it does not bear on the claims cited.",
+   "claims": [
+    {
+     "text": "19 placebo-controlled trials, 123,940 participants, median follow-up 4.5 years",
+     "quote": "19 trials compared statin versus placebo (123 940 participants, median follow-up 4·5 years [IQR 3·1-5·4]).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Beyond known muscle and diabetes effects, only 4 of 66 further label-listed effects were more common with statins",
+     "quote": "In addition to previously reported effects on muscle outcomes and diabetes, only four of 66 further undesirable outcomes that had been attributed to statins were FDR significant",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "The four: abnormal liver tests (two categories), urinary composition alteration, edema; low absolute rates",
+     "quote": "abnormal liver transaminases (783 participants [0·30% per annum] allocated statin vs 556 [0·22% per annum] ...), urinary composition alteration ... and oedema (3495 [1·38% per annum] ... vs 3299 [1·31% per annum]",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No causal support for most label conditions incl. cognitive impairment, depression, sleep disturbance, peripheral neuropathy; labels should be revised",
+     "quote": "do not support causal relationships between statin therapy and most of the conditions (including cognitive impairment, depression, sleep disturbance, and peripheral neuropathy) listed in product labels ... such labelling ... should be revised",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Howard JP, Wood FA, Francis DP. Why Do I Get Side Effects? Personalized (N-of-1) Trials for Statin Intolerance and the Nocebo Effect. Harvard Data Science Review. 2022. PMID 38344133.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10857873/",
+   "pmid": "38344133",
+   "pmcid": "PMC10857873",
+   "doi": "10.1162/99608f92.abc57f1b",
+   "record_title": "Why Do I Get Side Effects? Personalized (N-of-1) Trials for Statin Intolerance and the Nocebo Effect.",
+   "record_journal": "Harv Data Sci Rev",
+   "record_year": "2022",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Citation fixed: old ref printed a wrong title and a nonexistent author (Finegold) and bundled a news page; authors are Howard, Wood, Francis. Old claim about a no-tablet arm and 'statistically insignificant' statin vs placebo difference in SAMSON was cut (not in the abstract read).",
+   "claims": [
+    {
+     "text": "SAMSON and StatinWISE randomized each participant to multiple statin and placebo periods",
+     "quote": "In these trials, each participant was randomized to multiple periods of statin and placebo, with regular symptom burden assessments.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Trials support a significant nocebo effect; taking a tablet, even placebo, causes genuine side effects",
+     "quote": "the nocebo effect, where the act of just taking a tablet (even a placebo) causes genuine side effects in patients ... Together, these trials support the existence of a significant nocebo effect from taking statins.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Up to half restarted statins after the trials",
+     "quote": "up to half of the patients in these trials were able to successfully restart statins after taking part, despite previously having been statin intolerant",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "In blinded trials side effects no more common on statin than placebo",
+     "quote": "in blinded placebo-controlled trials, side effects appear no more common in those taking statins than those taking placebo",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "label",
+   "cited_as": "Organon LLC. ZETIA (ezetimibe) tablets. Prescribing information. Revised 2/2024. DailyMed. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=174e45e0-45bb-48b7-9e60-8f6cfc1d22bb",
+   "version_or_date": "Revised 2/2024",
+   "retrieved_with": "WebFetch of DailyMed label (drugInfo.cfm or fdaDrugXsl.cfm view of the same setid); URL found via WebSearch",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Table values transcribed from label Tables 6 and 7 as reported by the fetch tool.",
+   "claims": [
+    {
+     "text": "Ezetimibe inhibits intestinal cholesterol absorption",
+     "quote": "Ezetimibe reduces blood cholesterol by inhibiting the absorption of cholesterol by the small intestine.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Added to statin: LDL -25% vs -4% with placebo; alone -18% vs +1%",
+     "quote": "Table 7: mean LDL-C change from treated baseline -25% (ZETIA + statin) vs -4% (statin + placebo); Table 6: pooled -18% (ZETIA) vs +1% (placebo)",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "10 mg once daily with or without food",
+     "quote": "The recommended dose of ZETIA is 10 mg orally once daily, administered with or without food.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Labeled with a statin, or alone when additional LDL-lowering therapy is not possible; LDL-lowering indication",
+     "quote": "In combination with a statin, or alone when additional low-density lipoprotein cholesterol (LDL-C) lowering therapy is not possible, as an adjunct to diet to reduce elevated LDL-C",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "label",
+   "cited_as": "Amgen. REPATHA (evolocumab) injection. Prescribing information. Revised 7/2026. DailyMed. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cd61e902-166d-4aa6-9f3c-a18c1008d07e",
+   "version_or_date": "Revised 7/2026",
+   "retrieved_with": "WebFetch of DailyMed label (drugInfo.cfm or fdaDrugXsl.cfm view of the same setid); URL found via WebSearch",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces the Amgen press release. The label does not state the 2025 date of the indication change, so the page no longer gives one. 'Up to 60%' replaced with label figures.",
+   "claims": [
+    {
+     "text": "Indication: reduce MACE in adults at increased risk; LDL lowering in hypercholesterolemia and HeFH/HoFH",
+     "quote": "To reduce the risk of major adverse cardiovascular (CV) events ... in adults at increased risk for these events. ... As an adjunct to diet and exercise to reduce low-density lipoprotein cholesterol (LDL-C) in: adults with hypercholesterolemia.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "LDL 71% more than placebo at 12 weeks; 55% at 52 weeks with monthly dosing",
+     "quote": "The difference between REPATHA and placebo in mean percent change in LDL-C from baseline to Week 12 was −71% ... from baseline to Week 52 was −55%",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "FOURIER: reduced primary composite of major CV events",
+     "quote": "REPATHA significantly reduced the risk for the primary composite endpoint (time to first occurrence of CV death, myocardial infarction, stroke, hospitalization for unstable angina, or coronary revascularization",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "140 mg every 2 weeks or 420 mg monthly; home injection if provider decides",
+     "quote": "The recommended dosage of REPATHA is either 140 mg every 2 weeks OR 420 mg once monthly administered subcutaneously ... If your healthcare provider decides that you or a caregiver may be able to give your injections of REPATHA at home",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "label",
+   "cited_as": "Novartis Pharmaceuticals Corporation. LEQVIO (inclisiran) injection. Prescribing information. Revised 8/2026. DailyMed. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6fc0afca-4513-4c35-b594-6544aee29a44",
+   "version_or_date": "Revised 8/2026; Initial U.S. Approval 2021",
+   "retrieved_with": "WebFetch of DailyMed label (drugInfo.cfm or fdaDrugXsl.cfm view of the same setid); URL found via WebSearch",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces the Novartis press release. The label does not use 'first-line' or give the July 2025 date; the page now states the current indication only. 'About 50%' replaced by the label's 50% to 52%.",
+   "claims": [
+    {
+     "text": "siRNA directed to PCSK9 mRNA",
+     "quote": "LEQVIO is a small interfering RNA (siRNA) directed to proprotein convertase subtilisin kexin type 9 (PCSK9) mRNA",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Indication: adjunct to diet and exercise to lower LDL in adults with hypercholesterolemia; age 12+ HeFH and HoFH",
+     "quote": "LEQVIO® is indicated as an adjunct to diet and exercise to reduce low-density lipoprotein cholesterol (LDL-C) in: adults with hypercholesterolemia.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Label's MACE statement refers to statins and PCSK9 antibodies, not inclisiran",
+     "quote": "Cardiovascular outcomes trials have demonstrated that reducing LDL-C lowers the risk for major adverse cardiovascular events (MACE) in adults at increased risk when treated with statins or monoclonal antibody proprotein convertase subtilisin kexin type 9 (PCSK9) inhibitors",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "284 mg initially, at 3 months, then every 6 months, by a healthcare professional",
+     "quote": "284 mg administered as a single subcutaneous injection initially, again at 3 months, and then every 6 months. ... LEQVIO should be administered by a healthcare professional.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "LDL 52% and 50% more than placebo at Day 510",
+     "quote": "The difference between the LEQVIO and placebo groups in mean percentage change in LDL-C from baseline to Day 510 was -52% (Trial 2 same wording, -50%)",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Initial U.S. approval 2021",
+     "quote": "Initial U.S. Approval: 2021",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "label",
+   "cited_as": "Esperion Therapeutics. NEXLETOL (bempedoic acid) tablets. Prescribing information. Revised 1/2026. DailyMed. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+   "version_or_date": "Highlights revised 1/2026 (end of document shows 6/2026); Initial U.S. Approval 2020",
+   "retrieved_with": "WebFetch of DailyMed label (drugInfo.cfm or fdaDrugXsl.cfm view of the same setid); URL found via WebSearch",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Old claim that bempedoic acid 'is not activated in skeletal muscle, which is why it does not cause muscle symptoms' is not in the label; replaced with label wording plus the trial's 'low incidence of muscle-related adverse events' (ref 23). Nexlizet mention cut (label not retrieved).",
+   "claims": [
+    {
+     "text": "ACL inhibitor lowering LDL via hepatic cholesterol synthesis; activated by ACSVL1 expressed primarily in liver",
+     "quote": "Bempedoic acid is an adenosine triphosphate-citrate lyase (ACL) inhibitor that lowers LDL-C by inhibition of cholesterol synthesis in the liver. ... ACSVL1 is expressed primarily in the liver.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "180 mg once daily",
+     "quote": "The recommended dosage of NEXLETOL is 180 mg administered orally once daily.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Warnings: uric acid/gout, tendon rupture",
+     "quote": "Elevated blood uric acid may lead to the development of gout. ... Tendon rupture has occurred.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "FDA-labeled to lower LDL",
+     "quote": "as an adjunct to diet and exercise, in combination with other low-density lipoprotein cholesterol (LDL-C) lowering therapies, or alone when concomitant LDL-C lowering therapy is not possible, to reduce LDL-C in adults with hypercholesterolemia",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Initial U.S. approval 2020",
+     "quote": "Initial U.S. Approval: 2020",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Chiavaroli L, Nishi SK, Khan TA, et al. Portfolio Dietary Pattern and Cardiovascular Disease: A Systematic Review and Meta-analysis of Controlled Trials. Progress in Cardiovascular Diseases. 2018;61(1):43-53. PMID 29807048.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29807048/",
+   "pmid": "29807048",
+   "doi": "10.1016/j.pcad.2018.05.004",
+   "record_title": "Portfolio Dietary Pattern and Cardiovascular Disease: A Systematic Review and Meta-analysis of Controlled Trials.",
+   "record_journal": "Prog Cardiovasc Dis",
+   "record_year": "2018",
+   "article_type": "Journal Article; Meta-Analysis; Systematic Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source; replaces unsourced 'Mediterranean or Portfolio 20-30%'. Scite contrasting flag (10.1016/j.clnu.2021.03.016) concerns sex differences in BMI/BP associations, not the LDL claim.",
+   "claims": [
+    {
+     "text": "Portfolio diet lowered LDL about 17% on top of NCEP Step II diet",
+     "quote": "The combination of a portfolio dietary pattern and NCEP Step II diet significantly reduced the primary outcome LDL-C by ~17% (MD, -0.73 mmol/L",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Portfolio components: nuts, plant protein, viscous fibre, plant sterols",
+     "quote": "a plant-based dietary pattern that combines recognized cholesterol-lowering foods (nuts, plant protein, viscous fibre, plant sterols)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "LDL is the primary therapeutic lipid target for CVD prevention",
+     "quote": "the primary therapeutic lipid target for cardiovascular disease prevention, low-density lipoprotein cholesterol (LDL-C)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "other_web",
+   "cited_as": "Mayo Clinic. Top 5 lifestyle changes to improve your cholesterol. Page dated January 21, 2026. Accessed November 15, 2026.",
+   "url": "https://www.mayoclinic.org/diseases-conditions/high-blood-cholesterol/in-depth/reduce-cholesterol/art-20045935",
+   "version_or_date": "Page dated Jan. 21, 2026",
+   "retrieved_with": "WebFetch of official page (excerpts limited to 125 characters by the tool)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "All numeric lifestyle effects formerly attributed to this page (20-30%, 8-10%, 3-5%, 6-15%, 5-10%, 5-8%, 10-20%, 20-30%) are not on it and were cut or replaced with refs 10 and 25. Omega-3 quote is a fragment returned inside a tool summary, so marked partly_supported.",
+   "claims": [
+    {
+     "text": "Healthy habits alone sometimes not enough",
+     "quote": "Sometimes, healthy habits alone aren't enough to lower your cholesterol levels.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Eating less saturated fat (red meat, full-fat dairy) helps lower LDL",
+     "quote": "Saturated fats are found mostly in red meat and full-fat dairy products. ... Eating less saturated fat can help lower your LDL levels and improve your heart health.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Soluble fiber blocks some absorption; food examples",
+     "quote": "Soluble fiber helps block some cholesterol from being absorbed into your bloodstream. ... You can find soluble fiber in foods such as oatmeal, kidney beans, Brussels sprouts, apples and pears.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Trans fats raise cholesterol and risk; 'partially hydrogenated vegetable oil'",
+     "quote": "Trans fats can raise your overall cholesterol and increase your risk of heart disease. ... On food labels, they may be listed as \"partially hydrogenated vegetable oil.\"",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Exercise raises HDL; at least 30 minutes five days a week",
+     "quote": "Regular exercise can help raise high-density lipoprotein (HDL) cholesterol ... work up to at least 30 minutes of exercise, such as brisk walking, five days a week.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Small extra weight raises cholesterol; small steps improve heart health",
+     "quote": "Even a small amount of extra weight can raise your cholesterol levels. ... These small steps can help you lose weight and improve your heart health over time.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Quitting smoking raises HDL; heart disease risk cut in half within a year",
+     "quote": "Quitting smoking can help raise your HDL cholesterol. ... Within one year of quitting, your risk of heart disease is cut in half compared with someone who still smokes.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Omega-3 supplements don't lower LDL",
+     "quote": "Omega-3s ... \"don't lower LDL cholesterol\"",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus, National Library of Medicine. Cholesterol Levels: What You Need to Know. Last updated October 7, 2026. Accessed November 15, 2026.",
+   "url": "https://medlineplus.gov/cholesterollevelswhatyouneedtoknow.html",
+   "version_or_date": "Last updated October 7, 2026",
+   "retrieved_with": "WebFetch of official page (excerpts limited to 125 characters by the tool)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source. Replaces the risk-category LDL goal table (2026 guideline goals could not be read from guideline text) and the AHA page that did not support the HDL claims.",
+   "claims": [
+    {
+     "text": "LDL main source of buildup and blockage",
+     "quote": "LDL is often called \"bad\" cholesterol because it is the main source of cholesterol buildup and blockage in the arteries.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "HDL helps remove cholesterol from arteries",
+     "quote": "HDL is often called \"good\" cholesterol because it helps remove cholesterol from your arteries.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Healthy levels: total <200, non-HDL <130, LDL <100, HDL >=60 best, low <40 men/<50 women",
+     "quote": "Less than 200 mg/dL ... Less than 130 mg/dL ... Less than 100 mg/dL ... Greater than or equal to 60 mg/dL is best. Levels less than 40 mg/dL are considered low. [women: less than 50 mg/dL]",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Normal triglycerides below 150 mg/dL",
+     "quote": "A normal triglyceride level is below 150 mg/dL.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Total cholesterol definition",
+     "quote": "This is a measure of the total amount of cholesterol in your blood.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Usually fast 9 to 12 hours",
+     "quote": "Before the test, you'll usually need to fast (not eat or drink anything but water) for 9 to 12 hours.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "journal",
+   "cited_as": "AIM-HIGH Investigators; Boden WE, Probstfield JL, Anderson T, et al. Niacin in patients with low HDL cholesterol levels receiving intensive statin therapy. New England Journal of Medicine. 2011;365(24):2255-2267. PMID 22085343.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22085343/",
+   "pmid": "22085343",
+   "doi": "10.1056/NEJMoa1107579",
+   "record_title": "Niacin in patients with low HDL cholesterol levels receiving intensive statin therapy.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2011",
+   "article_type": "Randomized Controlled Trial; Multicenter Study",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source; replaces AHA 'About Cholesterol' page (old ref 4), which did not support the HDL statements. Narrowed the old general claim ('raising HDL with drugs has not reduced events') to this trial. Scite contrasting flag is about niacin lipid effects in another study, not outcomes.",
+   "claims": [
+    {
+     "text": "Niacin added to statin raised HDL but gave no additional clinical benefit over 36 months in ASCVD with LDL <70",
+     "quote": "Among patients with atherosclerotic cardiovascular disease and LDL cholesterol levels of less than 70 mg per deciliter (1.81 mmol per liter), there was no incremental clinical benefit from the addition of niacin to statin therapy during a 36-month follow-up period, despite significant improvements in HDL cholesterol",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "agency_page",
+   "cited_as": "National Heart, Lung, and Blood Institute (NHLBI). High Blood Triglycerides. Last updated April 19, 2023. Accessed November 15, 2026.",
+   "url": "https://www.nhlbi.nih.gov/health/high-blood-triglycerides",
+   "version_or_date": "Last updated April 19, 2023",
+   "retrieved_with": "WebFetch of official page (excerpts limited to 125 characters by the tool)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source. Diabetes, overweight/obesity and alcohol were named on the page per the fetch summary; verbatim list not captured, so marked partly_supported.",
+   "claims": [
+    {
+     "text": "Triglyceride categories <150, 150-199, 200-499, >500",
+     "quote": "Healthy: Below 150 milligrams per deciliter (mg/dL) for adults ... Borderline high: Between 150 and 199 mg/dL ... High: Between 200 and 499 mg/dL ... Very high: Above 500 mg/dL",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Very high triglycerides >500 raise risk of pancreatitis",
+     "quote": "Very high blood triglycerides, more than 500 mg/dL, can raise the risk for a sudden swelling in the pancreas",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Diabetes, overweight/obesity, alcohol can raise triglycerides",
+     "quote": "Some health conditions may increase blood triglyceride levels.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "journal",
+   "cited_as": "McGinnis T, Saxon DR. Approach to the patient with elevated lipoprotein(a). Journal of Clinical Endocrinology and Metabolism. 2026;111(11):3286-3295. Review. PMID 42460806.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42460806/",
+   "pmid": "42460806",
+   "doi": "10.1210/clinem/dgag286",
+   "record_title": "Approach to the patient with elevated lipoprotein(a).",
+   "record_journal": "J Clin Endocrinol Metab",
+   "record_year": "2026",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source (review). Its abstract also says the 2026 guideline recommends one-time Lp(a) measurement in all adults; that guideline claim was not used because the guideline text could not be read.",
+   "claims": [
+    {
+     "text": "Lp(a) common, genetically determined, independently associated with MI, stroke, PAD, calcific aortic stenosis",
+     "quote": "Lipoprotein(a) [Lp(a)] is a common, genetically determined lipoprotein that is independently associated with myocardial infarction, stroke, peripheral artery disease, and calcific aortic stenosis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lp(a) stable and minimally influenced by lifestyle",
+     "quote": "Lp(a) levels are stable over time and minimally influenced by lifestyle",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No approved Lp(a)-specific drug; manage traditional risk factors, LDL lowering with statins",
+     "quote": "no approved drug therapies specifically targeting Lp(a) yet exist; therefore, management should currently focus on aggressive optimization of traditional risk factors, particularly LDL-C lowering with statins",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "guideline",
+   "cited_as": "U.S. Preventive Services Task Force. Statin Use for the Primary Prevention of Cardiovascular Disease in Adults: Preventive Medication. Final recommendation, August 23, 2022. Accessed November 15, 2026.",
+   "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/statin-use-in-adults-preventive-medication",
+   "version_or_date": "Final recommendation released August 23, 2022 (replaces 2016); no update noted on page",
+   "retrieved_with": "WebFetch of official page (excerpts limited to 125 characters by the tool)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source. Replaces the unsourced statement that the Pooled Cohort Equations 'overestimated 10-year risk by 40-50%'.",
+   "claims": [
+    {
+     "text": "Grade B: statin for adults 40-75, 1+ risk factors, 10-year risk >=10%",
+     "quote": "The USPSTF recommends that clinicians prescribe a statin for the primary prevention of CVD for adults aged 40 to 75 years who have 1 or more CVD risk factors (i.e. dyslipidemia, diabetes, hypertension, or smoking) and an estimated 10-year risk of a cardiovascular event of 10% or greater.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Grade C: selectively offer for 7.5% to <10%; smaller benefit",
+     "quote": "selectively offer a statin ... 7.5% to less than 10%. The likelihood of benefit is smaller in this group than in persons with a 10-year risk of 10% or greater.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "76 or older: evidence insufficient",
+     "quote": "The USPSTF concludes that the current evidence is insufficient",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "PCE may be used; overprediction in broad populations",
+     "quote": "The American College of Cardiology/American Heart Association (ACC/AHA) Pooled Cohort Equations may be used to estimate 10-year risk of CVD. ... Concerns about calibration of the Pooled Cohort Equations exist, with many external validation studies showing overprediction in broad populations",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "label",
+   "cited_as": "Viatris Specialty LLC. LIPITOR (atorvastatin calcium) tablets. Prescribing information. Revised 4/2024. DailyMed. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a60cc18b-0631-4cf0-b021-9f52224ece65",
+   "version_or_date": "Revised 4/2024",
+   "retrieved_with": "WebFetch of DailyMed label (drugInfo.cfm or fdaDrugXsl.cfm view of the same setid); URL found via WebSearch",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source. Replaces the unsourced '1 in 10,000 patient-years' figure (cut) and the statin intensity table doses (now label dose ranges and label LDL changes). Table values transcribed as reported by the fetch tool.",
+   "claims": [
+    {
+     "text": "Dose range 10 to 80 mg once daily",
+     "quote": "The dosage range is 10 mg to 80 mg once daily.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "LDL -39% (10 mg) to -60% (80 mg)",
+     "quote": "Table 8 adjusted mean % change from baseline in LDL-C: placebo 4; 10 mg -39; 20 mg -43; 40 mg -50; 80 mg -60",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "HMG-CoA reductase inhibitor; increases hepatic LDL receptors",
+     "quote": "LIPITOR is a selective, competitive inhibitor of HMG-CoA reductase, the rate-limiting enzyme ... by increasing the number of hepatic LDL receptors on the cell surface to enhance uptake and catabolism of LDL",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Myopathy risk factors",
+     "quote": "Risk factors for myopathy include age 65 years or greater, uncontrolled hypothyroidism, renal impairment, concomitant use with certain other drugs (including other lipid-lowering therapies), and higher LIPITOR dosage",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Rhabdomyolysis can cause acute kidney injury and rare deaths",
+     "quote": "Acute kidney injury secondary to myoglobinuria and rare fatalities have occurred as a result of rhabdomyolysis",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Report unexplained muscle pain; discontinue if markedly elevated CK or myopathy",
+     "quote": "Instruct patients to promptly report any unexplained muscle pain, tenderness or weakness ... Discontinue LIPITOR if markedly elevated CK levels occur or if myopathy is either diagnosed or suspected.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "kind": "label",
+   "cited_as": "AstraZeneca Pharmaceuticals LP. CRESTOR (rosuvastatin) tablets. Prescribing information. Revised 9/2026. DailyMed. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee",
+   "version_or_date": "Revised 9/2026",
+   "retrieved_with": "WebFetch of DailyMed label (drugInfo.cfm or fdaDrugXsl.cfm view of the same setid); URL found via WebSearch",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source; table values transcribed as reported by the fetch tool.",
+   "claims": [
+    {
+     "text": "Dose range 5 to 40 mg once daily",
+     "quote": "The dosage range for CRESTOR is 5 to 40 mg orally once daily.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "LDL -45% at 5 mg to -63% at 40 mg (Week 6)",
+     "quote": "Table 10, Lipid-Modifying Effect of CRESTOR in Adult Patients with Hypercholesterolemia (Adjusted Mean % Change from Baseline at Week 6): placebo -7%; 5 mg -45%; 10 mg -52%; 20 mg -55%; 40 mg -63%",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "kind": "label",
+   "cited_as": "Organon LLC. ZOCOR (simvastatin) tablets. Prescribing information. Revised 8/2023. DailyMed. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9",
+   "version_or_date": "Revised 8/2023",
+   "retrieved_with": "WebFetch of DailyMed label (drugInfo.cfm or fdaDrugXsl.cfm view of the same setid); URL found via WebSearch",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source. The 20 mg and 40 mg figures come from different studies in the label table.",
+   "claims": [
+    {
+     "text": "Usual range 20 to 40 mg; 80 mg restricted",
+     "quote": "The recommended dosage range of ZOCOR is 20 mg to 40 mg once daily. ... An 80 mg daily dosage of ZOCOR is restricted to patients who have been taking simvastatin 80 mg daily chronically (e.g., for 12 months or more) without evidence of muscle toxicity",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "LDL -38% at 20 mg, -41% at 40 mg",
+     "quote": "ZOCOR 20 mg once at night | 2221 | -28% | -38% ... ZOCOR 40 mg once at night | 433 | -31% | -41%",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "kind": "label",
+   "cited_as": "Aurobindo Pharma Limited. Pravastatin sodium tablets. Prescribing information. Revised 12/2024. DailyMed. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b06ed801-ddee-4f56-924a-59fcb451eae6",
+   "version_or_date": "Revised 12/2024 (Aurobindo generic label)",
+   "retrieved_with": "WebFetch of DailyMed label (drugInfo.cfm or fdaDrugXsl.cfm view of the same setid); URL found via WebSearch",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source. LDL-C is the second column; 10 mg figure from an 8-week study, 80 mg from a 6-week pooled analysis. Old table listed pravastatin 10-20 mg and lovastatin 20 mg as low intensity; lovastatin cut (label not retrieved).",
+   "claims": [
+    {
+     "text": "Recommended starting dose 40 to 80 mg",
+     "quote": "The recommended starting dosage is pravastatin sodium tablets 40 mg to 80 mg once daily.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "LDL -22% at 10 mg to -37% at 80 mg",
+     "quote": "10 mg (N=18) | -16% | -22% | +7% | -15% ... 80 mg (N=277) | -27% | -37% | +3% | -19%",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "kind": "journal",
+   "cited_as": "Herrett E, Williamson E, Brack K, et al. Statin treatment and muscle symptoms: series of randomised, placebo controlled n-of-1 trials. BMJ. 2021;372:n135. Randomized controlled trial. PMID 33627334.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33627334/",
+   "pmid": "33627334",
+   "pmcid": "PMC7903384",
+   "doi": "10.1136/bmj.n135",
+   "record_title": "Statin treatment and muscle symptoms: series of randomised, placebo controlled n-of-1 trials.",
+   "record_journal": "BMJ",
+   "record_year": "2021",
+   "article_type": "Journal Article; Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New primary source for StatinWISE.",
+   "claims": [
+    {
+     "text": "200 people who stopped/considered stopping statins for muscle symptoms; six 2-month blinded periods of atorvastatin 20 mg or placebo",
+     "quote": "200 participants who had recently stopped or were considering stopping treatment with statins because of muscle symptoms. ... six double blinded treatment periods (two months each) of atorvastatin 20 mg daily or placebo.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No overall difference in muscle symptom scores",
+     "quote": "Overall, no difference in muscle symptom scores was found between the statin and placebo periods",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "kind": "label",
+   "cited_as": "Sanofi-Aventis U.S. LLC. PRALUENT (alirocumab) injection. Prescribing information. Revised 10/2025. DailyMed. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=446f6b5c-0dd4-44ff-9bc2-c2b41f2806b4",
+   "version_or_date": "Revised 10/2025",
+   "retrieved_with": "WebFetch of DailyMed label (drugInfo.cfm or fdaDrugXsl.cfm view of the same setid); URL found via WebSearch",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source.",
+   "claims": [
+    {
+     "text": "LDL 58% more than placebo at 24 weeks",
+     "quote": "At week 24, the treatment difference between PRALUENT and placebo in mean LDL-C percent change was -58%",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "ODYSSEY OUTCOMES reduced primary composite",
+     "quote": "PRALUENT significantly reduced the risk for the primary composite endpoint (time to first occurrence of coronary heart disease death, non-fatal myocardial infarction, fatal and non-fatal ischemic stroke",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Indications: reduce MACE in adults at increased risk; LDL in hypercholesterolemia, HeFH, HoFH",
+     "quote": "To reduce the risk of major adverse cardiovascular (CV) events ... in adults at increased risk for these events. ... adults with hypercholesterolemia.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Starting dose 75 mg every 2 weeks or 300 mg every 4 weeks",
+     "quote": "The recommended starting dosage of PRALUENT is either 75 mg once every 2 weeks or 300 mg once every 4 weeks administered subcutaneously.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "kind": "journal",
+   "cited_as": "Nissen SE, Lincoff AM, Brennan D, et al. Bempedoic Acid and Cardiovascular Outcomes in Statin-Intolerant Patients. New England Journal of Medicine. 2023;388(15):1353-1364. Randomized controlled trial (CLEAR Outcomes). PMID 36876740.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36876740/",
+   "pmid": "36876740",
+   "doi": "10.1056/NEJMoa2215024",
+   "record_title": "Bempedoic Acid and Cardiovascular Outcomes in Statin-Intolerant Patients.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2023",
+   "article_type": "Randomized Controlled Trial; Journal Article",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Primary CLEAR Outcomes report; replaces the JAMA Cardiology prespecified analysis (Nicholls 2024, old ref 3, printed co-authors were wrong). hsCRP 22.2% figure cut (not in this abstract).",
+   "claims": [
+    {
+     "text": "13,970 statin-intolerant patients; 180 mg daily",
+     "quote": "patients who were unable or unwilling to take statins owing to unacceptable adverse effects ... oral bempedoic acid, 180 mg daily ... A total of 13,970 patients underwent randomization",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "LDL 21.1 percentage points lower at 6 months",
+     "quote": "after 6 months ... the observed difference in the percent reductions was 21.1 percentage points in favor of bempedoic acid",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "MACE-4 11.7% vs 13.3%, HR 0.87",
+     "quote": "819 patients [11.7%] vs. 927 [13.3%]; hazard ratio, 0.87; 95% confidence interval [CI], 0.79 to 0.96; P = 0.004",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Gout 3.1% vs 2.1%; cholelithiasis 2.2% vs 1.2%",
+     "quote": "The incidences of gout and cholelithiasis were higher with bempedoic acid than with placebo (3.1% vs. 2.1% and 2.2% vs. 1.2%, respectively)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Low incidence of muscle-related adverse events",
+     "quote": "is associated with a low incidence of muscle-related adverse events",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "kind": "label",
+   "cited_as": "Amarin Pharma Inc. VASCEPA (icosapent ethyl) capsules. Prescribing information. Revised 3/2026. DailyMed. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c1a2828-1583-4414-ab22-a60480e8e508",
+   "version_or_date": "Revised 3/2026",
+   "retrieved_with": "WebFetch of DailyMed label (drugInfo.cfm or fdaDrugXsl.cfm view of the same setid); URL found via WebSearch",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source for formerly uncited REDUCE-IT claims. Old '25%' and 'TG 135-499' wording replaced by label HR and label indication; 'does not raise LDL' and 'standard fish oil has not shown benefit' cut.",
+   "claims": [
+    {
+     "text": "REDUCE-IT HR 0.75 for primary composite; median 4.9 years",
+     "quote": "VASCEPA significantly reduced the risk for the primary composite endpoint ... Table 1: 0.75 (0.68, 0.83) ... The median follow-up duration was 4.9 years.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most patients on moderate or high-intensity statin",
+     "quote": "Most patients were taking moderate-intensity (63%) or high-intensity (31%) statin therapy at baseline.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "4 g/day as two 1 g capsules twice daily with food",
+     "quote": "The daily dose of VASCEPA is 4 grams per day taken as either: two 1 gram capsules twice daily with food",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Indications: TG >=150 with CVD or diabetes + 2 risk factors on max statin; severe TG >=500 adjunct to diet",
+     "quote": "as an adjunct to maximally tolerated statin therapy ... elevated triglyceride (TG) levels (≥ 150 mg/dL) and established cardiovascular disease or diabetes mellitus and 2 or more additional risk factors ... as an adjunct to diet to reduce TG levels in adult patients with severe (≥ 500 mg/dL) hypertriglyceridemia.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "kind": "journal",
+   "cited_as": "Ras RT, Geleijnse JM, Trautwein EA. LDL-cholesterol-lowering effect of plant sterols and stanols across different dose ranges: a meta-analysis of randomised controlled studies. British Journal of Nutrition. 2014;112(2):214-219. PMID 24780090.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24780090/",
+   "pmid": "24780090",
+   "pmcid": "PMC4071994",
+   "doi": "10.1017/S0007114514000750",
+   "record_title": "LDL-cholesterol-lowering effect of plant sterols and stanols across different dose ranges: a meta-analysis of randomised controlled studies.",
+   "record_journal": "Br J Nutr",
+   "record_year": "2014",
+   "article_type": "Journal Article; Meta-Analysis; Comparative Study",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source. Two of three authors are affiliated with Unilever R&D (industry); noted for the reviewer.",
+   "claims": [
+    {
+     "text": "0.6 to 3.3 g/day lowers LDL 6% to 12% on average",
+     "quote": "PS intakes of 0.6-3.3 g/d were found to gradually reduce LDL-cholesterol concentrations by, on average, 6-12%.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "kind": "agency_page",
+   "cited_as": "National Center for Complementary and Integrative Health (NCCIH). 8 Tips: High Cholesterol and Dietary Supplements. Site last updated October 6, 2026. Accessed November 15, 2026.",
+   "url": "https://www.nccih.nih.gov/health/tips/high-cholesterol-and-dietary-supplements?nav=govd",
+   "version_or_date": "Site last updated October 6, 2026",
+   "retrieved_with": "WebFetch of official page (excerpts limited to 125 characters by the tool)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source. Correction: old text said garlic 'has no meaningful effect'; NCCIH says its effect is modest.",
+   "claims": [
+    {
+     "text": "Red yeast rice: monacolin K identical to lovastatin; may contain citrinin",
+     "quote": "Some red yeast rice products contain monacolin K, which is chemically identical to the cholesterol-lowering drug lovastatin. ... Red yeast rice products may also be contaminated with citrinin, a substance that may cause kidney damage.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Garlic effect modest",
+     "quote": "Garlic supplements may lower cholesterol levels, but their effect is modest",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "kind": "journal",
+   "cited_as": "Beheshti SO, Madsen CM, Varbo A, Nordestgaard BG. Worldwide Prevalence of Familial Hypercholesterolemia: Meta-Analyses of 11 Million Subjects. Journal of the American College of Cardiology. 2020;75(20):2553-2566. PMID 32439005.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32439005/",
+   "pmid": "32439005",
+   "doi": "10.1016/j.jacc.2020.03.057",
+   "record_title": "Worldwide Prevalence of Familial Hypercholesterolemia: Meta-Analyses of 11 Million Subjects.",
+   "record_journal": "J Am Coll Cardiol",
+   "record_year": "2020",
+   "article_type": "Journal Article; Meta-Analysis; Systematic Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source for formerly uncited FH claims. '1 in 250' corrected to 1 in 313; '<10% diagnosed in the U.S.', 'LDL 190+ from childhood', 'heart disease in 30s or 40s' and the 55/65 family-history ages were cut (not retrieved). Scite contrasting flag notes higher FH variant prevalence in some Asian groups; page does not claim uniform prevalence.",
+   "claims": [
+    {
+     "text": "FH about 1 in 313 in general population",
+     "quote": "0.32% (95% confidence interval [CI]: 0.26% to 0.39% [corresponding to 1:313]) among 10,921,310 unique subjects in the general population",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "About 1 in 15 with premature IHD; 1 in 14 with severe hypercholesterolemia (LDL >=190)",
+     "quote": "6.7% (95% CI: 4.9% to 8.7% [1:15]) among 31,316 unique subjects with premature IHD ... 7.2% (95% CI: 4.6% to 10.8% [1:14]) among 17,728 unique subjects with severe hypercholesterolemia",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prevalence unknown in most countries",
+     "quote": "The prevalence of FH is unknown in 90% of countries in the world.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

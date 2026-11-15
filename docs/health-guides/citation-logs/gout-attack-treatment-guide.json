@@ -1,0 +1,694 @@
+{
+ "guide": "gout-attack-treatment-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 8 verified, retractions: none",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "FitzGerald JD, Dalbeth N, Mikuls T, et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res. 2020;72(6):744-760.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/",
+   "pmid": "32391934",
+   "pmcid": "PMC10563586",
+   "doi": "10.1002/acr.24180",
+   "record_title": "2020 American College of Rheumatology Guideline for the Management of Gout.",
+   "record_journal": "Arthritis Care Res (Hoboken)",
+   "record_year": "2020",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "2020 ACR guideline (published May 2020); PMC full text read 2026-11-15",
+   "retrieved_with": "PubMed connector get_article_metadata + get_full_text_article (PMC full text)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite verify_papers 2026-11-15: verified, no editorial notices; one contrasting citation statement (dialysis ULT deprescribing) does not bear on any claim here. PubMed article types: no Retracted Publication or Retraction Notice. Full-text extraction drops some bolded words (e.g. 'against' in the aspirin recommendation) and leaves empty citation parentheses; only passages with unambiguous meaning were quoted.",
+   "claims": [
+    {
+     "text": "Colchicine, an NSAID or an oral corticosteroid are the three first-line flare treatments, strongly recommended",
+     "quote": "Using colchicine, NSAIDs, or glucocorticoids (oral, intraarticular, or intramuscular) as appropriate first-line therapy for gout flares over IL-1 inhibitors or adrenocorticotropic hormone (ACTH) is strongly recommended",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Guideline does not rank the three; choice driven by patient factors (other conditions, access, past experience)",
+     "quote": "the Voting Panel did not further prioritize between the first-line agents, noting that treatment selection should be driven by patient factors (e.g., comorbidity, access, past experience)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lowering urate is a separate job; the guideline cautions against conflating flare management and ULT",
+     "quote": "the possibility of information over-load for patients, which may lead to conflating flare management and long-term ULT",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "First-line drugs work particularly well when given early after symptom onset",
+     "quote": "tolerability of these agents in flare management, particularly when administered early after symptom onset",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "FDA-approved colchicine flare dosing (1.2 mg then 0.6 mg an hour later) should be followed",
+     "quote": "For colchicine specifically, the FDA-approved dosing should be followed (1.2 mg immediately followed by 0.6 mg an hour later, with ongoing antiinflammatory therapy until the flare resolves).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Low-dose over high-dose colchicine strongly recommended",
+     "quote": "Given similar efficacy and a lower risk of adverse effects, low-dose colchicine over high-dose colchicine is strongly recommended when colchicine is the chosen agent.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dose and duration chosen partly by flare severity",
+     "quote": "Appropriate dosing and duration should be guided by the severity of the flare.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Topical ice conditionally recommended as an adjunct to first-line medicine",
+     "quote": "Using topical ice as an adjuvant treatment over no adjuvant treatment is conditionally recommended for patients experiencing a gout flare.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Supporting data for ice are limited",
+     "quote": "Noting limited supporting data (), the Voting Panel recommended the use of topical ice as an adjuvant therapy for flares.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Limiting alcohol conditionally recommended for everyone with gout",
+     "quote": "Limiting alcohol intake is conditionally recommended for patients with gout, regardless of disease activity.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "More than 1 to 2 drinks in prior 24 hours linked to 40 percent higher flare risk",
+     "quote": "consuming >1–2 alcoholic beverage servings in the prior 24 hours was associated with a 40% higher risk of gout flare than periods without alcohol consumption",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prophylaxis strongly recommended when starting ULT; options include colchicine, NSAID, prednisone or prednisolone",
+     "quote": "Administering concomitant antiinflammatory prophylaxis therapy (e.g., colchicine, nonsteroidal antiinflammatory drugs [NSAIDs], prednisone/prednisolone) over no antiinflammatory prophylaxis therapy is strongly recommended.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prophylaxis for at least 3 to 6 months",
+     "quote": "When initiating ULT, concomitant antiinflammatory prophylaxis therapy for a duration of at least 3-6 months was strongly recommended.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "When ULT is indicated, starting it during the flare conditionally recommended over waiting",
+     "quote": "When the decision is made that ULT is indicated while the patient is experiencing a gout flare, starting ULT during the gout flare over starting ULT after the gout flare has resolved is conditionally recommended.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "ULT for tophi, radiographic damage, or 2 or more flares a year",
+     "quote": "Initiating ULT is strongly recommended for gout patients with any of the following: ≥1 subcutaneous tophi; evidence of radiographic damage (any modality) attributable to gout; OR frequent gout flares, with frequent being defined as ≥2 annually.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Allopurinol preferred; treat-to-target below 6 mg/dL",
+     "quote": "a treat-to-target management strategy with ULT dose titration guided by serial serum urate (SU) measurements, with an SU target of <6 mg/dl",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "ULT reduces flare frequency and tophi",
+     "quote": "there was high certainty of evidence regarding the efficacy of ULT in reducing flare frequency (–), tophi (,), and SU concentrations (–)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Weight loss program if overweight conditionally recommended",
+     "quote": "Using a weight loss program (no specific program endorsed) is conditionally recommended for those patients with gout who are overweight/obese, regardless of disease activity.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Limiting high-fructose corn syrup conditionally recommended",
+     "quote": "Limiting high-fructose corn syrup intake is conditionally recommended for patients with gout, regardless of disease activity.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Joint injection and oral steroids are both first-line options (FAQ)",
+     "quote": "glucocorticoids (oral, intraarticular, or intramuscular) as appropriate first-line therapy for gout flares",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "journal",
+   "cited_as": "Terkeltaub RA, Furst DE, Bennett K, Kook KA, Crockett RS, Davis MW. High versus low dosing of oral colchicine for early acute gout flare. Arthritis Rheum. 2010;62(4):1060-1068.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20131255/",
+   "pmid": "20131255",
+   "doi": "10.1002/art.27327",
+   "record_title": "High versus low dosing of oral colchicine for early acute gout flare: Twenty-four-hour outcome of the first multicenter, randomized, double-blind, placebo-controlled, parallel-group, dose-comparison colchicine study.",
+   "record_journal": "Arthritis Rheum",
+   "record_year": "2010",
+   "article_type": "Journal Article; Multicenter Study; Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only; claims limited to the abstract. Scite verify_papers 2026-11-15: verified, no editorial notices. PubMed article types: no retraction. The 1.2 mg then 0.6 mg split comes from the label [4]; the abstract states the 1.8 mg total over 1 hour.",
+   "claims": [
+    {
+     "text": "Low dose 1.8 mg over 1 hour vs high dose 4.8 mg over 6 hours",
+     "quote": "self-administered low-dose colchicine (1.8 mg total over 1 hour) and high-dose colchicine (4.8 mg total over 6 hours)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Low dose matched high dose for 24-hour pain relief with far fewer side effects",
+     "quote": "Low-dose colchicine yielded both maximum plasma concentration and early gout flare efficacy comparable with that of high-dose colchicine, with a safety profile indistinguishable from that of placebo.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Endpoint: at least 50 percent pain reduction at 24 hours without rescue medicine",
+     "quote": "The primary end point was > or = 50% pain reduction at 24 hours without rescue medication.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "37.8% low dose, 32.7% high dose, 15.5% placebo responders",
+     "quote": "Responders included 28 of 74 patients (37.8%) in the low-dose group, 17 of 52 patients (32.7%) in the high-dose group, and 9 of 58 patients (15.5%) in the placebo group",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Diarrhea 76.9% and vomiting with high dose",
+     "quote": "With high-dose colchicine, 40 patients (76.9%) had diarrhea (OR 21.3 [95% CI 7.9-56.9]), 10 (19.2%) had severe diarrhea, and 9 (17.3%) had vomiting.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Diarrhea 23% with low dose, no vomiting",
+     "quote": "With low-dose colchicine, 23.0% of the patients had diarrhea (OR 1.9 [95% CI 0.8-4.8]), none had severe diarrhea, and none had vomiting.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "Janssens HJ, Janssen M, van de Lisdonk EH, van Riel PL, van Weel C. Use of oral prednisolone or naproxen for the treatment of gout arthritis: a double-blind, randomised equivalence trial. Lancet. 2008;371(9627):1854-1860.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18514729/",
+   "pmid": "18514729",
+   "doi": "10.1016/S0140-6736(08)60799-0",
+   "record_title": "Use of oral prednisolone or naproxen for the treatment of gout arthritis: a double-blind, randomised equivalence trial.",
+   "record_journal": "Lancet",
+   "record_year": "2008",
+   "article_type": "Journal Article; Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. Scite verify_papers 2026-11-15: verified, no editorial notices. PubMed article types: no retraction. 'Over five days' changed to 'over four days' to match the abstract's conclusion.",
+   "claims": [
+    {
+     "text": "Prednisolone and naproxen equally effective over four days",
+     "quote": "Oral prednisolone and naproxen are equally effective in the initial treatment of gout arthritis over 4 days.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Doses: prednisolone 35 mg once daily vs naproxen 500 mg twice daily for 5 days, masked",
+     "quote": "prednisolone (35 mg once a day; n=60) or naproxen (500 mg twice a day; n=60), for 5 days. Treatment was masked for both patients and physicians.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pain reduction at 90 hours 44.7 mm vs 46.0 mm",
+     "quote": "After 90 h the reduction in the pain score was 44.7 mm and 46.0 mm for prednisolone and naproxen, respectively (difference 1.3 mm; 95% CI -9.8 to 7.1), suggesting equivalence.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "NSAIDs and colchicine carry GI, kidney, CV risks; corticosteroid a useful alternative (and table 'kidney disease' fit)",
+     "quote": "Non-steroidal anti-inflammatory drugs and colchicine used to treat gout arthritis have gastrointestinal, renal, and cardiovascular adverse effects. Systemic corticosteroids might be a beneficial alternative.",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Side effects similar, minor, resolved by 3 weeks",
+     "quote": "Adverse effects were similar between groups, minor, and resolved by 3 week follow-up.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "label",
+   "cited_as": "AR Scientific Inc. COLCRYS (colchicine) tablet, film coated: prescribing information. DailyMed. Revised March 2012.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5ecaa34e-1bed-49a5-b97c-a8f8c0d885a7",
+   "version_or_date": "DailyMed: Updated March 15, 2012; Revised 3/2012; read 2026-11-15",
+   "retrieved_with": "WebFetch of DailyMed search (query COLCRYS) and drugInfo setid page (two reads); direct download refused by the session proxy",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces dead setid 8a5edd42-... and the wrong labeler ('U.S. Food and Drug Administration', 'Updated 2024'). DailyMed search lists AR Scientific as the source labeler; the other three COLCRYS entries are repackagers. The DailyMed COLCRYS label is dated 2012, flagged for Parth. Quotes come from WebFetch extraction; the strong CYP3A4 inhibitor drug names come from Table 1 entries as extracted, not a running sentence. The last ~5.8k characters of the page were not read.",
+   "claims": [
+    {
+     "text": "Colchicine is not a general painkiller",
+     "quote": "COLCRYS is not an analgesic medication and should not be used to treat pain from other causes.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Flare dose 1.2 mg at first sign then 0.6 mg one hour later",
+     "quote": "1.2 mg (2 tablets) at the first sign of the flare followed by 0.6 mg (1 tablet) one hour later.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Maximum 1.8 mg over one hour",
+     "quote": "The maximum recommended dose for treatment of gout flares is 1.8 mg over a 1 hour period.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prophylaxis 0.6 mg once or twice daily",
+     "quote": "The recommended dosage of COLCRYS for prophylaxis of gout flares for adults and adolescents older than 16 years of age ... 0.6 mg once or twice daily.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fatal toxicity reported with clarithromycin (strong CYP3A4 inhibitor) and cyclosporine (P-gp inhibitor)",
+     "quote": "fatal colchicine toxicity has been reported with clarithromycin, a strong CYP3A4 inhibitor. ... fatal colchicine toxicity has been reported with cyclosporine, a P-gp inhibitor.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Strong CYP3A4 inhibitors (incl. ketoconazole, itraconazole, ritonavir): flare dose 0.6 mg then 0.3 mg one hour later, repeat no sooner than 3 days",
+     "quote": "0.6 mg (1 tablet) × 1 dose, followed by 0.3 mg (1/2 tablet) 1 hour later. Dose to be repeated no earlier than 3 days.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Kidney or liver impairment: not with P-gp or strong CYP3A4 inhibitors",
+     "quote": "Patients with renal or hepatic impairment should not be given COLCRYS in conjunction with P-gp or strong CYP3A4 inhibitors",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Avoid grapefruit juice",
+     "quote": "Grapefruit and grapefruit juice may also interact and should not be consumed during COLCRYS treatment.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dialysis: single 0.6 mg dose for a flare",
+     "quote": "the total recommended dose for the treatment of gout flares should be reduced to a single dose of 0.6 mg (1 tablet).",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Colchicine not a controlled substance; no DEA schedule",
+     "quote": "DEA Schedule: None",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Newberry SJ, FitzGerald JD, Motala A, et al. Diagnosis of Gout: A Systematic Review in Support of an American College of Physicians Clinical Practice Guideline. Ann Intern Med. 2017;166(1):27-36.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27802505/",
+   "pmid": "27802505",
+   "doi": "10.7326/M16-0462",
+   "record_title": "Diagnosis of Gout: A Systematic Review in Support of an American College of Physicians Clinical Practice Guideline.",
+   "record_journal": "Ann Intern Med",
+   "record_year": "2017 (epub 2016-11-01)",
+   "article_type": "Journal Article; Systematic Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. Scite verify_papers 2026-11-15: verified, no editorial notices. Now cited only for joint-fluid crystals as the reference standard; septic-arthritis and red-flag claims moved to MedlinePlus [10].",
+   "claims": [
+    {
+     "text": "Crystal analysis of joint fluid is the reference test for gout",
+     "quote": "compared with that of a reference standard of MSU crystals in joint aspirate for diagnosing gout",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "First-ever or atypical joint should be seen in person because joint fluid aspiration is part of confirming gout",
+     "quote": "To summarize evidence regarding the accuracy of clinical tests and classification algorithms compared with that of a reference standard of MSU crystals in joint aspirate for diagnosing gout.",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Taylor TH, Mecchella JN, Larson RJ, Kerin KD, Mackenzie TA. Initiation of allopurinol at first medical contact for acute attacks of gout: a randomized clinical trial. Am J Med. 2012;125(11):1126-1134.e7.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23098865/",
+   "pmid": "23098865",
+   "doi": "10.1016/j.amjmed.2012.05.025",
+   "record_title": "Initiation of allopurinol at first medical contact for acute attacks of gout: a randomized clinical trial.",
+   "record_journal": "Am J Med",
+   "record_year": "2012",
+   "article_type": "Journal Article; Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. Scite verify_papers 2026-11-15: verified, no editorial notices. Pages corrected .e1 -> .e7. No longer cited for 'do not stop ULT during a flare' (the trial did not study stopping ULT).",
+   "claims": [
+    {
+     "text": "57 men with crystal-proven gout; all received indomethacin and colchicine",
+     "quote": "A total of 57 men with crystal-proven gout were randomized to allopurinol 300 mg daily or matching placebo for 10 days. All subjects received indomethacin 50 mg 3 times per day for 10 days, a prophylactic dose of colchicine",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Starting allopurinol during the attack: no significant difference in pain, flares or inflammatory markers",
+     "quote": "Allopurinol initiation during an acute gout attack caused no significant difference in daily pain, recurrent flares, or inflammatory markers.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Stamp L, Horne A, Mihov B, Drake J, Haslett J, Chapman PT, et al. Is colchicine prophylaxis required with start-low go-slow allopurinol dose escalation in gout? Ann Rheum Dis. 2023;82(12):1626-1634.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37652661/",
+   "pmid": "37652661",
+   "doi": "10.1136/ard-2023-224731",
+   "record_title": "Is colchicine prophylaxis required with start-low go-slow allopurinol dose escalation in gout? A non-inferiority randomised double-blind placebo-controlled trial.",
+   "record_journal": "Ann Rheum Dis",
+   "record_year": "2023",
+   "article_type": "Randomized Controlled Trial; Journal Article; Equivalence Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. Scite verify_papers 2026-11-15: verified, no editorial notices. The guide previously reversed this trial's result; rewritten to the abstract's findings.",
+   "claims": [
+    {
+     "text": "200 adults starting start-low go-slow allopurinol; colchicine 0.5 mg daily vs placebo for 6 months",
+     "quote": "Participants were randomised 1:1 to colchicine 0.5 mg daily or placebo for the first 6 months. All participants commenced allopurinol, increasing monthly to achieve target urate",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "200 participants randomised",
+     "quote": "Two hundred participants were randomised.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Flares 0.35 vs 0.61 per month in first 6 months",
+     "quote": "The mean (95% CI) number of gout flares/month between baseline and month 6 was 0.61 (0.47 to 0.74) in the placebo group compared with 0.35 (0.22 to 0.49) in the colchicine group",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Placebo not non-inferior; flares rose after stopping colchicine; no 12-month difference",
+     "quote": "Placebo is not non-inferior to colchicine in prevention of gout flares in the first 6 months of starting allopurinol using the 'start-low go-slow' strategy. After stopping colchicine, gout flares rise",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Serious adverse events 11 in 7 with colchicine vs 3 in 2 with placebo",
+     "quote": "There were 11 serious adverse events in 7 participants receiving colchicine and 3 in 2 receiving placebo.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "guideline",
+   "cited_as": "Khanna D, Khanna PP, Fitzgerald JD, et al. 2012 American College of Rheumatology guidelines for management of gout. Part 2: therapy and antiinflammatory prophylaxis of acute gouty arthritis. Arthritis Care Res. 2012;64(10):1447-1461.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23024029/",
+   "pmid": "23024029",
+   "pmcid": "PMC3662546",
+   "doi": "10.1002/acr.21773",
+   "record_title": "2012 American College of Rheumatology guidelines for management of gout. Part 2: therapy and antiinflammatory prophylaxis of acute gouty arthritis.",
+   "record_journal": "Arthritis Care Res (Hoboken)",
+   "record_year": "2012",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "2012 ACR guideline (flare-management parts partly superseded by the 2020 guideline); PMC full text read 2026-11-15",
+   "retrieved_with": "PubMed connector get_article_metadata + get_full_text_article (PMC full text)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source. Added because the 2020 guideline does not state the 24-hour window, continuing ULT during a flare, NSAID full dosing, oral steroid regimens, comorbidity cautions or the 36-hour colchicine limit. Scite verify_papers 2026-11-15: verified, no editorial notices. PubMed article types: no retraction.",
+   "claims": [
+    {
+     "text": "Start within 24 hours, based on consensus that early treatment improves patient-reported outcomes",
+     "quote": "treatment should be preferentially initiated within 24 hours of onset of an acute gout attack (Evidence C). The latter recommendation was based on consensus that early treatment lead to better patient reported outcomes.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Treat every attack with medicine",
+     "quote": "The TFP recommended that an acute gouty arthritis attack should be treated with pharmacologic therapy (Evidence C)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Continue established ULT without interruption during an attack",
+     "quote": "The TFP also recommended to continue established pharmacologic ULT without interruption, during an acute attack of gout (Evidence C); ie, do not stop ULT therapy during an acute attack.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Teach patients to start treatment at first signs without consulting each time (FAQ and telehealth framing; video-visit suitability is the guide's own framing)",
+     "quote": "providing the patients with instruction so that they can initiate treatment upon signs and symptoms of an acute gout attack, without need to consult their health care practitioner for each attack",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Conditions that shape the choice: kidney disease, heart failure, peptic ulcer, blood thinners, diabetes",
+     "quote": "underlying moderate and severe CKD (NSAIDs, COX-2 inhibitors, colchicine), congestive heart failure (NSAIDs, COX-2 inhibitors), peptic ulcer disease (NSAIDs, COX-2 inhibitors, corticosteroids), anticoagulation or anti-platelet aggregation therapy (NSAIDs), diabetes (corticosteroids)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Infection and liver disease cautions",
+     "quote": "ongoing infection or high risk of infection (corticosteroids), and hepatic disease (NSAIDs. COX-2 inhibitors, colchicine)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "FDA-approved NSAIDs for acute gout: naproxen, indomethacin, sulindac",
+     "quote": "The FDA has approved naproxen (Evidence A) (,), indomethacin (Evidence A) (,,,), and sulindac (Evidence B) () for the treatment of acute gout.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Other NSAIDs at anti-inflammatory doses may be as effective",
+     "quote": "However, analgesic and anti-inflammatory doses of other NSAIDs may be as effective (Evidence B–C).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "No preferred NSAID",
+     "quote": "The TFP did not reach a consensus to preferentially recommend any one specific NSAID as first line treatment.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "NSAID full dose until attack completely resolves",
+     "quote": "The TFP did recommend continuing the initial NSAID inhibitor treatment regimen at full dose (if appropriate) until the acute gouty attack completely resolved (Evidence C).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Option to taper NSAID with several conditions or kidney or liver impairment",
+     "quote": "The option to taper the dose in patients with multiple comorbidities/ hepatic or renal impairment was reinforced by the TFP",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Colchicine only for flares that began no more than 36 hours earlier",
+     "quote": "The TFP recommended oral colchicine as one of the appropriate primary modality options to treat acute gout, but only for gout attacks where the onset was no greater than 36 hours prior to treatment initiation",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Oral prednisone or prednisolone at least 0.5 mg/kg/day for 5-10 days then stop",
+     "quote": "prednisone or prednisolone at a starting dose of at least 0.5 mg/kg per day for 5–10 days, followed by discontinuation (Evidence A)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Or 2-5 days at full dose then 7-10 day taper",
+     "quote": "or alternately 2–5 days at full dose, followed by tapering for 7–10 days, and then discontinuation (Evidence C)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Intra-articular steroid for 1-2 large joints, dosed by joint size, combinable with other first-line drugs",
+     "quote": "dosing be based on the size of the involved joint(s), and that this modality could be used in combination () with oral corticosteroids, NSAIDs, or colchicine",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Intra-articular corticosteroid option for 1 to 2 large joints",
+     "quote": "the TFP additionally recommended the option of intra-articular corticosteroids for acute gout of 1–2 large joints (Evidence B;)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Injection for one or two large joints; oral steroids when injection impractical (many joints, patient preference)",
+     "quote": "Where intra-articular joint injection is impractical (e g. polyarticular joint involvement, patient preference, or injection is not in the scope of provider’s usual practice) the TFP recommended oral corticosteroids",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Monotherapy for mild to moderate attacks; combinations such as colchicine with NSAIDs for severe or multi-joint attacks",
+     "quote": "the TFP recommended the option to use combinations of colchicine and NSAIDs, oral corticosteroids and colchicine, or intra-articular steroids with any of the other modalities (Evidence C)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Combination therapy reserved for severe or polyarticular attacks",
+     "quote": "For patients with severe acute gout attack (≥ 7/10 on 0–10 pain VAS), and patients with an acute polyarthritis or involvement of more than one large joint",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ice is the recommended home measure, an add-on to medicine (neither ACR text read this run addresses rest or elevation)",
+     "quote": "The TFP recommended topical ice application to be an appropriate adjunctive measure to one or more pharmacologic therapies for acute gouty arthritis (Evidence B)",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Oral home remedies such as cherry juice, ginger, celery root rated inappropriate",
+     "quote": "The TFP voted, as inappropriate, the use of a variety of oral complementary agents for the treatment of an acute attack (cherry juice or extract, salicylate-rich willow-bark extract, ginger, flaxseed, charcoal",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Flares increase in the early phase of ULT",
+     "quote": "during the initial phase of ULT, there is an early increase in acute gout attacks",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Neogi T, Jansen TL, Dalbeth N, et al. 2015 Gout Classification Criteria: an ACR/EULAR collaborative initiative. Arthritis Rheumatol. 2015;67(10):2557-2568.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26352873/",
+   "pmid": "26352873",
+   "pmcid": "PMC4566153",
+   "doi": "10.1002/art.39254",
+   "record_title": "2015 Gout Classification Criteria: an American College of Rheumatology/European League Against Rheumatism collaborative initiative.",
+   "record_journal": "Arthritis Rheumatol",
+   "record_year": "2015",
+   "article_type": "Consensus Statement; Journal Article; Systematic Review",
+   "retrieved_with": "PubMed connector get_article_metadata + get_full_text_article (PMC full text)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source for the typical time course and symptoms (replacing an unsupported 12 to 24 hour peak and 1 to 2 week course cited to ACR 2020). These are classification criteria; the text notes they are not intended for clinical diagnosis, and the guide presents them as describing a typical episode. Scite verify_papers 2026-11-15: verified, no editorial notices; one contrasting citation statement (amputation risk) does not bear on these claims.",
+   "claims": [
+    {
+     "text": "Typical episode: maximal pain under 24 hours, resolves within 14 days, irrespective of treatment",
+     "quote": "Time course of episode(s) everPresence (ever) of ≥2, irrespective of antiinflammatory treatment: ... • Time to maximal pain <24 hours• Resolution of symptoms in ≤14 days",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Red joint that cannot bear touch, difficulty walking or using the joint",
+     "quote": "• Erythema overlying affected joint (patient‐ reported or physician‐observed)• Can't bear touch or pressure to affected joint• Great difficulty with walking or inability to use affected joint",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Big toe joint the classic site",
+     "quote": "a predilection for lower‐extremity joints, particularly the first metatarsophalangeal joint",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Joint fluid aspiration remains essential to confirming gout (first or atypical flare in person)",
+     "quote": "Thus, in clinical practice, joint or tophus aspiration remains an essential component of establishing a diagnosis of gout.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia (NLM). Septic arthritis. Review date 5/12/2025.",
+   "url": "https://medlineplus.gov/ency/article/000430.htm",
+   "version_or_date": "Review Date 5/12/2025; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source for septic-arthritis red flags, previously cited to the ACP diagnosis review, which does not address them. 'Same-day' urgency wording softened to 'prompt' because the page says 'prompt antibiotic treatment' and 'contact your provider'.",
+   "claims": [
+    {
+     "text": "Fever with joint swelling, usually one joint",
+     "quote": "Symptoms usually come on quickly. There is a fever and joint swelling that is usually in just one joint.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Not able to move the joint",
+     "quote": "Not able to move the limb with the infected joint (pseudoparalysis)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Risk factors: artificial joint, infection elsewhere, immune-suppressing medicines, recent joint injury or surgery",
+     "quote": "Artificial joint implants; Bacterial infection somewhere else in your body; Medicines that suppress your immune system; Recent joint injury; Recent joint arthroscopy or other joint surgery",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prompt treatment; delay can cause permanent joint damage",
+     "quote": "Recovery is good with prompt antibiotic treatment. If treatment is delayed, permanent joint damage may result.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Joint fluid tested for cell count, crystals, Gram stain, culture",
+     "quote": "Aspiration of joint fluid for cell count, examination of crystals under the microscope, Gram stain, and culture",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prompt in-person or emergency evaluation for these signs (urgency is the guide's framing)",
+     "quote": "Contact your provider if you develop symptoms of septic arthritis.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "label",
+   "cited_as": "Prometheus Laboratories Inc. ZYLOPRIM (allopurinol) tablet: prescribing information. DailyMed. Updated November 30, 2009.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=342832b5-1a32-4bea-bc49-ab0fd152154e",
+   "version_or_date": "DailyMed: Updated November 30, 2009; read 2026-11-15",
+   "retrieved_with": "WebFetch of DailyMed drugInfo setid page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source for the allopurinol rash warning, previously cited to the ACP diagnosis review. Label is dated 2009; flagged for Parth. Quotes from WebFetch extraction.",
+   "claims": [
+    {
+     "text": "New rash after starting allopurinol needs prompt attention; label says stop at first rash",
+     "quote": "ZYLOPRIM SHOULD BE DISCONTINUED AT THE FIRST APPEARANCE OF SKIN RASH OR OTHER SIGNS WHICH MAY INDICATE AN ALLERGIC REACTION.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}
