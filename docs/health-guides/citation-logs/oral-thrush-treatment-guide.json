@@ -1,0 +1,798 @@
+{
+ "guide": "oral-thrush-treatment-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 5 verified, retractions: none (no editorial notices; PubMed article types show no Retracted Publication/Retraction Notice; one contrasting citation on ref 1 concerns candidemia catheter management, not relevant)",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "Pappas PG, Kauffman CA, Andes DR, et al. Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America. Clinical Infectious Diseases. 2016;62(4):e1-50. doi:10.1093/cid/civ933.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26679628/",
+   "pmid": "26679628",
+   "pmcid": "PMC4725385",
+   "doi": "10.1093/cid/civ933",
+   "record_title": "Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2016",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "IDSA 2016 update; epub 2015-12-16, issue 2016;62(4):e1-50",
+   "retrieved_with": "PubMed get_article_metadata (abstract is the IDSA disclaimer only); PubMed get_full_text_article returned empty; guideline text read as verbatim full-text excerpts via Scite search_literature (fulltextStatus excerpted, OA) and Scite Smart Citation snippets whose sourceDoi is this guideline",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite verify_papers: verified, no editorial notices; one classifier-flagged contrasting citation (10.1111/myc.12618) concerns catheter removal in candidemia and does not bear on any claim here.",
+   "claims": [
+    {
+     "text": "IDSA treatment courses for oral thrush last 7 to 14 days",
+     "quote": "For mild disease, clotrimazole troches, 10 mg 5 times daily, OR miconazole mucoadhesive buccal 50 mg tablet applied to the mucosal surface over the canine fossa once daily for 7-14 days, are recommended",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Mild disease: clotrimazole troches or miconazole buccal tablet; nystatin suspension 4-6 mL four times daily is an alternative; 7 to 14 days",
+     "quote": "Alternatives for mild disease include nystatin suspension (100 000 U/mL) 4-6 mL 4 times daily, OR 1-2 nystatin pastilles (200 000 U each) 4 times daily, for 7-14 days",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Moderate to severe disease: oral fluconazole 100-200 mg daily for 7 to 14 days (local treatment for mild disease, so a pill is not automatically better)",
+     "quote": "For moderate to severe disease, oral fluconazole, 100-200 mg daily, for 7-14 days is recommended (strong recommendation; high-quality evidence).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Risk factors include antibiotics, steroids, dentures, diabetes, HIV, cancer; thrush is a recognized indicator of immune dysfunction",
+     "quote": "Oropharyngeal and esophageal candidiasis occur in association with HIV infection, diabetes, leukemia and other malignancies, steroid use, radiation therapy, antimicrobial therapy, and denture use [528,529], and their occurrence is recognized as an indicator of immune dysfunction.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "For denture-related thrush, disinfect dentures alongside antifungal treatment",
+     "quote": "For denture-related candidiasis, disinfection of the denture, in addition to antifungal therapy, is recommended (strong recommendation; moderate-quality evidence).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Painful swallowing can mean esophageal involvement; esophageal candidiasis can occur without obvious mouth thrush",
+     "quote": "esophageal candidiasis can present as odynophagia without concomitant oropharyngeal candidiasis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Esophageal candidiasis: systemic antifungal therapy is always required",
+     "quote": "What Is the Treatment for Esophageal Candidiasis? Recommendations 131. Systemic antifungal therapy is always required.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recurrent infections typically occur with persistent immunosuppression; recurrence warrants review rather than automatic repeat antifungals",
+     "quote": "Recurrent infections typically occur in patients who have persistent immunosuppression, especially those who have AIDS and low CD4 cell counts (<50 cells/µL)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Repeated azoles without review are not the default for recurrence",
+     "quote": "Chronic suppressive therapy is usually unnecessary. If required for patients who have recurrent infection, fluconazole, 100 mg 3 times weekly, is recommended",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Infection that does not respond to fluconazole (refractory disease) is a recognized cause of persistence",
+     "quote": "For fluconazole-refractory disease, itraconazole solution, 200 mg once daily OR posaconazole suspension, 400 mg twice daily for 3 days then 400 mg daily, for up to 28 days, are recommended",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Much of the trial evidence comes from people with HIV",
+     "quote": "In a multicenter randomized study among HIVinfected individuals, 50-mg mucoadhesive buccal tablets of miconazole applied once daily to the mucosal surface over the canine fossa were as effective as 10-mg clotrimazole troches used 5 times daily",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Candida cleanse diets are not among IDSA-recommended treatments, which are antifungal medicines",
+     "quote": "For mild disease, clotrimazole troches, 10 mg 5 times daily, OR miconazole mucoadhesive buccal 50 mg tablet applied to the mucosal surface over the canine fossa once daily for 7-14 days, are recommended",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Common regimens per table: clotrimazole 5 times daily 7-14 days; nystatin 4-6 mL four times daily 7-14 days; fluconazole 100-200 mg daily 7-14 days",
+     "quote": "For moderate to severe disease, oral fluconazole, 100-200 mg daily, for 7-14 days is recommended (strong recommendation; high-quality evidence).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "agency_page",
+   "cited_as": "CDC. Candidiasis Basics. Reviewed October 5, 2026. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/candidiasis/about/index.html",
+   "version_or_date": "Reviewed October 5, 2026 (as shown on page)",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Candida normally lives on the skin and in the mouth and most of the time causes no symptoms",
+     "quote": "Everyone has Candida on their skin and in body parts, like the mouth, throat, and vagina. Most of the time it does not cause any symptoms.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Thrush typically causes white patches with redness or soreness",
+     "quote": "Thrush- white patches, redness or soreness.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pain or difficulty swallowing can signal esophageal candidiasis",
+     "quote": "Candidiasis in the esophagus - pain and difficulty swallowing.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Finding Candida on a culture does not by itself prove it is causing symptoms",
+     "quote": "Everyone has Candida on their skin and in body parts, like the mouth, throat, and vagina. Most of the time it does not cause any symptoms.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "agency_page",
+   "cited_as": "CDC. Treatment of Candidiasis. Page dated October 23, 2026. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/candidiasis/treatment/index.html",
+   "version_or_date": "Page dated Oct. 23, 2026 (old guide listed September 12, 2025)",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Mild mouth-limited disease uses a local antifungal for 7 to 14 days",
+     "quote": "Treatment for most infections include an antifungal oral gel applied inside the mouth for 7-14 days. Types of antifungals used include clotrimazole, miconazole, or nystatin.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "More severe disease uses fluconazole, swallowed as a pill",
+     "quote": "Antifungal medication in pill form or through an IV. The most common type of antifungal used is fluconazole.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "agency_page",
+   "cited_as": "CDC. Risk Factors for Candidiasis. Page dated October 19, 2026. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/candidiasis/risk-factors/index.html",
+   "version_or_date": "Page dated Oct. 19, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Listed risk factors: antibiotics, corticosteroids especially inhalers, dentures, dry mouth, smoking",
+     "quote": "Dentures; Antibiotics; Corticosteroids, especially in inhalers for conditions like asthma; Medications and conditions that cause dry mouth; Smoking",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Listed risk factors also include diabetes, HIV and cancer; recurrent infection prompts review of these",
+     "quote": "Diabetes; HIV/AIDS; Cancer",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Inhaled corticosteroids are a listed risk factor for thrush",
+     "quote": "Dentures; Antibiotics; Corticosteroids, especially in inhalers for conditions like asthma; Medications and conditions that cause dry mouth; Smoking",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "agency_page",
+   "cited_as": "NHS. Oral thrush (mouth thrush). Page last reviewed October 9, 2026. Accessed November 15, 2026.",
+   "url": "https://www.nhs.uk/conditions/oral-thrush-mouth-thrush/",
+   "version_or_date": "Page last reviewed 09 October 2026; next review due 09 October 2029",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Pain or difficulty swallowing needs medical assessment",
+     "quote": "you have difficulty or pain when swallowing",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "No improvement after 1 week of mouth-gel treatment is a review threshold",
+     "quote": "you have oral thrush and do not see any improvement after 1 week of treatment with a mouth gel",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Wiped-off white patches leave red spots that can bleed",
+     "quote": "When you wipe off the white patches, they leave red spots that can bleed.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Red mouth with white patches",
+     "quote": "When you have oral thrush, your mouth is red inside with white patches.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cracks at mouth corners, altered or unpleasant taste, mouth pain, difficulty eating and drinking",
+     "quote": "cracks at the corners of your mouth; not tasting things properly; an unpleasant taste in your mouth; pain inside your mouth (for example, a sore tongue or sore gums); difficulty eating and drinking",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "White or sore tongue has other possible causes",
+     "quote": "If you're not sure it's oral thrush. Look at other causes of a white or sore tongue.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Oral thrush in adults is not contagious",
+     "quote": "Oral thrush in adults is not contagious.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "NHS discusses pharmacy mouth gels in the UK",
+     "quote": "Oral thrush can be treated with a mouth gel bought from a pharmacy.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clean dentures, do not wear them at night, see a dentist if they do not fit",
+     "quote": "clean your dentures; do not wear dentures at night; do not keep wearing dentures if they do not fit properly – see your dentist",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "NHS self-care advice includes rinsing the mouth after eating or taking medicine",
+     "quote": "rinse your mouth after eating or taking medicine",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Contributing factors include antibiotics, inhalers, dentures, diabetes",
+     "quote": "take antibiotics over a long time; use asthma inhalers; wear dentures; are having cancer treatment like chemotherapy; have a long-term condition such as diabetes or HIV",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "label",
+   "cited_as": "DailyMed. Nystatin Oral Suspension, USP (Chartwell RX). Prescription drug label, Rev. 03/2026. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9954118e-abe6-4388-98c9-4473d39b2e28",
+   "version_or_date": "Updated March 5, 2026; Rev. 03/2026",
+   "retrieved_with": "WebFetch of DailyMed label",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Nystatin 4-6 mL four times daily, half the dose in each side of the mouth",
+     "quote": "Pediatric patients and adults: 4 to 6 mL (400,000 to 600,000 units) four times daily (one-half of dose in each side of mouth).",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Retain in the mouth as long as possible before swallowing",
+     "quote": "It is recommended that the drug be retained in the mouth as long as possible before swallowing.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Continue at least 48 hours after symptoms resolve",
+     "quote": "Local treatment should be continued at least 48 hours after perioral symptoms have disappeared",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "If no response, repeat KOH smears or cultures to confirm the diagnosis and rule out other causes before another course",
+     "quote": "If there is a lack of therapeutic response, appropriate microbiological studies (e.g., KOH smears and/or cultures) should be repeated to confirm the diagnosis of candidiasis and rule out other pathogens before instituting another course of therapy.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nystatin can cause irritation or allergic reactions such as rash and itching",
+     "quote": "Hypersensitivity reactions including rash, pruritus, and anaphylactoid reaction have also been reported. Discontinue treatment with nystatin if sensitization or irritation is reported during use.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nystatin suspension is a prescription product in the US",
+     "quote": "HUMAN PRESCRIPTION DRUG LABEL",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nystatin is a local treatment held in the mouth",
+     "quote": "Nystatin oral suspension is indicated for the treatment of infections of the oral cavity caused by Candida albicans.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "label",
+   "cited_as": "DailyMed. Clotrimazole troche 10 mg (Hikma). Prescribing information, revised July 2021. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0bc4b876-ddee-4f03-b44f-544348739a26",
+   "version_or_date": "Revised July 2021; DailyMed version 14 published May 15, 2024",
+   "retrieved_with": "WebFetch of DailyMed label",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Clotrimazole label: one troche five times daily for 14 consecutive days",
+     "quote": "The recommended dose is one troche five times a day for fourteen consecutive days.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Troche must be slowly dissolved in the mouth",
+     "quote": "Clotrimazole is administered only as a lozenge that must be slowly dissolved in the mouth.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Label says to confirm the diagnosis by KOH smear and/or culture before treatment",
+     "quote": "The diagnosis should be confirmed by a KOH smear and/or culture prior to treatment.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clotrimazole troche is a local treatment",
+     "quote": "Clotrimazole is indicated for the local treatment of oropharyngeal candidiasis.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Label reports nausea, vomiting, unpleasant mouth sensations, abnormal liver function tests",
+     "quote": "Abnormal liver function tests have been reported in patients treated with clotrimazole troches; ... Nausea, vomiting, unpleasant mouth sensations and pruritus have also been reported with the use of the troche.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Label advises periodic liver checks particularly with existing liver problems",
+     "quote": "Periodic assessment of hepatic function is advisable particularly in patients with pre-existing hepatic impairment.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clotrimazole troches are prescription products in the US",
+     "quote": "Rx only",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "label",
+   "cited_as": "DailyMed. Fluconazole tablets (Golden State Medical Supply). Prescribing information, updated February 10, 2026. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c2c7242d-d172-4733-e053-2995a90acb2e",
+   "version_or_date": "Updated February 10, 2026",
+   "retrieved_with": "WebFetch of DailyMed label (two reads: offsets 0 and 100000)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Fluconazole label: 200 mg on day 1, then 100 mg daily",
+     "quote": "The recommended dosage of fluconazole for oropharyngeal candidiasis is 200 mg on the first day followed by 100 mg once daily.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Continue at least 2 weeks even though symptoms resolve within several days",
+     "quote": "Clinical evidence of oropharyngeal candidiasis generally resolves within several days, but treatment should be continued for at least 2 weeks to decrease the likelihood of relapse.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "The single 150 mg dose is the vaginal candidiasis regimen, not the oral-thrush regimen",
+     "quote": "The recommended dosage of fluconazole for vaginal candidiasis is 150 mg as a single oral dose.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Warfarin: increased prothrombin time; monitoring and dose adjustment",
+     "quote": "Prothrombin time may be increased in patients receiving concomitant fluconazole and coumarin-type anticoagulants. ... Careful monitoring of prothrombin time ... is recommended. Dose adjustment of warfarin may be necessary.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Statins: myopathy and rhabdomyolysis risk",
+     "quote": "The risk of myopathy and rhabdomyolysis increases when fluconazole is co-administered with HMG-CoA reductase inhibitors.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sulfonylureas/oral hypoglycemics: hypoglycemia",
+     "quote": "Clinically significant hypoglycemia may be precipitated by the use of fluconazole with oral hypoglycemic agents.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tacrolimus levels raised up to 5 times",
+     "quote": "Fluconazole may increase the serum concentrations of orally administered tacrolimus up to 5 times.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Some QT-prolonging drugs are contraindicated with fluconazole (avoid the combination)",
+     "quote": "Co-administration of other drugs known to prolong the QT interval and which are metabolized via the enzyme CYP3A4 such as erythromycin, pimozide and quinidine are contraindicated in patients receiving fluconazole.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Rare serious liver toxicity",
+     "quote": "Fluconazole has been associated with rare cases of serious hepatic toxicity",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Rare anaphylaxis and skin reactions",
+     "quote": "In rare cases, anaphylaxis has been reported. ... Exfoliative skin disorders during treatment with fluconazole have been reported.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Rare QT prolongation",
+     "quote": "there have been rare cases of QT prolongation and torsade de pointes",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Kidney function affects dosing",
+     "quote": "The dose of fluconazole may need to be reduced in patients with impaired renal function.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fetal-risk warnings in pregnancy",
+     "quote": "Case reports describe a pattern of distinct congenital anomalies in infants exposed in utero to high dose maternal fluconazole (400 to 800 mg/day)",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fluconazole tablets are prescription products in the US",
+     "quote": "HUMAN PRESCRIPTION DRUG LABEL",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "label",
+   "cited_as": "DailyMed. Symbicort (budesonide and formoterol fumarate dihydrate) inhalation aerosol (AstraZeneca). Prescribing information, revised July 2019. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fafa4cf1-99c2-43d5-73ad-51f256de3be0",
+   "version_or_date": "Revised 7/2019 (as shown on this DailyMed set id)",
+   "retrieved_with": "WebFetch of DailyMed label (offsets 0 and 100000)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Patient counseling section (17) text was not reached in the retrieved portion; the page no longer claims 'patient instructions' or 'spit'.",
+   "claims": [
+    {
+     "text": "Rinse mouth with water without swallowing after inhalation to reduce thrush risk",
+     "quote": "Advise the patient to rinse his/her mouth with water without swallowing following inhalation to help reduce the risk of oropharyngeal candidiasis.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Thrush is treated while the inhaler continues, though at times it may need to be interrupted; do not stop on your own, let the prescriber decide",
+     "quote": "When such an infection develops, it should be treated with appropriate local or systemic (i.e., oral antifungal) therapy while treatment with SYMBICORT continues, but at times therapy with SYMBICORT may need to be interrupted.",
+     "quote_source": "label",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Label advises periodic monitoring of the mouth",
+     "quote": "Monitor patients periodically for signs of adverse effects on the oral cavity.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Salvatori O, Puri S, Tati S, et al. Innate Immunity and Saliva in Candida albicans-mediated Oral Diseases. Journal of Dental Research. 2016;95(4):365-71. doi:10.1177/0022034515625222.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26747422/",
+   "pmid": "26747422",
+   "pmcid": "PMC4802782",
+   "doi": "10.1177/0022034515625222",
+   "record_title": "Innate Immunity and Saliva in Candida albicans-mediated Oral Diseases.",
+   "record_journal": "J Dent Res",
+   "record_year": "2016",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract); PMC full text returned empty; Scite Smart Citation snippet from this paper's own text (sourceDoi = this DOI)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Fourth author is Edgerton M (4 authors). Scite verify_papers: verified, no notices. The prior footer line about reading it via EBSCOhost was removed (not re-verifiable).",
+   "claims": [
+    {
+     "text": "Normal mouth bacteria are one line of defense against Candida",
+     "quote": "One important line of defense against oropharyngeal candidiasis is the oral microbiota that prevents infection by competing for space and nutrients",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Overgrowth can result from disrupted mouth bacteria, reduced salivary function, or damage to the mouth lining",
+     "quote": "how C. albicans overgrowth in the oral cavity may be a result of aberrations ranging from microbial dysbiosis and salivary dysfunction to epithelial damage.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Saliva contains proteins that help control Candida",
+     "quote": "saliva contains various proteins that affect C. albicans growth positively by promoting mucosal adherence and negatively through immune exclusion and direct fungicidal activity.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Denture stomatitis is a common Candida-related infection of tissue under an upper denture",
+     "quote": "Denture stomatitis (DS) is a common mucosal infection of tissues underlying the maxillary denture-bearing surfaces of healthy individuals who wear dentures, with xerostomia also being a risk factor",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "journal",
+   "cited_as": "Vazquez JA, Patton LL, Epstein JB, et al. Randomized, comparative, double-blind, double-dummy, multicenter trial of miconazole buccal tablet and clotrimazole troches for the treatment of oropharyngeal candidiasis: study of miconazole Lauriad efficacy and safety (SMiLES). HIV Clinical Trials. 2010;11(4):186-96.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20974574/",
+   "pmid": "20974574",
+   "doi": "10.1310/hct1104-186",
+   "record_title": "Randomized, comparative, double-blind, double-dummy, multicenter trial of miconazole buccal tablet and clotrimazole troches for the treatment of oropharyngeal candidiasis: study of miconazole Lauriad® efficacy and safety (SMiLES).",
+   "record_journal": "HIV Clin Trials",
+   "record_year": "2010",
+   "article_type": "Comparative Study; Multicenter Study; Randomized Controlled Trial",
+   "retrieved_with": "PubMed get_article_metadata (abstract); DOI confirmed by Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "SMiLES randomized 578 patients with HIV to miconazole buccal tablets or clotrimazole troches and found miconazole noninferior",
+     "quote": "This phase 3, double-blind, double-dummy, multicenter trial evaluated 578 randomized patients with HIV infection and OPC. ... Clinical cure rate at TOC visit for MBT-treated patients was statistically noninferior to CT-treated patients",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "journal",
+   "cited_as": "Mehta V, Galletti C, Mathur A, et al. Efficacy of probiotics in the management of oral candidiasis: an umbrella review of systematic reviews and meta-analyses. Systematic Reviews. 2026;15(1).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42343426/",
+   "pmid": "42343426",
+   "pmcid": "PMC13556008",
+   "doi": "10.1186/s13643-026-03249-z",
+   "record_title": "Efficacy of probiotics in the management of oral candidiasis: an umbrella review of systematic reviews and meta-analyses.",
+   "record_journal": "Syst Rev",
+   "record_year": "2026",
+   "article_type": "Journal Article; Systematic Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Signals of benefit but adult evidence rated low certainty",
+     "quote": "probiotic interventions demonstrated beneficial effects by reducing Candida spp. ... the overall quality of evidence, as assessed by GRADE, ranged from low for the adult population to very low for the pediatric population",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Studies varied widely; included reviews rated low or critically low confidence",
+     "quote": "wide interstudy heterogeneity (I = 0-78%) restricts the reliability and comparability of these findings. ... 3 studies (42.8%) as having low confidence, while 4 studies (57.1%) were rated critically low.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Probiotics can supplement antifungals; standalone use not recommended yet",
+     "quote": "Probiotics can supplement conventional antifungal treatment, but their standalone use is not recommended yet.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "journal",
+   "cited_as": "Zhou P, Yang F, Fang J, et al. Clinical feasibility of chairside methylene blue-mediated photodynamic therapy for oral candidiasis. BMC Oral Health. 2026;26(1).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42204522/",
+   "pmid": "42204522",
+   "pmcid": "PMC13474966",
+   "doi": "10.1186/s12903-026-08721-9",
+   "record_title": "Clinical feasibility of chairside methylene blue-mediated photodynamic therapy for oral candidiasis.",
+   "record_journal": "BMC Oral Health",
+   "record_year": "2026",
+   "article_type": "Journal Article; Randomized Controlled Trial",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Pilot trial randomized only 18 participants, open-label exploratory design",
+     "quote": "This prospective, randomized, open-label, exploratory controlled trial ... Eighteen participants were enrolled",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Small groups and short follow-up; does not establish equivalence to nystatin",
+     "quote": "the MB-PDT group (n = 9) ... the nystatin group (n = 9) ... assessed over 14 days. ... its antifungal efficacy requires further evaluation in larger studies.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "agency_page",
+   "cited_as": "NHS. Leukoplakia. Page last reviewed May 15, 2024. Accessed November 15, 2026.",
+   "url": "https://www.nhs.uk/conditions/leukoplakia/",
+   "version_or_date": "Page last reviewed 15 May 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "A white patch that does not go away needs a dentist or doctor to examine it",
+     "quote": "you have a white patch in your mouth that does not go away",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Leukoplakia patches cannot be rubbed or scraped away",
+     "quote": "are white patches in the mouth ... cannot be rubbed or scraped away",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A dentist or doctor rules out other causes such as a fungal infection",
+     "quote": "They will be able to rule out other possible causes, such as a fungal infection of the mouth",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Mouth pain that is not going away deserves examination",
+     "quote": "you have pain or discomfort in your mouth that is not going away",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "White patch plus weakened immune system warrants evaluation",
+     "quote": "you have a white patch on your tongue and a weakened immune system",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "agency_page",
+   "cited_as": "NHS. Mouth ulcers. Page last reviewed March 11, 2024. Accessed November 15, 2026.",
+   "url": "https://www.nhs.uk/conditions/mouth-ulcers/",
+   "version_or_date": "Page last reviewed 11 March 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Ulcer lasting longer than 3 weeks, that bleeds or becomes more painful and red, or looks unusual needs assessment",
+     "quote": "lasts longer than 3 weeks; is different to other mouth ulcers you've had before; bleeds or becomes more painful and red",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. Thrush - children and adults. Review date August 5, 2025. Accessed November 15, 2026.",
+   "url": "https://medlineplus.gov/ency/article/000626.htm",
+   "version_or_date": "Review Date 8/5/2025",
+   "retrieved_with": "WebFetch of official page (added this run)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Candida normally lives in the mouth in small amounts",
+     "quote": "A small amount of this fungus normally lives in your mouth.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A provider can usually diagnose thrush by looking at the mouth",
+     "quote": "Your health care provider or dentist can usually diagnose thrush by looking at your mouth and tongue.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "May examine a scraping under a microscope to confirm",
+     "quote": "Take a sample of a mouth sore by gently scraping it. Examine mouth scrapings under a microscope.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pain or difficulty swallowing needs medical contact",
+     "quote": "You have pain or difficulty swallowing.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Contact a provider if HIV positive, on chemotherapy, or on immunosuppressants",
+     "quote": "you are HIV positive, receiving chemotherapy, or you take medicines to suppress your immune system",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Steroid medicines including inhalers are a risk factor",
+     "quote": "You are taking steroid medicine, including some inhalers for asthma and chronic obstructive pulmonary disease (COPD).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Thrush may come back if the immune system is weak (recurrent infection needs evaluation)",
+     "quote": "if your immune system is weak, thrush may come back or cause more serious problems.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "agency_page",
+   "cited_as": "NHS. Sore throat. Page last reviewed April 8, 2024. Accessed November 15, 2026.",
+   "url": "https://www.nhs.uk/symptoms/sore-throat/",
+   "version_or_date": "Page last reviewed 08 April 2024",
+   "retrieved_with": "WebFetch of official page (added this run for emergency and urgent-care wording)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "UK page: 999/A&E rendered as 911/emergency department for US readers. Used because no retrieved thrush-specific source gave emergency wording; it is stronger than the original guide's wording for inability to swallow (now emergency rather than urgent).",
+   "claims": [
+    {
+     "text": "Unable to swallow, drooling, difficulty breathing, or severe and rapidly worsening symptoms: emergency care",
+     "quote": "Call 999 or go to A&E if you: have difficulty breathing or are unable to swallow; are drooling – this can be a sign of not being able to swallow; have severe symptoms and are getting worse quickly",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Signs of dehydration, very high temperature, or weakened immune system: urgent same-day care",
+     "quote": "you have signs of dehydration, such as peeing less than usual or dark, strong-smelling pee; you have a very high temperature ...; you have a weakened immune system",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "kind": "label",
+   "cited_as": "DailyMed. Clotrimazole cream (A-S Medication Solutions). Over-the-counter drug label, updated May 11, 2026. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c0f58a0d-a304-41f9-bbdf-c2e488230cf0",
+   "version_or_date": "Updated May 11, 2026; HUMAN OTC DRUG LABEL",
+   "retrieved_with": "WebFetch of DailyMed label (added this run)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Clotrimazole skin cream is labeled for external use only and is not a substitute for an oral product",
+     "quote": "For external use only ... If swallowed, get medical help or contact a Poison Control Center right away.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

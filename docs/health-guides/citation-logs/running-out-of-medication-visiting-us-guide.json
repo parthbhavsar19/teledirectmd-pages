@@ -1,0 +1,463 @@
+{
+ "guide": "running-out-of-medication-visiting-us-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 1 verified, retractions: none (only journal DOI is 10.1007/s12325-019-01079-1; PubMed article types Journal Article, Review; no retraction notice; Scite flagged no contrasting evidence)",
+ "references": [
+  {
+   "n": 1,
+   "kind": "agency_page",
+   "cited_as": "U.S. Customs and Border Protection. U.S. Travelers' Top Ten Travel Tips. Last modified March 1, 2024.",
+   "url": "https://www.cbp.gov/node/99584",
+   "record_title": "U.S. Travelers' Top Ten Travel Tips",
+   "version_or_date": "Last Modified: Mar 01, 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces former ref 1 (FDA Drug Info Rounds video page), whose page text contains no transcript and none of the quoted FDA sentences; that quote was removed.",
+   "claims": [
+    {
+     "text": "CBP warns many foreign-made medications are not approved for US use and are not permitted in the country",
+     "quote": "Many foreign-made medications are not approved for United States use and are not permitted in the country.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Some foreign-made medications are not approved for US use and are not permitted in the country (list item)",
+     "quote": "Many foreign-made medications are not approved for United States use and are not permitted in the country.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "agency_page",
+   "cited_as": "U.S. Food and Drug Administration. Personal Importation. Content current as of 08/18/2025.",
+   "url": "https://www.fda.gov/industry/import-basics/personal-importation",
+   "version_or_date": "Content current as of 08/18/2025",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Foreign nationals may bring or ship a 90-day supply",
+     "quote": "The FDA will allow foreign nationals to bring or ship a 90-day supply of drug products.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Those staying longer than 90 days may have additional medication sent",
+     "quote": "If the foreign national is staying longer than 90 days, they may have additional medication sent to them.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Suggested documentation: visa/passport copy, doctor's letter, copy of prescription in English",
+     "quote": "A copy of the visa/passport ... Letter from doctor ... Copy of Prescription (in English)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "FDA understands visitors need to bring personal medication",
+     "quote": "The FDA understands that you will need to bring your personal medication while you are in the U.S.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "For mailed medication FDA suggests documentation showing it is for own use while visiting",
+     "quote": "If you are having medication sent to you by mail or courier, it is suggested that you include documentation that provides evidence that the medication is being sent for your own use while visiting the U.S.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "agency_page",
+   "cited_as": "U.S. Drug Enforcement Administration. Traveling to the U.S. with Medication (PDF posted May 2026).",
+   "url": "https://www.dea.gov/sites/default/files/2026-05/Traveling%20With%20Medication_5.pdf",
+   "version_or_date": "File path 2026-05; document itself undated",
+   "retrieved_with": "WebFetch of official PDF (direct curl blocked by proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Handout states the 50-dosage-unit limit for foreign visitors without saying per substance; former 'per substance' wording removed. The underlying regulation (ref 12) writes the cap for US residents and the 2004 rule (ref 13) said it does not apply to foreign travelers; the page now reports both.",
+   "claims": [
+    {
+     "text": "Foreign visitors may bring up to 50 dosage units of controlled substances for personal use",
+     "quote": "Foreign visitors are allowed to bring up to 50 dosage units of controlled substances into the U.S. for personal use",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Original container; label shows chemical or trade name and schedule symbol, otherwise pharmacy/practitioner info and prescription number",
+     "quote": "Medication is in its original container ... The medication label includes the drug's chemical or trade name and schedule symbol. ... the pharmacy/practitioner information, and a prescription number",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Declare all medications at US customs",
+     "quote": "Declare all medications to U.S. Customs and Border Patrol",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "All travelers must follow US laws regardless of foreign prescriptions",
+     "quote": "All travelers to the United States, whether citizens or visitors, must follow U.S. laws regarding prescription and over-the-counter medications regardless of foreign prescriptions.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Additional state laws may apply",
+     "quote": "Additional state laws may apply.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "agency_page",
+   "cited_as": "U.S. Drug Enforcement Administration. DEA Extends Telemedicine Flexibilities to Ensure Continued Access to Care. December 31, 2025.",
+   "url": "https://www.dea.gov/press-releases/2025/12/31/dea-extends-telemedicine-flexibilities-ensure-continued-access-care",
+   "version_or_date": "Press release December 31, 2025",
+   "retrieved_with": "WebFetch of official page; status cross-checked on telehealth.hhs.gov (last updated January 5, 2026), which names no later rule",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Flexibilities extended through December 31, 2026 (fourth temporary extension)",
+     "quote": "Fourth Temporary Extension of the COVID-19 Telemedicine Flexibilities for the Prescription of Controlled Medications ... extending the current telemedicine flexibilities through December 31, 2026.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "DEA-registered practitioners may prescribe Schedule II-V via audio-video telemedicine without in-person evaluation",
+     "quote": "DEA-registered practitioners are permitted to remotely prescribe Schedule II-V controlled medications ... without having ever conducted an in-person medical evaluation",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Audio-only for FDA-approved OUD treatment",
+     "quote": "for maintenance and withdrawal management treatment of opioid use disorder via audio-only telemedicine encounters",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prescriptions must comply with applicable federal and state law",
+     "quote": "provided that such prescriptions otherwise comply with the requirements outlined in DEA guidance documents ... applicable federal and state law.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "agency_page",
+   "cited_as": "World Health Organization. International Nonproprietary Names (INN).",
+   "url": "https://www.who.int/teams/health-product-and-policy-standards/inn",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "INN system gives each active ingredient a globally recognized generic name",
+     "quote": "International Nonproprietary Names (INN) facilitate the identification of pharmaceutical substances or active pharmaceutical ingredients. ... A nonproprietary name is also known as a generic name.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "WHO quote: Each INN is a unique name that is globally recognized and is public property",
+     "quote": "Each INN is a unique name that is globally recognized and is public property.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Figure caption: the generic name is what any US clinician will recognize",
+     "quote": "Each INN is a unique name that is globally recognized and is public property.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "guideline",
+   "cited_as": "Hagmann SHF, Norton SA. What To Do When Sick Abroad. CDC Yellow Book 2026.",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/what-to-do-when-sick-abroad.html",
+   "version_or_date": "CDC Yellow Book 2026; last reviewed April 23, 2025",
+   "retrieved_with": "WebFetch of official CDC page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Former URL (NCBI Bookshelf NBK620917) returned a bot check in the audit; replaced with CDC's own page for the same chapter. Quote corrected to the page's exact wording.",
+   "claims": [
+    {
+     "text": "Yellow Book advises including generic names because trade names vary widely",
+     "quote": "Include generic names of all medications because trade names vary widely.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Direct quote including standard dose regimens may vary by country",
+     "quote": "Include generic names of all medications because trade names vary widely. Furthermore, standard dose regimens may vary by country.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "other_web",
+   "cited_as": "GoodRx. Prescription Prices and Coupons (homepage).",
+   "url": "https://www.goodrx.com/",
+   "retrieved_with": "WebFetch of homepage",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Homepage shows no prices for the listed generics, so all $4 to $30 figures and Table 2 prices were cut. Now cited only for what the service is.",
+   "claims": [
+    {
+     "text": "GoodRx compares prescription prices and coupons at more than 70,000 US pharmacies",
+     "quote": "Compare prescription drug prices and find coupons at more than 70,000 US pharmacies.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "GoodRx states it is not insurance",
+     "quote": "GoodRx is NOT insurance.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Coupon services list prices at US pharmacies so compare before filling",
+     "quote": "Compare prescription drug prices and find coupons at more than 70,000 US pharmacies.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "guideline",
+   "cited_as": "CDC Yellow Book 2026: Traveling with Prohibited or Restricted Medications.",
+   "url": "https://www.cdc.gov/yellow-book/hcp/travelers-with-additional-considerations/traveling-with-prohibited-or-restricted-medications.html",
+   "version_or_date": "Last reviewed April 23, 2025",
+   "retrieved_with": "WebFetch of official CDC page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Claim that certain foreign amphetamine formulations are Schedule I or II and cannot be brought in was not on the page and was cut; 'FDA-approved products' exception also not on the page and was cut.",
+   "claims": [
+    {
+     "text": "Marijuana and certain cannabis products including some CBD oil remain federally illegal except products with no more than 0.3% THC on a dry weight basis (CDC quoting TSA)",
+     "quote": "Marijuana and certain cannabis infused products, including some CBD oil, remain illegal under federal law except for products that contain no more than 0.3% THC oil on a dry weight basis",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Benvenga S, Carle A. Levothyroxine Formulations: Pharmacological and Clinical Implications of Generic Substitution. Adv Ther. 2019;36(Suppl 2):59-71.",
+   "url": "https://doi.org/10.1007/s12325-019-01079-1",
+   "pmid": "31485974",
+   "pmcid": "PMC6822816",
+   "doi": "10.1007/s12325-019-01079-1",
+   "record_title": "Levothyroxine Formulations: Pharmacological and Clinical Implications of Generic Substitution.",
+   "record_journal": "Adv Ther",
+   "record_year": "2019",
+   "article_type": "Review (Journal Article)",
+   "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Authors corrected from 'Chiavaroli V, Mercuri S, Bonfante D' to the record's Benvenga S, Carle A. Funding: Merck (per abstract). Claim rewritten to what the abstract says.",
+   "claims": [
+    {
+     "text": "Multiple brand-name and generic levothyroxine tablets are available",
+     "quote": "Multiple brand-name and generic LT4 tablets are available.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Review advises staying on the same preparation if possible and checking TSH after a switch",
+     "quote": "Patients should be maintained on the same LT4 preparation if possible. If the LT4 preparation is changed, TSH levels should be evaluated and, if necessary, the dose of LT4 adjusted.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "other_web",
+   "cited_as": "21 CFR 1306.03, Persons entitled to issue prescriptions (eCFR).",
+   "url": "https://www.ecfr.gov/current/title-21/chapter-II/part-1306/subject-group-ECFR1eb5bb3a23fddd0/section-1306.03",
+   "version_or_date": "eCFR Title 21 up to date as of 10/19/2026",
+   "retrieved_with": "WebFetch of eCFR",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Controlled-substance prescriptions may be issued only by a practitioner authorized where licensed and DEA-registered or exempted",
+     "quote": "A prescription for a controlled substance may be issued only by an individual practitioner who is: (1) Authorized to prescribe controlled substances by the jurisdiction in which he is licensed ... (2) Either registered or exempted from registration",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "US controlled-substance prescription must come from a DEA-registered (or exempted) practitioner (list item)",
+     "quote": "(2) Either registered or exempted from registration pursuant to §§ 1301.22(c) and 1301.23 of this chapter.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "other_web",
+   "cited_as": "Arizona Revised Statutes 32-1969, Filling foreign prescription orders; records; exception.",
+   "url": "https://www.azleg.gov/ars/32/01969.htm",
+   "retrieved_with": "WebFetch of Arizona Legislature statute page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Fetch tool returned the statute in truncated segments; quote is the segments joined with ellipses.",
+   "claims": [
+    {
+     "text": "Arizona lets a pharmacist fill a new written prescription from a foreign-licensed prescriber, but not for a controlled substance",
+     "quote": "This chapter does not prohibit a pharmacist or an intern under a pharmacist's supervision from filling ... A pharmacist or intern shall not fill a prescription order issued by a medical practitioner ... for a controlled substance",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "other_web",
+   "cited_as": "21 CFR 1301.26 (April 1, 2025 edition), GovInfo.",
+   "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol9/pdf/CFR-2025-title21-vol9-sec1301-26.pdf",
+   "version_or_date": "21 CFR Ch. II (4-1-25 Edition)",
+   "retrieved_with": "WebFetch of GovInfo annual CFR PDF (eCFR blocked automated reads via robots); text matched Cornell LII copy",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Regulation requires original container and declaration to a customs officer",
+     "quote": "The controlled substance is in the original container in which it was dispensed to the individual; and (b) The individual makes a declaration to an appropriate customs officer",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "50-dosage-unit combined cap is written for United States residents",
+     "quote": "a United States resident may import into the United States no more than 50 dosage units combined of all such controlled substances in the individual's possession that were obtained abroad for personal medical use.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "other_web",
+   "cited_as": "DEA. Exemption From Import/Export Requirements for Personal Medical Use. Final rule. 69 FR 55343 (September 14, 2004).",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2004-09-14/html/04-20628.htm",
+   "version_or_date": "Federal Register Vol. 69 No. 177, effective October 14, 2004",
+   "retrieved_with": "WebFetch of GovInfo Federal Register text",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "When adopting the cap in 2004, DEA said it does not apply to foreign travelers",
+     "quote": "applies only to United States residents; it does not apply to foreign travelers entering the United States.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "agency_page",
+   "cited_as": "U.S. Drug Enforcement Administration. Drug Scheduling.",
+   "url": "https://www.dea.gov/drug-information/drug-scheduling",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Examples: oxycodone, Adderall, Ritalin (Schedule II); testosterone (III); Xanax, Valium, Ativan, Ambien (IV)",
+     "quote": "oxycodone (OxyContin), fentanyl, Dexedrine, Adderall, and Ritalin ... ketamine, anabolic steroids, testosterone ... Xanax, Soma, Darvon, Darvocet, Valium, Ativan, Talwin, Ambien, Tramadol",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. Recognizing medical emergencies. Review date 1/8/2025.",
+   "url": "https://medlineplus.gov/ency/article/001927.htm",
+   "version_or_date": "Review Date 1/8/2025",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Call 911 for chest pain, trouble breathing, fainting, sudden weakness, sudden confusion",
+     "quote": "Chest pain or discomfort lasting for two minutes or more ... Breathing problems ... Fainting or loss of consciousness ... Sudden dizziness, weakness ... Change in mental status (such as unusual behavior, confusion ... Stay calm and call 911",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "New concerning symptoms (chest pain, shortness of breath, focal weakness, severe abdominal pain, syncope) need in-person care",
+     "quote": "Breathing problems (difficulty breathing, shortness of breath) ... Fainting or loss of consciousness ... Severe abdominal pain or pressure",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Figure: emergency warning signs, call 911",
+     "quote": "Stay calm and call 911 or your local emergency number.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "agency_page",
+   "cited_as": "CDC. Diabetic Ketoacidosis. May 15, 2024.",
+   "url": "https://www.cdc.gov/diabetes/about/diabetic-ketoacidosis.html",
+   "version_or_date": "May 15, 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Go to ER or call 911 if blood sugar stays 300 mg/dL or above, fruity breath, vomiting and cannot keep food or drinks down, trouble breathing",
+     "quote": "Go to the emergency room or call 911 right away if ... Your blood sugar stays at 300 mg/dL or above. Your breath smells fruity. You are vomiting and can't keep food or drinks down. You're having trouble breathing.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Missed insulin doses are among the most common causes of DKA",
+     "quote": "Missing insulin shots, a clogged insulin pump, or the wrong insulin dose.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. Fever. Review date 7/31/2024.",
+   "url": "https://medlineplus.gov/ency/article/003090.htm",
+   "version_or_date": "Review Date 7/31/2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "MedlinePlus says to contact the provider right away; the guide keeps its stricter in-person advice (not softened), so verdict is partly_supported.",
+   "claims": [
+    {
+     "text": "Infant 3 months or younger with rectal temperature of 100.4 F (38 C) or higher needs prompt in-person care",
+     "quote": "Is 3 months or younger and has a rectal temperature of 100.4°F (38°C) or higher.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  }
+ ]
+}
