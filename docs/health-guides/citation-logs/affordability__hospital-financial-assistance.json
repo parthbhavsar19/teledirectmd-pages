@@ -1,0 +1,314 @@
+{
+ "guide": "affordability/hospital-financial-assistance",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 1 verified (10.1177/10775587211039695, considered and not cited), 0 DOIs among the 8 cited references (all agency, regulation, survey or policy web pages), retractions: none",
+ "references": [
+  {
+   "n": 1,
+   "kind": "agency_page",
+   "cited_as": "IRS, Financial assistance policy and emergency medical care policy, Section 501(r)(4)",
+   "url": "https://www.irs.gov/charities-non-profits/financial-assistance-policy-and-emergency-medical-care-policy-section-501r4",
+   "record_title": "Financial assistance policy and emergency medical care policy - Section 501(r)(4)",
+   "version_or_date": "IRS web page, no page date shown; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Nonprofit (501(c)(3)) hospitals must have a written FAP as a condition of tax exemption",
+     "quote": "Section 501(r)(4) requires a hospital organization to establish a written financial assistance policy (FAP) and a written emergency medical care policy for a hospital facility it operates.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Requirement applies facility by facility to be treated as a 501(c)(3) organization",
+     "quote": "hospital organizations must meet the requirements imposed by Section 501(r) on a facility-by-facility basis in order to be treated as an organization described in Section 501(c)(3).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "FAP must be widely publicized and state eligibility criteria, how charges are calculated, and how to apply",
+     "quote": "The written FAP must be widely publicized and include: Eligibility criteria for financial assistance, and whether such assistance includes free or discounted care ... The basis for calculating amounts charged to patients ... The method for applying for financial assistance",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Policy must spell out the criteria for each level of help, including free care and discounts",
+     "quote": "A FAP must specify the eligibility criteria that an individual must satisfy to receive each discount, free care, or other level of assistance available under the FAP.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nonprofit hospitals must post the policy, application form and plain language summary on a website",
+     "quote": "Making the FAP, FAP application form, and plain language summary of the FAP (the FAP documents) widely available on a website",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Policy or application form must describe the information or documents an applicant may be asked to provide",
+     "quote": "either the FAP or FAP application form (including accompanying instructions) must describe the information or documentation an individual may be required to provide as part of their FAP application",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "agency_page",
+   "cited_as": "CFPB, Understanding Required Financial Assistance in Medical Care (Singer, Wilson, Carare; July 28, 2022)",
+   "url": "https://www.consumerfinance.gov/data-research/research-reports/understanding-required-financial-assistance-in-medical-care/",
+   "record_title": "Understanding Required Financial Assistance in Medical Care",
+   "version_or_date": "Published Jul 28, 2022; page last modified Jul 12, 2024",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Authors Susan Singer, Eric Wilson and Tavi Carare (CFPB Office of Research) added to the reference text from the retrieved page.",
+   "claims": [
+    {
+     "text": "Federal law does not specify who is eligible, and state eligibility requirements vary widely",
+     "quote": "Federal law does not specify the criteria hospitals should use to determine who is eligible for financial assistance, but several states have laws and regulations that do. State law eligibility requirements vary widely.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Charity care is free or discounted care for people who cannot afford to pay",
+     "quote": "Required financial assistance is a form of community benefit involving medical care that is provided for free, or at a discount, to patients who cannot afford to pay.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Not all eligible patients receive financial assistance, and many do not receive legally required information about their eligibility",
+     "quote": "The available evidence indicates that not all patients eligible for financial assistance receive it. Many patients, for example, do not receive legally mandated information about their potential eligibility for financial assistance.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "agency_page",
+   "cited_as": "IRS, Billing and collections, Section 501(r)(6)",
+   "url": "https://www.irs.gov/charities-non-profits/billing-and-collections-section-501r6",
+   "record_title": "Billing and collections - Section 501(r)(6)",
+   "version_or_date": "IRS web page, no page date shown; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "120-day notification period and 240-day application period both begin with the first post-discharge bill",
+     "quote": "The final regulations provide a 120-day “notification period” and a 240-day “application period,” both beginning on the date the first “post-discharge” billing statement is provided.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hospital generally refrains from ECAs for at least 120 days after the first post-discharge billing statement",
+     "quote": "refrains from initiating such ECAs for at least 120 days from the date the hospital facility provides the first post-discharge billing statement for the care.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hospital must process (determine eligibility on) complete applications submitted during the 240-day application period",
+     "quote": "In the case of an individual who submits a complete FAP application during the 240-day application period, the hospital facility determines whether the individual is FAP-eligible for the care.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "ECAs include credit reporting and selling the debt",
+     "quote": "involve selling an individual’s debt to another party, involve reporting adverse information about an individual to consumer credit reporting agencies or credit bureaus",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Period can run longer than 240 days because of the 30-day notice",
+     "quote": "The application period may be longer than 240 days because a hospital facility must notify an individual at least 30-day before initiating one or more ECAs to obtain payment for the care.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hospital must notify about the FAP before ECAs, with a plain language summary in the 30-day notice",
+     "quote": "A hospital facility must provide a plain language summary of the FAP with the 30-day notice.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A hospital may continue to accept and process applications at any time",
+     "quote": "A hospital facility may continue to accept and process FAP applications from patients at any time.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Complete application during application period requires suspension of ECAs while the hospital decides",
+     "quote": "After receipt of a complete FAP application from an individual during the application period, the hospital facility will have made reasonable efforts ... only if ... Suspends any ECAs taken against the individual to obtain payment for the care",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "If found eligible, hospital must take reasonable steps to reverse ECAs, including removing adverse credit information",
+     "quote": "the hospital facility must take all reasonably available measures to reverse any ECA ... and remove from the individual’s credit report any adverse information that was reported to a consumer reporting agency or credit bureau.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "agency_page",
+   "cited_as": "IRS, Limitation on charges, Section 501(r)(5)",
+   "url": "https://www.irs.gov/charities-non-profits/limitation-on-charges-section-501r5",
+   "record_title": "Limitation on charges - Section 501(r)(5)",
+   "version_or_date": "IRS web page, no page date shown; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "FAP-eligible patients cannot be charged more than AGB to insured individuals for emergency or other medically necessary care",
+     "quote": "limits the amount charged for any emergency or other medically necessary care it provides to a FAP-eligible individual to not more that the amount generally billed (AGB) to individuals who have insurance covering such care.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Eligible patients must be charged less than gross charges for any care the FAP covers",
+     "quote": "A hospital facility must charge a FAP-eligible individual less than the gross charges for any medical care covered under the hospital facility’s FAP.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "The charge limit applies whether or not the patient has insurance",
+     "quote": "The AGB limitation applies to all individuals eligible for assistance under the hospital facility’s FAP, without specific reference to the individual’s insurance status.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "agency_page",
+   "cited_as": "CMS, Apply for medical bill financial assistance",
+   "url": "https://www.cms.gov/initiatives/your-patient-rights/medical-bill-rights/get-help/guides-resources/apply-financial-assistance",
+   "record_title": "Apply for medical bill financial assistance",
+   "version_or_date": "Page last modified 10/05/2026",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Start by asking the billing department about financial assistance",
+     "quote": "Ask your health care facility’s billing department about financial assistance.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Search the hospital name plus 'financial assistance' to find the policy",
+     "quote": "In a search engine, type the hospital name and “financial assistance” to find their policy.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ask what happens to the bill while the application is under review",
+     "quote": "After you apply, ask the hospital: ... What happens with your bill in the meantime",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "other_web",
+   "cited_as": "KFF, Hospital Charity Care: How It Works and Why It Matters (Levinson, Hulver, Neuman; November 3, 2022)",
+   "url": "https://www.kff.org/health-costs/hospital-charity-care-how-it-works-and-why-it-matters/",
+   "record_title": "Hospital Charity Care: How It Works and Why It Matters",
+   "version_or_date": "Published Nov 3, 2022 (page metadata modified 2025-08-09)",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Issue brief. Numbers it reports from other studies (58% nonprofit share from AHA; 200%/400% FPL thresholds from Bai et al., Med Care Res Rev 2022;79(3):458-468, PMID 34433353; 11-state count from a 2021 NCLC report) are no longer cited to KFF per spec 4.4. Bai et al. abstract (PubMed) does not state the thresholds and no free full text exists, so the thresholds were cut. KFF is now cited only for qualitative statements.",
+   "claims": [
+    {
+     "text": "Each hospital sets its own criteria, which vary across hospitals",
+     "quote": "Hospitals have broad flexibility to establish their own eligibility criteria for charity care, and as a result, eligibility criteria vary across hospitals.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Many hospitals tie eligibility to income as a share of the FPL",
+     "quote": "one analysis of a large sample of nonprofit hospitals that used the federal poverty level (FPL) to determine eligibility for free care in 2018",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Some hospitals add criteria such as limited assets or residence in the service area",
+     "quote": "such as by requiring that patients have limited assets or reside in the hospital service area",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hospitals may provide assistance to insured as well as uninsured patients",
+     "quote": "Depending on their eligibility criteria, hospitals may provide charity care to both uninsured and insured patients.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Some states require all or some hospitals to extend charity care to certain patients; some apply standards to for-profit, nonprofit and government hospitals alike",
+     "quote": "Slightly over half of all states (26 states and DC) require all or a subset of hospitals to extend eligibility for charity care to certain groups of patients ... broadly extend minimum standards to for-profit, nonprofit, and government hospitals alike.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Research found for-profit hospitals devote a similar or larger share of operating expenses to charity care than nonprofits",
+     "quote": "for-profit hospitals devote a similar share of their operating expenses to charity care as government hospitals on average and a larger or similar share as nonprofit hospitals.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "dataset",
+   "cited_as": "American Hospital Association, Fast Facts on U.S. Hospitals, 2026 (2024 AHA Annual Survey data)",
+   "url": "https://www.aha.org/statistics/fast-facts-us-hospitals",
+   "record_title": "Fast Facts on U.S. Hospitals, 2026",
+   "version_or_date": "Published 2026-02-05 (page 'Updated February 2026'); data from the 2024 AHA Annual Survey",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "ADDED as the primary source for the nonprofit share (replaces KFF's secondhand '58%'). Counts are stated, not a computed percentage. Re-check at every refresh.",
+   "claims": [
+    {
+     "text": "2,984 of 5,121 U.S. community hospitals were nongovernment not-for-profit (AHA 2026 figures from 2024 survey)",
+     "quote": "Number of U.S. Community Hospitals | 5,121 | Number of Nongovernment Not-for-Profit Community Hospitals | 2,984",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "guideline",
+   "cited_as": "eCFR, 26 CFR 1.501(r)-6, Billing and collection",
+   "url": "https://www.ecfr.gov/current/title-26/section-1.501(r)-6",
+   "record_title": "§ 1.501(r)-6 Billing and collection.",
+   "version_or_date": "eCFR Title 26 up to date as of 11/12/2026; last amended 11/09/2026",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "ADDED: the regulation itself, for the 30-day written notice and for ECA suspension while an incomplete application is being completed. Kind set to 'guideline' as the closest schema enum for a federal regulation.",
+   "claims": [
+    {
+     "text": "Written notice at least 30 days before ECAs",
+     "quote": "Provides the individual with a written notice that ... states a deadline after which such ECA(s) may be initiated that is no earlier than 30 days after the date that the written notice is provided.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hospital must suspend ECAs while giving a reasonable chance to finish an incomplete application",
+     "quote": "if an individual submits an incomplete FAP application during the application period, the hospital facility will have notified the individual ... and given the individual a reasonable opportunity to do so ... only if the hospital facility (A) Suspends any ECAs",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

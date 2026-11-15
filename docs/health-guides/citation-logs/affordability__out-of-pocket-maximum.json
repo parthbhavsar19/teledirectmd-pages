@@ -1,0 +1,314 @@
+{
+  "guide": "affordability/out-of-pocket-maximum",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 0 verified (no journal references or DOIs in this guide; all ten references are government pages or a policy research brief), retractions: none",
+  "references": [
+    {
+      "n": 1,
+      "kind": "agency_page",
+      "cited_as": "HealthCare.gov, Out-of-pocket maximum/limit",
+      "url": "https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/",
+      "record_title": "Out-of-pocket maximum/limit (HealthCare.gov glossary)",
+      "record_journal": "HealthCare.gov (CMS)",
+      "version_or_date": "page lists plan years 2026 and 2027; read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F8X3T4W8TQJE8N91GW5AZ2)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Out-of-pocket maximum is the yearly ceiling on what you pay for covered in-network care (key takeaway, deductible section, FAQ 1)",
+          "quote": "The most you have to pay for covered services in a plan year. After you spend this amount on deductibles, copayments, and coinsurance for in-network care and services, your health plan pays 100% of the costs of covered benefits.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "2026 Marketplace limit no more than $10,600 individual / $21,200 family; 2027 $12,000 / $24,000 (takeaway, limits section, FAQ 2, family section)",
+          "quote": "The out-of-pocket limit for a Marketplace plan for plan year: 2026: No more than $10,600 for an individual or $21,200 for a family 2027: No more than $12,000for an individual or $24,000 for a family",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Deductibles, copays and coinsurance for in-network covered care count; once reached the plan pays 100% of covered benefits (what-counts section, deductible section, FAQ 3, FAQ 4)",
+          "quote": "After you spend this amount on deductibles, copayments, and coinsurance for in-network care and services, your health plan pays 100% of the costs of covered benefits.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Premiums, uncovered services, out-of-network care and costs above the allowed amount do not count (takeaway, exclusions list, FAQ 3, FAQ 9, planning section 'not counting premiums')",
+          "quote": "The out-of-pocket limit doesn't include: Your monthly premiums ... Anything you spend for services your plan doesn't cover ... Out-of-network care and services ... Costs above the allowed amount for a service that a provider may charge",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQ 6: premium does not count; you pay it whether or not you use care",
+          "quote": "The out-of-pocket limit doesn't include: Your monthly premiums ... A monthly amount you pay for coverage whether you get services or not.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Deductible spending counts toward the out-of-pocket maximum, so the deductible is part of the ceiling",
+          "quote": "After you spend this amount on deductibles, copayments, and coinsurance for in-network care and services",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "Figures are labeled by HealthCare.gov as Marketplace-plan limits; the page now says so. The glossary pop-up text for 'premiums' sits inline in the page."
+    },
+    {
+      "n": 2,
+      "kind": "agency_page",
+      "cited_as": "HealthCare.gov, Deductible",
+      "url": "https://www.healthcare.gov/glossary/deductible/",
+      "record_title": "Deductible (HealthCare.gov glossary)",
+      "record_journal": "HealthCare.gov (CMS)",
+      "version_or_date": "undated glossary page, read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F8X3T4W8TQJE8N91GW5AZ2)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Deductible is what you pay for covered services before the plan starts to pay; many plans pay for certain services, like a checkup, before it is met (deductible section, FAQ 1)",
+          "quote": "The amount you pay for covered health care services before your insurance plan starts to pay. ... Many plans pay for certain services, like a checkup or disease management programs, before you've met your deductible.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "After the deductible you usually pay copays or coinsurance",
+          "quote": "After you pay your deductible, you usually pay only a copayment or coinsurance for covered services.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "Replaces old ref 2 (HealthCare.gov, Out-of-pocket costs), which did not say what counts toward the out-of-pocket maximum."
+    },
+    {
+      "n": 3,
+      "kind": "agency_page",
+      "cited_as": "HealthCare.gov, Coinsurance",
+      "url": "https://www.healthcare.gov/glossary/co-insurance/",
+      "record_title": "Coinsurance (HealthCare.gov glossary)",
+      "record_journal": "HealthCare.gov (CMS)",
+      "version_or_date": "undated glossary page, read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F8X3T4W8TQJE8N91GW5AZ2)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Worked example: $3,000 deductible, 20% coinsurance, $12,000 allowed costs; you pay $3,000 + $1,800 = $4,800, below the example plan's $6,850 out-of-pocket maximum (plan pays $7,200 by arithmetic)",
+          "quote": "Allowable costs are $12,000. Deductible: $3,000 Coinsurance: 20% Out-of-pocket maximum: $6,850 ... So your total out-of-pocket costs would be $4,800",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Figure, $25,000 year: once costs reach $6,850 you pay only that and the plan pays for covered services for the rest of the plan year (split $3,000 + $3,850 and plan's $18,150 are arithmetic)",
+          "quote": "If your total out-of-pocket costs reach $6,850, you'd pay only that amount, including your deductible and coinsurance. The insurance company would pay for all covered services for the rest of your plan year.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQ 4: after reaching the maximum the plan pays for covered services for the rest of the plan year",
+          "quote": "The insurance company would pay for all covered services for the rest of your plan year.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "other_web",
+      "cited_as": "Garrett B, Holahan J. Adding a Maximum Out-of-Pocket Cap to Medicare Part A and Part B: Effects on Beneficiary and Program Spending. Urban Institute, June 2026",
+      "url": "https://www.urban.org/sites/default/files/2026-06/Adding_a_Maximum_Out-of-Pocke_Cap_to_Medicare_Part_A_and_Part_B.pdf",
+      "record_title": "Adding a Maximum Out-of-Pocket Cap to Medicare Part A and Part B: Effects on Beneficiary and Program Spending",
+      "record_journal": "Urban Institute (research brief, Bowen Garrett and John Holahan)",
+      "version_or_date": "June 2026; read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F8X3T4W8TQJE8N91GW5AZ2)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "In 2026 Part B has a $283 yearly deductible and 20 percent coinsurance on most services, and there is no cap on cost-sharing payments in traditional Medicare",
+          "quote": "In 2026, Part B has a deductible of $283 per year and requires 20 percent coinsurance on most services. There is no cap on cost-sharing payments in traditional Medicare (TM).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "Policy research brief, not a government source; now used only for the Part B figures and the no-cap statement. The 'which is why Medigap exists' wording was removed; Medicare.gov (ref 8) is cited for the Medigap point.",
+      "record_year": "2026"
+    },
+    {
+      "n": 5,
+      "kind": "agency_page",
+      "cited_as": "U.S. Departments of Labor, HHS, and the Treasury, FAQs About Affordable Care Act Implementation (Part XXVII), May 26, 2015",
+      "url": "https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/downloads/aca-faqs-part-xxvii-moop-2706-final.pdf",
+      "record_title": "FAQs About Affordable Care Act Implementation (Part XXVII)",
+      "record_journal": "U.S. Departments of Labor, Health and Human Services, and the Treasury",
+      "version_or_date": "May 26, 2015; read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F8X3T4W8TQJE8N91GW5AZ2)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Since 2016 the self-only (individual) limit applies to each person, including someone in family coverage (takeaway, family section, FAQ 7)",
+          "quote": "the self-only maximum annual limitation on cost sharing applies to an individual who is enrolled in family coverage or other coverage that is not self-only coverage under a group health plan.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Applies from 2016 plan years",
+          "quote": "The Departments will apply this clarification only for plan or policy years that begin in or after 2016.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Aggregate family limit: one person stops at the individual limit while family total continues to the plan's aggregate limit",
+          "quote": "cost sharing for individual #1 for 2016 is limited to $6,850, and the plan is required to bear the difference",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "A plan may set a limit below the federal maximum",
+          "quote": "a plan is permitted to set an annual limitation below the maximum established under section 1302(c)(1)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Grandfathered plans are not subject to the rule (it applies to non-grandfathered plans)",
+          "quote": "PHS Act section 2707(b) applies this requirement to all non-grandfathered group health plans, including non-grandfathered self-insured and large group health plans.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "agency_page",
+      "cited_as": "CMS, Premium Adjustment Percentage and Maximum Annual Limitation on Cost Sharing for 2025, November 15, 2023",
+      "url": "https://www.cms.gov/files/document/2025-papi-parameters-guidance-2023-11-15.pdf",
+      "record_title": "Premium Adjustment Percentage, Maximum Annual Limitation on Cost Sharing, Reduced Maximum Annual Limitation on Cost Sharing, and Required Contribution Percentage for the 2025 Benefit Year",
+      "record_journal": "Centers for Medicare & Medicaid Services (HHS guidance)",
+      "version_or_date": "Guidance dated November 15, 2023 (2025 benefit year); read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F8X3T4W8TQJE8N91GW5AZ2)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "2025 limits were $9,200 and $18,400",
+          "quote": "the 2025 maximum annual limitation on cost sharing is $9,200 for self-only coverage and $18,400 for other than self-only coverage.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "record_year": "2023"
+    },
+    {
+      "n": 7,
+      "kind": "agency_page",
+      "cited_as": "CMS, Premium Adjustment Percentage, Maximum Annual Limitation on Cost Sharing, Reduced Maximum Annual Limitation on Cost Sharing, and Required Contribution Percentage for the 2027 Benefit Year, January 29, 2026",
+      "url": "https://www.cms.gov/files/document/2027-papi-parameters-guidance-2026-01-29.pdf",
+      "record_title": "Premium Adjustment Percentage, Maximum Annual Limitation on Cost Sharing, Reduced Maximum Annual Limitation on Cost Sharing, and Required Contribution Percentage for the 2027 Benefit Year",
+      "record_journal": "Centers for Medicare & Medicaid Services (HHS guidance)",
+      "version_or_date": "Guidance dated January 29, 2026 (2027 benefit year); read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F8X3T4W8TQJE8N91GW5AZ2)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "There is a federal ceiling on how high a plan can set the limit",
+          "quote": "cost sharing for self-only coverage may not exceed the dollar limit for calendar year 2014 increased by an amount equal to the product of that amount and the premium adjustment percentage for 2027.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Federal limits: 2027 $12,000 self-only / $24,000 other; 2026 $10,600 / $21,200 (takeaway, limits section, FAQ 2)",
+          "quote": "the 2027 maximum annual limitation on cost sharing is $12,000 for self-only coverage and $24,000 for other than self-only coverage. This represents an approximately 13.2 percent increase from the 2026 parameters of $10,600 for self-only coverage and $21,200",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "2027 reduced (CSR) limit $4,000 self-only / $8,000 other for household income 100 to 200 percent FPL",
+          "quote": "establishing the values of the 2027 reduced maximum annual limitation on cost sharing at $4,000 for enrollees with household income greater than or equal to 100 percent of the federal poverty level (FPL)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Other-than-self-only reduced limit $8,000 and the 150-200 percent FPL band",
+          "quote": "Individuals eligible for CSRs under § 155.305(g)(2)(ii) (household income greater than 150 and less than or equal to 200 percent of FPL) | $4,000 | $8,000",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "New primary source for the 2026 and 2027 federal limits and the 2027 CSR limits. CMS uses 'self-only' and 'other than self-only'; the guide's 'individual' and 'family' follow HealthCare.gov.",
+      "record_year": "2026"
+    },
+    {
+      "n": 8,
+      "kind": "agency_page",
+      "cited_as": "Medicare.gov, Costs",
+      "url": "https://www.medicare.gov/basics/costs/medicare-costs",
+      "record_title": "Costs (Medicare.gov)",
+      "record_journal": "Medicare.gov (CMS)",
+      "version_or_date": "tables for 2026; read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F8X3T4W8TQJE8N91GW5AZ2)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Original Medicare has no yearly out-of-pocket limit unless you have supplemental coverage such as Medigap or join a Medicare Advantage Plan (takeaway, Medicare section, FAQ 8)",
+          "quote": "There's no yearly limit on what you pay out-of-pocket, unless you have supplemental coverage, like a Medicare Supplement Insurance (Medigap) policy or join a Medicare Advantage Plan (Part C)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Medigap usually helps pay your share of costs like deductibles and coinsurance for Part A and Part B services",
+          "quote": "Medigap usually helps pay your portion of the costs (like deductibles and coinsurance) for services that Part A and Part B cover in Original Medicare.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "New source; replaces the Urban brief for the Medigap and no-yearly-limit statements."
+    },
+    {
+      "n": 9,
+      "kind": "agency_page",
+      "cited_as": "HealthCare.gov, Plan year",
+      "url": "https://www.healthcare.gov/glossary/plan-year/",
+      "record_title": "Plan year (HealthCare.gov glossary)",
+      "record_journal": "HealthCare.gov (CMS)",
+      "version_or_date": "undated glossary page, read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F8X3T4W8TQJE8N91GW5AZ2)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "A plan year is a 12-month period that may not match the calendar year; check plan documents or ask your employer (planning section, FAQ 5)",
+          "quote": "A 12-month period of benefits coverage under a group health plan. This 12-month period may not be the same as the calendar year. To find out when your plan year begins, you can check your plan documents or ask your employer.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "New source; replaces the unsourced 'usually on January 1' and 'reset in January' wording."
+    },
+    {
+      "n": 10,
+      "kind": "agency_page",
+      "cited_as": "HealthCare.gov, Cost-sharing reductions",
+      "url": "https://www.healthcare.gov/lower-costs/save-on-out-of-pocket-costs/",
+      "record_title": "Cost-sharing reductions (HealthCare.gov; page heading \"Saving money on health insurance\")",
+      "record_journal": "HealthCare.gov (CMS)",
+      "version_or_date": "undated page, read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F8X3T4W8TQJE8N91GW5AZ2)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "If your income qualifies you for cost-sharing reductions, you must pick a Silver plan to get the extra savings on out-of-pocket costs",
+          "quote": "If you qualify for cost-sharing reductions: You must pick a plan in the Silver category ... to get these extra savings on out-of-pocket costs.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ],
+  "quote_note": "Quotes are visible page or PDF text. HealthCare.gov and Medicare.gov place glossary pop-up definitions inline between words; those pop-up texts and list bullets are omitted except where quoted, and ' ... ' joins two passages from the same page. Ref 1's 2027 line is copied as rendered ('$12,000for')."
+}
