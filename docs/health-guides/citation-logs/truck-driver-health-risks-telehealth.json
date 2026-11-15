@@ -1,0 +1,452 @@
+{
+  "guide": "truck-driver-health-risks-telehealth",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 8 verified, retractions: none (no editorial notices; PubMed article types show no Retracted Publication or Retraction Notice; one contrasting citation flagged for ref 9 on sleep hours, not bearing on cited claims)",
+  "references": [
+    {
+      "n": 1,
+      "cited_as": "Centers for Disease Control and Prevention, National Institute for Occupational Safety and Health (NIOSH). Long-Haul Truck Drivers. Motor Vehicle Safety at Work. Updated July 29, 2024. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/niosh/motor-vehicle/long-haul-truck-drivers/index.html",
+      "kind": "agency_page",
+      "retrieved_with": "WebFetch of official CDC/NIOSH page (verbatim sentence extraction)",
+      "version_or_date": "Updated July 29, 2024; Reviewed July 29, 2024",
+      "notes": "Page states higher heart disease rates among truck drivers; NIOSH survey (ref 9) found self-reported diagnosed heart disease lower (4.4% vs 6.7%). Attribution kept to the CDC page; flagged in CHANGES.md.",
+      "claims": [
+        {
+          "text": "NIOSH: truck drivers have higher rates of heart disease, diabetes, hypertension and obesity than U.S. adult workers",
+          "quote": "Compared to U.S. adult workers, truck drivers have higher rates of heart disease, diabetes, hypertension, and obesity.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Truck stops may not have exercise facilities or well-lit walking paths; healthy food hard to find on the road",
+          "quote": "Truck stops may not have exercise facilities or well-lit walking paths. ... Healthy food options and opportunities to exercise can be hard to find on the road.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 2,
+      "cited_as": "Robbins RB, Thiese MS, Ott U, et al. Metabolic Syndrome in Commercial Truck Drivers: Prevalence, Associated Factors, and Comparison With the General Population. Journal of Occupational and Environmental Medicine. 2020;62(7):453-459. doi:10.1097/JOM.0000000000001863.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32730019/",
+      "kind": "journal",
+      "pmid": "32730019",
+      "doi": "10.1097/JOM.0000000000001863",
+      "record_title": "Metabolic Syndrome in Commercial Truck Drivers: Prevalence, Associated Factors, and Comparison With the General Population.",
+      "record_journal": "J Occup Environ Med",
+      "record_year": "2020",
+      "article_type": "Journal Article (multistate cross-sectional study)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "notes": "Authors corrected from 'Crizzle AM' to Robbins RB, Thiese MS, et al.; link changed from an unretrieved CDC Stacks PDF to the PubMed record.",
+      "claims": [
+        {
+          "text": "Truck drivers 2.7 times more likely to have metabolic syndrome than general working population",
+          "quote": "Truck drivers were 2.7 times more likely to have MetS compared to the general working population.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "817 commercial truck drivers; 52.4% had metabolic syndrome",
+          "quote": "Overall MetS prevalence was 52.4% (n = 428) of the 817 participants.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "21.2% met the elevated blood pressure criterion",
+          "quote": "elevated blood pressure (n = 175, 21.2%)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Metabolic syndrome defined as at least three of five criteria: waist circumference, low HDL, triglycerides, blood pressure, hemoglobin A1c",
+          "quote": "categorized with metabolic syndrome (MetS) if they had at least three of the five modified criteria ... waist circumference ... low HDL cholesterol ... elevated triglycerides ... elevated blood pressure ... elevated hemoglobin A1c",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 3,
+      "cited_as": "Tahernejad S, Makki F, Bameri A, et al. Musculoskeletal disorders among truck drivers: a systematic review and meta-analysis. BMC Public Health. 2024;24(1):3146. doi:10.1186/s12889-024-20611-9.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11562078/",
+      "kind": "journal",
+      "pmid": "39538187",
+      "pmcid": "PMC11562078",
+      "doi": "10.1186/s12889-024-20611-9",
+      "record_title": "Musculoskeletal disorders among truck drivers: a systematic review and meta-analysis.",
+      "record_journal": "BMC Public Health",
+      "record_year": "2024",
+      "article_type": "Systematic Review; Meta-Analysis",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "notes": "Authors (Tahernejad S et al.), volume and article number added. The unsupported '53% lower back meta-prevalence' claim was cut; the source reports 23.46% for the lower back.",
+      "claims": [
+        {
+          "text": "15 studies, 2,662 truck drivers; 61.75% have MSDs",
+          "quote": "15 articles were included in the meta-analysis, involving 2,662 truck drivers. The findings from the research show that 61.75% of truck drivers have musculoskeletal disorders (MSDs)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Regional prevalence: shoulder 31.5%, neck 25.79%, lower back 23.46%, knee 22.26%, upper back 18.65%",
+          "quote": "shoulder (31.5%), neck (25.79%), lower back (23.46%), knee (22.26%), ankle (20.46%), wrist (20.25%), upper back (18.65%)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 4,
+      "cited_as": "Crizzle AM, McLean M, Malkin J. Risk Factors for Depressive Symptoms in Long-Haul Truck Drivers. International Journal of Environmental Research and Public Health. 2020;17(11):3764. doi:10.3390/ijerph17113764.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7312166/",
+      "kind": "journal",
+      "pmid": "32466469",
+      "pmcid": "PMC7312166",
+      "doi": "10.3390/ijerph17113764",
+      "record_title": "Risk Factors for Depressive Symptoms in Long-Haul Truck Drivers.",
+      "record_journal": "Int J Environ Res Public Health",
+      "record_year": "2020",
+      "article_type": "Journal Article (cross-sectional convenience sample)",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC); Scite verify_papers",
+      "claims": [
+        {
+          "text": "107 Canadian long-haul drivers at truck stops; 44% reported depressive symptoms in past 12 months",
+          "quote": "a sample of 107 LHTDs (mean age of 50.7 ± 12.3; 95.6% were men) at truck stops from five Western Canadian cities. The findings show that 44% of LHTDs reported symptoms of depression in the past 12 months.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "80% had no professional mental health treatment and 85% no psychiatric medication in past year",
+          "quote": "85% of drivers who reported depressive symptoms had not received any form of psychiatric medication and 80% had not received any professional mental health treatment in the past year.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Significant predictors: severe work stress, psychiatric medication use, broken sleep",
+          "quote": "Severe work-related stress, the use of psychiatric medications and broken sleep were significant predictors of depressive symptomology",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Severe work stress almost 4x, broken sleep more than 5x the odds",
+          "quote": "the odds of having depressive symptoms were 3.778 times greater for those with severe work-related stress (CI = 1.031, 13.845), 5.148 times greater for those with broken sleep",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Long hours, time pressure, social isolation associated with psychological strain",
+          "quote": "work-related factors such as long work hours, constant time pressures, social isolation, poor driving conditions, fear of violence, and low levels of job satisfaction and control are associated with psychological strain and emotional distress",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 5,
+      "cited_as": "Pimentel C, Amorim D, Santos C, et al. Obstructive Sleep Apnea Syndrome in Heavy Truck Drivers: A Portuguese Prospective Cohort Study. Cureus. 2024;16(2):e54047. doi:10.7759/cureus.54047.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10934001/",
+      "kind": "journal",
+      "pmid": "38481900",
+      "pmcid": "PMC10934001",
+      "doi": "10.7759/cureus.54047",
+      "record_title": "Obstructive Sleep Apnea Syndrome in Heavy Truck Drivers: A Portuguese Prospective Cohort Study.",
+      "record_journal": "Cureus",
+      "record_year": "2024",
+      "article_type": "Journal Article (single-company cohort, n=86)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "notes": "Authors (Pimentel C et al.) added. The '28% to nearly 50%' and '6-17%' figures previously cited here are not in this paper; replaced with refs 10 and 11.",
+      "claims": [
+        {
+          "text": "2024 Portuguese study of 86 heavy truck drivers: OSA in 77.9% by home sleep apnea testing",
+          "quote": "A total of 86 truck drivers were included ... After performing an HSAT, it was found that 77.9% of drivers (n=67) had OSA",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 6,
+      "cited_as": "Federal Motor Carrier Safety Administration (FMCSA). Section § 391.41(b)(6): Driver Safety & Health-Medical Requirements (Guidance Q&A, hypertension standard). Issued April 1, 2014. Accessed November 15, 2026.",
+      "url": "https://www.fmcsa.dot.gov/regulations/medical/section-ss-39141b6-driver-safety-health-medical-requirements",
+      "kind": "guideline",
+      "retrieved_with": "WebFetch of official FMCSA page (verbatim sentence extraction)",
+      "version_or_date": "Guidance Q&A, Effective/Issued April 1, 2014",
+      "claims": [
+        {
+          "text": "BP below 140/90 may be certified for 2 years; driver treated for hypertension should have at least annual certification",
+          "quote": "A CMV driver with a Blood pressure (BP) <140/90 may be certified for 2 years. ... A driver with a diagnosis of hypertension on treatment should have at least an annual certification.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FMCSA guidance ties blood pressure to certification eligibility (table, with ref 12)",
+          "quote": "Stage 1 - BP 140-159/90-99 Certification Period 1 year ... Stage 2 - BP 160-179/100-109 Certification Period 3 months as one time certification ... Stage 3 - BP Reading >180/110 Disqualified.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 7,
+      "cited_as": "National Institute for Occupational Safety and Health (NIOSH). Carcinogenic Effects of Exposure to Diesel Exhaust. Current Intelligence Bulletin 50. DHHS (NIOSH) Publication No. 88-116. August 1988.",
+      "url": "https://www.cdc.gov/niosh/media/pdfs/2026/06/88-116.pdf",
+      "kind": "agency_page",
+      "retrieved_with": "WebFetch of the bulletin PDF on cdc.gov (verbatim sentence extraction)",
+      "version_or_date": "Current Intelligence Bulletin 50, August 1988 (NIOSH Publication No. 88-116)",
+      "notes": "Old link (cdc.gov/niosh/docs/88-116/default.html) returned only a noindex stub this run; replaced with the bulletin PDF on cdc.gov. Headache, chronic cough, COPD/emphysema claims previously attributed here are not in the bulletin and were cut or moved to ref 8 where it supports them.",
+      "claims": [
+        {
+          "text": "NIOSH: whole diesel exhaust should be regarded as a potential occupational carcinogen",
+          "quote": "NIOSH recommends that whole diesel exhaust be regarded as a potential occupational carcinogen",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Minimizing exposure should decrease cancer probability; employers reduce exposures to lowest feasible limits",
+          "quote": "the probability of developing cancer should be decreased by minimizing exposure ... reduce exposures to the lowest feasible limits",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 8,
+      "cited_as": "Harris C, Vance DE, Heaton K. Diesel Engine Exhaust Exposure in Relation to Lung Cancer in Long-Haul Truck Drivers: An Eight-Step Concept Analysis. Workplace Health & Safety. 2024;72(8):314-326. doi:10.1177/21650799241248388.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38722109/",
+      "kind": "journal",
+      "pmid": "38722109",
+      "doi": "10.1177/21650799241248388",
+      "record_title": "Diesel Engine Exhaust Exposure in Relation to Lung Cancer in Long-Haul Truck Drivers: An Eight-Step Concept Analysis.",
+      "record_journal": "Workplace Health Saf",
+      "record_year": "2024",
+      "article_type": "Review (concept analysis)",
+      "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+      "notes": "Was cited as 'PubMed/NCBI', no authors; now Harris C, Vance DE, Heaton K, Workplace Health Saf. Described in text as a literature-based concept analysis, not an exposure study; 'at documented exposure levels' removed.",
+      "claims": [
+        {
+          "text": "Diesel exhaust is a mixture of gases and particulates",
+          "quote": "Diesel engine exhaust was identified as a mixture of gases and particulates that are considered carcinogenic.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Respiratory effects: decreased peak flow, increased airway resistance; phlegm cough, eye/throat irritation, asthma exacerbation, allergic responses",
+          "quote": "respiratory effects such as decreased peak flow and increased airway resistance leading to symptoms such as a phlegm-producing cough, eye and throat irritation, exacerbation of asthma symptoms, and allergic responses",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Lung cancer identified as a significant consequence of occupational exposure for LHTDs",
+          "quote": "Lung cancer was identified as a significant consequence of occupational DEE exposure for LHTDs.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 9,
+      "cited_as": "Sieber WK, Robinson CF, Birdsey J, et al. Obesity and other risk factors: the national survey of U.S. long-haul truck driver health and injury. American Journal of Industrial Medicine. 2014;57(6):615-626. doi:10.1002/ajim.22293.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4511102/",
+      "kind": "journal",
+      "pmid": "24390804",
+      "pmcid": "PMC4511102",
+      "doi": "10.1002/ajim.22293",
+      "record_title": "Obesity and other risk factors: the national survey of U.S. long-haul truck driver health and injury.",
+      "record_journal": "Am J Ind Med",
+      "record_year": "2014",
+      "article_type": "Journal Article (national cross-sectional survey, n=1,670, data 2010)",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC); Scite verify_papers",
+      "notes": "Added as the primary source for the NIOSH survey figures previously attributed to the CDC web page (ref 1) or to ref 2. Scite flagged one contrasting citation (10.1177/21650799261454291) about drivers' average sleep hours; it does not bear on the claims cited here.",
+      "claims": [
+        {
+          "text": "61% reported two or more of six risk factors",
+          "quote": "Sixty-one percent reported having two or more of the risk factors: hypertension, obesity, smoking, high cholesterol, no physical activity, 6 or fewer hours of sleep per 24-hr period.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "18% delayed or did not receive needed care in prior 12 months, twice the NHIS rate",
+          "quote": "Eighteen percent had delayed, or had not received, needed health care in the previous 12 months, twice that in the 2010 NHIS",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hypertension 26.3% vs 24.1%, not different",
+          "quote": "the prevalence of hypertension was not different from that reported by the NHIS (26.3% vs. 24.1%).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Diabetes 14.4% vs 6.8% of U.S. working adults, significantly elevated",
+          "quote": "diabetes mellitus was significantly elevated (14.4% vs. 6.8%,<0.05)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "69% obese and 23% overweight",
+          "quote": "Although the prevalence of overweight workers in the U.S. adult working population (35%) was higher than in LHTD (23%), 69% of LHTD were obese compared to 31% in the U.S. adult working population.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Obesity associated with diabetes, heart disease, hypertension, high cholesterol, sleep apnea",
+          "quote": "Obesity has been associated with numerous health conditions, including heart disease, diabetes mellitus, hypertension, high cholesterol, and sleep apnea",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "69% obese vs 31% of U.S. working adults, about twice",
+          "quote": "Obesity (69% vs. 31%, P < 0.01) and current smoking (51% vs. 19%, P < 0.01) were twice as prevalent in long-haul truck drivers as in the 2010 U.S. adult working population.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Morbid obesity 17% vs 7%",
+          "quote": "17% were morbidly obese (BMI ≥ 40 kg/m) ... only one-third of U.S. working adults were reported to be obese and 7% morbidly obese by the 2010 NHIS",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 10,
+      "cited_as": "Federal Motor Carrier Safety Administration (FMCSA). Driving When You Have Sleep Apnea. Last updated February 19, 2014. Accessed November 15, 2026.",
+      "url": "https://www.fmcsa.dot.gov/driver-safety/sleep-apnea/driving-when-you-have-sleep-apnea",
+      "kind": "agency_page",
+      "retrieved_with": "WebFetch of official FMCSA page (verbatim sentence extraction)",
+      "version_or_date": "Last updated February 19, 2014; cites Pack, Dinges & Maislin 2002 (Report No. DOT-RT-02-030)",
+      "claims": [
+        {
+          "text": "Almost one-third (28%) of commercial truck drivers have mild to severe sleep apnea; study conducted by University of Pennsylvania, sponsored by FMCSA",
+          "quote": "A study conducted by the University of Pennsylvania and sponsored by the Federal Motor Carrier Safety Administration (FMCSA) ... found that almost one-third (28 percent) of commercial truck drivers have mild to severe sleep apnea.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Untreated sleep apnea raises risk of fatigue-related crash",
+          "quote": "people with untreated sleep apnea have an increased risk of being involved in a fatigue-related motor vehicle crash.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Diagnosis requires a sleep study, not a telehealth visit",
+          "quote": "In order to diagnose sleep apnea, your doctor may send you to a sleep center for testing.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 11,
+      "cited_as": "Senaratna CV, Perret JL, Lodge CJ, et al. Prevalence of obstructive sleep apnea in the general population: A systematic review. Sleep Medicine Reviews. 2017;34:70-81. doi:10.1016/j.smrv.2016.07.002.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27568340/",
+      "kind": "journal",
+      "pmid": "27568340",
+      "doi": "10.1016/j.smrv.2016.07.002",
+      "record_title": "Prevalence of obstructive sleep apnea in the general population: A systematic review.",
+      "record_journal": "Sleep Med Rev",
+      "record_year": "2017 (vol 34; PubMed epub date 2016-07-18)",
+      "article_type": "Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "notes": "Added so the general-population comparison uses matching severity thresholds (the old page compared a mild-to-severe driver figure with a moderate-to-severe general-population range).",
+      "claims": [
+        {
+          "text": "General population OSA 9% to 38% at AHI 5 or more; 6% to 17% at AHI 15 or more",
+          "quote": "At ≥5 events/h apnea-hypopnea index (AHI), the overall population prevalence ranged from 9% to 38% ... At ≥15 events/h AHI, the prevalence in the general adult population ranged from 6% to 17%",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 12,
+      "cited_as": "Federal Motor Carrier Safety Administration (FMCSA). Medical Examiner's Handbook, 2024 Edition. January 2024. Accessed November 15, 2026.",
+      "url": "https://www.fmcsa.dot.gov/sites/fmcsa.dot.gov/files/2024-01/Medical%20Examiner's%20Handbook%202024%20Edition_0.pdf",
+      "kind": "guideline",
+      "retrieved_with": "WebFetch of official FMCSA PDF (verbatim sentence extraction, read in two parts)",
+      "version_or_date": "Medical Examiner's Handbook, 2024 Edition (FMCSA-MED-MEH, January 2024)",
+      "claims": [
+        {
+          "text": "Stage 3 (180/110 or higher): should not be certified until 140/90 or less and treatment well tolerated",
+          "quote": "at or greater than 180 (systolic) and 110 (diastolic) is considered Stage 3 ... should not be qualified, even for a short period, until the blood pressure is reduced to 140/90 or less and treatment is well tolerated.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Stage 3 then certified every 6 months",
+          "quote": "The individual may be certified for 6 months and biannually (every 6 months) thereafter",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Stage 1 (140-159/90-99): 1-year certification",
+          "quote": "Stage 1 hypertension corresponds to a systolic blood pressure of 140−159 mmHg and/or a diastolic blood pressure of 90−99 mmHg ... may be medically certified to drive for a 1-year period.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Stage 2 (160-179/100-109): one-time 3-month certification to start or adjust treatment; at 140/90 or less may be certified 1 year",
+          "quote": "The individual may be given a one-time certification of 3 months to initiate or adjust antihypertensive drug therapy ... demonstrates a blood pressure value of 140/90 or less, ... the individual may be certified for 1 year.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Insulin-treated drivers: treating clinician completes ITDM Assessment Form MCSA-5870; certification no more than 12 months",
+          "quote": "must complete the Insulin-Treated Diabetes Mellitus Assessment Form, MCSA-5870 ... obtained certification pursuant to 49 CFR 391.46 must be certified for no more than the maximum of 12 months.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 13,
+      "cited_as": "Peterson C, Sussell A, Li J, et al. Suicide Rates by Industry and Occupation: National Violent Death Reporting System, 32 States, 2016. MMWR Morbidity and Mortality Weekly Report. 2020;69(3):57-62. doi:10.15585/mmwr.mm6903a1.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31971929/",
+      "kind": "journal",
+      "pmid": "31971929",
+      "pmcid": "PMC7367035",
+      "doi": "10.15585/mmwr.mm6903a1",
+      "record_title": "Suicide Rates by Industry and Occupation - National Violent Death Reporting System, 32 States, 2016.",
+      "record_journal": "MMWR Morb Mortal Wkly Rep",
+      "record_year": "2020",
+      "article_type": "Journal Article (CDC surveillance report)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "notes": "Added to support the previously uncited suicide-rate sentence; sentence rewritten to what the report says.",
+      "claims": [
+        {
+          "text": "Suicide rates significantly higher in Transportation and Material Moving occupations, males and females (2016, 32 states)",
+          "quote": "Rates were also significantly higher in six major occupational groups: ... 4) Transportation and Material Moving (males and females)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    }
+  ]
+}

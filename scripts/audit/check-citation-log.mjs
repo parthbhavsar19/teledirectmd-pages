@@ -20,8 +20,9 @@ const errors = [];
 const warnings = [];
 
 // Reference list: the last <ol> after the References heading.
-const refStart = html.lastIndexOf('References</h2>');
-if (refStart < 0) errors.push('guide has no "References" H2');
+// Spanish-language guides use "Referencias" for the same heading.
+const refStart = Math.max(html.lastIndexOf('References</h2>'), html.lastIndexOf('Referencias</h2>'));
+if (refStart < 0) errors.push('guide has no "References" (or "Referencias") H2');
 const refSection = refStart >= 0 ? html.slice(refStart, html.indexOf('</ol>', refStart) + 5) : '';
 const refItems = [...refSection.matchAll(/<li[\s\S]*?<\/li>/g)].map((m) => m[0]);
 const refHrefs = refItems.map((li) => (li.match(/href="([^"]+)"/) || [])[1] || null);
