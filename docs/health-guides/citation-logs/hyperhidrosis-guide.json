@@ -1,0 +1,966 @@
+{
+  "guide": "hyperhidrosis-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 12 verified (11 cited DOIs plus the cut Callejas 2010 DOI), retractions: none; PubMed article types show no Retracted Publication or Retraction Notice. Scite flagged one potential contrasting citation for Nawrocki 2019 (therapeutic options) and one for Callejas 2010, both about sex distribution, not bearing on cited claims.",
+  "references": [
+    {
+      "n": 1,
+      "kind": "journal",
+      "cited_as": "Doolittle J, Walker P, Mills T, Thurston J. Hyperhidrosis: an update on prevalence and severity in the United States. Arch Dermatol Res. 2016;308(10):743-749.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5099353/",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC5099353)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "pmid": "27744497",
+      "pmcid": "PMC5099353",
+      "doi": "10.1007/s00403-016-1697-9",
+      "record_title": "Hyperhidrosis: an update on prevalence and severity in the United States.",
+      "record_journal": "Arch Dermatol Res",
+      "record_year": "2016",
+      "article_type": "Journal Article",
+      "notes": "Survey-based estimate (online panel, self-report). One author affiliated with Brickell Biotech (developer of sofpironium). Old guide figure of 2.6 million / 1 in 6 actively treated is not in this paper and was removed.",
+      "claims": [
+        {
+          "text": "Hyperhidrosis affects an estimated 4.8% of the U.S. population, about 15.3 million people",
+          "quote": "Current results estimate the prevalence of hyperhidrosis at 4.8 %, which represents approximately 15.3 million people in the United States.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "only 51% had discussed it with a healthcare professional, most often because they did not see it as a medical condition or believed nothing could be done",
+          "quote": "only 51 % have discussed their excessive sweating with a healthcare professional. The main reasons are a belief that hyperhidrosis is not a medical condition and that no treatment options exist.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "nearly half of affected people never bring it up to a clinician",
+          "quote": "given that so many patients never see an HCP (current study estimates 49 %)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "the authors estimate that only 27% of those affected will ultimately be diagnosed (summary, body, treatment-gap chart)",
+          "quote": "Of these 15.3 million individuals, only just over half will discuss their excessive sweating with an HCP and, ultimately, only 27 % will be diagnosed.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "hyperhidrosis is sweating in excess of what is needed to regulate normal body temperature",
+          "quote": "Hyperhidrosis is a skin disorder characterized by sweating in excess of what is required to maintain regulation of normal body temperature",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "classified as primary (idiopathic, focal) or secondary (underlying condition or medication)",
+          "quote": "Primary hyperhidrosis is idiopathic; it results from over-activity of the sympathetic nerves and involves a limited body area",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "underarms most commonly reported: 65% of respondents, alone or with other areas",
+          "quote": "Sixty-five percent of respondents report experiencing axillary hyperhidrosis, either in isolation (10 % of total respondents) or in combination with other body areas (55 % of total respondents).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "head or face most often reported together with the underarms, by 29%",
+          "quote": "The most commonly cited area that co-occurs with the underarms is the head/face (29 % of total respondents).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "HDSS is a four-point, single-item scale rating tolerability and interference with daily activities",
+          "quote": "using the four-point, single-item Hyperhidrosis Disease Severity Scale (HDSS) []. The HDSS asks respondents to rate the severity of their symptoms based on tolerability and interference with daily activities.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "HDSS 3 or 4 (barely tolerable or intolerable, frequently or always interfering) is severe",
+          "quote": "severe sweating on at least one body area, as indicated by the sweating being either barely tolerable or intolerable and frequently or always interfering with daily activities.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "prescription-strength aluminum chloride antiperspirants are the recommended first-line option for most cases",
+          "quote": "Topical treatments, such as prescription strength aluminum chloride antiperspirants, are the recommended first-line treatment option for most cases of hyperhidrosis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "moderately effective short term, less satisfactory long run, skin irritation common",
+          "quote": "while they can be moderately effective in the short term, they have shown less satisfactory results in the long run and are oftentimes associated with intolerable skin irritation at the application site.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "other_web",
+      "cited_as": "American Academy of Dermatology Association. Hyperhidrosis: Diagnosis and treatment. Last updated July 16, 2024. Accessed November 15, 2026.",
+      "url": "https://www.aad.org/public/diseases/a-z/hyperhidrosis-treatment",
+      "retrieved_with": "WebFetch of official page (no bot check)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "Last updated 7/16/24",
+      "notes": "Replaces the International Hyperhidrosis Society algorithm index page (old ref 2), which did not contain any of the statements it was cited for. Oral medicine names come from the page section on oral glycopyrronium (Cuvposa, Glycate, Robinul, Robinul-Forte) and oral oxybutynin.",
+      "claims": [
+        {
+          "text": "non-prescription antiperspirants are only effective for mild hyperhidrosis",
+          "quote": "Keep in mind that non-prescription antiperspirants are only effective for treating mild hyperhidrosis.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "apply to dry skin at bedtime and let it dry completely",
+          "quote": "If an antiperspirant is part of your treatment plan, you would apply it to dry skin before bedtime. Let the antiperspirant dry completely before going to bed.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "nightly until controlled, usually within a few weeks, then usually once or twice a week",
+          "quote": "You will continue to use the antiperspirant at bedtime until the excessive sweating is under control. This usually happens within a few weeks.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "maintenance once or twice a week",
+          "quote": "you continue to apply the antiperspirant as needed, which is usually once or twice a week.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "increasing the time between applications for irritation",
+          "quote": "For irritated skin, these include increasing the amount of time between applications",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "iontophoresis: hands or feet in a pan of tap water, direct current enters the skin",
+          "quote": "To use it, you place your hands or feet in a pan of tap water. A direct electric current goes into the water and enters the surface of the skin",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FDA has cleared iontophoresis machines for hands and feet; machine can be bought for home use",
+          "quote": "The FDA has cleared this machine to treat hyperhidrosis on the hands and feet.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "home machine available",
+          "quote": "If iontophoresis is right for you, you can buy a machine to use at home.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "20 to 30 minutes, daily or once every 2 to 5 days at first",
+          "quote": "In the beginning, patients usually treat for 20 to 30 minutes. Treatment may be daily or once every 2 to 5 days.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "results usually after 5 to 10 treatments; maintenance once a week or every other week",
+          "quote": "which usually occurs after 5 to 10 treatments. ... most patients can maintain their results by treating once a week or every other week.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "most patients notice less sweating within 7 to 10 days of botulinum toxin",
+          "quote": "Most patients notice less sweating within 7 to 10 days of being treated.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "botulinum toxin duration: 3 to 10 months underarms or hands, 3 to 6 months feet, about 4.5 months face",
+          "quote": "Underarms or hands: 3 to 10 months; Feet: 3 to 6 months; Face: 4 1/2 months",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "dermatologists use botulinum toxin for underarms, hands, feet and face",
+          "quote": "Dermatologists use it to treat excessive sweating in patients' underarms, hands, feet, and face.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "oral anticholinergic side effects: dry mouth (most common), constipation, drowsiness, dilated pupils; oral glycopyrronium (glycopyrrolate) grouped with oral oxybutynin",
+          "quote": "Possible side effects include dry mouth (most common), constipation, drowsiness, dilated pupils",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "avoid hot temperatures; fever or heat stroke can occur",
+          "quote": "it's essential to avoid hot temperatures since decreased sweating can make it difficult for your body to cool itself. ... A fever or heat stroke can occur if your body cannot cool itself.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "microwave thermolysis cleared for underarms, 1 or 2 office visits, long-lasting",
+          "quote": "The FDA has cleared this device to treat hyperhidrosis in the underarms. ... The device destroys sweat glands in 1 or 2 office visits. ... This treatment can give patients long-lasting results.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "microwave thermolysis is expensive and not covered by most insurance (summary, changes, cost intro, FAQ)",
+          "quote": "However, it is expensive and not covered by most health insurance plans.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "microwave thermolysis side effects incl. burns and neuropathy",
+          "quote": "Possible side effects include temporary discomfort, underarm swelling, discoloration, and tenderness. ... More serious possible side effects include burns and neuropathy (lasting nerve pain).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "sympathectomy can permanently stop sweating in treated area (palms, underarms)",
+          "quote": "Surgery can permanently stop excessive sweating in the treated area.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "most patients have some compensatory sweating, mild to heavy, belly/legs/back",
+          "quote": "Most patients have some degree of compensatory sweating, which ranges from mild to heavy. ... It develops with time and usually occurs on the belly, legs, or back.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "other sympathectomy side effects: dryness in treated area, return of sweating",
+          "quote": "Other possible side effects include excessive dryness in the area treated and a return of excessive sweating.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "guideline",
+      "cited_as": "Solish N, Bertucci V, Dansereau A, et al. A comprehensive approach to the recognition, diagnosis, and severity-based treatment of focal hyperhidrosis: recommendations of the Canadian Hyperhidrosis Advisory Committee. Dermatol Surg. 2007;33(8):908-923.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17661933/",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "pmid": "17661933",
+      "doi": "10.1111/j.1524-4725.2007.33192.x",
+      "record_title": "A comprehensive approach to the recognition, diagnosis, and severity-based treatment of focal hyperhidrosis: recommendations of the Canadian Hyperhidrosis Advisory Committee.",
+      "record_journal": "Dermatol Surg",
+      "record_year": "2007",
+      "article_type": "Practice Guideline",
+      "version_or_date": "2007 consensus",
+      "notes": "Abstract only. Link changed from sweathelp.org Solish_2005.pdf (a different paper) to the PubMed record. No longer cited for 2016 prevalence figures or for family-history and HDSS-to-sweat-reduction claims (cut).",
+      "claims": [
+        {
+          "text": "mild (HDSS 2) axillary, palmar, plantar disease starts with topical aluminum chloride",
+          "quote": "Mild axillary, palmar, and plantar hyperhidrosis (HDSS score of 2) should initially be treated with topical aluminum chloride (AC).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "if AC fails, botulinum toxin A (axillae, palms, soles) and iontophoresis (palms, soles) are second-line",
+          "quote": "If the patient fails to respond to AC therapy, botulinum toxin A (BTX-A; axillae, palms, soles) and iontophoresis (palms, soles) should be the second-line therapy.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "HDSS 3 or 4: botulinum toxin A and topical AC both first-line; iontophoresis also first-line for palms and soles",
+          "quote": "In severe cases of axillary, palmar, and plantar hyperhidrosis (HDSS score of 3 or 4), both BTX-A and topical AC are first-line therapy. Iontophoresis is also first-line therapy for palmar and plantar hyperhidrosis.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "HDSS used to tailor treatment; decision table adapted from this severity- and location-based algorithm",
+          "quote": "An algorithm was designed to consider both disease severity and location. The Hyperhidrosis Disease Severity Scale (HDSS) provides a qualitative measure that allows tailoring of treatment.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "ETS reserved for palms and soles after failure of all other treatment options",
+          "quote": "Local surgery (axillary) and endoscopic thoracic sympathectomy (palms and soles) should only be considered after failure of all other treatment options.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Glaser DA, Hebert AA, Nast A, et al. Topical glycopyrronium tosylate for the treatment of primary axillary hyperhidrosis: Results from the ATMOS-1 and ATMOS-2 phase 3 randomized controlled trials. J Am Acad Dermatol. 2019;80(1):128-138.e2.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30003988/",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "pmid": "30003988",
+      "doi": "10.1016/j.jaad.2018.07.002",
+      "record_title": "Topical glycopyrronium tosylate for the treatment of primary axillary hyperhidrosis: Results from the ATMOS-1 and ATMOS-2 phase 3 randomized controlled trials.",
+      "record_journal": "J Am Acad Dermatol",
+      "record_year": "2019 (epub 2018)",
+      "article_type": "Clinical Trial, Phase III; Randomized Controlled Trial",
+      "notes": "Trial product described as GT 3.75% (glycopyrronium tosylate); the marketed label describes 2.4% glycopyrronium. The 697 total comes from the Qbrexza label (ref 7), not this abstract.",
+      "claims": [
+        {
+          "text": "significantly more Qbrexza than vehicle patients achieved a 4-point or greater ASDD item 2 improvement at week 4 (59.5% vs 27.6% pooled)",
+          "quote": "significantly more GT-treated patients achieved an ASDD-Item 2 response than did those treated with vehicle (59.5% vs 27.6%), and they had reduced sweat production from baseline",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "response defined as 4-point or greater improvement on ASDD item 2; gravimetric sweat production co-primary at week 4",
+          "quote": "Coprimary endpoints were responder rate (≥4-point improvement from baseline) on item 2 (severity of sweating) of the Axillary Sweating Daily Diary (ASDD)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Naumann M, Lowe NJ. Botulinum toxin type A in treatment of bilateral primary axillary hyperhidrosis: randomised, parallel group, double blind, placebo controlled trial. BMJ. 2001;323(7313):596-599.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11557704/",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "pmid": "11557704",
+      "pmcid": "PMC55572",
+      "doi": "10.1136/bmj.323.7313.596",
+      "record_title": "Botulinum toxin type A in treatment of bilateral primary axillary hyperhidrosis: randomised, parallel group, double blind, placebo controlled trial.",
+      "record_journal": "BMJ",
+      "record_year": "2001",
+      "article_type": "Randomized Controlled Trial; Multicenter Study",
+      "notes": "Old chart labeled this trial as JAAD; it is BMJ. Pages corrected to 596-599. Old text gave 82% vs 21% without saying it was the week-16 figure.",
+      "claims": [
+        {
+          "text": "94% vs 36% responders at week 4; 82% vs 21% at week 16",
+          "quote": "At four weeks, 94% (227) of the botulinum toxin type A group had responded compared with 36% (28) of the placebo group. By week 16, response rates were 82% (198) and 21% (16), respectively.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "response defined as 50% or greater reduction in sweat production",
+          "quote": "Percentage of responders (patients with >/=50% reduction from baseline of spontaneous axillary sweat production) at four weeks",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "320 patients randomized",
+          "quote": "465 were screened, 320 randomised, and 307 completed the study.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "journal",
+      "cited_as": "Lowe NJ, Glaser DA, Eadie N, et al. Botulinum toxin type A in the treatment of primary axillary hyperhidrosis: a 52-week multicenter double-blind, randomized, placebo-controlled study of efficacy and safety. J Am Acad Dermatol. 2007;56(4):604-611.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17306417/",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "pmid": "17306417",
+      "doi": "10.1016/j.jaad.2007.01.009",
+      "record_title": "Botulinum toxin type A in the treatment of primary axillary hyperhidrosis: a 52-week multicenter double-blind, randomized, placebo-controlled study of efficacy and safety.",
+      "record_journal": "J Am Acad Dermatol",
+      "record_year": "2007",
+      "article_type": "Randomized Controlled Trial; Multicenter Study",
+      "notes": "Old guide said 4 to 6 months; source median is 197 to 205 days. Title in reference list completed (\"of efficacy and safety\"). \"Roughly 6.5 months\" is 197 to 205 days divided by about 30.4.",
+      "claims": [
+        {
+          "text": "median duration of effect 197 and 205 days vs 96 days placebo (roughly 6.5 months)",
+          "quote": "The median duration of effect was 197 days, 205 days, and 96 days in the 75-U, 50-U, and placebo groups, respectively.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "2-point HDSS improvement in 75% vs 25% placebo",
+          "quote": "A 2-point improvement on the 4-point Hyperhidrosis Disease Severity Scale (HDSS) was reported in 75% of subjects in the 75-U and 50-U BoNTA groups and in 25% of the placebo group (P < .001).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "52-week trial of 322 patients; effective and well tolerated",
+          "quote": "Subjects (N = 322) were randomized to the use of BoNTA (75 U or 50 U/axilla) or placebo in this 52-week, multicenter, double-blind study.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "well tolerated",
+          "quote": "BoNTA treatment effectively reduces the symptoms of primary axillary hyperhidrosis and is well tolerated.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "label",
+      "cited_as": "QBREXZA (glycopyrronium) cloth, for topical use. Prescribing information. DailyMed. Label revised 11/2022; DailyMed page updated May 21, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5b372650-e56e-47a5-93e2-c0c292017059",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "Revised 11/2022; DailyMed updated May 21, 2026",
+      "notes": "Replaces the 2018 accessdata.fda.gov PDF with the current DailyMed label. Adverse-reaction percentages are from the label table (quoted as table cells). Several label quotes are joined with ellipses; each fragment is verbatim.",
+      "claims": [
+        {
+          "text": "indicated for primary axillary hyperhidrosis in patients 9 years and older",
+          "quote": "Qbrexza is indicated for topical treatment of primary axillary hyperhidrosis in adult and pediatric patients 9 years of age and older.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "FDA-approved in 2018",
+          "quote": "Initial U.S. Approval: 2018",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "single-use cloth pre-moistened with 2.4% glycopyrronium solution",
+          "quote": "Cloth: A single-use cloth pre-moistened with 2.4% glycopyrronium solution.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "one cloth once daily for both underarms, not more than every 24 hours",
+          "quote": "Apply Qbrexza once daily to both axillae using a single cloth. ... Qbrexza should not be used more frequently than once every 24 hours.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "competitive inhibitor of acetylcholine receptors including sweat glands",
+          "quote": "a competitive inhibitor of acetylcholine receptors that are located on certain peripheral tissues, including sweat glands.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "ATMOS-1 and ATMOS-2 enrolled 697 subjects",
+          "quote": "enrolled a total of 697 subjects 9 years of age or older.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "dry mouth 24.2%; mydriasis and blurred vision",
+          "quote": "Dry mouth 24.2% (vehicle 5.6%); Mydriasis 6.8% (vehicle 0%); Blurred vision 3.5% (vehicle 0%)",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "warnings: urinary retention, heat illness, transient blurred vision when driving/operating machinery",
+          "quote": "5.1 New or Worsening Urinary Retention ... heat illness (hyperpyrexia and heat stroke due to decreased sweating) can occur ... Transient blurred vision may occur with use of Qbrexza.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "contraindicated in conditions worsened by anticholinergic effect, e.g., glaucoma",
+          "quote": "contraindicated in patients with medical conditions that can be exacerbated by the anticholinergic effect (e.g., glaucoma, paralytic ileus, unstable cardiovascular status in acute hemorrhage",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "wash hands immediately; avoid periocular transfer",
+          "quote": "Wash hands immediately with soap and water after applying and discarding the Qbrexza cloth. ... Avoid transfer of Qbrexza to the periocular area.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "postmarketing accidental exposures caused mydriasis, anisocoria, blurred vision, including children accessing discarded wipes",
+          "quote": "Cases of accidental exposure resulting in mydriasis, anisocoria, and blurred vision have been reported ... The exposures occurred when children accessed Qbrexza wipes discarded in trash",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "journal",
+      "cited_as": "Wolosker N, de Campos JR, Kauffman P, Puech-Leão P. A randomized placebo-controlled trial of oxybutynin for the initial treatment of palmar and axillary hyperhidrosis. J Vasc Surg. 2012;55(6):1696-1700.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22341836/",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "pmid": "22341836",
+      "doi": "10.1016/j.jvs.2011.12.039",
+      "record_title": "A randomized placebo-controlled trial of oxybutynin for the initial treatment of palmar and axillary hyperhidrosis.",
+      "record_journal": "J Vasc Surg",
+      "record_year": "2012",
+      "article_type": "Randomized Controlled Trial",
+      "claims": [
+        {
+          "text": "stepwise dosing: 2.5 mg once daily in the evening in week 1",
+          "quote": "During the first week, patients received 2.5 mg of oxybutynin once daily in the evening.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "then 2.5 mg twice daily days 8-21, then 5 mg twice daily from day 22 to week 6 (dose raised stepwise to 5 mg twice daily over 6 weeks)",
+          "quote": "From days 8 to 21, they received 2.5 mg twice daily, and from day 22 to the end of week 6, they received 5 mg twice daily.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "50 patients with palmar hyperhidrosis randomized to oxybutynin or placebo",
+          "quote": "50 consecutive patients with palmar hyperhidrosis were treated with oxybutynin or placebo.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "palmar and axillary hyperhidrosis improved in more than 70%",
+          "quote": "Palmar and axillary hyperhidrosis improved in >70% of the patients, and 47.8% of those presented great improvement.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "dry mouth most frequent side effect (47.8%)",
+          "quote": "The side effects were minor, with dry mouth being the most frequent (47.8%).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "supports low-dose oxybutynin as an initial option",
+          "quote": "Treatment of palmar and axillary hyperhidrosis with oxybutynin is a good initial alternative for treatment given that it presents good results and improves quality of life.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "journal",
+      "cited_as": "Delort S, Marchi E, Corrêa MA. Oxybutynin as an alternative treatment for hyperhidrosis. An Bras Dermatol. 2017;92(2):217-220.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5429108/",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC5429108)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "pmid": "28538882",
+      "pmcid": "PMC5429108",
+      "doi": "10.1590/abd1806-4841.201755126",
+      "record_title": "Oxybutynin as an alternative treatment for hyperhidrosis.",
+      "record_journal": "An Bras Dermatol",
+      "record_year": "2017",
+      "article_type": "Review",
+      "notes": "Narrative review; now described as a review, not a follow-up study. No numbers from this review are used (primary studies it summarizes were not retrieved).",
+      "claims": [
+        {
+          "text": "primary hyperhidrosis is symmetrical, focal, starts before 25, stops during sleep, familial predisposition",
+          "quote": "characterized by being symmetrical, most frequently reaching specified regions (mainly the axillary and palmar-plantar region), with frequency of at least once a week, starting before 25 years of age, ceasing during sleep and having a familiar predisposition.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "family predisposition supports a genetic basis",
+          "quote": "A family history has been reported, supporting a genetic basis.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "secondary causes include endocrine disorders, drugs, tumors, nervous system abnormalities",
+          "quote": "secondary to several diseases, such as endocrine disorders, drugs, tumors and abnormalities of the nervous system.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "review: oxybutynin efficient with low adverse events",
+          "quote": "Oxybutynin presents as an efficient drug with a low level of adverse events for the treatment of primary hyperhidrosis.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "longer follow-up studies encouraging but needed to establish long-term safety and results",
+          "quote": "Studies with longer follow-ups are needed to establish the drug's safety and long-term results, although recent studies are encouraging.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "sympathectomy by excision, ablation or clipping",
+          "quote": "which can be accomplished by excision, ablation or clipping of the sympathetic chain.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "journal",
+      "cited_as": "Nawrocki S, Cha J. The etiology, diagnosis, and management of hyperhidrosis: A comprehensive review: Therapeutic options. J Am Acad Dermatol. 2019;81(3):669-680.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30710603/",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "pmid": "30710603",
+      "doi": "10.1016/j.jaad.2018.11.066",
+      "record_title": "The etiology, diagnosis, and management of hyperhidrosis: A comprehensive review: Therapeutic options.",
+      "record_journal": "J Am Acad Dermatol",
+      "record_year": "2019",
+      "article_type": "Review",
+      "notes": "Abstract only. Scite flagged one contrasting citation about sex distribution of hyperhidrosis, which does not bear on the cited claims. The ETS \"over 95% success\" figure is not in this abstract and was cut.",
+      "claims": [
+        {
+          "text": "oral systemic agents reserved for treatment-resistant or generalized hyperhidrosis",
+          "quote": "Oral systemic agents are reserved for treatment-resistant cases or for generalized HH.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "iontophoresis is the primary remedy for palmar and plantar hyperhidrosis",
+          "quote": "Iontophoresis is the primary remedy for palmar and plantar HH.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "sympathectomy is last resort after accepting compensatory sweating",
+          "quote": "Sympathectomy is the treatment of last resort when conservative treatments are unsuccessful or intolerable, and after accepting secondary compensatory HH as a potential complication.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "journal",
+      "cited_as": "Bushara KO, Park DM, Jones JC, Schutta HS. Botulinum toxin--a possible new treatment for axillary hyperhidrosis. Clin Exp Dermatol. 1996;21(4):276-278.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8959898/",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "pmid": "8959898",
+      "doi": "10.1111/j.1365-2230.1996.tb00093.x",
+      "record_title": "Botulinum toxin--a possible new treatment for axillary hyperhidrosis.",
+      "record_journal": "Clin Exp Dermatol",
+      "record_year": "1996",
+      "article_type": "Journal Article",
+      "notes": "Old text said it reported reduced sweating in hyperhidrosis patients; the study injected healthy volunteers. Rewritten.",
+      "claims": [
+        {
+          "text": "botulinum toxin blocks autonomic cholinergic fibers including sympathetic fibers to sweat glands, causing localized anhidrosis",
+          "quote": "The toxin also blocks the autonomic cholinergic fibres, including the sympathetic fibres to sweat glands. We have previously demonstrated that the toxin produces localized anhidrosis.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "in healthy volunteers 50 units abolished axillary sweating; proposed as possible treatment for severe axillary hyperhidrosis",
+          "quote": "In normal individuals axillary sweating can be abolished by 50 U of botulinum toxin A (Botox). The results offer a possible novel treatment for severe cases of axillary hyperhidrosis.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "journal",
+      "cited_as": "Nawrocki S, Cha J. The etiology, diagnosis, and management of hyperhidrosis: A comprehensive review: Etiology and clinical work-up. J Am Acad Dermatol. 2019;81(3):657-666.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30710604/",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "pmid": "30710604",
+      "doi": "10.1016/j.jaad.2018.12.071",
+      "record_title": "The etiology, diagnosis, and management of hyperhidrosis: A comprehensive review: Etiology and clinical work-up.",
+      "record_journal": "J Am Acad Dermatol",
+      "record_year": "2019",
+      "article_type": "Review",
+      "claims": [
+        {
+          "text": "neurogenic overactivity of otherwise normal eccrine sweat glands",
+          "quote": "The etiology of HH may stem from a complex autonomic nervous system dysfunction, resulting in neurogenic overactivity of otherwise normal eccrine sweat glands.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "about 93% primary; more than 90% focal bilateral axillae, palms, soles, craniofacial",
+          "quote": "Approximately 93% of patients with HH have primary HH, of whom >90% have a typical focal and bilateral distribution affecting the axillae, palms, soles, and craniofacial areas.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "secondary is generalized and asymmetric, from diseases or medications; must be excluded first",
+          "quote": "Secondary HH presents in a more generalized and asymmetric distribution and is generated by various underlying diseases or medications. Secondary causes of HH need to be excluded before diagnosing primary HH.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "primary hyperhidrosis signaling: glands normal, trigger set too sensitively including emotional triggers",
+          "quote": "Alternatively, HH may be a result of aberrant central control of emotions.",
+          "quote_source": "abstract",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "diagnosed when excess sweating causes significant discomfort and harms quality of life; sweat exceeding thermoregulatory needs",
+          "quote": "Hyperhidrosis (HH) is a dermatologic disorder defined by sweat production exceeding thermoregulatory needs. Clinically, HH is diagnosed when excess sweating creates significant emotional, physical, or social discomfort",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "label",
+      "cited_as": "SOFDRA (sofpironium) gel, for topical use. Prescribing information. DailyMed. DailyMed page updated September 22, 2025.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=78f86f4f-658c-468b-bd54-49182ddcc7ac",
+      "retrieved_with": "WebFetch of DailyMed label page; first read via FDA FDALabel SPL view of the same set id (78f86f4f-658c-468b-bd54-49182ddcc7ac)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "DailyMed updated September 22, 2025",
+      "notes": "New reference. The old guide claim that sofpironium is a soft drug metabolized to an inactive form was not stated in the label (the label names metabolite BBI-4010 without calling it inactive) and was cut. The 1-pump-per-underarm sentence was read on the FDALabel view of the same SPL.",
+      "claims": [
+        {
+          "text": "FDA approval 2024",
+          "quote": "Initial U.S. Approval: 2024",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "indicated for primary axillary hyperhidrosis in adults and children 9 and older",
+          "quote": "SOFDRA is indicated for the treatment of primary axillary hyperhidrosis in adults and pediatric patients 9 years of age and older.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "12.45% gel equivalent to 15% sofpironium bromide",
+          "quote": "containing 12.45% (w/w) sofpironium (equivalent to 15% sofpironium bromide)",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "one pump per underarm, clean dry skin, once a day at bedtime",
+          "quote": "Apply 1 pump of SOFDRA per underarm once a day at bedtime. ... Apply SOFDRA to clean, dry skin once a day at bedtime.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "no showering 30 minutes before or 8 hours after",
+          "quote": "Do not shower at least 30 minutes before applying SOFDRA. ... Do not shower or wash underarms for at least 8 hours after application.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "dry mouth 14%; blurred vision, mydriasis; application-site pain, erythema, dermatitis",
+          "quote": "Dry mouth | 51 (14%) | 2 (0.6%); Vision blurred | 30 (9%); Mydriasis | 23 (7%); Pain | 29 (8%); Erythema | 23 (7%); Dermatitis | 21 (6%)",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "warnings: urinary retention, heat illness, transient blurred vision",
+          "quote": "Use SOFDRA with caution in patients with a history or presence of documented urinary retention. ... heat illness (hyperpyrexia and heat stroke due to decreased sweating) can occur ... Transient blurred vision may occur with use of SOFDRA.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "contraindicated in conditions worsened by anticholinergic effect, e.g., glaucoma",
+          "quote": "SOFDRA is contraindicated in patients with medical conditions ... (e.g., glaucoma, paralytic ileus, unstable cardiovascular status in acute hemorrhage",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "wash hands immediately; avoid periocular transfer",
+          "quote": "Wash hands immediately with soap. ... Avoid transfer of SOFDRA to the periocular area",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "journal",
+      "cited_as": "Stuart ME, Strite SA, Gillard KK. A systematic evidence-based review of treatments for primary hyperhidrosis. J Drug Assess. 2020;10(1):35-50.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7781989/",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC7781989)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "pmid": "33489435",
+      "pmcid": "PMC7781989",
+      "doi": "10.1080/21556660.2020.1857149",
+      "record_title": "A systematic evidence-based review of treatments for primary hyperhidrosis.",
+      "record_journal": "J Drug Assess",
+      "record_year": "2020",
+      "article_type": "Journal Article (systematic review)",
+      "notes": "One author employed by Dermira (Qbrexza developer). Off-label claim is partly supported: the review predates Sofdra (2024) and names the two approved agents as glycopyrronium cloth and onabotulinumtoxinA elsewhere in the text; oral glycopyrrolate label itself was not retrieved (DailyMed search returned no oral glycopyrrolate tablet label this run).",
+      "claims": [
+        {
+          "text": "miraDry FDA-cleared for primary axillary hyperhidrosis; irreversible thermolysis of apocrine and eccrine glands at skin-subcutaneous interface",
+          "quote": "Microwave therapy devices (e.g. miraDry, FDA-cleared for treatment of primary axillary hyperhidrosis) focus heat at the skin-subcutaneous tissue interface causing irreversible thermolysis of apocrine and eccrine sweat glands.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "case reports of median and ulnar nerve injury; deficits unresolved at 6 months in one patient",
+          "quote": "each present a case report for ulnar and median nerve injury following microwave thermolysis, and in one patient, significant sensory and motor deficits had not resolved at the 6-month follow-up.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "aluminum salts thought to damage sweat duct cells, creating a plug",
+          "quote": "It has been proposed that the metal ions in aluminum salts reduce sweating by damaging epithelial cells along the lumen of the sweat duct, thereby creating a plug that obstructs sweat glands.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "iontophoresis mechanism not known; hypotheses nerve transmission, pH or ion deposition",
+          "quote": "While the mechanism of action is not known, hypotheses include inhibition of nerve transmission, as well as inhibition or obstruction of sweat flow by altering pH or ion deposition in sweat ducts.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "iontophoresis studies had large response rates; insufficient evidence versus other therapies for palms",
+          "quote": "there is insufficient evidence to draw conclusions regarding the efficacy, satisfaction and safety of iontophoresis compared to other available therapies for the treatment of palmar hyperhidrosis.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "no comparative-effectiveness statements possible (combination paragraph, response chart caption)",
+          "quote": "only imprecise estimates of effect are possible for hyperhidrosis treatments included in this review, and statements about comparative effectiveness are not possible.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "fewer botulinum toxin studies for palms than underarms",
+          "quote": "Ten studies on the efficacy and safety of botulinum toxin in hyperhidrosis treatment are included in this review (six in axillary hyperhidrosis, three in palmar hyperhidrosis, and one in both",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "oral oxybutynin and glycopyrrolate used off-label (only antiperspirants and two agents FDA-approved as of 2020)",
+          "quote": "Aside from prescription-strength antiperspirants, only two pharmacological agents have been approved by the FDA for the treatment of hyperhidrosis.",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "label",
+      "cited_as": "BOTOX (onabotulinumtoxinA) for injection. Prescribing information. DailyMed. DailyMed page updated February 2, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a6f42753-d31e-4b23-8da0-4b990fee4b38",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "DailyMed updated February 2, 2026",
+      "notes": "New reference. The old \"approved in 2004\" date was not found on an FDA page this run and was removed.",
+      "claims": [
+        {
+          "text": "FDA-approved for severe axillary hyperhidrosis inadequately managed with topical agents in adults",
+          "quote": "Treatment of severe axillary hyperhidrosis that is inadequately managed by topical agents in adult patients",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "recommended dose 50 units per axilla",
+          "quote": "The recommended dose is 50 Units per axilla",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "safety and effectiveness for other body areas not established (palms, soles, face off-label)",
+          "quote": "The safety and effectiveness of BOTOX for hyperhidrosis in other body areas have not been established.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "boxed warning distant spread of toxin effect",
+          "quote": "WARNING: DISTANT SPREAD OF TOXIN EFFECT ... Postmarketing reports indicate that the effects of BOTOX and all botulinum toxin products may spread",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "most common adverse reactions in axillary hyperhidrosis",
+          "quote": "Axillary Hyperhidrosis: injection site pain and hemorrhage, non-axillary sweating, pharyngitis, flu syndrome",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "label",
+      "cited_as": "Oxybutynin chloride tablets. Prescribing information (Major Pharmaceuticals). DailyMed. DailyMed page updated September 19, 2025.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7769ad3d-6228-4b2d-8f44-4efe990d3fad",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "DailyMed updated September 19, 2025 (repackager label)",
+      "notes": "New reference.",
+      "claims": [
+        {
+          "text": "oxybutynin tablets labeled for bladder symptoms (hyperhidrosis use is off-label)",
+          "quote": "indicated for the relief of symptoms of bladder instability associated with voiding",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "heat prostration due to decreased sweating",
+          "quote": "heat prostration (fever and heat stroke due to decreased sweating) can occur",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "anticholinergic CNS effects such as drowsiness and blurred vision",
+          "quote": "Patients should be monitored for signs of anticholinergic CNS effects ... may produce drowsiness (somnolence), or blurred vision.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "cautious dose selection in older adults",
+          "quote": "dose selection for an elderly patient should be cautious",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "contraindicated in urinary retention, gastric retention, uncontrolled narrow-angle glaucoma",
+          "quote": "contraindicated in patients with urinary retention, gastric retention ... uncontrolled narrow-angle glaucoma.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "kind": "other_web",
+      "cited_as": "American Academy of Dermatology Association. Hyperhidrosis: Causes. Last updated July 16, 2024. Accessed November 15, 2026.",
+      "url": "https://www.aad.org/public/diseases/a-z/hyperhidrosis-causes",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "Last updated 7/16/24",
+      "notes": "New reference.",
+      "claims": [
+        {
+          "text": "conditions causing secondary hyperhidrosis: diabetes, Parkinson disease, rheumatoid arthritis, heart failure, stroke, menopause",
+          "quote": "Medical conditions that can cause hyperhidrosis include diabetes, Parkinson's disease, and rheumatoid arthritis. ... Heart failure and stroke can also cause secondary hyperhidrosis, as can menopause.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "medications: some antibiotics, antivirals, insulin, antidepressants",
+          "quote": "Medications that can cause secondary hyperhidrosis include some antibiotics, antivirals, insulin, and antidepressants.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "secondary hyperhidrosis can cause sweating during sleep; primary stops during sleep",
+          "quote": "Unlike primary hyperhidrosis, secondary hyperhidrosis can cause you to sweat while you're asleep.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "kind": "other_web",
+      "cited_as": "American Academy of Dermatology Association. Hyperhidrosis: Signs and symptoms. Last updated July 16, 2024. Accessed November 15, 2026.",
+      "url": "https://www.aad.org/public/diseases/a-z/hyperhidrosis-symptoms",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "Last updated 7/16/24",
+      "notes": "New reference.",
+      "claims": [
+        {
+          "text": "secondary hyperhidrosis usually causes heavy sweating over most of the body",
+          "quote": "It usually causes heavy sweating over most of the body.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}
