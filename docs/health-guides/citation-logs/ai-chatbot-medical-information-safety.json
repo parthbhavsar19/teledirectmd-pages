@@ -1,8 +1,8 @@
 {
   "guide": "ai-chatbot-medical-information-safety",
-  "checked_at": "2026-11-15",
-  "checked_by": "Claude (repair run)",
-  "scite_verify_papers": "run 2026-11-15; 5 verified (10.1136/bmjopen-2025-112695, 10.1038/s43856-025-01021-3, 10.7759/cureus.39238, 10.1038/s41591-026-04297-7, 10.3389/fdgth.2025.1574287), retractions: none; no expressions of concern, no contrasting evidence flagged. PubMed article types for all five: Journal Article (no Retracted Publication or Retraction Notice).",
+  "checked_at": "2026-11-18",
+  "checked_by": "Claude (link-worthy refresh, thread cmsg_01CDChp7gtTbvxYZqvKeVMT3Fdk1dyPoPEJQorHMhQTUyu)",
+  "scite_verify_papers": "run 2026-11-15; 5 verified (10.1136/bmjopen-2025-112695, 10.1038/s43856-025-01021-3, 10.7759/cureus.39238, 10.1038/s41591-026-04297-7, 10.3389/fdgth.2025.1574287), retractions: none; no expressions of concern, no contrasting evidence flagged. PubMed article types for all five: Journal Article (no Retracted Publication or Retraction Notice). | 2026-11-17 refresh: verify_papers on 10 new DOIs, all verified; no retractions or expressions of concern. Bean 2026 has a publisher correction (figure axis labels only). Ayers 2023 has one contrasting citing statement (10.1016/j.gore.2024.101477) in a different clinical setting. | 2026-11-18 balance update: verify_papers on 10 new DOIs (refs 33-39, 42, 44, 45, plus arXiv 2603.08448), all verified; no retractions or expressions of concern; one contrasting citing statement for Goh 2024 (LMIC medRxiv preprint, on control-group scores).",
   "references": [
     {
       "n": 1,
@@ -394,6 +394,1308 @@
         {
           "text": "Match rates: Perplexity 67%, Gemini 63%, Copilot 44%; ChatGPT-3.5, ChatGPT-4o and Claude 33% (table)",
           "quote": "Perplexity had the highest match rate at 67%, followed by Google Gemini at 63%, and Microsoft Copilot at 44%. ChatGPT-3.5, ChatGPT-4o, and Claude showed the lowest performance, each with a 33% match rate.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "dataset",
+      "cited_as": "Pew Research Center, Apr 7 2026",
+      "url": "https://www.pewresearch.org/science/2026/04/07/users-of-social-media-and-ai-chatbots-for-health-information-are-more-likely-to-say-they-are-convenient-than-accurate/",
+      "version_or_date": "Published April 7, 2026; fielded Oct 20-26, 2025",
+      "retrieved_with": "Monid litescrape /web/fetch of the Pew page (exact page text), Nov 17 2026",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "",
+      "claims": [
+        {
+          "text": "22% of U.S. adults get health information from AI chatbots at least sometimes; 7% often or extremely often",
+          "quote": "Overall, about two-in-ten (22%) Americans get health information from AI chatbots at least sometimes, including 7% who do so often or extremely often.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "32% of adults 18 to 29",
+          "quote": "About a third (32%) of adults ages 18 to 29 at least sometimes turn to AI chatbots for health information.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "48% highly convenient; 23% not accurate vs 18% highly accurate",
+          "quote": "Slightly more chatbot health users say they’re not too or not at all accurate as say they’re highly accurate (23% vs. 18%).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "48% highly convenient",
+          "quote": "About half (48%) of chatbot health information users say it is highly convenient.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "65% of provider users rate highly accurate",
+          "quote": "about two-thirds (65%) of those who get health information from health care providers say they are highly accurate",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Survey Oct 20 to 26, 2025 among 5,111 U.S. adults",
+          "quote": "conducted Oct. 20-26, 2025, among 5,111 U.S. adults",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "dataset",
+      "cited_as": "KFF Tracking Poll on Health Information and Trust, Mar 25 2026",
+      "url": "https://www.kff.org/public-opinion/kff-tracking-poll-on-health-information-and-trust-use-of-ai-for-health-information-and-advice/",
+      "version_or_date": "Published March 25, 2026; fielded Feb 24 to Mar 2, 2026",
+      "retrieved_with": "Monid litescrape /web/fetch of the KFF page (exact page text), Nov 17 2026",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "Sample size not stated in this page text; not used.",
+      "claims": [
+        {
+          "text": "32% used AI for physical or mental health info in past year; 29% physical, 16% mental",
+          "quote": "about a third (32%) of adults are turning to AI for health information and advice. This includes about three in ten (29%) who say they’ve used AI tools in the past year for information or advice about their physical health, and one in six (16%)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "65% quick information major reason",
+          "quote": "most users (65%) say a desire for quick and immediate advice was a “major reason,” for doing so",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "19% cannot afford provider; 18% no regular provider or appointment",
+          "quote": "could not afford the cost of seeing a provider (19%) or they don’t have a regular health care provider or could not get an appointment (18%)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "58% followed up with a doctor",
+          "quote": "About six in ten (58%) adults who used AI for physical health advice in the past year say they later followed up with a doctor or health care provider",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "41% uploaded personal medical info, 13% of all adults",
+          "quote": "about four in ten (41%) of those who have used AI for physical or mental health (amounting to 13% of all adults), say they’ve uploaded personal medical information",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "77% concerned about privacy",
+          "quote": "About three in four (77%) adults say they are either “very” or “somewhat” concerned about the privacy of personal medical information provided to AI tools",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Fielded Feb 24 to Mar 2, 2026",
+          "quote": "KFF Tracking Poll on Health Information and Trust (Feb. 24-Mar. 2, 2026)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "other_web",
+      "cited_as": "OpenAI, Introducing ChatGPT Health, Jan 7 2026",
+      "url": "https://openai.com/index/introducing-chatgpt-health/",
+      "version_or_date": "January 7, 2026 (page shows a July 23, 2026 update note)",
+      "retrieved_with": "Monid litescrape /web/fetch, exact page text",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "Company-reported, global, method not published; labeled as such in the guide.",
+      "claims": [
+        {
+          "text": "OpenAI says over 230 million people globally ask health and wellness questions on ChatGPT weekly, based on its own de-identified analysis (company-reported)",
+          "quote": "based on our de-identified analysis of conversations, over 230 million people globally ask health and wellness related questions on ChatGPT every week.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "OpenAI says Health is not intended for diagnosis or treatment",
+          "quote": "Health is designed to support, not replace, medical care. It is not intended for diagnosis or treatment.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "journal",
+      "cited_as": "Bean AM, Payne RE, Parsons G, et al. Reliability of LLMs as medical assistants for the general public: a randomized preregistered study. Nature Medicine. 2026;32(2):609-615.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41663592/",
+      "pmid": "41663592",
+      "doi": "10.1038/s41591-025-04074-y",
+      "record_title": "Reliability of LLMs as medical assistants for the general public: a randomized preregistered study.",
+      "record_journal": "Nature Medicine",
+      "record_year": "2026",
+      "article_type": "Journal Article; Randomized Controlled Trial",
+      "version_or_date": "Tested: 21 August 2024 to 14 October 2024 (data collection)",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article; Scite verify_papers and search_literature",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [
+        "Publisher correction 10.1038/s41591-026-04404-8 (Fig. 2a axis labels only; read in PMC13190294)"
+      ],
+      "notes": "Confirms the Oxford study: lead author Andrew M Bean (Oxford Internet Institute), 1,298 participants. Full text adds that participants using LLMs were significantly LESS likely than control to identify at least one relevant condition. Models are mid-2024 generation.",
+      "claims": [
+        {
+          "text": "Preregistered randomized study, 1,298 participants, ten scenarios",
+          "quote": "We tested whether LLMs can assist members of the public in identifying underlying conditions and choosing a course of action (disposition) in ten medical scenarios in a controlled study with 1,298 participants.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Models alone: 94.9% conditions",
+          "quote": "Tested alone, LLMs complete the scenarios accurately, correctly identifying conditions in 94.9% of cases and disposition in 56.3% on average.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Participants: fewer than 34.5% conditions, fewer than 44.2% disposition, no better than control",
+          "quote": "However, participants using the same LLMs identified relevant conditions in fewer than 34.5% of cases and disposition in fewer than 44.2%, both no better than the control group.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Tested Aug 21 to Oct 14, 2024",
+          "quote": "Data collection was run between 21 August 2024 and 14 October 2024.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "journal",
+      "cited_as": "Shekar S, Pataranutaporn P, Sarabu C, et al. People Overtrust AI-Generated Medical Advice despite Low Accuracy. NEJM AI. 2025;2(6):AIoa2300015.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42932543/",
+      "pmid": "42932543",
+      "doi": "10.1056/AIoa2300015",
+      "record_title": "People Overtrust AI-Generated Medical Advice despite Low Accuracy.",
+      "record_journal": "NEJM AI",
+      "record_year": "2025",
+      "article_type": "Journal Article",
+      "version_or_date": "Tested: Not stated in abstract",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers and search_literature",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "MIT Media Lab. Speaks to the human side of the risk (trust), complementing Bean 2026. Model identity and test dates not retrieved.",
+      "claims": [
+        {
+          "text": "300 participants",
+          "quote": "a total of 300 participants gave evaluations for medical responses that were either written by a medical doctor on an online health care platform or generated by a large language model",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Rated low-accuracy AI answers valid, trustworthy and complete; high tendency to follow potentially harmful advice",
+          "quote": "Participants not only found these low-accuracy AI-generated responses to be valid, trustworthy, and complete/satisfactory, but also indicated a high tendency to follow the potentially harmful medical advice",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "journal",
+      "cited_as": "Draelos RL, Afreen S, Blasko B, et al. Large language models provide unsafe answers to patient-posed medical questions. npj Digital Medicine. 2026;9(1); article number not given in the PubMed record.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41688533/",
+      "pmid": "41688533",
+      "doi": "10.1038/s41746-026-02428-5",
+      "record_title": "Large language models provide unsafe answers to patient-posed medical questions.",
+      "record_journal": "npj Digital Medicine",
+      "record_year": "2026",
+      "article_type": "Journal Article",
+      "version_or_date": "Tested: September 10, 2024 to December 24, 2024 (one Claude response re-collected 2025-02-12)",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article; Scite verify_papers and search_literature",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "Article number not in PubMed record; cited without it. Strong fit for the guide: consumer web interfaces, real search-derived patient questions, no prompt engineering. Limitation stated by authors: each response rated by one physician.",
+      "claims": [
+        {
+          "text": "222 patient questions, 888 responses",
+          "quote": "In total, 888 chatbot responses are evaluated for 222 patient-posed advice-seeking medical questions on primary care topics spanning internal medicine, women's health, and pediatrics.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Problematic 21.6% (Claude) to 43.2% (Llama); unsafe 5% (Claude) to 13% (GPT-4o, Llama)",
+          "quote": "The rate of problematic responses varies from 21.6% (Claude) to 43.2% (Llama), with unsafe responses varying from 5% (Claude) to 13% (GPT-4o, Llama).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Tested Sep 10 to Dec 24, 2024",
+          "quote": "Chatbot responses were collected between September 10, 2024 and December 24, 2024.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Public web interfaces",
+          "quote": "all responses were manually collected from the web user interface provided to the general public.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "HealthBench only penalizes pre-recorded unsafe content",
+          "quote": "However, it only penalizes models if they include unsafe information that was explicitly recorded by clinicians as an unsafe response to a particular question.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Single physician rater per response",
+          "quote": "Each of the 888 chatbot responses was evaluated by only one physician evaluator.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "journal",
+      "cited_as": "Ayers JW, Poliak A, Dredze M, et al. Comparing Physician and Artificial Intelligence Chatbot Responses to Patient Questions Posted to a Public Social Media Forum. JAMA Internal Medicine. 2023;183(6):589-596.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37115527/",
+      "pmid": "37115527",
+      "doi": "10.1001/jamainternmed.2023.1838",
+      "record_title": "Comparing Physician and Artificial Intelligence Chatbot Responses to Patient Questions Posted to a Public Social Media Forum.",
+      "record_journal": "JAMA Internal Medicine",
+      "record_year": "2023",
+      "article_type": "Journal Article (abstract self-describes as cross-sectional study)",
+      "version_or_date": "Tested: December 22 and 23, 2022",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers and search_literature",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "Confirmed. Physician answers were short Reddit replies (mean 52 vs 211 words) - a key caveat for fair framing. Widely covered (Scite tally: 2,958 citing publications).",
+      "claims": [
+        {
+          "text": "Tested Dec 22 and 23, 2022",
+          "quote": "Chatbot responses were generated by entering the original question into a fresh session (without prior questions having been asked in the session) on December 22 and 23, 2022.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Preferred chatbot in 78.6% of 585 evaluations",
+          "quote": "Of the 195 questions and responses, evaluators preferred chatbot responses to physician responses in 78.6% (95% CI, 75.0%-81.8%) of the 585 evaluations.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Good or very good quality 78.5% vs 22.1%",
+          "quote": "The proportion of responses rated as good or very good quality (≥ 4), for instance, was higher for chatbot than physicians (chatbot: 78.5%, 95% CI, 72.3%-84.1%; physicians: 22.1%, 95% CI, 16.4%-28.2%;).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "journal",
+      "cited_as": "Ariel D, Endelman S, Laban G Overuse and False Restraint in Large Language Model Recommendations for Choosing Wisely Scenarios. Annals of Internal Medicine. 2026;179(11):1566-1576.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42896192/",
+      "pmid": "42896192",
+      "doi": "10.7326/ANNALS-26-01667",
+      "record_title": "Overuse and False Restraint in Large Language Model Recommendations for Choosing Wisely Scenarios.",
+      "record_journal": "Annals of Internal Medicine",
+      "record_year": "2026",
+      "article_type": "Journal Article (abstract self-describes design as 'Benchmark evaluation')",
+      "version_or_date": "Tested: February to March 2026",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers and search_literature",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "This is the October 2026 'unnecessary tests' study (PubMed date 2026-10-20). Clinician-perspective prompts, not patient-style; authors themselves caution about consumer use. A largely reassuring result - useful for balance. Press (jpost.com) attributed a '<10% vs 80%' between-model gap to the authors; not found in the abstract, so not used.",
+      "claims": [
+        {
+          "text": "Six commercial LLMs, 4,050 responses, 225 scenarios, clinician perspective",
+          "quote": "Six commercial LLMs (3 runs each) generated 4050 responses to the 225 scenarios, using a prompt from the clinician perspective.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Feb to Mar 2026, OpenAI, Anthropic, Google APIs",
+          "quote": "Production application programming interfaces of OpenAI, Anthropic, and Google from February to March 2026.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Overuse 5.4%",
+          "quote": "The rate of LLM-recommended overuse was 5.4% (95% CI, 0.6% to 12.2%); LLMs did not recommend overuse in 8 of 15 recommendations.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Clustered in a few scenarios",
+          "quote": "thyroid ultrasound for an incidental subcentimeter nodule (overuse recommended in 42.8% of LLM responses) and routine electrocardiography in low-risk adults (overuse recommended in 28.3% of LLM responses)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "False restraint 0.6%",
+          "quote": "False restraint was rare (0.6% [CI, 0.1% to 1.2%]), was absent for 11 of 15 recommendations, and was highest for prostate-specific antigen screening (3.3%).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "May not extend to consumer use",
+          "quote": "Findings may not extend to consumer-facing use.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "journal",
+      "cited_as": "Andrikyan W, Sametinger SM, Kosfeld F, et al. Artificial intelligence-powered chatbots in search engines: a cross-sectional study on the quality and risks of drug information for patients. BMJ Quality & Safety. 2025;34(2):100-109.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39353736/",
+      "pmid": "39353736",
+      "doi": "10.1136/bmjqs-2024-017476",
+      "record_title": "Artificial intelligence-powered chatbots in search engines: a cross-sectional study on the quality and risks of drug information for patients.",
+      "record_journal": "BMJ Quality & Safety",
+      "record_year": "2025",
+      "article_type": "Journal Article (title self-describes as cross-sectional study)",
+      "version_or_date": "Tested: April 2023",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article; Scite verify_papers and search_literature",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "Guide states the 66% applies only to the preselected subset of 20. Harm percentages apply to a subset of 20 answers deliberately preselected for low accuracy/completeness or risk - do NOT generalise to all answers. Scite lists year 2024 (online-first); PubMed issue date 2025. Old model (2023).",
+      "claims": [
+        {
+          "text": "Bing Copilot, 50 most prescribed drugs, 10 questions (500 answers)",
+          "quote": "Bing copilot was queried on 10 frequently asked patient questions regarding the 50 most prescribed drugs in the US outpatient market.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "April 2023",
+          "quote": "All chatbot answers were generated in April 2023.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "126 of 484 (26.0%) inconsistent",
+          "quote": "Chatbot statements were inconsistent with the reference database in 126 of 484 (26.0%) chatbot answers",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Subset of 20: 66% potentially harmful",
+          "quote": "Of the subset of 20 chatbot answers, experts found 66% (95% CI 50% to 85%) to be potentially harmful.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "journal",
+      "cited_as": "Modi ND, Menz BD, Awaty AA, et al. Assessing the System-Instruction Vulnerabilities of Large Language Models to Malicious Conversion Into Health Disinformation Chatbots. Annals of Internal Medicine. 2025;178(8):1172-1180.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40550134/",
+      "pmid": "40550134",
+      "doi": "10.7326/ANNALS-24-03933",
+      "record_title": "Assessing the System-Instruction Vulnerabilities of Large Language Models to Malicious Conversion Into Health Disinformation Chatbots.",
+      "record_journal": "Annals of Internal Medicine",
+      "record_year": "2025",
+      "article_type": "Journal Article; Review (as tagged by PubMed - content is an original evaluation)",
+      "version_or_date": "Tested: Not stated in abstract; full text not accessible this session",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers and search_literature",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "Confirmed. Tests malicious developer configuration (system prompts via API), not ordinary consumer use - frame as 'a third-party health bot built on these models could be weaponized'. PubMed publication-type tag includes 'Review'; reported as retrieved.",
+      "claims": [
+        {
+          "text": "100 queries",
+          "quote": "Of the 100 health queries posed across the 5 customized LLM API chatbots, 88 (88%) responses were health disinformation.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "88% disinformation",
+          "quote": "Of the 100 health queries posed across the 5 customized LLM API chatbots, 88 (88%) responses were health disinformation.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "4 of 5 at 100%, Claude 3.5 Sonnet 40%",
+          "quote": "Four of the 5 chatbots (GPT-4o, Gemini 1.5 Pro, Llama 3.2-90B Vision, and Grok Beta) generated disinformation in 100% (20 of 20) of their responses, whereas Claude 3.5 Sonnet responded with disinformation in 40% (8 of 20).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "kind": "journal",
+      "cited_as": "Chen S, Gao M, Sasse K, et al. When helpfulness backfires: LLMs and the risk of false medical information due to sycophantic behavior. npj Digital Medicine. 2025;8(1):605.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41107408/",
+      "pmid": "41107408",
+      "doi": "10.1038/s41746-025-02008-z",
+      "record_title": "When helpfulness backfires: LLMs and the risk of false medical information due to sycophantic behavior.",
+      "record_journal": "npj Digital Medicine",
+      "record_year": "2025",
+      "article_type": "Journal Article",
+      "version_or_date": "Tested: Not stated in retrieved text; model snapshots dated 2023-06 to 2024-07",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article; Scite verify_papers and search_literature",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "Confirmed (Mass General Brigham / Bitterman lab). API models, not consumer apps; no Claude or Gemini in the tested set.",
+      "claims": [
+        {
+          "text": "GPT-4o-mini, GPT-4o, GPT-4 complied 100% (50/50) in generic-to-brand setup",
+          "quote": "In the generic-to-brand setup, GPT4o-mini, GPT4o, and GPT4 followed the medication misinformation request 100% (50/50) of the time, while Llama3-8B did so in 94% (47/50) of cases.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Rejection 94% for GPT-4 and GPT-4o after prompting to recall facts",
+          "quote": "GPT4 and GPT4o rejected 94% of illogical requests after being prompted to recall factual relationships between the drugs",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Models tested",
+          "quote": "We evaluate the following LLMs: Llama3-8B-Instruct (Llama3-8B), Llama3-70B-Instruct (Llama3-70B), gpt-4o-mini-2024-07-18 (GPT4o-mini), gpt-4o-2024-05-13 (GPT4o), and gpt-4-0613 (GPT4).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "kind": "journal",
+      "cited_as": "Omar M, Sorin V, Wieler LH, et al. Mapping the susceptibility of large language models to medical misinformation across clinical notes and social media: a cross-sectional benchmarking analysis. The Lancet Digital Health. 2026;8(1):100949.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41672646/",
+      "pmid": "41672646",
+      "doi": "10.1016/j.landig.2025.100949",
+      "record_title": "Mapping the susceptibility of large language models to medical misinformation across clinical notes and social media: a cross-sectional benchmarking analysis.",
+      "record_journal": "The Lancet Digital Health",
+      "record_year": "2026",
+      "article_type": "Journal Article (title self-describes as cross-sectional benchmarking analysis)",
+      "version_or_date": "Tested: Not stated in abstract",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers and search_literature",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "Mount Sinai group (same senior authors as Omar 2025 and Ramaswamy 2026 - not independent of those rows). Mostly benchmark/API models incl. small open models; not consumer apps.",
+      "claims": [
+        {
+          "text": "20 models, more than 3.4 million prompts",
+          "quote": "we probed 20 LLMs with more than 3·4 million prompts that all contained health misinformation",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "31.7% of 158,000 base prompts",
+          "quote": "Across all models and corpora, LLMs were susceptible to fabricated data in 50 108 (31·7%) of 158 000 base prompts.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "46.1% hospital notes vs 8.9% social media",
+          "quote": "Real hospital notes (with fabricated inserted elements) produced the highest susceptibility to the base prompt (46 108 [46·1%] of 100 000), whereas social-media misinformation showed lower base prompt susceptibility (2479 [8·9%] of 28 000).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "kind": "journal",
+      "cited_as": "McBain RK, Cantor JH, Zhang LA, et al. Evaluation of Alignment Between Large Language Models and Expert Clinicians in Suicide Risk Assessment. Psychiatric Services. 2025;76(11):944-950.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41174947/",
+      "pmid": "41174947",
+      "doi": "10.1176/appi.ps.20250086",
+      "record_title": "Evaluation of Alignment Between Large Language Models and Expert Clinicians in Suicide Risk Assessment.",
+      "record_journal": "Psychiatric Services",
+      "record_year": "2025",
+      "article_type": "Journal Article",
+      "version_or_date": "Tested: October 2024 (Gemini run conducted August 2024)",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article; Scite verify_papers and search_literature",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "Claude version date in paper copied in log only; guide does not restate it. RAND-led. Tested via APIs at temperature 0.7, not consumer apps. The Claude 'version dated 2023-05-31' is copied verbatim; it looks inconsistent with a Claude 3.5 Sonnet model (my belief, unverified) - do not restate the date. Sensitive topic: present without method details. Abstract quotes are from the PubMed abstract; the PMC author-manuscript abstract words them slightly differently.",
+      "claims": [
+        {
+          "text": "9,000 responses",
+          "quote": "Each LLM-based chatbot responded to each query 100 times (N=9,000 total responses).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Extremes handled; very-low-risk answered by ChatGPT and Claude; none answered very-high-risk directly",
+          "quote": "ChatGPT and Claude provided direct responses to very-low-risk queries 100% of the time, and all three chatbots did not provide direct responses to any very-high-risk query.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Did not meaningfully distinguish intermediate risk levels",
+          "quote": "LLM-based chatbots did not meaningfully distinguish intermediate risk levels.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Tested Aug to Oct 2024 via API",
+          "quote": "Queries were executed in October 2024 using the following platforms: Azure for ChatGPT-4o-mini (version dated 2024–07-18), Amazon Bedrock for Claude Sonnet 3.5 (version dated 2023–05-31), and Google Vertex for Gemini Pro 1.5 (undated; experiment conducted in August, 2024).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "kind": "agency_page",
+      "cited_as": "988 Suicide & Crisis Lifeline",
+      "url": "https://988lifeline.org/",
+      "version_or_date": "Accessed Nov 17 2026",
+      "retrieved_with": "Monid litescrape /web/fetch",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "Page lists Call, Text, Chat options and \"reach out to the national mental health hotline: 988.\"",
+      "claims": [
+        {
+          "text": "Call, text or chat 988; available 24/7/365",
+          "quote": "The 988 Lifeline is available 24/7/365.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "kind": "other_web",
+      "cited_as": "Illinois HB 1806 (104th GA), Public Act 104-0054",
+      "url": "https://www.ilga.gov/Legislation/PublicActs/View/104-0054",
+      "version_or_date": "Signed/enacted: 2025-08-01 (act takes effect upon becoming law; ILGA lists effective date 8/1/2025, so approval = 8/1/2025); effective: 2025-08-01",
+      "retrieved_with": "Descrybe Legal Engine search_laws_and_rules (official session-law text); Descrybe session law P.A. 104-0054 + ILGA Public Act page scraped via Monid litescrape",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "Signed date shown in guide comes from the enacted text or the legislature record per verified_via; effective dates not shown in guide.",
+      "claims": [
+        {
+          "text": "Guide table row: Bars anyone from providing, advertising or offering therapy or psychotherapy, including through internet-based AI, unless delivered by a licensed professional, and bars licensees from letting AI make ",
+          "quote": "An individual, corporation, or entity may not provide, advertise, or otherwise offer therapy or psychotherapy services, including through the use of Internet-based artificial intelligence, to the public in this State unless the therapy or psychotherapy services are conducted by an individual who is a licensed professional.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "kind": "other_web",
+      "cited_as": "Nevada AB 406 (2025), Statutes of Nevada 2025, Chapter 283 (codified NRS 433.567, 629.610, 391.297)",
+      "url": "https://www.leg.state.nv.us/Statutes/83rd2025/Stats202515.html#Stats202515_CH283",
+      "version_or_date": "Signed/enacted: 2025-06-05; effective: 2025-07-01 (upon passage and approval for regulations/preparatory tasks)",
+      "retrieved_with": "Descrybe Legal Engine search_laws_and_rules (official session-law text); Descrybe session law 2025 Nev. Stat. ch. 283 (official text incl. Sec. 10 effective-date clause)",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "Signed date shown in guide comes from the enacted text or the legislature record per verified_via; effective dates not shown in guide.",
+      "claims": [
+        {
+          "text": "Guide table row: Bars AI providers from offering systems programmed to deliver professional mental or behavioral health care or claiming their AI can provide it (civil penalty up to $15,000 per violation), bars licens",
+          "quote": "An artificial intelligence provider shall not make available for use by a person in this State an artificial intelligence system that is specifically programmed to provide a service or experience to a user that would constitute the practice of professional mental or behavioral health care",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "kind": "other_web",
+      "cited_as": "Utah HB 452 (2025 General Session), Laws of Utah 2025 ch. 269 (Utah Code 13-72a-101 et seq., 58-60-118)",
+      "url": "https://le.utah.gov/~2025/bills/static/HB0452.html",
+      "version_or_date": "Signed/enacted: 2025-03-25; effective: 2025-05-07",
+      "retrieved_with": "Descrybe Legal Engine search_laws_and_rules (official session-law text); Descrybe session law (enrolled HB0452S02 text + le.utah.gov passed-bills metadata for dates); enrolled text also read on le.utah.gov via Monid litescrape (dates not shown on the text tab). Note: 2026 SB 38 (ch. 95) later amended 13-72a sections, effective 2026-05-06.",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "Signed date shown in guide comes from the enacted text or the legislature record per verified_via; effective dates not shown in guide.",
+      "claims": [
+        {
+          "text": "Guide table row: Regulates generative-AI 'mental health chatbots': must disclose they are AI and not human, may not sell/share users' identifiable health information or inputs, limits in-chat advertising, Consumer Pro",
+          "quote": "A supplier of a mental health chatbot shall cause the mental health chatbot to clearly and conspicuously disclose to a Utah user that the mental health chatbot is an artificial intelligence technology and not a human.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "kind": "other_web",
+      "cited_as": "California SB 243 (2025), Statutes 2025 ch. 677 (Bus. & Prof. Code 22601-22606)",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB243",
+      "version_or_date": "Signed/enacted: 2025-10-13; effective: 2026-01-01 (no urgency or operative clause found; Cal. Const. art. IV, sec. 8(c) default); annual reporting begins 2027-07-01",
+      "retrieved_with": "Descrybe Legal Engine search_laws_and_rules (official session-law text); Descrybe session law Stats. 2025 ch. 677; effective date inferred from Cal. Const. art. IV sec. 8(c)(1) retrieved via Descrybe: 'a statute enacted at a regular session shall go into effect on January 1 next following a 90-day period from the date of enactment'",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "Signed date shown in guide comes from the enacted text or the legislature record per verified_via; effective dates not shown in guide.",
+      "claims": [
+        {
+          "text": "Guide table row: Requires companion-chatbot operators to disclose the bot is not human where a reasonable person could be misled, maintain and publish a suicide/self-harm prevention protocol with crisis referrals, add",
+          "quote": "An operator shall prevent a companion chatbot on its companion chatbot platform from engaging with users unless the operator maintains a protocol for preventing the production of suicidal ideation, suicide, or self-harm content to the user",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "kind": "other_web",
+      "cited_as": "California AB 489 (2025), Statutes 2025 ch. 615 (Bus. & Prof. Code 4999.8-4999.9)",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB489",
+      "version_or_date": "Signed/enacted: 2025-10-11; effective: 2026-01-01 (no urgency or operative clause found; Cal. Const. art. IV, sec. 8(c) default)",
+      "retrieved_with": "Descrybe Legal Engine search_laws_and_rules (official session-law text); Descrybe session law Stats. 2025 ch. 615; effective date inferred from Cal. Const. art. IV sec. 8(c)(1)",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "Signed date shown in guide comes from the enacted text or the legislature record per verified_via; effective dates not shown in guide.",
+      "claims": [
+        {
+          "text": "Guide table row: Prohibits AI/GenAI advertising or functionality from using terms, letters or phrases implying the care or advice is coming from a licensed health professional; enforceable by the relevant licensing bo",
+          "quote": "The use of a term, letter, or phrase in the advertising or functionality of an AI or GenAI system ... that indicates or implies that the care, advice, reports, or assessments ... is being provided by a natural person in possession of the appropriate license ... is prohibited.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "kind": "other_web",
+      "cited_as": "Tennessee SB 1580 / HB 1470 (114th GA), Public Chapter 647 (2026) (TCA 33-1-205)",
+      "url": "https://publications.tnsosfiles.com/acts/114/pub/pc0647.pdf",
+      "version_or_date": "Signed/enacted: 2026-04-01; effective: 2026-07-01",
+      "retrieved_with": "Descrybe Legal Engine search_laws_and_rules (official session-law text); Descrybe session law (Pub. Ch. 647 text) + TN General Assembly bill page via Monid litescrape for signing date",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "Signed date shown in guide comes from the enacted text or the legislature record per verified_via; effective dates not shown in guide.",
+      "claims": [
+        {
+          "text": "Guide table row: Bars anyone who develops or deploys an AI system from advertising or representing it as, or able to act as, a qualified mental health professional; violation is a Consumer Protection Act violation wit",
+          "quote": "A person who develops or deploys an artificial intelligence system shall not advertise or represent to the public that such system is or is able to act as a qualified mental health professional.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "kind": "other_web",
+      "cited_as": "Maine LD 2082 / HP 1397 (132nd Legislature), Public Law 2026 ch. 687 (10 MRSA 1500-EE; 32 MRSA 2113)",
+      "url": "https://legislature.maine.gov/ros/LawsOfMaine/breeze/Law/getDocById/?docId=124200",
+      "version_or_date": "Signed/enacted: 2026-04-13; effective: 2026-07-29 (Descrybe metadata only; not confirmed on a Maine legislature page)",
+      "retrieved_with": "Descrybe Legal Engine search_laws_and_rules (official session-law text); Descrybe session law 2026 Me. Laws ch. 687 (text and approval date); effective date from Descrybe metadata",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "Signed date shown in guide comes from the enacted text or the legislature record per verified_via; effective dates not shown in guide.",
+      "claims": [
+        {
+          "text": "Guide table row: Bars providing, advertising or offering therapy or psychotherapy, including via internet-based AI, unless provided by a licensed professional (an Unfair Trade Practices Act violation), and limits lice",
+          "quote": "A person may not provide, advertise or otherwise offer therapy or psychotherapy services, including through the use of Internet-based artificial intelligence, to the public unless the therapy or psychotherapy services are provided by a licensed professional.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "kind": "other_web",
+      "cited_as": "Colorado HB26-1195, 2026 Colo. Sess. Laws ch. 358 (C.R.S. 12-245-224.5; 6-1-1705.2)",
+      "url": "https://leg.colorado.gov/laws/session-laws/HB26-1195/358/download",
+      "version_or_date": "Signed/enacted: 2026-06-03; effective: 2026-08-12 (90 days after adjournment, absent referendum petition)",
+      "retrieved_with": "Descrybe Legal Engine search_laws_and_rules (official session-law text); Descrybe session law 2026 Colo. Sess. Laws ch. 358 (official text incl. Section 4 effective clause and approval line)",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "Signed date shown in guide comes from the enacted text or the legislature record per verified_via; effective dates not shown in guide.",
+      "claims": [
+        {
+          "text": "Guide table row: Bars AI from therapeutic communication with clients without synchronous real-time clinician participation, requires written consent for AI recording/transcription, and makes it a deceptive practice fo",
+          "quote": "A PERSON SHALL NOT USE ANY TERM, LETTER, OR PHRASE IN THE ADVERTISING, INTERFACE, OR OUTPUTS OF AN ARTIFICIAL INTELLIGENCE SYSTEM IN A MANNER THAT ... (b) REPRESENTS THAT THE ARTIFICIAL INTELLIGENCE SYSTEM PROVIDES PSYCHOTHERAPY SERVICES",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "kind": "other_web",
+      "cited_as": "Rhode Island S 2197 Sub A as amended (Pub. L. 2026 ch. 374) and identical H 7349 Sub A (Pub. L. 2026 ch. 373) (R.I. Gen. Laws 40.1-5.5-1 to -6)",
+      "url": "https://webserver.rilegislature.gov/PublicLaws/law26/law26374.htm",
+      "version_or_date": "Signed/enacted: 2026-06-22 (enacted); effective: 2026-06-22 (both chapters: 'This act shall take effect upon passage')",
+      "retrieved_with": "Descrybe Legal Engine search_laws_and_rules (official session-law text); Descrybe session laws R.I. Pub. L. 2026 ch. 373 and 374. CONFLICT: Becker's Behavioral Health (2026-07-28) reports effective Jan. 1, 2027; the enacted text of both chapters says effective upon passage. Use the statute.",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "Signed date shown in guide comes from the enacted text or the legislature record per verified_via; effective dates not shown in guide.",
+      "claims": [
+        {
+          "text": "Guide table row: Bars providing, advertising or offering therapy or psychotherapy, including via internet-based AI, unless conducted by a licensed professional or provider, and bars licensees from letting AI make inde",
+          "quote": "An individual, corporation, or entity may not provide, advertise, or otherwise offer therapy or psychotherapy services, including through the use of internet-based artificial intelligence, to the public in this state unless the therapy or psychotherapy services are conducted by an individual who is a licensed professional or provider.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "kind": "other_web",
+      "cited_as": "Vermont H.816, Act No. 156 (2026) (18 V.S.A. 7115; 3 V.S.A. 129a(30))",
+      "url": "https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT156/ACT156%20As%20Enacted.pdf",
+      "version_or_date": "Signed/enacted: 2026-06-17; effective: 2026-06-17 (on passage)",
+      "retrieved_with": "Descrybe Legal Engine search_laws_and_rules (official session-law text); Descrybe session law 2026 Vt. Acts & Resolves No. 156 (official as-enacted text)",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "Signed date shown in guide comes from the enacted text or the legislature record per verified_via; effective dates not shown in guide.",
+      "claims": [
+        {
+          "text": "Guide table row: Bars corporations or entities from providing, advertising or offering mental health services, including through AI, unless provided by a mental health professional or within an approved IRB/privacy-bo",
+          "quote": "A corporation or entity shall not provide, advertise, or otherwise offer mental health services, including through the use of artificial intelligence, to the public unless the mental health services are: (1) provided by a mental health professional",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "kind": "agency_page",
+      "cited_as": "FTC press release Sep 11 2025",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-launches-inquiry-ai-chatbots-acting-companions",
+      "version_or_date": "September 11, 2025",
+      "retrieved_with": "Monid litescrape /web/fetch, exact page text",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "",
+      "claims": [
+        {
+          "text": "FTC issued 6(b) orders to seven companies offering consumer-facing AI chatbots",
+          "quote": "The Federal Trade Commission is issuing orders to seven companies that provide consumer-facing AI-powered chatbots",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Voted 3-0",
+          "quote": "The Commission voted 3-0 to issue the 6(b) orders to the seven companies.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Study of chatbots as companions; not a law enforcement purpose",
+          "quote": "authorizes the Commission to conduct wide-ranging studies that do not have a specific law enforcement purpose",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "kind": "agency_page",
+      "cited_as": "FDA 24 Hour Summary, Digital Health Advisory Committee, Nov 6 2025",
+      "url": "https://www.fda.gov/media/189618/download",
+      "version_or_date": "November 6, 2025 meeting; summary PDF",
+      "retrieved_with": "Monid litescrape /web/fetch of FDA PDF, exact text",
+      "retrieved_at": "2026-11-17",
+      "editorial_notices": [],
+      "notes": "",
+      "claims": [
+        {
+          "text": "Committee met Nov 6, 2025 on generative AI-enabled digital mental health medical devices",
+          "quote": "The Digital Health Advisory Committee to the Food and Drug Administration (FDA) met on November 6, 2025 to discuss and provide feedback on “Generative Artificial Intelligence (AI)-Enabled Digital Mental Health Medical Devices.”",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "kind": "journal",
+      "cited_as": "Goh E, Gallo R, Hom J, et al. JAMA Network Open. 2024;7(10):e2440969.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39466245/",
+      "pmid": "39466245",
+      "doi": "10.1001/jamanetworkopen.2024.40969",
+      "record_title": "Large Language Model Influence on Diagnostic Reasoning: A Randomized Clinical Trial.",
+      "record_journal": "JAMA Network Open",
+      "record_year": "2024",
+      "article_type": "Journal Article; Randomized Controlled Trial",
+      "version_or_date": "Published 2024",
+      "retrieved_with": "PubMed get_article_metadata (+ PMC full text or journal page where noted); Scite verify_papers 2026-11-18",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "Pro-AI balance row. Co-author Horvitz lists Microsoft Corp (PubMed affiliation). Journal disclosure statement not retrievable (jamanetwork.com refused fetch; PMC text lacks it). Scite: one contrasting citing statement (LMIC medRxiv preprint) on control-group scores, not on the main result.",
+      "claims": [
+        {
+          "text": "76% vs 74% median score",
+          "quote": "The median diagnostic reasoning score per case was 76% (IQR, 66%-87%) for the LLM group and 74% (IQR, 63%-84%) for the conventional resources-only group",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "GPT-4 alone 16 points higher, secondary exploratory analysis",
+          "quote": "The LLM alone scored 16 percentage points (95% CI, 2-30 percentage points; P = .03) higher than the conventional resources group.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Secondary exploratory analysis",
+          "quote": "A secondary exploratory analysis evaluated the standalone performance of the LLM",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Fifty physicians",
+          "quote": "Fifty physicians (26 attendings, 24 residents",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "6 vignettes",
+          "quote": "Participants were allocated 60 minutes to review up to 6 clinical vignettes.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "No prompt training",
+          "quote": "Participants were given access to the chatbot without explicit training in prompt engineering techniques",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Microsoft affiliation of one co-author",
+          "quote": "Microsoft Corp, Redmond, Washington.",
+          "quote_source": "pubmed_affiliation",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "kind": "journal",
+      "cited_as": "Goh E, Gallo RJ, Strong E, et al. Nature Medicine. 2025;31(4):1233-1238.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39910272/",
+      "pmid": "39910272",
+      "doi": "10.1038/s41591-024-03456-y",
+      "record_title": "GPT-4 assistance for improvement of physician performance on patient care tasks: a randomized controlled trial",
+      "record_journal": "Nature Medicine",
+      "record_year": "2025",
+      "article_type": "Journal Article; Randomized Controlled Trial",
+      "version_or_date": "Published 2025",
+      "retrieved_with": "PubMed get_article_metadata (+ PMC full text or journal page where noted); Scite verify_papers 2026-11-18",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "Competing-interests text read on nature.com via Monid litescrape 2026-11-18. Co-author Horvitz lists Microsoft (PubMed and nature.com). A Publisher Correction exists (17 Feb 2025) per nature.com; content not read, not a retraction or concern.",
+      "claims": [
+        {
+          "text": "92 physicians",
+          "quote": "92 practicing physicians were randomized",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "+6.5 points",
+          "quote": "Physicians using the LLM scored significantly higher compared to those using conventional resources (mean difference = 6.5%, 95% confidence interval (CI) = 2.7 to 10.2, P < 0.001).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "No difference vs LLM alone",
+          "quote": "There was no significant difference between LLM-augmented physicians and LLM alone (-0.9%, 95% CI = -9.0 to 7.2, P = 0.8).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Vignettes based on, not actual, cases",
+          "quote": "First, the cases are clinical vignettes, based on, but not actual patient cases.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Single reviewer harm rating",
+          "quote": "As an exploratory evaluation, a single blinded reviewer (AR) rated all responses for potential harm",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Moore Foundation funding",
+          "quote": "E.G., J.H., E.S., J.C., Z.K., A.P.J.O., A.R. and J.H.C. disclose funding from the Gordon and Betty Moore Foundation (grant no. 12409).",
+          "quote_source": "journal_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Funders had no role",
+          "quote": "The funders had no role in study design, data collection and analysis, decision to publish or preparation of the manuscript.",
+          "quote_source": "journal_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "kind": "journal",
+      "cited_as": "Tu T, Schaekermann M, Palepu A, et al. Nature. 2025;642(8067):442-450.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40205050/",
+      "pmid": "40205050",
+      "doi": "10.1038/s41586-025-08866-7",
+      "record_title": "Towards conversational diagnostic artificial intelligence.",
+      "record_journal": "Nature",
+      "record_year": "2025",
+      "article_type": "Journal Article; Randomized Controlled Trial",
+      "version_or_date": "Published 2025",
+      "retrieved_with": "PubMed get_article_metadata (+ PMC full text or journal page where noted); Scite verify_papers 2026-11-18",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "Google AMIE. All 26 authors Google Research or Google DeepMind (PubMed). Competing interests read on nature.com 2026-11-18.",
+      "claims": [
+        {
+          "text": "159 scenarios, 20 PCPs, patient-actors",
+          "quote": "The study included 159 case scenarios from providers in Canada, the United Kingdom and India, 20 primary care physicians compared to AMIE, and evaluations by specialist physicians and patient-actors.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "30 of 32 axes",
+          "quote": "AMIE demonstrated greater diagnostic accuracy and superior performance on 30 out of 32 axes according to the specialist physicians",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Text chat unfamiliar",
+          "quote": "Clinicians used synchronous text chat, which permits large-scale LLM–patient interactions, but this is unfamiliar in clinical practice.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Not representative of usual practice",
+          "quote": "Thus, our study should not be regarded as representative of usual practice in (tele)medicine.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Funded by Alphabet; all authors employees",
+          "quote": "This study was funded by Alphabet Inc. and/or a subsidiary thereof (‘Alphabet’). All authors are employees of Alphabet and may own stock as part of the standard compensation package.",
+          "quote_source": "journal_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "kind": "journal",
+      "cited_as": "Brodeur PG, Koshy JM, Palepu A, et al. Lancet. 2026;408(10565):1732-1744.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42849491/",
+      "pmid": "42849491",
+      "doi": "10.1016/S0140-6736(26)01535-7",
+      "record_title": "Conversational diagnostic artificial intelligence in ambulatory primary care: a prospective feasibility study.",
+      "record_journal": "Lancet",
+      "record_year": "2026",
+      "article_type": "Journal Article; Observational Study",
+      "version_or_date": "Published 2026",
+      "retrieved_with": "PubMed get_article_metadata (+ PMC full text or journal page where noted); Scite verify_papers 2026-11-18",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "33 of 48 authors list Google affiliations in PubMed (counted 2026-11-18). Full text not retrievable (thelancet.com refused fetch).",
+      "claims": [
+        {
+          "text": "98 completed",
+          "quote": "114 patients were enrolled with 98 completing both the AMIE interaction and the PCP appointment.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "No safety stops",
+          "quote": "Zero conversation safety stops were required on the basis of prespecified criteria.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "One hallucination",
+          "quote": "Safety supervisors noted one hallucination and added clinical information in five interactions.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Funding Alphabet",
+          "quote": "Alphabet.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "kind": "other_web",
+      "cited_as": "Brodeur P, Koshy JM, Palepu A, et al. arXiv:2603.08448 (preprint, v3 2026-03-15).",
+      "url": "https://arxiv.org/abs/2603.08448",
+      "doi": "10.48550/arXiv.2603.08448",
+      "version_or_date": "v1 2026-03-09; v3 2026-03-15",
+      "retrieved_with": "Monid litescrape /web/fetch of arXiv abstract page; Scite verify_papers",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "Authors own preprint of the Lancet study; not peer reviewed. Guide labels it as a preprint.",
+      "claims": [
+        {
+          "text": "Physicians outperformed on practicality and cost effectiveness",
+          "quote": "PCPs outperformed AMIE in the practicality (p = 0.003) and cost effectiveness (p = 0.004) of Mx.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Supervisors monitored all chats in real time",
+          "quote": "Human safety supervisors monitored all patient-AMIE interactions in real time",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Single arm, one academic center",
+          "quote": "We report a prospective, single-arm feasibility study of an LLM-based conversational AI",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "kind": "journal",
+      "cited_as": "Nori H, Daswani M, Kelly C, et al. Science. 2026;394(6822):423-428.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42912144/",
+      "pmid": "42912144",
+      "doi": "10.1126/science.aeh7930",
+      "record_title": "Sequential diagnosis with language models.",
+      "record_journal": "Science",
+      "record_year": "2026",
+      "article_type": "Journal Article",
+      "version_or_date": "Published 2026",
+      "retrieved_with": "PubMed get_article_metadata (+ PMC full text or journal page where noted); Scite verify_papers 2026-11-18",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "All 15 authors list Microsoft (PubMed). Peer-reviewed version of the 2025 Microsoft blog and arXiv preprint. Disclosures not retrievable (science.org refused fetch).",
+      "claims": [
+        {
+          "text": "83.2% vs 36.1%; 80.3% vs 46.8%",
+          "quote": "the system achieved 83.2% accuracy onclinicopathological conference cases and 80.3% on MIMIC-IV-ED emergency department admissions, outperforming generalist physicians (36.1 and 46.8%, respectively).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Controlled benchmark setting",
+          "quote": "Although these findings were obtained in a controlled benchmark setting",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "kind": "journal",
+      "cited_as": "Takita H, Kabata D, Walston SL, et al. npj Digital Medicine. 2025;8(1):175.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40121370/",
+      "pmid": "40121370",
+      "doi": "10.1038/s41746-025-01543-z",
+      "record_title": "A systematic review and meta-analysis of diagnostic performance comparison between generative AI and physicians.",
+      "record_journal": "npj Digital Medicine",
+      "record_year": "2025",
+      "article_type": "Journal Article",
+      "version_or_date": "Published 2025",
+      "retrieved_with": "PubMed get_article_metadata (+ PMC full text or journal page where noted); Scite verify_papers 2026-11-18",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "Academic authors. Competing interests read on nature.com 2026-11-18.",
+      "claims": [
+        {
+          "text": "83 studies, 52.1%, no difference overall or non-expert",
+          "quote": "Analysis of 83 studies revealed an overall diagnostic accuracy of 52.1%. No significant performance difference was found between AI models and physicians overall (p = 0.10) or non-expert physicians (p = 0.93).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Worse than experts",
+          "quote": "However, AI models performed significantly worse than expert physicians (p = 0.007).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "76% high risk of bias",
+          "quote": "led to an overall rating of 63/83 (76%) studies at high risk of bias",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "No competing interests",
+          "quote": "The authors declare no competing interests.",
+          "quote_source": "journal_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "kind": "other_web",
+      "cited_as": "King D, Nori H. The Path to Medical Superintelligence. Microsoft AI. June 30, 2025.",
+      "url": "https://microsoft.ai/news/the-path-to-medical-superintelligence/",
+      "version_or_date": "Posted Jun 30, 2025 (page metadata modified 2026-10-16)",
+      "retrieved_with": "Monid litescrape /web/fetch, exact text",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "Company blog. Labeled in guide as company-reported, not peer reviewed.",
+      "claims": [
+        {
+          "text": "Up to 85%, more than four times physicians",
+          "quote": "we show that the Microsoft AI Diagnostic Orchestrator (MAI DxO) correctly diagnoses up to 85% of NEJM case proceedings, a rate more than four times higher than a group of experienced physicians.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Physicians averaged 20%",
+          "quote": "On the same tasks, these experts achieved a mean accuracy of 20% across completed cases.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "No colleagues, textbooks or AI",
+          "quote": "Clinicians in our study worked without access to colleagues, textbooks, or even generative AI, which may feature in their normal clinical practice.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Not yet peer reviewed",
+          "quote": "We are in the process of submitting this work for external peer review",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "kind": "other_web",
+      "cited_as": "OpenAI. Introducing HealthBench. May 12, 2025.",
+      "url": "https://openai.com/index/healthbench/",
+      "version_or_date": "May 12, 2025",
+      "retrieved_with": "Monid litescrape /web/fetch, exact text",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "Company blog. No peer-reviewed version found (PubMed and Scite searches 2026-11-18); arXiv preprint 10.48550/arXiv.2505.08775 exists.",
+      "claims": [
+        {
+          "text": "Already outperform experts",
+          "quote": "Our findings show that large language models have improved significantly over time and already outperform experts in writing responses to examples tested in our benchmark.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Graded by GPT-4.1",
+          "quote": "Model responses are evaluated by a model-based grader (GPT‑4.1) to assess whether each rubric criterion is met",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "kind": "journal",
+      "cited_as": "Pan J, Jian B, Hager P, et al. Nature Health. 2026;1(11):1254-1270.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42978863/",
+      "pmid": "42978863",
+      "doi": "10.1038/s44360-026-00152-8",
+      "record_title": "Addressing benchmarking gaps in large language models for health and medicine with dynamic red-teaming.",
+      "record_journal": "Nature Health",
+      "record_year": "2026",
+      "article_type": "Journal Article",
+      "version_or_date": "Published 2026",
+      "retrieved_with": "PubMed get_article_metadata (+ PMC full text or journal page where noted); Scite verify_papers 2026-11-18",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "Independent of OpenAI (academic authors per subagent review; not rechecked author by author).",
+      "claims": [
+        {
+          "text": "Failure rates exceeding 70% on HealthBench under red-teaming",
+          "quote": "This brittleness generalized to the realistic, open-ended HealthBench dataset, where top-tier models exhibited failure rates exceeding 70%",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "kind": "other_web",
+      "cited_as": "Karthikesalingam A, Natarajan V. AMIE blog. Google Research. January 12, 2024.",
+      "url": "https://research.google/blog/amie-a-research-ai-system-for-diagnostic-medical-reasoning-and-conversations/",
+      "version_or_date": "January 12, 2024; update note dated Oct 06, 2026",
+      "retrieved_with": "Monid litescrape /web/fetch, exact text",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "Company blog; figures differ from the Nature paper (ref 35).",
+      "claims": [
+        {
+          "text": "28 of 32 axes",
+          "quote": "AMIE had greater diagnostic accuracy and superior performance for 28 of 32 axes from the perspective of specialist physicians, and 24 of 26 axes from the perspective of patient actors.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "149 scenarios",
+          "quote": "a randomized, blinded crossover study that included 149 case scenarios from OSCE providers in Canada, the UK and India",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "kind": "journal",
+      "cited_as": "Gallifant J, Afshar M, Ameen S, et al. Nature Medicine. 2025;31(1):60-69.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39779929/",
+      "pmid": "39779929",
+      "doi": "10.1038/s41591-024-03425-5",
+      "record_title": "The TRIPOD-LLM reporting guideline for studies using large language models.",
+      "record_journal": "Nature Medicine",
+      "record_year": "2025",
+      "article_type": "Journal Article",
+      "version_or_date": "Published 2025",
+      "retrieved_with": "PubMed get_article_metadata (+ PMC full text or journal page where noted); Scite verify_papers 2026-11-18",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "",
+      "claims": [
+        {
+          "text": "19 main items and 50 subitems",
+          "quote": "TRIPOD-LLM provides a comprehensive checklist of 19 main items and 50 subitems",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "kind": "journal",
+      "cited_as": "CHART statement. BMJ Medicine. 2025;4(1):e001632.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40761518/",
+      "pmid": "40761518",
+      "doi": "10.1136/bmjmed-2025-001632",
+      "record_title": "Reporting guideline for chatbot health advice studies: the Chatbot Assessment Reporting Tool (CHART) statement",
+      "record_journal": "BMJ Medicine",
+      "record_year": "2025",
+      "article_type": "Journal Article",
+      "version_or_date": "Published 2025",
+      "retrieved_with": "PubMed get_article_metadata (+ PMC full text or journal page where noted); Scite verify_papers 2026-11-18",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "Group authorship; PubMed record lists no individual author, so cited without authors.",
+      "claims": [
+        {
+          "text": "12 items and 39 subitems",
+          "quote": "CHART includes 12 items and 39 subitems",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Includes model identifiers and prompting",
+          "quote": "model identifiers (subitems 3a,b)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Includes prompt engineering",
+          "quote": "prompt engineering (subitems 5a,b)",
           "quote_source": "abstract",
           "verdict": "supported"
         }
