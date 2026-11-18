@@ -1,0 +1,678 @@
+{
+ "guide": "telehealth-sinusitis-virtual-care",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 11 verified (all 11 DOIs), retractions: none. Correction noted for 10.1002/ohn.1342 (via Scite read_fulltext editorialNotices). PubMed article types checked: no Retracted Publication or Retraction Notice.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "journal",
+   "cited_as": "Johnson KM, et al. Open Forum Infect Dis 2019;6(9):ofz393",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6778270/",
+   "pmid": "31660415",
+   "pmcid": "PMC6778270",
+   "doi": "10.1093/ofid/ofz393",
+   "record_title": "Comparison of Diagnosis and Prescribing Practices Between Virtual Visits and Office Visits for Adults Diagnosed With Sinusitis Within a Primary Care Network.",
+   "record_journal": "Open forum infectious diseases",
+   "record_year": "2019",
+   "article_type": "Journal Article (retrospective cohort study)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "350 adults in one primary care network, 175 per group; retrospective cohort",
+     "quote": "This retrospective cohort study evaluated adult patients diagnosed with sinusitis treated within a single primary care network. ... A total of 350 patients were included in the study, with 175 in each group.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Guideline-concordant diagnosis 69.1% virtual vs 45.7% office, P<.001",
+     "quote": "Patients treated for sinusitis were more likely to receive a guideline-concordant diagnosis in the virtual visit group (69.1% vs 45.7%;< .001).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fewer virtual patients received antibiotics, 68.6% vs 94.3%, P<.001",
+     "quote": "patients who completed virtual visits were less likely to receive antibiotics (68.6% vs 94.3%;< .001).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Guideline-concordant drug selection similar, 67.5% vs 64.8%",
+     "quote": "Guideline-concordant antibiotic selection was similar between groups (67.5% vs 64.8%;= .641).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Virtual patients more likely to revisit within 24 hours (8% vs 1.7%) and 30 days (14.9% vs 7.4%)",
+     "quote": "Patients completing virtual visits were more likely to revisit for sinusitis within 24 hours (8% vs 1.7%;= .006) and within 30 days (14.9% vs 7.4%;= .027).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Association only (retrospective design); virtual care associated with better diagnosis and less prescribing",
+     "quote": "care at a virtual visit was associated with an increase in guideline-concordant diagnosis and a decrease in antibiotic prescribing compared with in-person primary care visits.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "For sinusitis, virtual visits led to antibiotics less often (closing summary, with refs 2 and 4)",
+     "quote": "patients who completed virtual visits were less likely to receive antibiotics (68.6% vs 94.3%;< .001).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "journal",
+   "cited_as": "Miller LE, Bhattacharyya N. Laryngoscope 2021;131(7):E2121-E2124",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33296088/",
+   "pmid": "33296088",
+   "doi": "10.1002/lary.29323",
+   "record_title": "Antibiotic Prescribing for Acute Rhinosinusitis: In-Person Versus Virtual Visits During Covid-19.",
+   "record_journal": "The Laryngoscope",
+   "record_year": "2021 (epub 2020-12-10)",
+   "article_type": "Comparative Study; Journal Article (cross-sectional)",
+   "retrieved_with": "PubMed search_articles + get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces printed \"Locke TB, Zhu E, Engel M ... 131(12):2610-2615\" (no such paper) and the Ohio State repository link. Authors are at Massachusetts Eye and Ear, not Ohio State.",
+   "claims": [
+    {
+     "text": "2,075 virtual (Mar-May 2020) vs 3,654 in-person (Mar-May 2019) adults with ARS, Massachusetts",
+     "quote": "There were 2,075 patients in March to May 2020 and 3,654 patients March to May 2019 who received an ARS principal diagnosis at their virtual and in-person outpatient visits, respectively.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Overall prescribing lower virtual 72.1% vs 76.7%; OR 0.783, P<.001",
+     "quote": "There was a statistically significant lower rate of antibiotic prescriptions for ARS in 2020 (72.1%) versus 2019 (76.7%).The odds ratio for an antibiotic prescription for ARS was 0.783 (95% confidence interval, 0.693-0.86; P < .001)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No significant difference among otolaryngology providers (P=.781)",
+     "quote": "When stratified by otolaryngology providers there was no statistically significant difference of antibiotic prescriptions between the 2019 and 2020 cohort (P = .781).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Telemedicine did not increase antibiotic prescribing despite no physical exam",
+     "quote": "telemedicine did not result in an increase in antibiotic prescribing despite the lack of an in-person physical exam.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "FAQ JSON-LD: 5,729 visits, lower virtual rate, no OTO difference",
+     "quote": "There was a statistically significant lower rate of antibiotic prescriptions for ARS in 2020 (72.1%) versus 2019 (76.7%).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "Wittman SR, et al. JAMA Netw Open 2024;7(3):e242359",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10940962/",
+   "pmid": "38483387",
+   "pmcid": "PMC10940962",
+   "doi": "10.1001/jamanetworkopen.2024.2359",
+   "record_title": "Antibiotic Receipt for Pediatric Telemedicine Visits With Primary Care vs Direct-to-Consumer Vendors.",
+   "record_journal": "JAMA network open",
+   "record_year": "2024",
+   "article_type": "Journal Article (retrospective cross-sectional claims study)",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC10940962); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces CIDRAP news link and news headline title; first author Wittman SR (Ray KN is senior author). Pediatric data.",
+   "claims": [
+    {
+     "text": "27,686 commercially insured children, matched telemedicine ARTI visits",
+     "quote": "In total, data from 27 686 children (mean [SD] age, 8.9 [5.0] years; 13 893 [50.2%] male) were included in this study. There were 14 202 PCP telemedicine index visits matched to 14 627 DTC telemedicine index visits.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antibiotic receipt 28.9% PCP vs 37.2% DTC, RR 0.78",
+     "quote": "less likely to result in receipt of antibiotics (28.9% [95% CI, 28.1%-29.7%] of PCP telemedicine visits) compared with DTC telemedicine index visits (37.2% [95% CI, 36.0%-38.5%]) (RR, 0.78 [95% CI, 0.74-0.81])",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Diagnosis where antibiotics may be appropriate 19.0% vs 28.4%",
+     "quote": "fewer PCP telemedicine visits involved receipt of a diagnosis in which the use of antibiotics may be appropriate (19.0% [95% CI, 18.4%-19.7%] vs 28.4% [95% CI, 27.3%-29.6%])",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sinusitis diagnosis 9.9% vs 15.5%, RR 0.64",
+     "quote": "PCP telemedicine visits were less likely to result in a sinusitis diagnosis (9.9% vs 15.5% of DTC telemedicine visits; RR, 0.64 [95% CI, 0.59-0.69])",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Non-guideline-concordant management given diagnosis similar, 20.2% vs 20.1%",
+     "quote": "no differences were observed in receipt of nonguideline-concordant antibiotic management based on a given diagnosis between PCP (20.2% [95% CI, 19.5%-20.9%]) and DTC (20.1% [95% CI, 19.1%-21.0%]) telemedicine visits.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Gao Y, et al. J Med Internet Res 2025;27:e60831",
+   "url": "https://www.jmir.org/2025/1/e60831",
+   "pmid": "40080812",
+   "pmcid": "PMC11950701",
+   "doi": "10.2196/60831",
+   "record_title": "Prevalence of Antibiotic Prescribing for Acute Respiratory Tract Infection in Telehealth Versus Face-to-Face Consultations: Cross-Sectional Analysis of General Practice Registrars' Clinical Practice.",
+   "record_journal": "Journal of medical Internet research",
+   "record_year": "2025",
+   "article_type": "Journal Article; Multicenter Study (cross-sectional)",
+   "retrieved_with": "PubMed convert_article_ids + get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Old text used unadjusted OR 0.62; now adjusted ORs from abstract. Paper found no difference for sinusitis.",
+   "claims": [
+    {
+     "text": "2,392 GP registrars",
+     "quote": "A total of 2392 registrars participated (response rate=93.4%).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Less prescribing via telehealth for sore throat (aOR 0.69) and URTI (aOR 0.64)",
+     "quote": "antibiotics were less often prescribed in telehealth than F2F consultations for sore throat (adjusted odds ratio [OR] 0.69, 95% CI 0.55-0.86; P=.001), URTI (adjusted OR 0.64, 95% CI 0.51-0.81; P<.001)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No significant difference for acute sinusitis (aOR 1.0)",
+     "quote": "There were no significant differences for acute bronchitis (adjusted OR 1.07, 95% CI 0.79-1.45; P=.66) or acute sinusitis (adjusted OR 1, 95% CI 0.76-1.32; P=.99).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No evidence telehealth increased registrar antibiotic prescribing",
+     "quote": "There was no evidence in this study that telehealth consultations were associated with greater registrar antibiotic prescribing for ARTIs.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Accorsi TAD, et al. Einstein (Sao Paulo) 2022;20:eAO6800",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9126601/",
+   "pmid": "35649057",
+   "pmcid": "PMC9126601",
+   "doi": "10.31744/einstein_journal/2022AO6800",
+   "record_title": "Telemedicine diagnosis of acute respiratory tract infection patients is not inferior to face-to-face consultation: a randomized trial.",
+   "record_journal": "Einstein (Sao Paulo, Brazil)",
+   "record_year": "2022",
+   "article_type": "Journal Article; Randomized Controlled Trial",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC9126601); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Hospital Israelita Albert Einstein, Sao Paulo (not \"Einstein Healthcare Network\"); 98 enrolled, 48 in telemedicine arm.",
+   "claims": [
+    {
+     "text": "98 low-risk adults at an ED; 48 assigned to telemedicine then in-person",
+     "quote": "Ninety-eight patients were enrolled. ... In the Telemedicine Group (n=48), 18.7% patients would be referred for evaluation at the emergency department.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Telemedicine diagnosis non-inferior to face-to-face",
+     "quote": "Diagnostic telemedicine consultation of low-risk patients with acute respiratory symptoms is not inferior to face-to-face evaluation at emergency department.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Agreement on specific diagnosis poor by authors measure",
+     "quote": "No grouped ICD-10 statistically significant diagnostic differences were found. However, the Kappa correlation coefficient was poor.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Telemedicine diagnosed 0% sinusitis vs 7% in-person in same patients",
+     "quote": "The distribution of diagnoses by telemedicine was 67.4% for upper respiratory tract infection, 2.3% for pharyngotonsillitis, and 0% for sinusitis, being statistically similar to the subsequent face-to-face assessment, respectively: 72.1%, 11.6% and 7%",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Telemedicine trended to less antibiotic prescribing 5.9% vs 17.6%, P=.125",
+     "quote": "Telemedicine trended towards less antibiotic prescription: 2 (5.9%)6 (17.6%), Kappa 0.452 [95%CI: 0.031-0.873]; p=0.125",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Physical exam adds little to diagnosis of respiratory infections without red flags (authors discussion)",
+     "quote": "when there are no red flags on anamnesis, physical examination of suspected RTI (including COVID-19) adds low value to the final diagnosis and influences the antibiotics prescription very little.",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Morisada MV, et al. Am J Rhinol Allergy 2021;35(4):494-499",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33115249/",
+   "pmid": "33115249",
+   "pmcid": "PMC13596982",
+   "doi": "10.1177/1945892420970460",
+   "record_title": "Telemedicine, Patient Satisfaction, and Chronic Rhinosinusitis Care in the Era of COVID-19.",
+   "record_journal": "American journal of rhinology & allergy",
+   "record_year": "2021 (epub 2020-10-28)",
+   "article_type": "Journal Article (retrospective)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Pages corrected 528-534 -> 494-499; authors and exact title added.",
+   "claims": [
+    {
+     "text": "69 CRS patients; PSQ-18 78.1 vs 78.4, P=.67; satisfaction similar",
+     "quote": "Sixty-nine patients with CRS ... There were no significant differences in PSQ-18 total scores (VV PSQ-18 mean score = 78.1, CV PSQ-18 mean score = 78.4; p = 0.67)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Grabinski Z, et al. J Telemed Telecare 31(6):788-795",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38239048/",
+   "pmid": "38239048",
+   "doi": "10.1177/1357633X231221586",
+   "record_title": "Pilot implementation of a telemedicine care bundle: Antimicrobial stewardship, patient satisfaction, clinician satisfaction, and usability in patients with sinusitis.",
+   "record_journal": "Journal of telemedicine and telecare",
+   "record_year": "2024 (online 2024-01-18); volume 31 issue 6 pages 788-795",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed search_articles + get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Old \"65% to 56%\" not in source; abstract reports a 3.9% decrease. Print year of vol 31 not shown in retrieved record, so the reference gives online date.",
+   "claims": [
+    {
+     "text": "Care bundle: pathway with communication scripts, order panels, patient education phrase, virtual urgent care",
+     "quote": "A sinusitis care bundle (SCB) for virtual urgent care patients included a sinusitis CPW with communication scripts, sinusitis order panels (SOP), and a patient education smart-phrase (SPESP) within visit instructions.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "69,785 patients before and 64,019 after",
+     "quote": "There were 69,785 and 64,019 evaluable patients in the pre-care and post-care bundle periods, respectively.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sinusitis diagnosis 3.2% to 6.2% (P<.001) while antimicrobial prescribing fell 3.9% (P<.001)",
+     "quote": "Despite a significant increase in patients receiving a sinusitis diagnosis in the post-care bundle period (3.2% pre- vs. 6.2% post-, p < 0.001), antimicrobial prescribing decreased by 3.9% (p < 0.001)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "guideline",
+   "cited_as": "Guideline Central, 2025 AAO-HNSF Adult Sinusitis Guideline Spotlight",
+   "url": "https://www.guidelinecentral.com/insights/aug-2025-aaohnsf-adultsinusitis-guideline-spotlight",
+   "version_or_date": "Summarizes the 2025 AAO-HNSF Clinical Practice Guideline: Adult Sinusitis Update (Otolaryngol Head Neck Surg 2025;173 Suppl 1:S1-S56, PMID 40742114); page shows Copyright 2025, no date or author; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Secondary summary by a guideline publisher. Used only for statement wording (watchful waiting with follow-up, duration language, 5-7 days, treatment failure) because the guideline full text (Wiley) could not be retrieved; watchful-waiting extension and first-line agent are also cited to the PubMed executive summary [9].",
+   "claims": [
+    {
+     "text": "Offer watchful waiting with assurance of follow-up",
+     "quote": "Clinicians should offer watchful waiting (without antibiotics) for adults with uncomplicated ABRS with assurance of follow-up.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "No fixed observation period; duration depends on factors and timing of diagnosis",
+     "quote": "The duration of watchful waiting may depend on the factors and timing under which the diagnosis was originally made.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Amoxicillin with or without clavulanate first-line for 5 to 7 days for most adults, reduced from 5 to 10",
+     "quote": "the clinician should prescribe amoxicillin with or without clavulanate as first-line therapy for 5-7 days for most adults. ... The duration of first-line antibiotic therapy was reduced to 5–7 days from 5–10 days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Worsening despite antibiotics requires reassessment to detect complications",
+     "quote": "If the patient fails to improve or worsens despite being on an appropriate antibiotic for 3-5 days ... the clinician should reassess the patient to confirm ABRS, exclude other causes of illness, and detect complications.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "guideline",
+   "cited_as": "Payne SC, et al. Executive Summary, Adult Sinusitis Update. Otolaryngol Head Neck Surg 2025;173(2):299-316",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40741969/",
+   "pmid": "40741969",
+   "doi": "10.1002/ohn.1342",
+   "record_title": "Executive Summary of the Clinical Practice Guideline on Adult Sinusitis Update.",
+   "record_journal": "Otolaryngology--head and neck surgery",
+   "record_year": "2025",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "AAO-HNSF 2025 update, published July 31, 2025 (August 2025 issue); read 2026-11-15",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite read_fulltext (abstract only, full text restricted); Scite verify_papers; WebFetch entnet.org guideline page (publication date)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [
+    "Has correction: Correction to \"Executive Summary of the Clinical Practice Guideline on Adult Sinusitis Update\", doi 10.1002/ohn.70003 (PMID 40844052), 2025-08-22. Content of the correction not retrievable (abstract not available)."
+   ],
+   "claims": [
+    {
+     "text": "Watchful waiting extended to all uncomplicated ABRS regardless of severity",
+     "quote": "Extension of watchful waiting (without antibiotic therapy) as an initial management strategy to all patients with uncomplicated acute bacterial rhinosinusitis (ABRS) regardless of severity",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "First-line amoxicillin with or without clavulanate (citable summary)",
+     "quote": "Change in recommendation to first-line antibiotic therapy for ABRS amoxicillin, with or without clavulanate, from amoxicillin alone (prior guideline).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "guideline",
+   "cited_as": "Rosenfeld RM, et al. Clinical practice guideline (update): adult sinusitis. Otolaryngol Head Neck Surg 2015;152(2 Suppl):S1-S39",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25832968/",
+   "pmid": "25832968",
+   "doi": "10.1177/0194599815572097",
+   "record_title": "Clinical practice guideline (update): adult sinusitis.",
+   "record_journal": "Otolaryngology--head and neck surgery",
+   "record_year": "2015",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "AAO-HNSF 2015 update (superseded by 2025 update); read 2026-11-15",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Symptomatic relief options for viral rhinosinusitis: analgesics, intranasal steroids, saline irrigation",
+     "quote": "recommend analgesics, topical intranasal steroids, and/or nasal saline irrigation for symptomatic relief of viral rhinosinusitis",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "2015 version: reassess if worse or not improved by 7 days after diagnosis",
+     "quote": "should reassess the patient to confirm ABRS, exclude other causes of illness, and detect complications if the patient worsens or fails to improve with the initial management option by 7 days after diagnosis",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "2015 version: 5 to 10 days first-line",
+     "quote": "should prescribe amoxicillin with or without clavulanate as first-line therapy for 5 to 10 days (if a decision is made to treat ABRS with an antibiotic)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Imaging only when complication or alternative diagnosis suspected (possibly imaging after treatment failure)",
+     "quote": "should not obtain radiographic imaging for patients who meet diagnostic criteria for ARS, unless a complication or alternative diagnosis is suspected",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Recurrent sinusitis needs workup for underlying conditions such as immune problems",
+     "quote": "should assess the patient with CRS or recurrent ARS for multiple chronic conditions that would modify management, such as asthma, cystic fibrosis, immunocompromised state, and ciliary dyskinesia",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Nasal polyps and anatomic concerns need direct examination such as nasal endoscopy",
+     "quote": "should confirm the presence or absence of nasal polyps in a patient with CRS ... using anterior rhinoscopy, nasal endoscopy, or computed tomography",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "guideline",
+   "cited_as": "Chow AW, et al. IDSA ABRS guideline. Clin Infect Dis 2012;54(8):e72-e112",
+   "url": "https://academic.oup.com/cid/article/54/8/e72/367144",
+   "pmid": "22438350",
+   "doi": "10.1093/cid/cir1043",
+   "record_title": "IDSA clinical practice guideline for acute bacterial rhinosinusitis in children and adults.",
+   "record_journal": "Clinical infectious diseases",
+   "record_year": "2012",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "IDSA 2012 guideline; read 2026-11-15",
+   "retrieved_with": "PubMed get_article_metadata; WebFetch of free full text at academic.oup.com; Scite verify_papers (Scite titles this DOI \"Executive Summary\")",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Any of 3 presentations identify ABRS: persistent >=10 days without improvement",
+     "quote": "The following clinical presentations (any of 3) are recommended for identifying patients with acute bacterial vs viral rhinosinusitis: ... Onset with persistent symptoms or signs compatible with acute rhinosinusitis, lasting for ≥10 days without any evidence of clinical improvement",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Severe onset: fever >=39C (102F) and purulent discharge or facial pain for 3-4 consecutive days at start",
+     "quote": "Onset with severe symptoms or signs of high fever (≥39°C [102°F]) and purulent nasal discharge or facial pain lasting for at least 3–4 consecutive days at the beginning of illness",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Double-sickening after typical viral URI of 5-6 days that was improving",
+     "quote": "Onset with worsening symptoms or signs characterized by the new onset of fever, headache, or increase in nasal discharge following a typical viral upper respiratory infection (URI) that lasted 5–6 days and were initially improving",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Bacterial infection follows viral URI in 0.5%-2% of adult cases",
+     "quote": "Secondary bacterial infection of the paranasal sinuses following an antecedent viral URI is relatively uncommon, estimated to be 0.5%–2% of adult cases",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "IDSA: 5 to 7 days for uncomplicated ABRS in adults",
+     "quote": "The recommended duration of therapy for uncomplicated ABRS in adults is 5–7 days (weak, low-moderate).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "IDSA prefers amoxicillin-clavulanate over amoxicillin alone",
+     "quote": "Amoxicillin-clavulanate rather than amoxicillin alone is recommended as empiric antimicrobial therapy for ABRS in adults (weak, low).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Under 10 days most likely viral (with CDC ref 12)",
+     "quote": "Secondary bacterial infection of the paranasal sinuses following an antecedent viral URI is relatively uncommon",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fever 102F (39C) or higher may indicate more serious bacterial process",
+     "quote": "severe infection (eg, evidence of systemic toxicity with fever of 39°C [102°F] or higher, and threat of suppurative complications)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "agency_page",
+   "cited_as": "CDC. Outpatient Clinical Care for Adults",
+   "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html",
+   "version_or_date": "Last reviewed April 16, 2024; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "The CDC sinusitis clinical page (/hcp/clinical-signs/sinusitis.html) returned a client error; this is the current CDC adult outpatient page with an acute rhinosinusitis section.",
+   "claims": [
+    {
+     "text": "90-98% of rhinosinusitis viral; antibiotics may not help even if bacterial",
+     "quote": "90–98% of rhinosinusitis cases are viral, and antibiotics may not help even if the causative agent is bacterial.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Under 10 days most likely viral",
+     "quote": "90–98% of rhinosinusitis cases are viral",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC encourages watchful waiting for uncomplicated cases with reliable follow-up",
+     "quote": "Healthcare professionals should encourage watchful waiting for uncomplicated cases for which reliable follow-up is available.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "journal",
+   "cited_as": "Fleming-Dutra KE, et al. JAMA 2016;315(17):1864-1873",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27139059/",
+   "pmid": "27139059",
+   "doi": "10.1001/jama.2016.4151",
+   "record_title": "Prevalence of Inappropriate Antibiotic Prescriptions Among US Ambulatory Care Visits, 2010-2011.",
+   "record_journal": "JAMA",
+   "record_year": "2016",
+   "article_type": "Journal Article (cross-sectional survey analysis)",
+   "retrieved_with": "PubMed search_articles + get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite flagged one contrasting citation (Wellcome Open Res, patient expectations in another setting); it does not bear on the cited prescription counts.",
+   "claims": [
+    {
+     "text": "Sinusitis single diagnosis with most antibiotic prescriptions per 1,000 population (US, 2010-2011)",
+     "quote": "Sinusitis was the single diagnosis associated with the most antibiotic prescriptions per 1000 population (56 antibiotic prescriptions [95% CI, 48-64])",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Acute respiratory conditions 221 prescriptions per 1,000, only 111 appropriate",
+     "quote": "Collectively, acute respiratory conditions per 1000 population led to 221 antibiotic prescriptions (95% CI, 198-245) annually, but only 111 antibiotic prescriptions were estimated to be appropriate for these conditions.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "agency_page",
+   "cited_as": "CDC. Sinus Infection Basics",
+   "url": "https://www.cdc.gov/sinus-infection/about/index.html",
+   "version_or_date": "Last reviewed April 17, 2024 (page metadata: published March 24, 2026); read 2026-11-15",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Many sinus infections get better on their own without antibiotics",
+     "quote": "You do not need antibiotics for many sinus infections.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Severe facial pain needs a healthcare provider (red-flag item 2, with NICE)",
+     "quote": "See a healthcare provider if you have: Severe symptoms, such as severe headache or facial pain.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Multiple sinus infections in a year need evaluation",
+     "quote": "See a healthcare provider if you have: ... Multiple sinus infections in the past year.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "guideline",
+   "cited_as": "NICE guideline NG79, Recommendations",
+   "url": "https://www.nice.org.uk/guidance/ng79/chapter/Recommendations",
+   "version_or_date": "NICE NG79; page states \"April 2019: We have found no new evidence that affects the recommendations.\"; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page (recommendations chapter and guideline overview)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "UK guideline; title not shown in the fetched text, so the reference names it by its NG79 number and topic.",
+   "claims": [
+    {
+     "text": "Orbital signs (periorbital oedema/cellulitis, displaced eye, double vision, reduced eye movement, reduced vision): hospital referral",
+     "quote": "Refer people to hospital if they have symptoms and signs of acute sinusitis associated with any of the following: ... intraorbital or periorbital complications, including periorbital oedema or cellulitis, a displaced eyeball, double vision, ophthalmoplegia, or newly reduced visual acuity",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Forehead swelling as sign of spreading (intracranial) infection",
+     "quote": "intracranial complications, including swelling over the frontal bone",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Severe headache, meningitis signs: intracranial complication, hospital referral",
+     "quote": "intracranial complications, including swelling over the frontal bone, symptoms or signs of meningitis, severe frontal headache, or focal neurological signs.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus. Sinusitis",
+   "url": "https://medlineplus.gov/ency/article/000647.htm",
+   "version_or_date": "Review date April 29, 2026; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Vision change during sinus infection needs a provider; orbital cellulitis is a complication",
+     "quote": "Contact your provider if: ... You have any changes in your vision during a sinus infection. ... Skin infection around the eye (orbital cellulitis)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Serious complications very rare (abscess, osteomyelitis, meningitis, orbital cellulitis)",
+     "quote": "Although very rare, complications may include: Abscess; Bone infection (osteomyelitis); Meningitis; Skin infection around the eye (orbital cellulitis)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus. Meningitis",
+   "url": "https://medlineplus.gov/ency/article/000680.htm",
+   "version_or_date": "Review date November 10, 2024; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Used with ref 16 (meningitis as a sinusitis complication) and ref 15 (meningitis signs need hospital referral).",
+   "claims": [
+    {
+     "text": "Stiff neck, severe headache, mental status changes (confusion) are meningitis symptoms; go to ED right away",
+     "quote": "Mental status changes ... Severe headache ... Stiff neck ... Go to a hospital emergency department right away if you think you have symptoms of meningitis.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}
