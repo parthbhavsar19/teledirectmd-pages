@@ -1,0 +1,234 @@
+{
+  "guide": "affordability/what-is-coinsurance",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 0 verified (no journal references or DOIs in this guide; all six references are U.S. government web pages), retractions: none",
+  "references": [
+    {
+      "n": 1,
+      "kind": "agency_page",
+      "cited_as": "HealthCare.gov, Coinsurance",
+      "url": "https://www.healthcare.gov/glossary/co-insurance/",
+      "record_title": "Coinsurance (HealthCare.gov glossary)",
+      "record_journal": "HealthCare.gov (CMS)",
+      "version_or_date": "undated glossary page, read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0); direct fetch blocked by egress proxy",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Coinsurance is a percentage share of a covered service's allowed amount; official definition quoted verbatim",
+          "quote": "The percentage of costs of a covered health care service you pay (20%, for example) after you've paid your deductible.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Office visit example: $100 allowed amount, 20% coinsurance; after the deductible you pay $20 and the plan pays the rest ($80)",
+          "quote": "for an office visit is $100 and your coinsurance is 20%. If you've paid your deductible: You pay 20% of $100, or $20. The insurance company pays the rest.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "If the deductible is not met you pay the full $100; FAQ: before the deductible is met you pay the full allowed amount",
+          "quote": "If you haven't met your deductible: You pay the full allowed amount, $100.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Full-year example: $12,000 covered costs, $3,000 deductible, 20% coinsurance; you pay $1,800 of the remaining $9,000, total $4,800 (plan pays the other $7,200 by arithmetic)",
+          "quote": "Allowable costs are $12,000. Deductible: $3,000 Coinsurance: 20% You'd pay all of the first $3,000 (your deductible). You'll pay 20% of the remaining $9,000, or $1,800 (your coinsurance).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Total for the year is $4,800; once the out-of-pocket maximum is reached the plan pays for covered services",
+          "quote": "So your total out-of-pocket costs would be $4,800",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQ answers: coinsurance applies after the deductible; with 20% coinsurance you pay 20% and the plan pays 80%",
+          "quote": "The percentage of costs of a covered health care service you pay (20%, for example) after you've paid your deductible.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "agency_page",
+      "cited_as": "HealthCare.gov, Deductible",
+      "url": "https://www.healthcare.gov/glossary/deductible/",
+      "record_title": "Deductible (HealthCare.gov glossary)",
+      "record_journal": "HealthCare.gov (CMS)",
+      "version_or_date": "undated glossary page, read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0); direct fetch blocked by egress proxy",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Page also shows glossary pop-up definitions of premium, copayment and coinsurance, used for the four-term table.",
+      "claims": [
+        {
+          "text": "Table: deductible is what you pay for covered services before the plan starts paying (example $2,000)",
+          "quote": "The amount you pay for covered health care services before your insurance plan starts to pay. With a $2,000 deductible, for example, you pay the first $2,000 of covered services yourself.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Table: copay is a fixed dollar amount ($30 example); coinsurance is a percentage (20% example)",
+          "quote": "A fixed amount you pay for a plan-covered service, like $30. ... A percentage of the cost that you pay for each plan-covered service, like 20%.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Table: premium is the monthly amount you pay to keep coverage whether or not you use care",
+          "quote": "A monthly amount you pay for coverage whether you get services or not.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQ (rewritten): many plans pay for certain services, like a checkup, before the deductible is met; after the deductible you usually pay a copay or coinsurance",
+          "quote": "After you pay your deductible, you usually pay only a copayment or coinsurance for covered services. ... Many plans pay for certain services, like a checkup or disease management programs, before you've met your deductible.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Preventive care is often covered at 100% before the deductible",
+          "quote": "All Marketplace health plans pay the full cost of certain preventive benefits even before you meet your deductible.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "agency_page",
+      "cited_as": "HealthCare.gov, Out-of-pocket maximum/limit",
+      "url": "https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/",
+      "record_title": "Out-of-pocket maximum/limit (HealthCare.gov glossary)",
+      "record_journal": "HealthCare.gov (CMS)",
+      "version_or_date": "page lists plan years 2026 and 2027; read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0); direct fetch blocked by egress proxy",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "2026 Marketplace out-of-pocket limit $10,600 individual / $21,200 family; 2027 $12,000 / $24,000",
+          "quote": "2026: No more than $10,600 for an individual or $21,200 for a family 2027: No more than $12,000 for an individual or $24,000 for a family",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Deductibles, copays and coinsurance for in-network covered care count; once reached the plan pays 100% of covered services for the rest of the year",
+          "quote": "After you spend this amount on deductibles, copayments, and coinsurance for in-network care and services, your health plan pays 100% of the costs of covered benefits.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQ: out-of-pocket maximum is the most you pay in a year for covered care",
+          "quote": "The most you have to pay for covered services in a plan year.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Premiums, out-of-network care and uncovered services do not count toward the out-of-pocket maximum (FAQ and common-mistakes line)",
+          "quote": "The out-of-pocket limit doesn't include: Your monthly premiums Anything you spend for services your plan doesn't cover Out-of-network care and services",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "agency_page",
+      "cited_as": "Medicare.gov, Medicare costs",
+      "url": "https://www.medicare.gov/basics/costs/medicare-costs",
+      "record_title": "Costs (Medicare.gov)",
+      "record_journal": "Medicare.gov (CMS)",
+      "version_or_date": "tables headed 'What you pay in 2026'; read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0); direct fetch blocked by egress proxy",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Part B deductible is $283 per year in 2026",
+          "quote": "$283 before Original Medicare starts to pay. You pay this deductible once each year.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "After the Part B deductible you usually pay 20% of the Medicare-approved amount for most services",
+          "quote": "Usually 20% of the cost for each Medicare-covered service or item after you’ve paid your deductible (and as long as your doctor or health care provider accepts the Medicare-approved amount",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Standard Part B premium $202.90 a month in 2026, or higher depending on income",
+          "quote": "$202.90 each month (or higher depending on your income). The amount can change each year.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Original Medicare has no yearly out-of-pocket limit unless you have supplemental coverage such as Medigap or join a Medicare Advantage Plan (takeaway, Medicare section, FAQ)",
+          "quote": "There’s no yearly limit on what you pay out-of-pocket, unless you have supplemental coverage, like a Medicare Supplement Insurance (Medigap) policy or join a Medicare Advantage Plan (Part C)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Medigap usually helps pay your share of costs like deductibles and coinsurance for Part A and Part B services",
+          "quote": "Medigap usually helps pay your portion of the costs (like deductibles and coinsurance) for services that Part A and Part B cover in Original Medicare.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "agency_page",
+      "cited_as": "Medicare.gov, What does Medicare cost",
+      "url": "https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/what-does-medicare-cost",
+      "record_title": "What does Medicare cost?",
+      "record_journal": "Medicare.gov (CMS)",
+      "version_or_date": "tables headed 'What you pay in 2026'; read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0); direct fetch blocked by egress proxy",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Part A deductible $1,736 per benefit period in 2026",
+          "quote": "$1,736 for each time you’re admitted to the hospital per benefit period",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Part A daily amounts: $434 per day for days 61 to 90; $868 per day for days 91 to 150 while using the 60 lifetime reserve days",
+          "quote": "Days 61-90: $434 each day Days 91-150: $868 each day while using your 60 lifetime reserve days",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "agency_page",
+      "cited_as": "CMS, Premium Adjustment Percentage, Maximum Annual Limitation on Cost Sharing, Reduced Maximum Annual Limitation on Cost Sharing, and Required Contribution Percentage for the 2027 Benefit Year (guidance dated January 29, 2026)",
+      "url": "https://www.cms.gov/files/document/2027-papi-parameters-guidance-2026-01-29.pdf",
+      "record_title": "Premium Adjustment Percentage, Maximum Annual Limitation on Cost Sharing, Reduced Maximum Annual Limitation on Cost Sharing, and Required Contribution Percentage for the 2027 Benefit Year",
+      "record_journal": "Centers for Medicare & Medicaid Services (HHS guidance)",
+      "record_year": "2026",
+      "version_or_date": "Guidance dated January 29, 2026 (2027 benefit year); read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /scrape of the CMS PDF (6 pages, live fetch)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New primary source added for the 2026 and 2027 out-of-pocket limits. CMS uses 'self-only' and 'other than self-only' coverage; the guide's 'individual' and 'family' follow HealthCare.gov's wording.",
+      "claims": [
+        {
+          "text": "2027 limit $12,000 individual / $24,000 family, up from 2026 $10,600 / $21,200",
+          "quote": "the 2027 maximum annual limitation on cost sharing is $12,000 for self-only coverage and $24,000 for other than self-only coverage. This represents an approximately 13.2 percent increase from the 2026 parameters of $10,600 for self-only coverage and $21,200",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ],
+  "quote_note": "Quotes are the visible sentence text. On HealthCare.gov and Medicare.gov, glossary pop-up definitions sit inline in the page markup between words; those pop-up texts and list bullets are omitted from quotes, and ' ... ' joins two sentences from the same page."
+}
