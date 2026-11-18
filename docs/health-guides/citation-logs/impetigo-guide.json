@@ -1,7 +1,7 @@
 {
  "guide": "impetigo-guide",
  "checked_at": "2026-11-18",
- "checked_by": "Claude (repair run)",
+ "checked_by": "Claude (repair run; reworked for adults and children 2026-11-18)",
  "scite_verify_papers": "run 2026-11-18; 4 cited DOIs verified (10.1093/cid/ciu296, 10.1093/cid/ciu444 checked as the related IDSA record, 10.1002/14651858.CD003261.pub3, 10.3399/bjgp20X714149), plus the dropped Daum NEJM 2007 DOI (verified); AFP 2026 has no DOI and Scite could not verify it (PubMed record confirms it); retractions: none",
  "references": [
   {
@@ -292,6 +292,12 @@
      "verdict": "supported"
     },
     {
+     "text": "Children: not back to school or child care until well appearing and at least 12 hours after antibiotics (CDC citing AAP Red Book)",
+     "quote": "children with group A strep infections should not return to school or a childcare setting until well appearing and at least 12 hours after beginning appropriate antibiotic therapy.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
      "text": "Consider staying home 24 hours for health care workers or outbreaks",
      "quote": "In certain scenarios, such as an infection in a healthcare worker or in a group A strep outbreak setting, staying home for at least 24 hours after beginning appropriate antibiotics should be considered.",
      "quote_source": "official_page",
@@ -561,6 +567,24 @@
      "verdict": "supported"
     },
     {
+     "text": "Children with eczema more likely to develop impetigo",
+     "quote": "Children with other skin conditions, such as atopic dermatitis (eczema), are more likely to develop impetigo.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Spreads easily in schools and child care facilities",
+     "quote": "Impetigo spreads easily within families, in crowded settings, such as schools and child care facilities,",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cut a child's nails short",
+     "quote": "Cut an infected child's nails short to prevent damage from scratching.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
      "text": "Wear gloves applying ointment, wash hands afterward",
      "quote": "Wear gloves when applying antibiotic ointment and wash your hands thoroughly afterward.",
      "quote_source": "official_page",
@@ -624,6 +648,18 @@
     {
      "text": "Cold sores caused by herpes simplex virus; impetigo bacterial",
      "quote": "A bacteria causes impetigo, whereas cold sores are a symptom of the herpes simplex virus (HSV).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Can return, especially in young children who scratch and reopen scabs",
+     "quote": "Children are especially prone to scratching and opening their scabs, putting them at a higher risk of re-infection.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Condition can return especially in young children",
+     "quote": "Antibiotics can treat impetigo, but the condition can return, especially in young children.",
      "quote_source": "official_page",
      "verdict": "supported"
     },
@@ -825,6 +861,12 @@
      "verdict": "supported"
     },
     {
+     "text": "Pediatric safety and effectiveness established 2 months to 16 years",
+     "quote": "The safety and effectiveness of mupirocin ointment have been established in the age range of 2 months to 16 years.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
      "text": "Re-evaluate if no response in 3 to 5 days",
      "quote": "Re-evaluate patients not showing a clinical response within 3 to 5 days.",
      "quote_source": "label",
@@ -856,6 +898,12 @@
      "verdict": "supported"
     },
     {
+     "text": "Indicated for adults and children 9 months and older",
+     "quote": "ALTABAX is indicated for use in adults and pediatric patients aged 9 months and older for the topical treatment of impetigo",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
      "text": "Adults: up to 100 square centimeters total area",
      "quote": "(up to 100 cm2 in total area in adults or 2% total body surface area in pediatric patients aged 9 months or older)",
      "quote_source": "label",
@@ -864,6 +912,31 @@
    ],
    "cited_as": "DailyMed. Altabax (retapamulin) ointment, 1%: prescribing information (Physicians Total Care). Revised January 13, 2010. Accessed November 18, 2026. dailymed.nlm.nih.gov",
    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9fae06b5-bbd5-400a-a7a6-3a4e238361f8",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": []
+  },
+  {
+   "n": 18,
+   "kind": "other_web",
+   "retrieved_with": "Monid firecrawl /scrape of healthychildren.org page",
+   "version_or_date": "Last updated 7/12/2024; source AAP Section on Dermatology",
+   "notes": "Added in the adults-and-children rework. This AAP parent page gives no 24-hour rule; CDC cites the AAP Red Book as 12 hours plus well appearing. The old claim \"AAP extends that to 24 hours for young children\" was not supported by any source retrieved.",
+   "claims": [
+    {
+     "text": "Child should avoid close contact with other children until rash clear or improving after two days of antibiotics",
+     "quote": "Since impetigo is very contagious, your child should avoid close contact with other children until the rash is clear or improving after two days of antibiotics.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Keep child washcloths and towels separate",
+     "quote": "Also, keep your child's washcloths and towels separate from those of other family members.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "cited_as": "Polcari I, Mahoney M. Impetigo: What to Know About This Common Skin Infection in Children. HealthyChildren.org, American Academy of Pediatrics Section on Dermatology. Last updated July 12, 2024. Accessed November 18, 2026. healthychildren.org",
+   "url": "https://www.healthychildren.org/English/health-issues/conditions/skin/Pages/Impetigo.aspx",
    "retrieved_at": "2026-11-18",
    "editorial_notices": []
   }
