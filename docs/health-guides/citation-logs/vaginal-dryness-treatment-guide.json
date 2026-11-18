@@ -1,0 +1,644 @@
+{
+  "guide": "vaginal-dryness-treatment-guide",
+  "checked_at": "2026-11-07",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+  "references": [
+    {
+      "n": 1,
+      "kind": "guideline",
+      "cited_as": "The North American Menopause Society. The 2020 genitourinary syndrome of menopause position statement of The North American Menopause Society. Menopause. 2020;27(9):976-992.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32852449/",
+      "retrieved_with": "PubMed get_article_metadata (abstract; no PMC full text)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "GSM affects approximately 27% to 84% of postmenopausal women",
+          "quote": "Genitourinary syndrome of menopause affects approximately 27% to 84% of postmenopausal women and can significantly impair health, sexual function, and quality of life.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "GSM is likely underdiagnosed and undertreated; in most cases symptoms can be effectively managed",
+          "quote": "Genitourinary syndrome of menopause is likely underdiagnosed and undertreated. In most cases, symptoms can be effectively managed.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Nonprescription nonhormone therapies give sufficient relief for most women with mild symptoms",
+          "quote": "Nonhormone therapies available without a prescription provide sufficient relief for most women with mild symptoms.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Low-dose vaginal estrogen, vaginal DHEA, systemic estrogen and ospemifene are effective for moderate to severe GSM",
+          "quote": "Low-dose vaginal estrogens, vaginal DHEA, systemic estrogen therapy, and ospemifene are effective treatments for moderate to severe GSM.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Progestogen not indicated with low-dose vaginal estrogen, DHEA or ospemifene, but endometrial safety not studied beyond 1 year; long-term endometrial safety data for vaginal DHEA lacking",
+          "quote": "When low-dose vaginal estrogen or DHEA or ospemifene is administered, a progestogen is not indicated; however, endometrial safety has not been studied in clinical trials beyond 1 year.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Insufficient data to confirm safety of vaginal estrogen, DHEA or ospemifene in women with breast cancer",
+          "quote": "There are insufficient data at present to confirm the safety of vaginal estrogen or DHEA or ospemifene in women with breast cancer",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Too few placebo-controlled trials of energy-based therapies including laser to recommend them",
+          "quote": "There are insufficient placebo-controlled trials of energy-based therapies, including laser, to draw conclusions on efficacy and safety or to make treatment recommendations.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "32852449",
+      "doi": "10.1097/GME.0000000000001609",
+      "record_title": "The 2020 genitourinary syndrome of menopause position statement of The North American Menopause Society.",
+      "record_journal": "Menopause",
+      "record_year": "2020",
+      "article_type": "Consensus Statement; Journal Article",
+      "version_or_date": "Menopause 2020;27(9):976-992",
+      "notes": "Retraction check: PubMed article types list no \"Retracted Publication\" or \"Retraction Notice\"; scite_unavailable (quota exhausted until 2026-11-14). Removed unsupported uses of this ref: \"most effective\", \"safe, effective and well tolerated\", 59/47/29/27% survey figures, 50-70% UTI reduction, hyaluronic acid claim, and \"normal postmenopausal range\" absorption claim."
+    },
+    {
+      "n": 2,
+      "kind": "guideline",
+      "cited_as": "American College of Obstetricians and Gynecologists. Treatment of Urogenital Symptoms in Individuals With a History of Estrogen-Dependent Breast Cancer. Clinical Consensus No. 2. 2021. Accessed November 7, 2026.",
+      "url": "https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2021/12/treatment-of-urogenital-symptoms-in-individuals-with-a-history-of-estrogen-dependent-breast-cancer",
+      "retrieved_with": "WebFetch of acog.org official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Nonhormonal methods are first-line treatment for urogenital symptoms in women with a history of breast cancer",
+          "quote": "Nonhormonal methods should be considered first-line treatment for urogenital symptoms",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "If nonhormonal treatments fail, low-dose vaginal estrogen may be used, including with tamoxifen, after discussing risks and benefits",
+          "quote": "If nonhormonal treatments have failed to adequately address symptoms, after discussion of risks and benefits, low-dose vaginal estrogen may be used in individuals with a history of breast cancer, including those taking tamoxifen.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "For women taking AIs, low-dose vaginal estrogen can be used after shared decision-making with patient, gynecologist and oncologist",
+          "quote": "For individuals taking AIs, low-dose vaginal estrogen can be used after shared decision making between the patient, gynecologist, and oncologist.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Available evidence suggests low-dose vaginal estrogen is safe in HR-positive breast cancer survivors at low risk of recurrence",
+          "quote": "Available evidence suggest that low-dose vaginal estrogen is safe in individuals with a history of hormone receptor–positive breast cancer who are at low risk of recurrence.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Evidence supports vaginal moisturizers for temporary relief of vaginal dryness",
+          "quote": "data demonstrate the effectiveness of vaginal moisturizers (eg, gels and creams) for the temporary relief of vaginal dryness, urogenital atrophy, and dyspareunia",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Small studies: hyaluronic acid relieved atrophy symptoms, particularly three to five times per week",
+          "quote": "Small studies have demonstrated relief of vaginal atrophy symptoms with the use of hyaluronic acid, particularly when dosed three to five times per week",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Ospemifene: no indication of increased recurrence risk, long-term safety data limited",
+          "quote": "there is no indication that ospemifene is associated with increased risk of recurrence ... long-term safety data are limited.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Prasterone dose 6.5 mg daily",
+          "quote": "Prasterone is a vaginal DHEA insert (6.5 mg daily) that is approved by the U.S. Food and Drug Administration (FDA) for the treatment of moderate-to-severe dyspareunia due to menopause.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Laser is neither FDA-approved nor FDA-cleared for menopause symptoms; more research warranted before recommending",
+          "quote": "Laser therapy is neither FDA-approved nor FDA-cleared for the treatment of symptoms related to menopause. Additional research is warranted before recommending laser therapy for this indication.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "version_or_date": "Clinical Consensus No. 2 (replaces Committee Opinion 659); year 2021 taken from the page URL path, no date printed in retrieved text; read 2026-11-07",
+      "notes": "Ospemifene quote joins two verbatim fragments from the same paragraph. The citable summary link was fixed from the generic ACOG clinical-guidance index to this exact page. Old claim \"safe for most breast cancer survivors\" narrowed to ACOG wording."
+    },
+    {
+      "n": 3,
+      "kind": "journal",
+      "cited_as": "Agrawal P, Singh SM, Able C, et al. Safety of Vaginal Estrogen Therapy for Genitourinary Syndrome of Menopause in Women With a History of Breast Cancer. Obstet Gynecol. 2023;142(3):660-668.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37535961/",
+      "retrieved_with": "PubMed get_article_metadata (abstract only)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "In a U.S. claims database study of 42,113 women with GSM after breast cancer, 5-year recurrence risk was comparable with and without vaginal estrogen",
+          "quote": "We identified 42,113 women with a diagnosis of genitourinary syndrome of menopause after breast cancer diagnosis ... Risk of breast cancer recurrence was comparable between those who received vaginal estrogen and those who did not",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "37535961",
+      "doi": "10.1097/AOG.0000000000005294",
+      "record_title": "Safety of Vaginal Estrogen Therapy for Genitourinary Syndrome of Menopause in Women With a History of Breast Cancer.",
+      "record_journal": "Obstet Gynecol",
+      "record_year": "2023",
+      "article_type": "Journal Article (retrospective claims-database cohort; not a trial)",
+      "notes": "Retraction check: PubMed article types list no \"Retracted Publication\" or \"Retraction Notice\"; scite_unavailable (quota exhausted until 2026-11-14). Replaces AUA News secondary summary (old ref 3). The old 5-year/10-year all-cause mortality claim was cut: not in this abstract."
+    },
+    {
+      "n": 4,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. Statement from FDA Commissioner Scott Gottlieb, M.D., on efforts to safeguard women's health from deceptive health claims and significant risks related to devices marketed for use in medical procedures for \"vaginal rejuvenation.\" Accessed November 7, 2026.",
+      "url": "https://www.fda.gov/newsevents/newsroom/pressannouncements/ucm615130.htm",
+      "retrieved_with": "WebFetch of fda.gov official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "FDA said the safety and effectiveness of these devices for vaginal rejuvenation had not been evaluated or confirmed by FDA",
+          "quote": "But the safety and effectiveness of these devices hasn’t been evaluated or confirmed by the FDA for “vaginal rejuvenation.”",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Devices marketed with claims to treat menopause, urinary incontinence or sexual function symptoms",
+          "quote": "claiming these procedures will treat conditions and symptoms related to menopause, urinary incontinence or sexual function.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FDA found numerous cases of burns, scarring, pain during intercourse, recurring or chronic pain",
+          "quote": "we have found numerous cases of vaginal burns, scarring, pain during sexual intercourse, and recurring or chronic pain.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Lasers and other energy-based devices are used in these procedures",
+          "quote": "The procedures use lasers and other energy-based devices to destroy or reshape vaginal tissue.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "version_or_date": "No date printed on the retrieved page; read 2026-11-07",
+      "notes": "Replaces Burkett 2022 (old ref 4, a MAUDE adverse-event analysis whose abstract does not describe the FDA warning). \"July 2018\" and \"2018\" removed from the guide because no date was retrievable this run. ISSVD/ICS joint statement claim cut (no source retrieved)."
+    },
+    {
+      "n": 5,
+      "kind": "other_web",
+      "cited_as": "Johns Hopkins Sjögren's Center. Gynecologic Problems: Vaginal Dryness. Accessed November 7, 2026.",
+      "url": "https://www.hopkinssjogrens.org/disease-information/sjogrens-disease/vaginal-dryness/",
+      "retrieved_with": "WebFetch of hopkinssjogrens.org",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Women with Sjogren's report vaginal dryness 2 to 3 times more often than same-age women without it",
+          "quote": "women with Sjögren's disease report it 2 to 3 times more often",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Treatment of vaginal dryness in Sjogren's includes vaginal moisturizers",
+          "quote": "The treatment of vaginal dryness in the setting of Sjögren's disease includes the use of vaginal moisturizers",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "version_or_date": "Page metadata last modified 2026-05-21; read 2026-11-07",
+      "notes": "Mechanism claim (lymphocytic infiltration, vascular dysfunction) cut: not on the page."
+    },
+    {
+      "n": 6,
+      "kind": "journal",
+      "cited_as": "Vanderschee R, Kostov S. Approach to lubricant use for sexual activity. Can Fam Physician. 2025;71(7-8):e158-e166.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40730448/",
+      "retrieved_with": "PubMed get_article_metadata and get_full_text_article (full text empty); PMC page returned a bot check and was not routed around",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Three main lubricant types: oil-, silicone-, water-based",
+          "quote": "There are 3 main types of lubricants available: oil-, silicone-, and water-based products.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Silicone- or water-based lubricants recommended for condom users or recurrent infection/irritation; free of harmful ingredients, within recommended osmolality and pH ranges",
+          "quote": "For patients who use condoms or who experience recurrent vaginal infections or irritation, silicone- or water-based lubricants are recommended, which are free of harmful ingredients and are within recommended osmolality and pH ranges.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "40730448",
+      "pmcid": "PMC12312864",
+      "doi": "10.46747/cfp.710708e158",
+      "record_title": "Approach to lubricant use for sexual activity.",
+      "record_journal": "Can Fam Physician",
+      "record_year": "2025",
+      "article_type": "Journal Article; Review",
+      "notes": "Retraction check: PubMed article types list no \"Retracted Publication\" or \"Retraction Notice\"; scite_unavailable (quota exhausted until 2026-11-14). Abstract-only: cut <380 mOsm/kg, pH 4.0-4.5, ~300 mOsm/kg vaginal osmolality, >3,000 mOsm/kg brands, WHO recommendation, and named ingredients (glycerin, propylene glycol, chlorhexidine). Link changed from the PMC page to the PubMed record that was retrieved."
+    },
+    {
+      "n": 7,
+      "kind": "label",
+      "cited_as": "OSPHENA (ospemifene) tablets, prescribing information. FDALabel, label effective February 14, 2025. Accessed November 7, 2026.",
+      "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/9accbcc9-78ee-4f84-9b7e-704f2ab1c413/spl-doc",
+      "retrieved_with": "WebFetch of FDALabel SPL (nctr-crs.fda.gov)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Indicated for moderate to severe dyspareunia and moderate to severe vaginal dryness due to menopause",
+          "quote": "The treatment of moderate to severe dyspareunia, a symptom of vulvar and vaginal atrophy, due to menopause. The treatment of moderate to severe vaginal dryness, a symptom of vulvar and vaginal atrophy, due to menopause.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dose: one 60 mg tablet orally with food once daily",
+          "quote": "One 60 mg tablet taken orally with food once daily.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Boxed warning: endometrial cancer and cardiovascular disorders (stroke, DVT)",
+          "quote": "WARNING: ENDOMETRIAL CANCER and CARDIOVASCULAR DISORDERS ... Estrogen-alone therapy has an increased risk of stroke and deep vein thrombosis (DVT).",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Contraindications: undiagnosed abnormal genital bleeding, estrogen-dependent neoplasia, active/history DVT or PE, active/history arterial thromboembolic disease, pregnancy",
+          "quote": "Undiagnosed abnormal genital bleeding. Estrogen-dependent neoplasia. Active DVT, PE, or a history of these conditions. Active arterial thromboembolic disease (for example, stroke and MI), or a history of these conditions.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Should not be used with known or suspected breast cancer or history of breast cancer",
+          "quote": "OSPHENA 60 mg has not been adequately studied in women with breast cancer; therefore, it should not be used in women with known or suspected breast cancer or with a history of breast cancer.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Estrogen agonist/antagonist with tissue-selective effects; estrogen agonist in endometrium",
+          "quote": "This binding results in activation of estrogenic pathways in some tissues (agonism) and blockade of estrogenic pathways in others (antagonism).",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Use for shortest duration consistent with treatment goals and risks",
+          "quote": "Use OSPHENA for the shortest duration consistent with treatment goals and risks for the individual woman.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Persistent or recurring abnormal genital bleeding after menopause should be evaluated",
+          "quote": "to rule out malignancy in postmenopausal women with undiagnosed persistent or recurring abnormal genital bleeding",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ],
+      "version_or_date": "Label effective 2025-02-14 (Recent Major Changes 02/2025); read 2026-11-07",
+      "notes": "Replaces The ObG Project prasterone page (old ref 7), which did not discuss ospemifene. Old claims cut: \"neutral/antagonist in breast\", \"trials showed significant improvement vs placebo\", \"no increased breast cancer incidence or recurrence\", \"may be preferable for women on AIs\"."
+    },
+    {
+      "n": 8,
+      "kind": "label",
+      "cited_as": "INTRAROSA (prasterone) vaginal inserts, prescribing information. FDALabel, label effective July 17, 2026. Accessed November 7, 2026.",
+      "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/ada639d4-bac0-2ad0-e053-2a95a90afce7/spl-doc",
+      "retrieved_with": "WebFetch of FDALabel SPL (nctr-crs.fda.gov)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Indicated for moderate to severe dyspareunia due to menopause; initial U.S. approval 2016",
+          "quote": "INTRAROSA® is a steroid indicated for the treatment of moderate to severe dyspareunia, a symptom of vulvar and vaginal atrophy, due to menopause. Initial U.S. Approval: 2016",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "One insert once daily at bedtime",
+          "quote": "Administer one INTRAROSA vaginal insert once daily at bedtime, using the provided applicator.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Inactive steroid converted to androgens and/or estrogens; mechanism not fully established",
+          "quote": "Prasterone is an inactive endogenous steroid and is converted into active androgens and/or estrogens. The mechanism of action of INTRAROSA in postmenopausal women with vulvar and vaginal atrophy is not fully established.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Serum testosterone and estradiol slightly higher than placebo",
+          "quote": "The Cmax and AUC 0-24 of the metabolites testosterone and estradiol were also slightly higher in women treated with the INTRAROSA vaginal insert compared to those receiving placebo.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Trial co-primary endpoints at week 12: dyspareunia, superficial cells, parabasal cells, pH",
+          "quote": "All women were assessed for improvement from Baseline to Week 12 for four co-primary efficacy endpoints: most bothersome moderate to severe symptom of dyspareunia, the percentage of vaginal superficial cells, the percentage of parabasal cells, and vaginal pH.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Not studied in women with history of breast cancer",
+          "quote": "INTRAROSA has not been studied in women with a history of breast cancer.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Undiagnosed abnormal genital bleeding should be evaluated before treatment",
+          "quote": "Any postmenopausal woman with undiagnosed, persistent or recurring genital bleeding should be evaluated to determine the cause of the bleeding before consideration of treatment with INTRAROSA.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ],
+      "version_or_date": "Label effective 2026-07-17 (SPL version 9); read 2026-11-07",
+      "notes": "Replaces Pieta 2021 (old ref 8; PubMed type Case Reports, a narrative review plus one case). Old claims cut: \"serum estrogen and testosterone stay within the normal postmenopausal range\" (label reports slightly higher levels vs placebo), \"trials improved vaginal dryness\", \"studied in breast cancer survivors including on AIs with no signal\"."
+    },
+    {
+      "n": 9,
+      "kind": "journal",
+      "cited_as": "Cold S, Cold F, Jensen MB, et al. Systemic or Vaginal Hormone Therapy After Early Breast Cancer: A Danish Observational Cohort Study. J Natl Cancer Inst. 2022;114(10):1347-1354.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35854422/",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Danish cohort of 8,461 women: no overall increase in recurrence or mortality with vaginal estrogen",
+          "quote": "Among 8461 women who had not received VET or MHT before BC diagnosis ... neither VET nor MHT was associated with increased risk of recurrence or mortality.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "With adjuvant AIs, vaginal estrogen associated with higher recurrence (RR 1.39), not mortality",
+          "quote": "1.39 [95% CI = 1.04 to 1.85 in the subgroup receiving adjuvant aromatase inhibitors] ... an increased risk of recurrence, but not mortality, in patients receiving VET with adjuvant aromatase inhibitors.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "35854422",
+      "pmcid": "PMC9552278",
+      "doi": "10.1093/jnci/djac112",
+      "record_title": "Systemic or Vaginal Hormone Therapy After Early Breast Cancer: A Danish Observational Cohort Study.",
+      "record_journal": "J Natl Cancer Inst",
+      "record_year": "2022",
+      "article_type": "Journal Article; Observational Study",
+      "notes": "Retraction check: PubMed article types list no \"Retracted Publication\" or \"Retraction Notice\"; scite_unavailable (quota exhausted until 2026-11-14). New primary source for the AI-subgroup finding previously attributed to AUA News."
+    },
+    {
+      "n": 10,
+      "kind": "journal",
+      "cited_as": "Portman DJ, Gass MLS, et al. Genitourinary syndrome of menopause: new terminology for vulvovaginal atrophy from the International Society for the Study of Women's Sexual Health and the North American Menopause Society. Maturitas. 2014;79(3):349-354.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25179577/",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "GSM term from 2013 ISSWSH/NAMS consensus conference, endorsed 2014; more accurate and publicly acceptable than VVA",
+          "quote": "Members of the consensus conference agreed that the term genitourinary syndrome of menopause (GSM) is a medically more accurate, all-encompassing, and publicly acceptable term than vulvovaginal atrophy.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Both boards endorsed the term in 2014",
+          "quote": "The respective Boards of NAMS and ISSWSH formally endorsed the new terminology--genitourinary syndrome of menopause (GSM)--in 2014.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "GSM involves labia, clitoris, vestibule/introitus, vagina, urethra and bladder, linked to decreased estrogen and other sex steroids",
+          "quote": "GSM is defined as a collection of symptoms and signs associated with a decrease in estrogen and other sex steroids involving changes to the labia majora/minora, clitoris, vestibule/introitus, vagina, urethra and bladder.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Genital, sexual and urinary symptom groups",
+          "quote": "genital symptoms of dryness, burning, and irritation; sexual symptoms of lack of lubrication, discomfort or pain, and impaired function; and urinary symptoms of urgency, dysuria and recurrent urinary tract infections.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Symptoms must be bothersome and not better accounted for by another diagnosis",
+          "quote": "Women may present with some or all of the signs and symptoms, which must be bothersome and should not be better accounted for by another diagnosis.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "25179577",
+      "doi": "10.1016/j.maturitas.2014.07.013",
+      "record_title": "Genitourinary syndrome of menopause: new terminology for vulvovaginal atrophy from the International Society for the Study of Women's Sexual Health and the North American Menopause Society.",
+      "record_journal": "Maturitas",
+      "record_year": "2014",
+      "article_type": "Consensus Statement; Journal Article",
+      "notes": "Retraction check: PubMed article types list no \"Retracted Publication\" or \"Retraction Notice\"; scite_unavailable (quota exhausted until 2026-11-14). Third author is a group name not returned by PubMed; listed as \"et al.\""
+    },
+    {
+      "n": 11,
+      "kind": "journal",
+      "cited_as": "Palma F, Volpe A, Villa P, Cagnacci A, et al. Vaginal atrophy of women in postmenopause. Results from a multicentric observational study: the AGATA study. Maturitas. 2015;83:40-44.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26421474/",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "AGATA: 913 women at routine exams, 79.1% diagnosed with GSM, only 30% previously diagnosed",
+          "quote": "Nine hundred thirteen females ... asking for a routine gynecological examination were recruited. ... A 722/913 (79.1%) women were diagnosed with GSM ... Only 274 (30%) of women had had a previous diagnosis of VVA/GSM.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Prevalence 64.7% at 1 year to 84.2% at 6 years after menopause; nearly all previously diagnosed still had it",
+          "quote": "prevalence ranging from 64.7% to 84.2%, starting from 1 to 6 years after menopause ... At the time of our investigation 266 of them (97.1%) still had the disorder.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "26421474",
+      "doi": "10.1016/j.maturitas.2015.09.001",
+      "record_title": "Vaginal atrophy of women in postmenopause. Results from a multicentric observational study: The AGATA study.",
+      "record_journal": "Maturitas",
+      "record_year": "2015",
+      "article_type": "Journal Article; Multicenter Study; Observational Study",
+      "notes": "Retraction check: PubMed article types list no \"Retracted Publication\" or \"Retraction Notice\"; scite_unavailable (quota exhausted until 2026-11-14). Replaces an uncited \"more than 900 women, 84% six years after menopause\" statement."
+    },
+    {
+      "n": 12,
+      "kind": "journal",
+      "cited_as": "Kingsberg SA, Wysocki S, Magnus L, Krychman ML. Vulvar and vaginal atrophy in postmenopausal women: findings from the REVIVE (REal Women's VIews of Treatment Options for Menopausal Vaginal ChangEs) survey. J Sex Med. 2013;10(7):1790-1799.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23679050/",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "REVIVE: 3,046 U.S. postmenopausal women; sex enjoyment affected 59%; sleep 24%, enjoyment of life 23%, temperament 23%",
+          "quote": "VVA symptoms affected enjoyment of sex in 59% of participants. Additionally, interference with sleep, general enjoyment of life, and temperament were reported by 24%, 23%, and 23% of participants, respectively.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "23679050",
+      "doi": "10.1111/jsm.12190",
+      "record_title": "Vulvar and vaginal atrophy in postmenopausal women: findings from the REVIVE (REal Women's VIews of Treatment Options for Menopausal Vaginal ChangEs) survey.",
+      "record_journal": "J Sex Med",
+      "record_year": "2013",
+      "article_type": "Journal Article (survey)",
+      "notes": "Retraction check: PubMed article types list no \"Retracted Publication\" or \"Retraction Notice\"; scite_unavailable (quota exhausted until 2026-11-14). Primary source for survey data previously attributed to NAMS; old figures (relationships 47%, sleep 29%, life 27%) did not match and were corrected; the relationships figure is not in the abstract and was cut. Sample size 3,046 from abstract."
+    },
+    {
+      "n": 13,
+      "kind": "journal",
+      "cited_as": "Perrotta C, Aznar M, Mejia R, Albert X, Ng CW. Oestrogens for preventing recurrent urinary tract infection in postmenopausal women. Cochrane Database Syst Rev. 2008;(2):CD005131.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18425910/",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Oral estrogen did not reduce UTIs",
+          "quote": "Oral oestrogens did not reduce UTI compared to placebo",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Vaginal estrogen reduced number of women with UTIs vs placebo in two small trials; varied by type and duration",
+          "quote": "Based on only two studies comparing vaginal oestrogens to placebo, vaginal oestrogens reduced the number of UTIs in postmenopausal women with RUTI, however this varied according to the type of oestrogen used and the treatment duration.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "18425910",
+      "pmcid": "PMC13598824",
+      "doi": "10.1002/14651858.CD005131.pub2",
+      "record_title": "Oestrogens for preventing recurrent urinary tract infection in postmenopausal women.",
+      "record_journal": "Cochrane Database Syst Rev",
+      "record_year": "2008",
+      "article_type": "Journal Article; Meta-Analysis; Systematic Review",
+      "notes": "Retraction check: PubMed article types list no \"Retracted Publication\" or \"Retraction Notice\"; scite_unavailable (quota exhausted until 2026-11-14). Replaces the unsupported \"50-70% UTI reduction\" figure. Review last searched February 2007; the AUA/CUA/SUFU recurrent UTI guideline page was login-gated and not used."
+    },
+    {
+      "n": 14,
+      "kind": "label",
+      "cited_as": "VAGIFEM (estradiol vaginal inserts) 10 mcg, prescribing information. FDALabel, label effective February 10, 2025. Accessed November 7, 2026.",
+      "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/e5ad3cf6-dd96-4e64-af21-c1eee38d0b88/spl-doc",
+      "retrieved_with": "WebFetch of FDALabel SPL (nctr-crs.fda.gov)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Vagifem 10 mcg dosing: 1 insert daily for 2 weeks, then twice weekly",
+          "quote": "1 insert daily for 2 weeks, followed by 1 insert twice weekly",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Indication: atrophic vaginitis due to menopause",
+          "quote": "Vagifem is an estrogen indicated for the treatment of atrophic vaginitis due to menopause.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Boxed warning: endometrial cancer, cardiovascular disorders, probable dementia, breast cancer",
+          "quote": "WARNING: ENDOMETRIAL CANCER, CARDIOVASCULAR DISORDERS, PROBABLE DEMENTIA, and BREAST CANCER",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Breast cancer or history of breast cancer is a contraindication; other contraindications include undiagnosed bleeding and DVT/PE",
+          "quote": "Undiagnosed abnormal genital bleeding ... Breast cancer or a history of breast cancer ... Active DVT, PE, or history of these conditions",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Consider adding a progestogen for women with a uterus",
+          "quote": "consider addition of a progestogen to reduce the risk of endometrial cancer",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Estrogens are present in human milk and can reduce milk production",
+          "quote": "Estrogens are present in human milk and can reduce milk production in breast-feeding females.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ],
+      "version_or_date": "Label effective 2025-02-10 (SPL version 22); read 2026-11-07",
+      "notes": "New source for vaginal estrogen dosing, boxed warning, contraindication and lactation statements. Imvexxy and Yuvafem brand mentions removed (labels not retrieved)."
+    },
+    {
+      "n": 15,
+      "kind": "label",
+      "cited_as": "ESTRING (estradiol vaginal system), prescribing information. FDALabel, label effective April 23, 2026. Accessed November 7, 2026.",
+      "url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/110b9865-5a07-4d45-b560-e89947f12600/spl-doc",
+      "retrieved_with": "WebFetch of FDALabel SPL (nctr-crs.fda.gov)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Ring stays in place continuously for 3 months",
+          "quote": "The ring is to remain in place continuously for three months",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Releases approximately 7.5 mcg per day over 90 days",
+          "quote": "approximately 7.5 mcg per day, in a consistent stable manner over 90 days",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Exposure generally lower than systemic estrogens for vasomotor symptoms",
+          "quote": "exposure is generally lower than that of systemic estrogens indicated for vasomotor symptoms",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ],
+      "version_or_date": "Label effective 2026-04-23 (SPL version 7); read 2026-11-07",
+      "notes": "New source for ring duration and relative exposure. Femring comparison removed (Femring label not retrieved). The guide makes no claim about whether this label carries a boxed warning."
+    },
+    {
+      "n": 16,
+      "kind": "guideline",
+      "cited_as": "American College of Obstetricians and Gynecologists. Committee Opinion No. 698: Hormone Therapy in Primary Ovarian Insufficiency. Obstet Gynecol. 2017;129(5):e134-e141.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28426619/",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "POI causes urogenital atrophy and other low-estrogen effects; systemic HT recommended if no contraindications; continue to about age 50-51",
+          "quote": "In women with primary ovarian insufficiency, systemic hormone therapy (HT) is an effective approach to treat the symptoms of hypoestrogenism and mitigate long-term health risks if there are no contraindications to treatment.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "HT reduces risk of osteoporosis, cardiovascular disease, urogenital atrophy; continue until average age of natural menopause (50-51)",
+          "quote": "Hormone therapy is indicated to reduce the risk of osteoporosis, cardiovascular disease, and urogenital atrophy ... Treatment for all women with primary ovarian insufficiency should continue until the average age of natural menopause is reached (age 50-51 years).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "28426619",
+      "doi": "10.1097/AOG.0000000000002044",
+      "record_title": "Committee Opinion No. 698: Hormone Therapy in Primary Ovarian Insufficiency.",
+      "record_journal": "Obstet Gynecol",
+      "record_year": "2017",
+      "article_type": "Journal Article; Practice Guideline",
+      "version_or_date": "Committee Opinion No. 698, Obstet Gynecol 2017;129(5):e134-e141",
+      "notes": "Retraction check: PubMed article types list no \"Retracted Publication\" or \"Retraction Notice\"; scite_unavailable (quota exhausted until 2026-11-14). Current ACOG status (reaffirmed or replaced) not checked this run. Supports the POI callout, which was previously uncited; \"before age 40\" removed because it was not in the retrieved text."
+    }
+  ]
+}
