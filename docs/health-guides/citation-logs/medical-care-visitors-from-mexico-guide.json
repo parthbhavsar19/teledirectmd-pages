@@ -1,0 +1,748 @@
+{
+  "guide": "medical-care-visitors-from-mexico-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 4 verified (10.5888/pcd11.140142, 10.2337/dc08-1296, 10.1002/dmrr.3418, 10.15585/mmwr.mm7131a5), retractions: none. No editorial notices; PubMed article types show no Retracted Publication or Retraction Notice (O'Brien: Journal Article; Cowie: Journal Article; Forst: Journal Article, Review). Scite flagged one potential contrasting citation each for Cowie 2009 and Forst 2020; neither bears on the cited claim.",
+  "references": [
+    {
+      "n": 1,
+      "kind": "dataset",
+      "cited_as": "U.S. Department of Commerce, International Trade Administration, National Travel and Tourism Office. Mexican Land Visitors Characteristics 2024. Accessed November 15, 2026.",
+      "url": "https://www.trade.gov/feature-article/mexican-land-visitors-characteristics-2024",
+      "version_or_date": "No visible publication date; page metadata 2025-09-18; calendar year 2024 data",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Page has no air-arrival figure and does not call Mexico the largest source market; those claims were cut.",
+      "claims": [
+        {
+          "text": "13.4 million Mexicans made overnight visits to the US by land in 2024 (key point, intro, subtitle, citable summary, meta descriptions)",
+          "quote": "the 13.4 million Mexicans who visited the United States by land in 2024 ... Key highlights of the Calendar Year 2024 Mexican Overnight Land Visitors to the United States report include:",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Over 50 percent of travel originated in six of Mexico's 31 states; five border the US (Baja California, Sonora, Chihuahua, Coahuila, Nuevo Leon)",
+          "quote": "Over 50 percent of travel originated from six of Mexico's 31 federated states. Five of the six states are located on the border with the United States (Baja California, Sonora, Chihuahua, Coahuila and Nuevo Leon)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Top states visited: California 6.2 million (45.8%), Texas 4.9 million (36.5%), Arizona 1.5 million (11.1%)",
+          "quote": "California 6.2 million (45.8 percent), Texas 4.9 million (36.5 percent), Arizona 1.5 million (11.1 percent)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "other_web",
+      "cited_as": "21 U.S.C. 353(b)(1). Exemptions and consideration for certain drugs, devices, and biological products. United States Code, 2024 Edition. U.S. Government Publishing Office.",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title21/html/USCODE-2024-title21-chap9-subchapV-partA-sec353.htm",
+      "version_or_date": "United States Code, 2024 Edition",
+      "retrieved_with": "WebFetch of govinfo.gov",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The statute does not mention foreign licenses; the Mexico-only license conclusion is an inference, hedged with \"generally\" on the page.",
+      "claims": [
+        {
+          "text": "Federal law requires prescription drugs to be dispensed on the prescription of a practitioner licensed by law",
+          "quote": "shall be dispensed only (i) upon a written prescription of a practitioner licensed by law to administer such drug",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "A clinician licensed only in Mexico generally does not meet that standard, so a US pharmacy generally cannot fill the prescription (key point, body, FAQ, citable)",
+          "quote": "shall be dispensed only (i) upon a written prescription of a practitioner licensed by law to administer such drug",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. Personal Importation. Content current as of August 18, 2025. Accessed November 15, 2026.",
+      "url": "https://www.fda.gov/industry/import-basics/personal-importation",
+      "version_or_date": "Content current as of 08/18/2025",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Page does not mention ports of entry, the land border or the Border Crossing Card; \"applies at all US ports including the Southwest land border\" was cut.",
+      "claims": [
+        {
+          "text": "FDA allows foreign nationals to bring or ship a 90-day supply of drug products",
+          "quote": "The FDA will allow foreign nationals to bring or ship a 90-day supply of drug products.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Foreign nationals staying longer than 90 days may have additional medication sent",
+          "quote": "If the foreign national is staying longer than 90 days, they may have additional medication sent to them.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Definition of foreign national",
+          "quote": "A foreign national is any person who is not a citizen or permanent resident of the U.S.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "For medication sent by mail or courier, FDA suggests documentation: copy of visa/passport, letter from doctor, copy of prescription in English",
+          "quote": "If you are having medication sent to you by mail or courier, it is suggested that you include documentation ... A copy of the visa/passport ... Letter from doctor ... Copy of Prescription (in English)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "A drug approved in another country but unapproved in the US is illegal to import (key point, gap notes, controlled section, FAQ, citable)",
+          "quote": "If a drug is approved for use in another country but is an unapproved new drug in the U.S. it is illegal to import.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "agency_page",
+      "cited_as": "U.S. Drug Enforcement Administration. Traveling to the U.S. with Medication (flyer, PDF). Accessed November 15, 2026.",
+      "url": "https://www.dea.gov/sites/default/files/2026-05/Traveling%20With%20Medication_5.pdf",
+      "version_or_date": "DEA flyer; file path dated 2026-05; no printed date",
+      "retrieved_with": "WebFetch of official DEA PDF",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The flyer says \"Customs and Border Patrol\"; the page uses the agency's correct name, Customs and Border Protection. The pharmacy/practitioner alternative is paraphrased from the flyer (read this run) beyond the quoted segment.",
+      "claims": [
+        {
+          "text": "Foreign visitors may bring up to 50 dosage units of controlled substances for personal use",
+          "quote": "Foreign visitors are allowed to bring up to 50 dosage units of controlled substances into the U.S. for personal use",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Original container; label with chemical or trade name and schedule symbol, or pharmacy/practitioner information and a prescription number",
+          "quote": "Medication is in its original container. ... The medication label includes the drug's chemical or trade name and schedule symbol.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Declare all medications to CBP at entry",
+          "quote": "Declare all medications to U.S. Customs and Border Patrol",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Medications legal abroad, prescription or OTC, can be confiscated if not approved for US use",
+          "quote": "While legal abroad, prescription and over-the-counter medications are subject to confiscation",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "agency_page",
+      "cited_as": "U.S. Drug Enforcement Administration. Drug Scheduling. Accessed November 15, 2026.",
+      "url": "https://www.dea.gov/drug-information/drug-scheduling",
+      "version_or_date": "No page date; read 2026-11-15",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Alprazolam (Xanax), diazepam (Valium), zolpidem (Ambien) and tramadol are Schedule IV",
+          "quote": "Some examples of Schedule IV drugs are: Xanax, Soma, Darvon, Darvocet, Valium, Ativan, Talwin, Ambien, Tramadol",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Codeine: under 90 mg per dosage unit is Schedule III; cough preparations under 200 mg per 100 mL are Schedule V",
+          "quote": "products containing less than 90 milligrams of codeine per dosage unit (Tylenol with codeine) ... cough preparations with less than 200 milligrams of codeine or per 100 milliliters (Robitussin AC)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "other_web",
+      "cited_as": "GoodRx. How GoodRx Works. Accessed November 15, 2026.",
+      "url": "https://www.goodrx.com/how-goodrx-works",
+      "version_or_date": "Read 2026-11-15",
+      "retrieved_with": "WebFetch of company page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Page gives no specific generic prices and no comparison with Mexico; all price figures were cut.",
+      "claims": [
+        {
+          "text": "US cash prices for the same prescription vary by pharmacy",
+          "quote": "Drug prices vary by pharmacy.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "GoodRx is not insurance; free coupons can help pay less than the cash price for brand and generic drugs",
+          "quote": "GoodRx is NOT insurance. ... We can help you pay less than the cash price for brand and generic drugs. ... It's fast, free, and easy to use.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "dataset",
+      "cited_as": "Centers for Disease Control and Prevention. National Diabetes Statistics Report: Estimates of Diabetes and Its Burden in the United States. Table 2: Crude prevalence of diagnosed diabetes by detailed race and ethnicity among adults aged 18 years or older, United States, 2019-2021. Last reviewed November 29, 2023.",
+      "url": "https://stacks.cdc.gov/view/cdc/148231/cdc_148231_DS1.pdf",
+      "version_or_date": "National Diabetes Statistics Report, Last Reviewed November 29, 2023; Table 2, NHIS 2019-2021",
+      "retrieved_with": "WebFetch of stacks.cdc.gov PDF",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Corrects the original claim that 11.1% was the highest Hispanic subgroup; Puerto Rican adults were 13.3% in the same table.",
+      "claims": [
+        {
+          "text": "Crude diagnosed diabetes among Mexican or Mexican American adults 2019-2021: 11.1% (9.9-12.3)",
+          "quote": "Mexican or Mexican American 11.1 (9.9–12.3)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Comparators: Puerto Rican 13.3%, Cuban 9.0%, Central American 7.3%, South American 5.0%, non-Hispanic White 8.5%",
+          "quote": "Puerto Rican 13.3 (11.0–15.9) ... Cuban 9.0 (6.5–12.1) ... Central American 7.3 (5.6–9.4) ... South American 5.0 (3.3–7.1) ... White, non-Hispanic 8.5 (8.2–8.8)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Figures are crude prevalence among adults 18 or older",
+          "quote": "Table 2. Crude prevalence of diagnosed diabetes by detailed race and ethnicity among adults aged 18 years or older, United States, 2019–2021",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "journal",
+      "cited_as": "O'Brien MJ, Alos VA, Davey A, Bueno A, Whitaker RC. Acculturation and the Prevalence of Diabetes in US Latino Adults, National Health and Nutrition Examination Survey 2007-2010. Prev Chronic Dis. 2014;11:E176. doi:10.5888/pcd11.140142.",
+      "url": "https://www.cdc.gov/pcd/issues/2014/14_0142.htm",
+      "pmid": "25299982",
+      "pmcid": "PMC4193061",
+      "doi": "10.5888/pcd11.140142",
+      "record_title": "Acculturation and the prevalence of diabetes in US Latino Adults, National Health and Nutrition Examination Survey 2007-2010.",
+      "record_journal": "Prev Chronic Dis",
+      "record_year": "2014",
+      "article_type": "Journal Article",
+      "retrieved_with": "mcp__PubMed__get_article_metadata; WebFetch of cdc.gov/pcd full text; mcp__Scite__verify_papers (verified, no editorial notices)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The 20.1% vs 11.0% figures are in this paper's introduction, cited from Cowie et al. 2009 (ref 15); they are no longer attributed to this paper.",
+      "claims": [
+        {
+          "text": "Among 3,165 Latino adults in NHANES 2007-2010, 12.4% had diabetes (diagnosed or HbA1c 6.5% or higher)",
+          "quote": "We conducted a cross-sectional analysis including 3,165 Latino participants ... The prevalence of diabetes among Latinos in our sample was 12.4%.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Greater acculturation associated with higher risk of diabetes",
+          "quote": "Acculturation was associated with a higher risk of diabetes among US Latinos, and this risk was only partly explained by BMI and weight-related behaviors.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "agency_page",
+      "cited_as": "U.S. Department of Health and Human Services, Office for Civil Rights. Dear Colleague Letter: Language Access Provisions of the Final Rule Implementing Section 1557 of the Affordable Care Act, December 5, 2024. Final rule: Nondiscrimination in Health Programs and Activities, 89 Fed. Reg. 37522 (May 6, 2024).",
+      "url": "https://www.hhs.gov/sites/default/files/ocr-dcl-section-1557-language-access.pdf",
+      "version_or_date": "Dear Colleague Letter dated December 5, 2024",
+      "retrieved_with": "WebFetch of HHS OCR PDF",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Letter is signed by Melanie Fontes Rainer; the final rule is cited in the letter. \"Essentially every US hospital\" and the state-specific Spanish notice claim were cut.",
+      "claims": [
+        {
+          "text": "Final rule 89 Fed. Reg. 37522 published May 6, 2024; letter signed by Melanie Fontes Rainer; language access requirements must be fully implemented by July 5, 2025",
+          "quote": "must be fully implemented by July 5, 2025",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Covered entities include recipients of federal financial assistance",
+          "quote": "recipients of Federal financial assistance, programs administered by HHS,",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Language assistance free of charge, accurate and timely",
+          "quote": "provided free of charge ... accurate and timely",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Qualified interpreter definition (proficiency, effective/accurate/impartial, ethics incl. confidentiality)",
+          "quote": "[h]as demonstrated proficiency in speaking and understanding both spoken English and at least one other spoken language ... [i]s able to interpret effectively, accurately, and impartially ... [a]dheres to generally accepted interpreter ethics principles, including client confidentiality.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "No reliance on unqualified adults except emergency with imminent threat or private request",
+          "quote": "imminent threat to the safety or welfare of an individual or the public ... specifically requested in private by the individual with LEP, without an accompanying adult present",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Minors only as a temporary measure in an emergency with imminent threat",
+          "quote": "the use of minor children to interpret or facilitate communication is prohibited ... except as a temporary measure while finding a qualified interpreter in an emergency involving an imminent threat",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Machine translation of critical documents must be reviewed by a qualified human translator",
+          "quote": "for critical documents, those translations must be reviewed by a qualified human translator to ensure accuracy",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Notice in English and at least the 15 most common LEP languages in the relevant state(s)",
+          "quote": "This notice must be provided in English and at least the 15 most commonly spoken languages by individuals with LEP",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "A hospital must provide an interpreter at no cost when one is needed (ask at a covered urgent care or ER)",
+          "quote": "at no cost to the patient",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Certain provisions are stayed or enjoined",
+          "quote": "certain provisions are stayed or enjoined as indicated at www.hhs.gov/1557",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "guideline",
+      "cited_as": "Centers for Disease Control and Prevention. Travelers with Chronic Illnesses. CDC Yellow Book 2026. Last reviewed May 19, 2026.",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travelers-with-additional-considerations/travelers-with-chronic-illnesses.html",
+      "version_or_date": "CDC Yellow Book 2026; last reviewed May 19, 2026",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The phrase \"trade names vary widely\" does not appear on the page; the invented quotation was removed, and [10] was removed from the brand-map figure caption.",
+      "claims": [
+        {
+          "text": "Clinician letter should list medications by generic name and dose",
+          "quote": "medications prescribed (including generic names and doses)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pre-travel consultation at least 4 to 6 weeks before departure (FAQ)",
+          "quote": "seek pre-travel consultation before paying for non-refundable trips ... at least 4–6 weeks before departure",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Medication for the entire trip plus extra for delays (FAQ)",
+          "quote": "ensure that the traveler has medications for the entire trip plus extra in case of unexpected delays",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "label",
+      "cited_as": "U.S. Food and Drug Administration. PROVIGIL (modafinil) tablets [C-IV], prescribing information. Revised January 2015.",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2015/020717s037s038lbl.pdf",
+      "version_or_date": "Revised 01/2015",
+      "retrieved_with": "WebFetch of Drugs@FDA label PDF",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Modafinil is Schedule IV",
+          "quote": "PROVIGIL contains modafinil, a Schedule IV controlled substance.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "agency_page",
+      "cited_as": "U.S. Drug Enforcement Administration. DEA Extends Telemedicine Flexibilities to Ensure Continued Access to Care. Press release, December 31, 2025. Accessed November 15, 2026.",
+      "url": "https://www.dea.gov/press-releases/2025/12/31/dea-extends-telemedicine-flexibilities-ensure-continued-access-care",
+      "version_or_date": "Press release dated December 31, 2025; read 2026-11-15",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "\"Most US telehealth companies decline controlled prescriptions for new visitors\" and \"the path is urgent care\" were cut (no source). As-of date added because the flexibility ends December 31, 2026.",
+      "claims": [
+        {
+          "text": "Through December 31, 2026, DEA-registered practitioners may prescribe Schedule II-V by audio-video telemedicine without an in-person evaluation",
+          "quote": "DEA-registered practitioners are permitted to remotely prescribe Schedule II-V controlled medications via audio-video telemedicine encounters ... without having ever conducted an in-person medical evaluation ... through December 31, 2026",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. QuickStats: Age-Adjusted Death Rates from Diabetes Mellitus Among Adults Aged 65 Years or Older, by Single Race and Hispanic Origin, National Vital Statistics System, United States, 2020. MMWR Morb Mortal Wkly Rep. 2022;71(31):1002. doi:10.15585/mmwr.mm7131a5.",
+      "url": "https://www.cdc.gov/mmwr/volumes/71/wr/mm7131a5.htm",
+      "doi": "10.15585/mmwr.mm7131a5",
+      "record_title": "QuickStats: Age-Adjusted Death Rates from Diabetes Mellitus Among Adults Aged >=65 Years, by Single Race and Hispanic Origin, National Vital Statistics System, United States, 2020",
+      "record_journal": "MMWR Morb Mortal Wkly Rep",
+      "record_year": "2022",
+      "version_or_date": "MMWR Weekly, August 5, 2022, 71(31);1002",
+      "retrieved_with": "WebFetch of official page; mcp__Scite__verify_papers (verified, no editorial notices)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Original misdescribed these as cardiovascular mortality in Hispanic adults overall; page number corrected from 1013 to 1002.",
+      "claims": [
+        {
+          "text": "Measure: 2020 age-adjusted death rate with diabetes as underlying or contributing cause, adults 65 or older",
+          "quote": "In 2020, the age-adjusted death rate from diabetes mellitus as the underlying or contributing cause of death for adults aged ≥65 years was 553.4 per 100,000 population.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hispanic 778.5 vs non-Hispanic White 493.3 per 100,000; Hispanic lower than AI/AN and non-Hispanic Black",
+          "quote": "Hispanic adults (778.5) compared with non-Hispanic White (493.3) ... Rates were lower among Hispanic than among non-Hispanic American Indian or Alaska Native and non-Hispanic Black adults",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "other_web",
+      "cited_as": "21 CFR 1308.14, Schedule IV. Code of Federal Regulations, 21 CFR Ch. II (April 1, 2025 edition). U.S. Government Publishing Office.",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol9/pdf/CFR-2025-title21-vol9-sec1308-14.pdf",
+      "version_or_date": "21 CFR Ch. II (4-1-25 Edition)",
+      "retrieved_with": "WebFetch of govinfo.gov CFR PDF",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Clonazepam, alprazolam, diazepam, zolpidem, tramadol and modafinil are Schedule IV",
+          "quote": "(2) Alprazolam 2882 ... (12) Clonazepam 2737 ... (18) Diazepam 2765 ... (58) Zolpidem 2783 ... (including tramadol) 9752 ... (7) Modafinil 1680",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "journal",
+      "cited_as": "Cowie CC, Rust KF, Ford ES, Eberhardt MS, Byrd-Holt DD, Li C, Williams DE, Gregg EW, Bainbridge KE, Saydah SH, Geiss LS. Full accounting of diabetes and pre-diabetes in the U.S. population in 1988-1994 and 2005-2006. Diabetes Care. 2009;32(2):287-94. doi:10.2337/dc08-1296.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19017771/",
+      "pmid": "19017771",
+      "pmcid": "PMC2628695",
+      "doi": "10.2337/dc08-1296",
+      "record_title": "Full accounting of diabetes and pre-diabetes in the U.S. population in 1988-1994 and 2005-2006.",
+      "record_journal": "Diabetes Care",
+      "record_year": "2009",
+      "article_type": "Journal Article",
+      "retrieved_with": "mcp__PubMed__search_articles (via O'Brien record); mcp__PubMed__get_article_metadata; mcp__Scite__verify_papers (verified, no editorial notices)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Abstract only used. PubMed epub date 2008-11-18; print issue 2009;32(2). Scite flagged one contrasting citation (10.2337/dc11-0919: lower prevalence in a younger cohort), which does not bear on the subgroup comparison cited.",
+      "claims": [
+        {
+          "text": "NHANES 2005-2006: age- and sex-standardized diagnosed diabetes about twice as high in Mexican Americans as in non-Hispanic whites",
+          "quote": "Compared with non-Hispanic whites, age- and sex-standardized prevalence of diagnosed diabetes was approximately twice as high in non-Hispanic blacks (P < 0.0001) and Mexican Americans (P = 0.0001)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "other_web",
+      "cited_as": "45 CFR 92.201, Meaningful access for limited English proficient individuals. Electronic Code of Federal Regulations, up to date as of July 20, 2026.",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-A/part-92/subpart-C/section-92.201",
+      "version_or_date": "eCFR Title 45 up to date as of 7/20/2026 (as displayed on 2026-11-15)",
+      "retrieved_with": "WebFetch of ecfr.gov",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Covered entities must take reasonable steps to provide meaningful access to individuals with LEP; language assistance free of charge, accurate and timely",
+          "quote": "A covered entity must take reasonable steps to provide meaningful access to each individual with limited English proficiency ... provided free of charge, be accurate and timely",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Covered entity cannot require an individual to provide their own interpreter or pay; no reliance on unqualified adult or minor child except limited exceptions",
+          "quote": "Require an individual with limited English proficiency to provide their own interpreter. ... Rely on an adult, not qualified as an interpreter, to interpret or facilitate communication. ... Rely on a minor child to interpret or facilitate communication.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "kind": "agency_page",
+      "cited_as": "Centers for Medicare & Medicaid Services. Original Medicare (Part A and B) Eligibility and Enrollment. Last modified March 10, 2026.",
+      "url": "https://www.cms.gov/medicare/enrollment-renewal/health-plans/original-part-a-b/",
+      "version_or_date": "Page last modified 03/10/2026",
+      "retrieved_with": "WebFetch of cms.gov",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The visitor conclusion is an inference from the listed requirements.",
+      "claims": [
+        {
+          "text": "To buy Part A and enroll in Part B: 65 or older, US resident, and US citizen or lawful permanent resident with 5 continuous years",
+          "quote": "Be age 65 or older; Be a U.S. resident; AND Be either a U.S. citizen, OR Be an alien who has been lawfully admitted for permanent residence and has been residing in the United States for 5 continuous years",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "A visitor with a Border Crossing Card or B1/B2 visa does not meet these requirements",
+          "quote": "Be either a U.S. citizen, OR Be an alien who has been lawfully admitted for permanent residence",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "kind": "journal",
+      "cited_as": "Forst T, Choudhary P, Schneider D, Linetzky B, Pozzilli P. A practical approach to the clinical challenges in initiation of basal insulin therapy in people with type 2 diabetes. Diabetes Metab Res Rev. 2020;37(6):e3418. doi:10.1002/dmrr.3418.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8519070/",
+      "pmid": "33098260",
+      "pmcid": "PMC8519070",
+      "doi": "10.1002/dmrr.3418",
+      "record_title": "A practical approach to the clinical challenges in initiation of basal insulin therapy in people with type 2 diabetes.",
+      "record_journal": "Diabetes Metab Res Rev",
+      "record_year": "2020",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "mcp__PubMed__get_article_metadata; mcp__PubMed__get_full_text_article (PMC8519070); mcp__Scite__verify_papers (verified, no editorial notices)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Review article (PubMed type: Review), not a guideline. The paper's two thresholds overlap at exactly 5 zones; \"usually not\" is the page's inference for typical Mexico-US trips. Scite flagged a potential contrasting citation (10.2147/dmso.s446349, excerpt withheld); not shown to bear on the travel advice.",
+      "claims": [
+        {
+          "text": "Short trips (5 or fewer time zones or under 3 days): keep watch on home time and continue basal insulin as usual",
+          "quote": "For short duration trips (≤5 time zones or <3 days duration), patients should keep watches set to their local home time and continue to administer their basal insulin as usual.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "4% per time zone adjustment for 5 or more zones with stays longer than 3 days",
+          "quote": "traveling across 5 or more time zones and staying in a different time zone longer than 3 days and taking long-acting basal insulin, travel requires a 4% adjustment to the insulin dose for each time zone traversed",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Discuss travel plans with the diabetes team well in advance",
+          "quote": "Patients should discuss plans with their diabetes team well in advance of any long-distance travel.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Symptomatic hypoglycemia: measure glucose if possible, follow the 15-15 rule, contact a clinician (red flags)",
+          "quote": "If experiencing symptoms of hypoglycaemia, patients should measure their blood glucose if possible, follow the ‘15–15 rule’ and contact their healthcare provider",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQ \"Usually not for a short trip\" time-zone adjustment for basal insulin on a Mexico to US trip",
+          "quote": "For short duration trips (≤5 time zones or <3 days duration), patients should keep watches set to their local home time and continue to administer their basal insulin as usual.",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. About Heart Attack Symptoms, Risk, and Recovery. Last reviewed October 26, 2023.",
+      "url": "https://cdc.gov/heart-disease/about/heart-attack.html",
+      "version_or_date": "Last reviewed October 26, 2023",
+      "retrieved_with": "WebSearch then WebFetch of cdc.gov",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Chest pain or discomfort, shortness of breath: call 911 immediately",
+          "quote": "Chest pain or discomfort. ... Shortness of breath. ... If you notice the symptoms of a heart attack in yourself or someone else, call 9-1-1 immediately.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Signs and Symptoms of Stroke. Last reviewed May 19, 2026.",
+      "url": "https://cdc.gov/stroke/signs-symptoms/index.html",
+      "version_or_date": "Last reviewed May 19, 2026",
+      "retrieved_with": "WebFetch of cdc.gov",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Sudden one-sided weakness, face droop, slurred speech: FAST, call 911",
+          "quote": "Sudden numbness or weakness in the face, arm, or leg, especially on one side of the body. ... S—Speech: ... Is the speech slurred or strange? T—Time: If you see any of these signs, call 9-1-1 right away.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus Medical Encyclopedia. Headaches: danger signs. U.S. National Library of Medicine. Review date October 27, 2025.",
+      "url": "https://medlineplus.gov/ency/patientinstructions/000424.htm",
+      "version_or_date": "Review date 10/27/2025",
+      "retrieved_with": "WebFetch of medlineplus.gov",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Worst-ever, sudden explosive, or headache with neurological symptoms: ER or 911",
+          "quote": "Your headache is \"the worst ever,\" ... Your headache comes on suddenly and is explosive or violent. ... You also have slurred speech, a change in vision, problems moving your arms or legs, loss of balance",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Fall with head injury: ER",
+          "quote": "Your headache occurs with a head injury.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus Medical Encyclopedia. Heart failure. U.S. National Library of Medicine. Review date July 14, 2024.",
+      "url": "https://medlineplus.gov/ency/article/000158.htm",
+      "version_or_date": "Review date 7/14/2024; updated 07/01/2025",
+      "retrieved_with": "WebFetch of medlineplus.gov",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Heart failure warning signs: shortness of breath when lying down, ankle swelling, weight gain (shortness of breath at rest as worded)",
+          "quote": "Shortness of breath when you are active or after you lie down ... Swollen feet and ankles ... Weight gain ... Sudden weight gain or swelling",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Diabetic Ketoacidosis. Accessed November 15, 2026.",
+      "url": "https://cdc.gov/diabetes/about/diabetic-ketoacidosis.html",
+      "version_or_date": "Page date May 15, 2024 (metadata last published January 6, 2026)",
+      "retrieved_with": "WebFetch of cdc.gov",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Original threshold \"persistent glucose over 250 mg/dL\" replaced by CDC's check-ketones-at-250 and ER/911 criteria.",
+      "claims": [
+        {
+          "text": "Blood sugar 250 mg/dL or above: check ketones; ER or 911 if it stays 300 or above, vomiting and cannot keep food or drinks down, or high ketones",
+          "quote": "your blood sugar is 250 mg/dL or above ... Your blood sugar stays at 300 mg/dL or above. You are vomiting and can't keep food or drinks down. High ketones can be an early sign of DKA",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Understanding Your Risk for Blood Clots with Travel. Last reviewed May 15, 2024.",
+      "url": "https://cdc.gov/blood-clots/risk-factors/travel.html",
+      "version_or_date": "Last reviewed May 15, 2024",
+      "retrieved_with": "WebFetch of cdc.gov",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The original \"same-day urgent care\" action is kept alongside CDC's wording.",
+      "claims": [
+        {
+          "text": "DVT signs (leg swelling, unexplained pain or tenderness, warm or red skin) after travel over 4 hours: contact a doctor as soon as possible",
+          "quote": "Swelling of your leg or arm ... Pain or tenderness that you can't explain ... If you have any of these symptoms, contact your doctor as soon as possible. ... anyone traveling more than 4 hours",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus Medical Encyclopedia. When to use the emergency room - adult. U.S. National Library of Medicine. Review date July 15, 2026.",
+      "url": "https://medlineplus.gov/ency/patientinstructions/000593.htm",
+      "version_or_date": "Review date 7/15/2026",
+      "retrieved_with": "WebSearch then WebFetch of medlineplus.gov",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Severe shortness of breath: call 911 (heart failure bullet)",
+          "quote": "Call 911 or the local emergency number right away if you or someone with you cannot wait, such as for: ... Severe shortness of breath",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Vomiting or loose stools that do not stop: emergency department",
+          "quote": "Go to an emergency department, or call 911 or the local emergency number, for problems such as: ... Throwing up or loose stools that does not stop",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Possible fracture: ER; head injury with passing out, fainting or confusion: call 911",
+          "quote": "Head injury with passing out, fainting, or confusion ... Possible broken bone, loss of movement, particularly if the bone is pushing through the skin",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus Medical Encyclopedia. Dehydration. U.S. National Library of Medicine. Review date July 1, 2025.",
+      "url": "https://medlineplus.gov/ency/article/000982.htm",
+      "version_or_date": "Review date 7/1/2025",
+      "retrieved_with": "WebSearch then WebFetch of medlineplus.gov",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Older adults are at higher risk of dehydration",
+          "quote": "Older adults and people with certain diseases, such as diabetes, are also at higher risk for dehydration.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "kind": "agency_page",
+      "cited_as": "U.S. Department of State, Bureau of Consular Affairs. Border Crossing Card. Accessed November 15, 2026.",
+      "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/border-crossing-card.html",
+      "version_or_date": "No page date; read 2026-11-15",
+      "retrieved_with": "WebSearch then WebFetch of travel.state.gov",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "A Border Crossing Card is also a B1/B2 visitor visa, issued only to citizens and residents of Mexico",
+          "quote": "A Form DSP-150 is both a Border Crossing Card and a B1/B2 visitor visa ... BCCs are only issued to applicants who are citizens of and resident in Mexico.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}
