@@ -1,0 +1,790 @@
+{
+  "guide": "hypothyroidism-treatment-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 9 verified (all 9 DOIs), retractions: none. No expressions of concern or withdrawals. Contrasting-evidence flags on refs 1, 5, 10 and 13 noted in entries. Ref 8 (AAFP) has no DOI; Scite reference matching returned an unrelated paper, so it was verified by PubMed PMID 33983002 instead. No PubMed record carries a Retracted Publication or Retraction Notice type.",
+  "references": [
+    {
+      "n": 1,
+      "cited_as": "Jonklaas J, Bianco AC, Bauer AJ, et al. Guidelines for the Treatment of Hypothyroidism: Prepared by the American Thyroid Association Task Force on Thyroid Hormone Replacement. Thyroid. 2014;24(12):1670–1751. Practice guideline. https://pmc.ncbi.nlm.nih.gov/articles/PMC4267409/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4267409/",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "guideline",
+      "pmid": "25266247",
+      "pmcid": "PMC4267409",
+      "doi": "10.1089/thy.2014.0028",
+      "record_title": "Guidelines for the treatment of hypothyroidism: prepared by the american thyroid association task force on thyroid hormone replacement.",
+      "record_journal": "Thyroid",
+      "record_year": "2014",
+      "article_type": "Journal Article; Practice Guideline",
+      "version_or_date": "ATA 2014, Thyroid 24(12):1670-751 (Dec 2014)",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract); get_full_text_article returned empty full text; WebFetch of PMC page showed a reCAPTCHA bot check (not routed around); Scite verify_papers",
+      "notes": "Abstract-only this run. Claims limited to the abstract. The previous \"strong recommendation, moderate quality evidence\" grade was cut because it could not be checked. Scite flagged one contrasting citation (10.1530/etj-25-0123) about TSH targets in older patients and DIO2 effects; it does not bear on the claims cited here.",
+      "claims": [
+        {
+          "text": "Levothyroxine remains the standard of care for treating hypothyroidism (key points, levothyroxine section, FAQ, citable summary)",
+          "quote": "We concluded that levothyroxine should remain the standard of care for treating hypothyroidism.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "No consistently strong evidence that combination therapy or thyroid extract is superior to levothyroxine alone in improving health outcomes",
+          "quote": "We found no consistently strong evidence for the superiority of alternative preparations (e.g., levothyroxine-liothyronine combination therapy, or thyroid extract therapy, or others) over monotherapy with levothyroxine, in improving health outcomes.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "cited_as": "SYNTHROID (levothyroxine sodium) tablets, prescribing information. AbbVie Inc. Revised February 2024. DailyMed, U.S. National Library of Medicine. Accessed November 15, 2026. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e11ad30-1041-4520-10b0-8f9d30d30fcc",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e11ad30-1041-4520-10b0-8f9d30d30fcc",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "label",
+      "version_or_date": "SYNTHROID (levothyroxine sodium) tablets, AbbVie Inc.; Revised 2/2024 (DailyMed \"Updated February 20, 2024\"); setid 1e11ad30-1041-4520-10b0-8f9d30d30fcc",
+      "retrieved_with": "DailyMed search (WebFetch) to find AbbVie SPL setid, then WebFetch of the DailyMed SPL page, verbatim excerpts requested by section",
+      "notes": "Replaces the rxabbvie.com PDF link with the DailyMed SPL record. Audit flagged the 6-8 week recheck as overstated; this run found section 2.4 does say to monitor TSH 6 to 8 weeks after any change in dosage, while titration steps are every 4 to 6 weeks (6 to 8 weeks in cardiac/geriatric patients). Page now states both. Quotes are short excerpts returned by WebFetch.",
+      "claims": [
+        {
+          "text": "Full replacement dose 1.6 mcg/kg/day (key points, dosing, FAQ, citable summary)",
+          "quote": "Full replacement dose is 1.6 mcg/kg/day. Some patients require a lower starting dose.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Lower starting dose for older adults and people with heart disease or at risk of atrial fibrillation",
+          "quote": "Lower starting dose (less than 1.6 mcg/kg/day)  [Table 1 rows for geriatric patients and adults at risk for atrial fibrillation or with cardiac disease]",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Check TSH 6 to 8 weeks after any dose change",
+          "quote": "monitor serum TSH levels after an interval of 6 to 8 weeks after any change in dosage.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Once stable, check every 6 to 12 months",
+          "quote": "In patients on a stable and appropriate replacement dosage ... evaluate clinical and biochemical response every 6 to 12 months",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most adults: titrate in 12.5 to 25 mcg increments every 4 to 6 weeks",
+          "quote": "Titrate dosage by 12.5 to 25 mcg increments every 4 to 6 weeks, as needed until the patient is euthyroid.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "In cardiac/geriatric groups titrate every 6 to 8 weeks",
+          "quote": "Titrate dosage every 6 to 8 weeks, as needed until the patient is euthyroid.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Single daily dose on an empty stomach, one-half to one hour before breakfast",
+          "quote": "Administer SYNTHROID as a single daily dose, on an empty stomach, one-half to one hour before breakfast.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "At least 4 hours apart from drugs that interfere with absorption, such as calcium and iron (key points, interactions table, FAQ)",
+          "quote": "Administer SYNTHROID at least 4 hours before or after drugs known to interfere with SYNTHROID absorption",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Calcium and iron can bind levothyroxine; separate by 4 hours",
+          "quote": "Phosphate binders may bind to levothyroxine. Administer SYNTHROID at least 4 hours apart from these agents.  [Table 5 row listing calcium carbonate and ferrous sulfate]",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "PPIs and antacids lower stomach acid and change pH, which can reduce absorption",
+          "quote": "Sucralfate, antacids and proton pump inhibitors may cause hypochlorhydria, affect intragastric pH,",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Bile acid sequestrants: take levothyroxine at least 4 hours before, or monitor TSH",
+          "quote": "Administer SYNTHROID at least 4 hours prior to these drugs or monitor TSH levels.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dose adjustment may be needed if taken regularly within an hour of certain foods",
+          "quote": "Evaluate the need for dosage adjustments when regularly administering within one hour of certain foods",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Measure TSH and free T4 as soon as pregnancy is confirmed and at least each trimester",
+          "quote": "measure serum TSH and free-T4 as soon as pregnancy is confirmed and, at minimum, during each trimester of pregnancy.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pregnancy goal: TSH within the trimester-specific reference range (pregnancy table, subclinical bullet, FAQ)",
+          "quote": "maintain serum TSH in the trimester-specific reference range.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "If TSH above trimester-specific range, increase 12.5 to 25 mcg/day and check TSH every 4 weeks until stable",
+          "quote": "Increase SYNTHROID dosage by 12.5 to 25 mcg per day. ... Monitor TSH every 4 weeks until a stable dose is reached and serum TSH is within normal trimester-specific range.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Postpartum: reduce to pre-pregnancy dose immediately after delivery; TSH 4 to 8 weeks postpartum",
+          "quote": "Reduce SYNTHROID dosage to pre-pregnancy levels immediately after delivery. ... Monitor serum TSH 4 to 8 weeks postpartum.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "TSH can rise in pregnancy so TSH is monitored and dose adjusted",
+          "quote": "Since TSH levels may increase during pregnancy, TSH should be monitored and SYNTHROID dosage adjusted during pregnancy",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "cited_as": "Duntas LH, Jonklaas J. Levothyroxine Dose Adjustment to Optimise Therapy Throughout a Patient's Lifetime. Advances in Therapy. 2019;36(Suppl 2):30–46. Review. https://pmc.ncbi.nlm.nih.gov/articles/PMC6822824/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6822824/",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "journal",
+      "pmid": "31485977",
+      "pmcid": "PMC6822824",
+      "doi": "10.1007/s12325-019-01078-2",
+      "record_title": "Levothyroxine Dose Adjustment to Optimise Therapy Throughout a Patient's Lifetime.",
+      "record_journal": "Adv Ther",
+      "record_year": "2019",
+      "article_type": "Journal Article; Review (funded by Merck)",
+      "retrieved_with": "PubMed connector get_article_metadata and get_full_text_article (PMC full text); Scite verify_papers",
+      "notes": "Authors corrected from \"Dietrich JW, Stachon A, Antic B, et al.\" to Duntas LH, Jonklaas J; pages corrected to 30-46. Numbers that this review attributes to other studies (75% absorption, 29% increase from 7 to 9 tablets, 50-85% of pregnancies, 291-patient cohort) were not used as figures on the page, per spec rule 4. Industry-funded review (Merck).",
+      "claims": [
+        {
+          "text": "T4 is converted to the active T3 in tissues",
+          "quote": "Thyroxine is actively transported to the various organs where it is converted to triiodothyronine by the activity of the deiodinases",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dose depends on residual thyroid function, body weight or lean body mass, and TSH",
+          "quote": "The levothyroxine dose initially required by a patient depends primarily on three factors: the amount of residual thyroid function retained by the patient, the body weight or lean body mass of the patient, and the target thyrotropin",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Older adults, heart disease, long-standing untreated hypothyroidism: start 25 to 50 mcg and increase gradually to avoid cardiac ischemia (dosing, FAQ)",
+          "quote": "for patients who are elderly, have concomitant cardiac disease, or may have had long-standing untreated hypothyroidism, it is wise to initiate levothyroxine therapy with smaller doses such as 25–50 μg levothyroxine and incrementally increase the dose",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Weight, hormonal changes, pregnancy, conditions and medicines change dose needs",
+          "quote": "dose adjustments may need to be made in patients with concomitant medical conditions, in patients taking certain medications, as well as in elderly patients. Patients who have undergone any weight or hormonal changes may require dose adjustments",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dose adjustment is frequently needed",
+          "quote": "Regardless of the method used to estimate the initial levothyroxine dose requirement, dose adjustment is frequently required.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Switching preparations can be associated with under- or overtreatment; bioequivalent products can still differ; narrow therapeutic index (brand vs generic, FAQ)",
+          "quote": "Another factor that can be associated with under- or overtreatment with levothyroxine is switching between different preparations. ... even products that meet the criteria for bioequivalence could well expose patients to the development of iatrogenic hyperthyroidism or hypothyroidism.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Levothyroxine has a narrow therapeutic index (brand vs generic, FAQ)",
+          "quote": "While levothyroxine has a narrow therapeutic index [], defined as having a narrow window between effective doses and those at which they produce adverse events",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Absorbed best on an empty stomach; taking at other times can raise dose needed",
+          "quote": "Levothyroxine absorption is maximised ... when it is ingested upon an empty stomach []. Therefore, if levothyroxine is taken at other times of the day for convenience, the dose requirement may be greater",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Taking with food can impair absorption (FAQ)",
+          "quote": "If levothyroxine is ingested along with food, its absorption can be impaired",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Acid-lowering therapy, iron and calcium linked to difficulty controlling symptoms and frequent dose changes (interactions table and paragraph)",
+          "quote": "identified gastrointestinal conditions and medications such as iron, calcium, and acid-lowering therapies as being associated with difficulty controlling hypothyroid symptoms and frequent changes in levothyroxine doses",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Many people without a well-documented diagnosis stay on levothyroxine longer than necessary",
+          "quote": "accumulating evidence suggests that many patients, for whom the indication for levothyroxine initiation is not adequately established and the diagnosis is not well documented, are remaining on levothyroxine therapy for longer than necessary.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Overtreatment should particularly be avoided in older adults; risk of accelerated bone loss mainly in postmenopausal women (subclinical age bullet, FAQ)",
+          "quote": "Overtreatment should particularly be avoided in the elderly. ... the high risk of accelerated bone loss, predominantly in postmenopausal women",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Levothyroxine half-life about 7 days; preferred first-line treatment",
+          "quote": "Due to its long half-life of about 7 days, in patients in the clinically euthyroid state, levothyroxine is the preferred first-line treatment for primary hypothyroidism",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Thyroid extracts were used before synthetic levothyroxine became available in 1949",
+          "quote": "In 1949, a commercial product containing synthesised sodium thyroxine was launched in the USA ... which had advanced from partially purified extracts of bovine thyroid gland and desiccated thyroid extracts from sheep and pigs",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Thyroid extract may be associated with overtreatment",
+          "quote": "Use of thyroid extract, rather than levothyroxine, may be associated with overtreatment.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pregnancy: larger thyroxine pool needed because TBG and plasma volume rise",
+          "quote": "the need for an increased total body thyroxine pool associated with increased thyroxine-binding globulin concentrations and increased plasma volume.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Majority of pregnant women need a higher dose; need starts early in the first trimester (pregnancy section, table, FAQ)",
+          "quote": "the majority of pregnant women require increased doses of levothyroxine.  [abstract]  /  the need for an increase occurs early in the first trimester.  [full text]",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Requirements stabilize in second trimester; few changes in third",
+          "quote": "Requirements tend to stabilise as the patient progresses into the second and third trimester, with few changes generally being required in the third trimester.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "TSH can be kept at goal by 7-to-9 tablets weekly or by ongoing titration (key point on 9 doses per week; pregnancy paragraph)",
+          "quote": "serum TSH can be maintained at goal during pregnancy by either increasing the levothyroxine dose by 29% by increasing from 7 to 9 tablets of levothyroxine weekly when conception is confirmed [] or ongoing titration based on serum TSH",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "cited_as": "Skelin M, Lucijanić T, Amidžić Klarić D, et al. Factors Affecting Gastrointestinal Absorption of Levothyroxine: A Review. Clinical Therapeutics. 2017;39(2):378–403. Review. https://doi.org/10.1016/j.clinthera.2017.01.005",
+      "url": "https://doi.org/10.1016/j.clinthera.2017.01.005",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "journal",
+      "pmid": "28153426",
+      "doi": "10.1016/j.clinthera.2017.01.005",
+      "record_title": "Factors Affecting Gastrointestinal Absorption of Levothyroxine: A Review.",
+      "record_journal": "Clin Ther",
+      "record_year": "2017",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract; no PMC full text); Scite verify_papers",
+      "notes": "Link fixed: the old link (PMC8002057) opened a different paper (Wiesner 2021), which is now cited separately as ref 13. Added volume and pages (39(2):378-403). Abstract-only: the 75% absorption figure and the \"bedtime slightly better\" claim were removed.",
+      "claims": [
+        {
+          "text": "Calcium, iron, aluminum hydroxide, bile acid sequestrants and PPIs reduce absorption (interactions table)",
+          "quote": "A decrease in the absorption of LT4 is established and clinically significant when administered concomitantly with cholestyramine, colesevelam, lanthanum, calcium carbonate, calcium citrate, calcium acetate, iron sulfate, ciprofloxacin, aluminum hydroxide, sevelamer, or proton pump inhibitors.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Soy and coffee have the greatest effect on absorption; fiber effect not fully understood (table, FAQ)",
+          "quote": "Soybeans and coffee have the greatest impact on the reduction of absorption, whereas vitamin C has the ability to increase it. Conversely, the effect of dietary fiber on the absorption of LT4 is not yet fully understood",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Interactions are usually avoided by separating levothyroxine from the interfering substance",
+          "quote": "These interactions can be avoided by separating the administration of LT4 and the interfering substance.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "cited_as": "Stott DJ, Rodondi N, Kearney PM, et al.; TRUST Study Group. Thyroid Hormone Therapy for Older Adults with Subclinical Hypothyroidism. New England Journal of Medicine. 2017;376(26):2534–2544. Randomized controlled trial. https://doi.org/10.1056/NEJMoa1603825",
+      "url": "https://doi.org/10.1056/NEJMoa1603825",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "journal",
+      "pmid": "28402245",
+      "doi": "10.1056/NEJMoa1603825",
+      "record_title": "Thyroid Hormone Therapy for Older Adults with Subclinical Hypothyroidism.",
+      "record_journal": "N Engl J Med",
+      "record_year": "2017",
+      "article_type": "Journal Article; Multicenter Study; Randomized Controlled Trial",
+      "retrieved_with": "PubMed connector search_articles and get_article_metadata (abstract); Scite verify_papers",
+      "notes": "New reference replacing StatPearls \"Subclinical Hypothyroidism\" (NBK536970), which returned a reCAPTCHA bot check and was not routed around. Scite flagged one contrasting citation (10.1055/a-0897-8785, TSAGE cohort reporting QoL improvement); page states only the trial result and does not claim treatment never helps.",
+      "claims": [
+        {
+          "text": "Randomized trial of 737 adults aged 65 and older with persisting subclinical hypothyroidism: levothyroxine provided no apparent benefit (subclinical age bullet, FAQ)",
+          "quote": "trial involving 737 adults who were at least 65 years of age and who had persisting subclinical hypothyroidism ... Levothyroxine provided no apparent benefits in older persons with subclinical hypothyroidism.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "cited_as": "MedlinePlus. Hypothyroidism. U.S. National Library of Medicine. Last updated August 5, 2026. Accessed November 15, 2026. https://medlineplus.gov/hypothyroidism.html",
+      "url": "https://medlineplus.gov/hypothyroidism.html",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "agency_page",
+      "version_or_date": "Last updated August 5, 2026",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "\"In iodine-sufficient countries such as the US\" qualifier removed from claims cited here; the worldwide iodine point is now cited to ref 8.",
+      "claims": [
+        {
+          "text": "Hashimoto's disease is the most common cause of hypothyroidism (key points, causes, FAQ)",
+          "quote": "Hashimoto's disease, an autoimmune disorder where your immune system attacks your thyroid. This is the most common cause.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Many people don't notice symptoms for months or even years",
+          "quote": "many people don't notice symptoms of the disease for months or even years.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "cited_as": "Mayo Clinic. Hashimoto's disease: Symptoms and causes. April 30, 2025. Accessed November 15, 2026. https://www.mayoclinic.org/diseases-conditions/hashimotos-disease/symptoms-causes/syc-20351855",
+      "url": "https://www.mayoclinic.org/diseases-conditions/hashimotos-disease/symptoms-causes/syc-20351855",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "other_web",
+      "version_or_date": "Page dated April 30, 2025",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "Sjogren's syndrome removed (not named on the page); now matches the page's list (rheumatoid arthritis, type 1 diabetes, lupus). Title punctuation updated to the page's own title.",
+      "claims": [
+        {
+          "text": "Higher risk with family history of thyroid disorders and with another autoimmune disease such as rheumatoid arthritis, type 1 diabetes or lupus",
+          "quote": "You're at higher risk for Hashimoto's disease if others in your family have thyroid disorders ... Having another autoimmune disease — such as rheumatoid arthritis, type 1 diabetes or lupus",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "cited_as": "Wilson SA, Stem LA, Bruehlman RD. Hypothyroidism: Diagnosis and Treatment. American Family Physician. 2021;103(10):605–613. https://www.aafp.org/pubs/afp/issues/2021/0515/p605.html",
+      "url": "https://www.aafp.org/pubs/afp/issues/2021/0515/p605.html",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "journal",
+      "pmid": "33983002",
+      "record_title": "Hypothyroidism: Diagnosis and Treatment.",
+      "record_journal": "Am Fam Physician",
+      "record_year": "2021",
+      "article_type": "Journal Article (review)",
+      "retrieved_with": "PubMed connector lookup_article_by_citation and get_article_metadata (abstract); WebFetch of aafp.org article page (full text loaded); Scite verify_papers could not match it (returned an unrelated canine paper), so identity rests on PubMed PMID 33983002",
+      "notes": "Authors corrected from \"American Academy of Family Physicians\" to Wilson SA, Stem LA, Bruehlman RD. No DOI in PubMed record. Previous \"some patients on PPIs require higher doses\" claim cut (not stated). Prevalence figures (1 in 300; 3.7%) are this review's own summary statements. Full-text quotes are short verbatim excerpts returned by WebFetch.",
+      "claims": [
+        {
+          "text": "Clinical hypothyroidism affects about 1 in 300 in the US, more common in women and older adults (overview, citable summary)",
+          "quote": "Clinical hypothyroidism affects one in 300 people in the United States, with a higher prevalence among female and older patients.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Subclinical hypothyroidism present in about 3.7% of the U.S. population; common at 65 and older",
+          "quote": "Subclinical hypothyroidism is present in 3.7% of the U.S. population. ... Subclinical hypothyroidism is common in patients 65 years and older.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Iodine deficiency is the most common cause in many parts of the world but rare in the U.S. because of iodized table salt (key points, causes)",
+          "quote": "it is the most common cause of hypothyroidism in many parts of the world. ... Rare in the United States because of iodized table salt.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Radioactive iodine or antithyroid medications can cause hypothyroidism",
+          "quote": "Hyperthyroid treatment (radioactive iodine or antithyroid medications)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Medications causing hypothyroidism: amiodarone, checkpoint inhibitors, interleukin-2, interferon-alfa, lithium, tyrosine kinase inhibitors",
+          "quote": "Medications (amiodarone, immune checkpoint inhibitors, interleukin-2, interferon-alfa, lithium, tyrosine kinase inhibitors)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Central hypothyroidism is rare; TSH inappropriately normal or low despite low thyroid hormone (causes, diagnosis)",
+          "quote": "Central causes, such as low levels of thyroid-stimulating hormone (TSH) and free thyroxine (FT4), are rare. ... Inappropriately normal or low levels of thyroid-stimulating hormone despite low thyroid hormone",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Common symptoms: cold intolerance, fatigue, weight gain, dry skin, constipation, voice changes",
+          "quote": "more common symptoms include cold intolerance, fatigue, weight gain, dry skin, constipation, and voice changes.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Symptoms are nonspecific; diagnosis based on TSH and free T4 (depression callout, FAQ)",
+          "quote": "The signs and symptoms that suggest thyroid dysfunction are nonspecific and nondiagnostic, especially early in disease presentation; therefore, a diagnosis is based on blood levels of thyroid-stimulating hormone and free thyroxine.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Depression and anxiety are on the list to consider when symptoms persist despite normal TSH (FAQ)",
+          "quote": "Mental health (i.e., depression, anxiety, or somatoform disorders)  [Table 4, differential when TSH is normal but symptoms persist]",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "TSH reference range: low end 0.4, upper end 4.0 to 4.5 mIU/L",
+          "quote": "Low-end normal TSH is 0.4 mIU per L. ... The upper-end normal range is from 4.0 to 4.5 mIU per L.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Subclinical finding should prompt TPO antibody test and repeat TSH in 6 to 12 months (TSH table, confirm callout)",
+          "quote": "Subclinical hypothyroidism is a biochemical finding of an elevated TSH level with a normal FT4 level. This finding should initiate a TPO antibody test and an additional TSH test in six to 12 months.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most patients with subclinical hypothyroidism do not benefit unless TSH above 10 or TPO antibodies elevated (key points, table, subclinical, FAQ)",
+          "quote": "Most patients with subclinical hypothyroidism do not benefit from treatment unless the thyroid-stimulating hormone level is greater than 10 mIU per L or the thyroid peroxidase antibody is elevated.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "If TSH above 4.5 mIU/L, obtain free T4",
+          "quote": "If the TSH level is high (greater than 4.5 mIU per L), a serum FT4 level should be obtained.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Elevated TPO antibodies increase risk of progression to clinical hypothyroidism (diagnosis, subclinical bullet, FAQ)",
+          "quote": "Patients with elevated TPO antibody titers are at an increased risk of progression to clinical hypothyroidism.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Subclinical hypothyroidism associated with depression, cognitive impairment, hyperlipidemia and coronary artery disease, but no evidence treatment improves outcomes",
+          "quote": "Despite observed associations with depression, cognitive impairment, hyperlipidemia, and coronary artery disease, there is no evidence that treatment of subclinical hypothyroidism improves outcomes.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Overt hypothyroidism is treated with levothyroxine",
+          "quote": "Symptom relief and normalized thyroid-stimulating hormone levels are achieved with levothyroxine replacement therapy",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Starting range 1.5 to 1.8 mcg/kg/day for adults under 60",
+          "quote": "levothyroxine replacement therapy, started at 1.5 to 1.8 mcg per kg per day.  [abstract]  /  Start with 1.5 to 1.8 mcg per kg per day.  [table row: under 60 years]",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Older than 60 or known or suspected ischemic heart disease: start 12.5 to 50 mcg/day",
+          "quote": "Patients older than 60 years or with known or suspected ischemic heart disease should start at a lower dosage of levothyroxine (12.5 to 50 mcg per day).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Once normalized, recheck TSH in one year or sooner if symptoms change",
+          "quote": "Once the TSH level is normalized, it should be rechecked in one year or earlier if symptoms change.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Take 30 to 60 minutes before eating and 4 hours apart from interfering drugs (key points, table, citable summary)",
+          "quote": "Levothyroxine should be taken once per day, 30 to 60 minutes before eating, and four hours before or after drugs that may impede absorption.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pregnancy: increase by 30%, 7 to 9 doses per week (extra dose two days a week), TSH every four weeks (key points, pregnancy, FAQ, citable summary)",
+          "quote": "Women with hypothyroidism who become pregnant should increase their weekly dosage by 30% up to nine doses per week (i.e., take one extra dose twice per week), followed by monthly evaluation and management.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pregnancy: TSH checked every four weeks",
+          "quote": "Further treatment is guided by measuring TSH levels at the first prenatal visit, then every four weeks",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Adding T3 not recommended even with persistent symptoms and normal TSH (alternatives, FAQ)",
+          "quote": "Adding triiodothyronine is not recommended, even in patients with persistent symptoms and normal levels of thyroid-stimulating hormone.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Look for other causes of persistent symptoms first",
+          "quote": "Patients with persistent symptoms after adequate levothyroxine dosing should be reassessed for other causes or the need for referral.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "AACE does not recommend desiccated thyroid hormone",
+          "quote": "The American Association of Clinical Endocrinologists does not recommend desiccated thyroid hormone.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Myxedema coma most commonly found in older patients with primary hypothyroidism",
+          "quote": "a medical emergency most commonly found in older patients with primary hypothyroidism, with a 25% to 60% mortality rate.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "cited_as": "Wiersinga WM. T4+T3 Combination Therapy: An Unsolved Problem of Increasing Magnitude and Complexity. Endocrinology and Metabolism (Seoul). 2021;36(5):938–951. https://pmc.ncbi.nlm.nih.gov/articles/PMC8566135/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8566135/",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "journal",
+      "pmid": "34587734",
+      "pmcid": "PMC8566135",
+      "doi": "10.3803/EnM.2021.501",
+      "record_title": "T4+T3 Combination Therapy: An Unsolved Problem of Increasing Magnitude and Complexity.",
+      "record_journal": "Endocrinol Metab (Seoul)",
+      "record_year": "2021",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed connector get_article_metadata and get_full_text_article (PMC full text); Scite verify_papers",
+      "notes": "Corrected to single author (Wiersinga WM); title corrected (\"Increasing Magnitude and Complexity\"); pages corrected to 938-951. The 5% to 15% figure was removed because this review attributes it to other papers (spec rule 4).",
+      "claims": [
+        {
+          "text": "Some people at normal TSH on levothyroxine keep having symptoms, most often energy/fatigue, weight, memory and mood",
+          "quote": "most frequent are complaints about energy levels and fatigue (80% to 90%), weight management (70% to 75%), memory (60% to 80%), and mood (40% to 50%).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Low tissue T3 is a proposed explanation; DIO2 Thr92Ala variant may change thyroid hormone availability",
+          "quote": "it has been suggested that a polymorphism in the deiodinase 2 gene (Thr92Ala) may cause slight changes in deiodinase activity but important changes in thyroid hormone bioavailability",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Combination therapy can be considered for persistent symptoms despite normal TSH (alternatives, FAQ)",
+          "quote": "Thyroxine (T4)+triiodothyronine (T3) combination therapy can be considered in case of persistent symptoms despite normal serum thyroid stimulating hormone in levothyroxine (LT4)-treated hypothyroid patients.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Management should also look for other causes of persistent symptoms",
+          "quote": "the management of persistent symptoms should also be directed towards alternative causes.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Levothyroxine is hardly effective for symptoms of subclinical hypothyroidism",
+          "quote": "recent trials have demonstrated that LT4 is hardly effective in improving symptoms associated with subclinical hypothyroidism.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "cited_as": "Hoang TD, Olsen CH, Mai VQ, Clyde PW, Shakir MK. Desiccated Thyroid Extract Compared With Levothyroxine in the Treatment of Hypothyroidism: A Randomized, Double-Blind, Crossover Study. Journal of Clinical Endocrinology and Metabolism. 2013;98(5):1982–1990. https://doi.org/10.1210/jc.2012-4107",
+      "url": "https://doi.org/10.1210/jc.2012-4107",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "journal",
+      "pmid": "23539727",
+      "doi": "10.1210/jc.2012-4107",
+      "record_title": "Desiccated thyroid extract compared with levothyroxine in the treatment of hypothyroidism: a randomized, double-blind, crossover study.",
+      "record_journal": "J Clin Endocrinol Metab",
+      "record_year": "2013",
+      "article_type": "Comparative Study; Journal Article; Randomized Controlled Trial",
+      "retrieved_with": "PubMed connector lookup_article_by_citation and get_article_metadata (abstract); Scite verify_papers",
+      "notes": "Replaces the ATA \"Clinical Thyroidology for Patients\" summary with the primary trial it summarized (spec rule 4). Figures corrected to the abstract (48.6% / 18.6% / 32.9%, about 3 lb). Scite flagged one contrasting citation (10.1111/ijcp.14967, a specialist-clinic NDT cohort); page reports the trial result without overstating.",
+      "claims": [
+        {
+          "text": "Randomized, double-blind crossover trial of 70 patients; no differences in symptoms or neurocognitive measures; about 3 lb weight loss on DTE; 48.6% preferred DTE, 18.6% levothyroxine, 32.9% no preference (alternatives, FAQ)",
+          "quote": "There were no differences in symptoms and neurocognitive measurements between the 2 therapies. Patients lost 3 lb on DTE treatment ... 34 patients (48.6%) preferred DTE, 13 (18.6%) preferred L-T₄, and 23 (32.9%) had no preference.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "cited_as": "Shah M, Proumen R, Sunkara A, Acharya R, Patel A. A Tale of Two Therapies: A Comparison of Armour Thyroid and Levothyroxine. Journal of the Endocrine Society. 2021;5(Supplement_1):A823–A824. Meeting abstract. https://academic.oup.com/jes/article/5/Supplement_1/A823/6241312",
+      "url": "https://academic.oup.com/jes/article/5/Supplement_1/A823/6241312",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "journal",
+      "doi": "10.1210/jendso/bvab048.1678",
+      "record_title": "A Tale of Two Therapies- A Comparison of Armour Thyroid and Levothyroxine",
+      "record_journal": "J Endocr Soc",
+      "record_year": "2021",
+      "article_type": "Meeting abstract (Journal of the Endocrine Society supplement)",
+      "retrieved_with": "WebFetch of the OUP article page (abstract visible); Scite verify_papers (DOI verified)",
+      "notes": "Authors corrected from Hoang TD et al. (those belong to ref 10) to Shah M, Proumen R, Sunkara A, Acharya R, Patel A. Page now labels it a conference abstract and reports the adverse-effect imbalance.",
+      "claims": [
+        {
+          "text": "Retrospective study of 250 patients (conference abstract)",
+          "quote": "We conducted a retrospective study on 250 hypothyroid patients over the age of 18.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "With normal TSH, 12.8% on Armour vs 23.2% on levothyroxine had complaints of fatigue and weight gain",
+          "quote": "16/125 (12.8%) of patients on Armour Thyroid and 29/125 (23.2%) of patients on levothyroxine had complaints of fatigue and weight gain with a normal TSH.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Adverse effects more common on Armour (8.8% vs 3.2%)",
+          "quote": "A total of 11/125 (8.8%) had adverse effects from Armour Thyroid while 4/125 (3.2%) of patients on levothyroxine had adverse effects to the medication.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "cited_as": "Cleveland Clinic. Myxedema Coma: Symptoms, Treatment &amp; Management. Last reviewed June 16, 2025. Accessed November 15, 2026. https://my.clevelandclinic.org/health/diseases/myxedema-coma",
+      "url": "https://my.clevelandclinic.org/health/diseases/myxedema-coma",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "other_web",
+      "version_or_date": "Last reviewed 06/16/2025",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "Unsourced 95F/35C cutoff and \"virtually preventable\" claim removed; treatment and mortality now worded as on the page.",
+      "claims": [
+        {
+          "text": "Rare, life-threatening; coma not always present, hence \"myxedema crisis\"",
+          "quote": "a rare, life-threatening complication of hypothyroidism. ... you may not go into a coma. This is why some healthcare providers call it a myxedema crisis.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Signs: confusion or mental status change, hypothermia, slow heart rate, low blood pressure, slow breathing, swelling (callout, TSH table, FAQ)",
+          "quote": "Confusion, disorientation or changes in mental status ... Hypothermia (low body temperature) ... Slow heart rate ... Low blood pressure ... Slow breathing ... Edema (swelling)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Biggest risk factor is long history of untreated hypothyroidism; female older than 60",
+          "quote": "The biggest risk factor for a myxedema crisis is having a long history of untreated hypothyroidism. ... Being a female older than 60",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Triggers: infections like pneumonia, cold, surgery, lithium, amiodarone, sedatives and tranquilizers",
+          "quote": "Infections like pneumonia ... Cold temperatures ... Surgery ... Certain medications like lithium, amiodarone, sedatives and tranquilizers",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "ICU treatment with levothyroxine, sometimes liothyronine, and hydrocortisone",
+          "quote": "Treatment for myxedema crisis typically takes place in an ICU ... Your provider will give you levothyroxine (T4) to quickly increase thyroid hormone levels. Sometimes, they also give you liothyronine (T3). You may receive hydrocortisone",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Fatal for about 2 to 6 out of 10 people even with treatment",
+          "quote": "Even so, myxedema coma is fatal for about 2 to 6 out of 10 people.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "cited_as": "Wiesner A, Gajewska D, Paśko P. Levothyroxine Interactions with Food and Dietary Supplements: A Systematic Review. Pharmaceuticals (Basel). 2021;14(3):206. Systematic review. https://pmc.ncbi.nlm.nih.gov/articles/PMC8002057/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8002057/",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "journal",
+      "pmid": "33801406",
+      "pmcid": "PMC8002057",
+      "doi": "10.3390/ph14030206",
+      "record_title": "Levothyroxine Interactions with Food and Dietary Supplements-A Systematic Review.",
+      "record_journal": "Pharmaceuticals (Basel)",
+      "record_year": "2021",
+      "article_type": "Journal Article; Review (systematic review)",
+      "retrieved_with": "PubMed connector get_article_metadata and get_full_text_article (PMC full text); Scite verify_papers",
+      "notes": "New reference: this is the paper the old ref 4 link actually opened. It supports bedtime dosing being equally effective (the old page wrongly said bedtime was slightly better). Scite flagged one contrasting citation (10.3390/nu16030382) about vegetarian diet and hypothyroidism risk; not relevant to the claims cited.",
+      "claims": [
+        {
+          "text": "Morning and bedtime dosing are equally effective",
+          "quote": "The results proved that l-T4 ingestion in the morning and at bedtime are equally effective, and also that the co-administration of l-T4 with food depends on the drug formulation.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Limited evidence, but coffee decreases absorption (interactions table)",
+          "quote": "We found limited evidence for l-T4 interactions with coffee, soy products, fiber, calcium or iron supplements, and enteral nutrition but interestingly they all resulted in decreased l-T4 absorption.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Keep a proper time interval between levothyroxine and coffee, calcium or iron (table, FAQ)",
+          "quote": "Maintaining a proper time interval between l-T4 and food intake, especially for coffee and calcium, or iron supplements, provides another effective method of eliminating such interactions.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "cited_as": "Garber JR, Cobin RH, Gharib H, et al.; American Association of Clinical Endocrinologists and American Thyroid Association Taskforce on Hypothyroidism in Adults. Clinical Practice Guidelines for Hypothyroidism in Adults: Cosponsored by the American Association of Clinical Endocrinologists and the American Thyroid Association. Thyroid. 2012;22(12):1200–1235. Practice guideline. https://doi.org/10.1089/thy.2012.0205",
+      "url": "https://doi.org/10.1089/thy.2012.0205",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "kind": "guideline",
+      "pmid": "22954017",
+      "doi": "10.1089/thy.2012.0205",
+      "record_title": "Clinical practice guidelines for hypothyroidism in adults: cosponsored by the American Association of Clinical Endocrinologists and the American Thyroid Association.",
+      "record_journal": "Thyroid",
+      "record_year": "2012",
+      "article_type": "Journal Article; Practice Guideline",
+      "version_or_date": "AACE/ATA 2012, Thyroid 22(12):1200-35",
+      "retrieved_with": "PubMed connector lookup_article_by_citation and get_article_metadata (abstract only; no PMC); Scite verify_papers",
+      "notes": "New reference for the ATA/AACE subclinical treatment statement. Abstract-only: the old claim \"ATA/AACE recommend treatment when TSH >10 in patients 70 or younger without cardiovascular disease\" could not be verified and was removed.",
+      "claims": [
+        {
+          "text": "Decision to treat subclinical hypothyroidism when TSH below 10 should be tailored to the individual (key points, TSH table, subclinical, FAQ)",
+          "quote": "The decision to treat subclinical hypothyroidism when the serum thyrotropin is less than 10 mIU/L should be tailored to the individual patient.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Serum TSH is the single best screening test for primary thyroid dysfunction in most outpatient situations",
+          "quote": "A serum thyrotropin is the single best screening test for primary thyroid dysfunction for the vast majority of outpatient clinical situations.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

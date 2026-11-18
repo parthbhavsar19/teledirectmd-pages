@@ -1,0 +1,742 @@
+{
+  "guide": "cat-bite-treatment-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 10 verified, retractions: none (10 DOIs: refs 2, 3, 4, 6, 7, 8, 9, 10, 11, 13; no editorial notices of any kind; contrasting evidence flagged for refs 7, 8, 10 and 13, see entry notes). PubMed article types checked for all 11 PubMed records: no Retracted Publication or Retraction Notice. Ref 1 (AFP) has no DOI; refs 5, 12, 14 to 19 are agency pages or a label.",
+  "references": [
+    {
+      "n": 1,
+      "kind": "journal",
+      "cited_as": "Ellis R, Ellis C. Dog and Cat Bites. Am Fam Physician. 2014;90(4):239-243. PMID 25250997.",
+      "url": "https://www.aafp.org/pubs/afp/issues/2014/0815/p239.html",
+      "pmid": "25250997",
+      "record_title": "Dog and cat bites.",
+      "record_journal": "Am Fam Physician",
+      "record_year": "2014",
+      "article_type": "Journal Article; Review (PubMed)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of the full article on aafp.org (three reads)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Corrects the old ref 4, which named Bula-Rudas FJ and Olcott JL; the record at this link is Ellis R and Ellis C. No DOI. The aafp.org page notes a newer 2023 AFP article on dog and cat bites (not used). Quotes from the aafp.org page are fragments as returned by the fetch tool.",
+      "claims": [
+        {
+          "text": "All cat bites are considered high risk for infection because they tend to cause deep puncture wounds",
+          "quote": "All cat bites are considered high risk for infection because they tend to cause deep puncture wounds.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Amoxicillin-clavulanate is the first-line prophylactic antibiotic for animal bites",
+          "quote": "Amoxicillin/clavulanate is the first-line prophylactic antibiotic.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Prophylaxis should be considered especially with high infection risk: cat bites, puncture wounds, hand wounds, immunosuppressed people",
+          "quote": "Antibiotic prophylaxis should be considered, especially if there is a high risk of infection, such as with cat bites, with puncture wounds, with wounds to the hand, and in persons who are immunosuppressed.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Prophylaxis used for high-risk wounds and considered for average-risk wounds (dog bite column)",
+          "quote": "Antibiotic prophylaxis should be used for high-risk bite wounds and considered for average-risk wounds.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Wounds that become infected within 24 hours of the bite are often caused by Pasteurella; dogs can also carry it",
+          "quote": "Wounds that become infected within 24 hours of the bite are often caused by Pasteurella. ... Pasteurella multocida is a common bacterium in the mouths of cats, but it can also be present in dogs.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pasteurella multocida is a common bacterium in the mouths of cats",
+          "quote": "Pasteurella multocida is a common bacterium in the mouths of cats, but it can also be present in dogs.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "A 3 to 7 day prophylactic course was likely adequate and typical in most studies",
+          "quote": "A three-day to seven-day course of prophylactic antibiotics is likely adequate and was typical in most studies.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cultures generally not helpful at first unless the wound is abscessed or already infected",
+          "quote": "Cultures of bite wounds are generally not helpful initially, unless the wound is abscessed or already infected.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Clinic irrigation with water, normal saline or dilute povidone-iodine",
+          "quote": "the wound should be copiously irrigated with water, normal saline, or dilute povidone-iodine solution",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "High-risk wounds should be left open; healing by secondary intention considered for higher-risk wounds such as hand wounds",
+          "quote": "Bite wounds may be closed if cosmetically desirable. However, wounds at high risk of infection should be left open.",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Explore for tendon or bone involvement and tooth fragments; X-ray if foreign body or bone involvement suspected",
+          "quote": "The wound should be carefully explored for tendon or bone involvement and foreign bodies, such as teeth fragments. ... Radiography is indicated if a foreign body or bone involvement is suspected.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "The need for rabies prophylaxis should be addressed with any animal bite because domestic animals are often unvaccinated",
+          "quote": "The need for rabies prophylaxis should be addressed with any animal bite because even domestic animals are often unvaccinated.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Healthy cat can be observed for 10 days; PEP generally not needed after a dog or cat bite",
+          "quote": "Healthy; observe animal for 10 days ... Postexposure prophylaxis is generally not needed in patients with a dog or cat bite",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Arons MS, Fernando L, Polayes IM. Pasteurella multocida: the major cause of hand infections following domestic animal bites. J Hand Surg Am. 1982;7(1):47-52.",
+      "url": "https://doi.org/10.1016/s0363-5023(82)80013-0",
+      "pmid": "7061808",
+      "doi": "10.1016/s0363-5023(82)80013-0",
+      "record_title": "Pasteurella multocida--the major cause of hand infections following domestic animal bites.",
+      "record_journal": "J Hand Surg Am",
+      "record_year": "1982",
+      "article_type": "Case Reports; Journal Article (PubMed)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Abstract only. PubMed lists the article type as Case Reports (a 55-patient series); the guide calls it a series.",
+      "claims": [
+        {
+          "text": "Series of 55 hand infections; every patient came for treatment 12 to 72 hours after the bite",
+          "quote": "Fifty-five patients are reported ... All patients presented for treatment 12 to 72 hours after receiving the animal wounds to their hands.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cellulitis, red streaking and drainage starting 12 to 24 hours after a bite should suggest Pasteurella",
+          "quote": "The acute onset of cellulitis, lymphangitis, and serosanguineous or purulent drainage from hand wounds 12 to 24 hours after cat or dog bites should suggest P. multocida",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pasteurella can cause chronic local infection of deep tissues and osteomyelitis",
+          "quote": "The infection is potentially dangerous and can cause a chronic local infection of deep tissues and osteomyelitis.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "guideline",
+      "cited_as": "Stevens DL, Bisno AL, Chambers HF, et al. Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections: 2014 Update by the Infectious Diseases Society of America. Clin Infect Dis. 2014;59(2):e10-e52. doi:10.1093/cid/ciu296. Guideline PDF hosted by IDSA.",
+      "url": "https://www.idsociety.org/globalassets/idsa/practice-guidelines/practice-guidelines-for-the-diagnosis-and-management-of-skin-and-soft-tissue-infections-2014-update-by-the-infectious-diseases-society-of-america.pdf",
+      "pmid": "24947530",
+      "doi": "10.1093/cid/ciu296",
+      "record_title": "Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections: 2014 Update by the Infectious Diseases Society of America",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2014",
+      "article_type": "Journal Article; Practice Guideline (PubMed)",
+      "version_or_date": "IDSA 2014 update; Clin Infect Dis 2014;59(2):e10-52, DOI 10.1093/cid/ciu296, as printed on the IDSA-hosted PDF; recommendations 40 to 44 (sections XI to XIV) read 2026-11-15",
+      "retrieved_with": "WebFetch of the IDSA-hosted guideline PDF (title, citation line, recommendations 40-44); PubMed get_article_metadata and convert_article_ids; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Old ref 3 linked doi 10.1093/cid/ciu444, which resolves to the Executive Summary (pp 147-159), not the e10-e52 guideline it named; now split into this ref (full guideline, IDSA PDF) and the Executive Summary ref. PubMed metadata appears to cross the two records: PMID 24947530 carries DOI ciu296 but lists pages 147-59, and PMID 24973422 carries DOI ciu444 but lists pages e10-52. The PDF text that the fetch tool could read ended before Table 5 and before the animal bite evidence summaries, so only the recommendations themselves are used. Rec 43 uses a 10-year tetanus interval; the guide follows the current CDC page (5 years for dirty wounds) and uses IDSA only for the Tdap preference.",
+      "claims": [
+        {
+          "text": "3 to 5 days of preemptive therapy for immunocompromised, asplenic, advanced liver disease, edema, moderate to severe injuries (especially hand or face), possible periosteum or joint capsule penetration",
+          "quote": "Preemptive early antimicrobial therapy for 3–5 days is recommended for patients who (a) are immunocompromised; (b) are asplenic; (c) have advanced liver disease; (d) have preexisting or resultant edema of the affected area;",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Includes moderate to severe injuries, especially to the hand or face, and injuries that may have reached bone or a joint; rated strong, low",
+          "quote": "(e) have moderate to severe injuries, especially to the hand or face; or (f) have injuries that may have penetrated the periosteum or joint capsule (strong, low).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "For infected bites, an agent or agents active against aerobic and anaerobic bacteria, such as amoxicillin-clavulanate",
+          "quote": "An antimicrobial agent or agents active against both aerobic and anaerobic bacteria such as amoxicillin-clavulanate (Table 5) should be used (strong, moderate).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Consultation with local health officials is recommended to decide whether rabies vaccination should start",
+          "quote": "Postexposure prophylaxis for rabies may be indicated; consultation with local health officials is recommended to determine if vaccination should be initiated (strong, low).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "IDSA prefers Tdap over Td if Tdap has not been given before",
+          "quote": "Tetanus, diptheria, and tetanus (Tdap) is preferred over Tetanus and diptheria (Td) if the former has not been previously given (strong, low).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "No primary closure except face wounds (copious irrigation, cautious debridement, preemptive antibiotics); other wounds may be approximated",
+          "quote": "Primary wound closure is not recommended for wounds, with the exception of those to the face, which should be managed with copious irrigation, cautious debridement, and preemptive antibiotics (strong, low). Other wounds may be approximated (weak, low).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Chan E, Robertson BF, Johnson SM. Kanavel signs of flexor sheath infection: a cautionary tale. Br J Gen Pract. 2019;69(683):315-316. Case report.",
+      "url": "https://doi.org/10.3399/bjgp19X704081",
+      "pmid": "31147342",
+      "pmcid": "PMC6532803",
+      "doi": "10.3399/bjgp19X704081",
+      "record_title": "Kanavel signs of flexor sheath infection: a cautionary tale.",
+      "record_journal": "Br J Gen Pract",
+      "record_year": "2019",
+      "article_type": "Case Reports; Journal Article (PubMed)",
+      "retrieved_with": "PubMed get_article_metadata (no abstract); PubMed get_full_text_article returned empty text; WebFetch of the full text at bjgp.org (doi.org redirect), two reads",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Link changed from the PMC page (bot check in the audit) to the DOI, which opens the full text on bjgp.org. Case report. Its 91-97% sensitivity figure is now cited to the primary study (Kennedy 2017), which reports it per individual sign, not for all four together. Its 17% fever figure has no primary source retrieved this run, so the number was cut. The 24-hour IV-antibiotic trial claim is not in the article and was cut.",
+      "claims": [
+        {
+          "text": "Deep hand infections such as flexor sheath infections are surgical emergencies needing prompt referral",
+          "quote": "Deep hand infection such as flexor sheath infections are surgical emergencies ... and require prompt referral.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Animal bites and puncture wounds are common causes",
+          "quote": "Common injuries include animal bites, puncture wounds, IV drug use, and wounds exposed to fresh/saltwater.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Four Kanavel signs are the cardinal signs of flexor tenosynovitis (flexed posture, fusiform swelling, sheath tenderness, pain on extension)",
+          "quote": "There are four cardinal signs of flexor tenosynovitis, which are also known as the Kanavel signs: ... the finger sits in a resting flexed posture; ... a fusiform swelling of the whole finger.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Fever is frequently absent",
+          "quote": "Unlike most severe infections, fever is frequently absent (only 17%).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Treatment: broad-spectrum IV antibiotics and urgent surgery to debride tissue and irrigate the tendon sheath",
+          "quote": "Inpatient management: broad-spectrum IV antibiotics and urgent surgery to debride tissue and irrigate the tendon sheath (fetch tool paraphrase of a sentence over its quote limit).",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention (CDC). Clinical Guidance for Wound Management to Prevent Tetanus. Reviewed September 8, 2026.",
+      "url": "https://www.cdc.gov/tetanus/hcp/clinical-guidance/index.html",
+      "record_title": "Clinical Guidance for Wound Management to Prevent Tetanus",
+      "version_or_date": "Last reviewed September 8, 2026",
+      "retrieved_with": "WebFetch of official CDC page (two reads)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source. Replaces unsourced tetanus bullets; old rule \"Td booster if more than 5 years\" generalized to the page wording; old \"Td plus TIG for unknown history\" kept as vaccine plus TIG for dirty wounds; child bullet removed (adult guide).",
+      "claims": [
+        {
+          "text": "Animal bites and puncture wounds are dirty or major wounds for tetanus decisions",
+          "quote": "The following are examples of dirty or major wounds: ... Wounds containing dirt, soil, feces, or saliva (e.g., animal or human bites)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Complete series, last vaccine less than 5 years ago: no vaccine needed",
+          "quote": "Received last tetanus vaccination less than 5 years ago",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Complete series, last vaccine 5 or more years ago: vaccine recommended for dirty or major wounds",
+          "quote": "People with a complete tetanus primary series who received their last tetanus vaccine 5 or more years ago.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Unknown, never vaccinated or incomplete series: vaccine plus TIG; TIG also for HIV or severe immunodeficiency with dirty wounds",
+          "quote": "TIG is indicated for dirty or major wounds in people with an unknown history, no prior tetanus vaccines, an incomplete primary series, HIV, or severe immunodeficiency (fetch tool summary of the page list).",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Antibiotics are not recommended as tetanus prevention during wound care",
+          "quote": "Antibiotics (topical or systemic) aren't recommended during wound care to protect against tetanus.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "journal",
+      "cited_as": "Babovic N, Cayci C, Carlsen BT. Cat bite infections of the hand: assessment of morbidity and predictors of severe infection. J Hand Surg Am. 2014;39(2):286-290.",
+      "url": "https://doi.org/10.1016/j.jhsa.2013.11.003",
+      "pmid": "24480688",
+      "doi": "10.1016/j.jhsa.2013.11.003",
+      "record_title": "Cat bite infections of the hand: assessment of morbidity and predictors of severe infection.",
+      "record_journal": "J Hand Surg Am",
+      "record_year": "2014",
+      "article_type": "Journal Article (PubMed); retrospective review",
+      "retrieved_with": "PubMed search_articles and get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source: primary study behind the old ref 7 blog claim (one in three hospitalized, two thirds needed surgery). Abstract only.",
+      "claims": [
+        {
+          "text": "Mayo Clinic review of 193 patients with hand cat bites: 30% hospitalized, 67% of those underwent irrigation and debridement",
+          "quote": "We identified 193 patients ... Thirty percent (n = 57) of patients with cat bites to the hand were hospitalized. ... Of the hospitalized patients, 67% (n = 38) underwent irrigation and debridement",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "A bite over a joint or tendon sheath was associated with hospitalization",
+          "quote": "Risk factors associated with hospitalization included smoking, immunocompromised state, and location of bite over a joint or tendon sheath.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "journal",
+      "cited_as": "Rothe K, Tsokos M, Handrick W. Animal and Human Bite Wounds. Dtsch Arztebl Int. 2015;112(25):433-442. PMID 26179017 (abstract).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26179017/",
+      "pmid": "26179017",
+      "pmcid": "PMC4558873",
+      "doi": "10.3238/arztebl.2015.0433",
+      "record_title": "Animal and Human Bite Wounds.",
+      "record_journal": "Dtsch Arztebl Int",
+      "record_year": "2015",
+      "article_type": "Journal Article; Review (PubMed)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); PubMed get_full_text_article returned empty full text; doi.org link to aerzteblatt.de refused by robots rules (not worked around); abstract only",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Link changed from the PMC page (bot check) to the PubMed record. Abstract-only, so the cat 30-50% vs dog 5-25% infection rates and the Capnocytophaga 30% mortality claim previously cited here were cut. Scite flagged one contrasting citation about the age distribution of dog bite victims, which the guide does not use.",
+      "claims": [
+        {
+          "text": "A 2015 review puts the overall risk of infection after a bite at 10 to 20%",
+          "quote": "The risk of infection after a bite is 10-20%, and about 30-60% of the infections are of mixed aerobic-anaerobic origin.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "journal",
+      "cited_as": "Talan DA, Citron DM, Abrahamian FM, Moran GJ, Goldstein EJ. Bacteriologic analysis of infected dog and cat bites. N Engl J Med. 1999;340(2):85-92.",
+      "url": "https://doi.org/10.1056/NEJM199901143400202",
+      "pmid": "9887159",
+      "doi": "10.1056/NEJM199901143400202",
+      "record_title": "Bacteriologic analysis of infected dog and cat bites. Emergency Medicine Animal Bite Infection Study Group.",
+      "record_journal": "N Engl J Med",
+      "record_year": "1999",
+      "article_type": "Journal Article; Multicenter Study (PubMed)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Also replaces old ref 4 for the \"five isolates, 60% mixed\" claim, now stated as Talan reports it (median 5; 56%). Scite flagged one contrasting citation (a later study found P. multocida rather than P. canis predominant in dog bites); the guide states the Talan finding as that study's result.",
+      "claims": [
+        {
+          "text": "Pasteurella species isolated from 75% of infected cat bites and 50% of infected dog bites; P. canis most common dog isolate",
+          "quote": "Pasteurella species were the most frequent isolates from both dog bites (50 percent) and cat bites (75 percent). Pasteurella canis was the most common isolate of dog bites",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Median of 5 isolates; aerobes and anaerobes in 56% of wounds",
+          "quote": "yielded a median of 5 bacterial isolates per culture (range, 0 to 16) ... Aerobes and anaerobes were isolated from 56 percent of the wounds",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Other organisms: streptococci, staphylococci, moraxella, neisseria; anaerobes fusobacterium, bacteroides, porphyromonas, prevotella",
+          "quote": "Other common aerobes included streptococci, staphylococci, moraxella, and neisseria. Common anaerobes included fusobacterium, bacteroides, porphyromonas, and prevotella.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Beta-lactam plus beta-lactamase inhibitor judged appropriate therapy",
+          "quote": "Patients were most often treated with a combination of a beta-lactam antibiotic and a beta-lactamase inhibitor, which, on the basis of the microbiologic findings, was appropriate therapy.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Research lab grew a median of 5 isolates per wound versus 1 at local hospital labs",
+          "quote": "Significantly more isolates grew at the reference laboratory than at the local laboratories (median, 1; range, 0 to 5; P<0.001).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "journal",
+      "cited_as": "Ma X, Bonaparte S, Corbett P, et al. Rabies surveillance in the United States during 2021. J Am Vet Med Assoc. 2023;261(7):1045-1053.",
+      "url": "https://doi.org/10.2460/javma.23.02.0081",
+      "pmid": "36884381",
+      "doi": "10.2460/javma.23.02.0081",
+      "record_title": "Rabies surveillance in the United States during 2021.",
+      "record_journal": "J Am Vet Med Assoc",
+      "record_year": "2023",
+      "article_type": "Journal Article (PubMed)",
+      "retrieved_with": "PubMed search_articles and get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source: primary surveillance report behind the old ref 7 blog claim (cats nearly 6%, dogs 1%).",
+      "claims": [
+        {
+          "text": "In 2021 cats were 5.9% and dogs 1.0% of rabid animals reported; cats were the domestic animal most often reported rabid",
+          "quote": "Rabid cats (216 [5.9%]), cattle (40 [1.1%]), and dogs (36 [1.0%]) accounted for 94% of rabies cases involving domestic animals in 2021.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "journal",
+      "cited_as": "Freshwater A. Why your housecat's trite little bite could cause you quite a fright: a study of domestic felines on the occurrence and antibiotic susceptibility of Pasteurella multocida. Zoonoses Public Health. 2008;55(8-10):507-513.",
+      "url": "https://doi.org/10.1111/j.1863-2378.2008.01152.x",
+      "pmid": "18811910",
+      "doi": "10.1111/j.1863-2378.2008.01152.x",
+      "record_title": "Why your housecat's trite little bite could cause you quite a fright: a study of domestic felines on the occurrence and antibiotic susceptibility of Pasteurella multocida.",
+      "record_journal": "Zoonoses Public Health",
+      "record_year": "2008",
+      "article_type": "Journal Article (PubMed)",
+      "retrieved_with": "PubMed search_articles and get_article_metadata (abstract); Scite verify_papers; ABCD cats & vets guideline page (old ref 2) re-read to confirm it cites this study",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Replaces old ref 2 (ABCD cats & vets page), which quoted this study as its source for the 90% figure. Scite flagged contrasting evidence: a later study reported lower P. multocida prevalence in cats (48.38%, and 10.47% in another cited study); the guide therefore presents 90% as one Ohio study's finding, not as a general carriage rate.",
+      "claims": [
+        {
+          "text": "In one study of 409 domestic cats in northern Ohio, about 90% carried P. multocida at the gum line",
+          "quote": "bacterial samples from the gingival margins of domestic northern Ohio cats (n=409) were cultured. ... The high carriage rate (approximately 90%) of P. multocida observed",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "journal",
+      "cited_as": "Kennedy CD, Lauder AS, Pribaz JR, Kennedy SA. Differentiation Between Pyogenic Flexor Tenosynovitis and Other Finger Infections. Hand (N Y). 2017;12(6):585-590.",
+      "url": "https://doi.org/10.1177/1558944717692089",
+      "pmid": "28720000",
+      "pmcid": "PMC5669334",
+      "doi": "10.1177/1558944717692089",
+      "record_title": "Differentiation Between Pyogenic Flexor Tenosynovitis and Other Finger Infections.",
+      "record_journal": "Hand (N Y)",
+      "record_year": "2017",
+      "article_type": "Journal Article (PubMed); retrospective study",
+      "retrieved_with": "PubMed search_articles and get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source: primary study for the Kanavel sensitivity figures that the Chan case report quoted.",
+      "claims": [
+        {
+          "text": "Sensitivity of individual Kanavel signs 91.4% to 97.1%, specificity 51.3% to 69.2%",
+          "quote": "Sensitivity of the Kanavel signs ranged from 91.4% to 97.1%. Specificity ranged from 51.3% to 69.2%.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Good at flagging possible tenosynovitis but cannot confirm it alone; adults seen in surgical consultation",
+          "quote": "Kanavel signs have high sensitivity for detecting PFT but have poor specificity on an individual basis.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "label",
+      "cited_as": "U.S. Food and Drug Administration label via DailyMed. AUGMENTIN (amoxicillin and clavulanate potassium) tablet, film coated; powder, for suspension. Dr. Reddy's Laboratories Inc. Revised 9/2016.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=174cc098-fe49-4f1a-87e2-601c7573f0db",
+      "record_title": "AUGMENTIN (amoxicillin and clavulanate potassium) tablet, film coated; AUGMENTIN powder, for suspension (Dr. Reddy's Laboratories Inc)",
+      "version_or_date": "Revised: 9/2016; DailyMed updated September 1, 2016 (current DailyMed listing for this Augmentin set id, read 2026-11-15)",
+      "retrieved_with": "WebFetch of DailyMed search results and label page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source for the clavulanate rationale, the adult 875 mg dose, and contraindications.",
+      "claims": [
+        {
+          "text": "Indication: skin and skin structure infections caused by beta-lactamase-producing S. aureus, E. coli and Klebsiella",
+          "quote": "caused by beta-lactamase–producing isolates of Staphylococcus aureus, Escherichia coli, and Klebsiella species.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Adult dose for more severe infections: one 875 mg tablet every 12 hours",
+          "quote": "For more severe infections and infections of the respiratory tract, the dose should be one 875-mg tablet of AUGMENTIN every 12 hours",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Contraindicated with serious hypersensitivity (anaphylaxis, SJS) to amoxicillin, clavulanate or other beta-lactams such as penicillins and cephalosporins",
+          "quote": "AUGMENTIN is contraindicated in patients with a history of serious hypersensitivity reactions (e.g., anaphylaxis or Stevens-Johnson syndrome) to amoxicillin, clavulanate or to other beta-lactam antibacterial drugs (e.g., penicillins and cephalosporins).",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "guideline",
+      "cited_as": "Stevens DL, Bisno AL, Chambers HF, et al. Executive Summary: Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections: 2014 Update by the Infectious Diseases Society of America. Clin Infect Dis. 2014;59(2):147-159. Table 5.",
+      "url": "https://doi.org/10.1093/cid/ciu444",
+      "pmid": "24973422",
+      "doi": "10.1093/cid/ciu444",
+      "record_title": "Executive Summary: Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections: 2014 Update by the Infectious Diseases Society of America",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2014",
+      "article_type": "Practice Guideline (executive summary)",
+      "version_or_date": "Clin Infect Dis 2014;59(2):147-159 (OUP article page); Table 5 read 2026-11-15",
+      "retrieved_with": "WebFetch of doi.org link (redirects to the OUP article page for 59/2/147) and of the OUP page text including Table 5 (two reads); Scite verify_papers; PubMed convert_article_ids",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Table 5, \"Recommended Therapy for Infections Following Animal or Human Bites\", is the source for every dose in the guide's antibiotic table. It lists agents and doses; it does not label regimens by allergy severity, so the old \"mild\" and \"severe\" allergy rows and the 5 to 7 day durations were removed. The pairing of ciprofloxacin with metronidazole rests on rec 42 (\"agent or agents\") plus Table 5 comments. See the IDSA full-guideline entry for the PubMed record mix-up. Scite flagged one contrasting citation about blood culture positivity in cellulitis, unrelated to the bite content used.",
+      "claims": [
+        {
+          "text": "Amoxicillin-clavulanate 875/125 mg twice daily (oral)",
+          "quote": "Amoxicillin-clavulanate | 875/125 mg bid | … | Some gram-negative rods are resistant; misses MRSA",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Doxycycline 100 mg twice daily; excellent activity against P. multocida; some streptococci resistant",
+          "quote": "Doxycycline | 100 mg bid | 100 mg every 12 h | Excellent activity against Pasteurella multocida; some streptococci are resistant",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Moxifloxacin 400 mg daily; monotherapy, good for anaerobes",
+          "quote": "Moxiﬂoxacin | 400 mg daily | 400 mg daily | Monotherapy; good for anaerobes also",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Ciprofloxacin 500 to 750 mg twice daily misses some anaerobes; metronidazole 250 to 500 mg three times daily covers anaerobes",
+          "quote": "Fluoroquinolones | Good activity against P. multocida; misses MRSA and some anaerobes ... Ciproﬂoxacin | 500–750 mg bid ... Metronidazole | 250–500 mg tid | 500 mg every 8 h | Good activity against anaerobes; no activity against aerobes",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "IV options: ampicillin-sulbactam, piperacillin-tazobactam, carbapenems",
+          "quote": "Ampicillin-sulbactam | — | 1.5–3.0 g every 6–8 h ... Piperacillin-tazobactam | — | 3.37 g every 6–8 h ... Carbapenems | — | See individual info.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention (CDC). Rabies Post-exposure Prophylaxis Guidance. Reviewed September 10, 2026.",
+      "url": "https://www.cdc.gov/rabies/hcp/clinical-care/post-exposure-prophylaxis.html",
+      "record_title": "Rabies Post-exposure Prophylaxis Guidance",
+      "version_or_date": "Last reviewed September 10, 2026",
+      "retrieved_with": "WebFetch of official CDC page (two reads)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source for wound cleansing and the PEP description that was previously uncited.",
+      "claims": [
+        {
+          "text": "Clean the wound immediately and thoroughly with soap and water; first step of PEP",
+          "quote": "All PEP should begin with immediate and thorough cleansing of all wounds with soap and water.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Unvaccinated: RIG infiltrated around wounds if possible; vaccine days 0, 3, 7, 14; fifth dose day 28 with immune disorders",
+          "quote": "If possible, infiltrate the full dose around any wound(s). ... One injection each on days 0, 3, 7, and 14 ... For those with immune disorders, administer a fifth dose on day 28.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Previously vaccinated: two doses three days apart, no RIG",
+          "quote": "For people who have previously been vaccinated against rabies, PEP consists of two doses of vaccine three days apart. ... Do not administer RIG.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "No PEP failures in immunocompetent patients with US cell culture vaccines",
+          "quote": "there have been no PEP failures in immunocompetent patients.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention (CDC). Clinical Overview of Capnocytophaga. Reviewed August 26, 2025.",
+      "url": "https://www.cdc.gov/capnocytophaga/hcp/clinical-overview/index.html",
+      "record_title": "Clinical Overview of Capnocytophaga",
+      "version_or_date": "Last reviewed August 26, 2025",
+      "retrieved_with": "WebFetch of official CDC page (two reads)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source; replaces the Capnocytophaga claims previously cited to Rothe 2015 (abstract only). The \"mortality approaching 30%\" figure was not retrieved and was cut.",
+      "claims": [
+        {
+          "text": "Rare opportunistic infection usually caused by bacteria from dog or cat bites",
+          "quote": "Capnocytophaga is a rare opportunistic infection usually caused by bacteria from dog or cat bites.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Splenectomy, heavy alcohol use, immunocompromising conditions (cancer, chronic lung disease, diabetes) make up 60 percent of infections",
+          "quote": "People with the following medical histories comprise 60 percent of Capnocytophaga infections: Immunocompromising conditions (cancer and cancer treatment; chronic lung disease, diabetes) Splenectomies Heavy alcohol use",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Symptoms typically begin 3 to 5 days after the bite; rapid progression to sepsis and death",
+          "quote": "Symptoms from zoonosis associated Capnocytophaga infections typically begin about 3 to 5 days after a dog or cat bite. ... The disease can progress rapidly from mild, localized infection to systemic infection, sepsis, and death.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Asplenic patients have 30 to 60 times greater risk of death",
+          "quote": "Asplenic patients have a 30 to 60 times greater risk of death from Capnocytophaga infections.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention (CDC). About Cat Scratch Disease. Reviewed September 11, 2026.",
+      "url": "https://www.cdc.gov/bartonella/about/about-cat-scratch-disease.html",
+      "record_title": "About Cat Scratch Disease",
+      "version_or_date": "Last reviewed September 11, 2026",
+      "retrieved_with": "WebFetch of official CDC page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Replaces old ref 6 (CDC About Bartonella), which does not cover lymph nodes, timing or treatment. The old \"resolves in 2 to 4 months\", node locations and bacillary angiomatosis claims were not on either CDC page and were cut.",
+      "claims": [
+        {
+          "text": "Infection through a cat scratch (particularly kittens) contaminated with flea feces; bites or licks of open wounds can also spread it",
+          "quote": "People can get infected with B. henselae bacteria and develop CSD when scratched by domestic or feral cats, particularly kittens. The bacteria can be transmitted from a cat to a person when the scratch is contaminated with flea feces (poop).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cats that bite or lick an open wound can spread it",
+          "quote": "Infected cats that bite, or lick a person's open wound, can also spread the bacteria.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Enlarged, tender lymph nodes 1 to 3 weeks after exposure; low-grade fever; papule or pustule at the scratch",
+          "quote": "Low-grade fever ... Enlarged, tender lymph nodes that develop 1–3 weeks after exposure to a cat ... A papule or pustule at the site of the scratch",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most cases resolve without antibiotics; antibiotics may reduce node swelling faster; recommended for all immunocompromised patients",
+          "quote": "Most cases of CSD resolve without antibiotic treatment. ... Treatment with antibiotics may help more rapidly reduce lymph node swelling ... is recommended for all patients who are immunocompromised",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention (CDC). Clinical Overview of Cat Scratch Disease. Reviewed March 23, 2026.",
+      "url": "https://www.cdc.gov/bartonella/hcp/clinical-overview/cat-scratch-disease.html",
+      "record_title": "Clinical Overview of Cat Scratch Disease",
+      "version_or_date": "Last reviewed March 23, 2026",
+      "retrieved_with": "WebFetch of official CDC page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source for the azithromycin study and disseminated disease.",
+      "claims": [
+        {
+          "text": "Azithromycin decreased lymph node volume faster in one small study; overall outcomes did not differ",
+          "quote": "A short course of azithromycin has been shown in one small study to decrease lymph node volume more rapidly ... Nevertheless, overall health outcomes in this study were not found to differ between treated and untreated patients.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Disseminated infection such as retinitis, peliosis hepatis, endocarditis needs longer treatment",
+          "quote": "Disseminated CSD such as retinitis, peliosis hepatis, and endocarditis, require longer treatment courses",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention (CDC). Clinical Screening for Rabies PEP. Reviewed September 11, 2026.",
+      "url": "https://www.cdc.gov/rabies/hcp/diagnosis/index.html",
+      "record_title": "Clinical Screening for Rabies PEP",
+      "version_or_date": "Last reviewed September 11, 2026",
+      "retrieved_with": "WebFetch of official CDC page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source. The old line \"Once clinical rabies develops, there is no effective treatment\" was replaced with the page wording.",
+      "claims": [
+        {
+          "text": "Rabies is fatal but preventable; severe disease and death without urgent PEP",
+          "quote": "Rabies, caused by rabies virus, is fatal but preventable. ... can cause severe disease and death if patients don't receive appropriate and urgent",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Contact state or local health department; a health official familiar with rabies should do the risk assessment",
+          "quote": "contact your state or local health department ... A health official familiar with rabies should always conduct the risk assessment.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "kind": "agency_page",
+      "cited_as": "Minnesota Department of Health. Frequently Asked Questions: Animal Bites and Rabies Risk: A Guide for Health Professionals. Last updated 10/20/2022.",
+      "url": "https://www.health.state.mn.us/diseases/rabies/risk/faq.html",
+      "record_title": "Frequently Asked Questions Animal Bites and Rabies Risk: A Guide for Health Professionals",
+      "version_or_date": "Last updated 10/20/2022",
+      "retrieved_with": "WebFetch of official Minnesota Department of Health page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Re-read; claim kept and reworded to the page.",
+      "claims": [
+        {
+          "text": "An infectious cat would develop severe illness or die within 3 to 4 days; 10-day observation includes a safety factor",
+          "quote": "would develop severe illness or die within 3 to 4 days of the bite. ... (The 10-day observation period includes a safety factor.)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "If the cat is alive and well 10 days after the bite, there was no rabies risk at the time of the bite",
+          "quote": "If the cat is alive and well 10 days following the bite, then there was no risk of rabies at the time of the bite.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}
