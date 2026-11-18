@@ -1,0 +1,537 @@
+{
+  "guide": "telehealth-uti-clinical-evidence",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 7 verified, retractions: none (no editorial notices; contrasting evidence flagged for Gupta 2011 and Bent 2002, see entry notes). PubMed article types checked: no Retracted Publication or Retraction Notice.",
+  "references": [
+    {
+      "n": 1,
+      "kind": "journal",
+      "cited_as": "Daumeyer NM, Kreitzberg D, Gavin KM, Bauer TA. Real-world evidence: Telemedicine for complicated cases of urinary tract infection. PLOS ONE. 2023;18(2):e0280386.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9894494/",
+      "pmid": "36730176",
+      "pmcid": "PMC9894494",
+      "doi": "10.1371/journal.pone.0280386",
+      "record_title": "Real-world evidence: Telemedicine for complicated cases of urinary tract infection.",
+      "record_journal": "PLoS One",
+      "record_year": "2023",
+      "article_type": "Journal Article; Research Support, Non-U.S. Gov't (retrospective analysis of real-world data)",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "All four authors list Everly Health, Inc. affiliations (PubMed record). n = 51,474 counts appointments/visits; individuals using the program more than once appear more than once. 94.0% is adherence to the program's clinical protocol; the protocol was based on uncomplicated-UTI guidelines (IDSA cited). Follow-up data from 6.9% of visits. Author order corrected (Kreitzberg is second author). Scite: verified, no notices, no contrasting evidence flagged.",
+      "claims": [
+        {
+          "text": "89.7% of treated patients who answered a seven-day follow-up survey reported symptom resolution; about 7% of visits had follow-up (3,521 people)",
+          "quote": "Of the treated patients who provided follow-up data (n = 3,521), 89.7% reported seven-day symptom resolution.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "follow-up data represented about 7% of visits",
+          "quote": "The current analysis evaluated symptom resolution data for a total of 3,541 appointments, representing only 6.9% of the population.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "authors described resolution as similar to published in-person rates",
+          "quote": "symptom resolution among all treated patients (89.7%) was similar to reports for in-person standard of care.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "compared with eight earlier studies (seven in-person), significantly higher than four, lower than one, not different from three",
+          "quote": "significantly higher than four of the eight comparator studies (χ= 20.0–374.1, p<0.001), significantly lower than one study (χ= 11.9, p<0.001), and not significantly different from the remaining three studies",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "seven of the eight comparator studies were of in-person care",
+          "quote": "Of the 8 comparator studies, 7 used in-person standard-of-care [,–] and 1 used telemedicine services []",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "94% of treated patients received an antibiotic recommended by the program's clinical protocol",
+          "quote": "Across all treated patients, 94.0% received recommended antibiotics according to the clinical protocol.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "protocol-recommended antibiotics were nitrofurantoin, TMP-SMX or fosfomycin; protocol based on IDSA guidance for uncomplicated UTI",
+          "quote": "A standard clinical protocol was developed based on guidelines for uncomplicated UTIs; thus, the recommended antibiotics were nitrofurantoin, trimethoprim-sulfamethoxazole, and fosfomycin",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "authors tie the protocol to IDSA guidelines",
+          "quote": "telemedicine physician adherence to recommended antibiotic protocols was higher than previously reported, according to concordance with the Infectious Diseases Society of America guidelines for antibiotics to treat UTIs",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "51,474 visits by adult women, 2017 to 2021, commercial national program",
+          "quote": "a commercially available telemedicine program for the treatment of UTIs among adult women in the US between 2017 and 2021 (n = 51,474)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "51,474 counts visits, not unique women",
+          "quote": "Data from 51,474 visits over four years indicated",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "2.2% returned within 30 days; authors read this as suggesting low failure/relapse but could not tell who sought care elsewhere",
+          "quote": "A small percentage of patients (2.2%) returned to use the program within 30 days after the initial consultation, suggesting that most patients experienced a full recovery or sought in-person/other care, a feature this analysis cannot resolve.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "all four authors affiliated with the company that ran the program",
+          "quote": "Everly Health, Inc., Austin, Texas, United States of America. (affiliation listed for Daumeyer, Kreitzberg, Gavin and Bauer in the PubMed record)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "complicated-UTI symptom resolution 87.9% similar to uncomplicated 90.8%",
+          "quote": "Symptom resolution rates were similar between patients with uncomplicated UTI symptoms (90.8%) and complicated UTI symptoms (87.9%)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "included patients with complicated-UTI or vaginal symptoms, typically excluded by earlier programs",
+          "quote": "a limitation of these programs is the exclusion of patients who self-report symptoms of complicated UTIs (e.g., fever, nausea) or vaginal infections",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "groups based on intake symptoms, not physician diagnoses",
+          "quote": "The present analysis relied on inferred diagnosis determined from digital responses and patient-reported symptoms at intake. Diagnoses made during treatment consultations were not obtained.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "protocol still recommended referring complicated-UTI symptoms to in-person care",
+          "quote": "The protocol recommended that patients with symptoms of complicated UTIs or vaginal infection be referred to in-person care.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "retrospective analysis; no in-person group of its own (closing paragraph: company-run, no own comparison group)",
+          "quote": "We conducted a retrospective analysis of data obtained from a commercially available telemedicine program",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Rogers M, Hedden L, McGrail K, Law MR. The impact of virtual care on drug prescribing practices: A scoping review. PLOS Digital Health. 2026;5(1):e0001192.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12773812/",
+      "pmid": "41493962",
+      "pmcid": "PMC12773812",
+      "doi": "10.1371/journal.pdig.0001192",
+      "record_title": "The impact of virtual care on drug prescribing practices: A scoping review.",
+      "record_journal": "PLOS Digit Health",
+      "record_year": "2026",
+      "article_type": "Journal Article (scoping review)",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Previously mislabeled 'systematic review' with '18 studies' and treated as UTI-specific; it is a scoping review of 22 studies of all drug prescribing, 3 of which addressed UTI. The 'decision support' explanation was not in the source and was cut. Scite: verified, no notices.",
+      "claims": [
+        {
+          "text": "22 studies: 19 observational, 3 systematic reviews",
+          "quote": "we identified 22 studies: 3 systematic reviews, no randomized controlled trials, and 19 observational studies.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "three observational studies addressed UTI",
+          "quote": "urinary tract infection (UTI), addressed in threes studies",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "most studies found no significant difference in medication or antibiotic prescribing rates; mixed; no consensus",
+          "quote": "This review revealed mixed findings, with the majority of studies reporting no significant difference in medication or antibiotic prescribing rates.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "no consensus",
+          "quote": "Our scoping review found no consensus in the global literature on how prescribing patterns differ between virtual and in-person care.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "one study found higher antibiotic use in virtual visits for uncomplicated UTI",
+          "quote": "virtual care visits were associated with comparable rates of antibiotic use in upper respiratory tract infections, bronchitis, and sinusitis, relative to in-person care, but higher rates in pharyngitis and uncomplicated UTIs.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "two studies with more guideline-concordant prescribing concerned viral infections and tonsillitis",
+          "quote": "Two studies, both conducted in a primary care settings for viral infections and tonsillitis, reported that guideline-concordant antibiotics were more likely to be prescribed in virtual visits",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "journal",
+      "cited_as": "Rastogi R, Martinez KA, Gupta N, Rood M, Rothberg MB. Management of Urinary Tract Infections in Direct to Consumer Telemedicine. J Gen Intern Med. 2020;35(3):643-648.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7080949/",
+      "pmid": "31667749",
+      "pmcid": "PMC7080949",
+      "doi": "10.1007/s11606-019-05415-7",
+      "record_title": "Management of Urinary Tract Infections in Direct to Consumer Telemedicine.",
+      "record_journal": "J Gen Intern Med",
+      "record_year": "2020 (epub 2019-10-30)",
+      "article_type": "Journal Article; Observational Study (cross-sectional)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Table previously credited 'Martinez et al.' with '389 encounters' and year 2019; first author is Rastogi and the abstract reports 20,600 patients. Claims limited to the abstract. Scite: verified, no notices.",
+      "claims": [
+        {
+          "text": "20,600 patients diagnosed with UTI on a nationwide DTC telemedicine platform",
+          "quote": "Of the 20,600 patients diagnosed with a UTI during the study period, 96% were female.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "94% received an antibiotic, most often nitrofurantoin",
+          "quote": "Overall, 94% of UTI patients received an antibiotic; 56% got nitrofurantoin, 29% got trimethoprim-sulfamethoxazole, and 10% got a quinolone.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "most patients received guideline-concordant care",
+          "quote": "Most patients received guideline-concordant care, but over half of high-risk patients received antibiotics.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "6% high risk (men, over 65, pyelonephritis); 69% received an antibiotic",
+          "quote": "High-risk patients were defined as males, patients over 65 years, or those diagnosed with pyelonephritis. ... Of the 6% of the study population defined as high risk, 69% received an antibiotic",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "authors called for proper follow-up for high-risk patients",
+          "quote": "Efforts should be made to ensure high-risk patients get proper follow-up.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. FDA Approves New Treatment for Uncomplicated Urinary Tract Infections (Pivya). April 24, 2024.",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-new-treatment-uncomplicated-urinary-tract-infections",
+      "version_or_date": "For Immediate Release: April 24, 2024",
+      "retrieved_with": "WebFetch of official FDA page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "pivmecillinam approved April 2024 for uncomplicated UTI",
+          "quote": "Today, the U.S. Food and Drug Administration approved Pivya (pivmecillinam) tablets for the treatment of female adults with uncomplicated urinary tract infections (UTIs)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "62% composite response vs 10% with placebo in one trial",
+          "quote": "62% of the 137 subjects who received Pivya achieved the composite response compared to 10% of the 134 who received placebo.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "other_web",
+      "cited_as": "GSK. Blujepa (gepotidacin) approved by US FDA for treatment of uncomplicated urinary tract infections (uUTIs). Press release, March 25, 2025.",
+      "url": "https://us.gsk.com/media/11852/blujepa-us-fda-approval.pdf",
+      "version_or_date": "Issued: March 25, 2025, Philadelphia, PA",
+      "retrieved_with": "WebSearch to locate; WebFetch of GSK press-release PDF",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Replaces the previous link, which opened GSK's December 2025 gonorrhea-approval release. Manufacturer source; the 'nearly 30 years' class claim is attributed to the maker in the text.",
+      "claims": [
+        {
+          "text": "gepotidacin FDA-approved March 2025 for uncomplicated UTI",
+          "quote": "the US Food and Drug Administration (FDA) has approved Blujepa (gepotidacin) ... with uncomplicated urinary tract infections (uUTIs)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "maker describes it as first in a new class of oral antibiotics for uUTI in nearly 30 years",
+          "quote": "Blujepa is the first in a new class of oral antibiotics for uUTIs in nearly 30 years",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. FDA approves new treatment for uncomplicated urinary tract infections in adult women who have limited or no alternative oral antibiotic treatment options (Orlynvah). October 24, 2024.",
+      "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-new-treatment-uncomplicated-urinary-tract-infections-adult-women-who-have-limited-or-no",
+      "version_or_date": "Content current as of 10/24/2024",
+      "retrieved_with": "WebFetch of official FDA page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "sulopenem approved October 2024 for uUTI in adult women with limited or no alternative oral options",
+          "quote": "The U.S. Food and Drug Administration has approved Orlynvah (sulopenem etzadroxil and probenecid) oral tablets for the treatment of uncomplicated urinary tract infection(s) (uUTI) caused by certain bacteria in adult women who have limited or no alternative oral antibacterial treatment options.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "48% vs 33% composite response in ciprofloxacin-resistant pathogens",
+          "quote": "Orlynvah demonstrated efficacy in patients with ciprofloxacin-resistant pathogens with a composite response rate of 48% compared to a composite response rate of 33% in the ciprofloxacin group.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "journal",
+      "cited_as": "Lodise TP, Das AF, Frimodt-Møller N, et al. Pivmecillinam for Treatment of Uncomplicated Urinary Tract Infection: New Efficacy Analysis. Clin Infect Dis. 2025;81(5):e285-e293.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12728296/",
+      "pmid": "40567143",
+      "pmcid": "PMC12728296",
+      "doi": "10.1093/cid/ciaf280",
+      "record_title": "Pivmecillinam for Treatment of Uncomplicated Urinary Tract Infection: New Efficacy Analysis.",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2025",
+      "article_type": "Journal Article (reanalysis of randomized trial data)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Authors were missing from the reference; added from PubMed. Link changed from publisher page to the PMC record. The 10% placebo figure now cites FDA ref 4; the IDSA beta-lactam statement now cites ref 10. Scite: verified, no notices.",
+      "claims": [
+        {
+          "text": "first approved in Europe more than 40 years before its US approval",
+          "quote": "In April 2024-over 40 years after its first approval in Europe-pivmecillinam received approval from the United States Food and Drug Administration (FDA)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "journal",
+      "cited_as": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710.",
+      "url": "https://doi.org/10.1001/jama.287.20.2701",
+      "pmid": "12020306",
+      "doi": "10.1001/jama.287.20.2701",
+      "record_title": "Does this woman have an acute uncomplicated urinary tract infection?",
+      "record_journal": "JAMA",
+      "record_year": "2002",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source replacing an uncited 'positive predictive value above 90% for the classic triad' claim. Scite flags one contrasting citation (J Adolesc Health 2007, adolescents) disputing that vaginal symptoms lower UTI likelihood; the page does not rely on that point. Abstract only.",
+      "claims": [
+        {
+          "text": "probability about 50% with one or more symptoms; specific combinations raise it to more than 90%, ruling in diagnosis from history alone",
+          "quote": "In women who present with 1 or more symptoms of UTI, the probability of infection is approximately 50%. Specific combinations of symptoms (eg, dysuria and frequency without vaginal discharge or irritation) raise the probability of UTI to more than 90%",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "history, exam and dipstick urinalysis cannot reliably rule a UTI out once symptoms are present",
+          "quote": "history taking, physical examination, and dipstick urinalysis are not able to reliably lower the posttest probability of disease to a level where a UTI can be ruled out",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Clinical Overview of Urinary Tract Infections. July 16, 2026.",
+      "url": "https://www.cdc.gov/uti/hcp/clinical-overview/index.html",
+      "version_or_date": "Page date July 16, 2026",
+      "retrieved_with": "WebSearch to locate; WebFetch of official CDC page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "in healthy, premenopausal, non-pregnant women with classic symptoms, clinicians can often diagnose uncomplicated UTI from history and physical exam alone",
+          "quote": "In healthy, premenopausal, non-pregnant women with classic symptoms, clinicians can often diagnose an uncomplicated UTI based on history and physical exam alone.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "when uncertain, testing may include urine sample, urinalysis, culture or imaging",
+          "quote": "When uncertainty exists, testing may include a urine sample, urinalysis, urine culture, or imaging.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "guideline",
+      "cited_as": "Gupta K, Hooton TM, Naber KG, et al. International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: A 2010 update by IDSA and ESCMID. Clin Infect Dis. 2011;52(5):e103-e120.",
+      "url": "https://doi.org/10.1093/cid/ciq257",
+      "pmid": "21292654",
+      "doi": "10.1093/cid/ciq257",
+      "record_title": "International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: A 2010 update by the Infectious Diseases Society of America and the European Society for Microbiology and Infectious Diseases.",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2011",
+      "article_type": "Practice Guideline",
+      "version_or_date": "2010 update, published March 2011; read 2026-11-15",
+      "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of full text at academic.oup.com/cid/article/52/5/e103/388285; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Scite flags one contrasting citation (J Infect Dev Ctries, high local TMP-SMX resistance); the page and citable summary carry the guideline's own 20% local-resistance condition for TMP-SMX. Guideline does not cover diagnosis, recurrent cystitis or pregnancy. Its pivmecillinam dose (400 mg) differs from the US-approved product and is not stated on the page.",
+      "claims": [
+        {
+          "text": "diagnosis limited to premenopausal, non-pregnant women with no known urological abnormalities or comorbidities",
+          "quote": "diagnoses limited in these guidelines to premenopausal, non-pregnant women with no known urological abnormalities or co-morbidities.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "treatment of acute uncomplicated cystitis is usually empirical",
+          "quote": "Because treatment of acute uncomplicated cystitis is usually empirical",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "guideline does not address diagnosis",
+          "quote": "prevention of UTI, and diagnosis of UTI are all important issues that are not addressed in this guideline",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "pivmecillinam an appropriate choice where available; caution with other beta-lactams",
+          "quote": "Pivmecillinam (400 mg bid for 3–7 days) is an appropriate choice for therapy in regions where it is available ... β-lactams other than pivmecillinam should be used with caution for uncomplicated cystitis.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "citable summary: nitrofurantoin 100 mg twice daily for 5 days",
+          "quote": "Nitrofurantoin monohydrate/macrocrystals (100 mg twice daily for 5 days) is an appropriate choice for therapy",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "citable summary: TMP-SMX 160/800 mg twice daily for 3 days where local resistance does not exceed 20%",
+          "quote": "Trimethoprim-sulfamethoxazole (160/800 mg [1 double-strength tablet] twice-daily for 3 days) ... if local resistance rates of uropathogens causing acute uncomplicated cystitis do not exceed 20%",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus (U.S. National Library of Medicine). Urinary tract infection - adults. Review date July 22, 2026.",
+      "url": "https://medlineplus.gov/ency/article/000521.htm",
+      "version_or_date": "Review Date 7/22/2026",
+      "retrieved_with": "WebFetch of official MedlinePlus page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Added to source the red-flag list. Items not stated by this page (visible blood in urine, symptoms longer than 7 days, symptoms in men, inability to keep fluids down) are kept uncited per the safety rule and listed in CHANGES.md.",
+      "claims": [
+        {
+          "text": "fever above 101°F (38.3°C) is a kidney infection symptom",
+          "quote": "Fever above 101°F (38.3°C)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "back or side pain, chills, fever, vomiting: contact provider right away (possible kidney infection)",
+          "quote": "Contact your provider right away if you have signs of a possible kidney infection, such as: Back or side pain; Chills; Fever; Vomiting",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "flank or back pain and nausea or vomiting are kidney infection signs; contact provider right away for back or side pain, vomiting",
+          "quote": "Pain in the side, back, or groin; Nausea and vomiting (two separate list items under kidney infection symptoms); under \"Contact your provider right away\": Back or side pain; Vomiting",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "failed prior antibiotic course as a reason for care",
+          "quote": "Also contact your provider if your UTI symptoms come back shortly after you have been treated with antibiotics.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "confusion or altered mental status",
+          "quote": "Mental changes or confusion (in older people, these symptoms often are the only signs of a UTI)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "journal",
+      "cited_as": "Wagenlehner F, Perry CR, Hooton TM, et al. Oral gepotidacin versus nitrofurantoin in patients with uncomplicated urinary tract infection (EAGLE-2 and EAGLE-3). Lancet. 2024;403(10428):741-755.",
+      "url": "https://doi.org/10.1016/S0140-6736(23)02196-7",
+      "pmid": "38342126",
+      "doi": "10.1016/S0140-6736(23)02196-7",
+      "record_title": "Oral gepotidacin versus nitrofurantoin in patients with uncomplicated urinary tract infection (EAGLE-2 and EAGLE-3): two randomised, controlled, double-blind, double-dummy, phase 3, non-inferiority trials.",
+      "record_journal": "Lancet",
+      "record_year": "2024",
+      "article_type": "Randomized Controlled Trial",
+      "retrieved_with": "PubMed search_articles + get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source for EAGLE figures that were previously uncited. Funded by GSK and BARDA. Scite: verified, no notices.",
+      "claims": [
+        {
+          "text": "non-inferior in EAGLE-2 and EAGLE-3, superior in EAGLE-3",
+          "quote": "Gepotidacin was non-inferior to nitrofurantoin in both studies and superior to nitrofurantoin in EAGLE-3.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "EAGLE-3 58.5% vs 43.6% therapeutic success",
+          "quote": "In EAGLE-3, 162 (58·5%) of 277 patients assigned gepotidacin and 115 (43·6%) of 264 patients assigned nitrofurantoin had therapeutic success",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "active against common uropathogens including drug-resistant phenotypes",
+          "quote": "As a first-in-class investigational oral antibiotic with activity against common uropathogens, including clinically important drug-resistant phenotypes",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Outpatient Clinical Care for Adults. April 16, 2024.",
+      "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html",
+      "version_or_date": "April 16, 2024",
+      "retrieved_with": "WebSearch to locate; WebFetch of official CDC page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "CDC lists nitrofurantoin, TMP-SMX (local resistance <20%) and fosfomycin as first-line for acute uncomplicated cystitis in healthy non-pregnant premenopausal women",
+          "quote": "acute uncomplicated cystitis in healthy adult non-pregnant, premenopausal women ... Nitrofurantoin, trimethoprim/sulfamethoxazole (TMP-SMX, where local resistance is <20%) ... and fosfomycin are appropriate first-line agents.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}
