@@ -365,37 +365,6 @@
   },
   {
    "n": 8,
-   "kind": "other_web",
-   "cited_as": "Daggett P. Medfinder blog, updated February 17, 2026",
-   "url": "https://www.medfinder.com/blog/paxlovid-150-mg-100-mg-dose-pack-shortage-update-what-patients-need-to-know-in-2026",
-   "retrieved_at": "2026-11-15",
-   "editorial_notices": [],
-   "version_or_date": "Updated February 17, 2026",
-   "retrieved_with": "WebFetch of page",
-   "notes": "Commercial pharmacy-finder blog; the page cites no source for its prices. Kept because no primary price source was retrieved; text now attributes and dates the figure. Re-check at every refresh.",
-   "claims": [
-    {
-     "text": "Cash price $1,400 to $1,800 for 5-day course, as of Feb 2026",
-     "quote": "The cash price for a 5-day course of Paxlovid remains in the $1,400 to $1,800 range without insurance.",
-     "quote_source": "official_page",
-     "verdict": "supported"
-    },
-    {
-     "text": "Commercial copays may range $0 to $75",
-     "quote": "Most plans cover Paxlovid. Copays vary but may range from $0 to $75 depending on your plan.",
-     "quote_source": "official_page",
-     "verdict": "supported"
-    },
-    {
-     "text": "Covered by most Medicare Part D plans",
-     "quote": "Covered under most plans, with the 2025/2026 annual out-of-pocket cap of $2,000 providing a safety net.",
-     "quote_source": "official_page",
-     "verdict": "partly_supported"
-    }
-   ]
-  },
-  {
-   "n": 9,
    "kind": "journal",
    "cited_as": "Hammond J, et al. N Engl J Med. 2022;386(15):1397-1408 (EPIC-HR)",
    "url": "https://pubmed.ncbi.nlm.nih.gov/35172054/",
@@ -438,7 +407,7 @@
    ]
   },
   {
-   "n": 10,
+   "n": 9,
    "kind": "label",
    "cited_as": "PAXLOVID prescribing information, Pfizer, revised 2/2026 (DailyMed)",
    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8a99d6d6-fd9e-45bb-b1bf-48c7f761232a",
@@ -523,7 +492,7 @@
    ]
   },
   {
-   "n": 11,
+   "n": 10,
    "kind": "guideline",
    "cited_as": "IDSA COVID-19 Treatment and Management guideline, nirmatrelvir/ritonavir section updated 10/14/2025",
    "url": "https://www.idsociety.org/practice-guideline/covid-19-guideline-treatment-and-management/",
@@ -554,7 +523,7 @@
    ]
   },
   {
-   "n": 12,
+   "n": 11,
    "kind": "agency_page",
    "cited_as": "CDC, Underlying Conditions and the Higher Risk for Severe COVID-19",
    "url": "https://www.cdc.gov/covid/hcp/clinical-care/underlying-conditions.html",
@@ -597,11 +566,11 @@
    ]
   },
   {
-   "n": 13,
+   "n": 12,
    "kind": "other_web",
    "cited_as": "Pfizer, paxlovid.com PAXCESS page",
    "url": "https://paxlovid.com/paxcess",
-   "retrieved_at": "2026-11-15",
+   "retrieved_at": "2026-11-18",
    "editorial_notices": [],
    "version_or_date": "Page undated; accessed 2026-11-15",
    "retrieved_with": "WebFetch of paxlovid.com/paxcess",
@@ -618,11 +587,17 @@
      "quote": "eligible Medicare, Medicaid, and uninsured patients may access PAXLOVID for free",
      "quote_source": "official_page",
      "verdict": "supported"
+    },
+    {
+     "text": "Eligible commercially insured may pay as little as $0 (savings capped at $1,000/yr); eligible Medicare, Medicaid and uninsured may get it free through Dec 31, 2026 (cost table row and cost paragraph, Nov 18)",
+     "quote": "Eligible commercially insured patients may access PAXLOVID for as little as $0, and eligible Medicare, Medicaid, and uninsured patients may access PAXLOVID for free. ... Eligible commercially insured patients can save up to a maximum of $1,000 annually. ... Eligible government insured and uninsured patients can access PAXLOVID for free through December 31, 2026.",
+     "quote_source": "paxlovid.com/paxcess, retrieved 2026-11-18",
+     "verdict": "supported"
     }
    ]
   },
   {
-   "n": 14,
+   "n": 13,
    "kind": "agency_page",
    "cited_as": "CDC, Symptoms of COVID-19",
    "url": "https://www.cdc.gov/covid/signs-symptoms/index.html",
@@ -652,5 +627,6 @@
     }
    ]
   }
- ]
+ ],
+ "notes_2026_11_18": "Removed Medfinder blog price ref (old 8); refs 9-14 renumbered to 8-13. 'prescribed within hours' sentence reworded (no prescription promise)."
 }
