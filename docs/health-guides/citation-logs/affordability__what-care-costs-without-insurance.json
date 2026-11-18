@@ -1,0 +1,481 @@
+{
+ "guide": "affordability/what-care-costs-without-insurance",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 2 verified (10.1377/hlthaff.2022.00977, cited as ref 6; 10.1377/hlthaff.2020.01869, considered and not cited), retractions: none; no editorial notices or contrasting evidence flagged",
+ "references": [
+  {
+   "n": 1,
+   "kind": "other_web",
+   "cited_as": "Brooks A. How Much Is A Primary Care Doctor Visit Cost With and Without Insurance? Mira (updated February 25, 2025)",
+   "url": "https://www.talktomira.com/post/how-much-does-primary-care-cost-without-insurance",
+   "record_title": "How Much Is A Primary Care Doctor Visit Cost With and Without Insurance?",
+   "version_or_date": "Updated Feb 25, 2025 (first published Oct 27, 2021); clinic data compiled 2023-2024; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape of the page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces Zocdoc (old ref 1). Zocdoc's $40-$300 range, $171 average and $2,715 ER figure were all secondhand links to Mira pages (spec 4.4), so the original is cited. Mira is a commercial company that sells a health care membership; the page says so implicitly and the guide now says so explicitly.",
+   "claims": [
+    {
+     "text": "Primary care visit without insurance can cost $40 to $300",
+     "quote": "A primary care visit without insurance can cost anywhere from $40 to $300, depending on where you live and the clinic you choose.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Average about $171 for a basic self-pay visit in a 2024 survey of clinics in major U.S. cities",
+     "quote": "A 2024 survey found the average out-of-pocket cost for a basic visit in major U.S. cities was about $171 for self-pay patients.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Mira surveyed self-pay prices at primary care clinics in 10 large metro areas, data compiled 2023-2024",
+     "quote": "We surveyed at least 10 primary care clinics (not urgent care or DPC) in each large metro area. ... Data compiled from phone calls, public fee schedules, and clinic websites (2023–2024).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lab tests, immunizations and prescriptions cost extra",
+     "quote": "For any additional services such as childhood and adult immunizations, lab testing, or prescriptions, there will be additional charges.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "other_web",
+   "cited_as": "Aime M. How Much Is Urgent Care Without Insurance? GoodRx Health (July 22, 2024)",
+   "url": "https://www.goodrx.com/health-topic/emergency-care/how-much-is-urgent-care-without-insurance",
+   "record_title": "How Much Is Urgent Care Without Insurance?",
+   "version_or_date": "Published July 22, 2024 (WebFetch of the page, 2026-11-15); written by Maggie Aime, MSN, RN; reviewed by Farzon A. Nahvi, MD",
+   "retrieved_with": "Monid firecrawl /scrape of the page (markdown, live fetch maxAge 0); WebFetch for the date line",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "The $180 average was cut: GoodRx sources it to Wang B et al., Health Aff 2021;40(4):587-595 (PMID 33819095, DOI 10.1377/hlthaff.2020.01869), a study of 2008-19 managed-care insurance claims, not uninsured cash prices, and the abstract does not state $180. The $125-$300 range is GoodRx's own reporting of a benefits consultant's estimate.",
+   "claims": [
+    {
+     "text": "Urgent care visit without insurance typically $125 to $300, per a benefits consultant quoted by GoodRx",
+     "quote": "A visit to an urgent care center without insurance can range from $125 to $300, Chelsea Ryckis, president of Ethos Benefits, told GoodRx Health.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Price depends on location and the treatment needed",
+     "quote": "The exact price you pay will depend on factors such as the urgent care center’s location and the treatments you need.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tests, X-rays and supplies add to the cost",
+     "quote": "If you need additional tests, services, or supplies during your urgent care facility visit, expect to pay more.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Some urgent care centers charge a fixed price including the exam and basic tests or treatments; others charge separately",
+     "quote": "Some urgent care centers offer tier-based or bundle services, where they charge a fixed price that includes the medical examination and a few standard tests or treatments. ... Other facilities charge separately for each service provided",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "other_web",
+   "cited_as": "FAIR Health Consumer, Emergency Care and Urgent Care",
+   "url": "https://www.fairhealthconsumer.org/en/insurance-basics/healthcare/emergency-care-and-urgent-care",
+   "record_title": "Emergency Care and Urgent Care",
+   "version_or_date": "No page date shown; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape of the page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "FAIR Health is an independent national nonprofit. Its $300 vs $1,000 example is for an insured, in-network patient whose plan does not pay for a non-emergency ER visit; the guide now says so instead of presenting it as an uninsured comparison.",
+   "claims": [
+    {
+     "text": "ER visits generally cost much more than a doctor's office or urgent care",
+     "quote": "So, visits to the ER generally cost much more than those to a doctor’s office or an urgent care center.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "An ER visit may bring two separate charges, one from the ER and one from the physician",
+     "quote": "There may be two separate charges—one from the emergency room, and one from the physician who treats you.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hypothetical in-network example: $300 provider fee for routine urgent care vs $1,000 in the ER, which the plan does not pay",
+     "quote": "Let’s look at an example, supposing you stayed in the network in either case. ... Provider’s Fee | $300 | $1,000 | Your Plan Pays | $280 ($300 - $20) | $0",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Plan may not pay for a non-emergency ER visit",
+     "quote": "Your plan may not pay for the ER visit if they determine your condition was not a true emergency, leaving you to cover the full cost yourself.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "In a serious or life-threatening emergency, seek care first",
+     "quote": "In a serious emergency or one that threatens your life, seek care first.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "agency_page",
+   "cited_as": "CMS, Hospital Price Transparency Frequently Asked Questions (current as of June 26, 2026)",
+   "url": "https://www.cms.gov/files/document/hospital-price-transparency-frequently-asked-questions.pdf",
+   "record_title": "Hospital Price Transparency Frequently Asked Questions (FAQs)",
+   "version_or_date": "All FAQs current as of June 26, 2026; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape of the PDF (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Hospitals must publish standard charges including gross charge (chargemaster, absent discounts), discounted cash price, and payer-specific negotiated charge",
+     "quote": "this includes five types of standard charges: 1. The gross charge (the charge for an individual item or service that is reflected on a hospital’s chargemaster, absent any discounts). 2. The discounted cash price ... 3. The payer-specific negotiated charge",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Discounted cash price applies to people who pay cash",
+     "quote": "The discounted cash price (the charge that applies to an individual who pays cash, or cash equivalent, for a hospital item or service).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "If the bill is off from a good faith estimate by more than $400, patients may be able to dispute it",
+     "quote": "Should that estimate be off by more than $400, patients may be able to dispute the charge through the patient-provider dispute resolution process.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "other_web",
+   "cited_as": "Williams J. Hospitals' cash prices for services offer a new look at health care pricing. STAT, First Opinion (February 3, 2022)",
+   "url": "https://www.statnews.com/2022/02/03/hospitals-cash-prices-for-services-offer-a-new-look-at-health-care-pricing/",
+   "record_title": "Hospitals' cash prices for services offer a new look at health care pricing",
+   "version_or_date": "Published Feb 3, 2022 (modified Jul 25, 2023); First Opinion essay by Jackson Williams",
+   "retrieved_with": "Monid firecrawl /scrape of the page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Opinion essay; figures come from data the author collected. The passage quoted is in the part of the page visible without a subscription.",
+   "claims": [
+    {
+     "text": "Cash price lower than highest negotiated price 87%, most major insurers 55%, lowest negotiated 43% of the time",
+     "quote": "the cash prices reported by hospitals is lower than the highest insurer-negotiated price 87% of the time; lower than most major insurers’ negotiated prices 55% of the time; and lower than even the lowest insurer-negotiated price 43% of the time.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Based on data the author collected from hospitals' disclosed prices for select shoppable services",
+     "quote": "To summarize findings from data I collected for select medical services amenable to shopping, the cash prices reported by hospitals",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Wang Y, Meiselbach MK, Cox JS, Anderson GF, Bai G. Health Aff (Millwood). 2023;42(4):516-525",
+   "url": "https://doi.org/10.1377/hlthaff.2022.00977",
+   "pmid": "37011313",
+   "doi": "10.1377/hlthaff.2022.00977",
+   "record_title": "The Relationships Among Cash Prices, Negotiated Rates, And Chargemaster Prices For Shoppable Hospital Services.",
+   "record_journal": "Health Aff (Millwood)",
+   "record_year": "2023",
+   "article_type": "Journal Article; Research Support, Non-U.S. Gov't",
+   "retrieved_with": "mcp__PubMed__get_article_metadata (abstract); mcp__Scite__verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only (no PMC full text); claims limited to the abstract. Authors at Johns Hopkins University per PubMed affiliations. Scite: verified, no editorial notices, no contrasting evidence flagged.",
+   "claims": [
+    {
+     "text": "2,379 hospitals, prices as of September 9, 2022, for 70 common shoppable services",
+     "quote": "Hospitals must disclose their cash prices, commercial negotiated rates, and chargemaster prices for seventy common, shoppable services ... Examining prices reported by 2,379 hospitals as of September 9, 2022",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cash prices lower than median commercial negotiated rates in 47% of instances",
+     "quote": "Cash prices were lower than the median commercial negotiated rates in 47 percent of instances",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cash prices and commercial negotiated rates averaged 64% and 58% of the list (chargemaster) price for the same service at the same hospital",
+     "quote": "On average, cash prices and commercial negotiated rates were 64 percent and 58 percent of the corresponding chargemaster prices for the same procedures at the same hospital and in the same service setting, respectively.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cash prices are sometimes lower and sometimes higher than negotiated rates (Key Takeaways)",
+     "quote": "Cash prices were lower than the median commercial negotiated rates in 47 percent of instances",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "other_web",
+   "cited_as": "Muoio D. Hospitals often charge uninsured, cash-paying patients more than payers, WSJ reports. Fierce Healthcare (July 7, 2021)",
+   "url": "https://www.fiercehealthcare.com/hospitals/wsj-report-hospitals-often-charge-uninsured-cash-paying-patients-more-than-payers",
+   "record_title": "Hospitals often charge uninsured, cash-paying patients more than payers, WSJ reports",
+   "version_or_date": "July 7, 2021",
+   "retrieved_with": "Monid firecrawl /scrape of the page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Secondary report of a Wall Street Journal analysis. The WSJ original is behind a subscription paywall and was not retrieved (not routed around), so the guide attributes the figure to the WSJ analysis as reported by Fierce Healthcare.",
+   "claims": [
+    {
+     "text": "Among 1,550 sampled hospitals, 21% billed cash and uninsured patients at their highest rate for most services reviewed",
+     "quote": "Among a sample of 1,550 hospitals, 21% billed these patients at the highest rates for the majority of the healthcare services included in the WSJ’s analysis.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Some hospitals charge cash patients more than insurers (Key Takeaways)",
+     "quote": "Hospitals “routinely” charge uninsured and cash-paying patients rates higher than those negotiated by payers, according to a recent Wall Street Journal report",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "other_web",
+   "cited_as": "FAIR Health Consumer (home page)",
+   "url": "https://www.fairhealthconsumer.org/",
+   "record_title": "Welcome to FAIR Health",
+   "version_or_date": "Copyright 2026; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape of the page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "FAIR Health's consumer tool is free",
+     "quote": "FAIR Health’s free consumer website and mobile app, available in English and Spanish, enable consumers to estimate and plan for their healthcare expenses",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tool estimates what you might pay if uninsured, plus in-network and out-of-network costs",
+     "quote": "This website allows you to search for: How much you might pay for a medical or dental service if you're uninsured. Out-of-network costs ... In-network costs.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Built on health insurance claims data",
+     "quote": "Our cost estimates are based on claims for medical and dental services paid for by private insurance plans",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "other_web",
+   "cited_as": "Health Care Cost Institute, HealthPrices.org (Health Care Price Toolkit)",
+   "url": "https://www.healthprices.org/",
+   "record_title": "Health Care Prices",
+   "version_or_date": "No page date shown; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape of the page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New caveat added from this page: its prices are insurer-negotiated rates and the cash price may differ.",
+   "claims": [
+    {
+     "text": "Healthprices.org shows prices for services in your city / metro area",
+     "quote": "Explore health care prices in your city ... we’ll show you the typical price for your city.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Built on health insurance claims data",
+     "quote": "The prices reported on this site are estimated from billions of records based on actual amounts paid by health insurers to health care providers.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prices reflect insurer-negotiated rates; the cash price may be higher or lower",
+     "quote": "Our prices reflect negotiated rates between providers and health insurance companies. The “cash” price without insurance may be higher or lower.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "other_web",
+   "cited_as": "Health Care Cost Institute, Welcome to HealthPrices.Org! HCCI's Free Price Transparency Tool (October 29, 2024)",
+   "url": "https://healthcostinstitute.org/all-hcci-reports/welcome-to-healthprices-org-hccis-free-price-transparency-tool/",
+   "record_title": "Welcome to HealthPrices.Org! HCCI’s Free Price Transparency Tool",
+   "version_or_date": "October 29, 2024 (HCCI Staff)",
+   "retrieved_with": "Monid firecrawl /scrape of the page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "HealthPrices.org is HCCI's free tool showing average prices in the local metro area",
+     "quote": "introduce HealthPrices.Org (formerly Guroo), a free health care price transparency tool that shows consumers the average prices for health care services in their local metropolitan area.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "agency_page",
+   "cited_as": "eCFR, 45 CFR 149.610 (good faith estimates for uninsured or self-pay individuals)",
+   "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-149/subpart-G/section-149.610",
+   "record_title": "45 CFR 149.610 Requirements for provision of good faith estimates of expected charges for uninsured (or self-pay) individuals.",
+   "version_or_date": "eCFR Title 45 up to date as of 11/12/2026; section applicable from January 1, 2022",
+   "retrieved_with": "Monid firecrawl /scrape of the page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source for the good faith estimate sentences (previously uncited).",
+   "claims": [
+    {
+     "text": "Providers and facilities must give good faith estimates to uninsured or self-pay individuals upon request or scheduling",
+     "quote": "This section sets forth requirements for health care providers and health care facilities related to the issuance of good faith estimates of expected charges for uninsured (or self-pay) individuals ..., upon request or upon scheduling an item or service.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Self-pay includes insured people not submitting a claim for the service",
+     "quote": "An individual who has benefits for such item or service under a group health plan ... but who does not seek to have a claim for such item or service submitted to such plan or coverage.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Within 1 business day of scheduling at least 3 business days ahead; within 3 business days if scheduled at least 10 business days ahead",
+     "quote": "scheduled at least 3 business days before the date the item or service is scheduled to be furnished: Not later than 1 business day after the date of scheduling",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Within 3 business days of scheduling when scheduled at least 10 business days ahead",
+     "quote": "scheduled at least 10 business days before such item or service is scheduled to be furnished: Not later than 3 business days after the date of scheduling",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Within 3 business days after a request",
+     "quote": "When a good faith estimate is requested by an uninsured (or self-pay) individual: Not later than 3 business days after the date of the request.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "The estimate must be in writing",
+     "quote": "A good faith estimate must be provided in written form either on paper or electronically",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "agency_page",
+   "cited_as": "HRSA Bureau of Primary Health Care, What is a Health Center?",
+   "url": "https://bphc.hrsa.gov/about-health-centers/what-health-center",
+   "record_title": "What is a Health Center?",
+   "version_or_date": "Date last reviewed: November 2025",
+   "retrieved_with": "Monid firecrawl /scrape of the page (markdown, live fetch maxAge 0); requested https://bphc.hrsa.gov/about/what-is-a-health-center, which redirected to the cited URL",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source. Replaces the uncited claim that FQHCs are 'required by law to offer sliding-scale fees' and that 'some visits cost little or nothing'. The HRSA page does not use the term Federally Qualified Health Center, so the guide now says community health center (Health Center Program).",
+   "claims": [
+    {
+     "text": "Health centers adjust fees based on income and family size",
+     "quote": "All health centers: ... Adjust their fees based on income and family size",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Health centers must serve everyone, even if they cannot pay",
+     "quote": "Health centers must: ... Serve everyone, even if they cannot pay",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "agency_page",
+   "cited_as": "CMS, You have rights in an emergency room under EMTALA",
+   "url": "https://www.cms.gov/priorities/your-patient-rights/emergency-room-rights",
+   "record_title": "You have rights in an emergency room under EMTALA",
+   "version_or_date": "Page last modified 06/12/2025",
+   "retrieved_with": "Monid firecrawl /scrape of the page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source for the emergency-care safety sentence (previously uncited 'required to stabilize you regardless of your ability to pay').",
+   "claims": [
+    {
+     "text": "Applies to hospital emergency departments that receive Medicare funds, which includes most U.S. hospitals",
+     "quote": "This law helps prevent any hospital emergency department that receives Medicare funds (which includes most U.S. hospitals) from refusing to treat patients.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Must give a medical screening exam and offer treatment to stabilize an emergency medical condition, regardless of insurance or ability to pay",
+     "quote": "Because of EMTALA, you can't be denied a medical screening exam or treatment for an emergency medical condition based on: If you have health insurance or not; If you can pay for treatment",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "agency_page",
+   "cited_as": "HealthCare.gov, Out-of-pocket maximum/limit (glossary)",
+   "url": "https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/",
+   "record_title": "Out-of-pocket maximum/limit",
+   "version_or_date": "No page date shown; lists 2026 and 2027 limits; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape of the page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Out-of-pocket maximum limits what you pay for covered in-network services in a plan year",
+     "quote": "The most you have to pay for covered services in a plan year. After you spend this amount on deductibles, copayments, and coinsurance for in-network care and services, your health plan pays 100% of the costs of covered benefits.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Premiums, non-covered services and out-of-network care do not count toward it",
+     "quote": "The out-of-pocket limit doesn't include: Your monthly premiums; Anything you spend for services your plan doesn't cover; Out-of-network care and services",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "agency_page",
+   "cited_as": "HealthCare.gov, What Marketplace health insurance plans cover",
+   "url": "https://www.healthcare.gov/coverage/what-marketplace-plans-cover/",
+   "record_title": "What Marketplace health insurance plans cover",
+   "version_or_date": "No page date shown; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape of the page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Marketplace plans must cover essential health benefits including hospitalization (surgery, overnight stays), prescription drugs and chronic disease management",
+     "quote": "All plans offered in the Marketplace cover these 10 essential health benefits: ... Hospitalization (like surgery and overnight stays) ... Prescription drugs ... Preventive and wellness services and chronic disease management",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,233 @@
+{
+  "guide": "affordability/what-is-an-eob",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 0 verified (no journal references or DOIs in this guide; all references are U.S. government web pages and a federal regulation), retractions: none",
+  "references": [
+    {
+      "n": 1,
+      "kind": "agency_page",
+      "cited_as": "CMS, How to read a health insurance explanation of benefits",
+      "url": "https://www.cms.gov/initiatives/your-patient-rights/medical-bill-rights/get-help/guides-resources/read-explanation-benefits",
+      "record_title": "How to read a health insurance explanation of benefits",
+      "record_journal": "CMS (cms.gov, Your patient rights)",
+      "version_or_date": "Page Last Modified 10/05/2026 05:55 PM; read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F9B7CZ8DG5FC19DRFZGQM0); direct fetch blocked by egress proxy",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The link on the live page (/get-help/medical-bill-guides-resources/how-read-health-insurance-explanation-benefits) now redirects here; link updated to the final URL in the reference list and the citable summary.",
+      "claims": [
+        {
+          "text": "Key takeaway and FAQ 'Is an EOB a bill?': an EOB is the plan's record of how a claim was processed, not a bill; the bill comes from the provider (also citable summary)",
+          "quote": "An explanation of benefits isn't a bill. It helps you understand how much your health plan covers, and what you'll pay when you get a bill from your provider.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Parts table: patient, health plan, who provided care and when, claim number, payee for overpayments",
+          "quote": "You (the patient) Your health plan Who provided your care, and when it was provided A reference number called the claim number The person who gets reimbursed for any overpayments, called the payee",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Parts table and body: date of service and service description (visit, lab test)",
+          "quote": "The date of service A service description. This explains what service you had, like a medical visit, lab test, or screening.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Parts table and body (rewritten): provider charges = amount billed; allowed charges = amount provider will be paid, may differ; paid by insurer = what plan pays provider",
+          "quote": "“Provider Charges” is the amount your provider bills for your visit. “Allowed Charges” is the amount your provider will be paid. This may not be the same as the Provider Charges.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Body (rewritten), table and how-to step 3: what you owe / patient balance is what is left after insurer pays; EOB does not show whether you already paid part",
+          "quote": "What You Owe, or Patient Balance, is the amount you owe after your insurer has paid everything else. ... The Explanation of Benefits only shows what you owe, not if you've already paid for it.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Key takeaway, sequence paragraph (rewritten), how-to step 5, sample key 4, 'What to do if wrong' (rewritten), FAQs on bill higher than EOB: bill should not be higher than patient balance; if it is, talk to the provider",
+          "quote": "Your bill should not be higher than the Patient Balance. If it is, talk to your provider.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Remark code paragraph, how-to step 4 and sample key 5 (rewritten): a note from the plan, usually 2 or 3 letters and numbers, explaining costs, charges and paid amounts; described at bottom of EOB",
+          "quote": "A remark code is a note from the health plan that explains more about the costs, charges, and paid amounts for your visit. The code is usually 2 or 3 letters and numbers. Check the bottom",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "'What to do if wrong': call the plan's number on the EOB",
+          "quote": "It will also list your health plan's phone number. Call your health plan if you have questions about finding a provider or what services they cover.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "agency_page",
+      "cited_as": "CFPB, What should I do if I can't pay a medical bill",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-if-i-cant-pay-a-medical-bill-en-2125/",
+      "record_title": "What should I do if I can't pay a medical bill?",
+      "record_journal": "Consumer Financial Protection Bureau (Ask CFPB)",
+      "version_or_date": "last reviewed Oct 28, 2026; page last modified Oct. 29, 2026; read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F9B7CZ8DG5FC19DRFZGQM0); direct fetch blocked by egress proxy",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "'What to do if wrong' and FAQ on denied claims: right to an internal appeal and an external review",
+          "quote": "if you disagree with the charges or want more information, you have the right to an appeal with your health insurance company. You have a right to both an “internal appeal” and an “external review” of the charges.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Itemized bill list item and FAQ (rewritten): if something does not look right, ask for an itemized list of charges",
+          "quote": "Second, check the charges. If something doesn't look right, ask for an itemized list of charges.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "'What to do if wrong' (new sentence replacing uncited 'common sign of a billing or coding error'): make sure the bill is accurately calculated and owed before paying",
+          "quote": "Make sure the provider accurately calculated the medical bill and that you owe it before you pay.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "Quote for the appeal-rights claim reads continuously on the rendered page; in the scraped markdown the words 'an appeal with your health insurance company' are a hyperlink."
+    },
+    {
+      "n": 3,
+      "kind": "agency_page",
+      "cited_as": "HealthCare.gov, Out-of-pocket maximum/limit",
+      "url": "https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/",
+      "record_title": "Out-of-pocket maximum/limit (HealthCare.gov glossary)",
+      "record_journal": "HealthCare.gov (CMS)",
+      "version_or_date": "undated glossary page, read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F9B7CZ8DG5FC19DRFZGQM0); direct fetch blocked by egress proxy",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Once deductible, copay and coinsurance spending reaches the out-of-pocket maximum, the plan pays 100% of covered in-network care for the rest of the plan year",
+          "quote": "The most you have to pay for covered services in a plan year. After you spend this amount on deductibles, copayments, and coinsurance for in-network care and services, your health plan pays 100% of the costs of covered benefits.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "In the scraped markdown, inline glossary pop-up definitions interrupt the sentence after 'deductibles', 'copayments' and 'coinsurance'; the quote is the sentence as it reads on the page."
+    },
+    {
+      "n": 4,
+      "kind": "agency_page",
+      "cited_as": "HealthCare.gov, Allowed amount",
+      "url": "https://www.healthcare.gov/glossary/allowed-amount/",
+      "record_title": "Allowed amount (HealthCare.gov glossary)",
+      "record_journal": "HealthCare.gov (CMS)",
+      "version_or_date": "undated glossary page, read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F9B7CZ8DG5FC19DRFZGQM0); direct fetch blocked by egress proxy",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference, added so the allowed-amount definitions say what the source says.",
+      "claims": [
+        {
+          "text": "Body and sample key 2 (rewritten): allowed amount is the maximum a plan will pay for a covered service, also called the negotiated rate",
+          "quote": "The maximum amount a plan will pay for a covered health care service. May also be called “eligible expense,” “payment allowance,” or “negotiated rate.”",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "agency_page",
+      "cited_as": "HealthCare.gov, Balance billing",
+      "url": "https://www.healthcare.gov/glossary/balance-billing/",
+      "record_title": "Balance billing (HealthCare.gov glossary)",
+      "record_journal": "HealthCare.gov (CMS)",
+      "version_or_date": "undated glossary page, read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F9B7CZ8DG5FC19DRFZGQM0); direct fetch blocked by egress proxy",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference, added to support the in-network balance-billing statement in the sample EOB key (previously uncited).",
+      "claims": [
+        {
+          "text": "Sample key 1 (rewritten): a preferred (in-network) provider may not bill you for the gap between charges and the allowed amount for covered services",
+          "quote": "When a provider bills you for the difference between the provider's charge and the allowed amount. ... A preferred provider may not balance bill you for covered services.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "agency_page",
+      "cited_as": "HealthCare.gov, Internal appeals",
+      "url": "https://www.healthcare.gov/appeal-insurance-company-decision/internal-appeals/",
+      "record_title": "Internal appeals (HealthCare.gov, Appealing a health plan decision)",
+      "record_journal": "HealthCare.gov (CMS)",
+      "version_or_date": "undated page, read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F9B7CZ8DG5FC19DRFZGQM0); direct fetch blocked by egress proxy",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference. The 180-day figure was cross-checked today against 29 CFR 2560.503-1(h)(3)(i) on eCFR (up to date as of 11/12/2026): 'Provide claimants at least 180 days following receipt of a notification of an adverse benefit determination within which to appeal the determination' (group health plans), which 45 CFR 147.136 builds on. eCFR read via Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F9D34V97JDR781G2S8MJD3); direct fetch blocked by egress proxy.",
+      "claims": [
+        {
+          "text": "Remark code paragraph: if the plan denies a claim, the insurer must notify you in writing and explain why",
+          "quote": "Your health plan denies the claim: Your insurer must notify you in writing and explain why",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "'What to do if wrong' and denied-claim FAQ: file an internal appeal within 180 days (6 months) of the denial notice; if still denied, file for external review",
+          "quote": "You must file your internal appeal within 180 days (6 months) of receiving notice that your claim was denied. ... If your insurance company still denies your claim, you can file for an external review.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQ 'Do I need to keep my EOBs?': keep copies of claim and denial information, including EOBs showing what was denied",
+          "quote": "Keep copies of all information related to your claim and the denial. ... The Explanation of Benefits forms or letters showing what payment or services were denied",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "agency_page",
+      "cited_as": "eCFR, 45 CFR 147.136, Internal claims and appeals and external review processes",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-147/section-147.136",
+      "record_title": "45 CFR 147.136 -- Internal claims and appeals and external review processes",
+      "record_journal": "Electronic Code of Federal Regulations (eCFR)",
+      "version_or_date": "eCFR title 45 up to date as of 11/12/2026 (last amended 11/05/2026); read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0, run 01M7F9D34V97JDR781G2S8MJD3); direct fetch blocked by egress proxy",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference (primary regulation for the ACA internal appeal and external review rights). The same notice text appears for group health plans in (b)(2)(ii)(E) and for individual coverage in (b)(3)(ii)(E).",
+      "claims": [
+        {
+          "text": "Remark code paragraph: under federal rules for group health plans and insurers, the denial reason must include the denial code and its meaning",
+          "quote": "The plan and issuer must ensure that the reason or reasons for the adverse benefit determination or final internal adverse benefit determination includes the denial code and its corresponding meaning",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Remark code paragraph: the notice must explain how to start an appeal",
+          "quote": "The plan and issuer must provide a description of available internal appeals and external review processes, including information regarding how to initiate an appeal.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "'What to do if wrong': these federal appeal rules generally do not apply to grandfathered health plans",
+          "quote": "The provisions of this section generally do not apply to coverage offered by health insurance issuers and group health plans that are grandfathered health plans",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}
