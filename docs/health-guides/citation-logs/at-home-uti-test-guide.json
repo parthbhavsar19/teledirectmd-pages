@@ -767,6 +767,37 @@
           "verdict": "supported"
         }
       ]
+    },
+    {
+      "n": 19,
+      "kind": "journal",
+      "cited_as": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12020306/",
+      "pmid": "12020306",
+      "doi": "10.1001/jama.287.20.2701",
+      "record_title": "Does this woman have an acute uncomplicated urinary tract infection?",
+      "record_journal": "JAMA",
+      "record_year": "2002",
+      "article_type": "Journal Article; Review",
+      "version_or_date": "2002;287(20):2701-2710",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "Scite verify_papers quota exhausted until 2026-12-14; PubMed article types checked, no retraction. Post-test probabilities on the page are labeled as our own calculation from Little 2010 [3] sensitivity 75% and specificity 66%.",
+      "claims": [
+        {
+          "text": "pre-test probability about 50% with 1+ symptoms; specific combinations raise it above 90%",
+          "quote": "In women who present with 1 or more symptoms of UTI, the probability of infection is approximately 50%. Specific combinations of symptoms (eg, dysuria and frequency without vaginal discharge or irritation) raise the probability of UTI to more than 90%",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "dipstick cannot reliably rule out UTI in symptomatic women",
+          "quote": "history taking, physical examination, and dipstick urinalysis are not able to reliably lower the posttest probability of disease to a level where a UTI can be ruled out when a patient presents with 1 or more symptoms.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
     }
   ]
 }
