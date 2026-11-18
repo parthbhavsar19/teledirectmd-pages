@@ -1,0 +1,502 @@
+{
+ "guide": "bixonimania-fake-disease-ai-experiment",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 11 verified (10.1038/d41586-026-01100-y, 10.7759/cureus.r223, 10.7759/cureus.74625, 10.1016/s0140-6736(26)00603-3, 10.1016/j.landig.2025.100949, 10.1038/s41598-023-41032-5, 10.2196/54345, 10.2196/53164, 10.1038/s43856-025-01021-3, and the two bixonimania preprints 10.20944/preprints202404.1687.v1 and 10.20944/preprints202405.0217.v1), retractions: 10.7759/cureus.74625 (retracted 2026-03-30, cut and replaced by its retraction notice); both bixonimania preprints flagged retracted/withdrawn 2026-04-10 (not cited). Erratum on the Lancet letter (10.1016/s0140-6736(26)01339-5, 2026-07-18). One potential contrasting citation flagged for 10.1038/s41598-023-41032-5 (see ref 9 notes). PubMed article types: 39735093 'Retracted Publication'; 41918547 'Retraction Notice'; all other cited PubMed records 'Journal Article' or 'Letter'.",
+ "sources_note": "No peer-reviewed paper or written first-person account by the experimenter describing the chatbot tests was found (searched Scite by term 'bixonimania' and by author Osmanovic Thunström, PubMed, and web search on 2026-11-15). The primary artifacts (the two Preprints.org preprints, posted 2024-04-26 and 2024-05-06, withdrawn 2026-04-10 'due to fabricated and non-authentic content') were read via Scite read_fulltext and WebFetch but are not cited because they carry withdrawal/retraction notices. Nature news (ref 1) is paywalled. Chatbot-answer claims rest on Smithsonian and Futurism, which share Nature as their upstream (counted as one source).",
+ "references": [
+  {
+   "n": 1,
+   "kind": "journal",
+   "cited_as": "Stokel-Walker C. Scientists invented a fake disease. AI told people it was real. Nature. 2026 Apr 7;652(8110):559-561. News article.",
+   "url": "https://www.nature.com/articles/d41586-026-01100-y",
+   "doi": "10.1038/d41586-026-01100-y",
+   "record_title": "Scientists invented a fake disease. AI told people it was real",
+   "record_journal": "Nature",
+   "record_year": "2026",
+   "article_type": "News (Nature news section)",
+   "version_or_date": "2026-04-07 (Scite record)",
+   "retrieved_with": "Scite search_literature (metadata) and verify_papers; Scite read not attempted beyond metadata (contentDenied/restricted); WebFetch of nature.com failed (client_error). Paywalled; not routed around (a third-party reader mirror appeared in search results and was not used).",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Cited only for its existence, author, title and date. Article body not read, so no chatbot answer, quote or date on the page rests on it. Old page cited it for most claims (Copilot/Gemini dates 'April 13, 2024', ChatGPT 'March 11, 2026', a 'periorbital melanosis subtype' answer, a Ruani 'we're doomed' quote, an Omar quote); those are now cited to readable sources or cut.",
+   "claims": [
+    {
+     "text": "Nature news article by Chris Stokel-Walker published April 7, 2026 describes the experiment; behind a paywall",
+     "quote": "Scientists invented a fake disease. AI told people it was real [authors: Chris Stokel-Walker; journal: nature; date: 2026-04-07; volume 652, issue 8110, page 559-561; fulltextStatus: restricted]",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "other_web",
+   "cited_as": "Scientists Invented a Disease to Test Whether A.I. Knew It Was Fake. Then, Chatbots Started Saying It Was Real. Smithsonian Magazine, Smart News. Accessed November 15, 2026.",
+   "url": "https://www.smithsonianmag.com/smart-news/scientists-invented-a-disease-to-test-whether-ai-knew-it-was-fake-then-chatbots-started-saying-it-was-real-180988924/",
+   "version_or_date": "No byline or publication date in retrieved page text; accessed 2026-11-15",
+   "retrieved_with": "WebFetch (four targeted passes for exact quotes); direct download blocked by the session proxy (not routed around)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Secondary news report that credits Nature for the ChatGPT finding. Old reference listed 'Bassi M' and 'June 11, 2026'; neither appeared in the retrieved text, so both were removed. Old page said the 'tabloids' quote was told to Smithsonian in June 2026; Smithsonian attributes that quote to the Science Quickly podcast (now ref 4). Smithsonian does not mention an ophthalmologist, Starfleet Academy, Fellowship of the Ring, Sideshow Bob, Asteria Horizon University or Perplexity.",
+   "claims": [
+    {
+     "text": "Osmanovic Thunström is a medical researcher at the University of Gothenburg in Sweden",
+     "quote": "a medical researcher at the University of Gothenburg in Sweden",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "team invented a disease to test whether AI chatbots would know it was fake",
+     "quote": "Scientists Invented a Disease to Test Whether A.I. Knew It Was Fake. Then, Chatbots Started Saying It Was Real",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "team began circulating information in early 2024",
+     "quote": "The team began to circulate information on bixonimania in early 2024.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "symptoms such as sore, itchy eyes and pink eyelids",
+     "quote": "if you had described symptoms like sore, itchy eyes and pink eyelids to ChatGPT",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "lead author Lazljiv Izgubljenovic, translates to 'lying loser'",
+     "quote": "The papers’ lead author was named Lazljiv Izgubljenovic—which translates to “lying loser”",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "two blog posts on Medium",
+     "quote": "They put out two blog posts on the website Medium",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "two reports on a preprint server, since taken down",
+     "quote": "Both reports have since been taken down by the preprint server.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Copilot in April 2024: 'an intriguing and relatively rare condition'",
+     "quote": "In April 2024, Microsoft Bing’s Copilot said that “Bixonimania is indeed an intriguing and relatively rare condition,”",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Gemini: 'a condition caused by excessive exposure to blue light' (no separate date)",
+     "quote": "Google’s Gemini explained that “Bixonimania is a condition caused by excessive exposure to blue light,”",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "ChatGPT told users whether their symptoms might mean they had the illness, according to Nature",
+     "quote": "OpenAI’s ChatGPT told users whether their symptoms might mean they had the illness, according to Nature.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "papers thanked Professor Ross Geller (and Starship Enterprise colleagues)",
+     "quote": "appreciation of colleagues at the Starship Enterprise and Professor Ross Geller",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "one paper stated 'This entire paper is made up.'",
+     "quote": "This entire paper is made up.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Alex Ruani, misinformation researcher at UCL: 'a master class on how mis- and disinformation operates'",
+     "quote": "This is a master class on how mis- and disinformation operates, ... a misinformation researcher at University College London",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "other_web",
+   "cited_as": "Tangermann V. Researchers Invented a Fake Disease to Trick AI and the Funniest Possible Thing Happened. Futurism. April 19, 2026.",
+   "url": "https://futurism.com/future-society/fake-disease-trick-ai",
+   "version_or_date": "2026-04-19",
+   "retrieved_with": "WebFetch (three targeted passes)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source. Secondary report that relays Nature ('As Nature reports'); same upstream as ref 2, so the two are not independent confirmation. Does not state model versions. Gives no calendar date for ChatGPT's 2026 answers ('last month' in an April 19 article), so the old 'March 11, 2026' date was removed. Does not contain the old 'proposed new subtype of periorbital melanosis' ChatGPT quote, which was cut.",
+   "claims": [
+    {
+     "text": "two fake studies uploaded to a preprint server, since taken down",
+     "quote": "As Nature reports, the team uploaded two fake studies (both since been taken down) about the condition to a preprint server",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "within weeks, Gemini and ChatGPT began describing it as real",
+     "quote": "Within just weeks of uploading the fake studies, frontier AI models including Google's Gemini and OpenAI's ChatGPT started talking about bixonimania as if it were real.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "ChatGPT told Nature 'last month' it is 'probably a made-up, fringe, or pseudoscientific label', then 'changed its mind when asked just a few days later'",
+     "quote": "informing Nature last month that the condition \"is probably a made-up, fringe, or pseudoscientific label\" ... it changed its mind when asked just a few days later, saying the disease was real.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Perplexity's AI search engine listed among chatbots that became convinced",
+     "quote": "AI chatbots including Microsoft's Bing Copilot, Google's Gemini, and Perplexity's AI search engine became convinced",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "other_web",
+   "cited_as": "Feltman R (host), Osmanovic Thunström A (guest). This researcher made up a disease to test AI. It failed miserably. Science Quickly podcast, Scientific American. Accessed November 15, 2026.",
+   "url": "https://www.scientificamerican.com/podcast/episode/bixonimania-the-fake-illness-that-ai-fell-for/",
+   "version_or_date": "No publication date in retrieved page text; accessed 2026-11-15",
+   "retrieved_with": "WebFetch of episode page and transcript (three targeted passes)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source: the experimenter's own spoken account, the most primary readable source found. She does not name the chatbots or model versions in the passages read, and gives no test dates. Says 'Starship Enterprise', not 'Starfleet Academy'; 'Sideshow Bob Foundation' with no 'Professor' or 'advanced trickery' (both removed).",
+   "claims": [
+    {
+     "text": "she had to create a fake university and a fake researcher",
+     "quote": "I knew that I had to create, to start off with, a fake university. ... I knew I had to create a researcher",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "funding from Sideshow Bob Foundation; funded by the Galactic Triad and Lord of the Rings; thanks to colleagues on the Starship Enterprise",
+     "quote": "the funding from Sideshow Bob Foundation ... funded by the Galactic Triad and Lord of the Rings ... We thank our fellow colleagues on the Starship Enterprise",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Common Crawl described as a nonprofit organization that crawls the Internet",
+     "quote": "is Common Crawl. It is a nonprofit organization that crawls the Internet",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "preprints are 'academia's sort of tabloids'",
+     "quote": "I didn’t think that preprints, which are academia’s sort of tabloids",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "example question and that chatbots would list other conditions and end up at bixonimania",
+     "quote": "So if you describe, “Yeah, I have red eyelids, pink-hued eyelids. What could it be?” ... and then it would put a lot of other conditions, like in—hyperpigmentation, and then eventually end up in bixonimania.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "her advice: be more careful using commercial LLMs for health information",
+     "quote": "I think it’s that we should be more careful when using commercial large language models for health information",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Retraction notice: Clinical and Dermoscopic Evaluation of Periorbital Melanosis and Its Psychological Impact and Effect on Quality of Life: A Descriptive Study. Cureus. 2026;18(3):r223. Retracts Banchhor S, Gupta S, Mahendra A. Cureus. 2024;16(11):e74625.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41918547/",
+   "pmid": "41918547",
+   "pmcid": "PMC13035006",
+   "doi": "10.7759/cureus.r223",
+   "record_title": "Retraction: Clinical and Dermoscopic Evaluation of Periorbital Melanosis and Its Psychological Impact and Effect on Quality of Life: A Descriptive Study.",
+   "record_journal": "Cureus",
+   "record_year": "2026",
+   "article_type": "Retraction Notice",
+   "version_or_date": "2026-03-30",
+   "retrieved_with": "PubMed search_articles, get_article_metadata, get_full_text_article (PMC13035006); PubMed get_article_metadata and get_full_text_article for the retracted article (PMID 39735093, PMC11681967); Scite verify_papers on both DOIs",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces old ref 3, which linked the retracted article itself (PMID 39735093, PubMed type 'Retracted Publication'; Scite: Retracted 2026-03-30, notice 10.7759/cureus.r223). The brief requires cutting retracted sources, so the page now cites the retraction notice (which is not itself retracted). The one quoted sentence from the retracted article is shown as the object of the story, not as evidence; it was copied from PMC11681967 this run. Its in-text citation bracket is empty in the PMC text, so the page no longer says the paper 'cited one of the fake preprints'; it uses the notice's wording ('one reference to a fictitious disease'). 'Published by Springer Nature' cut (not in retrieved text). Affiliations from PubMed record.",
+   "claims": [
+    {
+     "text": "2024 Cureus study of periorbital melanosis by authors from the dermatology department of MMIMSR, Mullana, India",
+     "quote": "Retraction: Clinical and Dermoscopic Evaluation of Periorbital Melanosis ... [This retracts the article DOI: 10.7759/cureus.74625.] Affiliations: Dermatology, Maharishi Markandeshwar Institute of Medical Sciences and Research, Mullana, IND.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "the retracted article's discussion: 'Bixonimania is an emerging form of POM linked to blue light exposure; further research on the mechanism is underway.' (quoted from the retracted article PMC11681967)",
+     "quote": "Bixonimania is an emerging form of POM linked to blue light exposure; further research on the mechanism is underway []",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "retracted March 30, 2026 for three irrelevant references incl. one to a fictitious disease; full notice text quoted",
+     "quote": "This article has been retracted by the Editor-in-Chief due to the presence of three irrelevant references, including one reference to a fictitious disease.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "authors disagree with the retraction",
+     "quote": "The authors disagree with the decision to retract.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Topaz M, Roguin N, Gupta P, Zhang Z, Peltonen LM. Fabricated citations: an audit across 2·5 million biomedical papers [letter]. Lancet. 2026;407(10541):1779-1781.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42107362/",
+   "pmid": "42107362",
+   "doi": "10.1016/S0140-6736(26)00603-3",
+   "record_title": "Fabricated citations: an audit across 2·5 million biomedical papers.",
+   "record_journal": "Lancet",
+   "record_year": "2026",
+   "article_type": "Letter",
+   "version_or_date": "2026-05-09",
+   "retrieved_with": "PubMed get_article_metadata (no abstract); Scite verify_papers; Scite read_fulltext (contentDenied; returned erratum notice); old thelancet.com link was blocked in the Nov 6 audit and was replaced by the PubMed record",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [
+    "Erratum (has erratum): doi 10.1016/s0140-6736(26)01339-5, dated 2026-07-18 per Scite; text not readable this run"
+   ],
+   "notes": "Letter text unreadable, so only its existence, type, date, authors and title are cited to it, plus the existence of the July 2026 correction. Audit figures are cited to Retraction Watch (ref 7), which predates the correction. Old reference lumped the Lancet link and Retraction Watch in one list item; they are now separate refs.",
+   "claims": [
+    {
+     "text": "May 2026 Lancet letter by Topaz and colleagues reporting an audit of fabricated citations across about 2.5 million biomedical papers",
+     "quote": "Fabricated citations: an audit across 2·5 million biomedical papers. [Article type: Letter; Lancet 2026 May 9; 407(10541):1779-1781; first author Topaz M]",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "a correction to the letter was published in July 2026",
+     "quote": "editorialNotices: status \"has erratum\", noticeDoi 10.1016/s0140-6736(26)01339-5, date 2026-7-18",
+     "quote_source": "registry",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "other_web",
+   "cited_as": "Orrall A. One in 277 PubMed-indexed papers in 2026 shows fabricated references, says analysis. Retraction Watch. May 7, 2026.",
+   "url": "https://retractionwatch.com/2026/05/07/one-in-277-pubmed-indexed-papers-in-2026-shows-fabricated-references-says-analysis/",
+   "version_or_date": "Posted 2026-05-07; page metadata shows a modification on 2026-09-24 with no visible update note",
+   "retrieved_with": "WebFetch (three passes)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "News report on the Lancet letter. Corrects two overstatements on the old page: '12-fold increase over three years' -> RW's '12-fold in two years'; '98.4% had no publisher correction or retraction' -> RW's 'over 98%' with 'no publisher action'. RW does not mention the July 2026 correction.",
+   "claims": [
+    {
+     "text": "audit of nearly 2.5 million papers; 4,046 fabricated references in 2,810 papers",
+     "quote": "an audit of nearly 2.5 million papers published ... identified 4,046 “fabricated” references that appeared in a total of 2,810 papers",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "1 in 2,828 (2023), 1 in 458 (2025), about 1 in 277 in first seven weeks of 2026",
+     "quote": "about one in 277 ... published in the first seven weeks of 2026 ... That was a jump from 2025’s rate of one in 458 and 2023’s one in 2,828.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "12-fold increase in two years",
+     "quote": "Fabricated citations in the biomedical literature have increased 12-fold in two years",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "sharpest rise mid-2024, coinciding with the rise of AI writing tools",
+     "quote": "in mid-2024 ... which they note coincided with the rise of AI writing tools",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "over 98% had seen no publisher action at the time of the audit",
+     "quote": "over 98% ... no publisher action",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "Omar M, Sorin V, Wieler LH, et al. Mapping the susceptibility of large language models to medical misinformation across clinical notes and social media: a cross-sectional benchmarking analysis. Lancet Digit Health. 2026;8(1):100949.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41672646/",
+   "pmid": "41672646",
+   "doi": "10.1016/j.landig.2025.100949",
+   "record_title": "Mapping the susceptibility of large language models to medical misinformation across clinical notes and social media: a cross-sectional benchmarking analysis.",
+   "record_journal": "Lancet Digit Health",
+   "record_year": "2026",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract, affiliations); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract-only; claims limited to the abstract. Corrections: team was at Mount Sinai/Icahn and Mayo Clinic (not Harvard); hospital notes and social-media posts were different corpora, not 'the same content'; the old example 'a senior clinician with 20 years of experience endorses this' is an appeal to authority, which the study found INCREASED susceptibility (34.6%), the opposite of what the old page said; 'just 12%' -> 11.9%; the quoted conclusion did not mention human oversight. The Omar quote attributed to Nature was cut (unreadable). Scite: no notices, no contrasting evidence.",
+   "claims": [
+    {
+     "text": "20 LLMs probed with more than 3.4 million prompts from three misinformation sources",
+     "quote": "we probed 20 LLMs with more than 3·4 million prompts that all contained health misinformation drawn from three sources: public-forum and social-media dialogues, real hospital discharge notes in which we inserted a single false recommendation, and 300 physician-validated simulated vignettes",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "31.7% overall susceptibility on base prompts",
+     "quote": "LLMs were susceptible to fabricated data in 50 108 (31·7%) of 158 000 base prompts",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "hospital notes 46.1% vs social media 8.9%",
+     "quote": "Real hospital notes (with fabricated inserted elements) produced the highest susceptibility to the base prompt (46 108 [46·1%] of 100 000), whereas social-media misinformation showed lower base prompt susceptibility (2479 [8·9%] of 28 000)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "authors' conclusion about authoritative clinical prose",
+     "quote": "LLMs still absorb harmful medical fabrications, especially when phrased in authoritative clinical prose",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "eight of ten fallacy framings reduced or did not change; popularity 11.9%; slippery slope 33.9% and authority 34.6% increased",
+     "quote": "Eight of ten fallacy framings significantly reduced or did not change that rate, led by appeal to popularity (susceptibility 11·9% ...); only the slippery-slope prompt (33·9% ...) and the appeal-to-authority prompt (34·6% ...) increased it",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "GPT models least susceptible; Gemma-3-4B-it 63.6%",
+     "quote": "GPT models were the least susceptible and most accurate at fallacy detection, whereas others, such as Gemma-3-4B-it, showed 63·6% (5023 of 7900) susceptibility",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "safety depends less on model scale and more on fact-grounding and context-aware guardrails",
+     "quote": "improving safety appears to depend less on model scale and more on fact-grounding and context-aware guardrails",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "authors at Mount Sinai Health System, Icahn School of Medicine, Mayo Clinic",
+     "quote": "The Windreich Department of Artificial Intelligence and Human Health, Mount Sinai Health System, New York ... Department of Radiology, Mayo Clinic, Rochester ... Icahn School of Medicine at Mount Sinai",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Walters WH, Wilder EI. Fabrication and errors in the bibliographic citations generated by ChatGPT. Sci Rep. 2023;13(1):14045.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10484980/",
+   "pmid": "37679503",
+   "pmcid": "PMC10484980",
+   "doi": "10.1038/s41598-023-41032-5",
+   "record_title": "Fabrication and errors in the bibliographic citations generated by ChatGPT.",
+   "record_journal": "Sci Rep",
+   "record_year": "2023",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata; Scite search_literature (metadata); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite flagged one potential contrasting citation (10.1055/s-0045-1809617) saying its findings contradicted earlier studies in which GPT-4 outperformed GPT-3.5; the page limits the GPT-4 vs GPT-3.5 comparison to this study and notes newer versions may differ. 'In most tested models' generalization (18-55%) narrowed to 'in one 2023 study'.",
+   "claims": [
+    {
+     "text": "GPT-3.5 55% and GPT-4 18% of citations fabricated; 42 multidisciplinary topics",
+     "quote": "We used ChatGPT-3.5 and ChatGPT-4 to produce short literature reviews on 42 multidisciplinary topics ... 55% of the GPT-3.5 citations but just 18% of the GPT-4 citations are fabricated.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "GPT-4 a major improvement but problems remain; neither at zero",
+     "quote": "Although GPT-4 is a major improvement over GPT-3.5, problems remain.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Aljamaan F, Temsah MH, Altamimi I, et al. Reference Hallucination Score for Medical Artificial Intelligence Chatbots: Development and Usability Study. JMIR Med Inform. 2024;12:e54345.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39083799/",
+   "pmid": "39083799",
+   "pmcid": "PMC11325115",
+   "doi": "10.2196/54345",
+   "record_title": "Reference Hallucination Score for Medical Artificial Intelligence Chatbots: Development and Usability Study.",
+   "record_journal": "JMIR Med Inform",
+   "record_year": "2024",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Printed first author was wrong ('Lamiaa A'); corrected to Aljamaan F from PubMed; title completed; link changed to the PubMed record. Old table attributed a Bard 91% figure to 'Chelli et al.' under this ref number; that figure is from a different paper (now ref 11). Added a table row for this study's own results.",
+   "claims": [
+    {
+     "text": "six chatbots, 10 medical prompts, 10 references each; RHS 11 for ChatGPT 3.5 and Bing, 1 for Elicit and SciSpace; Bard generated none (table, intro sentence)",
+     "quote": "Six AI chatbots were challenged with the same 10 medical prompts, requesting 10 references per prompt. ... Bard failed to generate any references. ChatGPT 3.5 and Bing generated the highest RHS (score=11), while Elicit and SciSpace generated the lowest RHS (score=1)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "journal",
+   "cited_as": "Chelli M, Descamps J, Lavoué V, et al. Hallucination Rates and Reference Accuracy of ChatGPT and Bard for Systematic Reviews: Comparative Analysis. J Med Internet Res. 2024;26:e53164.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38776130/",
+   "pmid": "38776130",
+   "pmcid": "PMC11153973",
+   "doi": "10.2196/53164",
+   "record_title": "Hallucination Rates and Reference Accuracy of ChatGPT and Bard for Systematic Reviews: Comparative Analysis.",
+   "record_journal": "J Med Internet Res",
+   "record_year": "2024",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed search_articles; PubMed get_article_metadata; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New reference. The old table cited 'Chelli et al., JMIR Med Inform 2024 [7]' but ref 7 was the Aljamaan paper; Chelli is in J Med Internet Res. '91%' -> 91.4%; 'medical systematic reviews' -> shoulder rotator cuff systematic reviews. Hallucination defined as any 2 of title, first author, year wrong.",
+   "claims": [
+    {
+     "text": "Bard 91.4% hallucinated; replicating 11 rotator cuff systematic reviews; retrieved no relevant papers; Bard later rebranded Gemini",
+     "quote": "Bard (subsequently rebranded Gemini) ... systematic reviews pertaining to shoulder rotator cuff pathology ... 11 systematic reviews ... Bard failing to retrieve any relevant papers ... 91.4% (95/104) for Bard",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "journal",
+   "cited_as": "Omar M, Sorin V, Collins JD, et al. Multi-model assurance analysis showing large language models are highly vulnerable to adversarial hallucination attacks during clinical decision support. Commun Med (Lond). 2025;5(1):330.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12318031/",
+   "pmid": "40753316",
+   "pmcid": "PMC12318031",
+   "doi": "10.1038/s43856-025-01021-3",
+   "record_title": "Multi-model assurance analysis showing large language models are highly vulnerable to adversarial hallucination attacks during clinical decision support.",
+   "record_journal": "Commun Med (Lond)",
+   "record_year": "2025",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Old table said '50-83%'; abstract says 50% to 82%. Volume/article number added from PubMed.",
+   "claims": [
+    {
+     "text": "six LLMs; 300 vignettes each with one fabricated detail; hallucination = elaborating on it; rates 50% to 82%",
+     "quote": "We created 300 physician-validated simulated vignettes, each containing one fabricated detail ... We tested six LLMs ... If a model elaborated on the fabricated detail, the case was classified as a \"hallucination\". Hallucination rates range from 50 % to 82 %",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}
