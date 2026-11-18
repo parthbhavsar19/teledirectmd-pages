@@ -1,0 +1,889 @@
+{
+ "guide": "managing-blood-pressure-mobile-workers",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 9 verified, retractions: none (no editorial notices; 5 contrasting-evidence flags reviewed, none bear on the cited claims)",
+ "pubmed_retraction_check": "PubMed article types checked for all 9 journal records; none is Retracted Publication or Retraction Notice",
+ "guideline_note": "Cites the 2025 AHA/ACC guideline (PMID 40811516, verified on PubMed). Its body was not retrievable (ahajournals.org client error), so its recommendations are cited through ref 7 (PMC full text) and the AHA page (ref 8). The 2017 guideline is no longer cited.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "Jones DW, Ferdinand KC, Taler SJ, et al. 2025 AHA/ACC/AANP/AAPA/ABC/ACCP/ACPM/AGS/AMA/ASPC/NMA/PCNA/SGIM Guideline for the Prevention, Detection, Evaluation and Management of High Blood Pressure in Adults: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Hypertension. 2025;82(10):e212-e316. doi:10.1161/HYP.0000000000000249",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40811516/",
+   "pmid": "40811516",
+   "doi": "10.1161/HYP.0000000000000249",
+   "record_title": "2025 AHA/ACC/AANP/AAPA/ABC/ACCP/ACPM/AGS/AMA/ASPC/NMA/PCNA/SGIM Guideline for the Prevention, Detection, Evaluation and Management of High Blood Pressure in Adults: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines.",
+   "record_journal": "Hypertension",
+   "record_year": "2025",
+   "article_type": "Journal Article; Practice Guideline; Review (PubMed)",
+   "version_or_date": "2025 guideline, published 2025-08-14; Hypertension 82(10):e212-e316",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types); Scite verify_papers; convert_article_ids (no PMCID); WebFetch of ahajournals.org full text returned a client error (not routed around)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract is scope-only; the guideline body could not be read this run. Thresholds, goals and drug-class content are cited to ref 7 (PMC full text written by the guideline chair and co-authors) and ref 8 (AHA page). Replaces the 2017 ACC/AHA guideline (old ref 1), which this record says it retires.",
+   "claims": [
+    {
+     "text": "2025 AHA/ACC guideline retires and replaces the 2017 ACC/AHA guideline",
+     "quote": "retires and replaces the \"2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults.\"",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "guideline",
+   "cited_as": "Federal Motor Carrier Safety Administration. Medical Examiner's Handbook, 2024 Edition. U.S. Department of Transportation; January 2024. Accessed November 15, 2026.",
+   "url": "https://www.fmcsa.dot.gov/sites/fmcsa.dot.gov/files/2024-01/Medical%20Examiner's%20Handbook%202024%20Edition_0.pdf",
+   "version_or_date": "Medical Examiner's Handbook, 2024 Edition (FMCSA-MED-MEH, January 2024); replaces all previous editions",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction); PDF read in two parts (offset 100000)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "FMCSA medical certification generally lasts at most 24 months",
+     "quote": "Generally, individuals may be medically certified for a maximum of 24 months.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hypertension alone is unlikely to interfere with safe driving (key takeaway)",
+     "quote": "Hypertension alone is unlikely to interfere with the ability to operate a commercial motor vehicle safely",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Stage 1 (140-159/90-99): 1-year certification; annual exams thereafter at or below 140/90",
+     "quote": "Stage 1 hypertension corresponds to a systolic blood pressure of 140−159 mmHg ... may be medically certified to drive for a 1-year period. ... Certification examinations should be done annually thereafter and should be at or less than 140/90.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Stage 2 (160-179/100-109): one-time 3-month certification to start or adjust treatment; then 1 year at 140/90 or less",
+     "quote": "160−179 systolic and/or 100−109 diastolic is considered Stage 2 ... may be given a one-time certification of 3 months to initiate or adjust antihypertensive drug therapy ... 140/90 or less, ... may be certified for 1 year.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Stage 3 (180/110 or higher): not certified until 140/90 or less and treatment tolerated; then every 6 months; high risk of acute BP-related event",
+     "quote": "at or greater than 180 (systolic) and 110 (diastolic) is considered Stage 3 ... high risk for an acute blood pressure-related event ... should not be qualified, even for a short period, ... until ... reduced to 140/90 or less",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Stage 3 then certified every 6 months (table, FAQ)",
+     "quote": "The individual may be certified for 6 months and biannually (every 6 months) thereafter",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most BP medicines can have side effects such as somnolence or syncope",
+     "quote": "Most antihypertensive medications also have side effects, such as somnolence or syncope.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "Apostolopoulos Y, Sönmez S, Shattell MM, Gonzales C, Fehrenbacher C. Health survey of U.S. long-haul truck drivers: work environment, physical health, and healthcare access. Work. 2013;46(1):113-123. doi:10.3233/WOR-121553",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23324711/",
+   "pmid": "23324711",
+   "doi": "10.3233/WOR-121553",
+   "record_title": "Health survey of U.S. long-haul truck drivers: work environment, physical health, and healthcare access.",
+   "record_journal": "Work",
+   "record_year": "2013",
+   "article_type": "Journal Article (cross-sectional survey, n=316)",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Author list corrected to the five PubMed authors. The 3.5 million driver count previously placed in the same sentence is not in this source and was cut.",
+   "claims": [
+    {
+     "text": "Survey of 316 long-haul drivers: 83.4% overweight/obese, about 40% cardiovascular disease concerns",
+     "quote": "83.4% were overweight/obese, 57.9% had sleeping disturbances, 56.3% fatigue, 42.3% musculoskeletal disorders, and about 40% cardiovascular disease concerns",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "agency_page",
+   "cited_as": "U.S. Food and Drug Administration. Sodium in Your Diet. Content current as of March 5, 2024. Accessed November 15, 2026.",
+   "url": "https://www.fda.gov/food/nutrition-education-resources-materials/sodium-your-diet",
+   "version_or_date": "Content current as of 03/05/2024",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces old ref 4 (CDC Facts About Hypertension), which did not mention sodium.",
+   "claims": [
+    {
+     "text": "Average U.S. sodium intake about 3,400 mg/day",
+     "quote": "Americans eat on average about 3,400 mg of sodium per day.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Over 70% of sodium from packaged and prepared foods",
+     "quote": "most dietary sodium (over 70%) comes from eating packaged and prepared foods",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Deli meat sandwiches, pizza, soups and burgers are among top sodium sources",
+     "quote": "about 40% of the sodium consumed by Americans comes from the following foods ... Deli meat sandwiches ... Pizza ... Soups ... Burgers",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "At restaurants ask for sauces/dressings on the side and meal without added salt",
+     "quote": "Ask for your meal to be prepared without table salt ... request that sauces and salad dressings be served 'on the side.'",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Gangwisch JE. A review of evidence for the link between sleep duration and hypertension. Am J Hypertens. 2014;27(10):1235-1242. doi:10.1093/ajh/hpu071",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24778107/",
+   "pmid": "24778107",
+   "pmcid": "PMC4229731",
+   "doi": "10.1093/ajh/hpu071",
+   "record_title": "A review of evidence for the link between sleep duration and hypertension.",
+   "record_journal": "Am J Hypertens",
+   "record_year": "2014",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Now cited only for sleep-duration statements; the \"occupational stress is an independent risk factor\" and \"harder to control\" claims were removed (not in source).",
+   "claims": [
+    {
+     "text": "Short sleep linked to higher BP/hypertension in cross-sectional and longitudinal studies; experimental sleep restriction raises BP",
+     "quote": "Experimental sleep restriction has been shown to raise blood pressure and heart rate. ... Short sleep duration has been found to be associated with higher blood pressure and hypertension in both cross-sectional and longitudinal epidemiological studies.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Chronic insufficient sleep can raise average 24-hour BP",
+     "quote": "Insufficient sleep on a chronic basis can raise average 24-hour blood pressure",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Pedrosa RP, Drager LF, Gonzaga CC, et al. Obstructive sleep apnea: the most common secondary cause of hypertension associated with resistant hypertension. Hypertension. 2011;58(5):811-817. doi:10.1161/HYPERTENSIONAHA.111.179788",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21968750/",
+   "pmid": "21968750",
+   "doi": "10.1161/HYPERTENSIONAHA.111.179788",
+   "record_title": "Obstructive sleep apnea: the most common secondary cause of hypertension associated with resistant hypertension.",
+   "record_journal": "Hypertension",
+   "record_year": "2011",
+   "article_type": "Comparative Study; Journal Article",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Brazilian cohort of 125 patients with resistant hypertension; nothing about truck drivers, so the page no longer attributes driver prevalence to it. Scite flagged one contrasting citation about snoring prevalence; not relevant to the claim cited.",
+   "claims": [
+    {
+     "text": "In 125 patients with resistant hypertension, OSA was the most common associated condition (64%)",
+     "quote": "Among 125 patients ... obstructive sleep apnea (apnea-hypopnea index: >15 events per hour) was the most common condition associated with resistant hypertension (64.0%)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Cameron NA, Jones DW, Khan SS, Lloyd-Jones DM. Case-based applications of the 2025 AHA/ACC/multispecialty high blood pressure guideline. Hypertension. 2025;82(12):2055-2063. doi:10.1161/HYPERTENSIONAHA.125.25913",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12617343/",
+   "pmid": "41204807",
+   "pmcid": "PMC12617343",
+   "doi": "10.1161/HYPERTENSIONAHA.125.25913",
+   "record_title": "Case-Based Applications of the 2025 AHA/ACC/Multispecialty High Blood Pressure Guideline.",
+   "record_journal": "Hypertension",
+   "record_year": "2025",
+   "article_type": "Journal Article (Special Article; authors include guideline chair Daniel W. Jones)",
+   "retrieved_with": "PubMed connector get_full_text_article (PMC full text) + get_article_metadata; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Secondary source for 2025 guideline content because the guideline body (ref 1) could not be retrieved. Statements match the guideline recommendations as quoted with class/level of evidence in this article.",
+   "claims": [
+    {
+     "text": "2025 guideline defines hypertension as 130/80 or higher",
+     "quote": "In the US, hypertension is defined as systolic blood pressure [BP] ≥130 mm Hg or diastolic BP ≥80 mm Hg in non-pregnant adults or receiving antihypertensive drug therapy",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Medication now for stage 1 with clinical CVD, CKD, diabetes or PREVENT 10-year risk >=7.5%",
+     "quote": "This includes individuals with a history of clinical CVD (coronary heart disease, stroke and heart failure), chronic kidney disease, diabetes, or an estimated 10-year CVD risk ≥ 7.5% using the PREVENT-CVD equations (COR 1/ LOE A).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Stage 1 low risk: start medication if BP stays >=130/80 after 3 to 6 months of lifestyle",
+     "quote": "initiation of antihypertensive therapy among adults who have stage 1 hypertension and low 10-year CVD risk (< 7.5%) if average BPs remain ≥ 130/80 mmHg after 3 to 6 months of a lifestyle intervention",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Stage 2 (and some high-risk stage 1): two medicines from different classes, ideally single pill",
+     "quote": "For those with stage 2 hypertension and for some high-risk patients with stage 1 hypertension, the guideline recommends initiation of antihypertensive medications from two different drug classes, ideally in a single-pill combination",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Goal below 130/80 for most adults; encouragement to reach SBP <120 with elevated CVD risk",
+     "quote": "the guideline recommending a goal of < 130/80 mmHg for most adults and encouragement to achieve a systolic BP < 120 mmHg for those with elevated CVD risk",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Four first-line classes: thiazide-type diuretics, long-acting dihydropyridine CCBs, ACE inhibitors, ARBs (beta blockers not listed)",
+     "quote": "First-line antihypertensive medications include thiazide-type diuretics, long-acting dihydropyridine calcium channel blockers (CCB), angiotensin converting enzyme (ACE) inhibitors and angiotensin II receptor blockers (ARB) (COR 1/ LOE A).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lifestyle changes stay part of treatment when medication starts",
+     "quote": "Recommend lifestyle modification and start antihypertensive medication now",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Home monitoring recommended to help adjust BP medicines (FAQ)",
+     "quote": "home BP monitoring is recommended to confirm suspected diagnoses of hypertension and titrate BP-lowering medications (COR 1/ LOE A).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "agency_page",
+   "cited_as": "American Heart Association. Top 10 Things to Know About the New AHA/ACC High Blood Pressure Guideline. Undated web page. Accessed November 15, 2026.",
+   "url": "https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/high-bp-top-10",
+   "version_or_date": "Undated AHA page on the new AHA/ACC guideline; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "BP category table: normal, elevated, stage 1, stage 2, severe hypertension",
+     "quote": "NORMAL LESS THAN 120 and LESS THAN 80 ... ELEVATED 120 – 129 and LESS THAN 80 ... STAGE 1 ... 130 – 139 or 80 – 89 ... STAGE 2 ... 140 OR HIGHER or 90 OR HIGHER",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Severe hypertension >180 and/or >120: no symptoms call health care professional; symptoms call 911",
+     "quote": "SEVERE HYPERTENSION (If you don't have symptoms*, call your health care professional.) HIGHER THAN 180 and/or HIGHER THAN 120 ... HYPERTENSIVE EMERGENCY (If you have any of these symptoms*, call 911.)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sodium 2,300 mg/day or less, moving toward ideal under 1,500 mg",
+     "quote": "Adults should have 2,300 mg (about 1 teaspoon of salt) of sodium a day or less ... moving toward an ideal limit of less than 1,500 mg (about 2/3 teaspoon of salt).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "AHA suggests stress-reducing activities (meditation, breathing control, yoga)",
+     "quote": "reduce or eliminate alcohol, and try stress-reducing activities, including meditation, breathing control and/or yoga.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "agency_page",
+   "cited_as": "American Heart Association. When To Call 911 About High Blood Pressure. Undated web page. Accessed November 15, 2026.",
+   "url": "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings/when-to-call-911-for-high-blood-pressure",
+   "version_or_date": "Undated AHA page; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Above 180/120 with chest pain, shortness of breath, back pain, numbness, weakness, vision change or difficulty speaking: call 911",
+     "quote": "Call 911 if your blood pressure is higher than 180/120 and you are experiencing symptoms that may include: Chest pain Shortness of breath Back pain Numbness Weakness Change in vision Difficulty speaking",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not wait to see whether BP comes down on its own",
+     "quote": "Do not wait to see whether your blood pressure comes down on its own. Call 911.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "No symptoms: wait at least 1 minute, retake; if still high contact health care professional as soon as possible",
+     "quote": "Wait at least 1 minute ... Take your blood pressure again. ... you should contact your health care professional as soon as possible.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. Malignant hypertension. U.S. National Library of Medicine. Review date April 1, 2025. Accessed November 15, 2026.",
+   "url": "https://medlineplus.gov/ency/article/000491.htm",
+   "version_or_date": "MedlinePlus Medical Encyclopedia, review date 4/1/2025",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added so that headache and confusion, which the AHA 911 page does not list, keep a source in the emergency advice.",
+   "claims": [
+    {
+     "text": "Emergency symptoms include headache, blurred vision, confusion, chest pain, shortness of breath, numbness, weakness",
+     "quote": "Headache ... Blurred vision ... Change in mental status, such as anxiety, confusion, decreased alertness ... Chest pain ... Shortness of breath ... Numbness ... Weakness of the arms, legs, face, or other areas",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "It is a medical emergency: go to the ER or call 911",
+     "quote": "Malignant hypertension is a medical emergency. ... Go to the emergency room or call the local emergency number (such as 911)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "agency_page",
+   "cited_as": "American Heart Association. Monitoring Your Blood Pressure at Home. Undated web page. Accessed November 15, 2026.",
+   "url": "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings/monitoring-your-blood-pressure-at-home",
+   "version_or_date": "Undated AHA page; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Upper-arm automatic cuff recommended; wrist and finger monitors not recommended, less reliable",
+     "quote": "The AHA recommends an automatic, cuff-style, upper arm (biceps) monitor. ... Wrist and finger monitors are not recommended. They give less reliable readings.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Validated monitor; same time every day",
+     "quote": "Choose a monitor that has been validated. ... Measure at the same time every day.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Two readings one minute apart; record results",
+     "quote": "Each time you measure, take two readings one minute apart. ... Record the results",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "other_web",
+   "cited_as": "American Medical Association. How to Measure Your Blood Pressure at Home (patient handout, 2020), hosted by the American Heart Association. Accessed November 15, 2026.",
+   "url": "https://cpr.heart.org/-/media/Files/Health-Topics/High-Blood-Pressure/measuringbpathome.pdf",
+   "version_or_date": "AMA handout, (c) 2020, code 20-444988:PDF:4/20, hosted on cpr.heart.org",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction) (PDF)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Measure before taking BP medication",
+     "quote": "If you're on blood pressure medication, measure your BP before you take your medication.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Avoid caffeine, cigarettes, stimulants 30 minutes before",
+     "quote": "Avoid caffeine, cigarettes and other stimulants 30 minutes before you measure your blood pressure.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Rest five minutes in position; back supported; feet flat; cuff on bare arm at heart level",
+     "quote": "Rest for five minutes while in position ... KEEP YOUR BACK SUPPORTED ... KEEP FEET FLAT ON THE FLOOR ... POSITION ARM SO CUFF IS AT HEART LEVEL ... PUT CUFF ON BARE ARM, ABOVE ELBOW AT MID-ARM",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "guideline",
+   "cited_as": "Federal Motor Carrier Safety Administration. Section 391.41(b)(6): Driver Safety and Health, Medical Requirements (guidance Q&A on the hypertension standard). Issued April 1, 2014. Accessed November 15, 2026.",
+   "url": "https://www.fmcsa.dot.gov/regulations/medical/section-ss-39141b6-driver-safety-health-medical-requirements",
+   "version_or_date": "FMCSA guidance Q&A, effective and issued April 1, 2014",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Below 140/90 may be certified 2 years; treated hypertension at least annual certification",
+     "quote": "A CMV driver with a Blood pressure (BP) <140/90 may be certified for 2 years. ... A driver with a diagnosis of hypertension on treatment should have at least an annual certification.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Stage 1/2/3 certification periods (table, takeaways, summary)",
+     "quote": "Stage 1 - BP 140-159/90-99 Certification Period 1 year ... Stage 2 - BP 160-179/100-109 Certification Period 3 months as one time certification. ... Stage 3 - BP Reading >180/110 Disqualified.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Stage 2 to 1 year below 140/90; Stage 3 then 6-month intervals",
+     "quote": "Within the 3 months, if the blood pressure is below 140/90, the driver may receive 1 year certification. ... When the blood pressure is less than 140/90, the driver can be certified at 6 month intervals.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "journal",
+   "cited_as": "Sieber WK, Robinson CF, Birdsey J, et al. Obesity and other risk factors: the National Survey of U.S. Long-Haul Truck Driver Health and Injury. Am J Ind Med. 2014;57(6):615-626. doi:10.1002/ajim.22293",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4511102/",
+   "pmid": "24390804",
+   "pmcid": "PMC4511102",
+   "doi": "10.1002/ajim.22293",
+   "record_title": "Obesity and other risk factors: the national survey of U.S. long-haul truck driver health and injury.",
+   "record_journal": "Am J Ind Med",
+   "record_year": "2014",
+   "article_type": "Journal Article (national cross-sectional survey, n=1,670, 2010 data)",
+   "retrieved_with": "PubMed connector get_full_text_article (PMC full text) + get_article_metadata; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces the unsourced \"26-35%, roughly double the general working population\" hypertension claim; this national survey found self-reported hypertension not different from U.S. working adults. Scite flagged a contrasting citation about drivers' sleep hours; not bearing on claims cited.",
+   "claims": [
+    {
+     "text": "1,670 long-haul drivers surveyed",
+     "quote": "Interviewers collected data during 2010 from 1,670 long-haul truck drivers at 32 truck stops",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Obesity 69% vs 31% of U.S. working adults (about twice)",
+     "quote": "Obesity (69% vs. 31%, P <0.01) and current smoking (51% vs. 19%, P <0.01) were twice as prevalent in long-haul truck drivers as in the 2010 U.S. adult working population.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hypertension 26.3% vs 24.1%, not different",
+     "quote": "the prevalence of hypertension was not different from that reported by the NHIS (26.3% vs. 24.1%).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "agency_page",
+   "cited_as": "Federal Motor Carrier Safety Administration. Driving When You Have Sleep Apnea. Last updated February 19, 2014. Accessed November 15, 2026.",
+   "url": "https://www.fmcsa.dot.gov/driver-safety/sleep-apnea/driving-when-you-have-sleep-apnea",
+   "version_or_date": "Last updated February 19, 2014",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "FMCSA-sponsored study: almost one-third (28%) of commercial truck drivers have mild to severe sleep apnea",
+     "quote": "almost one-third (28 percent) of commercial truck drivers have mild to severe sleep apnea",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Loud snoring is a listed sign of sleep apnea",
+     "quote": "Loud snoring",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "journal",
+   "cited_as": "Appel LJ, Moore TJ, Obarzanek E, et al. A clinical trial of the effects of dietary patterns on blood pressure. DASH Collaborative Research Group. N Engl J Med. 1997;336(16):1117-1124. doi:10.1056/NEJM199704173361601",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9099655/",
+   "pmid": "9099655",
+   "doi": "10.1056/NEJM199704173361601",
+   "record_title": "A clinical trial of the effects of dietary patterns on blood pressure. DASH Collaborative Research Group.",
+   "record_journal": "N Engl J Med",
+   "record_year": "1997",
+   "article_type": "Randomized Controlled Trial; Multicenter Study",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite flagged a citing statement (10.1111/j.1751-7176.2010.00323.x) that is about advice uptake, not a contrary finding.",
+   "claims": [
+    {
+     "text": "DASH lowered SBP 11.4 mmHg more than control diet in people with hypertension",
+     "quote": "Among the 133 subjects with hypertension ... the combination diet reduced systolic and diastolic blood pressure by 11.4 and 5.5 mm Hg more, respectively, than the control diet",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Control diet typical of average U.S. diet; DASH rich in fruits, vegetables, low-fat dairy, reduced saturated and total fat",
+     "quote": "with a fat content typical of the average diet in the United States ... rich in fruits, vegetables, and low-fat dairy products and with reduced saturated and total fat",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "journal",
+   "cited_as": "Cornelissen VA, Smart NA. Exercise training for blood pressure: a systematic review and meta-analysis. J Am Heart Assoc. 2013;2(1):e004473. doi:10.1161/JAHA.112.004473",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23525435/",
+   "pmid": "23525435",
+   "pmcid": "PMC3603230",
+   "doi": "10.1161/JAHA.112.004473",
+   "record_title": "Exercise training for blood pressure: a systematic review and meta-analysis.",
+   "record_journal": "J Am Heart Assoc",
+   "record_year": "2013",
+   "article_type": "Meta-Analysis; Systematic Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces the 2017 guideline table figures (aerobic 5-8 mmHg; resistance \"similar\") that could not be retrieved. Abstract only. Scite contrasting flag concerns responder prediction, not the pooled estimates.",
+   "claims": [
+    {
+     "text": "93 trials; endurance training lowered SBP 8.3 mmHg in hypertensive groups",
+     "quote": "We included 93 trials ... BP reductions after endurance training were greater (P<0.0001) in 26 study groups of hypertensive subjects (-8.3 [-10.7 to -6.0]/-5.2 [-6.8 to -3.4] mm Hg)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dynamic resistance training lowered SBP 1.8 mmHg overall",
+     "quote": "Systolic BP (SBP) was reduced after endurance (-3.5 mm Hg ...), dynamic resistance (-1.8 mm Hg [-3.7 to -0.011])",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "kind": "journal",
+   "cited_as": "Shah SA, Chu BW, Lacey CS, et al. Impact of acute energy drink consumption on blood pressure parameters: a meta-analysis. Ann Pharmacother. 2016;50(10):808-815. doi:10.1177/1060028016656433",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27340146/",
+   "pmid": "27340146",
+   "doi": "10.1177/1060028016656433",
+   "record_title": "Impact of Acute Energy Drink Consumption on Blood Pressure Parameters: A Meta-analysis.",
+   "record_journal": "Ann Pharmacother",
+   "record_year": "2016",
+   "article_type": "Meta-Analysis",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces uncited caffeine numbers (30-60 minutes; 150-300 mg per can; 1-2 cups). Scite flagged a later small study (80 mg dose) with no BP effect; page states the pooled average and the dose gradient and says long-term effects are less clear.",
+   "claims": [
+    {
+     "text": "15 studies: SBP +4.44, DBP +2.73 mmHg after energy drink",
+     "quote": "In all, 15 studies were included ... SBP and DBP increased significantly by 4.44 mm Hg ... and 2.73 mm Hg",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Largest SBP rise 6.44 mmHg with >=200 mg caffeine",
+     "quote": "The largest change in SBP was seen with drinks administering ≥200 mg of caffeine (6.44 mm Hg",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Long-term effect less clear",
+     "quote": "Further investigation of the ingredients in energy drinks and the impact of chronic energy drink consumption is warranted.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "kind": "agency_page",
+   "cited_as": "American Heart Association. What are the Signs and Symptoms of High Blood Pressure? Undated web page. Accessed November 15, 2026.",
+   "url": "https://www.heart.org/en/health-topics/high-blood-pressure/know-your-risk-factors-for-high-blood-pressure/what-are-the-symptoms-of-high-blood-pressure",
+   "version_or_date": "Undated AHA page; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Silent killer: usually no signs or symptoms; measuring is the only way to know",
+     "quote": "For most people, high blood pressure has no signs or symptoms. That is why it's often called the \"silent killer.\" ... Measuring your blood pressure is the only way to find out if you have high blood pressure.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "kind": "label",
+   "cited_as": "DailyMed. Lisinopril tablets (Lupin Pharmaceuticals). Prescribing information, revised October 2025. U.S. National Library of Medicine. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7d6c31e2-b5a4-4279-8013-a8dad37ea73b",
+   "version_or_date": "Lupin lisinopril tablets, Revised 10/2025 (DailyMed updated October 10, 2025)",
+   "retrieved_with": "WebFetch of DailyMed label page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Lisinopril once daily for hypertension",
+     "quote": "The recommended initial dose is 10 mg once a day.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cough is a known side effect",
+     "quote": "Hypertension: headache, dizziness and cough.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Periodic potassium and renal function monitoring",
+     "quote": "Serum potassium should be monitored periodically in patients receiving lisinopril. ... Monitor renal function periodically in patients treated with lisinopril.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "kind": "label",
+   "cited_as": "DailyMed. Ramipril capsules (Aurobindo Pharma). Prescribing information, DailyMed update July 1, 2026. U.S. National Library of Medicine. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d6d57158-e8f9-4c91-8317-0374e0c87d33",
+   "version_or_date": "Aurobindo ramipril capsules (DailyMed updated July 1, 2026)",
+   "retrieved_with": "WebFetch of DailyMed label page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Ramipril can be given once daily",
+     "quote": "Initial dose is 2.5 mg to 20 mg once daily.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "ACE inhibitor cough",
+     "quote": "persistent nonproductive cough has been reported with all ACE inhibitors, always resolving after discontinuation of therapy",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "kind": "label",
+   "cited_as": "DailyMed. Losartan potassium tablets (Camber Pharmaceuticals). Prescribing information, revised August 2025. U.S. National Library of Medicine. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cafd54e8-42a8-474c-8ea8-49ec74c2b0d3",
+   "version_or_date": "Camber losartan potassium tablets, Revised 08/2025 (DailyMed updated October 9, 2025)",
+   "retrieved_with": "WebFetch of DailyMed label page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Losartan once daily",
+     "quote": "The usual starting dose of losartan potassium tablets is 50 mg once daily.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "In patients with ACE-inhibitor cough, losartan cough similar to HCTZ or placebo",
+     "quote": "Persistent dry cough (with an incidence of a few percent) has been associated with ACE-inhibitor use ... is similar to that associated with hydrochlorothiazide or placebo therapy.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Periodic potassium and renal monitoring",
+     "quote": "Monitor serum potassium periodically and treat appropriately. ... Monitor renal function periodically in these patients.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "kind": "label",
+   "cited_as": "DailyMed. Olmesartan medoxomil tablets (Macleods Pharmaceuticals). Prescribing information, DailyMed update September 10, 2025. U.S. National Library of Medicine. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=24e308cc-7cec-4054-9627-66f743ed71b0",
+   "version_or_date": "Macleods olmesartan medoxomil tablets (DailyMed updated September 10, 2025)",
+   "retrieved_with": "WebFetch of DailyMed label page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Olmesartan once daily",
+     "quote": "The usual recommended starting dose of olmesartan medoxomil tablets is 20 mg once daily",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "kind": "label",
+   "cited_as": "DailyMed. Valsartan tablets (Direct_Rx, repackaged). Prescribing information, DailyMed update January 27, 2025. U.S. National Library of Medicine. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946692f5-0fe2-89b7-e053-2995a90a4d91",
+   "version_or_date": "Direct_Rx valsartan tablets, repackaged (DailyMed updated January 27, 2025)",
+   "retrieved_with": "WebFetch of DailyMed label page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Valsartan once daily",
+     "quote": "The recommended starting dose of valsartan tablets is 80 mg or 160 mg once daily",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "kind": "label",
+   "cited_as": "DailyMed. Amlodipine besylate tablets (Bi-Coastal Pharma International). Prescribing information, revised January 2019. U.S. National Library of Medicine. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=705d4471-b1bc-49a7-a871-9c03f886b69e",
+   "version_or_date": "Bi-Coastal amlodipine besylate tablets, Revised 1/2019",
+   "retrieved_with": "WebFetch of DailyMed label page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Older label revision; once-daily dosing and edema statements are standard amlodipine labeling.",
+   "claims": [
+    {
+     "text": "Amlodipine once daily",
+     "quote": "The usual initial antihypertensive oral dose of amlodipine besylate tablet, USP is 5 mg once daily, and the maximum dose is 10 mg once daily.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Edema is the most common side effect and dose-related",
+     "quote": "Most common adverse reaction to amlodipine is edema which occurred in a dose related manner.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "kind": "label",
+   "cited_as": "DailyMed. Chlorthalidone tablets (Mylan Pharmaceuticals). Prescribing information, revised April 2026. U.S. National Library of Medicine. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15dd224a-87ad-48dc-80b1-e8382a452c4c",
+   "version_or_date": "Mylan chlorthalidone tablets, Revised 4/2026",
+   "retrieved_with": "WebFetch of DailyMed label page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Chlorthalidone single daily dose in the morning with food",
+     "quote": "Therapy, in most patients, should be initiated with a single daily dose of 25 mg. ... A single dose given in the morning with food is recommended; divided daily doses are unnecessary.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Increases urination",
+     "quote": "The drug produces copious diuresis with greatly increased excretion of sodium and chloride.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Periodic electrolyte checks; hypokalemia",
+     "quote": "Hypokalemia may develop with chlorthalidone as with any other diuretic ... Periodic determination of serum electrolytes to detect possible electrolyte imbalance",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "kind": "label",
+   "cited_as": "DailyMed. Hydrochlorothiazide tablets (American Health Packaging, repackaged). Prescribing information, DailyMed update April 7, 2026. U.S. National Library of Medicine. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c8de63da-b6c0-42f0-9d47-e273fe93adb3",
+   "version_or_date": "American Health Packaging hydrochlorothiazide tablets, repackaged (DailyMed updated April 7, 2026)",
+   "retrieved_with": "WebFetch of DailyMed label page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "HCTZ once daily",
+     "quote": "The usual initial dose in adults is 25 mg daily given as a single dose.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Periodic electrolyte checks",
+     "quote": "Periodic determination of serum electrolytes to detect possible electrolyte imbalance",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "kind": "label",
+   "cited_as": "DailyMed. Metoprolol succinate extended-release tablets (Cardinal Health 107). Prescribing information, revised July 2025. U.S. National Library of Medicine. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=450fb603-73d7-422b-a4e2-5a05c13ebe3b",
+   "version_or_date": "Cardinal Health metoprolol succinate ER tablets, Revised 7/2025 (DailyMed updated June 10, 2026)",
+   "retrieved_with": "WebFetch of DailyMed label page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Table now names metoprolol succinate (extended release); immediate-release metoprolol was not checked and is not claimed once-daily.",
+   "claims": [
+    {
+     "text": "Metoprolol succinate once daily",
+     "quote": "The usual initial dosage is 25 mg to 100 mg daily in a single dose.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tiredness and dizziness common",
+     "quote": "The most common (>2%) adverse reactions are tiredness, dizziness, depression,",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not stop suddenly",
+     "quote": "Following abrupt cessation of therapy with certain beta-blocking agents,",
+     "quote_source": "label",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "kind": "label",
+   "cited_as": "DailyMed. Atenolol tablets (Rising Pharma Holdings). Prescribing information, revised May 2025. U.S. National Library of Medicine. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=96dd038f-b363-4e24-9c67-82b7c85c3bc4",
+   "version_or_date": "Rising Pharma atenolol tablets, Revised 05/2025",
+   "retrieved_with": "WebFetch of DailyMed label page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Atenolol once daily",
+     "quote": "The initial dose of atenolol is 50 mg given as one tablet a day either alone or added to diuretic therapy.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tiredness and dizziness among side effects",
+     "quote": "Dizziness 4 1 13 6 ... Tiredness 0.6 0.5 26 13",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not stop suddenly",
+     "quote": "should be advised against abrupt discontinuation of therapy",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}
