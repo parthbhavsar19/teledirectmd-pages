@@ -1,0 +1,809 @@
+{
+ "guide": "insect-sting-reaction-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 7 verified, retractions: none (7 DOIs for refs 1-7; no editorial notices, no contrasting evidence flagged, no predatory journals). The dropped Casale 2014 DOI was also verified (no notices). PubMed article types checked for all 7 journal records: no Retracted Publication or Retraction Notice. Refs 8-13 are agency pages, a service page and labels with no DOI.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "Golden DBK, Demain J, Freeman T, et al. Stinging insect hypersensitivity: A practice parameter update 2016. Ann Allergy Asthma Immunol. 2017;118(1):28-54.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28007086/",
+   "pmid": "28007086",
+   "doi": "10.1016/j.anai.2016.10.031",
+   "record_title": "Stinging insect hypersensitivity: A practice parameter update 2016.",
+   "record_journal": "Ann Allergy Asthma Immunol",
+   "record_year": "2017",
+   "article_type": "Journal Article (PubMed); joint task force practice parameter",
+   "version_or_date": "2016 update, published January 2017 issue; read Nov 15, 2026",
+   "retrieved_with": "PubMed get_article_metadata (no abstract in PubMed); WebFetch of AAAAI-hosted full-text PDF (aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist Resources/Statements and Practice Parameters/Stinging-insect-hypersensitivity-2016.pdf); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Full text read via WebFetch of the AAAAI-hosted PDF (first 100,000 of 109,883 characters; the unread tail is the reference list region). WebFetch quotes are capped near 125 characters, so long passages are quoted in part. The prior page claimed a \"peak at 48 to 72 hours\" and \"some reactions last a week or more\"; neither appears in the parameter (it gives 24 to 48 hours of growth and 3 to 10 days to resolve), so both were removed. The 4% to 10% figure for a systemic reaction after a large local reaction is from the executive summary; another passage gives about 7% (range 4% to 15%).",
+   "claims": [
+    {
+     "text": "Large local reaction: swelling over 10 cm contiguous with the sting that increases for 24 to 48 hours",
+     "quote": "Increase in size for 24 to 48 hours ... Swelling to more than 10 cm in diameter contiguous to the site of the sting",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Swelling usually increases 6 to 12 hours after the sting",
+     "quote": "the swelling usually increases 6 to 12 hours after the sting",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Large local swelling subsides over 3 to 10 days",
+     "quote": "subsides after 3 to 10 days",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Large local reaction is usually an IgE-mediated late-phase reaction",
+     "quote": "Marked local swelling extending from the sting site is usually an IgE-mediated late-phase reaction.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Small local reaction: pain, swelling and redness lasting a few hours to a few days",
+     "quote": "characterized by pain, swelling, and redness, which usually last from a few hours to a few days",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Swelling and even lymphangitic streaks may be from mast cell mediators, not infection; not cellulitis",
+     "quote": "Swelling (and even lymphangitis) may be caused by mast cell mediator release and not by infection ... They do not represent cellulitis even though lymphangitic streaks may be present.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antibiotics not indicated unless clear evidence of secondary infection; prescribe only if specifically indicated",
+     "quote": "antibiotics are not indicated unless there is clear evidence of secondary infection ... Antibiotics are usually not necessary and should be prescribed only if specifically indicated.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptomatic treatment of large local reactions with antihistamines, cold compresses, analgesics; short oral steroid course may be useful in severe cases; grade D evidence",
+     "quote": "Treat large local reactions symptomatically, with antihistamines, cold compresses, and analgesics as needed. In severe cases a short course of oral corticosteroids may be useful. ... (Recommendation; D evidence)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cold compresses, oral antihistamines and analgesics might help",
+     "quote": "Cold compresses might help to reduce local pain and swelling. ... Oral antihistamines and oral analgesics might also help to reduce the pain or itching",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Controlled-study proof that oral steroids work for large local reactions is lacking",
+     "quote": "Many physicians use oral corticosteroids for large local reactions, although definitive proof of efficacy through controlled studies is lacking.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Systemic reactions are manifestations not contiguous with the sting",
+     "quote": "Systemic reactions can include a spectrum of manifestations not contiguous with the site of the sting",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Anaphylaxis defined as hypotension or involvement of at least 2 organ systems",
+     "quote": "anaphylaxis includes hypotension or involvement of at least 2 organ systems",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Treat acute systemic sting reactions like anaphylaxis with timely epinephrine and transport to an emergency department",
+     "quote": "Advise the patient to treat acute systemic reactions to insect stings like any anaphylactic reaction, with timely ... epinephrine injection ... and transport to an emergency department.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Refer to an allergist after a systemic sting reaction",
+     "quote": "Patients who have experienced a systemic reaction to an insect sting should be referred to an allergist",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Large local reaction carries a 4% to 10% risk of a future systemic reaction",
+     "quote": "The risk of a systemic reaction in patients who experience large local reactions is 4% to 10%.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "About 50% risk of systemic reaction to a future sting after a prior systemic reaction",
+     "quote": "The frequency of systemic reaction to a future sting in patients with a history of systemic reactions to stings is approximately 50%.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "50% of fatal sting reactions occur with the first reaction",
+     "quote": "One of the greatest concerns is that 50% of fatal sting reactions occur with the first reaction",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "VIT generally not required for large local reactions only; might be considered with frequent unavoidable exposure",
+     "quote": "Counsel patients who have experienced only large local reactions to stings that VIT is generally not required ... but might be considered in those who have frequent unavoidable exposure.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cutaneous-only systemic reactions (children and adults): VIT generally not required, may be considered in special circumstances as a shared decision",
+     "quote": "advise both children and adults who have experienced only cutaneous systemic reactions ... that VIT is generally not required but may be considered when there are special circumstances. This should be a shared decision",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recommend VIT after an anaphylactic sting reaction with venom-specific IgE",
+     "quote": "Recommend and initiate VIT in all patients who have experienced an anaphylactic reaction to an insect sting and who have specific IgE to venom allergens",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not start VIT on testing alone without a systemic reaction history",
+     "quote": "Avoid VIT based solely on in vivo and in vitro testing for venom IgE, without a history of systemic reaction to a sting.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Venom IgE in more than 20% of healthy adults; only 5% to 15% react; testing cannot screen asymptomatic people",
+     "quote": "Positive serum or skin test results for venom IgE are present in more than 20% of healthy adults ... only 5% to 15% ... For this reason, venom testing cannot be used to screen asymptomatic children or adults.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Local swelling in the oropharynx can compromise the airway",
+     "quote": "could cause airway compromise if the sting occurs in the oropharynx (eg, after drinking from a straw or canned beverage).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Honeybees usually leave a barbed stinger and venom sac; ground-nesting yellow jackets can also leave stingers",
+     "quote": "Honeybees usually leave a barbed stinger and attached venom sac in the skin after they sting ... Other insects, particularly ground-nesting yellow jackets, also can leave stingers in the skin.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Honeybees usually nonaggressive away from hives except Africanized; yellow jackets very aggressive",
+     "quote": "Honeybees, except for Africanized honeybees, are usually nonaggressive away from their hives. ... Yellow jackets are very aggressive and sting with minimum provocation.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Multiple stings make systemic reactions more likely; unusual delayed, mostly toxic reactions incl. renal failure with rhabdomyolysis",
+     "quote": "Systemic reactions may be more likely in response to multiple stings or sequential stings ... renal failure (with rhabdomyolysis). These reactions are mostly toxic in nature and delayed in onset",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Avoidance: nests removed by trained professionals; caution eating or drinking outdoors; avoid barefoot or sandals",
+     "quote": "have known or suspected nests in the immediate vicinity of the patient's home removed by trained professionals ... avoid eating or drinking outdoors ... avoid walking outside barefoot or with open shoes (sandals)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Carry an epinephrine autoinjector; consider medical identification",
+     "quote": "the need to always carry an epinephrine autoinjector ... Patients should also consider obtaining and carrying a medical identification bracelet or necklace.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Patients should be prescribed and instructed in use of injectable epinephrine",
+     "quote": "should be given a prescription for an injectable epinephrine device, be instructed in its proper use",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Future risk and carrying epinephrine after strictly cutaneous systemic reactions is individualized (low-risk group)",
+     "quote": "those with a history of only large local reactions to stings or of strictly cutaneous systemic reactions",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "guideline",
+   "cited_as": "Golden DBK, Wang J, Waserman S, et al. Anaphylaxis: A 2023 practice parameter update. Ann Allergy Asthma Immunol. 2024;132(2):124-176.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38108678/",
+   "pmid": "38108678",
+   "doi": "10.1016/j.anai.2023.09.015",
+   "record_title": "Anaphylaxis: A 2023 practice parameter update.",
+   "record_journal": "Ann Allergy Asthma Immunol",
+   "record_year": "2024 (epub Dec 18, 2023)",
+   "article_type": "Practice Guideline; Journal Article",
+   "version_or_date": "2023 update; read Nov 15, 2026",
+   "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of AAAAI-hosted full-text PDF (aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist Resources/Statements and Practice Parameters/Anaphylaxis-Practice-Paramaters-2023.pdf); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces Casale TB, Burks AW, N Engl J Med 2014 (PMID 24716682), which has no PubMed abstract and whose full text could not be retrieved (nejm.org fetch failed); every claim formerly cited to it was re-sourced or cut. Full text read from the AAAAI-hosted in-press PDF (first 100,000 of 107,058 characters).",
+   "claims": [
+    {
+     "text": "Epinephrine is the first-line treatment for anaphylaxis",
+     "quote": "Epinephrine is the first-line treatment for anaphylaxis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Give epinephrine at the first sign or symptom of suspected anaphylaxis",
+     "quote": "epinephrine should be administered at the first sign or symptom of suspected anaphylaxis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Anaphylaxis may occur without typical skin features",
+     "quote": "it may occur without typical skin features, circulatory shock, or compromised breathing being present",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Immediate EMS may not be required after prompt, complete, durable response",
+     "quote": "If epinephrine is used promptly, immediate activation of emergency medical services may not be required if the patient experiences a prompt, complete, and durable response.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Consider mastocytosis evaluation incl. bone marrow biopsy in adults with severe sting anaphylaxis",
+     "quote": "Evaluation for mastocytosis, including a bone marrow biopsy, should be considered for adult patients with severe insect sting anaphylaxis or recurrent idiopathic anaphylaxis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Auto-injector use requires specific counseling and training",
+     "quote": "Optimal prescribing and use of epinephrine autoinjector devices require specific counseling and training of patients and caregivers, including when and how to administer the epinephrine autoinjector and whether and when to call 911.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "Przybilla B, Ruëff F. Insect stings: clinical features and management. Dtsch Arztebl Int. 2012;109(13):238-48.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22532821/",
+   "pmid": "22532821",
+   "pmcid": "PMC3334720",
+   "doi": "10.3238/arztebl.2012.0238",
+   "record_title": "Insect stings: clinical features and management.",
+   "record_journal": "Dtsch Arztebl Int",
+   "record_year": "2012",
+   "article_type": "Journal Article (selective literature review)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); PubMed get_full_text_article returned empty full text; PMC page showed a bot check (not routed around); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. Claims limited to the abstract; the prior page said this review \"discusses local steroid treatment and a specific prednisolone regimen\", which could not be checked and was removed.",
+   "claims": [
+    {
+     "text": "Large local reactions are allergic and occur in up to 25% of the population",
+     "quote": "Large local reactions are due to allergy and occur in up to 25% of the population",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Acute sting symptoms are treated symptomatically",
+     "quote": "The acute symptoms of an insect sting are treated symptomatically.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Anaphylaxis from bee or wasp stings is not rare",
+     "quote": "Anaphylaxis due to bee or wasp stings is not a rare event",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "guideline",
+   "cited_as": "Cardona V, Ansotegui IJ, Ebisawa M, et al. World allergy organization anaphylaxis guidance 2020. World Allergy Organ J. 2020;13(10):100472.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33204386/",
+   "pmid": "33204386",
+   "pmcid": "PMC7607509",
+   "doi": "10.1016/j.waojou.2020.100472",
+   "record_title": "World allergy organization anaphylaxis guidance 2020.",
+   "record_journal": "World Allergy Organ J",
+   "record_year": "2020",
+   "article_type": "Journal Article (WAO guidance)",
+   "version_or_date": "WAO Anaphylaxis Guidance 2020",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC7607509); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Audit finding fixed: this source does not discuss stingers; the stinger-reassurance sentence is now cited to refs 5, 6, 9 and 10 instead.",
+   "claims": [
+    {
+     "text": "Intramuscular epinephrine is first-line; given in the anterolateral thigh",
+     "quote": "injecting epinephrine (adrenaline) intramuscularly into the ... of the quadriceps (antero-lateral thigh)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Positioning: supine; sitting if respiratory distress; pregnant semi-recumbent left side; unconscious recovery position",
+     "quote": "Most patients should be placed in a supine position during anaphylaxis unless there is respiratory distress in which case a sitting position may optimize respiratory effort; if pregnant, position the patient in a semi-recumbent position on the left side",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Unconscious person goes in the recovery position",
+     "quote": "if unconscious, place in the recovery position.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antihistamines have a limited role, help skin symptoms, and can delay more urgent measures",
+     "quote": "The use of H1-antihistamines has a limited role in treatment of anaphylaxis, but can be helpful in relieving cutaneous symptoms. ... their administration can delay more urgent measures such as repeated administration of intramuscular epinephrine",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sedation from antihistamines may be counterproductive in anaphylaxis",
+     "quote": "Second generation antihistamines may overcome unwanted side effects such as sedation which may be counterproductive in anaphylaxis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Inhaled bronchodilators are not an alternative to epinephrine",
+     "quote": "bronchodilators given by inhalation or nebulization are not an alternative to the repeated administration of intramuscular epinephrine (adrenaline)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Steroids may be of no benefit in acute anaphylaxis; routine use controversial",
+     "quote": "there is increasing evidence that glucocorticosteroids may be of no benefit in the acute management of anaphylaxis, and may even be harmful; their routine use is becoming controversial.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Severe crampy abdominal pain or repetitive vomiting count, especially after non-food allergens",
+     "quote": "severe gastrointestinal symptoms (severe crampy abdominal pain, repetitive vomiting), especially after exposure to non-food allergens",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Emergency symptoms listed in action plans: shortness of breath, wheeze, stridor, collapse, dizziness or fainting, swollen tongue",
+     "quote": "sense of dizziness/fainting, swollen lips-tongue-uvula, shortness of breath, wheeze, stridor, collapse",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Call emergency services at the same time as injecting epinephrine",
+     "quote": "simultaneously call emergency services, injecting epinephrine (adrenaline) intramuscularly",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Severity can change; reactions need prompt treatment",
+     "quote": "The potential for the severity of reactions to change must be recognized.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Patients with anaphylaxis need observation, especially severe reactions or multiple doses",
+     "quote": "Patients with anaphylaxis need to be observed: this is important especially in severe reactions and those requiring multiple doses of epinephrine.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Refer to an allergy specialist after anaphylaxis, incl. venom immunotherapy where indicated",
+     "quote": "Guidelines recommend that patients with anaphylaxis be referred to an allergy/immunology specialist for confirmation of the suspected trigger, advice on prevention and, where indicated, consideration for allergen immunotherapy (eg, insect venom).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Wasps are the predominant insect cause of anaphylaxis in central Europe",
+     "quote": "in central Europe (Austria, Germany, and Switzerland) wasp is the predominating insect inducing anaphylaxis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Visscher PK, Vetter RS, Camazine S. Removing bee stings. Lancet. 1996;348(9023):301-2.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8709689/",
+   "pmid": "8709689",
+   "doi": "10.1016/s0140-6736(96)01367-0",
+   "record_title": "Removing bee stings.",
+   "record_journal": "Lancet",
+   "record_year": "1996",
+   "article_type": "Clinical Trial; Comparative Study; Randomized Controlled Trial (PubMed); the Lee 2020 review classes it as quasi-experimental",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Page calls it \"a 1996 experiment\"; the word \"small\" was removed because the abstract gives no sample size.",
+   "claims": [
+    {
+     "text": "Wheal size increased with delayed removal, even within seconds; no difference scraped vs pinched after 2 s",
+     "quote": "Weal size, and thus envenomisation, increased as the time from stinging to removal of the sting increased, even within a few seconds. There was no difference in response between stings scraped or pinched off after 2 s.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Lee JA, Singletary E, Charlton N. Methods of Honey Bee Stinger Removal: A Systematic Review of the Literature. Cureus. 2020;12(5):e8078.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32542133/",
+   "pmid": "32542133",
+   "pmcid": "PMC7292703",
+   "doi": "10.7759/cureus.8078",
+   "record_title": "Methods of Honey Bee Stinger Removal: A Systematic Review of the Literature.",
+   "record_journal": "Cureus",
+   "record_year": "2020",
+   "article_type": "Journal Article; Review (systematic review)",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC7292703); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Two eligible studies; remove stinger as quickly as possible; no disadvantage to pinching",
+     "quote": "two studies met the inclusion criteria. ... a retained honey bee stinger should be removed as quickly as possible, and there appears to be no disadvantage in doing it by pinching and pulling.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Certainty of evidence very low",
+     "quote": "Overall, the certainty of the evidence was very low.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Review includes the Visscher experiment",
+     "quote": "Visscher et al. used human subjects in a randomized controlled series of experiments and found that the size of localized reaction (wheal) increased with time of envenomation",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "No data on whether rapid removal changes anaphylaxis risk",
+     "quote": "No data is available to determine whether or not the rapid removal of the stinger would mitigate the risk of anaphylactic reaction in a sensitized individual.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "A honeybee can sting only once; some other Hymenoptera are not limited",
+     "quote": "Unlike some other Hymenoptera species, a honey bee can only sting a victim once due to its single barbed stinger that is designed to detach from the bee",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Very large numbers of honeybee stings can cause fatal envenomation",
+     "quote": "Death can also occur from large volume envenomation; it is estimated that 500-1,500 honey bee stings are needed to produce a fatal systemic envenomation",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Matron PK, Timms V, Fitzsimons R. Identifying and managing Hymenoptera venom allergy. Nurs Stand. 2016;30(39):44-51.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27224630/",
+   "pmid": "27224630",
+   "doi": "10.7748/ns.30.39.44.s44",
+   "record_title": "Identifying and managing Hymenoptera venom allergy.",
+   "record_journal": "Nurs Stand",
+   "record_year": "2016",
+   "article_type": "Journal Article (nursing review)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only this run. The prior page said it was \"read in full through EBSCOhost\" and linked an EBSCO URL; that could not be repeated, so the sentence and link were replaced with an abstract-only description.",
+   "claims": [
+    {
+     "text": "Local reactions treated with cold packs, antihistamines, analgesia, topical corticosteroids",
+     "quote": "Treatment for local reactions involves the use of cold packs, antihistamines, analgesia and topical corticosteroids to help alleviate swelling, pain and pruritus.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "VIT is treatment of choice after respiratory obstruction or hypotension",
+     "quote": "Venom immunotherapy is the treatment of choice for reducing the incidence of future anaphylactic reactions in individuals who have signs of respiratory obstruction or hypotension.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "VIT given only by experienced staff able to provide emergency care",
+     "quote": "Treatment should only be provided by experienced staff who are able to provide emergency care for anaphylaxis and life-threatening episodes.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "agency_page",
+   "cited_as": "CDC, National Institute for Occupational Safety and Health. Insects and Scorpions at Work. Updated September 28, 2026.",
+   "url": "https://www.cdc.gov/niosh/outdoor-workers/about/insects-and-scorpions.html",
+   "version_or_date": "Updated: September 28, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Page does not mention calling 911; the 911 advice on the guide is cited to refs 1, 2, 4 and 12 instead.",
+   "claims": [
+    {
+     "text": "Stinging insects include bees, wasps, hornets and fire ants",
+     "quote": "Stinging or biting insects include bees, wasps, hornets, and fire ants.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "First aid: wash, scrape with fingernail, never squeeze or use tweezers, ice",
+     "quote": "Wash the site with soap and water. ... Wipe gauze or scrape a fingernail over the area. ... Never squeeze the stinger or use tweezers. ... Apply ice to reduce swelling.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Stay calm with a single insect; swatting may cause a sting",
+     "quote": "Remain calm and still if a single stinging insect is flying around. ... Swatting at an insect may cause it to sting.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "If attacked by several, run away, go indoors, do not jump into water",
+     "quote": "If you are attacked by several stinging insects at once, run to get away from them. ... Go indoors. ... Do not jump into water since some insects will hover above water.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "guideline",
+   "cited_as": "National Institute for Health and Care Excellence. NICE guideline NG182, Recommendations: 1.1 Managing insect bites and stings. UK guidance.",
+   "url": "https://www.nice.org.uk/guidance/ng182/chapter/Recommendations",
+   "version_or_date": "NG182 Recommendations chapter; page showed no publication date when read Nov 15, 2026",
+   "retrieved_with": "WebFetch of official page (overview page /guidance/ng182 failed to load)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "The guideline title and the \"September 22, 2020\" date previously shown could not be confirmed from the retrieved chapter page, so the reference now names NG182 and the section only. The page does not list specific antibiotic choices, so the old sentence about \"UK NICE antibiotic choices\" was removed.",
+   "claims": [
+    {
+     "text": "Redness and itching common, may last up to 10 days",
+     "quote": "skin redness and itching are common and may last for up to 10 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Avoiding scratching may reduce inflammation and infection risk",
+     "quote": "avoiding scratching may reduce inflammation and the risk of infection",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Uncertainty about oral antihistamine effectiveness",
+     "quote": "there is uncertainty about their effectiveness in managing insect bites or stings",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "No antibiotic without symptoms or signs of infection",
+     "quote": "Do not offer an antibiotic for an insect bite or sting in people who do not have symptoms or signs of an infection.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Reassess for severe pain out of proportion to the wound",
+     "quote": "they have severe pain out of proportion to the wound, which may indicate the presence of toxin-producing bacteria",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hospital referral for a systemic allergic reaction",
+     "quote": "such as a systemic allergic reaction",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Consider referral or specialist advice for mouth, throat or eye-area stings",
+     "quote": "it is in the mouth or throat, or around the eyes",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Consider referral if severely immunocompromised with signs of infection",
+     "quote": "they are severely immunocompromised, and have symptoms or signs of an infection",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Consider referral if condition worsens rapidly or significantly or systemically unwell",
+     "quote": "their condition worsens rapidly or significantly, or they become systemically unwell",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "agency_page",
+   "cited_as": "NHS. Insect bites and stings. Page last reviewed October 1, 2026. UK patient information.",
+   "url": "https://www.nhs.uk/conditions/insect-bites-and-stings/",
+   "version_or_date": "Page last reviewed: 01 October 2026; next review due 01 October 2029",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "The reviewed page does not mention bicarbonate of soda, vinegar or home remedies; the sentence \"The NHS specifically advises against home remedies such as bicarbonate of soda\" was cut. The cold-pack time is \"up to 20 minutes\", not \"about 20 minutes\". Reference date updated from June 1, 2023 to the current October 1, 2026 review.",
+   "claims": [
+    {
+     "text": "Scrape stinger sideways with fingernail or card edge; no tweezers",
+     "quote": "Brush or scrape the stinger sideways with your fingernail or the edge of a bank card. ... Do not use tweezers to pull out a stinger as you could squeeze poison out of it.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Wash with soap and water",
+     "quote": "wash your skin with soap and water to help lower the chance of infection",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Wrapped ice pack or cold wet cloth up to 20 minutes; keep area raised",
+     "quote": "put an ice pack wrapped in a cloth, or a clean cloth soaked in cold water, on the bite or sting for up to 20 minutes, if it's swollen ... keep the area raised if you can",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not scratch; it could get infected",
+     "quote": "do not scratch the bite or sting, as it could get infected",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Painkillers and hydrocortisone cream",
+     "quote": "take painkillers such as paracetamol or ibuprofen if the sting is painful ... use a hydrocortisone skin cream to reduce itching and swelling",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A pharmacist can recommend treatments",
+     "quote": "A pharmacist can recommend treatments, such as antihistamines and steroid creams",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Urgent advice if stung in mouth, throat or near eyes, or symptoms worse or not improving",
+     "quote": "the symptoms get worse or are not getting any better ... you were stung in your mouth or throat, or near your eyes",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Signs of infection: pus or fluid",
+     "quote": "there's pus or fluid coming out of the bite or sting",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Call for emergency help if very confused, drowsy or dizzy",
+     "quote": "you or a child feel very confused, drowsy or dizzy",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "other_web",
+   "cited_as": "TeleDirectMD. EpiPen Refills: Epinephrine Auto-Injector Refill Care. Service scope only, not clinical evidence.",
+   "url": "https://teledirectmd.com/epipen-refills-online/",
+   "retrieved_with": "WebFetch of page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Own service page, cited for scope only. Guide wording about the service was not changed. Page shows both \"insurance is not required\" and a footer \"Insurance accepted in select states\"; flagged in CHANGES.md, not acted on.",
+   "claims": [
+    {
+     "text": "Refill service is for adults with an established allergy and prior prescription",
+     "quote": "adults (18+) with a known severe allergy can refill their epinephrine auto-injector online ... having an established allergy diagnosis and prior EpiPen prescription",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Not for active anaphylaxis, new anaphylaxis workup or venom immunotherapy",
+     "quote": "Refill care is not the same thing as diagnosing a new allergy, performing allergy testing, or managing active anaphylaxis.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "label",
+   "cited_as": "Viatris Specialty LLC. EpiPen and EpiPen Jr (epinephrine injection) auto-injector prescribing information. Revised 3/2026. Drugs@FDA.",
+   "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/019430Orig1s120lbl.pdf",
+   "version_or_date": "Revised: 3/2026 (Drugs@FDA label file 019430Orig1s120)",
+   "retrieved_with": "WebSearch + WebFetch of FDA label PDF",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Newer than the DailyMed EpiPen label (rev 02/2023) used in the epinephrine guide repair; this revision gives \"15 kg to less than 30 kg\" for EpiPen Jr and \"hold in place for 3 seconds\".",
+   "claims": [
+    {
+     "text": "0.3 mg for 30 kg or greater",
+     "quote": "30 kg or greater EpiPen 0.3 mg",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hold in place for 3 seconds",
+     "quote": "hold in place for 3 seconds",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Get emergency medical help right away after use",
+     "quote": "After using your EpiPen or EpiPen Jr auto-injector in an allergic emergency, get emergency medical help right away.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Second auto-injector if symptoms continue or come back",
+     "quote": "You can use a second EpiPen or EpiPen Jr auto-injector if symptoms continue or come back",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "More than two sequential doses under direct medical supervision",
+     "quote": "More than two sequential doses of epinephrine should be administered under direct medical supervision",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Always carry 2",
+     "quote": "Always carry 2 EpiPen or 2 EpiPen Jr auto-injectors with you",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Does not take the place of emergency care",
+     "quote": "They do not take the place of emergency medical care.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "label",
+   "cited_as": "kaleo, Inc. AUVI-Q (epinephrine injection, USP) auto-injector prescribing information. Revised 4/2025. DailyMed, updated October 2, 2025.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6180fb40-7fca-4602-b3da-ce62b8cd2470",
+   "version_or_date": "DailyMed updated October 2, 2025; label revised 4/2025",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "0.3 mg for 30 kg or greater",
+     "quote": "30 kg or greater ... AUVI-Q 0.3 mg",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Push until click and hiss, hold for 2 seconds",
+     "quote": "push firmly until you hear a click and hiss sound, and hold in place for 2 seconds.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Second dose starting 5 minutes after the first",
+     "quote": "a second dose of AUVI-Q may be administered with a second autoinjector starting 5 minutes after the first dose.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "More than two sequential doses under direct medical supervision",
+     "quote": "More than two sequential doses of epinephrine should be administered under direct medical supervision.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Immediate access to two devices",
+     "quote": "It is recommended that patients are prescribed and have immediate access to two AUVI-Q devices at all times.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}
