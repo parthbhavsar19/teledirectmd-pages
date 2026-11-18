@@ -374,7 +374,7 @@
    "retrieved_with": "WebFetch of official page (FDA label PDF)",
    "retrieved_at": "2026-11-07",
    "editorial_notices": [],
-   "notes": "Corrected 58.5% vs 43.6% to label values; removed superiority claim, EAGLE trial names and \"first new class in three decades\" (not on label).",
+   "notes": "Corrected 58.5% vs 43.6% to label values; removed superiority claim, EAGLE trial names and \"first new class in three decades\" (not on label). 2026-11-18: label composite-response figures removed from page; trial figures now cite the Lancet report [25] so all UTI guides use one set.",
    "claims": [
     {
      "text": "female adult and pediatric patients 12+ weighing at least 40 kg with uUTI",
@@ -395,20 +395,14 @@
      "verdict": "supported"
     },
     {
-     "text": "non-inferior to nitrofurantoin in both trials; 51.8% vs 47.0% and 58.9% vs 44.0%",
-     "quote": "BLUJEPA was non-inferior to nitrofurantoin in both studies.",
-     "quote_source": "label",
-     "verdict": "supported"
-    },
-    {
-     "text": "composite response 51.8% vs 47.0% (Trial 1) and 58.9% vs 44.0% (Trial 2)",
-     "quote": "Composite responsea 174/336 (51.8) 140/298 (47.0) 5.3 (-2.4, 13.0) ... Composite responsea 172/292 (58.9) 121/275 (44.0) 14.4 (6.4, 22.4)",
-     "quote_source": "label",
-     "verdict": "supported"
-    },
-    {
      "text": "most common adverse reactions",
      "quote": "The most common adverse reactions occurring in ≥1% of patients are diarrhea, nausea, abdominal pain, flatulence, headache, soft feces, dizziness, vomiting, and vulvovaginal candidiasis.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "non-inferior to nitrofurantoin in both trials",
+     "quote": "BLUJEPA was non-inferior to nitrofurantoin in both studies.",
      "quote_source": "label",
      "verdict": "supported"
     }
@@ -893,6 +887,43 @@
     {
      "text": "network MA: D-mannose RR 0.34 vs placebo",
      "quote": "D-mannose (risk ratio [RR] 0.34, 0.21 to 0.56), vaccine (RR 0.65, 0.52 to 0.82), probiotics (RR 0.69, 0.50 to 0.94), cranberry (RR 0.72, 0.60 to 0.87)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "kind": "journal",
+   "cited_as": "Wagenlehner F, Perry CR, Hooton TM, et al. Oral gepotidacin versus nitrofurantoin in patients with uncomplicated urinary tract infection (EAGLE-2 and EAGLE-3): two randomised, controlled, double-blind, double-dummy, phase 3, non-inferiority trials. Lancet. 2024;403(10428):741-755.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38342126/",
+   "pmid": "38342126",
+   "doi": "10.1016/S0140-6736(23)02196-7",
+   "record_title": "Oral gepotidacin versus nitrofurantoin in patients with uncomplicated urinary tract infection (EAGLE-2 and EAGLE-3): two randomised, controlled, double-blind, double-dummy, phase 3, non-inferiority trials.",
+   "record_journal": "Lancet",
+   "record_year": "2024",
+   "article_type": "Randomized Controlled Trial; Equivalence Trial",
+   "version_or_date": "2024;403(10428):741-755",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": [],
+   "notes": "Scite verify_papers quota exhausted until 2026-12-14; PubMed article types checked, no retraction or erratum type listed.",
+   "claims": [
+    {
+     "text": "therapeutic success 50.6% vs 47.0% in EAGLE-2",
+     "quote": "In EAGLE-2, 162 (50·6%) of 320 patients assigned gepotidacin and 135 (47·0%) of 287 patients assigned nitrofurantoin had therapeutic success",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "therapeutic success 58.5% vs 43.6% in EAGLE-3",
+     "quote": "In EAGLE-3, 162 (58·5%) of 277 patients assigned gepotidacin and 115 (43·6%) of 264 patients assigned nitrofurantoin had therapeutic success",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "non-inferior in both trials, superior in EAGLE-3",
+     "quote": "Gepotidacin was non-inferior to nitrofurantoin in both studies and superior to nitrofurantoin in EAGLE-3.",
      "quote_source": "abstract",
      "verdict": "supported"
     }

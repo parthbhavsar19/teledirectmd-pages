@@ -1000,6 +1000,87 @@
      "verdict": "supported"
     }
    ]
+  },
+  {
+   "n": 27,
+   "kind": "label",
+   "cited_as": "U.S. Food and Drug Administration. PIVYA (pivmecillinam) tablets prescribing information. Revised 4/2024. FDA label (PDF).",
+   "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/216483s000lbl.pdf",
+   "version_or_date": "Revised 4/2024; read 2026-11-18",
+   "retrieved_with": "Monid firecrawl /scrape of FDA label PDF",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": [],
+   "notes": "",
+   "claims": [
+    {
+     "text": "Pivya indicated for women 18+ with uUTI",
+     "quote": "PIVYA is indicated for the treatment of female patients 18 years of age and older with uncomplicated urinary tract infections (uUTI)",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "kind": "label",
+   "cited_as": "U.S. Food and Drug Administration. BLUJEPA (gepotidacin) tablets prescribing information. Revised 3/2025. FDA label (PDF).",
+   "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/218230s000lbl.pdf",
+   "version_or_date": "Revised 3/2025; read 2026-11-18",
+   "retrieved_with": "Monid firecrawl /scrape of FDA label PDF",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": [],
+   "notes": "",
+   "claims": [
+    {
+     "text": "Blujepa for female patients 12+ weighing at least 40 kg with uUTI",
+     "quote": "indicated for the treatment of female adult and pediatric patients 12 years of age and older weighing at least 40 kilograms (kg) with uncomplicated urinary tract infections (uUTI)",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "QTc warning",
+     "quote": "QTc Prolongation: Avoid use of BLUJEPA in patients with a history of QTc prolongation, or with relevant pre-existing cardiac disease, and in patients receiving drugs that prolong the QTc interval.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "kind": "journal",
+   "cited_as": "Wagenlehner F, Perry CR, Hooton TM, et al. Oral gepotidacin versus nitrofurantoin in patients with uncomplicated urinary tract infection (EAGLE-2 and EAGLE-3): two randomised, controlled, double-blind, double-dummy, phase 3, non-inferiority trials. Lancet. 2024;403(10428):741-755.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38342126/",
+   "pmid": "38342126",
+   "doi": "10.1016/S0140-6736(23)02196-7",
+   "record_title": "Oral gepotidacin versus nitrofurantoin in patients with uncomplicated urinary tract infection (EAGLE-2 and EAGLE-3): two randomised, controlled, double-blind, double-dummy, phase 3, non-inferiority trials.",
+   "record_journal": "Lancet",
+   "record_year": "2024",
+   "article_type": "Randomized Controlled Trial; Equivalence Trial",
+   "version_or_date": "2024;403(10428):741-755",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": [],
+   "notes": "Scite verify_papers quota exhausted until 2026-12-14; PubMed article types checked, no retraction or erratum type listed.",
+   "claims": [
+    {
+     "text": "therapeutic success 50.6% vs 47.0% in EAGLE-2",
+     "quote": "In EAGLE-2, 162 (50·6%) of 320 patients assigned gepotidacin and 135 (47·0%) of 287 patients assigned nitrofurantoin had therapeutic success",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "therapeutic success 58.5% vs 43.6% in EAGLE-3",
+     "quote": "In EAGLE-3, 162 (58·5%) of 277 patients assigned gepotidacin and 115 (43·6%) of 264 patients assigned nitrofurantoin had therapeutic success",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "non-inferior in both trials, superior in EAGLE-3",
+     "quote": "Gepotidacin was non-inferior to nitrofurantoin in both studies and superior to nitrofurantoin in EAGLE-3.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
   }
  ]
 }
