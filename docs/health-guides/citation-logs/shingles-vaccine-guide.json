@@ -1,0 +1,393 @@
+{
+ "guide": "shingles-vaccine-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 17 verified (all 7 journal DOIs kept plus the 9 cut journal refs and Oxman 2005), retractions: none; no editorial notices. Contrasting evidence flagged for Lal 2015 (real-world effectiveness slightly lower than trial; page labels figures as trial results) and for cut refs Oxman, Kawai, Beutner, Cobo, Yawn. PubMed article types checked: no Retracted Publication or Retraction Notice.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "journal",
+   "cited_as": "Lal H, Cunningham AL, Godeaux O, et al. Efficacy of an adjuvanted herpes zoster subunit vaccine in older adults. New England Journal of Medicine. 2015;372(22):2087-2096. PMID: 25916341.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25916341/",
+   "pmid": "25916341",
+   "doi": "10.1056/NEJMoa1501184",
+   "record_title": "Efficacy of an adjuvanted herpes zoster subunit vaccine in older adults.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2015",
+   "article_type": "Clinical Trial, Phase III; Randomized Controlled Trial (PubMed)",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite flagged one contrasting citation (preprint 10.21203/rs.3.rs-6616279/v1) reporting slightly lower real-world effectiveness than the trial; the page labels 97.2% as a trial result. The old figures 81.5%, 46.3% and 96% are not in the abstract and were removed; reaction rates now come from the FDA label (ref 9).",
+   "claims": [
+    {
+     "text": "ZOE-50 efficacy against shingles 97.2% in adults 50 and older (citable summary, takeaway, efficacy section, chart, FAQ)",
+     "quote": "Overall vaccine efficacy against herpes zoster was 97.2% (95% confidence interval [CI], 93.7 to 99.0; P<0.001).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sore arm and short-term systemic reactions are common",
+     "quote": "Solicited reports of injection-site and systemic reactions within 7 days after vaccination were more frequent in the vaccine group.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "journal",
+   "cited_as": "Cunningham AL, Lal H, Kovac M, et al. Efficacy of the herpes zoster subunit vaccine in adults 70 years of age or older. New England Journal of Medicine. 2016;375(11):1019-1032. PMID: 27626517.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27626517/",
+   "pmid": "27626517",
+   "doi": "10.1056/NEJMoa1603800",
+   "record_title": "Efficacy of the Herpes Zoster Subunit Vaccine in Adults 70 Years of Age or Older.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2016",
+   "article_type": "Clinical Trial, Phase III; Randomized Controlled Trial (PubMed)",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Pooled ZOE-50/ZOE-70 efficacy 91.3% in adults 70 and older; 88.8% against PHN (takeaway, efficacy section, chart, FAQ, citable summary)",
+     "quote": "In pooled analyses of data from participants 70 years of age or older in ZOE-50 and ZOE-70 (16,596 participants), vaccine efficacy against herpes zoster was 91.3%",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Efficacy against PHN 88.8% in adults 70 and older",
+     "quote": "vaccine efficacy against postherpetic neuralgia was 88.8% (95% CI, 68.7 to 97.1; P<0.001)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "guideline",
+   "cited_as": "Dooling KL, Guo A, Patel M, et al. Recommendations of the Advisory Committee on Immunization Practices for use of herpes zoster vaccines. MMWR Morbidity and Mortality Weekly Report. 2018;67(3):103-108. PMID: 29370152.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29370152/",
+   "pmid": "29370152",
+   "pmcid": "PMC5812314",
+   "doi": "10.15585/mmwr.mm6703a5",
+   "record_title": "Recommendations of the Advisory Committee on Immunization Practices for Use of Herpes Zoster Vaccines.",
+   "record_journal": "MMWR Morb Mortal Wkly Rep",
+   "record_year": "2018",
+   "article_type": "Journal Article (ACIP recommendation)",
+   "version_or_date": "ACIP vote October 25, 2017; MMWR January 26, 2018",
+   "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC) + Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "No longer cited for the November 2020 Zostavax date (now CDC, ref 8) or for the shortened 1 to 2 month interval (Anderson and CDC).",
+   "claims": [
+    {
+     "text": "ACIP preferred Shingrix (RZV) over the older live vaccine (ZVL, Zostavax) in 2017",
+     "quote": "RZV is preferred over ZVL for the prevention of herpes zoster and related complications.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Zostavax was a single-dose live attenuated vaccine",
+     "quote": "Zoster Vaccine Live (ZVL) (Zostavax, Merck and Co., Inc., Whitehouse Station, New Jersey), a 1-dose live attenuated strain of VZV",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "ACIP recommends two doses for immunocompetent adults 50 and older",
+     "quote": "Recombinant zoster vaccine (RZV) is recommended for the prevention of herpes zoster and related complications for immunocompetent adults aged ≥50 years.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Standard series two doses 2 to 6 months apart",
+     "quote": "Following the first dose of RZV, the second dose should be given 2–6 months later",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "PHN is the most common complication",
+     "quote": "Postherpetic neuralgia, commonly defined as persistent pain for at least 90 days following the resolution of the herpes zoster rash, is the most common complication",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Preferred because of higher and longer-lasting efficacy",
+     "quote": "As a result of higher and more long-lasting efficacy, RZV is estimated to prevent more herpes zoster and postherpetic neuralgia compared with ZVL.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Complete both doses even after a reaction to the first dose",
+     "quote": "vaccine recipients should be encouraged to complete the series even if they experienced a grade 1–3 reaction to the first dose of RZV.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Contraindicated after severe allergic reaction to a vaccine component",
+     "quote": "RZV should not be administered to persons with a history of severe allergic reaction, such as anaphylaxis, to any component of this vaccine.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Deferred during active shingles",
+     "quote": "RZV is not a treatment for herpes zoster or postherpetic neuralgia and should not be administered during an acute episode of herpes zoster.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clinician helps time vaccination around immune-suppressing treatment (schedule paragraph; ACIP 2017 guidance on low-dose immunosuppression and anticipated immunosuppression)",
+     "quote": "ACIP recommends the use of RZV in persons taking low-dose immunosuppressive therapy (e.g., <20 mg/day of prednisone or equivalent or using inhaled or topical steroids) and persons anticipating immunosuppression",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "guideline",
+   "cited_as": "Anderson TC, Masters NB, Guo A, et al. Use of recombinant zoster vaccine in immunocompromised adults aged 19 years and older: recommendations of the Advisory Committee on Immunization Practices, United States, 2022. MMWR Morbidity and Mortality Weekly Report. 2022;71(3):80-84. PMID: 35051134.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35051134/",
+   "pmid": "35051134",
+   "pmcid": "PMC8774159",
+   "doi": "10.15585/mmwr.mm7103a2",
+   "record_title": "Use of Recombinant Zoster Vaccine in Immunocompromised Adults Aged ≥19 Years: Recommendations of the Advisory Committee on Immunization Practices - United States, 2022.",
+   "record_journal": "MMWR Morb Mortal Wkly Rep",
+   "record_year": "2022",
+   "article_type": "Journal Article (ACIP recommendation)",
+   "version_or_date": "ACIP vote October 20, 2021; MMWR January 21, 2022",
+   "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC) + Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Quote keeps the missing space ('yearswho') as printed in the retrieved text. Page now says the vote was October 2021 (published January 2022), not '2022'.",
+   "claims": [
+    {
+     "text": "ACIP (October 2021) recommends two doses for adults 19 and older who are or will be immunodeficient or immunosuppressed",
+     "quote": "On October 20, 2021, ACIP recommended 2 doses of RZV for the prevention of herpes zoster and related complications in adults aged ≥19 yearswho are or will be immunodeficient or immunosuppressed",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Risk of shingles and complications generally higher in immunocompromised adults",
+     "quote": "The risk for herpes zoster and related complications is generally higher in immunocompromised compared with immunocompetent adults",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Shortened 1 to 2 month interval for immunocompromised adults who would benefit",
+     "quote": "for persons who are or will be immunodeficient or immunosuppressed and who would benefit from a shorter vaccination schedule, the second dose can be administered 1–2 months after the first",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Shingrix is not a live vaccine",
+     "quote": "RZV is not a live virus vaccine",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Vaccinate before immune suppression when possible, otherwise during lower immunosuppression and stable disease",
+     "quote": "When possible, patients should be vaccinated before becoming immunosuppressed. Otherwise, providers should consider timing vaccination when the immune response is likely to be most robust (i.e., during periods of lower immunosuppression and stable disease).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Deferred during moderate or severe acute illness",
+     "quote": "In general, vaccination should be delayed for patients experiencing moderate or severe acute illness",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Deferred during active shingles",
+     "quote": "If a person is experiencing an episode of herpes zoster, vaccination should be delayed until the acute stage of the illness is over and symptoms abate",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Dagnew AF, Ilhan O, Lee WS, et al. Immunogenicity and safety of the adjuvanted recombinant zoster vaccine in adults with haematological malignancies: a phase 3, randomised, clinical trial and post-hoc efficacy analysis. Lancet Infectious Diseases. 2019;19(9):988-1000. PMID: 31399377.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31399377/",
+   "pmid": "31399377",
+   "doi": "10.1016/S1473-3099(19)30163-X",
+   "record_title": "Immunogenicity and safety of the adjuvanted recombinant zoster vaccine in adults with haematological malignancies: a phase 3, randomised, clinical trial and post-hoc efficacy analysis.",
+   "record_journal": "Lancet Infect Dis",
+   "record_year": "2019",
+   "article_type": "Clinical Trial, Phase III; Randomized Controlled Trial (PubMed)",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Phase 3 randomized trial evaluated immunogenicity and safety in adults with hematologic malignancies vaccinated during or after immunosuppressive cancer treatment",
+     "quote": "we randomly assigned (1:1) patients with haematological malignancies aged 18 years and older to receive two doses of the adjuvanted recombinant zoster vaccine or placebo 1-2 months apart during or after immunosuppressive cancer treatments",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Strezova A, Diez-Domingo J, Al Shawafi K, et al. Long-term protection against herpes zoster by the adjuvanted recombinant zoster vaccine: interim efficacy, immunogenicity, and safety results up to 10 years after initial vaccination. Open Forum Infectious Diseases. 2022;9(10):ofac485. PMID: 36299530.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36299530/",
+   "pmid": "36299530",
+   "pmcid": "PMC9588150",
+   "doi": "10.1093/ofid/ofac485",
+   "record_title": "Long-term Protection Against Herpes Zoster by the Adjuvanted Recombinant Zoster Vaccine: Interim Efficacy, Immunogenicity, and Safety Results up to 10 Years After Initial Vaccination.",
+   "record_journal": "Open Forum Infect Dis",
+   "record_year": "2022",
+   "article_type": "Journal Article (interim analysis of follow-up study)",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Was in the evidence strip with no claim; now supports the interim-analysis sentence. Title corrected to include 'interim efficacy, immunogenicity, and safety'.",
+   "claims": [
+    {
+     "text": "Interim analysis: efficacy remained high about 10 years after vaccination",
+     "quote": "Approximately 10 years after vaccination with the recombinant zoster vaccine (RZV), an interim analysis of this follow-up study of the ZOE-50/70 trials demonstrated that efficacy against herpes zoster remained high.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Strezova A, Díez Domingo J, Cunningham AL, et al. Final analysis of the ZOE-LTFU trial to 11 years post-vaccination: efficacy of the adjuvanted recombinant zoster vaccine against herpes zoster and related complications. EClinicalMedicine. 2025;83:103241. PMID: 40630610.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40630610/",
+   "pmid": "40630610",
+   "pmcid": "PMC12235393",
+   "doi": "10.1016/j.eclinm.2025.103241",
+   "record_title": "Final analysis of the ZOE-LTFU trial to 11 years post-vaccination: efficacy of the adjuvanted recombinant zoster vaccine against herpes zoster and related complications.",
+   "record_journal": "EClinicalMedicine",
+   "record_year": "2025",
+   "article_type": "Journal Article (open-label phase 3b follow-up)",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract: 'ZOE-LTFU (NCT02723773) was an open-label, phase 3b study' and 'The VE calculation used a historical control constructed with ZOE-50/70 placebo data.' GSK-funded. Page states the open-label, historical-control design.",
+   "claims": [
+    {
+     "text": "87.7% from 1 month after dose 2 through end of follow-up in adults 50+, 82.0% in year 11; open-label with historical placebo control",
+     "quote": "From 1 month post-dose 2 in ZOE-50/70 to the end of ZOE-LTFU, VE against HZ was 87·7% (95% CI: 84·9, 90·1) in participants ≥50 years and sustained at 82·0% (95% CI: 63·0, 92·2) in the eleventh year post-vaccination.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. Shingles Vaccine Recommendations (Information for Healthcare Professionals). Last reviewed October 22, 2024. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/shingles/hcp/vaccine-considerations/index.html",
+   "retrieved_with": "WebFetch of official CDC page; full text also via Monid firecrawl /scrape",
+   "version_or_date": "Last reviewed October 22, 2024; updated July 19, 2024",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New reference. Replaces the 2005 and 2018 sources for the Zostavax availability date. Page also says to wait at least 8 weeks after Zostavax before Shingrix (not added to the guide).",
+   "claims": [
+    {
+     "text": "Zostavax no longer available in the United States since November 18, 2020",
+     "quote": "Zostavax is no longer available for use in the United States, as of November 18, 2020.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Shingrix recommended whether or not the person previously received Zostavax",
+     "quote": "Whether or not they report a prior dose of Zostavax, a shingles vaccine that is no longer available for use in the United States.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC's current recommendations match ACIP (50+; 19+ immunocompromised)",
+     "quote": "CDC recommends 2 doses of RZV to prevent shingles in adults aged ≥19 years who are or will be immunodeficient or immunosuppressed because of disease or therapy.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Shortened interval for immunocompromised adults who would benefit from completing the series sooner",
+     "quote": "for persons who are or will be immunodeficient or immunosuppressed and who would benefit from completing the series in a shorter period, the second dose can be administered 1–2 months after the first.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "label",
+   "cited_as": "GlaxoSmithKline Biologicals. SHINGRIX (Zoster Vaccine Recombinant, Adjuvanted) prescribing information. U.S. Food and Drug Administration. Revised February 2026. Accessed November 15, 2026.",
+   "url": "https://www.fda.gov/media/108597/download",
+   "retrieved_with": "WebFetch of FDA-hosted prescribing information PDF",
+   "version_or_date": "Revised: 2/2026",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New reference. The fetch tool returns label sentences in pieces under its quote limit; quotes below are the pieces joined. Label also carries a Guillain-Barre syndrome warning (increased risk observed in the 42 days after vaccination in postmarketing observational studies); the guide does not discuss GBS, and none was added (flagged in CHANGES.md).",
+   "claims": [
+    {
+     "text": "Solicited local reactions in adults 50+: pain 78%, redness 38%, swelling 26%",
+     "quote": "Solicited local adverse reactions reported in individuals aged 50 years and older were pain (78%), redness (38%), and swelling (26%).",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Solicited general reactions in adults 50+: myalgia 45%, fatigue 45%, headache 38%, shivering 27%, fever 21%, gastrointestinal symptoms 17%",
+     "quote": "Solicited general adverse reactions reported in individuals aged 50 years and older were myalgia (45%), fatigue (45%), headache (38%), shivering (27%), fever (21%), and gastrointestinal symptoms (17%).",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Reactions had a median duration of 2 to 3 days",
+     "quote": "The local and general adverse reactions seen with SHINGRIX had a median duration of 2 to 3 days.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Contraindicated after severe allergic reaction to a component or after a previous dose",
+     "quote": "Do not administer SHINGRIX to anyone with a history of a severe allergic reaction (e.g., anaphylaxis) to any component of the vaccine or after a previous dose of SHINGRIX",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Shortened 1 to 2 month schedule for immunocompromised adults who would benefit",
+     "quote": "For individuals who are or will be immunodeficient or immunosuppressed and who would benefit from a shorter vaccination schedule: A first dose at Month 0 followed by a second dose administered 1 to 2 months later.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. Recombinant Zoster (Shingles) Vaccine: What You Need to Know. Vaccine Information Statement, current edition February 4, 2022. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/vaccines/hcp/current-vis/shingles.html",
+   "retrieved_with": "WebFetch of official CDC page; full text via Monid firecrawl /scrape (statusCode 200)",
+   "version_or_date": "Current edition February 4, 2022",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New reference. Supports the severe-allergic-reaction red flag; the guide's old wording ('Seek urgent care') was strengthened to the VIS instruction to call 911.",
+   "claims": [
+    {
+     "text": "Severe allergic reaction signs: call 911 (hives, face and throat swelling, trouble breathing, fast heartbeat, dizziness, weakness)",
+     "quote": "If you see signs of a severe allergic reaction (hives, swelling of the face and throat, difficulty breathing, a fast heartbeat, dizziness, or weakness), call 9-1-1 and get the person to the nearest hospital.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Side effects can keep people from usual activities and usually resolve in 2 to 3 days",
+     "quote": "These side effects may temporarily prevent a vaccinated person from doing regular activities. Symptoms usually go away on their own in 2 to 3 days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Get the second dose even after a reaction to the first",
+     "quote": "You should still get the second dose of recombinant shingles vaccine even if you had one of these reactions after the first dose.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}
