@@ -1,0 +1,944 @@
+{
+ "guide": "impetigo-guide",
+ "checked_at": "2026-11-18",
+ "checked_by": "Claude (repair run; reworked for adults and children 2026-11-18)",
+ "scite_verify_papers": "run 2026-11-18; 4 cited DOIs verified (10.1093/cid/ciu296, 10.1093/cid/ciu444 checked as the related IDSA record, 10.1002/14651858.CD003261.pub3, 10.3399/bjgp20X714149), plus the dropped Daum NEJM 2007 DOI (verified); AFP 2026 has no DOI and Scite could not verify it (PubMed record confirms it); retractions: none",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "pmid": "24973422",
+   "doi": "10.1093/cid/ciu296",
+   "record_title": "Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections: 2014 Update by the Infectious Diseases Society of America",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2014",
+   "article_type": "Practice Guideline",
+   "version_or_date": "2014 update; Clin Infect Dis 59(2):e10-e52; published July 15, 2014; read 2026-11-18",
+   "retrieved_with": "PubMed get_article_metadata (PMIDs 24947530 and 24973422); WebFetch of academic.oup.com full text (title, DOI and pages read from the publisher page)",
+   "notes": "Publisher page shows DOI 10.1093/cid/ciu296 for the full guideline (pages e10-e52); PubMed pairs ciu296 with the executive summary record 24947530 (pages 147-159) and lists ciu444 for 24973422 (e10-52), so the PubMed DOI mapping is swapped relative to the publisher. Old citation gave pages 147-159 (executive summary) with a PubMed link; corrected to the full guideline. Scite verify_papers: ciu296 verified as the full guideline, no editorial notices; ciu444 verified, no notices, one contrasting citation about blood culture positivity in cellulitis (not relevant to impetigo claims). PubMed article types: Journal Article, Practice Guideline; no Retracted Publication. Quotes via WebFetch extraction of the full text; some long sentences quoted in part.",
+   "claims": [
+    {
+     "text": "Mupirocin or retapamulin twice daily for 5 days for bullous and nonbullous impetigo (mild bullous can be treated topically)",
+     "quote": "Treatment of bullous and nonbullous impetigo should be with either mupirocin or retapamulin twice daily (bid) for 5 days (strong, high).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Bullous and nonbullous impetigo can be treated topically or orally; oral therapy for numerous lesions or outbreaks",
+     "quote": "Bullous and nonbullous impetigo can be treated with oral or topical antimicrobials, but oral therapy is recommended for patients with numerous lesions or in outbreaks affecting several people",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Oral course is a 7-day regimen active against S. aureus",
+     "quote": "Oral therapy for ecthyma or impetigo should be a 7-day regimen with an agent active against S. aureus",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dicloxacillin or cephalexin because impetigo staph is usually methicillin susceptible; most impetigo staph is not MRSA",
+     "quote": "Because S. aureus isolates from impetigo and ecthyma are usually methicillin susceptible, dicloxacillin or cephalexin is recommended.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Doxycycline, clindamycin, or TMP-SMX when MRSA suspected or confirmed",
+     "quote": "When MRSA is suspected or confirmed, doxycycline, clindamycin, or sulfamethoxazole-trimethoprim (SMX-TMP) is recommended",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ecthyma should be treated with an oral antibiotic",
+     "quote": "Treatment for ecthyma should be an oral antimicrobial.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Table: impetigo treated with topical or oral antibiotics",
+     "quote": "Bullous and nonbullous impetigo can be treated with oral or topical antimicrobials",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ],
+   "cited_as": "Stevens DL, Bisno AL, Chambers HF, et al. Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections: 2014 Update by the Infectious Diseases Society of America. Clinical Infectious Diseases. 2014;59(2):e10-e52. doi:10.1093/cid/ciu296. academic.oup.com",
+   "url": "https://academic.oup.com/cid/article/59/2/e10/2895845",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": []
+  },
+  {
+   "n": 2,
+   "kind": "journal",
+   "pmid": "22258953",
+   "pmcid": "PMC7025440",
+   "doi": "10.1002/14651858.CD003261.pub3",
+   "record_title": "Interventions for impetigo.",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2012",
+   "article_type": "Meta-Analysis; Systematic Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "version_or_date": "2012 update; searches to July 2010",
+   "notes": "Scite verify_papers: verified, no editorial notices. PubMed article types: no Retracted Publication. PubMed search found no newer Cochrane impetigo review. Abstract-only claims; evidence searched to 2010.",
+   "claims": [
+    {
+     "text": "Topical antibiotics cured more people than placebo",
+     "quote": "Topical antibiotic treatment showed better cure rates than placebo (pooled risk ratio (RR) 2. 24, 95% confidence interval (CI) 1.61 to 3.13) in 6 studies with 575 participants.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Topical mupirocin and fusidic acid as effective as or more effective than oral antibiotics; unclear for extensive impetigo",
+     "quote": "There is good evidence that topical mupirocin and topical fusidic acid are equally, or more, effective than oral treatment. Due to the lack of studies in people with extensive impetigo, it is unclear if oral antibiotics are superior",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Little evidence for disinfectants; topical antibiotics better than disinfecting treatments",
+     "quote": "There was a lack of evidence for the benefit of using disinfectant solutions. When 2 studies with 292 participants were pooled, topical antibiotics were significantly better than disinfecting treatments",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "cited_as": "Koning S, van der Sande R, Verhagen AP, et al. Interventions for impetigo. Cochrane Database of Systematic Reviews. 2012;(1):CD003261. doi:10.1002/14651858.CD003261.pub3. PubMed 22258953",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22258953/",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": []
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "pmid": "41839109",
+   "record_title": "Impetigo: Rapid Evidence Review.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2026",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Monid firecrawl /scrape of aafp.org article page (abstract, What's New sidebar and SORT table readable; body behind login)",
+   "version_or_date": "Am Fam Physician 2026;113(2):175-180 (Feb 15, 2026)",
+   "notes": "No DOI in PubMed or on the page; link goes to the publisher article page (old link was PubMed). Scite verify_papers could not verify (no DOI match); identity confirmed by PubMed record. PubMed article types: no Retracted Publication. Body paywalled; only abstract, sidebar and SORT table used. Ozenoxacin discontinuation is this single source; DailyMed search for ozenoxacin returned 0 labels on 2026-11-18, consistent with it.",
+   "claims": [
+    {
+     "text": "Most common in children 2 to 5; more than 3 million U.S. cases a year",
+     "quote": "Impetigo is a superficial skin infection that most commonly affects children 2 to 5 years of age. In the United States, more than 3 million cases of impetigo occur annually.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nonbullous about 70 percent, bullous about 30 percent; caused by group A strep and S. aureus",
+     "quote": "Impetigo can be nonbullous (70%) or bullous (30%) and is most commonly caused by group A streptococcus and Staphylococcus aureus.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clinical diagnosis; culture considered for treatment failure, recurrence, or uncertainty",
+     "quote": "Cultures of impetigo lesions should be considered in cases of inadequate response to therapy, recurrence, or diagnostic uncertainty.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Papules progress to ruptured blisters over 4 to 6 days with honey-colored crusts; suspect impetigo",
+     "quote": "should be suspected in individuals with erythematous papules that progress to ruptured vesicles or bullae over 4 to 6 days, forming honey-colored crusts.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Risk factors: skin barrier disruption, poor hygiene, crowding, hot humid climates, malnutrition, diabetes",
+     "quote": "Risk factors for impetigo include disruptions to the skin barrier, poor hygiene, crowded living environments, living in hot and humid climates, malnutrition, and diabetes.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Mupirocin 2% or retapamulin 1% first for mild nonbullous and bullous impetigo",
+     "quote": "Topical mupirocin 2% ointment or retapamulin 1% ointment are the recommended initial treatments for mild, nonbullous and bullous impetigo.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Oral dicloxacillin or cephalexin targeting strep and S. aureus for outbreaks or severe multilesional disease not responding in 3 to 5 days",
+     "quote": "Oral antibiotics, such as dicloxacillin or cephalexin, should be targeted to group A streptococci and S. aureus and are recommended for outbreaks to decrease infection transmission or for severe, multilesional disease that does not respond to topical therapy within 3 to 5 days.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Return 12 to 24 hours after starting antibiotics or on clinical improvement; hand hygiene and washing objects reduce spread and recurrence",
+     "quote": "Reducing the spread and recurrence of impetigo includes good hand hygiene, thoroughly washing objects used by people with impetigo, and refraining from returning to work or school until 12 to 24 hours after initiating antibiotic treatment or clinical improvement occurs.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ozenoxacin FDA approved 2017, discontinued in the US as of September 2025",
+     "quote": "approved by the US Food and Drug Administration in 2017 for the treatment of impetigo; however, it has been discontinued in the United States as of September 2025 and is expensive.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "cited_as": "Trang DT, Buck EC, Schoenherr DT. Impetigo: Rapid Evidence Review. American Family Physician. 2026;113(2):175-180. PMID 41839109. aafp.org",
+   "url": "https://www.aafp.org/afp/2026/0200/impetigo",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": []
+  },
+  {
+   "n": 4,
+   "kind": "agency_page",
+   "retrieved_with": "Monid firecrawl /scrape of official page (WebFetch summarized only)",
+   "version_or_date": "Published May 15, 2024; updated and reviewed Aug. 6, 2025",
+   "notes": "Old citation said only \"Updated 2025\"; old claims of a 24 to 48 hour contagious window, dry-crust endpoint and daily linen washing are not on this page and were removed from this reference.",
+   "claims": [
+    {
+     "text": "Caused by group A strep, S. aureus, or both",
+     "quote": "Impetigo is a skin infection caused by bacteria: either group A Streptococcus, Staphylococcus aureus, or both.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Red, itchy sores that break open, leak fluid or pus, form honey-colored scab",
+     "quote": "Symptoms include red, itchy sores that break open and leak a clear fluid or pus for a few days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Crusty yellow or honey-colored scab; heals without scarring",
+     "quote": "Next, a crusty yellow or \"honey-colored\" scab forms over the sore, which then heals without leaving a scar.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Exposed skin; arms, legs, mouth, nose",
+     "quote": "The sores can occur anywhere on the body but most often affect exposed skin.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Incubation about 10 days for group A strep",
+     "quote": "It usually takes 10 days for sores to appear after someone is exposed to group A strep bacteria.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Bacteria often spread to household members",
+     "quote": "For example, if someone has impetigo, the bacteria often spread to other people in their household.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Crowded settings: daycare and schools, detention facilities, shelters, military training",
+     "quote": "Crowded conditions can increase the risk of spreading impetigo. These settings include: Daycare centers and schools Detention or correctional facilities Homeless shelters Military training facilities",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Return to work or school after starting antibiotics with sores covered",
+     "quote": "People with impetigo can return to work, school, or daycare if they have started antibiotic treatment. They should also cover all sores on exposed skin.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Complications rare, include PSGN",
+     "quote": "Very rarely, complications can include post-streptococcal glomerulonephritis and rheumatic fever.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "cited_as": "Centers for Disease Control and Prevention. About Impetigo. Group A Strep. Updated August 6, 2025. Accessed November 18, 2026. cdc.gov",
+   "url": "https://www.cdc.gov/group-a-strep/about/impetigo.html",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": []
+  },
+  {
+   "n": 5,
+   "kind": "agency_page",
+   "retrieved_with": "Monid firecrawl /scrape of official page",
+   "version_or_date": "Published May 15, 2024; updated and reviewed Aug. 5, 2025",
+   "notes": "Page states return at least 12 hours after antibiotics; footnote (citing AAP Red Book) adds 24 hours for health care workers or outbreaks. The AAP 24-hour pediatric statement was removed from the adult guide.",
+   "claims": [
+    {
+     "text": "Bullous caused by toxin-producing S. aureus; nonbullous by S. aureus, S. pyogenes, or both",
+     "quote": "Bullous: Caused by toxin-producing S. aureus Non-bullous: Caused by S. aureus, S. pyogenes, or both",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antibiotics should target both organisms",
+     "quote": "Antibiotic treatment should target both group A strep and S. aureus.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Close contact including drainage is the most common risk factor",
+     "quote": "Contact with someone else with impetigo is the most common risk factor for infection. This includes contact with drainage from impetigo lesions.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pustules break down into thick crusts; golden or honey colored",
+     "quote": "Break down into thick, adherent crusty lesions The crusts are typically golden or \"honey colored.\"",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lesions most often on face and extremities",
+     "quote": "They most commonly appear on the face and extremities but can occur anywhere on the body.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Topical mupirocin or retapamulin with few lesions; oral with multiple",
+     "quote": "Oral: Use with multiple lesions Topical(mupirocin or retapamulin): Use with only a few lesions",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antibiotics limit transmission; return at least 12 hours after starting antibiotics with lesions covered",
+     "quote": "Antibiotic treatment limits someone's ability to transmit group A strep bacteria. People with impetigo can return to school or work at least 12 hours after initiating antibiotic treatment",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Children: not back to school or child care until well appearing and at least 12 hours after antibiotics (CDC citing AAP Red Book)",
+     "quote": "children with group A strep infections should not return to school or a childcare setting until well appearing and at least 12 hours after beginning appropriate antibiotic therapy.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Consider staying home 24 hours for health care workers or outbreaks",
+     "quote": "In certain scenarios, such as an infection in a healthcare worker or in a group A strep outbreak setting, staying home for at least 24 hours after beginning appropriate antibiotics should be considered.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cover lesions to prevent spread to others and other body parts",
+     "quote": "People with impetigo should cover their lesions to help prevent spreading the infection to others and to other body parts.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Wash clothing, linens, towels daily; do not share",
+     "quote": "Clothing, linens, and towels used by someone with impetigo should be washed every day. They shouldn't be shared with others in the household.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Good hand hygiene reduces spread",
+     "quote": "Good hand hygiene and respiratory etiquette can reduce the spread of group A strep bacteria.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "PSGN delayed, 1 to 2 weeks after infection resolves, immune response",
+     "quote": "Post-streptococcal glomerulonephritis (PSGN) can occur as a delayed complication of impetigo. It most often occurs one to two weeks after the original infection resolves.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "cited_as": "Centers for Disease Control and Prevention. Clinical Guidance for Group A Streptococcal Impetigo. Updated August 5, 2025. Accessed November 18, 2026. cdc.gov",
+   "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/impetigo.html",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": []
+  },
+  {
+   "n": 6,
+   "kind": "other_web",
+   "retrieved_with": "Monid firecrawl /scrape of aad.org page",
+   "version_or_date": "No page date shown",
+   "notes": "Page has no bullous impetigo, blister-duration or 70/30 content; those claims moved to refs 3, 5 and 7.",
+   "claims": [
+    {
+     "text": "Also called school sores",
+     "quote": "Also called school sores",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Entry through cut, scratch, bug bite, rash, sore, burn",
+     "quote": "They can get in through a cut, scratch that barely breaks the skin, or bug bite. A rash, sore, or burn also provides a great entry point for the bacteria.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Scratching eczema or chickenpox breaks the skin",
+     "quote": "A child may get impetigo by scratching itchy eczema or chickenpox. The scratching breaks the skin, making it easy for the bacteria to get inside.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sometimes develops on unbroken skin",
+     "quote": "Sometimes impetigo develops on unbroken skin.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Wrestlers and football players; skin-to-skin contact",
+     "quote": "Most people get impetigo through skin-to-skin contact with someone who has it. Children and athletes like wrestlers and football players often get it this way.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Spreads via towels, sports equipment, clothing",
+     "quote": "You can get it from an infected towel or sports equipment. Wearing infected clothing is another way to get impetigo.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Goes away in a few weeks but treatment recommended to reduce complications and spread",
+     "quote": "Although impetigo will go away without treatment in a few weeks, treatment is recommended. By treating it, you reduce your risk of developing complications.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "cited_as": "American Academy of Dermatology. Impetigo: Overview. No page date shown. Accessed November 18, 2026. aad.org",
+   "url": "https://www.aad.org/public/diseases/a-z/impetigo-overview",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": []
+  },
+  {
+   "n": 7,
+   "kind": "other_web",
+   "retrieved_with": "WebFetch of NCBI Bookshelf page (readable this run; Monid firecrawl failed)",
+   "version_or_date": "StatPearls, last update July 31, 2023",
+   "notes": "Book chapter, no PMID/DOI. Authors per the chapter disclosures and the AFP 2026 reference list (Nardi NM, Schaefer TJ). Tertiary source. It states systemic antibiotics for all bullous impetigo, which conflicts with IDSA 2014 and AFP 2026 (topical for mild bullous); the guide follows the guidelines and names the disagreement. Its \"approximately 5%\" glomerulonephritis figure was dropped because CDC calls PSGN very rare. Old 24 to 48 hour contagious claim was a school/daycare statement and was removed.",
+   "claims": [
+    {
+     "text": "Common infection of the superficial layers of the epidermis; highly contagious",
+     "quote": "Impetigo is a common infection of the superficial layers of the epidermis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Highly contagious",
+     "quote": "The lesions are highly contagious and spread easily.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Bullous: small vesicles become flaccid bullae with clear or yellow fluid that rupture",
+     "quote": "Bullous impetigo begins with small vesicles that become flaccid bullae.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Bullae fluid clear or yellow",
+     "quote": "The bullae contain a clear or yellow fluid which eventually progresses to become purulent or dark.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "About 90 percent of bullous cases are in children under 2",
+     "quote": "Children younger than two account for 90% of cases of bullous impetigo.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Some texts advise oral antibiotics for all bullous impetigo",
+     "quote": "Systemic antibiotics should be prescribed for all cases of bullous impetigo",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Untreated heals in 14 to 21 days",
+     "quote": "Without treatment, the infection heals in 14-21 days.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "About 20 percent resolve on their own",
+     "quote": "About 20% of cases resolve spontaneously.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "With treatment cure within 10 days",
+     "quote": "With treatment, cure occurs within 10 days.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Scarring rare; pigment changes possible",
+     "quote": "Scarring is rare but some patients may develop pigmentation changes.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Remove crust with soap and water before topical antibiotic",
+     "quote": "The crust should be removed with soap and water before the application of topical antibiotic therapy.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ecthyma: deep form, ulcers through epidermis into dermis, punched out",
+     "quote": "Ulcerative lesions penetrate through the epidermis and deep into the dermis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ecthyma punched-out appearance",
+     "quote": "These ulcers appear as \"punched out\" lesions with violaceous margins.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ],
+   "cited_as": "Nardi NM, Schaefer TJ. Impetigo. StatPearls. Treasure Island (FL): StatPearls Publishing. Last update July 31, 2023. Accessed November 18, 2026. NCBI Bookshelf",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK430974/",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": []
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "pmid": "33558328",
+   "pmcid": "PMC7888755",
+   "doi": "10.3399/bjgp20X714149",
+   "record_title": "Natural history of non-bullous impetigo: a systematic review of time to resolution or improvement without antibiotic treatment.",
+   "record_journal": "Br J Gen Pract",
+   "record_year": "2021",
+   "article_type": "Journal Article; Systematic Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "notes": "Added this run (replaces the removed Daum NEJM 2007 slot) to show that untreated-course data vary widely. Scite verify_papers: verified (Scite lists year 2020, online-first), no editorial notices. PubMed article types: no Retracted Publication. Abstract only.",
+   "claims": [
+    {
+     "text": "At about 7 days, 13 to 74 percent resolved; 16 to 41 percent failed to improve",
+     "quote": "At about 7 days, the percentage of participants classified as resolved ranged from 13% to 74% across the studies, whereas the percentage classified as 'failure to improve' ranged from 16% to 41%.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "cited_as": "Hoffmann TC, Peiris R, Glasziou P, Cleo G, Del Mar C. Natural history of non-bullous impetigo: a systematic review of time to resolution or improvement without antibiotic treatment. British Journal of General Practice. 2021;71(704):e237-e242. PMID 33558328. doi:10.3399/bjgp20X714149",
+   "url": "https://doi.org/10.3399/bjgp20X714149",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": []
+  },
+  {
+   "n": 9,
+   "kind": "agency_page",
+   "retrieved_with": "Monid firecrawl /scrape of official page",
+   "version_or_date": "Review date 10/13/2024",
+   "notes": "Added this run.",
+   "claims": [
+    {
+     "text": "In adults may follow another skin problem or a cold or virus",
+     "quote": "In adults, it may occur following another skin problem. It may also develop after a cold or other virus.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "MRSA is an increasing cause",
+     "quote": "Methicillin-resistant staph aureus (MRSA) is an increasing cause.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lab sample can show MRSA",
+     "quote": "Your provider may take a sample of bacteria from your skin to grow in the lab. This can help determine if MRSA is the cause.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "See a clinician for impetigo symptoms",
+     "quote": "Contact your provider if you have symptoms of impetigo.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Avoid touching oozing blisters; wash hands; do not share towels, clothing, razors",
+     "quote": "Do not share towels, clothing, razors, and other personal care products with anyone. Avoid touching blisters that are oozing. Wash your hands thoroughly after touching infected skin.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "cited_as": "MedlinePlus Medical Encyclopedia. Impetigo. Review date October 13, 2024. Accessed November 18, 2026. medlineplus.gov",
+   "url": "https://medlineplus.gov/ency/article/000860.htm",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": []
+  },
+  {
+   "n": 10,
+   "kind": "other_web",
+   "retrieved_with": "Monid firecrawl /scrape of mayoclinic.org page",
+   "version_or_date": "Page dated April 19, 2023",
+   "notes": "Added this run.",
+   "claims": [
+    {
+     "text": "Older adults, diabetes, weakened immune system more likely to get impetigo",
+     "quote": "Older adults, people with diabetes or people with a weakened immune system are also more likely to get it.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Spread via clothing, bed linen, towels, toys",
+     "quote": "such as clothing, bed linen, towels and even toys.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Children with eczema more likely to develop impetigo",
+     "quote": "Children with other skin conditions, such as atopic dermatitis (eczema), are more likely to develop impetigo.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Spreads easily in schools and child care facilities",
+     "quote": "Impetigo spreads easily within families, in crowded settings, such as schools and child care facilities,",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cut a child's nails short",
+     "quote": "Cut an infected child's nails short to prevent damage from scratching.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Wear gloves applying ointment, wash hands afterward",
+     "quote": "Wear gloves when applying antibiotic ointment and wash your hands thoroughly afterward.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ecthyma: painful sores, deep ulcers, can scar",
+     "quote": "A more serious form of impetigo, called ecthyma, penetrates deeper into the skin causing painful fluid- or pus-filled sores that turn into deep ulcers.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ecthyma sores can leave scars",
+     "quote": "The sores associated with ecthyma can leave scars.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cellulitis potentially life-threatening, can spread to lymph nodes and bloodstream",
+     "quote": "Cellulitis. This potentially life-threatening infection affects the tissues underlying the skin and eventually may spread to the lymph nodes and bloodstream.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Typically not dangerous; mild sores heal without scarring; rare complications cellulitis, kidney problems, scarring",
+     "quote": "Impetigo typically isn't dangerous. And the sores in mild forms of the infection generally heal without scarring.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "cited_as": "Mayo Clinic Staff. Impetigo: Symptoms and causes. Mayo Clinic. April 19, 2023. Accessed November 18, 2026. mayoclinic.org",
+   "url": "https://www.mayoclinic.org/diseases-conditions/impetigo/symptoms-causes/syc-20352352",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": []
+  },
+  {
+   "n": 11,
+   "kind": "other_web",
+   "retrieved_with": "Monid firecrawl /scrape of clevelandclinic.org page",
+   "version_or_date": "Last updated 02/07/2023",
+   "notes": "Added this run. The page also says adults need not stay home from work if they avoid contact and keep sores covered; the guide follows CDC instead.",
+   "claims": [
+    {
+     "text": "Adults can get impetigo; after another skin issue or a cold; scabies, contact sports, close living",
+     "quote": "Yes, impetigo can affect adults. In adults, the condition may occur after another skin issue. Sometimes it develops after you've had a cold or another virus.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most common ages 2 to 5",
+     "quote": "Impetigo is the most common skin infection in kids between the ages of 2 and 5.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Highly contagious; yellowish-brown crust",
+     "quote": "Raw, shiny areas that scab over with a yellowish-brown crust.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cold sores caused by herpes simplex virus; impetigo bacterial",
+     "quote": "A bacteria causes impetigo, whereas cold sores are a symptom of the herpes simplex virus (HSV).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Can return, especially in young children who scratch and reopen scabs",
+     "quote": "Children are especially prone to scratching and opening their scabs, putting them at a higher risk of re-infection.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Condition can return especially in young children",
+     "quote": "Antibiotics can treat impetigo, but the condition can return, especially in young children.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Take the full course to prevent reinfection",
+     "quote": "Take all medication: Use your antibiotics for the full length of time your provider prescribed them to prevent re-infection.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clip fingernails; wash with antibacterial soap to remove crusts",
+     "quote": "Clip your (and your child's) fingernails regularly to avoid scratching.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Wash skin gently with antibacterial soap to remove crusts and drainage",
+     "quote": "Wash the skin gently a few times a day using antibacterial soap. This will remove crusts and drainage.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Glomerulonephritis can cause blood in urine",
+     "quote": "This inflammatory kidney disease can produce high blood pressure and blood in your pee (hematuria).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "cited_as": "Cleveland Clinic. Impetigo. Last updated February 7, 2023. Accessed November 18, 2026. clevelandclinic.org",
+   "url": "https://my.clevelandclinic.org/health/diseases/15134-impetigo",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": []
+  },
+  {
+   "n": 12,
+   "kind": "agency_page",
+   "retrieved_with": "Monid firecrawl /scrape of official page",
+   "version_or_date": "Published May 15, 2024; updated and reviewed Aug. 7, 2025",
+   "notes": "Added this run as the source for PSGN warning signs.",
+   "claims": [
+    {
+     "text": "PSGN: protein in urine, high blood pressure, dark reddish-brown urine, less urine, swelling",
+     "quote": "Someone with PSGN usually has protein in the urine and hypertension (high blood pressure). Symptoms can also include: Dark, reddish-brown urine Decreased need to pee or decreased amount of urine Edema (swelling)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Swelling in face, around eyes, hands and feet",
+     "quote": "The swelling occurs especially in the face, around the eyes, and in the hands and feet.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "PSGN more common in children; long-term kidney complications more common in adults",
+     "quote": "While rare, long-term kidney damage, including kidney failure, can occur. These rare complications are more common in adults than children.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "cited_as": "Centers for Disease Control and Prevention. About Post-Streptococcal Glomerulonephritis. Updated August 7, 2025. Accessed November 18, 2026. cdc.gov",
+   "url": "https://www.cdc.gov/group-a-strep/about/post-streptococcal-glomerulonephritis.html",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": []
+  },
+  {
+   "n": 13,
+   "kind": "agency_page",
+   "retrieved_with": "Monid firecrawl /scrape of official page",
+   "version_or_date": "Review date 4/1/2025",
+   "notes": "Added this run as the source for cellulitis red flags and when hospital care is needed.",
+   "claims": [
+    {
+     "text": "Cellulitis signs: spreading redness, pain or tenderness",
+     "quote": "Pain or tenderness in the affected area Skin redness or inflammation that gets bigger as the infection spreads",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cellulitis signs: fever with chills; warm skin",
+     "quote": "Fever with chills and sweating",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Warm skin in the area of redness",
+     "quote": "Warm skin in the area of redness",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Weakened immune system, very high fever, low blood pressure, persistent vomiting, infection around eyes need hospital care",
+     "quote": "You are very sick (for example, you have a very high temperature, low blood pressure, or nausea and vomiting that does not go away)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Weak immune system and eye involvement",
+     "quote": "Your immune system is not working well (due to cancer, HIV, or other medical condition) You have an infection around your eyes",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "cited_as": "MedlinePlus Medical Encyclopedia. Cellulitis. Review date April 1, 2025. Accessed November 18, 2026. medlineplus.gov",
+   "url": "https://medlineplus.gov/ency/article/000855.htm",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": []
+  },
+  {
+   "n": 14,
+   "kind": "agency_page",
+   "retrieved_with": "Monid firecrawl /scrape of official page",
+   "version_or_date": "Review date 7/3/2025",
+   "notes": "Added this run for the lookalike table. Corrects the old claim that cold sores do not crust honey-colored: MedlinePlus says they turn yellow and crusty as they heal.",
+   "claims": [
+    {
+     "text": "Cold sores usually HSV-1; small blisters on lips or mouth",
+     "quote": "It is usually caused by the herpes simplex virus type 1 (HSV-1).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Warning itching, burning, tingling",
+     "quote": "Itching of the lips or skin around the mouth Burning near the lips or mouth area Tingling near the lips or mouth area",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Blisters turn yellow and crusty as they heal",
+     "quote": "Yellow and crusty blister as it heals, which eventually turns into pink skin",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Goes away in 1 to 2 weeks; antivirals help",
+     "quote": "Symptoms will go away on their own without treatment in 1 to 2 weeks.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antivirals reduce pain and shorten symptoms",
+     "quote": "It can help reduce pain and make your symptoms go away sooner.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "cited_as": "MedlinePlus Medical Encyclopedia. Herpes - oral. Review date July 3, 2025. Accessed November 18, 2026. medlineplus.gov",
+   "url": "https://medlineplus.gov/ency/article/000606.htm",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": []
+  },
+  {
+   "n": 15,
+   "kind": "agency_page",
+   "retrieved_with": "Monid firecrawl /scrape of official page",
+   "version_or_date": "Review date 7/3/2025",
+   "notes": "Added this run for the lookalike table.",
+   "claims": [
+    {
+     "text": "Most often coxsackievirus A16",
+     "quote": "Hand-foot-mouth disease (HFMD) is most commonly caused by a virus called coxsackievirus A16.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fever, mouth and throat ulcers, small blisters on hands and feet",
+     "quote": "Rash with very small blisters on the hands, feet, and diaper area that may be tender or painful when pressed",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptom relief only; recovery in 5 to 7 days",
+     "quote": "There is no specific treatment for the infection other than symptom relief.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recovery in 5 to 7 days",
+     "quote": "Complete recovery occurs in 5 to 7 days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "cited_as": "MedlinePlus Medical Encyclopedia. Hand-foot-mouth disease. Review date July 3, 2025. Accessed November 18, 2026. medlineplus.gov",
+   "url": "https://medlineplus.gov/ency/article/000965.htm",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": []
+  },
+  {
+   "n": 16,
+   "kind": "label",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "version_or_date": "Updated August 24, 2020 (A-S Medication Solutions repackager label)",
+   "notes": "Added this run. Label dosing (3 times daily up to 10 days) differs from IDSA (twice daily for 5 days); the guide states both, matching the children's guide.",
+   "claims": [
+    {
+     "text": "Mupirocin label: 3 times daily for up to 10 days",
+     "quote": "to the affected area 3 times daily for up to 10 days.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pediatric safety and effectiveness established 2 months to 16 years",
+     "quote": "The safety and effectiveness of mupirocin ointment have been established in the age range of 2 months to 16 years.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Re-evaluate if no response in 3 to 5 days",
+     "quote": "Re-evaluate patients not showing a clinical response within 3 to 5 days.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ],
+   "cited_as": "DailyMed. Mupirocin ointment, 2%: prescribing information (A-S Medication Solutions). Updated August 24, 2020. Accessed November 18, 2026. dailymed.nlm.nih.gov",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=99eb0412-1d5c-437f-902b-1bc195ae1efa",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": []
+  },
+  {
+   "n": 17,
+   "kind": "label",
+   "retrieved_with": "WebFetch of DailyMed search and label page",
+   "version_or_date": "Revised January 13, 2010 (Physicians Total Care repackager label; DailyMed search on 2026-11-18 returned only two repackager labels)",
+   "notes": "Added this run. A newer manufacturer label was not found on DailyMed this run.",
+   "claims": [
+    {
+     "text": "Retapamulin twice daily for 5 days",
+     "quote": "twice daily for 5 days",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Covers methicillin-susceptible S. aureus only (not MRSA)",
+     "quote": "due to Staphylococcus aureus (methicillin-susceptible isolates only) or Streptococcus pyogenes",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Indicated for adults and children 9 months and older",
+     "quote": "ALTABAX is indicated for use in adults and pediatric patients aged 9 months and older for the topical treatment of impetigo",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Adults: up to 100 square centimeters total area",
+     "quote": "(up to 100 cm2 in total area in adults or 2% total body surface area in pediatric patients aged 9 months or older)",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ],
+   "cited_as": "DailyMed. Altabax (retapamulin) ointment, 1%: prescribing information (Physicians Total Care). Revised January 13, 2010. Accessed November 18, 2026. dailymed.nlm.nih.gov",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9fae06b5-bbd5-400a-a7a6-3a4e238361f8",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": []
+  },
+  {
+   "n": 18,
+   "kind": "other_web",
+   "retrieved_with": "Monid firecrawl /scrape of healthychildren.org page",
+   "version_or_date": "Last updated 7/12/2024; source AAP Section on Dermatology",
+   "notes": "Added in the adults-and-children rework. This AAP parent page gives no 24-hour rule; CDC cites the AAP Red Book as 12 hours plus well appearing. The old claim \"AAP extends that to 24 hours for young children\" was not supported by any source retrieved.",
+   "claims": [
+    {
+     "text": "Child should avoid close contact with other children until rash clear or improving after two days of antibiotics",
+     "quote": "Since impetigo is very contagious, your child should avoid close contact with other children until the rash is clear or improving after two days of antibiotics.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Keep child washcloths and towels separate",
+     "quote": "Also, keep your child's washcloths and towels separate from those of other family members.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "cited_as": "Polcari I, Mahoney M. Impetigo: What to Know About This Common Skin Infection in Children. HealthyChildren.org, American Academy of Pediatrics Section on Dermatology. Last updated July 12, 2024. Accessed November 18, 2026. healthychildren.org",
+   "url": "https://www.healthychildren.org/English/health-issues/conditions/skin/Pages/Impetigo.aspx",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": []
+  }
+ ]
+}
