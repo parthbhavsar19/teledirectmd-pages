@@ -1,8 +1,8 @@
 {
   "guide": "ai-chatbot-medical-information-safety",
-  "checked_at": "2026-11-17",
+  "checked_at": "2026-11-18",
   "checked_by": "Claude (link-worthy refresh, thread cmsg_01CDChp7gtTbvxYZqvKeVMT3Fdk1dyPoPEJQorHMhQTUyu)",
-  "scite_verify_papers": "run 2026-11-15; 5 verified (10.1136/bmjopen-2025-112695, 10.1038/s43856-025-01021-3, 10.7759/cureus.39238, 10.1038/s41591-026-04297-7, 10.3389/fdgth.2025.1574287), retractions: none; no expressions of concern, no contrasting evidence flagged. PubMed article types for all five: Journal Article (no Retracted Publication or Retraction Notice). | 2026-11-17 refresh: verify_papers on 10 new DOIs, all verified; no retractions or expressions of concern. Bean 2026 has a publisher correction (figure axis labels only). Ayers 2023 has one contrasting citing statement (10.1016/j.gore.2024.101477) in a different clinical setting.",
+  "scite_verify_papers": "run 2026-11-15; 5 verified (10.1136/bmjopen-2025-112695, 10.1038/s43856-025-01021-3, 10.7759/cureus.39238, 10.1038/s41591-026-04297-7, 10.3389/fdgth.2025.1574287), retractions: none; no expressions of concern, no contrasting evidence flagged. PubMed article types for all five: Journal Article (no Retracted Publication or Retraction Notice). | 2026-11-17 refresh: verify_papers on 10 new DOIs, all verified; no retractions or expressions of concern. Bean 2026 has a publisher correction (figure axis labels only). Ayers 2023 has one contrasting citing statement (10.1016/j.gore.2024.101477) in a different clinical setting. | 2026-11-18 balance update: verify_papers on 10 new DOIs (refs 33-39, 42, 44, 45, plus arXiv 2603.08448), all verified; no retractions or expressions of concern; one contrasting citing statement for Goh 2024 (LMIC medRxiv preprint, on control-group scores).",
   "references": [
     {
       "n": 1,
@@ -644,6 +644,18 @@
           "quote": "all responses were manually collected from the web user interface provided to the general public.",
           "quote_source": "full_text",
           "verdict": "supported"
+        },
+        {
+          "text": "HealthBench only penalizes pre-recorded unsafe content",
+          "quote": "However, it only penalizes models if they include unsafe information that was explicitly recorded by clinicians as an unsafe response to a particular question.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Single physician rater per response",
+          "quote": "Each of the 888 chatbot responses was evaluated by only one physician evaluator.",
+          "quote_source": "full_text",
+          "verdict": "supported"
         }
       ]
     },
@@ -1191,6 +1203,500 @@
           "text": "Committee met Nov 6, 2025 on generative AI-enabled digital mental health medical devices",
           "quote": "The Digital Health Advisory Committee to the Food and Drug Administration (FDA) met on November 6, 2025 to discuss and provide feedback on “Generative Artificial Intelligence (AI)-Enabled Digital Mental Health Medical Devices.”",
           "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "kind": "journal",
+      "cited_as": "Goh E, Gallo R, Hom J, et al. JAMA Network Open. 2024;7(10):e2440969.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39466245/",
+      "pmid": "39466245",
+      "doi": "10.1001/jamanetworkopen.2024.40969",
+      "record_title": "Large Language Model Influence on Diagnostic Reasoning: A Randomized Clinical Trial.",
+      "record_journal": "JAMA Network Open",
+      "record_year": "2024",
+      "article_type": "Journal Article; Randomized Controlled Trial",
+      "version_or_date": "Published 2024",
+      "retrieved_with": "PubMed get_article_metadata (+ PMC full text or journal page where noted); Scite verify_papers 2026-11-18",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "Pro-AI balance row. Co-author Horvitz lists Microsoft Corp (PubMed affiliation). Journal disclosure statement not retrievable (jamanetwork.com refused fetch; PMC text lacks it). Scite: one contrasting citing statement (LMIC medRxiv preprint) on control-group scores, not on the main result.",
+      "claims": [
+        {
+          "text": "76% vs 74% median score",
+          "quote": "The median diagnostic reasoning score per case was 76% (IQR, 66%-87%) for the LLM group and 74% (IQR, 63%-84%) for the conventional resources-only group",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "GPT-4 alone 16 points higher, secondary exploratory analysis",
+          "quote": "The LLM alone scored 16 percentage points (95% CI, 2-30 percentage points; P = .03) higher than the conventional resources group.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Secondary exploratory analysis",
+          "quote": "A secondary exploratory analysis evaluated the standalone performance of the LLM",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Fifty physicians",
+          "quote": "Fifty physicians (26 attendings, 24 residents",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "6 vignettes",
+          "quote": "Participants were allocated 60 minutes to review up to 6 clinical vignettes.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "No prompt training",
+          "quote": "Participants were given access to the chatbot without explicit training in prompt engineering techniques",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Microsoft affiliation of one co-author",
+          "quote": "Microsoft Corp, Redmond, Washington.",
+          "quote_source": "pubmed_affiliation",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "kind": "journal",
+      "cited_as": "Goh E, Gallo RJ, Strong E, et al. Nature Medicine. 2025;31(4):1233-1238.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39910272/",
+      "pmid": "39910272",
+      "doi": "10.1038/s41591-024-03456-y",
+      "record_title": "GPT-4 assistance for improvement of physician performance on patient care tasks: a randomized controlled trial",
+      "record_journal": "Nature Medicine",
+      "record_year": "2025",
+      "article_type": "Journal Article; Randomized Controlled Trial",
+      "version_or_date": "Published 2025",
+      "retrieved_with": "PubMed get_article_metadata (+ PMC full text or journal page where noted); Scite verify_papers 2026-11-18",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "Competing-interests text read on nature.com via Monid litescrape 2026-11-18. Co-author Horvitz lists Microsoft (PubMed and nature.com). A Publisher Correction exists (17 Feb 2025) per nature.com; content not read, not a retraction or concern.",
+      "claims": [
+        {
+          "text": "92 physicians",
+          "quote": "92 practicing physicians were randomized",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "+6.5 points",
+          "quote": "Physicians using the LLM scored significantly higher compared to those using conventional resources (mean difference = 6.5%, 95% confidence interval (CI) = 2.7 to 10.2, P < 0.001).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "No difference vs LLM alone",
+          "quote": "There was no significant difference between LLM-augmented physicians and LLM alone (-0.9%, 95% CI = -9.0 to 7.2, P = 0.8).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Vignettes based on, not actual, cases",
+          "quote": "First, the cases are clinical vignettes, based on, but not actual patient cases.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Single reviewer harm rating",
+          "quote": "As an exploratory evaluation, a single blinded reviewer (AR) rated all responses for potential harm",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Moore Foundation funding",
+          "quote": "E.G., J.H., E.S., J.C., Z.K., A.P.J.O., A.R. and J.H.C. disclose funding from the Gordon and Betty Moore Foundation (grant no. 12409).",
+          "quote_source": "journal_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Funders had no role",
+          "quote": "The funders had no role in study design, data collection and analysis, decision to publish or preparation of the manuscript.",
+          "quote_source": "journal_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "kind": "journal",
+      "cited_as": "Tu T, Schaekermann M, Palepu A, et al. Nature. 2025;642(8067):442-450.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40205050/",
+      "pmid": "40205050",
+      "doi": "10.1038/s41586-025-08866-7",
+      "record_title": "Towards conversational diagnostic artificial intelligence.",
+      "record_journal": "Nature",
+      "record_year": "2025",
+      "article_type": "Journal Article; Randomized Controlled Trial",
+      "version_or_date": "Published 2025",
+      "retrieved_with": "PubMed get_article_metadata (+ PMC full text or journal page where noted); Scite verify_papers 2026-11-18",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "Google AMIE. All 26 authors Google Research or Google DeepMind (PubMed). Competing interests read on nature.com 2026-11-18.",
+      "claims": [
+        {
+          "text": "159 scenarios, 20 PCPs, patient-actors",
+          "quote": "The study included 159 case scenarios from providers in Canada, the United Kingdom and India, 20 primary care physicians compared to AMIE, and evaluations by specialist physicians and patient-actors.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "30 of 32 axes",
+          "quote": "AMIE demonstrated greater diagnostic accuracy and superior performance on 30 out of 32 axes according to the specialist physicians",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Text chat unfamiliar",
+          "quote": "Clinicians used synchronous text chat, which permits large-scale LLM–patient interactions, but this is unfamiliar in clinical practice.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Not representative of usual practice",
+          "quote": "Thus, our study should not be regarded as representative of usual practice in (tele)medicine.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Funded by Alphabet; all authors employees",
+          "quote": "This study was funded by Alphabet Inc. and/or a subsidiary thereof (‘Alphabet’). All authors are employees of Alphabet and may own stock as part of the standard compensation package.",
+          "quote_source": "journal_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "kind": "journal",
+      "cited_as": "Brodeur PG, Koshy JM, Palepu A, et al. Lancet. 2026;408(10565):1732-1744.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42849491/",
+      "pmid": "42849491",
+      "doi": "10.1016/S0140-6736(26)01535-7",
+      "record_title": "Conversational diagnostic artificial intelligence in ambulatory primary care: a prospective feasibility study.",
+      "record_journal": "Lancet",
+      "record_year": "2026",
+      "article_type": "Journal Article; Observational Study",
+      "version_or_date": "Published 2026",
+      "retrieved_with": "PubMed get_article_metadata (+ PMC full text or journal page where noted); Scite verify_papers 2026-11-18",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "33 of 48 authors list Google affiliations in PubMed (counted 2026-11-18). Full text not retrievable (thelancet.com refused fetch).",
+      "claims": [
+        {
+          "text": "98 completed",
+          "quote": "114 patients were enrolled with 98 completing both the AMIE interaction and the PCP appointment.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "No safety stops",
+          "quote": "Zero conversation safety stops were required on the basis of prespecified criteria.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "One hallucination",
+          "quote": "Safety supervisors noted one hallucination and added clinical information in five interactions.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Funding Alphabet",
+          "quote": "Alphabet.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "kind": "other_web",
+      "cited_as": "Brodeur P, Koshy JM, Palepu A, et al. arXiv:2603.08448 (preprint, v3 2026-03-15).",
+      "url": "https://arxiv.org/abs/2603.08448",
+      "doi": "10.48550/arXiv.2603.08448",
+      "version_or_date": "v1 2026-03-09; v3 2026-03-15",
+      "retrieved_with": "Monid litescrape /web/fetch of arXiv abstract page; Scite verify_papers",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "Authors own preprint of the Lancet study; not peer reviewed. Guide labels it as a preprint.",
+      "claims": [
+        {
+          "text": "Physicians outperformed on practicality and cost effectiveness",
+          "quote": "PCPs outperformed AMIE in the practicality (p = 0.003) and cost effectiveness (p = 0.004) of Mx.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Supervisors monitored all chats in real time",
+          "quote": "Human safety supervisors monitored all patient-AMIE interactions in real time",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Single arm, one academic center",
+          "quote": "We report a prospective, single-arm feasibility study of an LLM-based conversational AI",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "kind": "journal",
+      "cited_as": "Nori H, Daswani M, Kelly C, et al. Science. 2026;394(6822):423-428.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42912144/",
+      "pmid": "42912144",
+      "doi": "10.1126/science.aeh7930",
+      "record_title": "Sequential diagnosis with language models.",
+      "record_journal": "Science",
+      "record_year": "2026",
+      "article_type": "Journal Article",
+      "version_or_date": "Published 2026",
+      "retrieved_with": "PubMed get_article_metadata (+ PMC full text or journal page where noted); Scite verify_papers 2026-11-18",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "All 15 authors list Microsoft (PubMed). Peer-reviewed version of the 2025 Microsoft blog and arXiv preprint. Disclosures not retrievable (science.org refused fetch).",
+      "claims": [
+        {
+          "text": "83.2% vs 36.1%; 80.3% vs 46.8%",
+          "quote": "the system achieved 83.2% accuracy onclinicopathological conference cases and 80.3% on MIMIC-IV-ED emergency department admissions, outperforming generalist physicians (36.1 and 46.8%, respectively).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Controlled benchmark setting",
+          "quote": "Although these findings were obtained in a controlled benchmark setting",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "kind": "journal",
+      "cited_as": "Takita H, Kabata D, Walston SL, et al. npj Digital Medicine. 2025;8(1):175.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40121370/",
+      "pmid": "40121370",
+      "doi": "10.1038/s41746-025-01543-z",
+      "record_title": "A systematic review and meta-analysis of diagnostic performance comparison between generative AI and physicians.",
+      "record_journal": "npj Digital Medicine",
+      "record_year": "2025",
+      "article_type": "Journal Article",
+      "version_or_date": "Published 2025",
+      "retrieved_with": "PubMed get_article_metadata (+ PMC full text or journal page where noted); Scite verify_papers 2026-11-18",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "Academic authors. Competing interests read on nature.com 2026-11-18.",
+      "claims": [
+        {
+          "text": "83 studies, 52.1%, no difference overall or non-expert",
+          "quote": "Analysis of 83 studies revealed an overall diagnostic accuracy of 52.1%. No significant performance difference was found between AI models and physicians overall (p = 0.10) or non-expert physicians (p = 0.93).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Worse than experts",
+          "quote": "However, AI models performed significantly worse than expert physicians (p = 0.007).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "76% high risk of bias",
+          "quote": "led to an overall rating of 63/83 (76%) studies at high risk of bias",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "No competing interests",
+          "quote": "The authors declare no competing interests.",
+          "quote_source": "journal_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "kind": "other_web",
+      "cited_as": "King D, Nori H. The Path to Medical Superintelligence. Microsoft AI. June 30, 2025.",
+      "url": "https://microsoft.ai/news/the-path-to-medical-superintelligence/",
+      "version_or_date": "Posted Jun 30, 2025 (page metadata modified 2026-10-16)",
+      "retrieved_with": "Monid litescrape /web/fetch, exact text",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "Company blog. Labeled in guide as company-reported, not peer reviewed.",
+      "claims": [
+        {
+          "text": "Up to 85%, more than four times physicians",
+          "quote": "we show that the Microsoft AI Diagnostic Orchestrator (MAI DxO) correctly diagnoses up to 85% of NEJM case proceedings, a rate more than four times higher than a group of experienced physicians.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Physicians averaged 20%",
+          "quote": "On the same tasks, these experts achieved a mean accuracy of 20% across completed cases.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "No colleagues, textbooks or AI",
+          "quote": "Clinicians in our study worked without access to colleagues, textbooks, or even generative AI, which may feature in their normal clinical practice.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Not yet peer reviewed",
+          "quote": "We are in the process of submitting this work for external peer review",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "kind": "other_web",
+      "cited_as": "OpenAI. Introducing HealthBench. May 12, 2025.",
+      "url": "https://openai.com/index/healthbench/",
+      "version_or_date": "May 12, 2025",
+      "retrieved_with": "Monid litescrape /web/fetch, exact text",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "Company blog. No peer-reviewed version found (PubMed and Scite searches 2026-11-18); arXiv preprint 10.48550/arXiv.2505.08775 exists.",
+      "claims": [
+        {
+          "text": "Already outperform experts",
+          "quote": "Our findings show that large language models have improved significantly over time and already outperform experts in writing responses to examples tested in our benchmark.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Graded by GPT-4.1",
+          "quote": "Model responses are evaluated by a model-based grader (GPT‑4.1) to assess whether each rubric criterion is met",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "kind": "journal",
+      "cited_as": "Pan J, Jian B, Hager P, et al. Nature Health. 2026;1(11):1254-1270.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42978863/",
+      "pmid": "42978863",
+      "doi": "10.1038/s44360-026-00152-8",
+      "record_title": "Addressing benchmarking gaps in large language models for health and medicine with dynamic red-teaming.",
+      "record_journal": "Nature Health",
+      "record_year": "2026",
+      "article_type": "Journal Article",
+      "version_or_date": "Published 2026",
+      "retrieved_with": "PubMed get_article_metadata (+ PMC full text or journal page where noted); Scite verify_papers 2026-11-18",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "Independent of OpenAI (academic authors per subagent review; not rechecked author by author).",
+      "claims": [
+        {
+          "text": "Failure rates exceeding 70% on HealthBench under red-teaming",
+          "quote": "This brittleness generalized to the realistic, open-ended HealthBench dataset, where top-tier models exhibited failure rates exceeding 70%",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "kind": "other_web",
+      "cited_as": "Karthikesalingam A, Natarajan V. AMIE blog. Google Research. January 12, 2024.",
+      "url": "https://research.google/blog/amie-a-research-ai-system-for-diagnostic-medical-reasoning-and-conversations/",
+      "version_or_date": "January 12, 2024; update note dated Oct 06, 2026",
+      "retrieved_with": "Monid litescrape /web/fetch, exact text",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "Company blog; figures differ from the Nature paper (ref 35).",
+      "claims": [
+        {
+          "text": "28 of 32 axes",
+          "quote": "AMIE had greater diagnostic accuracy and superior performance for 28 of 32 axes from the perspective of specialist physicians, and 24 of 26 axes from the perspective of patient actors.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "149 scenarios",
+          "quote": "a randomized, blinded crossover study that included 149 case scenarios from OSCE providers in Canada, the UK and India",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "kind": "journal",
+      "cited_as": "Gallifant J, Afshar M, Ameen S, et al. Nature Medicine. 2025;31(1):60-69.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39779929/",
+      "pmid": "39779929",
+      "doi": "10.1038/s41591-024-03425-5",
+      "record_title": "The TRIPOD-LLM reporting guideline for studies using large language models.",
+      "record_journal": "Nature Medicine",
+      "record_year": "2025",
+      "article_type": "Journal Article",
+      "version_or_date": "Published 2025",
+      "retrieved_with": "PubMed get_article_metadata (+ PMC full text or journal page where noted); Scite verify_papers 2026-11-18",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "",
+      "claims": [
+        {
+          "text": "19 main items and 50 subitems",
+          "quote": "TRIPOD-LLM provides a comprehensive checklist of 19 main items and 50 subitems",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "kind": "journal",
+      "cited_as": "CHART statement. BMJ Medicine. 2025;4(1):e001632.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40761518/",
+      "pmid": "40761518",
+      "doi": "10.1136/bmjmed-2025-001632",
+      "record_title": "Reporting guideline for chatbot health advice studies: the Chatbot Assessment Reporting Tool (CHART) statement",
+      "record_journal": "BMJ Medicine",
+      "record_year": "2025",
+      "article_type": "Journal Article",
+      "version_or_date": "Published 2025",
+      "retrieved_with": "PubMed get_article_metadata (+ PMC full text or journal page where noted); Scite verify_papers 2026-11-18",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "Group authorship; PubMed record lists no individual author, so cited without authors.",
+      "claims": [
+        {
+          "text": "12 items and 39 subitems",
+          "quote": "CHART includes 12 items and 39 subitems",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Includes model identifiers and prompting",
+          "quote": "model identifiers (subitems 3a,b)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Includes prompt engineering",
+          "quote": "prompt engineering (subitems 5a,b)",
+          "quote_source": "abstract",
           "verdict": "supported"
         }
       ]
