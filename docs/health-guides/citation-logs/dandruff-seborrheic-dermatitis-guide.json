@@ -1,705 +1,1095 @@
 {
- "guide": "dandruff-seborrheic-dermatitis-guide",
- "checked_at": "2026-11-07",
- "checked_by": "Claude (repair run)",
- "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
- "references": [
-  {
-   "n": 1,
-   "kind": "other_web",
-   "cited_as": "American Academy of Dermatology. Seborrheic Dermatitis: Diagnosis and Treatment. Last updated May 14, 2024.",
-   "url": "https://www.aad.org/public/diseases/a-z/seborrheic-dermatitis-treatment",
-   "version_or_date": "Last updated: 5/14/24",
-   "retrieved_with": "WebFetch of official page (quotes are the fetch tool's verbatim extracts; site limits quote length)",
-   "retrieved_at": "2026-11-07",
-   "editorial_notices": [],
-   "notes": "Society patient page. Previously cited for a 3-5 minute contact time and roflumilast 457-patient / 79.5% vs 58% figures, neither on the page; those claims moved to refs 2, 13 and 14. Page reports 68.3% clear or almost clear for roflumilast; the guide now uses the trial publication and FDA label figures instead.",
-   "claims": [
+  "guide": "dandruff-seborrheic-dermatitis-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 10 verified (all 10 DOIs), retractions: none; 2 AFP references without DOI (refs 2, 15) could not be matched by Scite and were checked via PubMed article types instead (no retraction)",
+  "notes": "Re-sync of the Nov 7 log to the page as edited on main Nov 9 and Nov 12. Every reference re-retrieved 2026-11-15.",
+  "references": [
     {
-     "text": "straight or wavy hair: dandruff shampoo 2 to 3 times a week; curly or coiled hair: dermatologist may recommend once a week; continue once a week to prevent flares",
-     "quote": "If you have straight or wavy hair, you may use dandruff shampoo 2 to 3 times a week. ... if you have curly or tightly coiled hair, your dermatologist may recommend using the shampoo once a week.",
-     "quote_source": "official_page",
-     "verdict": "supported"
+      "n": 1,
+      "kind": "other_web",
+      "cited_as": "American Academy of Dermatology (AAD). \"Seborrheic Dermatitis: Diagnosis and Treatment.\" Last updated May 14, 2024.",
+      "url": "https://www.aad.org/public/diseases/a-z/seborrheic-dermatitis-treatment",
+      "version_or_date": "Last updated: 5/14/24",
+      "retrieved_with": "WebFetch of official page 2026-11-15 (quotes are the fetch tool's verbatim extracts; tool limits quote length)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Society patient page. Page does not mention hair loss, salicylic acid by name, HIV, or avoiding the eyes; hair-loss and see-a-doctor statements that cite it are logged as partly_supported.",
+      "claims": [
+        {
+          "text": "stop for a concerning reaction; persistent symptoms need assessment (blocks: key points, 'stop for a concerning reaction', 'use one clear plan')",
+          "verdict": "supported",
+          "quote": "If you develop an irritated scalp while using this shampoo, stop using it and tell your dermatologist. ... Also, let your dermatologist know if you don't see any improvement in 4 weeks.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "persistent symptoms or patchy hair loss need assessment / diagnosis check",
+          "verdict": "partly_supported",
+          "quote": "Also, let your dermatologist know if you don't see any improvement in 4 weeks. ... A board-certified dermatologist can tell you which skin condition you have",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "if one ingredient does not help, a clinician may suggest another or reassess the diagnosis",
+          "verdict": "supported",
+          "quote": "Some people find that a shampoo no longer works as well as it once did. If this happens, let your dermatologist know.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "curly or coily hair: dandruff shampoo about once weekly; general advice does not override a prescription course",
+          "verdict": "supported",
+          "quote": "However, if you have curly or tightly coiled hair, your dermatologist may recommend using the shampoo once a week. ... It's important to take this medication exactly as directed.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "if you have curly or tightly coiled hair, a dermatologist may recommend dandruff shampoo once a week",
+          "verdict": "supported",
+          "quote": "However, if you have curly or tightly coiled hair, your dermatologist may recommend using the shampoo once a week.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "severe or treatment-resistant SD: dermatologist may prescribe oral itraconazole or terbinafine",
+          "verdict": "supported",
+          "quote": "If this treatment fails to work or you have widespread seborrheic dermatitis, your treatment plan may include: ... Your dermatologist may prescribe an antifungal medication, such as itraconazole or terbinafine.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "AAD: many patients continue a dandruff shampoo once weekly to prevent flares; maintenance plan after a flare settles",
+          "verdict": "supported",
+          "quote": "To prevent flare-ups, patients often continue to use dandruff shampoo once a week.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "this supplement concerns adults; infant cradle cap needs separate age-appropriate advice, not an adult medicated-shampoo regimen",
+          "verdict": "supported",
+          "quote": "dandruff shampoo is not recommended for children ... Cradle cap will clear up on its own in a few weeks to months.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "scalp psoriasis and other conditions can resemble SD; examination may be needed; a dermatologist can confirm, sometimes with a skin biopsy; the two can occur together (sebopsoriasis)",
+          "verdict": "supported",
+          "quote": "For example, it's possible to have both seborrheic dermatitis and psoriasis, which is often called sebopsoriasis. ... If your dermatologist sees signs of two skin conditions, they may remove a small amount of skin. This procedure is called a skin biopsy.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "examination may be needed; video visit cannot replace every scalp examination",
+          "verdict": "supported",
+          "quote": "To diagnose this condition, your dermatologist will: ... Look closely at the skin with signs of seborrheic dermatitis.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "facial SD affects nose, eyebrows, eyelids, ears; may be combined with a mild topical corticosteroid",
+          "verdict": "supported",
+          "quote": "It can be applied to any skin with seborrheic dermatitis, including the nose, eyebrows, ears, eyelids, and scalp. ... your dermatologist may add a corticosteroid to your treatment plan.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "when to see a physician: no improvement with OTC care; severe or treatment-resistant cases (red or raw skin, spread, hair loss, daily-life impact not stated on this page)",
+          "verdict": "partly_supported",
+          "quote": "If this treatment fails to work or you have widespread seborrheic dermatitis ... Also, let your dermatologist know if you don't see any improvement in 4 weeks.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "hair shedding or patchy loss should not automatically be blamed on dandruff; other scalp conditions can look similar",
+          "verdict": "partly_supported",
+          "quote": "For example, it's possible to have both seborrheic dermatitis and psoriasis, which is often called sebopsoriasis.",
+          "quote_source": "official_page"
+        }
+      ]
     },
     {
-     "text": "continue dandruff shampoo once a week to prevent flare-ups",
-     "quote": "To prevent flare-ups, patients often continue to use dandruff shampoo once a week.",
-     "quote_source": "official_page",
-     "verdict": "supported"
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Clark GW, Pope SM, Jaboori KA. \"Diagnosis and Treatment of Seborrheic Dermatitis.\" American Family Physician. 2015;91(3):185-190.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25822272/",
+      "pmid": "25822272",
+      "record_title": "Diagnosis and treatment of seborrheic dermatitis.",
+      "record_journal": "Am Fam Physician",
+      "record_year": "2015",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract) 2026-11-15; WebFetch of the AAFP full-text article page (https://www.aafp.org/pubs/afp/issues/2015/0201/p185.html) 2026-11-15",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "No DOI; Scite verify_papers could not match the reference text (no Scite record), so retraction status was checked via PubMed article types: Journal Article; Review, no Retracted Publication or Retraction Notice. Link now opens the PubMed record (changed on main Nov 9/12); authors, journal, year, volume, issue and pages match the record.",
+      "claims": [
+        {
+          "text": "thought to result from an inflammatory response to Malassezia yeast",
+          "verdict": "supported",
+          "quote": "The skin changes are thought to result from an inflammatory response to a common skin organism, Malassezia yeast.",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "AFP review advises beginning scalp treatment with an OTC shampoo",
+          "verdict": "supported",
+          "quote": "Several over-the-counter shampoos are available for treatment of seborrheic dermatitis of the scalp, and patients should be directed to initiate therapy with one of these agents.",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "OTC options (zinc pyrithione, selenium sulfide) reasonable for mild scalp SD/dandruff",
+          "verdict": "supported",
+          "quote": "For mild seborrheic dermatitis of the scalp, over-the-counter dandruff shampoos containing selenium sulfide, zinc pyrithione, or coal tar",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "corticosteroids are a short-term bridge, not long-term",
+          "verdict": "supported",
+          "quote": "Antifungal shampoos (long-term) and topical corticosteroids (short-term) can be used as second-line agents for treatment of scalp seborrheic dermatitis.",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "low- or mid-potency corticosteroids reduce symptoms",
+          "verdict": "supported",
+          "quote": "Low- or mid-potency topical corticosteroids have been successful in reducing symptoms of seborrheic dermatitis",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "long-term steroid use associated with skin thinning and telangiectasia",
+          "verdict": "supported",
+          "quote": "long-term use has been associated with thinning of the skin and formation of telangiectasia",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "calcineurin inhibitors: FDA boxed warning; evidence insufficient; avoid continuous long-term use",
+          "verdict": "supported",
+          "quote": "pimecrolimus and tacrolimus received a boxed warning from the U.S. Food and Drug Administration ... there is insufficient evidence to support this claim. ... continuous long-term use of topical calcineurin inhibitors be avoided",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "can also appear on chest, back, axillae, groin",
+          "verdict": "supported",
+          "quote": "The characteristic symptoms-scaling, erythema, and itching-occur most often on the scalp, face, chest, back, axilla, and groin.",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "zinc scalp treatment at six and 11 months showed no loss of effect",
+          "verdict": "supported",
+          "quote": "a study evaluating a zinc scalp treatment at six and 11 months showed no loss of effect.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "FAQ: dandruff is the mild end; both linked to Malassezia; SD often needs prescription therapy (term 'pityriasis capitis' not in source)",
+          "verdict": "partly_supported",
+          "quote": "For mild seborrheic dermatitis of the scalp, over-the-counter dandruff shampoos ... Antifungal shampoos (long-term) and topical corticosteroids (short-term) can be used as second-line agents",
+          "quote_source": "full_text"
+        }
+      ]
     },
     {
-     "text": "dermatologist may prescribe oral itraconazole or terbinafine for severe or resistant disease",
-     "quote": "Your dermatologist may prescribe an antifungal medication, such as itraconazole or terbinafine.",
-     "quote_source": "official_page",
-     "verdict": "partly_supported"
+      "n": 3,
+      "kind": "journal",
+      "cited_as": "Dall'Oglio F, Nasca MR, Gerbino C, Micali G. \"An Overview of the Diagnosis and Management of Seborrheic Dermatitis.\" Clin Cosmet Investig Dermatol. 2022;15:1537-1548.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35967915/",
+      "pmid": "35967915",
+      "pmcid": "PMC9365318",
+      "doi": "10.2147/CCID.S284671",
+      "record_title": "An Overview of the Diagnosis and Management of Seborrheic Dermatitis.",
+      "record_journal": "Clin Cosmet Investig Dermatol",
+      "record_year": "2022",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC9365318) 2026-11-15",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Scite verify_papers 2026-11-15: verified, no editorial notices, no contrasting evidence flagged; PubMed article types checked, no Retracted Publication or Retraction Notice. Link now opens the PubMed record. Review notes zinc pyrithione was classified CMR under EU regulation 2021/1902 (not on page). Review states KTZ 2% shampoo FDA-approved for scalp SD since 1990, whereas the reviewed US Padagis 2% label (ref 20) lists only tinea versicolor; the page's statement is limited to that label.",
+      "claims": [
+        {
+          "text": "common chronic inflammatory skin disorder",
+          "verdict": "supported",
+          "quote": "Seborrheic dermatitis (SD) is a common chronic inflammatory skin disorder that mostly affects young adults",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "ketoconazole 2% shampoo twice weekly for 4 weeks; commonly twice weekly",
+          "verdict": "supported",
+          "quote": "The recommended frequency of use of 2% KTZ shampoo is twice weekly over 4 weeks.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "ketoconazole 2% cream applied once daily for 4 weeks in a trial; cream or gel for face/body",
+          "verdict": "supported",
+          "quote": "In a double-blind, randomized comparative study, the efficacy and tolerability of 2% KTZ cream vs 1% hydrocortisone cream, applied once daily for 4 weeks",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "2% KTZ FDA approved as cream or gel for face/body",
+          "verdict": "supported",
+          "quote": "Recommended topical therapeutic options for mild-to-moderate facial and/or body areas SD include 2% KTZ (Level A), FDA approved in patients aged 12 years or older as cream or gel",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "ciclopirox 1.5% sold outside US; US prescription 1% shampoo and 0.77% gel",
+          "verdict": "supported",
+          "quote": "FDA approved for scalp adult SD as prescription 0.77% gel and 1% shampoo in 1997 and 2003, respectively.Stronger concentrations of ciclopirox (1.5%) are also available in other countries",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "ciclopirox shampoo prescription; twice weekly for 4 weeks optimal",
+          "verdict": "supported",
+          "quote": "Twice-weekly use for 4 weeks appears to be an optimal treatment schedule.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "ciclopirox 1% cream for face/body; facial antifungal creams ketoconazole 2% or ciclopirox 1%",
+          "verdict": "supported",
+          "quote": "Ciclopirox 1% cream (Level A) showed significantly higher clinical efficacy vs vehicle when applied twice daily for 29 days",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "corticosteroids give quick control of redness, scaling, itch",
+          "verdict": "supported",
+          "quote": "allows to achieve quick control of erythema, scaling and pruritus.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "hydrocortisone or desonide for face/body",
+          "verdict": "supported",
+          "quote": "As regards to the use of mild (hydrocortisone) to moderate potency (desonide) corticosteroids",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "striae among topical steroid risks",
+          "verdict": "supported",
+          "quote": "the use of topical corticosteroids should be discouraged, due to the risk of consistent skin atrophy, striae, telangiectasias, folliculitis, hypopigmentation, and tachyphylaxis.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "corticosteroids combined with antifungal when fast control needed; facial antifungal sometimes combined with mild steroid",
+          "verdict": "supported",
+          "quote": "topical azole agents, as monotherapy or in association with corticosteroids when a fast control of inflammation is advisable.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "TCIs FDA-approved for atopic dermatitis; twice daily 4-8 weeks acute, once weekly 12 weeks maintenance",
+          "verdict": "supported",
+          "quote": "FDA-approved macrolide lactones for the treatment of atopic dermatitis ... Their recommended frequency of use is twice daily over 4–8 weeks in SD acute phase or once-weekly for 12 weeks as maintenance therapy.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "oral antifungals lipophilic and persist in skin; prompt control then topical maintenance",
+          "verdict": "supported",
+          "quote": "Its lipophilicity allows for a prolonged drug persistence in the skin ... the goal of systemic approach is the prompt reduction of symptoms and the possibility to use topical agents as a maintenance therapy.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "oral antifungals: liver/blood tests, interactions, selected cases only",
+          "verdict": "supported",
+          "quote": "risk of some systemic side effects, eg, abnormal liver function or blood tests, interactions with other concomitant systemic drug. Therefore, they are recommended in selected cases only.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "drugs causing SD-like dermatitis: psoralen, lithium, buspirone, chlorpromazine, haloperidol",
+          "verdict": "supported",
+          "quote": "several drugs (such as buspirone, chlorpromazine, ... haloperidol, ... lithium salts, methyldopa, psoralen, ...) are known to occasionally induce an SD-like dermatitis",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "severe/refractory SD a possible marker of HIV/AIDS; may be an early sign of an underlying condition such as HIV",
+          "verdict": "supported",
+          "quote": "extensive, severe and refractory SD forms have been considered as a possible dermatological marker of acquired immunodeficiency syndrome (AIDS), at every stage of HIV infection",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "in HIV, SD more prevalent and more severe",
+          "verdict": "supported",
+          "quote": "In HIV-infected patients, SD is generally not only more prevalent but also more severe than usual",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "ART may help improve SD",
+          "verdict": "supported",
+          "quote": "the control of CD4+ values with antiretroviral drugs may be helpful to achieve SD improvement.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "Parkinson strongly associated; also epilepsy and facial nerve paralysis",
+          "verdict": "supported",
+          "quote": "The high prevalence of SD in patients with neurological disorders, such as Parkinson’s disease, ... epilepsy, and facial nerve paralysis, has been widely acknowledged.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "in Parkinson, increased sebum and reduced facial movement may favor yeast",
+          "verdict": "supported",
+          "quote": "The increased sebum production rate, coupled with reduced mimic facial movements, may provide permissive conditions forproliferation.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "FAQ triggers: HIV and Parkinson's more frequent/severe SD; certain medications and nutritional deficiencies contribute ([3] marker added this run)",
+          "verdict": "supported",
+          "quote": "Conditions associated with a higher incidence and/or a more refractory course of SD include HIV-infection, neurological diseases ... Severe and recalcitrant SD forms may also be found in association with ... nutritional deficiencies",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "dermoscopy can be crucial to tell scalp SD from psoriasis or tinea capitis; examination may be needed when pattern unclear",
+          "verdict": "supported",
+          "quote": "dermoscopy may turn out to be crucial to differentiate between scalp SD and other common scaling disorders, such as psoriasis or tinea capitis",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "maintenance often necessary due to relapsing course; SD commonly relapses",
+          "verdict": "supported",
+          "quote": "Therefore, due to SD relapsing course, maintenance treatment will often be necessary.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "diagnosis usually clinical; flaking alone does not establish the diagnosis",
+          "verdict": "supported",
+          "quote": "The diagnosis of SD is usually clinical, and specific laboratory and/or instrumental investigations are seldom required.",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "use one clear plan rather than layering medicated shampoos; ask about irritation",
+          "verdict": "supported",
+          "quote": "aggressive overtreatment may induce xerosis, and/or irritant/allergic contact dermatitis.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "salicylic acid helps loosen scale (listed among keratolytic agents)",
+          "verdict": "supported",
+          "quote": "keratolytic agents (3% salicylic acid in combination with 1.5% ciclopirox shampoo, lactamide monoethanolamine shampoo)",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "patchy loss or broken hairs warrant direct assessment (review describes broken hair fragments in tinea capitis on dermoscopy; it does not discuss hair loss as such)",
+          "verdict": "partly_supported",
+          "quote": "in tinea capitis “comma” hair ... “corkscrew” hair (twisted or coiled, short, broken hair fragments)",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "FAQ dandruff vs SD: range from mild scaling to inflamed patches",
+          "verdict": "supported",
+          "quote": "In adolescents and adults, SD clinical presentation may range from a mild scalp scaling to diffuse white, yellowish patches in regions rich in sebaceous glands such as scalp, face and trunk.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "FAQ psoriasis vs SD (rewritten this run): dermoscopy can help confirm",
+          "verdict": "supported",
+          "quote": "dermoscopy may turn out to be crucial to differentiate between scalp SD and other common scaling disorders, such as psoriasis or tinea capitis",
+          "quote_source": "full_text"
+        }
+      ]
     },
     {
-     "text": "dandruff shampoo is not recommended for children",
-     "quote": "it's important to know that dandruff shampoo is not recommended for children.",
-     "quote_source": "official_page",
-     "verdict": "supported"
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Tynes BE, Johnson CD, Vaish MH, et al. \"Ketoconazole Shampoo for Seborrheic Dermatitis of the Scalp: A Narrative Review.\" Cureus. 2024;16(8):e67532.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39310465/",
+      "pmid": "39310465",
+      "pmcid": "PMC11416180",
+      "doi": "10.7759/cureus.67532",
+      "record_title": "Ketoconazole Shampoo for Seborrheic Dermatitis of the Scalp: A Narrative Review.",
+      "record_journal": "Cureus",
+      "record_year": "2024",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC11416180) 2026-11-15",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Scite verify_papers 2026-11-15: verified, no editorial notices, no contrasting evidence flagged; PubMed article types checked, no Retracted Publication or Retraction Notice. Link now opens the PubMed record.",
+      "claims": [
+        {
+          "text": "ketoconazole shampoo may alter hair texture or leave hair and scalp dry or oily",
+          "verdict": "supported",
+          "quote": "When used in shampoo, it may alter hair texture or cause dry or oily hair and scalp.",
+          "quote_source": "full_text"
+        }
+      ]
     },
     {
-     "text": "cradle cap clears on its own in a few weeks to months",
-     "quote": "Cradle cap will clear up on its own in a few weeks to months.",
-     "quote_source": "official_page",
-     "verdict": "supported"
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Navarro Triviño FJ, Velasco Amador JP, Rivera Ruiz I. \"Seborrheic Dermatitis Revisited: Pathophysiology, Diagnosis, and Emerging Therapies: A Narrative Review.\" Biomedicines. 2025;13(10):2458.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41153741/",
+      "pmid": "41153741",
+      "pmcid": "PMC12562114",
+      "doi": "10.3390/biomedicines13102458",
+      "record_title": "Seborrheic Dermatitis Revisited: Pathophysiology, Diagnosis, and Emerging Therapies-A Narrative Review.",
+      "record_journal": "Biomedicines",
+      "record_year": "2025",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC12562114) 2026-11-15",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Scite verify_papers 2026-11-15: verified, no editorial notices, no contrasting evidence flagged; PubMed article types checked, no Retracted Publication or Retraction Notice. Link now opens the PubMed record. PubMed metadata shows volume 13, issue 10; article number 2458 not shown in the PubMed citation field (kept from DOI suffix).",
+      "claims": [
+        {
+          "text": "some authors consider dandruff a non-inflammatory form of SD",
+          "verdict": "supported",
+          "quote": "Some authors consider dandruff a non-inflammatory form of SD, characterized by fine white scales without underlying erythema",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "bimodal: infancy and adulthood, particularly young adults",
+          "verdict": "supported",
+          "quote": "The disease follows a bimodal distribution, with a first peak in infancy and a second in adulthood, particularly among young adults.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "more often in men; androgens stimulate sebaceous gland activity",
+          "verdict": "supported",
+          "quote": "Seborrheic dermatitis occurs more frequently in men than in women. ... Hormonal imbalances, particularly those involving androgens, stimulate sebaceous gland activity",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "more than 14 species; M. globosa and M. restricta most associated (species names stripped in PMC text extraction)",
+          "verdict": "supported",
+          "quote": "This genus includes more than 14 species of lipophilic yeasts, withandbeing the species most frequently associated with seborrheic dermatitis.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "lipases and phosphatases; oleic acid penetrates stratum corneum, promotes inflammation, induces flaking",
+          "verdict": "supported",
+          "quote": "spp. produces enzymes such as lipases and phosphatases that hydrolyze sebaceous lipids ... oleic acid is particularly relevant, as it penetrates the stratum corneum, promotes inflammation, and induces desquamation",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "TLR2 detection; IL-8, IL-6, TNF-alpha",
+          "verdict": "supported",
+          "quote": "Keratinocytes detectspp. via TLR2, triggering MyD88/NF-κB signaling and promoting the release of IL-8, IL-6, and TNF-α",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "Th1, Th17, Th22 activation",
+          "verdict": "supported",
+          "quote": "Advances in transcriptomic and microbiome profiling have revealed a complex immunoinflammatory environment in SD, involving predominantly Th1, Th17, and Th22 axes.",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "fungal load vs severity controversial",
+          "verdict": "supported",
+          "quote": "However, the correlation between fungal load and disease severity remains controversial",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "PDE4 inhibition suppresses pro-inflammatory cytokines",
+          "verdict": "supported",
+          "quote": "Its inhibition increases intracellular cAMP levels, thereby suppressing proinflammatory cytokines (IL-2, IL-4, IL-17, IL-23, TNF-α)",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "TCIs reduce inflammation without atrophy; non-steroidal alternative for facial SD",
+          "verdict": "supported",
+          "quote": "TCIs such as pimecrolimus and tacrolimus represent a valuable non-steroidal alternative for the treatment of facial seborrheic dermatitis ... without causing skin atrophy.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "evidence in SD limited, but ceramide moisturizers may help",
+          "verdict": "supported",
+          "quote": "Although evidence in SD is limited, data from AD support the use of barrier-enhancing emollients containing ceramides, cholesterol, linoleic acid, and niacinamide",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "eyelid involvement: lid hygiene, warm compresses, gentle cleansing, short courses of antibiotics or corticosteroids; coordinated with eye specialist",
+          "verdict": "supported",
+          "quote": "interdisciplinary management involving dermatologists and ophthalmologists ... Management includes lid hygiene with warm compresses and gentle cleansing, artificial tears for dry eye, and short courses of topical antibiotics or corticosteroids for blepharitis when indicated.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "cold, dry weather exacerbates scaling and itch",
+          "verdict": "supported",
+          "quote": "cold, dry weather exacerbates scaling and pruritus",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "Parkinson disease associated with SD",
+          "verdict": "supported",
+          "quote": "Viral infections (HIV, HCV, SARS-CoV-2), neurological disorders such as Parkinson’s disease, and psychological stress have all been associated with increased disease susceptibility.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "a biopsy is occasionally needed to tell SD from psoriasis ([5] marker added this run)",
+          "verdict": "supported",
+          "quote": "Skin biopsy is not routinely recommended but may be considered in atypical cases, treatment-resistant forms, or when differentiation from other dermatoses [], such as psoriasis",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "FAQ psoriasis vs SD (rewritten this run): scalp psoriasis thicker scale; SD greasy yellowish scales",
+          "verdict": "supported",
+          "quote": "Clinically, SD presents as erythematous-to-orange patches with thick, yellowish, greasy scales. ... In scalp psoriasis, for example, scales tend to be thicker",
+          "quote_source": "full_text"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "other_web",
+      "cited_as": "American Academy of Dermatology. Seborrheic dermatitis: Self-care. Updated December 6, 2022.",
+      "url": "https://www.aad.org/public/diseases/a-z/seborrheic-dermatitis-self-care",
+      "version_or_date": "Last updated: 12/6/22",
+      "retrieved_with": "WebFetch of official page 2026-11-15 (quotes are the fetch tool's verbatim extracts; tool limits quote length)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New on main (replaced Mayo Clinic page). Page names stress, cold dry weather and alcohol in skin or hair products as triggers; it does not mention HIV, Parkinson disease, medications or nutritional deficiency (now covered by the [3] marker added to that FAQ answer) and does not mention avoiding the eyes (covered by ref 17).",
+      "claims": [
+        {
+          "text": "beard/mustache: AAD discusses medicated cleansing including ketoconazole 1% within an individualized plan",
+          "verdict": "supported",
+          "quote": "Seborrheic dermatitis often develops under a beard or mustache. ... To reduce flare-ups, wash these areas with a shampoo that contains 1% ketoconazole ... or a product that your dermatologist recommends.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "triggers: psychological stress, cold and dry weather",
+          "verdict": "supported",
+          "quote": "For most people, flare-ups are more common when their stress increases. ... Flare-ups are common when the weather turns cold and dry.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "alcohol as a trigger (page refers to alcohol in skin or hair products; alcohol consumption is supported by ref 7)",
+          "verdict": "partly_supported",
+          "quote": "If a skin or hair care product contains alcohol, it can cause a flare-up.",
+          "quote_source": "official_page"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "journal",
+      "cited_as": "Lancar R, Missy P, Dupuy A, et al. \"Risk Factors for Seborrhoeic Dermatitis Flares: Case-control and Case-crossover Study.\" Acta Derm Venereol. 2020;100(17):adv00292.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33047149/",
+      "pmid": "33047149",
+      "pmcid": "PMC9274933",
+      "doi": "10.2340/00015555-3661",
+      "record_title": "Risk Factors for Seborrhoeic Dermatitis Flares: Case-control and Case-crossover Study.",
+      "record_journal": "Acta Derm Venereol",
+      "record_year": "2020",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata (abstract) 2026-11-15",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Scite verify_papers 2026-11-15: verified, no editorial notices, no contrasting evidence flagged; PubMed article types checked, no Retracted Publication or Retraction Notice. Link now opens the PubMed record. Abstract only.",
+      "claims": [
+        {
+          "text": "case-crossover: higher stress in past month associated with flares, OR 4.5",
+          "verdict": "supported",
+          "quote": "Case-crossover study results were the following: higher level of stress during the past month (OR 4.5 (1.7-12.2))",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "FAQ triggers: stress and alcohol use",
+          "verdict": "supported",
+          "quote": "alcohol consumption on a regular basis (OR 10.2 (95% CI 2.0-52.6)), and higher level of stress during the past month (OR 8.2 (95% CI 3.4-19.9))",
+          "quote_source": "abstract"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "journal",
+      "cited_as": "Mima Y, Yamamoto M, Nonogaki A, Iozumi K. \"Long-Lasting Seborrheic Dermatitis Associated With Human Immunodeficiency Virus.\" Cureus. 2025;17(8):e91308.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41035583/",
+      "pmid": "41035583",
+      "pmcid": "PMC12479385",
+      "doi": "10.7759/cureus.91308",
+      "record_title": "Long-Lasting Seborrheic Dermatitis Associated With Human Immunodeficiency Virus.",
+      "record_journal": "Cureus",
+      "record_year": "2025",
+      "article_type": "Case Reports; Journal Article",
+      "retrieved_with": "PubMed get_article_metadata (abstract) 2026-11-15",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Scite verify_papers 2026-11-15: verified, no editorial notices, no contrasting evidence flagged; PubMed article types checked, no Retracted Publication or Retraction Notice. Link now opens the PubMed record.",
+      "claims": [
+        {
+          "text": "2025 case report: HIV diagnosed after 6 months of treatment-refractory facial SD; improved after ART",
+          "verdict": "supported",
+          "quote": "He had a six-month history of persistent facial erythema, lichenification, and scaling that were unresponsive to topical therapy. ... After initiating antiretroviral therapy (ART), the immune status and the cutaneous symptoms significantly improved.",
+          "quote_source": "abstract"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "other_web",
+      "cited_as": "National Eczema Society. \"Seborrhoeic Dermatitis in Adults.\"",
+      "url": "https://www.eczema.org.uk/support/seborrhoeic-dermatitis-in-adults",
+      "version_or_date": "No page or review date shown",
+      "retrieved_with": "WebFetch of official page 2026-11-15 (quotes are the fetch tool's verbatim extracts; tool limits quote length)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Patient charity page.",
+      "claims": [
+        {
+          "text": "cannot be cured because sensitivity to Malassezia persists; long-term treatment keeps it at bay",
+          "verdict": "supported",
+          "quote": "Seborrhoeic dermatitis cannot be cured, because once an individual has become allergic to Malassezia on the skin, ... Long-term treatment is needed to keep this condition at bay.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "FAQ: not contagious; reaction to yeast that normally lives on skin",
+          "verdict": "supported",
+          "quote": "Seborrhoeic dermatitis is not contagious or related to diet, ... The yeasts are part of normal skin flora, ... for an unknown reason they trigger seborrhoeic dermatitis in certain individuals.",
+          "quote_source": "official_page"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "journal",
+      "cited_as": "Peter RU, Richarz-Barthauer U. Br J Dermatol. 1995;132(3):441-445.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7718463/",
+      "pmid": "7718463",
+      "doi": "10.1111/j.1365-2133.1995.tb08680.x",
+      "record_title": "Successful treatment and prophylaxis of scalp seborrhoeic dermatitis and dandruff with 2% ketoconazole shampoo: results of a multicentre, double-blind, placebo-controlled trial.",
+      "record_journal": "Br J Dermatol",
+      "record_year": "1995",
+      "article_type": "Clinical Trial; Controlled Clinical Trial; Multicenter Study",
+      "retrieved_with": "PubMed get_article_metadata (abstract) 2026-11-15",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Scite verify_papers 2026-11-15: verified, no editorial notices, no contrasting evidence flagged; PubMed article types checked, no Retracted Publication or Retraction Notice. Link now opens the PubMed record (was DOI). Abstract only.",
+      "claims": [
+        {
+          "text": "575 patients, twice weekly 2-4 weeks, excellent response 88%; commonly twice weekly for 2 to 4 weeks",
+          "verdict": "supported",
+          "quote": "Five hundred and seventy-five patients presenting with moderate to severe seborrhoeic dermatitis and dandruff of the scalp were treated with 2% ketoconazole shampoo twice weekly for 2-4 weeks, producing an excellent response in 88%.",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "once weekly for 6 months among responders: relapse 19% vs 47% placebo; 312 initial responders",
+          "verdict": "supported",
+          "quote": "Of those patients who responded, 312 were included in a prophylactic phase, lasting 6 months. ... Forty-eight (47%) patients in the placebo group experienced a relapse ... compared with 23 (19%) patients in the active treatment group",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "Nizoral 1% and prescription ketoconazole 2% do not share one dosing plan (trial regimen differs from OTC label)",
+          "verdict": "supported",
+          "quote": "treated with 2% ketoconazole shampoo twice weekly for 2-4 weeks",
+          "quote_source": "abstract"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "journal",
+      "cited_as": "Piérard-Franchimont C, Goffin V, Decroix J, Piérard GE. Skin Pharmacol Appl Skin Physiol. 2002;15(6):434-441.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12476017/",
+      "pmid": "12476017",
+      "doi": "10.1159/000066452",
+      "record_title": "A multicenter randomized trial of ketoconazole 2% and zinc pyrithione 1% shampoos in severe dandruff and seborrheic dermatitis.",
+      "record_journal": "Skin Pharmacol Appl Skin Physiol",
+      "record_year": "2002",
+      "article_type": "Clinical Trial; Comparative Study; Multicenter Study; Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata (abstract) 2026-11-15",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Scite verify_papers 2026-11-15: verified, no editorial notices, no contrasting evidence flagged; PubMed article types checked, no Retracted Publication or Retraction Notice. Link now opens the PubMed record (was DOI). Open-label design per abstract. Abstract only.",
+      "claims": [
+        {
+          "text": "331 people, open randomized; 73% vs 67% severity-score improvement at week 4; lower recurrence with ketoconazole",
+          "verdict": "supported",
+          "quote": "KET 2%, which achieved a 73% improvement in the total dandruff severity score compared with 67% for ZPT 1% at week 4 (p < 0.02). The recurrence rate of the disease was also significantly lower",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "2002 open-label trial, 331 eligible participants; both improved symptoms",
+          "verdict": "supported",
+          "quote": "This open randomized, parallel-group trial ... Of the 331 eligible volunteers, 171 were randomized to KET 2% and 160 to ZPT 1%. ... Beneficial effects were evidenced for both medicated shampoos",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "older head-to-head trials tested specific formulations",
+          "verdict": "supported",
+          "quote": "We compared the efficacy and safety of KET 2% and ZPT 1% in shampoo formulations for the alleviation of severe dandruff and seborrheic dermatitis.",
+          "quote_source": "abstract"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "journal",
+      "cited_as": "Ratnavel RC, Squire RA, Boorman GC. J Dermatolog Treat. 2007;18(2):88-96.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17520465/",
+      "pmid": "17520465",
+      "doi": "10.1080/16537150601092944",
+      "record_title": "Clinical efficacies of shampoos containing ciclopirox olamine (1.5%) and ketoconazole (2.0%) in the treatment of seborrhoeic dermatitis.",
+      "record_journal": "J Dermatolog Treat",
+      "record_year": "2007",
+      "article_type": "Journal Article; Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata (abstract) 2026-11-15",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Scite verify_papers 2026-11-15: verified, no editorial notices, no contrasting evidence flagged; PubMed article types checked, no Retracted Publication or Retraction Notice. Link now opens the PubMed record (was DOI). Abstract only.",
+      "claims": [
+        {
+          "text": "350 patients, randomized double-blind; both shampoos beat placebo for area affected",
+          "verdict": "supported",
+          "quote": "A randomized, double-blind, 4-week treatment period ... A total of 350 patients ... Both shampoos were significantly more effective than placebo in reducing the area affected.",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "patients rated overall improvement better with ciclopirox than ketoconazole",
+          "verdict": "supported",
+          "quote": "Patients rated the overall improvement as better with CPO than with ketoconazole shampoo.",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "ciclopirox broad-spectrum antifungal with anti-inflammatory properties",
+          "verdict": "supported",
+          "quote": "Ciclopirox olamine (CPO) is a broad-spectrum antifungal with anti-inflammatory properties",
+          "quote_source": "abstract"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "journal",
+      "cited_as": "Blauvelt A, Draelos ZD, Stein Gold L, et al. J Am Acad Dermatol. 2024;90(5):986-993.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38253129/",
+      "pmid": "38253129",
+      "doi": "10.1016/j.jaad.2023.12.065",
+      "record_title": "Roflumilast foam 0.3% for adolescent and adult patients with seborrheic dermatitis: A randomized, double-blinded, vehicle-controlled, phase 3 trial.",
+      "record_journal": "J Am Acad Dermatol",
+      "record_year": "2024",
+      "article_type": "Randomized Controlled Trial; Clinical Trial, Phase III; Journal Article",
+      "retrieved_with": "PubMed get_article_metadata (abstract) 2026-11-15",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Scite verify_papers 2026-11-15: verified, no editorial notices, no contrasting evidence flagged; PubMed article types checked, no Retracted Publication or Retraction Notice. Link changed on main from DOI to this PubMed record; record matches the cited trial. STRATUM named in PubMed keywords. Abstract only.",
+      "claims": [
+        {
+          "text": "topical PDE4 inhibitor",
+          "verdict": "supported",
+          "quote": "The topical phosphodiesterase 4 inhibitor roflumilast has been studied in several dermatologic conditions.",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "STRATUM: 79.5% vs 58.0% IGA success (clear/almost clear plus 2-point improvement) at week 8",
+          "verdict": "supported",
+          "quote": "IGA Success at week 8, defined as IGA of 0 (Clear) or 1 (Almost Clear) plus ≥2-point improvement from baseline. ... 79.5% of roflumilast-treated and 58.0% of vehicle-treated patients met the primary endpoint",
+          "quote_source": "abstract"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "label",
+      "cited_as": "DailyMed. ZORYVE (roflumilast) foam, 0.3%, prescribing information. Revised June 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f9e0b4a9-a227-4947-b00c-41fb18d16589",
+      "version_or_date": "Revised: 6/2026; Updated June 22, 2026; archive version 7 (current) published Jul 1, 2026",
+      "retrieved_with": "WebFetch of DailyMed SPL page 2026-11-15 (quotes are the fetch tool's verbatim extracts; tool limits quote length)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Arcutis Biotherapeutics label, SPL set ID f9e0b4a9-a227-4947-b00c-41fb18d16589. Link changed on main (was Drugs@FDA 2023 PDF). Printed date corrected this run from 'Revised September 2026' to 'Revised June 2026'; no September 2026 date appears on the label page. Label: topical use only, not ophthalmic.",
+      "claims": [
+        {
+          "text": "FDA approved for SD in adults and children 9 and older",
+          "verdict": "supported",
+          "quote": "ZORYVE® topical foam, 0.3%, is indicated for the treatment of seborrheic dermatitis in adult and pediatric patients 9 years of age and older.",
+          "quote_source": "label"
+        },
+        {
+          "text": "thin layer once daily to affected skin or scalp",
+          "verdict": "supported",
+          "quote": "Apply a thin layer of ZORYVE foam, 0.3%, once daily to affected areas of body and/or scalp when they are not wet.",
+          "quote_source": "label"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "journal",
+      "cited_as": "LeFevre NM, Braudis K, Feigenbaum LS. \"Seborrheic Dermatitis: Diagnosis and Treatment.\" Am Fam Physician. 2025;112(2):166-173.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40834373/",
+      "pmid": "40834373",
+      "record_title": "Seborrheic Dermatitis: Diagnosis and Treatment.",
+      "record_journal": "Am Fam Physician",
+      "record_year": "2025",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata (abstract) 2026-11-15; WebFetch of AAFP full-text page (https://www.aafp.org/pubs/afp/issues/2025/0800/seborrheic-dermatitis.html, located via WebSearch) 2026-11-15",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "No DOI; Scite verify_papers could not match the reference text, so retraction status checked via PubMed article type (Journal Article), no Retracted Publication or Retraction Notice. Before this run the ref was listed but had no inline marker; [15] added to the facial FAQ answer, where it supports the facial distribution.",
+      "claims": [
+        {
+          "text": "facial SD is common; affects sides of the nose, eyebrows, eyelids, forehead",
+          "verdict": "supported",
+          "quote": "nasolabial folds, upper eyebrows, and the nasal bridge ... Note erythema of the eyelid, nasolabial fold, and forehead.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "facial SD produces redness, oiliness and fine flaking",
+          "verdict": "supported",
+          "quote": "Clinically, seborrheic dermatitis presents as symmetric, poorly defined erythematous patches with yellow, oily scales and fine, superficial desquamation (flaking).",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "SD common and chronic relapsing; face treated with antifungal and corticosteroid creams",
+          "verdict": "supported",
+          "quote": "Seborrheic dermatitis is a common, chronic relapsing skin condition ... Seborrheic dermatitis of the face and body can be treated with over-the-counter and prescription-strength antifungal creams, over-the-counter and prescription-strength corticosteroid creams",
+          "quote_source": "abstract"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "other_web",
+      "cited_as": "American Academy of Dermatology. How to treat dandruff. Page updated December 11, 2023.",
+      "url": "https://www.aad.org/public/everyday-care/hair-scalp-care/scalp/treat-dandruff",
+      "version_or_date": "Last updated: 12/11/23",
+      "retrieved_with": "WebFetch of official page 2026-11-15 (quotes are the fetch tool's verbatim extracts; tool limits quote length)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New on main. Page does not discuss hair loss and does not say what each ingredient does; it lists ingredients to look for.",
+      "claims": [
+        {
+          "text": "read the active ingredient and follow your own bottle; ingredient-based options (zinc pyrithione, selenium sulfide, ketoconazole, salicylic acid, coal tar)",
+          "verdict": "supported",
+          "quote": "Zinc pyrithione; salicylic acid; sulfur; selenium sulfide; ketoconazole; and coal tar shampoo ... Follow the instructions on the dandruff shampoo bottle.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "AAD suggests alternating or trying a different active ingredient if one does not help",
+          "verdict": "supported",
+          "quote": "If one shampoo doesn't work, try alternating between dandruff shampoos with different active ingredients.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "curly/coily hair: apply to scalp, attention to dryness, about once weekly; normal shampoo and conditioner can follow",
+          "verdict": "supported",
+          "quote": "use your dandruff shampoo about once a week, if tolerated. ... Take care to only apply the dandruff shampoo to your scalp if you have curly or coily hair ... as the ingredients that treat dandruff can dry your hair. ... You can shampoo and condition your hair with your normal products ... after using your dandruff shampoo if it is needed for hair care.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "AAD notes some products need several minutes, but directions vary",
+          "verdict": "supported",
+          "quote": "You may also need to allow some dandruff shampoos to sit on your scalp for up to 5-10 minutes before rinsing.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "persistent dandruff deserves a diagnosis check; psoriasis, fungal infection and other conditions can resemble it; refractory disease may need dermatology care",
+          "verdict": "supported",
+          "quote": "If your dandruff doesn't go away after following these tips ... partner with a board-certified dermatologist ... knows whether your dandruff is a sign of a medical condition ... such as seborrheic dermatitis, psoriasis, fungal infections of the scalp, or eczema.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "mild symptoms may be approached with label-directed OTC care",
+          "verdict": "supported",
+          "quote": "For most people, dandruff does not require medical attention.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "other dandruff shampoos can contain different active ingredients such as zinc pyrithione or salicylic acid (sentence corrected this run)",
+          "verdict": "supported",
+          "quote": "Zinc pyrithione; salicylic acid; sulfur; selenium sulfide; ketoconazole; and coal tar shampoo",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "patchy hair loss needs assessment (page does not mention hair loss)",
+          "verdict": "partly_supported",
+          "quote": "If your dandruff doesn't go away after following these tips ... partner with a board-certified dermatologist",
+          "quote_source": "official_page"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "kind": "label",
+      "cited_as": "DailyMed. Nizoral, ketoconazole 1% OTC shampoo. Kramer Laboratories. Label updated September 10, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a17b7424-ee7e-4fcc-b6b3-0904932ae319",
+      "version_or_date": "Updated September 10, 2026; archive version 8 (current) published Sep 18, 2026",
+      "retrieved_with": "WebFetch of DailyMed SPL page 2026-11-15 (quotes are the fetch tool's verbatim extracts; tool limits quote length)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "OTC Drug Facts label, NIZORAL ketoconazole shampoo, Kramer Laboratories. Directions are for adults and children 12 years and over; under 12 ask a doctor.",
+      "claims": [
+        {
+          "text": "active ingredient and strength on label: ketoconazole 1%, anti-dandruff",
+          "verdict": "supported",
+          "quote": "Active ingredient: Ketoconazole 1% w/w ... Purpose: Anti-dandruff shampoo",
+          "quote_source": "label"
+        },
+        {
+          "text": "directions: wet hair, lather, rinse thoroughly, repeat; every 3-4 days up to 8 weeks or as directed, then only as needed; no timed wait",
+          "verdict": "supported",
+          "quote": "wet hair thoroughly ... apply shampoo, generously lather, rinse thoroughly. Repeat ... use every 3-4 days for up to 8 weeks ... or as directed by a doctor. Then use ... only as needed to control dandruff",
+          "quote_source": "label"
+        },
+        {
+          "text": "stop and ask a doctor if rash appears, symptoms worsen or no improvement in 2 to 4 weeks",
+          "verdict": "supported",
+          "quote": "Stop use and ask a doctor if: rash appears ... condition worsens or does not improve in 2-4 weeks",
+          "quote_source": "label"
+        },
+        {
+          "text": "do not use on broken or inflamed scalp",
+          "verdict": "supported",
+          "quote": "Do not use: on scalp that is broken or inflamed",
+          "quote_source": "label"
+        },
+        {
+          "text": "pregnancy or breastfeeding: ask a clinician first",
+          "verdict": "supported",
+          "quote": "If pregnant or breast-feeding, ask a doctor before use.",
+          "quote_source": "label"
+        },
+        {
+          "text": "avoid the eyes",
+          "verdict": "supported",
+          "quote": "When using this product: avoid contact with eyes",
+          "quote_source": "label"
+        },
+        {
+          "text": "see a physician if OTC shampoos have not improved symptoms after several weeks",
+          "verdict": "supported",
+          "quote": "condition worsens or does not improve in 2-4 weeks",
+          "quote_source": "label"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "kind": "label",
+      "cited_as": "DailyMed. Ciclopirox shampoo 1%. Actavis Pharma. Label revised October 2023.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=eef13684-751f-47e1-b75e-3401a0e6e20f",
+      "version_or_date": "Revised: 10/2023; Updated October 30, 2023; archive version 23 (current) published Apr 1, 2024",
+      "retrieved_with": "WebFetch of DailyMed SPL page 2026-11-15 (quotes are the fetch tool's verbatim extracts; tool limits quote length)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Prescription label (Actavis Pharma; manufactured for Teva). Printed date corrected this run from 'Label revised November 2024' to 'Label revised October 2023'; no November 2024 date appears on the page. Indicated for scalp SD in adults.",
+      "claims": [
+        {
+          "text": "ciclopirox 1% label specifies 3 minutes on the scalp, then rinse",
+          "verdict": "supported",
+          "quote": "Lather and leave on hair and scalp for 3 minutes. ... A timer may be used. ... Avoid contact with eyes. Rinse off.",
+          "quote_source": "label"
+        },
+        {
+          "text": "twice weekly for 4 weeks, at least 3 days apart (citable summary)",
+          "verdict": "supported",
+          "quote": "Treatment should be repeated twice per week for 4 weeks, with a minimum of 3 days between applications.",
+          "quote_source": "label"
+        },
+        {
+          "text": "review diagnosis if no improvement after 4 weeks",
+          "verdict": "supported",
+          "quote": "If a patient with seborrheic dermatitis shows no clinical improvement after 4 weeks of treatment ... the diagnosis should be reviewed.",
+          "quote_source": "label"
+        },
+        {
+          "text": "stop for a concerning reaction; tell the prescriber about irritation",
+          "verdict": "supported",
+          "quote": "If a reaction suggesting sensitivity or irritation occurs with the use of Ciclopirox Shampoo 1%, ... treatment should be discontinued and appropriate therapy instituted.",
+          "quote_source": "label"
+        },
+        {
+          "text": "avoid the eyes",
+          "verdict": "supported",
+          "quote": "Contact of Ciclopirox Shampoo 1% with the eyes should be avoided.",
+          "quote_source": "label"
+        },
+        {
+          "text": "label reports hair adverse effects incl. hair loss; spontaneous reports cannot establish frequency or causation",
+          "verdict": "supported",
+          "quote": "hair discoloration and abnormal hair texture, alopecia, irritation and rash ... Because these events are reported voluntarily from a population of uncertain size, ... it is not possible to reliably estimate their frequency or establish a causal relationship to drug exposure.",
+          "quote_source": "label"
+        },
+        {
+          "text": "if the prescribed schedule irritates, ask the prescriber to adjust",
+          "verdict": "supported",
+          "quote": "Inform the physician if the area of application shows signs of increased irritation",
+          "quote_source": "label"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "kind": "label",
+      "cited_as": "DailyMed. Selsun Blue selenium sulfide 1% shampoos. Chattem. Label updated February 18, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f97e458c-cce3-498f-81fc-1b96a4e8f50a",
+      "version_or_date": "Updated February 18, 2026; archive version 12 (current) published Feb 25, 2026",
+      "retrieved_with": "WebFetch of DailyMed SPL page 2026-11-15 (quotes are the fetch tool's verbatim extracts; tool limits quote length)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "OTC Drug Facts for four Selsun Blue selenium sulfide 1% shampoos (Chattem). No zinc pyrithione or salicylic acid product appears in this SPL; the page sentence attributing those ingredients to similarly branded bottles was reworded this run.",
+      "claims": [
+        {
+          "text": "cited Selsun Blue label contains selenium sulfide 1%",
+          "verdict": "supported",
+          "quote": "Selenium sulfide 1% ... Purpose: Antidandruff",
+          "quote_source": "label"
+        },
+        {
+          "text": "shake well, wet hair, massage onto scalp, rinse, repeat if desired; at least twice weekly or as directed; no timed leave-on interval",
+          "verdict": "supported",
+          "quote": "Shake well. ... Wet hair, massage onto scalp, rinse. Repeat if desired. ... For best results, use at least twice a week or as directed by a doctor.",
+          "quote_source": "label"
+        },
+        {
+          "text": "stop if worse or not improving with directed regular use",
+          "verdict": "supported",
+          "quote": "Stop use and ask a doctor if: condition worsens or does not improve after regular use of this product as directed",
+          "quote_source": "label"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "kind": "label",
+      "cited_as": "DailyMed. Ketoconazole shampoo 2%. Padagis Israel Pharmaceuticals. Revised May 2024.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=99da5233-2760-46f6-8fb3-d9df5da70bfb",
+      "version_or_date": "Rev 05-24; Updated May 31, 2024; archive version 15 (current) published Jul 29, 2026",
+      "retrieved_with": "WebFetch of DailyMed SPL page 2026-11-15 (quotes are the fetch tool's verbatim extracts; tool limits quote length)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Prescription label. Indicated for tinea (pityriasis) versicolor only. Postmarketing section states frequency cannot be estimated; causality statement appears on the ciclopirox label (ref 18), not this one.",
+      "claims": [
+        {
+          "text": "Padagis 2% label lists tinea versicolor as its indication, not scalp SD",
+          "verdict": "supported",
+          "quote": "Ketoconazole Shampoo, 2% is indicated for the treatment of tinea (pityriasis) versicolor",
+          "quote_source": "label"
+        },
+        {
+          "text": "single-application tinea-versicolor regimen; 5 minutes",
+          "verdict": "supported",
+          "quote": "Lather, leave in place for 5 minutes, and then rinse off with water. ... One application of the shampoo should be sufficient.",
+          "quote_source": "label"
+        },
+        {
+          "text": "stop for a concerning reaction; ask about irritation or allergy",
+          "verdict": "supported",
+          "quote": "If a reaction suggesting sensitivity or chemical irritation should occur, use of the medication should be discontinued.",
+          "quote_source": "label"
+        },
+        {
+          "text": "label reports hair or scalp adverse effects including hair loss; postmarketing frequency cannot be estimated",
+          "verdict": "supported",
+          "quote": "an increase in normal hair loss and irritation occurred in less than 1% of patients. ... abnormal hair texture, scalp pustules ... Because these reactions are reported voluntarily from a population of uncertain size, ... it is not possible to reliably estimate their frequency.",
+          "quote_source": "label"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "kind": "journal",
+      "cited_as": "Danby FW, Maddin WS, Margesson LJ, Rosenthal D. J Am Acad Dermatol. 1993;29(6):1008-1012.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8245236/",
+      "pmid": "8245236",
+      "doi": "10.1016/0190-9622(93)70282-x",
+      "record_title": "A randomized, double-blind, placebo-controlled trial of ketoconazole 2% shampoo versus selenium sulfide 2.5% shampoo in the treatment of moderate to severe dandruff.",
+      "record_journal": "J Am Acad Dermatol",
+      "record_year": "1993",
+      "article_type": "Clinical Trial; Comparative Study; Journal Article; Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata (abstract) 2026-11-15",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Scite verify_papers 2026-11-15: verified, no editorial notices, no contrasting evidence flagged; PubMed article types checked, no Retracted Publication or Retraction Notice. New on main. Abstract only.",
+      "claims": [
+        {
+          "text": "1993 RCT, 246 patients, ketoconazole 2% vs selenium sulfide 2.5% vs placebo; both better than placebo",
+          "verdict": "supported",
+          "quote": "A total of 246 patients were included. ... both ketoconazole 2% and selenium sulfide 2.5% shampoos significantly better than placebo at all visits.",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "ketoconazole statistically better than selenium sulfide at day 8 only; nine treatment-phase adverse experiences all in selenium group",
+          "verdict": "supported",
+          "quote": "Ketoconazole was statistically superior to selenium sulfide at day 8 only (p = 0.0026). ... Of the nine adverse experiences reported during the treatment phase, all involved patients treated with selenium sulfide 2.5% shampoo.",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "older head-to-head trials tested specific formulations; no universal best bottle",
+          "verdict": "supported",
+          "quote": "to evaluate the safety and effectiveness of ketoconazole 2% shampoo versus selenium sulfide 2.5% shampoo and placebo shampoo in patients with moderate to severe dandruff",
+          "quote_source": "abstract"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "n": 2,
-   "kind": "journal",
-   "cited_as": "Clark GW, Pope SM, Jaboori KA. Diagnosis and Treatment of Seborrheic Dermatitis. American Family Physician. 2015;91(3):185-190.",
-   "url": "https://www.aafp.org/pubs/afp/issues/2015/0201/p185.html",
-   "pmid": "25822272",
-   "record_title": "Diagnosis and treatment of seborrheic dermatitis.",
-   "record_journal": "Am Fam Physician",
-   "record_year": "2015",
-   "article_type": "Journal Article; Review",
-   "retrieved_with": "PubMed lookup_article_by_citation + get_article_metadata (abstract); WebFetch of AAFP full text page",
-   "retrieved_at": "2026-11-07",
-   "editorial_notices": [],
-   "notes": "scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice. AAFP page notes a newer 2025 AFP article exists (ref 15).",
-   "claims": [
-    {
-     "text": "thought to result from an inflammatory response to Malassezia yeast",
-     "quote": "The skin changes are thought to result from an inflammatory response to a common skin organism, Malassezia yeast.",
-     "quote_source": "abstract",
-     "verdict": "supported"
-    },
-    {
-     "text": "begin scalp treatment with an over-the-counter shampoo",
-     "quote": "Several over-the-counter shampoos are available for treatment of seborrheic dermatitis of the scalp, and patients should be directed to initiate therapy with one of these agents.",
-     "quote_source": "abstract",
-     "verdict": "supported"
-    },
-    {
-     "text": "leave medicated shampoo on at least five minutes",
-     "quote": "These shampoos should remain on the hair for at least five minutes to guarantee adequate exposure to the scalp.",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "corticosteroids are short-term, not long-term",
-     "quote": "Antifungal shampoos (long-term) and topical corticosteroids (short-term) can be used as second-line agents for treatment of scalp seborrheic dermatitis.",
-     "quote_source": "abstract",
-     "verdict": "supported"
-    },
-    {
-     "text": "low- or mid-potency corticosteroids reduce symptoms",
-     "quote": "Low- or mid-potency topical corticosteroids have been successful in reducing symptoms",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "long-term steroid use associated with skin thinning and telangiectasia",
-     "quote": "long-term use has been associated with thinning of the skin and formation of telangiectasia.",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "calcineurin inhibitors carry FDA boxed warning; evidence insufficient; avoid continuous long-term use",
-     "quote": "pimecrolimus and tacrolimus received a boxed warning from the U.S. Food and Drug Administration ... there is insufficient evidence to support this claim ... continuous long-term use of topical calcineurin inhibitors be avoided.",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "can also appear on chest, back, axillae, groin",
-     "quote": "scaling, erythema, and itching-occur most often on the scalp, face, chest, back, axilla, and groin.",
-     "quote_source": "abstract",
-     "verdict": "supported"
-    },
-    {
-     "text": "zinc scalp treatment at six and 11 months showed no loss of effect",
-     "quote": "a study evaluating a zinc scalp treatment at six and 11 months showed no loss of effect.",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    }
-   ]
-  },
-  {
-   "n": 3,
-   "kind": "journal",
-   "cited_as": "Dall'Oglio F, Nasca MR, Gerbino C, Micali G. An Overview of the Diagnosis and Management of Seborrheic Dermatitis. Clin Cosmet Investig Dermatol. 2022;15:1537-1548.",
-   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9365318/",
-   "pmid": "35967915",
-   "pmcid": "PMC9365318",
-   "doi": "10.2147/CCID.S284671",
-   "record_title": "An Overview of the Diagnosis and Management of Seborrheic Dermatitis.",
-   "record_journal": "Clin Cosmet Investig Dermatol",
-   "record_year": "2022",
-   "article_type": "Journal Article; Review",
-   "retrieved_with": "PubMed convert_article_ids, get_article_metadata, get_full_text_article (PMC)",
-   "retrieved_at": "2026-11-07",
-   "editorial_notices": [],
-   "notes": "scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice. Printed author corrected from 'Piquero-Casals J' to Dall'Oglio F et al; pages corrected 1537-1551 to 1537-1548. No 3-5% or 50% prevalence figures in this paper (claim cut). The 19% vs 47% relapse figure is now cited to its primary trial (ref 10). Review notes zinc pyrithione was classified CMR under EU regulation 2021/1902 (not added to guide).",
-   "claims": [
-    {
-     "text": "common chronic inflammatory skin disorder",
-     "quote": "Seborrheic dermatitis (SD) is a common chronic inflammatory skin disorder that mostly affects young adults",
-     "quote_source": "abstract",
-     "verdict": "supported"
-    },
-    {
-     "text": "ketoconazole 2% shampoo twice weekly for 4 weeks",
-     "quote": "The recommended frequency of use of 2% KTZ shampoo is twice weekly over 4 weeks.",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "ketoconazole 2% cream applied once daily for 4 weeks in a trial",
-     "quote": "the efficacy and tolerability of 2% KTZ cream vs 1% hydrocortisone cream, applied once daily for 4 weeks, showed no significant statistical differences",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "ciclopirox 1.5% sold outside US; US approval as 1% shampoo and 0.77% gel",
-     "quote": "FDA approved for scalp adult SD as prescription 0.77% gel and 1% shampoo in 1997 and 2003, respectively.Stronger concentrations of ciclopirox (1.5%) are also available in other countries",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "ciclopirox twice weekly for 4 weeks; ciclopirox cream for face and body",
-     "quote": "Twice-weekly use for 4 weeks appears to be an optimal treatment schedule.",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "ciclopirox 1% cream for non-scalp SD",
-     "quote": "Ciclopirox 1% cream (Level A) showed significantly higher clinical efficacy vs vehicle when applied twice daily for 29 days",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "corticosteroids give quick control of redness, scaling, itch",
-     "quote": "allows to achieve quick control of erythema, scaling and pruritus.",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "hydrocortisone or desonide for face/body",
-     "quote": "As regards to the use of mild (hydrocortisone) to moderate potency (desonide) corticosteroids",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "striae among topical steroid risks",
-     "quote": "the use of topical corticosteroids should be discouraged, due to the risk of consistent skin atrophy, striae, telangiectasias, folliculitis, hypopigmentation, and tachyphylaxis.",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "corticosteroids combined with antifungal when fast control needed",
-     "quote": "topical azole agents, as monotherapy or in association with corticosteroids when a fast control of inflammation is advisable.",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "TCIs FDA-approved for atopic dermatitis; twice daily 4-8 weeks acute, once weekly 12 weeks maintenance",
-     "quote": "FDA-approved macrolide lactones for the treatment of atopic dermatitis ... Their recommended frequency of use is twice daily over 4–8 weeks in SD acute phase or once-weekly for 12 weeks as maintenance therapy.",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "oral antifungals lipophilic, persist in skin; prompt control then topical maintenance",
-     "quote": "Systemic antifungals (terbinafine, itraconazole) are mainly indicated in acute and/or severe and/or resistant adult SD forms ... the goal of systemic approach is the prompt reduction of symptoms and the possibility to use topical agents as a maintenance therapy.",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "oral antifungals: liver/blood test effects, interactions, selected cases only",
-     "quote": "risk of some systemic side effects, eg, abnormal liver function or blood tests, interactions with other concomitant systemic drug. Therefore, they are recommended in selected cases only.",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "facial antifungal creams ketoconazole 2% or ciclopirox 1%",
-     "quote": "Recommended topical therapeutic options for mild-to-moderate facial and/or body areas SD include 2% KTZ (Level A)",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "infant onset suggests maternal hormone-driven sebaceous activity and microbiome changes",
-     "quote": "In children, early occurrence in the first trimester suggests the role of excessive sebaceous gland activity from maternal hormones, along with cutaneous microbiome alterations.",
-     "quote_source": "abstract",
-     "verdict": "supported"
-    },
-    {
-     "text": "drugs causing SD-like dermatitis: psoralen, lithium, buspirone, chlorpromazine, haloperidol",
-     "quote": "several drugs (such as buspirone, chlorpromazine, ... haloperidol, ... lithium salts, methyldopa, psoralen, ...) are known to occasionally induce an SD-like dermatitis",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "severe/refractory SD a possible marker of HIV/AIDS; more prevalent and severe in HIV",
-     "quote": "extensive, severe and refractory SD forms have been considered as a possible dermatological marker of acquired immunodeficiency syndrome (AIDS), at every stage of HIV infection",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "in HIV, SD more prevalent and more severe",
-     "quote": "In HIV-infected patients, SD is generally not only more prevalent but also more severe than usual",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "ART may help improve SD",
-     "quote": "the control of CD4+ values with antiretroviral drugs may be helpful to achieve SD improvement.",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "Parkinson strongly associated; also epilepsy and facial nerve paralysis",
-     "quote": "The high prevalence of SD in patients with neurological disorders, such as Parkinson’s disease, ... epilepsy, and facial nerve paralysis, has been widely acknowledged.",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "in Parkinson, increased sebum and reduced facial movement may favor yeast",
-     "quote": "The increased sebum production rate, coupled with reduced mimic facial movements, may provide permissive conditions forproliferation.",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "dermoscopy crucial to distinguish SD from psoriasis and tinea capitis",
-     "quote": "dermoscopy may turn out to be crucial to differentiate between scalp SD and other common scaling disorders, such as psoriasis or tinea capitis",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "maintenance often necessary due to relapsing course",
-     "quote": "Therefore, due to SD relapsing course, maintenance treatment will often be necessary.",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "diagnosis usually clinical",
-     "quote": "The diagnosis of SD is usually clinical, and specific laboratory and/or instrumental investigations are seldom required.",
-     "quote_source": "abstract",
-     "verdict": "supported"
-    }
-   ]
-  },
-  {
-   "n": 4,
-   "kind": "journal",
-   "cited_as": "Tynes BE, Johnson CD, Vaish MH, et al. Ketoconazole Shampoo for Seborrheic Dermatitis of the Scalp: A Narrative Review. Cureus. 2024;16(8):e67532.",
-   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11416180/",
-   "pmid": "39310465",
-   "pmcid": "PMC11416180",
-   "doi": "10.7759/cureus.67532",
-   "record_title": "Ketoconazole Shampoo for Seborrheic Dermatitis of the Scalp: A Narrative Review.",
-   "record_journal": "Cureus",
-   "record_year": "2024",
-   "article_type": "Journal Article; Review",
-   "retrieved_with": "PubMed convert_article_ids, get_article_metadata, get_full_text_article (PMC)",
-   "retrieved_at": "2026-11-07",
-   "editorial_notices": [],
-   "notes": "scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice. Printed author/article number corrected from 'Thomas B ... e67560' to Tynes BE et al, e67532. Yeast-load claim was not in this paper (moved to ref 5 as rewritten). Trial figures (331 patients, 73% vs 67%; ciclopirox vs ketoconazole vs placebo) now cited to the primary trials (refs 11, 12).",
-   "claims": [
-    {
-     "text": "ketoconazole shampoo may alter hair texture or cause dry or oily hair and scalp",
-     "quote": "When used in shampoo, it may alter hair texture or cause dry or oily hair and scalp.",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "infant SD appears in first three months, lasts until around 12 months",
-     "quote": "A bimodal distribution occurs in infants, appearing during the first three months of life until around 12 months",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    }
-   ]
-  },
-  {
-   "n": 5,
-   "kind": "journal",
-   "cited_as": "Navarro Triviño FJ, Velasco Amador JP, Rivera Ruiz I. Seborrheic Dermatitis Revisited: Pathophysiology, Diagnosis, and Emerging Therapies: A Narrative Review. Biomedicines. 2025;13(10):2458.",
-   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12562114/",
-   "pmid": "41153741",
-   "pmcid": "PMC12562114",
-   "doi": "10.3390/biomedicines13102458",
-   "record_title": "Seborrheic Dermatitis Revisited: Pathophysiology, Diagnosis, and Emerging Therapies-A Narrative Review.",
-   "record_journal": "Biomedicines",
-   "record_year": "2025",
-   "article_type": "Journal Article; Review",
-   "retrieved_with": "PubMed convert_article_ids, get_article_metadata, get_full_text_article (PMC); WebFetch of PMC page to confirm italic species names",
-   "retrieved_at": "2026-11-07",
-   "editorial_notices": [],
-   "notes": "scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice. Printed author corrected from 'Fernandez-Sartorio C' to Navarro Trivino FJ et al; title corrected. Epilepsy and facial nerve palsy claim moved to ref 3, which states it.",
-   "claims": [
-    {
-     "text": "some authors consider dandruff a non-inflammatory form of SD",
-     "quote": "Some authors consider dandruff a non-inflammatory form of SD, characterized by fine white scales without underlying erythema",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "bimodal: infancy and adulthood; more common in men; androgens stimulate sebaceous glands",
-     "quote": "The disease follows a bimodal distribution, with a first peak in infancy and a second in adulthood, particularly among young adults.",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "men more than women; androgens",
-     "quote": "Seborrheic dermatitis occurs more frequently in men than in women. ... Hormonal imbalances, particularly those involving androgens, stimulate sebaceous gland activity",
-     "quote_source": "full_text",
-     "verdict": "partly_supported"
-    },
-    {
-     "text": "more than 14 species; M. globosa and M. restricta most associated",
-     "quote": "This genus includes more than 14 species of lipophilic yeasts, with M. globosa and M. restricta being the species most frequently associated with seborrheic dermatitis.",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "lipases and phosphatases; oleic acid penetrates stratum corneum, promotes inflammation, induces desquamation",
-     "quote": "Among these, oleic acid is particularly relevant, as it penetrates the stratum corneum, promotes inflammation, and induces desquamation",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "TLR2 detection; IL-8, IL-6, TNF-alpha",
-     "quote": "Keratinocytes detect Malassezia spp. via TLR2, triggering MyD88/NF-κB signaling and promoting the release of IL-8, IL-6, and TNF-α",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "Th1, Th17, Th22 activation",
-     "quote": "Advances in transcriptomic and microbiome profiling have revealed a complex immunoinflammatory environment in SD, involving predominantly Th1, Th17, and Th22 axes.",
-     "quote_source": "abstract",
-     "verdict": "supported"
-    },
-    {
-     "text": "fungal load vs severity controversial",
-     "quote": "However, the correlation between fungal load and disease severity remains controversial",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "PDE4 inhibition suppresses pro-inflammatory cytokines",
-     "quote": "Its inhibition increases intracellular cAMP levels, thereby suppressing proinflammatory cytokines (IL-2, IL-4, IL-17, IL-23, TNF-α)",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "TCIs reduce inflammation without atrophy; non-steroidal alternative for facial SD",
-     "quote": "TCIs such as pimecrolimus and tacrolimus represent a valuable non-steroidal alternative for the treatment of facial seborrheic dermatitis ... without causing skin atrophy.",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "ceramide moisturizers may help; evidence limited",
-     "quote": "Although evidence in SD is limited, data from AD support the use of barrier-enhancing emollients containing ceramides, cholesterol, linoleic acid, and niacinamide",
-     "quote_source": "full_text",
-     "verdict": "partly_supported"
-    },
-    {
-     "text": "eyelid involvement: lid hygiene, warm compresses, gentle cleansing, short courses of antibiotics or steroids; interdisciplinary",
-     "quote": "Management includes lid hygiene with warm compresses and gentle cleansing, artificial tears for dry eye, and short courses of topical antibiotics or corticosteroids for blepharitis when indicated.",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "cold, dry weather exacerbates scaling and itch",
-     "quote": "cold, dry weather exacerbates scaling and pruritus",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    },
-    {
-     "text": "Parkinson disease associated with SD",
-     "quote": "Viral infections (HIV, HCV, SARS-CoV-2), neurological disorders such as Parkinson’s disease, and psychological stress have all been associated with increased disease susceptibility.",
-     "quote_source": "full_text",
-     "verdict": "supported"
-    }
-   ]
-  },
-  {
-   "n": 6,
-   "kind": "other_web",
-   "cited_as": "Mayo Clinic. Seborrheic Dermatitis: Diagnosis and Treatment. July 19, 2024.",
-   "url": "https://www.mayoclinic.org/diseases-conditions/seborrheic-dermatitis/diagnosis-treatment/drc-20352714",
-   "version_or_date": "July 19, 2024",
-   "retrieved_with": "WebFetch of official page (quotes are the fetch tool's verbatim extracts; site limits quote length)",
-   "retrieved_at": "2026-11-07",
-   "editorial_notices": [],
-   "notes": "Now also cited for cradle cap home care, replacing the misattributed adult flare study (old ref 7).",
-   "claims": [
-    {
-     "text": "alternate between two or more shampoo types",
-     "quote": "If that's the case, try alternating between two or more types.",
-     "quote_source": "official_page",
-     "verdict": "supported"
-    },
-    {
-     "text": "beard: 1% ketoconazole daily until improved, then weekly or every two weeks",
-     "quote": "Shampoo with 1% ketoconazole daily until your symptoms improve. Then switch to shampooing once a week or once every two weeks.",
-     "quote_source": "official_page",
-     "verdict": "supported"
-    },
-    {
-     "text": "infant: mild baby shampoo once a day; loosen scales with cloth or infant hairbrush; mineral or olive oil if persists",
-     "quote": "If your infant has mild cradle cap, wash the scalp with a mild baby shampoo once a day. ... If scaling persists, first apply mineral oil or olive oil to the scalp for an hour or two.",
-     "quote_source": "official_page",
-     "verdict": "supported"
-    },
-    {
-     "text": "after clearing, medicated shampoo once a week or every two weeks",
-     "quote": "After your symptoms clear up, use a medicated shampoo just once a week or once every two weeks.",
-     "quote_source": "official_page",
-     "verdict": "supported"
-    }
-   ]
-  },
-  {
-   "n": 7,
-   "kind": "journal",
-   "cited_as": "Lancar R, Missy P, Dupuy A, et al. Risk Factors for Seborrhoeic Dermatitis Flares: Case-control and Case-crossover Study. Acta Derm Venereol. 2020;100(17):adv00292.",
-   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9274933/",
-   "pmid": "33047149",
-   "pmcid": "PMC9274933",
-   "doi": "10.2340/00015555-3661",
-   "record_title": "Risk Factors for Seborrhoeic Dermatitis Flares: Case-control and Case-crossover Study.",
-   "record_journal": "Acta Derm Venereol",
-   "record_year": "2020",
-   "article_type": "Journal Article (case-control and case-crossover study)",
-   "retrieved_with": "PubMed convert_article_ids, get_article_metadata (abstract)",
-   "retrieved_at": "2026-11-07",
-   "editorial_notices": [],
-   "notes": "scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice. Printed author/year/volume/article number corrected from 'Misery L ... 2022;102:adv00751' to Lancar R et al 2020;100(17):adv00292. No longer cited for infant cradle-cap care (an adult flare study); that advice now cites refs 1, 6, 15.",
-   "claims": [
-    {
-     "text": "case-crossover: higher stress in past month associated with flares, OR 4.5",
-     "quote": "Case-crossover study results were the following: higher level of stress during the past month (OR 4.5 (1.7-12.2))",
-     "quote_source": "abstract",
-     "verdict": "supported"
-    }
-   ]
-  },
-  {
-   "n": 8,
-   "kind": "journal",
-   "cited_as": "Mima Y, Yamamoto M, Nonogaki A, Iozumi K. Long-Lasting Seborrheic Dermatitis Associated With Human Immunodeficiency Virus. Cureus. 2025;17(8):e91308.",
-   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12479385/",
-   "pmid": "41035583",
-   "pmcid": "PMC12479385",
-   "doi": "10.7759/cureus.91308",
-   "record_title": "Long-Lasting Seborrheic Dermatitis Associated With Human Immunodeficiency Virus.",
-   "record_journal": "Cureus",
-   "record_year": "2025",
-   "article_type": "Case Reports",
-   "retrieved_with": "PubMed convert_article_ids, get_article_metadata (abstract)",
-   "retrieved_at": "2026-11-07",
-   "editorial_notices": [],
-   "notes": "scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice. Printed author corrected from 'Matsubara K' to Mima Y et al. Now described as a single case report; CD4 <200 threshold removed (not in source).",
-   "claims": [
-    {
-     "text": "case: HIV diagnosed after 6 months of treatment-refractory facial SD; improved after ART",
-     "quote": "He had a six-month history of persistent facial erythema, lichenification, and scaling that were unresponsive to topical therapy. ... After initiating antiretroviral therapy (ART), the immune status and the cutaneous symptoms significantly improved.",
-     "quote_source": "abstract",
-     "verdict": "supported"
-    }
-   ]
-  },
-  {
-   "n": 9,
-   "kind": "other_web",
-   "cited_as": "National Eczema Society. Seborrhoeic Dermatitis in Adults.",
-   "url": "https://www.eczema.org.uk/support/seborrhoeic-dermatitis-in-adults",
-   "version_or_date": "No review date shown on page",
-   "retrieved_with": "WebFetch of official page (quotes are the fetch tool's verbatim extracts; site limits quote length); old eczema.org URL returns 302 to this address",
-   "retrieved_at": "2026-11-07",
-   "editorial_notices": [],
-   "notes": "Link updated to the society's current URL; 'Updated March 2023' removed because the page shows no date.",
-   "claims": [
-    {
-     "text": "cannot be cured because of sensitivity to Malassezia; long-term treatment keeps it at bay",
-     "quote": "Seborrhoeic dermatitis cannot be cured, because once an individual has become allergic to Malassezia on the skin, ... Long-term treatment is needed to keep this condition at bay.",
-     "quote_source": "official_page",
-     "verdict": "supported"
-    }
-   ]
-  },
-  {
-   "n": 10,
-   "kind": "journal",
-   "cited_as": "Peter RU, Richarz-Barthauer U. Br J Dermatol. 1995;132(3):441-445.",
-   "url": "https://doi.org/10.1111/j.1365-2133.1995.tb08680.x",
-   "pmid": "7718463",
-   "doi": "10.1111/j.1365-2133.1995.tb08680.x",
-   "record_title": "Successful treatment and prophylaxis of scalp seborrhoeic dermatitis and dandruff with 2% ketoconazole shampoo: results of a multicentre, double-blind, placebo-controlled trial.",
-   "record_journal": "Br J Dermatol",
-   "record_year": "1995",
-   "article_type": "Clinical Trial; Controlled Clinical Trial; Multicenter Study",
-   "retrieved_with": "PubMed search_articles + get_article_metadata (abstract)",
-   "retrieved_at": "2026-11-07",
-   "editorial_notices": [],
-   "notes": "scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice. Added as the primary source for the 19% vs 47% relapse figure, previously cited secondhand via ref 3. Abstract only.",
-   "claims": [
-    {
-     "text": "575 patients, twice weekly 2-4 weeks, excellent response 88%",
-     "quote": "Five hundred and seventy-five patients presenting with moderate to severe seborrhoeic dermatitis and dandruff of the scalp were treated with 2% ketoconazole shampoo twice weekly for 2-4 weeks, producing an excellent response in 88%.",
-     "quote_source": "abstract",
-     "verdict": "supported"
-    },
-    {
-     "text": "once weekly for 6 months: relapse 19% vs 47% placebo",
-     "quote": "Forty-eight (47%) patients in the placebo group experienced a relapse of seborrhoeic dermatitis, compared with 23 (19%) patients in the active treatment group",
-     "quote_source": "abstract",
-     "verdict": "supported"
-    }
-   ]
-  },
-  {
-   "n": 11,
-   "kind": "journal",
-   "cited_as": "Piérard-Franchimont C, Goffin V, Decroix J, Piérard GE. Skin Pharmacol Appl Skin Physiol. 2002;15(6):434-441.",
-   "url": "https://doi.org/10.1159/000066452",
-   "pmid": "12476017",
-   "doi": "10.1159/000066452",
-   "record_title": "A multicenter randomized trial of ketoconazole 2% and zinc pyrithione 1% shampoos in severe dandruff and seborrheic dermatitis.",
-   "record_journal": "Skin Pharmacol Appl Skin Physiol",
-   "record_year": "2002",
-   "article_type": "Randomized Controlled Trial; Multicenter Study",
-   "retrieved_with": "PubMed search_articles + get_article_metadata (abstract)",
-   "retrieved_at": "2026-11-07",
-   "editorial_notices": [],
-   "notes": "scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice. Added as primary source for 331-patient trial (previously cited via ref 4). Open-label design per abstract. Abstract only.",
-   "claims": [
-    {
-     "text": "331 people, open randomized; 73% vs 67% at week 4; lower recurrence with ketoconazole",
-     "quote": "KET 2%, which achieved a 73% improvement in the total dandruff severity score compared with 67% for ZPT 1% at week 4 (p < 0.02). The recurrence rate of the disease was also significantly lower",
-     "quote_source": "abstract",
-     "verdict": "supported"
-    },
-    {
-     "text": "331 eligible, open randomized parallel-group",
-     "quote": "This open randomized, parallel-group trial ... Of the 331 eligible volunteers, 171 were randomized to KET 2% and 160 to ZPT 1%.",
-     "quote_source": "abstract",
-     "verdict": "supported"
-    }
-   ]
-  },
-  {
-   "n": 12,
-   "kind": "journal",
-   "cited_as": "Ratnavel RC, Squire RA, Boorman GC. J Dermatolog Treat. 2007;18(2):88-96.",
-   "url": "https://doi.org/10.1080/16537150601092944",
-   "pmid": "17520465",
-   "doi": "10.1080/16537150601092944",
-   "record_title": "Clinical efficacies of shampoos containing ciclopirox olamine (1.5%) and ketoconazole (2.0%) in the treatment of seborrhoeic dermatitis.",
-   "record_journal": "J Dermatolog Treat",
-   "record_year": "2007",
-   "article_type": "Randomized Controlled Trial",
-   "retrieved_with": "PubMed search_articles + get_article_metadata (abstract)",
-   "retrieved_at": "2026-11-07",
-   "editorial_notices": [],
-   "notes": "scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice. Added as primary source for the three-arm trial. 'From day 15' and 'greater overall improvement' wording replaced with what the abstract states. Abstract only.",
-   "claims": [
-    {
-     "text": "350 patients, randomized double-blind; both shampoos beat placebo for area affected",
-     "quote": "A randomized, double-blind, 4-week treatment period ... A total of 350 patients ... Both shampoos were significantly more effective than placebo in reducing the area affected.",
-     "quote_source": "abstract",
-     "verdict": "supported"
-    },
-    {
-     "text": "patients rated overall improvement better with ciclopirox than ketoconazole",
-     "quote": "Patients rated the overall improvement as better with CPO than with ketoconazole shampoo.",
-     "quote_source": "abstract",
-     "verdict": "supported"
-    },
-    {
-     "text": "ciclopirox broad-spectrum antifungal with anti-inflammatory properties",
-     "quote": "Ciclopirox olamine (CPO) is a broad-spectrum antifungal with anti-inflammatory properties",
-     "quote_source": "abstract",
-     "verdict": "supported"
-    }
-   ]
-  },
-  {
-   "n": 13,
-   "kind": "journal",
-   "cited_as": "Blauvelt A, Draelos ZD, Stein Gold L, et al. J Am Acad Dermatol. 2024;90(5):986-993.",
-   "url": "https://doi.org/10.1016/j.jaad.2023.12.065",
-   "pmid": "38253129",
-   "doi": "10.1016/j.jaad.2023.12.065",
-   "record_title": "Roflumilast foam 0.3% for adolescent and adult patients with seborrheic dermatitis: A randomized, double-blinded, vehicle-controlled, phase 3 trial.",
-   "record_journal": "J Am Acad Dermatol",
-   "record_year": "2024",
-   "article_type": "Randomized Controlled Trial; Clinical Trial, Phase III",
-   "retrieved_with": "PubMed search_articles + get_article_metadata (abstract)",
-   "retrieved_at": "2026-11-07",
-   "editorial_notices": [],
-   "notes": "scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice. Added as primary source for STRATUM results, previously misattributed to AAD (ref 1). Abstract only; 457-patient count removed from text.",
-   "claims": [
-    {
-     "text": "topical PDE4 inhibitor",
-     "quote": "The topical phosphodiesterase 4 inhibitor roflumilast has been studied in several dermatologic conditions.",
-     "quote_source": "abstract",
-     "verdict": "supported"
-    },
-    {
-     "text": "79.5% vs 58.0% IGA success (clear/almost clear plus 2-point improvement) at week 8",
-     "quote": "IGA Success at week 8, defined as IGA of 0 (Clear) or 1 (Almost Clear) plus ≥2-point improvement from baseline. ... 79.5% of roflumilast-treated and 58.0% of vehicle-treated patients met the primary endpoint",
-     "quote_source": "abstract",
-     "verdict": "supported"
-    }
-   ]
-  },
-  {
-   "n": 14,
-   "kind": "label",
-   "cited_as": "FDA. ZORYVE (roflumilast) foam, 0.3%, prescribing information. NDA 217242. Revised 12/2023.",
-   "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217242Orig1s000Lbl.pdf",
-   "version_or_date": "Revised: 12/2023",
-   "retrieved_with": "WebSearch to locate; WebFetch of Drugs@FDA label PDF",
-   "retrieved_at": "2026-11-07",
-   "editorial_notices": [],
-   "notes": "Added for indication, age and application. Label says topical use only, not ophthalmic; original claim that it can be applied to eyelids was removed.",
-   "claims": [
-    {
-     "text": "approved for SD in adults and children 9 and older",
-     "quote": "ZORYVE® foam, 0.3%, is indicated for the treatment of seborrheic dermatitis in adult and pediatric patients 9 years of age and older.",
-     "quote_source": "label",
-     "verdict": "supported"
-    },
-    {
-     "text": "thin layer once daily to affected skin and/or scalp",
-     "quote": "Apply a thin layer of ZORYVE foam, 0.3%, once daily to affected areas on skin and/or scalp when they are not wet.",
-     "quote_source": "label",
-     "verdict": "supported"
-    }
-   ]
-  },
-  {
-   "n": 15,
-   "kind": "journal",
-   "cited_as": "LeFevre NM, Braudis K, Feigenbaum LS. Seborrheic Dermatitis: Diagnosis and Treatment. Am Fam Physician. 2025;112(2):166-173.",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/40834373/",
-   "pmid": "40834373",
-   "record_title": "Seborrheic Dermatitis: Diagnosis and Treatment.",
-   "record_journal": "Am Fam Physician",
-   "record_year": "2025",
-   "article_type": "Journal Article",
-   "retrieved_with": "PubMed get_article_metadata (abstract)",
-   "retrieved_at": "2026-11-07",
-   "editorial_notices": [],
-   "notes": "scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice. Added for infant seborrheic dermatitis. Abstract only. Already linked from the citable summary block.",
-   "claims": [
-    {
-     "text": "neonatal SD common, resolves by 6 months",
-     "quote": "Neonatal seborrheic dermatitis is common and typically self-resolves by 6 months of age.",
-     "quote_source": "abstract",
-     "verdict": "supported"
-    },
-    {
-     "text": "more severe infant cases: topical antifungals or corticosteroids; overlap with atopic dermatitis",
-     "quote": "More severe cases may overlap with atopic dermatitis and can be treated with topical antifungals or topical corticosteroids.",
-     "quote_source": "abstract",
-     "verdict": "supported"
-    }
-   ]
-  }
- ]
+  ]
 }

@@ -1,0 +1,1217 @@
+{
+  "guide": "type-2-diabetes-medication-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 14 verified (all 13 cited DOIs plus the removed El Khayari 2024 review), 0 could not verify, retractions: none; no expressions of concern or withdrawals. Scite flagged one potential contrasting citation each for UKPDS 35 (a later cohort reporting a threshold effect), DPP (another population with smaller weight loss) and SURPASS-2 (a mouse mechanistic study); the page does not claim a no-threshold effect and describes UKPDS 35 as observational. PubMed article types checked: none is Retracted Publication or Retraction Notice.",
+  "references": [
+    {
+      "n": 1,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. National Diabetes Statistics Report. Updated September 16, 2026. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/diabetes/php/data-research/index.html",
+      "version_or_date": "Page updated and reviewed September 16, 2026",
+      "retrieved_with": "Monid firecrawl /scrape of the official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "About 40.1 million people in the US have diabetes",
+          "quote": "40.1 million Estimated number of people with diagnosed or undiagnosed diabetes in the United States, 2023",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "27.6% of adults with diabetes (more than 1 in 4) are undiagnosed",
+          "quote": "27.6% Estimated percentage of adults aged ≥18 years with diabetes who are undiagnosed, representing 11.0 million people",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "115.2 million US adults have prediabetes",
+          "quote": "115.2 million Estimated number of U.S. adults aged ≥18 years with prediabetes",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Type 2 Diabetes. Updated May 15, 2024. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/diabetes/about/about-type-2-diabetes.html",
+      "version_or_date": "Page updated May 15, 2024; reviewed December 20, 2023",
+      "retrieved_with": "Monid firecrawl /scrape of the official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "about 90% to 95% of people with diabetes have type 2",
+          "quote": "More than 40 million Americans have diabetes (about 1 in 8), and about 90% to 95% of them have type 2 diabetes.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "type 2 diabetes can go a long time unnoticed; high blood sugar damages heart, eyes, kidneys",
+          "quote": "Type 2 diabetes symptoms often develop over several years and can go on for a long time without being noticed.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "high blood sugar causes heart disease, vision loss, kidney disease",
+          "quote": "It can cause other serious health problems, such as heart disease, vision loss, and kidney disease.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "guideline",
+      "cited_as": "American Diabetes Association Professional Practice Committee. 9. Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes-2026. Diabetes Care. 2026;49(Suppl 1):S183-S215.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12690185/",
+      "pmid": "41358900",
+      "pmcid": "PMC12690185",
+      "doi": "10.2337/dc26-S009",
+      "record_title": "9. Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes-2026.",
+      "record_journal": "Diabetes Care",
+      "record_year": "2026",
+      "article_type": "Journal Article; Review (PubMed); ADA clinical practice guideline section",
+      "version_or_date": "Standards of Care in Diabetes 2026 edition, Diabetes Care 49(Suppl 1), published January 1, 2026; read November 15, 2026",
+      "retrieved_with": "PubMed get_article_metadata (record) + Monid firecrawl /scrape of the PMC full-text page (full text saved and searched for verbatim quotes)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "GLP-1 RA and/or SGLT2i with demonstrated CV benefit for established or high ASCVD risk, irrespective of A1C (Rec 9.7)",
+          "quote": "the treatment plan should include medications with demonstrated benefits to reduce cardiovascular events (e.g., glucagon-like peptide 1 receptor agonist [GLP-1 RA] and/or sodium–glucose cotransporter 2 [SGLT2] inhibitor)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "irrespective of A1C",
+          "quote": "for glycemic management and comprehensive cardiovascular risk reduction (irrespective of A1C)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "SGLT2i for heart failure with reduced or preserved EF, irrespective of A1C (Rec 9.8)",
+          "quote": "who have heart failure (HF) (with either reduced or preserved ejection fraction), an SGLT2 inhibitor is recommended for both glycemic management and prevention of HF hospitalizations (irrespective of A1C)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "SGLT2i or GLP-1 RA for CKD with eGFR 20-60 and/or albuminuria (Rec 9.10)",
+          "quote": "chronic kidney disease (CKD) (with confirmed estimated glomerular filtration rate [eGFR] 20–60 mL/min/1.73 m2 and/or albuminuria), an SGLT2 inhibitor or GLP-1 RA with demonstrated benefit in this population should be used",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "SGLT2i glucose lowering reduced below eGFR 45",
+          "quote": "The glycemic benefits of SGLT2 inhibitors are reduced at eGFR <45 mL/min/1.73 m2.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "metformin historically first-line",
+          "quote": "metformin is a commonly used medication that historically has been the first-line treatment for type 2 diabetes",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "metformin effective, safe, inexpensive",
+          "quote": "Metformin is effective and safe, is inexpensive and widely available",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "metformin weight neutral, no hypoglycemia",
+          "quote": "metformin as first-line therapy has beneficial effects on A1C, is weight neutral, does not cause hypoglycemia, and reduces cardiovascular mortality",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "lactic acidosis very rare, mainly at eGFR <30",
+          "quote": "However, the occurrence of this complication is very rare",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "tirzepatide and semaglutide highest efficacy for glucose and weight",
+          "quote": "tirzepatide and semaglutide have the highest efficacy in terms of glucose lowering as well as weight loss",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "GLP-1-based therapy preferred to insulin without severe hyperglycemia/crisis (Rec 9.21)",
+          "quote": "without severe hyperglycemia or hyperglycemic crisis, GLP-1–based therapy is preferred to insulin for initial or add-on glucose-lowering therapy",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "insulin combined with GLP-1 RA incl. dual GIP/GLP-1 RA (Rec 9.22)",
+          "quote": "If insulin is used, combination therapy with a GLP-1 RA, including a dual GIP and GLP-1 RA, is recommended for greater glycemic effectiveness as well as beneficial effects on weight and hypoglycemia risk",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "reassess sulfonylureas, meglitinides, insulin when starting new agent (Rec 9.17)",
+          "quote": "reassess the need for and/or dose of medications with higher hypoglycemia risk (i.e., sulfonylureas, meglitinides, and insulin) to minimize the risk of hypoglycemia",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "do not combine DPP-4i with GLP-1 RA (Rec 9.18)",
+          "quote": "Concurrent use of dipeptidyl peptidase 4 (DPP-4) inhibitors with a GLP-1 RA or a dual GIP and GLP-1 RA is not recommended due to lack of additional glucose lowering",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "cost and access guide medication choice; heart, kidney, weight effects weighed (Rec 9.5)",
+          "quote": "consideration of the effects on cardiovascular, kidney, weight, and other relevant comorbidities; hypoglycemia risk; cost and access",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "treatment changes should not be delayed (Rec 9.15)",
+          "quote": "Treatment modification (including intensification or deintensification) for adults not meeting individualized treatment goals should not be delayed.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "each oral class adds ~0.7-1.0% A1C lowering; GLP-1 RA 1% to 2% or more",
+          "quote": "each new class of oral noninsulin agents when added to metformin generally lowers A1C by approximately 0.7–1.0%",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "GLP-1 RA or dual added to metformin: 1% to >=2% A1C lowering",
+          "quote": "Addition of GLP-1 RAs or the dual GIP and GLP-1 RA to metformin usually results in 1% to ≥2% lowering of A1C",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Table 9.2: GLP-1 RA CV (MACE) benefit for dulaglutide, liraglutide, semaglutide; oral semaglutide available; no hypoglycemia; weight loss",
+          "quote": "GLP-1 RAs (SQ; semaglutide also available in oral formulation) | High to very high | No | Loss (intermediate to very high) | Benefit: dulaglutide, liraglutide, semaglutide (SQ and oral)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Table 9.2: dual GIP/GLP-1 RA MACE effect under investigation",
+          "quote": "Dual GIP and GLP-1 RA (SQ) | Very high | No | Loss (very high) | Under investigation",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Table 9.2: acute pancreatitis reported, causality not established",
+          "quote": "Pancreatitis: acute pancreatitis has been reported, but causality has not been established",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Table 9.2: GI side effects with GLP-1 RAs",
+          "quote": "GI side effects: counsel on potential for GI side effects",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Table 9.2: SGLT2i efficacy, no hypoglycemia, weight loss, HF/CKD benefit by agent",
+          "quote": "SGLT2 inhibitors (oral) | Intermediate to high | No | Loss (intermediate) | Benefit: canagliflozin, empagliflozin | Benefit: canagliflozin, dapagliflozin, empagliflozin, ertugliflozin | Benefit: canagliflozin, empagliflozin, dapagliflozin",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Table 9.2: SGLT2i start/continue for CV and kidney benefit if eGFR >20",
+          "quote": "Glucose-lowering effect is minimal at eGFR <45 mL/min/1.73 m2 and lower; continue or start for cardiovascular and kidney benefit if eGFR >20 mL/min/1.73 m2.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Table 9.2: SGLT2i DKA incl. euglycemic DKA, rare in T2D",
+          "quote": "DKA risk in individuals with insulin deficiency (rare in T2D): discontinue, evaluate, and treat promptly if suspected; be aware of predisposing risk factors and clinical presentations (including euglycemic DKA)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Table 9.2: SGLT2i genital infections, UTI/urosepsis, volume depletion",
+          "quote": "Genital mycotic infections: mitigate risk with genital hygiene and avoid use in high-risk individuals",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Table 9.2: SGLT2i volume depletion and blood pressure",
+          "quote": "Intravascular volume depletion: attention to volume status and blood pressure, particularly when ill or fasting",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Table 9.2: sulfonylureas high efficacy, hypoglycemia yes, weight gain",
+          "quote": "Sulfonylureas (2nd generation) (oral) | High | Yes | Gain",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "sulfonylurea hypoglycemia caution especially with insulin",
+          "quote": "Use with caution in individuals at risk for hypoglycemia, particularly if in combination with insulin",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Table 9.3: sulfonylureas low cost (glipizide median NADAC)",
+          "quote": "• Glipizide | 10 mg (IR) | 40 mg | $72 ($67, $91) | $6",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Table 9.3: GLP-1 RA cost (semaglutide pen median AWP)",
+          "quote": "• Semaglutide | 2 mg pen | 2 mg [‡] | $1,197 | $966",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Table 9.2: DPP-4i intermediate efficacy, no hypoglycemia, weight neutral, neutral MACE",
+          "quote": "DPP-4 inhibitors (oral) | Intermediate | No | Neutral | Neutral",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Table 9.2: insulin high to very high efficacy, hypoglycemia, weight gain",
+          "quote": "Insulin (human) (SQ; regular insulin also available as inhaled formulation) | High to very high | Yes | Gain",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "insulin considered when A1C >10% or glucose >=300 or symptoms (Rec 9.20)",
+          "quote": "initiation of insulin should be considered regardless of background glucose-lowering therapy or disease duration if symptoms of hyperglycemia are present or when A1C or blood glucose levels are very high (i.e., A1C >10%",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "GLP-1/SGLT2 continued for CV/kidney protection irrespective of A1C (FAQ); slowing CKD and reducing CV events",
+          "quote": "should be used for both glycemic management and for slowing progression of CKD and reduction in cardiovascular events (irrespective of A1C)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "guideline",
+      "cited_as": "American Diabetes Association Professional Practice Committee. 6. Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises: Standards of Care in Diabetes-2026. Diabetes Care. 2026;49(Suppl 1):S132-S149.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12690178/",
+      "pmid": "41358894",
+      "pmcid": "PMC12690178",
+      "doi": "10.2337/dc26-S006",
+      "record_title": "6. Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises: Standards of Care in Diabetes-2026.",
+      "record_journal": "Diabetes Care",
+      "record_year": "2026",
+      "article_type": "Journal Article; Review (PubMed); ADA clinical practice guideline section",
+      "version_or_date": "Standards of Care in Diabetes 2026 edition, Diabetes Care 49(Suppl 1), published January 1, 2026; read November 15, 2026",
+      "retrieved_with": "PubMed get_article_metadata (record) + Monid firecrawl /scrape of the PMC full-text page (full text saved and searched for verbatim quotes)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "A1C reflects average glycemia over approx. 2-3 months",
+          "quote": "A1C reflects average glycemia over approximately 2–3 months.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "A1C is primary tool and strongly linked to complications",
+          "quote": "The A1C test is the primary tool for assessing glycemic status in both clinical practice and clinical trials, and it is strongly linked to diabetes complications",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "A1C goal <7% for many nonpregnant adults (Rec 6.3a)",
+          "quote": "An A1C goal of <7% (<53 mmol/mol) is appropriate for many nonpregnant adults without severe hypoglycemia or hypoglycemia affecting health or quality of life.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "lower goals e.g. <6.5% (Rec 6.4)",
+          "quote": "Lower A1C goals (e.g., <6.5% [<48 mmol/mol]) may be appropriate for individuals with diabetes with good health and function and low treatment risks (e.g., hypoglycemia) and burdens",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "less stringent goals e.g. A1C up to 8%",
+          "quote": "Less stringent goals (e.g., A1C up to 8% [64 mmol/mol]) may be recommended for individuals with complex health status and/or limited life expectancy",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "preprandial 80-130 and peak postprandial <180 (Table 6.3)",
+          "quote": "Preprandial capillary plasma glucose | 80–130 mg/dL [*] (4.4–7.2 mmol/L) | | Peak postprandial capillary plasma glucose [‡] | <180 mg/dL",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "postprandial measured 1-2 h after start of meal; attention if A1C not at goal",
+          "quote": "Postprandial glucose may warrant special attention if A1C goals are not met despite reaching preprandial glucose goals. Postprandial glucose measurements should be made 1–2 h after the beginning of the meal",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "eAG: A1C 5% = 97, 6% = 126, 7% = 154, 8% = 183 mg/dL (Table 6.1)",
+          "quote": "| 5 | 31 | 97 (76–120) | 5.4 (4.2–6.7) | | 6 | 42 | 126 (100–152) | 7.0 (5.5–8.5) | | 7 | 53 | 154 (123–185) | 8.6 (6.8–10.3) | | 8 | 64 | 183 (147–217)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "A1C does not measure variability, real-time glucose or hypoglycemia",
+          "quote": "A1C does not provide a measure of glycemic variability, real-time glucose levels, or hypoglycemia.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "time in range >70% goal with CGM (Rec 6.3b)",
+          "quote": "A goal time in range of >70% in people using CGM is appropriate for many nonpregnant adults.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "hypoglycemia often the major limiting factor",
+          "quote": "Hypoglycemia is often the major limiting factor in the glycemic management of type 1 and type 2 diabetes.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "insulin, sulfonylureas, meglitinides; rare with other classes",
+          "quote": "Individuals at risk for hypoglycemia are those treated with insulin, sulfonylureas, or meglitinides; clinically significant hypoglycemia is rare among individuals taking other diabetes medication classes",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Level 1 <70 and >=54",
+          "quote": "Level 1 hypoglycemia is defined as a measurable glucose concentration <70 mg/dL (<3.9 mmol/L) and ≥54 mg/dL (≥3.0 mmol/L).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "symptoms: shakiness, irritability, confusion, tachycardia, sweating, hunger",
+          "quote": "Symptoms of hypoglycemia include, but are not limited to, shakiness, irritability, confusion, tachycardia, sweating, and hunger",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Level 2 <54 requires immediate action",
+          "quote": "Level 2 hypoglycemia (defined as a blood glucose concentration <54 mg/dL [<3.0 mmol/L]) is the threshold at which neuroglycopenic symptoms begin to occur and requires immediate action",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Level 3 definition",
+          "quote": "level 3 hypoglycemia is defined as a severe event characterized by altered mental and/or physical functioning that requires assistance from another person for recovery, irrespective of glucose level",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Level 3 can progress to LOC, seizure, coma, death",
+          "quote": "Level 3 hypoglycemia may be recognized or unrecognized and can progress to loss of consciousness, seizure, coma, or death.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "glucose treatment for conscious person (Rec 6.15)",
+          "quote": "Glucose is the preferred treatment for the conscious individual with glucose <70 mg/dL (<3.9 mmol/L), although any form of carbohydrate that contains glucose may be used.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "glucagon prescribed for insulin users or high risk; family educated (Rec 6.16)",
+          "quote": "Glucagon should be prescribed for all individuals taking insulin or at high risk for hypoglycemia.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "family/caregivers should know location and administration",
+          "quote": "Family, caregivers, school personnel, and others providing support to these individuals should know its location and be educated on how to admin",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "intranasal and ready-to-inject glucagon now available; traditional powder needs reconstitution",
+          "quote": "Glucagon was traditionally dispensed as a powder that requires reconstitution prior to injection. However, intranasal and ready-to-inject glucagon preparations are now widely available",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "impaired awareness with long-standing diabetes or recurrent hypoglycemia",
+          "quote": "which often occurs in individuals with long-standing diabetes or recurrent hypoglycemia",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "confusion may be first sign",
+          "quote": "Individuals with impaired hypoglycemia awareness may experience confusion as the first sign of hypoglycemia",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "several weeks of hypoglycemia avoidance can restore awareness",
+          "quote": "several weeks of avoidance of hypoglycemia, typically accomplished through a temporary relaxation of glycemic goals, can improve counterregulation and hypoglycemia awareness in many people with diabetes",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "repeated lows: deintensify or modify therapy (Rec 6.3c)",
+          "quote": "Deintensify or modify therapy if these goals are not met.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "DKA and HHS are life-threatening emergencies",
+          "quote": "Diabetic ketoacidosis (DKA) and the hyperglycemic hyperosmolar state (HHS) are serious, acute, and life-threatening hyperglycemic emergencies",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Treatment of Low Blood Sugar (Hypoglycemia). Reviewed May 15, 2024. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html",
+      "version_or_date": "Published May 15, 2024; reviewed May 15, 2024",
+      "retrieved_with": "Monid firecrawl /scrape of the official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "15-15 rule steps",
+          "quote": "Have 15 grams of carbs, then wait 15 minutes. 2. Check your blood sugar again. If it's still less than 70 mg/dL, repeat this process.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "after treating, balanced snack with protein and carbs",
+          "quote": "After treating your low blood sugar, eat a balanced snack or meal with protein and carbs.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "food list: 4 oz juice/soda, 1 tbsp sugar/honey/syrup, 3-4 glucose tablets, 1 gel dose",
+          "quote": "4 ounces (½ cup) of juice or regular (non-diet) soda. - 1 tablespoon of sugar, honey, or syrup.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "glucose tablets and gel",
+          "quote": "3-4 glucose tablets (follow instructions). - 1 dose of glucose gel (usually 1 tube; follow instructions).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "emergency care after glucagon",
+          "quote": "Contact a doctor for emergency medical treatment immediately after a glucagon injection.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "continued lows: share patterns with doctor",
+          "quote": "If you continue to have low blood sugar episodes, share your blood sugar, medicine routine, physical activity, and food patterns with your doctor.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "guideline",
+      "cited_as": "American Diabetes Association Professional Practice Committee. 5. Facilitating Positive Health Behaviors and Well-being to Improve Health Outcomes: Standards of Care in Diabetes-2026. Diabetes Care. 2026;49(Suppl 1):S89-S131.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12690188/",
+      "pmid": "41358898",
+      "pmcid": "PMC12690188",
+      "doi": "10.2337/dc26-S005",
+      "record_title": "5. Facilitating Positive Health Behaviors and Well-being to Improve Health Outcomes: Standards of Care in Diabetes-2026.",
+      "record_journal": "Diabetes Care",
+      "record_year": "2026",
+      "article_type": "Journal Article; Review (PubMed); ADA clinical practice guideline section",
+      "version_or_date": "Standards of Care in Diabetes 2026 edition, Diabetes Care 49(Suppl 1), published January 1, 2026; read November 15, 2026",
+      "retrieved_with": "PubMed get_article_metadata (record) + Monid firecrawl /scrape of the PMC full-text page (full text saved and searched for verbatim quotes)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "MNT by RDN: A1C decreases 0.3-2.0% in type 2",
+          "quote": "When delivered by an RDN, MNT is associated with A1C absolute decreases of 1.0–1.9% for people with type 1 diabetes and 0.3–2.0% for people with type 2 diabetes",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "structured exercise lowered A1C 0.66%",
+          "quote": "structured exercise interventions of at least 8 weeks have been shown to lower A1C by 0.66% in people with type 2 diabetes, even without a significant change in BMI",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "combining aerobic and resistance may give greater benefit",
+          "quote": "combining aerobic and resistance exercise may provide greater glycemic benefits",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "eating patterns: Mediterranean, DASH, low-fat, carb-restricted, vegetarian, vegan",
+          "quote": "Evidence-based eating patterns most frequently recommended include Mediterranean, DASH, low-fat, carbohydrate-restricted, vegetarian, and vegan eating patterns.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "150 min/week aerobic over >=3 days (Rec 5.36)",
+          "quote": "to engage in 150 min or more of moderate- to vigorous-intensity aerobic activity per week, spread over at least 3 days/week",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "2-3 resistance sessions/week (Rec 5.37)",
+          "quote": "to engage in 2–3 sessions/week of resistance exercise on nonconsecutive days.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "aerobic activity provides cardiometabolic benefits",
+          "quote": "provide multiple cardiometabolic benefits for people with diabetes",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "guideline",
+      "cited_as": "American Diabetes Association Professional Practice Committee. 2. Diagnosis and Classification of Diabetes: Standards of Care in Diabetes-2026. Diabetes Care. 2026;49(Suppl 1):S27-S49.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12690183/",
+      "pmid": "41358893",
+      "pmcid": "PMC12690183",
+      "doi": "10.2337/dc26-S002",
+      "record_title": "2. Diagnosis and Classification of Diabetes: Standards of Care in Diabetes-2026.",
+      "record_journal": "Diabetes Care",
+      "record_year": "2026",
+      "article_type": "Journal Article; Review (PubMed); ADA clinical practice guideline section",
+      "version_or_date": "Standards of Care in Diabetes 2026 edition, Diabetes Care 49(Suppl 1), published January 1, 2026; read November 15, 2026",
+      "retrieved_with": "PubMed get_article_metadata (record) + Monid firecrawl /scrape of the PMC full-text page (full text saved and searched for verbatim quotes)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "diagnosis A1C >=6.5%",
+          "quote": "A1C ≥6.5% (≥48 mmol/mol).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "prediabetes A1C 5.7-6.4%",
+          "quote": "People with prediabetes are defined by the presence of IFG and/or IGT and/or A1C 5.7–6.4% (39–47 mmol/mol)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "guideline",
+      "cited_as": "American Diabetes Association Professional Practice Committee. 7. Diabetes Technology: Standards of Care in Diabetes-2026. Diabetes Care. 2026;49(Suppl 1):S150-S165.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12690173/",
+      "pmid": "41358889",
+      "pmcid": "PMC12690173",
+      "doi": "10.2337/dc26-S007",
+      "record_title": "7. Diabetes Technology: Standards of Care in Diabetes-2026.",
+      "record_journal": "Diabetes Care",
+      "record_year": "2026",
+      "article_type": "Journal Article; Review (PubMed); ADA clinical practice guideline section",
+      "version_or_date": "Standards of Care in Diabetes 2026 edition, Diabetes Care 49(Suppl 1), published January 1, 2026; read November 15, 2026",
+      "retrieved_with": "PubMed get_article_metadata (record) + Monid firecrawl /scrape of the PMC full-text page (full text saved and searched for verbatim quotes)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "CGM for insulin, noninsulin hypoglycemia-causing therapies, any treatment where helpful (Rec 7.15)",
+          "quote": "adults with diabetes who are on insulin therapy, **A** on noninsulin therapies that can cause hypoglycemia, **C** and on any diabetes treatment where CGM helps in management.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "guideline",
+      "cited_as": "American Diabetes Association Professional Practice Committee. 12. Retinopathy, Neuropathy, and Foot Care: Standards of Care in Diabetes-2026. Diabetes Care. 2026;49(Suppl 1):S261-S276.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12690177/",
+      "pmid": "41358886",
+      "pmcid": "PMC12690177",
+      "doi": "10.2337/dc26-S012",
+      "record_title": "12. Retinopathy, Neuropathy, and Foot Care: Standards of Care in Diabetes-2026.",
+      "record_journal": "Diabetes Care",
+      "record_year": "2026",
+      "article_type": "Journal Article; Review (PubMed); ADA clinical practice guideline section",
+      "version_or_date": "Standards of Care in Diabetes 2026 edition, Diabetes Care 49(Suppl 1), published January 1, 2026; read November 15, 2026",
+      "retrieved_with": "PubMed get_article_metadata (record) + Monid firecrawl /scrape of the PMC full-text page (full text saved and searched for verbatim quotes)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "retinopathy most frequent cause of new blindness ages 20-74",
+          "quote": "Diabetic retinopathy is the most frequent cause of new cases of blindness among adults aged 20–74 years in high-income countries",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "vision-threatening retinopathy may be asymptomatic",
+          "quote": "people with vision-threatening retinopathy may be asymptomatic",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "dilated eye exam at diagnosis for type 2 (Rec 12.4)",
+          "quote": "People with type 2 diabetes should have an initial dilated and comprehensive eye examination by an ophthalmologist or optometrist at the time of the diabetes diagnosis.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "up to 50% of DPN asymptomatic; risk of ulcers and amputation",
+          "quote": "Up to 50% of diabetic peripheral neuropathy (DPN) cases may be asymptomatic",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "unrecognized neuropathy leads to injuries, foot ulcers, amputations",
+          "quote": "people with diabetes are at risk for injuries as well as diabetic foot ulcers (DFUs) and amputations",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "foot ulcers lead to infection, hospitalization, amputation",
+          "quote": "Consequences of DFUs include decline in functional status and reduced independence with daily activities, decreased quality of life, cost of wound care, infection, hospitalization, lower-extremity amputation, and death.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "sudden vision change: eye complications such as vitreous hemorrhage, retinal detachment",
+          "quote": "Other ocular complications include vitreous hemorrhage and tractional retinal detachment.",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "guideline",
+      "cited_as": "American Diabetes Association Professional Practice Committee. 11. Chronic Kidney Disease and Risk Management: Standards of Care in Diabetes-2026. Diabetes Care. 2026;49(Suppl 1):S246-S260.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12690176/",
+      "pmid": "41358881",
+      "pmcid": "PMC12690176",
+      "doi": "10.2337/dc26-S011",
+      "record_title": "11. Chronic Kidney Disease and Risk Management: Standards of Care in Diabetes-2026.",
+      "record_journal": "Diabetes Care",
+      "record_year": "2026",
+      "article_type": "Journal Article; Review (PubMed); ADA clinical practice guideline section",
+      "version_or_date": "Standards of Care in Diabetes 2026 edition, Diabetes Care 49(Suppl 1), published January 1, 2026; read November 15, 2026",
+      "retrieved_with": "PubMed get_article_metadata (record) + Monid firecrawl /scrape of the PMC full-text page (full text saved and searched for verbatim quotes)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "CKD leading cause of kidney failure in US",
+          "quote": "CKD can progress to kidney failure requiring dialysis or kidney transplantation and is the leading cause of kidney failure in the U.S.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "UACR and eGFR at least annually in all type 2 (Rec 11.1a)",
+          "quote": "Assess kidney function with random urine albumin-to-creatinine ratio (UACR) and estimated glomerular filtration rate (eGFR) at least annually",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "guideline",
+      "cited_as": "American Diabetes Association Professional Practice Committee. 10. Cardiovascular Disease and Risk Management: Standards of Care in Diabetes-2026. Diabetes Care. 2026;49(Suppl 1):S216-S245.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12690187/",
+      "pmid": "41358899",
+      "pmcid": "PMC12690187",
+      "doi": "10.2337/dc26-S010",
+      "record_title": "10. Cardiovascular Disease and Risk Management: Standards of Care in Diabetes-2026.",
+      "record_journal": "Diabetes Care",
+      "record_year": "2026",
+      "article_type": "Journal Article; Practice Guideline (PubMed)",
+      "version_or_date": "Standards of Care in Diabetes 2026 edition, Diabetes Care 49(Suppl 1), published January 1, 2026; read November 15, 2026",
+      "retrieved_with": "PubMed get_article_metadata (record) + Monid firecrawl /scrape of the PMC full-text page (full text saved and searched for verbatim quotes)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "ASCVD (incl. MI, stroke, PAD) leading cause of morbidity and mortality in diabetes",
+          "quote": "stroke, or peripheral artery disease (PAD) including aortic aneurysm and is the leading cause of morbidity and mortality in people with diabetes",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "diabetes independently raises ASCVD risk",
+          "quote": "Diabetes itself confers independent ASCVD risk",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "journal",
+      "cited_as": "Stratton IM, Adler AI, Neil HA, et al. Association of glycaemia with macrovascular and microvascular complications of type 2 diabetes (UKPDS 35): prospective observational study. BMJ. 2000;321(7258):405-412.",
+      "url": "https://doi.org/10.1136/bmj.321.7258.405",
+      "pmid": "10938048",
+      "pmcid": "PMC27454",
+      "doi": "10.1136/bmj.321.7258.405",
+      "record_title": "Association of glycaemia with macrovascular and microvascular complications of type 2 diabetes (UKPDS 35): prospective observational study.",
+      "record_journal": "BMJ",
+      "record_year": "2000",
+      "article_type": "Journal Article (prospective observational study)",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "each 1% lower A1C associated with 37% lower microvascular risk and 21% fewer diabetes-related deaths (observational)",
+          "quote": "Each 1% reduction in updated mean HbA(1c) was associated with reductions in risk of 21% for any end point related to diabetes (95% confidence interval 17% to 24%, P<0.0001), 21% for deaths related to diabetes",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "37% microvascular",
+          "quote": "37% for microvascular complications (33% to 41%, P<0.0001)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "journal",
+      "cited_as": "Frías JP, Davies MJ, Rosenstock J, et al. Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes. N Engl J Med. 2021;385(6):503-515.",
+      "url": "https://doi.org/10.1056/NEJMoa2107519",
+      "pmid": "34170647",
+      "doi": "10.1056/NEJMoa2107519",
+      "record_title": "Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes.",
+      "record_journal": "N Engl J Med",
+      "record_year": "2021",
+      "article_type": "Clinical Trial, Phase III; Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "tirzepatide noninferior and superior to semaglutide 1 mg for A1C at 40 weeks",
+          "quote": "In patients with type 2 diabetes, tirzepatide was noninferior and superior to semaglutide with respect to the mean change in the glycated hemoglobin level from baseline to 40 weeks.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "greater weight reduction with tirzepatide",
+          "quote": "Reductions in body weight were greater with tirzepatide than with semaglutide",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "journal",
+      "cited_as": "Hoog MM, Vallarino C, Maldonado JM, et al. Real-World Effectiveness of Tirzepatide versus Semaglutide on HbA1c and Weight in Patients with Type 2 Diabetes. Diabetes Ther. 2025;16(11):2237-2256.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12579026/",
+      "pmid": "41066072",
+      "pmcid": "PMC12579026",
+      "doi": "10.1007/s13300-025-01794-9",
+      "record_title": "Real-World Effectiveness of Tirzepatide versus Semaglutide on HbA1c and Weight in Patients with Type 2 Diabetes.",
+      "record_journal": "Diabetes Ther",
+      "record_year": "2025",
+      "article_type": "Journal Article (retrospective claims database analysis)",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "retrospective study; GLP-1-naive: A1C -1.3% vs -0.9%, weight -10.2 vs -6.1 kg at 12 months",
+          "quote": "Tirzepatide was associated with greater mean reductions in HbA1c (naïve: - 1.3% vs. - 0.9%; non-naïve: - 0.9% vs. - 0.6%; p < 0.001) and weight (naïve: - 10.2 kg vs. - 6.1 kg",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "retrospective claims database design; 12-month follow-up",
+          "quote": "This retrospective analysis utilized the Healthcare Integrated Research Database® to identify adults with T2D starting tirzepatide or injectable semaglutide",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "label",
+      "cited_as": "U.S. Food and Drug Administration prescribing information. Metformin Hydrochloride Tablets (Quallent Pharmaceuticals Health LLC). Revised 8/2026. DailyMed. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=25be863d-490c-47f6-9ad3-c828dc43fbf0",
+      "version_or_date": "Label revised 8/2026 (ANDA generic; DailyMed setid 25be863d-490c-47f6-9ad3-c828dc43fbf0)",
+      "retrieved_with": "Monid firecrawl /scrape of the DailyMed label page (full text saved and searched for verbatim quotes)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "metformin mechanism",
+          "quote": "Metformin decreases hepatic glucose production, decreases intestinal absorption of glucose, and improves insulin sensitivity by increasing peripheral glucose uptake and utilization.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "contraindicated eGFR below 30",
+          "quote": "Severe renal impairment (eGFR below 30 mL/min/1.73 m2)",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "boxed warning lactic acidosis",
+          "quote": "WARNING: LACTIC ACIDOSIS",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "GI adverse reactions",
+          "quote": "the most common adverse reactions (>5.0%) are diarrhea, nausea/vomiting, flatulence, asthenia, indigestion, abdominal discomfort, and headache",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "label",
+      "cited_as": "U.S. Food and Drug Administration prescribing information. OZEMPIC (semaglutide) injection (Novo Nordisk). Revised 5/2026. DailyMed. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adec4fd2-6858-4c99-91d4-531f5f2a2d79",
+      "version_or_date": "Label revised 5/2026 (NDA209637)",
+      "retrieved_with": "Monid firecrawl /scrape of the DailyMed label page (full text saved and searched for verbatim quotes)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "semaglutide mechanism: insulin up, glucagon down, minor gastric emptying delay",
+          "quote": "Semaglutide reduces blood glucose through a mechanism where it stimulates insulin secretion and lowers glucagon secretion, both in a glucose-dependent manner.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "minor delay in gastric emptying",
+          "quote": "The mechanism of blood glucose lowering also involves a minor delay in gastric emptying in the early postprandial phase.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "contraindicated with personal/family history of MTC or MEN 2 (boxed warning)",
+          "quote": "OZEMPIC is contraindicated in patients with a personal or family history of MTC or in patients with Multiple Endocrine Neoplasia syndrome type 2 (MEN 2).",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "pancreatitis symptoms; discontinue and contact physician",
+          "quote": "severe abdominal pain that may radiate to the back, and which may or may not be accompanied by nausea or vomiting. Instruct patients to discontinue OZEMPIC promptly and contact their physician if pancreatitis is su",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "kind": "label",
+      "cited_as": "U.S. Food and Drug Administration prescribing information. MOUNJARO (tirzepatide) injection (Eli Lilly and Company). Revised 8/2026. DailyMed. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2d7da5d-ad07-4228-955f-cf7e355c8cc0",
+      "version_or_date": "Label revised 8/2026 (NDA215866)",
+      "retrieved_with": "Monid firecrawl /scrape of the DailyMed label page (full text saved and searched for verbatim quotes)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "tirzepatide mechanism: insulin secretion up, glucagon down",
+          "quote": "Tirzepatide enhances first- and second-phase insulin secretion, and reduces glucagon levels, both in a glucose-dependent manner.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "tirzepatide decreases food intake and body weight",
+          "quote": "Tirzepatide lowers fasting and postprandial glucose concentration, decreases food intake, and reduces body weight",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "contraindicated MTC/MEN 2 (boxed warning)",
+          "quote": "MOUNJARO is contraindicated in patients with a personal or family history of MTC or in patients with Multiple Endocrine Neoplasia syndrome type 2 (MEN 2).",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "pancreatitis symptoms",
+          "quote": "severe abdominal pain that sometimes radiates to the back, and which may or may not be accompanied by nausea or vomiting",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "kind": "label",
+      "cited_as": "U.S. Food and Drug Administration prescribing information. JARDIANCE (empagliflozin) tablets (Boehringer Ingelheim Pharmaceuticals). Revised 1/2026. DailyMed. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565",
+      "version_or_date": "Label revised 1/2026 (NDA204629)",
+      "retrieved_with": "Monid firecrawl /scrape of the DailyMed label page (full text saved and searched for verbatim quotes)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "SGLT2 mechanism: reduces renal glucose reabsorption, increases urinary glucose excretion",
+          "quote": "By inhibiting SGLT2, empagliflozin reduces renal reabsorption of filtered glucose and lowers the renal threshold for glucose, and thereby increases urinary glucose excretion.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "not recommended for glycemic control at eGFR <30",
+          "quote": "Not recommended for use to improve glycemic control in patients with type 2 diabetes mellitus with an eGFR less than 30 mL/min/1.73 m2.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "ketoacidosis regardless of glucose",
+          "quote": "Assess for ketoacidosis regardless of presenting blood glucose levels and discontinue JARDIANCE if ketoacidosis is suspected.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "UTI and genital mycotic infections most common",
+          "quote": "Most common adverse reactions (5% or greater incidence) were urinary tract infections and female genital mycotic infections",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "kind": "other_web",
+      "cited_as": "American Diabetes Association. Low Blood Glucose (Hypoglycemia). Accessed November 15, 2026.",
+      "url": "https://diabetes.org/living-with-diabetes/hypoglycemia-low-blood-glucose",
+      "version_or_date": "No page date shown; read November 15, 2026",
+      "retrieved_with": "Monid firecrawl /scrape of the official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "low blood glucose <70; 15/15 rule",
+          "quote": "Use the 15/15 rule of 15g fast-acting carbs/15 minutes rule to treat low blood glucose",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "severe hypoglycemia needs help; glucagon; call 911",
+          "quote": "Don't hesitate to call 911. If someone is unconscious and glucagon is not available or someone does not know how to use it, call 911 immediately.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "unable to eat or drink: glucagon needed",
+          "quote": "During a severe hypoglycemia incident, you may lose consciousness or be unable to eat or drink on your own. In these events, you will need specialized treatment called glucagon.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Diabetic Ketoacidosis. Updated May 15, 2024. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/diabetes/about/diabetic-ketoacidosis.html",
+      "version_or_date": "Updated May 15, 2024; reviewed December 15, 2023",
+      "retrieved_with": "Monid firecrawl /scrape of the official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "DKA symptoms: fast deep breathing, fruity breath, nausea, vomiting, stomach pain",
+          "quote": "If untreated, more severe symptoms can appear quickly, such as: - Fast, deep breathing.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "fruity breath, nausea/vomiting, stomach pain listed",
+          "quote": "Fruity-smelling breath. - Headache. - Muscle stiffness or aches. - Being very tired. - Nausea and vomiting. - Stomach pain.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "ketones at 250 mg/dL or above; elevated ketones are an emergency",
+          "quote": "If you have diabetes and you're sick or your blood sugar is 250 mg/dL or above, you'll need to check your blood sugar every 4 to 6 hours and check your urine for ketones.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "elevated ketones = medical emergency",
+          "quote": "Elevated ketones are a sign of DKA. This is a medical emergency that needs to be treated immediately",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "go to ER/call 911 if BG stays >=300, fruity breath, vomiting, trouble breathing",
+          "quote": "Go to the emergency room or call 911 right away if you're having any of these signs: - Your blood sugar stays at 300 mg/dL or above.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "vomiting and cannot keep food down; trouble breathing",
+          "quote": "You are vomiting and can't keep food or drinks down. - You're having trouble breathing.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "DKA treatment: fluids, electrolytes, insulin",
+          "quote": "Replacing **fluids** you lost through frequent urination",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "kind": "guideline",
+      "cited_as": "American Diabetes Association Professional Practice Committee. 8. Obesity and Weight Management for the Prevention and Treatment of Diabetes: Standards of Care in Diabetes-2026. Diabetes Care. 2026;49(Suppl 1):S166-S182.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12690172/",
+      "pmid": "41358882",
+      "pmcid": "PMC12690172",
+      "doi": "10.2337/dc26-S008",
+      "record_title": "8. Obesity and Weight Management for the Prevention and Treatment of Diabetes: Standards of Care in Diabetes-2026.",
+      "record_journal": "Diabetes Care",
+      "record_year": "2026",
+      "article_type": "Journal Article; Review (PubMed); ADA clinical practice guideline section",
+      "version_or_date": "Standards of Care in Diabetes 2026 edition, Diabetes Care 49(Suppl 1), published January 1, 2026; read November 15, 2026",
+      "retrieved_with": "PubMed get_article_metadata (record) + Monid firecrawl /scrape of the PMC full-text page (full text saved and searched for verbatim quotes)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "5-7% loss improves glycemia; >10% greater benefit incl. possible remission",
+          "quote": "loss of 5–7% of baseline weight improves glycemia and other intermediate cardiovascular risk factors. **A** Sustained loss of >10% of body weight usually confers greater benefits, including disease-modifying effects and possible remission of type 2 diabetes",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "continue chronic obesity pharmacotherapy beyond goals (Rec 8.19)",
+          "quote": "Obesity pharmacotherapy indicated for chronic therapy should be continued beyond reaching weight loss goals to maintain the health benefits, as discontinuation often results in recurrence of weight gain",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "kind": "journal",
+      "cited_as": "Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med. 2002;346(6):393-403.",
+      "url": "https://doi.org/10.1056/NEJMoa012512",
+      "pmid": "11832527",
+      "pmcid": "PMC1370926",
+      "doi": "10.1056/NEJMoa012512",
+      "record_title": "Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin.",
+      "record_journal": "N Engl J Med",
+      "record_year": "2002",
+      "article_type": "Clinical Trial; Randomized Controlled Trial; Multicenter Study",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "lifestyle 58% vs metformin 31% reduction; lifestyle more effective",
+          "quote": "The lifestyle intervention reduced the incidence by 58 percent (95 percent confidence interval, 48 to 66 percent) and metformin by 31 percent",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "goals of 7% weight loss and 150 min activity; nondiabetic high-risk adults",
+          "quote": "a lifestyle-modification program with the goals of at least a 7 percent weight loss and at least 150 minutes of physical activity per week",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "lifestyle significantly more effective than metformin",
+          "quote": "the lifestyle intervention was significantly more effective than metformin",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "kind": "guideline",
+      "cited_as": "American Diabetes Association Professional Practice Committee. 16. Diabetes Care in the Hospital: Standards of Care in Diabetes-2026. Diabetes Care. 2026;49(Suppl 1):S339-S355.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12690180/",
+      "pmid": "41358892",
+      "pmcid": "PMC12690180",
+      "doi": "10.2337/dc26-S016",
+      "record_title": "16. Diabetes Care in the Hospital: Standards of Care in Diabetes-2026.",
+      "record_journal": "Diabetes Care",
+      "record_year": "2026",
+      "article_type": "Journal Article; Review (PubMed); ADA clinical practice guideline section",
+      "version_or_date": "Standards of Care in Diabetes 2026 edition, Diabetes Care 49(Suppl 1), published January 1, 2026; read November 15, 2026",
+      "retrieved_with": "PubMed get_article_metadata (record) + Monid firecrawl /scrape of the PMC full-text page (full text saved and searched for verbatim quotes)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "euglycemic DKA associated with SGLT2i",
+          "quote": "Euglycemic DKA develops in the presence of low insulin levels and can be associated with a variety of factors including reduced food intake, pregnancy, alcohol use, liver failure, and/or SGLT2 inhibitor therapy",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "HHS glucose >=600 mg/dL",
+          "quote": "Plasma glucose ≥600 mg/dL (33.3 mmol/L)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "HHS presentation: change in cognition; polyuria, polydipsia, dehydration; DKA develops over hours to days",
+          "quote": "Develops over hours to days | Develops over days to a week | | Usually alert | Change in cognitive state common | | Polyuria, polydipsia, weight loss, and dehydration",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. About Heart Attack Symptoms, Risk, and Recovery. Updated October 24, 2024. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/heart-disease/about/heart-attack.html",
+      "version_or_date": "Updated October 24, 2024",
+      "retrieved_with": "Monid firecrawl /scrape of the official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "heart attack symptoms chest pain, shortness of breath; call 911",
+          "quote": "If you notice the symptoms of a heart attack in yourself or someone else, call 9-1-1 immediately.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Signs and Symptoms of Stroke. Updated May 19, 2026. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/stroke/signs-symptoms/index.html",
+      "version_or_date": "Updated and reviewed May 19, 2026",
+      "retrieved_with": "Monid firecrawl /scrape of the official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "stroke signs one-sided weakness/numbness, trouble speaking; call 911",
+          "quote": "Sudden numbness or weakness in the face, arm, or leg, especially on one side of the body. - Sudden confusion, trouble speaking, or difficulty understanding speech.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}
