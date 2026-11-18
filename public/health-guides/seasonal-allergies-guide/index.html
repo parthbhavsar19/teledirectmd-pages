@@ -37,206 +37,282 @@
 {
  "@context": "https://schema.org",
  "@graph": [
- {
- "@type": "WebSite",
- "@id": "https://teledirectmd.com/#website",
- "url": "https://teledirectmd.com",
- "name": "TeleDirectMD",
- "publisher": { "@id": "https://teledirectmd.com/#organization" }
- },
- {
- "@type": "BreadcrumbList",
- "@id": "https://teledirectmd.com/health-guides/seasonal-allergies-guide#breadcrumb",
- "itemListElement": [
- {
- "@type": "ListItem",
- "position": 1,
- "name": "Home",
- "item": "https://teledirectmd.com"
- },
- {
- "@type": "ListItem",
- "position": 2,
- "name": "Health Guides",
- "item": "https://teledirectmd.com/health-guides"
- },
- {
- "@type": "ListItem",
- "position": 3,
- "name": "Seasonal Allergies (Allergic Rhinitis)",
- "item": "https://teledirectmd.com/health-guides/seasonal-allergies-guide"
- }
- ]
- },
- {
- "@type": "Organization","editorialPolicy":"https://teledirectmd.com/health-guides/editorial-standards/#editorial-standards","correctionsPolicy":"https://teledirectmd.com/health-guides/editorial-standards/#corrections","verificationFactCheckingPolicy":"https://teledirectmd.com/health-guides/editorial-standards/#methodology","ownershipFundingInfo":"https://teledirectmd.com/health-guides/editorial-standards/#funding-conflicts","publishingPrinciples":"https://teledirectmd.com/health-guides/editorial-standards/",
- "@id": "https://teledirectmd.com/#organization",
- "name": "TeleDirectMD",
- "url": "https://teledirectmd.com",
- "logo": {
- "@type": "ImageObject",
- "url": "https://teledirectmd.com/logo.webp"
- },
- "contactPoint": {
- "@type": "ContactPoint",
- "telephone": "+1-678-956-1855",
- "contactType": "customer service",
- "email": "contact@teledirectmd.com"
- }
- },
- {
- "@type": "Person",
- "@id": "https://teledirectmd.com/about/#physician",
- "name": "Parth Bhavsar, MD",
- "jobTitle": "Board-Certified Family Medicine Physician",
- "url": "https://teledirectmd.com/health-guides/about-the-editor/",
- "affiliation": { "@id": "https://teledirectmd.com/#organization" },
- "sameAs": [
- "https://www.doximity.com/pub/parth-bhavsar-md",
- "https://teledirectmd.com/about",
- "https://www.linkedin.com/in/parthbhavsar"
- ]
- },
- {
- "@type": "MedicalWebPage",
- "@id": "https://teledirectmd.com/health-guides/seasonal-allergies-guide#webpage",
- "url": "https://teledirectmd.com/health-guides/seasonal-allergies-guide",
- "name": "Seasonal Allergies (Allergic Rhinitis)",
- "lastReviewed": "2026-01-18",
- "reviewedBy": { "@id": "https://teledirectmd.com/about/#physician" },
- "medicalAudience": {
- "@type": "MedicalAudience",
- "audienceType": "Patient"
- },
- "datePublished": "2026-01-18",
- "dateModified": "2026-07-14",
- "isPartOf": { "@id": "https://teledirectmd.com/#website" },
- "breadcrumb": { "@id": "https://teledirectmd.com/health-guides/seasonal-allergies-guide#breadcrumb" },
- "speakable": {
- "@type": "SpeakableSpecification",
- "cssSelector": [".tdmd-article-title", ".tdmd-faq-question"]
- },
- "citation": [
- "https://onlinelibrary.wiley.com/doi/10.1111/all.70131",
- "https://www.cdc.gov/nchs/products/databriefs/db545.htm",
- "https://aafa.org/allergies/allergy-facts/",
- "https://www.climatecentral.org/climate-matters/2025-allergy-season",
- "https://www.aaaai.org/conditions-treatments/allergies/hay-fever-rhinitis",
- "https://pubmed.ncbi.nlm.nih.gov/41152677/",
- "https://www.mayoclinic.org/diseases-conditions/common-cold/expert-answers/common-cold/faq-20057857"
- ]
- },
- {
- "@type": "Article",
- "@id": "https://teledirectmd.com/health-guides/seasonal-allergies-guide#article",
- "headline": "Seasonal Allergies (Allergic Rhinitis)",
- "datePublished": "2026-01-18",
- "dateModified": "2026-07-14",
- "author": { "@id": "https://teledirectmd.com/about/#physician" },
- "publisher": { "@id": "https://teledirectmd.com/#organization" },
- "image": "https://teledirectmd.com/health-guides/seasonal-allergies-guide/images/hero-seasonal-allergies-guide.jpg",
- "mainEntityOfPage": { "@id": "https://teledirectmd.com/health-guides/seasonal-allergies-guide#webpage" },
- "articleSection": "Health Guides",
- "wordCount": 3400
- },
- {
- "@type": "FAQPage",
- "@id": "https://teledirectmd.com/health-guides/seasonal-allergies-guide#faq",
- "mainEntity": [
- {
- "@type": "Question",
- "name": "What is the difference between seasonal allergies and year-round allergies?",
- "acceptedAnswer": {
- "@type": "Answer",
- "text": "Seasonal allergies (allergic rhinitis) are triggered by outdoor allergens that appear at specific times of year — tree pollen in spring, grass pollen in early summer, and ragweed pollen in late summer through fall. Year-round (perennial) allergies are caused by indoor allergens present throughout the year, such as dust mites, pet dander, cockroach droppings, and indoor mold. Many patients have both. The ARIA guidelines classify rhinitis by symptom duration (intermittent vs. persistent) and severity rather than strictly by allergen type, because many patients with 'seasonal' triggers actually have persistent symptoms across multiple seasons."
- }
- },
- {
- "@type": "Question",
- "name": "Are over-the-counter allergy medications safe to take every day during allergy season?",
- "acceptedAnswer": {
- "@type": "Answer",
- "text": "Second-generation oral antihistamines like cetirizine (Zyrtec), loratadine (Claritin), and fexofenadine (Allegra) are generally safe for daily use throughout allergy season. Intranasal corticosteroid sprays such as fluticasone (Flonase) and triamcinolone (Nasacort) are also safe and effective for daily use — in fact, they work best when used consistently rather than as-needed. However, you should avoid daily use of oral decongestants like pseudoephedrine for more than a few days due to cardiovascular effects, and nasal decongestant sprays (Afrin/oxymetazoline) should never be used for more than 3 consecutive days to avoid rebound congestion (rhinitis medicamentosa). First-generation antihistamines like diphenhydramine (Benadryl) cause sedation and cognitive impairment and are not recommended for routine daily use."
- }
- },
- {
- "@type": "Question",
- "name": "Can seasonal allergies develop for the first time in adulthood?",
- "acceptedAnswer": {
- "@type": "Answer",
- "text": "Yes. While seasonal allergies often begin in childhood or adolescence, adult-onset allergic rhinitis is well-documented and increasingly common. Moving to a new geographic area with different pollen exposures, changes in the immune system, and longer pollen seasons due to climate change can all contribute to developing allergies later in life. I see this regularly in patients who have relocated — they may go 2–3 years without symptoms before sensitization occurs and symptoms begin. If you develop new nasal symptoms as an adult, it's worth seeing a physician to confirm the diagnosis since other conditions can mimic allergic rhinitis."
- }
- },
- {
- "@type": "Question",
- "name": "Is immunotherapy (allergy shots or tablets) worth it?",
- "acceptedAnswer": {
- "@type": "Answer",
- "text": "Immunotherapy is the only treatment that modifies the underlying immune response rather than just controlling symptoms. It is well worth considering if you have moderate-to-severe symptoms that are not adequately controlled with medications, if you experience significant medication side effects, or if you want long-term disease modification. Subcutaneous immunotherapy (allergy shots) and sublingual immunotherapy (SLIT tablets) have near-equivalent efficacy. SLIT tablets have a superior safety profile and can be self-administered at home after the first dose. Benefits typically last for years after completing a 3–5 year course. The decision depends on your symptom severity, allergen profile, and personal preferences — discuss it with an allergist."
- }
- },
- {
- "@type": "Question",
- "name": "Can seasonal allergies cause asthma symptoms?",
- "acceptedAnswer": {
- "@type": "Answer",
- "text": "Absolutely. Allergic rhinitis and asthma are closely connected — the ARIA guidelines describe them as 'one airway, one disease.' Up to 40% of patients with allergic rhinitis also have asthma, and 80% of asthma patients have co-existing allergic rhinitis. Pollen exposure can trigger or worsen asthma symptoms including wheezing, chest tightness, coughing, and shortness of breath. During thunderstorms, pollen grains can rupture into tiny fragments that penetrate deep into the lungs, causing sudden severe asthma attacks ('thunderstorm asthma'). If you notice chest symptoms during allergy season, you should be evaluated — poorly controlled allergic rhinitis is a risk factor for asthma exacerbations."
- }
- },
- {
- "@type": "Question",
- "name": "Do air purifiers and nasal rinses actually help with seasonal allergies?",
- "acceptedAnswer": {
- "@type": "Answer",
- "text": "Both have evidence supporting their use. HEPA air purifiers can reduce indoor pollen and allergen levels, and studies show benefit when used in bedrooms — though they work best as part of a complete environmental control strategy rather than as a standalone intervention. Nasal saline irrigation (using a neti pot or squeeze bottle with sterile saline) has stronger evidence: it helps clear allergens and mucus from nasal passages, reduces inflammation, and improves symptoms. Clinical guidelines include nasal saline rinses as a recommended adjunctive therapy. Use distilled or properly boiled and cooled water — never tap water — to avoid rare but serious infections."
- }
- }
- ]
- },
- {
- "@type": "MedicalCondition",
- "@id": "https://teledirectmd.com/health-guides/seasonal-allergies-guide#condition",
- "name": "Seasonal Allergic Rhinitis",
- "alternateName": "Hay Fever",
- "code": {
- "@type": "MedicalCode",
- "code": "J30.1",
- "codingSystem": "ICD-10"
- },
- "associatedAnatomy": {
- "@type": "AnatomicalSystem",
- "name": "Upper respiratory system"
- },
- "possibleTreatment": [
- {
- "@type": "Drug",
- "name": "Fluticasone propionate (intranasal corticosteroid)"
- },
- {
- "@type": "Drug",
- "name": "Cetirizine (second-generation antihistamine)"
- },
- {
- "@type": "Drug",
- "name": "Azelastine (intranasal antihistamine)"
- }
- ],
- "riskFactor": [
- { "@type": "MedicalRiskFactor", "name": "Family history of atopy" },
- { "@type": "MedicalRiskFactor", "name": "Environmental pollen exposure" },
- { "@type": "MedicalRiskFactor", "name": "Climate change and extended pollen seasons" },
- { "@type": "MedicalRiskFactor", "name": "Co-existing asthma" },
- { "@type": "MedicalRiskFactor", "name": "Urban living with air pollution exposure" }
- ],
- "signOrSymptom": [
- { "@type": "MedicalSignOrSymptom", "name": "Sneezing" },
- { "@type": "MedicalSignOrSymptom", "name": "Nasal congestion" },
- { "@type": "MedicalSignOrSymptom", "name": "Rhinorrhea (runny nose)" },
- { "@type": "MedicalSignOrSymptom", "name": "Itchy nose, eyes, and palate" },
- { "@type": "MedicalSignOrSymptom", "name": "Postnasal drip" },
- { "@type": "MedicalSignOrSymptom", "name": "Watery, red eyes (allergic conjunctivitis)" }
- ]
- }
+  {
+   "@type": "WebSite",
+   "@id": "https://teledirectmd.com/#website",
+   "url": "https://teledirectmd.com",
+   "name": "TeleDirectMD",
+   "publisher": {
+    "@id": "https://teledirectmd.com/#organization"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://teledirectmd.com/health-guides/seasonal-allergies-guide#breadcrumb",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://teledirectmd.com"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Health Guides",
+     "item": "https://teledirectmd.com/health-guides"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Seasonal Allergies (Allergic Rhinitis)",
+     "item": "https://teledirectmd.com/health-guides/seasonal-allergies-guide"
+    }
+   ]
+  },
+  {
+   "@type": "Organization",
+   "editorialPolicy": "https://teledirectmd.com/health-guides/editorial-standards/#editorial-standards",
+   "correctionsPolicy": "https://teledirectmd.com/health-guides/editorial-standards/#corrections",
+   "verificationFactCheckingPolicy": "https://teledirectmd.com/health-guides/editorial-standards/#methodology",
+   "ownershipFundingInfo": "https://teledirectmd.com/health-guides/editorial-standards/#funding-conflicts",
+   "publishingPrinciples": "https://teledirectmd.com/health-guides/editorial-standards/",
+   "@id": "https://teledirectmd.com/#organization",
+   "name": "TeleDirectMD",
+   "url": "https://teledirectmd.com",
+   "logo": {
+    "@type": "ImageObject",
+    "url": "https://teledirectmd.com/logo.webp"
+   },
+   "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-678-956-1855",
+    "contactType": "customer service",
+    "email": "contact@teledirectmd.com"
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://teledirectmd.com/about/#physician",
+   "name": "Parth Bhavsar, MD",
+   "jobTitle": "Board-Certified Family Medicine Physician",
+   "url": "https://teledirectmd.com/health-guides/about-the-editor/",
+   "affiliation": {
+    "@id": "https://teledirectmd.com/#organization"
+   },
+   "sameAs": [
+    "https://www.doximity.com/pub/parth-bhavsar-md",
+    "https://teledirectmd.com/about",
+    "https://www.linkedin.com/in/parthbhavsar"
+   ]
+  },
+  {
+   "@type": "MedicalWebPage",
+   "@id": "https://teledirectmd.com/health-guides/seasonal-allergies-guide#webpage",
+   "url": "https://teledirectmd.com/health-guides/seasonal-allergies-guide",
+   "name": "Seasonal Allergies (Allergic Rhinitis)",
+   "lastReviewed": "2026-01-18",
+   "reviewedBy": {
+    "@id": "https://teledirectmd.com/about/#physician"
+   },
+   "medicalAudience": {
+    "@type": "MedicalAudience",
+    "audienceType": "Patient"
+   },
+   "datePublished": "2026-01-18",
+   "dateModified": "2026-07-14",
+   "isPartOf": {
+    "@id": "https://teledirectmd.com/#website"
+   },
+   "breadcrumb": {
+    "@id": "https://teledirectmd.com/health-guides/seasonal-allergies-guide#breadcrumb"
+   },
+   "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+     ".tdmd-article-title",
+     ".tdmd-faq-question"
+    ]
+   },
+   "citation": [
+    "https://www.cdc.gov/nchs/products/databriefs/db545.htm",
+    "https://aafa.org/allergies/allergy-facts/",
+    "https://www.climatecentral.org/climate-matters/2025-allergy-season",
+    "https://pubmed.ncbi.nlm.nih.gov/32707227/",
+    "https://pubmed.ncbi.nlm.nih.gov/25644617/",
+    "https://pubmed.ncbi.nlm.nih.gov/41324154/",
+    "https://pubmed.ncbi.nlm.nih.gov/41152677/",
+    "https://www.mayoclinic.org/diseases-conditions/common-cold/expert-answers/common-cold/faq-20057857",
+    "https://pubmed.ncbi.nlm.nih.gov/35292649/",
+    "https://www.aaaai.org/conditions-treatments/allergies/hay-fever-rhinitis",
+    "https://www.cdc.gov/sinus-infection/about/index.html",
+    "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ebb02ba7-de81-4367-8ba7-d774816f85b0",
+    "https://www.aaaai.org/conditions-treatments/allergies/anaphylaxis",
+    "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b6134ba0-b70a-4eac-9a82-cef64b242c1d",
+    "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=89c165ba-3ad5-49b5-a5bb-423dc8e15bad",
+    "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b165db38-b302-4220-8627-77cb07bb078c",
+    "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=acf2d393-53d7-062f-e053-2995a90a0d60",
+    "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=81c1dcbb-28b3-4ad5-9f3d-9ccc16ddd173",
+    "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bfeae100-e2d1-4607-be3b-2d9b15cd4f7f",
+    "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842",
+    "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=70216cba-11b5-40fd-8656-9f27b24f7b60",
+    "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=71ca220d-78d5-47d4-be84-8d6e844b24b3",
+    "https://pubmed.ncbi.nlm.nih.gov/32331798/",
+    "https://www.fda.gov/consumers/consumer-updates/rinsing-your-sinuses-neti-pots-safe",
+    "https://pubmed.ncbi.nlm.nih.gov/41652394/",
+    "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c05d7e27-6821-468f-b27d-9c0b02a07b0f"
+   ]
+  },
+  {
+   "@type": "Article",
+   "@id": "https://teledirectmd.com/health-guides/seasonal-allergies-guide#article",
+   "headline": "Seasonal Allergies (Allergic Rhinitis)",
+   "datePublished": "2026-01-18",
+   "dateModified": "2026-07-14",
+   "author": {
+    "@id": "https://teledirectmd.com/about/#physician"
+   },
+   "publisher": {
+    "@id": "https://teledirectmd.com/#organization"
+   },
+   "image": "https://teledirectmd.com/health-guides/seasonal-allergies-guide/images/hero-seasonal-allergies-guide.jpg",
+   "mainEntityOfPage": {
+    "@id": "https://teledirectmd.com/health-guides/seasonal-allergies-guide#webpage"
+   },
+   "articleSection": "Health Guides",
+   "wordCount": 3400
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://teledirectmd.com/health-guides/seasonal-allergies-guide#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What is the difference between seasonal allergies and year-round allergies?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Seasonal allergies are triggered by pollen carried in the air at certain times of year, and hay fever symptoms tend to flare up in the spring, summer and fall. Perennial allergic rhinitis symptoms are year-long. Year-round allergies usually come from indoor allergens such as dust mites, pet dander, cockroaches, and indoor mold. Many patients have both. The ARIA guidelines classify allergic rhinitis as intermittent or persistent rather than seasonal or perennial, and the 2024-2025 revision points to studies showing that severity matters more than how long symptoms last."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Are over-the-counter allergy medications safe to take every day during allergy season?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Second-generation oral antihistamines such as cetirizine (Zyrtec), loratadine (Claritin), and fexofenadine (Allegra) are labeled for daily use at the doses on the package; cetirizine and loratadine are once daily, and fexofenadine is once daily (180 mg) or every 12 hours (60 mg). Fluticasone nasal spray (Flonase) is labeled for once-daily use, and the label says to ask your doctor about continuing after 6 months of daily use. Be more careful with decongestants. The oral decongestant pseudoephedrine (Sudafed) label says to ask a doctor first if you have heart disease, high blood pressure, thyroid disease, diabetes, or trouble urinating due to an enlarged prostate, and to stop and ask a doctor if symptoms don't improve within 7 days. Decongestant nasal sprays such as oxymetazoline (Afrin) should not be used for more than 3 days, because frequent or prolonged use may cause congestion to come back or worsen. First-generation antihistamines such as diphenhydramine (Benadryl) can cause marked drowsiness and are not a good choice for routine daily use."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can seasonal allergies develop for the first time in adulthood?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, new nasal allergy symptoms can show up in adulthood, and diagnosed seasonal allergies are common at every adult age: in 2024, 24.3% of adults ages 18 to 44 and 27.7% of those 45 to 64 had one. Moving to an area with different plants, or longer pollen seasons, can change what you are exposed to. If you develop new nasal symptoms as an adult, it's worth seeing a physician to confirm the diagnosis, since other conditions can mimic allergic rhinitis."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is immunotherapy (allergy shots or tablets) worth it?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Allergen immunotherapy can modify the natural history of allergic rhinitis and asthma rather than just controlling symptoms. Guidelines recommend offering it when medicines, with or without environmental controls, don't adequately control symptoms. Allergy shots and sublingual (SLIT) tablets have near-equivalent efficacy, and SLIT has a superior safety profile that allows self-administration. The first tablet dose is given under medical supervision, and later doses are taken at home. The decision depends on your symptom severity, allergen profile, and personal preferences, so discuss it with an allergist."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can seasonal allergies cause asthma symptoms?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Allergic rhinitis and asthma are closely linked: the ARIA guidelines were first written for the two conditions together, and guidelines ask clinicians to check people with allergic rhinitis for asthma. Pollen exposure can trigger or worsen asthma symptoms, including wheezing, chest tightness, coughing, and shortness of breath. During thunderstorms, pollen can rupture into particles smaller than 2.5 micrometers that reach the small airways, causing sudden and potentially severe asthma attacks (\"thunderstorm asthma\"). If you notice chest symptoms during allergy season, get evaluated."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do air purifiers and nasal rinses actually help with seasonal allergies?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Both can help as part of a broader plan. The AAO-HNSF guideline lists environmental controls, including air filtration systems, as an option for people whose allergen triggers have been identified. For nasal saline irrigation, a 2020 meta-analysis found it significantly improved allergic rhinitis symptoms in children and adults and can serve as a safe add-on to medication in adults. Use only distilled, sterile, or previously boiled and cooled water, never plain tap water, because tap water isn't adequately filtered or treated and organisms in it can cause potentially serious infections in the nose."
+     }
+    }
+   ]
+  },
+  {
+   "@type": "MedicalCondition",
+   "@id": "https://teledirectmd.com/health-guides/seasonal-allergies-guide#condition",
+   "name": "Seasonal Allergic Rhinitis",
+   "alternateName": "Hay Fever",
+   "code": {
+    "@type": "MedicalCode",
+    "code": "J30.1",
+    "codingSystem": "ICD-10"
+   },
+   "associatedAnatomy": {
+    "@type": "AnatomicalSystem",
+    "name": "Upper respiratory system"
+   },
+   "possibleTreatment": [
+    {
+     "@type": "Drug",
+     "name": "Fluticasone propionate (intranasal corticosteroid)"
+    },
+    {
+     "@type": "Drug",
+     "name": "Cetirizine (second-generation antihistamine)"
+    },
+    {
+     "@type": "Drug",
+     "name": "Azelastine (intranasal antihistamine)"
+    }
+   ],
+   "riskFactor": [
+    {
+     "@type": "MedicalRiskFactor",
+     "name": "Family history of atopy"
+    },
+    {
+     "@type": "MedicalRiskFactor",
+     "name": "Environmental pollen exposure"
+    },
+    {
+     "@type": "MedicalRiskFactor",
+     "name": "Climate change and extended pollen seasons"
+    },
+    {
+     "@type": "MedicalRiskFactor",
+     "name": "Co-existing asthma"
+    },
+    {
+     "@type": "MedicalRiskFactor",
+     "name": "Urban living with air pollution exposure"
+    }
+   ],
+   "signOrSymptom": [
+    {
+     "@type": "MedicalSignOrSymptom",
+     "name": "Sneezing"
+    },
+    {
+     "@type": "MedicalSignOrSymptom",
+     "name": "Nasal congestion"
+    },
+    {
+     "@type": "MedicalSignOrSymptom",
+     "name": "Rhinorrhea (runny nose)"
+    },
+    {
+     "@type": "MedicalSignOrSymptom",
+     "name": "Itchy nose, eyes, and palate"
+    },
+    {
+     "@type": "MedicalSignOrSymptom",
+     "name": "Postnasal drip"
+    },
+    {
+     "@type": "MedicalSignOrSymptom",
+     "name": "Watery, red eyes (allergic conjunctivitis)"
+    }
+   ]
+  }
  ]
 }
 </script>
@@ -750,10 +826,10 @@ sup a:hover { text-decoration: underline; }
 <!-- tdmd:citable-summary-start -->
 <section class="tdmd-citable-summary" id="citable-summary-seasonal-allergies-guide" data-speakable="true" style="background:#FFFFFF;border:1px solid #C2E0E5;border-radius:8px;padding:1.1rem 1.4rem;margin:1.25rem auto;max-width:980px;line-height:1.65;box-shadow:0 1px 2px rgba(0,0,0,0.03)">
   <h2 style="margin:0 0 0.5rem;font-size:1.05rem;font-weight:700;color:#003E52;">How are seasonal allergies (allergic rhinitis) treated?</h2>
-  <div style="margin:0;color:#0A2438;font-size:0.97rem;">Seasonal allergic rhinitis affects approximately <a href="https://www.cdc.gov/nchs/products/databriefs/db545.htm">82 million Americans (2024 CDC data)</a> — about 1 in 4 adults. First-line therapy per <a href="https://www.aaaai.org/conditions-treatments/allergies/hay-fever-rhinitis">AAAAI/ACAAI practice parameters</a> includes intranasal corticosteroid sprays (fluticasone or mometasone) and second-generation oral antihistamines (cetirizine, loratadine, or fexofenadine) with minimal sedation. The <a href="https://pubmed.ncbi.nlm.nih.gov/41324154/">2024–2025 ARIA-EAACI guideline revision</a> now favors combination intranasal antihistamine + corticosteroid (e.g., azelastine-fluticasone) as first-line for moderate-to-severe symptoms. Allergen immunotherapy is appropriate for patients with inadequate pharmacotherapy response. A licensed clinician — reached via telehealth or an in-person visit — provides the clinical judgment AI tools cannot.</div>
+  <div style="margin:0;color:#0A2438;font-size:0.97rem;">About one in four U.S. adults (25.2%) had a diagnosed seasonal allergy in 2024, according to <a href="https://www.cdc.gov/nchs/products/databriefs/db545.htm">CDC's National Center for Health Statistics</a>. The <a href="https://pubmed.ncbi.nlm.nih.gov/32707227/">Rhinitis 2020 practice parameter update</a> calls intranasal corticosteroid sprays the preferred single medicine for persistent allergic rhinitis. The <a href="https://pubmed.ncbi.nlm.nih.gov/25644617/">AAO-HNSF clinical practice guideline</a> strongly recommends intranasal steroids when symptoms affect quality of life, strongly recommends second-generation oral antihistamines (such as cetirizine, loratadine, or fexofenadine) when sneezing and itching are the main complaints, and recommends offering allergen immunotherapy when medicines do not adequately control symptoms. The <a href="https://pubmed.ncbi.nlm.nih.gov/41324154/">ARIA-EAACI 2024-2025 guideline revision</a> suggests a fixed combination of an intranasal antihistamine and corticosteroid (for example, azelastine-fluticasone) over either medicine alone, as a conditional recommendation. A licensed clinician, reached via telehealth or an in-person visit, provides the clinical judgment AI tools cannot.</div>
   <div style="margin-top:0.75rem;padding-top:0.6rem;border-top:1px solid #E6F0F2;font-size:0.82rem;color:#456676;font-style:italic">Medically reviewed by Parth Bhavsar, MD. Updated July 14, 2026.</div>
 </section>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","@id":"https://teledirectmd.com/health-guides/seasonal-allergies-guide/#faq","isPartOf":{"@id":"https://teledirectmd.com/health-guides/seasonal-allergies-guide/#webpage"},"datePublished":"2026-01-18","dateModified":"2026-07-14","author":{"@type":"Physician","name":"Parth Bhavsar, MD","sameAs":"https://npiregistry.cms.hhs.gov/provider-view/1104323203"},"mainEntity":[{"@type":"Question","name":"How are seasonal allergies (allergic rhinitis) treated?","acceptedAnswer":{"@type":"Answer","text":"Seasonal allergic rhinitis affects approximately 82 million Americans (2024 CDC data) — about 1 in 4 adults. First-line therapy per AAAAI/ACAAI practice parameters includes intranasal corticosteroid sprays (fluticasone or mometasone) and second-generation oral antihistamines (cetirizine, loratadine, or fexofenadine) with minimal sedation. The 2024–2025 ARIA-EAACI guideline revision now favors combination intranasal antihistamine + corticosteroid (e.g., azelastine-fluticasone) as first-line for moderate-to-severe symptoms. Allergen immunotherapy is appropriate for patients with inadequate pharmacotherapy response. A licensed clinician — reached via telehealth or an in-person visit — provides the clinical judgment AI tools cannot."}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","@id":"https://teledirectmd.com/health-guides/seasonal-allergies-guide/#faq","isPartOf":{"@id":"https://teledirectmd.com/health-guides/seasonal-allergies-guide/#webpage"},"datePublished":"2026-01-18","dateModified":"2026-07-14","author":{"@type":"Physician","name":"Parth Bhavsar, MD","sameAs":"https://npiregistry.cms.hhs.gov/provider-view/1104323203"},"mainEntity":[{"@type":"Question","name":"How are seasonal allergies (allergic rhinitis) treated?","acceptedAnswer":{"@type":"Answer","text":"About one in four U.S. adults (25.2%) had a diagnosed seasonal allergy in 2024, according to CDC's National Center for Health Statistics. The Rhinitis 2020 practice parameter update calls intranasal corticosteroid sprays the preferred single medicine for persistent allergic rhinitis. The AAO-HNSF clinical practice guideline strongly recommends intranasal steroids when symptoms affect quality of life, strongly recommends second-generation oral antihistamines (such as cetirizine, loratadine, or fexofenadine) when sneezing and itching are the main complaints, and recommends offering allergen immunotherapy when medicines do not adequately control symptoms. The ARIA-EAACI 2024-2025 guideline revision suggests a fixed combination of an intranasal antihistamine and corticosteroid (for example, azelastine-fluticasone) over either medicine alone, as a conditional recommendation. A licensed clinician, reached via telehealth or an in-person visit, provides the clinical judgment AI tools cannot."}}]}</script>
 <!-- tdmd:citable-summary-end -->
 </div>
 
@@ -771,11 +847,11 @@ sup a:hover { text-decoration: underline; }
  Key Takeaways
  </h3>
  <ul>
- <li>In 2024, approximately 82 million people in the U.S. were diagnosed with seasonal allergic rhinitis — about 1 in 4 adults and 1 in 5 children.<sup><a href="#ref-2" id="cite-1">[2]</a></sup></li>
- <li>Climate change is making allergy seasons longer and more intense: pollen seasons start earlier in spring and extend later into fall, with higher pollen concentrations overall.<sup><a href="#ref-4" id="cite-2">[4]</a></sup></li>
- <li>Intranasal corticosteroid sprays remain the single most effective first-line treatment for allergic rhinitis — more effective than oral antihistamines alone.<sup><a href="#ref-1" id="cite-3">[1]</a></sup></li>
- <li>Sublingual immunotherapy (allergy tablets) now has near-equivalent efficacy to traditional allergy shots, with a superior safety profile that allows self-administration at home.<sup><a href="#ref-6" id="cite-4">[6]</a></sup></li>
- <li>Allergies do not cause fever — if you have fever with nasal symptoms, consider a cold, sinus infection, or other illness rather than allergies alone.</li>
+ <li>About one in four U.S. adults (25.2%) had a diagnosed seasonal allergy in 2024.<sup><a href="#ref-1">[1]</a></sup> The Asthma and Allergy Foundation of America estimates that more than 82 million people in the U.S., including about 14 million children, were diagnosed with seasonal allergies that year.<sup><a href="#ref-2">[2]</a></sup></li>
+ <li>Climate change is making allergy seasons longer and more intense: longer freeze-free seasons give plants more time to release pollen earlier in spring and later into fall.<sup><a href="#ref-3">[3]</a></sup></li>
+ <li>Intranasal corticosteroid sprays are the preferred single medicine for persistent allergic rhinitis, and U.S. and international guidelines support adding an intranasal antihistamine when one medicine is not enough.<sup><a href="#ref-4">[4]</a></sup><sup><a href="#ref-5">[5]</a></sup><sup><a href="#ref-6">[6]</a></sup></li>
+ <li>Allergy tablets taken under the tongue (sublingual immunotherapy) have near-equivalent efficacy to allergy shots, with a superior safety profile that allows self-administration.<sup><a href="#ref-7">[7]</a></sup></li>
+ <li>People with seasonal allergies don't usually have a fever. If you have a fever with nasal symptoms, a cold or other infection is more likely than allergies alone.<sup><a href="#ref-8">[8]</a></sup></li>
  </ul>
  </div>
 
@@ -786,34 +862,35 @@ sup a:hover { text-decoration: underline; }
  </figure>
 
  <!-- Section 1: Introduction -->
- <p>Every spring, I watch the same pattern unfold A common pattern in clinical care: patients present miserable, having endured weeks of sneezing, congestion, and watery eyes before seeking help. Many assume seasonal allergies are just something you "deal with" — that they don't warrant medical attention. Others have been taking the wrong medications, or the right medications in the wrong way, for years.</p>
+ <p>Every spring, a common pattern shows up in clinical care: people arrive miserable after weeks of sneezing, congestion, and watery eyes before seeking help. Many assume seasonal allergies are just something you "deal with" and that they don't warrant medical attention. Others have been taking the wrong medications, or the right medications in the wrong way, for years.</p>
 
- <p>Seasonal allergic rhinitis affects an enormous segment of the population. According to 2024 CDC data, approximately 82 million Americans — about 25% of adults and 21% of children — have been diagnosed with seasonal allergies.<sup><a href="#ref-2" id="cite-5">[2]</a></sup> The Asthma and Allergy Foundation of America reports that more than 100 million people in the U.S. experience various types of allergies each year.<sup><a href="#ref-3" id="cite-6">[3]</a></sup> And the problem is getting worse. Climate change is extending pollen seasons, with warming winters and earlier springs giving plants more time to grow and release allergy-inducing pollen.<sup><a href="#ref-4" id="cite-7">[4]</a></sup> A 2022 study estimated that by century's end, pollen seasons could start up to 40 days earlier and conclude 15 days later than they do now.</p>
+ <p>Seasonal allergic rhinitis affects a large share of the population. In 2024, 25.2% of U.S. adults had a diagnosed seasonal allergy, according to the National Center for Health Statistics.<sup><a href="#ref-1">[1]</a></sup> The Asthma and Allergy Foundation of America puts this at around 67 million adults and 14 million children, more than 82 million people in all, and reports that more than 106 million people in the U.S. experience various types of allergies each year.<sup><a href="#ref-2">[2]</a></sup> And the problem is getting worse. In 172 of the 198 U.S. cities Climate Central analyzed, the freeze-free season has lengthened since 1970, by 20 days on average, giving plants more time to release allergy-inducing pollen earlier in spring and later into fall.<sup><a href="#ref-3">[3]</a></sup> A 2022 modeling study projected that, with end-of-century warming, spring pollen emissions could start 10 to 40 days earlier and summer and fall weed and grass emissions could run 5 to 15 days later.<sup><a href="#ref-9">[9]</a></sup></p>
 
- <p>This guide reflects the latest evidence, including the ARIA-EAACI 2024–2025 guideline revision and the most current AAAAI/ACAAI practice parameters, combined with clinical experience across the full severity spectrum of allergic rhinitis and the peer-reviewed literature. This guide aims to be thorough, honest, and practical — written to the same evidence standard a clinician would expect for their own family.</p>
+ <p>This guide reflects the ARIA-EAACI 2024-2025 guideline revision on intranasal treatments, the Rhinitis 2020 practice parameter update from the Joint Task Force on Practice Parameters, and the American Academy of Otolaryngology-Head and Neck Surgery Foundation (AAO-HNSF) clinical practice guideline on allergic rhinitis, along with the peer-reviewed literature.<sup><a href="#ref-6">[6]</a></sup><sup><a href="#ref-4">[4]</a></sup><sup><a href="#ref-5">[5]</a></sup> It aims to be thorough, honest, and practical, written to the same evidence standard a clinician would expect for their own family.</p>
 
  <!-- Section 2: What Causes Seasonal Allergies -->
  <h2 id="causes">What Causes Seasonal Allergies?</h2>
 
- <p>Seasonal allergic rhinitis is an immune system overreaction. When a person with allergies inhales pollen, their immune system mistakenly identifies it as a threat — as if pollen were a dangerous pathogen rather than a harmless plant protein. This triggers a cascade of immune events that produces the symptoms you know all too well.</p>
+ <p>Seasonal allergic rhinitis is an immune system overreaction: your immune system mistakenly identifies a typically harmless substance, such as pollen, as an intruder.<sup><a href="#ref-10">[10]</a></sup> This triggers a cascade of immune events that produces the symptoms you know all too well.</p>
 
- <p>Here's the mechanism in brief: the first time you're exposed to an allergen (say, ragweed pollen), your immune system produces Immunoglobulin E (IgE) antibodies specific to that allergen. These IgE antibodies attach to mast cells in your nasal lining, eyes, and airways. On subsequent exposures, the allergen binds to those waiting IgE antibodies, causing mast cells to release histamine, leukotrienes, and other inflammatory mediators. This is what produces sneezing, itching, nasal congestion, and watery eyes — your body's misguided defense against an innocuous substance.</p>
+ <p>Here's the mechanism in brief: the first time you're exposed to an allergen (say, ragweed pollen), your immune system produces Immunoglobulin E (IgE) antibodies specific to that allergen. These IgE antibodies attach to mast cells in your nasal lining, eyes, and airways. On later exposures, the allergen binds to those waiting IgE antibodies, causing mast cells to release histamine, leukotrienes, and other inflammatory mediators. This is what produces sneezing, itching, nasal congestion, and watery eyes, your body's misguided defense against a harmless substance.</p>
 
  <h3>Common Pollen Triggers by Season</h3>
+ <p>Hay fever symptoms tend to flare up in the spring, summer and fall, as different pollens are carried in the air at different times of year.<sup><a href="#ref-10">[10]</a></sup></p>
  <ul>
- <li><strong>Spring (March–May):</strong> Tree pollen is the dominant trigger. Common culprits include oak, birch, cedar, maple, elm, and ash. In many regions, tree pollen is the earliest and often the most aggressive seasonal allergen.</li>
- <li><strong>Early to mid-summer (May–July):</strong> Grass pollen becomes predominant. Timothy, Bermuda, Kentucky bluegrass, and ryegrass are among the most allergenic grasses. Grass pollen levels peak in late spring to early summer in most of the U.S.</li>
- <li><strong>Late summer through fall (August–November):</strong> Ragweed is the dominant allergen and a major cause of fall allergies. A single ragweed plant can produce up to one billion pollen grains per season, and the pollen can travel hundreds of miles on the wind. Ragweed pollen concentrations are projected to be significantly higher in coming decades due to climate change.</li>
- <li><strong>Variable/year-round:</strong> Outdoor mold spores (Alternaria, Cladosporium) peak in warm, humid months and during leaf decomposition in fall. They add to the allergen burden across multiple seasons.</li>
+ <li><strong>Spring:</strong> Tree pollen is the dominant trigger. Common culprits include oak, birch, cedar, maple, elm, and ash.</li>
+ <li><strong>Late spring and summer:</strong> Grass pollen becomes predominant. Timothy, Bermuda, Kentucky bluegrass, and ryegrass are among the grasses that commonly cause symptoms.</li>
+ <li><strong>Late summer through fall:</strong> Ragweed is a major cause of fall allergies. Climate modeling projects that total annual pollen emissions in the continental U.S. could rise by 16 to 40% by the end of the century.<sup><a href="#ref-9">[9]</a></sup></li>
+ <li><strong>Variable or year-round:</strong> Outdoor mold spores (Alternaria, Cladosporium) can add to the allergen burden across several seasons.</li>
  </ul>
 
  <h3>Why Some People and Not Others?</h3>
- <p>The tendency to develop allergies — called atopy — is strongly genetic. If one parent has allergies, a child has approximately a 30–50% chance of developing them. If both parents have allergies, that risk rises to 60–80%. But genetics alone don't explain everything. Environmental factors play a critical role: early childhood infections, microbiome composition, air pollution exposure, and the timing and intensity of allergen encounters all influence whether someone with a genetic predisposition actually develops clinical disease.<sup><a href="#ref-5" id="cite-8">[5]</a></sup></p>
+ <p>The tendency to develop allergies, called atopy, runs in families. Genes alone don't explain everything, though: the allergens and environment you are exposed to also shape whether someone with that tendency develops symptoms.</p>
 
  <!-- Section 3: Allergies vs Cold vs Sinus Infection -->
  <h2 id="comparison">Allergies vs. Cold vs. Sinus Infection: How to Tell the Difference</h2>
 
- <p>This is one of the most common diagnostic questions I encounter. Patients come in with nasal congestion, a runny nose, and fatigue — and they genuinely don't know whether they have allergies, a cold, or a sinus infection. The symptoms overlap significantly, but there are reliable distinguishing features.<sup><a href="#ref-7" id="cite-9">[7]</a></sup></p>
+ <p>This is one of the most common diagnostic questions in primary care. Colds and allergies share some symptoms, such as a runny or stuffy nose and sneezing, but key symptoms and how regularly symptoms appear help tell them apart.<sup><a href="#ref-8">[8]</a></sup> Sinus infections overlap with both, and seasonal allergies and a previous cold are listed as risk factors for them.<sup><a href="#ref-11">[11]</a></sup></p>
 
  <div class="tdmd-table-wrap">
  <table class="tdmd-table">
@@ -827,82 +904,71 @@ sup a:hover { text-decoration: underline; }
  </thead>
  <tbody>
  <tr>
- <td><strong>Onset</strong></td>
- <td>Rapid, after allergen exposure</td>
- <td>Gradual, over 1–3 days</td>
- <td>Often follows a cold that lingers &gt;10 days</td>
+ <td><strong>Cause</strong></td>
+ <td>Immune response to allergens such as pollen</td>
+ <td>Immune response to a virus</td>
+ <td>Mostly viruses; bacteria cause some</td>
  </tr>
  <tr>
  <td><strong>Duration</strong></td>
- <td>Weeks to months (as long as allergen exposure continues)</td>
- <td>7–10 days</td>
- <td>10+ days to several weeks</td>
+ <td>May last several weeks</td>
+ <td>3 to 10 days in adults; a cough may last a couple of weeks longer</td>
+ <td>See a provider if symptoms last more than 10 days without getting better</td>
  </tr>
  <tr>
- <td><strong>Nasal discharge</strong></td>
- <td>Clear, thin, watery</td>
- <td>Clear initially, may turn yellow/green</td>
- <td>Thick, yellow or green, often one-sided</td>
+ <td><strong>Nose</strong></td>
+ <td>Runny or stuffy nose; clear discharge</td>
+ <td>Runny or stuffy nose</td>
+ <td>Runny or stuffy nose; mucus dripping down the throat</td>
  </tr>
  <tr>
- <td><strong>Itching (nose, eyes, palate)</strong></td>
- <td>Very common — hallmark symptom</td>
- <td>Uncommon</td>
- <td>Uncommon</td>
+ <td><strong>Itchy eyes</strong></td>
+ <td>Usual; itching of the nose, roof of the mouth and throat is common</td>
+ <td>Rare</td>
+ <td>Not a listed symptom</td>
  </tr>
  <tr>
  <td><strong>Sneezing</strong></td>
- <td>Frequent, often in rapid bursts</td>
  <td>Common</td>
- <td>Occasional</td>
+ <td>Common</td>
+ <td>Not a listed symptom</td>
  </tr>
  <tr>
  <td><strong>Fever</strong></td>
- <td>Never</td>
- <td>Low-grade possible</td>
- <td>Possible, especially if bacterial</td>
+ <td>Not usual</td>
+ <td>Often</td>
+ <td>Possible; see a provider if fever lasts longer than 3 to 4 days</td>
  </tr>
  <tr>
- <td><strong>Facial pain/pressure</strong></td>
- <td>Rare (unless severe congestion)</td>
- <td>Mild</td>
- <td>Prominent — around eyes, forehead, cheeks</td>
+ <td><strong>Sore throat or cough</strong></td>
+ <td>Sore throat rare; cough sometimes</td>
+ <td>Usually</td>
+ <td>Can occur</td>
  </tr>
  <tr>
- <td><strong>Body aches</strong></td>
- <td>No</td>
- <td>Mild to moderate</td>
- <td>Possible</td>
- </tr>
- <tr>
- <td><strong>Sore throat</strong></td>
- <td>Mild (from postnasal drip)</td>
- <td>Common, often the first symptom</td>
- <td>From postnasal drip</td>
- </tr>
- <tr>
- <td><strong>Pattern</strong></td>
- <td>Recurs at the same time each year; worse outdoors</td>
- <td>No seasonal pattern</td>
- <td>May follow colds or allergies</td>
+ <td><strong>Other clues</strong></td>
+ <td>Flares in spring, summer and fall with pollen seasons</td>
+ <td>Follows catching a virus</td>
+ <td>Facial pain or pressure, headache, bad breath; may get worse after improving</td>
  </tr>
  </tbody>
  </table>
  </div>
+ <p>Sources for the table: Mayo Clinic (allergies and colds), the AAAAI (allergy symptoms and seasons), and the CDC (sinus infections).<sup><a href="#ref-8">[8]</a></sup><sup><a href="#ref-10">[10]</a></sup><sup><a href="#ref-11">[11]</a></sup></p>
 
- <p>The clinical pearl Best practice is to always share: <strong>itching is the hallmark of allergies.</strong> If your nose, eyes, and palate itch, it's almost certainly allergic. Colds and sinus infections don't typically produce itching. Conversely, if you have fever or body aches, it's not allergies — look for an infectious cause.</p>
+ <p>The clinical pearl worth remembering: <strong>itching points toward allergies.</strong> Itchy eyes are usual with seasonal allergies and rare with colds. Conversely, a fever or a sore throat points away from allergies alone and toward an infection such as a cold.<sup><a href="#ref-8">[8]</a></sup></p>
 
  <!-- Section 4: Latest Guidelines -->
  <h2 id="guidelines">What's Changed: Latest Clinical Guidelines</h2>
 
- <p>The management of allergic rhinitis has evolved substantially in recent years. The ARIA-EAACI 2024–2025 guideline revision represents the most comprehensive update in nearly a decade, incorporating evidence-to-decision frameworks and emphasizing personalized, digitally enabled care.<sup><a href="#ref-1" id="cite-10">[1]</a></sup></p>
+ <p>The ARIA-EAACI 2024-2025 revision was developed with the GRADE evidence-to-decision framework and was conceived as person-centered and digitally enabled. Part I, published in 2025, covers intranasal treatments.<sup><a href="#ref-6">[6]</a></sup></p>
 
  <div class="tdmd-callout">
  <div class="tdmd-callout-title">
  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--tdmd-teal)" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
- ARIA-EAACI 2024–2025 Guideline Update
+ ARIA-EAACI 2024-2025 Guideline Update
  </div>
- <p>The Allergic Rhinitis and its Impact on Asthma (ARIA) guidelines — developed in collaboration with the European Academy of Allergy and Clinical Immunology — have been updated using the GRADE framework. Key changes include: <strong>intranasal corticosteroids confirmed as the gold standard</strong> first-line therapy; combination intranasal corticosteroid + intranasal antihistamine recommended for moderate-to-severe symptoms; and new emphasis on person-centered decision-making with step-up and step-down approaches guided by visual analog scale (VAS) symptom scores.<sup><a href="#ref-1" id="cite-11">[1]</a></sup></p>
+ <p>The Allergic Rhinitis and its Impact on Asthma (ARIA) guidelines, endorsed by the European Academy of Allergy and Clinical Immunology, addressed 11 questions on intranasal treatments in Part I of the 2024-2025 revision. Overall, the panel suggests a fixed combination of an intranasal antihistamine and an intranasal corticosteroid over either medicine alone, and an intranasal corticosteroid over an intranasal antihistamine. These are <strong>conditional recommendations</strong>, and the panel stresses that treatment choices should consider how the disease varies, patients' values, and the affordability of medicines. The panel also suggests against using intranasal decongestant sprays long term (longer than 5 days).<sup><a href="#ref-6">[6]</a></sup></p>
  </div>
 
  <div class="tdmd-callout">
@@ -910,15 +976,15 @@ sup a:hover { text-decoration: underline; }
  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--tdmd-teal)" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
  Immunotherapy Advances
  </div>
- <p>Sublingual immunotherapy (SLIT) tablets — self-administered at home — now have solid evidence showing near-equivalent efficacy to subcutaneous immunotherapy (allergy shots) for grass, ragweed, and dust mite allergies, with a superior safety profile. A 2025 practice parameter update confirmed that both modalities are available and effective, with SLIT allowing self-administration and reducing the burden of frequent office visits. New tree pollen SLIT tablets have also shown efficacy and tolerability in children.<sup><a href="#ref-6" id="cite-12">[6]</a></sup></p>
+ <p>A 2025 review of developments since the third allergen immunotherapy practice parameter reports that most new evidence comes from large double-blind, placebo-controlled trials of sublingual immunotherapy (SLIT) tablets in allergic rhinitis, allergic asthma, and atopic dermatitis. SLIT and subcutaneous immunotherapy (allergy shots) have near-equivalent efficacy, but SLIT has a superior safety profile, allowing self-administration. More evidence has also identified risk factors for anaphylaxis to allergy shots and ways to reduce that risk.<sup><a href="#ref-7">[7]</a></sup></p>
  </div>
 
- <p>What does this mean for patients? It means your physician now has a validated, stepwise framework to match treatment intensity to your symptom severity — and effective disease-modifying therapy (immunotherapy) is more accessible and convenient than ever before.</p>
+ <p>In the U.S., the Rhinitis 2020 practice parameter update likewise calls intranasal corticosteroids the preferred monotherapy for persistent allergic rhinitis and reports added benefit from combining them with an intranasal antihistamine.<sup><a href="#ref-4">[4]</a></sup> What does this mean for patients? Your physician has guideline-backed options to match treatment to your symptom severity, and disease-modifying immunotherapy is now available as a tablet you can take at home after the first supervised dose.<sup><a href="#ref-12">[12]</a></sup></p>
 
  <!-- Section 5: Decision Framework -->
  <h2 id="decision">Decision Framework: Manage at Home, See a Doctor, or Go to the ER</h2>
 
- <p>Not every case of seasonal allergies requires medical attention — but some do. Here is the clinical framework I use to help patients decide what level of care they need:</p>
+ <p>Not every case of seasonal allergies needs medical attention, but some do. Here is a practical framework to help decide what level of care you need:</p>
 
  <div class="tdmd-table-wrap">
  <table class="tdmd-table">
@@ -933,58 +999,58 @@ sup a:hover { text-decoration: underline; }
  <tr>
  <td><strong>Mild symptoms</strong> (occasional sneezing, mild runny nose, minimal impact on daily activities)</td>
  <td>Manage at home: allergen avoidance, nasal saline rinses, and/or an OTC second-generation antihistamine</td>
- <td>Mild intermittent symptoms respond well to basic measures and do not require prescription therapy</td>
+ <td>Guidelines strongly recommend second-generation oral antihistamines when sneezing and itching are the main complaints<sup><a href="#ref-5">[5]</a></sup></td>
  </tr>
  <tr>
- <td><strong>Moderate symptoms</strong> (daily congestion, frequent sneezing, itchy/watery eyes, disrupted sleep or impaired concentration)</td>
- <td>See a doctor: start or optimize an intranasal corticosteroid; consider combination therapy</td>
- <td>Moderate symptoms reduce quality of life and productivity; proper treatment selection significantly improves outcomes<sup><a href="#ref-1">[1]</a></sup></td>
+ <td><strong>Moderate symptoms</strong> (daily congestion, frequent sneezing, itchy or watery eyes, disrupted sleep or impaired concentration)</td>
+ <td>Start or optimize an intranasal corticosteroid; see a doctor if that isn't enough, to consider combination therapy</td>
+ <td>Guidelines strongly recommend intranasal steroids when symptoms affect quality of life, and support combination therapy when one medicine is not enough<sup><a href="#ref-5">[5]</a></sup><sup><a href="#ref-6">[6]</a></sup></td>
  </tr>
  <tr>
- <td><strong>Severe or persistent symptoms</strong> despite OTC medications, recurrent sinus infections, or symptoms lasting &gt;4 weeks</td>
- <td>See a doctor — allergist referral recommended for allergy testing and potential immunotherapy</td>
- <td>Uncontrolled allergic rhinitis is a risk factor for asthma, sinusitis, and ear infections; immunotherapy provides long-term disease modification<sup><a href="#ref-6">[6]</a></sup></td>
+ <td><strong>Severe or persistent symptoms</strong> despite OTC medications, or recurrent sinus infections</td>
+ <td>See a doctor; an allergist referral may be appropriate for allergy testing and possible immunotherapy</td>
+ <td>Guidelines advise allergy testing when empiric treatment fails and offering immunotherapy when medicines don't control symptoms<sup><a href="#ref-5">[5]</a></sup>; immunotherapy can modify the natural history of allergic rhinitis and asthma<sup><a href="#ref-7">[7]</a></sup></td>
  </tr>
  <tr>
  <td><strong>Coexisting asthma</strong> with worsening cough, wheezing, or chest tightness during allergy season</td>
- <td>See a doctor urgently — same day or next day</td>
- <td>Allergic rhinitis and asthma overlap in up to 40% of patients; poorly controlled rhinitis worsens asthma control</td>
+ <td>See a doctor promptly, the same day or next day</td>
+ <td>Guidelines ask clinicians to check people with allergic rhinitis for asthma and other related conditions<sup><a href="#ref-5">[5]</a></sup></td>
  </tr>
  <tr>
- <td><strong>Signs of anaphylaxis or severe allergic reaction:</strong> throat swelling, difficulty breathing, widespread hives, dizziness, rapid pulse</td>
- <td>Go to the ER immediately — call 911; use epinephrine if available</td>
- <td>Anaphylaxis is a medical emergency; while rare with inhaled pollen alone, it can occur with concurrent insect stings, food allergies, or in patients with severe pollen-food allergy syndrome</td>
+ <td><strong>Signs of anaphylaxis or a severe allergic reaction:</strong> swollen throat, trouble breathing, widespread hives, passing out</td>
+ <td>Go to the ER immediately: use your epinephrine if you have it and call 911</td>
+ <td>Anaphylaxis is a medical emergency<sup><a href="#ref-13">[13]</a></sup></td>
  </tr>
  </tbody>
  </table>
  </div>
 
- <p>The key message: seasonal allergies are highly treatable, and you don't need to suffer through them. If over-the-counter options aren't controlling your symptoms within 1–2 weeks of consistent use, that's a clear signal to seek medical guidance.</p>
+ <p>The key message: seasonal allergies are highly treatable, and you don't need to suffer through them. If an over-the-counter steroid nasal spray hasn't helped within 7 days of starting it, its label says to stop and ask a doctor.<sup><a href="#ref-14">[14]</a></sup></p>
 
  <!-- Section 6: Clinical Reasoning -->
  <h2 id="clinical-reasoning">What Your Doctor Is Thinking: Behind the Clinical Reasoning</h2>
 
- <p>When you present with nasal symptoms during allergy season, I'm running through a systematic evaluation that may not be obvious. Understanding this reasoning helps explain why we ask what we ask — and why we sometimes recommend testing.</p>
+ <p>When you present with nasal symptoms during allergy season, your physician is running through a systematic evaluation that may not be obvious. Understanding this reasoning helps explain why we ask what we ask, and why we sometimes recommend testing.</p>
 
  <h3>The Questions and Why They Matter</h3>
  <ul>
- <li><strong>"When did your symptoms start, and is there a seasonal pattern?"</strong> — This is the single most important diagnostic question. Symptoms that recur at the same time each year and correlate with specific pollen seasons strongly suggest allergic rhinitis. I'm mentally mapping your symptoms against regional pollen calendars.</li>
- <li><strong>"Do your symptoms include itching — in your nose, eyes, or palate?"</strong> — Itching is nearly pathognomonic for allergic disease. Its presence makes allergies much more likely; its absence makes me consider other diagnoses like vasomotor rhinitis or chronic sinusitis.</li>
- <li><strong>"Do you have asthma, eczema, or a family history of allergies?"</strong> — Atopic conditions travel together. A patient with eczema who develops seasonal nasal symptoms almost certainly has allergic rhinitis. The presence of asthma changes my treatment urgency significantly.</li>
- <li><strong>"What have you already tried?"</strong> — Many patients have been self-treating with suboptimal regimens: using first-generation antihistamines that cause sedation, taking nasal decongestant sprays daily (which causes rebound congestion), or using intranasal steroids inconsistently. Knowing what you've tried — and how you've used it — often reveals the treatment gap.</li>
- <li><strong>"Any fever, facial pain, or thick discolored mucus?"</strong> — These suggest a complication like bacterial sinusitis rather than uncomplicated allergic rhinitis, which changes my management plan.</li>
+ <li><strong>"When did your symptoms start, and is there a seasonal pattern?"</strong> This is one of the most useful diagnostic questions. Symptoms that recur at the same time each year and match local pollen seasons strongly suggest allergic rhinitis.</li>
+ <li><strong>"Do your symptoms include itching in your nose, eyes, or palate?"</strong> Itching points strongly toward allergy. Its absence makes other diagnoses, such as nonallergic rhinitis or chronic sinusitis, more worth considering.</li>
+ <li><strong>"Do you have asthma, eczema, or a family history of allergies?"</strong> Atopic conditions tend to travel together, and guidelines ask clinicians to check people with allergic rhinitis for asthma, atopic dermatitis, and other related conditions.<sup><a href="#ref-5">[5]</a></sup> The presence of asthma changes treatment urgency.</li>
+ <li><strong>"What have you already tried?"</strong> Many patients have been self-treating with less effective regimens: sedating first-generation antihistamines, decongestant nasal sprays used for longer than the label allows (which can make congestion come back or worsen), or steroid sprays used only now and then.<sup><a href="#ref-15">[15]</a></sup> Knowing what you've tried, and how, often reveals the treatment gap.</li>
+ <li><strong>"Any fever, facial pain, or thick discolored mucus?"</strong> These suggest an infection such as sinusitis rather than uncomplicated allergic rhinitis, which changes the management plan.</li>
  </ul>
 
  <h3>When Allergy Testing Helps</h3>
- <p><strong>Skin prick testing</strong> and <strong>serum-specific IgE testing</strong> (blood tests) identify exactly which allergens you're sensitized to. the recommendation is testing when: symptoms don't follow a clear seasonal pattern and the trigger is unclear; the patient is considering immunotherapy (which requires knowing the specific allergens); initial treatment has failed and I need to confirm the diagnosis; or distinguishing allergic from non-allergic rhinitis would change management. Testing is not necessary for every patient with straightforward seasonal symptoms that respond to standard therapy.</p>
+ <p><strong>Skin prick testing</strong> and <strong>serum-specific IgE testing</strong> (blood tests) identify which allergens you're sensitized to. The AAO-HNSF guideline recommends specific IgE testing (skin or blood) when symptoms don't respond to empiric treatment, when the diagnosis is uncertain, or when knowing the specific allergen is needed to target therapy, such as before immunotherapy.<sup><a href="#ref-5">[5]</a></sup> Testing is not necessary for every patient with straightforward seasonal symptoms that respond to standard therapy.</p>
 
  <!-- Section 7: Treatment Options -->
  <h2 id="treatment">Treatment Options: The Step-Up Approach</h2>
 
- <p>Current guidelines recommend a stepwise approach to treatment — starting with the least intensive therapy appropriate for your symptom severity, then stepping up if control is inadequate.<sup><a href="#ref-1" id="cite-13">[1]</a></sup></p>
+ <p>Guidelines match treatment intensity to symptom severity and add or combine medicines when a single medicine isn't enough.<sup><a href="#ref-4">[4]</a></sup><sup><a href="#ref-5">[5]</a></sup> The steps below are not a strict order: for people whose symptoms affect their quality of life, the AAO-HNSF guideline strongly recommends an intranasal corticosteroid.<sup><a href="#ref-5">[5]</a></sup></p>
 
  <h3>Step 1: Oral Antihistamines</h3>
- <p>Second-generation (non-sedating) oral antihistamines are the most commonly used first-line medications. They are effective for sneezing, itching, and runny nose but have limited effect on nasal congestion.</p>
+ <p>Second-generation (less sedating) oral antihistamines are widely used, and guidelines strongly recommend them for people whose main complaints are sneezing and itching.<sup><a href="#ref-5">[5]</a></sup> Label directions for common over-the-counter options:</p>
 
  <div class="tdmd-table-wrap">
  <table class="tdmd-table">
@@ -999,54 +1065,55 @@ sup a:hover { text-decoration: underline; }
  <tr>
  <td><strong>Cetirizine</strong></td>
  <td>Zyrtec</td>
- <td>Fast onset (within 1 hour). May cause mild drowsiness in some patients. Once daily.</td>
+ <td>Adults and children 6 years and over: one 10 mg tablet once daily, no more than one 10 mg tablet in 24 hours. Drowsiness may occur; avoid alcoholic drinks and be careful driving.<sup><a href="#ref-16">[16]</a></sup></td>
  </tr>
  <tr>
  <td><strong>Loratadine</strong></td>
  <td>Claritin</td>
- <td>Least sedating. Once daily. Slightly slower onset.</td>
+ <td>Adults and children 6 years and over: 1 tablet (10 mg) daily, not more than 1 tablet in 24 hours. Taking more than directed may cause drowsiness.<sup><a href="#ref-17">[17]</a></sup></td>
  </tr>
  <tr>
  <td><strong>Fexofenadine</strong></td>
  <td>Allegra</td>
- <td>Truly non-sedating. Once daily. Avoid with certain fruit juices that reduce absorption.</td>
+ <td>Adults and children 12 years and over: one 180 mg tablet once a day, or one 60 mg tablet every 12 hours, with water. Do not take with fruit juices or at the same time as aluminum or magnesium antacids.<sup><a href="#ref-18">[18]</a></sup></td>
  </tr>
  </tbody>
  </table>
  </div>
+ <p>For adults 65 and older, the cetirizine and fexofenadine labels say to ask a doctor before use.<sup><a href="#ref-16">[16]</a></sup><sup><a href="#ref-18">[18]</a></sup></p>
 
- <p><strong>Important:</strong> I strongly recommend avoiding first-generation antihistamines (diphenhydramine/Benadryl, chlorpheniramine) for routine allergy management. They cause significant sedation, impair driving and cognition, and have anticholinergic side effects. There is no therapeutic advantage over second-generation options.</p>
+ <p><strong>Important:</strong> I recommend avoiding first-generation antihistamines such as diphenhydramine (Benadryl) for routine allergy management. The label warns that marked drowsiness may occur, to be careful when driving a motor vehicle or operating machinery, and to ask a doctor before use if you have glaucoma or trouble urinating due to an enlarged prostate.<sup><a href="#ref-19">[19]</a></sup></p>
 
- <h3>Step 2: Intranasal Corticosteroids (The Gold Standard)</h3>
- <p>Intranasal corticosteroid sprays (INCS) are the most effective single-agent therapy for allergic rhinitis — superior to oral antihistamines for all nasal symptoms including congestion.<sup><a href="#ref-1" id="cite-14">[1]</a></sup> Options available over the counter include fluticasone propionate (Flonase), triamcinolone (Nasacort), and budesonide (Rhinocort).</p>
+ <h3>Step 2: Intranasal Corticosteroids (Preferred Single Medicine)</h3>
+ <p>The Rhinitis 2020 practice parameter calls intranasal corticosteroid sprays (INCS) the preferred monotherapy for persistent allergic rhinitis,<sup><a href="#ref-4">[4]</a></sup> and the AAO-HNSF guideline strongly recommends them when symptoms affect quality of life.<sup><a href="#ref-5">[5]</a></sup> ARIA 2024-2025 suggests INCS over intranasal antihistamines (a conditional recommendation).<sup><a href="#ref-6">[6]</a></sup> Options available over the counter include fluticasone propionate (Flonase), triamcinolone (Nasacort), and budesonide (Rhinocort).</p>
 
- <p><strong>How to use them correctly:</strong> This is where most patients go wrong. Intranasal steroids are not like decongestant sprays — they don't provide instant relief. They take 3–7 days of consistent daily use to reach full effect. Point the spray nozzle toward the outer wall of each nostril (away from the septum), and use them every day during your allergy season rather than on an as-needed basis. When used properly, they are remarkably effective and safe for long-term use — the dose delivered to the nose produces minimal systemic absorption.</p>
+ <p><strong>How to use them correctly:</strong> This is where many patients go wrong. Intranasal steroids are not like decongestant sprays and don't give full relief right away. The Flonase label says you may start to feel relief the first day and full effect after several days of regular, once-a-day use. For adults and children 12 and over, it directs 2 sprays in each nostril once daily for the first week, then 1 or 2 sprays in each nostril once daily as needed, and to ask your doctor about continuing after 6 months of daily use. The label also says to ask a doctor before use if you have or had glaucoma or cataracts, and to stop and ask a doctor if you get severe or frequent nosebleeds or new vision changes.<sup><a href="#ref-14">[14]</a></sup></p>
 
  <h3>Step 3: Combination Therapy</h3>
- <p>For patients whose symptoms are not adequately controlled with intranasal corticosteroids alone, adding an intranasal antihistamine (azelastine) provides additive benefit. A fixed-dose combination product (Dymista) combines fluticasone + azelastine in a single spray. The ARIA 2024–2025 guidelines recommend this combination for moderate-to-severe persistent symptoms.<sup><a href="#ref-1" id="cite-15">[1]</a></sup></p>
+ <p>For patients whose symptoms are not controlled with an intranasal corticosteroid alone, the Rhinitis 2020 practice parameter reports added benefit from combining it with an intranasal antihistamine.<sup><a href="#ref-4">[4]</a></sup> ARIA 2024-2025 suggests a fixed combination of an intranasal antihistamine and corticosteroid over a corticosteroid alone, particularly for more severe symptoms, and among fixed combinations suggests azelastine-fluticasone over olopatadine-mometasone (both conditional recommendations).<sup><a href="#ref-6">[6]</a></sup> The AAO-HNSF guideline also lists combination therapy as an option when a single medicine isn't enough.<sup><a href="#ref-5">[5]</a></sup></p>
 
- <p>Other adjunctive options include: montelukast (Singulair), a leukotriene receptor antagonist that may help patients with coexisting asthma; intranasal antihistamines alone (azelastine, olopatadine); and ocular antihistamines (ketotifen, olopatadine eye drops) for prominent eye symptoms.</p>
+ <p>Other options include intranasal antihistamines alone (azelastine, olopatadine), which the AAO-HNSF guideline lists as an option,<sup><a href="#ref-5">[5]</a></sup> and antihistamine eye drops for prominent eye symptoms. Montelukast (Singulair), a leukotriene receptor antagonist, carries an FDA boxed warning for serious neuropsychiatric events, including agitation, aggression, depression, sleep disturbances, and suicidal thoughts and behavior. For allergic rhinitis, the label says to reserve it for patients who have an inadequate response or intolerance to alternative therapies,<sup><a href="#ref-20">[20]</a></sup> the Rhinitis 2020 practice parameter says the same,<sup><a href="#ref-4">[4]</a></sup> and the AAO-HNSF guideline recommends against oral leukotriene receptor antagonists as primary therapy.<sup><a href="#ref-5">[5]</a></sup></p>
 
  <h3>Step 4: Allergen Immunotherapy (Disease-Modifying Treatment)</h3>
- <p>Immunotherapy is the only treatment that addresses the underlying immune dysfunction rather than just suppressing symptoms. It works by gradually exposing the immune system to increasing doses of the allergen, inducing tolerance over time. Benefits often persist for years after completing a typical 3–5 year course.<sup><a href="#ref-6" id="cite-16">[6]</a></sup></p>
+ <p>Allergen immunotherapy is a proven treatment for allergic rhinitis and asthma with the potential to modify the natural history of these disorders, rather than only suppressing symptoms.<sup><a href="#ref-7">[7]</a></sup> It works by exposing the immune system to the allergen over time to build tolerance.</p>
 
  <ul>
- <li><strong>Subcutaneous immunotherapy (SCIT — allergy shots):</strong> Administered in a medical office, typically weekly during the build-up phase (3–6 months), then monthly for 3–5 years. Highly effective. Requires office visits and a 30-minute observation period after each injection.</li>
- <li><strong>Sublingual immunotherapy (SLIT — allergy tablets):</strong> FDA-approved tablets for grass pollen (Grastek), ragweed (Ragwitek), and dust mite (Odactra). Self-administered daily at home after the first dose is given under medical supervision. Near-equivalent efficacy to SCIT with a superior safety profile.<sup><a href="#ref-6" id="cite-17">[6]</a></sup> A tree pollen SLIT tablet has also recently demonstrated efficacy in clinical trials.</li>
+ <li><strong>Subcutaneous immunotherapy (SCIT, allergy shots):</strong> Injections given by allergy specialists in a medical office. Recent evidence has identified risk factors for anaphylaxis to allergy shots and ways to reduce that risk.<sup><a href="#ref-7">[7]</a></sup></li>
+ <li><strong>Sublingual immunotherapy (SLIT, allergy tablets):</strong> FDA-approved tablets include Grastek (timothy grass pollen),<sup><a href="#ref-12">[12]</a></sup> Ragwitek (short ragweed pollen),<sup><a href="#ref-21">[21]</a></sup> and Odactra (house dust mite),<sup><a href="#ref-22">[22]</a></sup> each approved for people 5 through 65 years of age. The first dose is given in a healthcare setting under medical supervision, followed by at least 30 minutes of observation, and later doses are taken at home. The grass tablet is started at least 12 weeks before the grass pollen season and may be taken daily for three consecutive years. Its label carries a boxed warning for life-threatening allergic reactions, and patients are prescribed an epinephrine auto-injector.<sup><a href="#ref-12">[12]</a></sup> SLIT has near-equivalent efficacy to SCIT with a superior safety profile.<sup><a href="#ref-7">[7]</a></sup></li>
  </ul>
 
- <p>the recommendation is immunotherapy for patients with moderate-to-severe symptoms inadequately controlled by medications, those who wish to reduce long-term medication dependence, and patients with allergic rhinitis complicated by allergic asthma — where immunotherapy can modify both diseases simultaneously.<sup><a href="#ref-5" id="cite-18">[5]</a></sup></p>
+ <p>The AAO-HNSF guideline recommends offering immunotherapy (sublingual or subcutaneous), or referral to a clinician who can, for people with allergic rhinitis whose symptoms respond inadequately to medicines, with or without environmental controls.<sup><a href="#ref-5">[5]</a></sup> Because immunotherapy is also a proven treatment for allergic asthma, it is worth discussing if you have both conditions.<sup><a href="#ref-7">[7]</a></sup></p>
 
  <!-- Section 8: Preventing and Reducing Exposure -->
  <h2 id="prevention">Preventing and Reducing Exposure: Evidence-Based Environmental Controls</h2>
 
- <p>Allergen avoidance won't eliminate symptoms for most patients with seasonal allergies, but it meaningfully reduces the allergen load your immune system must contend with — making medications more effective and reducing overall symptom burden.</p>
+ <p>Allergen avoidance won't eliminate symptoms for most patients with seasonal allergies, but the AAO-HNSF guideline lists avoiding known allergens and environmental controls, such as air filtration, as options for people whose triggers have been identified.<sup><a href="#ref-5">[5]</a></sup></p>
 
  <h3>Outdoor Strategies</h3>
  <ul>
- <li><strong>Monitor pollen counts:</strong> Check daily pollen levels through the AAAAI's National Allergy Bureau or weather apps. Limit prolonged outdoor activity when counts are high — typically dry, windy mornings.</li>
- <li><strong>Time your outdoor activities:</strong> Pollen counts tend to be highest in the early morning (5–10 AM). If possible, schedule outdoor exercise for late afternoon or evening.</li>
- <li><strong>Shower and change clothes</strong> after extended time outdoors. Pollen accumulates on hair, skin, and clothing and continues to trigger symptoms indoors.</li>
+ <li><strong>Monitor pollen counts:</strong> The AAAAI advises checking pollen counts in your area and limiting outdoor activities during times of high pollen counts.<sup><a href="#ref-10">[10]</a></sup></li>
+ <li><strong>Time your outdoor activities:</strong> When counts are high, save longer outdoor exercise for another day or a time when counts are lower.</li>
+ <li><strong>Shower and change clothes</strong> after extended time outdoors. Pollen collects on hair, skin, and clothing and can keep triggering symptoms indoors.</li>
  <li><strong>Wear sunglasses</strong> outdoors to reduce pollen contact with your eyes.</li>
  <li><strong>Keep car windows closed</strong> and use the recirculated air setting on your vehicle's ventilation system during high-pollen days.</li>
  </ul>
@@ -1054,13 +1121,13 @@ sup a:hover { text-decoration: underline; }
  <h3>Indoor Strategies</h3>
  <ul>
  <li><strong>Keep windows closed</strong> during peak pollen seasons. Use air conditioning instead of open-window ventilation.</li>
- <li><strong>Use HEPA air purifiers</strong> in bedrooms. While evidence is strongest as part of a full strategy, HEPA filters can meaningfully reduce indoor airborne allergens.</li>
- <li><strong>Nasal saline irrigation:</strong> Using a neti pot or squeeze bottle with sterile saline solution helps clear pollen from nasal passages, reduces inflammatory mediators, and improves symptoms. Guidelines include this as a recommended adjunctive therapy. Always use distilled or properly boiled and cooled water — never tap water — to prevent rare but serious infections.</li>
+ <li><strong>Use HEPA air purifiers</strong> in bedrooms. Air filtration is one of the environmental controls the AAO-HNSF guideline lists as an option, and it works best as part of a broader plan.<sup><a href="#ref-5">[5]</a></sup></li>
+ <li><strong>Nasal saline irrigation:</strong> A 2020 meta-analysis found that saline irrigation significantly improved allergic rhinitis symptoms in children and adults and can serve as a safe add-on to medication in adults.<sup><a href="#ref-23">[23]</a></sup> Rinse only with distilled, sterile, or previously boiled water (boiled for 3 to 5 minutes, then cooled until lukewarm). The FDA says tap water isn't safe for nasal rinsing because it isn't adequately filtered or treated.<sup><a href="#ref-24">[24]</a></sup></li>
  <li><strong>Dry laundry indoors</strong> during pollen season rather than on outdoor clotheslines.</li>
  <li><strong>Bathe pets regularly</strong> if they spend time outdoors, as their fur collects pollen and brings it indoors.</li>
  </ul>
 
- <p>One strategy the emphasis to patients is: <strong>start medications before symptoms begin.</strong> If you know your allergies begin in April, start your intranasal corticosteroid in mid-March. Pre-treatment is consistently more effective than reactive treatment once symptoms are already established.</p>
+ <p>One strategy worth emphasizing: <strong>start medications before symptoms begin.</strong> The AAAAI notes that most allergy medications for seasonal allergic rhinitis work best if started before tree pollen is in the air each spring and before your allergy symptoms develop.<sup><a href="#ref-10">[10]</a></sup> If you know your allergies begin in April, start your treatment a few weeks earlier.</p>
 
  <!-- Section 9: Red Flags -->
  <h2 id="red-flags">Red Flags: When to Seek Emergency Care</h2>
@@ -1071,16 +1138,16 @@ sup a:hover { text-decoration: underline; }
  Seek Immediate Medical Attention If You Experience:
  </div>
  <ul>
- <li><strong>Difficulty breathing, wheezing, or chest tightness</strong> — especially during allergy season. This may indicate asthma exacerbation or, rarely, a severe allergic reaction. Uncontrolled allergic rhinitis is a known risk factor for asthma attacks.</li>
- <li><strong>Throat swelling, difficulty swallowing, or voice changes</strong> — signs of angioedema or a severe allergic reaction requiring immediate evaluation.</li>
- <li><strong>Widespread hives, dizziness, or feeling faint</strong> — these are hallmarks of anaphylaxis. While pollen alone rarely causes systemic anaphylaxis, concurrent triggers (insect stings, food allergens, or pollen-food allergy syndrome) can. Use epinephrine if available and call 911.</li>
- <li><strong>Sudden-onset severe asthma during a thunderstorm</strong> — "thunderstorm asthma" occurs when storms rupture pollen grains into tiny fragments that penetrate deep into the lungs. This phenomenon has caused mass casualty events in several countries and is especially dangerous for patients with both allergies and asthma.</li>
- <li><strong>High fever (above 101°F/38.3°C) with nasal symptoms</strong> — allergies do not cause fever. This suggests a secondary infection (acute bacterial sinusitis, respiratory infection) requiring different treatment.</li>
- <li><strong>One-sided nasal symptoms, bloody discharge, or facial swelling</strong> — these are atypical for allergic rhinitis and warrant urgent evaluation to rule out other conditions.</li>
+ <li><strong>Difficulty breathing, wheezing, or chest tightness</strong>, especially during allergy season. This may mean an asthma flare or, less often, a severe allergic reaction.</li>
+ <li><strong>Throat swelling, difficulty swallowing, or voice changes.</strong> A swollen throat is a warning sign of anaphylaxis and needs immediate care.<sup><a href="#ref-13">[13]</a></sup></li>
+ <li><strong>Widespread hives, trouble breathing, or passing out.</strong> These are warning signs of anaphylaxis. If you think you are having an anaphylactic reaction, use your epinephrine and call 911 immediately.<sup><a href="#ref-13">[13]</a></sup></li>
+ <li><strong>Sudden severe asthma during a thunderstorm.</strong> Thunderstorm asthma causes sudden, sometimes large-scale and potentially fatal asthma attacks. During storms, pollen can absorb moisture and rupture into particles smaller than 2.5 micrometers that can reach the small airways.<sup><a href="#ref-25">[25]</a></sup></li>
+ <li><strong>Fever with nasal symptoms.</strong> People with seasonal allergies don't usually have a fever,<sup><a href="#ref-8">[8]</a></sup> so a fever suggests an infection. The CDC advises seeing a healthcare provider for a fever lasting longer than 3 to 4 days, symptoms lasting more than 10 days without getting better, symptoms that get worse after improving, or severe headache or facial pain.<sup><a href="#ref-11">[11]</a></sup></li>
+ <li><strong>One-sided nasal symptoms, bloody discharge, or facial swelling.</strong> These are atypical for allergic rhinitis and warrant prompt in-person evaluation to rule out other conditions.</li>
  </ul>
  </div>
 
- <p>The asthma–allergy overlap deserves particular emphasis. The ARIA guidelines describe allergic rhinitis and asthma as "one airway, one disease" — up to 40% of allergic rhinitis patients have coexisting asthma, and 80% of asthma patients have allergic rhinitis.<sup><a href="#ref-1" id="cite-19">[1]</a></sup> Poorly controlled allergic rhinitis is an independent risk factor for asthma exacerbations. If you have both conditions, managing your allergies aggressively is one of the most important things you can do for your lung health.</p>
+ <p>The asthma and allergy overlap deserves particular emphasis. The ARIA guidelines were first written in 2001 for allergic rhinitis and asthma together,<sup><a href="#ref-6">[6]</a></sup> and the AAO-HNSF guideline asks clinicians to check people with allergic rhinitis for asthma.<sup><a href="#ref-5">[5]</a></sup> Allergen immunotherapy is a proven treatment for both conditions.<sup><a href="#ref-7">[7]</a></sup> If you have both, keeping your allergies under control is part of looking after your lungs.</p>
 
  <!-- Section 10: FAQ -->
  <h2 id="faq">Frequently Asked Questions</h2>
@@ -1093,7 +1160,7 @@ sup a:hover { text-decoration: underline; }
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
- <p>Seasonal allergies are triggered by outdoor allergens that appear at specific times of year — tree pollen in spring, grass pollen in early summer, and ragweed pollen in late summer through fall. Year-round (perennial) allergies are caused by indoor allergens present throughout the year, such as dust mites, pet dander, cockroach droppings, and indoor mold. Many patients have both. The ARIA guidelines classify rhinitis by symptom duration (intermittent vs. persistent) and severity rather than strictly by allergen type, because many patients with "seasonal" triggers actually have persistent symptoms across multiple pollen seasons.<sup><a href="#ref-1">[1]</a></sup></p>
+ <p>Seasonal allergies are triggered by pollen carried in the air at certain times of year, and hay fever symptoms tend to flare up in the spring, summer and fall. Perennial allergic rhinitis symptoms are year-long.<sup><a href="#ref-10">[10]</a></sup> Year-round allergies usually come from indoor allergens such as dust mites, pet dander, cockroaches, and indoor mold. Many patients have both. The ARIA guidelines classify allergic rhinitis as intermittent or persistent rather than seasonal or perennial, and the 2024-2025 revision points to studies showing that severity matters more than how long symptoms last.<sup><a href="#ref-6">[6]</a></sup></p>
  </div></div></div></div>
 
  <div class="tdmd-faq-item">
@@ -1102,7 +1169,7 @@ sup a:hover { text-decoration: underline; }
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
- <p>Second-generation oral antihistamines like cetirizine (Zyrtec), loratadine (Claritin), and fexofenadine (Allegra) are generally safe for daily use throughout allergy season. Intranasal corticosteroid sprays such as fluticasone (Flonase) and triamcinolone (Nasacort) are also safe for daily use — in fact, they work best when used consistently. However, avoid daily use of oral decongestants like pseudoephedrine for more than a few days due to cardiovascular effects, and nasal decongestant sprays (Afrin/oxymetazoline) should never be used for more than 3 consecutive days to avoid rebound congestion (rhinitis medicamentosa). First-generation antihistamines like diphenhydramine (Benadryl) cause sedation and cognitive impairment and are not recommended for routine daily use.</p>
+ <p>Second-generation oral antihistamines such as cetirizine (Zyrtec), loratadine (Claritin), and fexofenadine (Allegra) are labeled for daily use at the doses on the package; cetirizine and loratadine are once daily, and fexofenadine is once daily (180 mg) or every 12 hours (60 mg).<sup><a href="#ref-16">[16]</a></sup><sup><a href="#ref-17">[17]</a></sup><sup><a href="#ref-18">[18]</a></sup> Fluticasone nasal spray (Flonase) is labeled for once-daily use, and the label says to ask your doctor about continuing after 6 months of daily use.<sup><a href="#ref-14">[14]</a></sup> Be more careful with decongestants. The oral decongestant pseudoephedrine (Sudafed) label says to ask a doctor first if you have heart disease, high blood pressure, thyroid disease, diabetes, or trouble urinating due to an enlarged prostate, and to stop and ask a doctor if symptoms don't improve within 7 days.<sup><a href="#ref-26">[26]</a></sup> Decongestant nasal sprays such as oxymetazoline (Afrin) should not be used for more than 3 days, because frequent or prolonged use may cause congestion to come back or worsen.<sup><a href="#ref-15">[15]</a></sup> First-generation antihistamines such as diphenhydramine (Benadryl) can cause marked drowsiness and are not a good choice for routine daily use.<sup><a href="#ref-19">[19]</a></sup></p>
  </div></div></div></div>
 
  <div class="tdmd-faq-item">
@@ -1111,7 +1178,7 @@ sup a:hover { text-decoration: underline; }
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
- <p>Yes. While seasonal allergies often begin in childhood or adolescence, adult-onset allergic rhinitis is well-documented and increasingly common. Moving to a new geographic area with different pollen exposures, changes in the immune system, and longer pollen seasons due to climate change can all contribute to developing allergies later in life. I see this regularly in patients who have relocated — they may go 2–3 years without symptoms before sensitization occurs. If you develop new nasal symptoms as an adult, it's worth seeing a physician to confirm the diagnosis since other conditions can mimic allergic rhinitis.</p>
+ <p>Yes, new nasal allergy symptoms can show up in adulthood, and diagnosed seasonal allergies are common at every adult age: in 2024, 24.3% of adults ages 18 to 44 and 27.7% of those 45 to 64 had one.<sup><a href="#ref-1">[1]</a></sup> Moving to an area with different plants, or longer pollen seasons, can change what you are exposed to. If you develop new nasal symptoms as an adult, it's worth seeing a physician to confirm the diagnosis, since other conditions can mimic allergic rhinitis.</p>
  </div></div></div></div>
 
  <div class="tdmd-faq-item">
@@ -1120,7 +1187,7 @@ sup a:hover { text-decoration: underline; }
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
- <p>Immunotherapy is the only treatment that modifies the underlying immune response rather than just controlling symptoms. It is well worth considering if you have moderate-to-severe symptoms not adequately controlled with medications, if you experience significant medication side effects, or if you want long-term disease modification. Subcutaneous immunotherapy (allergy shots) and sublingual immunotherapy (SLIT tablets) have near-equivalent efficacy. SLIT tablets have a superior safety profile and can be self-administered at home after the first dose.<sup><a href="#ref-6">[6]</a></sup> Benefits typically persist for years after completing a 3–5 year course. The decision depends on your symptom severity, allergen profile, and personal preferences — discuss it with an allergist.</p>
+ <p>Allergen immunotherapy can modify the natural history of allergic rhinitis and asthma rather than just controlling symptoms.<sup><a href="#ref-7">[7]</a></sup> Guidelines recommend offering it when medicines, with or without environmental controls, don't adequately control symptoms.<sup><a href="#ref-5">[5]</a></sup> Allergy shots and sublingual (SLIT) tablets have near-equivalent efficacy, and SLIT has a superior safety profile that allows self-administration.<sup><a href="#ref-7">[7]</a></sup> The first tablet dose is given under medical supervision, and later doses are taken at home.<sup><a href="#ref-12">[12]</a></sup> The decision depends on your symptom severity, allergen profile, and personal preferences, so discuss it with an allergist.</p>
  </div></div></div></div>
 
  <div class="tdmd-faq-item">
@@ -1129,7 +1196,7 @@ sup a:hover { text-decoration: underline; }
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
- <p>Absolutely. Allergic rhinitis and asthma are closely connected — the ARIA guidelines describe them as "one airway, one disease." Up to 40% of patients with allergic rhinitis also have asthma, and 80% of asthma patients have co-existing allergic rhinitis.<sup><a href="#ref-1">[1]</a></sup> Pollen exposure can trigger or worsen asthma symptoms including wheezing, chest tightness, coughing, and shortness of breath. During thunderstorms, pollen grains can rupture into tiny fragments that penetrate deep into the lungs, causing sudden severe asthma attacks ("thunderstorm asthma"). If you notice chest symptoms during allergy season, the recommendation is you be evaluated — poorly controlled allergic rhinitis is a risk factor for asthma exacerbations.</p>
+ <p>Yes. Allergic rhinitis and asthma are closely linked: the ARIA guidelines were first written for the two conditions together,<sup><a href="#ref-6">[6]</a></sup> and guidelines ask clinicians to check people with allergic rhinitis for asthma.<sup><a href="#ref-5">[5]</a></sup> Pollen exposure can trigger or worsen asthma symptoms, including wheezing, chest tightness, coughing, and shortness of breath. During thunderstorms, pollen can rupture into particles smaller than 2.5 micrometers that reach the small airways, causing sudden and potentially severe asthma attacks ("thunderstorm asthma").<sup><a href="#ref-25">[25]</a></sup> If you notice chest symptoms during allergy season, get evaluated.</p>
  </div></div></div></div>
 
  <div class="tdmd-faq-item">
@@ -1139,7 +1206,7 @@ sup a:hover { text-decoration: underline; }
  </button>
  <div class="tdmd-faq-answer">
  <div class="tdmd-faq-answer-inner">
- <p>Both have evidence supporting their use. HEPA air purifiers can reduce indoor pollen and allergen levels, and studies show benefit when used in bedrooms — though they work best as part of an in-depth environmental control strategy rather than a standalone intervention. Nasal saline irrigation (using a neti pot or squeeze bottle with sterile saline) has stronger evidence: it helps clear allergens and mucus from nasal passages, reduces inflammation, and improves symptoms. Clinical guidelines include nasal saline rinses as a recommended adjunctive therapy. Use distilled or properly boiled and cooled water — never tap water — to avoid rare but serious infections.</p>
+ <p>Both can help as part of a broader plan. The AAO-HNSF guideline lists environmental controls, including air filtration systems, as an option for people whose allergen triggers have been identified.<sup><a href="#ref-5">[5]</a></sup> For nasal saline irrigation, a 2020 meta-analysis found it significantly improved allergic rhinitis symptoms in children and adults and can serve as a safe add-on to medication in adults.<sup><a href="#ref-23">[23]</a></sup> Use only distilled, sterile, or previously boiled and cooled water, never plain tap water, because tap water isn't adequately filtered or treated and organisms in it can cause potentially serious infections in the nose.<sup><a href="#ref-24">[24]</a></sup></p>
  </div>
  </div>
  </div>
@@ -1150,24 +1217,43 @@ sup a:hover { text-decoration: underline; }
  <div class="tdmd-references" id="references">
  <h2>References</h2>
  <ol>
- <li id="ref-1">Bousquet J, Sousa-Pinto B, Vieira RJ, et al. <em>Allergic Rhinitis and Its Impact on Asthma (ARIA)-EAACI Guidelines—2024–2025 Revision: Part I—Guidelines on Intranasal Treatments.</em> Allergy. 2025. <a href="https://onlinelibrary.wiley.com/doi/10.1111/all.70131" target="_blank" rel="noopener noreferrer">https://onlinelibrary.wiley.com/doi/10.1111/all.70131</a></li>
- <li id="ref-2">National Center for Health Statistics. <em>Diagnosed Allergic Conditions in Adults: United States, 2024.</em> NCHS Data Brief No. 545, January 2026. <a href="https://www.cdc.gov/nchs/products/databriefs/db545.htm" target="_blank" rel="noopener noreferrer">https://www.cdc.gov/nchs/products/databriefs/db545.htm</a></li>
- <li id="ref-3">Asthma and Allergy Foundation of America. <em>Allergy Facts and Figures.</em> <a href="https://aafa.org/allergies/allergy-facts/" target="_blank" rel="noopener noreferrer">https://aafa.org/allergies/allergy-facts/</a></li>
- <li id="ref-4">Climate Central. <em>Longer Growing Season, Longer Allergy Season in 172 U.S. Cities.</em> March 2025. <a href="https://www.climatecentral.org/climate-matters/2025-allergy-season" target="_blank" rel="noopener noreferrer">https://www.climatecentral.org/climate-matters/2025-allergy-season</a></li>
- <li id="ref-5">American Academy of Allergy, Asthma & Immunology. <em>Hay Fever (Rhinitis) — Symptoms, Diagnosis, Management & Treatment.</em> <a href="https://www.aaaai.org/conditions-treatments/allergies/hay-fever-rhinitis" target="_blank" rel="noopener noreferrer">https://www.aaaai.org/conditions-treatments/allergies/hay-fever-rhinitis</a></li>
- <li id="ref-6">Bernstein DI. <em>Aeroallergen Immunotherapy Update: Developments Since the Third Practice Parameter.</em> Allergy and Asthma Proceedings. 2025;46(6):450-454. <a href="https://pubmed.ncbi.nlm.nih.gov/41152677/" target="_blank" rel="noopener noreferrer">https://pubmed.ncbi.nlm.nih.gov/41152677/</a></li>
- <li id="ref-7">Mayo Clinic. <em>Cold or Allergy: Which Is It?</em> <a href="https://www.mayoclinic.org/diseases-conditions/common-cold/expert-answers/common-cold/faq-20057857" target="_blank" rel="noopener noreferrer">https://www.mayoclinic.org/diseases-conditions/common-cold/expert-answers/common-cold/faq-20057857</a></li>
+ <li id="ref-1">National Center for Health Statistics. <em>Diagnosed Allergic Conditions in Adults: United States, 2024.</em> NCHS Data Brief No. 545, January 2026. Accessed November 15, 2026. <a href="https://www.cdc.gov/nchs/products/databriefs/db545.htm" target="_blank" rel="noopener noreferrer">https://www.cdc.gov/nchs/products/databriefs/db545.htm</a></li>
+ <li id="ref-2">Asthma and Allergy Foundation of America. <em>Allergy Facts and Figures.</em> Last updated April 2026. Accessed November 15, 2026. <a href="https://aafa.org/allergies/allergy-facts/" target="_blank" rel="noopener noreferrer">https://aafa.org/allergies/allergy-facts/</a></li>
+ <li id="ref-3">Climate Central. <em>Longer Growing Season, Longer Allergy Season in 172 U.S. Cities.</em> March 5, 2025. Accessed November 15, 2026. <a href="https://www.climatecentral.org/climate-matters/2025-allergy-season" target="_blank" rel="noopener noreferrer">https://www.climatecentral.org/climate-matters/2025-allergy-season</a></li>
+ <li id="ref-4">Dykewicz MS, Wallace DV, Amrol DJ, et al. <em>Rhinitis 2020: A practice parameter update.</em> J Allergy Clin Immunol. 2020;146(4):721-767. doi:10.1016/j.jaci.2020.07.007 <a href="https://pubmed.ncbi.nlm.nih.gov/32707227/" target="_blank" rel="noopener noreferrer">https://pubmed.ncbi.nlm.nih.gov/32707227/</a></li>
+ <li id="ref-5">Seidman MD, Gurgel RK, Lin SY, et al. <em>Clinical practice guideline: Allergic rhinitis.</em> Otolaryngol Head Neck Surg. 2015;152(1 Suppl):S1-43. doi:10.1177/0194599814561600 <a href="https://pubmed.ncbi.nlm.nih.gov/25644617/" target="_blank" rel="noopener noreferrer">https://pubmed.ncbi.nlm.nih.gov/25644617/</a></li>
+ <li id="ref-6">Sousa-Pinto B, Bousquet J, Vieira RJ, et al. <em>Allergic Rhinitis and Its Impact on Asthma (ARIA)-EAACI Guidelines-2024-2025 Revision: Part I-Guidelines on Intranasal Treatments.</em> Allergy. 2025;81(4):954-976. doi:10.1111/all.70131 <a href="https://pubmed.ncbi.nlm.nih.gov/41324154/" target="_blank" rel="noopener noreferrer">https://pubmed.ncbi.nlm.nih.gov/41324154/</a></li>
+ <li id="ref-7">Bernstein DI. <em>Aeroallergen immunotherapy update: Developments since the third Practice Parameter.</em> Allergy Asthma Proc. 2025;46(6):450-454. doi:10.2500/aap.2025.46.250067 <a href="https://pubmed.ncbi.nlm.nih.gov/41152677/" target="_blank" rel="noopener noreferrer">https://pubmed.ncbi.nlm.nih.gov/41152677/</a></li>
+ <li id="ref-8">Mayo Clinic Staff. <em>Cold or allergy: Which is it?</em> Mayo Clinic. February 13, 2024. Accessed November 15, 2026. <a href="https://www.mayoclinic.org/diseases-conditions/common-cold/expert-answers/common-cold/faq-20057857" target="_blank" rel="noopener noreferrer">https://www.mayoclinic.org/diseases-conditions/common-cold/expert-answers/common-cold/faq-20057857</a></li>
+ <li id="ref-9">Zhang Y, Steiner AL. <em>Projected climate-driven changes in pollen emission season length and magnitude over the continental United States.</em> Nat Commun. 2022;13(1):1234. doi:10.1038/s41467-022-28764-0 <a href="https://pubmed.ncbi.nlm.nih.gov/35292649/" target="_blank" rel="noopener noreferrer">https://pubmed.ncbi.nlm.nih.gov/35292649/</a></li>
+ <li id="ref-10">American Academy of Allergy, Asthma &amp; Immunology. <em>Hay Fever (Rhinitis): Symptoms, Diagnosis, Management &amp; Treatment.</em> Page dated 7/16/2026. Accessed November 15, 2026. <a href="https://www.aaaai.org/conditions-treatments/allergies/hay-fever-rhinitis" target="_blank" rel="noopener noreferrer">https://www.aaaai.org/conditions-treatments/allergies/hay-fever-rhinitis</a></li>
+ <li id="ref-11">Centers for Disease Control and Prevention. <em>Sinus Infection Basics.</em> Last reviewed April 17, 2024. Accessed November 15, 2026. <a href="https://www.cdc.gov/sinus-infection/about/index.html" target="_blank" rel="noopener noreferrer">https://www.cdc.gov/sinus-infection/about/index.html</a></li>
+ <li id="ref-12">ALK-Abello A/S. <em>GRASTEK (timothy grass pollen allergen extract) tablet: Prescribing Information, including Boxed Warning.</em> Revised 9/2022. DailyMed, U.S. National Library of Medicine. Accessed November 15, 2026. <a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ebb02ba7-de81-4367-8ba7-d774816f85b0" target="_blank" rel="noopener noreferrer">https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ebb02ba7-de81-4367-8ba7-d774816f85b0</a></li>
+ <li id="ref-13">American Academy of Allergy, Asthma &amp; Immunology. <em>Anaphylaxis Symptoms, Diagnosis, Treatment &amp; Management.</em> Accessed November 15, 2026. <a href="https://www.aaaai.org/conditions-treatments/allergies/anaphylaxis" target="_blank" rel="noopener noreferrer">https://www.aaaai.org/conditions-treatments/allergies/anaphylaxis</a></li>
+ <li id="ref-14">Haleon US Holdings LLC. <em>FLONASE ALLERGY RELIEF (fluticasone propionate) spray, metered: Drug Facts.</em> DailyMed, U.S. National Library of Medicine. Updated December 19, 2024. Accessed November 15, 2026. <a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b6134ba0-b70a-4eac-9a82-cef64b242c1d" target="_blank" rel="noopener noreferrer">https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b6134ba0-b70a-4eac-9a82-cef64b242c1d</a></li>
+ <li id="ref-15">Bayer HealthCare LLC. <em>AFRIN ORIGINAL (oxymetazoline hydrochloride) spray: Drug Facts.</em> DailyMed, U.S. National Library of Medicine. Updated December 4, 2025. Accessed November 15, 2026. <a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=89c165ba-3ad5-49b5-a5bb-423dc8e15bad" target="_blank" rel="noopener noreferrer">https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=89c165ba-3ad5-49b5-a5bb-423dc8e15bad</a></li>
+ <li id="ref-16">Kenvue Brands LLC. <em>ZYRTEC ALLERGY (cetirizine hydrochloride) tablet, film coated: Drug Facts.</em> DailyMed, U.S. National Library of Medicine. Updated October 10, 2025. Accessed November 15, 2026. <a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b165db38-b302-4220-8627-77cb07bb078c" target="_blank" rel="noopener noreferrer">https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b165db38-b302-4220-8627-77cb07bb078c</a></li>
+ <li id="ref-17">Bayer HealthCare LLC. <em>CLARITIN (loratadine) tablet: Drug Facts.</em> DailyMed, U.S. National Library of Medicine. Updated December 4, 2025. Accessed November 15, 2026. <a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=acf2d393-53d7-062f-e053-2995a90a0d60" target="_blank" rel="noopener noreferrer">https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=acf2d393-53d7-062f-e053-2995a90a0d60</a></li>
+ <li id="ref-18">Chattem, Inc. <em>ALLEGRA ALLERGY (fexofenadine hydrochloride) tablet, film coated: Drug Facts.</em> DailyMed, U.S. National Library of Medicine. Updated April 14, 2026. Accessed November 15, 2026. <a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=81c1dcbb-28b3-4ad5-9f3d-9ccc16ddd173" target="_blank" rel="noopener noreferrer">https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=81c1dcbb-28b3-4ad5-9f3d-9ccc16ddd173</a></li>
+ <li id="ref-19">Kenvue Brands LLC. <em>BENADRYL ALLERGY LIQUI-GELS (diphenhydramine hydrochloride) capsule: Drug Facts.</em> DailyMed, U.S. National Library of Medicine. Updated May 7, 2026. Accessed November 15, 2026. <a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bfeae100-e2d1-4607-be3b-2d9b15cd4f7f" target="_blank" rel="noopener noreferrer">https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bfeae100-e2d1-4607-be3b-2d9b15cd4f7f</a></li>
+ <li id="ref-20">Organon LLC. <em>SINGULAIR (montelukast sodium) tablets, chewable tablets and oral granules: Prescribing Information, including Boxed Warning.</em> Revised 6/2021. DailyMed, U.S. National Library of Medicine. Updated April 30, 2025. Accessed November 15, 2026. <a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842" target="_blank" rel="noopener noreferrer">https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842</a></li>
+ <li id="ref-21">ALK-Abello A/S. <em>RAGWITEK (Ambrosia artemisiifolia pollen) tablet: Prescribing Information.</em> Revised 9/2022. DailyMed, U.S. National Library of Medicine. Accessed November 15, 2026. <a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=70216cba-11b5-40fd-8656-9f27b24f7b60" target="_blank" rel="noopener noreferrer">https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=70216cba-11b5-40fd-8656-9f27b24f7b60</a></li>
+ <li id="ref-22">ALK-Abello A/S. <em>ODACTRA (Dermatophagoides pteronyssinus and Dermatophagoides farinae) tablet: Prescribing Information.</em> Revised 6/2026. DailyMed, U.S. National Library of Medicine. Updated June 18, 2026. Accessed November 15, 2026. <a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=71ca220d-78d5-47d4-be84-8d6e844b24b3" target="_blank" rel="noopener noreferrer">https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=71ca220d-78d5-47d4-be84-8d6e844b24b3</a></li>
+ <li id="ref-23">Wang Y, Jin L, Liu SX, et al. <em>Role of nasal saline irrigation in the treatment of allergic rhinitis in children and adults: A systematic analysis.</em> Allergol Immunopathol (Madr). 2020;48(4):360-367. doi:10.1016/j.aller.2020.01.002 <a href="https://pubmed.ncbi.nlm.nih.gov/32331798/" target="_blank" rel="noopener noreferrer">https://pubmed.ncbi.nlm.nih.gov/32331798/</a></li>
+ <li id="ref-24">U.S. Food and Drug Administration. <em>Is Rinsing Your Sinuses With Neti Pots Safe?</em> Content current as of April 28, 2025. Accessed November 15, 2026. <a href="https://www.fda.gov/consumers/consumer-updates/rinsing-your-sinuses-neti-pots-safe" target="_blank" rel="noopener noreferrer">https://www.fda.gov/consumers/consumer-updates/rinsing-your-sinuses-neti-pots-safe</a></li>
+ <li id="ref-25">Xiao Z, Shi Y, Zhao D, et al. <em>Triggering mechanisms of acute thunderstorm asthma: epithelial barrier disruption and immune dysregulation.</em> Respir Res. 2026;27(1). doi:10.1186/s12931-026-03532-6 <a href="https://pubmed.ncbi.nlm.nih.gov/41652394/" target="_blank" rel="noopener noreferrer">https://pubmed.ncbi.nlm.nih.gov/41652394/</a></li>
+ <li id="ref-26">Kenvue Brands LLC. <em>SUDAFED SINUS CONGESTION (pseudoephedrine hydrochloride) tablet: Drug Facts.</em> DailyMed, U.S. National Library of Medicine. Updated November 8, 2024. Accessed November 15, 2026. <a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c05d7e27-6821-468f-b27d-9c0b02a07b0f" target="_blank" rel="noopener noreferrer">https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c05d7e27-6821-468f-b27d-9c0b02a07b0f</a></li>
  </ol>
  </div>
 
- <!-- Section 12: Author Bio -->
+<!-- Section 12: Author Bio -->
  <div class="tdmd-author-bio">
  <div class="tdmd-author-avatar" aria-hidden="true">PB</div>
  <div class="tdmd-author-info">
  <h3>About the Author</h3>
  <p><strong><a href="https://teledirectmd.com/health-guides/about-the-editor/">Parth Bhavsar, MD</a></strong></p>
  <p>Dr. Bhavsar is a board-certified family medicine physician and founder of TeleDirectMD. He manages allergic rhinitis and seasonal allergy flares year-round in his telemedicine practice across 40+ U.S. states + DC. He is fluent in English, Hindi, Gujarati, and Urdu.</p>
- <p style="font-size: 0.85rem; color: var(--tdmd-muted); margin-top: 0.5rem;"><em>Medically reviewed by Parth Bhavsar, MD — Last reviewed January 18, 2026 <span style="color:#006b73;font-weight:600;"> &middot; Updated: May 2026</span></em></p>
+ <p style="font-size: 0.85rem; color: var(--tdmd-muted); margin-top: 0.5rem;"><em>Medically reviewed by Parth Bhavsar, MD. Last reviewed January 18, 2026 <span style="color:#006b73;font-weight:600;"> &middot; Updated: May 2026</span></em></p>
  </div>
  </div>
 
