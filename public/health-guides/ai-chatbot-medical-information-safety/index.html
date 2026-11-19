@@ -171,8 +171,65 @@
  "encodingFormat": "text/csv",
  "contentUrl": "https://teledirectmd.com/health-guides/ai-chatbot-medical-information-safety/ai-chatbot-health-study-tracker.csv"
  }
+ },
+ {
+   "@type": "FAQPage",
+   "@id": "https://teledirectmd.com/health-guides/ai-chatbot-medical-information-safety/#faq-list",
+   "isPartOf": {
+     "@id": "https://teledirectmd.com/health-guides/ai-chatbot-medical-information-safety/#webpage"
+   },
+   "mainEntity": [
+     {
+       "@type": "Question",
+       "name": "How many Americans use AI chatbots for health information?",
+       "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "In Pew Research Center's October 2025 survey, 22% of U.S. adults said they get health information from AI chatbots at least sometimes. In KFF's February to March 2026 poll, 32% said they had used AI for physical or mental health information or advice in the past year."
+       }
+     },
+     {
+       "@type": "Question",
+       "name": "Which AI chatbot is the most accurate for health questions?",
+       "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "No study settles this, and versions change quickly. In the 2026 BMJ Open audit, the overall difference between five free chatbots was not statistically significant. In a study of 222 patient questions entered into public web apps in late 2024, unsafe answers ranged from 5% for Claude to 13% for GPT-4o and Llama. Results from one version should not be assumed for the next."
+       }
+     },
+     {
+       "@type": "Question",
+       "name": "Is AI better than doctors at diagnosis?",
+       "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "The evidence does not show that for real patient care. A 2025 review of 83 studies found no significant difference between AI and physicians overall, but AI did significantly worse than expert physicians, and 76% of the studies were at high risk of bias. Company-run studies report larger advantages under test conditions, and we did not find independent replications with real patients."
+       }
+     },
+     {
+       "@type": "Question",
+       "name": "Is ChatGPT Health safe to use for deciding whether I need urgent care?",
+       "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "No chatbot should make that decision for you. In a 2026 Nature Medicine test, ChatGPT Health under-triaged 52% of gold-standard emergency cases. OpenAI itself says Health \"is not intended for diagnosis or treatment.\" If you think you may be having an emergency, call 911 or go to an emergency department."
+       }
+     },
+     {
+       "@type": "Question",
+       "name": "Are AI therapy chatbots legal in the United States?",
+       "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "It depends on the state. Illinois, Nevada, Maine, Colorado, Rhode Island, Vermont and Tennessee have enacted laws that restrict AI offered as therapy or mental health care or AI presented as a mental health professional, and Utah and California regulate how certain chatbots disclose and behave. See the table above for details."
+       }
+     },
+     {
+       "@type": "Question",
+       "name": "Should I upload my medical records to an AI chatbot?",
+       "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Think carefully first. In KFF's 2026 poll, 41% of people who used AI for health said they had uploaded personal medical information, while 77% of adults said they were concerned about the privacy of medical information given to AI tools. A more detailed prompt does not guarantee a more accurate answer, and a clinician still needs to interpret the result."
+       }
+     }
+   ]
  }
- ]
+]
 }
 </script>
 
@@ -604,8 +661,8 @@ sup a:hover { text-decoration: underline; }
 .tdmd-faq-item { border: 1px solid var(--tdmd-border); border-radius: 10px; padding: 0.75rem 1rem; margin: 0 0 0.75rem; }
 .tdmd-faq-item summary { cursor: pointer; font-weight: 600; color: var(--tdmd-navy); }
 .tdmd-faq-item p { margin: 0.6rem 0 0; }
-.tdmd-cite-box { background: var(--tdmd-bg-soft); border: 1px solid var(--tdmd-border); border-radius: 10px; padding: 1rem 1.25rem; margin: 1.5rem 0; }
-.tdmd-cite-box h3 { margin: 0 0 0.5rem; font-size: 1.05rem; color: var(--tdmd-navy); }
+.tdmd-cite-box { background: var(--tdmd-bg-soft, #f3fafb); border: 1px solid var(--tdmd-border); border-radius: 10px; padding: 1rem 1.25rem; margin: 1.5rem 0; }
+.tdmd-cite-box h3 { margin: 0 0 0.5rem; font-size: 1.05rem; color: var(--tdmd-navy, #003e52); }
 .tdmd-cite-box p { margin: 0 0 0.5rem; font-size: 0.95rem; overflow-wrap: anywhere; }
 </style>
  <link rel="stylesheet" href="../dark-mode.css">
@@ -681,7 +738,6 @@ sup a:hover { text-decoration: underline; }
   <div style="margin:0;color:#0A2438;font-size:0.97rem;">AI chatbots can help with general health education, but they carry documented risks. In a <a href="https://www.pewresearch.org/science/2026/04/07/users-of-social-media-and-ai-chatbots-for-health-information-are-more-likely-to-say-they-are-convenient-than-accurate/">Pew Research Center survey</a> conducted in October 2025, 22% of U.S. adults said they get health information from AI chatbots at least sometimes, and only 18% of those users rated it highly accurate. A <a href="https://pubmed.ncbi.nlm.nih.gov/41980854/">2026 BMJ Open audit</a> of the free versions of five chatbots, prompted on February 1, 2025 with deliberately challenging questions, rated 49.6% of 250 responses problematic. In a <a href="https://pubmed.ncbi.nlm.nih.gov/41663592/">2026 randomized study in Nature Medicine</a>, the models alone identified the relevant condition in 94.9% of cases, but people using them did so in fewer than 34.5%, no better than a control group. In a <a href="https://pubmed.ncbi.nlm.nih.gov/41731097/">2026 Nature Medicine test</a>, ChatGPT Health under-triaged 52% of emergency cases. Safe use rules: never rely on a chatbot to decide whether a symptom needs emergency care, and confirm diagnoses or drug decisions with a licensed clinician.</div>
   <div style="margin-top:0.75rem;padding-top:0.6rem;border-top:1px solid #E6F0F2;font-size:0.82rem;color:#456676;font-style:italic">Medically reviewed by Parth Bhavsar, MD. Updated November 18, 2026.</div>
 </section>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","@id":"https://teledirectmd.com/health-guides/ai-chatbot-medical-information-safety/#faq","isPartOf":{"@id":"https://teledirectmd.com/health-guides/ai-chatbot-medical-information-safety/#webpage"},"datePublished":"2026-04-27","dateModified":"2026-11-18","author":{"@type":"Physician","name":"Parth Bhavsar, MD","sameAs":"https://npiregistry.cms.hhs.gov/provider-view/1104323203"},"mainEntity":[{"@type":"Question","name":"Is it safe to use AI chatbots like ChatGPT for medical information?","acceptedAnswer":{"@type":"Answer","text":"AI chatbots can help with general health education, but they carry documented risks. In a Pew Research Center survey conducted in October 2025, 22% of U.S. adults said they get health information from AI chatbots at least sometimes, and only 18% of those users rated it highly accurate. A 2026 BMJ Open audit of the free versions of five chatbots, prompted on February 1, 2025 with deliberately challenging questions, rated 49.6% of 250 responses problematic. In a 2026 randomized study in Nature Medicine, the models alone identified the relevant condition in 94.9% of cases, but people using them did so in fewer than 34.5%, no better than a control group. In a 2026 Nature Medicine test, ChatGPT Health under-triaged 52% of emergency cases. Safe use rules: never rely on a chatbot to decide whether a symptom needs emergency care, and confirm diagnoses or drug decisions with a licensed clinician."}}]}</script>
 <!-- tdmd:citable-summary-end -->
 </div>
 
@@ -1318,7 +1374,7 @@ sup a:hover { text-decoration: underline; }
 
  <!-- Editorial Disclaimer -->
  <div style="margin-top:2.5rem;padding:1.25rem 1.5rem;background:rgba(255,255,255,0.04);border-left:3px solid rgba(255,255,255,0.25);border-radius:4px;font-size:0.85rem;line-height:1.65;opacity:0.85;">
- <strong style="color:#fff;">Editorial disclaimer:</strong> This health guides library is published for educational purposes only. It does not constitute medical advice and is not a substitute for evaluation by a licensed clinician. Always consult a qualified healthcare provider about any medical concern. If you are having a medical emergency, call 911. All articles are reviewed by Parth Bhavsar, MD, and cite peer-reviewed sources where possible.
+ <strong style="color:#fff;">Editorial disclaimer:</strong> This health guides library is published for educational purposes only. It does not constitute medical advice and is not a substitute for evaluation by a licensed clinician. Always consult a qualified healthcare provider about any medical concern. If you are having a medical emergency, call 911. All articles are reviewed by Parth Bhavsar, MD, and cite clinical guidelines, government health agencies and published research.
  </div>
 
  <!-- Footer Bottom -->

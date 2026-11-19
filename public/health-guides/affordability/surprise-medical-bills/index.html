@@ -27,8 +27,81 @@
   ]},
   {"@type":"Organization","@id":"https://teledirectmd.com/#organization","name":"TeleDirectMD","url":"https://teledirectmd.com","logo":"https://teledirectmd.com/logo.webp"},
   {"@type":"Person","@id":"https://teledirectmd.com/health-guides/about-the-editor/#person","name":"Parth Bhavsar, MD","jobTitle":"Physician","url":"https://teledirectmd.com/health-guides/about-the-editor/","affiliation":{"@id":"https://teledirectmd.com/#organization"},"sameAs":["https://npiregistry.cms.hhs.gov/provider-view/1104323203"]},
-  {"@type":"WebPage","@id":"https://teledirectmd.com/health-guides/affordability/surprise-medical-bills/#webpage","url":"https://teledirectmd.com/health-guides/affordability/surprise-medical-bills/","name":"Surprise Medical Bills and the No Surprises Act","description":"Your rights under the No Surprises Act when an out-of-network bill shows up, and the ground-ambulance gap.","inLanguage":"en-US","isPartOf":{"@id":"https://teledirectmd.com/#website"},"breadcrumb":{"@id":"https://teledirectmd.com/health-guides/affordability/surprise-medical-bills/#breadcrumb"},"datePublished":"2026-10-03","dateModified":"2026-10-11","lastReviewed":"2026-10-11","reviewedBy":{"@id":"https://teledirectmd.com/health-guides/about-the-editor/#person"},"author":{"@id":"https://teledirectmd.com/#organization"},"publisher":{"@id":"https://teledirectmd.com/#organization"},"speakable":{"@type":"SpeakableSpecification","cssSelector":[".tdmd-article-title",".tdmd-faq-question"]}}
- ]
+  {"@type":"WebPage","@id":"https://teledirectmd.com/health-guides/affordability/surprise-medical-bills/#webpage","url":"https://teledirectmd.com/health-guides/affordability/surprise-medical-bills/","name":"Surprise Medical Bills and the No Surprises Act","description":"Your rights under the No Surprises Act when an out-of-network bill shows up, and the ground-ambulance gap.","inLanguage":"en-US","isPartOf":{"@id":"https://teledirectmd.com/#website"},"breadcrumb":{"@id":"https://teledirectmd.com/health-guides/affordability/surprise-medical-bills/#breadcrumb"},"datePublished":"2026-10-03","dateModified":"2026-10-11","lastReviewed":"2026-10-11","reviewedBy":{"@id":"https://teledirectmd.com/health-guides/about-the-editor/#person"},"author":{"@id":"https://teledirectmd.com/#organization"},"publisher":{"@id":"https://teledirectmd.com/#organization"},"speakable":{"@type":"SpeakableSpecification","cssSelector":[".tdmd-article-title",".tdmd-faq-question"]}},
+  {
+    "@type": "FAQPage",
+    "@id": "https://teledirectmd.com/health-guides/affordability/surprise-medical-bills/#faq-list",
+    "isPartOf": {
+      "@id": "https://teledirectmd.com/health-guides/affordability/surprise-medical-bills/#webpage"
+    },
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is a surprise medical bill?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "CMS uses the term for an unexpected balance bill from an out-of-network provider, often after emergency care or care at an in-network facility. The provider bills you for the difference between its charge and what your plan paid (CMS)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is balance billing illegal?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It is banned in the situations the No Surprises Act covers: most emergency services, certain services from out-of-network providers during a visit to an in-network facility, and out-of-network air ambulance services (CMS). Outside those situations, or if you signed a notice and consent form giving up your protections, it can still happen (CMS)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does the No Surprises Act cover ground ambulances?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Ground ambulance transportation is not protected (CFPB), unless a state law has different rules (CMS)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I have to pay a surprise medical bill?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When the Act applies, you can't be charged more than your in-network cost-sharing (CMS). Compare the bill with your EOB and make sure you owe the amount before you pay more (CFPB)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a good faith estimate?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "An estimate of expected charges that providers usually must give uninsured and self-pay patients who schedule care at least 3 business days ahead or ask for one (CMS)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I waive the No Surprises Act protections?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In certain situations, such as some scheduled non-emergency care or post-stabilization care, a provider can give you a notice and consent form and ask you to waive them. Signing is your choice, but notice and consent is not allowed for emergency services before you are stabilized or for ancillary services such as anesthesiology and radiology (DOL)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should I do if a provider balance bills me anyway?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Make sure you owe the amount before you pay it, and submit a complaint to the CFPB if it leads to debt-collection or credit-reporting problems (CFPB). If the bill is more than your EOB shows you owe, contact the No Surprises Help Desk at 1-800-985-3059 (DOL)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does the No Surprises Act apply to emergency room visits?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. It protects you from unexpected out-of-network bills for most emergency services, even if you get them out of network and without prior authorization (CMS)."
+        }
+      }
+    ]
+  }
+]
 }
 </script>
 <style>
@@ -473,6 +546,10 @@ sup a:hover { text-decoration: underline; }
 .tdmd-article-figure { margin: 1.5rem 0; }
 .tdmd-article-figure img { width: 100%; height: auto; border-radius: var(--tdmd-radius); display: block; }
 .tdmd-article-figure figcaption { font-size: 0.85rem; color: var(--tdmd-muted); text-align: center; margin-top: 0.5rem; line-height: 1.5; }
+
+.tdmd-cite-box { background: var(--tdmd-bg-soft, #f3fafb); border: 1px solid var(--tdmd-border); border-radius: 10px; padding: 1rem 1.25rem; margin: 1.5rem 0; }
+.tdmd-cite-box h3 { margin: 0 0 0.5rem; font-size: 1.05rem; color: var(--tdmd-navy, #003e52); }
+.tdmd-cite-box p { margin: 0 0 0.5rem; font-size: 0.95rem; overflow-wrap: anywhere; }
 </style>
 <link rel="stylesheet" href="/health-guides/affordability/affordability.css">
 <link rel="stylesheet" href="/health-guides/dark-mode.css">
@@ -526,7 +603,6 @@ sup a:hover { text-decoration: underline; }
   <div style="margin:0;color:#0A2438;font-size:0.97rem;">CMS calls an unexpected balance bill from an out-of-network provider a surprise medical bill: the provider bills you for the difference between its charge and what your health plan paid. Starting in 2022, the No Surprises Act bans the most common types of these bills for people with private health insurance, and people who are uninsured or self-pay can often get a good faith estimate before care (<a href="https://www.cms.gov/newsroom/fact-sheets/no-surprises-understand-your-rights-against-surprise-medical-bills">CMS</a>).</div>
   <div style="margin-top:0.75rem;padding-top:0.6rem;border-top:1px solid #E6F0F2;font-size:0.82rem;color:#456676;font-style:italic">Medically reviewed by Parth Bhavsar, MD. Updated October 11, 2026.</div>
 </section>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","@id":"https://teledirectmd.com/health-guides/affordability/surprise-medical-bills/#faq","isPartOf":{"@id":"https://teledirectmd.com/health-guides/affordability/surprise-medical-bills/#webpage"},"datePublished":"2026-10-03","dateModified":"2026-10-11","author":{"@type":"Physician","name":"Parth Bhavsar, MD","sameAs":"https://npiregistry.cms.hhs.gov/provider-view/1104323203"},"mainEntity":[{"@type":"Question","name":"What are your rights under the No Surprises Act for a surprise medical bill?","acceptedAnswer":{"@type":"Answer","text":"CMS calls an unexpected balance bill from an out-of-network provider a surprise medical bill: the provider bills you for the difference between its charge and what your health plan paid. Starting in 2022, the No Surprises Act bans the most common types of these bills for people with private health insurance, and people who are uninsured or self-pay can often get a good faith estimate before care (CMS)."}}]}</script>
 <!-- tdmd:citable-summary-end -->
 </div>
 
@@ -588,6 +664,11 @@ sup a:hover { text-decoration: underline; }
 <details class="aff-faq"><summary>Does the No Surprises Act apply to emergency room visits?</summary><div><p>Yes. It protects you from unexpected out-of-network bills for most emergency services, even if you get them out of network and without prior authorization (CMS<sup><a href="#ref-1" id="cite-1">[1]</a></sup>).</p></div></details>
 <p class="aff-note">This is patient education, not financial or legal advice. Reviewed October 11, 2026.</p>
 <section class="aff-next" aria-labelledby="keep-reading"><h2 id="keep-reading">Keep reading</h2><div class="aff-next-grid"><a href="/health-guides/affordability/what-is-an-eob/"><img src="/health-guides/affordability/what-is-an-eob/images/thumb-what-is-an-eob.webp" alt="" loading="lazy" width="640" height="427"><span>What Is an EOB?<small>Reading an explanation of benefits</small></span></a><a href="/health-guides/affordability/what-to-do-when-you-cannot-pay/"><img src="/health-guides/affordability/what-to-do-when-you-cannot-pay/images/thumb-what-to-do-when-you-cannot-pay.webp" alt="" loading="lazy" width="640" height="427"><span>What to Do When You Cannot Pay<small>A step-by-step order for a bill</small></span></a><a href="/health-guides/affordability/out-of-pocket-maximum/"><img src="/health-guides/affordability/out-of-pocket-maximum/images/thumb-out-of-pocket-maximum.webp" alt="" loading="lazy" width="640" height="427"><span>What Is an Out-of-Pocket Maximum?<small>The yearly cap on covered care</small></span></a></div></section>
+
+<div class="tdmd-cite-box" id="cite">
+<h3>How to cite this guide</h3>
+<p>Bhavsar P. Surprise Medical Bills and the No Surprises Act. TeleDirectMD Health Guides. Last reviewed October 11, 2026. https://teledirectmd.com/health-guides/affordability/surprise-medical-bills/</p>
+</div>
 
 <div class="tdmd-references" id="references"><h2>References</h2><ol><li id="ref-1"><a href="https://www.cms.gov/newsroom/fact-sheets/no-surprises-understand-your-rights-against-surprise-medical-bills" target="_blank" rel="noopener noreferrer">CMS, No Surprises: Understand your rights against surprise medical bills (fact sheet, January 3, 2022)</a> <span class="aff-ref-host">cms.gov</span></li>
 <li id="ref-2"><a href="https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-if-i-cant-pay-a-medical-bill-en-2125/" target="_blank" rel="noopener noreferrer">CFPB, What should I do if I can&#8217;t pay a medical bill? (last reviewed October 28, 2026)</a> <span class="aff-ref-host">consumerfinance.gov</span></li>
@@ -672,7 +753,7 @@ sup a:hover { text-decoration: underline; }
 
  <!-- Editorial Disclaimer -->
  <div style="margin-top:2.5rem;padding:1.25rem 1.5rem;background:rgba(255,255,255,0.04);border-left:3px solid rgba(255,255,255,0.25);border-radius:4px;font-size:0.85rem;line-height:1.65;opacity:0.85;">
- <strong style="color:#fff;">Editorial disclaimer:</strong> This health guides library is published for educational purposes only. It does not constitute medical advice and is not a substitute for evaluation by a licensed clinician. Always consult a qualified healthcare provider about any medical concern. If you are having a medical emergency, call 911. All articles are reviewed by Parth Bhavsar, MD, and cite peer-reviewed sources where possible.
+ <strong style="color:#fff;">Editorial disclaimer:</strong> This health guides library is published for educational purposes only. It does not constitute medical advice and is not a substitute for evaluation by a licensed clinician. Always consult a qualified healthcare provider about any medical concern. If you are having a medical emergency, call 911. All articles are reviewed by Parth Bhavsar, MD, and cite clinical guidelines, government health agencies and published research.
  </div>
 
  <!-- Footer Bottom -->

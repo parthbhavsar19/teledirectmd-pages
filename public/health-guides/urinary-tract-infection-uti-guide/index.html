@@ -654,6 +654,10 @@ sup a:hover { text-decoration: underline; }
 .tdmd-article-figure { margin: 1.5rem 0; }
 .tdmd-article-figure img { width: 100%; height: auto; border-radius: var(--tdmd-radius); display: block; }
 .tdmd-article-figure figcaption { font-size: 0.85rem; color: var(--tdmd-muted); text-align: center; margin-top: 0.5rem; line-height: 1.5; }
+
+.tdmd-cite-box { background: var(--tdmd-bg-soft, #f3fafb); border: 1px solid var(--tdmd-border); border-radius: 10px; padding: 1rem 1.25rem; margin: 1.5rem 0; }
+.tdmd-cite-box h3 { margin: 0 0 0.5rem; font-size: 1.05rem; color: var(--tdmd-navy, #003e52); }
+.tdmd-cite-box p { margin: 0 0 0.5rem; font-size: 0.95rem; overflow-wrap: anywhere; }
 </style>
  <link rel="stylesheet" href="../dark-mode.css">
  </head>
@@ -724,7 +728,6 @@ sup a:hover { text-decoration: underline; }
   <div style="margin:0;color:#0A2438;font-size:0.97rem;">UTIs are among the most common bacterial infections, accounting for 0.9% of U.S. ambulatory care visits (<a href="https://pubmed.ncbi.nlm.nih.gov/24484571/">Foxman, 2014</a>), and most cases of cystitis are caused by <em>E. coli</em>. Combinations such as painful urination plus frequency without vaginal discharge or irritation raise the probability of a UTI to more than 90% (<a href="https://pubmed.ncbi.nlm.nih.gov/12020306/">Bent et al., JAMA 2002</a>). For acute uncomplicated cystitis in healthy, non-pregnant, premenopausal women, nitrofurantoin, TMP-SMX (where local resistance is under 20%) and fosfomycin are appropriate first-line agents, and fluoroquinolones should be reserved for when other agents are not appropriate (<a href="https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html">CDC</a>). Typical regimens are nitrofurantoin 100 mg twice daily for 5 days, TMP-SMX 160/800 mg twice daily for 3 days, or fosfomycin 3 g as a single dose (<a href="https://uroweb.org/guidelines/urological-infections/chapter/the-guideline">EAU guideline</a>). For recurrent UTIs, the <a href="https://pubmed.ncbi.nlm.nih.gov/40905426/">2025 AUA/CUA/SUFU guideline update</a> expands non-antibiotic prevention options; the European guideline recommends vaginal estrogen after menopause and methenamine hippurate, with antibiotic prophylaxis when non-antimicrobial measures have failed. Fever, flank pain, or vomiting suggest a kidney infection and need prompt in-person care. Most uncomplicated cases are appropriate for telehealth evaluation; complicated or red-flag presentations should be seen in person.</div>
   <div style="margin-top:0.75rem;padding-top:0.6rem;border-top:1px solid #E6F0F2;font-size:0.82rem;color:#456676;font-style:italic">Medically reviewed by Parth Bhavsar, MD. Updated August 30, 2026.</div>
 </section>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","@id":"https://teledirectmd.com/health-guides/urinary-tract-infection-uti-guide/#faq","isPartOf":{"@id":"https://teledirectmd.com/health-guides/urinary-tract-infection-uti-guide/#webpage"},"datePublished":"2025-12-08","dateModified":"2026-08-30","author":{"@type":"Physician","name":"Parth Bhavsar, MD","sameAs":"https://npiregistry.cms.hhs.gov/provider-view/1104323203"},"mainEntity":[{"@type":"Question","name":"What are UTI symptoms, causes, and treatments?","acceptedAnswer":{"@type":"Answer","text":"UTIs are among the most common bacterial infections, accounting for 0.9% of U.S. ambulatory care visits (Foxman, 2014), and most cases of cystitis are caused by E. coli. Combinations such as painful urination plus frequency without vaginal discharge or irritation raise the probability of a UTI to more than 90% (Bent et al., JAMA 2002). For acute uncomplicated cystitis in healthy, non-pregnant, premenopausal women, nitrofurantoin, TMP-SMX (where local resistance is under 20%) and fosfomycin are appropriate first-line agents, and fluoroquinolones should be reserved for when other agents are not appropriate (CDC). Typical regimens are nitrofurantoin 100 mg twice daily for 5 days, TMP-SMX 160/800 mg twice daily for 3 days, or fosfomycin 3 g as a single dose (EAU guideline). For recurrent UTIs, the 2025 AUA/CUA/SUFU guideline update expands non-antibiotic prevention options; the European guideline recommends vaginal estrogen after menopause and methenamine hippurate, with antibiotic prophylaxis when non-antimicrobial measures have failed. Fever, flank pain, or vomiting suggest a kidney infection and need prompt in-person care. Most uncomplicated cases are appropriate for telehealth evaluation; complicated or red-flag presentations should be seen in person."}}]}</script>
 <!-- tdmd:citable-summary-end -->
 <!-- tdmd:related-guide-cross-link-start -->
 <aside class="tdmd-related-guide" style="margin:1.5rem 0; padding:1rem 1.25rem; background:#F4F2EE; border-left:4px solid #006B73; border-radius:6px;">
@@ -1287,7 +1290,12 @@ sup a:hover { text-decoration: underline; }
  </div>
 
  <!-- Section 10: References -->
- <div class="tdmd-references" id="references">
+ <div class="tdmd-cite-box" id="cite">
+<h3>How to cite this guide</h3>
+<p>Bhavsar P. Urinary Tract Infections (UTIs). TeleDirectMD Health Guides. Last reviewed August 30, 2026. https://teledirectmd.com/health-guides/urinary-tract-infection-uti-guide/</p>
+</div>
+
+<div class="tdmd-references" id="references">
  <h2>References</h2>
  <ol>
  <li id="ref-1">Infectious Diseases Society of America (IDSA). <em>IDSA 2025 Guideline Update on Complicated Urinary Tract Infections.</em> Published July 17, 2025. Accessed November 7, 2026. <a href="https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/" target="_blank" rel="noopener noreferrer">https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/</a></li>
@@ -1425,7 +1433,7 @@ sup a:hover { text-decoration: underline; }
 
  <!-- Editorial Disclaimer -->
  <div style="margin-top:2.5rem;padding:1.25rem 1.5rem;background:rgba(255,255,255,0.04);border-left:3px solid rgba(255,255,255,0.25);border-radius:4px;font-size:0.85rem;line-height:1.65;opacity:0.85;">
- <strong style="color:#fff;">Editorial disclaimer:</strong> This health guides library is published for educational purposes only. It does not constitute medical advice and is not a substitute for evaluation by a licensed clinician. Always consult a qualified healthcare provider about any medical concern. If you are having a medical emergency, call 911. All articles are reviewed by Parth Bhavsar, MD, and cite peer-reviewed sources where possible.
+ <strong style="color:#fff;">Editorial disclaimer:</strong> This health guides library is published for educational purposes only. It does not constitute medical advice and is not a substitute for evaluation by a licensed clinician. Always consult a qualified healthcare provider about any medical concern. If you are having a medical emergency, call 911. All articles are reviewed by Parth Bhavsar, MD, and cite clinical guidelines, government health agencies and published research.
  </div>
 
  <!-- Footer Bottom -->

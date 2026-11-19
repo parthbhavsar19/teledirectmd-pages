@@ -600,6 +600,10 @@ sup a:hover { text-decoration: underline; }
 .tdmd-article-figure { margin: 1.5rem 0; }
 .tdmd-article-figure img { width: 100%; height: auto; border-radius: var(--tdmd-radius); display: block; }
 .tdmd-article-figure figcaption { font-size: 0.85rem; color: var(--tdmd-muted); text-align: center; margin-top: 0.5rem; line-height: 1.5; }
+
+.tdmd-cite-box { background: var(--tdmd-bg-soft, #f3fafb); border: 1px solid var(--tdmd-border); border-radius: 10px; padding: 1rem 1.25rem; margin: 1.5rem 0; }
+.tdmd-cite-box h3 { margin: 0 0 0.5rem; font-size: 1.05rem; color: var(--tdmd-navy, #003e52); }
+.tdmd-cite-box p { margin: 0 0 0.5rem; font-size: 0.95rem; overflow-wrap: anywhere; }
 </style>
  <link rel="stylesheet" href="../dark-mode.css">
  </head>
@@ -639,10 +643,9 @@ sup a:hover { text-decoration: underline; }
 <!-- tdmd:citable-summary-start -->
 <section class="tdmd-citable-summary" id="citable-summary-uric-acid-levels-guide" data-speakable="true" style="background:#FFFFFF;border:1px solid #C2E0E5;border-radius:8px;padding:1.1rem 1.4rem;margin:1.25rem auto;max-width:980px;line-height:1.65;box-shadow:0 1px 2px rgba(0,0,0,0.03)">
   <h2 style="margin:0 0 0.5rem;font-size:1.05rem;font-weight:700;color:#003E52;">What is a normal uric acid level, and what is considered high?</h2>
-  <div style="margin:0;color:#0A2438;font-size:0.97rem;">Serum urate (uric acid) is usually reported in milligrams per deciliter (mg/dL). Normal ranges vary by laboratory; MedlinePlus lists 3.0 to 7.1 mg/dL for women and 4.0 to 8.6 mg/dL for men. For gout, the number that matters most is the saturation point of about 6.8 mg/dL, above which urate crystals can form. Definitions of hyperuricemia vary; the 2020 ACR guideline uses 6.8 mg/dL or higher. In a long-term study of men, annual gout incidence was 0.1 percent with urate below 7.0 mg/dL and 4.9 percent at 9 mg/dL or above. For people on urate-lowering therapy, the 2020 ACR target is a urate below 6 mg/dL; the guideline does not set a lower target for tophaceous gout. A normal reading during a flare does not rule out gout, and a high reading alone does not diagnose it.</div>
+  <div style="margin:0;color:#0A2438;font-size:0.97rem;">Serum urate (uric acid) is usually reported in milligrams per deciliter (mg/dL). Normal ranges vary by laboratory; <a href="https://medlineplus.gov/ency/article/003476.htm">MedlinePlus</a> lists 3.0 to 7.1 mg/dL for women and 4.0 to 8.6 mg/dL for men. For gout, the number that matters most is the <a href="https://pubmed.ncbi.nlm.nih.gov/23322814/">saturation point of about 6.8 mg/dL</a>, above which urate crystals can form. Definitions of hyperuricemia vary; the 2020 ACR guideline uses 6.8 mg/dL or higher. In the <a href="https://pubmed.ncbi.nlm.nih.gov/3826098/">Normative Aging Study</a> of men, annual gout incidence was 0.1 percent with urate below 7.0 mg/dL and 4.9 percent at 9 mg/dL or above. For people on urate-lowering therapy, the <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/">2020 ACR</a> target is a urate below 6 mg/dL; the guideline does not set a lower target for tophaceous gout. A normal reading <a href="https://pubmed.ncbi.nlm.nih.gov/30685959/">during a flare</a> does not rule out gout, and a high reading alone does not diagnose it.</div>
   <div style="margin-top:0.75rem;padding-top:0.6rem;border-top:1px solid #E6F0F2;font-size:0.82rem;color:#456676;font-style:italic">Medically reviewed by Parth Bhavsar, MD. Updated September 8, 2026.</div>
 </section>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is a normal uric acid level, and what is considered high?","acceptedAnswer":{"@type":"Answer","text":"Serum urate (uric acid) is usually reported in milligrams per deciliter (mg/dL). Normal ranges vary by laboratory; MedlinePlus lists 3.0 to 7.1 mg/dL for women and 4.0 to 8.6 mg/dL for men. For gout, the number that matters most is the saturation point of about 6.8 mg/dL, above which urate crystals can form. Definitions of hyperuricemia vary; the 2020 ACR guideline uses 6.8 mg/dL or higher. In a long-term study of men, annual gout incidence was 0.1 percent with urate below 7.0 mg/dL and 4.9 percent at 9 mg/dL or above. For people on urate-lowering therapy, the 2020 ACR target is a urate below 6 mg/dL; the guideline does not set a lower target for tophaceous gout. A normal reading during a flare does not rule out gout, and a high reading alone does not diagnose it."}}]}</script>
 <!-- tdmd:citable-summary-end -->
  <figure class="tdmd-article-figure"><img src="/health-guides/uric-acid-levels-guide/images/hero-uric-acid-levels-guide.jpg" alt="Editorial medical illustration representing uric acid levels and blood testing, showing a blood tube, a gauge, and a kidney" width="1200" height="800" loading="eager"><figcaption>Editorial medical illustration representing uric acid levels and blood testing, showing a blood tube, a gauge, and a kidney</figcaption></figure>
  <div class="tdmd-content-grid"><article class="tdmd-article-content">
@@ -782,7 +785,12 @@ sup a:hover { text-decoration: underline; }
   <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Follow the ordering clinician's instructions. MedlinePlus advises not eating or drinking for 4 hours before the test unless told otherwise, and notes that many medicines can interfere with blood test results.<sup><a href="#ref-7">[7]</a></sup></p></div></div>
  </div>
  </section>
- <div class="tdmd-references" id="references"><h2>References</h2><ol><li id="ref-1">FitzGerald JD, Dalbeth N, Mikuls T, et al. 2020 American College of Rheumatology Guideline for the Management of Gout. <em>Arthritis Care &amp; Research.</em> 2020;72(6):744-760. doi:10.1002/acr.24180. PMID: 32391934. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/" target="_blank" rel="noopener">https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/</a></li><li id="ref-2">Chen-Xu M, Yokose C, Rai SK, Pillinger MH, Choi HK. Contemporary Prevalence of Gout and Hyperuricemia in the United States and Decadal Trends: NHANES 2007-2016. <em>Arthritis &amp; Rheumatology.</em> 2019;71(6):991-999. doi:10.1002/art.40807. PMID: 30618180. <a href="https://pubmed.ncbi.nlm.nih.gov/30618180/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/30618180/</a></li><li id="ref-3">Campion EW, Glynn RJ, DeLabry LO. Asymptomatic hyperuricemia. Risks and consequences in the Normative Aging Study. <em>The American Journal of Medicine.</em> 1987;82(3):421-426. doi:10.1016/0002-9343(87)90441-4. PMID: 3826098. <a href="https://pubmed.ncbi.nlm.nih.gov/3826098/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/3826098/</a></li><li id="ref-4">Neogi T, Jansen TL, Dalbeth N, et al. 2015 Gout Classification Criteria: an American College of Rheumatology/European League Against Rheumatism collaborative initiative. <em>Arthritis &amp; Rheumatology.</em> 2015;67(10):2557-2568. doi:10.1002/art.39254. PMID: 26352873. <a href="https://pubmed.ncbi.nlm.nih.gov/26352873/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/26352873/</a></li><li id="ref-5">Kuo CF, Grainge MJ, Zhang W, Doherty M. Global epidemiology of gout: prevalence, incidence and risk factors. <em>Nature Reviews Rheumatology.</em> 2015;11(11):649-662. doi:10.1038/nrrheum.2015.91. PMID: 26150127. <a href="https://pubmed.ncbi.nlm.nih.gov/26150127/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/26150127/</a></li><li id="ref-6">Choi HK, Soriano LC, Zhang Y, Rodríguez LA. Antihypertensive drugs and risk of incident gout among patients with hypertension: population based case-control study. <em>BMJ.</em> 2012;344:d8190. doi:10.1136/bmj.d8190. PMID: 22240117. <a href="https://pubmed.ncbi.nlm.nih.gov/22240117/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/22240117/</a></li><li id="ref-7">MedlinePlus Medical Encyclopedia. Uric acid - blood. Review date April 1, 2025. Accessed November 7, 2026. <a href="https://medlineplus.gov/ency/article/003476.htm" target="_blank" rel="noopener">https://medlineplus.gov/ency/article/003476.htm</a></li><li id="ref-8">MedlinePlus Medical Tests. Uric Acid Test. Last updated July 15, 2026. Accessed November 7, 2026. <a href="https://medlineplus.gov/lab-tests/uric-acid-test/" target="_blank" rel="noopener">https://medlineplus.gov/lab-tests/uric-acid-test/</a></li><li id="ref-9">Pascual E, Andrés M, Vela P. Gout treatment: should we aim for rapid crystal dissolution? <em>Annals of the Rheumatic Diseases.</em> 2013;72(5):635-637. doi:10.1136/annrheumdis-2012-202594. PMID: 23322814. <a href="https://pubmed.ncbi.nlm.nih.gov/23322814/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/23322814/</a></li><li id="ref-10">Lee JS, Kwon OC, Oh JS, et al. Clinical features and recurrent attack in gout patients according to serum urate levels during an acute attack. <em>The Korean Journal of Internal Medicine.</em> 35(1):240-248. Published online January 28, 2019. doi:10.3904/kjim.2018.205. PMID: 30685959. <a href="https://pubmed.ncbi.nlm.nih.gov/30685959/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/30685959/</a></li></ol></div>
+ <div class="tdmd-cite-box" id="cite">
+<h3>How to cite this guide</h3>
+<p>Bhavsar P. Uric Acid Levels: Normal, High, and Treatment Targets. TeleDirectMD Health Guides. Last reviewed September 8, 2026. https://teledirectmd.com/health-guides/uric-acid-levels-guide/</p>
+</div>
+
+<div class="tdmd-references" id="references"><h2>References</h2><ol><li id="ref-1">FitzGerald JD, Dalbeth N, Mikuls T, et al. 2020 American College of Rheumatology Guideline for the Management of Gout. <em>Arthritis Care &amp; Research.</em> 2020;72(6):744-760. doi:10.1002/acr.24180. PMID: 32391934. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/" target="_blank" rel="noopener">https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/</a></li><li id="ref-2">Chen-Xu M, Yokose C, Rai SK, Pillinger MH, Choi HK. Contemporary Prevalence of Gout and Hyperuricemia in the United States and Decadal Trends: NHANES 2007-2016. <em>Arthritis &amp; Rheumatology.</em> 2019;71(6):991-999. doi:10.1002/art.40807. PMID: 30618180. <a href="https://pubmed.ncbi.nlm.nih.gov/30618180/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/30618180/</a></li><li id="ref-3">Campion EW, Glynn RJ, DeLabry LO. Asymptomatic hyperuricemia. Risks and consequences in the Normative Aging Study. <em>The American Journal of Medicine.</em> 1987;82(3):421-426. doi:10.1016/0002-9343(87)90441-4. PMID: 3826098. <a href="https://pubmed.ncbi.nlm.nih.gov/3826098/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/3826098/</a></li><li id="ref-4">Neogi T, Jansen TL, Dalbeth N, et al. 2015 Gout Classification Criteria: an American College of Rheumatology/European League Against Rheumatism collaborative initiative. <em>Arthritis &amp; Rheumatology.</em> 2015;67(10):2557-2568. doi:10.1002/art.39254. PMID: 26352873. <a href="https://pubmed.ncbi.nlm.nih.gov/26352873/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/26352873/</a></li><li id="ref-5">Kuo CF, Grainge MJ, Zhang W, Doherty M. Global epidemiology of gout: prevalence, incidence and risk factors. <em>Nature Reviews Rheumatology.</em> 2015;11(11):649-662. doi:10.1038/nrrheum.2015.91. PMID: 26150127. <a href="https://pubmed.ncbi.nlm.nih.gov/26150127/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/26150127/</a></li><li id="ref-6">Choi HK, Soriano LC, Zhang Y, Rodríguez LA. Antihypertensive drugs and risk of incident gout among patients with hypertension: population based case-control study. <em>BMJ.</em> 2012;344:d8190. doi:10.1136/bmj.d8190. PMID: 22240117. <a href="https://pubmed.ncbi.nlm.nih.gov/22240117/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/22240117/</a></li><li id="ref-7">MedlinePlus Medical Encyclopedia. Uric acid - blood. Review date April 1, 2025. Accessed November 7, 2026. <a href="https://medlineplus.gov/ency/article/003476.htm" target="_blank" rel="noopener">https://medlineplus.gov/ency/article/003476.htm</a></li><li id="ref-8">MedlinePlus Medical Tests. Uric Acid Test. Last updated July 15, 2026. Accessed November 7, 2026. <a href="https://medlineplus.gov/lab-tests/uric-acid-test/" target="_blank" rel="noopener">https://medlineplus.gov/lab-tests/uric-acid-test/</a></li><li id="ref-9">Pascual E, Andrés M, Vela P. Gout treatment: should we aim for rapid crystal dissolution? <em>Annals of the Rheumatic Diseases.</em> 2013;72(5):635-637. doi:10.1136/annrheumdis-2012-202594. PMID: 23322814. <a href="https://pubmed.ncbi.nlm.nih.gov/23322814/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/23322814/</a></li><li id="ref-10">Lee JS, Kwon OC, Oh JS, et al. Clinical features and recurrent attack in gout patients according to serum urate levels during an acute attack. <em>The Korean Journal of Internal Medicine.</em> 35(1):240-248. Published online January 28, 2019. doi:10.3904/kjim.2018.205. PMID: 30685959. <a href="https://pubmed.ncbi.nlm.nih.gov/30685959/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/30685959/</a></li></ol></div>
  <div class="tdmd-author-bio"><div class="tdmd-author-avatar" aria-hidden="true">PB</div><div class="tdmd-author-info"><h3>About the Author</h3><p><strong>Parth Bhavsar, MD</strong> is a board-certified family medicine physician and founder of TeleDirectMD. His editorial work focuses on practical, evidence-based guidance for common acute and chronic conditions.</p><p>All content on this page reflects the cited evidence and was last reviewed September 8, 2026.</p></div></div>
  </article>
  <aside class="tdmd-sidebar" aria-label="Table of contents"><div class="tdmd-sidebar-card"><h4>IN THIS GUIDE</h4><ul class="tdmd-toc"><li><a href="#what-is-urate">What Is Uric Acid</a></li><li><a href="#how-measured">How It Is Measured</a></li><li><a href="#ranges">Reference Ranges and the 6.8 Threshold</a></li><li><a href="#hyperuricemia">What Counts as High</a></li><li><a href="#crystals">How High Urate Causes Gout</a></li><li><a href="#reading">Reading Your Number</a></li><li><a href="#targets">Treatment Targets</a></li><li><a href="#testing">When and How Often to Test</a></li><li><a href="#what-affects">What Changes the Number</a></li><li><a href="#low-urate">When Urate Is Too Low</a></li><li><a href="#faq">FAQ</a></li><li><a href="#references">References</a></li></ul></div><div class="tdmd-sidebar-card"><h4>ABOUT THIS GUIDE</h4><p style="font-size:0.88rem;color:var(--tdmd-muted);line-height:1.6;">Written and medically reviewed by <strong>Parth Bhavsar, MD</strong>. This guide reflects the cited peer-reviewed evidence and current gout guidelines. Last reviewed September 8, 2026.</p></div></aside>
@@ -798,7 +806,7 @@ sup a:hover { text-decoration: underline; }
    "name": "What uric acid level causes gout?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "There is no single trigger level. Gout results from chronic elevation of urate above the saturation point of about 6.8 mg/dL, and risk rises with the level."
+    "text": "There is no single trigger level. Gout results from chronic elevation of urate above the saturation point for crystal formation, about 6.8 mg/dL, and risk rises with the level: in one cohort of men, annual gout incidence went from 0.1 percent below 7.0 mg/dL to 4.9 percent at 9 or above."
    }
   },
   {
@@ -806,7 +814,7 @@ sup a:hover { text-decoration: underline; }
    "name": "Is 7.0 a high uric acid level?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "It depends on the definition. A level of 7.0 mg/dL is above the saturation point and meets the ACR cutoff for hyperuricemia, yet it can fall inside a lab normal range; by itself it is a risk factor, not a disease."
+    "text": "It depends on the definition. A level of 7.0 mg/dL is above the urate saturation point of about 6.8 mg/dL and meets the 2020 ACR guideline's cutoff of 6.8 mg/dL or higher for hyperuricemia, yet it can fall inside a lab's normal range. By itself it is a risk factor, not a disease; many people with high uric acid never have health problems from it."
    }
   },
   {
@@ -814,7 +822,7 @@ sup a:hover { text-decoration: underline; }
    "name": "Is 9.0 uric acid dangerous?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "A urate of 9.0 mg/dL or higher carries a materially higher gout risk, but it does not by itself mean gout; in observational studies only 20 percent of people above 9 mg/dL developed gout within 5 years."
+    "text": "A urate of 9.0 mg/dL or higher carries a materially higher gout risk: 4.9 percent per year in one cohort of men, reaching 22 percent over five years. It still does not by itself mean gout; the 2020 ACR guideline notes that among people with asymptomatic hyperuricemia above 9 mg/dL, only 20 percent developed gout within 5 years."
    }
   },
   {
@@ -822,7 +830,7 @@ sup a:hover { text-decoration: underline; }
    "name": "Can uric acid be normal during a gout attack?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "Yes. In one hospital cohort, 39.8 percent of people with gout had a normal serum urate during an acute attack, so a normal level taken then does not rule out gout."
+    "text": "Yes. In one hospital cohort, 39.8 percent of people with gout had a normal serum urate during an acute attack, so a normal level taken then does not rule out gout. For diagnosis, the level is ideally rechecked more than 4 weeks after the episode starts."
    }
   },
   {
@@ -830,7 +838,7 @@ sup a:hover { text-decoration: underline; }
    "name": "What level requires urate-lowering medication?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "Medication is guided by gout burden, not a number alone. The ACR strongly recommends therapy for tophi, radiographic damage, or two or more flares a year."
+    "text": "Medication is guided by gout burden, not a number alone. The ACR strongly recommends urate-lowering therapy for tophi, radiographic damage, or two or more flares a year, with a serum urate target below 6 mg/dL."
    }
   },
   {
@@ -838,7 +846,7 @@ sup a:hover { text-decoration: underline; }
    "name": "How fast can uric acid levels drop?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "Urate-lowering medicine is started at a low dose and titrated over weeks to months, with urate checked after each dose change; diet has a smaller effect."
+    "text": "The 2020 ACR guideline advises starting urate-lowering medicine at a low dose and titrating it up over weeks to months, not years, with the urate checked after each dose change. Diet changes have a smaller effect: the guideline notes that the impact of diet or individual foods on serum urate was small."
    }
   },
   {
@@ -846,7 +854,7 @@ sup a:hover { text-decoration: underline; }
    "name": "Does drinking water lower uric acid?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "Dehydration is one listed cause of a higher uric acid level. The 2020 ACR guideline mentions hydration as counseling for people taking uricosuric medicines, not as a urate-lowering treatment."
+    "text": "Dehydration is one listed cause of a higher-than-normal uric acid level. In the 2020 ACR guideline, hydration comes up as counseling for people taking uricosuric medicines, not as a urate-lowering treatment in its own right."
    }
   },
   {
@@ -854,7 +862,7 @@ sup a:hover { text-decoration: underline; }
    "name": "What is a dangerous uric acid level?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "There is no single dangerous number. Gout risk climbs as urate rises, and high uric acid can also cause kidney stones or kidney failure, though not everyone with high levels has these problems."
+    "text": "There is no single dangerous number. Gout risk climbs as urate rises, and high uric acid levels can also cause kidney stones or kidney failure, though not everyone with high levels has these problems. Rapid destruction of cancer cells during cancer treatment can raise uric acid quickly, which is one reason the test is used in people having chemotherapy."
    }
   },
   {
@@ -862,7 +870,7 @@ sup a:hover { text-decoration: underline; }
    "name": "Does losing weight lower uric acid?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "Yes. In a small study cited by the 2020 ACR guideline, a 5 kg weight loss lowered urate by 1.1 mg/dL on average, and the guideline conditionally recommends weight loss for people with gout who are overweight."
+    "text": "Yes. In a small study of 11 people with obesity cited by the 2020 ACR guideline, a mean weight loss of 5 kg lowered serum urate by a mean of 1.1 mg/dL, and the guideline conditionally recommends a weight loss program for people with gout who are overweight or obese."
    }
   },
   {
@@ -878,7 +886,7 @@ sup a:hover { text-decoration: underline; }
    "name": "Can high uric acid cause kidney stones?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "Yes. High uric acid levels can cause kidney stones, though not everyone with high levels develops them."
+    "text": "Yes. High uric acid levels can cause kidney stones, though not everyone with high levels develops them. For people with a history of kidney stones, allopurinol and febuxostat lower the amount of uric acid passed in the urine over 24 hours."
    }
   },
   {
@@ -886,7 +894,7 @@ sup a:hover { text-decoration: underline; }
    "name": "Should I fast before a uric acid test?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "Follow the ordering clinician's instructions. MedlinePlus advises not eating or drinking for 4 hours before the test unless told otherwise."
+    "text": "Follow the ordering clinician's instructions. MedlinePlus advises not eating or drinking for 4 hours before the test unless told otherwise, and notes that many medicines can interfere with blood test results."
    }
   }
  ]
@@ -947,7 +955,7 @@ sup a:hover { text-decoration: underline; }
 
  <!-- Editorial Disclaimer -->
  <div style="margin-top:2.5rem;padding:1.25rem 1.5rem;background:rgba(255,255,255,0.04);border-left:3px solid rgba(255,255,255,0.25);border-radius:4px;font-size:0.85rem;line-height:1.65;opacity:0.85;">
- <strong style="color:#fff;">Editorial disclaimer:</strong> This health guides library is published for educational purposes only. It does not constitute medical advice and is not a substitute for evaluation by a licensed clinician. Always consult a qualified healthcare provider about any medical concern. If you are having a medical emergency, call 911. All articles are reviewed by Parth Bhavsar, MD, and cite peer-reviewed sources where possible.
+ <strong style="color:#fff;">Editorial disclaimer:</strong> This health guides library is published for educational purposes only. It does not constitute medical advice and is not a substitute for evaluation by a licensed clinician. Always consult a qualified healthcare provider about any medical concern. If you are having a medical emergency, call 911. All articles are reviewed by Parth Bhavsar, MD, and cite clinical guidelines, government health agencies and published research.
  </div>
 
  <!-- Footer Bottom -->

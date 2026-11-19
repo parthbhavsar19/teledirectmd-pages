@@ -27,8 +27,81 @@
   ]},
   {"@type":"Organization","@id":"https://teledirectmd.com/#organization","name":"TeleDirectMD","url":"https://teledirectmd.com","logo":"https://teledirectmd.com/logo.webp"},
   {"@type":"Person","@id":"https://teledirectmd.com/health-guides/about-the-editor/#person","name":"Parth Bhavsar, MD","jobTitle":"Physician","url":"https://teledirectmd.com/health-guides/about-the-editor/","affiliation":{"@id":"https://teledirectmd.com/#organization"},"sameAs":["https://npiregistry.cms.hhs.gov/provider-view/1104323203"]},
-  {"@type":"WebPage","@id":"https://teledirectmd.com/health-guides/affordability/hospital-financial-assistance/#webpage","url":"https://teledirectmd.com/health-guides/affordability/hospital-financial-assistance/","name":"Hospital Financial Assistance and Charity Care","description":"Charity care and hospital financial assistance: who qualifies, what hospitals must offer, and how to apply.","inLanguage":"en-US","isPartOf":{"@id":"https://teledirectmd.com/#website"},"breadcrumb":{"@id":"https://teledirectmd.com/health-guides/affordability/hospital-financial-assistance/#breadcrumb"},"datePublished":"2026-10-03","dateModified":"2026-10-11","lastReviewed":"2026-10-11","reviewedBy":{"@id":"https://teledirectmd.com/health-guides/about-the-editor/#person"},"author":{"@id":"https://teledirectmd.com/#organization"},"publisher":{"@id":"https://teledirectmd.com/#organization"},"speakable":{"@type":"SpeakableSpecification","cssSelector":[".tdmd-article-title",".tdmd-faq-question"]}}
- ]
+  {"@type":"WebPage","@id":"https://teledirectmd.com/health-guides/affordability/hospital-financial-assistance/#webpage","url":"https://teledirectmd.com/health-guides/affordability/hospital-financial-assistance/","name":"Hospital Financial Assistance and Charity Care","description":"Charity care and hospital financial assistance: who qualifies, what hospitals must offer, and how to apply.","inLanguage":"en-US","isPartOf":{"@id":"https://teledirectmd.com/#website"},"breadcrumb":{"@id":"https://teledirectmd.com/health-guides/affordability/hospital-financial-assistance/#breadcrumb"},"datePublished":"2026-10-03","dateModified":"2026-10-11","lastReviewed":"2026-10-11","reviewedBy":{"@id":"https://teledirectmd.com/health-guides/about-the-editor/#person"},"author":{"@id":"https://teledirectmd.com/#organization"},"publisher":{"@id":"https://teledirectmd.com/#organization"},"speakable":{"@type":"SpeakableSpecification","cssSelector":[".tdmd-article-title",".tdmd-faq-question"]}},
+  {
+    "@type": "FAQPage",
+    "@id": "https://teledirectmd.com/health-guides/affordability/hospital-financial-assistance/#faq-list",
+    "isPartOf": {
+      "@id": "https://teledirectmd.com/health-guides/affordability/hospital-financial-assistance/#webpage"
+    },
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is hospital charity care?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Free or discounted care for people who cannot afford to pay (CFPB). Federal law requires nonprofit hospitals to have a written financial assistance policy (IRS)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Who qualifies for hospital financial assistance?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Each hospital sets its own criteria, and many base them on household income as a share of the federal poverty level, so eligibility varies across hospitals (KFF). State rules vary too (CFPB). The hospital's policy must state the criteria for each level of help (IRS)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I get financial assistance if I have insurance?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It can. Depending on their eligibility criteria, hospitals may provide financial assistance to insured as well as uninsured patients (KFF). Whether it helps with a deductible, coinsurance, or copays depends on the hospital's policy."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long do I have to apply for financial assistance?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "At a nonprofit hospital, at least 240 days from the first post-discharge billing statement, and the hospital generally cannot take extraordinary collection actions for at least 120 days after that statement (IRS Section 501(r)(6)). The period can run longer than 240 days because the hospital must give written notice at least 30 days before such an action (IRS)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I find my hospital's financial assistance policy?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ask the billing department, or search the hospital name plus \"financial assistance\" (CMS). Nonprofit hospitals must post the policy, the application form, and a plain language summary on a website, and the policy must state the eligibility criteria and how to apply (IRS)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What documents do I need to apply?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Typically proof of income, such as tax returns or pay stubs, and information about your household size. The hospital's policy or application form must describe the information or documents it may require (IRS)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do for-profit hospitals offer financial assistance?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Some do. The federal rules described here apply to tax-exempt nonprofit hospitals, but research summarized by KFF found that for-profit hospitals devote a similar or larger share of operating expenses to charity care than nonprofit hospitals, and some states apply minimum charity care standards to for-profit hospitals too (KFF). Check the hospital's policy regardless of its tax status."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does applying for financial assistance hurt my credit?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Applying can help protect you. At a nonprofit hospital, a complete application submitted during the application period requires the hospital to suspend extraordinary collection actions, such as reporting to credit bureaus, while it decides. If you are found eligible, the hospital must take reasonable steps to reverse those actions, including removing adverse information it reported from your credit report (IRS)."
+        }
+      }
+    ]
+  }
+]
 }
 </script>
 <style>
@@ -473,6 +546,10 @@ sup a:hover { text-decoration: underline; }
 .tdmd-article-figure { margin: 1.5rem 0; }
 .tdmd-article-figure img { width: 100%; height: auto; border-radius: var(--tdmd-radius); display: block; }
 .tdmd-article-figure figcaption { font-size: 0.85rem; color: var(--tdmd-muted); text-align: center; margin-top: 0.5rem; line-height: 1.5; }
+
+.tdmd-cite-box { background: var(--tdmd-bg-soft, #f3fafb); border: 1px solid var(--tdmd-border); border-radius: 10px; padding: 1rem 1.25rem; margin: 1.5rem 0; }
+.tdmd-cite-box h3 { margin: 0 0 0.5rem; font-size: 1.05rem; color: var(--tdmd-navy, #003e52); }
+.tdmd-cite-box p { margin: 0 0 0.5rem; font-size: 0.95rem; overflow-wrap: anywhere; }
 </style>
 <link rel="stylesheet" href="/health-guides/affordability/affordability.css">
 <link rel="stylesheet" href="/health-guides/dark-mode.css">
@@ -526,7 +603,6 @@ sup a:hover { text-decoration: underline; }
   <div style="margin:0;color:#0A2438;font-size:0.97rem;">Hospital financial assistance, often called charity care, is free or discounted care for people who cannot afford to pay. If you are facing a hospital bill you cannot cover, this is one of the first things to check, because federal law requires nonprofit hospitals to have a written financial assistance policy. Eligibility varies by hospital, so it is worth checking even if you have insurance.</div>
   <div style="margin-top:0.75rem;padding-top:0.6rem;border-top:1px solid #E6F0F2;font-size:0.82rem;color:#456676;font-style:italic">Medically reviewed by Parth Bhavsar, MD. Updated October 11, 2026.</div>
 </section>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","@id":"https://teledirectmd.com/health-guides/affordability/hospital-financial-assistance/#faq","isPartOf":{"@id":"https://teledirectmd.com/health-guides/affordability/hospital-financial-assistance/#webpage"},"datePublished":"2026-10-03","dateModified":"2026-10-11","author":{"@type":"Physician","name":"Parth Bhavsar, MD","sameAs":"https://npiregistry.cms.hhs.gov/provider-view/1104323203"},"mainEntity":[{"@type":"Question","name":"What is hospital financial assistance and charity care, and how do you apply?","acceptedAnswer":{"@type":"Answer","text":"Hospital financial assistance, often called charity care, is free or discounted care for people who cannot afford to pay. If you are facing a hospital bill you cannot cover, this is one of the first things to check, because federal law requires nonprofit hospitals to have a written financial assistance policy. Eligibility varies by hospital, so it is worth checking even if you have insurance."}}]}</script>
 <!-- tdmd:citable-summary-end -->
 </div>
 
@@ -597,6 +673,11 @@ sup a:hover { text-decoration: underline; }
 <details class="aff-faq"><summary>Does applying for financial assistance hurt my credit?</summary><div><p>Applying can help protect you. At a nonprofit hospital, a complete application submitted during the application period requires the hospital to suspend extraordinary collection actions, such as reporting to credit bureaus, while it decides. If you are found eligible, the hospital must take reasonable steps to reverse those actions, including removing adverse information it reported from your credit report (IRS<sup><a href="#ref-3">[3]</a></sup>).</p></div></details>
 <p class="aff-note">This is patient education, not financial or legal advice. Eligibility rules vary by hospital and state. Reviewed October 11, 2026.</p>
 <section class="aff-next" aria-labelledby="keep-reading"><h2 id="keep-reading">Keep reading</h2><div class="aff-next-grid"><a href="/health-guides/affordability/what-to-do-when-you-cannot-pay/"><img src="/health-guides/affordability/what-to-do-when-you-cannot-pay/images/thumb-what-to-do-when-you-cannot-pay.webp" alt="" loading="lazy" width="640" height="427"><span>What to Do When You Cannot Pay<small>A step-by-step order for a bill</small></span></a><a href="/health-guides/affordability/does-medical-debt-affect-credit/"><img src="/health-guides/affordability/does-medical-debt-affect-credit/images/thumb-does-medical-debt-affect-credit.webp" alt="" loading="lazy" width="640" height="427"><span>Does Medical Debt Affect Your Credit?<small>What shows up, and what does not</small></span></a><a href="/health-guides/affordability/what-care-costs-without-insurance/"><img src="/health-guides/affordability/what-care-costs-without-insurance/images/thumb-what-care-costs-without-insurance.webp" alt="" loading="lazy" width="640" height="427"><span>What Care Costs Without Insurance<small>Cash prices for common visits</small></span></a></div></section>
+
+<div class="tdmd-cite-box" id="cite">
+<h3>How to cite this guide</h3>
+<p>Bhavsar P. Hospital Financial Assistance and Charity Care. TeleDirectMD Health Guides. Last reviewed October 11, 2026. https://teledirectmd.com/health-guides/affordability/hospital-financial-assistance/</p>
+</div>
 
 <div class="tdmd-references" id="references"><h2>References</h2><ol><li id="ref-1"><a href="https://www.irs.gov/charities-non-profits/financial-assistance-policy-and-emergency-medical-care-policy-section-501r4" target="_blank" rel="noopener noreferrer">IRS, Financial assistance policy and emergency medical care policy, Section 501(r)(4)</a> <span class="aff-ref-host">irs.gov</span></li>
 <li id="ref-2"><a href="https://www.consumerfinance.gov/data-research/research-reports/understanding-required-financial-assistance-in-medical-care/" target="_blank" rel="noopener noreferrer">CFPB, Understanding Required Financial Assistance in Medical Care (Singer, Wilson, Carare; July 28, 2022)</a> <span class="aff-ref-host">consumerfinance.gov</span></li>
@@ -679,7 +760,7 @@ sup a:hover { text-decoration: underline; }
 
  <!-- Editorial Disclaimer -->
  <div style="margin-top:2.5rem;padding:1.25rem 1.5rem;background:rgba(255,255,255,0.04);border-left:3px solid rgba(255,255,255,0.25);border-radius:4px;font-size:0.85rem;line-height:1.65;opacity:0.85;">
- <strong style="color:#fff;">Editorial disclaimer:</strong> This health guides library is published for educational purposes only. It does not constitute medical advice and is not a substitute for evaluation by a licensed clinician. Always consult a qualified healthcare provider about any medical concern. If you are having a medical emergency, call 911. All articles are reviewed by Parth Bhavsar, MD, and cite peer-reviewed sources where possible.
+ <strong style="color:#fff;">Editorial disclaimer:</strong> This health guides library is published for educational purposes only. It does not constitute medical advice and is not a substitute for evaluation by a licensed clinician. Always consult a qualified healthcare provider about any medical concern. If you are having a medical emergency, call 911. All articles are reviewed by Parth Bhavsar, MD, and cite clinical guidelines, government health agencies and published research.
  </div>
 
  <!-- Footer Bottom -->

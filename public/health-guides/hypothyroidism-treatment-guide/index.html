@@ -790,6 +790,10 @@ sup a:hover { text-decoration: underline; }
 .tdmd-article-figure { margin: 1.5rem 0; }
 .tdmd-article-figure img { width: 100%; height: auto; border-radius: var(--tdmd-radius); display: block; }
 .tdmd-article-figure figcaption { font-size: 0.85rem; color: var(--tdmd-muted); text-align: center; margin-top: 0.5rem; line-height: 1.5; }
+
+.tdmd-cite-box { background: var(--tdmd-bg-soft, #f3fafb); border: 1px solid var(--tdmd-border); border-radius: 10px; padding: 1rem 1.25rem; margin: 1.5rem 0; }
+.tdmd-cite-box h3 { margin: 0 0 0.5rem; font-size: 1.05rem; color: var(--tdmd-navy, #003e52); }
+.tdmd-cite-box p { margin: 0 0 0.5rem; font-size: 0.95rem; overflow-wrap: anywhere; }
 </style>
  <link rel="stylesheet" href="../dark-mode.css">
  </head>
@@ -860,7 +864,6 @@ sup a:hover { text-decoration: underline; }
   <div style="margin:0;color:#0A2438;font-size:0.97rem;">Clinical hypothyroidism affects about 1 in 300 people in the US, and Hashimoto’s disease is the most common cause (<a href="https://www.aafp.org/pubs/afp/issues/2021/0515/p605.html">Wilson, Am Fam Physician 2021</a>). Levothyroxine remains the standard of care (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4267409/">ATA 2014 guidelines</a>). The Synthroid label gives a full replacement dose of 1.6 mcg/kg/day, with a lower starting dose for older adults and people with heart disease; it advises checking TSH 6 to 8 weeks after any dose change and every 6 to 12 months once the dose is stable (<a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e11ad30-1041-4520-10b0-8f9d30d30fcc">Synthroid label, DailyMed</a>). Take it on an empty stomach, 30 to 60 minutes before eating, and 4 hours apart from drugs that reduce absorption, such as calcium and iron. Women who become pregnant usually need about 30% more, often taken as 9 doses per week, with TSH checked every 4 weeks (<a href="https://www.aafp.org/pubs/afp/issues/2021/0515/p605.html">Wilson, Am Fam Physician 2021</a>). Stable, uncomplicated cases are often suited to telehealth follow-up; red-flag symptoms need in-person or emergency care.</div>
   <div style="margin-top:0.75rem;padding-top:0.6rem;border-top:1px solid #E6F0F2;font-size:0.82rem;color:#456676;font-style:italic">Medically reviewed by Parth Bhavsar, MD. Updated July 14, 2026.</div>
 </section>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","@id":"https://teledirectmd.com/health-guides/hypothyroidism-treatment-guide/#faq","isPartOf":{"@id":"https://teledirectmd.com/health-guides/hypothyroidism-treatment-guide/#webpage"},"datePublished":"2026-02-01","dateModified":"2026-07-14","author":{"@type":"Physician","name":"Parth Bhavsar, MD","sameAs":"https://npiregistry.cms.hhs.gov/provider-view/1104323203"},"mainEntity":[{"@type":"Question","name":"How is hypothyroidism treated with levothyroxine, and how should TSH be monitored?","acceptedAnswer":{"@type":"Answer","text":"Clinical hypothyroidism affects about 1 in 300 people in the US, and Hashimoto’s disease is the most common cause (Wilson, Am Fam Physician 2021). Levothyroxine remains the standard of care (ATA 2014 guidelines). The Synthroid label gives a full replacement dose of 1.6 mcg/kg/day, with a lower starting dose for older adults and people with heart disease; it advises checking TSH 6 to 8 weeks after any dose change and every 6 to 12 months once the dose is stable (Synthroid label, DailyMed). Take it on an empty stomach, 30 to 60 minutes before eating, and 4 hours apart from drugs that reduce absorption, such as calcium and iron. Women who become pregnant usually need about 30% more, often taken as 9 doses per week, with TSH checked every 4 weeks (Wilson, Am Fam Physician 2021). Stable, uncomplicated cases are often suited to telehealth follow-up; red-flag symptoms need in-person or emergency care."}}]}</script>
 <!-- tdmd:citable-summary-end -->
 </div>
 
@@ -985,7 +988,7 @@ sup a:hover { text-decoration: underline; }
 
  <p>TPO antibody testing points to autoimmune thyroid disease as the cause and helps predict progression. Patients with elevated TPO antibody titers are at increased risk of progression to clinical hypothyroidism.<sup><a href="#ref-8">[8]</a></sup></p>
 
- <!-- Section 5: Treatment — Levothyroxine -->
+ <!-- Section 5: Treatment, Levothyroxine -->
  <h2 id="levothyroxine">Levothyroxine: First-Line Treatment</h2>
 
  <p>Levothyroxine (brand names: Synthroid, Levoxyl, Tirosint, Unithroid) is the standard treatment for hypothyroidism. The 2014 ATA guidelines concluded that levothyroxine should remain the standard of care.<sup><a href="#ref-1">[1]</a></sup> It is a synthetic form of T4, the main hormone your thyroid makes, and the body's tissues convert it into the active T3 form.<sup><a href="#ref-3">[3]</a></sup></p>
@@ -1087,7 +1090,7 @@ sup a:hover { text-decoration: underline; }
  <p>A single mildly high TSH is not a diagnosis. AAFP advises that this finding should prompt a TPO antibody test and a repeat TSH in 6 to 12 months.<sup><a href="#ref-8">[8]</a></sup> Unnecessary treatment is a real concern: a 2019 review notes accumulating evidence that many people whose diagnosis was never well documented stay on levothyroxine longer than necessary.<sup><a href="#ref-3">[3]</a></sup></p>
  </div>
 
- <!-- Section 8: Alternatives — T4/T3, NDT -->
+ <!-- Section 8: Alternatives, T4/T3, NDT -->
  <h2 id="alternatives">Alternative Thyroid Therapies: T4/T3 Combination and Desiccated Thyroid</h2>
 
  <div style="background:#FFF3CD;border:2px solid #FFC107;border-radius:12px;padding:1rem 1.25rem;margin:1rem 0;">
@@ -1293,7 +1296,12 @@ sup a:hover { text-decoration: underline; }
  </div>
 
  <!-- Section 13: References -->
- <div class="tdmd-references" id="references">
+ <div class="tdmd-cite-box" id="cite">
+<h3>How to cite this guide</h3>
+<p>Bhavsar P. Hypothyroidism (Underactive Thyroid) Treatment Guide. TeleDirectMD Health Guides. Last reviewed February 2026. https://teledirectmd.com/health-guides/hypothyroidism-treatment-guide/</p>
+</div>
+
+<div class="tdmd-references" id="references">
  <h2>References</h2>
  <ol>
  <li id="ref-1">Jonklaas J, Bianco AC, Bauer AJ, et al. <em>Guidelines for the Treatment of Hypothyroidism: Prepared by the American Thyroid Association Task Force on Thyroid Hormone Replacement.</em> Thyroid. 2014;24(12):1670–1751. Practice guideline. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4267409/" target="_blank" rel="noopener noreferrer">https://pmc.ncbi.nlm.nih.gov/articles/PMC4267409/</a></li>
@@ -1408,7 +1416,7 @@ sup a:hover { text-decoration: underline; }
 
  <!-- Editorial Disclaimer -->
  <div style="margin-top:2.5rem;padding:1.25rem 1.5rem;background:rgba(255,255,255,0.04);border-left:3px solid rgba(255,255,255,0.25);border-radius:4px;font-size:0.85rem;line-height:1.65;opacity:0.85;">
- <strong style="color:#fff;">Editorial disclaimer:</strong> This health guides library is published for educational purposes only. It does not constitute medical advice and is not a substitute for evaluation by a licensed clinician. Always consult a qualified healthcare provider about any medical concern. If you are having a medical emergency, call 911. All articles are reviewed by Parth Bhavsar, MD, and cite peer-reviewed sources where possible.
+ <strong style="color:#fff;">Editorial disclaimer:</strong> This health guides library is published for educational purposes only. It does not constitute medical advice and is not a substitute for evaluation by a licensed clinician. Always consult a qualified healthcare provider about any medical concern. If you are having a medical emergency, call 911. All articles are reviewed by Parth Bhavsar, MD, and cite clinical guidelines, government health agencies and published research.
  </div>
 
  <!-- Footer Bottom -->
