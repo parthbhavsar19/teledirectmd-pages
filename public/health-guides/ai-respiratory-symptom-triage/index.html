@@ -593,6 +593,10 @@ sup a:hover { text-decoration: underline; }
 @media print {.tdmd-nav,.tdmd-footer,.tdmd-sidebar { display: none; }.tdmd-content-grid { display: block; }
  body { font-size: 11pt; }
 }
+
+.tdmd-cite-box { background: var(--tdmd-bg-soft, #f3fafb); border: 1px solid var(--tdmd-border); border-radius: 10px; padding: 1rem 1.25rem; margin: 1.5rem 0; }
+.tdmd-cite-box h3 { margin: 0 0 0.5rem; font-size: 1.05rem; color: var(--tdmd-navy, #003e52); }
+.tdmd-cite-box p { margin: 0 0 0.5rem; font-size: 0.95rem; overflow-wrap: anywhere; }
 </style>
  <link rel="stylesheet" href="../dark-mode.css">
  
@@ -699,7 +703,7 @@ sup a:hover { text-decoration: underline; }
  </div>
  <div class="tdmd-article-meta-item">
  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
- Published: March 30, 2026
+ Published: March 30, 2026 <span style="color:#006b73;font-weight:600;"> &middot; Last reviewed: March 30, 2026</span>
  </div>
  <div class="tdmd-article-meta-item">
  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
@@ -872,7 +876,12 @@ sup a:hover { text-decoration: underline; }
  <p>The difference between "AI says wait" and "your doctor says go to the ER" can be life-saving. Telehealth with a real physician gives you that judgment, delivered through a screen, but grounded in clinical training. That's a world apart from typing symptoms into a chatbot and hoping the algorithm gets it right.</p>
 
  <!-- References -->
- <div class="tdmd-references" id="references">
+ <div class="tdmd-cite-box" id="cite">
+<h3>How to cite this guide</h3>
+<p>Bhavsar P. Can AI Safely Triage Respiratory Symptoms? What the Data Shows. TeleDirectMD Health Guides. Last reviewed March 30, 2026. https://teledirectmd.com/health-guides/ai-respiratory-symptom-triage/</p>
+</div>
+
+<div class="tdmd-references" id="references">
  <h2>References</h2>
  <ol>
  <li id="ref-1">Ramaswamy A, Tyagi A, Hugo H, et al. "ChatGPT Health performance in a structured test of triage recommendations." <em>Nature Medicine</em>. 2026;32(5):1671-1675. doi:10.1038/s41591-026-04297-7. <a href="https://pubmed.ncbi.nlm.nih.gov/41731097/" target="_blank" rel="noopener">pubmed.ncbi.nlm.nih.gov</a></li>
