@@ -126,22 +126,106 @@
  "code": { "@type": "MedicalCode", "code": "A54", "codingSystem": "ICD-10" }
  },
  {
- "@type": "FAQPage",
- "@id": "https://teledirectmd.com/health-guides/doxy-pep-guide#faq",
- "mainEntity": [
-  { "@type": "Question", "name": "What is doxy PEP?", "acceptedAnswer": { "@type": "Answer", "text": "Doxy PEP (doxycycline post-exposure prophylaxis) is taking a single 200 mg dose of the antibiotic doxycycline within 72 hours after condomless sex to lower the chance of getting syphilis, chlamydia, and gonorrhea. It is an as-needed strategy, not a daily pill, and it does not prevent HIV." } },
-  { "@type": "Question", "name": "How well does doxy PEP work?", "acceptedAnswer": { "@type": "Answer", "text": "Across three large randomized trials, 200 mg of doxycycline taken within 72 hours after sex reduced syphilis and chlamydia by more than 70 percent and gonorrhea by about 50 percent. In the DoxyPEP trial it cut chlamydia by 88 percent and syphilis by 87 percent in people taking HIV PrEP." } },
-  { "@type": "Question", "name": "Who is doxy PEP recommended for?", "acceptedAnswer": { "@type": "Answer", "text": "The CDC recommends providers discuss doxy PEP with gay, bisexual, and other men who have sex with men and transgender women who have had at least one bacterial STI (syphilis, chlamydia, or gonorrhea) in the past 12 months." } },
-  { "@type": "Question", "name": "Is doxy PEP recommended for women?", "acceptedAnswer": { "@type": "Answer", "text": "Not at this time. CDC's 2024 guidelines make no recommendation for cisgender women because the evidence is insufficient to weigh benefits and harms. The one large trial in cisgender women found no significant reduction in STIs, and the investigators point to low doxycycline use as a primary explanation. To date, doxy PEP has proven effective only in men who have sex with men and transgender women." } },
-  { "@type": "Question", "name": "Does doxy PEP prevent HIV?", "acceptedAnswer": { "@type": "Answer", "text": "No. Doxy PEP only targets bacterial STIs (syphilis, chlamydia, and gonorrhea). It does not prevent HIV or other viral infections. People using doxy PEP should also be offered HIV PrEP if they are at risk for HIV." } },
-  { "@type": "Question", "name": "How soon after sex do I need to take it?", "acceptedAnswer": { "@type": "Answer", "text": "Take 200 mg of doxycycline as soon as possible after sex and no later than 72 hours. In the trials, participants were advised to take it ideally within 24 hours. Do not take more than 200 mg in any 24-hour period." } },
-  { "@type": "Question", "name": "What are the side effects of doxy PEP?", "acceptedAnswer": { "@type": "Answer", "text": "The most common side effects are nausea, upset stomach, esophageal irritation, and increased sensitivity to the sun. Taking the dose with food and water, staying upright for an hour, and using sunscreen reduce these. Most side effects resolve after stopping." } },
-  { "@type": "Question", "name": "Does doxy PEP cause antibiotic resistance?", "acceptedAnswer": { "@type": "Answer", "text": "It is a real concern. In 12-month DoxyPEP follow-up data reported by CDC, tetracycline-resistant Staphylococcus aureus in the nose rose from 5 percent to 13 percent in the doxy PEP group. In the trial's original report, tetracycline-resistant gonorrhea was found in 5 of 13 cultured isolates in the doxycycline groups versus 2 of 16 with standard care, though few cultures were available. This is why CDC focuses doxy PEP on the specific groups in which it has proven effective rather than offering it broadly." } },
-  { "@type": "Question", "name": "Can I take doxy PEP every day?", "acceptedAnswer": { "@type": "Answer", "text": "Doxy PEP is event-driven: it is taken after sex that carries risk, not on a fixed daily schedule, and never more than 200 mg per 24 hours. The DoxyPEP trial allowed up to one dose a day for people having sex on consecutive days." } },
-  { "@type": "Question", "name": "Do I still need condoms and HIV PrEP?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Doxy PEP does not replace condoms, which also prevent HIV and other STIs, and it does not replace HIV PrEP for people at risk of HIV. It is one added layer of protection, used alongside regular STI and HIV testing every 3 to 6 months." } },
-  { "@type": "Question", "name": "How do I get doxy PEP?", "acceptedAnswer": { "@type": "Answer", "text": "Doxy PEP is a prescription medication. A licensed clinician can evaluate whether it is appropriate for you, prescribe doxycycline, and set up the recommended STI and HIV testing every 3 to 6 months." } },
-  { "@type": "Question", "name": "What if I already have symptoms of an STI?", "acceptedAnswer": { "@type": "Answer", "text": "Doxy PEP is prevention, not treatment. If you have discharge, sores, burning with urination, or a rash, you may already have an infection and need testing and treatment, not just a preventive dose. See a clinician." } }
- ]
+  "@type": "FAQPage",
+  "@id": "https://teledirectmd.com/health-guides/doxy-pep-guide#faq",
+  "mainEntity": [
+   {
+    "@type": "Question",
+    "name": "What is doxy PEP?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Doxy PEP (doxycycline post-exposure prophylaxis) is taking a single 200 mg dose of the antibiotic doxycycline within 72 hours after condomless sex to lower the chance of getting syphilis, chlamydia, and gonorrhea. It is an as-needed strategy, not a daily pill, and it does not prevent HIV."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "How well does doxy PEP work?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Across three large randomized trials, 200 mg of doxycycline taken within 72 hours after sex reduced syphilis and chlamydia by more than 70 percent and gonorrhea by about 50 percent. In the DoxyPEP trial it cut chlamydia by 88 percent and syphilis by 87 percent in people taking HIV PrEP."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Who is doxy PEP recommended for?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "The CDC recommends providers discuss doxy PEP with gay, bisexual, and other men who have sex with men and transgender women who have had at least one bacterial STI (syphilis, chlamydia, or gonorrhea) in the past 12 months."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Is doxy PEP recommended for women?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Not at this time. CDC's 2024 guidelines make no recommendation for cisgender women because the evidence is insufficient to weigh benefits and harms. The one large trial in cisgender women found no significant reduction in STIs, and the investigators point to low doxycycline use as a primary explanation. To date, doxy PEP has proven effective only in men who have sex with men and transgender women."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Does doxy PEP prevent HIV?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "No. Doxy PEP only targets bacterial STIs (syphilis, chlamydia, and gonorrhea). It does not prevent HIV or other viral infections. People using doxy PEP should also be offered HIV PrEP if they are at risk for HIV."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "How soon after sex do I need to take it?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Take 200 mg of doxycycline as soon as possible after sex and no later than 72 hours. In the trials, participants were advised to take it ideally within 24 hours. Do not take more than 200 mg in any 24-hour period."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "How much doxycycline do I take?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "The dose is 200 mg of any doxycycline formulation, once after sex; in the DOXYVAC trial it was taken as two 100 mg pills. Take it with a full glass of water and food, stay upright for an hour, and separate it from dairy, antacids, and calcium, iron, or magnesium supplements by at least two hours."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "What are the side effects of doxy PEP?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "The most common side effects are nausea, upset stomach, esophageal irritation, and increased sensitivity to the sun. Taking the dose with food and water, staying upright for an hour, and using sunscreen reduce these. Most side effects resolve after stopping."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Does doxy PEP cause antibiotic resistance?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "It is a real concern. In 12-month DoxyPEP follow-up data reported by CDC, tetracycline-resistant Staphylococcus aureus in the nose rose from 5 percent to 13 percent in the doxy PEP group. In the trial's original report, tetracycline-resistant gonorrhea was found in 5 of 13 cultured isolates in the doxycycline groups versus 2 of 16 with standard care, though few cultures were available. This is why CDC focuses doxy PEP on the specific groups in which it has proven effective rather than offering it broadly."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Can I take doxy PEP every day?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Doxy PEP is event-driven: it is taken after sex that carries risk, not on a fixed daily schedule, and never more than 200 mg per 24 hours. The DoxyPEP trial allowed up to one dose a day for people having sex on consecutive days."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Do I still need condoms and HIV PrEP?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Yes. Doxy PEP does not replace condoms, which also prevent HIV and other STIs, and it does not replace HIV PrEP for people at risk of HIV. It is one added layer of protection, used alongside regular STI and HIV testing every 3 to 6 months."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "What if I already have symptoms of an STI?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Doxy PEP is prevention, not treatment. If you have discharge, sores, burning with urination, or a rash, you may already have an infection and need testing and treatment, not just a preventive dose. See a clinician."
+    }
+   }
+  ]
  }
  ]
 }
@@ -1066,7 +1150,7 @@ sup a:hover { text-decoration: underline; }
  </div>
 
  <!-- Standalone FAQPage JSON-LD (full 12-question set) -->
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "@id": "https://teledirectmd.com/health-guides/doxy-pep-guide/#faq", "datePublished": "2026-08-20", "dateModified": "2026-08-20", "author": {"@type": "Physician", "name": "Parth Bhavsar, MD", "sameAs": "https://npiregistry.cms.hhs.gov/provider-view/1104323203"}, "mainEntity": [{"@type": "Question", "name": "What is doxy PEP?", "acceptedAnswer": {"@type": "Answer", "text": "Doxy PEP (doxycycline post-exposure prophylaxis) is taking a single 200 mg dose of the antibiotic doxycycline within 72 hours after condomless sex to lower the chance of getting syphilis, chlamydia, and gonorrhea. It is an as-needed strategy, not a daily pill, and it does not prevent HIV."}}, {"@type": "Question", "name": "How well does doxy PEP work?", "acceptedAnswer": {"@type": "Answer", "text": "Across three large randomized trials, 200 mg of doxycycline taken within 72 hours after sex reduced syphilis and chlamydia by more than 70 percent and gonorrhea by about 50 percent. In the DoxyPEP trial it cut chlamydia by 88 percent and syphilis by 87 percent in people taking HIV PrEP."}}, {"@type": "Question", "name": "Who is doxy PEP recommended for?", "acceptedAnswer": {"@type": "Answer", "text": "The CDC recommends providers discuss doxy PEP with gay, bisexual, and other men who have sex with men and transgender women who have had at least one bacterial STI (syphilis, chlamydia, or gonorrhea) in the past 12 months."}}, {"@type": "Question", "name": "Is doxy PEP recommended for women?", "acceptedAnswer": {"@type": "Answer", "text": "Not at this time. CDC's 2024 guidelines make no recommendation for cisgender women because the evidence is insufficient to weigh benefits and harms. The one large trial in cisgender women found no significant reduction in STIs, and the investigators point to low doxycycline use as a primary explanation. To date, doxy PEP has proven effective only in men who have sex with men and transgender women."}}, {"@type": "Question", "name": "Does doxy PEP prevent HIV?", "acceptedAnswer": {"@type": "Answer", "text": "No. Doxy PEP only targets bacterial STIs (syphilis, chlamydia, and gonorrhea). It does not prevent HIV or other viral infections. People using doxy PEP should also be offered HIV PrEP if they are at risk for HIV."}}, {"@type": "Question", "name": "How soon after sex do I need to take it?", "acceptedAnswer": {"@type": "Answer", "text": "Take 200 mg of doxycycline as soon as possible after sex and no later than 72 hours. In the trials, participants were advised to take it ideally within 24 hours. Do not take more than 200 mg in any 24-hour period."}}, {"@type": "Question", "name": "How much doxycycline do I take?", "acceptedAnswer": {"@type": "Answer", "text": "The dose is 200 mg of any doxycycline formulation, once after sex; in the DOXYVAC trial it was taken as two 100 mg pills. Take it with a full glass of water and food, stay upright for an hour, and separate it from dairy, antacids, and calcium, iron, or magnesium supplements by at least two hours."}}, {"@type": "Question", "name": "What are the side effects of doxy PEP?", "acceptedAnswer": {"@type": "Answer", "text": "The most common side effects are nausea, upset stomach, esophageal irritation, and increased sensitivity to the sun. Taking the dose with food and water, staying upright for an hour, and using sunscreen reduce these. Most side effects resolve after stopping."}}, {"@type": "Question", "name": "Does doxy PEP cause antibiotic resistance?", "acceptedAnswer": {"@type": "Answer", "text": "It is a real concern. In 12-month DoxyPEP follow-up data reported by CDC, tetracycline-resistant Staphylococcus aureus in the nose rose from 5 percent to 13 percent in the doxy PEP group. In the trial's original report, tetracycline-resistant gonorrhea was found in 5 of 13 cultured isolates in the doxycycline groups versus 2 of 16 with standard care, though few cultures were available. This is why CDC focuses doxy PEP on the specific groups in which it has proven effective rather than offering it broadly."}}, {"@type": "Question", "name": "Can I take doxy PEP every day?", "acceptedAnswer": {"@type": "Answer", "text": "Doxy PEP is event-driven: it is taken after sex that carries risk, not on a fixed daily schedule, and never more than 200 mg per 24 hours. The DoxyPEP trial allowed up to one dose a day for people having sex on consecutive days."}}, {"@type": "Question", "name": "Do I still need condoms and HIV PrEP?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Doxy PEP does not replace condoms, which also prevent HIV and other STIs, and it does not replace HIV PrEP for people at risk of HIV. It is one added layer of protection, used alongside regular STI and HIV testing every 3 to 6 months."}}, {"@type": "Question", "name": "What if I already have symptoms of an STI?", "acceptedAnswer": {"@type": "Answer", "text": "Doxy PEP is prevention, not treatment. If you have discharge, sores, burning with urination, or a rash, you may already have an infection and need testing and treatment, not just a preventive dose. See a clinician."}}]}</script>
+
 
  </article>
 
