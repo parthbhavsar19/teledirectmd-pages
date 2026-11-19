@@ -1,7 +1,7 @@
 {
   "guide": "covid-19-paxlovid-treatment-guide",
-  "checked_at": "2026-11-07",
-  "checked_by": "Claude (repair run)",
+  "checked_at": "2026-11-19",
+  "checked_by": "Claude (repair run); Claude (2026-11-19 log sync for refs 14-18)",
   "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
   "references": [
     {
@@ -75,7 +75,7 @@
       "n": 2,
       "kind": "journal",
       "cited_as": "Hammond J, Leister-Tebbe H, Gardner A, et al. Oral Nirmatrelvir for High-Risk, Nonhospitalized Adults with Covid-19. N Engl J Med. 2022;386(15):1397-1408.",
-      "url": "https://doi.org/10.1056/NEJMoa2118542",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35172054/",
       "pmid": "35172054",
       "pmcid": "PMC8908851",
       "doi": "10.1056/NEJMoa2118542",
@@ -86,7 +86,7 @@
       "retrieved_with": "PubMed connector get_article_metadata + get_full_text_article (PMC full text)",
       "retrieved_at": "2026-11-07",
       "editorial_notices": [],
-      "notes": "Added (primary trial). The \"M\" in quotes is how PMC text renders M-pro (subscript lost). Original guide said greatest benefit within 3 days; trial shows 88.9% vs 87.8%, so the guide now says the benefit was similar. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "notes": "Added (primary trial). The \"M\" in quotes is how PMC text renders M-pro (subscript lost). Original guide said greatest benefit within 3 days; trial shows 88.9% vs 87.8%, so the guide now says the benefit was similar. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. 2026-11-19: guide links the PubMed record; log url changed to match (DOI unchanged).",
       "claims": [
         {
           "text": "Pivotal trial of unvaccinated high-risk adults: about 88% to 89% lower risk of hospitalization or death",
@@ -299,7 +299,7 @@
       "n": 4,
       "kind": "journal",
       "cited_as": "Anderson AS, Caubel P, Rusnak JM, et al. Nirmatrelvir-Ritonavir and Viral Load Rebound in Covid-19 (letter). N Engl J Med. 2022;387(11):1047-1049.",
-      "url": "https://doi.org/10.1056/NEJMc2205944",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36069818/",
       "pmid": "36069818",
       "pmcid": "PMC9513855",
       "doi": "10.1056/NEJMc2205944",
@@ -310,7 +310,7 @@
       "retrieved_with": "PubMed connector get_article_metadata + get_full_text_article (PMC full text)",
       "retrieved_at": "2026-11-07",
       "editorial_notices": [],
-      "notes": "Added; letter (article type Letter), analysis of EPIC-HR. Replaces the unverified \"5-15%\" and \"<1% to >30%\" rebound figures. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "notes": "Added; letter (article type Letter), analysis of EPIC-HR. Replaces the unverified \"5-15%\" and \"<1% to >30%\" rebound figures. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. 2026-11-19: guide links the PubMed record; log url changed to match (DOI unchanged).",
       "claims": [
         {
           "text": "Viral load rebound 2.3% with Paxlovid vs 1.7% with placebo",
@@ -392,7 +392,7 @@
       "n": 7,
       "kind": "journal",
       "cited_as": "Shah MM, Joyce B, Plumb ID, et al. Paxlovid Associated with Decreased Hospitalization Rate Among Adults with COVID-19, United States, April-September 2022. MMWR Morb Mortal Wkly Rep. 2022;71(48):1531-1537.",
-      "url": "https://doi.org/10.15585/mmwr.mm7148e2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36454693/",
       "pmid": "36454693",
       "pmcid": "PMC9721144",
       "doi": "10.15585/mmwr.mm7148e2",
@@ -403,7 +403,7 @@
       "retrieved_with": "PubMed connector get_article_metadata (abstract)",
       "retrieved_at": "2026-11-07",
       "editorial_notices": [],
-      "notes": "Added as the primary source for the CDC real-world result previously cited through Yale Medicine (old ref 3, \"51% lower\"). Guide now reports the aHR rather than a derived percentage. Abstract only used. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "notes": "Added as the primary source for the CDC real-world result previously cited through Yale Medicine (old ref 3, \"51% lower\"). Guide now reports the aHR rather than a derived percentage. Abstract only used. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. 2026-11-19: guide links the PubMed record; log url changed to match (DOI unchanged).",
       "claims": [
         {
           "text": "28.4% of eligible adults received a Paxlovid prescription within 5 days, April-August 2022",
@@ -485,7 +485,7 @@
       "n": 10,
       "kind": "journal",
       "cited_as": "Phan T, Ribeiro RM, Edelstein GE, et al. Modeling suggests SARS-CoV-2 rebound after nirmatrelvir-ritonavir treatment is driven by target cell preservation coupled with incomplete viral clearance. J Virol. 2025;99(3):e0162324.",
-      "url": "https://doi.org/10.1128/jvi.01623-24",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39902924/",
       "pmid": "39902924",
       "pmcid": "PMC11915799",
       "doi": "10.1128/jvi.01623-24",
@@ -496,7 +496,7 @@
       "retrieved_with": "PubMed connector get_article_metadata (abstract); ASM press release (old ref 4) read for Los Alamos attribution",
       "retrieved_at": "2026-11-07",
       "editorial_notices": [],
-      "notes": "Added as the primary source for the modeling claim previously cited to the ASM press release (old ref 4). Los Alamos attribution is from author affiliations in the PubMed record (first and senior authors). scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "notes": "Added as the primary source for the modeling claim previously cited to the ASM press release (old ref 4). Los Alamos attribution is from author affiliations in the PubMed record (first and senior authors). scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. 2026-11-19: guide links the PubMed record; log url changed to match (DOI unchanged).",
       "claims": [
         {
           "text": "Model of 51 treated people, 20 rebounded; target cell preservation with incomplete clearance",
@@ -528,7 +528,7 @@
       "n": 11,
       "kind": "journal",
       "cited_as": "Zhang W, Terra SG, Weinstein EA, et al. Retreatment With Nirmatrelvir/Ritonavir Following Return of COVID-19 Symptoms and SARS-CoV-2 Positivity. Clin Infect Dis. 2026;82(1):e33-e40.",
-      "url": "https://doi.org/10.1093/cid/ciaf548",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41027009/",
       "pmid": "41027009",
       "doi": "10.1093/cid/ciaf548",
       "record_title": "Retreatment With Nirmatrelvir/Ritonavir Following Return of COVID-19 Symptoms and SARS-CoV-2 Positivity.",
@@ -538,7 +538,7 @@
       "retrieved_with": "PubMed connector get_article_metadata (abstract)",
       "retrieved_at": "2026-11-07",
       "editorial_notices": [],
-      "notes": "Added as the primary source for the retreatment trial previously cited through an unlinked CIDRAP article. Guide previously said \"phase 2\" and \"published in 2025\"; PubMed record gives publication 2026 Feb 9 and no phase, so both were changed. Abstract only. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "notes": "Added as the primary source for the retreatment trial previously cited through an unlinked CIDRAP article. Guide previously said \"phase 2\" and \"published in 2025\"; PubMed record gives publication 2026 Feb 9 and no phase, so both were changed. Abstract only. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. 2026-11-19: guide links the PubMed record; log url changed to match (DOI unchanged).",
       "claims": [
         {
           "text": "Randomized placebo-controlled trial, 436 participants, second 5-day course",
@@ -564,7 +564,7 @@
       "n": 12,
       "kind": "journal",
       "cited_as": "Dalton AF, Baca S, Raykin J, et al. Risk of Post-COVID-19 Conditions Among Adolescents and Adults Who Received Nirmatrelvir-Ritonavir for Acute COVID-19: A Retrospective Cohort Study. Open Forum Infect Dis. 2025;12(10):ofaf567.",
-      "url": "https://doi.org/10.1093/ofid/ofaf567",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41031103/",
       "pmid": "41031103",
       "pmcid": "PMC12477675",
       "doi": "10.1093/ofid/ofaf567",
@@ -575,7 +575,7 @@
       "retrieved_with": "PubMed connector get_article_metadata (abstract)",
       "retrieved_at": "2026-11-07",
       "editorial_notices": [],
-      "notes": "Added as primary source for the long-COVID figures previously cited to CIDRAP (old ref 6). Correction: the guide said \"7% reduction in younger adults\"; the abstract shows the 0.93 aHR is for ages 50-64 and ages 18-49 had aHR 0.98 (minimal effect). Authors are CDC staff (affiliations in record); data source is closed claims, index dates 1 April to 31 August 2022. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "notes": "Added as primary source for the long-COVID figures previously cited to CIDRAP (old ref 6). Correction: the guide said \"7% reduction in younger adults\"; the abstract shows the 0.93 aHR is for ages 50-64 and ages 18-49 had aHR 0.98 (minimal effect). Authors are CDC staff (affiliations in record); data source is closed claims, index dates 1 April to 31 August 2022. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. 2026-11-19: guide links the PubMed record; log url changed to match (DOI unchanged).",
       "claims": [
         {
           "text": "CDC claims study, 2022: aHR 0.88 at 65+, 0.93 at 50-64, minimal effect 0.98 at 18-49",
@@ -589,7 +589,7 @@
       "n": 13,
       "kind": "journal",
       "cited_as": "Preiss A, Bhatia A, Aragon LV, et al. Effect of Paxlovid treatment during acute COVID-19 on Long COVID onset: An EHR-based target trial emulation from the N3C and RECOVER consortia. PLoS Med. 2025;22(9):e1004711.",
-      "url": "https://doi.org/10.1371/journal.pmed.1004711",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40953059/",
       "pmid": "40953059",
       "pmcid": "PMC12445499",
       "doi": "10.1371/journal.pmed.1004711",
@@ -600,12 +600,208 @@
       "retrieved_with": "PubMed connector get_article_metadata (abstract)",
       "retrieved_at": "2026-11-07",
       "editorial_notices": [],
-      "notes": "Added as primary source for the 0.43% / NNT 233 figures previously cited to CIDRAP (old ref 6). scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "notes": "Added as primary source for the 0.43% / NNT 233 figures previously cited to CIDRAP (old ref 6). scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. 2026-11-19: guide links the PubMed record; log url changed to match (DOI unchanged).",
       "claims": [
         {
           "text": "No significant effect overall; small effect 65+, ARD 0.43%, NNT 233",
           "quote": "Paxlovid treatment did not have a significant effect on overall PASC incidence ... We found small protective effects among patients aged 65 years or more (RR 0.92 ...; absolute risk difference [ARD] -0.43%; number needed to treat [NNT] 233)",
           "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "journal",
+      "cited_as": "Hammond J, Fountaine RJ, Yunis C, et al. Nirmatrelvir for Vaccinated or Unvaccinated Adult Outpatients with Covid-19. N Engl J Med. 2024;390(13):1186-1195.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38598573/",
+      "pmid": "38598573",
+      "pmcid": "PMC11156287",
+      "doi": "10.1056/NEJMoa2309003",
+      "record_title": "Nirmatrelvir for Vaccinated or Unvaccinated Adult Outpatients with Covid-19.",
+      "record_journal": "N Engl J Med",
+      "record_year": "2024",
+      "article_type": "Clinical Trial, Phase II; Clinical Trial, Phase III; Journal Article; Randomized Controlled Trial",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-19",
+      "editorial_notices": [],
+      "notes": "EPIC-SR. Added to the guide on 2026-11-12 without a log entry; logged 2026-11-19. Abstract only. scite_unavailable (quota until 2026-12-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "EPIC-SR median time to sustained relief of all targeted symptoms 12 days vs 13 days with placebo, not significant; 1,296 randomized; P = 0.60",
+          "quote": "Among the 1296 participants who underwent randomization ... The median time to sustained alleviation of all targeted signs and symptoms of Covid-19 was 12 days in the nirmatrelvir-ritonavir group and 13 days in the placebo group (P = 0.60).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Enrolled vaccinated adults with a risk factor and standard-risk unvaccinated adults; did not find a significant reduction in its primary symptom-duration endpoint",
+          "quote": "Patients who were fully vaccinated against Covid-19 and who had at least one risk factor for severe disease, as well as patients without such risk factors who had never been vaccinated against Covid-19 or had not been vaccinated within the previous year, were eligible ... The time to sustained alleviation of all signs and symptoms of Covid-19 did not differ significantly",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hospitalization or death 0.8% vs 1.6%, confidence interval for the difference included no effect",
+          "quote": "Five participants (0.8%) in the nirmatrelvir-ritonavir group and 10 (1.6%) in the placebo group were hospitalized for Covid-19 or died from any cause (difference, -0.8 percentage points; 95% confidence interval, -2.0 to 0.4).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Treatment-related altered taste 5.8% and diarrhea 2.1% in treated participants",
+          "quote": "In the nirmatrelvir-ritonavir group, the most commonly reported treatment-related adverse events were dysgeusia (in 5.8% of the participants) and diarrhea (in 2.1%).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Newer randomized evidence in vaccinated higher-risk populations is less reassuring than the original unvaccinated trial; vaccination does not settle the question",
+          "quote": "The efficacy of this treatment in patients who are at standard risk for severe Covid-19 or who are fully vaccinated and have at least one risk factor for severe Covid-19 has not been established.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "journal",
+      "cited_as": "Butler CC, Pinto AD, Harris V, et al. Oral Nirmatrelvir-Ritonavir for Covid-19 in Higher-Risk Outpatients. N Engl J Med. 2026;394(16):1583-1594.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42019019/",
+      "pmid": "42019019",
+      "pmcid": "PMC7619176",
+      "doi": "10.1056/NEJMoa2502457",
+      "record_title": "Oral Nirmatrelvir-Ritonavir for Covid-19 in Higher-Risk Outpatients.",
+      "record_journal": "N Engl J Med",
+      "record_year": "2026",
+      "article_type": "Clinical Trial, Phase III; Equivalence Trial; Journal Article; Multicenter Study; Randomized Controlled Trial",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-19",
+      "editorial_notices": [],
+      "notes": "PANORAMIC and CanTreatCOVID. Added to the guide on 2026-11-12 without a log entry; logged 2026-11-19. Abstract only. scite_unavailable (quota until 2026-12-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "A 2026 publication reported two open-label trials in vaccinated higher-risk community participants",
+          "quote": "In two open-label platform trials (PANORAMIC in the United Kingdom and CanTreatCOVID in Canada), we enrolled higher-risk adults (>=50 years of age or >=18 years of age with coexisting conditions) in the community",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "PANORAMIC 14/1,698 vs 11/1,673; CanTreatCOVID 2/343 vs 4/324; rounded 0.8%, 0.7%, 0.6%, 1.2%; credible intervals 0.55 to 2.62 and 0.08 to 2.23",
+          "quote": "In the PANORAMIC trial, 14 of 1698 participants (0.8%) in the nirmatrelvir-ritonavir group and 11 of 1673 participants (0.7%) in the usual-care group were hospitalized or died (adjusted odds ratio, 1.18; 95% Bayesian credible interval, 0.55 to 2.62 ... In the CanTreatCOVID trial, 2 of 343 participants (0.6%) in the nirmatrelvir-ritonavir group and 4 of 324 participants (1.2%) in the usual-care group were hospitalized or died (adjusted odds ratio, 0.48; 95% Bayesian credible interval, 0.08 to 2.23",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Neither trial demonstrated a reduction in hospitalization or death; newer vaccinated-population trials did not show the original benefit",
+          "quote": "In two open-label trials, nirmatrelvir-ritonavir did not reduce the incidence of hospitalization or death among vaccinated higher-risk participants with SARS-CoV-2 infection.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "journal",
+      "cited_as": "Dowd-Green C, Brown D, Wilson A, et al. Supratherapeutic INR During Treatment With Nirmatrelvir/Ritonavir and Warfarin and Acute Illness With COVID-19: A Case Report. J Pharm Pract. 2024;37(6):1414-1418.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38803049/",
+      "pmid": "38803049",
+      "doi": "10.1177/08971900241257296",
+      "record_title": "Supratherapeutic INR During Treatment With Nirmatrelvir/Ritonavir and Warfarin and Acute Illness With COVID-19: A Case Report.",
+      "record_journal": "J Pharm Pract",
+      "record_year": "2024",
+      "article_type": "Case Reports; Journal Article",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-19",
+      "editorial_notices": [],
+      "notes": "Added to the guide on 2026-11-12 without a log entry; logged 2026-11-19. A second link to an EBSCO record carrying search-tool tracking parameters was removed from the reference; the PubMed link remains. Single case report; guide states it does not prove direction of effect. scite_unavailable; PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "A published warfarin case report: the patient's INR changed during COVID-19 and nirmatrelvir/ritonavir treatment",
+          "quote": "Most recent INR prior to the start of therapy was 2.7 ... On day two of nirmatrelvir/ritonavir, her INR rose to 4.0 on home point of care INR testing.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "INR may increase or decrease; illness and food intake can also affect control",
+          "quote": "PK models and case series have hypothesized both potential increases or decreases in INR with the nirmatrelvir/ritonavir and warfarin interaction, COVID-19 infection itself can cause several pharmacodynamic changes which can increase INR, including decreased appetite",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "kind": "guideline",
+      "cited_as": "Infectious Diseases Society of America. Guidelines on treatment and management of COVID-19. Nirmatrelvir section reviewed October 14, 2025.",
+      "url": "https://www.idsociety.org/practice-guideline/covid-19-guideline-treatment-and-management/",
+      "version_or_date": "Nirmatrelvir/Ritonavir section last reviewed and updated 10/14/2025; last literature search September 2024",
+      "retrieved_with": "Monid firecrawl batch scrape of the IDSA guideline page (run 01M7T8EMGNENVRAECKCT6VVAFE)",
+      "retrieved_at": "2026-11-19",
+      "editorial_notices": [],
+      "notes": "Added to the guide on 2026-11-12 without a log entry; logged 2026-11-19. Several body sentences pair [17] with the label [3]; for transplant, child-eligibility, Child-Pugh and access sentences the label or CDC carries the specific detail and IDSA supports the general risk-based and interaction-management framing.",
+      "claims": [
+        {
+          "text": "IDSA recommends nirmatrelvir/ritonavir for adults at high risk or with several risk factors, suggests it conditionally for increased but not high risk, and suggests against routine use without risk factors",
+          "quote": "In adults with mild to moderate COVID-19 at high risk (Table 1) or with several factors associated with increased risk for progression to severe disease (Table 2), the IDSA guideline panel recommends nirmatrelvir/ritonavir over no antiviral treatment ... In adults with mild to moderate COVID-19 at increased but not high risk for progression to severe disease (Table 2), the IDSA guideline panel suggests using nirmatrelvir/ritonavir over no antiviral treatment ... In adults without risk factors for progression to severe disease (Tables 1 and 2), the IDSA guideline panel suggests against the routine use of nirmatrelvir/ritonavir",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "IDSA's nirmatrelvir section was last reviewed in October 2025 and its stated literature search predates the 2026 publication",
+          "quote": "Recommendation: Nirmatrelvir/Ritonavir ... Section last reviewed and updated 10/14/2025 ... Last literature search conducted September 2024",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "IDSA describes the same severe-renal schedule as the label, including hemodialysis",
+          "quote": "eGFR <30 mL/min including hemodialysis: 300 mg nirmatrelvir/100 mg ritonavir once on day 1 and then 150 mg nirmatrelvir/100 mg ritonavir once daily on days 2-5",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Interactions can change the plan; most are managed by temporary change, adjustment or substitution rather than stopping on your own",
+          "quote": "most can be effectively managed through temporary discontinuation, dose adjustment, or substitution of the interacting medication.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Risk-based selection: patients may reasonably decline given the small reduction in hospitalization risk",
+          "quote": "a lower value on the small reduction in hospitalization risk or faster symptom resolution may reasonably decline nirmatrelvir/ritonavir.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Remdesivir requires three consecutive infusion days, started within 7 days",
+          "quote": "three days of intravenous (IV) remdesivir (200 mg on day one followed by 100 mg on days two and three) initiated within 7 days of symptom onset",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Preventing spread of respiratory viruses when you are sick. Page date August 18, 2025.",
+      "url": "https://www.cdc.gov/respiratory-viruses/prevention/precautions-when-sick.html",
+      "version_or_date": "Aug. 18, 2025",
+      "retrieved_with": "Monid firecrawl batch scrape of the CDC page (run 01M7T8EMGNENVRAECKCT6VVAFE)",
+      "retrieved_at": "2026-11-19",
+      "editorial_notices": [],
+      "notes": "Added to the guide on 2026-11-12 without a log entry; logged 2026-11-19.",
+      "claims": [
+        {
+          "text": "Stay home while sick; resume normal activities when symptoms improving overall and fever-free without fever-reducing medicine for at least 24 hours",
+          "quote": "Stay home and away from others ... You can go back to your normal activities when, for at least 24 hours, both are true: Your symptoms are getting better overall, and You have not had a fever (and are not using fever-reducing medication).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Then take added precautions for 5 days, such as cleaner air, a well-fitting mask, distancing or testing",
+          "quote": "When you go back to your normal activities, take added precautions over the next 5 days, such as taking steps for cleaner air, practicing good hygiene, wearing a well-fitted mask, physical distancing, or testing for times when you will be around other people.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "If fever returns or you worsen after resuming activities, stay home again; feeling better does not establish you are no longer contagious",
+          "quote": "If you develop a fever or you start to feel worse after you have gone back to normal activities, stay home and away from others again ... Keep in mind that you may still be able to spread the virus that made you sick, even if you are feeling better.",
+          "quote_source": "full_text",
           "verdict": "supported"
         }
       ]
