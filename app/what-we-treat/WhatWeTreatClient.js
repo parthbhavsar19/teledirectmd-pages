@@ -57,12 +57,17 @@ function useOnceInView(ref, cb, threshold = 0.3) {
 
 /* ── US Map (inline SVG) ─────────────────────────────────────────────────── */
 function UsMap({ animate }) {
-  const [covered, setCovered] = useState(() => new Set(animate ? [] : ['*']));
-  const [count, setCount]     = useState(animate ? 0 : COVERED_STATE_COUNT);
+  // Start in the finished state so the server HTML (and crawlers, and anyone
+  // without JavaScript) shows the full map and "40+ states", not "0 states".
+  // The animation resets to empty only once the map scrolls into view.
+  const [covered, setCovered] = useState(() => new Set(['*']));
+  const [count, setCount]     = useState(COVERED_STATE_COUNT);
   const wrapRef = useRef(null);
 
   useOnceInView(wrapRef, () => {
     if (!animate) return;
+    setCovered(new Set());
+    setCount(0);
     const paths = wrapRef.current?.querySelectorAll('path[data-state]') || [];
     const list = Array.from(paths)
       .filter((p) => !NOT_COVERED.includes(p.dataset.state))
