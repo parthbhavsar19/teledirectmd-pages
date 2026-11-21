@@ -34,7 +34,8 @@ export default function StateLandingPage({ stateSlug }) {
     validIn: { '@type': 'State', name: state.name },
     ...(stateLicense.verificationUrl ? { url: stateLicense.verificationUrl } : {}),
     ...(stateLicense.dateIssued ? { validFrom: stateLicense.dateIssued } : {}),
-    ...(stateLicense.dateExpires ? { validThrough: stateLicense.dateExpires } : {})
+    // A past expiry date tells search engines the license lapsed; omit it until renewed dates are entered.
+    ...(stateLicense.dateExpires && stateLicense.dateExpires >= new Date().toISOString().slice(0, 10) ? { validThrough: stateLicense.dateExpires } : {})
   } : null;
   const categories = getConditionCategories();
   const baseUrl = 'https://teledirectmd.com';
