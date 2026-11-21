@@ -489,17 +489,17 @@
   {
    "n": 15,
    "kind": "agency_page",
-   "cited_as": "Centers for Disease Control and Prevention (CDC). Outbreak of Cyclospora Infections Linked to Fresh Basil from Siga Logistics de RL de CV of Morelos, Mexico. Last updated September 30, 2019.",
-   "url": "https://www.cdc.gov/parasites/cyclosporiasis/outbreaks/2019/weekly/index.html",
-   "version_or_date": "Last updated September 30, 2019; page last reviewed December 2, 2019",
-   "retrieved_with": "WebFetch of official page (targeted verbatim-quote extraction)",
-   "retrieved_at": "2026-11-07",
+   "cited_as": "U.S. Food and Drug Administration (FDA). Outbreak Investigation of Cyclospora: Imported Fresh Basil (July 2019). Final update November 19, 2019. Archived copy (October 24, 2020), linked from FDA's Public Health Advisories from Investigations of Foodborne Illness Outbreaks page.",
+   "url": "https://web.archive.org/web/20201024213158/https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-cyclospora-imported-fresh-basil-july-2019",
+   "version_or_date": "Final update November 19, 2019; Wayback Machine capture October 24, 2020",
+   "retrieved_with": "Monid firecrawl scrape of the archived FDA page, reached from the link on FDA's live Public Health Advisories page",
+   "retrieved_at": "2026-11-21",
    "editorial_notices": [],
-   "notes": "New primary CDC source for the 2019 row (241 cases, replacing a mis-sourced figure).",
+   "notes": "Replaces the CDC outbreak page (parasites/cyclosporiasis/outbreaks/2019/weekly), which returned 404 on Nov 19 and Nov 21, 2026; CDC says it moved to its archives. Row wording changed from '241 laboratory-confirmed cases' to '241 illnesses' to match the FDA page, which does not say laboratory-confirmed. CDC's live NORS 2019 report lists this outbreak as 303 illnesses in 13 states (different count basis); not used.",
    "claims": [
     {
-     "text": "2019: 241 laboratory-confirmed cases in 11 states; fresh basil from Morelos, Mexico",
-     "quote": "As of September 27, 2019, 241 people with laboratory-confirmed Cyclospora infections ... had been reported from 11 states. ... fresh basil exported by Siga Logistics de RL de CV of Morelos, Mexico was a likely source of this outbreak.",
+     "text": "2019: fresh basil from Morelos, Mexico; 241 illnesses in 11 states",
+     "quote": "Total Illnesses: 241 ... States with Cases: CT, FL, GA, IA, MA, MN, NY, OH, RI, SC, WI ... fresh basil exported by Siga Logistics de RL de CV located in Morelos, Mexico.",
      "quote_source": "official_page",
      "verdict": "supported"
     }
