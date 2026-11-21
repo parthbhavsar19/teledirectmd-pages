@@ -241,6 +241,12 @@ export default function PartnersPage() {
               </div>
             </div>
 
+            <p>
+              For the published trial data behind rural and partner telemedicine programs, see the{' '}
+              <a href="/clinical-evidence/">Clinical Evidence Library</a> and the{' '}
+              <a href="/partners/tribal-health-alaska/">Alaska Tribal Health Partnership Brief</a>.
+            </p>
+
             <h2>Built so partners keep their patients</h2>
             <p>
               TeleDirectMD also sees patients directly. Partner programs are kept separate from that side of the

@@ -914,7 +914,7 @@ export default function RuralTelemedicineAlaskaEvidence() {
             </h2>
             <p>
               Author: Parth Bhavsar, MD, board-certified in family medicine. Founder and Medical Director of
-              TeleDirectMD, a physician-led telemedicine practice licensed in Alaska and 40 additional states.
+              TeleDirectMD, a physician-led telemedicine practice licensed in 40+ states plus D.C., including Alaska.
               Disclosures: no external funding was received for this review. TeleDirectMD is a for-profit telemedicine
               practice; this review supports its Alaska partnership and clinical protocol work. Every claim in this
               review is linked to a primary source; readers are encouraged to verify the citations directly. Corrections
@@ -957,7 +957,8 @@ export default function RuralTelemedicineAlaskaEvidence() {
                 </li>
                 <li id="ce-2">
                   Fortney JC, Pyne JM, Mouden SB, et al. Practice-Based Versus Telemedicine-Based Collaborative Care for
-                  Depression in Rural Federally Qualified Health Centers. <em>Am J Psychiatry</em>. 2013;170(4):414-425.{' '}
+                  Depression in Rural Federally Qualified Health Centers: A Pragmatic Randomized Comparative Effectiveness Trial.{' '}
+              <em>Am J Psychiatry</em>. 2013;170(4):414-425.{' '}
                   <a href="https://psychiatryonline.org/doi/10.1176/appi.ajp.2012.12050696" target="_blank" rel="noopener">
                     DOI: 10.1176/appi.ajp.2012.12050696
                   </a>
@@ -965,7 +966,7 @@ export default function RuralTelemedicineAlaskaEvidence() {
                 <li id="ce-3">
                   Robler SK, Platt A, Turner EL, et al. Telemedicine Referral to Improve Access to Specialty Care for
                   Preschool Children in Rural Alaska: A Cluster-Randomized Controlled Trial. <em>Ear Hear</em>.
-                  2023;44(5):1240-1250.{' '}
+                  2023;44(6):1311-1321.{' '}
                   <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10583927/" target="_blank" rel="noopener">
                     PMC10583927
                   </a>
@@ -973,11 +974,14 @@ export default function RuralTelemedicineAlaskaEvidence() {
                 <li id="ce-4">
                   Robler SK, Inglis-Jenson M, Gallo JJ, et al. Mobile Health School Screening and Telemedicine Referral
                   to Improve Access to Specialty Care in Rural Alaska: Integrating Mixed Methods Data to Contextualize
-                  Trial Outcomes. <em>Ear Hear</em>. 2023;44(5):1271-1281.
+                  Trial Outcomes. <em>Ear Hear</em>. 2023;44(5):1271-1281.{' '}
+              <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10426779/" target="_blank" rel="noopener">
+                PMC10426779
+              </a>
                 </li>
                 <li id="ce-5">
-                  Liu W, Li M, Peng Z, et al. Telemedicine-based integrated management of atrial fibrillation in village
-                  clinics: a cluster randomized trial. <em>Nat Med</em>. 2025.{' '}
+                  Chu M, Zhang S, Gong J, et al. Telemedicine-based integrated management of atrial fibrillation in village
+                  clinics: a cluster randomized trial. <em>Nat Med</em>. 2025;31(4):1276-1285.{' '}
                   <a href="https://www.nature.com/articles/s41591-025-03511-2" target="_blank" rel="noopener">
                     Nature Medicine
                   </a>
@@ -1014,7 +1018,7 @@ export default function RuralTelemedicineAlaskaEvidence() {
                 </li>
                 <li id="ce-10">
                   Totten AM, Womack DM, Griffin JC, et al. Telehealth-guided provider-to-provider communication to
-                  improve rural health: A systematic review. <em>J Telemed Telecare</em>. 2022.{' '}
+                  improve rural health: A systematic review. <em>J Telemed Telecare</em>. 2024;30(8):1209-1229. Published online 2022.{' '}
                   <a href="https://journals.sagepub.com/doi/10.1177/1357633X221139892" target="_blank" rel="noopener">
                     J Telemed Telecare
                   </a>
@@ -1028,13 +1032,14 @@ export default function RuralTelemedicineAlaskaEvidence() {
                 </li>
                 <li id="ce-12">
                   Hao H, Xu K, Zhang D, et al. Long-Term Wildfire Smoke Exposure and Increased Risk of Heart Failure in
-                  Older Adults. <em>J Am Coll Cardiol</em>. 2025.{' '}
+                  Older Adults. <em>J Am Coll Cardiol</em>. 2025;85(25):2439-2451.{' '}
                   <a href="https://linkinghub.elsevier.com/retrieve/pii/S0735109725064046" target="_blank" rel="noopener">
                     DOI: 10.1016/j.jacc.2025.04.058
                   </a>
                 </li>
                 <li id="ce-13">
-                  Yuan X, et al. Wildfire and asthma: the prospective interventions. World Allergy Organ J. 2025.{' '}
+                  Yuan X, Yang L, Li C, et al. Wildfire and asthma: the prospective interventions.{' '}
+              <em>World Allergy Organ J</em>. 2025;18(9):101110.{' '}
                   <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12441628/" target="_blank" rel="noopener">
                     PMC12441628
                   </a>

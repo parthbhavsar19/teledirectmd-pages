@@ -216,7 +216,7 @@ export default function ClinicalEvidenceHub() {
             </p>
             <ul>
               <li>Editor and author: <a href="/about/">Parth Bhavsar, MD</a> (board-certified family medicine, NPI 1104323203)</li>
-              <li>Publisher: TeleDirectMD, a physician-led telemedicine practice licensed in Alaska and 40 additional states plus D.C.</li>
+              <li>Publisher: TeleDirectMD, a physician-led telemedicine practice licensed in 40+ states plus D.C., including Alaska</li>
               <li>Related work: <a href="/partners/tribal-health-alaska/">Alaska Tribal Health Partnership Brief</a></li>
             </ul>
           </div>
