@@ -1,0 +1,281 @@
+{
+  "stateCode": "IN",
+  "stateName": "Indiana",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "mid",
+    "regulation": "standard",
+    "payerLandscape": "single-payer",
+    "epidemiology": [
+      "sti-young-adult",
+      "syphilis-rising",
+      "tick-diverse",
+      "rabies-bat"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "midwest",
+    "voiceNotes": "Friendly Hoosier practicality. Indiana's telehealth statute spells out what the clinician must tell you, so the copy should read like a checklist of what to expect. One payer only (Curative); everyone else is $79 self-pay."
+  },
+  "stateHero": {
+    "openingParagraph": "Indiana's telehealth law, IC 25-1-9.5, lists what a practitioner owes you on a video visit: informed consent, their name and licensure, a proper provider-patient relationship, and a plain discussion of when in-person care is the better call. TeleDirectMD sees adults who are located in Indiana during the visit through Parth Bhavsar, MD, a board-certified family medicine physician licensed by the Indiana Medical Licensing Board. Members of Curative employer plans can use their coverage, since TeleDirectMD is in-network with Curative in Indiana. Everyone else pays a flat $79 at booking, and HSA and FSA cards are accepted. Prescriptions, when appropriate, go electronically to the Indiana pharmacy you choose.",
+    "conditionPageOpener": "Video visits for adults located in Indiana with Parth Bhavsar, MD, board-certified in family medicine and licensed by the Indiana Medical Licensing Board. In-network with Curative in Indiana, or a flat $79 self-pay paid at booking.",
+    "stateContextHint": "Licensed in Indiana. Video visits for adults located in Indiana. In-network with Curative, or $79 flat self-pay with HSA and FSA accepted.",
+    "saturation": {
+      "stateNameMentions": 6,
+      "stateEntityMentions": 4
+    }
+  },
+  "stateEligibility": {
+    "intro": "TeleDirectMD sees adults 18 and older who are physically located in Indiana during the video visit. The Indiana Professional Licensing Agency explains that a practitioner who establishes a relationship with an individual located in Indiana is providing care in Indiana, which is why the physician holds an Indiana license. Indiana's rules also have the practitioner obtain your location and contact information and your informed consent before care begins.",
+    "localTriggers": [
+      "You must be in Indiana during the visit; you will be asked to confirm your location, as Indiana's telehealth rules require.",
+      "Northwest Indiana commuters: a visit taken from an office in Illinois falls under Illinois rules, not Indiana's.",
+      "Choose a private spot. Under Indiana's telehealth statute, information overheard by people near you during the visit is not confidential.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "In Indiana, TeleDirectMD is in-network with Curative, the employer-sponsored plan, and your Curative plan sets any cost. For everyone else the visit is a flat $79, paid at booking, with HSA and FSA cards accepted and no claim filed. Coverage for a given visit depends on your plan. Hoosiers ages 19 to 64 who meet income limits may qualify for the Healthy Indiana Plan; TeleDirectMD does not accept HIP or other Medicaid coverage.",
+    "additionalNotes": [
+      "$79 flat self-pay, paid at booking.",
+      "HSA and FSA cards accepted.",
+      "In-network in Indiana with Curative."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "When Dr. Bhavsar decides a prescription is appropriate, it is sent electronically to the Indiana pharmacy you name. As the Indiana Professional Licensing Agency summarizes IC 25-1-9.5, a prescriber may prescribe a non-controlled drug to a patient not previously seen in person when the standard of care is met, and opioids are excluded except a partial agonist for opioid dependence. TeleDirectMD does not prescribe controlled substances or opioids at all. Indiana tracks controlled-substance prescriptions through INSPECT, the state Prescription Drug Monitoring Program, which is moving from the Professional Licensing Agency to the Indiana Department of Health.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "general": "Indiana's 2024 STI surveillance summary counted 31,511 chlamydia cases and 2,323 syphilis cases, with syphilis up 73 percent over five years and chlamydia rates highest at ages 15 to 24. The Indiana Department of Health lists Lyme disease, ehrlichiosis, anaplasmosis, spotted fever rickettsioses, tularemia, Heartland virus and alpha-gal syndrome among tick-borne diseases in Indiana. Bats have been the most common rabid animal in Indiana since 1988. This is general context, not individual advice.",
+    "generalOnHubOnly": true,
+    "citations": [
+      {
+        "label": "Indiana Professional Licensing Agency, Telehealth (IC 25-1-9.5)",
+        "url": "https://www.in.gov/pla/resources/telehealth-home",
+        "scope": "all"
+      },
+      {
+        "label": "Indiana Professional Licensing Agency, INSPECT Prescription Drug Monitoring Program",
+        "url": "https://www.in.gov/pla/inspect"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, Indiana (V2025)",
+        "url": "https://www.census.gov/quickfacts/IN"
+      },
+      {
+        "label": "Indiana FSSA, Healthy Indiana Plan",
+        "url": "https://www.in.gov/fssa/hip/"
+      },
+      {
+        "label": "CDC, Legal Status of Expedited Partner Therapy (updated July 1, 2026)",
+        "url": "https://cdc.gov/sti/php/ept-legal-status/index.html",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "Indiana Department of Health, 2024 STI Surveillance Executive Summary Report",
+        "url": "https://www.in.gov/dA/5edfd8b43b/2024-STI-Surveillance-Executive-Summary-Report.pdf?language_id=1",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "Indiana Department of Health, Tick-Borne Diseases",
+        "url": "https://www.in.gov/health/idepd/zoonotic-and-vectorborne-epidemiology-entomology/vector-borne-diseases/tick-borne-diseases",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Indiana Department of Health and Board of Animal Health, Rabies Map and Statistics",
+        "url": "https://www.in.gov/rabies/rabies-by-the-numbers",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Indiana Department of Health and Board of Animal Health, Handling Animal Bites",
+        "url": "https://www.in.gov/rabies/rabies-prevention",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Indiana Department of Health, Influenza",
+        "url": "https://www.in.gov/health/idepd/respiratory-disease/influenza/",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "IDOH statewide standing order CSO-23-11, pharmacist-dispensed hormonal contraception (Sept. 1, 2023)",
+        "url": "https://www.in.gov/health/files/Dr.-Weaver-Protocol-for-Statewide-Standing-Order-for-Hormonal-Contraceptives-CSO-23-11_September-1-2023.pdf",
+        "conditions": [
+          "birth-control-refills-online"
+        ]
+      },
+      {
+        "label": "Indiana Department of Health, Lyme Disease",
+        "url": "https://www.in.gov/health/idepd/zoonotic-and-vectorborne-epidemiology-entomology/zoonotic-diseases/lyme-disease/",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Indiana Department of Health, Indiana Tobacco Quitline",
+        "url": "https://www.in.gov/health/tpc/indiana-tobacco-quitline/",
+        "conditions": [
+          "smoking-cessation-treatment-online"
+        ]
+      },
+      {
+        "label": "CDC, 2023 STI Surveillance State Ranking Tables",
+        "url": "https://www.cdc.gov/sti-statistics/media/pdfs/2024/10/2023-STD-Surveillance-State-Ranking-Tables.pdf",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, certified in family medicine by the American Board of Family Medicine, holds an Indiana physician license from the Indiana Medical Licensing Board, which anyone can confirm through the state's online license verification. Telehealth in Indiana is governed by IC 25-1-9.5, which, as the Indiana Professional Licensing Agency explains, requires informed consent, disclosure of the practitioner's name and licensure, a proper provider-patient relationship, and discussion of when in-person care is advisable. NPI: 1104323203.",
+    "verifyUrl": "https://mylicense.in.gov/everification/",
+    "statuteCitation": "Indiana Code 25-1-9.5 (Telehealth), as summarized by the Indiana Professional Licensing Agency",
+    "licenseNumber": "01092359A",
+    "boardName": "Indiana Medical Licensing Board",
+    "boardUrl": "https://www.in.gov/pla/professions/physicians-home/"
+  },
+  "stateCities": {
+    "metroAndRural": "Indiana had an estimated 6,973,333 residents on July 1, 2025 (U.S. Census Bureau, V2025), at 189.4 per square mile in 2020. TeleDirectMD sees adults across Indiana: Indianapolis with Carmel and Fishers; Fort Wayne in the northeast; South Bend near the Michigan line; Hammond and Gary in the Region; Lafayette, Muncie, Bloomington and Terre Haute in the middle of the state; and Evansville on the Ohio River. The physician and the $79 self-pay price are the same in every Indiana county.",
+    "cityList": [
+      {
+        "city": "Indianapolis"
+      },
+      {
+        "city": "Fort Wayne"
+      },
+      {
+        "city": "Evansville"
+      },
+      {
+        "city": "South Bend"
+      },
+      {
+        "city": "Carmel"
+      },
+      {
+        "city": "Fishers"
+      },
+      {
+        "city": "Bloomington"
+      },
+      {
+        "city": "Hammond"
+      },
+      {
+        "city": "Gary"
+      },
+      {
+        "city": "Lafayette"
+      },
+      {
+        "city": "Muncie"
+      },
+      {
+        "city": "Terre Haute"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "single-payer",
+    "selfPayDisclosure": "In Indiana, TeleDirectMD is in-network with Curative only. Curative members can use their plan, and the plan determines coverage and any cost. TeleDirectMD does not bill other commercial insurers, Medicare, the Healthy Indiana Plan or other Medicaid coverage in Indiana. Without Curative, the visit is a flat $79, paid at booking, with HSA and FSA cards accepted and no later bill for the visit.",
+    "payers": [
+      {
+        "name": "Curative",
+        "anchorId": "curative-coverage",
+        "planNames": "Commercial PPO, EPO, and self-funded plans (EPO Value, EPO (PPOx), PPO (PPO+), PPO Max)",
+        "validFrom": "2026-07-07",
+        "copayNote": "Your Curative plan sets any cost."
+      }
+    ]
+  },
+  "stateFaqs": [
+    {
+      "question": "What does Indiana law require on a telehealth visit?",
+      "answer": "Indiana's telehealth statute, IC 25-1-9.5, as summarized by the Professional Licensing Agency, has the practitioner obtain your informed consent, give their name and licensure, confirm your location and contact information, establish a proper provider-patient relationship, and discuss the diagnosis and when in-person care is advisable. TeleDirectMD's Indiana visits are with Parth Bhavsar, MD, licensed by the Indiana Medical Licensing Board."
+    },
+    {
+      "question": "Does TeleDirectMD take insurance in Indiana?",
+      "answer": "Only Curative. TeleDirectMD is in-network with Curative employer plans in Indiana, and the plan determines coverage and cost. For any other plan, or no insurance, the visit is a flat $79 self-pay, paid at booking, with HSA and FSA cards accepted. TeleDirectMD does not accept the Healthy Indiana Plan or other Medicaid."
+    },
+    {
+      "question": "Can I get a prescription in Indiana without an in-person visit first?",
+      "answer": "For many non-controlled medicines, yes. The Indiana Professional Licensing Agency explains that IC 25-1-9.5 allows prescribing a non-controlled drug to a patient not previously examined in person when the standard of care is met, but not opioids. TeleDirectMD never prescribes controlled substances, and the physician decides whether any prescription fits after the visit."
+    },
+    {
+      "question": "How do I verify Dr. Bhavsar's Indiana license?",
+      "answer": "Use the State of Indiana online license verification and search for Parth Bhavsar. His Indiana physician license is issued by the Indiana Medical Licensing Board, and his National Provider Identifier is 1104323203. He is board-certified in family medicine by the American Board of Family Medicine."
+    },
+    {
+      "question": "Should I worry about privacy on a video visit from home or work in Indiana?",
+      "answer": "Find a private spot. Under Indiana's telehealth statute, as the Professional Licensing Agency summarizes it, a patient waives confidentiality of medical information that others nearby overhear during a telehealth visit. Headphones and a closed door help. The visit itself runs on a secure video platform, and you control who is in the room.",
+      "onHub": true
+    },
+    {
+      "question": "Will a doctor report my animal bite in Indiana?",
+      "answer": "Yes. Indiana requires every animal bite to a person to be reported to the local health department where the bitten person lives, and the state's rabies information site says physicians are required by state law to report the bites they treat. Any adult may also report a bite, and human exposure questions go to the county or state health department."
+    },
+    {
+      "question": "Where do Hoosiers shop for marketplace health insurance?",
+      "answer": "Indiana uses the federally facilitated marketplace, so individual plans are sold through HealthCare.gov, according to CMS's plan year 2027 list. Adults ages 19 to 64 who meet income limits may instead qualify for the Healthy Indiana Plan, which TeleDirectMD does not accept. TeleDirectMD is in-network with Curative in Indiana; otherwise the visit is a flat $79 at booking."
+    }
+  ],
+  "conditionOverrides": {
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "Indiana's tick list is longer than most people expect. The Indiana Department of Health lists Lyme disease, ehrlichiosis, anaplasmosis, spotted fever group rickettsioses, babesiosis, tularemia, Heartland virus and alpha-gal syndrome among tick-borne diseases here, and names Lyme, carried by the blacklegged tick, as the most commonly reported. It notes an infected tick usually has to stay attached 36 to 48 hours to pass Lyme on, and it does not recommend sending a removed tick for lab testing. For adults in Indiana who have removed a tick, a video visit reviews a photo, the attachment time and where you were, then decides whether preventive treatment fits. Fever, a spreading rash or new weakness needs in-person care."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "In Indiana, all animal bites to people must be reported to the local health department where the person who was bitten lives, and physicians are required by state law to make that report. Pets are rarely found rabid in Indiana; bats have been the most common rabid animal since 1988, and 12 bats tested positive in 2025. Cat bites still infect easily. A video visit for adults located in Indiana fits a recent, superficial to moderate bite from a known domestic cat: cleaning, whether an antibiotic is appropriate, and the rabies and reporting questions. A hand bite with swelling or stiffness, or a bite from a stray, needs in-person care."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "Indiana requires that every animal bite to a person be reported to the local health department where the bite victim lives, physicians are required by state law to report the bites they treat, and dogs older than 3 months must be vaccinated against rabies. The Indiana Department of Health and Board of Animal Health note that pets are rarely found rabid in Indiana. For adults in Indiana with a superficial to moderate bite from a known domestic dog, a video visit reviews wound photos, irrigation and whether antibiotics make sense. Deep wounds, bleeding that will not stop, or a bite from a stray or wild animal need an emergency department."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "Indiana counted 31,511 chlamydia cases in 2024, a rate of 455.1 per 100,000, and its surveillance summary says rates remain highest among people aged 15 to 24. In the CDC's 2023 state tables Indiana sat almost exactly at the national rate, 491.0 against 492.2. For adults in Indiana with a positive test, a video visit can confirm the result, prescribe treatment when appropriate and plan a retest. The CDC lists expedited partner therapy as permissible in Indiana, so a partner may be treated without a separate exam; that is decided during the visit. Pelvic pain with fever, testicular swelling or pregnancy calls for in-person care instead."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "The state's 2024 surveillance summary reports 2,323 syphilis cases, a 73 percent increase over five years, even as gonorrhea fell 39.4 percent over the same period. Doxy-PEP, a 200 mg dose of doxycycline after condomless sex, is meant to lower the risk of bacterial STIs including syphilis. For adults in Indiana who meet the eligibility on this page, a video visit can review recent testing and decide whether a standing prescription is appropriate. Sores, rash or discharge need testing and treatment first."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "The Indiana Department of Health is direct about who benefits from flu antivirals: most people with flu have mild symptoms and do not need them, but people at increased risk of complications, or who are very sick, can be prescribed one if diagnosed at the beginning of the illness. For adults located in Indiana whose symptoms began within about 48 hours, a video visit can weigh those risk factors and send an antiviral to your pharmacy when appropriate. Trouble breathing, chest pain, confusion or being unable to keep fluids down needs emergency care, not a video visit."
+    },
+    "birth-control-refills-online": {
+      "stateConditionParagraph": "Indiana pharmacists can dispense birth control under a statewide standing order the Department of Health issued on September 1, 2023. It covers self-administered hormonal contraceptives and patches for patients 18 and older after a self-screening questionnaire and a blood pressure check, and it stops further dispensing after 12 months unless the patient has seen a provider in that time. For an adult in Indiana already stable on a pill, patch or ring, a TeleDirectMD video visit is a separate route to a refill: Dr. Bhavsar reviews a recent blood pressure reading, migraine history and clot risk and sends the prescription to the Indiana pharmacy you choose. Flat $79, or Curative in-network."
+    },
+    "smoking-cessation-treatment-online": {
+      "stateConditionParagraph": "Indiana's Department of Health runs the Indiana Tobacco Quitline at 1-800-QUIT-NOW for every tobacco user in the state, including smokeless tobacco and e-cigarette users. A Quit Coach builds a customized quit plan and explains nicotine replacement options. A TeleDirectMD video visit can complement that coaching with a prescription medicine that reduces cravings. For an adult in Indiana who smokes or uses tobacco and wants to quit, Dr. Bhavsar reviews seizure history, mood, recent heart events and current medications, then sends a prescription to your Indiana pharmacy when appropriate. Pregnancy or breastfeeding calls for in-person care. Flat $79, or Curative in-network."
+    }
+  },
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Indiana Code 25-1-9.5 (Telehealth)",
+        "renderAt": "hero-credential",
+        "content": "Indiana Code 25-1-9.5 governs telehealth in Indiana. As the Indiana Professional Licensing Agency summarizes it, a practitioner must ensure a proper provider-patient relationship is established, obtain informed consent, disclose their name and licensure, obtain the patient's location and contact information, and discuss when it is advisable to seek in-person care. TeleDirectMD sees patients located in Indiana by real-time video through Parth Bhavsar, MD, licensed by the Indiana Medical Licensing Board."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}
