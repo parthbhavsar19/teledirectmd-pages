@@ -140,51 +140,46 @@
         "label": "U.S. Census Bureau QuickFacts, New York (Vintage 2025 estimate)",
         "url": "https://www.census.gov/quickfacts/fact/table/NY/PST045225"
       },
-        {
-          "label": "CDC MMWR, Trichophyton indotineae in New York City, May 12, 2023",
-          "url": "https://www.cdc.gov/mmwr/volumes/72/wr/mm7219a4.htm",
+      {
+        "label": "CDC MMWR, Trichophyton indotineae in New York City, May 12, 2023",
+        "url": "https://www.cdc.gov/mmwr/volumes/72/wr/mm7219a4.htm",
         "conditions": ["tinea-treatment-online"]
-        },
-        {
-          "label": "CDC MMWR, Trichophyton mentagrophytes genotype VII in New York City, October 31, 2024",
-          "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7343a5.htm",
+      },
+      {
+        "label": "CDC MMWR, Trichophyton mentagrophytes genotype VII in New York City, October 31, 2024",
+        "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7343a5.htm",
         "conditions": ["tinea-treatment-online"]
-        },
-        {
-          "label": "NYS Department of Health, BRFSS Brief 2025-01, High Blood Pressure",
-          "url": "https://www.health.ny.gov/statistics/brfss/reports/docs/2025-01_brfss_high_blood_pressure.pdf",
+      },
+      {
+        "label": "NYC Health Department, Choose less sodium (chain restaurant sodium warning)",
+        "url": "https://www.nyc.gov/site/doh/health/health-topics/heart-disease-choose-less-sodium.page",
         "conditions": ["hypertension-refills-online"]
-        },
-        {
-          "label": "NYC Health Department, Choose less sodium (chain restaurant sodium warning)",
-          "url": "https://www.nyc.gov/site/doh/health/health-topics/heart-disease-choose-less-sodium.page",
-        "conditions": ["hypertension-refills-online"]
-        },
-        {
-          "label": "NYS Department of Health, Rabies fact sheet",
-          "url": "https://www.health.ny.gov/diseases/communicable/rabies/fact_sheet",
+      },
+      {
+        "label": "NYS Department of Health, Rabies fact sheet",
+        "url": "https://www.health.ny.gov/diseases/communicable/rabies/fact_sheet",
         "conditions": ["cat-bite-treatment-online"]
-        },
-        {
-          "label": "NYS Department of Health, Preventing exposure to rabies, June 17, 2026",
-          "url": "https://www.health.ny.gov/press/releases/2026/2026-06-17_preventing_exposure_to_rabies.htm",
+      },
+      {
+        "label": "NYS Department of Health, Preventing exposure to rabies, June 17, 2026",
+        "url": "https://www.health.ny.gov/press/releases/2026/2026-06-17_preventing_exposure_to_rabies.htm",
         "conditions": ["cat-bite-treatment-online"]
-        },
-        {
-          "label": "NYS Department of Health, Expedited Partner Therapy",
-          "url": "https://www.health.ny.gov/diseases/communicable/std/ept/general_info.htm",
+      },
+      {
+        "label": "NYS Department of Health, Expedited Partner Therapy",
+        "url": "https://www.health.ny.gov/diseases/communicable/std/ept/general_info.htm",
         "conditions": ["chlamydia-treatment-online", "trichomoniasis-treatment-online"]
-        },
-        {
-          "label": "NYC Health Department, Sexual Health Clinics",
-          "url": "https://www.nyc.gov/site/doh/services/sexual-health-clinics.page",
+      },
+      {
+        "label": "NYC Health Department, Sexual Health Clinics",
+        "url": "https://www.nyc.gov/site/doh/services/sexual-health-clinics.page",
         "conditions": ["bv-treatment-online", "chlamydia-treatment-online", "trichomoniasis-treatment-online", "doxypep-sti-prevention-online", "genital-herpes-treatment-online"]
-        },
-        {
-          "label": "Schillinger JA et al., HSV-2 in New York City adults, Sex Transm Dis 2008;35(6):599-606",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/18418295/",
+      },
+      {
+        "label": "Schillinger JA et al., HSV-2 in New York City adults, Sex Transm Dis 2008;35(6):599-606",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18418295/",
         "conditions": ["genital-herpes-treatment-online"]
-        },
+      },
       {
         "label": "NYS Department of Health, New York State Flu Tracker (weekly lab-confirmed cases and hospitalizations)",
         "url": "https://nyshc.health.ny.gov/web/nyapd/new-york-state-flu-tracker",
@@ -199,11 +194,6 @@
         "label": "NYC311, Find a doctor at NYC Health + Hospitals",
         "url": "https://portal.311.nyc.gov/article/?kanumber=KA-03254",
         "scope": "all"
-      },
-      {
-        "label": "NYS Department of Health, Tobacco-Related Cancers in New York State, 2016-2020",
-        "url": "https://www.health.ny.gov/statistics/diseases/cancer/docs/tobacco_related_cancers_report_2016-2020.pdf",
-        "conditions": ["acid-reflux-refills-online"]
       },
       {
         "label": "Katz PO et al., ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease, Am J Gastroenterol 2022 (PubMed 34807007)",
@@ -264,11 +254,6 @@
         "label": "American Academy of Dermatology, Rash 101 in adults: When to seek medical treatment",
         "url": "https://www.aad.org/public/everyday-care/itchy-skin/rash/rash-101",
         "conditions": ["eczema-treatment-online"]
-      },
-      {
-        "label": "NYS Department of Health, BRFSS Brief Number 2024-23, Diabetes, New York State Adults, 2022",
-        "url": "https://www.health.ny.gov/statistics/brfss/reports/docs/2024-23_brfss_diabetes.pdf",
-        "conditions": ["erectile-dysfunction-treatment-online"]
       },
       {
         "label": "NIDDK, Symptoms and Causes of Erectile Dysfunction",
@@ -344,6 +329,426 @@
         "label": "NYSDOH AIDS Institute Clinical Guidelines Program, Guidance: Partner Treatment to Prevent Recurrent Bacterial Vaginosis (February 19, 2026)",
         "url": "https://www.hivguidelines.org/guideline/sti-bv/",
         "conditions": ["bv-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Health, BRFSS Brief No. 2025-18, Cigarette Smoking, New York State Adults, 2023 (July 2025)",
+        "url": "https://www.health.ny.gov/statistics/brfss/reports/docs/2025-18_brfss_cigarette_smoking.pdf",
+        "conditions": ["acid-reflux-refills-online", "erectile-dysfunction-treatment-online"]
+      },
+      {
+        "label": "NYC Health Department, campaign raising awareness of resources to help New Yorkers quit smoking (February 24, 2026)",
+        "url": "https://www.nyc.gov/site/doh/about/press/pr2026/nyc-health-launches-campaign-quit-smoking-2026.page",
+        "conditions": ["acid-reflux-refills-online", "erectile-dysfunction-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Taxation and Finance, Tax Bulletin TB-ST-193, Drugstores and Pharmacies",
+        "url": "https://tax.ny.gov/pubs_and_bulls/tg_bulletins/st/drugstores.htm",
+        "conditions": ["acid-reflux-refills-online", "dandruff-treatment-online", "tinea-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Health, Tobacco-Related Cancers in New York State, 2018-2022 (2025)",
+        "url": "https://healthweb-back.health.ny.gov/statistics/diseases/cancer/docs/tobacco_related_cancers_report_2018-2022.pdf",
+        "conditions": ["acid-reflux-refills-online"]
+      },
+      {
+        "label": "NYC Health Department, Health Insurance Billing and Fees at Sexual Health Clinics",
+        "url": "https://www.nyc.gov/site/doh/services/health-insurance-faq-for-sexualhealth-clinics.page",
+        "conditions": ["bv-treatment-online"]
+      },
+      {
+        "label": "10 NYCRR Section 2.14, Reporting of suspected rabid animals and persons exposed to them (State Sanitary Code)",
+        "url": "https://regs.health.ny.gov/node/48632",
+        "conditions": ["cat-bite-treatment-online"]
+      },
+      {
+        "label": "New York Public Health Law Section 2141 (compulsory rabies vaccination of dogs, cats and ferrets)",
+        "url": "https://www.nysenate.gov/legislation/laws/PBH/2141",
+        "conditions": ["cat-bite-treatment-online"]
+      },
+      {
+        "label": "New York Public Health Law Section 2145 (rabies; services and expenses of suppression)",
+        "url": "https://www.nysenate.gov/legislation/laws/PBH/2145",
+        "conditions": ["cat-bite-treatment-online"]
+      },
+      {
+        "label": "New York Public Health Law Section 2146 (City of New York; exceptions)",
+        "url": "https://www.nysenate.gov/legislation/laws/PBH/2146",
+        "conditions": ["cat-bite-treatment-online"]
+      },
+      {
+        "label": "New York City Health Code Article 11 (reportable diseases and conditions; Sections 11.03, 11.05, 11.27)",
+        "url": "https://www.nyc.gov/assets/doh/downloads/pdf/about/healthcode/health-code-article11.pdf",
+        "conditions": ["cat-bite-treatment-online"]
+      },
+      {
+        "label": "NYC Health Department, Report an Animal Bite",
+        "url": "https://www.nyc.gov/site/doh/health/health-topics/animals-and-wildlife-report-animal-bite.page",
+        "conditions": ["cat-bite-treatment-online"]
+      },
+      {
+        "label": "NYC Health Department, 2026 Veterinary Advisory #1: Summary of 2025 Animal Rabies Surveillance (April 8, 2026)",
+        "url": "https://www.nyc.gov/assets/doh/downloads/pdf/zoo/26vet-1-rabies-summary.pdf",
+        "conditions": ["cat-bite-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Health, STI Awareness Week data release, April 16, 2025",
+        "url": "https://www.health.ny.gov/press/releases/2025/2025-04-16_sti_awareness_week.htm",
+        "conditions": ["chlamydia-treatment-online", "doxypep-sti-prevention-online", "genital-herpes-treatment-online"]
+      },
+      {
+        "label": "NYSDOH AIDS Institute, Questions, Answers, and Best Practices for Expedited Partner Treatment (EPT), April 29, 2025",
+        "url": "https://hivguidelines.org/guideline/sti-ept",
+        "conditions": ["chlamydia-treatment-online", "doxypep-sti-prevention-online", "trichomoniasis-treatment-online"]
+      },
+      {
+        "label": "NYC Health Department, Sexually Transmitted Infections Surveillance Annual Report 2024 (February 2026)",
+        "url": "https://nyc.gov/assets/doh/downloads/pdf/std/sti-2024-report.pdf",
+        "conditions": ["chlamydia-treatment-online", "doxypep-sti-prevention-online", "genital-herpes-treatment-online", "uti-treatment-online"]
+      },
+      {
+        "label": "NYC Health Department, 2023 STI surveillance data release, December 23, 2024",
+        "url": "https://www.nyc.gov/site/doh/about/press/pr2024/nyc-health-department-releases-2023-sti-surveillance-data.page",
+        "conditions": ["chlamydia-treatment-online", "doxypep-sti-prevention-online"]
+      },
+      {
+        "label": "NYC Health Department, Sexually Transmitted Infections (STIs)",
+        "url": "https://www.nyc.gov/site/doh/health/health-topics/sexually-transmitted-infections.page",
+        "conditions": ["chlamydia-treatment-online", "doxypep-sti-prevention-online", "trichomoniasis-treatment-online", "uti-treatment-online", "yeast-infection-treatment-online"]
+      },
+      {
+        "label": "NYC Health Department, Chlamydia",
+        "url": "https://www.nyc.gov/site/doh/health/health-topics/chlamydia.page",
+        "conditions": ["chlamydia-treatment-online", "uti-treatment-online"]
+      },
+      {
+        "label": "NYC Health Department, Expedited Partner Therapy",
+        "url": "https://www.nyc.gov/site/doh/health/health-topics/expedited-partner-therapy.page",
+        "conditions": ["chlamydia-treatment-online", "trichomoniasis-treatment-online"]
+      },
+      {
+        "label": "NYC Health Department, Sexually Transmitted Infections: Information for Providers (reporting)",
+        "url": "https://www.nyc.gov/site/doh/providers/health-topics/sexually-transmitted-infections.page",
+        "conditions": ["chlamydia-treatment-online", "genital-herpes-treatment-online"]
+      },
+      {
+        "label": "10 NYCRR Section 2.1, Communicable diseases designated",
+        "url": "https://regs.health.ny.gov/content/section-21-communicable-diseases-designated-cases-suspected-cases-and-certain-carriers-be",
+        "conditions": ["chlamydia-treatment-online", "genital-herpes-treatment-online", "trichomoniasis-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Health, Accessing Partner Services",
+        "url": "https://health.ny.gov/diseases/communicable/std/partner_services/accessing_partner_services.htm",
+        "conditions": ["chlamydia-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Health, Partner Services FAQs for Patients",
+        "url": "https://health.ny.gov/diseases/communicable/std/partner_services/faqs_for_patients.htm",
+        "conditions": ["chlamydia-treatment-online", "genital-herpes-treatment-online", "trichomoniasis-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Health, Sexually Transmitted Infection Information",
+        "url": "https://www.health.ny.gov/diseases/communicable/std/sti_information.htm",
+        "conditions": ["chlamydia-treatment-online", "trichomoniasis-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Health, Sexually Transmitted Infections Surveillance Report, New York State, 2024",
+        "url": "https://health.ny.gov/statistics/diseases/communicable/std/docs/sti_surveillance_report_2024.pdf",
+        "conditions": ["chlamydia-treatment-online", "doxypep-sti-prevention-online", "genital-herpes-treatment-online"]
+      },
+      {
+        "label": "CDC, Sexually Transmitted Infections Treatment Guidelines 2021: Genital Herpes",
+        "url": "https://www.cdc.gov/std/treatment-guidelines/herpes.htm",
+        "conditions": ["cold-sore-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Health, COVID-19 Treatments",
+        "url": "https://coronavirus.health.ny.gov/covid-19-treatments",
+        "conditions": ["covid-19-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Health, Respiratory Surveillance Report, week ending May 23, 2026",
+        "url": "https://healthweb-back.health.ny.gov/diseases/communicable/respiratory_viruses/activity/2025-2026/docs/2026-05-23_respiratory_report.pdf",
+        "conditions": ["covid-19-treatment-online", "influenza-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Health, Wastewater Surveillance in New York State",
+        "url": "https://healthweb-back.health.ny.gov/environmental/wastewater.htm",
+        "conditions": ["covid-19-treatment-online"]
+      },
+      {
+        "label": "NYC Health Department, COVID-19: When You Are Sick",
+        "url": "https://www.nyc.gov/site/doh/covid/covid-19-whensick.page",
+        "conditions": ["covid-19-treatment-online"]
+      },
+      {
+        "label": "NYC Health Department, COVID-19: Outpatient Therapeutic Information for Providers",
+        "url": "https://www.nyc.gov/site/doh/covid/covid-19-providers-treatments.page",
+        "conditions": ["covid-19-treatment-online"]
+      },
+      {
+        "label": "New York Paid Family Leave, COVID-19 Paid Leave: Guidance for Employers",
+        "url": "https://paidfamilyleave.ny.gov/covid-19-paid-leave-guidance-employers",
+        "conditions": ["covid-19-treatment-online"]
+      },
+      {
+        "label": "New York Education Law Section 6801 (pharmacist testing and immunization)",
+        "url": "https://www.nysenate.gov/legislation/laws/EDN/6801",
+        "conditions": ["covid-19-treatment-online", "influenza-treatment-online", "sore-throat-treatment-online"]
+      },
+      {
+        "label": "NYC Department of Consumer and Worker Protection, Paid Safe and Sick Leave FAQs",
+        "url": "https://www.nyc.gov/site/dca/about/paid-sick-leave-FAQs.page",
+        "conditions": ["covid-19-treatment-online", "influenza-treatment-online", "sore-throat-treatment-online"]
+      },
+      {
+        "label": "New York Public Health Law Section 2781-a (required offering of HIV related testing)",
+        "url": "https://www.nysenate.gov/legislation/laws/PBH/2781-A",
+        "conditions": ["dandruff-treatment-online"]
+      },
+      {
+        "label": "NYSDOH AIDS Institute, Doxycycline Post-Exposure Prophylaxis to Prevent Bacterial STIs (October 15, 2024 update)",
+        "url": "https://hivguidelines.org/guideline/sti-doxy-pep",
+        "conditions": ["doxypep-sti-prevention-online"]
+      },
+      {
+        "label": "NYS Department of Health, Doxy-PEP: What Health Care Providers Need to Know",
+        "url": "https://health.ny.gov/diseases/communicable/std/doxy_pep/providers.htm",
+        "conditions": ["doxypep-sti-prevention-online"]
+      },
+      {
+        "label": "NYS Department of Health, Doxycycline Post-Exposure Prophylaxis (Doxy-PEP), patient information",
+        "url": "https://www.health.ny.gov/diseases/communicable/std/doxy_pep/",
+        "conditions": ["doxypep-sti-prevention-online"]
+      },
+      {
+        "label": "NYC Health Department, renewal of ONE Condoms partnership and 2024 STI data, April 14, 2026",
+        "url": "https://www.nyc.gov/site/doh/about/press/pr2026/health-department-renews-partnership-with-one-condoms.page",
+        "conditions": ["doxypep-sti-prevention-online", "genital-herpes-treatment-online"]
+      },
+      {
+        "label": "NYC Health Department, Emergency Post-Exposure Prophylaxis (PEP)",
+        "url": "https://www.nyc.gov/site/doh/health/health-topics/post-exposure-prophylaxis-pep.page",
+        "conditions": ["doxypep-sti-prevention-online"]
+      },
+      {
+        "label": "NYSDOH AIDS Institute, PEP to Prevent HIV Infection",
+        "url": "https://www.hivguidelines.org/guideline/hiv-pep/",
+        "conditions": ["doxypep-sti-prevention-online"]
+      },
+      {
+        "label": "NYC Health Department, New York City Beach Surveillance and Monitoring Program, 2025 Report",
+        "url": "https://www.nyc.gov/assets/doh/downloads/pdf/beach/beach-report-2025.pdf",
+        "conditions": ["ear-pain-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Health, Bathing Beaches",
+        "url": "https://healthweb-back.health.ny.gov/environmental/outdoors/swimming/beaches.htm",
+        "conditions": ["ear-pain-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Health, BRFSS Brief No. 2025-19, Diabetes, New York State Adults, 2023 (October 2025)",
+        "url": "https://www.health.ny.gov/statistics/brfss/reports/docs/2025-19_brfss_diabetes.pdf",
+        "conditions": ["ear-pain-treatment-online", "erectile-dysfunction-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Health, Occupational Health Clinic Network (revised January 2024)",
+        "url": "https://healthweb-back.health.ny.gov/environmental/workplace/clinic_network.htm",
+        "conditions": ["eczema-treatment-online"]
+      },
+      {
+        "label": "NYS Workers' Compensation Board, Occupational Disease",
+        "url": "https://www.wcb.ny.gov/content/main/Workers/OccDisease.jsp",
+        "conditions": ["eczema-treatment-online"]
+      },
+      {
+        "label": "NYC Department of Housing Preservation and Development, Heat and Hot Water",
+        "url": "https://www.nyc.gov/site/hpd/services-and-information/heat-and-hot-water-information.page",
+        "conditions": ["eczema-treatment-online"]
+      },
+      {
+        "label": "NYS Office of Mental Health, 988 Suicide and Crisis Lifeline",
+        "url": "https://www.omh.ny.gov/omhweb/crisis/988.html",
+        "conditions": ["erectile-dysfunction-treatment-online", "hair-loss-treatment-online"]
+      },
+      {
+        "label": "NYC Health Department, Do Not Drink Poppers (safety warning)",
+        "url": "https://www.nyc.gov/assets/doh/downloads/pdf/poison/poppers-safety-warning.pdf",
+        "conditions": ["erectile-dysfunction-treatment-online"]
+      },
+      {
+        "label": "NYC Health Department, Poison Control (NYC Poison Center)",
+        "url": "https://www.nyc.gov/site/doh/health/health-topics/poison-control.page",
+        "conditions": ["erectile-dysfunction-treatment-online", "pink-eye-treatment-online"]
+      },
+      {
+        "label": "New York Education Law Section 6808-b (registration of nonresident establishments)",
+        "url": "https://www.nysenate.gov/legislation/laws/EDN/6808-B",
+        "conditions": ["erectile-dysfunction-treatment-online", "hair-loss-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Health, BRFSS Brief No. 2026-02, High Blood Pressure, New York State Adults, 2024 (February 2026)",
+        "url": "https://healthweb-back.health.ny.gov/statistics/brfss/reports/docs/2026-02_brfss_blood_pressure.pdf",
+        "conditions": ["erectile-dysfunction-treatment-online", "hypertension-refills-online"]
+      },
+      {
+        "label": "NYC Health Department, Herpes",
+        "url": "https://www.nyc.gov/site/doh/health/health-topics/herpes.page",
+        "conditions": ["genital-herpes-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Taxation and Finance, Tax Bulletin ST-193, Drugstores and Pharmacies (April 18, 2024)",
+        "url": "https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/drugstores.htm",
+        "conditions": ["genital-herpes-treatment-online", "uti-treatment-online", "yeast-infection-treatment-online"]
+      },
+      {
+        "label": "CDC, About Syphilis",
+        "url": "https://www.cdc.gov/syphilis/about/index.html",
+        "conditions": ["hair-loss-treatment-online"]
+      },
+      {
+        "label": "NYC Health Department, Sexually Transmitted Infections Surveillance Annual Report, 2024 (February 2026)",
+        "url": "https://www.nyc.gov/assets/doh/downloads/pdf/std/sti-2024-report.pdf",
+        "conditions": ["hair-loss-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Health, Confirms Most Flu Cases Ever Recorded in One Week, December 26, 2025",
+        "url": "https://healthweb-back.health.ny.gov/press/releases/2025/2025-12-26_flu_cases.htm",
+        "conditions": ["influenza-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Health, Commissioner's declaration that influenza is no longer prevalent, April 23, 2026 (10 NYCRR 2.59)",
+        "url": "https://healthweb-back.health.ny.gov/diseases/communicable/influenza/seasonal/providers/prevention_of_influenza_transmission/docs/2026-04-23_flu_not_prevalent.pdf",
+        "conditions": ["influenza-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Health, Health Advisory: 2025-2026 Surveillance and Reporting Requirements for Influenza, COVID-19 and RSV, October 3, 2025",
+        "url": "https://healthweb-back.health.ny.gov/diseases/communicable/respiratory_viruses/docs/2025-10-03_health_advisory.pdf",
+        "conditions": ["influenza-treatment-online"]
+      },
+      {
+        "label": "NYC Health Department, Influenza Clinical Management (provider guidance)",
+        "url": "https://www.nyc.gov/site/doh/providers/health-topics/influenza-clinical-management.page",
+        "conditions": ["influenza-treatment-online"]
+      },
+      {
+        "label": "NYC Health Department, New data showing more than 146,000 flu cases this respiratory virus season, February 12, 2026",
+        "url": "https://www.nyc.gov/site/doh/about/press/pr2026/new-respiratory-virus-data-release-02122026.page",
+        "conditions": ["influenza-treatment-online"]
+      },
+      {
+        "label": "New York Labor Law Section 196-b (paid sick leave)",
+        "url": "https://nysenate.gov/legislation/laws/LAB/196-B",
+        "conditions": ["influenza-treatment-online", "sore-throat-treatment-online"]
+      },
+      {
+        "label": "NYC Health Department, 2026 Health Advisory #5: Spring is Here: Prepare People with Asthma for Pollen Season, March 16, 2026",
+        "url": "https://www.nyc.gov/assets/doh/downloads/pdf/han/advisory/2026/han-advisory-5-pollen-asthma.pdf",
+        "conditions": ["pink-eye-treatment-online", "sinus-infection-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Environmental Conservation, Statewide Air Quality Health Advisory, July 15, 2026",
+        "url": "https://dec.ny.gov/news/press-releases/2026/7/statewide-air-quality-health-advisory",
+        "conditions": ["pink-eye-treatment-online", "sinus-infection-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Health, New York Regional Poison Control Centers",
+        "url": "https://healthweb-back.health.ny.gov/professionals/poison_control/centers.htm",
+        "conditions": ["pink-eye-treatment-online"]
+      },
+      {
+        "label": "New York Public Health Law Section 18 (access to patient information)",
+        "url": "https://www.nysenate.gov/legislation/laws/PBH/18",
+        "conditions": ["psoriasis-refills-online"]
+      },
+      {
+        "label": "New York Education Law Section 6829 (interpretation and translation requirements for prescription drugs)",
+        "url": "https://www.nysenate.gov/legislation/laws/EDN/6829",
+        "conditions": ["psoriasis-refills-online"]
+      },
+      {
+        "label": "NYS Department of Health, Memorandum: Control of Scabies in Health Care Facilities (1996, revised April 2008)",
+        "url": "https://healthweb-back.health.ny.gov/professionals/diseases/reporting/communicable/infection/96-14_scabies_control_in_hcf.htm",
+        "conditions": ["scabies-treatment-online"]
+      },
+      {
+        "label": "New York Labor Law Section 196-b (sick leave)",
+        "url": "https://www.nysenate.gov/legislation/laws/LAB/196-B",
+        "conditions": ["scabies-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Health and NYC Health Department, Health Advisory: Increase in Invasive Group A Streptococcal Infections in New York State, April 7, 2023",
+        "url": "https://www.nyc.gov/assets/doh/downloads/pdf/han/advisory/2023/han-advisory-6.pdf",
+        "conditions": ["sore-throat-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Health, Streptococcal Infections (invasive group A strep, GAS) fact sheet",
+        "url": "https://healthweb-back.health.ny.gov/diseases/communicable/streptococcal/group_a/fact_sheet.htm",
+        "conditions": ["sore-throat-treatment-online"]
+      },
+      {
+        "label": "New York State Assembly Bill A3285 (2025-2026), pharmacist ordering and administering of certain tests",
+        "url": "https://nysenate.gov/legislation/bills/2025/A3285",
+        "conditions": ["sore-throat-treatment-online"]
+      },
+      {
+        "label": "NYC Health Department, 2026 Health Advisory #14: Tick-borne Diseases in New York City (June 2, 2026)",
+        "url": "https://www.nyc.gov/assets/doh/downloads/pdf/han/advisory/2026/han-advisory-14-tick-borne-diseases.pdf",
+        "conditions": ["tick-bite-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Health, Urges New Yorkers to take precautions against tick-borne illness (May 12, 2025)",
+        "url": "https://healthweb-back.health.ny.gov/press/releases/2025/2025-05-12_lyme_disease.htm",
+        "conditions": ["tick-bite-treatment-online"]
+      },
+      {
+        "label": "Caplan AS et al., Clinical Course, Antifungal Susceptibility, and Genomic Sequencing of Trichophyton indotineae, JAMA Dermatol 2024;160(7):701-709",
+        "url": "https://jamanetwork.com/journals/jamadermatology/fullarticle/2818522",
+        "conditions": ["tinea-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Health, Fungal Disease Awareness Week (September 20, 2023)",
+        "url": "https://healthweb-back.health.ny.gov/press/releases/2023/2023-09-20_fungus_week.htm",
+        "conditions": ["tinea-treatment-online"]
+      },
+      {
+        "label": "Wadsworth Center, Mycology Laboratory develops automated pipeline for Trichophyton species (April 14, 2026)",
+        "url": "https://wadsworth.org/news/wadsworth-center-mycology-laboratory-develops-automated-pipeline-trichophyton-species-and",
+        "conditions": ["tinea-treatment-online"]
+      },
+      {
+        "label": "NYC Health Department, Trichomoniasis",
+        "url": "https://www.nyc.gov/site/doh/health/health-topics/trichomoniasis.page",
+        "conditions": ["trichomoniasis-treatment-online", "yeast-infection-treatment-online"]
+      },
+      {
+        "label": "NYC Health Department, New York City Antibiogram",
+        "url": "https://www.nyc.gov/site/doh/providers/resources/antibiogram.page",
+        "conditions": ["uti-treatment-online"]
+      },
+      {
+        "label": "NYC Health Department, 2024 New York City Citywide Antibiogram",
+        "url": "https://nyc.gov/assets/doh/downloads/pdf/csi/nyc-citywide-antibiograms-2024.pdf",
+        "conditions": ["uti-treatment-online"]
+      },
+      {
+        "label": "NYC Health Department, Urethritis",
+        "url": "https://www.nyc.gov/site/doh/health/health-topics/urethritis.page",
+        "conditions": ["uti-treatment-online"]
+      },
+      {
+        "label": "New York Tax Law Section 1115 (exemptions from sales and use taxes)",
+        "url": "https://www.nysenate.gov/legislation/laws/TAX/1115",
+        "conditions": ["uti-treatment-online", "yeast-infection-treatment-online"]
+      },
+      {
+        "label": "NYC Health Department, Yeast Infection",
+        "url": "https://www.nyc.gov/site/doh/health/health-topics/yeast-infection.page",
+        "conditions": ["yeast-infection-treatment-online"]
+      },
+      {
+        "label": "NYC Health Department, Candida Auris",
+        "url": "https://www.nyc.gov/site/doh/health/health-topics/candida-auris.page",
+        "conditions": ["yeast-infection-treatment-online"]
       }
     ]
   },
@@ -459,82 +864,523 @@
   ],
   "conditionOverrides": {
     "uti-treatment-online": {
-      "stateConditionParagraph": "For women in New York with typical, uncomplicated bladder infection symptoms (burning, frequency, urgency), a video visit is often enough to decide on treatment. The New York State Department of Health's adult outpatient treatment recommendations note that cloudy or foul-smelling urine alone does not diagnose a UTI, and that treating bacteria found in urine without symptoms is not recommended for healthy adults. TeleDirectMD's UTI care is limited to non-pregnant adult women; men with urinary symptoms, and anyone with fever, flank pain, vomiting or pregnancy, should be seen in person. When an antibiotic is appropriate, it is sent electronically to the pharmacy you choose. Flat $79 for adults physically in New York."
+      "stateConditionParagraph": "For women in New York with typical, uncomplicated bladder infection symptoms (burning, frequency, urgency), a video visit is often enough to decide on treatment. The New York State Department of Health's adult outpatient treatment recommendations note that cloudy or foul-smelling urine alone does not diagnose a UTI, and that treating bacteria found in urine without symptoms is not recommended for healthy adults. TeleDirectMD's UTI care is limited to non-pregnant adult women; men with urinary symptoms, and anyone with fever, flank pain, vomiting or pregnancy, should be seen in person. When an antibiotic is appropriate, it is sent electronically to the pharmacy you choose. Flat $79 for adults physically in New York.",
+      "sectionNotes": {
+        "medications": "New York City's Health Department publishes a citywide antibiogram each year, pooling hospital lab results so clinicians can see local antibiotic resistance. In the 2024 edition, 65 percent of E. coli urine samples from emergency departments were susceptible to trimethoprim-sulfamethoxazole, so about 35 percent were not. By comparison, 98 percent were susceptible to nitrofurantoin and 95 percent to fosfomycin. The table above lists trimethoprim-sulfamethoxazole as an option where local resistance is below 20 percent. These are hospital samples, not only simple bladder infections, and they do not describe upstate New York, but local patterns like these are one of the factors weighed when an antibiotic is chosen.",
+        "differential": "Chlamydia can cause burning that feels like a bladder infection. The New York City Health Department lists pain during urination and vaginal discharge that is different than usual among its symptoms, and notes that most people with chlamydia have none at all. In the city's 2024 surveillance report, women ages 15 to 24 accounted for 56 percent of chlamydia cases reported among women, with a case rate about five times that of women overall.",
+        "when-not": "Men with urinary burning are referred to in-person care rather than treated for a UTI here. The New York City Health Department notes that burning or pain during urination, sometimes with discharge from the penis, can be urethritis, which can be a sign of a sexually transmitted infection such as chlamydia or gonorrhea. In New York City, the Health Department's Sexual Health Clinics provide low- or no-cost STI care to anyone 12 or older, mostly on a walk-in basis and regardless of immigration status, and they still see patients who cannot pay the sliding-scale fee."
+      },
+      "faqs": [
+        {
+          "question": "Where can I get an STI test in New York City if my symptoms might not be a UTI?",
+          "answer": "If you have symptoms, the New York City Health Department's Sexual Health Clinics see patients 12 and older, mostly walk-in, at low or no cost. For routine testing without symptoms, the Chelsea Express Clinic in Manhattan and the Fort Greene Express Clinic in Brooklyn offer appointments for HIV, chlamydia, gonorrhea and syphilis testing, with chlamydia and gonorrhea results usually available within hours. The clinic hotline is 347-396-7959, Monday to Friday, 9 a.m. to 3:30 p.m."
+        },
+        {
+          "question": "Do I pay sales tax on UTI medicine in New York?",
+          "answer": "No. New York Tax Law Section 1115 exempts drugs and medicines used to treat or prevent illness from sales tax. The state Department of Taxation and Finance's drugstore bulletin says the exemption covers prescription drugs such as antibiotics and over-the-counter medicines such as pain relievers, and that it applies however the medicine is paid for at the pharmacy. The visit fee is separate from what you pay at the pharmacy."
+        }
+      ]
     },
     "sore-throat-treatment-online": {
-      "stateConditionParagraph": "Sore throats peak in New York in late fall and winter; searches for strep throat across the state run about 40,000 a month in November and December. Most adult sore throats are viral, and the 2025 IDSA strep guideline estimates group A strep at 5 to 15 percent of adult cases, so the key question is whether you need a strep test. A video visit can sort out who needs testing and who does not, and can point you to a nearby pharmacy or urgent care for a swab when one is needed. Flat $79 for adults physically in New York."
+      "stateConditionParagraph": "Sore throats peak in New York in late fall and winter; searches for strep throat across the state run about 40,000 a month in November and December. Most adult sore throats are viral, and the 2025 IDSA strep guideline estimates group A strep at 5 to 15 percent of adult cases, so the key question is whether you need a strep test. A video visit can sort out who needs testing and who does not, and can point you to a nearby pharmacy or urgent care for a swab when one is needed. Flat $79 for adults physically in New York.",
+      "sectionNotes": {
+        "causes-risk-factors": "The state Department of Health says the bacteria spread by direct contact with nose and throat discharges of an infected person. If someone in your household has been diagnosed with strep throat, mention it during your visit, since close contact is one of the risk factors listed above.",
+        "symptoms-redflags": "Group A strep occasionally causes invasive infection. The state Department of Health lists fever, dizziness, confusion, low blood pressure, rash and abdominal pain as early signs of streptococcal toxic shock syndrome. Those signs need emergency care, not a video visit.",
+        "differential": "A video visit cannot swab your throat, so it helps to know what New York pharmacies can and cannot test. State law lets pharmacists order and administer FDA-authorized COVID-19 and influenza tests (Education Law Section 6801), which can help when a sore throat comes with flu or COVID-19 symptoms. Strep tests are not on that list. A 2025 Assembly bill (A3285) would add tests for strep throat; it was referred to the Assembly Higher Education Committee on January 7, 2026, and has not become law.",
+        "home-care": "Strep throat stops being contagious sooner than many people expect. The New York State Department of Health says treatment with an appropriate antibiotic for 24 hours or longer eliminates contagiousness. If you need time off before then, New York's paid sick leave law (Labor Law Section 196-b) covers your own illness and its diagnosis, care or treatment, and New York City employers can require documentation only after more than three consecutive workdays of protected time off."
+      },
+      "faqs": [
+        {
+          "question": "Can I get a strep test at a pharmacy in New York?",
+          "answer": "New York's pharmacist testing law names FDA-authorized COVID-19 and influenza tests and does not list strep tests (Education Law Section 6801). A bill to add strep throat testing, Assembly bill A3285, was referred to committee on January 7, 2026 and has not become law. If Dr. Bhavsar decides during a video visit that a strep test would change your treatment, the visit can point you to a nearby place for a swab."
+        },
+        {
+          "question": "When can I go back to work with strep throat in New York?",
+          "answer": "The New York State Department of Health says treatment with an appropriate antibiotic for 24 hours or longer eliminates contagiousness. You may still feel too sick to work. State paid sick leave covers your own illness, and in New York City an employer can require documentation only after more than three consecutive workdays of protected time off."
+        },
+        {
+          "question": "When is strep season in New York?",
+          "answer": "A 2023 advisory from the state and city health departments describes a seasonal pattern for group A strep infections from December through April, and notes that strep throat is most common among children ages 5 to 15. Most adult sore throats are still viral. If your sore throat comes with signs the state lists for streptococcal toxic shock syndrome, such as fever with dizziness, confusion, a rash or abdominal pain, seek emergency care."
+        }
+      ]
     },
     "influenza-treatment-online": {
       "stateConditionParagraph": "Flu activity in New York usually builds through December; the state Department of Health declared influenza prevalent on December 2, 2025, December 18, 2024 and December 6, 2023. Antiviral treatment works best when started early, ideally within 48 hours of symptoms, and matters most for adults at higher risk. A same-day video visit for adults physically in New York can decide whether an antiviral is appropriate and send it to your pharmacy. For what is circulating now, the Department of Health's New York State Flu Tracker posts lab-confirmed flu cases and hospitalizations by county every Friday from October through May, and TeleDirectMD's FluHub charts the state's weekly activity against past seasons. Flat $79.",
       "relatedLinks": [
-        { "href": "/flu-hub/state/new-york.html", "label": "New York flu activity (FluHub)", "description": "weekly CDC flu surveillance for the state, compared with past seasons" }
+        {
+          "href": "/flu-hub/state/new-york.html",
+          "label": "New York flu activity (FluHub)",
+          "description": "weekly CDC flu surveillance for the state, compared with past seasons"
+        }
+      ],
+      "sectionNotes": {
+        "what-is": "The 2025-26 season set a New York record. The state Department of Health reported 71,123 positive flu cases in the seven days ending December 20, 2025, the most it had recorded in one week since flu became reportable in 2004, and a 38 percent rise over the week before. Flu hospitalizations climbed from 2,251 to 3,666 that week. By the week ending May 23, 2026, the season totals stood at 445,545 laboratory-confirmed flu cases and 26,545 flu hospitalizations. New York requires laboratory-confirmed flu to be reported to public health, which is what these totals count.",
+        "causes-risk-factors": "Skipping the flu shot is a risk factor you can still fix mid-season in New York: the state Department of Health says the vaccine is available to New Yorkers ages 2 and older at participating pharmacies without a prescription. If you work in a hospital, nursing home or home care agency, the season also changes your workday. Once the Health Commissioner declares influenza prevalent, staff who are not vaccinated for the current season must wear a surgical or procedure mask where patients or residents may be present (10 NYCRR 2.59). For 2025-26, that rule lifted when influenza was declared no longer prevalent on April 23, 2026.",
+        "differential": "The state declared influenza no longer prevalent on April 23, 2026, yet in the week ending May 23, 2026, influenza B made up 84 percent of positive flu cases in the state's weekly report. If you want to know whether it is flu or COVID-19, New York law lets pharmacists order and administer FDA-authorized COVID-19 and influenza tests (Education Law Section 6801), so ask your pharmacy whether it offers them. A negative rapid flu test does not rule out flu, according to NYC Health Department clinical guidance.",
+        "treatment-options": "New York's health departments frame antivirals around risk. The state Department of Health says flu is treatable for high-risk people with antiviral medicine if taken within 48 hours of symptoms. The NYC Health Department's clinical guidance adds that adults with mild flu-like illness who are not at high risk usually do not require an antiviral, though clinicians may prescribe one to reduce the number of days of symptoms. In a video visit, Dr. Bhavsar weighs your timing, symptoms and health history to decide whether an antiviral is appropriate for you.",
+        "medications": "Two New York pharmacy rules can help with the cost of a flu prescription. Under Education Law Section 6816-a, a pharmacist substitutes a less expensive drug product with the same active ingredients, dosage form and strength as the drug prescribed, when the substitute is on the state's approved list and the prescriber does not prohibit substitution. And every New York pharmacy that sells drugs at retail must make a drug retail price list available and display a sign reading \"Drug Retail Price List Available Upon Request,\" so you can ask about prices before you choose the pharmacy that receives your prescription.",
+        "home-care": "Staying home while you are contagious is protected in New York. State law gives employees up to 40 hours of paid sick leave a year at employers with 5 to 99 workers and up to 56 hours at employers with 100 or more, and the leave covers your own illness and its diagnosis, care or treatment (Labor Law Section 196-b). In New York City, an employer can require documentation only after you use more than three consecutive workdays of protected time off, and cannot require the reason for the leave to be disclosed."
+      },
+      "faqs": [
+        {
+          "question": "Do I need a flu test before getting flu treatment in New York?",
+          "answer": "Not usually. NYC Health Department clinical guidance says testing is generally not necessary for most patients with mild influenza-like illness, that rapid test kits have poor sensitivity, and that a negative result should not be used to rule out flu. If a test would help, New York law allows pharmacists to order and administer FDA-authorized flu and COVID-19 tests, so ask your pharmacy whether it offers them. In a video visit, Dr. Bhavsar can decide whether a test would change your treatment."
+        },
+        {
+          "question": "Can my employer in New York ask for a doctor's note when I miss work with the flu?",
+          "answer": "In New York City, an employer may require documentation only after you use more than three consecutive workdays of protected time off, cannot require you or the person providing it to disclose the reason, and must reimburse you if your health care provider charges a fee for it. Statewide, Labor Law Section 196-b bars employers from requiring disclosure of confidential information about a mental or physical illness as a condition of providing sick leave."
+        },
+        {
+          "question": "How big was the 2025-26 flu season in New York?",
+          "answer": "It was the largest on record for a single week. The state Department of Health reported 71,123 positive flu cases in the week ending December 20, 2025, the most recorded in one week since flu became reportable in 2004, and 445,545 laboratory-confirmed cases with 26,545 flu hospitalizations for the season through May 23, 2026. In New York City alone, the Health Department reported more than 146,000 positive flu cases by February 12, 2026."
+        }
       ]
     },
     "covid-19-treatment-online": {
-      "stateConditionParagraph": "For adults in New York with a positive COVID-19 test and mild to moderate symptoms, timing matters: oral antivirals are started within the first days of symptoms, and some interact with common medicines, so a medication review is part of the visit. A video visit for adults physically in New York can review your test, symptoms and medication list, and when treatment is appropriate send a prescription electronically to a New York pharmacy. Trouble breathing or chest pain needs 911, not a video visit. Flat $79."
+      "stateConditionParagraph": "For adults in New York with a positive COVID-19 test and mild to moderate symptoms, timing matters: oral antivirals are started within the first days of symptoms, and some interact with common medicines, so a medication review is part of the visit. A video visit for adults physically in New York can review your test, symptoms and medication list, and when treatment is appropriate send a prescription electronically to a New York pharmacy. Trouble breathing or chest pain needs 911, not a video visit. Flat $79.",
+      "sectionNotes": {
+        "what-is": "In New York's 2025-26 respiratory season, the state Department of Health counted 110,470 laboratory-confirmed COVID-19 cases and 12,634 COVID-19 hospitalizations through the week ending May 23, 2026. By late May, the state's weekly report described COVID-19 activity as sporadic, which it defines as small numbers of lab-confirmed cases.",
+        "causes-risk-factors": "The New York State Department of Health's list of people at higher risk from COVID-19 names some groups the shared list above does not: people who are pregnant or were recently pregnant, people with a disability, and people who smoke now or used to smoke. It also notes that risk rises sharply after age 75, that the list is not complete, and that having more than one risk factor raises your risk more. If you are healthy and none apply, the Department says national expert guidelines do not recommend routine antiviral treatment.",
+        "differential": "Because COVID-19 and flu overlap so much, a test can help sort them out. New York law lets pharmacists order and administer FDA-authorized COVID-19 and influenza tests (Education Law Section 6801), so ask your pharmacy whether it offers them. The state Department of Health also tests wastewater for the virus that causes COVID-19 to follow community trends, but it says wastewater data is not a substitute for people getting tested.",
+        "treatment-options": "In New York, more than one kind of clinician can start COVID-19 treatment. The state Department of Health says a pharmacist in New York may prescribe Paxlovid directly under the federal PREP Act and FDA Emergency Use Authorization, an authority it says is due to end on June 29, 2027, and that many practices offer same-day telehealth visits for this. It also says COVID-19 medicines are available at pharmacies throughout New York State. A video visit with Dr. Bhavsar includes the medication and health history review that decides whether Paxlovid is appropriate for you.",
+        "home-care": "The NYC Health Department says you can leave home and resume work or school once you have had no fever for 24 hours without fever-reducing medicine and your other COVID-19 symptoms are getting better. For the next 5 days, it advises extra precautions, including a well-fitting mask that covers your nose and mouth whenever you are around other people. Its guidance for clinicians also notes that COVID-19 rebound is generally mild and does not represent a treatment failure or resistance."
+      },
+      "faqs": [
+        {
+          "question": "Can a pharmacist in New York prescribe Paxlovid?",
+          "answer": "For now, yes. The New York State Department of Health says a pharmacist in New York may prescribe Paxlovid directly under the federal PREP Act and FDA Emergency Use Authorization, which it says is due to end on June 29, 2027, after which pharmacists will no longer be able to prescribe it. A physician visit is another route: by video, Dr. Bhavsar can review your test, symptoms, kidney and liver history and medication list, and send a prescription when appropriate."
+        },
+        {
+          "question": "Does New York still have a separate COVID-19 paid sick leave law?",
+          "answer": "No. The state's Paid Family Leave program lists July 31, 2025 as the date New York's COVID-19 paid leave law expires."
+        },
+        {
+          "question": "When can I go back to work after COVID-19 in New York City?",
+          "answer": "NYC Health Department guidance says you can return to work or school when you have had no fever for 24 hours without fever-reducing medicine and your other symptoms are getting better, then take extra precautions, including a mask around other people, for 5 days. Under the city's sick leave law, your employer can require documentation only after more than three consecutive workdays of protected time off, and cannot require the reason to be disclosed."
+        }
+      ]
     },
     "sinus-infection-treatment-online": {
-      "stateConditionParagraph": "Most sinus infections in New York adults start as colds and clear without antibiotics. A video visit helps separate those from the smaller group that meets guideline criteria for a bacterial sinus infection: symptoms lasting 10 days or more without improvement, or getting worse again after starting to improve. For adults physically in New York, Dr. Bhavsar can review your timeline, suggest what helps at home, and send a prescription to a New York pharmacy when one is appropriate. Flat $79."
+      "stateConditionParagraph": "Most sinus infections in New York adults start as colds and clear without antibiotics. A video visit helps separate those from the smaller group that meets guideline criteria for a bacterial sinus infection: symptoms lasting 10 days or more without improvement, or getting worse again after starting to improve. For adults physically in New York, Dr. Bhavsar can review your timeline, suggest what helps at home, and send a prescription to a New York pharmacy when one is appropriate. Flat $79.",
+      "sectionNotes": {
+        "causes-risk-factors": "Allergic rhinitis, one of the risk factors above, follows a predictable calendar in New York City. A March 2026 NYC Health Department advisory says over-the-counter allergy medication sales typically rise in April and May, when tree pollen from trees such as maple, birch and oak peaks; grass pollen starts in late spring and peaks in summer; and ragweed and mold spores bother people mainly in late summer and fall. The same advisory says evidence points to longer pollen seasons and more pollen production due to climate change.",
+        "differential": "Wildfire smoke is a New York look-alike for sinus trouble. On July 15, 2026, the state issued a statewide Air Quality Health Advisory for fine particles from Canadian wildfire smoke, with air forecast as unhealthy in the Eastern Lake Ontario, Central New York and Western New York regions. The state Department of Environmental Conservation says exposure can cause short-term irritation of the eyes, nose and throat, along with coughing, sneezing and a runny nose. If your congestion began on a smoke day or a high-pollen day, tell Dr. Bhavsar during the visit.",
+        "home-care": "For allergy-driven congestion, the NYC Health Department's 2026 pollen advisory says a simple nasal saline spray is best to relieve congestion and flush out allergens. It also advises that allergy medications such as oral antihistamines and intranasal corticosteroids be started at least several weeks before symptoms begin. On air quality alert days, the state advises avoiding strenuous activity where fine particle levels are high.",
+        "medications": "Two New York pharmacy rules can lower what you pay for a sinus prescription. Under Education Law Section 6816-a, a pharmacist substitutes a less expensive drug product with the same active ingredients, dosage form and strength as the drug prescribed, when the substitute is on the state's approved list and the prescriber does not prohibit substitution. Every New York pharmacy that sells drugs at retail must also make a drug retail price list available and display a sign reading \"Drug Retail Price List Available Upon Request,\" so you can ask about prices before choosing where your prescription is sent."
+      },
+      "faqs": [
+        {
+          "question": "Is it a sinus infection or seasonal allergies in New York?",
+          "answer": "Timing is one clue. The NYC Health Department says tree pollen peaks in April and May, grass pollen peaks in summer, and ragweed and mold spores bother people mainly in late summer and fall. Symptoms lasting 10 days or more without improvement, or worsening after starting to improve, fit the guideline criteria for a bacterial sinus infection. A video visit can sort out which pattern fits you."
+        },
+        {
+          "question": "How can I find out about air quality alerts in New York?",
+          "answer": "The state Department of Environmental Conservation issues Air Quality Health Advisories when pollution is expected to exceed an Air Quality Index value of 100. It runs a toll-free Air Quality Hotline at 1-800-535-1345, and you can sign up with the department to receive Air Quality Alerts. On alert days, the state advises avoiding strenuous activity in areas where fine particle levels are high."
+        }
+      ]
     },
     "tick-bite-treatment-online": {
-      "stateConditionParagraph": "Tick bites are a real concern across much of New York outside the city. The New York State Department of Health's 2025 tick-borne disease report names the Capital District as the region with the highest incidence of Lyme disease, anaplasmosis and babesiosis for 2020 to 2024, with high counts on Long Island and in the Hudson Valley, and adult blacklegged ticks stay active into the fall. A video visit for adults in New York can go over how long the tick was attached and where you were, decide whether a single dose of preventive antibiotic is appropriate, and explain what rash or fever to watch for. Flat $79."
+      "stateConditionParagraph": "Tick bites are a real concern across much of New York outside the city. The New York State Department of Health's 2025 tick-borne disease report names the Capital District as the region with the highest incidence of Lyme disease, anaplasmosis and babesiosis for 2020 to 2024, with high counts on Long Island and in the Hudson Valley, and adult blacklegged ticks stay active into the fall. A video visit for adults in New York can go over how long the tick was attached and where you were, decide whether a single dose of preventive antibiotic is appropriate, and explain what rash or fever to watch for. Flat $79.",
+      "sectionNotes": {
+        "what-is": ["New York reports tick-borne illness in large numbers. Outside New York City, the state Department of Health counted 18,704 confirmed or probable Lyme disease cases in 2024, plus 1,960 anaplasmosis, 670 babesiosis and 110 ehrlichiosis cases. Part of the recent rise in Lyme counts reflects the 2022 national case definition, under which a positive laboratory result alone can classify a case.", "New York City reports separately. Preliminary 2025 city data show 2,928 Lyme disease, 107 anaplasmosis, 98 babesiosis and 25 ehrlichiosis cases among residents, and most of those people reported travel outside the city during the exposure period."],
+        "causes-risk-factors": "Where you were matters. In New York City, the Health Department finds blacklegged ticks, the species that carries Lyme disease, on Staten Island and in focal areas of the Bronx (Pelham Bay Park and Hunter Island), and 30 to 50 percent of the ticks it tests carry the Lyme bacterium. Local transmission is reported on Staten Island and, rarely, in the Bronx. Lone star ticks are found on Staten Island and rarely in Queens. Outside the city, the state's tick surveillance found blacklegged tick nymphs at their highest average density in its Metropolitan Area region from 2020 to 2024.",
+        "symptoms-redflags": "Two New York tick problems sit outside the usual Lyme checklist. Alpha-gal syndrome, linked mainly to lone star tick bites, is an allergy to the alpha-gal molecule found in meat and other mammal products, with symptoms about 2 to 6 hours after eating or exposure; New York City began laboratory-based reporting in 2024 and received over 140 reports in 2025. Hives, swelling or trouble breathing hours after a meal need in-person care, and trouble breathing needs 911. Powassan virus is rare here, with fewer than 10 cases a year outside the city from 2020 to 2024, but in 2024 the state found it in adult blacklegged ticks in its Metropolitan Area and Capital District regions.",
+        "treatment-options": "The New York City Health Department's 2026 advisory to clinicians says a single dose of doxycycline may be used to reduce the risk of Lyme disease for people bitten in a highly endemic area, and it names Staten Island and the surrounding northeastern states. The other conditions on this page still apply: a blacklegged tick, a long enough attachment, and a visit within 72 hours of removing it.",
+        "medications": "Single-dose doxycycline is aimed at Lyme disease only. The New York City Health Department notes that prophylaxis has not been shown to prevent other tick-borne diseases, and that matters in New York, where anaplasmosis and babesiosis were reported in the hundreds to thousands in 2024 and the state finds the babesiosis parasite more often in ticks from its Metropolitan Area region than elsewhere. Fever, chills or body aches in the weeks after a New York tick bite still need an in-person exam and blood work, even if you took the preventive dose.",
+        "home-care": "Do not count on winter to end tick season. The state Department of Health says blacklegged ticks are most active when temperatures are above freezing, and that ticks can be found in most areas of New York. The state parks office warns that tick-borne illness is a particular concern in areas with tall grass or dense vegetation just off the trail. The Department publishes current and past tick collection and testing results on Health Data NY, along with a Tick Score map of the chance of meeting an infected blacklegged tick in each region of the state."
+      },
+      "faqs": [
+        {
+          "question": "Can I get Lyme disease from a tick bite in New York City?",
+          "answer": "Yes, though most city residents with Lyme disease were infected elsewhere. The city Health Department reports local transmission of tick-borne disease on Staten Island and, rarely, in the Bronx, where blacklegged ticks live in Pelham Bay Park and on Hunter Island. In 2025, most of the 2,928 city residents with Lyme disease reported travel outside New York City during the exposure period, often to upstate New York, Long Island or elsewhere in the Northeast."
+        },
+        {
+          "question": "Does a tick bite from Staten Island count for preventive doxycycline?",
+          "answer": "It can. The New York City Health Department's 2026 clinician advisory names Staten Island as a highly endemic area where a single preventive dose of doxycycline may be used to reduce the risk of Lyme disease. The usual conditions still apply: the tick should be a blacklegged tick, attached long enough, and removed within the past 72 hours. A video visit can review a photo of the tick and decide whether the dose is appropriate."
+        },
+        {
+          "question": "I found an Asian longhorned tick in New York City. Should I worry?",
+          "answer": "The New York City Health Department reports Asian longhorned ticks in all five boroughs and lists no known disease risk to humans in the United States to date. Telling tick species apart from a photo is not always certain, so if you are unsure which tick bit you, or a rash or fever follows, it is worth a visit. Blacklegged and lone star ticks are also found in parts of the city."
+        }
+      ]
     },
     "chlamydia-treatment-online": {
-      "stateConditionParagraph": "For adults in New York with a positive chlamydia test, a video visit can confirm the result, prescribe treatment when appropriate and cover retesting and partner notification. Public Health Law Section 2312 allows expedited partner therapy for chlamydia and for other sexually transmitted infections the CDC recommends it for, which lets a clinician provide treatment for a patient's sex partner without a separate exam; whether it fits your situation is decided during the visit. Prescriptions go electronically to the pharmacy you choose. Flat $79, discreet, for adults physically in New York."
+      "stateConditionParagraph": "For adults in New York with a positive chlamydia test, a video visit can confirm the result, prescribe treatment when appropriate and cover retesting and partner notification. Public Health Law Section 2312 allows expedited partner therapy for chlamydia and for other sexually transmitted infections the CDC recommends it for, which lets a clinician provide treatment for a patient's sex partner without a separate exam; whether it fits your situation is decided during the visit. Prescriptions go electronically to the pharmacy you choose. Flat $79, discreet, for adults physically in New York.",
+      "sectionNotes": {
+        "what-is": "Chlamydia is the most reported sexually transmitted infection in New York State, according to the state Department of Health's 2023 data. The Department counted 101,520 diagnoses in 2024, 7 percent fewer than in 2023, and New York ranked 10th among all states for total chlamydia cases in 2023. In New York City, the chlamydia rate fell 6.3 percent from 2023 to 2024, but almost all of that drop was among men: the rate fell 12.7 percent among men and only 0.4 percent among women.",
+        "causes-risk-factors": "Age is a clear pattern in New York's data. In the state's 2024 surveillance report, chlamydia rates were highest in people 15 to 29, and rates among females 15 to 24 greatly exceeded those among males the same age. In New York City in 2024, women ages 15 to 24 made up 56 percent of reported cases among women, with a case rate about five times that of women overall. Neighborhood matters too: in 2024, Hunts Point-Mott Haven, Crotona-Tremont and Highbridge-Morrisania in the Bronx were among the city neighborhoods with high chlamydia rates.",
+        "how-it-works": "For the testing step, New York City's Health Department runs Express Clinics in Chelsea (Manhattan) and Fort Greene (Brooklyn) that test people without symptoms for HIV, chlamydia, gonorrhea and syphilis by appointment, with chlamydia and gonorrhea results usually available within hours. Its Sexual Health Clinics offer low- or no-cost STI services to anyone 12 or older, regardless of immigration status. Outside the city, the state Department of Health points people to its Provider Directory to find an STI provider.",
+        "treatment-options": "Here is how expedited partner therapy works in New York. It covers partners you had sex with in the 60 days before your symptoms or diagnosis, or your most recent partner if there was none in that window. The prescription can be marked \"EPT\" and filled without your partner's name, address or date of birth. Your partner pays for the medicine, and your insurance cannot be billed for it. Extra pills or refills on your own prescription for a partner are not allowed. EPT is not used if you are known to also have syphilis, or in cases involving abuse.",
+        "home-care": "Chlamydia is a reportable disease in New York, and labs report positive results to the health department. Because of that, you may get a call or visit from a health department Partner Services specialist, sometimes before you have talked with your clinician about it. Partner Services is free and confidential: it can help you tell partners, and it will never tell a partner who you are or when you were tested. To confirm a caller is genuine, ask for their supervisor or, in person, for an ID badge. The city Health Department advises retesting three to four months after treatment.",
+        "when-not": "If you also need a gonorrhea injection or an in-person exam, New York City's Sexual Health Clinics provide low- or no-cost STI care to anyone 12 or older, mostly walk-in and regardless of immigration status, and they still see patients who cannot pay the sliding-scale fee. The clinic hotline, 347-396-7959, answers Monday to Friday, 9 a.m. to 3:30 p.m."
+      },
+      "faqs": [
+        {
+          "question": "Is chlamydia reported to the health department in New York?",
+          "answer": "Yes. Chlamydia trachomatis infection is on New York's list of reportable communicable diseases (10 NYCRR Section 2.1), and the New York City Health Code requires it to be reported to the Health Department within 24 hours. Labs that test for STIs must report positive results too. The state says Partner Services gives priority follow-up to certain chlamydia cases, such as pregnant women, and that its help is free and confidential."
+        },
+        {
+          "question": "Can my partner fill an EPT prescription in New York without giving their name?",
+          "answer": "Yes. Under New York's expedited partner therapy law, Public Health Law Section 2312, a pharmacist can fill a prescription marked \"EPT\" even when the partner's name, address and date of birth are not on it, according to the state AIDS Institute's EPT guidance. The partner pays for the medicine, in cash or with their own insurance; your insurance cannot be billed for it."
+        },
+        {
+          "question": "What should my partner know before taking EPT medicine for chlamydia?",
+          "answer": "New York's guidance says a partner should see a clinician before taking EPT medicine if they are allergic to antibiotics, are or could be pregnant, have abdominal, pelvic or testicular pain, fever, nausea or vomiting, have serious health problems, or take other medicines. It also recommends a full STI check, including an HIV test, even after taking EPT. In New York City, report a bad reaction to EPT by calling 311."
+        }
+      ]
     },
     "doxypep-sti-prevention-online": {
-      "stateConditionParagraph": "Doxycycline post-exposure prophylaxis (doxy-PEP) is a single dose of doxycycline taken within 72 hours after condomless sex to lower the chance of syphilis, gonorrhea and chlamydia. New York was early on it: the New York State Department of Health AIDS Institute published doxy-PEP clinical guidance on September 25, 2023, and the New York City Health Department issued its own provider guidance on November 9, 2023. A video visit for adults physically in the state reviews whether you meet the criteria, the side effects and the testing schedule that goes with it. Flat $79."
+      "stateConditionParagraph": "Doxycycline post-exposure prophylaxis (doxy-PEP) is a single dose of doxycycline taken within 72 hours after condomless sex to lower the chance of syphilis, gonorrhea and chlamydia. New York was early on it: the New York State Department of Health AIDS Institute published doxy-PEP clinical guidance on September 25, 2023, and the New York City Health Department issued its own provider guidance on November 9, 2023. A video visit for adults physically in the state reviews whether you meet the criteria, the side effects and the testing schedule that goes with it. Flat $79.",
+      "sectionNotes": {
+        "eligibility-checklist": "The state AIDS Institute's guideline, updated October 15, 2024, tells clinicians to offer doxy-PEP to cisgender men and transgender women with partners assigned male at birth even without a recent STI if their risk is ongoing, and to consider it case by case for cisgender men with multiple partners assigned female at birth. The state Department of Health also allows case-by-case use for cisgender women, while the New York City Health Department's 2023 provider letter does not recommend it for them. TeleDirectMD's doxy-PEP visit uses the checklist above.",
+        "causes-risk-factors": "Syphilis is a large part of why doxy-PEP matters in New York. The state Department of Health reports that primary and secondary syphilis diagnoses fell 18 percent in 2024, to 2,360, and that 2,002 of them were among males. In 2023, 74 percent of males diagnosed identified as men who have sex with men. In New York City in 2024, Manhattan's Chelsea-Clinton had the highest rates of gonorrhea and early syphilis; Central Harlem-Morningside Heights and Williamsburg-Bushwick were also high for gonorrhea, and Highbridge-Morrisania and East Harlem for early syphilis.",
+        "medications": "New York's AIDS Institute guideline recommends a 30- to 90-day supply of doxy-PEP, with the number of pills based on how often you expect to need a dose, and says shared decision-making can settle on the lowest quantity that fits. It also asks clinicians to make sure your STI tests have been done before each refill.",
+        "home-care": "New York's follow-up schedule is tighter than the 3-to-6-month range described above. The state AIDS Institute guideline asks clinicians to screen people on doxy-PEP for HIV, chlamydia, gonorrhea and syphilis at least every 3 months, including throat and rectal testing when indicated, to check for hepatitis B when starting and hepatitis C at least once a year.",
+        "when-not": "A possible HIV exposure is an emergency that doxy-PEP does not cover. New York's AIDS Institute guideline says the first dose of HIV PEP should ideally be taken within 2 hours of the exposure and no later than 72 hours. In New York City, call the 24/7 PEP Hotline at 844-3-PEPNYC (844-373-7692), or go to an emergency room, clinic or city Sexual Health Clinic and ask for PEP; when the city clinics are busy, people seeking HIV PEP get priority."
+      },
+      "faqs": [
+        {
+          "question": "Where else can I get doxy-PEP in New York?",
+          "answer": "The New York City Health Department offers doxy PEP at all of its Sexual Health Clinics, and its NYC Health Map now lists other locations that provide it. Outside the city, the state Department of Health points people to the AIDS Institute Provider Directory to find a provider. The city clinics also test for STIs and offer appointments with a trained advisor about HIV PrEP."
+        },
+        {
+          "question": "I take doxy-PEP and a partner tested positive for chlamydia. Do I need expedited partner therapy?",
+          "answer": "Maybe not, according to New York's AIDS Institute EPT guidance. If you took doxy-PEP correctly after every encounter with that partner and have no symptoms, EPT may not be necessary, but you should still get tested, because doxy-PEP is not 100 percent effective, especially against gonorrhea. If you do take EPT doxycycline, do not take a doxy-PEP dose with it: no more than 200 mg of doxycycline in 24 hours."
+        },
+        {
+          "question": "Does doxy-PEP protect against mpox?",
+          "answer": "No. The New York State Department of Health says doxy-PEP does not help prevent HIV, mpox or other viral infections. Mpox has a vaccine: all New York City Sexual Health Clinics offer mpox vaccination as a standalone walk-in service, first and second doses, regardless of insurance or immigration status. The city Health Department stresses getting both doses for maximum protection."
+        }
+      ]
     },
     "pink-eye-treatment-online": {
-      "stateConditionParagraph": "Pink eye spreads easily in shared New York spaces such as offices, subway cars and dorms, and most cases are viral or allergic rather than bacterial. A video visit lets Dr. Bhavsar look at the eye on camera, ask about discharge, contact lenses and vision changes, and decide whether a prescription eye drop is appropriate. Eye pain, light sensitivity, vision loss or contact lens wear with a red eye need same-day in-person care. Flat $79 for adults physically in New York."
+      "stateConditionParagraph": "Pink eye spreads easily in shared New York spaces such as offices, subway cars and dorms, and most cases are viral or allergic rather than bacterial. A video visit lets Dr. Bhavsar look at the eye on camera, ask about discharge, contact lenses and vision changes, and decide whether a prescription eye drop is appropriate. Eye pain, light sensitivity, vision loss or contact lens wear with a red eye need same-day in-person care. Flat $79 for adults physically in New York.",
+      "sectionNotes": {
+        "causes-risk-factors": "Allergic pink eye in New York City tracks the pollen calendar. A March 2026 NYC Health Department advisory on the pollen season, asthma and allergic rhinoconjunctivitis says over-the-counter allergy medication sales typically rise in April and May, when tree pollen peaks, that grass pollen starts in late spring and peaks in summer, and that ragweed and mold spores bother people mainly in late summer and fall. It adds that evidence points to longer pollen seasons and more pollen production due to climate change.",
+        "differential": "Wildfire smoke can redden and irritate the eyes without any infection. On July 15, 2026, New York issued a statewide Air Quality Health Advisory for fine particles from Canadian wildfire smoke, and the state Department of Environmental Conservation says exposure can cause short-term irritation of the eyes, nose and throat. If your eyes became red on a smoke day, tell Dr. Bhavsar.",
+        "medications": "The NYC Health Department's 2026 pollen advisory recommends artificial tears to help soothe irritated eyes, the same supportive option listed in the table above. It also advises against using any eye product containing a vasoconstrictor, the redness-relief type of drop, for more than 2 to 3 days, to avoid rebound redness and dependency. If you have been using redness-relief drops, mention it during your visit.",
+        "when-not": "A chemical splash to the eye needs emergency care, not a video visit. New York's two regional poison control centers answer the national Poison Help line, 1-800-222-1222. The New York City Poison Center serves the five boroughs, Nassau, Suffolk and Westchester, and can also be reached at 212-POISONS (212-764-7667); its calls are free, confidential and answered 24/7 by registered pharmacists and nurses certified in poison information, with translation in more than 150 languages. The Upstate New York Poison Center in Syracuse serves every other county."
+      },
+      "faqs": [
+        {
+          "question": "Who do I call in New York if a chemical gets in my eye?",
+          "answer": "Call 911 or go to an emergency department for a chemical exposure to the eye. Poison specialists can also advise by phone at 1-800-222-1222, which reaches the New York City Poison Center for the five boroughs, Long Island and Westchester, and the Upstate New York Poison Center for the rest of the state. In the city, you can also call 212-POISONS (212-764-7667), free and confidential, 24/7."
+        },
+        {
+          "question": "Can pollen or wildfire smoke make my eyes red in New York?",
+          "answer": "Yes. The NYC Health Department describes allergic rhinoconjunctivitis flaring with tree pollen in April and May, grass pollen in summer and ragweed in late summer and fall. The state Department of Environmental Conservation says wildfire smoke, like the Canadian smoke behind New York's July 15, 2026 statewide air quality advisory, can cause short-term irritation of the eyes, nose and throat. A video visit can help tell irritation or allergy apart from infectious pink eye."
+        },
+        {
+          "question": "Are redness-relief eye drops a good idea for pink eye?",
+          "answer": "Only briefly, if at all. The NYC Health Department advises people to avoid any eye product containing a vasoconstrictor for more than 2 to 3 days, to avoid rebound redness and dependency, and recommends artificial tears to soothe irritated eyes. Redness-relief drops do not treat infection. If your eye is red with discharge, pain or vision changes, a video visit can decide the next step."
+        }
+      ]
     },
     "yeast-infection-treatment-online": {
-      "stateConditionParagraph": "Yeast infection is the most-searched condition in TeleDirectMD's catalog in New York, about 44,000 searches a month across related terms. For adult women in New York with typical symptoms and no red flags, a video visit can confirm whether the picture fits a yeast infection or something that looks similar, such as bacterial vaginosis or trichomoniasis, and send treatment to a New York pharmacy when appropriate. Recurrent infections or pregnancy change the plan and are discussed during the visit. Flat $79."
+      "stateConditionParagraph": "Yeast infection is the most-searched condition in TeleDirectMD's catalog in New York, about 44,000 searches a month across related terms. For adult women in New York with typical symptoms and no red flags, a video visit can confirm whether the picture fits a yeast infection or something that looks similar, such as bacterial vaginosis or trichomoniasis, and send treatment to a New York pharmacy when appropriate. Recurrent infections or pregnancy change the plan and are discussed during the visit. Flat $79.",
+      "sectionNotes": {
+        "causes-risk-factors": "The New York City Health Department describes a yeast infection as an overgrowth of yeast that normally lives in the genital area. It notes that yeast infections can pass between sex partners but are not considered a sexually transmitted infection, because they also happen without sex. The Department also advises against douching or cleaning the inside of the vagina with water or other fluids, which it says can change the vagina's natural balance of bacteria and acidity and increase the chance of infections and pelvic inflammatory disease.",
+        "differential": "Trichomoniasis is one of the infections that can look like a yeast infection. The New York City Health Department lists itching or irritation in and around the vagina among its symptoms, notes that most people with trichomoniasis have no symptoms at all, and says diagnosis is made by swabbing the vagina and testing the fluid. A swab can also test for a yeast infection. When symptoms do not fit a typical yeast infection, in-person testing is the next step.",
+        "medications": "In New York, the over-the-counter yeast infection creams and suppositories in this table are not charged sales tax. Tax Law Section 1115 exempts drugs and medicines used to treat illness, and the state Department of Taxation and Finance's drugstore bulletin specifically lists nonprescription medicines, products that treat fungus infections, and vaginal creams that treat a medical condition as exempt. Prescription fluconazole is exempt as well, however you pay for it at the pharmacy.",
+        "when-not": "If you need an in-person swab to tell a yeast infection apart from an STI, New York City's Health Department runs Sexual Health Clinics that provide low- or no-cost STI services to anyone 12 or older, regardless of immigration status, including people who cannot pay the sliding-scale fee. Its hotline, 347-396-7959, also connects callers to a clinic provider by telemedicine for some services, Monday to Friday, 9 a.m. to 3:30 p.m."
+      },
+      "faqs": [
+        {
+          "question": "Does my partner need treatment for my yeast infection?",
+          "answer": "Usually not. The New York City Health Department says sex partners do not need to be treated for yeast infections. Yeast infections can also occur on the penis: the Department lists itching and rash as symptoms there and notes that pills or creams applied to the penis cure it, and that many of these treatments are available without a prescription."
+        },
+        {
+          "question": "I have read about Candida auris in New York. Is that the same as a vaginal yeast infection?",
+          "answer": "No. The New York City Health Department describes Candida auris as a drug-resistant germ that spreads in hospitals and nursing homes, usually in patients admitted there for another reason, who often have other serious medical conditions. It says there is no known risk to the public and no need for healthy people to be tested. Most vaginal yeast infections are caused by Candida albicans."
+        }
+      ]
     },
     "tinea-treatment-online": {
-      "stateConditionParagraph": "Most ringworm, athlete's foot and jock itch still clears with standard antifungal treatment, but New York City is where the first U.S. cases of Trichophyton indotineae were found, including a patient with no recent travel, which points to local spread (CDC MMWR, May 2023). That strain is frequently resistant to terbinafine. In 2024 the CDC also reported a sexually transmitted ringworm strain, T. mentagrophytes genotype VII, in four New York City men. If a rash keeps spreading or comes back after a full course of treatment, it needs a fungal culture rather than another round of the same cream. Flat $79 for adults physically in New York."
+      "stateConditionParagraph": "Most ringworm, athlete's foot and jock itch still clears with standard antifungal treatment, but New York City is where the first U.S. cases of Trichophyton indotineae were found, including a patient with no recent travel, which points to local spread (CDC MMWR, May 2023). That strain is frequently resistant to terbinafine. In 2024 the CDC also reported a sexually transmitted ringworm strain, T. mentagrophytes genotype VII, in four New York City men. If a rash keeps spreading or comes back after a full course of treatment, it needs a fungal culture rather than another round of the same cream. Flat $79 for adults physically in New York.",
+      "sectionNotes": {
+        "what-is": "New York's own public health laboratory is part of the resistant ringworm story. In 2023 the state Department of Health reported that testing at its Wadsworth Center identified Trichophyton indotineae, an antifungal-resistant fungus not previously known to be in the United States, in two severe New York City cases. The same year the CDC designated the Wadsworth Center mycology laboratory a reference laboratory for emerging and drug-resistant dermatophytes, and the laboratory reports terbinafine resistance in over 50 percent of T. indotineae isolates.",
+        "causes-risk-factors": "Travel history matters for widespread ringworm in New York. In a 2024 JAMA Dermatology case series of 11 patients with T. indotineae from six New York City medical centers, nine reported previous travel to Bangladesh, and the authors concluded the infections were likely acquired there. The CDC's 2023 report from New York City links that strain's spread in South Asia to misuse and overuse of topical antifungals and corticosteroids, including widely available combination creams.",
+        "differential": "The sexually transmitted ringworm strain reported in New York City in 2024, Trichophyton mentagrophytes genotype VII, can cause itchy, ring-shaped, scaly patches on the trunk, groin, genitals or face, and the CDC notes it might be mistaken for eczema or psoriasis. A ring-shaped rash in the groin or genital area that started after a new sexual partner, or one on the face, needs that possibility considered rather than a standard jock itch label.",
+        "treatment-options": "Resistant New York cases have needed long courses of oral medicine. In the CDC's 2023 New York City report, one patient's rash did not improve after four weeks of oral terbinafine, another cleared after four weeks of itraconazole, and the report notes that itraconazole can take up to 12 weeks. The 2024 report on the sexually transmitted strain says some patients need oral therapy for up to 3 months. TeleDirectMD does not prescribe oral terbinafine or itraconazole, so a suspected resistant infection is referred for in-person testing and treatment.",
+        "home-care": "For the sexually transmitted ringworm strain seen in New York City, the CDC advises avoiding skin-to-skin contact with affected areas and not sharing personal items until symptoms resolve.",
+        "when-not": "Some New York ringworm needs testing that a video visit cannot provide. The CDC's 2023 report says providers should consider T. indotineae in patients with widespread tinea, that culture-based identification typically misidentifies it, that correct identification requires genomic sequencing, and that providers should contact their state or local health department for help with testing. Widespread rash, a rash that returns after a full course, or a rash after recent travel to South Asia should be seen in person, ideally by a dermatologist.",
+        "medications": "The over-the-counter creams on this list are tax-free in New York. The state Department of Taxation and Finance's bulletin on drugstore sales (TB-ST-193, April 2024) treats drugs and medicines for human use as exempt from sales tax and specifically lists products that prevent or treat athlete's foot or other fungus infections. Apply them as directed for the full course, including the skin around the visible edge, since stopping early is a common reason ringworm comes back."
+      },
+      "faqs": [
+        {
+          "question": "Is drug-resistant ringworm common in New York?",
+          "answer": "Most ringworm, athlete's foot and jock itch in New York still responds to standard treatment. Resistant strains are a real but smaller problem. The state's Wadsworth Center laboratory, a CDC reference laboratory for drug-resistant dermatophytes since 2023, reports terbinafine resistance in over 50 percent of Trichophyton indotineae isolates, and a 2024 series described 11 patients with that strain at six New York City medical centers."
+        },
+        {
+          "question": "Can ringworm be passed through sex in New York?",
+          "answer": "Yes. In 2024 the CDC reported Trichophyton mentagrophytes genotype VII, a ringworm strain spread through sex, in New York City. It causes itchy, ring-shaped, scaly patches on the trunk, groin, genitals or face and can be mistaken for eczema or psoriasis. Some patients need oral antifungal treatment for up to 3 months, which needs in-person care. Avoid skin-to-skin contact with the rash and do not share personal items until it clears."
+        },
+        {
+          "question": "I traveled to South Asia and now have a spreading ringworm rash. Can a video visit help?",
+          "answer": "A video visit can review the rash and travel history and point you to the right care, but a spreading rash after recent travel to South Asia should be seen in person. In a 2024 series of 11 New York City patients with resistant Trichophyton indotineae, nine had traveled to Bangladesh. Identifying that strain requires laboratory testing, and treatment often means weeks of oral terbinafine or itraconazole, which TeleDirectMD does not prescribe."
+        }
+      ]
     },
     "hypertension-refills-online": {
-      "stateConditionParagraph": "About 5 million adults in New York State, 32.1 percent, have been told they have high blood pressure, and 77 percent of them take medicine for it. Among adults without health coverage, only 40.7 percent do (NYS Department of Health, BRFSS Brief 2025-01, 2023 data). A gap in refills is one of the ways blood pressure control slips. A video visit for adults physically in New York can review your home readings, renew a stable regimen and send it electronically to the pharmacy you choose, at a flat $79 with no insurance needed. New York City also requires chain restaurants to flag menu items with 2,300 mg of sodium or more, the first U.S. city to do so."
+      "stateConditionParagraph": "About 4.2 million adults in New York State, 32.9 percent, have been told they have high blood pressure, and 77.6 percent of them take medicine for it. Among adults without health coverage, only 45.6 percent do (NYS Department of Health, BRFSS Brief 2026-02, 2024 data). A gap in refills is one of the ways blood pressure control slips. A video visit for adults physically in New York can review your home readings, renew a stable regimen and send it electronically to the pharmacy you choose, at a flat $79 with no insurance needed. New York City also requires chain restaurants to flag menu items with 2,300 mg of sodium or more, the first U.S. city to do so.",
+      "sectionNotes": {
+        "what-is": "New York's 2024 survey data show that high blood pressure is a little less common in New York City than in the rest of the state: 31.2 percent of city adults report a diagnosis, compared with 34.0 percent elsewhere in New York. Treatment rates are close: among adults with the diagnosis, 76.5 percent in the city take medicine for it, against 78.3 percent in the rest of the state, and men are less likely than women to be on treatment (73.1 versus 82.7 percent).",
+        "causes-risk-factors": "The same state survey shows how closely blood pressure tracks weight and blood sugar. Among New York adults with obesity, 44.5 percent reported high blood pressure, more than twice the 21.5 percent among adults with neither obesity nor overweight, and 66.1 percent of adults with diabetes reported it. If you live with either condition, a refill visit is a good time to confirm when your potassium and creatinine were last checked, since a basic metabolic panel from the last 12 months is part of the refill lab rule.",
+        "medications": "Keep an exact record of what you take. Under New York Education Law Section 6810, a pharmacy must give you a copy of any prescription that is not for a controlled substance when you ask, although the copy is worded as being for information only. A copy, or clear photos of your bottle labels, lets the physician confirm the name, strength and dose of each blood pressure medicine before deciding whether to renew it.",
+        "home-care": "If you eat out in New York City, know the limits of the menu sodium warning. The rule, passed unanimously by the city Board of Health on September 9, 2015, applies only to restaurants with 15 or more locations nationwide, so a salty dish at a smaller restaurant carries no icon. The Health Department notes that most sodium comes from processed foods sold in stores and from restaurant food, and that heart disease is the leading cause of death in New York City."
+      },
+      "faqs": [
+        {
+          "question": "My New York pharmacy is out of my blood pressure medicine. Do I need a new prescription?",
+          "answer": "Often not, if the prescription was sent electronically and has not been filled. Under New York Education Law Section 6810, at your request a pharmacy may immediately transfer or forward an unfilled electronic prescription to another pharmacy you name. Call the first pharmacy and give it the name and location of the second one, so you do not go without doses while the stock problem is sorted out."
+        }
+      ]
     },
     "cat-bite-treatment-online": {
-      "stateConditionParagraph": "Cat bites carry a higher infection risk than most people expect, and in New York they also raise a rabies question. The state Department of Health reports that among domestic animals, cats are the ones most often diagnosed with rabies in New York, rabid animals have been found in every county, and the Wadsworth Center confirmed rabies in 313 animals in 2025. The Department advises reporting every animal bite to your county health department, which arranges a 10-day observation of a healthy cat and helps decide whether rabies treatment is needed; in New York City, report through 311. A video visit for adults physically in New York covers wound care, antibiotics when appropriate and that rabies decision. Flat $79."
+      "stateConditionParagraph": "Cat bites carry a higher infection risk than most people expect, and in New York they also raise a rabies question. The state Department of Health reports that among domestic animals, cats are the ones most often diagnosed with rabies in New York, rabid animals have been found in every county, and the Wadsworth Center confirmed rabies in 313 animals in 2025. The Department advises reporting every animal bite to your county health department, which arranges a 10-day observation of a healthy cat and helps decide whether rabies treatment is needed; in New York City, the Health Department's online Report an Animal Bite form says any animal bite must be reported within 24 hours. A video visit for adults physically in New York covers wound care, antibiotics when appropriate and that rabies decision. Flat $79.",
+      "sectionNotes": {
+        "how-it-works": "A cat bite in New York is also a public health report. In New York City, the Health Code lists animal bites as a reportable condition, physicians must report them to the Health Department within 24 hours, and the person bitten and the cat's owner must also notify the Department. Outside the city, the State Sanitary Code has a physician report a patient's exposure to an animal the physician suspects of rabies to the local health authority, and an adult with no clinician involved reports their own exposure. Before the visit, note where the bite happened and, if you know them, the owner's name and contact details.",
+        "causes-risk-factors": "Rabies in cats is rare in New York City but not absent. The city Health Department counted 22 animals that tested positive for rabies in 2025, almost all raccoons, plus one bat and one cat on Staten Island. Three people received rabies post-exposure treatment after contact with that rabid kitten: two in the home of the rescued stray and a staff member at the veterinary hospital that treated it. A bite or scratch from a stray, feral or newly rescued cat carries a different rabies question than a bite from a vaccinated pet.",
+        "telehealth-eligibility": "The checklist asks whether the bite came from a known domestic cat, and in New York a known cat should have a rabies vaccine record. Public Health Law Section 2141 says every cat in the state must be vaccinated against rabies, with limited exemptions, with the first shot no later than four months of age and a second within a year. Under the State Sanitary Code, a cat's owner must show proof of rabies vaccination to the local health officer whenever the cat bites a person; if the owner cannot, the health officer can order the cat confined and observed for 10 days.",
+        "treatment-options": "If rabies treatment is needed, it is given in person: the state Department of Health describes it as one dose of human rabies immune globulin and four doses of rabies vaccine. The State Sanitary Code has the treating clinician notify the local health authority before starting that treatment, unless waiting would harm the patient. Outside New York City, Public Health Law Section 2145 makes the county health authority responsible for authorized rabies post-exposure treatment, with insurance applied first; you may also choose your own provider at your own expense. Those county provisions do not apply in New York City.",
+        "home-care": "The state Department of Health's first steps after any animal bite are to wash the wound thoroughly with soap and water and to seek medical attention right away. If the health department places the cat under a 10-day confinement, the State Sanitary Code puts the cost on the owner and lets the department set the conditions, which can include the owner keeping the cat. If the cat shows signs of rabies during those 10 days, it is euthanized and tested at a state-approved laboratory.",
+        "when-not": "Bites from a stray, feral or unknown cat go to in-person care and your health department, not a video visit. New York City takes animal bite reports through its online Report an Animal Bite form, which says any type of animal bite must be reported within 24 hours. Outside the city, call your county health department. The state rule counts any penetration of skin by an animal's teeth as a bite exposure, so a small puncture still counts."
+      },
+      "faqs": [
+        {
+          "question": "Do I have to report a cat bite in New York?",
+          "answer": "In New York City, yes. The city Health Code requires the person bitten, the cat's owner and anyone else who knows of the bite to notify the Health Department, and its online report form asks for any animal bite within 24 hours. Physicians report bites in the city too. Outside New York City, the State Sanitary Code has an adult who is not under a clinician's care report their own rabies exposure, and the state Department of Health asks people to report all animal bites to the county health department."
+        },
+        {
+          "question": "What happens to the cat after it bites someone in New York?",
+          "answer": "The owner must show the local health officer proof that the cat has had its rabies vaccine. Whether or not it is vaccinated, the local health authority can order the cat confined for 10 days, at the owner's expense, under conditions the authority sets. If the cat shows signs of rabies during that time, it is euthanized and tested at a state-approved laboratory. A cat whose owner cannot be found may also be confined or tested."
+        },
+        {
+          "question": "Who pays for rabies shots after a cat bite in New York?",
+          "answer": "Outside New York City, Public Health Law Section 2145 makes the county health authority responsible for the cost of authorized rabies post-exposure treatment, after any insurance or other third-party coverage is applied. You can instead be treated by a provider of your choice at your own expense without county approval. Section 2146 says these county provisions do not apply to New York City. Rabies shots are given in person, not by video."
+        }
+      ]
     },
     "trichomoniasis-treatment-online": {
-      "stateConditionParagraph": "Since January 1, 2020, New York's expedited partner therapy law, Public Health Law Section 2312, has covered sexually transmitted infections for which the CDC recommends expedited treatment, and the state Department of Health lists trichomoniasis alongside chlamydia and gonorrhea. Before that change, New York allowed it for chlamydia only. It lets a clinician provide treatment for a patient's sex partner without a separate exam; whether it fits your situation is decided during the visit. A video visit for adults physically in New York can prescribe treatment when appropriate, send it electronically to the pharmacy you choose and plan retesting. Flat $79, discreet."
+      "stateConditionParagraph": "Since January 1, 2020, New York's expedited partner therapy law, Public Health Law Section 2312, has covered sexually transmitted infections for which the CDC recommends expedited treatment, and the state Department of Health lists trichomoniasis alongside chlamydia and gonorrhea. Before that change, New York allowed it for chlamydia only. It lets a clinician provide treatment for a patient's sex partner without a separate exam; whether it fits your situation is decided during the visit. A video visit for adults physically in New York can prescribe treatment when appropriate, send it electronically to the pharmacy you choose and plan retesting. Flat $79, discreet.",
+      "sectionNotes": {
+        "what-is": "The New York State Department of Health calls trichomoniasis the number one cause of vaginal infections spread through sex, and notes that many people with it have no symptoms and so never get treated. The New York City Health Department describes it as a parasitic infection that makes it more likely to get or spread HIV. Unlike chlamydia, gonorrhea and syphilis, trichomoniasis is not on New York's list of reportable diseases.",
+        "treatment-options": "New York's expedited partner therapy law covers trichomoniasis. The state AIDS Institute's guidance lists the partner regimens: for a female partner, the same 7-day metronidazole course or single-dose tinidazole used for patients, and for a male partner, single-dose metronidazole. It allows EPT to be prescribed while syphilis test results are pending or when testing is not possible, such as at a symptomatic telehealth visit. The prescription can be marked \"EPT\" and filled without the partner's name, the partner pays for it, and in New York City the clinician must also give you written partner materials to pass on.",
+        "home-care": "New York's EPT guidance asks both you and your partners to avoid sex without condoms or other barrier protection for at least 7 days after treatment ends, to lower the chance of reinfection. The New York City Health Department advises telling every partner from the previous two months, and getting retested three to four months after treatment to make sure the infection has cleared.",
+        "how-it-works": "If you have not been tested yet, the New York City Health Department notes that the test is a vaginal swab, collected by a clinician. Its Sexual Health Clinics provide low- or no-cost STI services to anyone 12 or older, regardless of immigration status, including people who cannot pay the sliding-scale fee. Outside the city, the state Department of Health points people to its Provider Directory to find an STI provider.",
+        "when-not": "If a video visit is not the right fit, for example in pregnancy, after a treatment failure or when you need a gonorrhea injection, New York City's Sexual Health Clinics see most patients on a walk-in basis, and the clinic hotline, 347-396-7959, answers Monday to Friday, 9 a.m. to 3:30 p.m. Outside the city, the state Department of Health's Provider Directory can help you find STI care near you."
+      },
+      "faqs": [
+        {
+          "question": "Can my partner get trichomoniasis treatment in New York without a visit?",
+          "answer": "Often, yes. New York allows expedited partner therapy for trichomoniasis under Public Health Law Section 2312. Your clinician may be able to give you a prescription for your partner that a pharmacist can fill even without your partner's name, and your partner pays for the medicine. New York's guidance says partners should still see a clinician first if they are pregnant or could be, are allergic to antibiotics, take other medicines, or have pain or fever."
+        },
+        {
+          "question": "Is trichomoniasis reported to the health department in New York?",
+          "answer": "No. New York's list of reportable communicable diseases (10 NYCRR Section 2.1) includes chlamydia, gonorrhea and syphilis but not trichomoniasis. The state's Partner Services program follows up reportable STIs such as chlamydia, gonorrhea, syphilis, mpox and HIV. The New York City Health Department advises telling all partners from the previous two months yourself, and expedited partner therapy can get them treated."
+        },
+        {
+          "question": "Should I get an HIV test after a trichomoniasis diagnosis?",
+          "answer": "The New York City Health Department notes that trichomoniasis makes it more likely to get or spread HIV, and New York's EPT guidance recommends that partners get a complete STI check, including an HIV test. In the city, the Health Department's Express Clinics in Chelsea and Fort Greene test people without symptoms for HIV, chlamydia, gonorrhea and syphilis, with HIV results given on site."
+        }
+      ]
     },
     "bv-treatment-online": {
-      "stateConditionParagraph": "Bacterial vaginosis often comes back: the New York State Department of Health AIDS Institute notes that more than half of people have a recurrence within 6 months. In a 2025 randomized trial in the New England Journal of Medicine, treating the ongoing male partner with oral metronidazole plus clindamycin cream applied to the penis cut recurrence within 12 weeks from 63 percent to 35 percent. The AIDS Institute's February 2026 guidance supports offering this treatment to ongoing partners, while the CDC's 2021 treatment guidelines still do not recommend routine partner treatment. BV is not eligible for expedited partner therapy in New York, so a partner needs a separate visit. In New York City, all Health Department Sexual Health Clinics now offer BV partner treatment, mostly walk-in, regardless of immigration status. A video visit for adult women physically in New York can evaluate symptoms and prescribe treatment when appropriate. Flat $79, discreet."
+      "stateConditionParagraph": "Bacterial vaginosis often comes back: the New York State Department of Health AIDS Institute notes that more than half of people have a recurrence within 6 months. In a 2025 randomized trial in the New England Journal of Medicine, treating the ongoing male partner with oral metronidazole plus clindamycin cream applied to the penis cut recurrence within 12 weeks from 63 percent to 35 percent. The AIDS Institute's February 2026 guidance supports offering this treatment to ongoing partners, while the CDC's 2021 treatment guidelines still do not recommend routine partner treatment. BV is not eligible for expedited partner therapy in New York, so a partner needs a separate visit. In New York City, all Health Department Sexual Health Clinics now offer BV partner treatment, mostly walk-in, regardless of immigration status. A video visit for adult women physically in New York can evaluate symptoms and prescribe treatment when appropriate. Flat $79, discreet.",
+      "sectionNotes": {
+        "causes-risk-factors": "New York's AIDS Institute guidance, published February 19, 2026, asks clinicians to explain BV a little differently than before. The bacteria behind BV's discharge and odor can also be carried, without symptoms, on the penis or in the vagina of a regular partner. The guidance stresses that this means partners sharing the body's own bacteria, not catching an outside infection such as gonorrhea or syphilis. It links recurrent BV to an ongoing sexual partnership, not using condoms, having an IUD and having an uncircumcised partner.",
+        "treatment-options": "The AIDS Institute guidance aims partner treatment at existing, ongoing partners with a penis; it sees no reason to treat past partners. It notes that the supporting trial enrolled monogamous couples, so there are no data for multiple partners, though treating every ongoing partner the same way would be prudent. For a partner with a vagina there are also no data; that partner can be tested for BV and, if treated, needs only standard BV treatment. A male partner needs his own visit with a clinician, in person or by telehealth.",
+        "medications": "If your partner is prescribed clindamycin 2% cream for the penis, expect a possible question at the pharmacy. The AIDS Institute notes that in the United States this cream is sold only for vaginal use, with an applicator, and some pharmacists question or refuse prescriptions written for use on the penis. It advises that the prescription say no vaginal applicators are needed, and notes it may help to acknowledge the off-label use. Two major drug references added this use in August 2025.",
+        "home-care": "When an ongoing partner is also being treated, the AIDS Institute advises that both of you avoid sex until you have each finished your full course. If you do have sex before then, use condoms, but know that clindamycin cream may weaken condoms, whether it is used in the vagina or, as in partner treatment, on the penis.",
+        "when-not": "If you need an in-person exam or testing in New York City, the Health Department's Sexual Health Clinic Hotline, 347-396-7959, also connects callers to a clinic provider by telemedicine for some services, Monday to Friday, 9 a.m. to 3:30 p.m. Adults 19 and older are asked to use insurance or pay a sliding-scale fee based on family size and income, with no proof required and no payment taken at the clinic, and services are provided even if you cannot pay."
+      },
+      "faqs": [
+        {
+          "question": "Can my male partner get BV partner treatment by telehealth in New York?",
+          "answer": "Yes, according to New York's AIDS Institute guidance. Because BV is not eligible for expedited partner therapy in New York, a male partner needs his own visit with a clinician, and the guidance says that visit can be in person or by telehealth. The clinician takes a sexual history, confirms he is an ongoing partner, explains why partner treatment helps prevent recurrence, and offers HIV and STI screening as indicated."
+        },
+        {
+          "question": "Should my female partner be treated for BV too?",
+          "answer": "There are no data on treating female partners, according to New York's AIDS Institute guidance. An ongoing partner with a vagina can be tested for BV using standard methods. If BV is found, or if the two of you and a clinician decide to treat without symptoms, standard BV treatment is used, without the oral-plus-cream combination used for male partners. Past partners who are no longer ongoing do not need treatment."
+        }
+      ]
     },
     "genital-herpes-treatment-online": {
-      "stateConditionParagraph": "Genital herpes is far more common than most people realize. In a New York City blood-test survey, nearly 28 percent of adults had HSV-2, and 88.4 percent of them did not know it (NYC Health and Nutrition Examination Survey, 2004 data, published in Sexually Transmitted Diseases, 2008). That is why a first outbreak often comes as a surprise. A video visit for adults physically in New York can assess a first or recurrent outbreak, prescribe antiviral treatment or suppressive therapy when appropriate and send it electronically to the pharmacy you choose. Flat $79, discreet."
+      "stateConditionParagraph": "Genital herpes is far more common than most people realize. In a New York City blood-test survey, nearly 28 percent of adults had HSV-2, and 88.4 percent of them did not know it (NYC Health and Nutrition Examination Survey, 2004 data, published in Sexually Transmitted Diseases, 2008). That is why a first outbreak often comes as a surprise. A video visit for adults physically in New York can assess a first or recurrent outbreak, prescribe antiviral treatment or suppressive therapy when appropriate and send it electronically to the pharmacy you choose. Flat $79, discreet.",
+      "sectionNotes": {
+        "how-it-works": "If you want a lab-confirmed diagnosis, the New York City Health Department explains that a clinician may swab or scrape a blister or sore to test for herpes. Blood testing for herpes is possible, the Department notes, but it is not standard practice. A swab needs an in-person visit while a blister or sore is there to sample.",
+        "differential": "A new genital sore in New York can also be syphilis, which needs a blood test and in-person care. The state Department of Health reports that primary and secondary syphilis diagnoses fell 18 percent in 2024, to 2,360, and that the rate among females fell to 3.6 per 100,000. In 2023 that rate had been 4.5 per 100,000, nine times the 2014 rate. In New York City, the primary and secondary syphilis rate fell 16.3 percent from 2023 to 2024.",
+        "home-care": "The New York City Health Department says condoms and dental dams help prevent the spread of herpes only if they cover the infected area, and advises avoiding sex while an open sore is present. The state Department of Health adds that herpes can pass through skin a condom does not cover. The city gives out free condoms through the NYC Condom Availability Program, with distribution sites listed on the NYC Health Map, and condoms bought in New York are exempt from sales tax.",
+        "when-not": "Pregnancy changes the plan. The New York City Health Department warns that herpes is dangerous for babies when a pregnant parent is newly infected late in pregnancy, that it can cause serious infections, brain damage or death in newborns, and that a cesarean section is recommended if sores are present at delivery. If you are pregnant and you or your partner has herpes, tell your prenatal care provider; the Department notes that medicine can lower the risk of an outbreak at delivery."
+      },
+      "faqs": [
+        {
+          "question": "Is genital herpes reported to the health department in New York?",
+          "answer": "Not in adults. New York's list of reportable communicable diseases (10 NYCRR Section 2.1) includes herpes only in infants 60 days old or younger, and the New York City Health Code likewise requires reporting of neonatal herpes. Adult genital herpes is not on either list. The state says its Partner Services staff follow up reportable infections such as chlamydia, gonorrhea, syphilis, mpox and HIV."
+        },
+        {
+          "question": "Where can I get tested for herpes in New York City?",
+          "answer": "The New York City Health Department's Sexual Health Clinics provide low- or no-cost STI services to anyone 12 or older, regardless of immigration status, mostly on a walk-in basis. Test results can take up to seven to ten days. Testing is usually done by swabbing a blister or sore, so go while one is present. The clinic hotline, 347-396-7959, answers Monday to Friday, 9 a.m. to 3:30 p.m."
+        }
+      ]
     },
     "acid-reflux-refills-online": {
-      "stateConditionParagraph": "A refill visit for acid reflux is also a check for warning signs. The American College of Gastroenterology recommends endoscopy for reflux with trouble swallowing, weight loss, bleeding, vomiting or anemia, and advises taking a proton pump inhibitor at the lowest dose that controls symptoms. Esophageal cancer is uncommon, but the New York State Department of Health counts about 1,080 new cases a year statewide (2016 to 2020 average). For adults physically in New York whose symptoms are stable, a video visit can review your current medicine, screen for those signs and renew it when appropriate. Flat $79."
+      "stateConditionParagraph": "A refill visit for acid reflux is also a check for warning signs. The American College of Gastroenterology recommends endoscopy for reflux with trouble swallowing, weight loss, bleeding, vomiting or anemia, and advises taking a proton pump inhibitor at the lowest dose that controls symptoms. Esophageal cancer is uncommon but serious, which is why those warning signs are checked first. For adults physically in New York whose symptoms are stable, a video visit can review your current medicine, screen for those signs and renew it when appropriate. Flat $79.",
+      "sectionNotes": {
+        "causes-risk-factors": "Smoking, one of the reflux triggers listed above, is a habit New York tracks closely. About 1.4 million adult New Yorkers, 9.3 percent, smoked cigarettes in 2023, according to the state Department of Health, and New York City's adult smoking rate was 8 percent that year. The reason to quit goes beyond heartburn: the state's cancer data group esophageal cancer with lung, larynx and oral cavity cancers as the four cancers most closely related to tobacco.",
+        "symptoms-redflags": "The warning signs in this table matter because esophageal cancer, while uncommon, is serious. The state's data also show esophageal cancer incidence declining steeply since 2006 in both New York City and the rest of the state, and the state's 2018 to 2022 data show esophageal cancer diagnosed more often in men than in women.",
+        "home-care": "If you smoke and want to quit, the New York State Smokers' Quitline, 866-NY-QUITS (866-697-8487), lets you apply for a free starter kit of nicotine medications, including patches and lozenges that most adults are eligible to receive, and talk with a quit coach.",
+        "medications": "If you keep an over-the-counter antacid on hand for breakthrough symptoms, New York does not charge sales tax on nonprescription drugs and medicines such as antacids, according to the state Department of Taxation and Finance (Tax Bulletin TB-ST-193). Cosmetic and toiletry items sold in the same store are taxed. Antacids remain an add-on for occasional symptoms, not a replacement for a PPI or H2 blocker in established reflux disease."
+      },
+      "faqs": [
+        {
+          "question": "Can a New York pharmacy mail my PPI refills without asking me?",
+          "answer": "No. Under New York Education Law Section 6810, a pharmacy registered with the state, including a registered out-of-state pharmacy, may not deliver a new or refilled prescription off premises without your consent. A pharmacy that delivers without consent must accept the return and credit you for any charges you paid. Refill reminder and medication adherence programs are still allowed, so you can keep reminders while choosing pickup."
+        }
+      ]
     },
     "cold-sore-treatment-online": {
-      "stateConditionParagraph": "Cold sores are caused by herpes simplex virus, usually type 1, and the infection is common: in the CDC's national survey for 2015 to 2016, 47.8 percent of Americans aged 14 to 49 had HSV-1 antibodies. Antibodies show infection, not how often cold sores appear. For many people a cold sore clears on its own in 7 to 14 days, and treatment started early can ease discomfort and speed healing, per the American Academy of Dermatology. A sore near the eye, or an eye that becomes painful or light sensitive, needs an eye doctor right away. A video visit for adults physically in New York can decide whether an antiviral is appropriate. Flat $79."
+      "stateConditionParagraph": "Cold sores are caused by herpes simplex virus, usually type 1, and the infection is common: in the CDC's national survey for 2015 to 2016, 47.8 percent of Americans aged 14 to 49 had HSV-1 antibodies. Antibodies show infection, not how often cold sores appear. For many people a cold sore clears on its own in 7 to 14 days, and treatment started early can ease discomfort and speed healing, per the American Academy of Dermatology. A sore near the eye, or an eye that becomes painful or light sensitive, needs an eye doctor right away. A video visit for adults physically in New York can decide whether an antiviral is appropriate. Flat $79.",
+      "sectionNotes": {
+        "home-care": "If sun brings on your cold sores, the American Academy of Dermatology says that wearing a broad-spectrum lip balm with SPF 30 or higher year-round may help prevent new ones.",
+        "differential": "A sore on the genitals is a different question from a cold sore on the lip, even though the same virus can cause both: the CDC reports that an increasing proportion of anogenital herpes infections are caused by HSV-1, especially among young women and men who have sex with men. TeleDirectMD has a separate genital herpes visit. In New York City, the Health Department's Sexual Health Clinics also offer walk-in evaluation of STI symptoms at low or no cost to anyone 12 or older, regardless of immigration status."
+      },
+      "faqs": [
+        {
+          "question": "Can the cold sore virus cause genital herpes, and where can I get checked in New York City?",
+          "answer": "Yes. Cold sores are usually caused by HSV-1, and the CDC reports that a growing share of genital herpes infections are caused by HSV-1 as well. A video visit can review genital symptoms on TeleDirectMD's genital herpes page. In New York City, the Health Department's Sexual Health Clinics offer walk-in, low- to no-cost evaluation for signs and symptoms of STIs to anyone 12 or older, regardless of immigration status."
+        }
+      ]
     },
     "dandruff-treatment-online": {
-      "stateConditionParagraph": "Scalp seborrheic dermatitis often flares when the weather turns cold and dry, according to the American Academy of Dermatology, which lists zinc pyrithione, salicylic acid, sulfur, selenium sulfide, ketoconazole and coal tar as dandruff shampoo ingredients to look for. When over-the-counter products are not enough, a video visit for adults physically in New York can look at the scalp on camera and decide whether a prescription shampoo or other treatment is appropriate. If a prescription shampoo is prescribed, New York law (Education Law Sections 6810 and 6816-a) has the pharmacist fill it with a less expensive generic on the state's approved list unless the prescriber marks it dispense as written. Dandruff that persists or is severe deserves a dermatologist's evaluation. Flat $79."
+      "stateConditionParagraph": "Scalp seborrheic dermatitis often flares when the weather turns cold and dry, according to the American Academy of Dermatology, which lists zinc pyrithione, salicylic acid, sulfur, selenium sulfide, ketoconazole and coal tar as dandruff shampoo ingredients to look for. When over-the-counter products are not enough, a video visit for adults physically in New York can look at the scalp on camera and decide whether a prescription shampoo or other treatment is appropriate. If a prescription shampoo is prescribed, New York law (Education Law Sections 6810 and 6816-a) has the pharmacist fill it with a less expensive generic on the state's approved list unless the prescriber marks it dispense as written. Dandruff that persists or is severe deserves a dermatologist's evaluation. Flat $79.",
+      "sectionNotes": {
+        "treatment-options": "Over-the-counter medicated shampoos are the first step, and in New York they are not subject to sales tax. The state Department of Taxation and Finance's bulletin on drugstore sales (TB-ST-193, April 2024) lists dandruff shampoo and treatments among exempt nonprescription drugs, while ordinary nonmedicated shampoo is taxable. If a few weeks of a medicated shampoo used as directed has not controlled the flaking, that is the point where a prescription-strength option is worth discussing.",
+        "causes-risk-factors": "Severe seborrheic dermatitis in an adult can be a reason to check HIV status, since the condition is far more common in people with HIV. New York's Public Health Law Section 2781-a requires an HIV test to be offered to everyone 13 and older who receives primary care from a physician, physician assistant, nurse practitioner or midwife, unless one has already been offered or done, and a test is still offered when otherwise indicated. In New York City, the Health Department's Sexual Health Clinics provide confidential, low- to no-cost HIV testing to anyone 12 or older, regardless of immigration status."
+      },
+      "faqs": [
+        {
+          "question": "Why might HIV testing come up for bad dandruff in New York?",
+          "answer": "Seborrheic dermatitis, the condition behind most dandruff, is much more common and more severe in people with HIV, so a severe or sudden flare in an adult can be a reason to test. New York law separately requires primary care clinicians to offer HIV testing to everyone 13 and older unless it has already been offered or done. In New York City, the Health Department's Sexual Health Clinics offer confidential, low- to no-cost testing."
+        }
+      ]
     },
     "ear-pain-treatment-online": {
-      "stateConditionParagraph": "A video visit cannot look at the eardrum; that takes an otoscope, in person. A visit can sort out whether your symptoms fit swimmer's ear, an ear canal infection that, per the American Academy of Otolaryngology, occurs when water stays trapped in the canal, and treat it with ear drops when appropriate. In New York City, a combined sewer overflow advisory is issued when heavy rain or snow spills untreated sewage into the waters around New York Harbor, water that may carry illness-causing bacteria. Severe pain with fever and swelling behind the ear, facial weakness or sudden hearing loss needs in-person care. Flat $79 for adults physically in New York."
+      "stateConditionParagraph": "A video visit cannot look at the eardrum; that takes an otoscope, in person. A visit can sort out whether your symptoms fit swimmer's ear, an ear canal infection that, per the American Academy of Otolaryngology, occurs when water stays trapped in the canal, and treat it with ear drops when appropriate. In New York City, a combined sewer overflow advisory is issued when heavy rain or snow spills untreated sewage into the waters around New York Harbor, water that may carry illness-causing bacteria. Severe pain with fever and swelling behind the ear, facial weakness or sudden hearing loss needs in-person care. Flat $79 for adults physically in New York.",
+      "sectionNotes": {
+        "causes-risk-factors": "Swimming water anywhere in New York can carry germs into the ear. The state Department of Health warns that germs in swimming water can enter your body through your mouth, eyes, ears and nose, and that levels of fecal contamination can be higher after heavy rains. Public bathing beaches in the state are regulated under Subpart 6-2 of the State Sanitary Code, permitted and inspected by local health departments, and are closed or have swimming advisories posted when the beach is unsafe. Outside a regulated beach, the Department advises assuming that all waters have fecal contamination even if you can't see it.",
+        "symptoms-redflags": "Diabetes is common in New York: the state Department of Health estimates that 1.7 million adult New Yorkers, 10.6 percent, had diagnosed diabetes in 2023. That matters for ear pain because, as the list above notes, diabetes raises the risk of severe and necrotizing otitis externa, which needs urgent in-person care. If you have diabetes or a weakened immune system and your ear pain is getting worse quickly or the ear is draining, skip the video visit and get seen in person.",
+        "home-care": "Once your ear has healed, checking the water before you swim can help you avoid the next infection. In 2025 the NYC Health Department routinely monitored water quality at 24 permitted beaches, and when rainfall exceeds a set threshold for a beach, it issues a water quality advisory for a set period. You can see each beach's status on the Health Department's Beach Water Quality map or by calling 311, and you can report a swimming-related illness through 311.",
+        "medications": "Two New York pharmacy rules can help with the cost of prescription ear drops. Under Education Law Section 6816-a, a pharmacist substitutes a less expensive drug product with the same active ingredients, dosage form and strength as the drug prescribed, when the substitute is on the state's approved list and the prescriber does not prohibit substitution. Every New York pharmacy that sells drugs at retail must also make a drug retail price list available and display a sign reading \"Drug Retail Price List Available Upon Request.\""
+      },
+      "faqs": [
+        {
+          "question": "Is it safe to swim at a New York City beach after it rains?",
+          "answer": "Check first. The NYC Health Department uses rainfall thresholds to predict when sewer overflows may affect each beach, and when rainfall exceeds a beach's threshold it issues a water quality advisory for a set period. Across the 24 beaches it monitored in 2025, its annual report counts 960 advisory days in total, summed beach by beach, for rainfall, storms and high bacteria readings. The Beach Water Quality map and 311 show current status. Outside the city, the state says fecal contamination can be higher after heavy rains."
+        },
+        {
+          "question": "I have diabetes and ear pain. Can I use a video visit in New York?",
+          "answer": "Sometimes, but not when symptoms are worsening fast. More than 1 in 10 adult New Yorkers has diagnosed diabetes, according to the state Department of Health, and diabetes raises the risk of necrotizing otitis externa, a severe ear canal infection that needs urgent in-person care. If you have diabetes and rapidly worsening ear pain or drainage, get seen in person. For milder, stable symptoms, Dr. Bhavsar can assess by video whether in-person care is needed."
+        }
+      ]
     },
     "eczema-treatment-online": {
-      "stateConditionParagraph": "In New York City, heat season runs from October 1 to May 31: landlords must keep apartments at 68 degrees or warmer by day when it is below 55 outside, and 62 or warmer overnight. That means months of cold air outside and heated rooms inside. The American Academy of Dermatology notes that cold can dry the skin and that sweating from overheating can also trigger flares, and advises moisturizing after bathing. A video visit for adults physically in New York can review a flare on camera and adjust treatment when appropriate. Fever, pus, golden crusts or a rash that spreads rapidly needs in-person care. Flat $79."
+      "stateConditionParagraph": "In New York City, heat season runs from October 1 to May 31: landlords must keep apartments at 68 degrees or warmer by day when it is below 55 outside, and 62 or warmer overnight. That means months of cold air outside and heated rooms inside. The American Academy of Dermatology notes that cold can dry the skin and that sweating from overheating can also trigger flares, and advises moisturizing after bathing. A video visit for adults physically in New York can review a flare on camera and adjust treatment when appropriate. Fever, pus, golden crusts or a rash that spreads rapidly needs in-person care. Flat $79.",
+      "sectionNotes": {
+        "causes-risk-factors": "Work can be the trigger. New York runs what the state Department of Health calls the nation's only state-based occupational health clinic network. Under the state Workers' Compensation Board's definition, an occupational disease is any illness or condition associated with a particular occupation or industry, so a rash caused by gloves, wet work or chemicals on the job can fall under it.",
+        "differential": "In New York, a ring-shaped rash that does not respond to eczema treatment deserves a second look for fungus. The CDC's 2024 report on a sexually transmitted ringworm strain in New York City notes it might be mistaken for eczema or psoriasis, and the CDC's 2023 report on resistant Trichophyton indotineae, first found in the city, links that strain's spread to misuse of topical steroids and steroid-antifungal combination creams. Putting a steroid on an undiagnosed fungal rash can make it harder to recognize and treat.",
+        "home-care": "Hot water is a known eczema trigger, and New York City buildings run hot. Under the city's housing rules, landlords must supply hot water 365 days a year at a constant minimum of 120 degrees Fahrenheit. Let the shower mix down to lukewarm, keep it short, and apply moisturizer while your skin is still damp. If your building has no hot water at all, contact your landlord first and then 311.",
+        "when-not": "If your rash started or worsens at work, or you suspect a chemical, glove or other job exposure, the state's Occupational Health Clinic Network can evaluate work-related illness. Its clinics are available to all workers, retirees and residents in New York State, they can bill most major insurers, and the Department of Health says no worker will be turned away because of an inability to pay."
+      },
+      "faqs": [
+        {
+          "question": "Could my eczema be caused by my job in New York?",
+          "answer": "It can, and it is worth asking if the rash is worst on your hands or eases on days off. New York's Workers' Compensation Board defines an occupational disease as any illness or condition associated with a particular occupation or industry, and claims must be filed within two years of the disability or of when you knew, or should have known, it was caused by work. The state's Occupational Health Clinic Network evaluates work-related illness and turns no worker away for inability to pay."
+        },
+        {
+          "question": "My eczema cream isn't working. Could it be ringworm instead?",
+          "answer": "Sometimes. In New York City, the CDC has reported a sexually transmitted ringworm strain that might be mistaken for eczema or psoriasis, and a resistant strain whose spread is linked to steroid and steroid-antifungal combination creams. A ring-shaped patch with a raised, scaly edge, a rash that spreads despite steroid cream, or a rash after a new sexual partner should be looked at for fungus, sometimes with a skin scraping in person."
+        }
+      ]
     },
     "erectile-dysfunction-treatment-online": {
-      "stateConditionParagraph": "Erectile dysfunction can be a symptom of another health problem. The NIH lists diabetes and heart and blood vessel diseases, such as high blood pressure, among the most common causes, and an estimated 1.8 million adult New Yorkers, 11.3 percent, have diagnosed diabetes (state Department of Health, 2022 data). A video visit for adult men physically in New York starts with your health history and medicines. The FDA label for sildenafil says it must not be used with nitrates, and chest pain, dizziness or nausea during sex calls for medical help right away. When treatment is appropriate, it is sent electronically to the pharmacy you choose. Flat $79, discreet."
+      "stateConditionParagraph": "Erectile dysfunction can be a symptom of another health problem. The NIH lists diabetes and heart and blood vessel diseases, such as high blood pressure, among the most common causes, and an estimated 1.7 million adult New Yorkers, 10.6 percent, have diagnosed diabetes (state Department of Health, 2023 data). A video visit for adult men physically in New York starts with your health history and medicines. The FDA label for sildenafil says it must not be used with nitrates, and chest pain, dizziness or nausea during sex calls for medical help right away. When treatment is appropriate, it is sent electronically to the pharmacy you choose. Flat $79, discreet.",
+      "sectionNotes": {
+        "causes-risk-factors": "Newer state data update the diabetes picture: about 1.7 million adult New Yorkers, 10.6 percent, had diagnosed diabetes in 2023, and the rate among men was 11.5 percent (state Department of Health, October 2025). High blood pressure is also common among New York men, at 35.7 percent in 2024, and only 73.1 percent of men with that diagnosis take medicine for it. Both conditions can contribute to erectile dysfunction, so an ED visit is also a chance to ask whether yours are under control.",
+        "symptoms-redflags": "If erectile problems come with low mood, hopelessness or thoughts of suicide, that needs attention before any prescription. In New York, calling or texting 988, or chatting online, reaches trained crisis counselors 24/7, free and confidential, and the state has dedicated 988 contact centers for people in a mental health crisis. If you are in immediate danger, call 911.",
+        "when-not": "Poppers are recreational alkyl nitrites and must never be combined with ED medicine. The New York City Health Department warns that poppers are sold as deodorizers, solvent cleaners or nail polish removers in small bottles that can look like energy drinks, and that swallowing them can cause methemoglobinemia, a type of blood poisoning. If someone feels sick from poppers, the NYC Poison Center answers 24/7 at 212-POISONS (212-764-7667), free and confidential. Call 911 if the person is unconscious, having seizures or having trouble breathing.",
+        "home-care": "Stopping smoking is one of the lifestyle steps above, and New York offers free help with it. Through the New York State Smokers' Quitline, 866-NY-QUITS (866-697-8487), adults can apply for a free starter kit of nicotine medications, such as patches and lozenges, and talk with a quit coach. About 1.4 million adult New Yorkers still smoked cigarettes in 2023."
+      },
+      "faqs": [
+        {
+          "question": "Is it safe to order ED medication from a website that ships to New York?",
+          "answer": "Check that a real pharmacy is behind it. New York requires any pharmacy outside the state that ships prescription drugs to patients here, including internet pharmacies, to register with the State Education Department (Education Law Section 6808-b). Registered nonresident pharmacies must offer a toll-free line to a pharmacist at least 40 hours a week and print it on every container."
+        },
+        {
+          "question": "If an out-of-state mail-order pharmacy fills my New York prescription, whose rules apply?",
+          "answer": "Largely that pharmacy's home state. A registered nonresident pharmacy must stay licensed and in good standing where it is located and follow that state's rules for drugs it ships into New York (Education Law Section 6808-b). If you choose an out-of-state dispenser, that state's generic substitution law applies (Section 6816-a). New York law still requires your consent before a registered pharmacy delivers a new or refilled prescription."
+        }
+      ]
     },
     "hair-loss-treatment-online": {
-      "stateConditionParagraph": "Treating male pattern hair loss is long term: the FDA label for finasteride notes that stopping it reverses the effect within 12 months. Under New York Education Law Section 6826, every pharmacy must give you its retail price list for the 150 most frequently prescribed drugs on request, updated at least weekly. A video visit for adults physically in New York can assess the pattern and discuss options when appropriate. Finasteride is approved for men only, and a woman who is or may be pregnant should not handle crushed or broken tablets. Patchy bald spots, hair falling out in clumps, or a burning, tender scalp need in-person care. Flat $79."
+      "stateConditionParagraph": "Treating male pattern hair loss is long term: the FDA label for finasteride notes that stopping it reverses the effect within 12 months. Under New York Education Law Section 6826, every pharmacy must give you its retail price list for the 150 most frequently prescribed drugs on request, updated at least weekly. A video visit for adults physically in New York can assess the pattern and discuss options when appropriate. Finasteride is approved for men only, and a woman who is or may be pregnant should not handle crushed or broken tablets. Patchy bald spots, hair falling out in clumps, or a burning, tender scalp need in-person care. Flat $79.",
+      "sectionNotes": {
+        "differential": "Patchy hair loss has one cause worth knowing about in New York: secondary syphilis. The CDC lists patchy hair loss among its symptoms, along with a rash that can appear on the palms or the soles of the feet. The New York City Health Department counted 1,273 primary and secondary syphilis cases among men in 2024, while the rate fell 16.3 percent from 2023. Patchy loss, with or without a rash, needs an in-person exam and testing, not a hair loss prescription.",
+        "medications": "Generic finasteride and brand-name Propecia contain the same active ingredient. New York law requires the prescriber to tell you whether a brand name or its generic equivalent was prescribed (Education Law Section 6810), and a pharmacist may substitute an approved generic unless the prescriber marks the prescription dispense as written, by hand or with an electronic direction. If you have a reason to want the brand, raise it during the visit so the choice is made on purpose.",
+        "treatment-options": "Hair loss treatment is heavily marketed online. If a website ships finasteride to you in New York, the pharmacy filling it must be registered with the New York State Education Department even when it is located in another state, and internet pharmacies are expressly included (Education Law Section 6808-b). A registered out-of-state pharmacy must also print a toll-free number for reaching one of its pharmacists on each container, so check the label when your first order arrives.",
+        "home-care": "The FDA-approved label for finasteride lists depression and suicidal thoughts among effects reported in general use, so notice how your mood changes after you start it and tell a physician promptly about any change. In New York, calling or texting 988, or chatting online, reaches trained crisis counselors 24/7 at no cost, and the state runs dedicated 988 contact centers. If you are in immediate danger, call 911."
+      },
+      "faqs": [
+        {
+          "question": "Where can I get tested for syphilis in New York City if my hair loss is patchy?",
+          "answer": "The NYC Health Department's Sexual Health Clinics offer syphilis testing and STI treatment at low or no cost, and you can still be seen if you have no insurance or cannot pay the sliding-scale fee. Most clinic services are walk-in, with no appointment. The clinic hotline is 347-396-7959, Monday to Friday, 9 a.m. to 3:30 p.m. Patchy hair loss also needs an in-person exam by a dermatologist or primary care physician."
+        }
+      ]
     },
     "psoriasis-refills-online": {
-      "stateConditionParagraph": "If your topical psoriasis prescription is out of refills, note that under Education Law Section 6810, a pharmacy cannot refill a prescription more times than the prescriber authorized, and a new prescription must be sent electronically. A video visit for adults physically in New York with stable, previously diagnosed plaque psoriasis can review your skin and regimen and renew it when appropriate. New joint symptoms call for a fuller evaluation: the American Academy of Dermatology notes that psoriatic arthritis often starts with a few puffy joints, a swollen finger or toe, or morning stiffness, most often 5 to 12 years after psoriasis begins. Flat $79."
+      "stateConditionParagraph": "If your topical psoriasis prescription is out of refills, note that under Education Law Section 6810, a pharmacy cannot refill a prescription more times than the prescriber authorized, and a new prescription must be sent electronically. A video visit for adults physically in New York with stable, previously diagnosed plaque psoriasis can review your skin and regimen and renew it when appropriate. New joint symptoms call for a fuller evaluation: the American Academy of Dermatology notes that psoriatic arthritis often starts with a few puffy joints, a swollen finger or toe, or morning stiffness, most often 5 to 12 years after psoriasis begins. Flat $79.",
+      "sectionNotes": {
+        "eligibility-checklist": "A refill visit starts from an existing diagnosis, and New York law helps you document it. Under Public Health Law Section 18, a clinician who treated you must furnish a copy of your patient information within a reasonable time after a written request, must offer inspection of it within ten days, and may not deny you access solely because you cannot pay.",
+        "how-it-works": "New York prescriptions travel electronically, and that helps when a pharmacy is out of your cream or you are away from your usual store. Education Law Section 6810 lets a pharmacy that received an electronic prescription, and has not filled it, forward it immediately to another pharmacy you designate at your request. Ask the first pharmacy to transfer it rather than starting over with a new prescription.",
+        "medications": "Psoriasis regimens often come with exact instructions about how thinly to apply, where, and for how many weeks, especially for high-potency steroids. If English is not your first language, Education Law Section 6829 requires any New York pharmacy that is part of a group of eight or more in the state under the same corporate owner to provide free, competent oral interpretation and to translate prescription labels, warning labels and other written material into the pharmacy primary languages for its region. Covered pharmacies must post a notice of this right at the prescription counter."
+      },
+      "faqs": [
+        {
+          "question": "How do I get my old psoriasis records in New York?",
+          "answer": "Ask the clinician or practice that diagnosed you, in writing. New York Public Health Law Section 18 requires a provider to furnish a copy of your patient information within a reasonable time, to offer inspection within ten days of a written request, and not to deny you access solely because you cannot pay. Records that show the diagnosis and your current topical regimen help a refill visit go smoothly."
+        },
+        {
+          "question": "My pharmacy is out of my psoriasis medicine. Can the prescription move to another New York pharmacy?",
+          "answer": "Often, yes. New York Education Law Section 6810 allows a pharmacy that received an electronic prescription, and has not filled it, to forward it immediately to another pharmacy you choose, at your request. Ask the first pharmacy to transfer it. If you have no refills left, a new prescription is needed, and a video visit can review your skin and regimen and renew it when appropriate."
+        },
+        {
+          "question": "Can I get my prescription label in my own language in New York?",
+          "answer": "At many pharmacies, yes. Education Law Section 6829 requires New York pharmacies that are part of a group of eight or more in the state under the same corporate owner to offer free, competent oral interpretation and translated prescription labels, warning labels and written materials in the main languages of their region, which are set by regulation from Census data, up to seven per region. Ask at the counter."
+        }
+      ]
     },
     "scabies-treatment-online": {
-      "stateConditionParagraph": "Scabies spreads through skin-to-skin contact, including sex, and through shared clothing, towels and bedding, according to the New York City Health Department. It advises treating household members, including children, even without symptoms, and examining and treating sex and intimate partners from the past six weeks. The CDC adds that household members and close contacts should be treated at the same time as the person with scabies. Clothing, bedding and towels should be machine washed and dried hot. A video visit for adults physically in New York can review the rash and plan treatment when appropriate. TeleDirectMD treats adults only, so children in the household should be treated at the same time by their own clinician. Thick, crusted skin needs in-person care. Flat $79."
+      "stateConditionParagraph": "Scabies spreads through skin-to-skin contact, including sex, and through shared clothing, towels and bedding, according to the New York City Health Department. It advises treating household members, including children, even without symptoms, and examining and treating sex and intimate partners from the past six weeks. The CDC adds that household members and close contacts should be treated at the same time as the person with scabies. Clothing, bedding and towels should be machine washed and dried hot. A video visit for adults physically in New York can review the rash and plan treatment when appropriate. TeleDirectMD treats adults only, so children in the household should be treated at the same time by their own clinician. Thick, crusted skin needs in-person care. Flat $79.",
+      "sectionNotes": {
+        "how-it-works": "If you work in New York, the state's paid sick leave law (Labor Law Section 196-b) covers time off for the diagnosis, care or treatment of your own illness or health condition, so time off work for the visit and treatment can come out of that leave. Employers with 5 to 99 workers must provide up to 40 hours of paid sick leave a year, and employers with 100 or more up to 56 hours. Your employer may not require you to disclose confidential information about the condition to approve the leave.",
+        "differential": "The New York City Health Department describes how scabies is confirmed in person: mineral oil is applied to the skin, the skin is scraped, and the sample is examined under a microscope. A video visit cannot do that, so if the rash pattern on camera is not typical, or treatment has not worked, an in-person scraping is the next step. The same brochure notes that people do not catch scabies mites from animals and animals do not catch them from people.",
+        "home-care": "The New York City Health Department adds two steps to the hot wash and dry. Items that cannot be washed should be sealed in a plastic bag for at least 72 hours, and carpets and upholstered furniture should be vacuumed. It also advises wearing clean clothes, not sharing clothes or towels, and washing bedding and towels often while the household is being treated.",
+        "when-not": "One case of scabies caught in everyday life is not a public health report in New York: the state Department of Health says sporadic, community-acquired cases are not reportable. Outbreaks in hospitals, nursing homes and other health care facilities are handled differently. The Department's memo on scabies in health care facilities says outbreaks must be reported to the state, that both symptomatic employees and exposed employees without symptoms should be treated, and that household members and sexual contacts of symptomatic employees must be treated at the same time. If several people where you live or work have the same rash, that needs a facility-wide response, not a single video visit."
+      },
+      "faqs": [
+        {
+          "question": "Can I go to work with scabies in New York?",
+          "answer": "Ask your employer about its own policy. For any job, the state's paid sick leave law covers time for the diagnosis, care and treatment of your own illness, and your employer may not require you to disclose confidential medical information to grant that leave."
+        },
+        {
+          "question": "Do I have to report scabies to the health department in New York?",
+          "answer": "Not for a single case picked up in the community. The New York State Department of Health says sporadic, community-acquired scabies cases are not reportable. Outbreaks in hospitals, nursing homes and other health care facilities are different: the Department's guidance says those must be reported to the state, and the facility handles that. Your household and close contacts still need treatment at the same time as you."
+        },
+        {
+          "question": "Can I catch scabies from my dog or cat?",
+          "answer": "No. The New York City Health Department's scabies brochure says humans are not at risk of contracting scabies mites from an animal, or the other way around. Human scabies spreads through skin-to-skin contact, including sex, and through shared clothing, towels and bedding, so treatment focuses on you and the people you live with or are intimate with."
+        }
+      ]
     }
   },
   "relatedLinks": [
