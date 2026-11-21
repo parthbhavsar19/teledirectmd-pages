@@ -1,0 +1,284 @@
+{
+  "stateCode": "MS",
+  "stateName": "Mississippi",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "mid",
+    "regulation": "standard",
+    "payerLandscape": "single-payer",
+    "epidemiology": [
+      "tick-rmsf",
+      "rabies-bat-reservoir",
+      "sti-county-testing"
+    ],
+    "boardStrictness": "strict",
+    "culturalRegister": "south",
+    "voiceNotes": "Plain and neighborly, built around what the Mississippi State Board of Medical Licensure actually requires (a real exam by video, not a questionnaire). Lean on the state health department's own words for ticks, rabies and antibiotics. One payer (Curative) is in-network; say so precisely and never imply broader coverage."
+  },
+  "stateHero": {
+    "openingParagraph": "The Mississippi State Board of Medical Licensure treats the practice of medicine as happening wherever the patient is, so a TeleDirectMD video visit depends on where you are when the call starts, not on your home address. Adults 18 and older who are physically in Mississippi, in Jackson, Gulfport, Hattiesburg, Tupelo, Southaven or anywhere else in the state, can see Parth Bhavsar, MD, a board-certified family medicine physician who holds a Mississippi medical license. The visit is a flat $79, paid at booking, with HSA and FSA cards accepted, and TeleDirectMD is in-network with Curative in Mississippi. When a prescription is appropriate, it goes electronically to the Mississippi pharmacy you pick.",
+    "stateContextHint": "Mississippi-licensed physician. Live video visits for adults located in Mississippi, where Board rules place the visit with the patient. Flat $79 or Curative in-network.",
+    "saturation": {
+      "stateNameMentions": 5,
+      "stateEntityMentions": 3
+    }
+  },
+  "stateEligibility": {
+    "intro": "Under the Mississippi State Board of Medical Licensure's telemedicine rules (Title 30, Part 2635, Chapter 5), the practice of medicine is deemed to occur in the location of the patient, and only physicians holding a valid Mississippi license may practice telemedicine there. For a TeleDirectMD visit that becomes one practical test: you must be an adult, 18 or older, who is physically in Mississippi while the video visit happens. A Mississippi resident who is traveling in a state TeleDirectMD does not serve cannot be seen until back in Mississippi or another served state.",
+    "localTriggers": [
+      "Be in Mississippi during the visit. Board Rule 5.2 deems the practice of medicine to occur where the patient is located.",
+      "Expect live video. TeleDirectMD visits are held by real-time video.",
+      "Board Rule 5.3 calls for informed consent that covers the risks and benefits of telemedicine, including how to get follow-up care after an adverse reaction or an equipment failure.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "A TeleDirectMD visit in Mississippi is a flat $79, paid at booking, and HSA and FSA cards are accepted. For members of Curative's commercial PPO, EPO and self-funded plans, TeleDirectMD is in-network in Mississippi, and what you owe depends on your plan. TeleDirectMD does not accept Mississippi Medicaid, which the Mississippi Division of Medicaid administers as the single state agency for the program, or any Medicaid managed care plan. Mississippi is not on the federal list of states running their own insurance marketplace for 2027, so individual plans for Mississippians are sold through HealthCare.gov. Medicine prescribed during a visit is paid for at the pharmacy.",
+    "additionalNotes": [
+      "$79 flat self-pay, paid at booking.",
+      "HSA and FSA cards accepted.",
+      "In-network with Curative (commercial PPO, EPO and self-funded plans) in Mississippi.",
+      "Mississippi Medicaid and Medicaid managed care are not accepted."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "When a prescription is appropriate, TeleDirectMD sends it electronically to the Mississippi pharmacy you choose. Before any prescription, the Mississippi State Board of Medical Licensure requires a valid physician patient relationship: Rule 5.4 lists verifying the patient's identity, a history and examination that meet the applicable standard of care, a diagnosis, a discussion of treatment options, available follow-up care and a complete medical record, and Rule 5.5 says a simple questionnaire without an appropriate exam violates Board policy. Mississippi pharmacists can start or change drug therapy only under a written protocol with a prescribing practitioner, under Mississippi Board of Pharmacy rules. Controlled substance prescriptions in the state are tracked by the Mississippi Prescription Monitoring Program, which the Board of Pharmacy manages. TeleDirectMD does not prescribe controlled substances in Mississippi or in any of the 40+ states it serves.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "The Mississippi State Department of Health (MSDH) publishes the local context behind several common video visits. Ticks are active in the months when ground temperatures reach 40 degrees Fahrenheit or more, and MSDH identifies up to 100 probable cases of Rocky Mountain spotted fever in Mississippi each year, spread by the American dog tick and the lone star tick. Flu is tracked through sentinel practitioners who report the share of visits for influenza-like illness and send specimens to the Mississippi Public Health Laboratory. Bats are the state's primary rabies reservoir, and MSDH calls land animal rabies exceptionally rare in Mississippi. County health departments offer affordable testing for chlamydia, gonorrhea, syphilis and HIV. This is general context, not a substitute for an individual evaluation.",
+    "citations": [
+      {
+        "label": "Mississippi State Board of Medical Licensure rules, Title 30, Part 2635, Chapter 5 (Practice of Telemedicine), as filed with the Secretary of State",
+        "url": "https://www.sos.ms.gov/adminsearch/ACProposed/00025779b.pdf",
+        "scope": "all"
+      },
+      {
+        "label": "Mississippi Medical Practice Act (Board reference compilation), including Miss. Code Ann. sections 73-25-34 and 73-43-1",
+        "url": "https://www.msbml.ms.gov/sites/default/files/2026%20Law%20Documents/Mississippi_Medical_Practice_Act.pdf",
+        "scope": "all"
+      },
+      {
+        "label": "Mississippi Prescription Monitoring Program, About MS PMP",
+        "url": "https://pmp.mbp.ms.gov/about/about-ms-pmp",
+        "scope": "all"
+      },
+      {
+        "label": "Mississippi Board of Pharmacy, Article XXXVI (drug therapy under protocol)",
+        "url": "https://mbp.ms.gov/sites/default/files/2021-09/ARTICLE%20XXXVI%20PHARMACEUTICAL%20HEALTH%20CARE%20INITIATION%20AND-OR%20MODIFICATION%20OF%20DRUG%20THERAPY%20UNDER%20PROTOCOL.pdf",
+        "scope": "all"
+      },
+      {
+        "label": "Mississippi Division of Medicaid, About",
+        "url": "https://medicaid.ms.gov/about/",
+        "scope": "all"
+      },
+      {
+        "label": "CMS, State-based Exchanges for Plan Year 2027 (updated November 6, 2026)",
+        "url": "https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces",
+        "scope": "all"
+      },
+      {
+        "label": "U.S. Census Bureau, Vintage 2025 state population estimates (NST-EST2025)",
+        "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-POPCHG2020-2025.csv",
+        "scope": "hub"
+      },
+      {
+        "label": "MSDH, Rocky Mountain Spotted Fever (RMSF)",
+        "url": "https://msdh.ms.gov/programs-services/communicable-diseases/rocky-mountain-spotted-fever",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "MSDH, STD/HIV Prevention and Testing",
+        "url": "https://msdh.ms.gov/programs-services/communicable-diseases/std-prevention-testing",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "CDC, Legal Status of Expedited Partner Therapy (updated July 1, 2026)",
+        "url": "https://www.cdc.gov/sti/php/ept-legal-status/index.html",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "MSDH, Flu (Influenza) and flu surveillance",
+        "url": "https://msdh.ms.gov/programs-services/communicable-diseases/influenza",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "MSDH, COVID-19",
+        "url": "https://msdh.ms.gov/programs-services/communicable-diseases/covid-19",
+        "conditions": [
+          "covid-19-treatment-online"
+        ]
+      },
+      {
+        "label": "MSDH, Rabies",
+        "url": "https://msdh.ms.gov/programs-services/communicable-diseases/rabies",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "MSDH, Using Antibiotics Wisely",
+        "url": "https://msdh.ms.gov/programs-services/communicable-diseases/antibiotic-use",
+        "conditions": [
+          "sinus-infection-treatment-online",
+          "sore-throat-treatment-online",
+          "ear-pain-treatment-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds a Mississippi medical license issued by the Mississippi State Board of Medical Licensure. The Board exists under Mississippi Code Section 73-43-1, and Section 73-25-34 bars anyone from practicing telemedicine on patients in Mississippi without first obtaining a license from it. Anyone can confirm the license through the Board's online verification search. NPI: 1104323203.",
+    "verifyUrl": "https://gateway.msbml.ms.gov/verification/search.aspx",
+    "statuteCitation": "Miss. Code Ann. section 73-25-34 (telemedicine licensure); Mississippi State Board of Medical Licensure rules, Title 30, Part 2635, Chapter 5 (Practice of Telemedicine)",
+    "licenseNumber": "30010",
+    "boardName": "Mississippi State Board of Medical Licensure",
+    "boardUrl": "https://www.msbml.ms.gov/"
+  },
+  "stateCities": {
+    "metroAndRural": "TeleDirectMD sees adults anywhere in Mississippi, a state of 2,954,160 residents as of July 1, 2025 (U.S. Census Bureau estimate). Patients in Jackson, Gulfport, Southaven, Hattiesburg, Biloxi, Meridian, Tupelo, Olive Branch, Greenville and Horn Lake book the same way as patients in the smallest towns: a live video visit with the same physician, at the same flat $79, from wherever in the state they are during the visit.",
+    "cityList": [
+      {
+        "city": "Jackson"
+      },
+      {
+        "city": "Gulfport"
+      },
+      {
+        "city": "Southaven"
+      },
+      {
+        "city": "Hattiesburg"
+      },
+      {
+        "city": "Biloxi"
+      },
+      {
+        "city": "Meridian"
+      },
+      {
+        "city": "Tupelo"
+      },
+      {
+        "city": "Olive Branch"
+      },
+      {
+        "city": "Greenville"
+      },
+      {
+        "city": "Horn Lake"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "single-payer",
+    "selfPayDisclosure": "Without insurance, every Mississippi visit is a flat $79, paid at booking, with HSA and FSA cards accepted. TeleDirectMD is in-network in Mississippi with one insurer, Curative, for its commercial PPO, EPO and self-funded plans. It does not bill Mississippi Medicaid or Medicaid managed care plans. Patients with any other insurance can still choose the $79 self-pay visit; TeleDirectMD does not file claims with those plans and cannot promise reimbursement.",
+    "payers": [
+      {
+        "name": "Curative",
+        "anchorId": "curative-coverage",
+        "planNames": "Commercial PPO, EPO, and self-funded plans (EPO Value, EPO (PPOx), PPO (PPO+), PPO Max)",
+        "validFrom": "2026-07-07",
+        "copayNote": "Member cost sharing depends on the Curative plan."
+      }
+    ]
+  },
+  "stateFaqs": [
+    {
+      "question": "Can a doctor diagnose and prescribe over video in Mississippi?",
+      "answer": "Yes, within rules set by the Mississippi State Board of Medical Licensure. A valid physician patient relationship is required, including identity verification and a history and examination that meet the standard of care, and the exam may happen by video when the technology gives the physician the same information as a face-to-face exam. A questionnaire alone does not satisfy the rule. TeleDirectMD visits are live video with Parth Bhavsar, MD, and controlled substances are not prescribed."
+    },
+    {
+      "question": "Is TeleDirectMD in-network with any insurer in Mississippi?",
+      "answer": "Yes, one: Curative, for its commercial PPO, EPO and self-funded plans. What you pay depends on your Curative plan. TeleDirectMD does not accept Mississippi Medicaid or Medicaid managed care plans. Anyone else can book the flat $79 self-pay visit, paid at booking, and HSA and FSA cards are accepted."
+    },
+    {
+      "question": "How can I check Dr. Bhavsar's Mississippi license?",
+      "answer": "Parth Bhavsar, MD holds a Mississippi medical license from the Mississippi State Board of Medical Licensure, the board created by Mississippi Code Section 73-43-1. The Board's online verification search lets anyone look up the license. Under Section 73-25-34, a physician needs a license from this Board to practice telemedicine on patients in Mississippi."
+    },
+    {
+      "question": "Do I have to be in Mississippi for the visit, or just live there?",
+      "answer": "You have to be in Mississippi during the visit. Board Rule 5.2 says the practice of medicine is deemed to occur where the patient is located, which is why only physicians with a Mississippi license may treat patients in the state by telemedicine. A resident who is out of state at visit time would need to be in another state TeleDirectMD serves; a visitor who is physically in Mississippi can be seen."
+    },
+    {
+      "question": "Where can I get an STI test in Mississippi before a video visit?",
+      "answer": "The Mississippi State Department of Health offers affordable testing for chlamydia, gonorrhea, syphilis and HIV at county health departments, and its Crossroads Clinic in Jackson is the department's only dedicated STD/HIV clinic. TeleDirectMD cannot run tests. An adult in Mississippi with a positive chlamydia result can book a $79 video visit to talk through treatment and partner options."
+    }
+  ],
+  "conditionOverrides": {
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "The Mississippi State Department of Health singles out Rocky Mountain spotted fever: it identifies up to 100 probable cases in Mississippi each year, spread by the American dog tick and the lone star tick, with symptoms usually starting 3 to 14 days after a bite. MSDH notes that most ticks rarely transmit disease until they have been attached for several hours. For an adult in Mississippi who has already removed a tick within the past 72 hours and has no rash, fever or severe headache, a video visit can review a photo of the tick or bite, how long it was attached, and which symptoms to watch for. MSDH advises anyone with a fever after a tick bite to see a physician promptly and mention the bite. Flat $79, paid at booking."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "In Mississippi, chlamydia testing is available at any county health department, where MSDH offers affordable testing for chlamydia, gonorrhea, syphilis and HIV, and at the department's Crossroads Clinic in Jackson. TeleDirectMD does not run tests, so a visit starts from a positive result. For an adult in Mississippi who is not pregnant and has no pelvic pain with fever or severe testicular pain, Dr. Bhavsar can review the result and, when treatment is appropriate, send it electronically to a Mississippi pharmacy. CDC's July 2026 legal review lists expedited partner therapy as permissible in Mississippi, so partner treatment can be discussed during the visit. Mississippi law also requires providers and laboratories to report chlamydia cases to the state. Flat $79, paid at booking."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "Mississippi watches flu through sentinel practitioners who report what share of their patient visits look like influenza-like illness, which MSDH defines as a fever of 100°F or higher plus cough or sore throat, and who send samples to the Mississippi Public Health Laboratory for PCR testing. MSDH also reminds Mississippians that flu antivirals are available only by prescription and help most when taken as soon as possible after symptoms appear. An adult in Mississippi whose flu symptoms began within the past 48 hours, and who has no trouble breathing, chest pain or confusion, can be evaluated by video to decide whether an antiviral is appropriate. Flat $79, paid at booking.",
+      "relatedLinks": [
+        {
+          "href": "/flu-hub/state/mississippi.html",
+          "label": "Mississippi flu activity (FluHub)",
+          "description": "weekly CDC flu surveillance for the state"
+        }
+      ]
+    },
+    "covid-19-treatment-online": {
+      "stateConditionParagraph": "MSDH offers free COVID-19 testing by appointment at county health departments across Mississippi for anyone with symptoms or a possible exposure, and pharmacies and medical providers test as well. A positive result is the usual starting point for a TeleDirectMD visit. For an adult in Mississippi whose symptoms began within the last 5 days and who has no trouble breathing, chest pain or confusion, Dr. Bhavsar can review the test, the timeline and your full medication list, because some COVID-19 antivirals interact with common medicines, and send a prescription to a Mississippi pharmacy when treatment fits. Flat $79, paid at booking."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "Rabies in Mississippi is mostly a bat issue: the Mississippi State Department of Health names bats as the state's primary rabies reservoir and describes land animal rabies as exceptionally rare here, and state law requires licensed veterinarians to vaccinate dogs and cats starting at three months of age. Infection is the more common worry with a cat bite, and it can progress quickly. A video visit fits an adult in Mississippi bitten within the last 24 hours by a known domestic cat, with a cleaned, superficial to moderate wound that is not on a swollen hand. Bites from stray or wild animals, and any contact with a bat, need in-person rabies evaluation. Flat $79, paid at booking."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "After any animal bite in Mississippi, MSDH's first steps are to get the owner's name, address and phone number if possible, wash the wound thoroughly with soap and water for several minutes, and get prompt medical attention. Mississippi law requires dogs to be vaccinated against rabies at three months of age, again at one year, and at least every three years after that, and the health department can advise on having an animal tested. For an adult in Mississippi with a cleaned, superficial to moderate bite from a known domestic dog and normal hand function, a video visit can assess the wound by photo and decide whether antibiotics are appropriate. Bites from strays or wild animals, and deep wounds, need in-person care. Flat $79, paid at booking."
+    },
+    "sinus-infection-treatment-online": {
+      "stateConditionParagraph": "The Mississippi State Department of Health's guidance on using antibiotics wisely is direct: most sinus infections are caused by a virus, and antibiotics are needed only for some long-lasting or severe cases of bacterial sinusitis. MSDH also points to the national estimate that 30% of antibiotics prescribed in the U.S. may be unnecessary. For an adult in Mississippi with facial pressure and congestion, a video visit sorts out which pattern fits, covers what helps at home, and, when the history points to a bacterial infection, sends a prescription to a Mississippi pharmacy. Eye swelling, vision changes or a severe headache with high fever need in-person care. Flat $79, paid at booking."
+    },
+    "sore-throat-treatment-online": {
+      "stateConditionParagraph": "Viruses cause most sore throats, according to the Mississippi State Department of Health, but one bacterial infection, strep, does require antibiotics. That distinction drives a sore throat video visit for an adult in Mississippi: going over fever, cough and other symptoms to judge how likely strep is, and deciding whether a test is needed before any antibiotic. MSDH treats careful prescribing as the key to preventing the spread of antibiotic-resistant illness. Anyone in Mississippi who cannot swallow saliva, is drooling, has a muffled voice or has trouble breathing should seek emergency care instead of a video visit. Flat $79, paid at booking."
+    },
+    "ear-pain-treatment-online": {
+      "stateConditionParagraph": "MSDH notes that there are several types of ear infections and that many need antibiotics while some do not. A video visit for ear pain in Mississippi therefore focuses on which type is likely, using the history of fullness, discharge, itching or hearing change and what can be seen on camera. When an antibiotic or medicated ear drop is appropriate, the prescription goes electronically to the Mississippi pharmacy you choose. Severe pain with high fever and swelling behind the ear, facial weakness, or rapidly worsening drainage in someone with diabetes or a weakened immune system needs in-person care, not a video visit. Flat $79, paid at booking."
+    }
+  },
+  "relatedLinks": [
+    {
+      "href": "/flu-hub/state/mississippi.html",
+      "label": "Mississippi flu activity (FluHub)",
+      "description": "weekly CDC flu surveillance for the state"
+    }
+  ],
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Mississippi State Board of Medical Licensure, Title 30, Part 2635, Chapter 5, Rules 5.1 to 5.5 (Practice of Telemedicine)",
+        "renderAt": "hero-credential",
+        "content": "Mississippi Board rules define telemedicine as the practice of medicine by a licensed provider using HIPAA-compliant telecommunication systems capable of replicating an in-person encounter, deem the practice of medicine to occur where the patient is located, and require a valid physician patient relationship with an appropriate examination before diagnosis and treatment. TeleDirectMD provides real-time video visits to adults located in Mississippi through a physician licensed by the Mississippi State Board of Medical Licensure."
+      },
+      {
+        "statute": "Miss. Code Ann. section 73-25-34 (telemedicine licensure)",
+        "renderAt": "footer",
+        "content": "Mississippi Code Section 73-25-34 prohibits practicing telemedicine on patients in Mississippi without first obtaining a license from the State Board of Medical Licensure. Parth Bhavsar, MD holds a Mississippi license. TeleDirectMD does not prescribe controlled substances, and prescriptions are sent electronically to the pharmacy the patient chooses."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

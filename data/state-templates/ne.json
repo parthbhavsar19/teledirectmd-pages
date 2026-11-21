@@ -1,0 +1,336 @@
+{
+  "stateCode": "NE",
+  "stateName": "Nebraska",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "rural",
+    "regulation": "permissive",
+    "payerLandscape": "self-pay-only",
+    "epidemiology": [
+      "tick-lone-star-expanding",
+      "ehrlichiosis-rising",
+      "tularemia",
+      "rabies-bat-skunk"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "midwest",
+    "voiceNotes": "Matter-of-fact. Nebraska's telehealth statute is short and permissive, so the state-specific weight sits on the partner-treatment law (which includes trichomoniasis), the controlled-substance e-prescribing mandate, and detailed DHHS tick and rabies surveillance. Eastern Nebraska (Omaha, Lincoln) versus the rest of the state matters for ticks and bats."
+  },
+  "stateHero": {
+    "openingParagraph": "Nebraska settled the question of video care in statute: Neb. Rev. Stat. 38-1,143 lets a credentialed practitioner establish a provider-patient relationship through telehealth and prescribe during that visit when otherwise authorized. Parth Bhavsar, MD, a board-certified family medicine physician licensed in Nebraska, sees adults 18 and older who are physically in Nebraska during a live video visit, whether they are in Omaha, Lincoln, Kearney, North Platte or Norfolk. The fee is a flat $79, paid at booking, with HSA and FSA cards accepted. Any prescription goes electronically to the licensed Nebraska pharmacy you choose, which is where Nebraska law (38-2870) says an electronic order must go.",
+    "conditionPageOpener": "For adults located in Nebraska during the visit: a live video appointment with Parth Bhavsar, MD, board-certified in family medicine and licensed in Nebraska, at a flat $79 paid when you book. When a prescription is appropriate, it goes electronically to the Nebraska pharmacy you pick.",
+    "stateContextHint": "Nebraska-licensed physician. Video visits under Neb. Rev. Stat. 38-1,143, which allows a provider-patient relationship by telehealth, for adults in Nebraska. Flat $79 self-pay.",
+    "saturation": {
+      "stateNameMentions": 3,
+      "stateEntityMentions": 4
+    }
+  },
+  "stateEligibility": {
+    "intro": "Adults 18 and older can book if they are physically in Nebraska when the video visit begins; a Nebraska address alone is not enough if you are out of state that day. Nebraska law allows the provider-patient relationship to be established through telehealth and a prescription to be written during that visit when the prescriber is otherwise authorized (Neb. Rev. Stat. 38-1,143). Every TeleDirectMD visit is live video, and Dr. Bhavsar decides during the visit whether your concern can be handled by video or needs in-person care.",
+    "localTriggers": [
+      "A first visit by video is allowed. Nebraska lets a credentialed practitioner establish the provider-patient relationship through telehealth (Neb. Rev. Stat. 38-1,143(1)).",
+      "Prescribing during a telehealth visit is allowed when the practitioner is authorized under state and federal law (38-1,143(2)). TeleDirectMD does not prescribe controlled substances.",
+      "Electronic orders go straight to the licensed pharmacy you choose, and no one in between may change the order or the pharmacy (Neb. Rev. Stat. 38-2870(5)).",
+      "Adults 18 and older who are physically in Nebraska during the visit."
+    ]
+  },
+  "statePricing": {
+    "context": "Every TeleDirectMD visit for a patient located in Nebraska is a flat $79, paid at booking; HSA and FSA cards are accepted, and medicine is paid for separately at the pharmacy. TeleDirectMD does not bill insurance or Nebraska Medicaid. For coverage, the Nebraska Department of Health and Human Services offers Medicaid through Heritage Health Adult, the state's Medicaid expansion, to residents 19 to 64 earning up to 138% of the federal poverty level, with applications at iServe.nebraska.gov. The Census Bureau estimates 9.0% of Nebraskans under 65 are uninsured. Individual marketplace plans for Nebraska are sold through HealthCare.gov.",
+    "additionalNotes": [
+      "$79 flat self-pay, the full visit fee.",
+      "HSA and FSA cards accepted at booking.",
+      "No insurance or Medicaid billing in Nebraska."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "Prescriptions from Dr. Bhavsar go electronically to the Nebraska pharmacy you name. State law says an electronically transmitted order must go directly to a pharmacist in a licensed pharmacy of the patient's choice, and no intervening person may alter the order or the pharmacy chosen (Neb. Rev. Stat. 38-2870(5)). Since January 1, 2022, Nebraska has also required controlled-substance prescriptions to be issued electronically, with narrow exceptions (Neb. Rev. Stat. 38-1,146). The state's prescription drug monitoring system under Neb. Rev. Stat. 71-2454 collects dispensing data for all prescription drugs, including cash-pay prescriptions, and patients cannot opt out. TeleDirectMD does not prescribe controlled substances in Nebraska or any other state.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "Two outdoor exposures stand out in Nebraska's surveillance. Ticks: the state reported 58 tick-borne disease cases in 2024, 36 of them hospitalized, with tularemia (27) and ehrlichiosis (17) leading, and the lone star tick dominated the state's 2024 tick collections. Rabies: of 1,489 animals tested in 2025, 40 were positive, 37 of them bats, and the Department of Health and Human Services names skunks and bats as the state's two primary wildlife reservoirs. For STIs, CDC's 2023 tables put Nebraska's chlamydia rate at 468.8 per 100,000, just below the national 492.2. These figures give context and do not replace an individual evaluation.",
+    "citations": [
+      {
+        "label": "Neb. Rev. Stat. 38-1,143, Telehealth; provider-patient relationship; prescription authority",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?print=true&statute=38-1,143",
+        "scope": "all"
+      },
+      {
+        "label": "Neb. Rev. Stat. 38-1,146, Prescription issuance (electronic prescribing of controlled substances)",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=38-1,146",
+        "scope": "all"
+      },
+      {
+        "label": "Neb. Rev. Stat. 38-2870, Prescriptions; transmission to pharmacy of patient's choice",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=38-2870",
+        "scope": "all"
+      },
+      {
+        "label": "Neb. Rev. Stat. 71-2454, Prescription drug monitoring",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=71-2454"
+      },
+      {
+        "label": "Neb. Rev. Stat. 38-2010, Board of Medicine and Surgery",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=38-2010"
+      },
+      {
+        "label": "Neb. Rev. Stat. 71-8503, Nebraska Telehealth Act definitions",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?print=true&statute=71-8503"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, Nebraska (Vintage 2025)",
+        "url": "https://www.census.gov/quickfacts/fact/table/NE/PST045225"
+      },
+      {
+        "label": "U.S. Census Bureau, Vintage 2025 state population estimates (NST-EST2025)",
+        "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-POPCHG2020-2025.csv"
+      },
+      {
+        "label": "Nebraska DHHS, Medicaid Expansion in Nebraska (Heritage Health Adult)",
+        "url": "https://dhhs.ne.gov/Pages/Medicaid-Expansion.aspx",
+        "scope": "all"
+      },
+      {
+        "label": "CMS, State-based Exchanges for Plan Year 2027",
+        "url": "https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces"
+      },
+      {
+        "label": "Nebraska DHHS, Title 173 communicable disease regulations (compiled)",
+        "url": "https://dhhs.ne.gov/Documents/Title-173-Complete.pdf",
+        "conditions": [
+          "dog-bite-treatment-online",
+          "cat-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Nebraska DHHS, Reportable Diseases Title 173 chart (updated November 18, 2025)",
+        "url": "https://dhhs.ne.gov/epi%20docs/NPHL-Reportable-Disease-Title-173-Chart.pdf"
+      },
+      {
+        "label": "Neb. Rev. Stat. 71-4406, Post-incident management of biting animals",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?print=true&statute=71-4406",
+        "conditions": [
+          "dog-bite-treatment-online",
+          "cat-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Nebraska DHHS, Rabies in Nebraska, summary report 2020 to 2025",
+        "url": "https://dhhs.ne.gov/Documents/Rabies-Summary-Report-2020-2025.pdf",
+        "conditions": [
+          "dog-bite-treatment-online",
+          "cat-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Nebraska DHHS, Nebraska Rabies Investigation Guidelines",
+        "url": "https://dhhs.ne.gov/epi%20docs/Rabies%20Investigation%20Guidelines.pdf",
+        "conditions": [
+          "dog-bite-treatment-online",
+          "cat-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Nebraska DHHS, Rabies Information for Health Professionals",
+        "url": "https://dhhs.ne.gov/Pages/Rabies-Information-for-Providers.aspx",
+        "conditions": [
+          "dog-bite-treatment-online",
+          "cat-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Nebraska DHHS Health Alert Network, Tickborne Diseases in Nebraska (May 13, 2026)",
+        "url": "https://dhhs.ne.gov/han%20Documents/UPDATE05132026.pdf",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Nebraska DHHS, 2024 Nebraska Tickborne Disease Report",
+        "url": "https://dhhs.ne.gov/WNV%20Documents/2024TickborneAnnualReport.pdf",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Nebraska DHHS, Medically Important Ticks of Nebraska",
+        "url": "https://dhhs.ne.gov/Pages/Medically-Important-Ticks-of-Nebraska.aspx",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "CDC, STI reported cases and rates by state, ranked, 2023",
+        "url": "https://cdc.gov/sti-statistics/media/pdfs/2024/10/2023-STD-Surveillance-State-Ranking-Tables.pdf",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "Neb. Rev. Stat. 71-503.02, Expedited partner therapy for chlamydia, gonorrhea and trichomoniasis",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?print=true&statute=71-503.02",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "trichomoniasis-treatment-online",
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "CDC, Legal Status of EPT in Nebraska",
+        "url": "https://www.cdc.gov/sti/php/ept-legal-status/nebraska.html",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "trichomoniasis-treatment-online"
+        ]
+      },
+      {
+        "label": "Nebraska DHHS, First Pediatric Influenza Death Reported in Nebraska (February 4, 2026)",
+        "url": "https://dhhs.ne.gov/Pages/First-Pediatric-Influenza-Death-Reported-in-Nebraska-02042026.aspx",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "Nebraska DHHS Health Alert Network, Seasonal influenza and respiratory disease update (October 26, 2026)",
+        "url": "https://dhhs.ne.gov/han%20Documents/UPDATE10262026.pdf",
+        "conditions": [
+          "influenza-treatment-online",
+          "covid-19-treatment-online"
+        ]
+      },
+      {
+        "label": "Nebraska DHHS, Free Quit Medications Available Through Nebraska Tobacco Quitline",
+        "url": "https://dhhs.ne.gov/Pages/Free-Quit-Medications-Available-Through-Nebraska-Tobacco-Quitline.aspx",
+        "conditions": [
+          "smoking-cessation-treatment-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine, holds a Nebraska medical license issued by the Nebraska Department of Health and Human Services; Nebraska's Uniform Credentialing Act names the Board of Medicine and Surgery as the board for physicians (Neb. Rev. Stat. 38-2010). The same Act is the source of Nebraska's telehealth rule, Neb. Rev. Stat. 38-1,143, under which a credential holder may establish a provider-patient relationship by telehealth. Anyone can confirm the license through the state's online license lookup. NPI: 1104323203.",
+    "verifyUrl": "https://www.nebraska.gov/LISSearch/search.cgi",
+    "statuteCitation": "Neb. Rev. Stat. 38-1,143 (telehealth provider-patient relationship and prescribing); Neb. Rev. Stat. 38-2010 (Board of Medicine and Surgery); Neb. Rev. Stat. 38-1,146 (electronic prescribing of controlled substances)",
+    "licenseNumber": "CP2010",
+    "boardName": "Nebraska Department of Health and Human Services",
+    "boardUrl": "https://dhhs.ne.gov/licensure/pages/medicine-and-surgery.aspx"
+  },
+  "stateCities": {
+    "metroAndRural": "Nebraska had 2,018,006 residents on July 1, 2025 (U.S. Census Bureau) spread over 76,817.87 square miles, 25.5 people per square mile in 2020. TeleDirectMD sees adults in Omaha, Lincoln, Bellevue, Grand Island, Kearney, Fremont, Hastings, Norfolk, North Platte and Papillion, and in the smaller towns farther out, with the same physician and the same $79 fee wherever you are in the state. The Census Bureau counts 90.6% of Nebraska households with a broadband subscription (2020 to 2024), the connection a video visit needs.",
+    "cityList": [
+      {
+        "city": "Omaha"
+      },
+      {
+        "city": "Lincoln"
+      },
+      {
+        "city": "Bellevue"
+      },
+      {
+        "city": "Grand Island"
+      },
+      {
+        "city": "Kearney"
+      },
+      {
+        "city": "Fremont"
+      },
+      {
+        "city": "Hastings"
+      },
+      {
+        "city": "Norfolk"
+      },
+      {
+        "city": "North Platte"
+      },
+      {
+        "city": "Papillion"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "self-pay-only",
+    "selfPayDisclosure": "TeleDirectMD is self-pay only in Nebraska. It bills no commercial insurer, Medicare or Nebraska Medicaid, including Heritage Health Adult. Each visit is a flat $79, paid at booking, and HSA and FSA cards are accepted. You may ask your own plan about out-of-network reimbursement, but TeleDirectMD files no claims and cannot promise reimbursement. Medicaid applications go through the Nebraska Department of Health and Human Services at iServe.nebraska.gov, and individual marketplace plans are sold through HealthCare.gov.",
+    "payers": []
+  },
+  "stateFaqs": [
+    {
+      "question": "Can a doctor start treating me by video in Nebraska without an office visit first?",
+      "answer": "Yes. Neb. Rev. Stat. 38-1,143 allows a practitioner credentialed under Nebraska's Uniform Credentialing Act to establish a provider-patient relationship through telehealth and to prescribe during a telehealth visit when authorized under state and federal law. TeleDirectMD visits are live video, and Dr. Bhavsar decides during the visit whether a prescription is appropriate or in-person care is needed."
+    },
+    {
+      "question": "How do I verify Dr. Bhavsar's Nebraska license?",
+      "answer": "Parth Bhavsar, MD holds a Nebraska medical license issued by the Nebraska Department of Health and Human Services; the Board of Medicine and Surgery is the physician board under Neb. Rev. Stat. 38-2010. You can search the license on the state's online license lookup. His National Provider Identifier is 1104323203."
+    },
+    {
+      "question": "If I have chlamydia, gonorrhea or trichomoniasis, can my partner be treated too?",
+      "answer": "Nebraska law allows it. Under Neb. Rev. Stat. 71-503.02, a physician who diagnoses chlamydia, gonorrhea or trichomoniasis may prescribe oral antibiotics for the patient's sex partners without examining them; the partner's name must be on the prescription, and written information about the infection goes with it. Whether partner treatment fits your situation is decided during the visit."
+    },
+    {
+      "question": "Does TeleDirectMD take insurance or Nebraska Medicaid?",
+      "answer": "No. In Nebraska, TeleDirectMD is self-pay only: a flat $79 per visit, paid at booking, with HSA and FSA cards accepted. It does not bill commercial plans, Medicare or Nebraska Medicaid. Nebraskans 19 to 64 earning up to 138% of the federal poverty level can apply for Heritage Health Adult through the Department of Health and Human Services."
+    },
+    {
+      "question": "What happens after an animal bite in Nebraska?",
+      "answer": "Nebraska law subjects any domestic animal that bites a person to post-incident management (Neb. Rev. Stat. 71-4406), and state guidelines call for a healthy biting dog, cat or ferret to be confined and observed for 10 days. Rabies cases and suspects, human or animal, must be reported by providers within 24 hours. Bites from skunks, bats or other wild animals need in-person care and a call to your local health department."
+    },
+    {
+      "question": "Will a Nebraska video visit show up in the state's prescription database?",
+      "answer": "Nebraska's prescription drug monitoring system under Neb. Rev. Stat. 71-2454 records dispensed prescription drugs, including those paid in cash, and patients cannot opt out. That applies to any prescription a Nebraska pharmacy fills, whoever wrote it. TeleDirectMD does not prescribe controlled substances, which Nebraska has required to be prescribed electronically since January 1, 2022."
+    }
+  ],
+  "conditionOverrides": {
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "Nebraska's tick picture is shifting toward the lone star tick. The state health department's 2024 surveillance collected 4,844 lone star ticks against 1,761 American dog ticks and 34 blacklegged ticks, and its May 2026 health alert says ehrlichiosis, spread by the lone star tick, averaged 15.4 cases a year from 2021 to 2025, up 166% from the prior five years. Lyme disease remains uncommon, about 6.8 cases a year, though it can be acquired in eastern Nebraska. More than 70% of tick-borne cases begin March through July. A video visit can review a photo of the removed tick and the bite. Fever with headache, an expanding rash or facial weakness needs in-person care. Flat $79."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "Nebraska tested 251 dogs for rabies in 2025 and none were positive; the virus that year turned up in 37 bats, 2 raccoons and 1 skunk, according to the state health department's rabies report. Even so, Neb. Rev. Stat. 71-4406 subjects any domestic animal that bites a person to post-incident management, and the state's investigation guidelines call for a healthy biting dog to be confined and observed daily for 10 days regardless of vaccination status. A video visit fits a cleaned, superficial to moderate bite from a known domestic dog. Deep wounds, hand bites with lost function, uncontrolled bleeding, or a bite from a stray or wild animal need in-person care. Flat $79 for adults physically in Nebraska."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "Cats have occasionally carried rabies in Nebraska: three of 829 cats tested from 2020 through 2024 were positive, and among tested cats with a known history, 87.2% were not current on rabies vaccination, the state health department reports. The same report notes that bats often get into homes in late summer and early fall, and any bite, scratch or contact with a bat counts as a possible exposure. TeleDirectMD sees adults in Nebraska by video for a superficial to moderate bite from a known domestic cat within the past 24 hours, to plan wound care and decide whether an antibiotic fits. A hand bite with swelling or stiff fingers, or a bite from a stray, needs in-person care. Flat $79."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "Nebraska reported 9,274 chlamydia cases in 2023, a rate of 468.8 per 100,000 that ranked 26th among states and sat a little under the U.S. rate of 492.2 (CDC, 2023 state tables). With a positive chlamydia test in hand, an adult in Nebraska can have a video visit to review the result and get treatment sent to a pharmacy when appropriate; TeleDirectMD does not perform STI testing, so bring the result. Nebraska law (Neb. Rev. Stat. 71-503.02) lets a physician who diagnoses chlamydia prescribe oral antibiotics for a patient's sex partners without examining them, with each partner named on the prescription; whether that fits is decided during the visit. Pelvic pain with fever, or pregnancy, needs in-person care. Flat $79."
+    },
+    "trichomoniasis-treatment-online": {
+      "stateConditionParagraph": "Nebraska is one of the states that names trichomoniasis in its partner-treatment law. Neb. Rev. Stat. 71-503.02 lets a physician who diagnoses chlamydia, gonorrhea or trichomoniasis prescribe oral antibiotics for the patient's sex partners without examining them, provided each partner's name is on the prescription and written information about the infection goes along. Treating partners at the same time matters because reinfection is common. An adult in Nebraska with a positive trichomoniasis test or typical symptoms can be seen by video, and Dr. Bhavsar decides whether treatment, and treatment for a partner, is appropriate. Pelvic pain with fever, pregnancy, or an infection that has already failed standard treatment needs in-person care. Flat $79."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "CDC's 2023 state tables put Nebraska at 205 cases of primary and secondary syphilis (10.4 per 100,000) and 2,285 gonorrhea cases (115.5 per 100,000), alongside 9,274 chlamydia cases. Doxycycline taken after sex (doxy-PEP) is aimed at those three bacterial infections, and a video visit can review whether you meet the criteria on this page and whether a prescription fits. If a partner of yours has already been diagnosed with chlamydia, gonorrhea or trichomoniasis, Nebraska's partner-treatment law (Neb. Rev. Stat. 71-503.02) is a separate route their clinician may use. Active STI symptoms need testing first, and doxy-PEP does not prevent HIV. Flat $79 for adults physically in Nebraska."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "By January 30, 2026, the state health department counted 22 flu-related deaths for the 2025 to 2026 season plus its first pediatric flu death, and A(H3N2) was the predominant strain in Nebraska. The department's advice to adults is practical: consider antivirals such as oseltamivir as early as possible, and stay home until you have gone more than 24 hours without a fever and are improving. On October 26, 2026, it reported the first rise in flu activity for 2026 to 2027. A video visit, ideally within 48 hours of symptoms, lets Dr. Bhavsar decide whether an antiviral fits and send it to your pharmacy. Trouble breathing needs emergency care. Flat $79."
+    },
+    "covid-19-treatment-online": {
+      "stateConditionParagraph": "In its October 26, 2026 alert, Nebraska's health department reminded clinicians that flu, RSV and COVID-19 look alike, that symptomatic patients should be tested for each, and that treatment options remain available for suspected or confirmed COVID-19. For an adult physically in Nebraska, that makes a home test the useful first step. With a positive result, or strong symptoms that began in the last 5 days, a video visit lets Dr. Bhavsar review your risk factors and other medicines and decide whether an antiviral is appropriate, then send it electronically to your pharmacy. Shortness of breath at rest, chest pressure, confusion or bluish lips needs emergency care, not a video visit. Flat $79."
+    },
+    "smoking-cessation-treatment-online": {
+      "stateConditionParagraph": "Nebraska runs a free quitline through Tobacco Free Nebraska at the Department of Health and Human Services: 1-800-QUIT-NOW or QuitNow.ne.gov, open 24 hours a day, with coaching in more than 200 languages and a Spanish line, 1-855-DEJELO-YA. The department describes free coaching regardless of insurance coverage. A TeleDirectMD video visit can work alongside it, adding a physician review of whether a prescription quit medicine fits your history, including seizures, recent heart events and pregnancy, with the prescription sent to your Nebraska pharmacy if appropriate. A heart attack or stroke in the past two weeks, pregnancy, or thoughts of self-harm call for in-person or emergency care. Flat $79."
+    }
+  },
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Neb. Rev. Stat. § 38-1,143 (telehealth provider-patient relationship and prescribing)",
+        "renderAt": "hero-credential",
+        "content": "Nebraska allows a practitioner credentialed under the Uniform Credentialing Act to establish a provider-patient relationship through telehealth and, when authorized to prescribe under state and federal law, to prescribe a drug during a telehealth service (Neb. Rev. Stat. 38-1,143). TeleDirectMD sees patients located in Nebraska by live video with a Nebraska-licensed physician."
+      },
+      {
+        "statute": "Neb. Rev. Stat. §§ 38-2870 and 38-1,146 (prescription transmission and electronic prescribing)",
+        "renderAt": "footer",
+        "content": "Nebraska requires an electronically transmitted prescription to go directly to a pharmacist in a licensed pharmacy of the patient's choice (Neb. Rev. Stat. 38-2870), and since January 1, 2022 has required controlled-substance prescriptions to be issued electronically (Neb. Rev. Stat. 38-1,146). TeleDirectMD sends every Nebraska prescription electronically to the pharmacy the patient selects and does not prescribe controlled substances."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

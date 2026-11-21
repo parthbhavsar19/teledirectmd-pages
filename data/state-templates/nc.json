@@ -1,0 +1,302 @@
+{
+  "stateCode": "NC",
+  "stateName": "North Carolina",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "urban",
+    "regulation": "standard",
+    "payerLandscape": "multi-payer",
+    "epidemiology": [
+      "tick-sfr-ehrlichiosis",
+      "lyme-northwest-nc",
+      "sti-high",
+      "flu-severe-2024-25"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "south",
+    "voiceNotes": "Confident and specific. North Carolina has rich, current DHHS data; use it with years. The Medical Board's position statement asks for a statement of telemedicine's limitations, so be candid about what video cannot do. Two commercial payers are in-network; name them exactly and keep Medicaid plans clearly out."
+  },
+  "stateHero": {
+    "openingParagraph": "The North Carolina Medical Board holds video care to the same standard of care as an office visit and considers the practice of medicine to happen where the patient is located. Adults 18 and older who are physically in North Carolina, from Asheville and Winston-Salem to Charlotte, Raleigh, Durham and Wilmington, can book a live video visit with Parth Bhavsar, MD, a board-certified family medicine physician licensed by the North Carolina Medical Board. TeleDirectMD is in-network with Aetna and UnitedHealthcare commercial and Medicare Advantage plans in North Carolina, and the self-pay price is a flat $79, paid at booking, with HSA and FSA cards accepted. Prescriptions, when appropriate, go electronically to your chosen pharmacy.",
+    "stateContextHint": "North Carolina-licensed physician. Live video visits for adults located in North Carolina. In-network with Aetna and UnitedHealthcare, or a flat $79 self-pay.",
+    "saturation": {
+      "stateNameMentions": 6,
+      "stateEntityMentions": 4
+    }
+  },
+  "stateEligibility": {
+    "intro": "North Carolina's Medical Board deems the practice of medicine to occur in the state where the patient is located, and it expects a physician using telemedicine to verify both the identity and the location of the patient. So at the start of a TeleDirectMD visit you will be asked to confirm who you are and that you are in North Carolina. Adults 18 and older qualify whether they live here, study here or are visiting. A North Carolinian who is out of state when the visit starts is seen only if that state is also one TeleDirectMD serves.",
+    "localTriggers": [
+      "Confirm your identity and your location at the start of the visit; the North Carolina Medical Board expects physicians to verify both.",
+      "Be physically in North Carolina during the visit. The Board deems the practice of medicine to occur where the patient is located.",
+      "Expect a real evaluation, not a form. The Board does not accept diagnosis or prescribing based solely on static online questionnaires.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "In North Carolina, TeleDirectMD is in-network with Aetna and with UnitedHealthcare for commercial PPO, HMO, EPO and POS plans and Medicare Advantage; your cost depends on your plan's benefits. Without those plans, a visit is a flat $79, paid at booking, and HSA and FSA cards are accepted. TeleDirectMD does not accept NC Medicaid, which expanded on December 1, 2023 to cover adults ages 19 through 64 up to 138% of the federal poverty line, or any NC Medicaid health plan, including UnitedHealthcare Community Plan. North Carolina is not on the federal list of states running their own marketplace for 2027, so individual plans are sold through HealthCare.gov.",
+    "additionalNotes": [
+      "In-network: Aetna and UnitedHealthcare (commercial PPO, HMO, EPO, POS and Medicare Advantage).",
+      "Self-pay: $79 flat, paid at booking; HSA and FSA cards accepted.",
+      "NC Medicaid and NC Medicaid health plans, including UnitedHealthcare Community Plan, are not accepted."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "When a prescription is appropriate, it is sent electronically to the North Carolina pharmacy you choose. The North Carolina Medical Board expects telemedicine prescriptions to meet the same standards as in-person care and does not accept diagnosis or prescribing based only on static online questionnaires, which is why every TeleDirectMD visit is live video with the physician. North Carolina also lets approved immunizing pharmacists dispense some medicines on their own under G.S. 90-85.15B, including FDA-approved nicotine replacement therapy and oral or transdermal contraceptives after a US MEC screening; those pharmacists need approval from both the Medical Board and the Board of Pharmacy. Controlled substance prescriptions are tracked in the NC Controlled Substances Reporting System. TeleDirectMD does not prescribe controlled substances in North Carolina or any of its 40+ states.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "North Carolina's Department of Health and Human Services (NCDHHS) tracks the conditions behind many video visits closely. Spotted fever rickettsiosis was the state's most reported tickborne disease in 2025 with 369 cases, Lyme disease followed with 365, mostly from the northwestern region, and ehrlichiosis rose to 318. The 2024-2025 respiratory season brought 542 flu-related deaths, the most since statewide reporting began in 2009. Chlamydia remained high in 2024, at 62,010 reported cases and a rate of 572.3 per 100,000. And under state law, a physician who treats a bite from an animal that can carry rabies must report it to the local health director within 24 hours. This is general context, not an individual evaluation.",
+    "citations": [
+      {
+        "label": "North Carolina Medical Board, Position Statement 5.1.4: Telemedicine (amended March 2024)",
+        "url": "https://www.ncmedboard.org/resources-information/position-statement-print/telemedicine",
+        "scope": "all"
+      },
+      {
+        "label": "N.C. Gen. Stat. 90-2 (North Carolina Medical Board)",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_90/GS_90-2.html",
+        "scope": "all"
+      },
+      {
+        "label": "N.C. Gen. Stat. 90-85.15B (immunizing pharmacists)",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_90/GS_90-85.15B.html",
+        "scope": "all"
+      },
+      {
+        "label": "NCDHHS, NC Controlled Substances Reporting System",
+        "url": "https://www.ncdhhs.gov/divisions/mental-health-developmental-disabilities-and-substance-use-services/north-carolina-drug-control-unit/nc-controlled-substances-reporting-system",
+        "scope": "all"
+      },
+      {
+        "label": "NC Medicaid, North Carolina Expands Medicaid",
+        "url": "https://medicaid.ncdhhs.gov/north-carolina-expands-medicaid",
+        "scope": "all"
+      },
+      {
+        "label": "CMS, State-based Exchanges for Plan Year 2027 (updated November 6, 2026)",
+        "url": "https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces",
+        "scope": "all"
+      },
+      {
+        "label": "U.S. Census Bureau, Vintage 2025 state population estimates (NST-EST2025)",
+        "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-POPCHG2020-2025.csv",
+        "scope": "hub"
+      },
+      {
+        "label": "NCDHHS, North Carolina Tickborne Disease Annual Report 2025",
+        "url": "https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickbornesurveillancesummary2025finalpdf/open",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "NCDHHS, Chlamydia in North Carolina, 2024 (fact sheet, September 2025)",
+        "url": "https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/2024ctfactsheetfinalpdf/open",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "CDC, Legal Status of Expedited Partner Therapy (updated July 1, 2026)",
+        "url": "https://www.cdc.gov/sti/php/ept-legal-status/index.html",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "NCDHHS, Seasonal Respiratory Illnesses Increase in North Carolina (December 10, 2025)",
+        "url": "https://www.ncdhhs.gov/news/press-releases/2025/12/10/seasonal-respiratory-illnesses-increase-north-carolina",
+        "conditions": [
+          "influenza-treatment-online",
+          "covid-19-treatment-online"
+        ]
+      },
+      {
+        "label": "N.C. Gen. Stat. 130A-196 (notice and confinement of biting animals)",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_130A/GS_130A-196.html",
+        "conditions": [
+          "dog-bite-treatment-online",
+          "cat-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "N.C. Gen. Stat. 130A-185 (rabies vaccination of cats, dogs and ferrets)",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_130A/GS_130A-185.html",
+        "conditions": [
+          "dog-bite-treatment-online",
+          "cat-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "N.C. Gen. Stat. 90-85.15B (pharmacist-dispensed contraceptives and nicotine replacement)",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_90/GS_90-85.15B.html",
+        "conditions": [
+          "birth-control-refills-online",
+          "smoking-cessation-treatment-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD is board-certified in family medicine by the American Board of Family Medicine and holds a North Carolina medical license issued by the North Carolina Medical Board, the body G.S. 90-2 establishes to regulate the practice of medicine and surgery. The Board's telemedicine position statement asks physicians to give patients their name, location and professional credentials and to meet the same standard of care as in person. The license can be checked on the Board's online verification search. NPI: 1104323203.",
+    "verifyUrl": "https://portal.ncmedboard.org/verification/search.aspx",
+    "statuteCitation": "N.C. Gen. Stat. 90-2 (North Carolina Medical Board); North Carolina Medical Board Position Statement 5.1.4, Telemedicine (adopted July 2010, amended March 2024)",
+    "licenseNumber": "2025-00291",
+    "boardName": "North Carolina Medical Board",
+    "boardUrl": "https://www.ncmedboard.org/"
+  },
+  "stateCities": {
+    "metroAndRural": "North Carolina had 11,197,968 residents on July 1, 2025, by the U.S. Census Bureau's estimate. TeleDirectMD sees adults located anywhere in the state: Charlotte, Concord and Gastonia; Raleigh, Durham, Cary and Chapel Hill; Greensboro, Winston-Salem and High Point; Fayetteville; Wilmington on the coast; Asheville in the mountains; and every smaller town in between, with the same physician and the same prices statewide.",
+    "cityList": [
+      {
+        "city": "Charlotte"
+      },
+      {
+        "city": "Raleigh"
+      },
+      {
+        "city": "Greensboro"
+      },
+      {
+        "city": "Durham"
+      },
+      {
+        "city": "Winston-Salem"
+      },
+      {
+        "city": "Fayetteville"
+      },
+      {
+        "city": "Cary"
+      },
+      {
+        "city": "Wilmington"
+      },
+      {
+        "city": "High Point"
+      },
+      {
+        "city": "Asheville"
+      },
+      {
+        "city": "Concord"
+      },
+      {
+        "city": "Gastonia"
+      },
+      {
+        "city": "Chapel Hill"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "multi-payer",
+    "selfPayDisclosure": "If you are not using Aetna or UnitedHealthcare coverage, a North Carolina visit is a flat $79, paid at booking, and HSA and FSA cards are accepted. TeleDirectMD does not bill NC Medicaid or any NC Medicaid health plan, including UnitedHealthcare Community Plan, and does not file claims with other insurers. Patients with other coverage may choose the $79 visit and ask their plan about out-of-network reimbursement, which TeleDirectMD cannot promise.",
+    "payers": [
+      {
+        "name": "Aetna",
+        "anchorId": "aetna-coverage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
+        "validFrom": "2026-04-17",
+        "copayNote": "Member cost sharing depends on the Aetna plan."
+      },
+      {
+        "name": "UnitedHealthcare",
+        "anchorId": "uhc-coverage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage (not UnitedHealthcare Community Plan, which is NC Medicaid)",
+        "validFrom": "2026-04-14",
+        "copayNote": "Member cost sharing depends on the UnitedHealthcare plan."
+      }
+    ]
+  },
+  "stateFaqs": [
+    {
+      "question": "Does the North Carolina Medical Board allow a first visit by video?",
+      "answer": "Yes. The Board's telemedicine position statement says a licensee-patient relationship may be established by telemedicine without a prior in-person meeting, as long as the standard of care is met. It also says telemedicine is not appropriate when the in-person standard cannot be met virtually, and it rejects diagnosis or prescribing based only on static online questionnaires. TeleDirectMD visits are live video with Parth Bhavsar, MD."
+    },
+    {
+      "question": "Which insurance does TeleDirectMD take in North Carolina?",
+      "answer": "Aetna and UnitedHealthcare, for commercial PPO, HMO, EPO and POS plans and Medicare Advantage. Your cost depends on your plan. TeleDirectMD does not accept NC Medicaid or any NC Medicaid health plan, including UnitedHealthcare Community Plan. Without a participating plan, a visit is a flat $79, paid at booking, with HSA and FSA cards accepted."
+    },
+    {
+      "question": "Can a North Carolina pharmacist give me birth control without a doctor?",
+      "answer": "Some can. Under G.S. 90-85.15B, an immunizing pharmacist approved by both the North Carolina Medical Board and the Board of Pharmacy may dispense self-administered oral or transdermal contraceptives after you complete a screening based on the CDC's US Medical Eligibility Criteria. Availability varies by pharmacy. A TeleDirectMD video visit is another way for adults in North Carolina to renew a pill, patch or ring."
+    },
+    {
+      "question": "I was bitten by a dog in North Carolina. What does state law require?",
+      "answer": "North Carolina law requires the person bitten and the animal's owner to notify the local health director immediately, and a vaccinated-species animal that bites someone is confined for 10 days. A physician who treats a bite from an animal that can carry rabies must report it to the local health director within 24 hours. Deep wounds, hand injuries and bites from strays or wild animals need in-person care."
+    },
+    {
+      "question": "How do I verify Dr. Bhavsar's North Carolina license?",
+      "answer": "Parth Bhavsar, MD holds a North Carolina medical license from the North Carolina Medical Board, which G.S. 90-2 establishes to regulate the practice of medicine. Anyone can look up the license on the Board's online verification search. His National Provider Identifier is 1104323203."
+    }
+  ],
+  "conditionOverrides": {
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "Several different ticks bite people in North Carolina, and each carries different diseases. NCDHHS's 2025 tickborne report counted 369 cases of spotted fever rickettsiosis, carried by the American dog tick and Gulf Coast tick, 365 cases of Lyme disease, mostly from the northwestern part of the state and up from 257 in 2024, and 318 cases of ehrlichiosis, carried by the lone star tick. For an adult in North Carolina who removed a tick within the past 72 hours and has no rash, fever or severe headache, a video visit can identify the tick from a photo, weigh where in the state the bite happened, and decide on next steps. Flat $79 self-pay, or in-network with Aetna and UnitedHealthcare commercial and Medicare Advantage plans."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "North Carolina reported 62,010 chlamydia cases in 2024, a rate of 572.3 per 100,000 compared with a provisional national rate of 445.7, and NCDHHS warns that waiting more than 7 days to treat can increase complications and spread. For an adult in North Carolina with a positive test who is not pregnant and has no pelvic pain with fever, a video visit can review the result and send treatment to a North Carolina pharmacy when appropriate. NCDHHS supports expedited partner therapy for chlamydia, and it advises retesting three months after treatment. TeleDirectMD does not perform the test itself. Flat $79 self-pay, or in-network with Aetna and UnitedHealthcare commercial and Medicare Advantage plans."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "NCDHHS's 2024 chlamydia fact sheet names doxy PEP as a newer prevention approach with demonstrated benefit in reducing syphilis, chlamydia and gonorrhea, in a state that reported 62,010 chlamydia cases that year. Doxycycline post-exposure prophylaxis is meant for gay, bisexual and other men who have sex with men, and transgender women, who had a bacterial STI in the past 12 months or have substantial ongoing risk. An adult in North Carolina without current STI symptoms can use a video visit to review eligibility, dose timing and the testing schedule that goes with it. Flat $79 self-pay, or in-network with Aetna and UnitedHealthcare commercial and Medicare Advantage plans."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "North Carolina recorded 542 flu-related deaths in the 2024-2025 season, the most since statewide reporting began in 2009, and NCDHHS reported flu spreading quickly again in December 2025. The department's advice is that antiviral treatment works best when started soon after symptoms begin and matters most for people at high risk of complications. An adult in North Carolina whose symptoms started within the past 48 hours, without trouble breathing, chest pain or confusion, can be evaluated by video and, when appropriate, have an antiviral sent to a nearby pharmacy. NCDHHS updates its Respiratory Virus Dashboard weekly. Flat $79 self-pay, or in-network with Aetna and UnitedHealthcare commercial and Medicare Advantage plans.",
+      "relatedLinks": [
+        {
+          "href": "/flu-hub/state/north-carolina.html",
+          "label": "North Carolina flu activity (FluHub)",
+          "description": "weekly CDC flu surveillance for the state"
+        }
+      ]
+    },
+    "covid-19-treatment-online": {
+      "stateConditionParagraph": "NCDHHS tracks COVID-19 alongside flu and RSV on a weekly Respiratory Virus Dashboard, and its guidance is the same for both: early testing and treatment with an antiviral can keep an infection from becoming more serious, especially for people at high risk because of age or medical conditions. For an adult in North Carolina with a positive test and symptoms that began within the last 5 days, a video visit can go over risk factors and every current medication, since some COVID-19 antivirals interact with common medicines, and send a prescription when treatment fits. Trouble breathing or chest pain needs emergency care. Flat $79 self-pay, or in-network with Aetna and UnitedHealthcare commercial and Medicare Advantage plans."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "Dog bites in North Carolina come with legal steps. G.S. 130A-196 requires the person bitten and the dog's owner to notify the local health director immediately, the dog is confined for 10 days, and a physician who attends a bite from an animal known to be a potential rabies carrier must report it to the local health director within 24 hours. State law also requires dogs over four months old to be vaccinated against rabies. For an adult in North Carolina with a cleaned, superficial to moderate bite from a known domestic dog and normal hand function, a video visit can assess the wound by photo and decide whether antibiotics are appropriate. Flat $79 self-pay, or in-network with Aetna and UnitedHealthcare commercial and Medicare Advantage plans."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "North Carolina requires cats, like dogs and ferrets, to be vaccinated against rabies once they are over four months old, and a cat that bites someone is confined for 10 days under G.S. 130A-196. The same statute requires a physician treating a bite from a potential rabies carrier to report it to the local health director within 24 hours. Cat bites also tend to become infected, and infection can move fast. A video visit fits an adult in North Carolina bitten within the last 24 hours by a known domestic cat, with a cleaned wound that is not on a swollen hand. Flat $79 self-pay, or in-network with Aetna and UnitedHealthcare commercial and Medicare Advantage plans."
+    },
+    "birth-control-refills-online": {
+      "stateConditionParagraph": "North Carolina is one of the states where an approved immunizing pharmacist can dispense oral or transdermal contraceptives after a screening based on the CDC's US Medical Eligibility Criteria, under G.S. 90-85.15B, and must then counsel the patient on preventive care such as well-woman visits, STI testing and Pap tests. Not every pharmacy offers it. For an adult in North Carolina who is already taking a pill, patch or ring without complications, a TeleDirectMD video visit is another route to a refill: a physician goes over a recent blood pressure reading, migraine history and clot risk and sends the prescription to the pharmacy you choose. Flat $79 self-pay, or in-network with Aetna and UnitedHealthcare commercial and Medicare Advantage plans."
+    },
+    "smoking-cessation-treatment-online": {
+      "stateConditionParagraph": "Under G.S. 90-85.15B, approved immunizing pharmacists in North Carolina can dispense FDA-approved nicotine replacement therapy directly. A TeleDirectMD video visit covers the options a pharmacist cannot offer on that authority, such as prescription medicines that reduce cravings, along with a plan that fits your health history. For an adult in North Carolina who smokes or uses tobacco and wants to quit, Dr. Bhavsar can review seizure history, mood, heart history and current medications, then send a prescription to a North Carolina pharmacy when appropriate. Anyone who is pregnant or breastfeeding is better served in person. Flat $79 self-pay, or in-network with Aetna and UnitedHealthcare commercial and Medicare Advantage plans."
+    }
+  },
+  "relatedLinks": [
+    {
+      "href": "/flu-hub/state/north-carolina.html",
+      "label": "North Carolina flu activity (FluHub)",
+      "description": "weekly CDC flu surveillance for the state"
+    }
+  ],
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "North Carolina Medical Board Position Statement 5.1.4, Telemedicine (amended March 2024)",
+        "renderAt": "hero-credential",
+        "content": "The North Carolina Medical Board deems the practice of medicine to occur where the patient is located and holds telemedicine to the same standard of care as in-person practice. Consistent with its position statement, TeleDirectMD verifies each patient's identity and location, provides the physician's name and credentials (Parth Bhavsar, MD, board-certified in family medicine, licensed by the North Carolina Medical Board), and offers live video visits to adults located in North Carolina."
+      },
+      {
+        "statute": "North Carolina Medical Board Position Statement 5.1.4 (limitations of telemedicine)",
+        "renderAt": "footer",
+        "content": "Limitations of video care: a video visit cannot replace a hands-on physical exam, laboratory testing or imaging. When the standard of care for your concern cannot be met by video, Dr. Bhavsar will tell you and refer you to in-person care. TeleDirectMD does not treat emergencies and does not prescribe controlled substances; prescriptions are sent electronically to the pharmacy you choose."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

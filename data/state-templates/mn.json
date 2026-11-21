@@ -1,0 +1,275 @@
+{
+  "stateCode": "MN",
+  "stateName": "Minnesota",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "mid",
+    "regulation": "standard",
+    "payerLandscape": "multi-payer",
+    "epidemiology": [
+      "lyme-high-incidence",
+      "rabies-skunk-bat",
+      "sti-twin-cities-concentrated",
+      "flu-h3n2-2025-26"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "midwest",
+    "voiceNotes": "Calm, precise and a little understated. Minnesota's statutes are unusually explicit about telehealth (physician-patient relationships by telehealth, examinations by telehealth for certain drugs), so cite them plainly. Lake country and cabin season make ticks and bats real topics. Three in-network payers, with the UnitedHealthcare Medicare Advantage exception stated clearly."
+  },
+  "stateHero": {
+    "openingParagraph": "Minnesota law says it directly: a physician-patient relationship may be established through telehealth, and the physician is held to the same standards as in person (Minn. Stat. 147.033). TeleDirectMD works within that rule. Adults physically in Minnesota, in Minneapolis, Saint Paul, Rochester, Duluth, St. Cloud or a cabin up north, can see Parth Bhavsar, MD, a board-certified family medicine physician licensed in Minnesota, by live video. Allina Health | Aetna, UnitedHealthcare commercial and Curative plans are in-network; otherwise the visit is a flat $79 paid at booking, with HSA and FSA cards accepted. Prescriptions go electronically to your pharmacy, which Minnesota has required of prescribers since 2011.",
+    "stateContextHint": "Minnesota-licensed physician. Live video visits for adults located in Minnesota; Allina Health | Aetna, UnitedHealthcare commercial, Curative, or $79 flat.",
+    "saturation": {
+      "stateNameMentions": 6,
+      "stateEntityMentions": 6
+    }
+  },
+  "stateEligibility": {
+    "intro": "Adults 18 and older who are physically in Minnesota at the time of the visit can be seen. Minnesota's statutes define telehealth to include care delivered through real-time, two-way audio and visual communication, with the patient at an originating site, meaning wherever the patient is located when care is provided (Minn. Stat. 62A.673). Under Minn. Stat. 147.033, a physician-patient relationship can begin by telehealth, so no prior in-person visit is needed when a video visit meets the standard of care. If it does not, Dr. Bhavsar will direct you to in-person care.",
+    "localTriggers": [
+      "Be in Minnesota during the visit. A Twin Cities resident on the Wisconsin side of the St. Croix at visit time is not in Minnesota for that visit.",
+      "Minnesota allows a first visit to happen by telehealth (Minn. Stat. 147.033).",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "Minnesota patients can use one of three in-network plans: Allina Health | Aetna (PPO, HMO, EPO, POS and Medicare Advantage), UnitedHealthcare commercial plans (Medicare Advantage is not in-network in Minnesota) and Curative commercial plans. Under Minn. Stat. 62A.673, a Minnesota-regulated health plan may not charge more cost sharing for a telehealth service than for the same service in person. Without an in-network plan, the visit is a flat $79 at booking, with HSA and FSA cards accepted. Census figures show 6.8 percent of Minnesotans under 65 uninsured; MNsure is the state's official marketplace and the only place to apply for financial help with premiums. TeleDirectMD does not accept Medicaid.",
+    "additionalNotes": [
+      "In-network in Minnesota: Allina Health | Aetna, UnitedHealthcare (commercial only), Curative.",
+      "$79 flat self-pay, paid at booking.",
+      "HSA and FSA cards accepted.",
+      "Medicaid, Managed Medicaid and D-SNP plans are not accepted."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "Minnesota has required prescribers and dispensers to use an electronic prescription program since January 1, 2011 (Minn. Stat. 62J.497), and TeleDirectMD sends every Minnesota prescription electronically to the pharmacy you choose. State pharmacy law (Minn. Stat. 151.37) also sets rules for certain drugs: a prescription for controlled substances, muscle relaxants or erectile dysfunction medicines like sildenafil must rest on a documented evaluation that includes an examination, and for erectile dysfunction medicines that examination may be done by telehealth. TeleDirectMD does not prescribe controlled substances. Minnesota pharmacists may also prescribe hormonal birth control under the same statute.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "Minnesota is a high-incidence state for Lyme disease: the Minnesota Department of Health reported 3,551 probable cases in 2024, with most exposures in east-central, north-central and southeast Minnesota. Rabies here is carried naturally by bats and skunks, and nearly half of skunks tested are rabid. Reported STIs fell 9 percent in 2024, to 28,312 cases, but chlamydia rates in Minneapolis and St. Paul remain far above the state rate. This context is for awareness only and is not a substitute for an individual evaluation.",
+    "citations": [
+      {
+        "label": "Minn. Stat. 147.033, Practice of telehealth",
+        "url": "https://www.revisor.mn.gov/statutes/cite/147.033",
+        "scope": "all"
+      },
+      {
+        "label": "Minn. Stat. 62A.673, Coverage of services provided through telehealth",
+        "url": "https://www.revisor.mn.gov/statutes/cite/62A.673",
+        "scope": "all"
+      },
+      {
+        "label": "Minn. Stat. 62J.497, Electronic prescription drug program",
+        "url": "https://www.revisor.mn.gov/statutes/cite/62J.497",
+        "scope": "all"
+      },
+      {
+        "label": "Minn. Stat. 151.37, Legend drugs; who may prescribe, possess",
+        "url": "https://www.revisor.mn.gov/statutes/cite/151.37",
+        "scope": "all"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, Minnesota (Vintage 2025 estimates)",
+        "url": "https://www.census.gov/quickfacts/fact/table/LA,MD,ME,MI,MN,MO/PST045225",
+        "scope": "hub"
+      },
+      {
+        "label": "MNsure, Minnesota's health insurance marketplace",
+        "url": "https://www.mnsure.org/",
+        "scope": "hub"
+      },
+      {
+        "label": "Minnesota Department of Health, Lyme Disease Statistics",
+        "url": "https://www.health.state.mn.us/diseases/lyme/statistics.html",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Minnesota Department of Health, STIs and HIV Annual Summary of Reportable Diseases (2024)",
+        "url": "https://www.health.mn.gov/diseases/reportable/dcn/stds.html",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "Minnesota Department of Health, Recommendations for the Use of Doxycycline for Post-Exposure Prophylaxis (March 2026)",
+        "url": "https://www.health.mn.gov/diseases/stds/hcp/doxypep.pdf",
+        "conditions": [
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "Minnesota Department of Health, Situation Update for Influenza (weekly statistics)",
+        "url": "https://www.health.state.mn.us/diseases/flu/stats/index.html",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "Minnesota Department of Health, Management of Bites to Humans (Animal Bites and Rabies Risk)",
+        "url": "https://www.health.state.mn.us/diseases/rabies/risk/human.html",
+        "conditions": [
+          "dog-bite-treatment-online",
+          "cat-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Minnesota Department of Health, Rabies Statistics",
+        "url": "https://www.health.state.mn.us/diseases/rabies/statistics.html",
+        "conditions": [
+          "dog-bite-treatment-online",
+          "cat-bite-treatment-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds a Minnesota medical license issued by the Minnesota Board of Medical Practice. Telehealth practice in Minnesota is governed by Minn. Stat. 147.033, which allows a physician-patient relationship to be established through telehealth and holds telehealth physicians to the same standards of practice and conduct as in-person care. The board's online license verification lets anyone confirm the license. NPI: 1104323203.",
+    "verifyUrl": "https://mn.gov/boards/medical-practice/verify/index.jsp",
+    "statuteCitation": "Minn. Stat. 147.033 (practice of telehealth); Minn. Stat. 62A.673 (telehealth definitions and coverage); Minn. Stat. 62J.497 (electronic prescribing)",
+    "licenseNumber": "73679",
+    "boardName": "Minnesota Board of Medical Practice",
+    "boardUrl": "https://mn.gov/boards/medical-practice/"
+  },
+  "stateCities": {
+    "metroAndRural": "Minnesota has 5,830,405 residents (U.S. Census Bureau, July 1, 2025 estimate), about 71.7 per square mile in 2020. TeleDirectMD sees adults located anywhere in the state: Minneapolis and Saint Paul and the suburbs of Bloomington, Brooklyn Park, Plymouth, Maple Grove, Woodbury, Eagan and Eden Prairie; Rochester in the southeast; St. Cloud; and Duluth on Lake Superior. The physician, the in-network plans and the $79 option are the same whether you are downtown or at a lake cabin.",
+    "cityList": [
+      {
+        "city": "Minneapolis"
+      },
+      {
+        "city": "Saint Paul"
+      },
+      {
+        "city": "Rochester"
+      },
+      {
+        "city": "Bloomington"
+      },
+      {
+        "city": "Duluth"
+      },
+      {
+        "city": "Brooklyn Park"
+      },
+      {
+        "city": "Plymouth"
+      },
+      {
+        "city": "Maple Grove"
+      },
+      {
+        "city": "Woodbury"
+      },
+      {
+        "city": "St. Cloud"
+      },
+      {
+        "city": "Eagan"
+      },
+      {
+        "city": "Eden Prairie"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "multi-payer",
+    "selfPayDisclosure": "Without an Allina Health | Aetna, UnitedHealthcare commercial or Curative plan, a Minnesota visit is a flat $79 paid at booking, with HSA and FSA cards accepted and no follow-up bill for the visit. UnitedHealthcare Medicare Advantage plans are not in-network in Minnesota. TeleDirectMD does not accept Medicaid, Managed Medicaid or D-SNP plans. Coverage and cost sharing depend on your plan; TeleDirectMD cannot promise coverage.",
+    "payers": [
+      {
+        "name": "Allina Health | Aetna",
+        "anchorId": "allina-aetna-coverage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
+        "validFrom": "2026-03-31",
+        "copayNote": "Your plan's cost sharing applies."
+      },
+      {
+        "name": "UnitedHealthcare",
+        "anchorId": "uhc-coverage",
+        "planNames": "PPO, HMO, EPO, POS (commercial only; Medicare Advantage not in-network in Minnesota)",
+        "validFrom": "2026-03-29",
+        "copayNote": "Your plan's cost sharing applies."
+      },
+      {
+        "name": "Curative",
+        "anchorId": "curative-coverage",
+        "planNames": "Commercial PPO, EPO, and self-funded plans (EPO Value, EPO (PPOx), PPO (PPO+), PPO Max)",
+        "validFrom": "2026-07-07",
+        "copayNote": "Your plan's cost sharing applies."
+      }
+    ]
+  },
+  "stateFaqs": [
+    {
+      "question": "Can a Minnesota doctor start treating me over video without an office visit?",
+      "answer": "Yes. Minn. Stat. 147.033 says a physician-patient relationship may be established through telehealth, and a physician practicing by telehealth in Minnesota is held to the same standards of practice and conduct as in person. You need to be physically in Minnesota during the visit. If your symptoms need a hands-on exam or testing, Dr. Bhavsar will say so."
+    },
+    {
+      "question": "Which insurance does TeleDirectMD accept in Minnesota?",
+      "answer": "Allina Health | Aetna plans (PPO, HMO, EPO, POS and Medicare Advantage), UnitedHealthcare commercial plans and Curative commercial plans. UnitedHealthcare Medicare Advantage is not in-network in Minnesota, and Medicaid is not accepted. Your plan's cost sharing applies. Without an in-network plan, the visit is a flat $79 at booking, and HSA and FSA cards are accepted."
+    },
+    {
+      "question": "Can I get erectile dysfunction medication through a video visit in Minnesota?",
+      "answer": "Possibly. Minnesota law (Minn. Stat. 151.37) requires a documented evaluation including an examination before a prescription for erectile dysfunction medicines like sildenafil is valid, and it allows that examination to be done by real-time telehealth. A TeleDirectMD video visit can meet that standard. Men who take nitrates or have unstable heart disease are not candidates for video treatment."
+    },
+    {
+      "question": "How do I verify Dr. Bhavsar's Minnesota license?",
+      "answer": "Parth Bhavsar, MD holds a Minnesota medical license issued by the Minnesota Board of Medical Practice. The board's online verification shows the license and its status. His National Provider Identifier is 1104323203. Minnesota's telehealth statute, Minn. Stat. 147.033, holds a physician practicing by telehealth to the same standards of practice and conduct as in person."
+    },
+    {
+      "question": "Can a Minnesota pharmacist refill my birth control instead?",
+      "answer": "Sometimes. Under Minn. Stat. 151.37, a trained Minnesota pharmacist may prescribe self-administered hormonal contraceptives, but may not prescribe a refill unless you have had a clinical visit with a physician, physician assistant or advanced practice nurse within the past three years. A TeleDirectMD video visit is a physician visit for adults already stable on a pill, patch or ring."
+    }
+  ],
+  "conditionOverrides": {
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "The Minnesota Department of Health counts Minnesota among the high-incidence states for Lyme disease, with 3,551 probable cases reported in 2024. Most patients reported likely exposure to blacklegged, or deer, ticks in east-central, north-central and southeast Minnesota. If you pulled an attached tick after time in those areas, timing matters: preventive doxycycline is considered for higher-risk bites within 72 hours of removal. TeleDirectMD reviews photos of the tick and bite site by video for adults located in Minnesota. A spreading rash, fever, facial drooping or heart palpitations needs in-person care."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "Minnesota reported 19,703 chlamydia cases in 2024, a rate of 345 per 100,000, as part of a 9 percent drop in total STI reports, according to the Minnesota Department of Health. Rates are far higher in the core cities: 1,042 per 100,000 in Minneapolis and 822 in St. Paul. Minnesota pharmacy law (Minn. Stat. 151.37) permits prescribing for partners under CDC's expedited partner therapy guidance, so partner treatment can be discussed in the visit. TeleDirectMD treats adults in Minnesota who have a positive chlamydia test. Pelvic pain with fever, testicular swelling, pregnancy, or gonorrhea that needs an injection are reasons for in-person care."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "The Minnesota Department of Health issued its own doxy-PEP recommendations in March 2026. MDH advises informing men who have sex with men and transgender women who had a bacterial STI in the past 12 months about doxy-PEP and considering it for them, with 200 mg of doxycycline taken within 72 hours, ideally within 24, after condomless sex. It also calls for testing for gonorrhea, chlamydia, syphilis and HIV at the start and every three months. MDH makes no specific recommendation for cisgender women. TeleDirectMD's doxy-PEP visits follow the MSM and transgender women scope, for adults in Minnesota without active STI symptoms."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "The Minnesota Department of Health posts influenza season statistics, updated weekly on Thursdays. Antivirals help most when started within 48 hours of symptoms, especially for people at higher risk of complications. TeleDirectMD sees adults located in Minnesota with typical flu symptoms by video and can send an antiviral to your pharmacy when it fits. Shortness of breath, chest pain, confusion or inability to keep fluids down needs 911 or an emergency department."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "Under Minnesota law, any dog, cat or ferret that bites a person is confined and observed for 10 days, or euthanized and tested, regardless of vaccination status, and local animal control enforces it, according to the Minnesota Department of Health. For a bite to an arm or leg, MDH says it is safe to wait for that observation before deciding on rabies shots; bites to the face or head are more urgent. TeleDirectMD evaluates superficial to moderate bites from a known domestic dog for adults in Minnesota, covering wound care, antibiotic need and tetanus. Deep, facial or hand wounds with reduced movement, or bites from wild or unknown animals, need in-person care."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "In Minnesota, bats and skunks are the natural carriers of rabies, and the Minnesota Department of Health notes that most domestic animals that get rabies catch it from skunks, so an outdoor cat's habits matter after a bite. State law requires a cat that bites a person to be confined and observed for 10 days, whatever its vaccination status. Cat bites also become infected easily because the teeth puncture deep. TeleDirectMD sees adults in Minnesota bitten by a known domestic cat within the past 24 hours with a superficial to moderate wound. A hand bite with swelling or stiffness, spreading redness, fever, or a stray or feral cat bite needs in-person care."
+    },
+    "erectile-dysfunction-treatment-online": {
+      "stateConditionParagraph": "Minnesota is explicit about erectile dysfunction prescriptions. Under Minn. Stat. 151.37, a prescription for a PDE5 inhibitor such as sildenafil or tadalafil for erectile dysfunction is valid only if it rests on a documented patient evaluation that includes an examination, and the statute accepts an examination done by telehealth. A TeleDirectMD live video visit with Parth Bhavsar, MD fits that framework for adult men located in Minnesota. Men who take nitrates in any form, have unstable heart disease, or have a history of priapism are not candidates for video treatment."
+    },
+    "birth-control-refills-online": {
+      "stateConditionParagraph": "Minnesota pharmacists can prescribe self-administered hormonal birth control under Minn. Stat. 151.37, but with a limit that matters for refills: a pharmacist may not prescribe a refill unless the patient has had a clinical visit with a physician, physician assistant or advanced practice registered nurse within the preceding three years. A TeleDirectMD video visit is a physician visit, for adults located in Minnesota who are already stable on a pill, patch or ring prescribed elsewhere, with the refill sent electronically to your pharmacy. New migraines with aura, a new blood clot, blood pressure above 140/90 or pregnancy call for in-person care."
+    }
+  },
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Minn. Stat. 147.033 (Practice of telehealth)",
+        "renderAt": "hero-credential",
+        "content": "Under Minn. Stat. 147.033, a physician-patient relationship may be established through telehealth, and a physician providing care by telehealth in Minnesota is held to the same standards of practice and conduct as in-person care. TeleDirectMD provides care to patients located in Minnesota by real-time video, through a physician licensed by the Minnesota Board of Medical Practice."
+      },
+      {
+        "statute": "Minn. Stat. 62J.497 (Electronic prescribing)",
+        "renderAt": "footer",
+        "content": "Minnesota has required prescribers to use an electronic prescription program since January 1, 2011 (Minn. Stat. 62J.497). TeleDirectMD sends prescriptions electronically to the patient's chosen pharmacy and does not prescribe controlled substances."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}
