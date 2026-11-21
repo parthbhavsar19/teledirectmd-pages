@@ -640,7 +640,7 @@
           "verdict": "supported"
         },
         {
-          "text": "Only nausea higher than placebo",
+          "text": "Only nausea higher than placebo in placebo-controlled trial",
           "quote": "Only the incidence of nausea occurred at a statistically higher frequency in the vaccinated group as compared to the placebo group",
           "quote_source": "label",
           "verdict": "supported"
@@ -654,6 +654,24 @@
         {
           "text": "Not for immunodeficient including immunosuppressive drugs",
           "quote": "The vaccine should not be administered to these persons regardless of benefits.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Antibiotics may keep the live vaccine from working",
+          "quote": "these agents may be active against the vaccine strain and prevent a sufficient degree of multiplication to occur in order to induce a protective immune response.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hypersensitivity contraindication",
+          "quote": "Hypersensitivity to any component of the vaccine or the enteric-coated capsule.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Deadline: finish at least 1 week before exposure",
+          "quote": "should be completed at least 1 week prior to potential exposure to S. typhi.",
           "quote_source": "label",
           "verdict": "supported"
         },
@@ -736,6 +754,18 @@
         {
           "text": "Ty21a 3 doses about 50% cumulative over 2.5 to 3 years",
           "quote": "A three-dose schedule of Ty21a vaccine probably prevents around half of typhoid cases during the first three years after vaccination (cumulative efficacy 2.5 to 3 years: 50%",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Certainty grades",
+          "quote": "4 trials, 235,239 participants, moderate-certainty evidence)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Vi high certainty",
+          "quote": "3 trials, 99,979 participants; high-certainty evidence)",
           "quote_source": "abstract",
           "verdict": "supported"
         },
