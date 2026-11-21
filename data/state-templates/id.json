@@ -1,0 +1,236 @@
+{
+  "stateCode": "ID",
+  "stateName": "Idaho",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "rural",
+    "regulation": "permissive",
+    "payerLandscape": "self-pay-only",
+    "epidemiology": [
+      "lyme-not-endemic",
+      "tick-rmsf-relapsing-fever",
+      "rabies-bat-only"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "west",
+    "voiceNotes": "Plainspoken, outdoors-aware, short on hype. Idaho readers are often far from a clinic, and the state's own words (virtual care, community standard of care) should carry the legal content. Tick and bite copy should correct the Lyme assumption rather than feed it."
+  },
+  "stateHero": {
+    "openingParagraph": "Idaho calls it virtual care. The Idaho Virtual Care Access Act lets a provider-patient relationship begin by video when the Idaho community standard of care is met, and it treats the visit as taking place wherever the patient physically is. That is why TeleDirectMD sees adults who are in Idaho during the visit, from Boise and Meridian to Coeur d'Alene and Pocatello, through Parth Bhavsar, MD, a board-certified family medicine physician licensed by the Idaho State Board of Medicine. Every visit is with the physician. TeleDirectMD is self-pay only in Idaho: a flat $79, paid at booking, with HSA and FSA cards accepted. Prescriptions, when appropriate, go electronically to the Idaho pharmacy you pick.",
+    "conditionPageOpener": "Virtual care for adults located in Idaho with Parth Bhavsar, MD, board-certified in family medicine and licensed by the Idaho State Board of Medicine. Flat $79 self-pay, paid at booking, HSA and FSA accepted.",
+    "stateContextHint": "Licensed in Idaho. Video visits under the Idaho Virtual Care Access Act for adults located in Idaho. Flat $79 self-pay.",
+    "saturation": {
+      "stateNameMentions": 8,
+      "stateEntityMentions": 4
+    }
+  },
+  "stateEligibility": {
+    "intro": "TeleDirectMD sees adults 18 and older who are physically in Idaho during the video visit. Idaho Code 54-5703 says virtual care is considered to be rendered at the physical location of the patient, and it counts a provider located outside Idaho as one who would need an Idaho license, so the physician's Idaho license is what makes the visit possible. A Utah resident at a Sun Valley rental can be seen; an Idahoan traveling to a state TeleDirectMD does not serve cannot, until back in Idaho or another served state.",
+    "localTriggers": [
+      "You must be physically in Idaho during the visit; Idaho law treats virtual care as delivered where the patient is.",
+      "The relationship can start by video only when the Idaho community standard of care is satisfied; if your problem needs a hands-on exam, the visit will say so.",
+      "Informed consent for virtual care is obtained as Idaho law requires.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "TeleDirectMD charges every Idaho patient the same flat $79, paid at booking, and accepts HSA and FSA cards. It does not bill insurance, Medicaid or Medicare in Idaho, so there is no claim and no later bill for the visit. Idahoans who need individual coverage can shop through Your Health Idaho, the state's insurance marketplace named by the Idaho Department of Insurance.",
+    "additionalNotes": [
+      "$79 flat self-pay, the full visit fee.",
+      "HSA and FSA cards accepted.",
+      "No insurance billing in Idaho."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "Under Idaho Code 54-5707, a provider with an established relationship may issue prescriptions through virtual care, but only for a legitimate medical purpose and within the provider's license. When Dr. Bhavsar decides a prescription is appropriate, it is sent electronically to the Idaho pharmacy you choose. Idaho also gives pharmacists their own prescribing authority, with general requirements in Idaho Code 54-1734, so for some needs your pharmacist may be another option. TeleDirectMD does not prescribe controlled substances; in Idaho those are tracked through the Prescription Drug Monitoring Program run by the Idaho Board of Pharmacy.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "general": "A few Idaho facts change the usual advice. The Idaho Department of Health and Welfare says the tick that carries Lyme disease is not known to live in Idaho and that Idaho's Lyme cases are rare and generally travel-related, while Rocky Mountain spotted fever, tick-borne relapsing fever and tularemia are the tick concerns here. In Idaho, rabies circulates among bats. And flu is not minor: Idaho averages about 45 influenza-related deaths a year, most in people 65 and older. This is background, not an individual assessment.",
+    "generalOnHubOnly": true,
+    "citations": [
+      {
+        "label": "Idaho Code Title 54, Chapter 57, Idaho Virtual Care Access Act",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title54/T54CH57/",
+        "scope": "all"
+      },
+      {
+        "label": "Idaho Code 54-5703, Definitions",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title54/T54CH57/SECT54-5703",
+        "scope": "all"
+      },
+      {
+        "label": "Idaho Code 54-5705, Provider-Patient Relationship",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title54/T54CH57/SECT54-5705/",
+        "scope": "all"
+      },
+      {
+        "label": "Idaho Code 54-5707, Prescriptions",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title54/T54CH57/SECT54-5707",
+        "scope": "all"
+      },
+      {
+        "label": "Idaho Code 54-5708, Informed Consent",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title54/T54CH57/SECT54-5708"
+      },
+      {
+        "label": "Idaho Code 54-1734, Pharmacist Prescribing: General Requirements",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title54/T54CH17/SECT54-1734"
+      },
+      {
+        "label": "Idaho Board of Pharmacy, Prescription Drug Monitoring Program FAQs",
+        "url": "https://dopl.idaho.gov/bop-pdmp-faqs"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, Idaho (V2025)",
+        "url": "https://www.census.gov/quickfacts/ID"
+      },
+      {
+        "label": "Idaho Department of Insurance, Individual Health",
+        "url": "https://doi.idaho.gov/consumers/health-insurance/individual-health"
+      },
+      {
+        "label": "CDC, Legal Status of Expedited Partner Therapy (updated July 1, 2026)",
+        "url": "https://cdc.gov/sti/php/ept-legal-status/index.html",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "Idaho Department of Health and Welfare, Avoid getting bitten: Mosquitoes and ticks can cause serious illness (May 31, 2022)",
+        "url": "https://healthandwelfare.idaho.gov/dhw-voice/avoid-getting-bitten-mosquitoes-and-ticks-can-cause-serious-illness",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Idaho Department of Health and Welfare, Rabies",
+        "url": "https://healthandwelfare.idaho.gov/health-wellness/diseases-conditions/rabies",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Idaho Department of Health and Welfare, Rabies investigation highlights Idaho's ongoing risk from bats (December 11, 2025)",
+        "url": "https://healthandwelfare.idaho.gov/dhw-voice/rabies-investigation-highlights-idahos-ongoing-risk-bats",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Idaho Department of Health and Welfare, What to know as flu season gains momentum in Idaho (December 15, 2025)",
+        "url": "https://healthandwelfare.idaho.gov/dhw-voice/what-know-flu-season-gains-momentum-idaho",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified by the American Board of Family Medicine, holds an Idaho medical license from the Idaho State Board of Medicine; the license can be checked in the state's online public license search. Virtual care in Idaho is governed by the Idaho Virtual Care Access Act, Idaho Code Title 54, Chapter 57, which ties relationship-building by video to the Idaho community standard of care and requires informed consent as applicable law provides. NPI: 1104323203.",
+    "verifyUrl": "https://edopl.idaho.gov/OnlineServices/?link=PubSearch",
+    "statuteCitation": "Idaho Code Title 54, Chapter 57 (Idaho Virtual Care Access Act), sections 54-5703, 54-5705, 54-5707 and 54-5708",
+    "licenseNumber": "2971790",
+    "boardName": "Idaho State Board of Medicine",
+    "boardUrl": "https://bom.idaho.gov/"
+  },
+  "stateCities": {
+    "metroAndRural": "Idaho is large and thinly settled: 2,029,733 residents in the Census Bureau's July 1, 2025 estimate across 82,645 square miles of land, or 22.3 people per square mile in 2020. TeleDirectMD sees adults anywhere in the state, including the Treasure Valley cities of Boise, Meridian, Nampa and Caldwell; Idaho Falls and Pocatello in the east; Twin Falls on the Snake River Plain; and Coeur d'Alene, Post Falls and Lewiston in the north. Distance to a clinic does not change the fee: $79 flat.",
+    "cityList": [
+      {
+        "city": "Boise"
+      },
+      {
+        "city": "Meridian"
+      },
+      {
+        "city": "Nampa"
+      },
+      {
+        "city": "Idaho Falls"
+      },
+      {
+        "city": "Caldwell"
+      },
+      {
+        "city": "Pocatello"
+      },
+      {
+        "city": "Coeur d'Alene"
+      },
+      {
+        "city": "Twin Falls"
+      },
+      {
+        "city": "Lewiston"
+      },
+      {
+        "city": "Post Falls"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "self-pay-only",
+    "selfPayDisclosure": "TeleDirectMD is self-pay only in Idaho. It does not bill commercial insurance, Medicaid or Medicare and does not file claims for Idaho patients. Each visit is a flat $79, paid at booking, with HSA and FSA cards accepted and no facility fee or follow-up bill for the visit. You may ask your own plan about out-of-network reimbursement, but TeleDirectMD cannot promise it.",
+    "payers": []
+  },
+  "stateFaqs": [
+    {
+      "question": "Can a doctor start treating me by video in Idaho?",
+      "answer": "Yes. Idaho Code 54-5705 allows a provider-patient relationship to be established using virtual care technologies, provided the applicable Idaho community standard of care is satisfied. If a hands-on exam is needed to meet that standard, the visit will say so. Dr. Bhavsar holds an Idaho license and sees adults who are in Idaho during the visit."
+    },
+    {
+      "question": "I live in Washington but work in Idaho. Can I be seen?",
+      "answer": "Yes, if you are physically in Idaho during the visit. Idaho Code 54-5703 says virtual care is considered to be rendered at the physical location of the patient, so where you are at visit time decides which state's license applies. If you will be in another state, check whether TeleDirectMD serves that state before booking."
+    },
+    {
+      "question": "Does TeleDirectMD take insurance in Idaho?",
+      "answer": "No. TeleDirectMD is self-pay only in Idaho: a flat $79, paid at booking, with HSA and FSA cards accepted. It does not bill commercial plans, Medicaid or Medicare. Idahoans looking for individual coverage can shop through Your Health Idaho, which the Idaho Department of Insurance identifies as Idaho's insurance marketplace."
+    },
+    {
+      "question": "How can I verify Dr. Bhavsar's Idaho license?",
+      "answer": "Search the State of Idaho's online public license lookup for Parth Bhavsar. His Idaho medical license is issued by the Idaho State Board of Medicine, and his National Provider Identifier is 1104323203. He is board-certified in family medicine by the American Board of Family Medicine."
+    },
+    {
+      "question": "Do I need Lyme disease antibiotics after an Idaho tick bite?",
+      "answer": "Usually not for a tick picked up in Idaho. The Idaho Department of Health and Welfare says the tick that carries Lyme disease is not known to live in Idaho and that Idaho Lyme cases generally follow travel elsewhere. Ticks here can carry Rocky Mountain spotted fever, relapsing fever and tularemia, so a video visit focuses on where you were and what to watch for.",
+      "onHub": true
+    }
+  ],
+  "conditionOverrides": {
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "An Idaho tick bite is a different question from one in New England. The Idaho Department of Health and Welfare says the tick that carries Lyme disease is not known to live in Idaho, that Idaho Lyme cases are rare and generally follow travel, and that the tick concerns here are Rocky Mountain spotted fever, tick-borne relapsing fever and tularemia. Preventive Lyme antibiotics are reserved for blacklegged tick bites in Lyme-endemic areas, so for adults in Idaho a video visit centers on where the bite happened, recent travel and which symptoms should send you in. Fever or a spreading rash needs in-person care."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "In Idaho, rabies circulates among bats, and the Department of Health and Welfare estimates about 1 in 100 wild bats carries it. That makes an outdoor or barn cat with unknown bat contact worth a conversation. After any animal bite, the Department says to contact your healthcare provider and your local public health district, which can decide whether the animal should be tested. A video visit for adults in Idaho fits a recent, superficial to moderate bite from a known domestic cat: wound care, whether an antibiotic is appropriate, and the rabies question. Hand bites with swelling need in-person care."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "Idaho's rabies picture is mostly a bat story: the Department of Health and Welfare reported in December 2025 that bat-associated rabies variants circulate widely in the state, and it asks people to notify their local public health district after any animal contact that may be a rabies exposure. For adults located in Idaho with a superficial to moderate bite from a known domestic dog, a video visit reviews photos of the wound, cleaning and whether an antibiotic is appropriate. Deep wounds, bleeding that will not stop, or a bite from a wild or unknown animal need an emergency department."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "For adults in Idaho with a positive chlamydia test, a video visit can confirm the result, prescribe treatment when appropriate and plan a retest, without a trip to a clinic that may be hours away. The CDC lists expedited partner therapy as permissible in Idaho, so treatment for a sex partner may be possible without that partner being examined; whether it fits your situation is decided during the visit. Prescriptions go electronically to the Idaho pharmacy you choose. Pelvic pain with fever, severe testicular pain or pregnancy needs in-person care."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "The Idaho Department of Health and Welfare reports that Idaho averages about 45 influenza-related deaths each year, most among people 65 and older, which is why early treatment matters for adults at higher risk. If you are in Idaho and flu symptoms began within about 48 hours, a video visit can decide whether an antiviral is appropriate and send it to a pharmacy near you, which helps when the nearest clinic is a long drive. Trouble breathing, chest pain, confusion or being unable to keep fluids down needs emergency care instead."
+    }
+  },
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Idaho Code Title 54, Chapter 57, Idaho Virtual Care Access Act (sections 54-5703 and 54-5705)",
+        "renderAt": "hero-credential",
+        "content": "Under the Idaho Virtual Care Access Act, virtual care is technology-enabled health care in which patient and provider are not in the same location, and it is considered to be rendered at the physical location of the patient (Idaho Code 54-5703). A provider-patient relationship may be established by virtual care when the applicable Idaho community standard of care is satisfied (Idaho Code 54-5705). TeleDirectMD sees patients located in Idaho by real-time video through Parth Bhavsar, MD, licensed by the Idaho State Board of Medicine."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

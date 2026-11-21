@@ -1,0 +1,292 @@
+{
+  "stateCode": "OH",
+  "stateName": "Ohio",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "urban",
+    "regulation": "standard",
+    "payerLandscape": "multi-payer",
+    "epidemiology": [
+      "lyme-rising",
+      "rabies-bat-raccoon",
+      "flu-midwest"
+    ],
+    "boardStrictness": "strict",
+    "culturalRegister": "midwest",
+    "voiceNotes": "Practical, midwestern and specific. Ohio's Medical Board rule spells out what must happen at the start of a telehealth visit (verify location, name the license, document consent), so say it plainly. Lyme disease is the standout state fact; use the ODH numbers with their years."
+  },
+  "stateHero": {
+    "openingParagraph": "Ohio's telehealth rule asks three things at the start of a first visit: confirm who you are, confirm that you are physically in Ohio, and tell you the physician's name and type of Ohio license. For TeleDirectMD, that physician is Parth Bhavsar, MD, board-certified in family medicine and licensed by the State Medical Board of Ohio. Adults in Columbus, Cleveland, Cincinnati, Toledo, Akron, Dayton or anywhere else in the state can book a video visit for a flat $79 at booking, use HSA or FSA cards, or use Aetna, UnitedHealthcare or Curative plans, which are in-network in Ohio. Prescriptions, when appropriate, go electronically to the Ohio pharmacy you choose.",
+    "stateContextHint": "Licensed in Ohio. Video visits for adults located in Ohio under OAC 4731-37-01. Flat $79, or Aetna, UnitedHealthcare and Curative in-network.",
+    "saturation": {
+      "stateNameMentions": 6,
+      "stateEntityMentions": 5
+    }
+  },
+  "stateEligibility": {
+    "intro": "Under Ohio Administrative Code 4731-37-01, the physician must verify each patient's identity and physical location in Ohio and document consent for telehealth treatment, a discussion of its risks, benefits and alternatives. TeleDirectMD therefore sees adults 18 and older who are in Ohio when the visit takes place. Ohio's statute, ORC 4743.09, allows a first visit by telehealth as long as the standard of care for an initial visit is met, so you do not need an earlier in-person appointment.",
+    "localTriggers": [
+      "Be physically in Ohio during the visit; the physician is required to confirm your location.",
+      "Expect a short consent conversation about the risks, benefits and alternatives of a video visit, which Ohio requires the physician to document.",
+      "If a video visit cannot meet the standard of care, Ohio's rule requires an in-person visit or referral, and Dr. Bhavsar will point you to one.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "Ohio's telehealth statute, ORC 4743.09, bars charging a patient a facility fee, an origination fee or an equipment fee for telehealth, and TeleDirectMD charges none: the visit is a flat $79 at booking, with HSA and FSA cards accepted. In Ohio, TeleDirectMD is also in-network with Aetna and UnitedHealthcare (PPO, HMO, EPO, POS and Medicare Advantage) and with Curative commercial PPO, EPO and self-funded plans; your plan sets any cost sharing. Medicaid plans are not accepted. Ohio's Health Insurance Marketplace is run by the federal government, according to the Ohio Department of Insurance.",
+    "additionalNotes": [
+      "$79 flat self-pay at booking.",
+      "No facility, origination or equipment fee, as ORC 4743.09 requires.",
+      "Aetna, UnitedHealthcare and Curative in-network in Ohio; Medicaid plans not accepted."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "Ohio's Medical Board rule allows a physician to prescribe a non-controlled drug through telehealth only by meeting every requirement of the rule, which includes a medical evaluation that meets in-person standards and a documented diagnosis and treatment plan that identifies underlying conditions or contraindications. When that bar is met and a prescription is appropriate, it is sent electronically to the Ohio pharmacy you choose. Controlled substances are tracked in Ohio through OARRS, the Ohio Automated Rx Reporting System created by the Ohio Board of Pharmacy in 2006, which also tracks gabapentin and naltrexone. TeleDirectMD does not prescribe controlled substances in Ohio or anywhere else.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "Lyme disease is the clearest change in Ohio's recent health data. The Ohio Department of Health counted 40 cases in 2010, 415 in 2020 and more than 2,800 in 2025, and its 2026 surveillance had identified blacklegged ticks in 63 counties by November 12 (preliminary). Animal bites are common too: local health departments investigate about 20,000 bite and exposure incidents a year, and bat strain rabies is present everywhere in the state. For respiratory illness, the Department's Respiratory Dashboard posts weekly COVID-19, influenza and RSV hospitalization data. These figures are context and do not replace an individual evaluation.",
+    "citations": [
+      {
+        "label": "Ohio Revised Code 4743.09, standards for telehealth services",
+        "url": "https://codes.ohio.gov/ohio-revised-code/section-4743.09",
+        "scope": "all"
+      },
+      {
+        "label": "Ohio Administrative Code 4731-37-01, telehealth (State Medical Board of Ohio)",
+        "url": "https://codes.ohio.gov/ohio-administrative-code/rule-4731-37-01",
+        "scope": "all"
+      },
+      {
+        "label": "Ohio Board of Pharmacy, Ohio Automated Rx Reporting System (OARRS)",
+        "url": "https://www.pharmacy.ohio.gov/OARRS",
+        "scope": "all"
+      },
+      {
+        "label": "Ohio Department of Insurance, Monthly Insurance Review, November 28, 2025",
+        "url": "https://content.govdelivery.com/accounts/OHINSUR/bulletins/3fd2d57",
+        "scope": "all"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, Ohio (V2025)",
+        "url": "https://www.census.gov/quickfacts/OH",
+        "scope": "hub"
+      },
+      {
+        "label": "Ohio Department of Health, Lyme Disease Cases Surging Across Ohio, May 5, 2026",
+        "url": "https://odh.ohio.gov/media-center/feature-stories/lyme-disease-surging-050526",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Ohio Department of Health, Lyme Disease",
+        "url": "https://odh.ohio.gov/know-our-programs/zoonotic-vector-borne-diseases/diseases/lyme-disease",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Ohio Department of Health, Vector-borne Disease Surveillance Update, November 12, 2026",
+        "url": "https://odh.ohio.gov/know-our-programs/zoonotic-vector-borne-diseases/news/vectorborne-disease-update",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Ohio Revised Code 4731.93, expedited partner therapy for chlamydia, gonorrhea or trichomoniasis",
+        "url": "https://codes.ohio.gov/ohio-revised-code/section-4731.93",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "trichomoniasis-treatment-online"
+        ]
+      },
+      {
+        "label": "Ohio Administrative Code 3701-3-28, report of bite of dog or other mammal",
+        "url": "https://codes.ohio.gov/ohio-administrative-code/rule-3701-3-28",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Ohio Department of Health, Rabies and Animal Bites",
+        "url": "https://odh.ohio.gov/know-our-programs/zoonotic-vector-borne-diseases/diseases/rabies",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Ohio Department of Health, first pediatric flu death of the 2025-26 season",
+        "url": "https://odh.ohio.gov/media-center/odh-news-releases/first-pediatric-flu-death-123125",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "Ohio Department of Health, Influenza and Respiratory Dashboard",
+        "url": "https://odh.ohio.gov/flu",
+        "conditions": [
+          "influenza-treatment-online",
+          "covid-19-treatment-online"
+        ]
+      },
+      {
+        "label": "Ohio Department of Health, Help with Quitting (Ohio Tobacco Quit Line)",
+        "url": "https://odh.ohio.gov/know-our-programs/tobacco-use-prevention-and-cessation/cessation/",
+        "conditions": [
+          "smoking-cessation-treatment-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds an Ohio medical license from the State Medical Board of Ohio; anyone can check it through Ohio's eLicense verification search. TeleDirectMD follows ORC 4743.09 and the Medical Board's telehealth rule, OAC 4731-37-01, which requires verifying the patient's identity and location in Ohio, telling a new patient the physician's name and license type, documenting consent and meeting the in-person standard of care. NPI: 1104323203.",
+    "verifyUrl": "https://elicense.ohio.gov/oh_verifylicense",
+    "statuteCitation": "Ohio Revised Code 4743.09 (telehealth services); Ohio Administrative Code 4731-37-01 (telehealth)",
+    "licenseNumber": "35C.001247",
+    "boardName": "State Medical Board of Ohio",
+    "boardUrl": "https://med.ohio.gov/"
+  },
+  "stateCities": {
+    "metroAndRural": "The Census Bureau estimated Ohio's population at 11,900,510 on July 1, 2025, with 288.8 people per square mile in 2020. TeleDirectMD sees adults across the state, including Columbus, Cleveland and Parma, Cincinnati and Hamilton, Toledo, Akron and Canton, Dayton and Springfield, Youngstown and Lorain, as well as the counties in between. The physician, the rules and the $79 fee are the same in every one of them.",
+    "cityList": [
+      {
+        "city": "Columbus"
+      },
+      {
+        "city": "Cleveland"
+      },
+      {
+        "city": "Cincinnati"
+      },
+      {
+        "city": "Toledo"
+      },
+      {
+        "city": "Akron"
+      },
+      {
+        "city": "Dayton"
+      },
+      {
+        "city": "Parma"
+      },
+      {
+        "city": "Canton"
+      },
+      {
+        "city": "Youngstown"
+      },
+      {
+        "city": "Lorain"
+      },
+      {
+        "city": "Hamilton"
+      },
+      {
+        "city": "Springfield"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "multi-payer",
+    "selfPayDisclosure": "TeleDirectMD is in-network in Ohio with Aetna, UnitedHealthcare and Curative. Anyone can instead pay the flat $79 self-pay fee at booking, with HSA and FSA cards accepted; for plans outside that list, TeleDirectMD does not file the claim. Your plan determines coverage and cost sharing. Medicaid, Managed Medicaid and D-SNP plans are not accepted. Under ORC 4743.09, no facility, origination or equipment fee is charged for a telehealth visit.",
+    "payers": [
+      {
+        "name": "Aetna",
+        "anchorId": "aetna-coverage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
+        "validFrom": "2026-03-25",
+        "copayNote": "Cost sharing depends on your plan."
+      },
+      {
+        "name": "UnitedHealthcare",
+        "anchorId": "uhc-coverage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
+        "validFrom": "2026-03-30",
+        "copayNote": "Cost sharing depends on your plan."
+      },
+      {
+        "name": "Curative",
+        "anchorId": "curative-coverage",
+        "planNames": "Commercial PPO, EPO, and self-funded plans (EPO Value, EPO (PPOx), PPO (PPO+), PPO Max)",
+        "validFrom": "2026-07-07",
+        "copayNote": "Your Curative plan determines any cost sharing."
+      }
+    ]
+  },
+  "stateFaqs": [
+    {
+      "question": "Do I need an in-person visit before seeing a doctor by video in Ohio?",
+      "answer": "No, for the conditions TeleDirectMD treats. ORC 4743.09 lets a health care professional use telehealth for an initial visit if the standard of care for an initial visit is met. Ohio's Medical Board rule then requires verifying your identity and that you are physically in Ohio, telling you the physician's name and license type, and documenting your consent."
+    },
+    {
+      "question": "Which insurance plans does TeleDirectMD accept in Ohio?",
+      "answer": "In Ohio, TeleDirectMD is in-network with Aetna and UnitedHealthcare (PPO, HMO, EPO, POS and Medicare Advantage) and with Curative commercial PPO, EPO and self-funded plans. Your plan sets any cost sharing. Without one of those plans, the visit is a flat $79 at booking. Medicaid plans are not accepted."
+    },
+    {
+      "question": "Can a telehealth provider in Ohio charge a facility fee?",
+      "answer": "No. ORC 4743.09 says a health care professional providing telehealth services shall not charge a patient a facility fee, an origination fee or a fee for the cost of equipment at the provider's site. A TeleDirectMD visit in Ohio is a flat $79 self-pay, or billed to an in-network Aetna, UnitedHealthcare or Curative plan."
+    },
+    {
+      "question": "How do I verify Dr. Bhavsar's Ohio license?",
+      "answer": "Parth Bhavsar, MD holds an Ohio medical license from the State Medical Board of Ohio, which you can look up through Ohio's eLicense verification search. Ohio's rule also requires him to tell new patients his name and the type of Ohio license he holds. His National Provider Identifier is 1104323203."
+    },
+    {
+      "question": "Do I have to report an animal bite in Ohio?",
+      "answer": "Ohio Administrative Code 3701-3-28 requires a bite from a dog or other mammal to be reported within 24 hours to the health commissioner of the district where it happened, by a health care provider, a veterinarian who knows of it or the person bitten. The local health department then assesses rabies risk and may quarantine the animal."
+    }
+  ],
+  "conditionOverrides": {
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "Ohio's Lyme disease numbers have climbed fast: the Ohio Department of Health counted 40 cases in 2010, 415 in 2020 and more than 2,800 in 2025. Blacklegged ticks are most common in eastern and southern Ohio, though the Department expects them in wooded habitat across most of the state, and its 2026 surveillance found them in 63 counties. Nymphs feed in spring and summer; adults are most active in cooler months. If you removed a tick in the last 72 hours, a video visit for adults physically in Ohio reviews a photo and the attachment time and decides whether a single preventive dose of doxycycline is appropriate. Flat $79, or in-network plans."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "Ohio has written expedited partner therapy into statute. Under ORC 4731.93, in effect since March 23, 2016, a physician may prescribe treatment for up to two sexual partners of a patient diagnosed with chlamydia, gonorrhea or trichomoniasis without examining them, when the patient reports a partner is unable or unlikely to be seen. The physician must give the patient information about the drug to share and recommend that each partner seek care. For adults physically in Ohio with a positive chlamydia test, a video visit can review the result and prescribe treatment when appropriate. TeleDirectMD does not perform STI testing. Flat $79, or in-network plans."
+    },
+    "trichomoniasis-treatment-online": {
+      "stateConditionParagraph": "Trichomoniasis is one of three infections named in Ohio's expedited partner therapy law, ORC 4731.93, along with chlamydia and gonorrhea. When a patient is diagnosed and reports that a sexual partner is unable or unlikely to be evaluated, the physician may prescribe for up to two partners without examining them, and must document the drug and dose and recommend that each partner see a health professional. For adults physically in Ohio with a positive test or typical symptoms, a video visit can review the picture and prescribe treatment when appropriate. Pregnancy or pelvic pain with fever needs in-person care. Flat $79."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "Ohio law treats every mammal bite as reportable: under OAC 3701-3-28, a bite must be reported within 24 hours to the local health commissioner, and the Ohio Department of Health says local health departments investigate about 20,000 bite and exposure incidents a year. Bat strain rabies is present throughout Ohio, which is one reason the Department advises keeping pet cats indoors. For a superficial to moderate bite from a known domestic cat in the last 24 hours, a video visit for adults physically in Ohio covers wound care, whether an antibiotic is appropriate and the report. A stray cat or a swollen hand needs in-person care. Flat $79."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "After a dog bite in Ohio, the bite has to be reported within 24 hours to the health commissioner where it happened (OAC 3701-3-28), and the local health department completes a rabies risk assessment and may quarantine the dog. The Ohio Department of Health suggests having the dog's description, owner, rabies vaccination status and how the bite happened ready. Raccoon strain rabies entered northeastern Ohio from Pennsylvania in 1997. A video visit for adults physically in Ohio can assess a superficial to moderate wound from a known domestic dog and decide whether antibiotics are appropriate. Deep or facial wounds need in-person care. Flat $79."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "In Ohio, flu season can begin as early as October and run as late as March, according to the Ohio Department of Health, and activity usually peaks between December and February. In the 2025-26 season the Department reported that flu activity had been increasing since late November, and it notes that prescription antivirals work best when taken within 1 to 2 days after symptoms begin. A video visit for adults physically in Ohio can decide whether an antiviral fits and send it to your pharmacy. Trouble breathing, chest pain or confusion needs emergency care. Flat $79, or Aetna, UnitedHealthcare and Curative in-network."
+    },
+    "covid-19-treatment-online": {
+      "stateConditionParagraph": "The Ohio Department of Health's Respiratory Dashboard posts weekly updates on COVID-19, influenza and RSV hospitalizations and outbreaks, the state's own measure of what is circulating. For adults physically in Ohio with a positive test and symptoms that began within the last five days, a video visit can review the test, symptoms and a full medication list, since some COVID-19 antivirals interact with common medicines, and send a prescription to an Ohio pharmacy when appropriate. Ohio's telehealth rule also requires a physician to help a patient reach emergency care when needed, so shortness of breath at rest or chest pain means 911. Flat $79."
+    },
+    "smoking-cessation-treatment-online": {
+      "stateConditionParagraph": "Ohioans trying to quit have a free option to pair with a visit: the Ohio Tobacco Quit Line at 1-800-QUIT-NOW, which the Ohio Department of Health says provides quit coaching and telephone counseling free to all Ohioans regardless of insurance or income, plus free nicotine patches, gum or lozenges for eligible participants. A video visit for adults physically in Ohio adds the prescription side, reviewing your history and medicines and prescribing a quit-smoking medication when appropriate. Pregnancy, a seizure disorder or a heart attack or stroke in the past two weeks needs in-person care. Flat $79, or in-network plans."
+    }
+  },
+  "relatedLinks": [],
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Ohio Administrative Code 4731-37-01 (telehealth); Ohio Revised Code 4743.09",
+        "renderAt": "hero-credential",
+        "content": "Under OAC 4731-37-01, the physician verifies your identity and physical location in Ohio, tells you his name and type of active Ohio license if he has not treated you before, and documents your consent for telehealth treatment. Parth Bhavsar, MD holds an Ohio medical license (State Medical Board of Ohio). The standard of care for a telehealth visit is the same as for an in-person visit."
+      },
+      {
+        "statute": "Ohio Revised Code 4743.09(E)(1) (telehealth fees)",
+        "renderAt": "footer",
+        "content": "Ohio law prohibits charging a patient a facility fee, origination fee or equipment fee for telehealth services. TeleDirectMD's Ohio visit is a flat $79 self-pay, or billed to an in-network plan. TeleDirectMD does not prescribe controlled substances."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}
