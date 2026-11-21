@@ -1,0 +1,281 @@
+{
+  "stateCode": "CO",
+  "stateName": "Colorado",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "mid",
+    "regulation": "standard",
+    "payerLandscape": "multi-payer",
+    "epidemiology": [
+      "altitude",
+      "tick-western-low-lyme",
+      "rabies-skunk-bat",
+      "syphilis-rising"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "west",
+    "voiceNotes": "Outdoorsy and practical. Colorado readers plan around elevation, trails and ski days, so connect each condition to how people actually spend time here. Colorado pharmacists have broad statewide protocols; say so plainly and position the video visit as one option. Inferred values: density and regulation are judgment calls."
+  },
+  "stateHero": {
+    "openingParagraph": "In Colorado, the rule is simple: licensure follows where the patient is during the visit, so TeleDirectMD sees adults 18 and older who are physically in the state, whether that is a Denver apartment, a Colorado Springs office or a condo in a ski town. Each video visit is with Parth Bhavsar, MD, a board-certified family medicine physician licensed in Colorado. Aetna, UnitedHealthcare and Curative plans are in-network, and a flat $79 self-pay price, paid at booking, is open to anyone, with HSA and FSA cards accepted. If a prescription is appropriate, it goes electronically to the Colorado pharmacy you name.",
+    "conditionPageOpener": "Adults physically in Colorado can see Parth Bhavsar, MD, a Colorado-licensed physician, by video. In-network with Aetna, UnitedHealthcare and Curative, or a flat $79 self-pay. Prescriptions, when appropriate, go electronically to your pharmacy.",
+    "stateContextHint": "Colorado-licensed physician. Video visits for adults located in Colorado, residents and visitors. In-network with three insurers or a flat $79 self-pay.",
+    "saturation": {
+      "stateNameMentions": 5,
+      "stateEntityMentions": 4
+    }
+  },
+  "stateEligibility": {
+    "intro": "Colorado's Division of Professions and Occupations puts it plainly: licensure requirements are set by the physical location of the patient at the time services are rendered. That is why TeleDirectMD asks where you are, not where you live. An adult 18 or older visiting Breckenridge from Texas can be seen while in Colorado; a Coloradan on a trip to a state TeleDirectMD does not serve has to wait until back in Colorado or in another served state.",
+    "localTriggers": [
+      "Be physically in Colorado during the video visit. Residents and visitors are treated the same.",
+      "Visitors heading into the mountains can plan ahead: altitude sickness prevention is a pre-trip visit, not care for symptoms that are already getting worse at elevation.",
+      "TeleDirectMD does not prescribe controlled substances in Colorado or any other state.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "Colorado visits can go through insurance or not. Aetna plans (PPO, HMO, EPO, POS and Medicare Advantage), UnitedHealthcare plans (the same types, except Navigate, Charter and Colorado Doctors Plan) and Curative commercial plans are in-network. Anyone else can choose the flat $79 self-pay price, paid at booking, and HSA and FSA cards are accepted. Coloradans who buy their own plan use Connect for Health Colorado, the state's official marketplace, and Health First Colorado is the state's Medicaid program, administered by the Department of Health Care Policy and Financing; TeleDirectMD does not take Health First Colorado.",
+    "additionalNotes": [
+      "$79 flat self-pay option, paid at booking.",
+      "HSA and FSA cards accepted.",
+      "In-network in Colorado: Aetna, UnitedHealthcare (excluding Navigate, Charter and Colorado Doctors Plan), Curative."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "Colorado pharmacists can do more than fill prescriptions. The State Board of Pharmacy publishes statewide protocols that cover hormonal contraception, smoking cessation, HIV prophylaxis, statin therapy and medications for opioid use disorder, so for some needs the pharmacy counter is a reasonable first stop. When a physician's prescription makes sense, TeleDirectMD sends it electronically to the Colorado pharmacy you choose. Colorado has required schedule II, III and IV controlled substance prescriptions from physicians to be electronic since July 1, 2021, and the state runs a Prescription Drug Monitoring Program, but TeleDirectMD does not prescribe controlled substances.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "Colorado's elevation, dry air and wildlife shape what adults ask about. The state health department notes that altitude sickness symptoms usually start within 6 to 24 hours of arriving at elevation and that Colorado's dry, high-altitude air raises the risk of dehydration. The ticks it lists for Colorado are the American dog tick, Rocky Mountain wood tick and brown dog tick, and it says most tick-borne diseases are infrequently seen here. Bats and skunks are the main sources of rabies in the state. Syphilis is the trend to watch: the department reports Colorado cases tripled from 2018 to 2023. This context is for awareness and does not replace an individual evaluation.",
+    "citations": [
+      {
+        "label": "Colorado Division of Professions and Occupations, Out-of-State Telehealth Providers FAQ",
+        "url": "https://dpo.colorado.gov/CustomerService/TelehealthFAQ",
+        "scope": "all"
+      },
+      {
+        "label": "Colorado General Assembly, SB19-079 Electronic Prescribing Controlled Substances",
+        "url": "https://leg.colorado.gov/bills/sb19-079",
+        "scope": "all"
+      },
+      {
+        "label": "Colorado Office of the State Auditor, Colorado Prescription Drug Monitoring Program review",
+        "url": "https://content.leg.colorado.gov/sites/default/files/documents/audits/1933p_colorado_prescription_drug_monitoring_program.pdf",
+        "scope": "all"
+      },
+      {
+        "label": "Colorado State Board of Pharmacy, Collaborative Pharmacy Practice and Statewide Protocols",
+        "url": "https://dpo.colorado.gov/Pharmacy/Protocols",
+        "conditions": [
+          "birth-control-refills-online",
+          "smoking-cessation-treatment-online"
+        ]
+      },
+      {
+        "label": "CMS, States by Marketplace Type for Plan Year 2027",
+        "url": "https://www.cms.gov/marketplace/in-person-assisters/training-webinars/training/marketplaces-map",
+        "scope": "all"
+      },
+      {
+        "label": "Connect for Health Colorado",
+        "url": "https://connectforhealthco.com/",
+        "scope": "all"
+      },
+      {
+        "label": "Colorado Department of Health Care Policy and Financing (Health First Colorado)",
+        "url": "https://hcpf.colorado.gov/",
+        "scope": "all"
+      },
+      {
+        "label": "U.S. Census Bureau, Vintage 2025 state population estimates (NST-EST2025-ALLDATA)",
+        "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv",
+        "scope": "hub"
+      },
+      {
+        "label": "CDPHE, Top 5 Things to Know: Stay Safe When Visiting Colorado",
+        "url": "https://cdphe.colorado.gov/prevention-and-wellness/injury-prevention/top-5-things-to-know-stay-safe-when-visiting-colorado",
+        "conditions": [
+          "altitude-sickness-treatment-online"
+        ]
+      },
+      {
+        "label": "CDPHE, Tick-borne illness (child care and school settings)",
+        "url": "https://cdphe.colorado.gov/child-care-school-settings/tick-borne",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "CDPHE, Colorado Rabies FAQ",
+        "url": "https://cdphe.colorado.gov/animal-related-diseases/rabies/rabies-in-colorado",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "CDPHE, Syphilis in Colorado: Provider Information",
+        "url": "https://cdphe.colorado.gov/sti-hiv-vh/syphilis/provider",
+        "conditions": [
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "CDPHE, Communicable Disease Manual: Influenza-associated conditions",
+        "url": "https://cdphe.colorado.gov/dcphr/communicable-disease-manual/influenza-associated-conditions",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds a Colorado medical license issued under the Colorado Medical Board. The license can be checked on the state's online license lookup run by the Department of Regulatory Agencies. Because Colorado ties licensure to where the patient is at the time of care, Dr. Bhavsar sees only patients who are physically in Colorado under this license. NPI: 1104323203.",
+    "verifyUrl": "https://apps2.colorado.gov/dora/licensing/lookup/LicenseLookup.aspx",
+    "statuteCitation": "Colorado Division of Professions and Occupations, telehealth licensure by patient location; C.R.S. 12-30-111 (SB19-079, electronic prescribing of controlled substances)",
+    "licenseNumber": "CDR.0004739",
+    "boardName": "Colorado Medical Board",
+    "boardUrl": "https://dpo.colorado.gov/Medical"
+  },
+  "stateCities": {
+    "metroAndRural": "Colorado had 6,012,561 residents on July 1, 2025, according to the Census Bureau. TeleDirectMD sees adults physically anywhere in the state: Denver, Aurora, Lakewood, Thornton, Arvada, Westminster and Centennial in the metro area; Boulder, Fort Collins and Greeley along the northern Front Range; and Colorado Springs and Pueblo to the south. Location during the visit is what counts.",
+    "cityList": [
+      {
+        "city": "Denver"
+      },
+      {
+        "city": "Colorado Springs"
+      },
+      {
+        "city": "Aurora"
+      },
+      {
+        "city": "Fort Collins"
+      },
+      {
+        "city": "Lakewood"
+      },
+      {
+        "city": "Thornton"
+      },
+      {
+        "city": "Arvada"
+      },
+      {
+        "city": "Westminster"
+      },
+      {
+        "city": "Boulder"
+      },
+      {
+        "city": "Pueblo"
+      },
+      {
+        "city": "Greeley"
+      },
+      {
+        "city": "Centennial"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "multi-payer",
+    "selfPayDisclosure": "TeleDirectMD is in-network in Colorado with Aetna (PPO, HMO, EPO, POS and Medicare Advantage), UnitedHealthcare (the same plan types except Navigate, Charter and Colorado Doctors Plan) and Curative (commercial PPO, EPO and self-funded plans). What you owe depends on your plan. Without one of those plans, the visit is a flat $79 self-pay, paid at booking, with HSA and FSA cards accepted. Health First Colorado, Medicaid managed care and D-SNP plans are not accepted, and TeleDirectMD cannot promise how any plan will pay.",
+    "payers": [
+      {
+        "name": "Aetna",
+        "anchorId": "aetna-coverage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
+        "validFrom": "2026-04-10",
+        "copayNote": "Cost sharing depends on your Aetna plan."
+      },
+      {
+        "name": "UnitedHealthcare",
+        "anchorId": "uhc-coverage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage (excludes Navigate, Charter, Colorado Doctors Plan)",
+        "validFrom": "2026-04-03",
+        "copayNote": "Cost sharing depends on your UnitedHealthcare plan."
+      },
+      {
+        "name": "Curative",
+        "anchorId": "curative-coverage",
+        "planNames": "Commercial PPO, EPO, and self-funded plans (EPO Value, EPO (PPOx), PPO (PPO+), PPO Max)",
+        "validFrom": "2026-07-07",
+        "copayNote": "Cost sharing depends on your Curative plan."
+      }
+    ]
+  },
+  "stateFaqs": [
+    {
+      "question": "I'm visiting Colorado. Can I book a TeleDirectMD visit?",
+      "answer": "Yes, as long as you are physically in Colorado during the visit and are 18 or older. Colorado's Division of Professions and Occupations says licensure requirements are determined by the patient's physical location at the time services are rendered, and Dr. Bhavsar holds a Colorado medical license. The flat $79 self-pay price works for visitors without a Colorado plan."
+    },
+    {
+      "question": "Does TeleDirectMD take insurance in Colorado?",
+      "answer": "Yes, three insurers: Aetna, UnitedHealthcare (except Navigate, Charter and Colorado Doctors Plan) and Curative. Health First Colorado, the state's Medicaid program, is not accepted. Anyone can choose the flat $79 self-pay price instead, paid at booking, with HSA and FSA cards accepted. Individual plans are sold through Connect for Health Colorado."
+    },
+    {
+      "question": "Can a Colorado pharmacist prescribe birth control or quit-smoking medicine?",
+      "answer": "Colorado's State Board of Pharmacy has statewide protocols for hormonal contraception and smoking cessation, along with HIV prophylaxis, statin therapy and opioid use disorder medicines, so a pharmacist may be able to help directly. A TeleDirectMD video visit is another option for adults physically in Colorado, and any prescription goes electronically to the pharmacy you choose."
+    },
+    {
+      "question": "Can I get altitude sickness medicine before a Colorado mountain trip?",
+      "answer": "Often, yes, if you are planning the trip and are physically in Colorado for the visit. A video visit reviews your plans, health history and allergies and decides whether a preventive prescription is appropriate. It is not for symptoms that are already getting worse at elevation: the state health department says vision changes, shortness of breath or chest pain at altitude need a doctor immediately."
+    },
+    {
+      "question": "How do I verify Dr. Bhavsar's Colorado license?",
+      "answer": "Parth Bhavsar, MD holds a Colorado medical license under the Colorado Medical Board. Search his name on the state's online license lookup run by the Department of Regulatory Agencies. His National Provider Identifier is 1104323203, and he is board-certified in family medicine by the American Board of Family Medicine."
+    }
+  ],
+  "conditionOverrides": {
+    "altitude-sickness-treatment-online": {
+      "stateConditionParagraph": "The Colorado Department of Public Health and Environment tells visitors that altitude sickness symptoms such as headache, nausea, dizziness and poor sleep usually start within 6 to 24 hours of arrival. Its advice: spend a day or two at a moderate elevation before going higher, skip strenuous activity for the first 24 to 48 hours, drink plenty of water in the dry air and go easy on alcohol. For adults physically in Colorado who are planning a trip up, a video visit reviews your itinerary, health history and any sulfa allergy and decides whether a preventive prescription fits. Symptoms that are worsening at altitude, vision changes, chest pain or confusion need in-person care now. Flat $79 or in-network."
+    },
+    "birth-control-refills-online": {
+      "stateConditionParagraph": "Colorado's State Board of Pharmacy lists hormonal contraception among its statewide protocols, so a pharmacist may be able to help directly. Some people still prefer a physician to manage it. For adults physically in Colorado who already take a pill, patch or ring, a video visit can review your blood pressure, migraines, smoking and other health changes that affect safety and send a refill electronically to your pharmacy. Starting a first method, an IUD, implant, shot or emergency contraception is outside this visit. Flat $79 or in-network with Aetna, UnitedHealthcare or Curative."
+    },
+    "smoking-cessation-treatment-online": {
+      "stateConditionParagraph": "Colorado makes quitting support easy to reach. Smoking cessation is one of the State Board of Pharmacy's statewide protocols, and the board points pharmacists to the Colorado QuitLine among its resources. If you want a physician involved, a video visit for adults physically in Colorado can review your tobacco use, current medicines and health history and decide whether a prescription quit-smoking medicine is appropriate, sent electronically to your pharmacy. Pregnancy or breastfeeding, a heart attack or stroke in the past two weeks, or a mental health crisis calls for in-person care. Flat $79 or in-network with Aetna, UnitedHealthcare or Curative."
+    },
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "Tick bites in Colorado come mostly from the American dog tick, Rocky Mountain wood tick and brown dog tick, according to the state health department, which notes that most tick-borne diseases are infrequently seen here. The illnesses it names are Colorado tick fever, Rocky Mountain spotted fever and tick-borne relapsing fever, the last spread by soft ticks in rodent nests in rustic high-elevation cabins. Because risk depends on the tick and where the bite happened, a photo matters, and a bite picked up on a trip out of state is judged differently. A video visit for adults physically in Colorado reviews the photo and timing and explains which fever or rash means in-person care. Flat $79 or in-network."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "In Colorado, bats and skunks are the main sources of rabies, and the state health department says skunk rabies spreads quickly through skunk populations. After a bite, the department advises seeing a doctor promptly and reporting the bite to your local health department, and it notes that a cat alive 10 days after biting a person did not have rabies at the time of the bite. A video visit for adults physically in Colorado covers bites from a known domestic cat: wound care, antibiotics when appropriate and the rabies question. A swollen hand or a bite from a stray needs in-person care. Flat $79 or in-network."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "Colorado's state health department asks that animal bites be reported to the local health department and that people see a doctor promptly after any bite. It also explains the 10-day rule: a dog alive 10 days after biting someone did not have rabies when it bit. Bats and skunks, not dogs, are the state's main rabies sources. For a bite from a known domestic dog, a video visit for adults physically in Colorado reviews photos of the wound and decides whether antibiotics are needed. Deep or facial wounds, a hand that will not move normally, or a stray dog needs in-person care. Flat $79 or in-network."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "Colorado tracks how hard each flu season hits by requiring facilities to report influenza-associated hospitalizations statewide, within four calendar days, which the state health department uses to measure severity and burden across Colorado. For adults well enough to stay home, timing matters: antivirals work best when started within 48 hours of the first symptoms. A video visit for adults physically in Colorado can decide whether an antiviral fits and send it to your pharmacy. Trouble breathing, chest pain, confusion or being unable to keep fluids down needs 911 or an emergency department. Flat $79 or in-network with Aetna, UnitedHealthcare or Curative."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "Syphilis has climbed sharply in Colorado: the state health department reports a three-fold increase in cases from 2018 to 2023 and 50 congenital syphilis cases in 2023, and it advises screening sexually active men who have sex with men at least once a year. Doxycycline post-exposure prophylaxis, taken within 72 hours after condomless sex, lowers the risk of syphilis, gonorrhea and chlamydia for gay and bisexual men and transgender women who meet the criteria. A video visit for adults physically in Colorado reviews whether you qualify, the side effects and the regular testing that goes with it. It is not for active symptoms, pregnancy or cisgender women. Flat $79 or in-network."
+    }
+  },
+  "relatedLinks": [],
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Colorado Division of Professions and Occupations, telehealth licensure by patient location",
+        "renderAt": "hero-credential",
+        "content": "Colorado determines licensure requirements by the physical location of the patient at the time services are rendered. Parth Bhavsar, MD holds a Colorado medical license and sees patients under it only while they are physically in Colorado."
+      },
+      {
+        "statute": "C.R.S. 12-30-111 (enacted by SB19-079), electronic prescribing of controlled substances",
+        "renderAt": "footer",
+        "content": "Since July 1, 2021, Colorado has required physicians to prescribe schedule II, III and IV controlled substances electronically, with limited exceptions. TeleDirectMD does not prescribe controlled substances. Other prescriptions, when appropriate, are sent electronically to the Colorado pharmacy the patient chooses."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}
