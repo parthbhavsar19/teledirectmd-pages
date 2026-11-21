@@ -341,11 +341,6 @@
         "conditions": ["acid-reflux-refills-online", "erectile-dysfunction-treatment-online"]
       },
       {
-        "label": "NYS Department of Taxation and Finance, Tax Bulletin TB-ST-193, Drugstores and Pharmacies",
-        "url": "https://tax.ny.gov/pubs_and_bulls/tg_bulletins/st/drugstores.htm",
-        "conditions": ["acid-reflux-refills-online", "dandruff-treatment-online", "tinea-treatment-online"]
-      },
-      {
         "label": "NYS Department of Health, Tobacco-Related Cancers in New York State, 2018-2022 (2025)",
         "url": "https://healthweb-back.health.ny.gov/statistics/diseases/cancer/docs/tobacco_related_cancers_report_2018-2022.pdf",
         "conditions": ["acid-reflux-refills-online"]
@@ -596,11 +591,6 @@
         "conditions": ["genital-herpes-treatment-online"]
       },
       {
-        "label": "NYS Department of Taxation and Finance, Tax Bulletin ST-193, Drugstores and Pharmacies (April 18, 2024)",
-        "url": "https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/drugstores.htm",
-        "conditions": ["genital-herpes-treatment-online", "uti-treatment-online", "yeast-infection-treatment-online"]
-      },
-      {
         "label": "CDC, About Syphilis",
         "url": "https://www.cdc.gov/syphilis/about/index.html",
         "conditions": ["hair-loss-treatment-online"]
@@ -736,11 +726,6 @@
         "conditions": ["uti-treatment-online"]
       },
       {
-        "label": "New York Tax Law Section 1115 (exemptions from sales and use taxes)",
-        "url": "https://www.nysenate.gov/legislation/laws/TAX/1115",
-        "conditions": ["uti-treatment-online", "yeast-infection-treatment-online"]
-      },
-      {
         "label": "NYC Health Department, Yeast Infection",
         "url": "https://www.nyc.gov/site/doh/health/health-topics/yeast-infection.page",
         "conditions": ["yeast-infection-treatment-online"]
@@ -866,7 +851,7 @@
     "uti-treatment-online": {
       "stateConditionParagraph": "For women in New York with typical, uncomplicated bladder infection symptoms (burning, frequency, urgency), a video visit is often enough to decide on treatment. The New York State Department of Health's adult outpatient treatment recommendations note that cloudy or foul-smelling urine alone does not diagnose a UTI, and that treating bacteria found in urine without symptoms is not recommended for healthy adults. TeleDirectMD's UTI care is limited to non-pregnant adult women; men with urinary symptoms, and anyone with fever, flank pain, vomiting or pregnancy, should be seen in person. When an antibiotic is appropriate, it is sent electronically to the pharmacy you choose. Flat $79 for adults physically in New York.",
       "sectionNotes": {
-        "medications": "New York City's Health Department publishes a citywide antibiogram each year, pooling hospital lab results so clinicians can see local antibiotic resistance. In the 2024 edition, 65 percent of E. coli urine samples from emergency departments were susceptible to trimethoprim-sulfamethoxazole, so about 35 percent were not. By comparison, 98 percent were susceptible to nitrofurantoin and 95 percent to fosfomycin. The table above lists trimethoprim-sulfamethoxazole as an option where local resistance is below 20 percent. These are hospital samples, not only simple bladder infections, and they do not describe upstate New York, but local patterns like these are one of the factors weighed when an antibiotic is chosen.",
+        "medications": "New York City's Health Department publishes a citywide antibiogram each year, pooling hospital lab results so clinicians can see local antibiotic resistance. In the 2024 edition, only 65 percent of E. coli urine samples from emergency departments were susceptible to trimethoprim-sulfamethoxazole, while 98 percent were susceptible to nitrofurantoin and 95 percent to fosfomycin. That resistance is far above the 20 percent level the table above uses for trimethoprim-sulfamethoxazole, so for patients in New York City, nitrofurantoin or fosfomycin come first, and trimethoprim-sulfamethoxazole is used only when a culture has shown the bacteria are susceptible to it. Emergency department samples tend to be more resistant than simple bladder infections treated outside the hospital, so the true community rate is probably lower, and the data do not describe upstate New York.",
         "differential": "Chlamydia can cause burning that feels like a bladder infection. The New York City Health Department lists pain during urination and vaginal discharge that is different than usual among its symptoms, and notes that most people with chlamydia have none at all. In the city's 2024 surveillance report, women ages 15 to 24 accounted for 56 percent of chlamydia cases reported among women, with a case rate about five times that of women overall.",
         "when-not": "Men with urinary burning are referred to in-person care rather than treated for a UTI here. The New York City Health Department notes that burning or pain during urination, sometimes with discharge from the penis, can be urethritis, which can be a sign of a sexually transmitted infection such as chlamydia or gonorrhea. In New York City, the Health Department's Sexual Health Clinics provide low- or no-cost STI care to anyone 12 or older, mostly on a walk-in basis and regardless of immigration status, and they still see patients who cannot pay the sliding-scale fee."
       },
@@ -874,10 +859,6 @@
         {
           "question": "Where can I get an STI test in New York City if my symptoms might not be a UTI?",
           "answer": "If you have symptoms, the New York City Health Department's Sexual Health Clinics see patients 12 and older, mostly walk-in, at low or no cost. For routine testing without symptoms, the Chelsea Express Clinic in Manhattan and the Fort Greene Express Clinic in Brooklyn offer appointments for HIV, chlamydia, gonorrhea and syphilis testing, with chlamydia and gonorrhea results usually available within hours. The clinic hotline is 347-396-7959, Monday to Friday, 9 a.m. to 3:30 p.m."
-        },
-        {
-          "question": "Do I pay sales tax on UTI medicine in New York?",
-          "answer": "No. New York Tax Law Section 1115 exempts drugs and medicines used to treat or prevent illness from sales tax. The state Department of Taxation and Finance's drugstore bulletin says the exemption covers prescription drugs such as antibiotics and over-the-counter medicines such as pain relievers, and that it applies however the medicine is paid for at the pharmacy. The visit fee is separate from what you pay at the pharmacy."
         }
       ]
     },
@@ -1035,7 +1016,7 @@
         "eligibility-checklist": "The state AIDS Institute's guideline, updated October 15, 2024, tells clinicians to offer doxy-PEP to cisgender men and transgender women with partners assigned male at birth even without a recent STI if their risk is ongoing, and to consider it case by case for cisgender men with multiple partners assigned female at birth. The state Department of Health also allows case-by-case use for cisgender women, while the New York City Health Department's 2023 provider letter does not recommend it for them. TeleDirectMD's doxy-PEP visit uses the checklist above.",
         "causes-risk-factors": "Syphilis is a large part of why doxy-PEP matters in New York. The state Department of Health reports that primary and secondary syphilis diagnoses fell 18 percent in 2024, to 2,360, and that 2,002 of them were among males. In 2023, 74 percent of males diagnosed identified as men who have sex with men. In New York City in 2024, Manhattan's Chelsea-Clinton had the highest rates of gonorrhea and early syphilis; Central Harlem-Morningside Heights and Williamsburg-Bushwick were also high for gonorrhea, and Highbridge-Morrisania and East Harlem for early syphilis.",
         "medications": "New York's AIDS Institute guideline recommends a 30- to 90-day supply of doxy-PEP, with the number of pills based on how often you expect to need a dose, and says shared decision-making can settle on the lowest quantity that fits. It also asks clinicians to make sure your STI tests have been done before each refill.",
-        "home-care": "New York's follow-up schedule is tighter than the 3-to-6-month range described above. The state AIDS Institute guideline asks clinicians to screen people on doxy-PEP for HIV, chlamydia, gonorrhea and syphilis at least every 3 months, including throat and rectal testing when indicated, to check for hepatitis B when starting and hepatitis C at least once a year.",
+        "home-care": "New York's follow-up schedule is tighter than the 3-to-6-month range described above. The state AIDS Institute guideline asks clinicians to screen people on doxy-PEP for HIV, chlamydia, gonorrhea and syphilis at least every 3 months, including throat and rectal testing when indicated, to check for hepatitis B when starting and hepatitis C at least once a year. If you are in New York, plan on that testing at least every 3 months for as long as you use doxy-PEP.",
         "when-not": "A possible HIV exposure is an emergency that doxy-PEP does not cover. New York's AIDS Institute guideline says the first dose of HIV PEP should ideally be taken within 2 hours of the exposure and no later than 72 hours. In New York City, call the 24/7 PEP Hotline at 844-3-PEPNYC (844-373-7692), or go to an emergency room, clinic or city Sexual Health Clinic and ask for PEP; when the city clinics are busy, people seeking HIV PEP get priority."
       },
       "faqs": [
@@ -1081,7 +1062,6 @@
       "sectionNotes": {
         "causes-risk-factors": "The New York City Health Department describes a yeast infection as an overgrowth of yeast that normally lives in the genital area. It notes that yeast infections can pass between sex partners but are not considered a sexually transmitted infection, because they also happen without sex. The Department also advises against douching or cleaning the inside of the vagina with water or other fluids, which it says can change the vagina's natural balance of bacteria and acidity and increase the chance of infections and pelvic inflammatory disease.",
         "differential": "Trichomoniasis is one of the infections that can look like a yeast infection. The New York City Health Department lists itching or irritation in and around the vagina among its symptoms, notes that most people with trichomoniasis have no symptoms at all, and says diagnosis is made by swabbing the vagina and testing the fluid. A swab can also test for a yeast infection. When symptoms do not fit a typical yeast infection, in-person testing is the next step.",
-        "medications": "In New York, the over-the-counter yeast infection creams and suppositories in this table are not charged sales tax. Tax Law Section 1115 exempts drugs and medicines used to treat illness, and the state Department of Taxation and Finance's drugstore bulletin specifically lists nonprescription medicines, products that treat fungus infections, and vaginal creams that treat a medical condition as exempt. Prescription fluconazole is exempt as well, however you pay for it at the pharmacy.",
         "when-not": "If you need an in-person swab to tell a yeast infection apart from an STI, New York City's Health Department runs Sexual Health Clinics that provide low- or no-cost STI services to anyone 12 or older, regardless of immigration status, including people who cannot pay the sliding-scale fee. Its hotline, 347-396-7959, also connects callers to a clinic provider by telemedicine for some services, Monday to Friday, 9 a.m. to 3:30 p.m."
       },
       "faqs": [
@@ -1103,8 +1083,7 @@
         "differential": "The sexually transmitted ringworm strain reported in New York City in 2024, Trichophyton mentagrophytes genotype VII, can cause itchy, ring-shaped, scaly patches on the trunk, groin, genitals or face, and the CDC notes it might be mistaken for eczema or psoriasis. A ring-shaped rash in the groin or genital area that started after a new sexual partner, or one on the face, needs that possibility considered rather than a standard jock itch label.",
         "treatment-options": "Resistant New York cases have needed long courses of oral medicine. In the CDC's 2023 New York City report, one patient's rash did not improve after four weeks of oral terbinafine, another cleared after four weeks of itraconazole, and the report notes that itraconazole can take up to 12 weeks. The 2024 report on the sexually transmitted strain says some patients need oral therapy for up to 3 months. TeleDirectMD does not prescribe oral terbinafine or itraconazole, so a suspected resistant infection is referred for in-person testing and treatment.",
         "home-care": "For the sexually transmitted ringworm strain seen in New York City, the CDC advises avoiding skin-to-skin contact with affected areas and not sharing personal items until symptoms resolve.",
-        "when-not": "Some New York ringworm needs testing that a video visit cannot provide. The CDC's 2023 report says providers should consider T. indotineae in patients with widespread tinea, that culture-based identification typically misidentifies it, that correct identification requires genomic sequencing, and that providers should contact their state or local health department for help with testing. Widespread rash, a rash that returns after a full course, or a rash after recent travel to South Asia should be seen in person, ideally by a dermatologist.",
-        "medications": "The over-the-counter creams on this list are tax-free in New York. The state Department of Taxation and Finance's bulletin on drugstore sales (TB-ST-193, April 2024) treats drugs and medicines for human use as exempt from sales tax and specifically lists products that prevent or treat athlete's foot or other fungus infections. Apply them as directed for the full course, including the skin around the visible edge, since stopping early is a common reason ringworm comes back."
+        "when-not": "Some New York ringworm needs testing that a video visit cannot provide. The CDC's 2023 report says providers should consider T. indotineae in patients with widespread tinea, that culture-based identification typically misidentifies it, that correct identification requires genomic sequencing, and that providers should contact their state or local health department for help with testing. Widespread rash, a rash that returns after a full course, or a rash after recent travel to South Asia should be seen in person, ideally by a dermatologist."
       },
       "faqs": [
         {
@@ -1210,7 +1189,7 @@
       "sectionNotes": {
         "how-it-works": "If you want a lab-confirmed diagnosis, the New York City Health Department explains that a clinician may swab or scrape a blister or sore to test for herpes. Blood testing for herpes is possible, the Department notes, but it is not standard practice. A swab needs an in-person visit while a blister or sore is there to sample.",
         "differential": "A new genital sore in New York can also be syphilis, which needs a blood test and in-person care. The state Department of Health reports that primary and secondary syphilis diagnoses fell 18 percent in 2024, to 2,360, and that the rate among females fell to 3.6 per 100,000. In 2023 that rate had been 4.5 per 100,000, nine times the 2014 rate. In New York City, the primary and secondary syphilis rate fell 16.3 percent from 2023 to 2024.",
-        "home-care": "The New York City Health Department says condoms and dental dams help prevent the spread of herpes only if they cover the infected area, and advises avoiding sex while an open sore is present. The state Department of Health adds that herpes can pass through skin a condom does not cover. The city gives out free condoms through the NYC Condom Availability Program, with distribution sites listed on the NYC Health Map, and condoms bought in New York are exempt from sales tax.",
+        "home-care": "The New York City Health Department says condoms and dental dams help prevent the spread of herpes only if they cover the infected area, and advises avoiding sex while an open sore is present. The state Department of Health adds that herpes can pass through skin a condom does not cover. The city gives out free condoms through the NYC Condom Availability Program, with distribution sites listed on the NYC Health Map.",
         "when-not": "Pregnancy changes the plan. The New York City Health Department warns that herpes is dangerous for babies when a pregnant parent is newly infected late in pregnancy, that it can cause serious infections, brain damage or death in newborns, and that a cesarean section is recommended if sores are present at delivery. If you are pregnant and you or your partner has herpes, tell your prenatal care provider; the Department notes that medicine can lower the risk of an outbreak at delivery."
       },
       "faqs": [
@@ -1229,8 +1208,7 @@
       "sectionNotes": {
         "causes-risk-factors": "Smoking, one of the reflux triggers listed above, is a habit New York tracks closely. About 1.4 million adult New Yorkers, 9.3 percent, smoked cigarettes in 2023, according to the state Department of Health, and New York City's adult smoking rate was 8 percent that year. The reason to quit goes beyond heartburn: the state's cancer data group esophageal cancer with lung, larynx and oral cavity cancers as the four cancers most closely related to tobacco.",
         "symptoms-redflags": "The warning signs in this table matter because esophageal cancer, while uncommon, is serious. The state's data also show esophageal cancer incidence declining steeply since 2006 in both New York City and the rest of the state, and the state's 2018 to 2022 data show esophageal cancer diagnosed more often in men than in women.",
-        "home-care": "If you smoke and want to quit, the New York State Smokers' Quitline, 866-NY-QUITS (866-697-8487), lets you apply for a free starter kit of nicotine medications, including patches and lozenges that most adults are eligible to receive, and talk with a quit coach.",
-        "medications": "If you keep an over-the-counter antacid on hand for breakthrough symptoms, New York does not charge sales tax on nonprescription drugs and medicines such as antacids, according to the state Department of Taxation and Finance (Tax Bulletin TB-ST-193). Cosmetic and toiletry items sold in the same store are taxed. Antacids remain an add-on for occasional symptoms, not a replacement for a PPI or H2 blocker in established reflux disease."
+        "home-care": "If you smoke and want to quit, the New York State Smokers' Quitline, 866-NY-QUITS (866-697-8487), lets you apply for a free starter kit of nicotine medications, including patches and lozenges that most adults are eligible to receive, and talk with a quit coach."
       },
       "faqs": [
         {
@@ -1255,7 +1233,6 @@
     "dandruff-treatment-online": {
       "stateConditionParagraph": "Scalp seborrheic dermatitis often flares when the weather turns cold and dry, according to the American Academy of Dermatology, which lists zinc pyrithione, salicylic acid, sulfur, selenium sulfide, ketoconazole and coal tar as dandruff shampoo ingredients to look for. When over-the-counter products are not enough, a video visit for adults physically in New York can look at the scalp on camera and decide whether a prescription shampoo or other treatment is appropriate. If a prescription shampoo is prescribed, New York law (Education Law Sections 6810 and 6816-a) has the pharmacist fill it with a less expensive generic on the state's approved list unless the prescriber marks it dispense as written. Dandruff that persists or is severe deserves a dermatologist's evaluation. Flat $79.",
       "sectionNotes": {
-        "treatment-options": "Over-the-counter medicated shampoos are the first step, and in New York they are not subject to sales tax. The state Department of Taxation and Finance's bulletin on drugstore sales (TB-ST-193, April 2024) lists dandruff shampoo and treatments among exempt nonprescription drugs, while ordinary nonmedicated shampoo is taxable. If a few weeks of a medicated shampoo used as directed has not controlled the flaking, that is the point where a prescription-strength option is worth discussing.",
         "causes-risk-factors": "Severe seborrheic dermatitis in an adult can be a reason to check HIV status, since the condition is far more common in people with HIV. New York's Public Health Law Section 2781-a requires an HIV test to be offered to everyone 13 and older who receives primary care from a physician, physician assistant, nurse practitioner or midwife, unless one has already been offered or done, and a test is still offered when otherwise indicated. In New York City, the Health Department's Sexual Health Clinics provide confidential, low- to no-cost HIV testing to anyone 12 or older, regardless of immigration status."
       },
       "faqs": [
