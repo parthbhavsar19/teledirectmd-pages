@@ -5,6 +5,7 @@ import { getInsurersForState } from '../../lib/internal-links';
 import { CitableSummaryBlock } from '../components/CitableSummary';
 import FaqAccordion from '../components/FaqAccordion';
 import { FlCredentialBlock, FlFooterCompliance } from '../components/FlCompliance';
+import { TxComplaintNoticeLink } from '../components/TxComplaintNotice';
 import { summarizeStateLanding, citableSummaryToJsonLd } from '../../lib/citable-summary';
 // ── 2026-06-12 Phase 2 task 4: state-hub uniqueness architecture ──
 // Same per-state JSON template that powers /[slug]/[conditionSlug] also feeds
@@ -413,6 +414,7 @@ export default function StateLandingPage({ stateSlug }) {
               </p>
               {/* FL: A1 credential disclosure + A3 verify-link placement 1 of 3. */}
               {state.abbr === 'FL' && <FlCredentialBlock />}
+              {state.abbr === 'TX' && <TxComplaintNoticeLink />}
             </div>
 
             <div className="cpr-hero-hcard">

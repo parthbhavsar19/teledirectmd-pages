@@ -37,8 +37,9 @@ export default function SiteFooter() {
           </div>
 
           {/* Column 4: Legal. Every link opens a PDF in /public/legal/. Financial
-              Responsibility, Controlled Substance Policy and the Texas Medical Board
-              notice are linked from /patient-policies/. */}
+              Responsibility and the Controlled Substance Policy are linked from
+              /patient-policies/. The Texas Medical Board notice stays in the footer:
+              22 TAC 177.2(c) requires a prominently displayed website link. */}
           <div className="tdmd-footer-col">
             <h2 className="tdmd-footer-heading">LEGAL</h2>
             <a href="/legal/terms-of-service.pdf">Terms of Service</a>
@@ -49,6 +50,7 @@ export default function SiteFooter() {
             <a href="/legal/state-consent-disclosures.pdf">State Disclosures</a>
             <a href="/legal/good-faith-estimate.pdf">Good Faith Estimate</a>
             <a href="/patient-policies/">Patient Policies</a>
+            <a href="/legal/texas-medical-board-complaint-notice.pdf">Texas Medical Board Notice</a>
             <a href="/legal/nondiscrimination-notice.pdf">Nondiscrimination Notice</a>
             <a href="/legal/accessibility.pdf">Accessibility</a>
           </div>
