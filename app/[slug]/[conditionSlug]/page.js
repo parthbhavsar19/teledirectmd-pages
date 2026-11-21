@@ -232,6 +232,22 @@ export async function generateMetadata({ params }) {
   };
 }
 
+
+// A state-specific note shown at the end of a shared clinical section, from
+// conditionOverrides[condition].sectionNotes[sectionKey] in the state template.
+// Each note is a string or an array of paragraphs; absent means nothing renders.
+function StateSectionNote({ override, sectionKey, stateName }) {
+  const note = override && override.sectionNotes && override.sectionNotes[sectionKey];
+  if (!note) return null;
+  const paras = Array.isArray(note) ? note : [note];
+  return (
+    <aside className="tdmd-state-note" data-state-note={sectionKey}>
+      <h3>In {stateName}</h3>
+      {paras.map((p, i) => <p key={i}>{p}</p>)}
+    </aside>
+  );
+}
+
 export default async function ConditionPage({ params }) {
   const { slug, conditionSlug } = await params;
 
@@ -531,7 +547,7 @@ export default async function ConditionPage({ params }) {
   const stateConditionOverride = getConditionOverride(stateTpl, conditionSlug);
   // Merge state FAQs into condition FAQ items. When stateTpl is null, this is
   // a no-op pass-through, so JSON-LD generation upstream isn't affected.
-  const enrichedFaqItems = mergeFaqs(condition.faq && condition.faq.items, stateTpl);
+  const enrichedFaqItems = mergeFaqs(condition.faq && condition.faq.items, stateTpl, conditionSlug);
   // NY UTI: the hand-written eligibility answer leads the visible FAQ.
   const citableVisibleInFaq = slug === 'ny' && conditionSlug === 'uti-treatment-online'
     && citableSummary_AI && citableSummary_AI.question && citableSummary_AI.answerText;
@@ -748,6 +764,7 @@ export default async function ConditionPage({ params }) {
               </p>
             </div>
           </div>
+          <StateSectionNote override={stateConditionOverride} sectionKey="eligibility-checklist" stateName={state.name} />
         </div>
       </section>
 
@@ -772,6 +789,7 @@ export default async function ConditionPage({ params }) {
               </div>
             ))}
           </div>
+          <StateSectionNote override={stateConditionOverride} sectionKey="how-it-works" stateName={state.name} />
         </div>
       </section>
 
@@ -914,6 +932,7 @@ export default async function ConditionPage({ params }) {
           {condition.whatIsCondition.paragraphs.map((p, i) => (
             <p key={i}>{p}</p>
           ))}
+          <StateSectionNote override={stateConditionOverride} sectionKey="what-is" stateName={state.name} />
         </div>
       </section>
 
@@ -928,6 +947,7 @@ export default async function ConditionPage({ params }) {
             ))}
           </ul>
           <p>{condition.causesAndRiskFactors.closing}</p>
+          <StateSectionNote override={stateConditionOverride} sectionKey="causes-risk-factors" stateName={state.name} />
         </div>
       </section>
 
@@ -957,6 +977,7 @@ export default async function ConditionPage({ params }) {
               </tbody>
             </table>
           </div>
+          <StateSectionNote override={stateConditionOverride} sectionKey="symptoms-redflags" stateName={state.name} />
         </div>
       </section>
 
@@ -996,6 +1017,7 @@ export default async function ConditionPage({ params }) {
           </div>
 
           <p>{condition.differentialDiagnosis.closing}</p>
+          <StateSectionNote override={stateConditionOverride} sectionKey="differential" stateName={state.name} />
         </div>
       </section>
 
@@ -1026,6 +1048,7 @@ export default async function ConditionPage({ params }) {
               </p>
             </div>
           </div>
+          <StateSectionNote override={stateConditionOverride} sectionKey="telehealth-eligibility" stateName={state.name} />
         </div>
       </section>
 
@@ -1048,6 +1071,7 @@ export default async function ConditionPage({ params }) {
               <li key={i}>{item}</li>
             ))}
           </ul>
+          <StateSectionNote override={stateConditionOverride} sectionKey="treatment-options" stateName={state.name} />
         </div>
       </section>
 
@@ -1101,6 +1125,7 @@ export default async function ConditionPage({ params }) {
               </ul>
             </div>
           )}
+          <StateSectionNote override={stateConditionOverride} sectionKey="medications" stateName={state.name} />
         </div>
       </section>
 
@@ -1129,6 +1154,7 @@ export default async function ConditionPage({ params }) {
               <li key={i}>{item}</li>
             ))}
           </ul>
+          <StateSectionNote override={stateConditionOverride} sectionKey="home-care" stateName={state.name} />
         </div>
       </section>
 
@@ -1151,6 +1177,7 @@ export default async function ConditionPage({ params }) {
               <li key={i}><strong>{item.label}</strong> {item.text}</li>
             ))}
           </ul>
+          <StateSectionNote override={stateConditionOverride} sectionKey="when-not" stateName={state.name} />
         </div>
       </section>
 
