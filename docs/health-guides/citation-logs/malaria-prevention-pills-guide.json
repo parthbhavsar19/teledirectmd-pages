@@ -16,6 +16,12 @@
       "editorial_notices": [],
       "claims": [
         {
+          "text": "Cost section: 2-week stay arithmetic. A-P 1-2 days before + 14 days + 7 days after = 22-23 tablets; doxycycline 1-2 + 14 + 28 = 43-44 doses (derived from the two schedules quoted below)",
+          "quote": "Doxycycline should be taken once a day during travel in malaria-endemic areas and daily for 4 weeks after the traveler leaves endemic areas.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
           "text": "Partial immunity is lost quickly; VFR travelers have the same risk as nonimmune travelers; past malaria still needs prevention",
           "quote": "The partial immunity acquired through continuous exposure to malaria is lost quickly, and VFR travelers should be considered to have the same risk of malaria as other nonimmune travelers.",
           "quote_source": "official_page",
@@ -958,6 +964,216 @@
           "text": "Call 911 or local emergency number heading",
           "quote": "CALL 911 OR YOUR LOCAL EMERGENCY NUMBER IF:",
           "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "price_listing",
+      "cited_as": "GoodRx. Atovaquone/Proguanil prices. Coupon prices last updated November 21, 2026; accessed November 21, 2026.",
+      "url": "https://www.goodrx.com/atovaquone-proguanil",
+      "record_title": "Atovaquone/Proguanil 2026 Prices, Coupons & Savings Tips - GoodRx",
+      "record_year": "2026",
+      "article_type": "Retail drug price listing (cash and discount-card prices)",
+      "version_or_date": "Coupon prices last updated 11/21/26",
+      "retrieved_with": "Monid firecrawl /scrape (basic proxy), run 01M801NWC5EGD9EPTJXV50A0TH",
+      "retrieved_at": "2026-11-21",
+      "editorial_notices": [],
+      "notes": "Price listing, not a clinical source. Low end is the lowest listed non-subscription discount price; high end is the higher of the page's two retail figures. Subscription (Companion) prices excluded. Cross-checked in order of magnitude against CMS NADAC as of 2026-11-18 (see runs/2026-11-21-malaria/sources/cost/README.md).",
+      "claims": [
+        {
+          "text": "A-P 30 tablets 250/100: as low as $44.54, average retail $156.01 (range about $45 to $156)",
+          "quote": "Get Atovaquone/Proguanil for as low as $44.54, which is 71% off the average retail price of $156.01 for the most common version",
+          "quote_source": "price_listing",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pack listed is 30 tablets of 250 mg/100 mg",
+          "quote": "Atovaquone/Proguanil 250mg/100mg (30 tablets)",
+          "quote_source": "price_listing",
+          "verdict": "supported"
+        },
+        {
+          "text": "Listing date November 21, 2026",
+          "quote": "GoodRx coupon prices last updated on 11/21/26.",
+          "quote_source": "price_listing",
+          "verdict": "supported"
+        },
+        {
+          "text": "Retail prices are averages that do not reflect pharmacy pricing in your location",
+          "quote": "Retail prices shown are the average costs that users pay for these drugs, and do not reflect pharmacy pricing in your specific location.",
+          "quote_source": "price_listing",
+          "verdict": "supported"
+        },
+        {
+          "text": "Prices subject to change without notice",
+          "quote": "Prices subject to change without notice.",
+          "quote_source": "price_listing",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "price_listing",
+      "cited_as": "GoodRx. Doxycycline Hyclate prices. Coupon prices last updated November 21, 2026; accessed November 21, 2026.",
+      "url": "https://www.goodrx.com/doxycycline-hyclate",
+      "record_title": "Doxycycline Hyclate 2026 Prices, Coupons & Savings Tips - GoodRx",
+      "record_year": "2026",
+      "article_type": "Retail drug price listing (cash and discount-card prices)",
+      "version_or_date": "Coupon prices last updated 11/21/26",
+      "retrieved_with": "Monid firecrawl /scrape (basic proxy), run 01M801RBSST1SC464Q006QY0WR",
+      "retrieved_at": "2026-11-21",
+      "editorial_notices": [],
+      "notes": "Price listing, not a clinical source. Low end is the lowest listed non-subscription discount price; high end is the higher of the page's two retail figures. Subscription (Companion) prices excluded. Cross-checked in order of magnitude against CMS NADAC as of 2026-11-18 (see runs/2026-11-21-malaria/sources/cost/README.md).",
+      "claims": [
+        {
+          "text": "Doxycycline hyclate 100 mg, 14 capsules: as low as $8.31, average retail $50.37 (about $8 to $50)",
+          "quote": "Get Doxycycline Hyclate for as low as $8.31, which is 84% off the average retail price of $50.37 for the most common version",
+          "quote_source": "price_listing",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pack listed is 14 capsules of 100 mg",
+          "quote": "Doxycycline Hyclate 100mg (14 capsules)",
+          "quote_source": "price_listing",
+          "verdict": "supported"
+        },
+        {
+          "text": "Listing date November 21, 2026",
+          "quote": "GoodRx coupon prices last updated on 11/21/26.",
+          "quote_source": "price_listing",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "price_listing",
+      "cited_as": "GoodRx. Mefloquine prices. Coupon prices last updated November 21, 2026; accessed November 21, 2026.",
+      "url": "https://www.goodrx.com/mefloquine",
+      "record_title": "Mefloquine 2026 Prices, Coupons & Savings Tips - GoodRx",
+      "record_year": "2026",
+      "article_type": "Retail drug price listing (cash and discount-card prices)",
+      "version_or_date": "Coupon prices last updated 11/21/26",
+      "retrieved_with": "Monid firecrawl /scrape (basic proxy), run 01M801RH48RWG6BBMM4E08Q7TG",
+      "retrieved_at": "2026-11-21",
+      "editorial_notices": [],
+      "notes": "Price listing, not a clinical source. Low end is the lowest listed non-subscription discount price; high end is the higher of the page's two retail figures. Subscription (Companion) prices excluded. Cross-checked in order of magnitude against CMS NADAC as of 2026-11-18 (see runs/2026-11-21-malaria/sources/cost/README.md).",
+      "claims": [
+        {
+          "text": "Mefloquine 250 mg, 10 tablets: as low as $32.83; highest retail figure $114.15 (about $33 to $114)",
+          "quote": "| 250mg | 10 tablets | $114.15 | $32.83 |",
+          "quote_source": "price_listing",
+          "verdict": "supported"
+        },
+        {
+          "text": "Low end matches the as-low-as figure",
+          "quote": "Get Mefloquine for as low as $32.83",
+          "quote_source": "price_listing",
+          "verdict": "supported"
+        },
+        {
+          "text": "Listing date November 21, 2026",
+          "quote": "GoodRx coupon prices last updated on 11/21/26.",
+          "quote_source": "price_listing",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "price_listing",
+      "cited_as": "GoodRx. Chloroquine Phosphate prices. Coupon prices last updated November 21, 2026; accessed November 21, 2026.",
+      "url": "https://www.goodrx.com/chloroquine-phosphate",
+      "record_title": "Chloroquine Phosphate 2026 Prices, Coupons & Savings Tips - GoodRx",
+      "record_year": "2026",
+      "article_type": "Retail drug price listing (cash and discount-card prices)",
+      "version_or_date": "Coupon prices last updated 11/21/26",
+      "retrieved_with": "Monid firecrawl /scrape (basic proxy), run 01M801V2XCA5AMG0965V25R8XE",
+      "retrieved_at": "2026-11-21",
+      "editorial_notices": [],
+      "notes": "Price listing, not a clinical source. Low end is the lowest listed non-subscription discount price; high end is the higher of the page's two retail figures. Subscription (Companion) prices excluded. Cross-checked in order of magnitude against CMS NADAC as of 2026-11-18 (see runs/2026-11-21-malaria/sources/cost/README.md).",
+      "claims": [
+        {
+          "text": "Chloroquine phosphate 500 mg, 7 tablets: $50.26 discount price, $101.29 retail (about $50 to $101)",
+          "quote": "| 500mg | 7 tablets | $101.29 | $50.26 |",
+          "quote_source": "price_listing",
+          "verdict": "supported"
+        },
+        {
+          "text": "Listing date November 21, 2026",
+          "quote": "GoodRx coupon prices last updated on 11/21/26.",
+          "quote_source": "price_listing",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "price_listing",
+      "cited_as": "GoodRx. Primaquine prices. Coupon prices last updated November 21, 2026; accessed November 21, 2026.",
+      "url": "https://www.goodrx.com/primaquine",
+      "record_title": "Primaquine 2026 Prices, Coupons & Savings Tips - GoodRx",
+      "record_year": "2026",
+      "article_type": "Retail drug price listing (cash and discount-card prices)",
+      "version_or_date": "Coupon prices last updated 11/21/26",
+      "retrieved_with": "Monid firecrawl /scrape (basic proxy), run 01M801RVPNFQZ294HDH1ZD3354",
+      "retrieved_at": "2026-11-21",
+      "editorial_notices": [],
+      "notes": "Price listing, not a clinical source. Low end is the lowest listed non-subscription discount price; high end is the higher of the page's two retail figures. Subscription (Companion) prices excluded. Cross-checked in order of magnitude against CMS NADAC as of 2026-11-18 (see runs/2026-11-21-malaria/sources/cost/README.md).",
+      "claims": [
+        {
+          "text": "Primaquine 26.3 mg, 28 tablets: as low as $16.21; highest retail figure $71.00 (about $16 to $71)",
+          "quote": "Get Primaquine for as low as $16.21",
+          "quote_source": "price_listing",
+          "verdict": "supported"
+        },
+        {
+          "text": "Highest retail figure for 28 tablets",
+          "quote": "| 26.3mg | 28 tablets | $71.00 | $23.21 |",
+          "quote_source": "price_listing",
+          "verdict": "supported"
+        },
+        {
+          "text": "Listing date November 21, 2026",
+          "quote": "GoodRx coupon prices last updated on 11/21/26.",
+          "quote_source": "price_listing",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "price_listing",
+      "cited_as": "GoodRx. Arakoda prices. Coupon prices last updated November 21, 2026; accessed November 21, 2026.",
+      "url": "https://www.goodrx.com/arakoda",
+      "record_title": "Arakoda 2026 Prices, Coupons & Savings Tips - GoodRx",
+      "record_year": "2026",
+      "article_type": "Retail drug price listing (cash and discount-card prices)",
+      "version_or_date": "Coupon prices last updated 11/21/26",
+      "retrieved_with": "Monid firecrawl /scrape (basic proxy), run 01M801S1JZS0YBNAE4C6FRG8S8",
+      "retrieved_at": "2026-11-21",
+      "editorial_notices": [],
+      "notes": "Price listing, not a clinical source. Low end is the lowest listed non-subscription discount price; high end is the higher of the page's two retail figures. Subscription (Companion) prices excluded. Cross-checked in order of magnitude against CMS NADAC as of 2026-11-18 (see runs/2026-11-21-malaria/sources/cost/README.md).",
+      "claims": [
+        {
+          "text": "Arakoda 16-tablet 100 mg dose pack: $198.00 low; highest retail figure $343.69 (about $198 to $344)",
+          "quote": "| 16 tablets of 100mg | 1 dose pack | $343.69 | $198.00 |",
+          "quote_source": "price_listing",
+          "verdict": "supported"
+        },
+        {
+          "text": "No generic tafenoquine",
+          "quote": "There is currently no generic alternative for Arakoda.",
+          "quote_source": "price_listing",
+          "verdict": "supported"
+        },
+        {
+          "text": "Listing date November 21, 2026",
+          "quote": "GoodRx coupon prices last updated on 11/21/26.",
+          "quote_source": "price_listing",
           "verdict": "supported"
         }
       ]
