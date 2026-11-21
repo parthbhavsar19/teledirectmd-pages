@@ -1,0 +1,279 @@
+{
+  "stateCode": "TN",
+  "stateName": "Tennessee",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "mid",
+    "regulation": "standard",
+    "payerLandscape": "multi-payer",
+    "epidemiology": [
+      "tick-rmsf-ehrlichiosis-alpha-gal",
+      "rabies-skunk-bat",
+      "sti-above-national-rate"
+    ],
+    "boardStrictness": "strict",
+    "culturalRegister": "south",
+    "voiceNotes": "Warm but exact. Tennessee's Board of Medical Examiners spells out what a remote provider must disclose and what must happen before any prescription, so lean on the rule text. Two payment paths (Aetna or UnitedHealthcare in-network, or $79 self-pay) need to stay clearly separated."
+  },
+  "stateHero": {
+    "openingParagraph": "If you are an adult located in Tennessee, you can book a video visit with Parth Bhavsar, MD, a board-certified family medicine physician who holds a Tennessee medical license. The Tennessee Board of Medical Examiners requires anyone practicing medicine on a patient in the state, in person or remotely, to hold its license, and it defines telemedicine as more than a phone call, email or fax, typically secure video. That is the format here, for patients in Memphis, Nashville, Knoxville, Chattanooga or Kingsport alike. TeleDirectMD is in-network with Aetna and UnitedHealthcare in Tennessee; without those plans, the visit is a flat $79, paid at booking.",
+    "conditionPageOpener": "Adults physically in Tennessee can book a video visit with Parth Bhavsar, MD, a board-certified family medicine physician licensed in Tennessee. In-network with Aetna and UnitedHealthcare in Tennessee, or a flat $79 self-pay. Prescriptions, when appropriate, go electronically to your pharmacy.",
+    "stateContextHint": "Licensed in Tennessee. Secure video visits that meet the Board of Medical Examiners' telemedicine definition. Aetna and UnitedHealthcare in-network, or $79 self-pay.",
+    "saturation": {
+      "stateNameMentions": 0,
+      "stateEntityMentions": 0
+    }
+  },
+  "stateEligibility": {
+    "intro": "TeleDirectMD sees adults 18 and older who are within Tennessee at the time of the visit. Board of Medical Examiners rule 0880-02-.16 ties licensure to where the patient is: no one may practice medicine on a patient within the state, in person or remotely, without a Tennessee license. The same rule says telemedicine is not an audio-only phone call, email, instant message or fax, which is why every TeleDirectMD visit uses live video. Tennesseans traveling elsewhere are seen only from Tennessee or another state TeleDirectMD serves.",
+    "localTriggers": [
+      "Be in Tennessee during the visit. Rule 0880-02-.16 applies to patients within the state, whatever their home address.",
+      "Plan for video, not a phone call. The Board's definition of telemedicine excludes audio-only calls, email, messaging and fax.",
+      "Expect an exam and a plan before any prescription. Rule 0880-02-.14(7) requires a history and physical examination, a diagnosis, a discussed treatment plan and follow-up coverage before a physician prescribes, including electronically.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "Tennessee is one of the states where TeleDirectMD bills insurance. If you have an Aetna or UnitedHealthcare plan that TeleDirectMD is in-network with, your plan's copay applies instead of the $79 self-pay fee, and benefits are checked before the visit. Everyone else pays a flat $79 at booking, with HSA and FSA cards accepted. Medicine is paid separately at the pharmacy. TennCare, the state's Medicaid program, is not accepted. For people who do not qualify for TennCare, the state points to the Health Insurance Marketplace at healthcare.gov, and county health departments offer many services on a sliding fee scale based on income.",
+    "additionalNotes": [
+      "In-network: Aetna and UnitedHealthcare (Tennessee).",
+      "$79 flat self-pay for everyone else, HSA and FSA accepted.",
+      "TennCare (Medicaid) is not accepted."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "Tennessee's Board of Medical Examiners sets a clear checklist before any prescription, whether written in person, sent electronically or issued over the Internet: an appropriate history and physical examination, a diagnosis, a treatment plan discussed with the patient along with its risks and benefits, and arrangements for follow-up care (rule 0880-02-.14(7)). When those steps support a prescription, Dr. Bhavsar sends it electronically to the Tennessee pharmacy you choose. State law has required electronic prescriptions for Schedule II through V controlled substances since January 1, 2021, with exceptions, and the Tennessee Department of Health monitors their dispensing through the Controlled Substance Monitoring Database. TeleDirectMD does not prescribe controlled substances. Tennessee also lets pharmacists provide hormonal contraceptives to adults under a collaborative pharmacy practice agreement (Public Chapter 942 of 2016).",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "Tennessee's warm months bring ticks: the Department of Health names Rocky Mountain spotted fever, ehrlichiosis and Lyme disease as common tick-borne illnesses in the state, along with alpha-gal syndrome, and notes that ticks live in grassy, bushy and wooded areas. Rabies is a year-round consideration after animal bites, since the 2024 Tennessee Rabies Manual names skunks as the most common reservoir, with bats also carrying the virus. Sexually transmitted infections remain common: Tennessee's 2023 chlamydia rate of 517.4 per 100,000 was above the national rate (CDC). Flu is tracked on the department's Tennessee Influenza Weekly Report dashboard. This context is general and does not replace an individual evaluation.",
+    "citations": [
+      {
+        "label": "Rules of the Tennessee Board of Medical Examiners, Chapter 0880-02 (revised November 2025), including 0880-02-.14 and 0880-02-.16",
+        "url": "https://publications.tnsosfiles.com/rules/0880/0880-02.20251113.pdf",
+        "scope": "all"
+      },
+      {
+        "label": "Tennessee General Assembly, Senate Bill 810 (2019), electronic prescribing of controlled substances",
+        "url": "https://www.capitol.tn.gov/Bills/111/Bill/SB0810.pdf",
+        "scope": "all"
+      },
+      {
+        "label": "Tennessee Department of Health, Controlled Substance Monitoring Database",
+        "url": "https://www.tn.gov/health/licensure/csmd.html",
+        "scope": "all"
+      },
+      {
+        "label": "Tennessee Public Chapter 942 (2016), pharmacist-provided hormonal contraceptives",
+        "url": "https://publications.tnsosfiles.com/acts/109/pub/pc0942.pdf",
+        "conditions": [
+          "birth-control-refills-online"
+        ]
+      },
+      {
+        "label": "TennCare, How can I get health care if I don't qualify for TennCare?",
+        "url": "https://www.tn.gov/tenncare/members-applicants/how-can-i-get-health-care-if-i-don-t-qualify-for-tenncare.html",
+        "scope": "all"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, Tennessee (Vintage 2025 estimate)",
+        "url": "https://www.census.gov/quickfacts/fact/table/TN/PST045225"
+      },
+      {
+        "label": "Tennessee Department of Health, precautions against ticks (April 29, 2026)",
+        "url": "https://www.tn.gov/health/news/2026/4/29/-tennessee-department-of-health-urges-tennesseans-to-take-precautions-against-ticks.html",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Tennessee Department of Health, Spotted Fever Rickettsiosis",
+        "url": "https://www.tn.gov/health/rpd/spottedfever.html",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Tennessee Department of Health, Tennessee Rabies Manual (2024)",
+        "url": "https://www.tn.gov/content/dam/tn/health/documents/reportable-diseases/rabies/TN-Rabies-Manual.pdf",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Tennessee Department of Health, Respiratory Viral Illness Information and Prevention",
+        "url": "https://www.tn.gov/health/rvi.html",
+        "conditions": [
+          "influenza-treatment-online",
+          "covid-19-treatment-online"
+        ]
+      },
+      {
+        "label": "CDC, Chlamydia Reported Cases and Rates by State, Ranked by Rates, United States, 2023",
+        "url": "https://cdc.gov/sti-statistics/media/pdfs/2024/10/2023-STD-Surveillance-State-Ranking-Tables.pdf",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "CDC, Legal Status of EPT in Tennessee",
+        "url": "https://www.cdc.gov/sti/php/ept-legal-status/tennessee.html",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "Tennessee Department of Health, Tobacco Use Prevention and Control (Tennessee Tobacco QuitLine)",
+        "url": "https://www.tn.gov/health/tupcp.html",
+        "conditions": [
+          "smoking-cessation-treatment-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds a Tennessee medical license, issued by the Tennessee Board of Medical Examiners. Board rule 0880-02-.16 requires a remote provider to tell patients their name, practice location, medical degree and recognized specialty, and it bars anyone from practicing medicine on a patient in Tennessee without the Board's license. Patients can confirm the license through the Tennessee Department of Health's online licensure verification. NPI: 1104323203.",
+    "verifyUrl": "https://apps.health.tn.gov/Licensure/",
+    "statuteCitation": "Rules of the Tennessee Board of Medical Examiners, Tenn. Comp. R. & Regs. 0880-02-.14(7) and 0880-02-.16 (revised November 2025)",
+    "licenseNumber": "64681",
+    "boardName": "Tennessee Board of Medical Examiners",
+    "boardUrl": "https://www.tn.gov/health/licensure/me.html"
+  },
+  "stateCities": {
+    "metroAndRural": "TeleDirectMD sees adults anywhere in Tennessee, home to 7,315,076 people (U.S. Census Bureau, July 1, 2025 estimate) at 167.6 people per square mile in 2020. Patients in Nashville, Memphis, Knoxville, Chattanooga, Clarksville, Murfreesboro, Franklin, Jackson, Johnson City, Bartlett, Hendersonville and Kingsport, and in the counties between them, reach the same physician by video, with the same Aetna and UnitedHealthcare in-network options or the same flat $79.",
+    "cityList": [
+      {
+        "city": "Nashville"
+      },
+      {
+        "city": "Memphis"
+      },
+      {
+        "city": "Knoxville"
+      },
+      {
+        "city": "Chattanooga"
+      },
+      {
+        "city": "Clarksville"
+      },
+      {
+        "city": "Murfreesboro"
+      },
+      {
+        "city": "Franklin"
+      },
+      {
+        "city": "Jackson"
+      },
+      {
+        "city": "Johnson City"
+      },
+      {
+        "city": "Bartlett"
+      },
+      {
+        "city": "Hendersonville"
+      },
+      {
+        "city": "Kingsport"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "multi-payer",
+    "selfPayDisclosure": "TeleDirectMD bills Aetna and UnitedHealthcare in-network in Tennessee for the plan types listed below. If your plan is one of them, your plan's copay applies in place of the $79 self-pay fee, and benefits are verified before the visit; coverage details depend on your plan. If you have another plan or no insurance, the visit is a flat $79, paid at booking, with HSA and FSA cards accepted. TennCare and other Medicaid plans are not accepted, and TeleDirectMD cannot promise coverage by any plan.",
+    "payers": [
+      {
+        "name": "Aetna",
+        "anchorId": "aetna-coverage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
+        "validFrom": "2026-02-24",
+        "copayNote": "Your Aetna plan's copay applies in place of the $79 self-pay fee; benefits are verified before the visit."
+      },
+      {
+        "name": "UnitedHealthcare",
+        "anchorId": "uhc-coverage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
+        "validFrom": "2026-03-27",
+        "copayNote": "Your UnitedHealthcare plan's copay applies in place of the $79 self-pay fee; benefits are verified before the visit."
+      }
+    ]
+  },
+  "stateFaqs": [
+    {
+      "question": "Can a doctor prescribe over video in Tennessee?",
+      "answer": "Yes, when the Tennessee Board of Medical Examiners' prerequisites are met. Rule 0880-02-.14(7) requires a physician, whether prescribing in person or electronically, to first perform an appropriate history and physical examination, make a diagnosis, discuss the treatment plan with its risks and benefits, and arrange follow-up care. The Board treats telemedicine as secure video or similar, not an audio-only call. Dr. Bhavsar decides during the video visit whether a prescription is appropriate."
+    },
+    {
+      "question": "Is TeleDirectMD in-network with insurance in Tennessee?",
+      "answer": "Yes, with Aetna and UnitedHealthcare in Tennessee, for PPO, HMO, EPO, POS and Medicare Advantage plans. If you are covered, your plan's copay applies instead of the $79 self-pay fee, and benefits are verified before the visit. Other plans, and people without insurance, pay a flat $79 at booking. TennCare is not accepted."
+    },
+    {
+      "question": "What does a Tennessee telemedicine provider have to tell me?",
+      "answer": "Under Board of Medical Examiners rule 0880-02-.16, a remote provider seeing you without an on-site facilitator must disclose their name, current and primary practice location, medical degree and recognized specialty. Your TeleDirectMD physician is Parth Bhavsar, MD, a Doctor of Medicine board-certified in family medicine, with a Tennessee medical license."
+    },
+    {
+      "question": "Is Dr. Bhavsar licensed in Tennessee, and how can I check?",
+      "answer": "Yes. Parth Bhavsar, MD holds a Tennessee medical license, issued by the Tennessee Board of Medical Examiners. You can look the license up through the Tennessee Department of Health's online licensure verification. His National Provider Identifier is 1104323203. Tennessee's Board rules also bar anyone from practicing medicine on a patient in the state, in person or remotely, without the Board's license."
+    },
+    {
+      "question": "Can I get a controlled substance prescription by video in Tennessee?",
+      "answer": "Not from TeleDirectMD, which does not prescribe controlled substances in any state. In Tennessee, controlled substance prescriptions have had to be sent electronically since January 1, 2021, with exceptions, and the Department of Health monitors their dispensing through the Controlled Substance Monitoring Database."
+    },
+    {
+      "question": "I don't have insurance in Tennessee. What are my options?",
+      "answer": "You can book a TeleDirectMD video visit for a flat $79, paid at booking, with HSA and FSA cards accepted. For coverage, TennCare is Tennessee's Medicaid program, and the state directs people who do not qualify to the Health Insurance Marketplace at healthcare.gov. Tennessee's county health departments also offer many services on a sliding fee scale based on income."
+    }
+  ],
+  "conditionOverrides": {
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "The Tennessee Department of Health lists Rocky Mountain spotted fever, ehrlichiosis and Lyme disease among the common tick-borne illnesses in the state, along with alpha-gal syndrome, and its spotted fever guidance stresses that treatment works best when started early, ideally within the first five days of symptoms. For adults in Tennessee who have removed a tick, a video visit can review a photo of the tick and bite, where you were and how long it was attached, and decide whether preventive treatment or watchful waiting fits. Fever, severe headache, an expanding rash or facial weakness after a bite needs urgent in-person care. Flat $79, or your Aetna or UnitedHealthcare copay."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "Tennessee's 2024 Rabies Manual names bats as rabies reservoir hosts alongside skunks, raccoons and foxes, and it advises contacting the local health department to file a bite report or for help observing a domestic animal; a biting animal is typically confined and watched for 10 days. Cat bite infections can also develop quickly. TeleDirectMD can see adults in Tennessee by video for a superficial to moderate bite from a known domestic cat within the last 24 hours, to plan wound care and decide whether a preventive antibiotic fits. Hand bites with swelling, and bites from strays or wild animals, need in-person care."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "In Tennessee, skunks are the most common rabies reservoir, according to the Department of Health's 2024 Rabies Manual, which also tells people to contact the local health department to file a bite report and notes that a biting dog is confined and observed for 10 days. If you are an adult in Tennessee with a cleaned, superficial to moderate bite from a known domestic dog with a vaccination history, a video visit can assess the wound from photos and decide on antibiotics and follow-up. Deep wounds, uncontrolled bleeding, facial wounds needing repair, or a bite from an unknown or wild animal need in-person care."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "Tennessee reported 36,872 chlamydia cases in 2023, a rate of 517.4 per 100,000, ranking 16th among states and above the national rate of 492.2 (CDC, 2023 state ranking tables). CDC lists expedited partner therapy as permissible in Tennessee. Adults in Tennessee with a positive chlamydia test can review the result with Dr. Bhavsar by video, and when appropriate, treatment is sent to your pharmacy. TeleDirectMD does not perform STI testing, so bring your result. Pelvic pain with fever, severe testicular pain, or pregnancy needs in-person care. Flat $79, or your Aetna or UnitedHealthcare copay."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "The Tennessee Department of Health publishes a Tennessee Influenza Weekly Report dashboard and encourages people to plan with a healthcare provider about getting treatment before they need it, noting that antiviral medicines can lower the chance of hospitalization. Flu antivirals work best when started within about 48 hours of symptoms. A video visit for adults in Tennessee can decide whether an antiviral is appropriate and send it to your pharmacy. Trouble breathing, chest pain, confusion or being unable to keep fluids down needs in-person care now. Flat $79, or your Aetna or UnitedHealthcare copay."
+    },
+    "covid-19-treatment-online": {
+      "stateConditionParagraph": "Tennessee's Department of Health encourages residents to plan ahead with a healthcare provider for respiratory virus treatment and points to a federal locator for pharmacies that have COVID-19 or flu medicines in stock. COVID-19 antivirals are started within the first days of symptoms, and some interact with common medicines, so the visit includes a medication review. Adults in Tennessee with a positive test and mild to moderate symptoms can be seen by video, and when treatment is appropriate, a prescription goes electronically to your pharmacy. Trouble breathing, chest pain or confusion needs emergency care. Flat $79, or your Aetna or UnitedHealthcare copay."
+    },
+    "smoking-cessation-treatment-online": {
+      "stateConditionParagraph": "Every Tennessee resident can use the Tennessee Tobacco QuitLine at no charge: callers to 1-800-QUIT-NOW are assigned their own quit coach who helps build a plan. A video visit with Dr. Bhavsar adds a physician's review of whether a prescription quit medicine fits your health history, which depends on factors such as seizure history, pregnancy and recent heart events. Chest pain, shortness of breath or a mental health crisis needs emergency care. Flat $79, or your Aetna or UnitedHealthcare copay, for adults physically in Tennessee."
+    },
+    "birth-control-refills-online": {
+      "stateConditionParagraph": "Tennessee gives adults more than one route to hormonal contraception: under Public Chapter 942 of 2016, a pharmacist may provide hormonal contraceptives under a valid collaborative pharmacy practice agreement. A TeleDirectMD video visit is another option for adults in Tennessee who are already stable on a pill, patch or ring prescribed elsewhere and need it renewed. Dr. Bhavsar reviews blood pressure readings, migraine history and new diagnoses before a refill, and new migraines with aura, a new blood clot or uncontrolled blood pressure mean in-person care. Flat $79, or your Aetna or UnitedHealthcare copay."
+    }
+  },
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Tenn. Comp. R. & Regs. 0880-02-.16 (Telemedicine Licensure and the Practice of Telemedicine)",
+        "renderAt": "hero-credential",
+        "content": "Tennessee Board of Medical Examiners rule 0880-02-.16 provides that no one may practice medicine on a patient within Tennessee, in person or remotely, unless licensed by the Board, and requires a remote provider seeing a patient without a facilitator to disclose name, current and primary practice location, medical degree and recognized specialty. Provider: Parth Bhavsar, MD (Doctor of Medicine). Recognized specialty: family medicine, board-certified by the American Board of Family Medicine. Licensed in Tennessee."
+      },
+      {
+        "statute": "Tenn. Comp. R. & Regs. 0880-02-.14(7) (prerequisites to issuing prescriptions)",
+        "renderAt": "footer",
+        "content": "Before prescribing in person or electronically, a Tennessee physician must perform and document an appropriate history and physical examination, make a diagnosis, discuss a therapeutic plan with the patient, and ensure follow-up care is available (rule 0880-02-.14(7)). TeleDirectMD sends Tennessee prescriptions electronically to the patient's chosen pharmacy and does not prescribe controlled substances."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}
