@@ -212,7 +212,7 @@
       {
         "name": "UnitedHealthcare",
         "anchorId": "uhc-coverage",
-        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage (not UnitedHealthcare Community Plan, which is NC Medicaid)",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage (excludes Medicaid, Individual Exchange, Dual Complete and Group PPO Medicare Advantage)",
         "validFrom": "2026-04-14",
         "copayNote": "Member cost sharing depends on the UnitedHealthcare plan."
       }

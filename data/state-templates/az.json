@@ -227,14 +227,14 @@
       {
         "name": "UnitedHealthcare",
         "anchorId": "uhc-coverage",
-        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage (excludes Medicaid, Individual Exchange, Community Plan Medicare Advantage, Doctors Plan, Navigate, Core, Charter)",
         "validFrom": "2026-08-24",
         "copayNote": "Cost sharing depends on your UnitedHealthcare plan."
       },
       {
         "name": "BCBS of Arizona",
         "anchorId": "bcbs-az-coverage",
-        "planNames": "PPO, HMO, Indemnity (commercial only; Medicare Advantage not in-network)",
+        "planNames": "PPO, HMO, Indemnity (commercial only; Alliance, Neighborhood, PimaConnect, Focus and Medicare Advantage networks not in-network)",
         "validFrom": "2026-07-01",
         "copayNote": "Cost sharing depends on your BCBS of Arizona plan."
       },

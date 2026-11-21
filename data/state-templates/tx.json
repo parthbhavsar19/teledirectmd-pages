@@ -233,12 +233,12 @@
   },
   "stateInsurance": {
     "mode": "multi-payer",
-    "selfPayDisclosure": "TeleDirectMD bills BCBS of Texas, UnitedHealthcare and Curative in-network in Texas for the plan types listed below; BCBS of Texas and UnitedHealthcare coverage in Texas is for commercial plans only, not Medicare Advantage. If you are covered, your standard plan copay applies in place of the $79 self-pay fee, and benefits are verified before your appointment; your coverage depends on your plan. Everyone else pays a flat $79 at booking, with HSA and FSA cards accepted. Texas Medicaid and CHIP are not accepted, and TeleDirectMD cannot promise coverage.",
+    "selfPayDisclosure": "TeleDirectMD bills BCBS of Texas, UnitedHealthcare and Curative in-network in Texas for the plan types listed below; TeleDirectMD lists BCBS of Texas and UnitedHealthcare commercial plans only in Texas, and UnitedHealthcare Medicare Advantage is not in-network. If you are covered, your standard plan copay applies in place of the $79 self-pay fee, and benefits are verified before your appointment; your coverage depends on your plan. Everyone else pays a flat $79 at booking, with HSA and FSA cards accepted. Texas Medicaid and CHIP are not accepted, and TeleDirectMD cannot promise coverage.",
     "payers": [
       {
         "name": "BCBS of Texas",
         "anchorId": "bcbs-coverage",
-        "planNames": "Blue Choice PPO, Blue Essentials HMO, Blue Advantage HMO (commercial only; Medicare Advantage not in-network)",
+        "planNames": "Blue Choice PPO, Blue Essentials HMO, Blue Advantage HMO (commercial plans only)",
         "validFrom": "2026-02-18",
         "copayNote": "Your standard plan copay applies in place of the $79 self-pay fee; benefits are verified before the visit."
       },
@@ -265,7 +265,7 @@
     },
     {
       "question": "Which insurance does TeleDirectMD take in Texas?",
-      "answer": "TeleDirectMD is in-network in Texas with BCBS of Texas, UnitedHealthcare commercial plans and Curative. BCBS of Texas and UnitedHealthcare Medicare Advantage plans are not in-network in Texas. If you are covered, your standard plan copay applies in place of the $79 self-pay fee, and benefits are verified before your appointment. Texas Medicaid and CHIP are not accepted."
+      "answer": "TeleDirectMD is in-network in Texas with BCBS of Texas commercial plans, UnitedHealthcare commercial plans and Curative. UnitedHealthcare Medicare Advantage plans are not in-network in Texas, and TeleDirectMD lists BCBS of Texas commercial plans only. If you are covered, your standard plan copay applies in place of the $79 self-pay fee, and benefits are verified before your appointment. Texas Medicaid and CHIP are not accepted."
     },
     {
       "question": "Is Dr. Bhavsar licensed in Texas, and how can I check?",
