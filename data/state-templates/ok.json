@@ -1,0 +1,297 @@
+{
+  "stateCode": "OK",
+  "stateName": "Oklahoma",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "mid",
+    "regulation": "standard",
+    "payerLandscape": "single-payer",
+    "epidemiology": [
+      "tick-rmsf-ehrlichiosis",
+      "rabies-skunk-wildlife"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "south",
+    "voiceNotes": "Straight talk for an outdoorsy state. Ticks here mean spotted fever and ehrlichiosis more than Lyme, so do not borrow northeastern Lyme framing. Oklahoma's statute names exactly what must happen before a video visit can establish care; say it plainly."
+  },
+  "stateHero": {
+    "openingParagraph": "In Oklahoma, a physician can establish care with you over video if three conditions in 59 O.S. 478.1 are met: an Oklahoma medical license, confirmation of your identity and physical location, and disclosure of the physician's identity and credentials. Parth Bhavsar, MD, a board-certified family medicine physician, holds an Oklahoma medical license from the State Board of Medical Licensure and Supervision. Adults who are physically in Oklahoma, from Oklahoma City and Tulsa to Lawton, Enid and Stillwater, can book a secure video visit for a flat $79 at booking, pay with HSA or FSA cards, or use an in-network UnitedHealthcare plan. Prescriptions, when appropriate, go electronically to the Oklahoma pharmacy you pick.",
+    "stateContextHint": "Licensed in Oklahoma. Secure video visits under 59 O.S. 478.1 for adults located in Oklahoma. Flat $79, or UnitedHealthcare in-network.",
+    "saturation": {
+      "stateNameMentions": 7,
+      "stateEntityMentions": 4
+    }
+  },
+  "stateEligibility": {
+    "intro": "Oklahoma's telemedicine law sets the terms in plain words. Under 59 O.S. 478.1, the physician must confirm your identity and physical location and give you his identity and professional credentials, and the 2017 definition of telemedicine in 59 O.S. 478 calls for a two-way, real-time interactive visit with a physician who has reviewed your relevant clinical information beforehand. TeleDirectMD therefore sees adults 18 and older who are in Oklahoma at visit time, by secure video, after you complete the intake.",
+    "localTriggers": [
+      "Be physically in Oklahoma during the visit, and expect to confirm your location at the start.",
+      "Complete the intake before the visit: Oklahoma's definition of telemedicine assumes the physician has reviewed your relevant clinical information beforehand.",
+      "Oklahoma's 2017 definition excludes audio-only phone calls, text messages and website questionnaires, so TeleDirectMD visits are by secure video.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "Every TeleDirectMD visit in Oklahoma can be paid as a flat $79 at booking, and HSA and FSA cards are accepted. TeleDirectMD is also in-network with UnitedHealthcare commercial and Medicare Advantage plans (PPO, HMO, EPO, POS) in Oklahoma; your plan decides what you owe. SoonerCare, the Medicaid program administered by the Oklahoma Health Care Authority, is not accepted. For marketplace coverage, the Oklahoma Insurance Department has operated a state-based exchange on the federal platform since May 1, 2026, and Oklahomans continue to enroll through HealthCare.gov through 2027.",
+    "additionalNotes": [
+      "$79 flat self-pay at booking.",
+      "HSA and FSA cards accepted.",
+      "UnitedHealthcare in-network in Oklahoma; SoonerCare not accepted."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "When a prescription is appropriate, it is sent electronically to the Oklahoma pharmacy you choose. Two Oklahoma rules frame what a telemedicine visit cannot do. Since January 1, 2020, prescriptions for controlled dangerous substances in Schedules II through V must be issued electronically under 63 O.S. 2-309, and prescribers must check the state Prescription Monitoring Program (PMP) before prescribing opiates, benzodiazepines or carisoprodol. Separately, 59 O.S. 478.1 bars using a telemedicine encounter to establish a relationship for prescribing opiates, benzodiazepines or carisoprodol. TeleDirectMD does not prescribe controlled substances in Oklahoma or any other state.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "Ticks shape outdoor health risk in Oklahoma more than in most states. The Oklahoma State Department of Health lists Rocky Mountain spotted fever, ehrlichiosis, tularemia and anaplasmosis among the tickborne diseases seen regularly here, and in 2017 it reported that Oklahoma ranks among the states with the highest rates of spotted fever, ehrlichiosis and tularemia, with the highest risk from May to August. Rabies is an immediately notifiable condition in Oklahoma. This context is for awareness and is not a substitute for an individual evaluation.",
+    "citations": [
+      {
+        "label": "Oklahoma SB 726 (2017), enrolled: 59 O.S. 478 and 478.1, telemedicine",
+        "url": "https://www.oklegislature.gov/cf_pdf/2017-18 ENR/SB/SB726 ENR.PDF",
+        "scope": "all"
+      },
+      {
+        "label": "Oklahoma HB 2686 (2023), enrolled: amending 59 O.S. 478.1",
+        "url": "https://www.oklegislature.gov/cf_pdf/2023-24 ENR/hB/HB2686 ENR.PDF",
+        "scope": "all"
+      },
+      {
+        "label": "Oklahoma Board of Nursing, FAQ for electronic prescribing of controlled substances (63 O.S. 2-309)",
+        "url": "https://oklahoma.gov/content/dam/ok/en/nursing/documents/eprescribFAQ.pdf",
+        "scope": "all"
+      },
+      {
+        "label": "Oklahoma Health Care Authority, About SoonerCare",
+        "url": "https://oklahoma.gov/ohca/individuals/mysoonercare/about-soonercare.html",
+        "scope": "all"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, Oklahoma (V2025)",
+        "url": "https://www.census.gov/quickfacts/OK",
+        "scope": "hub"
+      },
+      {
+        "label": "Oklahoma State Department of Health, Tickborne and Mosquitoborne Illness",
+        "url": "https://oklahoma.gov/health/health-education/acute-disease-service/tickborne-and-mosquitoborne-diseases.html",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Oklahoma State Department of Health, Rocky Mountain Spotted Fever",
+        "url": "https://oklahoma.gov/health/health-education/acute-disease-service/tickborne-and-mosquitoborne-diseases/rocky-mountain-spotted-fever.html",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Oklahoma State Department of Health, Ehrlichiosis",
+        "url": "https://oklahoma.gov/health/health-education/acute-disease-service/tickborne-and-mosquitoborne-diseases/ehrlichiosis.html",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Oklahoma State Department of Health, Oklahomans Should Be Aware of Ticks, Diseases, May 11, 2017",
+        "url": "https://oklahoma.gov/content/dam/ok/en/health/health2/documents/5-11-2017-tickborne-custer.pdf",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Oklahoma State Department of Health, Rabies and Animal Bites",
+        "url": "https://oklahoma.gov/health/health-education/acute-disease-service/rabies.html",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "CDC, Legal Status of EPT in Oklahoma",
+        "url": "https://www.cdc.gov/sti/php/ept-legal-status/oklahoma.html",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "CDC, 2023 STI Surveillance State Ranking Tables",
+        "url": "https://www.cdc.gov/sti-statistics/media/pdfs/2024/10/2023-STD-Surveillance-State-Ranking-Tables.pdf",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "Oklahoma State Department of Health, What to Report (OAC 310:515)",
+        "url": "https://oklahoma.gov/health/health-education/acute-disease-service/disease-reporting/what-to-report.html",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "Oklahoma State Department of Health, Viral View",
+        "url": "https://oklahoma.gov/health/health-education/acute-disease-service/viral-view.html",
+        "conditions": [
+          "influenza-treatment-online",
+          "covid-19-treatment-online"
+        ]
+      },
+      {
+        "label": "Oklahoma State Department of Health, Tularemia",
+        "url": "https://www.oklahoma.gov/health/health-education/acute-disease-service/tickborne-and-mosquitoborne-diseases/tularemia.html",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "OAC 310:599 Rabies Control Rules (OSDH)",
+        "url": "https://aem-prod.oklahoma.gov/content/dam/ok/en/health/health2/documents/rabies-control-rules-oac-310-chapter-599.pdf",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "TSET, Oklahoma Tobacco Helpline offer (August 25, 2026)",
+        "url": "https://oklahoma.gov/tset/newsroom/2026/august/the-oklahoma-tobacco-helpline-offers-eight-weeks-of-free-nicotin.html",
+        "conditions": [
+          "smoking-cessation-treatment-online"
+        ]
+      },
+      {
+        "label": "Oklahoma Insurance Department, Transition to a State-Based Exchange",
+        "url": "https://www.oid.ok.gov/consumers/health-insurance/",
+        "scope": "all"
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds an Oklahoma medical license, issued by the Oklahoma State Board of Medical Licensure and Supervision; the license can be checked through the Board's public lookup. Under 59 O.S. 478.1, a physician establishing care by telemedicine with a patient in Oklahoma must hold an Oklahoma license, confirm the patient's identity and location, and provide his own identity and professional credentials. NPI: 1104323203.",
+    "verifyUrl": "http://docfinder.docboard.org/ox/",
+    "statuteCitation": "59 O.S. 478 and 478.1 (telemedicine; physician-patient relationship), as amended by HB 2686 (2023)",
+    "licenseNumber": "41034",
+    "boardName": "Oklahoma State Board of Medical Licensure and Supervision",
+    "boardUrl": "https://www.okmedicalboard.org/"
+  },
+  "stateCities": {
+    "metroAndRural": "Oklahoma had 4,123,288 residents in the Census Bureau's July 1, 2025 estimate, at 57.7 people per square mile in 2020. TeleDirectMD sees adults wherever they are in the state when the visit starts: Oklahoma City, Edmond, Moore, Midwest City and Norman, Tulsa and Broken Arrow, Lawton, Enid and Stillwater, and every town between them. The physician and the $79 fee do not change with the drive time to a clinic.",
+    "cityList": [
+      {
+        "city": "Oklahoma City"
+      },
+      {
+        "city": "Tulsa"
+      },
+      {
+        "city": "Norman"
+      },
+      {
+        "city": "Broken Arrow"
+      },
+      {
+        "city": "Edmond"
+      },
+      {
+        "city": "Lawton"
+      },
+      {
+        "city": "Moore"
+      },
+      {
+        "city": "Midwest City"
+      },
+      {
+        "city": "Enid"
+      },
+      {
+        "city": "Stillwater"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "single-payer",
+    "selfPayDisclosure": "In Oklahoma, TeleDirectMD is in-network with UnitedHealthcare commercial and Medicare Advantage plans. For any other plan, or without insurance, the visit is a flat $79 paid at booking, and TeleDirectMD does not file the claim; HSA and FSA cards are accepted. Your plan decides coverage. SoonerCare (Oklahoma Medicaid), Managed Medicaid and D-SNP plans are not accepted.",
+    "payers": [
+      {
+        "name": "UnitedHealthcare",
+        "anchorId": "uhc-coverage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
+        "validFrom": "2026-03-30",
+        "copayNote": "Cost sharing depends on your plan. Medicaid and D-SNP plans are not accepted."
+      }
+    ]
+  },
+  "stateFaqs": [
+    {
+      "question": "What does Oklahoma law require before a video visit can start care?",
+      "answer": "Under 59 O.S. 478.1, a physician may establish a physician-patient relationship by telemedicine with a patient in Oklahoma if the physician holds an Oklahoma license, confirms the patient's identity and physical location, and provides his identity and professional credentials. The encounter must also meet HIPAA privacy and security requirements. TeleDirectMD sees adults 18 and older located in Oklahoma by secure video."
+    },
+    {
+      "question": "Is TeleDirectMD in-network with insurance in Oklahoma?",
+      "answer": "Yes, with UnitedHealthcare commercial and Medicare Advantage plans (PPO, HMO, EPO, POS) in Oklahoma; your plan determines any cost to you. Otherwise the visit is a flat $79 paid at booking, with HSA and FSA cards accepted. SoonerCare, Oklahoma's Medicaid program run by the Oklahoma Health Care Authority, is not accepted."
+    },
+    {
+      "question": "How do I check Dr. Bhavsar's Oklahoma license?",
+      "answer": "Parth Bhavsar, MD holds an Oklahoma medical license, issued by the Oklahoma State Board of Medical Licensure and Supervision, and the Board offers a public license lookup. Oklahoma law also requires the physician to give you his identity and professional credentials during a telemedicine visit. His National Provider Identifier is 1104323203."
+    },
+    {
+      "question": "Can I get pain or anxiety medicine through a video visit in Oklahoma?",
+      "answer": "No. Oklahoma's telemedicine statute, 59 O.S. 478.1, does not allow a telemedicine encounter to establish a relationship for prescribing opiates, benzodiazepines or carisoprodol, and TeleDirectMD does not prescribe controlled substances in any state. Oklahoma also requires controlled substance prescriptions to be electronic and checked against the state Prescription Monitoring Program."
+    },
+    {
+      "question": "Where do Oklahomans shop for marketplace health insurance now?",
+      "answer": "The Oklahoma Insurance Department began running a state-based exchange on the federal platform on May 1, 2026. Individuals and families keep enrolling through HealthCare.gov for the rest of 2026 and all of 2027, and the department plans to launch its own platform on November 1, 2027 for 2028 coverage. TeleDirectMD does not sell insurance; it is in-network with UnitedHealthcare in Oklahoma, or a flat $79 visit."
+    }
+  ],
+  "conditionOverrides": {
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "Tick bites in Oklahoma usually raise Rocky Mountain spotted fever, ehrlichiosis and tularemia rather than Lyme disease. The Oklahoma State Department of Health ties spotted fever mainly to the American dog tick, active May through August, ehrlichiosis to the lone star tick, and says Oklahoma is one of the states with the most reported tularemia cases each year. OSDH does not recommend preventive antibiotics after a bite for spotted fever, and asks you to note the date you removed the tick. A video visit for adults physically in Oklahoma can review a photo of the tick, your risk and the warning signs. Fever, a new skin sore, swollen glands or severe headache after a bite needs prompt in-person care. Flat $79."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "Rabies is an immediately notifiable condition in Oklahoma, and the state Department of Health notes that after a bite there is time to act: 72 hours to find the animal and have it tested, or a 10-day observation for a dog, cat or ferret. It also notes that a scratch by itself is not a rabies exposure. Cat bites still infect easily. For a superficial to moderate bite from a known domestic cat within the last 24 hours, a video visit for adults physically in Oklahoma covers wound care, whether an antibiotic is appropriate and how to arrange observation of the cat. A stray cat or a swollen hand needs in-person care. Flat $79."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "In the United States, rabies is found mainly in raccoons, skunks, bats and foxes, the Oklahoma State Department of Health says, and it notes that after a bite a dog, cat or ferret can be observed for 10 days, or the animal found within 72 hours and tested at the state Public Health Lab. A video visit for adults physically in Oklahoma can assess a superficial to moderate wound from a known domestic dog on camera and decide whether antibiotics are appropriate. Deep wounds, facial wounds, reduced hand movement or a bite from a stray or wild animal need in-person care. Flat $79, or UnitedHealthcare in-network."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "Oklahoma reported 19,104 chlamydia cases in 2023, a rate of 471.3 per 100,000 residents, according to the CDC's state ranking tables, close to the national rate of 492.2. It is also one of the newer states to allow expedited partner therapy: the CDC's legal review says EPT has been permissible since November 1, 2024 under 63 O.S. 1-522.1 when, in the provider's professional judgment, it fits. For an adult physically in Oklahoma with a positive test who is not pregnant and has no pelvic pain with fever, a video visit can review the result, prescribe treatment when appropriate and talk through treating a partner. TeleDirectMD does not perform STI testing. Flat $79, or UnitedHealthcare in-network."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "Syphilis is the sharper STI problem in Oklahoma. The CDC's 2023 state tables rank Oklahoma sixth for primary and secondary syphilis, with 1,121 cases and a rate of 27.7 per 100,000 against 15.8 nationally, and tenth for congenital syphilis. Doxycycline post-exposure prophylaxis is meant for gay, bisexual and other men who have sex with men, and transgender women, who had a bacterial STI in the past 12 months or have substantial ongoing risk. An adult in Oklahoma with no current STI symptoms, who is not pregnant and has no doxycycline allergy, can use a video visit to review eligibility, dose timing and the regular testing that goes with it. Flat $79, or UnitedHealthcare in-network."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "Oklahoma tracks flu through Viral View, which the State Department of Health calls the state's leading respiratory disease surveillance program, and posts updated influenza, COVID-19 and RSV data every Thursday by 10 a.m. Influenza-associated hospitalizations and deaths are reportable to OSDH within one business day, which is how severe flu is counted here. For an adult physically in Oklahoma whose flu symptoms began within the past 48 hours, with no trouble breathing, chest pain or confusion, a video visit can confirm the picture and, when appropriate, send an antiviral electronically to a nearby Oklahoma pharmacy. Severe or rapidly worsening illness needs in-person care. Flat $79, or UnitedHealthcare in-network."
+    },
+    "covid-19-treatment-online": {
+      "stateConditionParagraph": "COVID-19 is one of the three viruses in OSDH's weekly Viral View release, alongside influenza and RSV, so Oklahomans can see each Thursday whether respiratory illness is rising statewide. Antiviral treatment depends on timing: TeleDirectMD considers it when symptoms began within the last 5 days. For an adult physically in Oklahoma with a positive home or lab test, a video visit reviews risk factors and every current medication, because some COVID-19 antivirals interact with common prescriptions, then sends a prescription to the Oklahoma pharmacy you choose when treatment fits. Difficulty breathing, persistent chest pain, confusion or bluish lips call for emergency care instead of a video visit. Flat $79, or UnitedHealthcare in-network."
+    },
+    "smoking-cessation-treatment-online": {
+      "stateConditionParagraph": "Oklahoma has its own quitline, the Oklahoma Tobacco Helpline, funded mainly by the Tobacco Settlement Endowment Trust in partnership with the Oklahoma Health Care Authority. Its usual offer is four weeks of free nicotine patches, gum or lozenges, and TSET doubled that to eight weeks for sign-ups at least 21 years old in September 2026; the number is 1-800-QUIT NOW. A TeleDirectMD video visit adds a different option, prescription medicines that reduce cravings. For an adult in Oklahoma who smokes and wants to quit, Dr. Bhavsar reviews seizure history, mood, heart history and current medications before prescribing. Pregnancy or breastfeeding is better handled in person. Flat $79, or UnitedHealthcare in-network."
+    }
+  },
+  "relatedLinks": [],
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "59 O.S. 478.1 (physician-patient relationship through telemedicine)",
+        "renderAt": "hero-credential",
+        "content": "Under 59 O.S. 478.1, a physician licensed in Oklahoma may establish a physician-patient relationship with a patient located in Oklahoma through telemedicine after confirming the patient's identity and physical location and providing the physician's identity and professional credentials. Parth Bhavsar, MD holds an Oklahoma medical license. TeleDirectMD visits are by secure, real-time video."
+      },
+      {
+        "statute": "59 O.S. 478.1(C); 63 O.S. 2-309",
+        "renderAt": "footer",
+        "content": "Oklahoma law does not allow a telemedicine encounter to establish a relationship for prescribing opiates, benzodiazepines or carisoprodol, and requires controlled substance prescriptions to be issued electronically. TeleDirectMD does not prescribe controlled substances."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

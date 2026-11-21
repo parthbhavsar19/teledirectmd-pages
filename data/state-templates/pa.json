@@ -1,0 +1,297 @@
+{
+  "stateCode": "PA",
+  "stateName": "Pennsylvania",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "urban",
+    "regulation": "standard",
+    "payerLandscape": "multi-payer",
+    "epidemiology": [
+      "tickborne-rising",
+      "rabies-raccoon-west"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "northeast",
+    "voiceNotes": "Plain and specific. Pennsylvania's newest telemedicine law (Act 42 of 2024) is short; lean on its standard-of-care line rather than inventing requirements. List all three active plans accurately."
+  },
+  "stateHero": {
+    "openingParagraph": "Pennsylvania wrote telemedicine into law with Act 42 of 2024, which holds care delivered from a different location to the same standard that applies in person. Under that standard, Parth Bhavsar, MD, a board-certified family medicine physician licensed by the Pennsylvania State Board of Medicine, sees adults who are physically in Pennsylvania by video, from Philadelphia, Allentown and Bethlehem to Harrisburg, State College, Pittsburgh and Erie. Visits are a flat $79 paid at booking, with HSA and FSA cards accepted, and TeleDirectMD is in-network with Highmark Blue Cross Blue Shield, UnitedHealthcare and Aetna in Pennsylvania. When a prescription is appropriate, it goes electronically to your Pennsylvania pharmacy.",
+    "stateContextHint": "Licensed in Pennsylvania. Video visits for adults located in Pennsylvania under Act 42 of 2024. Flat $79, or Highmark, UnitedHealthcare and Aetna in-network.",
+    "saturation": {
+      "stateNameMentions": 7,
+      "stateEntityMentions": 5
+    }
+  },
+  "stateEligibility": {
+    "intro": "Pennsylvania's Act 42 of 2024 defines telemedicine as care from a provider at a different location delivered through synchronous or asynchronous interactions or remote monitoring that meets federal and Commonwealth privacy and security law, and it treats a provider as one licensed or otherwise regulated under the laws of the Commonwealth. For TeleDirectMD that means a Pennsylvania-licensed physician, a secure real-time video connection and a patient who is physically in Pennsylvania during the visit. Adults 18 and older qualify, residents and visitors alike, and the visit is held to the same standard of care as an office visit.",
+    "localTriggers": [
+      "Be physically in Pennsylvania during the visit. A Pennsylvania address does not count while you are in another state.",
+      "Visitors and students temporarily in Pennsylvania are eligible for the time they are here.",
+      "The care you receive is held to the in-person standard under 40 Pa.C.S. 4805, so a problem that needs an exam in person will be referred.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "In Pennsylvania, TeleDirectMD is in-network with Highmark Blue Cross Blue Shield, UnitedHealthcare and Aetna for PPO, HMO, EPO, POS and Medicare Advantage plans, and your plan sets any cost sharing. Without one of those plans, the visit is a flat $79 at booking, and HSA and FSA cards are accepted. Medicaid plans, including the HealthChoices managed care plans run by the Department of Human Services, are not accepted. Pennsylvanians shopping for coverage can use Pennie, Pennsylvania's official health insurance marketplace.",
+    "additionalNotes": [
+      "$79 flat self-pay at booking.",
+      "Highmark Blue Cross Blue Shield, UnitedHealthcare and Aetna in-network in Pennsylvania.",
+      "Medicaid plans not accepted."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "When a prescription is appropriate after a Pennsylvania visit, it is sent electronically to the pharmacy you name at booking. Pennsylvania's own e-prescribing law, Act 96 of 2018, has required Schedule II through V controlled substance prescriptions to be electronic since October 24, 2019, and the Department of Health's Prescription Drug Monitoring Program collects information on all dispensed controlled substance prescriptions and, as of October 27, 2023, shares data with more than 30 states. TeleDirectMD does not prescribe controlled substances in Pennsylvania or anywhere else, so its prescriptions are for the non-controlled medicines used to treat the conditions it sees.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "The Pennsylvania Department of Health says vectorborne diseases are on the rise in the United States and in Pennsylvania, and it tracks Lyme disease, anaplasmosis, babesiosis and ehrlichiosis on a Tickborne Disease Dashboard. Rabies is a statewide concern handled by phone around the clock at 877-PA HEALTH, and the state runs oral raccoon rabies vaccine baiting in western Pennsylvania. For respiratory illness, the Department advises that COVID-19 and flu treatments work best when started within 2 days of feeling sick. This is context only and does not replace an individual evaluation.",
+    "citations": [
+      {
+        "label": "Pennsylvania Act 42 of 2024 (40 Pa.C.S. Chapter 48), telemedicine",
+        "url": "https://www.palegis.us/statutes/unconsolidated/law-information/view-statute?txtType=PDF&SessYr=2024&SessInd=0&ActNum=0042",
+        "scope": "all"
+      },
+      {
+        "label": "Pennsylvania Department of Health, Prescription Drug Monitoring Program",
+        "url": "https://www.pa.gov/agencies/health/healthcare-and-public-health-professionals/pdmp",
+        "scope": "all"
+      },
+      {
+        "label": "Pennie, Pennsylvania's official health insurance marketplace",
+        "url": "https://pennie.com/",
+        "scope": "all"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, Pennsylvania (V2025)",
+        "url": "https://www.census.gov/quickfacts/PA",
+        "scope": "hub"
+      },
+      {
+        "label": "Pennsylvania Department of Health, Vectorborne Diseases",
+        "url": "https://www.pa.gov/agencies/health/diseases-conditions/infectious-disease/vectorborne-diseases",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Pennsylvania Department of Health, Lyme disease health statistics (Tickborne Disease Dashboard)",
+        "url": "https://www.pa.gov/agencies/health/health-statistics/health-statistics-a-to-z/lyme-disease---health-statistics-a-to-z",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Pennsylvania Department of Health, Rabies",
+        "url": "https://www.pa.gov/agencies/health/diseases-conditions/rabies",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Pennsylvania Department of Health, Respiratory Viruses",
+        "url": "https://www.pa.gov/agencies/health/diseases-conditions/infectious-disease/respiratory-viruses",
+        "conditions": [
+          "influenza-treatment-online",
+          "covid-19-treatment-online"
+        ]
+      },
+      {
+        "label": "CDC, Legal Status of EPT in Pennsylvania",
+        "url": "https://www.cdc.gov/sti/php/ept-legal-status/pennsylvania.html",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "Pennsylvania Department of Health, PA-HAN 821, Lyme Disease and Other Tickborne Diseases (April 22, 2026)",
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/2026%20HAN/2026%20-%20PAHAN%20-%20821-04-22-Ticks.pdf",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Pennsylvania Department of Health, Reportable Diseases",
+        "url": "https://www.pa.gov/agencies/health/healthcare-and-public-health-professionals/reportable-diseases.html",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "CDC, 2023 STI Surveillance State Ranking Tables",
+        "url": "https://www.cdc.gov/sti-statistics/media/pdfs/2024/10/2023-STD-Surveillance-State-Ranking-Tables.pdf",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "Pennsylvania Department of Health, PA-HAN 760, Doxy PEP guidance (July 18, 2024)",
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/2024%20HAN/2024-760-7-18-ADV-Doxy1.pdf",
+        "conditions": [
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "Pennsylvania Department of Health, PA Free Quitline",
+        "url": "https://www.pa.gov/agencies/health/programs/healthy-living/tobacco-prevention-and-control/quitline",
+        "conditions": [
+          "smoking-cessation-treatment-online"
+        ]
+      },
+      {
+        "label": "Pennsylvania Department of Health, Electronic Prescribing (Act 96 of 2018)",
+        "url": "https://www.pa.gov/agencies/health/healthcare-and-public-health-professionals/electronic-prescribing/prescribers.html",
+        "scope": "all"
+      },
+      {
+        "label": "Pennsylvania Department of Human Services, Medicaid",
+        "url": "https://www.pa.gov/agencies/dhs/resources/medicaid",
+        "scope": "all"
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds a Pennsylvania medical license from the Pennsylvania State Board of Medicine, which can be checked through the Pennsylvania Department of State's professional license verification. TeleDirectMD practices in Pennsylvania under Act 42 of 2024 (40 Pa.C.S. Chapter 48), which subjects health care services delivered by telemedicine to the same standard of care as in-person services. NPI: 1104323203.",
+    "verifyUrl": "https://www.dos.pa.gov/ProfessionalLicensing/VerifyaProfessional/Pages/default.aspx",
+    "statuteCitation": "Act of July 3, 2024, P.L. 516, No. 42 (40 Pa.C.S. 4802 and 4805, telemedicine)",
+    "licenseNumber": "MD487038C",
+    "boardName": "Pennsylvania State Board of Medicine",
+    "boardUrl": "https://www.dos.pa.gov/ProfessionalLicensing/BoardsCommissions/Medicine/Pages/default.aspx"
+  },
+  "stateCities": {
+    "metroAndRural": "With 13,059,432 residents in the Census Bureau's July 1, 2025 estimate and 290.6 people per square mile in 2020, TeleDirectMD sees adults wherever they are in the state: Philadelphia, Pittsburgh, Allentown, Erie, Reading, Scranton, Bethlehem, Lancaster, Harrisburg, York, State College and Wilkes-Barre, and the towns in between. The physician and the $79 fee are the same in each.",
+    "cityList": [
+      {
+        "city": "Philadelphia"
+      },
+      {
+        "city": "Pittsburgh"
+      },
+      {
+        "city": "Allentown"
+      },
+      {
+        "city": "Erie"
+      },
+      {
+        "city": "Reading"
+      },
+      {
+        "city": "Scranton"
+      },
+      {
+        "city": "Bethlehem"
+      },
+      {
+        "city": "Lancaster"
+      },
+      {
+        "city": "Harrisburg"
+      },
+      {
+        "city": "York"
+      },
+      {
+        "city": "State College"
+      },
+      {
+        "city": "Wilkes-Barre"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "multi-payer",
+    "selfPayDisclosure": "TeleDirectMD is in-network in Pennsylvania with Highmark Blue Cross Blue Shield, UnitedHealthcare and Aetna. Any patient can instead pay the flat $79 self-pay fee at booking, with HSA and FSA cards accepted; for plans outside that list, TeleDirectMD does not file the claim. Your plan, not TeleDirectMD, decides coverage. Medicaid, Managed Medicaid and D-SNP plans are not accepted. Pennie lists marketplace plans for residents who need coverage.",
+    "payers": [
+      {
+        "name": "Highmark Blue Cross Blue Shield",
+        "anchorId": "highmark-coverage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
+        "validFrom": "2025-12-01",
+        "copayNote": "Cost sharing depends on your plan."
+      },
+      {
+        "name": "UnitedHealthcare",
+        "anchorId": "uhc-coverage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
+        "validFrom": "2026-03-26",
+        "copayNote": "Cost sharing depends on your plan."
+      },
+      {
+        "name": "Aetna",
+        "anchorId": "aetna-coverage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
+        "validFrom": "2026-05-08",
+        "copayNote": "Cost sharing depends on your plan."
+      }
+    ]
+  },
+  "stateFaqs": [
+    {
+      "question": "Is telemedicine care in Pennsylvania held to the same standard as an office visit?",
+      "answer": "Yes. Under Act 42 of 2024, 40 Pa.C.S. 4805, health care services delivered through telemedicine are subject to the same standard of care that would apply in an in-person setting. TeleDirectMD sees adults 18 and older who are physically in Pennsylvania by video with a Pennsylvania-licensed physician, and refers you for in-person care when a video visit cannot meet that standard."
+    },
+    {
+      "question": "Does TeleDirectMD take Highmark or other insurance in Pennsylvania?",
+      "answer": "Yes. In Pennsylvania, TeleDirectMD is in-network with Highmark Blue Cross Blue Shield, UnitedHealthcare and Aetna for PPO, HMO, EPO, POS and Medicare Advantage plans. Your plan sets any cost sharing. Without one of those plans, the visit is a flat $79 at booking. Medicaid plans are not accepted."
+    },
+    {
+      "question": "How can I verify Dr. Bhavsar's Pennsylvania license?",
+      "answer": "Parth Bhavsar, MD holds a Pennsylvania medical license from the Pennsylvania State Board of Medicine. Anyone can confirm it through the Pennsylvania Department of State's professional license verification. He is board-certified in family medicine by the American Board of Family Medicine, and his National Provider Identifier is 1104323203."
+    },
+    {
+      "question": "Can a Pennsylvania doctor treat my partner for an STI without seeing them?",
+      "answer": "In some cases. The CDC reports that expedited partner therapy has been permissible in Pennsylvania since February 1, 2023 under 35 P.S. 603, which lets certain practitioners prescribe or furnish antibiotics to treat a sexually transmitted infection in a patient's partner without examining the partner, following CDC guidance. Whether it fits your situation is decided during the visit."
+    },
+    {
+      "question": "Does Dr. Bhavsar have to report an animal bite seen by video in Pennsylvania?",
+      "answer": "Yes. Animal bites are on the Pennsylvania Department of Health's list of reportable conditions under Title 28, Chapter 27 of the Pennsylvania Code, and health care practitioners must report them within 24 hours. That applies to a bite evaluated by video just as it does in an office. If rabies is a concern, the Department's 24-hour line is 877-PA HEALTH (877-724-3258)."
+    }
+  ],
+  "conditionOverrides": {
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "Pennsylvania reported 16,624 Lyme disease cases in 2024, an incidence of 128.3 per 100,000, plus 1,071 anaplasmosis cases, according to a Department of Health advisory issued in April 2026, which also notes that tick bite emergency visits have risen. The Department's advice to clinicians is that deer ticks in Pennsylvania should be considered likely to carry the Lyme bacterium, and that illness peaks from late May through early August. For an adult physically in Pennsylvania who removed a tick within 72 hours, a video visit reviews a photo of the tick and decides whether a single preventive dose of doxycycline fits. An expanding rash, fever or facial weakness needs in-person care. Flat $79, or in-network plans."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "Pennsylvania reported 54,600 chlamydia cases in 2023, a rate of 421.2 per 100,000 that sits below the national 492.2, according to the CDC's state tables. Treating partners is easier here than in many states: the CDC's legal review says expedited partner therapy has been permissible since February 1, 2023 under 35 P.S. 603, letting certain practitioners prescribe antibiotics for a patient's partner without examining the partner. For an adult physically in Pennsylvania with a positive test, who is not pregnant and has no pelvic pain with fever, a video visit can review the result, prescribe treatment when appropriate and plan retesting. TeleDirectMD does not perform STI testing. Flat $79, or Highmark, UnitedHealthcare and Aetna in-network."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "The Pennsylvania Department of Health puts the timing plainly: if you test positive for flu, treatments work best if you start them within 2 days of feeling sick, so act fast. A video visit for adults physically in Pennsylvania can review your symptoms, when they began and your health history, decide whether an antiviral is appropriate and send it to a Pennsylvania pharmacy. The Department also lists trouble breathing, chest pain, confusion or a fever that will not come down as reasons to call a doctor right away; the first three need emergency care rather than a video visit. Flat $79, or Highmark, UnitedHealthcare and Aetna in-network."
+    },
+    "covid-19-treatment-online": {
+      "stateConditionParagraph": "Pennsylvania's Department of Health advises getting tested when you feel sick, because COVID-19 treatments work best when started within 2 days of feeling sick. For adults physically in Pennsylvania with a positive test and symptoms that began within the last five days, a video visit can review the test, your symptoms and your full medication list, since some COVID-19 antivirals interact with common medicines, and send a prescription to a Pennsylvania pharmacy when treatment is appropriate. Shortness of breath at rest, chest pain or bluish lips need emergency care. Flat $79, or in-network plans."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "Pennsylvania counts an animal bite as a reportable event: the Department of Health requires health care practitioners to report it within 24 hours, and a possible rabies exposure has its own around-the-clock line, 877-PA HEALTH (877-724-3258). The state also runs oral raccoon rabies vaccine baiting in western Pennsylvania. For a superficial to moderate bite from a known domestic cat within the last 24 hours, a video visit for adults physically in Pennsylvania covers wound care, whether an antibiotic is appropriate and whether the rabies question needs that call. A stray or unknown cat, a swollen hand or finger, or spreading redness needs in-person care. Flat $79."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "A dog bite treated in Pennsylvania is reported to public health: animal bites are on the Department of Health's reportable list, and practitioners must report within 24 hours. If the bite raises any worry about rabies, the Department takes calls at 877-PA HEALTH (877-724-3258) around the clock. For a superficial to moderate wound from a known domestic dog, a video visit for adults physically in Pennsylvania can assess the bite on camera and decide whether antibiotics are appropriate. Deep wounds, facial wounds or a bite from a stray or wild animal need in-person care. Flat $79, or Highmark, UnitedHealthcare and Aetna in-network."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "The Pennsylvania Department of Health relayed national doxy PEP guidance to clinicians in a July 2024 health advisory: discuss it with gay, bisexual and other men who have sex with men, and transgender women, who had a bacterial STI in the past 12 months, as a 200 mg doxycycline dose taken within 72 hours of sex, with STI testing every 3 to 6 months. An adult physically in Pennsylvania who fits those criteria, has no current STI symptoms, is not pregnant and has no doxycycline allergy can use a video visit to review eligibility and get a prescription when appropriate. Testing is done elsewhere. Flat $79, or Highmark, UnitedHealthcare and Aetna in-network."
+    },
+    "smoking-cessation-treatment-online": {
+      "stateConditionParagraph": "Pennsylvania's Department of Health runs the PA Free Quitline at 1-800-QUIT-NOW, with quit coaches available around the clock, web and text support, and free nicotine replacement therapy for callers who are medically eligible. A TeleDirectMD video visit can sit alongside that coaching when you want a prescription medicine that reduces cravings. For an adult in Pennsylvania who smokes or uses tobacco and wants to quit, Dr. Bhavsar reviews seizure history, mood, recent heart events and current medications, then sends a prescription to the Pennsylvania pharmacy you choose when it is appropriate. Pregnancy or breastfeeding calls for in-person care. Flat $79, or Highmark, UnitedHealthcare and Aetna in-network."
+    }
+  },
+  "relatedLinks": [],
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Act 42 of 2024, 40 Pa.C.S. 4805 (telemedicine standard of care)",
+        "renderAt": "hero-credential",
+        "content": "Pennsylvania law (40 Pa.C.S. 4805) subjects health care services provided through telemedicine to the same standard of care that would apply in an in-person setting. TeleDirectMD delivers care to patients located in Pennsylvania by real-time video through a Pennsylvania-licensed physician."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

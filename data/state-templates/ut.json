@@ -1,0 +1,293 @@
+{
+  "stateCode": "UT",
+  "stateName": "Utah",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "rural",
+    "regulation": "strict",
+    "payerLandscape": "self-pay-only",
+    "epidemiology": [
+      "colorado-tick-fever",
+      "low-smoking-rate",
+      "rabies-exposure-tool",
+      "sti-below-national-rate",
+      "syphilis-rising"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "west",
+    "voiceNotes": "Clear and procedural. Utah's telehealth statute is unusually specific (credentials to the patient, no questionnaire-only prescribing, records to a designated provider within two weeks), so explain what those rules mean for the patient in plain terms."
+  },
+  "stateHero": {
+    "openingParagraph": "Utah's telehealth law, Utah Code Section 26B-4-704, holds a provider offering telehealth to the same standards of practice as a traditional health care setting and bars diagnosing or prescribing based solely on an online questionnaire. TeleDirectMD visits for adults located in Utah are live, two-way audio and video with Parth Bhavsar, MD, a board-certified family medicine physician licensed in Utah. That holds in Salt Lake City, Provo, Ogden and St. George alike. Each visit is a flat $79, paid at booking, with HSA and FSA cards accepted, and prescriptions, when appropriate, go electronically to your chosen pharmacy.",
+    "conditionPageOpener": "Adults located in Utah can book a live video visit with Parth Bhavsar, MD, a board-certified family medicine physician licensed in Utah. Flat $79, paid at booking. Prescriptions, when appropriate, are sent electronically to the Utah pharmacy you choose.",
+    "stateContextHint": "Licensed in Utah. Live video visits under Utah Code 26B-4-704, never questionnaire-only prescribing. Flat $79 self-pay for adults located in Utah.",
+    "saturation": {
+      "stateNameMentions": 0,
+      "stateEntityMentions": 0
+    }
+  },
+  "stateEligibility": {
+    "intro": "TeleDirectMD sees adults 18 and older who are located in Utah during the visit. Utah Code Section 26B-4-704 describes the patient's physical location as the originating site, and it asks the provider to know the emergency resources near that site so a referral can be made when needed; expect to confirm where you are. Visits are synchronous, meaning real-time two-way audio and video, which is how Utah law defines that format. Utahns traveling out of state are seen only from Utah or another state TeleDirectMD serves.",
+    "localTriggers": [
+      "Be in Utah during the visit. Utah law treats your physical location as the originating site.",
+      "No questionnaire-only care. Utah Code 26B-4-704(4) bars diagnosing, treating or prescribing based solely on an online questionnaire or a patient-generated history, so a live visit is required.",
+      "If you have a regular doctor, Utah law asks the telemedicine provider to offer to send that doctor a record of the visit within two weeks, unless you decline.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "TeleDirectMD does not bill insurance in Utah. Every visit for a patient located in Utah is a flat $79, shown before you book and paid at booking, and HSA and FSA cards are accepted. Medicine prescribed at the visit is paid at the pharmacy. Utah Medicaid, presented by the Utah Department of Health and Human Services, is not accepted; Utahns with questions about Medicaid coverage can start at medicaid.utah.gov, and Utah's marketplace plans are sold through HealthCare.gov. If you have commercial insurance, you can still book at $79 and ask your plan about out-of-network reimbursement.",
+    "additionalNotes": [
+      "$79 flat self-pay, the full visit fee.",
+      "HSA and FSA cards accepted at booking.",
+      "No insurance or Utah Medicaid billing."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "Utah sets out what has to happen before a telehealth provider prescribes. Under Utah Code Section 26B-4-704(2)(c), the provider must establish a diagnosis and identify underlying conditions and contraindications after obtaining and documenting your relevant clinical history and current symptoms, and subsection (4) rules out prescribing based solely on an online questionnaire. When a prescription is appropriate after that review, Dr. Bhavsar sends it electronically to the Utah pharmacy you choose. The same section requires the provider to make your medical records available to you. TeleDirectMD does not prescribe controlled substances in Utah or in any other state. Utah law also requires controlled substance prescriptions to be sent electronically, with limited exceptions, beginning January 1, 2022 (H.B. 177, 2020). For hormonal birth control, Utah pharmacists can dispense to adults 18 and older under a state standing order after a self-screening questionnaire (Utah Code 26B-4-504 to 26B-4-506).",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "Two Utah Department of Health and Human Services resources bear on common visit reasons. For animal bites, the department's rabies page explains that rabies spreads through the saliva of infected animals, usually by a bite, tells anyone who has had contact with a rabid animal to contact a doctor or public health immediately, and offers an online rabies exposure assessment tool. For flu, the department publishes seasonal influenza reports covering influenza-associated hospitalizations and influenza-like illness in Utah. Utah's 2023 chlamydia rate, 322.0 per 100,000, was below the national rate (CDC). This context is general and does not replace an individual evaluation.",
+    "citations": [
+      {
+        "label": "Utah Code Section 26B-4-704, Scope of telehealth practice",
+        "url": "https://le.utah.gov/xcode/Title26B/Chapter4/26B-4-S704.html",
+        "scope": "all"
+      },
+      {
+        "label": "Utah Department of Health and Human Services, Medicaid",
+        "url": "https://medicaid.utah.gov/"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, Utah (Vintage 2025 estimate)",
+        "url": "https://www.census.gov/quickfacts/fact/table/UT/PST045225"
+      },
+      {
+        "label": "Utah Department of Health and Human Services, Rabies",
+        "url": "https://epi.utah.gov/rabies/",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Utah Department of Health and Human Services, Influenza reports",
+        "url": "https://epi.utah.gov/influenza-reports/",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "CDC, Chlamydia Reported Cases and Rates by State, Ranked by Rates, United States, 2023",
+        "url": "https://cdc.gov/sti-statistics/media/pdfs/2024/10/2023-STD-Surveillance-State-Ranking-Tables.pdf",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "CDC, Legal Status of EPT in Utah",
+        "url": "https://www.cdc.gov/sti/php/ept-legal-status/utah.html",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "Utah H.B. 177 (2020), Prescription Revisions, enrolled (electronic prescribing of controlled substances)",
+        "url": "https://le.utah.gov/~2020/bills/hbillenr/HB0177.htm",
+        "scope": "all"
+      },
+      {
+        "label": "Utah Code Title 26B Chapter 4 Part 5, Treatment Access (Sections 26B-4-504 to 26B-4-506)",
+        "url": "https://le.utah.gov/xcode/Title26B/Chapter4/C26B-4-P5_2023050320230503.pdf",
+        "conditions": [
+          "birth-control-refills-online"
+        ]
+      },
+      {
+        "label": "Utah DHHS, Tick surveillance annual report 2024",
+        "url": "https://epi.utah.gov/wp-content/uploads/Tick-Surveillance-Annual-Report_2024.pdf",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Utah Administrative Code R386-702-12, Special Measures for Control of Rabies (Utah DHHS copy)",
+        "url": "https://epi.utah.gov/wp-content/uploads/R386-702-12.-Special-Measures-for-Control-of-Rabies.pdf",
+        "conditions": [
+          "dog-bite-treatment-online",
+          "cat-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Utah DHHS, Utah influenza report 2023-2024",
+        "url": "https://files.epi.utah.gov/Utah_Influenza_Report_2023-2024.html",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "Utah DHHS IBIS, Cigarette smoking among adults",
+        "url": "https://ibis.utah.gov/ibisph-view/indicator/view/CigSmokAdlt.html",
+        "conditions": [
+          "smoking-cessation-treatment-online"
+        ]
+      },
+      {
+        "label": "Utah DHHS, STI trends in Utah: annual surveillance update (2023 data)",
+        "url": "https://epi.utah.gov/wp-content/uploads/2023_Annual_STI_surveillance_update.pdf",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "Utah DHHS, Doxy PEP provider fact sheet (February 2025)",
+        "url": "https://epi.utah.gov/wp-content/uploads/DoxyPEP-Provider-Fact-Sheet-final.pdf",
+        "conditions": [
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "Utah DHHS, Expedited partner therapy provider fact sheet (June 2024)",
+        "url": "https://epi.utah.gov/wp-content/uploads/EPT-Provider-Fact-Sheet-Final_06.24.24-1.pdf",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "CMS, Marketplace 2026 Open Enrollment Period Report: National Snapshot",
+        "url": "https://www.cms.gov/newsroom/fact-sheets/marketplace-2026-open-enrollment-period-report-national-snapshot-2"
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds a Utah medical license, issued through the Utah Division of Professional Licensing. Utah Code Section 26B-4-704 requires a provider establishing a new telehealth relationship to give the patient the provider's licensure and credentials and to act within the scope of a license issued under Title 58, Occupations and Professions. You can confirm this license through Utah's online license verification. NPI: 1104323203.",
+    "verifyUrl": "https://secure.utah.gov/llv/search/index.html",
+    "statuteCitation": "Utah Code Section 26B-4-704, Scope of telehealth practice (effective May 3, 2023)",
+    "licenseNumber": "14197318-1235",
+    "boardName": "Utah Division of Professional Licensing",
+    "boardUrl": "https://dopl.utah.gov/"
+  },
+  "stateCities": {
+    "metroAndRural": "TeleDirectMD sees adults located anywhere in Utah, a state of 3,538,904 people (U.S. Census Bureau, July 1, 2025 estimate) with 39.7 people per square mile in 2020 across 82,376.85 square miles of land. Salt Lake City, West Valley City, Provo, West Jordan, Orem, Sandy, Ogden, St. George, Layton, Taylorsville, South Jordan and Lehi are on the list, and so is every smaller Utah community, at the same flat $79 with the same physician.",
+    "cityList": [
+      {
+        "city": "Salt Lake City"
+      },
+      {
+        "city": "West Valley City"
+      },
+      {
+        "city": "Provo"
+      },
+      {
+        "city": "West Jordan"
+      },
+      {
+        "city": "Orem"
+      },
+      {
+        "city": "Sandy"
+      },
+      {
+        "city": "Ogden"
+      },
+      {
+        "city": "St. George"
+      },
+      {
+        "city": "Layton"
+      },
+      {
+        "city": "Taylorsville"
+      },
+      {
+        "city": "South Jordan"
+      },
+      {
+        "city": "Lehi"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "self-pay-only",
+    "selfPayDisclosure": "TeleDirectMD is self-pay only in Utah. It does not bill commercial insurance, Medicare or Utah Medicaid, and it does not file claims. Each visit is a flat $79, paid at booking, and HSA and FSA cards are accepted. If you have a health plan, you can still book at $79 and ask your plan whether it reimburses out-of-network visits; TeleDirectMD cannot promise reimbursement. Utah Medicaid information is available from the Utah Department of Health and Human Services at medicaid.utah.gov.",
+    "payers": []
+  },
+  "stateFaqs": [
+    {
+      "question": "Can a doctor prescribe over video in Utah?",
+      "answer": "Yes, within Utah Code Section 26B-4-704. Before treating or prescribing, a telehealth provider must establish a diagnosis and check for underlying conditions and contraindications after taking and documenting your history and current symptoms. The law bars prescribing based solely on an online questionnaire or a patient-generated history. TeleDirectMD visits are live video with Parth Bhavsar, MD, who decides during the visit whether a prescription is appropriate."
+    },
+    {
+      "question": "Will my regular doctor in Utah hear about my visit?",
+      "answer": "Only if you want them to. Utah Code Section 26B-4-704 says that when a patient has a designated health care provider, the telemedicine provider should ask whether to share a record of the visit, collect that provider's contact information, and send the record within two weeks unless the patient says not to. You can also ask TeleDirectMD for your own records, which Utah law requires the provider to make available."
+    },
+    {
+      "question": "Is Dr. Bhavsar licensed in Utah, and how can I check?",
+      "answer": "Yes. Parth Bhavsar, MD holds a Utah medical license, issued through the Utah Division of Professional Licensing. Utah law asks telehealth providers to share their licensure and credentials with new patients, and you can confirm the license yourself through Utah's online license verification. His National Provider Identifier is 1104323203."
+    },
+    {
+      "question": "Does TeleDirectMD take insurance or Utah Medicaid?",
+      "answer": "No. TeleDirectMD is self-pay only in Utah: a flat $79 per visit, paid at booking, with HSA and FSA cards accepted. It does not bill commercial plans, Medicare or Utah Medicaid. For Medicaid questions, the Utah Department of Health and Human Services runs medicaid.utah.gov."
+    },
+    {
+      "question": "What should I do after an animal bite in Utah?",
+      "answer": "Clean the wound, then decide where to be seen. Utah DHHS advises anyone who has had contact with a rabid animal to contact a doctor or public health immediately. Under Utah's rabies rule, a dog, cat or ferret that bites someone is confined and watched for ten days, and a bite from a wild animal is reported to animal control or law enforcement by the person or the treating clinicians. Bites from wild or unknown animals need in-person evaluation."
+    },
+    {
+      "question": "Can a Utah pharmacist give me birth control without a doctor visit?",
+      "answer": "Often, yes. Utah Code 26B-4-504 lets a pharmacist dispense a self-administered hormonal contraceptive to a patient 18 or older under a state standing order, after you complete a self-screening questionnaire. After 24 months, the pharmacist needs evidence that you consulted a primary care or women's health care practitioner. A TeleDirectMD video visit is one way to have that consultation or to refill a method you already use."
+    }
+  ],
+  "conditionOverrides": {
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "Utah DHHS notes that cats and dogs can spread rabies up to 10 days before they become ill, and the state's rabies rule (R386-702-12) has a cat that bites a person confined and observed daily for ten days, so knowing where the cat is and how it is doing matters. Cat bites also tend to become infected quickly. For adults in Utah with a superficial to moderate bite from a known domestic cat within the last 24 hours, a video visit can review photos, plan wound care and decide whether a preventive antibiotic is appropriate. Hand bites with swelling, and any stray or wild animal bite, need in-person care. Flat $79."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "Utah's rabies rule, Utah Administrative Code R386-702-12, has a dog, cat or ferret that bites a person confined and observed daily for ten days, and for a bite or scratch from a wild animal it directs the person or the attending medical personnel to notify an animal control or law enforcement officer. Utah DHHS adds that anyone who has had contact with a rabid animal should contact a doctor or public health immediately. For adults in Utah with a cleaned, superficial to moderate bite from a known domestic dog with a vaccination history, a video visit can assess the wound from photos and decide on antibiotics and follow-up. Deep wounds, uncontrolled bleeding, facial wounds or a bite from an unknown animal need in-person care. Flat $79."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "Chlamydia is Utah's most frequently reported STI: Utah DHHS counted 10,944 cases in 2023, with Salt Lake County accounting for 51 percent, while the CDC rate of 322.0 per 100,000 ranked 44th among states, below the national 492.2. Expedited partner therapy has been legal in Utah since 2009 (House Bill 17), which lets a clinician provide treatment for a partner without a separate visit, at the clinician's option. If you are an adult in Utah with a positive chlamydia test, a video visit can review the result and, when appropriate, send treatment to your pharmacy. Bring your result, since TeleDirectMD does not test. Pelvic pain with fever, severe testicular pain or pregnancy needs in-person care. Flat $79."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "Utah DHHS counted 1,881 influenza-associated hospitalizations in the 2023-2024 season, its most recent published seasonal summary, with influenza A making up 58.9 percent of positive tests. During respiratory season, October through April, the department updates a flu, COVID-19 and RSV dashboard every Wednesday. For an individual adult, timing matters more than the statewide picture: antivirals work best when started within about 48 hours of symptoms. A video visit for adults located in Utah can decide whether an antiviral fits, and Utah law requires that diagnosis to rest on your history and symptoms rather than a questionnaire alone. Trouble breathing, chest pain or confusion needs in-person care now. Flat $79."
+    },
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "Utah's most common tick is the Rocky Mountain wood tick, and in Utah DHHS's 2024 tick surveillance 4 of 92 ticks tested carried Colorado tick fever virus. The western black-legged tick also occurs in Utah, but none tested positive for the Lyme bacteria, and 14 of Utah's 19 Lyme cases in 2024 had traveled out of state. Utah also reported 2 Rocky Mountain spotted fever cases that year. So a video visit for adults in Utah weighs where the bite happened, including recent travel, the tick type and how long it was attached before deciding on preventive treatment. Fever with severe headache, a spreading rash or feeling very ill after a bite needs in-person care. Flat $79."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "Syphilis is rising in Utah: Utah DHHS reported a 23 percent increase from 2022 to 2023, and men who have sex with men accounted for 67 percent of male syphilis cases. A doxy PEP fact sheet posted by Utah DHHS in February 2025 summarizes CDC's guidance, including testing for bacterial STIs every 3 to 6 months while using it. TeleDirectMD's doxy-PEP visits are for adults in Utah who are men who have sex with men or transgender women with a bacterial STI in the past 12 months or condomless sex with male partners, and who have no active STI symptoms. Ongoing testing happens through a clinic or lab. Flat $79."
+    },
+    "smoking-cessation-treatment-online": {
+      "stateConditionParagraph": "Utah DHHS reports that 6.9 percent of Utah adults smoked in 2022, compared with 13.4 percent nationally. The Utah Tobacco Quitline, 1-800-QUIT-NOW, offers phone counseling and free nicotine replacement therapy based on eligibility, and waytoquit.org lists Utah's quit services. A video visit with Dr. Bhavsar can add a prescription quit medicine when appropriate, sent electronically to the Utah pharmacy you choose, alongside quitline coaching. Pregnancy, a seizure history, a heart attack or stroke in the past 2 weeks, or active suicidal thoughts call for in-person care instead. Flat $79."
+    },
+    "birth-control-refills-online": {
+      "stateConditionParagraph": "Utah gives adults two routes to continue the pill, patch or ring. Under Utah Code 26B-4-504 to 26B-4-506, a pharmacist can dispense a self-administered hormonal contraceptive to a patient 18 or older under a state standing order after a self-screening questionnaire, but cannot keep dispensing past 24 months without evidence of a consultation with a primary care or women's health care practitioner. A TeleDirectMD video visit can be that consultation or a straightforward refill for adults in Utah who are stable on a method another clinician started. New migraines with aura, a blood clot, uncontrolled blood pressure or possible pregnancy need in-person care. Flat $79."
+    }
+  },
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Utah Code Section 26B-4-704 (Scope of telehealth practice)",
+        "renderAt": "hero-credential",
+        "content": "Utah Code Section 26B-4-704 holds a provider offering telehealth services to the same standards of practice as traditional health care settings, requires a provider establishing a new relationship to give the patient the provider's licensure and credentials, and bars diagnosing, treating or prescribing based solely on an online questionnaire. Provider: Parth Bhavsar, MD, board-certified in family medicine, licensed in Utah. Visits are real-time two-way audio and video."
+      },
+      {
+        "statute": "Utah Code Section 26B-4-704(2)(f) and (g) (records)",
+        "renderAt": "footer",
+        "content": "Utah law requires a telehealth provider to make medical records available to the patient and, if the patient has a designated health care provider, to offer to send that provider a record of the visit within two weeks unless the patient declines. TeleDirectMD sends Utah prescriptions electronically to the patient's chosen pharmacy and does not prescribe controlled substances."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}
