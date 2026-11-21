@@ -6,6 +6,7 @@ import { getStateInsurance, getActiveInsurers, getPendingInsurers, hasInlineInsu
 import { getInsuranceLinksForConditionState } from '../../../lib/internal-links';
 import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock } from '../../components/CostCompareModules';
 import { CitableSummaryBlock } from '../../components/CitableSummary';
+import StatePicker from '../../components/StatePicker';
 import FaqAccordion from '../../components/FaqAccordion';
 import { FlCredentialBlock, FlFooterCompliance } from '../../components/FlCompliance';
 import PressStrip from '../../components/PressStrip';
@@ -1422,15 +1423,13 @@ export default async function ConditionPage({ params }) {
       <section className="tdmd-section tdmd-section-highlight" id={`${pid}-other-states`}>
         <div className="tdmd-container">
           <h2>Get {condition.conditionName} Treatment in Other States</h2>
-          <p>TeleDirectMD treats {condition.conditionName.toLowerCase()} via telehealth in 40+ states + DC. If you are traveling, relocating, or helping a family member in another state, select below to find this treatment near them.</p>
-          <p>The <a href={`/${conditionSlug}/`}>{condition.conditionName} guide for all states</a> covers what applies everywhere; this page covers {state.name}.</p>
-          <div className="tdmd-other-states-grid">
-            {otherStates.map((s) => (
-              <a key={s.slug} className="tdmd-other-state-link" href={s.href}>
-                {s.name}
-              </a>
-            ))}
-          </div>
+          <p>TeleDirectMD treats {condition.conditionName.toLowerCase()} via telehealth in 40+ states + D.C. If you are traveling, relocating, or helping a family member in another state, choose that state below.</p>
+          <p>The <a href={`/${conditionSlug}/`}>{condition.conditionName} guide for all states</a> covers what applies everywhere and lists every state; this page covers {state.name}.</p>
+          <StatePicker
+            id={`${pid}-state-picker`}
+            conditionName={condition.conditionName}
+            options={otherStates.map((s) => ({ name: s.name, href: s.href }))}
+          />
         </div>
       </section>
 
