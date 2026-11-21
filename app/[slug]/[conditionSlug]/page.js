@@ -1408,7 +1408,7 @@ export default async function ConditionPage({ params }) {
                       </a>
                     )}
                     <a href={link.insurerStateUrl} style={{ color: 'var(--tdmd-teal, #14B8A6)', textDecoration: 'none' }}>
-                      All {link.insurerName} coverage in {state.name}
+                      {link.insurerStatePage ? `All ${link.insurerName} coverage in ${state.name}` : `${link.insurerName} coverage and participating states`}
                     </a>
                   </div>
                 </li>
