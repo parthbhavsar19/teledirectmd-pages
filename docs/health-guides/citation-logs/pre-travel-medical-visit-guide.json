@@ -1,0 +1,829 @@
+{
+  "guide": "pre-travel-medical-visit-guide",
+  "checked_at": "2026-11-21",
+  "references": [
+    {
+      "n": 1,
+      "kind": "guideline",
+      "cited_as": "Chen LH, Bourque DL. The Pre-Travel Consultation. In: CDC Yellow Book 2026: Health Information for International Travel. Centers for Disease Control and Prevention. Published April 23, 2025; accessed November 21, 2026.",
+      "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/the-pre-travel-consultation.html",
+      "record_title": "The Pre-Travel Consultation | CDC Yellow Book",
+      "record_year": "2025",
+      "article_type": "Clinical guidance chapter",
+      "version_or_date": "Published, updated and reviewed April 23, 2025 (CDC Yellow Book 2026)",
+      "retrieved_with": "Monid firecrawl /scrape (basic proxy), run 01M801XRBM2QS6DWFHQF4379N5",
+      "retrieved_at": "2026-11-21",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Pre-travel visit assesses, communicates and manages risk",
+          "quote": "healthcare professionals can conduct a risk assessment for each traveler, communicate risk by sharing information about potential health hazards, and manage risk by various means.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Specialist consultation indicated for all international travelers, particularly complicated history, pregnancy, special risks, long itineraries",
+          "quote": "a comprehensive consultation with a travel medicine specialist is indicated for all international travelers and is particularly important for those with a complicated health history, pregnant women, anyone taking special risks",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Visit covers health background, itinerary, duration, purpose, activities",
+          "quote": "Effective pre-travel consultations require attention to the traveler's health background and incorporate the itinerary, trip duration, travel purpose, and activities planned during travel",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "No physical exam; separate appointment may be needed for fitness to travel",
+          "quote": "The typical pre-travel consultation does not include a physical examination, and a separate appointment with the same or a different healthcare professional might be necessary to assess fitness for travel.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Everyday risks listed",
+          "quote": "reminding the traveler of ubiquitous risks (e.g., injury, foodborne and waterborne infections, vector-borne diseases, respiratory tract infections, blood-borne infections, and sexually transmitted infections)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Vaccine need depends on purpose, season, duration, destination; update routine vaccines",
+          "quote": "The purpose of travel, season, duration, and specific destination within a country will inform the need for vaccines. At the same time, the pre-travel consultation presents an opportunity to update routine vaccines",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Flu vaccine for all travelers",
+          "quote": "Current-season vaccine is recommended for all travelers.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "MMR for travelers without documented immunity",
+          "quote": "Vaccination is recommended for all international travelers ≥6 months old without documented immunity.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hepatitis A among most common vaccine-preventable travel diseases",
+          "quote": "Hepatitis A is one of the most common vaccine-preventable diseases acquired during travel.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Typhoid highest risk South Asia",
+          "quote": "The highest risk is for travelers going to South Asia (e.g., Bangladesh, Pakistan, and India)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Yellow fever risk areas and entry proof",
+          "quote": "Risk occurs in defined areas of Sub-Saharan Africa and the Amazonian regions of South America. Some countries require proof of vaccination for entry.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Malaria counseling topics",
+          "quote": "discuss malaria transmission, ways to reduce risk, including mosquito-bite avoidance, recommendations for prophylaxis, symptoms of malaria, and the need for prompt medical care if symptoms develop.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Self-treatable conditions include altitude illness, motion sickness, travelers' diarrhea",
+          "quote": "Altitude illness - HIV exposure (occupational) - Jet lag - Malaria - Motion sickness - Travelers' diarrhea",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Travelers' diarrhea self-management and when to seek care (24-36 hours, high fever, dehydration, bloody diarrhea)",
+          "quote": "most symptoms can be managed with fluid replacement plus loperamide or bismuth subsalicylate; consider prescribing travelers antibiotics they can carry with them for use in the event of incapacitating diarrhea",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Seek care at 24-36 hours, high fever, dehydration, bloody diarrhea",
+          "quote": "tell them to seek medical attention if symptoms persist for 24–36 hours or are particularly severe, such as high fevers, dehydration, or bloody diarrhea.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Bring quality drugs; counterfeit drugs abroad",
+          "quote": "the increasing awareness of substandard and counterfeit drugs in pharmacies in certain countries makes it important for travelers to bring quality manufactured drugs with them from a reliable supplier.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Medication interaction review",
+          "quote": "review each traveler's medication list for possible drug-drug interactions",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Travel medical insurance",
+          "quote": "Instruct travelers on how to obtain travel medical insurance",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Carry-on, original bottles, prescription copies",
+          "quote": "keep medications and supplies in carry-on luggage, to keep medications in their original prescription bottles, and to carry copies of their written prescriptions.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "What to bring: Box 1.1.1 itinerary items",
+          "quote": "Countries and specific regions, including order of countries, if >1 country, and layovers - Outbreaks at destination - Rural or urban destinations",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "What to bring: medications, allergies, pregnancy, breastfeeding, immunization history (Box 1.1.1 headings)",
+          "quote": "Immunization History_** - Routine vaccines - Travel vaccines",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Activities examples: diving, high-elevation, animal contact",
+          "quote": "Animal interactions (including visiting farms, touring live animal markets)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "guideline",
+      "cited_as": "Francois Watkins LK, Shih DC, Dorough L. Typhoid and Paratyphoid Fever. In: CDC Yellow Book 2026: Health Information for International Travel. Centers for Disease Control and Prevention. Published April 23, 2025; accessed November 21, 2026.",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/typhoid-and-paratyphoid-fever.html",
+      "record_title": "Typhoid and Paratyphoid Fever | CDC Yellow Book",
+      "record_year": "2025",
+      "article_type": "Clinical guidance chapter",
+      "version_or_date": "Published, updated and reviewed April 23, 2025 (CDC Yellow Book 2026)",
+      "retrieved_with": "Monid firecrawl /scrape (basic proxy), run 01M801VAJ52GFQPR956TNE23TA",
+      "retrieved_at": "2026-11-21",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "VFR travelers at higher typhoid risk, may skip pre-travel care",
+          "quote": "Travelers visiting friends and relatives are at increased risk because they might be less careful with food and water while abroad than other travelers and might not seek pre-travel health consultation or typhoid vaccination.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Vaccine recommended 2 years and older to risk areas",
+          "quote": "Typhoid vaccine is recommended for travelers 2 years and older going to areas where risk for exposure to Typhi is recognized.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Fecal-oral spread via food or water",
+          "quote": "Typhoid and paratyphoid fever are acquired through consumption of water or food contaminated by feces of an acutely infected or convalescent person, or a person with chronic, asymptomatic carriage.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "85% of US cases in travelers, more than 70% from South Asia",
+          "quote": "Approximately 85% of typhoid fever and 80% of paratyphoid fever cases in the United States occur among international travelers; of those, more than 70% are in travelers returning from South Asia",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Trips under 1 week",
+          "quote": "travelers have acquired typhoid fever during visits of <1 week to countries where the disease is highly endemic (e.g., Bangladesh, India, Pakistan).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Map: Mexico shaded; most of North America and Europe unshaded",
+          "quote": "Most countries in North America (except Mexico), most of Europe, and some island nations in the Pacific remain unshaded, meaning the typhoid vaccine is not recommended.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Two licensed US vaccines (Typhim Vi IM, Vivotif oral)",
+          "quote": "Two typhoid vaccines are licensed for use in the United States: Vi capsular polysaccharide vaccine (ViCPS) (Typhim Vi, manufactured by Sanofi Pasteur) for intramuscular use; and live attenuated vaccine (Vivotif",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Both protect 50% to 80%",
+          "quote": "Because these vaccines protect 50–80% of recipients, remind travelers that typhoid immunization is not 100% effective",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Table: ViCPS age 2+, 0.5 mL IM, booster every 2 years",
+          "quote": "Booster | ≥2 years | 0.5 mL, IM injection | 1 | N/A | Every 2 years",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Table: Ty21a age 6+, 4 capsules every other day, booster every 5 years",
+          "quote": "Booster | ≥6 years | 1 capsule, orally every other day2 | 4 | 48 hours | Every 5 years",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "ViCPS at least 2 weeks before travel",
+          "quote": "Primary vaccination with ViCPS consists of one 0.5 mL (25 µg) dose administered intramuscularly ≥2 weeks before travel.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Ty21a: refrigerate not frozen, all 4 doses, swallow whole, cool liquid no warmer than 98.6F, 1 hour before and 2 hours after meal",
+          "quote": "The capsules should be kept refrigerated (not frozen), and all four doses must be taken to achieve maximum efficacy. Each capsule should be swallowed whole (not chewed) and taken with cool liquid no warmer than 37°C (98.6°F)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Meal timing",
+          "quote": "approximately 1 hour before a meal and ≥2 hours after a previous meal.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Alcohol 1 hour before to 2 hours after",
+          "quote": "avoiding alcohol consumption 1 hour before and 2 hours after administration, because alcohol can disintegrate the enteric coating.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Finish at least 1 week before exposure; missed dose undefined",
+          "quote": "Travelers should complete the Ty21a vaccine regimen ≥1 week before potential exposure. The approach for addressing a missed oral vaccine dose or taking a dose late is undefined.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Some think 1 day late may not matter; no studies",
+          "quote": "Some suggest that minor deviations in the dosing schedule (e.g., taking a dose 1 day late) might not alter vaccine efficacy; no studies have shown the effect of such deviations, however.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Incomplete course may not give full protection",
+          "quote": "If travelers do not complete four doses as directed, they might not achieve an optimal immune response.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Side effects of each vaccine",
+          "quote": "Adverse reactions most often associated with ViCPS vaccine include headache, injection-site reactions, fever, and general discomfort. Adverse reactions to Ty21a vaccine are rare and mainly consist of abdominal discomfort, diarrhea, fever, headache, nausea, vomiting, and rash.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Contraindications: fever, gastroenteritis",
+          "quote": "Neither the ViCPS nor the Ty21a vaccine should be given to people with an acute febrile illness; in addition, Ty21a is not recommended for use in people with acute gastroenteritis.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Live vaccine not in pregnancy or immunocompromised including HIV",
+          "quote": "Live vaccines, including Ty21a vaccine, should not be given to pregnant women or immunocompromised people, including those with HIV.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "ViCPS can be considered in pregnancy when benefits outweigh risks",
+          "quote": "consider ViCPS for pregnant women when the benefits of vaccination outweigh potential risks (e.g., when the likelihood of exposure to Typhi is high).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "ViCPS theoretically safer for immunocompromised",
+          "quote": "The intramuscular vaccine (ViCPS) presents a theoretically safer alternative than the live, oral vaccine (Ty21a) for immunocompromised travelers.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Household contacts; no secondary transmission",
+          "quote": "The Ty21a vaccine can be administered to household contacts of immunocompromised people; although vaccine organisms can be shed transiently in the stool of vaccine recipients, secondary transmission of vaccine organisms has not been documented.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "ViCPS only contraindication prior severe reaction",
+          "quote": "The only contraindication to vaccination with ViCPS vaccine is a history of severe local or systemic reactions after a previous dose.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Antibiotics 72 hours before and after",
+          "quote": "Vaccination with the Ty21a vaccine should be delayed for >72 hours after the administration of any antimicrobial agent, and antibiotics should not be given to a patient ≤72 hours after the last dose of the Ty21a vaccine.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Atovaquone-proguanil only 10 or more days after last dose; mefloquine and chloroquine OK",
+          "quote": "atovaquone-proguanil should be administered only if 10 days or more have elapsed since the final dose of Vivotif was ingested; mefloquine and chloroquine can be administered together with the Ty21a vaccine.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Live virus vaccines any interval",
+          "quote": "Ty21a vaccine can be administered simultaneously or at any interval before or after live virus vaccines (e.g., measles-mumps-rubella, oral polio, or yellow fever vaccines).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Large inoculum; food and water precautions after vaccination",
+          "quote": "a large bacterial inoculum can overwhelm vaccine-induced immunity. Therefore, vaccinated travelers should follow recommended food and water precautions",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "No paratyphoid vaccine",
+          "quote": "No vaccines are available for paratyphoid fever",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Incubation 6-30 days; fever to 102-104F by day 3 or 4",
+          "quote": "The typical incubation period for typhoid fever is 6–30 days",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Fever pattern",
+          "quote": "a fever that increases daily from low-grade to 39–40°C (approximately 102–104°F) by the third or fourth day of illness.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Complications in 10% to 15% of hospitalized patients: hemorrhage, perforation",
+          "quote": "Serious complications of typhoid fever occur in 10–15% of hospitalized patients, generally after 2–3 weeks of illness, and include life-threatening gastrointestinal hemorrhage, intestinal perforation, and encephalopathy.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Blood culture is preferred diagnosis (in-person testing)",
+          "quote": "blood culture is therefore the preferred method of diagnosis.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "guideline",
+      "cited_as": "Rosselot G. Last-Minute Travelers. In: CDC Yellow Book 2026: Health Information for International Travel. Centers for Disease Control and Prevention. Published April 23, 2025; accessed November 21, 2026.",
+      "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/last-minute-travelers.html",
+      "record_title": "Last-Minute Travelers | CDC Yellow Book",
+      "record_year": "2025",
+      "article_type": "Clinical guidance chapter",
+      "version_or_date": "Published, updated and reviewed April 23, 2025 (CDC Yellow Book 2026)",
+      "retrieved_with": "Monid firecrawl /scrape (basic proxy), run 01M802119ERFAD4HAVNJ60NV7H",
+      "retrieved_at": "2026-11-21",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Never too late",
+          "quote": "It is never too late for a pre-travel consultation.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Last-minute defined as within 2 weeks",
+          "quote": "the last-minute traveler (LMT) is anyone departing for an international destination on short notice, typically ≤2 weeks.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Full assessment, vaccines as time permits, focused counseling; telemedicine",
+          "quote": "clinics can offer dedicated hours or telemedicine services. Even with very limited time, every LMT should receive a full pre-travel assessment, all indicated vaccinations as time permits, and focused counseling",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Imminent travel: telehealth or secure messaging",
+          "quote": "If travel is imminent, healthcare professionals can still provide telehealth or secure digital messaging for prevention counseling",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Immunocompromised: 3 to 4 months ahead",
+          "quote": "For LMTs who are immunocompromised, timing of vaccination requires special consideration, and they should seek pre-travel services 3 to 4 months before their trip.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Injectable typhoid among single-dose vaccines for LMTs",
+          "quote": "research supports the use of certain single-dose vaccines, if indicated, to initiate protection in LMTs. These include - Hepatitis A (monovalent) - Influenza - Meningococcal (quadrivalent, ACWY) - Polio booster (inactivated) - Typhoid (injectable)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "YF certificate valid 10 days after",
+          "quote": "Documentation of vaccination against YF on the International Certificate of Vaccination or Prophylaxis (ICVP) becomes valid 10 days after administration.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Need travel vaccines? Plan ahead. Travelers' Health. Reviewed February 6, 2026; accessed November 21, 2026.",
+      "url": "https://wwwnc.cdc.gov/travel/page/travel-vaccines",
+      "record_title": "Need travel vaccines? Plan ahead. | Travelers' Health | CDC",
+      "record_year": "2026",
+      "article_type": "Agency public health page",
+      "version_or_date": "Page last reviewed February 6, 2026",
+      "retrieved_with": "Monid firecrawl /scrape (basic proxy), run 01M801X51GMC3VDJBSEM87FXJB",
+      "retrieved_at": "2026-11-21",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Book at least 4-6 weeks ahead",
+          "quote": "Make an appointment with your healthcare provider or a travel health specialist that takes place at least 4-6 weeks before you leave.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Multiple doses: see provider as soon as possible",
+          "quote": "Because some vaccines require multiple doses, it’s best to see your health care provider as soon as possible.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Check destination page",
+          "quote": "Check CDC’s webpage for your destination to see what vaccines or medicines you may need",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Yellow fever only at authorized center",
+          "quote": "If yellow fever vaccine is recommended or required for your destination, you’ll need to go to a vaccine center authorized to give yellow fever vaccinations.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Possible travel vaccines list includes cholera, JE, meningococcal, polio, rabies",
+          "quote": "Japanese encephalitis - MMR (Measles, Mumps, Rubella) - Meningococcal - Monkeypox - Pneumococcal - Polio - Rabies",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Preventing Typhoid Fever and Paratyphoid Fever. Updated and reviewed July 13, 2026; accessed November 21, 2026.",
+      "url": "https://www.cdc.gov/typhoid-fever/prevention/index.html",
+      "record_title": "Preventing Typhoid Fever and Paratyphoid Fever | CDC",
+      "record_year": "2026",
+      "article_type": "Agency public health page",
+      "version_or_date": "Updated and reviewed July 13, 2026",
+      "retrieved_with": "Monid firecrawl /scrape (basic proxy), run 01M801Z5MW377D10MF9W0D9159",
+      "retrieved_at": "2026-11-21",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Visit at least 4 weeks before; both vaccines at least 2 weeks before travel",
+          "quote": "Visit a doctor or travel clinic at least 4 weeks before you travel.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Oral vaccine timing on CDC page",
+          "quote": "When should it be taken? At least 2 weeks before travel When do I need a booster? Every 5 years",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "XDR Pakistan",
+          "quote": "All travelers to Pakistan are at risk of getting XDR typhoid fever. XDR typhoid fever does not respond to most antibiotics used to treat the disease.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Handwashing and 60% sanitizer",
+          "quote": "Use hand sanitizer with at least 60% alcohol if soap and water are not available.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Water and ice",
+          "quote": "Drink unopened, factory-sealed bottled water or boil water for at least 1 minute before using it. - Avoid ice, popsicles, and flavored ices",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hot food, unpeelable produce, street vendors",
+          "quote": "Eat only well-cooked foods that are still hot and steaming. - Avoid raw vegetables and fruits",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Street vendors",
+          "quote": "Avoid food and drinks from street vendors unless they are steaming hot when served.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Fever: see a doctor, tell where and when",
+          "quote": "See a doctor if you have a fever and feel very ill. Tell the doctor where and when you traveled.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Vaccines do not protect against paratyphoid",
+          "quote": "Available vaccines do not protect against paratyphoid fever.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Pack Smart. Travelers' Health. Reviewed September 10, 2024; accessed November 21, 2026.",
+      "url": "https://wwwnc.cdc.gov/travel/page/pack-smart",
+      "record_title": "Pack Smart | Travelers' Health | CDC",
+      "record_year": "2024",
+      "article_type": "Agency public health page",
+      "version_or_date": "Page last reviewed September 10, 2024",
+      "retrieved_with": "Monid firecrawl /scrape (basic proxy), run 01M801X8KN3D03HJ3XJQPFJPNV",
+      "retrieved_at": "2026-11-21",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Document copies",
+          "quote": "Copy of immunization records - Proof of yellow fever vaccination (if required for your trip) - Copies of prescriptions",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Insurance documents",
+          "quote": "Health insurance card and documents (including travel insurance)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hand sanitizer 60%",
+          "quote": "Hand sanitizer (containing at least 60% alcohol) or antibacterial hand wipes",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Repellent DEET or picaridin",
+          "quote": "Insect repellent (with an active ingredient like DEET or picaridin)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Medication restrictions; US Embassy",
+          "quote": "some countries have restrictions on what medications you can bring with you, so check with the U.S. Embassy for the country you are traveling to.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pain and fever medicine; diarrhea medicine",
+          "quote": "Pain and fever medicine (such as acetaminophen or ibuprofen)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "label",
+      "cited_as": "Bavarian Nordic. VIVOTIF (Typhoid Vaccine Live Oral Ty21a) prescribing information. Copyright 2023; accessed November 21, 2026.",
+      "url": "https://vivotif.com/downloads/Vivotif_Prescribing_Information.pdf",
+      "record_title": "VIVOTIF (Typhoid Vaccine Live Oral Ty21a) prescribing information, Bavarian Nordic",
+      "record_year": "2023",
+      "article_type": "Prescribing information (manufacturer PDF)",
+      "version_or_date": "Copyright 2023 Bavarian Nordic A/S; current PDF on manufacturer site",
+      "retrieved_with": "Monid firecrawl /scrape (basic proxy), run 01M8023FQHQV0079PEDAR1VW3N",
+      "retrieved_at": "2026-11-21",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Dosing days 1, 3, 5, 7, 1 hour before meal, drink not exceeding body temperature",
+          "quote": "One capsule is to be swallowed approximately 1 hour before a meal with a cold or luke-warm [temperature not to exceed body temperature",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Days 1, 3, 5 and 7",
+          "quote": "drink on alternate days, e.g., days 1, 3, 5 and 7.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Refrigerate at all times; return between doses",
+          "quote": "The vaccine should be stored under refrigeration at all times. It is essential to replace unused vaccine in the refrigerator between doses.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Do not chew",
+          "quote": "Care should be taken not to chew the vaccine capsule.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Routine vaccination not recommended; selective groups",
+          "quote": "Routine typhoid vaccination is not recommended in the United States of America. Selective immunization against typhoid fever is recommended for the following groups",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Not stable at ambient temperatures (no allowed time out of fridge listed)",
+          "quote": "Vivotif (Typhoid Vaccine Live Oral Ty21a) is not stable when exposed to ambient temperatures.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "483 people, 3 doses; abdominal pain 6.4%, nausea 5.8%, headache 4.8%",
+          "quote": "involving a total of 483 individuals receiving 3 vaccine doses. The overall symptom rates from both studies when vaccinated with capsules were combined and shown to be: abdominal pain (6.4%) , nausea (5.8%) , headache (4.8%)",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Only nausea higher than placebo",
+          "quote": "Only the incidence of nausea occurred at a statistically higher frequency in the vaccinated group as compared to the placebo group",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Post-marketing reactions infrequent and mild",
+          "quote": "Post-marketing surveillance has revealed that adverse reactions are infrequent and mild",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Not for immunodeficient including immunosuppressive drugs",
+          "quote": "The vaccine should not be administered to these persons regardless of benefits.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Oral capsules swallowed by the person (no injection)",
+          "quote": "A complete immunization schedule is the ingestion of 4 vaccine capsules as described above.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "Current manufacturer PDF; extracted text shows no 'Rx only' line, so the guide makes no prescription-status claim. The FDA-hosted copy is an older 2013 Crucell version and is not cited."
+    },
+    {
+      "n": 8,
+      "kind": "agency_page",
+      "cited_as": "US Food and Drug Administration. CBER-Regulated Products: Current Shortages. Accessed November 21, 2026.",
+      "url": "https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/cber-regulated-products-current-shortages",
+      "record_title": "CBER-Regulated Products: Current Shortages | FDA",
+      "record_year": "2026",
+      "article_type": "Agency shortage list",
+      "version_or_date": "Page modified September 28, 2026; read November 21, 2026",
+      "retrieved_with": "Monid firecrawl /scrape (basic proxy), run 01M801WWQBSAYPKF3MKDS8YNFW",
+      "retrieved_at": "2026-11-21",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "FDA current CBER shortage list checked Nov 21, 2026 did not include a typhoid vaccine (absence verified by full-text search of the scraped page for typhoid, Vivotif and Typhim: 0 matches)",
+          "quote": "Current Shortages",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "Absence claim: the full scraped page text was searched for typhoid, Vivotif and Typhim with 0 matches; the guide dates the check to November 21, 2026."
+    },
+    {
+      "n": 9,
+      "kind": "agency_page",
+      "cited_as": "US Food and Drug Administration. CBER-Regulated Products: Resolved Shortages. Accessed November 21, 2026.",
+      "url": "https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/cber-regulated-products-resolved-shortages",
+      "record_title": "CBER-Regulated Products: Resolved Shortages | FDA",
+      "record_year": "2026",
+      "article_type": "Agency shortage list",
+      "version_or_date": "Read November 21, 2026",
+      "retrieved_with": "Monid firecrawl /scrape (basic proxy), run 01M8020SJ18FPET5W9NBB60S1N",
+      "retrieved_at": "2026-11-21",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Vivotif 2021 temporary discontinuation, resolved June 2022",
+          "quote": "In January 2021, Emergent Travel Health, Inc. informed the FDA that they had decided to temporarily discontinue the manufacture and distribution of VIVOTIF® in the United States due to a significant reduction of international travel caused by the COVID-19 pandemic.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Resolved June 2022",
+          "quote": "Resolved:<br>June 2022",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "journal",
+      "cited_as": "Milligan R, Paul M, Richardson M, Neuberger A. Vaccines for preventing typhoid fever. The Cochrane database of systematic reviews. 2018;5(5):CD001261. doi:10.1002/14651858.CD001261.pub4.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29851031/",
+      "pmid": "29851031",
+      "pmcid": "PMC6494485",
+      "doi": "10.1002/14651858.CD001261.pub4",
+      "record_title": "Vaccines for preventing typhoid fever.",
+      "record_journal": "The Cochrane database of systematic reviews",
+      "record_year": "2018",
+      "article_type": "Journal Article; Meta-Analysis; Research Support, Non-U.S. Gov't; Systematic Review",
+      "version_or_date": "Published May 31, 2018; search date February 2018",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-21",
+      "editorial_notices": [],
+      "notes": "PubMed publication types checked: no retraction, correction or expression of concern listed. Scite verify_papers unavailable (monthly quota reached until 2026-12-14). Older than 5 years but newest Cochrane review of these vaccines; cited only for trial efficacy estimates, with its endemic-country, 3-dose, no-traveler limits stated on the page.",
+      "claims": [
+        {
+          "text": "Ty21a 3 doses about 50% cumulative over 2.5 to 3 years",
+          "quote": "A three-dose schedule of Ty21a vaccine probably prevents around half of typhoid cases during the first three years after vaccination (cumulative efficacy 2.5 to 3 years: 50%",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Vi one dose 69% year 1",
+          "quote": "A single dose of Vi polysaccharide vaccine prevents around two-thirds of typhoid cases in the first year after vaccination (year 1: 69%",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "No traveler data; trials in endemic countries",
+          "quote": "All trials but one took place in typhoid-endemic countries. There was no information on vaccination in adults aged over 55 years of age, pregnant women, or travellers.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Symptoms of Malaria. Reviewed March 12, 2024; accessed November 21, 2026.",
+      "url": "https://www.cdc.gov/malaria/symptoms/index.html",
+      "record_title": "Symptoms of Malaria | CDC",
+      "record_year": "2024",
+      "article_type": "Agency public health page",
+      "version_or_date": "Reviewed March 12, 2024",
+      "retrieved_with": "Monid firecrawl /scrape (basic proxy), run 01M801ZBVEX43MXK0WX9S9GY9S",
+      "retrieved_at": "2026-11-21",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Symptoms as late as a year or more",
+          "quote": "Most people begin to feel ill as early as one week after infection or as late as a year or more.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "See provider as soon as possible, even if still traveling",
+          "quote": "Travelers with symptoms of malaria should see a healthcare provider as soon as possible, even if still traveling.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "agency_page",
+      "cited_as": "National Library of Medicine (US). Recognizing medical emergencies. MedlinePlus Medical Encyclopedia. Reviewed January 8, 2025; accessed November 21, 2026.",
+      "url": "https://medlineplus.gov/ency/article/001927.htm",
+      "record_title": "Recognizing medical emergencies | MedlinePlus Medical Encyclopedia",
+      "record_year": "2025",
+      "article_type": "Medical encyclopedia (NLM)",
+      "version_or_date": "Review date January 8, 2025",
+      "retrieved_with": "Monid firecrawl /scrape (basic proxy), run 01M80206XPHGR15YWFM78Z9H7B",
+      "retrieved_at": "2026-11-21",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Adult warning signs: breathing, mental status, coughing up or vomiting blood, fainting, abdominal pain, vomiting or diarrhea",
+          "quote": "Breathing problems (difficulty breathing, shortness of breath) - Change in mental status",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Fainting",
+          "quote": "Fainting or loss of consciousness",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Abdominal pain; vomiting or diarrhea",
+          "quote": "Severe abdominal pain or pressure - Severe or persistent vomiting or diarrhea",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Coughing up or vomiting blood",
+          "quote": "Coughing up or vomiting blood",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Call 911 when life threatening or could become so en route",
+          "quote": "The person's condition could become life threatening on the way to the hospital",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}
