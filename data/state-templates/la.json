@@ -19,11 +19,11 @@
     ],
     "boardStrictness": "standard",
     "culturalRegister": "south",
-    "voiceNotes": "Plain and neighborly, never preachy. Louisiana's standout public health fact is its STI burden, so sexual health pages should be frank and stigma-free, giving numbers without moralizing. Tick pages should be honest that Lyme is uncommon in-state. Three in-network plans (Aetna, UnitedHealthcare, Curative) plus the $79 self-pay option."
+    "voiceNotes": "Plain and neighborly, never preachy. Louisiana's standout public health fact is its STI burden, so sexual health pages should be frank and stigma-free, giving numbers without moralizing. Tick pages should be honest that Lyme is uncommon in-state. Two in-network plans (Aetna, Curative) plus the $79 self-pay option."
   },
   "stateHero": {
-    "openingParagraph": "Adults who are physically in Louisiana during the visit can see Parth Bhavsar, MD, a board-certified family medicine physician who holds a Louisiana medical license, by video. Louisiana's Telehealth Access Act defines telehealth to include real-time interaction between a provider at a distant site and a patient at an originating site, covering assessment, diagnosis and treatment, and it states that an in-person history or exam is not required before a telehealth encounter. TeleDirectMD is in-network with Aetna, UnitedHealthcare and Curative plans in Louisiana, or you can pay a flat $79 at booking with HSA and FSA cards accepted. Prescriptions, when appropriate, are sent electronically to the pharmacy you choose, from New Orleans and Baton Rouge to Shreveport, Lafayette and Monroe.",
-    "stateContextHint": "Licensed in Louisiana. Video visits for adults located in Louisiana, in-network with Aetna, UnitedHealthcare and Curative, or $79 flat self-pay.",
+    "openingParagraph": "Adults who are physically in Louisiana during the visit can see Parth Bhavsar, MD, a board-certified family medicine physician who holds a Louisiana medical license, by video. Louisiana's Telehealth Access Act defines telehealth to include real-time interaction between a provider at a distant site and a patient at an originating site, covering assessment, diagnosis and treatment, and it states that an in-person history or exam is not required before a telehealth encounter. TeleDirectMD is in-network with Aetna and Curative plans in Louisiana, or you can pay a flat $79 at booking with HSA and FSA cards accepted. Prescriptions, when appropriate, are sent electronically to the pharmacy you choose, from New Orleans and Baton Rouge to Shreveport, Lafayette and Monroe.",
+    "stateContextHint": "Licensed in Louisiana. Video visits for adults located in Louisiana, in-network with Aetna and Curative, or $79 flat self-pay.",
     "saturation": {
       "stateNameMentions": 5,
       "stateEntityMentions": 6
@@ -38,10 +38,10 @@
     ]
   },
   "statePricing": {
-    "context": "In Louisiana you can use insurance or pay yourself. TeleDirectMD is in-network with Aetna, UnitedHealthcare and Curative plans in the state; your plan's own cost sharing applies, and coverage depends on your plan. Without those plans, the visit is a flat $79 paid at booking, and HSA and FSA cards are accepted. Census figures put 9.9 percent of Louisianans under 65 without health insurance. The Louisiana Department of Insurance points residents to the Health Insurance Marketplace for individual plans, and Louisiana Medicaid, which enrolled more than 1.8 million people in 2025, takes applications online, by phone, by mail or in person. TeleDirectMD does not accept Medicaid.",
+    "context": "In Louisiana you can use insurance or pay yourself. TeleDirectMD is in-network with Aetna and Curative plans in the state; your plan's own cost sharing applies, and coverage depends on your plan. Without those plans, the visit is a flat $79 paid at booking, and HSA and FSA cards are accepted. Census figures put 9.9 percent of Louisianans under 65 without health insurance. The Louisiana Department of Insurance points residents to the Health Insurance Marketplace for individual plans, and Louisiana Medicaid, which enrolled more than 1.8 million people in 2025, takes applications online, by phone, by mail or in person. TeleDirectMD does not accept Medicaid.",
     "additionalNotes": [
       "$79 flat self-pay, paid at booking.",
-      "In-network in Louisiana: Aetna, UnitedHealthcare, Curative (plan types listed under insurance).",
+      "In-network in Louisiana: Aetna, Curative (plan types listed under insurance).",
       "HSA and FSA cards accepted.",
       "Medicaid and Managed Medicaid are not accepted."
     ]
@@ -205,20 +205,13 @@
   },
   "stateInsurance": {
     "mode": "multi-payer",
-    "selfPayDisclosure": "If you do not have Aetna, UnitedHealthcare or Curative coverage, or prefer not to use it, a Louisiana visit is a flat $79 paid at booking, with HSA and FSA cards accepted and no follow-up bill for the visit. TeleDirectMD does not accept Louisiana Medicaid, Managed Medicaid or D-SNP plans. Whether a visit is covered, and what you owe, depends on your plan; TeleDirectMD cannot promise coverage.",
+    "selfPayDisclosure": "If you do not have Aetna or Curative coverage, or prefer not to use it, a Louisiana visit is a flat $79 paid at booking, with HSA and FSA cards accepted and no follow-up bill for the visit. TeleDirectMD does not accept Louisiana Medicaid, Managed Medicaid or D-SNP plans. Whether a visit is covered, and what you owe, depends on your plan; TeleDirectMD cannot promise coverage.",
     "payers": [
       {
         "name": "Aetna",
         "anchorId": "aetna-coverage",
         "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
         "validFrom": "2026-06-15",
-        "copayNote": "Your plan's cost sharing applies."
-      },
-      {
-        "name": "UnitedHealthcare",
-        "anchorId": "uhc-coverage",
-        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
-        "validFrom": "2026-03-24",
         "copayNote": "Your plan's cost sharing applies."
       },
       {
@@ -237,7 +230,7 @@
     },
     {
       "question": "Is TeleDirectMD in-network with insurance in Louisiana?",
-      "answer": "TeleDirectMD is in-network in Louisiana with Aetna (PPO, HMO, EPO, POS and Medicare Advantage), UnitedHealthcare (the same plan types) and Curative commercial plans. Your plan's own cost sharing applies and coverage depends on your plan. Louisiana Medicaid and Managed Medicaid are not accepted. Without those plans, the visit is a flat $79 paid at booking, and HSA and FSA cards work."
+      "answer": "TeleDirectMD is in-network in Louisiana with Aetna (PPO, HMO, EPO, POS and Medicare Advantage) and Curative commercial plans. Your plan's own cost sharing applies and coverage depends on your plan. Louisiana Medicaid and Managed Medicaid are not accepted. Without those plans, the visit is a flat $79 paid at booking, and HSA and FSA cards work."
     },
     {
       "question": "How can I verify Dr. Bhavsar's Louisiana medical license?",

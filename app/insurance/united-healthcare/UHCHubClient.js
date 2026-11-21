@@ -14,27 +14,23 @@ const UHC_STATES = [
   { code:"AZ", name:"Arizona", url:"/az/" },
   { code:"CA", name:"California", url:"/ca/" },
   { code:"CO", name:"Colorado", url:"/co/" },
-  { code:"FL", name:"Florida", url:"/fl/" },
   { code:"GA", name:"Georgia", url:"/ga/" },
   { code:"IL", name:"Illinois", url:"/il/" },
-  { code:"LA", name:"Louisiana", url:"/la/" },
-  { code:"MI", name:"Michigan", url:"/mi/" },
   { code:"MN", name:"Minnesota", url:"/mn/" },
   { code:"NC", name:"North Carolina", url:"/nc/" },
   { code:"NJ", name:"New Jersey", url:"/nj/" },
   { code:"OH", name:"Ohio", url:"/oh/" },
   { code:"OK", name:"Oklahoma", url:"/ok/" },
   { code:"PA", name:"Pennsylvania", url:"/pa/" },
-  { code:"TN", name:"Tennessee", url:"/tn/" },
   { code:"TX", name:"Texas", url:"/tx/", newBadge:"New · June 2026" },
   { code:"WA", name:"Washington", url:"/wa/" },
 ];
 
 const UHC_FAQS = [
-  { q: "Which UnitedHealthcare plans are in-network with TeleDirectMD?", a: "TeleDirectMD is in-network with UnitedHealthcare PPO, HMO, EPO, POS, and Medicare Advantage plans in 17 states. Three states are commercial-only and exclude Medicare Advantage: Illinois, Minnesota, and Texas. Colorado excludes UHC Navigate, UHC Charter, and Colorado Doctors Plan products. UHC Community Plan (Medicaid), Dual Complete (D-SNP), and Optum behavioral-only plans are not in-network in any state." },
+  { q: "Which UnitedHealthcare plans are in-network with TeleDirectMD?", a: "TeleDirectMD is in-network with UnitedHealthcare PPO, HMO, EPO, POS, and Medicare Advantage plans in 13 states. Three states are commercial-only and exclude Medicare Advantage: Illinois, Minnesota, and Texas. Colorado excludes UHC Navigate, UHC Charter, and Colorado Doctors Plan products. UHC Community Plan (Medicaid), Dual Complete (D-SNP), and Optum behavioral-only plans are not in-network in any state." },
   { q: "Is the contract held with UnitedHealthcare or Optum?", a: "Our medical-benefit contract is with UnitedHealthcare (payer ID 87726). Optum Care, Optum Behavioral Health, and OptumRx are separate Optum-family entities — only UnitedHealthcare's medical-benefit network covers our visits. If your card says 'Optum' only, call the member number on the back to confirm UHC medical benefits before booking." },
   { q: "Colorado UHC members: which products are excluded?", a: "If you have UHC Navigate, UHC Charter, or the Colorado Doctors Plan, you are not in-network with TeleDirectMD in Colorado — these are narrow-network products UHC limits to specific in-state physical clinics. Standard UHC Choice, Choice Plus, Options PPO, and UHC Medicare Advantage in Colorado are in-network." },
-  { q: "Illinois / Minnesota / Texas UHC: why is Medicare Advantage excluded?", a: "Our UnitedHealthcare contract in Illinois, Minnesota, and Texas is commercial-only — UHC and AARP UnitedHealthcare Medicare Advantage plans are not included in those three state contracts. UHC Medicare Advantage is in-network in our other 14 UHC states. If you have AARP UHC Medicare Advantage in IL/MN/TX, use the $79 self-pay rate." },
+  { q: "Illinois / Minnesota / Texas UHC: why is Medicare Advantage excluded?", a: "Our UnitedHealthcare contract in Illinois, Minnesota, and Texas is commercial-only — UHC and AARP UnitedHealthcare Medicare Advantage plans are not included in those three state contracts. UHC Medicare Advantage is in-network in our other 10 UHC states. If you have AARP UHC Medicare Advantage in IL/MN/TX, use the $79 self-pay rate." },
   { q: "What is my UHC telehealth copay?", a: "UHC commercial telehealth copays are typically $0–$40; many employer plans waive the copay for telehealth entirely. AARP UnitedHealthcare Medicare Advantage typically applies $0–$20. Log into myuhc.com or the UHC app, or call the member services number on your card, to see your exact copay before booking." },
   { q: "Will my prescription work with OptumRx?", a: "Yes. We send e-prescriptions to any pharmacy you select — OptumRx mail-order, OptumRx home delivery, or any retail pharmacy in UHC's network. Your usual UHC pharmacy benefit and copay apply." },
   { q: "Can I use a UHC HRA, HSA, or FSA?", a: "Yes. Telehealth visits at TeleDirectMD are eligible expenses for UHC HRA, HSA, and FSA accounts whether the visit is billed to UHC or paid $79 self-pay. Your UHC debit card runs at booking." },
@@ -63,7 +59,7 @@ const CONDITIONS_COVERED = [
 const SCHEMA = {
   "@context":"https://schema.org",
   "@graph":[
-    { "@type":"MedicalOrganization","@id":"https://teledirectmd.com/#organization","name":"TeleDirectMD","url":"https://teledirectmd.com","description":"Physician-led telemedicine practice accepting UnitedHealthcare PPO, HMO, EPO, POS, and Medicare Advantage plans in 17 states.","aggregateRating": getAggregateRating() },
+    { "@type":"MedicalOrganization","@id":"https://teledirectmd.com/#organization","name":"TeleDirectMD","url":"https://teledirectmd.com","description":"Physician-led telemedicine practice accepting UnitedHealthcare PPO, HMO, EPO, POS, and Medicare Advantage plans in 13 states.","aggregateRating": getAggregateRating() },
     { "@type":"Physician","@id":"https://teledirectmd.com/about/#physician","name":"Parth Bhavsar, MD","identifier":{"@type":"PropertyValue","name":"NPI","value":"1104323203"},"medicalSpecialty":"Family Medicine","acceptsInsurance":[{"@type":"HealthInsurancePlan","name":"UnitedHealthcare Commercial Plans"}], ...getReviewBlock() },
     { "@type":"FAQPage","mainEntity":UHC_FAQS.map(f=>({ "@type":"Question","name":f.q,"acceptedAnswer":{"@type":"Answer","text":f.a.replace(/<[^>]+>/g,'')} })) },
     { "@type":"WebPage","@id":"https://teledirectmd.com/insurance/united-healthcare#webpage","url":"https://teledirectmd.com/insurance/united-healthcare","name":"Online Doctor That Accepts UnitedHealthcare | TeleDirectMD","speakable":{"@type":"SpeakableSpecification","cssSelector":["[data-speakable]"]} },
@@ -81,7 +77,7 @@ const SCHEMA = {
           "@type": "ItemList",
           "@id": "https://teledirectmd.com/insurance/united-healthcare#statelist",
           "name": "States where TeleDirectMD is in-network with United Healthcare",
-          "numberOfItems": 11,
+          "numberOfItems": 9,
           "itemListOrder": "https://schema.org/ItemListOrderAscending",
           "itemListElement": [
                 {
@@ -135,12 +131,6 @@ const SCHEMA = {
                 {
                       "@type": "ListItem",
                       "position": 9,
-                      "name": "TeleDirectMD x United Healthcare - Tennessee",
-                      "url": "https://teledirectmd.com/tn/"
-                },
-                {
-                      "@type": "ListItem",
-                      "position": 10,
                       "name": "TeleDirectMD x United Healthcare - Washington",
                       "url": "https://teledirectmd.com/wa/"
                 }
@@ -187,7 +177,7 @@ export default function UHCHubClient() {
             Online Doctor Visits Covered<br />by UnitedHealthcare
           </h1>
           <p data-speakable="true" style={{ fontFamily:B.fb, fontSize:"clamp(16px, 2.5vw, 19px)", color:"rgba(255,255,255,0.75)", lineHeight:1.6, margin:"0 0 28px", maxWidth:600 }}>
-            TeleDirectMD is in-network with UnitedHealthcare PPO, HMO, EPO, POS, and Medicare Advantage plans in 17 states. Same-day video visits with a board-certified physician. Standard UHC copay applies.
+            TeleDirectMD is in-network with UnitedHealthcare PPO, HMO, EPO, POS, and Medicare Advantage plans in 13 states. Same-day video visits with a board-certified physician. Standard UHC copay applies.
           </p>
           <div style={{ display:"flex", flexWrap:"wrap", gap:12 }}>
             <a href="https://www.teledirectmd.com/book-online/" target="_blank" rel="noopener"
@@ -207,13 +197,13 @@ export default function UHCHubClient() {
         {/* QUICK ANSWER — AI visibility */}
         <AnswerBlock
           question="Is TeleDirectMD in-network with UnitedHealthcare?"
-          answer="Yes. TeleDirectMD accepts UnitedHealthcare PPO, HMO, EPO, POS, and Medicare Advantage plans in 17 states. Medicare Advantage is not in-network in Illinois, Minnesota, or Texas. Book a same-day video visit with Dr. Parth Bhavsar, MD — your standard UHC copay applies. Bring your UHC member ID at booking and we will verify your benefits before the visit."
+          answer="Yes. TeleDirectMD accepts UnitedHealthcare PPO, HMO, EPO, POS, and Medicare Advantage plans in 13 states. Medicare Advantage is not in-network in Illinois, Minnesota, or Texas. Book a same-day video visit with Dr. Parth Bhavsar, MD — your standard UHC copay applies. Bring your UHC member ID at booking and we will verify your benefits before the visit."
           color={B.teal}
         />
 
         <section style={{ marginBottom:48 }}>
           <h2 style={{ fontFamily:B.fd, fontSize:26, fontWeight:700, color:B.navy, margin:"0 0 8px" }}>States Where We Accept UnitedHealthcare</h2>
-          <p style={{ fontSize:15, color:B.text, margin:"0 0 24px", lineHeight:1.6 }}>TeleDirectMD is in-network with UnitedHealthcare PPO, HMO, EPO, POS, and Medicare Advantage plans in 17 states. Click your state for detailed coverage information.</p>
+          <p style={{ fontSize:15, color:B.text, margin:"0 0 24px", lineHeight:1.6 }}>TeleDirectMD is in-network with UnitedHealthcare PPO, HMO, EPO, POS, and Medicare Advantage plans in 13 states. Click your state for detailed coverage information.</p>
           <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(160px, 1fr))", gap:10 }}>
             {UHC_STATES.map((st) => (
               <a key={st.code} href={st.url}

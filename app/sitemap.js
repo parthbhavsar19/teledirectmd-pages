@@ -54,8 +54,6 @@ const STATIC_ROUTES = [
   // Anthem Blue Cross CA: single state page, no condition fan-out, so it is
   // listed here instead of INSURER_STATES (which would emit fan-out URLs).
   { path: '/insurance/blue-cross-blue-shield/california/', priority: 0.9, changefreq: 'weekly' },
-  // Florida Blue dedicated hub — June 2026 (single-state BCBS licensee)
-  { path: '/insurance/florida-blue', priority: 0.95, changefreq: 'weekly' },
   // Alaska rural telemedicine package — August 2026
   // (Alaska wildfire health guide auto-enumerated from public/health-guides/)
   { path: '/partners/tribal-health-alaska', priority: 0.7, changefreq: 'monthly' },

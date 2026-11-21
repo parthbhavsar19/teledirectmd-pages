@@ -64,7 +64,7 @@ export default function InsuranceConditionClient({ insurerSlug, conditionSlug })
     },
     {
       q: `What ${shortName} plans are NOT accepted at TeleDirectMD?`,
-      a: `The following ${shortName} plan types are not currently accepted: ${insurer.notAccepted?.join(', ')}. ${insurerSlug === 'blue-cross-blue-shield' ? "Note that BCBS varies by state affiliate — TeleDirectMD is in-network with specific state affiliates (Florida Blue, Anthem BCBS GA, BCBS IL, Highmark BCBS PA, BCBS TX) only." : ""} If your specific plan is not in-network, self-pay is available for $79 flat — same physician and quality of care.`,
+      a: `The following ${shortName} plan types are not currently accepted: ${insurer.notAccepted?.join(', ')}. ${insurerSlug === 'blue-cross-blue-shield' ? "Note that BCBS varies by state affiliate — TeleDirectMD is in-network with specific state affiliates (BCBS AZ, Anthem Blue Cross CA, Anthem BCBS GA, BCBS IL, Highmark BCBS PA, BCBS TX) only." : ""} If your specific plan is not in-network, self-pay is available for $79 flat — same physician and quality of care.`,
     },
     {
       q: `How does the ${insurer.name} billing work for a telehealth visit at TeleDirectMD?`,

@@ -21,9 +21,9 @@
     "voiceNotes": "Precise and calm. Florida's credential language is regulated (registration, not licensure), so every credential sentence uses the registration wording exactly. Many readers are visitors or seasonal residents; location during the visit is the eligibility test. Florida pharmacists can test and treat some conditions; present that as a real option. Inferred values: density, regulation and boardStrictness are judgment calls."
   },
   "stateHero": {
-    "openingParagraph": "Florida lets physicians from other states care for patients located in Florida by telehealth once they register with the state, and Parth Bhavsar, MD, a board-certified family medicine physician, holds a Florida Telehealth Provider Registration from the Florida Department of Health under Fla. Stat. 456.47(4). His primary medical license is in Georgia. Adults 18 and older who are physically in Florida, from Jacksonville and Tallahassee to Tampa, Orlando and Miami, can book a video visit. Florida Blue, Aetna, UnitedHealthcare and Curative plans are in-network, and anyone can choose the flat $79 self-pay price, paid at booking, with HSA and FSA cards accepted.",
-    "conditionPageOpener": "Adults physically in Florida can see Parth Bhavsar, MD by video under a Florida Telehealth Provider Registration. In-network with Florida Blue, Aetna, UnitedHealthcare and Curative, or a flat $79 self-pay. Prescriptions, when appropriate, go electronically to your pharmacy.",
-    "stateContextHint": "Registered Florida telehealth provider. Video visits for adults located in Florida, residents and visitors. Four in-network insurers or a flat $79 self-pay.",
+    "openingParagraph": "Florida lets physicians from other states care for patients located in Florida by telehealth once they register with the state, and Parth Bhavsar, MD, a board-certified family medicine physician, holds a Florida Telehealth Provider Registration from the Florida Department of Health under Fla. Stat. 456.47(4). His primary medical license is in Georgia. Adults 18 and older who are physically in Florida, from Jacksonville and Tallahassee to Tampa, Orlando and Miami, can book a video visit. Aetna commercial and Curative plans are in-network, and anyone can choose the flat $79 self-pay price, paid at booking, with HSA and FSA cards accepted.",
+    "conditionPageOpener": "Adults physically in Florida can see Parth Bhavsar, MD by video under a Florida Telehealth Provider Registration. In-network with Aetna (commercial plans) and Curative, or a flat $79 self-pay. Prescriptions, when appropriate, go electronically to your pharmacy.",
+    "stateContextHint": "Registered Florida telehealth provider. Video visits for adults located in Florida, residents and visitors. Two in-network insurers or a flat $79 self-pay.",
     "saturation": {
       "stateNameMentions": 6,
       "stateEntityMentions": 6
@@ -39,11 +39,11 @@
     ]
   },
   "statePricing": {
-    "context": "Florida visits can be billed to four insurers: Florida Blue commercial plans (PPO, HMO, EPO and POS; Florida Blue Medicare Advantage, Medicaid and the Federal Employee Program are not in-network), Aetna and UnitedHealthcare plans including Medicare Advantage, and Curative commercial plans. Without one of those, the visit is a flat $79 self-pay, paid at booking, and HSA and FSA cards are accepted. Floridians who buy their own coverage use HealthCare.gov, and the Agency for Health Care Administration is responsible for Florida Medicaid, including Statewide Medicaid Managed Care. TeleDirectMD does not take Medicaid.",
+    "context": "Florida visits can be billed to two insurers: Aetna commercial plans (PPO, HMO, EPO and POS; Aetna Medicare plans exclude primary care in Florida) and Curative commercial plans. Without one of those, the visit is a flat $79 self-pay, paid at booking, and HSA and FSA cards are accepted. Floridians who buy their own coverage use HealthCare.gov, and the Agency for Health Care Administration is responsible for Florida Medicaid, including Statewide Medicaid Managed Care. TeleDirectMD does not take Medicaid.",
     "additionalNotes": [
       "$79 flat self-pay option, paid at booking.",
       "HSA and FSA cards accepted.",
-      "In-network in Florida: Florida Blue (commercial only), Aetna, UnitedHealthcare, Curative."
+      "In-network in Florida: Aetna (commercial only), Curative."
     ]
   },
   "stateTreatmentContext": {
@@ -175,28 +175,14 @@
   },
   "stateInsurance": {
     "mode": "multi-payer",
-    "selfPayDisclosure": "TeleDirectMD is in-network in Florida with Florida Blue for commercial PPO, HMO, EPO and POS plans (Florida Blue Medicare Advantage, Medicaid and FEP are not in-network), with Aetna and UnitedHealthcare including Medicare Advantage, and with Curative commercial plans. What you pay depends on your plan. Anyone can choose the flat $79 self-pay price instead, paid at booking, with HSA and FSA cards accepted. Medicaid, Medicaid managed care and D-SNP plans are not accepted, and TeleDirectMD cannot promise how any plan will pay.",
+    "selfPayDisclosure": "TeleDirectMD is in-network in Florida with Aetna for commercial PPO, HMO, EPO and POS plans (Aetna Medicare plans exclude primary care in Florida) and with Curative commercial plans. What you pay depends on your plan. Anyone can choose the flat $79 self-pay price instead, paid at booking, with HSA and FSA cards accepted. Medicaid, Medicaid managed care and D-SNP plans are not accepted, and TeleDirectMD cannot promise how any plan will pay.",
     "payers": [
-      {
-        "name": "Florida Blue (BCBS of Florida)",
-        "anchorId": "florida-blue-coverage",
-        "planNames": "PPO, HMO, EPO, POS (commercial only; Medicare Advantage, Medicaid and FEP not in-network)",
-        "validFrom": "2026-02-01",
-        "copayNote": "Cost sharing depends on your Florida Blue plan."
-      },
       {
         "name": "Aetna",
         "anchorId": "aetna-coverage",
-        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
+        "planNames": "PPO, HMO, EPO, POS (commercial only; Aetna Medicare plans exclude primary care in Florida)",
         "validFrom": "2026-02-11",
         "copayNote": "Cost sharing depends on your Aetna plan."
-      },
-      {
-        "name": "UnitedHealthcare",
-        "anchorId": "uhc-coverage",
-        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
-        "validFrom": "2026-03-12",
-        "copayNote": "Cost sharing depends on your UnitedHealthcare plan."
       },
       {
         "name": "Curative",
@@ -217,8 +203,8 @@
       "answer": "No. Florida law says a provider registered under Section 456.47(4) may not open an office in Florida or provide in-person care to patients located in Florida. Care is by video only. If your condition needs a hands-on exam, testing or imaging, you will be referred to an in-person provider in your area."
     },
     {
-      "question": "Does TeleDirectMD take Florida Blue?",
-      "answer": "Yes, for Florida Blue commercial PPO, HMO, EPO and POS plans. Florida Blue Medicare Advantage, Medicaid and Federal Employee Program plans are not in-network. Aetna, UnitedHealthcare (including Medicare Advantage) and Curative are also in-network in Florida. Anyone can choose the flat $79 self-pay price instead, paid at booking."
+      "question": "Which insurance does TeleDirectMD take in Florida?",
+      "answer": "Aetna commercial PPO, HMO, EPO and POS plans and Curative commercial plans are in-network in Florida. Aetna Medicare plans exclude primary care in Florida, so Aetna Medicare Advantage is not in-network for these visits. Anyone can choose the flat $79 self-pay price instead, paid at booking."
     },
     {
       "question": "Can a Florida pharmacist treat my flu or strep instead?",
@@ -234,7 +220,7 @@
       "stateConditionParagraph": "The Florida Department of Health says flu antiviral medicines must be given within 48 hours of the onset of illness. Florida gives you two quick routes. A pharmacist with a Board of Pharmacy certification, working under a written protocol with a supervising physician, may test for and treat influenza under Fla. Stat. 465.1895. Or a video visit for adults physically in Florida can review your symptoms and risk factors, decide whether an antiviral is appropriate and send it electronically to your pharmacy. Trouble breathing, chest pain, confusion or being unable to keep fluids down needs 911. Flat $79 or in-network."
     },
     "sore-throat-treatment-online": {
-      "stateConditionParagraph": "In Florida, a strep test does not always require a clinic visit: Fla. Stat. 465.1895 lets a certified pharmacist test for and treat streptococcus under a written protocol with a supervising physician. A video visit is the other route. For adults physically in Florida, it can sort out whether your sore throat sounds viral or needs a strep test, point you to a pharmacy or urgent care for the swab when one is needed, and treat when appropriate. Trouble breathing, drooling, a muffled voice, trouble opening your mouth or fast-growing neck swelling needs emergency care. Flat $79 or in-network with Florida Blue, Aetna, UnitedHealthcare or Curative."
+      "stateConditionParagraph": "In Florida, a strep test does not always require a clinic visit: Fla. Stat. 465.1895 lets a certified pharmacist test for and treat streptococcus under a written protocol with a supervising physician. A video visit is the other route. For adults physically in Florida, it can sort out whether your sore throat sounds viral or needs a strep test, point you to a pharmacy or urgent care for the swab when one is needed, and treat when appropriate. Trouble breathing, drooling, a muffled voice, trouble opening your mouth or fast-growing neck swelling needs emergency care. Flat $79 or in-network with Aetna commercial plans or Curative."
     },
     "tinea-treatment-online": {
       "stateConditionParagraph": "Florida's pharmacist test-and-treat law, Fla. Stat. 465.1895, names ringworm and athlete's foot among the minor skin conditions a certified pharmacist may treat under a physician protocol. When the rash keeps coming back or you want a physician's look, a video visit for adults physically in Florida can review clear photos of a ring-shaped or scaly rash on the body, groin or feet and recommend treatment, including a prescription when appropriate. Scalp rashes, thick or crumbling nails, widespread infection or signs of a deeper skin infection need in-person care. Flat $79 or in-network."

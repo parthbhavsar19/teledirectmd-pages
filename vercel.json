@@ -5,6 +5,34 @@
   "trailingSlash": true,
   "routes": [
     {
+      "src": "/insurance/florida-blue/?",
+      "headers": {
+        "Location": "/insurance/blue-cross-blue-shield/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/insurance/united-healthcare/tennessee/?",
+      "headers": {
+        "Location": "/insurance/united-healthcare/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/insurance/blue-cross-blue-shield/florida/?",
+      "headers": {
+        "Location": "/insurance/blue-cross-blue-shield/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/insurance/blue-cross-blue-shield/michigan/?",
+      "headers": {
+        "Location": "/insurance/blue-cross-blue-shield/"
+      },
+      "status": 301
+    },
+    {
       "src": "/(.*)",
       "continue": true,
       "headers": {
@@ -5185,6 +5213,20 @@
       "src": "/wy/online-doctor-visits/?",
       "headers": {
         "Location": "/wy/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/insurance/united-healthcare/tennessee/.+",
+      "headers": {
+        "Location": "/insurance/united-healthcare/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/insurance/blue-cross-blue-shield/(florida|michigan)/.+",
+      "headers": {
+        "Location": "/insurance/blue-cross-blue-shield/"
       },
       "status": 301
     },
