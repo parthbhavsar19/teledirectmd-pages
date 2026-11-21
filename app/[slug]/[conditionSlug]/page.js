@@ -9,6 +9,7 @@ import { CitableSummaryBlock } from '../../components/CitableSummary';
 import StatePicker from '../../components/StatePicker';
 import FaqAccordion from '../../components/FaqAccordion';
 import { FlCredentialBlock, FlFooterCompliance } from '../../components/FlCompliance';
+import { TxComplaintNoticeLink } from '../../components/TxComplaintNotice';
 import PressStrip from '../../components/PressStrip';
 import CaUtiTreatmentOnline from './CaUtiTreatmentOnline';
 import CaYeastInfectionTreatmentOnline from './CaYeastInfectionTreatmentOnline';
@@ -697,6 +698,7 @@ export default async function ConditionPage({ params }) {
               {/* FL: Clause A1 (credential disclosure) + A3 (verify-link — placement 1 of 3).
                   Required by Fla. Stat. § 456.47(4)(c). Approved 2026-06-07. */}
               {state.abbr === 'FL' && <FlCredentialBlock />}
+              {state.abbr === 'TX' && <TxComplaintNoticeLink />}
               <p className="cpr-hero-icd">
                 <strong>ICD-10 commonly used:</strong> {condition.hero.icd10Display}
               </p>
