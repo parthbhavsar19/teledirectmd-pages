@@ -1,0 +1,297 @@
+{
+  "stateCode": "LA",
+  "stateName": "Louisiana",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "mid",
+    "regulation": "standard",
+    "payerLandscape": "multi-payer",
+    "epidemiology": [
+      "sti-highest-chlamydia-rate",
+      "lyme-low-mostly-travel",
+      "flu-winter-peak",
+      "rabies-skunk-variant"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "south",
+    "voiceNotes": "Plain and neighborly, never preachy. Louisiana's standout public health fact is its STI burden, so sexual health pages should be frank and stigma-free, giving numbers without moralizing. Tick pages should be honest that Lyme is uncommon in-state. Three in-network plans (Aetna, UnitedHealthcare, Curative) plus the $79 self-pay option."
+  },
+  "stateHero": {
+    "openingParagraph": "Adults who are physically in Louisiana during the visit can see Parth Bhavsar, MD, a board-certified family medicine physician who holds a Louisiana medical license, by video. Louisiana's Telehealth Access Act defines telehealth to include real-time interaction between a provider at a distant site and a patient at an originating site, covering assessment, diagnosis and treatment, and it states that an in-person history or exam is not required before a telehealth encounter. TeleDirectMD is in-network with Aetna, UnitedHealthcare and Curative plans in Louisiana, or you can pay a flat $79 at booking with HSA and FSA cards accepted. Prescriptions, when appropriate, are sent electronically to the pharmacy you choose, from New Orleans and Baton Rouge to Shreveport, Lafayette and Monroe.",
+    "stateContextHint": "Licensed in Louisiana. Video visits for adults located in Louisiana, in-network with Aetna, UnitedHealthcare and Curative, or $79 flat self-pay.",
+    "saturation": {
+      "stateNameMentions": 5,
+      "stateEntityMentions": 6
+    }
+  },
+  "stateEligibility": {
+    "intro": "TeleDirectMD sees adults 18 and older who are physically in Louisiana when the video visit starts. Louisiana law frames telehealth around where the patient is: R.S. 40:1223.3 describes care delivered to a patient at an originating site, and R.S. 40:1223.4 directs licensing boards to regulate out-of-state providers who treat persons at originating sites in Louisiana, requiring at minimum an unrestricted, unencumbered license in good standing. That is why a Louisiana license, not your mailing address, decides whether you can be seen here.",
+    "localTriggers": [
+      "You must be physically in Louisiana during the visit. A Louisiana resident on a trip out of state is seen under that state's rules, and only if TeleDirectMD serves it.",
+      "Louisiana law does not require an in-person exam before a telehealth encounter (R.S. 40:1223.4), so a first visit can be by video when the condition fits.",
+      "Adults 18 and older only. TeleDirectMD does not see children in Louisiana or anywhere else."
+    ]
+  },
+  "statePricing": {
+    "context": "In Louisiana you can use insurance or pay yourself. TeleDirectMD is in-network with Aetna, UnitedHealthcare and Curative plans in the state; your plan's own cost sharing applies, and coverage depends on your plan. Without those plans, the visit is a flat $79 paid at booking, and HSA and FSA cards are accepted. Census figures put 9.9 percent of Louisianans under 65 without health insurance. The Louisiana Department of Insurance points residents to the Health Insurance Marketplace for individual plans, and Louisiana Medicaid, which enrolled more than 1.8 million people in 2025, takes applications online, by phone, by mail or in person. TeleDirectMD does not accept Medicaid.",
+    "additionalNotes": [
+      "$79 flat self-pay, paid at booking.",
+      "In-network in Louisiana: Aetna, UnitedHealthcare, Curative (plan types listed under insurance).",
+      "HSA and FSA cards accepted.",
+      "Medicaid and Managed Medicaid are not accepted."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "When a prescription is appropriate, TeleDirectMD sends it electronically to the Louisiana pharmacy you pick at booking. Controlled substances are never part of a TeleDirectMD visit. Louisiana's Telehealth Access Act addresses them separately (R.S. 40:1223.4 includes a provision on prescribing a controlled dangerous substance before an in-person history or exam), and the Louisiana Board of Pharmacy runs the state's Prescription Monitoring Program, which collects Schedule II through V prescriptions and drugs of concern. Because TeleDirectMD does not prescribe those medicines, Louisiana visits focus on antibiotics, antivirals, skin treatments, refills of stable non-controlled medicines and similar care.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "Louisiana's public health data point to sexual health first. The Louisiana Department of Health's 2023 update counted 36,242 new chlamydia diagnoses, a rate of 789.5 per 100,000 and the highest in the nation, with gonorrhea ranked second and primary and secondary syphilis eighth. Flu is sharply seasonal: in the department's weekly respiratory report, influenza-like illness made up 7.6 percent of emergency department visits in the week ending January 10, 2026, against 0.8 percent in late June. Lyme disease is uncommon, and most cases reported in Louisiana followed out-of-state travel. This context is for awareness only and is not a substitute for an individual evaluation.",
+    "citations": [
+      {
+        "label": "Louisiana R.S. 40:1223.3, Telehealth Access Act definitions",
+        "url": "https://legis.la.gov/Legis/Law.aspx?d=964868",
+        "scope": "all"
+      },
+      {
+        "label": "Louisiana R.S. 40:1223.4, Telehealth; rulemaking required",
+        "url": "https://legis.la.gov/legis/Law.aspx?d=964869",
+        "scope": "all"
+      },
+      {
+        "label": "Louisiana R.S. 37:1262, Medical Practice Act definitions",
+        "url": "https://www.legis.la.gov/legis/Law.aspx?d=93140",
+        "scope": "all"
+      },
+      {
+        "label": "Louisiana Board of Pharmacy, Prescription Monitoring Program information",
+        "url": "https://www.pharmacy.la.gov/page/prescription-monitoring-program-pmp-information",
+        "scope": "all"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, Louisiana (Vintage 2025 estimates)",
+        "url": "https://www.census.gov/quickfacts/fact/table/LA,MD,ME,MI,MN,MO/PST045225",
+        "scope": "hub"
+      },
+      {
+        "label": "Louisiana Department of Health, Medicaid",
+        "url": "https://ldh.la.gov/medicaid",
+        "scope": "hub"
+      },
+      {
+        "label": "Louisiana Department of Insurance, open enrollment release, November 6, 2024",
+        "url": "https://www.ldi.la.gov/news/press-releases/11-6-24-open-enrollment-for-health-insurance-coverage-runs-through-january-15",
+        "scope": "hub"
+      },
+      {
+        "label": "Louisiana Department of Health, Louisiana Factsheets: STI/HIV/Hepatitis B and C Update 2023",
+        "url": "https://www.ldh.la.gov/assets/oph/HIVSTD/2023-Fact-Sheets/LA-Factsheets.pdf",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "trichomoniasis-treatment-online",
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "Louisiana R.S. 40:1121.6, Expedited partner therapy",
+        "url": "https://legis.la.gov/legis/Law.aspx?d=964300",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "trichomoniasis-treatment-online"
+        ]
+      },
+      {
+        "label": "New Orleans Department of Health and Human Services, Louisiana Doxy PEP Recommendations, August 2026",
+        "url": "https://nola.gov/getattachment/NEXT/Population-Health-and-Disease-Prevention/Topics/Sexual-and-Reproductive-Health/Getting-Tested-for-STIs/Louisiana-Doxy-PEP-Recommendations-August-2026-NOHHS.pdf/?lang=en-US",
+        "conditions": [
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "Louisiana Department of Health, Lyme Annual Report 2023",
+        "url": "https://www.ldh.la.gov/assets/oph/Center-PHCH/Center-CH/infectious-epi/Annuals/2023/Lyme_LaIDAnnual_2023.pdf",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Louisiana Department of Health, Influenza and Other Respiratory Viruses Surveillance Report, week ending January 10, 2026",
+        "url": "https://ldh.la.gov/assets/docs/SurveillanceReports/InfluenzaSurveillance/Weekly25_26/2601.pdf",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "Louisiana Department of Health, Influenza and Other Respiratory Viruses Surveillance Report, week ending June 27, 2026",
+        "url": "https://ldh.la.gov/assets/docs/SurveillanceReports/InfluenzaSurveillance/Weekly25_26/June.2026.pdf",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "Louisiana Sanitary Code, Title 51, Part III, section 105, Human Exposure to Domestic Animal Bites (LDH copy)",
+        "url": "https://ldh.la.gov/assets/oph/Center-PHCH/Center-CH/infectious-epi/VetInfo/Rabies/SanitaryCodeRabiesMay19.pdf",
+        "conditions": [
+          "dog-bite-treatment-online",
+          "cat-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Louisiana Department of Health, Rabies Annual Report 2023",
+        "url": "https://www.ldh.la.gov/assets/oph/Center-PHCH/Center-CH/infectious-epi/Annuals/2023/Rabies_LaIDAnnual_2023.pdf",
+        "conditions": [
+          "dog-bite-treatment-online",
+          "cat-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Louisiana Department of Health, Tobacco Use (Well-Ahead Louisiana)",
+        "url": "https://ldh.la.gov/bureau-of-chronic-disease-prevention-healthcare-access/tobacco-use",
+        "conditions": [
+          "smoking-cessation-treatment-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds a Louisiana medical license issued by the Louisiana State Board of Medical Examiners, the board defined in the state's Medical Practice Act (R.S. 37:1262). Louisiana's Telehealth Access Act (R.S. 40:1223.1 and following) governs telehealth care for patients located in Louisiana and calls for the same standard of care as an in-person visit. Anyone can check the license through the board's online verification. NPI: 1104323203.",
+    "verifyUrl": "https://apps.lsbme.la.gov/verifications/results.aspx",
+    "statuteCitation": "Louisiana R.S. 40:1223.3 and 40:1223.4 (Louisiana Telehealth Access Act); R.S. 37:1262 (Medical Practice Act definitions)",
+    "licenseNumber": "340061",
+    "boardName": "Louisiana State Board of Medical Examiners",
+    "boardUrl": "https://www.lsbme.la.gov/"
+  },
+  "stateCities": {
+    "metroAndRural": "Louisiana has 4,618,189 residents (U.S. Census Bureau, July 1, 2025 estimate), averaging 107.8 people per square mile in 2020. TeleDirectMD sees adults located anywhere in the state: New Orleans and Kenner, Baton Rouge, Lafayette, Lake Charles, Houma, Alexandria, Monroe, and Shreveport and Bossier City in the northwest corner. A patient in Houma or Alexandria has the same physician, the same in-network plans and the same flat $79 option as one in New Orleans.",
+    "cityList": [
+      {
+        "city": "New Orleans"
+      },
+      {
+        "city": "Baton Rouge"
+      },
+      {
+        "city": "Shreveport"
+      },
+      {
+        "city": "Lafayette"
+      },
+      {
+        "city": "Lake Charles"
+      },
+      {
+        "city": "Kenner"
+      },
+      {
+        "city": "Bossier City"
+      },
+      {
+        "city": "Monroe"
+      },
+      {
+        "city": "Alexandria"
+      },
+      {
+        "city": "Houma"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "multi-payer",
+    "selfPayDisclosure": "If you do not have Aetna, UnitedHealthcare or Curative coverage, or prefer not to use it, a Louisiana visit is a flat $79 paid at booking, with HSA and FSA cards accepted and no follow-up bill for the visit. TeleDirectMD does not accept Louisiana Medicaid, Managed Medicaid or D-SNP plans. Whether a visit is covered, and what you owe, depends on your plan; TeleDirectMD cannot promise coverage.",
+    "payers": [
+      {
+        "name": "Aetna",
+        "anchorId": "aetna-coverage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
+        "validFrom": "2026-06-15",
+        "copayNote": "Your plan's cost sharing applies."
+      },
+      {
+        "name": "UnitedHealthcare",
+        "anchorId": "uhc-coverage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
+        "validFrom": "2026-03-24",
+        "copayNote": "Your plan's cost sharing applies."
+      },
+      {
+        "name": "Curative",
+        "anchorId": "curative-coverage",
+        "planNames": "Commercial PPO, EPO, and self-funded plans (EPO Value, EPO (PPOx), PPO (PPO+), PPO Max)",
+        "validFrom": "2026-07-07",
+        "copayNote": "Your plan's cost sharing applies."
+      }
+    ]
+  },
+  "stateFaqs": [
+    {
+      "question": "Can a doctor in Louisiana treat me by video without seeing me in person first?",
+      "answer": "Yes, when the condition is suitable for video. Louisiana's Telehealth Access Act (R.S. 40:1223.4) says a healthcare provider is not required to conduct an in-person history or physical exam before a telehealth encounter, and it holds telehealth to the same standard of care as an in-person visit. You need to be physically in Louisiana during the visit, and if video is not the right fit, Dr. Bhavsar will tell you."
+    },
+    {
+      "question": "Is TeleDirectMD in-network with insurance in Louisiana?",
+      "answer": "TeleDirectMD is in-network in Louisiana with Aetna (PPO, HMO, EPO, POS and Medicare Advantage), UnitedHealthcare (the same plan types) and Curative commercial plans. Your plan's own cost sharing applies and coverage depends on your plan. Louisiana Medicaid and Managed Medicaid are not accepted. Without those plans, the visit is a flat $79 paid at booking, and HSA and FSA cards work."
+    },
+    {
+      "question": "How can I verify Dr. Bhavsar's Louisiana medical license?",
+      "answer": "Parth Bhavsar, MD holds a Louisiana medical license from the Louisiana State Board of Medical Examiners, the licensing board named in the state's Medical Practice Act. The board offers an online license verification you can search by name or license number. His National Provider Identifier is 1104323203."
+    },
+    {
+      "question": "Can TeleDirectMD prescribe controlled substances in Louisiana?",
+      "answer": "No. TeleDirectMD does not prescribe controlled substances in Louisiana or any other state. Louisiana tracks those prescriptions through the Prescription Monitoring Program run by the Louisiana Board of Pharmacy, which covers Schedule II through V drugs and drugs of concern. Video visits here focus on non-controlled care, with prescriptions sent electronically to your chosen pharmacy."
+    },
+    {
+      "question": "Can my partner be treated too if I test positive for chlamydia in Louisiana?",
+      "answer": "Louisiana law (R.S. 40:1121.6) authorizes expedited partner therapy for chlamydia and gonorrhea, which lets a prescriber provide antibiotics for a patient's sexual partners without examining them. In a TeleDirectMD chlamydia visit, which requires a positive test, partner treatment guidance is part of the plan. Partners with symptoms such as pelvic or testicular pain should be seen in person."
+    }
+  ],
+  "conditionOverrides": {
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "Louisiana had the nation's highest chlamydia diagnosis rate in 2023: the Louisiana Department of Health counted 36,242 new diagnoses, or 789.5 per 100,000 residents. With numbers like that, a positive result is common and treatable, and fast treatment of you and your partners is what breaks the chain. State law (R.S. 40:1121.6) authorizes expedited partner therapy for chlamydia, so partner treatment can be part of the plan. TeleDirectMD treats adults with a positive chlamydia test from a clinic, lab or health department; pelvic pain with fever, testicular swelling, pregnancy or a gonorrhea co-infection needing an injection call for in-person care."
+    },
+    "trichomoniasis-treatment-online": {
+      "stateConditionParagraph": "Trichomoniasis is not tracked in the Louisiana Department of Health's 2023 STI update, which counts chlamydia, gonorrhea and syphilis, and Louisiana ranked first nationally for chlamydia and second for gonorrhea that year. A TeleDirectMD trich visit includes a recommendation to test for HIV, gonorrhea, chlamydia and syphilis too. One legal detail differs from chlamydia: Louisiana's expedited partner therapy statute, R.S. 40:1121.6, names only chlamydia and gonorrhea, not trichomoniasis, so partners should arrange their own evaluation. TeleDirectMD treats adults with a positive test or typical symptoms who are not pregnant and have no pelvic pain with fever."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "In August 2026 the New Orleans Department of Health and Human Services issued Louisiana doxy-PEP recommendations, adapted from CDC guidance, describing doxycycline 200 mg taken within 72 hours after condomless sex and offered through shared decision-making. That city guidance reaches a broader group than TeleDirectMD does. TeleDirectMD's doxy-PEP visits are for adult gay, bisexual and other men who have sex with men and transgender women with a bacterial STI in the past year or ongoing substantial risk, who have no active symptoms and are not pregnant. Anyone outside that scope, including cisgender women, can discuss doxy-PEP with a local sexual health clinic. Symptoms such as discharge, sores or pelvic pain need testing first."
+    },
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "Lyme disease is uncommon in Louisiana. The Louisiana Department of Health's 2023 Lyme report notes that yearly case counts have ranged from zero to a high of 17, and that most cases reported in the state were in people who had traveled out of state before getting sick. So tell the physician where the bite happened, in Louisiana or on a recent trip, along with how long the tick was attached. TeleDirectMD evaluates adults who have already removed the tick, ideally within 72 hours, and sends anyone with an expanding rash, fever, facial weakness or palpitations to in-person care."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "Flu season in Louisiana arrives fast. The Louisiana Department of Health's weekly respiratory surveillance report showed influenza-like illness at 7.6 percent of emergency department visits statewide for the week ending January 10, 2026, with 16.0 percent of flu tests positive, compared with 0.8 percent of visits by late June. Antivirals work best started early, ideally within 48 hours of symptoms. TeleDirectMD sees adults in Louisiana with typical flu symptoms; trouble breathing, chest pain, confusion or inability to keep fluids down needs 911 or an emergency department."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "Louisiana's Sanitary Code (Title 51, Part III, section 105, Human Exposure to Domestic Animal Bites) requires a dog, cat or ferret that bites a person to be confined for at least 10 days after the bite. Knowing the dog and how to reach its owner helps with that confinement. The Louisiana Department of Health's 2023 rabies report names the south central skunk variant as the state's main rabies strain, with bats among the key wildlife reservoirs. TeleDirectMD evaluates superficial to moderate bites from a known domestic dog by video and photo. A bite from a stray or wild animal, a deep or facial wound, or a hand bite with reduced movement needs in-person care."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "Cat bites look small but puncture deep, so they are prone to infection. In Louisiana, a cat that bites a person must be confined for at least 10 days under the state Sanitary Code (Title 51, Part III, section 105), and the Louisiana Department of Health's 2023 rabies report lists bats, skunks, raccoons, foxes and coyotes as the important wildlife reservoirs, so the cat's outdoor habits matter. TeleDirectMD sees adults bitten by a known domestic cat within the past 24 hours whose wound is superficial to moderate. A hand bite with swelling or stiffness, spreading redness or fever, or a bite from a stray or feral cat needs in-person care."
+    },
+    "smoking-cessation-treatment-online": {
+      "stateConditionParagraph": "Louisiana adults who want to quit have state-backed coaching to pair with medication. The Louisiana Department of Health reports that in 2023 its Well-Ahead Louisiana program helped 617 residents quit tobacco and enrolled 2,287 in QuitWithUsLA.org, the state's quit program. Coaching and medication work well together. In a TeleDirectMD video visit, Dr. Bhavsar can review your smoking history and health conditions and decide whether varenicline, bupropion or nicotine replacement fits. Adults who are pregnant or breastfeeding, have had a heart attack or stroke in the past two weeks, or have a seizure disorder need in-person evaluation."
+    }
+  },
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Louisiana R.S. 40:1223.3 (Louisiana Telehealth Access Act, definitions)",
+        "renderAt": "hero-credential",
+        "content": "Louisiana R.S. 40:1223.3 defines telehealth as healthcare services provided through electronic communications, information technology, asynchronous store-and-forward transfer, or synchronous interaction between a provider at a distant site and a patient at an originating site, including assessment, diagnosis, consultation and treatment. TeleDirectMD provides care to patients located in Louisiana by real-time video, through a physician licensed by the Louisiana State Board of Medical Examiners."
+      },
+      {
+        "statute": "Louisiana R.S. 40:1223.4 (Telehealth; standard of care)",
+        "renderAt": "footer",
+        "content": "Under R.S. 40:1223.4, telehealth care in Louisiana is held to the same standard of care as if the services were provided in person. TeleDirectMD does not prescribe controlled substances, and prescriptions are sent electronically to the patient's chosen pharmacy."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

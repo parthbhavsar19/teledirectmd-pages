@@ -1,0 +1,253 @@
+{
+  "stateCode": "ME",
+  "stateName": "Maine",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "rural",
+    "regulation": "strict",
+    "payerLandscape": "self-pay-only",
+    "epidemiology": [
+      "lyme-high-record-2025",
+      "anaplasmosis-babesiosis",
+      "rabies-raccoon-skunk",
+      "flu-h3n2-2025-26",
+      "older-population"
+    ],
+    "boardStrictness": "strict",
+    "culturalRegister": "northeast",
+    "voiceNotes": "Practical and unhurried, for readers who may live an hour from the nearest clinic. Maine's telehealth rule is detailed and disclosure-heavy, so be explicit about fees, limits and credentials. Tick-borne disease is the signature Maine topic; give real numbers and the Maine CDC framing. One in four Mainers is 65 or older, so do not assume a young, app-first reader."
+  },
+  "stateHero": {
+    "openingParagraph": "If you are an adult physically in Maine, from Portland and Lewiston to Bangor and Augusta, you can see Parth Bhavsar, MD by video. He is a board-certified family medicine physician licensed by the Maine Board of Licensure in Medicine. Maine's joint telehealth rule, Chapter 11, allows the interview and exam to happen over video when the technology supports an informed diagnosis and the standard of care does not call for an in-person visit, and it asks practices to tell you plainly what telehealth can and cannot do. Here that means: a flat $79 paid at booking, HSA and FSA cards accepted, no insurance billing, no controlled substances, and prescriptions sent electronically to your chosen pharmacy.",
+    "stateContextHint": "Licensed in Maine. Video visits for adults located in Maine. Flat $79 self-pay; no insurance billing.",
+    "saturation": {
+      "stateNameMentions": 4,
+      "stateEntityMentions": 5
+    }
+  },
+  "stateEligibility": {
+    "intro": "You can book if you are 18 or older and physically in Maine during the visit. Maine's Joint Rule Chapter 11 requires a physician treating a patient in Maine to hold an active Maine license or registration, which is why location, not residence, controls. Under the same rule, a doctor-patient relationship can begin by telehealth when the standard of care does not require an in-person encounter, and the interview and exam may be done remotely if the technology is good enough for an informed diagnosis. A static online questionnaire does not count as an interview, so every TeleDirectMD visit in Maine is a live video conversation.",
+    "localTriggers": [
+      "Be physically in Maine during the visit. Summer visitors at a camp or rental in Maine count; a Mainer wintering out of state does not, for that visit.",
+      "Maine's rule treats a static questionnaire as insufficient, so expect a real-time video visit, not a form.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "TeleDirectMD does not bill insurance in Maine. Every visit is a flat $79, shown before you book and paid at booking, and HSA and FSA cards are accepted. Medicine is paid separately at the pharmacy. Census figures show 8.9 percent of Mainers under 65 without health insurance. CoverME.gov is the state's marketplace and, by its own description, the only place in Maine to get federal tax credits that lower premiums; open enrollment for coverage starting January 1, 2027 runs to December 15, 2026. MaineCare covers children and adults who are elderly, disabled or have low incomes. TeleDirectMD does not accept MaineCare.",
+    "additionalNotes": [
+      "$79 flat self-pay, paid at booking.",
+      "HSA and FSA cards accepted.",
+      "No insurance, MaineCare or Medicare billing in Maine."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "Prescriptions from a TeleDirectMD visit go electronically to the Maine pharmacy you choose. Maine pharmacies have had to be able to receive electronic prescriptions for opioid medication since July 1, 2017 (32 MRSA 13756) unless granted a waiver, though that does not affect TeleDirectMD, which never prescribes controlled substances. Maine also lets a pharmacist with a Board of Pharmacy certificate prescribe hormonal birth control, including the pill, ring, patch and injection, after a self-screening (32 MRSA 13826). Maine's telehealth rule asks practices to disclose limits on the drugs and services available by telehealth: for TeleDirectMD, no controlled substances and no in-person procedures.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "Ticks define Maine's outdoor season. A May 2026 Maine CDC health advisory called 2025 the most active tickborne illness season on record, with 4,257 Lyme disease cases, 1,604 anaplasmosis cases, 352 babesiosis cases and six Powassan cases. Maine CDC names the deer tick as the primary vector of most tickborne diseases in the state. Rabies is mainly a wildlife problem here: of 60 animals that tested positive in 2024, 28 were raccoons, and cases came from 14 of the state's 16 counties. The 2025 to 2026 flu season was driven by influenza A (H3N2). This context is for awareness only and is not a substitute for an individual evaluation.",
+    "citations": [
+      {
+        "label": "Maine Joint Rule Chapter 11, Telehealth Standards of Practice (02-373, 02-380, 02-383)",
+        "url": "https://www.maine.gov/osteo/sites/maine.gov.osteo/files/inline-files/Rule Chapter 11 - Joint Rule re Telehealth Standards of Practice.pdf",
+        "scope": "all"
+      },
+      {
+        "label": "Maine Board of Licensure in Medicine, Board of Medicine workgroup (LD 2233)",
+        "url": "https://www.maine.gov/md/about/merger",
+        "scope": "all"
+      },
+      {
+        "label": "32 MRSA 20111, Maine Board of Medicine (effective January 1, 2027)",
+        "url": "https://legislature.maine.gov/statutes/32/title32sec20111.html",
+        "scope": "all"
+      },
+      {
+        "label": "32 MRSA 13756, Electronic prescribing of opioid medication",
+        "url": "https://www.legislature.maine.gov/statutes/32/title32sec13756.pdf",
+        "scope": "all"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, Maine (Vintage 2025 estimates)",
+        "url": "https://www.census.gov/quickfacts/fact/table/LA,MD,ME,MI,MN,MO/PST045225",
+        "scope": "hub"
+      },
+      {
+        "label": "CoverME.gov, Maine's health insurance marketplace",
+        "url": "https://www.coverme.gov/",
+        "scope": "hub"
+      },
+      {
+        "label": "Maine DHHS, Office of MaineCare Services",
+        "url": "https://www.maine.gov/dhhs/oms",
+        "scope": "hub"
+      },
+      {
+        "label": "Maine CDC Health Advisory 2026PHADV009, 2026 Lyme and Other Tickborne Disease Information (May 13, 2026)",
+        "url": "https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/health-professionals/advisories/2026-05-Create%20Health%20Advisories/2026PHADV009LymeTickborne.pdf",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Maine CDC, Animal Rabies Surveillance Report 2024",
+        "url": "https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/Animal-Rabies-SR-2024.pdf",
+        "conditions": [
+          "dog-bite-treatment-online",
+          "cat-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Maine CDC, Weekly Influenza Surveillance Report, week 53 ending January 3, 2026",
+        "url": "https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/MaineILIweek2553.pdf",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "22 MRSA 1242, Expedited partner therapy",
+        "url": "https://www.legislature.maine.gov/statutes/22/title22sec1242.pdf",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "32 MRSA 13826, Pharmacist authorization to prescribe contraceptives",
+        "url": "https://legislature.maine.gov/statutes/32/title32sec13826.html",
+        "conditions": [
+          "birth-control-refills-online"
+        ]
+      },
+      {
+        "label": "Maine DHHS, Quit Tobacco Services Preparing for January 5 Tobacco Tax Change (January 5, 2026)",
+        "url": "https://www.maine.gov/dhhs/blog/quit-tobacco-services-preparing-january-5-tobacco-tax-change-2026-01-05",
+        "conditions": [
+          "smoking-cessation-treatment-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds a Maine medical license issued by the Maine Board of Licensure in Medicine. Telehealth care for patients in Maine follows Joint Rule Chapter 11, Telehealth Standards of Practice. Under LD 2233, signed April 16, 2026, physician licensing in Maine moves to a new Maine Board of Medicine on January 1, 2027. Anyone can confirm the license through the board's online license verification. NPI: 1104323203.",
+    "verifyUrl": "https://www.maine.gov/md/licensure/license-verification",
+    "statuteCitation": "Maine Joint Rule Chapter 11, Telehealth Standards of Practice (02-373, 02-380, 02-383 CMR ch. 11); 32 MRSA 20111 (Maine Board of Medicine, effective January 1, 2027)",
+    "licenseNumber": "MD30406",
+    "boardName": "Maine Board of Licensure in Medicine",
+    "boardUrl": "https://www.maine.gov/md/home"
+  },
+  "stateCities": {
+    "metroAndRural": "Maine has 1,414,874 residents (U.S. Census Bureau, July 1, 2025 estimate) spread across a large, rural state, about 44.2 people per square mile in 2020, and nearly one in four (24.6 percent) is 65 or older. TeleDirectMD sees adults wherever they are in Maine during the visit: Portland, South Portland, Westbrook and Scarborough in Greater Portland; Lewiston and Auburn; Biddeford, Saco and Sanford in York County; Brunswick; Augusta; and Bangor. A patient far from any of them gets the same physician and the same flat $79.",
+    "cityList": [
+      {
+        "city": "Portland"
+      },
+      {
+        "city": "Lewiston"
+      },
+      {
+        "city": "Bangor"
+      },
+      {
+        "city": "South Portland"
+      },
+      {
+        "city": "Auburn"
+      },
+      {
+        "city": "Biddeford"
+      },
+      {
+        "city": "Sanford"
+      },
+      {
+        "city": "Brunswick"
+      },
+      {
+        "city": "Scarborough"
+      },
+      {
+        "city": "Westbrook"
+      },
+      {
+        "city": "Saco"
+      },
+      {
+        "city": "Augusta"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "self-pay-only",
+    "selfPayDisclosure": "In Maine, TeleDirectMD is self-pay only: no commercial insurance, MaineCare or Medicare billing. The fee is a flat $79 per visit, disclosed before booking and paid at booking, with HSA and FSA cards accepted and no follow-up bill for the visit. If you have insurance you can still choose this option, but TeleDirectMD does not file claims and cannot promise reimbursement. To shop for coverage with federal tax credits, Maine residents use CoverME.gov.",
+    "payers": []
+  },
+  "stateFaqs": [
+    {
+      "question": "Does Maine allow a first visit with a doctor over video?",
+      "answer": "Yes, when the condition allows it. Maine's Joint Rule Chapter 11 says a licensee-patient relationship can be established through telehealth if the standard of care does not require an in-person encounter, and the interview and exam may be done remotely when the technology is sufficient for an informed diagnosis. A static questionnaire alone is not enough, which is why TeleDirectMD visits are live video."
+    },
+    {
+      "question": "Is Dr. Bhavsar licensed in Maine, and will that change in 2027?",
+      "answer": "Parth Bhavsar, MD holds a Maine medical license from the Maine Board of Licensure in Medicine, and you can confirm it through the board's online verification. Under LD 2233, signed April 16, 2026, Maine combines its allopathic and osteopathic boards into a new Maine Board of Medicine on January 1, 2027, which will then license Maine physicians."
+    },
+    {
+      "question": "Does TeleDirectMD take insurance or MaineCare?",
+      "answer": "No. TeleDirectMD is self-pay only in Maine: a flat $79 per visit, paid at booking, with HSA and FSA cards accepted. It does not bill commercial insurance, MaineCare or Medicare. Mainers looking for coverage can compare plans on CoverME.gov, the only place in Maine to get federal tax credits toward premiums."
+    },
+    {
+      "question": "What does a TeleDirectMD video visit not cover in Maine?",
+      "answer": "Maine's telehealth rule asks practices to disclose the limits of what they offer by telehealth. TeleDirectMD does not prescribe controlled substances, does not see anyone under 18, and cannot do procedures, imaging or same-day lab tests. Emergencies such as chest pain, trouble breathing or stroke signs need 911. If video is not the right fit, Dr. Bhavsar will point you to in-person care."
+    },
+    {
+      "question": "Can a Maine pharmacist prescribe my birth control instead?",
+      "answer": "In some cases. Under 32 MRSA 13826, a Maine pharmacist with a Board of Pharmacy certificate may prescribe the pill, patch, ring or injectable contraception after you complete a self-screening, then refer you to your regular practitioner. TeleDirectMD offers refills by video for adults already stable on a pill, patch or ring, sent to your pharmacy."
+    }
+  ],
+  "conditionOverrides": {
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "Maine had its most active tickborne illness season on record in 2025: a Maine CDC health advisory counted 4,257 Lyme disease cases, 1,604 anaplasmosis cases and 352 babesiosis cases, and it names the deer tick as the main carrier. The same advisory notes that a single dose of doxycycline does not prevent babesiosis or Powassan virus, so watching for symptoms for 30 days matters even after preventive treatment. TeleDirectMD evaluates adults located in Maine who have removed an attached tick, ideally within 72 hours, using photos to judge tick type and engorgement. An expanding rash, fever, severe headache, facial weakness or palpitations needs in-person care."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "Maine's 2025 to 2026 flu season was an H3N2 year. Maine CDC's weekly surveillance report for the week ending January 3, 2026 listed 1,343 positive influenza lab results statewide that week, with influenza A (H3N2) making up 84 percent of influenza A positives tested at the state lab so far that season. For adults located in Maine, a video visit can assess whether an antiviral makes sense, ideally within 48 hours of symptoms. Shortness of breath at rest, chest pain, confusion or dehydration needs 911 or an emergency department."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "Rabies in Maine lives mainly in wildlife. Maine CDC's 2024 surveillance report found 60 rabid animals, 28 of them raccoons, along with skunks, bats and foxes, in 14 of 16 counties, and 213 Maine residents received rabies post-exposure treatment that year, up 48 percent from 2023. A bite from a known, vaccinated household dog is a very different question from a bite by a stray or a dog that tangled with wildlife. TeleDirectMD evaluates superficial to moderate bites from a known domestic dog for adults in Maine. Deep, facial or hand wounds with reduced movement, or any wild or unknown animal bite, need in-person care."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "Maine CDC's 2024 rabies report identified one rabid cat among 60 positive animals, with raccoons, skunks, bats and foxes making up most of the rest, and the agency urges keeping rabies vaccinations current for every dog, cat and ferret. Outdoor cats in Maine can meet those animals, so vaccination history is part of any cat bite visit. Cat bites also carry a high infection risk because the teeth puncture deeply. TeleDirectMD sees adults in Maine bitten by a known domestic cat within 24 hours with a superficial to moderate wound. Hand bites with swelling, spreading redness or fever, and bites from strays need in-person care."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "Maine's expedited partner therapy law (22 MRSA 1242) lets a clinician who diagnoses a sexually transmitted disease provide treatment for a partner who is unlikely or unable to come in for care, limited to partners who may have been exposed within the previous 60 days. The law also requires counseling and written information for the partner, including a warning about antibiotics in pregnancy and advice that partners with symptoms be examined. TeleDirectMD treats adults physically in Maine who already have a positive chlamydia test. Pelvic pain with fever, testicular pain and swelling, pregnancy, or gonorrhea needing an injection are reasons for in-person care."
+    },
+    "birth-control-refills-online": {
+      "stateConditionParagraph": "Since 2023, Maine law (32 MRSA 13826) has allowed a pharmacist who holds a Board of Pharmacy certificate to prescribe the pill, the ring, the patch or an injectable contraceptive after a self-screening risk assessment, and then to refer you to your regular practitioner. That is one option. TeleDirectMD is another: video refills for adults in Maine who are already stable on a pill, patch or ring prescribed by another clinician, sent electronically to the pharmacy you choose. Starting a method for the first time, new migraines with aura, a new blood clot, high blood pressure or pregnancy call for an in-person visit."
+    },
+    "smoking-cessation-treatment-online": {
+      "stateConditionParagraph": "Maine raised its tobacco and nicotine taxes on January 5, 2026, and the state Department of Health and Human Services said it was expanding staffing for its free quit services to meet demand. The Maine QuitLink offers adult coaching by phone at 1-800-QUIT-NOW or online, and eligible participants receive free nicotine patches, gum or lozenges by mail, a 12-week supply with one-on-one coaching. A TeleDirectMD video visit can add a prescription medicine such as varenicline or bupropion when it fits your health history. Pregnancy, a heart attack or stroke in the past two weeks, or a seizure disorder needs in-person evaluation."
+    }
+  },
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Maine Joint Rule Chapter 11, Telehealth Standards of Practice (02-373, 02-380, 02-383)",
+        "renderAt": "hero-credential",
+        "content": "Maine Joint Rule Chapter 11 governs telehealth care for patients located in Maine and requires the treating physician to hold an active Maine license. TeleDirectMD discloses: services are adult video visits for the conditions listed on this site; the physician is Parth Bhavsar, MD, board-certified in family medicine and licensed in Maine; the fee is a flat $79 paid by card at booking; controlled substances are not prescribed and in-person procedures are not available by telehealth."
+      },
+      {
+        "statute": "Maine physician licensing board change (LD 2233; 32 MRSA 20111)",
+        "renderAt": "footer",
+        "content": "Physician licensing in Maine moves from the Board of Licensure in Medicine to the new Maine Board of Medicine on January 1, 2027, under LD 2233, signed April 16, 2026."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}
