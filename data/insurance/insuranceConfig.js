@@ -14,7 +14,7 @@ export const INSURERS = {
     color: "#7B2CBF",
     colorLight: "#F3EAFF",
     tagline: "Commercial & Medicare Advantage plans accepted in 14 states",
-    description: "Aetna is one of the nation's largest health insurers, offering commercial, Medicare Advantage, and marketplace plans. TeleDirectMD is in-network with Aetna commercial PPO, HMO, EPO, POS, and Medicare Advantage plans in 14 states. California excludes HMO and QPOS plans.",
+    description: "Aetna is one of the nation's largest health insurers, offering commercial, Medicare Advantage, and marketplace plans. TeleDirectMD is in-network with Aetna commercial PPO, HMO, EPO, POS, and Medicare Advantage plans in 14 states. California excludes HMO and QPOS plans, and Florida is commercial only (Aetna Medicare plans exclude primary care there).",
     // States synced 2026-06-18 from lib/insurance-data.js insuranceByState (Aetna family).
     // Source of truth: Payor Enrollment Tracking Sheet + Notion DB.
     states: ["AZ", "CA", "CO", "FL", "GA", "IL", "LA", "MI", "MN", "NC", "OH", "PA", "TN", "WA"],
@@ -38,26 +38,24 @@ export const INSURERS = {
     logo: "/logos/anthem-bcbs.svg",
     color: "#1A5FB4",
     colorLight: "#EAF2FF",
-    tagline: "Select BCBS-family plans accepted in 8 states",
-    description: "Blue Cross Blue Shield plans vary by state affiliate. TeleDirectMD is in-network with BCBS of Arizona, Anthem Blue Cross (California PPO), Florida Blue, Anthem BCBS (Georgia), BCBS of Illinois, BCBS of Michigan, Highmark BCBS (Pennsylvania), and BCBS of Texas.",
-    states: ["AZ","CA","FL","GA","IL","MI","PA","TX"],
+    tagline: "Select BCBS-family plans accepted in 6 states",
+    description: "Blue Cross Blue Shield plans vary by state affiliate. TeleDirectMD is in-network with BCBS of Arizona (commercial), Anthem Blue Cross (California PPO), Anthem BCBS (Georgia), BCBS of Illinois, Highmark BCBS (Pennsylvania, Traditional Indemnity), and BCBS of Texas (commercial).",
+    // 2026-11-21 contract check: FL (Florida Blue, billing IDs only) and MI (no signed
+    // BCBSM agreement) removed.
+    states: ["AZ","CA","GA","IL","PA","TX"],
     affiliates: {
       AZ: "Blue Cross Blue Shield of Arizona",
       CA: "Anthem Blue Cross",
-      FL: "Florida Blue",
       GA: "Anthem Blue Cross Blue Shield",
       IL: "Blue Cross Blue Shield of Illinois",
-      MI: "Blue Cross Blue Shield of Michigan",
       PA: "Highmark Blue Cross Blue Shield",
       TX: "Blue Cross Blue Shield of Texas",
     },
     memberPortals: {
       AZ: "https://www.azblue.com/member",
       CA: "https://www.anthem.com/ca/",
-      FL: "https://www.floridablue.com/",
       GA: "https://www.anthem.com/find-care/",
       IL: "https://www.bcbsil.com/member",
-      MI: "https://www.bcbsm.com/member",
       PA: "https://www.highmarkbcbs.com/",
       TX: "https://www.bcbstx.com/member",
     },
@@ -67,9 +65,9 @@ export const INSURERS = {
     planTypes: ["PPO","HMO","EPO","POS","Medicare Advantage","Group plans","Individual & Family Plans","Blue Advantage HMO","Blue Choice PPO"],
     notAccepted: ["Medicaid","Managed Medicaid","CHIP","Medicare-Medicaid (MME)","Dual Special Needs Plan (D-SNP)","Federal Employee Program (FEP)","BlueCard out-of-network"],
     metaTitle: "Online Doctor That Accepts Blue Cross Blue Shield | TeleDirectMD",
-    metaDescription: "TeleDirectMD accepts Blue Cross Blue Shield-family plans (BCBS-AZ, Anthem Blue Cross CA, Florida Blue, Anthem GA, BCBS-IL, BCBS-MI, Highmark PA, BCBS-TX) in 8 states. PPO, HMO, EPO, POS, and Medicare Advantage. Board-certified physician.",
+    metaDescription: "TeleDirectMD accepts Blue Cross Blue Shield-family plans (BCBS-AZ, Anthem Blue Cross CA, Anthem GA, BCBS-IL, Highmark PA, BCBS-TX) in 6 states. Plan types vary by affiliate. Board-certified physician.",
     h1: "Online Doctor Visits Covered by Blue Cross Blue Shield",
-    heroSubtitle: "TeleDirectMD is in-network with select Blue Cross Blue Shield affiliates in Arizona, California, Florida, Georgia, Illinois, Michigan, Pennsylvania, and Texas.",
+    heroSubtitle: "TeleDirectMD is in-network with select Blue Cross Blue Shield affiliates in Arizona, California, Georgia, Illinois, Pennsylvania, and Texas.",
     faqSlug: "bcbs",
   },
   "united-healthcare": {
@@ -80,12 +78,14 @@ export const INSURERS = {
     logo: "/logos/unitedhealthcare.svg",
     color: "#1A7A3A",
     colorLight: "#E6FFF0",
-    tagline: "UHC plans accepted in 17 states",
-    description: "UnitedHealthcare is the largest health insurer in the United States. TeleDirectMD is in-network with UHC PPO, HMO, EPO, POS, and Medicare Advantage plans in 17 states. Illinois, Minnesota, and Texas are Commercial-only (Medicare Advantage not in-network in those three states).",
+    tagline: "UHC plans accepted in 13 states",
+    description: "UnitedHealthcare is the largest health insurer in the United States. TeleDirectMD is in-network with UHC PPO, HMO, EPO, POS, and Medicare Advantage plans in 13 states. Illinois, Minnesota, and Texas are Commercial-only (Medicare Advantage not in-network in those three states).",
     // 2026-06-12: TX added — UnitedHealthcare is active in TX per lib/insurance-data.js
     // insuranceByState['TX']. Config was lagging the source of truth.
     // States synced 2026-06-18 from lib/insurance-data.js insuranceByState (UHC family).
-    states: ["AZ", "CA", "CO", "FL", "GA", "IL", "LA", "MI", "MN", "NC", "NJ", "OH", "OK", "PA", "TN", "TX", "WA"],
+    // 2026-11-21 contract check: FL, LA and MI (unsigned, awaiting UHC reissue) and
+    // TN (signed appendix is Medicaid, CHIP and Community Plan MA only) removed.
+    states: ["AZ", "CA", "CO", "GA", "IL", "MN", "NC", "NJ", "OH", "OK", "PA", "TX", "WA"],
     planTypes: ["Commercial plans","Employer-sponsored plans","UnitedHealthcare Choice","UnitedHealthcare Options PPO"],
     notAccepted: ["Medicaid","Managed Medicaid","CHIP","Medicare-Medicaid (MME)","Dual Special Needs Plan (D-SNP)","UnitedHealthcare Community Plan (Medicaid)","Navigate / Charter / Colorado Doctors Plan (narrow networks)","Individual Exchange (ACA Marketplace)","Medicare Advantage in IL, MN, and TX (commercial-only contracts)"],
     memberPortal: "https://www.myuhc.com",
@@ -93,9 +93,9 @@ export const INSURERS = {
     billingCodes: ["99213","99214"],
     claimsPhone: "1-866-892-9993",
     metaTitle: "Online Doctor That Accepts UnitedHealthcare | TeleDirectMD",
-    metaDescription: "TeleDirectMD accepts UnitedHealthcare PPO, HMO, EPO, POS, and Medicare Advantage plans in 17 states. Board-certified physician. Same-day video visits for UTI (women only), sinus infection, hypertension & more.",
+    metaDescription: "TeleDirectMD accepts UnitedHealthcare PPO, HMO, EPO, POS, and Medicare Advantage plans in 13 states. Board-certified physician. Same-day video visits for UTI (women only), sinus infection, hypertension & more.",
     h1: "Online Doctor Visits Covered by UnitedHealthcare",
-    heroSubtitle: "TeleDirectMD is in-network with UnitedHealthcare PPO, HMO, EPO, POS, and Medicare Advantage plans in Arizona, California, Colorado, Florida, Georgia, Illinois, Louisiana, Michigan, Minnesota, North Carolina, New Jersey, Ohio, Oklahoma, Pennsylvania, Tennessee, Texas, and Washington. Medicare Advantage is not in-network in Illinois, Minnesota, or Texas.",
+    heroSubtitle: "TeleDirectMD is in-network with UnitedHealthcare PPO, HMO, EPO, POS, and Medicare Advantage plans in Arizona, California, Colorado, Georgia, Illinois, Minnesota, North Carolina, New Jersey, Ohio, Oklahoma, Pennsylvania, Texas, and Washington. Medicare Advantage is not in-network in Illinois, Minnesota, or Texas.",
     faqSlug: "uhc",
   },
   curative: {

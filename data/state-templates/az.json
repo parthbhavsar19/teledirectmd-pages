@@ -40,7 +40,7 @@
     ]
   },
   "statePricing": {
-    "context": "Four insurers are in-network for TeleDirectMD in Arizona: Aetna, UnitedHealthcare and Blue Cross Blue Shield of Arizona plans (PPO, HMO, EPO, POS and Medicare Advantage) and Curative commercial plans are in-network. If you would rather not use insurance, or have a different plan, the visit is a flat $79 self-pay, paid at booking, and HSA and FSA cards work. Arizonans who buy their own coverage use HealthCare.gov, and AHCCCS, the Arizona Health Care Cost Containment System, is the state's Medicaid agency; TeleDirectMD does not take AHCCCS plans.",
+    "context": "Four insurers are in-network for TeleDirectMD in Arizona: Aetna and UnitedHealthcare plans (PPO, HMO, EPO, POS and Medicare Advantage), Blue Cross Blue Shield of Arizona commercial plans (not its Medicare Advantage) and Curative commercial plans are in-network. If you would rather not use insurance, or have a different plan, the visit is a flat $79 self-pay, paid at booking, and HSA and FSA cards work. Arizonans who buy their own coverage use HealthCare.gov, and AHCCCS, the Arizona Health Care Cost Containment System, is the state's Medicaid agency; TeleDirectMD does not take AHCCCS plans.",
     "additionalNotes": [
       "$79 flat self-pay option, paid at booking.",
       "HSA and FSA cards accepted.",
@@ -215,7 +215,7 @@
   },
   "stateInsurance": {
     "mode": "multi-payer",
-    "selfPayDisclosure": "TeleDirectMD is in-network in Arizona with Aetna, UnitedHealthcare and Blue Cross Blue Shield of Arizona (PPO, HMO, EPO, POS and Medicare Advantage plans) and with Curative (commercial PPO, EPO and self-funded plans). Your share of the cost depends on your plan. If your plan is not on that list, or you prefer not to use it, the flat $79 self-pay price is paid at booking and HSA and FSA cards are accepted. AHCCCS, Medicaid managed care and D-SNP plans are not accepted. TeleDirectMD cannot promise how any plan will pay.",
+    "selfPayDisclosure": "TeleDirectMD is in-network in Arizona with Aetna and UnitedHealthcare (PPO, HMO, EPO, POS and Medicare Advantage plans), with Blue Cross Blue Shield of Arizona (commercial plans; its Medicare Advantage is not in-network) and with Curative (commercial PPO, EPO and self-funded plans). Your share of the cost depends on your plan. If your plan is not on that list, or you prefer not to use it, the flat $79 self-pay price is paid at booking and HSA and FSA cards are accepted. AHCCCS, Medicaid managed care and D-SNP plans are not accepted. TeleDirectMD cannot promise how any plan will pay.",
     "payers": [
       {
         "name": "Aetna",
@@ -228,13 +228,13 @@
         "name": "UnitedHealthcare",
         "anchorId": "uhc-coverage",
         "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
-        "validFrom": "2026-03-13",
+        "validFrom": "2026-08-24",
         "copayNote": "Cost sharing depends on your UnitedHealthcare plan."
       },
       {
         "name": "BCBS of Arizona",
         "anchorId": "bcbs-az-coverage",
-        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
+        "planNames": "PPO, HMO, Indemnity (commercial only; Medicare Advantage not in-network)",
         "validFrom": "2026-07-01",
         "copayNote": "Cost sharing depends on your BCBS of Arizona plan."
       },
@@ -254,7 +254,7 @@
     },
     {
       "question": "Which insurance does TeleDirectMD take in Arizona?",
-      "answer": "Aetna, UnitedHealthcare and Blue Cross Blue Shield of Arizona, including PPO, HMO, EPO, POS and Medicare Advantage plans, and Curative commercial plans. AHCCCS and other Medicaid plans are not accepted. Anyone can choose the flat $79 self-pay price instead, paid at booking, with HSA and FSA cards accepted. Your plan decides your share of the cost."
+      "answer": "Aetna and UnitedHealthcare, including PPO, HMO, EPO, POS and Medicare Advantage plans, Blue Cross Blue Shield of Arizona commercial plans (not its Medicare Advantage), and Curative commercial plans. AHCCCS and other Medicaid plans are not accepted. Anyone can choose the flat $79 self-pay price instead, paid at booking, with HSA and FSA cards accepted. Your plan decides your share of the cost."
     },
     {
       "question": "Do I have to give consent for a video visit in Arizona?",
