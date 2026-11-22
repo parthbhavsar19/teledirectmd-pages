@@ -48,7 +48,7 @@
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek urgent in-person care now for blood pressure above 180/120, chest pain, sudden severe headache, vision changes, difficulty speaking, sudden weakness or numbness, or shortness of breath with elevated blood pressure. TeleDirectMD does not prescribe controlled substances."
     },
     "icd10Display": "I10 (final coding depends on clinical details)",
-    "quickAnswer": "Yes — adults (18+) in {state} on established blood pressure medication can refill it online. A board-certified MD reviews your recent readings and history by secure video and continues your current regimen — an ACE inhibitor, ARB, calcium channel blocker, thiazide diuretic, or beta-blocker — per ACC/AHA 2017 targets, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Blood pressure above 180/120 mmHg or symptoms of hypertensive emergency need immediate in-person or ER care, not a refill visit."
+    "quickAnswer": "Yes, adults (18+) in {state} on established blood pressure medication can refill it online. A board-certified MD reviews your recent readings and history by secure video and continues your current regimen (an ACE inhibitor, ARB, calcium channel blocker, thiazide diuretic, or beta-blocker) per ACC/AHA 2017 targets, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Blood pressure above 180/120 mmHg or symptoms of hypertensive emergency need immediate in-person or ER care, not a refill visit."
   },
   "eligibility": {
     "sectionTitle": "Hypertension Medication Refill Telehealth Eligibility Checklist for {state}",
@@ -565,7 +565,7 @@
       },
       {
         "question": "Can I get my blood pressure medication refilled the same day online in {state}?",
-        "answer": "Yes, in most stable cases — since this is continuation care rather than a new diagnosis, the MD can typically review your history and readings and send the refill to your pharmacy the same day, as long as there are no red flags like very high readings or new symptoms."
+        "answer": "Yes, in most stable cases: since this is continuation care rather than a new diagnosis, the MD can typically review your history and readings and send the refill to your pharmacy the same day, as long as there are no red flags like very high readings or new symptoms."
       }
     ],
     "bottomCta": {

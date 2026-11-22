@@ -48,7 +48,7 @@
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek urgent in-person care now for difficulty breathing or shortness of breath, persistent chest pain or pressure, confusion, inability to keep fluids down, severe muscle weakness, seizures, or high fever unresponsive to antipyretics. TeleDirectMD does not prescribe controlled substances."
     },
     "icd10Display": "J11.1, J10.1, J11.89, or J09.X2 (final coding depends on clinical details)",
-    "quickAnswer": "Yes — adults (18+) in {state} with flu symptoms can be treated online, and timing matters. A board-certified MD reviews your symptom onset by secure video and, per CDC guidance, prescribes an antiviral — oseltamivir, baloxavir, or zanamivir — ideally within 48 hours of symptom onset to shorten illness by 1–2 days, plus supportive medications like acetaminophen. Visit price: $79 flat, no insurance required. Difficulty breathing, chest pain, or confusion needs ER care, not telehealth."
+    "quickAnswer": "Yes, adults (18+) in {state} with flu symptoms can be treated online, and timing matters. A board-certified MD reviews your symptom onset by secure video and, per CDC guidance, prescribes an antiviral (oseltamivir, baloxavir, or zanamivir) ideally within 48 hours of symptom onset to shorten illness by 1–2 days, plus supportive medications like acetaminophen. Visit price: $79 flat, no insurance required. Difficulty breathing, chest pain, or confusion needs ER care, not telehealth."
   },
   "eligibility": {
     "sectionTitle": "Influenza Telehealth Eligibility Checklist for {state}",
@@ -80,7 +80,7 @@
     "steps": [
       {
         "type": "check",
-        "title": "Book your visit quickly — timing matters",
+        "title": "Book your visit quickly: timing matters",
         "description": "Antiviral medications for influenza are most effective when started within 48 hours of symptom onset. Before your video visit, note when your symptoms began, your temperature, whether you have been around confirmed flu cases, your medical history including chronic conditions, and any medications you are currently taking."
       },
       {
@@ -175,7 +175,7 @@
           "Symptoms came on quickly rather than gradually",
           "Known flu exposure or active flu season in your area"
         ],
-        "yesAction": "If yes, continue to Step 4 — you are within the antiviral treatment window",
+        "yesAction": "If yes, continue to Step 4: you are within the antiviral treatment window",
         "noAction": "If symptoms started more than 48 hours ago, antiviral benefit is reduced but evaluation may still be helpful for high-risk patients or those with worsening symptoms"
       },
       {
@@ -560,7 +560,7 @@
       },
       {
         "question": "Do I need a positive flu test before an online visit in {state}?",
-        "answer": "Not necessarily — the MD can assess your symptoms, timing, and risk factors to determine whether starting antiviral treatment is appropriate without requiring a prior test result, though testing recommendations may still come up during your visit."
+        "answer": "Not necessarily: the MD can assess your symptoms, timing, and risk factors to determine whether starting antiviral treatment is appropriate without requiring a prior test result, though testing recommendations may still come up during your visit."
       }
     ],
     "bottomCta": {

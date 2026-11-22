@@ -48,7 +48,7 @@
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for grouped vesicles with punched-out erosions and fever (possible eczema herpeticum), widespread honey-crusted lesions suggesting bacterial superinfection, severe rash covering most of the body, signs of severe illness, or rapidly worsening symptoms. TeleDirectMD does not prescribe controlled substances."
     },
     "icd10Display": "L30.9, L20.9, L20.89 (final coding depends on clinical details)",
-    "quickAnswer": "Yes — adults (18+) in {state} with mild to moderate eczema can be treated online. A board-certified MD reviews your rash photos and flare history by secure video and, following AAAAI/AAD 2023 guidance, prescribes a topical corticosteroid like hydrocortisone or triamcinolone, or a steroid-sparing option such as tacrolimus, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Consistent moisturizing is foundational. Grouped vesicles with fever (eczema herpeticum) is a medical emergency requiring immediate in-person care."
+    "quickAnswer": "Yes, adults (18+) in {state} with mild to moderate eczema can be treated online. A board-certified MD reviews your rash photos and flare history by secure video and, following AAAAI/AAD 2023 guidance, prescribes a topical corticosteroid like hydrocortisone or triamcinolone, or a steroid-sparing option such as tacrolimus, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Consistent moisturizing is foundational. Grouped vesicles with fever (eczema herpeticum) is a medical emergency requiring immediate in-person care."
   },
   "eligibility": {
     "sectionTitle": "Eczema Telehealth Eligibility Checklist for {state}",
@@ -278,12 +278,12 @@
         "Oozing, weeping, or honey-crusted lesions over eczema patches",
         "Possible secondary bacterial infection (impetiginized eczema)",
         "Sometimes",
-        "If widespread, with fever, or rapidly spreading — needs in-person evaluation"
+        "If widespread, with fever, or rapidly spreading: needs in-person evaluation"
       ],
       [
         "Grouped vesicles, punched-out erosions, fever",
         "Eczema herpeticum (herpes superinfection of eczema)",
-        "No — emergency",
+        "No, emergency",
         "Medical emergency. Seek ER care immediately."
       ],
       [
@@ -358,7 +358,7 @@
     "redFlags": {
       "title": "Red Flags Requiring In-Person or ER Care",
       "items": [
-        "Grouped vesicles or punched-out erosions with fever (eczema herpeticum — medical emergency)",
+        "Grouped vesicles or punched-out erosions with fever (eczema herpeticum: medical emergency)",
         "Widespread honey-crusted or oozing lesions with fever (bacterial superinfection)",
         "Severe redness covering most of the body (erythroderma)",
         "Eczema unresponsive to topical corticosteroids and moisturizer therapy",
@@ -451,7 +451,7 @@
         "Apply thick, fragrance-free moisturizer (cream or ointment, not lotion) liberally and frequently throughout the day",
         "Take lukewarm baths or showers (not hot) for 10 to 15 minutes, then apply moisturizer immediately while skin is still damp",
         "Use prescribed topical medications as directed, applying them before your moisturizer",
-        "Avoid scratching — keep nails short, and consider cotton gloves at night if scratching during sleep",
+        "Avoid scratching: keep nails short, and consider cotton gloves at night if scratching during sleep",
         "Wear soft, breathable fabrics such as cotton and avoid wool and rough synthetics"
       ]
     },
@@ -482,7 +482,7 @@
       "title": "You Should Not Use TeleDirectMD If",
       "items": [
         "You are under 18 years old",
-        "You have grouped vesicles, punched-out erosions, and fever (eczema herpeticum — this is a medical emergency)",
+        "You have grouped vesicles, punched-out erosions, and fever (eczema herpeticum: this is a medical emergency)",
         "You have widespread oozing or honey-crusted lesions with fever (bacterial superinfection)",
         "Your rash covers most of your body with severe redness (erythroderma)",
         "You have severe eczema that has not responded to topical corticosteroids and moisturizer therapy",
