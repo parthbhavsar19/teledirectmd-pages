@@ -101,7 +101,7 @@
     "sectionTitle": "{state} Telehealth Regulations for Online Malaria Prophylaxis",
     "paragraphs": [
       "{telehealthRegulation}",
-      "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances. Atovaquone-proguanil (Malarone), doxycycline, and mefloquine are all non-controlled prescription medications fully within our telehealth prescribing scope when clinically appropriate. No vaccines are administered via telehealth — yellow fever, typhoid, and hepatitis A vaccines for travel require in-person administration at a travel clinic or pharmacy."
+      "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances. Atovaquone-proguanil (Malarone), doxycycline, and mefloquine are all non-controlled prescription medications fully within our telehealth prescribing scope when clinically appropriate. No vaccines are administered via telehealth — yellow fever, injectable typhoid, and hepatitis A vaccines for travel require in-person administration at a travel clinic or pharmacy. The oral typhoid vaccine (Vivotif) can be prescribed by video visit when appropriate."
     ]
   },
   "comparisonTable": {
@@ -121,7 +121,7 @@
         "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks for appointment",
         "provider": "Travel medicine MD, DO, or specialist",
-        "bestFor": "Complex multi-destination itineraries, all required travel vaccines (yellow fever, typhoid, hepatitis A/B), G6PD testing for primaquine or tafenoquine, malaria-in-pregnancy evaluation, and immunocompromised travelers",
+        "bestFor": "Complex multi-destination itineraries, all required travel vaccines (yellow fever, injectable typhoid, hepatitis A/B), G6PD testing for primaquine or tafenoquine, malaria-in-pregnancy evaluation, and immunocompromised travelers",
         "highlight": false
       },
       {
@@ -349,7 +349,7 @@
         "Active malaria: any febrile illness after return from malaria-endemic region",
         "Malaria in pregnancy: requires in-person travel medicine with obstetric coordination",
         "G6PD-deficiency testing for primaquine or tafenoquine eligibility",
-        "Travel vaccines: yellow fever, typhoid, hepatitis A/B, meningococcal — in-person administration only",
+        "Travel vaccines: yellow fever, injectable typhoid, hepatitis A/B, meningococcal — in-person administration only",
         "Immunocompromised travelers: HIV, organ transplant, or immunosuppressive therapy — require in-person travel medicine evaluation"
       ]
     },
@@ -360,7 +360,7 @@
       },
       {
         "title": "Malaria vs Typhoid Fever",
-        "text": "Typhoid fever (Salmonella typhi) is another major cause of febrile illness after travel to South Asia, Southeast Asia, and parts of Africa. Unlike malaria, typhoid can be prevented by vaccination (typhoid vaccine is available as injectable or oral forms at travel clinics — not via telehealth). Clinical presentation of typhoid includes sustained fever (often step-wise rising), relative bradycardia, rose spots, and gastrointestinal symptoms including constipation or diarrhea. Typhoid lacks the cyclical fever pattern more characteristic of malaria. Both require blood cultures and malaria smears as part of the fever workup in a returning traveler. TeleDirectMD does not administer vaccines — travelers going to typhoid-endemic South Asia should discuss typhoid vaccination at their travel clinic appointment in addition to antimalarial prophylaxis."
+        "text": "Typhoid fever (Salmonella typhi) is another major cause of febrile illness after travel to South Asia, Southeast Asia, and parts of Africa. Unlike malaria, typhoid can be prevented by vaccination (the injectable typhoid vaccine is given in person at travel clinics, while the oral capsule vaccine can be prescribed by video visit when appropriate). Clinical presentation of typhoid includes sustained fever (often step-wise rising), relative bradycardia, rose spots, and gastrointestinal symptoms including constipation or diarrhea. Typhoid lacks the cyclical fever pattern more characteristic of malaria. Both require blood cultures and malaria smears as part of the fever workup in a returning traveler. TeleDirectMD does not administer vaccines, but it can prescribe the oral typhoid vaccine when appropriate — travelers going to typhoid-endemic South Asia should discuss typhoid vaccination at their pre-travel visit in addition to antimalarial prophylaxis."
       },
       {
         "title": "Malaria vs Traveler's Diarrhea",
@@ -420,7 +420,7 @@
       "Active malaria infection — any febrile illness after return from endemic region",
       "Malaria in pregnancy — requires in-person travel medicine evaluation with obstetric coordination",
       "Primaquine or tafenoquine prescribing — both require in-person quantitative G6PD enzyme testing",
-      "Travel vaccines (yellow fever, typhoid, hepatitis A/B, meningococcal) — in-person administration only",
+      "Travel vaccines (yellow fever, injectable typhoid, hepatitis A/B, meningococcal) — in-person administration only",
       "Pediatric malaria prophylaxis (under 18 years old)",
       "Parenteral artesunate or IV quinidine for severe malaria — emergency room only"
     ]
@@ -439,7 +439,7 @@
         "Atovaquone-Proguanil (Malarone — generic available)",
         "1 adult tablet (250/100 mg) once daily with food or milk",
         "Start 1–2 days before; daily during travel; 7 days after leaving endemic area",
-        "Front-line for most chloroquine-resistant regions including sub-Saharan Africa and SE Asia. Shorter post-travel tail (7 days vs 4 weeks). Not recommended in pregnancy; contraindicated with CrCl <30 mL/min. Take with food for absorption. Not a controlled substance. Generic is less expensive than brand Malarone."
+        "Front-line for most chloroquine-resistant regions including sub-Saharan Africa and SE Asia. Shorter post-travel tail (7 days vs 4 weeks). Not recommended in pregnancy; contraindicated with CrCl <30 mL/min. Take with food for absorption. Not a controlled substance. Generic is less expensive than brand Malarone. If taking the oral typhoid vaccine (Vivotif), start only 10 or more days after the last vaccine capsule."
       ],
       [
         "Doxycycline 100 mg",
@@ -534,7 +534,7 @@
         },
         {
           "label": "In-person travel clinic:",
-          "text": "complex multi-destination itineraries, travel vaccines (yellow fever, typhoid, hepatitis A), G6PD testing for primaquine/tafenoquine eligibility, malaria-in-pregnancy evaluation, immunocompromised travelers, and patients needing mefloquine with complex psychiatric or cardiac histories"
+          "text": "complex multi-destination itineraries, travel vaccines (yellow fever, injectable typhoid, hepatitis A), G6PD testing for primaquine/tafenoquine eligibility, malaria-in-pregnancy evaluation, immunocompromised travelers, and patients needing mefloquine with complex psychiatric or cardiac histories"
         },
         {
           "label": "Primary care or infectious disease:",
@@ -604,7 +604,7 @@
       },
       {
         "question": "How soon before my trip should I book a malaria prophylaxis telehealth visit?",
-        "answer": "Book as early as possible, and no later than 1 week before departure. Malarone and doxycycline can be started as late as 1 to 2 days before entering the endemic area, so even a few days' lead time allows adequate prophylaxis start. However, booking well in advance (2 to 4 weeks before departure) is ideal because: it allows time to try an initial test dose of your chosen medication before travel to assess tolerability; if mefloquine is under consideration, it must be started 1 to 2 weeks before departure; if your itinerary also requires in-person travel vaccines (yellow fever, typhoid, hepatitis A), those appointments need to be scheduled separately and may have lead time requirements. Don't wait until the day before departure — while same-day appointments are often available, giving yourself a week ensures a smooth pre-travel pharmacological preparation."
+        "answer": "Book as early as possible, and no later than 1 week before departure. Malarone and doxycycline can be started as late as 1 to 2 days before entering the endemic area, so even a few days' lead time allows adequate prophylaxis start. However, booking well in advance (2 to 4 weeks before departure) is ideal because: it allows time to try an initial test dose of your chosen medication before travel to assess tolerability; if mefloquine is under consideration, it must be started 1 to 2 weeks before departure; if your itinerary also requires in-person travel vaccines (yellow fever, injectable typhoid, hepatitis A), those appointments need to be scheduled separately and may have lead time requirements. Don't wait until the day before departure — while same-day appointments are often available, giving yourself a week ensures a smooth pre-travel pharmacological preparation."
       },
       {
         "question": "Can I take Malarone or doxycycline if I have a G6PD deficiency?",

@@ -390,7 +390,7 @@ const sections = [
               We also offer <Link href="/travel-medicine-treatment-online/"><strong>travel medicine</strong></Link>{' '}
               by video visit before you fly — including{' '}
               <Link href="/altitude-sickness-treatment-online/"><strong>altitude sickness prevention</strong></Link>{' '}
-              (acetazolamide/Diamox), malaria prophylaxis, a traveler’s diarrhea standby antibiotic, and motion sickness medication. These are non-controlled medications only; we do not administer travel vaccines.
+              (acetazolamide/Diamox), malaria prophylaxis, a traveler’s diarrhea standby antibiotic, motion sickness medication, and the oral typhoid vaccine (Vivotif) when appropriate. These are non-controlled medications only; we do not administer travel vaccines, so injected vaccines need an in-person clinic.
             </p>
             <p>
               Visit our{' '}
