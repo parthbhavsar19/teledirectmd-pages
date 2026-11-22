@@ -49,7 +49,7 @@ const CURATIVE_FAQS = [
   },
   {
     q: 'Does TeleDirectMD accept Curative Medicaid, Medicare Advantage, or HMO plans?',
-    a: 'No. The Curative contract covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with any state Medicaid, Managed Medicaid, CHIP, or Medicare-Medicaid plan, in any state. If your plan is outside the contracted networks, the $79 flat self-pay visit is still available.',
+    a: 'No. The Curative contract covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with any state Medicaid, Managed Medicaid, CHIP, or Medicare-Medicaid plan, in any state.',
   },
   {
     q: 'What if I have Curative but live outside the 18 live states?',
@@ -144,7 +144,7 @@ export default function CurativeHubClient() {
       'Curative is an employer-sponsored health plan. The participating networks under the TeleDirectMD agreement, effective July 7, 2026, are Commercial PPO, EPO, and Self-Funded plans, covering the EPO Value, EPO (PPOx), PPO (PPO+), and PPO Max products. ' +
       'Curative members who complete their annual Baseline Visit within 120 days of their plan start date have $0 copays, $0 deductible, and 0% coinsurance for in-network care, including virtual visits. Members who have not completed the Baseline Visit are subject to their plan deductible (for example, $5,000 individual and $10,000 family on the EPO product). ' +
       'Coverage is live in the 18 states where Curative lists TeleDirectMD as an in-network virtual provider: Alabama, Arizona, California, Colorado, the District of Columbia, Florida, Georgia, Illinois, Indiana, Kentucky, Louisiana, Maryland, Michigan, Minnesota, Mississippi, Nevada, Ohio, and Texas. Georgia members access the network through Curative’s Cigna Healthcare PPO wrap network arrangement, and TeleDirectMD participates through a direct contract with Curative. ' +
-      'TeleDirectMD is not in-network with Medicaid, Managed Medicaid, CHIP, or Medicare-Medicaid plans in any state. Self-pay alternative: $79 flat, HSA and FSA eligible.',
+      'TeleDirectMD is not in-network with Medicaid, Managed Medicaid, CHIP, or Medicare-Medicaid plans in any state.',
   });
   // emitAs QAPage so this page carries exactly one FAQPage node (the main graph above).
   citableSummary.emitAs = 'QAPage';
@@ -208,7 +208,7 @@ export default function CurativeHubClient() {
                 ))}
               </ul>
               <p style={{ fontSize: 14, color: B.text, margin: 0, lineHeight: 1.6 }}>
-                Plans outside those networks, including Medicaid, Managed Medicaid, CHIP, Medicare-Medicaid, Medicare Advantage, and HMO products, are not in-network. The $79 flat self-pay visit is available either way.
+                Plans outside those networks, including Medicaid, Managed Medicaid, CHIP, Medicare-Medicaid, Medicare Advantage, and HMO products, are not in-network.
               </p>
             </div>
           </div>
@@ -289,7 +289,7 @@ export default function CurativeHubClient() {
 
         <BookCTA
           insurerName="Curative"
-          tagline="Curative Commercial PPO, EPO, and self-funded plans, verified before your video visit. Medicaid, Medicare Advantage, and HMO products are not in-network."
+          tagline="Curative Commercial PPO, EPO, and self-funded plans, verified before your video visit. Medicare Advantage and HMO products are not in-network."
           subtagline="Or pay $79 flat self-pay (HSA and FSA eligible), with no claim and no copay."
         />
 

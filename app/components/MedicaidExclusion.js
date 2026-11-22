@@ -53,7 +53,6 @@ export default function MedicaidExclusion({ headingLevel = 'h2', compact = false
           <p>
             TeleDirectMD is <strong>not</strong> in-network with any Medicaid plan, Managed Medicaid plan, CHIP, Medicare-Medicaid (MME), or Dual Special Needs Plan (D-SNP) in any state we serve. If your only coverage is Medicaid, Managed Medicaid, or a Medicaid-Medicare dual plan, our visits cannot be billed to your plan.
           </p>
-          <p className="medex-sub">You can still book a visit at our $79 self-pay rate (HSA/FSA eligible).</p>
         </div>
       </div>
     </section>
@@ -67,5 +66,5 @@ export default function MedicaidExclusion({ headingLevel = 'h2', compact = false
  */
 export const medicaidExclusionFaq = {
   q: 'Does TeleDirectMD accept Medicaid?',
-  a: 'No. TeleDirectMD is not in-network with any Medicaid program, Managed Medicaid plan, CHIP, Medicare-Medicaid (MME), or Dual Special Needs Plan (D-SNP) in any state we serve. Patients with Medicaid-only coverage can still book a $79 self-pay visit (HSA/FSA eligible).',
+  a: 'No. TeleDirectMD is not in-network with any Medicaid program, Managed Medicaid plan, CHIP, Medicare-Medicaid (MME), or Dual Special Needs Plan (D-SNP) in any state we serve.',
 };

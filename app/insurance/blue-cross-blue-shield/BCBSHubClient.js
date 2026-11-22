@@ -27,7 +27,7 @@ const BCBS_FAQS = [
   { q: "Highmark Pennsylvania: which network areas are covered?", a: "Highmark BCBS Pennsylvania (Western PA, Central PA, and Northeast PA service areas) is in-network. Independence Blue Cross (Southeast PA, Philadelphia metro) is a separate BCBS affiliate and is not currently contracted with TeleDirectMD. Check the back of your card for 'Highmark' branding to confirm." },
   { q: "BCBS-Texas: any commercial-only restrictions?", a: "Yes. TeleDirectMD lists BCBS-TX commercial plans only: Blue Choice PPO, Blue Essentials HMO and Blue Advantage HMO. TeleDirectMD does not accept BCBS-TX Medicaid or CHIP plans (STAR, STAR+PLUS, STAR Kids or CHIP). If you have a BCBS-TX Medicare Advantage plan, contact us at contact@teledirectmd.com before you book." },
   { q: "BCBS-Illinois: is BlueCare Direct or Blue Precision HMO in-network?", a: "No. The BCBS-IL contract covers the Broad PPO, Blue Choice PPO and HPN (EPO) networks, plus BCBS-IL Medicare Advantage PPO and HMO. BCBS-IL HMO networks, including HMO Illinois, Blue Advantage HMO, BlueCare Direct and Blue Precision HMO, are not part of the contract, and neither are BCBS-IL Community (Medicaid) plans." },
-  { q: "Does TeleDirectMD accept any BCBS Medicaid product?", a: "No. TeleDirectMD is not in-network with any BCBS Medicaid plan, including Amerigroup Georgia (Anthem), BCBS-IL Community, or BCBS-TX Medicaid (STAR / STAR+PLUS). Self-pay $79 visits remain available." },
+  { q: "Does TeleDirectMD accept any BCBS Medicaid product?", a: "No. TeleDirectMD is not in-network with any BCBS Medicaid plan, including Amerigroup Georgia (Anthem), BCBS-IL Community, or BCBS-TX Medicaid (STAR / STAR+PLUS)." },
 ];
 
 const CONDITIONS_COVERED = [

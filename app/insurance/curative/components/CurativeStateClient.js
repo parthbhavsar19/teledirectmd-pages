@@ -45,7 +45,7 @@ const STATE_COPY = {
       },
       {
         q: 'Does TeleDirectMD accept Georgia Medicaid or Medicare plans through Curative?',
-        a: 'No. The Curative agreement covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with Georgia Medicaid, Managed Medicaid, PeachCare for Kids (CHIP), or Medicare-Medicaid plans, and does not bill them in any state. The $79 flat self-pay visit remains available.',
+        a: 'No. The Curative agreement covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with Georgia Medicaid, Managed Medicaid, PeachCare for Kids (CHIP), or Medicare-Medicaid plans, and does not bill them in any state.',
       },
     ],
   },
@@ -76,7 +76,7 @@ const STATE_COPY = {
       },
       {
         q: 'Does TeleDirectMD accept Medi-Cal or Medicare plans through Curative?',
-        a: 'No. The Curative agreement covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with Medi-Cal, Managed Medi-Cal, CHIP, or Medicare-Medicaid plans, and does not bill them in any state. The $79 flat self-pay visit remains available.',
+        a: 'No. The Curative agreement covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with Medi-Cal, Managed Medi-Cal, CHIP, or Medicare-Medicaid plans, and does not bill them in any state.',
       },
     ],
   },
@@ -107,7 +107,7 @@ const STATE_COPY = {
       },
       {
         q: 'Does TeleDirectMD bill D.C. Medicaid or Alliance plans through Curative?',
-        a: 'No. The Curative agreement is limited to Commercial PPO, EPO, and self-funded plans. TeleDirectMD is not in-network with D.C. Medicaid, Managed Medicaid, CHIP, or Medicare-Medicaid plans, and does not bill them in any state. Self-pay is $79 flat.',
+        a: 'No. The Curative agreement is limited to Commercial PPO, EPO, and self-funded plans. TeleDirectMD is not in-network with D.C. Medicaid, Managed Medicaid, CHIP, or Medicare-Medicaid plans, and does not bill them in any state.',
       },
     ],
   },
@@ -138,7 +138,7 @@ const STATE_COPY = {
       },
       {
         q: 'Does TeleDirectMD accept Florida Medicaid or Medicare plans through Curative?',
-        a: 'No. The Curative agreement covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with Florida Medicaid, Managed Medicaid, Florida KidCare (CHIP), or Medicare-Medicaid plans, in any state. The $79 flat self-pay visit remains available.',
+        a: 'No. The Curative agreement covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with Florida Medicaid, Managed Medicaid, Florida KidCare (CHIP), or Medicare-Medicaid plans, in any state.',
       },
     ],
   },
@@ -169,7 +169,7 @@ const STATE_COPY = {
       },
       {
         q: 'Does TeleDirectMD accept Indiana Medicaid or HIP plans through Curative?',
-        a: 'No. Coverage is limited to Commercial PPO, EPO, and self-funded plans. TeleDirectMD is not in-network with Indiana Medicaid, the Healthy Indiana Plan, CHIP, or Medicare-Medicaid plans, and does not bill them in any state. The $79 self-pay visit is still available.',
+        a: 'No. Coverage is limited to Commercial PPO, EPO, and self-funded plans. TeleDirectMD is not in-network with Indiana Medicaid, the Healthy Indiana Plan, CHIP, or Medicare-Medicaid plans, and does not bill them in any state.',
       },
     ],
   },
@@ -200,7 +200,7 @@ const STATE_COPY = {
       },
       {
         q: 'Does TeleDirectMD accept Louisiana Medicaid or Healthy Louisiana plans through Curative?',
-        a: 'No. The Curative agreement covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with Louisiana Medicaid, Healthy Louisiana managed care, LaCHIP, or Medicare-Medicaid plans, in any state. Self-pay is $79 flat.',
+        a: 'No. The Curative agreement covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with Louisiana Medicaid, Healthy Louisiana managed care, LaCHIP, or Medicare-Medicaid plans, in any state.',
       },
     ],
   },
@@ -231,7 +231,7 @@ const STATE_COPY = {
       },
       {
         q: 'Does TeleDirectMD accept Maryland Medicaid or HealthChoice plans through Curative?',
-        a: 'No. The agreement covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with Maryland Medicaid, HealthChoice managed care, CHIP, or Medicare-Medicaid plans, and does not bill them in any state. Self-pay is $79 flat.',
+        a: 'No. The agreement covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with Maryland Medicaid, HealthChoice managed care, CHIP, or Medicare-Medicaid plans, and does not bill them in any state.',
       },
     ],
   },
@@ -262,7 +262,7 @@ const STATE_COPY = {
       },
       {
         q: 'Does TeleDirectMD accept Ohio Medicaid or Medicare plans through Curative?',
-        a: 'No. The Curative agreement covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with Ohio Medicaid, Managed Medicaid, CHIP, or Medicare-Medicaid plans, in any state. The $79 flat self-pay visit remains available.',
+        a: 'No. The Curative agreement covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with Ohio Medicaid, Managed Medicaid, CHIP, or Medicare-Medicaid plans, in any state.',
       },
     ],
   },
@@ -293,7 +293,7 @@ const STATE_COPY = {
       },
       {
         q: 'Does TeleDirectMD accept Texas Medicaid or STAR plans through Curative?',
-        a: 'No. The Curative agreement covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with Texas Medicaid, STAR or STAR+PLUS managed care, CHIP, or Medicare-Medicaid plans, and does not bill them in any state. The $79 flat self-pay visit remains available.',
+        a: 'No. The Curative agreement covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with Texas Medicaid, STAR or STAR+PLUS managed care, CHIP, or Medicare-Medicaid plans, and does not bill them in any state.',
       },
     ],
   },
@@ -329,7 +329,7 @@ export default function CurativeStateClient({ state }) {
       `Visits are with Parth Bhavsar, MD (NPI 1104323203), board-certified in Family Medicine and licensed in ${state.name}. ` +
       `${state.networkAccessNote} ${state.addendumNote} ` +
       'Curative members who complete their annual Baseline Visit within 120 days of their plan start date have $0 copays, $0 deductible, and 0% coinsurance for in-network care, including virtual visits; members who have not completed it are subject to their plan deductible. ' +
-      'TeleDirectMD is not in-network with Medicaid, Managed Medicaid, CHIP, or Medicare-Medicaid plans. Self-pay alternative: $79 flat, HSA and FSA eligible.',
+      'TeleDirectMD is not in-network with Medicaid, Managed Medicaid, CHIP, or Medicare-Medicaid plans.',
     answerText: '',
     emitAs: 'QAPage',
   };

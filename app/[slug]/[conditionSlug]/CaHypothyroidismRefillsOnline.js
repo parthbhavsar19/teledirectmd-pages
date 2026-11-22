@@ -92,7 +92,7 @@ const FAQ_ITEMS = [
   {
     id: 'hypothyroidism-refills-online-faq-6',
     question: "Does California Medi-Cal cover levothyroxine?",
-    answer: <p>Medi-Cal covers generic levothyroxine at low or no cost-sharing under the Medi-Cal formulary. However, TeleDirectMD is not currently enrolled as a Medi-Cal provider, so Medi-Cal will not pay for TeleDirectMD visits. Medi-Cal members can use TeleDirectMD\'s $79 self-pay rate or seek care from a Medi-Cal-enrolled primary care physician. For Medi-Cal provider directory, visit dhcs.ca.gov.</p>,
+    answer: <p>Medi-Cal covers generic levothyroxine at low or no cost-sharing under the Medi-Cal formulary. However, TeleDirectMD is not currently enrolled as a Medi-Cal provider, so Medi-Cal will not pay for TeleDirectMD visits. Medi-Cal members should seek care from a Medi-Cal-enrolled primary care physician. For Medi-Cal provider directory, visit dhcs.ca.gov.</p>,
   },
   {
     id: 'hypothyroidism-refills-online-faq-7',

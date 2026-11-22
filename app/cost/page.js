@@ -622,8 +622,7 @@ export default function CostHubPage() {
             where it is not in-network.
           </p>
           <p className="cst-p">
-            Medicaid plans, including managed Medicaid products from Aetna Better Health, are not accepted. Patients covered
-            under Medicaid can book as self-pay for $79. Medicare Advantage plans vary — contact TeleDirectMD at
+            Medicaid plans, including managed Medicaid products from Aetna Better Health, are not accepted. Medicare Advantage plans vary — contact TeleDirectMD at
             contact@teledirectmd.com to verify your specific plan.
           </p>
         </section>

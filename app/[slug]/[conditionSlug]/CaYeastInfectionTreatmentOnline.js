@@ -134,7 +134,7 @@ const FAQ_ITEMS = [
   { question: 'Will Medi-Cal cover my yeast infection treatment visit at TeleDirectMD?',
     answer: (
       <p>
-        TeleDirectMD is not currently enrolled as a Medi-Cal rendering provider. <a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS</a> confirms that Medi-Cal covers telehealth for physical health services when the provider is enrolled. If you have Medi-Cal, you can use the $79 self-pay rate at TeleDirectMD, or find a Medi-Cal-enrolled telehealth provider through your managed care plan or the DHCS directory.
+        TeleDirectMD is not currently enrolled as a Medi-Cal rendering provider. <a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS</a> confirms that Medi-Cal covers telehealth for physical health services when the provider is enrolled. If you have Medi-Cal, find a Medi-Cal-enrolled telehealth provider through your managed care plan or the DHCS directory.
       </p>
     ),
   },

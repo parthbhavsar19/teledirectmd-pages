@@ -77,7 +77,7 @@ const FAQ_ITEMS = [
   {
     id: 'asthma-refills-online-faq-3',
     question: "Does California Medi-Cal cover asthma controller inhalers?",
-    answer: <p>TeleDirectMD is not currently enrolled as a Medi-Cal provider, so Medi-Cal will not cover TeleDirectMD visits. However, Medi-Cal\'s formulary does cover asthma controller inhalers including budesonide and generic formulations. If you have Medi-Cal, you can use TeleDirectMD\'s $79 self-pay rate or seek a Medi-Cal-enrolled primary care provider for your refills. Visit dhcs.ca.gov for the Medi-Cal provider directory.</p>,
+    answer: <p>TeleDirectMD is not currently enrolled as a Medi-Cal provider, so Medi-Cal will not cover TeleDirectMD visits. However, Medi-Cal\'s formulary does cover asthma controller inhalers including budesonide and generic formulations. If you have Medi-Cal, seek a Medi-Cal-enrolled primary care provider for your refills. Visit dhcs.ca.gov for the Medi-Cal provider directory.</p>,
   },
   {
     id: 'asthma-refills-online-faq-4',

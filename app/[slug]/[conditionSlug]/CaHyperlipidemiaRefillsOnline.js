@@ -87,7 +87,7 @@ const FAQ_ITEMS = [
   {
     id: 'hyperlipidemia-refills-online-faq-5',
     question: "Does California Medi-Cal cover statin medications?",
-    answer: <p>Medi-Cal covers generic statins including atorvastatin, simvastatin, pravastatin, and lovastatin at low or no cost-sharing under the Medi-Cal formulary. Rosuvastatin and ezetimibe are also covered with prior authorization in some managed care plans. However, TeleDirectMD is not currently enrolled as a Medi-Cal provider, so Medi-Cal will not cover TeleDirectMD visits. Medi-Cal members can use the $79 self-pay rate or seek care from a Medi-Cal-enrolled provider.</p>,
+    answer: <p>Medi-Cal covers generic statins including atorvastatin, simvastatin, pravastatin, and lovastatin at low or no cost-sharing under the Medi-Cal formulary. Rosuvastatin and ezetimibe are also covered with prior authorization in some managed care plans. However, TeleDirectMD is not currently enrolled as a Medi-Cal provider, so Medi-Cal will not cover TeleDirectMD visits. Medi-Cal members should seek care from a Medi-Cal-enrolled provider.</p>,
   },
   {
     id: 'hyperlipidemia-refills-online-faq-6',

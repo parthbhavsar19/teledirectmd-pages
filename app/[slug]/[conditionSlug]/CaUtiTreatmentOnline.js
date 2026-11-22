@@ -130,7 +130,7 @@ const FAQ_ITEMS = [
   { question: 'Will Medi-Cal cover my TeleDirectMD visit in California?',
     answer: (
       <p>
-        TeleDirectMD is not currently enrolled as a Medi-Cal provider. <a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS</a> confirms that Medi-Cal covers telehealth for physical health services when the provider is an enrolled Medi-Cal rendering provider. If you have Medi-Cal, you can use the $79 self-pay rate, or find a Medi-Cal-enrolled telehealth provider through your managed care plan or the DHCS directory at dhcs.ca.gov.
+        TeleDirectMD is not currently enrolled as a Medi-Cal provider. <a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS</a> confirms that Medi-Cal covers telehealth for physical health services when the provider is an enrolled Medi-Cal rendering provider. If you have Medi-Cal, find a Medi-Cal-enrolled telehealth provider through your managed care plan or the DHCS directory at dhcs.ca.gov.
       </p>
     ),
   },
