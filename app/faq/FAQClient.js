@@ -517,11 +517,11 @@ const sections = [
                 <strong>Aetna</strong> — Commercial plans in AZ, CA, CO, FL, GA, IL, LA, MI, MN, NC, OH, PA, TN, WA
               </li>
               <li>
-                <strong>Blue Cross Blue Shield</strong> — Select plans in AZ (BCBS of Arizona), CA (Anthem Blue Cross PPO), FL (Florida Blue), GA
-                (Anthem BCBS), IL (BCBS of Illinois), MI (BCBS of Michigan), PA (Highmark BCBS), TX (BCBS of Texas)
+                <strong>Blue Cross Blue Shield</strong> — Select plans in AZ (BCBS of Arizona), CA (Anthem Blue Cross PPO), GA
+                (Anthem BCBS), IL (BCBS of Illinois), PA (Highmark BCBS), TX (BCBS of Texas)
               </li>
               <li>
-                <strong>UnitedHealthcare</strong> — Commercial plans in AZ, CA, CO, FL, GA, IL, LA, MI, MN, NC, NJ, OH, OK, PA, TN, TX, WA
+                <strong>UnitedHealthcare</strong> — Commercial plans in AZ, CA, CO, GA, IL, MN, NC, NJ, OH, OK, PA, TX, WA
               </li>
             </ul>
             <p>

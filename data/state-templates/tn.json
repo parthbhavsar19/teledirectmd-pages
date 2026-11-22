@@ -18,12 +18,12 @@
     ],
     "boardStrictness": "strict",
     "culturalRegister": "south",
-    "voiceNotes": "Warm but exact. Tennessee's Board of Medical Examiners spells out what a remote provider must disclose and what must happen before any prescription, so lean on the rule text. Two payment paths (Aetna or UnitedHealthcare in-network, or $79 self-pay) need to stay clearly separated."
+    "voiceNotes": "Warm but exact. Tennessee's Board of Medical Examiners spells out what a remote provider must disclose and what must happen before any prescription, so lean on the rule text. Two payment paths (Aetna in-network, or $79 self-pay) need to stay clearly separated."
   },
   "stateHero": {
-    "openingParagraph": "If you are an adult located in Tennessee, you can book a video visit with Parth Bhavsar, MD, a board-certified family medicine physician who holds a Tennessee medical license. The Tennessee Board of Medical Examiners requires anyone practicing medicine on a patient in the state, in person or remotely, to hold its license, and it defines telemedicine as more than a phone call, email or fax, typically secure video. That is the format here, for patients in Memphis, Nashville, Knoxville, Chattanooga or Kingsport alike. TeleDirectMD is in-network with Aetna and UnitedHealthcare in Tennessee; without those plans, the visit is a flat $79, paid at booking.",
-    "conditionPageOpener": "Adults physically in Tennessee can book a video visit with Parth Bhavsar, MD, a board-certified family medicine physician licensed in Tennessee. In-network with Aetna and UnitedHealthcare in Tennessee, or a flat $79 self-pay. Prescriptions, when appropriate, go electronically to your pharmacy.",
-    "stateContextHint": "Licensed in Tennessee. Secure video visits that meet the Board of Medical Examiners' telemedicine definition. Aetna and UnitedHealthcare in-network, or $79 self-pay.",
+    "openingParagraph": "If you are an adult located in Tennessee, you can book a video visit with Parth Bhavsar, MD, a board-certified family medicine physician who holds a Tennessee medical license. The Tennessee Board of Medical Examiners requires anyone practicing medicine on a patient in the state, in person or remotely, to hold its license, and it defines telemedicine as more than a phone call, email or fax, typically secure video. That is the format here, for patients in Memphis, Nashville, Knoxville, Chattanooga or Kingsport alike. TeleDirectMD is in-network with Aetna in Tennessee; without an Aetna plan, the visit is a flat $79, paid at booking.",
+    "conditionPageOpener": "Adults physically in Tennessee can book a video visit with Parth Bhavsar, MD, a board-certified family medicine physician licensed in Tennessee. In-network with Aetna in Tennessee, or a flat $79 self-pay. Prescriptions, when appropriate, go electronically to your pharmacy.",
+    "stateContextHint": "Licensed in Tennessee. Secure video visits that meet the Board of Medical Examiners' telemedicine definition. Aetna in-network, or $79 self-pay.",
     "saturation": {
       "stateNameMentions": 0,
       "stateEntityMentions": 0
@@ -39,9 +39,9 @@
     ]
   },
   "statePricing": {
-    "context": "Tennessee is one of the states where TeleDirectMD bills insurance. If you have an Aetna or UnitedHealthcare plan that TeleDirectMD is in-network with, your plan's copay applies instead of the $79 self-pay fee, and benefits are checked before the visit. Everyone else pays a flat $79 at booking, with HSA and FSA cards accepted. Medicine is paid separately at the pharmacy. TennCare, the state's Medicaid program, is not accepted. For people who do not qualify for TennCare, the state points to the Health Insurance Marketplace at healthcare.gov, and county health departments offer many services on a sliding fee scale based on income.",
+    "context": "Tennessee is one of the states where TeleDirectMD bills insurance. If you have an Aetna plan that TeleDirectMD is in-network with, your plan's copay applies instead of the $79 self-pay fee, and benefits are checked before the visit. Everyone else pays a flat $79 at booking, with HSA and FSA cards accepted. Medicine is paid separately at the pharmacy. TennCare, the state's Medicaid program, is not accepted. For people who do not qualify for TennCare, the state points to the Health Insurance Marketplace at healthcare.gov, and county health departments offer many services on a sliding fee scale based on income.",
     "additionalNotes": [
-      "In-network: Aetna and UnitedHealthcare (Tennessee).",
+      "In-network: Aetna (Tennessee).",
       "$79 flat self-pay for everyone else, HSA and FSA accepted.",
       "TennCare (Medicaid) is not accepted."
     ]
@@ -147,7 +147,7 @@
     "boardUrl": "https://www.tn.gov/health/licensure/me.html"
   },
   "stateCities": {
-    "metroAndRural": "TeleDirectMD sees adults anywhere in Tennessee, home to 7,315,076 people (U.S. Census Bureau, July 1, 2025 estimate) at 167.6 people per square mile in 2020. Patients in Nashville, Memphis, Knoxville, Chattanooga, Clarksville, Murfreesboro, Franklin, Jackson, Johnson City, Bartlett, Hendersonville and Kingsport, and in the counties between them, reach the same physician by video, with the same Aetna and UnitedHealthcare in-network options or the same flat $79.",
+    "metroAndRural": "TeleDirectMD sees adults anywhere in Tennessee, home to 7,315,076 people (U.S. Census Bureau, July 1, 2025 estimate) at 167.6 people per square mile in 2020. Patients in Nashville, Memphis, Knoxville, Chattanooga, Clarksville, Murfreesboro, Franklin, Jackson, Johnson City, Bartlett, Hendersonville and Kingsport, and in the counties between them, reach the same physician by video, with the same Aetna in-network option or the same flat $79.",
     "cityList": [
       {
         "city": "Nashville"
@@ -189,8 +189,8 @@
     "frontierCounties": []
   },
   "stateInsurance": {
-    "mode": "multi-payer",
-    "selfPayDisclosure": "TeleDirectMD bills Aetna and UnitedHealthcare in-network in Tennessee for the plan types listed below. If your plan is one of them, your plan's copay applies in place of the $79 self-pay fee, and benefits are verified before the visit; coverage details depend on your plan. If you have another plan or no insurance, the visit is a flat $79, paid at booking, with HSA and FSA cards accepted. TennCare and other Medicaid plans are not accepted, and TeleDirectMD cannot promise coverage by any plan.",
+    "mode": "single-payer",
+    "selfPayDisclosure": "TeleDirectMD bills Aetna in-network in Tennessee for the plan types listed below. If your plan is one of them, your plan's copay applies in place of the $79 self-pay fee, and benefits are verified before the visit; coverage details depend on your plan. If you have another plan or no insurance, the visit is a flat $79, paid at booking, with HSA and FSA cards accepted. TennCare and other Medicaid plans are not accepted, and TeleDirectMD cannot promise coverage by any plan.",
     "payers": [
       {
         "name": "Aetna",
@@ -198,13 +198,6 @@
         "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
         "validFrom": "2026-02-24",
         "copayNote": "Your Aetna plan's copay applies in place of the $79 self-pay fee; benefits are verified before the visit."
-      },
-      {
-        "name": "UnitedHealthcare",
-        "anchorId": "uhc-coverage",
-        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
-        "validFrom": "2026-03-27",
-        "copayNote": "Your UnitedHealthcare plan's copay applies in place of the $79 self-pay fee; benefits are verified before the visit."
       }
     ]
   },
@@ -215,7 +208,7 @@
     },
     {
       "question": "Is TeleDirectMD in-network with insurance in Tennessee?",
-      "answer": "Yes, with Aetna and UnitedHealthcare in Tennessee, for PPO, HMO, EPO, POS and Medicare Advantage plans. If you are covered, your plan's copay applies instead of the $79 self-pay fee, and benefits are verified before the visit. Other plans, and people without insurance, pay a flat $79 at booking. TennCare is not accepted."
+      "answer": "Yes, with Aetna in Tennessee, for PPO, HMO, EPO, POS and Medicare Advantage plans. If you are covered, your plan's copay applies instead of the $79 self-pay fee, and benefits are verified before the visit. Other plans, and people without insurance, pay a flat $79 at booking. TennCare is not accepted."
     },
     {
       "question": "What does a Tennessee telemedicine provider have to tell me?",
@@ -236,7 +229,7 @@
   ],
   "conditionOverrides": {
     "tick-bite-treatment-online": {
-      "stateConditionParagraph": "The Tennessee Department of Health lists Rocky Mountain spotted fever, ehrlichiosis and Lyme disease among the common tick-borne illnesses in the state, along with alpha-gal syndrome, and its spotted fever guidance stresses that treatment works best when started early, ideally within the first five days of symptoms. For adults in Tennessee who have removed a tick, a video visit can review a photo of the tick and bite, where you were and how long it was attached, and decide whether preventive treatment or watchful waiting fits. Fever, severe headache, an expanding rash or facial weakness after a bite needs urgent in-person care. Flat $79, or your Aetna or UnitedHealthcare copay."
+      "stateConditionParagraph": "The Tennessee Department of Health lists Rocky Mountain spotted fever, ehrlichiosis and Lyme disease among the common tick-borne illnesses in the state, along with alpha-gal syndrome, and its spotted fever guidance stresses that treatment works best when started early, ideally within the first five days of symptoms. For adults in Tennessee who have removed a tick, a video visit can review a photo of the tick and bite, where you were and how long it was attached, and decide whether preventive treatment or watchful waiting fits. Fever, severe headache, an expanding rash or facial weakness after a bite needs urgent in-person care. Flat $79, or your Aetna copay."
     },
     "cat-bite-treatment-online": {
       "stateConditionParagraph": "Tennessee's 2024 Rabies Manual names bats as rabies reservoir hosts alongside skunks, raccoons and foxes, and it advises contacting the local health department to file a bite report or for help observing a domestic animal; a biting animal is typically confined and watched for 10 days. Cat bite infections can also develop quickly. TeleDirectMD can see adults in Tennessee by video for a superficial to moderate bite from a known domestic cat within the last 24 hours, to plan wound care and decide whether a preventive antibiotic fits. Hand bites with swelling, and bites from strays or wild animals, need in-person care."
@@ -245,19 +238,19 @@
       "stateConditionParagraph": "In Tennessee, skunks are the most common rabies reservoir, according to the Department of Health's 2024 Rabies Manual, which also tells people to contact the local health department to file a bite report and notes that a biting dog is confined and observed for 10 days. If you are an adult in Tennessee with a cleaned, superficial to moderate bite from a known domestic dog with a vaccination history, a video visit can assess the wound from photos and decide on antibiotics and follow-up. Deep wounds, uncontrolled bleeding, facial wounds needing repair, or a bite from an unknown or wild animal need in-person care."
     },
     "chlamydia-treatment-online": {
-      "stateConditionParagraph": "Tennessee reported 36,872 chlamydia cases in 2023, a rate of 517.4 per 100,000, ranking 16th among states and above the national rate of 492.2 (CDC, 2023 state ranking tables). CDC lists expedited partner therapy as permissible in Tennessee. Adults in Tennessee with a positive chlamydia test can review the result with Dr. Bhavsar by video, and when appropriate, treatment is sent to your pharmacy. TeleDirectMD does not perform STI testing, so bring your result. Pelvic pain with fever, severe testicular pain, or pregnancy needs in-person care. Flat $79, or your Aetna or UnitedHealthcare copay."
+      "stateConditionParagraph": "Tennessee reported 36,872 chlamydia cases in 2023, a rate of 517.4 per 100,000, ranking 16th among states and above the national rate of 492.2 (CDC, 2023 state ranking tables). CDC lists expedited partner therapy as permissible in Tennessee. Adults in Tennessee with a positive chlamydia test can review the result with Dr. Bhavsar by video, and when appropriate, treatment is sent to your pharmacy. TeleDirectMD does not perform STI testing, so bring your result. Pelvic pain with fever, severe testicular pain, or pregnancy needs in-person care. Flat $79, or your Aetna copay."
     },
     "influenza-treatment-online": {
-      "stateConditionParagraph": "The Tennessee Department of Health publishes a Tennessee Influenza Weekly Report dashboard and encourages people to plan with a healthcare provider about getting treatment before they need it, noting that antiviral medicines can lower the chance of hospitalization. Flu antivirals work best when started within about 48 hours of symptoms. A video visit for adults in Tennessee can decide whether an antiviral is appropriate and send it to your pharmacy. Trouble breathing, chest pain, confusion or being unable to keep fluids down needs in-person care now. Flat $79, or your Aetna or UnitedHealthcare copay."
+      "stateConditionParagraph": "The Tennessee Department of Health publishes a Tennessee Influenza Weekly Report dashboard and encourages people to plan with a healthcare provider about getting treatment before they need it, noting that antiviral medicines can lower the chance of hospitalization. Flu antivirals work best when started within about 48 hours of symptoms. A video visit for adults in Tennessee can decide whether an antiviral is appropriate and send it to your pharmacy. Trouble breathing, chest pain, confusion or being unable to keep fluids down needs in-person care now. Flat $79, or your Aetna copay."
     },
     "covid-19-treatment-online": {
-      "stateConditionParagraph": "Tennessee's Department of Health encourages residents to plan ahead with a healthcare provider for respiratory virus treatment and points to a federal locator for pharmacies that have COVID-19 or flu medicines in stock. COVID-19 antivirals are started within the first days of symptoms, and some interact with common medicines, so the visit includes a medication review. Adults in Tennessee with a positive test and mild to moderate symptoms can be seen by video, and when treatment is appropriate, a prescription goes electronically to your pharmacy. Trouble breathing, chest pain or confusion needs emergency care. Flat $79, or your Aetna or UnitedHealthcare copay."
+      "stateConditionParagraph": "Tennessee's Department of Health encourages residents to plan ahead with a healthcare provider for respiratory virus treatment and points to a federal locator for pharmacies that have COVID-19 or flu medicines in stock. COVID-19 antivirals are started within the first days of symptoms, and some interact with common medicines, so the visit includes a medication review. Adults in Tennessee with a positive test and mild to moderate symptoms can be seen by video, and when treatment is appropriate, a prescription goes electronically to your pharmacy. Trouble breathing, chest pain or confusion needs emergency care. Flat $79, or your Aetna copay."
     },
     "smoking-cessation-treatment-online": {
-      "stateConditionParagraph": "Every Tennessee resident can use the Tennessee Tobacco QuitLine at no charge: callers to 1-800-QUIT-NOW are assigned their own quit coach who helps build a plan. A video visit with Dr. Bhavsar adds a physician's review of whether a prescription quit medicine fits your health history, which depends on factors such as seizure history, pregnancy and recent heart events. Chest pain, shortness of breath or a mental health crisis needs emergency care. Flat $79, or your Aetna or UnitedHealthcare copay, for adults physically in Tennessee."
+      "stateConditionParagraph": "Every Tennessee resident can use the Tennessee Tobacco QuitLine at no charge: callers to 1-800-QUIT-NOW are assigned their own quit coach who helps build a plan. A video visit with Dr. Bhavsar adds a physician's review of whether a prescription quit medicine fits your health history, which depends on factors such as seizure history, pregnancy and recent heart events. Chest pain, shortness of breath or a mental health crisis needs emergency care. Flat $79, or your Aetna copay, for adults physically in Tennessee."
     },
     "birth-control-refills-online": {
-      "stateConditionParagraph": "Tennessee gives adults more than one route to hormonal contraception: under Public Chapter 942 of 2016, a pharmacist may provide hormonal contraceptives under a valid collaborative pharmacy practice agreement. A TeleDirectMD video visit is another option for adults in Tennessee who are already stable on a pill, patch or ring prescribed elsewhere and need it renewed. Dr. Bhavsar reviews blood pressure readings, migraine history and new diagnoses before a refill, and new migraines with aura, a new blood clot or uncontrolled blood pressure mean in-person care. Flat $79, or your Aetna or UnitedHealthcare copay."
+      "stateConditionParagraph": "Tennessee gives adults more than one route to hormonal contraception: under Public Chapter 942 of 2016, a pharmacist may provide hormonal contraceptives under a valid collaborative pharmacy practice agreement. A TeleDirectMD video visit is another option for adults in Tennessee who are already stable on a pill, patch or ring prescribed elsewhere and need it renewed. Dr. Bhavsar reviews blood pressure readings, migraine history and new diagnoses before a refill, and new migraines with aura, a new blood clot or uncontrolled blood pressure mean in-person care. Flat $79, or your Aetna copay."
     }
   },
   "stateLegalLayer": {

@@ -187,14 +187,14 @@
       {
         "name": "Anthem Blue Cross Blue Shield",
         "anchorId": "anthem-coverage",
-        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
+        "planNames": "BlueChoice PPO, BlueChoice HMO/POS, Blue Open Access HMO/POS, Pathway HMO plans, Medicare Advantage HMO and PPO",
         "validFrom": "2026-02-12",
         "copayNote": "Your copay or deductible, if any, is set by your Anthem plan."
       },
       {
         "name": "UnitedHealthcare",
         "anchorId": "uhc-coverage",
-        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage (excludes Medicaid, Individual Exchange, Charter, Core, Navigate, Group PPO Medicare Advantage)",
         "validFrom": "2026-04-03",
         "copayNote": "Your copay or deductible, if any, is set by your UnitedHealthcare plan."
       },

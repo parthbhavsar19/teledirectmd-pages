@@ -37,7 +37,7 @@
     ]
   },
   "statePricing": {
-    "context": "In Pennsylvania, TeleDirectMD is in-network with Highmark Blue Cross Blue Shield, UnitedHealthcare and Aetna for PPO, HMO, EPO, POS and Medicare Advantage plans, and your plan sets any cost sharing. Without one of those plans, the visit is a flat $79 at booking, and HSA and FSA cards are accepted. Medicaid plans, including the HealthChoices managed care plans run by the Department of Human Services, are not accepted. Pennsylvanians shopping for coverage can use Pennie, Pennsylvania's official health insurance marketplace.",
+    "context": "In Pennsylvania, TeleDirectMD is in-network with UnitedHealthcare and Aetna for PPO, HMO, EPO, POS and Medicare Advantage plans, and with Highmark Blue Cross Blue Shield for its Traditional Indemnity plans, and your plan sets any cost sharing. Without one of those plans, the visit is a flat $79 at booking, and HSA and FSA cards are accepted. Medicaid plans, including the HealthChoices managed care plans run by the Department of Human Services, are not accepted. Pennsylvanians shopping for coverage can use Pennie, Pennsylvania's official health insurance marketplace.",
     "additionalNotes": [
       "$79 flat self-pay at booking.",
       "Highmark Blue Cross Blue Shield, UnitedHealthcare and Aetna in-network in Pennsylvania.",
@@ -214,15 +214,15 @@
       {
         "name": "Highmark Blue Cross Blue Shield",
         "anchorId": "highmark-coverage",
-        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
+        "planNames": "Traditional Indemnity plans only (other Highmark networks, including Medicare Advantage, not in-network)",
         "validFrom": "2025-12-01",
         "copayNote": "Cost sharing depends on your plan."
       },
       {
         "name": "UnitedHealthcare",
         "anchorId": "uhc-coverage",
-        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
-        "validFrom": "2026-03-26",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage (excludes Medicaid, CHIP, Medicare Select)",
+        "validFrom": "2026-03-24",
         "copayNote": "Cost sharing depends on your plan."
       },
       {
@@ -241,7 +241,7 @@
     },
     {
       "question": "Does TeleDirectMD take Highmark or other insurance in Pennsylvania?",
-      "answer": "Yes. In Pennsylvania, TeleDirectMD is in-network with Highmark Blue Cross Blue Shield, UnitedHealthcare and Aetna for PPO, HMO, EPO, POS and Medicare Advantage plans. Your plan sets any cost sharing. Without one of those plans, the visit is a flat $79 at booking. Medicaid plans are not accepted."
+      "answer": "Yes. In Pennsylvania, TeleDirectMD is in-network with UnitedHealthcare and Aetna for PPO, HMO, EPO, POS and Medicare Advantage plans, and with Highmark Blue Cross Blue Shield for its Traditional Indemnity plans only. Your plan sets any cost sharing. Without one of those plans, the visit is a flat $79 at booking. Medicaid plans are not accepted."
     },
     {
       "question": "How can I verify Dr. Bhavsar's Pennsylvania license?",

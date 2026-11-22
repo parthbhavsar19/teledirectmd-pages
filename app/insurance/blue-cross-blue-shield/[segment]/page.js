@@ -11,10 +11,8 @@ const STATE_SLUGS = {
   // California uses a dedicated state-specific page (AnthemCaliforniaClient):
   // PPO / Indemnity / Medicare PPO only, and no state x condition fan-out.
   california: 'CA',
-  florida: 'FL',
   georgia: 'GA',
   illinois: 'IL',
-  michigan: 'MI',
   pennsylvania: 'PA',
   texas: 'TX',
 };
