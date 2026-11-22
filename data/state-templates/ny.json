@@ -656,6 +656,16 @@
         "conditions": ["psoriasis-refills-online"]
       },
       {
+        "label": "NYS Department of Financial Services, FAQ About Step Therapy Legislation (Chapter 512 of the Laws of 2016)",
+        "url": "https://www.dfs.ny.gov/apps_and_licensing/health_insurers/qa_step_therapy_legislation",
+        "conditions": ["psoriasis-refills-online"]
+      },
+      {
+        "label": "NYS Department of Financial Services, New York State External Appeal",
+        "url": "https://www.dfs.ny.gov/complaints/file_external_appeal",
+        "conditions": ["psoriasis-refills-online"]
+      },
+      {
         "label": "NYS Department of Health, Memorandum: Control of Scabies in Health Care Facilities (1996, revised April 2008)",
         "url": "https://healthweb-back.health.ny.gov/professionals/diseases/reporting/communicable/infection/96-14_scabies_control_in_hcf.htm",
         "conditions": ["scabies-treatment-online"]
@@ -1315,11 +1325,18 @@
       ]
     },
     "psoriasis-refills-online": {
+      "pageTitle": "Psoriasis Prescription Refills Online in New York | TeleDirectMD",
+      "metaDescription": "Renew a topical psoriasis prescription by video in New York with a physician, flat $79. Plus how New York step therapy overrides and DFS external appeals work if a plan says no.",
+      "h1": "Psoriasis Prescription Refills Online in New York",
       "stateConditionParagraph": "If your topical psoriasis prescription is out of refills, note that under Education Law Section 6810, a pharmacy cannot refill a prescription more times than the prescriber authorized, and a new prescription must be sent electronically. A video visit for adults physically in New York with stable, previously diagnosed plaque psoriasis can review your skin and regimen and renew it when appropriate. New joint symptoms call for a fuller evaluation: the American Academy of Dermatology notes that psoriatic arthritis often starts with a few puffy joints, a swollen finger or toe, or morning stiffness, most often 5 to 12 years after psoriasis begins. Flat $79.",
       "sectionNotes": {
         "eligibility-checklist": "A refill visit starts from an existing diagnosis, and New York law helps you document it. Under Public Health Law Section 18, a clinician who treated you must furnish a copy of your patient information within a reasonable time after a written request, must offer inspection of it within ten days, and may not deny you access solely because you cannot pay.",
         "how-it-works": "New York prescriptions travel electronically, and that helps when a pharmacy is out of your cream or you are away from your usual store. Education Law Section 6810 lets a pharmacy that received an electronic prescription, and has not filled it, forward it immediately to another pharmacy you designate at your request. Ask the first pharmacy to transfer it rather than starting over with a new prescription.",
-        "medications": "Psoriasis regimens often come with exact instructions about how thinly to apply, where, and for how many weeks, especially for high-potency steroids. If English is not your first language, Education Law Section 6829 requires any New York pharmacy that is part of a group of eight or more in the state under the same corporate owner to provide free, competent oral interpretation and to translate prescription labels, warning labels and other written material into the pharmacy primary languages for its region. Covered pharmacies must post a notice of this right at the prescription counter."
+        "medications": "Psoriasis regimens often come with exact instructions about how thinly to apply, where, and for how many weeks, especially for high-potency steroids. If English is not your first language, Education Law Section 6829 requires any New York pharmacy that is part of a group of eight or more in the state under the same corporate owner to provide free, competent oral interpretation and to translate prescription labels, warning labels and other written material into the pharmacy primary languages for its region. Covered pharmacies must post a notice of this right at the prescription counter.",
+        "treatment-options": [
+          "New York limits how a health plan can make you try other drugs first. New York Insurance Law defines step therapy as a protocol that \"establishes the specific sequence in which prescription drugs for a specified medical condition are approved.\" Under Chapter 512 of the Laws of 2016, effective January 1, 2017, your prescriber can ask the plan for a step therapy override with documentation that, for example, you already tried the required drug under your current or previous coverage and it was stopped for lack of effect or an adverse event, or that you are stable on the drug your clinician chose.",
+          "The plan must decide within 72 hours of receiving the supporting documentation, or within 24 hours when your health is in serious jeopardy without the drug, and a missed deadline counts as an override. The law covers insurers and HMOs regulated in New York. It does not apply to self-insured employer plans or Medicare. Your TeleDirectMD visit is a flat $79 self-pay, but if you fill the prescription through your plan's pharmacy benefit, these rules apply to that fill."
+        ]
       },
       "faqs": [
         {
@@ -1333,6 +1350,14 @@
         {
           "question": "Can I get my prescription label in my own language in New York?",
           "answer": "At many pharmacies, yes. Education Law Section 6829 requires New York pharmacies that are part of a group of eight or more in the state under the same corporate owner to offer free, competent oral interpretation and translated prescription labels, warning labels and written materials in the main languages of their region, which are set by regulation from Census data, up to seven per region. Ask at the counter."
+        },
+        {
+          "question": "My New York health plan wants me to try a different psoriasis drug first. Can that be overridden?",
+          "answer": "Often, if your prescriber documents a reason. New York's step therapy law, effective January 1, 2017, lets a prescriber request an override when, for example, the required drug is expected to be ineffective given your history, you already tried it and it was stopped for lack of effect or an adverse event, or you are stable on the drug your clinician selected. The plan must decide within 72 hours of receiving the documentation, or 24 hours if your health is in serious jeopardy without the drug. The law does not apply to self-insured employer plans or Medicare."
+        },
+        {
+          "question": "My New York plan denied my psoriasis medication. Can I appeal outside the plan?",
+          "answer": "Yes, through a New York State external appeal. If an insurer or HMO denies care as not medically necessary, experimental or investigational, or out of network, and your internal appeal fails, you can send an application to the Department of Financial Services within 4 months of the plan's final adverse determination. An independent external appeal agent decides, and the decision is binding on you and the plan. Plans may charge $25 per appeal, no more than $75 a plan year, refunded if the denial is overturned and waived if the fee is a hardship. Decisions come within 30 days, or 72 hours when expedited; for a non-formulary drug, 72 hours standard and 24 hours expedited. A denied step therapy override can also be appealed."
         }
       ]
     },
