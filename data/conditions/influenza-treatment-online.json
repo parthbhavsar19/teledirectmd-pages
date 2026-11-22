@@ -50,6 +50,44 @@
     "icd10Display": "J11.1, J10.1, J11.89, or J09.X2 (final coding depends on clinical details)",
     "quickAnswer": "Yes, adults (18+) in {state} with flu symptoms can be treated online, and timing matters. A board-certified MD reviews your symptom onset by secure video and, per CDC guidance, prescribes an antiviral (oseltamivir, baloxavir, or zanamivir) ideally within 48 hours of symptom onset to shorten illness by 1–2 days, plus supportive medications like acetaminophen. Visit price: $79 flat, no insurance required. Difficulty breathing, chest pain, or confusion needs ER care, not telehealth."
   },
+  "getMedicationOnline": {
+    "kicker": "Tamiflu online",
+    "title": "How to Get Tamiflu Online",
+    "priceLine": "$79 flat for a video visit with a board-certified physician. Tamiflu (oseltamivir) is a prescription medicine, so it is prescribed only when the physician finds it clinically appropriate, and the medication is paid for separately at your pharmacy.",
+    "steps": [
+      {
+        "title": "Book a $79 video visit",
+        "text": "No insurance or membership is needed. Visits are for adults 18 and older who are physically located in one of the 40+ states TeleDirectMD serves at the time of the visit."
+      },
+      {
+        "title": "Tell the physician when symptoms started",
+        "text": "CDC says flu antiviral drugs work best when started within 1 to 2 days after symptoms begin, so book as soon as you can."
+      },
+      {
+        "title": "Get a decision on antiviral treatment",
+        "text": "The physician screens for red flags and decides whether an antiviral fits. CDC advises clinicians that starting treatment for suspected flu should not wait for laboratory confirmation."
+      },
+      {
+        "title": "Pick it up at your pharmacy",
+        "text": "If an antiviral is prescribed, the prescription is sent electronically to the pharmacy you choose. CDC says these drugs can lessen symptoms and shorten the time you are sick by about a day."
+      }
+    ],
+    "safetyNote": "Fill prescriptions only at a pharmacy that requires a prescription and is licensed by a state board of pharmacy; FDA lists both as signs of a safe online pharmacy. Trouble breathing, chest pain or pressure, or confusion need emergency care, not a video visit.",
+    "sources": [
+      {
+        "text": "CDC: Treating Flu with Antiviral Drugs (last reviewed June 26, 2026)",
+        "url": "https://www.cdc.gov/flu/treatment/antiviral-drugs.html"
+      },
+      {
+        "text": "CDC: Influenza Antiviral Medications: Summary for Clinicians (last reviewed March 10, 2026)",
+        "url": "https://www.cdc.gov/flu/hcp/antivirals/summary-clinicians.html"
+      },
+      {
+        "text": "FDA: How to Buy Medicines Safely From an Online Pharmacy",
+        "url": "https://www.fda.gov/consumers/consumer-updates/how-buy-medicines-safely-online-pharmacy"
+      }
+    ]
+  },
   "eligibility": {
     "sectionTitle": "Influenza Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",

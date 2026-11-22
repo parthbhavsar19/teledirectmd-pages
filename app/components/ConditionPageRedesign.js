@@ -47,6 +47,9 @@ export default function ConditionPageRedesign({
   const whenNot = c.whenNotToUse || {};
   const decision = c.decisionGuide || {};
   const refs = Array.isArray(c.references) ? c.references : [];
+  const getRx = c.getMedicationOnline || null;
+  const getRxSteps = (getRx && Array.isArray(getRx.steps)) ? getRx.steps : [];
+  const getRxSources = (getRx && Array.isArray(getRx.sources)) ? getRx.sources : [];
   const relatedConds = Array.isArray(c.relatedConditions) ? c.relatedConditions : [];
 
   // Parse a "$X to $Y" style bar value into a relative width for the chart.
@@ -125,6 +128,10 @@ export default function ConditionPageRedesign({
 
         .cpr-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem;margin-top:1.4rem;}
         @media(max-width:760px){.cpr-steps{grid-template-columns:1fr;}}
+        .cpr-steps.cpr-steps4{grid-template-columns:repeat(4,1fr);}
+        @media(max-width:980px){.cpr-steps.cpr-steps4{grid-template-columns:repeat(2,1fr);}}
+        @media(max-width:760px){.cpr-steps.cpr-steps4{grid-template-columns:1fr;}}
+        .cpr-getrx-note{font-size:.92rem;line-height:1.55;color:var(--muted);max-width:80ch;margin:1.4rem 0 0;}
         .cpr-step{background:#fff;border:1px solid var(--line);border-radius:16px;padding:1.4rem 1.3rem;}
         .cpr-step .num{font-family:'Fraunces',serif;font-size:2.1rem;font-weight:600;color:var(--gold);line-height:1;margin-bottom:.5rem;}
         .cpr-step h3{font-size:1.02rem;color:var(--navy);margin:0 0 .35rem;}
@@ -240,6 +247,38 @@ export default function ConditionPageRedesign({
           </div>
         </div>
       </section>
+
+      {/* HOW TO GET THE MEDICATION ONLINE (optional, per-condition data:
+          getMedicationOnline). Price first, then plain steps, each sourced. */}
+      {getRx && getRxSteps.length > 0 && (
+        <section className="cpr-sec cpr-alt" id={`${c.conditionSlug}-get-online`}>
+          <div className="cpr-wrap">
+            {getRx.kicker && <p className="cpr-kicker">{clean(getRx.kicker, stateName)}</p>}
+            <h2>{clean(getRx.title, stateName)}</h2>
+            {getRx.priceLine && <p className="cpr-lead">{clean(getRx.priceLine, stateName)}</p>}
+            <ol className="cpr-steps cpr-steps4" style={{ listStyle: 'none', padding: 0 }}>
+              {getRxSteps.map((s, i) => (
+                <li className="cpr-step" key={i}>
+                  <div className="num">{i + 1}</div>
+                  <h3>{clean(s.title, stateName)}</h3>
+                  <p>{clean(s.text, stateName)}</p>
+                </li>
+              ))}
+            </ol>
+            {getRx.safetyNote && <p className="cpr-getrx-note">{clean(getRx.safetyNote, stateName)}</p>}
+            {getRxSources.length > 0 && (
+              <ul className="cpr-refs">
+                {getRxSources.map((r, i) => (
+                  <li key={i}><a href={r.url} rel="nofollow noopener" target="_blank">{clean(r.text, stateName)}</a></li>
+                ))}
+              </ul>
+            )}
+            <div style={{ marginTop: '1.5rem' }}>
+              <a href="/book-online/" className="cpr-cta cpr-cta--navy">Book a {price} Visit →</a>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* CONDITION VIDEO REEL (vertical 9:16) — one per condition, pairs the same
           clip that publishes to Reels/TikTok/Shorts with the national page. */}
