@@ -512,6 +512,11 @@ export default async function ConditionPage({ params }) {
   const _earlyStateTpl = loadStateTemplate(slug);
   const jsonLd = generateJsonLd(condition, state, _earlyStateTpl);
   const today = contentDate('conditionPages');
+  // Same display format as the state hub ("October 27, 2026"); `today` stays ISO
+  // for JSON-LD and the <time> attribute.
+  const todayDisplay = new Date(`${today}T00:00:00Z`).toLocaleDateString('en-US', {
+    year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC'
+  });
   const pid = `${slug}-${conditionSlug}`;
   const allStates = getStates();
   // Only states where this condition page is actually served.
@@ -690,7 +695,7 @@ export default async function ConditionPage({ params }) {
               </div>
 
               <p className="cpr-hero-reviewed">
-                Last reviewed on {today} by{' '}
+                Last reviewed on <time dateTime={today}>{todayDisplay}</time> by{' '}
                 <a className="cpr-hero-author-link" href="/about/" aria-label="About Parth Bhavsar, MD">
                   Parth Bhavsar, MD
                 </a>
