@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'TeleDirectMD × Alaska Tribal Health: Partnership Brief for Regional Corporations and Village Care Systems',
   description:
-    'A partnership proposal for Alaska Native Tribal Health Consortium and regional health corporations. TeleDirectMD is a physician-founded telemedicine practice licensed in Alaska and 40 additional states. This brief lays out the case for an adult primary and urgent-care telehealth layer that plugs into the existing CHA and specialty-referral infrastructure.',
+    'A partnership proposal for Alaska Native Tribal Health Consortium and regional health corporations. TeleDirectMD is a physician-founded telemedicine practice licensed in 40+ states plus D.C., including Alaska. This brief lays out the case for an adult primary and urgent-care telehealth layer that plugs into the existing CHA and specialty-referral infrastructure.',
   alternates: { canonical: 'https://teledirectmd.com/partners/tribal-health-alaska' },
   robots: {
     index: true,
@@ -134,8 +134,8 @@ export default function TribalHealthAlaskaPartnership() {
               A Complementary Adult Primary and Urgent-Care Telehealth Layer for Alaska Tribal Health Partners
             </h1>
             <p className="tdmd-partner-sub">
-              TeleDirectMD is a board-certified, physician-founded telemedicine practice licensed in Alaska and 40
-              additional states. This brief lays out the case for a partnership with Alaska Native Tribal Health
+              TeleDirectMD is a board-certified, physician-founded telemedicine practice licensed in 40+
+              states plus D.C., including Alaska. This brief lays out the case for a partnership with Alaska Native Tribal Health
               Consortium, regional health corporations, and village clinic systems, focused on where an adult primary
               and urgent-care telehealth layer complements, rather than duplicates, the existing Community Health Aide
               Program and specialty-referral pathways.
@@ -173,7 +173,7 @@ export default function TribalHealthAlaskaPartnership() {
                 <li>
                   Founded and led by Parth Bhavsar, MD, a board-certified family medicine physician (ABFM)
                 </li>
-                <li>Licensed in Alaska (license 257965) and 40 additional states plus D.C.</li>
+                <li>Licensed in 40+ states plus D.C., including Alaska (license 257965)</li>
                 <li>Adult primary and urgent-care scope; no controlled substances; no pediatrics</li>
                 <li>
                   In-network on the secondary lane with BlueCross BlueShield plans, Aetna, and UnitedHealthcare across

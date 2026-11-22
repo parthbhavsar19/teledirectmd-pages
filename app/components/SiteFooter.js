@@ -33,6 +33,7 @@ export default function SiteFooter() {
             <a href="/employers/">For Employers</a>
             <a href="/employers/brokers/">For Brokers</a>
             <a href="/partners/">For Partners</a>
+            <a href="/clinical-evidence/">Clinical Evidence</a>
             <a href="/careers/">Careers</a>
           </div>
 
