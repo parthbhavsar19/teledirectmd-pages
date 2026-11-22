@@ -18,7 +18,7 @@ const AETNA_FAQS = [
   { q: "Will my prescription be covered by my Aetna pharmacy benefit?", a: "Your medication is dispensed under Aetna's pharmacy benefit manager (CVS Caremark for most commercial plans), separate from the visit copay. Generics on Aetna's standard formulary are typically $0–$10. We send the e-prescription to your preferred pharmacy at visit end — your usual Aetna pharmacy copay applies." },
   { q: "Can I use an Aetna HSA or FSA card?", a: "Yes. Telehealth visits at TeleDirectMD are HSA/FSA eligible whether billed to Aetna or paid $79 self-pay. Your HSA/FSA card runs at booking; the system itemizes the visit for IRS substantiation." },
   { q: "What happens if Aetna denies my claim?", a: "Denials are rare for the conditions we treat, but if Aetna denies the claim, we contact you within 48 hours with options: appeal (we provide the medical records at no cost), or convert the visit to the $79 self-pay rate retroactively and refund any difference." },
-  { q: "Does TeleDirectMD accept Aetna Medicaid (Aetna Better Health)?", a: "No. TeleDirectMD is not in-network with any Medicaid plan, including Aetna Better Health, in any state. We are also not in-network with Aetna D-SNP. Self-pay $79 visits remain available." },
+  { q: "Does TeleDirectMD accept Aetna Medicaid (Aetna Better Health)?", a: "No. TeleDirectMD is not in-network with any Medicaid plan, including Aetna Better Health, in any state. We are also not in-network with Aetna D-SNP." },
 ];
 
 const CONDITIONS_COVERED = [

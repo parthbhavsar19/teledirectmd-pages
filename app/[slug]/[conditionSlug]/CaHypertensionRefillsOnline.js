@@ -112,7 +112,7 @@ const FAQ_ITEMS = [
   {
     id: 'hypertension-refills-online-faq-10',
     question: "Will Medi-Cal cover my blood pressure medication refill visit at TeleDirectMD?",
-    answer: <p>TeleDirectMD is not currently enrolled as a Medi-Cal provider. Medi-Cal does cover telehealth for chronic disease management including hypertension when the provider is an enrolled Medi-Cal rendering provider. If you have Medi-Cal, use the $79 self-pay option at TeleDirectMD or find an enrolled Medi-Cal telehealth provider through your managed care plan or the DHCS provider directory at dhcs.ca.gov. Medi-Cal formulary covers generic antihypertensives at low or no cost-sharing.</p>,
+    answer: <p>TeleDirectMD is not currently enrolled as a Medi-Cal provider. Medi-Cal does cover telehealth for chronic disease management including hypertension when the provider is an enrolled Medi-Cal rendering provider. If you have Medi-Cal, find an enrolled Medi-Cal telehealth provider through your managed care plan or the DHCS provider directory at dhcs.ca.gov. Medi-Cal formulary covers generic antihypertensives at low or no cost-sharing.</p>,
   },
   {
     id: 'hypertension-refills-online-faq-11',

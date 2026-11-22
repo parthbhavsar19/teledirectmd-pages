@@ -34,7 +34,7 @@ const UHC_FAQS = [
   { q: "What is my UHC telehealth copay?", a: "UHC commercial telehealth copays are typically $0–$40; many employer plans waive the copay for telehealth entirely. AARP UnitedHealthcare Medicare Advantage typically applies $0–$20. Log into myuhc.com or the UHC app, or call the member services number on your card, to see your exact copay before booking." },
   { q: "Will my prescription work with OptumRx?", a: "Yes. We send e-prescriptions to any pharmacy you select — OptumRx mail-order, OptumRx home delivery, or any retail pharmacy in UHC's network. Your usual UHC pharmacy benefit and copay apply." },
   { q: "Can I use a UHC HRA, HSA, or FSA?", a: "Yes. Telehealth visits at TeleDirectMD are eligible expenses for UHC HRA, HSA, and FSA accounts whether the visit is billed to UHC or paid $79 self-pay. Your UHC debit card runs at booking." },
-  { q: "Does TeleDirectMD accept UHC Community Plan (Medicaid)?", a: "No. TeleDirectMD is not in-network with UHC Community Plan, UHC Dual Complete (D-SNP), or any Medicaid managed care plan, in any state. Self-pay $79 visits remain available." },
+  { q: "Does TeleDirectMD accept UHC Community Plan (Medicaid)?", a: "No. TeleDirectMD is not in-network with UHC Community Plan, UHC Dual Complete (D-SNP), or any Medicaid managed care plan, in any state." },
 ];
 
 const CONDITIONS_COVERED = [

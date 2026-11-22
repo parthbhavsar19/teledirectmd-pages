@@ -229,7 +229,7 @@ export default function AnthemCaliforniaClient() {
           <BookCTA
             insurerName="Anthem Blue Cross"
             tagline="Anthem Blue Cross PPO, Indemnity, and Medicare PPO plans in California. Same-day video visits with a board-certified MD."
-            subtagline="HMO, Medi-Cal, or another plan? Self-pay is $79 flat with the same physician."
+            subtagline="HMO or another commercial plan? Self-pay is $79 flat with the same physician."
           />
         </section>
 

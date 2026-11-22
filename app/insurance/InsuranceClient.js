@@ -331,7 +331,7 @@ function resolveResult(stateAbbr, payerId) {
       banner: 'Medicaid Not Accepted',
       icon: '✕',
       headline: 'We don\'t accept Medicaid in any state.',
-      text: 'TeleDirectMD is not in-network with any Medicaid program, Managed Medicaid plan, CHIP, Medicare-Medicaid (MME), or Dual Special Needs Plan (D-SNP) — in any state we serve. You can still book a $79 self-pay visit, which is HSA/FSA eligible.',
+      text: 'TeleDirectMD is not in-network with any Medicaid program, Managed Medicaid plan, CHIP, Medicare-Medicaid (MME), or Dual Special Needs Plan (D-SNP) — in any state we serve.',
       status: 'Not accepted',
       eff: '—',
       plans: '—',
@@ -487,7 +487,7 @@ const FAQ_ITEMS = [
   { q:'What does "in-network" mean?', a:'In-network means we have a contract with your insurance company, so we can bill them directly for your visit. You\'ll still pay your plan\'s copay, coinsurance, or deductible — it doesn\'t mean the visit is free.' },
   { q:'Does TeleDirectMD accept insurance?', a:'Yes. We are in-network with Aetna, Blue Cross Blue Shield affiliates (BCBS-AZ, Anthem Blue Cross CA, Anthem GA, BCBS-IL, Highmark, BCBS-TX), UnitedHealthcare, and Curative (18 states: AL, AZ, CA, CO, DC, FL, GA, IL, IN, KY, LA, MD, MI, MN, MS, NV, OH, TX). Use the checker above to confirm your specific plan.' },
   { q:'Which plan types do you accept?', a:'PPO, HMO, EPO, POS, and Medicare Advantage. State-specific exclusions apply (for example, Aetna California excludes HMO and QPOS; UnitedHealthcare in Illinois, Minnesota, and Texas is commercial-only; Curative is Commercial PPO, EPO, and self-funded only). The checker above shows your exact result.' },
-  { q:'Does TeleDirectMD accept Medicaid?', a:'No. We are not in-network with any Medicaid program, Managed Medicaid plan, CHIP, Medicare-Medicaid (MME), or Dual Special Needs Plan (D-SNP) in any state we serve. Patients with Medicaid-only coverage can still book a $79 self-pay visit (HSA/FSA eligible).' },
+  { q:'Does TeleDirectMD accept Medicaid?', a:'No. We are not in-network with any Medicaid program, Managed Medicaid plan, CHIP, Medicare-Medicaid (MME), or Dual Special Needs Plan (D-SNP) in any state we serve.' },
   { q:'How much is a self-pay visit?', a:'$79 flat fee. Includes the physician consultation, any clinically appropriate prescriptions, and a work or school excuse note when medically appropriate. HSA and FSA cards accepted.' },
   { q:'What if my plan is not in-network?', a:'You can book as a self-pay patient for $79 and submit an out-of-network claim to your insurer for partial reimbursement. Many commercial plans cover out-of-network telehealth.' },
 ];
@@ -617,7 +617,6 @@ export default function InsuranceClient() {
           <div>
             <h2>Medicaid and Medicaid-Medicare plans not accepted</h2>
             <p>TeleDirectMD is <strong>not</strong> in-network with any Medicaid plan, Managed Medicaid plan, CHIP, Medicare-Medicaid (MME), or Dual Special Needs Plan (D-SNP) in any state we serve. If your only coverage is Medicaid, Managed Medicaid, or a Medicaid-Medicare dual plan, our visits cannot be billed to your plan.</p>
-            <p className="sub">You can still book a visit at our $79 self-pay rate (HSA/FSA eligible).</p>
           </div>
         </div>
       </section>

@@ -92,7 +92,7 @@ const FAQ_ITEMS = [
   {
     id: 'diabetes-refills-online-faq-6',
     question: "Does California Medi-Cal cover Type 2 diabetes medications?",
-    answer: <p>Medi-Cal covers metformin and sulfonylureas at low or no cost-sharing. SGLT2 inhibitors and GLP-1 agonists require prior authorization under Medi-Cal managed care formularies. The California DHCS Diabetes Prevention Program also funds lifestyle intervention programs through enrolled community organizations. TeleDirectMD is not currently enrolled as a Medi-Cal provider — Medi-Cal members can use the $79 self-pay rate or seek care from a Medi-Cal-enrolled primary care provider.</p>,
+    answer: <p>Medi-Cal covers metformin and sulfonylureas at low or no cost-sharing. SGLT2 inhibitors and GLP-1 agonists require prior authorization under Medi-Cal managed care formularies. The California DHCS Diabetes Prevention Program also funds lifestyle intervention programs through enrolled community organizations. TeleDirectMD is not currently enrolled as a Medi-Cal provider — Medi-Cal members should seek care from a Medi-Cal-enrolled primary care provider.</p>,
   },
   {
     id: 'diabetes-refills-online-faq-7',
