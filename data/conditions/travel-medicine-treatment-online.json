@@ -50,7 +50,7 @@
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. No vaccines administered. The oral typhoid vaccine (Vivotif) can be prescribed when appropriate; yellow fever and other injected vaccines must be obtained in person, and yellow fever only at an authorized vaccination center. No controlled substances prescribed. No primaquine or tafenoquine (require G6PD testing, refer to in-person travel clinic). Do not use if you have emergency symptoms requiring immediate care."
     },
     "icd10Display": "Z29.9 (encounter for prophylactic measures) / A09 / T70.29 (final coding depends on clinical details)",
-    "quickAnswer": "Yes — adults (18+) in {state} preparing for international travel can get a comprehensive prevention visit online. A board-certified MD reviews your full itinerary by secure video and prescribes from TeleDirectMD's travel formulary — malaria prophylaxis (Malarone or doxycycline), traveler's diarrhea standby antibiotics, altitude sickness prevention, motion sickness medication, or the oral typhoid vaccine (Vivotif) — all in one visit, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. TeleDirectMD does not administer vaccines; injected vaccines need an in-person clinic. A fever after returning from a malaria-endemic region needs emergency evaluation immediately."
+    "quickAnswer": "Yes — adults (18+) in {state} preparing for international travel can get a comprehensive prevention visit online. A board-certified MD reviews your full itinerary by secure video and prescribes from TeleDirectMD's travel formulary — malaria prophylaxis (Malarone or doxycycline), traveler's diarrhea standby antibiotics, altitude sickness prevention, motion sickness medication, or the oral typhoid vaccine (Vivotif) when appropriate — all in one visit, sent to your pharmacy. Visit price: $79 flat, no insurance required. TeleDirectMD does not administer vaccines; injected vaccines need an in-person clinic. A fever after returning from a malaria-endemic region needs emergency evaluation immediately."
   },
   "eligibility": {
     "sectionTitle": "Travel Medicine Telehealth Eligibility Checklist for {state}",
@@ -147,7 +147,7 @@
         "highlight": false
       }
     ],
-    "bottomLine": "TeleDirectMD fills the gap between pharmacy walk-ins (vaccine-only) and full travel clinics (multi-week waits): a physician-led destination-based risk assessment with a complete prescription formulary, including the oral typhoid vaccine but no injected vaccines,, available same day."
+    "bottomLine": "TeleDirectMD fills the gap between pharmacy walk-ins (vaccine-only) and full travel clinics (multi-week waits): a physician-led destination-based risk assessment with a complete prescription formulary, including the oral typhoid vaccine but no injected vaccines, available same day."
   },
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Travel Medicine in {state}? Decision Guide",
@@ -400,7 +400,7 @@
     "sections": [
       {
         "title": "Malaria Prophylaxis: Atovaquone-Proguanil (Malarone) — Front-Line Option",
-        "text": "Atovaquone-proguanil (brand name Malarone; generic widely available) is a fixed-dose combination tablet effective against chloroquine-resistant Plasmodium falciparum, the most dangerous malaria species and the predominant species in sub-Saharan Africa, Southeast Asia, and South Asia. The adult dose is one fixed-dose combination tablet daily, taken with food or a milky drink to improve absorption and reduce nausea. Dosing starts 1 to 2 days before entering a malaria zone and continues for 7 days after leaving the malaria zone. This short post-exposure duration (7 days vs 4 weeks for doxycycline) makes Malarone practical for shorter trips. Malarone acts on liver-stage and blood-stage parasites through the combination of atovaquone (mitochondrial electron transport inhibition) and proguanil (dihydrofolate reductase inhibition), providing a causal prophylactic effect. It does not cover liver hypnozoites of P. vivax or P. ovale. Malarone is generally well tolerated; gastrointestinal side effects (nausea, vomiting, abdominal pain) are the most common and are significantly reduced by taking with food."
+        "text": "Atovaquone-proguanil (brand name Malarone; generic widely available) is a fixed-dose combination tablet effective against chloroquine-resistant Plasmodium falciparum, the most dangerous malaria species and the predominant species in sub-Saharan Africa, Southeast Asia, and South Asia. The adult dose is one fixed-dose combination tablet daily, taken with food or a milky drink to improve absorption and reduce nausea. Dosing starts 1 to 2 days before entering a malaria zone and continues for 7 days after leaving the malaria zone. This short post-exposure duration (7 days vs 4 weeks for doxycycline) makes Malarone practical for shorter trips. Malarone acts on liver-stage and blood-stage parasites through the combination of atovaquone (mitochondrial electron transport inhibition) and proguanil (dihydrofolate reductase inhibition), providing a causal prophylactic effect. It does not cover liver hypnozoites of P. vivax or P. ovale. Malarone is generally well tolerated; gastrointestinal side effects (nausea, vomiting, abdominal pain) are the most common and are significantly reduced by taking with food. Travelers also taking the oral typhoid vaccine (Vivotif) should start atovaquone-proguanil only 10 or more days after the last vaccine capsule."
       },
       {
         "title": "Malaria Prophylaxis: Doxycycline — Front-Line Alternative",
@@ -424,7 +424,7 @@
       },
       {
         "title": "Typhoid Prevention: Oral Typhoid Vaccine (Vivotif)",
-        "text": "The CDC Yellow Book recommends typhoid vaccine for travelers going to areas with a recognized risk of typhoid exposure, with the greatest risk in South Asia. The oral vaccine (Vivotif, live attenuated Ty21a) is approved for people 6 years and older and is taken as 4 capsules, 1 every other day, swallowed whole with cool liquid about 1 hour before a meal; the course should be finished at least 1 week before possible exposure, and a repeat course is recommended every 5 years for people who remain at risk. The capsules must be kept refrigerated. Antibiotics should be avoided from 72 hours before the first capsule until 72 hours after the last, and atovaquone-proguanil (Malarone) should start only 10 or more days after the last capsule, while doxycycline taken for malaria counts as an antibiotic for this purpose. The live oral vaccine is not used in pregnancy or in people with a weakened immune system, who may need the injectable vaccine instead, and that requires an in-person clinic or pharmacy. Neither vaccine is given during an acute fever, and the oral vaccine is not given during an acute stomach illness. Typhoid vaccines protect 50 to 80 percent of recipients, so food and water precautions still matter. Prescription is at the physician's discretion and is not guaranteed."
+        "text": "The CDC Yellow Book recommends typhoid vaccine for travelers going to areas with a recognized risk of typhoid exposure, with the greatest risk in South Asia. The oral vaccine (Vivotif, live attenuated Ty21a) is approved for people 6 years and older and is taken as 4 capsules, 1 every other day, swallowed whole with cool liquid about 1 hour before a meal; the course should be finished at least 1 week before possible exposure, and a repeat course is recommended every 5 years for people who remain at risk. The capsules must be kept refrigerated. Antibiotics should be avoided from 72 hours before the first capsule until 72 hours after the last, and atovaquone-proguanil (Malarone) should start only 10 or more days after the last capsule, while doxycycline taken for malaria counts as an antibiotic for this purpose. The live oral vaccine is not used in pregnancy or in people with a weakened immune system, who may need the injectable vaccine instead, and that requires an in-person clinic or pharmacy. Neither vaccine is given during an acute fever, and the oral vaccine is not given during an acute stomach illness or to anyone allergic to the vaccine or its capsule. Typhoid vaccines protect 50 to 80 percent of recipients, so food and water precautions still matter. Prescription is at the physician's discretion and is not guaranteed."
       },
       {
         "title": "What the TeleDirectMD Travel Formulary Does Not Cover",
@@ -454,7 +454,7 @@
         "Atovaquone-proguanil (Malarone)",
         "1 adult fixed-dose tablet (250 mg/100 mg) once daily with food",
         "Start 1–2 days before malaria zone; continue 7 days after leaving",
-        "Front-line for chloroquine-resistant P. falciparum. Take with food to reduce nausea. Avoid in severe renal impairment (CrCl <30 mL/min). Not controlled. Generic widely available. Pregnancy: risk-benefit discussion required."
+        "Front-line for chloroquine-resistant P. falciparum. Take with food to reduce nausea. Avoid in severe renal impairment (CrCl <30 mL/min). Not controlled. Generic widely available. Pregnancy: risk-benefit discussion required. If taking the oral typhoid vaccine, start only 10 or more days after the last capsule."
       ],
       [
         "Doxycycline hyclate or monohydrate (Vibramycin)",
@@ -463,22 +463,22 @@
         "Front-line for longer trips; preferred for Thai border regions. Contraindicated in pregnancy (all trimesters) and age <8. Causes photosensitivity — use SPF 30+ daily. Reduces oral typhoid vaccine (Vivotif) efficacy — space 3+ days apart. Take with full glass of water and remain upright 30 min (esophageal irritation prevention). Not controlled."
       ],
       [
-        "Oral typhoid vaccine (Vivotif, Ty21a)",
-        "1 capsule by mouth every other day, 4 capsules in all, with cool liquid about 1 hour before a meal",
-        "Finish at least 1 week before possible exposure; repeat course every 5 years if still at risk",
-        "Keep refrigerated; swallow whole. No antibiotics from 72 hours before the first capsule to 72 hours after the last. Start Malarone only 10 or more days after the last capsule. Not for pregnancy, a weakened immune system, or an acute fever or stomach illness. Not controlled."
-      ],
-      [
         "Mefloquine (Lariam)",
         "250 mg once weekly",
         "Start 2 weeks before travel; continue 4 weeks after return",
         "Case-by-case only. FDA boxed warning: serious neuropsychiatric adverse effects (depression, hallucinations, psychosis). Contraindicated with history of psychiatric illness or seizure disorder. Weekly dosing is convenient but must be started 2 weeks early for side effect monitoring. Not first-line when Malarone or doxycycline are suitable."
       ],
       [
+        "Oral typhoid vaccine (Vivotif, Ty21a)",
+        "1 capsule by mouth every other day, 4 capsules in all, with cool liquid about 1 hour before a meal",
+        "Finish at least 1 week before possible exposure; repeat course every 5 years if still at risk",
+        "Keep refrigerated; swallow whole. No antibiotics from 72 hours before the first capsule to 72 hours after the last. Start Malarone only 10 or more days after the last capsule. Not for pregnancy, a weakened immune system, an acute fever or stomach illness, or an allergy to the vaccine or its capsule. Not controlled."
+      ],
+      [
         "Azithromycin (Z-pak equivalent)",
         "1,000 mg single dose or 500 mg daily x3 days",
         "Standby — initiate only when TD is severe, febrile, or bloody",
-        "First-line TD standby for South/Southeast Asia due to fluoroquinolone-resistant Campylobacter. Not for routine prophylaxis (CDC advises against). Mild TD: oral rehydration, not antibiotics. Avoid in patients with QT-prolonging conditions or severe liver disease. Generally well tolerated. Not controlled."
+        "First-line TD standby for South/Southeast Asia due to fluoroquinolone-resistant Campylobacter. Not for routine prophylaxis (CDC advises against). Mild TD: oral rehydration, not antibiotics. Avoid in patients with QT-prolonging conditions or severe liver disease. Generally well tolerated. Not controlled. Do not take within 72 hours before starting or after finishing the oral typhoid vaccine course."
       ],
       [
         "Acetazolamide (Diamox generic)",
@@ -602,7 +602,7 @@
       },
       {
         "question": "Can TeleDirectMD provide yellow fever vaccination for travel?",
-        "answer": "No. Yellow fever vaccination requires a designated authorized vaccination center and cannot be administered via telehealth. An international certificate of vaccination (Carte Jaune) requires that the vaccine be given by a certified provider. You will need to locate a yellow fever vaccination center in your area — the CDC maintains a directory of authorized US vaccination centers. TeleDirectMD can still prescribe non-vaccine components of your travel formulary (malaria pills, azithromycin standby, acetazolamide) even if you are also visiting a vaccination center for yellow fever."
+        "answer": "No. Yellow fever vaccination requires a designated authorized vaccination center and cannot be administered via telehealth. An international certificate of vaccination (Carte Jaune) requires that the vaccine be given by a certified provider. You will need to locate a yellow fever vaccination center in your area — the CDC maintains a directory of authorized US vaccination centers. TeleDirectMD can still prescribe the rest of your travel formulary (malaria pills, azithromycin standby, acetazolamide) even if you are also visiting a vaccination center for yellow fever."
       },
       {
         "question": "What is mefloquine and why isn't it first-line?",
@@ -650,7 +650,7 @@
       },
       {
         "question": "Can TeleDirectMD prescribe the typhoid vaccine?",
-        "answer": "The MD can prescribe the oral typhoid vaccine (Vivotif) by video visit when it is clinically appropriate; a prescription is not guaranteed. It is 4 capsules taken every other day and should be finished at least 1 week before possible exposure. The injectable typhoid vaccine requires an in-person clinic or pharmacy, and is the usual choice in pregnancy or for a weakened immune system, when the oral vaccine is not used."
+        "answer": "The MD can prescribe the oral typhoid vaccine (Vivotif) by video visit when it is clinically appropriate; a prescription is not guaranteed. It is 4 capsules taken every other day and should be finished at least 1 week before possible exposure. The oral vaccine is not used in pregnancy or for a weakened immune system; in those cases the injectable vaccine may be considered, and it requires an in-person clinic or pharmacy. If you want the oral vaccine, book at least 3 to 4 weeks before departure, since the capsule course takes a week and should be finished at least 1 week before possible exposure."
       }
     ],
     "bottomCta": {
