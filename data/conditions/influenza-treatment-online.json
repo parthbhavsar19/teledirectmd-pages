@@ -48,7 +48,7 @@
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek urgent in-person care now for difficulty breathing or shortness of breath, persistent chest pain or pressure, confusion, inability to keep fluids down, severe muscle weakness, seizures, or high fever unresponsive to antipyretics. TeleDirectMD does not prescribe controlled substances."
     },
     "icd10Display": "J11.1, J10.1, J11.89, or J09.X2 (final coding depends on clinical details)",
-    "quickAnswer": "Yes, adults (18+) in {state} with flu symptoms can be treated online, and timing matters. A board-certified MD reviews your symptom onset by secure video and, per CDC guidance, prescribes an antiviral (oseltamivir, baloxavir, or zanamivir) ideally within 48 hours of symptom onset to shorten illness by 1–2 days, plus supportive medications like acetaminophen. Visit price: $79 flat, no insurance required. Difficulty breathing, chest pain, or confusion needs ER care, not telehealth."
+    "quickAnswer": "Yes, adults (18+) in {state} with flu symptoms can be treated online, and timing matters. A board-certified MD reviews your symptom onset by secure video and, per CDC guidance, prescribes an antiviral (oseltamivir, baloxavir, or zanamivir) ideally within 48 hours of symptom onset, when it can lessen symptoms and shorten illness by about a day, plus supportive medications like acetaminophen. Visit price: $79 flat, no insurance required. Difficulty breathing, chest pain, or confusion needs ER care, not telehealth."
   },
   "getMedicationOnline": {
     "kicker": "Tamiflu online",
@@ -406,7 +406,7 @@
   },
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
-    "intro": "Influenza treatment combines antiviral medication when started early enough with supportive care for symptom management. The CDC recommends antiviral treatment as soon as possible for patients hospitalized with influenza, those at higher risk of complications, those with progressive or severe illness, and considers it for any otherwise healthy outpatient within 48 hours of symptom onset. Clinical trials show that early antiviral treatment can shorten the duration of fever and symptoms by approximately 1 to 2 days and may reduce complications.",
+    "intro": "Influenza treatment combines antiviral medication when started early enough with supportive care for symptom management. The CDC recommends antiviral treatment as soon as possible for patients hospitalized with influenza, those at higher risk of complications, those with progressive or severe illness, and considers it for any otherwise healthy outpatient within 48 hours of symptom onset. CDC says flu antiviral drugs can lessen symptoms and shorten the time you are sick by about a day, and starting them soon after symptoms begin can help reduce some flu complications.",
     "sections": [
       {
         "title": "Antiviral treatment within 48 hours",
