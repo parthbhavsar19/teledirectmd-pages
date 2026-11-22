@@ -2,7 +2,7 @@
   "stateCode": "NY",
   "stateName": "New York",
   "schemaVersion": "1.0",
-  "lastReviewed": "2026-10-26",
+  "lastReviewed": "2026-10-27",
   "reviewedBy": "Parth Bhavsar, MD",
   "writingNotes": {
     "launchNote": "New York launched cash-pay only. Built at the depth of de.json so every /ny/{condition}/ page carries New York-specific content, per the June 2026 near-duplicate deindex lesson. The cohort is demand-selected in lib/live-routes.js (NY_PILOT_CONDITIONS).",
