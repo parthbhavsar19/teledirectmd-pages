@@ -8,7 +8,7 @@
   "hero": {
     "h1": "Sore Throat Treatment in {state} (Pharyngitis Evaluation)",
     "subtitle": "{state} adult care by secure video visit, flat $79 self-pay option, MD-only, insurance is not required.",
-    "introParagraph": "Most adult sore throats are caused by viral infections and do not require antibiotics — only about 10 percent of adult pharyngitis cases are caused by Group A Streptococcus (GAS). The IDSA guidelines for GAS pharyngitis recommend using clinical scoring systems such as the Centor and McIsaac criteria to assess the probability of strep throat before deciding whether to test, with scores incorporating fever history, tonsillar exudates, tender anterior cervical lymphadenopathy, and absence of cough. TeleDirectMD uses a safety-first telehealth approach that applies Centor-based clinical scoring to estimate strep probability, screens for dangerous red flags including difficulty breathing, inability to swallow, trismus, drooling, and severe neck swelling, and provides honest guidance about when in-person evaluation with a rapid strep test is the better path. Because telehealth cannot perform a rapid strep test or throat culture, the role of this visit is clinical triage: supportive care for likely viral illness, empiric treatment or referral for in-person testing when strep probability is higher, and urgent redirection for red-flag presentations. This page is for adults located in {state}, including {cities}.",
+    "introParagraph": "Most adult sore throats are caused by viral infections and do not require antibiotics: only about 10 percent of adult pharyngitis cases are caused by Group A Streptococcus (GAS). The IDSA guidelines for GAS pharyngitis recommend using clinical scoring systems such as the Centor and McIsaac criteria to assess the probability of strep throat before deciding whether to test, with scores incorporating fever history, tonsillar exudates, tender anterior cervical lymphadenopathy, and absence of cough. TeleDirectMD uses a safety-first telehealth approach that applies Centor-based clinical scoring to estimate strep probability, screens for dangerous red flags including difficulty breathing, inability to swallow, trismus, drooling, and severe neck swelling, and provides honest guidance about when in-person evaluation with a rapid strep test is the better path. Because telehealth cannot perform a rapid strep test or throat culture, the role of this visit is clinical triage: supportive care for likely viral illness, empiric treatment or referral for in-person testing when strep probability is higher, and urgent redirection for red-flag presentations. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
       {
         "href": "eligibility-checklist",
@@ -48,7 +48,7 @@
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek urgent in-person care now for difficulty breathing or swallowing, inability to open your mouth, drooling, muffled or hot potato voice, severe neck swelling, or high fever with toxic appearance. TeleDirectMD does not prescribe controlled substances."
     },
     "icd10Display": "J02.9, J02.0, J31.2, or J06.9 (final coding depends on clinical details)",
-    "quickAnswer": "Yes — adults (18+) in {state} with a sore throat can be evaluated online. A board-certified MD reviews your symptoms using Centor criteria by secure video, and when strep probability is high enough, prescribes penicillin or amoxicillin per CDC guidance for a standard 10-day course; lower-probability viral sore throats get supportive care like ibuprofen. Visit price: $79 flat, no insurance required. Difficulty breathing, drooling/inability to swallow saliva, or inability to open your mouth fully needs ER care, not telehealth."
+    "quickAnswer": "Yes, adults (18+) in {state} with a sore throat can be evaluated online. A board-certified MD reviews your symptoms using Centor criteria by secure video, and when strep probability is high enough, prescribes penicillin or amoxicillin per CDC guidance for a standard 10-day course; lower-probability viral sore throats get supportive care like ibuprofen. Visit price: $79 flat, no insurance required. Difficulty breathing, drooling/inability to swallow saliva, or inability to open your mouth fully needs ER care, not telehealth."
   },
   "eligibility": {
     "sectionTitle": "Sore Throat Telehealth Eligibility Checklist for {state}",
@@ -156,7 +156,7 @@
           "Severe or rapidly worsening neck swelling",
           "High fever with toxic appearance, severe weakness, or confusion"
         ],
-        "yesAction": "If yes, seek urgent in-person care or the ER now — these symptoms can indicate peritonsillar abscess, epiglottitis, or deep neck infection",
+        "yesAction": "If yes, seek urgent in-person care or the ER now: these symptoms can indicate peritonsillar abscess, epiglottitis, or deep neck infection",
         "noAction": "If no, continue to Step 2"
       },
       {
@@ -215,7 +215,7 @@
     "sectionTitle": "What Is a Sore Throat?",
     "paragraphs": [
       "A sore throat (pharyngitis) is inflammation of the pharynx causing throat pain, scratchiness, or difficulty swallowing. It is one of the most common reasons adults seek medical care. The vast majority of adult sore throats are caused by viral infections such as rhinovirus, adenovirus, coronavirus, or influenza, and resolve on their own with supportive care.",
-      "Group A Streptococcus (GAS), commonly known as strep throat, causes approximately 5 to 15 percent of adult pharyngitis cases. The IDSA recommends clinical scoring with the Centor criteria — which assess fever, tonsillar exudates, tender anterior cervical lymph nodes, and absence of cough — to determine which patients should be tested for strep and which are more likely to have a viral cause that does not require antibiotics.",
+      "Group A Streptococcus (GAS), commonly known as strep throat, causes approximately 5 to 15 percent of adult pharyngitis cases. The IDSA recommends clinical scoring with the Centor criteria (which assess fever, tonsillar exudates, tender anterior cervical lymph nodes, and absence of cough) to determine which patients should be tested for strep and which are more likely to have a viral cause that does not require antibiotics.",
       "TeleDirectMD provides clinical strep risk assessment by video, evidence-based supportive care for viral pharyngitis, and antibiotic treatment or referral for in-person testing when strep probability warrants it. We are transparent that rapid strep testing cannot be performed by telehealth, so clinical scoring and honest triage guide the treatment plan."
     ]
   },
@@ -269,7 +269,7 @@
       [
         "Sore throat with fever, tonsillar exudates, tender neck glands, no cough",
         "Higher strep probability (high Centor score)",
-        "Sometimes — may treat empirically or refer for rapid strep test",
+        "Sometimes, may treat empirically or refer for rapid strep test",
         "Inability to swallow or severe neck swelling"
       ],
       [
@@ -281,20 +281,20 @@
       [
         "Sore throat with known strep exposure",
         "Higher pretest probability for GAS",
-        "Sometimes — clinical scoring guides the plan",
+        "Sometimes, clinical scoring guides the plan",
         "Rash with rapidly worsening illness"
       ],
       [
         "Severe throat pain with muffled voice and trismus",
         "Possible peritonsillar abscess",
         "No",
-        "Emergency — seek ER care now"
+        "Emergency: seek ER care now"
       ],
       [
         "Difficulty breathing with stridor or drooling",
         "Possible epiglottitis or deep neck infection",
         "No",
-        "Emergency — call 911 or go to ER now"
+        "Emergency: call 911 or go to ER now"
       ],
       [
         "Chronic sore throat with heartburn or throat clearing",
@@ -310,7 +310,7 @@
     "telehealthAppropriate": {
       "title": "Sometimes Appropriate for Telehealth",
       "items": [
-        "Viral pharyngitis with low Centor score — supportive care guidance",
+        "Viral pharyngitis with low Centor score: supportive care guidance",
         "Higher Centor score where empiric antibiotic treatment may be reasonable by clinical judgment",
         "Sore throat with clear viral features (cough, congestion, runny nose, hoarseness)",
         "Chronic sore throat likely related to postnasal drip, allergies, or GERD",
@@ -330,7 +330,7 @@
     "compareCards": [
       {
         "title": "Viral Pharyngitis vs Strep Throat",
-        "text": "Viral pharyngitis typically presents with cough, nasal congestion, runny nose, hoarseness, and gradual onset — these features lower the Centor score and make strep unlikely. Strep throat more often presents with abrupt onset of severe throat pain, fever, tonsillar exudates, tender anterior cervical lymph nodes, and notably absent cough. However, clinical scoring alone is not definitive, which is why the IDSA recommends testing in intermediate-probability cases."
+        "text": "Viral pharyngitis typically presents with cough, nasal congestion, runny nose, hoarseness, and gradual onset: these features lower the Centor score and make strep unlikely. Strep throat more often presents with abrupt onset of severe throat pain, fever, tonsillar exudates, tender anterior cervical lymph nodes, and notably absent cough. However, clinical scoring alone is not definitive, which is why the IDSA recommends testing in intermediate-probability cases."
       },
       {
         "title": "Simple Pharyngitis vs Dangerous Conditions",
@@ -372,7 +372,7 @@
     "sections": [
       {
         "title": "Supportive care for viral pharyngitis",
-        "text": "For sore throats with low strep probability based on Centor scoring — especially when cough, congestion, and runny nose are present — supportive care is appropriate. This includes acetaminophen or ibuprofen for pain and fever, throat lozenges, warm salt water gargles, honey, adequate fluids, and rest. Antibiotics are not indicated for viral pharyngitis and provide no benefit."
+        "text": "For sore throats with low strep probability based on Centor scoring (especially when cough, congestion, and runny nose are present), supportive care is appropriate. This includes acetaminophen or ibuprofen for pain and fever, throat lozenges, warm salt water gargles, honey, adequate fluids, and rest. Antibiotics are not indicated for viral pharyngitis and provide no benefit."
       },
       {
         "title": "Antibiotic treatment when strep is likely",
@@ -460,10 +460,10 @@
       "title": "Recovery Timeline and What to Do Now",
       "items": [
         "Viral sore throats typically improve within 5 to 7 days without antibiotics",
-        "If antibiotics are prescribed for strep, most patients feel significantly better within 24 to 48 hours — complete the full 10-day course",
+        "If antibiotics are prescribed for strep, most patients feel significantly better within 24 to 48 hours: complete the full 10-day course",
         "Use acetaminophen or ibuprofen as directed for pain and fever relief",
         "Gargle with warm salt water several times daily for temporary throat relief",
-        "Stay hydrated with warm or cool fluids — avoid very hot beverages and irritants like alcohol or tobacco"
+        "Stay hydrated with warm or cool fluids: avoid very hot beverages and irritants like alcohol or tobacco"
       ]
     },
     "whatToWatch": {
@@ -479,7 +479,7 @@
     "followUp": {
       "title": "Follow-up Timing",
       "items": [
-        "If on antibiotics, symptoms should improve noticeably within 48 hours — if not, reassessment is needed",
+        "If on antibiotics, symptoms should improve noticeably within 48 hours: if not, reassessment is needed",
         "If strep was suspected but not tested, and symptoms are worsening or not improving, in-person rapid strep testing or reassessment is recommended",
         "Recurrent sore throats (multiple times per year) may warrant ENT referral for tonsillectomy discussion",
         "If emergency warning signs develop at any time, go to urgent care or the ER immediately"
@@ -566,7 +566,7 @@
       },
       {
         "question": "Can a telehealth doctor diagnose strep throat without a rapid test in {state}?",
-        "answer": "Yes, in many cases — the MD uses the Centor criteria (fever, tonsillar exudate, swollen lymph nodes, absence of cough) to estimate strep probability and can prescribe antibiotics empirically when probability is high enough. Uncertain cases may still be directed to in-person testing."
+        "answer": "Yes, in many cases: the MD uses the Centor criteria (fever, tonsillar exudate, swollen lymph nodes, absence of cough) to estimate strep probability and can prescribe antibiotics empirically when probability is high enough. Uncertain cases may still be directed to in-person testing."
       },
       {
         "question": "How much does online sore throat treatment cost without insurance in {state}?",

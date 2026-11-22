@@ -243,13 +243,13 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
           <div className="wwt-hero-copy">
             <span className="wwt-eyebrow">What we treat</span>
             <h1>
-              A real doctor —<br />
+              A real doctor,<br />
               not a chatbot, not an algorithm.<br />
               Without insurance, for $79.
             </h1>
             <p className="wwt-lede">
               Same-day video visits with a board-certified MD. $79 flat, or select insurance.
-              Not a questionnaire, not a nurse queue — and a straight answer when telehealth isn’t the right tool for what you have.
+              Not a questionnaire, not a nurse queue. And a straight answer when telehealth isn’t the right tool for what you have.
             </p>
             <div className="wwt-cta-row">
               <a className="wwt-btn wwt-btn-on-dark" href="/book-online/">Book a visit · $79</a>
@@ -365,7 +365,7 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
       <section className="wwt-scope" id="wwt-scope">
         <div className="wwt-container">
           <span className="wwt-eyebrow">How we practice</span>
-          <h2>The care you need — and an honest no when you need something else.</h2>
+          <h2>The care you need, and an honest no when you need something else.</h2>
           <p className="wwt-scope-sub">
             Scope discipline is the product. These limits are written into every visit, not buried in a policy page.
           </p>
@@ -398,7 +398,7 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
       <section className="wwt-ins" id="insurance">
         <div className="wwt-container">
           <span className="wwt-eyebrow">Coverage</span>
-          <h2>In-network in select states — or $79 flat, anywhere.</h2>
+          <h2>In-network in select states, or $79 flat anywhere.</h2>
           <p className="wwt-ins-sub">
             We bill Aetna, select Blue Cross Blue Shield plans, UnitedHealthcare, and Curative. Self-pay visits are $79 and FSA/HSA eligible.
           </p>

@@ -48,7 +48,7 @@
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for widespread crusted scabies, signs of cellulitis or bacterial superinfection with fever, severe allergic reaction, or rapidly worsening rash with systemic symptoms. TeleDirectMD does not prescribe controlled substances."
     },
     "icd10Display": "B86 (final coding depends on clinical details)",
-    "quickAnswer": "Yes — adults (18+) in {state} with scabies can be treated online. A board-certified MD reviews your symptom distribution by secure video and prescribes a scabicidal agent — permethrin 5% cream or oral ivermectin — plus an antihistamine or topical steroid for post-treatment itch, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. All household and close contacts need simultaneous treatment even if asymptomatic, and bedding/clothing need decontamination. Thick, crusted skin lesions over large areas need in-person evaluation for crusted scabies."
+    "quickAnswer": "Yes, adults (18+) in {state} with scabies can be treated online. A board-certified MD reviews your symptom distribution by secure video and prescribes a scabicidal agent, permethrin 5% cream or oral ivermectin, plus an antihistamine or topical steroid for post-treatment itch, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. All household and close contacts need simultaneous treatment even if asymptomatic, and bedding/clothing need decontamination. Thick, crusted skin lesions over large areas need in-person evaluation for crusted scabies."
   },
   "eligibility": {
     "sectionTitle": "Scabies Telehealth Eligibility Checklist for {state}",
@@ -289,9 +289,9 @@
       ],
       [
         "Thick, crusted, scaly plaques on hands, feet, or widespread areas",
-        "Crusted (Norwegian) scabies — extremely contagious",
+        "Crusted (Norwegian) scabies: extremely contagious",
         "No",
-        "Urgent dermatology referral needed — highly contagious variant"
+        "Urgent dermatology referral needed: highly contagious variant"
       ],
       [
         "Fever, red streaking, pus, or rapidly spreading redness around rash",
@@ -456,7 +456,7 @@
         "Wash all bed linens, towels, and recently worn clothing in hot water (130 degrees Fahrenheit or higher) and dry on high heat",
         "Seal items that cannot be washed in a plastic bag for at least 72 hours",
         "Repeat treatment in 7 days as directed by your physician",
-        "Itching commonly persists for 2 to 4 weeks after successful treatment — this is normal and does not necessarily mean treatment has failed"
+        "Itching commonly persists for 2 to 4 weeks after successful treatment: this is normal and does not necessarily mean treatment has failed"
       ]
     },
     "whatToWatch": {
@@ -464,7 +464,7 @@
       "items": [
         "New burrows or papules appearing more than 2 weeks after completing both treatment doses may suggest reinfestation or treatment failure",
         "Fever, increasing redness, pus, or red streaking may indicate secondary bacterial infection and requires urgent in-person care",
-        "If household contacts were not treated simultaneously, reinfestation is likely — ensure all contacts complete treatment",
+        "If household contacts were not treated simultaneously, reinfestation is likely: ensure all contacts complete treatment",
         "Worsening or unchanged symptoms after completing two full courses of permethrin warrant in-person evaluation with skin scraping"
       ]
     },
@@ -566,7 +566,7 @@
       },
       {
         "question": "Why am I still itching for weeks after finishing scabies treatment in {state}?",
-        "answer": "Itching commonly persists for 2 to 4 weeks after the mites are killed because your skin is still reacting to dead mite proteins, even after successful treatment — this doesn't mean the treatment failed. The MD can prescribe an antihistamine or topical steroid to manage this lingering itch."
+        "answer": "Itching commonly persists for 2 to 4 weeks after the mites are killed because your skin is still reacting to dead mite proteins, even after successful treatment: this doesn't mean the treatment failed. The MD can prescribe an antihistamine or topical steroid to manage this lingering itch."
       }
     ],
     "bottomCta": {
@@ -576,11 +576,11 @@
   },
   "references": [
     {
-      "text": "CDC — Scabies: Prevention and Control, Treatment Guidelines (2024)",
+      "text": "CDC, Scabies: Prevention and Control, Treatment Guidelines (2024)",
       "url": "https://www.cdc.gov/scabies/treatment/index.html"
     },
     {
-      "text": "AAD — Scabies: Diagnosis and Treatment (American Academy of Dermatology)",
+      "text": "AAD, Scabies: Diagnosis and Treatment (American Academy of Dermatology)",
       "url": "https://www.aad.org/public/diseases/a-z/scabies-treatment"
     },
     {
@@ -596,7 +596,7 @@
       "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/ddg.13130"
     },
     {
-      "text": "WHO — Scabies and Other Ectoparasites: Global Epidemiology and Public Health Impact",
+      "text": "WHO, Scabies and Other Ectoparasites: Global Epidemiology and Public Health Impact",
       "url": "https://www.who.int/news-room/fact-sheets/detail/scabies"
     }
   ],

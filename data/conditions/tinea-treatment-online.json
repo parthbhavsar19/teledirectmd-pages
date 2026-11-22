@@ -48,7 +48,7 @@
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for rapidly spreading skin infection with fever, signs of cellulitis or abscess, severe allergic reaction, or worsening rash with systemic symptoms. TeleDirectMD does not prescribe controlled substances."
     },
     "icd10Display": "B35.4, B35.6, B35.3 (final coding depends on clinical details)",
-    "quickAnswer": "Yes — adults (18+) in {state} with a suspected fungal skin infection (ringworm, jock itch, athlete's foot) can be treated online. A board-certified MD reviews your rash photos by secure video and, per AAFP/CDC guidance, prescribes a topical antifungal like terbinafine or clotrimazole for a 2-week trial, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Combination antifungal-steroid products are avoided. Scalp scaling with hair loss, or thickened nails, needs in-person evaluation."
+    "quickAnswer": "Yes, adults (18+) in {state} with a suspected fungal skin infection (ringworm, jock itch, athlete's foot) can be treated online. A board-certified MD reviews your rash photos by secure video and, per AAFP/CDC guidance, prescribes a topical antifungal like terbinafine or clotrimazole for a 2-week trial, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Combination antifungal-steroid products are avoided. Scalp scaling with hair loss, or thickened nails, needs in-person evaluation."
   },
   "eligibility": {
     "sectionTitle": "Skin Fungus Telehealth Eligibility Checklist for {state}",
@@ -288,13 +288,13 @@
       ],
       [
         "Itchy, scaly patches on the scalp with hair breakage or bald patches",
-        "Tinea capitis — requires oral antifungal therapy and monitoring",
+        "Tinea capitis: requires oral antifungal therapy and monitoring",
         "No",
         "Requires in-person evaluation and oral antifungal with monitoring"
       ],
       [
         "Thickened, discolored, crumbling nails",
-        "Onychomycosis — requires prolonged oral therapy with liver monitoring",
+        "Onychomycosis: requires prolonged oral therapy with liver monitoring",
         "No",
         "Requires in-person evaluation, nail clipping or culture, and monitored oral therapy"
       ],
@@ -455,9 +455,9 @@
       "title": "Recovery Timeline and What to Do Now",
       "items": [
         "Apply topical antifungal to the entire affected area plus approximately 2 centimeters beyond the visible border of the rash",
-        "Keep the affected area clean and dry — pat dry after bathing rather than rubbing",
+        "Keep the affected area clean and dry: pat dry after bathing rather than rubbing",
         "Wear loose, breathable, moisture-wicking clothing and change socks daily",
-        "Complete the full course of antifungal treatment even if the rash appears to clear early — stopping too soon increases the risk of recurrence",
+        "Complete the full course of antifungal treatment even if the rash appears to clear early: stopping too soon increases the risk of recurrence",
         "Most localized tinea infections begin improving within 1 to 2 weeks of proper antifungal therapy",
         "Do not apply combination antifungal-corticosteroid products unless specifically directed by your physician"
       ]
@@ -598,11 +598,11 @@
   },
   "references": [
     {
-      "text": "CDC — Ringworm: Treatment Guidelines (2024)",
+      "text": "CDC, Ringworm: Treatment Guidelines (2024)",
       "url": "https://www.cdc.gov/ringworm/treatment/index.html"
     },
     {
-      "text": "AAFP — Diagnosis and Management of Tinea Infections (2014)",
+      "text": "AAFP: Diagnosis and Management of Tinea Infections (2014)",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12707599"
     },
     {

@@ -105,7 +105,7 @@ export default function StateLandingPage({ stateSlug }) {
       {
         "@type": "MedicalBusiness",
         "@id": `${pageUrl}#medical-business`,
-        "name": `TeleDirectMD — ${state.name}`,
+        "name": `TeleDirectMD, ${state.name}`,
         "url": pageUrl,
         "telephone": "+1-678-956-1855",
         "email": "contact@teledirectmd.com",
@@ -138,7 +138,7 @@ export default function StateLandingPage({ stateSlug }) {
         ...(hasInsurance ? {
           "acceptsInsurance": stateInsurers.map((ins) => ({
             "@type": "HealthInsurancePlan",
-            "name": `${ins.name} — ${state.name} (${ins.plans})`,
+            "name": `${ins.name}, ${state.name} (${ins.plans})`,
             "includesHealthPlanFormulary": {
               "@type": "HealthPlanFormulary",
               "offersPrescriptionDrug": true
@@ -150,7 +150,7 @@ export default function StateLandingPage({ stateSlug }) {
         "@type": "MedicalWebPage",
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
-        "name": `Online Doctor in ${state.name} — TeleDirectMD`,
+        "name": `Online Doctor in ${state.name} with TeleDirectMD`,
         "description": `See an MD-only doctor online in ${state.name}. TeleDirectMD offers same-day video visits for ${conditionsLabel} adult conditions, for a flat $79.`,
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
@@ -344,9 +344,9 @@ export default function StateLandingPage({ stateSlug }) {
           <div className="cpr-hero-wrap cpr-hero-grid">
             <div>
               <p className="cpr-hero-kicker">Telehealth &middot; {state.name}</p>
-              <h1 data-speakable="true">Online Doctor in {state.name} — TeleDirectMD</h1>
+              <h1 data-speakable="true">Online Doctor in {state.name} with TeleDirectMD</h1>
               <p className="sub" data-speakable="true">
-                MD-only telehealth visits for {conditionsLabel} adult conditions. Same-day appointments, flat $79 self-pay{hasInsurance ? ' — select insurance plans accepted' : ' — no insurance required'}.
+                MD-only telehealth visits for {conditionsLabel} adult conditions. Same-day appointments, flat $79 self-pay{hasInsurance ? ', with select insurance plans accepted' : ', no insurance required'}.
               </p>
 
               {/* INJECT 1: State hub uniqueness opener — renders only when stateTpl
@@ -359,7 +359,7 @@ export default function StateLandingPage({ stateSlug }) {
               )}
 
               <p className="intro">
-                TeleDirectMD connects you with a licensed physician in {state.name} through a secure video visit. Whether you need urgent care for a cold or UTI in women, a chronic medication refill for asthma or blood pressure, or treatment for a skin condition — we are here to help. Prescriptions are sent directly to your local {state.name} pharmacy.
+                TeleDirectMD connects you with a licensed physician in {state.name} through a secure video visit. Whether you need urgent care for a cold or UTI in women, a chronic medication refill for asthma or blood pressure, or treatment for a skin condition, we are here to help. Prescriptions are sent directly to your local {state.name} pharmacy.
               </p>
 
               {/* Credential verification bar. Every jurisdiction in
@@ -424,7 +424,7 @@ export default function StateLandingPage({ stateSlug }) {
               <ul>
                 <li>{conditionsLabel} conditions treated</li>
                 <li>Same-day appointments, evenings &amp; weekends</li>
-                <li>MD-only — never an NP or PA</li>
+                <li>MD-only, never an NP or PA</li>
                 {hasInsurance && <li>Select insurance plans accepted</li>}
               </ul>
               <a href="/book-online/" className="cpr-hero-hcard-cta">Book a Visit &rarr;</a>
@@ -522,7 +522,7 @@ export default function StateLandingPage({ stateSlug }) {
             <div className="tdmd-pricing-card tdmd-pricing-card-highlight">
               <h3>Video Visit</h3>
               <div className="tdmd-price-big">$79</div>
-              <p>One-time fee per visit — no subscription</p>
+              <p>One-time fee per visit, no subscription</p>
               <ul className="tdmd-pricing-includes">
                 <li>Full MD consultation via secure video</li>
                 <li>Diagnosis and treatment plan</li>
@@ -546,7 +546,7 @@ export default function StateLandingPage({ stateSlug }) {
           </div>
 
           <p className="tdmd-cost-note">
-            <strong>No hidden fees.</strong> Your $79 visit fee is the complete cost for your TeleDirectMD consultation.{hasInsurance ? <> Select insurance plans are also accepted in {state.name} — <a href="/insurance/" style={{ color: 'var(--tdmd-teal)', fontWeight: 700 }}>check your coverage</a>.</> : ' Insurance is not required.'}
+            <strong>No hidden fees.</strong> Your $79 visit fee is the complete cost for your TeleDirectMD consultation.{hasInsurance ? <> Select insurance plans are also accepted in {state.name}. <a href="/insurance/" style={{ color: 'var(--tdmd-teal)', fontWeight: 700 }}>Check your coverage</a>.</> : ' Insurance is not required.'}
           </p>
         </div>
       </section>
@@ -590,7 +590,7 @@ export default function StateLandingPage({ stateSlug }) {
       <section className="tdmd-section" id={`${pid}-cities`}>
         <div className="tdmd-container">
           <h2>Cities We Serve in {state.name}</h2>
-          <p>TeleDirectMD is available to patients across {state.name}. As a telehealth service, you can connect with a doctor from anywhere in the state — no need to travel to a clinic.</p>
+          <p>TeleDirectMD is available to patients across {state.name}. As a telehealth service, you can connect with a doctor from anywhere in the state, with no need to travel to a clinic.</p>
 
           <div className="tdmd-city-grid">
             {cities.map((city) => (
@@ -611,7 +611,7 @@ export default function StateLandingPage({ stateSlug }) {
       <section className="tdmd-section tdmd-faq" id={`${pid}-faq`}>
         <div className="tdmd-container">
           <FaqAccordion
-            sectionTitle={`Frequently Asked Questions — TeleDirectMD in ${state.name}`}
+            sectionTitle={`Frequently Asked Questions: TeleDirectMD in ${state.name}`}
             items={[
               ...(stateSlug === 'ny' && citableSummary_AI && citableSummary_AI.question && citableSummary_AI.answerText
                 ? [{ question: citableSummary_AI.question, answer: <p>{citableSummary_AI.answerText}</p> }]
@@ -636,7 +636,7 @@ export default function StateLandingPage({ stateSlug }) {
                 answer: hasInsurance ? (
                   <p>No, insurance is not required. You can always book a $79 self-pay visit. However, TeleDirectMD also accepts select insurance plans in {state.name}, including {stateInsurers.map(i => i.name).join(', ')}. Visit our <a href="/insurance/">Insurance page</a> to check your coverage.</p>
                 ) : (
-                  <p>No. Insurance is not required for a TeleDirectMD visit. The $79 visit fee is the complete cost for your consultation. We are actively expanding insurance coverage to more states — visit our <a href="/insurance/">Insurance page</a> for the latest information.</p>
+                  <p>No. Insurance is not required for a TeleDirectMD visit. The $79 visit fee is the complete cost for your consultation. We are actively expanding insurance coverage to more states. Visit our <a href="/insurance/">Insurance page</a> for the latest information.</p>
                 ),
               },
               {
@@ -648,7 +648,7 @@ export default function StateLandingPage({ stateSlug }) {
               {
                 question: 'Who will I see during my visit?',
                 answer: (
-                  <p>Every TeleDirectMD visit is conducted by a licensed MD — not a nurse practitioner or physician assistant. Dr. Bhavsar is licensed to practice medicine in {state.name} and is board-certified.</p>
+                  <p>Every TeleDirectMD visit is conducted by a licensed MD, not a nurse practitioner or physician assistant. Dr. Bhavsar is licensed to practice medicine in {state.name} and is board-certified.</p>
                 ),
               },
               {
@@ -744,7 +744,7 @@ export default function StateLandingPage({ stateSlug }) {
       <section className="tdmd-section" id={`${pid}-other-states`}>
         <div className="tdmd-container">
           <h2>TeleDirectMD Is Also Available Across 40+ States</h2>
-          <p>TeleDirectMD provides MD-only telehealth visits across 40+ states + DC. Whether you are traveling, relocating, or have family in another state — we can help. Select a state below to explore available conditions and book a visit.</p>
+          <p>TeleDirectMD provides MD-only telehealth visits across 40+ states + DC. Whether you are traveling, relocating, or have family in another state, we can help. Select a state below to explore available conditions and book a visit.</p>
           <div className="tdmd-other-states-grid">
             {otherStates.map((s) => (
               <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}/`}>{s.name}</a>
