@@ -124,6 +124,19 @@ export async function generateStaticParams() {
   return params;
 }
 
+// Per-state title, meta description and H1 for one condition page, from
+// conditionOverrides[condition].{pageTitle,metaDescription,h1} in the state
+// template. Lets a state page stop sharing the template title every other state
+// uses (near-duplicate titles). Absent fields keep the condition defaults.
+function applyStateHeadOverride(condition, override) {
+  if (!condition || !override) return condition;
+  const out = { ...condition };
+  if (typeof override.pageTitle === 'string' && override.pageTitle.trim()) out.pageTitle = override.pageTitle;
+  if (typeof override.metaDescription === 'string' && override.metaDescription.trim()) out.metaDescription = override.metaDescription;
+  if (typeof override.h1 === 'string' && override.h1.trim() && condition.hero) out.hero = { ...condition.hero, h1: override.h1 };
+  return out;
+}
+
 export async function generateMetadata({ params }) {
   const { slug, conditionSlug } = await params;
   const baseUrl = 'https://teledirectmd.com';
@@ -197,7 +210,10 @@ export async function generateMetadata({ params }) {
 
   const state = getStateBySlug(slug);
   const rawCondition = getCondition(conditionSlug);
-  const condition = resolveConditionForState(rawCondition, state);
+  const condition = applyStateHeadOverride(
+    resolveConditionForState(rawCondition, state),
+    getConditionOverride(loadStateTemplate(slug), conditionSlug),
+  );
 
   // FL: A3 verify-link placement 3 of 3 — <link rel="related"> in <head>.
   // Statutory requirement under Fla. Stat. § 456.47(4)(c). Approved 2026-06-07.
@@ -502,7 +518,10 @@ export default async function ConditionPage({ params }) {
 
   const state = getStateBySlug(slug);
   const rawCondition = getCondition(conditionSlug);
-  const condition = resolveConditionForState(rawCondition, state);
+  const condition = applyStateHeadOverride(
+    resolveConditionForState(rawCondition, state),
+    getConditionOverride(loadStateTemplate(slug), conditionSlug),
+  );
   // Attach the slug so downstream helpers (e.g. citable-summary fallback)
   // can derive a clean condition name without re-reading the URL params.
   if (condition && !condition.slug) condition.slug = conditionSlug;
