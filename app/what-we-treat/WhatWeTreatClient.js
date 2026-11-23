@@ -3,6 +3,8 @@
 import { useState, useEffect, useMemo, useRef } from 'react';
 import Image from 'next/image';
 import './wwt-redesign.css';
+import './wwt-hero-variants.css';
+import { HeroSearch, HeroPhysician, HeroAnswer } from './HeroVariants';
 import { PRESCRIBING_POLICY, REFILL_POLICY, ED_REFILL_POLICY } from '../../lib/prescribing-policy';
 
 /* ── Config ──────────────────────────────────────────────────────────────── */
@@ -235,10 +237,20 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
     scrollToCategory(slug);
   };
 
+  const [heroV, setHeroV] = useState('current');
+  useEffect(() => {
+    const v = new URLSearchParams(window.location.search).get('hero');
+    if (v) setHeroV(v);
+  }, []);
+  const jumpToResults = () => scrollToCategory('all');
+
   return (
     <div className="wwt-root">
+      {heroV === 'a' && <HeroSearch setQuery={setQuery} onJump={jumpToResults} />}
+      {heroV === 'b' && <HeroPhysician categories={categories} />}
+      {heroV === 'c' && <HeroAnswer categories={categories} />}
       {/* Hero */}
-      <section className="wwt-hero">
+      {heroV === 'current' && <section className="wwt-hero">
         <div className="wwt-container">
           <div className="wwt-hero-copy">
             <span className="wwt-eyebrow">What we treat</span>
@@ -258,7 +270,7 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
             <p className="wwt-hero-note">Adults 18+ · No controlled substances · Red-flag screening on every visit</p>
           </div>
         </div>
-      </section>
+      </section>}
 
       {/* By the numbers */}
       {/* Counter reads "60+": condition copy is never an exact count. */}
