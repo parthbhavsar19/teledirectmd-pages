@@ -632,7 +632,7 @@
       "retrieved_with": "WebFetch of official CDC page",
       "retrieved_at": "2026-11-15",
       "editorial_notices": [],
-      "notes": "Replaces old ref 6 (CDC About Bartonella), which does not cover lymph nodes, timing or treatment. The old \"resolves in 2 to 4 months\", node locations and bacillary angiomatosis claims were not on either CDC page and were cut.",
+      "notes": "Replaces old ref 6 (CDC About Bartonella), which does not cover lymph nodes, timing or treatment. The old \"resolves in 2 to 4 months\", node locations and bacillary angiomatosis claims were not on either CDC page and were cut. Re-verified 2026-11-23 (page1-push PR) by live fetch of the official page via Monid tinyfish /free/fetch.",
       "claims": [
         {
           "text": "Infection through a cat scratch (particularly kittens) contaminated with flea feces; bites or licks of open wounds can also spread it",
@@ -655,6 +655,18 @@
         {
           "text": "Most cases resolve without antibiotics; antibiotics may reduce node swelling faster; recommended for all immunocompromised patients",
           "quote": "Most cases of CSD resolve without antibiotic treatment. ... Treatment with antibiotics may help more rapidly reduce lymph node swelling ... is recommended for all patients who are immunocompromised",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most cat scratches do not result in cat scratch disease",
+          "quote": "Most cat scratches do not result in CSD.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "See a healthcare provider for fever, enlarged tender lymph nodes 1 to 3 weeks after a scratch, or a pustule at the scratch site",
+          "quote": "See a healthcare provider if you or your child develops a fever; enlarged, tender lymph nodes that develop 1–3 weeks after being scratched; or a pustule at the scratch site.",
           "quote_source": "official_page",
           "verdict": "supported"
         }
