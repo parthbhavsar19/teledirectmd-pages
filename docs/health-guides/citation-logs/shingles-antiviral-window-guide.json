@@ -1,8 +1,8 @@
 {
   "guide": "shingles-antiviral-window-guide",
-  "checked_at": "2026-11-07",
-  "checked_by": "Claude (repair run)",
-  "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+  "checked_at": "2026-11-23",
+  "checked_by": "Claude (AI-visibility deepening run, PR 284)",
+  "scite_verify_papers": "2026-11-07 run: unavailable (quota). 2026-11-23 run: unavailable again (Scite monthly MCP limit reached, resets 2026-12-14); retraction status checked with PubMed publication types (Retracted Publication, Expression of Concern) for refs 23 to 26: none found.",
   "references": [
     {
       "n": 1,
@@ -91,7 +91,7 @@
       "retrieved_with": "PubMed get_article_metadata (connector)",
       "retrieved_at": "2026-11-07",
       "editorial_notices": [],
-      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Abstract re-read 2026-11-23 via PubMed get_article_metadata.",
       "claims": [
         {
           "text": "Antiviral trials generally started treatment within 72 hours of rash onset",
@@ -102,6 +102,18 @@
         {
           "text": "Extending acyclovir from 7 to 21 days added only slight benefit",
           "quote": "treatment with acyclovir for 21 days or the addition of prednisolone to acyclovir therapy confers only slight benefits over standard 7-day treatment with acyclovir",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Adding prednisolone to acyclovir gave only slight benefit; neither the 21-day course nor the steroid reduced PHN (evidence section, what-does-not-work list)",
+          "quote": "treatment with acyclovir for 21 days or the addition of prednisolone to acyclovir therapy confers only slight benefits over standard 7-day treatment with acyclovir. Neither additional treatment reduces the frequency of postherpetic neuralgia.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Steroid recipients reported more adverse events",
+          "quote": "The steroid recipients reported more adverse events.",
           "quote_source": "abstract",
           "verdict": "supported"
         }
@@ -121,11 +133,23 @@
       "retrieved_with": "PubMed get_article_metadata (connector)",
       "retrieved_at": "2026-11-07",
       "editorial_notices": [],
-      "notes": "Previously cited for antiviral-alone healing and pain benefit, which the abstract reports only for acyclovir plus prednisone; now cited only for 72-hour enrollment. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "notes": "Previously cited for antiviral-alone healing and pain benefit, which the abstract reports only for acyclovir plus prednisone; now cited only for 72-hour enrollment. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Abstract re-read 2026-11-23 via PubMed get_article_metadata.",
       "claims": [
         {
           "text": "Oral antiviral trials commonly enrolled participants within 72 hours after rash onset",
           "quote": "208 immunocompetent patients older than 50 years of age who had localized herpes zoster that developed less than 72 hours before study enrollment.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Acyclovir plus prednisone improved quality-of-life measures in adults over 50, but pain over 6 months did not differ",
+          "quote": "In the acyclovir plus prednisone group, resolution of pain during the 6 months after disease onset did not statistically differ from that in the other groups.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Quality-of-life benefit, adults older than 50",
+          "quote": "In relatively healthy persons older than 50 years of age who have localized herpes zoster, combined acyclovir and prednisone therapy can improve quality of life.",
           "quote_source": "abstract",
           "verdict": "supported"
         }
@@ -539,16 +563,52 @@
           "quote": "It usually does not cross the body's midline and heals in 2 to 4 weeks.",
           "quote_source": "official_page",
           "verdict": "supported"
+        },
+        {
+          "text": "CDC names three preferred antiviral drugs for shingles: acyclovir, valacyclovir, famciclovir (citable summary)",
+          "quote": "There are three preferred antiviral drugs available for the initial treatment of shingles: Acyclovir; Valacyclovir; Famciclovir.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Active lesions spread VZV through blister fluid or breathed-in particles until they dry and scab over (contagiousness section)",
+          "quote": "Active herpes zoster lesions are infectious through direct contact with vesicular fluid; or breathing in virus particles from the blisters until they dry and scab over.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "About 30% of people hospitalized with shingles have weakened immune systems",
+          "quote": "About 30% of people hospitalized with herpes zoster have compromised or suppressed immune systems.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Complications include PHN, hearing or vision loss, encephalitis and pneumonia (not-enough section; emergency red flags)",
+          "quote": "Shingles complications include postherpetic neuralgia, hearing or vision loss, encephalitis, and pneumonia.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Shingles usually distinctive enough to diagnose by appearance once rash is present; clinical diagnosis may not be possible without a rash (care section)",
+          "quote": "The signs and symptoms of herpes zoster are usually distinctive enough to make an accurate clinical diagnosis once the rash appears. However, clinical diagnosis of herpes zoster might not be possible in the absence of a rash.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Emergency red flags: confusion, severe headache, seizure as possible encephalitis signs",
+          "quote": "Shingles complications include postherpetic neuralgia, hearing or vision loss, encephalitis, and pneumonia.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
         }
       ],
-      "notes": "Replaces Anderson TC et al., MMWR 2022 (ACIP recombinant zoster vaccine in immunocompromised adults, PMID 35051134), which is a vaccine recommendation and did not support the antiviral-timing or exam-level claims it was cited for. The guide states no Shingrix schedule, so no vaccine source is needed."
+      "notes": "Replaces Anderson TC et al., MMWR 2022 (ACIP recombinant zoster vaccine in immunocompromised adults, PMID 35051134), which is a vaccine recommendation and did not support the antiviral-timing or exam-level claims it was cited for. The guide states no Shingrix schedule, so no vaccine source is needed. Re-verified 2026-11-23 (page1-push PR) by live fetch of the official page via Monid tinyfish /free/fetch. Re-fetched 2026-11-23 (Monid tinyfish /free/fetch run 01M858MWQ9A9T7TXE899T7WTJA (2026-11-23)); page still dated June 27, 2024. The specific symptoms listed as emergency signs (confusion, severe headache, seizure, trouble breathing) are the guide's plain-language description of the encephalitis and pneumonia complications CDC names, so logged partly_supported."
     },
     {
       "n": 19,
       "kind": "label",
       "cited_as": "VALTREX (valacyclovir hydrochloride) tablets, prescribing information. DailyMed, U.S. National Library of Medicine. Revised November 2025. Accessed November 7, 2026.",
       "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f8e0d8f8-cb73-4206-a484-88f5c4fbd719",
-      "version_or_date": "VALTREX label, Revised 11/2025 (DailyMed updated November 12, 2025)",
+      "version_or_date": "DailyMed label updated November 12, 2025 (as displayed 2026-11-23)",
       "retrieved_with": "WebFetch of DailyMed label page",
       "retrieved_at": "2026-11-07",
       "editorial_notices": [],
@@ -576,15 +636,118 @@
           "quote": "VALTREX is indicated for the treatment of herpes zoster (shingles) in immunocompetent adults.",
           "quote_source": "label",
           "verdict": "supported"
+        },
+        {
+          "text": "Valacyclovir is converted to acyclovir in the body",
+          "quote": "Valacyclovir is converted to acyclovir and L-valine by first-pass intestinal and/or hepatic metabolism.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Valacyclovir can be taken with or without food",
+          "quote": "Take VALTREX with or without food.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Efficacy when started more than 72 hours after rash onset not established",
+          "quote": "The efficacy of VALTREX when initiated more than 72 hours after the onset of rash and the efficacy and safety of VALTREX for treatment of disseminated herpes zoster have not been established.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Median duration of pain after healing 40 days (7-day valacyclovir) vs 59 days (7-day acyclovir) among those with pain after healing",
+          "quote": "the median duration of pain after healing (95% CI) in days was: 40 (31, 51), 43 (36, 55), and 59 (41, 77) for 7-day VALTREX, 14-day VALTREX, and 7-day oral acyclovir, respectively.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Herpes zoster renal dosing: 1 g q8h (CrCl 50 or higher); 1 g q12h (30 to 49); 1 g q24h (10 to 29); 500 mg q24h (under 10)",
+          "quote": "Table 1. VALTREX Dosage Recommendations for Adults with Renal Impairment ... Herpes zoster | 1 gram every 8 hours | 1 gram every 12 hours | 1 gram every 24 hours | 500 mg every 24 hours",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hemodialysis patients get the dose after dialysis",
+          "quote": "Patients requiring hemodialysis should receive the recommended dose of VALTREX after hemodialysis.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Acute kidney failure in older adults, kidney disease with excess dose, nephrotoxic drugs, poor hydration; keep hydrated",
+          "quote": "Acute renal failure: May occur in elderly patients (with or without reduced renal function), patients with underlying renal disease who receive higher-than-recommended doses of VALTREX for their level of renal function, patients who receive concomitant nephrotoxic drugs, or inadequately hydrated",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Adequate hydration advised",
+          "quote": "Adequate hydration should be maintained for all patients.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Older adults more likely to need lower dose and to have kidney or CNS adverse events",
+          "quote": "Elderly patients are more likely to have reduced renal function and require dose reduction. Elderly patients are also more likely to have renal or CNS adverse events",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "CNS adverse reactions (agitation, hallucinations, confusion, delirium, seizures, encephalopathy); elderly more likely; stop drug if they occur",
+          "quote": "Central nervous system adverse reactions, including agitation, hallucinations, confusion, delirium, seizures, and encephalopathy, have been reported ... Elderly patients are more likely to have central nervous system adverse reactions. VALTREX should be discontinued if central nervous system adverse reactions occur",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Shingles trial adverse reactions: nausea 15% vs 8%, headache 14% vs 12%, vomiting, dizziness, abdominal pain",
+          "quote": "In 2 clinical trials for the treatment of herpes zoster, the adverse reactions reported by subjects receiving VALTREX ... included nausea (15%, 8%), headache (14%, 12%), vomiting (6%, 3%), dizziness (3%, 2%), and abdominal pain (3%, 2%).",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "TTP/HUS seen at 8 g per day in advanced HIV and transplant trials",
+          "quote": "TTP/HUS, in some cases resulting in death, has occurred in patients with advanced HIV-1 disease and also in allogeneic bone marrow transplant and renal transplant recipients participating in clinical trials of VALTREX at doses of 8 grams per day.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "No known clinically significant drug or food interactions",
+          "quote": "No clinically significant drug-drug or drug-food interactions with VALTREX are known",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pregnancy: decades of data have not identified drug-associated risk of major birth defects",
+          "quote": "Clinical data over several decades with valacyclovir and its metabolite, acyclovir, in pregnant women, have not identified a drug associated risk of major birth defects.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Breastfeeding: about 0.6 mg/kg/day acyclovir to infant at 500 mg twice daily; weigh benefits of breastfeeding with need for drug",
+          "quote": "a 500-mg maternal dose of VALTREX twice daily would provide a breastfed child with an oral acyclovir dosage of approximately 0.6 mg/kg/day ... benefits of breastfeeding should be considered along with the mother's clinical need for VALTREX",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Efficacy not established for shingles in immunocompromised patients",
+          "quote": "The efficacy and safety of VALTREX have not been established in immunocompromised patients other than for the suppression of genital herpes in HIV-1-infected patients.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Prescription medicine (care section, FAQ)",
+          "quote": "Category: HUMAN PRESCRIPTION DRUG LABEL",
+          "quote_source": "label",
+          "verdict": "supported"
         }
-      ]
+      ],
+      "notes": "Re-fetched 2026-11-23 (Monid tinyfish /free/fetch run 01M858N5PX9RXWV9Z3TCE8DBC8 (2026-11-23))."
     },
     {
       "n": 20,
       "kind": "label",
       "cited_as": "Famciclovir tablets, prescribing information (Camber Pharmaceuticals). DailyMed, U.S. National Library of Medicine. Highlights revised February 2021. Accessed November 7, 2026.",
       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=08c58224-5920-4853-8c59-ec5fbb66c2f6",
-      "version_or_date": "Famciclovir tablets (Camber Pharmaceuticals), Highlights Revised 2/2021; full label Revised 08/2019; DailyMed updated January 9, 2025",
+      "version_or_date": "Label revised 2/2021; DailyMed listing updated January 9, 2025 (as displayed 2026-11-23)",
       "retrieved_with": "WebFetch of DailyMed label page",
       "retrieved_at": "2026-11-07",
       "editorial_notices": [],
@@ -612,15 +775,100 @@
           "quote": "Dosage recommendations for adult patients with renal impairment are provided in Table 1",
           "quote_source": "label",
           "verdict": "supported"
+        },
+        {
+          "text": "Famciclovir converted to penciclovir",
+          "quote": "Following oral administration famciclovir undergoes rapid and extensive metabolism to penciclovir and little or no famciclovir is detected in plasma or urine.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Start as soon as shingles is diagnosed",
+          "quote": "Therapy should be initiated as soon as herpes zoster is diagnosed.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Effect greater when started within 48 hours and in people 50 or older (why-window section)",
+          "quote": "The effects of famciclovir were greater when therapy was initiated within 48 hours of rash onset; it was also more profound in patients 50 years of age or older.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Median PHN duration 63 days (famciclovir 500 mg) vs 119 days (placebo) among those who developed PHN",
+          "quote": "the median duration of postherpetic neuralgia was shorter in patients treated with famciclovir 500 mg than in those treated with placebo (63 days and 119 days, respectively).",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Famciclovir vs acyclovir: 545 patients; comparable crusting and acute pain; no significant difference in time to loss of PHN",
+          "quote": "In the active-controlled trial, 545 patients were treated with 1 of 3 doses of famciclovir three times daily or with acyclovir 800 mg five times daily. Times to full lesion crusting and times to loss of acute pain were comparable",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "No significant difference in PHN loss vs acyclovir",
+          "quote": "there were no statistically significant differences in the time to loss of postherpetic neuralgia between famciclovir and acyclovir-treated groups.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Zoster renal dosing: 500 mg q8h (CrCl 60 or higher); q12h (40 to 59); q24h (20 to 39); 250 mg q24h (under 20)",
+          "quote": "Herpes Zoster | 500 mg every 8 hours | >=60 500 every 8 hours | 40-59 | 500 | every 12 hours | 20-39 | 500 | every 24 hours | <20 | 250 | every 24 hours",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Penciclovir cleared by the kidney",
+          "quote": "Penciclovir is predominantly eliminated unchanged by the kidney.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Acute renal failure with excess dose in renal disease",
+          "quote": "Cases of acute renal failure have been reported in patients with underlying renal disease who have received inappropriately high doses of famciclovir for their level of renal function.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most common adverse events headache and nausea",
+          "quote": "The most common adverse events reported in at least 1 indication by greater than 10% of adult patients treated with famciclovir are headache and nausea.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Confusion, predominantly in the elderly (postmarketing)",
+          "quote": "Confusion (including delirium, disorientation, and confusional state occurring predominantly in the elderly), hallucinations",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "No age-based dose change unless kidney function reduced",
+          "quote": "No famciclovir dosage adjustment based on age is recommended unless renal function is impaired",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pregnancy: pharmacovigilance has not identified drug-associated risk of major birth defects",
+          "quote": "Available data from pharmacovigilance reports with famciclovir use in pregnant women have not identified a drug-associated risk of major birth defects, miscarriage or adverse maternal or fetal outcomes.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Prescription medicine",
+          "quote": "Category: HUMAN PRESCRIPTION DRUG LABEL",
+          "quote_source": "label",
+          "verdict": "supported"
         }
-      ]
+      ],
+      "notes": "Re-fetched 2026-11-23 (Monid tinyfish /free/fetch run 01M858NS6DPT1G9W227SKDW5R3 (2026-11-23))."
     },
     {
       "n": 21,
       "kind": "label",
       "cited_as": "Acyclovir tablets USP, prescribing information (Aurobindo Pharma). DailyMed, U.S. National Library of Medicine. Revised December 2025. Accessed November 7, 2026.",
       "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=cfee4476-a3c9-4e0c-a235-c68c5d46931e",
-      "version_or_date": "Acyclovir Tablets USP 400 mg and 800 mg (Aurobindo Pharma), Revised December 2025",
+      "version_or_date": "Revised December 2025 (as displayed 2026-11-23)",
       "retrieved_with": "WebFetch of DailyMed label page",
       "retrieved_at": "2026-11-07",
       "editorial_notices": [],
@@ -642,8 +890,75 @@
           "quote": "[Herpes zoster, 800 mg every 4 hours regimen; creatinine clearance 10 to 25 mL/min/1.73 m2:] 800 mg every 8 hours",
           "quote_source": "label",
           "verdict": "supported"
+        },
+        {
+          "text": "No data on treatment started more than 72 hours after rash onset",
+          "quote": "Herpes Zoster: There are no data on treatment initiated more than 72 hours after onset of the zoster rash.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Acyclovir clearance depends on kidney function",
+          "quote": "The half-life and total body clearance of acyclovir are dependent on renal function.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Zoster renal dosing for 800 mg regimen: q4h 5x daily (CrCl above 25); q8h (10 to 25); q12h (0 to 10)",
+          "quote": "800 mg every 4 hours | > 25 10 to 25 0 to 10 | 800 800 800 | every 4 hours, 5x daily every 8 hours every 12 hours",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hemodialysis: extra dose after each dialysis",
+          "quote": "the patient's dosing schedule should be adjusted so that an additional dose is administered after each dialysis.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Maintain hydration",
+          "quote": "Patients should be advised to maintain adequate hydration.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Caution with nephrotoxic drugs",
+          "quote": "Caution should also be exercised when administering acyclovir to patients receiving potentially nephrotoxic agents since this may increase the risk of renal dysfunction",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Nervous system effects marked in older adults or kidney impairment",
+          "quote": "Aggressive behavior, agitation, ataxia, coma, confusion ... seizure, somnolence, tremors. These symptoms may be marked, particularly in older adults or in patients with renal impairment",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Malaise most frequent in zoster trials at rate similar to placebo",
+          "quote": "The most frequent adverse event reported during 3 clinical trials of treatment of herpes zoster (shingles) ... in 323 patients was malaise (11.5%). The 323 placebo recipients reported malaise (11.1%).",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Renal failure reported",
+          "quote": "Renal failure, in some cases resulting in death, has been observed with acyclovir therapy",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "IV acyclovir labeled for VZV infections in immunocompromised patients",
+          "quote": "Intravenous acyclovir is indicated for the treatment of varicella-zoster infections in immunocompromised patients.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Prescription medicine",
+          "quote": "Acyclovir Tablets, USP 400 mg and 800 mg Rx only",
+          "quote_source": "label",
+          "verdict": "supported"
         }
-      ]
+      ],
+      "notes": "Re-fetched 2026-11-23 (Monid tinyfish /free/fetch run 01M858NS6DPT1G9W227SKDW5R3 (2026-11-23))."
     },
     {
       "n": 22,
@@ -672,9 +987,390 @@
           "quote": "bacterial superinfection, cranial and peripheral nerve palsies, and visceral involvement",
           "quote_source": "official_page",
           "verdict": "partly_supported"
+        },
+        {
+          "text": "Signs of bacterial skin infection (spreading redness, warmth, pus) as an in-person reason",
+          "quote": "bacterial superinfection, cranial and peripheral nerve palsies, and visceral involvement",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Widespread rash with fever in immunocompromised people (emergency list)",
+          "quote": "In immunocompromised persons, zoster may disseminate, causing generalized skin lesions",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
         }
       ],
-      "notes": "The bacterial superinfection sentence in the guide carries no inline marker of its own; logged here because ref 22 follows that paragraph."
+      "notes": "The bacterial superinfection sentence in the guide carries no inline marker of its own; logged here because ref 22 follows that paragraph. Not re-fetched on 2026-11-23; quotes are from the 2026-11-07 retrieval. The listed signs of infection and fever are the guide's plain-language description, so logged partly_supported."
+    },
+    {
+      "n": 23,
+      "kind": "journal",
+      "cited_as": "Tyring SK, Beutner KR, Tucker BA, Anderson WC, Crooks RJ. Antiviral therapy for herpes zoster: randomized, controlled clinical trial of valacyclovir and famciclovir therapy in immunocompetent patients 50 years and older. Archives of Family Medicine. 2000;9(9):863-869. PMID: 11031393.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11031393/",
+      "pmid": "11031393",
+      "doi": "10.1001/archfami.9.9.863",
+      "record_title": "Antiviral therapy for herpes zoster: randomized, controlled clinical trial of valacyclovir and famciclovir therapy in immunocompetent patients 50 years and older.",
+      "record_journal": "Arch Fam Med",
+      "record_year": "2000",
+      "article_type": "Clinical Trial; Comparative Study; Multicenter Study; Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata (connector)",
+      "retrieved_at": "2026-11-23",
+      "editorial_notices": [],
+      "notes": "Abstract only. Scite unavailable (monthly limit); PubMed publication-type search found no Retracted Publication or Expression of Concern. The abstract also gives 2000 wholesale prices; not used.",
+      "claims": [
+        {
+          "text": "Valacyclovir vs famciclovir: 597 immunocompetent adults 50 and older within 72 hours",
+          "quote": "There were 597 otherwise healthy immunocompetent outpatients, aged 50 years and older, who presented within 72 hours of onset of zoster rash.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "No statistically significant difference in pain resolution, rash healing or PHN",
+          "quote": "Intent-to-treat analysis did not detect statistically significant differences for valacyclovir vs famciclovir on resolution of zoster-associated pain ... no differences were evident between treatments on rash healing rates and on a range of analyses of postherpetic neuralgia.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Similar safety; headache and nausea most common",
+          "quote": "Safety profiles for valacyclovir and famciclovir were similar, with headache and nausea being the more common adverse events.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "kind": "journal",
+      "cited_as": "Chen N, Li Q, Yang J, Zhou M, Zhou D, He L. Antiviral treatment for preventing postherpetic neuralgia. Cochrane Database of Systematic Reviews. 2014;(2):CD006866. PMID: 24500927.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24500927/",
+      "pmid": "24500927",
+      "pmcid": "PMC10583132",
+      "doi": "10.1002/14651858.CD006866.pub3",
+      "record_title": "Antiviral treatment for preventing postherpetic neuralgia.",
+      "record_journal": "Cochrane Database Syst Rev",
+      "record_year": "2014",
+      "article_type": "Meta-Analysis; Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata and search_articles (connector)",
+      "retrieved_at": "2026-11-23",
+      "editorial_notices": [],
+      "notes": "Abstract only. A PubMed search for CD006866 returned only this 2014 update and the 2009 original, so this is the newest version indexed. Scite unavailable; no retraction publication type.",
+      "claims": [
+        {
+          "text": "Six RCTs, 1,211 participants; high-quality evidence oral acyclovir does not significantly reduce PHN incidence",
+          "quote": "Six RCTs with a total of 1211 participants were eligible ... There is high quality evidence that oral aciclovir does not reduce the incidence of PHN significantly.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Insufficient evidence for other antivirals; famciclovir did not significantly reduce PHN incidence",
+          "quote": "In the trial of famciclovir versus placebo, neither 500 mg nor 750 mg doses of famciclovir reduced the incidence of herpetic neuralgia significantly.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Insufficient evidence to determine the effect of other antivirals",
+          "quote": "there is insufficient evidence to determine the effect of other antiviral treatments",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "kind": "guideline",
+      "cited_as": "Werner RN, Nikkels AF, Marinovic B, et al. European consensus-based (S2k) Guideline on the Management of Herpes Zoster, Part 2: Treatment. Journal of the European Academy of Dermatology and Venereology. 2017;31(1):20-29. PMID: 27579792.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27579792/",
+      "pmid": "27579792",
+      "doi": "10.1111/jdv.13957",
+      "record_title": "European consensus-based (S2k) Guideline on the Management of Herpes Zoster - guided by the European Dermatology Forum (EDF) in cooperation with the European Academy of Dermatology and Venereology (EADV), Part 2: Treatment.",
+      "record_journal": "J Eur Acad Dermatol Venereol",
+      "record_year": "2017",
+      "article_type": "Journal Article; Practice Guideline",
+      "version_or_date": "2017 (published online 2016-11-02); free-access full text read 2026-11-23",
+      "retrieved_with": "PubMed get_article_metadata (connector) for metadata; full text via Monid context.dev /web/scrape/markdown run 01M858S9FFKFHVCYMF4SNVWK78 (Wiley free access page)",
+      "retrieved_at": "2026-11-23",
+      "editorial_notices": [],
+      "notes": "European guideline, consensus-based recommendations (strength shown as suggest or recommend). Brivudin recommendations not used (not available in the US). The topical vs systemic acyclovir RCT is summarized in the guideline text in the context of ophthalmic zoster. Scite unavailable; no retraction publication type.",
+      "claims": [
+        {
+          "text": "Limited evidence of better results with valacyclovir and famciclovir over oral acyclovir, not consistently reproduced",
+          "quote": "Although limited evidence suggests superior efficacy of valaciclovir, famciclovir and brivudin over orally administered aciclovir regarding different outcomes, this evidence was not consistently reproduced.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Shared decision on oral drug considering dosing frequency, cost, contraindications, comorbidity, interactions",
+          "quote": "we suggest shared decision-making with respect to using oral aciclovir, valaciclovir, famciclovir or brivudin, taking e.g. practicability (dosage frequency), costs, contraindications, comorbidity and drug interactions into consideration.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "No trials of starting after 72 hours; later advice is consensus",
+          "quote": "Due to the lack of trials evaluating the initiation of a systemic antiviral medication more than 72 h after onset of the rash, there is no evidence basis to recommend the administration of antivirals in this setting. Based on consensus",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Start after 72 hours while new vesicles appear in at-risk or complicated cases, dissemination, eye or ear shingles, all immunocompromised (Key facts, after-72 section, table)",
+          "quote": "We suggest initiating antiviral medication as early as possible, within 72 h after the onset of symptoms, or at a later time - as long as new vesicles appear in patients at risk of a complicated course",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Later start list continued: dissemination, ophthalmicus or oticus, all immunocompromised",
+          "quote": "in patients with signs of cutaneous, visceral or neurological dissemination - in the case of HZ ophthalmicus or HZ oticus - in all immunocompromised patients",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Suggests against starting in uncomplicated thoracic or lumbar shingles under 50 presenting after 72 hours",
+          "quote": "We suggest against initiating an antiviral medication in patients who have 'uncomplicated' HZ (classical, unilateral thoracic or lumbar HZ in patients younger than 50 years of age, without signs of a complicated course) who present >72 h",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Who should be treated: 50 and older, head or neck, moderate to severe pain, hemorrhagic or necrotizing lesions, more than one segment, aberrant vesicles, mucous membranes, immunocompromised, severe skin disease",
+          "quote": "We recommend treating the following patient subgroups with an antiviral medication: HZ of any localization in patients >=50 years of age; HZ of the head and/or neck area; ... moderate to severe zoster-associated pain",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Treatment list continued (lesion types, immunocompromised, skin disease)",
+          "quote": "haemorrhagic or necrotizing lesions; >1 segment involved; aberrant vesicles/satellite lesions; involvement of mucous membranes; HZ in immunocompromised patients; HZ in patients with severe predisposing skin diseases (e.g. atopic dermatitis)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Check creatinine when kidney problems are known or suspected",
+          "quote": "We suggest checking creatinine in patients with known or suspected renal insufficiency at the time of initiation of an antiviral medication with aciclovir, famciclovir or valaciclovir.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Oral acyclovir did better than topical acyclovir in an RCT (eye complications, pain, skin healing)",
+          "quote": "Regarding ocular complications of HZ ophthalmicus, pain duration and resolution of cutaneous symptoms, systemic application of aciclovir was favourable when compared to topical application of aciclovir in an RCT.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Too little evidence to recommend a specific topical treatment for acute shingles",
+          "quote": "There is insufficient evidence and expert agreement to make recommendations for a specific topical treatment of acute HZ",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Suggests against local anesthetics or capsaicin for acute shingles",
+          "quote": "We suggest against the application of local anaesthetic agents or capsaicin for acute HZ.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pregnancy: suggest against antivirals without risk of complications; acyclovir preferred when benefits outweigh risks",
+          "quote": "We suggest the initiation of an antiviral medication in pregnant women in the presence of risk factors ..., if potential benefits to the mother outweigh the potential risks to the foetus. In this case, aciclovir should be used preferentially.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pregnancy, no complication risk",
+          "quote": "In the absence of the risk of complications, we suggest against initiating an antiviral medication in pregnant women.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Weakened immune system or spreading rash needs in-person care (care section)",
+          "quote": "We suggest using intravenous aciclovir in patients who present with complicated HZ or who are at risk of a complicated course.",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "kind": "journal",
+      "cited_as": "Jones K, Keating M, Hansell M. Herpes zoster and postherpetic neuralgia: common questions and answers. American Family Physician. 2026;114(2):164-172. PMID: 42789654.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42789654/",
+      "pmid": "42789654",
+      "record_title": "Herpes Zoster and Postherpetic Neuralgia: Common Questions and Answers.",
+      "record_journal": "Am Fam Physician",
+      "record_year": "2026",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (connector); open portion of aafp.org article page (abstract, SORT table, first section) via Monid tinyfish /free/fetch run 01M858R7Z07MK135VW8T0J0BH5",
+      "retrieved_at": "2026-11-23",
+      "editorial_notices": [],
+      "notes": "PubMed record has no DOI; PMID present. Full article is paywalled; claims limited to the abstract, the SORT key recommendations table and the opening clinical paragraph, all visible without login. Scite unavailable; no retraction publication type.",
+      "claims": [
+        {
+          "text": "Early antiviral use rated SORT A; valacyclovir and famciclovir superior pain control and reduced PHN risk",
+          "quote": "Antivirals (acyclovir, valacyclovir, and famciclovir) should be used within 72 hours of symptom onset ... with valacyclovir and famciclovir achieving superior pain control and reducing the risk of postherpetic neuralgia. | A",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Rash erupts within 2 to 4 days, vesicles crust within 7 to 10 days, symptoms resolve within 2 to 4 weeks",
+          "quote": "A maculopapular rash erupts within 2 to 4 days and progresses to vesicles that crust within 7 to 10 days (Figure 1). ... Symptoms resolve within 2 to 4 weeks.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "PHN (pain lasting more than 90 days) occurs in 10% to 18%",
+          "quote": "Postherpetic neuralgia, a persistent dermatomal pain syndrome lasting longer than 90 days after symptom onset, is the most common complication, occurring in 10% to 18% of people who have herpes zoster.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "First-line PHN treatments: gabapentinoids, SNRIs, TCAs; topical drugs adjunctive (lidocaine, capsaicin)",
+          "quote": "First-line treatment of postherpetic neuralgia includes gabapentinoids, serotonin-norepinephrine reuptake inhibitors, and tricyclic antidepressants. Topical drugs are an adjunctive treatment.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Topical options named: capsaicin and lidocaine",
+          "quote": "Topical treatments for postherpetic neuralgia (eg, capsaicin patches 8% [Qutenza], capsaicin cream 0.075%, lidocaine 5% formulations) should be considered as adjunctive therapy",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "kind": "guideline",
+      "cited_as": "Panel on Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults and Adolescents With HIV. Varicella-Zoster Virus Disease. National Institutes of Health, clinicalinfo.hiv.gov. Accessed November 23, 2026.",
+      "url": "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/varicella-zoster",
+      "version_or_date": "Section date not shown in the retrieved text; read 2026-11-23",
+      "retrieved_with": "Monid tinyfish /free/fetch run 01M858PDTBPJ2QCHYSGR018YH5 (official page)",
+      "retrieved_at": "2026-11-23",
+      "editorial_notices": [],
+      "notes": "Guideline written for adults and adolescents with HIV; the guide says so wherever it cites treatment timing, drug preference or steroid advice from it. Eye-exam and anatomy statements are general clinical descriptions in the same chapter.",
+      "claims": [
+        {
+          "text": "Valacyclovir prodrug of acyclovir, better bioavailability, fewer doses",
+          "quote": "Valacyclovir is the prodrug of acyclovir and has improved oral bioavailability and allows for decreased dosing frequency compared to acyclovir, making it the preferred oral regimen.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Valacyclovir or famciclovir preferred for better pharmacokinetics and simpler dosing (people with HIV)",
+          "quote": "Valacyclovir or famciclovir are preferred because of their improved pharmacokinetic properties and simplified dosing schedule.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "People with HIV: treat as soon as possible and within 1 week of rash onset, or any time before full crusting",
+          "quote": "Antiviral therapy should be instituted for all people with HIV with herpes zoster as soon as possible and within 1 week of rash onset, or any time prior to full crusting of lesions (AIII).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Oral valacyclovir, famciclovir or acyclovir for 7 to 10 days; IV acyclovir for extensive lesions or visceral or CNS involvement",
+          "quote": "oral valacyclovir (AII), famciclovir (AII), or acyclovir (BII) (doses as above) for 7 to 10 days ... If cutaneous lesions are extensive or if visceral or CNS involvement is suspected, IV acyclovir should be initiated",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Disseminated shingles definition",
+          "quote": "disseminated herpes zoster, which has been defined as involving three or more dermatomes, having more than 20 vesicles outside the area of the primary and adjacent dermatomes, or manifesting in organ-invasive disease or CNS disease.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "No adjunctive steroids for shingles in people with HIV",
+          "quote": "Adjunctive corticosteroid therapy for herpes zoster in people with HIV is not recommended because no data support its benefit in this population (AIII).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Everyone with V1 shingles should have an eye exam; follow-up exams even after skin heals",
+          "quote": "All patients with V1 herpes zoster should have an ophthalmologic exam. ... patients with normal eye examinations initially should receive follow-up eye examinations, even after the skin lesions heal (AIII).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Nose-tip blisters (Hutchinson sign) suggest eye involvement",
+          "quote": "Vesicles on the tip of the nose (Hutchinson sign) are a clue to involvement of the nasociliary branch of V1, indicating potential ocular involvement.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Ear shingles: rash in ear canal, facial palsy, loss of taste (Ramsay Hunt)",
+          "quote": "Ramsay Hunt syndrome, also known as herpes zoster oticus, and presents with painful rash in the external auditory canal, facial nerve palsy, and loss of taste on the anterior two-thirds of the tongue.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "VZV vasculopathy can cause stroke; risk highest in the weeks to months after shingles (not-enough section, emergency red flags)",
+          "quote": "CNS vasculopathy/vasculitis due to VZV infection of cerebral arteries can result in transient ischemic attack and ischemic or hemorrhage stroke ... The risk of stroke is highest in the weeks to months following an episode of herpes zoster",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Topical eye antivirals only for late corneal dendriform lesions when not on oral antivirals",
+          "quote": "Topical antivirals are only indicated for late dendriform lesions of the corneal epithelium if/when the patient is not receiving oral antivirals",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Antiviral treatment at onset reduces ophthalmic involvement (eye section context)",
+          "quote": "In cases of herpes zoster affecting the trigeminal nerve, antiviral treatment at the onset of cutaneous lesions reduces the incidence and severity of ophthalmic involvement.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Emergency list: vision changes, confusion, sudden weakness or trouble speaking, widespread rash with fever",
+          "quote": "CNS vasculopathy/vasculitis due to VZV infection of cerebral arteries can result in transient ischemic attack and ischemic or hemorrhage stroke",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. About Shingles (Herpes Zoster). Updated January 17, 2025. Accessed November 23, 2026.",
+      "url": "https://www.cdc.gov/shingles/about/index.html",
+      "version_or_date": "Published May 15, 2024; updated and reviewed January 17, 2025",
+      "retrieved_with": "Monid tinyfish /free/fetch run 01M858PDTBPJ2QCHYSGR018YH5 (official page)",
+      "retrieved_at": "2026-11-23",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Three antivirals: acyclovir, valacyclovir, famciclovir (Key facts)",
+          "quote": "Several antiviral medicines are available to treat shingles: Acyclovir ... Valacyclovir ... Famciclovir",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cannot spread the virus before blisters appear or after the rash scabs over",
+          "quote": "People with shingles cannot spread the virus before the blisters appear or after the rash scabs over.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "You cannot get shingles from someone with shingles; can get chickenpox if never had it or the vaccine",
+          "quote": "You cannot get shingles from someone who has shingles. You can get chickenpox from someone who has shingles if you never had chickenpox or never got chickenpox vaccine.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Precautions: cover rash, avoid touching, wash hands, avoid pregnant people without immunity, premature or low birth weight infants, weakened immune systems until rash scabs",
+          "quote": "Cover the rash; Avoid touching or scratching the rash; Wash your hands often ... Avoid contact with the following people until your rash scabs over",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Who to avoid",
+          "quote": "Pregnant women who never had chickenpox or chickenpox vaccine; Premature or low birth weight infants; People with weakened immune systems",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pain relievers, wet compresses, calamine lotion and oatmeal baths for itching (pain section)",
+          "quote": "Pain relief medicine may help with the pain caused by shingles. This can be over the counter or a prescription from your doctor. Wet compresses, calamine lotion, and warm oatmeal baths may help relieve itching.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
     }
-  ]
+  ],
+  "quote_format_note": "Quotes from tables and bulleted lists (refs 19, 20, 21, 25, 28) join cells or bullets with \"|\" or \";\" and drop bullet symbols; ellipses mark omitted words; inline reference markers in guideline text (for example the \"31\" after \"disseminated herpes zoster\" in ref 27) are removed. Acyclovir \"Rx only\" comes from the label title block."
 }
