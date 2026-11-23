@@ -1,32 +1,16 @@
-/* What We Treat hero, doctor first. Scoped under .wwt-root.
+/* What We Treat hero, doctor first, dark navy. Scoped under .wwt-root.
    Colors come from the site brand set: navy #003e52, teal #006b73, coral #ff5a36, cream #f4efe8.
-   Every text pair below meets WCAG AA (4.5:1) in light and dark. */
+   Every text pair below meets WCAG AA (4.5:1). */
 
 .wwt-root .wwt-hd {
-  --hd-bg:#f4efe8; --hd-ink:#003e52; --hd-muted:#4a6670; --hd-accent:#006b73;
-  --hd-arch:linear-gradient(180deg,#ff5a36 0%,#ff8a6b 100%);
-  --hd-btn-bg:#006b73; --hd-btn-fg:#ffffff; --hd-btn-hover:#00585f;
-  --hd-chip-bg:#ffffff; --hd-chip-line:rgba(0,62,82,.16); --hd-chip-fg:#003e52;
-  --hd-plate-bg:#ffffff; --hd-plate-ink:#003e52; --hd-plate-muted:#4a6670;
-  --hd-trust-ico:#006b73; --hd-line:rgba(0,62,82,.12);
-  position:relative; overflow:hidden; isolation:isolate;
-  background:var(--hd-bg); color:var(--hd-ink);
-}
-.wwt-root .wwt-hd-navy {
   --hd-bg:linear-gradient(160deg,#003e52 0%,#002b3a 100%); --hd-ink:#ffffff; --hd-muted:#b9d3d6; --hd-accent:#7fd1c7;
   --hd-arch:radial-gradient(120% 90% at 50% 0%,#0a7a83 0%,#006b73 60%,#00585f 100%);
   --hd-btn-bg:#ff5a36; --hd-btn-fg:#002b3a; --hd-btn-hover:#ff7452;
   --hd-chip-bg:rgba(255,255,255,.06); --hd-chip-line:rgba(255,255,255,.22); --hd-chip-fg:#ffffff;
   --hd-plate-bg:#f4efe8; --hd-plate-ink:#003e52; --hd-plate-muted:#4a6670;
   --hd-trust-ico:#ffb39e; --hd-line:rgba(255,255,255,.14);
-}
-.wwt-root .wwt-hd-teal {
-  --hd-bg:linear-gradient(160deg,#006b73 0%,#00585f 100%); --hd-ink:#ffffff; --hd-muted:#d8ecea; --hd-accent:#f4efe8;
-  --hd-arch:linear-gradient(180deg,#ff5a36 0%,#ff8a6b 100%);
-  --hd-btn-bg:#f4efe8; --hd-btn-fg:#003e52; --hd-btn-hover:#ffffff;
-  --hd-chip-bg:rgba(255,255,255,.08); --hd-chip-line:rgba(255,255,255,.28); --hd-chip-fg:#ffffff;
-  --hd-plate-bg:#003e52; --hd-plate-ink:#ffffff; --hd-plate-muted:#b9d3d6;
-  --hd-trust-ico:#f4efe8; --hd-line:rgba(255,255,255,.18);
+  position:relative; overflow:hidden; isolation:isolate;
+  background:var(--hd-bg); color:var(--hd-ink);
 }
 
 .wwt-root .wwt-hd-grid {
@@ -111,23 +95,7 @@
   .wwt-root .wwt-hd-trust li { font-size:14px; }
 }
 
-/* Dark theme: navy and teal are already dark bands. Cream turns to deep navy so the page doesn't flash a light block. */
-:root[data-theme="dark"] .wwt-root .wwt-hd-cream {
-  --hd-bg:#0d2530; --hd-ink:#f4efe8; --hd-muted:#b9d3d6; --hd-accent:#7fd1c7;
-  --hd-btn-bg:#ff5a36; --hd-btn-fg:#002b3a; --hd-btn-hover:#ff7452;
-  --hd-chip-bg:rgba(255,255,255,.06); --hd-chip-line:rgba(255,255,255,.2); --hd-chip-fg:#f4efe8;
-  --hd-plate-bg:#f4efe8; --hd-plate-ink:#003e52; --hd-plate-muted:#4a6670;
-  --hd-trust-ico:#ffb39e; --hd-line:rgba(255,255,255,.14);
-}
-@media (prefers-color-scheme:dark) {
-  :root:not([data-theme="light"]) .wwt-root .wwt-hd-cream {
-    --hd-bg:#0d2530; --hd-ink:#f4efe8; --hd-muted:#b9d3d6; --hd-accent:#7fd1c7;
-    --hd-btn-bg:#ff5a36; --hd-btn-fg:#002b3a; --hd-btn-hover:#ff7452;
-    --hd-chip-bg:rgba(255,255,255,.06); --hd-chip-line:rgba(255,255,255,.2); --hd-chip-fg:#f4efe8;
-    --hd-plate-bg:#f4efe8; --hd-plate-ink:#003e52; --hd-plate-muted:#4a6670;
-    --hd-trust-ico:#ffb39e; --hd-line:rgba(255,255,255,.14);
-  }
-}
+/* Navy is already a dark band, so it needs no dark-theme override. */
 @media (prefers-reduced-motion:reduce) {
   .wwt-root .wwt-hd-btn, .wwt-root .wwt-hd-conds a { transition:none; transform:none !important; }
 }

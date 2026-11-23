@@ -1,5 +1,4 @@
-/* What We Treat hero: doctor first.
-   palette: 'cream' | 'navy' | 'teal' (preview); one is kept once Parth picks. */
+/* What We Treat hero: doctor first, dark navy palette (Parth's pick, Nov 23 2026). */
 
 const CONDITIONS = [
   { label: 'UTI (women)', href: '/uti-treatment-online/' },
@@ -18,9 +17,9 @@ function Icon({ name }) {
   return (<svg {...p}><path d="M4 12l5 5L20 6" /></svg>);
 }
 
-export default function HeroDoctor({ palette = 'cream' }) {
+export default function HeroDoctor() {
   return (
-    <section className={`wwt-hd wwt-hd-${palette}`} aria-labelledby="wwt-hd-title">
+    <section className="wwt-hd" aria-labelledby="wwt-hd-title">
       <div className="wwt-container wwt-hd-grid">
         <div className="wwt-hd-copy">
           <div className="wwt-hd-byline">

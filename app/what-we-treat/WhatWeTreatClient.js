@@ -3,10 +3,9 @@
 import { useState, useEffect, useMemo, useRef } from 'react';
 import Image from 'next/image';
 import './wwt-redesign.css';
-import './wwt-hero-variants.css';
-import { HeroSearch, HeroPhysician, HeroAnswer } from './HeroVariants';
 import './wwt-hero-doctor.css';
 import HeroDoctor from './HeroDoctor';
+import UtiScopeNotice from '../components/UtiScopeNotice';
 import { PRESCRIBING_POLICY, REFILL_POLICY, ED_REFILL_POLICY } from '../../lib/prescribing-policy';
 
 /* ── Config ──────────────────────────────────────────────────────────────── */
@@ -239,43 +238,10 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
     scrollToCategory(slug);
   };
 
-  const [heroV, setHeroV] = useState('current');
-  useEffect(() => {
-    const v = new URLSearchParams(window.location.search).get('hero');
-    if (v) setHeroV(v);
-  }, []);
-  const jumpToResults = () => scrollToCategory('all');
-
   return (
     <div className="wwt-root">
-      {heroV === 'a' && <HeroSearch setQuery={setQuery} onJump={jumpToResults} />}
-      {heroV === 'b' && <HeroPhysician categories={categories} />}
-      {heroV === 'c' && <HeroAnswer categories={categories} />}
-      {heroV === 'b1' && <HeroDoctor palette="cream" />}
-      {heroV === 'b2' && <HeroDoctor palette="navy" />}
-      {heroV === 'b3' && <HeroDoctor palette="teal" />}
-      {/* Hero */}
-      {heroV === 'current' && <section className="wwt-hero">
-        <div className="wwt-container">
-          <div className="wwt-hero-copy">
-            <span className="wwt-eyebrow">What we treat</span>
-            <h1>
-              A real doctor,<br />
-              not a chatbot, not an algorithm.<br />
-              Without insurance, for $79.
-            </h1>
-            <p className="wwt-lede">
-              Same-day video visits with a board-certified MD. $79 flat, or select insurance.
-              Not a questionnaire, not a nurse queue. And a straight answer when telehealth isn’t the right tool for what you have.
-            </p>
-            <div className="wwt-cta-row">
-              <a className="wwt-btn wwt-btn-on-dark" href="/book-online/">Book a visit · $79</a>
-              <a className="wwt-btn wwt-btn-outline-light" href="#wwt-results">Browse conditions</a>
-            </div>
-            <p className="wwt-hero-note">Adults 18+ · No controlled substances · Red-flag screening on every visit</p>
-          </div>
-        </div>
-      </section>}
+      {/* Hero: doctor first, navy (picked by Parth, Nov 23 2026) */}
+      <HeroDoctor />
 
       {/* By the numbers */}
       {/* Counter reads "60+": condition copy is never an exact count. */}
@@ -342,6 +308,8 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
                 </div>
                 <span className="wwt-n">{cat.conditions.length} condition{cat.conditions.length === 1 ? '' : 's'}</span>
               </div>
+              {/* Male UTI exclusion sits beside the UTI card here, not in a top banner (Parth, Nov 23 2026). */}
+              {cat.categorySlug === 'urgent-care' && <UtiScopeNotice inline />}
               <div className="wwt-grid">
                 {cat.conditions.map((c) => {
                   const desc = conditionDescriptions[c.slug] || {};
