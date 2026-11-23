@@ -5,7 +5,7 @@ import { tileMap, ladder, levelChip, levelIndex, LEVELS } from "../lib/tilemap.m
 import { iliSummary, bySeason, typicalBand, seasonTicks, weekIndexLabel, nhsnSeasons, cumulative, fmtDate, seasonLabel, pctChange, ATYPICAL, atIndex } from "../lib/derive.mjs";
 import { epiweekEndISO, seasonOf, seasonWeekIndex, dateToEpiweek } from "../lib/mmwr.mjs";
 import { SITE } from "../../content/site.mjs";
-import { fluNearYouBox, SHUTDOWN_NOTE } from "../lib/local.mjs";
+import { fluNearYouBox, SHUTDOWN_NOTE, edRankSentence, topStatesHTML } from "../lib/local.mjs";
 
 // Link a state page to that state's flu-care page on teledirectmd.com, only for
 // states listed in SITE.cta.stateCare (see content/site.mjs).
@@ -155,6 +155,7 @@ ${seasonNote ? `<div class="section" style="margin-top:28px">${seasonNote}</div>
   </div>
 </section>
 
+${topStatesHTML({ R: "" })}
 <section class="section">
   <div class="section-head"><h2>The national flu curve</h2><p class="muted">Each line is one flu season, aligned on the same calendar weeks from October through September, so you can see whether this season is early, late, higher, or lower than usual.</p></div>
   <div style="display:grid;gap:40px">
@@ -204,7 +205,7 @@ ${seasonNote ? `<div class="section" style="margin-top:28px">${seasonNote}</div>
     const nh = x.nh?.at(-1);
     strip = `<div class="strip">
 <div class="stat"><span class="stat-label">CDC activity level</span><span class="stat-value" style="font-size:1.5rem">${levelChip(lv)}</span><span class="stat-ctx">week ending ${fmtDate(activity.week)}</span></div>
-<div class="stat"><span class="stat-label">Outpatient visits for flu-like illness</span><span class="stat-value">${pct(x.ili?.latest.v)}</span><span class="stat-ctx">${x.ili ? `${delta(x.ili.latest.v, x.ili.prior?.v, " pts")}<span>same week last season ${pct(x.ili.lastYearSameWeek)}</span>` : "<span>Not reported for this jurisdiction</span>"}</span></div>
+<div class="stat"><span class="stat-label">Outpatient visits for flu-like illness</span><span class="stat-value">${pct(x.ili?.latest.v)}</span><span class="stat-ctx">${x.ili ? `${delta(x.ili.latest.v, x.ili.prior?.v, " pts")}<span>${x.ili.prevMissing ? `${seasonLabel(x.ili.expectedPrev)} not in CDC feed` : `same week last season ${pct(x.ili.lastYearSameWeek)}`}</span>` : "<span>Not reported for this jurisdiction</span>"}</span></div>
 <div class="stat"><span class="stat-label">New flu hospital admissions</span><span class="stat-value">${nh ? num(nh[1]) : "–"}</span><span class="stat-ctx">${nh ? `<span>${num(nh[2], 2)} per 100,000 (U.S. ${num(usNhsn.at(-1)[2], 2)})</span>` : "<span>Not reported</span>"}</span></div>
 <div class="stat"><span class="stat-label">Vaccinated last season, ${seasonLabel(lastCov)}</span><span class="stat-value">${covCur?.all != null ? pct(covCur.all, 0) : "–"}</span><span class="stat-ctx"><span>${covCur ? `adults ${pct(covCur.adult, 0)}, children ${pct(covCur.child, 0)}; U.S. ${pct(usCov[lastCov]?.all, 0)}` : "Not published"}</span></span></div>
 </div>`;
@@ -260,7 +261,7 @@ ${seasonNote ? `<div class="section" style="margin-top:28px">${seasonNote}</div>
       path: `state/${j.slug}.html`, active: "states.html", noindex: thin,
       title: `Flu in ${j.name}`,
       description: `${j.name} flu activity for the week ending ${fmtDate(weekEnd)}${lv ? ` (${lv})` : ""}, with the state's flu curve compared to past seasons, hospital admissions since 2020, and vaccination rates.`,
-      body: `${pageHead({ R: R1, crumbs: [["states.html", "States"], [null, j.name]], eyebrow: esc(SITE.weekLabel), title: `Flu in ${esc(j.name)}`, lede: x.ili ? `Outpatient flu-like illness in ${esc(j.name)} was ${pct(x.ili.latest.v)} of visits in the week ending ${fmtDate(x.ili.latest.date)}, compared with ${pct(x.ili.lastYearSameWeek)} at the same point last season.` : `Here is what CDC publishes for ${esc(j.name)}. Some national surveillance systems do not report separately for every territory.` })}
+      body: `${pageHead({ R: R1, crumbs: [["states.html", "States"], [null, j.name]], eyebrow: esc(SITE.weekLabel), title: `Flu in ${esc(j.name)}`, lede: x.ili ? `Outpatient flu-like illness in ${esc(j.name)} was ${pct(x.ili.latest.v)} of visits in the week ending ${fmtDate(x.ili.latest.date)}${x.ili.prevMissing ? `. CDC's state ILINet feed has no ${seasonLabel(x.ili.expectedPrev)} season for ${esc(j.name)}, so the chart compares this season with ${seasonLabel(x.ili.prev)} and the state's earlier seasons.` : `, compared with ${pct(x.ili.lastYearSameWeek)} at the same point last season.`}${edRankSentence(j)}` : `Here is what CDC publishes for ${esc(j.name)}. Some national surveillance systems do not report separately for every territory.` })}
 <section class="section">${strip}</section>
 <section class="section">${fluNearYouBox(j.abbr, { R: R1 })}</section>
 ${seasonNote ? `<div class="section" style="margin-top:28px">${seasonNote}</div>` : ""}
@@ -450,7 +451,7 @@ ${pedBars ? `<section class="section">${pedBars}</section>` : ""}
       <li><b>Where is flu rising?</b> <a href="states.html">State pages</a>, each with a 15-season history.</li>
       <li><b>Who should get Tamiflu or Xofluza?</b> <a href="treatment.html">Treatment</a>, written to CDC's March 2026 clinician summary.</li>
       <li><b>Bird flu?</b> <a href="bird-flu.html">H5N1 tracker</a> with CDC's latest human case count.</li>
-      <li><b>Who sets vaccine recommendations now?</b> <a href="vaccines.html#policy">The 2025–26 policy changes</a>, dated and sourced.</li>
+      <li><b>Who sets vaccine recommendations now?</b> <a href="vaccines.html#policy">The 2025 and 2026 policy changes</a>, dated and sourced.</li>
     </ul>
   </div>
   <div class="panel" style="display:grid;gap:12px">

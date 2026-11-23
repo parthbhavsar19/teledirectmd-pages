@@ -6,6 +6,8 @@ import { fmtDate } from "../lib/derive.mjs";
 import { birdFluWatchBox } from "../lib/local.mjs";
 
 export const CHECKED = "October 5, 2026";
+/** Pages re-verified against their primary sources in the November 2026 refresh. */
+export const RECHECKED = "November 23, 2026";
 
 export function ctaBox(context = "") {
   if (!SITE.cta.enabled) return "";
@@ -58,7 +60,7 @@ export default async function ({ data, emit }) {
 
   /* ================= Treatment ================= */
   {
-    const { list, c } = refSet(["cdcAntiviralClin", "cdcCoca2025", "cdcTreatPatient", "tamifluLabel", "xofluzaLabel", "rapivabLabel", "relenzaLabel", "fdaGenericBaloxavir", "idsa2018", "fluview2620", "cdcWhenSick", "medlineReye", "cdcHighRisk"]);
+    const { list, c } = refSet(["cdcAntiviralClin", "cdcCoca2025", "cdcTreatPatient", "tamifluLabel", "xofluzaLabel", "rapivabLabel", "relenzaLabel", "fdaGenericBaloxavir", "idsa2018", "fluview2620", "fluview2645", "cdcWhenSick", "medlineReye", "cdcHighRisk"]);
     const body = `${pageHead({
       eyebrow: "If you have flu",
       title: "Antiviral treatment for flu",
@@ -116,7 +118,7 @@ export default async function ({ data, emit }) {
   <p>Antivirals can also prevent flu after close contact with a sick person. This is mainly for people at very high risk (for example, a severely immunocompromised household member) for whom the vaccine is not an option or may not work well. It should start within 48 hours of the exposure and usually continues for 7 days after the last exposure.${c("idsa2018", "cdcAntiviralClin")} For healthy people, CDC and IDSA generally prefer watching for symptoms and starting treatment early if they appear.${c("idsa2018")}</p>
 
   <h2>Do the drugs still work?</h2>
-  <p>Yes. Of more than 4,400 flu viruses CDC tested in the 2025–26 season, about 99% were susceptible to all four antivirals, and none showed reduced susceptibility to baloxavir.${c("fluview2620")}</p>
+  <p>Yes. Of more than 4,400 flu viruses CDC tested in the 2025–26 season, about 99% were susceptible to all four antivirals, and none showed reduced susceptibility to baloxavir.${c("fluview2620")} In testing since May 24, 2026, 8 of 781 viruses (1.0%), all H1N1, showed reduced inhibition by oseltamivir (Tamiflu); none showed reduced inhibition by peramivir or zanamivir, and none of 755 tested showed reduced susceptibility to baloxavir.${c("fluview2645")}</p>
 
   <h2>Taking care of yourself at home</h2>
   <ul>
@@ -280,23 +282,25 @@ ${sourceList(list)}`;
 
   /* ================= Bird flu ================= */
   {
-    const { list, c } = refSet(["cdcH5Situation", "cdcH5Monitoring", "mmwrH5N5", "cdcH5Global", "fluview2632", "fluview2638"]);
+    const { list, c } = refSet(["cdcH5Situation", "cdcH5Monitoring", "fluview2645", "yakimaH5", "mmwrH5N5", "cdcH5Global", "fluview2632"]);
     const body = `${pageHead({
       eyebrow: "Novel influenza",
       title: "Bird flu (H5N1) in the United States",
       lede: "H5 bird flu spread through U.S. dairy cattle and poultry starting in 2024 and infected a small number of people, almost all of them farm workers. CDC rates the risk to the general public as low.",
-      byline: clinicalByline(CHECKED, "CDC H5 situation summary, March 2026; MMWR May 2026"),
+      byline: clinicalByline(RECHECKED, "CDC H5 situation summary, November 20, 2026; FluView week 45"),
     })}
 <section class="section"><div class="strip">
-<div class="stat"><span class="stat-label">Human H5 cases reported in the U.S. since February 2024</span><span class="stat-value">71</span><span class="stat-ctx">CDC count as of March 6, 2026${c("cdcH5Situation")}</span></div>
-<div class="stat"><span class="stat-label">U.S. deaths</span><span class="stat-value">2</span><span class="stat-ctx">Louisiana, January 2025 (H5N1); Washington, November 2025 (H5N5)${c("mmwrH5N5")}</span></div>
-<div class="stat"><span class="stat-label">Person-to-person spread in the U.S.</span><span class="stat-value">None</span><span class="stat-ctx">not identified to date${c("mmwrH5N5")}</span></div>
-<div class="stat"><span class="stat-label">People monitored after animal exposure</span><span class="stat-value">33,300+</span><span class="stat-ctx">February 2022 to September 26, 2026${c("cdcH5Monitoring")}</span></div>
+<div class="stat"><span class="stat-label">Human H5 cases reported in the U.S. since February 2024</span><span class="stat-value">75</span><span class="stat-ctx">CDC count as of November 20, 2026${c("cdcH5Situation")}</span></div>
+<div class="stat"><span class="stat-label">U.S. deaths</span><span class="stat-value">3</span><span class="stat-ctx">Louisiana, January 2025 (H5N1); Washington, November 2025 (H5N5); Washington, November 2026 (H5N1)${c("cdcH5Situation")}</span></div>
+<div class="stat"><span class="stat-label">Person-to-person spread in the U.S.</span><span class="stat-value">None</span><span class="stat-ctx">not identified to date${c("cdcH5Situation")}</span></div>
+<div class="stat"><span class="stat-label">People monitored after animal exposure</span><span class="stat-value">34,600+</span><span class="stat-ctx">February 2022 to early November 2026${c("cdcH5Monitoring")}</span></div>
 </div></section>
 <div class="prose col" style="margin-top:32px">
   <h2 style="margin-top:0">What CDC says now</h2>
-  <p>"While the current public health risk is low, CDC is watching the situation carefully and working with states to monitor people with animal exposures."${c("cdcH5Situation")} As of October 2026, CDC's flu surveillance "currently show[s] no indicators of unusual influenza activity in people, including avian influenza A(H5)."${c("cdcH5Monitoring")}</p>
-  <p>Of the 71 U.S. cases, 64 were found by monitoring people exposed to infected animals and 7 through routine flu surveillance.${c("cdcH5Situation")} In July 2025 CDC folded its bird flu updates into its routine weekly flu reporting and stopped posting animal detection counts, which are now reported by USDA.${c("cdcH5Situation")}</p>
+  <p>"While the current public health risk is low, CDC is watching the situation carefully and working with states to monitor people with animal exposures."${c("cdcH5Situation")} As of November 2026, CDC's flu surveillance "currently show[s] no indicators of unusual influenza activity in people, including avian influenza A(H5)."${c("cdcH5Monitoring")}</p>
+  <p>Of the 75 U.S. cases, 45 followed exposure to dairy cattle, 24 to poultry, 3 to other animals, and 3 had no known source. Of those, 68 were found by monitoring people exposed to infected animals and 7 through routine flu surveillance.${c("cdcH5Situation")} In July 2025 CDC folded its bird flu updates into its routine weekly flu reporting and stopped posting animal detection counts, which are now reported by USDA.${c("cdcH5Situation")}</p>
+  <h2>The 2026 dairy worker cases</h2>
+  <p>After H5N1 was found in dairy herds in Yakima County, Washington, in fall 2026, four dairy workers were infected: three in Yakima County and one in Oregon.${c("fluview2645", "yakimaH5")} One Yakima County resident with underlying health conditions was hospitalized and died in early November 2026, the first U.S. bird flu death of 2026. The county health district reported that the risk to the general public remains low and that person-to-person spread has not been documented in the United States.${c("yakimaH5")}</p>
   <h2>The H5N5 case</h2>
   <p>In November 2025 an older Washington resident with lymphoma who kept a backyard flock died after infection with H5N5, the first human H5N5 infection reported anywhere in the world. Public health workers monitored about 135 contacts and found no further cases.${c("mmwrH5N5")}</p>
   ${birdFluWatchBox()}

@@ -5,6 +5,7 @@ import { epiweekEndISO, seasonOf, seasonWeekIndex } from "../lib/mmwr.mjs";
 import { overlayChart } from "./data-pages.mjs";
 import { ctaBox } from "./clinical-pages.mjs";
 import { SITE } from "../../content/site.mjs";
+import { topStatesHTML } from "../lib/local.mjs";
 
 export default async function ({ data, emit }) {
   const { ilinet, labs, nhsn, activity, jur, epi } = data;
@@ -63,6 +64,7 @@ export default async function ({ data, emit }) {
     <div class="stat"><span class="stat-label">States at Moderate or higher</span><span class="stat-value">${counts[2] + counts[3] + counts[4]}<small>of 51</small></span><span class="stat-ctx">respiratory illness activity</span></div>
   </div>
 </section>
+${topStatesHTML({ R: "" })}
 <section class="section">
   <div class="section-head"><h2>What do you need?</h2></div>
   <div class="task-list">${tasks.map(([h, t, d]) => `<a class="task" href="${h}"><h3>${t}</h3><p>${d}</p></a>`).join("")}</div>
