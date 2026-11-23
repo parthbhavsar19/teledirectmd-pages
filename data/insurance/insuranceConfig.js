@@ -660,7 +660,7 @@ export const INSURANCE_CONDITIONS = {
     covered: true,
     rxInfo: {
       typical: "Oseltamivir (Tamiflu) 75mg twice daily × 5 days — most effective when started within 48 hours of symptom onset",
-      alternatives: "Baloxavir marboxil (Xofluza) 40–80mg single dose for uncomplicated influenza (age ≥ 12); supportive care for mild cases",
+      alternatives: "Baloxavir marboxil (Xofluza) 40–80mg single dose for uncomplicated influenza (FDA-approved for ages 5 and older); supportive care for mild cases",
       coveredByInsurance: "Yes — oseltamivir covered under pharmacy benefit. Generic Tamiflu typically $30–$60; with GoodRx often under $25. Baloxavir may require prior auth.",
       notes: "Antiviral therapy most beneficial when started within 48 hours. High-risk patients (elderly, immunocompromised, pregnant) should be treated regardless of timing. Not effective for COVID-19.",
     },
