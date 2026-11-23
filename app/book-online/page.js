@@ -78,7 +78,7 @@ export default function BookOnlinePage() {
 
       <div className="tdmd-intake-page">
         <iframe
-          src="https://teledirectmd.onrender.com/intake"
+          src="https://book.teledirectmd.com/intake"
           title="TeleDirectMD Patient Intake"
           className="tdmd-intake-frame"
           allow="camera; microphone; payment"
