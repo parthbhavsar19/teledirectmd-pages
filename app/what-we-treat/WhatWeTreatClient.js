@@ -5,6 +5,8 @@ import Image from 'next/image';
 import './wwt-redesign.css';
 import './wwt-hero-variants.css';
 import { HeroSearch, HeroPhysician, HeroAnswer } from './HeroVariants';
+import './wwt-hero-doctor.css';
+import HeroDoctor from './HeroDoctor';
 import { PRESCRIBING_POLICY, REFILL_POLICY, ED_REFILL_POLICY } from '../../lib/prescribing-policy';
 
 /* ── Config ──────────────────────────────────────────────────────────────── */
@@ -249,6 +251,9 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
       {heroV === 'a' && <HeroSearch setQuery={setQuery} onJump={jumpToResults} />}
       {heroV === 'b' && <HeroPhysician categories={categories} />}
       {heroV === 'c' && <HeroAnswer categories={categories} />}
+      {heroV === 'b1' && <HeroDoctor palette="cream" />}
+      {heroV === 'b2' && <HeroDoctor palette="navy" />}
+      {heroV === 'b3' && <HeroDoctor palette="teal" />}
       {/* Hero */}
       {heroV === 'current' && <section className="wwt-hero">
         <div className="wwt-container">

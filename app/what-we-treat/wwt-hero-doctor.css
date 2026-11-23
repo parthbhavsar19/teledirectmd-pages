@@ -1,0 +1,133 @@
+/* What We Treat hero, doctor first. Scoped under .wwt-root.
+   Colors come from the site brand set: navy #003e52, teal #006b73, coral #ff5a36, cream #f4efe8.
+   Every text pair below meets WCAG AA (4.5:1) in light and dark. */
+
+.wwt-root .wwt-hd {
+  --hd-bg:#f4efe8; --hd-ink:#003e52; --hd-muted:#4a6670; --hd-accent:#006b73;
+  --hd-arch:linear-gradient(180deg,#ff5a36 0%,#ff8a6b 100%);
+  --hd-btn-bg:#006b73; --hd-btn-fg:#ffffff; --hd-btn-hover:#00585f;
+  --hd-chip-bg:#ffffff; --hd-chip-line:rgba(0,62,82,.16); --hd-chip-fg:#003e52;
+  --hd-plate-bg:#ffffff; --hd-plate-ink:#003e52; --hd-plate-muted:#4a6670;
+  --hd-trust-ico:#006b73; --hd-line:rgba(0,62,82,.12);
+  position:relative; overflow:hidden; isolation:isolate;
+  background:var(--hd-bg); color:var(--hd-ink);
+}
+.wwt-root .wwt-hd-navy {
+  --hd-bg:linear-gradient(160deg,#003e52 0%,#002b3a 100%); --hd-ink:#ffffff; --hd-muted:#b9d3d6; --hd-accent:#7fd1c7;
+  --hd-arch:radial-gradient(120% 90% at 50% 0%,#0a7a83 0%,#006b73 60%,#00585f 100%);
+  --hd-btn-bg:#ff5a36; --hd-btn-fg:#002b3a; --hd-btn-hover:#ff7452;
+  --hd-chip-bg:rgba(255,255,255,.06); --hd-chip-line:rgba(255,255,255,.22); --hd-chip-fg:#ffffff;
+  --hd-plate-bg:#f4efe8; --hd-plate-ink:#003e52; --hd-plate-muted:#4a6670;
+  --hd-trust-ico:#ffb39e; --hd-line:rgba(255,255,255,.14);
+}
+.wwt-root .wwt-hd-teal {
+  --hd-bg:linear-gradient(160deg,#006b73 0%,#00585f 100%); --hd-ink:#ffffff; --hd-muted:#d8ecea; --hd-accent:#f4efe8;
+  --hd-arch:linear-gradient(180deg,#ff5a36 0%,#ff8a6b 100%);
+  --hd-btn-bg:#f4efe8; --hd-btn-fg:#003e52; --hd-btn-hover:#ffffff;
+  --hd-chip-bg:rgba(255,255,255,.08); --hd-chip-line:rgba(255,255,255,.28); --hd-chip-fg:#ffffff;
+  --hd-plate-bg:#003e52; --hd-plate-ink:#ffffff; --hd-plate-muted:#b9d3d6;
+  --hd-trust-ico:#f4efe8; --hd-line:rgba(255,255,255,.18);
+}
+
+.wwt-root .wwt-hd-grid {
+  position:relative; display:grid; grid-template-columns:minmax(0,1fr) 440px; gap:48px; align-items:end;
+}
+.wwt-root .wwt-hd-copy { padding:64px 0 60px; max-width:640px; min-width:0; }
+.wwt-root .wwt-hd-byline { display:none; }
+.wwt-root .wwt-hd-eyebrow { color:var(--hd-accent); }
+.wwt-root .wwt-hd h1 {
+  font-family:var(--wwt-serif); font-weight:400; color:var(--hd-ink);
+  font-size:clamp(38px,4.6vw,64px); line-height:1.04; letter-spacing:-.025em;
+  margin:14px 0 22px; text-wrap:balance; max-width:16ch;
+}
+.wwt-root .wwt-hd-conds { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 24px; }
+.wwt-root .wwt-hd-conds a {
+  font-size:14.5px; font-weight:500; color:var(--hd-chip-fg); background:var(--hd-chip-bg);
+  border:1px solid var(--hd-chip-line); border-radius:999px; padding:8px 15px; white-space:nowrap;
+  transition:border-color .18s ease, transform .18s ease;
+}
+.wwt-root .wwt-hd-conds a:hover { border-color:var(--hd-ink); transform:translateY(-1px); }
+.wwt-root .wwt-hd-conds .wwt-hd-all { background:transparent; border-color:transparent; text-decoration:underline; text-underline-offset:3px; }
+.wwt-root .wwt-hd-lede { font-size:18px; line-height:1.55; color:var(--hd-muted); max-width:50ch; margin:0 0 26px; }
+.wwt-root .wwt-hd-cta { display:flex; flex-wrap:wrap; align-items:center; gap:14px 20px; }
+.wwt-root .wwt-hd-btn {
+  display:inline-flex; align-items:center; justify-content:center; font-family:var(--wwt-sans);
+  font-size:16.5px; font-weight:650; padding:15px 28px; border-radius:999px;
+  background:var(--hd-btn-bg); color:var(--hd-btn-fg); -webkit-text-fill-color:var(--hd-btn-fg);
+  box-shadow:0 14px 30px -16px rgba(0,30,40,.55); transition:background .18s ease, transform .18s ease;
+}
+.wwt-root .wwt-hd-btn:hover { background:var(--hd-btn-hover); transform:translateY(-1px); }
+.wwt-root .wwt-hd-btn:focus-visible, .wwt-root .wwt-hd-conds a:focus-visible, .wwt-root .wwt-hd-sub:focus-visible { outline:3px solid var(--hd-accent); outline-offset:3px; }
+.wwt-root .wwt-hd-sub { font-size:15px; color:var(--hd-muted); text-decoration:underline; text-underline-offset:3px; }
+.wwt-root .wwt-hd-sub:hover { color:var(--hd-ink); }
+.wwt-root .wwt-hd-trust {
+  list-style:none; margin:30px 0 0; padding:22px 0 0; border-top:1px solid var(--hd-line);
+  display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px 24px;
+}
+.wwt-root .wwt-hd-trust li { display:flex; align-items:center; gap:10px; font-size:14.5px; color:var(--hd-ink); line-height:1.35; }
+.wwt-root .wwt-hd-trust svg { flex:0 0 auto; color:var(--hd-trust-ico); }
+
+/* Portrait */
+.wwt-root .wwt-hd-doc { position:relative; margin:0; height:100%; min-height:520px; display:flex; align-items:flex-end; justify-content:center; }
+.wwt-root .wwt-hd-arch {
+  position:absolute; left:50%; bottom:0; transform:translateX(-50%);
+  width:360px; height:430px; border-radius:180px 180px 0 0; background:var(--hd-arch);
+}
+.wwt-root .wwt-hd-photo {
+  position:relative; width:400px; max-width:none; height:auto; display:block;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 13%,#000 87%,transparent 100%);
+  mask-image:linear-gradient(90deg,transparent 0,#000 13%,#000 87%,transparent 100%);
+}
+.wwt-root .wwt-hd-plate {
+  position:absolute; left:-28px; bottom:40px; display:flex; flex-direction:column; gap:1px;
+  background:var(--hd-plate-bg); color:var(--hd-plate-muted); border-radius:14px; padding:14px 18px; min-width:360px;
+  box-shadow:0 20px 40px -20px rgba(0,30,40,.55); font-size:13.5px;
+}
+.wwt-root .wwt-hd-plate strong { font-family:var(--wwt-serif); font-weight:400; font-size:20px; color:var(--hd-plate-ink); letter-spacing:-.01em; }
+
+/* Phone and tablet: the portrait becomes a byline so conditions reach the first screen. */
+@media (max-width:1000px) {
+  .wwt-root .wwt-hd-grid { grid-template-columns:minmax(0,1fr); }
+  .wwt-root .wwt-hd-doc { display:none; }
+  .wwt-root .wwt-hd-copy { padding:28px 0 40px; max-width:none; }
+  .wwt-root .wwt-hd-byline { display:flex; align-items:center; gap:10px; font-size:13.5px; color:var(--hd-muted); margin-bottom:16px; }
+  .wwt-root .wwt-hd-byline img {
+    width:44px; height:44px; border-radius:50%; object-fit:cover; object-position:50% 8%;
+    background:var(--hd-arch); box-shadow:0 0 0 2px var(--hd-chip-line);
+  }
+  .wwt-root .wwt-hd-byline strong { color:var(--hd-ink); font-weight:600; display:block; font-size:15px; }
+  .wwt-root .wwt-hd-byline span { line-height:1.35; }
+}
+@media (max-width:680px) {
+  .wwt-root .wwt-hd-eyebrow { display:none; }
+  .wwt-root .wwt-hd h1 { font-size:34px; margin:0 0 16px; }
+  .wwt-root .wwt-hd-conds { flex-wrap:nowrap; overflow-x:auto; scrollbar-width:none; margin:0 -20px 20px; padding:0 20px 2px; }
+  .wwt-root .wwt-hd-conds::-webkit-scrollbar { display:none; }
+  .wwt-root .wwt-hd-conds a { font-size:14px; padding:8px 14px; }
+  .wwt-root .wwt-hd-lede { font-size:16.5px; margin-bottom:20px; }
+  .wwt-root .wwt-hd-btn { width:100%; }
+  .wwt-root .wwt-hd-cta { gap:10px; }
+  .wwt-root .wwt-hd-trust { grid-template-columns:1fr; gap:10px; margin-top:24px; padding-top:18px; }
+  .wwt-root .wwt-hd-trust li { font-size:14px; }
+}
+
+/* Dark theme: navy and teal are already dark bands. Cream turns to deep navy so the page doesn't flash a light block. */
+:root[data-theme="dark"] .wwt-root .wwt-hd-cream {
+  --hd-bg:#0d2530; --hd-ink:#f4efe8; --hd-muted:#b9d3d6; --hd-accent:#7fd1c7;
+  --hd-btn-bg:#ff5a36; --hd-btn-fg:#002b3a; --hd-btn-hover:#ff7452;
+  --hd-chip-bg:rgba(255,255,255,.06); --hd-chip-line:rgba(255,255,255,.2); --hd-chip-fg:#f4efe8;
+  --hd-plate-bg:#f4efe8; --hd-plate-ink:#003e52; --hd-plate-muted:#4a6670;
+  --hd-trust-ico:#ffb39e; --hd-line:rgba(255,255,255,.14);
+}
+@media (prefers-color-scheme:dark) {
+  :root:not([data-theme="light"]) .wwt-root .wwt-hd-cream {
+    --hd-bg:#0d2530; --hd-ink:#f4efe8; --hd-muted:#b9d3d6; --hd-accent:#7fd1c7;
+    --hd-btn-bg:#ff5a36; --hd-btn-fg:#002b3a; --hd-btn-hover:#ff7452;
+    --hd-chip-bg:rgba(255,255,255,.06); --hd-chip-line:rgba(255,255,255,.2); --hd-chip-fg:#f4efe8;
+    --hd-plate-bg:#f4efe8; --hd-plate-ink:#003e52; --hd-plate-muted:#4a6670;
+    --hd-trust-ico:#ffb39e; --hd-line:rgba(255,255,255,.14);
+  }
+}
+@media (prefers-reduced-motion:reduce) {
+  .wwt-root .wwt-hd-btn, .wwt-root .wwt-hd-conds a { transition:none; transform:none !important; }
+}
