@@ -28,7 +28,8 @@ const data = {
   epi: await read("content/epi.json"),
 };
 
-SITE.weekLabel = `Week ending ${fmtDate(epiweekEndISO(data.ilinet.latest))}`;
+SITE.weekEnd = epiweekEndISO(data.ilinet.latest);
+SITE.weekLabel = `Week ending ${fmtDate(SITE.weekEnd)}`;
 SITE.builtLabel = fmtDate(data.meta.built);
 
 await rm(DIST, { recursive: true, force: true });

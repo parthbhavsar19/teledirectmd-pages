@@ -111,6 +111,15 @@
     });
   });
 
+  /* "may be out of date" note: the page is static, so compare the newest data week with the reader's date */
+  const stale = document.getElementById("stale-note");
+  if (stale && stale.dataset.weekEnd) {
+    const now = new Date();
+    const today = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+    const age = Math.round((today - Date.parse(stale.dataset.weekEnd + "T00:00:00Z")) / 864e5);
+    stale.hidden = !(age > (+stale.dataset.limit || 14));
+  }
+
   /* copy buttons */
   document.querySelectorAll("[data-copy]").forEach((b) => b.addEventListener("click", async () => {
     const text = document.getElementById(b.dataset.copy).innerText;

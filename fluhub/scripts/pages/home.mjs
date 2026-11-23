@@ -79,7 +79,7 @@ ${topStatesHTML({ R: "" })}
 <section class="section col small muted"><p>FluHub turns CDC's weekly flu surveillance into plain language, with clinical content written to CDC, FDA, and IDSA guidance and reviewed by ${esc(SITE.editor)}. <a href="methods.html">How FluHub works</a>.</p></section>
 <style>@media (max-width: 860px){ .hero{ grid-template-columns: 1fr !important; } }</style>`;
 
-  await emit("index.html", page({
+  await emit("index.html", page({ staleNote: true,
     path: "index.html", active: "",
     title: "FluHub: U.S. flu activity, treatment, and vaccines",
     description: `Is flu going around? ${answer} Weekly U.S. flu data from CDC in plain language, plus treatment, vaccine, and symptom guidance reviewed by a physician.`,

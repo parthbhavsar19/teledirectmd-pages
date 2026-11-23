@@ -146,6 +146,8 @@ main { padding-block: 32px 72px; }
 .panel { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--r); padding: 20px; }
 .callout { border-left: 3px solid var(--accent); background: var(--accent-soft); padding: 14px 16px; border-radius: 0 var(--r) var(--r) 0; }
 .callout.warn { border-color: var(--warn); background: var(--warn-soft); }
+.stale-note { margin-top: 20px; }
+.stale-note[hidden] { display: none; }
 .callout.crit { border-color: var(--critical); background: var(--critical-soft); }
 .callout > * + * { margin-top: 0.5em; }
 .callout-title { font-weight: 700; display: flex; gap: 8px; align-items: center; }
