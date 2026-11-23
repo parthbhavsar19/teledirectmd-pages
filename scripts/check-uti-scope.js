@@ -14,6 +14,9 @@ assert.doesNotMatch(JSON.stringify(c), /evaluates adult men and women|women or m
 assert.match(read('app/layout.js'), /<UtiScopeNotice \/>/);
 assert.match(read('app/components/UtiScopeNotice.js'), /what-we-treat\|book-online/);
 assert.doesNotMatch(read('app/components/UtiScopeNotice.js'), /pathname === '\/'/);
+// What We Treat shows the notice inline above the urgent-care cards, not as the top banner.
+assert.match(read('app/what-we-treat/WhatWeTreatClient.js'), /categorySlug === 'urgent-care' && <UtiScopeNotice inline \/>/);
+assert.match(read('app/components/UtiScopeNotice.js'), /pathname\.startsWith\('\/what-we-treat'\)/);
 assert.doesNotMatch(read('app/components/SiteFooter.js'), /male UTIs/); // Scope lives on UTI, booking and What We Treat pages, not the sitewide footer.
 assert.match(read('public/symptom-checker/index.html'), /TeleDirectMD does not treat male UTIs/);
 assert.match(read('public/symptom-checker/index.html'), /id: "male_uti".*level: "GO_TO_ER"/);
@@ -42,6 +45,9 @@ if (process.argv.includes('--built')) {
   }
   scan(path.join(root, 'out'));
   assert(count > 45, `Only ${count} core pages found`);
+  const wwt = read('out/what-we-treat/index.html');
+  assert.equal((wwt.match(/data-uti-scope="women-only"/g) || []).length, 1, 'What We Treat should render the notice once');
+  assert(wwt.indexOf('data-uti-scope="women-only"') > wwt.indexOf('id="wwt-hd-title"'), 'What We Treat notice must sit below the hero');
   assert.doesNotMatch(read('out/sitemap.xml'), /uti-symptoms-in-men-guide/);
   console.log(`Verified rendered exclusion on ${count} UTI, cost, insurance and booking pages.`);
 }
