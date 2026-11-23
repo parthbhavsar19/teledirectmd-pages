@@ -27,12 +27,12 @@ const related = (items) => `<section class="section"><div class="section-head"><
 export default async function ({ emit }) {
   /* ================= Child flu shot policy explainer ================= */
   {
-    const { list, c } = refSet(["cdcIccs", "cdcChildren", "aapFlu2627", "aafp2026", "crsR48982", "aphaInjunction", "ahcjInjunction", "statAppeal", "mdPause", "ca1Calendar", "cidrapQuorum", "eo14420", "mmwrPedDeaths2425", "drugTopicsPharmImm", "azFluMist2627", "hrsa", "todayVaxGov"]);
+    const { list, c } = refSet(["cdcIccs", "cdcChildren", "aapFlu2627", "aafp2026", "crsR48982", "aphaInjunction", "ahcjInjunction", "statAppeal", "mdPause", "ca1Calendar", "cidrapQuorum", "cdcAcipMeetings", "frAcipNominations", "cidrapNov2026", "eo14420", "mmwrPedDeaths2425", "drugTopicsPharmImm", "azFluMist2627", "hrsa", "todayVaxGov"]);
     const title = "Is my child's flu shot still recommended, and is it still free?";
     const description = "A dated explainer for parents: what changed in federal childhood flu vaccine policy in 2026, what CDC, AAP, and AAFP recommend for 2026-27, whether insurance and Vaccines for Children still cover it, and where to get it.";
     const body = `${pageHead({
       crumbs: [["vaccines.html", "Vaccines"], [null, "Children's flu shots"]],
-      eyebrow: "For parents · Policy status as of October 5, 2026",
+      eyebrow: "For parents · Policy status as of November 23, 2026",
       title,
       lede: "Yes, on both counts, for now. CDC's current flu guidance, the American Academy of Pediatrics, and the American Academy of Family Physicians all recommend a yearly flu vaccine for children 6 months and older, and most families can still get it at no cost. Federal policy has changed several times this year, so here is what happened, with dates.",
       byline: clinicalByline(CHECKED, "CDC 2026-27 clinical considerations; AAP and AAFP 2026-27"),
@@ -49,7 +49,7 @@ export default async function ({ emit }) {
   <h2 style="margin-top:0">The short answer</h2>
   <p><b>Recommended:</b> CDC's 2026-27 flu vaccine guidance, dated September 1, 2026, says that "because of legal uncertainties," the flu recommendations from the July 2025 schedule remain in effect for this season. Those recommendations call for a yearly flu vaccine for everyone 6 months and older.${c("cdcIccs", "cdcChildren")} AAP and AAFP recommend the same, and AAP does not prefer one vaccine product over another.${c("aapFlu2627", "aafp2026")}</p>
   <p><b>Free:</b> AAP expects flu vaccines to be covered by commercial insurance and available through the Vaccines for Children (VFC) program as usual.${c("aapFlu2627")} A March 2026 court order requires insurers to keep covering the vaccines they covered in January 2025.${c("ahcjInjunction")} The insurer trade group AHIP has also said its member plans will cover ACIP-recommended vaccines with no cost-sharing through the end of 2027.${c("crsR48982")}</p>
-  <p><b>Still unsettled:</b> a federal appeal and an August 2026 executive order could change the federal recommendation later. Neither had changed CDC's flu guidance for this season as of October 5, 2026. Details are below.</p>
+  <p><b>Still unsettled:</b> a federal appeal and an August 2026 executive order could change the federal recommendation later. Neither had changed CDC's flu guidance for this season as of November 23, 2026. Details are below.</p>
 
   <h2>What happened, in order</h2>
   <ol class="vx-timeline">
@@ -62,7 +62,9 @@ export default async function ({ emit }) {
     <li><b>August 10, 2026.</b> AAP released its 2026-27 flu recommendations: yearly vaccination for children 6 months and older.${c("aapFlu2627")} The same day, Executive Order 14420 listed influenza among childhood vaccines based on shared clinical decision-making. The order does not mention insurance coverage or the VFC program.${c("eo14420")}</li>
     <li><b>September 1 and 2, 2026.</b> CDC kept the July 2025 flu recommendations in effect for 2026-27, and AAFP recommended yearly flu vaccination for everyone 6 months and older.${c("cdcIccs", "aafp2026")}</li>
     <li><b>September 11, 2026.</b> The district court paused its own proceedings until the appeals court rules.${c("mdPause")}</li>
-    <li><b>October 6, 2026.</b> The First Circuit is scheduled to hear oral argument.${c("ca1Calendar")} As of October 5, 2026 there was no appeals ruling. FluHub will update this page when there is one.</li>
+    <li><b>October 6, 2026.</b> The First Circuit heard oral argument.${c("ca1Calendar")} As of mid-November 2026 it had not ruled.${c("cidrapNov2026")} FluHub will update this page when it does.</li>
+    <li><b>October 2026.</b> CDC cancelled the October 21 to 23 ACIP meeting "due to ongoing litigation," the third 2026 meeting called off. The next meeting CDC lists is February 24 to 26, 2027.${c("cdcAcipMeetings")}</li>
+    <li><b>October 30, 2026.</b> CDC asked for nominations of new ACIP members, due December 31, 2026.${c("frAcipNominations")}</li>
   </ol>
 
   <h2>What "shared clinical decision-making" would mean</h2>

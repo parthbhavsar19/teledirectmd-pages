@@ -20,6 +20,7 @@ export function localData() {
     shortages: load("shortages.json"),
     h5: load("h5-wastewater.json"),
     meta: load("meta.json") || { sources: {} },
+    activity: load("activity.json") || { levels: {} },
     jur: JSON.parse(readFileSync(ROOT + "content/jurisdictions.json", "utf8")),
   });
 }
@@ -189,5 +190,44 @@ export function birdFluWatchBox({ state } = {}) {
 <p>Finding H5 in wastewater does not mean people in the area are infected. Detections often come from animal sources, such as milk from infected dairy cows or wild birds, that reach the sewer. CDC considers the risk to the general public low.</p>
 ${rows ? `<div class="table-wrap"><table><thead><tr><th>State</th><th class="n">Detections</th><th class="n">Sites with H5</th><th>Counties served</th></tr></thead><tbody>${rows}</tbody></table></div>` : ""}
 <p class="small muted">Source: <a href="https://data.cdc.gov/d/mtpu-urpp" target="_blank" rel="noopener">CDC Wastewater Data for Avian Influenza A (H5)</a>, samples collected through ${esc(d(h5.window.end))}. Animal outbreaks: <a href="https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-influenza" target="_blank" rel="noopener">USDA APHIS</a>.</p>
+</section>`;
+}
+
+/* ------------------------------------------------------------------ where flu is highest */
+const ORD = (n) => { const v = n % 100; return n + (v >= 11 && v <= 13 ? "th" : ({ 1: "st", 2: "nd", 3: "rd" })[n % 10] || "th"); };
+
+/** States and DC ranked by the share of emergency department visits diagnosed as flu (NSSP), latest national week only. */
+export function edRanking() {
+  const { extra, jur } = localData();
+  const week = extra.US?.ed_week || null;
+  const rows = jur.filter((j) => !j.territory).map((j) => ({ j, s: extra[j.abbr] }))
+    .filter((r) => r.s?.ed_pct != null && (!week || r.s.ed_week === week))
+    .sort((a, b) => b.s.ed_pct - a.s.ed_pct);
+  return { week, us: extra.US?.ed_pct ?? null, rows };
+}
+
+/** One sentence placing a state in this week's ranking, or "" when it has no ED data that week. */
+export function edRankSentence(j) {
+  if (j.territory) return "";
+  const { rows, week } = edRanking();
+  const i = rows.findIndex((r) => r.j.abbr === j.abbr);
+  if (i < 0 || rows.length < 10) return "";
+  return ` By the share of emergency department visits diagnosed as flu (${pctEd(rows[i].s.ed_pct)}), ${esc(j.name)} ranked ${ORD(i + 1)} among the ${rows.filter((r) => r.j.abbr !== "DC").length} states${rows.some((r) => r.j.abbr === "DC") ? " and DC" : ""} that reported for the week ending ${esc(d(week))}.`;
+}
+
+/** "Where flu is highest this week": top states by flu share of ED visits, with trend and CDC activity level. */
+export function topStatesHTML({ R = "", n = 5 } = {}) {
+  const { rows, week, us } = edRanking();
+  const { activity } = localData();
+  if (!week || rows.length < 10) return "";
+  const top = rows.slice(0, n);
+  const list = top.map((r) => `${esc(r.j.name)} (${pctEd(r.s.ed_pct)})`);
+  const lead = `${list.slice(0, -1).join(", ")} and ${list.at(-1)} had the highest share of emergency department visits diagnosed as flu in the week ending ${esc(d(week))}${us != null ? `, against ${pctEd(us)} nationally` : ""}.`;
+  const body = top.map((r, i) => `<tr><td class="n">${i + 1}</td><td><a href="${R}state/${r.j.slug}.html">${esc(r.j.name)}</a></td><td class="n">${pctEd(r.s.ed_pct)}</td><td>${esc(trendLabel(r.s.ed_trend))}</td><td>${levelChip(activity.levels?.[r.j.activityName])}</td></tr>`).join("");
+  return `<section class="section" id="highest-this-week">
+<div class="section-head"><h2>Where flu is highest this week</h2><p class="muted">States ranked by the share of emergency department visits diagnosed as flu, a flu-specific measure CDC updates weekly for nearly every state.</p></div>
+<p>${lead}</p>
+<div class="table-wrap"><table><thead><tr><th class="n">Rank</th><th>State</th><th class="n">ED visits for flu</th><th>Trend</th><th>CDC activity level</th></tr></thead><tbody>${body}</tbody></table></div>
+<p class="small muted" style="margin-top:8px">Source: CDC National Syndromic Surveillance Program, ${rows.filter((r) => r.j.abbr !== "DC").length} states${rows.some((r) => r.j.abbr === "DC") ? " and DC" : ""} reporting. The activity level is CDC's acute respiratory illness level, which covers all respiratory illness, including COVID-19 and RSV. A high share of visits is not the same as the most cases; large states can have more cases at a lower share. <a href="${R}activity.html">All states this week</a>.</p>
 </section>`;
 }

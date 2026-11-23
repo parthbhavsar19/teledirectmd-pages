@@ -68,7 +68,15 @@ export function iliSummary(series) {
   const seasons = bySeason(series);
   const lastEw = series.at(-1)[0];
   const current = seasonOf(lastEw);
+  // "Last season" must mean the season right before this one. Some states have no
+  // 2025-26 ILINet in the Delphi feed; falling back to an older season here used to
+  // label a 2024-25 value as "last season". prev stays the latest season with data
+  // (for the chart line, which is labeled by season); lastYearSameWeek is null
+  // unless that season is the immediately preceding one.
   const prev = seasonsList(seasons, current, 1)[0];
+  const y0 = +current.slice(0, 4);
+  const expectedPrev = `${y0 - 1}-${String(y0 % 100).padStart(2, "0")}`;
+  const prevMissing = prev !== expectedPrev;
   const typicalSeasons = Object.keys(seasons).filter((s) => s < current && !ATYPICAL.has(s));
   const band = typicalBand(seasons, typicalSeasons);
   const cur = seasons[current] || [];
@@ -79,7 +87,8 @@ export function iliSummary(series) {
     seasons, current, prev, band, typicalSeasons,
     latest: { ew: latest[0], v: latest[1], date: epiweekEndISO(latest[0]) },
     prior: prior ? { ew: prior[0], v: prior[1] } : null,
-    lastYearSameWeek: atIndex(seasons[prev], idx),
+    expectedPrev, prevMissing,
+    lastYearSameWeek: prevMissing ? null : atIndex(seasons[prev], idx),
     typicalSameWeek: atIndex(band.med, idx),
     peak: (s) => (seasons[s] || []).reduce((m, p) => (p[1] != null && p[1] > (m?.[1] ?? -1) ? p : m), null),
     curIdx: idx,

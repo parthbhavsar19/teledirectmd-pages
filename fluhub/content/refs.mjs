@@ -22,6 +22,7 @@ export const REFS = {
   cdcFluVsCovid: { label: "CDC. Similarities and Differences between Flu and COVID-19", url: "https://www.cdc.gov/flu/about/flu-vs-covid19.html", date: "updated September 17, 2024" },
   cdcWhenSick: { label: "CDC. Preventing Spread of Respiratory Viruses When You're Sick", url: "https://www.cdc.gov/respiratory-viruses/prevention/precautions-when-sick.html", date: "updated August 18, 2025" },
   fluview2620: { label: "CDC FluView, Week 20 ending May 23, 2026 (antiviral susceptibility)", url: "https://www.cdc.gov/fluview/surveillance/2026-week-20.html", date: "May 29, 2026" },
+  fluview2645: { label: "CDC FluView, Week 45 ending November 14, 2026", url: "https://www.cdc.gov/fluview/surveillance/2026-week-45.html", date: "November 20, 2026" },
   fluview2638: { label: "CDC FluView, Week 38 ending September 26, 2026", url: "https://www.cdc.gov/fluview/surveillance/2026-week-38.html", date: "October 2, 2026" },
   medlineReye: { label: "MedlinePlus (NIH). Reye syndrome", url: "https://medlineplus.gov/ency/article/001565.htm", date: "" },
 
@@ -54,8 +55,9 @@ export const REFS = {
   hrsa: { label: "HRSA. Find a Health Center", url: "https://findahealthcenter.hrsa.gov/", date: "" },
 
   // bird flu
-  cdcH5Situation: { label: "CDC. H5 Bird Flu: Current Situation", url: "https://www.cdc.gov/bird-flu/situation-summary/index.html", date: "updated March 6, 2026" },
-  cdcH5Monitoring: { label: "CDC. Monitoring for Avian Influenza A(H5) in People", url: "https://www.cdc.gov/bird-flu/h5-monitoring/index.html", date: "updated October 2, 2026" },
+  cdcH5Situation: { label: "CDC. H5 Bird Flu: Current Situation", url: "https://www.cdc.gov/bird-flu/situation-summary/index.html", date: "updated November 20, 2026" },
+  yakimaH5: { label: "Yakima Health District. Provider alert: update on avian influenza in Yakima County", url: "https://providers.yakimahealthdistrict.org/2026/11/provider-alert-update-on-avian-influenza-in-yakima-county/", date: "November 6, 2026" },
+  cdcH5Monitoring: { label: "CDC. Monitoring for Avian Influenza A(H5) in People", url: "https://www.cdc.gov/bird-flu/h5-monitoring/index.html", date: "updated November 13, 2026" },
   mmwrH5N5: { label: "First Human Infection with Avian Influenza A(H5N5) Virus, Washington, 2025. MMWR 2026;75(17)", url: "https://www.cdc.gov/mmwr/volumes/75/wr/mm7517a2.htm", date: "May 7, 2026" },
   cdcH5Global: { label: "CDC. Global H5N1 human cases summary", url: "https://www.cdc.gov/bird-flu/spotlights/global-summary-06262026.html", date: "June 26, 2026" },
   fluview2632: { label: "CDC FluView, Week 32 2026 (variant influenza cases)", url: "https://www.cdc.gov/fluview/surveillance/2026-week-32.html", date: "August 21, 2026" },
