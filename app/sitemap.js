@@ -12,6 +12,7 @@ import { COST_PAGE_SLUGS } from '../lib/cost-pages-config';
 import { COMPARE_PAGE_SLUGS } from '../lib/compare-pages-config';
 // SYMPTOM_PAGE_SLUGS import removed 2026-07-18 — standalone /symptoms/* URLs retired.
 import { USE_CASE_PAGE_SLUGS } from '../lib/use-case-pages-config';
+import { FAQ_PAGES } from '../lib/faq-deep-dive-pages';
 
 const SITE = 'https://teledirectmd.com';
 
@@ -248,6 +249,11 @@ export default function sitemap() {
   // 12) Use-case landing pages (/use-case/{slug}/)
   for (const slug of USE_CASE_PAGE_SLUGS) {
     urls.push(url(`/use-case/${slug}/`, 0.8, 'monthly'));
+  }
+
+  // 12b) UTI deep-dive FAQ pages (/faq/deep-dive/{slug}/), one per served state.
+  for (const page of FAQ_PAGES) {
+    urls.push(url(`/faq/deep-dive/${page.slug}/`, 0.6, 'monthly'));
   }
 
   // 13) Health guides (/health-guides/{slug}/)
