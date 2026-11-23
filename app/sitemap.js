@@ -58,6 +58,8 @@ const STATIC_ROUTES = [
   // (Alaska wildfire health guide auto-enumerated from public/health-guides/)
   { path: '/partners/tribal-health-alaska', priority: 0.7, changefreq: 'monthly' },
   { path: '/clinical-evidence', priority: 0.75, changefreq: 'monthly' },
+  // Health guide library index (the guides themselves are enumerated in section 13).
+  { path: '/health-guides', priority: 0.85, changefreq: 'weekly' },
   { path: '/clinical-evidence/rural-telemedicine-alaska', priority: 0.8, changefreq: 'monthly' },
 ];
 
