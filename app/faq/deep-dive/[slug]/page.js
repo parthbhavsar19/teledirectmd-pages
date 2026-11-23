@@ -4,8 +4,38 @@ import { getStateInsurance } from '../../../../lib/insurance-data';
 import { notFound } from 'next/navigation';
 import { FAQ_PAGES } from '../../../../lib/faq-deep-dive-pages';
 import { CitableSummaryBlock } from '../../../components/CitableSummary';
-import { summarizeCompare, summarizeUseCase, summarizeWhoWeServe, summarizeFaqDeepDive, citableSummaryToJsonLd } from '../../../../lib/citable-summary';
+import { summarizeFaqDeepDive, citableSummaryToJsonLd } from '../../../../lib/citable-summary';
+import UTI_STATE_CONTENT from '../../../../data/faq-deep-dive/uti-states.json';
 
+// 2026-11-23: every state page is built around its own sourced content in
+// data/faq-deep-dive/uti-states.json (lead, state law, pharmacy, optional local
+// data, state FAQs, sources). The shared skeleton is kept short so the pages
+// stop reading as one template with the state name swapped.
+
+const BASE_URL = 'https://teledirectmd.com';
+
+function listNames(names) {
+  if (names.length <= 1) return names.join('');
+  if (names.length === 2) return `${names[0]} and ${names[1]}`;
+  return `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}`;
+}
+
+// "Washington D.C." already ends in a period; avoid "D.C.."
+function endSentence(text) {
+  return /[.?]$/.test(text) ? text : `${text}.`;
+}
+
+function pageContext(slug) {
+  const page = FAQ_PAGES.find((p) => p.slug === slug);
+  if (!page) return null;
+  const state = getStateBySlug(page.stateSlug);
+  if (!state) return null;
+  const content = UTI_STATE_CONTENT[page.stateSlug];
+  if (!content) return null;
+  const stateAbbr = state.abbreviation || page.stateSlug.toUpperCase();
+  const payers = (getStateInsurance(stateAbbr) || []).map((p) => p.name);
+  return { page, state, content, payers };
+}
 
 export async function generateStaticParams() {
   return FAQ_PAGES.map((p) => ({ slug: p.slug }));
@@ -13,20 +43,12 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
-  const page = FAQ_PAGES.find((p) => p.slug === slug);
-  if (!page) return {};
-  const state = getStateBySlug(page.stateSlug);
-  if (!state) return {};
-  const baseUrl = 'https://teledirectmd.com';
-  const pageUrl = `${baseUrl}/faq/deep-dive/${slug}`;
-  const medLower = page.medication.toLowerCase();
-  const title = `Can You Get ${page.medication} Online in ${state.name}? | TeleDirectMD`;
-  const stateAbbr = state.abbreviation || page.stateSlug.toUpperCase();
-  const stateIns = getStateInsurance(stateAbbr);
-  const pricingNote = stateIns
-    ? `$79 flat fee or insurance — we accept ${stateIns.map(p => p.name).join(', ')} in ${state.name}.`
-    : `Self-pay is a flat $79. No insurance required.`;
-  const description = `Yes, non-pregnant adult women in ${state.name} may be eligible for a ${medLower} evaluation by video visit with a board-certified MD at TeleDirectMD. ${pricingNote}`;
+  const ctx = pageContext(slug);
+  if (!ctx) return {};
+  const { state, content } = ctx;
+  const pageUrl = `${BASE_URL}/faq/deep-dive/${slug}`;
+  const title = `Can You Get UTI Antibiotics Online in ${state.name}? | TeleDirectMD`;
+  const description = content.meta;
   return {
     title,
     description,
@@ -38,37 +60,26 @@ export async function generateMetadata({ params }) {
   };
 }
 
+const h2 = { fontSize: '1.35rem', fontWeight: 700, color: '#111827', marginBottom: '12px' };
+const body = { fontSize: '1rem', color: '#374151', lineHeight: 1.7, margin: 0 };
+const section = { padding: '24px 0', borderTop: '1px solid #e5e7eb' };
+
 export default async function FAQDeepDivePage({ params }) {
   const { slug } = await params;
-  const page = FAQ_PAGES.find((p) => p.slug === slug);
-  if (!page) notFound();
-  const state = getStateBySlug(page.stateSlug);
-  if (!state) notFound();
-  const baseUrl = 'https://teledirectmd.com';
-  const pageUrl = `${baseUrl}/faq/deep-dive/${slug}`;
+  const ctx = pageContext(slug);
+  if (!ctx) notFound();
+  const { page, state, content, payers } = ctx;
+  const pageUrl = `${BASE_URL}/faq/deep-dive/${slug}`;
   const today = contentDate('faqDeepDive');
-  const medLower = page.medication.toLowerCase();
-  const isUTI = page.condition === 'UTI Treatment';
-  const medDisplay = isUTI ? 'antibiotics for a UTI' : medLower;
-  const stateAbbrR = state.abbreviation || page.stateSlug.toUpperCase();
-  const stateInsR = getStateInsurance(stateAbbrR);
-  const pricingBlurb = stateInsR
-    ? `$79 flat fee or insurance — we accept ${stateInsR.map(p => p.name).join(', ')} in ${state.name}.`
-    : `Self-pay is a flat $79. No insurance required.`;
-  const pricingShort = stateInsR
-    ? `The visit is $79 flat fee, or you can use insurance if you have ${stateInsR.map(p => p.name).join(', ')}.`
-    : `The visit is a flat $79 self-pay option. Insurance is not required.`;
+
+  const payText = payers.length
+    ? endSentence(`The visit is a flat $79 self-pay, paid at booking, with HSA and FSA cards accepted. You can use insurance instead if your commercial plan is with ${listNames(payers)} in ${state.name}`)
+    : `The visit is a flat $79 self-pay, paid at booking, with HSA and FSA cards accepted. TeleDirectMD is not in-network with any insurer in ${endSentence(state.name)}`;
 
   const faqItems = [
-    { q: 'Does TeleDirectMD treat male UTIs?', a: 'No. We do not treat male UTIs, even if symptoms are mild or apparently uncomplicated. UTI care is limited to non-pregnant adult women (18+). Men with UTI symptoms should seek in-person care and should not book a TeleDirectMD UTI visit.' },
-    { q: `Can I get ${medDisplay} online in ${state.name}?`, a: `Yes. Non-pregnant adult women physically located in ${state.name} may be eligible for a ${page.concern} evaluation through a TeleDirectMD video visit with a board-certified MD. If ${medDisplay} is clinically appropriate based on your history and evaluation, a prescription can be sent to your preferred pharmacy. ${pricingBlurb}` },
-    { q: `Do I need a video visit for ${medDisplay} in ${state.name}?`, a: `TeleDirectMD requires a live, synchronous video visit with a board-certified MD for all evaluations. This ensures a proper clinical assessment, red-flag screening, and individualized treatment decisions. Some states require a real-time clinical encounter for certain prescriptions, and TeleDirectMD meets or exceeds these standards.` },
-    { q: `How much does a ${page.concern} evaluation cost?`, a: stateInsR
-      ? `The TeleDirectMD visit is $79 flat fee, or you can use insurance. We accept ${stateInsR.map(p => p.name).join(', ')} in ${state.name}. Prescription costs are separate and vary by pharmacy. There are no hidden fees and no subscription is required.`
-      : `The TeleDirectMD visit is a flat $79 self-pay option. Insurance is not required. Prescription costs are separate and vary by pharmacy. There are no hidden fees and no subscription is required.` },
-    { q: `What happens during the visit?`, a: `You connect by secure video with a board-certified MD licensed in ${state.name}. The physician takes your medical history, evaluates your condition, screens for red flags or contraindications, and discusses treatment options including ${medDisplay} if appropriate. If a prescription is clinically appropriate, it is sent to your preferred pharmacy.` },
-    { q: `What if ${medDisplay} is not appropriate for me?`, a: `If ${medDisplay} is not clinically appropriate based on your evaluation, your MD will explain why and discuss alternative options or recommend in-person follow-up. You still receive a complete evaluation and clear guidance on next steps.` },
-    { q: `Is TeleDirectMD licensed in ${state.name}?`, a: `Yes. TeleDirectMD is licensed to provide telehealth services in ${state.name}. All visits are conducted by Parth Bhavsar, MD, a board-certified physician who holds an active medical license in ${state.name}.` }
+    ...content.faqs,
+    { q: 'Does TeleDirectMD treat UTIs in men?', a: 'No. UTI visits are only for non-pregnant women 18 and older. Men with urinary symptoms should be seen in person and should not book a TeleDirectMD UTI visit.' },
+    { q: `What does a UTI visit cost in ${state.name}?`, a: `${payText} Medicine is paid separately at the pharmacy.` },
   ];
 
   const jsonLd = {
@@ -77,86 +88,80 @@ export default async function FAQDeepDivePage({ params }) {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: `${baseUrl}/` },
-          { '@type': 'ListItem', position: 2, name: 'FAQ', item: `${baseUrl}/faq` },
-          { '@type': 'ListItem', position: 3, name: `${page.medication} Online in ${state.name}`, item: pageUrl }
-        ]
+          { '@type': 'ListItem', position: 1, name: 'Home', item: `${BASE_URL}/` },
+          { '@type': 'ListItem', position: 2, name: 'FAQ', item: `${BASE_URL}/faq` },
+          { '@type': 'ListItem', position: 3, name: `UTI Antibiotics Online in ${state.name}`, item: pageUrl },
+        ],
       },
       {
         '@type': 'FAQPage',
-        mainEntity: faqItems.map((f) => ({
-          '@type': 'Question',
-          name: f.q,
-          acceptedAnswer: { '@type': 'Answer', text: f.a }
-        }))
-      }
-    ]
+        mainEntity: faqItems.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+      },
+    ],
   };
 
-  const citableSummary_AI = summarizeFaqDeepDive({ medication: page.medication, stateName: state.name, condition: page.condition });
-  const pageUrl_AI = `https://teledirectmd.com/faq/deep-dive/${slug}/`;
-  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
-
+  const citableSummary_AI = summarizeFaqDeepDive({ medication: page.medication, stateName: state.name, condition: page.condition, stateAnswer: content.summary });
+  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: `${pageUrl}/` });
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`faq-${slug}`} />
+      <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`faq-${slug}`} dateModified={`${today}T12:00:00`} />
       <div style={{ maxWidth: '800px', margin: '0 auto', padding: '0 20px 60px' }}>
         <nav aria-label="Breadcrumb" style={{ fontSize: '14px', color: '#6b7280', padding: '16px 0', borderBottom: '1px solid #e5e7eb' }}>
           <a href="/" style={{ color: '#0d9488' }}>Home</a>
           <span style={{ margin: '0 8px' }}>/</span>
           <a href="/faq/" style={{ color: '#0d9488' }}>FAQ</a>
           <span style={{ margin: '0 8px' }}>/</span>
-          <span>{page.medication} Online in {state.name}</span>
+          <span>UTI Antibiotics Online in {state.name}</span>
         </nav>
 
         <section style={{ padding: '40px 0 24px' }}>
-          <h1 style={{ fontSize: '2rem', fontWeight: 700, lineHeight: 1.2, color: '#111827', marginBottom: '12px' }}>
-            Can You Get {page.medication} Online in {state.name}?
+          <h1 style={{ fontSize: '2rem', fontWeight: 700, lineHeight: 1.2, color: '#111827', marginBottom: '16px' }}>
+            Can You Get UTI Antibiotics Online in {state.name}?
           </h1>
-          <p style={{ fontSize: '1.1rem', color: '#0d9488', fontWeight: 600, marginBottom: '16px' }}>
-            Yes. Non-pregnant adult women in {state.name} may be eligible for a {medDisplay} evaluation by video visit with a board-certified MD.
-          </p>
-          <p style={{ fontSize: '1rem', color: '#374151', lineHeight: 1.7 }}>
-            TeleDirectMD offers live, physician-led video visits for non-pregnant adult women located in {state.name} who are {page.evalContext} {medDisplay}. Every visit is a synchronous encounter with a board-certified MD who evaluates your condition, screens for contraindications, and discusses whether {medDisplay} or other treatments may be appropriate for you. {pricingBlurb}
-          </p>
+          <p style={body}>{content.lead}</p>
           <div style={{ display: 'flex', gap: '12px', marginTop: '20px', flexWrap: 'wrap' }}>
             <a href="/book-online/" style={{ display: 'inline-block', background: '#0d9488', color: '#fff', padding: '12px 28px', borderRadius: '8px', fontWeight: 600, fontSize: '0.95rem', textDecoration: 'none' }}>Book a Visit</a>
-            <a href={`/${page.stateSlug}/${page.conditionSlug}/`} style={{ display: 'inline-block', background: '#fff', color: '#0d9488', border: '2px solid #0d9488', padding: '10px 24px', borderRadius: '8px', fontWeight: 600, fontSize: '0.95rem', textDecoration: 'none' }}>{page.condition} in {state.name}</a>
+            <a href={`/${page.stateSlug}/${page.conditionSlug}/`} style={{ display: 'inline-block', background: '#fff', color: '#0d9488', border: '2px solid #0d9488', padding: '10px 24px', borderRadius: '8px', fontWeight: 600, fontSize: '0.95rem', textDecoration: 'none' }}>UTI care in {state.name}</a>
           </div>
         </section>
 
-        {/* Quick Answer Box */}
-        <section style={{ padding: '24px 0', borderTop: '1px solid #e5e7eb' }}>
-          <div style={{ background: '#f0fdfa', border: '1px solid #99f6e4', borderRadius: '10px', padding: '20px' }}>
-            <h2 style={{ fontSize: '1.1rem', fontWeight: 700, color: '#0f766e', marginBottom: '10px' }}>Quick Answer</h2>
-            <p style={{ fontSize: '0.95rem', color: '#374151', lineHeight: 1.6, margin: 0 }}>
-              Yes, non-pregnant adult women in {state.name} can get a {medDisplay} evaluation online through TeleDirectMD. You will see a board-certified MD by live video visit. If {medDisplay} is clinically appropriate, a prescription is sent to your preferred pharmacy. {pricingShort} No subscription is needed.
-            </p>
-          </div>
+        {content.law && (
+          <section style={section}>
+            <h2 style={h2}>What {state.name} law means for a UTI video visit</h2>
+            <p style={body}>{content.law}</p>
+          </section>
+        )}
+
+        {content.pharmacy && (
+          <section style={section}>
+            <h2 style={h2}>Getting the prescription filled in {state.name}</h2>
+            <p style={body}>{content.pharmacy}</p>
+          </section>
+        )}
+
+        {content.local && (
+          <section style={section}>
+            <h2 style={h2}>UTI antibiotic resistance in {state.name}</h2>
+            <p style={body}>{content.local}</p>
+          </section>
+        )}
+
+        <section style={section}>
+          <h2 style={h2}>Cost</h2>
+          <p style={body}>{payText}</p>
         </section>
 
-        {/* How It Works */}
-        <section style={{ padding: '24px 0', borderTop: '1px solid #e5e7eb' }}>
-          <h2 style={{ fontSize: '1.4rem', fontWeight: 700, color: '#111827', marginBottom: '16px' }}>How to Get a {page.medication} Evaluation Online in {state.name}</h2>
-          <div style={{ display: 'grid', gap: '12px' }}>
-            {[
-              { s: '1', t: 'Book your visit', d: `Choose a time. You must be physically in ${state.name} at the time of the visit.` },
-              { s: '2', t: 'Connect by video with a board-certified MD', d: `Your physician evaluates your ${page.concern}, reviews your history, and screens for contraindications.` },
-              { s: '3', t: 'Receive your treatment plan', d: `If ${medDisplay} is appropriate, a prescription is sent to your pharmacy. If not, your MD explains next steps.` }
-            ].map((step) => (
-              <div key={step.s} style={{ background: '#f9fafb', border: '1px solid #e5e7eb', borderRadius: '8px', padding: '16px', display: 'flex', gap: '12px' }}>
-                <span style={{ background: '#0d9488', color: '#fff', width: '28px', height: '28px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: '13px', flexShrink: 0 }}>{step.s}</span>
-                <div><strong style={{ color: '#111827' }}>{step.t}</strong><p style={{ fontSize: '0.9rem', color: '#4b5563', margin: '4px 0 0', lineHeight: 1.5 }}>{step.d}</p></div>
-              </div>
-            ))}
-          </div>
+        <section style={section}>
+          <h2 style={h2}>When a video visit is not the right choice</h2>
+          <p style={body}>
+            Go to in-person or emergency care instead if you have fever, chills, back or side pain, vomiting, a catheter or a recent urologic procedure, or if you are pregnant or could be. A prescription is never guaranteed; it depends on the physician&apos;s evaluation.
+          </p>
         </section>
 
-        {/* FAQ Accordion */}
-        <section id="faq" style={{ padding: '24px 0', borderTop: '1px solid #e5e7eb' }}>
-          <h2 style={{ fontSize: '1.4rem', fontWeight: 700, color: '#111827', marginBottom: '16px' }}>Frequently Asked Questions</h2>
+        <section id="faq" style={section}>
+          <h2 style={h2}>Frequently asked questions</h2>
           {faqItems.map((f, i) => (
             <details key={i} style={{ borderBottom: '1px solid #e5e7eb', padding: '12px 0' }}>
               <summary style={{ fontSize: '0.95rem', fontWeight: 600, color: '#111827', cursor: 'pointer', listStyle: 'none', display: 'flex', justifyContent: 'space-between' }}>
@@ -168,22 +173,28 @@ export default async function FAQDeepDivePage({ params }) {
           ))}
         </section>
 
-        {/* Related Links */}
-        <section style={{ padding: '24px 0', borderTop: '1px solid #e5e7eb' }}>
-          <h2 style={{ fontSize: '1.2rem', fontWeight: 700, color: '#111827', marginBottom: '12px' }}>Related Pages</h2>
-          <ul style={{ listStyle: 'none', padding: 0, display: 'grid', gap: '8px' }}>
-            <li><a href={`/${page.stateSlug}/${page.conditionSlug}/`} style={{ color: '#0d9488', fontWeight: 500 }}>{page.condition} Treatment Online in {state.name}</a></li>
+        {content.sources && content.sources.length > 0 && (
+          <section style={section}>
+            <h2 style={{ ...h2, fontSize: '1.1rem' }}>Sources</h2>
+            <ul style={{ paddingLeft: '18px', margin: 0, fontSize: '0.85rem', lineHeight: 1.6, color: '#4b5563' }}>
+              {content.sources.map((s) => (
+                <li key={s.url}><a href={s.url} rel="noopener" style={{ color: '#0d9488' }}>{s.label}</a></li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        <section style={section}>
+          <h2 style={{ ...h2, fontSize: '1.1rem' }}>Related pages</h2>
+          <ul style={{ listStyle: 'none', padding: 0, display: 'grid', gap: '8px', margin: 0 }}>
+            <li><a href={`/${page.stateSlug}/${page.conditionSlug}/`} style={{ color: '#0d9488', fontWeight: 500 }}>UTI treatment online in {state.name}</a></li>
             <li><a href={`/${page.stateSlug}/`} style={{ color: '#0d9488', fontWeight: 500 }}>TeleDirectMD in {state.name}</a></li>
-            <li><a href={`/${page.conditionSlug}/`} style={{ color: '#0d9488', fontWeight: 500 }}>{page.condition} Treatment Online (National)</a></li>
+            <li><a href="/faq/deep-dive/" style={{ color: '#0d9488', fontWeight: 500 }}>UTI antibiotics online, state by state</a></li>
           </ul>
         </section>
 
-        {/* Disclaimer */}
         <section style={{ padding: '20px 0', borderTop: '1px solid #e5e7eb' }}>
-          <p style={{ fontSize: '0.78rem', color: '#9ca3af', lineHeight: 1.5 }}>
-            TeleDirectMD provides MD-only virtual care for adults (18+) in {state.name}. {stateInsR ? `We accept ${stateInsR.map(p => p.name).join(', ')} in ${state.name}. Self-pay is also available for a flat $79.` : 'Insurance is not required. Self-pay is a flat $79.'} A prescription for {medDisplay} is not guaranteed and depends on the clinical evaluation. You must be physically located in {state.name} at the time of your visit. TeleDirectMD does not prescribe controlled substances. TeleDirectMD is not an emergency service.
-          </p>
-          <p style={{ fontSize: '0.75rem', color: '#d1d5db', marginTop: '8px' }}>Medically reviewed by Parth Bhavsar, MD. Last updated {today}.</p>
+          <p style={{ fontSize: '0.75rem', color: '#9ca3af', marginTop: 0 }}>Medically reviewed by Parth Bhavsar, MD. Last updated {today}. TeleDirectMD is not an emergency service.</p>
         </section>
       </div>
     </>
