@@ -10,7 +10,7 @@
     "test:uti-scope": "node scripts/check-uti-scope.js",
     "build": "next build",
     "start": "next start",
-    "postbuild": "node scripts/indexnow-submit.js --sitemap || true"
+    "postbuild": "node scripts/page-manifest.js || true"
   },
   "dependencies": {
     "next": "14.2.35",
