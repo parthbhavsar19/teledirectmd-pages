@@ -474,7 +474,7 @@ export default function StateLandingPage({ stateSlug }) {
                     <span className="shx-glyph" aria-hidden="true" dangerouslySetInnerHTML={{ __html: CONDITION_ICONS[CATEGORY_ICON[cat.categorySlug]] || '' }} />
                     <h3 id={`${pid}-cat-${cat.categorySlug}-h`}>{cat.categoryName}</h3>
                     {noted > 0 && (
-                      <span className="shx-cat-noted"><span className="shx-dot" aria-hidden="true" />{noted}<span className="shx-sr"> with {state.name}-specific guidance</span></span>
+                      <span className="shx-cat-noted"><span className="shx-dot" aria-hidden="true" /><span className="shx-cat-noted-n">{noted}</span><span className="shx-sr"> with {state.name}-specific guidance</span></span>
                     )}
                     <span className="shx-cat-count">{cat.links.length}<span className="shx-cat-unit"> condition{cat.links.length !== 1 ? 's' : ''}</span></span>
                     <span className="shx-chev" aria-hidden="true" />
