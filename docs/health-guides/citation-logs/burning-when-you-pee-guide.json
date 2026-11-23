@@ -1,0 +1,919 @@
+{
+ "guide": "burning-when-you-pee-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 7 DOIs verified (Bent 2002, Gupta 2011, Clemens 2022, Owens 2019, plus dropped Hooton 2012, Worcester 2010, Hanno 2015), retractions: none. No editorial notices. Contrasting-evidence flags on Bent 2002 and Gupta 2011, see entry notes. AFP articles (Colgan, Kurotschka, Hoffman, Michels, Herness) have no DOI; Scite could not match them by text, so identity rests on PubMed records, which show no Retracted Publication or Retraction Notice type.",
+ "dropped_references": [
+  {
+   "was_n": 4,
+   "cited_as": "Hooton TM. Uncomplicated urinary tract infection. N Engl J Med. 2012;366(11):1028-1037. PMID 22417256",
+   "reason": "No abstract; full text not retrievable; no claim checkable. Replaced by Kurotschka 2024 (n 4), NIDDK (n 20), Gupta full text (n 2)."
+  },
+  {
+   "was_n": 9,
+   "cited_as": "Hanno PM, et al. AUA guideline amendment. J Urol. 2015;193(5):1545-1553. PMID 25623737",
+   "reason": "Abstract is methods only; full text not retrieved. Replaced by the current AUA guideline, Clemens 2022 (n 9)."
+  },
+  {
+   "was_n": 10,
+   "cited_as": "Worcester EM, Coe FL. Calcium kidney stones. N Engl J Med. 2010;363(10):954-963. PMID 20818905",
+   "reason": "Full text does not describe dysuria, groin pain or hematuria. Replaced by NIDDK kidney stones page (n 10)."
+  },
+  {
+   "was_n": 12,
+   "cited_as": "DailyMed phenazopyridine search-results URL",
+   "reason": "Link was a search list, not a label. Replaced by two specific labels (n 12, n 13)."
+  }
+ ],
+ "references": [
+  {
+   "n": 1,
+   "kind": "journal",
+   "cited_as": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12020306/",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Internal burning with frequency and urgency, without vaginal discharge, suggests cystitis (Key Takeaways; FAQ UTI vs yeast; figure caption)",
+     "quote": "Specific combinations of symptoms (eg, dysuria and frequency without vaginal discharge or irritation) raise the probability of UTI to more than 90%",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "A history of vaginal discharge or vaginal irritation makes a UTI less likely; dysuria plus frequency without vaginal symptoms raises probability of UTI to more than 90 percent",
+     "quote": "the 2 most powerful were history of vaginal discharge and history of vaginal irritation, which significantly decreased the likelihood of UTI when present (LRs, 0.3 and 0.2, respectively)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "One of the most useful questions is whether there is vaginal discharge or irritation, the two most powerful findings for lowering the likelihood of UTI",
+     "quote": "Of all individual diagnostic signs and symptoms, the 2 most powerful were history of vaginal discharge and history of vaginal irritation",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Figure text: vaginal discharge or irritation is one of the two most useful clues (was: the single most useful clue)",
+     "quote": "Of all individual diagnostic signs and symptoms, the 2 most powerful were history of vaginal discharge and history of vaginal irritation",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "pmid": "12020306",
+   "doi": "10.1001/jama.287.20.2701",
+   "record_title": "Does this woman have an acute uncomplicated urinary tract infection?",
+   "record_journal": "JAMA",
+   "record_year": "2002",
+   "article_type": "Journal Article; Review",
+   "notes": "Scite flagged one contrasting citation (J Adolesc Health, doi 10.1016/j.jadohealth.2006.12.010): in adolescents, vaginal symptoms did not decrease the likelihood of UTI. Page wording kept to \"less likely\" and framed on the adult-women review; not overstated. Study type described as a review (PubMed: Review)."
+  },
+  {
+   "n": 2,
+   "kind": "guideline",
+   "cited_as": "Gupta K, Hooton TM, Naber KG, et al. International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: a 2010 update by IDSA and ESCMID. Clin Infect Dis. 2011;52(5):e103-e120.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21292654/",
+   "retrieved_with": "PubMed get_article_metadata; WebFetch of publisher full text (academic.oup.com/cid/article/52/5/e103/388285); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Acute uncomplicated cystitis is caused mainly by E. coli, with occasional Proteus mirabilis, Klebsiella pneumoniae and Staphylococcus saprophyticus",
+     "quote": "The microbial spectrum of uncomplicated cystitis and pyelonephritis consists mainly of Escherichia coli (75%–95%) ... with occasional other species of Enterobacteriaceae, such as Proteus mirabilis and Klebsiella pneumoniae, and",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Guidelines name nitrofurantoin, fosfomycin and TMP-SMX (where local resistance does not exceed 20 percent) as options for uncomplicated cystitis; antibiotics treat a bacterial UTI",
+     "quote": "Nitrofurantoin monohydrate/macrocrystals (100 mg twice daily for 5 days) is an appropriate choice for therapy ... Fosfomycin trometamol (3 g in a single dose) is an appropriate choice for therapy where it is available",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "TMP-SMX only where local resistance does not exceed 20 percent",
+     "quote": "if local resistance rates of uropathogens causing acute uncomplicated cystitis do not exceed 20%",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Patients with pyelonephritis admitted to the hospital receive intravenous antibiotics",
+     "quote": "Women with pyelonephritis requiring hospitalization should be initially treated with an intravenous antimicrobial regimen.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ],
+   "pmid": "21292654",
+   "doi": "10.1093/cid/ciq257",
+   "record_title": "International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: A 2010 update by the Infectious Diseases Society of America and the European Society for Microbiology and Infectious Diseases.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2011",
+   "article_type": "Journal Article; Practice Guideline; Review",
+   "version_or_date": "2010 update, published Clin Infect Dis 1 March 2011; no correction notice on publisher page (read 2026-11-15)",
+   "notes": "Full text readable at publisher. S. saprophyticus is named in the remainder of the quoted sentence; the fetch tool could not return that final clause verbatim because of its quote-length limit but confirmed its content. The guideline does not mention phenazopyridine or fever/flank-pain red flags, so those claims were moved to label and NIDDK/MedlinePlus sources. Scite contrasting citation (doi 10.3855/jidc.8124) concerns high local resistance elsewhere; consistent with the 20% resistance qualifier on the page. The 2025 IDSA complicated UTI guideline sections (PMIDs 41467387, 41419213, 41419448, 41414903) were retrieved; their abstracts cover antibiotic selection, duration and IV-to-oral switch for cUTI only and were not needed for any claim on this page."
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "Colgan R, Williams M. Diagnosis and treatment of acute uncomplicated cystitis. Am Fam Physician. 2011;84(7):771-776.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22010614/",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Nitrofurantoin, fosfomycin and TMP-SMX (resistance not exceeding 20 percent) are first-line options for uncomplicated cystitis",
+     "quote": "Guidelines recommend three options for first-line treatment of acute uncomplicated cystitis: fosfomycin, nitrofurantoin, and trimethoprim/sulfamethoxazole (in regions where the prevalence of Escherichia coli resistance does not exceed 20 percent).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Urinary tract infections are the most common bacterial infections in women",
+     "quote": "Urinary tract infections are the most common bacterial infections in women.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Seek evaluation if symptoms do not resolve or come back within two to four weeks after finishing treatment, or are atypical",
+     "quote": "Urine cultures are recommended in women with suspected pyelonephritis, women with symptoms that do not resolve or that recur within two to four weeks after completing treatment, and women who present with atypical symptoms.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "pmid": "22010614",
+   "record_title": "Diagnosis and treatment of acute uncomplicated cystitis.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2011",
+   "article_type": "Journal Article; Review",
+   "notes": "No DOI (AFP). Scite verify_papers could not match the reference text (no DOI); PubMed record lists no retraction or notice."
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Kurotschka PK, Gágyor I, Ebell MH. Acute uncomplicated UTIs in adults: rapid evidence review. Am Fam Physician. 2024;109(2):167-174.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38393801/",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "UTI burning usually comes with frequency, urgency and suprapubic discomfort; typical symptoms without vaginal discharge are accurate enough to diagnose uncomplicated UTI",
+     "quote": "a self-diagnosis of a UTI with the presence of typical symptoms (e.g., frequency, urgency, dysuria/burning sensation, nocturia, suprapubic pain), without vaginal discharge, is accurate enough to diagnose an uncomplicated UTI without further testing",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "In men with urinary symptoms clinicians should also consider urethritis and prostatitis",
+     "quote": "Clinicians should also consider the possibility of urethritis and prostatitis in men with UTI symptoms.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "In men, urine culture results guide the choice of antibiotic; men with urinary symptoms should be evaluated with a urine culture",
+     "quote": "Men with lower UTI symptoms should always receive antibiotics, with urine culture and susceptibility results guiding the antibiotic choice.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "pmid": "38393801",
+   "record_title": "Acute Uncomplicated UTIs in Adults: Rapid Evidence Review.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2024",
+   "article_type": "Journal Article",
+   "notes": "Replaces Hooton TM, NEJM 2012 (PMID 22417256), which has no abstract and whose full text was not retrievable, so none of its claims could be checked. No DOI; Scite could not match reference text; PubMed shows no retraction."
+  },
+  {
+   "n": 5,
+   "kind": "guideline",
+   "cited_as": "CDC. STI Treatment Guidelines, 2021: Chlamydial Infections.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Chlamydia often causes no symptoms",
+     "quote": "Asymptomatic infection is common among both men and women.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "NAAT diagnoses chlamydia; urine for men, vaginal swabs for women",
+     "quote": "Optimal urogenital specimen types for chlamydia screening by using NAAT include first-catch urine (for men)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Chlamydia treatment: doxycycline 100 mg twice daily for 7 days",
+     "quote": "Doxycycline 100 mg orally 2 times/day for 7 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recent sex partners should be referred for evaluation, testing and presumptive treatment",
+     "quote": "Sex partners should be referred for evaluation, testing, and presumptive treatment",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "version_or_date": "STI Treatment Guidelines 2021; page last reviewed July 22, 2021",
+   "notes": "The vaginal-swab specimen for women is in the continuation of the quoted sentence."
+  },
+  {
+   "n": 6,
+   "kind": "guideline",
+   "cited_as": "CDC. STI Treatment Guidelines, 2021: Gonococcal Infections Among Adolescents and Adults.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Uncomplicated gonorrhea: single IM ceftriaxone 500 mg for people under 150 kg",
+     "quote": "Ceftriaxone 500 mg* IM in a single dose for persons weighing <150 kg.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "1 g ceftriaxone for people weighing 150 kg or more",
+     "quote": "For persons weighing ≥150 kg, 1 g ceftriaxone should be administered.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Add doxycycline 100 mg twice daily for 7 days when chlamydia has not been excluded",
+     "quote": "If chlamydial infection has not been excluded, treat for chlamydia with doxycycline 100 mg orally 2 times/day for 7 days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Gonorrhea in women is commonly asymptomatic",
+     "quote": "Among women, gonococcal infections are commonly asymptomatic or might not produce recognizable symptoms.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "NAAT detects gonorrhea",
+     "quote": "Culture, NAAT, and POC NAAT, such as GeneXpert (Cepheid), are available for detecting genitourinary infection.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recent sex partners referred for evaluation, testing and presumptive treatment",
+     "quote": "should be referred for evaluation, testing, and presumptive treatment",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "version_or_date": "STI Treatment Guidelines 2021; page last reviewed September 21, 2022",
+   "notes": "Link corrected from the section landing page gonorrhea.htm (navigation only, no regimen text) to the adolescents-and-adults sub-page that holds the regimen."
+  },
+  {
+   "n": 7,
+   "kind": "guideline",
+   "cited_as": "CDC. STI Treatment Guidelines, 2021: Bacterial Vaginosis.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/bv.htm",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "BV causes a thin, milky discharge",
+     "quote": "Homogeneous, thin discharge (milklike consistency) that smoothly coats the vaginal walls",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV causes a fishy odor",
+     "quote": "A fishy odor of vaginal discharge before or after addition of 10% KOH (i.e., the whiff test)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Vaginal pH above 4.5 is a diagnostic criterion for BV; pH test helps distinguish yeast from BV",
+     "quote": "pH of vaginal fluid >4.5",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Wet mount (microscopy) distinguishes BV",
+     "quote": "Clue cells (e.g., vaginal epithelial cells studded with adherent bacteria) on microscopic examination",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recommended BV regimens: oral metronidazole, metronidazole gel, or clindamycin cream",
+     "quote": "Metronidazole 500 mg orally 2 times/day for 7 days ... Metronidazole gel 0.75% one full applicator (5 g) intravaginally ... Clindamycin cream 2% one full applicator (5 g) intravaginally at bedtime for 7 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "version_or_date": "STI Treatment Guidelines 2021; page last reviewed July 22, 2021",
+   "notes": "This page does not discuss burning; the former claims that BV is not a typical cause of burning, and that trichomoniasis and herpes cause external burning, were removed. Burning when peeing as a BV symptom is cited to CDC About BV (ref 19)."
+  },
+  {
+   "n": 8,
+   "kind": "guideline",
+   "cited_as": "CDC. STI Treatment Guidelines, 2021: Vulvovaginal Candidiasis.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/candidiasis.htm",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Yeast infection causes external burning with itching, soreness and thick, curdy discharge",
+     "quote": "Typical symptoms of VVC include pruritus, vaginal soreness, dyspareunia, external dysuria, and abnormal vaginal discharge.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Thick, curdy discharge",
+     "quote": "Signs include vulvar edema, fissures, excoriations, and thick curdy vaginal discharge.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "External burning with vulvar itching points to yeast (figure caption; FAQ)",
+     "quote": "A diagnosis of Candida vaginitis is clinically indicated by the presence of external dysuria and vulvar pruritus",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "VVC usually caused by Candida albicans",
+     "quote": "VVC usually is caused by Candida albicans but can occasionally be caused by other Candida species or yeasts.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "VVC has a normal vaginal pH below 4.5",
+     "quote": "Candida vaginitis is associated with normal vaginal pH (<4.5).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Wet mount distinguishes yeast from BV",
+     "quote": "Examination of a wet mount with KOH preparation should be performed for all women with symptoms or signs of VVC",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Yeast treatment: single 150 mg oral fluconazole or a vaginal azole such as clotrimazole or miconazole; antifungal for yeast",
+     "quote": "Fluconazole 150 mg orally in a single dose ... Clotrimazole 1% cream 5 g intravaginally daily for 7–14 days ... Miconazole 100 mg vaginal suppository one suppository daily for 7 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Treat yeast only if symptomatic",
+     "quote": "Identifying Candida by culture in the absence of symptoms or signs is not an indication for treatment",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "version_or_date": "STI Treatment Guidelines 2021; page last reviewed July 22, 2021",
+   "notes": "Page also states \"None of these symptoms is specific for VVC\"; the guide presents location of burning as one clue, not a definitive test."
+  },
+  {
+   "n": 9,
+   "kind": "guideline",
+   "cited_as": "Clemens JQ, Erickson DR, Varela NP, Lai HH. Diagnosis and treatment of interstitial cystitis/bladder pain syndrome. J Urol. 2022;208:34-42.",
+   "url": "https://doi.org/10.1097/JU.0000000000002756",
+   "retrieved_with": "WebFetch of AUA-hosted guideline PDF (auanet.org/documents/Guidelines/PDF/IC_BPS.pdf, the J Urol article); Scite verify_papers (DOI verified, 2022)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "IC/BPS is a chronic disorder of bladder/pelvic pain, pressure or discomfort with frequency and strong urge to urinate",
+     "quote": "Even though patients present with similar symptoms of bladder/pelvic pain and pressure/discomfort associated with urinary frequency and strong urge to urinate",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Diagnosis requires history, exam and labs to exclude infections or other confusable disorders",
+     "quote": "The clinical diagnosis of IC/BPS requires a careful history, physical examination, and laboratory examination to document basic symptoms that characterize the disorder and exclude infections or other confusable disorders.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptoms present at least six weeks with documented negative urine cultures; IC causes symptoms without infection (FAQ)",
+     "quote": "IC/BPS is a chronic disorder and symptoms should be present for at least six weeks with documented negative urine cultures.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ],
+   "doi": "10.1097/JU.0000000000002756",
+   "record_title": "Diagnosis and Treatment of Interstitial Cystitis/Bladder Pain Syndrome",
+   "record_journal": "J Urol",
+   "record_year": "2022",
+   "article_type": "Practice guideline (AUA)",
+   "version_or_date": "AUA guideline 2022 (J Urol vol 208, July 2022)",
+   "notes": "Replaces Hanno PM 2015 AUA amendment (PMID 25623737), whose abstract covers methods only. PubMed ID conversion found no PMID for this DOI; DOI verified with Scite. Issue number not retrieved, so omitted from the citation."
+  },
+  {
+   "n": 10,
+   "kind": "agency_page",
+   "cited_as": "NIDDK. Symptoms & Causes of Kidney Stones.",
+   "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-stones/symptoms-causes",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Kidney stones can cause burning: pain while urinating with sharp back, side, lower abdomen or groin pain, blood in urine, constant need to urinate",
+     "quote": "sharp pains in your back, side, lower abdomen, or groin; pink, red, or brown blood in your urine, also called hematuria; a constant need to urinate; pain while urinating",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Blood in the urine is a reason for prompt care (urgent-care callout)",
+     "quote": "See a health care professional right away if you have any of these symptoms.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ],
+   "version_or_date": "Last Reviewed May 2017",
+   "notes": "Replaces Worcester EM, NEJM 2010 (calcium stones prevention review), which does not describe dysuria, groin pain or hematuria. Quote is the page list joined with semicolons. The page does not state stone location (lower ureter/bladder), so that detail was removed."
+  },
+  {
+   "n": 11,
+   "kind": "guideline",
+   "cited_as": "Owens DK, et al; USPSTF. Screening for asymptomatic bacteriuria in adults: USPSTF recommendation statement. JAMA. 2019;322(12):1188-1194.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31550038/",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Pyelonephritis in pregnancy is associated with complications such as septicemia, low birth weight and preterm birth",
+     "quote": "Among pregnant persons, pyelonephritis is associated with perinatal complications including septicemia, respiratory distress, low birth weight, and spontaneous preterm birth.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Untreated urinary infection in pregnancy can progress to kidney infection and affect the pregnancy",
+     "quote": "treatment of screen-detected asymptomatic bacteriuria can reduce the incidence of pyelonephritis in pregnant persons",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Screening for asymptomatic bacteriuria with urine culture is recommended in pregnancy",
+     "quote": "The USPSTF recommends screening pregnant persons for asymptomatic bacteriuria using urine culture. (B recommendation)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "pmid": "31550038",
+   "doi": "10.1001/jama.2019.13069",
+   "record_title": "Screening for Asymptomatic Bacteriuria in Adults: US Preventive Services Task Force Recommendation Statement.",
+   "record_journal": "JAMA",
+   "record_year": "2019",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "USPSTF 2019",
+   "notes": "Statement concerns asymptomatic bacteriuria; the guide extends it to symptomatic evaluation, so the progression claim is logged partly_supported. Symptomatic evaluation in pregnancy is also cited to MedlinePlus (ref 16) and Herness 2020 (ref 23)."
+  },
+  {
+   "n": 12,
+   "kind": "label",
+   "cited_as": "DailyMed. Phenazopyridine hydrochloride tablet (Rx), Amneal Pharmaceuticals LLC.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b424b50f-990b-4018-a815-0311693cabb3",
+   "retrieved_with": "WebFetch of DailyMed label",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Phenazopyridine relieves pain, burning, urgency and frequency",
+     "quote": "symptomatic relief of pain, burning, urgency, frequency, and other discomforts",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "It has a pain-relieving effect on the lining of the urinary tract (numbs the urinary tract)",
+     "quote": "exerts a topical analgesic effect on the mucosa of the urinary tract",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "It is a symptom reliever, not a treatment; the cause still needs prompt treatment; does not treat infection",
+     "quote": "Because it provides only symptomatic relief, prompt appropriate treatment of the cause of pain must be instituted",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Turns urine reddish-orange",
+     "quote": "produces a reddish-orange discoloration of the urine",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "With an antibiotic for a UTI, the prescription label limits it to 2 days",
+     "quote": "When used concomitantly with an antibacterial agent for the treatment of a urinary tract infection, ... the administration of Phenazopyridine HCl should not exceed 2 days.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Also available by prescription",
+     "quote": "HUMAN PRESCRIPTION DRUG LABEL",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ],
+   "version_or_date": "Label updated October 30, 2024",
+   "notes": "Replaces a DailyMed search-results URL (194 products) with one specific label."
+  },
+  {
+   "n": 13,
+   "kind": "label",
+   "cited_as": "DailyMed. AZO Urinary Pain Relief Maximum Strength (phenazopyridine HCl 99.5 mg), OTC, i-Health, Inc.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b4874fe2-d98b-4b5c-baad-d75070947842",
+   "retrieved_with": "WebFetch of DailyMed label",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Phenazopyridine is sold over the counter under brands such as AZO; relieves pain and burning",
+     "quote": "Relief from urinary pain, burning, urgency and frequency associated with urinary tract infections.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Does not treat the infection; a UTI needs diagnosis and a prescription",
+     "quote": "you need to call your doctor to get diagnosed and obtain a prescription to treat the infection.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "OTC label: do not use for more than 2 days without consulting a doctor",
+     "quote": "Do not use for more than 2 days (12 tablets) without consulting a doctor.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Turns urine reddish-orange",
+     "quote": "your urine will become reddish-orange in color.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ],
+   "version_or_date": "Label updated November 17, 2025 (HUMAN OTC DRUG LABEL)"
+  },
+  {
+   "n": 14,
+   "kind": "journal",
+   "cited_as": "Hoffman A, Dolezal KA, Powell R. Dysuria: evaluation and differential diagnosis in adults. Am Fam Physician. 2025;111(1):37-46.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39823614/",
+   "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch aafp.org (abstract and introduction visible, body paywalled)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "UTI causes internal dysuria (burning inside); internal versus external structures",
+     "quote": "caused by inflammation of internal or external structures that are irritated during voiding",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "History helps identify STI signs, so mention sexual exposure so STI testing can be included",
+     "quote": "History is most often useful for finding signs of sexually transmitted infection, complicated infections, lower urinary symptoms in males, and noninfectious causes.",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Bladder irritants can cause dysuria without infection",
+     "quote": "Dysuria, a feeling of pain or discomfort during urination, is often caused by urinary tract infection but can also be due to sexually transmitted infection, bladder irritants, skin lesions, and some chronic pain conditions.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most people with dysuria should have a urinalysis; culture guides antibiotics especially for recurrent or complicated infection",
+     "quote": "Most patients presenting with dysuria should have a urinalysis performed. Urine culture should be performed for infection to guide appropriate antibiotic use, especially for recurrent or suspected complicated urinary tract infection.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptoms that persist after first evaluation and treatment need further workup",
+     "quote": "Persistent symptoms after initial evaluation and treatment require further workup for infectious and noninfectious causes.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "pmid": "39823614",
+   "record_title": "Dysuria: Evaluation and Differential Diagnosis in Adults.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2025",
+   "article_type": "Journal Article; Review",
+   "notes": "Body paywalled at aafp.org; not routed around. Only abstract and visible introduction used. No DOI; Scite could not match reference text; PubMed shows no retraction."
+  },
+  {
+   "n": 15,
+   "kind": "journal",
+   "cited_as": "Michels TC, Sands JE. Dysuria: evaluation and differential diagnosis in adults. Am Fam Physician. 2015;92(9):778-786.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26554471/",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Dysuria most commonly comes from UTI; UTI is the most common cause but the differential is broad",
+     "quote": "The most common cause of acute dysuria is infection, especially cystitis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Interstitial cystitis and medications cause dysuria without infection",
+     "quote": "Noninflammatory causes of dysuria include medication use, urethral anatomic abnormalities, local trauma, and interstitial cystitis/bladder pain syndrome.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Women with vulvovaginal symptoms should be evaluated for vaginitis",
+     "quote": "Women with vulvovaginal symptoms should be evaluated for vaginitis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Women without complicating features can be treated for cystitis on symptoms alone",
+     "quote": "Women with dysuria who have no complicating features can be treated for cystitis without further diagnostic evaluation.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Male sex is a risk factor for complicated UTI; complicating features warrant urinalysis and urine culture",
+     "quote": "risk factors for a complicated urinary tract infection (e.g., male sex, pregnancy, presence of urologic obstruction, recent procedure) ... Any complicating features or recurrent symptoms warrant a history, physical examination, urinalysis, and urine culture.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "pmid": "26554471",
+   "record_title": "Dysuria: Evaluation and Differential Diagnosis in Adults.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2015",
+   "article_type": "Patient Education Handout (as indexed by PubMed)",
+   "notes": "PubMed indexes this AFP article with publication type \"Patient Education Handout\"; the abstract is a clinical review abstract. Scite matched the reference text to an unrelated book chapter (doi 10.1007/3-7985-1586-7_2), which was disregarded; identity confirmed by PubMed record. No retraction."
+  },
+  {
+   "n": 16,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. Urination - painful.",
+   "url": "https://medlineplus.gov/ency/article/003145.htm",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Causes include yeast and other vulvovaginitis, STIs (gonorrhea, chlamydia), interstitial cystitis and chemical irritants",
+     "quote": "Vulvovaginitis, such as yeast or other infections of the vulva and vagina; Interstitial cystitis; Sexually transmitted infections (STIs), such as gonorrhea or chlamydia",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Genital herpes is a recognized cause of painful urination",
+     "quote": "Herpes infection in the genital area",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Irritation from bubble bath, perfumes or lotions can cause painful urination; stop using them while waiting for treatment",
+     "quote": "Irritation of the vaginal tissue caused by bubble bath, perfumes, or lotions",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Pregnant people with any painful urination should be evaluated promptly",
+     "quote": "You are pregnant and are having any painful urination.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Seek evaluation if painful urination lasts more than a day",
+     "quote": "You have painful urination that lasts for more than 1 day.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Visible blood in the urine is a reason to seek care",
+     "quote": "You notice blood in your urine.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ],
+   "version_or_date": "Review Date 1/1/2025",
+   "notes": "Items are list bullets under \"Painful urination is most often caused by an infection or inflammation somewhere in the urinary tract, such as:\" and \"Contact your health care provider if:\". Advice to stop irritating products is an inference from the cause list (partly supported). MedlinePlus says contact a provider; the page keeps its stronger same-day wording for blood in the urine."
+  },
+  {
+   "n": 17,
+   "kind": "guideline",
+   "cited_as": "CDC. STI Treatment Guidelines, 2021: Diseases Characterized by Urethritis and Cervicitis.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/urethritis-and-cervicitis.htm",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Urethritis symptoms: burning urination, urethral itching, mucoid/mucopurulent/purulent discharge",
+     "quote": "Symptoms, if present, include dysuria, urethral pruritis, and mucoid, mucopurulent, or purulent discharge.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Chlamydia and gonorrhea are well-established causes of urethritis",
+     "quote": "Although N. gonorrhoeae and C. trachomatis are well established as clinically important infectious causes of urethritis",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "In women chlamydia and gonorrhea are the most common causes of cervicitis",
+     "quote": "C. trachomatis or N. gonorrhoeae is the most common etiology of cervicitis defined by diagnostic testing.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cervicitis is often silent but can cause abnormal discharge and bleeding between periods",
+     "quote": "Cervicitis frequently is asymptomatic ... certain women might report an abnormal vaginal discharge and intermenstrual vaginal bleeding",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Men with possible urethritis are tested for chlamydia and gonorrhea with urine as preferred specimen; NAAT on urine detects both",
+     "quote": "NAATs are preferred for detecting C. trachomatis and N. gonorrhoeae, and urine is the preferred specimen for males",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "STI testing for men when urethritis is possible (FAQ; men table)",
+     "quote": "All men who have suspected or confirmed NGU should be tested for chlamydia and gonorrhea by using NAATs.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "version_or_date": "STI Treatment Guidelines 2021; page last reviewed September 21, 2022"
+  },
+  {
+   "n": 18,
+   "kind": "guideline",
+   "cited_as": "CDC. STI Treatment Guidelines, 2021: Trichomoniasis.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/trichomoniasis.htm",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Trichomoniasis can cause vaginal discharge with or without vulvar irritation in women",
+     "quote": "women with trichomoniasis sometimes have vaginal discharge, which can be diffuse, malodorous, or yellow-green with or without vulvar irritation",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Trichomoniasis can cause urethritis symptoms in men",
+     "quote": "Men with trichomoniasis sometimes have symptoms of urethritis, epididymitis, or prostatitis",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "version_or_date": "STI Treatment Guidelines 2021; page last reviewed September 21, 2022"
+  },
+  {
+   "n": 19,
+   "kind": "agency_page",
+   "cited_as": "CDC. About Bacterial Vaginosis (BV).",
+   "url": "https://www.cdc.gov/bacterial-vaginosis/about/",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "CDC lists burning when peeing among possible BV symptoms; BV can cause burning",
+     "quote": "Many people with BV do not have symptoms. If you do have symptoms, you may notice: ... Burning when peeing",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV typically causes a thin white or gray discharge and fishy odor; many have no symptoms",
+     "quote": "A thin white or gray vaginal discharge ... A strong fish-like odor, especially after sex",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "version_or_date": "Last reviewed December 11, 2023",
+   "notes": "Corrects the earlier statement that BV does not usually cause burning urination."
+  },
+  {
+   "n": 20,
+   "kind": "agency_page",
+   "cited_as": "NIDDK. Definition & Facts of Bladder Infection in Adults.",
+   "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/bladder-infection-uti-in-adults/definition-facts",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Females have a short urethra close to the anus so bacteria more easily enter",
+     "quote": "Females have a short urethra located close to the anus, a source of bacteria.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Bladder infections are less common in men than in women",
+     "quote": "Bladder infections are more common in women than in men.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "version_or_date": "Last Reviewed April 2024"
+  },
+  {
+   "n": 21,
+   "kind": "agency_page",
+   "cited_as": "NIDDK. Symptoms & Causes of Kidney Infection (Pyelonephritis).",
+   "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-infection-pyelonephritis/symptoms-causes",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Pyelonephritis symptoms: fever and chills, back/side/groin pain, nausea or vomiting, frequent painful urination",
+     "quote": "fever and chills; cloudy, dark, bloody, or foul-smelling urine; frequent, painful urination; pain in your back, side, or groin; nausea or vomiting",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fever, chills, flank pain, nausea or vomiting need urgent care (Key Takeaways; callout; FAQ; figure caption)",
+     "quote": "Seek care right away if you have kidney infection symptoms.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A kidney infection, although uncommon, can lead to sepsis; urgent in-person evaluation rather than waiting",
+     "quote": "Although uncommon, a kidney infection could lead to sepsis, which can be life threatening.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "version_or_date": "Last Reviewed October 2024",
+   "notes": "Symptom quote is the page list joined with semicolons."
+  },
+  {
+   "n": 22,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. Urinary tract infection - adults.",
+   "url": "https://medlineplus.gov/ency/article/000521.htm",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Urinalysis looks for white blood cells, red blood cells, bacteria and nitrites",
+     "quote": "This test is done to look for white blood cells, red blood cells, bacteria, and to test for chemicals such as nitrites",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Signs of possible kidney infection (back or side pain, chills, fever, vomiting) need prompt contact with a clinician",
+     "quote": "Contact your provider right away if you have signs of a possible kidney infection, such as:",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "version_or_date": "Review Date 7/22/2026",
+   "notes": "The list after the quoted lead-in includes back or side pain, chills, fever, and vomiting."
+  },
+  {
+   "n": 23,
+   "kind": "journal",
+   "cited_as": "Herness J, Buttolph A, Hammer NC. Acute pyelonephritis in adults: rapid evidence review. Am Fam Physician. 2020;102(3):173-180.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32735433/",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Pyelonephritis suspected with flank pain and lab evidence of UTI",
+     "quote": "Acute pyelonephritis is a bacterial infection of the kidney and renal pelvis and should be suspected in patients with flank pain and laboratory evidence of urinary tract infection.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Outpatient treatment for uncomplicated cases able to tolerate oral therapy; admitted patients get IV antibiotics (also supports inability to keep fluids down as a red flag, partly)",
+     "quote": "Outpatient management is appropriate in patients who have uncomplicated disease and can tolerate oral therapy.",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Pregnant patients with pyelonephritis are at elevated risk of severe complications and should be admitted",
+     "quote": "Pregnant patients with pyelonephritis are at significantly elevated risk of severe complications and should be admitted and treated initially with parenteral therapy.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptoms worsening despite treatment need evaluation; imaging for a kidney infection that is not improving",
+     "quote": "Most patients respond to appropriate management within 48 to 72 hours, and those who do not should be evaluated with imaging and repeat cultures while alternative diagnoses are considered.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "pmid": "32735433",
+   "record_title": "Acute Pyelonephritis in Adults: Rapid Evidence Review.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2020",
+   "article_type": "Journal Article",
+   "notes": "No DOI; Scite could not match reference text; PubMed shows no retraction."
+  }
+ ]
+}

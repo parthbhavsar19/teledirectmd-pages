@@ -4,7 +4,7 @@ import FaqAccordion from '../../components/FaqAccordion';
 export const metadata = {
   title: 'UTI Antibiotics Online — State-by-State FAQ | TeleDirectMD',
   description:
-    'Can you get UTI antibiotics online in your state? Board-certified MD video visits across 43 states. $79 flat self-pay, HSA/FSA accepted, prescriptions sent electronically to your pharmacy.',
+    'Can you get UTI antibiotics online in your state? Board-certified MD video visits across 40+ states. $79 flat self-pay, HSA/FSA accepted, prescriptions sent electronically to your pharmacy.',
   alternates: { canonical: 'https://teledirectmd.com/faq/deep-dive' },
   robots: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 },
   authors: [{ name: 'Parth Bhavsar, MD' }],
@@ -39,28 +39,31 @@ const MEDICATIONS = [
     howItWorks:
       'The physician collects a focused clinical history: symptom onset, character, duration, associated symptoms (fever, flank pain, nausea, discharge), prior UTIs, prior antibiotic allergies, and current medications. Classical uncomplicated UTI presentation in a non-pregnant adult woman with no complicating factors can be treated empirically with antibiotics per IDSA guidelines. Urine culture may be recommended if symptoms persist after treatment.',
     contraindications:
-      'Telemedicine is not appropriate for complicated UTIs: pregnant patients, men (UTI in men suggests possible prostatitis and often requires further workup), patients with fever and flank pain (possible pyelonephritis requiring in-person evaluation), and patients who have had 3+ UTIs in the past 12 months. The physician will identify these during evaluation and refer appropriately.',
+      'TeleDirectMD does not treat male UTIs, including mild or apparently uncomplicated symptoms. Our UTI service is limited to non-pregnant adult women (18+) with uncomplicated symptoms. Men with suspected UTIs should seek in-person care and should not book a TeleDirectMD UTI visit. Pregnant patients, patients with fever and flank pain, and patients who have had 3+ UTIs in the past 12 months also need in-person evaluation.',
     costNote: '$79 visit + $4\u2013$20 generic antibiotic (GoodRx, 2025)',
     stateGuideIntro: 'State guides answer: Can UTI antibiotics be prescribed online in your state without an in-person visit? What symptoms qualify? What is the cost?',
   },
 ];
 
 const STATES = [
-  { abbr: 'al', name: 'Alabama' }, { abbr: 'az', name: 'Arizona' }, { abbr: 'ca', name: 'California' },
+  { abbr: 'al', name: 'Alabama' }, { abbr: 'ak', name: 'Alaska' }, { abbr: 'az', name: 'Arizona' }, { abbr: 'ca', name: 'California' },
   { abbr: 'co', name: 'Colorado' }, { abbr: 'ct', name: 'Connecticut' }, { abbr: 'dc', name: 'Washington DC' },
   { abbr: 'de', name: 'Delaware' }, { abbr: 'fl', name: 'Florida' }, { abbr: 'ga', name: 'Georgia' },
   { abbr: 'hi', name: 'Hawaii' }, { abbr: 'id', name: 'Idaho' }, { abbr: 'il', name: 'Illinois' },
-  { abbr: 'in', name: 'Indiana' }, { abbr: 'ia', name: 'Iowa' }, { abbr: 'ks', name: 'Kansas' },
+  { abbr: 'in', name: 'Indiana' }, { abbr: 'ia', name: 'Iowa' },
   { abbr: 'ky', name: 'Kentucky' }, { abbr: 'la', name: 'Louisiana' }, { abbr: 'me', name: 'Maine' },
   { abbr: 'md', name: 'Maryland' }, { abbr: 'mi', name: 'Michigan' }, { abbr: 'mn', name: 'Minnesota' },
   { abbr: 'ms', name: 'Mississippi' }, { abbr: 'mo', name: 'Missouri' }, { abbr: 'mt', name: 'Montana' },
   { abbr: 'ne', name: 'Nebraska' }, { abbr: 'nv', name: 'Nevada' }, { abbr: 'nh', name: 'New Hampshire' },
-  { abbr: 'nj', name: 'New Jersey' }, { abbr: 'nc', name: 'North Carolina' }, { abbr: 'nd', name: 'North Dakota' },
+  { abbr: 'nj', name: 'New Jersey' }, { abbr: 'ny', name: 'New York' }, { abbr: 'nc', name: 'North Carolina' }, { abbr: 'nd', name: 'North Dakota' },
   { abbr: 'oh', name: 'Ohio' }, { abbr: 'ok', name: 'Oklahoma' }, { abbr: 'pa', name: 'Pennsylvania' },
   { abbr: 'sc', name: 'South Carolina' }, { abbr: 'sd', name: 'South Dakota' }, { abbr: 'tn', name: 'Tennessee' },
-  { abbr: 'tx', name: 'Texas' }, { abbr: 'ut', name: 'Utah' }, { abbr: 'va', name: 'Virginia' }, { abbr: 'wa', name: 'Washington' },
-  { abbr: 'wv', name: 'West Virginia' }, { abbr: 'wi', name: 'Wisconsin' }, { abbr: 'wy', name: 'Wyoming' },
+  { abbr: 'tx', name: 'Texas' }, { abbr: 'ut', name: 'Utah' }, { abbr: 'vt', name: 'Vermont' }, { abbr: 'va', name: 'Virginia' }, { abbr: 'wa', name: 'Washington' },
+  { abbr: 'wv', name: 'West Virginia' }, { abbr: 'wy', name: 'Wyoming' },
 ];
+
+// Pilot states (AK, VT) have no deep-dive page; see app/faq/deep-dive/[slug]/page.js STATES.
+const NO_DEEP_DIVE = new Set(['ak', 'vt']);
 
 function stateSlugName(abbr) {
   const map = {
@@ -109,7 +112,7 @@ const FAQS = [
   {
     question: 'What states does TeleDirectMD serve for these prescriptions?',
     answer:
-      'TeleDirectMD is currently licensed in 43 states + Washington DC. Each medication guide is available for all 43 states + DC. You must be physically located in a covered state at the time of your visit. The full list is available on the States We Serve page. States not currently covered include Alaska, Hawaii, New York, Massachusetts, Rhode Island, New Mexico, Oregon, and Arkansas.',
+      'TeleDirectMD is currently licensed in 40+ states + Washington DC. Each medication guide is available for 40+ states + DC. You must be physically located in a covered state at the time of your visit. The full list is available on the States We Serve page. States not currently covered include Arkansas, Kansas, Massachusetts, New Mexico, Oregon, Rhode Island, and Wisconsin.',
   },
   {
     question: 'Is a prescription guaranteed from a TeleDirectMD visit?',
@@ -144,11 +147,11 @@ const jsonLd = {
       url: `${BASE_URL}/faq/deep-dive/`,
       name: 'UTI Antibiotics Online — State-by-State FAQ | TeleDirectMD',
       description:
-        'Hub for state-by-state FAQ pages covering online UTI antibiotics prescriptions across 43 states. Other medication families (finasteride, sildenafil, tadalafil, propranolol) retired 2026-06-10.',
+        'Hub for state-by-state FAQ pages covering online UTI antibiotics prescriptions across 40+ states. Other medication families (finasteride, sildenafil, tadalafil, propranolol) retired 2026-06-10.',
       inLanguage: 'en-US',
       breadcrumb: { '@id': `${BASE_URL}/faq/deep-dive#breadcrumbs` },
       publisher: { '@id': `${BASE_URL}/#organization` },
-      reviewedBy: { '@id': `${BASE_URL}/#physician` },
+      reviewedBy: { '@id': `${BASE_URL}/about/#physician` },
       lastReviewed: '2026-05-23',
       hasPart: collectionPageChildren,
     },
@@ -168,7 +171,7 @@ const jsonLd = {
     },
     {
       '@type': 'Physician',
-      '@id': `${BASE_URL}/#physician`,
+      '@id': `${BASE_URL}/about/#physician`,
       name: 'Parth Bhavsar, MD',
       url: `${BASE_URL}/about`,
       identifier: { '@type': 'PropertyValue', name: 'NPI', value: '1104323203' },
@@ -189,9 +192,6 @@ const jsonLd = {
 };
 
 const PAGE_CSS = `
-  :root{--tdmd-teal:#006b73;--tdmd-navy:#003e52;--tdmd-accent:#ff5a36;--tdmd-bg-soft:#f3fafb;--tdmd-border:#dde3e6;--tdmd-text:#12323a;--tdmd-muted:#4b5f66;--tdmd-card:#ffffff;--tdmd-shadow:0 8px 20px rgba(0,0,0,0.06);--tdmd-radius:18px;}
-  @media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--tdmd-teal:#2bc4cf;--tdmd-navy:#a0d8e8;--tdmd-accent:#ff7a5c;--tdmd-bg-soft:#0f1f24;--tdmd-border:#1e3340;--tdmd-text:#e2edf0;--tdmd-muted:#8fa8b2;--tdmd-card:#122028;--tdmd-shadow:0 8px 20px rgba(0,0,0,0.3);color-scheme:dark;}}
-  :root[data-theme="dark"]{--tdmd-teal:#2bc4cf;--tdmd-navy:#a0d8e8;--tdmd-accent:#ff7a5c;--tdmd-bg-soft:#0f1f24;--tdmd-border:#1e3340;--tdmd-text:#e2edf0;--tdmd-muted:#8fa8b2;--tdmd-card:#122028;--tdmd-shadow:0 8px 20px rgba(0,0,0,0.3);color-scheme:dark;}
   .fdd-wrap{max-width:1100px;margin:0 auto;padding:0 1.5rem 4rem;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--tdmd-text);}
   .fdd-hero{background:var(--tdmd-bg-soft);padding:3rem 0 2.5rem;}
   .fdd-hero-inner{max-width:1100px;margin:0 auto;padding:0 1.5rem;}
@@ -202,10 +202,10 @@ const PAGE_CSS = `
   .fdd-lead{font-size:1.05rem;line-height:1.65;max-width:72ch;margin:0 0 1.25rem;color:var(--tdmd-text);}
   .fdd-badge-row{display:flex;flex-wrap:wrap;gap:0.5rem 0.75rem;margin-bottom:1.25rem;}
   .fdd-badge{background:var(--tdmd-card);border:1px solid var(--tdmd-border);border-radius:999px;padding:0.3rem 0.85rem;font-size:0.88rem;font-weight:700;color:var(--tdmd-navy);}
-  .fdd-badge--accent{background:var(--tdmd-accent);color:#fff;border-color:var(--tdmd-accent);}
+  .fdd-badge--accent{background:var(--tdmd-accent);color:var(--tdmd-on-accent);border-color:var(--tdmd-accent);}
   .fdd-ctas{display:flex;flex-wrap:wrap;gap:0.75rem;margin-bottom:1.25rem;}
   .fdd-btn{display:inline-block;padding:0.65rem 1.5rem;border-radius:999px;font-weight:700;font-size:0.95rem;text-decoration:none;text-align:center;}
-  .fdd-btn-primary{background:var(--tdmd-teal);color:#fff;}
+  .fdd-btn-primary{background:var(--tdmd-teal);color:var(--tdmd-on-teal);}
   .fdd-btn-outline{border:2px solid var(--tdmd-teal);color:var(--tdmd-teal);background:var(--tdmd-card);}
   .fdd-reviewed{font-size:0.85rem;color:var(--tdmd-muted);margin:0.5rem 0 0;}
   .fdd-reviewed a{color:var(--tdmd-navy);font-weight:700;text-decoration:underline;text-underline-offset:2px;}
@@ -238,7 +238,7 @@ const PAGE_CSS = `
   .fdd-divider{border:none;border-top:1px solid var(--tdmd-border);margin:2rem 0;}
   .fdd-step-grid{display:grid;gap:1rem;margin-top:1rem;}
   .fdd-step{background:var(--tdmd-card);border:1px solid var(--tdmd-border);border-radius:12px;padding:1.1rem 1.25rem;display:flex;gap:1rem;align-items:flex-start;box-shadow:var(--tdmd-shadow);}
-  .fdd-step-num{background:var(--tdmd-teal);color:#fff;width:2rem;height:2rem;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:0.95rem;flex-shrink:0;}
+  .fdd-step-num{background:var(--tdmd-teal);color:var(--tdmd-on-teal);width:2rem;height:2rem;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:0.95rem;flex-shrink:0;}
   .fdd-step-body h4{margin:0 0 0.3rem;font-size:1rem;font-weight:700;color:var(--tdmd-navy);}
   .fdd-step-body p{margin:0;font-size:0.9rem;color:var(--tdmd-muted);line-height:1.5;}
   @media(max-width:768px){.fdd-two-col{grid-template-columns:1fr;}}
@@ -263,7 +263,7 @@ export default function FaqDeepDiveHubPage() {
           <nav className="fdd-bc" aria-label="Breadcrumb">
             <a href="/">Home</a>
             <span aria-hidden="true">/</span>
-            <a href="/faq">FAQ</a>
+            <a href="/faq/">FAQ</a>
             <span aria-hidden="true">/</span>
             <span aria-current="page">Deep-Dive FAQ</span>
           </nav>
@@ -280,17 +280,17 @@ export default function FaqDeepDiveHubPage() {
           </p>
           <div className="fdd-badge-row">
             <span className="fdd-badge fdd-badge--accent">$79 Flat</span>
-            <span className="fdd-badge">43-State UTI Guide</span>
+            <span className="fdd-badge">Multi-State UTI Guide</span>
             <span className="fdd-badge">MD-Only</span>
             <span className="fdd-badge">Non-Controlled Meds Only</span>
           </div>
           <div className="fdd-ctas">
-            <a href="/book-online" className="fdd-btn fdd-btn-primary">Book a Visit — $79</a>
-            <a href="/faq" className="fdd-btn fdd-btn-outline">Main FAQ</a>
+            <a href="/book-online/" className="fdd-btn fdd-btn-primary">Book a Visit — $79</a>
+            <a href="/faq/" className="fdd-btn fdd-btn-outline">Main FAQ</a>
           </div>
           <p className="fdd-reviewed">
             Medically reviewed by{' '}
-            <a href="/about">Parth Bhavsar, MD</a>
+            <a href="/about/">Parth Bhavsar, MD</a>
             {' '}(NPI&nbsp;1104323203) &mdash; Last reviewed: May 23, 2026
           </p>
         </div>
@@ -317,10 +317,10 @@ export default function FaqDeepDiveHubPage() {
                   State guides:
                 </p>
                 <div className="fdd-state-cloud">
-                  {STATES.map((st) => (
+                  {STATES.filter((st) => !NO_DEEP_DIVE.has(st.abbr)).map((st) => (
                     <a
                       key={st.abbr}
-                      href={`/faq/deep-dive/${med.slugPrefix}-${stateSlugName(st.abbr)}`}
+                      href={`/faq/deep-dive/${med.slugPrefix}-${stateSlugName(st.abbr)}/`}
                       className="fdd-state-link"
                     >
                       {st.name}
@@ -391,18 +391,17 @@ export default function FaqDeepDiveHubPage() {
         <section className="fdd-section" aria-labelledby="states-heading">
           <h2 id="states-heading" className="fdd-h2">State Coverage for Medication Evaluations</h2>
           <p className="fdd-p">
-            TeleDirectMD is licensed in the following 43 states + Washington DC. Patients must be physically located in
+            TeleDirectMD is licensed in the following 40+ states + Washington DC. Patients must be physically located in
             a covered state at the time of their visit. Each state link below leads to the general state page — for
             medication-specific guides, use the state links in the medication cards above.
           </p>
           <div className="fdd-link-cloud">
             {STATES.map((st) => (
-              <a key={st.abbr} href={`/${stateSlugName(st.abbr)}`}>{st.name}</a>
+              <a key={st.abbr} href={`/${st.abbr}/`}>{st.name}</a>
             ))}
           </div>
           <p className="fdd-p" style={{ marginTop: '1rem' }}>
-            States not currently served: Alaska, Hawaii, New York, Massachusetts, Rhode Island, New Mexico, Oregon,
-            and Arkansas. Patients in those states should seek care from a locally licensed telehealth service.
+            States not currently served: Arkansas, Kansas, Massachusetts, New Mexico, Oregon, Rhode Island, and Wisconsin. Patients in those states should seek care from a locally licensed telehealth service.
           </p>
         </section>
 
@@ -476,13 +475,13 @@ export default function FaqDeepDiveHubPage() {
         <section className="fdd-section" aria-labelledby="related-heading">
           <h2 id="related-heading" className="fdd-h2">Related Resources</h2>
           <div className="fdd-link-cloud">
-            <a href="/faq">Main FAQ Page</a>
-            <a href="/cost">Cost Guides</a>
-            <a href="/symptoms">Symptoms Directory</a>
-            <a href="/compare">Compare Telehealth Services</a>
-            <a href="/insurance">Insurance &amp; Pricing</a>
-            <a href="/about">About Dr. Bhavsar, MD</a>
-            <a href="/states-we-serve">States We Serve</a>
+            <a href="/faq/">Main FAQ Page</a>
+            <a href="/cost/">Cost Guides</a>
+            <a href="/what-we-treat/">What We Treat</a>
+            <a href="/compare/">Compare Telehealth Services</a>
+            <a href="/insurance/">Insurance &amp; Pricing</a>
+            <a href="/about/">About Dr. Bhavsar, MD</a>
+            <a href="/states-we-serve/">States We Serve</a>
           </div>
         </section>
 
@@ -490,11 +489,11 @@ export default function FaqDeepDiveHubPage() {
         <div className="fdd-cta-bar">
           <div>
             <h3>Ready for a medication evaluation? Book today for $79.</h3>
-            <p>Board-certified MD, same-day video visit, non-controlled prescriptions, 43 states + DC. No membership required.</p>
+            <p>Board-certified MD, same-day video visit, non-controlled prescriptions, 40+ states + DC. No membership required.</p>
           </div>
           <div className="fdd-cta-bar-actions">
-            <a href="/book-online" className="fdd-btn fdd-btn-primary">Book a Visit</a>
-            <a href="/faq" className="fdd-btn fdd-btn-outline">Main FAQ</a>
+            <a href="/book-online/" className="fdd-btn fdd-btn-primary">Book a Visit</a>
+            <a href="/faq/" className="fdd-btn fdd-btn-outline">Main FAQ</a>
           </div>
         </div>
 

@@ -12,6 +12,7 @@
  *   • Parth Bhavsar, MD · Family Medicine · Vermont-licensed.
  */
 
+import { stateConditionHref } from '../../../lib/live-routes';
 import FaqAccordion from '../../components/FaqAccordion';
 import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock } from '../../components/CostCompareModules';
 
@@ -31,7 +32,7 @@ const PHYSICIAN = {
   licenseState: 'Vermont',
   licenseNumber: '042.0040345-COMP',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 const MEDICATIONS = [
@@ -39,7 +40,7 @@ const MEDICATIONS = [
   { name: "Dicloxacillin 500 mg", regimen: "500 mg four times daily × 5–7 days", price: "~$15–$35 / course GoodRx (generic)", priceHref: "https://www.goodrx.com/dicloxacillin", firstLine: true, notes: "Alternative beta-lactam for non-purulent cellulitis. Take on an empty stomach." },
   { name: "Clindamycin 300–450 mg", regimen: "300–450 mg three times daily × 5–7 days", price: "~$15–$40 / course GoodRx (generic)", priceHref: "https://www.goodrx.com/clindamycin", firstLine: false, notes: "Option for penicillin allergy; also covers some MRSA. Watch for diarrhea (C. difficile risk)." },
   { name: "Trimethoprim-sulfamethoxazole or doxycycline (if MRSA suspected)", regimen: "TMP-SMX DS twice daily, or doxycycline 100 mg twice daily × 5–7 days", price: "~$8–$25 / course GoodRx (generic)", priceHref: "https://www.goodrx.com/sulfamethoxazole-trimethoprim", firstLine: false, notes: "Used when MRSA is a concern (e.g., purulence, prior MRSA). Doxycycline avoided in pregnancy." },
-  { name: "Amoxicillin-clavulanate 875/125 mg (animal/cat bite)", regimen: "875/125 mg twice daily × 5–7 days", price: "~$15–$40 / course GoodRx (generic)", priceHref: "https://www.goodrx.com/amoxicillin-clavulanate", firstLine: false, notes: "Covers Pasteurella from animal and cat bites. Bite wounds may need in-person wound care." }
+  { name: "Amoxicillin-clavulanate 875/125 mg (animal/cat bite)", regimen: "875/125 mg twice daily × 5–7 days", price: "~$15–$40 / course GoodRx (generic)", priceHref: "https://www.goodrx.com/amoxicillin-potassium-clavulanate", firstLine: false, notes: "Covers Pasteurella from animal and cat bites. Bite wounds may need in-person wound care." }
 ];
 
 const FAQ_ITEMS = [
@@ -58,14 +59,13 @@ const VT_SIBLINGS = [
   { slug: "shingles-treatment-online", label: "Shingles Treatment in VT", why: "A painful dermatomal rash to distinguish from a spreading skin infection." },
   { slug: "acne-treatment-online", label: "Acne Treatment in VT", why: "Part of our skin-condition cluster managed by video." },
   { slug: "cold-sore-treatment-online", label: "Cold Sore Treatment in VT", why: "Another skin/facial condition treated by telehealth." },
-  { slug: "uti-treatment-online", label: "UTI Treatment in VT", why: "Another common antibiotic-driven outpatient infection." },
-  { slug: "online-doctor-visits", label: "All Online Doctor Visits in VT", why: "General VT telehealth hub for any condition we treat." }
+  { slug: "uti-treatment-online", label: "UTI Treatment for Women in VT", why: "Another common antibiotic-driven outpatient infection." },
 ];
 
 const REFERENCES = [
   { t: "IDSA — Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections (2014)", u: "https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/" },
   { t: "IDSA SSTI Guideline (PubMed)", u: "https://pubmed.ncbi.nlm.nih.gov/24973422/" },
-  { t: "AAFP — Cellulitis and Skin and Soft Tissue Infections", u: "https://www.aafp.org/pubs/afp/issues/2021/0501/p544.html" },
+  { t: "Ramakrishnan K, Salinas RC, Agudelo Higuita NI. Skin and Soft Tissue Infections. Am Fam Physician. 2015;92(6):474-483", u: "https://pubmed.ncbi.nlm.nih.gov/26371732/" },
   { t: "Vermont 211 — Find Local Health Resources", u: "https://vermont211.org" }
 ];
 
@@ -97,7 +97,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -251,7 +251,7 @@ export default function VtCellulitisTreatmentOnline() {
                       Reviewed by <a href={PHYSICIAN.bioUrl}>{PHYSICIAN.name}</a> — Board-Certified {PHYSICIAN.specialty}
                     </span>
                     <span className="vt-cellulitis-treatment-online__byline-meta">
-                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
+                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
                       <time dateTime={DATE_MODIFIED}>{new Date(DATE_MODIFIED).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
                     </span>
                   </div>
@@ -275,9 +275,9 @@ export default function VtCellulitisTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/vt/" className="tdmd-btn tdmd-btn-outline">Explore Vermont Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> L03.90 (Cellulitis, unspecified) — final coding depends on clinical details</p>
@@ -356,7 +356,7 @@ export default function VtCellulitisTreatmentOnline() {
 
             <h3>What standard of care applies to Vermont telehealth physicians?</h3>
             <p>
-              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: the standard of care is the same whether a patient is seen in person or by telehealth. Physicians must be licensed in Vermont to treat Vermont patients — a requirement TeleDirectMD satisfies. Dr. Bhavsar is a Vermont-licensed, board-certified physician of the American Board of Family Medicine and holds Vermont Medical License #042.0040345-COMP issued by the Vermont Board of Medical Practice. <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">Verify license</a> · <a href="/about/">Dr. Bhavsar bio</a>.
+              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: the standard of care is the same whether a patient is seen in person or by telehealth. Physicians must be licensed in Vermont to treat Vermont patients — a requirement TeleDirectMD satisfies. Dr. Bhavsar is a Vermont-licensed, board-certified physician of the American Board of Family Medicine and holds Vermont Medical License #042.0040345-COMP issued by the Vermont Board of Medical Practice. <a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">Verify license</a> · <a href="/about/">Dr. Bhavsar bio</a>.
             </p>
 
             <h3>Are these medications controlled substances under Vermont law?</h3>
@@ -391,7 +391,7 @@ export default function VtCellulitisTreatmentOnline() {
                   <h3>Get a plan and, if appropriate, an e-prescription</h3>
                   <p>If medication is clinically appropriate, a Vermont-compliant e-prescription is sent to your chosen Vermont pharmacy — CVS, Walgreens, Rite Aid, Walmart, or another pharmacy — during or after the visit. You receive clear follow-up steps, including when to seek in-person care.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -419,25 +419,6 @@ export default function VtCellulitisTreatmentOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical cost comparison">
-                <h3>Typical Cellulitis Treatment Visit Cost in Vermont</h3>
-                <p className="tdmd-price-caption">Common ranges Vermonters see before insurance. Actual costs vary by setting and city.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 13, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical Vermont metro pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <div className="tdmd-cashpay-note">
@@ -452,7 +433,7 @@ export default function VtCellulitisTreatmentOnline() {
             <h2>Cellulitis in Vermont: Mild Skin Infection vs. Look-Alikes</h2>
             <p dangerouslySetInnerHTML={{ __html: `Cellulitis is a common bacterial infection of the skin and underlying soft tissue, usually caused by streptococci or <em>Staphylococcus aureus</em> entering through a break in the skin. In Vermont, those breaks frequently come from outdoor recreation — hiking blisters and scrapes on the Long Trail and Appalachian Trail, gardening and farm work, splinters from docks and barns around Lake Champlain, and minor animal or insect bites. Early, mild cellulitis appears as a localized patch of warm, red, tender skin with a poorly defined border, without pus, fever, or red streaking. The <a href="https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/" rel="noopener" target="_blank">IDSA 2014 practice guideline for skin and soft tissue infections</a> classifies mild, uncomplicated infection in a patient without systemic signs as Eron Class I — the only category appropriate for outpatient oral therapy and telehealth.` }} />
             <p dangerouslySetInnerHTML={{ __html: `Telling cellulitis apart from look-alikes is the core clinical task, and Vermont's tick exposure makes this especially important. Cellulitis is a bacterial infection that expands as a warm, tender, ill-defined red area and is not confined to a single nerve band. The expanding, often target-shaped rash of early Lyme disease (erythema migrans) spreads outward from a tick-bite site and is usually not warm or tender the way cellulitis is — see our <a href="/vt/tick-bite-treatment-online/">Vermont tick bite and Lyme prevention page</a>. Shingles produces a painful, blistering rash confined to one dermatome on one side of the body — see our <a href="/vt/shingles-treatment-online/">Vermont shingles treatment page</a>. The physician uses history, appearance, and distribution to distinguish these and avoid mistreating one for another.` }} />
-            <p dangerouslySetInnerHTML={{ __html: `Treatment of mild cellulitis is a short course of oral antibiotics, with the choice driven by whether methicillin-resistant <em>S. aureus</em> (MRSA) is a concern and by any penicillin allergy, per <a href="https://www.aafp.org/pubs/afp/issues/2021/0501/p544.html" rel="noopener" target="_blank">AAFP's review of IDSA SSTI guidance</a>. Non-purulent cellulitis is usually treated with a beta-lactam such as cephalexin; clindamycin is an option for penicillin allergy; and animal or cat bites warrant amoxicillin-clavulanate to cover Pasteurella. A safe telehealth visit includes asking you to mark the border of the redness so you can watch for spread, and clear instructions to seek in-person care urgently if the area expands, develops streaks, or you develop fever.` }} />
+            <p dangerouslySetInnerHTML={{ __html: `Treatment of mild cellulitis is a short course of oral antibiotics, with the choice driven by whether methicillin-resistant <em>S. aureus</em> (MRSA) is a concern and by any penicillin allergy, per <a href="https://pubmed.ncbi.nlm.nih.gov/24973422/" rel="noopener" target="_blank">IDSA SSTI guidance</a> and an <a href="https://pubmed.ncbi.nlm.nih.gov/26371732/" rel="noopener" target="_blank">American Family Physician review of skin and soft tissue infections</a>. Non-purulent cellulitis is usually treated with a beta-lactam such as cephalexin; clindamycin is an option for penicillin allergy; and animal or cat bites warrant amoxicillin-clavulanate to cover Pasteurella. A safe telehealth visit includes asking you to mark the border of the redness so you can watch for spread, and clear instructions to seek in-person care urgently if the area expands, develops streaks, or you develop fever.` }} />
           </div>
         </section>
 
@@ -489,6 +470,7 @@ export default function VtCellulitisTreatmentOnline() {
             <p className="tdmd-med-note">
               <strong>Important:</strong> The choice of medication depends on your history, allergies, kidney and liver function, drug interactions, and pregnancy status, assessed by the physician at the visit. Do not start a prescription medication without a clinical evaluation. No treatment is guaranteed to work for every patient.
             </p>
+            <p className="tdmd-med-note" data-fda-notes="true"><strong>FDA labeling note:</strong> Trimethoprim-sulfamethoxazole (TMP-SMX), Rx only, has not been approved by the FDA as safe and effective to treat skin and soft tissue infections; the Infectious Diseases Society of America 2014 guideline recommends it where MRSA is a concern and as the penicillin-allergy alternative for bite wounds. Only a licensed physician may prescribe this medication for this condition if, in his clinical judgment, use is medically appropriate. Report side effects to the FDA at www.fda.gov/medwatch or 1-800-FDA-1088.</p>
           </div>
         </section>
 
@@ -530,7 +512,7 @@ export default function VtCellulitisTreatmentOnline() {
                 <p>Book a same-day video visit — Vermont adults, 18+</p>
                 <small>Cash-pay $79 flat · No insurance billing in Vermont · No ER wait</small>
               </div>
-              <a className="vt-cellulitis-treatment-online__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
+              <a className="vt-cellulitis-treatment-online__cta-btn" href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -553,8 +535,8 @@ export default function VtCellulitisTreatmentOnline() {
                 <p>Book a same-day video visit. Cash-pay $79 flat. No insurance billing in Vermont.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -567,7 +549,7 @@ export default function VtCellulitisTreatmentOnline() {
             <p>These Vermont condition pages may help when symptoms overlap, or when you want to explore another Vermont telehealth visit from TeleDirectMD.</p>
             <div className="vt-cellulitis-treatment-online__sibling-grid">
               {VT_SIBLINGS.map((s) => (
-                <a key={s.slug} className="vt-cellulitis-treatment-online__sibling" href={`/vt/${s.slug}/`}>
+                <a key={s.slug} className="vt-cellulitis-treatment-online__sibling" href={stateConditionHref('vt', s.slug) || `/${s.slug}/`}>
                   <span className="vt-cellulitis-treatment-online__sibling-label">{s.label}</span>
                   <span className="vt-cellulitis-treatment-online__sibling-why">{s.why}</span>
                 </a>
@@ -586,9 +568,9 @@ export default function VtCellulitisTreatmentOnline() {
               <a href="/vt/">Vermont (state pillar)</a>
               <a href="/cellulitis-treatment-online/">National Cellulitis Treatment page</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>

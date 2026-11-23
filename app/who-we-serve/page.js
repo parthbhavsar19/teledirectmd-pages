@@ -2,22 +2,32 @@ import audienceSegments from '../../data/audience-segments.json';
 
 export const metadata = {
   title: 'Who We Serve — TeleDirectMD',
-  description: 'TeleDirectMD provides telehealth for truck drivers, gig workers, international visitors, college students, early retirees, military families, remote workers, travel nurses, and the uninsured. Licensed physician in 43 states. Same-day visits, evenings & weekends.',
+  description: 'TeleDirectMD provides telehealth for truck drivers, gig workers, international visitors, college students, early retirees, military families, remote workers, travel nurses, and the uninsured. Licensed physician in 40+ states. Same-day visits, evenings & weekends.',
   alternates: {
     canonical: 'https://teledirectmd.com/who-we-serve',
   },
   openGraph: {
     title: 'Who We Serve — TeleDirectMD',
-    description: 'Telehealth built for people who cannot always stop. Licensed in 43 states.',
+    description: 'Telehealth built for people who cannot always stop. Licensed in 40+ states.',
     url: 'https://teledirectmd.com/who-we-serve',
     siteName: 'TeleDirectMD',
     type: 'website',
+    images: [
+      {
+        url: 'https://teledirectmd.com/assets/who-we-serve/hero.webp',
+        width: 1600,
+        height: 900,
+        alt: 'TeleDirectMD — telehealth for the communities we serve',
+      },
+    ],
   },
 };
 
 export default function WhoWeServeHub() {
   const baseUrl = 'https://teledirectmd.com';
-  const segments = Object.values(audienceSegments);
+  const segments = Object.values(audienceSegments).sort(
+    (a, b) => (a.sortOrder ?? 99) - (b.sortOrder ?? 99)
+  );
 
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
@@ -40,7 +50,7 @@ export default function WhoWeServeHub() {
       "@type": "MedicalTherapy",
       "name": "Telehealth Consultations"
     },
-    "areaServed": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","WA","WV","WI","WY"]
+    "areaServed": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","IA","ID","IL","IN","KY","LA","MD","ME","MI","MN","MO","MS","MT","NC","ND","NE","NH","NJ","NY","NV","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WY"]
   };
 
   return (
@@ -66,16 +76,30 @@ export default function WhoWeServeHub() {
       {/* Hero */}
       <section className="tdmd-hero">
         <div className="tdmd-container">
-          <h1>Telehealth Built for People Who Can't Always Stop — Healthcare That Travels With You</h1>
-          <p className="tdmd-hero-sub" style={{ maxWidth: '72ch' }}>
-            Licensed physician. 43 states. Same-day visits, evenings & weekends. No insurance required.
-          </p>
-          <p style={{ maxWidth: '72ch', lineHeight: '1.6' }}>
-            TeleDirectMD provides secure video visits with a board-certified physician for adults across 43 states. Everyone deserves access to quality healthcare — but some people face barriers that make it harder. Whether you're driving cross-country, delivering groceries at midnight, freelancing without employer benefits, or recently lost your insurance coverage, TeleDirectMD was built to meet you where you are.
-          </p>
-          <p style={{ maxWidth: '72ch', lineHeight: '1.6' }}>
-            Below, you'll find information tailored to specific communities we serve. Each page addresses the unique health challenges, access barriers, and questions relevant to your situation — along with how TeleDirectMD can help.
-          </p>
+          <div className="tdmd-hero-grid">
+            <div className="tdmd-hero-copy">
+              <h1>Telehealth Built for People Who Can't Always Stop — Healthcare That Travels With You</h1>
+              <p className="tdmd-hero-sub" style={{ maxWidth: '72ch' }}>
+                Licensed physician. 40+ states. Same-day visits, evenings & weekends. No insurance required.
+              </p>
+              <p style={{ maxWidth: '72ch', lineHeight: '1.6' }}>
+                TeleDirectMD provides secure video visits with a board-certified physician for adults across 40+ states. Everyone deserves access to quality healthcare — but some people face barriers that make it harder. Whether you're driving cross-country, delivering groceries at midnight, freelancing without employer benefits, or recently lost your insurance coverage, TeleDirectMD was built to meet you where you are.
+              </p>
+              <p style={{ maxWidth: '72ch', lineHeight: '1.6' }}>
+                Below, you'll find information tailored to specific communities we serve. Each page addresses the unique health challenges, access barriers, and questions relevant to your situation — along with how TeleDirectMD can help.
+              </p>
+            </div>
+            <div className="tdmd-hero-side">
+              <img
+                src="/assets/who-we-serve/hero.webp"
+                alt="Illustration of the communities TeleDirectMD serves — truck drivers, gig workers, travel nurses, travelers, and students connecting with a doctor by video"
+                width={640}
+                height={360}
+                loading="eager"
+                style={{ width: '100%', height: 'auto', borderRadius: 'var(--tdmd-radius)', display: 'block' }}
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -92,7 +116,7 @@ export default function WhoWeServeHub() {
             {segments.map((seg) => (
               <a
                 key={seg.slug}
-                href={`/who-we-serve/${seg.slug}`}
+                href={`/who-we-serve/${seg.slug}/`}
                 className="tdmd-card"
                 style={{
                   textDecoration: 'none',
@@ -104,6 +128,14 @@ export default function WhoWeServeHub() {
                   gap: '0.5rem'
                 }}
               >
+                <img
+                  src={seg.icon}
+                  alt=""
+                  width={48}
+                  height={48}
+                  loading="lazy"
+                  style={{ width: '48px', height: '48px', objectFit: 'contain' }}
+                />
                 <h3 style={{ margin: 0, color: 'var(--tdmd-navy)' }}>{seg.name}</h3>
                 <p style={{ margin: 0, color: 'var(--tdmd-muted)', fontSize: '0.95rem', lineHeight: '1.5' }}>
                   {seg.shortDescription}
@@ -123,11 +155,11 @@ export default function WhoWeServeHub() {
           <div className="tdmd-bottom-cta">
             <div className="tdmd-bottom-cta-copy">
               <h3>Whatever your situation, we can see you today.</h3>
-              <p>Same-day visits, evenings & weekends. No insurance required. Board-certified physician licensed in 43 states, available by secure video visit.</p>
+              <p>Same-day visits, evenings & weekends. No insurance required. Board-certified physician licensed in 40+ states, available by secure video visit.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-              <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">What We Treat</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+              <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">What We Treat</a>
             </div>
           </div>
         </div>
@@ -139,11 +171,11 @@ export default function WhoWeServeHub() {
           <div className="tdmd-inline-links">
             <h3>More from TeleDirectMD</h3>
             <p className="tdmd-link-cloud">
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/states-we-serve">States We Serve</a>
-              <a href="/insurance">Insurance & Pricing</a>
-              <a href="/faq">Frequently Asked Questions</a>
-              <a href="/book-online">Book a Visit</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/states-we-serve/">States We Serve</a>
+              <a href="/insurance/">Insurance & Pricing</a>
+              <a href="/faq/">Frequently Asked Questions</a>
+              <a href="/book-online/">Book a Visit</a>
             </p>
           </div>
         </div>

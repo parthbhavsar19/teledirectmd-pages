@@ -1,12 +1,13 @@
+import { contentDate } from '../../../lib/content-dates';
 export default function CollegeStudentsPage() {
   const baseUrl = 'https://teledirectmd.com';
   const pageUrl = `${baseUrl}/who-we-serve/college-students`;
-  const today = new Date().toISOString().split('T')[0];
+  const today = contentDate('whoWeServe');
   const pid = 'college-students';
 
   const conditions = [
-    { name: 'UTI / Urinary Tract Infection', slug: 'uti-treatment-online', desc: 'The most common reason college students visit student health. Antibiotic prescription sent to campus pharmacy or CVS.' },
-    { name: 'Strep Throat', slug: 'strep-throat-treatment-online', desc: 'Antibiotic treatment for strep — quick evaluation and prescription without waiting at student health.' },
+    { name: 'UTI (women only)', slug: 'uti-treatment-online', desc: 'The most common reason college students visit student health. Antibiotic prescription sent to campus pharmacy or CVS.' },
+    { name: 'Strep Throat', slug: 'sore-throat-treatment-online', desc: 'Antibiotic treatment for strep — quick evaluation and prescription without waiting at student health.' },
     { name: 'Sinus Infection', slug: 'sinus-infection-treatment-online', desc: 'Evaluate and treat sinus pressure, congestion, and post-nasal drip from your dorm room.' },
     { name: 'Pink Eye (Conjunctivitis)', slug: 'pink-eye-treatment-online', desc: 'Antibiotic eye drops sent to the nearest pharmacy — diagnosed in minutes via video.' },
     { name: 'Respiratory Infections / Bronchitis', slug: 'common-cold-treatment-online', desc: 'Evaluation for cold, flu, and bronchitis — get back to class faster.' },
@@ -19,9 +20,9 @@ export default function CollegeStudentsPage() {
 
   const scenarios = [
     { title: 'Student health is closed', desc: 'It\'s 9 PM on a Sunday and your student health center opens Monday at 9 AM. TeleDirectMD is available evenings and weekends.' },
-    { title: 'You\'re studying in a different state', desc: 'Your PCP is back home and won\'t prescribe remotely across state lines. TeleDirectMD is licensed in 43 states — wherever you\'re enrolled.' },
+    { title: 'You\'re studying in a different state', desc: 'Your PCP is back home and won\'t prescribe remotely across state lines. TeleDirectMD is licensed in 40+ states — wherever you\'re enrolled.' },
     { title: 'You aged off your parent\'s plan', desc: 'Turned 26 and haven\'t locked in new coverage yet? TeleDirectMD requires no insurance — just $79.' },
-    { title: 'Back home for break, need a prescription', desc: 'College is out and your campus pharmacy is closed. We send prescriptions to any pharmacy in 43 states.' },
+    { title: 'Back home for break, need a prescription', desc: 'College is out and your campus pharmacy is closed. We send prescriptions to any pharmacy in 40+ states.' },
   ];
 
   const faqItems = [
@@ -31,7 +32,7 @@ export default function CollegeStudentsPage() {
     },
     {
       q: 'My home doctor is in another state. Can TeleDirectMD treat me at school?',
-      a: 'Yes. This is one of the most common situations we handle for college students. TeleDirectMD is licensed in 43 states, so as long as you are physically located in one of our covered states at the time of your visit, we can see you and send a prescription to a pharmacy near campus. No out-of-state referral needed.'
+      a: 'Yes. This is one of the most common situations we handle for college students. TeleDirectMD is licensed in 40+ states, so as long as you are physically located in one of our covered states at the time of your visit, we can see you and send a prescription to a pharmacy near campus. No out-of-state referral needed.'
     },
     {
       q: 'Can you send a prescription to my campus pharmacy?',
@@ -39,7 +40,7 @@ export default function CollegeStudentsPage() {
     },
     {
       q: 'I don\'t have insurance right now. Is that okay?',
-      a: 'Absolutely. TeleDirectMD requires no insurance whatsoever. You pay a flat $79 at the time of booking — that\'s the full cost of the visit including the physician consultation and any prescription. No forms, no billing, no surprise charges.'
+      a: 'Absolutely. TeleDirectMD requires no insurance whatsoever. You pay a flat $79 at the time of booking — that\'s the full cost of the visit including the physician consultation and any prescription. No forms, no billing, no hidden fees.'
     },
     {
       q: 'Can you treat anxiety or mental health concerns?',
@@ -47,7 +48,7 @@ export default function CollegeStudentsPage() {
     },
     {
       q: 'What if I get sick during winter or spring break when I\'m back home?',
-      a: 'No problem. TeleDirectMD is available in 43 states — not just your college state. As long as you\'re physically in one of our covered states (which includes virtually every major state), you can be seen and get a prescription sent to a local pharmacy near home.'
+      a: 'No problem. TeleDirectMD is available in 40+ states — not just your college state. As long as you\'re physically in one of our covered states (which includes virtually every major state), you can be seen and get a prescription sent to a local pharmacy near home.'
     },
     {
       q: 'Is this real medical care or just advice?',
@@ -61,10 +62,12 @@ export default function CollegeStudentsPage() {
 
   const allStates = [
     { abbr: 'AL', name: 'Alabama' },
+    { abbr: 'AK', name: 'Alaska' },
     { abbr: 'AZ', name: 'Arizona' },
     { abbr: 'CA', name: 'California' },
     { abbr: 'CO', name: 'Colorado' },
     { abbr: 'CT', name: 'Connecticut' },
+    { abbr: 'DC', name: 'Washington, D.C.' },
     { abbr: 'DE', name: 'Delaware' },
     { abbr: 'FL', name: 'Florida' },
     { abbr: 'GA', name: 'Georgia' },
@@ -73,7 +76,6 @@ export default function CollegeStudentsPage() {
     { abbr: 'IL', name: 'Illinois' },
     { abbr: 'IN', name: 'Indiana' },
     { abbr: 'IA', name: 'Iowa' },
-    { abbr: 'KS', name: 'Kansas' },
     { abbr: 'KY', name: 'Kentucky' },
     { abbr: 'LA', name: 'Louisiana' },
     { abbr: 'ME', name: 'Maine' },
@@ -87,6 +89,7 @@ export default function CollegeStudentsPage() {
     { abbr: 'NV', name: 'Nevada' },
     { abbr: 'NH', name: 'New Hampshire' },
     { abbr: 'NJ', name: 'New Jersey' },
+    { abbr: 'NY', name: 'New York' },
     { abbr: 'NC', name: 'North Carolina' },
     { abbr: 'ND', name: 'North Dakota' },
     { abbr: 'OH', name: 'Ohio' },
@@ -98,9 +101,9 @@ export default function CollegeStudentsPage() {
     { abbr: 'TX', name: 'Texas' },
     { abbr: 'UT', name: 'Utah' },
     { abbr: 'VA', name: 'Virginia' },
+    { abbr: 'VT', name: 'Vermont' },
     { abbr: 'WA', name: 'Washington' },
     { abbr: 'WV', name: 'West Virginia' },
-    { abbr: 'WI', name: 'Wisconsin' },
     { abbr: 'WY', name: 'Wyoming' },
   ];
 
@@ -130,7 +133,7 @@ export default function CollegeStudentsPage() {
       },
       {
         "@type": "Physician",
-        "@id": `${baseUrl}/about#physician`,
+        "@id": `${baseUrl}/about/#physician`,
         "name": "Parth Bhavsar, MD",
         "medicalSpecialty": "FamilyMedicine",
         "alumniOf": { "@type": "EducationalOrganization", "name": "University of Mississippi Medical Center" },
@@ -151,7 +154,7 @@ export default function CollegeStudentsPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Online Doctor for College Students — Same-Day Care from Your Dorm or Apartment",
-        "description": "TeleDirectMD provides same-day telehealth for college students across 43 states. UTI, strep, sinus, pink eye — $79 flat fee, no insurance required. Prescriptions sent to campus or nearby pharmacy.",
+        "description": "TeleDirectMD provides same-day telehealth for college students across 40+ states. UTI (women only), strep, sinus, pink eye — $79 flat fee, no insurance required. Prescriptions sent to campus or nearby pharmacy.",
         "datePublished": "2026-04-20",
         "dateModified": today,
         "author": { "@type": "Physician", "name": "Parth Bhavsar, MD" },
@@ -170,7 +173,7 @@ export default function CollegeStudentsPage() {
         <div className="tdmd-container">
           <a href="/">Home</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <a href="/who-we-serve">Who We Serve</a>
+          <a href="/who-we-serve/">Who We Serve</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
           <span aria-current="page">College Students</span>
         </div>
@@ -186,7 +189,7 @@ export default function CollegeStudentsPage() {
             Online doctor for college students:
           </p>
           <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
-            TeleDirectMD provides same-day video visits with a board-certified physician for college students in 43 states — UTI, strep, sinus infections, pink eye, skin concerns, and prescription refills for $79 flat fee. Available evenings and weekends when student health is closed. No insurance required. Prescriptions sent to campus or any nearby pharmacy.
+            TeleDirectMD provides same-day video visits with a board-certified physician for college students in 40+ states — UTI (women only), strep, sinus infections, pink eye, skin concerns, and prescription refills for $79 flat fee. Available evenings and weekends when student health is closed. No insurance required. Prescriptions sent to campus or any nearby pharmacy.
           </p>
         </div>
       </div>
@@ -196,9 +199,9 @@ export default function CollegeStudentsPage() {
         <div className="tdmd-container">
           <div className="tdmd-hero-grid">
             <div className="tdmd-hero-copy">
-              <h1>Online Doctor for College Students — Same-Day Care From Your Dorm, Anywhere in 43 States</h1>
+              <h1>Online Doctor for College Students — Same-Day Care From Your Dorm, Anywhere in 40+ States</h1>
               <p className="tdmd-hero-sub">
-                Student health backed up? Your doctor back home won't prescribe across state lines? TeleDirectMD connects you with a board-certified physician via video — from your dorm, apartment, or anywhere in 43 states. Flat $79 fee. No insurance required. Prescriptions sent to campus or your nearest pharmacy.
+                Student health backed up? Your doctor back home won't prescribe across state lines? TeleDirectMD connects you with a board-certified physician via video — from your dorm, apartment, or anywhere in 40+ states. Flat $79 fee. No insurance required. Prescriptions sent to campus or your nearest pharmacy.
               </p>
               <p>
                 College students face a unique healthcare gap. Student health centers operate on limited Monday–Friday schedules, leaving large windows of unmet need — evenings, weekends, and holidays. Out-of-state licensing restrictions mean your home doctor legally cannot prescribe across state lines. High-deductible student insurance plans make urgent care financially painful. TeleDirectMD was built for exactly this gap: board-certified urgent medical care, available when and where you need it.
@@ -222,16 +225,16 @@ export default function CollegeStudentsPage() {
 
               <ul className="tdmd-hero-benefits">
                 <li>Available evenings &amp; weekends — when student health is closed</li>
-                <li>Licensed in 43 states — wherever your school is, we're there</li>
-                <li>$79 flat fee — no surprise bills</li>
-                <li>UTI, strep, sinus, pink eye — diagnosed and treated in one visit</li>
+                <li>Licensed in 40+ states — wherever your school is, we're there</li>
+                <li>$79 flat fee — no hidden fees</li>
+                <li>UTI (women only), strep, sinus, pink eye — diagnosed and treated in one visit</li>
                 <li>Prescriptions sent to campus pharmacy, CVS, Walgreens, or any US pharmacy</li>
                 <li>No insurance required — ever</li>
               </ul>
 
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
               </div>
 
               <p className="tdmd-reviewed">Last reviewed by Parth Bhavsar, MD, board-certified Family Medicine · {today}</p>
@@ -263,8 +266,8 @@ export default function CollegeStudentsPage() {
             <div className="tdmd-card tdmd-card-good">
               <h3>&#10003; You Are Eligible If</h3>
               <ul className="tdmd-checklist tdmd-checklist--good">
-                <li>You are 18 years of age or older and physically located in one of our 43 states</li>
-                <li>Your condition is non-emergency: UTI, sinus, strep, pink eye, skin rash, respiratory infection, allergies</li>
+                <li>You are 18 years of age or older and physically located in one of our 40+ states</li>
+                <li>Your condition is non-emergency: UTI (women only), sinus, strep, pink eye, skin rash, respiratory infection, allergies</li>
                 <li>Your home doctor won't prescribe remotely across state lines</li>
                 <li>You need a prescription refill while away from your home-state provider</li>
                 <li>Your student health center is closed or has a long wait time</li>
@@ -315,7 +318,7 @@ export default function CollegeStudentsPage() {
             </div>
           </div>
           <div className="tdmd-decision-cta">
-            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Same-Day Visit — $79</a>
+            <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Same-Day Visit — $79</a>
           </div>
         </div>
       </section>
@@ -328,7 +331,7 @@ export default function CollegeStudentsPage() {
             Telehealth is licensed state by state. Your home doctor is licensed in your home state — not your college state. That's why they legally cannot prescribe across state lines, even over video. It's not a policy choice; it's how state medical licensing works.
           </p>
           <p>
-            TeleDirectMD is licensed in 43 states, so wherever your school is, we can see you legally and prescribe. Whether you're enrolled in Georgia and your family is in Ohio, or you're a California student studying in Texas, we're authorized to care for you in your current location.
+            TeleDirectMD is licensed in 40+ states, so wherever your school is, we can see you legally and prescribe. Whether you're enrolled in Georgia and your family is in Ohio, or you're a California student studying in Texas, we're authorized to care for you in your current location.
           </p>
           <p>
             Student health centers typically operate Monday–Friday during business hours. With approximately 19 million students competing for appointments at under-resourced facilities, waits of 1–3 days for non-emergency visits are common — and that's if you can get an appointment at all. Evenings, weekends, and holiday breaks leave students with no campus option.
@@ -360,7 +363,7 @@ export default function CollegeStudentsPage() {
                   <td>$79 flat</td>
                   <td>Usually same-day</td>
                   <td>Evenings &amp; weekends</td>
-                  <td>UTI, strep, sinus, skin, refills</td>
+                  <td>UTI (women only), strep, sinus, skin, refills</td>
                 </tr>
                 <tr>
                   <td>Student Health Center</td>
@@ -394,7 +397,7 @@ export default function CollegeStudentsPage() {
             </table>
           </div>
           <p className="tdmd-comparison-note">
-            For the UTIs, sinus infections, and strep throats that hit on a Sunday night, TeleDirectMD is the fastest, most affordable path to a diagnosis and prescription.
+            For the UTIs (women only), sinus infections, and strep throats that hit on a Sunday night, TeleDirectMD is a fast, affordable way to get a diagnosis and, when clinically appropriate, a prescription.
           </p>
         </div>
       </section>
@@ -424,7 +427,7 @@ export default function CollegeStudentsPage() {
               <div className="tdmd-decision-number">3</div>
               <div className="tdmd-decision-content">
                 <h3>Is this a common condition treatable via video?</h3>
-                <p>UTI, strep, sinus, pink eye, skin rash, respiratory infection, allergy, prescription refill?</p>
+                <p>UTI (women only), strep, sinus, pink eye, skin rash, respiratory infection, allergy, prescription refill?</p>
                 <p><strong>YES:</strong> Book TeleDirectMD — same-day, $79.</p>
               </div>
             </div>
@@ -438,7 +441,7 @@ export default function CollegeStudentsPage() {
             </div>
           </div>
           <div className="tdmd-decision-cta">
-            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+            <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
           </div>
         </div>
       </section>
@@ -450,7 +453,7 @@ export default function CollegeStudentsPage() {
           <div className="tdmd-price-grid">
             <div className="tdmd-price-card">
               <div className="tdmd-price-big">$79</div>
-              <div className="tdmd-price-sub">One flat fee, no surprise bills</div>
+              <div className="tdmd-price-sub">One flat fee, no hidden fees</div>
               <ul className="tdmd-price-includes">
                 <li>Video visit with board-certified MD</li>
                 <li>Diagnosis and treatment plan</li>
@@ -506,10 +509,10 @@ export default function CollegeStudentsPage() {
             Approximately 19 million students are enrolled in US colleges and universities. The vast majority rely on student health centers that operate on limited business-hours schedules, leaving a large window of unmet need — evenings, weekends, and holidays. When a UTI hits at 9 PM on a Sunday before a Monday exam, there is no campus option.
           </p>
           <p>
-            71% of college students have used telehealth — a higher rate than the general population (54%). But the dominant telehealth platforms in the college market (TimelyCare, Uwill, Hims/Hers) focus almost exclusively on behavioral health: therapy, counseling, and mental wellness. For urgent medical conditions — UTI, strep throat, sinus infections, pink eye, skin infections — there is no dominant telehealth platform dedicated to college students.
+            71% of college students have used telehealth — a higher rate than the general population (54%). But the dominant telehealth platforms in the college market (TimelyCare, Uwill, Hims/Hers) focus almost exclusively on behavioral health: therapy, counseling, and mental wellness. For urgent medical conditions — UTI (women only), strep throat, sinus infections, pink eye, skin infections — there is no dominant telehealth platform dedicated to college students.
           </p>
           <p>
-            TeleDirectMD fills that gap: urgent medical care, not behavioral health. Board-certified MD, not a chatbot or wellness app. $79 flat fee, same-day availability, 43 states covered. Prescriptions sent to any campus pharmacy or nearby Walgreens or CVS.
+            TeleDirectMD fills that gap: urgent medical care, not behavioral health. Board-certified MD, not a chatbot or wellness app. $79 flat fee, same-day availability, 40+ states covered. Prescriptions sent to any campus pharmacy or nearby Walgreens or CVS.
           </p>
         </div>
       </section>
@@ -545,7 +548,7 @@ export default function CollegeStudentsPage() {
               </thead>
               <tbody>
                 <tr>
-                  <td>UTI</td>
+                  <td>UTI (women only)</td>
                   <td>Burning, frequency, urgency, pelvic pain</td>
                   <td>Yes</td>
                   <td>Fever &gt;101°F, back pain, vomiting (kidney involvement)</td>
@@ -606,7 +609,7 @@ export default function CollegeStudentsPage() {
             <div className="tdmd-card tdmd-card-good">
               <h3>Telehealth Appropriate</h3>
               <ul className="tdmd-checklist tdmd-checklist--good">
-                <li>UTI</li>
+                <li>UTI (women only)</li>
                 <li>Strep throat</li>
                 <li>Sinus infection</li>
                 <li>Pink eye</li>
@@ -650,7 +653,7 @@ export default function CollegeStudentsPage() {
             </div>
             <div className="tdmd-card">
               <h3>Cross-State Care</h3>
-              <p>If your home doctor is in Ohio and you're studying in Georgia, we can see you and prescribe — because we're licensed in 43 states including both. No referral needed. No out-of-state complications. Just book and connect.</p>
+              <p>If your home doctor is in Ohio and you're studying in Georgia, we can see you and prescribe — because we're licensed in 40+ states including both. No referral needed. No out-of-state complications. Just book and connect.</p>
             </div>
             <div className="tdmd-card">
               <h3>Anxiety Management</h3>
@@ -687,12 +690,12 @@ export default function CollegeStudentsPage() {
               <tbody>
                 <tr>
                   <td>Antibiotics (amoxicillin, azithromycin, cephalexin)</td>
-                  <td>Strep, sinus, UTI, skin</td>
+                  <td>Strep, sinus, UTI (women only), skin</td>
                   <td>Sent to campus or nearby pharmacy</td>
                 </tr>
                 <tr>
                   <td>Nitrofurantoin, Trimethoprim-Sulfamethoxazole</td>
-                  <td>UTI</td>
+                  <td>UTI (women only)</td>
                   <td>Standard first-line antibiotics</td>
                 </tr>
                 <tr>
@@ -827,8 +830,8 @@ export default function CollegeStudentsPage() {
             <p>Same-day visits, evenings and weekends. $79 flat fee. Prescriptions sent to campus pharmacy.</p>
           </div>
           <div className="tdmd-bottom-cta-actions">
-            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
-            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
+            <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+            <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
           </div>
         </div>
       </section>
@@ -839,10 +842,10 @@ export default function CollegeStudentsPage() {
           <h2>References</h2>
           <ul className="tdmd-ref-list">
             <li><a href="https://nces.ed.gov/fastfacts/display.asp?id=372" target="_blank" rel="noopener noreferrer">National Center for Education Statistics — College Enrollment Data</a></li>
-            <li><a href="https://www.hers.com/telehealth-survey" target="_blank" rel="noopener noreferrer">Hers — College Student Telehealth Usage Survey (2024)</a></li>
+            <li><a href="https://kvia.com/news/business-technology/stacker-science/2024/08/31/trust-in-telehealth-is-on-the-rise-nearly-3-4-of-gen-z-report-using-a-telehealth-service/" target="_blank" rel="noopener noreferrer">Hers 2024 Telehealth Survey, as reported by Stacker (KVIA): Nearly 3/4 of Gen Z Report Using a Telehealth Service</a></li>
             <li><a href="https://hope4college.com/" target="_blank" rel="noopener noreferrer">Temple University Hope Center — #RealCollege Survey</a></li>
-            <li><a href="https://www.cdc.gov/std/treatment-guidelines/urogenital.htm" target="_blank" rel="noopener noreferrer">CDC — STI Treatment Guidelines: UTI Management</a></li>
-            <li><a href="https://www.aafp.org/pubs/afp/issues/2016/0101/p24.html" target="_blank" rel="noopener noreferrer">AAFP — Strep Throat: Diagnosis and Treatment</a></li>
+            <li><a href="https://www.cdc.gov/uti/about/index.html" target="_blank" rel="noopener noreferrer">CDC — Urinary Tract Infection Basics</a></li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/27386721/" target="_blank" rel="noopener noreferrer">AAFP — Common Questions About Streptococcal Pharyngitis (Am Fam Physician 2016)</a></li>
             <li><a href="https://www.cms.gov/marketplace/resources/data" target="_blank" rel="noopener noreferrer">CMS — ACA Marketplace Data for Young Adults</a></li>
           </ul>
         </div>
@@ -861,10 +864,10 @@ export default function CollegeStudentsPage() {
       <section id={`${pid}-states`} className="tdmd-section tdmd-section-highlight">
         <div className="tdmd-container">
           <h2>Available at Your School — Wherever That Is</h2>
-          <p>TeleDirectMD is licensed in 43 states. Whether your campus is in Georgia, Texas, Ohio, California, the Carolinas, or anywhere in between, we can see you legally and send a prescription to a pharmacy near campus.</p>
+          <p>TeleDirectMD is licensed in 40+ states. Whether your campus is in Georgia, Texas, Ohio, California, the Carolinas, or anywhere in between, we can see you legally and send a prescription to a pharmacy near campus.</p>
           <div className="tdmd-other-states-grid">
             {allStates.map(s => (
-              <a key={s.abbr} href={`/${s.abbr.toLowerCase()}`} className="tdmd-other-state-link">
+              <a key={s.abbr} href={`/${s.abbr.toLowerCase()}/`} className="tdmd-other-state-link">
                 {s.name}
               </a>
             ))}
@@ -877,39 +880,39 @@ export default function CollegeStudentsPage() {
         <div className="tdmd-container">
           <h2>Who Else We Serve</h2>
           <div className="tdmd-related-grid">
-            <a href="/who-we-serve/international-visitors" className="tdmd-related-card">
+            <a href="/who-we-serve/international-visitors/" className="tdmd-related-card">
               <div className="tdmd-related-title">International Visitors</div>
-              <div className="tdmd-related-desc">No US insurance? $79 flat-fee care in 43 states.</div>
+              <div className="tdmd-related-desc">No US insurance? $79 flat-fee care in 40+ states.</div>
             </a>
-            <a href="/who-we-serve/gig-workers" className="tdmd-related-card">
+            <a href="/who-we-serve/gig-workers/" className="tdmd-related-card">
               <div className="tdmd-related-title">Gig Workers</div>
               <div className="tdmd-related-desc">Flexible care for freelancers and delivery drivers.</div>
             </a>
-            <a href="/who-we-serve/uninsured-affordable-care" className="tdmd-related-card">
+            <a href="/who-we-serve/uninsured-affordable-care/" className="tdmd-related-card">
               <div className="tdmd-related-title">Uninsured Adults</div>
-              <div className="tdmd-related-desc">No insurance? Transparent pricing, no surprise bills.</div>
+              <div className="tdmd-related-desc">No insurance? Transparent pricing, no hidden fees.</div>
             </a>
-            <a href="/who-we-serve/early-retirees" className="tdmd-related-card">
+            <a href="/who-we-serve/early-retirees/" className="tdmd-related-card">
               <div className="tdmd-related-title">Early Retirees</div>
               <div className="tdmd-related-desc">Bridge the gap until Medicare with $79 visits.</div>
             </a>
-            <a href="/who-we-serve/remote-workers" className="tdmd-related-card">
+            <a href="/who-we-serve/remote-workers/" className="tdmd-related-card">
               <div className="tdmd-related-title">Remote Workers</div>
               <div className="tdmd-related-desc">Healthcare that follows you anywhere.</div>
             </a>
-            <a href="/who-we-serve/truck-drivers" className="tdmd-related-card">
+            <a href="/who-we-serve/truck-drivers/" className="tdmd-related-card">
               <div className="tdmd-related-title">Truck Drivers</div>
-              <div className="tdmd-related-desc">Care from any truck stop in 43 states.</div>
+              <div className="tdmd-related-desc">Care from any truck stop in 40+ states.</div>
             </a>
           </div>
 
           <div className="tdmd-inline-links">
             <div className="tdmd-link-cloud">
-              <a href="/insurance-pricing">Insurance &amp; Pricing</a>
-              <a href="/states-we-serve">States We Serve</a>
-              <a href="/what-we-treat">What We Treat</a>
+              <a href="/insurance/">Insurance &amp; Pricing</a>
+              <a href="/states-we-serve/">States We Serve</a>
+              <a href="/what-we-treat/">What We Treat</a>
               <a href={`#${pid}-faq`}>FAQ</a>
-              <a href="/book-online">Book a Visit</a>
+              <a href="/book-online/">Book a Visit</a>
             </div>
           </div>
         </div>

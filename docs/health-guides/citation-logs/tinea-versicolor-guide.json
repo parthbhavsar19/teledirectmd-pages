@@ -1,0 +1,978 @@
+{
+  "guide": "tinea-versicolor-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 7 verified, retractions: none (DOIs for refs 1, 8, 10, 11, 14, 16, 23: no editorial notices, no contrasting evidence flagged, no predatory journals). Refs 2 (AFP 2014, no DOI) and 19 (Clin Ther 1985, no DOI) could not be verified by Scite from reference text and were confirmed through PubMed records (PMID 25403034, 2865009). PubMed article types checked for all 9 journal refs: no Retracted Publication or Retraction Notice.",
+  "references": [
+    {
+      "n": 1,
+      "kind": "journal",
+      "cited_as": "Łabędź N, Navarrete-Dechent C, Kubisiak-Rzepczyk H, Bowszyc-Dmochowska M, Pogorzelska-Antkowiak A, Pietkiewicz P. \"Pityriasis Versicolor: A Narrative Review on the Diagnosis and Management.\" Life (Basel). 2023;13(10):2097. doi:10.3390/life13102097.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10608716/",
+      "pmid": "37895478",
+      "pmcid": "PMC10608716",
+      "doi": "10.3390/life13102097",
+      "record_title": "Pityriasis Versicolor-A Narrative Review on the Diagnosis and Management.",
+      "record_journal": "Life (Basel)",
+      "record_year": "2023",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (37895478); PubMed get_full_text_article (PMC10608716; italic genus names stripped by the tool); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Volume 13, issue 10, article number 2097 (pii life13102097). Author list now complete (6 authors, copied from PubMed).",
+      "claims": [
+        {
+          "text": "Malassezia causes the rash only in its filamentous (hyphal) form",
+          "quote": "is a dimorphic yeast-like fungus. It causes PV only in its pathogenic, filamentous (hyphal) form.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Malassezia genus has 19 species and is part of the healthy skin microbiome",
+          "quote": "currently comprising 19 species, remains an integral component of the healthy skin microbiome",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "patches mainly on trunk, neck, upper arms",
+          "quote": "PV is characterised by scaly hypopigmented or hyperpigmented patches, primarily affecting the upper trunk, neck, and upper arms.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Wood lamp: only about one third of lesions fluoresce; showering may wash away chromophores",
+          "quote": "it has been shown that only one third of the PV lesions display fluorescence with Wood’s lamp []. One of the factors seemingly responsible for this number could be washing out the chromophores with a shower/bath",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "first-line treatment is topical, including selenium sulfide 2.5%",
+          "quote": "Topical therapies are the primary treatment for PV, encompassing non-specific antifungal agents like sulphur with salicylic acid, selenium sulphide 2.5%, and zinc pyrithione.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "prolonged topical prophylaxis should be considered in recurrent cases, warmer humid months",
+          "quote": "Prolonged prophylaxis with topical agents should be considered in recurrent cases, especially during warmer and more humid months.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "prevalence up to 50% tropical, 1-4% moderate, 1% cold climates",
+          "quote": "The prevalence of PV reaches up to 50% in tropical regions, whereas it is estimated to be around 1–4% and 1% in moderate and cold climates, respectively",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "lipid-dependent yeast lives in sebum-rich areas (chest, upper back, face, scalp)",
+          "quote": "Sebaceous areas of the human skin, including the scalp, face, chest, and upper back, remain a habitat for thegenus due to the abundance of a lipid nutrient source",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "most often develops in adolescents and young adults because of increased sebum",
+          "quote": "it most often develops in adolescents and young adults due to increased sebum production by the sebaceous glands",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "predisposing factors: hot humid environment, sweating, oily emollients, seborrhea, pregnancy, oral contraceptives, corticosteroids, malnutrition, poor health, genetics; heat favors filamentous conversion",
+          "quote": "conversion from the yeast-like form include a hot and humid environment, hyperhidrosis, the application of oily emollients, using protective face masks, seborrhoea, endocrine and neuropathic disorders, pregnancy, the use of oral contraceptives and corticosteroids, malnutrition, poor general health",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "genetic predisposition is also listed",
+          "quote": "the use of oral contraceptives and corticosteroids, malnutrition, poor general health, and genetic predisposition",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "organism interacts with melanocytes to produce discolored patches",
+          "quote": "the fungus has a potential to produce hypo- or hyperpigmented patches by interacting with melanocytes",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "azelaic acid from Malassezia inhibits tyrosinase (lighter patches)",
+          "quote": "Depigmented lesions develop through enzymatic inhibition of melanocyte tyrosinase activity by azelaic acid produced by the microorganism.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "lipid-like material may act as a physical sunscreen",
+          "quote": "lipid-like material accumulates in the stratum corneum, acting as a physical sunscreen and protecting from ultraviolet light, further enhancing hypopigmentation.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "pityriacitrin turned out to have very weak sun-protective properties",
+          "quote": "One of the substances suspected of this photo-protective action was pityriacitrin [], yet its sun-protective properties were proven to be very weak",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "lighter patches more visible in darker skin",
+          "quote": "The effects of enzymatic depigmentation tend to be more visible in darker phototypes.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "darker patches more common in lighter skin tones",
+          "quote": "Hyperpigmented lesions are, in turn, more common in lighter skin tones",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "location: back, shoulders, neck, chest; less often abdomen, upper arms, thighs",
+          "quote": "The disorder commonly affects seborrheic areas: back and shoulder girdle, neck, chest, and less frequently abdomen, upper arms, and thighs",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "facial involvement uncommon, reported particularly in children (symptoms list, clinical forms, FAQ)",
+          "quote": "Facial involvement is uncommon and has been reported particularly in children",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "itching often absent; mild itch worse with warmth, humidity, sweating",
+          "quote": "The disease is often asymptomatic, although some patients may report mild pruritus that may intensify with warmth and high humidity (e.g., after sweating)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "classical form: round macules with delicate scale that may merge",
+          "quote": "hyper- or hypopigmented, poorly to well-delineated, roundish macules covered with delicate translucent scales. Skin lesions may have a tendency towards becoming confluent.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "follicular form on chest and back; spots around follicles that may merge",
+          "quote": "Folliculocentric PV predominantly affects the chest and back regions. This form impacts the hair follicles, giving rise to asymptomatic, hypo- or hyperpigmented macules. These macules are exclusively located around the follicles and may occasionally merge",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "other variants: inverse, atrophying, papular, confetti-like",
+          "quote": "a variant termed “tinea InVersicolor” or “Inverse PV”. ... Atrophying PV, another distinct form ... The papular form of PV ... The confetti-like subtype",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "diagnosis usually from clinical appearance alone",
+          "quote": "Classical PV rarely requires any work-up other than clinical examination.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "KOH gives no stain; methylene green, PAS or blue ink improve visualization",
+          "quote": "As adding KOH provides no stain, methylene green, periodic acid–Schiff (PAS; with methylene green or fuchsin), or simply common blue ink can be used for better visualisation",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "sample the periphery; darker lesions contain more hyphae and spores",
+          "quote": "As the highest concentration of fungi is noted at the lesion’s periphery [,], we recommend taking the sample from this area ... Hyperpigmented lesions tend to contain more hyphae and spores than the hypopigmented ones",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "KOH microscopy is not 100% sensitive",
+          "quote": "direct microscopic examination with KOH does not provide 100% sensitivity",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Wood lamp peak wavelength 365 nm",
+          "quote": "Wood’s light is an ultraviolet light (UV) emitter (wavelength range: 320–450 nm; peak wavelength: 365 nm).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "culture not recommended; olive-oil media, 1 to 4 weeks incubation",
+          "quote": "Microbiological culture in PV is not recommended []. The process is difficult for the required use of synthetic mycological media enriched with olive oil, and 1–4 weeks of incubation at 32 °C",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "topical is treatment of choice; oral second-line for extensive, severe, unresponsive or recurrent disease",
+          "quote": "Topical therapy is the treatment of choice for PV ... Oral medications are utilised as a second-line treatment for extensive, severe, unresponsive, or recurrent disease.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "reviews also describe 2-week selenium sulfide courses",
+          "quote": "Selenium sulphide lotion should be applied once daily (for 10 min), whereas the treatment duration should be 2 weeks.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "whole-body antifungal washes might limit recurrence but poorly supported",
+          "quote": "The whole-body application of antifungal shampoos or soaps with selenium sulphide, zinc pyrithione, ketoconazole, and terbinafine might limit the recurrence rate []. Nevertheless, it is worth underlining that such management is still poorly supported with the literature.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "topical treatment should also cover the scalp, a major reservoir",
+          "quote": "every topical therapy should also target the scalp, a major reservoir of the fungus",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "itraconazole and fluconazole are the preferred oral options",
+          "quote": "Itraconazole and fluconazole are preferred, whereas oral ketoconazole is no longer recommended, due to its unfavourable safety profile",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "topical agents: better safety profile, fewer interactions, lower cost",
+          "quote": "they have a better safety profile, with a lower incidence of adverse effects (local irritation and contact allergy being the most prevalent, especially with selenium sulphide), fewer drug interactions, and lower costs compared to systemic treatment",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "oral prophylaxis with itraconazole or fluconazole is a practical alternative if topical agents fail",
+          "quote": "Prophylactic use of oral antifungal agents (viz., itraconazole or fluconazole) remains a practical alternative, especially if topical agents fail to eliminate the infection",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "washing and ironing clothes; clothing can be a reservoir",
+          "quote": "Additional measures include washing and ironing the clothes, as these can serve as a reservoir",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "higher incidence in immunocompromised people and in diabetes or obesity",
+          "quote": "Higher incidence has been noted in physically active individuals, patients suffering from diabetes and obesity, and immunocompromised individuals.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQ: topical treatment works well for most limited disease",
+          "quote": "Treatment response is excellent in the majority of PV cases treated with topical agents only.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Ely JW, Rosenfeld S, Seabury Stone M. \"Diagnosis and management of tinea infections.\" American Family Physician. 2014;90(10):702-710. PMID 25403034.",
+      "url": "https://www.aafp.org/afp/2014/1115/p702",
+      "pmid": "25403034",
+      "record_title": "Diagnosis and management of tinea infections.",
+      "record_journal": "Am Fam Physician",
+      "record_year": "2014",
+      "article_type": "Journal Article",
+      "retrieved_with": "WebFetch of the aafp.org article page (full text, first 100,000 characters); PubMed get_article_metadata (25403034); Scite verify_papers (could not verify by reference text; confirmed via PubMed)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "PubMed pages 702-10; the aafp.org page header gives 702-711. The aafp.org page notes a 2025 update exists. PubMed maps PMID 25403034 to PMC12707599, which is the 2025 update (same mapping problem the tinea-ringworm repair found), so the link goes to the aafp.org 2014 page, not PMC.",
+      "claims": [
+        {
+          "text": "tinea versicolor is not caused by dermatophytes (key takeaway, section 1, FAQ)",
+          "quote": "Tinea versicolor (now called pityriasis versicolor) is not caused by dermatophytes",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "other_web",
+      "cited_as": "Sayed C. \"Tinea Versicolor.\" Medscape (Chief Editor: Elston DM). Updated August 22, 2023. Accessed November 15, 2026.",
+      "url": "https://emedicine.medscape.com/article/1091575-overview",
+      "version_or_date": "Updated August 22, 2023 (author Christopher Sayed, MD; Chief Editor Dirk M Elston, MD)",
+      "retrieved_with": "WebFetch (two reads)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The original reference gave \"Updated July 3, 2025\"; the page read today shows August 22, 2023.",
+      "claims": [
+        {
+          "text": "not considered contagious because Malassezia is a normal skin inhabitant (key takeaway, FAQ)",
+          "quote": "The condition is not considered contagious because the causative fungal pathogen is a normal inhabitant of the skin.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "M. globosa, M. sympodialis and M. furfur most frequently isolated",
+          "quote": "Malassezia globosa, Malassezia sympodialis, and Malassezia furfur are the predominant species isolated in tinea versicolor.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "immunosuppression is a predisposing factor",
+          "quote": "These factors include genetic predisposition; warm, humid environments; immunosuppression; malnutrition;",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "US: most common at ages 15-24; uncommon before puberty or after 65",
+          "quote": "In the United States, tinea versicolor is most common in persons aged 15-24 years, when the sebaceous glands are more active. ... The occurrence of tinea versicolor before puberty or after age 65 years is uncommon.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "may recur chronically in predisposed people; prophylaxis may be required",
+          "quote": "In patients with a predisposition, tinea versicolor may chronically recur. ... Prophylactic treatment may be required to prevent recurrence as tinea versicolor is often resistant to eradication.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "more than 20% report family history",
+          "quote": "Greater than 20% of tinea versicolor patients report a family history of the condition.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "lymphocyte function impaired; cell-mediated immunity plays some role",
+          "quote": "lymphocyte function on stimulation with the organism has been shown to be impaired in patients who are affected.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "other_web",
+      "cited_as": "American Academy of Dermatology. \"Tinea versicolor: Signs and symptoms.\" No page date shown. Accessed November 15, 2026.",
+      "url": "https://www.aad.org/public/diseases/a-z/tinea-versicolor-symptoms",
+      "version_or_date": "No page date shown (footer copyright 2026); read 2026-11-15",
+      "retrieved_with": "WebSearch; WebFetch",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "patches more noticeable with a tan",
+          "quote": "Become more noticeable when you have a tan (the yeast prevents the skin from tanning)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "spots fade when temperature drops and return in spring or summer",
+          "quote": "Disappear when the temperature drops and return in the spring or summer when the air turns warm and humid",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "other_web",
+      "cited_as": "Oakley A. \"Pityriasis versicolor.\" DermNet. Updated September 2014; page last modified August 25, 2024. Accessed November 15, 2026.",
+      "url": "https://dermnetnz.org/topics/pityriasis-versicolor",
+      "version_or_date": "Written 1997, updated September 2014, DermNet revision August 2021; page metadata published October 26, 2023, modified August 25, 2024",
+      "retrieved_with": "WebFetch (two reads)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Author A/Prof Amanda Oakley. The page has no prevalence figures for Sweden or Samoa; that claim was moved to ref 1.",
+      "claims": [
+        {
+          "text": "KOH shows spaghetti and meatballs (key takeaway, KOH section)",
+          "quote": "hyphae and yeast cells that resemble spaghetti and meatballs",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "lingering color does not mean treatment failure",
+          "quote": "The colour may persist for weeks or months, particularly the hypopigmentation, and do not indicate treatment failure.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "fine scale indicates active infection; once gone, infection not ongoing",
+          "quote": "The fine surface scale is the indication of active infection and once this has disappeared, infection is no longer ongoing.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "seborrheic dermatitis associated with the same Malassezia overgrowth",
+          "quote": "may also co-exist with seborrhoeic dermatitis as both are associated with malassezia overgrowth",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "selenium sulfide reapplied monthly once rash has cleared (prophylaxis table)",
+          "quote": "Reapplication of a topical treatment such as selenium sulfide shampoo every month once the rash has cleared",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "not considered infectious in the conventional sense (FAQ)",
+          "quote": "Although it is not considered infectious in the conventional sense,",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "label",
+      "cited_as": "Selenium sulfide topical suspension USP, 2.5% (lotion), Rx only. Padagis. Prescribing information. DailyMed, National Library of Medicine. Updated May 31, 2025. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28b84e3c-ae44-40bb-93c4-2625e19f7e61",
+      "version_or_date": "DailyMed \"Updated May 31, 2025\" (Padagis Israel Pharmaceuticals; Rx only)",
+      "retrieved_with": "WebSearch; WebFetch",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "selenium sulfide 2.5% lotion for tinea versicolor; 10 minutes once a day for 7 days (key takeaway, table, FAQ, citable summary)",
+          "quote": "For treatment of tinea versicolor: Apply to affected areas and lather with a small amount of water. Allow product to remain on skin for 10 minutes, then rinse the body thoroughly. Repeat this procedure once a day for seven days.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "prescription only at 2.5%",
+          "quote": "Rx Only",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "keep out of eyes, genital area, broken or inflamed skin (table, FAQ face)",
+          "quote": "Do not use on broken skin or inflamed areas. ... Avoid getting shampoo in eyes or in contact with genital area as it may cause irritation and burning.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "label",
+      "cited_as": "Ketoconazole shampoo, 2%, Rx only. Padagis. Prescribing information. DailyMed, National Library of Medicine. Updated May 31, 2024. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=99da5233-2760-46f6-8fb3-d9df5da70bfb",
+      "version_or_date": "DailyMed \"Updated May 31, 2024\" (Padagis; Rx only)",
+      "retrieved_with": "WebSearch; WebFetch",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "ketoconazole 2% shampoo indicated for tinea versicolor",
+          "quote": "indicated for the treatment of tinea (pityriasis) versicolor caused by or presumed to be caused by",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "apply to damp skin, leave 5 minutes, rinse; one application sufficient (table, FAQ, citable summary)",
+          "quote": "Apply the shampoo to the damp skin of the affected area and a wide margin surrounding this area. Lather, leave in place for 5 minutes, and then rinse off with water. One application of the shampoo should be sufficient.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "mycological clearing 84% (3 daily) and 78% (single application)",
+          "quote": "Mycological clearing rates were 84% and 78%, respectively",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "journal",
+      "cited_as": "Gupta AK, Lane D, Paquet M. \"Systematic review of systemic treatments for tinea versicolor and evidence-based dosing regimen recommendations.\" Journal of Cutaneous Medicine and Surgery. 2014;18(2):79-90. doi:10.2310/7750.2013.13062.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24636433/",
+      "pmid": "24636433",
+      "doi": "10.2310/7750.2013.13062",
+      "record_title": "Systematic review of systemic treatments for tinea versicolor and evidence-based dosing regimen recommendations.",
+      "record_journal": "J Cutan Med Surg",
+      "record_year": "2014",
+      "article_type": "Journal Article; Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Abstract only; claims limited to the abstract. New reference (its URL was already in the page JSON-LD citation array but not in the visible list).",
+      "claims": [
+        {
+          "text": "fluconazole 300 mg weekly for 2 weeks; itraconazole 200 mg daily for 5 or 7 days (key takeaway, oral table, FAQ, citable summary)",
+          "quote": "this review supports the following dosing regimens: 200 mg/d for 5 or 7 days of itraconazole, 300 mg/wk for 2 weeks of fluconazole",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "no oral dosing regimen approved for this indication",
+          "quote": "Extensive or recurrent tinea versicolor (TV) can be treated with systemic antifungal therapies, but no dosing regimens have been approved for this indication.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "systematic review of 57 trials",
+          "quote": "Fifty-seven trials investigating itraconazole, ketoconazole, fluconazole, and pramiconazole were included.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "other_web",
+      "cited_as": "American Academy of Dermatology. \"Tinea versicolor: Diagnosis and treatment.\" No page date shown. Accessed November 15, 2026.",
+      "url": "https://www.aad.org/public/diseases/a-z/tinea-versicolor-treatment",
+      "version_or_date": "No page date shown (footer copyright 2026); read 2026-11-15",
+      "retrieved_with": "WebSearch; WebFetch",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "skin may stay lighter or darker for weeks or months; eventually returns to normal (key takeaway, opening, callout, FAQ)",
+          "quote": "With treatment, the yeast is easy to kill. However, the skin may stay lighter (or darker) for weeks or months. The skin will eventually return to its normal color.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "protect skin from the sun and do not tan to even out skin tone (replaces \"sun exposure speeds repigmentation\")",
+          "quote": "To help even out your skin tone, you should protect your skin from the sun and not tan.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "scraping under microscope or Wood lamp if any doubt",
+          "quote": "If there is any doubt, the dermatologist will do one of the following to make an accurate diagnosis:",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "affected skin appears yellowish green under Wood lamp",
+          "quote": "If the patient has tinea versicolor, the affected skin appears yellowish green in color when looked at with this lamp.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "pyrithione zinc is a common active ingredient in medicated washes; topical is most common treatment",
+          "quote": "The active ingredient in these medicines is often selenium sulfide, ketoconazole, or pyrithione zinc.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "pills if large area, thick, or often returns",
+          "quote": "A dermatologist may prescribe these pills if the tinea versicolor covers a large area of the body, is thick, or often returns after it is treated.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "tropical climates may need cleanser year round; may return every spring",
+          "quote": "Some people who live in a tropical climate may need to use a medicated cleanser year round ... People who live in an area that becomes warm and moist each spring may see tinea versicolor return every year.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "medicated cleanser once or twice a month in warm humid periods (prophylaxis table, citable summary)",
+          "quote": "Using a medicated cleanser once or twice a month, especially during warm and humid periods, can prevent the yeast from overgrowing again.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "journal",
+      "cited_as": "Faergemann J, Gupta AK, Al Mofadi A, Abanami A, Shareaah AA, Marynissen G. \"Efficacy of itraconazole in the prophylactic treatment of pityriasis (tinea) versicolor.\" Archives of Dermatology. 2002;138(1):69-73. doi:10.1001/archderm.138.1.69.",
+      "url": "https://jamanetwork.com/journals/jamadermatology/fullarticle/478654",
+      "pmid": "11790169",
+      "doi": "10.1001/archderm.138.1.69",
+      "record_title": "Efficacy of itraconazole in the prophylactic treatment of pityriasis (tinea) versicolor.",
+      "record_journal": "Arch Dermatol",
+      "record_year": "2002",
+      "article_type": "Clinical Trial; Comparative Study; Journal Article; Multicenter Study; Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of the JAMA Network article page (full text shown); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Full author list copied from PubMed. The Comment section says \"itraconazole, 400 mg once a month\", inconsistent with the methods (200 mg twice daily 1 day per month); the guide uses the methods wording. The introduction also cites \"60% to 90% of patients relapse within 2 years in some series\".",
+      "claims": [
+        {
+          "text": "recurrence as much as 60% in 1 year and 80% in 2 years (key takeaway, recurrence section, FAQ, citable summary)",
+          "quote": "The high rate of recurrence, reaching as much as 60% in 1 year and 80% in 2 years, is an important consideration",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "92% mycological cure after itraconazole 200 mg daily for 7 days (open phase)",
+          "quote": "Open treatment: itraconazole, 200 mg once daily for 7 days. ... Mycological cure at the end of open treatment was 92% (205/223).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "prophylaxis: 200 mg twice daily 1 day per month for 6 months",
+          "quote": "Prophylactic treatment: itraconazole, 200 mg, or placebo twice daily 1 day per month for 6 consecutive months.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "randomized placebo-controlled: 88% vs 57% mycologically cured at 6 months (was \"symptom-free\")",
+          "quote": "At the prophylactic treatment end point (6 months), mycological cure was 88% (90/102) in the itraconazole group and 57% (56/99) in the placebo group (P<.001).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "journal",
+      "cited_as": "Gupta AK, Foley KA. \"Antifungal Treatment for Pityriasis Versicolor.\" Journal of Fungi (Basel). 2015;1(1):13-29. doi:10.3390/jof1010013.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5770013/",
+      "pmid": "29376896",
+      "pmcid": "PMC5770013",
+      "doi": "10.3390/jof1010013",
+      "record_title": "Antifungal Treatment for Pityriasis Versicolor.",
+      "record_journal": "J Fungi (Basel)",
+      "record_year": "2015",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC5770013); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference; replaces the blocked StatPearls page for the oral terbinafine and misdiagnosis claims.",
+      "claims": [
+        {
+          "text": "misdiagnosis can lead to treatments that do not work",
+          "quote": "In some cases, misdiagnosis may lead to inappropriate and ineffective treatment (e.g., antibiotics, corticosteroids)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "oral terbinafine not effective (section 1, table, FAQ, citable summary)",
+          "quote": "Oral terbinafine is not effective in treating PV and oral ketoconazole should no longer be prescribed.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "topical terbinafine can be effective",
+          "quote": "However, as mentioned previously, topical terbinafine does not have this restriction and can be effective.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "selenium sulfide and zinc pyrithione shown effective as non-specific treatments",
+          "quote": "Non-specific treatments shown to be effective in treating PV include selenium sulphide (lotion, cream, or shampoo), zinc pyrithione, propylene glycol, and Whitfield’s ointment",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "ketoconazole shampoo as effective as 2.5% selenium sulfide",
+          "quote": "ketoconazole shampoo was shown to be as effective as 2.5% selenium sulphide",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "medical panel prefers fluconazole over itraconazole because of interactions",
+          "quote": "A medical panel recommends the use of fluconazole, if possible, over itraconazole due to drug interactions",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Malassezia is normal flora, so the condition is difficult to eradicate (recurrence section, FAQ)",
+          "quote": "As Malassezia species are endogenous to the skin flora, this condition is particularly difficult to eradicate.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "limited research; monthly itraconazole and selenium sulfide may reduce relapse (prophylaxis text, table, FAQ)",
+          "quote": "Limited research into the effectiveness of antifungal prophylactic treatment has been conducted. Evidence suggests that monthly itraconazole [] and selenium sulphide [] may reduce relapse.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "other_web",
+      "cited_as": "American Academy of Dermatology. \"Tinea versicolor: Tips for managing.\" No page date shown. Accessed November 15, 2026.",
+      "url": "https://www.aad.org/public/diseases/a-z/tinea-versicolor-tips",
+      "version_or_date": "No page date shown (footer copyright 2026); read 2026-11-15",
+      "retrieved_with": "WebSearch; WebFetch",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "a tan makes tinea versicolor easier to see",
+          "quote": "A tan makes tinea versicolor easier to see.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "stop oily skin products, use oil-free (non-comedogenic), wear loose clothes",
+          "quote": "Stop using skin care products that are oily. ... Use products that are oil-free. ... Wear loose clothes.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "other_web",
+      "cited_as": "Young EM, Young JW. \"Utility of Wood's Lamp Screening in Patients with Pityriasis Versicolor\" (Case Report: Pityriasis Versicolor: Using the Wood's Lamp in Diagnosis). Practical Dermatology. No publication date shown. Accessed November 15, 2026.",
+      "url": "https://practicaldermatology.com/youngmd-connect/resident-resource-center/case-report-pityriasis-versicolor-using-the-woods-lamp-in-diagnosis-residents-of-distinction-honored/21011/",
+      "version_or_date": "No publication date shown on the page (study period ended October 15, 2015); read 2026-11-15",
+      "retrieved_with": "WebFetch (two reads)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Authors and article heading copied from the page. The original reference date \"March 15, 2016\" is not shown on the page and was removed. The page does not state 365 nm (now cited to ref 1) or erythrasma fluorescence.",
+      "claims": [
+        {
+          "text": "hyperpigmentation possibly from melanocyte stimulation by inflammation",
+          "quote": "it is thought to possibly be due to melanocyte stimulation by inflammatory milieu",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "evoked scale sign",
+          "quote": "all should have an abundance of powdery scale if scraped, referred to as the \"evoked scale sign.\"",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "fluorescence attributed to pityrialactone, a tryptophan derivative",
+          "quote": "due to Malassezia’s production of pityrialactone, a tryptophan derivative",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "journal",
+      "cited_as": "Choi FD, Juhasz MLW, Atanaskova Mesinkovska N. \"Topical ketoconazole: a systematic review of current dermatological applications and future developments.\" Journal of Dermatological Treatment. 2019;30(8):760-771. doi:10.1080/09546634.2019.1573309.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30668185/",
+      "pmid": "30668185",
+      "doi": "10.1080/09546634.2019.1573309",
+      "record_title": "Topical ketoconazole: a systematic review of current dermatological applications and future developments.",
+      "record_journal": "J Dermatolog Treat",
+      "record_year": "2019",
+      "article_type": "Journal Article; Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference; abstract only.",
+      "claims": [
+        {
+          "text": "topical ketoconazole effective for seborrheic dermatitis too",
+          "quote": "Topical KTZ is clinically effective for the treatment of-related conditions such as seborrheic dermatitis (SD) and pityriasis versicolor (PV)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "topical ketoconazole generally considered effective and safe",
+          "quote": "topical KTZ is generally thought to be effective and safe for the treatment of superficial fungal infections",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "label",
+      "cited_as": "Ketoconazole cream, 2%, Rx only. Encube Ethicals. Prescribing information. DailyMed, National Library of Medicine. Updated September 9, 2025. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59188ef7-5bc9-4acc-bbff-8712c41e5f77",
+      "version_or_date": "DailyMed \"Updated September 9, 2025\" (Encube Ethicals; Rx only)",
+      "retrieved_with": "WebSearch; WebFetch",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "ketoconazole 2% cream once daily; tinea versicolor usually two weeks",
+          "quote": "It is recommended that Ketoconazole Cream, 2% be applied once daily to cover the affected and immediate surrounding area. ... Patients with tinea versicolor usually require two weeks of treatment .",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "journal",
+      "cited_as": "Vermeer BJ, Staats CC. \"The efficacy of a topical application of terbinafine 1% solution in subjects with pityriasis versicolor: a placebo-controlled study.\" Dermatology. 1997;194 Suppl 1:22-24. doi:10.1159/000246179.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9154397/",
+      "pmid": "9154397",
+      "doi": "10.1159/000246179",
+      "record_title": "The efficacy of a topical application of terbinafine 1% solution in subjects with pityriasis versicolor: a placebo-controlled study.",
+      "record_journal": "Dermatology",
+      "record_year": "1997",
+      "article_type": "Clinical Trial; Journal Article; Multicenter Study; Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers (Scite lists year 2009, the online date; PubMed print year 1997)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New primary source for the topical terbinafine row (was cited to the Gupta & Lyons abstract, which gives no rates). Formulation corrected from cream or gel to solution.",
+      "claims": [
+        {
+          "text": "terbinafine 1% solution twice daily for 1 week: 81% negative mycology at 8 weeks vs 41% placebo",
+          "quote": "treatments were given twice a day for 1 week ... Eight weeks after the start of therapy, 81% of the subjects using terbinafine solution and 41% of those receiving placebo had a negative mycological examination",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "kind": "label",
+      "cited_as": "Terbinafine hydrochloride cream (OTC). Preferred Pharmaceuticals (distributed by Taro). Drug facts label. DailyMed, National Library of Medicine. Updated October 9, 2026. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6016e546-6c02-4af0-888c-c0899865c5f0",
+      "version_or_date": "DailyMed \"Updated October 9, 2026\" (Preferred Pharmaceuticals repackager label; human OTC drug label)",
+      "retrieved_with": "WebFetch",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "OTC terbinafine cream label lists athlete's foot, jock itch and ringworm, not tinea versicolor",
+          "quote": "cures most athlete's foot (tinea pedis) ... cures most jock itch (tinea cruris) and ringworm (tinea corporis)",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "kind": "label",
+      "cited_as": "Ciclopirox olamine cream, 0.77%. Dispensing Solutions (source: Glenmark Generics). Prescribing information. DailyMed, National Library of Medicine. Updated October 3, 2012. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9982d093-9f17-48de-8d06-b8256a20c764",
+      "version_or_date": "DailyMed \"Updated October 3, 2012\" (Dispensing Solutions repackager label; source Glenmark Generics; human prescription drug label)",
+      "retrieved_with": "WebSearch; WebFetch (two reads)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Old repackager label; a newer ciclopirox label could replace it at the next refresh. Fetch tool relayed the strength (0.77%, 7.7 mg per gram) as a summary, and the 4-week sentence only up to \"after four weeks of treatment\" (the rest, that the diagnosis should be re-evaluated, was paraphrased). Tinea versicolor absent from the Diflucan indications is an absence, so ref 20 is logged partly_supported for that claim.",
+      "claims": [
+        {
+          "text": "massage in twice daily; clearing usually after two weeks",
+          "quote": "Gently massage ciclopirox olamine cream into the affected and surrounding skin areas twice daily ... Patients with tinea versicolor usually exhibit clinical and mycological clearing after two weeks of treatment.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "prescription only; US product is 0.77%",
+          "quote": "HUMAN PRESCRIPTION DRUG LABEL",
+          "quote_source": "label",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "FAQ: see a physician if OTC antifungals have not worked after 4 weeks",
+          "quote": "If a patient shows no clinical improvement after four weeks of treatment",
+          "quote_source": "label",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "kind": "journal",
+      "cited_as": "\"Treatment of tinea versicolor with a new antifungal agent, ciclopirox olamine cream 1%.\" Clinical Therapeutics. 1985;7(5):574-583. No authors listed in the PubMed record. PMID 2865009.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2865009/",
+      "pmid": "2865009",
+      "record_title": "Treatment of tinea versicolor with a new antifungal agent, ciclopirox olamine cream 1%.",
+      "record_journal": "Clin Ther",
+      "record_year": "1985",
+      "article_type": "Clinical Trial; Journal Article; Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers matched an unrelated USP monograph, so treated as not verified by Scite and confirmed through PubMed",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "No DOI; no authors listed in the PubMed record. New primary source for the ciclopirox row (was cited to the Gupta & Lyons abstract).",
+      "claims": [
+        {
+          "text": "77% clinical and mycological cure after 2 weeks vs 45% clotrimazole",
+          "quote": "After two weeks of treatment, 77% of the patients treated with ciclopirox olamine, compared with 45% of those treated with clotrimazole, had both clinical and mycological cures",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "kind": "label",
+      "cited_as": "Diflucan (fluconazole) tablets and powder for oral suspension. Roerig. Prescribing information. DailyMed, National Library of Medicine. Updated April 2, 2026. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f694c617-3383-416c-91b6-b94fda371204",
+      "version_or_date": "DailyMed \"Updated April 2, 2026\" (Diflucan, Roerig); no boxed warning",
+      "retrieved_with": "WebSearch; WebFetch",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "moderate CYP2C9 and CYP3A4 inhibitor; some azoles incl. fluconazole associated with QT prolongation",
+          "quote": "Fluconazole is a moderate CYP2C9 and CYP3A4 inhibitor. ... Some azoles, including fluconazole, have been associated with prolongation of the QT interval on the electrocardiogram.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "tinea versicolor is not a labeled use",
+          "quote": "Vaginal candidiasis (vaginal yeast infections due to Candida). ... Oropharyngeal and esophageal candidiasis. ... Cryptococcal meningitis.",
+          "quote_source": "label",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "kind": "label",
+      "cited_as": "Itraconazole capsules, 100 mg. AvPAK (repackager). Prescribing information. DailyMed, National Library of Medicine. Updated January 11, 2026. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=68165d90-953c-e2f5-e053-2a91aa0ada25",
+      "version_or_date": "DailyMed \"Updated January 11, 2026\" (AvPAK repackager label; source NDC 65162-630); boxed warning present",
+      "retrieved_with": "WebSearch; WebFetch (first 100,000 characters)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "boxed warning on CHF, cardiac effects and drug interactions; some combinations contraindicated (oral table, prophylaxis text)",
+          "quote": "Congestive Heart Failure, Cardiac Effects and Drug Interactions: ... Co-administration of the following drugs are contraindicated with itraconazole capsules:",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "rare serious hepatotoxicity incl. liver failure and death",
+          "quote": "Itraconazole has been associated with rare cases of serious hepatotoxicity, including liver failure and death.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "take capsules with a full meal",
+          "quote": "Instruct patients to take itraconazole capsules with a full meal.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. \"FDA Drug Safety Communication: FDA limits usage of Nizoral (ketoconazole) oral tablets due to potentially fatal liver injury and risk of drug interactions and adrenal gland problems.\" July 26, 2013. Accessed November 15, 2026.",
+      "url": "https://www.fda.gov/drugs/drugsafety/ucm362415.htm",
+      "version_or_date": "FDA Drug Safety Communication dated July 26, 2013",
+      "retrieved_with": "WebSearch; WebFetch (fda.gov/drugs/drugsafety/ucm362415.htm; the newer fda.gov path returned a client error)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "quote: not indicated for skin or nail fungal infections; not first-line for any fungal infection",
+          "quote": "Nizoral tablets are not indicated for the treatment of fungal infections of the skin or nails. ... As a result, Nizoral oral tablets should not be a first-line treatment for any fungal infection.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "risks: liver injury (transplant or death), adrenal insufficiency, drug interactions",
+          "quote": "Nizoral tablets can cause liver injury, which may potentially result in liver transplantation or death. ... Nizoral tablets may cause adrenal insufficiency ... can result in serious and potentially life-threatening outcomes, such as heart rhythm problems.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "kind": "journal",
+      "cited_as": "Gupta AK, Lyons DC. \"Pityriasis versicolor: an update on pharmacological treatment options.\" Expert Opinion on Pharmacotherapy. 2014;15(12):1707-1713. doi:10.1517/14656566.2014.931373.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24991691/",
+      "pmid": "24991691",
+      "doi": "10.1517/14656566.2014.931373",
+      "record_title": "Pityriasis versicolor: an update on pharmacological treatment options.",
+      "record_journal": "Expert Opin Pharmacother",
+      "record_year": "2014",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Abstract only. No longer cited for the 81% and 77% table rates or the 93% fluconazole rate, which the abstract does not contain.",
+      "claims": [
+        {
+          "text": "recurrence rates remain high after successful treatment",
+          "quote": "recurrence rates following successful treatment remain high",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

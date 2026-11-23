@@ -1,0 +1,869 @@
+{
+  "guide": "asthma-guide",
+  "checked_at": "2026-11-07",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+  "references": [
+    {
+      "n": 1,
+      "kind": "guideline",
+      "cited_as": "Global Initiative for Asthma (GINA). Summary Guide for Asthma Management and Prevention for Adults, Adolescents and Children 6–11 Years: A Summary Guide for Health Professionals. Updated 2025. Accessed November 7, 2026.",
+      "url": "https://ginasthma.org/wp-content/uploads/2025/11/GINA-Summary-Guide-2025-WEB_FINAL-WMS.pdf",
+      "retrieved_with": "WebFetch of the GINA PDF (page numbers as reported by the fetch)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "version_or_date": "GINA Summary Guide, Updated 2025 (cover: A Summary Guide for Health Professionals | Updated 2025)",
+      "notes": "Citation corrected from \"Global Strategy ... 2025 Update\" to the Summary Guide the link actually opens. WebFetch declined to reproduce long passages verbatim (copyright); every quote here is a short exact excerpt it returned; ellipses join two excerpts from the same page. Not a journal article, so no PubMed retraction check applies.",
+      "claims": [
+        {
+          "text": "GINA: adults and adolescents should not be treated with SABA alone",
+          "quote": "Adults and adolescents with asthma should not be treated with SABA alone.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Low-dose ICS-formoterol is the preferred reliever for adolescents and adults",
+          "quote": "Low-dose ICS-formoterol is the preferred reliever for adolescents and adults",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Asthma is usually characterized by chronic airway inflammation",
+          "quote": "usually characterized by chronic airway inflammation.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Early low-dose ICS associated with better lung function than starting after more than 2-4 years of symptoms",
+          "quote": "Early treatment with low-dose ICS is associated with better lung function ... than starting when symptoms have been present for more than 2–4 years.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "GINA exacerbation risk factors: allergen exposure if sensitized, smoking, vaping, air pollution",
+          "quote": "Exposure to allergens (if sensitized), smoking, vaping, air pollution",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Exacerbations often triggered by viral upper respiratory infection",
+          "quote": "Exacerbations are often triggered by viral upper respiratory tract infection,",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Allergy features and family history of asthma or allergy are risk factors for persistence of childhood asthma",
+          "quote": "Risk factors for persistence of childhood asthma include allergy features, a family history of asthma or allergy,",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Asthma is more difficult to control in people with obesity",
+          "quote": "Asthma is more difficult to control in people with obesity.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Review 1-3 months after starting treatment",
+          "quote": "asthma should be reviewed 1–3 months after starting treatment, then every 3–12 months",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Consider stepping down after 3 months or more of good control",
+          "quote": "If asthma has been well controlled for 3 months or more, consider stepping down.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "SABA-only treatment associated with exacerbations, worse lung function and asthma death",
+          "quote": "SABA-only treatment is associated with increased risk of exacerbations, worse lung function ... and increased risk of death due to asthma.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "All adults, adolescents and children 6-11 should receive ICS-containing treatment",
+          "quote": "All adults, adolescents and children aged 6–11 years should receive treatment that includes ICS.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "As-needed low-dose ICS-formoterol reduces emergency visits or hospitalizations by 65% vs SABA alone",
+          "quote": "Reduces emergency visits/hospitalizations by 65% compared with SABA alone",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Track 1 Steps 1-2: as-needed low-dose ICS-formoterol",
+          "quote": "The recommended treatment is low-dose ICS-formoterol taken whenever needed to relieve asthma symptoms.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Track 1 Step 3 MART low-dose maintenance ICS-formoterol",
+          "quote": "MART* with low-dose maintenance ICS-formoterol",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Track 1 Step 4 MART medium-dose maintenance ICS-formoterol",
+          "quote": "MART* with medium-dose maintenance ICS-formoterol",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "MART is also called SMART",
+          "quote": "Maintenance-and-reliever therapy with combination ICS-formoterol (also called SMART)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Track 2 is the alternative when ICS-formoterol is not available",
+          "quote": "This is an alternative approach when ICS-formoterol is not available.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Track 2 may be considered with stable asthma and no exacerbations",
+          "quote": "Track 2 may also be considered if a patient has stable asthma and no exacerbations",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Track 2 Step 1: no maintenance ICS; take ICS whenever SABA used",
+          "quote": "No maintenance ICS. If reliever is SABA, take ICS whenever SABA used",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Track 2 Step 2 low-dose maintenance ICS",
+          "quote": "Low dose maintenance ICS",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Track 2 Steps 3 and 4: low-dose then medium-dose maintenance ICS-LABA",
+          "quote": "Low dose maintenance ICS-LABA ... Medium dose maintenance ICS-LABA",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Step 5: refer for phenotype, consider high-dose maintenance ICS-formoterol",
+          "quote": "Refer for assessment of phenotype. Consider trial of high-dose maintenance ICS-formoterol.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Step 5: add-on LAMA; consider anti-IgE, anti-IL5/5R, anti-IL4Ra, anti-TSLP",
+          "quote": "Add-on LAMA ... Consider anti-IgE, anti-IL5/5R, anti-IL4Rα, anti-TSLP",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Step 5 (Track 2 column): refer for expert assessment, phenotyping and add-on treatment",
+          "quote": "Refer for expert assessment, phenotyping, and add-on treatment for severe asthma.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Every patient should have a written asthma action plan",
+          "quote": "All patients should have a written asthma action plan.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Measure lung function with spirometry or PEF meter",
+          "quote": "Measure lung function with spirometry (or with a PEF meter, if spirometry is not possible).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Bronchodilator reversibility criterion: FEV1 or FVC increase >=12% and >=200 mL (adults)",
+          "quote": "Adults: FEV1 or FVC increases by ≥12% and by ≥200 mL from the pre-bronchodilator value",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Symptom control question on night waking",
+          "quote": "Any night waking due to asthma?",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Severe exacerbation in past year is a risk factor",
+          "quote": "Severe exacerbation in past year or lifetime history of intubation or ICU admission for asthma",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Check adherence, technique, risk factors and comorbidities before stepping up",
+          "quote": "check adherence, inhaler technique, risk factors and comorbidities first, before stepping up treatment",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Comorbidities to assess",
+          "quote": "rhinitis, rhinosinusitis, gastroesophageal reflux disease, obesity, obstructive sleep apnea, or depression and anxiety",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "GERD listed among conditions linked to exacerbation risk",
+          "quote": "Medical conditions (obesity, chronic rhinosinusitis, GERD, confirmed food allergy) or pregnancy",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Elevated FeNO >50 ppb in adults/adolescents supports Type 2 asthma",
+          "quote": "elevated FeNO (adults/adolescents: >50 ppb; children: >35 ppb)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Lower FeNO does not rule out asthma",
+          "quote": "Lower levels of FeNO or blood eosinophils do not rule out asthma.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "ICS markedly reduce risk of hospitalization and death",
+          "quote": "ICS-containing medication markedly reduces risk of asthma hospitalizations and death.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "LABA should not be used without ICS",
+          "quote": "LABA should not be used without ICS in patients with asthma (or asthma+COPD).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Add-on LAMA slightly improves lung function and slightly reduces exacerbations",
+          "quote": "add-on LAMA slightly improves lung function and slightly reduces the risk of exacerbations",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Biologic treatment can be added to maximal treatment",
+          "quote": "Biologic treatment can be added to maximal treatment, if available and affordable.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Check inhaler technique at every opportunity",
+          "quote": "Check inhaler technique at every opportunity.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Patients using ICS in a pMDI should use a spacer",
+          "quote": "Patients using ICS in a pressurized metered-dose inhaler should use a spacer.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Exercise as a trigger should not be avoided",
+          "quote": "such as exercise and laughter, should not be avoided.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Low-dose ICS-formoterol can be used before exercise",
+          "quote": "Patients can also use low-dose ICS-formoterol before exercise or before or during exposure to allergens, if needed.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Occupational asthma: ask about allergens or irritants at work and whether asthma is better away",
+          "quote": "ask if there are allergens or irritants in the air at work or at home, and whether their asthma is better when they are away from these places.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Occupational asthma: objective confirmation, referral without delay",
+          "quote": "The diagnosis must be confirmed with objective tests. The patient should be referred to a specialist (if available) without delay.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Occupational asthma: exposure must be stopped immediately",
+          "quote": "The cause must be identified, and the patient's exposure to the cause must be stopped immediately.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Severe exacerbation signs: talks in words, sits hunched forwards",
+          "quote": "Talks in words, sits hunched forwards, agitated",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "PEF at or below 50% of predicted or best is a severe sign (citable summary)",
+          "quote": "PEF ≤50% predicted or best",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Drowsiness, confusion, silent chest are life-threatening and need intensive care",
+          "quote": "Transfer to intensive care if the patient is drowsy, confused, or has a silent chest.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "guideline",
+      "cited_as": "Cloutier MM, Baptist AP, Blake KV, et al. 2020 Focused Updates to the Asthma Management Guidelines: A Report from the National Asthma Education and Prevention Program Coordinating Committee Expert Panel Working Group. Journal of Allergy and Clinical Immunology. 2020;146(6):1217-1270.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7924476/",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC7924476)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "pmid": "33280709",
+      "pmcid": "PMC7924476",
+      "doi": "10.1016/j.jaci.2020.10.003",
+      "record_title": "2020 Focused Updates to the Asthma Management Guidelines: A Report from the National Asthma Education and Prevention Program Coordinating Committee Expert Panel Working Group.",
+      "record_journal": "J Allergy Clin Immunol",
+      "record_year": "2020",
+      "article_type": "Journal Article; Review (PubMed)",
+      "version_or_date": "J Allergy Clin Immunol 2020;146(6):1217-1270",
+      "notes": "Replaces the old link to the EPR-4 Working Group roster page, which held none of the cited content. PubMed article types show no Retracted Publication or Retraction Notice. scite_unavailable. Quote spacing (ages4 to11) is as extracted from PMC text.",
+      "claims": [
+        {
+          "text": "SMART is the preferred Step 3 and Step 4 therapy for ages 4 and older",
+          "quote": "In individuals aged 4 years and older, the preferred Step 3 (low-dose ICS) and Step 4 (medium-dose ICS) therapy is single-inhaler ICS-formoterol both daily and as needed.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Recommendation for SMART in ages 4+ with moderate to severe persistent asthma",
+          "quote": "In individuals aged 4 years and older with moderate to severe persistent asthma, the Expert Panel recommends ICS-formoterol in a single inhaler used as both daily controller and reliever therapy",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Formoterol has a rapid onset",
+          "quote": "Formoterol has a rapid onset and a maximum total daily dose that allows it to be used more than twice daily.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Maximum daily formoterol: 8 puffs (36 ug) ages 4-11, 12 puffs (54 ug) ages 12+",
+          "quote": "The maximum total daily dose of formoterol should not exceed 8 puffs (36 μg) for ages4 to11 years and12puffs (54 μg) for ages12 years and above.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "SMART reduced exacerbations 32% vs same-dose ICS-LABA plus SABA in ages 12+",
+          "quote": "For ages 12 years and above, the Expert Panel considered four blinded RCTsand two unblinded RCTsfor this question. Collectively, these RCTs demonstrated a 32% reduction in exacerbations with SMART(high certainty of evidence).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Tiotropium Respimat was the only FDA-approved LAMA formulation for asthma at time of writing",
+          "quote": "At the time this report was written, tiotropium bromide (Respimat) was the only formulation of LAMA with US FDA approval for asthma treatment.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "other_web",
+      "cited_as": "Asthma and Allergy Foundation of America (AAFA). Asthma Facts. Last updated April 2026. Accessed November 7, 2026.",
+      "url": "https://aafa.org/asthma/asthma-facts/",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "version_or_date": "Last updated: April 2026",
+      "notes": "Citation date corrected from November 2025 to April 2026 as shown on page. Removed unsupported claims that deaths \"overwhelmingly occur\" in people who delayed care, and that delayed treatment is a \"leading contributing factor\". Citable entry now attributes prevalence and death data to AAFA instead of CDC (cdc.gov/asthma states no such figures).",
+      "claims": [
+        {
+          "text": "Nearly 28 million people in the U.S. have asthma",
+          "quote": "Nearly 28 million people in the U.S. have asthma.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "3,279 asthma deaths in 2024",
+          "quote": "In 2024, 3,279 people died from asthma.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Nearly all asthma deaths are avoidable",
+          "quote": "Nearly all of these deaths are avoidable with the right treatment and care.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Risk of death reduced by action plan, medicines, trigger reduction, medical help",
+          "quote": "you can reduce your risk of death by following your asthma action plans, taking asthma medicines as prescribed ... reducing exposure to your triggers, and getting medical help",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Emergency sign: color changes on skin, lips, fingertips",
+          "quote": "color changes on skin, lips, tongue, fingertips from not getting enough air",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Emergency sign: chest sucks in between neck, chest plate or ribs",
+          "quote": "chest sucks in between neck, chest plate, or ribs when breathing in",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Faria N, Costa MI, Fernandes AL, et al. Biologic Therapies for Severe Asthma: Current Insights and Future Directions. Journal of Clinical Medicine. 2025;14(9):3153.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12072268/",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC12072268)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "pmid": "40364184",
+      "pmcid": "PMC12072268",
+      "doi": "10.3390/jcm14093153",
+      "record_title": "Biologic Therapies for Severe Asthma: Current Insights and Future Directions.",
+      "record_journal": "J Clin Med",
+      "record_year": "2025",
+      "article_type": "Journal Article; Review (PubMed)",
+      "notes": "Volume/issue 14(9), article 3153 per PubMed and DOI. No Retracted Publication or Retraction Notice in PubMed article types. scite_unavailable. Cut: \"works across all phenotypes\", \"first/only biologic with this broad mechanism\", \"5-10% of patients\", \"reduce exacerbations by 50% or more\". Ages and indications in the biologics table now come from FDA labels (refs 10-15) because this review reports non-US approval ages (for example benralizumab 18+).",
+      "claims": [
+        {
+          "text": "Current biologics list",
+          "quote": "The current biologics for severe asthma treatment include omalizumab (anti-IgE), mepolizumab and reslizumab (anti-IL-5), benralizumab (anti-IL-5 receptor), dupilumab (anti-IL-4/IL-13), and tezepelumab (anti-TSLP).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Tezepelumab approved regardless of eosinophils, IgE, FeNO",
+          "quote": "Tezepelumab is approved for patients aged 12 years or older with severe asthma, regardless of their serum eosinophils, IgE, and FeNO levels.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Tezepelumab particularly effective in type 2 asthma",
+          "quote": "Of note, although it is approved for non–type 2 patients, tezepelumab is particularly effective in severe type 2 asthma",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Tezepelumab upstream action",
+          "quote": "Considering its upstream inhibitory activity on the inflammatory cascade, tezepelumab inhibits the TSLP-mediated activation of dendritic cells and ILC2 cells",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Phenotyping and comorbidities guide biologic choice; dupilumab, mepolizumab, omalizumab approved for CRSwNP",
+          "quote": "patients should undergo proper phenotyping (T2-high or T2-low) ... Comorbidities should be carefully considered, and if possible, addressed with the same biologic. Dupilumab, mepolizumab, and omalizumab are also approved for chronic rhinosinusitis with nasal polyps (CRSwNP)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Response outcomes for biologics",
+          "quote": "The outcomes to evaluate are the reduction in systemic corticosteroid use, the reduction in exacerbations and healthcare use, and improvement in symptoms and lung function.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "other_web",
+      "cited_as": "American Academy of Allergy, Asthma & Immunology (AAAAI). AIR and SMART Therapy for Asthma. Page dated June 12, 2026. Accessed November 7, 2026.",
+      "url": "https://www.aaaai.org/tools-for-the-public/conditions-library/asthma/smart",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "version_or_date": "Page title \"AIR and SMART Therapy for Asthma\", dated 6/12/2026",
+      "notes": "Removed the ~30% SMART figure and the 1-3 minute formoterol onset, neither on this page; the 32% figure is now cited to EPR-4 [2].",
+      "claims": [
+        {
+          "text": "AIR and SMART prevent serious attacks better than separate inhalers",
+          "quote": "AIR and SMART help prevent serious asthma attacks better than using separate inhalers.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "journal",
+      "cited_as": "Bosnic-Anticevich SZ, Cvetkovski B, Azzi EA, et al. Identifying Critical Errors: Addressing Inhaler Technique in the Context of Asthma Management. Pulmonary Therapy. 2018;4(1):1-12.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6966926/",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC6966926)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "pmid": "32026244",
+      "pmcid": "PMC6966926",
+      "doi": "10.1007/s41030-018-0051-0",
+      "record_title": "Identifying Critical Errors: Addressing Inhaler Technique in the Context of Asthma Management.",
+      "record_journal": "Pulm Ther",
+      "record_year": "2018",
+      "article_type": "Journal Article; Review (PubMed)",
+      "notes": "No Retracted Publication or Retraction Notice in PubMed article types. scite_unavailable. Cut: \"94% make at least one error\", \"77% fail to hold breath\", \"10 seconds\", \"within months\", \"leading cause\".",
+      "claims": [
+        {
+          "text": "Up to 90% do not use inhalers correctly, depending on device and population",
+          "quote": "anywhere up to 90% of people with asthma (depending on device and patient population) not using their inhalers correctly",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Technique not the sole contributor; improvement linked to outcomes",
+          "quote": "While not being the sole contributor to poor asthma control [,], the importance and relevance of inhaler technique is further evidenced in the impact of inhaler technique improvement on asthma outcomes.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "pMDI errors made by at least 50% in some studies",
+          "quote": "failing to breath out prior to inhalation, poor coordination of inhaling slowly and inhaler firing, failing to shake the inhaler, and failing to breath hold following dose delivery",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most common pMDI errors: firing while breathing in slowly, breath hold",
+          "quote": "two of the most commonly made errors across the studies were failing to fire the inhaler while breathing in slowly and failing to breath hold after completion of dosing.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "DPI errors: breathe out away from inhaler, inhale forcefully and deeply",
+          "quote": "failing to breathe out and away from the inhaler prior to inhalation, failing to inhaler forcefully and deeply and breath holding",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "About 50% fail to maintain correct technique over time",
+          "quote": "approximately 50% of patients failing to maintain correct inhaler technique over time",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "guideline",
+      "cited_as": "Parsons JP, Hallstrand TS, Mastronarde JG, et al. An Official American Thoracic Society Clinical Practice Guideline: Exercise-Induced Bronchoconstriction. American Journal of Respiratory and Critical Care Medicine. 2013;187(9):1016-1027.",
+      "url": "https://doi.org/10.1164/rccm.201303-0437ST",
+      "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of publisher full text via DOI redirect (academic.oup.com)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "pmid": "23634861",
+      "doi": "10.1164/rccm.201303-0437ST",
+      "record_title": "An official American Thoracic Society clinical practice guideline: exercise-induced bronchoconstriction.",
+      "record_journal": "Am J Respir Crit Care Med",
+      "record_year": "2013",
+      "article_type": "Journal Article; Practice Guideline (PubMed)",
+      "version_or_date": "Am J Respir Crit Care Med 2013;187(9):1016-27",
+      "notes": "Replaces Mayo Clinic EIB page, which did not support the prevalence, mechanism or 10% FEV1 claims. No Retracted Publication or Retraction Notice in PubMed article types. scite_unavailable. Cut: \"up to 90% of poorly controlled asthma\", \"10-15% of general population\", \"10-15 minute warm-up\", \"15-20 minutes\", swimming claim.",
+      "claims": [
+        {
+          "text": "EIB definition",
+          "quote": "Exercise-induced bronchoconstriction (EIB) describes acute airway narrowing that occurs as a result of exercise.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Substantial proportion of asthma patients have EIB; may occur without known asthma",
+          "quote": "EIB occurs in a substantial proportion of patients with asthma, but may also occur in individuals without known asthma.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Water and heat transfer out of lower airways",
+          "quote": "The epithelium may play a key role in sensing the transfer of water and heat out of the lower airways.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Daily ICS or daily LTRA for symptoms despite pre-exercise SABA",
+          "quote": "For patients who continue to have symptoms of EIB despite the administration of a short-acting β(2)-agonist before exercise, strong recommendations were made for a daily inhaled corticosteroid, a daily leukotriene receptor antagonist",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Warm-up recommendation",
+          "quote": "For all patients with EIB, we recommend interval or combination warm-up exercise before planned exercise",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "SABA typically 15 minutes before exercise; use less than daily",
+          "quote": "The inhaled SABA is typically administered 15 minutes before exercise. ... Such use should be less than daily, on average.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "SABA before exercise recommended for all EIB patients (FAQ)",
+          "quote": "A strong recommendation was made for using a short-acting β(2)-agonist before exercise in all patients with EIB.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cold, dry air in Nordic skiers",
+          "quote": "has been attributed to high ventilation inhalation of cold, dry air during training and competition",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Diagnostic criterion >=10% fall in FEV1",
+          "quote": "The criterion for the percent fall in FEV1 used to diagnose EIB is ≥10%.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "journal",
+      "cited_as": "Pollart SM, Elward KS. Overview of Changes to Asthma Guidelines: Diagnosis and Screening. American Family Physician. 2009;79(9):761-767.",
+      "url": "https://www.aafp.org/pubs/afp/issues/2009/0501/p761.html",
+      "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of aafp.org full text",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "pmid": "20141095",
+      "record_title": "Overview of changes to asthma guidelines: diagnosis and screening.",
+      "record_journal": "Am Fam Physician",
+      "record_year": "2009",
+      "article_type": "Journal Article; Practice Guideline (PubMed)",
+      "version_or_date": "Am Fam Physician 2009;79(9):761-7",
+      "notes": "Added. Summarizes NAEPP EPR-3 (table \"Adapted from National Heart, Lung, and Blood Institute, National Asthma Education and Prevention Program\"). The EPR-3 summary PDF on nhlbi.nih.gov failed to load this run, so this retrievable summary is cited instead of an archive copy. Table quotes are the cell texts joined with | in column order. The old \"Treatment Step\" column (Steps 3-4, Steps 5-6) was not retrievable and was replaced by the retrieved interference column. No DOI in PubMed record. No Retracted Publication or Retraction Notice in PubMed article types. scite_unavailable.",
+      "claims": [
+        {
+          "text": "Severity at initial evaluation, control at subsequent visits; four categories; initial treatment by severity",
+          "quote": "Treatment of asthma should be guided by a new system of classification that assesses severity at initial evaluation and control at all subsequent visits.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Four severity categories and initial treatment by category",
+          "quote": "allows categorization of disease as intermittent, persistent-mild, persistent-moderate, and persistent-severe. Initial treatment is guided by the disease-severity category.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Severity table row values (12 years and older): symptoms",
+          "quote": "≤ 2 days per week | > 2 days per week, but not daily | Daily | Throughout the day",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Severity table: nighttime awakenings",
+          "quote": "≤ 2 times per month | 3 to 4 times per month | > Once per week, but not nightly | Often 7 times per week",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Severity table: interference with activity",
+          "quote": "None | Minor limitation | Some limitation | Extremely limited",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Severity table: FEV1 percent predicted",
+          "quote": "FEV1 >80 percent of predicted | FEV1 ≥ 80 percent of predicted | FEV1 > 60 percent but < 80 percent of predicted | FEV1 < 60 percent of predicted",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Re-evaluate 2-6 weeks after starting medication; step down after 3 months stable",
+          "quote": "Patients should be reevaluated two to six weeks after the introduction of medication ... if stable for at least three months, a step down in therapy can be considered",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "agency_page",
+      "cited_as": "National Heart, Lung, and Blood Institute (NHLBI). Asthma Action Plan. NIH Publication No. 20-HL-5251, February 2021. Accessed November 7, 2026.",
+      "url": "https://www.nhlbi.nih.gov/sites/default/files/publications/Asthma-Action-Plan-2020_rev_508.pdf",
+      "retrieved_with": "WebFetch of NHLBI PDF",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "version_or_date": "NIH Publication No. 20-HL-5251, February 2021",
+      "notes": "Added to source the action-plan zone table, peak flow cutoffs and red flags, which were previously uncited. Removed unsourced \"repeat in 20-30 minutes\", \"rescue more than every 4 hours\", \"relief lasts less than 4 hours\" and \"every 20 minutes up to 3 times\". The zone instruction quote contains an em dash because it is the source text; the guide text has none.",
+      "claims": [
+        {
+          "text": "Green zone: no symptoms day or night, usual activities, peak flow 80% or more",
+          "quote": "No cough, wheeze, chest tightness, or shortness of breath during the day or night ... Can do usual activities ... (80 percent or more of my best peak flow)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Yellow zone symptoms and 50-79% peak flow",
+          "quote": "Waking at night due to asthma, or ... Can do some, but not all, usual activities ... (50 to 79 percent of my best peak flow)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Yellow zone action: add quick-relief medicine, keep green medicine; 1 hour",
+          "quote": "Add: quick-relief medicine—and keep taking your GREEN ZONE medicine. ... If your symptoms (and peak flow, if used) do not return to GREEN ZONE after 1 hour of above treatment:",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Red zone description and less than 50% peak flow",
+          "quote": "Very short of breath, or ... Quick-relief medicines have not helped, ... Cannot do usual activities, or ... Symptoms are same or get worse after 24 hours in Yellow Zone ... less than ... (50 percent of my best peak flow)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Red zone action: call doctor now; hospital or ambulance if still red after 15 minutes",
+          "quote": "Then call your doctor NOW. Go to the hospital or call an ambulance if: ... You are still in the red zone after 15 minutes AND ... You have not reached your doctor.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Danger signs: trouble walking and talking; blue lips or fingernails",
+          "quote": "Trouble walking and talking due to shortness of breath ... Lips or fingernails are blue",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "label",
+      "cited_as": "U.S. Food and Drug Administration label, via DailyMed. XOLAIR (omalizumab) injection: Prescribing Information. Revised August 2026. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7f6a2191-adfb-48b9-9bfa-0d9920479f0d",
+      "retrieved_with": "WebFetch of DailyMed label",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "version_or_date": "Revised: 8/2026",
+      "notes": "Added. Replaces \"elevated IgE\" wording, which is not in the indication.",
+      "claims": [
+        {
+          "text": "Omalizumab: 6+, moderate to severe persistent asthma, perennial aeroallergen reactivity, inadequately controlled on ICS",
+          "quote": "XOLAIR is indicated for adults and pediatric patients 6 years of age and older with moderate to severe persistent asthma ... who have a positive skin test or in vitro reactivity to a perennial aeroallergen ... and whose symptoms are inadequately controlled with inhaled corticosteroids.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "label",
+      "cited_as": "U.S. Food and Drug Administration label, via DailyMed. NUCALA (mepolizumab): Prescribing Information. Revised August 2025. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fefb887c-e4ac-431e-8893-e9d1a5a63fea",
+      "retrieved_with": "WebFetch of DailyMed label",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "version_or_date": "Revised: 8/2025",
+      "notes": "Added. The indication states no blood eosinophil cutoff, so \">=150/uL\" was removed from the table.",
+      "claims": [
+        {
+          "text": "Mepolizumab: 6+, severe asthma, eosinophilic phenotype",
+          "quote": "Add-on maintenance treatment of adult and pediatric patients aged 6 years and older with severe asthma ... and with an eosinophilic phenotype.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "label",
+      "cited_as": "U.S. Food and Drug Administration label, via DailyMed. FASENRA (benralizumab) injection: Prescribing Information. Revised May 2026. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=da6aca1a-19ed-44a4-abb7-696c7d58b784",
+      "retrieved_with": "WebFetch of DailyMed label",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "version_or_date": "Revised: 5/2026",
+      "notes": "Added. Age corrected from 12+ to 6+.",
+      "claims": [
+        {
+          "text": "Benralizumab: 6+, severe asthma, eosinophilic phenotype",
+          "quote": "FASENRA is indicated for the add-on maintenance treatment of adult and pediatric patients aged 6 years and older ... with severe asthma, and with an eosinophilic phenotype.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Benralizumab reduces eosinophils",
+          "quote": "Benralizumab, by binding to the IL-5Rα chain, reduces eosinophils through ADCC",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "label",
+      "cited_as": "U.S. Food and Drug Administration label, via DailyMed. DUPIXENT (dupilumab) injection: Prescribing Information. Revised April 2026. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780",
+      "retrieved_with": "WebFetch of DailyMed label",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "version_or_date": "Revised: 4/2026",
+      "notes": "Added. The second quote is the label's indication headings as returned by the fetch, not a sentence, hence partly_supported.",
+      "claims": [
+        {
+          "text": "Dupilumab: 6+, moderate-to-severe eosinophilic or OCS-dependent asthma",
+          "quote": "DUPIXENT is indicated as an add-on maintenance treatment of adult and pediatric patients aged 6 years and older ... with moderate-to-severe asthma characterized by an eosinophilic phenotype or with oral corticosteroid dependent asthma.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dupilumab also indicated for atopic dermatitis and CRSwNP",
+          "quote": "Atopic Dermatitis ... Chronic Rhinosinusitis with Nasal Polyps (indication headings)",
+          "quote_source": "label",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "label",
+      "cited_as": "U.S. Food and Drug Administration label, via DailyMed. TEZSPIRE (tezepelumab-ekko) injection: Prescribing Information. Revised October 2025. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=60f0aa03-ad25-4d48-80ce-7fcfa76f325f",
+      "retrieved_with": "WebFetch of DailyMed label",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "version_or_date": "Revised: 10/2025",
+      "notes": "Added.",
+      "claims": [
+        {
+          "text": "Tezepelumab: 12+, severe asthma, no phenotype named",
+          "quote": "TEZSPIRE is indicated for the add-on maintenance treatment of adult and pediatric patients aged 12 years and older ... with severe asthma.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "label",
+      "cited_as": "U.S. Food and Drug Administration label, via DailyMed. CINQAIR (reslizumab) injection: Prescribing Information. Revised June 2020. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=053b9158-2a5b-48b9-bf47-5fa78a35ec33",
+      "retrieved_with": "WebFetch of DailyMed label",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "version_or_date": "Revised: 6/2020",
+      "notes": "Added. Boxed warning added to the table as a safety fact from the label.",
+      "claims": [
+        {
+          "text": "Reslizumab: 18+, severe asthma, eosinophilic phenotype",
+          "quote": "CINQAIR® is indicated for the add-on maintenance treatment of patients with severe asthma aged 18 years and older ... with an eosinophilic phenotype",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Reslizumab is IV only",
+          "quote": "CINQAIR is for intravenous infusion only",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Reslizumab boxed warning for anaphylaxis",
+          "quote": "WARNING: ANAPHYLAXIS",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

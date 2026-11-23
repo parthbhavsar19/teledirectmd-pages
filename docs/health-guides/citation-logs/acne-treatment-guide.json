@@ -1,0 +1,786 @@
+{
+  "guide": "acne-treatment-guide",
+  "checked_at": "2026-11-07",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+  "references": [
+    {
+      "n": 1,
+      "kind": "guideline",
+      "cited_as": "American Academy of Dermatology. Acne clinical guideline (guideline highlights page; updates the 2016 AAD acne guidelines). Accessed November 7, 2026.",
+      "url": "https://www.aad.org/member/clinical-quality/guidelines/acne",
+      "version_or_date": "Page undated; links to the 2024 JAAD guideline; read 2026-11-07",
+      "retrieved_with": "WebFetch of official AAD page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Highlights page; gives no strength grades, doses or monitoring. Strength grades are cited to ref 2.",
+      "claims": [
+        {
+          "text": "AAD 2024 acne guideline updates its 2016 guideline",
+          "quote": "This guideline updates the 2016 AAD acne guidelines.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "guideline advises combining systemic antibiotics with benzoyl peroxide and other topical therapies; oral antibiotic course paired with BP and other topical therapy",
+          "quote": "Combining systemic antibiotics with benzoyl peroxide and other topical therapies;",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "guideline advises limiting systemic antibiotic use",
+          "quote": "Limiting systemic antibiotic use;",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "guideline",
+      "cited_as": "Reynolds RV, Yeung H, Cheng CE, et al. Guidelines of care for the management of acne vulgaris. J Am Acad Dermatol. 2024;90(5):1006.e1-1006.e30.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38300170/",
+      "pmid": "38300170",
+      "doi": "10.1016/j.jaad.2023.12.017",
+      "record_title": "Guidelines of care for the management of acne vulgaris.",
+      "record_journal": "J Am Acad Dermatol",
+      "record_year": "2024",
+      "article_type": "Journal Article; Practice Guideline; Systematic Review",
+      "version_or_date": "AAD 2024 guideline; PubMed publication date 2024-01-30; 90(5)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); full text at jaad.org could not be fetched (site client_error), so claims are limited to the abstract",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [
+        "Published erratum reported by the Nov 6 audit from PubMed; not shown in this run's PubMed metadata and a PubMed errata search returned none; not re-confirmed"
+      ],
+      "notes": "Printed author list corrected from the 2016 guideline authors (Zaenglein, Pathy, Schlosser...) to Reynolds RV et al. Former duplicate ref 8 merged here. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "18 evidence-based recommendations and 5 good practice statements",
+          "quote": "This guideline presents 18 evidence-based recommendations and 5 good practice statements.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "strong recommendations for benzoyl peroxide, topical retinoids, topical antibiotics and oral doxycycline (incl. retinoids as preferred class, BP, doxycycline as strongly recommended oral antibiotic)",
+          "quote": "Strong recommendations are made for benzoyl peroxide, topical retinoids, topical antibiotics, and oral doxycycline.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "isotretinoin strongly recommended for severe acne, psychosocial burden, scarring, or failure of standard therapy",
+          "quote": "Oral isotretinoin is strongly recommended for acne that is severe, causing psychosocial burden or scarring, or failing standard oral or topical therapy.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "conditional recommendations for clascoterone, salicylic acid, azelaic acid, oral minocycline, sarecycline, combined oral contraceptives, spironolactone",
+          "quote": "Conditional recommendations are made for topical clascoterone, salicylic acid, and azelaic acid, as well as for oral minocycline, sarecycline, combined oral contraceptive pills, and spironolactone.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "good practice: combining topical therapies with multiple mechanisms, limiting systemic antibiotics, combining systemic antibiotics with topicals, intralesional corticosteroids for larger lesions",
+          "quote": "Combining topical therapies with multiple mechanisms of action, limiting systemic antibiotic use, combining systemic antibiotics with topical therapies, and adding intralesional corticosteroid injections for larger acne lesions are recommended as good practice statements.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "label",
+      "cited_as": "Isotretinoin capsules. Prescribing information (Teva Pharmaceuticals USA, Inc.). DailyMed. Revised August 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1cf11710-f966-4529-8e08-02175f588bca",
+      "version_or_date": "Rev. C 8/2026; DailyMed updated August 20, 2026",
+      "retrieved_with": "WebFetch of DailyMed label page (two reads; second read confirmed exact strings)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Replaces Mayo Clinic symptoms-and-causes page, which had no isotretinoin content. The label states no 2026 iPLEDGE program change, so the unsourced \"reforms effective August 2026\" sentence was cut. The label monitoring sections do not require blood counts; the guide no longer makes a CBC claim. The iPLEDGE program name is given in the boxed warning (read by tool summary).",
+      "claims": [
+        {
+          "text": "label indication: severe recalcitrant nodular acne",
+          "quote": "indicated for the treatment of severe recalcitrant nodular acne",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "recommended dosage 0.5 to 1 mg/kg/day in two divided doses",
+          "quote": "Isotretinoin capsules is 0.5 to 1 mg/kg/day given in two divided doses with or without meals for 15 to 20 weeks.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "normal course of treatment 15 to 20 weeks",
+          "quote": "A normal course of treatment is 15 to 20 weeks.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "fasting lipid tests before treatment and at intervals",
+          "quote": "Perform fasting lipid tests before isotretinoin treatment and then at intervals",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "liver function tests before and periodically until response known",
+          "quote": "perform pretreatment and follow-up liver function tests periodically until the response to isotretinoin is known.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "life-threatening birth defects; restricted REMS program (iPLEDGE)",
+          "quote": "Isotretinoin capsules can cause life-threatening birth defects and is contraindicated in pregnancy. ... available only through a restricted program under a Risk Evaluation and Mitigation Strategy (REMS)",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "prescribers must be certified in the REMS",
+          "quote": "Prescribers must be certified in the REMS and comply with the REMS requirements, including the following:",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "pregnancy testing before, during and after treatment",
+          "quote": "In patients who can get pregnant, pregnancy testing is required prior to, during, and after isotretinoin treatment.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "2 forms of contraception from at least 1 month before to 1 month after",
+          "quote": "must use 2 forms of contraception simultaneously ... for at least 1 month prior to initiation of isotretinoin treatment ... and for 1 month after discontinuing isotretinoin treatment",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "second course not before a 2-month wait",
+          "quote": "If a second course of isotretinoin capsules treatment is needed, it is not recommended before a 2-month waiting period",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "may cause depression, psychosis, rarely suicidal ideation",
+          "quote": "Isotretinoin may cause depression, psychosis and, rarely, suicidal ideation",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "red flag: intracranial hypertension (pseudotumor cerebri) and acute pancreatitis",
+          "quote": "Isotretinoin use has been associated with cases of intracranial hypertension (pseudotumor cerebri) ... Acute pancreatitis has been reported with isotretinoin use",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Ryguła I, Pikiewicz W, Kaminiów K. Impact of Diet and Nutrition in Patients with Acne Vulgaris. Nutrients. 2024;16(10).",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11124289/",
+      "pmid": "38794714",
+      "pmcid": "PMC11124289",
+      "doi": "10.3390/nu16101476",
+      "record_title": "Impact of Diet and Nutrition in Patients with Acne Vulgaris.",
+      "record_journal": "Nutrients",
+      "record_year": "2024",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Chocolate claims rewritten: the \"2024 crossover, 50 g\" study and the \"doubling within four days\" were not in the source; the source describes 25 g/day of 99% cocoa chocolate for 4 weeks in 25 acne-prone men, and a 14-man cocoa-capsule study. \"Chocolate does not cause acne in non-prone people\" cut (not in source). scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "historically diet not regarded as a demonstrated cause",
+          "quote": "Whereas, in the history, eating behaviour has not been regarded as a demonstrated reason for acne in the medical literature",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "growing evidence for harmful effect of certain dietary components",
+          "quote": "there is an increasing amount of scientific proof confirming the damaging effect of certain dietary components in the pathogenesis of acne lesions",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Western diets rich in dairy, refined carbohydrates, chocolate, saturated fats can exacerbate acne (body and FAQ)",
+          "quote": "This diet is rich in dairy products, refined carbohydrates, chocolate, and saturated fats, which can exacerbate acne by activating aliment-derived metabolic cues",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "insulin and IGF-1 signaling increases sebum production",
+          "quote": "Excessive sebum production results from the increased activity of androgen hormones, insulin-like growth factor-1 (IGF-1), and insulin",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "IGF-1 increases androgen activity",
+          "quote": "IGF-1 also increases androgen levels",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "high-GI diets associated with higher post-meal insulin and IGF-1",
+          "quote": "Diets with a relatively high GI (being above 55) have been shown to be associated with mediocre glycaemic control, increased postprandial insulin levels, and elevated IGF-1 levels",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "mTORC1 mediates sebaceous gland growth, lipid synthesis, keratinocyte proliferation",
+          "quote": "The function of mTORC1 on the development of acne lesions is to mediate increased sebaceous gland proliferation, lipid synthesis, and keratinocyte proliferation",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "dairy results conflict; some studies link skim milk more strongly than whole milk",
+          "quote": "the consumption of low-fat/defat milk correlated more strongly with the appearance of acne lesions than full-fat milk",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "dairy results conflict",
+          "quote": "It is worth noting that there are conflicting data on which type of milk is involved in the pathogenesis of acne.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "hormones and bioactive molecules in milk may explain",
+          "quote": "the acne-causing effects of dairy are unlikely to be due to the fat content, but rather to the hormones and other bioactive molecules contained in milk",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "25 acne-prone men, 25 g 99% dark chocolate daily for 4 weeks worsened acne",
+          "quote": "Vongraviopap et al. enrolled 25 acne-prone men in their study. Participants consumed 25 g of dark chocolate (99% cocoa) every day for four weeks.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "dark chocolate worsened acne in acne-prone men",
+          "quote": "dark chocolate taken in normal quantities for 4 weeks can worsen acne among men prone to this dermatosis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "double-blind placebo-controlled study in men with acne history",
+          "quote": "Caperton et al. managed a double-blind, placebo-controlled work of research to evaluate the effect of chocolate on acne intensifying in men aged 18 to 35 years that have a medical history of acne.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "14 participants; significant increase in lesions on days 4 and 7",
+          "quote": "The investigation included 14 participants. ... A statistically considerable growth in the average figure of all acne-like lesions ... was found on a comparison with the initial results on both days 4 and 7.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "proposed mechanisms: cocoa raises IL-1 beta; sugar-driven insulin",
+          "quote": "cocoa ingredients were demonstrated to boost the secretion of inflammatory cytokines, including IL1β",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "sugar-driven insulin signaling",
+          "quote": "the saccharides present in chocolate (and milk) induce insulin excretion",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Ghanem L, Kirmani N, De León Fernández N, Palacios-Ortiz MP, Rodríguez-Parra JD, Rusu CA. Efficacy and Safety of Oral Spironolactone for Women With Acne Vulgaris: A Systematic Review and Meta-Analysis of Randomized Placebo-Controlled Trials With Trial Sequential Analysis. J Cosmet Dermatol. 2025;24(8):e70411.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12359290/",
+      "pmid": "40823723",
+      "pmcid": "PMC12359290",
+      "doi": "10.1111/jocd.70411",
+      "record_title": "Efficacy and Safety of Oral Spironolactone for Women With Acne Vulgaris: A Systematic Review and Meta-Analysis of Randomized Placebo-Controlled Trials With Trial Sequential Analysis.",
+      "record_journal": "J Cosmet Dermatol",
+      "record_year": "2025",
+      "article_type": "Journal Article; Systematic Review; Meta-Analysis",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Authors and full title added (previously printed with no authors). \"Particularly effective in adult women because of the hormonal pattern\" rewritten to what the abstract says. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "sixfold higher odds of objective improvement, OR 6.59 (95% CI 3.50-12.43)",
+          "quote": "Objective assessment of acne improvement (OR 6.59; 95% 3.50-12.43; p < 0.00001; I = 0%) was sixfold higher in the spironolactone group compared with placebo.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "5 randomized trials, 563 patients (key takeaway: five placebo-controlled trials in women)",
+          "quote": "We included 563 patients from 5 RCTs, of which 251 (42.9%) received spironolactone.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "no significant increase in menstrual irregularities or breast enlargement",
+          "quote": "Menstrual irregularities (OR 1.09; 95% 0.37-3.25; p = 0.88; I = 33%) and breast enlargement (OR 1.37; 95% 0.79-2.38; p = 0.26; I = 0%) were nonsignificant in patients taking spironolactone.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "spironolactone for acne is off-label",
+          "quote": "Spironolactone has shown good results in off-label acne management.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQ: spironolactone improved acne in women vs placebo",
+          "quote": "Our study suggests that oral spironolactone improves acne in female patients compared to placebo without increasing risks",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "agency_page",
+      "cited_as": "American Academy of Dermatology. Updated guidelines for acne management (news release, January 31, 2024).",
+      "url": "https://www.aad.org/news/updated-guidelines-acne-management",
+      "version_or_date": "News release dated January 31, 2024; read 2026-11-07",
+      "retrieved_with": "WebFetch of official AAD page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Society news release (kind agency_page used for a professional-society page). \"85% of people aged 12 to 24\" corrected to \"85% of adolescents\". Also used for the citable-summary 50 million link, replacing aad.org/media/stats-numbers which was not retrieved.",
+      "claims": [
+        {
+          "text": "acne affects nearly 50 million Americans each year",
+          "quote": "Acne is the most common skin condition in the United States, affecting nearly 50 million Americans each year,",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "85% of adolescents; can begin or continue in adulthood, especially in women",
+          "quote": "Acne affects 85% of adolescents and can also often begin or continue in adulthood, especially in women.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "limit oral antibiotics when possible to reduce resistance",
+          "quote": "The guidelines recommend limiting use of oral antibiotics when possible to reduce the development of antibiotic resistance",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "use topical and oral antibiotics with benzoyl peroxide to prevent resistance",
+          "quote": "It is recommended that topical and oral antibiotics are used simultaneously with benzoyl peroxide to prevent the development",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "topical retinoids (adapalene, tretinoin, tazarotene, trifarotene) help unclog pores and reduce inflammation; tretinoin and tazarotene named among strongly recommended retinoids",
+          "quote": "Topical retinoids (e.g. adapalene, tretinoin, tazarotene, trifarotene) to help unclog pores and reduce inflammation.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "hormonal therapies such as spironolactone address hormonal causes of acne",
+          "quote": "Hormonal therapies such as combined oral contraceptives or spironolactone to address hormonal causes of acne.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "insufficient evidence for peels, lasers/light, microneedling, dietary changes, vitamins or plant-based therapies",
+          "quote": "Available evidence was insufficient to develop recommendations for procedures such as chemical peels, laser and light-based devices, microneedling, as well as for dietary changes, or alternative therapies such as vitamins or plant-based products.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "journal",
+      "cited_as": "Del Rosso J, Farris PK, Harper J, Baldwin H, Hazan A, Raymond I. New Insights Into Systemic Drivers of Inflammation and Their Contributions to the Pathophysiology of Acne. J Drugs Dermatol. 2024;23(2):90-96.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38306144/",
+      "pmid": "38306144",
+      "doi": "10.36849/JDD.8137",
+      "record_title": "New Insights Into Systemic Drivers of Inflammation and Their Contributions to the Pathophysiology of Acne.",
+      "record_journal": "J Drugs Dermatol",
+      "record_year": "2024",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata (abstract; no PMC full text)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Abstract only. Cut: \"inflammation present from the earliest stages, before a visible lesion\" and \"students flare during exams\" (not in abstract). scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "acne conventionally linked to four factors in and around the pilosebaceous unit",
+          "quote": "The pathophysiology of AV is conventionally correlated with 4 factors within and around the pilosebaceous unit: increased sebum production, follicular hyperkeratinization, Cutibacterium acnes proliferation, and localized immune responses.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "systemic factors including stress, diet/metabolism, gut and skin microbiome dysbiosis, hormonal fluctuations, oxidative stress; stress one of 6 systems",
+          "quote": "6 patient-centric systems that may be implicated in the development of AV: psycho-emotional stress, diet and metabolism, dysbiosis of the gut and skin microbiome, hormonal fluctuations, oxidative stress, and immune response.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "label",
+      "cited_as": "ORACEA (doxycycline) capsules. Prescribing information (Galderma Laboratories, L.P.). DailyMed. Revised April 2025.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aa15c93a-ff4c-447a-8a21-96da506d8997",
+      "version_or_date": "Revised 4/2025; DailyMed updated April 16, 2025",
+      "retrieved_with": "WebFetch of DailyMed label page (two reads)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Replaces the 2007 Del Rosso rosacea phase III trials (PMID 17367893), which tested no acne patients. The label contradicts the old claims that the 40 mg dose works only by blocking MMPs and does not drive resistance: it states the mechanism is unknown and that resistance may develop. Label does not mention acne.",
+      "claims": [
+        {
+          "text": "indicated only for inflammatory lesions of rosacea in adults; use for acne is off-label",
+          "quote": "ORACEA is indicated for the treatment of only inflammatory lesions (papules and pustules) of rosacea in adult patients.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "plasma concentrations below those needed to treat bacterial disease",
+          "quote": "are less than the concentration required to treat bacterial diseases.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "mechanism of action in rosacea is unknown",
+          "quote": "The mechanism of action of ORACEA in the treatment of inflammatory lesions of rosacea is unknown.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "bacterial resistance to tetracyclines may develop",
+          "quote": "Bacterial resistance to tetracyclines may develop in patients using ORACEA.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "no detectable long-term effects on bacterial flora",
+          "quote": "demonstrated no detectable long term effects on bacterial flora of the oral cavity, skin, intestinal tract and vagina.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "should not be used to treat bacterial infections",
+          "quote": "ORACEA should not be used for treating bacterial infections, providing antibacterial prophylaxis",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "30 mg immediate release and 10 mg delayed release beads",
+          "quote": "filled with two types of doxycycline beads (30 mg immediate release and 10 mg delayed release)",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "one 40 mg capsule once daily in the morning on an empty stomach",
+          "quote": "Take one ORACEA capsule (40 mg) once daily in the morning on an empty stomach,",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "label",
+      "cited_as": "Doxycycline hyclate tablets. Prescribing information. DailyMed. Revised September 2025.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f234f419-42da-4a6d-82c6-92106cd77c67",
+      "version_or_date": "Revised 9/2025; DailyMed updated September 19, 2025",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Added to source standard doxycycline dosing and safety. The label dose is the general adult dose; the label lists acne only as adjunctive therapy in severe acne. The guide no longer states an acne-specific \"50 to 100 mg twice daily\" dose (not retrievable from the guideline abstract).",
+      "claims": [
+        {
+          "text": "in severe acne, may be useful adjunctive therapy",
+          "quote": "In severe acne, doxycycline hyclate tablets may be useful adjunctive therapy.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "usual adult dosage 200 mg first day (100 mg every 12 h) then 100 mg daily",
+          "quote": "The usual dosage is 200 mg on the first day of treatment (administered 100 mg every 12 hours) ... followed by a maintenance dose of 100 mg daily.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "photosensitivity: exaggerated sunburn with tetracyclines",
+          "quote": "Photosensitivity manifested by an exaggerated sunburn reaction has been observed in some individuals taking tetracyclines.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "take with plenty of fluid; most esophagitis cases took medicine right before bed",
+          "quote": "Administer doxycycline hyclate tablets with adequate amounts of fluid to wash down the drugs. ... Most of these patients took medications immediately before going to bed.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "permanent tooth discoloration; caution in young children",
+          "quote": "may cause permanent discoloration of the teeth (yellow-gray-brown)",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "journal",
+      "cited_as": "Dreno B, Thiboutot D, Gollnick H, et al. Antibiotic stewardship in dermatology: limiting antibiotic use in acne. Eur J Dermatol. 2014;24(3):330-4.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24721547/",
+      "pmid": "24721547",
+      "doi": "10.1684/ejd.2014.2309",
+      "record_title": "Antibiotic stewardship in dermatology: limiting antibiotic use in acne.",
+      "record_journal": "Eur J Dermatol",
+      "record_year": "2014",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract; no PMC full text)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Abstract only. Old claim that the review \"documented gut and skin microbiome disruption\" cut (not in abstract). The 3 to 4 month duration is now attributed to this review, not the AAD guideline. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "systemic antibiotics for acne limited to 3 to 4 months",
+          "quote": "Systemic antibiotics are important for managing moderate to severe acne and should be used for a limited duration of time (3-4 months).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "antibiotic monotherapy, topical or oral, not recommended",
+          "quote": "Antibiotic monotherapy (topical or oral) is not recommended due to the availability of clinically superior regimens.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "acne therapy results in extensive antibiotic exposure",
+          "quote": "thus, acne therapy results in extensive antibiotic exposure.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "journal",
+      "cited_as": "Rosenberg AL, Shah M, Del Rosso JQ, et al. Optimal Use Recommendations and Stewardship Principles with Oral Antibiotics in Acne Vulgaris Management: An Expert Consensus Panel. J Clin Aesthet Dermatol. 2025;18(12):21-29.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41640785/",
+      "pmid": "41640785",
+      "pmcid": "PMC12867529",
+      "record_title": "Optimal Use Recommendations and Stewardship Principles with Oral Antibiotics in Acne Vulgaris Management: An Expert Consensus Panel.",
+      "record_journal": "J Clin Aesthet Dermatol",
+      "record_year": "2025",
+      "article_type": "Journal Article; Review (expert consensus panel)",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "No DOI in PubMed record; PMID resolves. Old claim that the panel endorses a 3 to 4 month cap was wrong: the panel says duration is individualized. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "oral antibiotics combined with topical treatments; duration individualized",
+          "quote": "oral antibiotics should be combined with topical treatments, and duration of use should be determined based on individualized patient care",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "sarecycline considered a preferred option",
+          "quote": "sarecycline considered a preferred option for AV due to its targeted mode of action",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "tetracyclines avoided in pregnancy and young children",
+          "quote": "tetracyclines should be avoided in pregnancy and in young children.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "journal",
+      "cited_as": "Garner SE, Eady A, Bennett C, et al. Minocycline for acne vulgaris: efficacy and safety. Cochrane Database Syst Rev. 2012;(8):CD002086.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22895927/",
+      "pmid": "22895927",
+      "pmcid": "PMC7017847",
+      "doi": "10.1002/14651858.CD002086.pub2",
+      "record_title": "Minocycline for acne vulgaris: efficacy and safety.",
+      "record_journal": "Cochrane Database Syst Rev",
+      "record_year": "2012",
+      "article_type": "Journal Article; Meta-Analysis; Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "effective for moderate to moderately severe inflammatory acne, no evidence superior to other treatments",
+          "quote": "Minocycline is an effective treatment for moderate to moderately-severe inflammatory acne vulgaris, but there is still no evidence that it is superior to other commonly-used therapies.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "more severe adverse effects than doxycycline; small lupus risk",
+          "quote": "The evidence suggests that minocycline is associated with more severe adverse effects than doxycycline. Minocycline, but not other tetracyclines, is associated with lupus erythematosus, but the risk is small",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "pigmentation",
+          "quote": "Its use has lessened due to safety concerns (including potentially irreversible pigmentation)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "journal",
+      "cited_as": "Moore AY, Del Rosso J, Johnson JL, Grada A. Sarecycline: A Review of Preclinical and Clinical Evidence. Clin Cosmet Investig Dermatol. 2020;13:553-560.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32884318/",
+      "pmid": "32884318",
+      "pmcid": "PMC7431453",
+      "doi": "10.2147/CCID.S190473",
+      "record_title": "Sarecycline: A Review of Preclinical and Clinical Evidence.",
+      "record_journal": "Clin Cosmet Investig Dermatol",
+      "record_year": "2020",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "One author (Grada) lists industry affiliation (Almirall). scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "FDA-approved 2018, designed specifically for acne",
+          "quote": "Sarecycline is a tetracycline-derived oral antibiotic, specifically designed for acne, and is approved by the Food and Drug Administration (FDA) in 2018",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "narrower spectrum, potentially less gut flora disruption",
+          "quote": "The narrower spectrum of antibacterial activity of sarecycline ... suggests not only the potential for reduced emergence of antibiotic-resistant bacterial strains but also less disruption of the human gut microflora.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "label",
+      "cited_as": "SEYSARA (sarecycline) tablets. Prescribing information (Almirall, LLC). DailyMed. Revised March 2023.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b200957c-3004-4988-be97-9fd619a83649",
+      "version_or_date": "Revised 3/2023; DailyMed updated June 5, 2024",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Added. The old \"1.5 mg/kg daily\" figure did not appear on the label page read this run and was cut; weight-band doses used instead.",
+      "claims": [
+        {
+          "text": "once daily by weight: 60, 100 or 150 mg",
+          "quote": "The recommended dosage of SEYSARA is once daily with or without food. ... 60 mg for patients who weigh 33-54 kg, 100 mg for patients who weigh 55-84 kg, 150 mg for patients who weigh 85-136 kg.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "reassess if no improvement after 12 weeks",
+          "quote": "If there is no improvement after 12 weeks, reassess treatment with SEYSARA.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "label",
+      "cited_as": "WINLEVI (clascoterone) cream. Prescribing information (Sun Pharmaceutical Industries, Inc.). DailyMed. Revised July 2022.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1673a84b-7f5c-47ab-a99c-1e3db21a6a09",
+      "version_or_date": "Revised 7/2022; DailyMed updated January 2, 2025",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Added. Old claims \"first-in-class\" and \"directly reduces sebum production\" cut (not retrieved).",
+      "claims": [
+        {
+          "text": "topical androgen receptor inhibitor",
+          "quote": "Clascoterone is an androgen receptor inhibitor.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "first approved in the U.S. in 2020",
+          "quote": "Initial U.S. Approval: 2020",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "for acne in patients 12 years and older",
+          "quote": "indicated for the topical treatment of acne vulgaris in patients 12 years of age and older.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "label",
+      "cited_as": "Differin (adapalene) gel 0.1%. OTC Drug Facts label (Galderma Laboratories, L.P.). DailyMed. Updated December 7, 2022.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0739d631-171b-42a8-bd55-0022b8df2d8a",
+      "version_or_date": "Human OTC drug label; DailyMed updated December 7, 2022",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Added. Replaces the unsourced \"8 to 12 weeks\" trial period with the label's \"up to 3 months\".",
+      "claims": [
+        {
+          "text": "adapalene 0.1% sold OTC for acne",
+          "quote": "Adapalene 0.1% (retinoid)* ... Uses: For the treatment of acne",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "used once daily",
+          "quote": "use once daily",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "may take up to 3 months of once-daily use to see results",
+          "quote": "it may take up to 3 months of once daily use to see results",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "kind": "label",
+      "cited_as": "AKLIEF (trifarotene) cream 0.005%. Prescribing information (Galderma Laboratories, L.P.). DailyMed. Revised October 2023.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=62d910db-85a6-4696-b69b-4bd2f3080cfc",
+      "version_or_date": "Revised 10/2023; DailyMed updated September 16, 2024",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Added.",
+      "claims": [
+        {
+          "text": "particular activity at the gamma subtype of RAR",
+          "quote": "Trifarotene is an agonist of retinoic acid receptors (RAR), with particular activity at the gamma subtype of RAR.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "face and/or trunk; patients 9 and older",
+          "quote": "Apply a thin layer of AKLIEF Cream to the affected areas of the face and/or trunk once a day.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "patients 9 years and older",
+          "quote": "AKLIEF Cream is a retinoid indicated for the topical treatment of acne vulgaris in patients 9 years of age and older.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

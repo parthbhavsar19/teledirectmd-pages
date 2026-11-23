@@ -1,0 +1,629 @@
+{
+  "guide": "gig-worker-healthcare-options",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 1 verified (10.3122/jabfm.2015.06.140337), retractions: none. Only one reference has a DOI; PubMed article type for PMID 26546656 is Journal Article (no retraction notice).",
+  "references": [
+    {
+      "n": 1,
+      "kind": "agency_page",
+      "cited_as": "U.S. Bureau of Labor Statistics. Contingent and Alternative Employment Arrangements, July 2023 (news release). November 8, 2024. Accessed November 15, 2026.",
+      "url": "https://www.bls.gov/news.release/conemp.nr0.htm",
+      "version_or_date": "News release USDL, released November 8, 2024 (July 2023 survey)",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Replaces original ref 1 (Table 1 only, cited for \"57 million gig workers\", which BLS does not report). BLS does not measure gig work as a separate category. Quotes joined across tool fragments with an ellipsis.",
+      "claims": [
+        {
+          "text": "11.9 million independent contractors (7.4 percent of employment) in July 2023",
+          "quote": "In July 2023, there were 11.9 million people who were independent contractors (7.4 percent of total employment),",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "2.8 million on-call workers and 6.9 million in contingent jobs",
+          "quote": "2.8 million on-call workers (1.7 percent of total employment), ... In July 2023, 4.3 percent of workers--6.9 million people--held contingent jobs on their sole or main job",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "independent contractors less likely than traditional workers to have health insurance from any source (74.2% vs 84.9%)",
+          "quote": "In July 2023, 84.9 percent of workers in traditional arrangements had health insurance from any source, a larger share than workers employed by contract companies (79.4 percent), on-call workers (78.2 percent), and independent contractors (74.2 percent).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "workers in alternative arrangements less likely to have employer-provided health insurance",
+          "quote": "Workers in alternative arrangements remained less likely than workers in traditional arrangements to have employer-provided health insurance on their sole or main job.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "agency_page",
+      "cited_as": "HealthCare.gov. Health care insurance coverage for self-employed individuals. Accessed November 15, 2026.",
+      "url": "https://www.healthcare.gov/self-employed/coverage/",
+      "version_or_date": "Undated page, read 2026-11-15",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Original ref 4. Its earlier uses for the 100-400% FPL range, open-enrollment dates and a TeleDirectMD self-description were not supported and were moved to other sources or cut.",
+      "claims": [
+        {
+          "text": "self-employed people can enroll through the Marketplace",
+          "quote": "If you're self-employed, you can use the individual Health Insurance Marketplace® to enroll",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "savings are based on income",
+          "quote": "This will be based on your income and household size.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "agency_page",
+      "cited_as": "HealthCare.gov. When can you get health insurance? (Dates and deadlines for 2027 coverage). Accessed November 15, 2026.",
+      "url": "https://www.healthcare.gov/quick-guide/dates-and-deadlines/",
+      "version_or_date": "2027 coverage dates, read 2026-11-15",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Dates also confirmed in the CMS Plan Year 2027 Marketplace Plans and Prices fact sheet (Oct 30, 2026): Open Enrollment for 2027 begins November 1, 2026 and runs through January 15, 2027. The page shows the dates (November 1 and January 15) as headings beside the quoted labels.",
+      "claims": [
+        {
+          "text": "Open Enrollment for 2027 coverage November 1, 2026 to January 15, 2027",
+          "quote": "Open Enrollment starts — first day you can enroll in, renew, or change health plans through the Marketplace ... Open Enrollment ends — last day to enroll in or change Marketplace health plans for the year",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "enroll by December 15 for coverage starting January 1",
+          "quote": "Last day to enroll in or change plans for coverage to start January 1.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "outside Open Enrollment, need a Special Enrollment Period after a life event such as marriage, new baby, moving, losing coverage",
+          "quote": "get coverage between January 16 and October 31 if you qualify for a Special Enrollment Period ... Like getting married, new baby or dependent, moving, or losing health coverage.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Medicaid and CHIP applications accepted any time",
+          "quote": "You can apply for free or low-cost coverage through Medicaid or the Children's Health Insurance Program (CHIP) at any time.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "agency_page",
+      "cited_as": "Centers for Medicare & Medicaid Services. Medicaid and Children's Health Insurance Program (CHIP) Overview. Version 4.0, May 2025. Accessed November 15, 2026.",
+      "url": "https://www.cms.gov/marketplace/technical-assistance-resources/fast-facts-medicaid-chip.pdf",
+      "version_or_date": "Version 4.0, May 2025",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Primary source for the 138% FPL expansion level and the expansion-state count. Replaces \"41 states plus DC\" (the count is 40 states plus DC; KFF's tracker, read 2026-11-15, lists \"41 states (incl. DC)\" as of November 2026, consistent). Medicaid.gov Eligibility Policy (original ref 5) states 133% and gives no count, so it was dropped.",
+      "claims": [
+        {
+          "text": "expansion covers adults at or below 138% FPL",
+          "quote": "specifically those with income at or below 138 percent of the federal poverty level (FPL)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "as of January 2025, 40 states and DC had expanded",
+          "quote": "As of January 2025, 40 states and the District of Columbia have implemented Medicaid expansion for low-income adults.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "no open enrollment period for Medicaid; apply any time",
+          "quote": "There is no open enrollment period for Medicaid and CHIP. ... Individuals can apply and be determined eligible at any time.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "agency_page",
+      "cited_as": "HealthCare.gov. Medicaid & CHIP coverage. Accessed November 15, 2026.",
+      "url": "https://www.healthcare.gov/medicaid-chip/getting-medicaid-chip/",
+      "version_or_date": "Read 2026-11-15 (2027 work requirement notice on page)",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "from January 1, 2027, adults in expansion states may need to meet a monthly work requirement",
+          "quote": "Starting January 1, 2027, in states that provide Medicaid coverage to adults based on income alone, you may need to meet a new monthly work requirement to qualify for Medicaid or keep your Medicaid coverage.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "losing or being denied Medicaid for the work requirement: Marketplace coverage possible but no savings",
+          "quote": "If you lost or were denied Medicaid because you didn't meet your state's work requirement, you may be able to get Marketplace coverage, but you won't qualify for savings to help lower your Marketplace plan costs.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "apply for Medicaid any time of year",
+          "quote": "You can apply for Medicaid and CHIP any time of year.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "benefits differ by state but comprehensive; free or low-cost",
+          "quote": "Medicaid benefits are different in each state, but all states provide comprehensive coverage. ... provide free or low-cost health coverage to eligible low-income adults",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "non-expansion states: fewer options",
+          "quote": "If your state hasn't expanded Medicaid and you're not eligible, you may have fewer options for coverage.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "agency_page",
+      "cited_as": "Michigan Department of Insurance and Financial Services. DIFS Reminds Consumers That Health Care Sharing Ministries Are Not Health Insurance and May Not Provide Important Consumer Protections. January 23, 2024. Accessed November 15, 2026.",
+      "url": "https://www.michigan.gov/difs/news-and-outreach/press-releases/2024/01/23/difs-reminds-consumers-that-health-care-sharing-ministries-are-not-health-insurance",
+      "version_or_date": "Press release, January 23, 2024",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "State insurance regulator. Replaces uncited HSM claims; \"1 to 3 year waiting period\", \"no mental health or substance use coverage\" and \"lower than ACA premiums\" were not found in any retrieved source and were cut.",
+      "claims": [
+        {
+          "text": "HSMs are faith-based nonprofit membership organizations sharing medical expenses",
+          "quote": "faith-based, nonprofit organizations",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "not insurance, not regulated as insurance",
+          "quote": "HCSMs are not considered health insurance ... HCSMs are not regulated as insurance under state or federal law and therefore are not regulated by DIFS.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "not obligated to pay health care costs",
+          "quote": "the ministries are not legally or contractually obligated to pay health care costs",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "need not cover pre-existing conditions or other consumer protections",
+          "quote": "most insurance policies are required to include coverage for pre-existing conditions ... HCSMs do not have to provide these, or many other, consumer protections.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "agency_page",
+      "cited_as": "Centers for Medicare & Medicaid Services. Health Coverage Options for the Uninsured. Version 1.0, August 2024. Accessed November 15, 2026.",
+      "url": "https://www.cms.gov/marketplace/technical-assistance-resources/health-coverage-options-for-uninsured.pdf",
+      "version_or_date": "Version 1.0, August 2024",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "2024 federal rules limit initial short-term term to three months",
+          "quote": "limit the length of the initial contract term to no more than three months",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "short-term plans can deny for pre-existing conditions and are not subject to individual market protections",
+          "quote": "under federal law, STLDI issuers and plans can deny coverage due to a pre-existing condition or health status ... STLDI plans are not subject to federal individual market consumer protections and requirements for comprehensive coverage",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "catastrophic plans only for under 30 or hardship/affordability exemption",
+          "quote": "Only consumers who are under the age of 30 or who are of any age with a hardship or affordability exemption",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "apply for Medicaid through state Medicaid office or Marketplace application",
+          "quote": "through their state's Medicaid office or through the Marketplace application",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "health centers must serve regardless of ability to pay; sliding fee by income",
+          "quote": "required to offer services regardless of a patient's ability to pay ... offer primary care and additional health services on a sliding fee scale based on a patient's income",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "other_web",
+      "cited_as": "Tolbert J, Cervantes S, Bell C, Damico A. Key Facts about the Uninsured Population. KFF. June 16, 2026. Accessed November 15, 2026.",
+      "url": "https://www.kff.org/uninsured/issue-brief/key-facts-about-the-uninsured-population/",
+      "version_or_date": "Published June 16, 2026",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Original ref 2. The $400-$600 premium and $3,000-$7,000 deductible figures are not on the page and were cut. Last ~1,000 characters of the page were not read.",
+      "claims": [
+        {
+          "text": "inability to afford coverage is the most commonly cited reason for being uninsured",
+          "quote": "Inability to afford coverage is the most commonly cited reason for being uninsured.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "agency_page",
+      "cited_as": "HealthCare.gov. How to report self-employment income to the Marketplace. Accessed November 15, 2026.",
+      "url": "https://www.healthcare.gov/self-employed/income/",
+      "version_or_date": "Read 2026-11-15",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "savings based on estimated net income for the coverage year",
+          "quote": "Marketplace savings are based on your estimated net income for the year you're getting coverage, not last year's income.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "earn more: may pay back credits; earn less: more savings",
+          "quote": "If you wind up making more than you reported on your Marketplace application, you could have to pay back some or all of the premium tax credits you took during the year. ... If you wind up making less, you could qualify for more savings",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "report net self-employment income; update application if income changes",
+          "quote": "you'll report your net income from your self-employment. ... update your Marketplace application as soon as possible.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "agency_page",
+      "cited_as": "Internal Revenue Service. Eligibility for the Premium Tax Credit. Page last reviewed or updated November 6, 2026. Accessed November 15, 2026.",
+      "url": "https://www.irs.gov/affordable-care-act/individuals-and-families/eligibility-for-the-premium-tax-credit",
+      "version_or_date": "Page last reviewed or updated 06-Nov-2026",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The page names only 2021 and 2022 as exceptions to the 400% limit; the IRS Q&A (ref for \"irsqa\") says the temporary expansion covered tax years 2021 through 2025. Both agree the 400% limit applies to 2026.",
+      "claims": [
+        {
+          "text": "premium tax credit generally requires income of 100% to 400% FPL",
+          "quote": "your household income must be at least 100 percent ... for years other than 2021 and 2022, no more than 400 percent of the federal poverty line for your family size",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "agency_page",
+      "cited_as": "Internal Revenue Service. Questions and answers on the Premium Tax Credit. Page last reviewed or updated September 21, 2026. Accessed November 15, 2026.",
+      "url": "https://www.irs.gov/affordable-care-act/individuals-and-families/questions-and-answers-on-the-premium-tax-credit",
+      "version_or_date": "Page last reviewed or updated 21-Sep-2026",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Primary source for the 2026 subsidy change, replacing the outdated \"if enhanced subsidies are not extended\" sentence.",
+      "claims": [
+        {
+          "text": "Congress expanded eligibility only temporarily, tax years 2021 through 2025",
+          "quote": "For tax years 2021 through 2025, Congress temporarily expanded eligibility for the Premium Tax Credit.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "no repayment cap on excess advance credits after 2025",
+          "quote": "There is no repayment cap for tax years after 2025.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "agency_page",
+      "cited_as": "HealthCare.gov. The \"metal\" categories: Bronze, Silver, Gold and Platinum. Accessed November 15, 2026.",
+      "url": "https://www.healthcare.gov/choose-a-plan/plans-categories/",
+      "version_or_date": "Read 2026-11-15",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Original said Bronze has \"the lowest premiums\"; the page table does not state premiums, so that was dropped.",
+      "claims": [
+        {
+          "text": "four metal categories based on cost split, not quality",
+          "quote": "are put into 4 categories (or \"metal levels\"): Bronze, Silver, Gold, and Platinum ... The categories have nothing to do with the quality of care you get in a plan.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Bronze pays about 60%, you 40%, high deductible",
+          "quote": "Bronze | 60% | 40% | High",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "agency_page",
+      "cited_as": "HealthCare.gov. Glossary: Cost-sharing reduction. Accessed November 15, 2026.",
+      "url": "https://www.healthcare.gov/glossary/cost-sharing-reduction/",
+      "version_or_date": "Read 2026-11-15",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The \"under 250% FPL\" limit could not be retrieved on HealthCare.gov this run and was removed.",
+      "claims": [
+        {
+          "text": "cost-sharing reductions lower deductibles, copays, coinsurance; Silver plan required",
+          "quote": "A discount that lowers the amount you have to pay for deductibles, copayments, and coinsurance. ... If you qualify, you must enroll in a plan in the Silver category to get the extra savings.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "agency_page",
+      "cited_as": "HealthCare.gov. Coverage for pre-existing conditions. Accessed November 15, 2026.",
+      "url": "https://www.healthcare.gov/coverage/pre-existing-conditions/",
+      "version_or_date": "Read 2026-11-15",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "plans cannot reject, charge more, or refuse essential benefits for pre-existing conditions; grandfathered exception",
+          "quote": "No insurance plan can reject you, charge you more, or refuse to pay for essential health benefits ... Exception: grandfathered plans don't have to cover pre-existing conditions",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "agency_page",
+      "cited_as": "Internal Revenue Service. Instructions for Form 7206 (2025): Self-Employed Health Insurance Deduction. Accessed November 15, 2026.",
+      "url": "https://www.irs.gov/instructions/i7206",
+      "version_or_date": "Instructions for Form 7206 (2025)",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Replaces the uncited \"deduct 100% of premiums from your federal income taxes\"; the instructions describe a deduction on Schedule 1, not a tax credit, and do not use \"100%\".",
+      "claims": [
+        {
+          "text": "self-employed with net profit may deduct medical, dental, vision premiums for self, spouse, dependents on Schedule 1",
+          "quote": "You were self-employed and had a net profit for the year reported on Schedule C (Form 1040) ... includes medical, dental, and vision insurance ... You can claim the deduction for self-employed health insurance on Schedule 1 (Form 1040), line 17.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "no deduction for months eligible for an employer-subsidized plan, including spouse's",
+          "quote": "You can't take the deduction for any month you were eligible to participate in any employer",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "instructions point to Pub 974 when premium tax credits involved",
+          "quote": "See Pub. 974 if the insurance plan was considered to be established under your business.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "agency_page",
+      "cited_as": "U.S. Departments of Labor, Health and Human Services, and the Treasury. Statement regarding short-term, limited-duration insurance. August 7, 2025. Accessed November 15, 2026.",
+      "url": "https://www.dol.gov/agencies/ebsa/laws-and-regulations/laws/affordable-care-act/for-employers-and-advisers/short-term-limited-duration-insurance/stldi-statement-08-07-2025",
+      "version_or_date": "Statement dated August 7, 2025",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Departments will not prioritize enforcing 2024 STLDI definition pending rulemaking",
+          "quote": "the Departments do not intend to prioritize enforcement actions for violations related to failing to meet the definition ... undertake notice-and-comment rulemaking to consider the need for amendments",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "states may apply their own definitions",
+          "quote": "applies its State law definition of \"short-term, limited-duration insurance.\"",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "kind": "journal",
+      "cited_as": "Eskew PM, Klink K. Direct Primary Care: Practice Distribution and Cost Across the Nation. Journal of the American Board of Family Medicine. 2015;28(6):793-801. doi:10.3122/jabfm.2015.06.140337. PMID: 26546656.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26546656/",
+      "pmid": "26546656",
+      "doi": "10.3122/jabfm.2015.06.140337",
+      "record_title": "Direct Primary Care: Practice Distribution and Cost Across the Nation.",
+      "record_journal": "J Am Board Fam Med",
+      "record_year": "2015",
+      "article_type": "Journal Article",
+      "version_or_date": "",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Abstract only. The \"$50 to $150 per month\" figure was not in the abstract and was cut. Scite verify_papers: verified, no editorial notices, no contrasting evidence.",
+      "claims": [
+        {
+          "text": "DPC eliminates fee-for-service billing and charges a periodic fee for primary care",
+          "quote": "eliminates traditional third-party fee-for-service billing and (2) charges patients a periodic fee for primary care services",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "lower price points and broad distribution confirmed; quality data lacking",
+          "quote": "Lower price points and a broad distribution of DPC practices were confirmed, but data about quality are lacking.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "kind": "agency_page",
+      "cited_as": "Health Resources and Services Administration. Get Health Care. Date last reviewed May 2022. Accessed November 15, 2026.",
+      "url": "https://www.hrsa.gov/get-health-care",
+      "version_or_date": "Date last reviewed May 2022",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "health centers provide primary medical and dental care regardless of insurance",
+          "quote": "Health centers provide primary medical and dental care to people of all ages, whether or not they have health insurance.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Find a Health Center tool",
+          "quote": "Find a Health Center",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "kind": "agency_page",
+      "cited_as": "National Institute of Diabetes and Digestive and Kidney Diseases. Definition & Facts of Kidney Infection (Pyelonephritis). Last reviewed October 2024. Accessed November 15, 2026.",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-infection-pyelonephritis/definition-facts",
+      "version_or_date": "Last Reviewed October 2024",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Replaces uncited \"untreated UTI progresses to kidney infection requiring IV antibiotics\".",
+      "claims": [
+        {
+          "text": "kidney infections often begin in the bladder; can be very painful and serious",
+          "quote": "Kidney infections often begin in the bladder and move up through the ureters to infect one or both kidneys. ... Kidney infections can be very painful and cause serious health problems.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "kind": "agency_page",
+      "cited_as": "National Institute of Diabetes and Digestive and Kidney Diseases. Treatment for Kidney Infection (Pyelonephritis). Last reviewed October 2024. Accessed November 15, 2026.",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-infection-pyelonephritis/treatment",
+      "version_or_date": "Last reviewed October 2024",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "very sick from kidney infection may need hospital care",
+          "quote": "If you are very sick from your kidney infection, you may go to a hospital.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. About High Blood Pressure. Reviewed October 13, 2026. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/high-blood-pressure/about/index.html",
+      "version_or_date": "Reviewed October 13, 2026",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "high blood pressure usually has no symptoms and increases risk of heart disease and stroke",
+          "quote": "High blood pressure increases the risk for heart disease and stroke, two leading causes of death for Americans. ... High blood pressure usually has no signs or symptoms",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus Medical Encyclopedia. Sinusitis. Review date April 29, 2026. Accessed November 15, 2026.",
+      "url": "https://medlineplus.gov/ency/article/000647.htm",
+      "version_or_date": "Review date 4/29/2026",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Replaces uncited \"a sinus infection that lingers can develop into orbital or intracranial complications\"; MedlinePlus calls complications very rare.",
+      "claims": [
+        {
+          "text": "complications such as orbital cellulitis or meningitis are very rare",
+          "quote": "very rare ... Meningitis ... Skin infection around the eye (orbital cellulitis)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "contact a provider for severe headache unrelieved by OTC medicine or vision changes",
+          "quote": "You have a severe headache that is not relieved by over-the-counter pain medicine. ... You have any changes in your vision during a sinus infection.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "kind": "dataset",
+      "cited_as": "Bunch LN, Ketema H. Health Insurance Coverage in the United States: 2025. Current Population Reports P60-291. U.S. Census Bureau. September 2026. Accessed November 15, 2026.",
+      "url": "https://www2.census.gov/library/publications/2026/demo/p60-291.pdf",
+      "version_or_date": "P60-291, issued September 2026 (2025 data)",
+      "retrieved_with": "WebFetch of report PDF",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Replaces original ref 3 (P60-284, 2023 data), whose landing page did not show the age figures. \"Largest share of the uninsured\" reworded to uninsured rates, which is what the report states.",
+      "claims": [
+        {
+          "text": "11.0% of adults 19-64 uninsured vs 5.8% of children",
+          "quote": "In 2025, 11.0 percent of adults ages 19 to 64 did not have health insurance coverage ... In 2025, 5.8 percent of children under the age of 19 did not have health insurance",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "ages 19 to 25 highest uninsured rate, 14.5%",
+          "quote": "those ages 19 to 25 had the highest uninsured rate (14.5 percent) in 2025",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

@@ -11,7 +11,7 @@
  * + HowTo + BreadcrumbList + SpeakableSpecification — NEVER QAPage).
  *
  * Authority: American Academy of Dermatology (AAD)
- * Guideline: AAD Contact Dermatitis Guidelines and ACAAI Allergic Contact Dermatitis Guidance
+ * Guideline: AAD contact dermatitis treatment resources and ACAAI allergic contact dermatitis guidance
  *
  * Hard rules respected:
  *   • No QAPage schema — FAQPage only.
@@ -38,7 +38,7 @@ const PHYSICIAN = {
   specialty: 'Family Medicine',
   licenseState: 'California',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 const CA_PAYORS = [
@@ -46,8 +46,8 @@ const CA_PAYORS = [
     notes: 'Commercial plans. In-network as of April 30, 2026. Verify plan eligibility with Aetna before booking.' },
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true,
     notes: 'Covers UHC Commercial and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types.' },
-  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Enrollment pending. Self pay ($79) available.' },
+  { name: 'Anthem Blue Cross', status: 'Active', effective: 'September 23, 2026', inNetwork: true,
+    notes: 'PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.' },
   { name: 'Cigna', status: 'Pending', effective: 'Pending determination', inNetwork: false,
     notes: 'Pending — Telehealth Only review in progress. Self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false,
@@ -62,7 +62,7 @@ const FAQ_ITEMS = [
     question: 'Can I get contact dermatitis treatment online in California?',
     answer: (
       <p>
-        Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat contact dermatitis by secure video visit. TeleDirectMD physicians follow AAD and ACAAI guidelines, prescribing topical corticosteroids and oral prednisone for severe reactions such as widespread poison oak. Adults 18+ in California can book same-day. Self pay is $79. Aetna is in-network as of April 30, 2026.
+        Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat contact dermatitis by secure video visit. Dr. Bhavsar follows AAD and ACAAI clinical guidance, prescribing topical corticosteroids and oral prednisone for severe reactions such as widespread poison oak. Adults 18+ in California can book same-day. Self pay is $79. Aetna is in-network as of April 30, 2026.
       </p>
     ),
   },
@@ -71,7 +71,7 @@ const FAQ_ITEMS = [
     question: 'What medications treat contact dermatitis?',
     answer: (
       <p>
-        First-line treatments per AAD guidelines include: topical corticosteroids — triamcinolone 0.1% (approximately $5–$15 with GoodRx) for body or mid-potency areas; betamethasone for thick skin areas (palms, soles). For severe widespread reactions such as poison oak, oral prednisone 40–60 mg tapering over 10–14 days (approximately $5–$15 with GoodRx) prevents rebound flare. Antihistamines (hydroxyzine, OTC cetirizine) relieve itch but do not treat the rash. Prescription costs are separate from the $79 visit fee.
+        First-line treatments per AAD guidance include: topical corticosteroids — triamcinolone 0.1% (approximately $5–$15 with GoodRx) for body or mid-potency areas; betamethasone for thick skin areas (palms, soles). For severe widespread reactions such as poison oak, oral prednisone 40–60 mg tapering over 10–14 days (approximately $5–$15 with GoodRx) prevents rebound flare. Antihistamines (hydroxyzine, OTC cetirizine) relieve itch but do not treat the rash. Prescription costs are separate from the $79 visit fee.
       </p>
     ),
   },
@@ -116,7 +116,7 @@ const FAQ_ITEMS = [
     question: 'What is the cost of contact dermatitis treatment in California?',
     answer: (
       <p>
-        TeleDirectMD charges $79 self-pay for a complete MD video visit. Generic triamcinolone costs approximately $5–$15, generic prednisone approximately $5–$15, and hydroxyzine approximately $10–$20 with GoodRx. Urgent care contact dermatitis visits in California typically cost $150–$300 before insurance. Prescription costs are separate from the $79 visit fee.
+        TeleDirectMD charges $79 self-pay for a complete MD video visit. Generic triamcinolone costs approximately $5–$15, generic prednisone approximately $5–$15, and hydroxyzine approximately $10–$20 with GoodRx. Prescription costs are separate from the $79 visit fee.
       </p>
     ),
   },
@@ -161,13 +161,13 @@ const FAQ_ITEMS = [
     question: 'Can I get prednisone for poison oak online in California?',
     answer: (
       <p>
-        Yes. Short-course oral prednisone (40–60 mg tapering over 10–14 days) is a standard treatment for severe widespread allergic contact dermatitis from poison oak per AAD guidelines. A California-licensed telehealth physician can prescribe prednisone after evaluating the extent and severity of the reaction and confirming no contraindications such as active infection, poorly controlled diabetes, or significant GI ulcer history. Localized poison oak without facial involvement or systemic symptoms is appropriate for telehealth management.
+        Yes. Short-course oral prednisone (40–60 mg tapering over 10–14 days) is a standard treatment for severe widespread allergic contact dermatitis from poison oak per AAD guidance. A California-licensed telehealth physician can prescribe prednisone after evaluating the extent and severity of the reaction and confirming no contraindications such as active infection, poorly controlled diabetes, or significant GI ulcer history. Localized poison oak without facial involvement or systemic symptoms is appropriate for telehealth management.
       </p>
     ),
   },
 ];
 
-const SCHEMAS = [{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Contact Dermatitis Treatment Online in California | TeleDirectMD", "url": "https://teledirectmd.com/ca/contact-dermatitis-treatment-online/", "description": "Contact dermatitis treatment online for California adults. Board-certified MD. AAD and ACAAI guideline-based care. Topical steroids and prednisone for poison oak. Self pay $79. Aetna in-network. Same-day video visits.", "datePublished": "2026-05-20", "dateModified": "2026-05-20", "inLanguage": "en-US", "about": {"@type": "MedicalCondition", "name": "Contact Dermatitis", "code": {"@type": "MedicalCode", "code": "L25.9", "codingSystem": "ICD-10-CM"}}, "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient", "geographicArea": {"@type": "AdministrativeArea", "name": "California"}}, "reviewedBy": {"@type": "Physician", "@id": "https://teledirectmd.com/about/#physician-parth-bhavsar", "name": "Parth Bhavsar, MD", "identifier": {"@type": "PropertyValue", "propertyID": "NPI", "value": "1104323203"}, "medicalSpecialty": "Family Medicine", "hasCredential": [{"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "Doctor of Medicine (MD)"}, {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Board Certification \u2014 American Board of Family Medicine"}], "licensedIn": "California", "worksFor": {"@type": "MedicalOrganization", "name": "TeleDirectMD", "url": "https://teledirectmd.com"}, "sameAs": ["https://npiregistry.cms.hhs.gov/provider-view/1104323203", "https://teledirectmd.com/about/"]}, "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["#ca-contact-dermatitis-treatment-online-opening", "#ca-contact-dermatitis-treatment-online-opening p", ".tdmd-ca-contact-dermatitis-treatment-online__byline", "#ca-contact-dermatitis-treatment-online-faq"]}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I get contact dermatitis treatment online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat contact dermatitis by secure video visit. TeleDirectMD physicians follow AAD and ACAAI guidelines, prescribing topical corticosteroids and oral prednisone for severe reactions such as widespread poison oak. Adults 18+ in California can book same-day. Self pay is $79. Aetna is in-network as of April 30, 2026."}}, {"@type": "Question", "name": "What medications treat contact dermatitis?", "acceptedAnswer": {"@type": "Answer", "text": "First-line treatments per AAD guidelines include: topical corticosteroids \u2014 triamcinolone 0.1% (approximately $5\u2013$15 with GoodRx) for body or mid-potency areas; betamethasone for thick skin areas (palms, soles). For severe widespread reactions such as poison oak, oral prednisone 40\u201360 mg tapering over 10\u201314 days (approximately $5\u2013$15 with GoodRx) prevents rebound flare. Antihistamines (hydroxyzine, OTC cetirizine) relieve itch but do not treat the rash. Prescription costs are separate from the $79 visit fee."}}, {"@type": "Question", "name": "How common is contact dermatitis in California?", "acceptedAnswer": {"@type": "Answer", "text": "Contact dermatitis is one of the most common occupational and environmental skin conditions in California. CDPH Occupational Health documents it as a leading occupational illness in agriculture, healthcare, and manufacturing. California's abundant poison oak \u2014 the leading plant allergen in the western United States \u2014 contributes to high rates of allergic contact dermatitis, particularly in hikers, wildland firefighters, and outdoor workers."}}, {"@type": "Question", "name": "Does California require an in-person visit before contact dermatitis telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. Mild-to-moderate contact dermatitis with a clear history \u2014 known trigger, classic presentation such as linear vesicles from poison oak \u2014 is appropriately evaluated and treated by video. Patch testing for unknown allergen identification requires in-person allergy referral."}}, {"@type": "Question", "name": "When does contact dermatitis require emergency or in-person care?", "acceptedAnswer": {"@type": "Answer", "text": "Call 911 for anaphylaxis or angioedema \u2014 facial swelling, throat tightening, or difficulty breathing after allergen contact. Go to urgent care or the ER for severe facial swelling, widespread blistering, or contact dermatitis involving the eyes or mucous membranes. Seek in-person allergy referral for occupational contact dermatitis requiring patch testing to identify the specific allergen."}}, {"@type": "Question", "name": "Is Aetna in-network for contact dermatitis treatment at TeleDirectMD in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026. Self pay is $79 for patients paying out-of-pocket."}}, {"@type": "Question", "name": "What is the cost of contact dermatitis treatment in California?", "acceptedAnswer": {"@type": "Answer", "text": "TeleDirectMD charges $79 self-pay for a complete MD video visit. Generic triamcinolone costs approximately $5\u2013$15, generic prednisone approximately $5\u2013$15, and hydroxyzine approximately $10\u2013$20 with GoodRx. Urgent care contact dermatitis visits in California typically cost $150\u2013$300 before insurance. Prescription costs are separate from the $79 visit fee."}}, {"@type": "Question", "name": "Does California's AB 744 parity law cover contact dermatitis telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, for in-network commercial plans. California Insurance Code \u00a710123.85 (AB 744, 2019) requires commercial health plans to reimburse telehealth on the same basis as in-person services. Aetna (active April 30, 2026) and UHC Commercial (approved May 29, 2026) are in-network for TeleDirectMD in California."}}, {"@type": "Question", "name": "What are the most common contact dermatitis triggers in California?", "acceptedAnswer": {"@type": "Answer", "text": "California-specific common triggers include poison oak (Toxicodendron diversilobum \u2014 the most common plant allergen in the western United States), nickel in jewelry, latex gloves (healthcare and food service workers), hair dyes (paraphenylenediamine/PPD), cosmetic preservatives (methylisothiazolinone), and agricultural pesticides and plant saps. ACAAI notes that California's diverse flora and agricultural economy make contact sensitization more common here than in many other states."}}, {"@type": "Question", "name": "How is allergic contact dermatitis different from irritant contact dermatitis?", "acceptedAnswer": {"@type": "Answer", "text": "Allergic contact dermatitis (ACD) is an immune-mediated delayed hypersensitivity reaction \u2014 requires prior sensitization, typically causes itch with vesicles, and often spreads beyond the contact area. Irritant contact dermatitis (ICD) is a direct skin damage response \u2014 no sensitization needed, causes burning and pain, and stays localized to the contact area. Both respond to topical corticosteroids; ACD may require patch testing for allergen identification while ICD requires identifying and eliminating the irritant."}}, {"@type": "Question", "name": "Will my prescription be sent electronically to a California pharmacy?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California AB 2789 (effective January 1, 2022) requires all prescriptions to be issued electronically. TeleDirectMD sends e-prescriptions to your chosen California pharmacy \u2014 CVS, Walgreens, Rite Aid, Walmart, Safeway \u2014 during or after your visit. Contact dermatitis medications are not controlled substances."}}, {"@type": "Question", "name": "Can I get prednisone for poison oak online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Short-course oral prednisone (40\u201360 mg tapering over 10\u201314 days) is a standard treatment for severe widespread allergic contact dermatitis from poison oak per AAD guidelines. A California-licensed telehealth physician can prescribe prednisone after evaluating the extent and severity of the reaction and confirming no contraindications such as active infection, poorly controlled diabetes, or significant GI ulcer history. Localized poison oak without facial involvement or systemic symptoms is appropriate for telehealth management."}}]}, {"@context": "https://schema.org", "@type": "HowTo", "name": "How to Get Contact Dermatitis Treatment Online in California", "description": "Three steps to receive contact dermatitis treatment evaluation and, if appropriate, a prescription from a California-licensed board-certified physician.", "totalTime": "PT30M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "79"}, "step": [{"@type": "HowToStep", "position": 1, "name": "Book your video visit", "text": "Visit teledirectmd.com and select California Contact Dermatitis treatment. No referral needed. Self pay $79. Many visits available same day.", "url": "https://teledirectmd.com/book-online"}, {"@type": "HowToStep", "position": 2, "name": "See a California-licensed MD by secure video", "text": "Connect with a board-certified Family Medicine physician licensed in California. The physician reviews your symptoms, history, and red-flag screening. Consent per CA B&P Section 2290.5 confirmed.", "url": "https://teledirectmd.com/ca/contact-dermatitis-treatment-online/"}, {"@type": "HowToStep", "position": 3, "name": "Receive your treatment plan and e-prescription", "text": "If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy during or after the visit.", "url": "https://teledirectmd.com/ca/contact-dermatitis-treatment-online/"}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TeleDirectMD", "item": "https://teledirectmd.com"}, {"@type": "ListItem", "position": 2, "name": "California", "item": "https://teledirectmd.com/ca/"}, {"@type": "ListItem", "position": 3, "name": "Contact Dermatitis Treatment Online in California", "item": "https://teledirectmd.com/ca/contact-dermatitis-treatment-online/"}]}];
+const SCHEMAS = [{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Contact Dermatitis Treatment Online in California | TeleDirectMD", "url": "https://teledirectmd.com/ca/contact-dermatitis-treatment-online/", "description": "Contact dermatitis treatment online for California adults. Board-certified MD. AAD and ACAAI guidance-based care. Topical steroids and prednisone for poison oak. Self pay $79. Aetna in-network. Same-day video visits.", "datePublished": "2026-05-20", "dateModified": "2026-05-20", "inLanguage": "en-US", "about": {"@type": "MedicalCondition", "name": "Contact Dermatitis", "code": {"@type": "MedicalCode", "code": "L25.9", "codingSystem": "ICD-10-CM"}}, "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient", "geographicArea": {"@type": "AdministrativeArea", "name": "California"}}, "reviewedBy": {"@type": "Physician", "@id": "https://teledirectmd.com/about/#physician", "name": "Parth Bhavsar, MD", "identifier": {"@type": "PropertyValue", "propertyID": "NPI", "value": "1104323203"}, "medicalSpecialty": "Family Medicine", "hasCredential": [{"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "Doctor of Medicine (MD)"}, {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Board Certification \u2014 American Board of Family Medicine"}], "licensedIn": "California", "worksFor": {"@type": "MedicalOrganization", "name": "TeleDirectMD", "url": "https://teledirectmd.com"}, "sameAs": ["https://npiregistry.cms.hhs.gov/provider-view/1104323203", "https://teledirectmd.com/about/"]}, "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["#ca-contact-dermatitis-treatment-online-opening", "#ca-contact-dermatitis-treatment-online-opening p", ".tdmd-ca-contact-dermatitis-treatment-online__byline", "#ca-contact-dermatitis-treatment-online-faq"]}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I get contact dermatitis treatment online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat contact dermatitis by secure video visit. Dr. Bhavsar follows AAD and ACAAI clinical guidance, prescribing topical corticosteroids and oral prednisone for severe reactions such as widespread poison oak. Adults 18+ in California can book same-day. Self pay is $79. Aetna is in-network as of April 30, 2026."}}, {"@type": "Question", "name": "What medications treat contact dermatitis?", "acceptedAnswer": {"@type": "Answer", "text": "First-line treatments per AAD guidance include: topical corticosteroids \u2014 triamcinolone 0.1% (approximately $5\u2013$15 with GoodRx) for body or mid-potency areas; betamethasone for thick skin areas (palms, soles). For severe widespread reactions such as poison oak, oral prednisone 40\u201360 mg tapering over 10\u201314 days (approximately $5\u2013$15 with GoodRx) prevents rebound flare. Antihistamines (hydroxyzine, OTC cetirizine) relieve itch but do not treat the rash. Prescription costs are separate from the $79 visit fee."}}, {"@type": "Question", "name": "How common is contact dermatitis in California?", "acceptedAnswer": {"@type": "Answer", "text": "Contact dermatitis is one of the most common occupational and environmental skin conditions in California. CDPH Occupational Health documents it as a leading occupational illness in agriculture, healthcare, and manufacturing. California's abundant poison oak \u2014 the leading plant allergen in the western United States \u2014 contributes to high rates of allergic contact dermatitis, particularly in hikers, wildland firefighters, and outdoor workers."}}, {"@type": "Question", "name": "Does California require an in-person visit before contact dermatitis telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. Mild-to-moderate contact dermatitis with a clear history \u2014 known trigger, classic presentation such as linear vesicles from poison oak \u2014 is appropriately evaluated and treated by video. Patch testing for unknown allergen identification requires in-person allergy referral."}}, {"@type": "Question", "name": "When does contact dermatitis require emergency or in-person care?", "acceptedAnswer": {"@type": "Answer", "text": "Call 911 for anaphylaxis or angioedema \u2014 facial swelling, throat tightening, or difficulty breathing after allergen contact. Go to urgent care or the ER for severe facial swelling, widespread blistering, or contact dermatitis involving the eyes or mucous membranes. Seek in-person allergy referral for occupational contact dermatitis requiring patch testing to identify the specific allergen."}}, {"@type": "Question", "name": "Is Aetna in-network for contact dermatitis treatment at TeleDirectMD in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026. Self pay is $79 for patients paying out-of-pocket."}}, {"@type": "Question", "name": "What is the cost of contact dermatitis treatment in California?", "acceptedAnswer": {"@type": "Answer", "text": "TeleDirectMD charges $79 self-pay for a complete MD video visit. Generic triamcinolone costs approximately $5\u2013$15, generic prednisone approximately $5\u2013$15, and hydroxyzine approximately $10\u2013$20 with GoodRx. Prescription costs are separate from the $79 visit fee."}}, {"@type": "Question", "name": "Does California's AB 744 parity law cover contact dermatitis telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, for in-network commercial plans. California Insurance Code \u00a710123.85 (AB 744, 2019) requires commercial health plans to reimburse telehealth on the same basis as in-person services. Aetna (active April 30, 2026) and UHC Commercial (approved May 29, 2026) are in-network for TeleDirectMD in California."}}, {"@type": "Question", "name": "What are the most common contact dermatitis triggers in California?", "acceptedAnswer": {"@type": "Answer", "text": "California-specific common triggers include poison oak (Toxicodendron diversilobum \u2014 the most common plant allergen in the western United States), nickel in jewelry, latex gloves (healthcare and food service workers), hair dyes (paraphenylenediamine/PPD), cosmetic preservatives (methylisothiazolinone), and agricultural pesticides and plant saps. ACAAI notes that California's diverse flora and agricultural economy make contact sensitization more common here than in many other states."}}, {"@type": "Question", "name": "How is allergic contact dermatitis different from irritant contact dermatitis?", "acceptedAnswer": {"@type": "Answer", "text": "Allergic contact dermatitis (ACD) is an immune-mediated delayed hypersensitivity reaction \u2014 requires prior sensitization, typically causes itch with vesicles, and often spreads beyond the contact area. Irritant contact dermatitis (ICD) is a direct skin damage response \u2014 no sensitization needed, causes burning and pain, and stays localized to the contact area. Both respond to topical corticosteroids; ACD may require patch testing for allergen identification while ICD requires identifying and eliminating the irritant."}}, {"@type": "Question", "name": "Will my prescription be sent electronically to a California pharmacy?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California AB 2789 (effective January 1, 2022) requires all prescriptions to be issued electronically. TeleDirectMD sends e-prescriptions to your chosen California pharmacy \u2014 CVS, Walgreens, Rite Aid, Walmart, Safeway \u2014 during or after your visit. Contact dermatitis medications are not controlled substances."}}, {"@type": "Question", "name": "Can I get prednisone for poison oak online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Short-course oral prednisone (40\u201360 mg tapering over 10\u201314 days) is a standard treatment for severe widespread allergic contact dermatitis from poison oak per AAD guidance. A California-licensed telehealth physician can prescribe prednisone after evaluating the extent and severity of the reaction and confirming no contraindications such as active infection, poorly controlled diabetes, or significant GI ulcer history. Localized poison oak without facial involvement or systemic symptoms is appropriate for telehealth management."}}]}, {"@context": "https://schema.org", "@type": "HowTo", "name": "How to Get Contact Dermatitis Treatment Online in California", "description": "Three steps to receive contact dermatitis treatment evaluation and, if appropriate, a prescription from a California-licensed board-certified physician.", "totalTime": "PT30M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "79"}, "step": [{"@type": "HowToStep", "position": 1, "name": "Book your video visit", "text": "Visit teledirectmd.com and select California Contact Dermatitis treatment. No referral needed. Self pay $79. Many visits available same day.", "url": "https://teledirectmd.com/book-online"}, {"@type": "HowToStep", "position": 2, "name": "See a California-licensed MD by secure video", "text": "Connect with a board-certified Family Medicine physician licensed in California. The physician reviews your symptoms, history, and red-flag screening. Consent per CA B&P Section 2290.5 confirmed.", "url": "https://teledirectmd.com/ca/contact-dermatitis-treatment-online/"}, {"@type": "HowToStep", "position": 3, "name": "Receive your treatment plan and e-prescription", "text": "If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy during or after the visit.", "url": "https://teledirectmd.com/ca/contact-dermatitis-treatment-online/"}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TeleDirectMD", "item": "https://teledirectmd.com"}, {"@type": "ListItem", "position": 2, "name": "California", "item": "https://teledirectmd.com/ca/"}, {"@type": "ListItem", "position": 3, "name": "Contact Dermatitis Treatment Online in California", "item": "https://teledirectmd.com/ca/contact-dermatitis-treatment-online/"}]}];
 
 const PAGE_CSS = `
 .tdmd-ca-cond{color:var(--tdmd-text);}
@@ -242,7 +242,7 @@ export default function CaContactDermatitisTreatmentOnline() {
               <div className="tdmd-hero-copy">
                 <h1 data-speakable="true">Contact Dermatitis Treatment Online in California</h1>
                 <p className="tdmd-hero-sub" data-speakable="true">
-                  California adult care by secure video visit. Self pay $79 · Aetna in-network · UHC Commercial approved · AAD + ACAAI guideline-based care · CA B&P §2290.5 compliant.
+                  California adult care by secure video visit. Self pay $79 · Aetna in-network · UHC Commercial approved · AAD + ACAAI guidance-based care · CA B&P §2290.5 compliant.
                 </p>
                 <p>
                   Contact Dermatitis is a condition commonly evaluated and, when appropriate, treated via telehealth. TeleDirectMD uses a safety-first approach, screening for red-flag symptoms that require in-person or emergency care before determining whether treatment by video visit is appropriate. This page is for adults located in California, including Los Angeles, San Diego, San Jose, San Francisco, Fresno, Sacramento, Long Beach, Oakland, Bakersfield, Anaheim, and surrounding areas.
@@ -251,7 +251,7 @@ export default function CaContactDermatitisTreatmentOnline() {
                 {/* v3: Inline opener paragraph — replaces CitableSummaryBlock */}
                 <div className="tdmd-condition-opener" id={`${pid}-opening`}>
                   <p>
-                    <strong>Can I get contact dermatitis treatment online in California?</strong> Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California and are held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. Self pay is $79. <a href="/insurance/">Aetna is in-network</a> as of April 30, 2026; UnitedHealthcare Commercial approved May 29, 2026.
+                    <strong>Can I get contact dermatitis treatment online in California?</strong> Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. Dr. Bhavsar is licensed in California and is held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. Self pay is $79. <a href="/insurance/">Aetna is in-network</a> as of April 30, 2026; UnitedHealthcare Commercial approved May 29, 2026.
                   </p>
                 </div>
 
@@ -290,9 +290,9 @@ export default function CaContactDermatitisTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> L25.9 (Unspecified contact dermatitis, unspecified cause; actual code assigned at visit)</p>
@@ -404,7 +404,7 @@ export default function CaContactDermatitisTreatmentOnline() {
                   <h3>Receive your treatment plan and e-prescription</h3>
                   <p>If medication is clinically appropriate, a California-compliant e-prescription is sent to your chosen California pharmacy during or after the visit. You receive clear follow-up instructions regardless of treatment choice, including when to seek in-person care.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -417,10 +417,10 @@ export default function CaContactDermatitisTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Contact Dermatitis in California?</h2>
             <p>
-              Contact dermatitis — including allergic and irritant forms — is one of the most common occupational and environmental skin conditions in California. CDPH Occupational Health documents contact dermatitis as a leading occupational illness in California agriculture, healthcare, and manufacturing. California's abundant poison oak (Toxicodendron diversilobum) — the most common allergic contact dermatitis trigger in the western US — and widespread use of latex gloves, hair dyes, and cosmetics contribute to high prevalence. ACAAI estimates contact dermatitis affects approximately 15–20% of the general population. — <a href="https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/OHB/Pages/OccupationalDiseases.aspx" rel="noopener" target="_blank">CDPH — Occupational Health Hazard Assessment (Contact Dermatitis)</a>.
+              Contact dermatitis — including allergic and irritant forms — is one of the most common occupational and environmental skin conditions in California. CDPH Occupational Health documents contact dermatitis as a leading occupational illness in California agriculture, healthcare, and manufacturing. California's abundant poison oak (Toxicodendron diversilobum) — the most common allergic contact dermatitis trigger in the western US — and widespread use of latex gloves, hair dyes, and cosmetics contribute to high prevalence. ACAAI estimates contact dermatitis affects approximately 15–20% of the general population. — <a href="https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/OHB/Pages/OHB.aspx" rel="noopener" target="_blank">CDPH Occupational Health Branch</a>.
             </p>
             <p>
-              Clinical guidance for contact dermatitis treatment is provided by <a href="https://www.aad.org/member/clinical-quality/guidelines/contact-dermatitis" rel="noopener" target="_blank">American Academy of Dermatology (AAD)</a> through the AAD Contact Dermatitis Guidelines and ACAAI Allergic Contact Dermatitis Guidance. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for contact dermatitis treatment is provided by <a href="https://www.aad.org/public/diseases/eczema/types/contact-dermatitis" rel="noopener" target="_blank">American Academy of Dermatology (AAD)</a> through its contact dermatitis treatment resources and ACAAI allergic contact dermatitis guidance. TeleDirectMD follows this guidance on every patient visit.
             </p>
             <h3>What causes contact dermatitis and who is most at risk in California?</h3>
             <p>
@@ -449,25 +449,6 @@ export default function CaContactDermatitisTreatmentOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical Contact Dermatitis cost comparison">
-                <h3>Typical Contact Dermatitis Visit Cost in California</h3>
-                <p className="tdmd-price-caption">Common ranges Californians see before insurance. Actual costs vary by setting and city.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 16, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical California metro pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <h3 style={{ marginTop: '1.75rem' }}>California Payor Status — TeleDirectMD</h3>
@@ -505,7 +486,7 @@ export default function CaContactDermatitisTreatmentOnline() {
               </table>
             </div>
             <p style={{ marginTop: '1rem' }}>
-              View all <a href="/insurance">insurance options</a> or <a href="/book-online">book a $79 self-pay visit</a>.
+              View all <a href="/insurance/">insurance options</a> or <a href="/book-online/">book a $79 self-pay visit</a>.
             </p>
           </div>
         </section>
@@ -515,7 +496,7 @@ export default function CaContactDermatitisTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Contact Dermatitis Treatment Medication Options and Costs in California</h2>
             <p>
-              Medications for contact dermatitis treatment are selected based on current guidelines from <a href="https://www.aad.org/member/clinical-quality/guidelines/contact-dermatitis" rel="noopener" target="_blank">American Academy of Dermatology (AAD)</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for contact dermatitis treatment are selected based on current guidelines from <a href="https://www.aad.org/public/diseases/eczema/types/contact-dermatitis" rel="noopener" target="_blank">American Academy of Dermatology (AAD)</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Contact Dermatitis Treatment medication options and GoodRx prices">
@@ -534,13 +515,13 @@ export default function CaContactDermatitisTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Triamcinolone 0.1% cream (mid-potency TCS)</strong> · First-line</td>
                     <td>Apply to affected areas twice daily for 7–14 days</td>
-                    <td><a href="https://www.goodrx.com/triamcinolone-topical" target="_blank" rel="noopener">~$5–$15 / 454 g with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/triamcinolone" target="_blank" rel="noopener">~$5–$15 / 454 g with GoodRx</a></td>
                     <td>Mid-potency topical corticosteroid — first-line for contact dermatitis per AAD. Avoid face, groin, and axillae. Short course to prevent skin atrophy.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Betamethasone 0.05%–0.1% cream (high-potency TCS)</strong> · First-line</td>
                     <td>Apply to thick-skin areas (palms, soles) twice daily for 7–14 days</td>
-                    <td><a href="https://www.goodrx.com/betamethasone-topical" target="_blank" rel="noopener">~$10–$25 / 45 g with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/betamethasone-dipropionate" target="_blank" rel="noopener">~$10–$25 / 45 g with GoodRx</a></td>
                     <td>High-potency TCS for palms, soles, or severe contact dermatitis on thick skin per AAD. Avoid face, groin, or use under occlusion for extended periods.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
@@ -552,7 +533,7 @@ export default function CaContactDermatitisTreatmentOnline() {
                   <tr>
                     <td><strong>Hydroxyzine 25–50 mg oral (antihistamine)</strong></td>
                     <td>25–50 mg at bedtime for itch relief; sedating</td>
-                    <td><a href="https://www.goodrx.com/hydroxyzine" target="_blank" rel="noopener">~$10–$20 / 30 tablets with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/hydroxyzine-hydrochloride" target="_blank" rel="noopener">~$10–$20 / 30 tablets with GoodRx</a></td>
                     <td>For itch relief — does not treat the rash itself. Sedating antihistamine. Non-sedating alternatives (cetirizine, loratadine) are available OTC without prescription.</td>
                   </tr>
                 </tbody>
@@ -610,7 +591,7 @@ export default function CaContactDermatitisTreatmentOnline() {
                 <p>Book a same-day video visit — California adults, 18+</p>
                 <small>Self pay $79 &middot; Aetna in-network &middot; UHC Commercial approved May 2026 &middot; No ER wait</small>
               </div>
-              <a className="tdmd-ca-cond__cta-btn" href="/book-online" rel="noopener">Book Now &rarr;</a>
+              <a className="tdmd-ca-cond__cta-btn" href="/book-online/" rel="noopener">Book Now &rarr;</a>
             </div>
           </div>
         </section>
@@ -628,8 +609,8 @@ export default function CaContactDermatitisTreatmentOnline() {
                 <p>Book a same-day video visit. Self pay $79 &middot; Aetna in-network &middot; UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -676,10 +657,10 @@ export default function CaContactDermatitisTreatmentOnline() {
               <a href="/contact-dermatitis-treatment-online/">National Contact Dermatitis page</a>
               <a href="/health-guides/">Contact Dermatitis health guides</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/insurance">Insurance</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/insurance/">Insurance</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>
@@ -693,10 +674,10 @@ export default function CaContactDermatitisTreatmentOnline() {
               <li><a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth Resources. Retrieved May 2026.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744). Retrieved May 2026.</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
-              <li><a href="https://www.aad.org/member/clinical-quality/guidelines/contact-dermatitis" rel="noopener" target="_blank">AAD — Contact Dermatitis Guidelines. Retrieved May 2026.</a></li>
+              <li><a href="https://www.aad.org/public/diseases/eczema/types/contact-dermatitis" rel="noopener" target="_blank">AAD: Contact Dermatitis Overview. Retrieved May 2026.</a></li>
               <li><a href="https://acaai.org/allergies/allergic-conditions/skin-allergy/contact-dermatitis/" rel="noopener" target="_blank">ACAAI — Allergic Contact Dermatitis Guidance. Retrieved May 2026.</a></li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/OHB/Pages/OccupationalDiseases.aspx" rel="noopener" target="_blank">CDPH — Occupational Health Hazard Assessment. Retrieved May 2026.</a></li>
-              <li><a href="https://www.goodrx.com/triamcinolone-topical" rel="noopener" target="_blank">GoodRx — Triamcinolone Topical Prices. Retrieved May 2026.</a></li>
+              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/OHB/Pages/OHB.aspx" rel="noopener" target="_blank">CDPH Occupational Health Branch. Retrieved May 2026.</a></li>
+              <li><a href="https://www.goodrx.com/triamcinolone" rel="noopener" target="_blank">GoodRx — Triamcinolone Topical Prices. Retrieved May 2026.</a></li>
               <li><a href="https://www.goodrx.com/prednisone" rel="noopener" target="_blank">GoodRx — Prednisone Prices. Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>
             </ol>

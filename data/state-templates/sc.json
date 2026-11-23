@@ -1,0 +1,288 @@
+{
+  "stateCode": "SC",
+  "stateName": "South Carolina",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "mid",
+    "regulation": "standard",
+    "payerLandscape": "self-pay-only",
+    "epidemiology": [
+      "tick-rmsf",
+      "lyme-rare",
+      "rabies-reporting-strict"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "south",
+    "voiceNotes": "Warm, plain and exact. South Carolina is self-pay only for TeleDirectMD, so price clarity carries the page. The state's telemedicine statute spells out identity, location and credential disclosure; say what happens at the start of a visit."
+  },
+  "stateHero": {
+    "openingParagraph": "South Carolina's medical practice act lets a licensed physician care for patients by telemedicine as long as the care meets the same standard as an in-person visit, and when care happens only by telemedicine, the physician verifies who and where you are and tells you his name, location and credentials. Parth Bhavsar, MD, a board-certified family medicine physician, holds a South Carolina medical license. Adults physically in South Carolina, in Charleston, Columbia, Greenville, Spartanburg, Rock Hill, Myrtle Beach or anywhere else in the state, can book a video visit for a flat $79 paid at booking, with HSA and FSA cards accepted. Prescriptions, when appropriate, go electronically to your South Carolina pharmacy.",
+    "stateContextHint": "Licensed in South Carolina. Video visits under S.C. Code 40-47-37 for adults located in South Carolina. Flat $79 self-pay.",
+    "saturation": {
+      "stateNameMentions": 6,
+      "stateEntityMentions": 4
+    }
+  },
+  "stateEligibility": {
+    "intro": "Two lines of South Carolina Code 40-47-37 decide who can be seen: the physician must be licensed to practice medicine in South Carolina, and a physician treating patients only by telemedicine must verify each patient's identity and location before an appropriate evaluation. TeleDirectMD therefore sees adults 18 and older who are physically in South Carolina during the visit, residents and visitors alike. A South Carolinian who is traveling out of state that day can be seen only from another state TeleDirectMD serves.",
+    "localTriggers": [
+      "Be physically in South Carolina during the video visit; your location is verified at the start.",
+      "Visitors staying in Charleston, Hilton Head Island or Myrtle Beach are eligible for the length of the stay.",
+      "Expect Dr. Bhavsar to state his name, location and professional credentials, as S.C. Code 40-47-37 requires for telemedicine-only care.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "TeleDirectMD is self-pay only in South Carolina: one flat $79 fee, shown before you book and charged at booking, with HSA and FSA cards accepted. No insurance claim is filed and no plan is billed, including Healthy Connections, the state's Medicaid program run by SCDHHS. If you have insurance, you can still choose a $79 visit and ask your plan about out-of-network reimbursement, though TeleDirectMD cannot promise it. Medicines prescribed are paid for at the pharmacy.",
+    "additionalNotes": [
+      "$79 flat self-pay, the full visit fee.",
+      "HSA and FSA cards accepted at booking.",
+      "No insurance billing in South Carolina."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "When a prescription is appropriate after a South Carolina visit, it is sent electronically to the pharmacy you choose. South Carolina's telemedicine statute requires prescribing to follow Section 40-47-113 and does not permit Schedule II-narcotic or Schedule III-narcotic prescriptions by telemedicine except in narrow listed cases, and Section 44-53-360 requires practitioners to prescribe Schedule II through V controlled substances electronically. Controlled substances dispensed in the state, Schedules II through IV, are tracked in SCRIPTS, the Prescription Monitoring Program run by the Department of Public Health. Pharmacists here can also dispense hormonal birth control to adults under the Pharmacy Access Act protocol. TeleDirectMD does not prescribe controlled substances in South Carolina or any other state.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "The South Carolina Department of Public Health publishes a Flu Watch report on influenza activity every Wednesday, and notes that flu commonly circulates in fall and winter. Its tick pages describe Rocky Mountain spotted fever, which about half of patients do not remember a tick bite for, and say Lyme disease is rare but does occur in South Carolina. Animal bites carry legal duties here: physicians must report a bite to the county health department by the end of the next working day, and a dog, cat or ferret that bites someone is quarantined for at least ten days. This context does not replace an individual evaluation.",
+    "citations": [
+      {
+        "label": "South Carolina Code Title 40, Chapter 47 (Sections 40-47-20 and 40-47-37, telemedicine)",
+        "url": "https://www.scstatehouse.gov/code/t40c047.php",
+        "scope": "all"
+      },
+      {
+        "label": "South Carolina Department of Public Health, Prescription Monitoring Program (SCRIPTS)",
+        "url": "https://dph.sc.gov/professionals/healthcare-quality/prescription-monitoring-program-scripts",
+        "scope": "all"
+      },
+      {
+        "label": "South Carolina Department of Health and Human Services, Healthy Connections Medicaid",
+        "url": "https://www.scdhhs.gov/",
+        "scope": "all"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, South Carolina (V2025)",
+        "url": "https://www.census.gov/quickfacts/SC",
+        "scope": "hub"
+      },
+      {
+        "label": "South Carolina Department of Public Health, Rocky Mountain Spotted Fever",
+        "url": "https://dph.sc.gov/diseases-conditions/infectious-diseases/insect-and-vector-borne-diseases/ticks-can-spread-3",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "South Carolina Department of Public Health, Lyme Disease",
+        "url": "https://dph.sc.gov/diseases-conditions/infectious-diseases/insect-and-vector-borne-diseases/ticks-can-spread-2",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "South Carolina Department of Public Health, DPH Laws and Regulations: Rabies (S.C. Code Title 47, Chapter 5)",
+        "url": "https://dph.sc.gov/professionals/permits-regulations/dph-laws-and-regulations-rabies",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "South Carolina Department of Public Health, Flu Watch",
+        "url": "https://dph.sc.gov/professionals/public-health-data/flu-watch",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "CDC, Legal Status of EPT in South Carolina",
+        "url": "https://www.cdc.gov/sti/php/ept-legal-status/south-carolina.html",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "S.C. Code of Laws Title 47 Chapter 5 (Rabies Control Act), incl. 47-5-90",
+        "url": "https://www.scstatehouse.gov/code/t47c005.php",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "SC DPH, Rabid Animals Confirmed in Multiple Counties (Nov. 21, 2025)",
+        "url": "https://dph.sc.gov/news/rabid-animals-confirmed-multiple-counties-six-people-and-eleven-pets-exposed",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "SC DPH, STD/HIV/AIDS Annual Surveillance Report 2024",
+        "url": "https://dph.sc.gov/sites/scdph/files/2026-06/Surveillance-Report-2024.pdf",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "CDC, 2023 STI Surveillance State Ranking Tables",
+        "url": "https://www.cdc.gov/sti-statistics/media/pdfs/2024/10/2023-STD-Surveillance-State-Ranking-Tables.pdf",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "SC DPH, Flu Watch MMWR Week 39, 2026",
+        "url": "https://dph.sc.gov/sites/scdph/files/2026-10/2026-Flu-Watch-MMWR-WK-39.pdf",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "SC Board of Pharmacy, Pharmacy Access Act joint protocol (updated May 22, 2026)",
+        "url": "https://llr.sc.gov/bop/news/2026/Pharmacy-Access-Act-Protocol.pdf",
+        "conditions": [
+          "birth-control-refills-online"
+        ]
+      },
+      {
+        "label": "SC DPH, SC Tobacco Quitline",
+        "url": "https://dph.sc.gov/health-wellness/tobacco-prevention-control/tobacco-cessation/sc-tobacco-quitline-1-800-quit-now",
+        "conditions": [
+          "smoking-cessation-treatment-online"
+        ]
+      },
+      {
+        "label": "S.C. Code 44-53-360 (electronic prescribing of controlled substances)",
+        "url": "https://www.scstatehouse.gov/code/t44c053.php",
+        "scope": "all"
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds a South Carolina medical license from the South Carolina Board of Medical Examiners, and the license can be checked through the state's online license lookup. Under S.C. Code 40-47-37, a physician providing telemedicine must be licensed in South Carolina, follow the in-person standard of care and, for telemedicine-only care, verify the patient's identity and location and disclose his name, location and professional credentials. NPI: 1104323203.",
+    "verifyUrl": "https://verify.llronline.com/LicLookup/Med/Med.aspx",
+    "statuteCitation": "S.C. Code Ann. 40-47-37 (telemedicine) and 40-47-20(53) (definition)",
+    "licenseNumber": "MD89378",
+    "boardName": "South Carolina Board of Medical Examiners",
+    "boardUrl": "https://llr.sc.gov/med/"
+  },
+  "stateCities": {
+    "metroAndRural": "The Census Bureau counted 5,570,274 South Carolinians in its July 1, 2025 estimate, with 170.3 people per square mile in 2020. TeleDirectMD sees adults across South Carolina: Charleston, North Charleston, Mount Pleasant, Summerville and Goose Creek, Columbia, Greenville and Spartanburg, Rock Hill, and Hilton Head Island and Myrtle Beach, along with the smaller towns in between. Wherever you are in South Carolina, the visit and the $79 fee are the same.",
+    "cityList": [
+      {
+        "city": "Charleston"
+      },
+      {
+        "city": "Columbia"
+      },
+      {
+        "city": "North Charleston"
+      },
+      {
+        "city": "Mount Pleasant"
+      },
+      {
+        "city": "Rock Hill"
+      },
+      {
+        "city": "Greenville"
+      },
+      {
+        "city": "Summerville"
+      },
+      {
+        "city": "Goose Creek"
+      },
+      {
+        "city": "Hilton Head Island"
+      },
+      {
+        "city": "Spartanburg"
+      },
+      {
+        "city": "Myrtle Beach"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "self-pay-only",
+    "selfPayDisclosure": "TeleDirectMD does not bill insurance in South Carolina: no commercial plans, no Medicare and no Healthy Connections Medicaid. Every visit is a flat $79, paid at booking, with no facility fee or follow-up bill for the visit, and HSA and FSA cards are accepted. South Carolina patients with insurance may still book at $79 and ask their plan about out-of-network reimbursement; TeleDirectMD does not file claims and cannot promise reimbursement.",
+    "payers": []
+  },
+  "stateFaqs": [
+    {
+      "question": "Can a South Carolina doctor treat me by video without seeing me first?",
+      "answer": "Yes, when it meets the standard of care. S.C. Code 40-47-37 lets a licensed physician practice by telemedicine under the same standard of care as in-person care, and for telemedicine-only care requires verifying your identity and location, an appropriate evaluation before treatment, and disclosure of the physician's name, location and credentials. TeleDirectMD sees adults physically in South Carolina."
+    },
+    {
+      "question": "Does TeleDirectMD accept insurance in South Carolina?",
+      "answer": "No. TeleDirectMD is self-pay only in South Carolina: a flat $79 per visit, paid at booking, with HSA and FSA cards accepted. It does not bill commercial plans, Medicare or Healthy Connections, the state's Medicaid program. You can ask your plan about out-of-network reimbursement, but TeleDirectMD does not file claims or promise reimbursement."
+    },
+    {
+      "question": "How do I check Dr. Bhavsar's South Carolina license?",
+      "answer": "Parth Bhavsar, MD holds a South Carolina medical license from the South Carolina Board of Medical Examiners. You can confirm it through the state's online license lookup. During a telemedicine-only visit, South Carolina law also requires him to tell you his name, location and professional credentials. His NPI is 1104323203."
+    },
+    {
+      "question": "Will my animal bite be reported in South Carolina?",
+      "answer": "Yes. Under S.C. Code 47-5-90, every physician who first attends a person bitten by a pet or other animal must report the bite to the county health department by the end of the next working day, including the bitten person's name, age, sex, weight, address and phone number. The county can then order a biting dog, cat or ferret quarantined for at least ten days."
+    },
+    {
+      "question": "Can I buy a marketplace plan in South Carolina, and would TeleDirectMD bill it?",
+      "answer": "South Carolina uses the federally facilitated marketplace, so residents shop for individual plans on HealthCare.gov, according to CMS's plan year 2027 marketplace list. TeleDirectMD would not bill that plan or any other in South Carolina: every visit is a flat $79 paid at booking, with HSA and FSA cards accepted, and you can ask your insurer about out-of-network reimbursement on your own."
+    }
+  ],
+  "conditionOverrides": {
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "For Rocky Mountain spotted fever, the South Carolina Department of Public Health notes that about half of people who develop it do not remember a tick bite, and that a fever or rash within 4 to 6 weeks of a bite is a reason to see a physician. Lyme disease is rare here but does occur, and since transmission usually takes 36 hours of attachment, prompt removal helps. If you have removed a tick, note the date, as the Department advises. A video visit for adults physically in South Carolina reviews a photo, attachment time and what to watch for. Fever or rash after a bite needs in-person care. Flat $79."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "South Carolina puts the reporting duty on the physician: under S.C. Code 47-5-90, every physician who first attends a person bitten by an animal must report the bite to the county health department by the end of the next working day. Rabies is active here, with 81 confirmed rabid animals in 2024 by the Department of Public Health's count, and the Department calls stray and feral cats a significant source of exposure. A cat that bit someone is quarantined for at least ten days under Section 47-5-100. For a superficial to moderate bite from a known domestic cat in the last 24 hours, a video visit for adults physically in South Carolina covers wound care and whether an antibiotic is appropriate. Flat $79."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "After a dog bite in South Carolina, the county health department serves the owner with a notice to quarantine the dog for at least ten days (S.C. Code 47-5-100), and the physician who first sees the bitten person reports the bite by the end of the next working day (Section 47-5-90). Ask the owner for the dog's rabies vaccination certificate, which state law requires owners to keep current, and know that DPH keeps a 24-hour rabies line at (888) 847-0902. A video visit for adults physically in South Carolina can assess a superficial to moderate wound from a known domestic dog and decide whether antibiotics are appropriate. Deep or facial wounds, or a stray dog, need in-person care. Flat $79."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "South Carolina reported 32,972 chlamydia cases in 2024, a rate of 601.8 per 100,000, in the Department of Public Health's annual surveillance report, and the CDC's 2023 tables ranked the state sixth nationally. Partner treatment runs through a medical board interpretation rather than a stand-alone statute: the CDC's legal review says EPT has been permissible since February 1, 2021, under the Board of Medical Examiners' reading of S.C. Code 40-47-113(B). For an adult physically in South Carolina with a positive test, not pregnant and without pelvic pain and fever, a video visit can review the result, prescribe treatment when appropriate and discuss partner treatment and retesting. TeleDirectMD does not perform STI testing. Flat $79, self-pay."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "The South Carolina Department of Public Health's Flu Watch report, published every Wednesday, counted 5,086 influenza-associated hospitalizations and 215 influenza-associated deaths for the season in its report for the week ending October 3, 2026. Flu commonly circulates in the fall and winter. Antivirals help most when started early, so TeleDirectMD sees adults whose symptoms began within the past 48 hours. A video visit for adults physically in South Carolina can decide whether an antiviral is appropriate and send it electronically to a nearby pharmacy. Trouble breathing, chest pain, confusion or being unable to keep fluids down needs emergency care. Flat $79, self-pay."
+    },
+    "birth-control-refills-online": {
+      "stateConditionParagraph": "South Carolina lets pharmacists dispense birth control without a prescription. Under the Pharmacy Access Act and the joint protocol posted by the Board of Pharmacy (updated May 22, 2026), a pharmacist can dispense pills, patches and vaginal rings to patients 18 and older after a self-screening questionnaire and a seated blood pressure reading, but cannot keep dispensing beyond 24 months unless the patient has seen a practitioner in that time. For an adult in South Carolina already stable on a pill, patch or ring, a TeleDirectMD video visit is another route to a refill: the physician reviews blood pressure, migraine history and clot risk and sends a prescription to the pharmacy you choose. Flat $79, self-pay."
+    },
+    "smoking-cessation-treatment-online": {
+      "stateConditionParagraph": "The SC Tobacco Quitline, reached at 1-800-QUIT-NOW and run by the Department of Public Health, gives free support around the clock to every South Carolina resident, with free over-the-counter nicotine gum, patches or lozenges when appropriate. The Department says people who use it are three times more likely to quit than those who go it alone. A TeleDirectMD video visit adds prescription options that reduce cravings. For an adult in South Carolina who smokes and wants to quit, Dr. Bhavsar reviews seizure history, mood, recent heart events and current medications before prescribing and sends the prescription to your pharmacy. Pregnancy or breastfeeding is better handled in person. Flat $79, self-pay."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "South Carolina's own surveillance shows primary and secondary syphilis falling, from 1,051 cases in 2022 to 776 in 2024, a rate of 14.2 per 100,000, while chlamydia stayed above 32,000 cases a year. Doxycycline post-exposure prophylaxis targets those same bacterial infections. It is meant for gay, bisexual and other men who have sex with men, and transgender women, who had a bacterial STI in the past 12 months or face substantial ongoing risk. An adult physically in South Carolina with no current STI symptoms, who is not pregnant and has no doxycycline allergy, can use a video visit to review eligibility, timing of the dose and the testing schedule that goes with it. Flat $79, self-pay."
+    }
+  },
+  "relatedLinks": [],
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "S.C. Code Ann. 40-47-37 (telemedicine)",
+        "renderAt": "hero-credential",
+        "content": "Under S.C. Code 40-47-37, a physician providing telemedicine must be licensed in South Carolina and adhere to the same standard of care as in-person medical care, and a physician providing care solely by telemedicine must verify the patient's identity and location and inform the patient of the physician's name, location and professional credentials. Parth Bhavsar, MD holds a South Carolina medical license."
+      },
+      {
+        "statute": "S.C. Code Ann. 40-47-37(C)(7)(b) (telemedicine prescribing)",
+        "renderAt": "footer",
+        "content": "South Carolina does not permit Schedule II-narcotic or Schedule III-narcotic prescriptions by telemedicine except in listed cases. TeleDirectMD does not prescribe controlled substances; other prescriptions, when appropriate, are sent electronically to the patient's chosen pharmacy."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

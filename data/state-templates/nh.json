@@ -1,0 +1,304 @@
+{
+  "stateCode": "NH",
+  "stateName": "New Hampshire",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "mid",
+    "regulation": "standard",
+    "payerLandscape": "self-pay-only",
+    "epidemiology": [
+      "lyme-high",
+      "tick-blacklegged",
+      "rabies-bat",
+      "sti-low"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "northeast",
+    "voiceNotes": "Plain New England directness. New Hampshire's statutes are specific about what a telemedicine relationship requires (identity, disclosure, consent) and give patients concrete rights (paper prescription, free choice of pharmacy), so lead with those. Lyme and black-legged ticks carry the outdoor pages; STI rates are low, so do not dramatize them."
+  },
+  "stateHero": {
+    "openingParagraph": "New Hampshire spells out what a video visit must include before it counts as a real physician-patient relationship. Under RSA 329:1-c, the physician has to verify who you are, give you their name, contact information and type of license, get your consent, and meet the standard of care. Parth Bhavsar, MD, a board-certified family medicine physician licensed in New Hampshire through the Interstate Medical Licensure Compact, sees adults 18 and older who are physically in New Hampshire, from Manchester and Nashua to Concord, Dover and Keene. Visits are live video at a flat $79, paid at booking, HSA and FSA cards accepted, and prescriptions go electronically to the pharmacy you choose.",
+    "conditionPageOpener": "Live video visits for adults who are in New Hampshire during the appointment, with Parth Bhavsar, MD (board-certified family medicine, licensed in New Hampshire). One flat $79 fee, paid at booking; any prescription is sent electronically to your chosen New Hampshire pharmacy.",
+    "stateContextHint": "New Hampshire-licensed physician (Interstate Medical Licensure Compact). Live video visits that meet RSA 329:1-c, for adults in New Hampshire. Flat $79 self-pay.",
+    "saturation": {
+      "stateNameMentions": 4,
+      "stateEntityMentions": 4
+    }
+  },
+  "stateEligibility": {
+    "intro": "You can book if you are 18 or older and physically in New Hampshire when the video visit starts. New Hampshire treats an out-of-state physician who provides telemedicine to a patient here as practicing medicine in the state, so the physician must hold a New Hampshire license (RSA 329:1-d, II); Dr. Bhavsar does. At the start of the visit, expect identity verification and a request for your consent, both required by RSA 329:1-c. Concerns that need hands-on examination are referred to in-person care.",
+    "localTriggers": [
+      "Your identity is verified and the physician discloses their name, contact information and license type before care begins (RSA 329:1-c).",
+      "You will be asked for oral or written consent to care by telemedicine (RSA 329:1-c).",
+      "With your consent, a record of the visit can be forwarded to your primary care or treating provider (RSA 329:1-d, V).",
+      "Adults 18 and older who are physically in New Hampshire during the visit. TeleDirectMD does not prescribe controlled substances."
+    ]
+  },
+  "statePricing": {
+    "context": "A TeleDirectMD visit for a patient located in New Hampshire is a flat $79, paid at booking, and HSA and FSA cards are accepted. TeleDirectMD does not bill insurance or New Hampshire Medicaid, and medicine is paid for at the pharmacy. For coverage questions, the New Hampshire Department of Health and Human Services runs the Granite Advantage Health Care Program, its Medicaid expansion, for adults 19 through 64 with household income at or below 133 percent of the federal poverty level, with applications through NH EASY. The Census Bureau estimates 6.8% of New Hampshire residents under 65 are uninsured.",
+    "additionalNotes": [
+      "$79 flat self-pay, the full visit fee.",
+      "HSA and FSA cards accepted at booking.",
+      "No insurance or Medicaid billing in New Hampshire."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "Dr. Bhavsar sends prescriptions electronically to the New Hampshire pharmacy you choose, and state law protects that choice: electronic prescribing may not interfere with a patient's freedom to choose a pharmacy (RSA 318:47-c, II(b)). The same statute gives you the right to receive a paper prescription instead of an electronic one, except for controlled drugs, which since January 1, 2022 must be prescribed electronically. New Hampshire also lets pharmacists working under a standing order dispense hormonal contraceptives without a prior prescription (RSA 318:47-l). New Hampshire law permits some controlled-drug prescribing by telemedicine (RSA 329:1-d, III), but TeleDirectMD does not prescribe controlled substances in New Hampshire or any other state.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "Ticks are New Hampshire's dominant outdoor health risk. CDC's state table puts New Hampshire's 2023 Lyme disease incidence at 113.4 per 100,000, and the state Department of Health and Human Services lists five tick-borne illnesses here, all spread by the black-legged tick. Rabies is watched closely too; the department notes that most recent human rabies cases have been associated with bats, and providers must report rabies in humans or animals within 24 hours (He-P 301.02). Sexually transmitted infections run well below national levels: New Hampshire's 2023 chlamydia rate was 196.6 per 100,000, ranked 50th by CDC. These figures give context and do not replace an individual evaluation.",
+    "citations": [
+      {
+        "label": "NH RSA 329:1-c, Physician-Patient Relationship",
+        "url": "https://gc.nh.gov/rsa/html/XXX/329/329-1-c.htm",
+        "scope": "all"
+      },
+      {
+        "label": "NH RSA 329:1-d, Telemedicine",
+        "url": "https://gc.nh.gov/rsa/html/XXX/329/329-1-d.htm",
+        "scope": "all"
+      },
+      {
+        "label": "NH RSA 318:47-c, Prescriptions (electronic prescribing, paper prescription right, pharmacy choice)",
+        "url": "https://gc.nh.gov/rsa/html/XXX/318/318-47-c.htm",
+        "scope": "all"
+      },
+      {
+        "label": "NH RSA chapter 329, Physicians and Surgeons (329:2 board of medicine)",
+        "url": "https://gc.nh.gov/rsa/html/XXX/329/329-mrg.htm"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, New Hampshire (Vintage 2025)",
+        "url": "https://www.census.gov/quickfacts/fact/table/NH/PST045225"
+      },
+      {
+        "label": "U.S. Census Bureau, Vintage 2025 state population estimates (NST-EST2025)",
+        "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-POPCHG2020-2025.csv"
+      },
+      {
+        "label": "NH DHHS, NH Medicaid Eligibility for Adults (Granite Advantage Health Care Program)",
+        "url": "https://www.dhhs.nh.gov/programs-services/medicaid/nh-medicaid-medical-assistance-eligibility/nh-medicaid-medical-0",
+        "scope": "all"
+      },
+      {
+        "label": "CMS, State-based Exchanges for Plan Year 2027",
+        "url": "https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces"
+      },
+      {
+        "label": "NH Code of Administrative Rules He-P 301, Communicable Diseases (reportable diseases)",
+        "url": "https://gc.nh.gov/rules/state_agencies/he-p300.html"
+      },
+      {
+        "label": "NH RSA chapter 436, Diseases of Domestic Animals (436:100 to 436:105-c rabies)",
+        "url": "https://gc.nh.gov/rsa/html/XL/436/436-mrg.htm",
+        "conditions": [
+          "dog-bite-treatment-online",
+          "cat-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "NH DHHS, Rabies",
+        "url": "https://www.dhhs.nh.gov/programs-services/disease-prevention/infectious-disease-control/zoonotic-diseases-animal-human-0",
+        "conditions": [
+          "dog-bite-treatment-online",
+          "cat-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "NH DHHS, Safe Animal Contact (bats)",
+        "url": "https://www.dhhs.nh.gov/programs-services/disease-prevention/infectious-disease-control/safe-animal-contact",
+        "conditions": [
+          "cat-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "CDC, Lyme disease incidence rates by state, 2010 to 2023",
+        "url": "https://www.cdc.gov/lyme/media/files/2025/02/2023_CaseIncid-Lyme-Disease-Rates-by-State-or-Locality.csv",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "NH DHHS, Tickborne Diseases",
+        "url": "https://www.dhhs.nh.gov/programs-services/disease-prevention/infectious-disease-control/tickborne-diseases",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "CDC, STI reported cases and rates by state, ranked, 2023",
+        "url": "https://cdc.gov/sti-statistics/media/pdfs/2024/10/2023-STD-Surveillance-State-Ranking-Tables.pdf",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "NH RSA 141-C:15-a, Prescription medication for treatment or prevention of a communicable disease (expedited partner therapy)",
+        "url": "https://gc.nh.gov/rsa/html/X/141-C/141-C-15-a.htm",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "CDC, Legal Status of EPT in New Hampshire",
+        "url": "https://www.cdc.gov/sti/php/ept-legal-status/new-hampshire.html",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "NH DHHS, Seasonal Respiratory Virus Activity",
+        "url": "https://www.dhhs.nh.gov/programs-services/disease-prevention/infectious-disease-control/influenza-flu/seasonal-respiratory",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "NH RSA 318:47-l, Hormonal Contraceptives; Dispensing",
+        "url": "https://gc.nh.gov/rsa/html/XXX/318/318-47-l.htm",
+        "conditions": [
+          "birth-control-refills-online"
+        ]
+      },
+      {
+        "label": "NH DHHS, Tobacco Prevention and Cessation",
+        "url": "https://www.dhhs.nh.gov/programs-services/population-health/tobacco-prevention-cessation",
+        "conditions": [
+          "smoking-cessation-treatment-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine, is licensed in New Hampshire through the Interstate Medical Licensure Compact, with the license issued by the New Hampshire Board of Medicine. Under RSA 329:2 the board has 11 members, including five drawn from physicians and surgeons. New Hampshire requires any physician treating a patient here by telemedicine to hold a New Hampshire license (RSA 329:1-d, II) and to tell patients their name, contact information and license type (RSA 329:1-c). You can confirm this license through the Office of Professional Licensure and Certification's online license lookup. NPI: 1104323203.",
+    "verifyUrl": "https://www.oplc.nh.gov/license-lookup",
+    "statuteCitation": "NH RSA 329:1-c (physician-patient relationship) and 329:1-d (telemedicine); RSA 329:2 (board of medicine); RSA 318:47-c (prescriptions)",
+    "licenseNumber": "39234",
+    "boardName": "New Hampshire Board of Medicine",
+    "boardUrl": "https://www.oplc.nh.gov/board-medicine"
+  },
+  "stateCities": {
+    "metroAndRural": "New Hampshire had 1,415,342 residents on July 1, 2025 (U.S. Census Bureau), on 8,953.75 square miles of land, or 153.9 people per square mile in 2020, and 23.0% of residents are 65 or older. TeleDirectMD sees adults in Manchester, Nashua, Concord, Derry, Dover, Rochester, Salem, Merrimack, Hudson, Londonderry, Keene and Bedford, and in smaller towns across the state, with the same physician and the same flat $79. The Census Bureau counts 92.9% of New Hampshire households with a broadband subscription (2020 to 2024).",
+    "cityList": [
+      {
+        "city": "Manchester"
+      },
+      {
+        "city": "Nashua"
+      },
+      {
+        "city": "Concord"
+      },
+      {
+        "city": "Derry"
+      },
+      {
+        "city": "Dover"
+      },
+      {
+        "city": "Rochester"
+      },
+      {
+        "city": "Salem"
+      },
+      {
+        "city": "Merrimack"
+      },
+      {
+        "city": "Hudson"
+      },
+      {
+        "city": "Londonderry"
+      },
+      {
+        "city": "Keene"
+      },
+      {
+        "city": "Bedford"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "self-pay-only",
+    "selfPayDisclosure": "In New Hampshire, TeleDirectMD is self-pay only. It files no claims with commercial insurers, Medicare or New Hampshire Medicaid, including the Granite Advantage Health Care Program. Each visit is $79 flat, paid at booking, and HSA and FSA cards are accepted. You can ask your plan about out-of-network reimbursement, but TeleDirectMD cannot promise it. Medicaid applications go through the New Hampshire Department of Health and Human Services via NH EASY, and individual marketplace plans for New Hampshire are sold through HealthCare.gov.",
+    "payers": []
+  },
+  "stateFaqs": [
+    {
+      "question": "What does New Hampshire require before a video visit counts as a real doctor-patient relationship?",
+      "answer": "RSA 329:1-c lets the relationship be formed through an exam using telemedicine if the physician verifies your identity, tells you their name, contact information and type of license, gets your oral or written consent, and meets the standard of care. RSA 329:1-d adds that the same standard of care applies as in person and that a medical record must be kept. TeleDirectMD visits are live video."
+    },
+    {
+      "question": "Can I ask for a paper prescription in New Hampshire?",
+      "answer": "New Hampshire law (RSA 318:47-c) entitles a patient to a paper prescription instead of an electronic one, except for controlled drugs, and says electronic prescribing may not interfere with your choice of pharmacy. TeleDirectMD's standard practice is to send prescriptions electronically to the pharmacy you name; if you prefer paper, raise it during the visit."
+    },
+    {
+      "question": "Is Dr. Bhavsar licensed in New Hampshire, and how do I check?",
+      "answer": "Yes. Parth Bhavsar, MD holds a New Hampshire license, issued through the Interstate Medical Licensure Compact and overseen by the New Hampshire Board of Medicine. RSA 329:1-d requires physicians treating New Hampshire patients by telemedicine to hold a New Hampshire license. You can confirm it on the Office of Professional Licensure and Certification's license lookup. NPI: 1104323203."
+    },
+    {
+      "question": "Does TeleDirectMD take insurance or New Hampshire Medicaid?",
+      "answer": "No. TeleDirectMD is self-pay only in New Hampshire: a flat $79 per visit, paid at booking, with HSA and FSA cards accepted. It does not bill commercial plans, Medicare or New Hampshire Medicaid. Adults 19 through 64 with household income at or below 133 percent of the federal poverty level can ask the Department of Health and Human Services about the Granite Advantage Health Care Program."
+    },
+    {
+      "question": "I woke up with a bat in my room in New Hampshire. Can a video visit handle it?",
+      "answer": "No. The New Hampshire Department of Health and Human Services says not to release or kill the bat, to close off the room, and to call its Bureau of Infectious Disease Control at (603) 271-4496, which consults on rabies exposures. Most recent human rabies cases have been linked to bats, and health care providers must report rabies in humans or animals within 24 hours. This needs in-person evaluation."
+    },
+    {
+      "question": "Can a New Hampshire pharmacist give me birth control without a prescription?",
+      "answer": "Yes, in some cases. RSA 318:47-l allows a pharmacist working under a standing order to dispense hormonal contraceptives without a prior prescription after accredited training, following CDC's medical eligibility criteria. A TeleDirectMD video visit is another option for adults already stable on a pill, patch or ring who want a physician refill; Dr. Bhavsar decides whether renewal is appropriate."
+    }
+  ],
+  "conditionOverrides": {
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "New Hampshire is Lyme country: CDC's state table puts its 2023 incidence at 113.4 cases per 100,000 people. The state health department lists five tick-borne illnesses here, Lyme disease, anaplasmosis, babesiosis, Powassan virus and Borrelia miyamotoi, all carried by the black-legged tick, whose nymphs are most active from May through August. It notes that removing a tick within 24 hours of attachment can prevent Lyme disease, and asks you to watch for symptoms for 30 days. A video visit can review a photo of the removed tick and bite and decide whether preventive treatment fits. An expanding rash, fever with severe headache, facial weakness or palpitations needs in-person care. Flat $79."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "New Hampshire law handles the biting dog through local authorities: under RSA 436:105, a vaccinated dog that bites is confined for 10 days, and an unvaccinated dog or one of unknown status is impounded for at least 10 days, with a veterinarian's exam before release. Rabies vaccination is required for every dog, cat and ferret 3 months and older (RSA 436:100). For a cleaned, superficial to moderate bite from a known domestic dog, a video visit can plan wound care and decide whether a preventive antibiotic fits. Deep wounds, hand bites with lost function, uncontrolled bleeding, or a bite from a stray or wild animal need in-person care, and the state's Bureau of Infectious Disease Control consults on rabies exposures. Flat $79."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "The New Hampshire Department of Health and Human Services says most recent human rabies cases have been tied to bats, and it treats waking up with a bat in your room as a call to the Bureau of Infectious Disease Control: do not release or kill the bat, close off the room, and get advice on testing. A vaccinated cat that bites is confined for 10 days, as a vaccinated dog is (RSA 436:105-a). For adults in New Hampshire, a video visit fits a superficial to moderate bite from a known domestic cat within the past 24 hours, to plan wound care and decide whether an antibiotic is appropriate. A hand bite with swelling or stiff fingers, or any bat contact, needs in-person care. Flat $79."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "New Hampshire reports far less chlamydia than most of the country. CDC's 2023 state tables list 2,756 cases, a rate of 196.6 per 100,000 that ranked 50th, compared with 492.2 nationally. A positive test still needs treatment, and an adult in New Hampshire can review the result with Dr. Bhavsar by video and have treatment sent to a pharmacy when appropriate; TeleDirectMD does not perform STI testing, so bring the result. RSA 141-C:15-a lets a clinician prescribe treatment for chlamydia or gonorrhea to someone they have not evaluated, which is how New Hampshire allows expedited partner therapy; whether that fits is decided during the visit. Pelvic pain with fever, or pregnancy, needs in-person care. Flat $79."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "Bacterial STIs are comparatively uncommon in New Hampshire. CDC's 2023 tables put the state's gonorrhea rate at 41.9 per 100,000 (48th among states) and its primary and secondary syphilis rate at 3.9 (47th), against national rates of 179.5 and 15.8. For an adult who meets the criteria on this page, risk depends on personal exposure more than state averages, and a video visit can review your history and decide whether doxycycline after sex (doxy-PEP) fits. New Hampshire's RSA 141-C:15-a separately allows a clinician to treat or provide prophylaxis for chlamydia and gonorrhea in a partner they have not examined. Active STI symptoms need testing first, and doxy-PEP does not prevent HIV. Flat $79."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "Individual flu cases are not reportable in New Hampshire, so the state tracks the season another way: the Department of Health and Human Services posts a weekly respiratory virus report from early October through mid-May, drawing on sentinel clinics, laboratory results and real-time emergency department data from 26 hospitals. They include weekly county maps of acute respiratory illness. If you are an adult in New Hampshire with fever, cough and body aches, a video visit, ideally within 48 hours of symptoms, lets Dr. Bhavsar decide whether an antiviral is appropriate and send it to your pharmacy. Trouble breathing, chest pain, confusion or being unable to keep fluids down needs emergency care. Flat $79."
+    },
+    "birth-control-refills-online": {
+      "stateConditionParagraph": "New Hampshire gives you two routes for refills. Under RSA 318:47-l, a pharmacist working under a standing order may dispense hormonal contraceptives without a prior prescription, after completing accredited training and following CDC's medical eligibility criteria. A TeleDirectMD video visit is the other route, suited to adults who are already stable on a pill, patch or ring prescribed elsewhere and want a physician to review blood pressure, migraines and other risks before renewing. If appropriate, the prescription goes electronically to the New Hampshire pharmacy you choose. Starting a new method, an IUD or implant, migraines with aura, a past blood clot, or smoking 15 or more cigarettes a day at 35 or older are outside a refill visit. Flat $79."
+    },
+    "smoking-cessation-treatment-online": {
+      "stateConditionParagraph": "New Hampshire's Tobacco Prevention and Cessation Program points smokers to QuitNow-NH at 1-800-QUIT-NOW, and it notes that the most successful quits pair a quit plan with medication or nicotine replacement therapy. A TeleDirectMD video visit supplies the physician side of that pairing: Dr. Bhavsar reviews whether a prescription quit medicine fits your history, including seizures, recent heart events and pregnancy, and sends it to your New Hampshire pharmacy when appropriate, while QuitNow-NH coaching can run alongside. A heart attack or stroke within the past two weeks, pregnancy, or thoughts of self-harm call for in-person or emergency care instead. Flat $79 for adults physically in New Hampshire."
+    }
+  },
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "NH RSA 329:1-c and 329:1-d (physician-patient relationship and telemedicine)",
+        "renderAt": "hero-credential",
+        "content": "In New Hampshire, a physician-patient relationship may be formed through an exam using telemedicine when the physician verifies the patient's identity, discloses the physician's name, contact information and type of license, obtains the patient's oral or written consent, and meets the standard of care (RSA 329:1-c). A physician providing telemedicine directly to a patient must use the same standard of care as in person, keep a medical record and, with the patient's consent, forward it to the patient's primary care or treating provider when appropriate (RSA 329:1-d, V). TeleDirectMD sees patients located in New Hampshire by live video with a New Hampshire-licensed physician."
+      },
+      {
+        "statute": "NH RSA 318:47-c (prescriptions)",
+        "renderAt": "footer",
+        "content": "New Hampshire requires prescriptions for controlled drugs to be issued electronically, entitles patients to a paper prescription for other drugs on request, and bars electronic prescribing from interfering with a patient's choice of pharmacy (RSA 318:47-c). TeleDirectMD sends prescriptions electronically to the pharmacy the patient chooses and does not prescribe controlled substances."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

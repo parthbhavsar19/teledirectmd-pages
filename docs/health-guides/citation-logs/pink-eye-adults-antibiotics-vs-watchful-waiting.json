@@ -1,0 +1,494 @@
+{
+ "guide": "pink-eye-adults-antibiotics-vs-watchful-waiting",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 8 verified (10.1002/14651858.CD001211.pub4, 10.1136/bmj.38891.551088.7C, 10.1001/jama.2013.280318, 10.1016/j.ophtha.2023.12.037, 10.3390/microorganisms13081712, 10.1038/s41433-023-02871-8, plus removed refs 10.1016/j.ajo.2023.06.027 and 10.23736/S0026-4806.24.09252-8), retractions: none; no expressions of concern, no contrasting evidence flagged. Scite read_fulltext lists an erratum and published comments for the Everitt 2006 trial (see ref 7). PubMed article types checked: no Retracted Publication or Retraction Notice. Cronau 2010 has no DOI (PMID 20082509).",
+ "references": [
+  {
+   "n": 1,
+   "kind": "journal",
+   "cited_as": "Chen YY, Liu SH, Nurmatov U, van Schayck OCP, Kuo IC. Antibiotics versus placebo for acute bacterial conjunctivitis. Cochrane Database Syst Rev. 2023;3(3):CD001211.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36912752/",
+   "pmid": "36912752",
+   "pmcid": "PMC10014114",
+   "doi": "10.1002/14651858.CD001211.pub4",
+   "record_title": "Antibiotics versus placebo for acute bacterial conjunctivitis.",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2023",
+   "article_type": "Systematic Review; Journal Article",
+   "version_or_date": "Cochrane review update published March 13, 2023 (pub4; searches to May 2022). PubMed search for the review title in Cochrane Database Syst Rev returned no later version.",
+   "retrieved_with": "PubMed search_articles and get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces Liu SH et al., Am J Ophthalmol 2024 (PMID 37482371), a journal summary of this same review; the primary Cochrane record is now cited. Abstract-only support. The live page cited this review for 'no benefit for viral conjunctivitis'; the review covers bacterial conjunctivitis only, so that claim now cites refs 2 and 8. 'Speed recovery' corrected to 'chance of clinical cure'; the 26% estimate comes from 5 of the 21 trials (1,474 participants).",
+   "claims": [
+    {
+     "text": "21 RCTs, 8,805 participants with acute bacterial conjunctivitis; all treatments topical",
+     "quote": "We included 21 eligible RCTs, 10 of which were newly identified in this update. A total of 8805 participants were randomized. All treatments were topical in the form of drops or ointment.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "antibiotics likely improved clinical cure by 26% (RR 1.26; 95% CI 1.09 to 1.46; 5 trials, 1,474 participants; moderate certainty)",
+     "quote": "antibiotics likely improved clinical cure (resolution of clinical symptoms or signs) by 26% (RR 1.26, 95% CI 1.09 to 1.46; 5 trials, 1474 participants; moderate certainty) as compared with placebo.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "55.5% placebo vs 68.2% antibiotic clinical resolution by days 4 to 9",
+     "quote": "In the placebo group, 55.5% (408/735) of participants had spontaneous clinical resolution by days 4 to 9 versus 68.2% (504/739) of participants treated with an antibiotic.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "microbiological cure RR 1.53 (95% CI 1.34 to 1.74; 10 trials, 2,827 participants) among culture-positive participants",
+     "quote": "antibiotics likely increased microbiological cure (RR 1.53, 95% CI 1.34 to 1.74; 10 trials, 2827 participants) compared with placebo at the end of therapy",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "authors describe a modestly improved chance of resolution",
+     "quote": "the use of topical antibiotics is associated with a modestly improved chance of resolution in comparison to the use of placebo.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "no serious systemic side effects; non-fluoroquinolones linked to more ocular side effects (RR 4.05), very low certainty",
+     "quote": "There was no evidence of serious systemic side effects ... FQs (RR 0.70 ...) but not non-FQs (RR 4.05, 95% CI 1.36 to 12.00) may result in fewer participants with ocular side effects ... very low certainty.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "journal",
+   "cited_as": "Azari AA, Barney NP. Conjunctivitis: A Systematic Review of Diagnosis and Treatment. JAMA. 2013;310(16):1721-1729.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4049531/",
+   "pmid": "24150468",
+   "pmcid": "PMC4049531",
+   "doi": "10.1001/jama.2013.280318",
+   "record_title": "Conjunctivitis: a systematic review of diagnosis and treatment.",
+   "record_journal": "JAMA",
+   "record_year": "2013",
+   "article_type": "Systematic Review; Journal Article",
+   "retrieved_with": "PubMed get_article_metadata and get_full_text_article (PMC4049531); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Full text read via PubMed connector (organism names in italics were dropped from the extracted text, so the gonorrhoeae attribution is backed by ref 6). Corrected: the 1.1 million estimate is about in-office rapid antigen testing, not telehealth photo assessment; self-limitation is 'within 1 to 2 weeks', not '5 to 7 days'; '50% of suspected bacterial cases' -> source says 'suspected conjunctivitis'.",
+   "claims": [
+    {
+     "text": "acute conjunctivitis affects about 6 million people a year in the US",
+     "quote": "It is estimated that acute conjunctivitis affects 6 million people annually in the United States.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "about 70% of acute conjunctivitis patients present to primary care and urgent care",
+     "quote": "Approximately 70% of all patients with acute conjunctivitis present to primary care and urgent care.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "viral conjunctivitis most common infectious cause in adults",
+     "quote": "Viral conjunctivitis is the most common cause of infectious conjunctivitis both overall and in the adult population",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "in viral pink eye antibiotic drops can cause allergy and toxicity and delay diagnosis of other eye diseases",
+     "quote": "Topical antibiotics do not protect against secondary infections, and their use may complicate the clinical presentation by causing allergy and toxicity, leading to delay in diagnosis of other possible ocular diseases.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "purulent or mucopurulent discharge often bacterial; watery more characteristic of viral",
+     "quote": "a purulent or mucopurulent discharge is often due to bacterial conjunctivitis (and), whereas a watery discharge is more characteristic of viral conjunctivitis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "eyelids stuck together on waking and no itching among strongest clues for bacterial",
+     "quote": "Mattering and adherence of the eyelids on waking, lack of itching, and absence of a history of conjunctivitis are the strongest factors associated with bacterial conjunctivitis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "at least 60% of suspected or culture-proven bacterial cases self-limiting within 1 to 2 weeks; at least 60% self-limited without treatment",
+     "quote": "At least 60% of cases of suspected or culture-proven acute bacterial conjunctivitis are self-limiting within 1 to 2 weeks of presentation.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "viruses cause up to 80% of acute conjunctivitis; antibiotics do not help viral pink eye; at least 60% of bacterial self-limited (citable summary)",
+     "quote": "Viruses cause up to 80% of all cases of acute conjunctivitis. ... There is no role for the use of topical antibiotics in viral conjunctivitis ... at least 60% of bacterial conjunctivitis (clinically suspected or culture proven) is self-limited without treatment.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "allergic: itching most consistent sign; antihistamines and mast cell stabilizers superior to placebo in a large systematic review",
+     "quote": "itching is the most consistent sign in allergic conjunctivitis ... In a large systemic review, both antihistamines and mast cell stabilizers were superior to placebo in reducing the symptoms of allergic conjunctivitis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "hyperacute: severe copious purulent discharge, decreased vision, high risk of corneal perforation; treatment intramuscular ceftriaxone",
+     "quote": "Hyperacute bacterial conjunctivitis presents with a severe copious purulent discharge and decreased vision ... carries a high risk for corneal involvement and subsequent corneal perforation. Treatment for hyperacute conjunctivitis secondary to [N. gonorrhoeae] consists of intramuscular ceftriaxone",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "bacterial pathogens isolated in only 50% of suspected conjunctivitis; clinical accuracy for viral under 50%; many misdiagnosed as bacterial",
+     "quote": "The rate of clinical accuracy in diagnosing viral conjunctivitis is less than 50% compared with laboratory confirmation.Many cases are misdiagnosed as bacterial conjunctivitis. ... Bacterial pathogens are isolated in only 50% of cases of suspected conjunctivitis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "rapid adenovirus testing could prevent 1.1 million cases of inappropriate antibiotic treatment",
+     "quote": "one study estimated that in-office rapid antigen testing could prevent 1.1 million cases of inappropriate treatment with antibiotics",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "no treatment, a wait-and-see policy and immediate treatment all reasonable in uncomplicated cases",
+     "quote": "Therefore, no treatment, a wait-and-see policy, and immediate treatment all appear to be reasonable approaches in cases of uncomplicated conjunctivitis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "antibiotic therapy should be considered for purulent/mucopurulent, distinct discomfort, contact lens wearers, immunocompromised, suspected chlamydial or gonococcal",
+     "quote": "Antibiotic therapy should be considered in cases of purulent or mucopurulent conjunctivitis and for patients who have distinct discomfort, who wear contact lenses,who are immunocompromised, and who have suspected chlamydial and gonococcal conjunctivitis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "chlamydial and gonococcal conjunctivitis need systemic treatment",
+     "quote": "Conjunctivitis secondary to sexually transmitted diseases such as chlamydia and gonorrhea requires systemic treatment in addition to topical antibiotic therapy.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "viral treatment supportive (cold compresses, artificial tears); hand washing",
+     "quote": "Although no effective treatment exists, artificial tears, topical antihistamines, or cold compresses may be useful in alleviating some of the symptoms ... hand washing, strict instrument disinfection, and isolation of the infected patients",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "viral: refer if not resolved after 7 to 10 days; photophobia a reason to consider referral",
+     "quote": "Patients should be referred to an ophthalmologist if symptoms do not resolve after 7 to 10 days ... the following patients should be considered for referral: contact lens wearers, patients requiring steroids, and those with photophobia.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "red flags (AAO criteria): visual loss, moderate or severe pain, severe purulent discharge; no improvement after 1 week",
+     "quote": "referred promptly to an ophthalmologist if any of the following develops: visual loss, moderate or severe pain, severe purulent discharge, corneal involvement ... Patients should be referred to an ophthalmologist if there is no improvement after 1 week.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "contact lens wearers: bacterial keratitis risk high; treat with topical antibiotics and refer; remove lenses immediately",
+     "quote": "The possibility of bacterial keratitis is high in contact lens wearers, who should be treated with topical antibioticsand referred to an ophthalmologist. A patient wearing contact lenses should be asked to immediately remove them.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "primary care eye exam often limited by lack of slit lamp; useful information with a penlight",
+     "quote": "Although in the primary care setting an ocular examination is often limited because of lack of a slitlamp, useful information may be obtained with a simple penlight.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "topical antibiotic examples are appropriate for purulent bacterial conjunctivitis (table row 'Topical antibiotic')",
+     "quote": "Antibiotic therapy should be considered in cases of purulent or mucopurulent conjunctivitis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "guideline",
+   "cited_as": "Cheung AY, Choi DS, Ahmad S, et al. Conjunctivitis Preferred Practice Pattern. American Academy of Ophthalmology. Ophthalmology. 2024;131(4):P134-P204.",
+   "url": "https://doi.org/10.1016/j.ophtha.2023.12.037",
+   "pmid": "38349304",
+   "doi": "10.1016/j.ophtha.2023.12.037",
+   "record_title": "Conjunctivitis Preferred Practice Pattern.",
+   "record_journal": "Ophthalmology",
+   "record_year": "2024",
+   "article_type": "Practice Guideline; Journal Article",
+   "version_or_date": "AAO Conjunctivitis PPP, published Ophthalmology 2024;131(4):P134-P204 (online February 12, 2024); read from AAO's official PPP PDF on 2026-11-15",
+   "retrieved_with": "PubMed get_article_metadata (PMID 38349304); Scite verify_papers; WebFetch of AAO's own PPP PDF (https://www.aao.org/Assets/76c4baa7-869e-42ad-9ffc-215781185a7b/638434228319430000/conjunctivitis-ppp-pdf), text readable through about page P171",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Link changed from guidelinecentral.com (view limit / purchase wall) to the DOI record. The readable PPP text (to about P171) contains no delayed-prescribing, watchful-waiting or 'discretionary recommendation' language and no bacterial treatment or referral section, so those claims were removed from this source and re-sourced to refs 2, 6 and 7. A direct download of the PDF was blocked by the network proxy; not worked around.",
+   "claims": [
+    {
+     "text": "indiscriminate use of topical antibiotics or corticosteroids should be avoided",
+     "quote": "Indiscriminate use of topical antibiotics or corticosteroids should be avoided",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "mild bacterial conjunctivitis is likely to be self-limited",
+     "quote": "mild bacterial conjunctivitis is likely to be self-limited",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "gonococcal conjunctivitis is hyperacute, vision-threatening and requires immediate systemic therapy",
+     "quote": "Gonococcal conjunctivitis is a hyperacute, vision-threatening infectious condition that requires immediate systemic therapy.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Shunmugam M, Giovannetti F, Yeung SN, Iovieno A. An Update on Viral Conjunctivitis Treatment Strategies: A Narrative Literature Review. Microorganisms. 2025;13(8):1712.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12388293/",
+   "pmid": "40871219",
+   "pmcid": "PMC12388293",
+   "doi": "10.3390/microorganisms13081712",
+   "record_title": "An Update on Viral Conjunctivitis Treatment Strategies: A Narrative Literature Review.",
+   "record_journal": "Microorganisms",
+   "record_year": "2025",
+   "article_type": "Review; Journal Article",
+   "retrieved_with": "PubMed get_article_metadata; WebFetch of PMC full text; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Title corrected (page printed 'Viral Conjunctivitis: Update on Diagnosis and Management' with no authors). 'may delay healing' not found in the source and was cut.",
+   "claims": [
+    {
+     "text": "viruses cause up to 80% of conjunctivitis cases",
+     "quote": "Viral conjunctivitis, however, accounts for up to 80% of all conjunctivitis cases",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "adenoviruses cause 65-90% of viral cases in adults",
+     "quote": "Viral conjunctivitis is commonly caused by adenoviruses, accounting for approximately 65–90% of cases in adults",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Joseph S, Rajendran VK, Khetwani D, et al. Evaluation of a telemedicine-enabled universal eye health delivery model in rural southern India. Eye (Lond). 2024;38(6):1202-1207.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11009233/",
+   "pmid": "38057562",
+   "pmcid": "PMC11009233",
+   "doi": "10.1038/s41433-023-02871-8",
+   "record_title": "Evaluation of a telemedicine-enabled universal eye health delivery model in rural southern India.",
+   "record_journal": "Eye (Lond)",
+   "record_year": "2024 (epub 2023-12-06)",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Was ref 6. Title and authors corrected from a paraphrase. Text now states the setting (technician-led tele-ophthalmic exam at a vision centre vs in-person ophthalmologist), not remote patient self-exam.",
+   "claims": [
+    {
+     "text": "tele-ophthalmic exam at a south Indian vision centre vs in-person exam: 72.2% sensitivity for infective conjunctivitis",
+     "quote": "To evaluate the accuracy of tele-ophthalmic examination (TOE) for common ocular conditions in comparison with the gold-standard in-person examination ... TOE had high sensitivity for cataracts (91.7%), infective conjunctivitis (72.2%)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Cronau H, Kankanala RR, Mauger T. Diagnosis and Management of Red Eye in Primary Care. American Family Physician. 2010;81(2):137-144.",
+   "url": "https://www.aafp.org/pubs/afp/issues/2010/0115/p137.html",
+   "pmid": "20082509",
+   "record_title": "Diagnosis and management of red eye in primary care.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2010",
+   "article_type": "Review; Journal Article",
+   "retrieved_with": "PubMed search_articles and get_article_metadata (PMID 20082509, abstract); WebFetch of the AAFP article page (full text)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Was ref 7. PMID added; PubMed shows no DOI, so no Scite DOI check. Page metadata lists a 2016 canonical URL but the content is the January 2010 article. The page's Table 3 Pseudomonas note is the source for the contact lens Pseudomonas statement.",
+   "claims": [
+    {
+     "text": "viral: associated with upper respiratory infection; watery discharge; unilateral onset with second eye in one or two days; remission after one to two weeks",
+     "quote": "It is often associated with an upper respiratory infection spread through coughing. ... watery to serous discharge ... often unilateral at onset with second eye involved within one or two days ... spontaneous remission after one to two weeks",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "hyperacute often associated with N. gonorrhoeae in sexually active adults; sudden onset, rapid progression to corneal perforation; prompt ophthalmology referral",
+     "quote": "Hyperacute bacterial conjunctivitis is often associated with Neisseria gonorrhoeae in sexually active adults. The infection has a sudden onset and progresses rapidly, leading to corneal perforation. Patients need prompt ophthalmology referral for aggressive management.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "delaying antibiotic therapy is an option for acute bacterial conjunctivitis in many patients",
+     "quote": "Therefore, delaying antibiotic therapy is an option for acute bacterial conjunctivitis in many patients",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "viral: referral if not resolved after 7 to 10 days",
+     "quote": "Referral to an ophthalmologist is necessary if symptoms do not resolve after seven to 10 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "red flags: severe pain, copious purulent discharge, traumatic eye injury, recent ocular surgery, vision loss",
+     "quote": "Referral is necessary when severe pain is not relieved with topical anesthetics; topical steroids are needed; or the patient has vision loss, copious purulent discharge, corneal involvement, traumatic eye injury, recent ocular surgery",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "contact lens wearers need Pseudomonas coverage; keratitis causes pain and reduced vision",
+     "quote": "In patients who wear contact lenses, pseudomonal coverage is essential; quinolones are highly effective against Pseudomonas. ... [keratitis] Painful red eye, diminished vision, photophobia",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Everitt HA, Little PS, Smith PWF. A randomised controlled trial of management strategies for acute infective conjunctivitis in general practice. BMJ. 2006;333(7563):321. Correction: BMJ. 2006;333(7566):468.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1539078/",
+   "pmid": "16847013",
+   "pmcid": "PMC1539078",
+   "doi": "10.1136/bmj.38891.551088.7C",
+   "record_title": "A randomised controlled trial of management strategies for acute infective conjunctivitis in general practice.",
+   "record_journal": "BMJ",
+   "record_year": "2006",
+   "article_type": "Randomized Controlled Trial; Multicenter Study; Journal Article",
+   "retrieved_with": "PubMed search_articles and get_article_metadata (abstract); WebFetch of PMC1539078 (methods) and PMC1557969 (correction); Scite verify_papers and read_fulltext (abstract only)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [
+    "Correction: BMJ 2006;333(7566):468 (PMC1557969). Fixes the main-text conclusion wording to 'Compared with immediate antibiotics'; states the abstract conclusion is correct. Erratum only.",
+    "Published comments (Scite): 10.1136/bmj.333.7565.446-b, 10.1136/bmj.333.7565.446-c, 10.1136/ebn.10.1.10; not read."
+   ],
+   "notes": "Added. The live page described a 3-day delayed prescription and 'about a 60% chance' of avoiding antibiotics (cited to Azari); the trial's actual figures (53% antibiotic use with delay) replace that. Trial enrolled adults and children aged 1 year or more (about 45% under 12, from Table 1 via PMC page), with chloramphenicol drops; stated on the page as 'adults and children'.",
+   "claims": [
+    {
+     "text": "RCT in 30 general practices in southern England, 307 adults and children with acute infective conjunctivitis",
+     "quote": "30 general practices in southern England. 307 adults and children with acute infective conjunctivitis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "delayed group could collect prescription after three days at their discretion",
+     "quote": "prescription to be collected from the surgery at the parents' or patients' discretion after three days",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "antibiotic use 30% none, 99% immediate, 53% delayed",
+     "quote": "antibiotic use was higher in the immediate antibiotic group: controls 30%, immediate antibiotics 99% (odds ratio 185.4, 23.9 to 1439.2), delayed antibiotics 53%",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "no difference in symptom severity; moderate symptoms 4.8 days none, 3.3 immediate, 3.9 delayed",
+     "quote": "Prescribing strategies did not affect the severity of symptoms but duration of moderate symptoms was less with antibiotics: no antibiotics (controls) 4.8 days, immediate antibiotics 3.3 days ... delayed antibiotics 3.9 days",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "delayed prescribing probably most appropriate; reduces antibiotic use and reattendance vs immediate; similar symptoms",
+     "quote": "Delayed prescribing of antibiotics is probably the most appropriate strategy for managing acute conjunctivitis in primary care. It reduces antibiotic use, shows no evidence of medicalisation, provides similar duration and severity of symptoms to immediate prescribing, and reduces reattendance",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "worse or not better after 3 days: start the delayed prescription (table)",
+     "quote": "prescription to be collected from the surgery at the parents' or patients' discretion after three days",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). How to Treat Pink Eye. Updated April 15, 2024.",
+   "url": "https://www.cdc.gov/conjunctivitis/treatment/index.html",
+   "version_or_date": "Page dated April 15, 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added to source the viral no-benefit statement, natural course of mild bacterial pink eye, and red flags (eye pain, light sensitivity, blurred vision, worsening or no improvement, no improvement after 24 hours of antibiotics, weakened immune system).",
+   "claims": [
+    {
+     "text": "antibiotics will not improve viral pink eye",
+     "quote": "Antibiotics will NOT improve viral pink eye; these drugs are not effective against viruses.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "mild bacterial clears in 2 to 5 days without treatment, can take 2 weeks",
+     "quote": "It usually clears up in 2 to 5 days without treatment but can take 2 weeks to go away completely.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "cold compresses and artificial tears for relief",
+     "quote": "Use cold compresses and artificial tears to help relieve some of the inflammation and dryness caused by pink eye.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "see a provider: light sensitivity; blurred vision not improving when discharge wiped; weakened immune system",
+     "quote": "Light sensitivity ... Blurred vision that does not improve when discharge is wiped from the eyes ... A weakened immune system",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "symptoms that get worse or do not improve; bacterial not improving after 24 hours of antibiotics",
+     "quote": "Symptoms that get worse or do not improve ... If you have bacterial pink eye which does not improve after 24 hours of antibiotic use",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "label",
+   "cited_as": "Bausch & Lomb Incorporated. Erythromycin Ophthalmic Ointment USP, 0.5%. Prescribing information, revised March 2025. DailyMed.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=061ddd20-94a6-4e3c-ba84-1ebd8529eea6",
+   "version_or_date": "Label revised March 2025 (DailyMed updated August 28, 2026)",
+   "retrieved_with": "WebFetch of DailyMed label",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added so the erythromycin example (table and citable summary) has a label source. No dose is stated on the page.",
+   "claims": [
+    {
+     "text": "erythromycin ointment labeled for superficial ocular infections of conjunctiva and/or cornea",
+     "quote": "For the treatment of superficial ocular infections involving the conjunctiva and/or cornea",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "label",
+   "cited_as": "Bausch & Lomb Incorporated. Polymyxin B Sulfate and Trimethoprim Ophthalmic Solution. Prescribing information, revised October 2025. DailyMed.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=87999254-1857-4d3c-817a-cb8f6a5b0cf7",
+   "version_or_date": "Label revised October 2025 (DailyMed updated January 6, 2026)",
+   "retrieved_with": "WebFetch of DailyMed label",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added so the polymyxin-trimethoprim example has a label source. No dose is stated on the page.",
+   "claims": [
+    {
+     "text": "polymyxin B/trimethoprim labeled for surface ocular bacterial infections including acute bacterial conjunctivitis",
+     "quote": "is indicated in the treatment of surface ocular bacterial infections, including acute bacterial conjunctivitis",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,316 @@
+{
+  "stateCode": "WA",
+  "stateName": "Washington",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "mid",
+    "regulation": "standard",
+    "payerLandscape": "multi-payer",
+    "epidemiology": [
+      "lyme-rare-travel-acquired",
+      "rabies-bats-only",
+      "state-doxypep-guidance",
+      "sti-below-national-rate",
+      "syphilis-above-national"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "west",
+    "voiceNotes": "Matter-of-fact and specific. Washington adopted the Uniform Telehealth Act in 2024, so cite RCW 18.134 directly. Tick and rabies pages should stress how different Washington's risks are (Lyme mostly acquired out of state, bats the only known rabies carrier)."
+  },
+  "stateHero": {
+    "openingParagraph": "Under Washington's Uniform Telehealth Act (RCW chapter 18.134), a practitioner-patient relationship may be established through telehealth, and the visit legally takes place wherever the patient is at the time. TeleDirectMD sees adults located in Washington by live video with Parth Bhavsar, MD, a board-certified family medicine physician who holds a Washington medical license, whether you are in Seattle, Spokane, Tacoma, Vancouver or Yakima. TeleDirectMD is in-network with UnitedHealthcare and Aetna in Washington. If you are not on one of those plans, the visit is a flat $79, paid at booking, and HSA and FSA cards are accepted.",
+    "conditionPageOpener": "Adults located in Washington can book a live video visit with Parth Bhavsar, MD, a board-certified family medicine physician licensed in Washington. In-network with UnitedHealthcare and Aetna in Washington, or a flat $79 self-pay.",
+    "stateContextHint": "Licensed in Washington. Live video care under the Uniform Telehealth Act, RCW 18.134. UnitedHealthcare and Aetna in-network, or $79 self-pay.",
+    "saturation": {
+      "stateNameMentions": 0,
+      "stateEntityMentions": 0
+    }
+  },
+  "stateEligibility": {
+    "intro": "TeleDirectMD sees adults 18 and older who are located in Washington during the visit. RCW chapter 18.134 says a telehealth service occurs at the patient's location at the time it is provided, and RCW 18.134.050 lets a physician based elsewhere treat a patient in Washington when the physician holds a current Washington license. Washington law also says a practitioner-patient relationship cannot be established through email, instant messaging, text messaging or fax alone, which is why TeleDirectMD uses live video. Residents who are outside Washington on visit day are seen only from a state TeleDirectMD serves.",
+    "localTriggers": [
+      "Be in Washington during the visit. Under RCW chapter 18.134, the service takes place at your location at that moment.",
+      "Plan for live video. Washington does not allow a practitioner-patient relationship to be established by email, instant message, text or fax.",
+      "The in-person standard applies. RCW 18.134.040 applies Washington's rules on prescribing, identity verification, documentation and informed consent to telehealth.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "Washington is one of the states where TeleDirectMD bills insurance. TeleDirectMD is in-network with UnitedHealthcare and Aetna in Washington for PPO, HMO, EPO, POS and Medicare Advantage plans; if you are covered, your standard plan copay applies in place of the $79 self-pay fee, and benefits are verified before your appointment. Everyone else pays a flat $79 at booking, with HSA and FSA cards accepted. Apple Health, the name for Medicaid in Washington, is not accepted. Washington runs its own marketplace, Washington Healthplanfinder, where residents shop for health and dental insurance.",
+    "additionalNotes": [
+      "In-network: UnitedHealthcare and Aetna (Washington).",
+      "$79 flat self-pay for everyone else, HSA and FSA accepted.",
+      "Apple Health (Medicaid) is not accepted."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "Washington applies its in-person rules on prescribing, identity verification, documentation and informed consent to telehealth (RCW 18.134.040), so a video visit follows the same prescribing standards as a clinic visit. When a prescription is appropriate, Dr. Bhavsar sends it electronically to the Washington pharmacy you choose. For controlled substances, RCW 69.50.312 has required Schedule II through V prescriptions to be communicated electronically to the patient's chosen pharmacy since January 1, 2021, with listed exemptions. TeleDirectMD does not prescribe controlled substances in Washington or any other state. Washington pharmacists can also exercise prescriptive authority, but only under a collaborative drug therapy agreement filed with the Pharmacy Commission (WAC 246-945-350).",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "Washington's risks differ from much of the country. Lyme disease is rare here: the Washington State Department of Health reports 10 to 40 resident cases a year, mostly from tick bites in the Northeast and upper Midwest, and only zero to seven confirmed cases a year acquired in Washington, where the western black-legged tick carries it. Rabies is also narrow: bats are the only known mammal to carry rabies in Washington. Chlamydia remains common, with 27,687 Washington cases reported in 2023, a rate below the national figure (CDC). This context is general and does not replace an individual evaluation.",
+    "citations": [
+      {
+        "label": "RCW chapter 18.134, Uniform Telehealth Act",
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=18.134&full=true",
+        "scope": "all"
+      },
+      {
+        "label": "RCW 18.134.030, Telehealth authorization and practitioner-patient relationship",
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=18.134.030",
+        "scope": "all"
+      },
+      {
+        "label": "RCW 18.134.040, Professional practice standards",
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=18.134.040",
+        "scope": "all"
+      },
+      {
+        "label": "RCW 18.134.050, Out-of-state health care practitioners",
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=18.134.050"
+      },
+      {
+        "label": "RCW 69.50.312, Electronic communication of controlled substance prescriptions",
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=69.50.312",
+        "scope": "all"
+      },
+      {
+        "label": "Washington Healthplanfinder",
+        "url": "https://www.wahealthplanfinder.org/",
+        "scope": "all"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, Washington (Vintage 2025 estimate)",
+        "url": "https://www.census.gov/quickfacts/fact/table/WA/PST045225"
+      },
+      {
+        "label": "Washington State Department of Health, Lyme Disease",
+        "url": "https://doh.wa.gov/you-and-your-family/illness-and-disease-z/lyme-disease",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Washington State Department of Health, Rabies",
+        "url": "https://doh.wa.gov/you-and-your-family/illness-and-disease-z/rabies",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "CDC, Chlamydia Reported Cases and Rates by State, Ranked by Rates, United States, 2023",
+        "url": "https://cdc.gov/sti-statistics/media/pdfs/2024/10/2023-STD-Surveillance-State-Ranking-Tables.pdf",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "CDC, Legal Status of EPT in Washington",
+        "url": "https://www.cdc.gov/sti/php/ept-legal-status/washington.html",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "Washington State Department of Health, Dear Colleague Letter on Doxy PEP (July 15, 2024)",
+        "url": "https://doh.wa.gov/sites/default/files/2024-07/150282DearColleagueLetterDoxyPEP.pdf",
+        "conditions": [
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "WAC 246-101-101, Notifiable conditions, health care providers and health care facilities",
+        "url": "https://app.leg.wa.gov/WAC/default.aspx?cite=246-101-101",
+        "conditions": [
+          "dog-bite-treatment-online",
+          "cat-bite-treatment-online",
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "Washington State Department of Health, Washington State Influenza Summary, 2024-2025 Season",
+        "url": "https://doh.wa.gov/sites/default/files/2025-10/420-100-FluUpdateSeason2025.pdf",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "Washington State Department of Health, Quitline counseling",
+        "url": "https://doh.wa.gov/you-and-your-family/commercial-tobacco/how-quit/counseling",
+        "conditions": [
+          "smoking-cessation-treatment-online"
+        ]
+      },
+      {
+        "label": "WAC 246-945-350, Collaborative drug therapy agreements",
+        "url": "https://lawfilesext.leg.wa.gov/Law/WACArchive/2024/htm/WAC%20246%20-945%20%20CHAPTER/WAC%20246%20-945%20-350.htm",
+        "scope": "all"
+      },
+      {
+        "label": "Washington Medical Commission",
+        "url": "https://wmc.wa.gov/",
+        "scope": "all"
+      },
+      {
+        "label": "Washington Office of the Insurance Commissioner, birth control coverage",
+        "url": "https://insurance.wa.gov/about-us/current-initiatives/no-cost-reproductive-health-services/how-help-your-patients-their-birth-control-coverage",
+        "conditions": [
+          "birth-control-refills-online"
+        ]
+      },
+      {
+        "label": "CMS, Marketplace 2026 Open Enrollment Period Report: National Snapshot",
+        "url": "https://www.cms.gov/newsroom/fact-sheets/marketplace-2026-open-enrollment-period-report-national-snapshot-2"
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds a Washington medical license, issued through the Washington State Department of Health. Under RCW 18.134.050, a physician located outside Washington may treat a patient in the state by telehealth when holding a current license required to provide health care in Washington, and RCW 18.134.040 applies Washington's identity-verification and informed-consent standards to those visits. Anyone can confirm this credential through the Department of Health's provider credential search. NPI: 1104323203.",
+    "verifyUrl": "https://www.doh.wa.gov/LicensesPermitsandCertificates/ProviderCredentialSearch",
+    "statuteCitation": "RCW chapter 18.134 (Uniform Telehealth Act), including RCW 18.134.030, 18.134.040 and 18.134.050; RCW 69.50.312 (electronic prescribing of controlled substances)",
+    "licenseNumber": "MD61644638",
+    "boardName": "Washington State Department of Health",
+    "boardUrl": "https://www.doh.wa.gov/LicensesPermitsandCertificates/ProviderCredentialSearch"
+  },
+  "stateCities": {
+    "metroAndRural": "TeleDirectMD sees adults located anywhere in Washington, a state of 8,001,020 people (U.S. Census Bureau, July 1, 2025 estimate) with 115.9 people per square mile in 2020. Seattle, Spokane, Tacoma, Vancouver, Bellevue, Kent, Everett, Renton, Federal Way, Yakima, Bellingham, Kirkland and Redmond are covered, along with every smaller Washington town, with the same physician, the same UnitedHealthcare and Aetna in-network options, and the same $79 self-pay fee.",
+    "cityList": [
+      {
+        "city": "Seattle"
+      },
+      {
+        "city": "Spokane"
+      },
+      {
+        "city": "Tacoma"
+      },
+      {
+        "city": "Vancouver"
+      },
+      {
+        "city": "Bellevue"
+      },
+      {
+        "city": "Kent"
+      },
+      {
+        "city": "Everett"
+      },
+      {
+        "city": "Renton"
+      },
+      {
+        "city": "Federal Way"
+      },
+      {
+        "city": "Yakima"
+      },
+      {
+        "city": "Bellingham"
+      },
+      {
+        "city": "Kirkland"
+      },
+      {
+        "city": "Redmond"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "multi-payer",
+    "selfPayDisclosure": "TeleDirectMD bills UnitedHealthcare and Aetna in-network in Washington for PPO, HMO, EPO, POS and Medicare Advantage plans. If you are covered, your standard plan copay applies in place of the $79 self-pay fee, and benefits are verified before your appointment; coverage depends on your plan. Without one of those plans, the visit is a flat $79, paid at booking, with HSA and FSA cards accepted. Apple Health (Medicaid) is not accepted, and TeleDirectMD cannot promise coverage by any plan.",
+    "payers": [
+      {
+        "name": "UnitedHealthcare",
+        "anchorId": "uhc-coverage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage (excludes Community Plan Medicare Advantage)",
+        "validFrom": "2026-03-18",
+        "copayNote": "Your standard plan copay applies in place of the $79 self-pay fee; benefits are verified before the visit."
+      },
+      {
+        "name": "Aetna",
+        "anchorId": "aetna-coverage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
+        "validFrom": "2026-06-17",
+        "copayNote": "Your standard plan copay applies in place of the $79 self-pay fee; benefits are verified before the visit."
+      }
+    ]
+  },
+  "stateFaqs": [
+    {
+      "question": "Can a doctor establish care with me by video in Washington?",
+      "answer": "Yes. RCW 18.134.030 says a practitioner-patient relationship may be established through telehealth, though not through email, instant messaging, text messaging or fax. RCW 18.134.040 then applies Washington's in-person standards, including those on prescribing, identity verification and informed consent. TeleDirectMD visits are live video with Parth Bhavsar, MD, who decides during the visit whether treatment or a prescription is appropriate."
+    },
+    {
+      "question": "Which insurance does TeleDirectMD take in Washington?",
+      "answer": "TeleDirectMD is in-network with UnitedHealthcare and Aetna in Washington, for PPO, HMO, EPO, POS and Medicare Advantage plans. If you are covered, your standard plan copay applies in place of the $79 self-pay fee, and benefits are verified before your appointment. Other plans and people without insurance pay a flat $79. Apple Health, Washington's Medicaid, is not accepted."
+    },
+    {
+      "question": "Is Dr. Bhavsar licensed in Washington, and how can I check?",
+      "answer": "Yes. Parth Bhavsar, MD holds a Washington medical license, issued through the Washington State Department of Health, and you can confirm it with the department's provider credential search. Washington law (RCW 18.134.050) requires a physician located outside the state to hold a current Washington license to treat patients in Washington by telehealth. His NPI is 1104323203."
+    },
+    {
+      "question": "I'm visiting Washington. Can I use TeleDirectMD?",
+      "answer": "Yes, if you are an adult physically in Washington during the visit. Washington law says a telehealth service occurs at the patient's location at the time it is provided, so a visitor in Seattle or Spokane is seen under Washington rules like any resident. A prescription, if appropriate, can be sent to a Washington pharmacy near where you are staying."
+    },
+    {
+      "question": "Can I get a controlled substance prescription by video in Washington?",
+      "answer": "Not from TeleDirectMD, which does not prescribe controlled substances in any state. In Washington, RCW 69.50.312 has required Schedule II through V controlled substance prescriptions to be sent electronically to the patient's chosen pharmacy since January 1, 2021, with listed exemptions."
+    },
+    {
+      "question": "Who oversees physicians in Washington if I have a concern?",
+      "answer": "The Washington Medical Commission licenses and disciplines physicians and physician assistants and accepts complaints through an online form on its website; its listed phone number is (360) 236-2750. Dr. Bhavsar's Washington license can be looked up in the Department of Health's provider credential search."
+    }
+  ],
+  "conditionOverrides": {
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "Lyme disease is rare in Washington. The state Department of Health reports 10 to 40 Lyme cases among Washington residents each year, most acquired from tick bites in the Northeast and upper Midwest, and only zero to seven confirmed cases a year acquired in Washington. The western black-legged tick carries it here, mainly in western Washington and on the eastern slopes of the Cascades. Because preventive antibiotics depend partly on local Lyme risk, a video visit for adults in Washington focuses on where the bite happened, including recent travel, and how long the tick was attached. An expanding rash, fever with severe headache or facial weakness needs in-person care."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "In Washington, bats are the only known mammal to carry rabies, according to the state Department of Health, which advises washing any animal bite with soap and water right away and contacting your health care provider and local health department. When a rabies exposure is suspected, WAC 246-101-101 has the provider report it to the local health jurisdiction immediately. Cat bites still become infected quickly, so prompt care matters. TeleDirectMD sees adults in Washington by video for a superficial to moderate bite from a known domestic cat within the last 24 hours, to plan wound care and decide whether a preventive antibiotic is appropriate. A hand bite with swelling, any bat contact, or a stray or wild animal bite needs in-person care. Flat $79, or your UnitedHealthcare or Aetna copay."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "The Washington State Department of Health says bats are the only known mammal to carry rabies in Washington, and it tells anyone bitten by an animal to wash the bite with soap and water immediately, then contact a health care provider and the local health department. Washington's notifiable conditions rule, WAC 246-101-101, requires health care providers to report a suspected human rabies exposure to the local health jurisdiction immediately. For adults in Washington with a cleaned, superficial to moderate bite from a known domestic dog with a vaccination history, a video visit can review photos and decide on antibiotics and follow-up. Deep wounds, facial wounds needing repair or a bite from an unknown animal need in-person care. Flat $79, or your UnitedHealthcare or Aetna copay."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "Washington reported 27,687 chlamydia cases in 2023, a rate of 354.4 per 100,000 that ranked 42nd among states, below the U.S. rate of 492.2 (CDC, 2023 state ranking tables). CDC lists expedited partner therapy as permissible in Washington. Adults in Washington with a positive chlamydia test can review the result with Dr. Bhavsar by video, and when appropriate, treatment is sent electronically to your pharmacy. TeleDirectMD does not perform STI testing, so bring your result. Pelvic pain with fever, severe testicular pain or pregnancy needs in-person care. Flat $79, or your UnitedHealthcare or Aetna copay."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "Washington's Department of Health counted 508 laboratory-confirmed influenza-associated deaths in the 2024-2025 season, which ran from late September 2024 to late September 2025, and influenza A viruses predominated. Influenza-associated deaths are themselves a notifiable condition under WAC 246-101-101. For an adult in Washington with flu symptoms that began within the past 48 hours, a video visit can decide whether an antiviral is appropriate and send it to your pharmacy. Trouble breathing, persistent chest pain, confusion or being unable to keep fluids down needs in-person or emergency care. Flat $79, or your UnitedHealthcare or Aetna copay."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "Washington's Department of Health sent clinicians a doxy PEP Dear Colleague letter in July 2024 saying statewide STI trends mirror national increases and recommending screening for gonorrhea and chlamydia at exposed sites and for syphilis every 3 to 6 months for people using it. CDC's 2023 tables put Washington's primary and secondary syphilis rate at 21.3 per 100,000, 13th highest among states and above the U.S. rate of 15.8. TeleDirectMD's doxy-PEP visits are for adults in Washington who are men who have sex with men or transgender women with a bacterial STI in the past 12 months or condomless sex with male partners, and who have no active STI symptoms. Testing is done through a clinic or lab. Flat $79, or your in-network copay."
+    },
+    "smoking-cessation-treatment-online": {
+      "stateConditionParagraph": "The Washington State Quitline, 1-800-QUIT-NOW, answers 24 hours a day, and the Department of Health says every Washington resident is eligible for some free counseling, with most participants also eligible for free nicotine patches or other cessation medicines. Texting READY to 21586 is another way in. A video visit with Dr. Bhavsar can add a prescription quit medicine when appropriate, sent electronically to the Washington pharmacy you choose. Pregnancy, a seizure history, a heart attack or stroke in the past 2 weeks, or active suicidal thoughts call for in-person care instead. Flat $79, or your UnitedHealthcare or Aetna copay."
+    },
+    "birth-control-refills-online": {
+      "stateConditionParagraph": "Washington's Office of the Insurance Commissioner says state-regulated health plans must cover over-the-counter birth control with no cost-sharing, and that with a provider's approval a patient on such a plan can get up to a 12-month supply. Whether your plan is state-regulated is a question for the plan or your employer's benefits office. For adults in Washington who are stable on a pill, patch or ring another clinician prescribed, a video visit can renew it and send the prescription to your pharmacy. New migraines with aura, a blood clot, uncontrolled blood pressure or possible pregnancy need in-person care. Flat $79, or your UnitedHealthcare or Aetna copay."
+    }
+  },
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "RCW chapter 18.134 (Uniform Telehealth Act), including RCW 18.134.030 and 18.134.040",
+        "renderAt": "hero-credential",
+        "content": "Under Washington's Uniform Telehealth Act, a telehealth service occurs at the patient's location at the time it is provided, a practitioner-patient relationship may be established through telehealth but not by email, instant messaging, text messaging or fax (RCW 18.134.030), and Washington's in-person standards on prescribing, identity verification, documentation and informed consent apply (RCW 18.134.040). TeleDirectMD sees patients located in Washington by live video through Parth Bhavsar, MD, licensed in Washington."
+      },
+      {
+        "statute": "RCW 69.50.312 (electronic communication of controlled substance prescriptions)",
+        "renderAt": "footer",
+        "content": "Washington requires Schedule II through V controlled substance prescriptions to be communicated electronically to the patient's chosen pharmacy, with exemptions listed in RCW 69.50.312. TeleDirectMD does not prescribe controlled substances, and Washington prescriptions from a TeleDirectMD visit are sent electronically to the pharmacy the patient chooses."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

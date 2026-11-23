@@ -59,9 +59,10 @@
       },
       {
         "name": "Anthem Blue Cross",
-        "status": "Pending",
-        "effective_date": null,
-        "in_network": false
+        "status": "Active",
+        "effective_date": "2026-09-23",
+        "in_network": true,
+        "notes": "PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included."
       },
       {
         "name": "Cigna",
@@ -82,7 +83,7 @@
         "in_network": false
       }
     ],
-    "cash_price": 49
+    "cash_price": 79
   },
   "california_sti_epidemiology": {
     "source": "CDPH 2022 STI Surveillance Executive Summary",
@@ -127,8 +128,8 @@
       "note": "Statewide referral for health and social services"
     },
     {
-      "name": "HHS Title X Family Planning",
-      "url": "https://www.hhs.gov/opa/title-x-family-planning/index.html",
+      "name": "HHS Office of Population Affairs: Title X Family Planning Clinic Locator",
+      "url": "https://opa-fpclinicdb.hhs.gov/",
       "note": "Free or low-cost reproductive health care"
     }
   ]

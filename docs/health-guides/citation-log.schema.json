@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TeleDirectMD health guide citation log",
+  "type": "object",
+  "required": ["guide", "checked_at", "references"],
+  "properties": {
+    "guide": { "type": "string", "description": "Guide slug, e.g. erectile-dysfunction-guide" },
+    "checked_at": { "type": "string", "description": "YYYY-MM-DD the gate was run" },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["n", "kind", "url", "retrieved_with", "claims"],
+        "properties": {
+          "n": { "type": "integer", "minimum": 1 },
+          "kind": { "enum": ["journal", "guideline", "label", "agency_page", "dataset", "other_web"] },
+          "cited_as": { "type": "string" },
+          "url": { "type": "string", "description": "Exact href used in the guide's reference list" },
+          "pmid": { "type": "string" },
+          "pmcid": { "type": "string" },
+          "doi": { "type": "string" },
+          "record_title": { "type": "string" },
+          "record_journal": { "type": "string" },
+          "record_year": { "type": "string" },
+          "article_type": { "type": "string" },
+          "version_or_date": { "type": "string", "description": "Guideline version, label revision or page date" },
+          "retrieved_with": { "type": "string" },
+          "retrieved_at": { "type": "string" },
+          "editorial_notices": { "type": "array", "items": { "type": "string" } },
+          "notes": { "type": "string" },
+          "claims": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["text", "verdict"],
+              "properties": {
+                "text": { "type": "string" },
+                "quote": { "type": "string" },
+                "quote_source": { "enum": ["abstract", "full_text", "official_page", "label", "registry"] },
+                "verdict": { "enum": ["supported", "partly_supported", "not_supported", "not_checkable", "link_mismatch"] }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

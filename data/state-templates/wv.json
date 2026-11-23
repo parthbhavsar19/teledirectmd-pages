@@ -1,0 +1,272 @@
+{
+  "stateCode": "WV",
+  "stateName": "West Virginia",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "mid",
+    "regulation": "standard",
+    "payerLandscape": "self-pay-only",
+    "epidemiology": [
+      "bite-reporting-24h",
+      "lyme-high-incidence",
+      "older-population",
+      "rabies-cats-common",
+      "sti-below-national-rate"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "south",
+    "voiceNotes": "Plain-spoken and respectful of an older, more rural readership (21.9 percent of West Virginians are 65 or older). The telehealth statute is short and specific, so quote W. Va. Code 30-3-13a rather than paraphrase loosely."
+  },
+  "stateHero": {
+    "openingParagraph": "West Virginia's medical practice act puts the visit where the patient is: under W. Va. Code Section 30-3-13a, the practice of medicine occurs where the patient is located when telemedicine is used, and the physician must be licensed accordingly. TeleDirectMD sees adults located in West Virginia by real-time video with Parth Bhavsar, MD, a board-certified family medicine physician who holds a license from the West Virginia Board of Medicine. Patients in Charleston, Huntington, Morgantown, Wheeling and Beckley see the same physician. The fee is a flat $79, paid at booking, HSA and FSA cards are accepted, and prescriptions, when appropriate, go electronically to your pharmacy.",
+    "conditionPageOpener": "Adults located in West Virginia can book a real-time video visit with Parth Bhavsar, MD, a board-certified family medicine physician licensed by the West Virginia Board of Medicine. Flat $79, paid at booking. Prescriptions, when appropriate, go electronically to your pharmacy.",
+    "stateContextHint": "Licensed in West Virginia. Real-time video visits under W. Va. Code 30-3-13a for adults located in West Virginia. Flat $79 self-pay.",
+    "saturation": {
+      "stateNameMentions": 0,
+      "stateEntityMentions": 0
+    }
+  },
+  "stateEligibility": {
+    "intro": "TeleDirectMD sees adults 18 and older who are in West Virginia at the time of the visit. W. Va. Code Section 30-3-13a says the practice of medicine occurs where the patient is located when telemedicine is used, so your location that day, not your home address, decides which state's rules apply. For a new patient, the statute allows the physician-patient relationship to be established by real-time videoconferencing or similar secure video and calls audio-visual communication preferable; TeleDirectMD uses video for every visit. West Virginians who are out of state are seen only from a state TeleDirectMD serves.",
+    "localTriggers": [
+      "Be in West Virginia during the visit. Under W. Va. Code 30-3-13a, the care legally happens where you are.",
+      "Have a camera ready. West Virginia law calls audio-visual communication preferable, and TeleDirectMD visits are video only.",
+      "No Schedule II medicines. West Virginia bars a physician treating a patient solely by telemedicine from prescribing Schedule II controlled substances, and TeleDirectMD prescribes no controlled substances at all.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "TeleDirectMD does not bill insurance in West Virginia. Each visit for a patient located in West Virginia is a flat $79, shown before you book and paid at booking, and HSA and FSA cards are accepted. Medicine prescribed at the visit is paid at the pharmacy. West Virginia Medicaid and WVCHIP, run by the Bureau for Medical Services in the Department of Human Services, and Medicare are not billed; West Virginia's marketplace plans are sold through HealthCare.gov. If you have commercial insurance, you can still book at $79 and ask your plan about out-of-network reimbursement; TeleDirectMD does not file claims.",
+    "additionalNotes": [
+      "$79 flat self-pay, the full visit fee.",
+      "HSA and FSA cards accepted at booking.",
+      "No insurance, Medicaid or Medicare billing in West Virginia."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "When a prescription is appropriate, Dr. Bhavsar sends it electronically to the West Virginia pharmacy you choose. West Virginia's telemedicine statute, W. Va. Code Section 30-3-13a, draws a specific line on controlled substances: a physician who treats a patient solely through telemedicine may not prescribe any Schedule II controlled substance to that patient, apart from a limited exception for established patients. TeleDirectMD does not prescribe controlled substances of any schedule in West Virginia or anywhere else, so prescriptions from a TeleDirectMD visit are limited to non-controlled medicines within the scope of the condition being treated. The Board of Medicine's telehealth rule, 11 CSR 15, repeats the Schedule II limit and requires any telehealth prescription to fall within the prescriber's West Virginia authority.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "In West Virginia, 21.9 percent of residents are 65 or older, and the state's population fell 1.5 percent between April 2020 and July 2025 (U.S. Census Bureau). Some infections are less common here than nationally. West Virginia's 2023 chlamydia rate of 249.0 per 100,000 ranked 47th among states, well below the U.S. rate of 492.2 (CDC). Home internet is not universal either, with 86.1 percent of West Virginia households holding a broadband subscription in 2020 to 2024, so a stable connection is worth checking before a video visit. This context is general and does not replace an individual evaluation.",
+    "citations": [
+      {
+        "label": "West Virginia Code Section 30-3-13a, Telemedicine practice; requirements; exceptions; definitions; rule-making",
+        "url": "https://code.wvlegislature.gov/30-3-13a/",
+        "scope": "all"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, West Virginia (Vintage 2025 estimate)",
+        "url": "https://www.census.gov/quickfacts/fact/table/WV/PST045225",
+        "conditions": [
+          "covid-19-treatment-online"
+        ]
+      },
+      {
+        "label": "CDC, Chlamydia Reported Cases and Rates by State, Ranked by Rates, United States, 2023",
+        "url": "https://cdc.gov/sti-statistics/media/pdfs/2024/10/2023-STD-Surveillance-State-Ranking-Tables.pdf",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "CDC, Legal Status of EPT in West Virginia",
+        "url": "https://www.cdc.gov/sti/php/ept-legal-status/west-virginia.html",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "West Virginia OEPS, Vectorborne Disease Surveillance Report, January 1 to October 9, 2025",
+        "url": "https://oeps.wv.gov/arboviral/Documents/Data/Vectorborne%20Disease%20Report%2010-9-25.pdf",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "West Virginia OEPS, 2024 Animal Rabies and Animal Encounters Report",
+        "url": "https://oeps.wv.gov/rabies/Documents/Data/%28OEPS-25-192%29%20WV%202024%20Animal%20Rabies%20and%20Animal%20Encounters%20Report.pdf",
+        "conditions": [
+          "dog-bite-treatment-online",
+          "cat-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "West Virginia OEPS, Animal Bites and Rabies: Healthcare Professionals",
+        "url": "https://oeps.wv.gov/animal-bites-and-rabies-healthcare-professionals",
+        "conditions": [
+          "dog-bite-treatment-online",
+          "cat-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "West Virginia OEPS, Influenza: Healthcare Professionals",
+        "url": "https://oeps.wv.gov/influenza-flu-healthcare-professionals",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "West Virginia OEPS, Outbreak Report, December 2025",
+        "url": "https://oeps.wv.gov/outbreaks/Documents/Data/annual/WV-Outbreak-Surveillance-Report-December-2025.pdf",
+        "conditions": [
+          "influenza-treatment-online",
+          "covid-19-treatment-online"
+        ]
+      },
+      {
+        "label": "West Virginia Division of Tobacco Prevention, WV Tobacco Quitline",
+        "url": "https://dhhr.wv.gov/wvdtp/quitline/Pages/default.aspx",
+        "conditions": [
+          "smoking-cessation-treatment-online"
+        ]
+      },
+      {
+        "label": "11 CSR 15, Telehealth and Interstate Telehealth Registration (West Virginia Board of Medicine)",
+        "url": "https://wvbom.wv.gov/download_resource.asp?id=658",
+        "scope": "all"
+      },
+      {
+        "label": "West Virginia Department of Human Services, Bureau for Medical Services",
+        "url": "https://bms.wv.gov/"
+      },
+      {
+        "label": "CMS, Marketplace 2026 Open Enrollment Period Report: National Snapshot",
+        "url": "https://www.cms.gov/newsroom/fact-sheets/marketplace-2026-open-enrollment-period-report-national-snapshot-2"
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds a West Virginia medical license, issued by the West Virginia Board of Medicine. W. Va. Code Section 30-3-13a requires a physician who practices telemedicine with patients in West Virginia to be licensed under the state's medical practice article or registered under Section 30-1-1, because the practice of medicine occurs where the patient is. Anyone can confirm this license through the West Virginia Board of Medicine's public license search. NPI: 1104323203.",
+    "verifyUrl": "https://wvbom.wv.gov/public/search/",
+    "statuteCitation": "West Virginia Code Section 30-3-13a (telemedicine practice); 11 CSR 15 (Board of Medicine telehealth rule, effective June 1, 2022)",
+    "licenseNumber": "36343",
+    "boardName": "West Virginia Board of Medicine",
+    "boardUrl": "https://wvbom.wv.gov/"
+  },
+  "stateCities": {
+    "metroAndRural": "TeleDirectMD sees adults located anywhere in West Virginia, a state of 1,766,147 people (U.S. Census Bureau, July 1, 2025 estimate) at 74.6 people per square mile in 2020. Charleston, Huntington, Morgantown, Parkersburg, Wheeling, Weirton, Martinsburg, Fairmont, Beckley and Clarksburg are covered, and so is every smaller West Virginia community with a video connection, at the same flat $79 with the same physician.",
+    "cityList": [
+      {
+        "city": "Charleston"
+      },
+      {
+        "city": "Huntington"
+      },
+      {
+        "city": "Morgantown"
+      },
+      {
+        "city": "Parkersburg"
+      },
+      {
+        "city": "Wheeling"
+      },
+      {
+        "city": "Weirton"
+      },
+      {
+        "city": "Martinsburg"
+      },
+      {
+        "city": "Fairmont"
+      },
+      {
+        "city": "Beckley"
+      },
+      {
+        "city": "Clarksburg"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "self-pay-only",
+    "selfPayDisclosure": "TeleDirectMD is self-pay only in West Virginia: it does not bill commercial insurance, Medicaid or Medicare, and it does not file claims. Each visit is a flat $79, paid at booking, with HSA and FSA cards accepted and no follow-up bill for the visit. If you have a health plan, you can book at $79 and ask your plan whether it reimburses out-of-network visits; TeleDirectMD cannot promise reimbursement.",
+    "payers": []
+  },
+  "stateFaqs": [
+    {
+      "question": "Can a doctor start treating me by video in West Virginia?",
+      "answer": "Yes. W. Va. Code Section 30-3-13a allows a physician-patient relationship to be established through real-time videoconferencing or similar secure video, and it describes audio-visual communication as preferable when available. The physician must be licensed for West Virginia because the practice of medicine occurs where the patient is. TeleDirectMD visits are live video with Parth Bhavsar, MD, who decides during the visit whether treatment or a prescription is appropriate."
+    },
+    {
+      "question": "Is Dr. Bhavsar licensed in West Virginia, and how can I check?",
+      "answer": "Yes. Parth Bhavsar, MD holds a West Virginia medical license, issued by the West Virginia Board of Medicine, and you can look the license up through the Board's public search. West Virginia law requires a physician practicing telemedicine with patients in the state to be licensed or registered there. His National Provider Identifier is 1104323203."
+    },
+    {
+      "question": "Does TeleDirectMD take insurance in West Virginia?",
+      "answer": "No. TeleDirectMD is self-pay only in West Virginia: a flat $79 per visit, paid at booking, with HSA and FSA cards accepted. It does not bill commercial insurance, Medicaid or Medicare. If you have a plan, you can ask it about out-of-network reimbursement, but TeleDirectMD does not file claims and cannot promise reimbursement."
+    },
+    {
+      "question": "Can I get a controlled substance by video in West Virginia?",
+      "answer": "Not from TeleDirectMD, which does not prescribe controlled substances in any state. West Virginia law separately bars a physician who treats a patient solely through telemedicine from prescribing Schedule II controlled substances to that patient, with a limited exception for established patients (W. Va. Code Section 30-3-13a)."
+    },
+    {
+      "question": "I'm traveling in West Virginia. Can I use TeleDirectMD?",
+      "answer": "Yes, if you are an adult physically in West Virginia during the visit. West Virginia law says the practice of medicine occurs where the patient is located when telemedicine is used, so a visitor is seen under West Virginia rules like any resident. The fee is the same flat $79, and a prescription, if appropriate, can be sent to a pharmacy near you."
+    },
+    {
+      "question": "What happens after an animal bite in West Virginia?",
+      "answer": "West Virginia's reportable disease rule, 64CSR-7, requires health care providers who treat an animal bite or other potential rabies exposure to report it to the local health department within 24 hours, and a dog, cat or ferret that bites is confined for 10 days. In 2024 the state received 2,577 such reports. A small bite from a known, vaccinated pet can often be assessed by video; strays and wild animals need in-person care."
+    },
+    {
+      "question": "What must a telehealth doctor tell me in West Virginia?",
+      "answer": "Under the Board of Medicine's telehealth rule, 11 CSR 15, the provider must confirm their identity and professional qualifications, give you their physical location and contact information, and keep a medical record of the visit that is easily available to you. TeleDirectMD's physician is Parth Bhavsar, MD, whose West Virginia license you can check in the Board's public search."
+    }
+  ],
+  "conditionOverrides": {
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "West Virginia reported 4,407 chlamydia cases in 2023, a rate of 249.0 per 100,000 that ranked 47th among states and sat well below the U.S. rate of 492.2 (CDC, 2023 state ranking tables). A lower statewide rate does not change what a positive test means for you. CDC lists expedited partner therapy as permissible in West Virginia. If you are an adult in West Virginia with a positive chlamydia test, a video visit can review the result and, when appropriate, send treatment to your pharmacy. TeleDirectMD does not perform STI testing, so bring your result. Pelvic pain with fever, severe testicular pain or pregnancy needs in-person care. Flat $79."
+    },
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "Tickborne disease is now reported in every West Virginia county. The state's Office of Epidemiology and Prevention Services counted 3,663 Lyme cases from January 1 to October 9, 2025, 96 percent of all tickborne disease reports, and all 55 counties have reported human tickborne disease activity. Anaplasmosis, ehrlichiosis and spotted fever group rickettsiosis were also reported. Because guideline-based preventive treatment after a bite depends partly on local Lyme risk, a video visit for adults in West Virginia looks at the tick type, how long it was attached and when it was removed. An expanding rash, fever with severe headache, facial weakness or palpitations after a bite needs in-person care. Flat $79."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "West Virginia's reportable disease rule (64CSR-7) requires health care providers who treat an animal bite or other potential rabies exposure to report it to the local health department within 24 hours. Dogs were involved in 1,631 of the 2,577 bite and exposure reports in 2024, and local health departments recommended rabies post-exposure shots to 658 people (OEPS). For adults in West Virginia with a cleaned, superficial to moderate bite from a known domestic dog with a vaccination history, a video visit can review photos, plan wound care and decide whether antibiotics fit. Deep wounds, facial wounds needing repair or a bite from an unknown animal need in-person care. Flat $79."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "Cats were the most common rabid animal West Virginia found in 2024: 9 of the 28 animals that tested positive, ahead of raccoons (7) and skunks (6), according to the state's 2024 animal rabies report. Cats were also involved in 738 bite and exposure reports, and the state rule (64CSR-7) has the treating provider report a bite to the local health department within 24 hours. TeleDirectMD sees adults in West Virginia by video for a superficial to moderate bite from a known, vaccinated domestic cat within the last 24 hours, to plan wound care and decide whether a preventive antibiotic is appropriate. A stray or unvaccinated cat, a hand bite with swelling, or any wild animal bite needs in-person care. Flat $79."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "West Virginia tracks flu in part through outbreaks: providers must report influenza outbreaks to the local health department immediately, and during December 2025 alone the state's Office of Epidemiology and Prevention Services logged 11 influenza outbreaks among 63 outbreaks of all kinds, many in long-term care facilities. If someone in your household or workplace has flu and your own symptoms began within the past 48 hours, a video visit for adults in West Virginia can decide whether an antiviral is appropriate. Trouble breathing, persistent chest pain, confusion or being unable to keep fluids down needs in-person or emergency care. Flat $79."
+    },
+    "covid-19-treatment-online": {
+      "stateConditionParagraph": "COVID-19 was the most common respiratory outbreak in West Virginia in December 2025, with 29 COVID-19 outbreaks reported that month compared with 11 influenza outbreaks, according to the state's Office of Epidemiology and Prevention Services, and long-term care facilities accounted for 41 outbreak settings. In West Virginia, 21.9 percent of residents are 65 or older (Census). Adults in West Virginia with a positive test or typical symptoms that began within the last 5 days can be evaluated by video to decide whether antiviral treatment fits. Shortness of breath at rest, chest pain or confusion needs emergency care. Flat $79."
+    },
+    "smoking-cessation-treatment-online": {
+      "stateConditionParagraph": "West Virginia's Division of Tobacco Prevention runs the WV Tobacco Quitline, which pairs callers with certified phone coaches and offers free nicotine replacement therapy; you can enroll online at wvtobaccoquitline.com or by text at 304-583-4010. A video visit with Dr. Bhavsar can add a prescription quit medicine when appropriate, sent electronically to the West Virginia pharmacy you choose, and the two can be used together. Pregnancy, a seizure history, a heart attack or stroke in the past 2 weeks, or active suicidal thoughts call for in-person care instead. Flat $79."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "West Virginia's 2023 rates for the infections doxy-PEP targets were below national levels: 10.9 primary and secondary syphilis cases per 100,000 (193 cases) and 54.7 gonorrhea cases per 100,000 (968 cases), against U.S. rates of 15.8 and 179.5 (CDC). Individual risk depends on your own recent infections and partners, not the state rate. TeleDirectMD's doxy-PEP visits are for adults in West Virginia who are men who have sex with men or transgender women with a bacterial STI in the past 12 months or condomless sex with male partners, and who have no active STI symptoms. Regular STI testing continues through a clinic or lab. Flat $79."
+    }
+  },
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "West Virginia Code Section 30-3-13a (telemedicine practice)",
+        "renderAt": "hero-credential",
+        "content": "Under W. Va. Code Section 30-3-13a, the practice of medicine occurs where the patient is located when telemedicine is used, and a physician practicing telemedicine must be licensed under the state's medical practice article or registered under Section 30-1-1. A new physician-patient relationship may be established through real-time videoconferencing or similar secure video. TeleDirectMD sees patients located in West Virginia by real-time video through Parth Bhavsar, MD, licensed by the West Virginia Board of Medicine."
+      },
+      {
+        "statute": "11 CSR 15 (West Virginia Board of Medicine, Telehealth and Interstate Telehealth Registration), Section 7",
+        "renderAt": "footer",
+        "content": "The West Virginia Board of Medicine's telehealth rule, 11 CSR 15, applies the same standard of care to telehealth as to in-person care and requires the telehealth provider to confirm their identity and professional qualifications to the patient, give the patient the provider's physical location and contact information, keep a medical record for each patient and make it easily available to the patient. TeleDirectMD's physician is Parth Bhavsar, MD, board-certified in family medicine, licensed in West Virginia."
+      },
+      {
+        "statute": "West Virginia Code Section 30-3-13a (Schedule II prescribing limit)",
+        "renderAt": "footer",
+        "content": "West Virginia law bars a physician who treats a patient solely through telemedicine from prescribing Schedule II controlled substances to that patient, with a limited exception for established patients. TeleDirectMD does not prescribe controlled substances, and West Virginia prescriptions from a TeleDirectMD visit are sent electronically to the patient's chosen pharmacy."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

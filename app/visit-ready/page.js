@@ -33,7 +33,7 @@ const jsonLd = {
   url: 'https://teledirectmd.com',
   logo: 'https://teledirectmd.com/logo.png',
   description:
-    'Physician-owned virtual urgent care. Licensed in 43 states plus DC. Flat $79 visit fee with no subscription.',
+    'Physician-owned virtual urgent care. Licensed in 40+ states plus DC. Flat $79 visit fee with no subscription.',
   priceRange: '$79',
   telephone: '+1-678-956-1855',
   email: 'contact@teledirectmd.com',
@@ -374,7 +374,7 @@ export default function VisitReady() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <style>{`
+      <style dangerouslySetInnerHTML={{ __html: `
         .vr-device {
           display: flex;
           gap: 16px;
@@ -431,7 +431,13 @@ export default function VisitReady() {
         .vr-join-btn:hover { background: ${CORAL} !important; }
         .vr-gcal-btn:hover { border-color: ${TEAL} !important; color: ${TEAL} !important; }
         .vr-support a:hover { color: ${CORAL} !important; text-decoration: underline; }
-      `}</style>
+        :root[data-theme="dark"] .vr-device { border-bottom-color: var(--tdmd-border); }
+        :root[data-theme="dark"] .vr-device-icon,
+        :root[data-theme="dark"] .vr-check-item::before { background-color: #10242b; color: #2bc4cf; }
+        :root[data-theme="dark"] .vr-device strong,
+        :root[data-theme="dark"] .vr-check-item { color: var(--tdmd-text); }
+        :root[data-theme="dark"] .vr-device span { color: var(--tdmd-muted); }
+      ` }} />
 
       <section style={styles.hero} aria-labelledby="vr-hero-title">
         <div style={styles.heroBlobCoral} aria-hidden="true" />

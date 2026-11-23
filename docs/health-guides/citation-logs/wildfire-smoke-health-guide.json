@@ -1,0 +1,1137 @@
+{
+ "guide": "wildfire-smoke-health-guide",
+ "checked_at": "2026-11-07",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+ "removed_references": [
+  {
+   "old_n": 28,
+   "cited_as": "Elser H, et al. Wildfire Smoke Exposure and Incident Dementia. JAMA Neurol. 2025;82(1):40-48.",
+   "pmid": "39585704",
+   "doi": "10.1001/jamaneurol.2024.4058",
+   "reason": "Retracted and replaced. PubMed lists a Notice of Retraction and Replacement (PMID 40587146, doi 10.1001/jamaneurol.2025.2148, JAMA Neurol. 2025;82(9):967-968, published online June 30, 2025); PubMed article types on both records carry retraction labels. The notice states the corrected OR is 1.12 (95% CI 0.98-1.28), no longer statistically significant, and the replacement article on the journal site states the same. Cut per brief; the replaced article shares the original DOI and PubMed still shows the original abstract (OR 1.18), so it was not re-cited."
+  },
+  {
+   "old_n": 24,
+   "cited_as": "May NW, Dixon C, Jaffe DA. Impact of Wildfire Smoke Events on Indoor Air Quality and Evaluation of a Low-cost Filtration Method. Aerosol Air Qual Res. 2021.",
+   "doi": "10.4209/aaqr.210046",
+   "reason": "Abstract (DOAJ record) gives no 56-99% or >90% figures; DOI page failed to load; link was a Semantic Scholar PDF redirect. Claims re-sourced to EPA (new ref 13) where EPA states them."
+  },
+  {
+   "old_n": 11,
+   "cited_as": "Reuters, July 16, 2026",
+   "reason": "Site blocked to automated reads this run; July 2026 smoke statistics cut."
+  },
+  {
+   "old_n": 12,
+   "cited_as": "CNN, July 14, 2026",
+   "reason": "robots disallowed; claims cut."
+  },
+  {
+   "old_n": 13,
+   "cited_as": "The Guardian, July 16, 2026",
+   "reason": "Site blocked; World Cup claim cut."
+  },
+  {
+   "old_n": 14,
+   "cited_as": "Syracuse.com, July 24, 2026",
+   "reason": "Site blocked; state-alert claim cut."
+  }
+ ],
+ "references": [
+  {
+   "n": 1,
+   "kind": "agency_page",
+   "cited_as": "U.S. Environmental Protection Agency. Air Quality Index (AQI) Basics. AirNow.gov.",
+   "url": "https://www.airnow.gov/aqi/aqi-basics",
+   "version_or_date": "No page date shown; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Orange 101-150: sensitive groups may experience effects, general public less likely",
+     "quote": "Members of sensitive groups may experience health effects. The general public is less likely to be affected.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Red 151-200: some of the general public may experience health effects",
+     "quote": "Some members of the general public may experience health effects; members of sensitive groups may experience more serious health effects.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Six categories, Hazardous is 301 and higher",
+     "quote": "Health warning of emergency conditions: everyone is more likely to be affected.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "agency_page",
+   "cited_as": "U.S. Environmental Protection Agency. Revised PM2.5 NAAQS and AQI Fact Sheet. February 2024.",
+   "url": "https://www.epa.gov/system/files/documents/2024-02/pm-naaqs-air-quality-index-fact-sheet.pdf",
+   "version_or_date": "Fact sheet for rule announced February 7, 2024; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Feb 2024: EPA updated upper-end breakpoints for Unhealthy, Very Unhealthy, Hazardous",
+     "quote": "EPA updated the breakpoints at the upper end of the unhealthy, very unhealthy, and hazardous categories",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Good/Moderate breakpoint lowered to 9.0",
+     "quote": "EPA updated the breakpoint between Good and Moderate to reflect the updated annual standard of 9 micrograms per cubic meter.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "PM2.5 breakpoints in AQI table (0.0-9.0, 9.1-35.4, 35.5-55.4, 55.5-125.4, 125.5-225.4, 225.5+)",
+     "quote": "Good (0-50): 0.0 to 9.0; Moderate (51-100): 9.1 to 35.4; Unhealthy for Sensitive Groups (101-150): 35.5 to 55.4; Unhealthy (151-200): 55.5 to 125.4; Very Unhealthy (201-300): 125.5 to 225.4; Hazardous (301+): 225.5+",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. How Wildfire Smoke Affects Your Body.",
+   "url": "https://www.cdc.gov/wildfires/risk-factors/index.html",
+   "version_or_date": "Reviewed August 24, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Smoke is a mix of gases and fine particles",
+     "quote": "Wildfire smoke is a mix of gases and fine particles from burning trees and plants, buildings, and other material.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptoms incl. coughing, scratchy throat, runny nose, stinging eyes, irritated sinuses, headaches, tiredness, fast heartbeat; also trouble breathing, wheezing, asthma attacks, chest pain",
+     "quote": "Coughing; Trouble breathing; Wheezing; Asthma attacks; Stinging eyes; Scratchy throat; Runny nose; Irritated sinuses; Headaches; Tiredness; Chest pain; Fast heartbeat",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Higher-risk groups: chronic conditions incl. diabetes and CKD, pregnancy, children",
+     "quote": "People with chronic conditions like asthma, Chronic Obstructive Pulmonary Disease (COPD), diabetes, chronic kidney disease, or heart disease; Those who are pregnant; Children; Responders",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "agency_page",
+   "cited_as": "U.S. Environmental Protection Agency. Research on DIY Air Cleaners to Reduce Wildfire Smoke Indoors.",
+   "url": "https://www.epa.gov/air-research/research-diy-air-cleaners-reduce-wildfire-smoke-indoors",
+   "version_or_date": "Last updated July 6, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "The \"higher-priced commercial units\" sentence exceeded the fetch tool quote limit; the full sentence (with its cost-effectiveness framing) was retrieved verbatim from ref 5 full text, which is cited alongside.",
+   "claims": [
+    {
+     "text": "CADR table: 111 ± 1, 156 ± 4, 248 ± 15, 263 ± 22, 401 ± 31",
+     "quote": "Corsi-Rosenthal Box with four 1\" MERV 13 filters and cardboard shroud | 401 ± 31",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Shroud and multiple filters make DIY units more effective than higher-priced commercial units",
+     "quote": "more effective at removing particles than higher-priced commercial units.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Use only newer certified box fans, 2012 or newer",
+     "quote": "Only use newer, certified box fans with added safety features (2012 models or newer).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Older fans not unattended or while sleeping; do not leave children unattended",
+     "quote": "they should not be used unattended or while sleeping. ... Don't leave children unattended when the fan is in use.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "No extension cord; no damaged fan",
+     "quote": "Don't use an extension cord. Don't use a damaged or malfunctioning fan.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Change filter when dark/grey/smells of smoke; DIY almost completely ineffective with dirty filters",
+     "quote": "When the filter is dark brown or grey or smells like smoke, it is time to change it for a new filter. DIY air cleaners were almost completely ineffective with dirty filters",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Holder AL, Halliday HS, Virtaranta L. Impact of do-it-yourself air cleaner design on the reduction of simulated wildfire smoke in a controlled chamber environment. Indoor Air. 2022;32(11):e13163.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9828579/",
+   "pmid": "36437679",
+   "pmcid": "PMC9828579",
+   "doi": "10.1111/ina.13163",
+   "record_title": "Impact of do-it-yourself air cleaner design on the reduction of simulated wildfire smoke in a controlled chamber environment.",
+   "record_journal": "Indoor Air",
+   "record_year": "2022",
+   "article_type": "Journal Article; Research Support, U.S. Gov't, Non-P.H.S.",
+   "retrieved_with": "PubMed connector get_article_metadata + get_full_text_article (PMC full text)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable: Scite quota exhausted until 2026-11-14; retraction status checked via PubMed article types (no Retracted Publication, Retraction Notice or Expression of Concern listed).",
+   "claims": [
+    {
+     "text": "Single-filter CADR 111.2 ± 1.3; CR box +261%",
+     "quote": "The simplest formulation of a DIY air cleaner (box fan with taped on minimum effectiveness reporting value - [MERV] 13 furnace filter) had a CADR of 111.2 ± 1.3 ft/min (CFM).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "CR box increased CADR 261%",
+     "quote": "using four filters in a Corsi-Rosenthal (CR) box design (261%)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Chamber PM2.5 80 to below 10 in ~6 min",
+     "quote": "In our small room-sized chamber, the PM2.5 concentration was reduced from 80 μg/m3 to below 10 μg/m3 in approximately 6 min.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Shroud + multiple filters more cost-effective and more effective than higher-priced commercial units",
+     "quote": "DIY air cleaner designs with a cardboard shroud and multiple filters increase the cost effectiveness of DIY air cleaners making them more effective than higher-priced commercial units.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Smoke travels hundreds of miles; concentrations elevated for days to weeks",
+     "quote": "Smoke from wildfires can lead to localized extreme air quality impacts but can also travel hundreds of miles and impact large population centers downwind. Smoke concentrations can remain elevated for days to weeks",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "CR box uses 4 or 5 filters on a box fan; popular during COVID",
+     "quote": "These designs optimize the filtration surface area by using 4 or 5 filters attached to a single box fan (Corsi-Rosenthal Box, CR Box)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Table notes: single filter comparable to small commercial unit; shroud prevents recirculation; ~300 CFM commercial; CR box nearly 4x",
+     "quote": "These designs led to an increased CADR that were comparable to more commonly marketed commercial air cleaners (approx. 300 CFM)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Vuorio A, Budowle B, Raal F, Kovanen PT. Wildfire smoke exposure and cardiovascular disease-should statins be recommended to prevent cardiovascular events? Frontiers in Cardiovascular Medicine. 2023;10:1259162.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10537918/",
+   "pmid": "37781301",
+   "pmcid": "PMC10537918",
+   "doi": "10.3389/fcvm.2023.1259162",
+   "record_title": "Wildfire smoke exposure and cardiovascular disease-should statins be recommended to prevent cardiovascular events?",
+   "record_journal": "Front Cardiovasc Med",
+   "record_year": "2023",
+   "article_type": "Journal Article (opinion/perspective format; no abstract)",
+   "retrieved_with": "PubMed connector get_article_metadata + get_full_text_article (PMC full text)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable: Scite quota exhausted until 2026-11-14; retraction status checked via PubMed article types (no Retracted Publication, Retraction Notice or Expression of Concern listed).",
+   "claims": [
+    {
+     "text": "Opinion article: statins beneficially modify PM2.5 effects on inflammation; not considered in current guidances",
+     "quote": "Several studies are showing that statin use beneficially modifies PM2.5 effects on inflammation and, as a result, most likely also improves endothelial function ... Although not considered in current guidances",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. Wildfire Smoke and People with Chronic Conditions.",
+   "url": "https://www.cdc.gov/wildfires/risk-factors/wildfire-smoke-and-people-with-chronic-conditions.html",
+   "version_or_date": "Last reviewed August 24, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "If you must go outdoors, wear NIOSH Approved N95",
+     "quote": "If you must go outdoors during a wildfire smoke event, wear a NIOSH Approved N95 respirator.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dust masks, surgical masks, bandanas, wet cloth will not protect (child)",
+     "quote": "Remember that dust masks, surgical masks, bandanas, and breathing through a wet cloth will not protect your child from smoke.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Heart disease: palpitations, unusual fatigue, shortness of breath -> contact provider",
+     "quote": "If you have heart palpitations, unusual fatigue, or shortness of breath, or other symptoms of a heart attack, contact your healthcare provider.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Call 9-1-1 for severe trouble breathing, chest pain, heart attack or stroke",
+     "quote": "Call 9-1-1 or go right away to an emergency department for medical emergencies like severe trouble breathing, chest pain, or if you think you are having a heart attack or stroke.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Follow sensitive-individuals instructions",
+     "quote": "Pay attention to air quality reports. Follow instructions about exercise and going outside for \"sensitive individuals.\"",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Stay inside as much as possible",
+     "quote": "Stay inside as much as possible.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Follow provider advice and asthma action plan; store 7 to 10-day supply of prescription medicines",
+     "quote": "Follow your healthcare provider's advice and your asthma action plan if you have one. ... Store a 7 to 10-day supply of prescription medicines in a waterproof, childproof container to take with you if you evacuate.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Before season talk to provider and plan; think about evacuating if symptoms do not get better",
+     "quote": "Talk to your healthcare provider. Plan how you will protect yourself against wildfire smoke. ... Think about evacuating if you have trouble breathing or other symptoms that do not get better.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Smoke can stay in the air days after fires end",
+     "quote": "Smoke can stay in the air days after wildfires have ended so continue to check local air quality.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC two tiers: contact provider vs 9-1-1 map onto telehealth triage (interpretation)",
+     "quote": "Call 9-1-1 or go right away to an emergency department for medical emergencies.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "Aguilera R, Corringham T, Gershunov A, Benmarhnia T. Wildfire smoke impacts respiratory health more than fine particles from other sources: observational evidence from Southern California. Nature Communications. 2021;12(1):1493.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7935892/",
+   "pmid": "33674571",
+   "pmcid": "PMC7935892",
+   "doi": "10.1038/s41467-021-21708-0",
+   "record_title": "Wildfire smoke impacts respiratory health more than fine particles from other sources: observational evidence from Southern California.",
+   "record_journal": "Nat Commun",
+   "record_year": "2021",
+   "article_type": "Journal Article (observational)",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Link changed from nature.com (blocked to automated reads in the Nov 6 audit) to the PMC record of the same article. Former claim \"5 to 10 times more harmful\" cut: abstract gives ranges, not a multiplier. scite_unavailable: Scite quota exhausted until 2026-11-14; retraction status checked via PubMed article types (no Retracted Publication, Retraction Notice or Expression of Concern listed).",
+   "claims": [
+    {
+     "text": "Respiratory hospitalizations +1.3 to up to 10% per 10 ug/m3 wildfire PM2.5 vs 0.67-1.3% non-wildfire",
+     "quote": "We found increases in respiratory hospitalizations ranging from 1.3 to up to 10% with a 10 μg m-3 increase in wildfire-specific PM2.5, compared to 0.67 to 1.3% associated with non-wildfire PM2.5.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Toxicological studies suggest wildfire PM may be more toxic than equal doses of ambient PM",
+     "quote": "Recent toxicological studies suggest that wildfire particulate matter may be more toxic than equal doses of ambient PM2.5.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "other_web",
+   "cited_as": "National Collaborating Centre for Environmental Health (NCCEH) and National Collaborating Centre for Methods and Tools. Rapid Review: Evaluating the effectiveness of masks and respirators against wildfire smoke. Evidence search to April 2025.",
+   "url": "https://ncceh.ca/resources/evidence-reviews/rapid-review-evaluating-effectiveness-masks-and-respirators-against",
+   "version_or_date": "Evidence search to April 23, 2025; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Rapid review by NCCEH and NCCMT; no individual authors. Cloth figure is from a single-layer cotton bandana per the review.",
+   "claims": [
+    {
+     "text": "N95 >94% reduction of combustion PM in chamber studies, moderate certainty",
+     "quote": "Three quasi-experimental chamber studies reported > 94 per cent reduction in total PM ... The certainty of evidence, specifically with respect to the magnitude of the effect, is moderate (GRADE).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Single-layer cotton bandana 8.9 ± 1.7%",
+     "quote": "but not for the cloth mask (8.9 ± 1.7 per cent)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Surgical >81% of PM1-15 pine needle smoke, low certainty",
+     "quote": "surgical masks may be effective at filtering PM from pine needle combustion (> 81 per cent reduction in PM1-15)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "R95/P95 may be effective",
+     "quote": "R95 and P95 (oil-resistant and oil-proof) respirators may be effective at filtering PM.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Kodros JK, O'Dell K, Samet JM, et al. Quantifying the Health Benefits of Face Masks and Respirators to Mitigate Exposure to Severe Air Pollution. GeoHealth. 2021;5(9):e2021GH000482.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8438762/",
+   "pmid": "34541439",
+   "pmcid": "PMC8438762",
+   "doi": "10.1029/2021GH000482",
+   "record_title": "Quantifying the Health Benefits of Face Masks and Respirators to Mitigate Exposure to Severe Air Pollution.",
+   "record_journal": "Geohealth",
+   "record_year": "2021",
+   "article_type": "Journal Article (modeling study)",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable: Scite quota exhausted until 2026-11-14; retraction status checked via PubMed article types (no Retracted Publication, Retraction Notice or Expression of Concern listed).",
+   "claims": [
+    {
+     "text": "N95 22-39% reduction in smoke-attributable hospitalizations; natural fiber 2-11%",
+     "quote": "natural-fiber masks offer minor reductions in respiratory hospitalizations attributable to smoke (2%-11%) ... N95 respirators ... may lead to notable reductions in smoke-attributable hospitalizations (22%-39%",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "N95 >14x with 5% leak; synthetic 4.4-2.2; natural fiber 1.9; surgical 1.7",
+     "quote": "reducing exposure by more than a factor of 14 when worn with a leak rate of 5%. Synthetic-fiber masks offer less protection ... (protection factors ranging from 4.4 to 2.2), while natural-fiber and surgical masks offer reductions in the exposure of 1.9 and 1.7",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Filtration efficiency, bypass rate and compliance are key factors",
+     "quote": "The filtration efficiency, bypass rate, and compliance rate (fraction of time and population wearing the device) are the key factors governing exposure reduction potential and health benefits",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "agency_page",
+   "cited_as": "U.S. Environmental Protection Agency. Air Quality Guide for Particle Pollution. EPA-452/F-23-002. February 2023.",
+   "url": "https://www.airnow.gov/sites/default/files/2023-03/air-quality-guide-for-particle-pollution_0.pdf",
+   "version_or_date": "EPA-452/F-23-002, February 2023 (activity advice only; its breakpoints predate the 2024 update, which ref 2 supplies)",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Sensitive groups definition incl. outdoor workers",
+     "quote": "Sensitive groups include people with heart or lung disease, older adults, children and teenagers, minority populations, and outdoor workers.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "USG: make activities shorter and less intense; take more breaks",
+     "quote": "Sensitive groups: Make outdoor activities shorter and less intense. It's OK to be active outdoors, but take more breaks.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Unhealthy: sensitive avoid long or intense; everyone else reduce and take breaks",
+     "quote": "Sensitive groups: Avoid long or intense outdoor activities. Consider rescheduling or moving activities indoors. Everyone else: Reduce long or intense activities. Take more breaks during outdoor activities.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Very Unhealthy: sensitive avoid all outdoor activity; everyone else avoid long or intense",
+     "quote": "Sensitive groups: Avoid all physical activity outdoors. ... Everyone else: Avoid long or intense activities. Consider rescheduling or moving activities indoors.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hazardous: everyone avoid all outdoor activity; sensitive remain indoors",
+     "quote": "Everyone: Avoid all physical activity outdoors. Sensitive groups: Remain indoors and keep activity levels low.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Moderate: unusually sensitive consider shorter, less intense",
+     "quote": "Unusually sensitive people: Consider making outdoor activities shorter and less intense.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Asthma: follow action plan, keep quick-relief medicine handy; heart disease symptoms contact provider",
+     "quote": "People with asthma: Follow your asthma action plan and keep quick relief medicine handy. People with heart disease: Symptoms such as palpitations, shortness of breath, or unusual fatigue may indicate a serious problem.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "agency_page",
+   "cited_as": "U.S. Environmental Protection Agency. Create a Clean Room to Protect Indoor Air Quality During a Wildfire. Last updated August 18, 2026.",
+   "url": "https://www.epa.gov/emergencies-iaq/create-clean-room-protect-indoor-air-quality-during-wildfire",
+   "version_or_date": "Last updated August 18, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Bedroom with attached bathroom is a good choice",
+     "quote": "A bedroom with an attached bathroom, for example, is a good choice because you can close it off from the rest of the house",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Turn off fresh air, close intake or recirculate",
+     "quote": "turn it off, close the intake, or set the system to \"recirculate\" mode.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "MERV 13 or higher in central HVAC; fan On not Auto",
+     "quote": "If you have central HVAC, you can also install a high-efficiency filter (MERV 13 or higher) ... Run the system's fan as often as possible by setting the fan to \"On\" instead of \"Auto\" to get the most out of the filter.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Portable air cleaner right size; run continuously on highest setting",
+     "quote": "Use a portable air cleaner that is the right size for the room. ... Run the portable air cleaner continuously on the highest fan setting if you can.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "DIY only when products of known performance not available or affordable",
+     "quote": "EPA recommends using DIY air cleaners only when products of known performance ... are not available or affordable.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "agency_page",
+   "cited_as": "U.S. Environmental Protection Agency. Wildfire Smoke Course: Strategies to Reduce Exposure Indoors. Last updated September 21, 2026.",
+   "url": "https://www.epa.gov/wildfire-smoke-course/strategies-reduce-exposure-indoors",
+   "version_or_date": "Last updated September 21, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "EPA page attributes the 56%/99% DIY figures to \"one study\" without naming it in the retrieved text. The likely original (May, Dixon, Jaffe 2021, Aerosol Air Qual Res, doi 10.4209/aaqr.210046) could not be verified: its abstract (via DOAJ record) gives no percentages and the DOI page failed to load. Logged partly_supported because the primary was not verified; former ref 24 removed.",
+   "claims": [
+    {
+     "text": "Indoor PM2.5 ~55-60% of outdoor, range 30-100%; open windows similar",
+     "quote": "indoor PM2.5 levels will be around 55% to 60% of outdoor levels during wildfire smoke events ... this can vary greatly across homes, from as low as 30% to as much as 100%",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "High-efficiency HVAC filter ~50% decrease with continuous fan",
+     "quote": "may decrease PM2.5 concentrations by about 50% when running the system fan continuously",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "One study: DIY ~56% after 90 min larger room, ~99% within 60 min smaller room",
+     "quote": "one study found a roughly 56% reduction after 90 minutes ... a roughly 99% reduction within 60 minutes",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "guideline",
+   "cited_as": "Cloutier MM, Dixon AE, Krishnan JA, et al. Managing Asthma in Adolescents and Adults: 2020 Asthma Guideline Update From the National Asthma Education and Prevention Program. JAMA. 2020;324(22):2301-2317.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33270095/",
+   "pmid": "33270095",
+   "doi": "10.1001/jama.2020.21974",
+   "record_title": "Managing Asthma in Adolescents and Adults: 2020 Asthma Guideline Update From the National Asthma Education and Prevention Program.",
+   "record_journal": "JAMA",
+   "record_year": "2020",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "NAEPP 2020 Asthma Guideline Update (ages 12+)",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable: Scite quota exhausted until 2026-11-14; retraction status checked via PubMed article types (no Retracted Publication, Retraction Notice or Expression of Concern listed).",
+   "claims": [
+    {
+     "text": "Short-term increase in ICS dose alone for worsening symptoms not recommended (adolescents/adults)",
+     "quote": "A short-term increase in the ICS dose alone for worsening of asthma symptoms is not recommended.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "journal",
+   "cited_as": "Wettstein ZS, Hoshiko S, Fahimi J, et al. Cardiovascular and Cerebrovascular Emergency Department Visits Associated With Wildfire Smoke Exposure in California in 2015. J Am Heart Assoc. 2018;7(8):e007492.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6015400/",
+   "pmid": "29643111",
+   "pmcid": "PMC6015400",
+   "doi": "10.1161/JAHA.117.007492",
+   "record_title": "Cardiovascular and Cerebrovascular Emergency Department Visits Associated With Wildfire Smoke Exposure in California in 2015.",
+   "record_journal": "J Am Heart Assoc",
+   "record_year": "2018",
+   "article_type": "Journal Article; Multicenter Study (observational)",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Authors are UCSF, California Department of Public Health and EPA; guide no longer calls it CDC-authored. Link changed from CDC Stacks PDF to the PMC record. scite_unavailable: Scite quota exhausted until 2026-11-14; retraction status checked via PubMed article types (no Retracted Publication, Retraction Notice or Expression of Concern listed).",
+   "claims": [
+    {
+     "text": "CV ED visits elevated across all lags; greatest dense smoke 65+ lag 0 RR 1.15 (1.09-1.22)",
+     "quote": "Rates of all-cause cardiovascular ED visits were elevated across all lags, with the greatest increase on dense smoke days and among those aged ≥65 years at lag 0 (relative risk 1.15, 95% confidence interval [1.09, 1.22]).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lags studied 0 to 4 days",
+     "quote": "Relative risk was determined for smoky days for lag days 0 to 4.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Elevated risks for MI, IHD, HF, dysrhythmia, PE, ischemic stroke, TIA",
+     "quote": "Elevated risks for individual diagnoses included myocardial infarction, ischemic heart disease, heart failure, dysrhythmia, pulmonary embolism, ischemic stroke, and transient ischemic attack.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Linked to cardiovascular and cerebrovascular ED visits, particularly over 65",
+     "quote": "smoke exposure to be associated with cardiovascular and cerebrovascular ED visits for all adults, particularly for those over aged 65 years.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "agency_page",
+   "cited_as": "Environment and Climate Change Canada. About the Air Quality Health Index. Last modified October 14, 2026.",
+   "url": "https://www.canada.ca/en/environment-climate-change/services/air-quality-health-index/about.html",
+   "version_or_date": "Last modified October 14, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Link changed from the canada.ca AQHI landing page (navigation only) to the About the AQHI page. Former SAQS 7-10 / advisory 10+ for 3 hours claim cut: not on retrieved pages. Pollutant quote is the fetch tool rendering and may be lightly reworded; logged partly_supported.",
+   "claims": [
+    {
+     "text": "AQHI scale 1-10+",
+     "quote": "The AQHI is a scale ranging from 1-10+.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "AQHI table health messages",
+     "quote": "consider reducing or rescheduling strenuous outdoor activities if you have symptoms like coughing or throat irritation ... reduce or reschedule strenuous outdoor activities ... avoid strenuous activities outdoors",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Colour-coded alerts",
+     "quote": "Air quality alerts are colour-coded (yellow, orange, or red) based on possible risks.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "During wildfire smoke, PM2.5-only hourly AQHI",
+     "quote": "we only use PM2.5 to calculate the AQHI on an hourly basis",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Based on ozone, PM and NO2",
+     "quote": "combined relative risks of ground-level ozone (O3), particulate matter (PM2.5/PM10), and nitrogen dioxide (NO2)",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "other_web",
+   "cited_as": "American Lung Association. Air Quality and Health Impacts of Wildfire and Prescribed Fire.",
+   "url": "https://www.lung.org/policy-advocacy/healthy-air-campaign/prescribed-fire",
+   "version_or_date": "No date shown; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "ALA lists children, older adults, pregnant people, heart/lung conditions, outdoor workers",
+     "quote": "some groups may be particularly vulnerable and susceptible to wildfire smoke impacts, including children, older adults, pregnant people, those with underlying respiratory and cardiovascular conditions, outdoor workers",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "kind": "agency_page",
+   "cited_as": "Ontario Ministry of Health. Wildfire Smoke and Air Quality Health Reference Document. Updated February 4, 2026.",
+   "url": "https://www.ontario.ca/page/wildfire-smoke-and-air-quality-health-reference-document",
+   "version_or_date": "Published June 7, 2024; updated February 4, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Publisher is Ontario Ministry of Health (not Health Canada as the guide previously implied).",
+   "claims": [
+    {
+     "text": "Ontario lists pregnant people, outdoor workers, chronic conditions incl. diabetes, lung or heart",
+     "quote": "pregnant women and pregnant people ... people who work outdoors, including wildland firefighters ... people with an existing illness or chronic health conditions such as: cancer, diabetes, lung or heart conditions",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "kind": "journal",
+   "cited_as": "Chen G, Guo Y, Yue X, et al. Mortality risk attributable to wildfire-related PM2.5 pollution: a global time series study in 749 locations. Lancet Planet Health. 2021;5(9):e579-e587.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34508679/",
+   "pmid": "34508679",
+   "doi": "10.1016/S2542-5196(21)00200-X",
+   "record_title": "Mortality risk attributable to wildfire-related PM2.5 pollution: a global time series study in 749 locations.",
+   "record_journal": "Lancet Planet Health",
+   "record_year": "2021",
+   "article_type": "Journal Article; Meta-Analysis (time series)",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Former \"33,510 deaths per year\" figure cut (not in abstract; full text not retrieved). No longer cited for the 5-10x claim. scite_unavailable: Scite quota exhausted until 2026-11-14; retraction status checked via PubMed article types (no Retracted Publication, Retraction Notice or Expression of Concern listed).",
+   "claims": [
+    {
+     "text": "Per 10 ug/m3 wildfire PM2.5: all-cause 1.019, CV 1.017, respiratory 1.019",
+     "quote": "each 10 μg/m3 increase in the 3-day moving average (lag 0-2 days) of wildfire-related PM2.5 exposure were 1·019 ... for all-cause mortality, 1·017 ... for cardiovascular mortality, and 1·019 ... for respiratory mortality",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "0.62% of all-cause deaths annually attributable",
+     "quote": "Overall, 0·62% (95% CI 0·48-0·75) of all-cause deaths ... were annually attributable to the acute impacts of wildfire-related PM2.5 exposure",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "kind": "journal",
+   "cited_as": "Wilgus ML, Merchant M. Clearing the Air: Understanding the Impact of Wildfire Smoke on Asthma and COPD. Healthcare (Basel). 2024;12(3):307.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10855577/",
+   "pmid": "38338192",
+   "pmcid": "PMC10855577",
+   "doi": "10.3390/healthcare12030307",
+   "record_title": "Clearing the Air: Understanding the Impact of Wildfire Smoke on Asthma and COPD.",
+   "record_journal": "Healthcare (Basel)",
+   "record_year": "2024",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed connector get_article_metadata + get_full_text_article (PMC full text)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable: Scite quota exhausted until 2026-11-14; retraction status checked via PubMed article types (no Retracted Publication, Retraction Notice or Expression of Concern listed).",
+   "claims": [
+    {
+     "text": "~10% rise in short-term asthma risk per 10 ug/m3",
+     "quote": "the aggregated relative risk for elevated short-term effects of wildfire smoke on asthma is around 1.1 (range 1.07-1.68 in reported studies) per 10 µg/m3 rise in wildfire PM2.5",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pollutants incl. PM, CO, methane, nitrous oxides, VOCs, ozone",
+     "quote": "The pollutants generated by wildfires include fine and coarse particulate matter (PM), carbon monoxide, methane, nitrous oxides, and volatile organic carbons (VOC), as well as ozone (O3)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fine/ultrafine penetrate lungs and absorbed into bloodstream",
+     "quote": "Fine and ultrafine particulates are unique in their ability to not only penetrate deeply into the lungs causing local damage, but can also be absorbed into the bloodstream causing systemic harm",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "More oxidative and pro-inflammatory components, more toxic than urban non-smoke PM",
+     "quote": "Wildfire smoke contains more oxidative components, such as polycyclic aromatic hydrocarbons and quinones, along with pro-inflammatory elements, such as aldehydes and oxides of nitrogen, rendering it more toxic than the non-smoke pollution particulates in urban areas",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prenatal exposure associated with low birth weight and preterm birth",
+     "quote": "data suggests that prenatal exposure to wildfire PM2.5 is associated with higher rates of adverse obstetrical outcomes such as low birth weight and preterm birth",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Children: minute ventilation, smaller airways, time outdoors, developing lungs; 0-5 most affected",
+     "quote": "Children are more susceptible to smoke exposure due to greater minute ventilation per unit body weight, smaller airways, more time outdoors, and developing lungs",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ages 0-5 most affected for asthma hospitalization",
+     "quote": "Several studies examining the impact of wildfire smoke on asthma-related hospitalization find the population most affected is aged 0 to 5",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cardiovascular evidence limited and inconsistent",
+     "quote": "the overall data linking wildfire smoke and cardiovascular outcomes remains too limited and inconsistent to make definitive conclusions",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "kind": "journal",
+   "cited_as": "Wang W, Li L, Zhu Q, et al. Differential Effects of Wildfire Smoke Fine Particulate Matter Exposure on Respiratory Disease Emergency Department Visits in the Western United States. Am J Respir Crit Care Med. 2025;211(11):2086-2095.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40929521/",
+   "pmid": "40929521",
+   "pmcid": "PMC12618982",
+   "doi": "10.1164/rccm.202502-0350OC",
+   "record_title": "Differential Effects of Wildfire Smoke Fine Particulate Matter Exposure on Respiratory Disease Emergency Department Visits in the Western United States.",
+   "record_journal": "Am J Respir Crit Care Med",
+   "record_year": "2025",
+   "article_type": "Journal Article (case-crossover, observational)",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable: Scite quota exhausted until 2026-11-14; retraction status checked via PubMed article types (no Retracted Publication, Retraction Notice or Expression of Concern listed).",
+   "claims": [
+    {
+     "text": ">6 million ED visits, five states; smoke PM stronger than nonsmoke, particularly asthma",
+     "quote": "We obtained data on more than 6 million emergency department visits for respiratory diseases ... from five states ... Wildfire smoke PM2.5 had stronger estimated effects than nonsmoke PM2.5, particularly for asthma",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "kind": "guideline",
+   "cited_as": "U.S. Environmental Protection Agency. Best Practices Guide for Improving Indoor Air Quality in Commercial/Public Buildings During Wildland Fire Smoke Events. EPA/600/R-25/115. May 2025.",
+   "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P101HCVK.TXT",
+   "version_or_date": "EPA/600/R-25/115, May 2025",
+   "retrieved_with": "WebFetch of official page (EPA NEPIS text, first 100,000 characters read)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Guide is for commercial and public buildings; the guide text now says so. It also states \"Closing all outdoor air intakes completely is never advised\" (commercial context), so the former home advice to close fresh-air dampers was replaced with EPA clean-room advice (ref 12).",
+   "claims": [
+    {
+     "text": "MERV 8 needs upgrading",
+     "quote": "MERV 8 filters are commonly used in HVAC systems and need to be upgraded",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "MERV 13 removes >=50% of 0.3-1.0 um each pass",
+     "quote": "can remove at least 50% of the smallest particles (0.3 - 1.0 μm; the size of most smoke particles) with each pass through the filter",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Box fans after 2012 with fused plugs and thermal cutoffs",
+     "quote": "Use only NEWER box fans (manufactured after 2012) with safety features such as fused plugs and thermal cutoffs.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "kind": "other_web",
+   "cited_as": "American Academy of Pediatrics. Wildfires. Disaster Management Resources by Topic. Last updated October 22, 2024.",
+   "url": "https://www.aap.org/en/patient-care/disasters-and-children/disaster-management-resources-by-topic/wildfires/",
+   "version_or_date": "Last updated October 22, 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Page has no AQI threshold for athletics or PE; the former \"AAP recommends stopping athletics at AQI above 150\" claim was cut. PubMed search for an AAP wildfire policy statement or clinical report in Pediatrics returned no record.",
+   "claims": [
+    {
+     "text": "Children breathe more air pound for pound",
+     "quote": "breathe more air than adults on a pound for pound basis",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "AAP guidance used for children section",
+     "quote": "Children are especially vulnerable to environmental hazards from wildfires.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "kind": "other_web",
+   "cited_as": "American Lung Association. Protect Your Health During Wildfires.",
+   "url": "https://www.lung.org/getmedia/695663e2-bdb8-4a61-9322-02657f530b99/protect-your-health-during-wildfires-5-29-2020-(1).pdf",
+   "version_or_date": "No date printed; filename indicates 5-29-2020",
+   "retrieved_with": "WebFetch of official page (PDF)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Seek shelter elsewhere without AC when too warm",
+     "quote": "Seek shelter elsewhere if you do not have an air conditioner and it is too warm to stay inside with the windows closed.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cleanup: fitted N95; wet surfaces; lung/heart disease avoid",
+     "quote": "Wear an appropriate dust mask during clean-up, a HEPA-filtered one or a fitted N-95. ... Thoroughly wet dusty and sooty area prior to clean-up. ... People with lung or heart diseases should avoid cleanup activities where dust or soot is present.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "kind": "agency_page",
+   "cited_as": "U.S. Environmental Protection Agency. Wildfire Smoke Factsheet: Children's Health and Wildfires: A Resource for Families. EPA-452/F-24-001. January 2024.",
+   "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P1019OX4.TXT",
+   "version_or_date": "EPA-452/F-24-001, January 2024",
+   "retrieved_with": "WebFetch of official page (EPA NEPIS)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Former \"about age 7 for adult-small N95\" claim cut (not in factsheet). CDC (ref 7) says surgical masks will not protect a child from smoke; the guide now shows both.",
+   "claims": [
+    {
+     "text": "Children 2+ N95 or surgical only if tightly fitted",
+     "quote": "Children 2 and up may be able to get some protection from wildfire smoke from N95 masks or surgical masks, but only if they are fitted tightly to the face.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Short periods; remove if uncomfortable or hard to breathe",
+     "quote": "Use masks only for short periods where your child must be outdoors ... If your child is uncomfortable or says that it is hard to breathe, take off the mask.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Humidifiers or wet washcloth do not prevent smoke",
+     "quote": "Humidifiers or breathing through a wet washcloth do not prevent breathing in smoke.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "kind": "agency_page",
+   "cited_as": "U.S. Environmental Protection Agency, Office of Children's Health Protection. Children's Health and Wildfire Smoke Exposure Workshop: Workshop Recommendations. January 24, 2022.",
+   "url": "https://www.airnow.gov/sites/default/files/2022-01/childrens-health-wildfire-smoke-workshop-recommendations.pdf",
+   "version_or_date": "January 24, 2022",
+   "retrieved_with": "WebFetch of official page (PDF, first 100,000 of 114,290 characters read)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "The durations (recess about 15 minutes, PE up to an hour, athletics 2 to 4 hours) were reported by the fetch tool as the document's assumptions but not returned as a verbatim quote; logged partly_supported. The former AQI-by-activity table was not in this document and was cut.",
+   "claims": [
+    {
+     "text": "Shorten time active outdoors",
+     "quote": "Shorten the amount of time that children are active outdoors.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Substitute lighter activities",
+     "quote": "Substitute light or moderate activities for more vigorous ones.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hold activities indoors with acceptable IAQ",
+     "quote": "Physical activities should be held indoors in appropriate spaces with acceptable IAQ.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Indoor space for at-risk children even at Moderate",
+     "quote": "making indoor space available for at-risk children even when the AQI is in the Moderate category",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recess ~15 min, PE up to 1 hour, athletics 2-4 hours; no single AQI cutoff",
+     "quote": "when smoke levels reach the unhealthy categories of the AQI",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "kind": "journal",
+   "cited_as": "Cleland SE, Wyatt LH, Wei L, et al. Short-Term Exposure to Wildfire Smoke and PM2.5 and Cognitive Performance in a Brain-Training Game: A Longitudinal Study of U.S. Adults. Environ Health Perspect. 2022;130(6):67005.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9196888/",
+   "pmid": "35700064",
+   "pmcid": "PMC9196888",
+   "doi": "10.1289/EHP10498",
+   "record_title": "Short-Term Exposure to Wildfire Smoke and PM2.5 and Cognitive Performance in a Brain-Training Game: A Longitudinal Study of U.S. Adults.",
+   "record_journal": "Environ Health Perspect",
+   "record_year": "2022",
+   "article_type": "Journal Article (longitudinal observational)",
+   "retrieved_with": "PubMed connector get_article_metadata + get_full_text_article (PMC full text)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "PubMed abstract text drops the exposure unit; the per-10 microgram increment was confirmed from the PMC full-text figure description (get_full_text_article). scite_unavailable: Scite quota exhausted until 2026-11-14; retraction status checked via PubMed article types (no Retracted Publication, Retraction Notice or Expression of Concern listed).",
+   "claims": [
+    {
+     "text": "10,228 adults; 10 ug/m3 3-h PM2.5 -> 21-point decrease",
+     "quote": "Scores from 20 plays of an attention-oriented brain-training game were obtained for 10,228 adults ... increase in PM2.5 in the 3 h prior to gameplay was associated with a 21.0 [95% CI: 3.3, 38.7]-point decrease in score.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Medium/heavy smoke negatively associated; heavy smoke day prior -117 points",
+     "quote": "Medium and heavy smoke density were also negatively associated with score. Heavy smoke density the day prior to gameplay was associated with a 117.0 (95% CI: 1.7, 232.3)-point decrease in score",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Effect size is per 10 ug/m3 PM2.5 (3-hour maximum)",
+     "quote": "Figure 2 is an error bar graph, plotting change in score per 10 micrograms per meter cubed fine particulate matter, ranging from negative 100 to 100 in increments of 50 (y-axis) across 3 hour maximum",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "kind": "journal",
+   "cited_as": "Horne BD, Johnson MM, Blagev DP, et al. Association of Short-Term Increases in Ambient Fine Particulate Matter With Hospitalization for Asthma or COPD During Wildfire Season and Other Time Periods. CHEST Pulm. 2024;2(2):100053.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38993972/",
+   "pmid": "38993972",
+   "pmcid": "PMC11238943",
+   "doi": "10.1016/j.chpulm.2024.100053",
+   "record_title": "Association of Short-Term Increases in Ambient Fine Particulate Matter With Hospitalization for Asthma or COPD During Wildfire Season and Other Time Periods.",
+   "record_journal": "CHEST Pulm",
+   "record_year": "2024",
+   "article_type": "Journal Article (case-crossover, observational)",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable: Scite quota exhausted until 2026-11-14; retraction status checked via PubMed article types (no Retracted Publication, Retraction Notice or Expression of Concern listed).",
+   "claims": [
+    {
+     "text": "Children highest risk delayed 3-4 weeks vs first 3 days adults",
+     "quote": "Asthma risk for adults during wildfire season was highest in the first 3 days after PM2.5 increases, but for children, the highest risk was delayed by 3 to 4 weeks.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "kind": "agency_page",
+   "cited_as": "U.S. Environmental Protection Agency. Particulate Matter (PM) Basics.",
+   "url": "https://www.epa.gov/pm-pollution/particulate-matter-pm-basics",
+   "version_or_date": "Last updated September 18, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "PM2.5 definition",
+     "quote": "fine inhalable particles, with diameters that are generally 2.5 micrometers and smaller",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Some particles may get into the bloodstream",
+     "quote": "Some particles less than 10 micrometers in diameter can get deep into your lungs and some may even get into your bloodstream.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hair about 70 micrometers (figure)",
+     "quote": "The average human hair is about 70 micrometers in diameter.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "kind": "agency_page",
+   "cited_as": "U.S. Environmental Protection Agency. Particle Pollution Exposure: deposition mechanisms in the airways.",
+   "url": "https://www.epa.gov/pmcourse/particle-pollution-exposure",
+   "version_or_date": "Last updated April 8, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Coarse deposit in nose/throat/large airways; fine in respiratory bronchioles and alveoli",
+     "quote": "primarily deposit in the nasal, pharyngeal and laryngeal passages, trachea, and bronchi ... primarily deposit in the respiratory bronchioles and alveoli",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Animal studies <1% translocate; human radiolabel studies have not identified it",
+     "quote": "In animal studies, a small fraction (<1%) of insoluble ultrafine particles ... human studies using radiolabeled particles have not identified insoluble particle translocation in organs such as the liver",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "kind": "journal",
+   "cited_as": "Schraufnagel DE. The health effects of ultrafine particles. Exp Mol Med. 2020;52(3):311-317.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7156741/",
+   "pmid": "32203102",
+   "pmcid": "PMC7156741",
+   "doi": "10.1038/s12276-020-0403-3",
+   "record_title": "The health effects of ultrafine particles.",
+   "record_journal": "Exp Mol Med",
+   "record_year": "2020",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable: Scite quota exhausted until 2026-11-14; retraction status checked via PubMed article types (no Retracted Publication, Retraction Notice or Expression of Concern listed).",
+   "claims": [
+    {
+     "text": "Ultrafine particles enter through lungs and translocate to essentially all organs",
+     "quote": "They generally enter the body through the lungs but translocate to essentially all organs.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

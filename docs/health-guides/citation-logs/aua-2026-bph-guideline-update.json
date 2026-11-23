@@ -1,0 +1,588 @@
+{
+ "guide": "aua-2026-bph-guideline-update",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 7 verified (all 7 DOIs: refs 1, 2, 3, 4, 8, 9, 10), retractions: none; no expressions of concern, no contrasting evidence flagged. PubMed article types checked: no Retracted Publication or Retraction Notice.",
+ "guideline_edition_note": "Confirmed via PubMed: AUA Guideline (2026) Parts I-III, J Urol 2026;216(2):143-170, epub May 7, 2026 (PMIDs 42095481, 42095477, 42095468). Prior: 2023 amendment (PMID 37706750) and 2021 Parts I-II (PMIDs 34384237, 34384236). Full text of the 2026 statements was not retrievable; auanet.org pages carry an AI-use restriction notice and were not used.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "pmid": "42095481",
+   "doi": "10.1097/JU.0000000000005097",
+   "cited_as": "Goueli R, Badlani GH, Welliver C, et al. Management of LUTS Attributed to BPH: AUA Guideline (2026) Part I: Presentation and Evaluation. J Urol. 2026;216(2):143-151.",
+   "record_title": "Management of Lower Urinary Tract Symptoms Attributed to Benign Prostatic Hyperplasia: AUA Guideline (2026) Part I: Presentation and Evaluation.",
+   "record_journal": "J Urol",
+   "record_year": "2026",
+   "article_type": "Journal Article; Practice Guideline; Systematic Review",
+   "version_or_date": "AUA Guideline (2026), published online May 7, 2026; J Urol 216(2):143-151",
+   "retrieved_with": "PubMed get_article_metadata (abstract and record fields); Scite verify_papers",
+   "notes": "Full text not readable: doi.org and auajournals.org fetch failed; Scite read_fulltext returned no text. Claims limited to abstract and PubMed record fields. Practice guideline summary, not a trial.",
+   "claims": [
+    {
+     "text": "Summary published in J Urol in three parts",
+     "quote": "The summary presented herein represents Part I of the three-part series dedicated to Management of LUTS/BPH.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "2026 update rests on a new systematic review: searches through January 2025, update searches December 15, 2025",
+     "quote": "Cochrane Database of Systematic Reviews through January 2025. Update searches were conducted on December 15, 2025.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "LUTS can come from bladder, prostate, urethra or other causes; bothersome symptoms are the main reason patients seek treatment",
+     "quote": "Non-neurogenic lower urinary tract symptoms (LUTS) can be due to bladder, prostate, urethral, or other pathology. Bothersome LUTS is the main reason patients seek treatment and generally drives management decisions.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Shared decision-making plays a critical role in starting and escalating treatment",
+     "quote": "As such, shared decision-making plays a critical role in the initiation and escalation of treatment.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Part I covers initial presentation, evaluation, and initial management; standard evaluation established with appropriate tests and shared decision-making",
+     "quote": "The recommendations herein address initial presentation, evaluation, and initial management of patients with LUTS/BPH. ... Standard evaluation is established with appropriate tests and shared decision-making.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Starting point is history and physical exam; recommendations also cover appropriate use of tests and patient counseling",
+     "quote": "In addition to patient history and physical examination, the recommendations herein include the appropriate use of tests and patient counseling.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Topics listed for Part I include PSA, maximum urinary flow rate, urodynamic studies, transrectal ultrasound and MRI",
+     "quote": "magnetic resonance imaging; maximum urinary flow rate; ... prostate-specific antigen; ... transrectal ultrasound; urodynamic studies",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Full update built on a new systematic review (Bottom Line)",
+     "quote": "The systematic review that informs this Guideline was based on searches in Ovid MEDLINE, the Cochrane Central Register of Controlled Trials, and the Cochrane Database of Systematic Reviews through January 2025.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42095481/",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 2,
+   "kind": "guideline",
+   "pmid": "42095477",
+   "doi": "10.1097/JU.0000000000005098",
+   "cited_as": "Goueli R, Badlani GH, Welliver C, et al. Management of LUTS Attributed to BPH: AUA Guideline (2026) Part II: Medical Management. J Urol. 2026;216(2):152-160.",
+   "record_title": "Management of Lower Urinary Tract Symptoms Attributed to Benign Prostatic Hyperplasia: AUA Guideline (2026) Part II: Medical Management.",
+   "record_journal": "J Urol",
+   "record_year": "2026",
+   "article_type": "Journal Article; Practice Guideline; Systematic Review; Research Support, N.I.H., Extramural",
+   "version_or_date": "AUA Guideline (2026), published online May 7, 2026; J Urol 216(2):152-160",
+   "retrieved_with": "PubMed get_article_metadata (abstract and record fields); Scite verify_papers",
+   "notes": "Added in repair. Full text not readable (Scite read_fulltext: no text; publisher fetch failed). Abstract only.",
+   "claims": [
+    {
+     "text": "Summary published in three parts (Part II: medical management)",
+     "quote": "The summary presented herein represents Part II of the three-part series dedicated to Management of LUTS attributed to BPH.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Men on active surveillance for prostate cancer should be told about the unique actions of their BPH medicines",
+     "quote": "It is also important to disclose unique actions of medication to relevant patient populations such as patients on active surveillance for prostate cancer.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42095477/",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 3,
+   "kind": "guideline",
+   "pmid": "42095468",
+   "doi": "10.1097/JU.0000000000005099",
+   "cited_as": "Goueli R, Badlani GH, Welliver C, et al. Management of LUTS Attributed to BPH: AUA Guideline (2026) Part III: Procedural/Surgical Management. J Urol. 2026;216(2):161-170.",
+   "record_title": "Management of Lower Urinary Tract Symptoms Attributed to Benign Prostatic Hyperplasia: AUA Guideline (2026) Part III: Procedural/Surgical Management.",
+   "record_journal": "J Urol",
+   "record_year": "2026",
+   "article_type": "Journal Article; Practice Guideline; Systematic Review",
+   "version_or_date": "AUA Guideline (2026), published online May 7, 2026; J Urol 216(2):161-170",
+   "retrieved_with": "PubMed get_article_metadata (abstract and record fields); Scite verify_papers",
+   "notes": "Full text not readable. Procedure coverage claims rest on the PubMed record keyword list, so they are marked partly_supported; no recommendation wording, grade or size threshold is claimed from this source.",
+   "claims": [
+    {
+     "text": "Summary published in three parts (Part III: procedural/surgical)",
+     "quote": "The summary presented herein represents Part III of the three-part series addressing procedural/surgical management of LUTS/BPH.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Part III lists robotic waterjet treatment and the intraprostatic drug-coated balloon among procedures it covers",
+     "quote": "intraprostatic drug coated balloon; ... robotic waterjet treatment",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Procedural part covers TURP, laser enucleation (HoLEP/ThuLEP), robotic waterjet, PAE and newer devices",
+     "quote": "holmium laser enucleation of the prostate; ... prostate artery embolization; ... robotic waterjet treatment; ... thulium laser enucleation of the prostate; ... transurethral resection of the prostate",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42095468/",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 4,
+   "kind": "guideline",
+   "pmid": "37706750",
+   "doi": "10.1097/JU.0000000000003698",
+   "cited_as": "Sandhu JS, Bixler BR, Dahm P, et al. Management of LUTS Attributed to BPH: AUA Guideline Amendment 2023. J Urol. 2024;211(1):11-19. Published online September 14, 2023.",
+   "record_title": "Management of Lower Urinary Tract Symptoms Attributed to Benign Prostatic Hyperplasia (BPH): AUA Guideline Amendment 2023.",
+   "record_journal": "J Urol",
+   "record_year": "2023 (online); issue 2024 per Scite",
+   "article_type": "Journal Article",
+   "version_or_date": "AUA Guideline Amendment 2023; J Urol 211(1):11-19",
+   "retrieved_with": "PubMed get_article_metadata (abstract and record fields); Scite verify_papers",
+   "notes": "Added in repair to source the 2023 comparison. PubMed lists an erratum (PMID 38721938) to the 2021 Part I guideline, not to this amendment.",
+   "claims": [
+    {
+     "text": "The AUA last amended its BPH guideline in 2023 (previous change before 2026)",
+     "quote": "The guideline was updated in 2023 to capture eligible literature published between September 2020 and October 2022.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "2023 amendment changed statements on combination therapy, PVP, WVTT, laser enucleation and PAE",
+     "quote": "The BPH amendment resulted in changes to statements/supporting text on combination therapy, photoselective vaporization of the prostate (PVP), water vapor thermal therapy (WVTT), laser enucleation, and prostate artery embolization (PAE).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "2023 added a TIPD statement and moved TUNA and TUMT to background as legacy technologies",
+     "quote": "A new statement on temporary implanted prostatic devices (TIPD) was added. In addition, statements on transurethral needle ablation (TUNA) and transurethral microwave thermotherapy (TUMT) were removed and information regarding these legacy technologies was added to the background section.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Aquablation and drug-coated balloon not among the statements changed in 2023 (inferred from the listed changes)",
+     "quote": "The BPH amendment resulted in changes to statements/supporting text on combination therapy, photoselective vaporization of the prostate (PVP), water vapor thermal therapy (WVTT), laser enucleation, and prostate artery embolization (PAE).",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37706750/",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 5,
+   "kind": "other_web",
+   "cited_as": "American Urological Association. American Urological Association Releases the Management of Lower Urinary Tract Symptoms Attributed to Benign Prostatic Hyperplasia Guideline. Press release, GlobeNewswire, May 7, 2026.",
+   "version_or_date": "May 7, 2026",
+   "retrieved_with": "WebFetch of globenewswire.com page",
+   "notes": "Page checked for AI-use restriction notice: none found. The same release on auanet.org carries an AUA notice restricting use of its content in AI applications, so the auanet.org copy was not used. Flagged for Parth.",
+   "claims": [
+    {
+     "text": "Released May 7, 2026 with 62 recommendations",
+     "quote": "BALTIMORE, May 07, 2026 (GLOBE NEWSWIRE) ... The updated Guideline includes 62 recommendations and reflects newly available clinical evidence",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clinical foundation is the same 62-recommendation document",
+     "quote": "The updated Guideline includes 62 recommendations and reflects newly available clinical evidence",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://www.globenewswire.com/news-release/2026/05/07/3290220/0/en/american-urological-association-releases-the-management-of-lower-urinary-tract-symptoms-attributed-to-benign-prostatic-hyperplasia-guideline.html",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 6,
+   "kind": "other_web",
+   "cited_as": "Updated BPH guidelines focus on patients, not procedures. AUA Daily News (meeting coverage), May 16, 2026.",
+   "version_or_date": "May 16, 2026",
+   "retrieved_with": "WebFetch of auadailynews.org page",
+   "notes": "News report of the plenary presentation (no byline; footer copyright Ascend Media). No AI-use restriction notice found on the page. Secondary source: the page attributes PAE, combination therapy and legacy-procedure statements to the meeting presentation, not to the guideline text, and the page wording says so.",
+   "claims": [
+    {
+     "text": "PAE described as acceptable but not recommended",
+     "quote": "Prostate artery embolism (PAE), a technique from interventional radiology, is an acceptable approach but is not recommended.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Short-term benefit vs observation in select patients, insufficient evidence to recommend PAE",
+     "quote": "There is evidence of at least a short-term benefit for PAE versus observation in select patients, but insufficient evidence to recommend it.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "New evidence supports daily low-dose tadalafil with an alpha blocker to help preserve ejaculatory function",
+     "quote": "New evidence supports the use of daily low-dose tadalafil with alpha blockers to help preserve ejaculatory function.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Earlier guidelines advised against the combination for lack of evidence",
+     "quote": "Earlier guidelines had advised against the combination due to a lack of evidence.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tadalafil plus finasteride reported as new medical approach",
+     "quote": "Daily low-dose tadalafil plus finasteride is another new medical approach.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Panel moderator: patient-centered guideline with shared decision making from the center",
+     "quote": "This is a patient-centered guideline with shared decision making from the center,",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "No dramatic changes; earlier guidelines updated for new technologies and approaches",
+     "quote": "There are no dramatic changes, but earlier guidelines have been updated to reflect new technologies and new approaches.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Initial evaluation and approach to treating BPH remain the same",
+     "quote": "The initial evaluation and approach to treating BPH remain the same, he continued.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "TURP still the leading surgical procedure",
+     "quote": "Transurethral resection of the prostate is still the leading surgical intervention.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "TUMT and TUNA now legacy technologies and no longer recommended",
+     "quote": "Two more familiar procedures, transurethral microwave therapy and transurethral needle ablation, are now considered legacy technologies and no longer recommended.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Alpha blockers and 5-ARIs remain the usual first-line medicines",
+     "quote": "Alpha blockers and 5ARIs are the usual first-line medications.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lifestyle modification and weight loss are typically the first, least aggressive approaches",
+     "quote": "Lifestyle modification and weight loss are typically the first and least aggressive approaches for many patients.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://www.auadailynews.org/meeting-coverage/article/22967056/updated-bph-guidelines-focus-on-patients-not-procedures",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 7,
+   "kind": "other_web",
+   "cited_as": "New 2026 AUA Management of LUTS Attributed to BPH Guideline. Guideline Central Insights. Undated.",
+   "version_or_date": "No date shown on page; accessed 2026-11-15",
+   "retrieved_with": "WebFetch of guidelinecentral.com page",
+   "notes": "No AI-use restriction notice found. Original cited date May 22, 2026 is not shown on the page and was removed.",
+   "claims": [
+    {
+     "text": "Patient counseling and shared decision-making are cornerstones of all three parts",
+     "quote": "Overall, patient counseling and shared decision making are cornerstones of all three parts.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://www.guidelinecentral.com/insights/may-2026-aua-lowerurinarysymptomsbenignprostatichyperplasia-guideline-spotlight/",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "pmid": "41667130",
+   "pmcid": "PMC12962842",
+   "doi": "10.1111/bju.70163",
+   "cited_as": "Lee SW, Lee SH, Kim JH, et al. Combined therapy with dutasteride and tadalafil vs dutasteride or tadalafil monotherapy in benign prostatic hyperplasia: a randomised phase III trial. BJU Int. 2026;137(4):698-707.",
+   "record_title": "Combined therapy with dutasteride and tadalafil vs dutasteride or tadalafil monotherapy in benign prostatic hyperplasia: a randomised phase III trial.",
+   "record_journal": "BJU Int",
+   "record_year": "2026",
+   "article_type": "Randomized Controlled Trial; Clinical Trial, Phase III; Multicenter Study",
+   "retrieved_with": "PubMed get_article_metadata (abstract and record fields); Scite verify_papers; PubMed convert_article_ids",
+   "notes": "Previously cited as support for a tadalafil-finasteride combination it did not test; now described as a dutasteride trial only.",
+   "claims": [
+    {
+     "text": "Phase III RCT, 667 men, dutasteride 0.5 mg + tadalafil 5 mg FDC vs each alone for 48 weeks; no finasteride or alpha blocker arm",
+     "quote": "This phase III trial enrolled 667 patients. ... randomised (1:1:1) to receive FDC dutasteride 0.5 mg/tadalafil 5 mg (FDC 0.5/5 mg), dutasteride 0.5 mg, or tadalafil 5 mg for 48 weeks.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "IPSS change -9.49 vs -4.40 (difference -5.09) and -9.53 vs -4.24 (difference -5.29), both P<0.001",
+     "quote": "-9.49 (0.37) for the FDC 0.5/5 mg group vs -4.40 (0.37) for dutasteride 0.5 mg group (LS mean difference [LSMD] -5.09 ... -9.53 (0.36) ... vs -4.24 (0.37) for tadalafil 5 mg group (LSMD -5.29 ... P < 0.001)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Side effects more common with combination (about 33% vs 21% and 26%)",
+     "quote": "treatment-emergent adverse events occurred in 32.88% (FDC 0.5/5 mg) vs 21.20% (dutasteride 0.5 mg) and 26.48% (tadalafil 5 mg)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12962842/",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "pmid": "39190306",
+   "pmcid": "PMC11350475",
+   "doi": "10.1001/jamanetworkopen.2024.30223",
+   "cited_as": "Hamilton RJ, Chavarriaga J, Khurram N, et al. 5-α Reductase Inhibitors and Prostate Cancer Mortality. JAMA Netw Open. 2024;7(8):e2430223.",
+   "record_title": "5-α Reductase Inhibitors and Prostate Cancer Mortality.",
+   "record_journal": "JAMA Netw Open",
+   "record_year": "2024",
+   "article_type": "Journal Article (population-based cohort study)",
+   "retrieved_with": "PubMed get_article_metadata (abstract and record fields); Scite verify_papers",
+   "notes": "Observational cohort of prediagnostic 5-ARI use in men 65+; the page no longer says it \"confirmed\" safety or that it studied men on active surveillance.",
+   "claims": [
+    {
+     "text": "Population-based cohort of 19,938 men aged 65+ in Ontario with localized prostate cancer; 5-ARI use before diagnosis",
+     "quote": "Eligible participants were men aged 65 years or older in Ontario, Canada, who developed clinically localized PCa ... The cohort included 19 938 patients with PCa.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Not associated with overall (HR 0.98; 0.90-1.07) or PCa-specific mortality (HR 1.02; 0.83-1.25)",
+     "quote": "5-ARI use was not associated with overall mortality (hazard ratio, 0.98; 95% CI, 0.90-1.07; P = .77) or PCa-specific mortality (hazard ratio, 1.02; 95% CI, 0.83-1.25; P = .84).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Study looked at use before diagnosis, not men on active surveillance",
+     "quote": "prediagnostic 5-ARI use was not associated with PCa-specific or all-cause mortality.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2822868",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "pmid": "40621239",
+   "pmcid": "PMC12228970",
+   "doi": "10.7759/cureus.85445",
+   "cited_as": "Akhtar OS, Singh V, Bhojani KA, et al. A Comprehensive Review of the Clinical Evidence on the Efficacy, Effectiveness, and Safety of Silodosin for the Treatment of Benign Prostatic Hyperplasia. Cureus. 2025;17(6):e85445.",
+   "record_title": "A Comprehensive Review of the Clinical Evidence on the Efficacy, Effectiveness, and Safety of Silodosin for the Treatment of Benign Prostatic Hyperplasia.",
+   "record_journal": "Cureus",
+   "record_year": "2025",
+   "article_type": "Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract and record fields); Scite verify_papers",
+   "notes": "No longer cited for \"alpha blockers are first-line\" (not in source) or for comparison with tamsulosin (not in abstract). Six of seven authors list Sun Pharmaceutical affiliations; disclosed on page.",
+   "claims": [
+    {
+     "text": "Review of 23 studies",
+     "quote": "The PubMed literature search identified 23 articles (clinical trials: n = 18; observational studies: n = 5)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Well tolerated across 21 safety studies; retrograde ejaculation/ejaculatory disorder 0.85% to 34.4%; minimal cardiovascular adverse events",
+     "quote": "Across 21 studies evaluating safety, silodosin was well-tolerated; the frequency of retrograde ejaculation/ejaculatory disorder ranged from 0.85% to 34.4%. Notably, the selective action of silodosin ... was associated with minimal cardiovascular adverse events.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Written mostly by authors affiliated with Sun Pharmaceutical",
+     "quote": "Medical Affairs and Clinical Research, Sun Pharmaceutical Industries Ltd., Mumbai, IND.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12228970/",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 11,
+   "kind": "label",
+   "cited_as": "CIALIS (tadalafil) tablets, film coated. Prescribing information. Eli Lilly and Company. Revised 3/2026. DailyMed.",
+   "version_or_date": "Highlights revised 3/2026; DailyMed updated June 3, 2026",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "notes": "Added in repair for dose and alpha-blocker caution.",
+   "claims": [
+    {
+     "text": "Once-daily dose for BPH is 5 mg",
+     "quote": "The recommended dose of CIALIS for once daily use is 5 mg, taken at approximately the same time every day.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "If started with finasteride, use recommended for up to 26 weeks",
+     "quote": "If CIALIS is used with finasteride to initiate BPH treatment, such use is recommended for up to 26 weeks",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Not recommended with alpha blockers for BPH: not adequately studied and risk of blood pressure lowering",
+     "quote": "CIALIS is not recommended for use in combination with alpha-blockers for the treatment of BPH ... because efficacy of the combination has not been adequately studied and because of the risk of blood pressure lowering.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nitrates in any form contraindicated",
+     "quote": "Concomitant use of nitrates in any form is contraindicated",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "FDA-approved for BPH symptoms and for ED with BPH",
+     "quote": "CIALIS is indicated for the treatment of the signs and symptoms of benign prostatic hyperplasia (BPH). ... CIALIS is indicated for the treatment of ED and the signs and symptoms of BPH (ED/BPH).",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 12,
+   "kind": "label",
+   "cited_as": "PROSCAR (finasteride) tablets, film coated. Prescribing information. Organon LLC. Revised 3/2026. DailyMed.",
+   "version_or_date": "Highlights revised 3/2026; DailyMed updated March 18, 2026",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "notes": "Added in repair for PSA effect and high-grade cancer warning.",
+   "claims": [
+    {
+     "text": "Finasteride lowers PSA by approximately 50%",
+     "quote": "PROSCAR reduces serum prostate specific antigen (PSA) levels by approximately 50%.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "May increase the risk of high-grade prostate cancer",
+     "quote": "PROSCAR may increase the risk of high-grade prostate cancer.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Labeled with doxazosin to reduce the risk of symptomatic BPH progression",
+     "quote": "PROSCAR administered in combination with the alpha-blocker doxazosin is indicated to reduce the risk of symptomatic progression of BPH",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 13,
+   "kind": "agency_page",
+   "cited_as": "National Institute of Diabetes and Digestive and Kidney Diseases. Enlarged Prostate (Benign Prostatic Hyperplasia). Last reviewed June 2024.",
+   "version_or_date": "Last Reviewed June 2024",
+   "retrieved_with": "WebFetch of official page",
+   "notes": "Added in repair for prevalence and red flags. No AI-use restriction notice.",
+   "claims": [
+    {
+     "text": "Affects 5% to 6% of men 40 to 64 and 29% to 33% of men 65 and older",
+     "quote": "Experts estimate that BPH affects 5% to 6% of men ages 40 to 64 and 29% to 33% of those ages 65 and older.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most common prostate problem in men older than 50",
+     "quote": "BPH is the most common prostate problem in men older than age 50.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Blood in urine: tell a health care professional right away",
+     "quote": "Tell a health care professional right away if you ... have blood in your urine",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Painful, frequent, urgent urination with fever and chills: tell a professional right away",
+     "quote": "feel painful, frequent, and urgent needs to urinate, and have a fever and chills",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Great discomfort or pain in lower abdomen or urinary tract",
+     "quote": "feel great discomfort or pain in your lower abdomen or urinary tract",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/prostate-problems/enlarged-prostate-benign-prostatic-hyperplasia",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 14,
+   "kind": "agency_page",
+   "cited_as": "National Institute of Diabetes and Digestive and Kidney Diseases. Definition & Facts of Urinary Retention. Last reviewed December 2019.",
+   "version_or_date": "Last Reviewed December 2019",
+   "retrieved_with": "WebFetch of official page",
+   "notes": "Added in repair to source the emergency advice for urinary retention.",
+   "claims": [
+    {
+     "text": "Acute urinary retention can cause severe pain and be life threatening",
+     "quote": "Acute urinary retention can cause severe pain and be life threatening.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Seek emergency medical treatment right away if suddenly unable to urinate",
+     "quote": "If you are suddenly unable to urinate, it’s important that you seek emergency medical treatment right away.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/urinary-retention/definition-facts",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 15,
+   "kind": "agency_page",
+   "cited_as": "National Institute of Diabetes and Digestive and Kidney Diseases. Treatment of Urinary Retention. Last reviewed December 2019.",
+   "version_or_date": "Last Reviewed December 2019",
+   "retrieved_with": "WebFetch of official page",
+   "notes": "Added in repair to source catheter drainage.",
+   "claims": [
+    {
+     "text": "A health care professional will immediately drain the bladder with a catheter",
+     "quote": "With acute urinary retention, a health care professional will immediately drain the urine from your bladder using a catheter.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/urinary-retention/treatment",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  }
+ ]
+}

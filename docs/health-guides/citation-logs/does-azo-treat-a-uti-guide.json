@@ -1,0 +1,632 @@
+{
+ "guide": "does-azo-treat-a-uti-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 6 DOIs verified (Gupta 2011, Wilson 2004, Onder 2006, Khan 2023, Gronich 2024, plus Hooton 2012 which was cut), retractions: none; no expressions of concern; one contrasting citation flagged for Gupta 2011 (antibiotic choice, not cited for that here). Colgan 2011, Simerville 2005 and Kurotschka 2024 (AFP, no DOI) could not be matched by Scite; identity confirmed via PubMed records and AAFP pages. PubMed article types checked: no Retracted Publication or Retraction Notice.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "label",
+   "cited_as": "DailyMed (National Library of Medicine). AZO Urinary Pain Relief Maximum Strength (phenazopyridine hydrochloride 99.5 mg) tablet, i-Health, Inc. Drug Facts label and patient insert. Updated November 17, 2025. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b4874fe2-d98b-4b5c-baad-d75070947842",
+   "version_or_date": "Updated November 17, 2025 (version 11, published November 26, 2025)",
+   "retrieved_with": "WebFetch of DailyMed SPL page (setid b4874fe2-d98b-4b5c-baad-d75070947842); exact sentences requested and returned",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces old ref 4, a DailyMed search-results page listing many labels. Marketing category on DailyMed: unapproved drug (OTC). Not a journal; no DOI.",
+   "claims": [
+    {
+     "text": "Phenazopyridine (AZO) is a urinary tract analgesic that relieves urinary pain, burning, urgency and frequency of UTIs",
+     "quote": "Urinary tract analgesic ... Relief from urinary pain, burning, urgency and frequency associated with urinary tract infections.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not use more than 2 days (12 tablets) without consulting a doctor",
+     "quote": "Do not use for more than 2 days (12 tablets) without consulting a doctor.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Stop use and ask a doctor if symptoms last more than 2 days (red flag: symptoms lasting beyond 2 days)",
+     "quote": "your symptoms last for more than 2 days",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Adults take 2 tablets 3 times daily with or after meals as needed for up to two days",
+     "quote": "Adults and children 12 years and older: Take 2 tablets 3 times daily with or after meals as needed for up to two days.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Urine turns reddish-orange",
+     "quote": "your urine will become reddish-orange in color.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Can interfere with laboratory tests including urine tests",
+     "quote": "This product can interfere with laboratory tests including urine, glucose (sugar), and ketones tests",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not use with G6PD deficiency unless physician approves",
+     "quote": "Do not use if you have Glucose-6-Phosphate Dehydrogenase (G6PD) deficiency unless approved by your physician.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pregnant or breastfeeding: ask a health professional before use",
+     "quote": "If pregnant or breastfeeding, ask a professional before use.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ask a doctor before use with kidney disease (how-long table)",
+     "quote": "Ask a doctor before use if you have ... kidney disease",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Package insert: call your doctor to get diagnosed and obtain a prescription to treat the infection",
+     "quote": "you need to call your doctor to get diagnosed and obtain a prescription to treat the infection.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Not FDA-approved: label states FDA has not found it safe and effective and has not approved the labeling",
+     "quote": "This drug has not been found by FDA to be safe and effective, and this labeling has not been approved by FDA.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Can stain contact lenses",
+     "quote": "This product may stain soft contact lenses and other items if handled after touching tablets",
+     "quote_source": "label",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Drug Information. Phenazopyridine. US National Library of Medicine. Last revised February 15, 2018. Accessed November 15, 2026.",
+   "url": "https://medlineplus.gov/druginfo/meds/a682231.html",
+   "version_or_date": "Last revised February 15, 2018",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New. NLM consumer drug monograph.",
+   "claims": [
+    {
+     "text": "Phenazopyridine is not an antibiotic and does not cure infections",
+     "quote": "However, phenazopyridine is not an antibiotic; it does not cure infections.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Relieves urinary pain, burning and urgent, frequent urination from UTIs",
+     "quote": "Phenazopyridine relieves urinary tract pain, burning, irritation, and discomfort, as well as urgent and frequent urination caused by urinary tract infections",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Urine color change is harmless",
+     "quote": "Your urine may turn a red-orange or brown; this effect is harmless.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Stains clothing and contact lenses",
+     "quote": "Phenazopyridine stains clothing and contact lenses.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tell lab staff and clinician before tests",
+     "quote": "Before you have any tests, tell the laboratory personnel and doctor that you take this medication.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Call doctor right away for yellow skin/eyes, bluish skin, shortness of breath, confusion, fever, decreased urine",
+     "quote": "If you experience any of the following symptoms, call your doctor immediately: yellowing of the skin or eyes; fever; confusion; skin discoloration (blue to bluish-purple); shortness of breath ... sudden decrease in the amount of urine",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. Urinary Tract Infection Basics. Reviewed September 22, 2026. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/uti/about/index.html",
+   "version_or_date": "Reviewed and updated September 22, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New. Supports antibiotic statement and red-flag symptoms.",
+   "claims": [
+    {
+     "text": "Antibiotics treat UTIs",
+     "quote": "Antibiotics treat UTIs.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Kidney infection symptoms: fever, chills, back or side pain, nausea or vomiting (red flags)",
+     "quote": "Fever; Chills; Lower back pain or pain in the side of your back; Nausea or vomiting",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Visible blood is a UTI symptom warranting care",
+     "quote": "Bloody urine",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "See a professional for any symptom that is severe or concerning",
+     "quote": "See a healthcare professional if you or your child has one or more symptoms of a UTI ... or for any symptom that is severe or concerning.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "label",
+   "cited_as": "DailyMed (National Library of Medicine). Phenazopyridine hydrochloride tablet prescribing label (Bryant Ranch Prepack; manufactured for Westminster Pharmaceuticals, LLC). Marketing category: unapproved drug other. Updated January 4, 2024. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=24786685-978b-4485-995a-2964802bc262",
+   "version_or_date": "Updated January 4, 2024 (DailyMed page date)",
+   "retrieved_with": "WebFetch of DailyMed SPL page (setid 24786685-978b-4485-995a-2964802bc262), found via web search; exact sentences requested and returned in consecutive pieces",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New. Prescription phenazopyridine 100 mg / 200 mg label (marketing category: unapproved drug other). Primary source for pregnancy, nursing, contraindications, warnings, adverse reactions and the 2-day limit, replacing the StatPearls chapter (old ref 3), which was blocked by a bot check on NCBI Bookshelf this run.",
+   "claims": [
+    {
+     "text": "Compatible with antimicrobial therapy; relieves pain during the interval before the antibiotic controls the infection",
+     "quote": "Phenazopyridine Hydrochloride is compatible with antimicrobial therapy and can help relieve pain and discomfort during the interval before antimicrobial therapy controls the infection.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "With an antibacterial for UTI, should not exceed 2 days",
+     "quote": "When used concomitantly with an antibacterial agent for the treatment of a urinary tract infection, the administration of Phenazopyridine Hydrochloride should not exceed 2 days.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "No evidence combination beats antibiotic alone after 2 days",
+     "quote": "There is no evidence that the combined administration of Phenazopyridine Hydrochloride and an antimicrobial provides greater benefit than administration of the antimicrobial alone after 2 days.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Topical analgesic effect on urinary tract lining; mechanism unknown",
+     "quote": "Phenazopyridine hydrochloride is excreted in the urine where it exerts a topical analgesic effect on the mucosa of the urinary tract. ... The precise mechanism of action is unknown.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "For symptomatic relief, not a substitute for antimicrobial therapy; should not delay diagnosis and treatment",
+     "quote": "The drug should be used for symptomatic relief of pain and not as a substitute for specific surgery or antimicrobial therapy. ... should not delay definitive diagnosis and treatment of causative conditions.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Not FDA-approved (label statement)",
+     "quote": "This drug has not been found by FDA to be safe and effective, and this labeling has not been approved by FDA.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "May mask pathological conditions; interferes with colorimetric, photometric or fluorometric lab tests",
+     "quote": "Phenazopyridine Hydrochloride may mask pathological conditions and interfere with laboratory test values using colorimetric, spectrophotometric or fluorometric analysis methods.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prescription tablets come in 100 mg and 200 mg",
+     "quote": "100 mg Tablets: Average adult dosage is two tablets 3 times a day after meals. 200 mg Tablets: Average adult dosage is one tablet 3 times a day after meals.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Contraindicated in renal insufficiency, severe liver disease, severe hepatitis, pyelonephritis of pregnancy",
+     "quote": "Phenazopyridine Hydrochloride is contraindicated in patients with renal insufficiency, severe liver disease, severe hepatitis or pyelonephritis of pregnancy.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pregnancy category B; no harm to offspring in animal studies; crosses placenta; no adequate studies; use only if benefit clearly outweighs risk",
+     "quote": "Pregnancy Category B ... revealed no evidence of harm to offspring. One prospective study in humans demonstrated that Phenazopyridine Hydrochloride traverses the placenta into the fetal compartment. ... only if the benefit clearly outweighs the risk.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Unknown whether excreted in milk; decide to stop nursing or the drug",
+     "quote": "It is not known whether Phenazopyridine Hydrochloride or its metabolites are excreted in human milk. ... a decision should be made to discontinue nursing or to discontinue the drug",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Take with or after food to reduce stomach upset",
+     "quote": "The patient should be advised to take Phenazopyridine Hydrochloride with or following food or after eating a snack to reduce stomach upset.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Reported adverse effects: headache, rash, itching, nausea, vomiting, diarrhea",
+     "quote": "CNS: headache. Gastrointestinal: nausea, vomiting and diarrhea. Dermatologic and Hypersensitivity: rash, pruritus, discoloration, anaphylactoid-like reaction and hypersensitivity hepatitis.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Yellow skin or sclera may indicate accumulation from impaired renal function; requires stopping the drug",
+     "quote": "A yellowish color of the skin or sclera may indicate accumulation of Phenazopyridine Hydrochloride resulting from impaired renal function and necessitates discontinuance of the drug.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Renal function commonly declines with age",
+     "quote": "It should be noted that a decline in renal function is common in elderly patients.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Serious effects: methemoglobinemia, hemolytic anemia; renal and hepatic toxicity usually with overdose",
+     "quote": "Hematologic: methemoglobinemia, hemolytic anemia, potential hemolytic agent in G-6-PD deficiency, sulfhemoglobinemia. ... renal and hepatic toxicity usually associated with overdose",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "G6PD deficiency: susceptible to oxidative hemolysis",
+     "quote": "Cautious use in patients with G-6-PD deficiency is advised since these patients are susceptible to oxidative hemolysis and may have greater potential to develop hemolytic anemia.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Underlying cause should be assessed first in men (symptom relief should not delay diagnosis)",
+     "quote": "should not delay definitive diagnosis and treatment of causative conditions.",
+     "quote_source": "label",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Without an antibiotic AZO is only masking the problem",
+     "quote": "Phenazopyridine Hydrochloride may mask pathological conditions",
+     "quote_source": "label",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "agency_page",
+   "cited_as": "National Institute of Diabetes and Digestive and Kidney Diseases. Symptoms & Causes of Kidney Infection (Pyelonephritis). Last reviewed October 2024. Accessed November 15, 2026.",
+   "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-infection-pyelonephritis/symptoms-causes",
+   "version_or_date": "Last reviewed October 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New. Supports kidney-infection red flags, seek-care-right-away advice, and untreated infection spreading.",
+   "claims": [
+    {
+     "text": "Untreated bladder infection can spread to one or both kidneys",
+     "quote": "If a bladder infection isn’t treated or doesn’t go away, it can spread to one or both kidneys.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Kidney infection symptoms include fever and chills, bloody urine, back or side pain, nausea or vomiting",
+     "quote": "fever and chills; cloudy, dark, bloody, or foul-smelling urine; frequent, painful urination; pain in your back, side, or groin; nausea or vomiting",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Seek care right away for kidney infection symptoms (red flags override AZO)",
+     "quote": "Seek care right away if you have kidney infection symptoms.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "other_web",
+   "cited_as": "AZO (i-Health, Inc.). AZO Urinary Pain Relief Maximum Strength Tablets product page. Manufacturer statements and claims. Accessed November 15, 2026.",
+   "url": "https://azoproducts.com/products/azo-urinary-pain-relief-maximum-strength-tablets",
+   "version_or_date": "Page read November 15, 2026 (no page date shown)",
+   "retrieved_with": "WebFetch of manufacturer product page, found via web search",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New. Manufacturer statements and claims, used only for product facts (strength, onset claim, dye) and the manufacturer statement that antibiotics are the cure. Onset is labeled as the manufacturer claim in the text.",
+   "claims": [
+    {
+     "text": "Manufacturer says it starts working in as little as 20 minutes",
+     "quote": "Starts working in as little as 20 minutes",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Manufacturer: the only clinically proven cure for a UTI is a prescription antibiotic",
+     "quote": "The only clinically proven cure for a UTI is a prescription antibiotic.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Active ingredient is a dye; urine color is normal and not harmful",
+     "quote": "your urine will become reddish-orange in color. This is not harmful ... This is normal as the active ingredient is an organic dye.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "99.5 mg per tablet",
+     "quote": "With a powerful 99.5mg dose of active ingredient per tablet",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Kurotschka PK, Gágyor I, Ebell MH. Acute Uncomplicated UTIs in Adults: Rapid Evidence Review. Am Fam Physician. 2024;109(2):167-174. PMID: 38393801.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38393801/",
+   "pmid": "38393801",
+   "record_title": "Acute Uncomplicated UTIs in Adults: Rapid Evidence Review.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2024",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of aafp.org article page (partial, key recommendations table visible)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New. No DOI in PubMed record; Scite verify_papers could not match the reference text (AFP articles often lack DOIs), identity confirmed by PubMed. Replaces old refs for antibiotic choices and men.",
+   "claims": [
+    {
+     "text": "First-line antibiotics: nitrofurantoin, fosfomycin, trimethoprim-sulfamethoxazole; course from a single dose to 5 days in women",
+     "quote": "First-line antibiotics include nitrofurantoin for five days, fosfomycin in a single dose, trimethoprim for three days, or trimethoprim/sulfamethoxazole for three days.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Men: consider urethritis and prostatitis",
+     "quote": "Clinicians should also consider the possibility of urethritis and prostatitis in men with UTI symptoms.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Men with lower UTI symptoms should receive antibiotics, culture-guided; seven days",
+     "quote": "Men with lower UTI symptoms should always receive antibiotics, with urine culture and susceptibility results guiding the antibiotic choice. ... nitrofurantoin for seven days.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Uncomplicated UTI excludes pregnancy and immunocompromise (callout: pregnancy, immune suppression need same-day advice)",
+     "quote": "no sign of systemic illness or pyelonephritis in a noncatheterized, nonpregnant adult with no urologic abnormalities or immunocompromise.",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Symptoms that worsen at any time need reassessment (callout: worsening symptoms)",
+     "quote": "if symptoms do not improve within 48 to 72 hours or worsen at any time",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Clinician can discuss prevention options for recurrent UTI",
+     "quote": "Increased fluids, intake of cranberry products, and methenamine hippurate can prevent recurrent infections.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "Colgan R, Williams M. Diagnosis and treatment of acute uncomplicated cystitis. Am Fam Physician. 2011;84(7):771-776. PMID: 22010614.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22010614/",
+   "pmid": "22010614",
+   "record_title": "Diagnosis and treatment of acute uncomplicated cystitis.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2011",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of full text at aafp.org/pubs/afp/issues/2011/1001/p771.html",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "No DOI in record; Scite could not match the AFP reference, identity confirmed via PubMed and AAFP full text. AAFP notes a newer 2024 article on the topic (cited as ref 7). The full text does not mention phenazopyridine.",
+   "claims": [
+    {
+     "text": "On average symptom relief within 36 hours of starting antibiotic treatment",
+     "quote": "On average, patients will begin noting symptom relief within 36 hours of beginning treatment.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "UTIs in men are usually complicated",
+     "quote": "Urinary tract infections in men are usually complicated.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. Urinary tract infection - adults. US National Library of Medicine. Review date July 22, 2026. Accessed November 15, 2026.",
+   "url": "https://medlineplus.gov/ency/article/000521.htm",
+   "version_or_date": "Review date July 22, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New. Does not mention phenazopyridine.",
+   "claims": [
+    {
+     "text": "Finish the antibiotic course even if you feel better",
+     "quote": "Finish all of your antibiotics, even if you feel better.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Contact provider right away for signs of kidney infection (fever, side/back pain, nausea and vomiting)",
+     "quote": "Contact your provider right away if you have signs of a possible kidney infection, such as: ... Fever above 101°F (38.3°C) ... Pain in the side, back, or groin ... Nausea and vomiting",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Simerville JA, Maxted WC, Pahira JJ. Urinalysis: a comprehensive review. Am Fam Physician. 2005;71(6):1153-1162. PMID: 15791892.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15791892/",
+   "pmid": "15791892",
+   "record_title": "Urinalysis: a comprehensive review.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2005",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of full text at aafp.org/afp/2005/0315/p1153.html (Tables 1 and 2)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "No DOI in record; Scite could not match the AFP reference, identity confirmed via PubMed and AAFP full text. Previously cited for men's urinary symptoms, which it does not address; now cited for phenazopyridine dipstick interference.",
+   "claims": [
+    {
+     "text": "Phenazopyridine causes false-positive dipstick results for nitrite, bilirubin, protein, urobilinogen",
+     "quote": "Bilirubin: Phenazopyridine (Pyridium) ... Nitrites: Contamination, exposure of dipstick to air, phenazopyridine ... Protein: Alkaline or concentrated urine, phenazopyridine ... Urobilinogen: Elevated nitrite levels, phenazopyridine",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Phenazopyridine colors urine orange",
+     "quote": "Orange: Phenothiazines, phenazopyridine (Pyridium)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "guideline",
+   "cited_as": "Gupta K, Hooton TM, Naber KG, et al. International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: A 2010 update by the Infectious Diseases Society of America and the European Society for Microbiology and Infectious Diseases. Clin Infect Dis. 2011;52(5):e103-e120. doi:10.1093/cid/ciq257. PMID: 21292654.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21292654/",
+   "pmid": "21292654",
+   "doi": "10.1093/cid/ciq257",
+   "record_title": "International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: A 2010 update by the Infectious Diseases Society of America and the European Society for Microbiology and Infectious Diseases.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2011",
+   "article_type": "Journal Article; Practice Guideline; Research Support, Non-U.S. Gov't; Review",
+   "version_or_date": "2010 update, published March 1, 2011",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only; cited only for its scope statement. Scite flagged one contrasting citation (10.3855/jidc.8124) about first-line antibiotic choice under local resistance; the page does not cite this guideline for drug choice. Previously cited for red flags and antibiotic-only claims that the abstract does not state; those now cite CDC, NIDDK, MedlinePlus and Kurotschka.",
+   "claims": [
+    {
+     "text": "Pregnancy falls outside uncomplicated cystitis covered by the IDSA guideline",
+     "quote": "diagnoses limited in these guidelines to premenopausal, non-pregnant women with no known urological abnormalities or co-morbidities.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "journal",
+   "cited_as": "Onder AM, Espinoza V, Berho ME, Chandar J, Zilleruelo G, Abitbol C. Acute renal failure due to phenazopyridine (Pyridium) overdose: case report and review of the literature. Pediatr Nephrol. 2006;21(11):1760-1764. doi:10.1007/s00467-006-0196-1. PMID: 16897003.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16897003/",
+   "pmid": "16897003",
+   "doi": "10.1007/s00467-006-0196-1",
+   "record_title": "Acute renal failure due to phenazopyridine (Pyridium) overdose: case report and review of the literature.",
+   "record_journal": "Pediatr Nephrol",
+   "record_year": "2006",
+   "article_type": "Case Reports; Journal Article; Review",
+   "retrieved_with": "PubMed search_articles and get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New. Case report with literature review; cited only for the association statement in the abstract.",
+   "claims": [
+    {
+     "text": "Phenazopyridine associated with hemolytic anemia, methemoglobinemia and acute kidney failure, especially with preexisting kidney disease",
+     "quote": "It has been associated with yellow skin discoloration, hemolytic anemia, methemoglobinemia, and acute renal failure, especially in patients with preexisting kidney disease.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "journal",
+   "cited_as": "Khan O, Uddin SMM, Atuaka C, et al. Syncope Following Treatment of UTI: A Case of Acute Hemolytic Anemia, Methemoglobinemia and Acute Renal Dysfunction Following Phenazopyridine Use in a Patient With G6PD Deficiency. J Community Hosp Intern Med Perspect. 2023;13(1):54-57. doi:10.55729/2000-9666.1144. PMID: 36817304.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36817304/",
+   "pmid": "36817304",
+   "pmcid": "PMC9924616",
+   "doi": "10.55729/2000-9666.1144",
+   "record_title": "Syncope Following Treatment of UTI: A Case of Acute Hemolytic Anemia, Methemoglobinemia and Acute Renal Dysfunction Following Phenazopyridine Use in a Patient With G6PD Deficiency.",
+   "record_journal": "J Community Hosp Intern Med Perspect",
+   "record_year": "2023",
+   "article_type": "Case Reports; Journal Article",
+   "retrieved_with": "PubMed search_articles and get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New. Single case report; cited only for its statement on rarity and the historical association.",
+   "claims": [
+    {
+     "text": "Hemolysis/methemoglobinemia in G6PD deficiency with phenazopyridine is rare: only a few cases in 60 years",
+     "quote": "Historically, phenazopyridine has been associated with causing methemoglobinemia and triggering hemolysis in G6PD deficient individuals. However, only a few cases have been reported in the last 60 years, making it a very rare occurrence.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "journal",
+   "cited_as": "Gronich N, Rosh B, Stein N, Saliba W. Medications and Acute Hemolysis in G6PD-Deficient Patients - A Real-World Study. Clin Pharmacol Ther. 2024;116(6):1537-1543. doi:10.1002/cpt.3333. PMID: 38842030.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38842030/",
+   "pmid": "38842030",
+   "doi": "10.1002/cpt.3333",
+   "record_title": "Medications and Acute Hemolysis in G6PD-Deficient Patients - A Real-World Study.",
+   "record_journal": "Clin Pharmacol Ther",
+   "record_year": "2024",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed search_articles and get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New. Observational database study (Clalit Health Services, Israel); described as an observational health-records study, not a trial. Added as counter-evidence so the page does not overstate G6PD risk; the label advice is kept.",
+   "claims": [
+    {
+     "text": "Hundreds to thousands of G6PD-deficient patients prescribed phenazopyridine without major hemolysis",
+     "quote": "hundreds/thousands of G6PD-deficient patients had been prescribed safely ciprofloxacin, glibenclamide, ofloxacin, phenazopyridine, sulfamethoxazole/cotrimoxazole",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "journal",
+   "cited_as": "Wilson ML, Gaido L. Laboratory diagnosis of urinary tract infections in adult patients. Clin Infect Dis. 2004;38(8):1150-1158. doi:10.1086/383029. PMID: 15095222.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15095222/",
+   "pmid": "15095222",
+   "doi": "10.1086/383029",
+   "record_title": "Laboratory diagnosis of urinary tract infections in adult patients.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2004",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. Previously cited for a phenazopyridine and urine-culture claim it does not make (claim cut); now cited for culture indications in recurrent UTI.",
+   "claims": [
+    {
+     "text": "Urine culture is necessary for recurrent UTIs, treatment failures, complicated UTIs",
+     "quote": "it is necessary for outpatients who have recurrent UTIs, experience treatment failures, or have complicated UTIs",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

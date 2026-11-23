@@ -1,0 +1,658 @@
+{
+  "guide": "chronic-conditions-visiting-parents-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 7 verified, retractions: none (no retraction, expression of concern or withdrawal notices on any of the 7 journal DOIs; 2 potential contrasting citations flagged, see refs 4 and 10)",
+  "pubmed_article_type_check": "No 'Retracted Publication' or 'Retraction Notice' type on PMIDs 31692635, 33098260, 21149757, 34165382, 33801406, 25694412; Chandran 2003 has no PubMed record (DOI verified in Scite).",
+  "references": [
+    {
+      "n": 1,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Travelers with Chronic Illnesses. CDC Yellow Book 2026.",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travelers-with-additional-considerations/travelers-with-chronic-illnesses.html",
+      "version_or_date": "Last reviewed May 19, 2026; last updated May 19, 2026",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Pre-travel consultation before paying for non-refundable trips and at least 4 to 6 weeks before departure",
+          "quote": "seek pre-travel consultation before paying for non-refundable trips ... at least 4–6 weeks before departure.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Chronic conditions should be controlled and managed optimally before travel",
+          "quote": "ensure that the travelers' chronic conditions are controlled and managed optimally.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Medication for the entire trip plus extra for delays",
+          "quote": "ensure that the traveler has medications for the entire trip plus extra in case of unexpected delays.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "All medications in carry-on (hand) luggage, not checked bags",
+          "quote": "All medications should be carried in hand luggage rather than in checked baggage.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Medications in original containers",
+          "quote": "bring all necessary medications and medical supplies (e.g., pouching for ostomies) in their original containers.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Letter on letterhead outlining conditions and medications with generic names and doses",
+          "quote": "should be on office letterhead stationery and outline existing medical conditions, medications prescribed (including generic names and doses)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Discuss when to take medications if travel crosses time zones",
+          "quote": "discuss when to take medications if travel involves changes in time zones.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "For travel of 4 hours or more, discuss need for anticoagulation with treating specialist",
+          "quote": "traveler should discuss need for anticoagulation with treating specialist.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "guideline",
+      "cited_as": "McClean KL; CATMAT. Statement on Older Travellers. Can Commun Dis Rep. 2011;37(ACS-2):1-24.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31692635/",
+      "pmid": "31692635",
+      "pmcid": "PMC6802445",
+      "doi": "10.14745/ccdr.v37i00a02",
+      "record_title": "Statement on Older Travellers: Committee to Advise on Tropical Medicine and Travel.",
+      "record_journal": "Can Commun Dis Rep",
+      "record_year": "2011",
+      "article_type": "Journal Article (PubMed); CATMAT advisory committee statement",
+      "version_or_date": "CCDR volume 37, ACS-2, July 2011 (PubMed); Scite lists issue ACS-1, April 2011. PubMed values used.",
+      "retrieved_with": "PubMed get_article_metadata (no abstract); PubMed get_full_text_article (empty); PMC web page showed a reCAPTCHA bot check (not bypassed); full text read with Scite read_fulltext (open access, CC BY) and Scite search_literature excerpts",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Link changed from the PMC page to the PubMed record that was retrieved. The previously quoted VTE recommendation (hosiery or enoxaparin for journeys over 3 hours) and the quoted claim that melatonin 'can shorten the duration of jet lag' were not found in the full text and were removed; the statement actually says melatonin cannot be routinely recommended.",
+      "claims": [
+        {
+          "text": "Older travellers should seek pre-travel advice early (graded B-III)",
+          "quote": "Older travellers should seek pre-travel advice early to allow for appropriate pre-travel assessments, address any active health issues, and make any necessary special preparations. BIII",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Chronic health conditions should be under optimal control prior to travel (B-III)",
+          "quote": "Chronic health conditions should be under optimal control prior to travel. BIII",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Older adults may be more susceptible to jet lag because of illness, medication, or sleep disorders",
+          "quote": "Older individuals may be more susceptible to the effects of jet lag than younger individuals due to underlying illness, medication, or primary sleep disorders.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Melatonin cannot be routinely recommended for jet lag because of lack of evidence of benefit",
+          "quote": "Melatonin cannot be routinely recommended as a means of mitigating the effects of jet lag because of lack of evidence of benefit.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Benzodiazepines should not be used for jet-lag sleep disruption in the elderly",
+          "quote": "Benzodiazepines should not be used as a treatment for jet lag related sleep disruption due to increased risk of adverse effects in the elderly, especially for first-time users.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Responses to melatonin vary widely; some users experience excessive drowsiness",
+          "quote": "Responses to melatonin are highly variable from person to person, and some users will experience excessive drowsiness.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Travel Health Kits. CDC Yellow Book 2026.",
+      "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/travel-health-kits.html",
+      "version_or_date": "Last reviewed April 23, 2025",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The phrase 'trade names vary widely' is not on the page and was removed.",
+      "claims": [
+        {
+          "text": "Carry a medication list using generic, not trade, names",
+          "quote": "regular medications (generic, not trade names), and allergies",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Carry a copy of the prescription for self-administered injectables such as insulin",
+          "quote": "If regularly self-administered injectable medication like insulin (carry copy of prescription)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Forst T, Choudhary P, Schneider D, Linetzky B, Pozzilli P. Diabetes Metab Res Rev. 2021;37(6):e3418.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8519070/",
+      "pmid": "33098260",
+      "pmcid": "PMC8519070",
+      "doi": "10.1002/dmrr.3418",
+      "record_title": "A practical approach to the clinical challenges in initiation of basal insulin therapy in people with type 2 diabetes.",
+      "record_journal": "Diabetes Metab Res Rev",
+      "record_year": "2021 (epub 2020)",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Opinion-style review on type 2 diabetes; one author is an Eli Lilly employee. Source thresholds are internally inconsistent (<=5 zones for short trips vs >=5 zones for long trips), which the guide now flags as borderline at exactly 5 zones. The source does not support any statement about oral medications; those were removed. It gives no arrival-day schedule; 'resume home dose next day' and 'consider skipping one basal dose' were removed. Scite verify_papers flagged one potential contrasting citation (10.2147/dmso.s446349, excerpt withheld by licence); not judged to bear on the travel rule.",
+      "claims": [
+        {
+          "text": "Short trips (about 5 zones or fewer, or under 3 days): keep watches on home time and take basal insulin as usual",
+          "quote": "For short duration trips (≤5 time zones or <3 days duration), patients should keep watches set to their local home time and continue to administer their basal insulin as usual.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "5 or more zones and stay longer than 3 days: about 4 percent adjustment per time zone crossed; 1 h is 4 percent of the day",
+          "quote": "staying in a different time zone longer than 3 days and taking long-acting basal insulin, travel requires a 4% adjustment to the insulin dose for each time zone traversed (1 h is 4% of the 24 h day)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Westward travel leads to missed doses (more insulin); eastward to excess doses (less insulin)",
+          "quote": "with westward travel resulting in missed doses and eastward travel resulting in excess doses.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Table 1 and chart values (+20, +36, +38, -28, -20, -38 percent) are 4 percent times the clock shift",
+          "quote": "travel requires a 4% adjustment to the insulin dose for each time zone traversed",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Bolk N, Visser TJ, Nijman J, Jongste IJ, Tijssen JG, Berghout A. Arch Intern Med. 2010;170(22):1996-2003.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21149757/",
+      "pmid": "21149757",
+      "doi": "10.1001/archinternmed.2010.436",
+      "record_title": "Effects of evening vs morning levothyroxine intake: a randomized double-blind crossover trial.",
+      "record_journal": "Arch Intern Med",
+      "record_year": "2010",
+      "article_type": "Journal Article; Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata (abstract only)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Abstract-only. Corrected: 105 enrolled, 90 analysed; total T3 (not free T3); year 2010 (guide had 2011 in one place); sixth author Berghout A added. Dosing-time details (30 min before breakfast, 2 h after dinner) are not in the abstract and were removed.",
+      "claims": [
+        {
+          "text": "105 patients enrolled, 90 completed; 3 months each arm, crossover",
+          "quote": "among 105 consecutive patients with primary hypothyroidism ... with a switch after 3 months ... Ninety patients completed the trial and were available for analysis.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Bedtime dosing gave lower TSH, higher free T4 and higher total T3",
+          "quote": "a decrease in thyrotropin level of 1.25 mIU/L ... an increase in free thyroxine level of 0.07 ng/dL ... and an increase in total triiodothyronine level of 6.5 ng/dL",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "No significant change in quality of life; bedtime improved thyroid hormone levels",
+          "quote": "Levothyroxine taken at bedtime significantly improved thyroid hormone levels. Quality-of-life variables and plasma lipid levels showed no significant changes with bedtime vs morning intake.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "agency_page",
+      "cited_as": "Riedy SM, Williams SG. Jet Lag Disorder. CDC Yellow Book 2026.",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-air-sea/jet-lag-disorder.html",
+      "version_or_date": "Last reviewed April 23, 2025",
+      "retrieved_with": "WebFetch of official page (three reads)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference. Replaces the BMJ Drug and Therapeutics Bulletin 'Melatonin for jet lag' item, whose body text was paywalled and could not be verified.",
+      "claims": [
+        {
+          "text": "Jet lag disorder: sleep disorder from rapid travel across time zones; symptoms",
+          "quote": "It can manifest as sleep disturbances, cognitive impairment, daytime sleepiness, general malaise,",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Westward travel is easier to adapt to; adaptation about 1.5 h/day westward and 1 h/day eastward",
+          "quote": "As such, westward travel is easier to adapt to than eastward travel, ... with an average rate of adaptation of 1.5 hrs/day for westward travel and 1 hr/day for eastward travel",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "AASM guidelines list timed melatonin among standard treatments for jet lag disorder in frequent travelers",
+          "quote": "In the American Academy of Sleep Medicine (AASM) clinical practice guidelines for circadian rhythm sleep disorders, standard treatment for jet lag disorder in frequent travelers includes Timed melatonin administration",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "0.5 to 1 mg often sufficient; doses above 5 mg not recommended",
+          "quote": "Melatonin dosages vary, but 0.5–1 mg is often sufficient to produce a circadian shift. ... It is not recommended to take high-dose melatonin (>5mg)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "For eastward travel, take melatonin before bedtime at destination",
+          "quote": "Take melatonin prior to bedtime (there is limited data on how melatonin interacts with other medications)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Not FDA regulated; content may differ from label; limited interaction data",
+          "quote": "because melatonin is not regulated by the Food and Drug Administration there is the potential that the amount of melatonin may vary from what is printed on the label.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Air Travel. CDC Yellow Book 2026.",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-air-sea/air-travel.html",
+      "version_or_date": "Last reviewed April 23, 2025",
+      "retrieved_with": "WebFetch of official page (two reads)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "AsMA list of conditions to evaluate before travel",
+          "quote": "particularly in people with underlying cardiovascular disease, diabetes, chronic lung disease, mental illness, seizures, stroke, recent surgery, or a history of deep vein thrombosis or pulmonary embolism.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "journal",
+      "cited_as": "Chandran M, Edelman SV. Have Insulin, Will Fly. Clin Diabetes. 2003;21(2):82-85.",
+      "url": "https://diabetesjournals.org/clinical/article/21/2/82/571/Have-Insulin-Will-Fly-Diabetes-Management-During",
+      "doi": "10.2337/diaclin.21.2.82",
+      "record_title": "Have Insulin, Will Fly: Diabetes Management During Air Travel and Time Zone Adjustment Strategies",
+      "record_journal": "Clin Diabetes",
+      "record_year": "2003",
+      "article_type": "Journal article (no PubMed record found; DOI and title verified with Scite verify_papers)",
+      "retrieved_with": "WebFetch of publisher page (text and author bios); Scite verify_papers (DOI, title, year)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Volume, issue and pages taken from the original citation and consistent with the DOI string (diaclin.21.2.82); the publisher page did not display them. Quote trimmed to the parts read this run.",
+      "claims": [
+        {
+          "text": "East shortens the day, may need less insulin",
+          "quote": "Traveling east will shorten one's day, and, in general, may necessitate a reduction in insulin",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "West lengthens the day, insulin may need to be increased",
+          "quote": "In contrast, westward travel means a longer day, and so insulin doses may need to be increased",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "The westward-more, eastward-less rule may not always hold true",
+          "quote": "this seemingly simple and workable rule of 'westward = more insulin; eastward = less insulin' may not always hold true.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Adjustments generally unnecessary for fewer than five time zones",
+          "quote": "In general, adjustments to insulin doses are unnecessary if patients are crossing fewer than five time zones.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cargo-hold temperature changes may alter insulin potency",
+          "quote": "baggage stored in cargo holds can be subject to extreme temperature changes that may alter the potency of insulin.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Worked examples split the basal dose and resume the usual regimen after arrival",
+          "quote": "he can take half his usual glargine dose (12 units) ... The pre-travel regimen of 24 units of glargine at bedtime can be resumed on the third night (second night in London).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Test blood glucose at least every 4 to 6 hours while traveling",
+          "quote": "Even individuals who do not test frequently at home should test at least every 4–6 hours while traveling.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "journal",
+      "cited_as": "Mehta R, Goldenberg R, Katselnik D, Kuritzky L. Ann Med. 2021;53(1):998-1009.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8231382/",
+      "pmid": "34165382",
+      "pmcid": "PMC8231382",
+      "doi": "10.1080/07853890.2021.1925148",
+      "record_title": "Practical guidance on the initiation, titration, and switching of basal insulins: a narrative review for primary care.",
+      "record_journal": "Ann Med",
+      "record_year": "2021",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata; Scite search_literature full-text excerpts (open access, CC BY)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Scite lists pages 999-1010; PubMed pages 998-1009 used.",
+      "claims": [
+        {
+          "text": "Degludec gives a consistent insulin level for more than 24 h (about 42 h); dose may be taken at the usual time on the day of and after travel",
+          "quote": "longer-acting basal insulins that provide a consistent level of insulin for more than 24 h after a dose (e.g. 42 h for degludec) [ 25 ] may simply be able to take their daily dose at the usual time",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Detemir (about 24 h activity) may need timing adjustment",
+          "quote": "Patients on once-daily regimens with basal insulins, such as detemir, that only have clinical activity lasting ∼24 h [ 27 ] may need to adjust the timing of their dose around travel",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Twice-daily regimens on medium- and long-haul trips need more monitoring and timing adjustments",
+          "quote": "medium- and long-haul trips will lead to significant lengthening or shortening of the travel day, and potentially unusual mealtimes, which will require more frequent monitoring and adjustments to the timings of daily doses",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "A clinician letter may be needed to take injectables through airport security",
+          "quote": "Firstly, the patient may require a letter from their PCP to allow them to take their injectable medication through airport security.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "journal",
+      "cited_as": "Wiesner A, Gajewska D, Paśko P. Pharmaceuticals (Basel). 2021;14(3):206.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8002057/",
+      "pmid": "33801406",
+      "pmcid": "PMC8002057",
+      "doi": "10.3390/ph14030206",
+      "record_title": "Levothyroxine Interactions with Food and Dietary Supplements-A Systematic Review.",
+      "record_journal": "Pharmaceuticals (Basel)",
+      "record_year": "2021",
+      "article_type": "Journal Article; Review (systematic review per title)",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Scite verify_papers flagged one contrasting citation (10.3390/nu16030382) about vegetarian diet and hypothyroidism risk; it does not bear on the claims cited here.",
+      "claims": [
+        {
+          "text": "Limited evidence that coffee and calcium or iron supplements reduce absorption",
+          "quote": "We found limited evidence for l-T4 interactions with coffee, soy products, fiber, calcium or iron supplements, and enteral nutrition but interestingly they all resulted in decreased l-T4 absorption.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Morning and bedtime ingestion are equally effective",
+          "quote": "The results proved that l-T4 ingestion in the morning and at bedtime are equally effective",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Keep a time interval between levothyroxine and food, coffee, calcium or iron",
+          "quote": "Maintaining a proper time interval between l-T4 and food intake, especially for coffee and calcium, or iron supplements, provides another effective method of eliminating such interactions.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "journal",
+      "cited_as": "Geer M, Potter DM, Ulrich H. Am J Health Syst Pharm. 2015;72(5):373-377.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25694412/",
+      "pmid": "25694412",
+      "doi": "10.2146/ajhp140250",
+      "record_title": "Alternative schedules of levothyroxine administration.",
+      "record_journal": "Am J Health Syst Pharm",
+      "record_year": "2015",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract only)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Previous claim that subsequent RCTs and meta-analyses confirmed equivalence was overstated and was rewritten.",
+      "claims": [
+        {
+          "text": "Four studies with inconsistent results; one showed higher TSH with bedtime dosing",
+          "quote": "A literature search identified four published studies of bedtime levothyroxine dosing. ... one study showed an increase in TSH when levothyroxine was taken at bedtime versus one hour before breakfast",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Bedtime administration is an option for patients who want to avoid taking it with food",
+          "quote": "bedtime administration of levothyroxine is an option for patients with hypothyroidism who want to avoid taking their medication with food.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "other_web",
+      "cited_as": "American Thyroid Association. Hypothyroidism patient guide.",
+      "url": "https://www.thyroid.org/hypothyroidism/",
+      "version_or_date": "No page date shown; accessed 2026-11-15",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The 7-day half-life claim previously attributed here is not on the page; it now cites the FDA label (ref 13).",
+      "claims": [
+        {
+          "text": "Safe to make up a missed dose by a double dose the next day",
+          "quote": "It's safe to make up the missed dose by taking a double dose the next day.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "label",
+      "cited_as": "SYNTHROID (levothyroxine sodium) tablets prescribing information, AbbVie, DailyMed.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e11ad30-1041-4520-10b0-8f9d30d30fcc",
+      "version_or_date": "Revised 2/2024 (setid 1e11ad30-1041-4520-10b0-8f9d30d30fcc)",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference.",
+      "claims": [
+        {
+          "text": "Single daily dose on an empty stomach, one-half to one hour before breakfast",
+          "quote": "Administer SYNTHROID as a single daily dose, on an empty stomach, one-half to one hour before breakfast.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "At least 4 hours apart from calcium, iron, antacids",
+          "quote": "Administer SYNTHROID at least 4 hours before or after drugs known to interfere with SYNTHROID absorption. ... Instruct patients not to take SYNTHROID tablets within 4 hours of these agents.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "T4 half-life 6 to 7 days in euthyroid patients",
+          "quote": "Table 10 (Pharmacokinetic Parameters of Thyroid Hormones in Euthyroid Patients): levothyroxine (T4) t½ 6-7 days; footnote: 3 to 4 days in hyperthyroidism, 9 to 10 days in hypothyroidism.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Deep Vein Thrombosis and Pulmonary Embolism. CDC Yellow Book 2026.",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-air-sea/deep-vein-thrombosis-and-pulmonary-embolism.html",
+      "version_or_date": "Last reviewed April 23, 2025",
+      "retrieved_with": "WebFetch of official page (two reads)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference; replaces the unverifiable CATMAT VTE quotation.",
+      "claims": [
+        {
+          "text": "Risk negligible under 4 hours; magnitude correlates with duration and risk factors",
+          "quote": "For flights <4 hours, the risk of symptomatic VTE is negligible. ... Magnitude of risk correlates with duration of travel and with preexisting risk factors for VTE.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Risk factors include older age (after 40), previous VTE, recent surgery, active cancer, thrombophilia",
+          "quote": "Older age (increasing risk after age 40) ... Previous VTE ... Hospitalization, surgery, or trauma (recent) ... Cancer (active) ... Thrombophilia (inherited or acquired)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Below-knee GCS 15 to 30 mmHg for travelers at increased risk; weak recommendation",
+          "quote": "using properly fitted below-the-knee GCS that provide 15–30 mmHg of pressure at the ankle during travel.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "ASH advises against GCS, LMWH or aspirin for travelers without risk factors",
+          "quote": "For travelers without risk factors, ASH advises against using GCS, LMWH, or aspirin for VTE prophylaxis.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Frequent ambulation and calf exercises reasonable; aisle seats",
+          "quote": "recommending frequent ambulation and calf muscle exercises for long-distance travelers is reasonable. ... aisle seats are reported to have a protective effect compared with window or middle seats",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hydration reasonable but unproven; no direct evidence for avoiding alcohol",
+          "quote": "maintaining hydration is reasonable and unlikely to cause harm, but it cannot be recommended specifically to prevent travel-associated VTE. ... no direct evidence exists to support the concept that frequent hydration or avoiding alcoholic beverages has a protective effect.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Anticoagulants rather than aspirin when benefits outweigh harms",
+          "quote": "When the potential benefits of pharmacologic prophylaxis outweigh the possible adverse effects, anticoagulants rather than antiplatelet drugs (e.g., aspirin) are recommended.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most VTE within 1 to 2 weeks; baseline by 8 weeks",
+          "quote": "Risk decreases with time after air travel and returns to baseline by 8 weeks; ... most air travel-associated VTE occurs within the first 1–2 weeks after the flight.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "DVT signs; imaging needed for diagnosis",
+          "quote": "Typical signs or symptoms of DVT in the extremities include pain or tenderness, swelling, warmth in the affected area, ... Imaging studies are needed for diagnosis.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "other_web",
+      "cited_as": "American Heart Association. Understanding Blood Pressure Readings.",
+      "url": "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings",
+      "version_or_date": "No review date shown; accessed 2026-11-15",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference.",
+      "claims": [
+        {
+          "text": "Above 180/120: recheck after 5 minutes, contact clinician immediately if still high; 911 with symptoms",
+          "quote": "Wait five minutes after your first reading. ... If your readings are still unusually high, contact your health care professional immediately. ... Call 911 if your blood pressure is higher than 180/120 and you are having:",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Diabetic Ketoacidosis.",
+      "url": "https://www.cdc.gov/diabetes/about/diabetic-ketoacidosis.html",
+      "version_or_date": "Last reviewed December 15, 2023; updated May 15, 2024",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference.",
+      "claims": [
+        {
+          "text": "Test ketones at 250 mg/dL or above; ER if glucose stays 300+ or vomiting prevents keeping fluids down",
+          "quote": "If you have diabetes and you're sick or your blood sugar is 250 mg/dL or above ... Your blood sugar stays at 300 mg/dL or above. You are vomiting and can't keep food or drinks down.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "kind": "other_web",
+      "cited_as": "42 CFR 406.20, eCFR.",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-406/subpart-C/section-406.20",
+      "version_or_date": "eCFR Title 42 up to date as of 7/16/2026",
+      "retrieved_with": "WebFetch of eCFR (official federal regulation text)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference (primary regulation) for the Medicare FAQ.",
+      "claims": [
+        {
+          "text": "Premium Part A at 65 requires US residence and citizenship or LPR status with 5 years continuous residence",
+          "quote": "Has attained age 65; (2) Is a resident of the United States and is either— (i) A citizen of the United States; or (ii) An alien lawfully admitted for permanent residence who has resided in the United States continuously",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "kind": "agency_page",
+      "cited_as": "Drug Enforcement Administration. DEA Extends Telemedicine Flexibilities to Ensure Continued Access to Care. Dec 31, 2025.",
+      "url": "https://www.dea.gov/press-releases/2025/12/31/dea-extends-telemedicine-flexibilities-ensure-continued-access-care",
+      "version_or_date": "Press release dated December 31, 2025; read 2026-11-15",
+      "retrieved_with": "WebFetch of official DEA press release",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference; replaces the unsourced claim that controlled substances often require in-person urgent care. Moving rule: re-check at every refresh and after December 31, 2026.",
+      "claims": [
+        {
+          "text": "Telemedicine flexibilities for controlled medications extended through December 31, 2026, subject to DEA rules and federal and state law",
+          "quote": "extending the current telemedicine flexibilities through December 31, 2026.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

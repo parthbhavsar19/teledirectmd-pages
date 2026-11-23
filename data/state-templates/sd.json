@@ -1,0 +1,278 @@
+{
+  "stateCode": "SD",
+  "stateName": "South Dakota",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "rural",
+    "regulation": "standard",
+    "payerLandscape": "self-pay-only",
+    "epidemiology": [
+      "tick-dog-tick-spotted-fever",
+      "tularemia-outdoor",
+      "rabies-skunk-bat",
+      "sti-above-national-rate"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "midwest",
+    "voiceNotes": "Plain and practical for a rural-density state (11.7 people per square mile in 2020). South Dakota's telehealth chapter is short and specific, so quote it rather than summarize. Outdoor exposures (ticks, rabies in bats and skunks, tularemia) carry the condition pages."
+  },
+  "stateHero": {
+    "openingParagraph": "South Dakota adults who are physically in the state during the visit can see Parth Bhavsar, MD, a board-certified family medicine physician who holds a South Dakota medical license, by real-time video. South Dakota's telehealth chapter, SDCL 34-52, requires anyone treating a patient in the state by telehealth to be fully licensed here, and it calls for a face-to-face examination over live audio and video before diagnosis whenever an in-person encounter would otherwise be required. Every TeleDirectMD visit is live video, whether you are in Sioux Falls, Aberdeen, Pierre or Rapid City. The fee is a flat $79, paid at booking, with HSA and FSA cards accepted, and prescriptions go electronically to the pharmacy you pick.",
+    "conditionPageOpener": "Adults physically in South Dakota can book a live video visit with Parth Bhavsar, MD, a board-certified family medicine physician licensed in South Dakota. Flat $79, paid at booking. Prescriptions, when appropriate, go electronically to the South Dakota pharmacy you choose.",
+    "stateContextHint": "Licensed in South Dakota. Live video visits under the state's telehealth law, SDCL 34-52, for adults located in South Dakota. Flat $79 self-pay.",
+    "saturation": {
+      "stateNameMentions": 3,
+      "stateEntityMentions": 4
+    }
+  },
+  "stateEligibility": {
+    "intro": "TeleDirectMD sees adults 18 and older who are in South Dakota when the video visit takes place. South Dakota law (SDCL 34-52-3) asks a telehealth professional to verify and authenticate where the requesting patient is located, so expect to confirm your location at the start of each visit. The state defines telehealth broadly enough to include interactive audio-video (SDCL 34-52-1); TeleDirectMD uses live video only. A South Dakotan who is out of state on visit day can be seen only from South Dakota or another state TeleDirectMD serves.",
+    "localTriggers": [
+      "Where you are during the visit decides eligibility. SDCL 34-52-3 requires the professional to verify your location, so a home address in South Dakota is not enough if you are elsewhere that day.",
+      "Live video is the format. South Dakota requires a face-to-face examination using real-time audio and visual technology before diagnosis when an in-person encounter would otherwise be required (SDCL 34-52-5).",
+      "No controlled substances. SDCL 34-52-6 limits telehealth prescribing of controlled drugs, and TeleDirectMD does not prescribe them in any state.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "A TeleDirectMD visit for a patient in South Dakota is a flat $79, shown before you book and paid at booking. HSA and FSA cards are accepted, and medicine prescribed at the visit is paid at the pharmacy. TeleDirectMD does not bill insurance in South Dakota. For coverage questions, the South Dakota Department of Social Services runs South Dakota Medicaid, whose Medicaid Expansion adult group is open to adults ages 19 to 64 who meet its income limits; TeleDirectMD does not accept Medicaid. The department directs people who do not qualify to the Health Insurance Marketplace at HealthCare.gov.",
+    "additionalNotes": [
+      "$79 flat self-pay, the full visit fee.",
+      "HSA and FSA cards accepted at booking.",
+      "No insurance or Medicaid billing in South Dakota."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "When a prescription is appropriate, Dr. Bhavsar sends it electronically to the South Dakota pharmacy you choose. South Dakota's telehealth law draws a clear line on controlled drugs: without a proper provider-patient relationship, a professional using telehealth may not prescribe a controlled drug or substance solely in response to an internet questionnaire or consult, including a phone encounter (SDCL 34-52-6). TeleDirectMD does not prescribe controlled substances in South Dakota or anywhere else. The state runs a Prescription Drug Monitoring Program, with an advisory council that makes recommendations to the Board of Pharmacy, aimed at reducing misuse, abuse and diversion of controlled substances. SDCL 34-52-3 also lists a visit summary or consult note among the elements of a proper telehealth relationship.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "Outdoor exposure shapes several reasons South Dakota adults book a visit. The South Dakota Department of Health names the American dog tick as a carrier of tick-borne spotted fevers, and its tularemia guidance notes that hunters and others who spend much of their time outdoors face greater risk, with rabbits most often involved. Rabies stays on the list too: the department's 2024 surveillance report counted 12 animals that tested positive, 10 of them bats, and calls skunks the state's primary land reservoir. Flu is tracked weekly on a department dashboard that updates every Wednesday; the 2026 to 2027 season began the week ending October 10, 2026. This context is for awareness and does not replace an individual evaluation.",
+    "citations": [
+      {
+        "label": "South Dakota Codified Laws chapter 34-52, Telehealth Utilization by Health Care Professionals",
+        "url": "https://sdlegislature.gov/Statutes/34-52",
+        "scope": "all"
+      },
+      {
+        "label": "SDCL 34-52-3, Provider-patient relationship required",
+        "url": "https://sdlegislature.gov/Statutes/34-52-3",
+        "scope": "all"
+      },
+      {
+        "label": "SDCL 34-52-6, Prescribing drugs (telehealth)",
+        "url": "https://sdlegislature.gov/Statutes/34-52-6",
+        "scope": "all"
+      },
+      {
+        "label": "SDCL 36-4-1, State Board of Medical and Osteopathic Examiners",
+        "url": "https://sdlegislature.gov/Statutes/36-4-1"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, South Dakota (Vintage 2025 estimate)",
+        "url": "https://www.census.gov/quickfacts/fact/table/SD/PST045225"
+      },
+      {
+        "label": "South Dakota Department of Social Services, South Dakota Medicaid coverage groups",
+        "url": "https://dss.sd.gov/economicassistance/medical_programs.aspx",
+        "scope": "all"
+      },
+      {
+        "label": "South Dakota Department of Social Services, Medicaid eligibility changes (H.R. 1)",
+        "url": "https://dss.sd.gov/medicaid/HR1.aspx"
+      },
+      {
+        "label": "South Dakota Board of Pharmacy, PDMP Advisory Council",
+        "url": "https://doh.sd.gov/licensing-and-records/boards/pharmacy/prescription-drug-monitoring-program/pdmp-advisory-council/"
+      },
+      {
+        "label": "South Dakota Department of Health, Rabies",
+        "url": "https://doh.sd.gov/diseases/rabies",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "South Dakota Department of Health, Rabies Surveillance in South Dakota, 2024",
+        "url": "https://doh.sd.gov/media/r14dvmjw/annual-report-2024.pdf",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "South Dakota Department of Health, Tick-Borne Spotted Fevers",
+        "url": "https://doh.sd.gov/diseases/tick-borne-spotted-fevers",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "South Dakota Department of Health, Tularemia",
+        "url": "https://doh.sd.gov/diseases/tularemia",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "South Dakota Department of Health, Influenza Dashboard",
+        "url": "https://doh.sd.gov/health-data-reports/data-dashboards/influenza-dashboard/",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "South Dakota Department of Health, first two flu deaths of the 2025-2026 season (December 31, 2025)",
+        "url": "https://doh.sd.gov/sd-doh-press-releases/south-dakota-department-of-health-reports-first-two-flu-deaths-of-the-2025-2026-flu-season/",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "CDC, Chlamydia Reported Cases and Rates by State, Ranked by Rates, United States, 2023",
+        "url": "https://cdc.gov/sti-statistics/media/pdfs/2024/10/2023-STD-Surveillance-State-Ranking-Tables.pdf",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "CDC, Legal Status of EPT in South Dakota",
+        "url": "https://www.cdc.gov/sti/php/ept-legal-status/south-dakota.html",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "South Dakota Department of Health, SD QuitLine",
+        "url": "https://doh.sd.gov/programs/sd-quitline/",
+        "conditions": [
+          "smoking-cessation-treatment-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds a South Dakota medical license, issued by the South Dakota Board of Medical and Osteopathic Examiners. Under SDCL 36-4-1, the Governor appoints that board, whose members include nine licensed physicians and a representative of the public. South Dakota's telehealth law (SDCL 34-52-3) expects a telehealth professional to disclose and validate their identity and credentials, and anyone can confirm this license through the board's online licensee lookup. NPI: 1104323203.",
+    "verifyUrl": "https://www.sdbmoe.gov/sdbmoe-licensee-lookup/",
+    "statuteCitation": "South Dakota Codified Laws chapter 34-52 (Telehealth Utilization by Health Care Professionals); SDCL 36-4-1 (State Board of Medical and Osteopathic Examiners)",
+    "licenseNumber": "18273",
+    "boardName": "South Dakota Board of Medical and Osteopathic Examiners",
+    "boardUrl": "https://doh.sd.gov/licensing-and-records/boards/"
+  },
+  "stateCities": {
+    "metroAndRural": "TeleDirectMD sees adults anywhere in South Dakota, a state of 935,094 residents (U.S. Census Bureau, July 1, 2025 estimate) spread over 75,809.61 square miles of land, or 11.7 people per square mile in 2020. The same physician and the same flat $79 apply in Sioux Falls, Rapid City, Aberdeen, Brookings, Watertown, Mitchell, Yankton, Huron, Pierre, Spearfish, Vermillion and Brandon, and in the smaller South Dakota towns between them, as long as you are in the state during the visit.",
+    "cityList": [
+      {
+        "city": "Sioux Falls"
+      },
+      {
+        "city": "Rapid City"
+      },
+      {
+        "city": "Aberdeen"
+      },
+      {
+        "city": "Brookings"
+      },
+      {
+        "city": "Watertown"
+      },
+      {
+        "city": "Mitchell"
+      },
+      {
+        "city": "Yankton"
+      },
+      {
+        "city": "Huron"
+      },
+      {
+        "city": "Pierre"
+      },
+      {
+        "city": "Spearfish"
+      },
+      {
+        "city": "Vermillion"
+      },
+      {
+        "city": "Brandon"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "self-pay-only",
+    "selfPayDisclosure": "TeleDirectMD is self-pay only in South Dakota and does not bill commercial insurance, Medicare or South Dakota Medicaid. Each visit is a flat $79, paid at booking, and HSA and FSA cards are accepted. If you have a health plan, you can still book at $79 and ask your plan about out-of-network reimbursement; TeleDirectMD does not file claims and cannot promise reimbursement. Medicaid Expansion questions go to the South Dakota Department of Social Services, and marketplace plans are listed at HealthCare.gov.",
+    "payers": []
+  },
+  "stateFaqs": [
+    {
+      "question": "Can a doctor diagnose and prescribe over video in South Dakota?",
+      "answer": "Yes, within the rules of SDCL chapter 34-52. The professional must be fully licensed in South Dakota and must establish a proper provider-patient relationship, which includes verifying your location, disclosing credentials, obtaining consent and reaching a diagnosis through acceptable medical practices. When an in-person encounter would otherwise be needed, the law calls for a face-to-face exam by real-time audio and video first. TeleDirectMD visits are live video, and Dr. Bhavsar decides at the visit whether a prescription is appropriate."
+    },
+    {
+      "question": "Is Dr. Bhavsar licensed in South Dakota, and how can I check?",
+      "answer": "Yes. Parth Bhavsar, MD holds a South Dakota medical license, issued by the South Dakota Board of Medical and Osteopathic Examiners, the board created under SDCL 36-4-1. You can confirm the license yourself through the board's online licensee lookup. His National Provider Identifier is 1104323203."
+    },
+    {
+      "question": "Does TeleDirectMD take insurance or South Dakota Medicaid?",
+      "answer": "No. TeleDirectMD is self-pay only in South Dakota: a flat $79 per visit, paid at booking, with HSA and FSA cards accepted. It does not bill commercial plans, Medicare or South Dakota Medicaid. Adults 19 to 64 who meet income limits can ask the South Dakota Department of Social Services about the Medicaid Expansion adult group, and the department points others to the Health Insurance Marketplace at HealthCare.gov."
+    },
+    {
+      "question": "Can I get a controlled substance by video visit in South Dakota?",
+      "answer": "Not from TeleDirectMD. South Dakota law (SDCL 34-52-6) bars a professional using telehealth from prescribing a controlled drug or substance solely in response to an internet questionnaire or consult, including a phone encounter, without a proper provider-patient relationship. TeleDirectMD goes further and does not prescribe controlled substances in any state."
+    },
+    {
+      "question": "I was bitten by an animal in South Dakota. Is a video visit enough?",
+      "answer": "Sometimes. A small bite from a known, vaccinated pet can often be assessed by video. A bite from a wild animal, a stray, or an animal acting strangely needs in-person care for a rabies evaluation; the South Dakota Department of Health's 2024 rabies report advises seeing your physician immediately after a bite from a wild or suspect rabid animal, and 10 of the 12 rabid animals found in the state that year were bats."
+    },
+    {
+      "question": "I'm visiting South Dakota. Can I use TeleDirectMD?",
+      "answer": "Yes, if you are an adult who is physically in South Dakota during the visit. South Dakota law asks the telehealth professional to verify where the patient is located (SDCL 34-52-3), so you will confirm your location when the visit starts. The fee is the same flat $79, and a prescription, if appropriate, can go to a pharmacy near where you are staying."
+    }
+  ],
+  "conditionOverrides": {
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "The tick the South Dakota Department of Health singles out is the American dog tick, which it lists as a carrier of tick-borne spotted fevers; symptoms usually appear within two weeks of the bite. The department also names contact with fluids from infected flies or ticks as one route for tularemia, a risk it ties to hunters and others who spend long hours outdoors. A video visit for adults in South Dakota can review a photo of the removed tick, where you picked it up and how long it was attached, then lay out which fever, rash or headache symptoms mean in-person care. An expanding rash, fever with severe headache, or facial weakness needs urgent in-person evaluation. Flat $79."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "Rabies is still found in South Dakota animals. The state Department of Health's 2024 surveillance report counted 12 rabid animals, including one cat and 10 bats, and it advises seeing a physician immediately after a bite from a wild animal or one suspected of rabies. Cat bites can also become infected quickly. TeleDirectMD can see adults in South Dakota by video for a superficial to moderate bite from a known domestic cat within the last 24 hours, to decide on wound care and whether a preventive antibiotic fits. A hand bite with swelling or reduced finger movement, or any bite from a stray or wild animal, needs in-person care. Flat $79."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "South Dakota keeps rabies control in statute (SDCL chapter 40-12), and the state Department of Health names skunks as the primary land reservoir of rabies in South Dakota, with bats the other main reservoir. Its advice for cutting exposure is direct: remove stray dogs and cats, vaccinate pets and stay away from wild animals, especially ones acting abnormally. A video visit fits adults in South Dakota with a cleaned, superficial to moderate bite from a known domestic dog with a vaccination history. Deep wounds, hand or face injuries with lost function, uncontrolled bleeding, or a bite from an unknown or wild animal need in-person care for wound repair or a rabies evaluation. Flat $79."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "South Dakota reported 4,887 chlamydia cases in 2023, a rate of 531.6 per 100,000 people, which ranked 14th among states and sat above the U.S. rate of 492.2 (CDC, 2023 state ranking tables). If you are an adult in South Dakota with a positive chlamydia test, a video visit with Dr. Bhavsar can review the result and your symptoms and, when appropriate, send treatment to your pharmacy. TeleDirectMD does not perform STI testing, so bring your result. CDC lists expedited partner therapy as only potentially allowable in South Dakota, so partners should arrange their own care. Pelvic pain with fever, severe testicular pain, or pregnancy needs in-person care. Flat $79."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "South Dakota's flu season is tracked on a Department of Health dashboard that updates every Wednesday, and the 2026 to 2027 season officially began the week ending October 10, 2026. Last season shows how quickly it builds: by December 31, 2025, the department had 2,824 lab-confirmed flu cases and 154 hospitalizations on record and reported the season's first two deaths. Antiviral treatment works best when started within about 48 hours of symptoms, so a video visit for adults in South Dakota can decide whether an antiviral fits and send it to your pharmacy. Trouble breathing, chest pain or confusion needs in-person care now. Flat $79."
+    },
+    "smoking-cessation-treatment-online": {
+      "stateConditionParagraph": "South Dakota adults trying to quit have a free state resource: the South Dakota QuitLine, run by the Department of Health, offers four free methods, including phone coaching with free nicotine replacement therapy when medically appropriate and a Kickstart Kit with medication. A video visit with Dr. Bhavsar adds a physician review of whether a prescription quit medicine fits your health history, alongside any QuitLine support you choose. Prescription options depend on factors such as seizure history, pregnancy and recent heart events, which the visit covers. Chest pain, shortness of breath or a mental health crisis needs emergency care, not a video visit. Flat $79 for adults physically in South Dakota."
+    }
+  },
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "South Dakota Codified Laws §§ 34-52-2, 34-52-3 and 34-52-5 (telehealth)",
+        "renderAt": "hero-credential",
+        "content": "South Dakota law requires a health care professional treating a patient in the state by telehealth to be fully licensed in South Dakota (SDCL 34-52-2). A proper telehealth relationship includes verifying the patient's location, disclosing and validating the professional's identity and credentials, obtaining consent after explaining the delivery model and its limitations, and providing a visit summary or consult note (SDCL 34-52-3). TeleDirectMD sees patients located in South Dakota by real-time audio and video with a South Dakota-licensed physician."
+      },
+      {
+        "statute": "South Dakota Codified Laws § 34-52-6 (prescribing drugs by telehealth)",
+        "renderAt": "footer",
+        "content": "Under SDCL 34-52-6, a health care professional using telehealth may not prescribe a controlled drug or substance solely in response to an internet questionnaire or consult, including a telephone encounter, without a proper provider-patient relationship. TeleDirectMD does not prescribe controlled substances, and prescriptions for South Dakota patients are sent electronically to the pharmacy the patient chooses."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

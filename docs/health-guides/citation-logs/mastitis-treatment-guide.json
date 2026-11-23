@@ -1,0 +1,947 @@
+{
+ "guide": "mastitis-treatment-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 4 verified (10.1089/bfm.2022.29207.kbm, 10.1371/journal.pone.0274467, 10.1177/15409996251380127, 10.53347/rID-14818), retractions: none; no expressions of concern or contrasting evidence flagged. PubMed article types checked: none is a Retracted Publication or Retraction Notice; ref 1 has a Published Erratum (author list only).",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "Mitchell KB, Johnson HM, Rodríguez JM, et al. Academy of Breastfeeding Medicine Clinical Protocol #36: The Mastitis Spectrum, Revised 2022. Breastfeed Med. 2022;17(5):360-376.",
+   "url": "https://abm.memberclicks.net/assets/DOCUMENTS/PROTOCOLS/36-mitchell-et-al-2022-academy-of-breastfeeding-medicine-clinical-protocol-36-the-mastitis-spectrum-revised-2022.pdf",
+   "pmid": "35576513",
+   "doi": "10.1089/bfm.2022.29207.kbm",
+   "record_title": "Academy of Breastfeeding Medicine Clinical Protocol #36: The Mastitis Spectrum, Revised 2022.",
+   "record_journal": "Breastfeed Med",
+   "record_year": "2022",
+   "article_type": "Journal Article (clinical protocol)",
+   "version_or_date": "Revised 2022; Breastfeed Med 17(5):360-376, May 2022; read 2026-11-15",
+   "retrieved_with": "PubMed get_article_metadata (PMID 35576513); ABM-hosted PDF read with WebFetch and full text via Monid firecrawl /scrape; correction notice (PMID 36378824) read via Monid firecrawl /scrape of the publisher page; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [
+    "Published erratum PMID 36378824, Breastfeed Med 2022;17(11):977-978: author list corrected (Zakarija-Grkovic removed, Kyle Widmer name corrected), Figure 4 arrows reversed, affiliation wording. No change to clinical content."
+   ],
+   "notes": "No PMC copy. Abstract is boilerplate, so all claims rest on the full text of the ABM-hosted PDF. Scite: verified, no retraction or concern, no contrasting evidence flagged.",
+   "claims": [
+    {
+     "text": "ABM reframed mastitis as a spectrum of conditions resulting from ductal inflammation and stromal edema",
+     "quote": "scientific evidence now demonstrates that mastitis encompasses a spectrum of conditions resulting from ductal inflammation and stromal edema",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Inflammatory mastitis can come before bacterial mastitis",
+     "quote": "If ductal narrowing and alveolar congestion are worsened by overstimulation of milk production, then inflammatory mastitis can develop, and acute bacterial mastitis may follow",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antibiotics for inflammatory mastitis disrupt the microbiome and increase risk of progression to bacterial mastitis; reserve antibiotics for bacterial mastitis",
+     "quote": "Use of antibiotics for inflammatory mastitis disrupts the breast microbiome and increases the risk of progression to bacterial mastitis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "ABM states antibiotics should be reserved for bacterial mastitis",
+     "quote": "Reserve antibiotics for bacterial mastitis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Mastitis contributes to early weaning; bacterial mastitis can progress to phlegmon or abscess",
+     "quote": "contributes to early cessation of breastfeeding",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Progression to phlegmon or abscess",
+     "quote": "This can progress to phlegmon or abscess, particularly in the setting of tissue trauma from aggressive breast massage.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Engorgement: bilateral pain, firmness, swelling usually days 3 to 5 postpartum",
+     "quote": "It presents as bilateral breast pain, firmness, and swelling that usually occurs between days 3 and 5 postpartum.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Engorgement is related to interstitial edema and hyperemia during secretory activation (lactogenesis II)",
+     "quote": "postpartum engorgement that results from secretory activation (lactogenesis II) is a distinct clinical entity related to interstitial edema and hyperemia",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Engorgement recommendations: hand expression, reverse pressure softening, lymphatic drainage, ice",
+     "quote": "Perform reverse pressure softening of the areola",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Engorgement recommendations include lymphatic drainage and ice",
+     "quote": "Consider lymphatic drainage to alleviate interstitial edema",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ductal narrowing results from alveolar distension and/or mammary dysbiosis",
+     "quote": "related to alveolar distension and/or mammary dysbiosis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Repeated feeding to clear a plug suppresses FIL, increases milk production, worsens inflammation and narrowing",
+     "quote": "will suppress FIL, increase milk production, and ultimately exacerbate inflammation and ductal narrowing",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Squeezing or aggressive massage to push a plug out is ineffective and causes tissue trauma",
+     "quote": "by squeezing or aggressively massaging the breast are ineffective and result in tissue trauma",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Physiologic breastfeeding is the right approach for ductal narrowing",
+     "quote": "physiological breastfeeding and antiinflammatory measures as described hereunder are most efficacious",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Inflammatory mastitis can cause fever, chills, tachycardia without infection",
+     "quote": "systemic signs and symptoms such as fever, chills, and tachycardia. It should be emphasized that systemic inflammatory response syndrome may occur in the absence of infection.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Swedish study: most women with inflammatory mastitis resolved without antibiotics",
+     "quote": "A Swedish study noted that most women with inflammatory mastitis had complete resolution of symptoms without need for antibiotics or other interventions.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Reassure patients that many symptoms resolve with conservative care and psychosocial support",
+     "quote": "Reassure mothers that many mastitis symptoms will resolve with conservative care and psychosocial support.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Bacterial mastitis presents as cellulitis in one region that may spread to other quadrants",
+     "quote": "Bacterial mastitis presents as cellulitis (worsening erythema and induration) in a specific region of the breast that may spread to different quadrants",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Common organisms: Staphylococcus (S. aureus, S. epidermidis) and Streptococcus species",
+     "quote": "Common organisms in lactational mastitis include Staphylococcus (e.g., S. aureus, S. epidermidis, S. lugdunensis, and S. hominis) and Streptococcus",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Bacterial mastitis needs antibiotics or probiotics to resolve",
+     "quote": "a progression from ductal narrowing and inflammatory mastitis to an entity necessitating antibiotics or probiotics to resolve",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Phlegmon: firm mass-like area without fluctuance after worsening mastitis",
+     "quote": "Phlegmon should be suspected with a history of mastitis that worsens into a firm, mass-like area without fluctuance",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Deep massage may promote phlegmon",
+     "quote": "Excessive deep tissue massage in the setting of ductal narrowing and inflammatory mastitis may propagate phlegmon formation",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Phlegmon is a heterogeneous, ill-defined collection",
+     "quote": "Phlegmons are heterogeneous, complex, and ill-defined fluid collections",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Phlegmon may need extended antibiotics, case by case",
+     "quote": "Lactational phlegmon may require extended antibiotics for complete resolution, but cases should be considered individually.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Phlegmon can coalesce into a drainable abscess; follow closely",
+     "quote": "A phlegmon may coalesce into a drainable abscess and, therefore, patients should be followed carefully",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Abscess develops in approximately 3 to 11% of women with acute mastitis",
+     "quote": "Approximately 3–11% of women with acute mastitis will develop an abscess.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Abscess is an infected fluid collection needing drainage for source control",
+     "quote": "progression from bacterial mastitis or phlegmon to an infected fluid collection that necessitates drainage",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Drain the abscess for source control",
+     "quote": "Drain the abscess to achieve source control.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Needle aspiration often first-line but most patients need repeat aspirations",
+     "quote": "Needle aspiration with fluid culture and sensitivity is often recommended as the first-line intervention for lactational abscess. However, patients most often require recurrent aspirations for definitive resolution.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Repeat aspirations are stressful and risk breastfeeding discontinuation",
+     "quote": "Repeated aspirations may be stressful and discouraging for the patient, and risk breastfeeding discontinuation.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Consider drain placement at the first procedure, office or interventional radiology",
+     "quote": "Drain placement as the initial intervention should be considered for definitive management at the time of the index procedure.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Interventional radiology referral for drain placement",
+     "quote": "Patients also can be referred to interventional radiology for drain placement.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Drains to gravity not suction; avoid vacuum-assisted wound devices",
+     "quote": "Drains or skin stents should be placed to gravity rather than suction",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Strictly avoid vacuum-assisted wound devices on a lactating breast",
+     "quote": "Strictly avoid vacuum-assisted wound devices on a lactating breast.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Continue breastfeeding from the affected breast after aspiration or drain placement",
+     "quote": "After aspiration or drain placement, mothers should continue breastfeeding from the affected breast.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Milk fistula in fewer than 2%, with lactation managed and hyperlactation treated",
+     "quote": "Milk fistula rate is <2%, but lactation must be managed appropriately and hyperlactation treated if present.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antibiotics commonly 10 to 14 days after drainage; shorter if cellulitis resolves quickly",
+     "quote": "Antibiotic duration is commonly 10–14 days; however, a shorter course may be appropriate if there is rapid resolution of surrounding cellulitis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Inflammation can take weeks to settle; follow-up exam and imaging",
+     "quote": "Tissue inflammation and phlegmonous changes may take several weeks to resolve",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Follow-up exams and imaging to confirm resolution",
+     "quote": "They should undergo interval examination and imaging to ensure resolution.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Abscess: progressive firmness/redness, palpable collection in a well-defined area",
+     "quote": "Abscess presents as a progressive induration and erythema, and often a palpable fluid collection in a well-defined area of the breast",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fever may settle, settle and return, or worsen until drained",
+     "quote": "fever may resolve as the body walls off the infectious process, or may resolve and then recur",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Subacute mastitis: needle-like burning pain, blebs, recurrent induration",
+     "quote": "Patients may have needle-like, burning breast pain, nipple blebs, recurrent areas of induration or congestion",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Subacute mastitis reflects chronic dysbiosis with biofilms narrowing ducts",
+     "quote": "Subacute mastitis occurs when ductal lumens become narrowed by bacterial biofilms in the setting of chronic mammary dysbiosis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Subacute mastitis has milder local symptoms, usually no systemic symptoms",
+     "quote": "systemic symptoms are uncommon and local breast symptoms are milder than in acute mastitis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recurrent mastitis has no consensus definition; symptoms every 2 to 4 weeks or less often",
+     "quote": "There is no consensus on the definition of recurrent mastitis. Patients may describe having mastitis symptoms such as fever, breast redness, breast swelling, and/or breast pain that occur every 2–4 weeks, or less often.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recurrent mastitis risk factors: hyperlactation, dysbiosis, inadequate prior treatment, unaddressed cause",
+     "quote": "Risk factors include waxing and waning episodes of hyperlactation, dysbiosis, inadequate treatment of prior mastitis, and failure to address the underlying etiology of prior episodes.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Milk stasis postulated but causation not proven",
+     "quote": "Milk stasis has been postulated to be a potential instigating factor for mastitis, although scientific evidence has not proven a causation.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hyperlactation is a primary underlying risk factor",
+     "quote": "Attention should be given to appropriate treatment of hyperlactation as an primary underlying risk factor for mastitis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hyperlactation feeds a cycle of congestion, inflammation and dysbiosis",
+     "quote": "Hyperlactation predisposes patients to luminal congestion and inflammation, which in turn facilitates mammary dysbiosis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dysbiosis is a disruption of the milk microbiome; factors include antibiotics, pumps, Cesarean births",
+     "quote": "Mammary dysbiosis, or disruption of the milk microbiome, results from a complex interplay of factors, including maternal genetics and medical conditions, exposure to antibiotics, use of probiotics, regular use of breast pumps, and Cesarean births.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Increased milk removal increases production",
+     "quote": "Milk volume depends on a feedback mechanism whereby increased milk removal increases production.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pumping to empty perpetuates hyperlactation and worsens edema and inflammation",
+     "quote": "perpetuates a cycle of hyperlactation and is a major risk factor for worsening tissue edema and inflammation",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Express only the volume the infant takes",
+     "quote": "Mothers using breast pumps should express only the volume their infant consumes.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pumping may predispose to dysbiosis",
+     "quote": "and may, therefore, predispose to dysbiosis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Deep massage causes inflammation, edema and microvascular injury",
+     "quote": "Deep massage causes increased inflammation, tissue edema, and microvascular injury.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Light sweeping of the skin (lymphatic drainage) is preferred over deep massage",
+     "quote": "with light sweeping of the skin rather than deep tissue massage",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nipple trauma associated with mastitis but data limited by confounding and bias",
+     "quote": "Although nipple trauma is associated with mastitis, the data are limited by confounding and bias.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Mastitis not caused by retrograde spread of bacteria from visible nipple trauma",
+     "quote": "mastitis is not caused by retrograde spread of pathogenic bacteria from visible nipple trauma",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cesarean birth associated with delayed lactogenesis II",
+     "quote": "Cesarean birth is associated with delayed lactogenesis II",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Specific foods do not cause mastitis",
+     "quote": "No evidence exists that specific foods cause mastitis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "No scientific evidence for candida mastitis",
+     "quote": "no scientific evidence exists to support this diagnosis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Poor hygiene not a cause; routine sterilization not needed; handwashing and basic pump cleaning",
+     "quote": "There is no evidence to support poor hygiene as a cause of bacterial mastitis or the need for routine sterilization of pumps. Handwashing before milk expression and basic pump cleaning practices should be followed.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clean pump parts after each use; routine sterilization of pumps and household items unnecessary",
+     "quote": "Pump parts should be cleaned appropriately after each use, but routine sterilization of pumps and other household items",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Mastitis often presents in a segmental area",
+     "quote": "Mastitis is inflammation of the mammary gland that most often presents in a segmental distribution of ducts, alveoli, and surrounding connective tissue",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Consider milk culture if no improvement after 48 hours of first-line antibiotics (MRSA)",
+     "quote": "If there is no symptomatic improvement after 48 hours of first-line therapy, consider a milk culture to evaluate for resistant and/or less common pathogens such as methicillin-resistant Staphylococcus aureus (MRSA).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Early culture for NICU expressed milk, health care workers in high-MRSA areas, recurrent infections",
+     "quote": "Other situations in which to consider early milk culture include mothers expressing breast milk for an immunocompromised infant in the neonatal intensive care unit, health care workers in areas with a high prevalence of MRSA, and patients with recurrent infections.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Culture can be done for subacute mastitis",
+     "quote": "Sterile milk culture and sensitivities can be performed",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "MRSA and resistant CoNS do not respond to dicloxacillin or cephalexin",
+     "quote": "MRSA and resistant CoNS will not respond to typical antibiotics used for acute mastitis such as dicloxacillin or cephalexin.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Bacterial mastitis not contagious, no risk to infant, no interruption of breastfeeding",
+     "quote": "Bacterial mastitis is not a contagious entity and does not pose a risk to the infant nor require an interruption in breastfeeding.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Safe for children to consume milk from a breast with bacterial mastitis",
+     "quote": "It is safe for children to consume milk from a breast with bacterial mastitis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "If no milk can be removed due to swelling, pause feeds from affected breast in acute phase",
+     "quote": "the mother should not continue to attempt feeding from the affected breast during the acute phase",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Feed from the other breast and return as swelling settles",
+     "quote": "She can feed from the contralateral breast and return to feeding from the affected breast when edema and inflammation subsides.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hand-express small volumes for comfort",
+     "quote": "Mothers can hand express small volumes of milk for comfort",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Feed first from the less congested breast to avoid overstimulation",
+     "quote": "feeding first off the left, less congested breast first to avoid overstimulation of the affected right breast",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ice and NSAIDs reduce edema and inflammation",
+     "quote": "Ice and nonsteroidal anti-inflammatory drugs (NSAIDs) can reduce edema and inflammation",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ibuprofen 800 mg every 8 hours; acetaminophen 1,000 mg every 8 hours in the acute setting",
+     "quote": "Ibuprofen can be dosed 800 mg every 8 hours and acetaminophen/paracetamol 1,000 mg every 8 hours in the acute setting.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ice can be applied every hour or more often",
+     "quote": "ice can be applied every hour or more frequently if desired",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sunflower or soy lecithin 5 to 10 g daily by mouth to reduce ductal inflammation and emulsify milk",
+     "quote": "Sunflower or soy lecithin 5–10 g daily by mouth may be taken to reduce inflammation in ducts and emulsify milk.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Avoid deep massage",
+     "quote": "Avoid deep massage of the lactating breast.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Avoid vibrating devices",
+     "quote": "Avoid electric toothbrushes and other commercial vibrating or massaging devices.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Avoid saline soaks, castor oil and other topical products",
+     "quote": "Avoid saline soaks, castor oil, and other topical products.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cabbage leaves no more effective than ice",
+     "quote": "Studies have not demonstrated cabbage leaves to be more effective than ice",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cabbage may carry Listeria",
+     "quote": "Importantly, cabbage may carry Listeria bacteria.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not unroof nipple blebs",
+     "quote": "do not unroof the bleb as this will cause trauma and further luminal narrowing",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prophylactic antibiotics not shown to prevent mastitis and may select resistant strains",
+     "quote": "Prophylactic antibiotics have not been shown to be effective in the prevention of mastitis and may select antibiotic-resistant strains.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Systemic symptoms lasting more than 24 hours point to bacterial mastitis / need evaluation",
+     "quote": "An evaluation by a medical professional should be performed if there are persistent systemic symptoms (>24 hours) such as fever and tachycardia.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "No response to conservative measures suggests bacterial mastitis",
+     "quote": "diagnosis should be considered if the breast is not responding to conservative measures",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "First-line dicloxacillin or flucloxacillin 500 mg QID for 10 to 14 days",
+     "quote": "Dicloxacillin or flucloxacillin 500 mg QID for 10–14 days",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "First-line cephalexin 500 mg QID for 10 to 14 days",
+     "quote": "Cephalexin 500 mg QID for 10–14 days",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cephalexin: broader coverage incl. gram-negative rods; no need to separate from meals",
+     "quote": "Broader coverage including gram negative rods; does not need to be taken separately from meals",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Second-line clindamycin 300 mg four times daily for 10 to 14 days",
+     "quote": "Clindamycin 300 mg four times daily for 10–14 days",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Second-line TMP-SMX DS twice daily for 10 to 14 days",
+     "quote": "Trimethoprim-sulfamethoxazole DS BID for 10–14 days",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "TMP-SMX not recommended with infant G6PD deficiency; caution with premature or hyperbilirubinemic infants, especially under 30 days",
+     "quote": "Not recommended for mothers of children with G6PD deficiency. Use with caution in mothers with premature infants or infants with hyperbilirubinemia, especially under 30 days old.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "First-line options have a low relative infant dose",
+     "quote": "All drugs have low Relative Infant Dose of the drug.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Women should not be told to express and discard milk",
+     "quote": "Women should not be instructed to express and discard their milk, as bacterial mastitis is not a contraindication to breastfeeding.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recurrent: examine and culture to confirm true recurrent mastitis rather than treat empirically",
+     "quote": "Examine patients and obtain milk culture to establish a diagnosis of true recurrent mastitis, rather than treating empirically.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "CoNS common in milk but can be opportunistic pathogens",
+     "quote": "although CoNS are commonly present in breast milk, they have also been identified as opportunistic pathogens in mastitis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Review breastfeeding and pumping in recurrent mastitis",
+     "quote": "Evaluate breastfeeding and/or pumping for potential risk factors for mastitis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pumps can injure the breast with wrong flange, high suction, long sessions",
+     "quote": "Breast pumps also can cause trauma to breast parenchyma and the nipple areolar complex if improper flange sizes are used, suction is too high, or the mother is pumping for an excessive duration of time.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "ABM advises avoiding nipple shields; inadequate extraction",
+     "quote": "shields represent nonphysiological breastfeeding and result in inadequate breast milk extraction",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Avoid nipple shields",
+     "quote": "Available evidence does not support the use of nipple shields.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Probiotic data mixed; strong recommendation could not be made",
+     "quote": "A systematic review suggested that probiotics may be effective for both treatment and prevention of mastitis, but a strong recommendation could not be made due to limitations of the studied trials.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Probiotics should contain L. fermentum or, preferably, L. salivarius strains",
+     "quote": "the probiotic should contain Limosilactobacillus fermentum (formerly classified as Lactobacillus fermentum) or, preferably, Ligilactobacillus salivarius (formerly classified as Lactobacillus salivarius) strains",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Consider daily probiotics for prevention of recurrent mastitis",
+     "quote": "Consider daily probiotic use with L. fermentum or, preferably, L. salivarius for prevention",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Only selected strains may be effective; results cannot be generalized to a species",
+     "quote": "Note that only selected strains of these bacterial species may be effective against mastitis pathogens. Therefore, clinical trial outcomes cannot be generalized to an entire species",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Multiple recurrences in the same location warrant radiology evaluation (mass, granulomatous mastitis)",
+     "quote": "Multiple recurrences in the same location warrants radiology evaluation to rule out an underlying mass or other abnormality such as granulomatous mastitis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Any concern for IBC warrants urgent referral to breast surgery and oncology",
+     "quote": "Any concern for inflammatory breast cancer warrants urgent referral to breast surgery and oncology.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "other_web",
+   "cited_as": "Wink A, Mitchell JA, Lam SK, Szugye H. Does Every Patient With Lactational Mastitis Require Antibiotic Treatment? Cleveland Clinic Consult QD. September 10, 2024.",
+   "url": "https://consultqd.clevelandclinic.org/does-every-patient-with-lactational-mastitis-require-antibiotic-treatment",
+   "version_or_date": "Published September 10, 2024 (page notes it was originally published in the Cleveland Clinic Journal of Medicine); read 2026-11-15",
+   "retrieved_with": "WebFetch and Monid firecrawl /scrape (basic proxy), HTTP 200",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Authors corrected from the page byline (old citation had none). Page does not name S. aureus as dominant or describe organisms; those claims were moved to ABM (ref 1). Page says to avoid TMP-SMX with prematurity, neonatal hyperbilirubinemia or G6PD deficiency; the guide uses ABM's more graded wording.",
+   "claims": [
+    {
+     "text": "Erythema may present less conspicuously on darker skin",
+     "quote": "keeping in mind that erythema may present less conspicuously on darker skin.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ultrasound and same-day radiology/breast surgery consult when abscess, phlegmon or infected galactocele suspected",
+     "quote": "When an abscess, phlegmon, or infected galactocele is suspected, ultrasonography and prompt (same-day) consult with radiology and breast surgery are recommended.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Focal discrete swelling/redness or symptoms beyond 24 to 48 hours raise concern for phlegmon/abscess",
+     "quote": "If symptoms are ongoing or progressing for more than 24 to 48 hours and are coupled with a focal, discrete area of swelling and erythema, the clinician should consider a phlegmon, abscess, or infected galactocele.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antibiotics when severe local symptoms or systemic symptoms (fever, myalgias, rigors) do not improve within 24 to 48 hours of conservative care",
+     "quote": "Patients with severe local symptoms or with systemic symptoms such as fever, myalgias, and rigors who do not improve within 24 to 48 hours of initiating proper conservative measures should be managed promptly",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lymphatic drainage: light sweeping toward axillary and supraclavicular nodes",
+     "quote": "The patient may apply light sweeping motions in the direction of the lymph nodes that drain the breast (axillary and supraclavicular) to assist with lymphatic drainage",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Same first-line doses as ABM",
+     "quote": "First-line treatments include dicloxacillin 500 mg 4 times daily and cephalexin 500 mg 4 times daily, each for 10 to 14 days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Same second-line doses; TMP-SMX 160/800 mg twice daily",
+     "quote": "Second-line treatment is clindamycin 300 mg 4 times daily or trimethoprim-sulfamethoxazole 160 mg/800 mg twice daily, each for 10 to 14 days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Milk culture if symptoms persist after 48 hours of antibiotics to rule out MRSA",
+     "quote": "If symptoms persist after 48 hours of antibiotic treatment, obtain a breast milk culture from the affected breast to rule out methicillin-resistant Staphylococcus aureus and other resistant pathogens.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Refer to breast specialist to rule out IBC when symptoms do not respond to antibiotics",
+     "quote": "Referral to a breast specialist is advisable to rule out inflammatory breast cancer in patients whose symptoms do not respond to antibiotics.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lactation consultant or breastfeeding medicine specialist can help downregulate supply",
+     "quote": "Consider referral to a lactation consultant or breastfeeding medicine specialist who can help downregulate supply safely if the patient has an oversupply or hyperlactation.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "other_web",
+   "cited_as": "Radswiki T, Knipe H, Patel M. Breast abscess. Radiopaedia.org reference article. doi:10.53347/rID-14818.",
+   "url": "https://radiopaedia.org/articles/breast-abscess?lang=us",
+   "doi": "10.53347/rID-14818",
+   "version_or_date": "Last revised 7 Nov 2026 by Henry Knipe (per Monid scrape 2026-11-15; a WebFetch read the same day returned an older cached revision dated 3 Apr 2023 with the same treatment and ultrasound text)",
+   "retrieved_with": "WebFetch and Monid firecrawl /scrape (basic proxy), HTTP 200; Scite verify_papers on the rID DOI",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Radiopaedia favors repeated aspiration over catheter; ABM (ref 1) suggests considering drain placement first. The guide now presents both views instead of attributing catheter-for-3-cm advice to Radiopaedia.",
+   "claims": [
+    {
+     "text": "Ultrasound is the most useful initial imaging when abscess suspected; used to monitor response and confirm resolution",
+     "quote": "Ultrasound is considered the most useful initial imaging modality when a breast abscess is suspected. It is also the imaging method of choice to monitor progress, response to therapy and to ensure resolution.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Radiopaedia: antibiotics plus ultrasound-guided aspiration; repeated aspiration favored over catheter",
+     "quote": "Antibiotic treatment combined with ultrasound-guided aspiration is the treatment of choice. Repeated aspiration may be required but is recommended over placement of percutaneous catheter due to the risk of cutaneous fistula and patient discomfort.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Surgical incision and drainage needed only rarely",
+     "quote": "In rare cases surgical incision and drainage may be required.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "label",
+   "cited_as": "DailyMed. Dicloxacillin sodium capsule (PD-Rx Pharmaceuticals, Inc.), FDA prescribing information.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=24e821aa-85b8-4f5a-aa13-83ff132952ca",
+   "version_or_date": "setid 24e821aa-85b8-4f5a-aa13-83ff132952ca; Monid scrape showed 'Updated November 9, 2026'; WebFetch the same day showed 'Updated October 15, 2025'. Read 2026-11-15.",
+   "retrieved_with": "WebSearch (dailymed.nlm.nih.gov) to locate; WebFetch and Monid firecrawl /scrape of the label page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Repackager label (source NDC 0093-3125). Quote for label doses is from the label's dosage table, cells joined with '|'.",
+   "claims": [
+    {
+     "text": "Dicloxacillin best absorbed on an empty stomach, 1 hour before or 2 hours after meals",
+     "quote": "Dicloxacillin is best absorbed when taken on an empty stomach, and should be administered at least 1 hour before or 2 hours after meals.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Take with at least 4 fl oz (120 mL) water, not lying down or right before bed",
+     "quote": "Dicloxacillin should be taken with at least 4 fluid ounces (120 mL) of water and should not be taken in the supine position or immediately before going to bed",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Penicillins excreted in breast milk; caution in nursing women",
+     "quote": "Penicillins are excreted in breast milk. Caution should be exercised when penicillins are administered to a nursing woman.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "General adult label doses 125 to 250 mg every 6 hours",
+     "quote": "Dicloxacillin | 125 mg every 6 hours | 250 mg every 6 hours",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Yu Q, Xu C, Wang M, et al. The preventive and therapeutic effects of probiotics on mastitis: A systematic review and meta-analysis. PLoS One. 2022;17(9):e0274467.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9462749/",
+   "pmid": "36084006",
+   "pmcid": "PMC9462749",
+   "doi": "10.1371/journal.pone.0274467",
+   "record_title": "The preventive and therapeutic effects of probiotics on mastitis: A systematic review and meta-analysis.",
+   "record_journal": "PLoS One",
+   "record_year": "2022",
+   "article_type": "Systematic Review; Meta-Analysis",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC9462749); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "First author corrected from 'Lu M' to 'Yu Q'. The incidence benefit is for probiotics taken during pregnancy (3 studies); the abstract does not name strains, so strain names come from the full-text Table 1. Scite: verified, no notices, no contrasting evidence flagged.",
+   "claims": [
+    {
+     "text": "Meta-analysis of six RCTs: probiotics during pregnancy reduced incidence of mastitis",
+     "quote": "a total of six randomized controlled trials were included in this meta-analysis, which showed that oral probiotics during pregnancy can reduce the incidence of mastitis (RR: 0.49, 95% CI: 0.35 to 0.69; p<0.0001)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Milk bacterial counts fell in healthy participants and those with mastitis",
+     "quote": "the counts of bacteria in the milk of healthy people and mastitis patients were both significantly reduced",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Authors: high-quality multicenter trials still needed",
+     "quote": "However, high-quality multicenter clinical trials are still needed to support this result.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Trials used L. salivarius CECT5713 and PS2 and L. fermentum CECT5716",
+     "quote": "Lactobacillus fermentum CECT 5716/Lactobacillus salivarius CECT5713 ... Lactobacillus salivarius PS2",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "agency_page",
+   "cited_as": "National Cancer Institute. Inflammatory Breast Cancer.",
+   "url": "https://www.cancer.gov/types/breast/breast-cancer-types/inflammatory",
+   "version_or_date": "WebFetch reported 'Updated December 2, 2025'; read 2026-11-15. The old fact-sheet address (/types/breast/ibc-fact-sheet) redirects here, so the guide links the final address.",
+   "retrieved_with": "WebSearch (cancer.gov) to locate; WebFetch and Monid firecrawl /scrape, HTTP 200",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source. Replaces ACOG Committee Opinion 'Breastfeeding Challenges' (acog.org refused WebFetch with a client error; not routed around) for the IBC statements.",
+   "claims": [
+    {
+     "text": "IBC makes the breast red and swollen",
+     "quote": "This type of breast cancer is known as inflammatory because it causes the breast to become red and swollen, or inflamed.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dimpled orange-peel skin (peau d'orange)",
+     "quote": "dimpling or ridges on the skin that resemble an orange peel",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptoms come on rapidly; mastitis has similar symptoms",
+     "quote": "These symptoms generally come on rapidly. They may also be signs of other diseases or conditions, such as an infection",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Mastitis has symptoms similar to IBC",
+     "quote": "Mastitis is an infection of the breast that has symptoms similar to those of inflammatory breast cancer.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Evaluation can include mammogram, ultrasound or MRI",
+     "quote": "do imaging tests, such as a mammogram, breast ultrasound, or breast MRI",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Evaluation can include breast or skin biopsy",
+     "quote": "do a breast or skin biopsy",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Ireland E, Palmsten K, Lipkind HS, et al. Characteristics and Incidence of Lactational Mastitis Using State-Wide Data from 2016 to 2022. J Womens Health (Larchmt). 2025;35(1):85-95.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40985104/",
+   "pmid": "40985104",
+   "doi": "10.1177/15409996251380127",
+   "record_title": "Characteristics and Incidence of Lactational Mastitis Using State-Wide Data from 2016 to 2022.",
+   "record_journal": "J Womens Health (Larchmt)",
+   "record_year": "2025",
+   "article_type": "Journal Article (observational claims-data study)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. Old citation had no authors, wrong title and wrong journal (Breastfeeding Medicine). The old 9.5% and '64% diagnosed by phone' figures are not in this study and were removed. PubMed lists publication date 2025 Sep 23 with volume 35 issue 1 pages 85-95.",
+   "claims": [
+    {
+     "text": "Maine all-payer claims, people delivering 2016 to 2022 with a breast pump claim",
+     "quote": "We used Maine Health Data Organization's All Payer Claims Data for people who delivered during 2016-2022 with insurance coverage throughout pregnancy and 12 months postpartum and had a breast pump claim",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Incidence 4.4% within one year postpartum",
+     "quote": "The incidence of lactational mastitis was 4.4% (95% CI: 4.1, 4.7).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "15% first diagnosed in acute care; higher in isolated rural (22%) and Medicaid (24%)",
+     "quote": "Overall, 15% of lactational mastitis was first diagnosed during an acute care encounter; however, this was higher among those living in isolated rural areas (22%), 20-24 years old (32%), having Medicaid insurance (24%)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Authors: these groups may face barriers to primary care",
+     "quote": "Persons who are younger, live in rural areas, have Medicaid or have higher parity may face barriers to care in the primary care setting",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

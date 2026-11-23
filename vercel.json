@@ -1,9 +1,328 @@
 {
   "framework": null,
-  "buildCommand": "npm run build && rm -f out/404.html out/404/index.html out/routes-manifest.json out/_not-found/index.html out/_not-found.html",
+  "buildCommand": "npm run build && rm -f out/routes-manifest.json out/_not-found/index.html out/_not-found.html",
   "outputDirectory": "out",
   "trailingSlash": true,
   "routes": [
+    {
+      "src": "/insurance/florida-blue/?",
+      "headers": {
+        "Location": "/insurance/blue-cross-blue-shield/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/insurance/united-healthcare/tennessee/?",
+      "headers": {
+        "Location": "/insurance/united-healthcare/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/insurance/blue-cross-blue-shield/florida/?",
+      "headers": {
+        "Location": "/insurance/blue-cross-blue-shield/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/insurance/blue-cross-blue-shield/michigan/?",
+      "headers": {
+        "Location": "/insurance/blue-cross-blue-shield/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/(.*)",
+      "continue": true,
+      "headers": {
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=(self), payment=(), usb=(), interest-cohort=()",
+        "Cross-Origin-Opener-Policy": "same-origin-allow-popups"
+      }
+    },
+    {
+      "src": "/_next/static/(.*)",
+      "continue": true,
+      "headers": {
+        "Cache-Control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "src": "/(videos|images|logos|icons|brand|assets)/(.*)",
+      "continue": true,
+      "headers": {
+        "Cache-Control": "public, max-age=86400, stale-while-revalidate=604800"
+      }
+    },
+    {
+      "src": "/social/(.*)",
+      "continue": true,
+      "headers": {
+        "Cache-Control": "public, max-age=86400, stale-while-revalidate=604800",
+        "X-Robots-Tag": "noindex"
+      }
+    },
+    {
+      "src": "/health-guides/(.*)\\.(png|jpe?g|webp|avif|svg)",
+      "continue": true,
+      "headers": {
+        "Cache-Control": "public, max-age=86400, stale-while-revalidate=604800"
+      }
+    },
+    {
+      "src": "/terms-of-service/?",
+      "headers": {
+        "Location": "/legal/terms-of-service.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/terms-of-use/?",
+      "headers": {
+        "Location": "/legal/terms-of-service.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/privacy-policy/?",
+      "headers": {
+        "Location": "/legal/privacy-policy.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/notice-of-privacy-practices/?",
+      "headers": {
+        "Location": "/legal/notice-of-privacy-practices.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/telehealth-consent/?",
+      "headers": {
+        "Location": "/legal/telehealth-informed-consent.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/good-faith-estimate/?",
+      "headers": {
+        "Location": "/legal/good-faith-estimate.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/nondiscrimination-notice/?",
+      "headers": {
+        "Location": "/legal/nondiscrimination-notice.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/accessibility/?",
+      "headers": {
+        "Location": "/legal/accessibility.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/consumer-health-data-privacy/?",
+      "headers": {
+        "Location": "/legal/consumer-health-data-privacy.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/state-specific-notices/?",
+      "headers": {
+        "Location": "/legal/state-consent-disclosures.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/telehealth-informed-consent\\.pdf",
+      "headers": {
+        "Location": "/legal/telehealth-informed-consent.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/state-consent-disclosures\\.pdf",
+      "headers": {
+        "Location": "/legal/state-consent-disclosures.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/financial-responsibility\\.pdf",
+      "headers": {
+        "Location": "/legal/financial-responsibility.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/controlled-substance-policy\\.pdf",
+      "headers": {
+        "Location": "/legal/controlled-substance-policy.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/esign-disclosure/?",
+      "headers": {
+        "Location": "/legal/terms-of-service.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/medical-records-notice/?",
+      "headers": {
+        "Location": "/legal/notice-of-privacy-practices.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/medication-history-disclosure/?",
+      "headers": {
+        "Location": "/legal/telehealth-informed-consent.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/perioral-dermatitis-treatment-online/?",
+      "headers": {
+        "Location": "/what-we-treat/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/([a-z]{2})/perioral-dermatitis-treatment-online/?",
+      "headers": {
+        "Location": "/what-we-treat/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/insurance/aetna/california/perioral-dermatitis-treatment/?",
+      "headers": {
+        "Location": "/insurance/aetna/california/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/compare/teledirectmd-vs-k-health/?",
+      "headers": {
+        "Location": "/compare/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/terms-of-use/?",
+      "headers": {
+        "Location": "/terms-of-service/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/pediatrics/what-we-treat/?",
+      "headers": {
+        "Location": "/what-we-treat/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/store/?",
+      "headers": {
+        "Location": "/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/cost/weight-loss-glp1-cost/?",
+      "headers": {
+        "Location": "/cost/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/symptom-checker/?",
+      "dest": "/symptom-checker/index.html"
+    },
+    {
+      "src": "/llms-txt/?",
+      "headers": {
+        "Location": "/llms.txt"
+      },
+      "status": 301
+    },
+    {
+      "src": "/health-guides/uti-symptoms-in-men-guide(?:/index\\.html)?/?",
+      "headers": {
+        "Location": "/uti-treatment-online/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/next-steps/?",
+      "dest": "/next-steps/page.html",
+      "headers": {
+        "X-Robots-Tag": "noindex, nofollow",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      }
+    },
+    {
+      "src": "/employers/brief/thank-you/?",
+      "headers": {
+        "Location": "/employers/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/employers/brief/?",
+      "headers": {
+        "Location": "/employers/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/downloads/teledirectmd-employer-brief\\.pdf",
+      "headers": {
+        "Location": "/employers/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/health-guides/telehealth-cold-sores-antiviral-timing/?",
+      "headers": {
+        "Location": "/health-guides/valacyclovir-for-cold-sores-guide/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/who-we-serve/world-cup-2026/?",
+      "headers": {
+        "Location": "/who-we-serve/international-visitors/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/virtual-urgent-care/?",
+      "headers": {
+        "Location": "/what-we-treat/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/health-guides/gout-acute-guide/?",
+      "headers": {
+        "Location": "/health-guides/gout-attack-treatment-guide/"
+      },
+      "status": 301
+    },
     {
       "src": "/health-guides/eyelash-growth-bimatoprost-guide/?",
       "headers": {
@@ -32,14 +351,6 @@
     {
       "src": "/api/verify(.*)",
       "dest": "https://teledirectmd-verify.vercel.app/api/verify$1"
-    },
-    {
-      "src": "/api/approve(.*)",
-      "dest": "https://teledirectmd-verify.vercel.app/api/approve$1"
-    },
-    {
-      "src": "/api/submission(.*)",
-      "dest": "https://teledirectmd-verify.vercel.app/api/submission$1"
     },
     {
       "src": "/api/download(.*)",
@@ -969,7 +1280,7 @@
     {
       "src": "/health-guides/gout-flare-treatment-online-mgmr7/?",
       "headers": {
-        "Location": "/health-guides/gout-acute-guide/"
+        "Location": "/health-guides/gout-guide/"
       },
       "status": 301
     },
@@ -2622,6 +2933,319 @@
       "dest": "/410-insurance.txt"
     },
     {
+      "src": "/insurance/aetna/california/asthma-refill/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/aetna/california/covid-19-treatment/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/aetna/california/dandruff-treatment/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/aetna/california/eczema-treatment/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/aetna/california/eyelash-growth-treatment/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/aetna/california/hair-loss-treatment/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/aetna/california/psoriasis-refills/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/aetna/california/scabies-treatment/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/aetna/california/seasonal-allergies-treatment/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/aetna/california/shingles-treatment/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/aetna/florida/asthma-refill/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/aetna/florida/pink-eye/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/aetna/illinois/asthma-refill/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/aetna/michigan/asthma-refill/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/aetna/michigan/pink-eye/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/aetna/tennessee/uti-treatment/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/blue-cross-blue-shield/florida/flu-treatment/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/blue-cross-blue-shield/georgia/asthma-refill/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/blue-cross-blue-shield/illinois/pink-eye/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/curative/district-of-columbia/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/curative/indiana/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/curative/maryland/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/curative/texas/?",
+      "headers": {
+        "Location": "/insurance/curative/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/insurance/curative/ohio/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/united-healthcare/illinois/ear-infection/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/united-healthcare/illinois/pink-eye/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/united-healthcare/illinois/strep-throat/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/united-healthcare/illinois/yeast-infection/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/united-healthcare/ohio/ear-infection/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/united-healthcare/ohio/pink-eye/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/united-healthcare/oklahoma/flu-treatment/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/united-healthcare/oklahoma/yeast-infection/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/united-healthcare/tennessee/hypertension-refill/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/united-healthcare/washington/hypertension-refill/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
+      "src": "/insurance/united-healthcare/washington/yeast-infection/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "insurance-zero-click-cleanup-2026-08-12"
+      },
+      "dest": "/410-insurance.txt"
+    },
+    {
       "src": "/faq/deep-dive/can-you-get-finasteride-online-in-alabama/?",
       "status": 410,
       "headers": {
@@ -4134,7 +4758,22 @@
       "dest": "/410-faq-deepdive.txt"
     },
     {
+      "src": "/(wi|ks)(/.*)?",
+      "headers": {
+        "Location": "/states-we-serve/",
+        "X-State-Paused": "2026-10-20"
+      },
+      "status": 301
+    },
+    {
       "handle": "filesystem"
+    },
+    {
+      "src": "/((?:health-guides|images)/.+)\\.png",
+      "headers": {
+        "Location": "/$1.jpg"
+      },
+      "status": 301
     },
     {
       "src": "/symptoms/?",
@@ -4228,13 +4867,373 @@
       "status": 301
     },
     {
-      "src": "/(.*)",
-      "dest": "https://pepper-saxophone-p8le.squarespace.com/$1",
+      "src": "/ak/common-cold-treatment-online/?",
       "headers": {
-        "X-Content-Type-Options": "nosniff",
-        "X-Frame-Options": "SAMEORIGIN",
-        "Referrer-Policy": "strict-origin-when-cross-origin"
-      }
+        "Location": "/ak/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/ak/seasonal-allergies-treatment-online/?",
+      "headers": {
+        "Location": "/ak/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/ak/doxypep-sti-prevention-online/?",
+      "headers": {
+        "Location": "/ak/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/ak/hyperlipidemia-refills-online/?",
+      "headers": {
+        "Location": "/ak/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/ak/influenza-treatment-online/?",
+      "headers": {
+        "Location": "/ak/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/al/online-doctor-visits/?",
+      "headers": {
+        "Location": "/al/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/ak/online-doctor-visits/?",
+      "headers": {
+        "Location": "/ak/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/az/online-doctor-visits/?",
+      "headers": {
+        "Location": "/az/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/ca/online-doctor-visits/?",
+      "headers": {
+        "Location": "/ca/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/co/online-doctor-visits/?",
+      "headers": {
+        "Location": "/co/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/ct/online-doctor-visits/?",
+      "headers": {
+        "Location": "/ct/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/dc/online-doctor-visits/?",
+      "headers": {
+        "Location": "/dc/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/de/online-doctor-visits/?",
+      "headers": {
+        "Location": "/de/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/fl/online-doctor-visits/?",
+      "headers": {
+        "Location": "/fl/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/ga/online-doctor-visits/?",
+      "headers": {
+        "Location": "/ga/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/hi/online-doctor-visits/?",
+      "headers": {
+        "Location": "/hi/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/id/online-doctor-visits/?",
+      "headers": {
+        "Location": "/id/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/il/online-doctor-visits/?",
+      "headers": {
+        "Location": "/il/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/in/online-doctor-visits/?",
+      "headers": {
+        "Location": "/in/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/ia/online-doctor-visits/?",
+      "headers": {
+        "Location": "/ia/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/ks/online-doctor-visits/?",
+      "headers": {
+        "Location": "/states-we-serve/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/ky/online-doctor-visits/?",
+      "headers": {
+        "Location": "/ky/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/la/online-doctor-visits/?",
+      "headers": {
+        "Location": "/la/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/me/online-doctor-visits/?",
+      "headers": {
+        "Location": "/me/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/md/online-doctor-visits/?",
+      "headers": {
+        "Location": "/md/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/mi/online-doctor-visits/?",
+      "headers": {
+        "Location": "/mi/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/mn/online-doctor-visits/?",
+      "headers": {
+        "Location": "/mn/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/ms/online-doctor-visits/?",
+      "headers": {
+        "Location": "/ms/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/mo/online-doctor-visits/?",
+      "headers": {
+        "Location": "/mo/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/mt/online-doctor-visits/?",
+      "headers": {
+        "Location": "/mt/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/ne/online-doctor-visits/?",
+      "headers": {
+        "Location": "/ne/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/nv/online-doctor-visits/?",
+      "headers": {
+        "Location": "/nv/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/nh/online-doctor-visits/?",
+      "headers": {
+        "Location": "/nh/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/nj/online-doctor-visits/?",
+      "headers": {
+        "Location": "/nj/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/nc/online-doctor-visits/?",
+      "headers": {
+        "Location": "/nc/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/nd/online-doctor-visits/?",
+      "headers": {
+        "Location": "/nd/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/oh/online-doctor-visits/?",
+      "headers": {
+        "Location": "/oh/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/ok/online-doctor-visits/?",
+      "headers": {
+        "Location": "/ok/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/pa/online-doctor-visits/?",
+      "headers": {
+        "Location": "/pa/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/sc/online-doctor-visits/?",
+      "headers": {
+        "Location": "/sc/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/sd/online-doctor-visits/?",
+      "headers": {
+        "Location": "/sd/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/tn/online-doctor-visits/?",
+      "headers": {
+        "Location": "/tn/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/tx/online-doctor-visits/?",
+      "headers": {
+        "Location": "/tx/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/ut/online-doctor-visits/?",
+      "headers": {
+        "Location": "/ut/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/va/online-doctor-visits/?",
+      "headers": {
+        "Location": "/va/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/vt/online-doctor-visits/?",
+      "headers": {
+        "Location": "/vt/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/wa/online-doctor-visits/?",
+      "headers": {
+        "Location": "/wa/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/wv/online-doctor-visits/?",
+      "headers": {
+        "Location": "/wv/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/wi/online-doctor-visits/?",
+      "headers": {
+        "Location": "/states-we-serve/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/wy/online-doctor-visits/?",
+      "headers": {
+        "Location": "/wy/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/insurance/united-healthcare/tennessee/.+",
+      "headers": {
+        "Location": "/insurance/united-healthcare/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/insurance/blue-cross-blue-shield/(florida|michigan)/.+",
+      "headers": {
+        "Location": "/insurance/blue-cross-blue-shield/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/(.*)",
+      "status": 404,
+      "dest": "/404.html"
     }
   ]
 }

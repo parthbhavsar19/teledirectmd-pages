@@ -1,0 +1,1159 @@
+{
+ "guide": "gout-guide",
+ "checked_at": "2026-11-07",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+ "references": [
+  {
+   "n": 1,
+   "kind": "journal",
+   "cited_as": "FitzGerald JD, Dalbeth N, Mikuls T, et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care & Research. 2020;72(6):744-760.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/",
+   "pmid": "32391934",
+   "doi": "10.1002/acr.24180",
+   "record_title": "2020 American College of Rheumatology Guideline for the Management of Gout.",
+   "record_journal": "Arthritis Care Res (Hoboken)",
+   "record_year": "2020",
+   "article_type": "Journal Article; Practice Guideline",
+   "retrieved_with": "PubMed connector get_article_metadata + get_full_text_article (PMC full text)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Targets stated exactly as written: SU <6 mg/dl for all patients on ULT; the guideline explicitly sets no lower threshold for tophi. Full-text extraction drops some bolded words (for example 'against') and decimal points, so only passages whose meaning is unambiguous in the extracted text were quoted. Errata listed in the Nov 6 audit (10.1002/acr.24401, 10.1002/acr.24566) are corrections, not retractions; not re-read this run. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "Gout is an inflammatory arthritis; genetics play a large part and diet changes usually lower urate only a little",
+     "quote": "Dietary modifications likely yield only small changes in SU concentration",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "For a flare, low-dose colchicine, an NSAID, or oral corticosteroids are first-line, selected by patient factors; ACR does not rank them",
+     "quote": "the Voting Panel did not further prioritize between the first-line agents, noting that treatment selection should be driven by patient factors (e.g., comorbidity, access, past experience)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Colchicine, NSAIDs or glucocorticoids strongly recommended first-line for flares",
+     "quote": "Using colchicine, NSAIDs, or glucocorticoids (oral, intraarticular, or intramuscular) as appropriate first-line therapy for gout flares over IL-1 inhibitors or adrenocorticotropic hormone (ACTH) is strongly recommended",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "FDA-approved colchicine flare regimen 1.2 mg then 0.6 mg one hour later",
+     "quote": "For colchicine specifically, the FDA-approved dosing should be followed (1.2 mg immediately followed by 0.6 mg an hour later, with ongoing antiinflammatory therapy until the flare resolves).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Allopurinol preferred first-line, including moderate-to-severe CKD; start 100 mg/day or less, lower in CKD; titrate by serial urate to below 6 mg/dL",
+     "quote": "allopurinol as the preferred first-line ULT, including for those with moderate-to-severe chronic kidney disease (CKD; stage >3); using a low starting dose of allopurinol (≤100 mg/day, and lower in CKD)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Serum urate target below 6 mg/dL for all patients on ULT",
+     "quote": "Achieving and maintaining an SU target of <6 mg/dl over the use of no target is strongly recommended for all patients receiving ULT.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "No lower threshold set for tophi; no trial data support a specific lower number; lower levels speed tophus resolution",
+     "quote": "this guideline does not specify SU thresholds beyond <6 mg/dl for patient subsets with more severe disease (e.g., those with tophi)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lower urate levels speed tophus resolution",
+     "quote": "There is ample evidence that lower SU levels hasten the resolution of tophi",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "No trial data support lower specific thresholds",
+     "quote": "there are no trial data to support lower specific thresholds for such patients",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Anti-inflammatory prophylaxis strongly recommended when starting ULT, continued 3 to 6 months; treat-to-target, low starting doses",
+     "quote": "When initiating ULT, concomitant antiinflammatory prophylaxis therapy for a duration of at least 3-6 months was strongly recommended.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "ULT strongly recommended for tophi, radiographic damage, or 2 or more flares a year",
+     "quote": "Initiating ULT is strongly recommended for gout patients with any of the following: ≥1 subcutaneous tophi; evidence of radiographic damage (any modality) attributable to gout; OR frequent gout flares, with frequent being defined as ≥2 annually.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Asymptomatic hyperuricemia defined as serum urate 6.8 mg/dL or higher with no prior flare or tophus",
+     "quote": "asymptomatic hyperuricemia, which is defined as an SU concentration of ≥6.8 mg/dl with no prior gout flares or subcutaneous tophi",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Among people with asymptomatic hyperuricemia above 9 mg/dL, only 20% developed gout within 5 years",
+     "quote": "among patients with asymptomatic hyperuricemia with SU concentrations of >9 mg/dl, only 20% went on to develop gout within 5 years",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Starting ULT during a flare conditionally recommended when ULT is indicated",
+     "quote": "When the decision is made that ULT is indicated while the patient is experiencing a gout flare, starting ULT during the gout flare over starting ULT after the gout flare has resolved is conditionally recommended.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Medication-in-pocket approach supported",
+     "quote": "the Voting Panel advocated a “medication-in-pocket” strategy for gout flare management, which the Patient Panel reinforced as a preferred approach",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pegloticase when other ULT fails to reach target with frequent flares or nonresolving tophi; optimal oral trial first",
+     "quote": "The Voting Panel indicated that an optimal trial of oral medication would be appropriate prior to pegloticase due to cost differences and potential adverse effects of the latter medication",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Switching to pegloticase strongly recommended after failure of other ULT with frequent flares or nonresolving tophi",
+     "quote": "Switching to pegloticase over continuing current ULT is strongly recommended for patients with gout for whom XOI treatment, uricosurics, and other interventions have failed to achieve the SU target, and who continue to have frequent gout flares",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Uricosurics not advised with kidney stones or moderate-to-severe CKD; hydration counseling",
+     "quote": "patients with known renal calculi or moderate-to-severe CKD (stage ≥3) should not be treated with uricosurics. For patients who are treated with uricosurics, patients should receive counseling about adequate hydration",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "HLA-B*58:01 associated with markedly elevated risk; testing conditionally recommended for Southeast Asian (Han Chinese, Korean, Thai) and African American patients",
+     "quote": "Testing for the HLA–B*5801 allele prior to starting allopurinol is conditionally recommended for patients of Southeast Asian descent (e.g., Han Chinese, Korean, Thai) and for African American patients",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "HLA-B*58:01 markedly elevated risk of allopurinol hypersensitivity",
+     "quote": "The HLA–B*5801 allele is associated with a markedly elevated risk for AHS",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Diet changes usually lower urate only a little, so rarely replace ULT",
+     "quote": "Dietary modifications likely yield only small changes in SU concentration, but dietary factors may serve as triggers for flares",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "2020 ACR no longer recommends vitamin C",
+     "quote": "The Voting Panel reached consensus that data on vitamin C were insufficient to support continued recommendation for its use in patients with gout.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Limiting alcohol conditionally recommended for everyone with gout",
+     "quote": "Limiting alcohol intake is conditionally recommended for patients with gout, regardless of disease activity.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Citable summary: ULT for tophi, radiographic damage or two or more flares; HLA testing; flare agents (visible summary box, no inline marker)",
+     "quote": "Strong recommendations included initiation of ULT for all patients with tophaceous gout, radiographic damage due to gout, or frequent gout flares",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "pmcid": "PMC10563586",
+   "version_or_date": "Published 2020 (Arthritis Care Res 72(6):744-760); PMC author manuscript read 2026-11-07"
+  },
+  {
+   "n": 2,
+   "kind": "journal",
+   "cited_as": "Terkeltaub RA, et al. High versus low dosing of oral colchicine for early acute gout flare (AGREE). Arthritis Rheum. 2010;62(4):1060-1068.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20131255/",
+   "pmid": "20131255",
+   "doi": "10.1002/art.27327",
+   "record_title": "High versus low dosing of oral colchicine for early acute gout flare: Twenty-four-hour outcome of the first multicenter, randomized, double-blind, placebo-controlled, parallel-group, dose-comparison colchicine study.",
+   "record_journal": "Arthritis Rheum",
+   "record_year": "2010",
+   "article_type": "Journal Article; Multicenter Study; Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Abstract only; claims limited to abstract. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "37.8% low-dose vs 15.5% placebo responders at 24 hours",
+     "quote": "Responders included 28 of 74 patients (37.8%) in the low-dose group, 17 of 52 patients (32.7%) in the high-dose group, and 9 of 58 patients (15.5%) in the placebo group",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Low dose 1.8 mg over 1 hour vs high dose 4.8 mg over 6 hours; comparable efficacy, placebo-like safety",
+     "quote": "Low-dose colchicine yielded both maximum plasma concentration and early gout flare efficacy comparable with that of high-dose colchicine, with a safety profile indistinguishable from that of placebo.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dose definitions",
+     "quote": "self-administered low-dose colchicine (1.8 mg total over 1 hour) and high-dose colchicine (4.8 mg total over 6 hours)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "White WB, et al. Cardiovascular Safety of Febuxostat or Allopurinol in Patients with Gout. N Engl J Med. 2018;378(13):1200-1210.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29527974/",
+   "pmid": "29527974",
+   "doi": "10.1056/NEJMoa1710895",
+   "record_title": "Cardiovascular Safety of Febuxostat or Allopurinol in Patients with Gout.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2018",
+   "article_type": "Randomized Controlled Trial; Equivalence Trial; Multicenter Study",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Abstract only. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "CARES: higher CV and all-cause mortality with febuxostat in gout with CVD",
+     "quote": "In patients with gout and major cardiovascular coexisting conditions, febuxostat was noninferior to allopurinol with respect to rates of adverse cardiovascular events. All-cause mortality and cardiovascular mortality were higher with febuxostat than with allopurinol.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "CARES population: gout and cardiovascular disease (differs from FAST)",
+     "quote": "patients with gout and cardiovascular disease",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Mackenzie IS, et al. Long-term cardiovascular safety of febuxostat compared with allopurinol in patients with gout (FAST). Lancet. 2020;396(10264):1745-1757.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33181081/",
+   "pmid": "33181081",
+   "doi": "10.1016/S0140-6736(20)32234-0",
+   "record_title": "Long-term cardiovascular safety of febuxostat compared with allopurinol in patients with gout (FAST): a multicentre, prospective, randomised, open-label, non-inferiority trial.",
+   "record_journal": "Lancet",
+   "record_year": "2020",
+   "article_type": "Randomized Controlled Trial; Multicenter Study; Equivalence Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Abstract only. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "FAST: febuxostat noninferior for CV endpoint; different result from CARES",
+     "quote": "Febuxostat is non-inferior to allopurinol therapy with respect to the primary cardiovascular endpoint, and its long-term use is not associated with an increased risk of death or serious adverse events compared with allopurinol.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "FAST population differed from CARES",
+     "quote": "Eligible patients were 60 years or older, already receiving allopurinol, and had at least one additional cardiovascular risk factor.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Hung SI, et al. HLA-B*5801 allele as a genetic marker for severe cutaneous adverse reactions caused by allopurinol. PNAS. 2005;102(11):4134-4139.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15743917/",
+   "pmid": "15743917",
+   "doi": "10.1073/pnas.0409500102",
+   "record_title": "HLA-B*5801 allele as a genetic marker for severe cutaneous adverse reactions caused by allopurinol.",
+   "record_journal": "Proc Natl Acad Sci U S A",
+   "record_year": "2005",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Abstract only. Study population Han Chinese per abstract. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "Allopurinol severe skin reactions (hypersensitivity syndrome, SJS, TEN) carry significant morbidity and mortality",
+     "quote": "is a frequent cause of severe cutaneous adverse reactions (SCAR), which include the drug hypersensitivity syndrome, Stevens-Johnson syndrome, and toxic epidermal necrolysis. The adverse events are unpredictable and carry significant morbidity and mortality.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "All 51 affected Han Chinese patients carried the allele vs 15% of tolerant controls",
+     "quote": "The HLA-B*5801 allele was present in all (100%) 51 patients with allopurinol-SCAR, but only in 20 (15%) of 135 tolerant patients",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "pmcid": "PMC554812"
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Sundy JS, et al. Efficacy and tolerability of pegloticase... two randomized controlled trials. JAMA. 2011;306(7):711-720.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21846852/",
+   "pmid": "21846852",
+   "doi": "10.1001/jama.2011.1169",
+   "record_title": "Efficacy and tolerability of pegloticase for the treatment of chronic gout in patients refractory to conventional treatment: two randomized controlled trials.",
+   "record_journal": "JAMA",
+   "record_year": "2011",
+   "article_type": "Randomized Controlled Trial; Multicenter Study",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Abstract only. Author initials corrected to Baraf HS per PubMed record. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "42% biweekly vs 0% placebo kept urate below 6 mg/dL in months 3 and 6",
+     "quote": "the primary end point was achieved in 36 of 85 patients in the biweekly group (42%; 95% CI, 32%-54%), 29 of 84 patients in the monthly group (35%; 95% CI, 24%-46%), and 0 of 43 patients in the placebo group",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Botson JK, et al. Methotrexate with pegloticase (MIRROR RCT): 12-Month Findings. ACR Open Rheumatol. 2023;5(8):407-418.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37385296/",
+   "pmid": "37385296",
+   "doi": "10.1002/acr2.11578",
+   "record_title": "A Randomized, Double-Blind, Placebo-Controlled Multicenter Efficacy and Safety Study of Methotrexate to Increase Response Rates in Patients With Uncontrolled Gout Receiving Pegloticase: 12-Month Findings.",
+   "record_journal": "ACR Open Rheumatol",
+   "record_year": "2023",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed connector get_article_metadata + get_full_text_article (PMC full text)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Old text said 40% to 71%; full text gives 38.5% to 71.0% for month 6. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "Month 6 sustained urate-lowering response 71.0% vs 38.5%; month 12 60.0% vs 30.8%",
+     "quote": "significantly more patients in the MTX versus the PBO group having sustained lowering of urate levels during month 6 (71.0% vs. 38.5%; treatment difference [95% CI]: 32.3%",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Month 12 60.0% vs 30.8%",
+     "quote": "Month 12 response rate was significantly higher in patients cotreated with MTX (60.0% [60 of 100] vs. 30.8% [16 of 52]",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "pmcid": "PMC10425585"
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "Zhang Y, et al. Cherry consumption and decreased risk of recurrent gout attacks. Arthritis Rheum. 2012;64(12):4004-4011.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3510330/",
+   "pmid": "23023818",
+   "doi": "10.1002/art.34677",
+   "record_title": "Cherry consumption and decreased risk of recurrent gout attacks.",
+   "record_journal": "Arthritis Rheum",
+   "record_year": "2012",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Case-crossover (observational). 'Does not replace ULT' is editorial framing, not stated by the source. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "633 people; 2-day cherry intake 35% lower odds, OR 0.65",
+     "quote": "Our study included 633 individuals with gout. Cherry intake over a 2-day period was associated with a 35% lower risk of gout attacks compared with no intake (multivariate OR 0.65",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Observational association; does not replace ULT",
+     "quote": "These findings suggest that cherry intake is associated with a lower risk of gout attacks.",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    }
+   ],
+   "pmcid": "PMC3510330"
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Choi HK, Curhan G. Soft drinks, fructose consumption, and the risk of gout in men: prospective cohort study. BMJ. 2008;336(7639):309-312.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18244959/",
+   "pmid": "18244959",
+   "doi": "10.1136/bmj.39449.819271.BE",
+   "record_title": "Soft drinks, fructose consumption, and the risk of gout in men: prospective cohort study.",
+   "record_journal": "BMJ",
+   "record_year": "2008",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "Two or more sugar-sweetened sodas daily RR 1.85 vs under one a month; diet soda not associated",
+     "quote": "for two or more servings a day was 1.85 (1.08 to 3.16; P for trend=0.002). Diet soft drinks were not associated with risk of gout",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sugar-sweetened soda associated with higher gout risk",
+     "quote": "consumption of sugar sweetened soft drinks and fructose is strongly associated with an increased risk of gout in men",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "pmcid": "PMC2234536"
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Kuo CF, Grainge MJ, Zhang W, Doherty M. Global epidemiology of gout. Nat Rev Rheumatol. 2015;11(11):649-662.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26150127/",
+   "pmid": "26150127",
+   "doi": "10.1038/nrrheum.2015.91",
+   "record_title": "Global epidemiology of gout: prevalence, incidence and risk factors.",
+   "record_journal": "Nat Rev Rheumatol",
+   "record_year": "2015",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Abstract only (no PMC). Old renal-underexcretion and 'risk rises steeply' claims removed. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "Gout results from chronic urate elevation above saturation; painful attacks; later joint damage, chronic pain, tophi",
+     "quote": "Gout is a crystal-deposition disease that results from chronic elevation of uric acid levels above the saturation point for monosodium urate (MSU) crystal formation.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Later joint damage, chronic pain and tophi can develop (also FAQ: untreated deposition leads to flares, tophi, damage)",
+     "quote": "Initial presentation is mainly severely painful episodes of peripheral joint synovitis (acute self-limiting 'attacks') but joint damage and deformity, chronic usage-related pain and subcutaneous tophus deposition can eventually develop.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Genetic predisposition, diet, comorbidities and medicines shape risk; genetics play a large part",
+     "quote": "Some ethnic groups are particularly susceptible to gout, supporting the importance of genetic predisposition. Socioeconomic and dietary factors, as well as comorbidities and medications that can influence uric acid levels",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "journal",
+   "cited_as": "Preston FG, et al. SGLT2 Inhibitors, but Not GLP-1 Receptor Agonists, Reduce Incidence of Gout in People Living With Type 2 Diabetes Across the Therapeutic Spectrum. Clin Ther. 2024;46(11):835-840.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39068059/",
+   "pmid": "39068059",
+   "doi": "10.1016/j.clinthera.2024.06.021",
+   "record_title": "SGLT2 Inhibitors, but Not GLP-1 Receptor Agonists, Reduce Incidence of Gout in People Living With Type 2 Diabetes Across the Therapeutic Spectrum.",
+   "record_journal": "Clin Ther",
+   "record_year": "2024",
+   "article_type": "Journal Article (observational cohort, TriNetX)",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types); Crossref API for pages",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Pages corrected 836-842 to 835-840 (PubMed and Crossref). scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "Lower 5-year gout incidence with SGLT2i added to metformin (HR 0.75) or insulin (HR 0.83)",
+     "quote": "SGLT2i with metformin demonstrated a statistically significant decreased incidence of gout at 5 years compared to the metformin control cohort (HR 0.75 [95% CI 0.69-0.82], P < 0.0001). Similarly, SGLT2i with insulin",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "HR 0.83 with insulin",
+     "quote": "SGLT2i with insulin demonstrated a statistically significant decreased incidence of gout at 5 years compared to the insulin control cohort (HR 0.83",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "label",
+   "cited_as": "AR Scientific Inc. COLCRYS (colchicine) tablet, film coated: prescribing information. DailyMed. Revised March 2012.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5ecaa34e-1bed-49a5-b97c-a8f8c0d885a7",
+   "version_or_date": "DailyMed: Updated March 15, 2012; Revised 3/2012 (Rev 14, March 2012); read 2026-11-07",
+   "retrieved_with": "WebFetch of DailyMed search (COLCRYS) and drugInfo setid page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Replaces dead setid 8a5edd42-.... DailyMed search for COLCRYS lists AR Scientific as the source labeler (others are repackagers). The current DailyMed COLCRYS label is dated 2012; flagged for Parth. Quotes come from WebFetch extraction (direct download blocked by proxy).",
+   "claims": [
+    {
+     "text": "Flare regimen 1.2 mg at first sign then 0.6 mg one hour later",
+     "quote": "The recommended dose of COLCRYS for treatment of a gout flare is 1.2 mg (2 tablets) at the first sign of the flare followed by 0.6 mg (1 tablet) one hour later.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Renal or hepatic impairment: not with P-gp or strong CYP3A4 inhibitors; fatal toxicity reported",
+     "quote": "Patients with renal or hepatic impairment should not be given COLCRYS in conjunction with P-gp or strong CYP3A4 inhibitors",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fatal toxicity reported",
+     "quote": "life-threatening and fatal colchicine toxicity has been reported with colchicine taken in therapeutic doses.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "journal",
+   "cited_as": "Chen-Xu M, et al. Contemporary Prevalence of Gout and Hyperuricemia in the United States and Decadal Trends: NHANES 2007-2016. Arthritis Rheumatol. 2019;71(6):991-999.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30618180/",
+   "pmid": "30618180",
+   "doi": "10.1002/art.40807",
+   "record_title": "Contemporary Prevalence of Gout and Hyperuricemia in the United States and Decadal Trends: The National Health and Nutrition Examination Survey, 2007-2016.",
+   "record_journal": "Arthritis Rheumatol",
+   "record_year": "2019",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed connector get_article_metadata + get_full_text_article (PMC full text)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "3.9% of US adults, 9.2 million, 2015-2016",
+     "quote": "In 2015-2016, the prevalence of gout was 3.9% among adults in the US (9.2 million people)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Chart: 3.9% in 2007-2008 and 3.9% in 2015-2016 (1988-1994 bar removed: not in this source)",
+     "quote": "the prevalence of self-reported health professional or physician-diagnosed gout in the US in 2015–16 was 3.9% (9.2 million adults), which is the same as in 2007–2008 (3.9% or 8.3 million adults)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Above 7.0 mg/dL treated as above supersaturation; sex-specific hyperuricemia definitions",
+     "quote": "Our primary definition of hyperuricemia was a serum urate level >7.0 mg/dL among men and a serum urate level >5.7 mg/dL among women.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Supersaturation point",
+     "quote": "as well as >7.0 mg/dL, which is above the super-saturation point",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Mean serum urate 6.0 men, 4.8 women",
+     "quote": "Mean serum urate levels were 6.0 mg/dl in men and 4.8 mg/dl in women",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "CKD and hypertension strongly associated with gout",
+     "quote": "the plateauing trends of CKD and hypertension in the US over a similar time period (,), given their strong associations with gout and hyperuricemia",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ],
+   "pmcid": "PMC6536335"
+  },
+  {
+   "n": 14,
+   "kind": "journal",
+   "cited_as": "Newberry SJ, et al. Diagnosis of Gout: A Systematic Review in Support of an ACP Clinical Practice Guideline. Ann Intern Med. 2017;166(1):27-36.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27802505/",
+   "pmid": "27802505",
+   "doi": "10.7326/M16-0462",
+   "record_title": "Diagnosis of Gout: A Systematic Review in Support of an American College of Physicians Clinical Practice Guideline.",
+   "record_journal": "Ann Intern Med",
+   "record_year": "2017 (Crossref published-print 2017-01-03; PubMed record date 2016-11-01)",
+   "article_type": "Journal Article; Systematic Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types); Crossref API",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Abstract only. Old pooled DECT figures 0.87/0.84 were not in the source; replaced with the abstract's ranges. Claims about infection, normal urate during flares and red flags moved off this source. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "Joint-fluid MSU crystals are the reference standard",
+     "quote": "compared with that of a reference standard of MSU crystals in joint aspirate for diagnosing gout",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "DECT: three studies, sensitivity 85-100%, specificity 83-92%, low SOE",
+     "quote": "Three studies of dual-energy computed tomography (DECT) showed sensitivities of 85% to 100% and specificities of 83% to 92% for diagnosing gout (low SOE).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Double-contour sign pooled sensitivity 74%, specificity 88%",
+     "quote": "pooled sensitivity and specificity for the double contour sign: 74% [95% CI, 52% to 88%] and 88% [CI, 68% to 96%], respectively [low SOE]",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "journal",
+   "cited_as": "Choi HK, et al. Purine-rich foods, dairy and protein intake, and the risk of gout in men. N Engl J Med. 2004;350(11):1093-1103.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15014182/",
+   "pmid": "15014182",
+   "doi": "10.1056/NEJMoa035700",
+   "record_title": "Purine-rich foods, dairy and protein intake, and the risk of gout in men.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2004",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Abstract only. Purine-content (mg per 100 g) table values and bar chart removed: no retrieved source; replaced with this study's relative risks. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "Meat RR 1.41, seafood RR 1.51, dairy RR 0.56 (highest vs lowest quintile); table and chart",
+     "quote": "The multivariate relative risk of gout among men in the highest quintile of meat intake, as compared with those in the lowest quintile, was 1.41",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Seafood 1.51; dairy 0.56",
+     "quote": "the corresponding relative risk associated with seafood intake was 1.51 (95 percent confidence interval, 1.17 to 1.95",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dairy 0.56",
+     "quote": "the multivariate relative risk among men in the highest quintile, as compared with those in the lowest quintile, was 0.56",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Purine-rich vegetables and total protein not associated; 12-year cohort of men",
+     "quote": "The level of consumption of purine-rich vegetables and the total protein intake were not associated with an increased risk of gout.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "12-year prospective study of 47,150 men",
+     "quote": "Over a 12-year period, we prospectively examined the relationship between purported dietary risk factors and new cases of gout among 47,150 men",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "FAQ: overall pattern matters more than eliminating vegetables",
+     "quote": "Moderate intake of purine-rich vegetables or protein is not associated with an increased risk of gout.",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "journal",
+   "cited_as": "Choi HK, et al. Alcohol intake and risk of incident gout in men: a prospective study. Lancet. 2004;363(9417):1277-1281.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15094272/",
+   "pmid": "15094272",
+   "doi": "10.1016/S0140-6736(04)16000-5",
+   "record_title": "Alcohol intake and risk of incident gout in men: a prospective study.",
+   "record_journal": "Lancet",
+   "record_year": "2004",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Abstract only. Old RRs 2.51 and 1.60 were not in the source. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "Beer RR 1.49 per daily 12-oz serving; spirits 1.15 per daily drink or shot",
+     "quote": "Beer consumption showed the strongest independent association with the risk of gout (multivariate RR per 12-oz serving per day 1.49; 95% CI 1.32-1.70).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Spirits 1.15; wine 1.04 not significant",
+     "quote": "Consumption of spirits was also significantly associated with gout (multivariate RR per drink or shot per day 1.15; 95% CI 1.04-1.28); however, wine consumption was not (multivariate RR per 4-oz serving per day 1.04",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Beer and spirits associated with higher risk",
+     "quote": "beer confers a larger risk than spirits, whereas moderate wine drinking does not increase the risk.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "journal",
+   "cited_as": "Choi HK, Willett W, Curhan G. Coffee consumption and risk of incident gout in men. Arthritis Rheum. 2007;56(6):2049-2055.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17530645/",
+   "pmid": "17530645",
+   "doi": "10.1002/art.22712",
+   "record_title": "Coffee consumption and risk of incident gout in men: a prospective study.",
+   "record_journal": "Arthritis Rheum",
+   "record_year": "2007",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Abstract only. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "4-5 cups RR 0.60; 6 or more cups 0.41",
+     "quote": "(0, <1, 1-3, 4-5, and > or = 6 cups per day) were 1.00, 0.97, 0.92, 0.60 (95% confidence interval [95% CI] 0.41-0.87), and 0.41",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "kind": "journal",
+   "cited_as": "Rai SK, et al. The DASH diet, Western diet, and risk of gout in men: prospective cohort study. BMJ. 2017;357:j1794.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28487277/",
+   "pmid": "28487277",
+   "doi": "10.1136/bmj.j1794",
+   "record_title": "The Dietary Approaches to Stop Hypertension (DASH) diet, Western diet, and risk of gout in men: prospective cohort study.",
+   "record_journal": "BMJ",
+   "record_year": "2017",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Old text called it a hazard ratio; source reports a relative risk. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "Highest fifth DASH score RR 0.68",
+     "quote": "A higher DASH dietary pattern score was associated with a lower risk for gout (adjusted relative risk for extreme fifths 0.68, 95% confidence interval 0.57 to 0.80",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "pmcid": "PMC5423545"
+  },
+  {
+   "n": 19,
+   "kind": "journal",
+   "cited_as": "Choi HK, et al. Antihypertensive drugs and risk of incident gout among patients with hypertension. BMJ. 2012;344:d8190.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22240117/",
+   "pmid": "22240117",
+   "doi": "10.1136/bmj.d8190",
+   "record_title": "Antihypertensive drugs and risk of incident gout among patients with hypertension: population based case-control study.",
+   "record_journal": "BMJ",
+   "record_year": "2012",
+   "article_type": "Comparative Study; Journal Article",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "Losartan RR 0.81; diuretics RR 2.36",
+     "quote": "0.81 (0.70 to 0.94) for losartan, 2.36 (2.21 to 2.52) for diuretics",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Diuretics associated with higher gout risk in hypertension",
+     "quote": "By contrast, diuretics, β blockers, angiotensin converting enzyme inhibitors, and non-losartan angiotensin II receptor blockers are associated with an increased risk of gout.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "pmcid": "PMC3257215"
+  },
+  {
+   "n": 20,
+   "kind": "journal",
+   "cited_as": "Hatano M, et al. Gout incidence in metformin versus SGLT-2 inhibitor users. Rheumatology (Oxford). 2025;64(7):4164-4171.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40127201/",
+   "pmid": "40127201",
+   "doi": "10.1093/rheumatology/keaf136",
+   "record_title": "Gout incidence in metformin versus sodium-glucose co-transporter-2 inhibitor users: a retrospective cohort study.",
+   "record_journal": "Rheumatology (Oxford)",
+   "record_year": "2025",
+   "article_type": "Journal Article; Comparative Study",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types); Crossref API for pages",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Previously cited as support for SGLT2 benefit; the study is null for that comparison and is now cited for what it found. Pages corrected 3654-3661 to 4164-4171; DOI added. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "Japanese claims study: gout risk may be comparable between metformin and SGLT2i starters",
+     "quote": "Gout risk may be comparable between metformin and SGLT-2is in individuals with diabetes",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "pmcid": "PMC12212906"
+  },
+  {
+   "n": 21,
+   "kind": "journal",
+   "cited_as": "Stamp LK, et al. Clinically insignificant effect of supplemental vitamin C on serum urate in patients with gout: a pilot RCT. Arthritis Rheum. 2013;65(6):1636-1642.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23681955/",
+   "pmid": "23681955",
+   "doi": "10.1002/art.37925",
+   "record_title": "Clinically insignificant effect of supplemental vitamin C on serum urate in patients with gout: a pilot randomized controlled trial.",
+   "record_journal": "Arthritis Rheum",
+   "record_year": "2013",
+   "article_type": "Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Abstract only. Unit error fixed: 0.014 is mmol/L, equal to 0.23 mg/dL. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "500 mg daily for 8 weeks lowered urate by 0.014 mmol/L (0.23 mg/dL) vs 0.118 mmol/L (1.9 mg/dL) with allopurinol",
+     "quote": "mean reduction 0.014 mmoles/liter [0.23 mg/dl] versus 0.118 mmoles/liter [1.9 mg/dl]; P < 0.001",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dose and duration",
+     "quote": "A modest dosage of vitamin C (500 mg/day) for 8 weeks had no clinically significant urate-lowering effects in patients with gout",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "kind": "journal",
+   "cited_as": "Neogi T, et al. 2015 Gout Classification Criteria: an ACR/EULAR collaborative initiative. Arthritis Rheumatol. 2015;67(10):2557-2568.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26352873/",
+   "pmid": "26352873",
+   "doi": "10.1002/art.39254",
+   "record_title": "2015 Gout Classification Criteria: an American College of Rheumatology/European League Against Rheumatism collaborative initiative.",
+   "record_journal": "Arthritis Rheumatol",
+   "record_year": "2015",
+   "article_type": "Consensus Statement; Journal Article; Systematic Review",
+   "retrieved_with": "PubMed connector get_article_metadata + get_full_text_article (PMC full text)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Full-text extraction drops some characters (for example 'subtract' before 'from the total score'); quotes copied as extracted. Septic-arthritis and urgent-care claims moved off this source. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "Big-toe joint classic; ankle or midfoot also scored",
+     "quote": "Anklemidfoot (as part of monoarticular or oligoarticular episode without involvement of the first metatarsophalangeal joint",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Episode features: red skin, cannot bear touch, difficulty walking",
+     "quote": "Erythema overlying affected joint (patient‐ reported or physician‐observed)• Can't bear touch or pressure to affected joint• Great difficulty with walking or inability to use affected joint",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Typical episode: maximal pain in under 24 hours, resolves within 14 days",
+     "quote": "Time to maximal pain <24 hours• Resolution of symptoms in ≤14 days• Complete resolution (to baseline level) between symptomatic episodes",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Urate scored off ULT, more than 4 weeks after episode start; retest when practical",
+     "quote": "Ideally, the serum urate level should be scored if tested at a time when the patient was not receiving urate‐lowering therapy and it was >4 weeks from the start of an episode",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "4 to under 6 mg/dL scores zero; under 4 counts against",
+     "quote": "for serum urate level, the category that receives a score of 0 is 4−<6 mg/dl",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Under 4 mg/dL reduces probability",
+     "quote": "if the serum urate level is <4 mg/dl (<0.24 mmoles/liter),from the total score. This approach was taken to emphasize that these findings reduce the probability of gout.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Crystals in joint fluid or tophus sufficient; otherwise clinical, laboratory, imaging domains",
+     "quote": "The presence of MSU crystals in a symptomatic joint/bursa (i.e., synovial fluid) or in a tophus is a sufficient criterion for classification of the subject as having gout",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "pmcid": "PMC4566153"
+  },
+  {
+   "n": 23,
+   "kind": "journal",
+   "cited_as": "Tardif JC, et al. Efficacy and Safety of Low-Dose Colchicine after Myocardial Infarction. N Engl J Med. 2019;381(26):2497-2505.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31733140/",
+   "pmid": "31733140",
+   "doi": "10.1056/NEJMoa1912388",
+   "record_title": "Efficacy and Safety of Low-Dose Colchicine after Myocardial Infarction.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2019",
+   "article_type": "Randomized Controlled Trial; Multicenter Study",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Abstract only. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "COLCOT: low-dose colchicine reduced ischemic CV events after MI",
+     "quote": "colchicine at a dose of 0.5 mg daily led to a significantly lower risk of ischemic cardiovascular events than placebo",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "kind": "journal",
+   "cited_as": "Taylor TH, et al. Initiation of allopurinol at first medical contact for acute attacks of gout: a randomized clinical trial. Am J Med. 2012;125(11):1126-1134.e7.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23098865/",
+   "pmid": "23098865",
+   "doi": "10.1016/j.amjmed.2012.05.025",
+   "record_title": "Initiation of allopurinol at first medical contact for acute attacks of gout: a randomized clinical trial.",
+   "record_journal": "Am J Med",
+   "record_year": "2012",
+   "article_type": "Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Abstract only. Page suffix corrected .e1 to .e7. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "No significant difference in pain, flares, inflammatory markers",
+     "quote": "Allopurinol initiation during an acute gout attack caused no significant difference in daily pain, recurrent flares, or inflammatory markers.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Everyone received indomethacin and colchicine",
+     "quote": "All subjects received indomethacin 50 mg 3 times per day for 10 days, a prophylactic dose of colchicine 0.6 mg 2 times per day for 90 days",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "kind": "label",
+   "cited_as": "Takeda Pharmaceuticals America, Inc. ULORIC (febuxostat) tablet: prescribing information with boxed warning. DailyMed. Revised April 2023.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd",
+   "version_or_date": "Revised 4/2023; DailyMed updated December 24, 2025; read 2026-11-07",
+   "retrieved_with": "WebFetch of DailyMed search (ULORIC) and drugInfo setid page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Replaces dead setid aa4d0f42-.... Quotes come from WebFetch extraction (direct download blocked by proxy).",
+   "claims": [
+    {
+     "text": "Boxed warning: higher CV death in gout patients with established CV disease vs allopurinol",
+     "quote": "Gout patients with established cardiovascular (CV) disease treated with ULORIC had a higher rate of CV death compared to those treated with allopurinol in a CV outcomes study",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Use only when allopurinol inadequate, not tolerated, or not advisable",
+     "quote": "ULORIC should only be used in patients who have an inadequate response to a maximally titrated dose of allopurinol, who are intolerant to allopurinol, or for whom treatment with allopurinol is not advisable",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Need not be discontinued if a flare occurs",
+     "quote": "If a gout flare occurs during ULORIC treatment, ULORIC need not be discontinued.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "kind": "journal",
+   "cited_as": "Khanna D, Khanna PP, Fitzgerald JD, et al. 2012 ACR guidelines for management of gout. Part 2. Arthritis Care Res. 2012;64(10):1447-1461.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23024029/",
+   "pmid": "23024029",
+   "doi": "10.1002/acr.21773",
+   "record_title": "2012 American College of Rheumatology guidelines for management of gout. Part 2: therapy and antiinflammatory prophylaxis of acute gouty arthritis.",
+   "record_journal": "Arthritis Care Res (Hoboken)",
+   "record_year": "2012",
+   "article_type": "Journal Article; Practice Guideline",
+   "retrieved_with": "PubMed connector get_article_metadata + get_full_text_article (PMC full text)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New source, added to support flare-timing, continuing-ULT-during-flare and flare-dosing statements that the 2020 guideline text does not state. Cited as the 2012 guideline in the text. Celery root is listed later in the same parenthetical as cherry juice in the source. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "Start treatment within 24 hours; consensus that early treatment improves outcomes",
+     "quote": "treatment should be preferentially initiated within 24 hours of onset of an acute gout attack (Evidence C). The latter recommendation was based on consensus that early treatment lead to better patient reported outcomes.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Continue established ULT without interruption during an attack",
+     "quote": "The TFP also recommended to continue established pharmacologic ULT without interruption, during an acute attack of gout (Evidence C); ie, do not stop ULT therapy during an acute attack.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Teach patients to start treatment at first signs",
+     "quote": "providing the patients with instruction so that they can initiate treatment upon signs and symptoms of an acute gout attack, without need to consult their health care practitioner for each attack",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cautions: CKD, heart failure, peptic ulcer, anticoagulation, diabetes, infection, hepatic disease",
+     "quote": "underlying moderate and severe CKD (NSAIDs, COX-2 inhibitors, colchicine), congestive heart failure (NSAIDs, COX-2 inhibitors), peptic ulcer disease (NSAIDs, COX-2 inhibitors, corticosteroids), anticoagulation or anti-platelet aggregation therapy (NSAIDs), diabetes (corticosteroids)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Infection and hepatic cautions",
+     "quote": "ongoing infection or high risk of infection (corticosteroids), and hepatic disease (NSAIDs. COX-2 inhibitors, colchicine)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Oral prednisone or prednisolone at least 0.5 mg/kg per day for 5-10 days then stop (table)",
+     "quote": "prednisone or prednisolone at a starting dose of at least 0.5 mg/kg per day for 5–10 days, followed by discontinuation (Evidence A)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Full NSAID dose until attack resolves (table)",
+     "quote": "The TFP did recommend continuing the initial NSAID inhibitor treatment regimen at full dose (if appropriate) until the acute gouty attack completely resolved (Evidence C).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Oral colchicine only for attacks with onset no more than 36 hours earlier (table)",
+     "quote": "only for gout attacks where the onset was no greater than 36 hours prior to treatment initiation",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Major colchicine interactions: clarithromycin, erythromycin, cyclosporine, disulfiram",
+     "quote": "major colchicine drug interactions include those with clarithromycin, erythromycin, cyclosporine, and disulfiram",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Panel voted against oral complementary agents (cherry juice or extract, ginger, celery root, charcoal) for an acute attack",
+     "quote": "The TFP voted, as inappropriate, the use of a variety of oral complementary agents for the treatment of an acute attack (cherry juice or extract, salicylate-rich willow-bark extract, ginger, flaxseed, charcoal",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ice as adjunct; do not stop ULT during flare (paragraph also mentions rest, elevation, hydration, alcohol avoidance, which this source does not address)",
+     "quote": "The TFP recommended topical ice application to be an appropriate adjunctive measure to one or more pharmacologic therapies for acute gouty arthritis",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    }
+   ],
+   "pmcid": "PMC3662546",
+   "version_or_date": "2012 guideline (superseded in part by the 2020 ACR guideline); PMC full text read 2026-11-07"
+  },
+  {
+   "n": 27,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia (NLM). Septic arthritis. Review date 5/12/2025.",
+   "url": "https://medlineplus.gov/ency/article/000430.htm",
+   "version_or_date": "Review Date 5/12/2025; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New source for septic-arthritis and red-flag statements previously cited to the classification criteria and the ACP diagnosis review.",
+   "claims": [
+    {
+     "text": "Septic arthritis causes fever and swelling, usually one joint",
+     "quote": "There is a fever and joint swelling that is usually in just one joint.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Painful joint",
+     "quote": "There is also intense joint pain, which gets worse with movement.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Joint fluid sent for cell count, crystals, Gram stain, culture",
+     "quote": "Aspiration of joint fluid for cell count, examination of crystals under the microscope, Gram stain, and culture",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Delayed treatment can cause permanent joint damage",
+     "quote": "If treatment is delayed, permanent joint damage may result.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fever with a hot swollen joint needs urgent in-person assessment (urgency is the guide's clinical framing; page says contact your provider)",
+     "quote": "Contact your provider if you develop symptoms of septic arthritis.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "kind": "label",
+   "cited_as": "Prometheus Laboratories Inc. ZYLOPRIM (allopurinol) tablet: prescribing information. DailyMed. Updated November 30, 2009.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=342832b5-1a32-4bea-bc49-ab0fd152154e",
+   "version_or_date": "DailyMed: Updated November 30, 2009 (version 2 published Dec 16, 2009); read 2026-11-07",
+   "retrieved_with": "WebFetch of DailyMed search (ZYLOPRIM) and drugInfo setid page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New allopurinol label source. DailyMed search for ZYLOPRIM returned this single label, dated 2009; flagged for Parth. Quotes come from WebFetch extraction.",
+   "claims": [
+    {
+     "text": "Stop at first appearance of rash or signs of allergic reaction",
+     "quote": "ZYLOPRIM SHOULD BE DISCONTINUED AT THE FIRST APPEARANCE OF SKIN RASH OR OTHER SIGNS WHICH MAY INDICATE AN ALLERGIC REACTION.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Some with most severe reactions had fever, chills, joint aches",
+     "quote": "Some patients with the most severe reaction also had fever, chills, arthralgias,",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "kind": "journal",
+   "cited_as": "Richette P, Doherty M, Pascual E, et al. 2018 updated EULAR evidence-based recommendations for the diagnosis of gout. Ann Rheum Dis. 2020;79(1):31-38.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31167758/",
+   "pmid": "31167758",
+   "doi": "10.1136/annrheumdis-2019-215315",
+   "record_title": "2018 updated European League Against Rheumatism evidence-based recommendations for the diagnosis of gout.",
+   "record_journal": "Ann Rheum Dis",
+   "record_year": "2020 (Crossref published-print 2020-01; PubMed record date 2019-06-05)",
+   "article_type": "Consensus Statement; Journal Article; Practice Guideline",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types); Crossref API",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New source. Abstract only (no PMC). scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice type.",
+   "claims": [
+    {
+     "text": "High urate alone not enough to diagnose gout",
+     "quote": "There was consensus that a diagnosis of gout should not be based on the presence of hyperuricaemia alone.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Search for crystals in everyone with suspected gout",
+     "quote": "A search for crystals in synovial fluid or tophus aspirates is recommended in every person with suspected gout",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

@@ -3,7 +3,7 @@ import InsuranceStateConditionClient from '../../../components/InsuranceStateCon
 
 // BCBS state slugs → code
 const STATE_SLUGS = {
-  florida: 'FL',
+  arizona: 'AZ',
   georgia: 'GA',
   illinois: 'IL',
   pennsylvania: 'PA',

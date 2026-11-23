@@ -62,9 +62,6 @@ export default function IndustryPageLayout({ industry }) {
                   <a href="#form" className="tdmd-emp-btn tdmd-emp-btn--primary">
                     Book a 15-Minute Call
                   </a>
-                  <Link href="/employers/brief" className="tdmd-emp-btn tdmd-emp-btn--outline">
-                    Download the Brief (PDF)
-                  </Link>
                 </div>
               </div>
               <div className="tdmd-emp-feecard">

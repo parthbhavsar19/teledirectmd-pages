@@ -153,8 +153,8 @@ export default function ConditionGridCanary({ category, conditionDescriptions })
                 <p className="wwtc-panel-desc">{panelCopy}</p>
                 <p className="wwtc-panel-note">{COMPLIANCE_NOTE}</p>
                 <div className="wwtc-panel-actions">
-                  <a href="/book-online" className="tdm-btn tdm-btn-primary">Book Visit</a>
-                  <a href={`/${c.slug}`} className="tdm-btn tdm-btn-secondary">Learn More →</a>
+                  <a href="/book-online/" className="tdm-btn tdm-btn-primary">Book Visit</a>
+                  <a href={`/${c.slug}/`} className="tdm-btn tdm-btn-secondary">Learn More →</a>
                 </div>
               </div>
             </div>
@@ -163,7 +163,7 @@ export default function ConditionGridCanary({ category, conditionDescriptions })
       </div>
 
       <div className="wwtc-section-cta">
-        <a href="/book-online" className="tdm-btn tdm-btn-primary wwtc-section-cta-btn">Book a Visit — $79</a>
+        <a href="/book-online/" className="tdm-btn tdm-btn-primary wwtc-section-cta-btn">Book a Visit — $79</a>
       </div>
     </section>
   );

@@ -1,463 +1,526 @@
+import { contentDate } from '../../../lib/content-dates';
+import comparison from '../../../data/competitor-comparison.json';
+import states from '../../../data/states.json';
+import { uninsuredCSS } from '../../../lib/uninsured-styles';
+import { PHYSICIAN_NAME, PHYSICIAN_NPI, CREDENTIAL_BOARD } from '../../../lib/global-invariants';
+import UninsuredCompareCards from './UninsuredCompareCards';
+import UninsuredCoverageMap from './UninsuredCoverageMap';
+import UninsuredStickyCta from './UninsuredStickyCta';
+import UninsuredVideoHero from './UninsuredVideoHero';
+
+/* Coverage comes from data/states.json, the same source the state pages and the
+   sitemap build from, so a state launch updates the map, the list and the
+   structured data without an edit here. Copy says "40+ states" rather than a
+   number, per brand phrasing; the exhaustive list stays on the page inside the
+   coverage section for patients checking whether they qualify. */
+const SERVED = [...states].sort((a, b) => a.name.localeCompare(b.name));
+const STATE_ABBRS = SERVED.map((s) => s.abbr);
+const STATE_NAMES = SERVED.map((s) => s.name);
+const ALL_US_STATES = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado',
+  'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana',
+  'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan',
+  'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire',
+  'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma',
+  'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee',
+  'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'];
+const NOT_YET = ALL_US_STATES.filter((n) => !STATE_NAMES.includes(n));
+
+const Tick = () => (
+  <span className="uac-tick" aria-hidden="true">
+    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5" /></svg>
+  </span>
+);
+
+const HERO_CHIPS = [
+  { label: 'UTI (women only)', slug: 'uti-treatment-online' },
+  { label: 'Sinus infection', slug: 'sinus-infection-treatment-online' },
+  { label: 'Blood pressure refill', slug: 'hypertension-refills-online' },
+  { label: 'GERD', slug: 'acid-reflux-refills-online' },
+  { label: 'Cold & flu', slug: 'common-cold-treatment-online' },
+];
+
+const INCLUDED = [
+  'A 10 to 15 minute video visit with the same board-certified family medicine physician every time',
+  'E-prescription to any US pharmacy you choose, including Cost Plus Drugs and Costco',
+  'No enrollment fee, no membership, no subscription, no facility fee',
+  'No pressure to sign up for monthly medication delivery',
+  'HSA and FSA cards accepted at checkout',
+  'Follow-ups are the same $79 flat. No first-visit surcharge.',
+];
+
+const TELEHEALTH_OK = [
+  'UTI (women only), sinus infection, bronchitis, strep-like symptoms',
+  'Cold, flu, cough, low-grade fever',
+  'Rash, eczema, cold sore, mild acne',
+  'Refills: hypertension, diabetes, GERD, statins (non-controlled)',
+  'Migraine, reflux, mild allergic reaction',
+  'Pink eye, adult ear pain, uncomplicated UTI (women only)',
+  'Travel medicine, work notes, med reviews',
+];
+
+const GO_IN_PERSON = [
+  'Chest pain, shortness of breath, heart-attack symptoms',
+  'Stroke signs: face droop, arm weakness, slurred speech',
+  'Uncontrolled bleeding or suspected fracture',
+  'Severe abdominal pain, vomiting blood, black stools',
+  'Head injury with confusion or loss of consciousness',
+  'Pregnancy complications, severe pediatric illness',
+  'Mental health emergency: call or text 988',
+];
+
+const TAG_COLORS = { Infection: '#14706B', Chronic: '#E85D3C', Skin: '#C75B4A', Respiratory: '#2E7D6E' };
+
+const CONDITIONS = [
+  { tag: 'Infection', name: 'UTI (women only)', blurb: 'Uncomplicated UTI evaluation; antibiotics if appropriate.', slug: 'uti-treatment-online' },
+  { tag: 'Infection', name: 'Sinus infection', blurb: 'Bacterial vs viral; antibiotics only when indicated.', slug: 'sinus-infection-treatment-online' },
+  { tag: 'Respiratory', name: 'Cold, flu, respiratory', blurb: 'Same-day evaluation, antivirals for eligible flu.', slug: 'common-cold-treatment-online' },
+  { tag: 'Chronic', name: 'Hypertension', blurb: 'Ongoing BP management and refills, same physician.', slug: 'hypertension-refills-online' },
+  { tag: 'Chronic', name: 'Type 2 diabetes', blurb: 'Refills, dose adjustments, A1c follow-up.', slug: 'diabetes-refills-online' },
+  { tag: 'Chronic', name: 'Acid reflux / GERD', blurb: 'PPI and H2 blocker management, no specialist copay.', slug: 'acid-reflux-refills-online' },
+  { tag: 'Skin', name: 'Eczema & skin', blurb: 'Topical prescriptions evaluated by video.', slug: 'eczema-treatment-online' },
+  { tag: 'Infection', name: 'Influenza', blurb: 'Same-day evaluation, antivirals when eligible.', slug: 'influenza-treatment-online' },
+  { tag: 'Chronic', name: 'Migraine', blurb: 'Abortive and preventive prescriptions.', slug: 'migraine-refills-online' },
+  { tag: 'Infection', name: 'Pink eye', blurb: 'Drops when bacterial, guidance when viral.', slug: 'pink-eye-treatment-online' },
+];
+
+const STEPS = [
+  { img: '/images/steps/step-book.jpg', meta: '01 · about 2 minutes', title: 'Request a visit', body: 'Open TeleDirectMD.com on your phone. See the $79 price before you confirm. Tell us your state and symptoms.' },
+  { img: '/images/steps/step-video.jpg', meta: '02 · 10 to 15 minutes', title: 'Connect by video', body: 'You meet Dr. Bhavsar by secure video. Same-day slots most days, plus evenings and weekends.' },
+  { img: '/images/steps/step-rx.jpg', meta: '03 · minutes later', title: 'Get treated', body: "Prescription e-sent to the pharmacy you choose. If your case isn't right for telehealth, you hear it directly and get pointed to the right care." },
+];
+
+const PHARMACIES = [
+  { href: 'https://costplusdrugs.com', name: 'Cost Plus Drugs', note: 'Often the cheapest source for common generics.' },
+  { href: 'https://goodrx.com', name: 'GoodRx coupons', note: 'Show at pickup. No membership needed for a coupon.' },
+  { href: 'https://www.walmart.com/cp/4-prescriptions/1078664', name: 'Walmart $4 / $10 list', note: 'Covers many common medications.' },
+  { href: 'https://www.costco.com/pharmacy.html', name: 'Costco pharmacy', note: 'Low cash prices. No Costco membership needed to fill.' },
+];
+
+const REFERENCES = [
+  { href: 'https://www.kff.org/uninsured/issue-brief/key-facts-about-the-uninsured-population/', label: 'Key facts about the uninsured population, KFF, 2025' },
+  { href: 'https://doi.org/10.1136/bmjopen-2017-021161', label: 'Continuity of care with doctors and mortality: a systematic review, Pereira Gray et al., BMJ Open 2018' },
+  { href: 'https://www.pennmedicine.org/news/study-finds-telemedicine-visits-cost-far-less-than-office-visits', label: 'Telemedicine visits cost far less than office visits, Penn Medicine / JAMA Network Open' },
+  { href: 'https://www.goodrx.com/healthcare-access/telehealth/how-much-does-telehealth-cost', label: 'How much does a telehealth visit cost? GoodRx' },
+  { href: 'https://coveredusa.org/en/cost/urgent-care', label: 'Urgent care visit cost without insurance, CoveredUSA 2026' },
+];
+
+/* Prose gets "September 8, 2026"; JSON-LD keeps the ISO form. */
+const LONG_DATE = new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+const longDate = (iso) => LONG_DATE.format(new Date(`${iso}T00:00:00Z`));
+
+const OTHER_SEGMENTS = [
+  { href: '/who-we-serve/truck-drivers/', label: 'Truck drivers' },
+  { href: '/who-we-serve/gig-workers/', label: 'Gig workers & freelancers' },
+  { href: '/who-we-serve/hdhp-hsa-holders/', label: 'HDHP & HSA holders' },
+  { href: '/who-we-serve/early-retirees/', label: 'Early retirees' },
+  { href: '/who-we-serve/', label: 'All communities' },
+];
+
 export default function UninsuredAffordableCarePage() {
   const baseUrl = 'https://teledirectmd.com';
   const pageUrl = `${baseUrl}/who-we-serve/uninsured-affordable-care`;
-  const today = new Date().toISOString().split('T')[0];
+  const today = contentDate('whoWeServe');
+  const checkedOn = longDate(comparison.asOfDate);
 
-  /* ── Conditions to link ─────────────────────────────────────────── */
-  const conditions = [
-    { name: 'UTI / Urinary Tract Infection', slug: 'uti-treatment-online', desc: 'Fast antibiotic prescriptions sent to your local pharmacy — no insurance required, no waiting room.' },
-    { name: 'Sinus Infection', slug: 'sinus-infection-treatment-online', desc: 'Evaluation and treatment for sinus pressure, congestion, and post-nasal drip from your phone for $79.' },
-    { name: 'Respiratory Infections', slug: 'common-cold-treatment-online', desc: 'Cold, flu, and respiratory infection treatment — transparent cash-pay pricing, no insurance needed.' },
-    { name: 'Hypertension / High Blood Pressure', slug: 'hypertension-refills-online', desc: 'Ongoing blood pressure monitoring and medication refills at a fraction of the cost of an in-person visit.' },
-    { name: 'Type 2 Diabetes Management', slug: 'diabetes-refills-online', desc: 'Medication refills and guidance to keep blood sugar in range — affordable, physician-led care.' },
-    { name: 'Acid Reflux / GERD', slug: 'acid-reflux-refills-online', desc: 'Medication management for heartburn and reflux without a pricey specialist or insurance copay.' },
-    { name: 'Skin Conditions / Eczema', slug: 'eczema-treatment-online', desc: 'Prescription treatment for eczema and common skin conditions — evaluated by a board-certified physician.' },
-    { name: 'Influenza', slug: 'influenza-treatment-online', desc: 'Same-day evaluation and antiviral prescriptions for the flu — know your cost before you book.' },
-    { name: 'Migraines', slug: 'migraine-refills-online', desc: 'Prescription migraine treatment and refills without insurance — affordable, physician-led.' },
-    { name: 'Pink Eye / Conjunctivitis', slug: 'pink-eye-treatment-online', desc: 'Fast evaluation and prescription drops for pink eye — no urgent care copay, no insurance required.' },
-  ];
-
-  /* ── FAQ data ────────────────────────────────────────────────────── */
   const faqItems = [
     {
-      q: 'How much does TeleDirectMD cost without insurance?',
-      a: 'TeleDirectMD charges a transparent flat fee starting at $79 per visit for self-pay patients — no insurance required. You will see your cost before you book, so there are no surprises. For context, a Penn Medicine study found telehealth visits average $96 compared to $509 for an in-person episode of care, and GoodRx reports that telehealth visits without insurance typically range from $40 to $90 depending on the platform. TeleDirectMD\'s $79 starting price is at the lower end of that range and comes with a board-certified physician — not a PA or NP.'
+      q: 'How much does an online doctor cost without insurance?',
+      a: `A TeleDirectMD visit is $79 flat, cash pay. GoodRx reports typical no-insurance telehealth prices of $40 to $90 per visit, though the lowest advertised prices usually require a monthly membership. Name-brand telehealth runs $89 to $129. In-person urgent care averages $180, and an uninsured ER visit averages $2,400 or more. Prices other than ours were checked ${checkedOn}; confirm on each company's site before you compare.`,
     },
     {
-      q: 'Are there any hidden fees?',
-      a: 'No. TeleDirectMD does not charge enrollment fees, subscription fees, or facility fees. The cost displayed before you book is the cost you pay — period. There are no surprise bills after your visit. If a prescription is sent to your pharmacy, the medication cost is separate and depends on the drug and your pharmacy; we will always discuss lower-cost generic options where available.'
+      q: 'Will I see the same doctor every visit?',
+      a: `Yes. TeleDirectMD is a single-physician practice by design. You see ${PHYSICIAN_NAME} on your first visit and every visit after. Almost every other cash-pay service rotates you through a large clinician pool.`,
     },
     {
-      q: 'What\'s included in a telehealth visit?',
-      a: 'Every TeleDirectMD visit includes a secure video consultation with a board-certified physician, a clinical evaluation of your symptoms and medical history, a treatment plan, and — when appropriate — an electronic prescription sent directly to the pharmacy of your choice. Most visits take 10 to 15 minutes. No app download is required; the visit works on any smartphone.'
+      q: 'Is there a membership, subscription, or hidden fee?',
+      a: 'No. $79 is the whole price, and follow-ups are the same $79. There is no enrollment fee, no membership tier, and no unlock price. HSA and FSA cards are accepted; telehealth visits are qualified medical expenses under IRS rules. Insurance is optional and accepted in select states. Medication costs are separate from the visit fee and depend on your drug and pharmacy.',
     },
     {
-      q: 'Can you prescribe medications if I don\'t have insurance?',
-      a: 'Yes. TeleDirectMD can prescribe medications regardless of whether you have insurance. Prescriptions are sent electronically to any pharmacy in the United States — CVS, Walgreens, Walmart, Kroger, or any independent pharmacy. If cost is a concern, ask us about generic alternatives; many are available for $4–$20 at major chains. We do not prescribe controlled substances.'
+      q: 'Can I get antibiotics or refills prescribed online?',
+      a: 'Prescriptions are issued only when the physician determines they are medically appropriate after evaluating you. Common examples include uncomplicated UTIs in women only, bacterial sinus infections, and refills for blood pressure, diabetes, or GERD. Antibiotics are not prescribed for conditions that are usually viral, and no controlled substances are prescribed.',
     },
     {
-      q: 'Is TeleDirectMD available in my state?',
-      a: 'TeleDirectMD is licensed in 43 states: Alabama, Arizona, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina, South Dakota, Tennessee, Texas, Utah, Virginia, Washington, West Virginia, Wisconsin, and Wyoming. You must be physically located in one of these states at the time of your visit. Visit our States We Serve page for the full list.'
-    },
-    {
-      q: 'How does TeleDirectMD compare to urgent care or the ER?',
-      a: 'The cost difference is substantial. An urgent care visit without insurance typically costs $150 to $350. An emergency room visit averages $500 to $3,000 or more — and that\'s before imaging, labs, or medications. TeleDirectMD starts at $79 for telehealth-appropriate conditions. For non-emergency issues — infections, medication refills, chronic condition management, and more — a telehealth visit provides the same clinical quality at a fraction of the cost. The American College of Emergency Physicians estimates that a significant share of ER visits could be appropriately handled in lower-acuity settings.'
-    },
-    {
-      q: 'Can I see the same doctor for ongoing care?',
-      a: 'Yes. We encourage continuity of care. Many patients who use TeleDirectMD for chronic conditions like hypertension, diabetes, and acid reflux return to the same physician for ongoing management. Having a consistent physician who knows your medical history leads to better outcomes and avoids the cost and inefficiency of repeating your history to a new provider each time. You can request your prior visit history when booking.'
-    },
-    {
-      q: 'What forms of payment do you accept?',
-      a: 'TeleDirectMD accepts all major credit and debit cards (Visa, Mastercard, American Express, Discover), as well as HSA and FSA cards. Payment is collected at the time of booking. We do not require insurance for payment. In select states, we also accept certain insurance plans — contact us to confirm whether your plan is accepted in your state.'
+      q: 'Does an uninsured visit affect future insurance?',
+      a: 'For ACA marketplace, employer, Medicare, and Medicaid plans, no: pre-existing conditions cannot raise premiums or deny coverage. Life and disability underwriting can review medical records, and whether a specific visit matters depends on the diagnosis and the carrier.',
     },
   ];
 
-  /* ── JSON-LD Schema ──────────────────────────────────────────────── */
   const jsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "BreadcrumbList",
-        "@id": `${pageUrl}#breadcrumbs`,
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": `${baseUrl}/` },
-          { "@type": "ListItem", "position": 2, "name": "Who We Serve", "item": `${baseUrl}/who-we-serve` },
-          { "@type": "ListItem", "position": 3, "name": "Uninsured & Affordable Care", "item": pageUrl }
-        ]
-      },
-      {
-        "@type": "MedicalOrganization",
-        "name": "TeleDirectMD",
-        "url": baseUrl,
-        "logo": `${baseUrl}/assets/brand/teledirectmd-logo.png`,
-        "telephone": "+1-678-956-1855",
-        "medicalSpecialty": "GeneralPractice",
-        "availableService": {
-          "@type": "MedicalTherapy",
-          "name": "Telehealth Consultations"
-        },
-        "areaServed": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","WA","WV","WI","WY"]
-      },
-      {
-        "@type": "Physician",
-        "@id": `${baseUrl}/about#physician`,
-        "name": "Parth Bhavsar, MD",
-        "medicalSpecialty": "FamilyMedicine",
-        "worksFor": {
-          "@type": "MedicalOrganization",
-          "name": "TeleDirectMD"
-        },
-        "licensedIn": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","WA","WV","WI","WY"]
-      },
-      {
-        "@type": "FAQPage",
-        "@id": `${pageUrl}#faq`,
-        "mainEntity": faqItems.map(item => ({
-          "@type": "Question",
-          "name": item.q,
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": item.a
-          }
-        }))
-      },
-      {
-        "@type": "MedicalWebPage",
-        "@id": `${pageUrl}#webpage`,
-        "url": pageUrl,
-        "name": "Affordable Online Doctor Visits Without Insurance — Transparent Pricing, No Surprises",
-        "description": "TeleDirectMD offers affordable telehealth visits without insurance across 43 states. Cash-pay starting at $79. Board-certified physician. Same-day visits, evenings & weekends.",
-        "inLanguage": "en-US",
-        "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
-        "author": { "@id": `${baseUrl}/about#physician` },
-        "datePublished": today,
-        "dateModified": today,
-        "publisher": {
-          "@type": "Organization",
-          "name": "TeleDirectMD",
-          "url": baseUrl
-        },
-        "audience": {
-          "@type": "MedicalAudience",
-          "audienceType": "Patient"
-        },
-        "speakable": {
-          "@type": "SpeakableSpecification",
-          "cssSelector": ["h1", ".tdmd-hero-sub", "#uninsured-faq .tdmd-faq-question"]
-        }
-      }
+    '@context': 'https://schema.org',
+    '@graph': [
+      { '@type': 'BreadcrumbList', '@id': `${pageUrl}#breadcrumbs`, itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: `${baseUrl}/` },
+          { '@type': 'ListItem', position: 2, name: 'Who We Serve', item: `${baseUrl}/who-we-serve` },
+          { '@type': 'ListItem', position: 3, name: 'Uninsured & Affordable Care', item: pageUrl }
+      ]},
+      { '@type': ['MedicalBusiness','MedicalOrganization','Organization'], '@id': `${baseUrl}/#organization`,
+        name: 'TeleDirectMD', url: baseUrl, logo: `${baseUrl}/assets/brand/teledirectmd-logo.png`,
+        telephone: '+1-678-956-1855', medicalSpecialty: 'FamilyMedicine', priceRange: '$79',
+        areaServed: STATE_ABBRS, employee: { '@id': `${baseUrl}/about/#physician` },
+        makesOffer: { '@type': 'Offer', name: 'Online doctor video visit, cash pay',
+          price: '79.00', priceCurrency: 'USD', category: 'Telehealth video visit',
+          description: 'Flat $79 per visit with a board-certified family medicine physician. No insurance, no membership, no drug subscription required. Follow-up visits are the same $79.',
+          eligibleRegion: STATE_ABBRS, availableAtOrFrom: { '@type': 'VirtualLocation', url: 'https://teledirectmd.as.me' } },
+        availableService: { '@type': 'MedicalTherapy', name: 'Telehealth video visit for non-emergency adult conditions', howPerformed: 'Secure HIPAA-compliant video visit' } },
+      { '@type': 'Physician', '@id': `${baseUrl}/about/#physician`, name: PHYSICIAN_NAME,
+        givenName: 'Parth', familyName: 'Bhavsar', honorificSuffix: 'MD', jobTitle: 'Founder and Physician',
+        medicalSpecialty: 'FamilyMedicine', worksFor: { '@id': `${baseUrl}/#organization` },
+        alumniOf: [
+          { '@type': 'EducationalOrganization', name: 'Smt NHL Municipal Medical College, Ahmedabad, India' },
+          { '@type': 'EducationalOrganization', name: 'University of Mississippi Medical Center (Family Medicine Residency, 2021)' } ],
+        hasCredential: [{ '@type': 'EducationalOccupationalCredential', credentialCategory: 'Board Certification',
+          name: 'Board Certified in Family Medicine', recognizedBy: { '@type': 'Organization', name: CREDENTIAL_BOARD } }],
+        areaServed: STATE_ABBRS },
+      { '@type': 'HowTo', name: 'How to book a $79 online doctor visit without insurance',
+        estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '79' }, totalTime: 'PT15M',
+        step: STEPS.map((s, i) => ({ '@type': 'HowToStep', position: i + 1, name: s.title, text: s.body })) },
+      { '@type': 'FAQPage', '@id': `${pageUrl}#faq`,
+        mainEntity: faqItems.map(item => ({ '@type': 'Question', name: item.q, acceptedAnswer: { '@type': 'Answer', text: item.a } })) },
+      { '@type': 'MedicalWebPage', '@id': `${pageUrl}#webpage`, url: pageUrl,
+        name: '$79 Online Doctor Without Insurance - Same MD, 40+ States',
+        description: 'See the same board-certified physician every visit for $79 flat. No insurance, no membership, no drug subscriptions. 40+ states, same-day, evenings and weekends.',
+        inLanguage: 'en-US', breadcrumb: { '@id': `${pageUrl}#breadcrumbs` },
+        author: { '@id': `${baseUrl}/about/#physician` }, reviewedBy: { '@id': `${baseUrl}/about/#physician` },
+        lastReviewed: today, datePublished: today, dateModified: today,
+        publisher: { '@type': 'Organization', name: 'TeleDirectMD', url: baseUrl },
+        audience: { '@type': 'MedicalAudience', audienceType: 'Patient' },
+        about: [
+          { '@type': 'MedicalCondition', name: 'Urinary tract infection' },
+          { '@type': 'MedicalCondition', name: 'Sinus infection' },
+          { '@type': 'MedicalCondition', name: 'Influenza' },
+          { '@type': 'MedicalCondition', name: 'Hypertension' },
+          { '@type': 'MedicalCondition', name: 'Type 2 diabetes' },
+          { '@type': 'MedicalCondition', name: 'Gastroesophageal reflux disease' },
+          { '@type': 'MedicalCondition', name: 'Eczema' },
+          { '@type': 'MedicalCondition', name: 'Migraine' },
+          { '@type': 'MedicalCondition', name: 'Conjunctivitis' } ],
+        mainEntity: { '@id': `${pageUrl}#faq` },
+        speakable: { '@type': 'SpeakableSpecification', cssSelector: ['h1', '.uac-hero-sub', '.uac-faq-q'] } }
     ]
   };
 
   return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+    <div className="uac-wrap">
+      <style dangerouslySetInnerHTML={{ __html: uninsuredCSS }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }} />
 
-      {/* ── Breadcrumb ──────────────────────────────────────────── */}
-      <nav className="tdmd-breadcrumbs" aria-label="Breadcrumb">
-        <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: '0' }}>
-          <a href="/">Home</a>
-          <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <a href="/who-we-serve">Who We Serve</a>
-          <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <span aria-current="page">Uninsured &amp; Affordable Care</span>
-        </div>
-      </nav>
+      {/* ── Hero (video) ─────────────────────────────────────────────────── */}
+      <section className="uac-hero">
+        <UninsuredVideoHero />
+        <div className="uac-hero-overlay" aria-hidden="true" />
+        <div className="uac-hero-container">
+          <nav className="uac-crumbs" aria-label="Breadcrumb">
+            <a href="/">Home</a><span aria-hidden="true">/</span>
+            <a href="/who-we-serve/">Who We Serve</a><span aria-hidden="true">/</span>
+            <span aria-current="page">Uninsured &amp; Affordable Care</span>
+          </nav>
 
-      {/* ── 1. Hero ─────────────────────────────────────────────── */}
-      <section className="tdmd-hero" id="uninsured-hero">
-        <div className="tdmd-container">
-          <div className="tdmd-hero-grid">
-            <div className="tdmd-hero-copy">
-              <h1>Affordable Online Doctor Visits Without Insurance — Transparent Pricing, No Surprises</h1>
-              <p className="tdmd-hero-sub">Licensed physician in 43 states. Cash-pay starting at $79. Same-day visits, evenings &amp; weekends.</p>
-              <p>
-                Nearly 9% of Americans who were enrolled in ACA marketplace plans dropped coverage in 2026 after premium increases of over 100% following subsidy expiration. 23% of gig workers had no health insurance even before the lapse, and 58% of uninsured gig workers cited prohibitive cost as the reason. Telehealth is a direct alternative: transparent cash-pay pricing, no insurance required, clinical-quality care from any smartphone.
-              </p>
-              <ul className="tdmd-hero-benefits">
-                <li>Board-certified physician — not a PA, not an NP, not an algorithm</li>
-                <li>Licensed in 43 states</li>
-                <li>Transparent cash-pay pricing starting at $79 — no hidden fees</li>
-                <li>No insurance required, no surprise billing</li>
-                <li>Same-day visits, evenings &amp; weekends</li>
-              </ul>
-              <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
-              </div>
-              <p className="tdmd-reviewed">
-                Last reviewed on {today} by{' '}
-                <a className="tdmd-author-link" href="/about" aria-label="About Parth Bhavsar, MD">
-                  Parth Bhavsar, MD
-                </a>
-              </p>
+          <div className="uac-hero-copy">
+            <span className="uac-eyebrow uac-eyebrow--orange">Uninsured &amp; affordable care</span>
+            <h1>$79. One doctor. No insurance needed.</h1>
+            <p className="uac-hero-sub">A board-certified MD by video, same-day, in 40+ states. No membership, no drug subscription.</p>
+
+            <div className="uac-hero-ctas">
+              <a className="uac-btn uac-btn--primary" href="/book-online/" data-analytics="book_hero">Book a $79 Visit</a>
+              <a className="uac-btn uac-btn--glass" href="#uninsured-compare">See How We Compare</a>
             </div>
 
-            <div className="tdmd-hero-side">
-              <div className="tdmd-hero-card">
-                <h2>Why the Uninsured Choose TeleDirectMD</h2>
-                <ul>
-                  <li>Know your cost upfront — $79 flat fee, no surprise billing</li>
-                  <li>No insurance paperwork, no prior authorizations</li>
-                  <li>Prescriptions sent to any pharmacy in the U.S.</li>
-                  <li>Physician-led care, not an NP or algorithm</li>
-                  <li>No enrollment or subscription fees required</li>
-                </ul>
-                <p className="tdmd-hero-note">No app download required. Works on any smartphone.</p>
-              </div>
+            <div className="uac-chiprow">
+              <span className="uac-chiprow-label">Common visits:</span>
+              {HERO_CHIPS.map((c) => (
+                <a key={c.slug} className="uac-chip" href={`/${c.slug}/`}>{c.label}</a>
+              ))}
             </div>
+
+            <p className="uac-byline">Medically reviewed by <a href="/about/">{PHYSICIAN_NAME}</a> · Updated {longDate(today)}</p>
           </div>
         </div>
       </section>
 
-      {/* ── 2. The Problem ──────────────────────────────────────── */}
-      <section className="tdmd-section" id="uninsured-problem">
-        <div className="tdmd-container">
-          <h2>The Uninsured Crisis in America — Millions Newly Without Coverage</h2>
-          <p>
-            The expiration of enhanced ACA subsidies at the end of 2025 triggered the largest single-year disruption to marketplace enrollment in the law's history. Premiums more than doubled for millions of enrollees who relied on those subsidies. The Congressional Budget Office projected that marketplace enrollment could decline by roughly half in 2026 compared to 2025 levels — removing health coverage from an estimated 4 to 5 million Americans.
-          </p>
-          <p>
-            Even before the lapse, <strong>more than 30 million Americans were uninsured</strong>, with millions more underinsured. The financial consequences of being uninsured are well-documented: the average emergency room visit costs between $500 and $3,000 or more; a single urgent care visit without insurance runs $150 to $350. Many uninsured Americans delay or forgo care entirely until conditions worsen — often resulting in the most expensive outcome of all: an ER visit.
-          </p>
-          <p>
-            Telehealth changes this calculus. A <strong>Penn Medicine study found that telehealth visits average $96 compared to $509 for an in-person episode of care</strong> — more than five times less expensive. GoodRx reports telehealth visits without insurance typically range from $40 to $90. TeleDirectMD starts at $79 — with no hidden fees and no surprise billing.
-          </p>
-          <div className="tdmd-comparison-note">
-            <p style={{ margin: 0 }}>
-              <strong>The scenario:</strong> You lost your ACA plan after premiums doubled in 2026. You've had a sore throat and low-grade fever for three days. You don't have a doctor, and a walk-in clinic would cost $200 or more. With TeleDirectMD, you request a same-day visit from your phone for $79. A board-certified physician evaluates you, and if you need an antibiotic, the prescription is sent to the pharmacy down the street.
+      {/* ── Price + doctor (overlap the hero) ─────────────────────────────── */}
+      <section className="uac-overlap" aria-label="Pricing and physician">
+        <div className="uac-overlap-grid">
+          <div className="uac-pricecard">
+            <span className="uac-eyebrow">Cash-pay, all visits</span>
+            <div className="uac-pricecard-row">
+              <span className="uac-price-big">$79</span>
+              <span className="uac-price-note">flat rate<br />first visit &amp; every follow-up</span>
+            </div>
+            <ul>
+              <li><Tick />Board-certified family medicine MD</li>
+              <li><Tick />Prescription to any US pharmacy you choose</li>
+              <li><Tick />No membership, no subscription, no add-on fees</li>
+              <li><Tick />HSA and FSA cards accepted</li>
+            </ul>
+            <a className="uac-btn uac-btn--primary" href="/book-online/" data-analytics="book_price_card" style={{ width: '100%' }}>Book Now</a>
+            <p className="uac-pricecard-foot">Same-day, evenings, and weekends. Insurance optional in select states.</p>
+          </div>
+
+          <div className="uac-doctorcard">
+            <img className="uac-doctorcard-img" src="/images/dr-parth-bhavsar.jpg" alt={`${PHYSICIAN_NAME}, board-certified family medicine physician`} width="96" height="96" />
+            <div className="uac-doctorcard-body">
+              <span className="uac-doctorcard-name">{PHYSICIAN_NAME} <span>· Board-certified, {CREDENTIAL_BOARD}</span></span>
+              <span className="uac-doctorcard-quote">&ldquo;You&rsquo;ll see me on your first visit and every visit after. Same physician, same chart, no re-intake.&rdquo;</span>
+            </div>
+            <a className="uac-doctorcard-link" href="#uninsured-physician">Meet your doctor</a>
+          </div>
+        </div>
+
+        <div className="uac-examplevisit">
+          <span className="uac-examplevisit-label">Example visit · UTI</span>
+          <span>Antibiotics e-sent to your pharmacy when clinically appropriate. Often ready in about an hour, depending on your pharmacy.</span>
+          <span className="uac-examplevisit-note">Dramatization</span>
+        </div>
+      </section>
+
+      {/* ── Comparison ──────────────────────────────────────────────────── */}
+      <section className="uac-compare" id="uninsured-compare">
+        <div className="uac-compare-inner">
+          <div className="uac-compare-head">
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+              <span className="uac-eyebrow uac-eyebrow--dark">Honest comparison</span>
+              <h2>&ldquo;Cheap online doctor&rdquo; usually hides one of three catches.</h2>
+            </div>
+            <p>A monthly membership to unlock the low price. A rotating pool of whoever is available. Or a &ldquo;$0 visit&rdquo; that exists to sell you a drug subscription. Here is what each service charged and included when we last checked, on {checkedOn}.</p>
+          </div>
+
+          <UninsuredCompareCards rows={comparison.rows}>
+            <p className="uac-compare-note">
+              Competitor prices come from each company&rsquo;s own pricing page and from{' '}
+              {comparison.sources.map((s, i) => (
+                <span key={s.url}>{i > 0 ? ', ' : ''}<a href={s.url} rel="nofollow noopener" target="_blank">{s.label}</a></span>
+              ))}
+              , checked {checkedOn} and reviewed quarterly. Prices change; confirm on their sites before comparing.
             </p>
-          </div>
-        </div>
-      </section>
+          </UninsuredCompareCards>
 
-      {/* ── 3. How TeleDirectMD Solves It ───────────────────────── */}
-      <section className="tdmd-section tdmd-section-highlight" id="uninsured-solution">
-        <div className="tdmd-container">
-          <h2>How TeleDirectMD Solves Healthcare Access for the Uninsured</h2>
-          <p>
-            Cost transparency and access — not insurance — are the two biggest barriers to care for uninsured Americans. TeleDirectMD is built around both.
-          </p>
-          <div className="tdmd-grid tdmd-grid-2">
-            <div className="tdmd-card tdmd-card-good">
-              <h3>Transparent Cash-Pay Pricing</h3>
-              <p>$79 flat fee per visit. You see the cost before you book. No facility fees, no surprise billing, no insurance paperwork. If you need a prescription, we'll discuss cost-effective generic options at the time of your visit.</p>
+          <div className="uac-compare-why">
+            <div>
+              <h3>Why $79 with the same MD beats $19 with a rotating NP</h3>
+              <p>GoodRx Care&rsquo;s $19 needs a $10/month Gold membership, so a non-member really pays $39 to $70. You also see whoever is free, MD or NP, almost never the same person twice. If you have hypertension, diabetes, or GERD, that rotation adds friction. A single physician at a flat $79 does not.</p>
             </div>
-            <div className="tdmd-card tdmd-card-good">
-              <h3>41-State Coverage</h3>
-              <p>TeleDirectMD is licensed in 43 states, so whether you're in Florida, Texas, California, or any of our covered states, you can see the same board-certified physician — without finding a new provider or paying to establish care.</p>
-            </div>
-            <div className="tdmd-card tdmd-card-good">
-              <h3>Same-Day, Evenings &amp; Weekends</h3>
-              <p>Illness doesn't follow business hours. TeleDirectMD offers same-day availability including evenings and weekends — so you're not forced into an urgent care visit because you couldn't get a next-week appointment.</p>
-            </div>
-            <div className="tdmd-card tdmd-card-good">
-              <h3>Prescriptions to Any Pharmacy</h3>
-              <p>We send prescriptions electronically to any pharmacy in the United States — CVS, Walgreens, Walmart, Kroger, or your neighborhood independent. Generic alternatives are always discussed to minimize out-of-pocket medication costs.</p>
+            <div>
+              <h3>Why a flat visit beats a $30-a-month drug subscription</h3>
+              <p>Hims, Hers, and Ro advertise &ldquo;$0 visits.&rdquo; The visit is a lead-in to a monthly prescription, often priced above what the same drug costs at a pharmacy. We send your prescription to CVS, Walmart, Costco, Cost Plus Drugs, whichever is cheapest for your drug. Our revenue is the visit, not the drug margin.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ── 4. Expanded Pricing Section ─────────────────────────── */}
-      <section className="tdmd-section" id="uninsured-pricing">
-        <div className="tdmd-container">
-          <h2>Transparent Pricing — Know Your Cost Before You Book</h2>
-          <p>
-            For uninsured patients, cost is the number-one barrier to care. TeleDirectMD was built to remove that barrier with a single transparent price — no insurance required, no surprise bills.
-          </p>
-          <div className="tdmd-cost-note" style={{ marginBottom: '1.5rem' }}>
-            <p style={{ margin: 0 }}>
-              <strong>No hidden fees. No surprise billing. You'll know your cost before you book.</strong>
+      {/* ── What $79 gets you + right level of care ─────────────────────── */}
+      <section className="uac-two" id="uninsured-included">
+        <div className="uac-col">
+          <span className="uac-eyebrow">What&rsquo;s included</span>
+          <h2>What $79 actually gets you</h2>
+          <ul className="uac-numlist">
+            {INCLUDED.map((line, i) => (
+              <li key={line}><span className="uac-num">{String(i + 1).padStart(2, '0')}</span>{line}</li>
+            ))}
+          </ul>
+          <p className="uac-footnote">Insurance accepted in select states. <a href="/insurance/">Confirm your plan.</a></p>
+        </div>
+
+        <div className="uac-col" id="uninsured-triage">
+          <span className="uac-eyebrow">Right level of care</span>
+          <h2>When telehealth is right, and when it isn&rsquo;t</h2>
+          <div className="uac-triage">
+            <div className="uac-triage-card uac-triage--yes">
+              <h4>Book a video visit</h4>
+              <ul>{TELEHEALTH_OK.map((t) => <li key={t}>{t}</li>)}</ul>
+            </div>
+            <div className="uac-triage-card uac-triage--no">
+              <h4>Go to urgent care or the ER</h4>
+              <ul>{GO_IN_PERSON.map((t) => <li key={t}>{t}</li>)}</ul>
+            </div>
+          </div>
+          <p className="uac-footnote">Unsure? Request a visit. If your case isn&rsquo;t right for telehealth, we tell you before charging you and point you to the right level of care.</p>
+        </div>
+      </section>
+
+      {/* ── Doctor ──────────────────────────────────────────────────────── */}
+      <section className="uac-doctor" id="uninsured-physician">
+        <div className="uac-doctor-inner">
+          <div className="uac-doctor-media">
+            <img src="/images/dr-parth-bhavsar.jpg" alt={`${PHYSICIAN_NAME}, board-certified family medicine physician`} width="420" height="525" />
+            <div className="uac-doctor-tags">
+              <span className="uac-pill">Board-certified, ABFM</span>
+              <span className="uac-pill">Family medicine</span>
+              <span className="uac-pill">40+ states</span>
+            </div>
+          </div>
+
+          <div className="uac-doctor-body">
+            <span className="uac-eyebrow uac-eyebrow--dark">Meet your doctor</span>
+            <h2>The whole practice is one doctor. That&rsquo;s the point.</h2>
+            <blockquote className="uac-quote">&ldquo;You&rsquo;ll see me on your first visit and every visit after. Home in Atlanta, on a work trip in Denver, visiting family in Miami: same physician, same chart, no re-intake.&rdquo;</blockquote>
+            <p>
+              A 2018 systematic review in <a href="https://doi.org/10.1136/bmjopen-2017-021161" rel="nofollow noopener" target="_blank" style={{ textDecoration: 'underline' }}>BMJ Open</a> found that 18 of 22 studies linked higher continuity of care with a doctor to lower mortality. The evidence is observational rather than proof of cause, but it points the same way across nine health systems. Day to day it is simpler than that: a small change in your blood pressure, or in how you responded to a medication, is easier to catch when the same physician saw you last time.
             </p>
-          </div>
-          <div className="tdmd-price-grid">
-            <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
-              <h3>TeleDirectMD Video Visit</h3>
-              <p className="tdmd-price-big">$79</p>
-              <p className="tdmd-price-sub">Self-pay starting price per visit</p>
-              <ul className="tdmd-price-includes">
-                <li>Board-certified physician consultation</li>
-                <li>Prescriptions sent to any U.S. pharmacy</li>
-                <li>No hidden fees or surprise billing</li>
-                <li>No insurance required</li>
-                <li>Insurance accepted in select states</li>
-              </ul>
+            <dl className="uac-dl">
+              <dt>Board</dt><dd>{CREDENTIAL_BOARD}</dd>
+              <dt>Residency</dt><dd>University of Mississippi Medical Center, 2021</dd>
+              <dt>MD</dt><dd>Smt NHL Municipal Medical College, Ahmedabad</dd>
+              <dt>NPI</dt><dd>{PHYSICIAN_NPI}</dd>
+            </dl>
+            <div className="uac-doctor-actions">
+              <a className="uac-btn uac-btn--primary" href="/book-online/" data-analytics="book_doctor">Book With Dr. Bhavsar</a>
+              <a href="/about/">More about Dr. Bhavsar</a>
             </div>
-            <div className="tdmd-price-chart" role="group" aria-label="Cost comparison">
-              <h3>How We Compare</h3>
-              <p className="tdmd-price-caption">Typical costs without insurance. Actual costs vary by location and condition.</p>
-              <div className="tdmd-bar-row">
-                <div className="tdmd-bar-label"><span>TeleDirectMD</span><span>$79</span></div>
-                <div className="tdmd-bar-track"><div className="tdmd-bar-fill tdmd-bar-fill-tdmd" style={{ '--w': 10 }} /></div>
-              </div>
-              <div className="tdmd-bar-row">
-                <div className="tdmd-bar-label"><span>Telehealth avg.</span><span>$40–$90</span></div>
-                <div className="tdmd-bar-track"><div className="tdmd-bar-fill" style={{ '--w': 18 }} /></div>
-              </div>
-              <div className="tdmd-bar-row">
-                <div className="tdmd-bar-label"><span>Urgent Care</span><span>$150–$350</span></div>
-                <div className="tdmd-bar-track"><div className="tdmd-bar-fill" style={{ '--w': 50 }} /></div>
-              </div>
-              <div className="tdmd-bar-row">
-                <div className="tdmd-bar-label"><span>Emergency Room</span><span>$500–$3,000+</span></div>
-                <div className="tdmd-bar-track"><div className="tdmd-bar-fill" style={{ '--w': 100 }} /></div>
-              </div>
-              <p className="tdmd-price-footnote">
-                Sources: Penn Medicine telehealth cost study; GoodRx telehealth pricing data 2026. Telehealth avg. per GoodRx ($40–$90 without insurance).
-              </p>
-            </div>
+            <p className="uac-fineprint">HIPAA-compliant. Your health information is encrypted, never sold, never shared for advertising.</p>
+            <p className="uac-fineprint uac-fineprint--quiet">If we expand in the future, we&rsquo;ll make every effort to keep you with your one doctor, wherever and whenever you need to see us.</p>
           </div>
         </div>
       </section>
 
-      {/* ── 5. Conditions We Commonly Treat ─────────────────────── */}
-      <section className="tdmd-section tdmd-section-highlight" id="uninsured-conditions">
-        <div className="tdmd-container">
-          <h2>Conditions We Commonly Treat for Uninsured Patients</h2>
-          <p>
-            Each condition below is linked to a detailed treatment page with information about what to expect, eligibility, medications, and how telehealth works for that specific condition. All visits are transparent cash-pay — no insurance needed.
-          </p>
-          <div style={{ display: 'grid', gap: '0.85rem', marginTop: '1rem' }}>
-            {conditions.map((c) => (
-              <a
-                key={c.slug}
-                href={`/${c.slug}`}
-                className="tdmd-card"
-                style={{ textDecoration: 'none', color: 'var(--tdmd-text)', borderLeft: '4px solid var(--tdmd-teal)' }}
-              >
-                <h3 style={{ margin: '0 0 0.3rem', color: 'var(--tdmd-navy)', fontSize: '1.05rem' }}>{c.name}</h3>
-                <p style={{ margin: 0, fontSize: '0.94rem', color: 'var(--tdmd-muted)', lineHeight: '1.45' }}>{c.desc}</p>
+      {/* ── Coverage ────────────────────────────────────────────────────── */}
+      <section className="uac-coverage" id="uninsured-states">
+        <div className="uac-coverage-copy">
+          <span className="uac-eyebrow">Coverage</span>
+          <h2>40+ states, one doctor, no re-establishing care</h2>
+          <p>Uninsured patients move for work and travel between states. Every switch to a new provider means a new intake, a new fee, and a new physician who doesn&rsquo;t know your history. With TeleDirectMD you keep the same doctor as long as you&rsquo;re physically in a covered state at the time of your visit.</p>
+
+          <div className="uac-legend">
+            <div><span className="uac-swatch" style={{ background: '#14706B' }} />Covered, including Washington D.C.</div>
+            <div><span className="uac-swatch" style={{ background: '#D9D4CA' }} />Not yet: {NOT_YET.join(', ')}</div>
+          </div>
+
+          <details className="uac-statelist">
+            <summary>See every state we cover</summary>
+            <div className="uac-statelist-cols">
+              {STATE_NAMES.map((n) => <div key={n}>{n}</div>)}
+            </div>
+          </details>
+
+          <a className="uac-coverage-link" href="/states-we-serve/">State-specific condition pages</a>
+        </div>
+
+        <div className="uac-map">
+          <UninsuredCoverageMap servedAbbrs={STATE_ABBRS} label="Map of the United States with every state TeleDirectMD covers shaded teal" />
+        </div>
+      </section>
+
+      {/* ── Conditions ──────────────────────────────────────────────────── */}
+      <section className="uac-conditions" id="uninsured-conditions">
+        <div className="uac-conditions-inner">
+          <div className="uac-conditions-head">
+            <div>
+              <span className="uac-eyebrow">Common conditions</span>
+              <h2>What we treat for $79</h2>
+              <p>Every condition page explains what to expect, which medications are typically appropriate, and when telehealth isn&rsquo;t the right call.</p>
+            </div>
+            <a className="uac-btn uac-btn--dark" href="/what-we-treat/">View All 60+ Conditions</a>
+          </div>
+
+          <div className="uac-conditions-grid">
+            {CONDITIONS.map((c) => (
+              <a key={c.slug} className="uac-condition" href={`/${c.slug}/`}>
+                <span className="uac-condition-tag" style={{ color: TAG_COLORS[c.tag] }}>{c.tag}</span>
+                <h3>{c.name}</h3>
+                <p>{c.blurb}</p>
               </a>
             ))}
           </div>
-          <div style={{ marginTop: '1.25rem' }}>
-            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All 60 Conditions We Treat</a>
-          </div>
         </div>
       </section>
 
-      {/* ── 6. How It Works ─────────────────────────────────────── */}
-      <section className="tdmd-section" id="uninsured-how-it-works">
-        <div className="tdmd-container">
-          <h2>How It Works — 3 Simple Steps</h2>
-          <p>Getting care from TeleDirectMD is designed to be fast, simple, and affordable — because your time and money matter.</p>
-          <div className="tdmd-decision-flow">
-            <div className="tdmd-decision-step tdmd-decision-step-good">
-              <div className="tdmd-decision-number">1</div>
-              <div className="tdmd-decision-content">
-                <h3>Request a Visit</h3>
-                <p>Go to TeleDirectMD.com on your smartphone and request a visit. No app download needed. You'll see the $79 cost before you confirm — no surprises. Tell us your symptoms and which state you're located in. Takes about 2 minutes.</p>
-              </div>
+      {/* ── How it works ────────────────────────────────────────────────── */}
+      <section className="uac-steps" id="uninsured-how-it-works">
+        <div className="uac-steps-head">
+          <span className="uac-eyebrow">How it works</span>
+          <h2>Three steps, about 15 minutes total</h2>
+        </div>
+        <div className="uac-steps-grid">
+          {STEPS.map((s) => (
+            <div className="uac-step" key={s.title}>
+              <img src={s.img} alt="" width="600" height="400" />
+              <span className="uac-step-meta">{s.meta}</span>
+              <h3>{s.title}</h3>
+              <p>{s.body}</p>
             </div>
-            <div className="tdmd-decision-step tdmd-decision-step-good">
-              <div className="tdmd-decision-number">2</div>
-              <div className="tdmd-decision-content">
-                <h3>Connect With Your Doctor</h3>
-                <p>A board-certified physician will connect with you via secure video. We'll review your symptoms, medical history, and determine the best treatment plan. Most visits take 10–15 minutes.</p>
-              </div>
-            </div>
-            <div className="tdmd-decision-step tdmd-decision-step-good">
-              <div className="tdmd-decision-number">3</div>
-              <div className="tdmd-decision-content">
-                <h3>Get Treated — Prescriptions Sent to Your Pharmacy</h3>
-                <p>If medication is needed, we'll send the prescription electronically to the pharmacy of your choice — anywhere in the United States. We'll always discuss affordable generic options to keep your total out-of-pocket cost as low as possible.</p>
-                <div className="tdmd-decision-cta">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit Now</a>
-                </div>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </section>
 
-      {/* ── 7. Who You're Seeing / Trust Signals ────────────────── */}
-      <section className="tdmd-section tdmd-section-highlight" id="uninsured-trust">
-        <div className="tdmd-container">
-          <h2>Who You're Seeing — A Real Doctor, Not an Algorithm</h2>
-          <p>
-            When you visit TeleDirectMD, you're seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is a board-certified family medicine physician licensed across 43 states, providing the same standard of care you'd receive in person — at a fraction of the cost.
-          </p>
-          <ul className="tdmd-hero-benefits">
-            <li>Board-certified in Family Medicine</li>
-            <li>Licensed in 43 U.S. states</li>
-            <li>HIPAA-compliant platform — your data is encrypted and protected</li>
-            <li>TeleDirectMD does not sell or share your health information</li>
+      {/* ── Prescriptions ───────────────────────────────────────────────── */}
+      <section className="uac-rx" id="uninsured-prescriptions">
+        <div className="uac-rx-inner">
+          <div className="uac-rx-copy">
+            <span className="uac-eyebrow">Prescriptions</span>
+            <h2>Prescriptions without insurance</h2>
+            <p>Medication cost is separate from the $79 visit and depends on the drug and pharmacy, not on us. During your visit we discuss the least-expensive option that works clinically. We sell no medication subscription, so we have no reason to steer you toward a pricier pharmacy.</p>
+          </div>
+          <ul className="uac-rx-list">
+            {PHARMACIES.map((p) => (
+              <li key={p.href}>
+                <a href={p.href} rel="nofollow noopener" target="_blank">{p.name}</a>
+                <span>{p.note}</span>
+              </li>
+            ))}
           </ul>
-          <p style={{ fontSize: '0.93rem', color: 'var(--tdmd-muted)' }}>
-            TeleDirectMD is HIPAA-compliant. We do not sell or share your health information. All visits are conducted via encrypted video, and medical records are stored securely.
-          </p>
         </div>
       </section>
 
-      {/* ── 8. FAQ ──────────────────────────────────────────────── */}
-      <section className="tdmd-section tdmd-faq" id="uninsured-faq">
-        <div className="tdmd-container">
-          <h2>Frequently Asked Questions — Affordable Telehealth Without Insurance</h2>
-          <div className="tdmd-faq-list" role="list">
-            {faqItems.map((item, i) => (
-              <details key={i} className="tdmd-faq-item" role="listitem">
-                <summary className="tdmd-faq-question">{item.q}</summary>
-                <div className="tdmd-faq-answer">
-                  <p>{item.a}</p>
-                </div>
-              </details>
+      {/* ── FAQ ─────────────────────────────────────────────────────────── */}
+      <section className="uac-faq" id="uninsured-faq">
+        <div className="uac-faq-head">
+          <span className="uac-eyebrow">Questions &amp; answers</span>
+          <h2>Straight answers about paying cash</h2>
+          <p>Still unsure? <a href="/faq/">See the full FAQ.</a></p>
+        </div>
+        <div className="uac-faq-list">
+          {faqItems.map((item) => (
+            <details className="uac-faq-item" key={item.q} name="uac-faq">
+              <summary className="uac-faq-q" data-speakable="true">
+                <span>{item.q}</span>
+                <span className="uac-faq-sign" aria-hidden="true">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><path d="M12 5v14M5 12h14" /></svg>
+                </span>
+              </summary>
+              <p className="uac-faq-a">{item.a}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      {/* ── Final CTA ───────────────────────────────────────────────────── */}
+      <section className="uac-cta">
+        <div className="uac-cta-inner">
+          <div className="uac-cta-copy">
+            <h2>See a board-certified MD today. $79 flat.</h2>
+            <p>No insurance, no membership, no drug subscription. Same doctor every visit across 40+ states.</p>
+          </div>
+          <div className="uac-cta-actions">
+            <a className="uac-btn uac-btn--dark" href="/book-online/" data-analytics="book_final_cta">Book a $79 Visit</a>
+            <a className="uac-btn uac-btn--light" href="/insurance/">Pricing &amp; Insurance</a>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Foot notes ──────────────────────────────────────────────────── */}
+      <section className="uac-notes" id="uninsured-disclaimer">
+        <div>
+          <span className="uac-eyebrow">Other communities we serve</span>
+          <div className="uac-notes-pills">
+            {OTHER_SEGMENTS.map((s) => (
+              <a key={s.href} className="uac-pill" href={s.href}>{s.label}</a>
             ))}
           </div>
         </div>
-      </section>
-
-      {/* ── 9. Final CTA ────────────────────────────────────────── */}
-      <section className="tdmd-section">
-        <div className="tdmd-container">
-          <div className="tdmd-bottom-cta">
-            <div className="tdmd-bottom-cta-copy">
-              <h3>See a board-certified physician today — starting at $79, no insurance required.</h3>
-              <p>Request a same-day visit from your phone. Know your cost before you book. Prescriptions sent to any pharmacy in the U.S.</p>
-            </div>
-            <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-              <a href="/insurance" className="tdmd-btn tdmd-btn-outline">Pricing &amp; Insurance</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ── 10. Cross-links to other audiences ──────────────────── */}
-      <section className="tdmd-section tdmd-section-highlight">
-        <div className="tdmd-container">
-          <div className="tdmd-inline-links">
-            <h3>Other Communities We Serve</h3>
-            <p className="tdmd-link-cloud">
-              <a href="/who-we-serve/truck-drivers">Truck Drivers</a>
-              <a href="/who-we-serve/gig-workers">Gig Workers &amp; Freelancers</a>
-              <a href="/who-we-serve">Who We Serve Hub</a>
-            </p>
-          </div>
-          <div className="tdmd-inline-links" style={{ marginTop: '1rem' }}>
-            <h3>More from TeleDirectMD</h3>
-            <p className="tdmd-link-cloud">
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/states-we-serve">States We Serve</a>
-              <a href="/insurance">Insurance &amp; Pricing</a>
-              <a href="/faq">FAQs</a>
-              <a href="/book-online">Book a Visit</a>
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* ── 11. References ──────────────────────────────────────── */}
-      <section className="tdmd-section" id="uninsured-references">
-        <div className="tdmd-container">
-          <h2>References</h2>
-          <ul className="tdmd-ref-list">
-            <li><a href="https://www.kff.org/affordable-care-act/poll-finding/kff-health-tracking-poll-aca-subsidies-2025/" rel="nofollow noopener" target="_blank">KFF Health Tracking Poll: ACA Subsidies and Marketplace Enrollment — KFF</a></li>
-            <li><a href="https://www.cbo.gov/publication/60702" rel="nofollow noopener" target="_blank">CBO Projections: ACA Marketplace Enrollment After Subsidy Expiration — Congressional Budget Office</a></li>
-            <li><a href="https://www.pennmedicine.org/news/news-releases/2019/december/study-finds-telemedicine-visits-cost-far-less-than-office-visits" rel="nofollow noopener" target="_blank">Study finds telemedicine visits cost far less than office visits — Penn Medicine</a></li>
-            <li><a href="https://www.goodrx.com/healthcare-access/telehealth/how-much-does-a-telehealth-visit-cost" rel="nofollow noopener" target="_blank">How Much Does a Telehealth Visit Cost? — GoodRx</a></li>
-            <li><a href="https://www.stridehealth.com/blog/gig-workers-health-insurance-report" rel="nofollow noopener" target="_blank">Gig Worker Health Insurance Report — Stride Health</a></li>
-            <li><a href="https://www.kff.org/uninsured/issue-brief/key-facts-about-the-uninsured-population/" rel="nofollow noopener" target="_blank">Key Facts About the Uninsured Population — KFF</a></li>
+        <div>
+          <span className="uac-eyebrow">References</span>
+          <ul>
+            {REFERENCES.map((r) => (
+              <li key={r.href}><a href={r.href} rel="nofollow noopener" target="_blank">{r.label}</a></li>
+            ))}
           </ul>
         </div>
-      </section>
-
-      {/* ── Disclaimer ──────────────────────────────────────────── */}
-      <section className="tdmd-section tdmd-footnote" id="uninsured-disclaimer">
-        <div className="tdmd-container">
-          <h2>Medical Disclaimer</h2>
-          <p>
-            This page is for informational purposes only and does not constitute medical advice. TeleDirectMD provides telehealth services for non-emergency conditions in adults 18 and older who are physically located in one of our licensed states at the time of the visit. TeleDirectMD does not prescribe controlled substances. If you are experiencing a medical emergency, call 911 immediately.
-          </p>
-          <p>
-            Pricing listed is a starting price for self-pay visits and is subject to change. Insurance is accepted in select states; contact TeleDirectMD to confirm coverage in your state. Medication costs are separate from visit fees and vary by pharmacy and drug. TeleDirectMD is not a substitute for in-person care when in-person evaluation is clinically required.
-          </p>
+        <div>
+          <span className="uac-eyebrow">Medical disclaimer</span>
+          <p>Informational only, not medical advice. TeleDirectMD treats non-emergency conditions in adults 18+ physically located in a covered state at the time of the visit. No controlled substances. No IV or IM medications, except EpiPen refills when clinically appropriate. Emergency: call 911. Mental health crisis: call or text 988. Medication costs are separate from the visit fee.</p>
         </div>
       </section>
-    </>
+
+      <UninsuredStickyCta />
+    </div>
   );
 }

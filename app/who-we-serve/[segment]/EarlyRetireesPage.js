@@ -1,7 +1,8 @@
+import { contentDate } from '../../../lib/content-dates';
 export default function EarlyRetireesPage() {
   const baseUrl = 'https://teledirectmd.com';
   const pageUrl = `${baseUrl}/who-we-serve/early-retirees`;
-  const today = new Date().toISOString().split('T')[0];
+  const today = contentDate('whoWeServe');
   const pid = 'early-retirees';
 
   const conditions = [
@@ -12,7 +13,7 @@ export default function EarlyRetireesPage() {
     { name: 'Thyroid Management', slug: 'thyroid-management-online', desc: 'Medication refills and dosing adjustments while you establish with a new endocrinologist.' },
     { name: 'Anxiety', slug: 'anxiety-treatment-online', desc: 'Evaluation and prescription management for generalized anxiety.' },
     { name: 'Insomnia', slug: 'insomnia-treatment-online', desc: 'Sleep evaluation and medication options for chronic insomnia.' },
-    { name: 'UTI / Urinary Tract Infection', slug: 'uti-treatment-online', desc: 'Fast antibiotic prescription — common in this age group, no need for an in-person visit.' },
+    { name: 'UTI (women only)', slug: 'uti-treatment-online', desc: 'Fast antibiotic prescription — common in this age group, no need for an in-person visit.' },
     { name: 'Sinus Infection', slug: 'sinus-infection-treatment-online', desc: 'Evaluation and treatment for acute sinusitis.' },
     { name: 'Skin Conditions / Rashes', slug: 'skin-infection-treatment-online', desc: 'Evaluation of skin infections, rashes, and minor dermatologic concerns via video.' },
   ];
@@ -24,7 +25,7 @@ export default function EarlyRetireesPage() {
     },
     {
       q: 'My ACA plan has a $5,000 deductible. Is it cheaper to pay TeleDirectMD directly?',
-      a: 'For routine and non-emergency visits, often yes. If you haven\'t met your deductible, you\'re effectively paying cash for every in-network visit — often $150–$350 for a primary care appointment. TeleDirectMD\'s $79 flat fee is frequently cheaper for common conditions like blood pressure checks, medication refills, UTIs, sinus infections, and skin concerns.'
+      a: 'For routine and non-emergency visits, often yes. If you haven\'t met your deductible, you\'re effectively paying cash for every in-network visit — often $150–$350 for a primary care appointment. TeleDirectMD\'s $79 flat fee is frequently cheaper for common conditions like blood pressure checks, medication refills, UTIs (women only), sinus infections, and skin concerns.'
     },
     {
       q: 'Can you manage my chronic conditions — blood pressure, diabetes, cholesterol?',
@@ -32,11 +33,11 @@ export default function EarlyRetireesPage() {
     },
     {
       q: 'Do I need insurance to use TeleDirectMD?',
-      a: 'No. TeleDirectMD is a direct-pay platform. You pay $79 at the time of booking — that\'s the complete cost of the visit. No insurance card, no co-pay surprises, no EOB to interpret. We also accept select insurance plans in some states if you prefer to use coverage.'
+      a: 'No. TeleDirectMD is a direct-pay platform. You pay $79 at the time of booking — that\'s the complete cost of the visit. No insurance card, no co-pay, no EOB to interpret. We also accept select insurance plans in some states if you prefer to use coverage.'
     },
     {
       q: 'What if I move to a different state in retirement?',
-      a: 'No problem. TeleDirectMD is licensed in 43 states, so whether you retire in Florida, Arizona, the Carolinas, or anywhere else in our coverage area, you can continue seeing Dr. Bhavsar as long as you\'re physically in a covered state at the time of the visit. This makes us especially useful for early retirees who split time between states.'
+      a: 'No problem. TeleDirectMD is licensed in 40+ states, so whether you retire in Florida, Arizona, the Carolinas, or anywhere else in our coverage area, you can continue seeing Dr. Bhavsar as long as you\'re physically in a covered state at the time of the visit. This makes us especially useful for early retirees who split time between states.'
     },
     {
       q: 'Can you provide prescription refills if my previous doctor retired or I moved away?',
@@ -54,10 +55,12 @@ export default function EarlyRetireesPage() {
 
   const allStates = [
     { abbr: 'AL', name: 'Alabama' },
+    { abbr: 'AK', name: 'Alaska' },
     { abbr: 'AZ', name: 'Arizona' },
     { abbr: 'CA', name: 'California' },
     { abbr: 'CO', name: 'Colorado' },
     { abbr: 'CT', name: 'Connecticut' },
+    { abbr: 'DC', name: 'Washington, D.C.' },
     { abbr: 'DE', name: 'Delaware' },
     { abbr: 'FL', name: 'Florida' },
     { abbr: 'GA', name: 'Georgia' },
@@ -66,7 +69,6 @@ export default function EarlyRetireesPage() {
     { abbr: 'IL', name: 'Illinois' },
     { abbr: 'IN', name: 'Indiana' },
     { abbr: 'IA', name: 'Iowa' },
-    { abbr: 'KS', name: 'Kansas' },
     { abbr: 'KY', name: 'Kentucky' },
     { abbr: 'LA', name: 'Louisiana' },
     { abbr: 'ME', name: 'Maine' },
@@ -80,6 +82,7 @@ export default function EarlyRetireesPage() {
     { abbr: 'NV', name: 'Nevada' },
     { abbr: 'NH', name: 'New Hampshire' },
     { abbr: 'NJ', name: 'New Jersey' },
+    { abbr: 'NY', name: 'New York' },
     { abbr: 'NC', name: 'North Carolina' },
     { abbr: 'ND', name: 'North Dakota' },
     { abbr: 'OH', name: 'Ohio' },
@@ -91,9 +94,9 @@ export default function EarlyRetireesPage() {
     { abbr: 'TX', name: 'Texas' },
     { abbr: 'UT', name: 'Utah' },
     { abbr: 'VA', name: 'Virginia' },
+    { abbr: 'VT', name: 'Vermont' },
     { abbr: 'WA', name: 'Washington' },
     { abbr: 'WV', name: 'West Virginia' },
-    { abbr: 'WI', name: 'Wisconsin' },
     { abbr: 'WY', name: 'Wyoming' },
   ];
 
@@ -123,7 +126,7 @@ export default function EarlyRetireesPage() {
       },
       {
         "@type": "Physician",
-        "@id": `${baseUrl}/about#physician`,
+        "@id": `${baseUrl}/about/#physician`,
         "name": "Parth Bhavsar, MD",
         "medicalSpecialty": "FamilyMedicine",
         "alumniOf": { "@type": "EducationalOrganization", "name": "University of Mississippi Medical Center" },
@@ -144,7 +147,7 @@ export default function EarlyRetireesPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Telehealth for Early Retirees — Affordable Care Before Medicare at 65",
-        "description": "TeleDirectMD offers $79 flat-fee telehealth for early retirees in the pre-Medicare gap (ages 55–64). Chronic condition management, prescription refills, and same-day visits in 43 states. No insurance required.",
+        "description": "TeleDirectMD offers $79 flat-fee telehealth for early retirees in the pre-Medicare gap (ages 55–64). Chronic condition management, prescription refills, and same-day visits in 40+ states. No insurance required.",
         "datePublished": "2026-04-20",
         "dateModified": today,
         "author": { "@type": "Physician", "name": "Parth Bhavsar, MD" },
@@ -163,7 +166,7 @@ export default function EarlyRetireesPage() {
         <div className="tdmd-container">
           <a href="/">Home</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <a href="/who-we-serve">Who We Serve</a>
+          <a href="/who-we-serve/">Who We Serve</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
           <span aria-current="page">Early Retirees (Pre-Medicare)</span>
         </div>
@@ -179,7 +182,7 @@ export default function EarlyRetireesPage() {
             Telehealth for early retirees in the pre-Medicare gap:
           </p>
           <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
-            TeleDirectMD offers $79 flat-fee video visits with a board-certified Family Medicine physician for early retirees navigating the 55–64 coverage gap — managing chronic conditions like hypertension, diabetes, and high cholesterol, with prescription refills sent to any pharmacy in 43 states. No insurance required.
+            TeleDirectMD offers $79 flat-fee video visits with a board-certified Family Medicine physician for early retirees navigating the 55–64 coverage gap — managing chronic conditions like hypertension, diabetes, and high cholesterol, with prescription refills sent to any pharmacy in 40+ states. No insurance required.
           </p>
         </div>
       </div>
@@ -191,10 +194,10 @@ export default function EarlyRetireesPage() {
             <div className="tdmd-hero-copy">
               <h1>Telehealth for Early Retirees — Affordable Care in the Pre-Medicare Gap</h1>
               <p className="tdmd-hero-sub">
-                Retired before 65 and facing the coverage gap? TeleDirectMD provides $79 flat-fee video visits with a board-certified Family Medicine physician — chronic condition management, prescription refills, and acute care in 43 states. No referrals. No prior authorization. No surprise bills.
+                Retired before 65 and facing the coverage gap? TeleDirectMD provides $79 flat-fee video visits with a board-certified Family Medicine physician — chronic condition management, prescription refills, and acute care in 40+ states. No referrals. No prior authorization. No hidden fees.
               </p>
               <p>
-                The average American retires at <strong>62</strong>. Medicare begins at <strong>65</strong>. That three-year structural gap — often filled with expensive COBRA, high-deductible ACA plans, or no coverage at all — is exactly where TeleDirectMD fits. For the routine visits that make up the vast majority of healthcare needs, a $79 flat-fee telehealth visit is frequently the most economical and fastest option available.
+                The average American retires at <strong>62</strong>. Medicare begins at <strong>65</strong>. That three-year structural gap — often filled with expensive COBRA, high-deductible ACA plans, or no coverage at all — is exactly where TeleDirectMD fits. For the routine visits that make up the vast majority of healthcare needs, a $79 flat-fee telehealth visit is often a quick, economical option.
               </p>
 
               <nav className="tdmd-toc" aria-label="Page contents">
@@ -221,14 +224,14 @@ export default function EarlyRetireesPage() {
                 <li>$79 flat fee — often less than your ACA or COBRA visit cost before deductible</li>
                 <li>Chronic condition management: hypertension, diabetes, cholesterol, thyroid, GERD, anxiety</li>
                 <li>Prescription refills when your old PCP retired, moved, or is unavailable</li>
-                <li>Licensed in 43 states — follows you wherever you retire or split time</li>
+                <li>Licensed in 40+ states — follows you wherever you retire or split time</li>
                 <li>Same-day availability, evenings and weekends</li>
                 <li>No insurance required — direct-pay, transparent flat fee</li>
               </ul>
 
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
               </div>
 
               <p className="tdmd-reviewed">Last reviewed by Parth Bhavsar, MD · Updated {today}</p>
@@ -261,10 +264,10 @@ export default function EarlyRetireesPage() {
               <h3>✓ You Are Eligible If</h3>
               <ul className="tdmd-checklist tdmd-checklist--good">
                 <li>You are between ages 55–64 and not yet on Medicare</li>
-                <li>You are physically located in one of our 43 licensed states at the time of the visit</li>
+                <li>You are physically located in one of our 40+ licensed states at the time of the visit</li>
                 <li>You have a chronic condition (hypertension, diabetes, cholesterol, thyroid, GERD, anxiety) needing management</li>
                 <li>You need prescription refills after a PCP transition, relocation, or coverage change</li>
-                <li>You have an acute condition (UTI, sinus infection, respiratory illness) that can be evaluated via video</li>
+                <li>You have an acute condition (UTI (women only), sinus infection, respiratory illness) that can be evaluated via video</li>
                 <li>You have a high-deductible plan and direct-pay is more economical for this visit</li>
               </ul>
             </div>
@@ -310,7 +313,7 @@ export default function EarlyRetireesPage() {
             </div>
           </div>
           <div className="tdmd-decision-cta">
-            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+            <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
           </div>
         </div>
       </section>
@@ -410,7 +413,7 @@ export default function EarlyRetireesPage() {
               <div className="tdmd-decision-number">3</div>
               <div className="tdmd-decision-content">
                 <h3>Is it an acute condition?</h3>
-                <p>UTI, sinus infection, strep throat, skin rash, skin infection, respiratory illness, ear infection.</p>
+                <p>UTI (women only), sinus infection, strep throat, skin rash, skin infection, respiratory illness, ear infection.</p>
                 <p><strong>YES →</strong> Book TeleDirectMD. Most acute infections can be evaluated and treated via video.</p>
                 <p><strong>NO →</strong> Continue to Step 4.</p>
               </div>
@@ -426,7 +429,7 @@ export default function EarlyRetireesPage() {
             </div>
           </div>
           <div className="tdmd-decision-cta">
-            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+            <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
           </div>
         </div>
       </section>
@@ -522,7 +525,7 @@ export default function EarlyRetireesPage() {
               </div>
             ))}
           </div>
-          <p><a href="/what-we-treat">View all 60 conditions we treat →</a></p>
+          <p><a href="/what-we-treat/">View all 60+ conditions we treat →</a></p>
         </div>
       </section>
 
@@ -572,7 +575,7 @@ export default function EarlyRetireesPage() {
                   <td>Severe panic with cardiac symptoms (rule out cardiac → ER)</td>
                 </tr>
                 <tr>
-                  <td>UTI</td>
+                  <td>UTI (women only)</td>
                   <td>Burning urination, frequency, urgency</td>
                   <td>Yes — antibiotic prescription</td>
                   <td>Fever &gt;101°F, back or flank pain (kidney involvement → in-person)</td>
@@ -603,7 +606,7 @@ export default function EarlyRetireesPage() {
                 <li>Thyroid medication continuity</li>
                 <li>Acid reflux / GERD management</li>
                 <li>Anxiety medication management (non-controlled)</li>
-                <li>UTI, sinus infection, strep, skin infections</li>
+                <li>UTI (women only), sinus infection, strep, skin infections</li>
                 <li>Prescription refills during PCP transitions</li>
               </ul>
             </div>
@@ -643,7 +646,7 @@ export default function EarlyRetireesPage() {
             </div>
             <div className="tdmd-card">
               <h3>Acute Care</h3>
-              <p>UTIs, sinus infections, respiratory infections, skin conditions — the acute visits that cannot wait weeks for a new PCP appointment. Most acute infections are evaluable and treatable via video visit.</p>
+              <p>UTIs (women only), sinus infections, respiratory infections, skin conditions — the acute visits that cannot wait weeks for a new PCP appointment. Most acute infections are evaluable and treatable via video visit.</p>
             </div>
             <div className="tdmd-card">
               <h3>Visit Documentation</h3>
@@ -654,7 +657,7 @@ export default function EarlyRetireesPage() {
           <div className="tdmd-card tdmd-card-alert">
             <h3>Does Not Manage</h3>
             <ul className="tdmd-checklist tdmd-checklist--alert">
-              <li>Controlled substances (Schedule II–IV)</li>
+              <li>Controlled substances (Schedule II–V)</li>
               <li>Conditions requiring urgent in-person labs or imaging</li>
               <li>New specialist diagnoses requiring hands-on physical examination</li>
               <li>Medical emergencies of any kind</li>
@@ -683,7 +686,7 @@ export default function EarlyRetireesPage() {
                   <td>Refill or adjustment after evaluation</td>
                 </tr>
                 <tr>
-                  <td>Metformin, SGLT-2 inhibitors, GLP-1 agonists</td>
+                  <td>Metformin, SGLT-2 inhibitors</td>
                   <td>Type 2 Diabetes</td>
                   <td>Oral medications; some injectables</td>
                 </tr>
@@ -709,14 +712,14 @@ export default function EarlyRetireesPage() {
                 </tr>
                 <tr>
                   <td>Antibiotics (multiple)</td>
-                  <td>UTI, sinus, skin infections</td>
+                  <td>UTI (women only), sinus, skin infections</td>
                   <td>Appropriate antibiotic selection by clinical presentation</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <p className="tdmd-cost-note">
-            Controlled substances (Schedule II–IV) are not prescribed. Insulin initiation requires in-person evaluation. TeleDirectMD does not replace your specialist or annual in-person physical.
+            Controlled substances (Schedule II–V) are not prescribed. Insulin initiation requires in-person evaluation. TeleDirectMD does not replace your specialist or annual in-person physical.
           </p>
         </div>
       </section>
@@ -816,11 +819,11 @@ export default function EarlyRetireesPage() {
           <div className="tdmd-container">
             <div className="tdmd-bottom-cta-copy">
               <h2>Ready to Bridge the Gap?</h2>
-              <p>$79 flat fee. Same-day availability. 43 states. No insurance required.</p>
+              <p>$79 flat fee. Same-day availability. 40+ states. No insurance required.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
-              <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+              <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
             </div>
           </div>
         </div>
@@ -832,11 +835,11 @@ export default function EarlyRetireesPage() {
           <h2>References</h2>
           <ul className="tdmd-ref-list">
             <li><a href="https://www.ssa.gov/policy/docs/chartbooks/fast_facts/2022/fast_facts22.html" target="_blank" rel="noopener noreferrer">Social Security Administration — Fast Facts &amp; Figures 2022 (Retirement Age Data)</a></li>
-            <li><a href="https://www.kff.org/medicare/issue-brief/medicare-and-the-pre-medicare-population/" target="_blank" rel="noopener noreferrer">Kaiser Family Foundation — Medicare and the Pre-Medicare Population</a></li>
-            <li><a href="https://www.cdc.gov/chronicdisease/resources/publications/factsheets/hypertension.htm" target="_blank" rel="noopener noreferrer">CDC — Hypertension Facts</a></li>
+            <li><a href="https://www.kff.org/affordable-care-act/how-will-the-loss-of-enhanced-premium-tax-credits-affect-older-adults/" target="_blank" rel="noopener noreferrer">KFF — How Will the Loss of Enhanced Premium Tax Credits Affect Older Adults?</a></li>
+            <li><a href="https://www.cdc.gov/high-blood-pressure/data-research/facts-stats/index.html" target="_blank" rel="noopener noreferrer">CDC — High Blood Pressure Facts</a></li>
             <li><a href="https://www.cdc.gov/diabetes/data/statistics-report/index.html" target="_blank" rel="noopener noreferrer">CDC — National Diabetes Statistics Report</a></li>
-            <li><a href="https://www.cms.gov/marketplace/resources/data/marketplace-enrollment" target="_blank" rel="noopener noreferrer">Centers for Medicare &amp; Medicaid Services — ACA Marketplace Enrollment Data</a></li>
-            <li><a href="https://www.healthcare.gov/glossary/cobra-coverage" target="_blank" rel="noopener noreferrer">HealthCare.gov — COBRA Coverage</a></li>
+            <li><a href="https://www.cms.gov/data-research/statistics-trends-and-reports/marketplace-products" target="_blank" rel="noopener noreferrer">Centers for Medicare &amp; Medicaid Services — ACA Marketplace Enrollment Data</a></li>
+            <li><a href="https://www.healthcare.gov/glossary/cobra/" target="_blank" rel="noopener noreferrer">HealthCare.gov — COBRA Coverage</a></li>
           </ul>
         </div>
       </section>
@@ -855,11 +858,11 @@ export default function EarlyRetireesPage() {
         <div className="tdmd-container">
           <h2>Licensed Across Top Retirement Destinations</h2>
           <p>
-            TeleDirectMD is licensed in 43 states — including every major Sun Belt and retirement destination. Whether you retire to Florida, Arizona, the Carolinas, or split time between states, we follow you.
+            TeleDirectMD is licensed in 40+ states — including every major Sun Belt and retirement destination. Whether you retire to Florida, Arizona, the Carolinas, or split time between states, we follow you.
           </p>
           <div className="tdmd-other-states-grid">
             {allStates.map(s => (
-              <a key={s.abbr} href={`/${s.abbr.toLowerCase()}`} className="tdmd-other-state-link">{s.name}</a>
+              <a key={s.abbr} href={`/${s.abbr.toLowerCase()}/`} className="tdmd-other-state-link">{s.name}</a>
             ))}
           </div>
         </div>
@@ -870,27 +873,27 @@ export default function EarlyRetireesPage() {
         <div className="tdmd-container">
           <h2>Who Else We Serve</h2>
           <div className="tdmd-related-grid">
-            <a href="/who-we-serve/international-visitors" className="tdmd-related-card">
+            <a href="/who-we-serve/international-visitors/" className="tdmd-related-card">
               <div className="tdmd-related-title">International Visitors</div>
-              <div className="tdmd-related-desc">No US insurance? $79 flat-fee care in 43 states.</div>
+              <div className="tdmd-related-desc">No US insurance? $79 flat-fee care in 40+ states.</div>
             </a>
-            <a href="/who-we-serve/military-families" className="tdmd-related-card">
+            <a href="/who-we-serve/military-families/" className="tdmd-related-card">
               <div className="tdmd-related-title">Military Families</div>
               <div className="tdmd-related-desc">TRICARE gaps? Bridge coverage with $79 visits.</div>
             </a>
-            <a href="/who-we-serve/uninsured-affordable-care" className="tdmd-related-card">
+            <a href="/who-we-serve/uninsured-affordable-care/" className="tdmd-related-card">
               <div className="tdmd-related-title">Uninsured Adults</div>
-              <div className="tdmd-related-desc">No insurance? Transparent pricing, no surprise bills.</div>
+              <div className="tdmd-related-desc">No insurance? Transparent pricing, no hidden fees.</div>
             </a>
-            <a href="/who-we-serve/small-business-owners" className="tdmd-related-card">
+            <a href="/who-we-serve/small-business-owners/" className="tdmd-related-card">
               <div className="tdmd-related-title">Small Business Owners</div>
               <div className="tdmd-related-desc">Self-employed? Care on your schedule without waiting rooms.</div>
             </a>
-            <a href="/who-we-serve/gig-workers" className="tdmd-related-card">
+            <a href="/who-we-serve/gig-workers/" className="tdmd-related-card">
               <div className="tdmd-related-title">Gig Workers</div>
               <div className="tdmd-related-desc">Flexible care for independent contractors.</div>
             </a>
-            <a href="/who-we-serve/remote-workers" className="tdmd-related-card">
+            <a href="/who-we-serve/remote-workers/" className="tdmd-related-card">
               <div className="tdmd-related-title">Remote Workers</div>
               <div className="tdmd-related-desc">Healthcare that follows you anywhere.</div>
             </a>
@@ -898,11 +901,11 @@ export default function EarlyRetireesPage() {
 
           <div className="tdmd-inline-links">
             <div className="tdmd-link-cloud">
-              <a href="/insurance-and-pricing">Insurance &amp; Pricing</a>
-              <a href="/states-we-serve">States We Serve</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/faq">FAQ</a>
-              <a href="/book-online">Book a Visit</a>
+              <a href="/insurance/">Insurance &amp; Pricing</a>
+              <a href="/states-we-serve/">States We Serve</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/faq/">FAQ</a>
+              <a href="/book-online/">Book a Visit</a>
             </div>
           </div>
         </div>

@@ -31,7 +31,7 @@ const PHYSICIAN = {
   licenseState: 'Vermont',
   licenseNumber: '042.0040345-COMP',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 const FAQ_ITEMS = [
@@ -152,7 +152,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -254,7 +254,7 @@ const PAGE_CSS = `
 .tdmd-vt-cond .tdmd-vt-cond__differ{margin-top:1rem;overflow-x:auto;}
 .tdmd-vt-cond .tdmd-vt-cond__differ table{width:100%;border-collapse:collapse;font-size:0.92rem;}
 .tdmd-vt-cond .tdmd-vt-cond__differ th,.tdmd-vt-cond .tdmd-vt-cond__differ td{border:1px solid var(--tdmd-border);padding:0.6rem 0.75rem;text-align:left;vertical-align:top;}
-.tdmd-vt-cond .tdmd-vt-cond__differ thead th{background:var(--tdmd-navy);color:#fff;}
+.tdmd-vt-cond .tdmd-vt-cond__differ thead th{background:var(--tdmd-navy);color:var(--tdmd-on-navy);}
 .tdmd-vt-cond .tdmd-vt-cond__differ tbody th{background:var(--tdmd-bg-soft,#f6f8fa);color:var(--tdmd-navy);}
 .tdmd-vt-cond .tdmd-vt-cond__outdoor{background:var(--tdmd-bg-soft,#f4f8f4);border:1px solid var(--tdmd-border);border-left:5px solid #2E7D52;border-radius:var(--tdmd-radius,18px);padding:1.1rem 1.3rem;margin-top:1rem;}
 .tdmd-vt-cond .tdmd-vt-cond__outdoor h3{color:#1f5135;margin-top:0.6rem;}
@@ -322,7 +322,7 @@ export default function VtPinkEyeTreatmentOnline() {
                       Reviewed by <a href={PHYSICIAN.bioUrl}>{PHYSICIAN.name}</a> — Board-Certified {PHYSICIAN.specialty} (American Board of Family Medicine)
                     </span>
                     <span className="tdmd-vt-cond__byline-meta">
-                      NPI {PHYSICIAN.npi} · Vermont Medical License #{PHYSICIAN.licenseNumber} (<a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
+                      NPI {PHYSICIAN.npi} · Vermont Medical License #{PHYSICIAN.licenseNumber} (<a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
                       <time dateTime={DATE_MODIFIED}>{new Date(DATE_MODIFIED).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
                     </span>
                   </div>
@@ -347,9 +347,9 @@ export default function VtPinkEyeTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/vt/" className="tdmd-btn tdmd-btn-outline">Explore Vermont Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> H10.9 (unspecified conjunctivitis); final coding depends on the exam</p>
@@ -481,7 +481,7 @@ export default function VtPinkEyeTreatmentOnline() {
 
             <h3>What standard does the treating physician owe you?</h3>
             <p>
-              Under the <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a>, the standard of care is identical across in-person and telehealth encounters, and a Vermont license is required to treat patients in the state. Dr. Bhavsar holds Vermont Medical License #042.0040345-COMP from the Board. <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">Verify the license</a> · <a href="/about/">Dr. Bhavsar&apos;s bio</a>.
+              Under the <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a>, the standard of care is identical across in-person and telehealth encounters, and a Vermont license is required to treat patients in the state. Dr. Bhavsar holds Vermont Medical License #042.0040345-COMP from the Board. <a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">Verify the license</a> · <a href="/about/">Dr. Bhavsar&apos;s bio</a>.
             </p>
 
             <h3>Are pink eye medications controlled in Vermont?</h3>
@@ -516,7 +516,7 @@ export default function VtPinkEyeTreatmentOnline() {
                   <h3>Treat, soothe, or refer</h3>
                   <p>A bacterial eye may get an antibiotic drop or ointment; an allergic eye an antihistamine drop; viral and irritant eyes supportive care. A contact-lens red eye or any vision-threatening sign is referred for an in-person eye exam. Any prescription is e-sent to your Vermont pharmacy.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -544,25 +544,6 @@ export default function VtPinkEyeTreatmentOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical pink eye cost comparison">
-                <h3>Typical Pink Eye Visit Cost in Vermont</h3>
-                <p className="tdmd-price-caption">Ranges Vermonters commonly see. Actual cost varies by setting and town.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 16, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical Vermont pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <div className="tdmd-cashpay-note">
@@ -595,7 +576,7 @@ export default function VtPinkEyeTreatmentOnline() {
                   <tr className="tdmd-vt-cond__med-firstline">
                     <td><strong>Erythromycin ophthalmic ointment</strong> · Bacterial</td>
                     <td>Apply to the eye about four times daily</td>
-                    <td><a href="https://www.goodrx.com/erythromycin-ophthalmic" target="_blank" rel="noopener">~$15–$30 generic</a></td>
+                    <td><a href="https://www.goodrx.com/erythromycin" target="_blank" rel="noopener">~$15–$30 generic</a></td>
                     <td>Gentle first-line ointment for bacterial conjunctivitis; can briefly blur vision after applying.</td>
                   </tr>
                   <tr className="tdmd-vt-cond__med-firstline">
@@ -607,7 +588,7 @@ export default function VtPinkEyeTreatmentOnline() {
                   <tr>
                     <td><strong>Azithromycin ophthalmic drops</strong> · Bacterial</td>
                     <td>One drop twice daily &times; 2 days, then once daily</td>
-                    <td><a href="https://www.goodrx.com/azithromycin-ophthalmic" target="_blank" rel="noopener">~$25–$60 generic</a></td>
+                    <td><a href="https://www.goodrx.com/azithromycin" target="_blank" rel="noopener">~$25–$60 generic</a></td>
                     <td>Shorter, simpler schedule that helps adherence; cost runs higher than the others.</td>
                   </tr>
                   <tr>
@@ -668,7 +649,7 @@ export default function VtPinkEyeTreatmentOnline() {
                 <p>Woke up with a red, gummy eye? See a Vermont MD today</p>
                 <small>Cash-pay $79 flat · No insurance billing in Vermont · Cause sorted before any drop</small>
               </div>
-              <a className="tdmd-vt-cond__cta-btn" href="/book-online" rel="noopener">Book Now &rarr;</a>
+              <a className="tdmd-vt-cond__cta-btn" href="/book-online/" rel="noopener">Book Now &rarr;</a>
             </div>
           </div>
         </section>
@@ -686,8 +667,8 @@ export default function VtPinkEyeTreatmentOnline() {
                 <p>Book a same-day video visit. Cash-pay $79 flat. No insurance billing in Vermont.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -715,10 +696,6 @@ export default function VtPinkEyeTreatmentOnline() {
                 <span className="tdmd-vt-cond__sibling-label">Ear Pain Treatment in VT</span>
                 <span className="tdmd-vt-cond__sibling-why">Eye and ear symptoms together often trace back to the same viral cold.</span>
               </a>
-              <a className="tdmd-vt-cond__sibling" href="/vt/online-doctor-visits/">
-                <span className="tdmd-vt-cond__sibling-label">All Online Doctor Visits in VT</span>
-                <span className="tdmd-vt-cond__sibling-why">The general Vermont telehealth hub for everything we treat.</span>
-              </a>
             </div>
           </div>
         </section>
@@ -734,9 +711,9 @@ export default function VtPinkEyeTreatmentOnline() {
               <a href="/pink-eye-treatment-online/">National pink eye page</a>
               <a href="/health-guides/">Health guides</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>

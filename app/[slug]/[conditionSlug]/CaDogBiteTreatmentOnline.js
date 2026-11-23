@@ -10,7 +10,7 @@
  * FAQ accordion (12 Q/A), JSON-LD schemas (MedicalWebPage + FAQPage + Physician
  * + HowTo + BreadcrumbList + SpeakableSpecification — NEVER QAPage).
  *
- * Authority: AAFP
+ * Authority: IDSA
  * Guideline: CDC Animal Bite Guidelines + IDSA Skin and Soft Tissue Infection Guidelines
  *
  * Hard rules respected:
@@ -38,7 +38,7 @@ const PHYSICIAN = {
   specialty: 'Family Medicine',
   licenseState: 'California',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 const CA_PAYORS = [
@@ -46,8 +46,8 @@ const CA_PAYORS = [
     notes: 'Commercial plans. In-network as of April 30, 2026. Verify plan eligibility with Aetna before booking.' },
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true,
     notes: 'Covers UHC Commercial and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types.' },
-  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Enrollment pending. Self pay ($79) available.' },
+  { name: 'Anthem Blue Cross', status: 'Active', effective: 'September 23, 2026', inNetwork: true,
+    notes: 'PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.' },
   { name: 'Cigna', status: 'Pending', effective: 'Pending determination', inNetwork: false,
     notes: 'Pending — Telehealth Only review in progress. Self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false,
@@ -62,7 +62,7 @@ const FAQ_ITEMS = [
     question: 'Can I get dog bite treatment online in California?',
     answer: (
       <p>
-        Yes — for telehealth-appropriate presentations. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate dog bite wounds and prescribe prophylactic antibiotics via secure video visit. TeleDirectMD physicians follow CDC and IDSA guidelines, prescribing amoxicillin-clavulanate (Augmentin) as first-line prophylaxis and evaluating tetanus and rabies PEP status. Go to the ED for: deep wounds, facial bites, hand bites, suspected rabies exposure, or signs of established infection. Self pay is $79.
+        Yes — for telehealth-appropriate presentations. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate dog bite wounds and prescribe prophylactic antibiotics via secure video visit. Dr. Bhavsar follows CDC and IDSA guidelines, prescribing amoxicillin-clavulanate (Augmentin) as first-line prophylaxis and evaluating tetanus and rabies PEP status. Go to the ED for: deep wounds, facial bites, hand bites, suspected rabies exposure, or signs of established infection. Self pay is $79.
       </p>
     ),
   },
@@ -98,7 +98,7 @@ const FAQ_ITEMS = [
     question: 'Does a dog bite always require antibiotics?',
     answer: (
       <p>
-        Not always. IDSA guidelines recommend antibiotic prophylaxis for dog bites with: puncture wounds (especially from large dogs), wounds involving hands, feet, or face, bites in immunocompromised patients, bites requiring suturing, or wounds where debridement is incomplete. Minor superficial dog bite abrasions without puncture in healthy non-immunocompromised adults may not require prophylaxis if wound care is thorough. TeleDirectMD physicians apply IDSA criteria at the visit.
+        Not always. IDSA guidelines recommend antibiotic prophylaxis for dog bites with: puncture wounds (especially from large dogs), wounds involving hands, feet, or face, bites in immunocompromised patients, bites requiring suturing, or wounds where debridement is incomplete. Minor superficial dog bite abrasions without puncture in healthy non-immunocompromised adults may not require prophylaxis if wound care is thorough. Dr. Bhavsar applies IDSA criteria at the visit.
       </p>
     ),
   },
@@ -125,7 +125,7 @@ const FAQ_ITEMS = [
     question: 'What is the cost of dog bite treatment in California?',
     answer: (
       <p>
-        TeleDirectMD charges $79 self-pay for a complete MD video visit. Generic amoxicillin-clavulanate 875/125 mg costs ~$15–$35 for 5 days with GoodRx. ED dog bite visits in California typically cost $500–$3,000+ before insurance, depending on wound complexity, suturing, and imaging.
+        TeleDirectMD charges $79 self-pay for a complete MD video visit. Generic amoxicillin-clavulanate 875/125 mg costs ~$15–$35 for 5 days with GoodRx.
       </p>
     ),
   },
@@ -152,7 +152,7 @@ const FAQ_ITEMS = [
     question: 'Do I need a tetanus shot after a dog bite?',
     answer: (
       <p>
-        Tetanus prophylaxis after dog bite follows standard wound care guidelines. If your last tetanus vaccine was more than 5 years ago, a booster (Td or Tdap) is recommended for wounds with significant contamination. If you have never been vaccinated or your vaccination history is unknown, tetanus immunoglobulin (TIG) plus vaccine series may be needed. Tetanus shots require in-person administration — TeleDirectMD physicians assess tetanus status and direct you to a California pharmacy or urgent care for the booster.
+        Tetanus prophylaxis after dog bite follows standard wound care guidelines. If your last tetanus vaccine was more than 5 years ago, a booster (Td or Tdap) is recommended for wounds with significant contamination. If you have never been vaccinated or your vaccination history is unknown, tetanus immunoglobulin (TIG) plus vaccine series may be needed. Tetanus shots require in-person administration — Dr. Bhavsar assesses tetanus status and direct you to a California pharmacy or urgent care for the booster.
       </p>
     ),
   },
@@ -167,7 +167,7 @@ const FAQ_ITEMS = [
   },
 ];
 
-const SCHEMAS = [{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Dog Bite (Infection Prevention and Wound Care) Online in California | TeleDirectMD", "url": "https://teledirectmd.com/ca/dog-bite-treatment-online/", "description": "Dog bite antibiotic prophylaxis online for California adults. Board-certified Family Medicine MD. CDC + IDSA guideline-based. Self pay $79. Aetna in-network. Same-day video visits. Amoxicillin-clavulanate.", "datePublished": "2026-05-20", "dateModified": "2026-05-20", "inLanguage": "en-US", "about": {"@type": "MedicalCondition", "name": "Dog Bite", "code": {"@type": "MedicalCode", "code": "W54.0XXA", "codingSystem": "ICD-10-CM"}}, "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient", "geographicArea": {"@type": "AdministrativeArea", "name": "California"}}, "reviewedBy": {"@type": "Physician", "@id": "https://teledirectmd.com/about/#physician-parth-bhavsar", "name": "Parth Bhavsar, MD", "identifier": {"@type": "PropertyValue", "propertyID": "NPI", "value": "1104323203"}, "medicalSpecialty": "Family Medicine", "hasCredential": [{"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "Doctor of Medicine (MD)"}, {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Board Certification \u2014 American Board of Family Medicine"}], "licensedIn": "California", "worksFor": {"@type": "MedicalOrganization", "name": "TeleDirectMD", "url": "https://teledirectmd.com"}, "sameAs": ["https://npiregistry.cms.hhs.gov/provider-view/1104323203", "https://teledirectmd.com/about/"]}, "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["#ca-dog-bite-treatment-online-opening", "#ca-dog-bite-treatment-online-opening p", ".tdmd-ca-dog-bite-treatment-online__byline", "#ca-dog-bite-treatment-online-faq"]}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I get dog bite treatment online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes \u2014 for telehealth-appropriate presentations. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate dog bite wounds and prescribe prophylactic antibiotics via secure video visit. TeleDirectMD physicians follow CDC and IDSA guidelines, prescribing amoxicillin-clavulanate (Augmentin) as first-line prophylaxis and evaluating tetanus and rabies PEP status. Go to the ED for: deep wounds, facial bites, hand bites, suspected rabies exposure, or signs of established infection. Self pay is $79."}}, {"@type": "Question", "name": "What is the first-line antibiotic for dog bite wounds?", "acceptedAnswer": {"@type": "Answer", "text": "Amoxicillin-clavulanate (Augmentin) 875/125 mg twice daily for 5 days is the first-line prophylactic antibiotic for dog bite wounds per IDSA guidelines. It provides coverage for the polymicrobial flora of dog bites \u2014 including Pasteurella multocida, Capnocytophaga canimorsus, anaerobes, streptococci, and staphylococci. Prophylaxis should begin within 8\u201312 hours of the bite to be effective. For penicillin-allergic patients, alternatives include doxycycline + metronidazole."}}, {"@type": "Question", "name": "When does a dog bite require emergency care in California?", "acceptedAnswer": {"@type": "Answer", "text": "Go to the ED immediately for: deep puncture wounds or wounds requiring suturing, facial bites (especially in children), hand bites with tendon involvement, suspected rabies exposure (stray or unvaccinated dog, wild animal), immunocompromised patient with any dog bite (Capnocytophaga sepsis risk), or signs of established infection (spreading redness, fever, purulent discharge, systemic illness). Rabies post-exposure prophylaxis (immunoglobulin + vaccine) cannot be started by telehealth \u2014 go to the ED immediately."}}, {"@type": "Question", "name": "How common are dog bites in California?", "acceptedAnswer": {"@type": "Answer", "text": "California averages approximately 14,000\u201316,000 reported dog bites annually per CDPH data, with actual incidence significantly higher due to underreporting. The CDC estimates 4.5 million dog bites occur in the United States each year, with about 800,000 requiring medical attention. California law requires reporting of animal bites when rabies risk is suspected to local health departments."}}, {"@type": "Question", "name": "Does a dog bite always require antibiotics?", "acceptedAnswer": {"@type": "Answer", "text": "Not always. IDSA guidelines recommend antibiotic prophylaxis for dog bites with: puncture wounds (especially from large dogs), wounds involving hands, feet, or face, bites in immunocompromised patients, bites requiring suturing, or wounds where debridement is incomplete. Minor superficial dog bite abrasions without puncture in healthy non-immunocompromised adults may not require prophylaxis if wound care is thorough. TeleDirectMD physicians apply IDSA criteria at the visit."}}, {"@type": "Question", "name": "What is the rabies risk from dog bites in California?", "acceptedAnswer": {"@type": "Answer", "text": "The CDPH Rabies Surveillance Program tracks California animal bites. California has not had a human rabies case from a domestic dog in decades \u2014 the primary rabies reservoir in California is bats, followed by skunks and foxes. A dog bite from a known, vaccinated dog has extremely low rabies risk. Bites from stray, unvaccinated, or wild animals require rabies post-exposure prophylaxis (PEP) evaluation \u2014 go to the ED immediately."}}, {"@type": "Question", "name": "Is Aetna in-network for dog bite treatment at TeleDirectMD in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026. Self pay is $79."}}, {"@type": "Question", "name": "What is the cost of dog bite treatment in California?", "acceptedAnswer": {"@type": "Answer", "text": "TeleDirectMD charges $79 self-pay for a complete MD video visit. Generic amoxicillin-clavulanate 875/125 mg costs ~$15\u2013$35 for 5 days with GoodRx. ED dog bite visits in California typically cost $500\u2013$3,000+ before insurance, depending on wound complexity, suturing, and imaging."}}, {"@type": "Question", "name": "Does California's AB 744 parity law cover dog bite telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, for in-network commercial plans. California AB 744 (2019) requires commercial health plans to reimburse telehealth on the same basis as in-person services. Aetna and UHC Commercial are in-network for TeleDirectMD in California."}}, {"@type": "Question", "name": "What should I do immediately after a dog bite?", "acceptedAnswer": {"@type": "Answer", "text": "Immediate steps per CDC: wash the wound thoroughly with soap and water for at least 5 minutes; apply gentle pressure to stop bleeding; cover with a clean bandage. Then: assess the wound severity, identify the dog and its vaccination status, call California animal control if the dog is stray. Seek in-person care for deep wounds, facial bites, or suspected rabies exposure. Telehealth is appropriate for minor bite wounds in healthy adults once first-aid is complete."}}, {"@type": "Question", "name": "Do I need a tetanus shot after a dog bite?", "acceptedAnswer": {"@type": "Answer", "text": "Tetanus prophylaxis after dog bite follows standard wound care guidelines. If your last tetanus vaccine was more than 5 years ago, a booster (Td or Tdap) is recommended for wounds with significant contamination. If you have never been vaccinated or your vaccination history is unknown, tetanus immunoglobulin (TIG) plus vaccine series may be needed. Tetanus shots require in-person administration \u2014 TeleDirectMD physicians assess tetanus status and direct you to a California pharmacy or urgent care for the booster."}}, {"@type": "Question", "name": "Will my dog bite antibiotic prescription be sent electronically to a California pharmacy?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California AB 2789 (effective January 1, 2022) requires all prescriptions to be issued electronically. TeleDirectMD sends e-prescriptions to your chosen California pharmacy \u2014 CVS, Walgreens, Rite Aid, Walmart, Safeway \u2014 during or after your visit."}}]}, {"@context": "https://schema.org", "@type": "HowTo", "name": "How to Get Dog Bite (Infection Prevention and Wound Care) Online in California", "description": "Three steps to receive dog bite (infection prevention and wound care) evaluation and, if appropriate, a prescription from a California-licensed board-certified physician.", "totalTime": "PT30M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "79"}, "step": [{"@type": "HowToStep", "position": 1, "name": "Book your video visit", "text": "Visit teledirectmd.com and select California Dog Bite treatment. No referral needed. Self pay $79. Many visits available same day.", "url": "https://teledirectmd.com/book-online"}, {"@type": "HowToStep", "position": 2, "name": "See a California-licensed MD by secure video", "text": "Connect with a board-certified Family Medicine physician licensed in California. The physician reviews your symptoms, history, and red-flag screening. Consent per CA B&P Section 2290.5 confirmed.", "url": "https://teledirectmd.com/ca/dog-bite-treatment-online/"}, {"@type": "HowToStep", "position": 3, "name": "Receive your treatment plan and e-prescription", "text": "If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy during or after the visit.", "url": "https://teledirectmd.com/ca/dog-bite-treatment-online/"}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TeleDirectMD", "item": "https://teledirectmd.com"}, {"@type": "ListItem", "position": 2, "name": "California", "item": "https://teledirectmd.com/ca/"}, {"@type": "ListItem", "position": 3, "name": "Dog Bite (Infection Prevention and Wound Care) Online in California", "item": "https://teledirectmd.com/ca/dog-bite-treatment-online/"}]}];
+const SCHEMAS = [{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Dog Bite (Infection Prevention and Wound Care) Online in California | TeleDirectMD", "url": "https://teledirectmd.com/ca/dog-bite-treatment-online/", "description": "Dog bite antibiotic prophylaxis online for California adults. Board-certified Family Medicine MD. CDC + IDSA guideline-based. Self pay $79. Aetna in-network. Same-day video visits. Amoxicillin-clavulanate.", "datePublished": "2026-05-20", "dateModified": "2026-05-20", "inLanguage": "en-US", "about": {"@type": "MedicalCondition", "name": "Dog Bite", "code": {"@type": "MedicalCode", "code": "W54.0XXA", "codingSystem": "ICD-10-CM"}}, "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient", "geographicArea": {"@type": "AdministrativeArea", "name": "California"}}, "reviewedBy": {"@type": "Physician", "@id": "https://teledirectmd.com/about/#physician", "name": "Parth Bhavsar, MD", "identifier": {"@type": "PropertyValue", "propertyID": "NPI", "value": "1104323203"}, "medicalSpecialty": "Family Medicine", "hasCredential": [{"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "Doctor of Medicine (MD)"}, {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Board Certification \u2014 American Board of Family Medicine"}], "licensedIn": "California", "worksFor": {"@type": "MedicalOrganization", "name": "TeleDirectMD", "url": "https://teledirectmd.com"}, "sameAs": ["https://npiregistry.cms.hhs.gov/provider-view/1104323203", "https://teledirectmd.com/about/"]}, "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["#ca-dog-bite-treatment-online-opening", "#ca-dog-bite-treatment-online-opening p", ".tdmd-ca-dog-bite-treatment-online__byline", "#ca-dog-bite-treatment-online-faq"]}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I get dog bite treatment online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes \u2014 for telehealth-appropriate presentations. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate dog bite wounds and prescribe prophylactic antibiotics via secure video visit. Dr. Bhavsar follows CDC and IDSA guidelines, prescribing amoxicillin-clavulanate (Augmentin) as first-line prophylaxis and evaluating tetanus and rabies PEP status. Go to the ED for: deep wounds, facial bites, hand bites, suspected rabies exposure, or signs of established infection. Self pay is $79."}}, {"@type": "Question", "name": "What is the first-line antibiotic for dog bite wounds?", "acceptedAnswer": {"@type": "Answer", "text": "Amoxicillin-clavulanate (Augmentin) 875/125 mg twice daily for 5 days is the first-line prophylactic antibiotic for dog bite wounds per IDSA guidelines. It provides coverage for the polymicrobial flora of dog bites \u2014 including Pasteurella multocida, Capnocytophaga canimorsus, anaerobes, streptococci, and staphylococci. Prophylaxis should begin within 8\u201312 hours of the bite to be effective. For penicillin-allergic patients, alternatives include doxycycline + metronidazole."}}, {"@type": "Question", "name": "When does a dog bite require emergency care in California?", "acceptedAnswer": {"@type": "Answer", "text": "Go to the ED immediately for: deep puncture wounds or wounds requiring suturing, facial bites (especially in children), hand bites with tendon involvement, suspected rabies exposure (stray or unvaccinated dog, wild animal), immunocompromised patient with any dog bite (Capnocytophaga sepsis risk), or signs of established infection (spreading redness, fever, purulent discharge, systemic illness). Rabies post-exposure prophylaxis (immunoglobulin + vaccine) cannot be started by telehealth \u2014 go to the ED immediately."}}, {"@type": "Question", "name": "How common are dog bites in California?", "acceptedAnswer": {"@type": "Answer", "text": "California averages approximately 14,000\u201316,000 reported dog bites annually per CDPH data, with actual incidence significantly higher due to underreporting. The CDC estimates 4.5 million dog bites occur in the United States each year, with about 800,000 requiring medical attention. California law requires reporting of animal bites when rabies risk is suspected to local health departments."}}, {"@type": "Question", "name": "Does a dog bite always require antibiotics?", "acceptedAnswer": {"@type": "Answer", "text": "Not always. IDSA guidelines recommend antibiotic prophylaxis for dog bites with: puncture wounds (especially from large dogs), wounds involving hands, feet, or face, bites in immunocompromised patients, bites requiring suturing, or wounds where debridement is incomplete. Minor superficial dog bite abrasions without puncture in healthy non-immunocompromised adults may not require prophylaxis if wound care is thorough. Dr. Bhavsar applies IDSA criteria at the visit."}}, {"@type": "Question", "name": "What is the rabies risk from dog bites in California?", "acceptedAnswer": {"@type": "Answer", "text": "The CDPH Rabies Surveillance Program tracks California animal bites. California has not had a human rabies case from a domestic dog in decades \u2014 the primary rabies reservoir in California is bats, followed by skunks and foxes. A dog bite from a known, vaccinated dog has extremely low rabies risk. Bites from stray, unvaccinated, or wild animals require rabies post-exposure prophylaxis (PEP) evaluation \u2014 go to the ED immediately."}}, {"@type": "Question", "name": "Is Aetna in-network for dog bite treatment at TeleDirectMD in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026. Self pay is $79."}}, {"@type": "Question", "name": "What is the cost of dog bite treatment in California?", "acceptedAnswer": {"@type": "Answer", "text": "TeleDirectMD charges $79 self-pay for a complete MD video visit. Generic amoxicillin-clavulanate 875/125 mg costs ~$15\u2013$35 for 5 days with GoodRx."}}, {"@type": "Question", "name": "Does California's AB 744 parity law cover dog bite telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, for in-network commercial plans. California AB 744 (2019) requires commercial health plans to reimburse telehealth on the same basis as in-person services. Aetna and UHC Commercial are in-network for TeleDirectMD in California."}}, {"@type": "Question", "name": "What should I do immediately after a dog bite?", "acceptedAnswer": {"@type": "Answer", "text": "Immediate steps per CDC: wash the wound thoroughly with soap and water for at least 5 minutes; apply gentle pressure to stop bleeding; cover with a clean bandage. Then: assess the wound severity, identify the dog and its vaccination status, call California animal control if the dog is stray. Seek in-person care for deep wounds, facial bites, or suspected rabies exposure. Telehealth is appropriate for minor bite wounds in healthy adults once first-aid is complete."}}, {"@type": "Question", "name": "Do I need a tetanus shot after a dog bite?", "acceptedAnswer": {"@type": "Answer", "text": "Tetanus prophylaxis after dog bite follows standard wound care guidelines. If your last tetanus vaccine was more than 5 years ago, a booster (Td or Tdap) is recommended for wounds with significant contamination. If you have never been vaccinated or your vaccination history is unknown, tetanus immunoglobulin (TIG) plus vaccine series may be needed. Tetanus shots require in-person administration \u2014 Dr. Bhavsar assesses tetanus status and direct you to a California pharmacy or urgent care for the booster."}}, {"@type": "Question", "name": "Will my dog bite antibiotic prescription be sent electronically to a California pharmacy?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California AB 2789 (effective January 1, 2022) requires all prescriptions to be issued electronically. TeleDirectMD sends e-prescriptions to your chosen California pharmacy \u2014 CVS, Walgreens, Rite Aid, Walmart, Safeway \u2014 during or after your visit."}}]}, {"@context": "https://schema.org", "@type": "HowTo", "name": "How to Get Dog Bite (Infection Prevention and Wound Care) Online in California", "description": "Three steps to receive dog bite (infection prevention and wound care) evaluation and, if appropriate, a prescription from a California-licensed board-certified physician.", "totalTime": "PT30M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "79"}, "step": [{"@type": "HowToStep", "position": 1, "name": "Book your video visit", "text": "Visit teledirectmd.com and select California Dog Bite treatment. No referral needed. Self pay $79. Many visits available same day.", "url": "https://teledirectmd.com/book-online"}, {"@type": "HowToStep", "position": 2, "name": "See a California-licensed MD by secure video", "text": "Connect with a board-certified Family Medicine physician licensed in California. The physician reviews your symptoms, history, and red-flag screening. Consent per CA B&P Section 2290.5 confirmed.", "url": "https://teledirectmd.com/ca/dog-bite-treatment-online/"}, {"@type": "HowToStep", "position": 3, "name": "Receive your treatment plan and e-prescription", "text": "If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy during or after the visit.", "url": "https://teledirectmd.com/ca/dog-bite-treatment-online/"}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TeleDirectMD", "item": "https://teledirectmd.com"}, {"@type": "ListItem", "position": 2, "name": "California", "item": "https://teledirectmd.com/ca/"}, {"@type": "ListItem", "position": 3, "name": "Dog Bite (Infection Prevention and Wound Care) Online in California", "item": "https://teledirectmd.com/ca/dog-bite-treatment-online/"}]}];
 
 const PAGE_CSS = `
 .tdmd-ca-cond{color:var(--tdmd-text);}
@@ -251,7 +251,7 @@ export default function CaDogBiteTreatmentOnline() {
                 {/* v3: Inline opener paragraph — replaces CitableSummaryBlock */}
                 <div className="tdmd-condition-opener" id={`${pid}-opening`}>
                   <p>
-                    <strong>Can I get dog bite (infection prevention and wound care) online in California?</strong> Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California and are held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. Self pay is $79. <a href="/insurance/">Aetna is in-network</a> as of April 30, 2026; UnitedHealthcare Commercial approved May 29, 2026.
+                    <strong>Can I get dog bite (infection prevention and wound care) online in California?</strong> Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. Dr. Bhavsar is licensed in California and is held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. Self pay is $79. <a href="/insurance/">Aetna is in-network</a> as of April 30, 2026; UnitedHealthcare Commercial approved May 29, 2026.
                   </p>
                 </div>
 
@@ -290,9 +290,9 @@ export default function CaDogBiteTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> W54.0XXA (Bitten by dog, initial encounter)</p>
@@ -304,7 +304,7 @@ export default function CaDogBiteTreatmentOnline() {
                   <ul>
                     <li>Fast evaluation for dog bite (infection prevention and wound care) symptoms</li>
                     <li>Red-flag screening for serious complications requiring in-person care</li>
-                    <li>Guideline-based treatment per AAFP</li>
+                    <li>Guideline-based treatment per IDSA</li>
                     <li>e-Prescriptions to your CA pharmacy under AB 2789</li>
                     <li>Clear follow-up steps and prevention guidance</li>
                   </ul>
@@ -404,7 +404,7 @@ export default function CaDogBiteTreatmentOnline() {
                   <h3>Receive your treatment plan and e-prescription</h3>
                   <p>If medication is clinically appropriate, a California-compliant e-prescription is sent to your chosen California pharmacy during or after the visit. You receive clear follow-up instructions regardless of treatment choice, including when to seek in-person care.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -420,7 +420,7 @@ export default function CaDogBiteTreatmentOnline() {
               California ranks among the top states for dog bite incidents. The California Department of Public Health (CDPH) Rabies Surveillance Program tracks animal bites statewide — California averages approximately 14,000–16,000 dog bites reported annually, with actual incidence estimated significantly higher given underreporting. The CDC reports approximately 4.5 million dog bites occur in the United States each year, with an estimated 800,000 requiring medical attention. — <a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Rabies.aspx" rel="noopener" target="_blank">CDPH — Rabies Surveillance Program</a>.
             </p>
             <p>
-              Clinical guidance for dog bite (infection prevention and wound care) is provided by <a href="https://www.cdc.gov/niosh/topics/animals/dog.html" rel="noopener" target="_blank">AAFP</a> through the CDC Animal Bite Guidelines + IDSA Skin and Soft Tissue Infection Guidelines. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for dog bite (infection prevention and wound care) is provided by <a href="https://www.cdc.gov/rabies/hcp/clinical-care/post-exposure-prophylaxis.html" rel="noopener" target="_blank">CDC</a> through the CDC Animal Bite Guidelines + IDSA Skin and Soft Tissue Infection Guidelines. TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes dog bite and who is most at risk in California?</h3>
             <p>
@@ -449,25 +449,6 @@ export default function CaDogBiteTreatmentOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical Dog Bite cost comparison">
-                <h3>Typical Dog Bite Visit Cost in California</h3>
-                <p className="tdmd-price-caption">Common ranges Californians see before insurance. Actual costs vary by setting and city.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 16, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical California metro pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <h3 style={{ marginTop: '1.75rem' }}>California Payor Status — TeleDirectMD</h3>
@@ -505,7 +486,7 @@ export default function CaDogBiteTreatmentOnline() {
               </table>
             </div>
             <p style={{ marginTop: '1rem' }}>
-              View all <a href="/insurance">insurance options</a> or <a href="/book-online">book a $79 self-pay visit</a>.
+              View all <a href="/insurance/">insurance options</a> or <a href="/book-online/">book a $79 self-pay visit</a>.
             </p>
           </div>
         </section>
@@ -515,7 +496,7 @@ export default function CaDogBiteTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Dog Bite (Infection Prevention and Wound Care) Medication Options and Costs in California</h2>
             <p>
-              Medications for dog bite (infection prevention and wound care) are selected based on current guidelines from <a href="https://www.cdc.gov/niosh/topics/animals/dog.html" rel="noopener" target="_blank">AAFP</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for dog bite (infection prevention and wound care) are selected based on current guidelines from <a href="https://www.cdc.gov/rabies/hcp/clinical-care/post-exposure-prophylaxis.html" rel="noopener" target="_blank">CDC</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Dog Bite (Infection Prevention and Wound Care) medication options and GoodRx prices">
@@ -534,19 +515,19 @@ export default function CaDogBiteTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Amoxicillin-clavulanate (Augmentin) 875/125 mg</strong> · First-line</td>
                     <td>875 mg twice daily × 5 days (prophylaxis) or 5–7 days (early infection)</td>
-                    <td><a href="https://www.goodrx.com/amoxicillin-clavulanate" target="_blank" rel="noopener">~$15–$35 / 20 tablets</a></td>
+                    <td><a href="https://www.goodrx.com/amoxicillin-potassium-clavulanate" target="_blank" rel="noopener">~$15–$35 / 20 tablets</a></td>
                     <td>First-line prophylaxis for dog bite per IDSA. Covers Pasteurella multocida, Capnocytophaga, anaerobes, streptococci, staphylococci. Begin within 8–12 hours of bite for prophylaxis to be effective.</td>
                   </tr>
                   <tr>
                     <td><strong>Doxycycline 100 mg oral (penicillin-allergic alternative)</strong></td>
                     <td>100 mg twice daily × 5–7 days — combine with metronidazole for anaerobic coverage</td>
-                    <td><a href="https://www.goodrx.com/doxycycline" target="_blank" rel="noopener">~$12–$25 / 30 tabs</a></td>
+                    <td><a href="https://www.goodrx.com/doxycycline-hyclate" target="_blank" rel="noopener">~$12–$25 / 30 tabs</a></td>
                     <td>Second-line for penicillin-allergic patients per IDSA. Add metronidazole 500 mg three times daily for anaerobic coverage. Not for use in pregnancy.</td>
                   </tr>
                   <tr>
                     <td><strong>TMP-SMX DS + metronidazole (penicillin-allergic alternative)</strong></td>
                     <td>TMP-SMX DS twice daily + metronidazole 500 mg three times daily × 5 days</td>
-                    <td><a href="https://www.goodrx.com/trimethoprim-sulfamethoxazole" target="_blank" rel="noopener">~$10–$20 combined</a></td>
+                    <td><a href="https://www.goodrx.com/sulfamethoxazole-trimethoprim" target="_blank" rel="noopener">~$10–$20 combined</a></td>
                     <td>Alternative for penicillin-allergic patients per IDSA. TMP-SMX covers gram-negative aerobes; metronidazole covers anaerobes. Less data than amoxicillin-clavulanate.</td>
                   </tr>
                 </tbody>
@@ -555,6 +536,7 @@ export default function CaDogBiteTreatmentOnline() {
             <p className="tdmd-med-note">
               <strong>Important:</strong> The choice of medication depends on your medical history, allergies, drug interactions, and clinical factors assessed by the physician at the visit. Do not start any prescription medication without a clinical evaluation.
             </p>
+            <p className="tdmd-med-note" data-fda-notes="true"><strong>FDA labeling note:</strong> Trimethoprim-sulfamethoxazole (TMP-SMX), Rx only, has not been approved by the FDA as safe and effective to treat skin and soft tissue infections; the Infectious Diseases Society of America 2014 guideline recommends it where MRSA is a concern and as the penicillin-allergy alternative for bite wounds. Only a licensed physician may prescribe this medication for this condition if, in his clinical judgment, use is medically appropriate. Report side effects to the FDA at www.fda.gov/medwatch or 1-800-FDA-1088.</p>
           </div>
         </section>
 
@@ -604,7 +586,7 @@ export default function CaDogBiteTreatmentOnline() {
                 <p>Book a same-day video visit — California adults, 18+</p>
                 <small>Self pay $79 &middot; Aetna in-network &middot; UHC Commercial approved May 2026 &middot; No ER wait</small>
               </div>
-              <a className="tdmd-ca-cond__cta-btn" href="/book-online" rel="noopener">Book Now &rarr;</a>
+              <a className="tdmd-ca-cond__cta-btn" href="/book-online/" rel="noopener">Book Now &rarr;</a>
             </div>
           </div>
         </section>
@@ -622,8 +604,8 @@ export default function CaDogBiteTreatmentOnline() {
                 <p>Book a same-day video visit. Self pay $79 &middot; Aetna in-network &middot; UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -674,10 +656,10 @@ export default function CaDogBiteTreatmentOnline() {
               <a href="/dog-bite-treatment-online/">National Dog Bite page</a>
               <a href="/health-guides/">Dog Bite health guides</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/insurance">Insurance</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/insurance/">Insurance</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>
@@ -687,16 +669,16 @@ export default function CaDogBiteTreatmentOnline() {
           <div className="tdmd-container">
             <h2>References and Primary Sources</h2>
             <ol className="tdmd-ref-list">
-              <li><a href="https://www.cdc.gov/niosh/topics/animals/dog.html" rel="noopener" target="_blank">CDC — Rabies: Dog Bites. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.cdc.gov/rabies/hcp/clinical-care/post-exposure-prophylaxis.html" rel="noopener" target="_blank">CDC — Rabies Post-exposure Prophylaxis Guidance. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/" rel="noopener" target="_blank">IDSA — Skin and Soft Tissue Infection Guidelines. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Rabies.aspx" rel="noopener" target="_blank">CDPH — Rabies Surveillance. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California B&P Code §2290.5. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 (AB 744). Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/amoxicillin-clavulanate" rel="noopener" target="_blank">GoodRx — Amoxicillin-Clavulanate. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/doxycycline" rel="noopener" target="_blank">GoodRx — Doxycycline. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/amoxicillin-potassium-clavulanate" rel="noopener" target="_blank">GoodRx — Amoxicillin-Clavulanate. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/doxycycline-hyclate" rel="noopener" target="_blank">GoodRx — Doxycycline. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Prescriptions/Electronic_Prescribing.aspx" rel="noopener" target="_blank">Medical Board of California — AB 2789. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.cdc.gov/features/dog-bite-prevention/index.html" rel="noopener" target="_blank">CDC — Dog Bite Prevention. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.cdc.gov/healthy-pets/about/dogs.html" rel="noopener" target="_blank">CDC — Dogs: Preventing Dog Bites and Scratches. Retrieved 2026-05-22.</a></li>
             </ol>
           </div>
         </section>

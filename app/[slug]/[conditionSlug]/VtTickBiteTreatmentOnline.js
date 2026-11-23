@@ -37,7 +37,7 @@ const PHYSICIAN = {
   licenseState: 'Vermont',
   licenseNumber: '042.0040345-COMP',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 const FAQ_ITEMS = [
@@ -87,7 +87,7 @@ const FAQ_ITEMS = [
       'No. TeleDirectMD runs as a cash-pay practice in Vermont. The visit is a flat $79 paid at booking, with no insurance billing of any kind in Vermont. HSA and FSA cards are accepted. Any doxycycline you are prescribed is filled and paid for separately at your pharmacy, where a single PEP dose typically runs about $5 to $15 with a GoodRx coupon.',
     answer: (
       <p>
-        No. TeleDirectMD runs as a cash-pay practice in Vermont. The visit is a flat $79 paid at booking, with no insurance billing of any kind in Vermont. HSA and FSA cards are accepted. Any doxycycline you are prescribed is filled and paid for separately at your pharmacy, where a single PEP dose typically runs about $5 to $15 with a <a href="https://www.goodrx.com/doxycycline" rel="noopener" target="_blank">GoodRx coupon</a>.
+        No. TeleDirectMD runs as a cash-pay practice in Vermont. The visit is a flat $79 paid at booking, with no insurance billing of any kind in Vermont. HSA and FSA cards are accepted. Any doxycycline you are prescribed is filled and paid for separately at your pharmacy, where a single PEP dose typically runs about $5 to $15 with a <a href="https://www.goodrx.com/doxycycline-hyclate" rel="noopener" target="_blank">GoodRx coupon</a>.
       </p>
     ),
   },
@@ -138,7 +138,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -227,7 +227,7 @@ const PAGE_CSS = `
 .tdmd-vt-cond .tdmd-vt-cond__stat-cap{font-size:0.86rem;color:var(--tdmd-muted);margin-top:0.25rem;}
 .tdmd-vt-cond .tdmd-vt-cond__checklist{counter-reset:tickstep;list-style:none;padding:0;margin:1rem 0 0;}
 .tdmd-vt-cond .tdmd-vt-cond__checklist li{counter-increment:tickstep;position:relative;padding:0.85rem 1rem 0.85rem 3rem;background:var(--tdmd-card);border:1px solid var(--tdmd-border);border-radius:14px;margin-bottom:0.6rem;line-height:1.55;}
-.tdmd-vt-cond .tdmd-vt-cond__checklist li::before{content:counter(tickstep);position:absolute;left:0.85rem;top:0.85rem;width:1.6rem;height:1.6rem;border-radius:50%;background:var(--tdmd-teal);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:0.9rem;}
+.tdmd-vt-cond .tdmd-vt-cond__checklist li::before{content:counter(tickstep);position:absolute;left:0.85rem;top:0.85rem;width:1.6rem;height:1.6rem;border-radius:50%;background:var(--tdmd-teal);color:var(--tdmd-on-teal);font-weight:700;display:flex;align-items:center;justify-content:center;font-size:0.9rem;}
 .tdmd-vt-cond .tdmd-vt-cond__checklist li strong{color:var(--tdmd-navy);}
 .tdmd-vt-cond .tdmd-vt-cond__pep{background:linear-gradient(90deg,#E6F4EA,transparent);border:1px solid var(--tdmd-border);border-left:5px solid #2E7D52;border-radius:var(--tdmd-radius,18px);padding:1.1rem 1.3rem;margin-top:1rem;}
 .tdmd-vt-cond .tdmd-vt-cond__pep h3{margin:0 0 0.5rem;color:#1B5E3A;}
@@ -313,7 +313,7 @@ export default function VtTickBiteTreatmentOnline() {
                       Reviewed by <a href={PHYSICIAN.bioUrl}>{PHYSICIAN.name}</a> — Board-Certified {PHYSICIAN.specialty} (American Board of Family Medicine)
                     </span>
                     <span className="tdmd-vt-cond__byline-meta">
-                      NPI {PHYSICIAN.npi} · Vermont Medical License #{PHYSICIAN.licenseNumber} (<a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed June 4, 2026
+                      NPI {PHYSICIAN.npi} · Vermont Medical License #{PHYSICIAN.licenseNumber} (<a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed June 4, 2026
                     </span>
                   </div>
                 </div>
@@ -337,9 +337,9 @@ export default function VtTickBiteTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/vt/" className="tdmd-btn tdmd-btn-outline">Explore Vermont Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> A69.20 (Lyme disease, unspecified); Z20.818 (contact/exposure to tick); final coding depends on the exam</p>
@@ -418,7 +418,7 @@ export default function VtTickBiteTreatmentOnline() {
               </ol>
             </div>
             <p style={{ marginTop: '1rem' }}>
-              When those line up, the regimen is <strong>doxycycline 200 mg by mouth as a single dose</strong> for non-pregnant adults 18 and older. That is the whole course &mdash; one dose, not a daily run. Doxycycline is avoided in pregnancy, so pregnant patients need a different plan made in person. At most Vermont pharmacies the single PEP dose costs roughly <a href="https://www.goodrx.com/doxycycline" rel="noopener" target="_blank">$5 to $15 with a GoodRx coupon</a>, paid separately from the $79 visit fee. If even one criterion is missing &mdash; the tick was not <em>Ixodes</em>, it was barely attached, or more than 72 hours have passed &mdash; the guideline favors watchful waiting rather than a dose that would not help, with a 30-day watch for any rash or symptoms.
+              When those line up, the regimen is <strong>doxycycline 200 mg by mouth as a single dose</strong> for non-pregnant adults 18 and older. That is the whole course &mdash; one dose, not a daily run. Doxycycline is avoided in pregnancy, so pregnant patients need a different plan made in person. At most Vermont pharmacies the single PEP dose costs roughly <a href="https://www.goodrx.com/doxycycline-hyclate" rel="noopener" target="_blank">$5 to $15 with a GoodRx coupon</a>, paid separately from the $79 visit fee. If even one criterion is missing &mdash; the tick was not <em>Ixodes</em>, it was barely attached, or more than 72 hours have passed &mdash; the guideline favors watchful waiting rather than a dose that would not help, with a 30-day watch for any rash or symptoms.
             </p>
           </div>
         </section>
@@ -479,7 +479,7 @@ export default function VtTickBiteTreatmentOnline() {
             <h2>What TeleDirectMD Provides — and What It Costs</h2>
             <p>A single $79 video visit with a Vermont-licensed family medicine physician covers the full tick-bite workflow:</p>
             <ul>
-              <li>Same-day video visit with a Vermont-licensed physician (Vermont Medical License #042.0040345-COMP &mdash; <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify via the VT Board</a>)</li>
+              <li>Same-day video visit with a Vermont-licensed physician (Vermont Medical License #042.0040345-COMP &mdash; <a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify via the VT Board</a>)</li>
               <li>Tick photo review and a clear post-exposure prophylaxis eligibility decision</li>
               <li>Single-dose doxycycline e-prescription to your Vermont pharmacy when the four IDSA criteria are met</li>
               <li>Empirical early-Lyme treatment when a bull&apos;s-eye rash or constitutional symptoms are present</li>
@@ -500,25 +500,6 @@ export default function VtTickBiteTreatmentOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical tick-bite visit cost comparison">
-                <h3>Typical Tick-Bite Visit Cost in Vermont</h3>
-                <p className="tdmd-price-caption">Ranges Vermonters commonly see. Actual cost varies by setting and town.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 16, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 24 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical Vermont pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <div className="tdmd-cashpay-note">
@@ -535,7 +516,7 @@ export default function VtTickBiteTreatmentOnline() {
                 <p>Pulled a tick today? See a Vermont-licensed MD now — adults 18+</p>
                 <small>Cash-pay $79 flat · No insurance billing in Vermont · The 72-hour window is ticking</small>
               </div>
-              <a className="tdmd-vt-cond__cta-btn" href="/book-online" rel="noopener">Book Now &rarr;</a>
+              <a className="tdmd-vt-cond__cta-btn" href="/book-online/" rel="noopener">Book Now &rarr;</a>
             </div>
           </div>
         </section>
@@ -553,8 +534,8 @@ export default function VtTickBiteTreatmentOnline() {
                 <p>Book a same-day video visit. Cash-pay $79 flat. No insurance billing in Vermont.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -578,10 +559,6 @@ export default function VtTickBiteTreatmentOnline() {
                 <span className="tdmd-vt-cond__sibling-label">Sore Throat Treatment in VT</span>
                 <span className="tdmd-vt-cond__sibling-why">Constitutional symptoms overlap; fatigue and aches can point either way.</span>
               </a>
-              <a className="tdmd-vt-cond__sibling" href="/vt/online-doctor-visits/">
-                <span className="tdmd-vt-cond__sibling-label">All Online Doctor Visits in VT</span>
-                <span className="tdmd-vt-cond__sibling-why">The general Vermont telehealth hub for everything we treat.</span>
-              </a>
             </div>
           </div>
         </section>
@@ -597,9 +574,9 @@ export default function VtTickBiteTreatmentOnline() {
               <a href="/vt/shingles-treatment-online/">VT shingles (rash differential)</a>
               <a href="/health-guides/">Health guides</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>

@@ -1,0 +1,486 @@
+{
+ "guide": "yeast-infection-vs-bv-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 9 verified, retractions: none (no retraction, expression of concern, withdrawal or correction notices). PubMed article types checked for all 9: no Retracted Publication or Retraction Notice. Contrasting-evidence flags on refs 1, 2, 6, 7 and 8 reviewed; none bears on a claim as now worded (see notes).",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "Workowski KA, Bachmann LH, Chan PA, et al. Sexually Transmitted Infections Treatment Guidelines, 2021. MMWR Recomm Rep. 2021;70(4):1-187.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34292926/",
+   "pmid": "34292926",
+   "pmcid": "PMC8344968",
+   "doi": "10.15585/mmwr.rr7004a1",
+   "record_title": "Sexually Transmitted Infections Treatment Guidelines, 2021.",
+   "record_journal": "MMWR Recomm Rep",
+   "record_year": "2021",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "CDC STI Treatment Guidelines 2021, MMWR Recomm Rep 70(4), published 2021-07-23; CDC BV and VVC web pages Last Reviewed July 22, 2021 (read 2026-11-15)",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC8344968: vaginal discharge overview, BV, trichomoniasis, VVC and PID sections read); WebFetch of cdc.gov/std/treatment-guidelines/candidiasis.htm and bv.htm for drug names and the pregnancy wording; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "PMC text strips italicized organism and drug names, so some quotes read e.g. \"lactic-acid-producingspecies\"; drug names in regimen claims are quoted from the CDC web pages (official_page). Scite flagged one contrasting citation about gonorrhea loads, which does not bear on any claim here.",
+   "claims": [
+    {
+     "text": "Yeast, BV and trichomoniasis are the infections most often associated with vaginal symptoms",
+     "quote": "The infections most frequently associated with vaginal symptoms are BV (i.e., replacement of the vaginal flora by an overgrowth of anaerobic bacteria ...), trichomoniasis, and vulvovaginal candidiasis (VVC).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Yeast typically causes itching, soreness and thick curdy discharge; none of these symptoms is specific",
+     "quote": "Typical symptoms of VVC include pruritus, vaginal soreness, dyspareunia, external dysuria, and abnormal vaginal discharge. None of these symptoms is specific for VVC.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Yeast signs: vulvar swelling, redness, pain, external dysuria, thick curdy discharge",
+     "quote": "clinically indicated by the presence of external dysuria and vulvar pruritus, pain, swelling, and redness. Signs include vulvar edema, fissures, excoriations, and thick curdy vaginal discharge.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV Amsel criteria: thin homogeneous milklike discharge, clue cells, pH above 4.5, fishy odor on whiff test; at least three of four",
+     "quote": "Homogeneous, thin discharge (milklike consistency) that smoothly coats the vaginal walls ... pH of vaginal fluid >4.5 ... A fishy odor of vaginal discharge before or after addition of 10% KOH (i.e., the whiff test)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Amsel diagnosis requires at least three of four criteria; Nugent score from Gram stain is the reference standard laboratory method",
+     "quote": "Vaginal Gram stain, considered the reference standard laboratory method for diagnosing BV ... Clinical diagnosis of BV by Amsel criteria requires at least three of the following four symptoms or signs",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Yeast is associated with a normal pH below 4.5",
+     "quote": "vaginitis is associated with normal vaginal pH (<4.5).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "pH above 4.5 is common with BV or trichomoniasis; trichomoniasis can occur with a normal pH; pH measured with pH paper",
+     "quote": "The pH of the vaginal secretions can be measured by pH paper; an elevated pH (i.e., >4.5) is common with BV or trichomoniasis (although trichomoniasis can also be present with a normal vaginal pH).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "pH testing is not highly specific, so discharge should also be examined under the microscope",
+     "quote": "Because pH testing is not highly specific, vaginal discharge should be further examined microscopically",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "In the office, pH, a KOH test and microscopy of fresh discharge can often identify the cause",
+     "quote": "In the clinician’s office, the cause of vaginal symptoms can often be determined by pH, a potassium hydroxide (KOH) test, and microscopic examination of a wet mount of fresh samples of vaginal discharge.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Careful history, examination and laboratory testing to find the cause are warranted before treating",
+     "quote": "Therefore, a careful history, examination, and laboratory testing to determine the etiology of any vaginal symptoms are warranted.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Yeast diagnosis: wet prep (saline or 10% KOH) showing budding yeast, hyphae or pseudohyphae, or a positive culture or other test",
+     "quote": "when either a wet preparation (saline, 10% KOH) of vaginal discharge demonstrates budding yeasts, hyphae, or pseudohyphae, or a culture or other test yields a positive result for a yeast species.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Microscopy misses about half of the infections culture finds; yeast culture is the reference standard",
+     "quote": "the sensitivity of microscopy is approximately 50% compared with NAAT (trichomoniasis) or culture (yeast) ... Yeast culture, which can identify a broad group of pathogenic yeasts, remains the reference standard for diagnosis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV NAATs can be run on clinician- or self-collected swabs in women with symptoms",
+     "quote": "They can be performed on either clinician- or self-collected vaginal specimens ... BV NAATs should be used among symptomatic women only",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Culture or PCR recommended in complicated yeast infection to confirm the diagnosis and identify less common species",
+     "quote": "Vaginal culture or PCR should be obtained from women with complicated VVC to confirm clinical diagnosis and identify non–.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV: normal lactic-acid-producing lactobacilli replaced by high concentrations of anaerobic bacteria",
+     "quote": "replacement of normal hydrogen peroxide and lactic-acid–producingspecies in the vagina with high concentrations of anaerobic bacteria",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "In a nationally representative survey, most women with BV were asymptomatic",
+     "quote": "However, in a nationally representative survey, the majority of women with BV were asymptomatic",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV is a highly prevalent condition and the most common cause of vaginal discharge worldwide",
+     "quote": "BV is a highly prevalent condition and the most common cause of vaginal discharge worldwide",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV linked to new or multiple partners and lack of condom use",
+     "quote": "BV is associated with having multiple male sex partners, female partners, sexual relationships with more than one person (), a new sex partner, lack of condom use",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Whether BV results from a single sexually transmitted pathogen is unknown; routine partner treatment not recommended",
+     "quote": "whether BV results from acquisition of a single sexually transmitted pathogen is unknown ... Therefore, routine treatment of sex partners is not recommended.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV raises risk of acquiring STIs and of pregnancy complications including preterm birth",
+     "quote": "Women with BV are at increased risk for STI acquisition ... symptomatic BV has been associated with adverse pregnancy outcomes, including premature rupture of membranes, preterm birth",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Yeast infection is usually not sexually transmitted",
+     "quote": "Although VVC is usually not sexually transmitted, it is included in this section",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Estimated 75 percent of women will have at least one yeast infection",
+     "quote": "An estimated 75% of women will have at least one episode of VVC",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Trichomoniasis: yellow-green or malodorous discharge with or without irritation; sexually transmitted; most have minimal or no symptoms",
+     "quote": "women with trichomoniasis sometimes have vaginal discharge, which can be diffuse, malodorous, or yellow-green with or without vulvar irritation ... The majority of persons who have trichomoniasis (70%–85%) either have minimal or no genital symptoms",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Odor is not among the typical yeast symptoms; amine odor on KOH suggests BV or trichomoniasis",
+     "quote": "samples that emit an amine odor immediately upon application of KOH suggest BV or trichomoniasis",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Yeast regimens: single 150 mg oral fluconazole or topical clotrimazole, miconazole, tioconazole (OTC), butoconazole, terconazole (Rx); courses single dose to 7 days, some 7 to 14 days",
+     "quote": "Clotrimazole 1% cream 5 g intravaginally daily for 7–14 days ... Miconazole 2% cream ... Tioconazole 6.5% ointment ... Butoconazole 2% cream ... Terconazole 0.4% cream ... Fluconazole 150 mg orally in a single dose",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pregnancy: only 7-day topical azoles; single 150 mg fluconazole might be associated with miscarriage and birth defects and should not be used",
+     "quote": "Only topical azole therapies, applied for 7 days, are recommended for use among pregnant women. Epidemiologic studies indicate a single 150-mg dose of fluconazole might be associated with spontaneous abortion and congenital anomalies; therefore, it should not be used.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV recommended regimens: oral metronidazole, metronidazole gel, clindamycin cream (5 or 7 days)",
+     "quote": "Metronidazole 500 mg orally 2 times/day for 7 days ... Metronidazole gel 0.75% ... once a day for 5 days ... Clindamycin cream 2% ... at bedtime for 7 days ... ",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV alternatives: oral clindamycin, clindamycin ovules, secnidazole single dose, tinidazole 2 or 5 days (single dose to 7 days)",
+     "quote": "Clindamycin 300 mg orally 2 times/day for 7 days ... Clindamycin ovules 100 mg* ... Secnidazole 2 g oral granules in a single dose ... Tinidazole 1 g orally once daily for 5 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV in pregnancy: treat all symptomatic pregnant women; any recommended regimen can be used",
+     "quote": "BV treatment is recommended for all symptomatic pregnant women ... Pregnant women can be treated with any of the recommended regimens for nonpregnant women",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tinidazole and secnidazole should be avoided in pregnancy",
+     "quote": "Thus, tinidazole should be avoided during pregnancy (). Data are insufficient regarding efficacy and adverse effects of secnidazole ... during pregnancy; thus, their use should be avoided.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Using the wrong over-the-counter product can delay treatment of the real cause",
+     "quote": "Unnecessary or unapproved use of over-the-counter preparations is common and can lead to a delay in treatment of other vulvovaginitis etiologies, which can result in adverse outcomes.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptoms persisting after an OTC product or returning within 2 months should be evaluated and tested",
+     "quote": "any woman whose symptoms persist after using an over-the-counter preparation or who has a recurrence of symptoms <2 months after treatment for VVC should be evaluated clinically and tested.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recurrent yeast can be idiopathic or linked to antibiotics, diabetes or host factors; most have no apparent underlying condition",
+     "quote": "Recurrent VVC can be either idiopathic or secondary (related to frequent antibiotic use, diabetes, or other underlying host factors). ... the majority of women with recurrent VVC have no apparent predisposing or underlying conditions.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Persistent or recurrent BV is common and a reason to return for evaluation",
+     "quote": "Because persistent or recurrent BV is common, women should be advised to return for evaluation if symptoms recur.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "PID is often missed when signs such as abnormal bleeding or discharge are mild or nonspecific",
+     "quote": "others are not diagnosed because the patient or the health care provider do not recognize the implications of mild or nonspecific symptoms or signs (e.g., abnormal bleeding, dyspareunia, and vaginal discharge).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "guideline",
+   "cited_as": "Pappas PG, Kauffman CA, Andes DR, et al. Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America. Clin Infect Dis. 2016;62(4):e1-e50. Epub 2015 Dec 16.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26679628/",
+   "pmid": "26679628",
+   "pmcid": "PMC4725385",
+   "doi": "10.1093/cid/civ933",
+   "record_title": "Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2016 (epub 2015-12-16)",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "IDSA 2016 update, Clin Infect Dis 62(4):e1-e50",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC returned no body text); Scite search_literature full-text excerpts; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite flagged one contrasting citation about catheter-associated candidemia, which does not bear on any claim here.",
+   "claims": [
+    {
+     "text": "Symptoms and signs of a yeast infection are nonspecific",
+     "quote": "Unfortunately, these symptoms and signs are nonspecific and can be the result of a variety of infectious and noninfectious etiologies.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Yeast discharge is white, thick and curdlike",
+     "quote": "Signs include vulvar edema, erythema, excoriation, fissures, and a white, thick, curdlike vaginal discharge.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "Gonçalves B, Ferreira C, Alves CT, et al. Vulvovaginal candidiasis: Epidemiology, microbiology and risk factors. Crit Rev Microbiol. 2016;42(6):905-927.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26690853/",
+   "pmid": "26690853",
+   "doi": "10.3109/1040841X.2015.1091805",
+   "record_title": "Vulvovaginal candidiasis: Epidemiology, microbiology and risk factors.",
+   "record_journal": "Crit Rev Microbiol",
+   "record_year": "2016 (epub 2015-12-21)",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite search_literature full-text excerpts; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Previously cited for a 75% lifetime figure and a BV prevalence claim; the 70-75% figure in this review is quoted from Sobel 2007 (secondary) and the BV claim is not in it, so both were moved to CDC 2021. Now cited only for its own abstract statement on risk factors.",
+   "claims": [
+    {
+     "text": "Recognized risk factors for yeast infection include pregnancy, uncontrolled diabetes, immunosuppression, antibiotic or glucocorticoid use",
+     "quote": "Host-related factors include pregnancy, hormone replacement, uncontrolled diabetes, immunosuppression, antibiotics, glucocorticoids use and genetic predispositions.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Ferris DG, Nyirjesy P, Sobel JD, et al. Over-the-counter antifungal drug misuse associated with patient-diagnosed vulvovaginal candidiasis. Obstet Gynecol. 2002;99(3):419-425.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11864668/",
+   "pmid": "11864668",
+   "doi": "10.1016/s0029-7844(01)01759-8",
+   "record_title": "Over-the-counter antifungal drug misuse associated with patient-diagnosed vulvovaginal candidiasis.",
+   "record_journal": "Obstet Gynecol",
+   "record_year": "2002",
+   "article_type": "Journal Article (observational, time-location sample of 95 women)",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. The guide no longer calls it multicenter and no longer cites it to endorse self-treating repeat episodes (the study found the opposite).",
+   "claims": [
+    {
+     "text": "95 women buying an OTC antifungal for self-diagnosed yeast infection",
+     "quote": "A time-location sample of 95 symptomatic women who purchased and presented with an over-the-counter antifungal product for immediate and personal treatment of presumed vulvovaginal candidiasis",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "33.7% yeast alone, 18.9% BV, 21.1% mixed vaginitis, 13.7% normal, rest other; chart 34% vs 66%; about a third / about 1 in 5 mixed",
+     "quote": "vulvovaginal candidiasis 33.7%, bacterial vaginosis 18.9%, mixed vaginitis 21.1%, normal 13.7%, other diagnoses 10.5%, and trichomonas vaginitis 2.1%.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "A previous clinician diagnosis did not make self-diagnosis more accurate",
+     "quote": "Women with a previous clinically based diagnosis of vulvovaginal candidiasis were not more accurate in diagnosing vulvovaginal candidiasis than women without a prior clinical diagnosis",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Self-treating the wrong one wastes money and delays correct diagnosis",
+     "quote": "Ready access to these products is associated with wasted financial expenditures, unfulfilled expectations, and a delay in correct diagnosis for a substantial number of women.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Abbott J. Clinical and microscopic diagnosis of vaginal yeast infection: a prospective analysis. Ann Emerg Med. 1995;25(5):587-591.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7741332/",
+   "pmid": "7741332",
+   "doi": "10.1016/s0196-0644(95)70168-0",
+   "record_title": "Clinical and microscopic diagnosis of vaginal yeast infection: a prospective analysis.",
+   "record_journal": "Ann Emerg Med",
+   "record_year": "1995",
+   "article_type": "Journal Article (prospective study)",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. No longer cited for pH or for a self-diagnosis confirmation rate.",
+   "claims": [
+    {
+     "text": "Emergency department study of 71 women with discharge, itching or pain",
+     "quote": "Seventy-one consecutive nonmenstruating women with a presenting complaint of vaginal discharge, itching, or pain.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "32.4 percent had a positive yeast culture",
+     "quote": "Twenty-three patients (32.4%) had positive yeast cultures.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Classic signs of yeast were also seen with other causes of vaginitis",
+     "quote": "Clinical criteria for yeast vaginitis--including pruritus, caseous discharge, perineal edema or erythema, and patient self-diagnosis--were more common in women with yeast vaginitis but were seen with other causes of vaginitis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Denning DW, Kneale M, Sobel JD, Rautemaa-Richardson R. Global burden of recurrent vulvovaginal candidiasis: a systematic review. Lancet Infect Dis. 2018;18(11):e339-e347.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30078662/",
+   "pmid": "30078662",
+   "doi": "10.1016/S1473-3099(18)30103-8",
+   "record_title": "Global burden of recurrent vulvovaginal candidiasis: a systematic review.",
+   "record_journal": "Lancet Infect Dis",
+   "record_year": "2018",
+   "article_type": "Journal Article; Systematic Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Issue corrected from 10 to 11 per PubMed. Scite flagged a later study reporting a higher lifetime VVC estimate (53%) than the survey this review relied on; this does not affect the 138 million figure cited.",
+   "claims": [
+    {
+     "text": "Recurrent yeast infection affects about 138 million women worldwide each year",
+     "quote": "Worldwide, recurrent vulvovaginal candidiasis affects about 138 million women annually (range 103-172 million)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Foxman B, Muraglia R, Dietz JP, Sobel JD, Wagner J. Prevalence of recurrent vulvovaginal candidiasis in 5 European countries and the United States: results from an internet panel survey. J Low Genit Tract Dis. 2013;17(3):340-345.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23486072/",
+   "pmid": "23486072",
+   "doi": "10.1097/LGT.0b013e318273e8cf",
+   "record_title": "Prevalence of recurrent vulvovaginal candidiasis in 5 European countries and the United States: results from an internet panel survey.",
+   "record_journal": "J Low Genit Tract Dis",
+   "record_year": "2013",
+   "article_type": "Journal Article (cross-sectional internet survey)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Fifth author (Wagner J) added per PubMed. Scite flagged a later study with lower VVC prevalence; the guide reports the 9% figure as this survey's self-reported result.",
+   "claims": [
+    {
+     "text": "In a six-country internet survey, about 9 percent of women reported a 12-month period with four or more yeast infections",
+     "quote": "More than one fifth of women reporting one vaginal yeast infection also reported a 12-month period with 4 or more infections (RVVC) (overall 9%).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "Patel DA, Gillespie B, Sobel JD, et al. Risk factors for recurrent vulvovaginal candidiasis in women receiving maintenance antifungal therapy: results of a prospective cohort study. Am J Obstet Gynecol. 2004;190(3):644-653.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15041994/",
+   "pmid": "15041994",
+   "doi": "10.1016/j.ajog.2003.11.027",
+   "record_title": "Risk factors for recurrent vulvovaginal candidiasis in women receiving maintenance antifungal therapy: results of a prospective cohort study.",
+   "record_journal": "Am J Obstet Gynecol",
+   "record_year": "2004",
+   "article_type": "Journal Article (prospective cohort)",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. No longer cited for diabetes testing. Title completed per PubMed. Scite flagged a later study not finding an association with prior vaginitis history; the guide states the finding as one study's result.",
+   "claims": [
+    {
+     "text": "In 65 women on maintenance antifungal therapy for recurrent yeast infections, a history of BV was linked to higher risk of a new yeast episode",
+     "quote": "A prospective study of 65 women aged >/=18 years with recurrent vulvovaginal candidiasis ... Younger women and those women with a history of bacterial vaginosis were at increased risk of vulvovaginal candidiasis episodes.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Rautemaa-Richardson R, Sobel JD, Stone N, et al. State-of-the-Art Review: Managing Vulvovaginal Candidiasis. Clin Infect Dis. 2026;82(3):371-382.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41839452/",
+   "pmid": "41839452",
+   "pmcid": "PMC13017020",
+   "doi": "10.1093/cid/ciaf673",
+   "record_title": "State-of-the-Art Review: Managing Vulvovaginal Candidiasis.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2026",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC13017020 full text); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Confirmatory tests are essential when treatment does not fully work and in recurrent infection",
+     "quote": "However, confirmatory tests are extremely helpful and essential in cases with poor or partial response and in RVVC",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV involves a marked reduction in lactobacilli and dominance by anaerobes",
+     "quote": "Bacterial vaginosis, an imbalance of the vaginal microbiota, characterized by a marked reduction in lactobacilli and dominance by anaerobes",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV may predispose women to a yeast infection, on its own or after antibiotic treatment",
+     "quote": "Bacterial vaginosis ... may predispose women to VVC, either independently or following antibacterial treatment",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Two conditions at once are common and make diagnosis harder",
+     "quote": "This together with dual/concomitant pathologies being common provide significant diagnostic challenges.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

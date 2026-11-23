@@ -1,0 +1,988 @@
+{
+ "guide": "shingles-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 25 verified (24 DOIs plus the Liu 2023 reference matched by text), 0 could not verify, retractions: none; expressions of concern: none. Contrasting-evidence flags on Kawai, Beutner, Liesegang, Cobo, Yawn, Lal and the removed Oxman 2005; none bears on the claims cited (see notes). New source Zaal 2003 (10.1007/s00417-002-0609-1) verified in a second call the same day: no notices; one contrasting citation (10.1111/j.1553-2712.2010.00875.x) did not find Hutchinson sign significant, so the page says \"in one study\". PubMed article types checked for Retracted Publication / Retraction Notice: none.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "journal",
+   "cited_as": "Kawai K, Gebremeskel BG, Acosta CJ. Systematic review of incidence and complications of herpes zoster: towards a global perspective. BMJ Open. 2014;4(6):e004833. PMID: 24916088.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24916088/",
+   "pmid": "24916088",
+   "pmcid": "PMC4067812",
+   "doi": "10.1136/bmjopen-2014-004833",
+   "record_title": "Systematic review of incidence and complications of herpes zoster: towards a global perspective.",
+   "record_journal": "BMJ Open",
+   "record_year": "2014",
+   "article_type": "Systematic Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers; PubMed get_full_text_article (PMC)",
+   "notes": "Scite flagged one contrasting citation (10.3389/fpubh.2026.1748267) reporting lower PHN rates in its own cohort; the page does not cite Kawai's PHN percentages, so no overstatement.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Shingles is typically a painful rash following one nerve distribution (dermatome)",
+     "quote": "Herpes zoster (HZ), also known as shingles, is typically characterised by painful, blistering dermatomal rash.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Incidence about 3 to 5 per 1,000 person-years in North America, Europe and Asia-Pacific",
+     "quote": "The incidence rate of HZ ranged between 3 and 5/1000 person-years in North America, Europe and Asia-Pacific",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "About 8 to 12 per 1,000 person-years at age 80 (chart midpoints 4, 7, 10)",
+     "quote": "The incidence rate was about 6–8/1000 person-years at 60 years of age and 8–12/1000 person-years at 80 years of age.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "PHN is pain that continues after the rash has resolved",
+     "quote": "In some patients particularly in the elderly, the pain continues to persist after the rash heals and develops into postherpetic neuralgia (PHN), which is the most common complication.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. Clinical Features of Shingles (Herpes Zoster). Last reviewed May 10, 2024. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/shingles/hcp/clinical-signs/index.html",
+   "retrieved_with": "WebFetch of official CDC page",
+   "version_or_date": "Last reviewed May 10, 2024 (page metadata)",
+   "notes": "Superinfection: CDC states the risk; the specific warning signs (redness, warmth, pus, worsening pain) are the guide's own clinical wording. Red-flag list is also supported by refs 18 and 19; encephalitis and disseminated zoster are listed on this page. Long CDC sentences were read in pieces because the fetch tool returns quotes under 125 characters.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Rash in one or two adjacent dermatomes (one nerve distribution)",
+     "quote": "People with herpes zoster have a rash in one or two adjacent dermatomes.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prodrome of pain, itching or tingling where the rash will develop",
+     "quote": "People with herpes zoster can have pain, itching, or tingling in the area where the rash will develop.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prodrome can include headache, light sensitivity, malaise",
+     "quote": "A person can experience the following symptoms several days before the rash appears: [Headache; Photophobia (sensitivity to bright light); Malaise]",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Rash most often on trunk or face, clusters of blisters, new blisters for 3 to 5 days, then dries and scabs",
+     "quote": "The rash most commonly appears on the trunk along a thoracic dermatome or on the face. ... New vesicles continue to form over 3 to 5 days, and the rash progressively dries and scabs over.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Heals in 2 to 4 weeks; usually does not cross the midline",
+     "quote": "It usually does not cross the body's midline. ... The rash usually heals in 2 to 4 weeks.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Widespread rash is not routine and more likely with weakened immunity; severe, long-lasting or widespread rash",
+     "quote": "People with weakened immune systems are more likely to have atypical presentations (e.g., more severe or generalized rash).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Disseminated zoster can involve the brain, lungs or liver",
+     "quote": "Visceral involvement of the central nervous system (meningoencephalitis), lungs (pneumonitis), and...",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "HZO involves the ophthalmic (first) division of the trigeminal nerve and can lead to vision loss (callout, key takeaway V1)",
+     "quote": "Herpes zoster that affects the ophthalmic division of the trigeminal nerve is called herpes zoster ophthalmicus. This can result in acute or chronic ocular sequelae, including vision loss.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Older age is the main PHN risk factor",
+     "quote": "A person's risk of having PHN after herpes zoster increases with age.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Shingles blisters can become infected with bacteria; clinician should assess redness, warmth, pus, worsening pain",
+     "quote": "Bacterial superinfection of the lesions, usually due to Staphylococcus aureus and, less commonly...",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Red flags (eye, hearing, widespread rash, immune suppression, confusion or neurologic change) require a clinician rather than watchful waiting",
+     "quote": "Postherpetic neuralgia (most common complication), hearing or vision loss (if eye or ear dermatomes are...",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. Clinical Overview of Shingles (Herpes Zoster). Page dated June 27, 2024. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/shingles/hcp/clinical-overview/index.html",
+   "retrieved_with": "WebFetch of official CDC page",
+   "version_or_date": "Page dated June 27, 2024",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Shingles is reactivation of varicella-zoster virus",
+     "quote": "Herpes zoster (shingles) is caused by the reactivation of varicella-zoster virus (VZV)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prompt antivirals speed rash healing and reduce viral shedding",
+     "quote": "These antivirals accelerate the resolution of lesions; reduce the development of new lesions and viral shedding;",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Immunosuppressive medicines including steroids raise shingles risk",
+     "quote": "Taking immunosuppressive medications, including steroids.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Citable summary: treatment best within 72 hours (link)",
+     "quote": "Treatment is most effective within 72 hours of symptom onset.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Saguil A, Kane S, Mercado M, Lauters R. Herpes zoster and postherpetic neuralgia: prevention and management. American Family Physician. 2017;96(10):656-663. PMID: 29431387.",
+   "url": "https://www.aafp.org/afp/2017/1115/p656.html",
+   "pmid": "29431387",
+   "record_title": "Herpes Zoster and Postherpetic Neuralgia: Prevention and Management.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2017",
+   "article_type": "Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + WebFetch of full text at aafp.org",
+   "notes": "No DOI in the PubMed record; PMID resolves. Link is the AAFP full-text page that was read. Its vaccine section predates current ACIP Shingrix advice and is not cited for vaccines. Not in Scite verify_papers (no DOI).",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Prodrome of malaise, headache, low-grade fever, abnormal skin sensations",
+     "quote": "Patients may present with malaise, headache, low-grade fever, and abnormal skin sensations for two to three days before the classic maculopapular rash appears.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "72-hour mark is not a hard stop: treat later if new lesions forming or eye or neurologic complications",
+     "quote": "Although treatment of herpes zoster ideally should be started within 72 hours of the appearance of the rash, treatment is still warranted outside the 72-hour window if new skin lesions are developing or if ophthalmic or neurologic complications are present.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Severe disease, especially with a weakened immune system, is treated with IV acyclovir; antivirals not a substitute for IV therapy when severe",
+     "quote": "Patients with severe disease, especially those with immunocompromise, should be treated with intravenous acyclovir.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "A family medicine review advises steroids should not be used without antivirals",
+     "quote": "Glucocorticoids do not reduce the incidence of postherpetic neuralgia and should not be used without antivirals.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Beutner KR, Friedman DJ, Forszpaniak C, Andersen PL, Wood MJ. Valaciclovir compared with acyclovir for improved therapy for herpes zoster in immunocompetent adults. Antimicrobial Agents and Chemotherapy. 1995;39(7):1546-1553. PMID: 7492102.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7492102/",
+   "pmid": "7492102",
+   "pmcid": "PMC162779",
+   "doi": "10.1128/AAC.39.7.1546",
+   "record_title": "Valaciclovir compared with acyclovir for improved therapy for herpes zoster in immunocompetent adults.",
+   "record_journal": "Antimicrob Agents Chemother",
+   "record_year": "1995",
+   "article_type": "Randomized Controlled Trial",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "notes": "No longer cited for the 72-hour enrollment window (not in abstract). Scite flagged one contrasting citation on prodromal pain as a predictor; not relevant to the claim cited.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Valacyclovir has a simpler schedule than acyclovir; pain resolved faster than with acyclovir in adults 50 and older",
+     "quote": "in the management of immunocompetent patients > or = 50 years of age with localized herpes zoster, valaciclovir given at 1,000 mg three times daily for 7 days accelerates the resolution of pain and offers simpler dosing",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Tyring S, Barbarash RA, Nahlik JE, et al. Famciclovir for the treatment of acute herpes zoster: effects on acute disease and postherpetic neuralgia. A randomized, double-blind, placebo-controlled trial. Annals of Internal Medicine. 1995;123(2):89-96. PMID: 7778840.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7778840/",
+   "pmid": "7778840",
+   "doi": "10.7326/0003-4819-123-2-199507150-00002",
+   "record_title": "Famciclovir for the treatment of acute herpes zoster: effects on acute disease and postherpetic neuralgia. A randomized, double-blind, placebo-controlled trial.",
+   "record_journal": "Ann Intern Med",
+   "record_year": "1995",
+   "article_type": "Randomized Controlled Trial",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Antiviral trials enrolled people within 72 hours of rash onset",
+     "quote": "Patients were assigned within 72 hours of rash onset to famciclovir, 500 mg; famciclovir, 750 mg; or placebo, three times daily for 7 days.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Famciclovir sped healing, reduced viral shedding and shortened PHN",
+     "quote": "Famciclovir accelerated lesion healing and reduced the duration of viral shedding. Most importantly, famciclovir recipients had faster resolution of postherpetic neuralgia (approximately twofold faster) than placebo recipients",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "label",
+   "cited_as": "U.S. Food and Drug Administration prescribing information, via DailyMed. VALTREX (valacyclovir hydrochloride) tablets, GlaxoSmithKline. Revised November 2025. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f8e0d8f8-cb73-4206-a484-88f5c4fbd719",
+   "retrieved_with": "WebFetch of DailyMed label",
+   "version_or_date": "Revised 11/2025; DailyMed updated November 12, 2025",
+   "notes": "Label also states therapy 'is most effective when started within 48 hours of the onset of rash.'",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Valacyclovir 1 g three times daily for 7 days",
+     "quote": "The recommended dosage of VALTREX for treatment of herpes zoster is 1 gram 3 times daily for 7 days.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Efficacy when started more than 72 hours after rash onset not established",
+     "quote": "The efficacy of VALTREX when initiated more than 72 hours after the onset of rash and the efficacy and safety of VALTREX for treatment of disseminated herpes zoster have not been established.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dose adjustment for reduced kidney function",
+     "quote": "Dosage reduction is recommended when administering VALTREX to patients with renal impairment",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Indicated for immunocompetent adults",
+     "quote": "VALTREX is indicated for the treatment of herpes zoster (shingles) in immunocompetent adults.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "label",
+   "cited_as": "U.S. Food and Drug Administration prescribing information, via DailyMed. Acyclovir tablets, USP (NuCare Pharmaceuticals). DailyMed entry updated August 27, 2026. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5176c7f9-9076-4797-e054-00144ff8d46c",
+   "retrieved_with": "WebFetch of DailyMed label",
+   "version_or_date": "NuCare Pharmaceuticals repackager label; DailyMed updated August 27, 2026; label text revised June 2013",
+   "notes": "Corrects the guide's previous '800 mg five times daily for 7 days' to the labeled 7 to 10 days.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Acyclovir 800 mg every 4 hours, 5 times daily, for 7 to 10 days",
+     "quote": "Acute Treatment of Herpes Zoster: 800 mg every 4 hours orally, 5 times daily for 7 to 10 days.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Treatment begun within 72 hours, most effective within first 48 hours",
+     "quote": "Treatment was begun within 72 hours of rash onset and was most effective if started within the first 48 hours.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dose adjustment for reduced kidney function",
+     "quote": "In patients with renal impairment, the dose of acyclovir tablets should be modified as shown in Table 3.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "label",
+   "cited_as": "U.S. Food and Drug Administration prescribing information, via DailyMed. Famciclovir tablets (Macleods Pharmaceuticals). Revised September 2025. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=eeeee9c4-8566-4100-8ca4-3df936a3365d",
+   "retrieved_with": "WebFetch of DailyMed label",
+   "version_or_date": "Macleods Pharmaceuticals; Revised 9/2025; DailyMed updated September 17, 2025",
+   "notes": "Duplicated word 'zoster zoster' is as printed in the retrieved label text.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Famciclovir 500 mg every 8 hours for 7 days",
+     "quote": "The recommended dosage of famciclovir for the treatment of herpes zoster zoster is 500 mg every 8 hours for 7 days.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Efficacy when started more than 72 hours after rash onset not established",
+     "quote": "The efficacy of famciclovir tablets when initiated more than 72 hours after onset of rash has not been established.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dose adjustment for reduced kidney function",
+     "quote": "Dosage reduction is recommended when administering famciclovir tablets to patients with renal impairment.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Wood MJ, Johnson RW, McKendrick MW, Taylor J, Mandal BK, Crooks J. A randomized trial of acyclovir for 7 days or 21 days with and without prednisolone for treatment of acute herpes zoster. New England Journal of Medicine. 1994;330(13):896-900. PMID: 8114860.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8114860/",
+   "pmid": "8114860",
+   "doi": "10.1056/NEJM199403313301304",
+   "record_title": "A randomized trial of acyclovir for 7 days or 21 days with and without prednisolone for treatment of acute herpes zoster.",
+   "record_journal": "N Engl J Med",
+   "record_year": "1994",
+   "article_type": "Randomized Controlled Trial",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "notes": "No longer cited as the source for acyclovir dosing or for 'steroids should not delay antivirals' (not tested in this trial).",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Adding steroid to acyclovir: faster early healing and less acute pain",
+     "quote": "With steroid therapy, a significantly higher proportion of the rash area had healed on days 7 and 14 (P = 0.02). Pain reduction was greater during the acute phase of disease in patients treated with steroids",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "One trial found more side effects with steroids",
+     "quote": "The steroid recipients reported more adverse events.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Steroid did not reduce PHN",
+     "quote": "the addition of prednisolone to acyclovir therapy confers only slight benefits over standard 7-day treatment with acyclovir. Neither additional treatment reduces the frequency of postherpetic neuralgia.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "journal",
+   "cited_as": "Whitley RJ, Weiss H, Gnann JW, et al. Acyclovir with and without prednisone for the treatment of herpes zoster. A randomized, placebo-controlled trial. Annals of Internal Medicine. 1996;125(5):376-383. PMID: 8702088.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8702088/",
+   "pmid": "8702088",
+   "doi": "10.7326/0003-4819-125-5-199609010-00004",
+   "record_title": "Acyclovir with and without prednisone for the treatment of herpes zoster. A randomized, placebo-controlled trial.",
+   "record_journal": "Ann Intern Med",
+   "record_year": "1996",
+   "article_type": "Randomized Controlled Trial",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Another trial found better quality of life in relatively healthy adults over 50 with acyclovir plus prednisone",
+     "quote": "In relatively healthy persons older than 50 years of age who have localized herpes zoster, combined acyclovir and prednisone therapy can improve quality of life.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "journal",
+   "cited_as": "Liu Y, Xiao S, Li J, Long X, Zhang Y, Li X. A network meta-analysis of randomized clinical trials to assess the efficacy and safety of antiviral agents for immunocompetent patients with herpes zoster-associated pain. Pain Physician. 2023;26(4):337-346. PMID: 37535772.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37535772/",
+   "pmid": "37535772",
+   "doi": "10.36076/ppj.2023.26.337",
+   "record_title": "A Network Meta-Analysis of Randomized Clinical Trials to Assess the Efficacy and Safety of Antiviral Agents for Immunocompetent Patients with Herpes Zoster-Associated Pain.",
+   "record_journal": "Pain Physician",
+   "record_year": "2023",
+   "article_type": "Systematic Review; Network Meta-Analysis",
+   "retrieved_with": "PubMed get_article_metadata (abstract); DOI from Scite verify_papers reference match",
+   "notes": "Background sentence of the abstract, not a result of this network meta-analysis. Corrected co-authors (Xiao S, Li J, not Xu Y, Meng S) and pages (26(4):337-346, not E511-E524). PubMed record carries no DOI; Scite matched DOI 10.36076/ppj.2023.26.337.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Starting promptly can reduce acute pain",
+     "quote": "Early use of antiviral medications has been found to reduce pain across all stages of the disease.",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "journal",
+   "cited_as": "Ding S, Wen S, Kang H, et al. Association of the incidence of postherpetic neuralgia with early treatment intervention of herpes zoster and patient baseline characteristics: a systematic review and meta-analysis of cohort studies. International Journal of Infectious Diseases. 2024;147:107181. PMID: 39029866.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39029866/",
+   "pmid": "39029866",
+   "doi": "10.1016/j.ijid.2024.107181",
+   "record_title": "Association of the incidence of postherpetic neuralgia with early treatment intervention of herpes zoster and patient baseline characteristics: A systematic review and meta-analysis of cohort studies.",
+   "record_journal": "Int J Infect Dis",
+   "record_year": "2024",
+   "article_type": "Systematic Review; Meta-Analysis (of cohort studies)",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "notes": "Observational evidence; described as cohort studies on the page. Authors and volume corrected (Ding S, Wen S, Kang H, et al.; 147:107181).",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Starting treatment 3 or more days after onset linked with higher PHN risk in cohort studies",
+     "quote": "The meta-analyses identified skin lesions, timing of initial treatment (≥3 days), and comorbidities as potential risk factors for PHN.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "journal",
+   "cited_as": "Zaal MJ, V&ouml;lker-Dieben HJ, D'Amaro J. Prognostic value of Hutchinson's sign in acute herpes zoster ophthalmicus. Graefe's Archive for Clinical and Experimental Ophthalmology. 2003;241(3):187-191. PMID: 12644941.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12644941/",
+   "pmid": "12644941",
+   "doi": "10.1007/s00417-002-0609-1",
+   "record_title": "Prognostic value of Hutchinson's sign in acute herpes zoster ophthalmicus.",
+   "record_journal": "Graefes Arch Clin Exp Ophthalmol",
+   "record_year": "2003",
+   "article_type": "Journal Article (longitudinal observational study, n=83)",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "notes": "New source replacing Opstelten 2005 BMJ, whose content could not be read (no abstract; PMC full text empty; PMC site showed a bot check, not routed around). Abstract defines the sign as lesions at the tip, side and root of the nose. Scite verify_papers 2026-11-15: verified, no notices; contrasting citation from a 2010 emergency department study (10.1111/j.1553-2712.2010.00875.x) that did not find Hutchinson sign significant (p = 0.18), so the page frames the finding as one study.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Lesions on the tip, side or root of the nose (Hutchinson sign) strongly predicted eye inflammation in ophthalmic shingles",
+     "quote": "Hutchinson's sign was a powerful predictor of ocular inflammation and corneal denervation in herpes zoster ophthalmicus [relative risks: 3.35 (CI 95%: 1.82-6.15) and 4.02 (CI 95%:1.55-10.42), respectively].",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "journal",
+   "cited_as": "Liesegang TJ. Herpes zoster ophthalmicus natural history, risk factors, clinical presentation, and morbidity. Ophthalmology. 2008;115(2 Suppl):S3-S12. PMID: 18243930.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18243930/",
+   "pmid": "18243930",
+   "doi": "10.1016/j.ophtha.2007.10.009",
+   "record_title": "Herpes zoster ophthalmicus natural history, risk factors, clinical presentation, and morbidity.",
+   "record_journal": "Ophthalmology",
+   "record_year": "2008",
+   "article_type": "Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "notes": "No longer cited for telehealth suitability or Hutchinson sign (not in abstract). Scite flagged one contrasting citation about dermatome distribution in inpatients; not relevant to claims cited.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "HZO involves the ophthalmic division of CN V; about 10% to 20% of people with shingles have HZO",
+     "quote": "Herpes zoster affects 20% to 30% of the population at some point in their lifetime; approximately 10% to 20% of these individuals will have HZO.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "PHN risk factors: older age main, plus severe acute pain and rash, painful prodrome, eye involvement",
+     "quote": "The main risk factor for PHN is advancing age; other risk factors include severe acute zoster pain and rash, a painful prodrome, and ocular involvement.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "journal",
+   "cited_as": "Cobo LM, Foulks GN, Liesegang T, et al. Oral acyclovir in the treatment of acute herpes zoster ophthalmicus. Ophthalmology. 1986;93(6):763-770. PMID: 3488532.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/3488532/",
+   "pmid": "3488532",
+   "doi": "10.1016/s0161-6420(86)33678-9",
+   "record_title": "Oral acyclovir in the treatment of acute herpes zoster ophthalmicus.",
+   "record_journal": "Ophthalmology",
+   "record_year": "1986",
+   "article_type": "Randomized Controlled Trial",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "notes": "Trial enrolled within 7 days; page no longer claims 72-hour treatment is 'particularly important' in HZO. Scite flagged a later study reporting less secondary glaucoma than Cobo; not relevant to claim cited.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "In a placebo-controlled trial in ophthalmic shingles, oral acyclovir reduced keratitis and uveitis",
+     "quote": "a ten-day course of treatment with oral acyclovir (600 mg, five times a day) is well-tolerated and significantly reduces the incidence and severity of the most common complications of herpes zoster ophthalmicus: dendritiform keratopathy, stromal keratitis, and uveitis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "journal",
+   "cited_as": "Yawn BP, Wollan PC, St Sauver JL, Butterfield LC. Herpes zoster eye complications: rates and trends. Mayo Clinic Proceedings. 2013;88(6):562-570. PMID: 23664666.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23664666/",
+   "pmid": "23664666",
+   "pmcid": "PMC3788821",
+   "doi": "10.1016/j.mayocp.2013.03.014",
+   "record_title": "Herpes zoster eye complications: rates and trends.",
+   "record_journal": "Mayo Clin Proc",
+   "record_year": "2013",
+   "article_type": "Journal Article (retrospective population cohort)",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "notes": "Scite flagged one contrasting citation on PHN rates; the page does not cite Yawn for PHN.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "9.0% of people with shingles had eye involvement, most often keratitis or uveitis",
+     "quote": "Of the 2035 individuals with HZ in any dermatome, 184 (9.0%) had eye involvement. ... Common eye complications were keratitis (n=144, 76.2%), uveitis/iritis (n=88, 46.6%)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Some were left with permanent vision loss",
+     "quote": "Eye complications are common and result in considerable health care use and permanent vision decrement in about 6.6% (6) of individuals with HZ eye involvement.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "kind": "agency_page",
+   "cited_as": "National Health Service (England). Shingles. Page last reviewed November 23, 2023. Accessed November 15, 2026.",
+   "url": "https://www.nhs.uk/conditions/shingles/",
+   "retrieved_with": "WebFetch of official NHS page",
+   "version_or_date": "Page last reviewed November 23, 2023; next review due November 23, 2026",
+   "notes": "NHS says 'urgent'; the guide's 'same-day in-person' wording is kept unchanged (safety wording is not softened) and logged as partly supported. Quotes joined from list items on the page.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Rash on the eye or nose, or vision change, needs urgent assessment (page keeps the stronger 'same-day in-person' wording)",
+     "quote": "Ask for an urgent GP appointment or get help from NHS 111 if: You have symptoms of shingles and: ... the rash is on your eye or nose ... you have changes to your vision",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Red flags include pregnancy, severely weakened immune system, newborn exposure",
+     "quote": "you're pregnant ... you have a severely weakened immune system, for example, from chemotherapy ... [avoid] babies less than 1 month old",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Chemotherapy as an example of a weakened immune system",
+     "quote": "you have a severely weakened immune system, for example, from chemotherapy",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Comfort: keep rash clean and dry, loose clothing, cool compress, paracetamol, do not let dressings stick, avoid rough fabrics",
+     "quote": "take paracetamol to ease pain; keep the rash clean and dry to reduce the risk of infection; wear loose-fitting clothing; use a cool compress ... do not let dressings or plasters stick to the rash",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "kind": "other_web",
+   "cited_as": "MedlinePlus Medical Encyclopedia, U.S. National Library of Medicine. Ramsay Hunt syndrome. Review date May 4, 2026. Accessed November 15, 2026.",
+   "url": "https://medlineplus.gov/ency/article/001647.htm",
+   "retrieved_with": "WebFetch of MedlinePlus (NLM) page",
+   "version_or_date": "Review date 5/4/2026",
+   "notes": "Replaces Dworkin 2003 (PHN review) as source for Ramsay Hunt. 'In-person' and 'prompt' are the guide's wording; MedlinePlus says contact your provider. Phrase 'often otolaryngology input' removed from the body text as unsourced.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Ramsay Hunt: facial weakness with severe ear pain, rash in/around ear, hearing change, spinning sensation; virus affects facial nerve near inner ear",
+     "quote": "In people with this syndrome, the virus is believed to infect the facial nerve near the inner ear. ... Severe pain in the ear ... Hearing changes on one side ... Sensation of things spinning",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Chances of recovery better if treatment starts within 3 days",
+     "quote": "Overall, your chances of recovery are better if the treatment is started within 3 days after the symptoms begin.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Needs prompt in-person assessment / red flag of facial weakness",
+     "quote": "Contact your provider if you lose movement in your face, or you have a rash on your face and facial weakness.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "kind": "journal",
+   "cited_as": "Rowbotham M, Harden N, Stacey B, Bernstein P, Magnus-Miller L. Gabapentin for the treatment of postherpetic neuralgia: a randomized controlled trial. JAMA. 1998;280(21):1837-1842. PMID: 9846778.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9846778/",
+   "pmid": "9846778",
+   "doi": "10.1001/jama.280.21.1837",
+   "record_title": "Gabapentin for the treatment of postherpetic neuralgia: a randomized controlled trial.",
+   "record_journal": "JAMA",
+   "record_year": "1998",
+   "article_type": "Randomized Controlled Trial",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Evidence supports gabapentin for PHN",
+     "quote": "Gabapentin is effective in the treatment of pain and sleep interference associated with PHN.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "kind": "journal",
+   "cited_as": "Sabatowski R, G&aacute;lvez R, Cherry DA, et al. Pregabalin reduces pain and improves sleep and mood disturbances in patients with post-herpetic neuralgia: results of a randomised, placebo-controlled clinical trial. Pain. 2004;109(1-2):26-35. PMID: 15082123.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15082123/",
+   "pmid": "15082123",
+   "doi": "10.1016/j.pain.2004.01.001",
+   "record_title": "Pregabalin reduces pain and improves sleep and mood disturbances in patients with post-herpetic neuralgia: results of a randomised, placebo-controlled clinical trial.",
+   "record_journal": "Pain",
+   "record_year": "2004",
+   "article_type": "Randomized Controlled Trial",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Evidence supports pregabalin for PHN",
+     "quote": "Pregabalin efficaciously treated the neuropathic pain of PHN.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "kind": "journal",
+   "cited_as": "Hempenstall K, Nurmikko TJ, Johnson RW, A'Hern RP, Rice AS. Analgesic therapy in postherpetic neuralgia: a quantitative systematic review. PLoS Medicine. 2005;2(7):e164. PMID: 16013891.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16013891/",
+   "pmid": "16013891",
+   "pmcid": "PMC1181872",
+   "doi": "10.1371/journal.pmed.0020164",
+   "record_title": "Analgesic therapy in postherpetic neuralgia: a quantitative systematic review.",
+   "record_journal": "PLoS Med",
+   "record_year": "2005",
+   "article_type": "Systematic Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Evidence supports gabapentin, pregabalin, tricyclics and topical lidocaine for PHN",
+     "quote": "there is evidence to support the use of the following orally administered therapies: tricyclic antidepressants, \"strong\" opioids, gabapentin, tramadol, and pregabalin. Topical therapies associated with efficacy were lidocaine 5% patch and capsaicin.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "kind": "journal",
+   "cited_as": "Dworkin RH, Schmader KE. Treatment and prevention of postherpetic neuralgia. Clinical Infectious Diseases. 2003;36(7):877-882. PMID: 12652389.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12652389/",
+   "pmid": "12652389",
+   "doi": "10.1086/368196",
+   "record_title": "Treatment and prevention of postherpetic neuralgia.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2003",
+   "article_type": "Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "notes": "No longer cited for Ramsay Hunt, home rash care, or bacterial superinfection (abstract silent).",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Nortriptyline and amitriptyline gave similar pain relief, nortriptyline better tolerated",
+     "quote": "the report that nortriptyline and amitriptyline provide equivalent analgesic benefits for patients with PHN but that nortriptyline is better tolerated.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "kind": "journal",
+   "cited_as": "Galer BS, Rowbotham MC, Perander J, Friedman E. Topical lidocaine patch relieves postherpetic neuralgia more effectively than a vehicle topical patch: results of an enriched enrollment study. Pain. 1999;80(3):533-538. PMID: 10342414.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10342414/",
+   "pmid": "10342414",
+   "doi": "10.1016/S0304-3959(98)00244-9",
+   "record_title": "Topical lidocaine patch relieves postherpetic neuralgia more effectively than a vehicle topical patch: results of an enriched enrollment study.",
+   "record_journal": "Pain",
+   "record_year": "1999",
+   "article_type": "Randomized Controlled Trial",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "notes": "Author list corrected to the PubMed record (Galer BS, Rowbotham MC, Perander J, Friedman E); 'Devers A' was not in the record.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Evidence supports topical lidocaine for PHN",
+     "quote": "topical lidocaine patch provides significantly more pain relief for PHN than does a vehicle patch.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "kind": "journal",
+   "cited_as": "Watson CP, Vernich L, Chipman M, Reed K. Nortriptyline versus amitriptyline in postherpetic neuralgia: a randomized trial. Neurology. 1998;51(4):1166-1171. PMID: 9781549.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9781549/",
+   "pmid": "9781549",
+   "doi": "10.1212/wnl.51.4.1166",
+   "record_title": "Nortriptyline versus amitriptyline in postherpetic neuralgia: a randomized trial.",
+   "record_journal": "Neurology",
+   "record_year": "1998",
+   "article_type": "Randomized Controlled Trial (crossover, n=33)",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Nortriptyline and amitriptyline similar relief; amitriptyline less tolerated",
+     "quote": "AT and NT appear to have a similar analgesic action for most individuals. ... Intolerable side effects were more common with AT.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "kind": "journal",
+   "cited_as": "Lal H, Cunningham AL, Godeaux O, et al. Efficacy of an adjuvanted herpes zoster subunit vaccine in older adults. New England Journal of Medicine. 2015;372(22):2087-2096. PMID: 25916341.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25916341/",
+   "pmid": "25916341",
+   "doi": "10.1056/NEJMoa1501184",
+   "record_title": "Efficacy of an adjuvanted herpes zoster subunit vaccine in older adults.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2015",
+   "article_type": "Randomized Controlled Trial (phase 3)",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "notes": "Scite flagged one contrasting citation (preprint) reporting slightly lower real-world effectiveness than trial efficacy; page labels the figure as a trial result.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Shingrix efficacy 97.2% in adults 50 and older",
+     "quote": "Overall vaccine efficacy against herpes zoster was 97.2% (95% confidence interval [CI], 93.7 to 99.0; P<0.001).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "kind": "journal",
+   "cited_as": "Cunningham AL, Lal H, Kovac M, et al. Efficacy of the herpes zoster subunit vaccine in adults 70 years of age or older. New England Journal of Medicine. 2016;375(11):1019-1032. PMID: 27626517.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27626517/",
+   "pmid": "27626517",
+   "doi": "10.1056/NEJMoa1603800",
+   "record_title": "Efficacy of the Herpes Zoster Subunit Vaccine in Adults 70 Years of Age or Older.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2016",
+   "article_type": "Randomized Controlled Trial (phase 3)",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Pooled efficacy 91.3% in adults 70+; 88.8% against PHN (chart)",
+     "quote": "vaccine efficacy against herpes zoster was 91.3% (95% CI, 86.8 to 94.5; P<0.001), and vaccine efficacy against postherpetic neuralgia was 88.8% (95% CI, 68.7 to 97.1; P<0.001).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "In a trial in adults 70 and older, vaccination lowered the risk of both shingles and PHN",
+     "quote": "In our trial, HZ/su was found to reduce the risks of herpes zoster and postherpetic neuralgia among adults 70 years of age or older.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "kind": "guideline",
+   "cited_as": "Dooling KL, Guo A, Patel M, et al. Recommendations of the Advisory Committee on Immunization Practices for use of herpes zoster vaccines. MMWR Morbidity and Mortality Weekly Report. 2018;67(3):103-108. PMID: 29370152.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29370152/",
+   "pmid": "29370152",
+   "pmcid": "PMC5812314",
+   "doi": "10.15585/mmwr.mm6703a5",
+   "record_title": "Recommendations of the Advisory Committee on Immunization Practices for Use of Herpes Zoster Vaccines.",
+   "record_journal": "MMWR Morb Mortal Wkly Rep",
+   "record_year": "2018",
+   "article_type": "Journal Article (ACIP recommendation)",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "version_or_date": "ACIP vote October 25, 2017; MMWR January 26, 2018",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "ACIP recommends two-dose RZV for immunocompetent adults 50 and older",
+     "quote": "On October 25, 2017, the Advisory Committee on Immunization Practices (ACIP) recommended the recombinant zoster vaccine (RZV) for use in immunocompetent adults aged ≥50 years.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "kind": "guideline",
+   "cited_as": "Anderson TC, Masters NB, Guo A, et al. Use of recombinant zoster vaccine in immunocompromised adults aged 19 years and older: recommendations of the Advisory Committee on Immunization Practices, United States, 2022. MMWR Morbidity and Mortality Weekly Report. 2022;71(3):80-84. PMID: 35051134.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35051134/",
+   "pmid": "35051134",
+   "pmcid": "PMC8774159",
+   "doi": "10.15585/mmwr.mm7103a2",
+   "record_title": "Use of Recombinant Zoster Vaccine in Immunocompromised Adults Aged ≥19 Years: Recommendations of the Advisory Committee on Immunization Practices - United States, 2022.",
+   "record_journal": "MMWR Morb Mortal Wkly Rep",
+   "record_year": "2022",
+   "article_type": "Journal Article (ACIP recommendation)",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers; PubMed get_full_text_article (PMC)",
+   "version_or_date": "ACIP vote October 20, 2021; MMWR January 21, 2022",
+   "notes": "Full text also states 'Persons with a history of herpes zoster should receive RZV' and to delay vaccination during an acute episode, consistent with the FAQ. Quote keeps the missing space ('yearswho') as printed in the retrieved text. No longer cited for IV acyclovir.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "ACIP recommends two RZV doses for adults 19 and older who are or will be immunocompromised",
+     "quote": "ACIP recommended 2 doses of RZV for the prevention of herpes zoster and related complications in adults aged ≥19 yearswho are or will be immunodeficient or immunosuppressed because of disease or therapy.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Weakened immunity raises risk of shingles and complications",
+     "quote": "The risk for herpes zoster and related complications is generally higher in immunocompromised compared with immunocompetent adults",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. Shingles Vaccine Recommendations. Last reviewed October 22, 2024. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/shingles/hcp/vaccine-considerations/index.html",
+   "retrieved_with": "WebFetch of official CDC page",
+   "version_or_date": "Last reviewed October 22, 2024",
+   "notes": "Page also states Shingrix should not be given during an acute episode of herpes zoster and no waiting period is needed after an episode.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "CDC's current recommendations match ACIP (50+ immunocompetent; 19+ immunocompromised)",
+     "quote": "CDC recommends 2 doses of Shingrix separated by 2–6 months for immunocompetent adults aged 50 years and older. ... CDC also recommends 2 doses of RZV for adults aged ≥19 years who are or will be immunodeficient or immunosuppressed.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "kind": "journal",
+   "cited_as": "Dagnew AF, Ilhan O, Lee WS, et al. Immunogenicity and safety of the adjuvanted recombinant zoster vaccine in adults with haematological malignancies: a phase 3, randomised, clinical trial and post-hoc efficacy analysis. Lancet Infectious Diseases. 2019;19(9):988-1000. PMID: 31399377.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31399377/",
+   "pmid": "31399377",
+   "doi": "10.1016/S1473-3099(19)30163-X",
+   "record_title": "Immunogenicity and safety of the adjuvanted recombinant zoster vaccine in adults with haematological malignancies: a phase 3, randomised, clinical trial and post-hoc efficacy analysis.",
+   "record_journal": "Lancet Infect Dis",
+   "record_year": "2019",
+   "article_type": "Randomized Controlled Trial (phase 3)",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "notes": "No longer cited for disseminated disease or IV acyclovir (not addressed).",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Blood cancers raise shingles risk",
+     "quote": "The immunocompromised adult population with haematological malignancies is at high risk for herpes zoster.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "kind": "journal",
+   "cited_as": "Strezova A, Diez-Domingo J, Al Shawafi K, et al. Long-term protection against herpes zoster by the adjuvanted recombinant zoster vaccine: interim efficacy, immunogenicity, and safety results up to 10 years after initial vaccination. Open Forum Infectious Diseases. 2022;9(10):ofac485. PMID: 36299530.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36299530/",
+   "pmid": "36299530",
+   "pmcid": "PMC9588150",
+   "doi": "10.1093/ofid/ofac485",
+   "record_title": "Long-term Protection Against Herpes Zoster by the Adjuvanted Recombinant Zoster Vaccine: Interim Efficacy, Immunogenicity, and Safety Results up to 10 Years After Initial Vaccination.",
+   "record_journal": "Open Forum Infect Dis",
+   "record_year": "2022",
+   "article_type": "Journal Article (interim analysis of follow-up study)",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "notes": "Interim analysis; the specific percentages on the page come from the final analysis (ref 33).",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Long-term follow-up: protection remained high about 10 years after vaccination",
+     "quote": "Approximately 10 years after vaccination with the recombinant zoster vaccine (RZV), an interim analysis of this follow-up study of the ZOE-50/70 trials demonstrated that efficacy against herpes zoster remained high.",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "kind": "journal",
+   "cited_as": "Strezova A, D&iacute;ez Domingo J, Cunningham AL, et al. Final analysis of the ZOE-LTFU trial to 11 years post-vaccination: efficacy of the adjuvanted recombinant zoster vaccine against herpes zoster and related complications. EClinicalMedicine. 2025;83:103241. PMID: 40630610.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40630610/",
+   "pmid": "40630610",
+   "pmcid": "PMC12235393",
+   "doi": "10.1016/j.eclinm.2025.103241",
+   "record_title": "Final analysis of the ZOE-LTFU trial to 11 years post-vaccination: efficacy of the adjuvanted recombinant zoster vaccine against herpes zoster and related complications.",
+   "record_journal": "EClinicalMedicine",
+   "record_year": "2025",
+   "article_type": "Journal Article (open-label phase 3b follow-up)",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + Scite verify_papers",
+   "notes": "Abstract: 'The VE calculation used a historical control constructed with ZOE-50/70 placebo data.' GSK-funded; page states the open-label, historical-control design.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Efficacy 87.7% from 1 month after dose 2 through end of follow-up in adults 50+, 82.0% in year 11; open-label with historical placebo comparison",
+     "quote": "From 1 month post-dose 2 in ZOE-50/70 to the end of ZOE-LTFU, VE against HZ was 87·7% (95% CI: 84·9, 90·1) in participants ≥50 years and sustained at 82·0% (95% CI: 63·0, 92·2) in the eleventh year post-vaccination.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

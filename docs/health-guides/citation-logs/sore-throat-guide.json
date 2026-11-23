@@ -1,0 +1,767 @@
+{
+ "guide": "sore-throat-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 7 verified (6 cited DOIs plus the removed Wessels DOI), retractions: none. Scite read_fulltext lists an erratum and comments for ref 5 (Shulman 2012); one potential contrasting citation for ref 4 (see entry). PubMed article types show no Retracted Publication or Retraction Notice.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. Clinical Guidance for Group A Streptococcal Pharyngitis. Updated November 18, 2025; accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html",
+   "retrieved_with": "WebFetch of official CDC page",
+   "retrieved_at": "2026-11-15",
+   "version_or_date": "Page date Nov. 18, 2025 (metadata last_reviewed August 5, 2025)",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Group A strep causes about 5% to 15% of adult pharyngitis (key takeaway, intro, citable summary)",
+     "quote": "Experts estimate that group A strep, the most common bacterial cause, causes ... 5% to 15% of pharyngitis infections in adults",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Viruses are the most common cause of acute pharyngitis",
+     "quote": "Viruses are the most common cause of pharyngitis in all age groups.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clear viral symptoms (cough, runny nose, hoarseness, mouth ulcers, conjunctivitis) usually do not need strep testing",
+     "quote": "Patients with clear viral symptoms don't need testing for group A streptococcal bacteria. ... Patients with group A strep pharyngitis typically don't have cough, rhinorrhea, hoarseness, oral ulcers, or conjunctivitis.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Without clear viral features, examination alone, a photograph or a score cannot reliably distinguish strep from viral pharyngitis; testing decides",
+     "quote": "Healthcare providers can't use clinical examination to differentiate viral and group A strep pharyngitis",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sudden throat pain, fever, front-neck nodes and inflamed or coated tonsils can be compatible with strep; exudate can occur with strep",
+     "quote": "Sudden onset of sore throat ... Fever ... Anterior cervical lymphadenopathy ... Tonsillar hypertrophy with or without exudates",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "A negative rapid antigen test in a typical adult does not routinely need backup culture; CDC advises culture after a negative RADT in children older than 3 years",
+     "quote": "Children older than 3 years: Healthcare providers should follow up a negative RADT with a throat culture. All other ages: Throat culture after a negative RADT isn't routinely indicated.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "RADT has high specificity but variable sensitivity; culture is the gold standard",
+     "quote": "RADTs have high specificity for group A strep bacteria but varying sensitivities when compared to throat culture. ... Throat culture is the gold standard diagnostic test.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A positive RADT or culture in a compatible illness supports antibiotics, which shorten symptoms, reduce transmission and decrease complications",
+     "quote": "Patients, regardless of age, who have a positive RADT or throat culture need antibiotics. ... Shortens the duration of symptoms ... Reduces the likelihood of transmission to close contacts ... Decreases the development of complications",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Penicillin or amoxicillin is generally first-line; CDC lists 10-day oral regimens",
+     "quote": "Penicillin or amoxicillin is the antibiotic of choice to treat group A strep pharyngitis. ... Adolescents and adults: 250 mg 4 times daily or 500 mg twice daily, for 10 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC advises avoiding cephalexin and cefadroxil with immediate-type penicillin hypersensitivity; allergy type changes options",
+     "quote": "However, avoid cephalexin and cefadroxil in patients with immediate type hypersensitivity to penicillin.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Macrolide and clindamycin resistance varies",
+     "quote": "resistance to azithromycin, clarithromycin, and clindamycin is well known and varies geographically and temporally.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Stay home until fever-free and at least 12 to 24 hours after starting an appropriate antibiotic",
+     "quote": "People with group A strep pharyngitis should stay home from work, school, or daycare until both of the following are met: They are afebrile ... At least 12–24 hours after starting appropriate antibiotic therapy",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hand washing and covering coughs reduce spread at home",
+     "quote": "Good hand hygiene and respiratory etiquette can reduce the spread of group A strep bacteria.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "General framing statements (decision framework, test choice, video limits, which test you had) rest on CDC testing guidance",
+     "quote": "Healthcare providers can't use clinical examination to differentiate viral and group A strep pharyngitis",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "guideline",
+   "cited_as": "Infectious Diseases Society of America. IDSA Clinical Practice Guideline Update on Group A Streptococcal (GAS) Pharyngitis. Part 1: risk assessment using clinical scoring systems. Published October 14, 2025; accessed November 15, 2026.",
+   "url": "https://www.idsociety.org/practice-guideline/streptococcal-pharyngitis2/",
+   "retrieved_with": "WebFetch of official IDSA guideline page",
+   "retrieved_at": "2026-11-15",
+   "version_or_date": "Published October 14, 2025; published by CID December 4, 2025",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "IDSA 2025 update conditionally suggests a clinical scoring system to decide who should be tested; very low certainty",
+     "quote": "In children and adults with sore throat, we suggest using a clinical scoring system to determine who should be tested for GAS (conditional recommendation, very low certainty of evidence)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "The update does not favor one particular scoring system",
+     "quote": "Given the lack of evidence favoring any particular scoring system,",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Scoring is most useful for identifying low-probability patients in whom testing is unlikely to help; it decides who is tested rather than replacing the test",
+     "quote": "most helpful in identifying patients with low probability of GAS pharyngitis, in whom further evaluation by diagnostic testing is unlikely to be helpful",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Household exposure, prior rheumatic fever and signs of complicated infection are reasons to test despite a low score",
+     "quote": "High-risk individuals should be strongly considered for testing even if their clinical scores are low. Examples ... household exposure to GAS ... a history of a previous rheumatic fever diagnosis, or symptoms or signs suggestive of complicated local or systemic GAS infection",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "The 2025 release is Part 1 of a broader update",
+     "quote": "This is Part 1 of an update to the 2012 IDSA Guideline on Diagnosis and Management of Group A Streptococcal Pharyngitis.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "White spots, symptoms or a high score cannot confirm strep; clinical distinction is difficult",
+     "quote": "it is difficult to distinguish viral infections from bacterial infections clinically",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "guideline",
+   "cited_as": "Linder JA, Watson ME, Wessels MR, et al. 2025 Clinical Practice Guideline Update by the Infectious Diseases Society of America on Group A Streptococcal Pharyngitis: Risk Assessment Using Clinical Scoring Systems in Children and Adults. Clin Infect Dis. 2026;82(Suppl 3):i97-i104.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41343363/",
+   "pmid": "41343363",
+   "doi": "10.1093/cid/ciaf668",
+   "record_title": "2025 Clinical Practice Guideline Update by the Infectious Diseases Society of America on Group A Streptococcal Pharyngitis: Risk Assessment Using Clinical Scoring Systems in Children and Adults.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2026",
+   "article_type": "Practice Guideline; Systematic Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Title says 2025; PubMed lists publication date 2026 Aug 24, vol 82 Suppl 3. Abstract only.",
+   "claims": [
+    {
+     "text": "Scoring's principal role is to identify low-probability patients and reduce unnecessary testing, deciding who gets a diagnostic test",
+     "quote": "The principal utility of using a scoring system is to identify patients with low probability of GAS pharyngitis and to reduce unnecessary testing.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Centor features include fever, tonsillar exudate, tender anterior neck nodes and absence of cough; scores use several findings together",
+     "quote": "presence of fever; tonsillar enlargement or exudate; tender and enlarged anterior cervical lymph nodes; and the absence of cough",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Scores estimate the probability of a positive throat culture; they were not designed to assess airway safety or every dangerous cause",
+     "quote": "Clinical scoring systems have been used to quantify the probability of a positive GAS throat culture based on standardized criteria",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Diagnostic options include rapid antigen tests, molecular methods and throat culture",
+     "quote": "which patients should have a diagnostic test performed by rapid antigen detection test, molecular methods, and/or throat culture",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Diagnosis by clinical judgment alone is unreliable",
+     "quote": "Diagnosis of GAS pharyngitis by clinician judgment alone is unreliable",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "The journal article has 2025 in its title but is indexed in a 2026 issue",
+     "quote": "PubMed record: publication_date 2026 Aug 24; volume 82, issue Suppl 3, pages i97-i104",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Fine AM, Nizet V, Mandl KD. Large-scale validation of the Centor and McIsaac scores to predict group A streptococcal pharyngitis. Arch Intern Med. 2012;172(11):847-52.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22566485/",
+   "pmid": "22566485",
+   "pmcid": "PMC3627733",
+   "doi": "10.1001/archinternmed.2012.950",
+   "record_title": "Large-scale validation of the Centor and McIsaac scores to predict group A streptococcal pharyngitis.",
+   "record_journal": "Arch Intern Med",
+   "record_year": "2012",
+   "article_type": "Journal Article; Validation Study (retrospective)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of PMC3627733 full text (methods); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite flagged one potential contrasting citation (10.2196/25899, a virtual-care study reporting higher positivity at low McIsaac scores, attributed partly to missing data counted as 0). The page already says this was not a video-only validation and a self-score or video view can be incomplete; no overstatement.",
+   "claims": [
+    {
+     "text": "7%, 12%, 21%, 38% and 57% positive at Centor 0 to 4 in patients 15 and older at a retail health chain",
+     "quote": "For patients 15 years or older, 23% ... tested positive for GAS, including 7% ... Centor score of 0; 12% ... 1; 21% ... 2; 38% ... 3; and 57% ... Centor score of 4.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Even a Centor score of 4 was not certainty; a score of 0 was not zero",
+     "quote": "57% (95% CI, 56%-58%) of those with a Centor score of 4",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "McIsaac adds an age adjustment to Centor",
+     "quote": "adding one point to the Centor score for those under age 15 years and subtracting one point for those age 45 years and older",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "guideline",
+   "cited_as": "Shulman ST, Bisno AL, Clegg HW, et al. Clinical practice guideline for the diagnosis and management of group A streptococcal pharyngitis: 2012 update by the Infectious Diseases Society of America. Clin Infect Dis. 2012;55(10):e86-102.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22965026/",
+   "pmid": "22965026",
+   "pmcid": "PMC7108032",
+   "doi": "10.1093/cid/cis629",
+   "record_title": "Clinical practice guideline for the diagnosis and management of group A streptococcal pharyngitis: 2012 update by the Infectious Diseases Society of America.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2012",
+   "article_type": "Practice Guideline",
+   "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of PMC7108032 full text (two passes for verbatim wording); Scite verify_papers and read_fulltext (abstract only)",
+   "retrieved_at": "2026-11-15",
+   "version_or_date": "2012 update; partly superseded on risk assessment by the 2025 Part 1 update (refs 2, 3)",
+   "editorial_notices": [
+    "Scite lists an erratum (doi 10.1093/cid/cit016, 2013) and published comments (10.1093/cid/cit016, 10.1093/cid/cit011); erratum content not retrieved."
+   ],
+   "notes": "PubMed connector full-text call returned empty; the PMC article page itself was readable via WebFetch this run. The page quotes no dose from this guideline.",
+   "claims": [
+    {
+     "text": "Group A strep causes about 5% to 15% of adult pharyngitis",
+     "quote": "GAS causes only 5%–15% of cases of acute pharyngitis in adults",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Viruses are the most common cause of acute pharyngitis",
+     "quote": "Viruses are the most common cause of acute pharyngitis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Testing is not usually needed when overt viral features are present",
+     "quote": "except when overt viral features like rhinorrhea, cough, oral ulcers, and/or hoarseness are present",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clinical features alone do not reliably distinguish strep from viral pharyngitis; fever or white spots do not prove strep",
+     "quote": "the clinical features alone do not reliably discriminate between GAS and viral pharyngitis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Negative RADT in adults does not routinely need backup culture",
+     "quote": "Routine use of back-up throat cultures for those with a negative RADT is not necessary for adults in usual circumstances",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "RADTs are highly specific; sensitivity varies",
+     "quote": "RADTs currently available are highly specific (approximately 95%) when compared with blood agar plate cultures",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Penicillin or amoxicillin is first-line for non-allergic patients; course usually 10 days",
+     "quote": "penicillin or amoxicillin is the recommended drug of choice for those non-allergic to these agents ... for a duration likely to eradicate the organism from the pharynx (usually 10 days).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Immediate-type penicillin allergy changes which options are appropriate",
+     "quote": "Avoid in individuals with immediate type hypersensitivity to penicillin.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "With an appropriate antibiotic for confirmed strep, clinical response is usually seen within 24 to 48 hours",
+     "quote": "a clinical response is usually achieved within 24–48 hours of therapy",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "IDSA does not recommend adjunctive corticosteroids",
+     "quote": "Adjunctive therapy with a corticosteroid is not recommended (weak, moderate).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Routine testing or preventive antibiotics for well household contacts is generally not recommended",
+     "quote": "Diagnostic testing or empiric treatment of asymptomatic household contacts of patients with acute streptococcal pharyngitis is not routinely recommended",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Indiscriminate testing can detect carriage in someone whose symptoms have another cause",
+     "quote": "Testing of such patients often demonstrates evidence of GAS in the pharynx",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Pain relief (acetaminophen or an NSAID) is useful alongside treatment",
+     "quote": "use of an analgesic/antipyretic agent such as acetaminophen or an NSAID for treatment of moderate to severe symptoms",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Peritonsillar abscess is a complication of group A strep",
+     "quote": "for the prevention of suppurative complications (eg, peritonsillar abscess, cervical lymphadenitis, mastoiditis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Strep symptoms can improve without antibiotics",
+     "quote": "streptococcal pharyngitis is usually a self-limited disease",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "If improvement does not follow the expected early response, the diagnosis and course are reconsidered",
+     "quote": "a clinical response is usually achieved within 24–48 hours of therapy",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "guideline",
+   "cited_as": "Harris AM, Hicks LA, Qaseem A, et al. Appropriate Antibiotic Use for Acute Respiratory Tract Infection in Adults: Advice for High-Value Care From the American College of Physicians and the Centers for Disease Control and Prevention. Ann Intern Med. 2016;164(6):425-34.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26785402/",
+   "pmid": "26785402",
+   "doi": "10.7326/M15-1840",
+   "record_title": "Appropriate Antibiotic Use for Acute Respiratory Tract Infection in Adults: Advice for High-Value Care From the American College of Physicians and the Centers for Disease Control and Prevention.",
+   "record_journal": "Ann Intern Med",
+   "record_year": "2016",
+   "article_type": "Practice Guideline",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces former ref 6 (Wessels MR, N Engl J Med 2011, PMID 21323542): record real, but PubMed has no abstract and Scite has no readable text, so no claim could be checked. Harris abstract only; fourth PubMed author entry is a collective name not shown in the record, hence et al.",
+   "claims": [
+    {
+     "text": "Test patients whose symptoms suggest strep (e.g. exudates, front-neck nodes) before antibiotics; a swab may be appropriate when the pattern fits",
+     "quote": "Clinicians should test patients with symptoms suggestive of group A streptococcal pharyngitis (for example, persistent fevers, anterior cervical adenitis, and tonsillopharyngeal exudates or other appropriate combination of symptoms) by rapid antigen detection test and/or culture",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antibiotics only for confirmed strep; not for every sore throat, not on symptoms alone, not after a negative test",
+     "quote": "Clinicians should treat patients with antibiotics only if they have confirmed streptococcal pharyngitis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antibiotics are often inappropriately prescribed for respiratory infections, so treating every sore throat exposes adults to unnecessary medication",
+     "quote": "Antibiotics are often inappropriately prescribed for patients with ARTI.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "A video visit cannot collect the specimen an indicated test needs; testing must be arranged where it can be done",
+     "quote": "by rapid antigen detection test and/or culture for group A Streptococcus",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Spinks A, Glasziou PP, Del Mar CB. Antibiotics for treatment of sore throat in children and adults. Cochrane Database Syst Rev. 2021;12(12):CD000023.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34881426/",
+   "pmid": "34881426",
+   "pmcid": "PMC8655103",
+   "doi": "10.1002/14651858.CD000023.pub5",
+   "record_title": "Antibiotics for treatment of sore throat in children and adults.",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2021",
+   "article_type": "Systematic Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "PMC full text returned a bot check this run; not routed around. Strep-positive subgroup claim cut because it is not in the abstract.",
+   "claims": [
+    {
+     "text": "29 trials, 15,337 cases; about 82% of placebo or no-treatment participants symptom-free by one week",
+     "quote": "We included 29 trials with 15,337 cases of sore throat. ... 82% of participants in the placebo or no treatment group were symptom-free by one week.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "The finding includes children and adults",
+     "quote": "The age of participants ranged from younger than one year to older than 50 years, but most participants across all studies were adults.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antibiotics reduced symptoms at day three and one week but the effect on symptoms can be small",
+     "quote": "The reduction in sore throat symptoms at day three (RR 0.70 ...) was greater than at one week ... As the effect on symptoms can be small",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most included studies were from the 1950s, when serious complications such as rheumatic fever were much more common",
+     "quote": "The majority of included studies were conducted in the 1950s, during which time the rates of serious complications (especially acute rheumatic fever) were much higher than today.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Many uncomplicated sore throats improve within about one week; symptoms can improve without antibiotics",
+     "quote": "82% of participants in the placebo or no treatment group were symptom-free by one week",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "Sarangarm P, Huerena TA, Norii T, et al. Antibiotic Prescribing in Adults Presenting with Pharyngitis Pre- and Post-Implementation of a Rapid Group A Streptococcus Test. Hosp Pharm. 2022;57(2):309-314.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35601722/",
+   "pmid": "35601722",
+   "pmcid": "PMC9117770",
+   "doi": "10.1177/00185787211032365",
+   "record_title": "Antibiotic Prescribing in Adults Presenting with Pharyngitis Pre- and Post-Implementation of a Rapid Group A Streptococcus Test.",
+   "record_journal": "Hosp Pharm",
+   "record_year": "2022 (epub 2021)",
+   "article_type": "Journal Article (retrospective cohort)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "A 2022 adult before-and-after study evaluated prescribing around rapid-test implementation; not a randomized trial",
+     "quote": "This was a retrospective cohort study of adult urgent care clinic patients pre- and post-implementation of a GAS RADT.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Buying a test does not automatically eliminate inappropriate prescriptions",
+     "quote": "an increase in appropriate prescribing (67.6% vs 77.5%, < .001) ... educational efforts to further increase appropriate prescribing is needed",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. Outpatient Clinical Care for Adults. Reviewed April 16, 2024; accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html",
+   "retrieved_with": "WebFetch of official CDC page",
+   "retrieved_at": "2026-11-15",
+   "version_or_date": "Reviewed April 16, 2024",
+   "editorial_notices": [],
+   "notes": "This page gives 5-10% for the GAS share of adult sore throat; the guide's 5% to 15% figure is attributed to ref 1 (CDC clinical guidance) and ref 5, not to this page.",
+   "claims": [
+    {
+     "text": "Antibiotics are not recommended after a negative RADT; continuing pain is not a reason to start leftover antibiotics",
+     "quote": "Antibiotic treatment is NOT recommended for patients with negative RADT results.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Throat cultures are not routinely recommended for adults after a negative test",
+     "quote": "Throat cultures are not routinely recommended for adults.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clinical features alone do not distinguish strep from viral pharyngitis; a test is needed",
+     "quote": "Clinical features alone do not distinguish between GAS and viral pharyngitis; a rapid antigen detection test (RADT) is necessary to establish a GAS pharyngitis diagnosis",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "For compatible illnesses a clinician may arrange a throat test before antibiotics",
+     "quote": "Those who meet two or more Centor criteria (e.g., fever, tonsillar exudates, tender cervical lymphadenopathy, absence of cough) should receive a RADT.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Penicillin or amoxicillin is first-line; 10-day course",
+     "quote": "Amoxicillin and penicillin remain first-line therapy ... Recommended treatment course for all oral beta-lactams is 10 days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Macrolide and clindamycin resistance; a broader antibiotic is not automatically better",
+     "quote": "GAS antimicrobial resistance to azithromycin and clindamycin are increasingly common.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antibiotics do not treat viral sore throat; group A strep is the only common reason for antibiotics",
+     "quote": "Group A beta-hemolytic streptococcal (GAS) infection is the only common indication for antibiotic therapy",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "agency_page",
+   "cited_as": "NHS. Sore throat. Reviewed April 8, 2024; accessed November 15, 2026.",
+   "url": "https://www.nhs.uk/conditions/sore-throat/",
+   "retrieved_with": "WebFetch of official NHS page",
+   "retrieved_at": "2026-11-15",
+   "version_or_date": "Page last reviewed 08 April 2024",
+   "editorial_notices": [],
+   "notes": "UK guidance; its 'Call 999 or go to A&E' list is rendered on the page as 'call 911 or go to an emergency department' (US equivalent), stated in the references note.",
+   "claims": [
+    {
+     "text": "Difficulty breathing, inability to swallow, drooling, stridor or a severe illness worsening quickly needs emergency care",
+     "quote": "Call 999 or go to A&E now if: have difficulty breathing or are unable to swallow ... are drooling ... are making a high-pitched sound as you breathe (called stridor) ... have severe symptoms and are getting worse quickly",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Many uncomplicated sore throats improve within about one week",
+     "quote": "They normally get better by themselves within a week.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dehydration, very high temperature or a weakened immune system lowers the threshold for urgent advice",
+     "quote": "Ask for an urgent GP appointment or get advice from 111 now if: ... signs of dehydration ... a very high temperature ... a weakened immune system",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fluids, rest, avoiding smoke, cool or soft foods, salt-water gargles, lozenges and paracetamol or ibuprofen help symptoms",
+     "quote": "gargle with warm, salty water ... drink plenty of water ... eat cool or soft foods ... avoid smoking or smoky places ... rest ... medicated lozenges",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Persistent, recurrent or unexplained symptoms (lump, mouth ulcer over 3 weeks) need clinician review",
+     "quote": "you often get a sore throat ... a lump in your mouth or neck, or a mouth ulcer that lasts for more than 3 weeks",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pain lasting longer than about a week needs reassessment",
+     "quote": "you or your child's sore throat does not improve after a week",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "agency_page",
+   "cited_as": "NHS. Tonsillitis. Reviewed March 8, 2024; accessed November 15, 2026.",
+   "url": "https://www.nhs.uk/conditions/tonsillitis/",
+   "retrieved_with": "WebFetch of official NHS page",
+   "retrieved_at": "2026-11-15",
+   "version_or_date": "Page last reviewed 08 March 2024",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Swelling inside the mouth and throat, inability to swallow, difficulty breathing, difficulty opening the mouth or a rapidly worsening sore throat needs emergency care (signs of quinsy)",
+     "quote": "Call 999 or go to A&E if: you have a severe sore throat that quickly gets worse ... swelling inside the mouth and throat ... difficulty speaking ... you cannot swallow ... difficulty breathing ... difficulty opening your mouth",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tonsillitis is usually viral and can produce white patches, so white spots do not prove strep",
+     "quote": "usually caused by a virus, such as a cold ... can also be due to a bacterial infection such as strep throat ... pus-filled spots or white patches on your tonsils",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptoms that do not settle within about a week or keep returning need review",
+     "quote": "the symptoms of tonsillitis do not go away within 1 week ... you keep getting throat infections",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A sore throat so painful it is difficult to eat or drink needs urgent advice",
+     "quote": "you have a sore throat so painful it's difficult to eat or drink",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Self-care: rest, cool drinks, paracetamol or ibuprofen, salt-water gargle",
+     "quote": "get plenty of rest ... drink cool drinks to soothe the throat ... take paracetamol or ibuprofen ... gargle with warm salty water",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. About Infectious Mononucleosis (Mono). Updated May 9, 2024; accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/epstein-barr/about/mononucleosis.html",
+   "retrieved_with": "WebFetch of official CDC page",
+   "retrieved_at": "2026-11-15",
+   "version_or_date": "May 9, 2024",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "CDC advises against amoxicillin or ampicillin in infectious mononucleosis",
+     "quote": "If you have infectious mononucleosis, you should not take penicillin antibiotics like ampicillin or amoxicillin.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Mono is common in teenagers and young adults; fatigue, sore throat and swollen neck nodes",
+     "quote": "Infectious mononucleosis is common among teenagers and young adults ... Extreme fatigue ... Sore throat ... Swollen lymph nodes in the neck and armpits",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most people with mono get better in 2 to 4 weeks, a longer and different timeline",
+     "quote": "Most people with mono get better in 2 to 4 weeks, but some may feel fatigued for several more weeks.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "label",
+   "cited_as": "American Society of Health-System Pharmacists. Amoxicillin. MedlinePlus Drug Information. Last revised May 15, 2026; accessed November 15, 2026.",
+   "url": "https://medlineplus.gov/druginfo/meds/a685001.html",
+   "retrieved_with": "WebFetch of MedlinePlus drug page",
+   "retrieved_at": "2026-11-15",
+   "version_or_date": "Last Revised 05/15/2026",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Take as directed and finish the course; do not share antibiotics or stop early",
+     "quote": "Take amoxicillin until you finish the prescription, even if you feel better. ... Do not let anyone else take your medication.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tell the clinician about mono before amoxicillin",
+     "quote": "tell your doctor if you have mononucleosis (a virus; also called 'mono')",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Severe allergic symptoms (trouble breathing or swallowing, face or throat swelling) need emergency help; a new rash or severe diarrhea needs a call to the prescriber right away",
+     "quote": "If you experience any of these symptoms, stop taking amoxicillin and call your doctor immediately or get emergency medical treatment ... rash ... wheezing; difficulty swallowing or breathing; swelling of the face, throat",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Improvement should begin in the first few days; contact the clinician if not improving or worse",
+     "quote": "You should begin to feel better during the first few days of treatment with amoxicillin. If your symptoms do not improve or get worse, call your doctor.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clinician considers kidney function, pregnancy and allergy history when choosing a regimen",
+     "quote": "if you have or have ever had kidney or liver disease, allergies ... tell your doctor if you are pregnant",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "label",
+   "cited_as": "American Society of Health-System Pharmacists. Acetaminophen. MedlinePlus Drug Information. Last revised October 15, 2025; accessed November 15, 2026.",
+   "url": "https://medlineplus.gov/druginfo/meds/a681004.html",
+   "retrieved_with": "WebFetch of MedlinePlus drug page",
+   "retrieved_at": "2026-11-15",
+   "version_or_date": "Last Revised 10/15/2025",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Acetaminophen reduces pain or fever; follow the label; avoid doubling via combination cold medicines; liver disease or heavy alcohol use warrants advice",
+     "quote": "Acetaminophen is used to relieve mild to moderate pain and to reduce fever. ... not take more than one product that contains acetaminophen at a time ... not take acetaminophen if you drink three or more alcoholic drinks every day",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "label",
+   "cited_as": "American Society of Health-System Pharmacists. Ibuprofen. MedlinePlus Drug Information. Last revised September 15, 2023; accessed November 15, 2026.",
+   "url": "https://medlineplus.gov/druginfo/meds/a682159.html",
+   "retrieved_with": "WebFetch of MedlinePlus drug page",
+   "retrieved_at": "2026-11-15",
+   "version_or_date": "Last Revised 09/15/2023",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Ibuprofen helps pain or fever but discuss kidney disease, ulcers, stomach or intestinal bleeding, blood thinners, heart conditions and pregnancy; do not combine with another NSAID such as naproxen",
+     "quote": "if you have or have ever had ulcers, bleeding in your stomach or intestines ... heart disease ... anticoagulants ('blood thinners') ... other NSAIDs such as naproxen ... if you are pregnant",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. Peritonsillar abscess. Review date October 28, 2024; accessed November 15, 2026.",
+   "url": "https://medlineplus.gov/ency/article/000986.htm",
+   "retrieved_with": "WebFetch of MedlinePlus encyclopedia page",
+   "retrieved_at": "2026-11-15",
+   "version_or_date": "Review date 10/28/2024",
+   "editorial_notices": [],
+   "notes": "New reference added to source the muffled-voice, one-sided pain or swelling, trismus and neck-stiffness warning signs.",
+   "claims": [
+    {
+     "text": "A muffled voice, severe throat pain mostly on one side, swelling on one side, difficulty opening the mouth, drooling and neck stiffness are signs of peritonsillar abscess",
+     "quote": "Severe throat pain that is usually on one side ... Muffled voice ... Difficulty opening the mouth ... Drooling or inability to swallow saliva ... Neck stiffness",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "One-sided swelling is seen on examination",
+     "quote": "An exam of the throat often shows swelling on one side and on the roof of the mouth.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "These signs need assessment right away; breathing trouble needs medical help right away",
+     "quote": "Contact your health care provider right away if you have had tonsillitis and you develop symptoms of peritonsillar abscess. ... Get medical help right away if you have: Breathing trouble",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

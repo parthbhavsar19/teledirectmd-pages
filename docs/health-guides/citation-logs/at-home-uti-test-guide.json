@@ -1,0 +1,803 @@
+{
+  "guide": "at-home-uti-test-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 11 verified (all journal DOIs, including 1 later cut: Anger 2019), retractions: none; no expressions of concern or withdrawals; PubMed article types show no Retracted Publication or Retraction Notice. Simerville 2005 (no DOI) could not be matched by Scite and was confirmed via its PubMed record. Contrasting-evidence flags on refs 1, 2, 9, 10 noted per entry.",
+  "references": [
+    {
+      "n": 1,
+      "kind": "journal",
+      "cited_as": "Devillé WL, Yzermans JC, van Duijn NP, Bezemer PD, van der Windt DA, Bouter LM. The urine dipstick test useful to rule out infections. A meta-analysis of the accuracy. BMC Urol. 2004;4:4.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15175113/",
+      "pmid": "15175113",
+      "pmcid": "PMC434513",
+      "doi": "10.1186/1471-2490-4-4",
+      "record_title": "The urine dipstick test useful to rule out infections. A meta-analysis of the accuracy.",
+      "record_journal": "BMC Urol",
+      "record_year": "2004",
+      "article_type": "Journal Article; Meta-Analysis; Review; Validation Study",
+      "retrieved_with": "PubMed connector get_article_metadata and get_full_text_article (PMC434513)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Scite flagged one contrasting citation (10.1590/s1679-45082017ao3936) on LE as a weak predictor of positive culture; the page does not present LE alone as diagnostic. Combined specificity is not pooled in the readable text, so the old 82 to 90% combined specificity was cut.",
+      "claims": [
+        {
+          "text": "meta-analysis included 70 publications",
+          "quote": "70 publications were included.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "dipsticks measure nitrite and leukocyte esterase",
+          "quote": "investigate the use of dipstick tests for nitrites and/or leukocyte esterase, and present empirical data",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "with at least one pad positive, sensitivity 68 to 88% across patient groups; positive results need confirmation",
+          "quote": "Sensitivities of the combination of both tests vary between 68 and 88% in different patient groups, but positive test results have to be confirmed.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "reading both pads together raises sensitivity",
+          "quote": "Combining the results of both parts of the dipstick tests with one or both showing a positive result increased sensitivity (68 to 88%)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "nitrite sensitivity 45 to 60% in most situations, specificity 85 to 98%; high specificity, modest sensitivity",
+          "quote": "the sensitivity of the urine dipstick test for nitrites was low (45 – 60% in most situations) with higher levels of specificity (85 – 98%)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "LE sensitivity 48 to 86%, specificity 17 to 93%; slightly more sensitive and slightly less specific than nitrite",
+          "quote": "Sensitivity of the urine dipstick test for leukocyte-esterase was, in general, slightly higher than for the dipstick test for nitrites (48 – 86%), while the specificity was slightly lower (17 – 93%).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "LE has high false-positive rates; in primary care a negative result does not exclude infection",
+          "quote": "Sensitivity is highest in primary care, but requires further diagnostic work-up because of the high rates of false positives. In primary care negative results do not exclude the presence of infection.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "a negative result on both pads excluded infection in most studies",
+          "quote": "A negative dipstick test result excluded the presence of infection in most studies, contrary to the findings of Hurlbut et al.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "chart: either pad positive sensitivity 68 to 88%, specificity not pooled; nitrite specificity 85 to 98%; LE specificity 17 to 93%",
+          "quote": "Sensitivities of the combination whereby one or both test results are positive vary between 68 and 88% in different patient groups",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "dipstick compared with quantitative culture",
+          "quote": "One example is the dipstick test, where only nitrites and leukocyte esterase – and not proteins and blood – show fair accuracy, compared with a quantitative culture",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "St John A, Boyd JC, Lowes AJ, Price CP. The use of urinary dipstick tests to exclude urinary tract infection: a systematic review of the literature. Am J Clin Pathol. 2006;126(3):428-436.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16880133/",
+      "pmid": "16880133",
+      "doi": "10.1309/C69RW1BT7E4QAFPV",
+      "record_title": "The use of urinary dipstick tests to exclude urinary tract infection: a systematic review of the literature.",
+      "record_journal": "Am J Clin Pathol",
+      "record_year": "2006",
+      "article_type": "Journal Article; Systematic Review",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract only; full text not retrieved)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Abstract only. Now cited only for its rule-out finding. Scite flagged one contrasting citation (10.6000/1929-4247.2012.01.01.08) disputing reliable rule-out; the page presents the rule-out evidence as mixed.",
+      "claims": [
+        {
+          "text": "2006 systematic review by St John and colleagues",
+          "quote": "A search of the literature from 1966 to 2003 revealed 30 studies as containing relevant and suitable information and 23 of these",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "pooled post-test probability of 5% after a negative result; urinalysis can rule out UTI in certain circumstances",
+          "quote": "a pooled posttest probability of 5% for the negative result. In certain circumstances, there is evidence for the use of urinalysis as a rule-out test for UTI.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "journal",
+      "cited_as": "Little P, Turner S, Rumsby K, et al. Validating the prediction of lower urinary tract infection in primary care: sensitivity and specificity of urinary dipsticks and clinical scores in women. Br J Gen Pract. 2010;60(576):495-500.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20594439/",
+      "pmid": "20594439",
+      "pmcid": "PMC2894378",
+      "doi": "10.3399/bjgp10X514747",
+      "record_title": "Validating the prediction of lower urinary tract infection in primary care: sensitivity and specificity of urinary dipsticks and clinical scores in women.",
+      "record_journal": "Br J Gen Pract",
+      "record_year": "2010",
+      "article_type": "Journal Article; Multicenter Study; Validation Study",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Previously cited for a 82 to 90% combined specificity it contradicts (66%). Now cited for its own figures.",
+      "claims": [
+        {
+          "text": "434 women with suspected UTI in primary care",
+          "quote": "A total of 434 adult females with suspected lower UTI had bacteriuria assessed using the European Urinalysis Guidelines.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "dipstick rule 75% sensitive, 66% specific",
+          "quote": "The previously developed dipstick rule--based on presence of nitrite, or both leucocytes and blood-- was moderately sensitive (75%) but less specific (66%",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "dipstick results modestly improve diagnostic precision but poorly rule out infection",
+          "quote": "Dipstick results can modestly improve diagnostic precision but poorly rule out infection.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Moragas A, Monfà R, García-Sangenís A, Llor C. Accuracy of leukocyte esterase and nitrite tests for diagnosing bacteriuria in older adults: a systematic review and meta-analysis. Clin Microbiol Infect. 2026;32(1):19-29. Epub 2025 Sep 3.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40912457/",
+      "pmid": "40912457",
+      "doi": "10.1016/j.cmi.2025.08.027",
+      "record_title": "Accuracy of leukocyte esterase and nitrite tests for diagnosing bacteriuria in older adults: a systematic review and meta-analysis.",
+      "record_journal": "Clin Microbiol Infect",
+      "record_year": "2025 (epub); 2026;32(1):19-29",
+      "article_type": "Journal Article; Meta-Analysis; Systematic Review",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Population is age 60 and older (page previously said 65+); corrected throughout, including the decision tree and table. \"Coin flip\" wording removed.",
+      "claims": [
+        {
+          "text": "16 studies, adults aged 60 and older",
+          "quote": "Of 1933 articles screened, 16 met inclusion criteria and had a moderate risk of bias.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "population is adults aged 60 and older",
+          "quote": "Individuals aged ≥60 years with or without symptoms of UTI in the community, nursing homes or hospitalized.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "in symptomatic older adults, specificity for predicting UTI 39% (95% CI 19 to 62%); sensitivity 92%",
+          "quote": "In symptomatic older adults, the sensitivity and specificity for predicting UTI were 92% (76%-97%) and 39% (19%-62%)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "specificity for bacteriuria 56% (chart)",
+          "quote": "Pooled urine dipstick sensitivity and specificity for bacteriuria were 90% (95% CI, 84%-94%) and 56% (43%-68%), respectively",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "positive dipstick inconclusive; findings support discontinuing dipstick testing for UTI diagnosis in older adults",
+          "quote": "A positive dipstick result is inconclusive and does not confirm bacteriuria or UTI in symptomatic older adults.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "authors support discontinuing dipstick testing in this population",
+          "quote": "These findings support discontinuing dipstick testing for UTI diagnosis in this population.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "asymptomatic bacteriuria common in older adults, so bacteriuria alone lacks diagnostic value; false positives common in older adults",
+          "quote": "Because of high asymptomatic bacteriuria prevalence in older individuals, bacteriuria alone lacks diagnostic value.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "urine culture is the reference standard",
+          "quote": "using urine culture as the reference standard",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "guideline",
+      "cited_as": "Ackerman AL, Bradley M, D'Anci KE, Hickling D, Kim SK, Kirkby E. Updates to Recurrent Uncomplicated Urinary Tract Infections in Women: AUA/CUA/SUFU Guideline (2025). J Urol. 2026;215(1):3-12. Epub 2025 Sep 4.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40905426/",
+      "pmid": "40905426",
+      "doi": "10.1097/JU.0000000000004723",
+      "record_title": "Updates to Recurrent Uncomplicated Urinary Tract Infections in Women: AUA/CUA/SUFU Guideline (2025).",
+      "record_journal": "J Urol",
+      "record_year": "2025 (epub); 2026;215(1):3-12",
+      "article_type": "Journal Article; Practice Guideline",
+      "version_or_date": "2025 amendment",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract; full text paywalled)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The old verbatim panel quote (\"does not advocate use of either point of care dipstick or home dipstick\") could not be verified and was cut. Cited only for what the abstract says.",
+      "claims": [
+        {
+          "text": "2025 update: greater understanding of the value of a negative urinalysis in ruling out UTI, shift toward clinician judgement",
+          "quote": "greater understanding of the value of a negative urinalysis in ruling out UTI, and a paradigm shift away from microbial detection to reliance on clinician judgement",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "guideline",
+      "cited_as": "European Association of Urology. EAU Guidelines on Urological Infections, 2026 edition (limited update of the 2025 publication). Chapter 3, The Guideline. Accessed November 15, 2026.",
+      "url": "https://uroweb.org/guidelines/urological-infections/chapter/the-guideline",
+      "record_title": "EAU Guidelines on Urological Infections, Chapter 3 The Guideline",
+      "version_or_date": "EAU Guidelines on Urological Infections, 2026 edition (limited update of the 2025 publication)",
+      "retrieved_with": "WebFetch of official page (uroweb.org), sections 3.3.7, 3.4.3.d, 3.5, 3.6.1.c",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Old link was the guideline landing page, which shows no recommendations. Old text said dipstick was a Strong recommendation; the current edition rates it Weak. Author list (Bonkat G et al.) not shown on the fetched page, so it was removed.",
+      "claims": [
+        {
+          "text": "Weak recommendation for urine dipstick testing to diagnose acute cystitis",
+          "quote": "Use urine dipstick testing for diagnosis of acute cystitis. (Weak)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Strong recommendation to diagnose cystitis from focused history (dysuria, frequency, urgency) and no vaginal discharge in women without other risk factors for systemic infection",
+          "quote": "Diagnose cystitis in women who have no other risk factors for systemic urinary tract infections based on: a focused history of lower urinary tract symptoms (dysuria, frequency and urgency); and the absence of vaginal discharge.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Strong recommendation for urine culture in: suspected systemic infection; symptoms that do not resolve or recur within four weeks; atypical symptoms; high risk of resistant pathogens; pregnancy",
+          "quote": "Suspected systemic urinary tract infection; Symptoms that do not resolve or recur within four weeks after completion of treatment; Women who present with atypical symptoms; Patients at high risk for infection with antimicrobial-resistant pathogens; and Pregnant women.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "culture in suspected pyelonephritis",
+          "quote": "In addition, urine culture and antimicrobial susceptibility testing should be performed in all cases of pyelonephritis.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "diagnose recurrent cystitis by urine culture (Strong)",
+          "quote": "Diagnose recurrent cystitis by urine culture. (Strong)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "recurrent UTI defined as 2 in 6 months or 3 in a year",
+          "quote": "Recurrent cystitis is defined by at least three episodes of cystitis/year or two episodes of cystitis in the last six months.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "vaginal estrogen for postmenopausal women",
+          "quote": "Use vaginal oestrogen replacement in postmenopausal women to prevent recurrent cystitis.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "methenamine hippurate for women without urinary tract abnormalities",
+          "quote": "Use methenamine hippurate to reduce recurrent cystitis episodes in women without abnormalities of the urinary tract.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "consider self-administered short-term antibiotic therapy for patients with good compliance",
+          "quote": "Consider self-administered short-term antimicrobial therapy for patients with good compliance.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "ASB in pregnancy is screened for and treated",
+          "quote": "Screen for and treat asymptomatic bacteriuria in pregnant women (Weak)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "pregnancy as a red flag needing clinician evaluation and culture",
+          "quote": "Urine cultures should be done in the following situations: ... Pregnant women.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. Total Product Life Cycle: Test, nitrite, urinary, non-quantitative, over the counter (product code NGJ; regulation 21 CFR 862.1510; device class 1). Accessed November 15, 2026.",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfTPLC/tplc.cfm?id=NGJ",
+      "record_title": "TPLC: test, nitrite, urinary, non-quantitative, over the counter",
+      "version_or_date": "database page read 2026-11-15",
+      "retrieved_with": "WebFetch of FDA Total Product Life Cycle (TPLC) database page, product code NGJ",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Replaces the generic FDA 510(k) overview page, which did not mention urinalysis strips. The old claims (Class II, 510(k) clearance for all strips, CLIA-waived) were not supported and were cut; FDA lists this device type as Class 1. The eCFR page for 21 CFR 862.1510 blocked automated reads (robots) and was not used.",
+      "claims": [
+        {
+          "text": "FDA lists over-the-counter urine nitrite tests as Class I devices",
+          "quote": "Device name: \"test, nitrite, urinary, non-quantitative, over the counter\"; Regulation number: \"862.1510\"; Device class: \"1\"",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "journal",
+      "cited_as": "Simerville JA, Maxted WC, Pahira JJ. Urinalysis: a comprehensive review. Am Fam Physician. 2005;71(6):1153-1162.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15791892/",
+      "pmid": "15791892",
+      "record_title": "Urinalysis: a comprehensive review.",
+      "record_journal": "Am Fam Physician",
+      "record_year": "2005",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract) and WebFetch of full text at aafp.org/afp/2005/0315/p1153.html",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Old entry printed this article but linked a different one (Simati, AFP 2013). Link now opens the PubMed record of the article cited. No DOI; Scite could not match it, confirmed via PubMed. Dilute urine and the 4-hour rule are not in this article and are no longer cited to it.",
+      "claims": [
+        {
+          "text": "positive nitrite generally means more than 10,000 organisms per mL",
+          "quote": "present in significant numbers (i.e., more than 10,000 per mL)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "non-nitrate-reducing organisms cause false-negative nitrite",
+          "quote": "Non-nitrate–reducing organisms also may cause false-negative results",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "vitamin C causes false-negative nitrite and leukocyte esterase results",
+          "quote": "Table 2, nitrite false negatives: \"Elevated specific gravity, elevated urobilinogen levels, nitrate reductase-negative bacteria, pH < 6.0, vitamin C\"; vitamin C is also listed for leukocyte esterase false negatives",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "contamination can cause a false-positive leukocyte esterase result",
+          "quote": "Table 2, leukocyte esterase false positive: \"Contamination\"",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "phenazopyridine can cause a false-positive nitrite result",
+          "quote": "Table 2, nitrite false positives: \"Contamination, exposure of dipstick to air, phenazopyridine\"",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "pyuria without positive culture from urethritis, Chlamydia and other causes",
+          "quote": "Other causes of sterile pyuria include balanitis, urethritis, tuberculosis, bladder tumors, viral infections",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Chlamydia as a cause of pyuria with negative culture",
+          "quote": "Chlamydia and Ureaplasma urealyticum should be considered in patients with pyuria and negative cultures",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "guideline",
+      "cited_as": "Nicolle LE, Gupta K, Bradley SF, et al. Clinical Practice Guideline for the Management of Asymptomatic Bacteriuria: 2019 Update by the Infectious Diseases Society of America. Clin Infect Dis. 2019;68(10):e83-e110.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30895288/",
+      "pmid": "30895288",
+      "doi": "10.1093/cid/ciy1121",
+      "record_title": "Clinical Practice Guideline for the Management of Asymptomatic Bacteriuria: 2019 Update by the Infectious Diseases Society of America.",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2019",
+      "article_type": "Journal Article; Practice Guideline",
+      "version_or_date": "2019 update",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The \"up to 50% in nursing-facility residents\" figure is not in the abstract and was cut. Scite flagged one contrasting citation (10.1177/0018578719888911) about ASB treatment in practice; it does not bear on the claim.",
+      "claims": [
+        {
+          "text": "treating ASB is an important contributor to inappropriate antibiotic use, which promotes resistance",
+          "quote": "antimicrobial treatment of ASB has been recognized as an important contributor to inappropriate antimicrobial use, which promotes emergence of antimicrobial resistance",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "guideline",
+      "cited_as": "Gupta K, Hooton TM, Naber KG, et al. International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: A 2010 update by the Infectious Diseases Society of America and the European Society for Microbiology and Infectious Diseases. Clin Infect Dis. 2011;52(5):e103-e120.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21292654/",
+      "pmid": "21292654",
+      "doi": "10.1093/cid/ciq257",
+      "record_title": "International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: A 2010 update by the Infectious Diseases Society of America and the European Society for Microbiology and Infectious Diseases.",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2011",
+      "article_type": "Journal Article; Practice Guideline; Review",
+      "version_or_date": "2010 update",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The old claim (empirical treatment on symptoms alone; dipstick optional) is not in the abstract and was cut. Now cited only for its scope. Scite flagged one contrasting citation (10.3855/jidc.8124) about local resistance; not relevant to the scope claim.",
+      "claims": [
+        {
+          "text": "guideline focuses on treatment for acute uncomplicated cystitis and pyelonephritis, limited to premenopausal, non-pregnant women without urological abnormalities or comorbidities",
+          "quote": "The focus of this work is treatment of women with acute uncomplicated cystitis and pyelonephritis, diagnoses limited in these guidelines to premenopausal, non-pregnant women with no known urological abnormalities or co-morbidities.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "journal",
+      "cited_as": "Melnyk AI, Toal C, Glass Clark S, Bradley M. Home urinary tract infection testing: patient experience and satisfaction with polymerase chain reaction kit. Int Urogynecol J. 2023;34(5):1055-1060. Epub 2022 Aug 9.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35943561/",
+      "pmid": "35943561",
+      "pmcid": "PMC9361247",
+      "doi": "10.1007/s00192-022-05309-z",
+      "record_title": "Home urinary tract infection testing: patient experience and satisfaction with polymerase chain reaction kit.",
+      "record_journal": "Int Urogynecol J",
+      "record_year": "2023 (epub 2022)",
+      "article_type": "Journal Article (cross-sectional study)",
+      "retrieved_with": "PubMed connector get_article_metadata and get_full_text_article (PMC9361247)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Pages corrected from 1041-1047 to 1055-1060. The insurance claim is not in the paper and was removed from the cited cell.",
+      "claims": [
+        {
+          "text": "standard culture is designed to detect a small set of uropathogens",
+          "quote": "Ucxs take around 48 h for results, are designed to detect a small set of uropathogens",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "30-patient study of a home PCR kit",
+          "quote": "A total of 30 patients [73% white race, mean age 71.9 (SD 12.0) years] were surveyed.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "average 5.9 organisms per patient, concern for vaginal contamination",
+          "quote": "the high number of pathogens identified per patient is somewhat concerning for vaginal contamination, which could be a limitation",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "mean 5.9 pathogens per patient",
+          "quote": "The multiplex PCR UTI kits identified a mean of 5.9 pathogens per patient",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "comparison with standard culture still needed",
+          "quote": "Additional research to compare traditional urine cultures with the multiplex PCR home UTI test is necessary",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "journal",
+      "cited_as": "Schmiemann G, Kniehl E, Gebhardt K, Matejczyk MM, Hummers-Pradier E. The diagnosis of urinary tract infection: a systematic review. Dtsch Arztebl Int. 2010;107(21):361-367.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20539810/",
+      "pmid": "20539810",
+      "pmcid": "PMC2883276",
+      "doi": "10.3238/arztebl.2010.0361",
+      "record_title": "The diagnosis of urinary tract infection: a systematic review.",
+      "record_journal": "Dtsch Arztebl Int",
+      "record_year": "2010",
+      "article_type": "Journal Article; Systematic Review",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract; PMC returned no body) and Scite read_fulltext (full text)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Old claim (both pads together outperform either alone; both worse than microscopy) is not in the text and was cut. The article questions treating diabetes as complicated UTI, so diabetes was removed from the culture list.",
+      "claims": [
+        {
+          "text": "nitrite is a metabolic product of typical pathogens; LE and blood as markers of inflammation",
+          "quote": "detect nitrite (a metabolic product of typical pathogens of the urinary tract), leukocyte esterase, protein and blood (as a marker of inflammation)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "urine culture is the gold standard",
+          "quote": "The gold standard for a urine test is to perform a bacteriological urine culture, with identification of the pathogen, with quantification and sensitivity testing.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "UTIs in men are complicated; dipstick imprecise in men; culture recommended",
+          "quote": "Urinary tract infections in men are still regarded as complicated urinary tract infections. As testing with dip sticks is imprecise in this group, it is recommended that urine culture should be performed to confirm the diagnosis.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "complicated UTI (men, pregnancy, immune suppression, anatomical problems, stones, catheter) should have urine culture; red flags for men, pregnancy, immunocompromise, catheter or stones",
+          "quote": "All infections of the urinary tract in children, men and pregnant women; Special functional or anatomical features; Immune suppressed patients; Urological or renal disease, kidney stones; Status after laying a urine catheter",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "culture should generally be attempted in complicated infections",
+          "quote": "an attempt should generally be made to perform a urine culture to detect the causative organisms and their antimicrobial susceptibility",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "treating ASB in pregnancy lowers pyelonephritis and possibly harm to the child; antenatal dipstick insensitive",
+          "quote": "Treatment of asymptomatic bacteriuria (ABU) in pregnant women decreases the occurrence of pyelonephritis (number needed to treat [NNT] = 7) (25) and possibly also damage to the child",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "dipstick used in antenatal care is rather insensitive",
+          "quote": "However, the dip stick used in current antenatal care testing is rather insensitive.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "older adults and men: strip much less reliable (with ref 4)",
+          "quote": "As testing with dip sticks is imprecise in this group, it is recommended that urine culture should be performed",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "immunocompromise examples (transplant, chemotherapy, poorly controlled diabetes) as red flag",
+          "quote": "Immune suppressed patients",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "journal",
+      "cited_as": "Semeniuk H, Church D. Evaluation of the leukocyte esterase and nitrite urine dipstick screening tests for detection of bacteriuria in women with suspected uncomplicated urinary tract infections. J Clin Microbiol. 1999;37(9):3051-3052.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10449505/",
+      "pmid": "10449505",
+      "pmcid": "PMC85454",
+      "doi": "10.1128/JCM.37.9.3051-3052.1999",
+      "record_title": "Evaluation of the leukocyte esterase and nitrite urine dipstick screening tests for detection of bacteriuria in women with suspected uncomplicated urinary tract infections.",
+      "record_journal": "J Clin Microbiol",
+      "record_year": "1999",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Old text said \"because of these three mechanisms\" a negative strip misses one in five; the study does not attribute causes, so that link was removed.",
+      "claims": [
+        {
+          "text": "479 women; 18.9% of samples with significant bacteriuria had a negative dipstick screen (roughly one in five)",
+          "quote": "18.9% of the urine samples that demonstrated significant bacteriuria would have been rejected by the laboratory based on a negative urinalysis screen",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "479 ambulatory women with suspected uncomplicated UTI",
+          "quote": "did not reliably detect significant bacteriuria in 479 ambulatory women with suspected uncomplicated urinary tract infection",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. Total Product Life Cycle: Test, urine leukocyte (product code LJX; regulation 21 CFR 864.7675; device class 1). Accessed November 15, 2026.",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfTPLC/tplc.cfm?id=LJX",
+      "record_title": "TPLC: test, urine leukocyte",
+      "version_or_date": "database page read 2026-11-15",
+      "retrieved_with": "WebFetch of FDA Total Product Life Cycle (TPLC) database page, product code LJX",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "FDA lists urine leukocyte tests as Class I devices",
+          "quote": "Device name: \"test, urine leukocyte\"; Regulation number: \"864.7675\"; Device class: \"1\"",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FDA shows premarket substantially equivalent decisions for some urine leukocyte test strips",
+          "quote": "Manufacturer: \"HEALGEN SCIENTIFIC,, LLC\"; Decision: \"SUBSTANTIALLY EQUIVALENT\"",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "other_web",
+      "cited_as": "AZO. AZO Test Strips product page: directions and limitations of use (manufacturer). Accessed November 15, 2026.",
+      "url": "https://azoproducts.com/products/azo-test-strips",
+      "version_or_date": "page read 2026-11-15",
+      "retrieved_with": "WebFetch of manufacturer product page (azoproducts.com)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Manufacturer directions and limitations for one brand; the page attributes them as \"one manufacturer\".",
+      "claims": [
+        {
+          "text": "negative nitrite when bacteria do not change nitrate to nitrite, urine held less than 4 hours, antibiotics, or no dietary nitrates",
+          "quote": "a UTI caused by bacteria that does not change nitrate to nitrite, when urine has not been held in the bladder for more than 4 hours, when taking antibiotics, or when your diet does not include nitrates.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "test in the morning after at least four hours without urinating",
+          "quote": "Testing in the morning, assuming you have slept for at least four hours without urinating,",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "hold strip in urine stream 1 to 2 seconds",
+          "quote": "Simply wet one test trip [sic] by holding it in your urine stream for 1-2 seconds.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "read nitrite at 1 minute, leukocytes at 2 minutes; ignore color change after 3 minutes",
+          "quote": "Read result at 1 minute for Nitrite and at 2 minutes for Leukocytes. ... Ignore any color change after you have read the test pads at three minutes.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "more than 500 mg vitamin C in 24 hours may cause false-negative nitrite",
+          "quote": "if you take more than 500 mg of Vitamin C in 24 hours, you may obtain a false negative nitrite result.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "traces of menstrual blood can produce a false-positive leukocyte result",
+          "quote": "traces of menses can produce a false positive WBC (Leukocyte) result.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "dyes such as phenazopyridine can mask pad colors or produce a color reaction read as a false result",
+          "quote": "products containing dyes as the active ingredient; for example phenazopyridine hydrochloride ... The color development on the test pad may be masked or a color reaction may be produced that could be interpreted as false results.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "label says the test may produce false results; consult a physician",
+          "quote": "There is the possibility that this test may produce false results. Consult your physician before making any medical decisions.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Outpatient Clinical Care for Adults (antibiotic prescribing and use). Last reviewed April 16, 2024. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html",
+      "version_or_date": "Last reviewed April 16, 2024",
+      "retrieved_with": "WebFetch of official CDC page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "first-line antibiotics: nitrofurantoin, TMP-SMX where local resistance below 20%, fosfomycin",
+          "quote": "Nitrofurantoin, trimethoprim/sulfamethoxazole (TMP-SMX, where local resistance is <20%) and fosfomycin are appropriate first-line agents.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "nitrites and leukocyte esterase are the most accurate indicators of acute uncomplicated cystitis",
+          "quote": "Nitrites and leukocyte esterase are the most accurate indicators of acute uncomplicated cystitis",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus Medical Encyclopedia. Urinary tract infection - adults. U.S. National Library of Medicine. Review date July 22, 2026. Accessed November 15, 2026.",
+      "url": "https://medlineplus.gov/ency/article/000521.htm",
+      "version_or_date": "Review Date 7/22/2026",
+      "retrieved_with": "WebFetch of official MedlinePlus page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Sourced for red flags. MedlinePlus lists \"Fever\" as a reason to contact a provider right away and \"Fever above 101°F (38.3°C)\" as a kidney infection symptom; the page keeps its stricter 100.4°F threshold, which is logged as partly supported.",
+      "claims": [
+        {
+          "text": "contact provider right away for signs of possible kidney infection: back or side pain, chills, fever, vomiting",
+          "quote": "Contact your provider right away if you have signs of a possible kidney infection, such as: Back or side pain, Chills, Fever, Vomiting",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "flank or back pain with nausea or vomiting as red flag",
+          "quote": "Pain in the side, back, or groin ... Nausea and vomiting",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "confusion or mental changes in older adults may be the only signs of UTI",
+          "quote": "Mental changes or confusion (in older people, these symptoms often are the only signs of a UTI)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "fever above 100.4 F with urinary symptoms as red flag",
+          "quote": "Contact your provider right away if you have signs of a possible kidney infection, such as: ... Fever",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "kind": "guideline",
+      "cited_as": "American Urological Association. Recurrent Uncomplicated Urinary Tract Infections in Women: AUA/CUA/SUFU Guideline, 2025 Amendment Summary. Accessed November 15, 2026.",
+      "url": "https://www.auanet.org/documents/Guidelines/PDF/2025%20Guidelines/rUTI%20Update/rUTI%202025%20Amendment%20Summary%20Final.pdf",
+      "version_or_date": "Published 2019; validity confirmed 2022; amended 2025",
+      "retrieved_with": "WebFetch of AUA official PDF (2025 Amendment Summary)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "2025 AUA amendment: clinicians should offer cranberry as an option for prophylaxis",
+          "quote": "Clinicians should offer cranberry as an option for prophylaxis for women with rUTIs. (Moderate Recommendation; Evidence Level: Grade B)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "kind": "journal",
+      "cited_as": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12020306/",
+      "pmid": "12020306",
+      "doi": "10.1001/jama.287.20.2701",
+      "record_title": "Does this woman have an acute uncomplicated urinary tract infection?",
+      "record_journal": "JAMA",
+      "record_year": "2002",
+      "article_type": "Journal Article; Review",
+      "version_or_date": "2002;287(20):2701-2710",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-18",
+      "editorial_notices": [],
+      "notes": "Scite verify_papers quota exhausted until 2026-12-14; PubMed article types checked, no retraction. Post-test probabilities on the page are labeled as our own calculation from Little 2010 [3] sensitivity 75% and specificity 66%.",
+      "claims": [
+        {
+          "text": "pre-test probability about 50% with 1+ symptoms; specific combinations raise it above 90%",
+          "quote": "In women who present with 1 or more symptoms of UTI, the probability of infection is approximately 50%. Specific combinations of symptoms (eg, dysuria and frequency without vaginal discharge or irritation) raise the probability of UTI to more than 90%",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "dipstick cannot reliably rule out UTI in symptomatic women",
+          "quote": "history taking, physical examination, and dipstick urinalysis are not able to reliably lower the posttest probability of disease to a level where a UTI can be ruled out when a patient presents with 1 or more symptoms.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

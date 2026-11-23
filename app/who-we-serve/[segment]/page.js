@@ -11,7 +11,6 @@ import EarlyRetireesPage from './EarlyRetireesPage';
 import CollegeStudentsPage from './CollegeStudentsPage';
 import MilitaryFamiliesPage from './MilitaryFamiliesPage';
 import HdhpHsaHoldersPage from './HdhpHsaHoldersPage';
-import WorldCup2026Page from './WorldCup2026Page';
 import FlightAttendantsPage from './FlightAttendantsPage';
 import { WhoWeServePricingCTA } from '../../components/CostCompareModules';
 import { CitableSummaryBlock } from '../../components/CitableSummary';
@@ -22,16 +21,15 @@ import { summarizeWhoWeServe, citableSummaryToJsonLd } from '../../../lib/citabl
 const SEGMENT_PRICING_CONFIG = {
   'truck-drivers':              { hook: 'On the road, every dollar matters. The flat $79 visit replaces $150–$280 urgent care and $2,715-average uninsured ER visits.', related: { slug: 'uti-treatment-cost', title: 'UTI Treatment Cost', tagline: 'Telehealth UTI total $80–$145 vs. urgent care $160–$320.' } },
   'gig-workers':                { hook: '1099 income, no employer health plan? A $79 flat visit beats every cash-pay alternative — and the visit is HSA/FSA eligible.', related: { slug: 'online-prescription-cost', title: 'Online Prescription Cost', tagline: '$79 visit + $4–$30 generic via GoodRx for stable refills.' } },
-  'uninsured-affordable-care':  { hook: '38.6% of uninsured adults delay care due to cost (KFF). $79 flat replaces a $150–$2,715 in-person visit, with no surprise billing.', related: { slug: 'uti-treatment-cost', title: 'UTI Treatment Cost', tagline: 'Telehealth UTI total $80–$145 vs. urgent care $160–$320.' } },
+  'uninsured-affordable-care':  { hook: '38.6% of uninsured adults delay care due to cost (KFF). $79 flat replaces a $150–$2,715 in-person visit, with no hidden fees.', related: { slug: 'uti-treatment-cost', title: 'UTI Treatment Cost', tagline: 'Telehealth UTI total $80–$145 vs. urgent care $160–$320.' } },
   'small-business-owners':      { hook: 'Skip the $200+ in-person visit and the half-day commute. $79 flat. HSA/FSA eligible. Same-day evenings and weekends.', related: { slug: 'online-prescription-cost', title: 'Online Prescription Cost', tagline: '$79 visit + $4–$30 generic for blood pressure, cholesterol, asthma, more.' } },
   'college-students':           { hook: 'Health center closed at 5pm? $79 flat — cheaper than the average urgent care, with the antibiotic at the on-campus pharmacy by morning.', related: { slug: 'sore-throat-treatment-cost', title: 'Sore Throat Treatment Cost', tagline: 'Telehealth $50–$155 vs. urgent care $185–$345 with strep test.' } },
-  'early-retirees':             { hook: 'Bridge the gap between employer coverage and Medicare with predictable $79 visits. HSA/FSA accepted; no surprise billing.', related: { slug: 'online-prescription-cost', title: 'Online Prescription Cost', tagline: '$79 visit + $4–$30 generic for stable refills (BP, cholesterol, asthma).' } },
+  'early-retirees':             { hook: 'Bridge the gap between employer coverage and Medicare with predictable $79 visits. HSA/FSA accepted; no hidden fees.', related: { slug: 'online-prescription-cost', title: 'Online Prescription Cost', tagline: '$79 visit + $4–$30 generic for stable refills (BP, cholesterol, asthma).' } },
   'remote-workers':             { hook: '$79 flat, same physician across every state on your itinerary. HSA/FSA eligible. No drive time.', related: null },
-  'travel-nurses':              { hook: 'One licensed MD across 43 states — predictable $79 flat regardless of where the next assignment lands you.', related: null },
+  'travel-nurses':              { hook: 'One licensed MD across 40+ states — predictable $79 flat regardless of where the next assignment lands you.', related: null },
   'international-visitors':     { hook: '$79 flat (≈ £59 / €69 / CAD 112 as of July 2026) versus $250–$350 for a US in-person cash-pay visit. Receipt suitable for travel-insurance reimbursement.', related: null },
   'military-families':          { hook: 'PCS to a new state? Same physician at $79 flat. HSA/FSA accepted; visit summary to share with your home-station provider.', related: null },
   'hdhp-hsa-holders':           { hook: 'High-deductible plan? $79 flat, HSA/FSA card accepted at checkout. Itemized receipt counts toward your deductible.', related: { slug: 'online-prescription-cost', title: 'Online Prescription Cost', tagline: '$79 visit + $4–$30 generic via GoodRx for stable refills.' } },
-  'world-cup-2026':             { hook: 'In the US for the 2026 World Cup without US insurance? $79 flat — versus $150–$350 cash-pay urgent care or a $500–$3,000+ ER bill. Receipt suitable for travel-insurance reimbursement.', related: null },
   'flight-attendants':          { hook: 'On a layover with a UTI or sinus infection? $79 flat — reachable from your hotel, versus $150–$350 for an unfamiliar urgent care in a city you leave tomorrow.', related: { slug: 'uti-treatment-cost', title: 'UTI Treatment Cost', tagline: 'Telehealth UTI total $80–$145 vs. urgent care $160–$320.' } },
 };
 
@@ -76,7 +74,6 @@ function renderSegment(slug) {
     case 'college-students':           return <CollegeStudentsPage />;
     case 'military-families':          return <MilitaryFamiliesPage />;
     case 'hdhp-hsa-holders':           return <HdhpHsaHoldersPage />;
-    case 'world-cup-2026':             return <WorldCup2026Page />;
     case 'flight-attendants':          return <FlightAttendantsPage />;
     default:                           return null;
   }

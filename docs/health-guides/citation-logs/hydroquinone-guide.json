@@ -1,0 +1,414 @@
+{
+ "guide": "hydroquinone-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 2 verified, retractions: none (no editorial notices, no contrasting evidence flagged, no predatory journals). PubMed article types checked for both journal refs: no Retracted Publication or Retraction Notice.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "journal",
+   "cited_as": "McKesey J, Tovar-Garza A, Pandya AG. Melasma Treatment: An Evidence-Based Review. American Journal of Clinical Dermatology. 2020;21(2):173-225. Systematic review.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31802394/",
+   "pmid": "31802394",
+   "doi": "10.1007/s40257-019-00488-w",
+   "record_title": "Melasma Treatment: An Evidence-Based Review.",
+   "record_journal": "Am J Clin Dermatol",
+   "record_year": "2020",
+   "article_type": "Journal Article; Systematic Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. Scite: verified, no editorial notices, no contrasting evidence flagged. Scite lists year 2019 (online first); PubMed record year 2020 used.",
+   "claims": [
+    {
+     "text": "Hydroquinone, alone or in triple combination cream, is among the most effective and best-studied treatments for melasma (takeaway, what-is, citable summary)",
+     "quote": "Hydroquinone monotherapy and triple combination cream are the most effective and well-studied treatments for melasma",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Evidence-based review of 113 trials: triple combination cream remains the most effective treatment for melasma, as well as hydroquinone alone",
+     "quote": "Overall, 113 studies met the inclusion criteria ... Triple combination cream (hydroquinone, tretinoin, and corticosteroid) remains the most effective treatment for melasma, as well as hydroquinone alone.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Table: triple combination among the most effective treatments; alternatives table: hydroquinone among the most effective",
+     "quote": "Triple combination cream (hydroquinone, tretinoin, and corticosteroid) remains the most effective treatment for melasma, as well as hydroquinone alone.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Side effects in melasma trials tend to be mild, mainly irritation, dryness, burning, redness",
+     "quote": "Adverse events from all treatments tend to be mild, and mainly consist of skin irritation, dryness, burning, erythema, and post-inflammatory hyperpigmentation.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "FAQ: triple combination cream and hydroquinone alone are the most effective, best-studied melasma treatments",
+     "quote": "Hydroquinone monotherapy and triple combination cream are the most effective and well-studied treatments for melasma",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "journal",
+   "cited_as": "Fabian IM, Sinnathamby ES, Flanagan CJ, et al. Topical Hydroquinone for Hyperpigmentation: A Narrative Review. Cureus. 2023;15(11):e48840. Review.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38106810/",
+   "pmid": "38106810",
+   "pmcid": "PMC10723018",
+   "doi": "10.7759/cureus.48840",
+   "record_title": "Topical Hydroquinone for Hyperpigmentation: A Narrative Review.",
+   "record_journal": "Cureus",
+   "record_year": "2023",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC full text); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Narrative review (secondary source); used for mechanism, concentrations, regimen and side-effect descriptions. Scite: verified, no notices, no contrasting evidence flagged.",
+   "claims": [
+    {
+     "text": "Hydroquinone inhibits tyrosinase, an enzyme involved in melanin production (takeaway, how it works, citable summary)",
+     "quote": "HQ works by inhibiting tyrosinase, an enzyme involved in melanin production.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Safe and effective when used appropriately under medical supervision and within recommended concentrations",
+     "quote": "HQ is safe and effective when used appropriately under medical supervision and within recommended concentrations.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Long-term excessive use can cause ochronosis, a bluish-black skin discoloration",
+     "quote": "Long-term excessive HQ use can result in ochronosis, a bluish-black skin discoloration.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Limiting exposure during pregnancy and breastfeeding is advised because hydroquinone is absorbed systemically",
+     "quote": "Because HQ is absorbed systemically, limiting exposure in pregnant or breastfeeding individuals is also advised",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Results build over weeks to months: effects evident after about 5 to 7 weeks; regimens of at least three months and up to one year",
+     "quote": "the effects of treatment should be evident after about 5-7 weeks of consistent use. A HQ treatment regimen should be continued for at least three months and as long as one year",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Intro: used for decades; safety concerns",
+     "quote": "Topical hydroquinone (HQ) has been used for decades to treat disorders of hyperpigmentation",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "First-line treatment for other pigment problems, such as age spots and post-inflammatory hyperpigmentation after acne or trauma; table \"First-line treatment\"",
+     "quote": "HQ is the first-line treatment for several hyperpigmentation conditions, including melasma, chloasma, freckles, age spots, and post-inflammatory hyperpigmentation caused by acne or trauma",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Unwanted lightening (hypopigmentation), contact dermatitis, and darkening are known short-term side effects",
+     "quote": "Common short-term side effects include allergic or irritant contact dermatitis, hypopigmentation, and post-inflammatory hyperpigmentation",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most often used at 2 to 4 percent; conditions respond very well to 2 percent; higher concentrations effective but may cause irritation",
+     "quote": "HQ is most often used at concentrations of 2-4% []. Studies have demonstrated that hyperpigmentation conditions respond very well to 2% HQ, and while higher concentrations are effective, they may cause adverse effects such as skin irritation",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Usually applied once daily (how-to-use text and table)",
+     "quote": "For the treatment of melasma, HQ can be applied to the skin once daily at concentrations ranging from 2% to 5%",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ochronosis is the most frequent side effect with chronic use and is largely considered permanent",
+     "quote": "The most frequent side effect with chronic use is exogenous ochronosis ... Although exogenous ochronosis is largely considered permanent, dermabrasion and laser treatments have successfully resolved the condition",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "In one study, 4% hydroquinone worked faster than 0.75% kojic acid",
+     "quote": "This showed a better effect and faster onset with HQ over KA.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Used under medical supervision because of ochronosis risk (FAQ)",
+     "quote": "Thus, HQ should be used under the direction of a dermatologist or other certified medical provider. Related to its side effect profile, HQ should not be taken in excess.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "agency_page",
+   "cited_as": "U.S. Food and Drug Administration. FDA works to protect consumers from potentially harmful OTC skin lightening products. Content current as of May 1, 2026. Accessed November 15, 2026.",
+   "url": "https://www.fda.gov/drugs/drug-safety-communications/fda-works-protect-consumers-potentially-harmful-otc-skin-lightening-products",
+   "version_or_date": "Content current as of 05/01/2026 (warning letters dated April 19, 2022)",
+   "retrieved_with": "WebFetch of official FDA page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Quotes returned by WebFetch in short verbatim pieces; joined pieces marked with ellipsis or adjacency.",
+   "claims": [
+    {
+     "text": "Since the CARES Act took effect Sept 23, 2020, OTC hydroquinone skin lighteners need FDA approval before they can be sold; unapproved products had to come off the market",
+     "quote": "As a result of CARES Act, effective September 23, 2020, manufacturers and distributors of OTC skin lightening products that do not have FDA approval must remove the products from the marketplace.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "FDA treats OTC hydroquinone skin lighteners as new drugs needing an FDA-approved application",
+     "quote": "OTC skin lightening products containing hydroquinone are deemed to be new drugs and are misbranded. All OTC skin lightening products require an FDA approved new drug application before they can be legally marketed.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tri-Luma is the only FDA-approved drug containing hydroquinone (strengths section, FAQ)",
+     "quote": "Currently, Tri-Luma is the only FDA-approved drug containing hydroquinone.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ochronosis may be permanent (side effects, FAQ, citable summary)",
+     "quote": "FDA advises consumers not to use these products due to the potential harm they may cause, including ochronosis which may be permanent.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Intro: safety concerns and a 2020 change in federal law ended OTC sale",
+     "quote": "FDA has received reports of serious side effects including skin rashes, facial swelling, and ochronosis (discoloration of skin) from the use of skin lightening products containing hydroquinone.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "other_web",
+   "cited_as": "American Academy of Dermatology. Melasma: Diagnosis and treatment. Last updated February 15, 2022. Accessed November 15, 2026.",
+   "url": "https://www.aad.org/public/diseases/a-z/melasma-treatment",
+   "version_or_date": "Last updated 2/15/22",
+   "retrieved_with": "WebFetch of official AAD page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Society patient page. Title printed in the old reference as \"Melasma: Diagnosis and Treatment\"; page title is \"Melasma: Diagnosis and treatment\".",
+   "claims": [
+    {
+     "text": "Hydroquinone no longer available without a prescription in the US (takeaway, prescription section, FAQ, citable summary)",
+     "quote": "Hydroquinone is no longer available in products that you can buy without a prescription.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sunscreen is part of treatment; daily broad-spectrum SPF 30 or higher (takeaway, tables)",
+     "quote": "applying a broad-spectrum sunscreen (SPF 30 or higher) throughout the day.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sunlight causes skin to make more pigment, darkening existing melasma and causing new patches",
+     "quote": "Sunlight causes the skin to make more pigment, which can darken existing melasma and cause new patches.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Triple cream pairs hydroquinone with tretinoin, a retinoid, and a corticosteroid to reduce inflammation",
+     "quote": "This cream contains three medications — tretinoin (a retinoid), a corticosteroid to reduce inflammation, and hydroquinone to even out your skin tone.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Results over weeks to months; for melasma overall, usually 3 to 12 months",
+     "quote": "When you follow your treatment plan, it usually takes between 3 to 12 months to see results.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Azelaic acid, kojic acid and vitamin C are gentler options",
+     "quote": "Your dermatologist may prescribe a medication that's gentler on your skin like azelaic acid, kojic acid, or vitamin C.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Melasma can look like another skin condition (confirm diagnosis)",
+     "quote": "Sometimes melasma can look like another skin condition.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Daily sun protection helps keep melasma from coming back (FAQ)",
+     "quote": "Sun protection can help fade melasma and prevent it from returning",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "label",
+   "cited_as": "Galderma Laboratories, L.P. TRI-LUMA (fluocinolone acetonide, hydroquinone, tretinoin) cream 0.01%/4%/0.05%: prescribing information. Revised February 2023. DailyMed. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a35fa709-5eb5-4429-b38f-f1e0019bf0ee",
+   "version_or_date": "Revised 2/2023 (DailyMed page updated October 24, 2024)",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Sunscreen is an essential part of treatment because even minimal sunlight keeps pigment cells active",
+     "quote": "Sunscreen use is an essential aspect of melasma therapy, as even minimal sunlight sustains melanocytic activity.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tri-Luma contains hydroquinone 4 percent, fluocinolone acetonide 0.01 percent and tretinoin 0.05 percent",
+     "quote": "Active:fluocinolone acetonide 0.01% (0.1 mg), hydroquinone 4% (40 mg), and tretinoin 0.05% (0.5 mg).",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Apply a thin film once daily, at least 30 minutes before bedtime",
+     "quote": "Apply a thin film of TRI-LUMA Cream to the effected area once daily, at least 30 minutes before bedtime.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Apply to the melasma patches plus about half an inch of normal-looking skin around them",
+     "quote": "Apply TRI-LUMA Cream to the hyperpigmented areas of melasma including about 1/2 inch of normal appearing skin",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Short-term treatment, not maintenance; stopped once control is achieved (text and table)",
+     "quote": "TRI-LUMA Cream is NOT indicated for the maintenance treatment of melasma. Therapy should be discontinued when control is achieved.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "During the day, SPF 30 sunscreen and protective clothing",
+     "quote": "During the day, use a sunscreen of SPF 30, and wear protective clothing. Avoid sunlight exposure.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Approved for short-term treatment of moderate to severe melasma of the face",
+     "quote": "indicated for the short-term treatment of moderate to severe melasma of the face",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most common reactions: redness, peeling, burning, dryness, itching, acne",
+     "quote": "Most common adverse reactions (incidence > 5%) are erythema, desquamation, burning, dryness, pruritus, and acne.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Exogenous ochronosis is a gradual blue-black darkening; its appearance should prompt stopping treatment (side effects, red flags, FAQ)",
+     "quote": "which may produce exogenous ochronosis, a gradual blue-black darkening of the skin, the occurrence of which should prompt discontinuation of therapy.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Use in pregnancy only if the potential benefit justifies the potential risk to the fetus",
+     "quote": "TRI-LUMA Cream should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Some people in the triple cream trials improved as early as 4 weeks",
+     "quote": "Subjects experienced improvement of their melasma with the use of TRI-LUMA Cream as early as 4 weeks.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Melasma usually returns after the triple cream is stopped (FAQ)",
+     "quote": "Melasma usually recurs upon discontinuation of TRI-LUMA Cream.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "How often: usually once daily (table)",
+     "quote": "Apply a thin film of TRI-LUMA Cream to the effected area once daily",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ],
+   "notes": "WebFetch returned label text in short verbatim pieces; the ochronosis quote joins two adjacent pieces from Warnings 5.2."
+  },
+  {
+   "n": 6,
+   "kind": "agency_page",
+   "cited_as": "U.S. Food and Drug Administration. Skin Product Safety (Skin Facts! What You Need to Know About Skin Lightening Products). Content current as of May 11, 2026. Accessed November 15, 2026.",
+   "url": "https://www.fda.gov/consumers/skin-facts-what-you-need-know-about-skin-lightening-products/skin-product-safety",
+   "version_or_date": "Content current as of 05/11/2026",
+   "retrieved_with": "WebFetch of official FDA page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "FDA has received reports of serious side effects, including rashes, facial swelling, and permanent skin discoloration (ochronosis)",
+     "quote": "The FDA has received reports of serious side effects from the use of hydroquinone, including rashes, facial swelling, and permanent skin discoloration (ochronosis).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prescription hydroquinone products are still available from a health care provider; prescription-only in the U.S. (table, FAQ)",
+     "quote": "Skin lightening products containing hydroquinone are not approved for over-the-counter sale. However, you can get a prescription skin product containing hydroquinone from your health care provider.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "other_web",
+   "cited_as": "American Academy of Dermatology. Melasma: Overview. Last updated February 15, 2022. Accessed November 15, 2026.",
+   "url": "https://www.aad.org/public/diseases/a-z/melasma-overview",
+   "version_or_date": "Last updated 2/15/22",
+   "retrieved_with": "WebFetch of official AAD page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "AAD advises waiting until after the baby is born to treat melasma (pregnancy section, FAQ)",
+     "quote": "However, if you are pregnant, wait until you have your baby to treat melasma.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Melasma commonly returns with unprotected sun exposure (timeline, FAQ)",
+     "quote": "It's common for melasma to return when you spend time outdoors without protecting your skin from the sun.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "other_web",
+   "cited_as": "American Academy of Dermatology. Skin cancer types: Melanoma signs and symptoms. Accessed November 15, 2026.",
+   "url": "https://www.aad.org/public/diseases/skin-cancer/types/common/melanoma/symptoms",
+   "version_or_date": "No last-updated date shown (copyright 2026)",
+   "retrieved_with": "WebFetch of official AAD page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "A spot that looks different from the rest or is changing in size, shape, or color can be a sign of melanoma",
+     "quote": "The spot looks different from the rest or is changing in size, shape, or color.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

@@ -3,11 +3,11 @@
   "conditionShort": "diabetes",
   "conditionSlug": "diabetes-refills-online",
   "pageTitle": "Diabetes Online Refills in {state} | TeleDirectMD",
-  "metaDescription": "Evidence-based Type 2 diabetes oral medication refill care for {state} adults by secure video visit. Red-flag screening, metformin and oral diabetes med refill evaluation, and short bridge prescriptions when appropriate. Self pay option starting at $79. Insurance is not required.",
+  "metaDescription": "Evidence-based Type 2 diabetes oral medication refill care for {state} adults by secure video visit. Red-flag screening, metformin and oral diabetes med refill evaluation, and short bridge prescriptions when appropriate. Flat $79 self-pay option. Insurance is not required.",
   "ogImageAlt": "Diabetes medication refills in {state} by TeleDirectMD",
   "hero": {
     "h1": "Diabetes Medication Refills in {state} (Type 2 Diabetes Oral Med Refill Care)",
-    "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
+    "subtitle": "{state} adult care by secure video visit, flat $79 self-pay option, MD-only, insurance is not required.",
     "introParagraph": "Adults with Type 2 diabetes often search for online diabetes medication refills when they are running low on metformin, an SGLT2 inhibitor, a DPP-4 inhibitor, or another established oral diabetes medication, but not every refill request is safe to handle as routine telehealth. The ADA Standards of Care emphasizes that metformin remains the preferred initial pharmacologic agent for Type 2 diabetes in most patients, and that individualized glycemic targets and medication management require ongoing monitoring including A1C and home glucose readings. TeleDirectMD uses a safety-first telemedicine approach by reviewing your current oral diabetes medications, recent home glucose readings, most recent A1C if available, any episodes of hypoglycemia or hyperglycemia, recent lab work, and whether this sounds like a stable bridge refill request or poorly controlled diabetes needing escalation. If the history supports a lower-risk bridge refill of an established oral medication, treatment may be reasonable by video, while adults with signs of diabetic ketoacidosis, severe hyperglycemia, recurrent hypoglycemia, or uncontrolled diabetes are directed to urgent in-person care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
       {
@@ -32,7 +32,7 @@
       }
     ],
     "benefits": [
-      "Self pay option starting at $79",
+      "Flat $79 self-pay option",
       "MD-only care (no mid-levels)",
       "Insurance is not required",
       "Licensed telehealth care for patients located in {state} at the time of the visit"
@@ -48,7 +48,7 @@
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek urgent in-person care now for blood sugar above 400 mg/dL, symptoms of diabetic ketoacidosis (nausea, vomiting, abdominal pain, fruity breath, rapid breathing), severe hypoglycemia (confusion, loss of consciousness, seizures), or new signs of diabetic complications such as foot ulcers or sudden vision changes. TeleDirectMD does not prescribe controlled substances."
     },
     "icd10Display": "E11.9, E11.65 (final coding depends on clinical details)",
-    "quickAnswer": "Yes — adults (18+) in {state} on a stable oral Type 2 diabetes regimen can refill medication online. A board-certified MD reviews your glycemic control history by secure video and, per ADA Standards of Care, refills metformin, an SGLT2 inhibitor, DPP-4 inhibitor, or other established oral therapy sent to your pharmacy same day. Visit price: $79 flat, no insurance required. This is refill/continuation care, not new diagnosis; insulin and GLP-1 injectables like Ozempic are not prescribed. Blood sugar above 400 mg/dL or DKA symptoms need emergency care."
+    "quickAnswer": "Yes — adults (18+) in {state} on a stable oral Type 2 diabetes regimen can refill medication online. A board-certified MD reviews your glycemic control history by secure video and, per ADA Standards of Care, refills metformin, an SGLT2 inhibitor, DPP-4 inhibitor, or other established oral therapy sent to your pharmacy same day. Visit price: $79 flat, no insurance required. This is refill/continuation care, not new diagnosis. Current insulin doses can be bridge-refilled until you see your primary care physician (no dose changes; your most recent HbA1c is required). GLP-1 medications like Ozempic are not prescribed. Blood sugar above 400 mg/dL or DKA symptoms need emergency care."
   },
   "eligibility": {
     "sectionTitle": "Diabetes Medication Refill Telehealth Eligibility Checklist for {state}",
@@ -70,7 +70,7 @@
       "You have severe hypoglycemia with confusion, loss of consciousness, or seizures",
       "You have never been diagnosed with diabetes and are requesting a new diagnosis workup",
       "Your diabetes is severely uncontrolled with A1C above 10% and you need a major medication overhaul",
-      "You are requesting insulin management, GLP-1 injectable initiation, or Type 1 diabetes care",
+      "You need insulin started or your insulin dose changed, a GLP-1 medication, or Type 1 diabetes care",
       "You have new signs of diabetic complications such as foot ulcers, sudden vision changes, or rapidly declining kidney function",
       "You are pregnant or planning pregnancy and need specialized diabetes management"
     ],
@@ -82,7 +82,7 @@
       {
         "type": "check",
         "title": "Book your visit and prepare key details",
-        "description": "Before your video visit, gather your current oral diabetes medication names and doses, your recent home blood glucose readings, your most recent A1C result if available, and any recent lab work. Note whether you have experienced any episodes of low blood sugar, high blood sugar, or new symptoms since your last refill."
+        "description": "Before your video visit, gather your current oral diabetes medication names and doses, your recent home blood glucose readings, your most recent A1C result (required if you take insulin), and any recent lab work. Note whether you have experienced any episodes of low blood sugar, high blood sugar, or new symptoms since your last refill."
       },
       {
         "type": "check",
@@ -110,7 +110,7 @@
     "rows": [
       {
         "option": "TeleDirectMD",
-        "cost": "Self pay option starting at $79",
+        "cost": "Flat $79 self-pay option",
         "wait": "Same day, often within hours",
         "provider": "Board-certified MD only (no mid-levels)",
         "bestFor": "Stable Type 2 diabetes oral medication refill requests, bridge refill review for metformin and other established oral agents, and short bridge care when appropriate",
@@ -118,7 +118,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Same-day in-person evaluation when blood sugar is significantly elevated or hypoglycemia symptoms are concerning",
@@ -126,7 +126,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Diabetic ketoacidosis, severe hypoglycemia with altered consciousness, blood sugar above 400 mg/dL with symptoms, or any diabetic emergency",
@@ -134,7 +134,7 @@
       },
       {
         "option": "Primary Care or Endocrinology",
-        "cost": "$100 to $350+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks",
         "provider": "MD or DO",
         "bestFor": "Long-term diabetes management, A1C optimization, medication step-up or step-down, insulin initiation, GLP-1 injectable therapy, and comprehensive complication screening",
@@ -191,7 +191,7 @@
     "sectionTitle": "What Do Online Diabetes Medication Refills Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "$79 flat visit · no insurance required · generic metformin often $4–$15",
+    "priceSubtext": "$79 flat visit · no insurance required · prescriptions priced separately",
     "includes": [
       "MD evaluation and red-flag screening",
       "Diabetes medication and glycemic control review",
@@ -204,27 +204,9 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care or Endocrinology",
-        "value": "$100 to $350+",
-        "width": 52,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 60,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
-    "footnote": "Total cost is transparent: the $79 visit plus generic metformin or another oral diabetes medication (often $4–$15 at most pharmacies) means most patients pay about $83–$94 all-in for a stable refill — no membership, no lab draw required at every visit.",
+    "footnote": "Total cost is transparent: the visit is $79 flat, and any prescription is paid separately at the pharmacy, where prices vary by medication and pharmacy. No membership, no lab draw required at every visit.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -341,7 +323,7 @@
         "New-onset diabetes requiring full diagnostic workup, including possible Type 1, LADA, or secondary diabetes",
         "Uncontrolled diabetes with A1C above 10% needing major treatment redesign",
         "Diabetic complications including nephropathy, retinopathy, neuropathy, or non-healing foot ulcers",
-        "Insulin initiation or GLP-1 injectable therapy requiring specialist oversight"
+        "Insulin initiation, insulin dose changes, or GLP-1 therapy"
       ]
     },
     "compareCards": [
@@ -370,7 +352,7 @@
         "You are not experiencing symptoms of diabetic ketoacidosis, severe hypoglycemia, or a diabetic emergency",
         "You can describe your current medications, doses, and recent glucose patterns",
         "You have had an A1C or basic labs within a reasonable timeframe",
-        "You understand this may be bridge refill care for oral medications, not insulin initiation or GLP-1 injectable management",
+        "You understand this may be bridge refill care for oral medications or your current insulin dose, not insulin initiation, insulin dose changes, or GLP-1 medications",
         "Located in {state} at time of visit"
       ]
     },
@@ -401,12 +383,12 @@
       },
       {
         "title": "When refill care is not enough",
-        "text": "If persistently elevated blood sugar, A1C above 9% to 10%, recurrent hypoglycemia, new complications, or a need for insulin or GLP-1 injectable therapy is identified, a refill-only visit may be insufficient and comprehensive diabetes management with primary care or endocrinology is usually more appropriate."
+        "text": "If persistently elevated blood sugar, A1C above 9% to 10%, recurrent hypoglycemia, new complications, or a need to start or adjust insulin is identified, a refill-only visit may be insufficient and comprehensive diabetes management with primary care or endocrinology is usually more appropriate."
       }
     ],
     "doesNotManage": [
-      "Insulin management or insulin dose adjustment",
-      "GLP-1 injectable initiation (semaglutide, liraglutide, dulaglutide)",
+      "Insulin initiation or insulin dose adjustment",
+      "GLP-1 medications (semaglutide, liraglutide, dulaglutide)",
       "Type 1 diabetes management",
       "New diabetes diagnosis workup",
       "Diabetic ketoacidosis or hyperosmolar hyperglycemic state",
@@ -460,7 +442,7 @@
         "Bridge refill of existing combinations; dose adjustments and new combinations should be managed by primary care or endocrinology"
       ]
     ],
-    "note": "Medication selection and dosing are individualized based on A1C target, renal function, comorbidities, and side effect profile. TeleDirectMD does not prescribe controlled substances, and refill treatment online is intended as bridge care when clinically appropriate, not as a substitute for comprehensive diabetes management or emergency care."
+    "note": "Medication selection and dosing are individualized based on A1C target, renal function, comorbidities, and side effect profile. TeleDirectMD does not prescribe controlled substances, and refill treatment online is intended as bridge care when clinically appropriate, not as a substitute for comprehensive diabetes management or emergency care. Refill lab rule: a creatinine or eGFR (and A1C where available) from the last 12 months is required, either uploaded before the visit or ordered through Quest at the visit; without one, the physician may provide no more than a 30-day bridge supply while the lab is obtained."
   },
   "homeCare": {
     "sectionTitle": "Home Care, Prevention, and Follow-up",
@@ -502,7 +484,7 @@
       "items": [
         "You have blood sugar above 400 mg/dL or symptoms of diabetic ketoacidosis (nausea, vomiting, abdominal pain, fruity breath)",
         "You have severe hypoglycemia with confusion, loss of consciousness, or seizures",
-        "You need insulin management, GLP-1 injectable initiation, or Type 1 diabetes care",
+        "You need insulin started or your insulin dose changed, a GLP-1 medication, or Type 1 diabetes care",
         "You have never been diagnosed with diabetes and need a new diagnosis workup",
         "Your diabetes is severely uncontrolled and you need a comprehensive medication overhaul",
         "You have new signs of diabetic complications such as foot ulcers, sudden vision loss, or rapidly declining kidney function",
@@ -538,7 +520,7 @@
       },
       {
         "question": "How much does an online diabetes medication refill visit cost in {state}?",
-        "answer": "TeleDirectMD offers a transparent self pay option starting at $79 for an adult video visit in {state}. Insurance is not required. Prescription costs are separate and vary by medication and pharmacy."
+        "answer": "TeleDirectMD offers a transparent flat $79 self-pay option for an adult video visit in {state}. Insurance is not required. Prescription costs are separate and vary by medication and pharmacy."
       },
       {
         "question": "Can I refill my metformin online?",
@@ -549,8 +531,8 @@
         "answer": "Sometimes, yes. If this is part of your established regimen and your glycemic control is reasonably stable, a bridge refill may be appropriate. These medications require monitoring for side effects and periodic lab work, so primary care follow-up should remain part of your ongoing care plan."
       },
       {
-        "question": "Can TeleDirectMD prescribe insulin or GLP-1 injectables like Ozempic?",
-        "answer": "No. TeleDirectMD focuses on oral diabetes medication refills for stable Type 2 diabetes. Insulin management, GLP-1 injectable initiation (such as semaglutide or liraglutide), and Type 1 diabetes care require in-person oversight and are not managed through this service."
+        "question": "Can TeleDirectMD refill insulin or prescribe GLP-1 injectables like Ozempic?",
+        "answer": "Dr. Bhavsar can refill your current insulin at the same dose as a bridge until you see your primary care physician. Insulin is not started or adjusted through TeleDirectMD, and you must provide your most recent HbA1c result. TeleDirectMD does not prescribe GLP-1 medications such as semaglutide (Ozempic) or liraglutide. Type 1 diabetes care stays with your endocrinologist."
       },
       {
         "question": "What signs suggest my diabetes is too unstable for a routine refill visit?",
@@ -586,7 +568,7 @@
       },
       {
         "question": "Can TeleDirectMD refill insulin or Ozempic (GLP-1 injectables) online in {state}?",
-        "answer": "No — TeleDirectMD's diabetes refill service covers oral medications like metformin, SGLT2 inhibitors, and DPP-4 inhibitors only. Insulin and GLP-1 injectables require closer monitoring and are not part of this telehealth refill service."
+        "answer": "Insulin, yes, as a bridge: Dr. Bhavsar can refill your current insulin at the same dose as a bridge until you see your primary care physician. Insulin is not started or adjusted through TeleDirectMD, and you must provide your most recent HbA1c result. Ozempic and other GLP-1 medications, no. TeleDirectMD does not prescribe them."
       }
     ],
     "bottomCta": {
@@ -620,8 +602,7 @@
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
       "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate diabetes medication refill concerns, provide evidence-based guidance, and prescribe short bridge refill treatment of established oral diabetes medications when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
-      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during a diabetic emergency such as diabetic ketoacidosis or severe hypoglycemia. This service is intended for selected stable oral medication refill requests and is not a substitute for comprehensive long-term diabetes management, insulin therapy, GLP-1 injectable initiation, or Type 1 diabetes care.",
-      "Online diabetes medication refills in {state}. Metformin refill online. Type 2 diabetes oral medication bridge refill care. Diabetes telehealth care in {state}."
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during a diabetic emergency such as diabetic ketoacidosis or severe hypoglycemia. This service is intended for selected stable oral medication refills and current-dose insulin bridge refills, and is not a substitute for comprehensive long-term diabetes management, insulin initiation or dose adjustment, GLP-1 therapy, or Type 1 diabetes care."
     ]
   },
   "relatedConditions": [
@@ -824,5 +805,9 @@
     "webpageDescription": "{state} diabetes medication refill treatment by secure MD video visit for adults. Evidence-based oral diabetes medication refill care, red-flag screening, short bridge refills when appropriate, and clear rules for when urgent in-person care or endocrinology referral is needed."
   },
   "guidelineSource": "ada",
-  "conditionType": "refill"
+  "conditionType": "refill",
+  "guideLink": {
+    "label": "Type 2 Diabetes Medication Guide",
+    "url": "/health-guides/type-2-diabetes-medication-guide/"
+  }
 }

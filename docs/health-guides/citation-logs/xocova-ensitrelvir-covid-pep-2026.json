@@ -1,0 +1,609 @@
+{
+  "guide": "xocova-ensitrelvir-covid-pep-2026",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 6 verified (5 journal DOIs cited plus former ref 4 SCORPIO-SR, now removed), retractions: none. PubMed article types checked: no Retracted Publication or Retraction Notice. Scite flagged one contrasting citation for ref 6 (preprint 10.1101/2025.09.30.679586, Mpro G23del resistance); see ref 6 notes.",
+  "references": [
+    {
+      "n": 1,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. Novel Drug Approvals for 2026 (row: Xocova, ensitrelvir, approved 5/29/2026). Content current as of November 9, 2026.",
+      "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+      "retrieved_with": "WebFetch of official page",
+      "version_or_date": "Content current as of 11/09/2026",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Row 19. FDA page does not say 'first'; 'first and only oral option' wording is attributed to Shionogi [3]. FDA use text is about 128 characters; quote assembled from the row fields.",
+      "claims": [
+        {
+          "text": "FDA approved Xocova (ensitrelvir) on May 29, 2026 for post-exposure prophylaxis of COVID-19 after contact with someone who has COVID-19",
+          "quote": "Xocova | ensitrelvir | 5/29/2026 | To use as post-exposure prophylaxis of coronavirus disease 2019 (COVID-19) following contact with an individual who has COVID-19",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "As of Nov 15, 2026 the FDA 2026 approvals page (content current as of Nov 9, 2026) still lists the approval",
+          "quote": "Content current as of: 11/09/2026",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Bottom line: FDA approval of an oral PEP option fills a gap (approval fact only)",
+          "quote": "5/29/2026 ... post-exposure prophylaxis of coronavirus disease 2019 (COVID-19)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Hayden FG, Shinkai M, Clark TW, et al. Ensitrelvir for Covid-19 Postexposure Prophylaxis in Household Contacts. N Engl J Med. 2026;394(19):1905-1915.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42127390/",
+      "pmid": "42127390",
+      "doi": "10.1056/NEJMoa2509306",
+      "record_title": "Ensitrelvir for Covid-19 Postexposure Prophylaxis in Household Contacts.",
+      "record_journal": "N Engl J Med",
+      "record_year": "2026",
+      "article_type": "Clinical Trial, Phase III; Randomized Controlled Trial; Multicenter Study",
+      "retrieved_with": "PubMed get_article_metadata (abstract only; no PMC full text)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Abstract only. P value corrected from p<0.0001 to P<0.001. 76% high-risk subgroup, 'consistent regardless of vaccination', and 'only Phase 3 to meet endpoint' not in abstract or other retrieved sources; cut.",
+      "claims": [
+        {
+          "text": "COVID-19 in 2.9% ensitrelvir vs 9.0% placebo; risk ratio 0.33; 95% CI 0.22 to 0.49; P<0.001",
+          "quote": "The incidence of Covid-19 was lower in the ensitrelvir group than in the placebo group (2.9% vs. 9.0%; risk ratio, 0.33; 95% confidence interval [CI], 0.22 to 0.49; P<0.001).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Treatment started within 72 hours of the index patient's symptom onset",
+          "quote": "to receive either ensitrelvir (375 mg on day 1 and 125 mg daily on days 2 through 5) or placebo within 72 hours after symptom onset in the index patient",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Double-blind, randomized, placebo-controlled trial",
+          "quote": "In this double-blind, randomized, placebo-controlled trial, we randomly assigned persons who were SARS-CoV-2-negative on local diagnostic testing but were household contacts",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Primary endpoint: central lab-confirmed RT-PCR plus at least 1 of 14 symptoms lasting 48 hours or more, by day 10",
+          "quote": "The primary end point was Covid-19 (defined by a central laboratory-confirmed positive reverse-transcriptase-polymerase-chain-reaction assay and the presence of ≥1 of 14 prespecified Covid-19 symptoms lasting ≥48 hours) by day 10",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Primary analysis population confirmed negative by central laboratory RT-PCR at baseline",
+          "quote": "had a central laboratory-confirmed negative RT-PCR test for SARS-CoV-2 at baseline, and received at least one dose of the trial drug or placebo",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "About 37% had at least one risk factor for severe COVID-19",
+          "quote": "37.0% had at least one risk factor for severe Covid-19",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Adverse events 15.1% vs 15.5%; serious adverse events 0.2% in each group",
+          "quote": "The incidence of adverse events during the trial was similar in the two groups (15.1% in the ensitrelvir group and 15.5% in the placebo group), as was the incidence of serious adverse events (0.2% in each group).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "No COVID-19-related hospitalizations or deaths were reported",
+          "quote": "No Covid-19-related hospitalizations or deaths were reported.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Before ensitrelvir, no antiviral agents were approved for PEP in household contacts",
+          "quote": "Previously, no antiviral agents were approved for postexposure prophylaxis in household contacts of patients with Covid-19.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Published in NEJM; COVID-19 rate cut from 9.0% to 2.9%",
+          "quote": "(2.9% vs. 9.0%; risk ratio, 0.33",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "other_web",
+      "cited_as": "Shionogi & Co., Ltd. (Corrections) Shionogi Announces FDA Approval of XOCOVA (ensitrelvir), the First and Only Oral Option to Help Prevent COVID-19 Following Exposure. Press release, June 1, 2026.",
+      "url": "https://www.shionogi.com/global/en/news/2026/06/20260601,2.html",
+      "retrieved_with": "WebFetch of official company page",
+      "version_or_date": "June 1, 2026 (corrected release; page last modified June 2, 2026)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Company press release; used for company-reported facts and attributed as such. Does not mention Fast Track (claim cut), food, or high-risk subgroup.",
+      "claims": [
+        {
+          "text": "Shionogi describes Xocova as the first and only oral option to help prevent COVID-19 after exposure",
+          "quote": "This approval introduces the first and only oral option to help prevent COVID-19 after exposure",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "67% relative reduction in symptomatic COVID-19",
+          "quote": "XOCOVA significantly reduced the risk of symptomatic COVID-19 by 67% in uninfected individuals",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Created through joint research between Hokkaido University and Shionogi",
+          "quote": "XOCOVA® (ensitrelvir) is a SARS-CoV-2 main protease inhibitor created through joint research between Hokkaido University and Shionogi.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "SCORPIO-PEP was a global double-blind randomized placebo-controlled Phase 3 trial",
+          "quote": "global, double-blind, randomized, placebo-controlled Phase 3 study, SCORPIO-PEP",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "2,387 participants aged 12+ with negative local screening test, no symptoms, household member with symptomatic COVID-19",
+          "quote": "The study included 2,387 study participants aged 12 years and older with a negative local screening test for SARS-CoV-2 infection and no symptoms at the time of enrollment",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Trial ran June 2023 to September 2024",
+          "quote": "The trial was conducted from June 2023–September 2024.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "More than 99% had antibodies to N or S protein, prior infection, vaccination or both",
+          "quote": "More than 99% of household contacts tested positive for antibodies against SARS-CoV-2 N (nucleocapsid) or S (spike) proteins, indicating that nearly all had evidence of previous SARS-CoV-2 infection or vaccination, or both.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Randomized 1:1, once daily, started within 72 hours of household member's symptom onset; 1,030 vs 1,011",
+          "quote": "Study participants were randomly assigned at a 1:1 ratio to receive XOCOVA (375 mg on day 1 and 125 mg on days 2-5) or placebo, once daily, and began treatment within 72 hours of when the household member with COVID-19 began showing symptoms.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Japan emergency approval November 2022 and full approval March 2024, for treatment",
+          "quote": "XOCOVA received emergency regulatory approval in Japan in November 2022 and full approval in March 2024 for the treatment of COVID-19",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Approved ahead of the PDUFA action date of June 16, 2026",
+          "quote": "The approval occurred ahead of the Prescription Drug User Fee Act (PDUFA) action date of June 16, 2026.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "No reports of altered taste (dysgeusia) attributed to Xocova in the trial",
+          "quote": "There were no reports of altered taste (dysgeusia) attributed to XOCOVA in the trial.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "label",
+      "cited_as": "XOCOVA (ensitrelvir) tablets, prescribing information. NDA 220442. Revised 05/2026. Drugs@FDA.",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220442Orig1s000lbl.pdf",
+      "retrieved_with": "WebFetch of FDA label PDF (curl blocked by proxy; WebFetch succeeded)",
+      "version_or_date": "Revised: 05/2026",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference (replaces former ref 4, SCORPIO-SR, which no claim cited). Label anchors the 72-hour window to 'contact', not index-case symptom onset; page corrected. Label does not mention ritonavir or dysgeusia.",
+      "claims": [
+        {
+          "text": "Indication: PEP of COVID-19 in adults and adolescents 12 and older following contact with someone who has COVID-19",
+          "quote": "post-exposure prophylaxis of coronavirus disease 2019 (COVID-19) in adults and adolescents 12 years of age and older",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dose: 375 mg (three 125 mg tablets together) day 1, then 125 mg days 2 to 5, with or without food",
+          "quote": "375 mg (three 125-mg tablets taken together) orally on Day 1 ... 125 mg (one 125-mg tablet) orally on Days 2 to 5 ... with or without food",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Begin as soon as possible and within 72 hours following contact with someone who has COVID-19",
+          "quote": "Begin XOCOVA as soon as possible and within 72 hours following contact with an individual who has COVID-19.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Strong CYP3A inhibitor and inhibitor of P-gp and BCRP",
+          "quote": "XOCOVA is a strong CYP3A inhibitor and an inhibitor of P-gp and BCRP.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Terminal half-life about 42 to 48 hours",
+          "quote": "Terminal Half-Life (hours) 42.2 to 48.1 hours",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Contraindicated with medicines including simvastatin, colchicine, rifampin, carbamazepine, St. John's wort and triazolam",
+          "quote": "Table 1: Quinidine; apalutamide; enzalutamide; carbamazepine; phenytoin; colchicine; rifampin; lurasidone; pimozide; ... St. John's wort; simvastatin; voclosporin; lomitapide; finerenone; triazolam",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Taken after exposure before symptoms (trial in asymptomatic people without infection)",
+          "quote": "in asymptomatic standard- or high-risk adult and adolescent subjects considered not to have SARS-CoV-2 infection",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Primary analysis 2,041 (1,030 and 1,011); 2,387 randomized",
+          "quote": "A total of 2,387 subjects were randomized to receive either XOCOVA or placebo.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "More than 99% seropositive; prior vaccination or infection does not exclude",
+          "quote": "more than 99% had a seropositive SARS-CoV-2 antibody test at screening",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Results consistent regardless of risk factors",
+          "quote": "Results were consistent regardless of risk factors.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most common adverse reactions headache 2.9 vs 2.6, diarrhea 1.7 vs 1.3, cough 1.1 vs 0.6",
+          "quote": "headache (2.9% and 2.6%, respectively), diarrhea (1.7% and 1.3%, respectively), and cough (1.1% and 0.6%, respectively)",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "May cause fetal harm; verify pregnancy status; effective contraception during use and 2 weeks after final dose",
+          "quote": "Verify pregnancy status of females of reproductive potential prior to initiating XOCOVA. ... use effective contraception during XOCOVA use and for 2 weeks after the final dose",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hypersensitivity reactions including anaphylaxis reported",
+          "quote": "Hypersensitivity reactions, including anaphylaxis, anaphylactic shock, and angioedema, have been reported with XOCOVA.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "CYP3A interactions may require temporary changes to other medications",
+          "quote": "re-initiation of contraindicated CYP3A substrates should be considered based on an assessment of the duration of CYP3A inhibition and patient-specific considerations",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "U.S. approval covers PEP only (indication section lists only PEP; label does not explicitly say treatment is not approved)",
+          "quote": "post-exposure prophylaxis of coronavirus disease 2019 (COVID-19) in adults and adolescents 12 years of age and older",
+          "quote_source": "label",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Luetkemeyer AF, Chew KW, Lacey S, et al. Ensitrelvir for the Treatment of Nonhospitalized Adults with COVID-19: Results from the SCORPIO-HR, Phase 3, Randomized, Double-blind, Placebo-Controlled Trial. Clin Infect Dis. 2025;80(6):1235-1244.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39960062/",
+      "pmid": "39960062",
+      "pmcid": "PMC12272848",
+      "doi": "10.1093/cid/ciaf029",
+      "record_title": "Ensitrelvir for the Treatment of Nonhospitalized Adults with COVID-19: Results from the SCORPIO-HR, Phase 3, Randomized, Double-blind, Placebo-Controlled Trial.",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2025",
+      "article_type": "Clinical Trial, Phase III; Randomized Controlled Trial; Multicenter Study",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Previously listed but uncited; now cited for one sentence on treatment evidence.",
+      "claims": [
+        {
+          "text": "In the global SCORPIO-HR treatment trial, ensitrelvir did not significantly shorten time to sustained symptom resolution",
+          "quote": "Despite the evidence of antiviral activity with ensitrelvir, this trial did not demonstrate a significant difference in time to sustained symptom resolution.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "journal",
+      "cited_as": "Lin M, Zeng X, Duan Y, et al. Molecular mechanism of ensitrelvir inhibiting SARS-CoV-2 main protease and its variants. Commun Biol. 2023;6(1):694.",
+      "url": "https://www.nature.com/articles/s42003-023-05071-y",
+      "pmid": "37407698",
+      "pmcid": "PMC10322880",
+      "doi": "10.1038/s42003-023-05071-y",
+      "record_title": "Molecular mechanism of ensitrelvir inhibiting SARS-CoV-2 main protease and its variants.",
+      "record_journal": "Commun Biol",
+      "record_year": "2023",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC10322880)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Authors and article number corrected (was 'Unoh Y, Uehara S ... 6:677'). Scite flags one contrasting citation: a 2025 preprint (10.1101/2025.09.30.679586) reports an Mpro G23del mutation that abolishes ensitrelvir but not nirmatrelvir binding. Page wording limited to the variants of concern tested in this 2023 study.",
+      "claims": [
+        {
+          "text": "Main protease cuts viral polyproteins needed for replication",
+          "quote": "During the proteolytic process of pp1a and pp1ab, Mpro is indispensable and cleaves polyproteins at no less than 11 conserved sites.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "First noncovalent, nonpeptide oral Mpro inhibitor",
+          "quote": "ensitrelvir is the first noncovalent and nonpeptide oral inhibitor targeting the main protease (Mpro) of SARS-CoV-2",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hydrogen-bond network in substrate pocket vs covalent nirmatrelvir",
+          "quote": "relies on the stability of the hydrogen bonding network in the substrate-binding pocket, unlike the covalent inhibition mechanism of nirmatrelvir",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "IC50 0.049 µM ensitrelvir vs 0.044 µM nirmatrelvir",
+          "quote": "The results showed that IC50 of nirmatrelvir against WT was 0.044 μM while IC50 of ensitrelvir against WT was 0.049 μM",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Both effective against main protease enzymes from all five variants of concern tested",
+          "quote": "both of them remain to be effective against Mpros from all five SARS-CoV-2 variants of concern",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Ensitrelvir does not need a booster such as ritonavir",
+          "quote": "Unlike nirmatrelvir, ensitrelvir does not need pharmaceutical boosters such as ritonavir",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "other_web",
+      "cited_as": "COVID-19 Drug Interactions Group, University of Liverpool. Site news item on ensitrelvir interactions, March 1, 2023.",
+      "url": "https://www.covid19-druginteractions.org/site_news/43",
+      "retrieved_with": "WebFetch of official page",
+      "version_or_date": "Wednesday 01 March 2023",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Page does not mention ritonavir; no-booster claim now cited to ref 6 and label.",
+      "claims": [
+        {
+          "text": "Ensitrelvir is a strong CYP3A inhibitor",
+          "quote": "Ensitrelvir is considered to be a strong inhibitor of CYP3A4",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Inhibitory effect predicted to mostly disappear about 10 days after the last dose",
+          "quote": "its inhibitory effect is predicted to mostly disappear ~10 days after the last dose",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "journal",
+      "cited_as": "Miyata Y, Yamaguchi R, Yamamoto T, et al. Drug-drug interaction between ensitrelvir and tacrolimus in a patient undergoing treatment for COVID-19: a case report. J Pharm Health Care Sci. 2025;11(1):3.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11756168/",
+      "pmid": "39844338",
+      "pmcid": "PMC11756168",
+      "doi": "10.1186/s40780-025-00411-y",
+      "record_title": "Drug-drug interaction between ensitrelvir and tacrolimus in a patient undergoing treatment for COVID-19: a case report.",
+      "record_journal": "J Pharm Health Care Sci",
+      "record_year": "2025",
+      "article_type": "Journal Article (case report)",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Case report; worded as a case report on the page. Half-life figure moved to label [4] (42.2 to 48.1 h; old page said 48 to 51 h, unsourced).",
+      "claims": [
+        {
+          "text": "In a case report, ensitrelvir's effect on tacrolimus gradually diminished over 7 to 10 days",
+          "quote": "This DDI extended the half-life of TAC by approximately 3.4-fold, an effect that gradually diminished over 7 to 10 days.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "journal",
+      "cited_as": "Dhibar DP, Arora N, Chaudhary D, et al. The 'myth of Hydroxychloroquine (HCQ) as post-exposure prophylaxis (PEP) for the prevention of COVID-19' is far from reality. Sci Rep. 2023;13(1):378.",
+      "url": "https://www.nature.com/articles/s41598-022-26053-w",
+      "pmid": "36611040",
+      "pmcid": "PMC9825075",
+      "doi": "10.1038/s41598-022-26053-w",
+      "record_title": "The 'myth of Hydroxychloroquine (HCQ) as post-exposure prophylaxis (PEP) for the prevention of COVID-19' is far from reality.",
+      "record_journal": "Sci Rep",
+      "record_year": "2023",
+      "article_type": "Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Corrected from 'Saraswat A, 2022, systematic review and meta-analysis' to the actual single RCT. 'Failed across multiple trials' and 'meta-analysis' wording removed.",
+      "claims": [
+        {
+          "text": "Double-blind RCT in asymptomatic contacts; COVID-19 4.2% vs 4.5% (did not prevent COVID-19)",
+          "quote": "The incidence of COVID-19 was similar (p = 0.761) in PEP [N = 24 out of 574, (4.2%)] and control [N = 27 out of 594, (4.5%)] groups.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Relative risk 0.91 (95% CI 0.52 to 1.60); NNT 333",
+          "quote": "with an overall relative risk of 0.91 (95% confidence interval, 0.52 to 1.60) and the number needed to treat (NNT) was 333",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "No benefit shown as PEP in this trial",
+          "quote": "PEP with HCQ was not advantageous for the prevention of COVID-19 in asymptomatic individuals with high risk for SARS-CoV-2 infection",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. FDA authorizes REGEN-COV monoclonal antibody therapy for post-exposure prophylaxis (prevention) for COVID-19.",
+      "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-authorizes-regen-cov-monoclonal-antibody-therapy-post-exposure-prophylaxis-prevention-covid-19",
+      "retrieved_with": "WebFetch of official page",
+      "version_or_date": "Content current as of 12/23/2024",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Page does not mention variants; variant restriction now cited to ref 11. Page gives no revocation date.",
+      "claims": [
+        {
+          "text": "REGEN-COV authorized for PEP, given by IV infusion or subcutaneous injection",
+          "quote": "either intravenous infusion or subcutaneous injection is appropriate",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "81% reduction in symptomatic COVID-19 in the primary analysis population",
+          "quote": "An 81% reduction in confirmed symptomatic COVID-19 cases was observed",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FDA has revoked the REGEN-COV Emergency Use Authorization",
+          "quote": "FDA has revoked the Emergency Use Authorization for REGEN-COV.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. Letter to Regeneron Pharmaceuticals, Inc., re: Emergency Use Authorization 091 (REGEN-COV), January 24, 2022.",
+      "url": "https://www.fda.gov/media/145610/download",
+      "retrieved_with": "WebFetch of official FDA document",
+      "version_or_date": "January 24, 2022",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference supporting the variant-related restriction (old ref 10 did not).",
+      "claims": [
+        {
+          "text": "In January 2022 FDA stopped authorizing REGEN-COV PEP where exposure was likely due to a non-susceptible variant",
+          "quote": "REGEN-COV is not authorized for post-exposure prophylaxis of COVID-19 in geographic regions where exposure is likely ... infection or exposure is likely due to a variant that is non-susceptible to REGEN-COV.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "label",
+      "cited_as": "PAXLOVID (nirmatrelvir tablets; ritonavir tablets), co-packaged, prescribing information. Revised 01/2025.",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/217188s008lbl.pdf",
+      "retrieved_with": "WebFetch of FDA label PDF",
+      "version_or_date": "Revised: 01/2025",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference. Newer Paxlovid label revisions may exist; this is the version retrieved.",
+      "claims": [
+        {
+          "text": "Paxlovid is nirmatrelvir co-packaged with ritonavir, a CYP3A inhibitor that raises nirmatrelvir levels",
+          "quote": "ritonavir is an HIV-1 protease inhibitor and CYP3A inhibitor ... inhibits the CYP3A-mediated metabolism of nirmatrelvir, resulting in increased plasma concentrations of nirmatrelvir",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dysgeusia among most common Paxlovid adverse reactions, 5% vs <1%",
+          "quote": "dysgeusia (5% and <1%, respectively) and diarrhea (3% and 2%, respectively)",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Paxlovid not approved for pre- or post-exposure prophylaxis",
+          "quote": "PAXLOVID is not approved for use as pre-exposure or post-exposure prophylaxis for prevention of COVID-19.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. FDA Approves First Oral Antiviral for Treatment of COVID-19 in Adults. Press release, May 25, 2023.",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-antiviral-treatment-covid-19-adults",
+      "retrieved_with": "WebFetch of official page",
+      "version_or_date": "May 25, 2023",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference. Replaces unsourced '~89%' with FDA's 86% figure; unsourced 'vaccinated/lower-risk effect smaller' cut.",
+      "claims": [
+        {
+          "text": "Paxlovid FDA approved for treatment in May 2023",
+          "quote": "mild-to-moderate COVID-19 in adults who are at high risk for progression to severe COVID-19",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "EPIC-HR: 86% reduction in COVID-19-related hospitalization or death through day 28, treated within 5 days",
+          "quote": "significantly reduced the proportion of people with COVID-19 related hospitalization or death from any cause through 28 days of follow-up by 86%",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "EPIC-HR population unvaccinated",
+          "quote": "All patients had not received a COVID-19 vaccine and had not been previously infected with COVID-19",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Underlying Conditions and the Higher Risk for Severe COVID-19.",
+      "url": "https://www.cdc.gov/covid/hcp/clinical-care/underlying-conditions.html",
+      "retrieved_with": "WebFetch of official page",
+      "version_or_date": "Page dated Oct. 8, 2026 (last_reviewed metadata July 30, 2024)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference for the high-risk group list (previously uncited).",
+      "claims": [
+        {
+          "text": "Age is the strongest risk factor; risk rises from 50 and substantially above 65",
+          "quote": "Age remains the strongest risk factor for severe COVID-19 outcomes ... in people who are 50 years and older, with risk increasing substantially at ages >65 years.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Higher-risk conditions include transplant, immunosuppressive medicines, cancer, HIV, diabetes, chronic lung disease, CKD, heart conditions such as heart failure",
+          "quote": "Solid organ or blood stem cell transplantation ... Use of corticosteroids or other immunosuppressive medications ... Heart conditions (such as heart failure, coronary artery disease, or cardiomyopathies)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Being unvaccinated or not up to date raises risk",
+          "quote": "being unvaccinated or not being up to date on COVID-19 vaccinations also increases the risk of severe COVID-19 outcomes",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

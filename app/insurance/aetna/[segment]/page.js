@@ -4,10 +4,11 @@ import InsuranceConditionClient from '../../components/InsuranceConditionClient'
 
 const insurer = INSURERS.aetna;
 
-// All valid aetna state slugs
+// All valid aetna state slugs — keep in sync with INSURERS.aetna.states in data/insurance/insuranceConfig.js
 const STATE_SLUGS = {
   arizona:"AZ", california:"CA", colorado:"CO", florida:"FL", georgia:"GA", illinois:"IL",
-  michigan:"MI", minnesota:"MN", ohio:"OH", pennsylvania:"PA", tennessee:"TN"
+  louisiana:"LA", michigan:"MI", minnesota:"MN", "north-carolina":"NC",
+  ohio:"OH", pennsylvania:"PA", tennessee:"TN", washington:"WA"
 };
 const CONDITION_SLUGS = Object.keys(INSURANCE_CONDITIONS);
 
@@ -23,7 +24,7 @@ export async function generateMetadata({ params }) {
     const stateName = STATE_NAMES[STATE_SLUGS[segment]];
     return {
       title: `Online Doctor That Accepts Aetna in ${stateName} | TeleDirectMD`,
-      description: `TeleDirectMD is in-network with Aetna in ${stateName}. Board-certified physician. Same-day video visits for UTI, sinus infection, asthma refills & more. Your Aetna copay applies.`,
+      description: `TeleDirectMD is in-network with Aetna in ${stateName}. Board-certified physician. Same-day video visits for UTI (women only), sinus infection, asthma refills & more. Your Aetna copay applies.`,
       alternates: { canonical: `https://teledirectmd.com/insurance/aetna/${segment}` },
       openGraph: { title: `Online Doctor That Accepts Aetna in ${stateName} | TeleDirectMD`, url: `https://teledirectmd.com/insurance/aetna/${segment}`, siteName:'TeleDirectMD', type:'website' },
     };
@@ -32,7 +33,7 @@ export async function generateMetadata({ params }) {
   if (cond) {
     return {
       title: `Does Aetna Cover ${cond.displayName} Telemedicine? | TeleDirectMD`,
-      description: `Yes — Aetna commercial plans cover ${cond.name} telehealth visits. TeleDirectMD is in-network with Aetna in 13 states. Board-certified physician. Same-day video visits.`,
+      description: `Yes — Aetna commercial plans cover ${cond.name} telehealth visits. TeleDirectMD is in-network with Aetna in 14 states. Board-certified physician. Same-day video visits.`,
       alternates: { canonical: `https://teledirectmd.com/insurance/aetna/${segment}` },
       openGraph: { title: `Does Aetna Cover ${cond.displayName} Telemedicine? | TeleDirectMD`, url: `https://teledirectmd.com/insurance/aetna/${segment}`, siteName:'TeleDirectMD', type:'website' },
     };

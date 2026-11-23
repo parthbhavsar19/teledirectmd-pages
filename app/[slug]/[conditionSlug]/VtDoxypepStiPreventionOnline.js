@@ -12,6 +12,7 @@
  *   • Parth Bhavsar, MD · Family Medicine · Vermont-licensed.
  */
 
+import { stateConditionHref } from '../../../lib/live-routes';
 import FaqAccordion from '../../components/FaqAccordion';
 import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock } from '../../components/CostCompareModules';
 
@@ -31,11 +32,11 @@ const PHYSICIAN = {
   licenseState: 'Vermont',
   licenseNumber: '042.0040345-COMP',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 const MEDICATIONS = [
-  { name: "Doxycycline 100 mg (taken as 200 mg per dose)", regimen: "200 mg by mouth, once, within 72 hours of sex (max 200 mg/24h)", price: "~$10–$25 / supply GoodRx (generic)", priceHref: "https://www.goodrx.com/doxycycline", firstLine: true, notes: "CDC DoxyPEP regimen. Take as soon as possible after sex — ideally within 24 hours, no later than 72. Separate from antacids, calcium, and dairy by ~2 hours." }
+  { name: "Doxycycline 100 mg (taken as 200 mg per dose)", regimen: "200 mg by mouth, once, within 72 hours of sex (max 200 mg/24h)", price: "~$10–$25 / supply GoodRx (generic)", priceHref: "https://www.goodrx.com/doxycycline-hyclate", firstLine: true, notes: "CDC DoxyPEP regimen. Take as soon as possible after sex — ideally within 24 hours, no later than 72. Separate from antacids, calcium, and dairy by ~2 hours." }
 ];
 
 const FAQ_ITEMS = [
@@ -53,14 +54,13 @@ const VT_SIBLINGS = [
   { slug: "chlamydia-treatment-online", label: "Chlamydia Treatment in VT", why: "If you have an active infection, treat it first — DoxyPEP prevents future ones." },
   { slug: "bv-treatment-online", label: "BV (Bacterial Vaginosis) Treatment in VT", why: "Part of the same sexual-health cluster." },
   { slug: "yeast-infection-treatment-online", label: "Yeast Infection Treatment in VT", why: "Sexual-health adjacent condition we treat by telehealth." },
-  { slug: "uti-treatment-online", label: "UTI Treatment in VT", why: "Genitourinary symptom overlap in the same population." },
+  { slug: "uti-treatment-online", label: "UTI Treatment for Women in VT", why: "Genitourinary symptom overlap in the same population." },
   { slug: "birth-control-refills-online", label: "Birth Control Refills in VT", why: "Sexual-health adjacent — managed by the same physician." },
-  { slug: "online-doctor-visits", label: "All Online Doctor Visits in VT", why: "General VT telehealth hub for any condition we treat." }
 ];
 
 const REFERENCES = [
   { t: "CDC — Clinical Guidelines on Doxycycline Postexposure Prophylaxis (MMWR, June 6, 2024)", u: "https://www.cdc.gov/mmwr/volumes/73/rr/rr7302a1.htm" },
-  { t: "Luetkemeyer AF et al. — Doxycycline PEP for STI Prevention (DoxyPEP trial, Ann Intern Med 2023)", u: "https://pubmed.ncbi.nlm.nih.gov/37018288/" },
+  { t: "Luetkemeyer AF et al. — Postexposure Doxycycline to Prevent Bacterial Sexually Transmitted Infections (DoxyPEP trial, N Engl J Med 2023)", u: "https://pubmed.ncbi.nlm.nih.gov/37018493/" },
   { t: "ASHA — New CDC Guidelines for Doxy PEP", u: "https://www.ashasexualhealth.org/new-cdc-guidelines-offer-recommendations-on-doxy-pep/" },
   { t: "Vermont Department of Health — Sexually Transmitted Infections", u: "https://www.healthvermont.gov/disease-control/sexually-transmitted-infections" }
 ];
@@ -93,7 +93,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -247,7 +247,7 @@ export default function VtDoxypepStiPreventionOnline() {
                       Reviewed by <a href={PHYSICIAN.bioUrl}>{PHYSICIAN.name}</a> — Board-Certified {PHYSICIAN.specialty}
                     </span>
                     <span className="vt-doxypep-sti-prevention-online__byline-meta">
-                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
+                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
                       <time dateTime={DATE_MODIFIED}>{new Date(DATE_MODIFIED).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
                     </span>
                   </div>
@@ -271,9 +271,9 @@ export default function VtDoxypepStiPreventionOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/vt/" className="tdmd-btn tdmd-btn-outline">Explore Vermont Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> Z29.8 (Encounter for other specified prophylactic measures) — final coding depends on clinical details</p>
@@ -352,7 +352,7 @@ export default function VtDoxypepStiPreventionOnline() {
 
             <h3>What standard of care applies to Vermont telehealth physicians?</h3>
             <p>
-              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: the standard of care is the same whether a patient is seen in person or by telehealth. Physicians must be licensed in Vermont to treat Vermont patients — a requirement TeleDirectMD satisfies. Dr. Bhavsar is a Vermont-licensed, board-certified physician of the American Board of Family Medicine and holds Vermont Medical License #042.0040345-COMP issued by the Vermont Board of Medical Practice. <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">Verify license</a> · <a href="/about/">Dr. Bhavsar bio</a>.
+              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: the standard of care is the same whether a patient is seen in person or by telehealth. Physicians must be licensed in Vermont to treat Vermont patients — a requirement TeleDirectMD satisfies. Dr. Bhavsar is a Vermont-licensed, board-certified physician of the American Board of Family Medicine and holds Vermont Medical License #042.0040345-COMP issued by the Vermont Board of Medical Practice. <a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">Verify license</a> · <a href="/about/">Dr. Bhavsar bio</a>.
             </p>
 
             <h3>Are these medications controlled substances under Vermont law?</h3>
@@ -387,7 +387,7 @@ export default function VtDoxypepStiPreventionOnline() {
                   <h3>Get a plan and, if appropriate, an e-prescription</h3>
                   <p>If medication is clinically appropriate, a Vermont-compliant e-prescription is sent to your chosen Vermont pharmacy — CVS, Walgreens, Rite Aid, Walmart, or another pharmacy — during or after the visit. You receive clear follow-up steps, including when to seek in-person care.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -415,25 +415,6 @@ export default function VtDoxypepStiPreventionOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical cost comparison">
-                <h3>Typical DoxyPEP STI Prevention Visit Cost in Vermont</h3>
-                <p className="tdmd-price-caption">Common ranges Vermonters see before insurance. Actual costs vary by setting and city.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 13, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical Vermont metro pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <div className="tdmd-cashpay-note">
@@ -526,7 +507,7 @@ export default function VtDoxypepStiPreventionOnline() {
                 <p>Book a same-day video visit — Vermont adults, 18+</p>
                 <small>Cash-pay $79 flat · No insurance billing in Vermont · No ER wait</small>
               </div>
-              <a className="vt-doxypep-sti-prevention-online__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
+              <a className="vt-doxypep-sti-prevention-online__cta-btn" href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -549,8 +530,8 @@ export default function VtDoxypepStiPreventionOnline() {
                 <p>Book a same-day video visit. Cash-pay $79 flat. No insurance billing in Vermont.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -563,7 +544,7 @@ export default function VtDoxypepStiPreventionOnline() {
             <p>These Vermont condition pages may help when symptoms overlap, or when you want to explore another Vermont telehealth visit from TeleDirectMD.</p>
             <div className="vt-doxypep-sti-prevention-online__sibling-grid">
               {VT_SIBLINGS.map((s) => (
-                <a key={s.slug} className="vt-doxypep-sti-prevention-online__sibling" href={`/vt/${s.slug}/`}>
+                <a key={s.slug} className="vt-doxypep-sti-prevention-online__sibling" href={stateConditionHref('vt', s.slug) || `/${s.slug}/`}>
                   <span className="vt-doxypep-sti-prevention-online__sibling-label">{s.label}</span>
                   <span className="vt-doxypep-sti-prevention-online__sibling-why">{s.why}</span>
                 </a>
@@ -582,9 +563,9 @@ export default function VtDoxypepStiPreventionOnline() {
               <a href="/vt/">Vermont (state pillar)</a>
               <a href="/doxypep-sti-prevention-online/">National DoxyPEP STI Prevention page</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>

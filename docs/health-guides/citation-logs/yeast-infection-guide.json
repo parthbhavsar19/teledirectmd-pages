@@ -1,0 +1,1390 @@
+{
+ "guide": "yeast-infection-guide",
+ "checked_at": "2026-11-07",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+ "references": [
+  {
+   "n": 1,
+   "cited_as": "Centers for Disease Control and Prevention. Vulvovaginal Candidiasis. Sexually Transmitted Infections Treatment Guidelines, 2021. Last reviewed July 22, 2021. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/candidiasis.htm",
+   "kind": "guideline",
+   "version_or_date": "STI Treatment Guidelines, 2021; page Last Reviewed July 22, 2021 (page metadata shows last published 2026-02-10); read 2026-11-07",
+   "retrieved_with": "WebFetch of official page (verbatim excerpts, max 125 characters each)",
+   "notes": "Replaces the MMWR version of the same guideline (Workowski 2021, PMID 34292926) so every regimen is quoted from the CDC VVC page itself, as the repair brief requires. Also replaces the IDSA 2016 guideline (Pappas, PMID 26679628), whose PMC full text (PMC4725385) came back empty this run and whose abstract contains no VVC content. No editorial notices apply to an agency page.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "About 75 percent of women have at least one episode; 40 to 45 percent two or more",
+     "quote": "An estimated 75% of women will have at least one episode of VVC, and 40%–45% will have two or more episodes.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Usually caused by Candida albicans, occasionally other species",
+     "quote": "VVC usually is caused by Candida albicans but can occasionally be caused by other Candida species or yeasts.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Not usually acquired through sex; CDC does not recommend treating partners",
+     "quote": "Uncomplicated VVC is not usually acquired through sexual intercourse, and data do not support treatment of sex partners.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Azoles relieve symptoms and clear cultures in 80 to 90 percent who complete therapy",
+     "quote": "Treatment with azoles results in relief of symptoms and negative cultures in 80%–90% of patients who complete therapy.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recurrent VVC defined as three or more episodes in less than a year; affects fewer than 5 percent",
+     "quote": "Recurrent VVC, usually defined as three or more episodes of symptomatic VVC in <1 year, affects <5% of women",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Weekly oral fluconazole 100, 150 or 200 mg for 6 months is the maintenance regimen",
+     "quote": "Oral fluconazole (i.e., a 100-mg, 150-mg, or 200-mg dose) weekly for 6 months is the indicated maintenance regimen.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Initial therapy for recurrent VVC: 7 to 14 days topical, or fluconazole 100/150/200 mg on days 1, 4 and 7",
+     "quote": "(e.g., 7–14 days of topical therapy or a 100-mg, 150-mg, or 200-mg oral dose of fluconazole every third day for a total of 3 doses [days 1, 4, and 7]) is recommended",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Normal vaginal pH below 4.5 in yeast infection",
+     "quote": "Candida vaginitis is associated with normal vaginal pH (<4.5).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Typical symptoms: itching, soreness, painful sex, external burning with urination, discharge",
+     "quote": "Typical symptoms of VVC include pruritus, vaginal soreness, dyspareunia, external dysuria, and abnormal vaginal discharge.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Signs: vulvar swelling, cracks/fissures, thick curdy discharge",
+     "quote": "Signs include vulvar edema, fissures, excoriations, and thick curdy vaginal discharge.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Saline or 10% KOH wet prep showing budding yeast, hyphae or pseudohyphae supports the diagnosis in a symptomatic woman",
+     "quote": "The diagnosis can be made in a woman who has signs and symptoms of vaginitis when either a wet preparation (saline, 10% KOH) of vaginal discharge demonstrates budding yeasts, hyphae, or pseudohyphae,",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "KOH breaks down cell material that can hide the yeast",
+     "quote": "Use of 10% KOH in wet preparations improves the visualization of yeast and mycelia by disrupting cellular material that might obscure the yeast or pseudohyphae.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Culture or PCR for complicated VVC to confirm diagnosis and identify non-albicans species",
+     "quote": "Vaginal culture or PCR should be obtained from women with complicated VVC to confirm clinical diagnosis and identify non–albicans Candida.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Culture and susceptibility testing for patients who remain symptomatic; azole resistance becoming more common",
+     "quote": "C. albicans azole resistance is becoming more common in vaginal isolates and non–albicans Candida is intrinsically resistant to azoles; therefore, culture and susceptibility testing should be considered for patients who remain symptomatic.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Candida on culture without symptoms is not a reason to treat",
+     "quote": "Identifying Candida by culture in the absence of symptoms or signs is not an indication for treatment",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "About 10 to 20 percent of women carry Candida in the vagina",
+     "quote": "approximately 10%–20% of women harbor Candida species and other yeasts in the vagina",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Evaluate and test if symptoms persist after an OTC product or recur within 2 months",
+     "quote": "any woman whose symptoms persist after using an over-the-counter preparation or who has a recurrence of symptoms <2 months after treatment for VVC should be evaluated clinically and tested.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Uncomplicated vs complicated classification (sporadic, mild to moderate, likely C. albicans, nonimmunocompromised; complicated includes recurrent, severe, non-albicans, diabetes or immunocompromise)",
+     "quote": "Box 4: \"Sporadic or infrequent VVC\" \"Mild-to-moderate VVC\" \"Likely to be Candida albicans\" \"Nonimmunocompromised women\" ... \"Recurrent VVC\" \"Severe VVC\" \"Non-albicans candidiasis\"",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Over-the-counter vaginal regimens: clotrimazole 1% 7 to 14 days, 2% 3 days; miconazole 1, 3 or 7 days; tioconazole single application",
+     "quote": "Clotrimazole 1% cream 5 g intravaginally daily for 7–14 days / Clotrimazole 2% cream 5 g intravaginally daily for 3 days / Miconazole 1,200 mg vaginal suppository one suppository for 1 day",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prescription vaginal regimens: butoconazole, terconazole 0.4% (7 days), 0.8% (3 days), 80 mg suppository (3 days)",
+     "quote": "Terconazole 0.4% cream 5 g intravaginally daily for 7 days / Terconazole 0.8% cream 5 g intravaginally daily for 3 days / Terconazole 80 mg vaginal suppository one suppository daily for 3 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Oral regimen: fluconazole 150 mg single dose",
+     "quote": "Fluconazole 150 mg orally in a single dose",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Severe VVC defined by extensive erythema, edema, excoriation, fissures",
+     "quote": "Severe VVC (i.e., extensive vulvar erythema, edema, excoriation, and fissure formation)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Severe VVC: 7 to 14 days topical azole or fluconazole 150 mg twice, 72 hours apart",
+     "quote": "Either 7–14 days of topical azole or 150 mg of fluconazole in two sequential oral doses (second dose 72 hours after initial dose) is recommended.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pregnancy: only topical azoles for 7 days",
+     "quote": "Only topical azole therapies, applied for 7 days, are recommended for use among pregnant women.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fluconazole should not be used in pregnancy, even a single 150 mg dose (miscarriage, congenital anomalies)",
+     "quote": "Epidemiologic studies indicate a single 150-mg dose of fluconazole might be associated with spontaneous abortion and congenital anomalies; therefore, it should not be used.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Topical azoles: no systemic side effects, possible local burning or irritation",
+     "quote": "Topical agents usually cause no systemic side effects, although local burning or irritation might occur.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recurrent VVC idiopathic or secondary to frequent antibiotics, diabetes, other host factors",
+     "quote": "Recurrent VVC can be either idiopathic or secondary (related to frequent antibiotic use, diabetes, or other underlying host factors).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most women with recurrent VVC have no apparent predisposing condition",
+     "quote": "the majority of women with recurrent VVC have no apparent predisposing or underlying conditions.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Non-albicans species in 10 to 20 percent of recurrent VVC",
+     "quote": "C. glabrata and other non–albicans Candida species are observed in 10%–20% of women with recurrent VVC.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Non-albicans: 7 to 14 days of a non-fluconazole azole",
+     "quote": "The optimal treatment of non–albicans VVC remains unknown; however, a longer duration of therapy (7–14 days) with a nonfluconazole azole regimen (oral or topical) is recommended.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Boric acid 600 mg gelatin capsule vaginally once daily for 3 weeks if non-albicans infection recurs",
+     "quote": "600 mg of boric acid in a gelatin capsule administered vaginally once daily for 3 weeks",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Specialist referral if symptoms recur",
+     "quote": "If symptoms recur, referral to a specialist is advised.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Immunocompromised women may not respond as well to short courses",
+     "quote": "and those receiving immunosuppression therapy (e.g., corticosteroid treatment) might not respond as well to short-term therapies.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Male partners: a minority have balanitis with redness of the glans and itching or irritation",
+     "quote": "A minority of male sex partners have balanitis, characterized by erythematous areas on the glans of the penis in conjunction with pruritus or irritation.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "No substantial evidence for probiotics as treatment",
+     "quote": "No substantial evidence exists to support using probiotics or homeopathic medications for treating VVC.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Short-course topical formulations treat uncomplicated VVC",
+     "quote": "Short-course topical formulations (i.e., single dose and regimens of 1–3 days) effectively treat uncomplicated VVC.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "cited_as": "Gonçalves B, Ferreira C, Alves CT, et al. Vulvovaginal candidiasis: Epidemiology, microbiology and risk factors. Crit Rev Microbiol. 42(6):905-927. Published online December 21, 2015.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26690853/",
+   "kind": "journal",
+   "pmid": "26690853",
+   "doi": "10.3109/1040841X.2015.1091805",
+   "record_title": "Vulvovaginal candidiasis: Epidemiology, microbiology and risk factors.",
+   "record_journal": "Crit Rev Microbiol",
+   "record_year": "2015",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract and article types)",
+   "notes": "Abstract only. PubMed lists publication date 2015-12-21 with volume 42(6):905-27; the guide previously printed the year as 2016, which was not seen in the record this run, so the citation now gives the volume and the online date. The 75 percent lifetime and 85 to 95 percent albicans figures it was cited for are not in the abstract and were moved to the CDC page or cut. PubMed article types checked this run: no Retracted Publication or Retraction Notice. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "VVC arises when the balance between Candida and the vaginal environment is disturbed",
+     "quote": "The development of VVC is usually attributed to the disturbance of the balance between Candida vaginal colonization and host environment by physiological or nonphysiological changes.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Non-albicans species, especially C. glabrata, identified more often",
+     "quote": "the identification of non-Candida albicans Candida (NCAC) species, especially Candida glabrata, as the cause of this infection, appears to be increasing.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Host factors: pregnancy, hormone therapy, uncontrolled diabetes, immunosuppression, antibiotics",
+     "quote": "Host-related factors include pregnancy, hormone replacement, uncontrolled diabetes, immunosuppression, antibiotics, glucocorticoids use and genetic predispositions.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Behavioral factors: oral contraceptives, IUD, spermicides and condoms, hygiene, clothing and sexual habits",
+     "quote": "Behavioral risk factors include use of oral contraceptives, intrauterine device, spermicides and condoms and some habits of hygiene, clothing and sexual practices.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "cited_as": "Denning DW, Kneale M, Sobel JD, Rautemaa-Richardson R. Global burden of recurrent vulvovaginal candidiasis: a systematic review. Lancet Infect Dis. 2018;18(11):e339-e347.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30078662/",
+   "kind": "journal",
+   "pmid": "30078662",
+   "doi": "10.1016/S1473-3099(18)30103-8",
+   "record_title": "Global burden of recurrent vulvovaginal candidiasis: a systematic review.",
+   "record_journal": "Lancet Infect Dis",
+   "record_year": "2018",
+   "article_type": "Journal Article; Systematic Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract and article types)",
+   "notes": "Issue corrected from 18(10) to 18(11) per PubMed record. PubMed article types checked this run: no Retracted Publication or Retraction Notice. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "RVVC (four or more episodes a year) affects about 138 million women each year",
+     "quote": "Worldwide, recurrent vulvovaginal candidiasis affects about 138 million women annually (range 103-172 million)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Definition used: four or more episodes a year",
+     "quote": "defined as four or more episodes of the infection every year",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "cited_as": "Foxman B, Muraglia R, Dietz JP, et al. Prevalence of recurrent vulvovaginal candidiasis in 5 European countries and the United States: results from an internet panel survey. J Low Genit Tract Dis. 2013;17(3):340-345.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23486072/",
+   "kind": "journal",
+   "pmid": "23486072",
+   "doi": "10.1097/LGT.0b013e318273e8cf",
+   "record_title": "Prevalence of recurrent vulvovaginal candidiasis in 5 European countries and the United States: results from an internet panel survey.",
+   "record_journal": "J Low Genit Tract Dis",
+   "record_year": "2013",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract and article types)",
+   "notes": "No longer cited for the 75 percent / 40 to 50 percent lifetime figures (study reports 29 to 49 percent). PubMed article types checked this run: no Retracted Publication or Retraction Notice. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Internet survey of 6,000 women in six countries; 9 percent overall reported a 12-month period with four or more infections",
+     "quote": "More than one fifth of women reporting one vaginal yeast infection also reported a 12-month period with 4 or more infections (RVVC) (overall 9%).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "6,000 women surveyed",
+     "quote": "We analyzed surveys from 6,000 women.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "cited_as": "Ferris DG, Nyirjesy P, Sobel JD, et al. Over-the-counter antifungal drug misuse associated with patient-diagnosed vulvovaginal candidiasis. Obstet Gynecol. 2002;99(3):419-425.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11864668/",
+   "kind": "journal",
+   "pmid": "11864668",
+   "doi": "10.1016/s0029-7844(01)01759-8",
+   "record_title": "Over-the-counter antifungal drug misuse associated with patient-diagnosed vulvovaginal candidiasis.",
+   "record_journal": "Obstet Gynecol",
+   "record_year": "2002",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract and article types)",
+   "notes": "No longer described as a \"classic multicenter study\" or as a guideline. PubMed article types checked this run: no Retracted Publication or Retraction Notice. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "95 symptomatic women who bought an OTC antifungal",
+     "quote": "A time-location sample of 95 symptomatic women who purchased and presented with an over-the-counter antifungal product",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Only 33.7 percent confirmed (fewer than 35 percent; about two thirds wrong); rest BV, mixed, normal, other, trichomonas",
+     "quote": "vulvovaginal candidiasis 33.7%, bacterial vaginosis 18.9%, mixed vaginitis 21.1%, normal 13.7%, other diagnoses 10.5%, and trichomonas vaginitis 2.1%.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Many women who self-diagnose do not have VVC; ready access delays correct diagnosis",
+     "quote": "Ready access to these products is associated with wasted financial expenditures, unfulfilled expectations, and a delay in correct diagnosis for a substantial number of women.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "cited_as": "Sobel JD, Wiesenfeld HC, Martens M, et al. Maintenance fluconazole therapy for recurrent vulvovaginal candidiasis. N Engl J Med. 2004;351(9):876-883.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15329425/",
+   "kind": "journal",
+   "pmid": "15329425",
+   "doi": "10.1056/NEJMoa033114",
+   "record_title": "Maintenance fluconazole therapy for recurrent vulvovaginal candidiasis.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2004",
+   "article_type": "Clinical Trial; Randomized Controlled Trial; Multicenter Study",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract and article types)",
+   "notes": "PubMed article types checked this run: no Retracted Publication or Retraction Notice. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Induction with three 150 mg doses 72 hours apart, then weekly 150 mg or placebo for six months",
+     "quote": "After inducing clinical remission with open-label fluconazole given in three 150-mg doses at 72-hour intervals, we randomly assigned 387 women with recurrent vulvovaginal candidiasis to receive treatment with fluconazole (150 mg) or placebo weekly for six months",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "90.8 vs 35.9 percent disease-free at 6 months; 42.9 vs 21.9 percent at 12 months",
+     "quote": "The proportions of women who remained disease-free at 6, 9, and 12 months in the fluconazole group were 90.8 percent, 73.2 percent, and 42.9 percent, as compared with 35.9 percent, 27.8 percent, and 21.9 percent",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Suppression controls rather than cures",
+     "quote": "Long-term weekly treatment with fluconazole can reduce the rate of recurrence of symptomatic vulvovaginal candidiasis. However, a long-term cure remains difficult to achieve.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "cited_as": "Rautemaa-Richardson R, Sobel JD, Stone N, et al. State-of-the-Art Review: Managing Vulvovaginal Candidiasis. Clin Infect Dis. 2026;82(3):371-382.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41839452/",
+   "kind": "journal",
+   "pmid": "41839452",
+   "pmcid": "PMC13017020",
+   "doi": "10.1093/cid/ciaf673",
+   "record_title": "State-of-the-Art Review: Managing Vulvovaginal Candidiasis.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2026",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed connector get_article_metadata and get_full_text_article (PMC full text)",
+   "notes": "Volume/pages 82(3):371-382 added from PubMed record. The PMC text returned by the connector drops italic species names, so quotes avoid those gaps or mark them with \"...\". The old claims \"four or more culture-proven episodes\" and \"usually the same strain\" were not found and were replaced. PubMed article types checked this run: no Retracted Publication or Retraction Notice. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Recurrence and resistance are frequent",
+     "quote": "Standard treatment involves topical or systemic antifungals, but recurrence and resistance are frequent.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Candida transitions between yeast, pseudohyphal and hyphal forms; filamentation promotes tissue invasion",
+     "quote": "is a polymorphic fungus capable of transitioning between yeast, pseudo-hyphal, and hyphal forms, a process known as filamentation",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most non-albicans species less sensitive to azoles",
+     "quote": "In general, most NAC species are less sensitive to azole drugs and more difficult to eradicate, in particular oral fluconazole.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Vagina dominated by lactobacilli, acidic",
+     "quote": "the microflora is dominated by lactobacilli. This maintains high lactic acid concentrations (55–111 mM), resulting in an acidic pH (3.5–4.7)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Microbiome disruption from antibiotics, hormonal fluctuations or sexual activity leads to overgrowth",
+     "quote": "microbiome disruptions, caused by factors like antibiotic use, hormonal fluctuations, or sexual activity, can lead to fungal overgrowth",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antibiotics a major contributor by disrupting microbiota",
+     "quote": "Antibiotic use is a major contributor to VVC by disrupting the protective vaginal microbiota",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Minimize unnecessary antibiotic courses",
+     "quote": "with efforts to minimize unnecessary antibiotic courses, as they disrupt vaginal microbiota and promote",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Estrogen from pregnancy, luteal phase, combined OCs or menopause hormone therapy enhances colonization",
+     "quote": "Elevated estrogen levels, whether endogenous during pregnancy or luteal phase of the cycle, or exogenous from combined oral contraceptives or menopause hormone therapy",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Incidence across the lifespan tracks estrogen levels",
+     "quote": "The variations in the incidence of VVC and colonization across a woman's lifespan are closely tied to estrogen levels and glycogen availability.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Uncontrolled diabetes raises vaginal glucose and causes immune dysfunction",
+     "quote": "In addition to causing immune dysfunction, uncontrolled diabetes elevates vaginal glucose levels promoting yeast overgrowth and proliferation",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "SGLT2 inhibitors increase risk of recurrent infection",
+     "quote": "SLGT2 inhibitors used in the management of diabetes increase the risk for RVVC as they block the reabsorption of glucose in the kidneys, allowing excess sugar to be excreted in urine",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Untreated HIV, corticosteroids, chemotherapy and other immunosuppressants raise risk",
+     "quote": "Various immunosuppressive therapies, including corticosteroids, chemotherapy, calcineurin and tumor necrosis factor-α inhibitors, antimetabolites, and monoclonal antibodies, compromise immune surveillance",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tight synthetic clothing may trap heat and moisture",
+     "quote": "Tight synthetic clothing may trap heat and moisture, encouraging yeast growth.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Overwashing and feminine products damage vulval skin",
+     "quote": "One of the main modifiable risk factors for VVC is dry and damaged vulval skin caused by overwashing and unnecessary use of feminine products",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Advises against douching / washing inside the vagina",
+     "quote": "Do not wash inside the vagina (douching).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "High sugar intake linked to VVC mainly in diabetes; limited evidence otherwise",
+     "quote": "Dietary factors, particularly high sugar intake, has been linked to VVC development, but mainly in patients with diabetes. Though evidence in those without diabetes is limited",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Not an STI; partner treatment not recommended",
+     "quote": "VVC is not classified or considered a sexually transmitted infection, transmission between partners is rare, and partner treatment is not recommended",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Many women carry Candida without symptoms",
+     "quote": "is common, occurring in up to 20%–30% of healthy women, suggesting that these fungi may represent part of the normal vaginal microbiome",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptoms overlap with other conditions; not specific",
+     "quote": "However, these are not specific to VVC and overlap with those of, for example, vulval eczema and other dermatoses",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Redness (erythema) and fissures among manifestations",
+     "quote": "The clinical manifestations of VVC include vulval itching, burning, soreness, erythema, fissures, vaginal discharge, and dyspareunia.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Diagnosis: history and exam, then microscopy, culture or PCR",
+     "quote": "The diagnosis is primarily clinical, based on a detailed health history and physical examination, followed by confirmatory tests, including microscopy, culture, or polymerase chain reaction",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Topical treatments act without significant systemic absorption",
+     "quote": "These topical treatments are considered safe without any significant systemic absorption, whereas systemic antifungals are contraindicated in pregnancy.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Boric acid contraindicated in pregnancy",
+     "quote": "boric acid is contraindicated in pregnancy because of a lack of safety data",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "No treatment fully eradicates Candida; symptoms recur in about half after stopping suppression",
+     "quote": "Given that no treatment will fully eradicate ... from their body, symptoms recur in 50% of patients who stop suppressive treatment",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Monthly ibrexafungerp is an alternative to weekly fluconazole",
+     "quote": "ibrexafungerp administered on 1 day every month for 6 months significantly reduced VVC recurrence, led to achieving FDA approval [,], and serving as an alternative to weekly fluconazole prophylaxis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Oteseconazole not FDA-approved for acute VVC",
+     "quote": "Oteseconazole has shown to be highly effective for acute VVC, but is not yet FDA approved for this indication",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Best-designed studies do not support probiotics",
+     "quote": "However, unsurprisingly, the evidence derived from the well-designed studies and with lower risk of bias do not support their use",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Elevated estrogen in pregnancy promotes colonization",
+     "quote": "Elevated estrogen levels, whether endogenous during pregnancy",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "cited_as": "Schwebke JR, Sobel R, Gersten JK, et al. Ibrexafungerp Versus Placebo for Vulvovaginal Candidiasis Treatment: A Phase 3, Randomized, Controlled Superiority Trial (VANISH 303). Clin Infect Dis. 2022;74(11):1979-1985.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34467969/",
+   "kind": "journal",
+   "pmid": "34467969",
+   "pmcid": "PMC9187327",
+   "doi": "10.1093/cid/ciab750",
+   "record_title": "Ibrexafungerp Versus Placebo for Vulvovaginal Candidiasis Treatment: A Phase 3, Randomized, Controlled Superiority Trial (VANISH 303).",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2022",
+   "article_type": "Clinical Trial, Phase III; Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract and article types)",
+   "notes": "Test-of-cure timing corrected from \"day 10\" to \"day 11 plus or minus 3\". Placebo now given as 28.6 percent instead of \"roughly a third\". PubMed article types checked this run: no Retracted Publication or Retraction Notice. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Clinical cure 50.5 vs 28.6 percent at test-of-cure (day 11 plus or minus 3); about half",
+     "quote": "clinical cure (complete resolution of vulvovaginal signs and symptoms [VSS] = 0) at test-of-cure (day 11 ± 3)... clinical cure (50.5% [95/188] vs 28.6% [28/98]; P = .001)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "cited_as": "Sobel JD, Donders G, Degenhardt T, et al. Efficacy and Safety of Oteseconazole in Recurrent Vulvovaginal Candidiasis. NEJM Evid. 2022;1(8):EVIDoa2100055.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38319878/",
+   "kind": "journal",
+   "pmid": "38319878",
+   "doi": "10.1056/EVIDoa2100055",
+   "record_title": "Efficacy and Safety of Oteseconazole in Recurrent Vulvovaginal Candidiasis.",
+   "record_journal": "NEJM Evid",
+   "record_year": "2022",
+   "article_type": "Randomized Controlled Trial; Clinical Trial, Phase III; Multicenter Study",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract and article types)",
+   "notes": "Approval year now cited to the VIVJOA label (ref 25), not this trial. PubMed article types checked this run: no Retracted Publication or Retraction Notice. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Recurrence through week 48: 6.7 and 3.9 percent vs 42.8 and 39.4 percent with placebo after fluconazole induction",
+     "quote": "the averaged percentage of participants with one or more RVVC episodes through week 48 was 6.7% (range, 6.5 to 7.4%) in CL-011 and 3.9% (3.7 to 4.6%) in CL-012 in the oteseconazole groups versus 42.8% (41.3 to 45.0%) and 39.4%",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "cited_as": "Goje O, Azie NE, Angulo DA, et al. A phase 3, multicenter, randomized, placebo-controlled trial of monthly oral ibrexafungerp to reduce the incidence of recurrent vulvovaginal candidiasis. Am J Obstet Gynecol. 2025;233(6):617.e1-617.e18.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40752754/",
+   "kind": "journal",
+   "pmid": "40752754",
+   "doi": "10.1016/j.ajog.2025.07.040",
+   "record_title": "A phase 3, multicenter, randomized, placebo-controlled trial of monthly oral ibrexafungerp to reduce the incidence of recurrent vulvovaginal candidiasis.",
+   "record_journal": "Am J Obstet Gynecol",
+   "record_year": "2025",
+   "article_type": "Clinical Trial, Phase III; Randomized Controlled Trial; Multicenter Study",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract and article types)",
+   "notes": "Corrected \"a monthly 300 mg dose\" to 300 mg twice in one day every 4 weeks for 6 treatments, and added the effect size. PubMed article types checked this run: no Retracted Publication or Retraction Notice. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "After fluconazole induction, ibrexafungerp 300 mg twice for 1 day every 4 weeks for 6 treatments",
+     "quote": "oral ibrexafungerp (300 mg twice-daily for 1 day) or placebo, which was repeated once every 4 weeks for a total of 6 treatments (until week 20)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "70.8 vs 58.5 percent free of mycologically proven recurrence by test-of-cure",
+     "quote": "70.8% (n=92/130) of participants who received ibrexafungerp and 58.5% (n=76/130) who received placebo had no mycologically proven recurrence by Test-of-Cure",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "cited_as": "Brand SR, Sobel JD, Nyirjesy P, et al. A Randomized Phase 2 Study of VT-1161 for the Treatment of Acute Vulvovaginal Candidiasis. Clin Infect Dis. 2021;73(7):e1518-e1524.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32818963/",
+   "kind": "journal",
+   "pmid": "32818963",
+   "pmcid": "PMC8492116",
+   "doi": "10.1093/cid/ciaa1204",
+   "record_title": "A Randomized Phase 2 Study of VT-1161 for the Treatment of Acute Vulvovaginal Candidiasis.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2021",
+   "article_type": "Clinical Trial, Phase II; Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract and article types)",
+   "notes": "Claim rewritten: the guide said a single dose of oteseconazole cured most acute infections; all oteseconazole arms were 3-day regimens and differences versus fluconazole were not significant. PubMed article types checked this run: no Retracted Publication or Retraction Notice. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Phase 2 trial used 3-day courses, not a single dose",
+     "quote": "VT-1161 300 mg once daily (q.d.) for 3 days, 600 mg q.d. for 3 days, or 600 mg twice daily (b.i.d.) for 3 days or to receive a single dose of fluconazole 150 mg",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cure rates not significantly different from single-dose fluconazole",
+     "quote": "VT-1161 600 mg b.i.d. (78.6%) groups vs the fluconazole group (62.5%); differences were not statistically significant.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "cited_as": "Iavazzo C, Gkegkes ID, Zarkada IM, Falagas ME. Boric acid for recurrent vulvovaginal candidiasis: the clinical evidence. J Womens Health (Larchmt). 2011;20(8):1245-1255.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21774671/",
+   "kind": "journal",
+   "pmid": "21774671",
+   "doi": "10.1089/jwh.2010.2708",
+   "record_title": "Boric acid for recurrent vulvovaginal candidiasis: the clinical evidence.",
+   "record_journal": "J Womens Health (Larchmt)",
+   "record_year": "2011",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract and article types)",
+   "notes": "PubMed article types checked this run: no Retracted Publication or Retraction Notice. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Boric acid an option for recurrent non-albicans or azole-resistant infection",
+     "quote": "boric acid is a safe, alternative, economic option for women with recurrent and chronic symptoms of vaginitis when conventional treatment fails because of the involvement of non-albicans Candida spp. or azole-resistant strains.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "cited_as": "Akinosoglou K, Livieratos A, Asimos K, et al. Fluconazole-Resistant Vulvovaginal Candidosis: An Update on Current Management. Pharmaceutics. 2024;16(12):1555.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39771534/",
+   "kind": "journal",
+   "pmid": "39771534",
+   "pmcid": "PMC11678211",
+   "doi": "10.3390/pharmaceutics16121555",
+   "record_title": "Fluconazole-Resistant Vulvovaginal Candidosis: An Update on Current Management.",
+   "record_journal": "Pharmaceutics",
+   "record_year": "2024",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract and article types)",
+   "notes": "No longer cited for the albicans share. PubMed record gives no page range; article number 1555 is from the DOI. PubMed article types checked this run: no Retracted Publication or Retraction Notice. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Rising prevalence of resistant species; boric acid, nystatin and newer agents as alternatives",
+     "quote": "alternative antifungal therapies, including boric acid, nystatin, and newer agents like oteseconazole and ibrexafungerp",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Rising prevalence of resistant species",
+     "quote": "Currently, the rising prevalence of resistant",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "cited_as": "Gardella B, Dominoni M, Cassani C, et al. Treatment of uncomplicated vulvovaginal candidiasis: topical or oral drugs? Single-day or multiple-day therapy? A network meta-analysis of randomized trials. Am J Obstet Gynecol. 2025;233(3):152-161.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40157526/",
+   "kind": "journal",
+   "pmid": "40157526",
+   "doi": "10.1016/j.ajog.2025.03.031",
+   "record_title": "Treatment of uncomplicated vulvovaginal candidiasis: topical or oral drugs? Single-day or multiple-day therapy? A network meta-analysis of randomized trials.",
+   "record_journal": "Am J Obstet Gynecol",
+   "record_year": "2025",
+   "article_type": "Journal Article; Network Meta-Analysis",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract and article types)",
+   "notes": "Claim corrected from \"similar outcomes, patient preference\" to the actual finding. Title completed and volume/pages added from record. PubMed article types checked this run: no Retracted Publication or Retraction Notice. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "50 randomized trials, 7,208 participants; all treatments highly efficacious (above 75 percent)",
+     "quote": "Fifty (N=7208 subjects) randomized studies ... Compared with placebo, all the treatments studied were highly efficacious (>75%) for the clinical and mycological cure of vulvovaginal candidiasis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Single-dose fluconazole slightly more effective than multiple-day topical for early clinical cure",
+     "quote": "Single-day use of 150 mg of fluconazole was slightly more effective than multiple-day topical therapy in early clinical cure",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No significant difference in late clinical cure",
+     "quote": "In the evaluation of late clinical cure, there were no significant differences in the odds ratios of success between oral and topical treatment",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Strict ranking probably inappropriate",
+     "quote": "a strict hierarchy of competing treatments for uncomplicated vulvovaginal candidiasis is probably inappropriate",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "cited_as": "Slavin MB, Benrubi GI, Parker R, et al. Single dose oral fluconazole vs intravaginal terconazole in treatment of Candida vaginitis. Comparison and pilot study. J Fla Med Assoc. 1992;79(10):693-696.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1460451/",
+   "kind": "journal",
+   "pmid": "1460451",
+   "record_title": "Single dose oral fluconazole vs intravaginal terconazole in treatment of Candida vaginitis. Comparison and pilot study.",
+   "record_journal": "J Fla Med Assoc",
+   "record_year": "1992",
+   "article_type": "Clinical Trial; Comparative Study; Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract and article types)",
+   "notes": "No DOI exists in the record; PMID resolves. Now described accurately as a 22-patient pilot using fluconazole 200 mg; no longer cited for 150 mg equivalence. PubMed article types checked this run: no Retracted Publication or Retraction Notice. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "22-woman pilot, fluconazole 200 mg once vs terconazole 80 mg suppository for 3 days",
+     "quote": "compared the efficacy of a single oral 200 mg dose of fluconazole with the application of terconazole 80 mg vaginal suppository daily for 3 days. Twenty-two patients",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Relief began about 2 days (2.4 and 1.8); complete relief about 6 to 7 days (6.08 and 6.6); not significant",
+     "quote": "The mean time to onset of symptom relief was 2.4 (1.7) days for the fluconazole group and 1.8 (1.8) days for the terconazole group. The mean time to complete relief of symptoms was 6.08 (2.84) and 6.6 (2.95) days",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Differences not statistically significant",
+     "quote": "A statistically significant difference did not exist for any of these measures.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "cited_as": "Mikamo H, Matsumizu M, Nakazuru Y, et al. Efficacy and safety of a single oral 150 mg dose of fluconazole for the treatment of vulvovaginal candidiasis in Japan. J Infect Chemother. 2015;21(7):520-526.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25887336/",
+   "kind": "journal",
+   "pmid": "25887336",
+   "doi": "10.1016/j.jiac.2015.03.011",
+   "record_title": "Efficacy and safety of a single oral 150 mg dose of fluconazole for the treatment of vulvovaginal candidiasis in Japan.",
+   "record_journal": "J Infect Chemother",
+   "record_year": "2015",
+   "article_type": "Clinical Trial, Phase III; Multicenter Study",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract and article types)",
+   "notes": "Issue/pages corrected from 21(9):652-656 to 21(7):520-6 and \"in Japan\" restored to the title. Single-arm study, so no longer cited for equivalence with topical therapy or for pregnancy advice. PubMed article types checked this run: no Retracted Publication or Retraction Notice. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Phase 3 single-arm study, 157 women, single 150 mg dose",
+     "quote": "A total of 157 subjects received a single oral 150 mg dose of fluconazole.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Day 28: clinical cure 81.6, cure or improvement 95.9, eradication 85.9 percent",
+     "quote": "the cure, cure or improvement, and eradication rates were 81.6%, 95.9%, and 85.9%, respectively.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "cited_as": "Patel DA, Gillespie B, Sobel JD, et al. Risk factors for recurrent vulvovaginal candidiasis in women receiving maintenance antifungal therapy: results of a prospective cohort study. Am J Obstet Gynecol. 2004;190(3):644-653.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15041994/",
+   "kind": "journal",
+   "pmid": "15041994",
+   "doi": "10.1016/j.ajog.2003.11.027",
+   "record_title": "Risk factors for recurrent vulvovaginal candidiasis in women receiving maintenance antifungal therapy: results of a prospective cohort study.",
+   "record_journal": "Am J Obstet Gynecol",
+   "record_year": "2004",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract and article types)",
+   "notes": "Previously cited 8 times for antibiotic, diabetes and estrogen claims it does not contain. Those claims now cite the CDC page, Rautemaa-Richardson 2026, Goncalves 2016, Nyirjesy 2013 and the CDC diabetes page. Kept once, for what it found. PubMed article types checked this run: no Retracted Publication or Retraction Notice. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "65 women with recurrent infection on maintenance therapy",
+     "quote": "A prospective study of 65 women aged >/=18 years with recurrent vulvovaginal candidiasis",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pantyliners or pantyhose, cranberry juice or acidophilus products, prior BV, age under 40 linked to recurrence",
+     "quote": "The use of pantyliners or pantyhose, consumption of cranberry juice or acidophil-containing products, a history of bacterial vaginosis, and age <40 years were positively associated with a symptomatic vulvovaginal candidiasis episode.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "cited_as": "Crouss T, Sobel JD, Smith K, Nyirjesy P. Long-Term Outcomes of Women With Recurrent Vulvovaginal Candidiasis After a Course of Maintenance Antifungal Therapy. J Low Genit Tract Dis. 2018;22(4):382-386.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29975334/",
+   "kind": "journal",
+   "pmid": "29975334",
+   "doi": "10.1097/LGT.0000000000000413",
+   "record_title": "Long-Term Outcomes of Women With Recurrent Vulvovaginal Candidiasis After a Course of Maintenance Antifungal Therapy.",
+   "record_journal": "J Low Genit Tract Dis",
+   "record_year": "2018",
+   "article_type": "Journal Article; Observational Study",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract and article types)",
+   "notes": "Pages corrected from 298-302 to 382-386 and \"Maintenance\" restored to the title. No longer cited for diabetes or non-albicans strains (study was C. albicans only and found risk factors not associated with relapse). PubMed article types checked this run: no Retracted Publication or Retraction Notice. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Relapse common after first maintenance course; ongoing maintenance most effective",
+     "quote": "Although RVVC can be controlled, relapse is common after an initial course of maintenance fluconazole. Ongoing maintenance remains the most effective treatment option.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "cited_as": "Xie HY, Feng D, Wei DM, et al. Probiotics for vulvovaginal candidiasis in non-pregnant women. Cochrane Database Syst Rev. 2017;11(11):CD010496.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29168557/",
+   "kind": "journal",
+   "pmid": "29168557",
+   "pmcid": "PMC6486023",
+   "doi": "10.1002/14651858.CD010496.pub2",
+   "record_title": "Probiotics for vulvovaginal candidiasis in non-pregnant women.",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2017",
+   "article_type": "Meta-Analysis; Systematic Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract and article types)",
+   "notes": "No longer cited for vaginal yogurt (not addressed). Review excluded recurrent VVC. PubMed article types checked this run: no Retracted Publication or Retraction Notice. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Probiotics added to antifungals may improve short-term cure and lower relapse at one month; low or very low quality; no long-term benefit",
+     "quote": "could increases the rate of short-term clinical and mycological cure and decrease the relapse rate at one month but this did not translate into a higher frequency of long-term clinical or mycological cure",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Evidence low or very low quality",
+     "quote": "Low and very low quality evidence shows that, compared with conventional treatment",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "cited_as": "Abbott J. Clinical and microscopic diagnosis of vaginal yeast infection: a prospective analysis. Ann Emerg Med. 1995;25(5):587-591.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7741332/",
+   "kind": "journal",
+   "pmid": "7741332",
+   "doi": "10.1016/s0196-0644(95)70168-0",
+   "record_title": "Clinical and microscopic diagnosis of vaginal yeast infection: a prospective analysis.",
+   "record_journal": "Ann Emerg Med",
+   "record_year": "1995",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract and article types)",
+   "notes": "Claim reversed: the guide said KOH \"confirms\" candidiasis; the study found KOH only moderately accurate. PubMed article types checked this run: no Retracted Publication or Retraction Notice. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "ED study of 71 women",
+     "quote": "Seventy-one consecutive nonmenstruating women with a presenting complaint of vaginal discharge, itching, or pain.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Saline, KOH and methylene blue only moderately accurate, many false results",
+     "quote": "Saline microscopy, potassium hydroxide, and methylene blue were all equal and only moderately accurate, with a significant proportion of false-negative and false-positive results.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "cited_as": "U.S. National Library of Medicine, DailyMed. DIFLUCAN (fluconazole) tablet; DIFLUCAN (fluconazole) powder, for suspension. Prescribing information. Updated April 2, 2026. Accessed November 7, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f694c617-3383-416c-91b6-b94fda371204",
+   "kind": "label",
+   "version_or_date": "DailyMed set id f694c617-3383-416c-91b6-b94fda371204, \"Updated April 2, 2026\"; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page (verbatim excerpts, max 125 characters each)",
+   "notes": "Replaces the 2011 Diflucan label PDF on accessdata.fda.gov. The page text available to WebFetch did not include the Dosage and Administration section, so the 150 mg single-dose regimen is cited to the CDC page (ref 1) only. Corrects the pregnancy statement: the label ties miscarriage and congenital abnormality risk to 150 mg single or repeated first-trimester doses, not only high or repeated doses.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Single-dose 150 mg vaginitis studies: headache 13%, nausea 7%, abdominal pain 6%",
+     "quote": "fluconazole for vaginitis were headache (13%), nausea (7%), and abdominal pain (6%).",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Liver abnormalities observed during fluconazole treatment",
+     "quote": "hepatic abnormalities have been observed during treatment with fluconazole",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Raises prothrombin time with coumarin-type anticoagulants",
+     "quote": "Prothrombin time may be increased in patients receiving concomitant DIFLUCAN and coumarin-type anticoagulants.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Muscle injury risk with statins",
+     "quote": "The risk of myopathy and rhabdomyolysis increases when fluconazole is coadministered with HMG-CoA reductase inhibitors",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Raises phenytoin levels",
+     "quote": "DIFLUCAN increases the plasma concentrations of phenytoin.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Contraindicated with QT-prolonging CYP3A4 drugs such as erythromycin, pimozide, quinidine",
+     "quote": "such as erythromycin, pimozide, and quinidine are contraindicated in patients receiving fluconazole.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pregnancy: potential miscarriage and congenital abnormality risk after 150 mg single or repeated first-trimester dose",
+     "quote": "Epidemiological studies suggest a potential risk of spontaneous abortion and congenital abnormalities in infants whose mothers were treated with 150 mg of fluconazole as a single or repeated dose in the first trimester",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "cited_as": "Phillips NA, Rocktashel M, Merjanian L. Ibrexafungerp for the Treatment of Vulvovaginal Candidiasis: Design, Development and Place in Therapy. Drug Des Devel Ther. 2023;17:363-367.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36785761/",
+   "kind": "journal",
+   "pmid": "36785761",
+   "pmcid": "PMC9921437",
+   "doi": "10.2147/DDDT.S339349",
+   "record_title": "Ibrexafungerp for the Treatment of Vulvovaginal Candidiasis: Design, Development and Place in Therapy.",
+   "record_journal": "Drug Des Devel Ther",
+   "record_year": "2023",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract and article types)",
+   "notes": "No longer cited for dosing (dosing now from the BREXAFEMME label, ref 26). PubMed article types checked this run: no Retracted Publication or Retraction Notice. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Ibrexafungerp approved 2021, first oral non-azole for VVC",
+     "quote": "Ibrexafungerp, a triterpenoid fungicidal agent, was FDA approved in 2021, becoming the first oral non-azole agent for VVC.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Up to 19 percent of infections may involve non-albicans species",
+     "quote": "Candida albicans is the most common causative agent, but up to 19% of infections may be related to non-albicans species.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most useful with azole allergy, non-albicans or resistant yeast, or other azole contraindications such as drug interactions",
+     "quote": "the population likely to benefit from this drug are those with azole allergy, non-albicans or azole resistant albicans species, or other azole contraindications such as drug interactions",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "cited_as": "Hussen I, Aliyo A, Abbai MK, Dedecha W. Vaginal candidiasis prevalence, associated factors, and antifungal susceptibility patterns among pregnant women attending antenatal care at bule hora university teaching hospital, Southern Ethiopia. BMC Pregnancy Childbirth. 2024;24(1):619.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39350045/",
+   "kind": "journal",
+   "pmid": "39350045",
+   "pmcid": "PMC11441096",
+   "doi": "10.1186/s12884-024-06844-x",
+   "record_title": "Vaginal candidiasis prevalence, associated factors, and antifungal susceptibility patterns among pregnant women attending antenatal care at bule hora university teaching hospital, Southern Ethiopia.",
+   "record_journal": "BMC Pregnancy Childbirth",
+   "record_year": "2024",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract and article types)",
+   "notes": "\"Large\" dropped: single-site study of 317 women. Full title and article number 619 added from record. PubMed article types checked this run: no Retracted Publication or Retraction Notice. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "317 pregnant women; prevalence 26.8 percent",
+     "quote": "Using systematic random sampling, 317 pregnant women participated in the study. ... The prevalence of vaginal candidiasis was 26.8%",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Isolates resistant to fluconazole, ketoconazole, clotrimazole; authors urge susceptibility-guided treatment",
+     "quote": "The isolated Candida species showed resistance to fluconazole, ketoconazole, and clotrimazole. ... Physicians should prescribe suitable medications based on antifungal drug test outcomes",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "cited_as": "Chayachinda C, Thamkhantho M, Rekhawasin T, Klerdklinhom C. Sertaconazole 300 mg versus clotrimazole 500 mg vaginal suppository for treating pregnant women with acute vaginal candidiasis: a double-blinded, randomized trial. BMC Pregnancy Childbirth. 2024;24(1):235.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38575932/",
+   "kind": "journal",
+   "pmid": "38575932",
+   "pmcid": "PMC10993551",
+   "doi": "10.1186/s12884-024-06440-z",
+   "record_title": "Sertaconazole 300 mg versus clotrimazole 500 mg vaginal suppository for treating pregnant women with acute vaginal candidiasis: a double-blinded, randomized trial.",
+   "record_journal": "BMC Pregnancy Childbirth",
+   "record_year": "2024",
+   "article_type": "Comparative Study; Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract and article types)",
+   "notes": "Title corrected to the PubMed record; article number 235 added. PubMed article types checked this run: no Retracted Publication or Retraction Notice. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "96 pregnant women; single sertaconazole 300 mg vs clotrimazole 500 mg comparable cure; no side effects",
+     "quote": "In the treatment of acute VC during pregnancy, 300 mg SER and 500 mg CLO exhibited comparable efficacy in terms of clinical and microscopic cure rates",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No side effects reported; 96 analysed",
+     "quote": "The analysis included 96 participants (48 per group ... No side effects were reported.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Mean time to clinical cure about 3 days",
+     "quote": "The two groups had comparable times to clinical cure (SER: 3.1 ± 1.8 days, CLO: 3.4 ± 2.7 days; p = 0.848)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "cited_as": "U.S. National Library of Medicine, DailyMed. VIVJOA (oteseconazole) capsules. Prescribing information, revised 4/2022; DailyMed version updated January 8, 2026. Accessed November 7, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e21d5008-800e-4417-927f-14340341865f",
+   "kind": "label",
+   "version_or_date": "DailyMed set id e21d5008-800e-4417-927f-14340341865f, version 5, \"Updated January 8, 2026\"; label \"Revised: 4/2022\"; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page (verbatim excerpts, max 125 characters each)",
+   "notes": "New source. Every oteseconazole dose and restriction now comes from this label.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Indicated to reduce RVVC only in females with RVVC history who are NOT of reproductive potential",
+     "quote": "VIVJOA is an azole antifungal indicated to reduce the incidence of recurrent vulvovaginal candidiasis (RVVC) in females with a history of RVVC who are NOT of reproductive potential.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Not of reproductive potential: postmenopausal or permanent infertility (tubal ligation, hysterectomy)",
+     "quote": "persons who are biological females who are postmenopausal or have another reason for permanent infertility (e.g., tubal ligation, hysterectomy, salpingo-oophorectomy).",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Contraindicated in females of reproductive potential, pregnancy, lactation",
+     "quote": "Females of Reproductive Potential; Pregnant and Lactating women; Hypersensitivity to oteseconazole.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Embryo-fetal toxicity; about 690-day exposure window",
+     "quote": "The drug exposure window of approximately 690 days (based on 5 times the half-life of oteseconazole) precludes adequate mitigation of the embryo-fetal toxicity risks.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Oteseconazole-only: 600 mg day 1, 450 mg day 2, 150 mg weekly for 11 weeks from day 14",
+     "quote": "On Day 1:Administer VIVJOA 600 mg (as a single dose), then On Day 2:Administer VIVJOA 450 mg (as a single dose), then Beginning on Day 14: Administer VIVJOA 150 mg once a week (every 7 days) for 11 weeks",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fluconazole/oteseconazole: fluconazole 150 mg days 1, 4, 7; oteseconazole 150 mg daily days 14-20; weekly for 11 weeks from day 28",
+     "quote": "On Day 1, Day 4, and Day 7:Administer fluconazole 150 mg orally, then On Days 14 through 20:Administer VIVJOA 150 mg once daily for 7 days, then Beginning on Day 28:Administer VIVJOA 150 mg once a week",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Taken with food",
+     "quote": "Administer VIVJOA orally with food.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Approved 2022",
+     "quote": "Initial U.S. Approval: 2022",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "cited_as": "U.S. National Library of Medicine, DailyMed. BREXAFEMME (ibrexafungerp tablets). Prescribing information, revised 11/2025 (version 12). Accessed November 7, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c33be3a1-c4fd-512c-e053-2995a90a63eb",
+   "kind": "label",
+   "version_or_date": "DailyMed set id c33be3a1-c4fd-512c-e053-2995a90a63eb, version 12, \"Revised: 11/2025\" (effective time 20251107); read 2026-11-07",
+   "retrieved_with": "WebFetch of official page (verbatim excerpts, max 125 characters each)",
+   "notes": "New source for ibrexafungerp dosing, pregnancy contraindication and contraception advice. Current US market availability of Brexafemme was not checked this run.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Indicated for VVC and to reduce RVVC",
+     "quote": "Treatment of vulvovaginal candidiasis (VVC). Reduction in the incidence of recurrent vulvovaginal candidiasis (RVVC).",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Acute VVC: 300 mg (two 150 mg tablets) about 12 hours apart for one day",
+     "quote": "is 300 mg (two 150 mg tablets) administered orally approximately 12 hours apart (e.g., in the morning and in the evening) for one day",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Contraindicated in pregnancy (boxed warning)",
+     "quote": "BREXAFEMME is contraindicated in pregnancy because it may cause fetal harm based on findings from animal reproductive studies.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Verify not pregnant before starting",
+     "quote": "For females of reproductive potential, verify that the patient is not pregnant prior to initiating treatment.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Contraception during VVC treatment and 4 days after",
+     "quote": "For treatment of VVC, advise females of reproductive potential to use effective contraception during treatment with BREXAFEMME and for 4 days after the last dose.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "RVVC: contraception throughout 6-month course and 4 days after",
+     "quote": "throughout the 6-month treatment period with BREXAFEMME and, for 4 days after the last dose.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Triterpenoid that inhibits glucan synthase needed for the fungal cell wall",
+     "quote": "Ibrexafungerp, a triterpenoid antifungal agent, inhibits glucan synthase, an enzyme involved in the formation of 1,3-β-D-glucan, an essential component of the fungal cell wall.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Approved 2021",
+     "quote": "Initial U.S. Approval: 2021",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Monthly regimen for RVVC",
+     "quote": "for a total daily dosage of 600 mg (four 150 mg tablets) monthly for six months.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "cited_as": "Centers for Disease Control and Prevention. Diseases Characterized by Vulvovaginal Itching, Burning, Irritation, Odor, or Discharge. Sexually Transmitted Infections Treatment Guidelines, 2021. Last reviewed July 22, 2021. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/vaginal-discharge.htm",
+   "kind": "guideline",
+   "version_or_date": "STI Treatment Guidelines, 2021; page Last Reviewed July 22, 2021; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page (verbatim excerpts, max 125 characters each)",
+   "notes": "New source for the pH and odor distinctions previously cited to ref 1 without support. Page title as reported by the fetch: \"Vulvovaginal - STI Treatment Guidelines\"; the reference names the section by its subject.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "pH above 4.5 common with BV or trichomoniasis",
+     "quote": "an elevated pH (i.e., >4.5) is common with BV or trichomoniasis",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Amine (fishy) odor suggests BV or trichomoniasis",
+     "quote": "samples that emit an amine odor immediately upon application of KOH suggest BV or trichomoniasis",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV, trichomoniasis and VVC are the infections most often behind symptoms",
+     "quote": "The infections most frequently associated with vaginal symptoms are BV ... trichomoniasis, and vulvovaginal candidiasis (VVC).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "cited_as": "Centers for Disease Control and Prevention. Bacterial Vaginosis. Sexually Transmitted Infections Treatment Guidelines, 2021. Last reviewed July 22, 2021. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/bv.htm",
+   "kind": "guideline",
+   "version_or_date": "STI Treatment Guidelines, 2021; page Last Reviewed July 22, 2021; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page (verbatim excerpts, max 125 characters each)",
+   "notes": "New source for the bacterial vaginosis discharge and odor description.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "BV discharge thin and milky",
+     "quote": "Homogeneous, thin discharge (milklike consistency) that smoothly coats the vaginal walls",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV fishy odor",
+     "quote": "A fishy odor of vaginal discharge before or after addition of 10% KOH (i.e., the whiff test)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "cited_as": "Centers for Disease Control and Prevention. Symptoms of Diabetes. Last reviewed May 15, 2024. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/diabetes/signs-symptoms/index.html",
+   "kind": "agency_page",
+   "version_or_date": "Last reviewed May 15, 2024; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page (verbatim excerpts, max 125 characters each)",
+   "notes": "New source. Replaces the unsupported claim that recurrent infections \"should prompt screening for diabetes\" with what CDC states.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Frequent yeast infections are listed among diabetes symptoms",
+     "quote": "Frequent urinary tract infections (UTIs) or yeast infections.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptom list context",
+     "quote": "Both type 1 and type 2 diabetes can have similar symptoms, including:",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "cited_as": "Nyirjesy P, Sobel JD. Genital mycotic infections in patients with diabetes. Postgrad Med. 2013;125(3):33-46.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23748505/",
+   "kind": "journal",
+   "pmid": "23748505",
+   "doi": "10.3810/pgm.2013.05.2650",
+   "record_title": "Genital mycotic infections in patients with diabetes.",
+   "record_journal": "Postgrad Med",
+   "record_year": "2013",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract and article types); found with PubMed search_articles",
+   "notes": "New source for balanitis risk factors and glucose control. PubMed article types checked this run: no Retracted Publication or Retraction Notice. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Candida balanitis almost exclusively in uncircumcised men; diabetes, especially poorly controlled, raises risk",
+     "quote": "Patients with diabetes, especially those with poorly controlled glycemia, are prone to developing genital mycotic infections-vulvovaginal candidiasis in women and Candida balanitis in men-the latter almost exclusively in uncircumcised men.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antibiotics, corticosteroids, immunosuppression also raise risk",
+     "quote": "Several other risk factors have been identified that predispose to genital mycotic infections, including antibiotic use, corticosteroid use, immunosuppression",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "High blood sugar raises risk of new and recurrent infection; glucose control key",
+     "quote": "In patients with hyperglycemia, risk is increased for not only incident infection but also for recurrence, underscoring the key role of establishing and maintaining euglycemia",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

@@ -63,10 +63,6 @@ const FAQ_ACCORDION_CSS = `
 }
 
 /* ── Dark-mode parity using the global tdmd-* theme variables ── */
-:root[data-theme="dark"] .tdmd-faq-accordion .tdmd-faq-accordion__item,
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]) .tdmd-faq-accordion .tdmd-faq-accordion__item{background:#122028;border-color:#1e3340}
-}
 :root[data-theme="dark"] .tdmd-faq-accordion .tdmd-faq-accordion__item{background:#122028;border-color:#1e3340}
 :root[data-theme="dark"] .tdmd-faq-accordion .tdmd-faq-accordion__item:hover{border-color:#2bc4cf}
 :root[data-theme="dark"] .tdmd-faq-accordion .tdmd-faq-accordion__title{color:#e2edf0}
@@ -105,12 +101,12 @@ export default function FaqAccordion({
     <div className={`tdmd-faq-accordion ${className}`.trim()} id={sectionId}>
       <style dangerouslySetInnerHTML={{ __html: FAQ_ACCORDION_CSS }} />
       {sectionTitle ? <h2 className="tdmd-faq-accordion__title">{sectionTitle}</h2> : null}
-      <div className="tdmd-faq-accordion__list" role="list">
+      <div className="tdmd-faq-accordion__list">
         {items.map((item, i) => {
           const key = item.id || `faq-${i}`;
           const isString = typeof item.answer === 'string';
           return (
-            <details key={key} className="tdmd-faq-accordion__item" role="listitem">
+            <details key={key} className="tdmd-faq-accordion__item">
               <summary
                 className="tdmd-faq-accordion__question"
                 {...(speakable ? { 'data-speakable': 'true' } : {})}
