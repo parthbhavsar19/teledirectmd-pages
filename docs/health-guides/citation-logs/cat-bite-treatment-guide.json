@@ -1,8 +1,8 @@
 {
   "guide": "cat-bite-treatment-guide",
-  "checked_at": "2026-11-15",
-  "checked_by": "Claude (repair run)",
-  "scite_verify_papers": "run 2026-11-15; 10 verified, retractions: none (10 DOIs: refs 2, 3, 4, 6, 7, 8, 9, 10, 11, 13; no editorial notices of any kind; contrasting evidence flagged for refs 7, 8, 10 and 13, see entry notes). PubMed article types checked for all 11 PubMed records: no Retracted Publication or Retraction Notice. Ref 1 (AFP) has no DOI; refs 5, 12, 14 to 19 are agency pages or a label.",
+  "checked_at": "2026-11-23",
+  "checked_by": "Claude (repair run 2026-11-15; AI-visibility run 2026-11-23)",
+  "scite_verify_papers": "run 2026-11-15; 10 verified, retractions: none (10 DOIs: refs 2, 3, 4, 6, 7, 8, 9, 10, 11, 13; no editorial notices of any kind; contrasting evidence flagged for refs 7, 8, 10 and 13, see entry notes). PubMed article types checked for all 11 PubMed records: no Retracted Publication or Retraction Notice. Ref 1 (AFP) has no DOI; refs 5, 12, 14 to 19 are agency pages or a label. | 2026-11-23 run: Scite verify_papers could not be run (account monthly MCP limit reached; resets 2026-12-14). New journal ref 21 (AFP 2023, PMID 37983702) has no DOI; PubMed record type is Journal Article with no Retracted Publication or Retraction Notice type. Refs 20, 22 and 23 are a guideline web page and agency pages. Re-run verify_papers on ref 21 when the limit resets.",
   "references": [
     {
       "n": 1,
@@ -17,7 +17,7 @@
       "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of the full article on aafp.org (three reads)",
       "retrieved_at": "2026-11-15",
       "editorial_notices": [],
-      "notes": "Corrects the old ref 4, which named Bula-Rudas FJ and Olcott JL; the record at this link is Ellis R and Ellis C. No DOI. The aafp.org page notes a newer 2023 AFP article on dog and cat bites (not used). Quotes from the aafp.org page are fragments as returned by the fetch tool.",
+      "notes": "Corrects the old ref 4, which named Bula-Rudas FJ and Olcott JL; the record at this link is Ellis R and Ellis C. No DOI. The aafp.org page notes a newer 2023 AFP article on dog and cat bites (not used). Quotes from the aafp.org page are fragments as returned by the fetch tool. 2026-11-23: the secondary-intention half of the suture sentence is now cited to ref 21, so the ref 1 claim is narrowed to what this page says (supported). The retained-tooth and bone-involvement claim also supports the new \"Get seen in person today\" bullet.",
       "claims": [
         {
           "text": "All cat bites are considered high risk for infection because they tend to cause deep puncture wounds",
@@ -74,10 +74,10 @@
           "verdict": "supported"
         },
         {
-          "text": "High-risk wounds should be left open; healing by secondary intention considered for higher-risk wounds such as hand wounds",
+          "text": "Wounds at high risk of infection should be left open",
           "quote": "Bite wounds may be closed if cosmetically desirable. However, wounds at high risk of infection should be left open.",
           "quote_source": "full_text",
-          "verdict": "partly_supported"
+          "verdict": "supported"
         },
         {
           "text": "Explore for tendon or bone involvement and tooth fragments; X-ray if foreign body or bone involvement suspected",
@@ -146,11 +146,11 @@
       "record_journal": "Clin Infect Dis",
       "record_year": "2014",
       "article_type": "Journal Article; Practice Guideline (PubMed)",
-      "version_or_date": "IDSA 2014 update; Clin Infect Dis 2014;59(2):e10-52, DOI 10.1093/cid/ciu296, as printed on the IDSA-hosted PDF; recommendations 40 to 44 (sections XI to XIV) read 2026-11-15",
-      "retrieved_with": "WebFetch of the IDSA-hosted guideline PDF (title, citation line, recommendations 40-44); PubMed get_article_metadata and convert_article_ids; Scite verify_papers",
-      "retrieved_at": "2026-11-15",
+      "version_or_date": "IDSA 2014 update; Clin Infect Dis 2014;59(2):e10-52, DOI 10.1093/cid/ciu296, as printed on the IDSA-hosted PDF; recommendations 40 to 44 (sections XI to XIV) read 2026-11-15; full text including Table 5 and evidence summaries read 2026-11-23",
+      "retrieved_with": "WebFetch of the IDSA-hosted guideline PDF (title, citation line, recommendations 40-44); PubMed get_article_metadata and convert_article_ids; Scite verify_papers; 2026-11-23: Monid tinyfish /free/fetch of the same IDSA-hosted PDF (full text including sections XI to XIV evidence summaries and Table 5)",
+      "retrieved_at": "2026-11-23",
       "editorial_notices": [],
-      "notes": "Old ref 3 linked doi 10.1093/cid/ciu444, which resolves to the Executive Summary (pp 147-159), not the e10-e52 guideline it named; now split into this ref (full guideline, IDSA PDF) and the Executive Summary ref. PubMed metadata appears to cross the two records: PMID 24947530 carries DOI ciu296 but lists pages 147-59, and PMID 24973422 carries DOI ciu444 but lists pages e10-52. The PDF text that the fetch tool could read ended before Table 5 and before the animal bite evidence summaries, so only the recommendations themselves are used. Rec 43 uses a 10-year tetanus interval; the guide follows the current CDC page (5 years for dirty wounds) and uses IDSA only for the Tdap preference.",
+      "notes": "Old ref 3 linked doi 10.1093/cid/ciu444, which resolves to the Executive Summary (pp 147-159), not the e10-e52 guideline it named; now split into this ref (full guideline, IDSA PDF) and the Executive Summary ref. PubMed metadata appears to cross the two records: PMID 24947530 carries DOI ciu296 but lists pages 147-59, and PMID 24973422 carries DOI ciu444 but lists pages e10-52. The PDF text that the fetch tool could read ended before Table 5 and before the animal bite evidence summaries, so only the recommendations themselves are used. Rec 43 uses a 10-year tetanus interval; the guide follows the current CDC page (5 years for dirty wounds) and uses IDSA only for the Tdap preference. 2026-11-23: the fetch now returned the full PDF, including the animal bite evidence summary and Table 5, so the earlier limitation no longer applies; new claims below use that text.",
       "claims": [
         {
           "text": "3 to 5 days of preemptive therapy for immunocompromised, asplenic, advanced liver disease, edema, moderate to severe injuries (especially hand or face), possible periosteum or joint capsule penetration",
@@ -185,6 +185,54 @@
         {
           "text": "No primary closure except face wounds (copious irrigation, cautious debridement, preemptive antibiotics); other wounds may be approximated",
           "quote": "Primary wound closure is not recommended for wounds, with the exception of those to the face, which should be managed with copious irrigation, cautious debridement, and preemptive antibiotics (strong, low). Other wounds may be approximated (weak, low).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Decision to give prophylactic antibiotics should be based on wound severity and host immune competence",
+          "quote": "the decision to give “prophylactic” an- tibiotics should be based on wound severity and host immune competence",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Macrolides should be avoided unless no alternative because of variable activity against Pasteurella multocida",
+          "quote": "Unless no alternative agents are available, macrolides should be avoided due to variable activity against Pasteurella multocida and fusobacteria.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Clindamycin is good against staphylococci, streptococci and anaerobes but misses P. multocida",
+          "quote": "Clindamycin 300 mg tid 600 mg every 6 – 8 h Good activity against staphylococci, streptococci, and anaerobes; misses P. multocida",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Second-generation cephalosporins (cefuroxime) cover P. multocida but miss anaerobes; add clindamycin or metronidazole if required",
+          "quote": "Second-generation cephalosporin Good activity against P. multocida; misses anaerobes ... plus anaerobic coverage (clindamycin or metronidazole) if required",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "SMX-TMP 160/800 mg twice daily has poor anaerobic activity; add clindamycin or metronidazole with SMX-TMP or levofloxacin",
+          "quote": "SMX-TMP 160 – 800 mg bid ... Good activity against aerobes; poor activity against anaerobes ... If SMX-TMP or lev- ofloxacin is used, anaerobic coverage with either clindamycin or metronidazole should be added",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Ciprofloxacin 500 to 750 mg twice daily, levofloxacin 750 mg daily; fluoroquinolones miss some anaerobes; metronidazole 250 to 500 mg three times daily",
+          "quote": "Fluoroquinolones Good activity against P. multocida; misses MRSA and some anaerobes Ciproﬂoxacin 500 – 750 mg bid ... Levofloxacin 750 mg daily ... Metronidazole 250 – 500 mg tid",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pregnancy is a relative contraindication for tetracyclines and fluoroquinolones",
+          "quote": "Pregnancy is a relative contraindication for use of tetracyclines and ﬂuoroquinolones",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Amoxicillin-clavulanate is first-line oral therapy for infected bites (used with ref 1 in the regimen table)",
+          "quote": "amoxicillin-clavulanate is appro- priate oral therapy that covers the most likely aerobes and an- aerobes found in bite wounds",
           "quote_source": "full_text",
           "verdict": "supported"
         }
@@ -246,10 +294,10 @@
       "url": "https://www.cdc.gov/tetanus/hcp/clinical-guidance/index.html",
       "record_title": "Clinical Guidance for Wound Management to Prevent Tetanus",
       "version_or_date": "Last reviewed September 8, 2026",
-      "retrieved_with": "WebFetch of official CDC page (two reads)",
-      "retrieved_at": "2026-11-15",
+      "retrieved_with": "WebFetch of official CDC page (two reads); 2026-11-23: Monid tinyfish /free/fetch of the same page (page dated and reviewed September 8, 2026)",
+      "retrieved_at": "2026-11-23",
       "editorial_notices": [],
-      "notes": "New source. Replaces unsourced tetanus bullets; old rule \"Td booster if more than 5 years\" generalized to the page wording; old \"Td plus TIG for unknown history\" kept as vaccine plus TIG for dirty wounds; child bullet removed (adult guide).",
+      "notes": "New source. Replaces unsourced tetanus bullets; old rule \"Td booster if more than 5 years\" generalized to the page wording; old \"Td plus TIG for unknown history\" kept as vaccine plus TIG for dirty wounds; child bullet removed (adult guide). 2026-11-23: list converted to a table in the guide; the TIG claim now has a direct page quote and is supported.",
       "claims": [
         {
           "text": "Animal bites and puncture wounds are dirty or major wounds for tetanus decisions",
@@ -271,13 +319,19 @@
         },
         {
           "text": "Unknown, never vaccinated or incomplete series: vaccine plus TIG; TIG also for HIV or severe immunodeficiency with dirty wounds",
-          "quote": "TIG is indicated for dirty or major wounds in people with an unknown history, no prior tetanus vaccines, an incomplete primary series, HIV, or severe immunodeficiency (fetch tool summary of the page list).",
+          "quote": "Vaccination recommended ... People with an unknown vaccination history ... Unvaccinated people ... People with an incomplete tetanus primary series ... TIG ... For dirty or major wounds ... People with HIV ... People with a severe immunodeficiency",
           "quote_source": "official_page",
-          "verdict": "partly_supported"
+          "verdict": "supported"
         },
         {
           "text": "Antibiotics are not recommended as tetanus prevention during wound care",
           "quote": "Antibiotics (topical or systemic) aren't recommended during wound care to protect against tetanus.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "TIG dose when indicated: 250 international units intramuscularly",
+          "quote": "If indicated, administer 250 international units of TIG intramuscularly.",
           "quote_source": "official_page",
           "verdict": "supported"
         }
@@ -552,9 +606,9 @@
       "cited_as": "Centers for Disease Control and Prevention (CDC). Rabies Post-exposure Prophylaxis Guidance. Reviewed September 10, 2026.",
       "url": "https://www.cdc.gov/rabies/hcp/clinical-care/post-exposure-prophylaxis.html",
       "record_title": "Rabies Post-exposure Prophylaxis Guidance",
-      "version_or_date": "Last reviewed September 10, 2026",
-      "retrieved_with": "WebFetch of official CDC page (two reads)",
-      "retrieved_at": "2026-11-15",
+      "version_or_date": "Reviewed September 10, 2026; page updated September 17, 2026 (read 2026-11-23)",
+      "retrieved_with": "WebFetch of official CDC page (two reads); 2026-11-23: Monid tinyfish /free/fetch of the same page (updated September 17, 2026; reviewed September 10, 2026)",
+      "retrieved_at": "2026-11-23",
       "editorial_notices": [],
       "notes": "New source for wound cleansing and the PEP description that was previously uncited.",
       "claims": [
@@ -579,6 +633,24 @@
         {
           "text": "No PEP failures in immunocompetent patients with US cell culture vaccines",
           "quote": "there have been no PEP failures in immunocompetent patients.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Immediate gentle irrigation with water or dilute povidone-iodine significantly decreases bacterial infection risk for many bite wounds",
+          "quote": "For many types of bite wounds, immediate and gentle irrigation with water or a dilute water povidone-iodine solution has been shown to significantly decrease the risk of bacterial infection.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "In animal studies, thorough wound cleansing alone markedly reduced the likelihood of rabies",
+          "quote": "In animal studies, thorough wound cleansing alone without other medical treatments (e.g., vaccine) has been shown to markedly reduce the likelihood of developing rabies.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Use a virucidal agent such as povidone-iodine to irrigate, if available",
+          "quote": "If available, use a virucidal agent such as a povidone-iodine solution to irrigate the wounds.",
           "quote_source": "official_page",
           "verdict": "supported"
         }
@@ -705,8 +777,8 @@
       "url": "https://www.cdc.gov/rabies/hcp/diagnosis/index.html",
       "record_title": "Clinical Screening for Rabies PEP",
       "version_or_date": "Last reviewed September 11, 2026",
-      "retrieved_with": "WebFetch of official CDC page",
-      "retrieved_at": "2026-11-15",
+      "retrieved_with": "WebFetch of official CDC page; 2026-11-23: Monid tinyfish /free/fetch of the same page (updated and reviewed September 11, 2026)",
+      "retrieved_at": "2026-11-23",
       "editorial_notices": [],
       "notes": "New source. The old line \"Once clinical rabies develops, there is no effective treatment\" was replaced with the page wording.",
       "claims": [
@@ -719,6 +791,18 @@
         {
           "text": "Contact state or local health department; a health official familiar with rabies should do the risk assessment",
           "quote": "contact your state or local health department ... A health official familiar with rabies should always conduct the risk assessment.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most rabies exposures need quick medical attention but not an immediate ER trip unless the wound needs urgent care",
+          "quote": "Most rabies exposures require medical attention quickly, but they do not require an immediate trip to the emergency room unless the wound needs urgent medical attention.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Unprovoked bites and signs of apparent illness are often associated with rabid animals",
+          "quote": "Unprovoked bite or scratches, and signs of apparent illness are often associated with rabid animals.",
           "quote_source": "official_page",
           "verdict": "supported"
         }
@@ -745,6 +829,209 @@
         {
           "text": "If the cat is alive and well 10 days after the bite, there was no rabies risk at the time of the bite",
           "quote": "If the cat is alive and well 10 days following the bite, then there was no risk of rabies at the time of the bite.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "kind": "guideline",
+      "cited_as": "National Institute for Health and Care Excellence (NICE). Human and animal bites: antimicrobial prescribing. NICE guideline NG184. Published November 4, 2020.",
+      "url": "https://www.nice.org.uk/guidance/ng184/chapter/Recommendations",
+      "record_title": "Recommendations | Human and animal bites: antimicrobial prescribing | Guidance | NICE",
+      "version_or_date": "NG184, published 04 November 2020; recommendations 1.1.1 to 1.2.3 and Table 1 read 2026-11-23",
+      "retrieved_with": "Monid tinyfish /free/fetch of the official NICE recommendations page (run 01M858N183H8DE8JBZRYWCX7TN)",
+      "retrieved_at": "2026-11-23",
+      "editorial_notices": [],
+      "notes": "New source. Cited by both ChatGPT answers checked on 2026-11-23. UK guideline: co-amoxiclav is the UK name for amoxicillin-clavulanate, and the guide labels the NICE dose as the NICE regimen. Adult table (Table 1) only; the paediatric table is not used. The Rationales chapter URL returned 404 and was not used.",
+      "claims": [
+        {
+          "text": "Do not offer prophylaxis for a cat bite that has not broken the skin",
+          "quote": "Do not offer antibiotic prophylaxis to people with a cat bite that has not broken the skin.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Offer prophylaxis for a cat bite that has broken the skin and drawn blood",
+          "quote": "Offer antibiotic prophylaxis (see the recommendations on choice of antibiotic) to people with a cat bite that has broken the skin and drawn blood.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Consider prophylaxis for a cat bite that broke the skin without drawing blood if the wound could be deep",
+          "quote": "Consider antibiotic prophylaxis for people with a cat bite that has broken the skin but not drawn blood if the wound could be deep.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Comorbidities such as diabetes, immunosuppression, asplenia or decompensated liver disease put a person at risk of serious wound infection",
+          "quote": "is in a person at risk of a serious wound infection because of a comorbidity (such as diabetes, immunosuppression, asplenia or decompensated liver disease).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Offer an antibiotic for signs of infection: increased pain, inflammation, fever, discharge or unpleasant smell",
+          "quote": "Offer an antibiotic ... if there are symptoms or signs of infection, such as increased pain, inflammation, fever, discharge or an unpleasant smell.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Seek help if signs worsen rapidly or do not start to improve within 24 to 48 hours; reassess if systemically unwell or pain out of proportion",
+          "quote": "symptoms or signs of infection develop or worsen rapidly or significantly at any time, or do not start to improve within 24 to 48 hours of starting treatment or the person becomes systemically unwell or ... severe pain that is out of proportion",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Refer to hospital for severe cellulitis, abscess, osteomyelitis, septic arthritis, necrotising fasciitis, sepsis, or a penetrating wound into arteries, joints, nerves, tendons or bones",
+          "quote": "severe cellulitis, abscess, osteomyelitis, septic arthritis, necrotising fasciitis or sepsis) or a penetrating wound involving arteries, joints, nerves, muscles, tendons, bones or the central nervous system.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Consider referral if systemically unwell, lymphangitis, infection after prophylaxis, pre-existing risk condition, or not responding to oral antibiotics",
+          "quote": "they are systemically unwell or they have developed symptoms or signs of infection after taking prophylactic antibiotics or they have lymphangitis or they are at risk of a serious wound infection because of a pre-existing medical condition",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Adult first choice co-amoxiclav 250/125 mg or 500/125 mg three times a day; prophylaxis 3 days, treatment 5 days",
+          "quote": "course length for prophylaxis (3 days) and treatment (5 days) | First-choice oral antibiotic | Co‑amoxiclav: 250/125 mg or 500/125 mg three times a day",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Penicillin allergy: doxycycline 200 mg day 1 then 100 or 200 mg daily with metronidazole 400 mg three times a day; specialist advice in pregnancy",
+          "quote": "Doxycycline: 200 mg on first day, then 100 mg or 200 mg daily with Metronidazole: 400 mg three times a day | ... in pregnancy for penicillin allergy ... Seek specialist advice",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Treatment course 5 days, up to 7 with review for significant tissue destruction or penetration of bone, joint, tendon or vascular structures",
+          "quote": "A 5‑day course is appropriate for treating most human or animal bites, but course length can be increased to 7 days (with review) ... if there is significant tissue destruction or it has penetrated bone, joint, tendon or vascular structures.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "IV co-amoxiclav 1.2 g three times a day if unable to take oral antibiotics or severely unwell",
+          "quote": "First-choice intravenous antibiotic (if unable to take oral antibiotics or severely unwell) | Co‑amoxiclav: 1.2 g three times a day",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "kind": "journal",
+      "cited_as": "Ortiz DD, Lezcano FO. Dog and Cat Bites: Rapid Evidence Review. Am Fam Physician. 2023;108(5):501-505. PMID 37983702.",
+      "url": "https://www.aafp.org/pubs/afp/issues/2023/1100/dog-cat-bites.html",
+      "pmid": "37983702",
+      "record_title": "Dog and Cat Bites: Rapid Evidence Review.",
+      "record_journal": "Am Fam Physician",
+      "record_year": "2023",
+      "article_type": "Journal Article (PubMed); a narrative evidence review",
+      "retrieved_with": "PubMed get_article_metadata (abstract, authors, volume, pages); Monid tinyfish /free/fetch of the full article on aafp.org including Tables 1 to 4 (run 01M858N183H8DE8JBZRYWCX7TN)",
+      "retrieved_at": "2026-11-23",
+      "editorial_notices": [],
+      "notes": "New source; updates ref 1 (Ellis and Ellis 2014) and is cited by ChatGPT. No DOI in the PubMed record. Scite verify_papers could not be run this session (monthly limit); PubMed article type shows no retraction. Its Table 2 alternative (clindamycin plus ciprofloxacin) is AFP guidance, labeled as such in the guide.",
+      "claims": [
+        {
+          "text": "Bites at increased risk of infection, including any cat bite that penetrates the skin, should heal by secondary intention",
+          "quote": "Bites at increased risk of infection, including any cat bite that penetrates the skin, should be allowed to heal by secondary intention.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Factors that increase infection risk include bites to the face, feet, genitalia or hand, and cat bites that penetrate the skin",
+          "quote": "Factors That Increase the Risk of Infection in Dog and Cat Bites | Bite location | Face | Feet | Genitalia | Hand ... Cat bites that penetrate the skin",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Prophylaxis not warranted for bites that have not broken the skin or drawn blood",
+          "quote": "For bites that have not broken the skin or drawn blood, antibiotic prophylaxis is not warranted.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Adult first line amoxicillin/clavulanate 875 mg/125 mg every 12 hours; alternative clindamycin 300 mg three times daily plus ciprofloxacin 500 mg twice daily; all regimens 3 to 7 days",
+          "quote": "First line: amoxicillin/clavulanate, 875 mg/125 mg every 12 hours | Alternative: clindamycin, 300 mg three times per day plus ciprofloxacin, 500 mg twice per day ... All regimens should be given for three to seven days.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Azithromycin has variable activity against Pasteurella and a high failure rate",
+          "quote": "Azithromycin has variable activity against Pasteurella and a high failure rate.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Animal available and completes 10-day confinement: PEP not indicated; positive test: give PEP; animal not available: PEP may be indicated, consult a public health official",
+          "quote": "Quarantine or home confinement of the animal for 10 days if the animal is healthy ... Negative or animal successfully completes quarantine/home confinement | Postexposure prophylaxis not indicated ... Not available (unknown or escaped animal) ... consult a public health official",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Positive rabies test in the animal: administer PEP",
+          "quote": "Positive | Administer postexposure prophylaxis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention (CDC). Zoonotic Exposures: Bites, Scratches, and Other Hazards. CDC Yellow Book. Page dated April 23, 2025.",
+      "url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/zoonotic-exposures.html",
+      "record_title": "Zoonotic Exposures: Bites, Scratches, and Other Hazards",
+      "version_or_date": "Page published date 2025-04-23 as returned by the fetch tool; read 2026-11-23",
+      "retrieved_with": "Monid tinyfish /free/fetch of the official CDC page (run 01M858N183H8DE8JBZRYWCX7TN)",
+      "retrieved_at": "2026-11-23",
+      "editorial_notices": [],
+      "notes": "New source for the wash-time instruction. The chapter is written for travelers; the guide says \"CDC travel guidance\". MedlinePlus (3 to 5 minutes) was read but not used because its page terms restrict automated extraction and AI use.",
+      "claims": [
+        {
+          "text": "Wash bite and scratch wounds as soon as possible with soap and running water for at least 20 minutes",
+          "quote": "they should clean the wound as soon as possible by washing with soap and running water for ≥20 minutes to reduce the risk of infections like B virus or rabies.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention (CDC). Information for Veterinarians: Rabies. July 16, 2025.",
+      "url": "https://www.cdc.gov/rabies/hcp/veterinarians/index.html",
+      "record_title": "Information for Veterinarians",
+      "version_or_date": "Page dated July 16, 2025; read 2026-11-23",
+      "retrieved_with": "Monid tinyfish /free/search (cdc.gov, run 01M858RJA2AMK47A42JBF5P0KA) then /free/fetch of the official CDC page (run 01M858RQZYEGEA75ZQXJRZRAYQ)",
+      "retrieved_at": "2026-11-23",
+      "editorial_notices": [],
+      "notes": "New CDC primary source for the 10-day observation rule, alongside ref 19 (Minnesota) and ref 21. The older CDC domestic-animal URL returned 404.",
+      "claims": [
+        {
+          "text": "Confine and observe a healthy cat that exposed a person for 10 days, in coordination with public health authorities",
+          "quote": "In coordination with public health authorities, confine and observe a healthy dog, cat, or ferret suspected of having rabies that exposes a person or pet for 10 days post-exposure.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Even vaccinated animals should be observed for 10 days after a bite because rare vaccine failures occur",
+          "quote": "Although rare, rabies vaccine failures in animals do occur. Therefore, even animals with a history of vaccination should be observed for 10 days after they bite or scratch a person.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Illness during the 10 days is reported to the health department; a suspected rabid animal is euthanized and tested",
+          "quote": "If signs of illness develop during the 10 days following the bite ... immediately report the situation to the local health department. If you suspect rabies, euthanize the animal and contact public health officials to coordinate testing",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Rabies virus can be in the saliva during illness and several days before signs develop",
+          "quote": "Rabies virus can be present in the saliva of infected dogs, cats, and ferrets during illness and even several days before clinical signs develop.",
           "quote_source": "official_page",
           "verdict": "supported"
         }
