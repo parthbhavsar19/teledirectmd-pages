@@ -240,8 +240,8 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
 
   return (
     <div className="wwt-root">
-      {/* Hero: doctor first, navy (picked by Parth, Nov 23 2026) */}
-      <HeroDoctor />
+      {/* Hero: doctor first, navy, with condition search (Parth, Nov 23 2026) */}
+      <HeroDoctor onSearch={(text) => { setQuery(text); setActiveCat('all'); scrollToCategory('all'); }} />
 
       {/* By the numbers */}
       {/* Counter reads "60+": condition copy is never an exact count. */}

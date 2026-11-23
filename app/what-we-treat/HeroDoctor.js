@@ -1,4 +1,10 @@
-/* What We Treat hero: doctor first, dark navy palette (Parth's pick, Nov 23 2026). */
+'use client';
+
+import { useState } from 'react';
+
+/* What We Treat hero: doctor first, dark navy palette (Parth's pick, Nov 23 2026),
+   with the condition search bar from preview A at the top (his ask, same day).
+   Search hands the text to the page's own filter and scrolls to the cards. */
 
 const CONDITIONS = [
   { label: 'UTI (women)', href: '/uti-treatment-online/' },
@@ -17,7 +23,12 @@ function Icon({ name }) {
   return (<svg {...p}><path d="M4 12l5 5L20 6" /></svg>);
 }
 
-export default function HeroDoctor() {
+export default function HeroDoctor({ onSearch }) {
+  const [draft, setDraft] = useState('');
+  const submit = (e) => {
+    e.preventDefault();
+    if (onSearch) onSearch(draft.trim());
+  };
   return (
     <section className="wwt-hd" aria-labelledby="wwt-hd-title">
       <div className="wwt-container wwt-hd-grid">
@@ -28,6 +39,23 @@ export default function HeroDoctor() {
           </div>
           <span className="wwt-eyebrow wwt-hd-eyebrow">What we treat</span>
           <h1 id="wwt-hd-title">60+ conditions, treated by a real doctor.</h1>
+          <form className="wwt-hd-search" role="search" onSubmit={submit}>
+            <label htmlFor="wwt-hd-q" className="wwt-hd-sr">Search conditions</label>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <circle cx="11" cy="11" r="7" stroke="currentColor" strokeWidth="2" />
+              <path d="M20 20l-3.5-3.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+            </svg>
+            <input
+              id="wwt-hd-q"
+              type="search"
+              value={draft}
+              onChange={(e) => setDraft(e.target.value)}
+              placeholder="Search a condition"
+              autoComplete="off"
+              enterKeyHint="search"
+            />
+            <button type="submit">Search</button>
+          </form>
           <nav className="wwt-hd-conds" aria-label="Common conditions">
             {CONDITIONS.map((c) => (
               <a key={c.label} href={c.href}>{c.label}</a>
