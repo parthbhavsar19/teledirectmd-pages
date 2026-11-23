@@ -3,6 +3,7 @@ import { getStates, getStateBySlug, getConditionCategories } from '../../lib/get
 import { getStateInsurance } from '../../lib/insurance-data';
 import { getInsurersForState } from '../../lib/internal-links';
 import { CitableSummaryBlock } from '../components/CitableSummary';
+import { STATE_SHAPES } from '../../lib/state-shapes';
 import FaqAccordion from '../components/FaqAccordion';
 import { FlCredentialBlock, FlFooterCompliance } from '../components/FlCompliance';
 import { TxComplaintNoticeLink } from '../components/TxComplaintNotice';
@@ -253,6 +254,7 @@ export default function StateLandingPage({ stateSlug }) {
     ? stateTpl.stateEligibility.localTriggers.filter(Boolean)
     : [];
   const noteLabel = `${state.name}-specific guidance on this page`;
+  const stateShape = STATE_SHAPES[(state.abbr || '').toLowerCase()];
 
   return (
     <>
@@ -318,6 +320,9 @@ export default function StateLandingPage({ stateSlug }) {
           <style dangerouslySetInnerHTML={{ __html: `.tdmd-mobile-sticky-bar .tdmd-sticky-bar-text span{font-size:0;}.tdmd-mobile-sticky-bar .tdmd-sticky-bar-text span::after{content:"Self-pay only in ${state.name}";font-size:0.82rem;}` }} />
         )}
         <section className="cpr-hero" id={`${pid}-hero`}>
+          {stateShape && (
+            <svg className="shx-hero-map" viewBox={stateShape.vb} aria-hidden="true" focusable="false"><path d={stateShape.d} /></svg>
+          )}
           <div className="cpr-hero-wrap cpr-hero-grid">
             <div className="shx-hero-head">
               <h1 data-speakable="true">Online Doctor in {state.name} with TeleDirectMD</h1>
@@ -334,7 +339,12 @@ export default function StateLandingPage({ stateSlug }) {
             </div>
 
             <aside className="cpr-hero-hcard shx-glance" aria-labelledby={`${pid}-glance`}>
-              <h2 id={`${pid}-glance`}>{state.name} at a glance</h2>
+              <div className="shx-glance-head">
+                {stateShape && (
+                  <svg className="shx-glance-map" viewBox={stateShape.vb} aria-hidden="true" focusable="false"><path d={stateShape.d} /></svg>
+                )}
+                <h2 id={`${pid}-glance`}>{state.name} at a glance</h2>
+              </div>
               <dl data-speakable="true">
                 <div className="shx-row">
                   <dt>Visit fee</dt>
@@ -342,7 +352,7 @@ export default function StateLandingPage({ stateSlug }) {
                 </div>
                 <div className="shx-row">
                   <dt>Your physician</dt>
-                  <dd><strong>Parth Bhavsar, MD</strong>, board-certified in family medicine. MD-only, never an NP or PA.</dd>
+                  <dd className="shx-doc"><img src="/images/bhavsar-avatar.webp" alt="Parth Bhavsar, MD" width="44" height="44" /><span><strong>Parth Bhavsar, MD</strong>, board-certified in family medicine. MD-only, never an NP or PA.</span></dd>
                 </div>
                 {stateLicense?.licenseNumber && (
                   <div className="shx-row">
@@ -432,9 +442,13 @@ export default function StateLandingPage({ stateSlug }) {
                 {commonConcerns.map((cc) => (
                   <li key={cc.slug}>
                     <a href={stateConditionHref(stateSlug, cc.slug)}>
-                      <span className="shx-glyph" aria-hidden="true" dangerouslySetInnerHTML={{ __html: CONDITION_ICONS[cc.icon] || '' }} />
-                      <span className="shx-start-name">{cc.label}</span>
-                      <span className="shx-start-sub">{cc.sub}</span>
+                      <span className="shx-start-art">
+                        <img src={`/images/wwt/card/${cc.slug}.webp`} alt="" width="480" height="268" loading="lazy" decoding="async" />
+                      </span>
+                      <span className="shx-start-text">
+                        <span className="shx-start-name">{cc.label}</span>
+                        <span className="shx-start-sub">{cc.sub}</span>
+                      </span>
                       {stateNoteSlugs.has(cc.slug) && <span className="shx-dot" role="img" aria-label={noteLabel} />}
                     </a>
                   </li>
@@ -443,39 +457,44 @@ export default function StateLandingPage({ stateSlug }) {
             </div>
           )}
 
-          <nav className="shx-jump" aria-label="Condition categories">
-            {indexCategories.map((cat) => (
-              <a key={cat.categorySlug} href={`#${pid}-cat-${cat.categorySlug}`}>
-                {cat.categoryName}<span>{cat.links.length}</span>
-              </a>
-            ))}
-          </nav>
-
           {notedCount > 0 && (
             <p className="shx-legend"><span className="shx-dot" aria-hidden="true" />{notedCount} condition page{notedCount !== 1 ? 's' : ''} below include{notedCount === 1 ? 's' : ''} {state.name}-specific guidance.</p>
           )}
 
+          {/* Each category is a native <details>: closed by default so the
+             index reads as eight short rows, opened with a click, Enter or
+             Space. The links stay in the server HTML either way, so crawlers
+             and AI readers see all of them. Find-in-page opens a match. */}
           <div className="shx-index">
-            {indexCategories.map((cat) => (
-              <section key={cat.categorySlug} className="shx-cat" id={`${pid}-cat-${cat.categorySlug}`} aria-labelledby={`${pid}-cat-${cat.categorySlug}-h`}>
-                <div className="shx-cat-head">
-                  <span className="shx-glyph" aria-hidden="true" dangerouslySetInnerHTML={{ __html: CONDITION_ICONS[CATEGORY_ICON[cat.categorySlug]] || '' }} />
-                  <h3 id={`${pid}-cat-${cat.categorySlug}-h`}>{cat.categoryName}</h3>
-                  <span className="shx-cat-count" aria-label={`${cat.links.length} condition${cat.links.length !== 1 ? 's' : ''}`}>{cat.links.length}</span>
-                </div>
-                <p className="shx-cat-desc">{cat.categoryDescription}</p>
-                <ul>
-                  {cat.links.map((c) => (
-                    <li key={c.slug}>
-                      <a href={stateConditionHref(stateSlug, c.slug)}>
-                        {c.name}
-                        {stateNoteSlugs.has(c.slug) && <span className="shx-dot" role="img" aria-label={noteLabel} />}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </section>
-            ))}
+            {indexCategories.map((cat) => {
+              const noted = cat.links.filter((c) => stateNoteSlugs.has(c.slug)).length;
+              return (
+                <details key={cat.categorySlug} className="shx-cat" id={`${pid}-cat-${cat.categorySlug}`}>
+                  <summary>
+                    <span className="shx-glyph" aria-hidden="true" dangerouslySetInnerHTML={{ __html: CONDITION_ICONS[CATEGORY_ICON[cat.categorySlug]] || '' }} />
+                    <h3 id={`${pid}-cat-${cat.categorySlug}-h`}>{cat.categoryName}</h3>
+                    {noted > 0 && (
+                      <span className="shx-cat-noted"><span className="shx-dot" aria-hidden="true" /><span className="shx-cat-noted-n">{noted}</span><span className="shx-sr"> with {state.name}-specific guidance</span></span>
+                    )}
+                    <span className="shx-cat-count">{cat.links.length}<span className="shx-cat-unit"> condition{cat.links.length !== 1 ? 's' : ''}</span></span>
+                    <span className="shx-chev" aria-hidden="true" />
+                  </summary>
+                  <div className="shx-cat-body">
+                    <p className="shx-cat-desc">{cat.categoryDescription}</p>
+                    <ul>
+                      {cat.links.map((c) => (
+                        <li key={c.slug}>
+                          <a href={stateConditionHref(stateSlug, c.slug)}>
+                            {c.name}
+                            {stateNoteSlugs.has(c.slug) && <span className="shx-dot" role="img" aria-label={noteLabel} />}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </details>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -486,36 +505,35 @@ export default function StateLandingPage({ stateSlug }) {
           <h2 itemProp="name">How TeleDirectMD Works in {state.name}</h2>
           <p className="shx-lede">Getting care takes just three simple steps. Most visits are completed in under 15 minutes.</p>
 
-          <div className="shx-how-grid">
-            <div>
-              <ol className="shx-steps">
-                <li>
-                  <h3>Book Your Visit</h3>
-                  <p>Choose your condition and select a same-day or next-day appointment. No referral needed.</p>
-                </li>
-                <li>
-                  <h3>See Your Doctor</h3>
-                  <p>Meet with a licensed {state.name} MD via secure video. Discuss symptoms, review history, and get a diagnosis.</p>
-                </li>
-                <li>
-                  <h3>Get Your Treatment</h3>
-                  <p>Receive your treatment plan and prescriptions sent directly to a {state.name} pharmacy like {pharmacies[0]} or {pharmacies[1] || 'Walgreens'}.</p>
-                </li>
-              </ol>
-              <div className="shx-how-cta">
-                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit Now</a>
-              </div>
-            </div>
-
-            {localTriggers.length > 0 && (
-              <div className="shx-rules" aria-labelledby={`${pid}-rules`}>
-                <h3 id={`${pid}-rules`}>What {state.name} rules mean for your visit</h3>
-                <ul>
-                  {localTriggers.map((t) => <li key={t}>{t}</li>)}
-                </ul>
-              </div>
-            )}
+          <ol className="shx-steps">
+            <li>
+              <img src="/images/steps/hub-step-book.webp" alt="" width="960" height="640" loading="lazy" decoding="async" />
+              <h3>Book Your Visit</h3>
+              <p>Choose your condition and select a same-day or next-day appointment. No referral needed.</p>
+            </li>
+            <li>
+              <img src="/images/steps/hub-step-visit.webp" alt="" width="960" height="640" loading="lazy" decoding="async" />
+              <h3>See Your Doctor</h3>
+              <p>Meet with a licensed {state.name} MD via secure video. Discuss symptoms, review history, and get a diagnosis.</p>
+            </li>
+            <li>
+              <img src="/images/steps/hub-step-pharmacy.webp" alt="" width="960" height="640" loading="lazy" decoding="async" />
+              <h3>Get Your Treatment</h3>
+              <p>Receive your treatment plan and prescriptions sent directly to a {state.name} pharmacy like {pharmacies[0]} or {pharmacies[1] || 'Walgreens'}.</p>
+            </li>
+          </ol>
+          <div className="shx-how-cta">
+            <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit Now</a>
           </div>
+
+          {localTriggers.length > 0 && (
+            <div className="shx-rules" aria-labelledby={`${pid}-rules`}>
+              <h3 id={`${pid}-rules`}>What {state.name} rules mean for your visit</h3>
+              <ul>
+                {localTriggers.map((t) => <li key={t}>{t}</li>)}
+              </ul>
+            </div>
+          )}
         </div>
       </section>
 
