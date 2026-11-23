@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/gen-insurance-dead-paths.js && node scripts/check-uti-scope.js && node scripts/check-state-coverage.js && node scripts/update-cyclosporiasis-monitor.js && node scripts/inject-health-guides-citable.js",
+    "prebuild": "node scripts/gen-insurance-dead-paths.js && node scripts/check-uti-scope.js && node scripts/check-state-coverage.js && node scripts/update-cyclosporiasis-monitor.js && node scripts/inject-health-guides-citable.js && node scripts/check-uti-faq-pages.js",
     "check:states": "node scripts/check-state-coverage.js",
     "test:prescribing-policy": "python3 scripts/check-prescribing-policy.py",
     "test:uti-scope": "node scripts/check-uti-scope.js",
-    "build": "next build",
+    "test:uti-faq": "node scripts/check-uti-faq-pages.js",
+    "uti-faq:lock": "node scripts/check-uti-faq-pages.js --update-lock",
+    "build": "next build && node scripts/check-uti-faq-pages.js --built",
     "start": "next start",
     "postbuild": "node scripts/page-manifest.js || true"
   },
