@@ -19,8 +19,8 @@ export async function generateMetadata({ params }) {
   /* Check if this is a state slug */
   const state = getStateBySlug(slug);
   if (state) {
-    const title = `Online Doctor in ${state.name} | TeleDirectMD Telehealth Visits`;
-    const description = `See an MD-only doctor online in ${state.name}. TeleDirectMD offers same-day video visits for urgent care, chronic medication refills, skin conditions, and more — for a flat $79 with no insurance required.`;
+    const title = `Online Doctor in ${state.name}, $79 MD Video Visit | TeleDirectMD`;
+    const description = `See an MD-only doctor online in ${state.name}. TeleDirectMD offers same-day video visits for urgent care, chronic medication refills, skin conditions, and more for a flat $79, with no insurance required.`;
     const pageUrl = `${baseUrl}/${slug}`;
     return {
       title,
