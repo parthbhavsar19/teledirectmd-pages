@@ -78,7 +78,7 @@ ${ld}
 <button class="theme-btn" type="button" aria-label="Switch light or dark theme">${moon}</button>
 </div></header>
 <main id="main"><div class="wrap">
-${o.body}
+${o.staleNote ? staleNote(R) : ""}${o.body}
 </div></main>
 <footer class="site"><div class="wrap">
 <div class="foot-grid">
@@ -90,6 +90,25 @@ ${FOOT.map(([h, links]) => `<div><h4>${h}</h4><ul>${links.map(([u, l]) => `<li><
 ${(o.scripts || []).map((s) => `<script src="${R}assets/${s}" defer></script>`).join("\n")}
 </body>
 </html>
+`;
+}
+
+/** Days between two YYYY-MM-DD dates (b minus a). */
+const dayDiff = (a, b) => Math.round((Date.parse(b + "T00:00:00Z") - Date.parse(a + "T00:00:00Z")) / 864e5);
+export const STALE_DAYS = 14;
+
+/**
+ * "May be out of date" note for pages built on the weekly CDC data. The pages are static, so a failed weekly
+ * refresh would otherwise leave them looking current: assets/site.js shows the note in the reader's browser
+ * once the newest data week is more than STALE_DAYS old. It is rendered visible when that is already true at
+ * build time, so it also works without JavaScript.
+ */
+export function staleNote(R = "") {
+  const end = SITE.weekEnd;
+  if (!end) return "";
+  const today = new Date().toISOString().slice(0, 10);
+  const staleNow = dayDiff(end, today) > STALE_DAYS;
+  return `<div class="callout warn stale-note" id="stale-note" role="status" data-week-end="${end}" data-limit="${STALE_DAYS}"${staleNow ? "" : " hidden"}><p class="callout-title">These numbers may be out of date</p><p>The newest data on this page is for the ${esc(SITE.weekLabel.replace(/^Week/, "week"))}, more than two weeks ago. CDC may have delayed its weekly release, or FluHub's weekly update may be running late. For CDC's latest national report, see <a href="https://www.cdc.gov/fluview/" target="_blank" rel="noopener">FluView</a>.</p></div>
 `;
 }
 

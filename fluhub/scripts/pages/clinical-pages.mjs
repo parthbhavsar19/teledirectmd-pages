@@ -8,6 +8,7 @@ import { birdFluWatchBox } from "../lib/local.mjs";
 export const CHECKED = "October 5, 2026";
 /** Pages re-verified against their primary sources in the November 2026 refresh. */
 export const RECHECKED = "November 23, 2026";
+export const RECHECKED_ISO = "2026-11-23";
 
 export function ctaBox(context = "") {
   if (!SITE.cta.enabled) return "";
@@ -317,7 +318,7 @@ ${sourceList(list)}`;
   <p>Four people, all children, were infected with swine-origin H1N2v flu in the 2025–26 season, including two in Michigan who had visited the same agricultural fair where pigs were sick.${c("fluview2632")} Variant cases are usually mild and tied to direct contact with pigs at fairs.</p>
 </div>
 ${sourceList(list)}`;
-    await emit("bird-flu.html", page({ path: "bird-flu.html", active: "bird-flu.html", title: "Bird flu (H5N1) in the U.S.: cases, risk, and precautions", description: "CDC's count of human H5 bird flu cases in the United States, the first H5N5 death, who is at risk, and how to protect yourself.", body, jsonld: [medPageLD("Avian influenza A(H5) in the United States", "bird-flu.html")] }));
+    await emit("bird-flu.html", page({ path: "bird-flu.html", active: "bird-flu.html", title: "Bird flu (H5N1) in the U.S.: cases, risk, and precautions", description: "CDC's count of human H5 bird flu cases in the United States, the first H5N5 death, who is at risk, and how to protect yourself.", body, jsonld: [medPageLD("Avian influenza A(H5) in the United States", "bird-flu.html", RECHECKED_ISO)] }));
   }
 
   /* ================= Methods and review ================= */
@@ -356,10 +357,10 @@ ${sourceList(list)}`;
     await emit("methods.html", page({ path: "methods.html", title: "Sources, methods, and clinical review", description: "FluHub's data sources, definitions, refresh schedule, and the physician review process for clinical content.", body }));
   }
 
-  function medPageLD(name, path) {
+  function medPageLD(name, path, reviewed = "2026-10-05") {
     return {
       "@context": "https://schema.org", "@type": "MedicalWebPage", name, url: SITE.baseUrl + path,
-      lastReviewed: "2026-10-05", reviewedBy: { "@type": "Physician", name: SITE.editor, medicalSpecialty: "FamilyMedicine" },
+      lastReviewed: reviewed, reviewedBy: { "@type": "Physician", name: SITE.editor, medicalSpecialty: "FamilyMedicine" },
       audience: { "@type": "PeopleAudience", audienceType: "Patient" }, about: { "@type": "MedicalCondition", name: "Influenza" },
     };
   }

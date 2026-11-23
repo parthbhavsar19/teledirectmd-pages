@@ -107,7 +107,7 @@ ${banners}
   <p class="small muted">Sources: <a href="https://data.cdc.gov/d/rdmq-nq56" target="_blank" rel="noopener">CDC NSSP emergency department visits</a>; <a href="https://data.cdc.gov/d/atcp-73re" target="_blank" rel="noopener">CDC wastewater viral activity levels</a> (public domain; includes sites run by WastewaterSCAN and states) linked to counties with <a href="https://data.cdc.gov/d/ymmh-divb" target="_blank" rel="noopener">CDC wastewater site data</a>; <a href="https://data.cdc.gov/d/ahfs-x44r" target="_blank" rel="noopener">CDC epidemic trends and Rt</a> and <a href="https://data.cdc.gov/d/5dqz-y4ea" target="_blank" rel="noopener">state estimates</a>; <a href="https://data.cdc.gov/d/vdzy-6i9v" target="_blank" rel="noopener">CDC NHSN hospital admission levels</a>; ZIP to county matching from the <a href="https://www.census.gov/geographies/reference-files/time-series/geo/relationship-files.html" target="_blank" rel="noopener">U.S. Census Bureau 2020 relationship files</a>.</p>
 </section>`;
 
-  await emit("flu-near-you.html", page({
+  await emit("flu-near-you.html", page({ staleNote: true,
     path: "flu-near-you.html", active: "flu-near-you.html",
     title: "Flu near you: county flu activity by ZIP code",
     description: "Check flu in your county by ZIP code: CDC emergency department visits for flu, wastewater flu levels, and the chance flu is growing, with plain-language guidance and a state-by-state table.",

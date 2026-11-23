@@ -175,7 +175,7 @@ ${topStatesHTML({ R: "" })}
   <p>Sources: ${Object.values(meta.sources).filter((s) => ["activity", "ilinet", "labs", "nhsn"].includes(Object.keys(meta.sources).find((k) => meta.sources[k] === s))).map((s) => `<a href="${s.url}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join("; ")}. All surveillance data are preliminary and revised as late reports arrive. Retrieved ${fmtDate(meta.built)}.</p>
 </section>`;
 
-  await emit("activity.html", page({
+  await emit("activity.html", page({ staleNote: true,
     path: "activity.html", active: "activity.html",
     title: `U.S. flu activity this week: ${fmtDate(weekEnd)}`,
     description: `National and state flu activity for the week ending ${fmtDate(weekEnd)}: outpatient flu-like illness ${pct(nat.latest.v)}, lab percent positive ${pct(natLab.latest.v)}, and hospital admissions, compared with past seasons.`,
@@ -185,7 +185,7 @@ ${topStatesHTML({ R: "" })}
 
   /* ---------------- States index ---------------- */
   const idx = states.concat(jur.filter((j) => j.territory)).map((s) => `<li><a href="state/${s.slug}.html">${esc(s.name)}</a>${levelChip(levels[s.activityName])}</li>`).join("");
-  await emit("states.html", page({
+  await emit("states.html", page({ staleNote: true,
     path: "states.html", active: "states.html",
     title: "Flu by state",
     description: "Flu activity, history, hospital admissions, and vaccination coverage for every U.S. state, DC, and territory.",
@@ -257,7 +257,7 @@ ${topStatesHTML({ R: "" })}
 
     // Territories where CDC publishes little or no weekly data stay out of the index (thin pages).
     const thin = !x.ili && !x.nh?.length;
-    await emit(`state/${j.slug}.html`, page({
+    await emit(`state/${j.slug}.html`, page({ staleNote: true,
       path: `state/${j.slug}.html`, active: "states.html", noindex: thin,
       title: `Flu in ${j.name}`,
       description: `${j.name} flu activity for the week ending ${fmtDate(weekEnd)}${lv ? ` (${lv})` : ""}, with the state's flu curve compared to past seasons, hospital admissions since 2020, and vaccination rates.`,
@@ -463,7 +463,7 @@ ${pedBars ? `<section class="section">${pedBars}</section>` : ""}
     <p class="small">${esc(SITE.editor)}, ${esc(SITE.editorCred)}, is available for comment on flu treatment, testing, and telehealth. <span class="mono">${esc(SITE.email)}</span></p>
   </div>
 </section>`;
-  await emit("media.html", page({
+  await emit("media.html", page({ staleNote: true,
     path: "media.html", active: "media.html",
     title: "Flu press and data desk",
     description: `Citation-ready U.S. flu statistics for the week ending ${fmtDate(weekEnd)}, with downloadable CSVs of weekly national and state data and a season-by-season scorecard.`,
