@@ -16,15 +16,20 @@ export const metadata = {
     locale: 'en_US',
     title: 'Telehealth Cost Guides by Condition | TeleDirectMD',
     description:
-      '$79 flat self-pay telehealth. Cost guides for 21 topics — sourced comparisons vs. urgent care and the ER.',
+      '$79 flat self-pay telehealth. Cost guides for 22 topics — sourced comparisons vs. urgent care and the ER.',
     url: 'https://teledirectmd.com/cost',
   },
 };
 
 const BASE_URL = 'https://teledirectmd.com';
 
-// Cost page catalog — 21 children
+// Cost page catalog — 22 children
 const COST_CATALOG = [
+  {
+    slug: 'urgent-care-cost-without-insurance',
+    name: 'Urgent Care Cost Without Insurance (2026)',
+    desc: 'Medicare 2026 benchmarks for every state, employer plan averages, what x-rays and generic medicine add, and your right to a Good Faith Estimate.',
+  },
   {
     slug: 'acne-treatment-cost',
     name: 'Acne Treatment Cost',
@@ -187,7 +192,7 @@ const FAQS = [
 
 // Display grouping for the hub. Every COST_CATALOG slug must appear exactly once.
 const COST_GROUPS = [
-  { title: 'Visits and prescriptions', slugs: ['online-doctor-visit-cost', 'online-prescription-cost'] },
+  { title: 'Visits and prescriptions', slugs: ['urgent-care-cost-without-insurance', 'online-doctor-visit-cost', 'online-prescription-cost'] },
   { title: 'Infections', slugs: ['uti-treatment-cost', 'uti-antibiotics-cost', 'sinus-infection-treatment-cost', 'sore-throat-treatment-cost', 'pink-eye-cost', 'ear-infection-cost', 'yeast-infection-cost', 'bv-treatment-cost', 'covid-19-treatment-cost'] },
   { title: 'Skin and hair', slugs: ['acne-treatment-cost', 'eczema-treatment-cost', 'cold-sore-cost', 'shingles-cost', 'hair-loss-treatment-cost'] },
   { title: 'Refills and ongoing care', slugs: ['birth-control-refills-cost', 'diabetes-refills-cost', 'migraine-treatment-cost', 'erectile-dysfunction-cost', 'seasonal-allergies-cost'] },
