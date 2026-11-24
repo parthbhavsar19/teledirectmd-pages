@@ -103,12 +103,21 @@ export const STALE_DAYS = 14;
  * once the newest data week is more than STALE_DAYS old. It is rendered visible when that is already true at
  * build time, so it also works without JavaScript.
  */
+/** Shared wording; assets/site.js builds the same text in the browser. */
+export function staleNoteText(label) {
+  return `<p class="callout-title">These numbers may be out of date</p><p>The newest data on this page is for the ${label}, more than two weeks ago. CDC may have delayed its weekly release, or FluHub's weekly update may be running late. For CDC's latest national report, see <a href="https://www.cdc.gov/fluview/" target="_blank" rel="noopener">FluView</a>.</p>`;
+}
+
 export function staleNote(R = "") {
   const end = SITE.weekEnd;
   if (!end) return "";
   const today = new Date().toISOString().slice(0, 10);
   const staleNow = dayDiff(end, today) > STALE_DAYS;
-  return `<div class="callout warn stale-note" id="stale-note" role="status" data-week-end="${end}" data-limit="${STALE_DAYS}"${staleNow ? "" : " hidden"}><p class="callout-title">These numbers may be out of date</p><p>The newest data on this page is for the ${esc(SITE.weekLabel.replace(/^Week/, "week"))}, more than two weeks ago. CDC may have delayed its weekly release, or FluHub's weekly update may be running late. For CDC's latest national report, see <a href="https://www.cdc.gov/fluview/" target="_blank" rel="noopener">FluView</a>.</p></div>
+  const label = esc(SITE.weekLabel.replace(/^Week/, "week"));
+  // When the data is current, ship an empty, hidden container: text-only readers (search and AI crawlers) ignore
+  // the hidden attribute, so the warning words must not be in the HTML unless the warning is true.
+  const msg = staleNow ? staleNoteText(label) : "";
+  return `<div class="callout warn stale-note" id="stale-note" role="status" data-week-end="${end}" data-limit="${STALE_DAYS}" data-week-label="${label}"${staleNow ? "" : " hidden"}>${msg}</div>
 `;
 }
 

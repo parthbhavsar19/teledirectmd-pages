@@ -117,7 +117,16 @@
     const now = new Date();
     const today = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
     const age = Math.round((today - Date.parse(stale.dataset.weekEnd + "T00:00:00Z")) / 864e5);
-    stale.hidden = !(age > (+stale.dataset.limit || 14));
+    const isStale = age > (+stale.dataset.limit || 14);
+    if (isStale && !stale.textContent.trim()) {
+      const t = document.createElement("p"); t.className = "callout-title"; t.textContent = "These numbers may be out of date";
+      const p = document.createElement("p");
+      p.append(`The newest data on this page is for the ${stale.dataset.weekLabel || "latest week"}, more than two weeks ago. CDC may have delayed its weekly release, or FluHub's weekly update may be running late. For CDC's latest national report, see `);
+      const a = document.createElement("a"); a.href = "https://www.cdc.gov/fluview/"; a.target = "_blank"; a.rel = "noopener"; a.textContent = "FluView";
+      p.append(a, ".");
+      stale.append(t, p);
+    }
+    stale.hidden = !isStale;
   }
 
   /* copy buttons */

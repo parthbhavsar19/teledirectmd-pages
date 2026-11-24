@@ -16,7 +16,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%231c5b4c%22/%3E%3Cpath d=%22M5 22 C10 22 12 8 16 8 S22 20 27 20%22 fill=%22none%22 stroke=%22white%22 stroke-width=%223%22 stroke-linecap=%22round%22/%3E%3C/svg%3E">
 <link rel="stylesheet" href="assets/site.css">
 <script>try{var t=localStorage.getItem("fluhub-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"FluHub weekly influenza CSV downloads","description":"National weekly series since 2010, latest state indicators, and season scorecard.","temporalCoverage":"2010-10-09/2026-11-14","spatialCoverage":{"@type":"Place","name":"United States"},"creator":{"@type":"Organization","name":"FluHub","url":"https://teledirectmd.com/flu-hub/"},"isBasedOn":["https://www.cdc.gov/fluview/","https://data.cdc.gov/d/ua7e-t2fy","https://data.cdc.gov/d/vh55-3he6"],"license":"https://www.usa.gov/government-copyright","dateModified":"2026-11-21","distribution":[{"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://teledirectmd.com/flu-hub/data/national-weekly.csv"},{"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://teledirectmd.com/flu-hub/data/state-weekly-latest.csv"},{"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://teledirectmd.com/flu-hub/data/season-scorecard.csv"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"FluHub weekly influenza CSV downloads","description":"National weekly series since 2010, latest state indicators, and season scorecard.","temporalCoverage":"2010-10-09/2026-11-14","spatialCoverage":{"@type":"Place","name":"United States"},"creator":{"@type":"Organization","name":"FluHub","url":"https://teledirectmd.com/flu-hub/"},"publisher":{"@type":"Organization","name":"TeleDirectMD","url":"https://teledirectmd.com/"},"isBasedOn":["https://www.cdc.gov/fluview/","https://data.cdc.gov/d/ua7e-t2fy","https://data.cdc.gov/d/vh55-3he6"],"license":"https://www.usa.gov/government-copyright","dateModified":"2026-11-21","distribution":[{"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://teledirectmd.com/flu-hub/data/national-weekly.csv"},{"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://teledirectmd.com/flu-hub/data/state-weekly-latest.csv"},{"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://teledirectmd.com/flu-hub/data/season-scorecard.csv"}]}</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -27,7 +27,7 @@
 <button class="theme-btn" type="button" aria-label="Switch light or dark theme"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></button>
 </div></header>
 <main id="main"><div class="wrap">
-<div class="callout warn stale-note" id="stale-note" role="status" data-week-end="2026-11-14" data-limit="14" hidden><p class="callout-title">These numbers may be out of date</p><p>The newest data on this page is for the week ending Nov 14, 2026, more than two weeks ago. CDC may have delayed its weekly release, or FluHub's weekly update may be running late. For CDC's latest national report, see <a href="https://www.cdc.gov/fluview/" target="_blank" rel="noopener">FluView</a>.</p></div>
+<div class="callout warn stale-note" id="stale-note" role="status" data-week-end="2026-11-14" data-limit="14" data-week-label="week ending Nov 14, 2026" hidden></div>
 <header class="page-head">
 
 <p class="eyebrow">For reporters, researchers, and editors</p>
@@ -39,7 +39,7 @@
   <div class="stat"><span class="stat-label">Outpatient visits for flu-like illness, nationally</span><span class="stat-value">3.8%</span><span class="stat-ctx"><span class="delta">↑ 0.4 pts</span><span>prior week 3.4%; same week last season 2.1%</span></span></div>
   <div class="stat"><span class="stat-label">Clinical lab specimens positive for influenza</span><span class="stat-value">11.8%</span><span class="stat-ctx"><span class="delta">↓ 0.5 pts</span><span>prior week 12.2%</span></span></div>
   <div class="stat"><span class="stat-label">New hospital admissions with confirmed flu, U.S.</span><span class="stat-value">11,792</span><span class="stat-ctx"><span class="delta">↑ 1643</span><span>3.49 per 100,000; prior week 10,149</span></span></div>
-  <div class="stat"><span class="stat-label">States plus DC at Moderate activity or higher</span><span class="stat-value">8<small>of 51</small></span><span class="stat-ctx"><span>6 very low, 35 low, 8 moderate, 0 high, 0 very high</span></span></div>
+  <div class="stat"><span class="stat-label">States plus DC at Moderate respiratory illness activity or higher</span><span class="stat-value">8<small>of 51</small></span><span class="stat-ctx"><span>6 very low, 35 low, 8 moderate, 0 high, 0 very high</span></span></div>
 </div><p class="chart-note" style="margin-top:8px">Week ending Nov 14, 2026. Retrieved from CDC Nov 21, 2026.</p></section>
 <section class="section col">
   <div class="section-head"><h2>Citation-ready facts</h2><p class="muted">Each sentence names its source. Copy the whole list or a single line.</p></div>
@@ -50,7 +50,7 @@
   <div class="section-head"><h2>Download the data</h2><p class="muted">Plain CSV, regenerated weekly. Free to reuse with attribution to CDC as the original source.</p></div>
   <div class="task-list">
     <a class="task" href="data/national-weekly.csv"><h3>National weekly series</h3><p>%ILI, lab percent positive, and hospital admissions for every week since October 2010.</p><span class="go mono">national-weekly.csv</span></a>
-    <a class="task" href="data/state-weekly-latest.csv"><h3>States, this week</h3><p>Activity level, %ILI, percent positive, and admissions for all 56 jurisdictions.</p><span class="go mono">state-weekly-latest.csv</span></a>
+    <a class="task" href="data/state-weekly-latest.csv"><h3>States, this week</h3><p>%ILI with the same week last season, ED visits for flu, respiratory illness level, percent positive, and admissions for all 56 jurisdictions.</p><span class="go mono">state-weekly-latest.csv</span></a>
     <a class="task" href="data/season-scorecard.csv"><h3>Season scorecard</h3><p>Peak, hospitalization rate, burden, child deaths, effectiveness, and coverage by season.</p><span class="go mono">season-scorecard.csv</span></a>
   </div>
 </section>
@@ -61,7 +61,7 @@
       <li><b>Is flu season here?</b> <a href="activity.html">This week</a>: national %ILI above CDC's baseline and lab percent positive above roughly 5% mark the season.</li>
       <li><b>Is this a bad season?</b> <a href="seasons.html">Seasons compared</a>: the FluSurv-NET hospitalization rate is the cleanest severity measure across years.</li>
       <li><b>How well does the shot work this year?</b> <a href="vaccines.html#effectiveness">Vaccine effectiveness</a>, with interim and past-season estimates.</li>
-      <li><b>Where is flu rising?</b> <a href="states.html">State pages</a>, each with a 15-season history.</li>
+      <li><b>Which states have the most flu?</b> <a href="states.html#ranked">Every state ranked</a> by flu-like illness, with the same week last season and ED visits for flu; each <a href="states.html">state page</a> has a 15-season history.</li>
       <li><b>Who should get Tamiflu or Xofluza?</b> <a href="treatment.html">Treatment</a>, written to CDC's March 2026 clinician summary.</li>
       <li><b>Bird flu?</b> <a href="bird-flu.html">H5N1 tracker</a> with CDC's latest human case count.</li>
       <li><b>Who sets vaccine recommendations now?</b> <a href="vaccines.html#policy">The 2025 and 2026 policy changes</a>, dated and sourced.</li>
@@ -69,11 +69,11 @@
   </div>
   <div class="panel" style="display:grid;gap:12px">
     <h3>How to cite</h3>
-    <p class="small">Attribute figures to their original source, for example "according to CDC FluView data." When you used this page to find them: "compiled by FluHub from CDC data, week ending Nov 14, 2026."</p>
+    <p class="small">Attribute figures to their original source, for example "according to CDC FluView data." When you used this page to find them: "compiled by TeleDirectMD's FluHub from CDC data, week ending Nov 14, 2026."</p>
     <h3>Methodology</h3>
     <p class="small">Definitions, data lags, and how each measure is calculated are on <a href="methods.html">Sources and methods</a>.</p>
     <h3>Physician interviews</h3>
-    <p class="small">Parth Bhavsar, MD, board-certified family physician, is available for comment on flu treatment, testing, and telehealth. <span class="mono">contact@teledirectmd.com</span></p>
+    <p class="small">Parth Bhavsar, MD, board-certified family physician, is available for comment on flu treatment, testing, and telehealth. <a class="mono" href="mailto:contact@teledirectmd.com">contact@teledirectmd.com</a></p>
   </div>
 </section>
 </div></main>
