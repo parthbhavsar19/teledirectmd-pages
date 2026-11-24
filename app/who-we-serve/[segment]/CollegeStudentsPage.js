@@ -233,7 +233,7 @@ export default function CollegeStudentsPage() {
               </ul>
 
               <div className="tdmd-hero-ctas">
-                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
                 <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
               </div>
 
@@ -441,7 +441,7 @@ export default function CollegeStudentsPage() {
             </div>
           </div>
           <div className="tdmd-decision-cta">
-            <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+            <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
           </div>
         </div>
       </section>
@@ -830,7 +830,7 @@ export default function CollegeStudentsPage() {
             <p>Same-day visits, evenings and weekends. $79 flat fee. Prescriptions sent to campus pharmacy.</p>
           </div>
           <div className="tdmd-bottom-cta-actions">
-            <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+            <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
             <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
           </div>
         </div>

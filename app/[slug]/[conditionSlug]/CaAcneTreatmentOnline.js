@@ -192,7 +192,7 @@ export default function CaAcneTreatmentOnline() {
                   <li>Licensed telehealth care for adults located in California at the time of the visit</li>
                 </ul>
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
                 </div>
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> L70.0 — Acne vulgaris (final coding depends on clinical details)</p>
