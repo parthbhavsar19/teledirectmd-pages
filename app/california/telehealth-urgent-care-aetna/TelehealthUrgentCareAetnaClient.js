@@ -76,7 +76,7 @@ const FAQS = [
   },
   {
     q: 'Do you offer visits in Spanish or other languages?',
-    a: "Dr. Bhavsar sees patients in English, Hindi, Gujarati and Urdu. He does not speak Spanish; Spanish-speaking patients can have a medical interpreter join the video visit. Please note your preferred language when you book.",
+    a: "Dr. Bhavsar sees patients in English, Hindi, Gujarati and Urdu. He does not speak Spanish; Spanish-speaking patients can have a medical interpreter join the video visit.",
   },
   {
     q: 'What technology do I need to join the visit?',

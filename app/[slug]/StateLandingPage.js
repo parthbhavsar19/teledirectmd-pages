@@ -222,7 +222,7 @@ export default function StateLandingPage({ stateSlug }) {
           ...(stateSlug === 'ny' ? [] : [{
             "@type": "Question",
             "name": `Can I have my TeleDirectMD visit in ${state.name} in a language other than English?`,
-            "acceptedAnswer": { "@type": "Answer", "text": "Dr. Bhavsar sees patients in English, Hindi, Gujarati and Urdu. He does not speak Spanish; Spanish-speaking patients can have a medical interpreter join the video visit. Please note your preferred language when you book." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Dr. Bhavsar sees patients in English, Hindi, Gujarati and Urdu. He does not speak Spanish; Spanish-speaking patients can have a medical interpreter join the video visit." }
           }])
         ]
       }
@@ -734,7 +734,7 @@ export default function StateLandingPage({ stateSlug }) {
               ...(stateSlug === 'ny' ? [] : [{
                 question: `Can I have my visit in a language other than English?`,
                 answer: (
-                  <p>Dr. Bhavsar sees patients in English, Hindi, Gujarati and Urdu. He does not speak Spanish; Spanish-speaking patients can have a medical interpreter join the video visit. Please note your preferred language when you book.</p>
+                  <p>Dr. Bhavsar sees patients in English, Hindi, Gujarati and Urdu. He does not speak Spanish; Spanish-speaking patients can have a medical interpreter join the video visit.</p>
                 ),
               }]),
               {
