@@ -24,8 +24,17 @@ const OVERRIDES = {
   'doxypep-sti-prevention-online':       'DoxyPEP for STI Prevention Online in {state} | TeleDirectMD',
   'poison-ivy-oak-treatment-online':     'Poison Ivy & Oak Online Treatment in {state} | TeleDirectMD',
   'viral-gastroenteritis-treatment-online': 'Stomach Flu Online Treatment in {state} | TeleDirectMD',
-  'mycoplasma-genitalium-treatment-online': 'M. Genitalium Online Treatment in {state} | TeleDirectMD',
   'smoking-cessation-treatment-online':  'Smoking Cessation Online in {state} | TeleDirectMD',
+  // Nov 2026: NY flu page ranked #7 for "flu treatment online new york" but was absent for
+  // "tamiflu prescription online"; every page that ranks or is cited there names Tamiflu.
+  // Nov 2026: ChatGPT picks state pages whose titles show the price (30-prompt Monid run,
+  // Nov 23). The six highest-volume conditions carry the $79 MD visit in the title.
+  'influenza-treatment-online':          'Flu Treatment and Tamiflu Online in {state}, $79 | TeleDirectMD',
+  'uti-treatment-online':                 'UTI Treatment for Women in {state}, $79 MD Visit | TeleDirectMD',
+  'sinus-infection-treatment-online':     'Sinus Infection Treatment in {state}, $79 MD Visit | TeleDirectMD',
+  'yeast-infection-treatment-online':     'Yeast Infection Treatment in {state}, $79 MD Visit | TeleDirectMD',
+  'bv-treatment-online':                  'BV Treatment Online in {state}, $79 MD Visit | TeleDirectMD',
+  'hypertension-refills-online':          'Blood Pressure Refills in {state}, $79 MD Visit | TeleDirectMD',
 };
 
 function cleanBase(cn) {

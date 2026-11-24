@@ -1,0 +1,607 @@
+{
+ "guide": "sick-visiting-new-york-city-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 0 verified, retractions: none (the guide cites no journal articles and no DOIs, so there was nothing to send to Scite)",
+ "references": [
+  {
+   "n": 1,
+   "kind": "other_web",
+   "cited_as": "New York City Tourism + Conventions. 2025 Visitation Surpasses Forecast, Generating $84.7B in Economic Impact. Press release, March 24, 2026.",
+   "url": "https://business.nyctourism.com/press-media/press-releases/NYC-Tourism-Annual-Report-March-2026",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "NYC recorded 65 million visitors in 2025",
+     "verdict": "supported",
+     "quote": "Total visitation grew modestly to 65 million visitors, up 0.7% over 2024, led by domestic visitation.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "52.4 million came from elsewhere in the US",
+     "verdict": "supported",
+     "quote": "Domestic travel remained strong, accounting for 52.4 million visitors, up 1.7% over 2024.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "12.5 million came from other countries",
+     "verdict": "supported",
+     "quote": "International travel declined slightly due to global challenges, accounting for 12.5 million visitors, down 3.2% from 2024.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Press release dated March 24, 2026",
+   "record_title": "NEW YORK CITY TOURISM + CONVENTIONS 2025 VISITATION SURPASSES FORECAST, GENERATING $84.7B IN ECONOMIC IMPACT"
+  },
+  {
+   "n": 2,
+   "kind": "agency_page",
+   "cited_as": "CMS. Emergency Medical Treatment & Labor Act (EMTALA).",
+   "url": "https://www.cms.gov/medicare/regulations-guidance/legislation/emergency-medical-treatment-labor-act",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "EMTALA applies to Medicare-participating hospitals that offer emergency services; they must provide a medical screening exam regardless of ability to pay",
+     "verdict": "supported",
+     "quote": "Section 1867 of the Social Security Act imposes specific obligations on Medicare-participating hospitals that offer emergency services to provide a medical screening examination (MSE) when a request is made for examination or treatment",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Screening is required regardless of the person's ability to pay",
+     "verdict": "supported",
+     "quote": "including active labor, regardless of an individual's ability to pay.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Hospital must stabilize an emergency medical condition or arrange an appropriate transfer",
+     "verdict": "supported",
+     "quote": "Hospitals are then required to provide stabilizing treatment for patients with EMCs. If a hospital is unable to stabilize a patient within its capability, or if the patient requests, an appropriate transfer should be implemented.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Table and FAQ: screening and stabilizing care regardless of ability to pay; you are billed afterward",
+     "verdict": "partly_supported",
+     "quote": "to ensure public access to emergency services regardless of ability to pay.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Page last modified 03/10/2026",
+   "record_title": "Emergency Medical Treatment & Labor Act (EMTALA) | CMS",
+   "notes": "The page does not mention billing. 'You are billed afterward' is the guide's plain-language caution that EMTALA guarantees access, not free care; logged as partly_supported."
+  },
+  {
+   "n": 3,
+   "kind": "agency_page",
+   "cited_as": "NYC311. Hospitals (KA-02793).",
+   "url": "https://portal.311.nyc.gov/article/?kanumber=KA-02793",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "NYC Health + Hospitals runs the city's 11 public hospitals (Bellevue, Elmhurst, Harlem, Jacobi, Kings County, Lincoln, Metropolitan, North Central Bronx, Queens, South Brooklyn Health, Woodhull)",
+     "verdict": "supported",
+     "quote": "New York City's 11 public hospitals are:",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Patients can receive care regardless of ability to pay; information, including immigration status, is kept confidential",
+     "verdict": "supported",
+     "quote": "You can receive care regardless of your ability to pay or your immigration status. All of your information will be kept confidential, including immigration status.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "ExpressCare is the public system's service for problems that are not emergencies",
+     "verdict": "supported",
+     "quote": "ExpressCare is a fast, easy way for patients to get care for health problems that aren't emergencies.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "ExpressCare video and phone visits 24 hours a day, plus walk-in care at NYC Health + Hospitals locations",
+     "verdict": "supported",
+     "quote": "Providers are available on demand by video and phone 24 hours a day, 7 days a week. You can also receive in-person, walk-in care at a NYC Health + Hospitals locations.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "ExpressCare phone (631) 397-2273; website expresscare.nyc",
+     "verdict": "supported",
+     "quote": "Phone Number:(631) 397-2273",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "The 311 site explains how to reach NYC Health + Hospitals for non-emergency appointments",
+     "verdict": "supported",
+     "quote": "When you call the hospital, a staff member will listen to your needs and transfer you to one of organization's 11 acute care hospitals, 6 health centers, or 70 community-based clinics to schedule an appointment.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "FAQ: urgent care centers, ExpressCare and telehealth all see self-pay patients",
+     "verdict": "partly_supported",
+     "quote": "You can receive care regardless of your ability to pay or your immigration status.",
+     "quote_source": "official_page"
+    }
+   ],
+   "record_title": "Hospitals · NYC311",
+   "notes": "Page lists 'South Brooklyn Health/Ruth Bader Ginsburg Hospital (formerly Coney Island Hospital)'; guide's 'South Brooklyn Health' is a short form. The self-pay FAQ sentence is an inference from this page plus refs 2 and 4."
+  },
+  {
+   "n": 4,
+   "kind": "agency_page",
+   "cited_as": "NYC311. Find a Doctor (KA-03254).",
+   "url": "https://portal.311.nyc.gov/article/?kanumber=KA-03254",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "NYC Health + Hospitals states it provides care regardless of immigration status, insurance status or ability to pay",
+     "verdict": "partly_supported",
+     "quote": "NYC Health + Hospitals provides care to all New Yorkers, regardless of immigration status, insurance status or ability to pay.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "ExpressCare: non-emergency, video and phone 24/7, walk-in at H+H locations",
+     "verdict": "supported",
+     "quote": "Providers are available on demand by video and phone 24 hours a day, 7 days a week. You can also receive in-person, walk-in care at a NYC Health + Hospitals locations.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "ExpressCare phone (631) 397-2273",
+     "verdict": "supported",
+     "quote": "Phone Number:(631) 397-2273",
+     "quote_source": "official_page"
+    }
+   ],
+   "record_title": "Find a Doctor · NYC311",
+   "notes": "The page says 'to all New Yorkers'; the guide applies it to visitors, so logged as partly_supported. Ref 3 states the same without the 'New Yorkers' qualifier."
+  },
+  {
+   "n": 5,
+   "kind": "agency_page",
+   "cited_as": "NYC DOHMH, NYC Health + Hospitals and NYC MOIA. Open Letter to Immigrant New Yorkers. March 14, 2025.",
+   "url": "https://www.nyc.gov/site/doh/about/press/pr2025/nyc-doh-hh-moia-release-open-letter-to-immigrants.page",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Care regardless of ability to pay or immigration status",
+     "verdict": "supported",
+     "quote": "In New York City you have a right to health care, regardless of your immigration status or ability to pay.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Information, including immigration status, is kept confidential",
+     "verdict": "partly_supported",
+     "quote": "When you visit our health care facilities, you are not required to share information about your immigration status to receive care.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Press release March 14, 2025",
+   "notes": "The letter states privacy protections in its own words; the 'kept confidential' wording is from ref 3."
+  },
+  {
+   "n": 6,
+   "kind": "other_web",
+   "cited_as": "MetroPlusHealth (NYC Health + Hospitals). ExpressCare.",
+   "url": "https://metroplus.org/expresscare/",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "ExpressCare is NYC Health + Hospitals' urgent care service for problems that are not emergencies, by video and phone",
+     "verdict": "supported",
+     "quote": "Patients can connect with a licensed provider by video or phone, often within minutes.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Available 24 hours a day",
+     "verdict": "supported",
+     "quote": "Yes, ExpressCare is available 24 hours a day, 7 days a week, including weekends and holidays.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "The pages checked did not list a visit price",
+     "verdict": "partly_supported"
+    }
+   ],
+   "version_or_date": "last updated: August 3, 2026",
+   "notes": "No price appears on the page (absence claim, checked 2026-11-15). Walk-in care and the (631) number come from refs 3 and 4."
+  },
+  {
+   "n": 7,
+   "kind": "agency_page",
+   "cited_as": "CDC. About Heart Attack Symptoms, Risk, and Recovery.",
+   "url": "https://www.cdc.gov/heart-disease/about/heart-attack.html",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Heart attack: chest pain or discomfort (pressure)",
+     "verdict": "supported",
+     "quote": "Chest pain or discomfort. Most heart attacks involve discomfort in the center or left side of the chest",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Feeling weak, light-headed or faint; jaw, neck, back pain",
+     "verdict": "supported",
+     "quote": "Feeling weak, light-headed, or faint. You may also break into a cold sweat.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Pain in one or both arms or shoulders; shortness of breath",
+     "verdict": "supported",
+     "quote": "Pain or discomfort in one or both arms or shoulders.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Call 911 for heart attack symptoms",
+     "verdict": "supported",
+     "quote": "If you notice the symptoms of a heart attack in yourself or someone else, call 9-1-1 immediately.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Updated October 24, 2024; reviewed October 26, 2023"
+  },
+  {
+   "n": 8,
+   "kind": "agency_page",
+   "cited_as": "CDC. Signs and Symptoms of Stroke.",
+   "url": "https://www.cdc.gov/stroke/signs-symptoms/index.html",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Sudden numbness or weakness in face, arm or leg, especially one side",
+     "verdict": "supported",
+     "quote": "Sudden numbness or weakness in the face, arm, or leg, especially on one side of the body.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Sudden confusion or trouble speaking; sudden severe headache",
+     "verdict": "supported",
+     "quote": "Sudden confusion, trouble speaking, or difficulty understanding speech.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "B.E. F.A.S.T.: balance, eyes, face, arms, speech; T = call 911",
+     "verdict": "supported",
+     "quote": "T—Time: If you see any of these signs, call 9-1-1 right away.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Updated May 19, 2026; reviewed May 19, 2026"
+  },
+  {
+   "n": 9,
+   "kind": "other_web",
+   "cited_as": "CityMD. Payment Overview.",
+   "url": "https://www.citymd.com/payment",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "CityMD's payment page says it offers competitive and affordable uninsured rates but lists no dollar amount",
+     "verdict": "supported",
+     "quote": "We offer competitive and affordable uninsured rates.",
+     "quote_source": "official_page"
+    }
+   ],
+   "record_title": "Payment Overview | CityMD",
+   "notes": "Old link /payment-overview redirects to /payment; guide now links the final URL. No dollar amount on the page on 2026-11-15."
+  },
+  {
+   "n": 10,
+   "kind": "other_web",
+   "cited_as": "NY Public Health Law §281 (NYS Senate OpenLegislation).",
+   "url": "https://www.nysenate.gov/legislation/laws/PBH/281",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "New York requires prescriptions issued in the state to be made electronically, with limited exceptions",
+     "verdict": "supported",
+     "quote": "no person shall issue any prescription in this state unless such prescription is made by electronic prescription from the person issuing the prescription to a pharmacy in accordance with such regulatory standards, except for prescriptions:",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Most recent revision 2026-05-29"
+  },
+  {
+   "n": 11,
+   "kind": "agency_page",
+   "cited_as": "NYS DOH Bureau of Narcotic Enforcement. Electronic Prescribing.",
+   "url": "https://www.health.ny.gov/professionals/narcotic/electronic_prescribing/",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "The state's mandate covers both controlled and non-controlled medicines",
+     "verdict": "supported",
+     "quote": "Practitioners are mandated to electronically prescribe both controlled and non-controlled substances effective March 27, 2016.",
+     "quote_source": "official_page"
+    }
+   ],
+   "notes": "'Revised September 2026' removed from the citation: no revision date was visible in the retrieved main content."
+  },
+  {
+   "n": 12,
+   "kind": "other_web",
+   "cited_as": "NY Education Law §6810, Prescriptions (NYS Senate OpenLegislation).",
+   "url": "https://www.nysenate.gov/legislation/laws/EDN/6810",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "A prescription drug may be dispensed only on a prescription written by a person legally authorized to issue it",
+     "verdict": "supported",
+     "quote": "shall be distributed or dispensed to any person except upon a prescription written by a person legally authorized to issue such prescription.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Key takeaway/FAQ: a home-country prescription cannot simply be filled; a US-licensed clinician must issue a new one",
+     "verdict": "partly_supported",
+     "quote": "except upon a prescription written by a person legally authorized to issue such prescription.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Most recent revision 2026-05-29",
+   "notes": "The 'US-licensed clinician' step combines this statute with refs 10 and 21."
+  },
+  {
+   "n": 13,
+   "kind": "agency_page",
+   "cited_as": "CDC Travelers' Health. Traveling Abroad with Medicine.",
+   "url": "https://wwwnc.cdc.gov/travel/page/travel-abroad-with-medicine",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "CDC advises keeping medicines in original, labeled containers showing generic and brand name and exact dosage",
+     "verdict": "supported",
+     "quote": "Keep medicines in their original, labeled containers. Ensure that they are clearly labeled with your full name, health care provider’s name, generic and brand name, and exact dosage.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Bring copies of prescriptions that include the generic names; bring a list of medicines with generic names",
+     "verdict": "supported",
+     "quote": "Bring copies of all written prescriptions, including the generic names for medicines.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Keep medicines in your carry-on",
+     "verdict": "supported",
+     "quote": "Pack medications in a carry on in case your luggage is lost or delayed.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Page last reviewed August 18, 2022",
+   "notes": "Replaces the FDA Drug Info Rounds video page, which returned 404 on 2026-11-15. The page is written for US travelers going abroad; its labeling advice applies to any traveler."
+  },
+  {
+   "n": 14,
+   "kind": "agency_page",
+   "cited_as": "FDA. Personal Importation.",
+   "url": "https://www.fda.gov/industry/import-basics/personal-importation",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "FDA allows foreign nationals to bring or ship a 90-day supply of drug products",
+     "verdict": "supported",
+     "quote": "The FDA will allow foreign nationals to bring or ship a 90-day supply of drug products.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Content current as of 08/18/2025"
+  },
+  {
+   "n": 15,
+   "kind": "guideline",
+   "cited_as": "CDC Yellow Book 2026. Travelers with Chronic Illnesses.",
+   "url": "https://www.cdc.gov/yellow-book/hcp/travelers-with-additional-considerations/travelers-with-chronic-illnesses.html",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "CDC recommends a letter on office letterhead listing conditions, medicines with generic names and doses, and allergies",
+     "verdict": "supported",
+     "quote": "The letter should be on office letterhead stationery and outline existing medical conditions, medications prescribed (including generic names and doses), allergies, and any equipment required to manage the condition.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Keep medicines in carry-on, in original containers",
+     "verdict": "supported",
+     "quote": "bring all necessary medications and medical supplies (e.g., pouching for ostomies) in their original containers.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "2026 edition; updated May 19, 2026"
+  },
+  {
+   "n": 16,
+   "kind": "other_web",
+   "cited_as": "MetroPlusHealth. Find a Pharmacy.",
+   "url": "https://metroplus.org/members/pharmacy/",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Pharmacies are spread across all five boroughs, and some are open 24 hours",
+     "verdict": "supported",
+     "quote": "Pharmacies covered by MetroPlusHealth are available in all five boroughs, including some 24-hour drugstores.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "last updated: November 4, 2026",
+   "notes": "Old link www.metroplus.org/Find-Pharmacy redirects here; guide now links the final URL."
+  },
+  {
+   "n": 17,
+   "kind": "agency_page",
+   "cited_as": "NYC311. About NYC311.",
+   "url": "https://portal.311.nyc.gov/about-nyc-311/",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "In NYC, 911 is the number for fire, police and medical emergencies; 911 not 311 for medical emergency",
+     "verdict": "supported",
+     "quote": "NYC311 is for non-emergency City services. Call 911 for fire, police, or medical emergencies.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "311 answers 24 hours a day, every day",
+     "verdict": "supported",
+     "quote": "We’re here to answer your call 24 hours a day, 7 days a week, 365 days a year.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "From outside NYC or an internet (VoIP) phone service, call 212-NEW-YORK (212-639-9675)",
+     "verdict": "supported",
+     "quote": "Call 311 or 212-NEW-YORK (212-639-9675) to connect with us: Outside of New York City Using a Voice over Internet Protocol (VoIP) provider",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Help in over 175 languages when you ask for an interpreter",
+     "verdict": "supported",
+     "quote": "Our call center can help you in over 175 languages and dialects when you ask to speak to an interpreter.",
+     "quote_source": "official_page"
+    }
+   ],
+   "notes": "The 212-NEW-YORK quote joins two adjacent list lines of the page."
+  },
+  {
+   "n": 18,
+   "kind": "guideline",
+   "cited_as": "CDC Yellow Book 2026. Travel Insurance, Travel Health Insurance, and Medical Evacuation Insurance.",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/travel-insurance.html",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Be ready to pay at the time of care, then send the insurer copies of bills and invoices",
+     "verdict": "supported",
+     "quote": "Travelers should be prepared to pay out of pocket at the time services are rendered, in some instances even before care is received, and then provide insurers with copies of bills and invoices to initiate reimbursement afterward.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Keep all records, charges and receipts",
+     "verdict": "supported",
+     "quote": "Keep copies of all summary records, charges, and receipts for medical care received.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "2026 edition; updated April 23, 2025",
+   "notes": "Written for US travelers abroad; cited for the reimbursement steps, which the guide's source note explains."
+  },
+  {
+   "n": 19,
+   "kind": "other_web",
+   "cited_as": "NYC Health + Hospitals. About NYC Care: What Is NYC Care.",
+   "url": "https://www.nyccare.nyc/about/",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "NYC Care has no membership fees or premiums and charges based on income and family size",
+     "verdict": "supported",
+     "quote": "There are no membership fees, monthly fees, or premiums. Your cost to receive health care is based on your family size and income",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "NYC Care is only for people who live in the five boroughs",
+     "verdict": "supported",
+     "quote": "You must live in the five boroughs of New York City",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Page modified 2026-10-13 (article:modified_time)"
+  },
+  {
+   "n": 20,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. Recognizing medical emergencies.",
+   "url": "https://medlineplus.gov/ency/article/001927.htm",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Breathing trouble, or swelling of the lips, tongue or throat after a food, medicine or sting, is a reason to call 911",
+     "verdict": "partly_supported",
+     "quote": "Breathing problems (difficulty breathing, shortness of breath)",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Serious injury with bleeding that does not stop with pressure",
+     "verdict": "supported",
+     "quote": "Bleeding that will not stop",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Serious injury: a fall or collision with a head injury or confusion",
+     "verdict": "partly_supported",
+     "quote": "Head or spine injury",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "High fever with confusion, a stiff neck or a new non-fading rash, or someone hard to wake",
+     "verdict": "partly_supported",
+     "quote": "Change in mental status (such as unusual behavior, confusion, difficulty arousing)",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Thoughts of harming yourself are a medical emergency",
+     "verdict": "supported",
+     "quote": "Feeling of committing suicide or murder",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Review date 1/8/2025",
+   "notes": "New source added to support previously uncited 911 red flags. Page also lists 'Swelling of the face, eyes, or tongue' and 'Head or spine injury'. It does not name the food/medicine/sting trigger, a stiff neck, a non-fading rash, or possible broken bones; those parts stay in the guide uncited (flagged in CHANGES.md). Wording was not softened."
+  },
+  {
+   "n": 21,
+   "kind": "agency_page",
+   "cited_as": "NYSED Office of the Professions. Telepractice Guidance.",
+   "url": "https://www.op.nysed.gov/telepractice-guidance",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "New York requires full licensure and current registration of any professional who practices in New York State",
+     "verdict": "supported",
+     "quote": "In accordance with New York State statute, full licensure and current registration are required of any professional who practices in New York State",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "A physician licensed only in another country is not authorized to prescribe in New York",
+     "verdict": "partly_supported",
+     "quote": "full licensure and current registration are required of any professional who practices in New York State",
+     "quote_source": "official_page"
+    }
+   ],
+   "notes": "Added for the telehealth licensure paragraph and the prescriptions paragraph. The page does not itself say 'where the patient is located'; the guide sentence citing it states only what the page says."
+  }
+ ]
+}

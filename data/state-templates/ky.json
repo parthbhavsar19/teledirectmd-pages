@@ -1,0 +1,289 @@
+{
+  "stateCode": "KY",
+  "stateName": "Kentucky",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "mid",
+    "regulation": "standard",
+    "payerLandscape": "single-payer",
+    "epidemiology": [
+      "rabies-skunk-fox-raccoon",
+      "sti-local-health-department"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "south",
+    "voiceNotes": "Warm and neighborly, with plain instructions. Kentucky content is thinner on statistics, so lean on what Kentucky law and the Department for Public Health actually tell people to do. One payer only (Curative)."
+  },
+  "stateHero": {
+    "openingParagraph": "Kentucky law defines telehealth as interactive audio, video or other electronic media used to deliver care, including diagnosis and treatment, and it puts two duties on any physician who uses it: get the patient's informed consent before care starts, and keep medical information confidential through appropriate processes and technology. TeleDirectMD meets adults who are in Kentucky during a secure video visit with Parth Bhavsar, MD, a board-certified family medicine physician licensed by the Kentucky Board of Medical Licensure. Curative members can use their plan, since TeleDirectMD is in-network with Curative in Kentucky. Otherwise the visit is a flat $79, paid at booking, with HSA and FSA cards accepted.",
+    "conditionPageOpener": "Video visits for adults located in Kentucky with Parth Bhavsar, MD, board-certified in family medicine and licensed by the Kentucky Board of Medical Licensure. In-network with Curative in Kentucky, or a flat $79 self-pay paid at booking.",
+    "stateContextHint": "Licensed in Kentucky. Video visits for adults located in Kentucky, with informed consent first. In-network with Curative, or $79 flat self-pay.",
+    "saturation": {
+      "stateNameMentions": 5,
+      "stateEntityMentions": 3
+    }
+  },
+  "stateEligibility": {
+    "intro": "TeleDirectMD sees adults 18 and older who are physically in Kentucky during the video visit, under Dr. Bhavsar's Kentucky license. Before any care, Kentucky's KRS 311.5975 requires the physician to ensure that the patient's informed consent is obtained, so each Kentucky visit starts there. Someone in Covington who works across the river should book from the Kentucky side of the bridge; from an office in Ohio, the visit is no longer a Kentucky visit.",
+    "localTriggers": [
+      "You must be in Kentucky during the visit; the physician practices under a Kentucky license.",
+      "Kentucky law requires your informed consent before services are provided through telehealth.",
+      "Your medical information is kept confidential, as KRS 311.5975 requires, through appropriate processes and technology.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "TeleDirectMD is in-network with Curative in Kentucky, and a Curative plan sets any cost for the visit. Everyone else pays a flat $79 at booking, with HSA and FSA cards accepted and no insurance claim or later bill. Coverage for any given visit depends on the plan. TeleDirectMD does not accept Kentucky Medicaid, where the Department for Medicaid Services says new work or community engagement requirements begin for some expansion adults on January 1, 2027. Kentuckians shopping for an individual plan use kynect, the state-based exchange that CMS lists for plan year 2027.",
+    "additionalNotes": [
+      "$79 flat self-pay, paid at booking.",
+      "HSA and FSA cards accepted.",
+      "In-network in Kentucky with Curative."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "When the physician decides a prescription is appropriate, it is sent electronically to the Kentucky pharmacy you choose at booking. TeleDirectMD does not prescribe controlled substances. Kentucky has required controlled substance prescriptions to be electronic since January 1, 2021 under KRS 218A.182, those prescriptions run through KASPER, the state's prescription monitoring system, and the Kentucky Board of Medical Licensure requires an active KASPER account before a physician prescribes controlled substances. Kentucky pharmacists can also start treatment for some conditions, including flu, uncomplicated UTI and COVID-19, under prescriber-signed protocols in 201 KAR 2:380. If a test or hands-on exam is needed, the physician will say so and point you to in-person care.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "general": "Two Kentucky public health practices matter for video visits. For sexually transmitted infections, Kentucky's local health departments test for chlamydia, gonorrhea and syphilis and treat them, confidentially, and they do not turn people away for inability to pay. For animal bites, the Department for Public Health asks that every bite be reported to the local health department, and it requires any physician who treats or consults on a bite or scratch to report it within 12 hours. This is general context, not an individual assessment.",
+    "generalOnHubOnly": true,
+    "citations": [
+      {
+        "label": "Kentucky Revised Statutes 311.5975, telehealth informed consent and confidentiality",
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=30539",
+        "scope": "all"
+      },
+      {
+        "label": "Kentucky Revised Statutes 311.550, definitions (telehealth)",
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=48883",
+        "scope": "all"
+      },
+      {
+        "label": "Kentucky Board of Medical Licensure, Prescribing and Substance Abuse",
+        "url": "https://kbml.ky.gov/prescribing-substance-abuse/Pages/default.aspx"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, Kentucky (V2025)",
+        "url": "https://www.census.gov/quickfacts/KY"
+      },
+      {
+        "label": "Kentucky Cabinet for Health and Family Services, Department for Medicaid Services",
+        "url": "https://www.chfs.ky.gov/agencies/dms/Pages/default.aspx"
+      },
+      {
+        "label": "CDC, Legal Status of Expedited Partner Therapy (updated July 1, 2026)",
+        "url": "https://cdc.gov/sti/php/ept-legal-status/index.html",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "Kentucky Department for Public Health, Sexually Transmitted Disease Prevention and Control Program",
+        "url": "https://www.chfs.ky.gov/agencies/dph/dehp/idb/Pages/std.aspx",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "trichomoniasis-treatment-online",
+          "genital-herpes-treatment-online"
+        ]
+      },
+      {
+        "label": "Kentucky Department for Public Health, Rabies Program",
+        "url": "https://www.chfs.ky.gov/agencies/dph/dehp/idb/Pages/rabies.aspx",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Kentucky Reportable Diseases Five Year Summary (2018-2022), KDPH",
+        "url": "https://www.chfs.ky.gov/agencies/dph/dehp/idb/Documents/RDSSummaryTable20182022.pdf",
+        "conditions": [
+          "tick-bite-treatment-online",
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "KDPH, Respiratory Viruses (update of 11/19/2026)",
+        "url": "https://www.chfs.ky.gov/agencies/dph/Pages/RespiratoryDiseases.aspx",
+        "conditions": [
+          "influenza-treatment-online",
+          "covid-19-treatment-online"
+        ]
+      },
+      {
+        "label": "201 KAR 2:380, Board authorized protocols",
+        "url": "https://apps.legislature.ky.gov/law/kar/titles/201/002/380/",
+        "conditions": [
+          "influenza-treatment-online",
+          "covid-19-treatment-online",
+          "uti-treatment-online",
+          "smoking-cessation-treatment-online"
+        ]
+      },
+      {
+        "label": "KDPH, Quitting Tobacco (Quit Now Kentucky)",
+        "url": "https://www.chfs.ky.gov/agencies/dph/dpqi/cdpb/Pages/quit.aspx",
+        "conditions": [
+          "smoking-cessation-treatment-online"
+        ]
+      },
+      {
+        "label": "KDPH, Tickborne Diseases",
+        "url": "https://www.chfs.ky.gov/agencies/dph/dehp/idb/Pages/tick-borne.aspx",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "CDC, 2023 STI Surveillance State Ranking Tables",
+        "url": "https://www.cdc.gov/sti-statistics/media/pdfs/2024/10/2023-STD-Surveillance-State-Ranking-Tables.pdf",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "KRS 218A.182, electronic prescribing of controlled substances",
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57303",
+        "scope": "all"
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds a Kentucky medical license from the Kentucky Board of Medical Licensure, which offers online physician profile and license verification. Under KRS 311.5975, a physician who treats by telehealth must ensure the patient's informed consent is obtained before services begin and that medical information stays confidential. KRS 311.550 defines telehealth as interactive audio, video or other electronic media used to deliver health care. NPI: 1104323203.",
+    "verifyUrl": "https://kbml.ky.gov/physician/Pages/Physician-Profile-Verification-of-Physician-License.aspx",
+    "statuteCitation": "Kentucky Revised Statutes 311.5975 (telehealth informed consent and confidentiality); KRS 311.550(17) (definition of telehealth)",
+    "licenseNumber": "C2281",
+    "boardName": "Kentucky Board of Medical Licensure",
+    "boardUrl": "https://kbml.ky.gov/"
+  },
+  "stateCities": {
+    "metroAndRural": "Kentucky's population was an estimated 4,606,864 on July 1, 2025 (U.S. Census Bureau, V2025), at 114.1 people per square mile in 2020. TeleDirectMD sees adults throughout Kentucky: Louisville and Elizabethtown; Lexington with Georgetown, Nicholasville and Richmond; Covington and Florence in Northern Kentucky; Bowling Green and Hopkinsville in the south; and Owensboro on the Ohio River. In a Louisville high-rise or a county seat in the east, it is the same physician and the same $79 self-pay price.",
+    "cityList": [
+      {
+        "city": "Louisville"
+      },
+      {
+        "city": "Lexington"
+      },
+      {
+        "city": "Bowling Green"
+      },
+      {
+        "city": "Owensboro"
+      },
+      {
+        "city": "Covington"
+      },
+      {
+        "city": "Richmond"
+      },
+      {
+        "city": "Georgetown"
+      },
+      {
+        "city": "Florence"
+      },
+      {
+        "city": "Hopkinsville"
+      },
+      {
+        "city": "Nicholasville"
+      },
+      {
+        "city": "Elizabethtown"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "single-payer",
+    "selfPayDisclosure": "In Kentucky, TeleDirectMD is in-network with Curative only, and the Curative plan determines coverage and any cost. TeleDirectMD does not bill other commercial insurers, Medicare or Kentucky Medicaid. Without Curative, the visit is a flat $79, paid at booking, with HSA and FSA cards accepted and no later bill for the visit.",
+    "payers": [
+      {
+        "name": "Curative",
+        "anchorId": "curative-coverage",
+        "planNames": "Commercial PPO, EPO, and self-funded plans (EPO Value, EPO (PPOx), PPO (PPO+), PPO Max)",
+        "validFrom": "2026-07-07",
+        "copayNote": "Your Curative plan sets any cost."
+      }
+    ]
+  },
+  "stateFaqs": [
+    {
+      "question": "Is telehealth legal medicine in Kentucky?",
+      "answer": "Yes. KRS 311.550 defines telehealth as the use of interactive audio, video or other electronic media to deliver health care, including diagnosis, consultation and treatment. KRS 311.5975 requires the treating physician to obtain the patient's informed consent first and keep medical information confidential. Dr. Bhavsar holds a Kentucky license from the Kentucky Board of Medical Licensure."
+    },
+    {
+      "question": "Does TeleDirectMD take insurance in Kentucky?",
+      "answer": "Only Curative. TeleDirectMD is in-network with Curative in Kentucky, and the plan decides coverage and any cost. With any other insurance, or none, the visit is a flat $79 self-pay, paid at booking, with HSA and FSA cards accepted. TeleDirectMD does not accept Kentucky Medicaid or Medicare."
+    },
+    {
+      "question": "How do I check Dr. Bhavsar's Kentucky license?",
+      "answer": "Use the Kentucky Board of Medical Licensure's physician profile and license verification and search for Parth Bhavsar. His National Provider Identifier is 1104323203. He is board-certified in family medicine by the American Board of Family Medicine."
+    },
+    {
+      "question": "Where else can I get STI testing in Kentucky?",
+      "answer": "Kentucky's local health departments test for chlamydia, gonorrhea and syphilis and treat those infections. Services are confidential, and while a fee may be charged, no one is denied testing or treatment for inability to pay. If you already have a positive result, a TeleDirectMD video visit can review it and discuss treatment.",
+      "onHub": true
+    },
+    {
+      "question": "An animal bit me in Kentucky. Who gets told?",
+      "answer": "Kentucky's Department for Public Health asks that all animal bites to people be reported to the local health department, and any physician who treats or consults on a bite or scratch must report it to the local health department within 12 hours. The health department may recommend a 10-day quarantine for a dog, cat or ferret."
+    },
+    {
+      "question": "Can a Kentucky pharmacist treat my flu or UTI instead?",
+      "answer": "Sometimes. Kentucky's Board of Pharmacy rule, 201 KAR 2:380, lets trained pharmacists who have signed a Board-authorized protocol with a Kentucky physician or nurse practitioner start treatment for conditions including acute influenza, uncomplicated urinary tract infection and COVID-19, and they must notify your primary care provider within two business days. Not every pharmacy offers it. A TeleDirectMD video visit is a separate option, a flat $79 or Curative in-network."
+    }
+  ],
+  "conditionOverrides": {
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "In Kentucky, a cat bite starts a public health process as well as a medical one. The Department for Public Health asks that all animal bites be reported to the local health department, requires any physician who treats or consults on a bite or scratch to report it within 12 hours, and notes that the local environmentalist may recommend a 10-day quarantine for the cat. Its first-aid advice is to wash the wound with soap and water for at least 10 minutes. A video visit for adults in Kentucky fits a recent, superficial to moderate bite from a known domestic cat. Hand bites with swelling need in-person care."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "Kentucky's Department for Public Health says domestic animals account for fewer than 10 percent of reported animal rabies cases, and that wild animals that attack pets in Kentucky are usually skunks, foxes or raccoons. Every bite to a person should still be reported to the local health department, which may recommend a 10-day quarantine for the dog, and a physician who treats the bite must report it within 12 hours. For adults located in Kentucky with a superficial to moderate bite from a known domestic dog, a video visit covers wound care and antibiotics. Deep wounds or a bite from a stray belong in an emergency department."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "Kentucky reported 17,284 chlamydia cases in 2023, a rate of 381.9 per 100,000 that ranked 38th in the CDC's state tables, below the national 492.2. Its local health departments test for and treat chlamydia confidentially, and they do not deny care to anyone unable to pay. If you have already tested positive elsewhere, a video visit for adults in Kentucky can confirm the result, prescribe treatment when appropriate and plan a retest, with the prescription sent to the pharmacy you choose. The CDC lists expedited partner therapy as permissible in Kentucky, so a partner may be treated without a separate exam. Pelvic pain with fever, testicular swelling or pregnancy needs in-person care."
+    },
+    "trichomoniasis-treatment-online": {
+      "stateConditionParagraph": "Kentucky's local health departments test and treat chlamydia, gonorrhea and syphilis, but the Department for Public Health says patients with other sexually transmitted infections receive counseling and are referred to a healthcare provider for testing and treatment. Trichomoniasis falls in that second group. For adults in Kentucky with a positive trichomoniasis test, or typical symptoms without red flags, a TeleDirectMD video visit can be that provider: reviewing the result, prescribing treatment when appropriate and planning a retest. Pregnancy, pelvic pain with fever or a prior treatment failure calls for in-person care."
+    },
+    "genital-herpes-treatment-online": {
+      "stateConditionParagraph": "Genital herpes is not on the list of infections Kentucky's local health departments test and treat directly; the Department for Public Health says people with STIs other than chlamydia, gonorrhea and syphilis are counseled and referred to a healthcare provider. For adults in Kentucky with typical sores or tingling, or a known herpes diagnosis needing episodic or suppressive treatment, a private video visit can evaluate the symptoms and decide whether an antiviral is appropriate. Widespread sores with fever, trouble urinating, eye symptoms or severe headache need in-person care."
+    },
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "In Kentucky a tick bite raises spotted fever and ehrlichiosis more often than Lyme disease. The Department for Public Health's five-year reportable disease summary counted 96 spotted fever rickettsiosis cases, 104 ehrlichiosis or anaplasmosis cases and 72 Lyme disease cases in 2022, and spotted fever reached 347 cases in 2019. The Department's advice is to pull an attached tick straight back with tweezers, slowly and steadily, without crushing it. For an adult in Kentucky who has removed a tick and has no rash or fever, a video visit reviews a photo, the attachment time and where the bite happened, then weighs watchful waiting against preventive treatment. Fever, rash or severe headache needs in-person care. Flat $79, or Curative in-network."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "Flu arrived early in Kentucky this season. The Department for Public Health's November 19, 2026 update reported weekly influenza lab detections more than 15 times higher than the same week a year earlier, with emergency visits and hospitalizations similar to mid-December last year. Kentucky pharmacists who have signed a Board-authorized protocol with a physician can treat acute influenza under 201 KAR 2:380, so a pharmacy is one route. A TeleDirectMD video visit is another: for an adult in Kentucky whose symptoms began within 48 hours, without trouble breathing, chest pain or confusion, the physician decides whether an antiviral fits and sends it to your pharmacy. Flat $79, or Curative in-network."
+    },
+    "covid-19-treatment-online": {
+      "stateConditionParagraph": "The same November 19, 2026 Kentucky update reported COVID-19 activity increasing and higher than at this point last year. Kentucky's Board of Pharmacy rule, 201 KAR 2:380, lists COVID-19 infection among the conditions a pharmacist may treat under a prescriber-signed protocol that follows CDC recommendations. For an adult in Kentucky with a positive test and symptoms that started within the last 5 days, a TeleDirectMD video visit reviews risk factors and the full medication list, since some COVID-19 antivirals interact with common prescriptions, and sends a prescription to a Kentucky pharmacy when treatment fits. Difficulty breathing, chest pain or confusion calls for emergency care. Flat $79, or Curative in-network."
+    },
+    "uti-treatment-online": {
+      "stateConditionParagraph": "Kentucky is one of the states where a pharmacist can start treatment for an acute, uncomplicated urinary tract infection. Under 201 KAR 2:380, pharmacists who have signed a Board-authorized protocol with a Kentucky physician or nurse practitioner, and completed training, may initiate dispensing for that condition and must notify your primary care provider within two business days. A TeleDirectMD video visit is another option for a non-pregnant adult woman in Kentucky with burning, urgency or frequency and no fever, flank pain or vomiting: the physician reviews your symptoms and history and sends treatment to your pharmacy when appropriate. Men with urinary symptoms need in-person care. Flat $79, or Curative in-network."
+    },
+    "smoking-cessation-treatment-online": {
+      "stateConditionParagraph": "Quit Now Kentucky, the free state quitline at (800) QUIT-NOW, offers confidential one-on-one coaching 24 hours a day by phone or online chat, needs no referral, and gives some callers free nicotine patches, gum or lozenges. Kentucky pharmacists can also treat tobacco use disorder under Board-authorized protocols in 201 KAR 2:380. For an adult in Kentucky who wants a prescription medicine that reduces cravings, a TeleDirectMD video visit reviews seizure history, mood, recent heart events and current medications before prescribing, and sends the prescription to your pharmacy. Pregnancy or breastfeeding is better handled in person. Flat $79, or Curative in-network."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "Syphilis more than doubled in Kentucky over five years: the Department for Public Health's reportable disease summary counted 882 cases in 2018 and 2,032 in 2022, a rate of 45.0 per 100,000. Doxycycline post-exposure prophylaxis is aimed at preventing bacterial STIs, syphilis included, in gay, bisexual and other men who have sex with men, and transgender women, who had a bacterial STI in the past 12 months or have substantial ongoing risk. An adult in Kentucky with no current STI symptoms, who is not pregnant and has no doxycycline allergy, can use a video visit to review eligibility, dose timing and the testing schedule. Local health departments test for syphilis. Flat $79, or Curative in-network."
+    }
+  },
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Kentucky Revised Statutes 311.5975 and 311.550(17)",
+        "renderAt": "hero-credential",
+        "content": "Kentucky defines telehealth as the use of interactive audio, video or other electronic media to deliver health care, including diagnosis, consultation and treatment (KRS 311.550). A physician who treats a patient through telehealth must ensure that the patient's informed consent is obtained before services are provided and that the confidentiality of the patient's medical information is maintained (KRS 311.5975). TeleDirectMD sees patients located in Kentucky by real-time video through Parth Bhavsar, MD, licensed by the Kentucky Board of Medical Licensure."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "stateCode": "IL",
+  "stateName": "Illinois",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "urban",
+    "regulation": "standard",
+    "payerLandscape": "multi-payer",
+    "epidemiology": [
+      "sti-chicago-high",
+      "lyme-northern-suburbs",
+      "rabies-bat",
+      "powassan-watch"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "midwest",
+    "voiceNotes": "Direct, Chicago-practical, with a nod to downstate. Illinois has both a broad payer list and the strongest public health paperwork of these states (doxy-PEP letter, pharmacist contraception order), so cite IDPH by name. Always qualify UnitedHealthcare as commercial only."
+  },
+  "stateHero": {
+    "openingParagraph": "If you are in Illinois when the visit starts, you can see Parth Bhavsar, MD by secure video. He is board-certified in family medicine and licensed by the Illinois Department of Financial and Professional Regulation, and the Illinois Telehealth Act requires exactly that: a professional treating an Illinois patient through telehealth must be licensed or authorized to practice in Illinois and must meet the standards of care for in-person services. TeleDirectMD is in-network in Illinois with Aetna, Blue Cross Blue Shield of Illinois, Curative and UnitedHealthcare commercial plans. Without one of those plans, the visit is a flat $79, paid at booking, and HSA and FSA cards work. Prescriptions, when appropriate, go electronically to your pharmacy.",
+    "conditionPageOpener": "Video visits for adults located in Illinois with Parth Bhavsar, MD, board-certified in family medicine and licensed by IDFPR. In-network with Aetna, Blue Cross Blue Shield of Illinois, Curative and UnitedHealthcare commercial plans, or $79 flat self-pay.",
+    "stateContextHint": "Licensed in Illinois. Video visits for adults located in Illinois. Aetna, BCBS of Illinois, Curative and UnitedHealthcare commercial in-network, or $79 self-pay.",
+    "saturation": {
+      "stateNameMentions": 6,
+      "stateEntityMentions": 6
+    }
+  },
+  "stateEligibility": {
+    "intro": "TeleDirectMD sees adults 18 and older who are physically in Illinois during the video visit. The Medical Practice Act defines telemedicine around the diagnosis or treatment of a patient in Illinois by a provider in a different location, and the Illinois Telehealth Act requires that provider to be licensed or authorized to practice in Illinois. So the deciding fact is where you sit for the visit. A commuter from Indiana working in the Loop can be seen from the office; the same person at home across the line is under Indiana rules.",
+    "localTriggers": [
+      "You must be in Illinois during the visit. Illinois law ties telemedicine to a patient in Illinois.",
+      "Chicago-area commuters from Indiana and Wisconsin should check where they will be during the visit.",
+      "Care by video must meet the standards of care for in-person services under the Illinois Telehealth Act; if your problem needs a hands-on exam, you will be told.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "Illinois patients have two ways to pay. With Aetna, Blue Cross Blue Shield of Illinois, Curative or a UnitedHealthcare commercial plan, TeleDirectMD is in-network and your plan sets any copay or deductible; UnitedHealthcare Medicare Advantage is not in-network in Illinois. Otherwise the visit is a flat $79 self-pay, paid at booking, with HSA and FSA cards accepted. Coverage for any specific visit depends on your plan. Get Covered Illinois is the state's official health insurance marketplace. TeleDirectMD does not accept Medicaid.",
+    "additionalNotes": [
+      "$79 flat self-pay, paid at booking.",
+      "HSA and FSA cards accepted.",
+      "In-network: Aetna, Blue Cross Blue Shield of Illinois, Curative, UnitedHealthcare (commercial only)."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "Prescriptions from a TeleDirectMD visit, when the physician decides one is appropriate, are sent electronically to the Illinois pharmacy you choose. TeleDirectMD does not prescribe controlled substances, the Schedule II through V drugs recorded in the Illinois Prescription Monitoring Program overseen by the Department of Human Services. Illinois pharmacists can also do more than fill prescriptions: on June 24, 2026 the Illinois Department of Public Health announced an updated contraceptive standing order that builds on a 2023 order and lets trained pharmacists provide prescription contraception, including emergency contraception, after a self-screening assessment. For an established pill, patch or ring, a TeleDirectMD refill visit is another route.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "general": "Illinois public health data shape several condition pages. IDPH counted 71,564 chlamydia cases in 2022, and the Chicago Department of Public Health jurisdiction alone reported 27,596. Lyme disease reports peaked at 540 in 2021 in IDPH's county table, with the most cases among residents of Cook, DuPage, Lake and McHenry counties, and IDPH has confirmed ehrlichiosis and a first Powassan virus case in an Illinois resident. Rabies in Illinois is most commonly found in bats. This is general context, not an individual assessment.",
+    "generalOnHubOnly": true,
+    "citations": [
+      {
+        "label": "Illinois Telehealth Act, 225 ILCS 150",
+        "url": "https://ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3807",
+        "scope": "all"
+      },
+      {
+        "label": "Illinois Medical Practice Act, 225 ILCS 60/49.5 (Telemedicine)",
+        "url": "https://ilga.gov/legislation/ilcs/documents/022500600K49.5.htm",
+        "scope": "all"
+      },
+      {
+        "label": "Illinois Prescription Monitoring Program, About the ILPMP",
+        "url": "https://ilpmp.org/about"
+      },
+      {
+        "label": "Illinois Department of Public Health, updated contraceptive standing order, June 24, 2026",
+        "url": "https://dph.illinois.gov/resource-center/news/2026/june/release-20260624.html",
+        "conditions": [
+          "birth-control-refills-online"
+        ]
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, Illinois (V2025)",
+        "url": "https://www.census.gov/quickfacts/IL"
+      },
+      {
+        "label": "Get Covered Illinois, About the Marketplace",
+        "url": "https://getcovered.illinois.gov/get-started/about-the-marketplace.html"
+      },
+      {
+        "label": "CDC, Legal Status of Expedited Partner Therapy (updated July 1, 2026)",
+        "url": "https://cdc.gov/sti/php/ept-legal-status/index.html",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "Illinois Department of Public Health, STI data January to December 2022",
+        "url": "https://dph.illinois.gov/content/dam/soi/en/web/idph/publications/idph/topics-and-services/diseases-and-conditions/std/data-statistics/2022-january-december-idph-sti-data-03-26-2024.pdf",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "Illinois Department of Public Health, Doxycycline Post-Exposure Prophylaxis Guidance Letter (September 2024)",
+        "url": "https://dph.illinois.gov/content/dam/soi/en/web/idph/publications/idph/topics-and-services/diseases-and-conditions/std/doxy-pep-letter.pdf",
+        "conditions": [
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "Illinois Department of Public Health, Lyme Disease Case Counts and Rates by County 2018-2022",
+        "url": "https://dph.Illinois.gov/content/dam/soi/en/web/idph/files/publications/lyme-disease-5-year-cases-and-rates-by-county-2018-2022.pdf",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Illinois Department of Public Health, Tickborne Illnesses",
+        "url": "https://dph.illinois.gov/topics-services/diseases-and-conditions/tickborne-illnesses.html",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Illinois Department of Public Health, Ticks and mosquitoes and bats, oh my (May 14, 2026)",
+        "url": "https://dph.illinois.gov/resource-center/news/2026/may/ticks-and-mosquitoes-and-bats--oh-my-.html",
+        "conditions": [
+          "tick-bite-treatment-online",
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Illinois Department of Public Health, Influenza Surveillance (Seasonal Respiratory Illness Dashboard)",
+        "url": "https://dph.illinois.gov/topics-services/diseases-and-conditions/influenza/influenza-surveillance.html",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds an Illinois physician license issued by the Illinois Department of Financial and Professional Regulation (IDFPR). The license can be checked through IDFPR's online license lookup. Under the Illinois Telehealth Act (225 ILCS 150), a health care professional treating an Illinois patient through telehealth must be licensed or authorized to practice in Illinois, and services must be consistent with the standards of care for in-person services. NPI: 1104323203.",
+    "verifyUrl": "https://online-dfpr.micropact.com/lookup/licenselookup.aspx",
+    "statuteCitation": "Illinois Telehealth Act, 225 ILCS 150/5, 150/10 and 150/15; Medical Practice Act of 1987, 225 ILCS 60/49.5",
+    "licenseNumber": "36.160059",
+    "boardName": "Illinois Department of Financial and Professional Regulation",
+    "boardUrl": "https://idfpr.illinois.gov/profs/physicians.html"
+  },
+  "stateCities": {
+    "metroAndRural": "The Census Bureau estimated 12,719,141 people in Illinois on July 1, 2025, at 230.8 per square mile in 2020. TeleDirectMD sees adults across the state: Chicago, Cicero and Evanston; the suburbs and collar cities of Aurora, Naperville, Joliet, Elgin and Waukegan; Rockford in the north; Peoria, Bloomington and Champaign in central Illinois; and Springfield, the capital. Wherever you are in Illinois during the visit, it is the same physician, and the self-pay price is the same $79.",
+    "cityList": [
+      {
+        "city": "Chicago"
+      },
+      {
+        "city": "Aurora"
+      },
+      {
+        "city": "Naperville"
+      },
+      {
+        "city": "Joliet"
+      },
+      {
+        "city": "Rockford"
+      },
+      {
+        "city": "Springfield"
+      },
+      {
+        "city": "Elgin"
+      },
+      {
+        "city": "Peoria"
+      },
+      {
+        "city": "Champaign"
+      },
+      {
+        "city": "Waukegan"
+      },
+      {
+        "city": "Cicero"
+      },
+      {
+        "city": "Bloomington"
+      },
+      {
+        "city": "Evanston"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "multi-payer",
+    "selfPayDisclosure": "In Illinois, TeleDirectMD is in-network with Aetna, Blue Cross Blue Shield of Illinois, Curative and UnitedHealthcare commercial plans. UnitedHealthcare Medicare Advantage is not in-network in Illinois. Your plan determines whether a visit is covered and what you owe. If you do not use insurance, the visit is a flat $79, paid at booking, with HSA and FSA cards accepted. TeleDirectMD does not accept Medicaid, Managed Medicaid or D-SNP plans.",
+    "payers": [
+      {
+        "name": "Aetna",
+        "anchorId": "aetna-coverage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
+        "validFrom": "2026-03-11",
+        "copayNote": "Your Aetna plan sets any copay or deductible."
+      },
+      {
+        "name": "Blue Cross Blue Shield of Illinois",
+        "anchorId": "bcbs-coverage",
+        "planNames": "Blue Choice PPO, Broad PPO, HPN EPO, Medicare Advantage PPO and HMO",
+        "validFrom": "2026-03-02",
+        "copayNote": "Your Blue Cross Blue Shield of Illinois plan sets any copay or deductible."
+      },
+      {
+        "name": "UnitedHealthcare",
+        "anchorId": "uhc-coverage",
+        "planNames": "PPO, HMO, EPO, POS (commercial only; Medicare Advantage is not in-network in Illinois)",
+        "validFrom": "2026-04-12",
+        "copayNote": "Your UnitedHealthcare plan sets any copay or deductible."
+      },
+      {
+        "name": "Curative",
+        "anchorId": "curative-coverage",
+        "planNames": "Commercial PPO, EPO, and self-funded plans (EPO Value, EPO (PPOx), PPO (PPO+), PPO Max)",
+        "validFrom": "2026-07-07",
+        "copayNote": "Your Curative plan sets any cost."
+      }
+    ]
+  },
+  "stateFaqs": [
+    {
+      "question": "Is a video visit allowed under Illinois law?",
+      "answer": "Yes. The Illinois Telehealth Act defines telehealth services to include the evaluation, diagnosis or interpretation of electronically transmitted patient-specific data. A professional treating an Illinois patient this way must be licensed or authorized to practice in Illinois, and the care must be consistent with the standards of care for in-person services. Dr. Bhavsar holds an Illinois license from IDFPR."
+    },
+    {
+      "question": "Which insurance plans does TeleDirectMD take in Illinois?",
+      "answer": "Aetna, Blue Cross Blue Shield of Illinois, Curative and UnitedHealthcare commercial plans. UnitedHealthcare Medicare Advantage is not in-network in Illinois, and TeleDirectMD does not accept Medicaid. Your plan sets any copay or deductible and decides coverage for a given visit. Without a covered plan, the visit is $79 self-pay."
+    },
+    {
+      "question": "I commute into Chicago from Indiana. Can I book from work?",
+      "answer": "Yes, if you are physically in Illinois when the visit happens. Illinois law ties telemedicine to a patient in Illinois, so a visit from your Chicago office is an Illinois visit under Dr. Bhavsar's Illinois license. If you will be at home in Indiana instead, check that TeleDirectMD serves Indiana before you book.",
+      "onHub": true
+    },
+    {
+      "question": "Can an Illinois pharmacist give me birth control without a doctor visit?",
+      "answer": "Often, yes. On June 24, 2026 the Illinois Department of Public Health announced an updated contraceptive standing order, building on a 2023 order, that lets trained pharmacists provide prescription contraception after a self-screening assessment. If you already use the pill, patch or ring and prefer a physician refill, TeleDirectMD can do that by video."
+    },
+    {
+      "question": "How do I verify Dr. Bhavsar's Illinois license?",
+      "answer": "Use the Illinois Department of Financial and Professional Regulation online license lookup and search for Parth Bhavsar. His National Provider Identifier is 1104323203. He is board-certified in family medicine by the American Board of Family Medicine."
+    }
+  ],
+  "conditionOverrides": {
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "Lyme disease is reported every year in Illinois. IDPH's county table shows 540 cases in 2021 and 259 in 2022, with the highest counts among residents of Cook, DuPage, Lake and McHenry counties, and IDPH has also confirmed ehrlichiosis in Illinois and, in its May 2026 update, the first confirmed Powassan virus case in an Illinois resident. For adults in Illinois who have removed a tick, a video visit can review a photo, how long it was attached and where you were, and decide whether a single preventive dose fits or watchful waiting is better. Fever, a spreading rash or new weakness after a bite needs in-person care."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "The Illinois Department of Public Health says rabies in Illinois is most commonly found in bats, and it tells anyone bitten by any animal to seek immediate medical attention. A house cat that hunts or meets bats outdoors is part of that picture. A video visit for adults located in Illinois fits a recent, superficial to moderate bite from a known domestic cat: cleaning, whether an antibiotic is appropriate, and whether the rabies question needs your local health department. A hand bite with swelling or stiffness, a deep puncture over a joint, or a bite from a stray needs in-person care."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "After any animal bite, the Illinois Department of Public Health's advice is to seek immediate medical attention, and its rabies guidance is to call your local health department about a possible exposure after close contact with a bat. For adults in Illinois with a superficial to moderate bite from a known domestic dog, a video visit can cover wound photos, irrigation, whether an antibiotic makes sense and what signs of infection to watch for. A deep wound, bleeding that will not stop, a facial wound that may need repair, or a bite from a stray or wild animal belongs in an emergency department."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "IDPH data list 71,564 chlamydia cases in Illinois in 2022, and 27,596 of them were reported in the Chicago Department of Public Health jurisdiction. If you already have a positive test, a video visit for adults in Illinois can confirm it, prescribe treatment when appropriate and plan a retest. The CDC lists expedited partner therapy as permissible in Illinois, so treating a partner without a separate exam may be an option; that is decided during the visit. Pelvic pain with fever, testicular swelling or pregnancy calls for in-person care."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "The Illinois Department of Public Health issued a doxy-PEP guidance letter in September 2024 that recommends doxy-PEP for men who have sex with men and transgender women who have had at least one bacterial STI in the past 12 months, using 200 mg of doxycycline within 72 hours of condomless sex. For adults in Illinois who fit TeleDirectMD's eligibility, a video visit can review recent testing and set up a standing prescription. Active symptoms need testing and treatment, and a recent HIV exposure needs urgent HIV PEP."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "The Illinois Department of Public Health posts flu activity on its Seasonal Respiratory Illness Dashboard, with preliminary data that update as reports come in, which is a quick way to see whether flu is rising in Illinois. If you are an adult located in Illinois and your symptoms started within about 48 hours, a video visit can decide whether an antiviral is appropriate and send it electronically to your pharmacy. Starting early matters most for people at higher risk. Trouble breathing, chest pain, confusion or being unable to keep fluids down needs emergency care instead."
+    },
+    "birth-control-refills-online": {
+      "stateConditionParagraph": "Illinois offers two routes to hormonal birth control that skip the office visit. On June 24, 2026 the Illinois Department of Public Health announced an updated contraceptive standing order, building on a 2023 order, under which pharmacists who complete IDFPR-approved training can provide prescription contraception after a self-screening risk assessment. TeleDirectMD offers the other route: a video refill for adults in Illinois already stable on a pill, patch or ring prescribed elsewhere, with no new migraines with aura, blood clots or uncontrolled blood pressure. If you have never used hormonal contraception, start with a pharmacist or an in-person visit."
+    }
+  },
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Illinois Telehealth Act, 225 ILCS 150/10 and 150/15",
+        "renderAt": "hero-credential",
+        "content": "Under the Illinois Telehealth Act, a health care professional treating a patient located in Illinois through telehealth services must be licensed or authorized to practice in Illinois, and telehealth services must be consistent with the standards of care for in-person services. TeleDirectMD sees Illinois patients by real-time video through Parth Bhavsar, MD, licensed by the Illinois Department of Financial and Professional Regulation."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

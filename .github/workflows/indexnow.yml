@@ -1,114 +1,96 @@
 name: IndexNow submit
 
+# Tells Bing (and the other IndexNow engines) about pages that changed, once the
+# new version is live.
+#
+# How it works:
+#   1. Every Vercel build runs scripts/page-manifest.js (npm postbuild), which
+#      fingerprints each page in the sitemap, compares it with the live site's
+#      last record, and publishes /indexnow-changed.json listing only the pages
+#      whose content changed, plus newly listed and dropped URLs.
+#   2. On each push to main, this job waits until https://teledirectmd.com
+#      serves an indexnow-changed.json stamped with this commit (so the new
+#      pages are live), then submits exactly that list.
+# No list, no submission. Unchanged pages are never resubmitted.
+
 on:
   push:
     branches: [main]
-    paths:
-      - 'public/**'
-      - 'data/**'
   workflow_dispatch:
 
 permissions:
   contents: read
 
+concurrency:
+  group: indexnow
+  cancel-in-progress: false
+
 jobs:
   indexnow:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 2
-
-      - name: Submit changed URLs to IndexNow
+      - name: Wait for this deploy, then submit its changed URLs
         env:
           # IndexNow keys are public by design (published in a .txt file at the site root).
           INDEXNOW_KEY: d76375fb5cb6c507ff64bf4a98239d44
           INDEXNOW_KEY_LOCATION: https://teledirectmd.com/d76375fb5cb6c507ff64bf4a98239d44.txt
           SITE: https://teledirectmd.com
           SITE_HOST: teledirectmd.com
+          WANT_SHA: ${{ github.sha }}
         run: |
           python3 - <<'PY'
-          import json, os, subprocess, sys, time, urllib.request
+          import json, os, sys, time, urllib.request, urllib.error
 
           site = os.environ["SITE"].rstrip("/")
           host = os.environ["SITE_HOST"]
+          want = os.environ["WANT_SHA"]
+          manual = os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"
 
-          # 1. Changed HTML files between the previous commit and HEAD.
-          changed = subprocess.run(
-              ["git", "diff", "--name-only", "--diff-filter=AM", "HEAD~1", "HEAD",
-               "--", "public/**/index.html", "public/index.html"],
-              capture_output=True, text=True,
-          ).stdout.strip().splitlines()
+          def get_json(url):
+              req = urllib.request.Request(url + "?t=%d" % time.time(), headers={"Cache-Control": "no-cache"})
+              with urllib.request.urlopen(req, timeout=20) as r:
+                  return json.loads(r.read().decode("utf-8"))
 
-          def to_url(path: str) -> str:
-              # public/index.html      -> /
-              # public/<dir>/index.html -> /<dir>/
-              slug = path[len("public/"):] if path != "public/index.html" else ""
-              if slug == "index.html":
-                  slug = ""
-              slug = slug[: -len("index.html")] if slug.endswith("index.html") else slug
-              suffix = "/" + slug if slug else ""
-              return site + suffix
-
-          urls = [to_url(p) for p in changed if p]
-
-          # 2. Fall back to the sitemap when no HTML changed but data/ did (regenerated-on-build case).
-          fallback_sitemap = False
-          if not urls:
-              data_changed = any(
-                  d.startswith("data/")
-                  for d in subprocess.run(
-                      ["git", "diff", "--name-only", "HEAD~1", "HEAD"],
-                      capture_output=True, text=True,
-                  ).stdout.splitlines()
-              )
-              if data_changed:
-                  urls = [site + "/sitemap.xml"]
-                  fallback_sitemap = True
-
-          if not urls:
-              print("No new/modified pages to submit; skipping.")
-              sys.exit(0)
-
-          print(f"Submitting {len(urls)} URL(s)" +
-                (" (sitemap fallback)" if fallback_sitemap else "") + ":")
-
-          # 3. Wait briefly for the Vercel deploy to serve the first changed URL,
-          #    so IndexNow sees a live page instead of a transient 404.
-          probe = urls[0]
-          deadline = time.time() + 180
-          status = 0
+          # 1. Wait (up to 25 minutes) for the live site to serve this commit's list.
+          data, deadline = None, time.time() + 25 * 60
           while time.time() < deadline:
               try:
-                  req = urllib.request.Request(probe, method="HEAD")
-                  status = urllib.request.urlopen(req, timeout=10).getcode()
+                  d = get_json(site + "/indexnow-changed.json")
+                  if manual or d.get("sha") == want:
+                      data = d
+                      break
+                  print("live list is for %s, waiting for %s" % (str(d.get("sha"))[:7], want[:7]))
+              except Exception as e:
+                  print("list not readable yet: %s" % e)
+              time.sleep(20)
+          if data is None:
+              print("::warning::This commit's deploy did not go live within 25 minutes; nothing submitted. The next deploy's list will include these pages.")
+              sys.exit(0)
+
+          urls = [u for u in data.get("urls", []) if u.startswith(site + "/")]
+          print("Compared with %s record: %s" % (data.get("base"), json.dumps(data.get("counts"))))
+          if not urls:
+              print("No changed pages; nothing to submit.")
+              sys.exit(0)
+
+          # 2. Submit in batches of 10,000 (IndexNow per-request limit).
+          for i in range(0, len(urls), 10000):
+              batch = urls[i:i + 10000]
+              payload = {"host": host, "key": os.environ["INDEXNOW_KEY"],
+                         "keyLocation": os.environ["INDEXNOW_KEY_LOCATION"], "urlList": batch}
+              req = urllib.request.Request("https://api.indexnow.org/indexnow",
+                                           data=json.dumps(payload).encode("utf-8"),
+                                           headers={"Content-Type": "application/json; charset=utf-8"},
+                                           method="POST")
+              try:
+                  r = urllib.request.urlopen(req, timeout=30)
+                  print("IndexNow HTTP %d for %d URL(s)" % (r.getcode(), len(batch)))
               except urllib.error.HTTPError as e:
-                  status = e.code
-              except Exception:
-                  status = 0
-              if status == 200:
-                  break
-              time.sleep(10)
-          print(f"  probe {probe} -> {status}")
-
-          payload = {
-              "host": host,
-              "key": os.environ["INDEXNOW_KEY"],
-              "keyLocation": os.environ["INDEXNOW_KEY_LOCATION"],
-              "urlList": urls,
-          }
-
-          req = urllib.request.Request(
-              "https://api.indexnow.org/indexnow",
-              data=json.dumps(payload).encode("utf-8"),
-              headers={"Content-Type": "application/json; charset=utf-8"},
-              method="POST",
-          )
-          try:
-              resp = urllib.request.urlopen(req, timeout=30)
-              print(f"IndexNow HTTP {resp.getcode()}: {resp.read().decode()}")
-          except urllib.error.HTTPError as e:
-              print(f"IndexNow HTTP {e.code}: {e.read().decode()}")
-              sys.exit(1)
+                  print("::error::IndexNow HTTP %d: %s" % (e.code, e.read().decode()[:300]))
+                  sys.exit(1)
+          for u in urls[:50]:
+              print("  " + u)
+          if len(urls) > 50:
+              print("  ... and %d more" % (len(urls) - 50))
           PY

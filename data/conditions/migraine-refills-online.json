@@ -3,11 +3,11 @@
   "conditionShort": "migraine",
   "conditionSlug": "migraine-refills-online",
   "pageTitle": "Migraine Online Refills in {state} | TeleDirectMD",
-  "metaDescription": "Evidence-based migraine medication refill care for {state} adults by secure video visit. Triptan refills, preventive medication continuity, and red-flag screening. Self pay option starting at $79. Insurance is not required.",
+  "metaDescription": "Evidence-based migraine medication refill care for {state} adults by secure video visit. Triptan refills, preventive medication continuity, and red-flag screening. Flat $79 self-pay option. Insurance is not required.",
   "ogImageAlt": "Migraine medication refills in {state} by TeleDirectMD",
   "hero": {
     "h1": "Migraine Medication Refills in {state} (Triptan and Preventive Refill Care)",
-    "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
+    "subtitle": "{state} adult care by secure video visit, flat $79 self-pay option, MD-only, insurance is not required.",
     "introParagraph": "Adults with an established migraine diagnosis often need medication refills when they run low on a triptan, preventive medication, or both, but not every refill request is safe to handle as routine telehealth. AHS consensus guidance supports triptans as first-line acute treatment for moderate-to-severe migraine, and AAN/AHS guidelines recommend preventive therapy when migraine frequency or disability warrants it. TeleDirectMD uses a safety-first telemedicine approach by reviewing your current migraine medications, attack frequency, severity, medication use days per month, recent changes in headache pattern, and whether this sounds like a stable refill request or a pattern that needs escalation. Triptans are not controlled substances. If the history supports a lower-risk bridge refill request, treatment may be reasonable by video, while adults with red-flag headache features, new neurological symptoms, or medication overuse headache patterns are directed to in-person neurology evaluation. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
       {
@@ -32,7 +32,7 @@
       }
     ],
     "benefits": [
-      "Self pay option starting at $79",
+      "Flat $79 self-pay option",
       "MD-only care (no mid-levels)",
       "Insurance is not required",
       "Licensed telehealth care for patients located in {state} at the time of the visit"
@@ -48,7 +48,7 @@
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek emergency care now for the worst headache of your life, sudden thunderclap headache, headache with fever and stiff neck, new weakness or numbness, vision loss, speech difficulty, or confusion. TeleDirectMD does not prescribe controlled substances. Triptans are not controlled substances."
     },
     "icd10Display": "G43.909 (final coding depends on clinical details)",
-    "quickAnswer": "Yes — adults (18+) in {state} with an established migraine diagnosis can refill medication online. A board-certified MD reviews your attack frequency and pattern by secure video and continues your current acute therapy (a triptan or NSAID) or preventive medication (beta-blocker, topiramate, amitriptyline), sent to your pharmacy same day. Visit price: $79 flat, no insurance required. This is stable refill care, not new diagnosis. The worst headache of your life, or headache with fever and stiff neck, needs emergency evaluation, not telehealth."
+    "quickAnswer": "Yes — adults (18+) in {state} with an established migraine diagnosis can refill medication online. A board-certified MD reviews your attack frequency and pattern by secure video and continues your current acute therapy (a triptan or NSAID) or preventive medication (beta-blocker or topiramate), sent to your pharmacy same day. Visit price: $79 flat, no insurance required. This is stable refill care, not new diagnosis. The worst headache of your life, or headache with fever and stiff neck, needs emergency evaluation, not telehealth."
   },
   "eligibility": {
     "sectionTitle": "Migraine Refill Telehealth Eligibility Checklist for {state}",
@@ -109,7 +109,7 @@
     "rows": [
       {
         "option": "TeleDirectMD",
-        "cost": "Self pay option starting at $79",
+        "cost": "Flat $79 self-pay option",
         "wait": "Same day, often within hours",
         "provider": "Board-certified MD only (no mid-levels)",
         "bestFor": "Stable migraine refill requests, triptan or preventive medication refills, and short bridge care when appropriate",
@@ -117,7 +117,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Severe migraine attack not responding to home treatment when ER is not yet needed",
@@ -125,7 +125,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Worst headache of your life, thunderclap headache, headache with fever and stiff neck, new neurological deficits, or concern for subarachnoid hemorrhage",
@@ -133,7 +133,7 @@
       },
       {
         "option": "Primary Care or Neurology",
-        "cost": "$100 to $350+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks",
         "provider": "MD or DO",
         "bestFor": "Long-term migraine management, preventive medication optimization, CGRP therapy initiation, medication overuse headache withdrawal, and neuroimaging when indicated",
@@ -191,7 +191,7 @@
     "sectionTitle": "What Do Online Migraine Medication Refills Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "$79 flat visit · no insurance required · generic sumatriptan often $10–$30/month",
+    "priceSubtext": "$79 flat visit · no insurance required · prescriptions priced separately",
     "includes": [
       "MD evaluation and red-flag headache screening",
       "Migraine frequency and medication use review",
@@ -205,33 +205,15 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care or Neurology",
-        "value": "$100 to $350+",
-        "width": 52,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 60,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
-    "footnote": "Total cost is transparent: the $79 visit plus generic sumatriptan or another triptan (typically $10–$30 per month) means most patients pay about $89–$109 all-in for a stable refill — no membership, no ER-level workup for a known migraine pattern.",
+    "footnote": "Total cost is transparent: the visit is $79 flat, and any prescription is paid separately at the pharmacy, where prices vary by medication and pharmacy. No membership, no ER-level workup for a known migraine pattern.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
     "sectionTitle": "What Is Migraine Medication Refill Care?",
     "paragraphs": [
-      "Migraine medication refill care means reviewing whether it is safe and appropriate to continue a patient's current migraine medicines, including acute treatments such as triptans and preventive medications such as topiramate, propranolol, or amitriptyline, when they are running low or out of medication.",
+      "Migraine medication refill care means reviewing whether it is safe and appropriate to continue a patient's current migraine medicines, including acute treatments such as triptans and preventive medications such as topiramate or propranolol, when they are running low or out of medication.",
       "Migraine affects approximately 12 percent of US adults, or roughly 39 million people. Treatment is divided into two categories: acute or abortive therapy to stop individual attacks, and preventive therapy to reduce attack frequency and severity over time. The AHS consensus statement supports triptans as first-line acute treatment for moderate-to-severe migraine, and AAN/AHS guidelines recommend preventive therapy when migraine occurs frequently enough to cause significant disability.",
       "A safe telehealth refill plan depends on whether the patient's headache pattern is stable. Refill care is not the same thing as managing a new headache diagnosis, evaluating red-flag neurological symptoms, or withdrawing from medication overuse headache. TeleDirectMD screens for these distinctions and directs complex cases to in-person neurology evaluation."
     ]
@@ -404,7 +386,7 @@
       },
       {
         "title": "Bridge preventive medication refills",
-        "text": "For adults already using preventive therapy, refill continuity is important because stopping preventive medication can lead to rebound increase in migraine frequency within weeks. Common preventive medications include propranolol, topiramate, and amitriptyline. Dose changes to preventive medications are generally best managed by the prescribing clinician with regular follow-up."
+        "text": "For adults already using preventive therapy, refill continuity is important because stopping preventive medication can lead to rebound increase in migraine frequency within weeks. Preventive medications refilled here are propranolol, metoprolol, and topiramate. Dose changes to preventive medications are generally best managed by the prescribing clinician with regular follow-up."
       },
       {
         "title": "Acute adjunctive medications",
@@ -464,19 +446,27 @@
         "Cognitive side effects are common (word-finding difficulty, concentration problems). Weight loss, kidney stone risk, and paresthesias. Teratogenic — contraindicated in pregnancy."
       ],
       [
-        "Amitriptyline (preventive)",
-        "Amitriptyline 10-75 mg at bedtime",
-        "Migraine prevention, especially with comorbid insomnia or tension-type headache",
-        "Sedating — take at bedtime. Anticholinergic side effects include dry mouth, constipation, and urinary retention. Start low and titrate slowly."
-      ],
-      [
         "Combination acute",
         "Sumatriptan plus naproxen (Treximet equivalent)",
         "Moderate-to-severe migraine when single-agent therapy is insufficient",
         "Combines triptan mechanism with anti-inflammatory effect. Same triptan contraindications and NSAID use limits apply."
+      ],
+      [
+        "CGRP monoclonal antibody (refill only)",
+        "Erenumab, fremanezumab, galcanezumab (monthly self-injection)",
+        "Continuation of a preventive already started and monitored by a neurologist",
+        "Refill only, never started here. Requires the prescribing neurologist's plan; a visit every 90 days continues it."
       ]
     ],
-    "note": "Medication selection and dosing are individualized. TeleDirectMD does not prescribe controlled substances. Triptans are not controlled substances, and refill treatment online is intended as bridge care when clinically appropriate, not as a substitute for formal headache management when the pattern is unstable."
+    "note": "Medication selection and dosing are individualized. TeleDirectMD does not prescribe controlled substances. Triptans are not controlled substances, and refill treatment online is intended as bridge care when clinically appropriate, not as a substitute for formal headache management when the pattern is unstable. Refill lab rule: for topiramate, a basic metabolic panel (bicarbonate and kidney function) from the last 12 months is required, either uploaded before the visit or ordered through Quest at the visit; without one, the physician may provide no more than a 30-day bridge supply while the lab is obtained.",
+    "fdaNotes": [
+      "Metoprolol (25 to 200 mg daily), Rx only, has not been approved by the FDA as safe and effective to treat migraine prevention; the American Academy of Neurology and American Headache Society rate it Level A evidence for prevention, while propranolol and timolol carry the FDA-approved indication. Only a licensed physician may prescribe this medication for this condition if, in his clinical judgment, use is medically appropriate. You are encouraged to report negative side effects of prescription drugs to the FDA at www.fda.gov/medwatch or 1-800-FDA-1088."
+    ],
+    "notPrescribed": [
+      "Amitriptyline: not prescribed by TeleDirectMD.",
+      "New starts of preventive medication (propranolol, metoprolol, topiramate, CGRP antibodies): refills only for patients already taking them.",
+      "Butalbital products, opioids, and other controlled substances."
+    ]
   },
   "homeCare": {
     "sectionTitle": "Home Care, Prevention, and Follow-up",
@@ -553,7 +543,7 @@
       },
       {
         "question": "How much does an online migraine refill visit cost in {state}?",
-        "answer": "TeleDirectMD offers a transparent self pay option starting at $79 for an adult video visit in {state}. Insurance is not required. Prescription costs are separate and vary by medication and pharmacy. Generic sumatriptan is typically $10 to $30 per month."
+        "answer": "TeleDirectMD offers a transparent flat $79 self-pay option for an adult video visit in {state}. Insurance is not required. Prescription costs are separate and vary by medication and pharmacy. Generic sumatriptan is typically $10 to $30 per month."
       },
       {
         "question": "Can I refill my triptan online?",
@@ -565,7 +555,7 @@
       },
       {
         "question": "Can I refill my preventive migraine medication online?",
-        "answer": "Often yes, if your migraines are well controlled on your current preventive medication and no dose changes are needed. Preventive medications such as propranolol, topiramate, and amitriptyline are not controlled substances. If your migraines are worsening despite preventive therapy, formal headache management with neurology is usually more appropriate."
+        "answer": "Often yes, if your migraines are well controlled on your current preventive medication and no dose changes are needed. Preventive medications such as propranolol, metoprolol, and topiramate are not controlled substances. If your migraines are worsening despite preventive therapy, formal headache management with neurology is usually more appropriate."
       },
       {
         "question": "What is medication overuse headache?",
@@ -593,7 +583,7 @@
       },
       {
         "question": "How much does a migraine medication refill cost online without insurance in {state}?",
-        "answer": "The visit is $79 flat, no insurance required, and generic sumatriptan typically costs $10 to $30 per month, so most patients pay under $110 total for a refill visit."
+        "answer": "The visit is $79 flat, paid at booking, with no insurance required. Any prescription is paid separately at the pharmacy, and its price varies by medication and pharmacy, so ask the pharmacy for its price before you fill it."
       },
       {
         "question": "How do I know if I'm using my migraine medication too often (medication overuse headache) in {state}?",
@@ -616,10 +606,10 @@
     },
     {
       "text": "Acute Migraine Treatment: AHS Evidence Assessment (Marmura et al., Headache 2015)",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/25644249/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25600718/"
     },
     {
-      "text": "Medication Overuse Headache: AHS Position Statement",
+      "text": "The American Headache Society Position Statement on Integrating New Migraine Treatments Into Clinical Practice (Headache 2019)",
       "url": "https://pubmed.ncbi.nlm.nih.gov/30536394/"
     },
     {
@@ -631,8 +621,7 @@
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
       "TeleDirectMD provides MD-only virtual care for adults (18+) in {state} using secure video visits to evaluate migraine medication refill requests, provide evidence-based guidance, and prescribe short bridge refill treatment when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances. Triptans are not controlled substances.",
-      "TeleDirectMD is not an emergency service and is not a replacement for emergency care for severe headache, thunderclap headache, or headache with neurological deficits. This service is intended for selected stable migraine medication refill requests and is not a substitute for comprehensive headache management when the pattern is unstable or medication overuse is present.",
-      "Online migraine refills in {state}. Triptan refill online. Sumatriptan refill. Migraine preventive medication refill. Bridge care for established migraine treatment."
+      "TeleDirectMD is not an emergency service and is not a replacement for emergency care for severe headache, thunderclap headache, or headache with neurological deficits. This service is intended for selected stable migraine medication refill requests and is not a substitute for comprehensive headache management when the pattern is unstable or medication overuse is present."
     ]
   },
   "relatedConditions": [
@@ -717,7 +706,7 @@
       "Migraine headache",
       "Migraine preventive medication refill"
     ],
-    "conditionDescription": "Migraine medication refill care involves reviewing whether it is safe and appropriate to continue a patient's established migraine medicines, including triptans for acute treatment and preventive medications such as propranolol, topiramate, and amitriptyline. TeleDirectMD evaluates adult migraine refill requests by video visit with safety-first red-flag screening and provides short bridge refill guidance when appropriate, with clear rules for when in-person neurology evaluation is needed.",
+    "conditionDescription": "Migraine medication refill care involves reviewing whether it is safe and appropriate to continue a patient's established migraine medicines, including triptans for acute treatment and preventive medications such as propranolol, metoprolol, and topiramate. TeleDirectMD evaluates adult migraine refill requests by video visit with safety-first red-flag screening and provides short bridge refill guidance when appropriate, with clear rules for when in-person neurology evaluation is needed.",
     "primaryIcd10": "G43.909",
     "anatomy": "Brain",
     "symptoms": [
@@ -767,10 +756,6 @@
         "id": "topiramate"
       },
       {
-        "name": "Amitriptyline",
-        "id": "amitriptyline"
-      },
-      {
         "name": "Naproxen",
         "id": "naproxen"
       }
@@ -806,7 +791,7 @@
       },
       {
         "name": "Acute Migraine Treatment Evidence Assessment (Marmura et al.)",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/25644249/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25600718/",
         "publisher": "Headache",
         "id": "marmura"
       }

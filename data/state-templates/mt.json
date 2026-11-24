@@ -1,0 +1,270 @@
+{
+  "stateCode": "MT",
+  "stateName": "Montana",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "frontier",
+    "regulation": "permissive",
+    "payerLandscape": "self-pay-only",
+    "epidemiology": [
+      "tick-rmsf-wood-tick",
+      "blacklegged-tick-emerging",
+      "rabies-bat-skunk",
+      "flu-season-oct-may"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "frontier",
+    "voiceNotes": "Practical and unhurried, for readers who may live hours from a clinic. Montana statute and Board rule are short and permissive; say what they require (standard of care, identity verification, a relationship before care) without overstating. Use DPHHS numbers with their years. Self-pay only; never imply insurance acceptance."
+  },
+  "stateHero": {
+    "openingParagraph": "Montana law lets a licensed physician care for patients by telehealth whenever it is appropriate and meets the standard of care, and the Montana Board of Medical Examiners treats that care as happening where the patient is. TeleDirectMD works inside those rules. Adults 18 and older who are physically in Montana, whether in Billings, Missoula, Bozeman, Helena or a small Montana town, can have a live video visit with Parth Bhavsar, MD, a board-certified family medicine physician holding a Montana medical license. Each visit costs a flat $79, paid at booking; HSA and FSA cards are accepted, and insurance is not billed. Prescriptions, when appropriate, go electronically to the pharmacy you choose.",
+    "stateContextHint": "Montana-licensed physician. Live video visits for adults physically in Montana, residents and visitors alike. Flat $79 self-pay, HSA and FSA accepted.",
+    "saturation": {
+      "stateNameMentions": 6,
+      "stateEntityMentions": 3
+    }
+  },
+  "stateEligibility": {
+    "intro": "Montana's Board of Medical Examiners rule on telemedicine, ARM 24.156.813, says treatment of a patient physically located in Montana occurs where the patient is, and requires the physician to verify the patient's identity and establish a provider-patient relationship before care begins. TeleDirectMD applies that rule literally. You need to be 18 or older and inside Montana when the video connects, whether you live here or are in the state for work or vacation. Montanans who are out of state at visit time can be seen only from another state TeleDirectMD serves.",
+    "localTriggers": [
+      "Be in Montana when the visit happens. Under ARM 24.156.813, treatment of a patient physically in Montana occurs where the patient is.",
+      "Have a photo ID ready. The Board rule requires the physician to verify the patient's identity and to make the physician's own identity and credentials available.",
+      "A video visit fits only when the standard of care does not require an in-person encounter, which is the Board's condition for establishing a relationship by telemedicine.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "TeleDirectMD is self-pay only in Montana. Each visit is a flat $79, paid at booking, and HSA and FSA cards are accepted; there is no insurance billing, copay tier or follow-up bill for the visit itself. Medicine prescribed during a visit is paid for at the pharmacy. TeleDirectMD does not accept Montana Medicaid, including the HELP plan that Montana Healthcare Programs describes as Medicaid expansion. Montana does not appear on the federal list of states running their own insurance marketplace for 2027, so Montanans compare individual plans on HealthCare.gov.",
+    "additionalNotes": [
+      "$79 flat self-pay, paid at booking.",
+      "HSA and FSA cards accepted.",
+      "No insurance billing in Montana."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "Prescriptions from a TeleDirectMD visit go electronically to whichever Montana pharmacy you choose, so a patient in Havre or Anaconda can pick the counter closest to home. Montana also gives pharmacists their own prescribing authority: under Montana Code Annotated 37-7-106, a pharmacist may prescribe for conditions that do not require a new diagnosis, for minor and generally self-limiting conditions, and for conditions diagnosed with a test waived under federal CLIA rules, but may not prescribe controlled substances. Controlled substance prescriptions in the state are logged in the Montana Prescription Drug Registry, which the Legislature authorized in 2011 and which became functional in November 2012. TeleDirectMD does not prescribe controlled substances in Montana or anywhere in its 40+ states, so the registry does not come into play for its visits.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "Montana's Department of Public Health and Human Services (DPHHS) supplies most of the local numbers behind these pages. Ticks are most active from April through July, and Montanans are most likely to meet one in May; the Rocky Mountain wood tick and American dog tick carry the state's homegrown tickborne illnesses, including about 8 reported cases of Rocky Mountain spotted fever a year. In 2025 DPHHS reported blacklegged ticks in Dawson and Sheridan counties for the first time. During the 2024-2025 respiratory season, which runs October through May, DPHHS recorded more than 15,600 influenza infections. Chlamydia was the state's second most commonly reported disease in 2024. Bats and skunks are the high-risk rabies animals in Montana. This is general context, not an individual evaluation.",
+    "citations": [
+      {
+        "label": "Montana Code Annotated 37-2-305 (telehealth services)",
+        "url": "https://mca.legmt.gov/bills/mca/title_0370/chapter_0020/part_0030/section_0050/0370-0020-0030-0050.html",
+        "scope": "all"
+      },
+      {
+        "label": "ARM 24.156.813, Practice requirements for physicians using telemedicine (Montana Board of Medical Examiners)",
+        "url": "https://rules.mt.gov/api/policy-library-public/collections/aec52c46-128e-4279-9068-8af5d5432d74/policies/770cccd4-bdbe-4287-aa9e-fef0913d46cb/document/84d9c50a-0883-4889-b0b1-004a613916ed",
+        "scope": "all"
+      },
+      {
+        "label": "Montana Code Annotated 37-7-106 (pharmacist prescribing authority)",
+        "url": "https://mca.legmt.gov/bills/mca/title_0370/chapter_0070/part_0010/section_0060/0370-0070-0010-0060.html",
+        "scope": "all"
+      },
+      {
+        "label": "Montana Board of Pharmacy, Montana Prescription Drug Registry overview",
+        "url": "https://boards.bsd.dli.mt.gov/pharmacy/mpdr/",
+        "scope": "all"
+      },
+      {
+        "label": "Montana DPHHS, Montana Healthcare Programs",
+        "url": "https://dphhs.mt.gov/MontanaHealthcarePrograms/",
+        "scope": "all"
+      },
+      {
+        "label": "CMS, State-based Exchanges for Plan Year 2027 (updated November 6, 2026)",
+        "url": "https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/state-marketplaces",
+        "scope": "all"
+      },
+      {
+        "label": "U.S. Census Bureau, Vintage 2025 state population estimates (NST-EST2025)",
+        "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-POPCHG2020-2025.csv",
+        "scope": "hub"
+      },
+      {
+        "label": "Montana DPHHS, Tickborne Illnesses",
+        "url": "https://dphhs.mt.gov/publichealth/cdepi/diseases/ticks/",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Montana DPHHS, Blacklegged Ticks Now Identified in Two Montana Counties (May 2025)",
+        "url": "https://dphhs.mt.gov/News/2025/May/BlackleggedTicks",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Montana DPHHS, Chlamydia Surveillance Snapshot, 2024",
+        "url": "https://dphhs.mt.gov/assets/publichealth/HIVSTD/ChlamydiaSurveillanceSnapshot2024.pdf",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "Montana DPHHS, Gonorrhea Surveillance Snapshot, 2024",
+        "url": "https://dphhs.mt.gov/assets/publichealth/HIVSTD/GonorrheaSurveillanceSnapshot2024.pdf",
+        "conditions": [
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "CDC, Legal Status of Expedited Partner Therapy (updated July 1, 2026)",
+        "url": "https://www.cdc.gov/sti/php/ept-legal-status/index.html",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "Montana DPHHS, Rabies",
+        "url": "https://www.dphhs.mt.gov/publichealth/cdepi/diseases/rabies",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Montana DPHHS, Prepare for Respiratory Illness this Fall and Winter (October 2025)",
+        "url": "https://dphhs.mt.gov/News/2025/October/PrepareforRespiratoryIllness",
+        "conditions": [
+          "influenza-treatment-online",
+          "covid-19-treatment-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, certified in family medicine by the American Board of Family Medicine, holds a Montana medical license from the Montana Board of Medical Examiners. Montana Code Annotated 37-2-305 allows a Montana-licensed provider to deliver care by telehealth when it is appropriate, meets the standard of care and follows the licensing board's rules, and the Board's rule ARM 24.156.813 sets those rules for physicians. The license can be checked through the Montana license lookup. NPI: 1104323203.",
+    "verifyUrl": "https://boards.bsd.dli.mt.gov/_global-pages/additional-license-information/lookup-individual",
+    "statuteCitation": "Montana Code Annotated 37-2-305 (telehealth services); Administrative Rules of Montana 24.156.813 (practice requirements for physicians using telemedicine)",
+    "licenseNumber": "168508",
+    "boardName": "Montana Board of Medical Examiners",
+    "boardUrl": "https://boards.bsd.dli.mt.gov/medical-examiners/"
+  },
+  "stateCities": {
+    "metroAndRural": "Montana had 1,144,694 residents on July 1, 2025, by the U.S. Census Bureau's estimate, and TeleDirectMD sees adults wherever they are inside Montana's borders: Billings, Missoula, Great Falls, Bozeman, Butte, Helena, Kalispell, Havre, Anaconda, and every small town and ranch in between, at the same $79 and with the same physician.",
+    "cityList": [
+      {
+        "city": "Billings"
+      },
+      {
+        "city": "Missoula"
+      },
+      {
+        "city": "Great Falls"
+      },
+      {
+        "city": "Bozeman"
+      },
+      {
+        "city": "Butte"
+      },
+      {
+        "city": "Helena"
+      },
+      {
+        "city": "Kalispell"
+      },
+      {
+        "city": "Havre"
+      },
+      {
+        "city": "Anaconda"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "self-pay-only",
+    "selfPayDisclosure": "In Montana, TeleDirectMD does not bill commercial insurance, Medicaid or Medicare. Every visit is a flat $79, paid at booking, and HSA and FSA cards are accepted. An insured Montanan can still book a $79 visit and ask their plan whether it reimburses out-of-network care; TeleDirectMD does not file claims and cannot promise reimbursement. For coverage, Montana Healthcare Programs (DPHHS) runs Montana Medicaid and the HELP plan, and individual plans are sold on HealthCare.gov.",
+    "payers": []
+  },
+  "stateFaqs": [
+    {
+      "question": "Is it legal for a doctor to treat me by video in Montana?",
+      "answer": "Yes. Montana Code Annotated 37-2-305 lets a Montana-licensed provider deliver care by telehealth when it is appropriate for the service, meets the standard of care and follows the licensing board's rules. The Board of Medical Examiners' rule requires identity verification and a provider-patient relationship before care, and allows that relationship to be built by telemedicine when the standard of care does not require an in-person visit."
+    },
+    {
+      "question": "Does TeleDirectMD take insurance or Montana Medicaid?",
+      "answer": "No. TeleDirectMD is self-pay only in Montana: a flat $79 per visit, paid at booking, with HSA and FSA cards accepted and no insurance, Medicaid or Medicare billing. Montana Healthcare Programs at DPHHS administers Montana Medicaid and the HELP plan, and individual plans are available through HealthCare.gov."
+    },
+    {
+      "question": "Can a Montana pharmacist treat me instead?",
+      "answer": "Sometimes. Under Montana Code Annotated 37-7-106, pharmacists may prescribe for conditions that do not need a new diagnosis, minor self-limiting conditions and conditions diagnosed with a CLIA-waived test, though never controlled substances. Not every pharmacy offers this. A TeleDirectMD video visit with a physician is another option for adults in Montana, at a flat $79."
+    },
+    {
+      "question": "How do I confirm Dr. Bhavsar is licensed in Montana?",
+      "answer": "Parth Bhavsar, MD holds a Montana medical license issued by the Montana Board of Medical Examiners. Anyone can look the license up through the state's online license lookup. Montana's telehealth statute, Montana Code Annotated 37-2-305, covers health care providers licensed under Title 37 of the Montana Code. His National Provider Identifier is 1104323203."
+    },
+    {
+      "question": "I am in Montana on a hunting or park trip. Can I still use TeleDirectMD?",
+      "answer": "Yes, if you are 18 or older and physically in Montana during the visit. The Board's telemedicine rule places treatment where the patient is, so a visitor in Montana is seen under Montana rules like any resident. You will need a connection good enough for live video, and a prescription, when appropriate, can go to a Montana pharmacy near where you are staying."
+    }
+  ],
+  "conditionOverrides": {
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "Montana's tick season peaks from April through July, and DPHHS says May is when Montanans are most likely to find one. The Rocky Mountain wood tick and the American dog tick spread the state's local tickborne illnesses, with about 8 Rocky Mountain spotted fever, 5 tularemia and 4 Colorado tick fever cases reported in an average year. DPHHS says every Lyme case in a Montana resident so far was acquired out of state, though DPHHS reported in 2025 that blacklegged ticks had turned up in Dawson and Sheridan counties. For an adult in Montana who has removed a tick within the past 72 hours and has no rash or fever, a video visit can identify the tick from a photo and set out which symptoms to watch for. Flat $79, paid at booking."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "Chlamydia was Montana's second most commonly reported disease in 2024, after COVID-19: DPHHS counted 3,365 cases, a rate of 297 per 100,000 compared with 446 nationally, and about two-thirds of diagnoses were in people aged 15 to 24. For an adult in Montana with a positive test who is not pregnant and has no pelvic pain with fever or severe testicular pain, a video visit can confirm the result and, when appropriate, send treatment to a Montana pharmacy. TeleDirectMD does not perform testing. CDC's July 2026 review lists expedited partner therapy as permissible in Montana, so treating a partner can be discussed during the visit. Flat $79, paid at booking."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "Bacterial STIs are falling in Montana, but they have not gone away. DPHHS reported 748 gonorrhea cases in 2024, a rate of 66 per 100,000 against 160 nationally and 56% fewer cases than in 2020, along with 3,365 chlamydia cases. Doxycycline post-exposure prophylaxis is one prevention option for gay, bisexual and other men who have sex with men, and for transgender women, who have had a bacterial STI in the past year or have substantial ongoing risk. A video visit for an adult in Montana without current STI symptoms can review eligibility, testing and how the dose is timed. Flat $79, paid at booking."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "DPHHS counts Montana's respiratory illness season from October through May, and the 2024-2025 season brought more than 15,600 reported influenza infections, over 1,000 hospitalizations and 65 deaths. The department urges Montanans at risk of severe illness to seek care right away, because prompt treatment can shorten illness and reduce its severity. A video visit for an adult in Montana with flu symptoms that began within the past 48 hours, and no trouble breathing, chest pain or confusion, can decide whether an antiviral is appropriate and send it to a nearby pharmacy. Flat $79, paid at booking.",
+      "relatedLinks": [
+        {
+          "href": "/flu-hub/state/montana.html",
+          "label": "Montana flu activity (FluHub)",
+          "description": "weekly CDC flu surveillance for the state"
+        }
+      ]
+    },
+    "covid-19-treatment-online": {
+      "stateConditionParagraph": "Montana reported more than 7,500 COVID-19 infections during the 2024-2025 respiratory season, with over 600 hospitalizations and 51 deaths, and DPHHS notes those counts leave out people who only used home tests. For an adult in Montana who has tested positive and whose symptoms started within the last 5 days, a video visit can review risk factors and the full medication list, since some COVID-19 antivirals interact with common medicines, and send a prescription to a Montana pharmacy when treatment is appropriate. DPHHS advises anyone with trouble breathing, persistent chest pain, new confusion or trouble staying awake to seek medical evaluation immediately. Flat $79, paid at booking."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "In Montana, bites from cats and dogs are the most commonly reported pet exposures to rabies, and any exposure of a person to a rabies-susceptible animal is reportable to the local health department under ARM 37.114.203. DPHHS guidance for a healthy cat that can be observed for 10 days is to contact public health rather than start rabies shots right away. That leaves infection as the main concern with most cat bites, and it can progress quickly. A video visit fits an adult in Montana bitten by a known domestic cat within the last 24 hours, with a cleaned, superficial wound that is not on a swollen hand. Flat $79, paid at booking."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "DPHHS lists dog and cat bites as the pet exposures most often reported in Montana, and it treats bats and skunks, not pets, as the state's high-risk rabies animals. For a healthy dog that can be confined and watched for 10 days, the department's guidance is to contact public health to arrange the observation, and it cites CDC: no one in the United States has contracted rabies from a dog observed that way. For an adult in Montana with a cleaned, superficial to moderate bite from a known domestic dog and normal hand function, a video visit can assess the wound by photo and decide whether antibiotics are appropriate. Strays and wild animals need in-person evaluation. Flat $79, paid at booking."
+    },
+    "sore-throat-treatment-online": {
+      "stateConditionParagraph": "Montana is one of the states where a pharmacist can sometimes prescribe directly: Montana Code Annotated 37-7-106 allows pharmacist prescribing for minor, generally self-limiting conditions and for conditions diagnosed with a test waived under federal CLIA rules, never for controlled substances. Whether a particular pharmacy offers that service varies. A TeleDirectMD video visit is a physician-led alternative for an adult in Montana with a sore throat: reviewing symptoms to judge how likely a bacterial cause is, and deciding whether testing or an antibiotic makes sense. Drooling, inability to swallow saliva, a muffled voice or trouble breathing call for emergency care. Flat $79, paid at booking."
+    }
+  },
+  "relatedLinks": [
+    {
+      "href": "/flu-hub/state/montana.html",
+      "label": "Montana flu activity (FluHub)",
+      "description": "weekly CDC flu surveillance for the state"
+    }
+  ],
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Montana Code Annotated 37-2-305 and ARM 24.156.813 (telehealth and telemedicine)",
+        "renderAt": "hero-credential",
+        "content": "Montana Code Annotated 37-2-305 permits a Montana-licensed provider to deliver services by telehealth when appropriate, when the standard of care is met and when the licensing board's rules are followed. Under the Montana Board of Medical Examiners' rule ARM 24.156.813, treatment of a patient physically in Montana occurs where the patient is, the same standards of care apply as in person, and the physician verifies the patient's identity before care. TeleDirectMD provides live video visits to adults located in Montana through Parth Bhavsar, MD, a Montana-licensed physician."
+      },
+      {
+        "statute": "ARM 24.156.813(5) (identity and credentials)",
+        "renderAt": "footer",
+        "content": "As the Board rule requires, TeleDirectMD makes the physician's identity and credentials available to every Montana patient: Parth Bhavsar, MD, board-certified in family medicine, licensed by the Montana Board of Medical Examiners, NPI 1104323203, with the license verifiable through the state license lookup. TeleDirectMD does not prescribe controlled substances, and prescriptions go electronically to the pharmacy the patient chooses."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

@@ -1,0 +1,824 @@
+{
+ "guide": "medical-bill-help-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 0 verified (no journal references or DOIs on this page; all 25 references are regulation, statute, agency, court-notice, trade-association, advocacy or company web pages), retractions: none",
+ "references": [
+  {
+   "n": 1,
+   "kind": "agency_page",
+   "cited_as": "Code of Federal Regulations, 26 CFR 1.501(r)-4, Financial assistance policy and emergency medical care policy (eCFR, up to date as of November 12, 2026)",
+   "url": "https://www.ecfr.gov/current/title-26/section-1.501(r)-4",
+   "record_title": "26 CFR 1.501(r)-4 -- Financial assistance policy and emergency medical care policy.",
+   "version_or_date": "eCFR, title 26 up to date as of 11/12/2026; section from T.D. 9708, 79 FR 78998, Dec. 31, 2014",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Regulation text on eCFR replaces the Cornell LII link used on the live page (primary source). Cited in citable summary, sections 2, 3, 4, 6, 7, figure captions and FAQ.",
+   "claims": [
+    {
+     "text": "Nonprofit (501(c)(3)) hospital must have a written FAP and a written emergency medical care policy",
+     "quote": "establishes for that hospital facility— (1) A written financial assistance policy (FAP) that meets the requirements of paragraph (b) of this section; and (2) A written emergency medical care policy",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "FAP must apply to emergency and other medically necessary care",
+     "quote": "Apply to all emergency and other medically necessary care provided by the hospital facility",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "FAP must set out eligibility criteria and whether help includes free or discounted care (who qualifies for free or discounted care; FAQ difference between charity care and payment plan)",
+     "quote": "The eligibility criteria for financial assistance and whether such assistance includes free or discounted care;",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "FAP must state the basis used to calculate amounts charged to patients",
+     "quote": "The basis for calculating amounts charged to patients;",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "FAP must explain how to apply (FAQ: eligibility criteria and application method)",
+     "quote": "The method for applying for financial assistance;",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "FAP must be widely publicized; covered hospitals must widely publicize their FAPs; required to maintain and publicize",
+     "quote": "Be widely publicized as described in paragraph (b)(5) of this section",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Federal law requires each covered hospital to publish its own eligibility criteria; no single national income cutoff (inference from hospital-specific criteria requirement)",
+     "quote": "The eligibility criteria that an individual must satisfy to receive each discount, free care, or other level of assistance available under the FAP.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "The hospital may accept other evidence of eligibility, or your signed statement, if you lack a listed document",
+     "quote": "may, for example, rely on other evidence of eligibility or an attestation by the applicant to determine that the applicant is FAP-eligible",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Figure caption: federal 501(r) sets no national threshold; each hospital publishes its own criteria",
+     "quote": "The eligibility criteria that an individual must satisfy to receive each discount, free care, or other level of assistance available under the FAP.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "agency_page",
+   "cited_as": "Code of Federal Regulations, 26 CFR 1.501(r)-1, Definitions (eCFR, up to date as of November 12, 2026)",
+   "url": "https://www.ecfr.gov/current/title-26/section-1.501(r)-1",
+   "record_title": "26 CFR 1.501(r)-1 -- Definitions.",
+   "version_or_date": "eCFR, title 26 up to date as of 11/12/2026; T.D. 9708, 79 FR 78998, Dec. 31, 2014; 80 FR 12762, Mar. 11, 2015",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "ADDED. The 240-day application period is defined here, not in 1.501(r)-6, which the live page cited for it.",
+   "claims": [
+    {
+     "text": "Application period: hospital must accept and process applications submitted until at least 240 days after the first post-discharge billing statement; period starts on the date of care",
+     "quote": "the application period begins on the date the care is provided and ends on the later of the 240th day after the date that the first post-discharge billing statement for the care is provided or either—",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A hospital may also accept applications after the application period",
+     "quote": "A hospital facility may accept and process an individual's FAP application submitted outside of the application period.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "501(r) duties apply to 501(c)(3) hospital organizations (so not to for-profit hospitals; the for-profit conclusion is an inference)",
+     "quote": "Hospital organization means an organization recognized (or seeking to be recognized) as described in section 501(c)(3) that operates one or more hospital facilities.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "agency_page",
+   "cited_as": "Internal Revenue Service, Financial assistance policies (FAPs) (page marked by the IRS as historical content)",
+   "url": "https://www.irs.gov/charities-non-profits/financial-assistance-policies-faps",
+   "record_title": "Financial assistance policies (FAPs)",
+   "version_or_date": "Undated IRS page carrying a \"Notice: Historical Content\" banner; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Page is labeled historical by the IRS; its FAP content matches current 26 CFR 1.501(r)-4 (ref 1). For-profit statements are inferences from the 501(c)(3) scope; the voluntary-assistance clause is general advice.",
+   "claims": [
+    {
+     "text": "Nonprofit hospital's policy must state which providers are covered and which are not (sections 1 and 9, FAQ)",
+     "quote": "A list of any providers, other than the hospital facility itself, delivering emergency or other medically necessary care in the hospital facility that specifies which providers are covered by the hospital facility’s FAP and which are not.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tax-exempt hospital must establish a written FAP",
+     "quote": "Section 501(r)(4) of the Internal Revenue Code (IRC) requires a tax-exempt hospital organization to establish a written financial assistance policy (FAP).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "501(r) applies to tax-exempt 501(c)(3) hospital organizations, so not to for-profit hospitals (FAQ: do all hospitals offer charity care; do for-profit hospitals have to offer assistance; section 9)",
+     "quote": "enacted Section 501(r), which imposes additional requirements on tax-exempt 501(c)(3) organizations operating one or more hospital facilities.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "agency_page",
+   "cited_as": "Centers for Medicare & Medicaid Services, No Surprises: Understand your rights against surprise medical bills (fact sheet, January 3, 2022)",
+   "url": "https://www.cms.gov/newsroom/fact-sheets/no-surprises-understand-your-rights-against-surprise-medical-bills",
+   "record_title": "No Surprises: Understand your rights against surprise medical bills",
+   "version_or_date": "CMS fact sheet, January 3, 2022",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Also replaces the CMS No Surprises hub (cms.gov/nosurprises), which on 2026-11-15 did not state the covered service categories.",
+   "claims": [
+    {
+     "text": "NSA protections began in 2022",
+     "quote": "Starting in 2022, there are new protections that prevent surprise medical bills.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "NSA created a dispute route for uninsured/self-pay patients whose bill is substantially greater than the good faith estimate",
+     "quote": "provides new dispute resolution opportunities for uninsured and self-pay individuals when they receive a medical bill that is substantially greater than the good faith estimate they get from the provider.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "NSA protects people with group or individual coverage for most emergency services, non-emergency services from out-of-network providers at in-network facilities, and out-of-network air ambulance services (sections 5 and 13, FAQ)",
+     "quote": "The No Surprises Act protects people covered under group and individual health plans from receiving surprise medical bills when they receive most emergency services, non-emergency services from out-of-network providers at in-network facilities, and services from out-of-network air ambulance service providers.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Unexpected out-of-network bills are often called balance bills",
+     "quote": "This is called “balance billing.”",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "agency_page",
+   "cited_as": "Code of Federal Regulations, 26 CFR 1.501(r)-6, Billing and collection (eCFR, up to date as of November 12, 2026)",
+   "url": "https://www.ecfr.gov/current/title-26/section-1.501(r)-6",
+   "record_title": "26 CFR 1.501(r)-6 -- Billing and collection.",
+   "version_or_date": "eCFR, title 26 up to date as of 11/12/2026",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "eCFR replaces the Cornell LII link. No longer cited for the 240-day period (moved to ref 2).",
+   "claims": [
+    {
+     "text": "Hospital must make reasonable efforts to determine FAP eligibility before extraordinary collection actions",
+     "quote": "does not engage in extraordinary collection actions (ECAs) ... against an individual to obtain payment for care before the hospital facility has made reasonable efforts to determine whether the individual is eligible for assistance",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "ECAs include selling debt and adverse credit reporting",
+     "quote": "(i) Selling an individual's debt to another party ... (ii) Reporting adverse information about the individual to consumer credit reporting agencies or credit bureaus.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "ECAs include withholding medically necessary care because of unpaid earlier bills",
+     "quote": "Deferring or denying, or requiring a payment before providing, medically necessary care because of an individual's nonpayment of one or more bills for previously provided care",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "ECAs include legal actions such as liens and wage garnishment",
+     "quote": "Actions that require a legal or judicial process, including but not limited to— (A) Placing a lien on an individual's property ... (G) Garnishing an individual's wages.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Presumptive eligibility: decision based on information other than what the person provided, or on an earlier eligibility decision",
+     "quote": "if it determines that the individual is FAP-eligible for the care based on information other than that provided by the individual or based on a prior FAP-eligibility determination",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "agency_page",
+   "cited_as": "California Department of Health Care Access and Information, Hospital Fair Billing Program Laws & Regulations (page modified August 21, 2026)",
+   "url": "https://hcai.ca.gov/affordability/hospital-fair-billing-program/laws-and-regulations/",
+   "record_title": "Hospital Fair Billing Program Laws & Regulations",
+   "version_or_date": "Page modified 2026-08-21",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Supports the California bar in the FPL figure only to the 400% FPL financial-assistance level; the page does not split free versus discounted care, so the figure remains labeled illustrative.",
+   "claims": [
+    {
+     "text": "California's Hospital Fair Billing Program took over enforcement of the Hospital Fair Pricing Act on January 1, 2024",
+     "quote": "On January 1, 2024, the Hospital Fair Billing Program (formerly known as the Fair Pricing Policies Program) assumed enforcement of the Hospital Fair Pricing Act from the California Department of Public Health.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A 2021 law (AB 1020) raised the income level for financial assistance to 400% FPL",
+     "quote": "Raises the income level for financial assistance from 350 percent of the Federal Poverty Level (FPL) to 400 percent.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "The 400% change came from a 2021 law",
+     "quote": "AB 1020 (Chapter 473, Statutes of 2021) expanded current notice and reporting requirements, established a patient complaint process",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "The Act applies to licensed general acute care, psychiatric acute and special hospitals",
+     "quote": "required each licensed general acute care hospital, psychiatric acute hospital, and special hospital to increase public awareness of the availability of charity care, payment discounts",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "agency_page",
+   "cited_as": "Illinois General Assembly, Hospital Uninsured Patient Discount Act, 210 ILCS 89 (Section 10 as amended by P.A. 103-492, effective January 1, 2024)",
+   "url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=3001&amp;ChapterID=21",
+   "record_title": "Hospital Uninsured Patient Discount Act (210 ILCS 89/)",
+   "version_or_date": "ILCS database read 2026-11-15; Sec. 10 source P.A. 102-581, eff. 1-1-22; 103-492, eff. 1-1-24",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Non-rural hospital: discount for uninsured patients up to 600% FPL for services over $150",
+     "quote": "shall provide a discount from its charges to any uninsured patient who applies for a discount and has family income of not more than 600% of the federal poverty income guidelines for all medically necessary health care services exceeding $150",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Non-rural hospital: 100% charitable discount up to 200% FPL",
+     "quote": "shall provide a charitable discount of 100% of its charges for all medically necessary health care services exceeding $150 ... to any uninsured patient who applies for a discount and has family income of not more than 200%",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Rural/Critical Access: 300% FPL discount, $300 service threshold",
+     "quote": "has annual family income of not more than 300% of the federal poverty income guidelines for all medically necessary health care services exceeding $300",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Rural/Critical Access: 100% charitable discount up to 125% FPL",
+     "quote": "shall provide a charitable discount of 100% of its charges for all medically necessary health care services exceeding $300 ... to any uninsured patient who applies for a discount and has family income of not more than 125%",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Maximum collectible in 12 months is 20% of family income",
+     "quote": "The maximum amount that may be collected in a 12-month period for health care services provided by the hospital from a patient determined by that hospital to be eligible under subsection (a) is 20% of the patient's family income",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Bill must carry a prominent statement about the discount and how to apply",
+     "quote": "Each hospital bill, invoice, or other summary of charges to an uninsured patient shall include with it, or on it, a prominent statement that an uninsured patient who meets certain income requirements may qualify for an uninsured discount",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Application must say complaints can go to the Illinois Attorney General Health Care Bureau",
+     "quote": "\"Complaints or concerns with the uninsured patient discount application process or hospital financial assistance process may be reported to the Health Care Bureau of the Illinois Attorney General.\"",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "agency_page",
+   "cited_as": "Rules and Regulations of the State of Georgia, Subject 111-3-6, Indigent Care Trust Fund",
+   "url": "https://rules.sos.ga.gov/gac/111-3-6",
+   "record_title": "GA R&R - GAC - Subject 111-3-6 INDIGENT CARE TRUST FUND",
+   "version_or_date": "Read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Live link rules.sos.georgia.gov redirects to rules.sos.ga.gov; the reference now uses the final URL.",
+   "claims": [
+    {
+     "text": "Medically indigent = income no greater than 200% FPL",
+     "quote": "\"Medically indigent\" means a person with an income no greater than 200 percent of the federal poverty level guidelines as published by the United States Department of Health and Human Services.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Rule is tied to designated Disproportionate Share Hospitals",
+     "quote": "if the provider is a disproportionate share hospital, meet the following additional conditions:",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Figure: Georgia DSH free care below 125% FPL, free or sliding scale 125-200% FPL",
+     "quote": "no charge to persons with incomes below 125 percent of the federal poverty level; and ... no charge or adopt a sliding fee scale for persons with incomes between 125 percent and, at a minimum, 200 percent",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "agency_page",
+   "cited_as": "Ohio Revised Code Section 5168.14, Providing basic, medically necessary hospital-level services to individuals who are residents (effective October 3, 2023)",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-5168.14",
+   "record_title": "Section 5168.14 | Providing basic, medically necessary hospital-level services to individuals who are residents.",
+   "version_or_date": "Effective October 3, 2023 (House Bill 33, 135th GA)",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Live page linked the September 29, 2013 version, which the Ohio site marks as a past version no longer in effect. Link changed to the current version; the cited text is the same in both.",
+   "claims": [
+    {
+     "text": "HCAP: basic, medically necessary hospital-level services free for Ohio residents not on Medicaid with income at or below the poverty line (text and figure)",
+     "quote": "shall provide, without charge to the individual, basic, medically necessary hospital-level services to individuals who are residents of this state, are not medicaid recipients, and whose income is at or below the federal poverty line.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "agency_page",
+   "cited_as": "Centers for Medicare & Medicaid Services, Dispute a medical bill (page last modified October 2, 2026)",
+   "url": "https://www.cms.gov/initiatives/your-patient-rights/medical-bill-rights/get-help/dispute-bill",
+   "record_title": "Dispute a medical bill",
+   "version_or_date": "Page last modified 10/02/2026",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Live link https://www.cms.gov/medical-bill-rights/help/dispute-a-bill redirects; the reference now uses the final URL.",
+   "claims": [
+    {
+     "text": "Dispute option when bill is at least $400 above the GFE for a provider or facility",
+     "quote": "One of your providers or facilities charged at least $400 more than their good faith estimate.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "PPDR is for people who did not have or did not use insurance; initial bill within last 120 calendar days",
+     "quote": "When you got care, you didn’t have or didn’t use your health insurance to pay for it. ... You have an initial bill dated within the last 120 calendar days (about 4 months).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "$25 fee; process does not start until it is paid",
+     "quote": "$25 non-refundable administrative fee ... The dispute process doesn’t start until the $25 fee is paid.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fee deducted from what you owe if decided in your favor",
+     "quote": "If the dispute is decided in your favor, the $25 will be deducted from the amount you owe your provider.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Settlement: provider must reduce bill by at least $12.50",
+     "quote": "Reduce your bill by at least $12.50 (half of the $25 administrative fee), and",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "agency_page",
+   "cited_as": "42 U.S. Code Section 1395dd, Examination and treatment for emergency medical conditions and women in labor (EMTALA), Legal Information Institute",
+   "url": "https://www.law.cornell.edu/uscode/text/42/1395dd",
+   "record_title": "42 U.S. Code § 1395dd - Examination and treatment for emergency medical conditions and women in labor",
+   "version_or_date": "LII text read 2026-11-15 (last amendment listed Pub. L. 116-260, Dec. 27, 2020)",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "EMTALA: medical screening examination for anyone who comes to the ED",
+     "quote": "if any individual (whether or not eligible for benefits under this subchapter) comes to the emergency department ... for examination or treatment for a medical condition, the hospital must provide for an appropriate medical screening examination",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "EMTALA: stabilizing treatment or appropriate transfer",
+     "quote": "the hospital must provide either— (A) within the staff and facilities available at the hospital, for such further medical examination and such treatment as may be required to stabilize the medical condition, or (B) for transfer",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "ED cannot turn away a person because they cannot pay",
+     "quote": "may not delay provision of an appropriate medical screening examination required under subsection (a) or further medical examination and treatment required under subsection (b) in order to inquire about the individual’s method of payment or insurance status.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "agency_page",
+   "cited_as": "Medicaid and CHIP Payment and Access Commission, Medicaid Retroactive Eligibility: Changes under Section 1115 Waivers (issue brief, August 2019)",
+   "url": "https://www.macpac.gov/publication/medicaid-retroactive-eligibility-changes-under-section-1115-waivers/",
+   "record_title": "Medicaid Retroactive Eligibility: Changes under Section 1115 Waivers",
+   "version_or_date": "Published 2019-08-16 (page modified 2024-06-29); landing-page summary only",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Predates P.L. 119-21; the 2027 change is cited to ref 13.",
+   "claims": [
+    {
+     "text": "Federal rules have generally required three months of retroactive eligibility",
+     "quote": "Federal regulation requires states to provide three months of retroactive eligibility for Medicaid, if an individual received covered services and would have been eligible at the time the service was provided.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Some states have changed the retroactive window through section 1115 waivers",
+     "quote": "As of August 2019, 30 demonstrations in 27 states have been approved to make changes to the retroactive eligibility period as part of Section 1115 demonstration waivers.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "agency_page",
+   "cited_as": "Park C. Medicaid and CHIP Payment and Access Commission, Summary of P.L. 119-21, An Act to Provide for Reconciliation Pursuant to Title II of H. Con. Res. 14 (Commission meeting slides, September 18, 2025)",
+   "url": "https://www.macpac.gov/wp-content/uploads/2025/09/01_September-Slides_Summary-of-P.L.-119-21-An-Act-to-Provide-for-Reconciliation-Pursuant-to-Title-II-of-H.-Con.-Res.-14.pdf",
+   "record_title": "Summary of P.L. 119-21, An Act to Provide for Reconciliation Pursuant to Title II of H. Con. Res. 14",
+   "version_or_date": "MACPAC September 18, 2025 meeting slides (Chris Park)",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "ADDED. Federal congressional advisory commission summary of the statute; the statute text itself was not retrieved.",
+   "claims": [
+    {
+     "text": "Beginning January 1, 2027, retroactive coverage limited to one month for the expansion adult group",
+     "quote": "Beginning January 1, 2027, retroactive coverage for the Medicaid expansion new adult group can only be provided for one month prior to the application month",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Two months for others",
+     "quote": "For those not enrolled in the new adult group, retroactive coverage can be provided for two months prior to the application month",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "agency_page",
+   "cited_as": "Centers for Medicare & Medicaid Services, Medicaid and CHIP FAQs: Implementing Hospital Presumptive Eligibility Programs (January 2014)",
+   "url": "https://www.medicaid.gov/state-resource-center/faq-medicaid-and-chip-affordable-care-act-implementation/downloads/faqs-by-topic-hospital-pe-01-23-14.pdf",
+   "record_title": "Medicaid and CHIP FAQs: Implementing Hospital Presumptive Eligibility Programs",
+   "version_or_date": "January 2014",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Now also covers the claim previously cited to Medicaid.gov FAQ 91721, whose text is identical to Q1 of this set.",
+   "claims": [
+    {
+     "text": "PE is temporary Medicaid coverage for people likely eligible",
+     "quote": "hospitals will be able to immediately enroll patients who are likely eligible under a state’s Medicaid eligibility guidelines for a temporary period of time.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hospital PE took effect January 1, 2014",
+     "quote": "Given that hospital PE was effective January 1, 2014, what is the deadline for states to submit their Medicaid state plan amendment to implement this provision?",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Qualifying hospitals that follow state procedures can make PE determinations",
+     "quote": "all states must implement hospital PE to include all qualifying hospitals willing to abide by state policies and procedures.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Choice to make PE determinations rests with each hospital",
+     "quote": "The choice to make PE determinations rests with each individual hospital (not with the state)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hospital may use income and household size, with other factors at state option",
+     "quote": "An individual provides information about his or her income and household size, and (at state option) information regarding citizenship, immigration status, and residency",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "States have long had the option to use PE for pregnant women and children",
+     "quote": "For years, states have had the option to use presumptive eligibility (PE) to connect pregnant women and children to Medicaid.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hospital PE covers other groups such as parents and caretaker relatives and the adult group if covered",
+     "quote": "all MAGI-eligible groups: pregnant women, infants, and children, parents and caretaker relatives, the adult group, if covered by the state",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Full application needed for coverage to continue",
+     "quote": "individuals should be informed that filing a full Medicaid application is necessary for coverage to continue",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "agency_page",
+   "cited_as": "Consumer Financial Protection Bureau, Prohibition on Creditors and Consumer Reporting Agencies Concerning Medical Information (Regulation V), final rule page with vacatur notice (page last modified February 24, 2026)",
+   "url": "https://www.consumerfinance.gov/rules-policy/final-rules/prohibition-on-creditors-and-consumer-reporting-agencies-concerning-medical-information-regulation-v/",
+   "record_title": "Prohibition on Creditors and Consumer Reporting Agencies Concerning Medical Information (Regulation V)",
+   "version_or_date": "Rule dated Jan 07, 2025; page last modified Feb. 24, 2026",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "CFPB issued a final rule on January 7, 2025",
+     "quote": "On January 7, 2025, the Consumer Financial Protection Bureau issued a final rule amending Regulation V",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Federal court vacated it on July 11, 2025",
+     "quote": "On July 11, 2025, the U.S. District Court of the Eastern District of Texas vacated the Consumer Financial Protection Bureau’s rule",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Court concluded rule exceeded authority and conflicted with FCRA",
+     "quote": "The court agreed with the Bureau and the plaintiffs that the rule exceeded the Bureau’s statutory authority and was contrary to the Fair Credit Reporting Act (FCRA)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "other_web",
+   "cited_as": "Equifax, What have the Nationwide Credit Reporting Agencies (NCRAs) changed with respect to medical collection debt on consumer credit files?",
+   "url": "https://www.equifax.com/personal/help/article-list/-/h/a/what-are-nationwide-credit-reporting-agencies-ncra-changing-on-consumer-credit-files/",
+   "record_title": "What have the Nationwide Credit Reporting Agencies (NCRAs) changed with respect to medical collection debt on consumer credit files?",
+   "version_or_date": "Undated Equifax FAQ; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Paid medical collections removed July 1, 2022; unpaid under $500 removed April 1, 2023",
+     "quote": "Effective April 1, 2023, unpaid medical collection debt with an initial reported balance of under $500 will no longer be included on consumer credit reports. In addition, as of July 1, 2022, paid medical collection debt is no longer included",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Waiting period increased to one year",
+     "quote": "And the time period before unpaid medical collection debt appears on a consumer’s report increased from 6 months to one year.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "agency_page",
+   "cited_as": "Centers for Medicare & Medicaid Services, Understanding the Good Faith Estimate and Patient-Provider Dispute Resolution Process (CSG-202202, February 2022)",
+   "url": "https://www.cms.gov/marketplace/technical-assistance-resources/understanding-good-faith-estimate-and-dispute-resolution-process.pdf",
+   "record_title": "Understanding the Good Faith Estimate and Patient-Provider Dispute Resolution Process",
+   "version_or_date": "February 2022 (CSG-202202)",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "PPDR available when bill is at least $400 above the GFE for that provider or facility",
+     "quote": "If a consumer gets a bill that is at least $400 more for any provider or facility than the total expected charges for that provider or facility on the good faith estimate, there is a new patient-provider dispute resolution (PPDR)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "kind": "agency_page",
+   "cited_as": "Centers for Medicare & Medicaid Services, About Independent Dispute Resolution (page last modified November 13, 2026)",
+   "url": "https://www.cms.gov/initiatives/no-surprise-billing/overview/engaging-idr/about-independent-dispute-resolution",
+   "record_title": "About Independent Dispute Resolution",
+   "version_or_date": "Page last modified 11/13/2026",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "ADDED. Replaces the CMS No Surprises hub, which does not state the 30-business-day period.",
+   "claims": [
+    {
+     "text": "Provider-plan IDR begins with a 30-business-day open negotiation period",
+     "quote": "the health plan, provider, or facility must start an open negotiation period that lasts 30 business days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "IDR is between plans and providers or facilities, not a patient appeal",
+     "quote": "Providers (including air ambulance providers), facilities, and health plans can use the process to determine the payment rates for certain out-of-network charges.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "kind": "other_web",
+   "cited_as": "Texas Hospital Association, Charity Care and Community Benefit in Texas: Frequently Asked Questions (March 2025)",
+   "url": "https://www.tha.org/wp-content/uploads/2025/03/Charity-care-FAQ-Mar-2025-FINAL.pdf",
+   "record_title": "Charity Care and Community Benefit in Texas: Frequently Asked Questions",
+   "version_or_date": "March 2025",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Hospital trade association (interested party); text attributes the flexibility statement to THA.",
+   "claims": [
+    {
+     "text": "Texas law requires nonprofit hospitals to provide a minimum amount of charity care annually",
+     "quote": "Texas’ charity care law is known as one of the most stringent in the nation, requiring nonprofit hospitals to provide a minimum amount of charity care annually.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hospitals have flexibility to set their own charity-care criteria (per THA)",
+     "quote": "Hospitals have flexibility to set charity care policies according to their own mission, financial condition, social and economic profile of the community served and other factors.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "kind": "other_web",
+   "cited_as": "Dollar For, Florida state sheet: legal provisions related to hospital financial assistance and charity care",
+   "url": "https://dollarfor.org/state_sheet/florida/",
+   "record_title": "Florida – Dollar For",
+   "version_or_date": "Undated state sheet; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "ADDED. Nonprofit advocacy summary, not the statute; the live sentence \"Florida has no state charity-care statute\" was not verifiable and was replaced by this narrower claim.",
+   "claims": [
+    {
+     "text": "Florida law does not set a minimum income level for charity care",
+     "quote": "No, Florida law does not specify a minimum FPL, so federal law would apply.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "kind": "other_web",
+   "cited_as": "HCA Florida Healthcare, Financial Assistance",
+   "url": "https://www.hcafloridahealthcare.com/patient-resources/patient-financial-resources/financial-assistance",
+   "record_title": "Financial Assistance | HCA Florida",
+   "version_or_date": "Undated; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "HCA Florida describes a charity discount policy and an uninsured discount policy",
+     "quote": "All Self-Pay patients, excluding elective cosmetic procedures and facility designated self-pay flat rate procedures , will receive discount similar to managed care, referred to as an \"uninsured discount\".",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Some systems post their own financial assistance programs",
+     "quote": "HCA Florida Healthcare offers many forms of financial assistance for patients without healthcare insurance needing emergent or non-elective services.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "kind": "other_web",
+   "cited_as": "Dollar For, Pennsylvania state sheet: legal provisions related to hospital financial assistance and charity care",
+   "url": "https://dollarfor.org/state_sheet/pennsylvania/",
+   "record_title": "Pennsylvania – Dollar For",
+   "version_or_date": "Undated state sheet; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "ADDED. Replaces PA General Assembly Act 55 of 1997 link (www.legis.state.pa.us), which failed DNS resolution on 2026-11-15 and could not be read.",
+   "claims": [
+    {
+     "text": "Pennsylvania does not set a minimum income level for charity care",
+     "quote": "No, Pennsylvania law does not specify a minimum FPL, so federal law would apply.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dollar For describes the state charity-care law as very limited",
+     "quote": "Pennslyvania has a very limited state charity law that mandates hospitals have a financial assistance policy without specifying what the policy must contain.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "kind": "agency_page",
+   "cited_as": "Ohio Administrative Code Rule 5160-2-17, Provision of basic, medically necessary hospital-level services (effective July 28, 2022)",
+   "url": "https://codes.ohio.gov/ohio-administrative-code/rule-5160-2-17",
+   "record_title": "Rule 5160-2-17 | Provision of basic, medically necessary hospital-level services.",
+   "version_or_date": "Effective July 28, 2022",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Administrative rule explains the income standard",
+     "quote": "A person is eligible for basic, medically necessary hospital-level services under the provisions of this rule if the person's individual or family income is at or below the current poverty guideline",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "...and application details",
+     "quote": "A complete application for the hospital care assurance program is necessary prior to determination of eligibility.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "kind": "other_web",
+   "cited_as": "Dollar For, North Carolina state sheet: legal provisions related to hospital financial assistance and charity care (page modified July 24, 2023)",
+   "url": "https://dollarfor.org/state_sheet/north-carolina/",
+   "record_title": "North Carolina – Dollar For",
+   "version_or_date": "Page modified 2023-07-24",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Nonprofit advocacy summary.",
+   "claims": [
+    {
+     "text": "North Carolina has no state charity-care law setting a statewide income threshold",
+     "quote": "No, North Carolina doesn't have its own law. Federal law applies.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nonprofit hospitals follow their own FAPs",
+     "quote": "Federal law does not set a minimum FPL. Nonprofit hospitals are simply required to follow their financial assistance policy.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "kind": "other_web",
+   "cited_as": "North Carolina Justice Center, Get Relief from Hospital Bills (page modified February 19, 2026)",
+   "url": "https://www.ncjustice.org/projects/health-advocacy-project/medical-debt/get-relief-from-hospital-bills/",
+   "record_title": "Get Relief from Hospital Bills",
+   "version_or_date": "Page modified 2026-02-19",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, maxAge 0, live fetch)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "NC Justice Center partners with Dollar For to help patients apply for financial assistance",
+     "quote": "We are proud to partner with Dollar For, a national nonprofit that crushes medical bills by helping patients access charity care.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

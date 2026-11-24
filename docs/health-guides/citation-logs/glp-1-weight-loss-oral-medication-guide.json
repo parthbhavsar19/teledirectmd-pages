@@ -1,0 +1,948 @@
+{
+  "guide": "glp-1-weight-loss-oral-medication-guide",
+  "checked_at": "2026-11-07",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+  "references": [
+    {
+      "n": 1,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. FDA Approves First New Molecular Entity Under National Priority Voucher Program. Press announcement, April 1, 2026. Accessed November 7, 2026.",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-new-molecular-entity-under-national-priority-voucher-program",
+      "version_or_date": "Press announcement dated April 1, 2026",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "FDA release. It does not say Foundayo is the first oral GLP-1 without fasting; the guide no longer says \"first\".",
+      "claims": [
+        {
+          "text": "FDA approved Foundayo on April 1, 2026, as a once-daily GLP-1 pill that does not need to be taken on an empty stomach",
+          "quote": "GLP-1 receptor partial agonist pill which does not need to be taken on an empty stomach",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Foundayo approved with reduced-calorie diet and physical activity (indication; approval date is the release date)",
+          "quote": "Foundayo is approved for use in combination with a reduced-calorie diet and increased physical activity to reduce excess",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Approval used the CNPV pathway and was the first new molecular entity approved under the program",
+          "quote": "represents a historic milestone as the first new molecular entity (NME) approved under the program.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Boxed warning for thyroid C-cell tumors",
+          "quote": "The labeling for Foundayo includes a boxed warning for thyroid C-cell tumors.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Should not be used with personal or family history of medullary thyroid cancer or MEN 2",
+          "quote": "Foundayo should not be used in patients with a personal or family history of medullary thyroid cancer",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Warnings include pancreatitis and severe gastrointestinal reactions",
+          "quote": "It also contains warnings and precautions for inflammation of the pancreas (pancreatitis), severe gastrointestinal",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Foundayo should not be used in combination with another GLP-1 receptor agonist",
+          "quote": "It should not be used in combination with another GLP-1 receptor agonist.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "label",
+      "cited_as": "Eli Lilly and Company. FOUNDAYO (orforglipron) tablets, prescribing information. DailyMed, National Library of Medicine. Revised July 2026. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62",
+      "version_or_date": "Revised: 7/2026 (DailyMed page updated July 29, 2026)",
+      "retrieved_with": "WebFetch of DailyMed label page (direct SPL download blocked by network proxy)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Quotes are from the DailyMed label page; table rows quoted as rendered text.",
+      "claims": [
+        {
+          "text": "Foundayo taken once daily with or without food",
+          "quote": "Take FOUNDAYO orally once daily, with or without food.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dose escalation: 0.8 mg start, at least 30 days per step to 2.5 mg then 5.5 mg",
+          "quote": "After at least 30 days on the 0.8 mg dosage, increase the dosage to 2.5 mg once daily.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Further escalation to 9, 14.5 or 17.2 mg after at least 30 days, based on response and tolerability",
+          "quote": "The dosage may be increased to the next dosage level (9 mg, 14.5 mg, or 17.2 mg once daily) after at least 30 days on the current dosage, based on treatment response and tolerability.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Maximum dose 17.2 mg once daily",
+          "quote": "The maximum dosage of FOUNDAYO is 17.2 mg once daily.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Approved tablets use a different formulation; label presents trial results as equivalent Foundayo doses",
+          "quote": "the investigational orforglipron formulation shown as equivalent dosages of once daily FOUNDAYO",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Label reports 11.1% average loss on 17.2 mg vs 2.1% on placebo at week 72 (Trial 1)",
+          "quote": "% Change from baselineb | -2.1 | -7.4 | -8.3 | -11.1",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Indicated for adults with obesity, or overweight with a weight-related condition",
+          "quote": "FOUNDAYOTM is indicated in combination with a reduced-calorie diet and increased physical activity to reduce excess body",
+          "quote_source": "label",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Contraindicated with personal/family history of MTC or MEN 2",
+          "quote": "A personal or family history of MTC or in patients with MEN 2",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Contraindicated with known serious hypersensitivity",
+          "quote": "Known serious hypersensitivity to orforglipron or any of the excipients in FOUNDAYO",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Rodent thyroid C-cell tumors; human relevance not determined",
+          "quote": "the human relevance of GLP-1 receptor-dependent thyroid C-cell tumors observed in rodents has not been determined",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "If pancreatitis is suspected, the drug is stopped",
+          "quote": "If pancreatitis is suspected, discontinue FOUNDAYO and initiate appropriate management.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Delays gastric emptying; can affect absorption of oral medicines",
+          "quote": "FOUNDAYO delays gastric emptying and thereby has the potential to impact the absorption",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Monitor history of diabetic retinopathy for progression",
+          "quote": "Monitor patients with a history of diabetic retinopathy for progression of diabetic retinopathy.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Gallstones reported in trials; suspected cholecystitis needs gallbladder studies",
+          "quote": "If cholecystitis is suspected, gallbladder diagnostic studies and appropriate clinical follow-up are indicated.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Kidney injury mostly in patients with GI reactions leading to dehydration; monitor renal function",
+          "quote": "Monitor renal function in patients reporting adverse reactions to FOUNDAYO that could lead to volume depletion",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Aspiration warning: tell providers before planned surgery or procedures",
+          "quote": "Instruct patients to inform healthcare providers prior to any planned surgeries or procedures if they are taking FOUNDAYO.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Stop Foundayo when pregnancy is recognized",
+          "quote": "When a pregnancy is recognized, advise the pregnant patient of the risk to a fetus and discontinue FOUNDAYO.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Oral hormonal contraceptive users: switch to non-oral or add barrier method for 30 days after starting and for 30 days after each dose escalation",
+          "quote": "add a barrier method of contraception for 30 days after initiation with FOUNDAYO ... and for 30 days after each dose escalation",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Missed dose: take as soon as possible",
+          "quote": "If a dose is missed, instruct patients to take the dose as soon as possible.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "7 or more consecutive missed doses: restart escalation at lower dose",
+          "quote": "If 7 or more consecutive doses are missed, reinitiate dosage escalation at a lower dosage",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Nausea 26% to 35% across doses vs 10% placebo",
+          "quote": "Nausea | 10 | 26 | 34 | 35",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Constipation 20% to 27% vs 9% placebo",
+          "quote": "Constipation | 9 | 20 | 27 | 24",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Diarrhea 21% to 25% vs 11% placebo",
+          "quote": "Diarrhea | 11 | 21 | 23 | 25",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Vomiting 13% to 24% vs 4% placebo",
+          "quote": "Vomiting | 4 | 13 | 21 | 24",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "journal",
+      "cited_as": "Wharton S, Aronne LJ, Stefanski A, et al. Orforglipron, an Oral Small-Molecule GLP-1 Receptor Agonist for Obesity Treatment. New England Journal of Medicine. 2025;393(18):1796-1806. PMID: 40960239.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40960239/",
+      "pmid": "40960239",
+      "doi": "10.1056/NEJMoa2511774",
+      "record_title": "Orforglipron, an Oral Small-Molecule GLP-1 Receptor Agonist for Obesity Treatment.",
+      "record_journal": "N Engl J Med",
+      "record_year": "2025",
+      "article_type": "Randomized Controlled Trial; Clinical Trial, Phase III",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract); retraction check via PubMed article types",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "ATTAIN-1. Figures are the abstract treatment-regimen estimand (11.2%), replacing the Lilly topline press release efficacy-estimand figure (12.4%). Second author corrected to Aronne LJ. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types show no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Orforglipron is a small-molecule, nonpeptide oral GLP-1 receptor agonist",
+          "quote": "Orforglipron, a small-molecule, nonpeptide oral glucagon-like peptide-1 (GLP-1) receptor agonist",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "3,127 adults with obesity without diabetes randomized to 6, 12, 36 mg or placebo for 72 weeks",
+          "quote": "All the patients had obesity without diabetes mellitus.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Weight change -11.2% with 36 mg vs -2.1% placebo at 72 weeks",
+          "quote": "-11.2% (95% CI, -12.0 to -10.4) with 36 mg of orforglipron, as compared with -2.1% (95% CI, -2.8 to -1.4) with placebo",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "54.6% lost at least 10% and 36.0% at least 15% on 36 mg",
+          "quote": "Among the patients in the orforglipron 36-mg group, 54.6% had a reduction of 10% or more, 36.0% had a reduction of 15% or more",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Improved waist circumference, systolic BP, triglycerides, non-HDL cholesterol",
+          "quote": "Waist circumference, systolic blood pressure, triglyceride levels, and non-HDL cholesterol levels significantly improved with orforglipron treatment as compared with placebo.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Adverse events led 5.3% to 10.3% to stop vs 2.7% placebo; profile consistent with GLP-1 class",
+          "quote": "Adverse events resulted in treatment discontinuation in 5.3 to 10.3% of the patients in the orforglipron groups and in 2.7% of those in the placebo group.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Rosenstock J, Yabe D, Cox D, et al. Efficacy and safety of once-daily oral orforglipron compared with oral semaglutide in adults with type 2 diabetes (ACHIEVE-3): a multinational, multicentre, non-inferiority, open-label, randomised, phase 3 trial. Lancet. 2026;407(10534):1147-1160. PMID: 41765029.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41765029/",
+      "pmid": "41765029",
+      "doi": "10.1016/S0140-6736(26)00202-3",
+      "record_title": "Efficacy and safety of once-daily oral orforglipron compared with oral semaglutide in adults with type 2 diabetes (ACHIEVE-3): a multinational, multicentre, non-inferiority, open-label, randomised, phase 3 trial.",
+      "record_journal": "Lancet",
+      "record_year": "2026",
+      "article_type": "Randomized Controlled Trial; Clinical Trial, Phase III",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract); retraction check via PubMed article types",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Replaces the Scientific American news article. Abstract-only (no PMC full text); abstract gives no weight results, so the guide no longer states ACHIEVE-3 weight figures. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types show no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "1,698 adults with T2D on metformin, orforglipron 12/36 mg vs oral semaglutide 7/14 mg, 52 weeks",
+          "quote": "From Sept 22, 2023, to Aug 22, 2025, 1698 participants were recruited and randomly assigned to orforglipron (n=424 on 12 mg and n=423 on 36 mg) or semaglutide",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "HbA1c -1.91% with orforglipron 36 mg vs -1.47% with semaglutide 14 mg",
+          "quote": "-1·91% (0·08) with orforglipron 36 mg, -1·23% (0·05) with semaglutide 7 mg, and -1·47% (0·06) with semaglutide 14 mg",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Both orforglipron doses superior to both semaglutide doses",
+          "quote": "both orforglipron doses showed superiority to both semaglutide doses, including orforglipron 12 mg versus semaglutide 14 mg",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "More GI events, discontinuations (10% vs 5%) and pulse increase with orforglipron",
+          "quote": "More participants in the orforglipron groups (37 [9%] on 12 mg and 41 [10%] on 36 mg) discontinued study treatment due to adverse events than in the semaglutide groups",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Lincoff AM, Brown-Frandsen K, Colhoun HM, et al. Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes. New England Journal of Medicine. 2023;389(24):2221-2232. PMID: 37952131.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37952131/",
+      "pmid": "37952131",
+      "doi": "10.1056/NEJMoa2307563",
+      "record_title": "Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes.",
+      "record_journal": "N Engl J Med",
+      "record_year": "2023",
+      "article_type": "Randomized Controlled Trial",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract); retraction check via PubMed article types",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "SELECT primary publication; replaces the ACC summary page. Mean follow-up 39.8 months replaces the unsupported \"about three years\". scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types show no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "17,604 adults 45+ with preexisting CVD, BMI 27+, no diabetes",
+          "quote": "we enrolled patients 45 years of age or older who had preexisting cardiovascular disease and a body-mass index",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Mean follow-up 39.8 months; MACE 6.5% vs 8.0%, HR 0.80",
+          "quote": "A primary cardiovascular end-point event occurred in 569 of the 8803 patients (6.5%) in the semaglutide group and in 701 of the 8801 patients (8.0%) in the placebo group (hazard ratio, 0.80",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "journal",
+      "cited_as": "Wilding JPH, Batterham RL, Davies M, et al. Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension. Diabetes, Obesity and Metabolism. 2022;24(8):1553-1564. PMID: 35441470.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35441470/",
+      "pmid": "35441470",
+      "pmcid": "PMC9542252",
+      "doi": "10.1111/dom.14725",
+      "record_title": "Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension.",
+      "record_journal": "Diabetes Obes Metab",
+      "record_year": "2022",
+      "article_type": "Randomized Controlled Trial",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract); retraction check via PubMed article types",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Primary source for the two-thirds regain figure; replaces MedCentral news article. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types show no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Extension analysed 327 participants",
+          "quote": "Extension analyses included 327 participants.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "One year after stopping semaglutide, participants regained two-thirds of prior weight loss",
+          "quote": "One year after withdrawal of once-weekly subcutaneous semaglutide 2.4 mg and lifestyle intervention, participants regained two-thirds of their prior weight loss",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Authors conclude chronicity of obesity; ongoing treatment required",
+          "quote": "Findings confirm the chronicity of obesity and suggest ongoing treatment is required to maintain improvements in weight and health.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "journal",
+      "cited_as": "Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide Once Weekly for the Treatment of Obesity. New England Journal of Medicine. 2022;387(3):205-216. PMID: 35658024.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35658024/",
+      "pmid": "35658024",
+      "doi": "10.1056/NEJMoa2206038",
+      "record_title": "Tirzepatide Once Weekly for the Treatment of Obesity.",
+      "record_journal": "N Engl J Med",
+      "record_year": "2022",
+      "article_type": "Randomized Controlled Trial; Clinical Trial, Phase III",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract); retraction check via PubMed article types",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Link changed from nejm.org to the PubMed record. 20.2% corrected to 20.9% (15 mg). SURMOUNT-4 claim moved to its own reference. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types show no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Tirzepatide 15 mg produced 20.9% mean weight loss at 72 weeks",
+          "quote": "-20.9% (95% CI, -21.8 to -19.9) with 15-mg doses",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Tirzepatide is a dual GIP and GLP-1 receptor agonist",
+          "quote": "tirzepatide, a novel glucose-dependent insulinotropic polypeptide and glucagon-like peptide-1 receptor agonist",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Trial eligibility BMI 30+ or 27+ with weight-related complication",
+          "quote": "a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of 30 or more, or 27 or more and at least one weight-related complication",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "GI adverse events occurred mainly during dose escalation",
+          "quote": "most were mild to moderate in severity, occurring primarily during dose escalation",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "label",
+      "cited_as": "Novo Nordisk. WEGOVY (semaglutide) injection and WEGOVY (semaglutide) tablets, prescribing information. DailyMed, National Library of Medicine. Revised June 2026. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee06186f-2aa3-4990-a760-757579d8f77b",
+      "version_or_date": "Revised: 6/2026",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Wegovy injection and tablets combined label.",
+      "claims": [
+        {
+          "text": "Wegovy tablets taken on empty stomach in the morning with up to 4 oz water",
+          "quote": "Take one WEGOVY tablet orally once daily on an empty stomach in the morning with water (up to 4 ounces).",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Wait at least 30 minutes before food, drink or other oral medicines",
+          "quote": "wait at least 30 minutes before eating food, drinking beverages or taking other oral medications",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "25 mg once daily maintenance; 50 mg not an approved tablet strength",
+          "quote": "The recommended maintenance dosage of WEGOVY tablets is 25 mg orally once daily.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Approved tablet strengths",
+          "quote": "Tablets: 1.5 mg, 4 mg, 9 mg and 25 mg",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Stop at least 2 months before planned pregnancy",
+          "quote": "discontinue WEGOVY at least 2 months before a planned pregnancy because of the long half-life of semaglutide.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Missed Wegovy injection: give if next dose more than 2 days away, otherwise skip",
+          "quote": "administer WEGOVY injection as soon as possible",
+          "quote_source": "label",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "journal",
+      "cited_as": "Wilding JPH, Batterham RL, Calanna S, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity. New England Journal of Medicine. 2021;384(11):989-1002. PMID: 33567185.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33567185/",
+      "pmid": "33567185",
+      "doi": "10.1056/NEJMoa2032183",
+      "record_title": "Once-Weekly Semaglutide in Adults with Overweight or Obesity.",
+      "record_journal": "N Engl J Med",
+      "record_year": "2021",
+      "article_type": "Randomized Controlled Trial",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract); retraction check via PubMed article types",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Link changed from nejm.org to the PubMed record. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types show no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Semaglutide 2.4 mg: 14.9% mean weight loss at 68 weeks",
+          "quote": "The mean change in body weight from baseline to week 68 was -14.9% in the semaglutide group as compared with -2.4% with placebo",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Trial eligibility BMI 30+ or 27+ with coexisting condition",
+          "quote": "a body-mass index (the weight in kilograms divided by the square of the height in meters) of 30 or greater (≥27 in persons with ≥1 weight-related coexisting condition)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "GI side effects typically subside with time",
+          "quote": "they were typically transient and mild-to-moderate in severity and subsided with time",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "label",
+      "cited_as": "Eli Lilly and Company. ZEPBOUND (tirzepatide) injection, prescribing information. DailyMed, National Library of Medicine. Revised August 2026. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=487cd7e7-434c-4925-99fa-aa80b1cc776b",
+      "version_or_date": "Revised: 8/2026 (DailyMed page updated August 28, 2026)",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "The statement that every tirzepatide product in DailyMed was an injection comes from a DailyMed search for tirzepatide on 2026-11-07 (8 results, all injections).",
+      "claims": [
+        {
+          "text": "Tirzepatide given as once-weekly subcutaneous injection",
+          "quote": "5 mg, 10 mg, or 15 mg, injected subcutaneously once weekly",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "No FDA-approved oral tirzepatide (DailyMed search: all tirzepatide labels are injections)",
+          "quote": "5 mg, 10 mg, or 15 mg, injected subcutaneously once weekly",
+          "quote_source": "label",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Indicated for adults with obesity or overweight with a weight-related condition",
+          "quote": "to reduce excess body weight and maintain weight reduction long term in adults with obesity or adults with overweight",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Missed Zepbound dose within 4 days (96 hours)",
+          "quote": "as soon as possible within 4 days (96 hours) after the missed dose",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Stop Zepbound when pregnancy is recognized",
+          "quote": "discontinue ZEPBOUND when a pregnancy is recognized",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Oral contraceptives: switch to non-oral or add barrier method after starting and after each dose increase",
+          "quote": "switch to a non-oral contraceptive method, or add a barrier method of contraception",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Adult Obesity Facts. Page updated May 14, 2024. Accessed November 7, 2026.",
+      "url": "https://www.cdc.gov/obesity/adult-obesity-facts/index.html",
+      "version_or_date": "Last updated May 14, 2024 (page metadata); last reviewed December 15, 2023",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "The blood-pressure-drug analogy that this page did not support was removed.",
+      "claims": [
+        {
+          "text": "Obesity is a chronic disease",
+          "quote": "Obesity is a serious, common, and costly chronic disease.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "journal",
+      "cited_as": "Aronne LJ, Sattar N, Horn DB, et al. Continued Treatment With Tirzepatide for Maintenance of Weight Reduction in Adults With Obesity: The SURMOUNT-4 Randomized Clinical Trial. JAMA. 2024;331(1):38-48. PMID: 38078870.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38078870/",
+      "pmid": "38078870",
+      "pmcid": "PMC10714284",
+      "doi": "10.1001/jama.2023.24945",
+      "record_title": "Continued Treatment With Tirzepatide for Maintenance of Weight Reduction in Adults With Obesity: The SURMOUNT-4 Randomized Clinical Trial.",
+      "record_journal": "JAMA",
+      "record_year": "2024",
+      "article_type": "Randomized Controlled Trial; Clinical Trial, Phase III",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract); retraction check via PubMed article types",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New reference; the SURMOUNT-4 claim was previously pinned to SURMOUNT-1. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types show no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "After 36-week lead-in, placebo group regained 14.0% vs further -5.5% with continued tirzepatide over 52 weeks",
+          "quote": "The mean percent weight change from week 36 to week 88 was -5.5% with tirzepatide vs 14.0% with placebo",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "journal",
+      "cited_as": "Wharton S, Lingvay I, Bogdanski P, et al. Oral Semaglutide at a Dose of 25 mg in Adults with Overweight or Obesity. New England Journal of Medicine. 2025;393(11):1077-1087. PMID: 40934115.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40934115/",
+      "pmid": "40934115",
+      "doi": "10.1056/NEJMoa2500969",
+      "record_title": "Oral Semaglutide at a Dose of 25 mg in Adults with Overweight or Obesity.",
+      "record_journal": "N Engl J Med",
+      "record_year": "2025",
+      "article_type": "Randomized Controlled Trial (PubMed also tags Clinical Trial, Phase II)",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract); retraction check via PubMed article types",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "OASIS 4; new reference for the approved oral Wegovy 25 mg dose. Replaces the incorrect \"~14% in ACHIEVE-3 comparator arm\". scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types show no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Oral semaglutide 25 mg: 13.6% mean weight loss at 64 weeks",
+          "quote": "The estimated mean change in body weight from baseline to week 64 was -13.6% in the oral semaglutide group and -2.2% in the placebo group",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "journal",
+      "cited_as": "Knop FK, Aroda VR, do Vale RD, et al. Oral semaglutide 50 mg taken once per day in adults with overweight or obesity (OASIS 1): a randomised, double-blind, placebo-controlled, phase 3 trial. Lancet. 2023;402(10403):705-719. PMID: 37385278.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37385278/",
+      "pmid": "37385278",
+      "doi": "10.1016/S0140-6736(23)01185-6",
+      "record_title": "Oral semaglutide 50 mg taken once per day in adults with overweight or obesity (OASIS 1): a randomised, double-blind, placebo-controlled, phase 3 trial.",
+      "record_journal": "Lancet",
+      "record_year": "2023",
+      "article_type": "Randomized Controlled Trial; Clinical Trial, Phase III",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract); retraction check via PubMed article types",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Abstract only. The SNAC/fasting claim formerly pinned here was moved to the Wegovy label (ref 8); SNAC wording cut. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types show no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Oral semaglutide 50 mg: 15.1% mean weight loss at 68 weeks (chart)",
+          "quote": "The estimated mean bodyweight change from baseline to week 68 was -15·1% (SE 0·5) with oral semaglutide 50 mg versus -2·4% (0·5) with placebo",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. FDA clarifies policies for compounders as national GLP-1 supply begins to stabilize. Content current as of April 1, 2026. Accessed November 7, 2026.",
+      "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-clarifies-policies-compounders-national-glp-1-supply-begins-stabilize",
+      "version_or_date": "Content current as of 04/01/2026",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Replaces Yao 2024 BMJ meta-analysis, which did not address shortages. Shortage status stated as of this page; readers pointed to the FDA shortage database for current status.",
+      "claims": [
+        {
+          "text": "Semaglutide injection shortage declared resolved February 21, 2025",
+          "quote": "the shortage of semaglutide injection products, a glucagon-like peptide 1 (GLP-1) medication, is resolved.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Tirzepatide injection shortage declared resolved December 19, 2024",
+          "quote": "determining the tirzepatide injection shortage is resolved",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Compounded drugs are not FDA-approved; approved drugs go through FDA review for safety, effectiveness, quality",
+          "quote": "Compounded drugs are not approved by FDA.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. FDA Proposes to Exclude Semaglutide, Tirzepatide, and Liraglutide on 503B Bulks List. Press announcement, April 30, 2026. Accessed November 7, 2026.",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-proposes-exclude-semaglutide-tirzepatide-and-liraglutide-503b-bulks-list",
+      "version_or_date": "Press announcement dated April 30, 2026",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New reference for the 503B proposal, previously uncited.",
+      "claims": [
+        {
+          "text": "April 30, 2026 proposal to exclude semaglutide, tirzepatide, liraglutide from 503B bulks list; no clinical need",
+          "quote": "finding no clinical need for outsourcing facilities to compound these drugs from bulk substances",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Bulk compounding allowed only in limited situations such as shortage listing",
+          "quote": "or the compounded drug is on the FDA's drug shortage list at the time of compounding, distribution, and dispensing",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "kind": "journal",
+      "cited_as": "West S, Scragg J, Aveyard P, et al. Weight regain after cessation of medication for weight management: systematic review and meta-analysis. BMJ. 2026;392:e085304. PMID: 41500720.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41500720/",
+      "pmid": "41500720",
+      "pmcid": "PMC12776922",
+      "doi": "10.1136/bmj-2025-085304",
+      "record_title": "Weight regain after cessation of medication for weight management: systematic review and meta-analysis.",
+      "record_journal": "BMJ",
+      "record_year": "2026",
+      "article_type": "Systematic Review; Meta-Analysis",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract); retraction check via PubMed article types; PMC full text",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "The Oxford analysis. It is a projection from 37 studies (mostly trials), not a real-world patient cohort; the guide now says so. The 50%/70% discontinuation figures were cut (the 50% figure here is cited from other papers). scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types show no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Systematic review of 37 studies projected return to baseline weight about 1.7 years after stopping",
+          "quote": "weight regain occurred at an average monthly rate of 0.4 kg, projecting a return to baseline weight 1.7 years after cessation of WMM",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "About 1.5 years for semaglutide and tirzepatide",
+          "quote": "a projected return to baseline weight (model 3) by 1.7 years (95% CI 1.3 to 2.1), 1.6 years (1.1 to 2.1), and 1.5 years (1.0 to 1.9)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Stopping is followed by rapid weight regain",
+          "quote": "cessation of WMM is followed by rapid weight regain and reversal of beneficial effects on cardiometabolic markers",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cardiometabolic markers projected to return to baseline within 1.4 years",
+          "quote": "All cardiometabolic markers were projected to return to baseline within 1.4 years after the cessation of WMM.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "kind": "journal",
+      "cited_as": "Gasoyan H, Butsch WS, Casacchia NJ, et al. Reasons for Discontinuation of Obesity Pharmacotherapy With Semaglutide or Tirzepatide in Clinical Practice. Obesity (Silver Spring). 2025;33(12):2296-2303. PMID: 41039650.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41039650/",
+      "pmid": "41039650",
+      "pmcid": "PMC12636059",
+      "doi": "10.1002/oby.70058",
+      "record_title": "Reasons for Discontinuation of Obesity Pharmacotherapy With Semaglutide or Tirzepatide in Clinical Practice.",
+      "record_journal": "Obesity (Silver Spring)",
+      "record_year": "2025",
+      "article_type": "Journal Article (cross-sectional study)",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract); retraction check via PubMed article types",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Replaces unsupported \"50% stop within a year, 70% within two years\" claim with reasons for stopping. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types show no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Among those stopping within the first year, cost/insurance 47.6%, side effects 14.6%, shortages 11.8%",
+          "quote": "137 patients (47.6%) discontinued their medication due to cost or insurance-related issues, 42 (14.6%) due to inability to tolerate the side effects, 34 (11.8%) as they were unable to fill the medication due to shortages",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "kind": "other_web",
+      "cited_as": "Eli Lilly and Company. FDA approves Lilly's Foundayo (orforglipron), the only GLP-1 pill for weight loss that can be taken any time of day without food or water restrictions. Press release, April 1, 2026. Accessed November 7, 2026.",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/fda-approves-lillys-foundayotm-orforglipron-only-glp-1-pill",
+      "version_or_date": "Press release dated April 1, 2026",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Manufacturer press release, used only for the manufacturer's own prices. Its headline claim ('only GLP-1 pill...') is not repeated in the guide text.",
+      "claims": [
+        {
+          "text": "Self-pay Foundayo starts at $149/month for the lowest dose",
+          "quote": "Individuals opting for self-pay can access Foundayo starting at $149 per month for the lowest dose.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "As little as $25/month with commercial insurance and savings card",
+          "quote": "Eligible people with commercial insurance may pay as little as $25 per month with the Foundayo savings card.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "kind": "other_web",
+      "cited_as": "Eli Lilly and Company. What Medicare Part D patients need to know about accessing Foundayo (orforglipron) and Zepbound (tirzepatide) for weight management. Press release, June 25, 2026. Accessed November 7, 2026.",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/what-medicare-part-d-patients-need-know-about-accessing-foundayo",
+      "version_or_date": "Press release dated June 25, 2026",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Manufacturer release on the Medicare GLP-1 Bridge. Corrects the guide's \"through December 2026\" to December 31, 2027.",
+      "claims": [
+        {
+          "text": "Medicare GLP-1 Bridge $50/month for Foundayo or Zepbound",
+          "quote": "A new Medicare pathway, the Medicare GLP-1 Bridge program, makes Lilly's obesity medicines",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Runs July 1, 2026, through December 31, 2027",
+          "quote": "Coverage begins July 1, 2026, for new and existing patients and will run through December 31, 2027.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Requires Part D coverage, BMI criteria, prior authorization",
+          "quote": "Ensure that the provider completes a prior authorization.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "kind": "other_web",
+      "cited_as": "Eli Lilly and Company. LillyDirect: Foundayo self-pay pricing. Accessed November 7, 2026.",
+      "url": "https://www.lilly.com/lillydirect/foundayo",
+      "version_or_date": "Read 2026-11-07; page notes 2.5 mg and 5.5 mg prices temporarily reduced through December 31, 2026",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Manufacturer price page.",
+      "claims": [
+        {
+          "text": "Foundayo self-pay $149 for 0.8 mg and 2.5 mg",
+          "quote": "Starting at $149/month",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Foundayo self-pay $199 for 5.5 mg",
+          "quote": "Starting at $199/month",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Foundayo self-pay $299 for 9 mg and higher",
+          "quote": "Starting at $299/month",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "14.5 mg and 17.2 mg prices require refill within 45 days",
+          "quote": "when you refill within 45 days",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "kind": "other_web",
+      "cited_as": "Eli Lilly and Company. LillyDirect: Zepbound self-pay pricing. Accessed November 7, 2026.",
+      "url": "https://www.lilly.com/lillydirect/zepbound",
+      "version_or_date": "Read 2026-11-07",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Manufacturer price page; insured price not retrieved, so the guide says to check with the insurer.",
+      "claims": [
+        {
+          "text": "Zepbound self-pay from $299/month (2.5 mg)",
+          "quote": "Starting at $299/month",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Zepbound self-pay up to $449/month (7.5 mg and higher, with refill within 45 days)",
+          "quote": "Starting at $449/month",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Regular prices of $499 to $699 for 7.5 mg and higher if not refilled within 45 days",
+          "quote": "Regular prices will apply if prescription is not refilled within 45 days",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "kind": "other_web",
+      "cited_as": "Novo Nordisk. NovoCare: Wegovy cost, coverage and savings. Accessed November 7, 2026.",
+      "url": "https://www.novocare.com/patient/medicines/wegovy.html",
+      "version_or_date": "Read 2026-11-07",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Manufacturer price page.",
+      "claims": [
+        {
+          "text": "Wegovy pill $149 for 1.5 mg",
+          "quote": "Patients pay $149 for each month of 1.5 mg",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Wegovy pill $199 for 4 mg",
+          "quote": "$199 per month for 4 mg",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Wegovy pill $299 for 9 mg and 25 mg",
+          "quote": "$299 per month for 9 mg and 25 mg",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Wegovy injection $349/month for doses up to 2.4 mg",
+          "quote": "then $349 per month for Wegovy® 0.25 mg, 0.5 mg, 1 mg, 1.7 mg, or 2.4 mg",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "New patients pay $199 for first two months of 0.25 and 0.5 mg, offer through Dec 31, 2026",
+          "quote": "Patients new to the Wegovy® Savings offer or Novocare® home delivery pay $199 for each month of 0.25 mg & 0.5 mg.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "As little as $25 with commercial insurance, max savings $100/month",
+          "quote": "Pay as little as $25, subject to a maximum savings of $100/month.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

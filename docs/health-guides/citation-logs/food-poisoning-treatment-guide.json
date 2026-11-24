@@ -1,0 +1,964 @@
+{
+ "guide": "food-poisoning-treatment-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 8 verified, retractions: none (Barr 2014 AFP has no DOI: Scite could_not_verify, PubMed record 24506120 confirmed; PubMed article types show no Retracted Publication or Retraction Notice for any journal ref)",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "Shane AL, Mody RK, Crump JA, et al. 2017 IDSA Clinical Practice Guidelines for the Diagnosis and Management of Infectious Diarrhea. Clin Infect Dis. 2017;65(12):e45-e80.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29053792/",
+   "pmid": "29053792",
+   "pmcid": "PMC5850553",
+   "doi": "10.1093/cid/cix669",
+   "record_title": "2017 Infectious Diseases Society of America Clinical Practice Guidelines for the Diagnosis and Management of Infectious Diarrhea.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2017",
+   "article_type": "Practice Guideline",
+   "version_or_date": "Published 2017 (Clin Infect Dis 65(12):e45-e80); read 2026-11-15",
+   "retrieved_with": "PubMed get_article_metadata; PMC full text via WebFetch (PubMed full-text tool returned empty body); Scite verify_papers",
+   "notes": "Scite flagged one contrasting citation about Shigella prevalence trends; it does not bear on any claim cited here. Full text read through character 100000 of 102225.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "reduced-osmolarity ORS is first-line for mild to moderate dehydration",
+     "quote": "Reduced osmolarity oral rehydration solution (ORS) is recommended as the first-line therapy of mild to moderate dehydration",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "continue ORS until dehydration is corrected",
+     "quote": "should receive ORS until clinical dehydration is corrected",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "IV fluids for severe dehydration, shock or altered mental status (confusion)",
+     "quote": "should be administered when there is severe dehydration, shock, or altered mental status",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "resume usual diet",
+     "quote": "Resumption of an age-appropriate usual diet is recommended during or immediately after the rehydration process is completed",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "symptom medicines are not a substitute for hydration; considered once hydrated",
+     "quote": "their use is not a substitute for fluid and electrolyte therapy",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "antinausea medicines can be considered once adequately hydrated",
+     "quote": "Ancillary treatment with antimotility, antinausea, or antiemetic agents can be considered ... once the patient is adequately hydrated",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "IDSA ondansetron recommendation names children over 4 and adolescents",
+     "quote": "in children >4 years of age and in adolescents with acute gastroenteritis associated with vomiting",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "loperamide may be given to immunocompetent adults with acute watery diarrhea",
+     "quote": "Loperamide may be given to immunocompetent adults with acute watery diarrhea",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "avoid loperamide with fever / inflammatory diarrhea",
+     "quote": "should be avoided at any age in suspected or proven cases where toxic megacolon may result",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "empiric antibiotics not recommended for most acute watery diarrhea without recent international travel",
+     "quote": "In most people with acute watery diarrhea and without recent international travel, empiric antimicrobial therapy is not recommended",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "exception for some people with weakened immunity",
+     "quote": "An exception may be made in people who are immunocompromised or young infants who are ill-appearing",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "no empiric antibiotics for bloody diarrhea while awaiting tests",
+     "quote": "empiric antimicrobial therapy for bloody diarrhea while waiting for results of investigations is not recommended",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "exception: ill adults with documented fever, abdominal pain, bloody diarrhea",
+     "quote": "Ill immunocompetent people with fever documented in a medical setting, abdominal pain, bloody diarrhea",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "exception: recent international travel with temperature 38.5 C or higher or sepsis",
+     "quote": "People who have recently travelled internationally with body temperatures ≥38.5°C and/or signs of sepsis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "antibiotics avoided in STEC",
+     "quote": "Antimicrobial therapy for people with infections attributed to STEC O157 and other STEC that produce Shiga toxin 2 ... should be avoided",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "most short episodes in healthy adults self-resolve; lab testing generally not needed",
+     "quote": "Most acute diarrhea episodes in previously healthy, immunocompetent people are of short duration and self-resolving",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "laboratory investigation generally not warranted",
+     "quote": "Therefore, laboratory investigation generally is not warranted.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "stool testing with fever, bloody or mucoid stools, severe cramping or tenderness, sepsis",
+     "quote": "bloody or mucoid stools, severe abdominal cramping or tenderness, or signs of sepsis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "take an exposure history incl. others sick after same meal; travel, foods, antibiotics change what clinician considers",
+     "quote": "A detailed clinical and exposure history should be obtained from people with diarrhea ... including when there is a history of similar illness in others",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "food service, healthcare, child care workers follow local outbreak and infection-control rules",
+     "quote": "attend or work in child care centers, long-term care facilities, patient care, food service ... should follow jurisdictional recommendations for outbreak reporting and infection control",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "probiotics may be offered to immunocompetent adults",
+     "quote": "may be offered to reduce the symptom severity and duration in immunocompetent adults and children",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "video care cannot deliver IV fluids or obtain indicated stool tests (synthesis)",
+     "quote": "should be administered when there is severe dehydration, shock, or altered mental status",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "guideline",
+   "cited_as": "American College of Gastroenterology. Diarrheal Diseases: Acute and Chronic (patient page).",
+   "url": "https://gi.org/topics/diarrhea-acute-and-chronic/",
+   "version_or_date": "Updated October 2025 (page metadata modified 2026-02-02)",
+   "retrieved_with": "WebFetch of official page (2026-11-15)",
+   "notes": "Patient education page, not the 2016 ACG clinical guideline. Kind set to guideline as a professional society page.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "see a doctor for bloody diarrhea, severe abdominal pain, or diarrhea lasting greater than 48 hours",
+     "quote": "See a doctor if you feel ill or experience bloody diarrhea, severe abdominal pain or diarrhea lasting greater than 48 hours.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "drink fluids with sugar and salt; ORS as solutions, packets or tablets",
+     "quote": "It is important to drink fluids with sugar and salt to avoid dehydration. Examples include oral rehydration solutions, packets, or tablets.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "avoid milk and dairy for 24 to 48 hours",
+     "quote": "Milk and dairy products should be avoided for 24 to 48 hours as they can make diarrhea worse.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "antidiarrheals avoided with high fever or bloody diarrhea",
+     "quote": "should be avoided in people with high fever or bloody diarrhea",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "blood tests may help guide fluid and electrolyte replacement in severe diarrhea",
+     "quote": "If you have severe diarrhea, blood tests may be helpful to guide replacement of fluid and electrolytes.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "emergency and prompt-care red flags (severe abdominal pain, bloody diarrhea)",
+     "quote": "See a doctor if you feel ill or experience bloody diarrhea, severe abdominal pain",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "agency_page",
+   "cited_as": "CDC. Food Poisoning Symptoms.",
+   "url": "https://www.cdc.gov/food-safety/signs-symptoms/index.html",
+   "version_or_date": "Last updated November 24, 2025",
+   "retrieved_with": "WebFetch of official page (2026-11-15)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "food poisoning follows swallowing certain germs; common symptoms",
+     "quote": "The most common symptoms of food poisoning are: diarrhea, stomach pain or cramps, nausea, vomiting, and fever",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "onset hours to days",
+     "quote": "Some germs can make you sick within a few hours after you swallow them. Others may take a few days to make you sick.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "see a doctor: bloody diarrhea, diarrhea more than 3 days, fever over 102 F",
+     "quote": "Bloody diarrhea; Diarrhea that lasts more than 3 days; High fever (temperature over 102°F)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "vomiting so often you cannot keep liquids down; little urine; dizziness on standing",
+     "quote": "Vomiting so often that you cannot keep liquids down; Signs of dehydration, which include not urinating (peeing) much, a dry mouth and throat, and/or feeling dizzy when standing up",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "onset table: norovirus 12 to 48 hours, Salmonella 6 hours to 6 days, Campylobacter 2 to 5 days, STEC 3 to 4 days, Listeria invasive 2 weeks; timing overlaps",
+     "quote": "Norovirus: 12 to 48 hours; Salmonella: 6 hours to 6 days; Campylobacter: 2 to 5 days; E. coli: 3 to 4 days; Listeria (invasive illness): 2 weeks",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "S. aureus and C. perfringens cause symptoms within hours",
+     "quote": "Staphylococcus aureus: 30 minutes to 8 hours; Clostridium perfringens: 6 to 24 hours",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "around 5 to 10 percent of people diagnosed with STEC develop HUS",
+     "quote": "Around 5–10% of people diagnosed with E. coli develop a life-threatening health problem called hemolytic uremic syndrome",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "STEC often causes bloody diarrhea",
+     "quote": "Severe stomach cramps, diarrhea (often bloody), vomiting",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Campylobacter often bloody; Salmonella can be bloody",
+     "quote": "Diarrhea (often bloody), fever, stomach cramps",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Listeria common sources",
+     "quote": "Queso fresco and other soft cheeses, raw sprouts, melons, hot dogs, pâtés, deli meats, smoked fish",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "botulism neurological signs (trouble swallowing, vision, drooping eyelids, weakness)",
+     "quote": "Difficulty swallowing, muscle weakness, double or blurred vision, drooping eyelids",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "viruses, bacteria and parasites (e.g., Cyclospora) can cause food poisoning",
+     "quote": "Cyclospora: 1 week",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "pregnant people should seek care earlier",
+     "quote": "See your doctor if you are pregnant and have a fever and other flu-like symptoms.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "agency_page",
+   "cited_as": "CDC. About Norovirus.",
+   "url": "https://www.cdc.gov/norovirus/about/index.html",
+   "version_or_date": "Last updated April 24, 2024",
+   "retrieved_with": "WebFetch of official page (2026-11-15)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "norovirus is the leading cause of foodborne illness in the US",
+     "quote": "Norovirus is the leading cause of vomiting and diarrhea, and foodborne illness in the United States.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "symptoms begin 12 to 48 hours after exposure",
+     "quote": "A person usually develops symptoms 12 to 48 hours after being exposed to norovirus.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "most people recover in 1 to 3 days",
+     "quote": "Most people with norovirus illness get better within 1 to 3 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "spread by contact with infected person, food or drink, surfaces",
+     "quote": "Having direct contact with someone with norovirus; Eating food or drinking liquids that are contaminated with norovirus; Touching contaminated objects or surfaces",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "antibiotics do not treat norovirus",
+     "quote": "Antibiotic drugs will not help treat norovirus infections because they fight bacteria, not viruses.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "drink plenty of liquids; OTC oral rehydration fluids most helpful for mild dehydration",
+     "quote": "Oral rehydration fluids that you can get over the counter are most helpful for mild dehydration.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "stay home 48 hours after symptoms stop; can spread 2 weeks or more after feeling better",
+     "quote": "Stay home when sick for 2 days (48 hours) after symptoms stop. You can still spread norovirus for 2 weeks or more after you feel better.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "agency_page",
+   "cited_as": "CDC. How to Prevent Norovirus.",
+   "url": "https://www.cdc.gov/norovirus/prevention/index.html",
+   "version_or_date": "Last updated January 13, 2025",
+   "retrieved_with": "WebFetch of official page (2026-11-15)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "do not prepare food or care for others until at least 48 hours after symptoms stop",
+     "quote": "Do not prepare, handle food, or care for others ... at least 2 days (48 hours) after symptoms stop.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "handwashing with soap and water for at least 20 seconds, after toilet and before food",
+     "quote": "Wash your hands often with soap and water for at least 20 seconds, especially: After using the toilet or changing diapers",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "hand sanitizer does not work well against norovirus",
+     "quote": "Hand sanitizer does not work well against norovirus.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "gloves and EPA-registered disinfectant for vomit or diarrhea",
+     "quote": "Wear rubber or disposable gloves and wipe the entire area with paper towels ... EPA-registered disinfecting product against norovirus",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "agency_page",
+   "cited_as": "NIDDK. Treatment for Food Poisoning.",
+   "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/food-poisoning/treatment",
+   "version_or_date": "Last Reviewed June 2019",
+   "retrieved_with": "WebFetch of official page (2026-11-15)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "fluid and electrolyte replacement is the first priority",
+     "quote": "Replacing lost fluids and electrolytes is the most important treatment for food poisoning.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "ORS contains glucose and electrolytes",
+     "quote": "Oral rehydration solutions are liquids that contain glucose and electrolytes.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "adults can use water, diluted juice, sports drinks, broth",
+     "quote": "Most adults with food poisoning can replace fluids and electrolytes with liquids such as water, fruit juices with water added to dilute the juice, sports drinks, broths",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "saltine crackers can help replace electrolytes",
+     "quote": "Eating saltine crackers can also help replace electrolytes.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "return to normal diet even with diarrhea",
+     "quote": "you can most often go back to eating your normal diet, even if you still have diarrhea.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "OTC bismuth or loperamide may help some adults",
+     "quote": "adults can take over-the-counter medicines such as loperamide (Imodium) and bismuth subsalicylate (Pepto-Bismol, Kaopectate)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "do not self-treat with OTC antidiarrheals with bloody diarrhea or fever (red flags)",
+     "quote": "If you have bloody diarrhea or fever—signs of infections with bacteria or parasites—don’t use over-the-counter medicines to treat diarrhea.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "some infections need targeted antibiotic or antiparasitic treatment",
+     "quote": "your doctor may prescribe antibiotics or medicines that target parasites, in addition to rehydration solutions.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "severe cases may need hospital care",
+     "quote": "Doctors may need to treat people with life-threatening symptoms and complications",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "food safety: separate raw meat, cook thoroughly, refrigerate promptly",
+     "quote": "keep raw meat, poultry, seafood, and eggs separate from other foods ... cook foods long enough and at high enough temperatures to kill harmful microbes",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "agency_page",
+   "cited_as": "NIDDK. Eating, Diet, and Nutrition for Food Poisoning.",
+   "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/food-poisoning/eating-diet-nutrition",
+   "version_or_date": "Last Reviewed June 2019",
+   "retrieved_with": "WebFetch of official page (2026-11-15)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "restricted diet does not help treat diarrhea",
+     "quote": "Research shows that following a restricted diet does not help treat diarrhea.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "return to normal diet",
+     "quote": "you can most often go back to eating your normal diet",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "fat, simple sugars, caffeine, milk products can worsen diarrhea",
+     "quote": "certain food ingredients may make food poisoning symptoms, such as diarrhea, worse",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "trouble digesting lactose for up to a month or more",
+     "quote": "Some people recovering from food poisoning have problems digesting lactose for up to a month or more afterward.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "agency_page",
+   "cited_as": "CDC. Treatment of E. coli Infection.",
+   "url": "https://www.cdc.gov/ecoli/treatment/index.html",
+   "version_or_date": "Last updated May 14, 2024",
+   "retrieved_with": "WebFetch of official page (2026-11-15)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "do not use antibiotics with STEC; raises HUS risk",
+     "quote": "Do not use antibiotics with STEC infection. Using antibiotics with STEC infection can increase the chance of HUS.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "do not use anti-diarrheal medicine with STEC; raises HUS risk",
+     "quote": "Do not use anti-diarrheal medication with Shiga toxin-producing E. coli (STEC) infection.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "no antidiarrheals with high fever or bloody diarrhea",
+     "quote": "Do not use anti-diarrheal medication with high fever or bloody diarrhea",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "label",
+   "cited_as": "DailyMed. IMODIUM A-D loperamide HCl 2 mg caplets, Drug Facts (Kenvue Brands LLC).",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=01da76d0-1979-4c45-9d39-c72ae4e4ffe2",
+   "version_or_date": "Label updated September 23, 2025; DailyMed version 13 (published September 29, 2025)",
+   "retrieved_with": "WebFetch of official page (2026-11-15)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "do not use with bloody or black stool",
+     "quote": "Do not use if you have bloody or black stool",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "max 4 caplets (8 mg) in 24 hours for adults",
+     "quote": "2 caplets after the first loose stool; 1 caplet after each subsequent loose stool; no more than 4 caplets in 24 hours",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "stop and ask a doctor if diarrhea more than 2 days, worse, or abdominal swelling or bulging",
+     "quote": "diarrhea lasts for more than 2 days ... you get abdominal swelling or bulging. These may be signs of a serious condition.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "overdose can cause serious heart problems or death",
+     "quote": "Taking more than directed can cause serious heart problems or death",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "label",
+   "cited_as": "DailyMed. PEPTO-BISMOL CHERRY bismuth subsalicylate suspension, Drug Facts (Procter & Gamble).",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=67382f40-edbd-2be6-e053-2a91aa0a6700",
+   "version_or_date": "Label updated December 18, 2025; DailyMed version 14 (published December 22, 2025)",
+   "retrieved_with": "WebFetch of official page (2026-11-15)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "contains salicylate; do not take if allergic to salicylates incl. aspirin",
+     "quote": "Allergy alert: Contains salicylate. Do not take if you are allergic to salicylates (including aspirin)",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "do not use with ulcer, bleeding problem, bloody or black stool",
+     "quote": "Do not use if you have an ulcer, a bleeding problem, bloody or black stool",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "ask doctor or pharmacist if taking blood thinner",
+     "quote": "Ask a doctor or pharmacist before use if you are taking any drug for anticoagulation (thinning the blood)",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "stop if symptoms worse or last more than 2 days",
+     "quote": "symptoms get worse or last more than 2 days",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "harmless temporary darkening of stool or tongue",
+     "quote": "a temporary, but harmless, darkening of the stool and/or tongue may occur",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "label",
+   "cited_as": "DailyMed. Ondansetron hydrochloride oral solution 4 mg/5 mL (Unit Dose Services), prescribing information.",
+   "url": "https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=b7dac63f-556b-4965-ae4e-51330a79ab47&type=display",
+   "version_or_date": "Revised 4/2018 (full prescribing information dated November 2017)",
+   "retrieved_with": "WebFetch of official page (2026-11-15)",
+   "notes": "Repackager label; indications are chemotherapy, radiotherapy and postoperative nausea and vomiting, so gastroenteritis use is off-label.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "labeled indications are chemotherapy, radiotherapy, postoperative nausea/vomiting (gastroenteritis off-label)",
+     "quote": "Ondansetron is also indicated for the prevention of postoperative nausea and/or vomiting.",
+     "quote_source": "label",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "avoid in congenital long QT syndrome; QT warning",
+     "quote": "Avoid ondansetron in patients with congenital long QT syndrome.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "electrolyte abnormalities matter for QT",
+     "quote": "ECG monitoring is recommended in patients with electrolyte abnormalities (e.g., hypokalemia or hypomagnesemia),",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "journal",
+   "cited_as": "Collinson S, Deans A, Padua-Zamora A, et al. Probiotics for treating acute infectious diarrhoea. Cochrane Database Syst Rev. 2020;12(12):CD003048.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33295643/",
+   "pmid": "33295643",
+   "pmcid": "PMC8166250",
+   "doi": "10.1002/14651858.CD003048.pub4",
+   "record_title": "Probiotics for treating acute infectious diarrhoea.",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2020",
+   "article_type": "Systematic Review; Meta-Analysis",
+   "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "82 studies; most participants children (11,526 children vs 412 adults)",
+     "quote": "We included 82 studies with a total of 12,127 participants. These studies included 11,526 children (age < 18 years) and 412 adults",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "probably little or no difference to diarrhea lasting 48 hours or longer; uncertain about duration",
+     "quote": "Probiotics probably make little or no difference to the number of people who have diarrhoea lasting 48 hours or longer, and we are uncertain whether probiotics reduce the duration of diarrhoea.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "agency_page",
+   "cited_as": "CDC. What to Do if You Think You Have Food Poisoning.",
+   "url": "https://www.cdc.gov/foodborne-outbreaks/what-to-do/index.html",
+   "version_or_date": "Last updated November 25, 2025",
+   "retrieved_with": "WebFetch of official page (2026-11-15)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "the last food eaten is usually not the cause",
+     "quote": "The food that made you sick is usually not the last food you ate.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "write down foods from the week before",
+     "quote": "Write down everything you remember eating in the week before you got sick.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "report to local or state health department",
+     "quote": "Promptly reporting your illness helps your local or state health department identify foodborne outbreaks.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "keep receipts at least a week; store or freeze food in original packaging; officials may test leftovers",
+     "quote": "keep the receipts for at least a week ... Store or freeze food with the original packaging or label.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "journal",
+   "cited_as": "Silverman RA, House SL, Meltzer AC, et al. Bimodal Release Ondansetron for Acute Gastroenteritis Among Adolescents and Adults: A Randomized Clinical Trial. JAMA Netw Open. 2019;2(11):e1914988.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31702802/",
+   "pmid": "31702802",
+   "pmcid": "PMC6902785",
+   "doi": "10.1001/jamanetworkopen.2019.14988",
+   "record_title": "Bimodal Release Ondansetron for Acute Gastroenteritis Among Adolescents and Adults: A Randomized Clinical Trial.",
+   "record_journal": "JAMA Netw Open",
+   "record_year": "2019",
+   "article_type": "Randomized Controlled Trial",
+   "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+   "notes": "Industry-funded (RedHill Biopharma authors).",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "RCT in adolescents and adults studied a bimodal-release tablet (6 mg IR plus 18 mg extended release)",
+     "quote": "Bimodal release ondansetron tablet containing 6 mg of immediate release ondansetron and 18 mg of a 24-hour release matrix",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "journal",
+   "cited_as": "Wong CS, Jelacic S, Habeeb RL, Watkins SL, Tarr PI. The risk of the hemolytic-uremic syndrome after antibiotic treatment of Escherichia coli O157:H7 infections. N Engl J Med. 2000;342(26):1930-6.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10874060/",
+   "pmid": "10874060",
+   "pmcid": "PMC3659814",
+   "doi": "10.1056/NEJM200006293422601",
+   "record_title": "The risk of the hemolytic-uremic syndrome after antibiotic treatment of Escherichia coli O157:H7 infections.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2000",
+   "article_type": "Prospective cohort study (Journal Article)",
+   "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+   "notes": "Observational cohort, not a trial; guide wording changed from \"landmark study\" to \"prospective study of 71 children\". Scite flagged contrasting evidence (doi 10.3201/eid1112.050607) reporting no significant antibiotic-HUS association in its sample; the guide does not claim the association is settled for adults and leans on CDC guidance for the recommendation.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "prospective study of 71 children found higher HUS risk with antibiotics",
+     "quote": "We conducted a prospective cohort study of 71 children ... Antibiotic treatment of children with E. coli O157:H7 infection increases the risk of the hemolytic-uremic syndrome.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "journal",
+   "cited_as": "Barr W, Smith A. Acute diarrhea. Am Fam Physician. 2014;89(3):180-9.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24506120/",
+   "pmid": "24506120",
+   "record_title": "Acute diarrhea.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2014",
+   "article_type": "Journal Article (clinical review)",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers could_not_verify (no DOI)",
+   "notes": "Title corrected from \"Acute diarrhea in adults\" to the PubMed title \"Acute diarrhea.\" Abstract-only; claims limited to the abstract. Scite has no record; PubMed confirms it.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "history and exam for inflammatory diarrhea or dehydration direct testing (triage)",
+     "quote": "A history and physical examination evaluating for risk factors and signs of inflammatory diarrhea and/or severe dehydration can direct any needed testing and treatment.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "testing for severe illness, persistent fever, bloody stool, immunosuppression, outbreak",
+     "quote": "Diagnostic investigation should be reserved for patients with severe dehydration or illness, persistent fever, bloody stool, or immunosuppression, and for cases of suspected nosocomial infection or outbreak.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "antibiotics effective for specific infections",
+     "quote": "When used appropriately, antibiotics are effective in the treatment of shigellosis, campylobacteriosis, Clostridium difficile, traveler's diarrhea, and protozoal infections.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "guideline",
+   "cited_as": "McDonald LC, Gerding DN, Johnson S, et al. Clinical Practice Guidelines for Clostridium difficile Infection in Adults and Children: 2017 Update by IDSA and SHEA. Clin Infect Dis. 2018;66(7):e1-e48.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29462280/",
+   "pmid": "29462280",
+   "pmcid": "PMC6018983",
+   "doi": "10.1093/cid/cix1085",
+   "record_title": "Clinical Practice Guidelines for Clostridium difficile Infection in Adults and Children: 2017 Update by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA).",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2018",
+   "article_type": "Practice Guideline",
+   "version_or_date": "2017 update, published 2018",
+   "retrieved_with": "PubMed get_article_metadata; PMC full text via WebFetch; Scite verify_papers",
+   "notes": "Scite flagged a contrasting citation about metronidazole versus vancomycin recurrence; not relevant to the claim cited.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "antibiotic exposure is the most important modifiable risk factor for C. diff",
+     "quote": "The most important modifiable risk factor for the development of CDI is exposure to antibiotic agents.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "risk during and after antibiotics",
+     "quote": "risk of CDI increases both during therapy and in the 3-month period following cessation of therapy.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "kind": "agency_page",
+   "cited_as": "CDC. Preventing Food Poisoning (four steps: clean, separate, cook, chill).",
+   "url": "https://www.cdc.gov/food-safety/prevention/index.html",
+   "version_or_date": "Last updated November 24, 2025 (page title changed from \"About Four Steps to Food Safety\")",
+   "retrieved_with": "WebFetch of official page (2026-11-15)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "separate raw meat, poultry, seafood, eggs from all other foods",
+     "quote": "Keep raw or marinating meat, poultry, seafood, and eggs separate from all other foods.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "use a food thermometer",
+     "quote": "The only way to tell if food is safely cooked is to use a food thermometer.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "danger zone 40 to 140 F",
+     "quote": "Bacteria can multiply rapidly if left at room temperature or in the \"Danger Zone\" between 40°F and 140°F.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "2 hours, or 1 hour above 90 F",
+     "quote": "Never leave perishable food out for more than 2 hours (or 1 hour if exposed to temperatures above 90°F).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "wash utensils and produce",
+     "quote": "Rinse fresh fruits and vegetables under running water.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "kind": "agency_page",
+   "cited_as": "CDC. About Salmonella Infection.",
+   "url": "https://www.cdc.gov/salmonella/about/index.html",
+   "version_or_date": "Last updated October 4, 2024",
+   "retrieved_with": "WebFetch of official page (2026-11-15)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Salmonella illness mostly from contaminated food (common bacterial cause)",
+     "quote": "Contaminated food is the source for most of these illnesses.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "older adults more likely to become seriously ill",
+     "quote": "some people may become seriously ill ... Adults who are 65 and older",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "antibiotic resistance affects treatment choice",
+     "quote": "can limit treatment options for people with severe infections",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "kind": "agency_page",
+   "cited_as": "CDC. About Campylobacter Infection.",
+   "url": "https://www.cdc.gov/campylobacter/about/index.html",
+   "version_or_date": "Last updated August 12, 2026",
+   "retrieved_with": "WebFetch of official page (2026-11-15)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "most recover within 7 days",
+     "quote": "Most people fully recover within 7 days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "most get better without antibiotics",
+     "quote": "Most people with Campylobacter infection get better without using antibiotics.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "commonly from raw or undercooked poultry",
+     "quote": "People most commonly get Campylobacter infection by eating raw or undercooked poultry.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "kind": "agency_page",
+   "cited_as": "CDC. About Listeria Infection.",
+   "url": "https://www.cdc.gov/listeria/about/index.html",
+   "version_or_date": "Last updated August 2, 2024 (metadata last published April 14, 2026)",
+   "retrieved_with": "WebFetch of official page (2026-11-15)",
+   "notes": "Page lists higher-risk groups but not specific foods; food list now attributed to ref 3.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "pregnant people, newborns, adults 65+, weakened immunity at higher risk",
+     "quote": "Listeria infection can be especially harmful for some people, including pregnant women, newborns, adults aged 65 or older, and people with weakened immune systems",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "kind": "agency_page",
+   "cited_as": "CDC. About C. diff.",
+   "url": "https://www.cdc.gov/c-diff/about/index.html",
+   "version_or_date": "Last updated May 13, 2026",
+   "retrieved_with": "WebFetch of official page (2026-11-15)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "C. diff causes diarrhea and colon inflammation; most cases during or soon after antibiotics",
+     "quote": "most cases occur while or soon after taking antibiotics",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "contact a clinician for diarrhea during or after antibiotics",
+     "quote": "If you develop diarrhea while on or after taking an antibiotic, contact a healthcare professional to discuss your symptoms and be evaluated.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

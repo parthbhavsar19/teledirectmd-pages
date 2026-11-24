@@ -1,0 +1,257 @@
+{
+  "stateCode": "FL",
+  "stateName": "Florida",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "urban",
+    "regulation": "strict",
+    "payerLandscape": "multi-payer",
+    "epidemiology": [
+      "rabies-raccoon-bat-cat",
+      "pharmacist-test-and-treat",
+      "visitor-volume-high"
+    ],
+    "boardStrictness": "strict",
+    "culturalRegister": "south",
+    "voiceNotes": "Precise and calm. Florida's credential language is regulated (registration, not licensure), so every credential sentence uses the registration wording exactly. Many readers are visitors or seasonal residents; location during the visit is the eligibility test. Florida pharmacists can test and treat some conditions; present that as a real option. Inferred values: density, regulation and boardStrictness are judgment calls."
+  },
+  "stateHero": {
+    "openingParagraph": "Florida lets physicians from other states care for patients located in Florida by telehealth once they register with the state, and Parth Bhavsar, MD, a board-certified family medicine physician, holds a Florida Telehealth Provider Registration from the Florida Department of Health under Fla. Stat. 456.47(4). His primary medical license is in Georgia. Adults 18 and older who are physically in Florida, from Jacksonville and Tallahassee to Tampa, Orlando and Miami, can book a video visit. Aetna commercial and Curative plans are in-network, and anyone can choose the flat $79 self-pay price, paid at booking, with HSA and FSA cards accepted.",
+    "conditionPageOpener": "Adults physically in Florida can see Parth Bhavsar, MD by video under a Florida Telehealth Provider Registration. In-network with Aetna (commercial plans) and Curative, or a flat $79 self-pay. Prescriptions, when appropriate, go electronically to your pharmacy.",
+    "stateContextHint": "Registered Florida telehealth provider. Video visits for adults located in Florida, residents and visitors. Two in-network insurers or a flat $79 self-pay.",
+    "saturation": {
+      "stateNameMentions": 6,
+      "stateEntityMentions": 6
+    }
+  },
+  "stateEligibility": {
+    "intro": "Florida Statutes Section 456.47 defines telehealth as synchronous or asynchronous telecommunications technology used for assessment, diagnosis, consultation, treatment and monitoring, and it lets a telehealth provider evaluate a patient without a physical exam when the telehealth evaluation is enough. TeleDirectMD sees adults 18 and older who are in Florida at the time of the live video visit. A snowbird in Naples or a visitor at a Kissimmee hotel can be seen while in the state.",
+    "localTriggers": [
+      "Be physically in Florida during the video visit. Residents, seasonal residents and visitors are treated alike.",
+      "Video care only: Florida's telehealth registration law does not allow a registered out-of-state provider to open a Florida office or see patients in person, so anything that needs a hands-on exam is referred to in-person care in Florida.",
+      "TeleDirectMD does not prescribe controlled substances in Florida or any other state.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "Florida visits can be billed to two insurers: Aetna commercial plans (PPO, HMO, EPO and POS; Aetna Medicare plans exclude primary care in Florida) and Curative commercial plans. Without one of those, the visit is a flat $79 self-pay, paid at booking, and HSA and FSA cards are accepted. Floridians who buy their own coverage use HealthCare.gov, and the Agency for Health Care Administration is responsible for Florida Medicaid, including Statewide Medicaid Managed Care. TeleDirectMD does not take Medicaid.",
+    "additionalNotes": [
+      "$79 flat self-pay option, paid at booking.",
+      "HSA and FSA cards accepted.",
+      "In-network in Florida: Aetna (commercial only), Curative."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "Fla. Stat. 456.42(3) requires prescribers who keep electronic health records to transmit prescriptions electronically, a rule in force since July 1, 2021 with listed exceptions. TeleDirectMD sends every Florida prescription electronically to the pharmacy you choose. Florida pharmacists can also do more than fill prescriptions. Under Fla. Stat. 465.1895, a pharmacist with a Board of Pharmacy certification, working under a written protocol with a supervising physician, may test for and treat influenza, strep, lice, skin conditions such as ringworm and athlete's foot, and minor uncomplicated infections. Florida bars telehealth prescribing of Schedule II drugs outside narrow exceptions, and TeleDirectMD prescribes no controlled substances.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "A few Florida-specific facts shape everyday care here. Rabies is a wildlife issue first: the Florida Department of Health names raccoons and bats as the main wildlife sources and says outside cats are by far the most common domestic animal found with rabies, so any animal bite deserves a call to the county health department or animal control. For flu, the department's surveillance tracks the onset, peak and wane of each season, and it stresses that antiviral medicines must be given within 48 hours of illness onset. Florida also lets certified pharmacists test for and treat flu and strep under physician protocols. This context is for awareness and does not replace an individual evaluation.",
+    "citations": [
+      {
+        "label": "Fla. Stat. 456.47, Use of telehealth to provide services",
+        "url": "https://www.flsenate.gov/Laws/Statutes/2025/456.47",
+        "scope": "all"
+      },
+      {
+        "label": "Florida Department of Health, Telehealth Provider Registration (registration lookup)",
+        "url": "https://flhealthsource.gov/telehealth/",
+        "scope": "all"
+      },
+      {
+        "label": "Fla. Stat. 456.42, Written prescriptions for medicinal drugs (electronic transmission)",
+        "url": "https://www.flsenate.gov/Laws/Statutes/2025/456.42",
+        "scope": "all"
+      },
+      {
+        "label": "Fla. Stat. 465.1895, Testing or screening for and treatment of minor, nonchronic health conditions",
+        "url": "https://www.flsenate.gov/Laws/Statutes/2025/465.1895",
+        "conditions": [
+          "influenza-treatment-online",
+          "sore-throat-treatment-online",
+          "tinea-treatment-online"
+        ]
+      },
+      {
+        "label": "CMS, States by Marketplace Type for Plan Year 2027",
+        "url": "https://www.cms.gov/marketplace/in-person-assisters/training-webinars/training/marketplaces-map",
+        "scope": "all"
+      },
+      {
+        "label": "Florida Agency for Health Care Administration, Medicaid",
+        "url": "https://ahca.myflorida.com/medicaid",
+        "scope": "all"
+      },
+      {
+        "label": "U.S. Census Bureau, Vintage 2025 state population estimates (NST-EST2025-ALLDATA)",
+        "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv",
+        "scope": "hub"
+      },
+      {
+        "label": "Florida Department of Health, Rabies",
+        "url": "https://www.floridahealth.gov/diseases-and-conditions/rabies/index.html",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Florida Department of Health, Influenza",
+        "url": "https://www.floridahealth.gov/diseases-and-conditions/influenza/index.html",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "CDC, Legal Status of Expedited Partner Therapy in Florida (Fla. Stat. 384.27)",
+        "url": "https://www.cdc.gov/sti/php/ept-legal-status/florida.html",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, is registered to provide telehealth services in Florida under Fla. Stat. 456.47(4), through a Florida Telehealth Provider Registration issued by the Florida Department of Health. His primary medical license is held in Georgia. As Section 456.47(4)(c) requires of registered providers, TeleDirectMD links to the Department of Health's telehealth provider registry, where the registration can be verified. NPI: 1104323203.",
+    "verifyUrl": "https://flhealthsource.gov/telehealth/",
+    "statuteCitation": "Fla. Stat. 456.47 (use of telehealth to provide services), including 456.47(4) (registration of out-of-state telehealth providers)",
+    "licenseNumber": "TPME5921",
+    "boardName": "Florida Department of Health (Telehealth Provider Registration)",
+    "boardUrl": "https://flhealthsource.gov/telehealth/"
+  },
+  "stateCities": {
+    "metroAndRural": "Florida had 23,462,518 residents on July 1, 2025, by the Census Bureau's estimate, plus seasonal residents and visitors who count the same way while they are here. TeleDirectMD sees adults physically anywhere in the state: Jacksonville and Gainesville in the north, Tallahassee in the Panhandle, Orlando in Central Florida, Tampa, St. Petersburg and Clearwater on Tampa Bay, Cape Coral on the southwest coast, and Miami, Hialeah, Fort Lauderdale, Hollywood, Pembroke Pines and Coral Springs in South Florida.",
+    "cityList": [
+      {
+        "city": "Jacksonville"
+      },
+      {
+        "city": "Miami"
+      },
+      {
+        "city": "Tampa"
+      },
+      {
+        "city": "Orlando"
+      },
+      {
+        "city": "St. Petersburg"
+      },
+      {
+        "city": "Hialeah"
+      },
+      {
+        "city": "Fort Lauderdale"
+      },
+      {
+        "city": "Tallahassee"
+      },
+      {
+        "city": "Cape Coral"
+      },
+      {
+        "city": "Pembroke Pines"
+      },
+      {
+        "city": "Hollywood"
+      },
+      {
+        "city": "Gainesville"
+      },
+      {
+        "city": "Coral Springs"
+      },
+      {
+        "city": "Clearwater"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "multi-payer",
+    "selfPayDisclosure": "TeleDirectMD is in-network in Florida with Aetna for commercial PPO, HMO, EPO and POS plans (Aetna Medicare plans exclude primary care in Florida) and with Curative commercial plans. What you pay depends on your plan. Anyone can choose the flat $79 self-pay price instead, paid at booking, with HSA and FSA cards accepted. Medicaid, Medicaid managed care and D-SNP plans are not accepted, and TeleDirectMD cannot promise how any plan will pay.",
+    "payers": [
+      {
+        "name": "Aetna",
+        "anchorId": "aetna-coverage",
+        "planNames": "PPO, HMO, EPO, POS (commercial only; Aetna Medicare plans exclude primary care in Florida)",
+        "validFrom": "2026-02-11",
+        "copayNote": "Cost sharing depends on your Aetna plan."
+      },
+      {
+        "name": "Curative",
+        "anchorId": "curative-coverage",
+        "planNames": "Commercial PPO, EPO, and self-funded plans (EPO Value, EPO (PPOx), PPO (PPO+), PPO Max)",
+        "validFrom": "2026-07-07",
+        "copayNote": "Cost sharing depends on your Curative plan."
+      }
+    ]
+  },
+  "stateFaqs": [
+    {
+      "question": "How can a Georgia-licensed physician treat me in Florida?",
+      "answer": "Florida Statutes Section 456.47(4) lets health care professionals licensed in another state provide telehealth to patients located in Florida once they register with the state. Parth Bhavsar, MD holds a Florida Telehealth Provider Registration from the Florida Department of Health, and his primary license is in Georgia. You can verify the registration on the department's telehealth provider registry."
+    },
+    {
+      "question": "Can Dr. Bhavsar see me in person in Florida?",
+      "answer": "No. Florida law says a provider registered under Section 456.47(4) may not open an office in Florida or provide in-person care to patients located in Florida. Care is by video only. If your condition needs a hands-on exam, testing or imaging, you will be referred to an in-person provider in your area."
+    },
+    {
+      "question": "Which insurance does TeleDirectMD take in Florida?",
+      "answer": "Aetna commercial PPO, HMO, EPO and POS plans and Curative commercial plans are in-network in Florida. Aetna Medicare plans exclude primary care in Florida, so Aetna Medicare Advantage is not in-network for these visits. Anyone can choose the flat $79 self-pay price instead, paid at booking."
+    },
+    {
+      "question": "Can a Florida pharmacist treat my flu or strep instead?",
+      "answer": "Sometimes. Under Florida Statutes Section 465.1895, a pharmacist certified by the Board of Pharmacy and working under a written protocol with a supervising physician may test for and treat influenza, strep, lice, ringworm, athlete's foot and minor uncomplicated infections. A TeleDirectMD video visit is another option for adults physically in Florida, especially when a test is not needed."
+    },
+    {
+      "question": "I'm visiting Florida. Can I use TeleDirectMD?",
+      "answer": "Yes, if you are 18 or older and physically in Florida during the video visit. Florida's telehealth law applies to patients located in the state, so seasonal residents and visitors are treated like residents. Prescriptions, when appropriate, are sent electronically to a Florida pharmacy near where you are staying. Self-pay is a flat $79."
+    }
+  ],
+  "conditionOverrides": {
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "The Florida Department of Health says flu antiviral medicines must be given within 48 hours of the onset of illness. Florida gives you two quick routes. A pharmacist with a Board of Pharmacy certification, working under a written protocol with a supervising physician, may test for and treat influenza under Fla. Stat. 465.1895. Or a video visit for adults physically in Florida can review your symptoms and risk factors, decide whether an antiviral is appropriate and send it electronically to your pharmacy. Trouble breathing, chest pain, confusion or being unable to keep fluids down needs 911. Flat $79 or in-network."
+    },
+    "sore-throat-treatment-online": {
+      "stateConditionParagraph": "In Florida, a strep test does not always require a clinic visit: Fla. Stat. 465.1895 lets a certified pharmacist test for and treat streptococcus under a written protocol with a supervising physician. A video visit is the other route. For adults physically in Florida, it can sort out whether your sore throat sounds viral or needs a strep test, point you to a pharmacy or urgent care for the swab when one is needed, and treat when appropriate. Trouble breathing, drooling, a muffled voice, trouble opening your mouth or fast-growing neck swelling needs emergency care. Flat $79 or in-network with Aetna commercial plans or Curative."
+    },
+    "tinea-treatment-online": {
+      "stateConditionParagraph": "Florida's pharmacist test-and-treat law, Fla. Stat. 465.1895, names ringworm and athlete's foot among the minor skin conditions a certified pharmacist may treat under a physician protocol. When the rash keeps coming back or you want a physician's look, a video visit for adults physically in Florida can review clear photos of a ring-shaped or scaly rash on the body, groin or feet and recommend treatment, including a prescription when appropriate. Scalp rashes, thick or crumbling nails, widespread infection or signs of a deeper skin infection need in-person care. Flat $79 or in-network."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "In Florida, cats are the rabies concern among pets. The Florida Department of Health says outside cats are by far the most common domestic animal found to have rabies in the state, with raccoons and bats the main wildlife sources. After a bite, the department advises calling the county health department or animal control with a description and location of the animal; a biting cat is either quarantined for ten days or tested. A video visit for adults physically in Florida covers bites from a known domestic cat: wound care, antibiotics when appropriate and whether rabies treatment needs in-person follow-up. A swollen hand, deep punctures or a stray cat needs in-person care. Flat $79 or in-network."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "When a dog bites someone in Florida, the Department of Health says the animal is either quarantined for ten days or tested for rabies, and it asks bite victims to call the county health department or animal control with a description and location of the animal. Raccoons and bats are the state's main wildlife rabies sources. For a bite from a known domestic dog, a video visit for adults physically in Florida reviews clear photos of the wound, decides whether antibiotics are needed and explains what the quarantine means for you. Deep or facial wounds, a hand that will not move normally, or a stray dog needs in-person care. Flat $79 or in-network."
+    }
+  },
+  "relatedLinks": [],
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Fla. Stat. 456.47(4) (out-of-state telehealth provider registration)",
+        "renderAt": "hero-credential",
+        "content": "Parth Bhavsar, MD is registered to provide telehealth services in Florida under Fla. Stat. 456.47(4), through a Florida Telehealth Provider Registration issued by the Florida Department of Health. His primary medical license is held in Georgia. Verify the registration on the Florida Department of Health telehealth provider registry."
+      },
+      {
+        "statute": "Fla. Stat. 456.47(2) and (4)(f) (standard of care; no in-person care by registrants)",
+        "renderAt": "footer",
+        "content": "Florida requires a telehealth provider to practice within his or her scope of practice and the professional standard that applies to in-person care in Florida. A provider registered under Section 456.47(4) may not open an office in Florida or provide in-person care to patients located in Florida, so care that needs an in-person exam is referred to a provider in the patient's area. TeleDirectMD does not prescribe controlled substances."
+      }
+    ],
+    "forbiddenPhrases": [
+      "Florida-licensed physician",
+      "Licensed to practice medicine in Florida",
+      "licensed in Florida",
+      "Florida medical license"
+    ]
+  }
+}

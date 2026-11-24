@@ -1,0 +1,818 @@
+{
+  "guide": "hives-treatment-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 6 verified, retractions: none (no editorial notices, no contrasting evidence flagged, no predatory journals). PubMed article types checked: none is Retracted Publication or Retraction Notice.",
+  "references": [
+    {
+      "n": 1,
+      "kind": "guideline",
+      "cited_as": "Zuberbier T, Ansari ZA, Abdul Latiff AH, et al. The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria. Allergy. 2026;81(8):2582-2632. doi: 10.1111/all.70210.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41649409/",
+      "pmid": "41649409",
+      "pmcid": "PMC13466004",
+      "doi": "10.1111/all.70210",
+      "record_title": "The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria.",
+      "record_journal": "Allergy",
+      "record_year": "2026",
+      "article_type": "Journal Article; Practice Guideline; Review (PubMed)",
+      "version_or_date": "2025 update (consensus conference Dec 6, 2024); GA2LEN/UCARE initiative with EuroGuiDerm methodology, accepted by UEMS; Allergy 2026;81(8):2582-2632",
+      "retrieved_with": "PubMed get_article_metadata and get_full_text_article (PMC13466004); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "PMC full text read this run. The PMC text drops some boxed/bold definitions (for example the word 'Acute urticaria' before its definition) and H1 subscripts. The 24-hour wheal statement was not found in the PMC text, so it is no longer cited to this reference (now [3][4] only).",
+      "claims": [
+        {
+          "text": "Standard-dose second-generation H1 antihistamines are first-line treatment for uncomplicated hives",
+          "quote": "We recommend the use of a standard‐dosed modern 2nd generation H‐antihistamines as the first‐line symptomatic treatment for urticaria.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "No single best antihistamine; cetirizine and fexofenadine are examples with urticaria evidence",
+          "quote": "no recommendation can be made on which to choose because, to date, well‐designed clinical trials directly comparing the efficacy and safety of all modern 2nd generation H‐antihistamines in urticaria are largely lacking.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cetirizine and fexofenadine are second-generation antihistamines supported for urticaria",
+          "quote": "evidence supports the use of bilastine, cetirizine, desloratadine, ebastine, fexofenadine, levocetirizine, loratadine, mizolastine, and rupatadine",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Up to fourfold up-dosing is for patients with insufficient response to a standard dose, preferred over mixing antihistamines",
+          "quote": "some patients with urticaria, who show insufficient response to a licensed‐dose of 2nd generation H‐antihistamine, benefit from updosing, which is preferred over mixing different 2nd generation H‐antihistamines since their pharmacologic properties are different.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Up-dosing up to fourfold is off-label",
+          "quote": "We, therefore, recommend to increase the dose up to fourfold, in such patients (Figure). Patients need to be informed that 2nd generation H‐antihistamine updosing is off‐label",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Short oral steroid course of no more than 10 days may help in acute urticaria or a flare",
+          "quote": "For acute urticaria and acute exacerbations of CSU, a short course of oral corticosteroids, that is, treatment of a maximum of up to 10 days, may, however, be helpful to reduce disease duration/activity",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Well-designed trials of short steroid courses are lacking",
+          "quote": "Nevertheless, well‐designed randomized clinical trials are lacking.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Guideline strongly recommends against prolonged systemic steroids",
+          "quote": "we strongly recommend against the prolonged use of corticosteroids.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Acute urticaria lasts up to 6 weeks",
+          "quote": "is defined as the occurrence of wheals, angioedema or both for 6 weeks or less.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hives beyond 6 weeks are chronic urticaria and need reassessment",
+          "quote": "is defined as the occurrence of wheals, angioedema, or both for more than 6 weeks.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Wheals can merge into large areas",
+          "quote": "Intense (> 50 wheals/24 h or large confluent areas of wheals)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Swelling without wheals, and persistent, bruised or blistering eruptions, may be another condition (e.g. bradykinin-mediated angioedema, urticarial vasculitis)",
+          "quote": "Urticaria needs to be differentiated from other medical conditions where wheals, angioedema, or both can occur as features of a spectrum of clinical conditions such as anaphylaxis, autoinflammatory syndromes, urticarial vasculitis, or bradykinin‐mediated angioedema",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "A recent respiratory infection can precede hives",
+          "quote": "Acute urticaria frequently follows upper airways infections [], including COVID‐19 []",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Medicines and NSAIDs can cause hives; tell the clinician about pain relievers",
+          "quote": "Medications can lead to urticarial drug reactions with wheals occurring directly after intake",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Do not deliberately re-expose yourself to a suspected trigger",
+          "quote": "Patient education may also be useful to allow patients to avoid re‐exposure to the relevant causative factors.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Repeated reactions to a predictable physical stimulus may indicate inducible urticaria",
+          "quote": "Inducible urticaria is characterized by the presence of definite and subtype‐specific triggers leading to the development of wheals, angioedema, or both []",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Stress can aggravate hives",
+          "quote": "It is evident that stress can exacerbate CSU, with up to one‐third of CSU patients perceiving stress as an aggravating factor",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "No routine tests for acute spontaneous urticaria; history usually enough except suspected food or drug allergy",
+          "quote": "Acute urticaria, because of its self‐limiting nature, usually does not require a diagnostic workup beyond a thorough medical history aimed at identifying possible trigger factors, such as recent infections at the time of onset (e.g., a common cold).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Exception for suspected food allergy or drug reaction",
+          "quote": "The only exception to this is the suspicion of an acute urticaria due to a food allergy in sensitized patients, or drug hypersensitivity, especially for nonsteroidal anti‐inflammatory drugs (NSAIDs).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Avoid broad diets and supplement stacks; uncertainty is not a reason for extensive elimination diet",
+          "quote": "Importantly, the overdiagnosis of “histamine intolerance” should be avoided, as can lead to unnecessary dietary restrictions and misuse of commercial supplements.",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Medically necessary NSAID or aspirin use needs an individualized plan rather than stopping on your own",
+          "quote": "to find safe alternatives or tolerable doses in patients that use chronic NSAIDs due to other chronic medical conditions (i.e., coronary artery disease, rheumatoid arthritis)",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Topical steroids are not useful in urticaria",
+          "quote": "topical corticosteroids are frequently and successfully used in many allergic diseases, but are not useful in urticaria",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Newer antihistamines preferred over first-generation agents such as diphenhydramine",
+          "quote": "we recommend against their use for the routine management of CU as first‐line agents",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Bring time-stamped photos",
+          "quote": "it is important to review prior documentation, including patient‐provided photographs of wheals and/or angioedema",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Treatment is adjusted to response; recurrent disease follows a stepwise plan with continuity",
+          "quote": "stepping up or stepping down in the treatment algorithm according to the course of disease",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Fein MN, Fischer DA, O'Keefe AW, Sussman GL. CSACI position statement: Newer generation H1-antihistamines are safer than first-generation H1-antihistamines and should be the first-line antihistamines for the treatment of allergic rhinitis and urticaria. Allergy Asthma Clin Immunol. 2019;15:61.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31582993/",
+      "pmid": "31582993",
+      "pmcid": "PMC6771107",
+      "doi": "10.1186/s13223-019-0375-9",
+      "record_title": "CSACI position statement: Newer generation H-antihistamines are safer than first-generation H-antihistamines and should be the first-line antihistamines for the treatment of allergic rhinitis and urticaria.",
+      "record_journal": "Allergy Asthma Clin Immunol",
+      "record_year": "2019",
+      "article_type": "Journal Article; Review (PubMed)",
+      "retrieved_with": "PubMed get_article_metadata and get_full_text_article (PMC6771107); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Newer antihistamines are first-line for urticaria and preferred over first-generation agents for safety",
+          "quote": "Second- and third-generation AHs are the recommended first-line treatment for mild allergic rhinitis and acute and chronic urticaria.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Diphenhydramine side effects: sedation, dry mouth, dizziness, impaired cognition",
+          "quote": "Older, first-generation AHs (e.g. diphenhydramine, hydroxyzine) have significant and common side effects including sedation, impairment with decreased cognitive function, poor sleep quality, dry mouth, dizziness, and orthostatic hypotension.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Impaired attention with first-generation antihistamines",
+          "quote": "next-day “hang-over” effects like impaired vigilance, divided attention, working memory, sensory-motor performance, and reduced latency to daytime sleep has been observed",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Do not use a sedating antihistamine as a sleep aid; older agents do not produce quality sleep",
+          "quote": "Despite their sedative effects, these older medications do not result in quality sleep",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "'Non-drowsy' does not guarantee zero impairment; sedation varies by drug and dose",
+          "quote": "The level of sedation experienced by patients taking newer generation AHs varies by specific medication and the dose.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Diphenhydramine is not a replacement for epinephrine in anaphylaxis",
+          "quote": "Epinephrine is the drug of choice for anaphylaxis, but H1-antihistamines are also used in its treatment",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Antihistamines block histamine signaling that produces wheals and itch",
+          "quote": "Histamine is a biogenic amine whose release results in allergic rhino-conjunctival symptoms as well as the urticarial wheal and flare reaction with itch",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "other_web",
+      "cited_as": "American Academy of Dermatology. Hives: Diagnosis and treatment. Last updated July 13, 2026. Accessed November 15, 2026.",
+      "url": "https://www.aad.org/public/diseases/a-z/hives-treatment",
+      "version_or_date": "Last updated 7/13/26",
+      "retrieved_with": "WebFetch of aad.org page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Society patient page (AAD). Kind set to other_web because the schema has no society_page value.",
+      "claims": [
+        {
+          "text": "An individual wheal usually fades within 24 hours; new ones can appear",
+          "quote": "Individual hives go away within 24 hours, but new ones can appear.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hives lasting beyond 6 weeks need reassessment; a dermatologist may be appropriate",
+          "quote": "Last longer than 6 weeks",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Facial, mouth or throat swelling can progress and affect breathing or swallowing; seek urgent or emergency care",
+          "quote": "Swelling on your face, inside your mouth, or in your throat can cause problems breathing or swallowing,",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Topical products may soothe itch",
+          "quote": "When applied to the hives rash, this medication can help relieve the itch.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Diagnosis is usually by examining the skin; photos help",
+          "quote": "A dermatologist can often diagnose hives by looking at your skin.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "other_web",
+      "cited_as": "American Academy of Allergy, Asthma & Immunology. Hives (Urticaria) and Angioedema Overview. Updated June 18, 2026. Accessed November 15, 2026.",
+      "url": "https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/hives-(urticaria)-and-angioedema-overview",
+      "version_or_date": "Updated 6/18/2026",
+      "retrieved_with": "WebFetch of aaaai.org page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Society patient page (AAAAI). Also linked from the citable summary for the 24-hour statement.",
+      "claims": [
+        {
+          "text": "Hives are itchy, raised, pink or reddish bumps",
+          "quote": "Hives or welts, also known as urticaria, are itchy, raised, pink or reddish bumps on the skin.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hives range from a few millimeters to several centimeters",
+          "quote": "May range in size from just a few millimeters to several centimeters.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "An individual wheal usually fades within 24 hours and skin returns to normal; a fixed or bruised spot needs assessment",
+          "quote": "Usually fade individually within a 24-hour period and the skin returns to normal without leaving any marks or bruising.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Acute up to 6 weeks; beyond 6 weeks chronic",
+          "quote": "When hives last longer than six weeks, we change the name to chronic urticaria.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Angioedema is swelling below the skin, most often in face, throat, hands and feet",
+          "quote": "Angioedema usually occurs in the face, throat, hands and feet.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Throat swelling can be life threatening and needs immediate medical attention",
+          "quote": "Throat swelling can be life threatening and requires immediate medical attention.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Swelling without hives has other possible causes",
+          "quote": "Sometimes high dose antihistamines may not improve your swelling.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Antihistamines are first-line treatment",
+          "quote": "Antihistamines are the best initial medication to treat your hives.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Infections, foods, medicines and insect bites can cause acute hives",
+          "quote": "Viral infections (most common)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Heat, pressure, cold and scratching can provoke inducible hives",
+          "quote": "Chronic inducible urticaria is caused by an environmental trigger such as heat, cold or pressure applied to the skin.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Barniol C, Dehours E, Mallet J, et al. Levocetirizine and Prednisone Are Not Superior to Levocetirizine Alone for the Treatment of Acute Urticaria: A Randomized Double-Blind Clinical Trial. Ann Emerg Med. 2018;71(1):125-131.e1.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28476259/",
+      "pmid": "28476259",
+      "doi": "10.1016/j.annemergmed.2017.03.006",
+      "record_title": "Levocetirizine and Prednisone Are Not Superior to Levocetirizine Alone for the Treatment of Acute Urticaria: A Randomized Double-Blind Clinical Trial.",
+      "record_journal": "Ann Emerg Med",
+      "record_year": "2018",
+      "article_type": "Journal Article; Randomized Controlled Trial (PubMed)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "PubMed metadata gives epub date 2017-05-03 with volume 71, issue 1, pages 125-131.e1; Scite gives publication year 2018 (print issue). The pubmed.ncbi.nlm.nih.gov page itself returned a bot check and was not used. Abstract only.",
+      "claims": [
+        {
+          "text": "RCT of 100 adults: adding prednisone to levocetirizine did not improve symptomatic response",
+          "quote": "A total of 100 patients were included, 50 in each group.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Prednisone added to levocetirizine did not improve response",
+          "quote": "The addition of a prednisone burst did not improve the symptomatic and clinical response of acute urticaria to levocetirizine.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Conclusion concerns acute hives without angioedema; anaphylaxis excluded",
+          "quote": "Patients with anaphylaxis or who had received antihistamines or glucocorticoids during the previous 5 days were not included.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Not routinely needed for uncomplicated acute hives",
+          "quote": "This study does not support the addition of corticosteroid to Hantihistamine as first-line treatment of acute urticaria without angioedema.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "journal",
+      "cited_as": "Chu X, Wang J, Ologundudu L, et al. Efficacy and Safety of Systemic Corticosteroids for Urticaria: A Systematic Review and Meta-Analysis of Randomized Clinical Trials. J Allergy Clin Immunol Pract. 2024;12(7):1879-1889.e8.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38642709/",
+      "pmid": "38642709",
+      "doi": "10.1016/j.jaip.2024.04.016",
+      "record_title": "Efficacy and Safety of Systemic Corticosteroids for Urticaria: A Systematic Review and Meta-Analysis of Randomized Clinical Trials.",
+      "record_journal": "J Allergy Clin Immunol Pract",
+      "record_year": "2024",
+      "article_type": "Systematic Review; Meta-Analysis (PubMed)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "12 trials, 944 patients, acute urticaria and chronic flares",
+          "quote": "We identified 12 randomized trials enrolling 944 patients.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Steroids may improve symptoms depending on antihistamine response but increase adverse effects",
+          "quote": "Systemic corticosteroids for acute urticaria or chronic urticaria exacerbations likely improve urticaria, depending on antihistamine responsiveness, but also likely increase adverse effects in approximately 15% more.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "guideline",
+      "cited_as": "Cardona V, Ansotegui IJ, Ebisawa M, et al. World allergy organization anaphylaxis guidance 2020. World Allergy Organ J. 2020;13(10):100472.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33204386/",
+      "pmid": "33204386",
+      "pmcid": "PMC7607509",
+      "doi": "10.1016/j.waojou.2020.100472",
+      "record_title": "World allergy organization anaphylaxis guidance 2020.",
+      "record_journal": "World Allergy Organ J",
+      "record_year": "2020",
+      "article_type": "Journal Article (PubMed); WAO guidance document",
+      "version_or_date": "WAO Anaphylaxis Guidance 2020 (endorsed by WAO member societies Feb-Mar 2020)",
+      "retrieved_with": "PubMed get_article_metadata and get_full_text_article (PMC7607509); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Use prescribed epinephrine and call 911; do not wait for an antihistamine",
+          "quote": "assess airways, breathing, circulation, mental status, and skin, and simultaneously call emergency services, injecting epinephrine (adrenaline) intramuscularly",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Epinephrine is first-line for anaphylaxis",
+          "quote": "Intramuscular epinephrine (adrenaline) continues to be the first-line treatment for anaphylaxis.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Repeated vomiting or severe crampy abdominal pain after an allergen can signal anaphylaxis",
+          "quote": "severe gastrointestinal symptoms (severe crampy abdominal pain, repetitive vomiting), especially after exposure to non-food allergens",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Warning signs include swollen lips, tongue, throat, shortness of breath, wheeze, faintness",
+          "quote": "how to recognize anaphylaxis symptoms (eg, tingling in the extremities, sense of heat, sense of dizziness/fainting, swollen lips-tongue-uvula, shortness of breath, wheeze, stridor, collapse)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Antihistamines have a limited role in anaphylaxis and do not replace epinephrine",
+          "quote": "The use of H1-antihistamines has a limited role in treatment of anaphylaxis,but can be helpful in relieving cutaneous symptoms.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Steroids are not a substitute for epinephrine",
+          "quote": "there is increasing evidence that glucocorticosteroids may be of no benefit in the acute management of anaphylaxis, and may even be harmful",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Anaphylaxis can occur without a rash, e.g. breathing symptoms alone after a known allergen",
+          "quote": "The second criterion reflects the reality that the occurrence of objective respiratory signs in isolation following exposure to a known allergen is indicative of anaphylaxis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Foods, insect stings and medicines are common allergic triggers; NSAIDs and antibiotics",
+          "quote": "The most frequent elicitor groups worldwide are food, insect venom, and drugs",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Never self-challenge after a possible allergic reaction; testing and challenge are clinician-directed",
+          "quote": "If indicated, skin testing for penicillin allergy, or other drugs, and graded challenge to rule out immediate hypersensitivity or desensitization in the absence of alternative therapies, can be attempted.",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "label",
+      "cited_as": "DailyMed. ZYRTEC HIVES (cetirizine hydrochloride tablet, film coated), Kenvue Brands LLC. Drug Facts label, updated June 16, 2025. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=31136e3a-94fa-0860-e063-6394a90a008d",
+      "version_or_date": "DailyMed updated June 16, 2025 (version 2, published June 18, 2025); NDC 50580-116-30",
+      "retrieved_with": "WebFetch of DailyMed label page (exact fragments requested)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Fruit-juice/antacid statement no longer cited to this label (it is a fexofenadine label item, ref 9). 'First episode' wording replaced with the label's own 'If you do not know the cause' sentence.",
+      "claims": [
+        {
+          "text": "Label use: reduces hives and relieves itching due to hives",
+          "quote": "reduces hives and relieves itching due to hives (urticaria).",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Adult dose: 10 mg once daily, no more than 10 mg in 24 hours",
+          "quote": "one 10 mg tablet once daily; do not take more than one 10 mg tablet in 24 hours.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "A 5 mg product may suit milder symptoms",
+          "quote": "A 5 mg product may be appropriate for less severe symptoms.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cetirizine can cause drowsiness; alcohol, sedatives, tranquilizers increase drowsiness; avoid alcohol",
+          "quote": "drowsiness may occur; avoid alcoholic drinks; alcohol, sedatives, and tranquilizers may increase drowsiness",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Be careful when driving or operating machinery",
+          "quote": "be careful when driving a motor vehicle or operating machinery",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Ask before use with liver or kidney disease, sedatives, or at age 65+",
+          "quote": "liver or kidney disease. Your doctor should determine if you need a different dose.; Ask a doctor or pharmacist before use if you are taking tranquilizers or sedatives.; adults 65 years and over | ask a doctor",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Breastfeeding and pregnancy can change the choice",
+          "quote": "If breast-feeding: not recommended; if pregnant: ask a health professional before use.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Stop and ask a doctor if no improvement after 3 days or hives last more than 6 weeks",
+          "quote": "symptoms do not improve after 3 days of treatment; the hives have lasted more than 6 weeks",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "If you do not know the cause, see a doctor",
+          "quote": "If you do not know the cause of your hives, see your doctor for a medical exam.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Emergency signs: trouble swallowing, speaking, tongue or mouth swelling, wheezing or breathing problems, dizziness or loss of consciousness",
+          "quote": "Get emergency help immediately if you have hives along with any of the following symptoms: trouble swallowing; dizziness or loss of consciousness; swelling of tongue; swelling in or around mouth; trouble speaking; drooling; wheezing or problems breathing",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Severe reaction symptoms can begin when hives first appear or hours later",
+          "quote": "Symptoms of anaphylactic shock may occur when hives first appear or up to a few hours later.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Antihistamine is not a substitute for epinephrine",
+          "quote": "never use this product as a substitute for the epinephrine injector.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Does not prevent new hives",
+          "quote": "This product will not prevent hives or an allergic skin reaction from occurring.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Bruised, blistering, unusually colored or non-itchy hives need assessment",
+          "quote": "hives that are an unusual color, look bruised or blistered; hives that do not itch",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "label",
+      "cited_as": "DailyMed. ALLEGRA HIVES 24HR (fexofenadine hydrochloride tablet, film coated), Chattem, Inc. Drug Facts label, updated January 12, 2026. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=490b4c5f-448b-4563-928b-837117b59b9f",
+      "version_or_date": "DailyMed updated January 12, 2026",
+      "retrieved_with": "WebFetch of DailyMed label page (exact fragments requested)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Adult dose: 180 mg with water once daily, no more than one tablet in 24 hours",
+          "quote": "take one 180 mg tablet with water once a day; do not take more than 1 tablet in 24 hours",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Do not take with fruit juice or with aluminum/magnesium antacids",
+          "quote": "do not take with fruit juices (see Directions); do not take at the same time as aluminum or magnesium antacids",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Do not exceed package doses",
+          "quote": "do not take more than directed",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Ask before use with kidney disease or at age 65+",
+          "quote": "kidney disease. Your doctor should determine if you need a different dose.; Adults 65 years of age and older: ask a doctor",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Stop and ask a doctor if no improvement after 3 days or hives last more than 6 weeks",
+          "quote": "symptoms do not improve after 3 days of treatment; the hives have lasted more than 6 weeks",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "If you do not know the cause, see a doctor",
+          "quote": "If you do not know the cause of your hives, see your doctor for a medical exam.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Emergency signs with hives require emergency help",
+          "quote": "Severe Allergy Warning: Get emergency help immediately if you have hives along with any of the following symptoms:",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Anaphylaxis can be life threatening without immediate treatment",
+          "quote": "This condition can be life threatening if not treated by a health professional immediately.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Not a substitute for epinephrine",
+          "quote": "never use this product as a substitute for the epinephrine injector.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Does not prevent new hives",
+          "quote": "This product will not prevent hives or an allergic skin reaction from occurring.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pregnancy or breastfeeding can change the choice",
+          "quote": "If pregnant or breast-feeding, ask a health professional before use.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Bruised, blistering or non-itchy hives need assessment",
+          "quote": "hives that are an unusual color, look bruised or blistered; hives that do not itch",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "journal",
+      "cited_as": "Macy E. Practical Management of New-Onset Urticaria and Angioedema Presenting in Primary Care, Urgent Care, and the Emergency Department. Perm J. 2021;25.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35348101/",
+      "pmid": "35348101",
+      "pmcid": "PMC8784078",
+      "doi": "10.7812/TPP/21.058",
+      "record_title": "Practical Management of New-Onset Urticaria and Angioedema Presenting in Primary Care, Urgent Care, and the Emergency Department.",
+      "record_journal": "Perm J",
+      "record_year": "2021",
+      "article_type": "Journal Article; Review (PubMed)",
+      "retrieved_with": "PubMed get_article_metadata; get_full_text_article returned an empty body, so abstract only; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Volume 25 added from the PubMed record. The abstract advocates high-dose nonsedating antihistamines for acute idiopathic urticaria; the guide follows the 2026 guideline's standard-dose-first approach and is not cited to Macy for dosing.",
+      "claims": [
+        {
+          "text": "New hives often follow infection or have no clear trigger; not automatically a hidden food allergy",
+          "quote": "The most common causes of new onset urticaria in older children and adults, with or without angioedema, and normal vital signs or hypertension, are post-infection or acute idiopathic urticaria.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "An IgE-mediated allergy is uncommon; history guides whether testing is useful",
+          "quote": "An IgE-mediated allergy is almost never the cause.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Avoid NSAIDs/alcohol acutely; suspected medication reactions need an individualized plan",
+          "quote": "Acute idiopathic urticaria is treated with high-dose nonsedating antihistamines acute avoidance of alcohol and nonsteroidal anti-inflammatory drugs, and time.",
+          "quote_source": "abstract",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "other_web",
+      "cited_as": "American Academy of Dermatology. Hives: How to get relief at home. Last updated May 30, 2024. Accessed November 15, 2026.",
+      "url": "https://www.aad.org/public/diseases/a-z/hives-self-care",
+      "version_or_date": "Last updated 5/30/24",
+      "retrieved_with": "WebFetch of aad.org page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Warm rather than hot showers",
+          "quote": "Take warm (not hot) baths and showers.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Loose clothing",
+          "quote": "Wear loose-fitting, 100% cotton clothing.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Avoid scratching",
+          "quote": "Scratching irritates your skin, which can trigger more hives.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Gentle washing",
+          "quote": "Use only gentle, fragrance-free soap, cleanser, and other skin care products.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cool cloth",
+          "quote": "To make a cool compress, run a clean washcloth under cold water to get it wet.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Keep a record of timing, medicines, illness, heat and stress",
+          "quote": "If hives last more than a few days or you get hives frequently, keep a journal:",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Record overheating and sweating",
+          "quote": "If you recently felt overheated or perspired heavily",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Record stress",
+          "quote": "If you’ve been feeling stressed",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Record recent illness",
+          "quote": "If you recently had an illness like strep throat or a cold",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "other_web",
+      "cited_as": "American Academy of Allergy, Asthma & Immunology. Acute Hives versus Chronic Hives. Updated June 18, 2026. Accessed November 15, 2026.",
+      "url": "https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/acute-hives-versus-chronic-hives",
+      "version_or_date": "Updated 6/18/2026",
+      "retrieved_with": "WebFetch of aaaai.org page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Heat, stress and exercise can trigger hives",
+          "quote": "These include heat, stress, exercise or exposure to certain chemicals.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hives can signal anaphylaxis",
+          "quote": "In rare instances, hives can be a symptom of a life-threatening condition called anaphylaxis.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Call 911 for hives with shortness of breath, throat tightness, tongue or face swelling, wheezing, fainting",
+          "quote": "Call 911 if you experience hives along with any of these symptoms: Shortness of breath; Tightness in your throat; Tongue or face swelling; Wheezing; Fainting",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Acute hives last up to six weeks",
+          "quote": "Acute hives can last less than a day, or up to six weeks.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

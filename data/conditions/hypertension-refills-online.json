@@ -2,12 +2,12 @@
   "conditionName": "Hypertension Medication Refills",
   "conditionShort": "blood pressure",
   "conditionSlug": "hypertension-refills-online",
-  "pageTitle": "Hypertension Online Refills in {state} | TeleDirectMD",
-  "metaDescription": "Evidence-based blood pressure medication refill care for {state} adults by secure video visit. Red-flag screening, home BP review, and short bridge refills of established antihypertensives when appropriate. Self pay option starting at $79. Insurance is not required.",
+  "pageTitle": "Blood Pressure Refills in {state}, $79 MD Visit | TeleDirectMD",
+  "metaDescription": "Evidence-based blood pressure medication refill care for {state} adults by secure video visit. Red-flag screening, home BP review, and short bridge refills of established antihypertensives when appropriate. Flat $79 self-pay option. Insurance is not required.",
   "ogImageAlt": "Hypertension medication refills in {state} by TeleDirectMD",
   "hero": {
     "h1": "Hypertension Medication Refills in {state} (Blood Pressure Rx Refill Care)",
-    "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
+    "subtitle": "{state} adult care by secure video visit, flat $79 self-pay option, MD-only, insurance is not required.",
     "introParagraph": "Adults often search for online blood pressure medication refills when they are running low on an established antihypertensive and cannot get in to see their regular physician quickly enough to avoid a gap in treatment. Hypertension affects approximately 47 percent of US adults and is the leading modifiable risk factor for cardiovascular disease, stroke, and chronic kidney disease. The ACC/AHA 2017 guideline defines hypertension as blood pressure at or above 130/80 mmHg, and most patients require lifelong medication once treatment is initiated. Interrupting antihypertensive therapy can lead to rebound blood pressure elevation and increased cardiovascular risk. TeleDirectMD uses a safety-first telemedicine approach by reviewing your current medications, recent home blood pressure readings, adherence history, side effects, and recent laboratory results to determine whether a short bridge refill is clinically appropriate. If the history supports a stable refill request, treatment can be continued by video visit. Adults with signs of hypertensive emergency, new-onset symptoms suggesting target organ damage, pregnancy, or a need for new diagnosis or major medication adjustment are directed to urgent in-person care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
       {
@@ -32,7 +32,7 @@
       }
     ],
     "benefits": [
-      "Self pay option starting at $79",
+      "Flat $79 self-pay option",
       "MD-only care (no mid-levels)",
       "Insurance is not required",
       "Licensed telehealth care for patients located in {state} at the time of the visit"
@@ -48,7 +48,7 @@
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek urgent in-person care now for blood pressure above 180/120, chest pain, sudden severe headache, vision changes, difficulty speaking, sudden weakness or numbness, or shortness of breath with elevated blood pressure. TeleDirectMD does not prescribe controlled substances."
     },
     "icd10Display": "I10 (final coding depends on clinical details)",
-    "quickAnswer": "Yes — adults (18+) in {state} on established blood pressure medication can refill it online. A board-certified MD reviews your recent readings and history by secure video and continues your current regimen — an ACE inhibitor, ARB, calcium channel blocker, thiazide diuretic, or beta-blocker — per ACC/AHA 2017 targets, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Blood pressure above 180/120 mmHg or symptoms of hypertensive emergency need immediate in-person or ER care, not a refill visit."
+    "quickAnswer": "Yes, adults (18+) in {state} on established blood pressure medication can refill it online. A board-certified MD reviews your recent readings and history by secure video and continues your current regimen (an ACE inhibitor, ARB, calcium channel blocker, thiazide diuretic, or beta-blocker) per ACC/AHA 2017 targets, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Blood pressure above 180/120 mmHg or symptoms of hypertensive emergency need immediate in-person or ER care, not a refill visit."
   },
   "eligibility": {
     "sectionTitle": "Hypertension Medication Refill Telehealth Eligibility Checklist for {state}",
@@ -108,7 +108,7 @@
     "rows": [
       {
         "option": "TeleDirectMD",
-        "cost": "Self pay option starting at $79",
+        "cost": "Flat $79 self-pay option",
         "wait": "Same day, often within hours",
         "provider": "Board-certified MD only (no mid-levels)",
         "bestFor": "Stable blood pressure medication refill requests, home BP review, and short bridge care when appropriate",
@@ -116,7 +116,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Same-day in-person evaluation when blood pressure is significantly elevated or new symptoms are present",
@@ -124,7 +124,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Hypertensive emergency with blood pressure above 180/120, chest pain, stroke symptoms, or signs of target organ damage",
@@ -132,7 +132,7 @@
       },
       {
         "option": "Primary Care or Cardiology",
-        "cost": "$100 to $350+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks",
         "provider": "MD or DO",
         "bestFor": "Long-term hypertension management, medication titration, laboratory monitoring, and evaluation of secondary causes or resistant hypertension",
@@ -189,7 +189,7 @@
     "sectionTitle": "What Do Online Blood Pressure Medication Refills Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "$79 flat visit · no insurance required · generic BP medications often $4–$15/month",
+    "priceSubtext": "$79 flat visit · no insurance required · prescriptions priced separately",
     "includes": [
       "MD evaluation and red-flag screening",
       "Blood pressure medication review and home BP assessment",
@@ -202,27 +202,9 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care or Cardiology",
-        "value": "$100 to $350+",
-        "width": 52,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 60,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
-    "footnote": "Total cost is transparent: the $79 visit plus a generic blood pressure medication (often $4–$15 per month, such as lisinopril or losartan) means most patients pay about $83–$94 all-in for a stable refill — no membership, no facility fee.",
+    "footnote": "Total cost is transparent: the visit is $79 flat, and any prescription is paid separately at the pharmacy, where prices vary by medication and pharmacy. No membership, no facility fee.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -436,7 +418,7 @@
       ],
       [
         "Calcium channel blocker",
-        "Amlodipine 2.5-10 mg, nifedipine ER, diltiazem",
+        "Amlodipine 2.5-10 mg, nifedipine ER, diltiazem ER",
         "First-line antihypertensive therapy",
         "Ankle edema is most common side effect with amlodipine. Diltiazem can lower heart rate. No potassium or creatinine monitoring required. Safe in pregnancy (nifedipine)."
       ],
@@ -459,7 +441,7 @@
         "Simplifies regimen and may improve adherence. Same monitoring as individual components. Adjust only with provider guidance."
       ]
     ],
-    "note": "Medication selection and dosing are individualized. TeleDirectMD does not prescribe controlled substances. None of the commonly used blood pressure medications are controlled substances. Refill treatment online is intended as bridge care when clinically appropriate, not as a substitute for comprehensive hypertension management when control is poor or laboratory monitoring is overdue."
+    "note": "Medication selection and dosing are individualized. TeleDirectMD does not prescribe controlled substances. None of the commonly used blood pressure medications are controlled substances. Refill treatment online is intended as bridge care when clinically appropriate, not as a substitute for comprehensive hypertension management when control is poor or laboratory monitoring is overdue. Refill lab rule: a basic metabolic panel (potassium and creatinine) from the last 12 months is required, either uploaded before the visit or ordered through Quest at the visit; without one, the physician may provide no more than a 30-day bridge supply while the lab is obtained."
   },
   "homeCare": {
     "sectionTitle": "Home Care, Prevention, and Follow-up",
@@ -535,7 +517,7 @@
       },
       {
         "question": "How much does an online blood pressure medication refill visit cost in {state}?",
-        "answer": "TeleDirectMD offers a transparent self pay option starting at $79 for an adult video visit in {state}. Insurance is not required. Prescription costs are separate and vary by medication and pharmacy. Most generic blood pressure medications cost $4 to $15 per month."
+        "answer": "TeleDirectMD offers a transparent flat $79 self-pay option for an adult video visit in {state}. Insurance is not required. Prescription costs are separate and vary by medication and pharmacy. Most generic blood pressure medications cost $4 to $15 per month."
       },
       {
         "question": "Can I refill my lisinopril or losartan online?",
@@ -583,7 +565,7 @@
       },
       {
         "question": "Can I get my blood pressure medication refilled the same day online in {state}?",
-        "answer": "Yes, in most stable cases — since this is continuation care rather than a new diagnosis, the MD can typically review your history and readings and send the refill to your pharmacy the same day, as long as there are no red flags like very high readings or new symptoms."
+        "answer": "Yes, in most stable cases: since this is continuation care rather than a new diagnosis, the MD can typically review your history and readings and send the refill to your pharmacy the same day, as long as there are no red flags like very high readings or new symptoms."
       }
     ],
     "bottomCta": {
@@ -610,15 +592,14 @@
     },
     {
       "text": "CDC: Facts About Hypertension",
-      "url": "https://www.cdc.gov/blood-pressure/data-research/facts-stats/"
+      "url": "https://www.cdc.gov/high-blood-pressure/data-research/facts-stats/index.html"
     }
   ],
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
       "TeleDirectMD provides MD-only virtual care for adults (18+) in {state} using secure video visits to evaluate blood pressure medication refill concerns, provide evidence-based guidance, and prescribe short bridge refill treatment when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
-      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during a hypertensive emergency. This service is intended for selected stable blood pressure medication refill requests and is not a substitute for comprehensive long-term hypertension management when control is poor, symptoms are present, or laboratory monitoring is overdue.",
-      "Online blood pressure medication refills in {state}. Hypertension refills online. Lisinopril refill online. Losartan refill online. Amlodipine refill online. Blood pressure medication bridge care."
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during a hypertensive emergency. This service is intended for selected stable blood pressure medication refill requests and is not a substitute for comprehensive long-term hypertension management when control is poor, symptoms are present, or laboratory monitoring is overdue."
     ]
   },
   "relatedConditions": [

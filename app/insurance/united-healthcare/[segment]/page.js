@@ -14,7 +14,6 @@ const STATE_SLUGS = {
   'new-jersey': 'NJ',
   ohio: 'OH',
   pennsylvania: 'PA',
-  tennessee: 'TN',
   washington: 'WA',
 };
 const CONDITION_SLUGS = Object.keys(INSURANCE_CONDITIONS);
@@ -31,7 +30,7 @@ export async function generateMetadata({ params }) {
     const stateName = STATE_NAMES[STATE_SLUGS[segment]];
     return {
       title: `Online Doctor That Accepts UnitedHealthcare in ${stateName} | TeleDirectMD`,
-      description: `TeleDirectMD is in-network with UnitedHealthcare in ${stateName}. Board-certified physician. Same-day video visits for UTI, sinus infection, asthma refills & more. Your UHC copay applies.`,
+      description: `TeleDirectMD is in-network with UnitedHealthcare in ${stateName}. Board-certified physician. Same-day video visits for UTI (women only), sinus infection, asthma refills & more. Your UHC copay applies.`,
       alternates: { canonical: `https://teledirectmd.com/insurance/united-healthcare/${segment}` },
       openGraph: {
         title: `Online Doctor That Accepts UnitedHealthcare in ${stateName} | TeleDirectMD`,
@@ -45,7 +44,7 @@ export async function generateMetadata({ params }) {
   if (cond) {
     return {
       title: `Does UnitedHealthcare Cover ${cond.displayName} Telemedicine? | TeleDirectMD`,
-      description: `Yes — UHC commercial plans cover ${cond.name} telehealth visits. TeleDirectMD is in-network with UnitedHealthcare in 17 states. Board-certified physician. Same-day video visits.`,
+      description: `Yes — UHC commercial plans cover ${cond.name} telehealth visits. TeleDirectMD is in-network with UnitedHealthcare in 13 states. Board-certified physician. Same-day video visits.`,
       alternates: { canonical: `https://teledirectmd.com/insurance/united-healthcare/${segment}` },
       openGraph: {
         title: `Does UnitedHealthcare Cover ${cond.displayName} Telemedicine? | TeleDirectMD`,

@@ -1,0 +1,426 @@
+{
+ "guide": "affordability/what-to-do-when-you-cannot-pay",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 0 verified (no journal references or DOIs on this page; all 11 references are agency, regulation, bureau or advocacy web pages), retractions: none",
+ "references": [
+  {
+   "n": 1,
+   "kind": "agency_page",
+   "cited_as": "CFPB, What should I do if I can't pay a medical bill? (last reviewed October 28, 2026)",
+   "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-if-i-cant-pay-a-medical-bill-en-2125/",
+   "record_title": "What should I do if I can’t pay a medical bill?",
+   "version_or_date": "Last reviewed Oct 28, 2026; page last modified Oct 29, 2026",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Key takeaway: first confirm you owe the bill, check charges, then dispute anything wrong",
+     "quote": "If you can't pay a medical bill, first make sure you owe the amount charged. Review the bill for errors, check that your health insurance was applied correctly",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Key takeaway: surprise-bill protections and financial assistance (charity care) can reduce what you owe or provide free or discounted care",
+     "quote": "You may also have protections under federal or state law that reduce what you owe ... Financial assistance programs, sometimes called “charity care,” provide free or discounted health care",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Key takeaway: negotiate and ask about an interest-free repayment plan before using a credit card",
+     "quote": "Negotiate the bill down to an amount that you can afford; Ask if the provider will accept an interest-free repayment plan ... Be careful about using a credit card or a medical credit card to pay off the bill.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Step one: confirm you have not already paid and have not been confused with someone with a similar name",
+     "quote": "First, make sure that you owe the bill. You could have already paid it. It’s also possible that the provider or debt collector has confused you with someone else with a similar name.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Step two: ask for an itemized list, look for errors such as duplicate charges, check insurance was applied correctly",
+     "quote": "ask for an itemized list of charges ... Look for billing errors like being charged for the same service or treatment twice.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Step two: contact the billing office promptly to avoid late fees and interest",
+     "quote": "talk to the accounting or billing office of your provider ... You want to do this quickly so you can get any charges resolved and to avoid late fees and interest.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Step three: right to internal appeal and external review; can dispute with debt collector or credit reporting company",
+     "quote": "You have a right to both an “ internal appeal” and an “ external review” of the charges. ... you can also dispute a medical bill with a debt collector or a credit reporting company.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Step four: some services such as ground ambulance are not protected by the No Surprises Act",
+     "quote": "Some services, such as ground ambulance transportation services, are NOT protected by the No Surprises Act.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Step five: ACA requires 501(c)(3) nonprofit hospitals to have financial assistance (charity care) programs providing free or discounted care",
+     "quote": "Financial assistance programs, sometimes called “charity care,” provide free or discounted health care to people who need help paying their medical bills. The Affordable Care Act (ACA) requires hospitals with 501(c)(3) nonprofit status to have programs to provide this care",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Step six: ask to reduce the bill to an affordable amount or accept an interest-free repayment plan",
+     "quote": "Negotiate the bill down to an amount that you can afford; Ask if the provider will accept an interest-free repayment plan",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Credit card or medical credit card may carry high interest and you may lose the ability to negotiate",
+     "quote": "Be careful about using a credit card or a medical credit card to pay off the bill. There may be high interest and you may lose the ability to negotiate the debt.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "State consumer assistance programs help with health insurance problems; state AG or insurance department/commissioner may offer information and a complaint process",
+     "quote": "Many states provide help for consumers experiencing problems with their health insurance. ... State agencies such as your state attorney general and state insurance department or insurance commissioner may also offer helpful information as well as a complaint process.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CFPB complaint for debt-collection or credit-reporting problems tied to a surprise medical bill",
+     "quote": "If you have a problem with debt collection because of a surprise medical bill, or a problem with credit reporting because of surprise medical charges ... you can submit a complaint with the CFPB online",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Call script note: CFPB suggests asking for both a reduction and a payment plan",
+     "quote": "Negotiate the bill down to an amount that you can afford; Ask if the provider will accept an interest-free repayment plan",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Doing nothing can lead to late fees and interest, debt collection, lawsuits, garnishments, and lower credit scores (body and FAQ)",
+     "quote": "If you do nothing and don’t pay, you could be facing late fees and interest, debt collection, lawsuits, garnishments, and lower credit scores.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "FAQ negotiate: lower the bill, interest-free repayment plan, be careful with credit cards",
+     "quote": "Negotiate the bill down to an amount that you can afford; Ask if the provider will accept an interest-free repayment plan; ... Be careful about using a credit card or a medical credit card",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "FAQ dispute: itemized list, compare with EOB, raise with billing office; appeal rights with insurer",
+     "quote": "ask for an itemized list of charges ... talk to the accounting or billing office of your provider ... You have a right to both an “ internal appeal” and an “ external review” of the charges.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "FAQ credit card: high interest, lose ability to negotiate, interest-free repayment plan may be better",
+     "quote": "There may be high interest and you may lose the ability to negotiate the debt. There may be better options like an interest-free repayment plan.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "FAQ first thing: confirm you owe it and check charges against the EOB",
+     "quote": "first make sure you owe the amount charged. Review the bill for errors, check that your health insurance was applied correctly ... Check your health insurance policy documents and the “explanation of benefits.”",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "other_web",
+   "cited_as": "NCLC, Dealing with Medical Debt: Consumer Advice from NCLC (April 17, 2018)",
+   "url": "https://library.nclc.org/article/dealing-medical-debt-consumer-advice-nclc",
+   "record_title": "Dealing with Medical Debt: Consumer Advice from NCLC",
+   "version_or_date": "April 17, 2018 (National Consumer Law Center)",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "2018 article. Its credit reporting statements (180-day rule) are outdated and are not relied on; credit reporting claims cite refs 4, 9, 10, 11.",
+   "claims": [
+    {
+     "text": "Key takeaway and perspective: medical debt is a low priority behind more pressing debts such as mortgage, rent, or car loan",
+     "quote": "treat medical debt as a low priority debt to be paid only after you pay more pressing types of debt, such as your mortgage, car loan ... ahead of more important bills, such as your rent or home mortgage.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not put medical debt on a credit card, even a medical credit card, unless you can pay the card and all other obligations that month",
+     "quote": "Also don’t put medical debt on your credit card, even a “medical” credit card, unless you can pay the card and all your other obligations that month.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Step two: compare the bill with your explanation of benefits",
+     "quote": "Also review any explanation of benefits (EOB) form you receive from your insurance company to see if it is consistent with the medical bill.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Charging the bill to a card loses the option to negotiate with the provider because it becomes credit card debt",
+     "quote": "You lose the option of negotiating with your health care provider over the bill. Using this type of card turns your medical debt into credit card debt.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Low priority does not mean ignoring the bill",
+     "quote": "Medical debt’s status as a low priority debt does not mean that one should ignore medical debt.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "agency_page",
+   "cited_as": "CMS, No Surprises: Understand your rights against surprise medical bills (fact sheet, January 3, 2022)",
+   "url": "https://www.cms.gov/newsroom/fact-sheets/no-surprises-understand-your-rights-against-surprise-medical-bills",
+   "record_title": "No Surprises: Understand your rights against surprise medical bills",
+   "version_or_date": "Fact sheet dated Jan 03, 2022",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Applies to coverage through an employer, the Marketplace, or an individual plan; bans surprise bills for most emergency services",
+     "quote": "If you get health coverage through your employer, a Health Insurance Marketplace, or an individual health insurance plan ... these new rules will: Ban surprise bills for most emergency services",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Limits you to in-network cost-sharing for most emergency and some non-emergency services",
+     "quote": "Ban out-of-network cost-sharing (like out-of-network coinsurance or copayments) for most emergency and some non-emergency services. You can’t be charged more than in-network cost-sharing for these services.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Bans balance bills for certain services such as anesthesiology or radiology from out-of-network providers during a visit to an in-network facility",
+     "quote": "Ban out-of-network charges and balance bills for certain additional services (like anesthesiology or radiology) furnished by out-of-network providers as part of a patient’s visit to an in-network facility.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "other_web",
+   "cited_as": "NCLC, The Latest on Keeping Medical Debt Out of Credit Reports (Chi Chi Wu; updated September 21, 2026)",
+   "url": "https://library.nclc.org/article/latest-keeping-medical-debt-out-credit-reports",
+   "record_title": "The Latest on Keeping Medical Debt Out of Credit Reports",
+   "version_or_date": "September 21, 2026 (published July 30, 2025; updated Sept. 3, 2025; Sept. 21, 2026)",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Also reports the CFPB rule was vacated nationwide (Cornerstone Credit Union League v. CFPB, E.D. Tex. July 11, 2025), consistent with ref 11.",
+   "claims": [
+    {
+     "text": "As of the September 21, 2026 update, NCLC lists 15 states and the District of Columbia with their own limits on medical debt reporting",
+     "quote": "Fifteen States and the District of Columbia Limit Medical Debt Reporting",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "agency_page",
+   "cited_as": "USA.gov, How to get help with medical bills (last updated September 9, 2026)",
+   "url": "https://www.usa.gov/help-with-medical-bills",
+   "record_title": "How to get help with medical bills",
+   "version_or_date": "Last updated September 9, 2026",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Medicaid, CHIP, Medicare Savings Programs and charity care can help",
+     "quote": "These programs include: Medicaid; Children's Health Insurance Program (CHIP) ... There are 4 Medicare Savings Programs that may be able to help with Part A and Part B premiums, deductibles, coinsurance, and copayments.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Charity care may help with costs that remain after insurance pays",
+     "quote": "If you still need help with medical bills after using health insurance or Medicaid payments, a charity care program may assist you with the remaining costs.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "agency_page",
+   "cited_as": "CMS, Emergency Medical Treatment & Labor Act (EMTALA)",
+   "url": "https://www.cms.gov/medicare/regulations-guidance/legislation/emergency-medical-treatment-labor-act",
+   "record_title": "Emergency Medical Treatment & Labor Act (EMTALA)",
+   "version_or_date": "Page last modified 03/10/2026",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Medicare-participating hospitals with emergency services must screen and stabilize people with emergency conditions regardless of ability to pay",
+     "quote": "obligations on Medicare-participating hospitals that offer emergency services to provide a medical screening examination (MSE) ... regardless of an individual's ability to pay. Hospitals are then required to provide stabilizing treatment for patients with EMCs.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "agency_page",
+   "cited_as": "IRS, Billing and collections, Section 501(r)(6)",
+   "url": "https://www.irs.gov/charities-non-profits/billing-and-collections-section-501r6",
+   "record_title": "Billing and collections - Section 501(r)(6)",
+   "version_or_date": "IRS web page, no page date shown; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "A nonprofit hospital must decide on a complete application submitted during the 240-day application period starting with the first post-discharge bill",
+     "quote": "a 240-day “application period,” ... beginning on the date the first “post-discharge” billing statement is provided. ... who submits a complete FAP application during the 240-day application period, the hospital facility determines whether the individual is FAP-eligible",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A hospital may accept applications at any time",
+     "quote": "A hospital facility may continue to accept and process FAP applications from patients at any time.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Denying, delaying, or requiring payment before medically necessary care because of unpaid past bills is an extraordinary collection action",
+     "quote": "involve deferring or denying, or requiring a payment before providing, medically necessary care because of an individual’s non-payment of one or more bills for previously provided care covered under the hospital facility’s FAP",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "ECAs only after reasonable efforts, including notifying about the FAP and waiting at least 120 days after the first post-discharge bill",
+     "quote": "notifies the individual about the FAP before initiating any ECAs to obtain payment for the care and refrains from initiating such ECAs for at least 120 days from the date the hospital facility provides the first post-discharge billing statement",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Applying for financial assistance may reduce or clear the debt",
+     "quote": "If an individual qualifies for free care, the hospital facility must provide them with a written notification that nothing more is owed. ... qualifies for less than free care ... billing statement that indicates the amount the individual owes",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "guideline",
+   "cited_as": "eCFR, 12 CFR 1006.34, Notice for validation of debts (Regulation F)",
+   "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1006/subpart-B/section-1006.34",
+   "record_title": "12 CFR 1006.34 Notice for validation of debts",
+   "version_or_date": "eCFR Title 12 up to date as of 11/12/2026; section text [86 FR 5854, Jan. 19, 2021]",
+   "retrieved_with": "Monid firecrawl /scrape of the eCFR renderer for the same section (https://www.ecfr.gov/api/renderer/v1/content/enhanced/2026-11-12/title-12?part=1006&section=1006.34&subpart=B), live fetch maxAge 0; 12 CFR 1006.38(d)(2) also read on the eCFR page, Title 12 up to date as of 11/12/2026",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Regulation text (not a clinical guideline); kind set to guideline as the closest schema value for a regulation. 1006.38(d)(2) states the same cease-collection rule: \"Upon receipt of a dispute submitted by the consumer in writing within the validation period, a debt collector must cease collection of the debt, or any disputed portion of the debt, until...\"",
+   "claims": [
+    {
+     "text": "Debt collector must give validation information, including the end date of the validation period",
+     "quote": "a debt collector must provide a consumer with the validation information required by paragraph (c) of this section ... The date that the debt collector will consider the end date of the validation period",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Validation period runs until 30 days after the consumer receives the validation information",
+     "quote": "Validation period means the period starting on the date that a debt collector provides the validation information ... and ending 30 days after the consumer receives or is assumed to receive the validation information.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A written dispute by that date requires the collector to stop collecting the disputed amount until it sends verification or a copy of a judgment",
+     "quote": "if the consumer notifies the debt collector in writing on or before that date ... the debt collector must cease collection ... until the debt collector sends ... verification of the debt or a copy of a judgment.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "FAQ: if a debt collector has the account, dispute in writing before the validation period ends",
+     "quote": "if the consumer notifies the debt collector in writing on or before that date that the debt, or any portion of the debt, is disputed, the debt collector must cease collection of the debt",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "other_web",
+   "cited_as": "Equifax, Can Medical Collection Debt Impact Credit Scores?",
+   "url": "https://www.equifax.com/personal/education/credit/score/articles/-/learn/can-medical-debt-impact-credit-scores/",
+   "record_title": "Can Medical Collection Debt Impact Credit Scores?",
+   "version_or_date": "Undated bureau page; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Paid medical collection debt left off reports since July 1, 2022; unpaid medical collection debt does not appear until one year",
+     "quote": "Effective July 1, 2022, paid medical collection debt is no longer included on U.S. consumer credit reports. In addition, the time period before unpaid medical collection debt appears on a consumer’s report was increased from 6 months to one year",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Since April 2023, medical collection debt with an initial balance under $500 is left off",
+     "quote": "removed medical collection debt with an initial reported balance of under $500 from U.S. consumer credit reports as of April 2023.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "other_web",
+   "cited_as": "Experian, How Does Medical Debt Affect Your Credit Score? (Karen Axelton; October 9, 2025)",
+   "url": "https://www.experian.com/blogs/ask-experian/medical-debt-and-your-credit-score/",
+   "record_title": "How Does Medical Debt Affect Your Credit Score?",
+   "version_or_date": "Oct 9, 2025",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "This page says the CFPB rule was \"placed on hold\" in February 2025, which is out of date; it is not cited for the rule status (ref 11 is).",
+   "claims": [
+    {
+     "text": "An unpaid medical collection over $500 can appear and hurt your score if not paid within the 365-day grace period",
+     "quote": "Medical bills over $500 will appear on your credit report and negatively impact your credit score if your account is sold to collections and you don't pay the bill within the 365-day grace period.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "agency_page",
+   "cited_as": "CFPB, Prohibition on Creditors and Consumer Reporting Agencies Concerning Medical Information (Regulation V), final rule page",
+   "url": "https://www.consumerfinance.gov/rules-policy/final-rules/prohibition-on-creditors-and-consumer-reporting-agencies-concerning-medical-information-regulation-v/",
+   "record_title": "Prohibition on Creditors and Consumer Reporting Agencies Concerning Medical Information (Regulation V)",
+   "version_or_date": "Rule issued Jan 07, 2025; page last modified Feb. 24, 2026; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown, live fetch maxAge 0)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Status checked today: CFPB page (modified Feb 24, 2026) and NCLC update (Sept 21, 2026, ref 4) both say the rule is vacated; a web search found no newer official action.",
+   "claims": [
+    {
+     "text": "CFPB rule issued January 7, 2025 would have kept medical debt off credit reports",
+     "quote": "On January 7, 2025, the Consumer Financial Protection Bureau issued a final rule ... prohibited consumer reporting agencies from including medical debt information on credit reports.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Vacated by a federal court in Texas on July 11, 2025; the rule page, last modified February 24, 2026, still says so",
+     "quote": "On July 11, 2025, the U.S. District Court of the Eastern District of Texas vacated the Consumer Financial Protection Bureau’s rule ... Page last modified Feb. 24, 2026",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

@@ -3,7 +3,9 @@
  * URL: /ca/bv-treatment-online/
  * Authority: CDC STI Treatment Guidelines 2021 + ACOG
  */
+import { stateConditionHref } from '../../../lib/live-routes';
 import FaqAccordion from '../../components/FaqAccordion';
+import { VtNationalStyle } from '../../components/VtNationalChrome';
 import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock } from '../../components/CostCompareModules';
 
 const PAGE_URL = 'https://teledirectmd.com/vt/bv-treatment-online/';
@@ -14,7 +16,7 @@ const LAST_REVIEWED = '2026-06-04';
 
 const PHYSICIAN = {
   name: 'Parth Bhavsar, MD', npi: '1104323203', specialty: 'Family Medicine',
-  licenseState: 'Vermont', headshot: '/images/dr-parth-bhavsar.jpg', bioUrl: '/about',
+  licenseState: 'Vermont', headshot: '/images/dr-parth-bhavsar.jpg', bioUrl: '/about/',
 };
 
 
@@ -28,7 +30,7 @@ const MEDICATIONS = [
 
 const VT_SIBLINGS = [
   { slug: 'yeast-infection-treatment-online', label: 'Yeast Infection Treatment in VT', why: 'Most common differential — similar discharge symptoms but different treatment.' },
-  { slug: 'uti-treatment-online', label: 'UTI Treatment in VT', why: 'Dysuria and pelvic discomfort can occur alongside BV.' },
+  { slug: 'uti-treatment-online', label: 'UTI Treatment for Women in VT', why: 'Dysuria and pelvic discomfort can occur alongside BV.' },
   { slug: 'chlamydia-treatment-online', label: 'Chlamydia Treatment in VT', why: 'STI that can co-exist with BV and cause discharge.' },
   { slug: 'trichomoniasis-treatment-online', label: 'Trichomoniasis Treatment in VT', why: 'STI differential when odorous discharge is present.' },
   { slug: 'vaginal-dryness-treatment-online', label: 'Vaginal Dryness Treatment in VT', why: 'Vaginal pH changes in menopause may predispose to recurrent BV.' },
@@ -50,7 +52,7 @@ const FAQ_ITEMS = [
     answer: (<p>BV is caused by a disruption of the normal vaginal microbiome — a shift from <em>Lactobacillus</em>-dominant flora to a polymicrobial environment including <em>Gardnerella vaginalis</em>, <em>Prevotella</em> species, <em>Mycoplasma hominis</em>, and other anaerobes. According to the <a href="https://www.cdc.gov/std/treatment-guidelines/bv.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines 2021</a>, BV is not definitively classified as an STI, though sexual activity is associated with altered vaginal flora. Risk factors include new or multiple sexual partners, douching (which disrupts flora), and lack of Lactobacillus-dominant flora.</p>),
   },
   { question: 'How common is BV in Vermont women?',
-    answer: (<p>Bacterial vaginosis is the most common vaginal infection in women of reproductive age in the United States. The <a href="https://www.cdc.gov/std/treatment-guidelines/bv.htm" rel="noopener" target="_blank">CDC</a> reports that BV affects approximately 21.2 million women aged 14–49 in the US — about 29% of this age group. Vermont&apos;s approximately 10 million reproductive-age women thus represent a substantial at-risk population. BV is underdiagnosed because many women are asymptomatic (approximately 50–75% of BV cases) and may not seek care. When symptomatic, BV is associated with discharge, odor, and discomfort that significantly impacts quality of life.</p>),
+    answer: (<p>Bacterial vaginosis is the most common vaginal infection in women of reproductive age in the United States. The <a href="https://www.cdc.gov/std/treatment-guidelines/bv.htm" rel="noopener" target="_blank">CDC</a> reports that BV affects approximately 21.2 million women aged 14–49 in the US — about 29% of this age group. Reproductive-age women in Vermont are therefore a substantial at-risk population. BV is underdiagnosed because many women are asymptomatic (approximately 50–75% of BV cases) and may not seek care. When symptomatic, BV is associated with discharge, odor, and discomfort that significantly impacts quality of life.</p>),
   },
   { question: 'What is the difference between BV and a yeast infection?',
     answer: (<p>BV and yeast infections (VVC) are distinct conditions requiring different treatments. BV features thin, grayish-white discharge with a characteristic fishy odor that worsens after sex; vaginal pH is elevated (&gt;4.5); itching is usually mild or absent. Yeast infection (VVC) features thick, white, cottage cheese-like discharge without odor; pH is normal (&lt;4.5); and intense itching and burning are hallmarks. Per <a href="https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/vaginitis-in-nonpregnant-patients" rel="noopener" target="_blank">ACOG Practice Bulletin 215</a>, in-person wet preparation microscopy most reliably differentiates these diagnoses. When symptoms are classical and a prior diagnosis has been established, telehealth evaluation is appropriate.</p>),
@@ -65,7 +67,7 @@ const FAQ_ITEMS = [
     answer: (<p>Yes. Recurrent BV is common — approximately 30% of women experience recurrence within 3 months of treatment, per the <a href="https://www.cdc.gov/std/treatment-guidelines/bv.htm" rel="noopener" target="_blank">CDC</a>. Factors contributing to recurrence include disruption of Lactobacillus-dominant flora (douching, antibiotic use, new sexual partners) and partner reinfection. For recurrent BV, extended suppressive therapy with metronidazole vaginal gel twice weekly for 4–6 months may be appropriate — this warrants in-person evaluation and culture. TeleDirectMD can treat acute episodes but recommends in-person evaluation for RVVC workup after multiple recurrences.</p>),
   },
   { question: 'Does BV need to be treated if I have no symptoms?',
-    answer: (<p>Asymptomatic BV in non-pregnant women generally does not require treatment outside of pregnancy or prior to certain gynecologic procedures. The <a href="https://www.cdc.gov/std/treatment-guidelines/bv.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines 2021</a> recommend treatment only for symptomatic women — or for asymptomatic BV before procedures such as abortion, hysterectomy, or IUD insertion. In pregnancy, screening and treatment of BV is recommended for women at high risk of preterm birth per ACOG.</p>),
+    answer: (<p>Asymptomatic BV in non-pregnant women generally does not require treatment outside of pregnancy or prior to certain gynecologic procedures. The <a href="https://www.cdc.gov/std/treatment-guidelines/bv.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines 2021</a> recommend treatment only for symptomatic women — or for asymptomatic BV before procedures such as abortion, hysterectomy, or IUD insertion. In pregnancy, symptomatic BV should be treated; routine screening of asymptomatic pregnant women is not recommended per USPSTF and CDC.</p>),
   },
   { question: 'Can BV increase my risk of STIs in Vermont?',
     answer: (<p>Yes. The <a href="https://www.cdc.gov/std/treatment-guidelines/bv.htm" rel="noopener" target="_blank">CDC</a> reports that BV is associated with increased acquisition of HIV, gonorrhea, chlamydia, and other STIs — likely because BV disrupts the normal acidic vaginal environment that protects against pathogens. BV is also associated with increased risk of PID (pelvic inflammatory disease), an upper reproductive tract infection that can cause infertility if untreated. If you have symptoms of both BV and possible STI, in-person testing with STI screening is recommended before starting empiric BV treatment.</p>),
@@ -83,7 +85,7 @@ function buildSchemas() {
     datePublished: DATE_PUBLISHED, dateModified: DATE_MODIFIED, inLanguage: 'en-US',
     about: { '@type': 'MedicalCondition', name: 'Bacterial Vaginosis', alternateName: ['BV', 'Vaginal Bacteriosis'], code: { '@type': 'MedicalCode', code: 'N76.0', codingSystem: 'ICD-10-CM' } },
     medicalAudience: { '@type': 'MedicalAudience', audienceType: 'Patient', geographicArea: { '@type': 'AdministrativeArea', name: 'Vermont' } },
-    reviewedBy: { '@type': 'Physician', '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar', name: PHYSICIAN.name, identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi }, medicalSpecialty: PHYSICIAN.specialty, hasCredential: [{ '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'Board Certification — American Board of Family Medicine' }, { '@type': 'EducationalOccupationalCredential', credentialCategory: 'Medical License', name: 'Vermont Medical License', identifier: '042.0040345-COMP', recognizedBy: { '@type': 'GovernmentOrganization', name: 'Vermont Board of Medical Practice', url: 'https://www.healthvermont.gov/systems/board-medical-practice' } }], areaServed: { '@type': 'State', name: 'Vermont' }, licensedIn: PHYSICIAN.licenseState, worksFor: { '@type': 'MedicalOrganization', name: 'TeleDirectMD', url: 'https://teledirectmd.com' }, sameAs: ['https://npiregistry.cms.hhs.gov/provider-view/1104323203', 'https://teledirectmd.com/about/'] },
+    reviewedBy: { '@type': 'Physician', '@id': 'https://teledirectmd.com/about/#physician', name: PHYSICIAN.name, identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi }, medicalSpecialty: PHYSICIAN.specialty, hasCredential: [{ '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'Board Certification — American Board of Family Medicine' }, { '@type': 'EducationalOccupationalCredential', credentialCategory: 'Medical License', name: 'Vermont Medical License', identifier: '042.0040345-COMP', recognizedBy: { '@type': 'GovernmentOrganization', name: 'Vermont Board of Medical Practice', url: 'https://www.healthvermont.gov/systems/board-medical-practice' } }], areaServed: { '@type': 'State', name: 'Vermont' }, licensedIn: PHYSICIAN.licenseState, worksFor: { '@type': 'MedicalOrganization', name: 'TeleDirectMD', url: 'https://teledirectmd.com' }, sameAs: ['https://npiregistry.cms.hhs.gov/provider-view/1104323203', 'https://teledirectmd.com/about/'] },
     speakable: { '@type': 'SpeakableSpecification', cssSelector: ['#vt-bv-opening', '#vt-bv-opening p', '.tdmd-vt-bv__byline', '#vt-bv-treatment-online-faq'] },
   };
   const faqPage = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: FAQ_ITEMS.map((faq) => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: extractPlain(faq.answer) } })) };
@@ -112,7 +114,8 @@ export default function VtBvTreatmentOnline() {
       {schemas.map((schema, i) => (<script key={`schema-${i}`} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />))}
       <style dangerouslySetInnerHTML={{ __html: PAGE_CSS }} />
 
-      <div className="tdmd-vt-bv">
+      <div className="tdmd-vt-bv tdmd-natl">
+        <VtNationalStyle />
         <nav className="tdmd-breadcrumbs" aria-label="Breadcrumb">
           <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: 0 }}>
             <a href="/">Home</a><span className="tdmd-bc-sep" aria-hidden="true">/</span>
@@ -155,9 +158,9 @@ export default function VtBvTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
                   <a href="/vt/" className="tdmd-btn tdmd-btn-outline">Explore Vermont Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
                 </div>
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> N76.0 (Vaginitis — final coding depends on clinical details)</p>
               </div>
@@ -185,7 +188,7 @@ export default function VtBvTreatmentOnline() {
             <div className="tdmd-condition-opener" id="vt-bv-opening">
               <h2>Can I Get BV Treatment Online in Vermont?</h2>
               <p><strong>Yes.</strong> <a href="https://legislature.vermont.gov/statutes/fullchapter/18/219" rel="noopener" target="_blank">18 V.S.A. Chapter 219 (Vermont&apos;s telemedicine statute)</a> permits Vermont-licensed physicians to treat bacterial vaginosis by synchronous video visit without a prior in-person examination. The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> holds telehealth physicians to the same standard of care as in-person physicians. Classic BV symptoms — thin grayish-white discharge with fishy odor, elevated vaginal pH, minimal itching — can be assessed by careful history, particularly in adults with prior confirmed BV diagnosis. Per the <a href="https://www.cdc.gov/std/treatment-guidelines/bv.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines 2021</a>, first-line treatment is metronidazole 500 mg orally twice daily × 7 days or metronidazole gel 0.75% × 5 days. Self pay is $79.</p>
-              <small className="tdmd-condition-opener__meta">Reviewed by <a href="/about/">Parth Bhavsar, MD</a> · Board-Certified Family Medicine · NPI 1104323203 · Licensed in Vermont (License #042.0040345-COMP · <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed June 4, 2026</small>
+              <small className="tdmd-condition-opener__meta">Reviewed by <a href="/about/">Parth Bhavsar, MD</a> · Board-Certified Family Medicine · NPI 1104323203 · Licensed in Vermont (License #042.0040345-COMP · <a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed June 4, 2026</small>
             </div>
           </div>
         </section>
@@ -237,7 +240,7 @@ export default function VtBvTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Bacterial Vaginosis in Vermont: Prevalence and Context</h2>
             <h3>How common is BV in Vermont?</h3>
-            <p>BV is the most prevalent vaginal infection in reproductive-age women. The <a href="https://www.cdc.gov/std/treatment-guidelines/bv.htm" rel="noopener" target="_blank">CDC</a> estimates that approximately 29% of US women aged 14–49 have BV at any given time — roughly 21.2 million women nationally. In Vermont, with approximately 10 million women in this age range, this translates to an estimated 2–3 million women with BV at any point, many of whom are asymptomatic (approximately 50–75% of BV cases have no symptoms). BV is particularly prevalent among Black women (prevalence ~51%), women with new or multiple sexual partners, and women who douche.</p>
+            <p>BV is the most prevalent vaginal infection in reproductive-age women. The <a href="https://www.cdc.gov/std/treatment-guidelines/bv.htm" rel="noopener" target="_blank">CDC</a> estimates that approximately 29% of US women aged 14–49 have BV at any given time — roughly 21.2 million women nationally. In Vermont, that means many women have BV at any given time, and many of them have no symptoms. BV is particularly prevalent among Black women (prevalence ~51%), women with new or multiple sexual partners, and women who douche.</p>
             <h3>Why does BV matter beyond symptoms?</h3>
             <p>Untreated symptomatic BV increases risk of STI acquisition — including HIV, gonorrhea, chlamydia, and herpes simplex virus — because disrupted vaginal flora reduces natural defense against pathogens. BV is also associated with pelvic inflammatory disease (PID), preterm birth in pregnancy, and post-surgical infection. The <a href="https://www.cdc.gov/antimicrobial-resistance/" rel="noopener" target="_blank">U.S. Centers for Disease Control and Prevention</a> STI surveillance program tracks gonorrhea and chlamydia — conditions frequently co-occurring with BV — noting Vermont reported 193,907 chlamydia cases in 2022, the most frequently reported STI in the state.</p>
           </div>
@@ -258,7 +261,7 @@ export default function VtBvTreatmentOnline() {
               </div>
               <div className="tdmd-decision-step tdmd-decision-step-good">
                 <div className="tdmd-decision-number">3</div>
-                <div className="tdmd-decision-content"><h3>Receive treatment plan and, if appropriate, a prescription</h3><p>If metronidazole or another BV treatment is appropriate, a Vermont-compliant e-prescription is sent to your chosen pharmacy. Recurrence prevention and lifestyle guidance is provided regardless of treatment choice.</p><div className="tdmd-decision-cta"><a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a></div></div>
+                <div className="tdmd-decision-content"><h3>Receive treatment plan and, if appropriate, a prescription</h3><p>If metronidazole or another BV treatment is appropriate, a Vermont-compliant e-prescription is sent to your chosen pharmacy. Recurrence prevention and lifestyle guidance is provided regardless of treatment choice.</p><div className="tdmd-decision-cta"><a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a></div></div>
               </div>
             </div>
           </div>
@@ -271,15 +274,6 @@ export default function VtBvTreatmentOnline() {
             <p>TeleDirectMD&apos;s self-pay rate is <strong>$79</strong>. Vermont visits are cash-pay only — a flat $79 with no insurance billing.</p>
             <div className="tdmd-price-grid">
               <div className="tdmd-price-card"><h3>TeleDirectMD Video Visit</h3><p className="tdmd-price-big">$79</p><p className="tdmd-price-sub">Self-pay flat fee — no subscription</p><ul className="tdmd-price-includes"><li>Board-certified MD evaluation</li><li>Red-flag STI and pregnancy screening</li><li>e-Prescription to your VT pharmacy</li><li>Recurrence prevention guidance</li></ul></div>
-              <div className="tdmd-price-chart" role="group" aria-label="BV cost comparison">
-                <h3>Typical BV Treatment Cost in Vermont</h3>
-                <p className="tdmd-price-caption">Before insurance. Actual costs vary by location.</p>
-                <div className="tdmd-vbars" role="list">
-                  {[{ name: 'TeleDirectMD', value: '$79', heightPct: 13, isTdmd: true }, { name: 'Other telehealth', value: '$75–$150', heightPct: 22 }, { name: 'Urgent care', value: '$150–$300', heightPct: 45 }, { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 }].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem"><span className="tdmd-vbar__value">{bar.value}</span><div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" /><span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span></div>
-                  ))}
-                </div>
-              </div>
             </div>
             <div className="tdmd-cashpay-note">
               <p><strong>$79 flat self-pay.</strong> No insurance billing in Vermont &mdash; straightforward, transparent pricing. Your visit fee is paid at booking. HSA and FSA cards are accepted. Prescription costs are filled separately at your pharmacy of choice and may be covered by your pharmacy benefit.</p>
@@ -302,6 +296,7 @@ export default function VtBvTreatmentOnline() {
               </table>
             </div>
             <p className="tdmd-med-note"><strong>Important:</strong> Medication selection depends on allergies, pregnancy status, prior treatments, and tolerance. Do not start treatment without clinical evaluation.</p>
+            <p className="tdmd-med-note" data-fda-notes="true"><strong>FDA labeling note:</strong> Oral metronidazole, Rx only, has not been approved by the FDA as safe and effective to treat bacterial vaginosis; it is the CDC 2021 recommended first-line regimen. Only a licensed physician may prescribe this medication for this condition if, in his clinical judgment, use is medically appropriate. Report side effects to the FDA at www.fda.gov/medwatch or 1-800-FDA-1088.</p>
           </div>
         </section>
 
@@ -339,7 +334,7 @@ export default function VtBvTreatmentOnline() {
           <div className="tdmd-container">
             <div className="tdmd-vt-bv__cta-strip" role="complementary">
               <div><p>Book a same-day video visit — Vermont adults, 18+</p><small>Cash-pay $79 flat · No insurance billing in Vermont May 2026</small></div>
-              <a className="tdmd-vt-bv__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
+              <a className="tdmd-vt-bv__cta-btn" href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -347,7 +342,7 @@ export default function VtBvTreatmentOnline() {
         <section className="tdmd-section tdmd-faq" id={`${pid}-faq`}>
           <div className="tdmd-container">
             <FaqAccordion sectionTitle="Frequently Asked Questions — BV Treatment in Vermont" items={FAQ_ITEMS.map((f, i) => ({ ...f, id: `${pid}-faq-${i}` }))} />
-            <div className="tdmd-bottom-cta"><div className="tdmd-bottom-cta-copy"><h3>Ready to see a Vermont-licensed MD?</h3><p>Book a same-day video visit. Cash-pay $79 flat. No insurance billing in Vermont.</p></div><div className="tdmd-bottom-cta-actions"><a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a><a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a></div></div>
+            <div className="tdmd-bottom-cta"><div className="tdmd-bottom-cta-copy"><h3>Ready to see a Vermont-licensed MD?</h3><p>Book a same-day video visit. Cash-pay $79 flat. No insurance billing in Vermont.</p></div><div className="tdmd-bottom-cta-actions"><a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a><a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Conditions</a></div></div>
           </div>
         </section>
 
@@ -355,7 +350,7 @@ export default function VtBvTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Other Vermont Conditions We Treat</h2>
             <div className="tdmd-vt-bv__sibling-grid">
-              {VT_SIBLINGS.map((s) => (<a key={s.slug} className="tdmd-vt-bv__sibling" href={`/vt/${s.slug}/`}><span className="tdmd-vt-bv__sibling-label">{s.label}</span><span className="tdmd-vt-bv__sibling-why">{s.why}</span></a>))}
+              {VT_SIBLINGS.map((s) => (<a key={s.slug} className="tdmd-vt-bv__sibling" href={stateConditionHref('vt', s.slug) || `/${s.slug}/`}><span className="tdmd-vt-bv__sibling-label">{s.label}</span><span className="tdmd-vt-bv__sibling-why">{s.why}</span></a>))}
             </div>
           </div>
         </section>

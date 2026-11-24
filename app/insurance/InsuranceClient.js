@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useMemo, useEffect } from 'react';
+import { darkCSS } from '../../lib/dark-css';
 import {
   getActiveInsurers,
   getPendingInsurers,
@@ -27,6 +28,8 @@ const STATE_NAMES = {
   IL:'Illinois', LA:'Louisiana', MI:'Michigan', MN:'Minnesota', NC:'North Carolina',
   NJ:'New Jersey', OH:'Ohio', OK:'Oklahoma', PA:'Pennsylvania', TN:'Tennessee',
   TX:'Texas', WA:'Washington',
+  AL:'Alabama', IN:'Indiana', KY:'Kentucky', MS:'Mississippi', NV:'Nevada',
+  DC:'District of Columbia', MD:'Maryland',
 };
 
 const ALL_US_STATES = [
@@ -48,7 +51,7 @@ const ALL_US_STATES = [
 // resolves to "Blue Cross Blue Shield of Texas").
 const PAYER_FAMILIES = [
   { id:'aetna', label:'Aetna', match:(name) => /aetna|allina/i.test(name) },
-  { id:'bcbs',  label:'Blue Cross Blue Shield / Anthem / Highmark / Florida Blue',
+  { id:'bcbs',  label:'Blue Cross Blue Shield / Anthem / Highmark',
     match:(name) => /blue cross|bcbs|anthem|highmark|florida blue/i.test(name) },
   { id:'uhc',   label:'UnitedHealthcare', match:(name) => /unitedhealthcare|united healthcare|uhc/i.test(name) },
   { id:'curative', label:'Curative', match:(name) => /curative/i.test(name) },
@@ -80,16 +83,31 @@ const STYLES = `
     background:var(--tdmd-bg);
     -webkit-font-smoothing:antialiased;
   }
-  @media (prefers-color-scheme: dark){
-    .ins-page{
+` + darkCSS(`
+    DARK .ins-page{
       --tdmd-bg:#0a171c;
       --tdmd-card:#122028;
-      --tdmd-border:#1e3340;
+      --tdmd-border:#33505d;
       --tdmd-text:#e2edf0;
-      --tdmd-muted:#8fa8b2;
+      --tdmd-muted:#9fb6bf;
       --tdmd-cream:#1a201d;
     }
-  }
+    DARK .ins-page .ins-checker-title{color:#9fc1cf;}
+    DARK .ins-page .ins-checker-sub,
+    DARK .ins-page .ins-madlibs,
+    DARK .ins-page .ins-madlibs .ins-sel,
+    DARK .ins-page .ins-check-note strong,
+    DARK .ins-page .ins-result-headline,
+    DARK .ins-page .ins-grid-v,
+    DARK .ins-page .ins-copay-callout strong,
+    DARK .ins-page .ins-faq h2,
+    DARK .ins-page .ins-faq-item summary{color:#e2edf0;}
+    DARK .ins-page .ins-btn-ghost{color:#e2edf0;border-color:#3f5a6b;}
+    DARK .ins-page .ins-plan-note{background:#221b12;border-color:#5a4318;color:#efe5d2;}
+    DARK .ins-page .ins-plan-note strong{color:#e6b45a;}
+    DARK .ins-page .ins-copay-callout,DARK .ins-page .ins-result-grid{border-color:#4a3028;}
+    DARK .ins-page .ins-btn-primary,DARK .ins-page .ins-check-btn{color:#1a0b06;}
+`) + `
   .ins-hero{
     background:var(--tdmd-navy);
     color:#fff;
@@ -108,6 +126,7 @@ const STYLES = `
     display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:center;
     position:relative;z-index:1;
   }
+  .ins-hero-inner > *{min-width:0;}
   @media(max-width:860px){.ins-hero-inner{grid-template-columns:1fr;gap:32px;}}
   .ins-hero-left h1{
     font-family:'Fraunces',Georgia,serif;
@@ -118,7 +137,7 @@ const STYLES = `
   .ins-hero-left h1 .accent{color:var(--tdmd-accent);}
   .ins-hero-left p{font-size:18px;color:#c9ccd6;margin:0 0 24px;max-width:480px;line-height:1.5;}
   .ins-hero-stats{
-    display:flex;gap:32px;margin-top:32px;padding-top:24px;border-top:1px solid rgba(255,255,255,0.15);
+    display:flex;flex-wrap:wrap;gap:32px;row-gap:16px;margin-top:32px;padding-top:24px;border-top:1px solid rgba(255,255,255,0.15);
   }
   .ins-stat .n{font-size:30px;font-weight:800;color:#fff;font-variant-numeric:tabular-nums;letter-spacing:-0.02em;}
   .ins-stat .l{font-size:12px;color:#a6abb8;text-transform:uppercase;letter-spacing:0.08em;font-weight:700;margin-top:2px;}
@@ -145,6 +164,10 @@ const STYLES = `
   }
   .ins-madlibs .ins-sel:focus{outline:none;border-bottom-color:var(--tdmd-accent-hover);}
   .ins-madlibs .ins-sel:disabled{opacity:0.5;cursor:not-allowed;}
+  @media(max-width:860px){
+    .ins-madlib-line{display:block;}
+    .ins-madlibs .ins-sel{display:block;width:100%;max-width:100%;box-sizing:border-box;margin:6px 0 2px;}
+  }
   .ins-check-btn{
     width:100%;
     padding:16px;
@@ -308,12 +331,12 @@ function resolveResult(stateAbbr, payerId) {
       banner: 'Medicaid Not Accepted',
       icon: '✕',
       headline: 'We don\'t accept Medicaid in any state.',
-      text: 'TeleDirectMD is not in-network with any Medicaid program, Managed Medicaid plan, CHIP, Medicare-Medicaid (MME), or Dual Special Needs Plan (D-SNP) — in any state we serve. You can still book a $79 self-pay visit, which is HSA/FSA eligible.',
+      text: 'TeleDirectMD is not in-network with any Medicaid program, Managed Medicaid plan, CHIP, Medicare-Medicaid (MME), or Dual Special Needs Plan (D-SNP) — in any state we serve.',
       status: 'Not accepted',
       eff: '—',
       plans: '—',
       ctaText: 'Book $79 self-pay visit →',
-      ctaHref: '/book-online',
+      ctaHref: '/book-online/',
       showSecondary: false,
     };
   }
@@ -376,7 +399,7 @@ function resolveResult(stateAbbr, payerId) {
       banner: 'State Not Currently Served',
       icon: '✕',
       headline: `We don't currently serve ${STATE_NAMES[stateAbbr] || 'this state'}.`,
-      text: 'TeleDirectMD is licensed in 44 states. If you have a different state to check, use the dropdown above. Otherwise, join the waitlist.',
+      text: 'TeleDirectMD is licensed in 40+ states. If you have a different state to check, use the dropdown above. Otherwise, join the waitlist.',
       status: 'Not licensed',
       eff: '—',
       plans: '—',
@@ -462,9 +485,9 @@ function formatDate(iso) {
 
 const FAQ_ITEMS = [
   { q:'What does "in-network" mean?', a:'In-network means we have a contract with your insurance company, so we can bill them directly for your visit. You\'ll still pay your plan\'s copay, coinsurance, or deductible — it doesn\'t mean the visit is free.' },
-  { q:'Does TeleDirectMD accept insurance?', a:'Yes. We are in-network with Aetna, Blue Cross Blue Shield affiliates (BCBS-AZ, Florida Blue, Anthem, BCBS-IL, BCBS-MI, Highmark, BCBS-TX), UnitedHealthcare, and Curative (9 states including Texas, California, and Florida). Use the checker above to confirm your specific plan.' },
+  { q:'Does TeleDirectMD accept insurance?', a:'Yes. We are in-network with Aetna, Blue Cross Blue Shield affiliates (BCBS-AZ, Anthem Blue Cross CA, Anthem GA, BCBS-IL, Highmark, BCBS-TX), UnitedHealthcare, and Curative (18 states: AL, AZ, CA, CO, DC, FL, GA, IL, IN, KY, LA, MD, MI, MN, MS, NV, OH, TX). Use the checker above to confirm your specific plan.' },
   { q:'Which plan types do you accept?', a:'PPO, HMO, EPO, POS, and Medicare Advantage. State-specific exclusions apply (for example, Aetna California excludes HMO and QPOS; UnitedHealthcare in Illinois, Minnesota, and Texas is commercial-only; Curative is Commercial PPO, EPO, and self-funded only). The checker above shows your exact result.' },
-  { q:'Does TeleDirectMD accept Medicaid?', a:'No. We are not in-network with any Medicaid program, Managed Medicaid plan, CHIP, Medicare-Medicaid (MME), or Dual Special Needs Plan (D-SNP) in any state we serve. Patients with Medicaid-only coverage can still book a $79 self-pay visit (HSA/FSA eligible).' },
+  { q:'Does TeleDirectMD accept Medicaid?', a:'No. We are not in-network with any Medicaid program, Managed Medicaid plan, CHIP, Medicare-Medicaid (MME), or Dual Special Needs Plan (D-SNP) in any state we serve.' },
   { q:'How much is a self-pay visit?', a:'$79 flat fee. Includes the physician consultation, any clinically appropriate prescriptions, and a work or school excuse note when medically appropriate. HSA and FSA cards accepted.' },
   { q:'What if my plan is not in-network?', a:'You can book as a self-pay patient for $79 and submit an out-of-network claim to your insurer for partial reimbursement. Many commercial plans cover out-of-network telehealth.' },
 ];
@@ -526,21 +549,23 @@ export default function InsuranceClient() {
             <p className="ins-checker-sub">Two questions, one answer.</p>
 
             <p className="ins-madlibs">
-              I am in{' '}
-              <select className="ins-sel" value={stateAbbr} onChange={e => setStateAbbr(e.target.value)} aria-label="Select your state">
-                <option value="">your state</option>
-                {ALL_US_STATES.map(([abbr, name]) => (
-                  <option key={abbr} value={abbr}>{name}</option>
-                ))}
-              </select>
-              {' '}and I have{' '}
-              <select className="ins-sel" value={payer} onChange={e => setPayer(e.target.value)} disabled={!stateAbbr} aria-label="Select your insurer">
-                <option value="">your insurance</option>
-                {PAYER_FAMILIES.map(f => (
-                  <option key={f.id} value={f.id}>{f.label}</option>
-                ))}
-              </select>
-              {'.'}
+              <span className="ins-madlib-line">I am in{' '}
+                <select className="ins-sel" value={stateAbbr} onChange={e => setStateAbbr(e.target.value)} aria-label="Select your state">
+                  <option value="">your state</option>
+                  {ALL_US_STATES.map(([abbr, name]) => (
+                    <option key={abbr} value={abbr}>{name}</option>
+                  ))}
+                </select>
+              </span>{' '}
+              <span className="ins-madlib-line">and I have{' '}
+                <select className="ins-sel" value={payer} onChange={e => setPayer(e.target.value)} disabled={!stateAbbr} aria-label="Select your insurer">
+                  <option value="">your insurance</option>
+                  {PAYER_FAMILIES.map(f => (
+                    <option key={f.id} value={f.id}>{f.label}</option>
+                  ))}
+                </select>
+                {'.'}
+              </span>
             </p>
 
             <button type="submit" className="ins-check-btn" disabled={!canCheck}>
@@ -592,7 +617,6 @@ export default function InsuranceClient() {
           <div>
             <h2>Medicaid and Medicaid-Medicare plans not accepted</h2>
             <p>TeleDirectMD is <strong>not</strong> in-network with any Medicaid plan, Managed Medicaid plan, CHIP, Medicare-Medicaid (MME), or Dual Special Needs Plan (D-SNP) in any state we serve. If your only coverage is Medicaid, Managed Medicaid, or a Medicaid-Medicare dual plan, our visits cannot be billed to your plan.</p>
-            <p className="sub">You can still book a visit at our $79 self-pay rate (HSA/FSA eligible).</p>
           </div>
         </div>
       </section>

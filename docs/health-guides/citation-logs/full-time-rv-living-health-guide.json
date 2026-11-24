@@ -1,0 +1,695 @@
+{
+ "guide": "full-time-rv-living-health-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 6 verified, retractions: none (no editorial notices; PubMed article types show no Retracted Publication or Retraction Notice). Contrasting-citation flags on refs 1, 3, 4 and 5 reviewed; see notes.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "Gupta K, Hooton TM, Naber KG, et al. International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: A 2010 update by the Infectious Diseases Society of America and the European Society for Microbiology and Infectious Diseases. Clinical Infectious Diseases. 2011;52(5):e103-e120. PMID 21292654",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21292654/",
+   "pmid": "21292654",
+   "doi": "10.1093/cid/ciq257",
+   "record_title": "International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: A 2010 update by the Infectious Diseases Society of America and the European Society for Microbiology and Infectious Diseases.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2011",
+   "article_type": "Journal Article; Practice Guideline; Review (PubMed)",
+   "version_or_date": "2010 update, published Mar 1, 2011; 52(5):e103-20",
+   "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of publisher full text academic.oup.com/cid/article/52/5/e103/388285; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite flagged one contrasting citation (a Kosovo resistance study arguing TMP-SMX and ciprofloxacin resistance is high locally); the page now carries the guideline's own 20 percent local-resistance condition for TMP-SMX.",
+   "claims": [
+    {
+     "text": "Nitrofurantoin 100 mg twice daily for five days is an appropriate choice (text and chart)",
+     "verdict": "supported",
+     "quote": "Nitrofurantoin monohydrate/macrocrystals (100 mg twice daily for 5 days) is an appropriate choice for therapy",
+     "quote_source": "full_text"
+    },
+    {
+     "text": "TMP-SMX one DS tablet (160/800 mg) twice daily for three days, where local resistance does not exceed 20 percent (text and chart)",
+     "verdict": "supported",
+     "quote": "Trimethoprim-sulfamethoxazole (160/800 mg [1 double-strength tablet] twice-daily for 3 days) ... if local resistance rates of uropathogens causing acute uncomplicated cystitis do not exceed 20%",
+     "quote_source": "full_text"
+    },
+    {
+     "text": "Fosfomycin 3 g single dose (text and chart)",
+     "verdict": "supported",
+     "quote": "Fosfomycin trometamol (3 g in a single dose) is an appropriate choice for therapy where it is available",
+     "quote_source": "full_text"
+    },
+    {
+     "text": "Recommendations written for premenopausal, non-pregnant women with no known urologic abnormalities or comorbidities",
+     "verdict": "supported",
+     "quote": "diagnoses limited in these guidelines to premenopausal, non-pregnant women with no known urological abnormalities or co-morbidities",
+     "quote_source": "abstract"
+    },
+    {
+     "text": "Common-conditions and decision tables: short antibiotic course (nitrofurantoin, TMP-SMX, or fosfomycin) listed for uncomplicated cystitis",
+     "verdict": "supported",
+     "quote": "Nitrofurantoin monohydrate/macrocrystals (100 mg twice daily for 5 days) is an appropriate choice for therapy ... Fosfomycin trometamol (3 g in a single dose) is an appropriate choice",
+     "quote_source": "full_text"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "guideline",
+   "cited_as": "Chow AW, Benninger MS, Brook I, et al. IDSA clinical practice guideline for acute bacterial rhinosinusitis in children and adults. Clinical Infectious Diseases. 2012;54(8):e72-e112. PMID 22438350",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22438350/",
+   "pmid": "22438350",
+   "doi": "10.1093/cid/cir1043",
+   "record_title": "IDSA clinical practice guideline for acute bacterial rhinosinusitis in children and adults.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2012",
+   "article_type": "Journal Article; Practice Guideline (PubMed)",
+   "version_or_date": "2012; 54(8):e72-e112",
+   "retrieved_with": "PubMed get_article_metadata; WebFetch of publisher full text academic.oup.com/cid/article/54/8/e72/367144; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite returns the title \"Executive Summary: IDSA Clinical Practice Guideline...\" for this DOI; PubMed record 22438350 (the full guideline, e72-e112) carries the same DOI. Citation follows PubMed. Text read was the full guideline.",
+   "claims": [
+    {
+     "text": "A cold virus is the most frequent cause of acute sinus symptoms",
+     "verdict": "supported",
+     "quote": "A viral etiology associated with a URI or the common cold is the most frequent cause of acute rhinosinusitis.",
+     "quote_source": "full_text"
+    },
+    {
+     "text": "Uncomplicated viral symptoms usually last 5 to 10 days",
+     "verdict": "supported",
+     "quote": "In most cases of uncomplicated viral URI, respiratory symptoms last 5–10 days.",
+     "quote_source": "full_text"
+    },
+    {
+     "text": "Three bacterial patterns: >=10 days without improvement; fever >=39C (102F) with purulent discharge or facial pain for 3-4 consecutive days at onset; new fever, headache or more discharge after a 5-6 day viral URI that was improving",
+     "verdict": "supported",
+     "quote": "lasting for ≥10 days without any evidence of clinical improvement ... high fever (≥39°C [102°F]) and purulent nasal discharge or facial pain ... lasting for at least 3–4 consecutive days ... following a typical viral URI that lasted 5–6 days and were initially improving",
+     "quote_source": "full_text"
+    },
+    {
+     "text": "Chart: adult antibiotic course for bacterial sinusitis 5-7 days",
+     "verdict": "supported",
+     "quote": "The recommended duration of therapy for uncomplicated ABRS in adults is 5–7 days",
+     "quote_source": "full_text"
+    },
+    {
+     "text": "Tables: most acute sinus symptoms are caused by a virus; antibiotics only for patterns that suggest bacteria",
+     "verdict": "supported",
+     "quote": "whereas viral causes account for 90%–98%",
+     "quote_source": "full_text"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "guideline",
+   "cited_as": "Lantos PM, Rumbaugh J, Bockenstedt LK, et al. Clinical Practice Guidelines by the Infectious Diseases Society of America (IDSA), American Academy of Neurology (AAN), and American College of Rheumatology (ACR): 2020 Guidelines for the Prevention, Diagnosis and Treatment of Lyme Disease. Clinical Infectious Diseases. 2021;72(1):e1-e48. PMID 33417672",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33417672/",
+   "pmid": "33417672",
+   "doi": "10.1093/cid/ciaa1215",
+   "record_title": "Clinical Practice Guidelines by the Infectious Diseases Society of America (IDSA), American Academy of Neurology (AAN), and American College of Rheumatology (ACR): 2020 Guidelines for the Prevention, Diagnosis and Treatment of Lyme Disease.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2021",
+   "article_type": "Journal Article (PubMed)",
+   "version_or_date": "2020 guideline; 72(1):e1-e48",
+   "retrieved_with": "PubMed get_article_metadata; WebFetch of publisher full text academic.oup.com/cid/article/72/1/e1/6010652; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite flagged one contrasting citation about European seroconversion rates; not relevant to the prophylaxis claims cited. The guideline text read gave no attachment-time-for-transmission figure and no pregnancy statement; those claims were removed.",
+   "claims": [
+    {
+     "text": "High-risk bite: identified Ixodes vector, highly endemic area, attached >=36 hours (text, tables, FAQ)",
+     "verdict": "supported",
+     "quote": "the tick bite was from (a) an identified Ixodes spp. vector species ... (b) it occurred in a highly endemic area ... (c) the tick was attached for ≥36 hours",
+     "quote_source": "full_text"
+    },
+    {
+     "text": "Single oral doxycycline dose within 72 hours of removal: 200 mg adults, weight-based for children, all age groups",
+     "verdict": "supported",
+     "quote": "within 72 hours of removal of an identified high-risk tick bite ... single oral dose, 200 mg for adults and 4.4 mg/kg (up to a maximum dose of 200 mg) for children",
+     "quote_source": "full_text"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Nadelman RB, Nowakowski J, Fish D, et al. Prophylaxis with single-dose doxycycline for the prevention of Lyme disease after an Ixodes scapularis tick bite. New England Journal of Medicine. 2001;345(2):79-84. PMID 11450675",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11450675/",
+   "pmid": "11450675",
+   "doi": "10.1056/NEJM200107123450201",
+   "record_title": "Prophylaxis with single-dose doxycycline for the prevention of Lyme disease after an Ixodes scapularis tick bite.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2001",
+   "article_type": "Randomized Controlled Trial; Multicenter Study (PubMed)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite flagged one citing statement that calls the result \"contrary to previous data\" and notes many patients are unaware of the bite; the page frames the trial as one trial and leaves the decision to a clinician.",
+   "claims": [
+    {
+     "text": "Single 200 mg dose within 72 hours cut erythema migrans from 3.2 percent with placebo to 0.4 percent (text and chart)",
+     "verdict": "supported",
+     "quote": "Erythema migrans developed at the site of the tick bite in a significantly smaller proportion of the subjects in the doxycycline group than of those in the placebo group (1 of 235 subjects [0.4 percent] vs. 8 of 247 subjects [3.2 percent], P<0.04).",
+     "quote_source": "abstract"
+    },
+    {
+     "text": "Tables: possible single-dose doxycycline after a high-risk bite",
+     "verdict": "supported",
+     "quote": "A single 200-mg dose of doxycycline given within 72 hours after an I. scapularis tick bite can prevent the development of Lyme disease.",
+     "quote_source": "abstract"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "guideline",
+   "cited_as": "Riddle MS, Connor BA, Beeching NJ, et al. Guidelines for the prevention and treatment of travelers' diarrhea: a graded expert panel report. Journal of Travel Medicine. 2017;24(suppl_1):S57-S74. PMID 28521004",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28521004/",
+   "pmid": "28521004",
+   "pmcid": "PMC5731448",
+   "doi": "10.1093/jtm/tax026",
+   "record_title": "Guidelines for the prevention and treatment of travelers' diarrhea: a graded expert panel report.",
+   "record_journal": "J Travel Med",
+   "record_year": "2017",
+   "article_type": "Journal Article; Review (PubMed)",
+   "version_or_date": "2017; 24(suppl_1):S57-S74",
+   "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of publisher full text academic.oup.com/jtm/article/24/suppl_1/S57/3782742 (PMC page returned a bot check and was not used); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Link changed from the PMC page (blocked automated reads with a reCAPTCHA this run) to the PubMed record. Scite flagged one contrasting citation on post-infectious musculoskeletal symptoms; not relevant to the claims cited.",
+   "claims": [
+    {
+     "text": "Mild diarrhea: extra fluids alone, loperamide, or bismuth subsalicylate may be enough",
+     "verdict": "supported",
+     "quote": "either increasing intake of fluids only or loperamide or bismuth subsalicylate may suffice for most cases of mild diarrhea",
+     "quote_source": "abstract"
+    },
+    {
+     "text": "Severity definitions: mild tolerable; moderate distressing or interferes; severe incapacitating, all dysentery severe",
+     "verdict": "supported",
+     "quote": "diarrhea that is tolerable, is not distressing, and does not interfere with planned activities ... diarrhea that is distressing or interferes with planned activities ... all dysentery (passage of grossly bloody stools) is considered severe",
+     "quote_source": "full_text"
+    },
+    {
+     "text": "Antibiotics may be used for moderate and should be used for severe travelers diarrhea",
+     "verdict": "supported",
+     "quote": "Antibiotics may be used to treat cases of moderate travelers' diarrhea ... Antibiotics should be used to treat severe travelers' diarrhea",
+     "quote_source": "full_text"
+    },
+    {
+     "text": "Common-conditions table: hydration first; loperamide; antibiotics for moderate to severe",
+     "verdict": "supported",
+     "quote": "Strong evidence supports the effectiveness of antimicrobial therapy in most cases of moderate to severe travelers' diarrhea, while either increasing intake of fluids only or loperamide or bismuth subsalicylate may suffice",
+     "quote_source": "abstract"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "guideline",
+   "cited_as": "Vieira RJ, Sousa-Pinto B, Bousquet J, et al. Allergic Rhinitis and Its Impact on Asthma (ARIA)-EAACI Guidelines-2024-2025 Revision: Part II-Guidelines on Oral and Ocular Treatments. Allergy. 2026;81(6):1947-1970. PMID 41877472",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41877472/",
+   "pmid": "41877472",
+   "pmcid": "PMC13256267",
+   "doi": "10.1111/all.70305",
+   "record_title": "Allergic Rhinitis and Its Impact on Asthma (ARIA)-EAACI Guidelines-2024-2025 Revision: Part II-Guidelines on Oral and Ocular Treatments.",
+   "record_journal": "Allergy",
+   "record_year": "2026",
+   "article_type": "Journal Article; Practice Guideline (PubMed)",
+   "version_or_date": "2024-2025 revision, Part II; 81(6):1947-1970",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC13256267); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Citation title corrected to name Part II (oral and ocular treatments) and volume/pages added from PubMed.",
+   "claims": [
+    {
+     "text": "Recommends intranasal corticosteroid over oral antihistamine because more effective for nasal symptoms",
+     "verdict": "supported",
+     "quote": "In patients with AR, we recommend using INCS over OAH. (Strong recommendation|Moderate CoE) INCS are more effective in improving nasal symptoms and quality of life.",
+     "quote_source": "full_text"
+    },
+    {
+     "text": "Recommends second-generation over first-generation oral antihistamines, which cause more sedation",
+     "verdict": "supported",
+     "quote": "we recommend using second-generation OAH over first-generation OAH ... Second-generation agents are safer (in particular, resulting in less sedation)",
+     "quote_source": "full_text"
+    },
+    {
+     "text": "Tables: intranasal steroid spray favored, second-generation antihistamine as another option",
+     "verdict": "supported",
+     "quote": "we recommend using OAH over no treatment ... we recommend using INCS over OAH",
+     "quote_source": "full_text"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. Travelers' Diarrhea. CDC Yellow Book: Health Information for International Travel, 2026 edition. Last updated March 24, 2026. CDC Yellow Book",
+   "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/travelers-diarrhea.html",
+   "version_or_date": "CDC Yellow Book 2026 edition; last updated March 24, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Citation updated from \"Yellow Book 2024\" to the 2026 edition the page now shows.",
+   "claims": [
+    {
+     "text": "Untreated bacterial diarrhea usually lasts 3-7 days, viral 2-3 days (text and chart)",
+     "verdict": "supported",
+     "quote": "Untreated, bacterial diarrhea usually lasts 3–7 days. Viral diarrhea generally lasts 2–3 days.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Fluid replacement is key; severe dehydration unusual in healthy adults unless prolonged vomiting; matters most for young children, older adults, chronic illness; any drink for mild, ORS for severe loss",
+     "verdict": "supported",
+     "quote": "In otherwise healthy adult travelers, severe dehydration from TD is unusual unless vomiting is prolonged. Nonetheless, replacement of fluid losses is key to diarrhea therapy and helps the traveler feel better more quickly.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Loperamide alone not recommended for bloody diarrhea or diarrhea with fever",
+     "verdict": "supported",
+     "quote": "Antimotility agents alone are not recommended for patients with bloody diarrhea or those who have diarrhea and fever.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Citable summary link: traveler's diarrhea manageable",
+     "verdict": "supported",
+     "quote": "For severe fluid loss, replacement is best accomplished with oral rehydration solution (ORS)",
+     "quote_source": "official_page"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. What to Do After a Tick Bite. Last updated June 9, 2026. CDC Ticks",
+   "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html",
+   "version_or_date": "Last updated June 9, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Page does not say \"pull straight up\" or call removal \"the single most effective prevention step\"; wording changed to the page's.",
+   "claims": [
+    {
+     "text": "Remove attached ticks promptly to reduce risk; fine-tipped tweezers close to skin; steady even pressure; no twisting or jerking",
+     "verdict": "supported",
+     "quote": "Remove attached ticks promptly to reduce your risk of getting a disease spread through tick bites. ... Grasp the tick as close to the skin's surface as possible using clean fine-tipped tweezers. ... Don't twist or jerk the tick.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Rash or fever within several days to weeks after removing a tick: see a clinician and tell them about the bite",
+     "verdict": "supported",
+     "quote": "If you develop a rash or fever within several days to weeks after removing a tick, see your doctor.",
+     "quote_source": "official_page"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. About Common Cold. Last updated February 19, 2026. CDC Common Cold",
+   "url": "https://www.cdc.gov/common-cold/about/index.html",
+   "version_or_date": "Last updated February 19, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Chart previously plotted the cold at 7-10 days; changed to under 1 week per the page.",
+   "claims": [
+    {
+     "text": "Chart: common cold usually lasts under a week",
+     "verdict": "supported",
+     "quote": "Colds usually last less than a week and are caused by different respiratory viruses.",
+     "quote_source": "official_page"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "agency_page",
+   "cited_as": "U.S. Department of Health and Human Services. Getting started with licensure. Telehealth.HHS.gov. Last updated February 21, 2024. telehealth.hhs.gov",
+   "url": "https://www.telehealth.hhs.gov/licensure/getting-started-licensure",
+   "version_or_date": "Last updated February 21, 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces the former ref 10 (FSMB/IMLC, no link; imlcc.org served an unrelated casino page per the Nov 6 audit).",
+   "claims": [
+    {
+     "text": "Clinician must be licensed or legally permitted to practice in the state where the patient is located (why-it-changes, telehealth section, domicile paragraph)",
+     "verdict": "supported",
+     "quote": "Health professionals must meet the licensure requirements of the state where they are located and be licensed or legally permitted to practice in the state where the patient is located.",
+     "quote_source": "official_page"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "other_web",
+   "cited_as": "Code of Federal Regulations. 45 CFR 155.305, Eligibility standards (residency). eCFR, up to date as of October 22, 2026. eCFR",
+   "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-155/subpart-D/section-155.305",
+   "version_or_date": "eCFR up to date as of 10/22/2026",
+   "retrieved_with": "WebFetch of eCFR official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces former ref 11 (HHS telehealth home page, which did not support the domicile claims).",
+   "claims": [
+    {
+     "text": "Marketplace eligibility tied to the service area where you live and intend to reside, including without a fixed address; temporary absence with intent to return does not end eligibility",
+     "verdict": "supported",
+     "quote": "the service area of the Exchange of the individual is the service areas of the Exchange in which he or she is living and— (A) Intends to reside, including without a fixed address ... but for a temporary absence from the service area",
+     "quote_source": "official_page"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. Traveling with Prohibited or Restricted Medications. CDC Yellow Book, 2026 edition. Last updated April 23, 2025. CDC Yellow Book",
+   "url": "https://www.cdc.gov/yellow-book/hcp/travelers-with-additional-considerations/traveling-with-prohibited-or-restricted-medications.html",
+   "version_or_date": "CDC Yellow Book 2026 edition; last updated April 23, 2025",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "The page covers international travel and does not say federal law requires original containers or address interstate travel; the \"federal law\" claim was cut.",
+   "claims": [
+    {
+     "text": "Always keep medications in original labeled containers; avoid daily pill organizers because contents often cannot be identified (text, table, myths, FAQ)",
+     "verdict": "supported",
+     "quote": "Travelers should always keep medications in their original, labeled containers. Although people who take multiple medicines often rely on a daily pill organizer, these should be avoided.",
+     "quote_source": "official_page"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "agency_page",
+   "cited_as": "Medicare.gov. Compare Original Medicare and Medicare Advantage. Medicare.gov",
+   "url": "https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/your-coverage-options/compare-original-medicare-medicare-advantage",
+   "version_or_date": "Page undated; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Original Medicare: any doctor or hospital that takes Medicare anywhere in the U.S.; Medicare Advantage may require network and service-area providers for non-emergency care; out-of-network may cost more",
+     "verdict": "supported",
+     "quote": "You can use any doctor or hospital that takes Medicare, anywhere in the U.S. ... You may need to use doctors and other providers who are in the plan's network and service area ... Some plans offer non-emergency coverage out of network, but it may cost more.",
+     "quote_source": "official_page"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "agency_page",
+   "cited_as": "HealthCare.gov. Special Enrollment Period (changes in residence). HealthCare.gov",
+   "url": "https://www.healthcare.gov/coverage-outside-open-enrollment/special-enrollment-period/",
+   "version_or_date": "Page undated; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Page says a move to a new ZIP code or county qualifies; it does not say plans are issued by state or mention moving domicile to a new state, so that wording was removed. Vacation/medical-treatment caveat added.",
+   "claims": [
+    {
+     "text": "Move to a new home in a new ZIP code or county can qualify for an SEP; moving only for medical treatment or vacation does not",
+     "verdict": "supported",
+     "quote": "A new home in a new ZIP code or county ... Moving only for medical treatment or staying somewhere for vacation doesn't qualify you for a Special Enrollment Period.",
+     "quote_source": "official_page"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "agency_page",
+   "cited_as": "National Institute for Occupational Safety and Health. Heat Stress: Heat-Related Illnesses. Centers for Disease Control and Prevention. Last updated March 3, 2026. CDC NIOSH",
+   "url": "https://www.cdc.gov/niosh/heat-stress/about/illnesses.html",
+   "version_or_date": "Last updated March 3, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Heat exhaustion advice changed from \"usually resolves on its own\" to the page's first aid, which includes medical evaluation and 911 if care is unavailable.",
+   "claims": [
+    {
+     "text": "Heat exhaustion symptoms and first aid incl. clinic/ER evaluation and 911 if care unavailable",
+     "verdict": "supported",
+     "quote": "Take worker to a clinic or emergency room for medical evaluation and treatment. Call 911 if medical care is unavailable. ... Encourage frequent sips of cool water.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Heat stroke: confusion, slurred speech, loss of consciousness, seizures, fatal if treatment delayed; call 911 and cool quickly",
+     "verdict": "supported",
+     "quote": "Confusion, altered mental status, slurred speech; Loss of consciousness (coma); Seizures; Fatal if treatment delayed. Call 911 for emergency medical care.",
+     "quote_source": "official_page"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. High-Altitude Travel and Altitude Illness. CDC Yellow Book, 2026 edition. Last updated April 23, 2025. CDC Yellow Book",
+   "url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html",
+   "version_or_date": "CDC Yellow Book 2026 edition; last updated April 23, 2025",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Sleeping altitude >=8,000 ft (2,450 m), and sometimes lower, puts unacclimatized travelers at risk",
+     "verdict": "supported",
+     "quote": "Any unacclimatized traveler proceeding to a sleeping altitude of ≥2,450 m (≥8,000 ft)—and sometimes lower—is at risk for altitude illness.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "AMS onset 2-12 hours, often first night; headache with anorexia, dizziness, fatigue, nausea, occasionally vomiting",
+     "verdict": "supported",
+     "quote": "Symptom onset is usually 2–12 hours after initial arrival at a high altitude or after ascent to a higher elevation and often during or after the first night.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "No higher sleeping altitude with symptoms; stay and self-treat with non-opiate analgesic; descent of 1,000 ft brings rapid improvement",
+     "verdict": "supported",
+     "quote": "can remain safely at their current altitude and self-treat with non-opiate analgesics (e.g., ibuprofen 600 mg or acetaminophen 500 mg every 8 hours) ... AMS improves rapidly with a descent of 300 m (1,000 ft) or more",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Danger signs: breathing trouble at rest, confusion, bloody sputum (HAPE/HACE); descend",
+     "verdict": "supported",
+     "quote": "HAPE progresses to dyspnea at rest and frank respiratory distress, often with bloody sputum. ... In most circumstances, descent is urgent and mandatory",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Heart or lung disease or children: talk with a clinician before high-altitude stay",
+     "verdict": "supported",
+     "quote": "should consult a physician familiar with high-altitude medical issues before undertaking such travel ... Children are as susceptible as adults",
+     "quote_source": "official_page"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. Travelers with Chronic Illnesses. CDC Yellow Book, 2026 edition. Last updated May 19, 2026. CDC Yellow Book",
+   "url": "https://www.cdc.gov/yellow-book/hcp/travelers-with-additional-considerations/travelers-with-chronic-illnesses.html",
+   "version_or_date": "CDC Yellow Book 2026 edition; last updated May 19, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Clinician letter outlining conditions, medications with generic names and doses, allergies; medication for whole trip plus extra",
+     "verdict": "supported",
+     "quote": "outline existing medical conditions, medications prescribed (including generic names and doses), allergies ... medications for the entire trip plus extra in case of unexpected delays",
+     "quote_source": "official_page"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "kind": "agency_page",
+   "cited_as": "Transportation Security Administration. Can you pack your meds in a pill case? And more questions answered. TSA.gov",
+   "url": "https://tsa.gov/travel/travel-tips/can-you-pack-your-meds-pill-case-and-more-questions-answered",
+   "version_or_date": "Page undated; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source for the corrected labeling statement.",
+   "claims": [
+    {
+     "text": "TSA does not require prescription bottles; states have their own prescription labeling laws (text, table, FAQ)",
+     "verdict": "supported",
+     "quote": "TSA does not require passengers to have medications in prescription bottles, but states have individual laws regarding the labeling of prescription medication with which passengers need to comply.",
+     "quote_source": "official_page"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "kind": "agency_page",
+   "cited_as": "U.S. Department of Health and Human Services. Licensure compacts. Telehealth.HHS.gov. Last updated December 10, 2025. telehealth.hhs.gov",
+   "url": "https://www.telehealth.hhs.gov/licensure/licensure-compacts",
+   "version_or_date": "Last updated December 10, 2025",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source for the IMLC statement and the patient-location rule.",
+   "claims": [
+    {
+     "text": "Telehealth appointment takes place in the state where the patient is located at the time of the appointment (text, myths)",
+     "verdict": "supported",
+     "quote": "A telehealth appointment occurs in the state where the patient is located at the time of the appointment.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "IMLC authorizes physicians to practice medicine in multiple states",
+     "verdict": "supported",
+     "quote": "The IMLC authorizes physicians to practice medicine in multiple states.",
+     "quote_source": "official_page"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "kind": "other_web",
+   "cited_as": "Code of Federal Regulations. 42 CFR 435.403, State residence. eCFR, up to date as of June 10, 2026. eCFR",
+   "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-C/part-435/subpart-E/section-435.403",
+   "version_or_date": "eCFR up to date as of 6/10/2026",
+   "retrieved_with": "WebFetch of eCFR official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source for the Medicaid residency statement.",
+   "claims": [
+    {
+     "text": "Medicaid provided by each state to eligible residents, including residents absent from the state",
+     "verdict": "supported",
+     "quote": "eligible residents of the State, including residents who are absent from the State",
+     "quote_source": "official_page"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "kind": "agency_page",
+   "cited_as": "National Institute of Diabetes and Digestive and Kidney Diseases. Kidney Infection (Pyelonephritis). Last reviewed October 2024. NIDDK",
+   "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-infection-pyelonephritis",
+   "version_or_date": "Last Reviewed October 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source; replaces ref 1 (Gupta) for the kidney-infection warning signs, which the guideline text read did not state.",
+   "claims": [
+    {
+     "text": "Kidney infection often begins in the bladder; fever or pain in back or side can be signs (UTI section, red flags)",
+     "verdict": "supported",
+     "quote": "often begins in your bladder and moves into one or both of your kidneys ... fever; pain in your back, side, or groin; and painful urination",
+     "quote_source": "official_page"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "kind": "agency_page",
+   "cited_as": "National Center for Complementary and Integrative Health. Cranberry. Last updated November 2024. NCCIH",
+   "url": "https://nccih.nih.gov/health/cranberry",
+   "version_or_date": "Last updated November 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source; replaces ref 1 for the cranberry myth.",
+   "claims": [
+    {
+     "text": "Cranberry may help prevent symptomatic UTIs in some women but is not recommended to treat an existing UTI and should not replace proven treatment",
+     "verdict": "supported",
+     "quote": "isn't recommended as a treatment for existing UTIs in any population ... Don't use cranberry products instead of a proven treatment for a UTI.",
+     "quote_source": "official_page"
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus, National Library of Medicine. Recognizing medical emergencies. Review date January 8, 2025. MedlinePlus",
+   "url": "https://medlineplus.gov/ency/article/001927.htm",
+   "version_or_date": "Review date 1/8/2025",
+   "retrieved_with": "WebFetch of official page (the fetch tool returned exact phrases only, citing page copyright)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source for red flags. Animal bite and blood in the stool are not on this page; those parts are logged as partly supported and the wording was kept, not softened.",
+   "claims": [
+    {
+     "text": "Red flags intro: go to ER or call 911",
+     "verdict": "supported",
+     "quote": "You can also call 911 or the local emergency number",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Chest pain or pressure red flag (red flags, decision table)",
+     "verdict": "supported",
+     "quote": "Chest pain or discomfort lasting for two minutes or more",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Difficulty breathing red flag",
+     "verdict": "supported",
+     "quote": "Breathing problems (difficulty breathing, shortness of breath)",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Severe abdominal pain, vomiting blood (blood in stool not on page)",
+     "verdict": "partly_supported",
+     "quote": "Severe abdominal pain or pressure ... Coughing up or vomiting blood",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Wound that will not stop bleeding (animal bite not on page)",
+     "verdict": "partly_supported",
+     "quote": "Bleeding that will not stop",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Head injury with loss of consciousness, confusion, or repeated vomiting",
+     "verdict": "supported",
+     "quote": "Head or spine injury",
+     "quote_source": "official_page"
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. Signs and Symptoms of Stroke. Last updated May 19, 2026. CDC Stroke",
+   "url": "https://cdc.gov/stroke/signs-symptoms/index.html",
+   "version_or_date": "Last updated May 19, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Sudden one-sided weakness or numbness, trouble speaking: emergency (red flags, decision table)",
+     "verdict": "supported",
+     "quote": "Sudden numbness or weakness in the face, arm, or leg, especially on one side of the body. ... Call 9-1-1 right away if you or someone else has any of these symptoms.",
+     "quote_source": "official_page"
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. About Meningitis. Last updated September 9, 2025. CDC Meningitis",
+   "url": "https://www.cdc.gov/meningitis/about/index.html",
+   "version_or_date": "Last updated September 9, 2025",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Fever with stiff neck (meningitis) is an emergency (red flags, decision table)",
+     "verdict": "supported",
+     "quote": "Be aware that bacterial meningitis is a medical emergency and should be treated as soon as possible. ... Anyone with symptoms of meningitis should see a healthcare provider right away.",
+     "quote_source": "official_page"
+    }
+   ]
+  }
+ ]
+}

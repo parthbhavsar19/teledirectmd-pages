@@ -1,0 +1,239 @@
+{
+  "stateCode": "CT",
+  "stateName": "Connecticut",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "urban",
+    "regulation": "strict",
+    "payerLandscape": "self-pay-only",
+    "epidemiology": [
+      "lyme-high",
+      "babesiosis",
+      "anaplasmosis",
+      "flu-northeast"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "northeast",
+    "voiceNotes": "Crisp New England voice. Connecticut's telehealth statute is detailed (consent after an explanation of limits, license number in every encounter, no schedule I to III controlled substances by telehealth), so state each requirement plainly. Lyme disease was first described here; use that history once, without making it the whole story. Inferred values: density and regulation are judgment calls."
+  },
+  "stateHero": {
+    "openingParagraph": "Connecticut's telehealth statute asks a lot of the physician, and that works in the patient's favor. Before your first video visit you hear how telehealth works and where its limits are, then you decide whether to consent, and every visit comes with the physician's license number and contact information. For adults 18 and older who are physically in Connecticut, from Bridgeport and New Haven to Hartford and Danbury, that physician is Parth Bhavsar, MD, board-certified in family medicine and licensed in Connecticut. TeleDirectMD is self-pay only here: a flat $79, paid at booking, with HSA and FSA cards accepted. Prescriptions, when appropriate, are sent electronically to your pharmacy.",
+    "conditionPageOpener": "Adults physically in Connecticut can see Parth Bhavsar, MD, a Connecticut-licensed physician, by video. Flat $79 self-pay, paid at booking, no insurance billing. Prescriptions, when appropriate, go electronically to the pharmacy you choose.",
+    "stateContextHint": "Connecticut-licensed physician. Video visits for adults located in Connecticut, with the consent and disclosure steps state law requires. Flat $79 self-pay.",
+    "saturation": {
+      "stateNameMentions": 4,
+      "stateEntityMentions": 3
+    }
+  },
+  "stateEligibility": {
+    "intro": "Connecticut General Statutes Section 19a-906 defines telehealth as delivering care through information and communication technologies for diagnosis, consultation and treatment, and it excludes fax, texting and email. TeleDirectMD uses real-time video for adults 18 and older who are in Connecticut during the visit. The statute also requires the physician to have access to or knowledge of your medical history as you provide it, so come ready to share your conditions, medicines and allergies.",
+    "localTriggers": [
+      "Be physically in Connecticut during the video visit. A commuter who is in New York or Massachusetts at visit time is not covered by the Connecticut license.",
+      "At your first visit, you will be told how telehealth treatment works and its limits, and asked for consent, as Connecticut law requires.",
+      "Connecticut bars telehealth prescribing of schedule I, II and III controlled substances except in narrow cases, and TeleDirectMD does not prescribe any controlled substances.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "There is one price for a Connecticut visit: a flat $79, shown before you book and paid at booking. TeleDirectMD does not bill any insurer in Connecticut, and HSA and FSA cards are accepted. Medicine is paid at the pharmacy. For coverage, Access Health CT is the state's official health insurance marketplace, and it can also help eligible residents enroll in HUSKY Health, Connecticut's Medicaid program, or the Covered CT Program. TeleDirectMD does not take HUSKY Health.",
+    "additionalNotes": [
+      "$79 flat self-pay, the full visit fee.",
+      "HSA and FSA cards accepted at booking.",
+      "No insurance billing in Connecticut."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "When a prescription is appropriate after a Connecticut visit, TeleDirectMD sends it electronically to the pharmacy you choose. Connecticut pharmacists can also prescribe a short list of medicines on their own, including emergency hormonal contraception, epinephrine auto-injectors, insulin and glucagon products, naloxone and vaccines, according to the state Department of Consumer Protection. Controlled substances are a firm line in Connecticut telehealth: Section 19a-906 prohibits prescribing schedule I, II or III controlled substances by telehealth except in narrow cases, and TeleDirectMD does not prescribe controlled substances at all.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "Connecticut is where Lyme disease entered medical history: in 1975 a cluster of children and adults around Lyme, Connecticut, developed unusual arthritis, and the state made Lyme disease reportable in 1987. The black-legged tick spreads it here, and the Department of Public Health has averaged 2,718 reported Lyme cases a year since 1995. Its 2024 statistics list 2,170 Lyme cases, 127 babesiosis and 103 anaplasmosis, along with 12,147 chlamydia infections and 29,270 influenza reports. The department says flu activity generally starts as early as October and November and can run through late May. This context is for awareness and does not replace an individual evaluation.",
+    "citations": [
+      {
+        "label": "Connecticut General Statutes Section 19a-906 (Telehealth services), Chapter 368ll",
+        "url": "https://www.cga.ct.gov/current/pub/chap_368ll.htm",
+        "scope": "all"
+      },
+      {
+        "label": "Connecticut Department of Consumer Protection, Prescribing for Pharmacists",
+        "url": "https://portal.ct.gov/dcp/knowledge-base/articles/drug-control/pharmacy/prescribing-for-pharmacists",
+        "scope": "all"
+      },
+      {
+        "label": "CMS, States by Marketplace Type for Plan Year 2027",
+        "url": "https://www.cms.gov/marketplace/in-person-assisters/training-webinars/training/marketplaces-map",
+        "scope": "all"
+      },
+      {
+        "label": "Access Health CT",
+        "url": "https://www.accesshealthct.com/",
+        "scope": "all"
+      },
+      {
+        "label": "U.S. Census Bureau, Vintage 2025 state population estimates (NST-EST2025-ALLDATA)",
+        "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv",
+        "scope": "hub"
+      },
+      {
+        "label": "Connecticut Department of Public Health, Lyme Disease",
+        "url": "https://portal.ct.gov/dph/epidemiology-and-emerging-infections/lyme-disease",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Connecticut Department of Public Health, A Brief History of Lyme Disease in Connecticut",
+        "url": "https://portal.ct.gov/DPH/Epidemiology-and-Emerging-Infections/A-Brief-History-of-Lyme-Disease-in-Connecticut",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Connecticut Department of Public Health, Total Reported Cases by Disease, Connecticut, 2024",
+        "url": "https://portal.ct.gov/dph/-/media/dph/infectious-diseases-branch/statistics/id-stats-2024.pdf?rev=03a2ccdb8aec4fcd985c7f09fe272174&hash=6B25A93CF76D33034E0CEDEC70B0CA1A",
+        "conditions": [
+          "tick-bite-treatment-online",
+          "chlamydia-treatment-online",
+          "doxypep-sti-prevention-online",
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "CDC, Legal Status of Expedited Partner Therapy in Connecticut (Conn. Gen. Stat. 20-14e(e))",
+        "url": "https://www.cdc.gov/sti/php/ept-legal-status/connecticut.html",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "Connecticut Department of Public Health, Rabies",
+        "url": "https://portal.ct.gov/dph/epidemiology-and-emerging-infections/rabies",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Connecticut Department of Public Health, Influenza Surveillance and Statistics",
+        "url": "https://portal.ct.gov/dph/epidemiology-and-emerging-infections/influenza-surveillance-and-statistics",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds a Connecticut medical license, listed under the Connecticut Medical Examining Board. Anyone can confirm the license through the state's eLicense lookup. Connecticut law (General Statutes Section 19a-906) requires a telehealth provider to give each patient the provider's license number and contact information and to meet the standard of care expected for in-person care. NPI: 1104323203.",
+    "verifyUrl": "https://www.elicense.ct.gov/lookup/licenselookup.aspx",
+    "statuteCitation": "Connecticut General Statutes Section 19a-906 (telehealth services)",
+    "licenseNumber": "083935",
+    "boardName": "Connecticut Medical Examining Board",
+    "boardUrl": "https://portal.ct.gov/dph/practitioner-licensing--investigations/physician/physician-licensure"
+  },
+  "stateCities": {
+    "metroAndRural": "Connecticut had 3,688,496 residents on July 1, 2025, by the Census Bureau's estimate, and TeleDirectMD sees adults located anywhere in the state. That includes Bridgeport, Stamford, Norwalk, Danbury and Greenwich in Fairfield County, New Haven and Waterbury, and Hartford, New Britain and Bristol in the Hartford area. Being in Connecticut during the visit is what matters, so a New York commuter is covered while at home or at work in Connecticut, not while across the line.",
+    "cityList": [
+      {
+        "city": "Bridgeport"
+      },
+      {
+        "city": "New Haven"
+      },
+      {
+        "city": "Stamford"
+      },
+      {
+        "city": "Hartford"
+      },
+      {
+        "city": "Waterbury"
+      },
+      {
+        "city": "Norwalk"
+      },
+      {
+        "city": "Danbury"
+      },
+      {
+        "city": "New Britain"
+      },
+      {
+        "city": "Greenwich"
+      },
+      {
+        "city": "Bristol"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "self-pay-only",
+    "selfPayDisclosure": "TeleDirectMD is self-pay only in Connecticut. It does not bill commercial insurance, HUSKY Health, other Medicaid plans or Medicare for Connecticut visits. Every visit is a flat $79, paid at booking, and HSA and FSA cards are accepted. If you have insurance, you can still choose a $79 visit and ask your plan about out-of-network reimbursement; TeleDirectMD does not file claims and cannot promise reimbursement. To shop for coverage, Access Health CT is Connecticut's official marketplace.",
+    "payers": []
+  },
+  "stateFaqs": [
+    {
+      "question": "What does Connecticut law require before a video visit?",
+      "answer": "At the first telehealth interaction, Connecticut General Statutes Section 19a-906 requires the provider to explain the treatment methods and limitations of telehealth and then get your consent. In every telehealth encounter the provider must give you a license number and contact information. Dr. Bhavsar follows these steps for patients located in Connecticut."
+    },
+    {
+      "question": "Does TeleDirectMD take insurance or HUSKY in Connecticut?",
+      "answer": "No. TeleDirectMD is self-pay only in Connecticut: a flat $79 per visit, paid at booking, with HSA and FSA cards accepted. It does not bill commercial plans, HUSKY Health or Medicare here. Access Health CT, the state's official marketplace, can help you compare plans or enroll in HUSKY Health or the Covered CT Program if you qualify."
+    },
+    {
+      "question": "Can I get a controlled substance through a Connecticut video visit?",
+      "answer": "Not from TeleDirectMD, which does not prescribe controlled substances in any state. Connecticut law also prohibits telehealth providers from prescribing schedule I, II or III controlled substances by telehealth, apart from a narrow exception for certain schedule II or III medicines used in medication-assisted treatment or for psychiatric disabilities or substance use disorders. Those needs are best met with an in-person physician."
+    },
+    {
+      "question": "Can my partner be treated too if I test positive for chlamydia in Connecticut?",
+      "answer": "Possibly. Expedited partner therapy has been permissible in Connecticut since August 10, 2011. Under Connecticut General Statutes Section 20-14e(e), a prescriber who diagnoses chlamydia or gonorrhea may prescribe oral antibiotics for the patient's sex partners without examining them. Whether it fits your situation is decided during the visit, and partners with symptoms should still be seen."
+    },
+    {
+      "question": "How can I check Dr. Bhavsar's Connecticut license?",
+      "answer": "Parth Bhavsar, MD holds a Connecticut medical license, listed under the Connecticut Medical Examining Board. You can look it up on the state's eLicense website by name or license number. His National Provider Identifier is 1104323203, and he is board-certified in family medicine by the American Board of Family Medicine."
+    }
+  ],
+  "conditionOverrides": {
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "Tick bites are a serious matter in the state where Lyme disease was first recognized. The Connecticut Department of Public Health says the black-legged tick spreads Lyme here, and its 2024 statistics list 2,170 Lyme disease cases plus 127 babesiosis and 103 anaplasmosis cases. If you pulled off a tick in the past 72 hours, a video visit for adults physically in Connecticut can review a photo of the tick, how long it was attached and where you were, decide whether a single preventive antibiotic dose is appropriate, and tell you which rash or fever to watch for. Flat $79."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "Connecticut's Department of Public Health recorded 12,147 chlamydia infections in 2024. If you have a positive chlamydia test from a clinic, lab or health department, a video visit for adults physically in Connecticut can review the result, prescribe treatment when appropriate and plan retesting. Connecticut has allowed expedited partner therapy since August 10, 2011: under General Statutes Section 20-14e(e), a prescriber who diagnoses chlamydia may prescribe oral antibiotics for a patient's partners without examining them. Whether that fits your situation is decided during the visit. TeleDirectMD cannot test you. Flat $79, discreet."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "Connecticut's 2024 infectious disease statistics list 97 primary and 194 secondary syphilis cases alongside 12,147 chlamydia infections. Doxycycline post-exposure prophylaxis, taken within 72 hours after condomless sex, lowers the risk of syphilis, gonorrhea and chlamydia for gay and bisexual men and transgender women who meet the criteria. A video visit for adults physically in Connecticut reviews whether you qualify, possible side effects and the testing schedule that goes with it. It is not for active symptoms, pregnancy or cisgender women. Flat $79."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "Connecticut's Department of Public Health counted 29,270 influenza reports in 2024 and says flu activity generally begins as early as October and November and can continue through late May. Antiviral treatment helps most when started within 48 hours of the first symptoms, especially for adults at higher risk of complications. A video visit for adults physically in Connecticut can decide whether an antiviral is appropriate and send it electronically to your pharmacy. Trouble breathing, chest pain, confusion or being unable to keep fluids down needs 911 or an emergency department, not a video visit. Flat $79."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "Connecticut splits animal bite follow-up among several agencies: the Department of Public Health points residents to their local health department to judge rabies risk, to the state Animal Control Division for domestic animal biting incidents, quarantine and vaccination, and to the DEEP Wildlife Division for wildlife bites. Knowing who owns the cat matters for that follow-up. A video visit for adults physically in Connecticut covers bites from a known domestic cat: cleaning and watching the wound, antibiotics when appropriate and whether the rabies question needs in-person attention. A swollen hand, deep punctures or a bite from a stray or wild animal needs in-person care. Flat $79."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "In Connecticut, domestic animal biting incidents, animal quarantine and animal vaccination go through the state's Animal Control Division, while local health departments help evaluate rabies risk, according to the Department of Public Health. For adults physically in Connecticut bitten by a known domestic dog, a video visit can review clear photos of the wound, decide whether antibiotics are needed and talk through what the dog's vaccination status means. A wound that exposes tendon or bone, a facial cut that may need repair, a hand that will not move normally or a bite from an unknown dog needs in-person care. Flat $79."
+    }
+  },
+  "relatedLinks": [],
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Connecticut General Statutes Section 19a-906(b) (telehealth services)",
+        "renderAt": "hero-credential",
+        "content": "Connecticut law requires a telehealth provider to give the patient the provider's license number and contact information, and at the first telehealth interaction to explain the treatment methods and limitations of telehealth before obtaining the patient's consent. Parth Bhavsar, MD, Connecticut medical license 083935. TeleDirectMD sees patients by real-time video under the standard of care expected for in-person care."
+      },
+      {
+        "statute": "Connecticut General Statutes Section 19a-906(c) (controlled substances)",
+        "renderAt": "footer",
+        "content": "Connecticut prohibits telehealth providers from prescribing schedule I, II or III controlled substances through telehealth, except in narrow circumstances. TeleDirectMD does not prescribe controlled substances. Other prescriptions, when appropriate, are sent electronically to the pharmacy the patient chooses."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

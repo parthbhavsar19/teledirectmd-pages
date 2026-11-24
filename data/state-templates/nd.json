@@ -1,0 +1,323 @@
+{
+  "stateCode": "ND",
+  "stateName": "North Dakota",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "rural",
+    "regulation": "standard",
+    "payerLandscape": "self-pay-only",
+    "epidemiology": [
+      "tick-dog-tick-dominant",
+      "lyme-low-rising",
+      "rabies-skunk",
+      "syphilis-rising"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "midwest",
+    "voiceNotes": "Direct and practical. North Dakota's telemedicine statute is unusually explicit about what counts as an exam (video yes, questionnaire or audio-only no), so lead with that. The 2025-2026 pharmacist prescribing law is a real local alternative for flu, strep, COVID-19 and cold sores; present it neutrally. Low population density (11.3 per square mile) and high broadband coverage frame the access story."
+  },
+  "stateHero": {
+    "openingParagraph": "North Dakota law treats a video visit as the practice of medicine and holds it to the same standard of care and ethics as an office visit (NDCC 43-17-44). Adults 18 and older who are physically in North Dakota during the visit can see Parth Bhavsar, MD, a board-certified family medicine physician licensed in North Dakota, by secure live video. The statute is specific that a static online questionnaire or an audio-only conversation does not meet the standard for an exam, so every TeleDirectMD visit is real-time video, whether you are in Fargo, Bismarck, Williston or Devils Lake. The fee is a flat $79, paid at booking, HSA and FSA cards accepted, and prescriptions go electronically to the pharmacy you choose.",
+    "conditionPageOpener": "Parth Bhavsar, MD (licensed in North Dakota, board-certified in family medicine) sees adults who are in North Dakota at the time of the visit, by live video, for a flat $79 paid when you book. If a prescription is appropriate, it is sent electronically to a North Dakota pharmacy of your choosing.",
+    "stateContextHint": "North Dakota-licensed physician. Live video visits that meet the state's telemedicine exam standard (NDCC 43-17-44), for adults located in North Dakota. Flat $79 self-pay.",
+    "saturation": {
+      "stateNameMentions": 3,
+      "stateEntityMentions": 4
+    }
+  },
+  "stateEligibility": {
+    "intro": "To book, you need to be 18 or older and physically in North Dakota when the video visit starts. North Dakota's telemedicine statute requires the physician to verify each patient's identity and to establish a bona fide relationship before diagnosing or treating (NDCC 43-17-44), so expect to confirm who you are, and where you are, at the start. A North Dakotan traveling on visit day can be seen only from a state TeleDirectMD serves. The same statute expects a telemedicine physician to be able to refer patients who need emergency or in-person care, and TeleDirectMD does so when video is not enough.",
+    "localTriggers": [
+      "North Dakota requires the telemedicine physician to verify your identity and to disclose their own identity and licensure status in a way you can check (NDCC 43-17-44(2)).",
+      "A first exam must be equivalent to an in-person one. Secure videoconferencing can meet that standard; a static online questionnaire or an audio-only call does not (NDCC 43-17-44(3)).",
+      "Opioids cannot be prescribed through a telemedicine encounter in North Dakota except as FDA-approved treatment for opioid use disorder (N.D. Admin. Code 50-02-15-02). TeleDirectMD does not prescribe any controlled substances.",
+      "Adults 18 and older who are physically in North Dakota during the visit."
+    ]
+  },
+  "statePricing": {
+    "context": "A visit for a patient located in North Dakota is a flat $79, paid at booking, and HSA and FSA cards are accepted. TeleDirectMD does not bill insurance or Medicaid in North Dakota, and any prescription is paid for at the pharmacy. For coverage questions, North Dakota Health and Human Services runs Medicaid Expansion for adults 19 to 64 with household income up to 138% of the federal poverty level, and it points people who do not qualify to the federal Health Insurance Marketplace at HealthCare.gov. The Census Bureau estimates that 9.5% of North Dakotans under 65 have no health insurance.",
+    "additionalNotes": [
+      "$79 flat self-pay, the full visit fee.",
+      "HSA and FSA cards accepted at booking.",
+      "No insurance or Medicaid billing in North Dakota."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "Dr. Bhavsar sends prescriptions electronically to the North Dakota pharmacy you name. North Dakota pharmacists also have a prescribing lane of their own under NDCC 43-15-31.6: they may prescribe for influenza, group A strep throat and COVID-19 after a positive CLIA-waived test, and for cold sores, lice and motion sickness, and they must notify your primary care provider within three business days. That can be useful if you want an in-person swab. On controlled substances, North Dakota's telemedicine rule (N.D. Admin. Code 50-02-15-02) bars opioid prescribing through telemedicine except for FDA-approved opioid use disorder treatment, and any licensee who prescribes a controlled substance must take part in the North Dakota prescription drug monitoring program, which the Board of Pharmacy runs under NDCC chapter 19-03.5. TeleDirectMD does not prescribe controlled substances in North Dakota or anywhere else.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "Two ticks account for most bites in North Dakota, the American dog tick and the blacklegged (deer) tick, and the state Department of Health and Human Services reported 37 Lyme disease cases in 2025, double the count for 2024 and for 2023. Rabies stays on the list because skunks are the state's primary reservoir, and a physician who learns of a bite or scratch from an animal infected with or suspected of having rabies must report it within 48 hours (N.D. Admin. Code 33-06-04-06). For STIs, CDC's 2023 tables put North Dakota's chlamydia rate at 436.4 per 100,000, below the national 492.2, while state data show total syphilis cases rising from 91 in 2020 to 373 in 2024. These figures are context and do not replace an individual evaluation.",
+    "citations": [
+      {
+        "label": "North Dakota Century Code chapter 43-17 (Physicians and Surgeons), including 43-17-01 definitions, 43-17-03 board of medicine and 43-17-44 telemedicine",
+        "url": "https://ndlegis.gov/cencode/t43c17.pdf",
+        "scope": "all"
+      },
+      {
+        "label": "North Dakota Administrative Code chapter 50-02-15, Telemedicine",
+        "url": "https://ndlegis.gov/prod/acdata/pdf/50-02-15.pdf",
+        "scope": "all"
+      },
+      {
+        "label": "North Dakota Century Code chapter 43-15, Pharmacists (43-15-31.6 prescriptive authority)",
+        "url": "https://ndlegis.gov/cencode/t43c15.pdf",
+        "conditions": [
+          "influenza-treatment-online",
+          "covid-19-treatment-online",
+          "sore-throat-treatment-online",
+          "cold-sore-treatment-online",
+          "motion-sickness-treatment-online"
+        ]
+      },
+      {
+        "label": "North Dakota Board of Pharmacy, Prescription Drug Monitoring Program",
+        "url": "https://www.nodakpharmacy.com/PDMP-index.asp"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, North Dakota (Vintage 2025)",
+        "url": "https://www.census.gov/quickfacts/fact/table/ND/PST045225"
+      },
+      {
+        "label": "U.S. Census Bureau, Vintage 2025 state population estimates (NST-EST2025)",
+        "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-POPCHG2020-2025.csv"
+      },
+      {
+        "label": "North Dakota Health and Human Services, Medicaid Expansion",
+        "url": "https://www.hhs.nd.gov/healthcare/medicaid-expansion",
+        "scope": "all"
+      },
+      {
+        "label": "North Dakota Administrative Code 33-06-04, Control of Specific Diseases (33-06-04-06 rabies reporting)",
+        "url": "https://ndlegis.gov/information/acdata/pdf/33-06-04.pdf",
+        "conditions": [
+          "dog-bite-treatment-online",
+          "cat-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "North Dakota Administrative Code 33-06-01, Reportable Conditions",
+        "url": "https://ndlegis.gov/prod/acdata/pdf/33-06-01.pdf"
+      },
+      {
+        "label": "North Dakota Health and Human Services, Rabies FAQs",
+        "url": "https://www.hhs.nd.gov/health/diseases-conditions-and-immunization/rabies/rabies-faqs",
+        "conditions": [
+          "dog-bite-treatment-online",
+          "cat-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "North Dakota Health and Human Services, Diseases That Can Be Transmitted By Ticks",
+        "url": "https://www.hhs.nd.gov/health/diseases-conditions-and-immunization/tickborne/diseases-can-be-transmitted-ticks",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "North Dakota Health and Human Services, Preventing ticks and tickborne diseases (May 4, 2026)",
+        "url": "https://www.hhs.nd.gov/news/preventing-ticks-and-tickborne-diseases-spring-and-summer",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "North Dakota Health and Human Services, Tick Removal",
+        "url": "https://www.hhs.nd.gov/health/diseases-conditions-and-immunization/tickborne/tick-removal",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "CDC, Chlamydia, Gonorrhea and Primary and Secondary Syphilis reported cases and rates by state, ranked, 2023",
+        "url": "https://cdc.gov/sti-statistics/media/pdfs/2024/10/2023-STD-Surveillance-State-Ranking-Tables.pdf",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "North Dakota Health and Human Services, North Dakota STI Data (Sexually Transmitted and Bloodborne Diseases Unit)",
+        "url": "https://www.hhs.nd.gov/sites/default/files/documents/DOH%20Legacy/HIV/11_NDData_Exclusion.pdf",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "CDC, Legal Status of EPT in North Dakota",
+        "url": "https://www.cdc.gov/sti/php/ept-legal-status/north-dakota.html",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "North Dakota Administrative Code 61-04-04 (61-04-04-01(21) expedited partner therapy)",
+        "url": "https://ndlegis.gov/information/acdata/pdf/61-04-04.pdf",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "North Dakota Health and Human Services, Exposure to Blood and Body Fluids Factsheet",
+        "url": "https://www.hhs.nd.gov/exposure-blood-and-body-fluids-factsheet",
+        "conditions": [
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "North Dakota Health and Human Services, respiratory season news release (October 15, 2026)",
+        "url": "https://www.hhs.nd.gov/news/north-dakota-health-and-human-services-encourages-residents-stay-healthy-respiratory-season",
+        "conditions": [
+          "influenza-treatment-online",
+          "covid-19-treatment-online"
+        ]
+      },
+      {
+        "label": "North Dakota Health and Human Services, Enroll in NDQuits",
+        "url": "https://www.hhs.nd.gov/health/health-promotion-chronic-disease-prevention/enroll-ndquits",
+        "conditions": [
+          "smoking-cessation-treatment-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine, holds a North Dakota medical license issued by the North Dakota State Board of Medical Examiners. North Dakota Century Code 43-17-03 names the licensing body the North Dakota Board of Medicine, with fifteen members appointed by the governor, and the state's telemedicine statute (NDCC 43-17-44) requires a physician to disclose their licensure status in a way patients can verify. You can confirm this license through the board's online verification page. NPI: 1104323203.",
+    "verifyUrl": "https://www.ndbom.org/public/find_verify/verify.asp",
+    "statuteCitation": "North Dakota Century Code 43-17-44 (telemedicine standard of care) and 43-17-03 (North Dakota Board of Medicine); N.D. Admin. Code chapter 50-02-15 (telemedicine)",
+    "licenseNumber": "24087",
+    "boardName": "North Dakota State Board of Medical Examiners",
+    "boardUrl": "https://www.ndbom.org/"
+  },
+  "stateCities": {
+    "metroAndRural": "North Dakota's 799,358 residents (U.S. Census Bureau, July 1, 2025) live across 68,995.86 square miles of land, about 11.3 people per square mile in 2020. TeleDirectMD sees adults in Fargo, Bismarck, Grand Forks, Minot, West Fargo, Williston, Dickinson, Mandan, Jamestown, Wahpeton, Devils Lake and Valley City, and in the towns and farm country between them, with the same physician and the same flat $79. A video visit needs a working connection; the Census Bureau counts 88.7% of North Dakota households with a broadband subscription (2020 to 2024).",
+    "cityList": [
+      {
+        "city": "Fargo"
+      },
+      {
+        "city": "Bismarck"
+      },
+      {
+        "city": "Grand Forks"
+      },
+      {
+        "city": "Minot"
+      },
+      {
+        "city": "West Fargo"
+      },
+      {
+        "city": "Williston"
+      },
+      {
+        "city": "Dickinson"
+      },
+      {
+        "city": "Mandan"
+      },
+      {
+        "city": "Jamestown"
+      },
+      {
+        "city": "Wahpeton"
+      },
+      {
+        "city": "Devils Lake"
+      },
+      {
+        "city": "Valley City"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "self-pay-only",
+    "selfPayDisclosure": "In North Dakota, TeleDirectMD is self-pay only and files no claims with commercial plans, Medicare or North Dakota Medicaid. A visit is $79 flat, paid at booking, and HSA or FSA cards are accepted. If you carry a health plan, you can ask it about out-of-network reimbursement, but TeleDirectMD cannot promise reimbursement. Questions about Medicaid Expansion go to North Dakota Health and Human Services, and individual marketplace plans for North Dakota are sold through HealthCare.gov.",
+    "payers": []
+  },
+  "stateFaqs": [
+    {
+      "question": "Is a video visit held to the same standard as an office visit in North Dakota?",
+      "answer": "Yes. NDCC 43-17-44 holds a physician practicing telemedicine to the same standard of care and ethical standards as in-person medicine. Before a first diagnosis, an exam equivalent to an in-person one is required; secure videoconferencing can meet that bar, while a static online questionnaire or an audio-only call does not. TeleDirectMD visits are live video, and Dr. Bhavsar decides during the visit whether a prescription is appropriate."
+    },
+    {
+      "question": "How can I check Dr. Bhavsar's North Dakota license?",
+      "answer": "Parth Bhavsar, MD holds a North Dakota medical license. North Dakota's telemedicine statute requires a physician to disclose their licensure status and make sure you can verify it (NDCC 43-17-44), and you can look up the license on the North Dakota Board of Medicine's online verification page. His National Provider Identifier is 1104323203."
+    },
+    {
+      "question": "Can a North Dakota pharmacist treat my flu, strep or COVID-19 instead?",
+      "answer": "Possibly. NDCC 43-15-31.6 lets a North Dakota pharmacist prescribe for influenza, group A strep throat and COVID-19 when a symptomatic patient first tests positive on a CLIA-waived test, and the pharmacist must notify your primary care provider within three business days. A TeleDirectMD video visit is a separate option that does not require a pharmacy test first; Dr. Bhavsar decides whether treatment is appropriate."
+    },
+    {
+      "question": "Does TeleDirectMD take insurance or North Dakota Medicaid?",
+      "answer": "No. TeleDirectMD is self-pay only in North Dakota: a flat $79 per visit, paid at booking, with HSA and FSA cards accepted. It does not bill commercial plans, Medicare or North Dakota Medicaid. North Dakota Health and Human Services offers Medicaid Expansion to adults 19 to 64 with household income up to 138% of the federal poverty level and refers others to HealthCare.gov."
+    },
+    {
+      "question": "If an animal bites me in North Dakota, does the doctor have to report it?",
+      "answer": "Sometimes. Under N.D. Admin. Code 33-06-04-06, a physician who knows a person was bitten, scratched or exposed by a dog, other domestic animal or wild mammal infected with or suspected of having rabies must report it to the state health department within 48 hours; dog and cat bites may instead go to local law enforcement where a standing order exists. Skunk bites count as rabies exposures until testing says otherwise, and they need in-person care."
+    },
+    {
+      "question": "I'm in North Dakota for work. Can I use TeleDirectMD?",
+      "answer": "Yes, if you are an adult physically in North Dakota during the visit. Because Dr. Bhavsar holds a full North Dakota license, his visits do not depend on the narrow exceptions in N.D. Admin. Code 50-02-15-03, which mainly let physicians licensed elsewhere continue care for established patients and send new problems back to their home state or to a North Dakota-licensed provider. The fee is the same flat $79."
+    }
+  ],
+  "conditionOverrides": {
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "North Dakota reported 37 Lyme disease cases in 2025, double the count for 2024 and for 2023, and the state Department of Health and Human Services says ticks that carry it are found statewide. Its 2025 tick surveillance logged 616 American dog ticks and one deer tick from April through July, and the department ties the dog tick to Rocky Mountain spotted fever and tularemia. It also notes that Lyme risk is very low when a tick was attached for under 36 hours. A video visit can review a photo of the removed tick and the bite, how long it was attached and where you picked it up. An expanding rash, fever with severe headache, facial weakness or palpitations needs in-person care. Flat $79."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "In North Dakota, a physician who learns that someone was bitten or scratched by a dog, other domestic animal or wild mammal infected with or suspected of having rabies must report it to the state health department within 48 hours (N.D. Admin. Code 33-06-04-06). State rabies guidance treats any skunk bite as an exposure until testing says otherwise, because skunks are North Dakota's primary reservoir, and it asks that a healthy dog that bit someone be confined and observed for 10 days. A video visit fits a cleaned, superficial to moderate bite from a known domestic dog. Deep wounds, a hand bite with lost function, uncontrolled bleeding, or a bite from a stray or wild animal need in-person care. Flat $79."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "Rabies is the North Dakota question behind many cat bites. State health guidance says a healthy domestic cat that bites someone should be confined and watched for 10 days, and if it stays healthy, no rabies exposure occurred and the person bitten will not need rabies vaccination. If the cat cannot be found, the guidance is to speak with your physician, because preventive rabies treatment may be needed; the same goes for any contact with a bat. TeleDirectMD sees adults in North Dakota by video for a superficial to moderate bite from a known domestic cat within the past 24 hours. A hand bite with swelling or reduced finger movement, or a bite from a stray or wild animal, needs in-person care. Flat $79."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "CDC's 2023 state tables list 3,421 chlamydia cases in North Dakota, a rate of 436.4 per 100,000 that ranked 29th and sat below the U.S. rate of 492.2, and state surveillance shows the count falling to 3,023 in 2024. If you are an adult in North Dakota with a positive test, a video visit can review the result and send treatment to your pharmacy when appropriate; bring the result, since TeleDirectMD does not perform STI testing. A North Dakota pharmacy rule, N.D. Admin. Code 61-04-04-01(21), lets a practitioner prescribe antibiotics for a patient's sex partners without examining them, and whether that fits is decided during the visit. Pelvic pain with fever, severe testicular pain or pregnancy needs in-person care. Flat $79."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "Syphilis has climbed steeply in North Dakota. The state's STI surveillance unit counted 91 total syphilis cases in 2020 and 373 in 2024, and CDC's 2023 tables put the state's primary and secondary syphilis rate at 12.4 per 100,000. Doxycycline taken after sex (doxy-PEP) is one prevention option for adults who meet the criteria on this page, and a video visit can review your history and decide whether a prescription fits. It does not replace HIV prevention: North Dakota's health department says HIV post-exposure prophylaxis must start within 3 days, so a recent condom break calls for prompt in-person care. Active STI symptoms need testing first. Flat $79 for adults physically in North Dakota."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "North Dakota health officials opened the 2026 respiratory season by noting that 2025 brought four influenza-associated pediatric deaths, the state's first since 2016. For adults, the same October 2026 release asks anyone with flu symptoms to stay home, and the state's Vaccines for Adults program supplies flu vaccine to uninsured and underinsured adults. If you are already sick, a North Dakota pharmacist may prescribe flu treatment after a positive CLIA-waived test (NDCC 43-15-31.6). A video visit with Dr. Bhavsar is another route: ideally within 48 hours of symptoms, he decides whether an antiviral is appropriate and sends it to your pharmacy. Trouble breathing, chest pain or confusion needs emergency care. Flat $79."
+    },
+    "covid-19-treatment-online": {
+      "stateConditionParagraph": "North Dakota offers two routes to COVID-19 treatment outside a clinic. Under NDCC 43-15-31.6, a pharmacist may prescribe an FDA-approved drug for SARS-CoV-2 once a symptomatic patient tests positive on a CLIA-waived test, and must then notify the patient's primary care provider within three business days. A TeleDirectMD video visit is the other: an adult physically in North Dakota with a positive home test, or strong symptoms that began within the last 5 days, can be evaluated, and Dr. Bhavsar decides whether an antiviral fits and sends it electronically. The North Dakota Vaccines for Adults program supplies COVID-19 vaccine to uninsured and underinsured adults. Shortness of breath at rest or confusion needs emergency care. Flat $79."
+    },
+    "sore-throat-treatment-online": {
+      "stateConditionParagraph": "Strep throat is one of the infections a North Dakota pharmacist can now treat directly: NDCC 43-15-31.6 lets a pharmacist prescribe for group A streptococcal pharyngitis once a symptomatic patient tests positive on a CLIA-waived test. That route matters because a rapid strep swab cannot be done over video. A video visit with Dr. Bhavsar works differently. He weighs your symptoms and exam on camera, decides whether an antibiotic makes sense or whether an in-person swab is the better next step, and sends a prescription to your North Dakota pharmacy when appropriate. Drooling, trouble opening your mouth, a muffled voice or difficulty breathing needs emergency care. Flat $79 for adults physically in North Dakota."
+    },
+    "cold-sore-treatment-online": {
+      "stateConditionParagraph": "North Dakota lists cold sores, along with lice, motion sickness and hypoglycemia, among the conditions a pharmacist may prescribe for under NDCC 43-15-31.6(2), and the pharmacist must let your primary care provider know within three business days. For a familiar recurrence, the pharmacy counter may be enough. A video visit adds a physician's review when outbreaks come often, heal slowly, or you want to talk through suppressive therapy; Dr. Bhavsar can look at the lesion on camera, review your history and send an antiviral to your North Dakota pharmacy when appropriate. Blisters near the eye, vision changes, or widespread blisters on skin with eczema need in-person care. Flat $79."
+    },
+    "motion-sickness-treatment-online": {
+      "stateConditionParagraph": "Motion sickness, including its prevention, is on North Dakota's list of conditions a pharmacist may prescribe for (NDCC 43-15-31.6(2)), so a pharmacy is one option before a trip. A video visit suits adults whose medical history matters to the choice: Dr. Bhavsar reviews past reactions, other medicines and conditions such as glaucoma or urinary retention that can rule out some options, then sends a prescription to your North Dakota pharmacy if one fits. Dizziness or vertigo that happens when you are not moving, hearing loss, ringing in the ears or new neurological symptoms need in-person evaluation instead. Flat $79, for adults physically in North Dakota during the visit."
+    },
+    "smoking-cessation-treatment-online": {
+      "stateConditionParagraph": "North Dakota's free quit service, NDQuits, run by the Department of Health and Human Services, offers counseling and, for online enrollees who are uninsured or lack cessation coverage, a free two-month supply of nicotine patches, gum or lozenges; the line is 1-800-QUIT-NOW. A TeleDirectMD video visit can sit alongside it. Dr. Bhavsar reviews whether a prescription quit medicine fits your history, including seizures, recent heart events and pregnancy, and sends it to your North Dakota pharmacy when appropriate. A heart attack or stroke in the past two weeks, pregnancy, or thoughts of self-harm call for in-person or emergency care instead. Flat $79 for adults physically in North Dakota."
+    }
+  },
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "North Dakota Century Code § 43-17-44 (telemedicine standard of care and professional ethics)",
+        "renderAt": "hero-credential",
+        "content": "North Dakota holds a physician practicing telemedicine to the same standard of care and ethical standards as in-person medicine (NDCC 43-17-44). The physician must establish a bona fide relationship with the patient before diagnosis or treatment, verify the patient's identity, and disclose their own identity and licensure status in a way the patient can verify. An initial exam may be done entirely by telemedicine only if it is equivalent to an in-person exam; secure videoconferencing can meet that standard, while a static online questionnaire or audio-only conversation does not. TeleDirectMD sees patients located in North Dakota by real-time video with a North Dakota-licensed physician."
+      },
+      {
+        "statute": "N.D. Admin. Code § 50-02-15-02 (telemedicine prescribing)",
+        "renderAt": "footer",
+        "content": "Under N.D. Admin. Code 50-02-15-02, a licensee who has completed a qualifying telemedicine examination may prescribe according to professional judgment, but opioids may be prescribed through telemedicine only as FDA-approved treatment for opioid use disorder, and licensees who prescribe controlled substances must participate in the North Dakota prescription drug monitoring program. TeleDirectMD does not prescribe controlled substances, and prescriptions for North Dakota patients are sent electronically to the pharmacy the patient chooses."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

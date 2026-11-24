@@ -1,0 +1,346 @@
+{
+  "stateCode": "TX",
+  "stateName": "Texas",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "mid",
+    "regulation": "standard",
+    "payerLandscape": "multi-payer",
+    "epidemiology": [
+      "lyme-low-incidence",
+      "rabies-bats-skunks",
+      "rabies-reporting-statute",
+      "state-doxypep-guidance",
+      "sti-near-national-rate",
+      "uninsured-high"
+    ],
+    "boardStrictness": "strict",
+    "culturalRegister": "south",
+    "voiceNotes": "Direct and practical for a large, mixed audience. Texas statute spells out that a telemedicine relationship can be formed by synchronous audio and video under the in-person standard of care, so say that plainly. Keep the three in-network payers distinct from the $79 self-pay path, and never attach Medicare Advantage to UnitedHealthcare in Texas."
+  },
+  "stateHero": {
+    "openingParagraph": "Texas law says a valid practitioner-patient relationship can be formed through synchronous audiovisual interaction, as long as the physician meets the same standard of care that applies in person (Texas Occupations Code Sections 111.005 and 111.007). TeleDirectMD works that way: live video with Parth Bhavsar, MD, a board-certified family medicine physician licensed by the Texas Medical Board, for adults located anywhere in Texas, from Houston and El Paso to Lubbock and Laredo. TeleDirectMD is in-network in Texas with BCBS of Texas, UnitedHealthcare commercial plans and Curative. Without one of those plans, the visit is a flat $79, paid at booking, with HSA and FSA cards accepted.",
+    "conditionPageOpener": "Adults located in Texas can book a live video visit with Parth Bhavsar, MD, a board-certified family medicine physician licensed by the Texas Medical Board. In-network with BCBS of Texas, UnitedHealthcare commercial plans and Curative, or a flat $79 self-pay.",
+    "stateContextHint": "Licensed in Texas. Live video visits under Texas Occupations Code Chapter 111. BCBS of Texas, UnitedHealthcare commercial and Curative in-network, or $79.",
+    "saturation": {
+      "stateNameMentions": 0,
+      "stateEntityMentions": 0
+    }
+  },
+  "stateEligibility": {
+    "intro": "TeleDirectMD sees adults 18 and older who are in Texas when the video visit happens. Texas defines a telemedicine medical service as care delivered by a physician licensed in the state to a patient at a different physical location (Occupations Code Section 111.001), so the visit is tied to a Texas license and to your location in Texas. Section 111.005 recognizes a practitioner-patient relationship formed by synchronous audiovisual interaction, which is the only format TeleDirectMD uses. Texans who are out of state on visit day are seen only from Texas or another state TeleDirectMD serves.",
+    "localTriggers": [
+      "Be physically in Texas during the visit; Texas telemedicine law is built around a Texas-licensed physician treating a patient at another location.",
+      "Expect live audio and video. Texas Occupations Code Section 111.005 names synchronous audiovisual interaction as one way to establish the relationship.",
+      "The standard of care is the in-person standard (Section 111.007), so some problems will still need an in-person exam, test or imaging.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "Texas is one of the states where TeleDirectMD bills insurance in-network: BCBS of Texas and UnitedHealthcare commercial plans (not their Medicare Advantage plans) and Curative. If you are covered, your standard plan copay applies in place of the $79 self-pay fee, and benefits are verified before your appointment. Anyone else pays a flat $79 at booking, with HSA and FSA cards accepted, and prescription costs are paid at the pharmacy. Texas Medicaid is not accepted. Texas marketplace plans are sold through HealthCare.gov, where Texans made 4,172,233 plan selections for 2026 (CMS). For the 19.2 percent of Texans under 65 without health insurance (Census Bureau estimate), the $79 fee is shown before you book.",
+    "additionalNotes": [
+      "In-network: BCBS of Texas (commercial only), UnitedHealthcare (commercial only), Curative.",
+      "$79 flat self-pay for everyone else, HSA and FSA accepted.",
+      "Texas Medicaid and CHIP are not accepted."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "When a prescription is appropriate, Dr. Bhavsar sends it electronically to the Texas pharmacy you choose. Texas holds telemedicine prescribing to the in-person standard of care (Occupations Code Section 111.007), so the same history, exam findings and judgment apply as in a clinic. For controlled substances, Texas Health and Safety Code Section 481.0755 allows a written rather than electronic prescription only in listed exceptions, and Section 481.076 gives the Texas State Board of Pharmacy duties over official prescription information. TeleDirectMD does not prescribe controlled substances in Texas or any other state, so none of those prescriptions come from a TeleDirectMD visit.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "A few Texas-specific facts shape how common problems are handled. The Department of State Health Services calls Texas a low incidence state for Lyme disease, which matters when a physician weighs preventive antibiotics after a tick bite. Texas also treats rabies as a reporting matter: under the Rabies Control Act of 1981 (Health and Safety Code Section 826.041), anyone who knows of an animal bite or scratch that could transmit rabies must report it to the local rabies control authority. Chlamydia is common across the state, with 150,056 cases reported in Texas in 2023 (CDC). This context is general and does not replace an individual evaluation.",
+    "citations": [
+      {
+        "label": "Texas Occupations Code Chapter 111, Telemedicine, Teledentistry, and Telehealth (Sections 111.001, 111.005, 111.007)",
+        "url": "https://statutes.capitol.texas.gov/Docs/OC/htm/OC.111.htm",
+        "scope": "all"
+      },
+      {
+        "label": "Texas Occupations Code Section 154.051, Complaint Initiation",
+        "url": "https://statutes.capitol.texas.gov/Docs/OC/htm/OC.154.htm",
+        "scope": "all"
+      },
+      {
+        "label": "Texas Health and Safety Code Chapter 481, Sections 481.0755 and 481.076",
+        "url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.481.htm",
+        "scope": "all"
+      },
+      {
+        "label": "Texas Health and Human Services, Medicaid and CHIP",
+        "url": "https://www.hhs.texas.gov/services/health/medicaid-chip"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, Texas (Vintage 2025 estimate)",
+        "url": "https://www.census.gov/quickfacts/fact/table/TX/PST045225"
+      },
+      {
+        "label": "Texas Department of State Health Services, Tick-borne Diseases",
+        "url": "https://www.dshs.texas.gov/tick-borne-diseases",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Texas Health and Safety Code Chapter 826, Rabies Control Act of 1981 (Section 826.041)",
+        "url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.826.htm",
+        "conditions": [
+          "dog-bite-treatment-online",
+          "cat-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "CDC, Chlamydia Reported Cases and Rates by State, Ranked by Rates, United States, 2023",
+        "url": "https://cdc.gov/sti-statistics/media/pdfs/2024/10/2023-STD-Surveillance-State-Ranking-Tables.pdf",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "CDC, Legal Status of EPT in Texas",
+        "url": "https://www.cdc.gov/sti/php/ept-legal-status/texas.html",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "Texas Medical Board rule notice: 22 TAC Chapter 175, Telemedicine (Sections 175.2 and 175.3)",
+        "url": "https://www.tmb.state.tx.us/dl/23419947-A53F-8652-8503-D2B1C6BC0671",
+        "scope": "all"
+      },
+      {
+        "label": "22 TAC Section 177.2, Mandatory Complaint Notification (Texas Medical Board)",
+        "url": "https://www.law.cornell.edu/regulations/texas/22-Tex-Admin-Code-SS-177-2",
+        "scope": "all"
+      },
+      {
+        "label": "Texas Register figure for 22 TAC 177.2(a), Notice Concerning Complaints",
+        "url": "https://www.sos.state.tx.us/texreg/archive/September272024/tables-and-graphics/202404271-1.pdf",
+        "scope": "all"
+      },
+      {
+        "label": "Texas DSHS, Rabies in Animals, Texas: 2025",
+        "url": "https://www.dshs.texas.gov/sites/default/files/IDCU/disease/rabies/cases/Reports/epi-annual-rabies-2025.pdf",
+        "conditions": [
+          "dog-bite-treatment-online",
+          "cat-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Texas DSHS, Texas Respiratory Virus Surveillance Report, 2026 Week 20",
+        "url": "https://www.dshs.texas.gov/sites/default/files/IDCU/disease/respiratory_virus_surveillance/2026/2026-week20-trvsreport.pdf",
+        "conditions": [
+          "influenza-treatment-online",
+          "covid-19-treatment-online"
+        ]
+      },
+      {
+        "label": "Texas DSHS, Cessation Efforts (Texas Tobacco Quitline)",
+        "url": "https://www.dshs.texas.gov/tobacco/tobacco-prevention-and-control/cessation-efforts",
+        "conditions": [
+          "smoking-cessation-treatment-online"
+        ]
+      },
+      {
+        "label": "Texas DSHS, Doxycycline for Post-Exposure Prophylaxis (DoxyPEP)",
+        "url": "https://www.dshs.texas.gov/hivstd/doxypep",
+        "conditions": [
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "Texas DSHS, DoxyPEP for Providers",
+        "url": "https://dshs.texas.gov/hivstd/doxypep/providers",
+        "conditions": [
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "Texas Department of Insurance, open enrollment release (October 27, 2025)",
+        "url": "https://www.tdi.texas.gov/news/2025/tdi10272025.html"
+      },
+      {
+        "label": "CMS, Marketplace 2026 Open Enrollment Period Report: National Snapshot",
+        "url": "https://www.cms.gov/newsroom/fact-sheets/marketplace-2026-open-enrollment-period-report-national-snapshot-2"
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds a Texas medical license, issued by the Texas Medical Board. Texas defines a telemedicine medical service as care delivered by a physician licensed in Texas to a patient at another location (Occupations Code Section 111.001), and holds it to the in-person standard of care (Section 111.007). Anyone can confirm the license through the Texas Medical Board's license lookup, and complaints about a Texas physician can be reported to the Texas Medical Board at 1-800-201-9353. NPI: 1104323203.",
+    "verifyUrl": "https://www.tmb.state.tx.us/resources/for-the-public/look-up-a-license",
+    "statuteCitation": "Texas Occupations Code Sections 111.001, 111.002, 111.005 and 111.007 (telemedicine); 22 TAC Chapter 175 (TMB telemedicine rules); 22 TAC Section 177.2 and Occupations Code Section 154.051 (complaint notice); Texas Health and Safety Code Section 481.0755 (electronic prescribing of controlled substances)",
+    "licenseNumber": "T6431",
+    "boardName": "Texas Medical Board",
+    "boardUrl": "https://www.tmb.state.tx.us/"
+  },
+  "stateCities": {
+    "metroAndRural": "TeleDirectMD sees adults across Texas, a state of 31,709,821 people (U.S. Census Bureau, July 1, 2025 estimate) averaging 111.6 people per square mile in 2020. Patients in Houston, San Antonio, Dallas, Austin, Fort Worth, El Paso, Arlington, Corpus Christi, Plano, Laredo, Lubbock, Garland, Irving, Frisco and McKinney, and in Texas towns far from any of them, see the same physician with the same in-network options and the same $79 self-pay fee.",
+    "cityList": [
+      {
+        "city": "Houston"
+      },
+      {
+        "city": "San Antonio"
+      },
+      {
+        "city": "Dallas"
+      },
+      {
+        "city": "Austin"
+      },
+      {
+        "city": "Fort Worth"
+      },
+      {
+        "city": "El Paso"
+      },
+      {
+        "city": "Arlington"
+      },
+      {
+        "city": "Corpus Christi"
+      },
+      {
+        "city": "Plano"
+      },
+      {
+        "city": "Laredo"
+      },
+      {
+        "city": "Lubbock"
+      },
+      {
+        "city": "Garland"
+      },
+      {
+        "city": "Irving"
+      },
+      {
+        "city": "Frisco"
+      },
+      {
+        "city": "McKinney"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "multi-payer",
+    "selfPayDisclosure": "TeleDirectMD bills BCBS of Texas, UnitedHealthcare and Curative in-network in Texas for the plan types listed below; TeleDirectMD lists BCBS of Texas and UnitedHealthcare commercial plans only in Texas, and UnitedHealthcare Medicare Advantage is not in-network. If you are covered, your standard plan copay applies in place of the $79 self-pay fee, and benefits are verified before your appointment; your coverage depends on your plan. Everyone else pays a flat $79 at booking, with HSA and FSA cards accepted. Texas Medicaid and CHIP are not accepted, and TeleDirectMD cannot promise coverage.",
+    "payers": [
+      {
+        "name": "BCBS of Texas",
+        "anchorId": "bcbs-coverage",
+        "planNames": "Blue Choice PPO, Blue Essentials HMO, Blue Advantage HMO (commercial plans only)",
+        "validFrom": "2026-02-18",
+        "copayNote": "Your standard plan copay applies in place of the $79 self-pay fee; benefits are verified before the visit."
+      },
+      {
+        "name": "UnitedHealthcare",
+        "anchorId": "uhc-coverage",
+        "planNames": "PPO, HMO, EPO, POS (commercial only; Medicare Advantage is not in-network in Texas)",
+        "validFrom": "2026-03-27",
+        "copayNote": "Your standard plan copay applies in place of the $79 self-pay fee; benefits are verified before the visit."
+      },
+      {
+        "name": "Curative",
+        "anchorId": "curative-coverage",
+        "planNames": "Commercial PPO, EPO, and self-funded plans (EPO Value, EPO (PPOx), PPO (PPO+), PPO Max)",
+        "validFrom": "2026-07-07",
+        "copayNote": "Your standard plan copay applies in place of the $79 self-pay fee; benefits are verified before the visit."
+      }
+    ]
+  },
+  "stateFaqs": [
+    {
+      "question": "Can a doctor establish care with me over video in Texas?",
+      "answer": "Yes. Texas Occupations Code Section 111.005 says a valid practitioner-patient relationship is present when a Texas-licensed practitioner provides a telemedicine medical service through synchronous audiovisual interaction and meets the standard of care in Section 111.007, which is the same standard that applies in person. TeleDirectMD visits are live video with Parth Bhavsar, MD, who decides during the visit whether treatment or a prescription is appropriate."
+    },
+    {
+      "question": "Which insurance does TeleDirectMD take in Texas?",
+      "answer": "TeleDirectMD is in-network in Texas with BCBS of Texas commercial plans, UnitedHealthcare commercial plans and Curative. UnitedHealthcare Medicare Advantage plans are not in-network in Texas, and TeleDirectMD lists BCBS of Texas commercial plans only. If you are covered, your standard plan copay applies in place of the $79 self-pay fee, and benefits are verified before your appointment. Texas Medicaid and CHIP are not accepted."
+    },
+    {
+      "question": "Is Dr. Bhavsar licensed in Texas, and how can I check?",
+      "answer": "Yes. Parth Bhavsar, MD holds a Texas medical license, issued by the Texas Medical Board, and you can confirm it through the Board's online license lookup. Texas law ties telemedicine medical services to a physician licensed in Texas (Occupations Code Section 111.001). His National Provider Identifier is 1104323203."
+    },
+    {
+      "question": "How do I file a complaint about a physician in Texas?",
+      "answer": "Complaints about Texas physicians go to the Texas Medical Board, Attention: Investigations, 1801 Congress Avenue, Suite 9.200, P.O. Box 2018, Austin, Texas 78768-2018. The Board's complaint notice lists 1-800-201-9353 for help filing a complaint and www.tmb.state.tx.us for more information. Texas rules require physicians who practice by telemedicine to link to this notice on their website."
+    },
+    {
+      "question": "What should I do after an animal bite in Texas?",
+      "answer": "Clean the wound and decide where to be seen. Under the Texas Rabies Control Act (Health and Safety Code Section 826.041), anyone who knows of an animal bite or scratch that could transmit rabies must report it to the local rabies control authority. A small bite from a known, vaccinated pet can often be assessed by video; bites from strays or wild animals need in-person care for a rabies evaluation."
+    },
+    {
+      "question": "Can I get a controlled substance by video in Texas?",
+      "answer": "Not from TeleDirectMD, which does not prescribe controlled substances in any state. Texas requires controlled substance prescriptions to be electronic except in the circumstances listed in Health and Safety Code Section 481.0755, and the Texas State Board of Pharmacy oversees official prescription information under Section 481.076."
+    },
+    {
+      "question": "Will my primary care doctor hear about my Texas video visit?",
+      "answer": "Only if you want them to. Texas Occupations Code Section 111.005(b) says that after a video visit that starts a new relationship, the physician gives you guidance on follow-up care and, if you consent and have a primary care physician, sends that physician a record or report of the visit within 72 hours."
+    }
+  ],
+  "conditionOverrides": {
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "Texas DSHS lists anaplasmosis, ehrlichiosis, spotted fever rickettsiosis, tick-borne relapsing fever, tularemia and Lyme disease among tick-transmitted infections, but says Lyme disease is not commonly acquired in Texas and calls the state a low incidence state for Lyme. Because guideline-based preventive doxycycline after a bite depends partly on local Lyme risk, a video visit for adults in Texas focuses on where you were bitten, including recent travel, the type of tick and how long it was attached before deciding whether to treat or watch. Fever with severe headache, an expanding rash, facial weakness or palpitations after a bite needs urgent in-person care. Flat $79, or your in-network copay."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "Texas law puts a reporting duty on anyone who knows of a possible rabies exposure: under the Rabies Control Act of 1981 (Health and Safety Code Section 826.041), an animal bite or scratch that could transmit rabies must be reported to the local rabies control authority. DSHS counted 456 rabid animals in Texas in 2025, most of them bats (226) and skunks (118), and 5 of them dogs. For adults in Texas with a cleaned, superficial to moderate bite from a known domestic dog with a vaccination history, a video visit can review photos, plan wound care and decide whether antibiotics fit. Deep wounds, uncontrolled bleeding, facial wounds needing repair or a bite from an unknown animal need in-person care."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "In Texas, a cat bite that could transmit rabies is reportable: Health and Safety Code Section 826.041 requires anyone who knows of such a bite or scratch to report it to the local rabies control authority. Cats outnumbered dogs among rabid domestic animals in DSHS's 2025 count, 19 cats against 5 dogs. Cat bites also become infected quickly, so timing matters. TeleDirectMD sees adults in Texas by video for a superficial to moderate bite from a known domestic cat within the last 24 hours, to plan wound care and decide whether a preventive antibiotic is appropriate. A hand bite with swelling or reduced finger movement, or any bite from a stray or wild animal, needs in-person care. Flat $79, or your in-network copay."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "Texas reported 150,056 chlamydia cases in 2023, a rate of 491.9 per 100,000 that ranked 20th among states and was essentially level with the U.S. rate of 492.2 (CDC, 2023 state ranking tables). CDC lists expedited partner therapy as permissible in Texas. Adults in Texas with a positive chlamydia test can review the result with Dr. Bhavsar by video, and when appropriate, treatment goes electronically to your pharmacy. TeleDirectMD does not perform STI testing, so bring your result. Pelvic pain with fever, severe testicular pain or pregnancy needs in-person care. Flat $79, or your BCBS of Texas, UnitedHealthcare or Curative copay."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "Texas DSHS publishes a weekly Texas Respiratory Virus Surveillance Report covering influenza, COVID-19 and RSV. For the 2025-2026 season, Texas hospital laboratories reported 23,708 influenza-positive specimens out of 144,096 tested (16.45 percent) through the week ending May 23, 2026, and influenza A made up 67.65 percent of positives, mostly H3N2 among subtyped specimens. Adults in Texas whose flu symptoms started within the past 48 hours can be evaluated by video to decide whether an antiviral is appropriate. Trouble breathing, persistent chest pain, confusion or being unable to keep fluids down needs in-person or emergency care. Flat $79, or your BCBS of Texas, UnitedHealthcare or Curative copay."
+    },
+    "covid-19-treatment-online": {
+      "stateConditionParagraph": "The same DSHS weekly report counted 13,178 confirmed and probable COVID-19 cases in Texas in 2026 through the week ending May 23, and 128 COVID-19-associated deaths reported through MMWR week 17. The numbers change weekly, so the current report on the DSHS site is the better guide to present activity. Adults in Texas with a positive test or typical symptoms that began within the last 5 days can be evaluated by video to decide whether antiviral treatment fits, based on risk factors and current medicines. Shortness of breath at rest, persistent chest pain, confusion or bluish lips needs emergency care. Flat $79, or your in-network copay."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "Texas DSHS runs its own DoxyPEP pages: the public page describes doxyPEP as a way to prevent syphilis, gonorrhea and chlamydia when taken within 72 hours after sex, and the provider page advises STD screening and treatment every three to six months for people using it. CDC's 2023 tables show Texas reported 4,562 primary and secondary syphilis cases (15.0 per 100,000) and 53,793 gonorrhea cases (176.4 per 100,000). TeleDirectMD's doxy-PEP visits are for adults in Texas who are men who have sex with men or transgender women with a bacterial STI in the past 12 months or condomless sex with male partners, and who have no active STI symptoms. Testing is done through a clinic or lab. Flat $79, or your in-network copay."
+    },
+    "smoking-cessation-treatment-online": {
+      "stateConditionParagraph": "Texas has a free state quitline that can run alongside a prescription plan. DSHS says the Texas Tobacco Quitline offers quit coaching and up to 8 weeks of nicotine replacement therapy to Texas residents 13 and older, at 877-937-7848 (877-YES-QUIT) or YesQuit.org. A video visit with Dr. Bhavsar reviews your tobacco use, past quit attempts and health history to decide whether a prescription quit medicine is appropriate. Pregnancy, a seizure history, a heart attack or stroke within the past 2 weeks, or active suicidal thoughts call for in-person care instead. Flat $79, or your in-network copay."
+    }
+  },
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Texas Occupations Code Sections 111.005 and 111.007",
+        "renderAt": "hero-credential",
+        "content": "Under Texas Occupations Code Section 111.005, a valid practitioner-patient relationship is present when a Texas-licensed practitioner provides a telemedicine medical service through synchronous audiovisual interaction and complies with the standard of care in Section 111.007, which is the standard that applies to the same service in person. Section 111.002 requires the patient's informed consent before telemedicine services are provided. TeleDirectMD provides care to patients located in Texas by live video through Parth Bhavsar, MD, licensed by the Texas Medical Board."
+      },
+      {
+        "statute": "22 Texas Administrative Code Section 177.2 (Mandatory Complaint Notification), Figure 1; Texas Occupations Code Section 154.051",
+        "renderAt": "footer",
+        "content": "NOTICE CONCERNING COMPLAINTS. Complaints about physicians, as well as other licensees and registrants of the Texas Medical Board, including physician assistants, acupuncturists, surgical assistants, medical radiologic technologists, non-certified radiologic technicians, respiratory care practitioners, medical physicists, and perfusionists may be reported for investigation at the following address: Texas Medical Board, Attention: Investigations, 1801 Congress Avenue, Suite 9.200, P.O. Box 2018, Austin, Texas 78768-2018. Assistance in filing a complaint is available by calling the following telephone number: 1-800-201-9353. For more information please visit our website at www.tmb.state.tx.us",
+        "_note": "Verbatim text of the rule figure (no alterations allowed under 177.2(c)(4)). Rule requires a prominently displayed website link, at least 10-point font. Spanish version is the rule's second attached graphic (not retrieved). Verify against the board's current figure before launch."
+      },
+      {
+        "statute": "Texas Health and Safety Code Section 481.0755 (controlled substance prescriptions)",
+        "renderAt": "footer",
+        "content": "Texas requires controlled substance prescriptions to be issued electronically except in the circumstances listed in Health and Safety Code Section 481.0755. TeleDirectMD does not prescribe controlled substances, and Texas prescriptions from a TeleDirectMD visit are sent electronically to the patient's chosen pharmacy."
+      },
+      {
+        "statute": "Texas Occupations Code Section 111.005(b)",
+        "renderAt": "footer",
+        "content": "Texas Occupations Code Section 111.005(b) requires a physician who treats a patient by synchronous audiovisual telemedicine to give guidance on appropriate follow-up care and, if the patient consents and has a primary care physician, to send that physician a medical record or report of the visit within 72 hours."
+      }
+    ],
+    "forbiddenPhrases": [
+      "UnitedHealthcare Medicare Advantage is accepted in Texas"
+    ]
+  }
+}

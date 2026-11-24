@@ -16,7 +16,7 @@
     "condition_slug": "common-cold-treatment-online",
     "icd10": "J00",
     "specialty_authority": "American Academy of Family Physicians (AAFP)",
-    "guideline": "AAFP Common Cold Management Guidelines"
+    "guideline": "American Family Physician (AAFP) common cold treatment reviews"
   },
   "california_regulatory": {
     "primary_statute": {
@@ -48,9 +48,10 @@
       },
       {
         "name": "Anthem Blue Cross",
-        "status": "Pending",
-        "effective_date": null,
-        "in_network": false
+        "status": "Active",
+        "effective_date": "2026-09-23",
+        "in_network": true,
+        "notes": "PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included."
       },
       {
         "name": "Cigna",
@@ -66,17 +67,17 @@
         "notes": "Commercial + Medicare Advantage. Excludes Medi-Cal, Individual Exchange, Navigate/Charter/Core."
       }
     ],
-    "cash_price": 49
+    "cash_price": 79
   },
   "california_epidemiology": {
-    "summary": "California sees approximately 1 billion common colds annually in the United States; applying standard epidemiologic rates, California's 39 million residents experience an estimated 150\u2013180 million cold episodes per year, primarily in fall and winter months.",
-    "source_url": "https://www.cdc.gov/nchs/fastats/common-cold.htm",
-    "source_name": "CDC \u2014 Common Cold Data"
+    "summary": "Every year in the United States, adults have an average of two to three colds, and children often have more. Applied to California's 39 million residents, that means tens of millions of cold episodes per year, primarily in fall and winter months.",
+    "source_url": "https://www.cdc.gov/common-cold/about/index.html",
+    "source_name": "CDC \u2014 About Common Cold"
   },
   "clinical_content": {
     "specialty_authority": "American Academy of Family Physicians (AAFP)",
     "specialty_authority_url": "https://www.aafp.org/pubs/afp/issues/2012/0715/p153.html",
-    "guideline": "AAFP Common Cold Management Guidelines",
+    "guideline": "American Family Physician (AAFP) common cold treatment reviews",
     "telehealth_appropriate_criteria": [
       "Adult 18+ located in California at time of visit",
       "Runny nose, sneezing, mild sore throat, nasal congestion for \u226410 days",
@@ -137,7 +138,7 @@
     {
       "id": "faq-1",
       "question": "Can I get common cold treatment online in California?",
-      "answer": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California. Adults 18+ located in California can book a same-day video visit for cold symptom evaluation. While antibiotics are not effective against viral colds, a physician can rule out bacterial complications, guide safe OTC medication use, and advise on when to seek further care. Self pay is $79; Aetna is in-network as of April 30, 2026."
+      "answer": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. Dr. Bhavsar is licensed in California. Adults 18+ located in California can book a same-day video visit for cold symptom evaluation. While antibiotics are not effective against viral colds, a physician can rule out bacterial complications, guide safe OTC medication use, and advise on when to seek further care. Self pay is $79; Aetna is in-network as of April 30, 2026."
     },
     {
       "id": "faq-2",
@@ -147,7 +148,7 @@
     {
       "id": "faq-3",
       "question": "How long does a common cold last?",
-      "answer": "Most uncomplicated common colds resolve within 7\u201310 days, according to AAFP guidelines. Nasal symptoms typically peak at days 2\u20133 and improve by day 7. A cough may persist for 2\u20133 weeks. If symptoms worsen after initial improvement, last more than 10 days, or include fever above 103\u00b0F, facial pain, or ear pain, a physician should re-evaluate to screen for bacterial complications."
+      "answer": "Most uncomplicated common colds resolve within 7\u201310 days, according to American Family Physician (AAFP) reviews. Nasal symptoms typically peak at days 2\u20133 and improve by day 7. A cough may persist for 2\u20133 weeks. If symptoms worsen after initial improvement, last more than 10 days, or include fever above 103\u00b0F, facial pain, or ear pain, a physician should re-evaluate to screen for bacterial complications."
     },
     {
       "id": "faq-4",
@@ -167,7 +168,7 @@
     {
       "id": "faq-7",
       "question": "Will Medi-Cal cover my TeleDirectMD visit for a cold in California?",
-      "answer": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, you can use the $79 self-pay rate, or find a Medi-Cal-enrolled telehealth provider through your managed care plan or the California DHCS directory at dhcs.ca.gov."
+      "answer": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, find a Medi-Cal-enrolled telehealth provider through your managed care plan or the California DHCS directory at dhcs.ca.gov."
     },
     {
       "id": "faq-8",
@@ -213,8 +214,8 @@
       "text": "California DHCS \u2014 Telehealth FAQ. Retrieved May 2026."
     },
     {
-      "url": "https://www.cdc.gov/nchs/fastats/common-cold.htm",
-      "text": "CDC \u2014 Common Cold (NCHS FastStats). Retrieved May 2026."
+      "url": "https://www.cdc.gov/common-cold/about/index.html",
+      "text": "CDC \u2014 About Common Cold. Retrieved May 2026."
     },
     {
       "url": "https://www.aafp.org/pubs/afp/issues/2012/0715/p153.html",

@@ -11,7 +11,7 @@
  * + HowTo + BreadcrumbList + SpeakableSpecification — NEVER QAPage).
  *
  * Authority: Infectious Diseases Society of America (IDSA) — Candidiasis Guideline
- * Guideline: IDSA Clinical Practice Guideline for the Management of Candidiasis (2016; referenced in 2024 updates)
+ * Guideline: IDSA Clinical Practice Guideline for the Management of Candidiasis (2016)
  *
  * Hard rules respected:
  *   • No QAPage schema — FAQPage only.
@@ -38,7 +38,7 @@ const PHYSICIAN = {
   specialty: 'Family Medicine',
   licenseState: 'California',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 const CA_PAYORS = [
@@ -46,8 +46,8 @@ const CA_PAYORS = [
     notes: 'Commercial plans. In-network as of April 30, 2026. Verify plan eligibility with Aetna before booking.' },
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true,
     notes: 'Covers UHC Commercial and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types.' },
-  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Enrollment pending. Self pay ($79) available.' },
+  { name: 'Anthem Blue Cross', status: 'Active', effective: 'September 23, 2026', inNetwork: true,
+    notes: 'PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.' },
   { name: 'Cigna', status: 'Pending', effective: 'Pending determination', inNetwork: false,
     notes: 'Pending — Telehealth Only review in progress. Self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false,
@@ -62,7 +62,7 @@ const FAQ_ITEMS = [
     question: 'Can I get oral thrush treatment online in California?',
     answer: (
       <p>
-        Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth. TeleDirectMD physicians are licensed in California and follow IDSA candidiasis guidelines for oral thrush management. Adults 18+ in California with white oral plaques consistent with thrush can book a same-day video visit — the physician assesses lesions on camera and prescribes nystatin oral suspension or fluconazole when appropriate. Self pay is $79; Aetna is in-network as of April 30, 2026.
+        Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth. Dr. Bhavsar is licensed in California and follows IDSA candidiasis guidelines for oral thrush management. Adults 18+ in California with white oral plaques consistent with thrush can book a same-day video visit — the physician assesses lesions on camera and prescribes nystatin oral suspension or fluconazole when appropriate. Self pay is $79; Aetna is in-network as of April 30, 2026.
       </p>
     ),
   },
@@ -80,7 +80,7 @@ const FAQ_ITEMS = [
     question: 'What antifungal medications treat oral thrush, and what do they cost in California?',
     answer: (
       <p>
-        Per IDSA candidiasis guideline, first-line treatment options include: nystatin oral suspension 100,000 units/mL (swish and swallow four times daily for 7–14 days; generic ~$15–$30 with GoodRx) for uncomplicated cases; or fluconazole 100–200 mg daily for 7–14 days (~$10–$20 generic with GoodRx) for immunocompromised patients or when nystatin fails. Prescription costs at pharmacy are separate from the TeleDirectMD visit fee ($79).
+        Per IDSA candidiasis guideline, mild cases are treated topically: clotrimazole troches are first-line, and nystatin oral suspension 100,000 units/mL (swish and swallow four times daily for 7–14 days; generic ~$15–$30 with GoodRx) is a recommended alternative. Oral fluconazole 100–200 mg daily for 7–14 days (~$10–$20 generic with GoodRx) is recommended for moderate-to-severe disease or when topical therapy fails. Prescription costs at pharmacy are separate from the TeleDirectMD visit fee ($79).
       </p>
     ),
   },
@@ -125,7 +125,7 @@ const FAQ_ITEMS = [
     question: 'Will Medi-Cal cover my TeleDirectMD visit for oral thrush?',
     answer: (
       <p>
-        TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, you can use the $79 self-pay rate or find a Medi-Cal-enrolled telehealth provider through your managed care plan or California DHCS at dhcs.ca.gov. Medi-Cal's HIV/AIDS programs through CDPH may provide additional resources for HIV-positive Californians with oral candidiasis.
+        TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, find a Medi-Cal-enrolled telehealth provider through your managed care plan or California DHCS at dhcs.ca.gov. Medi-Cal's HIV/AIDS programs through CDPH may provide additional resources for HIV-positive Californians with oral candidiasis.
       </p>
     ),
   },
@@ -167,7 +167,7 @@ const FAQ_ITEMS = [
   },
 ];
 
-const SCHEMAS = [{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Oral Thrush Treatment Online in California | TeleDirectMD", "url": "https://teledirectmd.com/ca/oral-thrush-treatment-online/", "description": "Oral thrush treatment online for California adults. IDSA candidiasis guideline-based evaluation. Board-certified Family Medicine MD. Antifungal prescriptions. Self pay $79. Aetna in-network. Same-day visits.", "datePublished": "2026-05-20", "dateModified": "2026-05-20", "inLanguage": "en-US", "about": {"@type": "MedicalCondition", "name": "Oral Thrush (Oral Candidiasis)", "code": {"@type": "MedicalCode", "code": "B37.0", "codingSystem": "ICD-10-CM"}}, "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient", "geographicArea": {"@type": "AdministrativeArea", "name": "California"}}, "reviewedBy": {"@type": "Physician", "@id": "https://teledirectmd.com/about/#physician-parth-bhavsar", "name": "Parth Bhavsar, MD", "identifier": {"@type": "PropertyValue", "propertyID": "NPI", "value": "1104323203"}, "medicalSpecialty": "Family Medicine", "hasCredential": [{"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "Doctor of Medicine (MD)"}, {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Board Certification \u2014 American Board of Family Medicine"}], "licensedIn": "California", "worksFor": {"@type": "MedicalOrganization", "name": "TeleDirectMD", "url": "https://teledirectmd.com"}, "sameAs": ["https://npiregistry.cms.hhs.gov/provider-view/1104323203", "https://teledirectmd.com/about/"]}, "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["#ca-oral-thrush-treatment-online-opening", "#ca-oral-thrush-treatment-online-opening p", ".tdmd-ca-oral-thrush-treatment-online__byline", "#ca-oral-thrush-treatment-online-faq"]}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I get oral thrush treatment online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth. TeleDirectMD physicians are licensed in California and follow IDSA candidiasis guidelines for oral thrush management. Adults 18+ in California with white oral plaques consistent with thrush can book a same-day video visit \u2014 the physician assesses lesions on camera and prescribes nystatin oral suspension or fluconazole when appropriate. Self pay is $79; Aetna is in-network as of April 30, 2026."}}, {"@type": "Question", "name": "What does oral thrush look like and how is it recognized?", "acceptedAnswer": {"@type": "Answer", "text": "Oral thrush presents as creamy white, curd-like plaques on the tongue, inner cheeks, the roof of the mouth, or the back of the throat. The plaques can be wiped off (unlike geographic tongue, which cannot), revealing a red or bleeding surface underneath. Patients often describe a burning sensation, altered taste, or difficulty eating. Risk factors include recent antibiotic use, inhaled corticosteroid use (without rinsing the mouth afterward), denture wearing, immunosuppression, diabetes, or cancer treatment."}}, {"@type": "Question", "name": "What antifungal medications treat oral thrush, and what do they cost in California?", "acceptedAnswer": {"@type": "Answer", "text": "Per IDSA candidiasis guideline, first-line treatment options include: nystatin oral suspension 100,000 units/mL (swish and swallow four times daily for 7\u201314 days; generic ~$15\u2013$30 with GoodRx) for uncomplicated cases; or fluconazole 100\u2013200 mg daily for 7\u201314 days (~$10\u2013$20 generic with GoodRx) for immunocompromised patients or when nystatin fails. Prescription costs at pharmacy are separate from the TeleDirectMD visit fee ($79)."}}, {"@type": "Question", "name": "Does California require an in-person visit before telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. A California-licensed physician can evaluate oral thrush through a synchronous video visit. The physician asks you to show the inside of your mouth on camera to assess the appearance and extent of plaques."}}, {"@type": "Question", "name": "When is oral thrush dangerous and when should I go to the ER in California?", "acceptedAnswer": {"@type": "Answer", "text": "Seek urgent in-person care if you have difficulty swallowing or a sensation of food sticking in the chest \u2014 this may indicate esophageal candidiasis, which requires systemic antifungal therapy and endoscopic confirmation. Oral thrush in a person not on immunosuppressants, antibiotics, or corticosteroids may indicate undiagnosed immunodeficiency (HIV, cancer, diabetes) and warrants in-person evaluation for underlying cause."}}, {"@type": "Question", "name": "Is my Aetna plan in California in-network with TeleDirectMD?", "acceptedAnswer": {"@type": "Answer", "text": "Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. Verify current in-network status directly with Aetna before your visit. Self pay is $79 regardless of insurance status."}}, {"@type": "Question", "name": "Is UnitedHealthcare in-network with TeleDirectMD in California?", "acceptedAnswer": {"@type": "Answer", "text": "UnitedHealthcare Commercial was approved for California effective May 29, 2026, covering commercial plans and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types. Verify your specific plan eligibility with UHC before booking."}}, {"@type": "Question", "name": "Will Medi-Cal cover my TeleDirectMD visit for oral thrush?", "acceptedAnswer": {"@type": "Answer", "text": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, you can use the $79 self-pay rate or find a Medi-Cal-enrolled telehealth provider through your managed care plan or California DHCS at dhcs.ca.gov. Medi-Cal's HIV/AIDS programs through CDPH may provide additional resources for HIV-positive Californians with oral candidiasis."}}, {"@type": "Question", "name": "How can I prevent oral thrush from recurring?", "acceptedAnswer": {"@type": "Answer", "text": "Prevention strategies depend on the underlying cause: For inhaled corticosteroid users \u2014 rinse the mouth thoroughly with water after every dose; use a spacer device. For denture wearers \u2014 remove dentures at night, clean thoroughly, soak in antiseptic solution. For antibiotic recipients \u2014 probiotic use during and after antibiotics may reduce Candida overgrowth (evidence is moderate). For immunocompromised patients \u2014 discuss prophylactic antifungal therapy with your physician. For patients with diabetes \u2014 optimize blood glucose control, as hyperglycemia promotes Candida growth."}}, {"@type": "Question", "name": "Does California's AB 744 telehealth parity law apply to oral thrush visits?", "acceptedAnswer": {"@type": "Answer", "text": "California AB 744 (2019) requires commercial health plans to reimburse telehealth services on the same basis as in-person services. Parity applies when the provider is already in-network with your specific plan. Currently, Aetna (active April 30, 2026) and UnitedHealthcare Commercial (active May 29, 2026) are in-network in California for TeleDirectMD."}}, {"@type": "Question", "name": "How quickly will my antifungal prescription reach a California pharmacy?", "acceptedAnswer": {"@type": "Answer", "text": "California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022). If an antifungal medication is appropriate, TeleDirectMD sends an e-prescription electronically to your chosen California pharmacy during or after your visit. Most California pharmacies fill within one to four hours."}}, {"@type": "Question", "name": "Does oral thrush require lab testing before treatment?", "acceptedAnswer": {"@type": "Answer", "text": "In most cases, clinical diagnosis is sufficient for straightforward presentations \u2014 white plaques wiped off a red base in a patient with clear risk factors. Per IDSA candidiasis guideline, empiric treatment is appropriate without culture for typical presentations. Culture or KOH preparation testing is indicated when the diagnosis is uncertain, when there is no response to standard treatment, or in immunocompromised patients where species identification and antifungal sensitivity may guide therapy."}}]}, {"@context": "https://schema.org", "@type": "HowTo", "name": "How to Get Oral Thrush Treatment Online in California", "description": "Three steps to receive oral thrush treatment evaluation and, if appropriate, a prescription from a California-licensed board-certified physician.", "totalTime": "PT30M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "79"}, "step": [{"@type": "HowToStep", "position": 1, "name": "Book your video visit", "text": "Visit teledirectmd.com and select California Oral Thrush (Oral Candidiasis) treatment. No referral needed. Self pay $79. Many visits available same day.", "url": "https://teledirectmd.com/book-online"}, {"@type": "HowToStep", "position": 2, "name": "See a California-licensed MD by secure video", "text": "Connect with a board-certified Family Medicine physician licensed in California. The physician reviews your symptoms, history, and red-flag screening. Consent per CA B&P Section 2290.5 confirmed.", "url": "https://teledirectmd.com/ca/oral-thrush-treatment-online/"}, {"@type": "HowToStep", "position": 3, "name": "Receive your treatment plan and e-prescription", "text": "If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy during or after the visit.", "url": "https://teledirectmd.com/ca/oral-thrush-treatment-online/"}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TeleDirectMD", "item": "https://teledirectmd.com"}, {"@type": "ListItem", "position": 2, "name": "California", "item": "https://teledirectmd.com/ca/"}, {"@type": "ListItem", "position": 3, "name": "Oral Thrush Treatment Online in California", "item": "https://teledirectmd.com/ca/oral-thrush-treatment-online/"}]}];
+const SCHEMAS = [{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Oral Thrush Treatment Online in California | TeleDirectMD", "url": "https://teledirectmd.com/ca/oral-thrush-treatment-online/", "description": "Oral thrush treatment online for California adults. IDSA candidiasis guideline-based evaluation. Board-certified Family Medicine MD. Antifungal prescriptions. Self pay $79. Aetna in-network. Same-day visits.", "datePublished": "2026-05-20", "dateModified": "2026-05-20", "inLanguage": "en-US", "about": {"@type": "MedicalCondition", "name": "Oral Thrush (Oral Candidiasis)", "code": {"@type": "MedicalCode", "code": "B37.0", "codingSystem": "ICD-10-CM"}}, "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient", "geographicArea": {"@type": "AdministrativeArea", "name": "California"}}, "reviewedBy": {"@type": "Physician", "@id": "https://teledirectmd.com/about/#physician", "name": "Parth Bhavsar, MD", "identifier": {"@type": "PropertyValue", "propertyID": "NPI", "value": "1104323203"}, "medicalSpecialty": "Family Medicine", "hasCredential": [{"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "Doctor of Medicine (MD)"}, {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Board Certification \u2014 American Board of Family Medicine"}], "licensedIn": "California", "worksFor": {"@type": "MedicalOrganization", "name": "TeleDirectMD", "url": "https://teledirectmd.com"}, "sameAs": ["https://npiregistry.cms.hhs.gov/provider-view/1104323203", "https://teledirectmd.com/about/"]}, "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["#ca-oral-thrush-treatment-online-opening", "#ca-oral-thrush-treatment-online-opening p", ".tdmd-ca-oral-thrush-treatment-online__byline", "#ca-oral-thrush-treatment-online-faq"]}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I get oral thrush treatment online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth. Dr. Bhavsar is licensed in California and follows IDSA candidiasis guidelines for oral thrush management. Adults 18+ in California with white oral plaques consistent with thrush can book a same-day video visit \u2014 the physician assesses lesions on camera and prescribes nystatin oral suspension or fluconazole when appropriate. Self pay is $79; Aetna is in-network as of April 30, 2026."}}, {"@type": "Question", "name": "What does oral thrush look like and how is it recognized?", "acceptedAnswer": {"@type": "Answer", "text": "Oral thrush presents as creamy white, curd-like plaques on the tongue, inner cheeks, the roof of the mouth, or the back of the throat. The plaques can be wiped off (unlike geographic tongue, which cannot), revealing a red or bleeding surface underneath. Patients often describe a burning sensation, altered taste, or difficulty eating. Risk factors include recent antibiotic use, inhaled corticosteroid use (without rinsing the mouth afterward), denture wearing, immunosuppression, diabetes, or cancer treatment."}}, {"@type": "Question", "name": "What antifungal medications treat oral thrush, and what do they cost in California?", "acceptedAnswer": {"@type": "Answer", "text": "Per IDSA candidiasis guideline, mild cases are treated topically: clotrimazole troches are first-line, and nystatin oral suspension 100,000 units/mL (swish and swallow four times daily for 7\u201314 days; generic ~$15\u2013$30 with GoodRx) is a recommended alternative. Oral fluconazole 100\u2013200 mg daily for 7\u201314 days (~$10\u2013$20 generic with GoodRx) is recommended for moderate-to-severe disease or when topical therapy fails. Prescription costs at pharmacy are separate from the TeleDirectMD visit fee ($79)."}}, {"@type": "Question", "name": "Does California require an in-person visit before telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. A California-licensed physician can evaluate oral thrush through a synchronous video visit. The physician asks you to show the inside of your mouth on camera to assess the appearance and extent of plaques."}}, {"@type": "Question", "name": "When is oral thrush dangerous and when should I go to the ER in California?", "acceptedAnswer": {"@type": "Answer", "text": "Seek urgent in-person care if you have difficulty swallowing or a sensation of food sticking in the chest \u2014 this may indicate esophageal candidiasis, which requires systemic antifungal therapy and endoscopic confirmation. Oral thrush in a person not on immunosuppressants, antibiotics, or corticosteroids may indicate undiagnosed immunodeficiency (HIV, cancer, diabetes) and warrants in-person evaluation for underlying cause."}}, {"@type": "Question", "name": "Is my Aetna plan in California in-network with TeleDirectMD?", "acceptedAnswer": {"@type": "Answer", "text": "Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. Verify current in-network status directly with Aetna before your visit. Self pay is $79 regardless of insurance status."}}, {"@type": "Question", "name": "Is UnitedHealthcare in-network with TeleDirectMD in California?", "acceptedAnswer": {"@type": "Answer", "text": "UnitedHealthcare Commercial was approved for California effective May 29, 2026, covering commercial plans and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types. Verify your specific plan eligibility with UHC before booking."}}, {"@type": "Question", "name": "Will Medi-Cal cover my TeleDirectMD visit for oral thrush?", "acceptedAnswer": {"@type": "Answer", "text": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, find a Medi-Cal-enrolled telehealth provider through your managed care plan or California DHCS at dhcs.ca.gov. Medi-Cal's HIV/AIDS programs through CDPH may provide additional resources for HIV-positive Californians with oral candidiasis."}}, {"@type": "Question", "name": "How can I prevent oral thrush from recurring?", "acceptedAnswer": {"@type": "Answer", "text": "Prevention strategies depend on the underlying cause: For inhaled corticosteroid users \u2014 rinse the mouth thoroughly with water after every dose; use a spacer device. For denture wearers \u2014 remove dentures at night, clean thoroughly, soak in antiseptic solution. For antibiotic recipients \u2014 probiotic use during and after antibiotics may reduce Candida overgrowth (evidence is moderate). For immunocompromised patients \u2014 discuss prophylactic antifungal therapy with your physician. For patients with diabetes \u2014 optimize blood glucose control, as hyperglycemia promotes Candida growth."}}, {"@type": "Question", "name": "Does California's AB 744 telehealth parity law apply to oral thrush visits?", "acceptedAnswer": {"@type": "Answer", "text": "California AB 744 (2019) requires commercial health plans to reimburse telehealth services on the same basis as in-person services. Parity applies when the provider is already in-network with your specific plan. Currently, Aetna (active April 30, 2026) and UnitedHealthcare Commercial (active May 29, 2026) are in-network in California for TeleDirectMD."}}, {"@type": "Question", "name": "How quickly will my antifungal prescription reach a California pharmacy?", "acceptedAnswer": {"@type": "Answer", "text": "California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022). If an antifungal medication is appropriate, TeleDirectMD sends an e-prescription electronically to your chosen California pharmacy during or after your visit. Most California pharmacies fill within one to four hours."}}, {"@type": "Question", "name": "Does oral thrush require lab testing before treatment?", "acceptedAnswer": {"@type": "Answer", "text": "In most cases, clinical diagnosis is sufficient for straightforward presentations \u2014 white plaques wiped off a red base in a patient with clear risk factors. Per IDSA candidiasis guideline, empiric treatment is appropriate without culture for typical presentations. Culture or KOH preparation testing is indicated when the diagnosis is uncertain, when there is no response to standard treatment, or in immunocompromised patients where species identification and antifungal sensitivity may guide therapy."}}]}, {"@context": "https://schema.org", "@type": "HowTo", "name": "How to Get Oral Thrush Treatment Online in California", "description": "Three steps to receive oral thrush treatment evaluation and, if appropriate, a prescription from a California-licensed board-certified physician.", "totalTime": "PT30M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "79"}, "step": [{"@type": "HowToStep", "position": 1, "name": "Book your video visit", "text": "Visit teledirectmd.com and select California Oral Thrush (Oral Candidiasis) treatment. No referral needed. Self pay $79. Many visits available same day.", "url": "https://teledirectmd.com/book-online"}, {"@type": "HowToStep", "position": 2, "name": "See a California-licensed MD by secure video", "text": "Connect with a board-certified Family Medicine physician licensed in California. The physician reviews your symptoms, history, and red-flag screening. Consent per CA B&P Section 2290.5 confirmed.", "url": "https://teledirectmd.com/ca/oral-thrush-treatment-online/"}, {"@type": "HowToStep", "position": 3, "name": "Receive your treatment plan and e-prescription", "text": "If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy during or after the visit.", "url": "https://teledirectmd.com/ca/oral-thrush-treatment-online/"}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TeleDirectMD", "item": "https://teledirectmd.com"}, {"@type": "ListItem", "position": 2, "name": "California", "item": "https://teledirectmd.com/ca/"}, {"@type": "ListItem", "position": 3, "name": "Oral Thrush Treatment Online in California", "item": "https://teledirectmd.com/ca/oral-thrush-treatment-online/"}]}];
 
 const PAGE_CSS = `
 .tdmd-ca-cond{color:var(--tdmd-text);}
@@ -251,7 +251,7 @@ export default function CaOralThrushTreatmentOnline() {
                 {/* v3: Inline opener paragraph — replaces CitableSummaryBlock */}
                 <div className="tdmd-condition-opener" id={`${pid}-opening`}>
                   <p>
-                    <strong>Can I get oral thrush treatment online in California?</strong> Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California and are held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. Self pay is $79. <a href="/insurance/">Aetna is in-network</a> as of April 30, 2026; UnitedHealthcare Commercial approved May 29, 2026.
+                    <strong>Can I get oral thrush treatment online in California?</strong> Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. Dr. Bhavsar is licensed in California and is held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. Self pay is $79. <a href="/insurance/">Aetna is in-network</a> as of April 30, 2026; UnitedHealthcare Commercial approved May 29, 2026.
                   </p>
                 </div>
 
@@ -290,9 +290,9 @@ export default function CaOralThrushTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> B37.0 (Candidal stomatitis / oral thrush); actual code assigned at visit</p>
@@ -404,7 +404,7 @@ export default function CaOralThrushTreatmentOnline() {
                   <h3>Receive your treatment plan and e-prescription</h3>
                   <p>If medication is clinically appropriate, a California-compliant e-prescription is sent to your chosen California pharmacy during or after the visit. You receive clear follow-up instructions regardless of treatment choice, including when to seek in-person care.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -417,10 +417,10 @@ export default function CaOralThrushTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Oral Thrush (Oral Candidiasis) in California?</h2>
             <p>
-              Oral candidiasis (thrush) is most common in immunocompromised individuals, denture wearers, patients on inhaled corticosteroids, and those who have recently completed antibiotic therapy. California has a large immunocompromised population including approximately 100,000 Californians living with HIV, per CDPH HIV/AIDS statistics — HIV-associated oral candidiasis remains a significant clinical concern statewide. Oral thrush is also common in California breast-cancer patients undergoing chemotherapy and in older adults in long-term care settings. — <a href="https://www.cdph.ca.gov/Programs/CID/DOA/Pages/OA_HIVandAIDS_Information.aspx" rel="noopener" target="_blank">CDPH — HIV/AIDS in California</a>.
+              Oral candidiasis (thrush) is most common in immunocompromised individuals, denture wearers, patients on inhaled corticosteroids, and those who have recently completed antibiotic therapy. California has a large immunocompromised population including approximately 100,000 Californians living with HIV, per CDPH HIV/AIDS statistics — HIV-associated oral candidiasis remains a significant clinical concern statewide. Oral thrush is also common in California breast-cancer patients undergoing chemotherapy and in older adults in long-term care settings. — <a href="https://www.cdph.ca.gov/Programs/CID/DOA/Pages/OAmain.aspx" rel="noopener" target="_blank">CDPH — HIV/AIDS in California</a>.
             </p>
             <p>
-              Clinical guidance for oral thrush treatment is provided by <a href="https://www.idsociety.org/practice-guideline/candidiasis/" rel="noopener" target="_blank">Infectious Diseases Society of America (IDSA) — Candidiasis Guideline</a> through the IDSA Clinical Practice Guideline for the Management of Candidiasis (2016; referenced in 2024 updates). TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for oral thrush treatment is provided by <a href="https://www.idsociety.org/practice-guideline/candidiasis/" rel="noopener" target="_blank">Infectious Diseases Society of America (IDSA) — Candidiasis Guideline</a> through the IDSA Clinical Practice Guideline for the Management of Candidiasis (2016). TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes oral thrush (oral candidiasis) and who is most at risk in California?</h3>
             <p>
@@ -449,25 +449,6 @@ export default function CaOralThrushTreatmentOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical Oral Thrush (Oral Candidiasis) cost comparison">
-                <h3>Typical Oral Thrush (Oral Candidiasis) Visit Cost in California</h3>
-                <p className="tdmd-price-caption">Common ranges Californians see before insurance. Actual costs vary by setting and city.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 16, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical California metro pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <h3 style={{ marginTop: '1.75rem' }}>California Payor Status — TeleDirectMD</h3>
@@ -505,7 +486,7 @@ export default function CaOralThrushTreatmentOnline() {
               </table>
             </div>
             <p style={{ marginTop: '1rem' }}>
-              View all <a href="/insurance">insurance options</a> or <a href="/book-online">book a $79 self-pay visit</a>.
+              View all <a href="/insurance/">insurance options</a> or <a href="/book-online/">book a $79 self-pay visit</a>.
             </p>
           </div>
         </section>
@@ -534,20 +515,20 @@ export default function CaOralThrushTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Nystatin oral suspension 100,000 units/mL</strong> · First-line</td>
                     <td>4–6 mL (400,000–600,000 units) swish and swallow four times daily × 7–14 days</td>
-                    <td><a href="https://www.goodrx.com/nystatin-oral" target="_blank" rel="noopener">~$15–$30 generic with GoodRx</a></td>
-                    <td>First-line for uncomplicated oral candidiasis per IDSA candidiasis guideline. Swish around mouth for at least 1 minute before swallowing. Minimal systemic absorption.</td>
+                    <td><a href="https://www.goodrx.com/nystatin" target="_blank" rel="noopener">~$15–$30 generic with GoodRx</a></td>
+                    <td>Recommended alternative for mild oral candidiasis per IDSA candidiasis guideline. Swish around mouth for at least 1 minute before swallowing. Minimal systemic absorption.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Fluconazole 100 mg</strong> · First-line</td>
                     <td>200 mg loading dose, then 100 mg daily × 7–14 days</td>
                     <td><a href="https://www.goodrx.com/fluconazole" target="_blank" rel="noopener">~$10–$20 generic with GoodRx</a></td>
-                    <td>First-line systemic antifungal per IDSA guideline — preferred for immunocompromised patients or when nystatin fails. Extensive drug interactions (azole class). Check for CYP2C9/CYP3A4 drug interactions.</td>
+                    <td>First-line systemic antifungal per IDSA guideline for moderate-to-severe disease or when topical therapy fails. Extensive drug interactions (azole class). Check for CYP2C9/CYP3A4 drug interactions.</td>
                   </tr>
                   <tr>
                     <td><strong>Clotrimazole troches 10 mg</strong></td>
                     <td>Dissolve slowly in mouth five times daily × 7–14 days</td>
-                    <td><a href="https://www.goodrx.com/clotrimazole-lozenge" target="_blank" rel="noopener">~$20–$40 generic with GoodRx</a></td>
-                    <td>Alternative topical antifungal per IDSA guideline. Requires frequent dosing. Good option when systemic absorption of fluconazole is undesirable.</td>
+                    <td><a href="https://www.goodrx.com/clotrimazole" target="_blank" rel="noopener">~$20–$40 generic with GoodRx</a></td>
+                    <td>First-line topical antifungal for mild disease per IDSA guideline. Requires frequent dosing. Good option when systemic absorption of fluconazole is undesirable.</td>
                   </tr>
                 </tbody>
               </table>
@@ -604,7 +585,7 @@ export default function CaOralThrushTreatmentOnline() {
                 <p>Book a same-day video visit — California adults, 18+</p>
                 <small>Self pay $79 &middot; Aetna in-network &middot; UHC Commercial approved May 2026 &middot; No ER wait</small>
               </div>
-              <a className="tdmd-ca-cond__cta-btn" href="/book-online" rel="noopener">Book Now &rarr;</a>
+              <a className="tdmd-ca-cond__cta-btn" href="/book-online/" rel="noopener">Book Now &rarr;</a>
             </div>
           </div>
         </section>
@@ -622,8 +603,8 @@ export default function CaOralThrushTreatmentOnline() {
                 <p>Book a same-day video visit. Self pay $79 &middot; Aetna in-network &middot; UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -670,10 +651,10 @@ export default function CaOralThrushTreatmentOnline() {
               <a href="/oral-thrush-treatment-online/">National Oral Thrush (Oral Candidiasis) page</a>
               <a href="/health-guides/">Oral Thrush (Oral Candidiasis) health guides</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/insurance">Insurance</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/insurance/">Insurance</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>
@@ -687,10 +668,10 @@ export default function CaOralThrushTreatmentOnline() {
               <li><a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth Resources. Retrieved May 2026.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744). Retrieved May 2026.</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CID/DOA/Pages/OA_HIVandAIDS_Information.aspx" rel="noopener" target="_blank">CDPH — HIV/AIDS in California. Retrieved May 2026.</a></li>
+              <li><a href="https://www.cdph.ca.gov/Programs/CID/DOA/Pages/OAmain.aspx" rel="noopener" target="_blank">CDPH — HIV/AIDS in California. Retrieved May 2026.</a></li>
               <li><a href="https://www.idsociety.org/practice-guideline/candidiasis/" rel="noopener" target="_blank">IDSA — Clinical Practice Guideline for Candidiasis (2016). Retrieved May 2026.</a></li>
-              <li><a href="https://www.cdc.gov/fungal/diseases/candidiasis/thrush.html" rel="noopener" target="_blank">CDC — Oral Candidiasis (Thrush). Retrieved May 2026.</a></li>
-              <li><a href="https://www.aafp.org/pubs/afp/issues/2014/0801/p188.html" rel="noopener" target="_blank">AAFP — Oral Candidiasis: An Overview. Retrieved May 2026.</a></li>
+              <li><a href="https://www.cdc.gov/candidiasis/about/index.html" rel="noopener" target="_blank">CDC — Candidiasis Basics. Retrieved May 2026.</a></li>
+              <li><a href="https://pubmed.ncbi.nlm.nih.gov/35426641/" rel="noopener" target="_blank">AAFP — Common Oral Lesions (2022). Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>
             </ol>
           </div>

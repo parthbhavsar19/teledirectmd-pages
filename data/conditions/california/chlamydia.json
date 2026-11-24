@@ -59,9 +59,10 @@
       },
       {
         "name": "Anthem Blue Cross",
-        "status": "Pending",
-        "effective_date": null,
-        "in_network": false
+        "status": "Active",
+        "effective_date": "2026-09-23",
+        "in_network": true,
+        "notes": "PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included."
       },
       {
         "name": "Cigna",
@@ -82,7 +83,7 @@
         "in_network": false
       }
     ],
-    "cash_price": 49
+    "cash_price": 79
   },
   "california_sti_epidemiology": {
     "source": "CDPH 2022 STI Surveillance Executive Summary",
@@ -108,7 +109,7 @@
     "retrieved_date": "2026-05-20",
     "source_note": "GoodRx prices retrieved May 2026 from goodrx.com. Prices are national averages and may vary by pharmacy.",
     "primary_rx": "doxycycline",
-    "goodrx_url": "https://www.goodrx.com/doxycycline"
+    "goodrx_url": "https://www.goodrx.com/doxycycline-hyclate"
   },
   "dual_path_resources": [
     {
@@ -128,7 +129,7 @@
     },
     {
       "name": "HHS Title X Family Planning",
-      "url": "https://www.hhs.gov/opa/title-x-family-planning/index.html",
+      "url": "https://opa.hhs.gov/grant-programs/title-x-service-grants",
       "note": "Free or low-cost reproductive health care"
     }
   ]

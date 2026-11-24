@@ -1,0 +1,1299 @@
+{
+  "guide": "psoriasis-treatment-guide",
+  "checked_at": "2026-11-07",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+  "references": [
+    {
+      "n": 1,
+      "cited_as": "Menter A, Strober BE, Kaplan DH, et al. \"Joint AAD-NPF guidelines of care for the management and treatment of psoriasis with biologics.\" Journal of the American Academy of Dermatology. 2019;80(4):1029-1072.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30772098/",
+      "kind": "guideline",
+      "pmid": "30772098",
+      "doi": "10.1016/j.jaad.2018.11.057",
+      "record_title": "Joint AAD-NPF guidelines of care for the management and treatment of psoriasis with biologics.",
+      "record_journal": "J Am Acad Dermatol",
+      "record_year": "2019",
+      "article_type": "Journal Article; Practice Guideline; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. PubMed lists a published comment on this guideline (PMID 30930086, letter from Janssen Scientific Affairs); content of the comment not reviewed. Abstract-only: used only for the prevalence and disease-definition sentence.",
+      "claims": [
+        {
+          "text": "Psoriasis is a chronic, inflammatory, multisystem disease affecting up to 3.2% of the U.S. population",
+          "quote": "Psoriasis is a chronic, inflammatory multisystem disease that affects up to 3.2% of the US population.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "The six AAD-NPF sections appear in JAAD, including the biologics section",
+          "quote": "The treatment of psoriasis with biologic agents will be reviewed, emphasizing treatment recommendations",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "cited_as": "American Academy of Dermatology. \"Psoriasis Clinical Guideline\" (summary page for the joint AAD-NPF guideline sections). Accessed November 7, 2026.",
+      "url": "https://www.aad.org/member/clinical-quality/guidelines/psoriasis",
+      "kind": "guideline",
+      "version_or_date": "Undated AAD summary page listing six joint AAD-NPF guideline sections; read 2026-11-07",
+      "retrieved_with": "WebFetch of official page (AAD marks page content as protected; short verbatim fragments returned)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Replaces former ref 2 (National Psoriasis Foundation guidelines page), which was outdated (five sections, topicals pending) and did not support the claims attributed to it. Quotes are fragments under 125 characters, as returned by the fetch tool.",
+      "claims": [
+        {
+          "text": "Comorbidities listed: arthritis, heart disease, metabolic syndrome, smoking, alcohol, IBD, psychiatric disorders",
+          "quote": "including arthritis, heart disease, metabolic syndrome, smoking, excessive alcohol intake ... inflammatory bowel disease, and psychiatric disorders",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Topical corticosteroids recommended for plaque psoriasis not involving intertriginous areas",
+          "quote": "Topical corticosteroids are recommended for the treatment of plaque psoriasis not involving intertriginous areas.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Six joint guideline sections (topical/severity, systemic nonbiologic, pediatric, phototherapy, biologics, comorbidities)",
+          "quote": "Topical therapy and alternative medicine for psoriasis severity measures; Systemic non-biological therapies; Pediatric patients; Phototherapy; Biologics; Awareness and attention to comorbidities",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "BSA, PGA, BSA x PGA for clinical practice; PASI for trials not practice; DLQI/PSI/pruritus add information",
+          "quote": "While BSA, PGA, BSA x PGA can be used in clinical practice ... PASI is a tool recommended for clinical trials and not for clinical practice.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "QoL tools such as DLQI, PSI and pruritus assessment add useful information",
+          "quote": "quality of life assessment tools such as DLQI, PSI and pruritus assessment can provide useful information",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Topical corticosteroid use beyond 12 weeks only under careful physician supervision",
+          "quote": "The use of topical corticosteroids for > 12 weeks can be considered if done under careful supervision of a physician.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Tazarotene used with topical corticosteroids for skin or nail psoriasis",
+          "quote": "Topical tazarotene is used in combination with topical corticosteroids for skin or nail psoriasis.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Face and genital psoriasis respond to off-label topical calcineurin inhibitors",
+          "quote": "Psoriasis treatment of the face and genitalia is effective with off-label topical calcineurin inhibitors.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Systemic guideline revised MTX hepatotoxicity monitoring with non-invasive fibrosis tests",
+          "quote": "revised monitoring guidance for methotrexate associated hepatotoxicity recommending new non-invasive tests",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Biologics used alone or with other psoriasis therapies",
+          "quote": "biologic agents used as monotherapy or in combination with other psoriasis therapies",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "PsA among major comorbid conditions; dermatologist screens for comorbidities or alerts primary care",
+          "quote": "assessment and management of major comorbid conditions associated with psoriasis, including psoriatic arthritis ... identifying comorbidities by screening for them and/or alerting",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Psoriasis described as chronic, multisystem, inflammatory disease",
+          "quote": "Psoriasis is a chronic, multisystem, inflammatory disease",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dermatologists can screen for CV risk factors or alert primary care",
+          "quote": "The guideline also highlights the dermatologist's role in identifying comorbidities by screening for them and/or alerting",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "cited_as": "TALTZ (ixekizumab) injection, prescribing information. DailyMed. Revised 8/2025 (updated January 22, 2026). Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ac96658a-d7dc-4c7c-8928-2adcdf4318b2",
+      "kind": "label",
+      "version_or_date": "Revised 8/2025; DailyMed updated 2026-01-22",
+      "retrieved_with": "WebFetch of official label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Ixekizumab binds IL-17A",
+          "quote": "selectively binds with the interleukin 17A (IL-17A) cytokine",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "PASI 90 at week 12 in 68% to 71% (Trials 1-3)",
+          "quote": "PASI 90 307 (71) 2 (1) 248 (71) 1 (1) 262 (68) 6 (3)",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dosing 160 mg, then 80 mg every 2 weeks through week 12, then every 4 weeks",
+          "quote": "160 mg (two 80 mg injections) at Week 0, followed by 80 mg at Weeks 2, 4, 6, 8, 10, and 12, then 80 mg every 4 weeks.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Genital psoriasis trial: 73% vs 8% clear or minimal at week 12",
+          "quote": "Trial 4 ... sPGA of Genitalia 0 or 1 at Week 12: 73% (55/75) TALTZ Q2W vs 8% (6/74) placebo",
+          "quote_source": "label",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "cited_as": "TREMFYA (guselkumab) injection, prescribing information. DailyMed. Revised 5/2026. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=1e6dc9ae-1c4c-42d9-87aa-c315ecc51b56",
+      "kind": "label",
+      "version_or_date": "Revised 5/2026",
+      "retrieved_with": "WebFetch of official label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Guselkumab binds the p19 subunit of IL-23",
+          "quote": "Guselkumab is a human monoclonal IgG1λ antibody that selectively binds to the p19 subunit of interleukin 23 (IL-23).",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "PASI 90 at week 16: 73% and 70%",
+          "quote": "PASI 90 response ... PsO1: TREMFYA 73% (241/329) vs placebo 3% (5/174); PsO2: TREMFYA 70% (347/496) vs placebo 2% (6/248)",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dosing 100 mg at weeks 0 and 4, then every 8 weeks",
+          "quote": "Administer TREMFYA by subcutaneous injection at Week 0, Week 4, and every 8 weeks thereafter.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "cited_as": "SKYRIZI (risankizumab-rzaa) injection, prescribing information. DailyMed. Revised 6/2026. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=7148c8eb-b39e-e20a-6494-a6df82392858",
+      "kind": "label",
+      "version_or_date": "Revised 6/2026",
+      "retrieved_with": "WebFetch of official label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Replaces the risankizumab PASI 90 72% / PASI 100 56% at 52 weeks and 5-year claims formerly attributed to the BADBIR registry study, which does not contain them.",
+      "claims": [
+        {
+          "text": "PASI 90 at week 16: 75% in both trials; PASI 100: 36% and 51%; placebo 5% or less",
+          "quote": "PsO-1: PASI 90 75% (229/304) vs 5% (5/102); PASI 100 36% (109/304) vs 0%. PsO-2: PASI 90 75% (220/294) vs 2% (2/98); PASI 100 51% (149/294) vs 2%",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Indicated for moderate-to-severe plaque psoriasis in candidates for systemic therapy or phototherapy",
+          "quote": "is indicated for the treatment of moderate-to-severe plaque psoriasis in adults",
+          "quote_source": "label",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Dosing 150 mg at weeks 0 and 4, then every 12 weeks",
+          "quote": "150 mg administered by subcutaneous injection at Week 0, Week 4, and every 12 weeks thereafter.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "cited_as": "Butacu AI, Toma C, Negulet IE, et al. \"Updates on Psoriasis in Special Areas.\" Journal of Clinical Medicine. 2024;13(24):7549.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39768472/",
+      "kind": "journal",
+      "pmid": "39768472",
+      "pmcid": "PMC11728371",
+      "doi": "10.3390/jcm13247549",
+      "record_title": "Updates on Psoriasis in Special Areas.",
+      "record_journal": "J Clin Med",
+      "record_year": "2024",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Narrative review. The former claims 'up to 80% of those with PsA' (nail) and '33-40% lifetime' (genital) were not found in the full text and were cut.",
+      "claims": [
+        {
+          "text": "Inverse psoriasis: low-to-mid potency steroids short term (max 4 weeks); calcineurin inhibitors long term",
+          "quote": "First-line options include low-tomid-potency topical corticosteroids ... short-term therapy is required (maximum of 4 weeks) ... Tacrolimus and pimecrolimus can be used as long-term therapy.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Special-site psoriasis considered more severe even when lesions not extensive",
+          "quote": "Psoriasis is considered more severe in these cases even if the lesions are not extensive or affect a significant proportion of the body surface area",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Low-potency steroids for genital psoriasis, 2 to 4 weeks",
+          "quote": "topical steroids, especially low-potency topical steroids, administrated for a short period of time (2–4 weeks)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Calcineurin inhibitors suit thinner skin of skin folds",
+          "quote": "topical calcineurin inhibitors, which are efficient for the thinner skin of intertriginous areas",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "308-nm excimer laser effective for scalp psoriasis",
+          "quote": "UVB narrow band and 308-nanometer excimer laser represent effective options for the management of scalp psoriasis.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "IL-17 inhibitors generally outperform ustekinumab for nail psoriasis",
+          "quote": "Comparative studies have shown that IL-17 inhibitors generally offer superior efficacy to IL-12/23 inhibitors, such as ustekinumab, for nail psoriasis.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Scalp involvement 45-56%; pain, itching, bleeding, embarrassment",
+          "quote": "Scalp involvement occurs in 45–56% of individuals with psoriasis. ... The quality of life of patients may be decreased by pain, itching, bleeding, feelings of embarrassment",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Scalp: steroids as foam, gel, solution, shampoo, spray; steroid plus vitamin D long-term results; keratolytic/tar shampoos, poor long-term compliance",
+          "quote": "In scalp psoriasis, topical steroids should be used as foam, gel, solution, shampoo, or spray []. Topical steroids in association with vitamin D analogs have shown long-term results.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Systemic agents first-line for scalp with moderate-to-severe body disease; guselkumab, infliximab, ixekizumab, brodalumab highest scalp clearance; ixekizumab 10-20% higher response",
+          "quote": "Systemic agents represent the first line of treatment for patients with scalp psoriasis and accompanying moderate-to-severe psoriasis of the trunk and extremities",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Ixekizumab 10-20% higher scalp response rate at week 12",
+          "quote": "Patients with scalp psoriasis had a 10–20% higher response rate and significantly greater odds (1.8–2.3) of achieving clearance at week 12 with ixekizumab compared to included biologics",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Nail involvement 10-55%; frequently associated with PsA",
+          "quote": "Nail involvement may be encountered in 10–55% of patients with psoriasis ... nail psoriasis is frequently associated with psoriatic arthritis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Mild nail: calcipotriol plus high-potency steroid first-line; tacrolimus, tazarotene second-line",
+          "quote": "first-line therapy is represented by topical calcipotriol in association with high-potency topical corticosteroid ... the second-line therapy includes topical tacrolimus and topical tazarotene",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Intralesional triamcinolone into nail folds second-line; biologics first-line for moderate-to-severe nail disease",
+          "quote": "In moderate-to-severe nail psoriasis, first-line therapy typically includes biological agents ... Second-line therapy includes methotrexate, topical therapy ... triamcinolone acetonide injections in the nail folds",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Apremilast second-line for nails; up to 55.4% NAPSI-50 at week 32",
+          "quote": "In trials such as ESTEEM 1 and 2, up to 55.4% of patients achieved a NAPSI-50 response (a 50% improvement in nail severity) at week 32",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Brodalumab substantial nail improvement in phase III trials",
+          "quote": "recent phase III trials indicating substantial improvements in nail symptoms among patients with moderate-to-severe plaque psoriasis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Genital-only involvement 2-5%; underdiagnosed; impact on QoL and sexual health",
+          "quote": "Genital involvement may be the only manifestation of cutaneous psoriasis in 2–5% of patients. Underdiagnosis, from both the healthcare providers and patients",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Genital skin thinner and occluded, more absorption, atrophy, telangiectasia, striae",
+          "quote": "The genital skin is thinner and frequently occluded, which increases absorption of topical treatments, leading to a higher potency and side effects such as atrophy, telangiectasia, and striae",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Crisaborole 2% ointment RCT effective for intertriginous, genital, facial psoriasis",
+          "quote": "a double-blind, randomized, vehicle-controlled trial demonstrated efficiency and safety of crisaborole 2% ointment in the treatment of intertriginous, genital, and facial psoriasis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "cited_as": "SPEVIGO (spesolimab-sbzo) injection, prescribing information. DailyMed. Revised 10/2025. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=41a481ee-3062-45d1-aed5-17e8b105634d",
+      "kind": "label",
+      "version_or_date": "Revised 10/2025",
+      "retrieved_with": "WebFetch of official label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Spesolimab is an IL-36 receptor antagonist, first approved 2022, indicated for GPP in adults and patients 12+ weighing at least 40 kg",
+          "quote": "SPEVIGO is indicated for the treatment of generalized pustular psoriasis (GPP) in adults and pediatric patients 12 years of age and older weighing at least 40 kg ... Initial U.S. Approval: 2022",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "cited_as": "Elmets CA, Korman NJ, Prater EF, et al. \"Joint AAD-NPF Guidelines of care for the management and treatment of psoriasis with topical therapy and alternative medicine modalities for psoriasis severity measures.\" Journal of the American Academy of Dermatology. 84(2):432-470. Epub 2020 Jul 30.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32738429/",
+      "kind": "guideline",
+      "pmid": "32738429",
+      "doi": "10.1016/j.jaad.2020.07.087",
+      "record_title": "Joint AAD-NPF Guidelines of care for the management and treatment of psoriasis with topical therapy and alternative medicine modalities for psoriasis severity measures.",
+      "record_journal": "J Am Acad Dermatol",
+      "record_year": "2020 (epub)",
+      "article_type": "Journal Article; Practice Guideline",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Full text on jaad.org could not be retrieved (fetch failed); abstract-only, so it supports only the scope statements. Specific topical recommendations formerly cited here were re-sourced to the AAD summary page and FDA labels or cut.",
+      "claims": [
+        {
+          "text": "Topical guideline covers topical agents and severity assessment in adults",
+          "quote": "The treatment of psoriasis with topical agents and with alternative medicine will be reviewed ... This guideline will also address the severity assessment methods of psoriasis in adults.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "cited_as": "Canadian Agency for Drugs and Technologies in Health (CADTH). \"Appendix 5: Validity of Outcome Measures.\" In: Clinical Review Report: Guselkumab (Tremfya). Ottawa: CADTH; March 2018. NCBI Bookshelf.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK534046/",
+      "kind": "agency_page",
+      "version_or_date": "March 2018",
+      "retrieved_with": "WebFetch of official page (NCBI Bookshelf)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "PASI: four regions weighted 10/20/30/40%, erythema/induration/scaling 0-4, extent 0-6, total 0-72",
+          "quote": "head (h), upper extremities (u), trunk (t) and lower extremities (l) ... that account for 10%, 20%, 30%, and 40% of the total body surface area ... produces a numeric score ranging from 0 to 72",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "cited_as": "Menter A, Tyring SK, Gordon K, et al. \"Adalimumab therapy for moderate to severe psoriasis: A randomized, controlled phase III trial.\" Journal of the American Academy of Dermatology. 58(1):106-115. Epub 2007 Oct 23.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17936411/",
+      "kind": "journal",
+      "pmid": "17936411",
+      "doi": "10.1016/j.jaad.2007.09.010",
+      "record_title": "Adalimumab therapy for moderate to severe psoriasis: A randomized, controlled phase III trial.",
+      "record_journal": "J Am Acad Dermatol",
+      "record_year": "2007 (epub)",
+      "article_type": "Clinical Trial, Phase III; Randomized Controlled Trial; Multicenter Study",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. New source added this run for the TNF inhibitor efficacy figure.",
+      "claims": [
+        {
+          "text": "71% adalimumab vs 7% placebo reached PASI 75 at week 16",
+          "quote": "At week 16, 71% (578 of 814) of adalimumab- and 7% (26 of 398) of placebo-treated patients achieved greater than or equal to 75% improvement in the PASI score.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "cited_as": "COSENTYX (secukinumab) injection, prescribing information. DailyMed. Revised 4/2026. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=77c4b13e-7df3-42d4-81db-3d0cddb7f67a",
+      "kind": "label",
+      "version_or_date": "Revised 4/2026",
+      "retrieved_with": "WebFetch of official label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Replaces former ref 5 (BMC Immunology meta-analysis of Asian populations), which did not contain the secukinumab figures. The former PASI 100 28% figure and 'first IL-17A inhibitor, January 2015' were not found in retrieved sources and were cut.",
+      "claims": [
+        {
+          "text": "PASI 90 at week 12: 59% and 54% on 300 mg vs 1% and 2% placebo",
+          "quote": "PsO1: PASI 90 59% (145/245) vs 1% (3/248); PsO2: PASI 90 54% (175/327) vs 2% (5/326)",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dosing 300 mg at weeks 0-4 then every 4 weeks",
+          "quote": "The recommended dosage in adults with PsO is 300 mg by subcutaneous injection at Weeks 0, 1, 2, 3, and 4 and every 4 weeks thereafter.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Indication: moderate to severe plaque psoriasis in candidates for systemic therapy or phototherapy (no prior failure required)",
+          "quote": "COSENTYX is indicated for the treatment of moderate to severe plaque psoriasis (PsO) in adults and pediatric patients 6 years and older who are candidates for systemic therapy or phototherapy.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "cited_as": "Gabros S, Nessel TA, Zito PM. \"Topical Corticosteroids.\" StatPearls. NCBI Bookshelf. Updated April 26, 2025. Accessed November 7, 2026.",
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK532940/",
+      "kind": "other_web",
+      "version_or_date": "Last update 2025-04-26",
+      "retrieved_with": "WebFetch of NCBI Bookshelf page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Tertiary reference used only for potency class examples. Desoximetasone 0.25% was not listed with a strength in class II, so the strength was removed.",
+      "claims": [
+        {
+          "text": "Class I examples: clobetasol 0.05%, augmented betamethasone dipropionate 0.05% gel or ointment",
+          "quote": "clobetasol propionate 0.05% in any vehicle ... augmented betamethasone dipropionate 0.05% gel or ointment",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "High-potency steroids for palms/soles and non-facial, non-intertriginous areas",
+          "quote": "High-potency steroids are used for the palms and soles due to the thick stratum corneum and in non-facial/non-intertriginous areas",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Class II: fluocinonide 0.05%, desoximetasone cream/gel/ointment",
+          "quote": "fluocinonide 0.05% cream or gel or ointment ... desoximetasone cream or gel or ointment",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Class IV-V: triamcinolone acetonide 0.1%, betamethasone valerate 0.1%",
+          "quote": "triamcinolone acetonide 0.1% cream or lotion or ointment ... betamethasone valerate 0.1% cream or lotion or foam",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Class VII: hydrocortisone 1% and 2.5%",
+          "quote": "Class VII are least-potent corticosteroids: hydrocortisone 1% and 2.5% cream lotion or ointment.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "cited_as": "Clobetasol propionate cream 0.05% (emollient), prescribing information. DailyMed. Revised August 2025. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=91571297-03ad-441e-8ec6-f78c21fbe5e8",
+      "kind": "label",
+      "version_or_date": "Revised August 2025 (Highlights 9/2019)",
+      "retrieved_with": "WebFetch of official label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Limit 2 consecutive weeks and 50 g per week; not on face, groin, axillae",
+          "quote": "Treatment should be limited to 2 consecutive weeks, and the total dosage should not exceed 50 grams per week. ... should not be used on the face, groin, or axillae",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Absorption can cause reversible HPA axis suppression",
+          "quote": "Systemic absorption of topical corticosteroids can produce reversible HPA axis suppression",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "cited_as": "ENSTILAR (calcipotriene and betamethasone dipropionate) foam, prescribing information. DailyMed. Revised 4/2022. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=d1193df2-d53f-4342-bd9d-d9cba7c89709",
+      "kind": "label",
+      "version_or_date": "Revised 4/2022",
+      "retrieved_with": "WebFetch of official label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Trial One percentages were read from the label's efficacy table; the fetch tool returned them as table values rather than a sentence, so that claim is marked partly_supported.",
+      "claims": [
+        {
+          "text": "Week 4: 45.0% combination vs 30.7% betamethasone vs 14.9% calcipotriene clear/almost clear",
+          "quote": "Trial One, Week 4 treatment success (IGA Clear or Almost Clear): Enstilar Foam 45.0%; betamethasone dipropionate in vehicle 30.7%; calcipotriene in vehicle 14.9%",
+          "quote_source": "label",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Once daily up to 4 weeks; max 60 g every 4 days; avoid face, groin, axillae; hypercalcemia observed",
+          "quote": "Apply Enstilar Foam to affected area(s) once daily for up to 4 weeks. ... Do not use more than 60 grams every 4 days. ... Avoid use on the face, groin, or axillae",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hypercalcemia and hypercalciuria observed",
+          "quote": "Hypercalcemia and hypercalciuria have been observed with use of Enstilar Foam.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "cited_as": "TAZORAC (tazarotene) gel, prescribing information. DailyMed. Revised 4/2018. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=75145c21-6ef2-455a-8a67-d48ddd4181a4",
+      "kind": "label",
+      "version_or_date": "Revised 4/2018 (DailyMed archive lists a later version dated 2023-11-22; this page served the 4/2018 text)",
+      "retrieved_with": "WebFetch of official label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Contraindicated in pregnancy; negative pregnancy test within 2 weeks; effective contraception",
+          "quote": "TAZORAC Gel may cause fetal harm when administered to a pregnant female and is contraindicated during pregnancy. ... A negative result for pregnancy test should be obtained within 2 weeks prior to TAZORAC Gel therapy.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Can cause excessive irritation",
+          "quote": "Application of TAZORAC Gel may cause excessive irritation in the skin of certain sensitive individuals.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "cited_as": "Hauptman M, El Othmani A, Pazhyanur S, et al. \"Narrowband-Ultraviolet B Phototherapy for Psoriasis Treatment in Skin of Color: A Systematic Review and Meta-Analysis.\" Photodermatology, Photoimmunology & Photomedicine. 2025;41(5):e70051.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40908513/",
+      "kind": "journal",
+      "pmid": "40908513",
+      "pmcid": "PMC12411661",
+      "doi": "10.1111/phpp.70051",
+      "record_title": "Narrowband-Ultraviolet B Phototherapy for Psoriasis Treatment in Skin of Color: A Systematic Review and Meta-Analysis.",
+      "record_journal": "Photodermatol Photoimmunol Photomed",
+      "record_year": "2025",
+      "article_type": "Systematic Review; Meta-Analysis",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. The former '62-70%' range mixed this paper's background figure (62%, from another source) with its pooled estimate; only the pooled 70.5% is kept.",
+      "claims": [
+        {
+          "text": "NB-UVB effective after failed topicals or to avoid systemic treatment",
+          "quote": "Narrowband-ultraviolet B (NB-UVB) phototherapy is an effective treatment for psoriasis in patients who have failed topical regimens or those who desire to avoid systemic treatment.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "70.5% reached PASI 75; courses 2x/week for 8 weeks to 3x/week for 12 weeks; more complete clearance than BB-UVB",
+          "quote": "70.5% achieved a PASI75 after completing NB-UVB treatment, ranging from 2×/week for 8 weeks to 3×/week for 12 weeks.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "NB-UVB higher complete clearance than BB-UVB",
+          "quote": "NB-UVB demonstrated a higher rate of complete clearance when compared to BB-UVB",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "cited_as": "Gelfand JM, Armstrong AW, Lim HW, et al. \"Home- vs Office-Based Narrowband UV-B Phototherapy for Patients With Psoriasis: The LITE Randomized Clinical Trial.\" JAMA Dermatology. 2024;160(12):1320-1328.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39319513/",
+      "kind": "journal",
+      "pmid": "39319513",
+      "pmcid": "PMC11425190",
+      "doi": "10.1001/jamadermatol.2024.3897",
+      "record_title": "Home- vs Office-Based Narrowband UV-B Phototherapy for Patients With Psoriasis: The LITE Randomized Clinical Trial.",
+      "record_journal": "JAMA Dermatol",
+      "record_year": "2024",
+      "article_type": "Randomized Controlled Trial; Equivalence Trial; Pragmatic Clinical Trial; Multicenter Study",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. First author corrected from Armstrong AW to Gelfand JM per PubMed. 'Comparable safety' replaced: home therapy had more episodes of persistent erythema.",
+      "claims": [
+        {
+          "text": "Office phototherapy cost-effective but hard to access",
+          "quote": "Office-based phototherapy is cost-effective for psoriasis but difficult to access.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "783 patients; 12-week home NB-UVB noninferior for PGA and DLQI overall and across skin phototypes",
+          "quote": "Home-based phototherapy was noninferior to office-based phototherapy for PGA and DLQI in the overall population and across all SPTs.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Better adherence, lower indirect costs, more persistent erythema",
+          "quote": "was associated with better treatment adherence (202 patients [51.4%] vs 62 patients [15.9%]; P < .001), lower burden of indirect costs to patients, and more episodes of persistent erythema",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "cited_as": "Elmets CA, Lim HW, Stoff B, et al. \"Joint American Academy of Dermatology-National Psoriasis Foundation guidelines of care for the management and treatment of psoriasis with phototherapy.\" Journal of the American Academy of Dermatology. 2019;81(3):775-804.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31351884/",
+      "kind": "guideline",
+      "pmid": "31351884",
+      "doi": "10.1016/j.jaad.2019.04.042",
+      "record_title": "Joint American Academy of Dermatology-National Psoriasis Foundation guidelines of care for the management and treatment of psoriasis with phototherapy.",
+      "record_journal": "J Am Acad Dermatol",
+      "record_year": "2019",
+      "article_type": "Journal Article (practice guideline per title)",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Abstract-only; the former '10-20 sessions' and 'faster clearance' excimer claims were not in the abstract and were cut.",
+      "claims": [
+        {
+          "text": "Guideline covers NB-UVB alone or with topical/systemic treatments",
+          "quote": "provide recommendations and guidance for the use of these therapies alone or in conjunction with other topical and/or systemic psoriasis treatments",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Covers targeted UVB such as excimer laser",
+          "quote": "targeted UVB treatments such as with an excimer laser",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "cited_as": "Menter A, Gelfand JM, Connor C, et al. \"Joint American Academy of Dermatology-National Psoriasis Foundation guidelines of care for the management of psoriasis with systemic nonbiologic therapies.\" Journal of the American Academy of Dermatology. 2020;82(6):1445-1486.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32119894/",
+      "kind": "guideline",
+      "pmid": "32119894",
+      "doi": "10.1016/j.jaad.2020.02.044",
+      "record_title": "Joint American Academy of Dermatology-National Psoriasis Foundation guidelines of care for the management of psoriasis with systemic nonbiologic therapies.",
+      "record_journal": "J Am Acad Dermatol",
+      "record_year": "2020",
+      "article_type": "Journal Article; Practice Guideline",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. New source added this run (abstract only).",
+      "claims": [
+        {
+          "text": "Focus on methotrexate, cyclosporine, acitretin; also apremilast and tofacitinib",
+          "quote": "including methotrexate, cyclosporine, and acitretin ... Additionally, we discuss newer therapies, including tofacitinib and apremilast",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "cited_as": "Methotrexate tablets, prescribing information (NDA 008085). U.S. Food and Drug Administration. Revised 05/2026. Accessed November 7, 2026.",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/008085s072lbl.pdf",
+      "kind": "label",
+      "version_or_date": "Revised 05/2026",
+      "retrieved_with": "WebFetch of FDA label PDF (Drugs@FDA)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Indicated for adults with severe psoriasis; 10-25 mg once weekly; max 30 mg/week; folic or folinic acid",
+          "quote": "Methotrexate Tablets is indicated for the treatment of adults with severe psoriasis. ... 10 to 25 mg orally once weekly until an adequate response is achieved ... do not exceed a dose of 30 mg per week",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Folic or folinic acid to reduce adverse reactions",
+          "quote": "Administer folic acid or folinic acid supplementation to reduce the risk of methotrexate adverse reactions",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Boxed warning: embryo-fetal toxicity, hypersensitivity, serious adverse reactions incl death, daily dosing errors",
+          "quote": "WARNING: EMBRYO-FETAL TOXICITY, HYPERSENSITIVITY REACTIONS, SEVERE ADVERSE REACTIONS, and RISK OF MEDICATION ERRORS ... when inadvertently administered once daily have resulted in death.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hepatotoxicity: fibrosis, cirrhosis, may occur without symptoms in psoriasis; risk with alcohol and cumulative dose",
+          "quote": "In patients with psoriasis, fibrosis or cirrhosis may occur in the absence of symptoms or abnormal liver tests ... The risk of hepatotoxicity is increased with heavy alcohol consumption.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "cited_as": "NEORAL (cyclosporine capsules and oral solution, modified), prescribing information. DailyMed. Updated July 10, 2026. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94461af3-11f1-4670-95d4-2965b9538ae3",
+      "kind": "label",
+      "version_or_date": "DailyMed updated 2026-07-10",
+      "retrieved_with": "WebFetch of official label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "The fetch tool returned the indication and relapse sentences only as truncated quotes; the remainder (recalcitrant, not responded to at least one systemic therapy; relapse on cessation) is from the tool's paraphrase, so those claims are partly_supported.",
+      "claims": [
+        {
+          "text": "Indicated for nonimmunocompromised adults with severe, recalcitrant plaque psoriasis not responding to at least one systemic therapy",
+          "quote": "Neoral is indicated for the treatment of adult, nonimmunocompromised patients with severe",
+          "quote_source": "label",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Start 2.5 mg/kg/day; max 4.0 mg/kg/day",
+          "quote": "the starting dose is low (2.5 mg/kg/day), the maximum dose does not exceed 4.0 mg/kg/day",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Boxed warning: hypertension, nephrotoxicity; skin malignancy risk after PUVA and to lesser extent methotrexate",
+          "quote": "Psoriasis patients previously treated with PUVA and to a lesser extent, methotrexate ... are at an increased risk of developing skin malignancies when taking Neoral.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Can cause hypertension and nephrotoxicity",
+          "quote": "Cyclosporine, the active ingredient in Neoral, in recommended dosages, can cause systemic hypertension and nephrotoxicity.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "BP, creatinine, BUN every 2 weeks for first 3 months; most relapse on cessation",
+          "quote": "Serum creatinine and BUN should be evaluated every 2 weeks during the initial 3 months ... Blood pressure should be evaluated every 2 weeks during the initial 3 months of therapy",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most patients relapse after stopping",
+          "quote": "While rebound rarely occurs, most patients will experience relapse with Neoral as with other therapies",
+          "quote_source": "label",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "cited_as": "OTEZLA (apremilast) tablets and OTEZLA XR extended-release tablets, prescribing information (NDA 205437). U.S. Food and Drug Administration. Revised 12/2025. Accessed November 7, 2026.",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/205437s016lbl.pdf",
+      "kind": "label",
+      "version_or_date": "Revised 12/2025",
+      "retrieved_with": "WebFetch of FDA label PDF (Drugs@FDA); DailyMed page (Revised 9/2026) also read for indication and dosing",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Corrects the former 'PASI 75 approximately 30-40%' to the label values (33.1% and 28.8%). Former claims about no lab monitoring, teratogenicity, and oral/genital benefit were not in retrieved sources and were cut.",
+      "claims": [
+        {
+          "text": "Indicated for adults with plaque psoriasis who are candidates for phototherapy or systemic therapy",
+          "quote": "indicated for the treatment of adult patients with plaque psoriasis who are candidates for phototherapy or systemic therapy",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Maintenance 30 mg twice daily or XR 75 mg once daily; no boxed warning",
+          "quote": "the recommended maintenance dosage is OTEZLA 30 mg twice daily or OTEZLA XR 75 mg once daily",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "PASI 75 at week 16: 33.1% and 28.8% vs 5.3% and 5.8%",
+          "quote": "PASI-75, n (%) 15 (5.3) 186 (33.1) 8 (5.8) 79 (28.8)",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Warnings: diarrhea/nausea/vomiting, depression, weight decrease; common AEs",
+          "quote": "5.2 Diarrhea, Nausea, and Vomiting; 5.3 Depression; 5.4 Weight Decrease ... The most common adverse reactions (≥ 5%) are diarrhea, nausea, upper respiratory tract infection, and headache",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "cited_as": "SOTYKTU (deucravacitinib) tablets, prescribing information. DailyMed. Revised 6/2026. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=ff4d7258-5068-4cdf-9692-8cae04c3198e",
+      "kind": "label",
+      "version_or_date": "Revised 6/2026",
+      "retrieved_with": "WebFetch of official label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New source added this run; deucravacitinib was missing from the oral therapy section.",
+      "claims": [
+        {
+          "text": "TYK2 inhibitor; indication; 6 mg once daily",
+          "quote": "SOTYKTU is indicated for the treatment of moderate-to-severe plaque psoriasis in adults who are candidates for systemic therapy or phototherapy. ... 6 mg taken orally once daily",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "TYK2 mechanism",
+          "quote": "Deucravacitinib is an inhibitor of tyrosine kinase 2 (TYK2).",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "PASI 75 at week 16: 58% and 53% vs 13% and 9%",
+          "quote": "PSO-1: 58% (193/330) vs 13% (21/166); PSO-2: 53% (271/511) vs 9% (24/255)",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Not recommended with other potent immunosuppressants",
+          "quote": "SOTYKTU is not recommended for use in combination with other potent immunosuppressants.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "cited_as": "HUMIRA (adalimumab) injection, prescribing information. DailyMed. Revised 12/2025. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=4977567e-3525-44ac-9ff5-f1e74b053950",
+      "kind": "label",
+      "version_or_date": "Revised 12/2025",
+      "retrieved_with": "WebFetch of official label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "The label's psoriasis efficacy table could not be reached in the fetched text; efficacy is cited to the REVEAL trial instead.",
+      "claims": [
+        {
+          "text": "Dose 80 mg then 40 mg every other week",
+          "quote": "an initial dose of 80 mg, followed by 40 mg given every other week starting one week after the initial dose.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Boxed warning serious infections and malignancy; TB testing before and during",
+          "quote": "WARNING: SERIOUS INFECTIONS AND MALIGNANCY ... Test patients for latent TB before HUMIRA use and during therapy.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Warnings on heart failure and neurologic reactions including demyelinating disease",
+          "quote": "5.8 Heart Failure ... 5.5 Neurologic Reactions",
+          "quote_source": "label",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "cited_as": "Motedayen Aval L, Yiu ZZN, Alabas OA, et al. \"Drug survival of IL-23 and IL-17 inhibitors versus other biologics for psoriasis: A British Association of Dermatologists Biologics and Immunomodulators Register cohort study.\" Journal of the European Academy of Dermatology and Venereology. 2025;39(10):1785-1795.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40439435/",
+      "kind": "journal",
+      "pmid": "40439435",
+      "pmcid": "PMC12466084",
+      "doi": "10.1111/jdv.20739",
+      "record_title": "Drug survival of IL-23 and IL-17 inhibitors versus other biologics for psoriasis: A British Association of Dermatologists Biologics and Immunomodulators Register cohort study.",
+      "record_journal": "J Eur Acad Dermatol Venereol",
+      "record_year": "2025",
+      "article_type": "Journal Article; Comparative Study (registry cohort)",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Link changed from the publisher page to PubMed. The risankizumab PASI 90/100 trial figures formerly cited here are not in this paper and were moved to the Skyrizi label.",
+      "claims": [
+        {
+          "text": "Secukinumab IL-17A inhibitor; risankizumab IL-23p19 inhibitor",
+          "quote": "secukinumab (IL-17A inhibitor, n = 3,051) ... risankizumab (IL-23p19 inhibitor)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "19,034 treatment courses; guselkumab and risankizumab most favourable drug survival for effectiveness",
+          "quote": "Among 19,034 treatment courses ... Guselkumab and risankizumab have the most favourable drug survival for effectiveness",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "cited_as": "SILIQ (brodalumab) injection, prescribing information. DailyMed. Revised 2/2026. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=1a550c33-456a-4833-814e-8591aea7c688",
+      "kind": "label",
+      "version_or_date": "Revised 2/2026 (package label section 5/2026)",
+      "retrieved_with": "WebFetch of official label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New source: the former text omitted brodalumab's boxed warning for suicidal ideation and behavior.",
+      "claims": [
+        {
+          "text": "Binds IL-17RA",
+          "quote": "Brodalumab is a human monoclonal IgG2 antibody that selectively binds to human IL-17RA",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Boxed warning suicidal ideation and behavior; REMS",
+          "quote": "WARNING: SUICIDAL IDEATION AND BEHAVIOR ... SILIQ is available only through a restricted program under a REMS called the SILIQ REMS Program",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Every 2 weeks maintenance",
+          "quote": "210 mg administered by subcutaneous injection at Weeks 0, 1, and 2 followed by 210 mg every 2 weeks",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "cited_as": "ILUMYA (tildrakizumab-asmn) injection, prescribing information. DailyMed. Revised 10/2026. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=c6a322bb-51b9-4f0e-8642-62a9682ffcde",
+      "kind": "label",
+      "version_or_date": "Revised 10/2026",
+      "retrieved_with": "WebFetch of official label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Binds p19 subunit of IL-23",
+          "quote": "selectively binds to the p19 subunit of IL-23",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "100 mg at weeks 0, 4, then every 12 weeks",
+          "quote": "The recommended dosage is 100 mg at Weeks 0, 4, and every 12 weeks thereafter.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "cited_as": "STELARA (ustekinumab) injection, prescribing information. DailyMed. Revised 8/2026. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=c77a9664-e3bb-4023-b400-127aa53bca2b",
+      "kind": "label",
+      "version_or_date": "Revised 8/2026",
+      "retrieved_with": "WebFetch of official label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "The former table's ustekinumab PASI 90 range (55-65%) was not in the label text retrieved; replaced with label PASI 75 at week 12.",
+      "claims": [
+        {
+          "text": "PASI 75 at week 12: 66% to 76%",
+          "quote": "Ps STUDY 1: placebo 3%, 45 mg 67%, 90 mg 66%; Ps STUDY 2: placebo 4%, 45 mg 67%, 90 mg 76%",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Every 12 weeks, 45 or 90 mg by weight",
+          "quote": "45 mg initially and 4 weeks later, followed by 45 mg every 12 weeks ... 90 mg initially and 4 weeks later, followed by 90 mg every 12 weeks",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "cited_as": "Mease PJ, Gladman DD, Papp KA, et al. \"Prevalence of rheumatologist-diagnosed psoriatic arthritis in patients with psoriasis in European/North American dermatology clinics.\" Journal of the American Academy of Dermatology. 2013;69(5):729-735.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23981683/",
+      "kind": "journal",
+      "pmid": "23981683",
+      "doi": "10.1016/j.jaad.2013.07.023",
+      "record_title": "Prevalence of rheumatologist-diagnosed psoriatic arthritis in patients with psoriasis in European/North American dermatology clinics.",
+      "record_journal": "J Am Acad Dermatol",
+      "record_year": "2013",
+      "article_type": "Journal Article; Multicenter Study",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. New primary source for the PsA prevalence figure, which was previously uncited ('20-30%', 'up to 30%').",
+      "claims": [
+        {
+          "text": "949 patients; 30% had PsA; 41% previously undiagnosed",
+          "quote": "Of 949 patients evaluated, 285 (30%) had PsA (95% confidence interval 27-33) based on rheumatologists' assessment. ... Of 285 patients given the diagnosis of PsA, 117 (41%) had not been previously given the diagnosis.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "cited_as": "Mease PJ, Palmer JB, Hur P, et al. \"Utilization of the validated Psoriasis Epidemiology Screening Tool to identify signs and symptoms of psoriatic arthritis among those with psoriasis: a cross-sectional analysis from the US-based Corrona Psoriasis Registry.\" Journal of the European Academy of Dermatology and Venereology. 2019;33(5):886-892.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30663130/",
+      "kind": "journal",
+      "pmid": "30663130",
+      "pmcid": "PMC6593969",
+      "doi": "10.1111/jdv.15443",
+      "record_title": "Utilization of the validated Psoriasis Epidemiology Screening Tool to identify signs and symptoms of psoriatic arthritis among those with psoriasis: a cross-sectional analysis from the US-based Corrona Psoriasis Registry.",
+      "record_journal": "J Eur Acad Dermatol Venereol",
+      "record_year": "2019",
+      "article_type": "Journal Article (cross-sectional registry analysis)",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. The PEST sensitivity/specificity figures are from the original development study and are now cited to it (Ibrahim 2009).",
+      "claims": [
+        {
+          "text": "Undiagnosed or 6-month delayed PsA may lead to disability and joint erosion",
+          "quote": "Undiagnosed PsA, or even a delay in diagnosis of PsA by 6 months, may lead to physical disability and peripheral joint erosion.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Definitive PsA diagnosis by rheumatologist",
+          "quote": "Patients with PsA must see a rheumatologist for a definitive diagnosis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "PEST: five yes/no questions; 1 point each; >=3 indicates risk and referral may be needed",
+          "quote": "The PEST consists of five simple yes/no questions. Each 'yes' answer has a value of 1 point, and a score of ≥3 indicates risk of having PsA and that a rheumatology referral may be needed.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "PEST includes visual aids like ToPAS",
+          "quote": "the PEST, PASQ and ToPAS questionnaires include visual aids so that patients can quickly and easily identify areas of pain, stiffness or swelling",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Better outcomes when PsA treated soon after diagnosis",
+          "quote": "observational studies have shown improved patient outcomes in patients with PsA who are treated soon after a diagnosis of PsA",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "cited_as": "Ibrahim GH, Buch MH, Lawson C, Waxman R, Helliwell PS. \"Evaluation of an existing screening tool for psoriatic arthritis in people with psoriasis and the development of a new instrument: the Psoriasis Epidemiology Screening Tool (PEST) questionnaire.\" Clinical and Experimental Rheumatology. 2009;27(3):469-474.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19604440/",
+      "kind": "journal",
+      "pmid": "19604440",
+      "record_title": "Evaluation of an existing screening tool for psoriatic arthritis in people with psoriasis and the development of a new instrument: the Psoriasis Epidemiology Screening Tool (PEST) questionnaire.",
+      "record_journal": "Clin Exp Rheumatol",
+      "record_year": "2009",
+      "article_type": "Evaluation Study; Journal Article",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. New primary source for PEST accuracy. PubMed record has no DOI.",
+      "claims": [
+        {
+          "text": "Development study sensitivity 0.92, specificity 0.78",
+          "quote": "Figures for sensitivity and specificity were 0.92 and 0.78 respectively",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "cited_as": "Gladman DD, Schentag CT, Tom BD, et al. \"Development and initial validation of a screening questionnaire for psoriatic arthritis: the Toronto Psoriatic Arthritis Screen (ToPAS).\" Annals of the Rheumatic Diseases. 68(4):497-501. Epub 2008 Apr 29.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18445625/",
+      "kind": "journal",
+      "pmid": "18445625",
+      "doi": "10.1136/ard.2008.089441",
+      "record_title": "Development and initial validation of a screening questionnaire for psoriatic arthritis: the Toronto Psoriatic Arthritis Screen (ToPAS).",
+      "record_journal": "Ann Rheum Dis",
+      "record_year": "2008 (epub)",
+      "article_type": "Journal Article; Validation Study",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Link changed from ScienceDirect to PubMed; full title and authors added.",
+      "claims": [
+        {
+          "text": "Skin, joint, nail domains; sensitivity 86.8%, specificity 93.1%",
+          "quote": "A simplified discriminatory score based on the skin, joint and nail domains gave results comparable to other methods with an observed overall sensitivity and specificity, based on a single cut point, of 86.8% and 93.1%.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "cited_as": "Dey M, Nikiphorou E. \"Cardiovascular comorbidities in psoriatic arthritis: state of the art.\" Therapeutic Advances in Musculoskeletal Disease. 2024;16:1759720X241274537.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39290781/",
+      "kind": "journal",
+      "pmid": "39290781",
+      "pmcid": "PMC11406594",
+      "doi": "10.1177/1759720X241274537",
+      "record_title": "Cardiovascular comorbidities in psoriatic arthritis: state of the art.",
+      "record_journal": "Ther Adv Musculoskelet Dis",
+      "record_year": "2024",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Narrative review focused on PsA; text now attributes the risk-calculator point to PsA rather than to psoriasis broadly.",
+      "claims": [
+        {
+          "text": "CVD more common in psoriasis; severity correlates with subclinical atherosclerosis; independent risk factor for MI",
+          "quote": "an increased prevalence of CVD has been noted in psoriasis, compared to healthy individuals, and the severity of skin disease correlates with the development of subclinical atherosclerosis. Furthermore, psoriasis is an independent risk factor for myocardial infarction.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cytokines and immune dysregulation drive atherosclerosis and endothelial dysfunction",
+          "quote": "the role of inflammatory cytokines, immune system dysregulation, and genetic predispositions in PsA, not only as drivers of musculoskeletal manifestations but also atherosclerosis and endothelial dysfunction",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Framingham underestimates risk, worse with PsA",
+          "quote": "While frequently used, the FRS underestimates the cardiovascular risk at the individual level ... The underestimation in risk is further exacerbated in the presence of chronic inflammatory conditions such as PsA.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "cited_as": "Liu L, Lin NX, Yu YT, et al. \"Epidemiology of mental health comorbidity in patients with psoriasis: An analysis of trends from 1986 to 2019.\" Psychiatry Research. 2023;321:115078.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36724650/",
+      "kind": "journal",
+      "pmid": "36724650",
+      "doi": "10.1016/j.psychres.2023.115078",
+      "record_title": "Epidemiology of mental health comorbidity in patients with psoriasis: An analysis of trends from 1986 to 2019.",
+      "record_journal": "Psychiatry Res",
+      "record_year": "2023",
+      "article_type": "Journal Article (meta-analysis of 56 studies per abstract)",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Authors added to the printed citation; link changed to PubMed.",
+      "claims": [
+        {
+          "text": "56 studies; depression 20%, anxiety 21%",
+          "quote": "We evaluated 56 studies in our research. The prevalence of depression, anxiety, and suicide in adults with psoriasis was 20%, 21%, and 0.77%.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "cited_as": "Luna PC, Chu CY, Fatani M, et al. \"Psychosocial Burden of Psoriasis: A Systematic Literature Review of Depression Among Patients with Psoriasis.\" Dermatology and Therapy. 2023;13(12):3043-3055.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37995052/",
+      "kind": "journal",
+      "pmid": "37995052",
+      "pmcid": "PMC10689612",
+      "doi": "10.1007/s13555-023-01060-5",
+      "record_title": "Psychosocial Burden of Psoriasis: A Systematic Literature Review of Depression Among Patients with Psoriasis.",
+      "record_journal": "Dermatol Ther (Heidelb)",
+      "record_year": "2023",
+      "article_type": "Journal Article; Review (systematic literature review)",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. The former claim that effective treatment reduces depression was not found in this source and was cut.",
+      "claims": [
+        {
+          "text": "Depression more prevalent with more severe psoriasis",
+          "quote": "The prevalence of depression was generally higher among patients with more severe psoriasis than those with less severe disease",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Suicidal ideation 0.4% to 21.0%",
+          "quote": "In studies reporting suicidal ideation, prevalence ranged from 0.4% to 21.0%",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Care should incorporate psychological interventions",
+          "quote": "Greater awareness of the psychological impact of psoriasis would improve care and management, which should incorporate psychological interventions.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "cited_as": "Chambers CJ, Parsi KK, Schupp C, et al. \"Patient-centered online management of psoriasis: a randomized controlled equivalency trial.\" Journal of the American Academy of Dermatology. 66(6):948-953. Epub 2011 Sep 3.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21890236/",
+      "kind": "journal",
+      "pmid": "21890236",
+      "pmcid": "PMC3233643",
+      "doi": "10.1016/j.jaad.2011.05.047",
+      "record_title": "Patient-centered online management of psoriasis: a randomized controlled equivalency trial.",
+      "record_journal": "J Am Acad Dermatol",
+      "record_year": "2011 (epub)",
+      "article_type": "Randomized Controlled Trial; Comparative Study",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Authors added; small trial (64 patients, 24 weeks, asynchronous model).",
+      "claims": [
+        {
+          "text": "64 patients, 24 weeks; online follow-up same PASI improvement (-3.4 both); no difference in IGA or DLQI",
+          "quote": "Both online and in-office groups showed improvement in psoriasis disease severity as measured by mean improvement in Psoriasis Area and Severity Index (online group: mean = -3.4, in-office: mean = -3.4).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "IGA and DLQI no significant differences",
+          "quote": "Investigator Global Assessment and Dermatology Life Quality Index scores also improved during the study period; no significant differences existed between the two groups.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "cited_as": "Arsenjeva J, Kruus P, Hallik R, et al. \"Remote Monitoring of Psoriasis: Comparing Care Models and Evaluating Quality of Life Outcomes: Mixed Methods Study.\" Journal of Medical Internet Research. 2025;27:e73664.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40459920/",
+      "kind": "journal",
+      "pmid": "40459920",
+      "pmcid": "PMC12174878",
+      "doi": "10.2196/73664",
+      "record_title": "Remote Monitoring of Psoriasis: Comparing Care Models and Evaluating Quality of Life Outcomes: Mixed Methods Study.",
+      "record_journal": "J Med Internet Res",
+      "record_year": "2025",
+      "article_type": "Journal Article; Comparative Study (retrospective mixed methods)",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Former text said remote studies 'confirm equivalence' with in-person care; this study had no in-person arm and compared specialist vs primary care remote monitoring. Rewritten.",
+      "claims": [
+        {
+          "text": "Specialist remote care significant DLQI improvement; primary care alone not; collaboration associated with better results",
+          "quote": "The specialist care group (n=39) showed a significant mean reduction in DLQI of -1.33 (P=.01), whereas the primary care group (n=37) demonstrated a nonsignificant change of -0.34 (P=.36).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Collaborative care associated with better DLQI change",
+          "quote": "Collaborative care between primary care providers (PCPs) and specialists was associated with more favorable changes in DLQI scores at the primary care level",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

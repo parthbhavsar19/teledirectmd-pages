@@ -1,0 +1,623 @@
+{
+ "guide": "medical-care-visitors-from-india-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 8 verified, retractions: none (no editorial notices; PubMed article types show no Retracted Publication or Retraction Notice)",
+ "references": [
+  {
+   "n": 1,
+   "kind": "agency_page",
+   "cited_as": "U.S. Department of Commerce, National Travel and Tourism Office. Survey of International Air Travelers, Results 2024. Available at https://www.trade.gov/feature-article/survey-international-air-travelers-results-2024.",
+   "url": "https://www.trade.gov/feature-article/survey-international-air-travelers-results-2024",
+   "version_or_date": "Survey of International Air Travelers Results 2024 (no visible date)",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "India was the second-largest overseas source of US visitors in 2024 with 2.19 million arrivals (also: 2.2 million in citable summary)",
+     "quote": "The United Kingdom (4.037 million visitor arrivals) was the top source market, followed by India (2.190 million), Germany (1.995 million), Brazil (1.910 million), and Japan (1.844 million).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "agency_page",
+   "cited_as": "U.S. Department of Commerce, National Travel and Tourism Office. International Visitor Forecast, March 2025. Available at https://www.trade.gov/sites/default/files/2025-03/2025-Forecast-Summary.pdf.",
+   "url": "https://www.trade.gov/sites/default/files/2025-03/2025-Forecast-Summary.pdf",
+   "version_or_date": "International Visitor Forecast, March 2025",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Visitation from India rose 552 percent from 2020 to 2024; India is the fourth-largest US inbound travel market",
+     "quote": "visitation from India has increased 552% since 2020 to 2.2 million in 2024 and India has become the fourth largest U.S. inbound travel market.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "NTTO describes India as one of the fastest growing source countries since the pandemic",
+     "quote": "For India, one of the fastest growing countries since the pandemic,",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "other_web",
+   "cited_as": "United States Code, Title 21, Section 353(b)(1). Exemptions and consideration for certain drugs, devices, and biological products. 2024 edition, U.S. Government Publishing Office. Available at https://www.govinfo.gov/content/pkg/USCODE-2024-title21/html/USCODE-2024-title21-chap9-subchapV-partA-sec353.htm.",
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title21/html/USCODE-2024-title21-chap9-subchapV-partA-sec353.htm",
+   "version_or_date": "U.S. Code 2024 edition",
+   "retrieved_with": "WebSearch then WebFetch of govinfo.gov (USCODE-2024 edition)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces FDA Drug Info Rounds video page (old ref 3), which did not support the claim. Statute requires a practitioner licensed by law; the step to \"a doctor licensed only in India is not licensed in the US\" is the guide's own inference, hence partly_supported on the summary claims.",
+   "claims": [
+    {
+     "text": "Under US federal law a prescription drug may be dispensed only upon a written prescription of a practitioner licensed by law to administer such drug",
+     "quote": "shall be dispensed only (i) upon a written prescription of a practitioner licensed by law to administer such drug",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A prescription from a doctor licensed only in India generally cannot be filled at a US pharmacy; plan on a US-licensed clinician writing any new US prescription",
+     "quote": "shall be dispensed only (i) upon a written prescription of a practitioner licensed by law to administer such drug",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "agency_page",
+   "cited_as": "U.S. Food and Drug Administration. Personal Importation. Content current as of August 18, 2025. Available at https://www.fda.gov/industry/import-basics/personal-importation.",
+   "url": "https://www.fda.gov/industry/import-basics/personal-importation",
+   "version_or_date": "Content current as of 08/18/2025",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Foreign nationals may bring or ship a 90-day supply of drug products (quoted directly)",
+     "quote": "The FDA will allow foreign nationals to bring or ship a 90-day supply of drug products.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Those staying longer than 90 days may have additional medication sent to them (quoted directly)",
+     "quote": "If the foreign national is staying longer than 90 days, they may have additional medication sent to them.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "FDA suggests documentation: copy of visa/passport, letter from doctor, copy of prescription in English",
+     "quote": "it is suggested that you include documentation ... A copy of the visa/passport; Letter from doctor; Copy of Prescription (in English)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A drug approved in another country but unapproved in the US is illegal to import",
+     "quote": "If a drug is approved for use in another country but is an unapproved new drug in the U.S. it is illegal to import.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "agency_page",
+   "cited_as": "U.S. Drug Enforcement Administration. Traveling to the U.S. with Medication. Available at https://www.dea.gov/sites/default/files/2026-05/Traveling%20With%20Medication_5.pdf.",
+   "url": "https://www.dea.gov/sites/default/files/2026-05/Traveling%20With%20Medication_5.pdf",
+   "version_or_date": "DEA flyer, file path dated 2026-05; no printed date",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Foreign visitors may bring up to 50 dosage units of controlled substances for personal use",
+     "quote": "Foreign visitors are allowed to bring up to 50 dosage units of controlled substances into the U.S. for personal use",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Medication in original container; label with chemical or trade name and schedule symbol, or pharmacy/practitioner details and prescription number",
+     "quote": "Medication is in its original container ... The medication label includes the drug's chemical or trade name and schedule symbol.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Declare all medications to US Customs and Border Protection",
+     "quote": "Declare all medications to U.S. Customs and Border Patrol",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Medications not approved for use in the US are subject to confiscation and can result in severe penalties",
+     "quote": "While legal abroad, prescription and over-the-counter medications are subject to confiscation and can result in severe penalties if not approved for use in the U.S.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "agency_page",
+   "cited_as": "U.S. Drug Enforcement Administration. Drug Scheduling. Available at https://www.dea.gov/drug-information/drug-scheduling.",
+   "url": "https://www.dea.gov/drug-information/drug-scheduling",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Alprazolam (Xanax), diazepam (Valium), zolpidem (Ambien) and tramadol are Schedule IV",
+     "quote": "Some examples of Schedule IV drugs are: Xanax, Soma, Darvon, Darvocet, Valium, Ativan, Talwin, Ambien, Tramadol",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Codeine combination products are Schedule V or Schedule III depending on formulation",
+     "quote": "products containing less than 90 milligrams of codeine per dosage unit (Tylenol with codeine) ... cough preparations with less than 200 milligrams of codeine or per 100 milliliters (Robitussin AC)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Forst T, Choudhary P, Schneider D, Linetzky B, Pozzilli P. A practical approach to the clinical challenges in initiation of basal insulin therapy in people with type 2 diabetes. Diabetes Metab Res Rev. 2021;37(6):e3418. Available at https://pmc.ncbi.nlm.nih.gov/articles/PMC8519070/.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8519070/",
+   "pmid": "33098260",
+   "pmcid": "PMC8519070",
+   "doi": "10.1002/dmrr.3418",
+   "record_title": "A practical approach to the clinical challenges in initiation of basal insulin therapy in people with type 2 diabetes.",
+   "record_journal": "Diabetes Metab Res Rev",
+   "record_year": "2021 (epub 2020 Dec 1); 37(6):e3418",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "mcp__PubMed__get_article_metadata; mcp__PubMed__get_full_text_article (PMC8519070); mcp__Scite__verify_papers (verified, no editorial notices)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite flags one contrasting citation (10.2147/dmso.s446349, excerpt withheld). The review gives the 4%-per-time-zone rule only; the arrival-day-only schedule, the 38 to 54 percent chart and the return-leg dose-skip advice were cut. Authors disclose industry ties (one author employed by Eli Lilly).",
+   "claims": [
+    {
+     "text": "Crossing 5 or more time zones and staying longer than 3 days on basal insulin: 4 percent adjustment per time zone; westward travel results in missed doses, eastward in excess doses",
+     "quote": "If the patient is traveling across 5 or more time zones and staying in a different time zone longer than 3 days and taking long-acting basal insulin, travel requires a 4% adjustment to the insulin dose for each time zone traversed",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Westward/eastward wording quoted directly",
+     "quote": "with westward travel resulting in missed doses and eastward travel resulting in excess doses.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Discuss plans with the diabetes team well in advance of long-distance travel",
+     "quote": "Patients should discuss plans with their diabetes team well in advance of any long-distance travel.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "Kanaya AM, Herrington D, Vittinghoff E, Ewing SK, Liu K, Blaha MJ, et al. Understanding the high prevalence of diabetes in U.S. South Asians compared with four racial/ethnic groups: the MASALA and MESA studies. Diabetes Care. 2014;37(6):1621-1628. Available at https://pubmed.ncbi.nlm.nih.gov/24705613/.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24705613/",
+   "pmid": "24705613",
+   "pmcid": "PMC4030091",
+   "doi": "10.2337/dc13-2656",
+   "record_title": "Understanding the high prevalence of diabetes in U.S. south Asians compared with four racial/ethnic groups: the MASALA and MESA studies.",
+   "record_journal": "Diabetes Care",
+   "record_year": "2014; 37(6):1621-8",
+   "article_type": "Journal Article (cross-sectional analysis)",
+   "retrieved_with": "mcp__PubMed__get_article_metadata; mcp__Scite__verify_papers (verified, no editorial notices)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "799 South Asians aged 44 to 84 compared with MESA participants",
+     "quote": "all participants had no known cardiovascular disease and were between 44 and 84 years of age. We compared 799 South Asians with 2,611 whites, 1,879 African Americans, 1,493 Latinos, and 801 Chinese Americans.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Age-adjusted diabetes prevalence 23% South Asians vs 6% whites, 18% African Americans, 17% Latinos, 13% Chinese Americans",
+     "quote": "South Asians had significantly higher age-adjusted prevalence of diabetes (23%) than the MESA ethnic groups (6% in whites, 18% in African Americans, 17% in Latinos, and 13% in Chinese Americans).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Becerra MB, Becerra BJ. Disparities in Age at Diabetes Diagnosis Among Asian Americans: Implications for Early Preventive Measures. Prev Chronic Dis. 2015;12:E146. Available at https://www.cdc.gov/pcd/issues/2015/15_0006.htm.",
+   "url": "https://www.cdc.gov/pcd/issues/2015/15_0006.htm",
+   "pmid": "26355827",
+   "pmcid": "PMC4576437",
+   "doi": "10.5888/pcd12.150006",
+   "record_title": "Disparities in Age at Diabetes Diagnosis Among Asian Americans: Implications for Early Preventive Measures.",
+   "record_journal": "Prev Chronic Dis",
+   "record_year": "2015; 12:E146",
+   "article_type": "Comparative Study; Journal Article",
+   "retrieved_with": "mcp__PubMed__get_article_metadata; WebFetch of cdc.gov/pcd full text; mcp__Scite__verify_papers (verified, no editorial notices)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Data are California Health Interview Survey 2003-2011, not national CDC data; wording corrected.",
+   "claims": [
+    {
+     "text": "Data source: 2003 to 2011 California Health Interview Survey",
+     "quote": "We used the public access adult portion of the 2003–2011 California Health Interview Survey (CHIS).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Mean age at diagnosis 44.9 years in South Asians vs 55.4 in non-Hispanic Whites",
+     "quote": "South Asians reported the earliest age at diagnosis (44.9 y) ... compared with an average age at diagnosis of 55.4 years among non-Hispanic whites.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "After adjustment, diagnosis about 10 (10.5) years earlier",
+     "quote": "In the adjusted regression model, ages at diagnosis were 10.5, 8.7, 8.4, and 4.2 years earlier among South Asian, Vietnamese, Filipino, and Korean populations, respectively, as compared to non-Hispanic whites",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "guideline",
+   "cited_as": "Grundy SM, Stone NJ, Bailey AL, Beam C, Birtcher KK, Blumenthal RS, et al. 2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. Circulation. 2019;139(25):e1082-e1143. Available at https://pubmed.ncbi.nlm.nih.gov/30586774/.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30586774/",
+   "pmid": "30586774",
+   "pmcid": "PMC7403606",
+   "doi": "10.1161/CIR.0000000000000625",
+   "record_title": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines.",
+   "record_journal": "Circulation",
+   "record_year": "2019 (epub 2018 Nov 10); 139(25):e1082-e1143",
+   "article_type": "Practice Guideline",
+   "version_or_date": "2018 guideline, read 2026-11-15",
+   "retrieved_with": "mcp__PubMed__get_article_metadata; WebFetch of PMC7403606 (PMC record linked from the PMID; fetch confirmed article text, not a bot check); mcp__Scite__verify_papers (verified, no editorial notices)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Quote is from Table 6 of the PMC full text. The 2019 primary prevention guideline previously named was not retrieved and its mention was removed.",
+   "claims": [
+    {
+     "text": "The 2018 AHA/ACC cholesterol guideline lists high-risk race/ethnicities (eg, South Asian ancestry) among risk-enhancing factors for clinician-patient risk discussion",
+     "quote": "Risk-Enhancing Factors for Clinician–Patient Risk Discussion ... High-risk race/ethnicities (eg, South Asian ancestry)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "agency_page",
+   "cited_as": "U.S. International Trade Administration. India, Travel and Tourism. Country Commercial Guides. Last published April 20, 2026. Available at https://www.trade.gov/country-commercial-guides/india-travel-and-tourism.",
+   "url": "https://www.trade.gov/country-commercial-guides/india-travel-and-tourism",
+   "version_or_date": "Last published April 20, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "India was the second-largest overseas source of US tourist arrivals",
+     "quote": "India was the second largest overseas (excluding Canada and Mexico) source of tourist arrivals in the U.S.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Indian visitors spent approximately $20 billion in the US in 2023",
+     "quote": "Total expenditure by Indian tourists in the U.S. stood at approximately $20 billion in 2023.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Over 5 million Indians hold a valid 10-year US visa",
+     "quote": "there are currently over 5 million Indians who have a valid 10-year U.S. visa",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. Travelers with Chronic Illnesses. CDC Yellow Book 2026. Last reviewed May 19, 2026. Available at https://www.cdc.gov/yellow-book/hcp/travelers-with-additional-considerations/travelers-with-chronic-illnesses.html.",
+   "url": "https://www.cdc.gov/yellow-book/hcp/travelers-with-additional-considerations/travelers-with-chronic-illnesses.html",
+   "version_or_date": "Last reviewed May 19, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "The phrase \"trade names vary widely\" attributed to this page in the old guide does not appear on it and was removed.",
+   "claims": [
+    {
+     "text": "CDC advises a clinician letter listing medications including generic names and doses (quoted)",
+     "quote": "outline existing medical conditions, medications prescribed (including generic names and doses)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Letter should be on office letterhead",
+     "quote": "The letter should be on office letterhead stationery and outline existing medical conditions, medications prescribed (including generic names and doses)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Carry a list of medicines by generic name, as CDC advises for travelers with chronic illnesses",
+     "quote": "medications prescribed (including generic names and doses)",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "label",
+   "cited_as": "U.S. Food and Drug Administration. PROVIGIL (modafinil) Tablets [C-IV] prescribing information, revised January 2015. Available at https://www.accessdata.fda.gov/drugsatfda_docs/label/2015/020717s037s038lbl.pdf.",
+   "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2015/020717s037s038lbl.pdf",
+   "version_or_date": "Revised 01/2015",
+   "retrieved_with": "WebFetch of Drugs@FDA label PDF",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Modafinil is a Schedule IV controlled substance",
+     "quote": "PROVIGIL contains modafinil, a Schedule IV controlled substance.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "agency_page",
+   "cited_as": "U.S. Drug Enforcement Administration. Rohypnol Drug Fact Sheet. Available at https://www.dea.gov/factsheets/rohypnol.",
+   "url": "https://www.dea.gov/factsheets/rohypnol",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Flunitrazepam (Rohypnol) has never been approved for medical use in the US by the FDA",
+     "quote": "This drug has never been approved for medical use in the United States by the Food and Drug Administration.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "agency_page",
+   "cited_as": "U.S. Drug Enforcement Administration. DEA Extends Telemedicine Flexibilities to Ensure Continued Access to Care. December 31, 2025. Available at https://www.dea.gov/press-releases/2025/12/31/dea-extends-telemedicine-flexibilities-ensure-continued-access-care.",
+   "url": "https://www.dea.gov/press-releases/2025/12/31/dea-extends-telemedicine-flexibilities-ensure-continued-access-care",
+   "version_or_date": "Press release dated December 31, 2025; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Telemedicine flexibilities extended through December 31, 2026",
+     "quote": "extending the current telemedicine flexibilities through December 31, 2026",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clinicians may prescribe Schedule II-V controlled medications via audio-video telemedicine without a prior in-person evaluation",
+     "quote": "remotely prescribe Schedule II-V controlled medications via audio-video telemedicine encounters ... without having ever conducted an in-person medical evaluation",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "journal",
+   "cited_as": "WHO Expert Consultation. Appropriate body-mass index for Asian populations and its implications for policy and intervention strategies. Lancet. 2004;363(9403):157-163. Available at https://pubmed.ncbi.nlm.nih.gov/14726171/.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14726171/",
+   "pmid": "14726171",
+   "doi": "10.1016/S0140-6736(03)15268-3",
+   "record_title": "Appropriate body-mass index for Asian populations and its implications for policy and intervention strategies.",
+   "record_journal": "Lancet",
+   "record_year": "2004; 363(9403):157-63",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "mcp__PubMed__get_article_metadata; mcp__Scite__verify_papers (verified, no editorial notices)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. Old text called 23 and 27.5 the South Asian overweight/obesity cut-offs; the consultation kept standard WHO cut-offs and named these as action points. Scite flags contrasting evidence (10.1038/ijo.2009.35: a single cut point may work across ethnic groups); page does not claim redefined cut-offs.",
+   "claims": [
+    {
+     "text": "Substantial proportion of Asian people at high risk of type 2 diabetes and CVD at BMIs below 25",
+     "quote": "The consultation concluded that the proportion of Asian people with a high risk of type 2 diabetes and cardiovascular disease is substantial at BMIs lower than the existing WHO cut-off point for overweight (> or =25 kg/m2).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Standard WHO cut-offs retained; 23.0 and 27.5 kg/m2 named as additional public health action points",
+     "quote": "The consultation also agreed that the WHO BMI cut-off points should be retained as international classifications. The consultation identified further potential public health action points (23.0, 27.5, 32.5, and 37.5 kg/m2)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "A South Asian visitor with BMI below 25 may still carry meaningful cardiometabolic risk (guide inference)",
+     "quote": "the proportion of Asian people with a high risk of type 2 diabetes and cardiovascular disease is substantial at BMIs lower than the existing WHO cut-off point for overweight",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "guideline",
+   "cited_as": "Volgman AS, Palaniappan LS, Aggarwal NT, Gupta M, Khandelwal A, Krishnan AV, et al. Atherosclerotic Cardiovascular Disease in South Asians in the United States: Epidemiology, Risk Factors, and Treatments: A Scientific Statement From the American Heart Association. Circulation. 2018;138(1):e1-e34. Available at https://pubmed.ncbi.nlm.nih.gov/29794080/.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29794080/",
+   "pmid": "29794080",
+   "doi": "10.1161/CIR.0000000000000580",
+   "record_title": "Atherosclerotic Cardiovascular Disease in South Asians in the United States: Epidemiology, Risk Factors, and Treatments: A Scientific Statement From the American Heart Association.",
+   "record_journal": "Circulation",
+   "record_year": "2018; 138(1):e1-e34",
+   "article_type": "AHA Scientific Statement (PubMed: Practice Guideline; Review)",
+   "retrieved_with": "mcp__PubMed__get_article_metadata; mcp__Scite__verify_papers (verified, no editorial notices)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. INTERHEART ages and 2003-2017 mortality claims moved to primary sources (refs 19, 20).",
+   "claims": [
+    {
+     "text": "South Asians have higher proportional mortality from ASCVD than other Asian groups and non-Hispanic Whites",
+     "quote": "South Asians have higher proportional mortality rates from ASCVD compared with other Asian groups and non-Hispanic whites",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "kind": "other_web",
+   "cited_as": "Code of Federal Regulations, Title 21, Section 1308.14. Schedule IV. April 1, 2025 edition, U.S. Government Publishing Office. Available at https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol9/pdf/CFR-2025-title21-vol9-sec1308-14.pdf.",
+   "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol9/pdf/CFR-2025-title21-vol9-sec1308-14.pdf",
+   "version_or_date": "21 CFR Ch. II (4-1-25 Edition)",
+   "retrieved_with": "WebSearch then WebFetch of govinfo.gov CFR PDF",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added. Covers clonazepam and nitrazepam, which the DEA scheduling page does not name.",
+   "claims": [
+    {
+     "text": "Alprazolam, clonazepam, diazepam, flunitrazepam, nitrazepam, zolpidem are listed in Schedule IV",
+     "quote": "(2) Alprazolam 2882 ... (12) Clonazepam 2737 ... (18) Diazepam 2765 ... (25) Flunitrazepam 2763 ... (42) Nitrazepam 2834 ... (58) Zolpidem 2783",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Modafinil and tramadol are listed in Schedule IV",
+     "quote": "(7) Modafinil 1680 ... (including tramadol) 9752",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "kind": "journal",
+   "cited_as": "Joshi P, Islam S, Pais P, Reddy S, Dorairaj P, Kazmi K, et al. Risk factors for early myocardial infarction in South Asians compared with individuals in other countries. JAMA. 2007;297(3):286-294. Available at https://pubmed.ncbi.nlm.nih.gov/17227980/.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17227980/",
+   "pmid": "17227980",
+   "doi": "10.1001/jama.297.3.286",
+   "record_title": "Risk factors for early myocardial infarction in South Asians compared with individuals in other countries.",
+   "record_journal": "JAMA",
+   "record_year": "2007; 297(3):286-94",
+   "article_type": "Journal Article (case-control study, INTERHEART)",
+   "retrieved_with": "mcp__PubMed__search_articles; mcp__PubMed__get_article_metadata; mcp__Scite__verify_papers (verified, no editorial notices)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added as the primary INTERHEART source. Old text said 53 vs 62-63 in Europeans and Chinese; the abstract gives 53.0 vs 58.8 in other countries.",
+   "claims": [
+    {
+     "text": "Mean age at first heart attack 53.0 years in South Asian countries vs 58.8 years in other countries",
+     "quote": "The mean (SD) age for first AMI was lower in South Asian countries (53.0 [11.4] years) than in other countries (58.8 [12.2] years; P<.001).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "kind": "journal",
+   "cited_as": "Shah NS, Xi K, Kapphahn KI, Srinivasan M, Au T, Sathye V, et al. Cardiovascular and Cerebrovascular Disease Mortality in Asian American Subgroups. Circ Cardiovasc Qual Outcomes. 2022;15(5):e008651. Available at https://pubmed.ncbi.nlm.nih.gov/35535589/.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35535589/",
+   "pmid": "35535589",
+   "pmcid": "PMC9117444",
+   "doi": "10.1161/CIRCOUTCOMES.121.008651",
+   "record_title": "Cardiovascular and Cerebrovascular Disease Mortality in Asian American Subgroups.",
+   "record_journal": "Circ Cardiovasc Qual Outcomes",
+   "record_year": "2022; 15(5):e008651",
+   "article_type": "Journal Article (death-certificate analysis)",
+   "retrieved_with": "mcp__PubMed__search_articles; mcp__PubMed__get_article_metadata; mcp__Scite__verify_papers (verified, no editorial notices)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added as the primary 2003-2017 US mortality source. Old claims (highest among all US races; only group rising since 2011) are not in the abstract and were cut.",
+   "claims": [
+    {
+     "text": "IHD death rates fell in most groups but stayed flat in Asian Indian and Vietnamese men, 2003 to 2017",
+     "quote": "significantly decreased in Chinese, Filipino, Japanese, and Korean men and non-Hispanic White and Hispanic men and remained stagnant in Asian Indian and Vietnamese men.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Asian Indian women and men had the highest 2017 IHD rates among Asian American subgroups",
+     "quote": "The highest 2017 ASMR from ischemic heart disease among Asian American decedents was in Asian Indian women (77 per 100 000) and men (133 per 100 000).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "kind": "agency_page",
+   "cited_as": "Centers for Medicare & Medicaid Services. Original Medicare (Part A and B) Eligibility and Enrollment. Page last modified March 10, 2026. Available at https://www.cms.gov/medicare/enrollment-renewal/health-plans/original-part-a-b/.",
+   "url": "https://www.cms.gov/medicare/enrollment-renewal/health-plans/original-part-a-b/",
+   "version_or_date": "Page last modified 03/10/2026",
+   "retrieved_with": "WebSearch then WebFetch of cms.gov",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added. \"Medicare is not a benefit for visitors\" is the guide's inference from the residence and status requirements.",
+   "claims": [
+    {
+     "text": "For premium Part A buyers enrolling in Part B: US resident and either US citizen or lawfully admitted permanent resident residing in the US 5 continuous years",
+     "quote": "Be a U.S. resident; AND Be either a U.S. citizen, OR Be an alien who has been lawfully admitted for permanent residence ... residing in the United States for 5 continuous years",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "US Medicare is not a benefit for visitors",
+     "quote": "Be a U.S. resident; AND Be either a U.S. citizen, OR Be an alien who has been lawfully admitted for permanent residence",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "kind": "other_web",
+   "cited_as": "Code of Federal Regulations, Title 22, Section 62.14. Insurance (Exchange Visitor Program). eCFR, up to date as of August 12, 2026. Available at https://www.ecfr.gov/current/title-22/chapter-I/subchapter-G/part-62/subpart-A/section-62.14.",
+   "url": "https://www.ecfr.gov/current/title-22/chapter-I/subchapter-G/part-62/subpart-A/section-62.14",
+   "version_or_date": "eCFR up to date as of 8/12/2026",
+   "retrieved_with": "WebSearch then WebFetch of ecfr.gov",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added for the J2 insurance statement.",
+   "claims": [
+    {
+     "text": "Sponsors must require exchange visitors and their accompanying spouses and dependents to have insurance",
+     "quote": "all exchange visitors have insurance in effect ... sponsors must require that accompanying spouses and dependents of exchange visitors have insurance.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "kind": "label",
+   "cited_as": "National Library of Medicine, DailyMed. Acetaminophen and ibuprofen tablet (Granules Pharmaceuticals Inc.), human OTC drug label, updated October 8, 2026. Available at https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0f8b9524-8fe3-47cf-bacd-93047442d90d.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0f8b9524-8fe3-47cf-bacd-93047442d90d",
+   "version_or_date": "Updated October 8, 2026",
+   "retrieved_with": "WebSearch then WebFetch of DailyMed",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added. Old FAQ said the ibuprofen/paracetamol combination is not sold as a single US product; an OTC combination (different strengths) exists.",
+   "claims": [
+    {
+     "text": "A lower-strength OTC acetaminophen and ibuprofen combination is sold in the US: each caplet acetaminophen 250 mg and ibuprofen 125 mg",
+     "quote": "HUMAN OTC DRUG LABEL ... Active ingredients (in each caplet) Acetaminophen 250 mg ... Ibuprofen 125 mg (NSAID)",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

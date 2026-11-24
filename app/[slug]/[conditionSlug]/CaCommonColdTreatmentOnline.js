@@ -11,7 +11,7 @@
  * + HowTo + BreadcrumbList + SpeakableSpecification — NEVER QAPage).
  *
  * Authority: American Academy of Family Physicians (AAFP)
- * Guideline: AAFP Common Cold Management Guidelines
+ * Guideline: AAFP American Family Physician review, Treatment of the Common Cold in Children and Adults (2012)
  *
  * Hard rules respected:
  *   • No QAPage schema — FAQPage only.
@@ -38,7 +38,7 @@ const PHYSICIAN = {
   specialty: 'Family Medicine',
   licenseState: 'California',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 const CA_PAYORS = [
@@ -46,8 +46,8 @@ const CA_PAYORS = [
     notes: 'Commercial plans. In-network as of April 30, 2026. Verify plan eligibility with Aetna before booking.' },
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true,
     notes: 'Covers UHC Commercial and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types.' },
-  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Enrollment pending. Self pay ($79) available.' },
+  { name: 'Anthem Blue Cross', status: 'Active', effective: 'September 23, 2026', inNetwork: true,
+    notes: 'PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.' },
   { name: 'Cigna', status: 'Pending', effective: 'Pending determination', inNetwork: false,
     notes: 'Pending — Telehealth Only review in progress. Self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false,
@@ -62,7 +62,7 @@ const FAQ_ITEMS = [
     question: 'Can I get common cold treatment online in California?',
     answer: (
       <p>
-        Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California. Adults 18+ located in California can book a same-day video visit for cold symptom evaluation. While antibiotics are not effective against viral colds, a physician can rule out bacterial complications, guide safe OTC medication use, and advise on when to seek further care. Self pay is $79; Aetna is in-network as of April 30, 2026.
+        Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. Dr. Bhavsar is licensed in California. Adults 18+ located in California can book a same-day video visit for cold symptom evaluation. While antibiotics are not effective against viral colds, a physician can rule out bacterial complications, guide safe OTC medication use, and advise on when to seek further care. Self pay is $79; Aetna is in-network as of April 30, 2026.
       </p>
     ),
   },
@@ -80,7 +80,7 @@ const FAQ_ITEMS = [
     question: 'How long does a common cold last?',
     answer: (
       <p>
-        Most uncomplicated common colds resolve within 7–10 days, according to AAFP guidelines. Nasal symptoms typically peak at days 2–3 and improve by day 7. A cough may persist for 2–3 weeks. If symptoms worsen after initial improvement, last more than 10 days, or include fever above 103°F, facial pain, or ear pain, a physician should re-evaluate to screen for bacterial complications.
+        Most uncomplicated common colds resolve within 7–10 days, according to a 2012 AAFP review. Nasal symptoms typically peak at days 2–3 and improve by day 7. A cough may persist for 2–3 weeks. If symptoms worsen after initial improvement, last more than 10 days, or include fever above 103°F, facial pain, or ear pain, a physician should re-evaluate to screen for bacterial complications.
       </p>
     ),
   },
@@ -116,7 +116,7 @@ const FAQ_ITEMS = [
     question: 'Will Medi-Cal cover my TeleDirectMD visit for a cold in California?',
     answer: (
       <p>
-        TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, you can use the $79 self-pay rate, or find a Medi-Cal-enrolled telehealth provider through your managed care plan or the California DHCS directory at dhcs.ca.gov.
+        TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, find a Medi-Cal-enrolled telehealth provider through your managed care plan or the California DHCS directory at dhcs.ca.gov.
       </p>
     ),
   },
@@ -167,7 +167,7 @@ const FAQ_ITEMS = [
   },
 ];
 
-const SCHEMAS = [{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Common Cold Treatment Online in California | TeleDirectMD", "url": "https://teledirectmd.com/ca/common-cold-treatment-online/", "description": "Common cold treatment online for California adults. Board-certified Family Medicine MD. Self pay $79. Aetna in-network. UHC Commercial approved. CA telehealth law compliant. Same-day video visits.", "datePublished": "2026-05-20", "dateModified": "2026-05-20", "inLanguage": "en-US", "about": {"@type": "MedicalCondition", "name": "Common Cold", "code": {"@type": "MedicalCode", "code": "J00", "codingSystem": "ICD-10-CM"}}, "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient", "geographicArea": {"@type": "AdministrativeArea", "name": "California"}}, "reviewedBy": {"@type": "Physician", "@id": "https://teledirectmd.com/about/#physician-parth-bhavsar", "name": "Parth Bhavsar, MD", "identifier": {"@type": "PropertyValue", "propertyID": "NPI", "value": "1104323203"}, "medicalSpecialty": "Family Medicine", "hasCredential": [{"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "Doctor of Medicine (MD)"}, {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Board Certification \u2014 American Board of Family Medicine"}], "licensedIn": "California", "worksFor": {"@type": "MedicalOrganization", "name": "TeleDirectMD", "url": "https://teledirectmd.com"}, "sameAs": ["https://npiregistry.cms.hhs.gov/provider-view/1104323203", "https://teledirectmd.com/about/"]}, "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["#ca-common-cold-treatment-online-opening", "#ca-common-cold-treatment-online-opening p", ".tdmd-ca-common-cold-treatment-online__byline", "#ca-common-cold-treatment-online-faq"]}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I get common cold treatment online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California. Adults 18+ located in California can book a same-day video visit for cold symptom evaluation. While antibiotics are not effective against viral colds, a physician can rule out bacterial complications, guide safe OTC medication use, and advise on when to seek further care. Self pay is $79; Aetna is in-network as of April 30, 2026."}}, {"@type": "Question", "name": "Do I need antibiotics for a common cold?", "acceptedAnswer": {"@type": "Answer", "text": "No. The common cold is caused by viruses \u2014 most commonly rhinovirus \u2014 and antibiotics have no effect on viral infections. Prescribing antibiotics for a cold promotes antibiotic resistance without benefit. A TeleDirectMD physician can confirm your symptoms are consistent with an uncomplicated viral URI and advise on appropriate symptom management. If a bacterial complication such as strep throat, ear infection, or sinusitis is suspected based on your history, the physician will direct you appropriately."}}, {"@type": "Question", "name": "How long does a common cold last?", "acceptedAnswer": {"@type": "Answer", "text": "Most uncomplicated common colds resolve within 7\u201310 days, according to AAFP guidelines. Nasal symptoms typically peak at days 2\u20133 and improve by day 7. A cough may persist for 2\u20133 weeks. If symptoms worsen after initial improvement, last more than 10 days, or include fever above 103\u00b0F, facial pain, or ear pain, a physician should re-evaluate to screen for bacterial complications."}}, {"@type": "Question", "name": "Does California require an in-person visit before telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. A California-licensed physician can establish a new patient relationship and evaluate your symptoms through a synchronous video visit. TeleDirectMD documents consent under CA B&P \u00a72290.5 at the start of every visit."}}, {"@type": "Question", "name": "Is my Aetna plan in California in-network with TeleDirectMD?", "acceptedAnswer": {"@type": "Answer", "text": "Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. If you hold an Aetna commercial plan in California, you may be able to use your in-network benefits. Always verify current in-network status directly with Aetna before your visit, as plan eligibility varies by specific plan type."}}, {"@type": "Question", "name": "Is UnitedHealthcare in-network with TeleDirectMD in California?", "acceptedAnswer": {"@type": "Answer", "text": "UnitedHealthcare Commercial was approved for California effective May 29, 2026, covering commercial plans and Medicare Advantage. This excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types. Verify your specific UHC plan eligibility with UHC before booking."}}, {"@type": "Question", "name": "Will Medi-Cal cover my TeleDirectMD visit for a cold in California?", "acceptedAnswer": {"@type": "Answer", "text": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, you can use the $79 self-pay rate, or find a Medi-Cal-enrolled telehealth provider through your managed care plan or the California DHCS directory at dhcs.ca.gov."}}, {"@type": "Question", "name": "What OTC medications are safe for cold symptoms?", "acceptedAnswer": {"@type": "Answer", "text": "For adults without contraindications, common OTC options include: pseudoephedrine (Sudafed) for nasal congestion \u2014 requires ID at pharmacy; guaifenesin (Mucinex) to thin mucus; cetirizine (Zyrtec) or loratadine (Claritin) for sneezing and runny nose; and acetaminophen or ibuprofen for fever and body aches. Avoid decongestants if you have uncontrolled high blood pressure, heart disease, or hyperthyroidism. A physician can review your full medical history and medications at a TeleDirectMD visit."}}, {"@type": "Question", "name": "When is a cold dangerous and when should I go to the ER in California?", "acceptedAnswer": {"@type": "Answer", "text": "Seek urgent in-person care or call 911 if you have difficulty breathing, chest pain, severe headache with neck stiffness, altered mental status, or high fever above 104\u00b0F. Fever above 103\u00b0F lasting more than 3 days, symptoms that worsen after initial improvement, or severe ear or facial pain warrant same-day urgent care. TeleDirectMD is not appropriate if red-flag symptoms are present."}}, {"@type": "Question", "name": "Can the common cold be prevented?", "acceptedAnswer": {"@type": "Answer", "text": "Hand hygiene is the most effective prevention strategy, according to the CDC. Washing hands frequently with soap and water for 20 seconds, avoiding touching the face, and staying home when symptomatic reduces transmission. Cold viruses (primarily rhinovirus) are transmitted by direct contact with infected secretions and respiratory droplets. No vaccine prevents the common cold due to the large number of causative virus serotypes."}}, {"@type": "Question", "name": "Does California's AB 744 telehealth parity law apply to my visit?", "acceptedAnswer": {"@type": "Answer", "text": "California AB 744 (2019) requires commercial health plans to reimburse telehealth services on the same basis as in-person services \u2014 the same copay, no requirement for prior in-person contact. This parity applies when the provider is already in-network with your specific plan. Currently, Aetna (active April 30, 2026) and UnitedHealthcare Commercial (active May 29, 2026) are in-network in California for TeleDirectMD."}}, {"@type": "Question", "name": "How quickly will my prescription reach a California pharmacy?", "acceptedAnswer": {"@type": "Answer", "text": "California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022). If a prescription is appropriate \u2014 such as a nasal steroid spray \u2014 TeleDirectMD sends an e-prescription electronically to your chosen California pharmacy \u2014 CVS, Walgreens, Rite Aid, Walmart, Safeway \u2014 during or immediately after your visit. Most California pharmacies fill within one to four hours."}}]}, {"@context": "https://schema.org", "@type": "HowTo", "name": "How to Get Common Cold Treatment Online in California", "description": "Three steps to receive common cold treatment evaluation and, if appropriate, a prescription from a California-licensed board-certified physician.", "totalTime": "PT30M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "79"}, "step": [{"@type": "HowToStep", "position": 1, "name": "Book your video visit", "text": "Visit teledirectmd.com and select California Common Cold treatment. No referral needed. Self pay $79. Many visits available same day.", "url": "https://teledirectmd.com/book-online"}, {"@type": "HowToStep", "position": 2, "name": "See a California-licensed MD by secure video", "text": "Connect with a board-certified Family Medicine physician licensed in California. The physician reviews your symptoms, history, and red-flag screening. Consent per CA B&P Section 2290.5 confirmed.", "url": "https://teledirectmd.com/ca/common-cold-treatment-online/"}, {"@type": "HowToStep", "position": 3, "name": "Receive your treatment plan and e-prescription", "text": "If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy during or after the visit.", "url": "https://teledirectmd.com/ca/common-cold-treatment-online/"}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TeleDirectMD", "item": "https://teledirectmd.com"}, {"@type": "ListItem", "position": 2, "name": "California", "item": "https://teledirectmd.com/ca/"}, {"@type": "ListItem", "position": 3, "name": "Common Cold Treatment Online in California", "item": "https://teledirectmd.com/ca/common-cold-treatment-online/"}]}];
+const SCHEMAS = [{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Common Cold Treatment Online in California | TeleDirectMD", "url": "https://teledirectmd.com/ca/common-cold-treatment-online/", "description": "Common cold treatment online for California adults. Board-certified Family Medicine MD. Self pay $79. Aetna in-network. UHC Commercial approved. CA telehealth law compliant. Same-day video visits.", "datePublished": "2026-05-20", "dateModified": "2026-05-20", "inLanguage": "en-US", "about": {"@type": "MedicalCondition", "name": "Common Cold", "code": {"@type": "MedicalCode", "code": "J00", "codingSystem": "ICD-10-CM"}}, "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient", "geographicArea": {"@type": "AdministrativeArea", "name": "California"}}, "reviewedBy": {"@type": "Physician", "@id": "https://teledirectmd.com/about/#physician", "name": "Parth Bhavsar, MD", "identifier": {"@type": "PropertyValue", "propertyID": "NPI", "value": "1104323203"}, "medicalSpecialty": "Family Medicine", "hasCredential": [{"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "Doctor of Medicine (MD)"}, {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Board Certification \u2014 American Board of Family Medicine"}], "licensedIn": "California", "worksFor": {"@type": "MedicalOrganization", "name": "TeleDirectMD", "url": "https://teledirectmd.com"}, "sameAs": ["https://npiregistry.cms.hhs.gov/provider-view/1104323203", "https://teledirectmd.com/about/"]}, "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["#ca-common-cold-treatment-online-opening", "#ca-common-cold-treatment-online-opening p", ".tdmd-ca-common-cold-treatment-online__byline", "#ca-common-cold-treatment-online-faq"]}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I get common cold treatment online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. Dr. Bhavsar is licensed in California. Adults 18+ located in California can book a same-day video visit for cold symptom evaluation. While antibiotics are not effective against viral colds, a physician can rule out bacterial complications, guide safe OTC medication use, and advise on when to seek further care. Self pay is $79; Aetna is in-network as of April 30, 2026."}}, {"@type": "Question", "name": "Do I need antibiotics for a common cold?", "acceptedAnswer": {"@type": "Answer", "text": "No. The common cold is caused by viruses \u2014 most commonly rhinovirus \u2014 and antibiotics have no effect on viral infections. Prescribing antibiotics for a cold promotes antibiotic resistance without benefit. A TeleDirectMD physician can confirm your symptoms are consistent with an uncomplicated viral URI and advise on appropriate symptom management. If a bacterial complication such as strep throat, ear infection, or sinusitis is suspected based on your history, the physician will direct you appropriately."}}, {"@type": "Question", "name": "How long does a common cold last?", "acceptedAnswer": {"@type": "Answer", "text": "Most uncomplicated common colds resolve within 7\u201310 days, according to a 2012 AAFP review. Nasal symptoms typically peak at days 2\u20133 and improve by day 7. A cough may persist for 2\u20133 weeks. If symptoms worsen after initial improvement, last more than 10 days, or include fever above 103\u00b0F, facial pain, or ear pain, a physician should re-evaluate to screen for bacterial complications."}}, {"@type": "Question", "name": "Does California require an in-person visit before telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. A California-licensed physician can establish a new patient relationship and evaluate your symptoms through a synchronous video visit. TeleDirectMD documents consent under CA B&P \u00a72290.5 at the start of every visit."}}, {"@type": "Question", "name": "Is my Aetna plan in California in-network with TeleDirectMD?", "acceptedAnswer": {"@type": "Answer", "text": "Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. If you hold an Aetna commercial plan in California, you may be able to use your in-network benefits. Always verify current in-network status directly with Aetna before your visit, as plan eligibility varies by specific plan type."}}, {"@type": "Question", "name": "Is UnitedHealthcare in-network with TeleDirectMD in California?", "acceptedAnswer": {"@type": "Answer", "text": "UnitedHealthcare Commercial was approved for California effective May 29, 2026, covering commercial plans and Medicare Advantage. This excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types. Verify your specific UHC plan eligibility with UHC before booking."}}, {"@type": "Question", "name": "Will Medi-Cal cover my TeleDirectMD visit for a cold in California?", "acceptedAnswer": {"@type": "Answer", "text": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, find a Medi-Cal-enrolled telehealth provider through your managed care plan or the California DHCS directory at dhcs.ca.gov."}}, {"@type": "Question", "name": "What OTC medications are safe for cold symptoms?", "acceptedAnswer": {"@type": "Answer", "text": "For adults without contraindications, common OTC options include: pseudoephedrine (Sudafed) for nasal congestion \u2014 requires ID at pharmacy; guaifenesin (Mucinex) to thin mucus; cetirizine (Zyrtec) or loratadine (Claritin) for sneezing and runny nose; and acetaminophen or ibuprofen for fever and body aches. Avoid decongestants if you have uncontrolled high blood pressure, heart disease, or hyperthyroidism. A physician can review your full medical history and medications at a TeleDirectMD visit."}}, {"@type": "Question", "name": "When is a cold dangerous and when should I go to the ER in California?", "acceptedAnswer": {"@type": "Answer", "text": "Seek urgent in-person care or call 911 if you have difficulty breathing, chest pain, severe headache with neck stiffness, altered mental status, or high fever above 104\u00b0F. Fever above 103\u00b0F lasting more than 3 days, symptoms that worsen after initial improvement, or severe ear or facial pain warrant same-day urgent care. TeleDirectMD is not appropriate if red-flag symptoms are present."}}, {"@type": "Question", "name": "Can the common cold be prevented?", "acceptedAnswer": {"@type": "Answer", "text": "Hand hygiene is the most effective prevention strategy, according to the CDC. Washing hands frequently with soap and water for 20 seconds, avoiding touching the face, and staying home when symptomatic reduces transmission. Cold viruses (primarily rhinovirus) are transmitted by direct contact with infected secretions and respiratory droplets. No vaccine prevents the common cold due to the large number of causative virus serotypes."}}, {"@type": "Question", "name": "Does California's AB 744 telehealth parity law apply to my visit?", "acceptedAnswer": {"@type": "Answer", "text": "California AB 744 (2019) requires commercial health plans to reimburse telehealth services on the same basis as in-person services \u2014 the same copay, no requirement for prior in-person contact. This parity applies when the provider is already in-network with your specific plan. Currently, Aetna (active April 30, 2026) and UnitedHealthcare Commercial (active May 29, 2026) are in-network in California for TeleDirectMD."}}, {"@type": "Question", "name": "How quickly will my prescription reach a California pharmacy?", "acceptedAnswer": {"@type": "Answer", "text": "California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022). If a prescription is appropriate \u2014 such as a nasal steroid spray \u2014 TeleDirectMD sends an e-prescription electronically to your chosen California pharmacy \u2014 CVS, Walgreens, Rite Aid, Walmart, Safeway \u2014 during or immediately after your visit. Most California pharmacies fill within one to four hours."}}]}, {"@context": "https://schema.org", "@type": "HowTo", "name": "How to Get Common Cold Treatment Online in California", "description": "Three steps to receive common cold treatment evaluation and, if appropriate, a prescription from a California-licensed board-certified physician.", "totalTime": "PT30M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "79"}, "step": [{"@type": "HowToStep", "position": 1, "name": "Book your video visit", "text": "Visit teledirectmd.com and select California Common Cold treatment. No referral needed. Self pay $79. Many visits available same day.", "url": "https://teledirectmd.com/book-online"}, {"@type": "HowToStep", "position": 2, "name": "See a California-licensed MD by secure video", "text": "Connect with a board-certified Family Medicine physician licensed in California. The physician reviews your symptoms, history, and red-flag screening. Consent per CA B&P Section 2290.5 confirmed.", "url": "https://teledirectmd.com/ca/common-cold-treatment-online/"}, {"@type": "HowToStep", "position": 3, "name": "Receive your treatment plan and e-prescription", "text": "If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy during or after the visit.", "url": "https://teledirectmd.com/ca/common-cold-treatment-online/"}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TeleDirectMD", "item": "https://teledirectmd.com"}, {"@type": "ListItem", "position": 2, "name": "California", "item": "https://teledirectmd.com/ca/"}, {"@type": "ListItem", "position": 3, "name": "Common Cold Treatment Online in California", "item": "https://teledirectmd.com/ca/common-cold-treatment-online/"}]}];
 
 const PAGE_CSS = `
 .tdmd-ca-cond{color:var(--tdmd-text);}
@@ -251,7 +251,7 @@ export default function CaCommonColdTreatmentOnline() {
                 {/* v3: Inline opener paragraph — replaces CitableSummaryBlock */}
                 <div className="tdmd-condition-opener" id={`${pid}-opening`}>
                   <p>
-                    <strong>Can I get common cold treatment online in California?</strong> Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California and are held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. Self pay is $79. <a href="/insurance/">Aetna is in-network</a> as of April 30, 2026; UnitedHealthcare Commercial approved May 29, 2026.
+                    <strong>Can I get common cold treatment online in California?</strong> Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. Dr. Bhavsar is licensed in California and is held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. Self pay is $79. <a href="/insurance/">Aetna is in-network</a> as of April 30, 2026; UnitedHealthcare Commercial approved May 29, 2026.
                   </p>
                 </div>
 
@@ -290,9 +290,9 @@ export default function CaCommonColdTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> J00 (Acute nasopharyngitis; actual code assigned at visit)</p>
@@ -405,7 +405,7 @@ export default function CaCommonColdTreatmentOnline() {
                   <h3>Receive your treatment plan and e-prescription</h3>
                   <p>If medication is clinically appropriate, a California-compliant e-prescription is sent to your chosen California pharmacy during or after the visit. You receive clear follow-up instructions regardless of treatment choice, including when to seek in-person care.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -418,10 +418,10 @@ export default function CaCommonColdTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Common Cold in California?</h2>
             <p>
-              California sees approximately 1 billion common colds annually in the United States; applying standard epidemiologic rates, California's 39 million residents experience an estimated 150–180 million cold episodes per year, primarily in fall and winter months. — <a href="https://www.cdc.gov/nchs/fastats/common-cold.htm" rel="noopener" target="_blank">CDC — Common Cold Data</a>.
+              California sees approximately 1 billion common colds annually in the United States; applying standard epidemiologic rates, California's 39 million residents experience an estimated 150–180 million cold episodes per year, primarily in fall and winter months. — <a href="https://www.cdc.gov/common-cold/about/index.html" rel="noopener" target="_blank">CDC — About Common Cold</a>.
             </p>
             <p>
-              Clinical guidance for common cold treatment is provided by <a href="https://www.aafp.org/pubs/afp/issues/2012/0715/p153.html" rel="noopener" target="_blank">American Academy of Family Physicians (AAFP)</a> through the AAFP Common Cold Management Guidelines. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for common cold treatment is provided by <a href="https://www.aafp.org/pubs/afp/issues/2012/0715/p153.html" rel="noopener" target="_blank">American Academy of Family Physicians (AAFP)</a> through its 2012 American Family Physician review on treating the common cold. TeleDirectMD follows this guidance on every patient visit.
             </p>
             <h3>What causes common cold and who is most at risk in California?</h3>
             <p>
@@ -450,25 +450,6 @@ export default function CaCommonColdTreatmentOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical Common Cold cost comparison">
-                <h3>Typical Common Cold Visit Cost in California</h3>
-                <p className="tdmd-price-caption">Common ranges Californians see before insurance. Actual costs vary by setting and city.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 13, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical California metro pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <h3 style={{ marginTop: '1.75rem' }}>California Payor Status — TeleDirectMD</h3>
@@ -506,7 +487,7 @@ export default function CaCommonColdTreatmentOnline() {
               </table>
             </div>
             <p style={{ marginTop: '1rem' }}>
-              View all <a href="/insurance">insurance options</a> or <a href="/book-online">book a $79 self-pay visit</a>.
+              View all <a href="/insurance/">insurance options</a> or <a href="/book-online/">book a $79 self-pay visit</a>.
             </p>
           </div>
         </section>
@@ -612,7 +593,7 @@ export default function CaCommonColdTreatmentOnline() {
                 <p>Book a same-day video visit — California adults, 18+</p>
                 <small>Self pay $79 &middot; Aetna in-network &middot; UHC Commercial approved May 2026 &middot; No ER wait</small>
               </div>
-              <a className="tdmd-ca-cond__cta-btn" href="/book-online" rel="noopener">Book Now &rarr;</a>
+              <a className="tdmd-ca-cond__cta-btn" href="/book-online/" rel="noopener">Book Now &rarr;</a>
             </div>
           </div>
         </section>
@@ -630,8 +611,8 @@ export default function CaCommonColdTreatmentOnline() {
                 <p>Book a same-day video visit. Self pay $79 &middot; Aetna in-network &middot; UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -678,10 +659,10 @@ export default function CaCommonColdTreatmentOnline() {
               <a href="/common-cold-treatment-online/">National Common Cold page</a>
               <a href="/health-guides/">Common Cold health guides</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/insurance">Insurance</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/insurance/">Insurance</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>
@@ -695,7 +676,7 @@ export default function CaCommonColdTreatmentOnline() {
               <li><a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth Resources. Retrieved May 2026.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744). Retrieved May 2026.</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
-              <li><a href="https://www.cdc.gov/nchs/fastats/common-cold.htm" rel="noopener" target="_blank">CDC — Common Cold (NCHS FastStats). Retrieved May 2026.</a></li>
+              <li><a href="https://www.cdc.gov/common-cold/about/index.html" rel="noopener" target="_blank">CDC — About Common Cold. Retrieved May 2026.</a></li>
               <li><a href="https://www.aafp.org/pubs/afp/issues/2012/0715/p153.html" rel="noopener" target="_blank">AAFP — Nonpharmacologic Management of Upper Respiratory Tract Infections. Retrieved May 2026.</a></li>
               <li><a href="https://www.cdc.gov/antibiotic-use/sinus-infection.html" rel="noopener" target="_blank">CDC — Antibiotic Use for Common Cold and Sinus Infections. Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>

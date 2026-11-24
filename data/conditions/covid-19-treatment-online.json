@@ -3,11 +3,11 @@
   "conditionShort": "COVID-19",
   "conditionSlug": "covid-19-treatment-online",
   "pageTitle": "COVID-19 Online Treatment in {state} | TeleDirectMD",
-  "metaDescription": "Evidence-based COVID-19 treatment for {state} adults by secure video visit. Risk-factor assessment, Paxlovid prescriptions when clinically appropriate, red-flag screening, and supportive care guidance. Self pay option starting at $79. Insurance is not required.",
+  "metaDescription": "Evidence-based COVID-19 treatment for {state} adults by secure video visit. Risk-factor assessment, Paxlovid prescriptions when clinically appropriate, red-flag screening, and supportive care guidance. Flat $79 self-pay option. Insurance is not required.",
   "ogImageAlt": "COVID-19 treatment in {state} by TeleDirectMD",
   "hero": {
     "h1": "COVID-19 Treatment in {state} (Mild to Moderate)",
-    "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
+    "subtitle": "{state} adult care by secure video visit, flat $79 self-pay option, MD-only, insurance is not required.",
     "introParagraph": "COVID-19 remains a treatable outpatient illness when antiviral therapy is started early. The CDC outpatient treatment guidelines (February 2026) recommend nirmatrelvir/ritonavir (Paxlovid) as first-line oral antiviral therapy for adults with mild to moderate COVID-19 who have risk factors for severe disease, initiated within 5 days of symptom onset. In clinical trials, Paxlovid reduced hospitalization and death by 86 percent in unvaccinated high-risk patients. The CDC recommends treatment consideration for anyone age 50 and older, as well as adults with multiple comorbidities, immunocompromised status, or incomplete vaccination. Supportive care with rest, hydration, and over-the-counter symptom management remains appropriate for mild illness in patients without risk factors for progression. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including difficulty breathing, persistent chest pain or pressure, confusion, inability to stay awake, and cyanosis before determining whether outpatient treatment by video visit is appropriate. If the clinical picture supports uncomplicated mild to moderate COVID-19 without red flags, guideline-based treatment including Paxlovid when indicated may be reasonable by video, while adults with severe illness are directed to emergency care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
       {
@@ -32,7 +32,7 @@
       }
     ],
     "benefits": [
-      "Self pay option starting at $79",
+      "Flat $79 self-pay option",
       "MD-only care (no mid-levels)",
       "Insurance is not required",
       "Licensed telehealth care for patients located in {state} at the time of the visit"
@@ -48,7 +48,7 @@
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to the ER now for difficulty breathing or shortness of breath, persistent chest pain or pressure, confusion or inability to stay awake, pale gray or blue-colored skin lips or nail beds (cyanosis), oxygen saturation below 94 percent, or any signs of severe illness. TeleDirectMD does not prescribe controlled substances."
     },
     "icd10Display": "U07.1, J12.82, or M35.81 (final coding depends on clinical details)",
-    "quickAnswer": "Yes — adults (18+) in {state} with COVID-19 symptoms can be treated online. A board-certified MD reviews your symptoms, risk factors, and medication list by secure video and, per February 2026 CDC guidance, prescribes nirmatrelvir/ritonavir (Paxlovid) within 5 days of onset if you have risk factors for severe disease, or supportive care like acetaminophen for milder illness. Visit price: $79 flat, no insurance required. Shortness of breath at rest, chest pressure, or confusion needs ER care, not telehealth."
+    "quickAnswer": "Yes, adults (18+) in {state} with COVID-19 symptoms can be treated online. A board-certified MD reviews your symptoms, risk factors, and medication list by secure video and, per February 2026 CDC guidance, prescribes nirmatrelvir/ritonavir (Paxlovid) within 5 days of onset if you have risk factors for severe disease, or supportive care like acetaminophen for milder illness. Visit price: $79 flat, no insurance required. Shortness of breath at rest, chest pressure, or confusion needs ER care, not telehealth."
   },
   "eligibility": {
     "sectionTitle": "COVID-19 Telehealth Eligibility Checklist for {state}",
@@ -109,7 +109,7 @@
     "rows": [
       {
         "option": "TeleDirectMD",
-        "cost": "Self pay option starting at $79",
+        "cost": "Flat $79 self-pay option",
         "wait": "Same day, often within hours",
         "provider": "Board-certified MD only (no mid-levels)",
         "bestFor": "Mild to moderate COVID-19 with risk-factor assessment, Paxlovid prescriptions when appropriate, and clear follow-up",
@@ -117,7 +117,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Moderate symptoms, need for on-site COVID testing, or uncertain diagnosis requiring physical exam",
@@ -125,7 +125,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Difficulty breathing, persistent chest pain, confusion, cyanosis, oxygen saturation below 94 percent, or any signs of severe COVID-19",
@@ -133,7 +133,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $250+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "3 to 14 days typical",
         "provider": "Family medicine or internal medicine MD or DO",
         "bestFor": "Post-COVID follow-up, long COVID evaluation, vaccination planning, and management of underlying conditions",
@@ -141,7 +141,7 @@
       },
       {
         "option": "Infectious Disease Specialist",
-        "cost": "$200 to $500+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks (varies)",
         "provider": "Infectious disease MD or DO",
         "bestFor": "Immunocompromised patients, treatment-resistant COVID-19, complicated infections, or need for IV remdesivir",
@@ -212,24 +212,6 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $250+",
-        "width": 45,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 55,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
     "footnote": "Total cost is transparent: the $79 visit is often the main cost, since Paxlovid may be available at no charge through government programs or insurance, and OTC symptom-relief medications for milder cases typically cost only a few dollars.",
@@ -474,7 +456,7 @@
         "Critical supportive care. Oral rehydration solutions may help if appetite is poor. Seek emergency care if unable to keep fluids down."
       ]
     ],
-    "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, risk factors, medications, and medical history. Paxlovid has significant drug interactions and is not appropriate for all patients. TeleDirectMD does not prescribe controlled substances."
+    "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, risk factors, medications, and medical history. Paxlovid has significant drug interactions and is not appropriate for all patients. TeleDirectMD does not prescribe controlled substances. Paxlovid dosing depends on kidney function. Adults under 65 with no diabetes, high blood pressure, heart failure, or kidney disease receive the standard dose on history alone. Patients 65 and older or with any of those conditions are asked to upload a kidney function result (eGFR) from the last 12 months; without one, the physician prescribes the label's reduced dose for moderate kidney impairment and documents the basis."
   },
   "homeCare": {
     "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",
@@ -557,7 +539,7 @@
       },
       {
         "question": "How much does online COVID-19 treatment cost in {state}?",
-        "answer": "TeleDirectMD offers a transparent self pay option starting at $79 for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate. Paxlovid may be available at reduced cost through insurance or government programs."
+        "answer": "TeleDirectMD offers a transparent flat $79 self-pay option for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate. Paxlovid may be available at reduced cost through insurance or government programs."
       },
       {
         "question": "Do I need Paxlovid for COVID-19?",
@@ -593,7 +575,7 @@
       },
       {
         "question": "Do I need a positive COVID test before my telehealth visit in {state}?",
-        "answer": "A prior positive test is helpful but not always required — the MD can evaluate your symptoms and exposure history to determine likelihood of COVID-19 and whether Paxlovid or supportive care is appropriate. Testing recommendations may still be given during the visit."
+        "answer": "A prior positive test is helpful but not always required: the MD can evaluate your symptoms and exposure history to determine likelihood of COVID-19 and whether Paxlovid or supportive care is appropriate. Testing recommendations may still be given during the visit."
       },
       {
         "question": "How quickly do I need to start Paxlovid after COVID symptoms begin in {state}?",
@@ -611,12 +593,12 @@
       "url": "https://www.cdc.gov/covid/treatment/index.html"
     },
     {
-      "text": "NIH COVID-19 Treatment Guidelines: Outpatient Management",
-      "url": "https://www.covid19treatmentguidelines.nih.gov/management/clinical-management-of-adults/nonhospitalized-adults--therapeutic-management/"
+      "text": "NIH COVID-19 Treatment Guidelines (archived, NCBI Bookshelf)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK570371/"
     },
     {
       "text": "FDA: Paxlovid (nirmatrelvir/ritonavir) Full Prescribing Information",
-      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/218998s000lbl.pdf"
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/217188s000lbl.pdf"
     },
     {
       "text": "IDSA Guidelines on the Treatment and Management of Patients with COVID-19",
@@ -627,8 +609,7 @@
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
       "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate COVID-19 symptoms, assess risk factors for severe disease, provide evidence-based guidance, and prescribe antiviral treatment when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
-      "TeleDirectMD is not an emergency service and is not a replacement for emergency care during severe COVID-19 with respiratory distress, hypoxia, or other signs of critical illness. TeleDirectMD cannot provide COVID testing, IV remdesivir, monoclonal antibody infusions, or inpatient care. This service is intended for mild to moderate COVID-19 and is not a substitute for in-person evaluation when severe disease is suspected.",
-      "Online COVID-19 treatment in {state}. Paxlovid prescription online. COVID-19 telehealth evaluation by video visit."
+      "TeleDirectMD is not an emergency service and is not a replacement for emergency care during severe COVID-19 with respiratory distress, hypoxia, or other signs of critical illness. TeleDirectMD cannot provide COVID testing, IV remdesivir, monoclonal antibody infusions, or inpatient care. This service is intended for mild to moderate COVID-19 and is not a substitute for in-person evaluation when severe disease is suspected."
     ]
   },
   "relatedConditions": [
@@ -691,7 +672,7 @@
       "label": "Yeast Infection"
     },
     {
-      "slug": "blood-pressure-medication-refills-online",
+      "slug": "hypertension-refills-online",
       "label": "Blood Pressure Medication Refills"
     }
   ],
@@ -798,7 +779,7 @@
       },
       {
         "name": "NIH COVID-19 Treatment Guidelines",
-        "url": "https://www.covid19treatmentguidelines.nih.gov/management/clinical-management-of-adults/nonhospitalized-adults--therapeutic-management/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK570371/",
         "publisher": "National Institutes of Health",
         "id": "nih"
       },

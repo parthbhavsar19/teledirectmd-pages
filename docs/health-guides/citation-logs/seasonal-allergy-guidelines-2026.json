@@ -1,0 +1,719 @@
+{
+ "guide": "seasonal-allergy-guidelines-2026",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 12 verified, retractions: none (no editorial notices from Scite; contrasting evidence flagged for Zielen 2017 and Anderegg 2021, see notes). PubMed article types checked: no Retracted Publication or Retraction Notice; Di Bona 2025 has a Published Erratum.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "Sousa-Pinto B, Bousquet J, Vieira RJ, et al. Allergic Rhinitis and Its Impact on Asthma (ARIA)-EAACI Guidelines-2024-2025 Revision: Part I-Guidelines on Intranasal Treatments. Allergy. 2025;81(4):954-976. doi:10.1111/all.70131.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41324154/",
+   "pmid": "41324154",
+   "pmcid": "PMC13040648",
+   "doi": "10.1111/all.70131",
+   "record_title": "Allergic Rhinitis and Its Impact on Asthma (ARIA)-EAACI Guidelines-2024-2025 Revision: Part I-Guidelines on Intranasal Treatments.",
+   "record_journal": "Allergy",
+   "record_year": "2025 (PubMed date 2025-12-01; vol 81(4):954-976)",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "ARIA-EAACI 2024-2025 revision, Part I; PubMed date 2025-12-01; Allergy vol 81 issue 4",
+   "retrieved_with": "mcp__PubMed__get_article_metadata, mcp__PubMed__get_full_text_article (PMC13040648), mcp__Scite__verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Old ref 1. PubMed first author is Sousa-Pinto B (Bousquet J second); old citation named Bousquet first, used an invented title and said 'April 2026'. Combination and decongestant recommendations are conditional ('we suggest'), not strong. Nothing on rhinitis medicamentosa or 'most significant since 2010' appears in the text.",
+   "claims": [
+    {
+     "text": "Guidelines suggest INAH+INCS over INCS alone or INAH alone; conditional; moderate CoE for seasonal AR, very low for perennial (takeaway, what's new, table, summary)",
+     "quote": "In patients with AR, we suggest using a combination of an INAH+INCS over an INCS alone (conditional recommendation|moderate CoE for seasonal AR and very low CoE for perennial AR)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Combination suggested over INAH alone (conditional)",
+     "quote": "In patients with AR, we suggest using a combination of an INAH+INCS over an INAH alone (conditional recommendation|moderate CoE for seasonal AR and very low CoE for perennial AR)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Change from ARIA 2016, particularly for more severe symptoms",
+     "quote": "differently from the ARIA 2016 guidelines, we now suggest the use of INAH+INCS over INCS (particularly among patients with more severe symptoms).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Where monotherapy unlikely to help, combination recommended over no treatment (strong)",
+     "quote": "In patients with AR in whom monotherapy is unlikely to lead to significant improvement in symptoms, we recommend using INAH+INCS over no treatment (strong recommendation|moderate CoE for seasonal AR",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Combination: faster onset, higher satisfaction in mHealth (MASK-air) data",
+     "quote": "MASK-air data suggest that INAH+INCS are associated with higher treatment satisfaction and with lower odds of being used in co-medication (a proxy of poor rhinitis control). In addition, INAH+INCS display a faster onset of action.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Combination costs more than INCS in 34 of 36 countries surveyed",
+     "quote": "A survey of ARIA experts suggested INAH+INCS to be more expensive than INCS in 34 out of 36 countries for which data were available.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Azelastine-fluticasone suggested over olopatadine-mometasone for adults (conditional)",
+     "quote": "In adult patients with AR, we suggest using azelastine-fluticasone over olopatadine-mometasone. (Conditional recommendation based on moderate certainty of evidence for seasonal AR).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "GRADE evidence-to-decision framework; recommend = strong, suggest = conditional",
+     "quote": "The wording of the recommendations reflects their strength, with “we recommend” implying a strong recommendation and “we suggest” implying a conditional recommendation.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "ARIA first published 2001, revisions 2008, 2010, 2016 and 2020",
+     "quote": "the Allergic Rhinitis and its Impact on Asthma (ARIA) group first proposed its guidelines for AR and asthma multimorbidity in 2001 []. Subsequent revisions were published in 2008 [], 2010 [], 2016 [], and 2020 []",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "ARIA 2024-2025 is EAACI-endorsed; Part I covers intranasal treatments",
+     "quote": "Such advances have motivated an EAACI-endorsed update of the Allergic Rhinitis and its Impact on Asthma (ARIA) guidelines (ARIA 2024-2025). This manuscript presents the ARIA 2024-2025 recommendations for intranasal treatments",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "INCS recommended over no treatment (strong, moderate CoE) (table)",
+     "quote": "In patients with AR, we recommend using INCS over no treatment. (Strong recommendation based on moderate certainty of evidence).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fluticasone furoate or propionate suggested for adults over beclomethasone, budesonide, ciclesonide, mometasone, triamcinolone; conditional, low/very low CoE; similar safety",
+     "quote": "In adult patients with AR, we suggest using specific INCS (in particular, fluticasone furoate or fluticasone propionate) over others (namely, beclomethasone, budesonide, ciclesonide, mometasone and triamcinolone). (Conditional recommendation based on very low or low certainty of evidence",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "INAH recommended over no treatment (strong, moderate CoE); INCS suggested over INAH (conditional) (table)",
+     "quote": "In patients with AR, we recommend using INAH over no treatment (strong recommendation|moderate CoE) ... In patients with AR, we suggest using INCS over INAH (conditional recommendation|moderate CoE)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "INAH vs INCS: similar efficacy and safety; INCS typically cheaper, higher adherence; INAH faster onset (table)",
+     "quote": "INCS and INAH display a similar efficacy and safety profile. INCS are typically less expensive (and/or cost-effective) and associated with higher adherence and satisfaction",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Suggest against adding intranasal decongestant to INCS: no added efficacy, more adverse events; conditional, very low CoE",
+     "quote": "Adding an intranasal decongestant to an INCS does not result in an increase in efficacy but is associated with a higher risk of adverse events, costs and impact on planetary health",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Suggest against intranasal decongestants longer than 5 days in adolescents and adults (conditional, very low CoE)",
+     "quote": "In adolescents and adults with AR, we suggest against using intranasal decongestants in the long term (longer than 5 days) over no treatment (conditional recommendation|very low CoE)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Short-term decongestant use while starting INCS can be considered in some situations",
+     "quote": "In some specific situations, using intranasal decongestants for a short period of time when INCS are being introduced can be considered",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Parts I and II make no recommendation on immunotherapy (scope of Part I is intranasal treatments; the word immunotherapy appears only in conflict-of-interest statements)",
+     "quote": "This manuscript presents the ARIA 2024-2025 recommendations for intranasal treatments, one of the mainstays for AR management.",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "guideline",
+   "cited_as": "Vieira RJ, Sousa-Pinto B, Bousquet J, et al. Allergic Rhinitis and Its Impact on Asthma (ARIA)-EAACI Guidelines-2024-2025 Revision: Part II-Guidelines on Oral and Ocular Treatments. Allergy. 2026;81(6):1947-1970. doi:10.1111/all.70305.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41877472/",
+   "pmid": "41877472",
+   "pmcid": "PMC13256267",
+   "doi": "10.1111/all.70305",
+   "record_title": "Allergic Rhinitis and Its Impact on Asthma (ARIA)-EAACI Guidelines-2024-2025 Revision: Part II-Guidelines on Oral and Ocular Treatments.",
+   "record_journal": "Allergy",
+   "record_year": "2026 (PubMed date 2026-03-24; vol 81(6):1947-1970)",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "ARIA-EAACI 2024-2025 revision, Part II; PubMed date 2026-03-24",
+   "retrieved_with": "mcp__PubMed__get_article_metadata, mcp__PubMed__get_full_text_article (PMC13256267), mcp__Scite__verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added. Part II of the same ARIA-EAACI 2024-2025 revision, retrieved this run; supports the INCS-over-oral-antihistamine, LTRA and first- vs second-generation statements. Line 123 of the PMC text reads 'suggestusing OcAH over OAH' but the abstract and discussion say OAH over OcAH; the page does not use that recommendation.",
+   "claims": [
+    {
+     "text": "Part II recommends INCS over oral antihistamines (strong, moderate CoE)",
+     "quote": "In patients with AR, we recommend using INCS over OAH. (Strong recommendation|Moderate CoE)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Second-generation over first-generation oral antihistamines (strong, very low CoE)",
+     "quote": "In patients with AR, we recommend using second-generation OAH over first-generation OAH. (Strong recommendation|Very low CoE).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Oral antihistamines recommended over LTRA (strong); suggest against adding LTRA; neuropsychiatric concerns",
+     "quote": "In patients with AR, we recommend using OAH over LTRA. (Strong recommendation|Moderate CoE) ... In patients with AR, we suggest using OAH over OAH + LTRA. ... there are important safety concerns with LTRA (montelukast).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Montelukast rare but important neuropsychiatric safety concerns",
+     "quote": "LTRA (montelukast) have rare but important neuropsychiatric safety concerns and there are safer alternatives for patients under no treatment.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "OAH recommended over no treatment (strong, moderate CoE) (table)",
+     "quote": "In patients with AR, we recommend using OAH over no treatment. (Strong recommendation|Moderate CoE)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Loratadine and fexofenadine non-sedating; cetirizine affordable but sedating; choose by preferences, availability, cost",
+     "quote": "Bilastine, ebastine, rupatadine and cetirizine are effective OAHs, with rupatadine acting rapidly and cetirizine being affordable yet sedating. Loratadine and fexofenadine are non-sedating",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Part II on oral and eye treatments, PubMed date March 2026; ARIA-EAACI 2024-2025",
+     "quote": "As part of the update of the Allergic Rhinitis and its Impact on Asthma (ARIA)-EAACI guidelines, this manuscript presents the ARIA-EAACI 2024-2025 recommendations for oral and ocular treatments.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Part II makes no recommendation on immunotherapy (scope is oral and ocular treatments)",
+     "quote": "this manuscript presents the ARIA-EAACI 2024-2025 recommendations for oral and ocular treatments.",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "Sousa-Pinto B, Vieira RJ, Brozek J, et al. Intranasal antihistamines and corticosteroids in allergic rhinitis: A systematic review and meta-analysis. J Allergy Clin Immunol. 2024;154(2):340-354. doi:10.1016/j.jaci.2024.04.016.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38685482/",
+   "pmid": "38685482",
+   "doi": "10.1016/j.jaci.2024.04.016",
+   "record_title": "Intranasal antihistamines and corticosteroids in allergic rhinitis: A systematic review and meta-analysis.",
+   "record_journal": "J Allergy Clin Immunol",
+   "record_year": "2024",
+   "article_type": "Systematic Review; Meta-Analysis; Journal Article",
+   "retrieved_with": "mcp__PubMed__get_article_metadata (abstract), mcp__Scite__verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "151 primary studies; azelastine-fluticasone, fluticasone furoate and fluticasone propionate highest probability of moderate or large improvements in TNSS and RQLQ in seasonal AR",
+     "quote": "In seasonal AR, azelastine-fluticasone, fluticasone furoate, and fluticasone propionate were the medications with the highest probability of resulting in moderate or large improvements in the Total Nasal Symptom Score and Rhinoconjunctivitis Quality-of-Life Questionnaire.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most included studies had unclear or high risk of bias",
+     "quote": "This review included 151 primary studies, most of which assessed patients with seasonal AR and displayed unclear or high risk of bias.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "other_web",
+   "cited_as": "Climate Central. Warmer Growing Season, Longer Allergy Season. March 4, 2026. Accessed November 15, 2026.",
+   "url": "https://www.climatecentral.org/climate-matters/2026-allergy-season",
+   "version_or_date": "Page dated March 4, 2026",
+   "retrieved_with": "WebFetch",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Old ref 4. Figures are freeze-free growing season, not pollen season; page now says so. 16-40% projection moved to Zhang and Steiner.",
+   "claims": [
+    {
+     "text": "Freeze-free growing season lengthened in 173 of 198 cities, by 21 days on average 1970 to 2025",
+     "quote": "The freeze-free growing season lengthened in 87% (173) of the 198 U.S. cities analyzed ... by 21 days on average from 1970 to 2025.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Regional growing-season gains: Northwest 31, Southwest 22, Southeast 19, Northeast 17 days",
+     "quote": "Northwest | +31 days ... Southwest | +22 days ... Southeast | +19 days ... Northeast | +17 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Anderegg WRL, Abatzoglou JT, Anderegg LDL, et al. Anthropogenic climate change is worsening North American pollen seasons. Proc Natl Acad Sci U S A. 2021;118(7):e2013284118. doi:10.1073/pnas.2013284118.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33558232/",
+   "pmid": "33558232",
+   "pmcid": "PMC7896283",
+   "doi": "10.1073/pnas.2013284118",
+   "record_title": "Anthropogenic climate change is worsening North American pollen seasons.",
+   "record_journal": "Proc Natl Acad Sci U S A",
+   "record_year": "2021",
+   "article_type": "Journal Article",
+   "retrieved_with": "mcp__PubMed__get_article_metadata (abstract), mcp__Scite__verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added as the primary source for the 20-day pollen-season figure that Climate Central quotes. Scite contrasting excerpt concerns fungal spore annual integrals, not pollen season length.",
+   "claims": [
+    {
+     "text": "North American pollen seasons lengthened about 20 days and pollen concentrations rose 21%, 1990 to 2018, 60 stations; seasons started earlier",
+     "quote": "we use long-term pollen data from 60 North American stations from 1990 to 2018 ... We find widespread advances and lengthening of pollen seasons (+20 d) and increases in pollen concentrations (+21%) across North America",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Zielen S, Devillier P, Heinrich J, Richter H, Wahn U. Sublingual immunotherapy provides long-term relief in allergic rhinitis and reduces the risk of asthma: A retrospective, real-world database analysis. Allergy. 2017;73(1):165-177. doi:10.1111/all.13213.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28561266/",
+   "pmid": "28561266",
+   "pmcid": "PMC5763412",
+   "doi": "10.1111/all.13213",
+   "record_title": "Sublingual immunotherapy provides long-term relief in allergic rhinitis and reduces the risk of asthma: A retrospective, real-world database analysis.",
+   "record_journal": "Allergy",
+   "record_year": "2017 (PubMed date 2017-08-10; vol 73(1):165-177)",
+   "article_type": "Journal Article",
+   "retrieved_with": "mcp__PubMed__get_article_metadata, mcp__PubMed__get_full_text_article (PMC5763412), mcp__Scite__verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces old ref 7 (Stallergenes Greer press release). Primary study. Scite flagged contrasting evidence: a later study (doi 10.1111/pai.70304, not retrieved or cited) could not corroborate reduced asthma onset; page wording states association, not proof. Some authors report fees or research funding from Stallergenes Greer. Grass pollen SLIT tablets only.",
+   "claims": [
+    {
+     "text": "2,851 SLIT tablet patients vs 71,275 controls; AR medication 18.8 percentage points lower after treatment",
+     "quote": "2851 SLIT and 71 275 control patients were selected for the study. After treatment cessation, AR medication use was 18.8 percentage points lower",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Relative risk of new asthma about 30% lower during treatment and about 40% lower during follow-up",
+     "quote": "The relative risk reduction was around 30% during treatment and around 40% during follow-up.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Observational, prescription-record based; grass pollen SLIT tablets",
+     "quote": "The LRx database does not contain clinical information (such as diagnoses); hence, patient profiles ... have to be inferred from proxy prescription data.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "agency_page",
+   "cited_as": "National Center for Health Statistics. Diagnosed Allergic Conditions in Adults: United States, 2024. NCHS Data Brief No. 545. January 2026. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/nchs/products/databriefs/db545.htm",
+   "version_or_date": "NCHS Data Brief No. 545, January 2026 (first published January 8, 2026)",
+   "retrieved_with": "WebFetch",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "25.2% of US adults had a diagnosed seasonal allergy in 2024",
+     "quote": "One-quarter of adults had a seasonal allergy (25.2%)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "agency_page",
+   "cited_as": "National Center for Health Statistics. Diagnosed Allergic Conditions in Children Ages 0-17: United States, 2024. NCHS Data Brief No. 546. January 8, 2026. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/nchs/products/databriefs/db546.htm",
+   "version_or_date": "NCHS Data Brief No. 546, January 8, 2026",
+   "retrieved_with": "WebFetch",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "20.6% of US children had a diagnosed seasonal allergy in 2024",
+     "quote": "In 2024, diagnosed seasonal allergies were the most common allergies in children (20.6%),",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Zhang Y, Steiner AL. Projected climate-driven changes in pollen emission season length and magnitude over the continental United States. Nat Commun. 2022;13(1):1234. doi:10.1038/s41467-022-28764-0.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35292649/",
+   "pmid": "35292649",
+   "pmcid": "PMC8924258",
+   "doi": "10.1038/s41467-022-28764-0",
+   "record_title": "Projected climate-driven changes in pollen emission season length and magnitude over the continental United States.",
+   "record_journal": "Nat Commun",
+   "record_year": "2022",
+   "article_type": "Journal Article",
+   "retrieved_with": "mcp__PubMed__get_article_metadata (abstract), mcp__Scite__verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added as the primary source for the 16-40% projection (quoted second-hand in Pershad 2025).",
+   "claims": [
+    {
+     "text": "Total US pollen emissions projected up 16% to 40% by end of century; up to 200% if CO2 doubles production",
+     "quote": "increase the annual total pollen emission by 16-40% due to changes in phenology and temperature-driven pollen production. Increasing atmospheric CO2 may increase pollen production, and doubling production in conjunction with climate increases end-of-century emissions up to 200%.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Pershad AR, Krishnan R, Lee E, et al. How Climate Change Is Impacting Allergic Rhinitis: A Scoping Review. Laryngoscope. 2025;135(8):2670-2682. doi:10.1002/lary.32124.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40200859/",
+   "pmid": "40200859",
+   "doi": "10.1002/lary.32124",
+   "record_title": "How Climate Change Is Impacting Allergic Rhinitis: A Scoping Review.",
+   "record_journal": "Laryngoscope",
+   "record_year": "2025",
+   "article_type": "Journal Article; Scoping Review",
+   "retrieved_with": "mcp__PubMed__get_article_metadata (abstract), WebFetch (Wiley press release, used only to identify the DOI), mcp__Scite__verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces old ref 5 (Wiley press release) with the PubMed record of the underlying review. PubMed type is Scoping Review, so it is called a scoping review.",
+   "claims": [
+    {
+     "text": "2025 Laryngoscope scoping review, 30 studies: 16 longer pollen seasons or higher concentrations; 4 increased AR healthcare use",
+     "quote": "Of the 502 articles assessed, 30 studies were eligible for inclusion. Sixteen studies reported longer pollen seasons and/or higher pollen concentrations related to climate change ... Four studies reported an increase in AR-related healthcare usage",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "journal",
+   "cited_as": "Juel-Berg N, Darling P, Bolvig J, et al. Intranasal corticosteroids compared with oral antihistamines in allergic rhinitis: A systematic review and meta-analysis. Am J Rhinol Allergy. 2017;31(1):19-28. doi:10.2500/ajra.2016.30.4397.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28234147/",
+   "pmid": "28234147",
+   "doi": "10.2500/ajra.2016.30.4397",
+   "record_title": "Intranasal corticosteroids compared with oral antihistamines in allergic rhinitis: A systematic review and meta-analysis.",
+   "record_journal": "Am J Rhinol Allergy",
+   "record_year": "2017",
+   "article_type": "Comparative Study; Journal Article; Meta-Analysis; Systematic Review",
+   "retrieved_with": "mcp__PubMed__get_article_metadata (abstract), mcp__Scite__verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Old ref 2. Journal corrected from Ann Allergy Asthma Immunol 118(2):e285 to Am J Rhinol Allergy 31(1):19-28 per PubMed. Runny-nose result not significant.",
+   "claims": [
+    {
+     "text": "5 RCTs, 990 patients; INCS superior for TNSS (SMD -0.70), obstruction (-0.56), QoL (MD -0.90)",
+     "quote": "The meta-analysis included five randomized controlled trials with a total of 990 patients. INS were superior to OAs in improving total nasal symptoms score (SMD -0.70 [95% CI, -0.93 to -0.47]) and in relieving the following: nasal obstruction (SMD -0.56",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Runny nose difference (-0.47) not statistically significant (CI crosses zero)",
+     "quote": "rhinorrhea (SMD -0.47 [95% CI, -1.00 to 0.05])",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No difference in eye symptoms between INCS and oral antihistamines",
+     "quote": "There was no difference in relief of ocular symptoms (SMD -0.08 [95% CI, -0.23 to 0.08]).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "label",
+   "cited_as": "Organon LLC. SINGULAIR (montelukast sodium) tablets, chewable tablets and oral granules: Prescribing Information, including Boxed Warning. Revised 6/2021. DailyMed, U.S. National Library of Medicine. Updated April 30, 2025. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842",
+   "version_or_date": "Label revised 6/2021; DailyMed updated April 30, 2025",
+   "retrieved_with": "WebFetch (DailyMed)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Boxed warning: serious neuropsychiatric events; for allergic rhinitis reserve for inadequate response or intolerance to alternatives",
+     "quote": "WARNING: SERIOUS NEUROPSYCHIATRIC EVENTS ... Because the benefits of SINGULAIR may not outweigh the risk of neuropsychiatric symptoms in patients with allergic rhinitis, reserve use for patients who have an inadequate response or intolerance to alternative therapies",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "label",
+   "cited_as": "Bayer HealthCare LLC. AFRIN ORIGINAL (oxymetazoline hydrochloride) spray: Drug Facts. DailyMed, U.S. National Library of Medicine. Updated December 4, 2025. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=89c165ba-3ad5-49b5-a5bb-423dc8e15bad",
+   "version_or_date": "DailyMed updated December 4, 2025",
+   "retrieved_with": "WebFetch (DailyMed)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Do not use more than 3 days; frequent or prolonged use may cause congestion to recur or worsen",
+     "quote": "do not use for more than 3 days. Use only as directed. Frequent or prolonged use may cause nasal congestion to recur or worsen.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "journal",
+   "cited_as": "Wang Y, Jin L, Liu SX, et al. Role of nasal saline irrigation in the treatment of allergic rhinitis in children and adults: A systematic analysis. Allergol Immunopathol (Madr). 2020;48(4):360-367. doi:10.1016/j.aller.2020.01.002.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32331798/",
+   "pmid": "32331798",
+   "doi": "10.1016/j.aller.2020.01.002",
+   "record_title": "Role of nasal saline irrigation in the treatment of allergic rhinitis in children and adults: A systematic analysis.",
+   "record_journal": "Allergol Immunopathol (Madr)",
+   "record_year": "2020",
+   "article_type": "Journal Article; Meta-Analysis; Systematic Review",
+   "retrieved_with": "mcp__PubMed__get_article_metadata (abstract), mcp__Scite__verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Saline irrigation improved AR symptoms; safe adjunct to medication in adults",
+     "quote": "Saline irrigation can significantly improve symptoms of AR in children and adults. Saline irrigation can serve as a safe adjunctive treatment to medication of AR in adults.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "agency_page",
+   "cited_as": "U.S. Food and Drug Administration. Is Rinsing Your Sinuses With Neti Pots Safe? Content current as of April 28, 2025. Accessed November 15, 2026.",
+   "url": "https://www.fda.gov/consumers/consumer-updates/rinsing-your-sinuses-neti-pots-safe",
+   "version_or_date": "Content current as of 04/28/2025",
+   "retrieved_with": "WebFetch",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Use distilled, sterile, or boiled and cooled water for nasal rinsing",
+     "quote": "Distilled or sterile water, which you can buy in stores ... Boiled and cooled tap water — boiled for 3 to 5 minutes, then cooled until it is lukewarm.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "journal",
+   "cited_as": "Di Bona D, Di Biase A, Paoletti G, et al. Efficacy of index of reactivity-liquid sublingual immunotherapy in allergic rhinoconjunctivitis: a systematic review and meta-analysis of randomized studies. Front Allergy. 2025;6:1597003. doi:10.3389/falgy.2025.1597003. Correction published 2025 (doi:10.3389/falgy.2025.1652198).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40538627/",
+   "pmid": "40538627",
+   "pmcid": "PMC12176734",
+   "doi": "10.3389/falgy.2025.1597003",
+   "record_title": "Efficacy of index of reactivity-liquid sublingual immunotherapy in allergic rhinoconjunctivitis: a systematic review and meta-analysis of randomized studies.",
+   "record_journal": "Front Allergy",
+   "record_year": "2025",
+   "article_type": "Journal Article; Systematic Review",
+   "retrieved_with": "mcp__PubMed__get_article_metadata (abstract and author affiliations), mcp__PubMed__get_full_text_article (PMC12333659, correction notice), mcp__Scite__verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [
+    "Published Erratum (Correction), PMID 40786060, doi 10.3389/falgy.2025.1652198: fixes reference numbers and removes the word 'seasonal' from two figure captions; does not change the pooled results cited here"
+   ],
+   "notes": "Old ref 8. Authors added; title corrected to the PubMed title. Single manufacturer's liquid SLIT (IR-SLIT-liquid), two Stallergenes Greer authors. Correction noted.",
+   "claims": [
+    {
+     "text": "One manufacturer's liquid SLIT; 25 RCTs, 1,830 patients; reduced symptom and medication scores vs placebo; consistent across grass, mites, trees, weeds",
+     "quote": "A total of 25 RCTs (1,830 patients) provided data on symptom scores ... IR-SLIT-liquid was significantly more effective than placebo in reducing both SS ... and MS ... regardless of ... allergen type (grass, house dust mites, trees, weeds)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Two authors work for the manufacturer (Stallergenes Greer)",
+     "quote": "Cognet-Sicé J; Scurati S: Integrated Health Care Department, Stallergenes Greer, Antony, France (PubMed author affiliations)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Table: 'Placebo-controlled trials' as the evidence type for SLIT",
+     "quote": "Randomized controlled trials (RCTs) on index of reactivity (IR) SLIT liquid formulations of various allergens were identified",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "label",
+   "cited_as": "ALK-Abello A/S. GRASTEK (timothy grass pollen allergen extract) tablet: Prescribing Information, including Boxed Warning. Revised 9/2022. DailyMed, U.S. National Library of Medicine. Updated September 19, 2022. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ebb02ba7-de81-4367-8ba7-d774816f85b0",
+   "version_or_date": "Label revised 9/2022; DailyMed updated September 19, 2022",
+   "retrieved_with": "WebFetch (DailyMed)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Indicated for grass pollen AR confirmed by positive skin test or in vitro IgE test; ages 5 through 65",
+     "quote": "indicated as immunotherapy for the treatment of grass pollen-induced allergic rhinitis with or without conjunctivitis confirmed by positive skin test or in vitro testing for pollen-specific IgE antibodies ... approved for use in persons 5 through 65 years of age.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Start at least 12 weeks before season; first dose in healthcare setting under physician supervision",
+     "quote": "Initiate treatment at least 12 weeks before the expected onset of each grass pollen season ... Administer the first dose of GRASTEK in a healthcare setting under the supervision of a physician",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Boxed warning: life-threatening allergic reactions; prescribe auto-injectable epinephrine",
+     "quote": "GRASTEK can cause life-threatening allergic reactions such as anaphylaxis and severe laryngopharyngeal restriction. ... Prescribe auto-injectable epinephrine, instruct and train patients on its appropriate use",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "kind": "journal",
+   "cited_as": "Bernstein DI. Aeroallergen immunotherapy update: Developments since the third Practice Parameter. Allergy Asthma Proc. 2025;46(6):450-454. doi:10.2500/aap.2025.46.250067.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41152677/",
+   "pmid": "41152677",
+   "doi": "10.2500/aap.2025.46.250067",
+   "record_title": "Aeroallergen immunotherapy update: Developments since the third Practice Parameter.",
+   "record_journal": "Allergy Asthma Proc",
+   "record_year": "2025",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "mcp__PubMed__get_article_metadata (abstract), mcp__Scite__verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Immunotherapy proven for AR and asthma with potential to modify natural history",
+     "quote": "Allergy immunotherapy is a proven treatment for allergic rhinitis and asthma with the potential to modify the natural history of these disorders.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "SLIT near-equivalent efficacy to shots with superior safety allowing self-administration",
+     "quote": "Both SLIT and subcutaneous immunotherapy have near equivalent efficacy, but SLIT has a superior safety profile, allowing self-administration.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "kind": "label",
+   "cited_as": "ALK-Abello A/S. RAGWITEK (short ragweed pollen allergen extract) tablet: Prescribing Information, including Boxed Warning. Revised 9/2022. DailyMed, U.S. National Library of Medicine. Updated September 19, 2022. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=70216cba-11b5-40fd-8656-9f27b24f7b60",
+   "version_or_date": "Label revised 9/2022; DailyMed updated September 19, 2022 (archive table also lists a version published October 8, 2026)",
+   "retrieved_with": "WebFetch (DailyMed)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Short ragweed AR confirmed by skin or in vitro IgE test; ages 5 through 65; start 12 weeks before season; first dose supervised",
+     "quote": "approved for use in persons 5 through 65 years of age ... Initiate treatment at least 12 weeks before the expected onset of ragweed pollen season ... Administer the first dose of RAGWITEK in a healthcare setting",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Boxed warning: life-threatening allergic reactions such as anaphylaxis",
+     "quote": "WARNING: SEVERE ALLERGIC REACTIONS ... RAGWITEK can cause life-threatening allergic reactions such as anaphylaxis and severe laryngopharyngeal restriction.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "kind": "other_web",
+   "cited_as": "American College of Allergy, Asthma and Immunology. Thunderstorms linked to surge in asthma ER visits, new study shows. November 6, 2025. Accessed November 15, 2026.",
+   "url": "https://acaai.org/news/thunderstorms-linked-to-surge-in-asthma-er-visits-new-study-shows/",
+   "version_or_date": "Press release dated November 6, 2025 (meeting abstract, 2025 ACAAI Annual Scientific Meeting)",
+   "retrieved_with": "WebFetch",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Old ref 6. 'admissions six times higher' corrected to visits (nearly 18 vs 3 per day). Meeting abstract; no PubMed record searched for.",
+   "claims": [
+    {
+     "text": "4,439 asthma ED visits, three Wichita hospitals, Jan 2020 to Dec 2024; 14% on 38 storm days, 2% of calendar days in study period",
+     "quote": "Researchers analyzed 4,439 asthma-related ER visits across three Wichita, KS hospitals from January 2020 to December 2024. ... 14% of all asthma-related ER visits (627 cases) occurred on just 38 storm days, which represented only 2% of the calendar days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nearly 18 visits per day on storm days vs about 3 on other days",
+     "quote": "The average number of asthma visits was nearly 18 per day during thunderstorms, compared to just 3 on non-storm days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "WAO: thunderstorms a risk factor for asthma attacks in people with pollen allergy",
+     "quote": "According to the World Allergy Organization, thunderstorms are considered a risk factor for asthma attacks in patients suffering from pollen allergy.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Advice: include storm-specific precautions in asthma action plans",
+     "quote": "Because storms are unpredictable, patients and healthcare providers should include storm-specific precautions in asthma action plans.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "kind": "journal",
+   "cited_as": "Xiao Z, Shi Y, Zhao D, Wang Y, Gu Y. Triggering mechanisms of acute thunderstorm asthma: epithelial barrier disruption and immune dysregulation. Respir Res. 2026;27(1). doi:10.1186/s12931-026-03532-6.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41652394/",
+   "pmid": "41652394",
+   "pmcid": "PMC12977724",
+   "doi": "10.1186/s12931-026-03532-6",
+   "record_title": "Triggering mechanisms of acute thunderstorm asthma: epithelial barrier disruption and immune dysregulation.",
+   "record_journal": "Respir Res",
+   "record_year": "2026",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "mcp__PubMed__get_article_metadata (abstract), mcp__Scite__verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "High humidity and strong convection make pollen hydrate and rupture into sub-pollen particles under 2.5 micrometers that can reach small airways",
+     "quote": "During thunderstorms, high humidity and strong convection can cause pollen to hydrate and rupture into sub-pollen particles (SPPs) smaller than 2.5 μm, which may further combine with other pollutants ... to form bioaerosols capable of penetrating small airways.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "kind": "other_web",
+   "cited_as": "American Academy of Allergy, Asthma and Immunology. Hay Fever (Rhinitis): Symptoms, Diagnosis, Management and Treatment. Page dated 7/16/2026. Accessed November 15, 2026.",
+   "url": "https://www.aaaai.org/conditions-treatments/allergies/hay-fever-rhinitis",
+   "version_or_date": "Page shows 7/16/2026",
+   "retrieved_with": "WebFetch",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Most hay fever medications work best if started before tree pollen is in the air",
+     "quote": "Most allergy medications for seasonal allergic rhinitis (hay fever) work best if started before tree pollen is in the air",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

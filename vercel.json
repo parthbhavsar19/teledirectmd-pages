@@ -1,9 +1,300 @@
 {
   "framework": null,
-  "buildCommand": "npm run build && rm -f out/404.html out/404/index.html out/routes-manifest.json out/_not-found/index.html out/_not-found.html",
+  "buildCommand": "npm run build && rm -f out/routes-manifest.json out/_not-found/index.html out/_not-found.html",
   "outputDirectory": "out",
   "trailingSlash": true,
   "routes": [
+    {
+      "src": "/insurance/florida-blue/?",
+      "headers": {
+        "Location": "/insurance/blue-cross-blue-shield/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/insurance/united-healthcare/tennessee/?",
+      "headers": {
+        "Location": "/insurance/united-healthcare/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/insurance/blue-cross-blue-shield/florida/?",
+      "headers": {
+        "Location": "/insurance/blue-cross-blue-shield/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/insurance/blue-cross-blue-shield/michigan/?",
+      "headers": {
+        "Location": "/insurance/blue-cross-blue-shield/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/(.*)",
+      "continue": true,
+      "headers": {
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=(self), payment=(), usb=(), interest-cohort=()",
+        "Cross-Origin-Opener-Policy": "same-origin-allow-popups"
+      }
+    },
+    {
+      "src": "/_next/static/(.*)",
+      "continue": true,
+      "headers": {
+        "Cache-Control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "src": "/(videos|images|logos|icons|brand|assets)/(.*)",
+      "continue": true,
+      "headers": {
+        "Cache-Control": "public, max-age=86400, stale-while-revalidate=604800"
+      }
+    },
+    {
+      "src": "/social/(.*)",
+      "continue": true,
+      "headers": {
+        "Cache-Control": "public, max-age=86400, stale-while-revalidate=604800",
+        "X-Robots-Tag": "noindex"
+      }
+    },
+    {
+      "src": "/health-guides/(.*)\\.(png|jpe?g|webp|avif|svg)",
+      "continue": true,
+      "headers": {
+        "Cache-Control": "public, max-age=86400, stale-while-revalidate=604800"
+      }
+    },
+    {
+      "src": "/terms-of-service/?",
+      "headers": {
+        "Location": "/legal/terms-of-service.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/terms-of-use/?",
+      "headers": {
+        "Location": "/legal/terms-of-service.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/privacy-policy/?",
+      "headers": {
+        "Location": "/legal/privacy-policy.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/notice-of-privacy-practices/?",
+      "headers": {
+        "Location": "/legal/notice-of-privacy-practices.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/telehealth-consent/?",
+      "headers": {
+        "Location": "/legal/telehealth-informed-consent.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/good-faith-estimate/?",
+      "headers": {
+        "Location": "/legal/good-faith-estimate.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/nondiscrimination-notice/?",
+      "headers": {
+        "Location": "/legal/nondiscrimination-notice.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/accessibility/?",
+      "headers": {
+        "Location": "/legal/accessibility.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/consumer-health-data-privacy/?",
+      "headers": {
+        "Location": "/legal/consumer-health-data-privacy.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/state-specific-notices/?",
+      "headers": {
+        "Location": "/legal/state-consent-disclosures.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/telehealth-informed-consent\\.pdf",
+      "headers": {
+        "Location": "/legal/telehealth-informed-consent.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/state-consent-disclosures\\.pdf",
+      "headers": {
+        "Location": "/legal/state-consent-disclosures.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/financial-responsibility\\.pdf",
+      "headers": {
+        "Location": "/legal/financial-responsibility.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/controlled-substance-policy\\.pdf",
+      "headers": {
+        "Location": "/legal/controlled-substance-policy.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/esign-disclosure/?",
+      "headers": {
+        "Location": "/legal/terms-of-service.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/medical-records-notice/?",
+      "headers": {
+        "Location": "/legal/notice-of-privacy-practices.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/medication-history-disclosure/?",
+      "headers": {
+        "Location": "/legal/telehealth-informed-consent.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/perioral-dermatitis-treatment-online/?",
+      "headers": {
+        "Location": "/what-we-treat/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/([a-z]{2})/perioral-dermatitis-treatment-online/?",
+      "headers": {
+        "Location": "/what-we-treat/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/insurance/aetna/california/perioral-dermatitis-treatment/?",
+      "headers": {
+        "Location": "/insurance/aetna/california/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/compare/teledirectmd-vs-k-health/?",
+      "headers": {
+        "Location": "/compare/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/terms-of-use/?",
+      "headers": {
+        "Location": "/terms-of-service/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/pediatrics/what-we-treat/?",
+      "headers": {
+        "Location": "/what-we-treat/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/store/?",
+      "headers": {
+        "Location": "/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/cost/weight-loss-glp1-cost/?",
+      "headers": {
+        "Location": "/cost/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/symptom-checker/?",
+      "dest": "/symptom-checker/index.html"
+    },
+    {
+      "src": "/llms-txt/?",
+      "headers": {
+        "Location": "/llms.txt"
+      },
+      "status": 301
+    },
+    {
+      "src": "/health-guides/uti-symptoms-in-men-guide(?:/index\\.html)?/?",
+      "headers": {
+        "Location": "/uti-treatment-online/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/next-steps/?",
+      "dest": "/next-steps/page.html",
+      "headers": {
+        "X-Robots-Tag": "noindex, nofollow",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      }
+    },
+    {
+      "src": "/employers/brief/thank-you/?",
+      "headers": {
+        "Location": "/employers/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/employers/brief/?",
+      "headers": {
+        "Location": "/employers/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/downloads/teledirectmd-employer-brief\\.pdf",
+      "headers": {
+        "Location": "/employers/"
+      },
+      "status": 301
+    },
     {
       "src": "/health-guides/telehealth-cold-sores-antiviral-timing/?",
       "headers": {
@@ -60,14 +351,6 @@
     {
       "src": "/api/verify(.*)",
       "dest": "https://teledirectmd-verify.vercel.app/api/verify$1"
-    },
-    {
-      "src": "/api/approve(.*)",
-      "dest": "https://teledirectmd-verify.vercel.app/api/approve$1"
-    },
-    {
-      "src": "/api/submission(.*)",
-      "dest": "https://teledirectmd-verify.vercel.app/api/submission$1"
     },
     {
       "src": "/api/download(.*)",
@@ -2848,6 +3131,13 @@
       "dest": "/410-insurance.txt"
     },
     {
+      "src": "/insurance/curative/texas/?",
+      "headers": {
+        "Location": "/insurance/curative/"
+      },
+      "status": 301
+    },
+    {
       "src": "/insurance/curative/ohio/?",
       "status": 410,
       "headers": {
@@ -4468,7 +4758,22 @@
       "dest": "/410-faq-deepdive.txt"
     },
     {
+      "src": "/(wi|ks)(/.*)?",
+      "headers": {
+        "Location": "/states-we-serve/",
+        "X-State-Paused": "2026-10-20"
+      },
+      "status": 301
+    },
+    {
       "handle": "filesystem"
+    },
+    {
+      "src": "/((?:health-guides|images)/.+)\\.png",
+      "headers": {
+        "Location": "/$1.jpg"
+      },
+      "status": 301
     },
     {
       "src": "/symptoms/?",
@@ -4704,7 +5009,7 @@
     {
       "src": "/ks/online-doctor-visits/?",
       "headers": {
-        "Location": "/ks/"
+        "Location": "/states-we-serve/"
       },
       "status": 301
     },
@@ -4900,7 +5205,7 @@
     {
       "src": "/wi/online-doctor-visits/?",
       "headers": {
-        "Location": "/wi/"
+        "Location": "/states-we-serve/"
       },
       "status": 301
     },
@@ -4912,13 +5217,23 @@
       "status": 301
     },
     {
-      "src": "/(.*)",
-      "dest": "https://pepper-saxophone-p8le.squarespace.com/$1",
+      "src": "/insurance/united-healthcare/tennessee/.+",
       "headers": {
-        "X-Content-Type-Options": "nosniff",
-        "X-Frame-Options": "SAMEORIGIN",
-        "Referrer-Policy": "strict-origin-when-cross-origin"
-      }
+        "Location": "/insurance/united-healthcare/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/insurance/blue-cross-blue-shield/(florida|michigan)/.+",
+      "headers": {
+        "Location": "/insurance/blue-cross-blue-shield/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/(.*)",
+      "status": 404,
+      "dest": "/404.html"
     }
   ]
 }

@@ -1,0 +1,84 @@
+name: FluHub weekly refresh
+
+# CDC publishes FluView on Fridays around midday Eastern. This pulls every FluHub source,
+# rebuilds teledirectmd.com/flu-hub/ into public/flu-hub/, and commits the result; the push
+# to main triggers the normal Vercel production deploy. The main site build never calls CDC.
+on:
+  schedule:
+    - cron: "17 20 * * 5"   # Fridays 20:17 UTC
+  workflow_dispatch:
+    inputs:
+      simulate_failure:
+        description: "Test the failure alert: fail before fetching anything (no data is changed)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: flu-hub-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+      - name: Simulated failure (manual test of the alert)
+        if: ${{ inputs.simulate_failure }}
+        run: |
+          echo "simulate_failure was set: failing on purpose to test the alert"
+          exit 1
+      - name: Fetch CDC data
+        working-directory: fluhub
+        run: node scripts/fetch-data.mjs
+      - name: Build FluHub into public/flu-hub
+        working-directory: fluhub
+        env:
+          OUT_ROOT: ../public
+          BASE_PATH: flu-hub
+        run: node scripts/build.mjs
+      - name: Commit and push
+        run: |
+          git config user.name "fluhub-bot"
+          git config user.email "fluhub-bot@users.noreply.github.com"
+          git add fluhub/data/*.json public/flu-hub
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "FluHub: weekly CDC data refresh $(date -u +%F)"
+          git push
+      # A failed run leaves the live flu hub on last week's numbers, and nobody sees a red run in the
+      # Actions tab. Open (or update) one issue assigned to the repo owner so GitHub notifies them;
+      # close it again on the next successful scheduled run.
+      - name: Open an issue if this run failed
+        if: ${{ failure() }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          OWNER: ${{ github.repository_owner }}
+          SIMULATED: ${{ inputs.simulate_failure }}
+        run: |
+          title="FluHub weekly CDC refresh failed"
+          note=""
+          if [ "$SIMULATED" = "true" ]; then note=" This was a manual test of the alert (simulate_failure), not a real failure."; fi
+          body="The FluHub weekly refresh failed on $(date -u +%F) (ref ${GITHUB_REF_NAME}).${note} The live flu hub keeps its last numbers until a run succeeds, and pages show a \"may be out of date\" note once the newest data week is more than 14 days old. Run log: ${RUN_URL}. To retry after a fix: Actions, FluHub weekly refresh, Run workflow."
+          num=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "in:title \"$title\"" --json number,title --jq "map(select(.title == \"$title\")) | .[0].number // empty")
+          if [ -n "$num" ]; then
+            gh issue comment "$num" --repo "$GITHUB_REPOSITORY" --body "$body"
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body "$body" --assignee "$OWNER"
+          fi
+      - name: Close the failure issue after a successful scheduled run
+        if: ${{ success() && github.event_name == 'schedule' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          title="FluHub weekly CDC refresh failed"
+          for num in $(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "in:title \"$title\"" --json number,title --jq "map(select(.title == \"$title\")) | .[].number"); do
+            gh issue close "$num" --repo "$GITHUB_REPOSITORY" --comment "The weekly refresh succeeded on $(date -u +%F): ${RUN_URL}"
+          done

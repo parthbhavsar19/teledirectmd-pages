@@ -11,11 +11,14 @@ import { useState, useEffect, useRef } from 'react';
  *   2. Replace EMPLOYER_FORM_URL and BROKER_FORM_URL below with the JotForm "Direct Link" URLs.
  *   3. Deploy. Done.
  */
-// Live JotForm forms (created 2026-05-23)
-//   Employer Inquiry: https://form.jotform.com/261425492541052
-//   Broker Partner Inquiry: https://form.jotform.com/261425799417064
-const EMPLOYER_FORM_URL = 'https://form.jotform.com/261425492541052';
-const BROKER_FORM_URL = 'https://form.jotform.com/261425799417064';
+// Live JotForm forms (recreated 2026-10-05; the 2026-05-23 forms were deleted
+// in Jotform and their embeds showed "This form is currently unavailable!")
+//   Employer and Partner Inquiry: https://form.jotform.com/262775281673063
+//   Broker Partner Inquiry: https://form.jotform.com/262774915606062
+// Both ask "How did you first hear about TeleDirectMD?" (AI assistants listed)
+// so inbound B2B leads can be attributed. No PHI is collected on either form.
+const EMPLOYER_FORM_URL = 'https://form.jotform.com/262775281673063';
+const BROKER_FORM_URL = 'https://form.jotform.com/262774915606062';
 
 export default function LeadFormEmbed({ defaultPath = 'employer' }) {
   const [path, setPath] = useState(defaultPath);

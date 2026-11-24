@@ -1,0 +1,831 @@
+{
+ "guide": "hemorrhoids-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 6 of 6 cited DOIs verified (plus 3 removed or considered DOIs: ASCRS 2024, Jacobs NEJM 2014, Alonso-Coello AJG 2006, all verified), retractions: none. PubMed article types checked: no Retracted Publication or Retraction Notice. Contrasting-evidence flags on refs 6 and 7 noted; neither bears on the cited claims.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "agency_page",
+   "cited_as": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK). Definition & Facts of Hemorrhoids. Last reviewed October 2016. Accessed November 15, 2026.",
+   "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/hemorrhoids/definition-facts",
+   "version_or_date": "NIDDK page, Last Reviewed October 2016; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape (basic proxy, maxAge 0) of the official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Hemorrhoids (piles) are swollen and inflamed veins around the anus or in the lower rectum",
+     "quote": "Hemorrhoids, also called piles, are swollen and inflamed veins around your anus or in your lower rectum.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Internal hemorrhoids form in the lining of the anus and lower rectum; external under the skin around the anus",
+     "quote": "external hemorrhoids, which form under the skin around the anus; internal hemorrhoids, which form in the lining of the anus and lower rectum",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Risk factors: straining, long toilet sitting, chronic constipation or diarrhea, low-fiber diet, age over 50, pregnancy, frequent heavy lifting",
+     "quote": "strain during bowel movements; sit on the toilet for long periods of time; have chronic constipation or diarrhea; eat foods that are low in fiber; are older than age 50; are pregnant; often lift heavy objects",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Strangulated hemorrhoid (blood supply to a prolapsed internal hemorrhoid cut off) is a complication",
+     "quote": "strangulated hemorrhoid—when the muscles around your anus cut off the blood supply to an internal hemorrhoid that has fallen through your anal opening",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hemorrhoids are common in both men and women",
+     "quote": "Hemorrhoids are common in both men and women",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "agency_page",
+   "cited_as": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK). Symptoms & Causes of Hemorrhoids. Last reviewed October 2016. Accessed November 15, 2026.",
+   "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/hemorrhoids/symptoms-causes",
+   "version_or_date": "NIDDK page, Last Reviewed October 2016; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape (basic proxy, maxAge 0) of the official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "External: anal itching, hard tender lumps, ache or pain especially when sitting",
+     "quote": "anal itching; one or more hard, tender lumps near your anus; anal ache or pain, especially when sitting",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Internal: bright-red blood on stool, toilet paper or bowl; prolapse through the anal opening",
+     "quote": "bright red blood on stool, on toilet paper, or in the toilet bowl after a bowel movement; a hemorrhoid that has fallen through your anal opening, called prolapse",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Non-prolapsed internal hemorrhoids most often not painful; prolapsed may cause pain",
+     "quote": "Internal hemorrhoids that are not prolapsed most often are not painful. Prolapsed internal hemorrhoids may cause pain and discomfort.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Rectal bleeding may signal Crohn's disease, ulcerative colitis or colorectal cancer",
+     "quote": "bleeding from your rectum may be a sign of bowel diseases such as Crohn’s disease, ulcerative colitis, or cancer of the colon or rectum",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "See a doctor if symptoms persist after 1 week of at-home treatment or with rectal bleeding",
+     "quote": "You should seek a doctor’s help if you still have symptoms after 1 week of at-home treatment; have bleeding from your rectum",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Causes include straining, long toilet sitting, chronic constipation or diarrhea, low-fiber diet, aging-related tissue weakening, pregnancy, heavy lifting",
+     "quote": "straining during bowel movements; sitting on the toilet for long periods of time; chronic constipation or diarrhea; a low-fiber diet; weakening of the supporting tissues in your anus and rectum that happens with aging; pregnancy; often lifting heavy objects",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Straining, rubbing or cleaning can worsen symptoms; external symptoms often resolve within a few days",
+     "quote": "Too much straining, rubbing, or cleaning around your anus may make your symptoms worse. For many people, the symptoms of external hemorrhoids go away within a few days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Advice to ask a clinician about pain relievers if rectal bleeding (paired with GI bleeding page)",
+     "quote": "You should seek a doctor’s help if you have bleeding from your rectum",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "agency_page",
+   "cited_as": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK). Eating, Diet, & Nutrition for Hemorrhoids. Last reviewed October 2016. Accessed November 15, 2026.",
+   "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/hemorrhoids/eating-diet-nutrition",
+   "version_or_date": "NIDDK page, Last Reviewed October 2016; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape (basic proxy, maxAge 0) of the official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Fiber makes stools softer and easier to pass and helps treat and prevent hemorrhoids",
+     "quote": "Eating foods that are high in fiber can make stools softer and easier to pass and can help treat and prevent hemorrhoids.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "14 g fiber per 1,000 calories; 28 g/day on a 2,000-calorie diet",
+     "quote": "recommends a dietary fiber intake of 14 grams per 1,000 calories consumed. For example, for a 2,000-calorie diet, the fiber recommendation is 28 grams per day.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fiber table values (bran 14.0, navy beans 9.6, peas 8.8, raspberries 8.0, pinto 7.7, pear 5.5, apple 4.8, prunes 3.1 g)",
+     "quote": "1/2 cup high-fiber bran, ready-to-eat cereal | 14.0 grams ... 1 medium pear, with skin | 5.5 grams ... 1/2 cup navy beans, cooked | 9.6 grams",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Water, juices and clear soups help fiber work better; ask how much to drink based on health, activity and location",
+     "quote": "Drinking water and other liquids, such as fruit juices and clear soups, can help the fiber in your diet work better. Ask your doctor about how much you should drink each day based on your health and activity level",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Arnold MJ, Smith D. Management of Hemorrhoids: Guidelines From the ASCRS. Am Fam Physician. 2025;112(6):694-695. PMID: 41533423.",
+   "url": "https://www.aafp.org/pubs/afp/issues/2025/1200/practice-guidelines-hemorrhoids.html",
+   "pmid": "41533423",
+   "record_title": "Management of Hemorrhoids: Guidelines From the ASCRS.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2025",
+   "article_type": "Journal Article (PubMed); AFP Practice Guidelines summary of the ASCRS guideline",
+   "version_or_date": "2025 publication; read 2026-11-15",
+   "retrieved_with": "mcp__PubMed__get_article_metadata; Monid firecrawl /scrape (basic proxy, maxAge 0) of the official page (openly visible portion)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces the 2024 ASCRS guideline (PMID 38294832, doi 10.1097/DCR.0000000000003276), which had no abstract, no PMC copy and no Scite text; doi.org and journals.lww.com fetches failed. AFP page is partly behind a login: only the openly visible portion (key points, evaluation, diet and behavior, topicals, start of rubber band ligation) was read and cited. No DOI in PubMed; PMID 41533423. Secondary summary of ASCRS, used because the primary guideline text could not be retrieved.",
+   "claims": [
+    {
+     "text": "Internal vs external defined by relation to the dentate line; often coexist",
+     "quote": "Hemorrhoids are perianal vascular structures defined as external or internal by their relationship to the dentate line, although they often coexist and communicate with each other.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Thrombosed external hemorrhoids present as painful, nonreducible protrusions at the anal verge",
+     "quote": "Thrombosed external hemorrhoids present as painful, nonreducible protrusions at the anal verge.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Colon-cancer bleeding often misattributed; consider colonoscopy with no obvious source, abdominal pain, new/progressive constipation, or continued bleeding after treatment",
+     "quote": "bleeding due to colon cancer is often misattributed to hemorrhoids. Colonoscopy should be considered for patients with no obvious source of bleeding or symptoms including abdominal pain, new or progressive constipation, and continued hematochezia despite successful treatment of hemorrhoids.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fiber and fluid strongly recommended; Cochrane review of about 380 patients behind it",
+     "quote": "Increasing fiber and fluid intake is strongly recommended to improve hemorrhoid prolapse and bleeding. Based on a Cochrane review of approximately 380 patients, increasing fiber intake decreases persistent symptoms by 53%",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Avoid straining and prolonged time on the toilet",
+     "quote": "Patients should be advised to avoid straining and spending prolonged time on the commode.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "OTC hydrocortisone, phenylephrine, pramoxine improve pain, itching, swelling; prolonged topical use can cause allergy and sensitization",
+     "quote": "Topical over-the-counter hemorrhoid treatments (eg, hydrocortisone, phenylephrine, pramoxine) can be considered, which can significantly improve pain, pruritus, and swelling.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prolonged topical anesthetic, steroid or antiseptic use can cause allergic reactions and long-term sensitization",
+     "quote": "prolonged use of topical treatments containing anesthetics, steroids, or antiseptics can cause allergic reactions and long-term sensitization",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hydrocortisone and pramoxine safe and effective in late pregnancy",
+     "quote": "Use of hydrocortisone and pramoxine is safe and effective in late pregnancy.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Persistent symptoms: refer for rubber band ligation; office procedures preferred over surgery (similar benefit, fewer complications)",
+     "quote": "Office-based procedures such as rubber band ligation, injection sclerotherapy, and infrared coagulation are preferred over surgery due to similar benefits with fewer complications.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "agency_page",
+   "cited_as": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK). Treatment of Hemorrhoids. Last reviewed October 2016. Accessed November 15, 2026.",
+   "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/hemorrhoids/treatment",
+   "version_or_date": "NIDDK page, Last Reviewed October 2016; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape (basic proxy, maxAge 0) of the official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Most often treat at home: high-fiber foods, stool softener or fiber supplement (psyllium, methylcellulose), nonalcoholic liquids, not straining, not sitting long",
+     "quote": "You can most often treat your hemorrhoids at home by eating foods that are high in fiber; taking a stool softener or a fiber supplement such as psyllium (Metamucil) or methylcellulose (Citrucel)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sitz bath several times a day to relieve pain",
+     "quote": "sitting in a tub of warm water, called a sitz bath, several times a day to help relieve pain",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "OTC pain relievers: acetaminophen, ibuprofen, naproxen, aspirin",
+     "quote": "taking over-the-counter pain relievers such as acetaminophen, ibuprofen, naproxen, or aspirin",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Doctors most often recommend OTC products for 1 week; follow up if no relief after 1 week or dry skin or rash",
+     "quote": "Most often, doctors recommend using over-the-counter products for 1 week. You should follow up with your doctor if the products do not relieve your symptoms after 1 week; cause side effects such dry skin around your anus or a rash",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most prolapsed internal hemorrhoids go away without at-home treatment; severe prolapse or bleeding may need medical treatment",
+     "quote": "Most prolapsed internal hemorrhoids go away without at-home treatment. However, severely prolapsed or bleeding internal hemorrhoids may need medical treatment.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Office treatments: banding (falls off within a week), sclerotherapy, infrared photocoagulation; hemorrhoidectomy or stapling in outpatient center or hospital with anesthesia",
+     "quote": "The band cuts off the blood supply. The banded part of the hemorrhoid shrivels and falls off, most often within a week.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hemorrhoidectomy for large external and prolapsing internal hemorrhoids not responding to other treatments, under anesthesia",
+     "quote": "may perform a hemorrhoidectomy to remove large external hemorrhoids and prolapsing internal hemorrhoids that do not respond to other treatments. Your doctor will give you anesthesia for this treatment.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sclerotherapy and IRC form scar tissue that cuts off blood supply",
+     "quote": "A doctor injects a solution into an internal hemorrhoid, which causes scar tissue to form. The scar tissue cuts off the blood supply, often shrinking the hemorrhoid.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prevention: high-fiber foods, nonalcoholic liquids, not straining, not sitting long, avoiding regular heavy lifting",
+     "quote": "You can help prevent hemorrhoids by eating foods that are high in fiber; drinking water or other nonalcoholic liquids each day ... not straining during bowel movements; ... avoiding regular heavy lifting",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "MacRae HM, McLeod RS. Comparison of hemorrhoidal treatment modalities. A meta-analysis. Dis Colon Rectum. 1995;38(7):687-694. doi:10.1007/BF02048023. PMID: 7607026.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7607026/",
+   "pmid": "7607026",
+   "doi": "10.1007/BF02048023",
+   "record_title": "Comparison of hemorrhoidal treatment modalities. A meta-analysis.",
+   "record_journal": "Dis Colon Rectum",
+   "record_year": "1995",
+   "article_type": "Comparative Study; Journal Article; Meta-Analysis (PubMed)",
+   "version_or_date": "1995 publication; read 2026-11-15",
+   "retrieved_with": "mcp__PubMed__get_article_metadata (abstract); mcp__Scite__verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite flagged one contrasting citation (10.21203/rs.3.rs-4620732/v1, preprint) about postoperative bleeding after endoscopic banding; it does not bear on the banding vs sclerotherapy/IRC claims cited. No editorial notices.",
+   "claims": [
+    {
+     "text": "18 trials; banding better response than sclerotherapy for grades 1-2 and 3; sclerotherapy or IRC more likely to need further therapy; more pain after banding",
+     "quote": "Rubber band ligation was better than sclerotherapy in response to treatment for all hemorrhoids (P = 0.005) as well as for hemorrhoids stratified by grade (Grades 1 to 2; P = 0.007; Grade 3 hemorrhoids, P = 0.042)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sclerotherapy and IRC more likely to require further therapy than banding; pain greater after banding",
+     "quote": "Patients treated with sclerotherapy (P = 0.031) or infrared coagulation (P = 0.0014) were more likely to require further therapy than those treated with rubber band ligation, although pain was greater after rubber band ligation",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hemorrhoidectomy better response than banding but more complications and pain",
+     "quote": "Patients undergoing hemorrhoidectomy had a better response to treatment than did patients treated with rubber band ligation (P = 0.001), although complications were greater (P = 0.02) as was pain (P < 0.0001).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Banding recommended as initial therapy for grades 1-3; hemorrhoidectomy reserved for failures",
+     "quote": "Rubber band ligation is recommended as the initial mode of therapy for Grades 1 to 3 hemorrhoids.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hemorrhoidectomy should be reserved for patients who fail banding",
+     "quote": "it is associated with more complications and pain than rubber band ligation, thus should be reserved for patients who fail to respond to rubber band ligation.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "18 randomized trials analyzed",
+     "quote": "A total of 18 trials were available for analysis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Poskus T, Buzinskienė D, Drasutiene G, et al. Haemorrhoids and anal fissures during pregnancy and after childbirth: a prospective cohort study. BJOG. 2014;121(13):1666-1671. doi:10.1111/1471-0528.12838. PMID: 24810254.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24810254/",
+   "pmid": "24810254",
+   "doi": "10.1111/1471-0528.12838",
+   "record_title": "Haemorrhoids and anal fissures during pregnancy and after childbirth: a prospective cohort study.",
+   "record_journal": "BJOG",
+   "record_year": "2014",
+   "article_type": "Journal Article; Observational Study (PubMed)",
+   "version_or_date": "2014 publication; read 2026-11-15",
+   "retrieved_with": "mcp__PubMed__get_article_metadata (abstract); mcp__Scite__verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite flagged one contrasting citation (10.4236/ojog.2023.134064) on pruritus prevalence; not a claim this guide cites. No editorial notices.",
+   "claims": [
+    {
+     "text": "280 pregnant women followed to 1 month after delivery; 43.9% developed perianal disease; onset 61% third trimester, 34.1% after delivery",
+     "quote": "123 (43.9%) women developed peri-anal disease: 1.6% in the first trimester, 61% during the third trimester, 34.1% after delivery and 3.3% 1 month after delivery",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Risk factors: history, constipation, straining in delivery over 20 minutes, birthweight over 3800 g",
+     "quote": "with constipation, personal history of haemorrhoids or fissures, birthweight of newborn>3800 g, straining during delivery for more than 20 minutes being independently associated risk factors",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Common in the last trimester and 1 month after delivery (study did not report later resolution)",
+     "quote": "Haemorrhoids and fissures are common during the last trimester of pregnancy and 1 month after delivery",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "Chen YY, Chang CY, Lin CH, Cheng LY, Shih WT, Chen KJ, Yang YH. Prevalence, Characteristics, and Treatment of Hemorrhoids During Pregnancy: A Nationwide Population-Based Cohort Study in Taiwan. J Womens Health (Larchmt). 2023;32(12):1394-1401. doi:10.1089/jwh.2023.0124. PMID: 37582215.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37582215/",
+   "pmid": "37582215",
+   "doi": "10.1089/jwh.2023.0124",
+   "record_title": "Prevalence, Characteristics, and Treatment of Hemorrhoids During Pregnancy: A Nationwide Population-Based Cohort Study in Taiwan.",
+   "record_journal": "J Womens Health (Larchmt)",
+   "record_year": "2023",
+   "article_type": "Journal Article; Research Support, Non-U.S. Gov't (PubMed); retrospective population-based cohort per abstract",
+   "version_or_date": "2023 publication; read 2026-11-15",
+   "retrieved_with": "mcp__PubMed__get_article_metadata (abstract); mcp__Scite__verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Link changed from a robots-blocked EBSCO OpenURL to the PubMed record. Volume 32(12):1394-1401 added from the record. Obesity/waist-circumference claim formerly cited here was cut (not in abstract).",
+   "claims": [
+    {
+     "text": "93.2% topical ointment, 31% oral medication, 1.8% procedure or surgery during pregnancy",
+     "quote": "Of the pregnant women, 31% received oral medication, and 93.2% used the topical ointment to treat their hemorrhoids. Few patients (1.8%) required procedure or surgery during pregnancy",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Risk higher with history of hemorrhoids and multifetal pregnancy",
+     "quote": "The cumulative incidence of hemorrhoids during pregnancy was significantly higher in women with a history of hemorrhoids and those with multifetal pregnancies.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia (U.S. National Library of Medicine). Hemorrhoids. Review date July 22, 2025. Accessed November 15, 2026.",
+   "url": "https://medlineplus.gov/ency/article/000292.htm",
+   "version_or_date": "MedlinePlus (A.D.A.M.) article, Review Date 7/22/2025; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape (basic proxy, maxAge 0) of the official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added for sitz bath duration (10 to 15 minutes, replacing an unsourced 15 to 20 minutes), emergency bleeding signs and pressure mechanism.",
+   "claims": [
+    {
+     "text": "Hemorrhoids result from increased pressure on the anus (including pregnancy or childbirth); tissue swells and can bleed during bowel movements",
+     "quote": "They result from increased pressure on the anus. This can occur during pregnancy or childbirth, and due to constipation. The pressure causes the normal anal veins and tissue to swell. This tissue can bleed",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Bleeding during bowel movements is the most common problem with internal hemorrhoids",
+     "quote": "The most common problem with internal hemorrhoids is bleeding during bowel movements.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A clot in an external hemorrhoid can be very painful; surgery sometimes needed to remove clotted hemorrhoids",
+     "quote": "If a blood clot forms in an external hemorrhoid, it can be very painful (thrombosed external hemorrhoid).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Surgery is sometimes needed to remove hemorrhoids with clots",
+     "quote": "Surgery is sometimes needed to remove hemorrhoids with clots.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Get medical help right away if a lot of blood is lost or bleeding with dizziness, lightheadedness, fainting",
+     "quote": "Get medical help right away if: You lose a lot of blood; You are bleeding and feel dizzy, lightheaded, or faint",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Long-term blood loss can cause iron deficiency anemia",
+     "quote": "Iron deficiency anemia can result from long-term blood loss.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sitz bath: sit in warm water 10 to 15 minutes",
+     "quote": "Sitz baths can help you to feel better. Sit in warm water for 10 to 15 minutes.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Shanmugam V, Thaha MA, Rabindranath KS, Campbell KL, Steele RJC, Loudon MA. Rubber band ligation versus excisional haemorrhoidectomy for haemorrhoids. Cochrane Database Syst Rev. 2005;(3):CD005034. doi:10.1002/14651858.CD005034.pub2. PMID: 16034963.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16034963/",
+   "pmid": "16034963",
+   "pmcid": "PMC8860341",
+   "doi": "10.1002/14651858.CD005034.pub2",
+   "record_title": "Rubber band ligation versus excisional haemorrhoidectomy for haemorrhoids.",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2005",
+   "article_type": "Journal Article; Meta-Analysis; Systematic Review (PubMed)",
+   "version_or_date": "2005 publication; read 2026-11-15",
+   "retrieved_with": "mcp__PubMed__get_article_metadata (abstract); mcp__Scite__verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Grade II prolapse reduces spontaneously; grade III needs manual reduction",
+     "quote": "grade III haemorrhoids (prolapse that needs manual reduction) ... grade II haemorrhoids (prolapse that reduces spontaneously on cessation of straining)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hemorrhoidectomy superior to banding for grade III; fewer re-treatments",
+     "quote": "revealed the superiority of EH over RBL for grade III haemorrhoids (prolapse that needs manual reduction)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fewer re-treatments after hemorrhoidectomy than banding",
+     "quote": "Fewer patients required re-treatment after EH (three trials, RR 0.20 CI 0.09 to 0.40; P < 0.00001).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hemorrhoidectomy: more pain, more complications, more time off work",
+     "quote": "confirms the long-term efficacy of EH, at least for grade III haemorrhoids, compared to the less invasive technique of RBL but at the expense of increased pain, higher complications and more time off work",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Three trials of poor methodological quality",
+     "quote": "Three trials (of poor methodological quality) met the inclusion criteria.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "agency_page",
+   "cited_as": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK). Symptoms & Causes of GI Bleeding. Last reviewed July 2024. Accessed November 15, 2026.",
+   "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastrointestinal-bleeding/symptoms-causes",
+   "version_or_date": "NIDDK page, Last Reviewed July 2024; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape (basic proxy, maxAge 0) of the official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added as the NIDDK source for black or tarry stool, shock and anemia red flags, and the NSAID bleeding-ulcer note.",
+   "claims": [
+    {
+     "text": "Black or tarry stool is a symptom of acute GI bleeding; seek medical help right away",
+     "quote": "If you have symptoms of acute or severe GI bleeding, seek medical help right away. ... black or tarry stool",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Shock signs (confusion, fast heart rate, pale skin, cold hands and feet, sweating) are life-threatening; seek emergency help",
+     "quote": "Symptoms of shock include confusion or unconsciousness; fast heart rate; pale skin; cold hands and feet; sweating. Shock is life-threatening. If you have symptoms of shock, seek emergency medical help right away.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Anemia symptoms: tiredness, pale skin, shortness of breath",
+     "quote": "Over time, chronic bleeding can cause anemia. Symptoms of anemia may include feeling tired; pale skin; shortness of breath",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "NSAIDs (aspirin, ibuprofen, naproxen) are among the most common causes of peptic ulcers, which may bleed",
+     "quote": "peptic ulcers, sores on the lining of the stomach or duodenum that may bleed. The most common causes of peptic ulcers are H. pylori infection and taking nonsteroidal anti-inflammatory drugs (NSAIDs)—such as aspirin, ibuprofen, and naproxen",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "journal",
+   "cited_as": "Alonso-Coello P, Guyatt G, Heels-Ansdell D, Johanson JF, Lopez-Yarto M, Mills E, Zhou Q. Laxatives for the treatment of hemorrhoids. Cochrane Database Syst Rev. 2005;(4):CD004649. doi:10.1002/14651858.CD004649.pub2. PMID: 16235372.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16235372/",
+   "pmid": "16235372",
+   "pmcid": "PMC9036624",
+   "doi": "10.1002/14651858.CD004649.pub2",
+   "record_title": "Laxatives for the treatment of hemorrhoids.",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2005",
+   "article_type": "Journal Article; Meta-Analysis; Systematic Review (PubMed)",
+   "version_or_date": "2005 publication; read 2026-11-15",
+   "retrieved_with": "mcp__PubMed__get_article_metadata (abstract); mcp__Scite__verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces the RR 0.53/0.50 statement formerly attributed to the ASCRS guideline. Note: RR 0.53 (47% reduction) is the companion Am J Gastroenterol 2006 meta-analysis (PMID 16405552); the Cochrane abstract gives RR 0.47 (53% reduction). Scite verify_papers: verified, no notices.",
+   "claims": [
+    {
+     "text": "7 RCTs, 378 participants; fiber cut risk of not improving/persisting symptoms by 53% (RR 0.47)",
+     "quote": "Seven randomised trials enrolling a total of 378 participants ... The risk of not improving hemorrhoids and having persisting symptoms decreased by 53% in the fiber group (risk reduction (RR) 0.47, 95% CI 0.32 to 0.68).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fiber reduced bleeding (RR 0.50)",
+     "quote": "The effect on bleeding showed a significant difference in favour of the fiber (RR 0.50, 95% CI 0.28 to 0.89).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Limitations: risk of publication bias and only moderate study quality",
+     "quote": "we have to stress two possible limitations of this review: the risk of publication bias, and only moderate study quality.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "label",
+   "cited_as": "DailyMed. Preparation H Hydrocortisone (hydrocortisone 1%) cream, Drug Facts label. Haleon US Holdings LLC. Label updated February 29, 2024. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b8d531eb-4012-0450-0e4b-70a808464041",
+   "version_or_date": "DailyMed SPL set id b8d531eb-4012-0450-0e4b-70a808464041, updated February 29, 2024; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape (basic proxy, maxAge 0) of the official page (DailyMed Drug Facts)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces the Front Line Safety hydrocortisone 1% label (set id 0f4ede34...), whose marketing end date was 11/02/2026; this hemorrhoid-specific label is currently marketed.",
+   "claims": [
+    {
+     "text": "Hydrocortisone 1% purpose: anti-itch",
+     "quote": "Hydrocortisone 1% ... Anti-itch",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Adults and children 12+: not more than 3 to 4 times daily after cleansing and patting dry",
+     "quote": "adults and children 12 years of age and older: apply to the affected area not more than 3 to 4 times daily",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Gently dry by patting or blotting before applying",
+     "quote": "Gently dry by patting or blotting with a tissue or soft cloth before application of this product.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "External use only; do not put into the rectum",
+     "quote": "For external use only ... do not put into the rectum by using fingers or any mechanical device or applicator",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Stop and ask a doctor if bleeding, worsening, or symptoms persist over 7 days or recur; under 12 do not use",
+     "quote": "Stop use and ask a doctor if bleeding occurs; condition worsens; symptoms persist for more than 7 days or clear up and occur again within a few days.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Children under 12: do not use, consult a doctor",
+     "quote": "children under 12 years of age: do not use, consult a doctor",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "label",
+   "cited_as": "DailyMed. Tucks Medicated Cooling Pads (witch hazel 50%), Drug Facts label. Blistex Inc. Label updated December 13, 2024. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b3e68008-3d0d-4124-9579-b503e9fb95c9",
+   "version_or_date": "DailyMed SPL set id b3e68008-3d0d-4124-9579-b503e9fb95c9, updated December 13, 2024; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape (basic proxy, maxAge 0) of the official page (DailyMed Drug Facts)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces tucks.com product page with the DailyMed Drug Facts label; \"do not flush\" removed (not on label).",
+   "claims": [
+    {
+     "text": "Witch hazel 50% purpose: astringent",
+     "quote": "Witch hazel (50% w/w) ... Astringent",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clean with mild soap and warm water, pat dry, apply externally up to 6 times daily or after each BM, discard pad",
+     "quote": "apply externally to the affected area up to 6 times daily or after each bowel movement; after application, discard pad and wash hands",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clean and gently dry by patting or blotting before applying",
+     "quote": "when practical, clean the affected area with mild soap and warm water, and rinse thoroughly; gently dry by patting or blotting with toilet tissue or a soft cloth before applying",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "External use only; not into rectum; stop if rectal bleeding or no improvement in 7 days",
+     "quote": "do not put directly in the rectum by using fingers or any mechanical device or applicator. Stop use and ask a doctor if rectal bleeding occurs; condition worsens or does not improve within 7 days",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "label",
+   "cited_as": "DailyMed. Preparation H Maximum Strength (glycerin, petrolatum, phenylephrine HCl 0.25%, pramoxine HCl 1%) cream, Drug Facts label. Haleon US Holdings LLC. Label updated April 5, 2024. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7cc03d2e-e708-589a-d9bb-58ebbda989c0",
+   "version_or_date": "DailyMed SPL set id 7cc03d2e-e708-589a-d9bb-58ebbda989c0, updated April 5, 2024; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape (basic proxy, maxAge 0) of the official page (DailyMed Drug Facts)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces a Preparation H manufacturer PDF (commercial page) with the DailyMed Drug Facts label.",
+   "claims": [
+    {
+     "text": "Phenylephrine HCl 0.25% vasoconstrictor; temporarily shrinks hemorrhoidal tissue; pramoxine HCl 1% local anesthetic",
+     "quote": "Phenylephrine HCl 0.25% | Vasoconstrictor | Pramoxine HCl 1% | Local anesthetic ... temporarily shrinks hemorrhoidal tissue",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Apply externally or in the lower portion of the anal canal only, up to 4 times daily (night, morning, after BM)",
+     "quote": "apply externally or in the lower portion of the anal canal only; apply externally to the affected area up to 4 times daily, especially at night, in the morning or after each bowel movement",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ask a doctor before use with heart disease, high blood pressure, thyroid disease, diabetes, prostate enlargement; or Rx for BP or depression",
+     "quote": "Ask a doctor before use if you have heart disease; high blood pressure; thyroid disease; diabetes; difficulty in urination due to enlargement of the prostate gland",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ask before use if taking a prescription drug for high blood pressure or depression",
+     "quote": "Ask a doctor or pharmacist before use if you arepresently taking a prescription drug for high blood pressure or depression.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not exceed daily dosage; do not put into rectum; stop if bleeding or no improvement within 7 days",
+     "quote": "do not put into the rectum by using fingers or any mechanical device or applicator. Stop use and ask a doctor if bleeding occurs; condition worsens or does not improve within 7 days",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "If pregnant or breastfeeding, ask a health professional before use",
+     "quote": "If pregnant or breast-feeding,ask a health professional before use.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "label",
+   "cited_as": "DailyMed. Preparation H Rapid Relief (glycerin, lidocaine 5%, petrolatum, phenylephrine HCl 0.25%) cream, Drug Facts label. Haleon US Holdings LLC. Label updated February 29, 2024. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=699310e8-1a93-40b4-a8f4-a765be4a0cb1",
+   "version_or_date": "DailyMed SPL set id 699310e8-1a93-40b4-a8f4-a765be4a0cb1, updated February 29, 2024; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape (basic proxy, maxAge 0) of the official page (DailyMed Drug Facts)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added: the lidocaine-containing Rapid Relief formula is labeled for external use only, unlike the Maximum Strength formula.",
+   "claims": [
+    {
+     "text": "Lidocaine 5% local anesthetic with phenylephrine 0.25%",
+     "quote": "Glycerin 14.4% Lidocaine 5% Phenylephrine HCl 0.25% White petrolatum 15% ... Local anesthetic ... Vasoconstrictor",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Apply externally only, up to 4 times daily",
+     "quote": "apply externally to the affected area up to 4 times daily, especially at night, in the morning or after each bowel movement",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not put into rectum; same ask-a-doctor conditions; stop if bleeding or no improvement within 7 days",
+     "quote": "do not put into the rectum by using fingers or any mechanical device or applicator. Stop use and ask a doctor if bleeding occurs; condition worsens or does not improve within 7 days",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ask a doctor before use with heart disease, high blood pressure, thyroid disease, diabetes, prostate enlargement",
+     "quote": "Ask a doctor before use if you have heart disease; high blood pressure; thyroid disease; diabetes; difficulty in urination due to enlargement of the prostate gland",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "label",
+   "cited_as": "DailyMed. Docusate Sodium Stool Softener Laxative (docusate sodium 100 mg softgel), Drug Facts label. Major Pharmaceuticals. Revised May 2026. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=cc8d1556-f108-4166-837c-48f81152877e",
+   "version_or_date": "DailyMed SPL set id cc8d1556-f108-4166-837c-48f81152877e, version 5, revised 5/2026; read 2026-11-15",
+   "retrieved_with": "Monid firecrawl /scrape (basic proxy, maxAge 0) of the official page (DailyMed Drug Facts)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Adults and children 12+: 1 to 3 softgels daily, single or divided doses, with a full glass of water",
+     "quote": "take softgels with a full glass (8 oz) of water ... adults and children 12 years of age and older | take 1 to 3 softgels daily ... as a single daily dose or in divided doses.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Generally produces a BM within 12 to 72 hours",
+     "quote": "This generally produces a bowel movement within 12 to 72 hours.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Stop and ask a doctor if rectal bleeding, no BM, or need laxative more than 1 week",
+     "quote": "Stop use and ask a doctor if you have rectal bleeding or no bowel movement after using this product. ... you need to use a laxative for more than 1 week",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "kind": "journal",
+   "cited_as": "Greenspon J, Williams SB, Young HA, Orkin BA. Thrombosed external hemorrhoids: outcome after conservative or surgical management. Dis Colon Rectum. 2004;47(9):1493-1498. doi:10.1007/s10350-004-0607-y. PMID: 15486746.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15486746/",
+   "pmid": "15486746",
+   "doi": "10.1007/s10350-004-0607-y",
+   "record_title": "Thrombosed external hemorrhoids: outcome after conservative or surgical management.",
+   "record_journal": "Dis Colon Rectum",
+   "record_year": "2004",
+   "article_type": "Journal Article (PubMed); retrospective case series per abstract",
+   "version_or_date": "2004 publication; read 2026-11-15",
+   "retrieved_with": "mcp__PubMed__get_article_metadata (abstract); mcp__Scite__verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added to replace the uncheckable 72-hour excision window and 7 to 10 day resolution claims (formerly NEJM ref). PubMed type Journal Article; described in text as retrospective.",
+   "claims": [
+    {
+     "text": "Retrospective study of 231 patients with thrombosed external hemorrhoids",
+     "quote": "Two hundred and thirty-one consecutive patients with thrombosed external hemorrhoids treated from 1990 to 2002 were identified. ... Data were gathered retrospectively.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptom resolution averaged 24 days conservative vs 3.9 days surgical",
+     "quote": "Time to symptom resolution averaged 24 days in the conservative group vs. 3.9 days in the surgical group ( P < 0.0001).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recurrence 25.4% conservative vs 6.3% surgical",
+     "quote": "The rate of recurrence in the conservative group was 25.4 percent (4/29; 14 percent were excised) whereas only 6.3 percent of the surgical patients had recurrence ( P < 0.0001).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most conservatively treated patients experience resolution; excision faster with fewer recurrences",
+     "quote": "Although most patients treated conservatively will experience resolution of their symptoms, excision of thrombosed external hemorrhoids results in more rapid symptom resolution, lower incidence of recurrence, and longer remission intervals.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

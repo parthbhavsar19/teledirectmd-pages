@@ -1,0 +1,1084 @@
+{
+ "guide": "std-sti-testing-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 12 verified (all 11 cited journal/guideline DOIs plus the superseded 2018 syphilis-in-pregnancy statement 10.1001/jama.2018.11785, which was replaced), retractions: none; no expressions of concern; one contrasting citation flagged on 10.15585/mmwr.rr7004a1 (gonococcal load study) that does not bear on any cited claim. PubMed article types checked: none are Retracted Publication or Retraction Notice.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "Workowski KA et al. STI Treatment Guidelines, 2021. MMWR Recomm Rep 2021;70(4):1-187",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34292926/",
+   "pmid": "34292926",
+   "pmcid": "PMC8344968",
+   "doi": "10.15585/mmwr.rr7004a1",
+   "record_title": "Sexually Transmitted Infections Treatment Guidelines, 2021.",
+   "record_journal": "MMWR Recomm Rep",
+   "record_year": "2021",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "2021 Jul 23 (updates the 2015 guidelines)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Full text (187 pages) not read in this run; specific statements are cited to the CDC web sections of the same guideline (refs 10-25). Scite flagged one contrasting citation about gonococcal loads in symptomatic patients; it does not bear on any claim cited here.",
+   "claims": [
+    {
+     "text": "CDC 2021 STI Treatment Guidelines are the main US clinical reference for preventing and treating STIs",
+     "quote": "guidelines for the treatment of persons who have or are at risk for sexually transmitted infections (STIs) were updated by CDC ... health care providers can use these guidelines to assist in prevention and treatment of STIs.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "agency_page",
+   "cited_as": "USPSTF A and B Recommendations list",
+   "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation-topics/uspstf-a-and-b-recommendations",
+   "version_or_date": "No page date; rows read 2026-11-15 (HIV June 2019; CT/GC Sept 2021; syphilis pregnancy May 2025; syphilis nonpregnant Sept 2022; HBV Dec 2020 and pregnant July 2019; HCV March 2020; cervical Aug 2018)",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Page has no cost-sharing text; it is no longer cited for ACA coverage (moved to HealthCare.gov refs 38-39).",
+   "claims": [
+    {
+     "text": "USPSTF issues graded screening recommendations for people without symptoms",
+     "quote": "Syphilis Infection in Nonpregnant Adolescents and Adults: Screening: asymptomatic, nonpregnant adolescents and adults who are at increased risk for syphilis infection (September 2022, A)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Chart cells: HIV A 15-65 and pregnant; syphilis A pregnant and A at increased risk; CT/NG B women; HBV B at increased risk and A pregnant; HCV B 18-79",
+     "quote": "Hepatitis B Virus Infection in Pregnant Women: Screening: pregnant women (July 2019, A); Hepatitis C Virus Infection in Adolescents and Adults: Screening: adults aged 18 to 79 years (March 2020, B)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "guideline",
+   "cited_as": "USPSTF. Screening for HIV Infection. JAMA 2019;321(23):2326-2336",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31184701/",
+   "pmid": "31184701",
+   "doi": "10.1001/jama.2019.6587",
+   "record_title": "Screening for HIV Infection: US Preventive Services Task Force Recommendation Statement.",
+   "record_journal": "JAMA",
+   "record_year": "2019",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "2019 Jun 18",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "USPSTF recommends HIV screening for adolescents and adults 15 to 65, and younger/older at increased risk (grade A)",
+     "quote": "The USPSTF recommends screening for HIV infection in adolescents and adults aged 15 to 65 years. Younger adolescents and older adults who are at increased risk of infection should also be screened. (A recommendation)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "guideline",
+   "cited_as": "USPSTF. Screening for Chlamydia and Gonorrhea. JAMA 2021;326(10):949-956",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34519796/",
+   "pmid": "34519796",
+   "doi": "10.1001/jama.2021.14081",
+   "record_title": "Screening for Chlamydia and Gonorrhea: US Preventive Services Task Force Recommendation Statement.",
+   "record_journal": "JAMA",
+   "record_year": "2021",
+   "article_type": "Journal Article; Research Support, Non-U.S. Gov't",
+   "version_or_date": "2021 Sep 14",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Chlamydia and gonorrhea screening for all sexually active women 24 or younger and women 25+ at increased risk (grade B)",
+     "quote": "The USPSTF recommends screening for chlamydia in all sexually active women 24 years or younger and in women 25 years or older who are at increased risk for infection. (B recommendation)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Evidence insufficient for screening men (I statement)",
+     "quote": "The USPSTF concludes that the current evidence is insufficient to assess the balance of benefits and harms of screening for chlamydia and gonorrhea in men. (I statement).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "In women, chlamydia and gonorrhea are usually asymptomatic and may lead to PID",
+     "quote": "Chlamydial and gonococcal infections in women are usually asymptomatic and may lead to pelvic inflammatory disease and its associated complications.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "guideline",
+   "cited_as": "USPSTF. Screening for Syphilis Infection During Pregnancy: Reaffirmation. JAMA 2025;333(22):2006-2012",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40358930/",
+   "pmid": "40358930",
+   "doi": "10.1001/jama.2025.5009",
+   "record_title": "Screening for Syphilis Infection During Pregnancy: US Preventive Services Task Force Reaffirmation Recommendation Statement.",
+   "record_journal": "JAMA",
+   "record_year": "2025",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "2025 Jun 10 (replaces the 2018 reaffirmation previously cited)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "USPSTF recommends early, universal syphilis screening in pregnancy, or at the first available opportunity (grade A); reaffirmed 2025",
+     "quote": "The USPSTF recommends early, universal screening for syphilis infection during pregnancy; if an individual is not screened early in pregnancy, the USPSTF recommends screening at the first available opportunity. (A recommendation).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "guideline",
+   "cited_as": "USPSTF. Screening for Syphilis Infection in Nonpregnant Adolescents and Adults: Reaffirmation. JAMA 2022;328(12):1243-1249",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36166020/",
+   "pmid": "36166020",
+   "doi": "10.1001/jama.2022.15322",
+   "record_title": "Screening for Syphilis Infection in Nonpregnant Adolescents and Adults: US Preventive Services Task Force Reaffirmation Recommendation Statement.",
+   "record_journal": "JAMA",
+   "record_year": "2022",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "2022 Sep 27",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Syphilis screening grade A for nonpregnant adolescents and adults at increased risk",
+     "quote": "The USPSTF recommends screening for syphilis infection in persons who are at increased risk for infection. (A recommendation).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "McDonald R et al. Vital Signs: Missed Opportunities for Preventing Congenital Syphilis, US 2022. MMWR 2023;72(46):1269-1274",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37971936/",
+   "pmid": "37971936",
+   "pmcid": "PMC10684351",
+   "doi": "10.15585/mmwr.mm7246e1",
+   "record_title": "Vital Signs: Missed Opportunities for Preventing Congenital Syphilis - United States, 2022.",
+   "record_journal": "MMWR Morb Mortal Wkly Rep",
+   "record_year": "2023",
+   "article_type": "Journal Article",
+   "version_or_date": "2023 Nov 17",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Lack of timely testing and adequate treatment contributed to 88% of the 3,761 congenital syphilis cases in 2022",
+     "quote": "In 2022, a total of 3,761 cases of congenital syphilis in the United States were reported to CDC ... Lack of timely testing and adequate treatment during pregnancy contributed to 88% of cases of congenital syphilis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Congenital syphilis cases increased 755% from 2012 to 2021",
+     "quote": "Congenital syphilis cases in the United States increased 755% during 2012-2021.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "agency_page",
+   "cited_as": "FDA press announcement, Visby Women's Sexual Health Test, Mar 28, 2025",
+   "url": "https://www.fda.gov/news-events/press-announcements/fda-grants-marketing-authorization-first-home-test-chlamydia-gonorrhea-and-trichomoniasis",
+   "version_or_date": "March 28, 2025",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Printed link text was the fda.gov root; it now shows the full release URL.",
+   "claims": [
+    {
+     "text": "First test for CT/NG/TV purchasable without prescription and performed entirely at home; results ~30 minutes",
+     "quote": "the first diagnostic test for chlamydia, gonorrhea and trichomoniasis that can be purchased without a prescription ... performed entirely at home ... delivers results in approximately 30 minutes",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Intended for females; self-collected vaginal swab",
+     "quote": "The test is intended for females with or without symptoms. ... self-collected vaginal swab",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Performance figures: CT 98.8%/97.2%, GC 99.1%/100%, TV 98.5%/97.8% of negative/positive samples",
+     "quote": "98.8% of negative and 97.2% of positive Chlamydia trachomatis samples ... 99.1% of negative and 100% of positive Neisseria gonorrhoeae samples ... 98.5% of negative and 97.8% of positive Trichomonas vaginalis samples",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "People with positive results should seek medical care; false negatives delay treatment; contact provider after negative with symptoms",
+     "quote": "False negative test results can result in delays to effective treatment and spread of infection to other persons. ... should seek medical care ... should contact their health care provider for additional testing.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Home kits reasonable for asymptomatic screening; symptoms, pregnancy, assault and prior positives still warrant in-person evaluation (editorial framing; FDA supports only the positive-result follow-up)",
+     "quote": "People with positive results should seek medical care.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "guideline",
+   "cited_as": "Bachmann LH et al. CDC Clinical Guidelines on Doxycycline PEP. MMWR Recomm Rep 2024;73(2):1-8",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38833414/",
+   "pmid": "38833414",
+   "pmcid": "PMC11166373",
+   "doi": "10.15585/mmwr.rr7302a1",
+   "record_title": "CDC Clinical Guidelines on the Use of Doxycycline Postexposure Prophylaxis for Bacterial Sexually Transmitted Infection Prevention, United States, 2024.",
+   "record_journal": "MMWR Recomm Rep",
+   "record_year": "2024",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "2024 Jun 6",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC11166373); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "CDC recommends offering doxy-PEP to MSM and TGW with a bacterial STI in the past 12 months",
+     "quote": "CDC recommends that MSM and TGW who have had a bacterial STI (specifically syphilis, chlamydia, or gonorrhea) diagnosed in the past 12 months should receive counseling that doxy PEP can be used",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "200 mg within 72 hours reduced syphilis and chlamydia by >70% and gonorrhea by ~50% in three large RCTs",
+     "quote": "In three large randomized controlled trials, 200 mg of doxycycline taken within 72 hours after sex has been shown to reduce syphilis and chlamydia infections by >70% and gonococcal infections by approximately 50%.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dose 200 mg, not more than 200 mg every 24 hours, after oral, vaginal or anal sex",
+     "quote": "self-administered within 72 hours after having oral, vaginal, or anal sex. The recommended dose of doxy PEP is 200 mg and should not exceed a maximum dose of 200 mg every 24 hours.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No recommendation for cisgender women, cisgender heterosexual men, transgender men, queer and nonbinary persons; only cis-women trial found no significant reduction",
+     "quote": "No recommendation can be given at this time on the use of doxy PEP for cisgender women, cisgender heterosexual men, transgender men, and other queer and nonbinary persons.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Only trial in cisgender women found no significant reduction in bacterial STIs",
+     "quote": "The only trial conducted among cisgender women ... in 449 cisgender Kenyan women. It found no significant reduction in bacterial STIs (RR: 0.88; 95% CI = 0.60–1.29)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "guideline",
+   "cited_as": "CDC STI Screening Recommendations",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/screening-recommendations.htm",
+   "version_or_date": "STI Treatment Guidelines, 2021; Last Reviewed March 22, 2024",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Tests recommended most often: HIV, syphilis, chlamydia, gonorrhea, with list depending on population",
+     "quote": "At least annually for sexually active MSM at sites of contact (urethra, rectum) regardless of condom use ... At least annually for sexually active MSM [syphilis] ... All pregnant women at the first prenatal visit [syphilis]",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Women under 25 annual routine CT/GC screening; 25+ if at increased risk; retest ~3 months after treatment",
+     "quote": "annual, routine screening in cisgender women < 25 years old ... Sexually active women 25 years of age and older if at increased risk ... Retest approximately 3 months after treatment",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Consider trichomoniasis screening for women in high-prevalence settings and at increased risk",
+     "quote": "Consider screening for women receiving care in high-prevalence settings (e.g., STI clinics and correctional facilities) and for asymptomatic women at increased risk for infection",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "MSM: at least annual CT, GC, syphilis, HIV; every 3 to 6 months at increased risk (PrEP, HIV, multiple partners); consider HIV that often",
+     "quote": "Every 3 to 6 months if at increased risk (i.e., MSM on PrEP, with HIV infection, or if they or their sex partners have multiple partners) ... Consider the benefits of offering more frequent HIV screening (e.g., every 3–6 months)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Transgender and gender diverse: screening adapted to anatomy",
+     "quote": "Screening recommendations should be adapted based on anatomy",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pregnancy: HIV and syphilis at first prenatal visit; HBsAg each pregnancy; CT/GC under 25; syphilis retest at 28 weeks and delivery if at increased risk",
+     "quote": "All pregnant women should be screened at first prenatal visit (opt-out) ... Test for HBsAg at first prenatal visit of each pregnancy ... Retest at 28 weeks gestation and at delivery if at increased risk",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pregnancy as a red flag for in-person care (CDC prenatal screening schedule)",
+     "quote": "All pregnant women at the first prenatal visit",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "guideline",
+   "cited_as": "CDC Chlamydial Infections",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+   "version_or_date": "STI Treatment Guidelines, 2021; Last Reviewed July 22, 2021",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Optimal urogenital NAAT specimens: first-catch urine (men), vaginal swabs (women)",
+     "quote": "Optimal urogenital specimen types for chlamydia screening by using NAAT include first-catch urine (for men) and vaginal swabs (for women)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Rectal and throat infections diagnosed by testing at exposure site",
+     "quote": "can be diagnosed by testing at the anatomic exposure site.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Doxycycline 100 mg twice daily x7 days; azithromycin 1 g alternative; azithromycin recommended in pregnancy",
+     "quote": "Doxycycline 100 mg orally 2 times/day for 7 days ... Azithromycin 1 g orally in a single dose",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Retest about 3 months after treatment",
+     "quote": "should be retested approximately 3 months after treatment",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Partners from the 60 days before symptoms or diagnosis referred for evaluation and presumptive treatment",
+     "quote": "during the 60 days preceding the patient's onset of symptoms or chlamydia diagnosis",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC suggests considering EPT as permitted by law when health department partner management is impractical",
+     "quote": "EPT should be considered as permitted by law",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "guideline",
+   "cited_as": "CDC Gonococcal Infections Among Adolescents and Adults",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm",
+   "version_or_date": "STI Treatment Guidelines, 2021; Last Reviewed September 21, 2022",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Ceftriaxone 500 mg IM single dose; 1 g if 150 kg or more",
+     "quote": "Ceftriaxone 500 mg* IM in a single dose for persons weighing <150 kg ... For persons weighing ≥150 kg, 1 g ceftriaxone should be administered.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cefixime 800 mg oral single dose if ceftriaxone unavailable",
+     "quote": "Cefixime 800 mg* orally in a single dose",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "EPT for gonorrhea partners: cefixime 800 mg single dose",
+     "quote": "Treatment of the sexual partner with cefixime 800 mg as a single dose is recommended",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Retest 3 months after treatment",
+     "quote": "Men or women who have been treated for gonorrhea should be retested 3 months after treatment",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "NAAT on urine, vaginal, rectal and oropharyngeal swabs",
+     "quote": "testing by NAAT for urine (men and women), vaginal swabs, rectal swabs, and oropharyngeal swabs",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "guideline",
+   "cited_as": "CDC Syphilis (STI Treatment Guidelines)",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/syphilis.htm",
+   "version_or_date": "STI Treatment Guidelines, 2021; Last Reviewed October 3, 2024",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Syphilis diagnosis requires two serologic tests (nontreponemal and treponemal)",
+     "quote": "A presumptive diagnosis of syphilis requires use of two laboratory serologic tests",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most reactive treponemal tests stay reactive for life, regardless of adequate treatment",
+     "quote": "The majority of patients who have reactive treponemal tests will have reactive tests for the remainder of their lives",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "guideline",
+   "cited_as": "CDC Primary and Secondary Syphilis",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/p-and-s-syphilis.htm",
+   "version_or_date": "STI Treatment Guidelines, 2021; Last Reviewed July 22, 2021",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Benzathine penicillin G 2.4 million units IM single dose for primary and secondary syphilis",
+     "quote": "Benzathine penicillin G 2.4 million units IM in a single dose",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "guideline",
+   "cited_as": "CDC Latent Syphilis",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/latent-syphilis.htm",
+   "version_or_date": "STI Treatment Guidelines, 2021; Last Reviewed July 22, 2021",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Early latent: BPG 2.4 MU IM once; late latent: 7.2 MU total as 3 weekly doses of 2.4 MU",
+     "quote": "Benzathine penicillin G 7.2 million units total, administered as 3 doses of 2.4 million units IM each at 1-week intervals",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "guideline",
+   "cited_as": "CDC Trichomoniasis",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/trichomoniasis.htm",
+   "version_or_date": "STI Treatment Guidelines, 2021; Last Reviewed September 21, 2022",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Metronidazole 500 mg twice daily x7 days (women); 2 g single dose (men)",
+     "quote": "Metronidazole 500 mg 2 times/day for 7 days ... Metronidazole 2 g orally in a single dose",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Retest sexually active women about 3 months after treatment; treat current partners",
+     "quote": "retesting for T. vaginalis is recommended for all sexually active women approximately 3 months after initial treatment ... Current partners should be referred for presumptive therapy.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "NAAT detects more infections than wet mount in women",
+     "quote": "NAATs are highly sensitive, detecting more T. vaginalis infections than wet-mount microscopy among women.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "guideline",
+   "cited_as": "CDC Herpes (STI Treatment Guidelines)",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/herpes.htm",
+   "version_or_date": "STI Treatment Guidelines, 2021; Last Reviewed September 21, 2022",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Most widely used HSV-2 antibody test often falsely positive at low index values",
+     "quote": "often is falsely positive at low index values (1.1–3.0)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "HSV NAAT of the lesion is the most sensitive test",
+     "quote": "HSV NAAT assays are the most sensitive tests because they detect HSV from genital ulcers or other mucocutaneous lesions",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Type-specific serology useful with recurrent/atypical symptoms and negative PCR, clinical diagnosis without lab confirmation, or partner with herpes; useful in pregnancy and HIV",
+     "quote": "recurrent or atypical genital symptoms or lesions with a negative HSV PCR or culture result ... clinical diagnosis of genital herpes without laboratory confirmation ... a patient's partner has genital herpes",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Type-specific serology can be useful in pregnancy and for persons with HIV",
+     "quote": "Type-specific serologic tests can be useful for identifying pregnant women at risk for HSV infection ... persons with HIV infection",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Acyclovir, valacyclovir or famciclovir; all first episodes should receive antiviral therapy",
+     "quote": "all patients with first episodes of genital herpes should receive antiviral therapy.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "kind": "guideline",
+   "cited_as": "CDC HIV (STI Treatment Guidelines)",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/hiv.htm",
+   "version_or_date": "STI Treatment Guidelines, 2021; Last Reviewed July 22, 2021",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Preliminary positive HIV screening tests need supplemental testing",
+     "quote": "Preliminary positive screening tests for HIV should be followed by supplemental testing to establish the diagnosis.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "ART as soon as possible for all persons with HIV",
+     "quote": "ART should be initiated as soon as possible for all persons with HIV infection regardless of CD4+ T-cell count",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "kind": "guideline",
+   "cited_as": "CDC Men Who Have Sex with Men (MSM)",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/msm.htm",
+   "version_or_date": "STI Treatment Guidelines, 2021; Last Reviewed August 22, 2022",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "MSM rectal and pharyngeal testing based on receptive anal/oral sex in past year",
+     "quote": "A test for rectal infection* with N. gonorrhoeae and C. trachomatis among men who have had receptive anal intercourse during the preceding year",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "More frequent screening at 3- to 6-month intervals if risk behaviors persist or multiple partners",
+     "quote": "More frequent STI screening (i.e., for syphilis, gonorrhea, and chlamydia) at 3- to 6-month intervals is indicated for MSM ... if risk behaviors persist or if they or their sex partners have multiple partners.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "kind": "guideline",
+   "cited_as": "CDC Urethritis and Cervicitis",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/urethritis-and-cervicitis.htm",
+   "version_or_date": "STI Treatment Guidelines, 2021; Last Reviewed September 21, 2022",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "NAAT for chlamydia and gonorrhea in suspected urethritis; regimen covering both when POC tools unavailable; presumptive treatment for cervicitis when follow-up cannot be ensured",
+     "quote": "All men who have suspected or confirmed NGU should be tested for chlamydia and gonorrhea by using NAATs. ... If POC diagnostic tools ... are unavailable, drug regimens effective against both gonorrhea and chlamydia should be administered.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "kind": "guideline",
+   "cited_as": "CDC Sexual Assault and Abuse and STIs: Adolescents and Adults",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/sexual-assault-adults.htm",
+   "version_or_date": "STI Treatment Guidelines, 2021; Last Reviewed July 22, 2021",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "The page does not mention SANE programs; the red-flag wording (ER or SANE) is kept from the original and listed in CHANGES.md as only partly sourced.",
+   "claims": [
+    {
+     "text": "Sexual assault survivors should be examined by an experienced clinician",
+     "quote": "Examinations of survivors of sexual assault should be conducted by an experienced clinician",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sexual assault needs forensic and medical care in the ER or a SANE program (red flag)",
+     "quote": "Examinations of survivors of sexual assault should be conducted by an experienced clinician",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "kind": "guideline",
+   "cited_as": "CDC Pelvic Inflammatory Disease (PID)",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/pid.htm",
+   "version_or_date": "STI Treatment Guidelines, 2021; Last Reviewed September 21, 2022",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Fever, pelvic or lower abdominal pain: possible PID, needs in-person evaluation",
+     "quote": "experiencing pelvic or lower abdominal pain ... Oral temperature >38.3°C (>101°F)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "kind": "guideline",
+   "cited_as": "CDC Epididymitis",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/epididymitis.htm",
+   "version_or_date": "STI Treatment Guidelines, 2021; Last Reviewed July 22, 2021",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Testicular pain: possible epididymitis; sudden severe pain can be torsion, a surgical emergency",
+     "quote": "Spermatic cord (testicular) torsion, a surgical emergency, should be considered in all cases ... immediate referral to a urologist for evaluation for testicular torsion is vital",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "kind": "guideline",
+   "cited_as": "CDC Proctitis, Proctocolitis, and Enteritis",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/proctitis.htm",
+   "version_or_date": "STI Treatment Guidelines, 2021; Last Reviewed July 22, 2021",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Rectal pain or discharge after receptive anal exposure: possible proctitis",
+     "quote": "Proctitis is inflammation of the rectum (i.e., the distal 10–12 cm) ... can be associated with anorectal pain, tenesmus, or rectal discharge.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "kind": "guideline",
+   "cited_as": "CDC Adolescents (STI Treatment Guidelines)",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/adolescents.htm",
+   "version_or_date": "STI Treatment Guidelines, 2021; Last Reviewed July 22, 2021",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Every state and DC allow minors to consent to own STI services; EOB to a parent might disclose services",
+     "quote": "All 50 states and the District of Columbia explicitly allow minors to consent for their own STI services. ... an EOB or medical bill that is received by a parent might disclose services provided",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "kind": "agency_page",
+   "cited_as": "CDC Getting Tested for HIV",
+   "url": "https://www.cdc.gov/hiv/testing/index.html",
+   "version_or_date": "Last reviewed September 15, 2026",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "HIV window periods: NAT 10-33 days; lab Ag/Ab 18-45; finger-stick Ag/Ab 18-90; antibody 23-90",
+     "quote": "A NAT can usually detect HIV 10 to 33 days after exposure. ... An antigen/antibody lab test using blood from a vein can usually detect HIV 18 to 45 days after exposure.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Finger-stick and antibody windows",
+     "quote": "A rapid antigen/antibody test done with blood from a finger stick can usually detect HIV 18 to 90 days after exposure. ... Antibody tests can usually detect HIV 23 to 90 days after exposure.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Positive HIV self-test: seek laboratory testing to confirm",
+     "quote": "If your test is positive, seek laboratory testing to confirm the result.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "kind": "agency_page",
+   "cited_as": "CDC Preventing HIV with PEP",
+   "url": "https://www.cdc.gov/hiv/prevention/pep.html",
+   "version_or_date": "Last reviewed December 2, 2024",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "PEP must be started within 72 hours; talk right away to a provider, ER doctor or urgent care",
+     "quote": "PEP must be started within 72 hours (3 days) after a recent possible exposure to HIV. ... Talk right away to your health care provider, an emergency room doctor, or an urgent care provider about PEP",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "kind": "agency_page",
+   "cited_as": "CDC Clinical Screening and Diagnosis for Hepatitis C",
+   "url": "https://www.cdc.gov/hepatitis-c/hcp/diagnosis-testing/index.html",
+   "version_or_date": "Last reviewed November 2, 2026",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "CDC recommends HCV screening at least once for all adults 18 and older",
+     "quote": "CDC recommends universal hepatitis C screening for all adults 18 and older and all pregnant women during each pregnancy.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "HCV RNA detectable 1-2 weeks after exposure; antibodies 8-11 weeks",
+     "quote": "It usually takes 1–2 weeks after exposure to the virus for detectable HCV RNA levels to appear. ... For acute HCV infection, it usually takes 8–11 weeks before antibodies are detectable.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "HCV antibody followed by HCV RNA",
+     "quote": "Clinicians should use an FDA-approved HCV antibody test followed by a NAT for HCV RNA test",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "kind": "agency_page",
+   "cited_as": "CDC Clinical Testing and Diagnosis for Hepatitis B",
+   "url": "https://www.cdc.gov/hepatitis-b/hcp/diagnosis-testing/index.html",
+   "version_or_date": "Last reviewed November 2, 2026",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "CDC: screen all adults 18+ at least once with a triple panel",
+     "quote": "Screen all adults aged 18 and older for hepatitis B at least once in their lifetime using a triple panel test.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "kind": "guideline",
+   "cited_as": "USPSTF. Screening for HBV Infection in Adolescents and Adults. JAMA 2020;324(23):2415-2422",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33320230/",
+   "pmid": "33320230",
+   "doi": "10.1001/jama.2020.22980",
+   "record_title": "Screening for Hepatitis B Virus Infection in Adolescents and Adults: US Preventive Services Task Force Recommendation Statement.",
+   "record_journal": "JAMA",
+   "record_year": "2020",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "2020 Dec 15",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "USPSTF recommends HBV screening in adolescents and adults at increased risk (grade B)",
+     "quote": "The USPSTF recommends screening for HBV infection in adolescents and adults at increased risk for infection. (B recommendation).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "kind": "guideline",
+   "cited_as": "USPSTF. Screening for HCV Infection in Adolescents and Adults. JAMA 2020;323(10):970-975",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32119076/",
+   "pmid": "32119076",
+   "doi": "10.1001/jama.2020.1123",
+   "record_title": "Screening for Hepatitis C Virus Infection in Adolescents and Adults: US Preventive Services Task Force Recommendation Statement.",
+   "record_journal": "JAMA",
+   "record_year": "2020",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "2020 Mar 10",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "USPSTF recommends HCV screening for adults 18 to 79 (grade B)",
+     "quote": "The USPSTF recommends screening for HCV infection in adults aged 18 to 79 years. (B recommendation).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "kind": "guideline",
+   "cited_as": "USPSTF. Serologic Screening for Genital Herpes Infection: Reaffirmation. JAMA 2023;329(6):502-507",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36786784/",
+   "pmid": "36786784",
+   "doi": "10.1001/jama.2023.0057",
+   "record_title": "Serologic Screening for Genital Herpes Infection: US Preventive Services Task Force Reaffirmation Recommendation Statement.",
+   "record_journal": "JAMA",
+   "record_year": "2023",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "2023 Feb 14",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "USPSTF recommends against routine HSV serologic screening in asymptomatic adolescents and adults, including pregnant persons (grade D)",
+     "quote": "The USPSTF recommends against routine serologic screening for genital HSV infection in asymptomatic adolescents and adults, including pregnant persons. (D recommendation).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "kind": "guideline",
+   "cited_as": "USPSTF. Screening for Cervical Cancer. JAMA 2018;320(7):674-686",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30140884/",
+   "pmid": "30140884",
+   "doi": "10.1001/jama.2018.10897",
+   "record_title": "Screening for Cervical Cancer: US Preventive Services Task Force Recommendation Statement.",
+   "record_journal": "JAMA",
+   "record_year": "2018",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "2018 Aug 21 (still the current A recommendation on the USPSTF A and B list, read 2026-11-15)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "21-29: cytology every 3 years; 30-65: cytology q3y, hrHPV alone q5y, or cotesting q5y (grade A)",
+     "quote": "The USPSTF recommends screening every 3 years with cervical cytology alone, every 5 years with hrHPV testing alone, or every 5 years with hrHPV testing in combination with cytology (cotesting) in women aged 30 to 65 years. (A recommendation)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "kind": "agency_page",
+   "cited_as": "CDC HPV Vaccine Recommendations",
+   "url": "https://www.cdc.gov/hpv/hcp/vaccination-considerations/index.html",
+   "version_or_date": "Last reviewed July 9, 2024",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "HPV vaccine routine at 11 or 12 (can start at 9); everyone through 26; shared decision-making 27-45",
+     "quote": "HPV vaccine is recommended for routine vaccination at 11 or 12 years old. Vaccination can be started at age 9. ... ACIP also recommends vaccination for everyone through age 26 years if not adequately vaccinated when younger.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Shared clinical decision-making for some adults 27-45",
+     "quote": "Some adults ages 27-45 years, if not adequately vaccinated.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "kind": "agency_page",
+   "cited_as": "CDC About Genital HPV Infection",
+   "url": "https://www.cdc.gov/sti/about/about-genital-hpv-infection.html",
+   "version_or_date": "Last reviewed January 31, 2025",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "HPV tests used for screening women 30+; not recommended to screen men, adolescents, or women under 30",
+     "quote": "Healthcare providers only use these tests for screening women aged 30 years and older. ... HPV tests are not recommended to screen men, adolescents, or women under the age of 30 years.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "kind": "agency_page",
+   "cited_as": "CDC Legal Status of Expedited Partner Therapy",
+   "url": "https://www.cdc.gov/sti/php/ept-legal-status/index.html",
+   "version_or_date": "Last reviewed July 1, 2026",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "The extraction reported the page headline count as 49 states but its per-state list may not match exactly; the guide says only \"most US states\".",
+   "claims": [
+    {
+     "text": "EPT is permissible in most US states; definition of EPT",
+     "quote": "EPT is permissible in 49 states ... EPT is the delivery of medications or prescriptions by persons infected with an STD to their sex partners ... without clinical assessment of the partners.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "kind": "dataset",
+   "cited_as": "CDC STI Surveillance, 2024 (Provisional)",
+   "url": "https://www.cdc.gov/sti-statistics/annual/index.html",
+   "version_or_date": "Sept. 24, 2025; data provisional as of August 14, 2025",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction) (Trends in Reported Cases table)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Congenital syphilis rose for 12 years in a row; nearly 4,000 cases in 2024",
+     "quote": "Congenital syphilis increased for the 12th year in a row, with nearly 4,000 reported cases in 2024.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Chart values 2020-2024: 2,168; 2,886; 3,773; 3,878; 3,941 (2024 provisional)",
+     "quote": "Congenital syphilis Total: 2020 2,168; 2021 2,886; 2022 3,773; 2023 3,878; 2024 3,941 (provisional)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "kind": "agency_page",
+   "cited_as": "HealthCare.gov Preventive care benefits for adults",
+   "url": "https://www.healthcare.gov/preventive-care-adults/",
+   "version_or_date": "No page date shown; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "ACA preventive list generally no cost in network; HIV 15-65, HBV high risk, HCV 18-79, syphilis higher risk",
+     "quote": "these services are covered at no cost to you when provided by an in-network medical provider. ... HIV screening for everyone 15 to 65 years ... Hepatitis C screening for adults 18 to 79 years",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Syphilis and hepatitis B list items",
+     "quote": "Syphilis screening for adults at higher risk ... Hepatitis B screening for people at high risk",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "kind": "agency_page",
+   "cited_as": "HealthCare.gov Preventive care benefits for women",
+   "url": "https://www.healthcare.gov/preventive-care-women/",
+   "version_or_date": "No page date shown; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Marketplace and many other plans must cover; chlamydia for younger women and others at higher risk; gonorrhea for women at higher risk",
+     "quote": "All Marketplace health plans and many other plans must cover the following list of preventive services for women ... Chlamydia infection screening for younger women and other women at higher risk ... Gonorrhea screening for all women at higher risk",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "kind": "agency_page",
+   "cited_as": "CDC NPIN Get Tested",
+   "url": "https://gettested.cdc.gov/",
+   "version_or_date": "No page date shown; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page (verbatim sentence extraction)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "GetTested lists HIV, STI and hepatitis testing sites; many clinics offer confidential and free or low-cost testing",
+     "quote": "This Web site provides users with locations for HIV, STD, and hepatitis testing ... there are many clinics that provide confidential and free or low-cost testing",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "kind": "other_web",
+   "cited_as": "Visby Women's At-Home STI Test Kit product page",
+   "url": "https://visby.com/products/visby-womens-at-home-sti-test-kit",
+   "version_or_date": "Read November 15, 2026",
+   "retrieved_with": "WebFetch of manufacturer product page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "As of Nov 15, 2026: $179.99 list, shown at $149.99 with limited-time $30 discount",
+     "quote": "$179.99 ... $149.99 ... SAVE $30 TODAY | LIMITED TIME ONLY",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

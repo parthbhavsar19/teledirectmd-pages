@@ -45,8 +45,9 @@ const LISTS = [
     section: /Alabama,[\s\S]{0,1600}/ },
   { file: 'app/faq/deep-dive/page.js',
     section: /abbr: 'al'[\s\S]{0,4000}/ },
-  { file: 'app/components/UtiAntibioticsPage.js',
-    section: /\['Alabama'[\s\S]{0,1600}/ },
+  // app/components/UtiAntibioticsPage.js was removed from this list on
+  // 2026-10-13: its state chips were replaced by a link to /states-we-serve/,
+  // so there is no hand-typed enumeration left to drift.
   // app/who-we-serve/[segment]/UninsuredAffordableCarePage.js was removed from
   // this list on 2026-09-10: it now renders its state list straight from
   // data/states.json, so there is no hand-typed enumeration left to drift.
@@ -119,7 +120,9 @@ function main() {
     'lib/compare-pages-config.js',        // competitor coverage claims
     'app/compare/',                       // competitor comparison prose
     'public/health-guides/',              // clinical facts, policy stats
+    'docs/health-guides/citation-logs/',  // verbatim quotes from cited sources (e.g. CDC EPT state counts)
     'data/outbreaks/',                    // CDC outbreak reports
+    'public/flu-hub/data/',               // pharmacy addresses ("48 State Rt 23")
     'scripts/check-state-coverage.js',    // this file (self-reference)
     'SETUP.md',                           // docs
   ];
@@ -150,9 +153,12 @@ function main() {
   // not go stale on a launch, which is the whole point — so it is no longer a
   // drift signal. Stale EXACT counts (41/42/43) are still caught below.
   const FORBIDDEN = [
-    { label: 'TeleDirectMD 41-state / 41 states', re: /\b41[- ]?states?\b|TeleDirectMD['\u2019]?s?\s+4[0-3]\b/i },
+    { label: 'TeleDirectMD 41-state / 41 states', re: /\b41[- ]?states?\b|TeleDirectMD['\u2019]?s?\s+4[0-3]\b(?!\+)/i },
     { label: 'Licensed in 4[0-3] states (stale count)', re: /\bLicensed in 4[0-3]\s+states?\b/i },
     { label: 'TeleDirectMD.{0,60}\\b4[0-3]\\s+states', re: /TeleDirectMD[\s\S]{0,80}\b4[0-3]\s+states?\b/i },
+    // 2026-10-07: exact current counts are also drift. Coverage copy says
+    // "40+ states" so it survives the next launch without a sweep.
+    { label: 'Exact state count (use "40+ states")', re: /\b4[4-9]\+?\s+(?:U\.S\.\s+|US\s+|licensed\s+)?states?\b|\b4[4-9]-state\b/i },
   ];
 
   function walk(dir, out) {
@@ -189,7 +195,7 @@ function main() {
   if (countProblems.length) {
     console.error('\n\u2717 Inline state-count check failed\n');
     countProblems.forEach((p) => console.error(`  ${p}`));
-    console.error(`\n  Canonical count is 44 states + DC. Update the phrases above.`);
+    console.error(`\n  Coverage copy uses "40+ states" (plus DC where relevant). Update the phrases above.`);
     console.error('  If a phrase legitimately refers to a competitor or outside stat,');
     console.error('  move it under an allowlisted path or reword.\n');
     process.exit(1);
@@ -226,6 +232,9 @@ function main() {
     if (!DOLLAR_49.test(txt)) continue;
     const lines = txt.split('\n');
     lines.forEach((line, i) => {
+      // Walgreens Virtual Healthcare's own $49 visit prices are sourced competitor
+      // pricing on the comparison pages, not stale TeleDirectMD copy.
+      if (rel === 'lib/compare-pages-config.js' && /Walgreens/.test(line)) return;
       if (DOLLAR_49.test(line)) {
         priceProblems.push(`${rel}:${i + 1}  ${line.trim().slice(0, 200)}`);
       }
@@ -366,8 +375,11 @@ function main() {
         // BCBSHubClient renders its state grid inline (no BCBS_STATES const).
         { path: 'app/insurance/blue-cross-blue-shield/[segment]/page.js',
           extractor: extractCodesFromStateSlugs, label: 'STATE_SLUGS dict' },
+        // CA (Anthem Blue Cross) intentionally has no state x condition
+        // fan-out: it ships as one state-specific page, per the insurance
+        // consolidation rule against thin fan-out URLs.
         { path: 'app/insurance/blue-cross-blue-shield/[segment]/[subsegment]/page.js',
-          extractor: extractCodesFromStateSlugs, label: 'STATE_SLUGS dict' },
+          extractor: extractCodesFromStateSlugs, label: 'STATE_SLUGS dict', excludeStates: ['CA'] },
       ],
     },
     {
@@ -412,7 +424,8 @@ function main() {
         planClean = false;
         continue;
       }
-      const missing = canon.filter((c) => !codes.includes(c));
+      const excluded = t.excludeStates || [];
+      const missing = canon.filter((c) => !codes.includes(c) && !excluded.includes(c));
       const extra = codes.filter((c) => !canon.includes(c));
       if (missing.length || extra.length) {
         const line =

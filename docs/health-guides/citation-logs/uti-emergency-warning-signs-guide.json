@@ -1,0 +1,672 @@
+{
+  "guide": "uti-emergency-warning-signs-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 13 verified (11 DOIs on the page plus 2 dropped NEJM/SSC DOIs checked), retractions: none. Herness 2020 and Colgan 2011 (AFP, no DOI) could not be matched by Scite; PubMed article types checked for both, no Retracted Publication or Retraction Notice. Scite contrasting-evidence flags on Devillé, Bent, Nicolle (and on dropped Gupta 2011, SSC 2021) reviewed; none bears on a claim the page makes.",
+  "references": [
+    {
+      "n": 1,
+      "kind": "journal",
+      "cited_as": "Colgan R, Williams M. Diagnosis and treatment of acute uncomplicated cystitis. Am Fam Physician. 2011;84(7):771-776. PMID: 22010614.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22010614/",
+      "pmid": "22010614",
+      "record_title": "Diagnosis and treatment of acute uncomplicated cystitis.",
+      "record_journal": "Am Fam Physician",
+      "record_year": "2011",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "notes": "No DOI; Scite verify_papers could not match the reference text (no DOI). PubMed article types show no retraction notice. Abstract-only; claims limited to abstract.",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Most UTIs are bladder infections (acute uncomplicated cystitis) causing dysuria and frequency",
+          "quote": "Most urinary tract infections are acute uncomplicated cystitis. Identifiers of acute uncomplicated cystitis are frequency and dysuria in an immunocompetent woman of childbearing age",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Bladder infection may cause lower-belly (suprapubic) tenderness",
+          "quote": "Physical examination is typically normal or positive for suprapubic tenderness.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "agency_page",
+      "cited_as": "National Institute of Diabetes and Digestive and Kidney Diseases. Definition &amp; Facts of Kidney Infection (Pyelonephritis). Last reviewed October 2024. Accessed November 15, 2026.",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-infection-pyelonephritis/definition-facts",
+      "version_or_date": "Last Reviewed October 2024",
+      "retrieved_with": "WebFetch of official NIDDK page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Kidney infection is a UTI that moves up from the bladder to one or both kidneys",
+          "quote": "Most kidney infections are caused by bacteria or viruses that first infect your lower urinary tract, usually your bladder. Then, the infection moves up your ureters to one or both of your kidneys.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Kidney infections are more common in females than males",
+          "quote": "Kidney infections are more common in females than males and are common during pregnancy.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "In rare cases kidney infection causes scarring leading to CKD, high blood pressure, kidney failure, sepsis",
+          "quote": "In rare cases, kidney infections may cause: high blood pressure / kidney failure / kidney scarring, which can lead to chronic kidney disease / sepsis [bullets]",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Early, proper treatment means most kidney infections do not lead to complications",
+          "quote": "When diagnosed early and treated properly, most kidney infections don't lead to complications.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "agency_page",
+      "cited_as": "National Institute of Diabetes and Digestive and Kidney Diseases. Symptoms &amp; Causes of Kidney Infection (Pyelonephritis). Last reviewed October 2024. Accessed November 15, 2026.",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-infection-pyelonephritis/symptoms-causes",
+      "version_or_date": "Last Reviewed October 2024",
+      "retrieved_with": "WebFetch of official NIDDK page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Kidney infection symptoms: fever and chills, frequent or painful urination, back/side/groin pain, nausea or vomiting",
+          "quote": "Symptoms of kidney infections vary by age and may include: fever and chills / cloudy, dark, bloody, or foul-smelling urine / frequent, painful urination / pain in your back, side, or groin / nausea or vomiting [bullets]",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Seek care right away for kidney infection symptoms (used for urgent-care advice and 'regardless of home test')",
+          "quote": "Seek care right away if you have kidney infection symptoms.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Sepsis from kidney infection is uncommon but can be life threatening",
+          "quote": "Although uncommon, a kidney infection could lead to sepsis, which can be life threatening.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Untreated bladder infection can spread to the kidneys",
+          "quote": "If a bladder infection isn't treated or doesn't go away, it can spread to one or both kidneys.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Older-adult red flags include fever, chills, back pain, vomiting (with other refs)",
+          "quote": "Symptoms of a kidney infection may include fever and chills, frequent or painful urination, and nausea or vomiting.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "guideline",
+      "cited_as": "Trautner BW, Cort&eacute;s-Penfield NW, Gupta K, Hirsch EB, Horstman M, Moran GJ, et al. Clinical practice guidelines by Infectious Diseases Society of America 2025 guidelines on management and treatment of complicated urinary tract infections: introduction and methods. Clin Infect Dis. 2026;82(Suppl 3):i24-i35. doi:10.1093/cid/ciaf459. PMID: 41467387. Full text (IDSA):",
+      "url": "https://www.idsociety.org/globalassets/idsa/practice-guidelines/cuti/introduction-and-methods-manuscript.pdf",
+      "pmid": "41467387",
+      "doi": "10.1093/cid/ciaf459",
+      "record_title": "Clinical Practice Guidelines by Infectious Diseases Society of America 2025 Guidelines on Management and Treatment of Complicated Urinary Tract Infections--Introduction and Methods.",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2026",
+      "article_type": "Journal Article",
+      "version_or_date": "IDSA 2025 guideline; PubMed issue date 2026 Aug 24, 82(Suppl 3):i24-i35; Scite lists year 2025",
+      "retrieved_with": "PubMed get_article_metadata (no abstract) + WebFetch of IDSA-hosted manuscript PDF (full text)",
+      "notes": "Link opens the IDSA-hosted full-text manuscript of this guideline section; PMID and DOI given in the citation. Guideline states pregnant, lactating and neutropenic patients are not specifically addressed.",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Systemic signs such as fever suggest infection beyond the bladder; pyelonephritis is a complicated UTI",
+          "quote": "Systemic signs of illness, such as fever or bacteremia, suggest that the infection has extended beyond the bladder",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pyelonephritis is classified as complicated UTI",
+          "quote": "Pyelonephritis is encompassed in complicated UTI.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Both men and women can have uncomplicated UTI; acute prostatitis should be considered and excluded first",
+          "quote": "By this classification, both men and women can have uncomplicated UTI",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Acute prostatitis should be considered and excluded before classifying a man's UTI as uncomplicated",
+          "quote": "In general, acute prostatitis, should be considered and excluded before classifying UTI as uncomplicated",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dipstick cannot tell bladder from kidney infection; spread is judged from fever/flank pain (guide's inference from the classification)",
+          "quote": "Systemic signs of illness, such as fever or bacteremia, suggest that the infection has extended beyond the bladder",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Herness J, Buttolph A, Hammer NC. Acute pyelonephritis in adults: rapid evidence review. Am Fam Physician. 2020;102(3):173-180. PMID: 32735433.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32735433/",
+      "pmid": "32735433",
+      "record_title": "Acute Pyelonephritis in Adults: Rapid Evidence Review.",
+      "record_journal": "Am Fam Physician",
+      "record_year": "2020",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata (abstract) + WebFetch of aafp.org full text",
+      "notes": "No DOI; Scite verify_papers could not match the reference text (no DOI). PubMed article types show no retraction notice. Full text read at https://www.aafp.org/pubs/afp/issues/2020/0801/p173.html",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Fever typically present but not universal",
+          "quote": "Fever is typically present but is not a universal symptom.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Kidney infection suspected with flank pain plus lab evidence of UTI",
+          "quote": "Acute pyelonephritis is a bacterial infection of the kidney and renal pelvis and should be suspected in patients with flank pain and laboratory evidence of urinary tract infection.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Outpatient treatment appropriate if uncomplicated and can tolerate oral therapy",
+          "quote": "Outpatient management is appropriate in patients who have uncomplicated disease and can tolerate oral therapy.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Some need IV therapy, ED or observation stay",
+          "quote": "Extended emergency department or observation unit stays are an appropriate option for patients who initially warrant intravenous therapy.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Vomiting preventing oral medicine and sepsis are reasons for hospital care; ER indications list",
+          "quote": "Oral antibiotic intolerance; Sepsis",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Pregnancy with kidney infection: high risk, admit for initial treatment",
+          "quote": "Pregnant patients with pyelonephritis are at significantly elevated risk of severe complications and should be admitted and treated initially with parenteral therapy.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Urine culture with susceptibility testing recommended in all patients",
+          "quote": "Urine culture with antimicrobial susceptibility testing should be performed in all patients and used to direct therapy.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Responds within 48 to 72 hours in more than 95% of cases",
+          "quote": "Acute pyelonephritis responds to appropriate therapy within 48 to 72 hours in more than 95% of cases.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Not improving: contact clinician; non-responders need re-evaluation",
+          "quote": "Most patients respond to appropriate management within 48 to 72 hours, and those who do not should be evaluated with imaging and repeat cultures while alternative diagnoses are considered.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Male sex often considered a complicating factor because of prostate involvement and longer therapy",
+          "quote": "male sex is often considered a complicating factor in pyelonephritis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Men, pregnancy, inability to keep fluids down lower the threshold for urgent evaluation (with refs 6, 10)",
+          "quote": "Pregnant patients with pyelonephritis are at significantly elevated risk of severe complications",
+          "quote_source": "abstract",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus Medical Encyclopedia. Urinary tract infection - adults. US National Library of Medicine. Reviewed July 22, 2026. Accessed November 15, 2026.",
+      "url": "https://medlineplus.gov/ency/article/000521.htm",
+      "version_or_date": "Review date 7/22/2026",
+      "retrieved_with": "WebFetch of official MedlinePlus page (site permits short quotes only)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Fever above 101°F (38.3°C) as a kidney-infection sign",
+          "quote": "Fever above 101°F (38.3°C)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Chills and shaking or night sweats; fatigue and general ill feeling",
+          "quote": "Chills and shaking or night sweats",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "In older people, mental changes or confusion are often the only signs",
+          "quote": "in older people, these symptoms often are the only signs of a UTI",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Contact a provider right away for signs of kidney infection",
+          "quote": "Contact your provider right away if you have signs of a possible kidney infection",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hospital if very sick and cannot take medicines by mouth or drink enough fluids",
+          "quote": "You may need to go to the hospital if you are very sick and cannot take medicines by mouth or drink enough fluids.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hospital care includes fluids and IV antibiotics",
+          "quote": "At the hospital, you will receive fluids and antibiotics through a vein.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Admission considered for older adults and pregnancy with fever (err toward higher level of care; ER for pregnancy with fever)",
+          "quote": "You may also be admitted to the hospital if you: Are an older adult ... Are pregnant and have a fever or are otherwise ill [bulleted list on page]",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "UTI risk factors include enlarged prostate or anything blocking urine flow, diabetes, kidney stones, older age",
+          "quote": "Enlarged prostate, narrowed urethra, or anything that blocks the flow of urine / Diabetes / Kidney stones / Older age (most often in people who live in nursing homes) [risk factor bullets]",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "journal",
+      "cited_as": "Devill&eacute; WL, Yzermans JC, van Duijn NP, Bezemer PD, van der Windt DA, Bouter LM. The urine dipstick test useful to rule out infections. A meta-analysis of the accuracy. BMC Urol. 2004;4:4. PMID: 15175113.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15175113/",
+      "pmid": "15175113",
+      "pmcid": "PMC434513",
+      "doi": "10.1186/1471-2490-4-4",
+      "record_title": "The urine dipstick test useful to rule out infections. A meta-analysis of the accuracy.",
+      "record_journal": "BMC Urol",
+      "record_year": "2004",
+      "article_type": "Journal Article; Meta-Analysis; Review; Validation Study",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "notes": "Scite flagged one contrasting citation (10.1590/s1679-45082017ao3936) on the relative performance of leukocyte esterase vs nitrite; the page does not make a claim about that comparison. Page now states this meta-analysis's rule-out finding accurately.",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Dipstick tests nitrite and leukocyte esterase",
+          "quote": "investigate the use of dipstick tests for nitrites and/or leukocyte esterase",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Negative nitrite plus LE useful to exclude infection in many groups, lower NPV in family medicine",
+          "quote": "Negative predictive values were high in both tests in all patient groups and settings, except for in family medicine.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dipstick alone cannot confirm (rule in) infection",
+          "quote": "the usefulness of the dipstick test alone to rule in infection remains doubtful, even with high pre-test probabilities",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. About Sepsis. Last reviewed August 17, 2026. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/sepsis/about/index.html",
+      "version_or_date": "Last reviewed and updated August 17, 2026",
+      "retrieved_with": "WebFetch of official CDC page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Sepsis is the body's extreme response to infection and a life-threatening medical emergency",
+          "quote": "Sepsis is the body's extreme response to an infection. It is a life-threatening medical emergency.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Urinary tract is among the most common starting sites for infections that lead to sepsis",
+          "quote": "Infections that lead to sepsis most often start in the: Gastrointestinal tract / Lung / Skin or / Urinary tract. [bulleted list on page]",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Sepsis signs: clammy/sweaty skin, confusion or disorientation, extreme pain, fever/shivering/feeling very cold, high heart rate or weak pulse, shortness of breath",
+          "quote": "A person with sepsis might have one or more of the following signs or symptoms: Clammy or sweaty skin / Confusion or disorientation / Extreme pain or discomfort / Fever, shivering or feeling very cold / High heart rate or weak pulse / Shortness of breath [bullets]",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Sepsis signs warrant immediate emergency care / ER (emergency framing)",
+          "quote": "It is a life-threatening medical emergency.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "journal",
+      "cited_as": "Rowe TA, Juthani-Mehta M. Diagnosis and management of urinary tract infection in older adults. Infect Dis Clin North Am. 2014;28(1):75-89. PMID: 24484576.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24484576/",
+      "pmid": "24484576",
+      "pmcid": "PMC4079031",
+      "doi": "10.1016/j.idc.2013.10.004",
+      "record_title": "Diagnosis and management of urinary tract infection in older adults.",
+      "record_journal": "Infect Dis Clin North Am",
+      "record_year": "2014",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC full text)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Many older adults do not present with localized urinary symptoms",
+          "quote": "many older adults do not present with localized genitourinary symptoms",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Older adults may present with generalized symptoms such as lower abdominal pain, back pain, constipation",
+          "quote": "Older adults, however, may also initially present with generalized symptoms such as lower abdominal pain, back pain, and constipation.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Atypical or nonspecific presentation can hide infection",
+          "quote": "are more likely present with atypical or nonspecific symptoms when infected",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Falls not shown to be significantly associated with bacteriuria plus pyuria",
+          "quote": "Falls, although a common reason for clinicians to suspect symptomatic UTI in nursing-home residents, have not been shown to be significantly associated with bacteriuria plus pyuria.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "High ASB in older adults; evaluate new symptoms, not a screening result",
+          "quote": "distinguishing symptomatic UTI from asymptomatic bacteriuria (ASB) in older adults is problematic",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus Medical Encyclopedia. Sepsis. US National Library of Medicine. Reviewed August 29, 2024. Accessed November 15, 2026.",
+      "url": "https://medlineplus.gov/ency/article/000666.htm",
+      "version_or_date": "Review date 8/29/2024",
+      "retrieved_with": "WebFetch of official MedlinePlus page (short quotes)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Lightheadedness from low blood pressure, mottled skin, rapid heartbeat, confusion as sepsis signs",
+          "quote": "Lightheadedness due to low blood pressure / Skin rash or mottled skin / Rapid heartbeat / Confusion or delirium [bullets]",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Fast breathing as an early sign",
+          "quote": "A change in mental status and very fast breathing may be the earliest signs of sepsis",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Weak immune system raises danger (used for immune suppression lowering threshold)",
+          "quote": "Sepsis is often life threatening, especially in people with a weak immune system or a long-term (chronic) illness.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus Medical Encyclopedia. Septic shock. US National Library of Medicine. Reviewed December 13, 2025. Accessed November 15, 2026.",
+      "url": "https://medlineplus.gov/ency/article/000668.htm",
+      "version_or_date": "Review date 12/13/2025",
+      "retrieved_with": "WebFetch of official MedlinePlus page (short quotes)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Septic shock is a medical emergency with low blood pressure",
+          "quote": "Septic shock is a medical emergency. ... Low blood pressure, especially when standing",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Little or no urine as a sign",
+          "quote": "Little or no urine",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most often in very old and very young; weakened immune systems; urinary catheters a risk factor",
+          "quote": "Septic shock occurs most often in the very old and the very young. It may also occur in people with weakened immune systems. ... Indwelling catheters",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "journal",
+      "cited_as": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710. PMID: 12020306.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12020306/",
+      "pmid": "12020306",
+      "doi": "10.1001/jama.287.20.2701",
+      "record_title": "Does this woman have an acute uncomplicated urinary tract infection?",
+      "record_journal": "JAMA",
+      "record_year": "2002",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "notes": "Scite flagged one contrasting citation (10.1016/j.jadohealth.2006.12.010) about vaginal symptoms lowering UTI likelihood; the page makes no claim about vaginal symptoms.",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "History, exam and dipstick cannot reliably rule out UTI in a symptomatic woman; negative strip should not delay care",
+          "quote": "history taking, physical examination, and dipstick urinalysis are not able to reliably lower the posttest probability of disease to a level where a UTI can be ruled out when a patient presents with 1 or more symptoms.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "guideline",
+      "cited_as": "Nicolle LE, Gupta K, Bradley SF, Colgan R, DeMuri GP, Drekonja D, et al. Clinical practice guideline for the management of asymptomatic bacteriuria: 2019 update by the Infectious Diseases Society of America. Clin Infect Dis. 2019;68(10):e83-e110. PMID: 30895288.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30895288/",
+      "pmid": "30895288",
+      "doi": "10.1093/cid/ciy1121",
+      "record_title": "Clinical Practice Guideline for the Management of Asymptomatic Bacteriuria: 2019 Update by the Infectious Diseases Society of America.",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2019",
+      "article_type": "Journal Article; Practice Guideline",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "notes": "Scite flagged one contrasting citation (10.1177/0018578719888911) that reports real-world over-treatment of ASB; it agrees with, rather than contradicts, the page's point.",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "High ASB prevalence; positive test/cloudy urine alone does not establish UTI",
+          "quote": "addresses the interpretation of nonlocalizing clinical symptoms in populations with a high prevalence of ASB",
+          "quote_source": "abstract",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus Medical Encyclopedia. Prostatitis - bacterial. US National Library of Medicine. Reviewed July 1, 2025. Accessed November 15, 2026.",
+      "url": "https://medlineplus.gov/ency/article/000519.htm",
+      "version_or_date": "Review date 7/1/2025",
+      "retrieved_with": "WebFetch of official MedlinePlus page (short quotes)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Acute prostatitis: quick onset with chills, fever, difficulty starting to urinate or emptying bladder, lower back and perineal pain",
+          "quote": "Symptoms can start quickly, and can include: Chills / Fever / Difficulty starting to urinate or emptying the bladder / in the lower back / in the area between the genitals and anus (perineum) [bullets, excerpted]",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Prostatitis complications include prostate abscess and sepsis",
+          "quote": "Complications may include: Abscess in the prostate gland / Spread of bacteria from the prostate to the bloodstream (sepsis)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Men with fever, chills, difficulty urinating, or lower-back/perineal pain should seek urgent evaluation (urgency is the guide's; source says contact provider)",
+          "quote": "in the area between the genitals and anus (perineum)",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "guideline",
+      "cited_as": "Trautner BW, Cort&eacute;s-Penfield NW, Gupta K, Hirsch EB, Horstman M, Moran GJ, et al. Clinical practice guidelines by Infectious Diseases Society of America (IDSA): 2025 guidelines on management and treatment of complicated urinary tract infections: duration of antibiotics for complicated UTI. Clin Infect Dis. 2026;82(Suppl 3):i79-i88. doi:10.1093/cid/ciaf462. PMID: 41419448.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41419448/",
+      "pmid": "41419448",
+      "doi": "10.1093/cid/ciaf462",
+      "record_title": "Clinical Practice Guidelines by Infectious Diseases Society of America (IDSA): 2025 Guidelines on Management and Treatment of Complicated Urinary Tract Infections--Duration of Antibiotics for Complicated UTI.",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2026",
+      "article_type": "Journal Article; Practice Guideline",
+      "version_or_date": "IDSA 2025 guideline; PubMed issue date 2026 Aug 24, 82(Suppl 3):i79-i88",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Men with febrile UTI and suspected acute bacterial prostatitis may benefit from 10 to 14 days",
+          "quote": "men with febrile UTI in whom acute bacterial prostatitis is suspected may benefit from a longer treatment duration (10-14 days)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "journal",
+      "cited_as": "Wilson ML, Gaido L. Laboratory diagnosis of urinary tract infections in adult patients. Clin Infect Dis. 2004;38(8):1150-1158. PMID: 15095222.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15095222/",
+      "pmid": "15095222",
+      "doi": "10.1086/383029",
+      "record_title": "Laboratory diagnosis of urinary tract infections in adult patients.",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2004",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Urine culture is necessary for complicated UTIs",
+          "quote": "it is necessary for outpatients who have recurrent UTIs, experience treatment failures, or have complicated UTIs, as well as for inpatients who develop UTIs.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "kind": "guideline",
+      "cited_as": "US Preventive Services Task Force; Owens DK, Davidson KW, Krist AH, Barry MJ, Cabana M, et al. Screening for asymptomatic bacteriuria in adults: US Preventive Services Task Force recommendation statement. JAMA. 2019;322(12):1188-1194. PMID: 31550038.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31550038/",
+      "pmid": "31550038",
+      "doi": "10.1001/jama.2019.13069",
+      "record_title": "Screening for Asymptomatic Bacteriuria in Adults: US Preventive Services Task Force Recommendation Statement.",
+      "record_journal": "JAMA",
+      "record_year": "2019",
+      "article_type": "Journal Article; Practice Guideline",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Pyelonephritis in pregnancy associated with septicemia, respiratory distress, low birth weight, spontaneous preterm birth",
+          "quote": "Among pregnant persons, pyelonephritis is associated with perinatal complications including septicemia, respiratory distress, low birth weight, and spontaneous preterm birth.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "USPSTF recommends urine-culture screening for ASB in pregnancy",
+          "quote": "The USPSTF recommends screening pregnant persons for asymptomatic bacteriuria using urine culture. (B recommendation)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus Medical Encyclopedia. Perirenal abscess. US National Library of Medicine. Reviewed January 1, 2025. Accessed November 15, 2026.",
+      "url": "https://medlineplus.gov/ency/article/001274.htm",
+      "version_or_date": "Review date January 1, 2025",
+      "retrieved_with": "WebFetch of official MedlinePlus page (short quotes)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Perirenal abscess is a pocket of pus around one or both kidneys",
+          "quote": "Perirenal abscess is a pocket of pus around one or both kidneys. It is caused by an infection.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most are caused by a UTI starting in the bladder",
+          "quote": "Most perirenal abscesses are caused by a urinary tract infection that starts in the bladder.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pus may need drainage by catheter through the skin or surgery",
+          "quote": "To treat perirenal abscess, the pus can be drained through a catheter that is placed through the skin or with surgery.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

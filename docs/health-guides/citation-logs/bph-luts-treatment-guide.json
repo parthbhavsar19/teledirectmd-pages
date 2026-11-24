@@ -1,0 +1,765 @@
+{
+ "guide": "bph-luts-treatment-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 6 verified (all 6 journal/guideline DOIs: 10.1097/JU.0000000000005097, 10.1097/JU.0000000000005098, 10.1097/JU.0000000000005099, 10.1007/s00345-023-04735-y, 10.12659/MSM.923179, 10.1097/JU.0000000000003483), retractions: none; no editorial notices or contrasting evidence flagged. Arnold 2023 (no DOI) could not be matched by Scite; PubMed article types show no Retracted Publication or Retraction Notice for any PubMed record cited.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "Goueli R, Badlani GH, Welliver C, et al. Management of Lower Urinary Tract Symptoms Attributed to Benign Prostatic Hyperplasia: AUA Guideline (2026) Part I: Presentation and Evaluation. J Urol. 2026;216(2):143-151. doi:10.1097/JU.0000000000005097. PMID 42095481.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42095481/",
+   "pmid": "42095481",
+   "doi": "10.1097/JU.0000000000005097",
+   "record_title": "Management of Lower Urinary Tract Symptoms Attributed to Benign Prostatic Hyperplasia: AUA Guideline (2026) Part I: Presentation and Evaluation.",
+   "record_journal": "J Urol",
+   "record_year": "2026",
+   "article_type": "Journal Article; Practice Guideline; Systematic Review",
+   "version_or_date": "AUA Guideline (2026), published 2026-05-07; J Urol 216(2):143-151",
+   "retrieved_with": "PubMed get_article_metadata (abstract); auanet.org guideline page checked with WebFetch: full text behind member login, not used",
+   "notes": "Abstract only. Full guideline text is login-gated on auanet.org and the AUA site prohibits AI use of its content; per repair rules no workaround was attempted, so no individual 2026 recommendation statements or grades are cited.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "BPH is proliferation of glandular and stromal tissue in the prostate transition zone",
+     "quote": "Benign prostatic hyperplasia (BPH) refers to the proliferation of glandular and stromal components within the transition zone of the prostate.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "LUTS can come from the bladder, prostate, urethra or other causes",
+     "quote": "Non-neurogenic lower urinary tract symptoms (LUTS) can be due to bladder, prostate, urethral, or other pathology.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Systematic review searched through January 2025 with update searches December 15, 2025",
+     "quote": "searches in Ovid MEDLINE, the Cochrane Central Register of Controlled Trials, and the Cochrane Database of Systematic Reviews through January 2025. Update searches were conducted on December 15, 2025.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Part I covers history, physical exam, appropriate use of tests and counseling; history, exam and tests come before treatment",
+     "quote": "In addition to patient history and physical examination, the recommendations herein include the appropriate use of tests and patient counseling.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Bothersome symptoms drive management; shared decision-making is critical in starting and stepping up treatment",
+     "quote": "Bothersome LUTS is the main reason patients seek treatment and generally drives management decisions. As such, shared decision-making plays a critical role in the initiation and escalation of treatment.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "guideline",
+   "cited_as": "Goueli R, Badlani GH, Welliver C, et al. Management of Lower Urinary Tract Symptoms Attributed to Benign Prostatic Hyperplasia: AUA Guideline (2026) Part II: Medical Management. J Urol. 2026;216(2):152-160. doi:10.1097/JU.0000000000005098. PMID 42095477.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42095477/",
+   "pmid": "42095477",
+   "doi": "10.1097/JU.0000000000005098",
+   "record_title": "Management of Lower Urinary Tract Symptoms Attributed to Benign Prostatic Hyperplasia: AUA Guideline (2026) Part II: Medical Management.",
+   "record_journal": "J Urol",
+   "record_year": "2026",
+   "article_type": "Journal Article; Practice Guideline; Systematic Review; Research Support, N.I.H., Extramural",
+   "version_or_date": "AUA Guideline (2026), published 2026-05-07; J Urol 216(2):152-160",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "notes": "Abstract only. Link changed from auajournals.org (blocked to automated reads) to the PubMed record.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Part II covers behavioral/lifestyle interventions and medical therapy, with specific risks for groups such as men having eye surgery",
+     "quote": "the Guideline statements herein address this topic in addition to behavioral/lifestyle interventions for patients with LUTS/BPH. Specific risks are further elucidated for unique patient populations such as those undergoing ophthalmologic surgery.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Non-procedural treatment chosen by shared decision-making weighing efficacy, durability and adverse events; disclose unique medication actions to men on active surveillance",
+     "quote": "Non-procedural interventions should be provided within the shared decision-making context and take into account efficacy as well as durability and adverse events. It is also important to disclose unique actions of medication to ... patients on active surveillance",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "guideline",
+   "cited_as": "Goueli R, Badlani GH, Welliver C, et al. Management of Lower Urinary Tract Symptoms Attributed to Benign Prostatic Hyperplasia: AUA Guideline (2026) Part III: Procedural/Surgical Management. J Urol. 2026;216(2):161-170. doi:10.1097/JU.0000000000005099. PMID 42095468.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42095468/",
+   "pmid": "42095468",
+   "doi": "10.1097/JU.0000000000005099",
+   "record_title": "Management of Lower Urinary Tract Symptoms Attributed to Benign Prostatic Hyperplasia: AUA Guideline (2026) Part III: Procedural/Surgical Management.",
+   "record_journal": "J Urol",
+   "record_year": "2026",
+   "article_type": "Journal Article; Practice Guideline; Systematic Review",
+   "version_or_date": "AUA Guideline (2026), published 2026-05-07; J Urol 216(2):161-170",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "notes": "Abstract only. Link changed from auajournals.org (blocked) to the PubMed record. PAE grade change and Aquablation size claims previously attributed to this part were not verifiable and were cut.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Part III covers procedural principles with added sections on sexual function, retreatment rates and postoperative follow-up",
+     "quote": "Guideline statements herein address general procedural principles and management of LUTS/BPH. ... Additional sections addressing sexual function, retreatment rates, and postoperative follow-up were included",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Procedural management balances efficacy, durability and procedure-specific adverse effects; shared decision-making tailors the choice",
+     "quote": "Procedural management of LUTS/BPH involves a complex balance between efficacy, durability, and procedure-specific adverse effects. Shared decision-making is essential to tailor therapy to the individual patient.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "other_web",
+   "cited_as": "American Urological Association. American Urological Association Releases the Management of Lower Urinary Tract Symptoms Attributed to Benign Prostatic Hyperplasia Guideline [press release]. GlobeNewswire. May 7, 2026. Accessed November 15, 2026.",
+   "url": "https://www.globenewswire.com/news-release/2026/05/07/3290220/0/en/american-urological-association-releases-the-management-of-lower-urinary-tract-symptoms-attributed-to-benign-prostatic-hyperplasia-guideline.html",
+   "version_or_date": "Press release dated May 7, 2026",
+   "retrieved_with": "WebFetch of GlobeNewswire page",
+   "notes": "Used for non-clinical facts only (date, count, structure). Release does not say what version it replaces, so 'replacing the 2023 version' was cut.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "AUA released the updated guideline on May 7, 2026; it includes 62 recommendations",
+     "quote": "BALTIMORE, May 07, 2026 (GLOBE NEWSWIRE) -- Today ... The updated Guideline includes 62 recommendations",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Published in three parts: Presentation and Evaluation, Medical Management, Procedural/Surgical Management",
+     "quote": "Part I: Presentation and Evaluation ... Part II: Medical Management ... Part III: Procedural/Surgical Management",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "agency_page",
+   "cited_as": "National Institute of Diabetes and Digestive and Kidney Diseases. Prostate Enlargement (Benign Prostatic Hyperplasia). Last reviewed June 2024. Accessed November 15, 2026.",
+   "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/prostate-problems/prostate-enlargement-benign-prostatic-hyperplasia",
+   "version_or_date": "Last Reviewed June 2024",
+   "retrieved_with": "WebFetch of official page",
+   "notes": "Reference list previously printed 'Updated October 2025'; page shows 'Last Reviewed June 2024', corrected.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "BPH growth is not caused by cancer",
+     "quote": "Benign prostatic hyperplasia (BPH) is a condition in which the prostate gland grows larger than normal, but the growth is not caused by cancer.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Second growth phase starts around age 25 and continues throughout life",
+     "quote": "The second growth phase starts around age 25 and continues throughout life.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BPH affects 5% to 6% of men 40 to 64 and 29% to 33% of men 65 and older",
+     "quote": "Experts estimate that BPH affects 5% to 6% of men ages 40 to 64 and 29% to 33% of those ages 65 and older.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most common prostate problem over 50; rarely causes symptoms before 40",
+     "quote": "BPH is the most common prostate problem in men older than age 50. ... BPH rarely causes symptoms in men younger than age 40.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Risk factors: family history, heart and blood vessel disease, type 2 diabetes, obesity, ED, physical inactivity",
+     "quote": "have a family history of BPH ... have certain conditions such as heart and blood vessel disease, type 2 diabetes, obesity, chronic kidney disease, or erectile dysfunction (ED) ... are not physically active",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "No known prevention; being physically active may help reduce risk",
+     "quote": "Researchers have not found a way to prevent BPH, but being physically active may help reduce your risk.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Get care right away for inability to urinate, blood in urine, or painful frequent urgent urination with fever and chills",
+     "quote": "Tell a health care professional right away if you cannot urinate at all ... feel painful, frequent, and urgent needs to urinate, and have a fever and chills ... have blood in your urine",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "other_web",
+   "cited_as": "Mayo Clinic. Benign Prostatic Hyperplasia (BPH): Symptoms and Causes. December 23, 2025. Accessed November 15, 2026.",
+   "url": "https://www.mayoclinic.org/diseases-conditions/benign-prostatic-hyperplasia/symptoms-causes/syc-20370087",
+   "version_or_date": "Page dated Dec. 23, 2025",
+   "retrieved_with": "WebFetch of Mayo Clinic page",
+   "notes": "Previous text overstated this source ('does not increase risk', 'does not transform into cancer'); rewritten to the page's hedged wording.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Having an enlarged prostate is not thought to raise prostate cancer risk",
+     "quote": "Having an enlarged prostate is not thought to raise the risk of getting prostate cancer.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "If you cannot pass any urine, get medical help right away",
+     "quote": "If you can't pass any urine, get medical help right away.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Arnold MJ, Gaillardetz A, Ohiokpehai J. Benign Prostatic Hyperplasia: Rapid Evidence Review. Am Fam Physician. 2023;107(6):613-622. PMID 37327163.",
+   "url": "https://www.aafp.org/afp/2023/0600/benign-prostatic-hyperplasia",
+   "pmid": "37327163",
+   "record_title": "Benign Prostatic Hyperplasia: Rapid Evidence Review.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2023",
+   "article_type": "Journal Article (PubMed); AFP Rapid Evidence Review",
+   "version_or_date": "Am Fam Physician 2023;107(6):613-622 (June 2023)",
+   "retrieved_with": "PubMed get_article_metadata (abstract) + WebFetch of aafp.org full text",
+   "notes": "No DOI. Scite verify_papers matched the reference text to an unrelated Radiopaedia DOI, so Scite verification does not apply to this item; PubMed shows no retraction or correction type. Summarizes AUA 2021-era recommendations; dated 2023, before the 2026 AUA update.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "LUTS from BPH affect 38.1 million U.S. men older than 30, about one in four",
+     "quote": "affect 38.1 million men older than 30 years in the United States, about one-fourth of all U.S. men",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "about two of every three men 50 or older",
+     "quote": "lower urinary tract symptoms from BPH affecting approximately two of every three men 50 years or older",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Alpha blockers bring rapid improvement vs placebo, based on 19 RCTs with nearly 10,000 participants",
+     "quote": "Use of alpha-blockers leads to rapid improvement in lower urinary tract symptoms compared with placebo, based on 19 randomized controlled trials with nearly 10,000 participants",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "5-ARIs can take up to a year for full effect; started for uncontrolled symptoms when prostate is 30 mL or more by ultrasound",
+     "quote": "For uncontrolled symptoms, 5-alpha reductase inhibitors should be started if the prostate volume is 30 mL or greater by ultrasonography. 5-Alpha reductase inhibitors take up to one year to be fully beneficial",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Of men treated for LUTS from BPH, about 1% have a procedure or surgery",
+     "quote": "Of men who are treated for lower urinary tract symptoms from BPH, 1% have a procedural or surgical intervention.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Risk factors: hypertension associated with more LUTS and larger prostates; lack of daily walking associated with progression; sedentary lifestyle, hypertension, diabetes increase risk",
+     "quote": "Hypertension is associated with more lower urinary tract symptoms and larger prostate volumes. ... Lack of daily walking is associated with progression in lower urinary tract symptoms.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sedentary lifestyle, hypertension and diabetes increase risk of symptoms",
+     "quote": "Sedentary lifestyle, hypertension, and diabetes mellitus increase risk of symptoms.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "IPSS is the best way to track symptoms; only symptom score to significantly predict urinary retention; 20 or higher indicates severe symptoms",
+     "quote": "The International Prostate Symptom Score is the best way to track symptoms. ... it is the only symptom score to significantly predict urinary retention ... An IPSS of 20 or higher, demonstrating severe lower urinary tract symptoms",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "PSA testing not recommended in routine LUTS evaluation; shared decision-making for screening",
+     "quote": "Serum prostate-specific antigen testing is not recommended in routine evaluation of lower urinary tract symptoms, and shared decision-making should be used for cancer screening decisions.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "PAE evidence for main outcomes rated low or very low certainty",
+     "quote": "low or very low certainty of evidence for these main outcomes",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Decision table: self-management (evening fluids, caffeine, alcohol, toilet and bladder training) for mild symptoms; low- to moderate-quality evidence",
+     "quote": "Self-management methods, including limiting evening fluid intake, reducing caffeine and alcohol intake, toilet and bladder training, pelvic floor exercises, and mindfulness techniques, can improve symptoms.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Low- to moderate-quality evidence that self-management improves symptoms",
+     "quote": "Low- to moderate-quality evidence suggests improvement in symptoms with self-management techniques",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Primary medical treatment: alpha blocker or PDE5 inhibitor",
+     "quote": "Primary medical treatment involves alpha blockers or phosphodiesterase-5 inhibitors.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Alpha blocker plus 5-ARI more effective than either alone after more than one year; no difference at one year or less",
+     "quote": "is more effective than either medication alone after more than one year ... However, at one year or less, no difference occurs.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Acute urinary retention: start alpha blocker at catheterization, treat three days before catheter removal",
+     "quote": "For patients with acute urinary retention, immediately start an alpha blocker at urinary catheterization ... treat the patient for three days before attempting to remove the catheter.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Poor control or complications (retention, recurrent UTI, renal insufficiency, recalcitrant gross hematuria) and other reasons to consider procedures",
+     "quote": "signs of poor control such as renal insufficiency, urinary retention, recurrent urinary tract infections, or recalcitrant gross hematuria ... failure of lifestyle interventions and medical therapy, a desire to avoid daily medications, intolerable adverse effects",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "AUA recommends TRUS before 5-ARI or surgery; evidence that size measurement improves outcomes is limited",
+     "quote": "The American Urological Association recommends transrectal ultrasonography before treatment with 5-alpha reductase inhibitors or surgery. ... the evidence that prostate-size measurement before medication initiation improves outcomes is limited",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "DRE reliably identifies only prostates larger than 50 mL; limited accuracy for size",
+     "quote": "reliably identifies only prostates larger than 50 mL ... Rectal examination has limited accuracy in evaluating prostate size.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sitting while urinating reduces post-void volume (low-quality evidence)",
+     "quote": "Low-quality evidence suggests that sitting while urinating reduces postvoid urinary volume.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Medicines that can cause LUTS: anticholinergics, antihistamines, bronchodilators, diuretics, opioids, sympathomimetics such as pseudoephedrine, tricyclic antidepressants",
+     "quote": "TABLE 2. Causes of Lower Urinary Tract Symptoms Other Than Benign Prostatic Hyperplasia ... Medications: Anticholinergics (e.g., tolterodine) Antihistamines (e.g., diphenhydramine) Bronchodilators (e.g., albuterol) Diuretics Opioid analgesics Sympathomimetics (e.g., pseudoephedrine) Tricyclic antidepressants (e.g., amitriptyline)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Selective alpha blockers more likely to cause ejaculatory dysfunction; nonselective more likely orthostatic hypotension",
+     "quote": "Selective alpha blockers are more likely to cause ejaculatory dysfunction, ... nonselective alpha blockers are more likely to cause orthostatic hypotension.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Avoid starting alpha blockers until ophthalmologist evaluation because of floppy iris syndrome",
+     "quote": "avoid alpha blockers until ophthalmologist evaluation because of associated floppy iris syndrome",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "5-ARIs decreased prostate volume 15% to 25% at six months",
+     "quote": "Decreased volume of prostate by 15% to 25% at six months based on three RCTs with nearly 4,000 men",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "AUA recommends 5-ARIs if prostate volume 30 mL or greater on imaging",
+     "quote": "if prostate volume is 30 mL or greater on imaging",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Mirabegron does not improve BPH LUTS more than placebo; anticholinergics limited by retention, dementia, mental status changes",
+     "quote": "Beta-3 agonist mirabegron (Myrbetriq) does not improve lower urinary tract symptoms more effectively than placebo. ... Use of these medications is limited by risks of acute urinary retention, dementia, and mental status changes",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Procedure table: TURP most effective for 30 to 80 mL, robust long-term data, risks bleeding, incontinence, sexual effects",
+     "quote": "average-sized prostates (30 mL to 80 mL) ... TURP is the most effective treatment option. Risks include bleeding, incontinence, and adverse sexual effects. ... Robust data with proven long-term outcomes",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Procedure table: large prostates over 80 mL, simple prostatectomy over TURP; HoLEP less invasive alternative, shorter stay, surgeon-dependent",
+     "quote": "For large-sized prostates (more than 80 mL), simple prostatectomy is recommended over TURP. ... holmium laser enucleation of the prostate are less invasive alternatives to prostatectomy ... Dependent on surgeon's level of expertise",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Procedure table: Aquablation requires general anesthesia; reduced incontinence, ED and ejaculatory dysfunction",
+     "quote": "Requires general anesthesia ... Reduced incontinence, erectile dysfunction, and ejaculatory dysfunction",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Procedure table: prostatic urethral lift needs no middle lobe, less improvement; water vapor therapy preserves function, possible higher retreatment; TUNA not recommended",
+     "quote": "Must have an absence of a middle prostatic lobe ... but less improvement in lower urinary tract symptoms ... Preservation of erectile and ejaculatory function ... Possible higher retreatment rate ... worse symptom outcomes compared with other available procedures",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "Guo B, Chen X, Wang M, et al. Comparative Effectiveness of Tadalafil versus Tamsulosin in Treating Lower Urinary Tract Symptoms Suggestive of Benign Prostate Hyperplasia: A Meta-Analysis of Randomized Controlled Trials. Med Sci Monit. 2020;26:e923179. doi:10.12659/MSM.923179. PMID 32327621.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32327621/",
+   "pmid": "32327621",
+   "pmcid": "PMC7195607",
+   "doi": "10.12659/MSM.923179",
+   "record_title": "Comparative Effectiveness of Tadalafil versus Tamsulosin in Treating Lower Urinary Tract Symptoms Suggestive of Benign Prostate Hyperplasia: A Meta-Analysis of Randomized Controlled Trials.",
+   "record_journal": "Med Sci Monit",
+   "record_year": "2020",
+   "article_type": "Comparative Study; Journal Article; Meta-Analysis; Review",
+   "retrieved_with": "PubMed search_articles + get_article_metadata (abstract)",
+   "notes": "Replaces the former ref 8 (AAFP FPIN Help Desk Answer, mislabeled 'Clinical Inquiries'), whose page described this 2020 meta-analysis of 7 RCTs/1,601 patients rather than the 'Cochrane review of four RCTs (933 participants)' the guide claimed. Cited the primary meta-analysis per spec 4.4.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "2020 meta-analysis of 7 RCTs (1,601 patients): no significant difference tadalafil vs tamsulosin in total IPSS; tadalafil better for erectile function scores",
+     "quote": "7 studies (totalling 1601 patients) were finally included ... There was no statistically significant difference between tadalafil and tamsulosin in improving the clinical outcomes of total International Prostate Symptom Score (IPSS)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tadalafil better on erectile function; natural option when ED and LUTS coexist",
+     "quote": "Tadalafil is superior to tamsulosin in treating LUTS suggestive of BPH when associated with erectile dysfunction (ED).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tadalafil matched tamsulosin for urinary symptoms and did better on erectile function",
+     "quote": "Tadalafil and tamsulosin have similar effects in managing LUTS secondary to BPH. ... a statistically significant difference was observed in the International Index of Erectile Function scores",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Bhojani N, Bidair M, Kramolowsky E, et al. Aquablation Therapy in Large Prostates (80-150 mL) for Lower Urinary Tract Symptoms Due to Benign Prostatic Hyperplasia: Final WATER II 5-Year Clinical Trial Results. J Urol. 2023;210(1):143-153. doi:10.1097/JU.0000000000003483. PMID 37115632.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37115632/",
+   "pmid": "37115632",
+   "pmcid": "PMC12721682",
+   "doi": "10.1097/JU.0000000000003483",
+   "record_title": "Aquablation Therapy in Large Prostates (80-150 mL) for Lower Urinary Tract Symptoms Due to Benign Prostatic Hyperplasia: Final WATER II 5-Year Clinical Trial Results.",
+   "record_journal": "J Urol",
+   "record_year": "2023",
+   "article_type": "Multicenter Study; Journal Article (single-arm prospective trial)",
+   "retrieved_with": "PubMed search_articles + get_article_metadata (abstract)",
+   "notes": "Primary source replacing the Cleveland Clinic Consult QD summary (former ref 11). Single-arm study, not randomized.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "WATER II: Aquablation in 80 to 150 mL prostates, durable efficacy and low retreatment at 5 years; 101 men",
+     "quote": "A total of 101 men ... and prostate volumes between 80 and 150 mL underwent ... the Aquablation procedure was shown to be safe with durable efficacy and low rates of retreatment in men with large prostates",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Procedure table row: 80 to 150 mL studied in WATER II",
+     "quote": "prostate volumes between 80 and 150 mL",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Tawfik A, Abo-Elenen M, Gaber M, et al. Tadalafil versus tamsulosin as combination therapy with 5-alpha reductase inhibitors in benign prostatic hyperplasia, urinary and sexual outcomes. World J Urol. 2024;42(1):70. doi:10.1007/s00345-023-04735-y. PMID 38308714.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38308714/",
+   "pmid": "38308714",
+   "doi": "10.1007/s00345-023-04735-y",
+   "record_title": "Tadalafil versus tamsulosin as combination therapy with 5-alpha reductase inhibitors in benign prostatic hyperplasia, urinary and sexual outcomes.",
+   "record_journal": "World J Urol",
+   "record_year": "2024",
+   "article_type": "Randomized Controlled Trial; Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "notes": "Former 'n=100' was wrong; corrected to the abstract's 131 and 127 analyzed patients.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Tadalafil/finasteride and tamsulosin/finasteride comparably effective within three months; tadalafil/finasteride improved sexual performance",
+     "quote": "Within three months, both combinations are comparably effective in improving BPH related LUTS. ... Tadalafil/finasteride had the advantage of improving sexual performance over the other combination.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Trial enrolled prostates over 40 mL, excluded severe ED; 131 and 127 patients at 4 and 12 weeks",
+     "quote": "Selection criteria included prostate volume > 40 ml and IPSS > 7. Patients with severe erectile dysfunction (IIEF-erectile functions ≤ 10) were excluded. ... At 4th and 12th weeks, 131 and 127 patients were available",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "label",
+   "cited_as": "Sandoz Inc. Tamsulosin hydrochloride capsules: prescribing information. Revised September 2024. DailyMed. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fb120098-b007-4a33-80b8-b7279c7668ee",
+   "version_or_date": "Revised 9/2024; DailyMed page 'Updated September 30, 2024' (API listing published Jun 16, 2025)",
+   "notes": "Generic tamsulosin label used because the innovator FLOMAX SPL is not listed on DailyMed (only repackager FLOMAX SPLs). Label does not state whether abnormal ejaculation reverses after stopping; the guide says so.",
+   "retrieved_with": "WebFetch of DailyMed SPL page (setid found via DailyMed v2 spls.json API)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Tamsulosin 0.4 mg once daily about half an hour after the same meal",
+     "quote": "0.4 mg once daily taken approximately one-half hour following the same meal each day.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Abnormal ejaculation 8.4% on 0.4 mg vs 0.2% placebo; includes ejaculation failure, decrease and retrograde ejaculation",
+     "quote": "Abnormal ejaculation | 42 (8.4%) | 89 (18.1%) | 1 (0.2%) ... Abnormal ejaculation includes ejaculation failure, ejaculation disorder, retrograde ejaculation and ejaculation decrease.",
+     "quote_source": "label",
+     "verdict": "supported",
+     "note": "quote rendered from table cells of the source"
+    },
+    {
+     "text": "IFIS observed during cataract and glaucoma surgery; starting tamsulosin when such surgery is scheduled is not recommended",
+     "quote": "Intraoperative Floppy Iris Syndrome (IFIS) has been observed during cataract and glaucoma surgery ... The initiation of therapy with tamsulosin in patients for whom cataract or glaucoma surgery is scheduled is not recommended.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "label",
+   "cited_as": "Amneal Pharmaceuticals NY LLC. Silodosin capsules: prescribing information. Revised March 2021. DailyMed, updated April 15, 2026. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=de619e27-9384-4b86-abdc-de0557cd39e8",
+   "version_or_date": "Revised 3/2021; DailyMed updated April 15, 2026",
+   "notes": "Generic label (innovator RAPAFLO SPL on DailyMed is a 2012 repackager listing).",
+   "retrieved_with": "WebFetch of DailyMed SPL page (setid found via DailyMed v2 spls.json API)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Silodosin 8 mg once daily with a meal; 4 mg with moderate renal impairment",
+     "quote": "The recommended dose is 8 mg orally once daily with a meal. ... the dose should be reduced to 4 mg once daily taken with a meal",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Retrograde ejaculation 28.1% vs 0.9% placebo; reversible on discontinuation",
+     "quote": "131 (28.1%) ... 4 (0.9%) ... Retrograde ejaculation is reversible upon discontinuation of treatment.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tell the ophthalmologist before cataract surgery",
+     "quote": "Patients planning cataract surgery should be told to inform their ophthalmologist that they are taking silodosin",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "label",
+   "cited_as": "Advanz Pharma (US) Corp. UROXATRAL (alfuzosin HCl) extended-release tablets: prescribing information. Revised November 2023. DailyMed, updated December 5, 2024. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9fc7f119-f36b-44cf-945d-940160f3afe3",
+   "version_or_date": "Revised 11/2023; DailyMed updated December 5, 2024",
+   "notes": "Unsourced claim that alfuzosin has a 'notably lower ejaculatory dysfunction rate' was cut.",
+   "retrieved_with": "WebFetch of DailyMed SPL page (setid found via DailyMed v2 spls.json API)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Alfuzosin one 10 mg extended-release tablet once daily with food and the same meal",
+     "quote": "The recommended dosage is one 10 mg UROXATRAL (alfuzosin HCl) extended-release tablet once daily. ... Uroxatral should be taken with food and with the same meal each day.",
+     "quote_source": "label",
+     "verdict": "supported",
+     "note": "quote rendered from table cells of the source"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "label",
+   "cited_as": "Organon LLC. PROSCAR (finasteride) tablets: prescribing information. Revised March 2026. DailyMed, updated March 18, 2026. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b",
+   "version_or_date": "Revised 3/2026; DailyMed updated March 18, 2026",
+   "retrieved_with": "WebFetch of DailyMed SPL page (setid found via DailyMed v2 spls.json API)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Finasteride one 5 mg tablet once a day",
+     "quote": "The recommended dose of PROSCAR is one tablet (5 mg) taken once a day",
+     "quote_source": "label",
+     "verdict": "supported",
+     "note": "quote rendered from table cells of the source"
+    },
+    {
+     "text": "May need six months or more to see whether it helps",
+     "quote": "You may need to take PROSCAR for six (6) months or more to see whether it improves your symptoms.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "PSA reduced ~50% within six months; double PSA for comparison",
+     "quote": "PROSCAR reduced serum PSA concentration by approximately 50% within six months of treatment. ... PSA values should be doubled for comparison with normal ranges in untreated men.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "High-grade prostate cancer 1.8% vs 1.1%; not approved for prevention",
+     "quote": "The incidence of Gleason score 8-10 prostate cancer was higher in men treated with finasteride (1.8%) ... placebo (1.1%) ... PROSCAR is not approved for the prevention of prostate cancer.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Impotence and decreased libido more common than placebo",
+     "quote": "Impotence 8.1% vs 3.7%; Decreased libido 6.4% vs 3.4% (year 1, drug-related adverse experiences table)",
+     "quote_source": "label",
+     "verdict": "supported",
+     "note": "quote rendered from table cells of the source"
+    },
+    {
+     "text": "Pregnant women should not handle crushed or broken tablets",
+     "quote": "Females who are pregnant or may potentially be pregnant should not handle crushed or broken PROSCAR tablets.",
+     "quote_source": "label",
+     "verdict": "supported",
+     "note": "quote rendered from table cells of the source"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "label",
+   "cited_as": "Waylis Therapeutics LLC. AVODART (dutasteride) capsules: prescribing information. Revised October 2023. DailyMed, updated March 12, 2025. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=960797b3-09b1-4d6a-8ece-8b5d918e93e4",
+   "version_or_date": "Revised 10/2023; DailyMed updated March 12, 2025",
+   "retrieved_with": "WebFetch of DailyMed SPL page (setid found via DailyMed v2 spls.json API)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Dutasteride one 0.5 mg capsule once daily",
+     "quote": "The recommended dose of AVODART is 1 capsule (0.5 mg) taken once daily.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Double PSA for comparison with untreated men",
+     "quote": "AVODART reduced serum PSA concentration by approximately 50% within 3 to 6 months of treatment. ... the PSA value should be doubled for comparison with normal values in untreated men",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Gleason 8-10 cancer 1.0% vs 0.5%; not approved for prevention",
+     "quote": "there was an increased incidence of Gleason score 8-10 prostate cancer ... AVODART 1.0% versus placebo 0.5% ... AVODART is not approved for the prevention of prostate cancer.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Impotence and decreased libido more common than placebo",
+     "quote": "Impotence 4.7% vs 1.7%; Decreased libido 3.0% vs 1.4% (months 0-6, Table 1)",
+     "quote_source": "label",
+     "verdict": "supported",
+     "note": "quote rendered from table cells of the source"
+    },
+    {
+     "text": "Pregnant women should not handle leaking capsules",
+     "quote": "AVODART capsules should not be handled by women who are pregnant or may be pregnant.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "FDA-approved in combination with tamsulosin for symptomatic BPH with enlarged prostate",
+     "quote": "is indicated for the treatment of symptomatic BPH in men with an enlarged prostate",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "label",
+   "cited_as": "Eli Lilly and Company. CIALIS (tadalafil) tablets: prescribing information. Revised March 2026. DailyMed, updated June 3, 2026. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895",
+   "version_or_date": "Revised 3/2026; DailyMed updated June 3, 2026",
+   "notes": "Major correction: the page previously said only non-selective alpha blockers must be avoided; the label advises against combining with any alpha blocker for BPH.",
+   "retrieved_with": "WebFetch of DailyMed SPL page (setid found via DailyMed v2 spls.json API)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Tadalafil 5 mg once daily approved for signs and symptoms of BPH and for ED/BPH",
+     "quote": "CIALIS is indicated for the treatment of the signs and symptoms of benign prostatic hyperplasia (BPH). ... The recommended dose of CIALIS for once daily use is 5 mg, taken at approximately the same time every day.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Not recommended with alpha blockers for BPH (blood pressure lowering)",
+     "quote": "CIALIS is not recommended for use in combination with alpha-blockers for the treatment of BPH ... potential vasodilatory effects of combined use resulting in blood pressure lowering",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "With finasteride to initiate BPH treatment, recommended for up to 26 weeks",
+     "quote": "If CIALIS is used with finasteride to initiate BPH treatment, such use is recommended for up to 26 weeks.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Contraindicated with organic nitrates and GC stimulators such as riociguat",
+     "quote": "any form of organic nitrate ... Do not use CIALIS in patients who are using a GC stimulator, such as riociguat.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Once-daily use not recommended with CrCl below 30 mL/min",
+     "quote": "CrCl less than 30 mL/min or on hemodialysis: CIALIS for once daily use is not recommended.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "label",
+   "cited_as": "Astellas Pharma US, Inc. MYRBETRIQ (mirabegron) extended-release tablets: prescribing information. Revised April 2021. DailyMed, updated August 1, 2024. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ba9e9e15-e666-4c56-9271-2e24739cfa2d",
+   "version_or_date": "Revised 4/2021; DailyMed updated August 1, 2024",
+   "notes": "Previous unsourced claims (less retention risk than anticholinergics, preferred in older men, PVR 250-300 mL threshold) were cut.",
+   "retrieved_with": "WebFetch of DailyMed SPL page (setid found via DailyMed v2 spls.json API)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Mirabegron approved for adult OAB; 25 mg start, max 50 mg after 4 to 8 weeks; urinary retention in BOO; caution with antimuscarinics; can raise BP",
+     "quote": "The recommended starting dosage of MYRBETRIQ is 25 mg orally once daily. ... increase to the maximum dosage of MYRBETRIQ 50 mg orally once daily after 4 to 8 weeks ... urinary retention has been reported ... (BOO)",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Caution with antimuscarinics; can increase blood pressure",
+     "quote": "MYRBETRIQ should also be administered with caution to patients taking muscarinic antagonist medications ... MYRBETRIQ/MYRBETRIQ Granules can increase blood pressure.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

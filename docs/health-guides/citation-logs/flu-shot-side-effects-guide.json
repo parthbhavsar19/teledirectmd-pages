@@ -1,0 +1,473 @@
+{
+ "guide": "flu-shot-side-effects-guide",
+ "checked_at": "2026-11-07",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+ "references": [
+  {
+   "n": 1,
+   "kind": "agency_page",
+   "cited_as": "CDC. Flu Vaccine Safety. Last reviewed August 25, 2023.",
+   "url": "https://www.cdc.gov/flu/vaccine-safety/index.html",
+   "version_or_date": "Last reviewed August 25, 2023 (page metadata shows last published September 19, 2025)",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Flu vaccine side effects are generally mild and go away on their own within a few days (takeaways, tables, duration, FAQ)",
+     "quote": "Side effects of the flu vaccine are generally mild and go away on their own within a few days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Headache, fever, nausea and muscle aches are common flu shot side effects (common table, FAQ)",
+     "quote": "Common side effects from the flu shot include: Soreness, redness, and/or swelling from the shot; Headache; Fever; Nausea; Muscle aches",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Life-threatening allergic reactions are rare; serious side effects rare",
+     "quote": "Life threatening allergic reactions to the flu shot are rare.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Severe allergic reaction signs: difficulty breathing, hoarseness or wheezing, swelling around eyes or lips, hives, paleness, weakness, fast heartbeat or dizziness",
+     "quote": "Difficulty breathing; Hoarseness or wheezing; Swelling around the eyes or lips; Hives; Paleness; Weakness; A fast heart beat or dizziness",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Allergic reaction signs most likely within a few minutes to a few hours after the shot",
+     "quote": "These signs would most likely happen within a few minutes to a few hours after the vaccine is given.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Call 911 for a severe allergic reaction or other emergency; otherwise call your doctor",
+     "quote": "If you think it is a severe allergic reaction or other emergency that can't wait, call 9-1-1 ... Otherwise, call your doctor.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Watch for unusual conditions such as a high fever or behavior changes and call your doctor",
+     "quote": "With any vaccine, look for any unusual conditions, such as a high fever, behavior changes",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Report the reaction to VAERS",
+     "quote": "Afterward, the reaction should be reported to the Vaccine Adverse Event Reporting System (VAERS).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "GBS after flu illness, though rare, is more common than after flu vaccination",
+     "quote": "Even though GBS following flu illness is rare, GBS is more common following flu illness than following flu vaccination.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "GBS has not been associated with the nasal spray vaccine",
+     "quote": "GBS has not been associated with the nasal spray vaccine.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Side effects not going away after a few days, or soreness that is unusual or not improving, warrant a call to your doctor (inference from 'within a few days' plus 'call your doctor')",
+     "quote": "Side effects of the flu vaccine are generally mild and go away on their own within a few days.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "agency_page",
+   "cited_as": "CDC. Guillain-Barré Syndrome and Flu Vaccine. Last reviewed September 17, 2024.",
+   "url": "https://www.cdc.gov/flu/vaccine-safety/guillainbarre.html",
+   "version_or_date": "Last reviewed September 17, 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "GBS definition: immune system damages nerve cells, causing muscle weakness and sometimes paralysis",
+     "quote": "Guillain-Barré syndrome (GBS) is a rare disorder in which a person's own immune system damages their nerve cells",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "GBS occurs in about 1 to 2 per 100,000 people in the US each year (shown as 10 to 20 per million, a unit conversion); most cases not associated with vaccines",
+     "quote": "GBS occurs in about 1 to 2 out of every 100,000 people in the United States each year. Most cases are not associated with vaccines.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Data on GBS and seasonal flu vaccination vary across seasons",
+     "quote": "The data on the association between GBS and seasonal flu vaccination are varied and inconsistent across flu seasons.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Any increased GBS risk after flu vaccination is small, on the order of one to two additional cases per million doses (body, chart, FAQ, citable summary)",
+     "quote": "If there is an increased risk of GBS following flu vaccination, it is small, on the order of one to two additional GBS cases per million doses of flu vaccine administered.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "agency_page",
+   "cited_as": "CDC. Guillain-Barré Syndrome (GBS) and Vaccines. Last reviewed July 31, 2024.",
+   "url": "https://www.cdc.gov/vaccine-safety/about/guillain-barre.html",
+   "version_or_date": "Last reviewed July 31, 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Studies suggest a person is more likely to get GBS after getting the flu than after vaccination",
+     "quote": "Results of these studies suggest that it is more likely that a person will get GBS after getting the flu than after vaccination.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "agency_page",
+   "cited_as": "CDC. Flu Vaccines and People with Egg Allergies. Last reviewed September 17, 2024.",
+   "url": "https://www.cdc.gov/flu/vaccines/egg-allergies.html",
+   "version_or_date": "Last reviewed September 17, 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "People with egg allergy may receive any flu vaccine, egg-based or not, appropriate for age and health",
+     "quote": "People with egg allergy may receive any flu vaccine (egg-based or non-egg-based) that is otherwise appropriate for their age and health status.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Beginning with 2023-2024 season, additional safety measures no longer recommended for egg allergy",
+     "quote": "Beginning with the 2023-2024 season, additional safety measures are no longer recommended",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "After a severe allergic reaction to a flu vaccine, some people may still get a different flu vaccine depending on which one caused it",
+     "quote": "People who have had a severe allergic reaction to a flu vaccine in the past should generally not receive flu vaccine again ... might be able to get certain flu vaccines, depending on which one caused the allergic reaction.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "agency_page",
+   "cited_as": "CDC. Misconceptions About Seasonal Flu and Flu Vaccines. Last reviewed September 6, 2024.",
+   "url": "https://www.cdc.gov/flu/prevention/misconceptions.html",
+   "version_or_date": "Last reviewed September 6, 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Link updated from the retired URL /flu/prevent/misconceptions.htm to the page's current canonical URL; title updated to the page's own title.",
+   "claims": [
+    {
+     "text": "Flu shot cannot cause flu; made with inactivated (killed) virus or a single protein",
+     "quote": "Flu vaccines cannot cause flu illness. Flu vaccines given with a needle (i.e., flu shots) are made with either inactivated (killed) viruses, or with only a single protein from an influenza virus.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nasal spray contains live viruses weakened so they will not cause illness",
+     "quote": "The nasal spray vaccine contains live viruses that are attenuated (weakened) so that they will not cause illness.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most common side effect is soreness, redness, tenderness or swelling where the shot was given",
+     "quote": "The most common side effects from flu shots are soreness, redness, tenderness or swelling where the shot was given.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Injection-site reactions usually begin soon after vaccination and last 1 to 2 days",
+     "quote": "If these reactions occur, they usually begin soon after vaccination and last 1-2 days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Low-grade fever, headache and muscle aches may occur",
+     "quote": "Low-grade fever, headache and muscle aches also may occur.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Feeling sick may be another respiratory virus, or flu exposure shortly before vaccination or during the two weeks it takes to build protection",
+     "quote": "Someone can get sick with another respiratory virus besides influenza virus ... Someone can be exposed to influenza viruses shortly before getting vaccinated or during the two-week period after vaccination that it takes the body to develop immune protection.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "agency_page",
+   "cited_as": "CDC. Possible Side Effects from Vaccines. Last updated July 31, 2024.",
+   "url": "https://www.cdc.gov/vaccines/basics/possible-side-effects.html",
+   "version_or_date": "Last updated July 31, 2024 (metadata last reviewed April 2, 2020)",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "No longer cited for cool compress, arm movement, pain relievers, or 'under 24 hours' fever duration; the page says none of these.",
+   "claims": [
+    {
+     "text": "Sore arm and low-grade fever are minor and go away within a few days (vaccines in general)",
+     "quote": "For the most part these are minor (for example, a sore arm or low-grade fever) and go away within a few days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "agency_page",
+   "cited_as": "CDC. Clinical Guidance for Seasonal Influenza Vaccine Safety. Last reviewed August 29, 2023.",
+   "url": "https://www.cdc.gov/flu/hcp/vax-summary/vaccine-safety.html",
+   "version_or_date": "Last reviewed August 29, 2023 (page updated September 1, 2026)",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "No longer cited for anaphylaxis timing/signs or high-dose reactogenicity; the page gives neither.",
+   "claims": [
+    {
+     "text": "GBS occurs rarely after influenza vaccination; serious reactions rare",
+     "quote": "a serious neurological condition that can cause paralysis occurs rarely following influenza vaccination",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fever, malaise, myalgia and other systemic symptoms can occur; more common in those with no previous exposure (young children), generally less common in adults",
+     "quote": "Fever, malaise, myalgia, and other systemic symptoms can also occur after inactivated influenza vaccination. These reactions are more common among individuals who have had no previous exposure to the influenza virus antigens",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Contraindication: severe allergic reaction to a prior dose of flu vaccine or to a vaccine component",
+     "quote": "People who have experienced a severe or life threatening allergic reaction (e.g., anaphylaxis) to a prior dose of any influenza vaccine ... should not receive that vaccine or other vaccines containing that component.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "agency_page",
+   "cited_as": "CDC. Key Facts About Seasonal Flu Vaccine. Last reviewed September 3, 2025.",
+   "url": "https://www.cdc.gov/flu/vaccines/keyfacts.html",
+   "version_or_date": "Last reviewed September 3, 2025 (page updated September 1, 2026)",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Nasal spray weakened live virus cannot cause flu illness",
+     "quote": "Nasal spray vaccine is made with weakened (attenuated) live influenza viruses and also cannot cause flu illness.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Minor flu shot side effects include soreness/redness/swelling, headache, fever, muscle aches, nausea, fatigue",
+     "quote": "Some minor side effects that may occur are: Soreness, redness, and/or swelling where the shot was given; Headache; Fever; Muscle aches; Nausea; Fatigue",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Side effects usually mild and short-lasting compared with flu symptoms",
+     "quote": "These side effects are usually mild and short-lasting, especially when compared to symptoms of flu.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antibodies develop about two weeks after vaccination and protect against influenza infection",
+     "quote": "It takes about two weeks after vaccination for antibodies to develop in the body and provide protection against influenza virus infection.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "You cannot get flu from a flu shot because the viruses are killed",
+     "quote": "The viruses in a flu shot are killed (inactivated), so you cannot get flu from a flu shot.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "agency_page",
+   "cited_as": "CDC. Who Needs a Flu Vaccine. Last reviewed September 18, 2025.",
+   "url": "https://www.cdc.gov/flu/vaccines/vaccinations.html",
+   "version_or_date": "Last reviewed September 18, 2025",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Link updated from retired /flu/prevent/vaccinations.htm to the current canonical URL; title updated from 'Who Should and Who Should NOT Get a Flu Vaccine' to the page's current title.",
+   "claims": [
+    {
+     "text": "CDC recommends a flu vaccine for everyone 6 months and older each season",
+     "quote": "Everyone 6 months and older should get a flu vaccine every season with rare exceptions.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "guideline",
+   "cited_as": "Grohskopf LA, et al. Prevention and Control of Seasonal Influenza with Vaccines: Recommendations of the ACIP, United States, 2025-26 Influenza Season. MMWR Morb Mortal Wkly Rep. 2025;74(32):500-507.",
+   "url": "https://www.cdc.gov/mmwr/volumes/74/wr/mm7432a2.htm",
+   "pmid": "40879559",
+   "pmcid": "PMC12393693",
+   "doi": "10.15585/mmwr.mm7432a2",
+   "record_title": "Prevention and Control of Seasonal Influenza with Vaccines: Recommendations of the Advisory Committee on Immunization Practices - United States, 2025-26 Influenza Season.",
+   "record_journal": "MMWR Morb Mortal Wkly Rep",
+   "record_year": "2025",
+   "article_type": "Journal Article; Practice Guideline (PubMed)",
+   "version_or_date": "Published August 28, 2025; most recent ACIP seasonal influenza MMWR found this run (no 2026-27 MMWR report located)",
+   "retrieved_with": "PubMed get_article_metadata and get_full_text_article (PMC); WebFetch of MMWR page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable. PubMed article types: Journal Article, Practice Guideline; no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "ACIP reviewed 20 studies incl. people with severe egg reactions; no anaphylaxis reported; very low certainty",
+     "quote": "evidence from 20 studies ... (13 of which reported inclusion of persons with a history of severe reaction or anaphylaxis to egg). No instances of anaphylaxis were reported (GRADE certainty level: very low)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Egg allergy alone needs no additional safety measures beyond those for any vaccine recipient",
+     "quote": "Egg allergy alone necessitates no additional safety measures for influenza vaccination beyond those recommended for any recipient of any vaccine, regardless of severity of previous reaction to egg.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Contraindication: severe allergic reaction to any vaccine component or a previous flu vaccine dose",
+     "quote": "Each influenza vaccine has a labeled contraindication for persons with a history of a severe allergic reaction (e.g., anaphylaxis) to any component of that vaccine",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Depending on vaccine type, a different flu vaccine may be considered under medical supervision",
+     "quote": "the provider can consider administering ccIIV3 or RIV3 ... vaccination should occur in an inpatient or outpatient medical setting with supervision by a health care provider who is able to recognize and manage severe allergic reactions",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "GBS within 6 weeks of a prior flu vaccine dose is a precaution; nasal spray has additional restrictions",
+     "quote": "A history of Guillain-Barré syndrome within 6 weeks after receipt of a previous dose of influenza vaccine is considered a precaution for the use of all influenza vaccines",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "label",
+   "cited_as": "Fluzone High-Dose (Influenza Vaccine) injectable suspension, 2026-2027 Formula. Prescribing Information. Revised 7/2026.",
+   "url": "https://www.fda.gov/media/139731/download",
+   "version_or_date": "2026-2027 Formula, Revised: 7/2026",
+   "retrieved_with": "WebFetch of FDA-hosted label PDF (fetched twice; table values matched)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New source. Study 1 (NCT00391053): randomized, double-blind trial in adults 65 and older; comparator Fluzone (2006-2007 formulation). Replaces unsupported high-dose and adjuvanted reactogenicity claim formerly cited to ref 7; adjuvanted vaccine claim cut (no label retrieved).",
+   "claims": [
+    {
+     "text": "Injection-site and systemic reactions more frequent after high-dose than standard-dose Fluzone in adults 65 and older",
+     "quote": "Solicited injection-site reactions and systemic adverse reactions were more frequent after vaccination with Fluzone High-Dose compared to Fluzone.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Within 7 days: injection-site pain 35.6% vs 24.3%; myalgia 21.4% vs 18.3%; malaise 18.0% vs 14.0%; headache 16.8% vs 14.4%; fever 3.6% vs 2.3% (chart and FAQ)",
+     "quote": "Injection-Site Pain 35.6 3.7 0.3 24.3 1.7 0.2; Myalgia 21.4 4.2 1.6 18.3 3.2 0.2; Malaise 18.0 4.7 1.6 14.0 3.7 0.6; Headache 16.8 3.1 1.1 14.4 2.5 0.3; Fever (≥99.5°F) 3.6 1.1 0.0 2.3 0.2 0.1",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Comparator was a 2006-2007 formulation of standard-dose Fluzone in adults 65 and older",
+     "quote": "Fluzone (2006-2007 formulation)",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Rates from one vaccine's trials cannot be directly compared with another's",
+     "quote": "adverse event rates observed in the clinical trial(s) of a vaccine cannot be directly compared to rates in the clinical trial(s) of another vaccine",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "agency_page",
+   "cited_as": "CDC. Signs and Symptoms of Flu. Last reviewed August 26, 2024.",
+   "url": "https://www.cdc.gov/flu/signs-symptoms/index.html",
+   "version_or_date": "Last reviewed August 26, 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New source for the 'actual flu' column, replacing uncited 101-104°F and 5 to 7 day figures.",
+   "claims": [
+    {
+     "text": "Flu usually comes on suddenly",
+     "quote": "Flu symptoms usually come on suddenly.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Flu symptoms include fever, cough, sore throat, runny or stuffy nose, muscle or body aches; not everyone has fever",
+     "quote": "fever or feeling feverish/chills; cough; sore throat; runny or stuffy nose; muscle or body aches ... It's important to note that not everyone with flu will have a fever.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most people recover in a few days to less than two weeks",
+     "quote": "Most people who get flu will recover in a few days to less than two weeks",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "agency_page",
+   "cited_as": "NINDS. Guillain-Barré Syndrome. Last reviewed March 13, 2026.",
+   "url": "https://www.ninds.nih.gov/health-information/disorders/guillain-barre-syndrome",
+   "version_or_date": "Last reviewed March 13, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New source for GBS warning symptoms (tingling, rising weakness), which no cited CDC page lists.",
+   "claims": [
+    {
+     "text": "Early GBS signs: tingling in the feet or hands; weakness that comes on quickly and moves up the body",
+     "quote": "Unexplained sensations often happen first, such as tingling in the feet or hands ... usually comes on quickly and worsens over hours or days ... weakness may move up the body",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "GBS needs prompt medical care (FAQ wording)",
+     "quote": "the disorder is life-threatening ... People with GBS are usually admitted to the hospital",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  }
+ ]
+}

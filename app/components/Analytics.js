@@ -34,10 +34,22 @@ import { useEffect } from 'react';
 const GA4_MEASUREMENT_ID = 'G-5L6V2GJ84V';
 
 // Pages where NO analytics may load (booking / intake / anything PHI-adjacent).
-const BLOCKED_PREFIXES = ['/book-online', '/verify', '/download'];
+// Post-visit and triage pages belong here too: reaching them reveals that the
+// visitor is a patient, which is health information even without a form field.
+const BLOCKED_PREFIXES = [
+  '/book-online',
+  '/verify',
+  '/download',
+  '/visit-ready',
+  '/visit-confirmed',
+  '/hardstop',
+  '/start',
+  '/next-steps',
+  '/symptom-checker',
+];
 
 function isBlockedPath(pathname) {
-  return BLOCKED_PREFIXES.some((p) => pathname === p || pathname.startsWith(p + '/') || pathname.startsWith(p));
+  return BLOCKED_PREFIXES.some((p) => pathname === p || pathname.startsWith(p + '/'));
 }
 
 // Read a cookie by name.
@@ -67,7 +79,7 @@ function captureAttribution() {
       sid: 'tdmd-' + Math.random().toString(36).slice(2, 10) + Date.now().toString(36),
     };
     const val = encodeURIComponent(JSON.stringify(data));
-    document.cookie = `tdmd_src=${val}; path=/; max-age=${60 * 60 * 24 * 90}; SameSite=Lax`;
+    document.cookie = `tdmd_src=${val}; path=/; max-age=${60 * 60 * 24 * 90}; SameSite=Lax; Secure`;
   } catch (e) {
     /* no-op: attribution must never break the page */
   }

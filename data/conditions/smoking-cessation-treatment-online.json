@@ -3,12 +3,12 @@
   "conditionShort": "Smoking Cessation",
   "conditionSlug": "smoking-cessation-treatment-online",
   "pageTitle": "Smoking Cessation Online in {state} | TeleDirectMD",
-  "metaDescription": "Evidence-based smoking cessation treatment for {state} adults by secure video visit. Varenicline, bupropion, and NRT prescriptions when clinically appropriate, plus behavioral counseling. Self pay option starting at $79. Insurance is not required.",
+  "metaDescription": "Evidence-based smoking cessation treatment for {state} adults by secure video visit. Varenicline, bupropion, and NRT prescriptions when clinically appropriate, plus behavioral counseling. Flat $79 self-pay option. Insurance is not required.",
   "ogImageAlt": "Smoking cessation treatment in {state} by TeleDirectMD",
   "hero": {
     "h1": "Smoking Cessation Treatment in {state} (Tobacco Dependence)",
-    "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
-    "introParagraph": "Tobacco use is the leading preventable cause of death in the United States, responsible for approximately 480,000 deaths per year. Quitting smoking is the single most important thing a smoker can do to improve health, but nicotine dependence is a chronic relapsing condition that most people cannot overcome with willpower alone. The ATS 2020 Clinical Practice Guideline confirms that pharmacotherapy doubles quit rates compared to placebo, and that combining behavioral counseling with medication is more effective than either approach alone. Varenicline is the most effective single agent for smoking cessation based on current evidence, and the FDA removed the black box warning for neuropsychiatric events after the EAGLES trial confirmed its safety even in patients with psychiatric conditions. Most people require multiple quit attempts before achieving long-term abstinence, and this is a normal part of the quitting process, not a failure. TeleDirectMD uses a safety-first telehealth approach that screens for contraindications including seizure disorders, active eating disorders, recent cardiovascular events, pregnancy, and severe active psychiatric illness before determining whether prescribing cessation medication by video visit is appropriate. If the history supports tobacco dependence without contraindications, guideline-based treatment with varenicline, bupropion, nicotine replacement therapy, or combination approaches may be prescribed by video, while adults with complex medical situations are directed to in-person care. This page is for adults located in {state}, including {cities}.",
+    "subtitle": "{state} adult care by secure video visit, flat $79 self-pay option, MD-only, insurance is not required.",
+    "introParagraph": "Tobacco use is the leading preventable cause of death in the United States, responsible for approximately 480,000 deaths per year. Quitting smoking is the single most important thing a smoker can do to improve health, but nicotine dependence is a chronic relapsing condition that most people cannot overcome with willpower alone. USPSTF evidence shows that pharmacotherapy roughly doubles quit rates compared to placebo and that combining behavioral counseling with medication is more effective than either approach alone, and the ATS 2020 Clinical Practice Guideline recommends varenicline as the preferred first-line medication. Varenicline is the most effective single agent for smoking cessation based on current evidence, and the FDA removed the black box warning for neuropsychiatric events after the EAGLES trial confirmed its safety even in patients with psychiatric conditions. Most people require multiple quit attempts before achieving long-term abstinence, and this is a normal part of the quitting process, not a failure. TeleDirectMD uses a safety-first telehealth approach that screens for contraindications including seizure disorders, active eating disorders, recent cardiovascular events, pregnancy, and severe active psychiatric illness before determining whether prescribing cessation medication by video visit is appropriate. If the history supports tobacco dependence without contraindications, guideline-based treatment with varenicline, bupropion, nicotine replacement therapy, or combination approaches may be prescribed by video, while adults with complex medical situations are directed to in-person care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
       {
         "href": "eligibility-checklist",
@@ -32,7 +32,7 @@
       }
     ],
     "benefits": [
-      "Self pay option starting at $79",
+      "Flat $79 self-pay option",
       "MD-only care (no mid-levels)",
       "Insurance is not required",
       "Licensed telehealth care for patients located in {state} at the time of the visit"
@@ -85,7 +85,7 @@
       {
         "type": "check",
         "title": "See a {state} licensed MD by video",
-        "description": "We review your smoking history, nicotine dependence severity, previous quit attempts, medical history, psychiatric history, contraindications to specific medications, and readiness to quit. ATS guidelines emphasize that combining behavioral counseling with pharmacotherapy produces the best quit rates, and we tailor the approach to your specific situation."
+        "description": "We review your smoking history, nicotine dependence severity, previous quit attempts, medical history, psychiatric history, contraindications to specific medications, and readiness to quit. USPSTF guidance emphasizes that combining behavioral counseling with pharmacotherapy produces the best quit rates, and we tailor the approach to your specific situation."
       },
       {
         "type": "good",
@@ -108,7 +108,7 @@
     "rows": [
       {
         "option": "TeleDirectMD",
-        "cost": "Self pay option starting at $79",
+        "cost": "Flat $79 self-pay option",
         "wait": "Same day, often within hours",
         "provider": "Board-certified MD only (no mid-levels)",
         "bestFor": "Adults ready to quit smoking who need prescription cessation medication, behavioral counseling, and a personalized quit plan",
@@ -116,7 +116,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Acute symptoms related to smoking such as respiratory infections, not typically focused on cessation counseling",
@@ -124,7 +124,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Chest pain, severe shortness of breath, stroke symptoms, or psychiatric emergencies",
@@ -132,7 +132,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $250+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "3 to 14 days typical",
         "provider": "Family medicine or internal medicine MD or DO",
         "bestFor": "Ongoing cessation management, complex medical histories, coordination with pulmonology or psychiatry",
@@ -140,7 +140,7 @@
       },
       {
         "option": "Smoking Cessation Program",
-        "cost": "Varies widely ($0 to $500+)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Varies by program availability",
         "provider": "Counselors, coaches, or multidisciplinary team",
         "bestFor": "Intensive behavioral support, group therapy, patients needing structured long-term programs",
@@ -212,24 +212,6 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $250+",
-        "width": 45,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 55,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
     "footnote": "Total cost is transparent: the $79 visit plus varenicline or bupropion (many insurance plans cover these at no copay under preventive care benefits) means your total may be as low as the visit fee alone, depending on your coverage.",
@@ -550,7 +532,7 @@
       },
       {
         "question": "How much does online smoking cessation treatment cost in {state}?",
-        "answer": "TeleDirectMD offers a transparent self pay option starting at $79 for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy. Many insurance plans cover cessation medications with no copay under preventive care benefits."
+        "answer": "TeleDirectMD offers a transparent flat $79 self-pay option for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy. Many insurance plans cover cessation medications with no copay under preventive care benefits."
       },
       {
         "question": "What is the most effective medication for quitting smoking?",
@@ -578,7 +560,7 @@
       },
       {
         "question": "Does TeleDirectMD treat smoking cessation in other states?",
-        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states where our physicians are licensed. You must be physically located in the state where you are requesting care at the time of your video visit."
+        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states where Dr. Bhavsar is licensed. You must be physically located in the state where you are requesting care at the time of your video visit."
       },
       {
         "question": "Can TeleDirectMD help teenagers quit smoking?",
@@ -616,7 +598,7 @@
   },
   "references": [
     {
-      "text": "ATS Clinical Practice Guideline: Pharmacotherapy for Tobacco Dependence (2020)",
+      "text": "ATS Clinical Practice Guideline: Initiating Pharmacologic Treatment in Tobacco-Dependent Adults (2020)",
       "url": "https://www.thoracic.org"
     },
     {
@@ -632,16 +614,15 @@
       "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(16)30272-0/fulltext"
     },
     {
-      "text": "Nicotine Dependence, StatPearls (2025)",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK570642/"
+      "text": "Nicotine Addiction and Smoking: Health Effects and Interventions, StatPearls (2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK537066/"
     }
   ],
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
       "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate nicotine dependence, provide evidence-based smoking cessation counseling, and prescribe cessation medication when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
-      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during chest pain, stroke symptoms, severe shortness of breath, or psychiatric emergencies. This service is intended for adults seeking help with smoking cessation and is not a substitute for comprehensive in-person evaluation when contraindications or complex medical conditions are present.",
-      "Online smoking cessation treatment in {state}. Quit smoking medication online. Varenicline prescription online. Smoking cessation by video visit in {state}."
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during chest pain, stroke symptoms, severe shortness of breath, or psychiatric emergencies. This service is intended for adults seeking help with smoking cessation and is not a substitute for comprehensive in-person evaluation when contraindications or complex medical conditions are present."
     ]
   },
   "relatedConditions": [
@@ -792,7 +773,7 @@
     ],
     "guidelines": [
       {
-        "name": "ATS Clinical Practice Guideline: Pharmacotherapy for Tobacco Dependence",
+        "name": "ATS Clinical Practice Guideline: Initiating Pharmacologic Treatment in Tobacco-Dependent Adults",
         "url": "https://www.thoracic.org",
         "publisher": "American Thoracic Society",
         "id": "ats-2020"

@@ -1,5 +1,6 @@
+import { contentDate } from '../../lib/content-dates';
 import FAQClient from './FAQClient';
-import { PRESCRIBING_POLICY, PRESCRIBING_POLICY_QUESTION } from '../../lib/prescribing-policy';
+import { PRESCRIBING_POLICY, PRESCRIBING_POLICY_QUESTION, REFILL_POLICY, REFILL_POLICY_QUESTION, ED_REFILL_POLICY } from '../../lib/prescribing-policy';
 import { getAggregateRating, getReviewBlock } from '../../lib/review-schema';
 import { CitableSummaryBlock } from '../components/CitableSummary';
 import { summarizeFaqLanding, citableSummaryToJsonLd } from '../../lib/citable-summary';
@@ -7,12 +8,12 @@ import { summarizeFaqLanding, citableSummaryToJsonLd } from '../../lib/citable-s
 export const metadata = {
   title: 'Frequently Asked Questions | TeleDirectMD',
   description:
-    'Find answers about TeleDirectMD\'s telehealth services, insurance acceptance, $79 self-pay pricing, appointments, prescriptions, and virtual urgent care in 44 states + D.C.',
+    'Find answers about TeleDirectMD\'s telehealth services, insurance acceptance, $79 self-pay pricing, appointments, prescriptions, and virtual urgent care in 40+ states + D.C.',
   alternates: { canonical: 'https://teledirectmd.com/faq' },
   openGraph: {
     title: 'Frequently Asked Questions | TeleDirectMD',
     description:
-      'Find answers about TeleDirectMD\'s telehealth services, insurance acceptance, pricing, and virtual urgent care in 44 states + D.C.',
+      'Find answers about TeleDirectMD\'s telehealth services, insurance acceptance, pricing, and virtual urgent care in 40+ states + D.C.',
     url: 'https://teledirectmd.com/faq',
     siteName: 'TeleDirectMD',
     type: 'website',
@@ -23,7 +24,7 @@ const faqItems = [
   // Section 1: About TeleDirectMD
   {
     q: 'What is TeleDirectMD?',
-    a: 'TeleDirectMD is a physician-led telehealth service that connects you directly with a licensed medical doctor for virtual urgent-care video visits, providing convenient and affordable healthcare from the comfort of your home — available in 44 U.S. states and Washington, D.C.',
+    a: 'TeleDirectMD is a physician-led telehealth service that connects you directly with a licensed medical doctor for virtual urgent-care video visits, providing convenient and affordable healthcare from the comfort of your home — available in 40+ U.S. states and Washington, D.C.',
   },
   {
     q: 'Who is the doctor? Will I see the same physician every time?',
@@ -48,7 +49,7 @@ const faqItems = [
   // Section 2: Availability and States We Serve
   {
     q: 'Which states is TeleDirectMD available in?',
-    a: 'TeleDirectMD is licensed and available in 44 U.S. states plus the District of Columbia: Alabama, Alaska, Arizona, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina, South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin, and Wyoming.',
+    a: 'TeleDirectMD is licensed and available in 40+ U.S. states plus the District of Columbia: Alabama, Alaska, Arizona, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kentucky, Louisiana, Maine, Maryland, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, New York, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina, South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia, and Wyoming.',
   },
   {
     q: 'Do I need to live in a state to be seen there?',
@@ -60,17 +61,22 @@ const faqItems = [
   },
   // Section 3: Conditions, Prescriptions, and Scope of Care
   { q: PRESCRIBING_POLICY_QUESTION, a: PRESCRIBING_POLICY },
+  { q: REFILL_POLICY_QUESTION, a: REFILL_POLICY },
   {
     q: 'What conditions do you treat?',
-    a: 'We treat a wide range of common urgent-care conditions including sinus infections, UTIs, upper respiratory infections, allergies, skin rashes, pink eye, cold and flu, ear infections, bronchitis, and more. Visit our What We Treat page for a full list of conditions.',
+    a: 'We treat a wide range of common urgent-care conditions including sinus infections, UTIs in women only, upper respiratory infections, allergies, skin rashes, pink eye, cold and flu, ear infections, bronchitis, and more. Visit our What We Treat page for a full list of conditions.',
   },
   {
     q: 'Can you prescribe medication?',
-    a: 'Yes. When clinically appropriate and within our prescribing limits, our providers can prescribe non-controlled medications and send prescriptions directly to your preferred pharmacy electronically. See our IV/IM prescribing policy, including the EpiPen refill exception.',
+    a: 'Yes. When clinically appropriate and within our prescribing limits, Dr. Bhavsar can prescribe non-controlled medications and send prescriptions directly to your preferred pharmacy electronically. See our IV/IM prescribing policy, including the EpiPen refill exception.',
   },
   {
     q: 'Do you prescribe controlled substances?',
     a: 'No. TeleDirectMD does not prescribe controlled substances (Schedule II–V), including narcotics, benzodiazepines, stimulants, or sleep medications. This is in accordance with federal telemedicine prescribing regulations and our commitment to responsible care.',
+  },
+  {
+    q: 'Which medications does TeleDirectMD not prescribe?',
+    a: 'Beyond controlled substances, TeleDirectMD does not prescribe: GLP-1 agonists or other weight-loss drugs; isotretinoin; IV or IM medications other than EpiPen refills; boric acid; gabapentin or pregabalin; urate-lowering therapy for gout (allopurinol, febuxostat); ospemifene or prasterone for vaginal dryness; levofloxacin for chlamydia; amitriptyline; promethazine; secnidazole; crisaborole or dupilumab; bempedoic acid or icosapent ethyl; hydroquinone 4% as a single agent (the FDA-approved triple combination cream remains available); and oral acyclovir for cold sores (valacyclovir or famciclovir is prescribed instead). Migraine preventives and hydroxyzine are refilled only for patients already taking them. Each condition page lists what is and is not prescribed for that condition, and a request for a medication we do not prescribe ends the booking before a visit is scheduled, so you are not charged.',
   },
   {
     q: 'Do you prescribe Armour Thyroid, NP Thyroid, or natural desiccated thyroid (NDT)?',
@@ -82,7 +88,7 @@ const faqItems = [
   },
   {
     q: 'How do you handle erectile dysfunction prescriptions?',
-    a: 'TeleDirectMD offers ED evaluation and treatment within a clearly defined safety framework. Under age 40: we typically require proof of a current ED prescription or prior evaluation before refilling. Age 40 and above: we may initiate treatment after a careful history and risk review, if it is safe and appropriate. Cardiovascular risk factors, medication interactions, and warning symptoms are reviewed. If there are red flags, you may be referred for in-person evaluation with primary care or cardiology.',
+    a: 'TeleDirectMD offers ED evaluation and treatment within a clearly defined safety framework. Under age 40: we typically require proof of a current ED prescription or prior evaluation before refilling. Age 40 and above: we may initiate treatment after a careful history and risk review, if it is safe and appropriate. Cardiovascular risk factors, medication interactions, and warning symptoms are reviewed. If there are red flags, you may be referred for in-person evaluation with primary care or cardiology. ' + ED_REFILL_POLICY,
   },
   {
     q: 'What if my condition cannot be treated by telemedicine?',
@@ -95,7 +101,7 @@ const faqItems = [
   // Section 4: Pricing, Insurance, and Payment
   {
     q: 'Do you accept insurance?',
-    a: 'Yes! TeleDirectMD now accepts select commercial insurance plans in addition to our self-pay option. Currently accepted insurers include Aetna (AZ, CA, CO, FL, GA, IL, LA, MI, MN, NC, OH, PA, TN, WA), Blue Cross Blue Shield (select plans in AZ, FL, GA, IL, MI, PA, TX), and UnitedHealthcare (AZ, CA, CO, FL, GA, IL, LA, MI, MN, NC, NJ, OH, OK, PA, TN, TX, WA). Coverage is expanding to additional states and plans. Visit our Insurance page to check if your plan is covered. Standard copays and cost-sharing apply for insurance visits.',
+    a: 'Yes! TeleDirectMD now accepts select commercial insurance plans in addition to our self-pay option. Currently accepted insurers include Aetna (AZ, CA, CO, FL, GA, IL, LA, MI, MN, NC, OH, PA, TN, WA), Blue Cross Blue Shield (select plans in AZ, CA, FL, GA, IL, MI, PA, TX), and UnitedHealthcare (AZ, CA, CO, FL, GA, IL, LA, MI, MN, NC, NJ, OH, OK, PA, TN, TX, WA). Coverage is expanding to additional states and plans. Visit our Insurance page to check if your plan is covered. Standard copays and cost-sharing apply for insurance visits.',
   },
   {
     q: 'How much does a visit cost?',
@@ -170,13 +176,13 @@ function buildJsonLd(items) {
         '@id': 'https://teledirectmd.com/faq#webpage',
         url: 'https://teledirectmd.com/faq/',
         name: 'Frequently Asked Questions | TeleDirectMD',
-        description: "Answers to common questions about TeleDirectMD's telehealth services, insurance acceptance, $79 self-pay pricing, prescriptions, scope of care, and virtual urgent care in 44 states + D.C.",
+        description: "Answers to common questions about TeleDirectMD's telehealth services, insurance acceptance, $79 self-pay pricing, prescriptions, scope of care, and virtual urgent care in 40+ states + D.C.",
         inLanguage: 'en-US',
         breadcrumb: { '@id': 'https://teledirectmd.com/faq#breadcrumbs' },
         about: { '@id': 'https://teledirectmd.com/#organization' },
         publisher: { '@id': 'https://teledirectmd.com/#organization' },
-        lastReviewed: new Date().toISOString().split('T')[0],
-        reviewedBy: { '@id': 'https://teledirectmd.com/#physician' },
+        lastReviewed: contentDate('faq'),
+        reviewedBy: { '@id': 'https://teledirectmd.com/about/#physician' },
         specialty: ['Family Medicine', 'Urgent Care', 'Telemedicine'],
         audience: { '@type': 'MedicalAudience', audienceType: 'Patient', suggestedMinAge: 18 },
         speakable: {
@@ -192,7 +198,7 @@ function buildJsonLd(items) {
         logo: 'https://teledirectmd.com/logo.webp',
         telephone: '+1-678-956-1855',
         email: 'contact@teledirectmd.com',
-        description: 'Physician-led telemedicine practice. $79 flat-fee video visits with a board-certified MD across 44 states + DC. Select Aetna, Blue Cross Blue Shield, and UnitedHealthcare commercial plans accepted.',
+        description: 'Physician-led telemedicine practice. $79 flat-fee video visits with a board-certified MD across 40+ states + DC. Select Aetna, Blue Cross Blue Shield, and UnitedHealthcare commercial plans accepted.',
         medicalSpecialty: ['Family Medicine', 'Urgent Care', 'Telemedicine'],
         priceRange: '$79',
         currenciesAccepted: 'USD',
@@ -200,7 +206,7 @@ function buildJsonLd(items) {
       },
       {
         '@type': 'Physician',
-        '@id': 'https://teledirectmd.com/#physician',
+        '@id': 'https://teledirectmd.com/about/#physician',
         name: 'Parth Bhavsar, MD',
         url: 'https://teledirectmd.com/about',
         identifier: { '@type': 'PropertyValue', name: 'NPI', value: '1104323203' },

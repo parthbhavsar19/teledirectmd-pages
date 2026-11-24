@@ -19,16 +19,16 @@ export async function generateMetadata({ params }) {
   /* Check if this is a state slug */
   const state = getStateBySlug(slug);
   if (state) {
-    const title = `Online Doctor in ${state.name} — TeleDirectMD Telehealth Visits`;
-    const description = `See an MD-only doctor online in ${state.name}. TeleDirectMD offers same-day video visits for urgent care, chronic medication refills, skin conditions, and more — starting at $79 with no insurance required.`;
+    const title = `Online Doctor in ${state.name}, $79 MD Video Visit | TeleDirectMD`;
+    const description = `See an MD-only doctor online in ${state.name}. TeleDirectMD offers same-day video visits for urgent care, chronic medication refills, skin conditions, and more for a flat $79, with no insurance required.`;
     const pageUrl = `${baseUrl}/${slug}`;
     return {
       title,
       description,
       robots: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 },
       authors: [{ name: 'Parth Bhavsar, MD' }],
-      openGraph: { type: 'website', siteName: 'TeleDirectMD', locale: 'en_US', title, description, url: pageUrl, images: [{ url: `${baseUrl}/assets/social/tdmd-${slug}-og.png`, alt: `TeleDirectMD telehealth in ${state.name}` }] },
-      twitter: { card: 'summary_large_image', title, description, images: [`${baseUrl}/assets/social/tdmd-${slug}-og.png`] },
+      openGraph: { type: 'website', siteName: 'TeleDirectMD', locale: 'en_US', title, description, url: pageUrl, images: [{ url: `${baseUrl}/images/tdmd-og-navy.png`, alt: `TeleDirectMD telehealth in ${state.name}` }] },
+      twitter: { card: 'summary_large_image', title, description, images: [`${baseUrl}/images/tdmd-og-navy.png`] },
       alternates: { canonical: pageUrl },
     };
   }
@@ -45,8 +45,8 @@ export async function generateMetadata({ params }) {
     description: nationalDesc,
     robots: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 },
     authors: [{ name: 'Parth Bhavsar, MD' }],
-    openGraph: { type: 'website', siteName: 'TeleDirectMD', locale: 'en_US', title: nationalTitle, description: nationalDesc, url: pageUrl, images: [{ url: `${baseUrl}/assets/social/tdmd-${slug}-og.png`, alt: `${condition.conditionName} treatment by TeleDirectMD` }] },
-    twitter: { card: 'summary_large_image', title: nationalTitle, description: nationalDesc, images: [`${baseUrl}/assets/social/tdmd-${slug}-og.png`] },
+    openGraph: { type: 'website', siteName: 'TeleDirectMD', locale: 'en_US', title: nationalTitle, description: nationalDesc, url: pageUrl, images: [{ url: `${baseUrl}/images/tdmd-og-navy.png`, alt: `${condition.conditionName} treatment by TeleDirectMD` }] },
+    twitter: { card: 'summary_large_image', title: nationalTitle, description: nationalDesc, images: [`${baseUrl}/images/tdmd-og-navy.png`] },
     alternates: { canonical: pageUrl },
   };
 }

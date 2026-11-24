@@ -1,4 +1,5 @@
 'use client';
+import { insuranceHref, insuranceHrefOrParent } from '../../../lib/insurance-links';
 import { B, INSURERS, STATE_NAMES, INSURANCE_CONDITIONS } from '../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock } from '../components/InsuranceShared';
 import { Ico } from '../components/InsuranceIcons';
@@ -10,14 +11,14 @@ import MedicaidExclusion from '../../components/MedicaidExclusion';
 const insurer = INSURERS.aetna;
 
 const AETNA_FAQS = [
-  { q: "Which Aetna plans are in-network with TeleDirectMD?", a: "TeleDirectMD is in-network with Aetna PPO, HMO, EPO, POS, and Medicare Advantage plans in 14 states: Arizona, California, Colorado, Florida, Georgia, Illinois, Louisiana, Michigan, Minnesota, North Carolina, Ohio, Pennsylvania, Tennessee, and Washington. California excludes Aetna HMO and QPOS. Minnesota patients are billed under the Allina | Aetna joint venture network. Aetna Better Health (Medicaid), Aetna D-SNP, and CHIP plans are not in-network in any state." },
+  { q: "Which Aetna plans are in-network with TeleDirectMD?", a: "TeleDirectMD is in-network with Aetna PPO, HMO, EPO, POS, and Medicare Advantage plans in 14 states: Arizona, California, Colorado, Florida, Georgia, Illinois, Louisiana, Michigan, Minnesota, North Carolina, Ohio, Pennsylvania, Tennessee, and Washington. Florida is commercial only, because Aetna's Florida Medicare products exclude primary care. California excludes Aetna HMO, QPOS and Medicare HMO plans. Minnesota patients are billed under the Allina | Aetna joint venture network. Aetna Better Health (Medicaid), Aetna D-SNP, and CHIP plans are not in-network in any state." },
   { q: "What is the Aetna provider PIN for Dr. Parth Bhavsar?", a: "Dr. Parth Bhavsar, MD (NPI 1104323203) is credentialed with Aetna in each contracted state. The contract is held under TeleDirectMD's group TIN and routes through Aetna's electronic claims clearinghouse (payer ID 60054). We will not ask you for a PIN — we submit the claim on our end after the visit." },
   { q: "California Aetna members: am I covered?", a: "If you have an Aetna PPO, EPO, POS, or Medicare Advantage plan in California, yes. Aetna HMO and Aetna QPOS plans in California are not in-network — Aetna restricts those to in-state physical-clinic networks. If you have one of those plans, use the $79 self-pay option." },
   { q: "What does an Aetna telehealth visit cost at TeleDirectMD?", a: "Most Aetna commercial plans apply a $0–$40 telehealth copay; Aetna Medicare Advantage typically applies a $0–$25 copay; high-deductible plans may apply full visit cost (~$130 contracted rate) toward deductible until met. Verify by logging into your member account at aetna.com or calling the number on your Aetna card." },
   { q: "Will my prescription be covered by my Aetna pharmacy benefit?", a: "Your medication is dispensed under Aetna's pharmacy benefit manager (CVS Caremark for most commercial plans), separate from the visit copay. Generics on Aetna's standard formulary are typically $0–$10. We send the e-prescription to your preferred pharmacy at visit end — your usual Aetna pharmacy copay applies." },
   { q: "Can I use an Aetna HSA or FSA card?", a: "Yes. Telehealth visits at TeleDirectMD are HSA/FSA eligible whether billed to Aetna or paid $79 self-pay. Your HSA/FSA card runs at booking; the system itemizes the visit for IRS substantiation." },
   { q: "What happens if Aetna denies my claim?", a: "Denials are rare for the conditions we treat, but if Aetna denies the claim, we contact you within 48 hours with options: appeal (we provide the medical records at no cost), or convert the visit to the $79 self-pay rate retroactively and refund any difference." },
-  { q: "Does TeleDirectMD accept Aetna Medicaid (Aetna Better Health)?", a: "No. TeleDirectMD is not in-network with any Medicaid plan, including Aetna Better Health, in any state. We are also not in-network with Aetna D-SNP. Self-pay $79 visits remain available." },
+  { q: "Does TeleDirectMD accept Aetna Medicaid (Aetna Better Health)?", a: "No. TeleDirectMD is not in-network with any Medicaid plan, including Aetna Better Health, in any state. We are also not in-network with Aetna D-SNP." },
 ];
 
 const CONDITIONS_COVERED = [
@@ -41,15 +42,15 @@ const CONDITIONS_COVERED = [
 
 const AETNA_STATES = [
   { code:"AZ", name:"Arizona", url:"/az/" },
-  { code:"CA", name:"California", url:"/insurance/aetna/california", newBadge:"New · May 2026" },
+  { code:"CA", name:"California", url:"/insurance/aetna/california/", newBadge:"New · May 2026" },
   { code:"CO", name:"Colorado", url:"/co/" },
-  { code:"FL", name:"Florida", url:"/insurance/aetna/florida" },
+  { code:"FL", name:"Florida", url:"/insurance/aetna/florida/" },
   { code:"GA", name:"Georgia", url:"/ga/" },
   { code:"IL", name:"Illinois", url:"/il/" },
-  { code:"LA", name:"Louisiana", url:"/insurance/aetna/louisiana" },
+  { code:"LA", name:"Louisiana", url:"/insurance/aetna/louisiana/" },
   { code:"MI", name:"Michigan", url:"/mi/" },
   { code:"MN", name:"Minnesota", url:"/mn/" },
-  { code:"NC", name:"North Carolina", url:"/insurance/aetna/north-carolina" },
+  { code:"NC", name:"North Carolina", url:"/insurance/aetna/north-carolina/" },
   { code:"OH", name:"Ohio", url:"/oh/" },
   { code:"PA", name:"Pennsylvania", url:"/pa/" },
   { code:"TN", name:"Tennessee", url:"/tn/" },
@@ -72,7 +73,7 @@ const SCHEMA = {
     },
     {
       "@type": "Physician",
-      "@id": "https://teledirectmd.com/#physician",
+      "@id": "https://teledirectmd.com/about/#physician",
       "name": "Parth Bhavsar, MD",
       "url": "https://teledirectmd.com/about",
       "identifier": { "@type": "PropertyValue", "name": "NPI", "value": "1104323203" },
@@ -241,7 +242,7 @@ export default function AetnaHubClient() {
 
       <Breadcrumb items={[
         { label:"Home", href:"/" },
-        { label:"Insurance", href:"/insurance" },
+        { label:"Insurance", href:"/insurance/" },
         { label:"Aetna" },
       ]} />
 
@@ -260,11 +261,11 @@ export default function AetnaHubClient() {
             TeleDirectMD is in-network with Aetna PPO, HMO, EPO, POS, and Medicare Advantage plans in 14 states. See a board-certified physician by video today — your standard Aetna copay applies.
           </p>
           <div style={{ display:"flex", flexWrap:"wrap", gap:12 }}>
-            <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
+            <a href="https://www.teledirectmd.com/book-online/" target="_blank" rel="noopener"
               style={{ display:"inline-flex", alignItems:"center", gap:8, padding:"14px 28px", background:B.accent, color:B.white, borderRadius:B.rs, fontWeight:700, fontSize:15, textDecoration:"none" }}>
               <Ico.Cal c={B.white} s={18} /> Book with Aetna
             </a>
-            <a href="/insurance"
+            <a href="/insurance/"
               style={{ display:"inline-flex", alignItems:"center", gap:8, padding:"14px 24px", background:"rgba(255,255,255,0.1)", color:B.white, borderRadius:B.rs, fontWeight:600, fontSize:15, textDecoration:"none", border:"1px solid rgba(255,255,255,0.2)" }}>
               Check Other Insurance
             </a>
@@ -301,7 +302,7 @@ export default function AetnaHubClient() {
             ))}
           </div>
           <p style={{ fontSize:13, color:B.text, margin:"16px 0 0", lineHeight:1.6 }}>
-            See the full list on our <a href="/what-we-treat" style={{ color:B.teal }}>What We Treat</a> page. Conditions requiring DEA-scheduled controlled substances are not treated via telehealth.
+            See the full list on our <a href="/what-we-treat/" style={{ color:B.teal }}>What We Treat</a> page. Conditions requiring DEA-scheduled controlled substances are not treated via telehealth.
           </p>
         </section>
 
@@ -319,7 +320,7 @@ export default function AetnaHubClient() {
           <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(240px, 1fr))", gap:16 }}>
             {[
               { title:"With Aetna Insurance", color:insurer.color, colorLight:insurer.colorLight, items:["Standard Aetna telehealth copay ($0–$40 for most plans)","Deductible applies if not yet met","Coinsurance may apply after deductible","Contact Aetna to verify your exact cost"] },
-              { title:"Without Insurance (Self-Pay)", color:B.accent, colorLight:"#FFF0EC", items:["Flat $79 per visit — always","No copay, no deductible, no surprise bills","No insurance needed","Available in all 44 licensed states + DC"] },
+              { title:"Without Insurance (Self-Pay)", color:B.accent, colorLight:"#FFF0EC", items:["Flat $79 per visit — always","No copay, no deductible, no hidden fees","No insurance needed","Available in 40+ licensed states + DC"] },
             ].map((card, i) => (
               <div key={i} style={{ background:B.white, border:`2px solid ${card.color}22`, borderRadius:B.r, padding:"24px 20px", borderTop:`3px solid ${card.color}`, boxShadow:B.shadow }}>
                 <h3 style={{ fontFamily:B.fd, fontSize:18, fontWeight:700, color:B.navy, margin:"0 0 16px" }}>{card.title}</h3>
@@ -362,7 +363,7 @@ export default function AetnaHubClient() {
             ))}
           </div>
           <p style={{ fontSize:13, color:B.text, margin:"16px 0 0" }}>
-            Not seeing your state? <a href="/insurance" style={{ color:B.teal }}>Check all insurance options</a> or book a self-pay visit for $79.
+            Not seeing your state? <a href="/insurance/" style={{ color:B.teal }}>Check all insurance options</a> or book a self-pay visit for $79.
           </p>
         </section>
 
@@ -387,14 +388,14 @@ export default function AetnaHubClient() {
           <h2 style={{ fontFamily:B.fd, fontSize:22, fontWeight:700, color:B.navy, margin:"0 0 16px" }}>Most-searched Aetna telehealth combinations</h2>
           <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(220px, 1fr))", gap:10 }}>
             {[
-              { slug: 'uti-treatment-online', label: 'UTI billed to Aetna' },
-              { slug: 'sinus-infection-treatment-online', label: 'Sinus infection billed to Aetna' },
-              { slug: 'pink-eye-treatment-online', label: 'Pink eye billed to Aetna' },
-              { slug: 'sore-throat-treatment-online', label: 'Strep / sore throat billed to Aetna' },
-              { slug: 'ear-pain-treatment-online', label: 'Ear infection billed to Aetna' },
-              { slug: 'yeast-infection-treatment-online', label: 'Yeast infection billed to Aetna' },
-            ].map((c, i) => (
-              <a key={i} href={`/insurance/aetna/${c.slug}`}
+              { slug: 'uti-treatment', label: 'UTI billed to Aetna' },
+              { slug: 'sinus-infection', label: 'Sinus infection billed to Aetna' },
+              { slug: 'pink-eye', label: 'Pink eye billed to Aetna' },
+              { slug: 'strep-throat', label: 'Strep / sore throat billed to Aetna' },
+              { slug: 'ear-infection', label: 'Ear infection billed to Aetna' },
+              { slug: 'yeast-infection', label: 'Yeast infection billed to Aetna' },
+            ].filter((c) => insuranceHref(`/insurance/aetna/${c.slug}`)).map((c, i) => (
+              <a key={i} href={insuranceHref(`/insurance/aetna/${c.slug}`)}
                 style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"14px 16px", textDecoration:"none", boxShadow:B.shadow }}>
                 <div style={{ fontSize:14, fontWeight:600, color:B.navy }}>{c.label}</div>
                 <div style={{ fontSize:12, color:B.text, marginTop:2 }}>$0–$40 copay typical · CVS Caremark Rx</div>

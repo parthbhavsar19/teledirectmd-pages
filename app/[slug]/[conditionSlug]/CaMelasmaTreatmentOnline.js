@@ -11,7 +11,7 @@
  * + HowTo + BreadcrumbList + SpeakableSpecification — NEVER QAPage).
  *
  * Authority: AAD
- * Guideline: AAD Melasma Management Guidelines
+ * Guideline: AAD melasma treatment resources (AAD has no formal melasma guideline)
  *
  * Hard rules respected:
  *   • No QAPage schema — FAQPage only.
@@ -38,7 +38,7 @@ const PHYSICIAN = {
   specialty: 'Family Medicine',
   licenseState: 'California',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 const CA_PAYORS = [
@@ -46,8 +46,8 @@ const CA_PAYORS = [
     notes: 'Commercial plans. In-network as of April 30, 2026. Verify plan eligibility with Aetna before booking.' },
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true,
     notes: 'Covers UHC Commercial and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types.' },
-  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Enrollment pending. Self pay ($79) available.' },
+  { name: 'Anthem Blue Cross', status: 'Active', effective: 'September 23, 2026', inNetwork: true,
+    notes: 'PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.' },
   { name: 'Cigna', status: 'Pending', effective: 'Pending determination', inNetwork: false,
     notes: 'Pending — Telehealth Only review in progress. Self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false,
@@ -62,7 +62,7 @@ const FAQ_ITEMS = [
     question: 'Can I get melasma treatment online in California?',
     answer: (
       <p>
-        Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat melasma by secure video visit. TeleDirectMD physicians follow AAD melasma guidelines, prescribing topical hydroquinone, tretinoin, azelaic acid, and combination agents — with physician-confirmed scope for appropriate use per the physician's current clinical regimen. Adults 18+ in California can book same-day. Self pay is $79.
+        Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat melasma by secure video visit. Dr. Bhavsar follows the AAD's melasma treatment resources, prescribing topical hydroquinone, tretinoin, azelaic acid, and combination agents — with physician-confirmed scope for appropriate use per the physician's current clinical regimen. Adults 18+ in California can book same-day. Self pay is $79.
       </p>
     ),
   },
@@ -71,7 +71,7 @@ const FAQ_ITEMS = [
     question: 'What melasma medications can a California telehealth doctor prescribe?',
     answer: (
       <p>
-        A California-licensed telehealth physician can prescribe: hydroquinone 4% cream (3-month cycles), tretinoin 0.025%–0.05% cream, azelaic acid 15%–20% gel, Tri-Luma triple combination cream (8-week course only), and tranexamic acid oral 250 mg twice daily (off-label — physician-confirmed scope). Photoprotection with broad-spectrum SPF 50+ is a required component of all melasma regimens.
+        A California-licensed telehealth physician can prescribe: tretinoin 0.025%–0.05% cream, azelaic acid 15%–20% gel, Tri-Luma triple combination cream (the FDA-approved hydroquinone/tretinoin/fluocinolone product, 8-week course only; hydroquinone 4% is not prescribed on its own), and tranexamic acid oral 250 mg twice daily (off-label — physician-confirmed scope). Photoprotection with broad-spectrum SPF 50+ is a required component of all melasma regimens.
       </p>
     ),
   },
@@ -116,7 +116,7 @@ const FAQ_ITEMS = [
     question: 'What is the cost of melasma treatment in California?',
     answer: (
       <p>
-        TeleDirectMD charges $79 self-pay. Generic tretinoin ~$18–$40, azelaic acid ~$30–$60, hydroquinone 4% ~$20–$50. Tri-Luma ~$60–$120 with GoodRx. Tranexamic acid oral ~$20–$50. In-person dermatology visits in California typically cost $150–$350+.
+        TeleDirectMD charges $79 self-pay. Generic tretinoin ~$18–$40, azelaic acid ~$30–$60. Tri-Luma ~$60–$120 with GoodRx. Tranexamic acid oral ~$20–$50.
       </p>
     ),
   },
@@ -143,7 +143,7 @@ const FAQ_ITEMS = [
     question: 'Is tranexamic acid safe for melasma treatment?',
     answer: (
       <p>
-        Oral tranexamic acid 250 mg twice daily is off-label for melasma — physician-confirmed scope for appropriate patients. It has emerging evidence for melasma from dermatology studies, though it is not FDA-approved for this indication. Key safety review: contraindications include personal or family history of thrombosis, thromboembolic disease, current use of combined oral contraceptives, or other thrombosis risk factors. TeleDirectMD physicians evaluate these risks before prescribing per CA B&P §2290.5 standard of care.
+        Oral tranexamic acid 250 mg twice daily is off-label for melasma — physician-confirmed scope for appropriate patients. It has emerging evidence for melasma from dermatology studies, though it is not FDA-approved for this indication. Key safety review: contraindications include personal or family history of thrombosis, thromboembolic disease, current use of combined oral contraceptives, or other thrombosis risk factors. Dr. Bhavsar evaluates these risks before prescribing per CA B&P §2290.5 standard of care.
       </p>
     ),
   },
@@ -161,13 +161,13 @@ const FAQ_ITEMS = [
     question: 'Can melasma be cured?',
     answer: (
       <p>
-        Melasma is a chronic condition without a permanent cure. Triggers — primarily UV exposure and hormonal factors — must be continuously managed. With consistent treatment (hydroquinone, tretinoin, daily sunscreen) and trigger avoidance, melasma can achieve significant lightening and become cosmetically acceptable. Discontinuing treatment often results in recurrence, especially with continued UV exposure. Long-term photoprotection and maintenance therapy are the cornerstone of melasma management per AAD guidelines.
+        Melasma is a chronic condition without a permanent cure. Triggers — primarily UV exposure and hormonal factors — must be continuously managed. With consistent treatment (hydroquinone, tretinoin, daily sunscreen) and trigger avoidance, melasma can achieve significant lightening and become cosmetically acceptable. Discontinuing treatment often results in recurrence, especially with continued UV exposure. Long-term photoprotection and maintenance therapy are the cornerstone of melasma management per AAD melasma resources.
       </p>
     ),
   },
 ];
 
-const SCHEMAS = [{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Melasma (Facial Hyperpigmentation / Chloasma) Online in California | TeleDirectMD", "url": "https://teledirectmd.com/ca/melasma-treatment-online/", "description": "Melasma treatment online for California adults. Board-certified Family Medicine MD. AAD guideline-based. Self pay $79. Aetna in-network. Same-day video visits. Hydroquinone, tretinoin, azelaic acid.", "datePublished": "2026-05-20", "dateModified": "2026-05-20", "inLanguage": "en-US", "about": {"@type": "MedicalCondition", "name": "Melasma", "code": {"@type": "MedicalCode", "code": "L81.1", "codingSystem": "ICD-10-CM"}}, "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient", "geographicArea": {"@type": "AdministrativeArea", "name": "California"}}, "reviewedBy": {"@type": "Physician", "@id": "https://teledirectmd.com/about/#physician-parth-bhavsar", "name": "Parth Bhavsar, MD", "identifier": {"@type": "PropertyValue", "propertyID": "NPI", "value": "1104323203"}, "medicalSpecialty": "Family Medicine", "hasCredential": [{"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "Doctor of Medicine (MD)"}, {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Board Certification \u2014 American Board of Family Medicine"}], "licensedIn": "California", "worksFor": {"@type": "MedicalOrganization", "name": "TeleDirectMD", "url": "https://teledirectmd.com"}, "sameAs": ["https://npiregistry.cms.hhs.gov/provider-view/1104323203", "https://teledirectmd.com/about/"]}, "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["#ca-melasma-treatment-online-opening", "#ca-melasma-treatment-online-opening p", ".tdmd-ca-melasma-treatment-online__byline", "#ca-melasma-treatment-online-faq"]}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I get melasma treatment online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat melasma by secure video visit. TeleDirectMD physicians follow AAD melasma guidelines, prescribing topical hydroquinone, tretinoin, azelaic acid, and combination agents \u2014 with physician-confirmed scope for appropriate use per the physician's current clinical regimen. Adults 18+ in California can book same-day. Self pay is $79."}}, {"@type": "Question", "name": "What melasma medications can a California telehealth doctor prescribe?", "acceptedAnswer": {"@type": "Answer", "text": "A California-licensed telehealth physician can prescribe: hydroquinone 4% cream (3-month cycles), tretinoin 0.025%\u20130.05% cream, azelaic acid 15%\u201320% gel, Tri-Luma triple combination cream (8-week course only), and tranexamic acid oral 250 mg twice daily (off-label \u2014 physician-confirmed scope). Photoprotection with broad-spectrum SPF 50+ is a required component of all melasma regimens."}}, {"@type": "Question", "name": "How common is melasma in California?", "acceptedAnswer": {"@type": "Answer", "text": "Melasma affects an estimated 5\u20136 million Americans, with higher prevalence in women with darker skin tones (Fitzpatrick types III\u2013VI) per AAD data. California's large Hispanic, Asian, South Asian, and Pacific Islander communities and its high year-round UV index make California one of the highest-prevalence states. Hormonal triggers (oral contraceptives, pregnancy) add to melasma burden in California's reproductive-age population."}}, {"@type": "Question", "name": "Does California require an in-person visit before melasma telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. Classic melasma \u2014 symmetric hyperpigmented macules and patches on cheeks, forehead, and upper lip in adults 18+ \u2014 is appropriately evaluated by video. Atypical pigmentation changes with irregular borders or rapid evolution should be evaluated in-person to rule out melanoma."}}, {"@type": "Question", "name": "When does melasma require in-person dermatology care?", "acceptedAnswer": {"@type": "Answer", "text": "Seek in-person dermatology with dermoscopy if pigmentation changes are asymmetric, have irregular borders, are evolving rapidly, or occur in atypical locations. These features may suggest melanoma or other pigmentary disorders requiring biopsy. Melasma with consistent pattern and history is appropriate for telehealth management."}}, {"@type": "Question", "name": "Is Aetna in-network for melasma treatment at TeleDirectMD in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026. Self pay is $79."}}, {"@type": "Question", "name": "What is the cost of melasma treatment in California?", "acceptedAnswer": {"@type": "Answer", "text": "TeleDirectMD charges $79 self-pay. Generic tretinoin ~$18\u2013$40, azelaic acid ~$30\u2013$60, hydroquinone 4% ~$20\u2013$50. Tri-Luma ~$60\u2013$120 with GoodRx. Tranexamic acid oral ~$20\u2013$50. In-person dermatology visits in California typically cost $150\u2013$350+."}}, {"@type": "Question", "name": "Does California's AB 744 parity law cover melasma telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, for in-network commercial plans. California AB 744 (2019) requires commercial health plans to reimburse telehealth on the same basis as in-person services. Aetna and UHC Commercial are in-network for TeleDirectMD in California."}}, {"@type": "Question", "name": "Why is daily sunscreen essential for melasma in California?", "acceptedAnswer": {"@type": "Answer", "text": "Ultraviolet radiation \u2014 both UVA and UVB \u2014 directly stimulates melanocytes to produce more pigment, worsening melasma. California's high UV index year-round means melasma will not improve and will worsen without daily broad-spectrum SPF 50+ sunscreen. AAD recommends mineral sunscreens (zinc oxide, titanium dioxide) for melasma patients. Reapplication every 2 hours during outdoor activities is essential."}}, {"@type": "Question", "name": "Is tranexamic acid safe for melasma treatment?", "acceptedAnswer": {"@type": "Answer", "text": "Oral tranexamic acid 250 mg twice daily is off-label for melasma \u2014 physician-confirmed scope for appropriate patients. It has emerging evidence for melasma from dermatology studies, though it is not FDA-approved for this indication. Key safety review: contraindications include personal or family history of thrombosis, thromboembolic disease, current use of combined oral contraceptives, or other thrombosis risk factors. TeleDirectMD physicians evaluate these risks before prescribing per CA B&P \u00a72290.5 standard of care."}}, {"@type": "Question", "name": "Will my melasma prescription be sent electronically to a California pharmacy?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California AB 2789 (effective January 1, 2022) requires all prescriptions to be issued electronically. TeleDirectMD sends e-prescriptions to your chosen California pharmacy \u2014 CVS, Walgreens, Rite Aid, Walmart, Safeway \u2014 during or after your visit."}}, {"@type": "Question", "name": "Can melasma be cured?", "acceptedAnswer": {"@type": "Answer", "text": "Melasma is a chronic condition without a permanent cure. Triggers \u2014 primarily UV exposure and hormonal factors \u2014 must be continuously managed. With consistent treatment (hydroquinone, tretinoin, daily sunscreen) and trigger avoidance, melasma can achieve significant lightening and become cosmetically acceptable. Discontinuing treatment often results in recurrence, especially with continued UV exposure. Long-term photoprotection and maintenance therapy are the cornerstone of melasma management per AAD guidelines."}}]}, {"@context": "https://schema.org", "@type": "HowTo", "name": "How to Get Melasma (Facial Hyperpigmentation / Chloasma) Online in California", "description": "Three steps to receive melasma (facial hyperpigmentation / chloasma) evaluation and, if appropriate, a prescription from a California-licensed board-certified physician.", "totalTime": "PT30M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "79"}, "step": [{"@type": "HowToStep", "position": 1, "name": "Book your video visit", "text": "Visit teledirectmd.com and select California Melasma treatment. No referral needed. Self pay $79. Many visits available same day.", "url": "https://teledirectmd.com/book-online"}, {"@type": "HowToStep", "position": 2, "name": "See a California-licensed MD by secure video", "text": "Connect with a board-certified Family Medicine physician licensed in California. The physician reviews your symptoms, history, and red-flag screening. Consent per CA B&P Section 2290.5 confirmed.", "url": "https://teledirectmd.com/ca/melasma-treatment-online/"}, {"@type": "HowToStep", "position": 3, "name": "Receive your treatment plan and e-prescription", "text": "If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy during or after the visit.", "url": "https://teledirectmd.com/ca/melasma-treatment-online/"}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TeleDirectMD", "item": "https://teledirectmd.com"}, {"@type": "ListItem", "position": 2, "name": "California", "item": "https://teledirectmd.com/ca/"}, {"@type": "ListItem", "position": 3, "name": "Melasma (Facial Hyperpigmentation / Chloasma) Online in California", "item": "https://teledirectmd.com/ca/melasma-treatment-online/"}]}];
+const SCHEMAS = [{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Melasma (Facial Hyperpigmentation / Chloasma) Online in California | TeleDirectMD", "url": "https://teledirectmd.com/ca/melasma-treatment-online/", "description": "Melasma treatment online for California adults. Board-certified Family Medicine MD. Evidence-based care. Self pay $79. Aetna in-network. Same-day video visits. Hydroquinone, tretinoin, azelaic acid.", "datePublished": "2026-05-20", "dateModified": "2026-05-20", "inLanguage": "en-US", "about": {"@type": "MedicalCondition", "name": "Melasma", "code": {"@type": "MedicalCode", "code": "L81.1", "codingSystem": "ICD-10-CM"}}, "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient", "geographicArea": {"@type": "AdministrativeArea", "name": "California"}}, "reviewedBy": {"@type": "Physician", "@id": "https://teledirectmd.com/about/#physician", "name": "Parth Bhavsar, MD", "identifier": {"@type": "PropertyValue", "propertyID": "NPI", "value": "1104323203"}, "medicalSpecialty": "Family Medicine", "hasCredential": [{"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "Doctor of Medicine (MD)"}, {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Board Certification \u2014 American Board of Family Medicine"}], "licensedIn": "California", "worksFor": {"@type": "MedicalOrganization", "name": "TeleDirectMD", "url": "https://teledirectmd.com"}, "sameAs": ["https://npiregistry.cms.hhs.gov/provider-view/1104323203", "https://teledirectmd.com/about/"]}, "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["#ca-melasma-treatment-online-opening", "#ca-melasma-treatment-online-opening p", ".tdmd-ca-melasma-treatment-online__byline", "#ca-melasma-treatment-online-faq"]}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I get melasma treatment online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat melasma by secure video visit. Dr. Bhavsar follows the AAD's melasma treatment resources, prescribing topical hydroquinone, tretinoin, azelaic acid, and combination agents \u2014 with physician-confirmed scope for appropriate use per the physician's current clinical regimen. Adults 18+ in California can book same-day. Self pay is $79."}}, {"@type": "Question", "name": "What melasma medications can a California telehealth doctor prescribe?", "acceptedAnswer": {"@type": "Answer", "text": "A California-licensed telehealth physician can prescribe: hydroquinone 4% cream (3-month cycles), tretinoin 0.025%\u20130.05% cream, azelaic acid 15%\u201320% gel, Tri-Luma triple combination cream (8-week course only), and tranexamic acid oral 250 mg twice daily (off-label \u2014 physician-confirmed scope). Photoprotection with broad-spectrum SPF 50+ is a required component of all melasma regimens."}}, {"@type": "Question", "name": "How common is melasma in California?", "acceptedAnswer": {"@type": "Answer", "text": "Melasma affects an estimated 5\u20136 million Americans, with higher prevalence in women with darker skin tones (Fitzpatrick types III\u2013VI) per AAD data. California's large Hispanic, Asian, South Asian, and Pacific Islander communities and its high year-round UV index make California one of the highest-prevalence states. Hormonal triggers (oral contraceptives, pregnancy) add to melasma burden in California's reproductive-age population."}}, {"@type": "Question", "name": "Does California require an in-person visit before melasma telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. Classic melasma \u2014 symmetric hyperpigmented macules and patches on cheeks, forehead, and upper lip in adults 18+ \u2014 is appropriately evaluated by video. Atypical pigmentation changes with irregular borders or rapid evolution should be evaluated in-person to rule out melanoma."}}, {"@type": "Question", "name": "When does melasma require in-person dermatology care?", "acceptedAnswer": {"@type": "Answer", "text": "Seek in-person dermatology with dermoscopy if pigmentation changes are asymmetric, have irregular borders, are evolving rapidly, or occur in atypical locations. These features may suggest melanoma or other pigmentary disorders requiring biopsy. Melasma with consistent pattern and history is appropriate for telehealth management."}}, {"@type": "Question", "name": "Is Aetna in-network for melasma treatment at TeleDirectMD in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026. Self pay is $79."}}, {"@type": "Question", "name": "What is the cost of melasma treatment in California?", "acceptedAnswer": {"@type": "Answer", "text": "TeleDirectMD charges $79 self-pay. Generic tretinoin ~$18\u2013$40, azelaic acid ~$30\u2013$60, hydroquinone 4% ~$20\u2013$50. Tri-Luma ~$60\u2013$120 with GoodRx. Tranexamic acid oral ~$20\u2013$50."}}, {"@type": "Question", "name": "Does California's AB 744 parity law cover melasma telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, for in-network commercial plans. California AB 744 (2019) requires commercial health plans to reimburse telehealth on the same basis as in-person services. Aetna and UHC Commercial are in-network for TeleDirectMD in California."}}, {"@type": "Question", "name": "Why is daily sunscreen essential for melasma in California?", "acceptedAnswer": {"@type": "Answer", "text": "Ultraviolet radiation \u2014 both UVA and UVB \u2014 directly stimulates melanocytes to produce more pigment, worsening melasma. California's high UV index year-round means melasma will not improve and will worsen without daily broad-spectrum SPF 50+ sunscreen. AAD recommends mineral sunscreens (zinc oxide, titanium dioxide) for melasma patients. Reapplication every 2 hours during outdoor activities is essential."}}, {"@type": "Question", "name": "Is tranexamic acid safe for melasma treatment?", "acceptedAnswer": {"@type": "Answer", "text": "Oral tranexamic acid 250 mg twice daily is off-label for melasma \u2014 physician-confirmed scope for appropriate patients. It has emerging evidence for melasma from dermatology studies, though it is not FDA-approved for this indication. Key safety review: contraindications include personal or family history of thrombosis, thromboembolic disease, current use of combined oral contraceptives, or other thrombosis risk factors. Dr. Bhavsar evaluates these risks before prescribing per CA B&P \u00a72290.5 standard of care."}}, {"@type": "Question", "name": "Will my melasma prescription be sent electronically to a California pharmacy?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California AB 2789 (effective January 1, 2022) requires all prescriptions to be issued electronically. TeleDirectMD sends e-prescriptions to your chosen California pharmacy \u2014 CVS, Walgreens, Rite Aid, Walmart, Safeway \u2014 during or after your visit."}}, {"@type": "Question", "name": "Can melasma be cured?", "acceptedAnswer": {"@type": "Answer", "text": "Melasma is a chronic condition without a permanent cure. Triggers \u2014 primarily UV exposure and hormonal factors \u2014 must be continuously managed. With consistent treatment (hydroquinone, tretinoin, daily sunscreen) and trigger avoidance, melasma can achieve significant lightening and become cosmetically acceptable. Discontinuing treatment often results in recurrence, especially with continued UV exposure. Long-term photoprotection and maintenance therapy are the cornerstone of melasma management per AAD melasma resources."}}]}, {"@context": "https://schema.org", "@type": "HowTo", "name": "How to Get Melasma (Facial Hyperpigmentation / Chloasma) Online in California", "description": "Three steps to receive melasma (facial hyperpigmentation / chloasma) evaluation and, if appropriate, a prescription from a California-licensed board-certified physician.", "totalTime": "PT30M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "79"}, "step": [{"@type": "HowToStep", "position": 1, "name": "Book your video visit", "text": "Visit teledirectmd.com and select California Melasma treatment. No referral needed. Self pay $79. Many visits available same day.", "url": "https://teledirectmd.com/book-online"}, {"@type": "HowToStep", "position": 2, "name": "See a California-licensed MD by secure video", "text": "Connect with a board-certified Family Medicine physician licensed in California. The physician reviews your symptoms, history, and red-flag screening. Consent per CA B&P Section 2290.5 confirmed.", "url": "https://teledirectmd.com/ca/melasma-treatment-online/"}, {"@type": "HowToStep", "position": 3, "name": "Receive your treatment plan and e-prescription", "text": "If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy during or after the visit.", "url": "https://teledirectmd.com/ca/melasma-treatment-online/"}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TeleDirectMD", "item": "https://teledirectmd.com"}, {"@type": "ListItem", "position": 2, "name": "California", "item": "https://teledirectmd.com/ca/"}, {"@type": "ListItem", "position": 3, "name": "Melasma (Facial Hyperpigmentation / Chloasma) Online in California", "item": "https://teledirectmd.com/ca/melasma-treatment-online/"}]}];
 
 const PAGE_CSS = `
 .tdmd-ca-cond{color:var(--tdmd-text);}
@@ -242,7 +242,7 @@ export default function CaMelasmaTreatmentOnline() {
               <div className="tdmd-hero-copy">
                 <h1 data-speakable="true">Melasma Treatment Online in California</h1>
                 <p className="tdmd-hero-sub" data-speakable="true">
-                  California adult care by secure video visit. Self pay $79 · Aetna in-network · UHC Commercial approved · AAD guideline-based melasma and facial hyperpigmentation care · CA B&P §2290.5 compliant.
+                  California adult care by secure video visit. Self pay $79 · Aetna in-network · UHC Commercial approved · Evidence-based melasma and facial hyperpigmentation care · CA B&P §2290.5 compliant.
                 </p>
                 <p>
                   Melasma is a condition commonly evaluated and, when appropriate, treated via telehealth. TeleDirectMD uses a safety-first approach, screening for red-flag symptoms that require in-person or emergency care before determining whether treatment by video visit is appropriate. This page is for adults located in California, including Los Angeles, San Diego, San Jose, San Francisco, Fresno, Sacramento, Long Beach, Oakland, Bakersfield, Anaheim, and surrounding areas.
@@ -251,7 +251,7 @@ export default function CaMelasmaTreatmentOnline() {
                 {/* v3: Inline opener paragraph — replaces CitableSummaryBlock */}
                 <div className="tdmd-condition-opener" id={`${pid}-opening`}>
                   <p>
-                    <strong>Can I get melasma (facial hyperpigmentation / chloasma) online in California?</strong> Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California and are held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. Self pay is $79. <a href="/insurance/">Aetna is in-network</a> as of April 30, 2026; UnitedHealthcare Commercial approved May 29, 2026.
+                    <strong>Can I get melasma (facial hyperpigmentation / chloasma) online in California?</strong> Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. Dr. Bhavsar is licensed in California and is held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. Self pay is $79. <a href="/insurance/">Aetna is in-network</a> as of April 30, 2026; UnitedHealthcare Commercial approved May 29, 2026.
                   </p>
                 </div>
 
@@ -290,9 +290,9 @@ export default function CaMelasmaTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> L81.1 (Chloasma / melasma)</p>
@@ -304,7 +304,7 @@ export default function CaMelasmaTreatmentOnline() {
                   <ul>
                     <li>Fast evaluation for melasma (facial hyperpigmentation / chloasma) symptoms</li>
                     <li>Red-flag screening for serious complications requiring in-person care</li>
-                    <li>Guideline-based treatment per AAD</li>
+                    <li>Evidence-based treatment informed by AAD resources</li>
                     <li>e-Prescriptions to your CA pharmacy under AB 2789</li>
                     <li>Clear follow-up steps and prevention guidance</li>
                   </ul>
@@ -373,7 +373,7 @@ export default function CaMelasmaTreatmentOnline() {
 
             <h3>Are melasma (facial hyperpigmentation / chloasma) medications controlled substances under California law?</h3>
             <p>
-              Hydroquinone 4% cream, tretinoin cream, azelaic acid gel, Tri-Luma, and tranexamic acid are not controlled substances. They can be prescribed via California telehealth and transmitted electronically to any California pharmacy under Assembly Bill 2789. California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022), per the <a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California</a>. TeleDirectMD does not prescribe controlled substances in any state.
+              Tretinoin cream, azelaic acid gel, Tri-Luma, and tranexamic acid are not controlled substances. They can be prescribed via California telehealth and transmitted electronically to any California pharmacy under Assembly Bill 2789. California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022), per the <a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California</a>. TeleDirectMD does not prescribe controlled substances in any state.
             </p>
           </div>
         </section>
@@ -403,7 +403,7 @@ export default function CaMelasmaTreatmentOnline() {
                   <h3>Receive your treatment plan and e-prescription</h3>
                   <p>If medication is clinically appropriate, a California-compliant e-prescription is sent to your chosen California pharmacy during or after the visit. You receive clear follow-up instructions regardless of treatment choice, including when to seek in-person care.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -419,7 +419,7 @@ export default function CaMelasmaTreatmentOnline() {
               Melasma affects an estimated 5–6 million Americans, with higher prevalence in women with darker skin tones (Fitzpatrick types III–VI), according to the American Academy of Dermatology. California's large Hispanic, Asian, South Asian, and Pacific Islander communities — all with higher melasma prevalence — and its high UV index year-round make California one of the highest-prevalence states. The California Department of Public Health (CDPH) Office of Health Hazard Assessment identifies UV exposure as a major dermatologic stressor in California. — <a href="https://www.aad.org/public/diseases/color-problems/melasma" rel="noopener" target="_blank">AAD — Melasma Overview</a>.
             </p>
             <p>
-              Clinical guidance for melasma (facial hyperpigmentation / chloasma) is provided by <a href="https://www.aad.org/public/diseases/color-problems/melasma" rel="noopener" target="_blank">AAD</a> through the AAD Melasma Management Guidelines. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for melasma (facial hyperpigmentation / chloasma) is provided by <a href="https://www.aad.org/public/diseases/color-problems/melasma" rel="noopener" target="_blank">AAD</a> through its melasma treatment resources. TeleDirectMD follows this guidance on every patient visit.
             </p>
             <h3>What causes melasma and who is most at risk in California?</h3>
             <p>
@@ -448,25 +448,6 @@ export default function CaMelasmaTreatmentOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical Melasma cost comparison">
-                <h3>Typical Melasma Visit Cost in California</h3>
-                <p className="tdmd-price-caption">Common ranges Californians see before insurance. Actual costs vary by setting and city.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 16, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical California metro pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <h3 style={{ marginTop: '1.75rem' }}>California Payor Status — TeleDirectMD</h3>
@@ -504,7 +485,7 @@ export default function CaMelasmaTreatmentOnline() {
               </table>
             </div>
             <p style={{ marginTop: '1rem' }}>
-              View all <a href="/insurance">insurance options</a> or <a href="/book-online">book a $79 self-pay visit</a>.
+              View all <a href="/insurance/">insurance options</a> or <a href="/book-online/">book a $79 self-pay visit</a>.
             </p>
           </div>
         </section>
@@ -531,15 +512,9 @@ export default function CaMelasmaTreatmentOnline() {
                 </thead>
                 <tbody>
                   <tr className="tdmd-ca-uti__med-firstline">
-                    <td><strong>Hydroquinone 4% cream</strong> · First-line</td>
-                    <td>Apply to hyperpigmented areas at night — always use broad-spectrum SPF 50+ in AM. Use in 3-month cycles per AAD</td>
-                    <td><a href="https://www.goodrx.com/hydroquinone" target="_blank" rel="noopener">~$20–$50 / 45g</a></td>
-                    <td>Gold standard topical depigmenting agent per AAD. Use in 3-month cycles (on/off) to prevent ochronosis. Must combine with daily broad-spectrum sunscreen. Not for use in pregnancy.</td>
-                  </tr>
-                  <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Tretinoin 0.025%–0.05% cream</strong> · First-line</td>
                     <td>Apply at night, after hydroquinone, pea-sized amount</td>
-                    <td><a href="https://www.goodrx.com/tretinoin-topical" target="_blank" rel="noopener">~$18–$40 / 20g</a></td>
+                    <td><a href="https://www.goodrx.com/tretinoin" target="_blank" rel="noopener">~$18–$40 / 20g</a></td>
                     <td>Retinoid enhances hydroquinone efficacy and independently lightens hyperpigmentation per AAD. Not for use in pregnancy.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
@@ -614,7 +589,7 @@ export default function CaMelasmaTreatmentOnline() {
                 <p>Book a same-day video visit — California adults, 18+</p>
                 <small>Self pay $79 &middot; Aetna in-network &middot; UHC Commercial approved May 2026 &middot; No ER wait</small>
               </div>
-              <a className="tdmd-ca-cond__cta-btn" href="/book-online" rel="noopener">Book Now &rarr;</a>
+              <a className="tdmd-ca-cond__cta-btn" href="/book-online/" rel="noopener">Book Now &rarr;</a>
             </div>
           </div>
         </section>
@@ -632,8 +607,8 @@ export default function CaMelasmaTreatmentOnline() {
                 <p>Book a same-day video visit. Self pay $79 &middot; Aetna in-network &middot; UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -652,10 +627,6 @@ export default function CaMelasmaTreatmentOnline() {
               <a key="rosacea-treatment-online" className="tdmd-ca-uti__sibling" href="/ca/rosacea-treatment-online/">
                   <span className="tdmd-ca-uti__sibling-label">Rosacea Treatment in CA</span>
                   <span className="tdmd-ca-uti__sibling-why">Facial skin condition — photosensitive comorbidity.</span>
-                </a>
-              <a key="perioral-dermatitis-treatment-online" className="tdmd-ca-uti__sibling" href="/ca/perioral-dermatitis-treatment-online/">
-                  <span className="tdmd-ca-uti__sibling-label">Perioral Dermatitis Treatment in CA</span>
-                  <span className="tdmd-ca-uti__sibling-why">Perioral pigmentation changes.</span>
                 </a>
               <a key="tinea-versicolor-treatment-online" className="tdmd-ca-uti__sibling" href="/ca/tinea-versicolor-treatment-online/">
                   <span className="tdmd-ca-uti__sibling-label">Tinea Versicolor Treatment in CA</span>
@@ -684,10 +655,10 @@ export default function CaMelasmaTreatmentOnline() {
               <a href="/melasma-treatment-online/">National Melasma page</a>
               <a href="/health-guides/">Melasma health guides</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/insurance">Insurance</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/insurance/">Insurance</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>
@@ -703,8 +674,7 @@ export default function CaMelasmaTreatmentOnline() {
               <li><a href="https://www.mbc.ca.gov/Licensees/Telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 (AB 744). Retrieved 2026-05-22.</a></li>
               <li><a href="https://oehha.ca.gov/" rel="noopener" target="_blank">CDPH — Office of Health Hazard Assessment. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/hydroquinone" rel="noopener" target="_blank">GoodRx — Hydroquinone. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/tretinoin-topical" rel="noopener" target="_blank">GoodRx — Tretinoin. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/tretinoin" rel="noopener" target="_blank">GoodRx — Tretinoin. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.goodrx.com/azelaic-acid" rel="noopener" target="_blank">GoodRx — Azelaic Acid. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.goodrx.com/tri-luma" rel="noopener" target="_blank">GoodRx — Tri-Luma. Retrieved 2026-05-22.</a></li>
             </ol>

@@ -3,12 +3,12 @@
   "conditionShort": "Poison Ivy/Oak",
   "conditionSlug": "poison-ivy-oak-treatment-online",
   "pageTitle": "Poison Ivy & Oak Online Treatment in {state} | TeleDirectMD",
-  "metaDescription": "Evidence-based poison ivy and poison oak treatment for {state} adults by secure video visit. Red-flag screening, corticosteroid prescriptions when clinically appropriate, and home care guidance. Self pay option starting at $79. Insurance is not required.",
+  "metaDescription": "Evidence-based poison ivy and poison oak treatment for {state} adults by secure video visit. Red-flag screening, corticosteroid prescriptions when clinically appropriate, and home care guidance. Flat $79 self-pay option. Insurance is not required.",
   "ogImageAlt": "Poison ivy and poison oak treatment in {state} by TeleDirectMD",
   "hero": {
     "h1": "Poison Ivy and Poison Oak Treatment in {state} (Urushiol Contact Dermatitis)",
-    "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
-    "introParagraph": "Poison ivy, poison oak, and poison sumac cause allergic contact dermatitis from urushiol oil, an oily resin found on the leaves, stems, and roots of these plants. The classic presentation is an intensely itchy, linear or streaky vesicular rash appearing 1 to 3 days after skin contact with the plant. Approximately 50 to 70 percent of the US population is sensitized to urushiol and will develop a rash after exposure. A critical point often misunderstood is that the rash does not spread from person to person, and the fluid inside blisters is not contagious. The rash may appear to spread over several days because different skin areas had different levels of urushiol exposure. AAD guidelines emphasize that washing the skin with lukewarm soapy water within 30 minutes of exposure can reduce severity by approximately 50 percent. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including facial or genital involvement, difficulty breathing or swallowing, signs of secondary infection, widespread rash covering most of the body, and urushiol smoke inhalation before determining whether treatment by video visit is appropriate. If the history and photo assessment support mild to moderate urushiol dermatitis without red flags, guideline-based treatment with topical or oral corticosteroids may be prescribed by video, while adults with severe, widespread, or complicated presentations are directed to urgent in-person or emergency care. This page is for adults located in {state}, including {cities}.",
+    "subtitle": "{state} adult care by secure video visit, flat $79 self-pay option, MD-only, insurance is not required.",
+    "introParagraph": "Poison ivy, poison oak, and poison sumac cause allergic contact dermatitis from urushiol oil, an oily resin found on the leaves, stems, and roots of these plants. The classic presentation is an intensely itchy, linear or streaky vesicular rash appearing 1 to 3 days after skin contact with the plant. Approximately 50 to 70 percent of the US population is sensitized to urushiol and will develop a rash after exposure. A critical point often misunderstood is that the rash does not spread from person to person, and the fluid inside blisters is not contagious. The rash may appear to spread over several days because different skin areas had different levels of urushiol exposure. AAD guidance emphasizes rinsing the skin with lukewarm soapy water right after exposure, which can wash off some of the urushiol and lessen the rash. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including facial or genital involvement, difficulty breathing or swallowing, signs of secondary infection, widespread rash covering most of the body, and urushiol smoke inhalation before determining whether treatment by video visit is appropriate. If the history and photo assessment support mild to moderate urushiol dermatitis without red flags, guideline-based treatment with topical or oral corticosteroids may be prescribed by video, while adults with severe, widespread, or complicated presentations are directed to urgent in-person or emergency care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
       {
         "href": "eligibility-checklist",
@@ -32,7 +32,7 @@
       }
     ],
     "benefits": [
-      "Self pay option starting at $79",
+      "Flat $79 self-pay option",
       "MD-only care (no mid-levels)",
       "Insurance is not required",
       "Licensed telehealth care for patients located in {state} at the time of the visit"
@@ -110,7 +110,7 @@
     "rows": [
       {
         "option": "TeleDirectMD",
-        "cost": "Self pay option starting at $79",
+        "cost": "Flat $79 self-pay option",
         "wait": "Same day, often within hours",
         "provider": "Board-certified MD only (no mid-levels)",
         "bestFor": "Mild to moderate urushiol rash without red flags, with corticosteroid prescriptions and home care guidance when clinically appropriate",
@@ -118,7 +118,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Moderate to severe rash needing in-person exam, uncertain diagnosis, possible secondary infection, or facial or genital involvement",
@@ -126,7 +126,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Difficulty breathing or swallowing, severe facial swelling, anaphylaxis-like reaction, urushiol smoke inhalation, or widespread rash with systemic symptoms",
@@ -134,7 +134,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $250+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "3 to 14 days typical",
         "provider": "Family medicine or internal medicine MD or DO",
         "bestFor": "Follow-up for persistent symptoms, recurrent plant dermatitis, or managing complications from prolonged steroid use",
@@ -142,7 +142,7 @@
       },
       {
         "option": "Dermatology",
-        "cost": "$150 to $400+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks (varies)",
         "provider": "Dermatologist MD or DO",
         "bestFor": "Atypical rash not clearly from plant contact, severe or treatment-resistant cases, or suspected secondary conditions needing biopsy",
@@ -200,7 +200,7 @@
     "sectionTitle": "What Does Poison Ivy/Oak Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "$79 flat visit · no insurance required · generic prednisone/topical steroids often $8–$20",
+    "priceSubtext": "$79 flat visit · no insurance required · prescriptions priced separately",
     "includes": [
       "MD evaluation and red-flag screening",
       "Photo-based assessment of rash pattern, severity, and distribution",
@@ -215,27 +215,9 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $250+",
-        "width": 45,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 55,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
-    "footnote": "Total cost is transparent: the $79 visit plus a generic oral prednisone taper or topical steroid (typically $8–$20 with a pharmacy coupon) means most patients pay about $87–$99 all-in — no membership, with a longer taper used to avoid the rebound flares seen with short dose packs.",
+    "footnote": "Total cost is transparent: the visit is $79 flat, and any prescription is paid separately at the pharmacy, where prices vary by medication and pharmacy. No membership, with a longer taper used to avoid the rebound flares seen with short dose packs.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -391,7 +373,7 @@
   },
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
-    "intro": "Poison ivy and poison oak treatment focuses on reducing the allergic inflammatory response, managing itching, preventing secondary infection, and decontaminating all surfaces that may carry residual urushiol oil. The AAD emphasizes that washing the skin with lukewarm soapy water within 30 minutes of exposure can reduce severity by approximately 50 percent. Treatment intensity is guided by the percentage of body surface area involved and the severity of symptoms.",
+    "intro": "Poison ivy and poison oak treatment focuses on reducing the allergic inflammatory response, managing itching, preventing secondary infection, and decontaminating all surfaces that may carry residual urushiol oil. The AAD emphasizes rinsing the skin with lukewarm soapy water right after exposure, which can wash off some of the urushiol and lessen the rash. Treatment intensity is guided by the percentage of body surface area involved and the severity of symptoms.",
     "sections": [
       {
         "title": "Immediate decontamination",
@@ -551,7 +533,7 @@
       },
       {
         "question": "How much does online poison ivy/oak treatment cost in {state}?",
-        "answer": "TeleDirectMD offers a transparent self pay option starting at $79 for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy."
+        "answer": "TeleDirectMD offers a transparent flat $79 self-pay option for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy."
       },
       {
         "question": "Can poison ivy rash spread from person to person?",
@@ -587,7 +569,7 @@
       },
       {
         "question": "Does TeleDirectMD treat poison ivy in other states?",
-        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states where our physicians are licensed. You must be physically located in the state where you are requesting care at the time of your video visit."
+        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states where Dr. Bhavsar is licensed. You must be physically located in the state where you are requesting care at the time of your video visit."
       },
       {
         "question": "Can I use my insurance for a TeleDirectMD visit?",
@@ -603,7 +585,7 @@
       },
       {
         "question": "How much does online poison ivy treatment cost without insurance in {state}?",
-        "answer": "The visit is $79 flat, no insurance required, and a generic oral prednisone taper or topical steroid typically adds $8 to $20 at the pharmacy, so most patients pay under $100 total."
+        "answer": "The visit is $79 flat, paid at booking, with no insurance required. Any prescription is paid separately at the pharmacy, and its price varies by medication and pharmacy, so ask the pharmacy for its price before you fill it."
       },
       {
         "question": "My 6-day Medrol dose pack didn't work and my poison ivy rash came back — what now in {state}?",
@@ -621,8 +603,8 @@
       "url": "https://www.aad.org/public/everyday-care/itchy-skin/poison-ivy/treat-rash"
     },
     {
-      "text": "CDC/NIOSH — Poisonous Plants: Prevention and Treatment",
-      "url": "https://www.cdc.gov/niosh/topics/plants/default.html"
+      "text": "CDC/NIOSH — Poisonous Plants and Work",
+      "url": "https://www.cdc.gov/niosh/outdoor-workers/about/poisonous-plants.html"
     },
     {
       "text": "Gladman AC. Toxicodendron Dermatitis: Poison Ivy, Oak, and Sumac. Wilderness Environ Med. 2006;17(2):120-128.",
@@ -633,16 +615,15 @@
       "url": "https://www.ncbi.nlm.nih.gov/books/NBK459230/"
     },
     {
-      "text": "Kim Y, et al. Allergic Contact Dermatitis to Plants. Dermatitis. 2022;33(1):13-22.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/34366398/"
+      "text": "Kim Y, Flamm A, ElSohly MA, et al. Poison Ivy, Oak, and Sumac Dermatitis: What Is Known and What Is New? Dermatitis. 2019;30(3):183-190.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31045932/"
     }
   ],
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
       "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate poison ivy and poison oak rash symptoms, provide evidence-based guidance, and prescribe corticosteroid treatment when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
-      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during suspected airway compromise, severe facial swelling, widespread rash with systemic symptoms, or secondary infection. This service is intended for mild to moderate urushiol contact dermatitis and is not a substitute for comprehensive in-person evaluation when red flags are present.",
-      "Online poison ivy treatment in {state}. Poison oak rash prescription online. Urushiol dermatitis treatment by video visit."
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during suspected airway compromise, severe facial swelling, widespread rash with systemic symptoms, or secondary infection. This service is intended for mild to moderate urushiol contact dermatitis and is not a substitute for comprehensive in-person evaluation when red flags are present."
     ]
   },
   "relatedConditions": [
@@ -790,14 +771,14 @@
     ],
     "guidelines": [
       {
-        "name": "AAD Poison Ivy Treatment Guidelines",
+        "name": "AAD Poison Ivy Treatment Resources",
         "url": "https://www.aad.org/public/everyday-care/itchy-skin/poison-ivy/treat-rash",
         "publisher": "American Academy of Dermatology",
         "id": "aad"
       },
       {
         "name": "CDC/NIOSH Poisonous Plants",
-        "url": "https://www.cdc.gov/niosh/topics/plants/default.html",
+        "url": "https://www.cdc.gov/niosh/outdoor-workers/about/poisonous-plants.html",
         "publisher": "Centers for Disease Control and Prevention",
         "id": "cdc"
       },

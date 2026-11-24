@@ -2,7 +2,7 @@
 // ─────────────────────────────────────────────────────────────────────────────
 // inject-health-guides-citable.js
 //
-// Injects citableSummary block + FAQPage schema into each /public/health-guides
+// Injects the visible citableSummary block (no separate schema since 2026-11-19) into each /public/health-guides
 // /{slug}/index.html using authored summaries from data/health-guides-citable.json.
 //
 // 2026-05-19: Migrated from QAPage → FAQPage (per Google policy, QAPage is for
@@ -58,27 +58,10 @@ function extractSchemaDates(html) {
 
 function renderBlock(slug, entry, dates) {
   const pageUrl = `https://teledirectmd.com/health-guides/${slug}/`;
-  const faqSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    '@id': `${pageUrl}#faq`,
-    'isPartOf': { '@id': `${pageUrl}#webpage` },
-    'datePublished': dates.datePublished,
-    'dateModified': dates.dateModified,
-    'author': {
-      '@type': 'Physician',
-      'name': DOCTOR,
-      'sameAs': `https://npiregistry.cms.hhs.gov/provider-view/${NPI}`,
-    },
-    'mainEntity': [{
-      '@type': 'Question',
-      'name': entry.question,
-      'acceptedAnswer': {
-        '@type': 'Answer',
-        'text': stripHtml(entry.answerHtml),
-      },
-    }],
-  };
+  // 2026-11-19: no FAQPage JSON-LD here any more. Each guide's head @graph already
+  // carries one FAQPage that mirrors its visible FAQ; a second FAQPage from this
+  // block gave pages two FAQ blocks (some with the same @id). The summary stays
+  // visible on the page, which is what readers and AI crawlers read.
   const css = [
     'background:#FFFFFF',
     'border:1px solid #C2E0E5',
@@ -100,7 +83,6 @@ function renderBlock(slug, entry, dates) {
   <div style="margin:0;color:#0A2438;font-size:0.97rem;">${entry.answerHtml}</div>
   <div style="${metaCss}">Medically reviewed by ${escapeHtml(DOCTOR)}. Updated ${reviewed}.</div>
 </section>
-<script type="application/ld+json">${JSON.stringify(faqSchema)}</script>
 ${MARKER_END}`;
 }
 
@@ -125,12 +107,12 @@ function injectIntoFile(slug, entry) {
   // Idempotent: if a block exists, replace it. Otherwise insert after </header>.
   if (html.includes(MARKER_START)) {
     const re = new RegExp(MARKER_START + '[\\s\\S]*?' + MARKER_END, 'g');
-    html = html.replace(re, block);
+    html = html.replace(re, () => block);
   } else {
     // Insert after the first </header> closing tag of the article-header
     const headerCloseRegex = /(<\/header>)/;
     if (!headerCloseRegex.test(html)) return { slug, status: 'no-header' };
-    html = html.replace(headerCloseRegex, `$1\n${block}`);
+    html = html.replace(headerCloseRegex, (m) => `${m}\n${block}`);
   }
 
   fs.writeFileSync(filePath, html);

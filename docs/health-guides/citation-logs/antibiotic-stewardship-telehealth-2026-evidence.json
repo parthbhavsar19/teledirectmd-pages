@@ -1,0 +1,678 @@
+{
+  "guide": "antibiotic-stewardship-telehealth-2026-evidence",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 16 verified, retractions: none (16 DOIs checked, including cut former ref Gupta 2011, 10.1093/cid/ciq257; no editorial notices; contrasting citations flagged for refs 4, 9, 11, 12, 13 and the cut Gupta ref, see entry notes)",
+  "pubmed_article_types": "No 'Retracted Publication' or 'Retraction Notice' article type on any cited PMID (checked 2026-11-15).",
+  "references": [
+    {
+      "n": 1,
+      "kind": "journal",
+      "cited_as": "Sine K, Appaneal H, Dosa D, LaPlante KL. Clin Infect Dis. 2022;75(12):2260-2265.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9384578/",
+      "pmid": "35906829",
+      "pmcid": "PMC9384578",
+      "doi": "10.1093/cid/ciac598",
+      "record_title": "Antimicrobial Prescribing in the Telehealth Setting: Framework for Stewardship During a Period of Rapid Acceleration Within Primary Care.",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2022",
+      "article_type": "Review",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC body empty, abstract only); Scite verify_papers",
+      "notes": "Abstract-only; claims limited to abstract. Previous claim about early DTC prescribing rates was not in this source and was moved to primary studies (refs 11, 12).",
+      "claims": [
+        {
+          "text": "Antibiotic resistance is a global public health threat",
+          "quote": "Antibiotic resistance is a global public health threat.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Telehealth in primary care expanded rapidly since COVID-19 and growth is outpacing stewardship knowledge",
+          "quote": "The rapid growth of telehealth for all types of primary care visits (not just antibiotic use) is outpacing knowledge associated with strategies for antimicrobial stewardship.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Telehealth brings limited physical examination and changes to the patient-physician relationship",
+          "quote": "The use of telehealth in primary care presents unique barriers to antimicrobial stewardship, including limited physical examination and changes to the patient-provider relationship.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "A 2022 review proposed applying the four Core Elements to telehealth primary care",
+          "quote": "Our review proposes a tailored, sustainable approach to antimicrobial prescribing in the telehealth setting based on the Centers for Disease Control and Prevention's Core Elements of Outpatient Antibiotic Stewardship",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Cuellar A, Pomeroy JML, Burla S, Jena AB. J Gen Intern Med. 2022;37(12):3202-3204.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8769091/",
+      "pmid": "35048296",
+      "pmcid": "PMC8769091",
+      "doi": "10.1007/s11606-021-07354-8",
+      "record_title": "Quality of Antibiotic Prescribing in a Large Direct-to-Patient Telehealth Program: an Observational Study.",
+      "record_journal": "J Gen Intern Med",
+      "record_year": "2022",
+      "article_type": "Observational Study",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC full text); Scite verify_papers",
+      "notes": "Previously printed as 'Ray MJ et al., Clinical Infectious Diseases' with findings reversed; corrected to the retrieved record and its actual findings.",
+      "claims": [
+        {
+          "text": "2,400,198 patient visits analyzed; adults 18 to 64 in a large national insurer's televisit benefit",
+          "quote": "we analyzed claims data for individuals aged 18–64 years ... Overall, 2,400,198 patient visits were analyzed and the results were mixed.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Televisits had comparable antibiotic use for URI, bronchitis and sinusitis but higher for pharyngitis and uncomplicated UTI",
+          "quote": "televisits were associated with comparable rates of antibiotic use in URIs, bronchitis, and sinusitis, relative to most other sites, but higher rates in pharyngitis and uncomplicated UTIs",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "When antibiotics were prescribed, guideline concordance comparable to several other settings",
+          "quote": "When antibiotics were prescribed, rates of guideline concordance were comparable between televisits and several other settings",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Group A strep testing 2.1% of televisits vs 58.0% of primary care visits among pharyngitis patients given antibiotics",
+          "quote": "Patients with pharyngitis who received antibiotics were less likely to receive Group A Strep testing for televisits compared with primary care (2.1% vs. 58.0%",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 3,
+      "kind": "journal",
+      "cited_as": "Johnson KM, Dumkow LE, Burns KW, Yee MA, Egwuatu NE. Open Forum Infect Dis. 2019;6(9):ofz393.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6778270/",
+      "pmid": "31660415",
+      "pmcid": "PMC6778270",
+      "doi": "10.1093/ofid/ofz393",
+      "record_title": "Comparison of Diagnosis and Prescribing Practices Between Virtual Visits and Office Visits for Adults Diagnosed With Sinusitis Within a Primary Care Network.",
+      "record_journal": "Open Forum Infect Dis",
+      "record_year": "2019",
+      "article_type": "Journal Article (retrospective cohort per abstract)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "notes": "Text previously credited this study to 'Shi et al.'; corrected to Johnson and colleagues. Speculative structured-intake explanation removed.",
+      "claims": [
+        {
+          "text": "Retrospective cohort, 350 adults with sinusitis in one primary care network",
+          "quote": "This retrospective cohort study evaluated adult patients diagnosed with sinusitis treated within a single primary care network. ... A total of 350 patients were included",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Guideline-concordant diagnosis 69.1% vs 45.7%",
+          "quote": "more likely to receive a guideline-concordant diagnosis in the virtual visit group (69.1% vs 45.7%",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Virtual visits less likely to receive antibiotics (68.6% vs 94.3%)",
+          "quote": "patients who completed virtual visits were less likely to receive antibiotics (68.6% vs 94.3%",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Guideline-concordant antibiotic selection similar (67.5% vs 64.8%)",
+          "quote": "Guideline-concordant antibiotic selection was similar between groups (67.5% vs 64.8%",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "More revisits within 24 hours (8% vs 1.7%) and 30 days (14.9% vs 7.4%) after virtual visits",
+          "quote": "more likely to revisit for sinusitis within 24 hours (8% vs 1.7%;= .006) and within 30 days (14.9% vs 7.4%",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Bakhit M, Baillie E, Krzyzaniak N, van Driel M, Clark J, Glasziou P, Del Mar C. BJGP Open. 2021;5(6).",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9447298/",
+      "pmid": "34497096",
+      "pmcid": "PMC9447298",
+      "doi": "10.3399/BJGPO.2021.0106",
+      "record_title": "Antibiotic prescribing for acute infections in synchronous telehealth consultations: a systematic review and meta-analysis.",
+      "record_journal": "BJGP Open",
+      "record_year": "2021",
+      "article_type": "Journal Article (systematic review and meta-analysis per title)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "notes": "Previously printed without authors and dated 2022. Scite flags one contrasting citation (preprint 10.21203/rs.3.rs-8041551/v1) on UTI virtual-care prescribing; page does not overstate the review.",
+      "claims": [
+        {
+          "text": "13 studies; no consistent pattern when pooled by infection",
+          "quote": "Thirteen studies were identified. ... When pooled by specific infections, there was no consistent pattern.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Six sinusitis studies showed less TH prescribing; two acute otitis media studies a significant increase",
+          "quote": "The six studies of sinusitis - including one before-after study - showed significantly less prescribing for acute rhinosinusitis in TH consultations, whereas the two studies of acute otitis media showed a significant increase.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Effects vary by condition with more increases than reductions; insufficient evidence for strong conclusions",
+          "quote": "The impact of TH on prescribing appears to vary between conditions, with more increases than reductions. There is insufficient evidence to draw strong conclusions",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Suzuki H, Marra AR, Hasegawa S, et al. Antimicrob Steward Healthc Epidemiol. 2021;1(1):e24.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9495625/",
+      "pmid": "36168456",
+      "pmcid": "PMC9495625",
+      "doi": "10.1017/ash.2021.179",
+      "record_title": "Outpatient antibiotic prescribing for common infections via telemedicine versus face-to-face visits: Systematic literature review and meta-analysis.",
+      "record_journal": "Antimicrob Steward Healthc Epidemiol",
+      "record_year": "2021",
+      "article_type": "Journal Article (systematic review and meta-analysis per title)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "notes": "Link changed from an over-long Cambridge URL the audit could not open to the PMC record listed in PubMed metadata.",
+      "claims": [
+        {
+          "text": "23 studies included",
+          "quote": "23 studies (1 randomized control study, 22 observational studies) were included in the systematic literature review",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "More prescribing via telemedicine for otitis media (OR 1.26) and pharyngitis (OR 1.16)",
+          "quote": "providers prescribed antibiotics more frequently via telemedicine for otitis media (pooled odds ratio [OR], 1.26; ... and pharyngitis (pooled OR, 1.16",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "No significant difference for sinusitis, URI or UTI",
+          "quote": "We detected no significant difference in the frequencies of antibiotic prescribing for sinusitis (pooled OR, 0.86; 95% CI, 0.70-1.06; I= 91%), URI ... or UTI",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Substantial heterogeneity",
+          "quote": "The interpretation of these findings requires caution due to substantial heterogeneity among available studies.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 6,
+      "kind": "journal",
+      "cited_as": "Ray KN, Martin JM, Wolfson D, et al. Acad Pediatr. 2021;21(7):1239-1243.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33741531/",
+      "pmid": "33741531",
+      "doi": "10.1016/j.acap.2021.03.008",
+      "record_title": "Antibiotic Prescribing for Acute Respiratory Tract Infections During Telemedicine Visits Within a Pediatric Primary Care Network.",
+      "record_journal": "Acad Pediatr",
+      "record_year": "2021",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "notes": "Evidence table previously labeled this as 'Systematic review, Kouri et al. 2021'; corrected.",
+      "claims": [
+        {
+          "text": "8,332 ARTI visits, 47 practices",
+          "quote": "Using electronic health record data from 47 practices ... 8332 ARTI visits were identified",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Guideline-concordant management 92.5% telemedicine vs 90.7% in person",
+          "quote": "Guideline-concordant antibiotic management occurred in 92.5% of telemedicine visits compared to 90.7% of in-person office visits",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Active stewardship included learning collaborative videoconferences and clinician-level dashboards",
+          "quote": "Antibiotic stewardship during the study period included learning collaborative videoconferences and sharing of clinic and clinician-level metrics through an interactive dashboard.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 7,
+      "kind": "journal",
+      "cited_as": "Madaras-Kelly K, Hostler C, Townsend M, et al. Clin Infect Dis. 2021;73(5):e1126-e1134.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33289028/",
+      "pmid": "33289028",
+      "doi": "10.1093/cid/ciaa1831",
+      "record_title": "Impact of Implementation of the Core Elements of Outpatient Antibiotic Stewardship Within Veterans Health Administration Emergency Departments and Primary Care Clinics on Antibiotic Prescribing and Patient Outcomes.",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2021",
+      "article_type": "Journal Article (quasiexperimental controlled study per abstract)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers (Scite lists year 2020, online first)",
+      "notes": "Previously printed as 'King LM et al.' with a paraphrased title; corrected. Page now states it was not a telehealth study.",
+      "claims": [
+        {
+          "text": "Prescribing for uncomplicated respiratory infections fell 59.7% to 41.5% at intervention vs 73.5% to 67.2% at control sites",
+          "quote": "Antibiotic prescribing rates pre- and post-implementation within intervention sites were 59.7% and 41.5%, compared to 73.5% and 67.2% within control sites",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Implementation associated with reduced prescribing and a reduction in hospitalizations",
+          "quote": "Implementation of the core elements was associated with reduced antibiotic prescribing for RIs and a reduction in hospitalizations.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Setting was VHA emergency departments and primary care clinics, quasi-experimental",
+          "quote": "In this quasiexperimental controlled study, effects of an intervention targeting antibiotic prescription for uncomplicated acute respiratory tract infections (ARIs) were assessed.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 8,
+      "kind": "guideline",
+      "cited_as": "Chow AW, Benninger MS, Brook I, et al. Clin Infect Dis. 2012;54(8):e72-e112.",
+      "url": "https://academic.oup.com/cid/article/54/8/e72/367144",
+      "pmid": "22438350",
+      "doi": "10.1093/cid/cir1043",
+      "record_title": "IDSA clinical practice guideline for acute bacterial rhinosinusitis in children and adults.",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2012",
+      "article_type": "Practice Guideline",
+      "version_or_date": "IDSA 2012 guideline (published March 2012); read 2026-11-15",
+      "retrieved_with": "PubMed get_article_metadata; WebFetch of OUP guideline page; Scite verify_papers (Scite title shows 'Executive Summary' for this DOI; PubMed record is the full guideline e72-e112)",
+      "notes": "Fever criterion reworded to the guideline's own wording (high fever with purulent nasal discharge or facial pain); double-sickening detail added from the same recommendation.",
+      "claims": [
+        {
+          "text": "Any of three presentations identify bacterial vs viral rhinosinusitis",
+          "quote": "The following clinical presentations (any of 3) are recommended for identifying patients with acute bacterial vs viral rhinosinusitis:",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Persistent symptoms 10 or more days without improvement",
+          "quote": "lasting for ≥10 days without any evidence of clinical improvement",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Severe onset: high fever 39C/102F with purulent discharge or facial pain for at least 3 to 4 consecutive days",
+          "quote": "Onset with severe symptoms or signs of high fever (≥39°C [102°F]) and purulent nasal discharge or facial pain ... lasting for at least 3–4 consecutive days at the beginning of illness",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Double-sickening after a viral URI lasting 5 to 6 days that was initially improving",
+          "quote": "Onset with worsening symptoms or signs characterized by the new onset of fever, headache, or increase in nasal discharge following a typical viral URI that lasted 5–6 days and were initially improving",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 9,
+      "kind": "guideline",
+      "cited_as": "Nicolle LE, Gupta K, Bradley SF, et al. Clin Infect Dis. 2019;68(10):e83-e110.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30895288/",
+      "pmid": "30895288",
+      "doi": "10.1093/cid/ciy1121",
+      "record_title": "Clinical Practice Guideline for the Management of Asymptomatic Bacteriuria: 2019 Update by the Infectious Diseases Society of America.",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2019",
+      "article_type": "Practice Guideline",
+      "version_or_date": "IDSA 2019 update; read 2026-11-15",
+      "retrieved_with": "PubMed get_article_metadata; WebFetch of OUP guideline page (recommendations); Scite verify_papers; Scite read_fulltext (abstract only)",
+      "notes": "Replaces former ref 9 (Gupta 2011 cystitis treatment guideline, which did not support the asymptomatic bacteriuria claim). Previously an unnumbered inline link in the body. Scite flags one contrasting citation (10.1177/0018578719888911) reporting continued ASB treatment in practice; it does not dispute the recommendation.",
+      "claims": [
+        {
+          "text": "Treating ASB recognized as important contributor to inappropriate antimicrobial use, promoting resistance",
+          "quote": "antimicrobial treatment of ASB has been recognized as an important contributor to inappropriate antimicrobial use, which promotes emergence of antimicrobial resistance.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Recommends against screening for or treating ASB in healthy premenopausal non-pregnant and healthy postmenopausal women",
+          "quote": "In healthy premenopausal, nonpregnant women or healthy postmenopausal women, we recommend against screening for or treating ASB",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Recommends screening and treatment in pregnancy",
+          "quote": "In pregnant women, we recommend screening for and treating ASB",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Recommends screening and treatment before endoscopic urologic procedures with mucosal trauma",
+          "quote": "In patients who will undergo endoscopic urologic procedures associated with mucosal trauma, we recommend screening for and treating ASB prior to surgery",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 10,
+      "kind": "journal",
+      "cited_as": "Rangraz Jeddi F, Nabovati E, Sharif R, Sharif AS, Anvari S. BMC Infect Dis. 2025;25(1):1752.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12751869/",
+      "pmid": "41462120",
+      "pmcid": "PMC12751869",
+      "doi": "10.1186/s12879-025-12170-0",
+      "record_title": "The effects of information technology interventions for optimizing antibiotic prescribing in urinary tract infections: a systematic review.",
+      "record_journal": "BMC Infect Dis",
+      "record_year": "2025",
+      "article_type": "Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "notes": "Previously overstated as showing decision support is 'among the most consistent predictors' with 'no signal of patient harm'; rewritten to the review's mixed findings.",
+      "claims": [
+        {
+          "text": "Ten randomized or cluster randomized trials",
+          "quote": "Ten eligible studies (5 RCTs and 5 CRCTs) were included.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Four reduced overall prescribing, two increased appropriateness, patient outcomes no significant differences; mixed effects",
+          "quote": "Results showed mixed effects ... patient outcomes, typically measured as secondary endpoints, showed no statistically significant differences ... Four studies reported significant reductions in overall antibiotic prescribing rates, and two studies demonstrated significant increases in antibiotic appropriateness.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 11,
+      "kind": "journal",
+      "cited_as": "Uscher-Pines L, Mulcahy A, Cowling D, Hunter G, Burns R, Mehrotra A. JAMA Intern Med. 2015;175(7):1234-1235.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26011763/",
+      "pmid": "26011763",
+      "pmcid": "PMC13229564",
+      "doi": "10.1001/jamainternmed.2015.2024",
+      "record_title": "Antibiotic Prescribing for Acute Respiratory Infections in Direct-to-Consumer Telemedicine Visits.",
+      "record_journal": "JAMA Intern Med",
+      "record_year": "2015",
+      "article_type": "Journal Article (research letter, no abstract)",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC full text); Scite verify_papers",
+      "notes": "New. Primary source for the early DTC concern formerly attributed to ref 1. Scite contrasting citation is Shi 2018 (ref 13), which the page presents.",
+      "claims": [
+        {
+          "text": "Overall ARI antibiotic prescribing 58% vs 55%",
+          "quote": "The adjusted antibiotic prescribing rate for all ARI visits was 58% for Teladoc vs 55% at physician offices",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Broad-spectrum share 86% vs 56% when prescribed",
+          "quote": "the adjusted broad-spectrum antibiotic prescribing rate for all ARI visits was 86% for Teladoc vs 56% at physician offices",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Claims from one public-employee health plan, adults",
+          "quote": "In April 2012, the California Public Employees' Retirement System first offered Teladoc as a covered benefit. We limited the study population to members aged 18 to 64 years",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 12,
+      "kind": "journal",
+      "cited_as": "Ray KN, Shi Z, Gidengil CA, Poon SJ, Uscher-Pines L, Mehrotra A. Pediatrics. 2019;143(5).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30962253/",
+      "pmid": "30962253",
+      "pmcid": "PMC6565339",
+      "doi": "10.1542/peds.2018-2491",
+      "record_title": "Antibiotic Prescribing During Pediatric Direct-to-Consumer Telemedicine Visits.",
+      "record_journal": "Pediatrics",
+      "record_year": "2019",
+      "article_type": "Journal Article (retrospective cohort per abstract)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "notes": "New. A published letter (PMID 31366684) comments on this paper. Scite contrasting citation (Israel data, 10.1016/j.cmi.2022.02.035) reports lower telemedicine prescribing in a different health system; page frames findings as setting-dependent.",
+      "claims": [
+        {
+          "text": "Antibiotics at 52% DTC vs 42% urgent care vs 31% PCP visits",
+          "quote": "Antibiotic prescribing was higher for DTC telemedicine visits than for other settings (52% of DTC telemedicine visits versus 42% urgent care and 31% PCP visits",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Guideline-concordant management 59% vs 67% vs 78%; 4,604 DTC visits",
+          "quote": "There were 4604 DTC telemedicine ... Guideline-concordant antibiotic management was lower at DTC telemedicine visits than at other settings (59% of DTC telemedicine visits versus 67% urgent care and 78% PCP visits",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 13,
+      "kind": "journal",
+      "cited_as": "Shi Z, Mehrotra A, Gidengil CA, Poon SJ, Uscher-Pines L, Ray KN. Health Aff (Millwood). 2018;37(12):2014-2023.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30633682/",
+      "pmid": "30633682",
+      "pmcid": "PMC6739118",
+      "doi": "10.1377/hlthaff.2018.05091",
+      "record_title": "Quality Of Care For Acute Respiratory Infections During Direct-To-Consumer Telemedicine Visits For Adults.",
+      "record_journal": "Health Aff (Millwood)",
+      "record_year": "2018",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "notes": "New; found via Scite contrasting-evidence flag on ref 11. Scite flags one contrasting citation (10.2196/25473) about lower eVisit prescribing for sore throat; page does not generalize this study.",
+      "claims": [
+        {
+          "text": "38,839 DTC visits; clinically similar antibiotic use, broad-spectrum use and guideline concordance",
+          "quote": "adults with acute respiratory infection diagnoses at 38,839 direct-to-consumer telemedicine visits ... we found clinically similar rates of antibiotic use, broad-spectrum antibiotic use, and guideline-concordant antibiotic management.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Less appropriate strep testing and more follow-up visits",
+          "quote": "However, direct-to-consumer telemedicine visits had less appropriate streptococcal testing and a higher frequency of follow-up visits.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 14,
+      "kind": "journal",
+      "cited_as": "Wittman SR, Hoberman A, Mehrotra A, Sabik LM, Yabes JG, Ray KN. JAMA Netw Open. 2024;7(3):e242359.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38483387/",
+      "pmid": "38483387",
+      "pmcid": "PMC10940962",
+      "doi": "10.1001/jamanetworkopen.2024.2359",
+      "record_title": "Antibiotic Receipt for Pediatric Telemedicine Visits With Primary Care vs Direct-to-Consumer Vendors.",
+      "record_journal": "JAMA Netw Open",
+      "record_year": "2024",
+      "article_type": "Journal Article (retrospective cross-sectional per abstract)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "notes": "New.",
+      "claims": [
+        {
+          "text": "Antibiotic receipt 28.9% PCP vs 37.2% DTC telemedicine",
+          "quote": "The percentage of visits involving receipt of an antibiotic was lower for PCP (28.9% [95% CI, 28.1%-29.7%]) than for DTC (37.2% [95% CI, 36.0%-38.5%]) telemedicine visits.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "27,686 children",
+          "quote": "In total, data from 27 686 children",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "No difference in non-guideline-concordant management (20.2% vs 20.1%)",
+          "quote": "no differences were observed in receipt of nonguideline-concordant antibiotic management based on a given diagnosis between PCP (20.2% [95% CI, 19.5%-20.9%]) and DTC (20.1%",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Primary care telemedicine associated with lower antibiotic receipt",
+          "quote": "telemedicine integrated within primary care was associated with lower rates of antibiotic receipt and follow-up care.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 15,
+      "kind": "guideline",
+      "cited_as": "Sanchez GV, Fleming-Dutra KE, Roberts RM, Hicks LA. MMWR Recomm Rep. 2016;65(RR-6):1-12.",
+      "url": "https://www.cdc.gov/mmwr/volumes/65/rr/rr6506a1.htm",
+      "pmid": "27832047",
+      "doi": "10.15585/mmwr.rr6506a1",
+      "record_title": "Core Elements of Outpatient Antibiotic Stewardship.",
+      "record_journal": "MMWR Recomm Rep",
+      "record_year": "2016",
+      "article_type": "Journal Article (CDC recommendations report)",
+      "version_or_date": "MMWR Recomm Rep 2016;65(No. RR-6); read 2026-11-15",
+      "retrieved_with": "PubMed get_article_metadata; WebFetch of CDC MMWR page; Scite verify_papers",
+      "notes": "New. Delayed-prescribing time frame '48 to 72 hours' removed: source gives no time frame.",
+      "claims": [
+        {
+          "text": "Four core elements named",
+          "quote": "The four core elements of outpatient antibiotic stewardship are commitment, action for policy and practice, tracking and reporting, and education and expertise.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "At least 30% of US outpatient antibiotic prescriptions are unnecessary",
+          "quote": "At least 30% of outpatient antibiotic prescriptions in the United States are unnecessary",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Delayed prescribing: postdated prescription or instructions to fill after a predetermined period",
+          "quote": "Clinicians can apply delayed prescribing practices by giving the patient or parent a postdated prescription ... providing instructions to fill the prescription after a predetermined period",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Watchful waiting means symptomatic relief with follow-up; both evidence-based",
+          "quote": "Watchful waiting means providing symptomatic relief with a clear plan for follow-up ... Watchful waiting and delayed antibiotic prescriptions are evidence-based approaches",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "In practice: commit, implement at least one policy, track and report, education and expertise (FAQ)",
+          "quote": "take action by implementing at least one policy or practice aimed at improving antibiotic prescribing practices. Clinicians and leaders ... can track antibiotic prescribing practices and regularly report these data back to clinicians.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 16,
+      "kind": "agency_page",
+      "cited_as": "CDC. Core Elements of Outpatient Antibiotic Stewardship (2026 update). Reviewed July 6, 2026.",
+      "url": "https://www.cdc.gov/antibiotic-use/hcp/core-elements/outpatient-antibiotic-stewardship.html",
+      "version_or_date": "Page reviewed July 6, 2026",
+      "retrieved_with": "WebFetch of official CDC page",
+      "notes": "New. Records that CDC updated the 2016 Core Elements in 2026. The page lists implementation resources under seven headings (leadership commitment, accountability, expertise, action, tracking, reporting, education) but does not state an element count, so the guide does not state one for 2026.",
+      "claims": [
+        {
+          "text": "In 2026 CDC updated the 2016 Core Elements",
+          "quote": "In 2026, CDC updated the 2016 Core Elements of Outpatient Antibiotic Stewardship",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Greater emphasis on health systems while still highlighting clinic and clinician level",
+          "quote": "The updated guidance places greater emphasis on the role health systems can play ... while continuing to highlight stewardship activities at the independent clinic and clinician level.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 17,
+      "kind": "agency_page",
+      "cited_as": "CDC. Antibiotic Stewardship Strategies: Outpatient Telemedicine Settings. July 1, 2026.",
+      "url": "https://www.cdc.gov/antibiotic-use/media/pdfs/Core-Elements-Outpatient-Telemedicine-508.pdf",
+      "version_or_date": "Dated July 1, 2026",
+      "retrieved_with": "WebFetch of official CDC PDF (linked from the Core Elements page)",
+      "notes": "New. WebFetch returns quotes in segments of up to 125 characters; segments joined with '...'.",
+      "claims": [
+        {
+          "text": "Tests may not be available in telemedicine when indicated",
+          "quote": "Laboratory or point-of-care tests may not be available for conditions where diagnostic testing is indicated",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Otitis media requires a physical examination that may not be available",
+          "quote": "Certain conditions, such as otitis media, require a physical examination that may not be available through telemedicine.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Primary care network study of uncomplicated UTI found more appropriate prescribing among virtual visits",
+          "quote": "Another study in a primary care network comparing guidelineconcordant antibiotic prescribing for uncomplicated urinary tract infections between virtual and office visits found more appropriate prescribing among virtual visits.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Embed clinical decision support and delayed prescribing or watchful waiting into telehealth platforms",
+          "quote": "Embed evidence-based strategies into telehealth platforms ... clinical decision support for upper respiratory tract infections ... delayed prescribing, or watchful waiting",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Referral pathways and triage to in-person evaluation",
+          "quote": "Incorporate referral pathways and triage systems to in-person evaluation",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Strategies: formalize commitment, tele-diagnosis standards, adapt to workflow, track and report, education",
+          "quote": "Formalize antibiotic stewardship commitment. ... Establish standards for tele-diagnosis and treatment. ... Adapt antibiotic stewardship interventions to virtual workflow. ... Track and report prescribing metrics. ... Provide targeted clinician and patient education.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    }
+  ]
+}

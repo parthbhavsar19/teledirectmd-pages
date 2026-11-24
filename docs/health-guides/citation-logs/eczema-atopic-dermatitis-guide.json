@@ -1,0 +1,780 @@
+{
+  "guide": "eczema-atopic-dermatitis-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 12 verified (all 12 DOIs cited: refs 2-8, 20-24), retractions: none; no expressions of concern or withdrawals. Contrasting-evidence flags on refs 2, 20 and 21 reviewed (see entry notes). The removed Liaw 2012 reference could not be verified by Scite. PubMed article types checked: none is a Retracted Publication or Retraction Notice.",
+  "references": [
+    {
+      "n": 1,
+      "kind": "other_web",
+      "cited_as": "National Eczema Association. Eczema Facts. Page modified August 11, 2026. Accessed November 15, 2026.",
+      "url": "https://nationaleczema.org/eczema-facts/",
+      "version_or_date": "dateModified 2026-08-11 (page schema); first published 2025-02-27",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Patient-advocacy society page. The 31.6 million figure is the NEA synthesis of three cited prevalence studies (Shaw 2011, Hanifin 2007, Abuabara 2019), so no single primary source carries it; the adult atopic dermatitis figure is cited to its primary source (ref 2) instead. On Nov 6 the page text did not render; it rendered on Nov 15.",
+      "claims": [
+        {
+          "text": "around 31.6 million people in the U.S. (roughly 10%) have some form of eczema",
+          "quote": "In the U.S., around 31.6 million people (roughly 10% of the population) have some form of eczema.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "sleep disturbance is common in children with atopic dermatitis",
+          "quote": "Sleep disturbances are common, occurring in 67% of children with atopic dermatitis.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Chiesa Fuxench ZC, Block JK, Boguniewicz M, et al. Atopic Dermatitis in America Study: A Cross-Sectional Study Examining the Prevalence and Disease Burden of Atopic Dermatitis in the US Adult Population. J Invest Dermatol. 2019;139(3):583-590.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30389491/",
+      "pmid": "30389491",
+      "doi": "10.1016/j.jid.2018.08.028",
+      "record_title": "Atopic Dermatitis in America Study: A Cross-Sectional Study Examining the Prevalence and Disease Burden of Atopic Dermatitis in the US Adult Population.",
+      "record_journal": "J Invest Dermatol",
+      "record_year": "2019",
+      "article_type": "Journal Article (cross-sectional survey)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "7.3% of U.S. adults have atopic dermatitis",
+          "quote": "Among 1,278 participating adults, the prevalence (95% confidence interval) of atopic dermatitis was 7.3% (5.9-8.8).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "about 16.5 million adults, 6.6 million moderate to severe",
+          "quote": "Based on our prevalence estimates, 16.5 million adults would have a diagnosis of atopic dermatitis, with 6.6 million meeting criteria for moderate to severe disease.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "people with AD had higher anxiety and depression scale scores",
+          "quote": "Patients with atopic dermatitis and those with more severe disease had higher scores in the dermatology life quality index ... and the hospital anxiety ... and depression ... scales",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "PubMed lists 2018-10-30 e-publication; print issue 2019;139(3). Scite flagged one citing paper reporting a different income association; not relevant to the prevalence or anxiety/depression claims used here."
+    },
+    {
+      "n": 3,
+      "kind": "journal",
+      "cited_as": "Sandilands A, Sutherland C, Irvine AD, McLean WHI. Filaggrin in the frontline: role in skin barrier function and disease. J Cell Sci. 2009;122(Pt 9):1285-1294.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19386895/",
+      "pmid": "19386895",
+      "doi": "10.1242/jcs.033969",
+      "record_title": "Filaggrin in the frontline: role in skin barrier function and disease.",
+      "record_journal": "J Cell Sci",
+      "record_year": "2009",
+      "article_type": "Journal Article (review)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "FLG loss-of-function mutations carried by up to 10% of people; strong genetic predisposing factor for atopic eczema, asthma and allergies",
+          "quote": "These mutations, which are carried by up to 10% of people, also represent a strong genetic predisposing factor for atopic eczema, asthma and allergies.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "filaggrin breakdown products form part of natural moisturizing factor",
+          "quote": "filaggrin is citrullinated, which promotes its unfolding and further degradation into hygroscopic amino acids, which constitute one element of natural moisturising factor.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "loss of filaggrin leaves skin prone to water loss; reduced filaggrin lets allergens pass through skin",
+          "quote": "Loss of profilaggrin or filaggrin leads to a poorly formed stratum corneum (ichthyosis), which is also prone to water loss (xerosis). ... reduction or complete loss of filaggrin expression leads to enhanced percutaneous transfer of allergens.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmcid": "PMC2721001",
+      "notes": "PMC full text request returned abstract only; claims limited to the abstract. The former \"up to 50% of moderate-to-severe AD\" figure is not in the abstract and was cut."
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Hanifin JM, Baghoomian W, Grinich E, Leshem YA, Jacobson M, Simpson EL. The Eczema Area and Severity Index-A Practical Guide. Dermatitis. 2022;33(3):187-192.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35594457/",
+      "pmid": "35594457",
+      "doi": "10.1097/DER.0000000000000895",
+      "record_title": "The Eczema Area and Severity Index-A Practical Guide.",
+      "record_journal": "Dermatitis",
+      "record_year": "2022",
+      "article_type": "Journal Article (review)",
+      "retrieved_with": "PubMed get_article_metadata and get_full_text_article (PMC full text); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "EASI scores four signs in each of four regions",
+          "quote": "each region is assessed separately for 4 signs: erythema, edema/papulation, excoriation, and lichenification.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "regions weighted by share of body surface area; total 0 to 72",
+          "quote": "multiplier that reflects the relative contribution of that region to the total body surface area (BSA). ... The final EASI score is the summation of the 4 regional scores, ranging from 0 to 72.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "score bands: 0 clear, 0.1-1.0 almost clear, 1.1-7 mild, 7.1-21 moderate, 21.1-50 severe, >51 very severe",
+          "quote": "A score of 0 indicates clear or no eczema, 0.1 to 1.0 indicates almost clear, 1.1 to 7 indicates mild disease, 7.1 to 21 indicates moderate disease, 21.1 to 50 indicates severe disease, and greater than 51 indicates very severe",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ],
+      "pmcid": "PMC9154300",
+      "notes": "Fixed: second EASI sign is edema/papulation, not \"thickness\"; table bands corrected to the published bands (added almost clear 0.1 to 1.0; mild starts at 1.1; very severe >51)."
+    },
+    {
+      "n": 5,
+      "kind": "guideline",
+      "cited_as": "Davis DMR, Frazer-Green L, Alikhan A, et al. Focused update: Guidelines of care for the management of atopic dermatitis in adults. J Am Acad Dermatol. 2025;93(3):745.e1-745.e7.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40531067/",
+      "pmid": "40531067",
+      "doi": "10.1016/j.jaad.2025.05.1386",
+      "record_title": "Focused update: Guidelines of care for the management of atopic dermatitis in adults.",
+      "record_journal": "J Am Acad Dermatol",
+      "record_year": "2025",
+      "article_type": "Practice Guideline; Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "2025 focused update: strong recommendations for tapinarof cream, roflumilast cream, lebrikizumab, nemolizumab with concomitant topical therapy, in adults",
+          "quote": "The workgroup developed strong recommendations for the use of tapinarof cream, roflumilast cream, lebrikizumab, and nemolizumab with concomitant topical therapy.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "update to 2023 and 2024 guidelines; additional FDA-approved therapies; 4 new recommendations",
+          "quote": "In 2023 and 2024, the American Academy of Dermatology published guidelines on the use of topical and systemic therapies for the management of atopic dermatitis (AD) in adults. ... The workgroup developed 4 new recommendations",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "most trials are short, limiting long-term comparisons of efficacy and safety",
+          "quote": "Most randomized controlled trials of the considered therapies for AD are of short duration, limiting comparative long-term efficacy and safety conclusions.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "Replaces the AAD member web page (old ref 1) and the Dermatology Advisor news article (old ref 6). PubMed lists a published letter responding to this update (Hawryluk et al, PMID 41389044, on GRADE methodology); no correction or retraction. Full text not in PMC; abstract only."
+    },
+    {
+      "n": 6,
+      "kind": "guideline",
+      "cited_as": "Davis DMR, Drucker AM, Alikhan A, et al. Guidelines of care for the management of atopic dermatitis in adults with phototherapy and systemic therapies. J Am Acad Dermatol. 2024;90(2):e43-e56.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37943240/",
+      "pmid": "37943240",
+      "doi": "10.1016/j.jaad.2023.08.102",
+      "record_title": "Guidelines of care for the management of atopic dermatitis in adults with phototherapy and systemic therapies.",
+      "record_journal": "J Am Acad Dermatol",
+      "record_year": "2024",
+      "article_type": "Practice Guideline",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "strong recommendations for dupilumab, tralokinumab, abrocitinib, baricitinib, upadacitinib",
+          "quote": "We make strong recommendations for the use of dupilumab, tralokinumab, abrocitinib, baricitinib, and upadacitinib.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "conditional for phototherapy, azathioprine, cyclosporine, methotrexate, mycophenolate; conditional against systemic corticosteroids",
+          "quote": "We make conditional recommendations in favor of using phototherapy, azathioprine, cyclosporine, methotrexate, and mycophenolate, and against the use of systemic corticosteroids.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "phototherapy and systemic therapy for AD not controlled by topicals",
+          "quote": "For people with atopic dermatitis (AD) refractory to topical therapies, treatment with phototherapy and systemic therapies can be considered.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "E-published Nov 2023 (PubMed date 2023-11-07); print 2024;90(2). Abstract only. Correction made: the page previously called the systemic corticosteroid recommendation a flat \"recommend against\"; the guideline grades it conditional."
+    },
+    {
+      "n": 7,
+      "kind": "guideline",
+      "cited_as": "Sidbury R, Alikhan A, Bercovitch L, et al. Guidelines of care for the management of atopic dermatitis in adults with topical therapies. J Am Acad Dermatol. 2023;89(1):e1-e20.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36641009/",
+      "pmid": "36641009",
+      "doi": "10.1016/j.jaad.2022.12.029",
+      "record_title": "Guidelines of care for the management of atopic dermatitis in adults with topical therapies.",
+      "record_journal": "J Am Acad Dermatol",
+      "record_year": "2023",
+      "article_type": "Systematic Review; Journal Article (AAD guideline)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "strong recommendations for moisturizers, TCIs, TCS, topical PDE-4 and JAK inhibitors",
+          "quote": "Strong recommendations are made for the use of moisturizers, TCIs, TCS, and topical PDE-4 and JAK inhibitors.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "conditional recommendation for bathing",
+          "quote": "Conditional recommendations are made for the use of bathing and wet wrap therapy and against the use of topical antimicrobials, antiseptics, and antihistamines.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "PubMed article types: Systematic Review, Journal Article. Abstract only."
+    },
+    {
+      "n": 8,
+      "kind": "guideline",
+      "cited_as": "Sidbury R, Wu PA, Alikhan A, et al. Guidelines for diagnostic testing in adults with presumed atopic dermatitis refractory to treatment. J Am Acad Dermatol. 2026;95(5):1370.e1-1370.e14.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42678322/",
+      "pmid": "42678322",
+      "doi": "10.1016/j.jaad.2026.07.039",
+      "record_title": "Guidelines for diagnostic testing in adults with presumed atopic dermatitis refractory to treatment.",
+      "record_journal": "J Am Acad Dermatol",
+      "record_year": "2026",
+      "article_type": "Practice Guideline (Good Practice Statement)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "consider diagnostic reassessment in adults with presumed AD not responding to optimized treatment",
+          "quote": "The Good Practice Statement supports consideration of diagnostic reassessment in cases of presumed AD in adults not responding to optimized treatment.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "New source added for the \"look beyond atopic dermatitis\" paragraph. Based on indirect evidence and expert consensus per the abstract."
+    },
+    {
+      "n": 9,
+      "kind": "label",
+      "cited_as": "DailyMed. Tacrolimus ointment 0.03% and 0.1%, prescribing information (Glenmark Pharmaceuticals). Page updated April 15, 2026. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c2d2e3a1-f346-4245-b445-6dd44e371180",
+      "version_or_date": "DailyMed page \"Updated April 15, 2026\"; no Revised line shown",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "TCI boxed warning: long-term safety not established",
+          "quote": "Long-term Safety of Topical Calcineurin Inhibitors Has Not Been Established",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "rare cases of malignancy (skin cancer, lymphoma) reported",
+          "quote": "rare cases of malignancy (e.g., skin and lymphoma) have been reported in patients treated with topical calcineurin inhibitors",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "tacrolimus ointment not for children under 2; only 0.03% for ages 2 to 15",
+          "quote": "Tacrolimus ointment is not indicated for use in children less than 2 years of age. ... both 0.03% and 0.1% for adults, and only 0.03% for children aged 2 to 15 years",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "Generic tacrolimus ointment label used because the brand Protopic labels found on DailyMed were a repackager record and a 2022 medication guide without the boxed warning text. Pimecrolimus (Elidel) label not fetched; the boxed warning statement is attributed to topical calcineurin inhibitors as the tacrolimus label words it."
+    },
+    {
+      "n": 10,
+      "kind": "label",
+      "cited_as": "DailyMed. ZORYVE (roflumilast) cream, prescribing information. Revised 6/2026. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ec1bb0d1-f38a-4080-831a-68791d1d1fdb",
+      "version_or_date": "Revised: 6/2026",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "roflumilast cream 0.15% for mild to moderate AD from age 6; 0.05% for ages 2 to 5; once daily",
+          "quote": "ZORYVE cream, 0.15%, is indicated for topical treatment of mild to moderate atopic dermatitis ... 6 years of age and older. ... ZORYVE cream, 0.05% ... 2 to 5 years ... Apply ZORYVE cream, 0.15%, once daily",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "roflumilast is a PDE4 inhibitor",
+          "quote": "Roflumilast and its active metabolite (roflumilast N-oxide) are inhibitors of PDE4.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "label",
+      "cited_as": "DailyMed. OPZELURA (ruxolitinib) cream 1.5%, prescribing information. Revised 6/2026. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=24da5509-6631-4795-9d42-273faecd08e7",
+      "version_or_date": "Revised: 6/2026",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "ruxolitinib cream 1.5%",
+          "quote": "Cream: 15 mg of ruxolitinib per gram (1.5%) of white to off-white cream supplied in 60 g and 100 g tubes",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "approved for short-term and non-continuous chronic treatment of mild to moderate AD, non-immunocompromised, age 2+, when topical Rx therapies fail or are not advisable",
+          "quote": "the topical short-term and non-continuous chronic treatment of mild to moderate atopic dermatitis in non-immunocompromised adult and pediatric patients 2 years of age and older whose disease is not adequately controlled with topical prescription therapies",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "thin layer twice daily, up to 20% BSA",
+          "quote": "Apply a thin layer of OPZELURA topically twice daily to affected areas of up to 20% body surface area.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "JAK boxed warning: serious infections, mortality, malignancy, MACE, thrombosis",
+          "quote": "WARNING: SERIOUS INFECTIONS, MORTALITY, MALIGNANCY, MAJOR ADVERSE CARDIOVASCULAR EVENTS (MACE), AND THROMBOSIS",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "Removed the unsourced statement that the 2025 label expansion was for ages 2 to 12 and \"rapid itch relief\"; label states 2 years and older."
+    },
+    {
+      "n": 12,
+      "kind": "label",
+      "cited_as": "DailyMed. VTAMA (tapinarof) cream 1%, prescribing information. Revised 5/2025. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=9309d20f-8cd4-4c96-93fa-7f730e83c7ab",
+      "version_or_date": "Revised: 5/2025",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "tapinarof is an AhR agonist",
+          "quote": "Tapinarof is an aryl hydrocarbon receptor (AhR) agonist.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "approved for AD from age 2, once daily, 1%",
+          "quote": "VTAMA cream is indicated for the topical treatment of atopic dermatitis in adults and pediatric patients 2 years of age and older. ... Apply a thin layer of VTAMA cream to affected areas once daily.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "label",
+      "cited_as": "DailyMed. DUPIXENT (dupilumab) injection, prescribing information. Revised 4/2026. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780",
+      "version_or_date": "Revised: 4/2026",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "dupilumab inhibits IL-4 and IL-13 signaling via shared IL-4R alpha subunit",
+          "quote": "inhibits interleukin-4 (IL-4) and interleukin-13 (IL-13) signaling by specifically binding to the IL-4Rα subunit shared by the IL-4 and IL-13 receptor complexes",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "approved for moderate-to-severe AD from 6 months",
+          "quote": "adult and pediatric patients aged 6 months and older with moderate-to-severe atopic dermatitis (AD)",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "adult dosing 600 mg then 300 mg every 2 weeks",
+          "quote": "an initial dose of 600 mg (two 300 mg injections), followed by 300 mg given every 2 weeks (Q2W).",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "common side effects include injection site reactions, conjunctivitis, blepharitis; report eye symptoms",
+          "quote": "Atopic Dermatitis (incidence ≥1%): injection site reactions, conjunctivitis, blepharitis, oral herpes, ... Advise patients to promptly report new onset or worsening eye symptoms",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "Removed unsourced \"first biologic\", \"8+ years of safety data\" and \"most extensive real-world evidence\". No boxed warning on the label."
+    },
+    {
+      "n": 14,
+      "kind": "label",
+      "cited_as": "DailyMed. ADBRY (tralokinumab-ldrm) injection, prescribing information. Revised 12/2025. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d8020b69-3001-44e2-9b5d-5f93d9aaf6e1",
+      "version_or_date": "Revised: 12/2025",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "tralokinumab binds IL-13",
+          "quote": "specifically binds to human interleukin-13 (IL-13)",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "approved for moderate-to-severe AD from age 12",
+          "quote": "for the treatment of moderate-to-severe atopic dermatitis in adults and pediatric patients 12 years of age and older",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "adult dosing 600 mg then 300 mg every other week; every 4 weeks may be considered",
+          "quote": "600 mg (four 150 mg injections) ... 300 mg (two 150 mg injections) every other week ... a dosage of 300 mg every 4 weeks may be considered",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "Retrieved through the fdaDrugXsl view of the same setid (d8020b69-3001-44e2-9b5d-5f93d9aaf6e1). Removed the ECZTEND 6-year safety, ages and \"effective after dupilumab\" claims that cited a news article that did not support them."
+    },
+    {
+      "n": 15,
+      "kind": "label",
+      "cited_as": "DailyMed. EBGLYSS (lebrikizumab-lbkz) injection, prescribing information. Revised 6/2026. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7a774ea2-acde-4aaa-9a8f-ccba5a5b1d5f",
+      "version_or_date": "Revised: 6/2026",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "lebrikizumab binds IL-13",
+          "quote": "binds with high affinity and slow off-rate to interleukin (IL)-13",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "approved from age 12, at least 40 kg",
+          "quote": "in adults and pediatric patients 12 years of age and older who weigh at least 40 kg",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "500 mg at weeks 0 and 2, 250 mg every 2 weeks to week 16 or later, then every 4 or 8 weeks",
+          "quote": "an initial dose of 500 mg (two 250 mg injections) at Week 0 and Week 2, followed by 250 mg every two weeks until Week 16 or later ... 250 mg every four weeks or 250 mg every eight weeks.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "Retrieved through the fdaDrugXsl view of the same setid. Old table said \"every 2 to 4 weeks\"; corrected to the label schedule including the every-8-week maintenance option."
+    },
+    {
+      "n": 16,
+      "kind": "label",
+      "cited_as": "DailyMed. NEMLUVIO (nemolizumab-ilto) for injection, prescribing information. Revised 6/2025. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=e9229ef1-ac60-4c24-afb6-009d3c781687",
+      "version_or_date": "Revised: 6/2025",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "IL-31 is involved in itch and inflammation; nemolizumab binds IL-31 receptor alpha",
+          "quote": "binding selectively to IL-31 RA ... involved in pruritus, inflammation, epidermal dysregulation, and fibrosis",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "approved from age 12 with topical corticosteroids and/or calcineurin inhibitors when topical Rx therapy not enough",
+          "quote": "adults and pediatric patients 12 years of age and older with moderate-to-severe atopic dermatitis in combination with topical corticosteroids and/or calcineurin inhibitors when the disease is not adequately controlled with topical prescription therapies.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "60 mg then 30 mg every 4 weeks; every 8 weeks after 16 weeks if clear or almost clear",
+          "quote": "an initial dose of 60 mg (two 30 mg injections), followed by 30 mg given every 4 weeks. After 16 weeks of treatment, for patients who achieve clear or almost clear skin, a dosage of 30 mg every 8 weeks",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "Removed \"primary itch cytokine\", \"first biologic specifically targeting itch\" and the December 2024 approval date (sourced only to a news page)."
+    },
+    {
+      "n": 17,
+      "kind": "label",
+      "cited_as": "DailyMed. RINVOQ (upadacitinib) extended-release tablets, prescribing information. Revised 6/2026. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095",
+      "version_or_date": "Revised: 6/2026",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "boxed warning; upadacitinib is a JAK inhibitor",
+          "quote": "WARNING: SERIOUS INFECTIONS, MORTALITY, MALIGNANCY, MAJOR ADVERSE CARDIOVASCULAR EVENTS, and THROMBOSIS ... JAK inhibitors, including RINVOQ",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "approved from age 12 for refractory moderate-to-severe AD not controlled with other systemic drugs including biologics, or when inadvisable",
+          "quote": "adults and pediatric patients 12 years of age and older with refractory, moderate to severe atopic dermatitis whose disease is not adequately controlled with other systemic drug products, including biologics, or when use of those therapies are inadvisable.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "15 mg once daily, may increase to 30 mg; 15 mg for 65 and older",
+          "quote": "Initiate treatment with RINVOQ 15 mg once daily. If an adequate response is not achieved, consider increasing the dosage to 30 mg once daily. ... The recommended dosage of RINVOQ is 15 mg once daily.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "TB testing before starting; blood counts baseline and thereafter; lipids about 12 weeks",
+          "quote": "Evaluate and test patients for latent and active tuberculosis (TB) infection prior to administration ... Evaluate lymphocyte counts at baseline and thereafter ... Assess lipid parameters approximately 12 weeks after initiation of treatment",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "Correction: the old page presented upadacitinib as a general step-4 option; the label limits AD use to refractory disease not controlled with other systemic drugs, including biologics. Removed \"most potent oral option\" and \"improvement within 1 to 2 weeks\" (unsourced). \"Oral tablet\" kept; the extended-release tablet form is in the label title."
+    },
+    {
+      "n": 18,
+      "kind": "label",
+      "cited_as": "DailyMed. CIBINQO (abrocitinib) tablets, prescribing information. Revised 6/2026. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=16c12a56-4550-414b-ac9d-b785b41fea6b",
+      "version_or_date": "Revised: 6/2026 (packager U.S. Pharmaceuticals)",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "boxed warning",
+          "quote": "WARNING: SERIOUS INFECTIONS, MORTALITY, MALIGNANCY, MAJOR ADVERSE CARDIOVASCULAR EVENTS, and THROMBOSIS",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "abrocitinib inhibits JAK1",
+          "quote": "Abrocitinib reversibly inhibits JAK1 by blocking the adenosine triphosphate (ATP) binding site.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "same approved use as upadacitinib, from age 12",
+          "quote": "adults and pediatric patients 12 years of age and older with refractory, moderate-to-severe atopic dermatitis whose disease is not adequately controlled with other systemic drug products, including biologics, or when use of those therapies is inadvisable.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "100 mg once daily, may increase to 200 mg",
+          "quote": "The recommended dose is 100 mg once daily. If an adequate response is not achieved with CIBINQO 100 mg once daily, consider increasing the dosage to 200 mg once daily.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "TB testing; CBC before and at 4 weeks; lipids about 4 weeks",
+          "quote": "Evaluate and test patients for TB before starting CIBINQO therapy ... Prior to CIBINQO initiation, perform a CBC. ... CBC evaluations are recommended at 4 weeks after initiation ... Lipid parameters should be assessed approximately 4 weeks following initiation",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "kind": "label",
+      "cited_as": "DailyMed. OLUMIANT (baricitinib) tablets, prescribing information. Revised 10/2026. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=866e9f35-9035-4581-a4b1-75a621ab55cf",
+      "version_or_date": "Revised: 10/2026",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "US label lists rheumatoid arthritis, COVID-19 and alopecia areata, not atopic dermatitis",
+          "quote": "Moderately to severely active rheumatoid arthritis (RA) ... COVID-19 in hospitalized adults requiring ... Severe alopecia areata (AA) in adults",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "boxed warning",
+          "quote": "WARNING: SERIOUS INFECTIONS, MORTALITY, MALIGNANCY, MAJOR ADVERSE CARDIOVASCULAR EVENTS (MACE), and THROMBOSIS",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "Quote is the opening words of each of the three indication bullets in the label Highlights (re-fetched verbatim); no atopic dermatitis indication is listed. Replaces \"approved in some markets for AD\", which had no source."
+    },
+    {
+      "n": 20,
+      "kind": "journal",
+      "cited_as": "Simpson EL, Bieber T, Guttman-Yassky E, et al. Two Phase 3 Trials of Dupilumab versus Placebo in Atopic Dermatitis. N Engl J Med. 2016;375(24):2335-2348.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27690741/",
+      "pmid": "27690741",
+      "doi": "10.1056/NEJMoa1610020",
+      "record_title": "Two Phase 3 Trials of Dupilumab versus Placebo in Atopic Dermatitis.",
+      "record_journal": "N Engl J Med",
+      "record_year": "2016",
+      "article_type": "Randomized Controlled Trial; Clinical Trial, Phase III",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "36% to 38% clear or almost clear at 16 weeks on every-other-week dupilumab vs 8% to 10% placebo",
+          "quote": "In SOLO 1, the primary outcome occurred in 85 patients (38%) who received dupilumab every other week ... as compared with 23 (10%) ... in SOLO 2 ... 84 patients (36%) ... as compared with 20 (8%) who received placebo",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "primary outcome includes at least 2-point IGA reduction",
+          "quote": "a score of 0 or 1 (clear or almost clear) on the Investigator's Global Assessment and a reduction of 2 points or more in that score from baseline at week 16.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "dupilumab improved itch, anxiety and depression symptoms, quality of life",
+          "quote": "dupilumab improved the signs and symptoms of atopic dermatitis, including pruritus, symptoms of anxiety and depression, and quality of life, as compared with placebo.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "Previously linked only from the citable summary; now a numbered reference. Replaces the unretrievable 2025 retrospective dupilumab mental-health figures. Scite flagged one small case series reporting fewer conjunctivitis and injection-site events than the RCTs; the page does not overstate these side effects."
+    },
+    {
+      "n": 21,
+      "kind": "journal",
+      "cited_as": "Rønnstad ATM, Halling-Overgaard AS, Hamann CR, Skov L, Egeberg A, Thyssen JP. Association of atopic dermatitis with depression, anxiety, and suicidal ideation in children and adults: A systematic review and meta-analysis. J Am Acad Dermatol. 2018;79(3):448-456.e30.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30119868/",
+      "pmid": "30119868",
+      "doi": "10.1016/j.jaad.2018.03.017",
+      "record_title": "Association of atopic dermatitis with depression, anxiety, and suicidal ideation in children and adults: A systematic review and meta-analysis.",
+      "record_journal": "J Am Acad Dermatol",
+      "record_year": "2018",
+      "article_type": "Meta-Analysis; Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "adult AD: depression OR 2.19, anxiety OR 2.19",
+          "quote": "There was a significant association between adult AD and, respectively, depression (pooled odds ratio [OR], 2.19; 95% confidence interval [CI], 1.87-2.57) and anxiety (pooled OR, 2.19; 95% CI, 1.75-2.73).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "children: depression OR 1.27; adults and adolescents: suicidal ideation OR 4.32",
+          "quote": "AD was also associated with depression in children (pooled OR, 1.27; 95% CI, 1.12-1.45) ... A positive association was found between AD in adults and adolescents and suicidal ideation (pooled OR, 4.32; 95% CI, 1.93-9.66).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "studies used different definitions",
+          "quote": "Included studies used different definitions of depression and anxiety, and few studies examined the severity of AD.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "improving AD appears to reduce these risks; should be a priority",
+          "quote": "Because AD disease improvement appears to reduce these risks, this should be a priority.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "Replaces the Nature Outlook news article (old ref 5), whose figures (14 to 20% depression, 2 to 4 times sleep disturbance, 24%/30%/44% dupilumab reductions) could not be retrieved. Scite flagged a citing paper cautioning that questionnaire-based diagnoses may overestimate psychiatric comorbidity; the page says \"associations\" and notes differing definitions."
+    },
+    {
+      "n": 22,
+      "kind": "journal",
+      "cited_as": "Traidl S, Roesner L, Zeitvogel J, Werfel T. Eczema herpeticum in atopic dermatitis. Allergy. 2021;76(10):3017-3027.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33844308/",
+      "pmid": "33844308",
+      "doi": "10.1111/all.14853",
+      "record_title": "Eczema herpeticum in atopic dermatitis.",
+      "record_journal": "Allergy",
+      "record_year": "2021",
+      "article_type": "Journal Article (review)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "eczema herpeticum is a disseminated severe HSV infection in a subset of AD patients that can cause life-threatening complications",
+          "quote": "A subset of AD patients exhibits a disseminated severe HSV infection called eczema herpeticum (EH) that can cause life-threatening complications.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "Replaces Liaw 2012 (Can Fam Physician case report), which has no abstract, no retrievable full text (PMC page behind a bot check) and could not be verified by Scite."
+    },
+    {
+      "n": 23,
+      "kind": "journal",
+      "cited_as": "Satasia M, Iacobellis FW, Lahoti L. Papulovesicular Riddle in an Atopic Individual. Cureus. 2024;16(4):e58102.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38738145/",
+      "pmid": "38738145",
+      "doi": "10.7759/cureus.58102",
+      "record_title": "Papulovesicular Riddle in an Atopic Individual.",
+      "record_journal": "Cureus",
+      "record_year": "2024",
+      "article_type": "Case Reports",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "monomorphic vesicles and punched-out erosions with hemorrhagic crusts on eczematous areas",
+          "quote": "EH manifests with monomorphic vesicles and \"punched-out\" erosions accompanied by hemorrhagic crusts, primarily affecting eczematous areas.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "sometimes mistaken for impetigo; timely acyclovir treatment crucial",
+          "quote": "Misdiagnosis, often as impetigo, can lead to severe complications and even death. Timely diagnosis and treatment with acyclovir are crucial to avert these outcomes.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "Case report; used only for the clinical description and acyclovir statement given in its abstract. Valacyclovir mention removed (not in a retrieved source)."
+    },
+    {
+      "n": 24,
+      "kind": "journal",
+      "cited_as": "Liang BX, Liu K, Yamamoto LG. Outpatient and Inpatient Management of Infants and Children With Eczema Herpeticum Diagnosed in the Emergency Department. Pediatr Dermatol. 2025;42(6):1149-1155.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40913473/",
+      "pmid": "40913473",
+      "doi": "10.1111/pde.70039",
+      "record_title": "Outpatient and Inpatient Management of Infants and Children With Eczema Herpeticum Diagnosed in the Emergency Department.",
+      "record_journal": "Pediatr Dermatol",
+      "record_year": "2025",
+      "article_type": "Journal Article (retrospective cohort)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "oral vs IV acyclovir and hospitalization decisions vary; no universal guideline",
+          "quote": "There are no universally established guidelines for when pediatric EH warrants hospitalization or intravenous (IV) acyclovir over oral therapy.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "hospitalization more common with severe skin findings, cellulitis, younger age",
+          "quote": "Hospitalization was more common in patients with more severe skin findings, concurrent cellulitis, and younger age.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

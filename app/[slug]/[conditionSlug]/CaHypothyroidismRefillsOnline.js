@@ -39,7 +39,7 @@ const PHYSICIAN = {
   specialty: 'Family Medicine',
   licenseState: 'California',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 // California payors — sourced from Notion payor enrollment (refreshed 2026-05-19)
@@ -48,8 +48,8 @@ const CA_PAYORS = [
     notes: 'Commercial plans. In-network as of April 30, 2026. Verify plan eligibility with Aetna before booking.' },
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true,
     notes: 'Covers UHC Commercial and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types.' },
-  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Enrollment pending — self pay ($79) available.' },
+  { name: 'Anthem Blue Cross', status: 'Active', effective: 'September 23, 2026', inNetwork: true,
+    notes: 'PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.' },
   { name: 'Cigna', status: 'Pending', effective: 'Pending determination', inNetwork: false,
     notes: 'Pending — self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false,
@@ -92,7 +92,7 @@ const FAQ_ITEMS = [
   {
     id: 'hypothyroidism-refills-online-faq-6',
     question: "Does California Medi-Cal cover levothyroxine?",
-    answer: <p>Medi-Cal covers generic levothyroxine at low or no cost-sharing under the Medi-Cal formulary. However, TeleDirectMD is not currently enrolled as a Medi-Cal provider, so Medi-Cal will not pay for TeleDirectMD visits. Medi-Cal members can use TeleDirectMD\'s $79 self-pay rate or seek care from a Medi-Cal-enrolled primary care physician. For Medi-Cal provider directory, visit dhcs.ca.gov.</p>,
+    answer: <p>Medi-Cal covers generic levothyroxine at low or no cost-sharing under the Medi-Cal formulary. However, TeleDirectMD is not currently enrolled as a Medi-Cal provider, so Medi-Cal will not pay for TeleDirectMD visits. Medi-Cal members should seek care from a Medi-Cal-enrolled primary care physician. For Medi-Cal provider directory, visit dhcs.ca.gov.</p>,
   },
   {
     id: 'hypothyroidism-refills-online-faq-7',
@@ -150,7 +150,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -291,9 +291,9 @@ export default function CaHypothyroidismRefillsOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> E03.9 (Hypothyroidism, unspecified) — final coding per clinical details</p>
@@ -355,7 +355,7 @@ export default function CaHypothyroidismRefillsOnline() {
 
             <h3>What standard of care applies to California telehealth physicians?</h3>
             <p>
-              The <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a> is explicit: &ldquo;The standard of care is the same whether the patient is seen in-person, through telehealth or other methods of electronically enabled health care.&rdquo; TeleDirectMD physicians are licensed in California. See <a href="/about/">Dr. Bhavsar&apos;s bio</a> for credential details.
+              The <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a> is explicit: &ldquo;The standard of care is the same whether the patient is seen in-person, through telehealth or other methods of electronically enabled health care.&rdquo; Dr. Bhavsar is licensed in California. See <a href="/about/">Dr. Bhavsar&apos;s bio</a> for credential details.
             </p>
 
             <h3>Does California insurance parity law cover telehealth visits?</h3>
@@ -404,25 +404,6 @@ export default function CaHypothyroidismRefillsOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical cost comparison">
-                <h3>Typical Hypothyroidism Refills Visit Cost in California</h3>
-                <p className="tdmd-price-caption">Common ranges Californians see before insurance. Actual costs vary by setting and city.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 13, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical California metro pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <h3 style={{ marginTop: '1.75rem' }}>California Payor Status — TeleDirectMD</h3>
@@ -456,7 +437,7 @@ export default function CaHypothyroidismRefillsOnline() {
             </div>
 
             <p style={{ marginTop: '1rem' }}>
-              For deeper detail, see <a href="/insurance/aetna/california/hypothyroidism-refills-online/">Aetna × California × Hypothyroidism Refills</a> or view all <a href="/insurance">insurance options</a>.
+              For deeper detail, see <a href="/insurance/aetna/california/hypothyroidism-refills/">Aetna × California × Hypothyroidism Refills</a> or view all <a href="/insurance/">insurance options</a>.
             </p>
           </div>
         </section>
@@ -545,7 +526,7 @@ export default function CaHypothyroidismRefillsOnline() {
                 <p>Book a same-day video visit — California adults, 18+</p>
                 <small>Self pay $79 · Aetna in-network · UHC Commercial approved May 2026 · Hypothyroidism Refills</small>
               </div>
-              <a className="tdmd-ca-uti__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
+              <a className="tdmd-ca-uti__cta-btn" href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -564,8 +545,8 @@ export default function CaHypothyroidismRefillsOnline() {
                 <p>Book a same-day video visit. Self pay $79 · Aetna in-network · UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -610,12 +591,12 @@ export default function CaHypothyroidismRefillsOnline() {
               <a href="/ca/eyelash-growth-treatment-online/">Eyelash Growth in CA</a>
               <a href="/ca/smoking-cessation-treatment-online/">Smoking Cessation in CA</a>
               <a href="/ca/motion-sickness-treatment-online/">Motion Sickness in CA</a>
-              <a href="/ca/uti-treatment-online/">UTI Treatment in CA</a>
+              <a href="/ca/uti-treatment-online/">UTI Treatment for Women in CA</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/insurance">Insurance</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/insurance/">Insurance</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>
@@ -632,8 +613,8 @@ export default function CaHypothyroidismRefillsOnline() {
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — AB 2789 Electronic Prescribing</a>. Retrieved May 2026.</li>
               <li><a href="https://www.liebertpub.com/doi/10.1089/thy.2014.0028" rel="noopener" target="_blank">ATA 2014 Guidelines for the Treatment of Hypothyroidism — Thyroid journal</a>. Retrieved May 2026.</li>
               <li><a href="https://www.thyroid.org/hypothyroidism/" rel="noopener" target="_blank">American Thyroid Association — Patient Resources on Hypothyroidism</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.thyroid.org/ata-clinical-practice-guidelines/" rel="noopener" target="_blank">ATA — American Thyroid Association — Hypothyroidism Clinical Guidelines</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.cdc.gov/nchs/nhanes/index.htm" rel="noopener" target="_blank">NHANES Thyroid Data — National Center for Health Statistics</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.thyroid.org/professionals/ata-professional-guidelines/" rel="noopener" target="_blank">ATA — American Thyroid Association — Hypothyroidism Clinical Guidelines</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.cdc.gov/nchs/nhanes/" rel="noopener" target="_blank">NHANES Thyroid Data — National Center for Health Statistics</a>. Retrieved May 2026.</li>
               <li><a href="https://www.cdph.ca.gov" rel="noopener" target="_blank">California Department of Public Health — Thyroid Disease Surveillance</a>. Retrieved May 2026.</li>
             </ol>
           </div>

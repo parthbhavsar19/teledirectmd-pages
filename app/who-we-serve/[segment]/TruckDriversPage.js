@@ -1,14 +1,15 @@
+import { contentDate } from '../../../lib/content-dates';
 export default function TruckDriversPage() {
   const baseUrl = 'https://teledirectmd.com';
   const pageUrl = `${baseUrl}/who-we-serve/truck-drivers`;
-  const today = new Date().toISOString().split('T')[0];
+  const today = contentDate('whoWeServe');
 
   /* ── Conditions to link ─────────────────────────────────────────── */
   const conditions = [
     { name: 'Hypertension / High Blood Pressure', slug: 'hypertension-refills-online', desc: 'Ongoing blood pressure monitoring and medication refills — critical for maintaining your CDL medical card.' },
     { name: 'Type 2 Diabetes / Blood Sugar Management', slug: 'diabetes-refills-online', desc: 'A1C follow-up, medication adjustments, and lifestyle guidance to keep glucose levels within DOT thresholds.' },
     { name: 'Cholesterol Management', slug: 'hyperlipidemia-refills-online', desc: 'Statin refills and lipid panel review to reduce long-term cardiovascular risk on the road.' },
-    { name: 'UTI / Urinary Tract Infection', slug: 'uti-treatment-online', desc: 'Fast antibiotic prescriptions sent to the nearest pharmacy along your route.' },
+    { name: 'UTI (women only)', slug: 'uti-treatment-online', desc: 'Fast antibiotic prescriptions sent to the nearest pharmacy along your route.' },
     { name: 'Sinus Infection', slug: 'sinus-infection-treatment-online', desc: 'Evaluation and treatment for sinus pressure, congestion, and post-nasal drip without leaving your cab.' },
     { name: 'Respiratory Infections / Bronchitis', slug: 'common-cold-treatment-online', desc: 'Cold, flu, and bronchitis treatment to get you back on the road faster.' },
     { name: 'Acid Reflux / GERD', slug: 'acid-reflux-refills-online', desc: 'Medication management for heartburn and reflux — common complaints among long-haul drivers.' },
@@ -33,7 +34,7 @@ export default function TruckDriversPage() {
   const faqItems = [
     {
       q: 'Can TeleDirectMD treat me if I\'m in a different state than my home state?',
-      a: 'Yes. TeleDirectMD is licensed in 44 states. You can be seen by the same board-certified physician regardless of which state you are driving through, as long as you are physically located in one of our covered states at the time of the visit. This is one of the core advantages for interstate truck drivers — no need to find a new provider every time you cross a state line.'
+      a: 'Yes. TeleDirectMD is licensed in 40+ states. You can be seen by the same board-certified physician regardless of which state you are driving through, as long as you are physically located in one of our covered states at the time of the visit. This is one of the core advantages for interstate truck drivers — no need to find a new provider every time you cross a state line.'
     },
     {
       q: 'Can you help me manage my blood pressure to pass my DOT physical?',
@@ -41,7 +42,7 @@ export default function TruckDriversPage() {
     },
     {
       q: 'Do I need insurance to use TeleDirectMD?',
-      a: 'No. TeleDirectMD offers transparent cash-pay pricing starting at $79 per visit. Insurance is not required. We also accept select insurance plans in some states. You will know your cost upfront before booking — no surprise bills.'
+      a: 'No. TeleDirectMD offers transparent cash-pay pricing: a flat $79 per visit. Insurance is not required. We also accept select insurance plans in some states. You will know your cost upfront before booking — no hidden fees.'
     },
     {
       q: 'Can you send prescriptions to a pharmacy along my route?',
@@ -49,7 +50,7 @@ export default function TruckDriversPage() {
     },
     {
       q: 'What conditions can you treat for truck drivers via telehealth?',
-      a: 'We treat a wide range of conditions relevant to truckers, including hypertension, type 2 diabetes, high cholesterol, UTIs, sinus infections, respiratory infections, acid reflux, migraines, gout, skin conditions, anxiety, and more. We also provide smoking cessation support and medication refills for chronic conditions. See our full list of 60+ conditions on our What We Treat page.'
+      a: 'We treat a wide range of conditions relevant to truckers, including hypertension, type 2 diabetes, high cholesterol, UTIs (women only), sinus infections, respiratory infections, acid reflux, migraines, gout, skin conditions, anxiety, and more. We also provide smoking cessation support and medication refills for chronic conditions. See our full list of 60+ conditions on our What We Treat page.'
     },
     {
       q: 'How long does a telehealth visit take?',
@@ -89,18 +90,18 @@ export default function TruckDriversPage() {
           "@type": "MedicalTherapy",
           "name": "Telehealth Consultations"
         },
-        "areaServed": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WI","WY"]
+        "areaServed": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NY","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WY"]
       },
       {
         "@type": "Physician",
-        "@id": `${baseUrl}/about#physician`,
+        "@id": `${baseUrl}/about/#physician`,
         "name": "Parth Bhavsar, MD",
         "medicalSpecialty": "FamilyMedicine",
         "worksFor": {
           "@type": "MedicalOrganization",
           "name": "TeleDirectMD"
         },
-        "licensedIn": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WI","WY"]
+        "licensedIn": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NY","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WI","WY"]
       },
       {
         "@type": "FAQPage",
@@ -119,10 +120,10 @@ export default function TruckDriversPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Telehealth for Truck Drivers — See a Doctor From Anywhere on the Road",
-        "description": "TeleDirectMD offers telehealth for truck drivers across 44 states. Manage blood pressure, diabetes, and chronic conditions from your cab. No insurance required.",
+        "description": "TeleDirectMD offers telehealth for truck drivers across 40+ states. Manage blood pressure, diabetes, and chronic conditions from your cab. No insurance required.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
-        "author": { "@id": `${baseUrl}/about#physician` },
+        "author": { "@id": `${baseUrl}/about/#physician` },
         "datePublished": today,
         "dateModified": today,
         "publisher": {
@@ -154,7 +155,7 @@ export default function TruckDriversPage() {
         <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: '0' }}>
           <a href="/">Home</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <a href="/who-we-serve">Who We Serve</a>
+          <a href="/who-we-serve/">Who We Serve</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
           <span aria-current="page">Truck Drivers</span>
         </div>
@@ -166,23 +167,23 @@ export default function TruckDriversPage() {
           <div className="tdmd-hero-grid">
             <div className="tdmd-hero-copy">
               <h1>Telehealth for Truck Drivers — See a Doctor From Anywhere on the Road</h1>
-              <p className="tdmd-hero-sub">Licensed physician in 44 states. No insurance required. Same-day visits, evenings & weekends.</p>
+              <p className="tdmd-hero-sub">Licensed physician in 40+ states. No insurance required. Same-day visits, evenings & weekends.</p>
               <p>
-                Long-haul truckers face the worst occupational health profile in America — yet millions can't get care because they're always on the move. TeleDirectMD brings the doctor to your cab, your truck stop, your sleeper berth. A board-certified physician with same-day availability — including evenings and weekends — licensed across 44 states.
+                Long-haul truckers face the worst occupational health profile in America — yet millions can't get care because they're always on the move. TeleDirectMD brings the doctor to your cab, your truck stop, your sleeper berth. A board-certified physician with same-day availability — including evenings and weekends — licensed across 40+ states.
               </p>
               <ul className="tdmd-hero-benefits">
                 <li>Board-certified physician — not a PA, not an NP, not an algorithm</li>
-                <li>Licensed in 44 states — covers interstate routes coast to coast</li>
+                <li>Licensed in 40+ states — covers interstate routes coast to coast</li>
                 <li>Prescriptions sent to any pharmacy on your route</li>
-                <li>Transparent cash-pay pricing starting at $79</li>
+                <li>Transparent cash-pay pricing: a flat $79</li>
               </ul>
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
               </div>
               <p className="tdmd-reviewed">
                 Last reviewed on {today} by{' '}
-                <a className="tdmd-author-link" href="/about" aria-label="About Parth Bhavsar, MD">
+                <a className="tdmd-author-link" href="/about/" aria-label="About Parth Bhavsar, MD">
                   Parth Bhavsar, MD
                 </a>
               </p>
@@ -192,7 +193,7 @@ export default function TruckDriversPage() {
               <div className="tdmd-hero-card">
                 <h2>Why Truck Drivers Choose TeleDirectMD</h2>
                 <ul>
-                  <li>See a doctor from any truck stop in 44 states</li>
+                  <li>See a doctor from any truck stop in 40+ states</li>
                   <li>Get prescriptions sent to pharmacies along your route</li>
                   <li>Manage blood pressure and diabetes to protect your CDL</li>
                   <li>No scheduling conflicts — same-day visits, evenings & weekends</li>
@@ -232,8 +233,8 @@ export default function TruckDriversPage() {
           </p>
           <div className="tdmd-grid tdmd-grid-2">
             <div className="tdmd-card tdmd-card-good">
-              <h3>44-State Coverage</h3>
-              <p>You cross state lines constantly. TeleDirectMD is licensed in 44 states, meaning the same physician can treat you whether you're in Texas, Tennessee, Ohio, or anywhere on your route. No need to find a new provider at every stop.</p>
+              <h3>40+ State Coverage</h3>
+              <p>You cross state lines constantly. TeleDirectMD is licensed in 40+ states, meaning the same physician can treat you whether you're in Texas, Tennessee, Ohio, or anywhere on your route. No need to find a new provider at every stop.</p>
             </div>
             <div className="tdmd-card tdmd-card-good">
               <h3>Same-Day, Evenings & Weekends</h3>
@@ -277,7 +278,7 @@ export default function TruckDriversPage() {
             {conditions.map((c) => (
               <a
                 key={c.slug}
-                href={`/${c.slug}`}
+                href={`/${c.slug}/`}
                 className="tdmd-card"
                 style={{ textDecoration: 'none', color: 'var(--tdmd-text)', borderLeft: '4px solid var(--tdmd-teal)' }}
               >
@@ -287,7 +288,7 @@ export default function TruckDriversPage() {
             ))}
           </div>
           <div style={{ marginTop: '1.25rem' }}>
-            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All 60+ Conditions We Treat</a>
+            <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All 60+ Conditions We Treat</a>
           </div>
         </div>
       </section>
@@ -318,7 +319,7 @@ export default function TruckDriversPage() {
                 <h3>Get Treated — Prescriptions Sent to Your Route</h3>
                 <p>If medication is needed, we'll send the prescription electronically to the pharmacy nearest to your current location or upcoming stop. Pick it up and get back on the road.</p>
                 <div className="tdmd-decision-cta">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit Now</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit Now</a>
                 </div>
               </div>
             </div>
@@ -329,7 +330,7 @@ export default function TruckDriversPage() {
       {/* ── 7. Transparent Pricing ──────────────────────────────── */}
       <section className="tdmd-section tdmd-section-highlight" id="truck-drivers-pricing">
         <div className="tdmd-container">
-          <h2>Transparent Pricing — No Surprise Bills</h2>
+          <h2>Transparent Pricing — No Hidden Fees</h2>
           <p>Telehealth visits are significantly cheaper than in-person alternatives. A Penn Medicine study found telehealth visits average $96 compared to $509 for in-person episodes — five times less expensive.</p>
           <div className="tdmd-price-grid">
             <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
@@ -339,7 +340,7 @@ export default function TruckDriversPage() {
               <ul className="tdmd-price-includes">
                 <li>Board-certified physician consultation</li>
                 <li>Prescriptions sent to any U.S. pharmacy</li>
-                <li>No hidden fees or surprise billing</li>
+                <li>No hidden fees</li>
                 <li>Insurance accepted in select states</li>
               </ul>
             </div>
@@ -373,11 +374,11 @@ export default function TruckDriversPage() {
         <div className="tdmd-container">
           <h2>Who You're Seeing — A Real Doctor, Not an Algorithm</h2>
           <p>
-            When you visit TeleDirectMD, you're seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is a board-certified family medicine physician licensed across 44 states, providing the same standard of care you'd receive in person.
+            When you visit TeleDirectMD, you're seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about/" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is a board-certified family medicine physician licensed across 40+ states, providing the same standard of care you'd receive in person.
           </p>
           <ul className="tdmd-hero-benefits">
             <li>Board-certified in Family Medicine</li>
-            <li>Licensed in 44 U.S. states</li>
+            <li>Licensed in 40+ U.S. states</li>
             <li>HIPAA-compliant platform — your data is encrypted and protected</li>
             <li>TeleDirectMD does not sell or share your health information</li>
           </ul>
@@ -391,9 +392,9 @@ export default function TruckDriversPage() {
       <section className="tdmd-section tdmd-faq" id="truck-drivers-faq">
         <div className="tdmd-container">
           <h2>Frequently Asked Questions — Telehealth for Truck Drivers</h2>
-          <div className="tdmd-faq-list" role="list">
+          <div className="tdmd-faq-list">
             {faqItems.map((item, i) => (
-              <details key={i} className="tdmd-faq-item" role="listitem">
+              <details key={i} className="tdmd-faq-item">
                 <summary className="tdmd-faq-question">{item.q}</summary>
                 <div className="tdmd-faq-answer">
                   <p>{item.a}</p>
@@ -413,8 +414,8 @@ export default function TruckDriversPage() {
               <p>Pull over, request a same-day visit from your phone, and connect with a board-certified physician. Prescriptions sent to the pharmacy closest to your route.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-              <a href="/who-we-serve" className="tdmd-btn tdmd-btn-outline">Who We Serve</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+              <a href="/who-we-serve/" className="tdmd-btn tdmd-btn-outline">Who We Serve</a>
             </div>
           </div>
         </div>
@@ -424,16 +425,16 @@ export default function TruckDriversPage() {
       <section className="tdmd-section" id="truck-drivers-states">
         <div className="tdmd-container">
           <h2>Telehealth for Truckers — Available in These High-Traffic States</h2>
-          <p>TeleDirectMD is licensed in 44 states. Here are some of the states with the highest trucking traffic where we can see you today:</p>
+          <p>TeleDirectMD is licensed in 40+ states. Here are some of the states with the highest trucking traffic where we can see you today:</p>
           <div className="tdmd-other-states-grid">
             {featuredStates.map((s) => (
-              <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}`}>
+              <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}/`}>
                 {s.name}
               </a>
             ))}
           </div>
           <p style={{ marginTop: '0.75rem' }}>
-            <a href="/states-we-serve" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>View all 44 states we serve →</a>
+            <a href="/states-we-serve/" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>View all states we serve →</a>
           </p>
         </div>
       </section>
@@ -444,19 +445,19 @@ export default function TruckDriversPage() {
           <div className="tdmd-inline-links">
             <h3>Other Communities We Serve</h3>
             <p className="tdmd-link-cloud">
-              <a href="/who-we-serve/gig-workers">Gig Workers & Freelancers</a>
-              <a href="/who-we-serve/uninsured-affordable-care">Uninsured & Affordable Care</a>
-              <a href="/who-we-serve">Who We Serve Hub</a>
+              <a href="/who-we-serve/gig-workers/">Gig Workers & Freelancers</a>
+              <a href="/who-we-serve/uninsured-affordable-care/">Uninsured & Affordable Care</a>
+              <a href="/who-we-serve/">Who We Serve Hub</a>
             </p>
           </div>
           <div className="tdmd-inline-links" style={{ marginTop: '1rem' }}>
             <h3>More from TeleDirectMD</h3>
             <p className="tdmd-link-cloud">
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/states-we-serve">States We Serve</a>
-              <a href="/insurance">Insurance & Pricing</a>
-              <a href="/faq">FAQs</a>
-              <a href="/book-online">Book a Visit</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/states-we-serve/">States We Serve</a>
+              <a href="/insurance/">Insurance & Pricing</a>
+              <a href="/faq/">FAQs</a>
+              <a href="/book-online/">Book a Visit</a>
             </p>
           </div>
         </div>
@@ -467,12 +468,12 @@ export default function TruckDriversPage() {
         <div className="tdmd-container">
           <h2>References</h2>
           <ul className="tdmd-ref-list">
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/24566926/" rel="nofollow noopener" target="_blank">National Survey of Long-Haul Truck Driver Health and Injury — NIH/NIOSH</a></li>
-            <li><a href="https://www.cdc.gov/niosh/newsroom/feature/truckers.html" rel="nofollow noopener" target="_blank">Long-haul Truck Drivers — CDC NIOSH</a></li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/36457756/" rel="nofollow noopener" target="_blank">Cardiometabolic risk factors and mental health status among truck drivers — PubMed</a></li>
-            <li><a href="https://www.lytx.com/resources/blog/how-driver-health-wellness-affects-everyone" rel="nofollow noopener" target="_blank">Driving Healthy: How Driver Health & Wellness Affects Everyone — Lytx</a></li>
-            <li><a href="https://www.pennmedicine.org/news/news-releases/2019/december/study-finds-telemedicine-visits-cost-far-less-than-office-visits" rel="nofollow noopener" target="_blank">Study finds telemedicine visits cost far less than office visits — Penn Medicine</a></li>
-            <li><a href="https://www.goodrx.com/healthcare-access/telehealth/how-much-does-a-telehealth-visit-cost" rel="nofollow noopener" target="_blank">How Much Does a Telehealth Visit Cost? — GoodRx</a></li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/24390804/" rel="nofollow noopener" target="_blank">Obesity and other risk factors: the national survey of U.S. long-haul truck driver health and injury — NIH/NIOSH</a></li>
+            <li><a href="https://www.cdc.gov/niosh/motor-vehicle/long-haul-truck-drivers/" rel="nofollow noopener" target="_blank">Long-haul Truck Drivers — CDC NIOSH</a></li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/33099498/" rel="nofollow noopener" target="_blank">Cardiometabolic risk factors and mental health status among truck drivers: a systematic review — PubMed</a></li>
+            <li><a href="https://www.lytx.com/newsletter/driving-healthy-how-driver-health-wellness-affects-everyone" rel="nofollow noopener" target="_blank">Driving Healthy: How Driver Health & Wellness Affects Everyone — Lytx</a></li>
+            <li><a href="https://www.pennmedicine.org/news/study-finds-telemedicine-visits-cost-far-less-than-office-visits" rel="nofollow noopener" target="_blank">Study finds telemedicine visits cost far less than office visits — Penn Medicine</a></li>
+            <li><a href="https://www.goodrx.com/healthcare-access/telehealth/how-much-does-telehealth-cost" rel="nofollow noopener" target="_blank">How Much Does a Telehealth Visit Cost? — GoodRx</a></li>
             <li><a href="https://www.naohp.com/telehealth-exams-and-dot-drivers/" rel="nofollow noopener" target="_blank">Telehealth Exams and DOT Drivers — NAOHP</a></li>
           </ul>
         </div>

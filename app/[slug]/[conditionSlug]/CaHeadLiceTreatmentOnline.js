@@ -10,7 +10,7 @@
  * FAQ accordion (12 Q/A), JSON-LD schemas (MedicalWebPage + FAQPage + Physician
  * + HowTo + BreadcrumbList + SpeakableSpecification — NEVER QAPage).
  *
- * Authority: AAD
+ * Authority: CDC, AAP
  * Guideline: CDC Head Lice Guidelines + AAP 2022 Head Lice Clinical Report
  *
  * Hard rules respected:
@@ -38,7 +38,7 @@ const PHYSICIAN = {
   specialty: 'Family Medicine',
   licenseState: 'California',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 const CA_PAYORS = [
@@ -46,8 +46,8 @@ const CA_PAYORS = [
     notes: 'Commercial plans. In-network as of April 30, 2026. Verify plan eligibility with Aetna before booking.' },
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true,
     notes: 'Covers UHC Commercial and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types.' },
-  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Enrollment pending. Self pay ($79) available.' },
+  { name: 'Anthem Blue Cross', status: 'Active', effective: 'September 23, 2026', inNetwork: true,
+    notes: 'PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.' },
   { name: 'Cigna', status: 'Pending', effective: 'Pending determination', inNetwork: false,
     notes: 'Pending — Telehealth Only review in progress. Self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false,
@@ -62,7 +62,7 @@ const FAQ_ITEMS = [
     question: 'Can I get head lice treatment online in California?',
     answer: (
       <p>
-        Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat head lice by secure video visit. TeleDirectMD physicians follow CDC and AAP guidelines, prescribing permethrin 1% (or malathion 0.5% / benzyl alcohol 5% for permethrin-resistant California lice). Adults 18+ can book same-day. Self pay is $79. Aetna is in-network as of April 30, 2026.
+        Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat head lice by secure video visit. Dr. Bhavsar follows CDC and AAP guidelines, prescribing permethrin 1% (or malathion 0.5% / benzyl alcohol 5% for permethrin-resistant California lice). Adults 18+ can book same-day. Self pay is $79. Aetna is in-network as of April 30, 2026.
       </p>
     ),
   },
@@ -167,7 +167,7 @@ const FAQ_ITEMS = [
   },
 ];
 
-const SCHEMAS = [{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Head Lice (Pediculosis Capitis) Online in California | TeleDirectMD", "url": "https://teledirectmd.com/ca/head-lice-treatment-online/", "description": "Head lice treatment online for California adults. Board-certified Family Medicine MD. CDC + AAP 2022 guideline-based. Self pay $79. Aetna in-network. Same-day video visits. Permethrin, malathion, benzyl alcohol.", "datePublished": "2026-05-20", "dateModified": "2026-05-20", "inLanguage": "en-US", "about": {"@type": "MedicalCondition", "name": "Head Lice", "code": {"@type": "MedicalCode", "code": "B85.0", "codingSystem": "ICD-10-CM"}}, "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient", "geographicArea": {"@type": "AdministrativeArea", "name": "California"}}, "reviewedBy": {"@type": "Physician", "@id": "https://teledirectmd.com/about/#physician-parth-bhavsar", "name": "Parth Bhavsar, MD", "identifier": {"@type": "PropertyValue", "propertyID": "NPI", "value": "1104323203"}, "medicalSpecialty": "Family Medicine", "hasCredential": [{"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "Doctor of Medicine (MD)"}, {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Board Certification \u2014 American Board of Family Medicine"}], "licensedIn": "California", "worksFor": {"@type": "MedicalOrganization", "name": "TeleDirectMD", "url": "https://teledirectmd.com"}, "sameAs": ["https://npiregistry.cms.hhs.gov/provider-view/1104323203", "https://teledirectmd.com/about/"]}, "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["#ca-head-lice-treatment-online-opening", "#ca-head-lice-treatment-online-opening p", ".tdmd-ca-head-lice-treatment-online__byline", "#ca-head-lice-treatment-online-faq"]}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I get head lice treatment online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat head lice by secure video visit. TeleDirectMD physicians follow CDC and AAP guidelines, prescribing permethrin 1% (or malathion 0.5% / benzyl alcohol 5% for permethrin-resistant California lice). Adults 18+ can book same-day. Self pay is $79. Aetna is in-network as of April 30, 2026."}}, {"@type": "Question", "name": "How common is head lice in California?", "acceptedAnswer": {"@type": "Answer", "text": "Head lice affect 6\u201312 million Americans annually per CDC data. CDPH acknowledges head lice as a persistent California school health issue, with California school districts reporting increasing rates of permethrin-resistant lice. Los Angeles and San Francisco counties \u2014 with high-density multi-generational households \u2014 have elevated rates of head lice transmission. Adults are most commonly affected through close contact with infested children."}}, {"@type": "Question", "name": "What head lice medications can a California telehealth doctor prescribe?", "acceptedAnswer": {"@type": "Answer", "text": "A California-licensed telehealth physician can prescribe: malathion 0.5% lotion (Ovide) for permethrin-resistant lice, benzyl alcohol 5% lotion (Ulesfia), and spinosad 0.9% suspension (Natroba). OTC permethrin 1% (Nix) is the first-line recommendation per CDC \u2014 try 2 courses (days 0 and 7\u201310) before seeking prescription treatment. Prescriptions are sent electronically under AB 2789."}}, {"@type": "Question", "name": "Does California require an in-person visit for head lice treatment?", "acceptedAnswer": {"@type": "Answer", "text": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. Adult head lice with visible nits or confirmed lice in a household outbreak \u2014 particularly when OTC permethrin has failed \u2014 is appropriately evaluated by video for prescription treatment."}}, {"@type": "Question", "name": "What is permethrin-resistant head lice and is it common in California?", "acceptedAnswer": {"@type": "Answer", "text": "Permethrin-resistant lice (sometimes called super lice) have genetic mutations that reduce pyrethroid sensitivity. CDC and AAP data confirm widespread permethrin resistance throughout the U.S., including California. If lice persist after 2 correct courses of permethrin 1%, resistance is likely \u2014 prescription malathion 0.5%, benzyl alcohol 5%, or spinosad 0.9% are the next steps per CDC/AAP."}}, {"@type": "Question", "name": "When does head lice require in-person care?", "acceptedAnswer": {"@type": "Answer", "text": "Seek in-person care for secondary scalp impetigo (bacterial infection from scratching) requiring antibiotic evaluation. If scalp involvement is so severe it cannot be assessed visually, in-person examination may be needed. Children under 18 must be seen by their pediatrician for head lice management \u2014 TeleDirectMD treats adults 18+ only."}}, {"@type": "Question", "name": "Is Aetna in-network for head lice treatment at TeleDirectMD in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026. Self pay is $79."}}, {"@type": "Question", "name": "What is the cost of head lice treatment in California?", "acceptedAnswer": {"@type": "Answer", "text": "TeleDirectMD charges $79 self-pay. OTC permethrin 1% (Nix) is ~$10\u2013$20 at California pharmacies. Prescription malathion 0.5% (Ovide) ~$60\u2013$120. Benzyl alcohol 5% (Ulesfia) ~$150\u2013$200. Spinosad 0.9% (Natroba) ~$200\u2013$400. The progression from OTC to prescription saves significant cost when OTC fails after only 2 courses."}}, {"@type": "Question", "name": "Does California's AB 744 parity law cover head lice telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, for in-network commercial plans. California AB 744 (2019) requires commercial health plans to reimburse telehealth on the same basis as in-person services. Aetna and UHC Commercial are in-network for TeleDirectMD in California."}}, {"@type": "Question", "name": "How do I prevent head lice from spreading in a California household?", "acceptedAnswer": {"@type": "Answer", "text": "CDC recommendations: avoid head-to-head contact during play, sports, and sleepovers; do not share combs, brushes, hats, helmets, or towels; wash bedding, clothing, and stuffed animals used by infested persons in hot water (130\u00b0F+) and dry on high heat; vacuum carpets and upholstered furniture. School-age children should not share hats or helmets \u2014 common in California youth sports. No-nit policies are no longer recommended by AAP (nits alone are not an indication to exclude from school)."}}, {"@type": "Question", "name": "Will my head lice prescription be sent electronically to a California pharmacy?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California AB 2789 (effective January 1, 2022) requires all prescriptions to be issued electronically. TeleDirectMD sends e-prescriptions to your chosen California pharmacy \u2014 CVS, Walgreens, Rite Aid, Walmart, Safeway \u2014 during or after your visit."}}, {"@type": "Question", "name": "How do I use a nit comb for head lice?", "acceptedAnswer": {"@type": "Answer", "text": "CDC recommends wet-combing with a fine-toothed nit comb after applying conditioner to damp hair to facilitate lice movement. Part hair into sections; comb from scalp to end of each section; wipe comb on a white paper towel after each stroke to identify lice and nits. Repeat every 2\u20133 days for 2 weeks. Wet-combing alone is less effective than medication but is a non-chemical option. Combining medication with nit combing per CDC maximizes treatment effectiveness."}}]}, {"@context": "https://schema.org", "@type": "HowTo", "name": "How to Get Head Lice (Pediculosis Capitis) Online in California", "description": "Three steps to receive head lice (pediculosis capitis) evaluation and, if appropriate, a prescription from a California-licensed board-certified physician.", "totalTime": "PT30M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "79"}, "step": [{"@type": "HowToStep", "position": 1, "name": "Book your video visit", "text": "Visit teledirectmd.com and select California Head Lice treatment. No referral needed. Self pay $79. Many visits available same day.", "url": "https://teledirectmd.com/book-online"}, {"@type": "HowToStep", "position": 2, "name": "See a California-licensed MD by secure video", "text": "Connect with a board-certified Family Medicine physician licensed in California. The physician reviews your symptoms, history, and red-flag screening. Consent per CA B&P Section 2290.5 confirmed.", "url": "https://teledirectmd.com/ca/head-lice-treatment-online/"}, {"@type": "HowToStep", "position": 3, "name": "Receive your treatment plan and e-prescription", "text": "If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy during or after the visit.", "url": "https://teledirectmd.com/ca/head-lice-treatment-online/"}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TeleDirectMD", "item": "https://teledirectmd.com"}, {"@type": "ListItem", "position": 2, "name": "California", "item": "https://teledirectmd.com/ca/"}, {"@type": "ListItem", "position": 3, "name": "Head Lice (Pediculosis Capitis) Online in California", "item": "https://teledirectmd.com/ca/head-lice-treatment-online/"}]}];
+const SCHEMAS = [{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Head Lice (Pediculosis Capitis) Online in California | TeleDirectMD", "url": "https://teledirectmd.com/ca/head-lice-treatment-online/", "description": "Head lice treatment online for California adults. Board-certified Family Medicine MD. CDC + AAP 2022 guideline-based. Self pay $79. Aetna in-network. Same-day video visits. Permethrin, malathion, benzyl alcohol.", "datePublished": "2026-05-20", "dateModified": "2026-05-20", "inLanguage": "en-US", "about": {"@type": "MedicalCondition", "name": "Head Lice", "code": {"@type": "MedicalCode", "code": "B85.0", "codingSystem": "ICD-10-CM"}}, "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient", "geographicArea": {"@type": "AdministrativeArea", "name": "California"}}, "reviewedBy": {"@type": "Physician", "@id": "https://teledirectmd.com/about/#physician", "name": "Parth Bhavsar, MD", "identifier": {"@type": "PropertyValue", "propertyID": "NPI", "value": "1104323203"}, "medicalSpecialty": "Family Medicine", "hasCredential": [{"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "Doctor of Medicine (MD)"}, {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Board Certification \u2014 American Board of Family Medicine"}], "licensedIn": "California", "worksFor": {"@type": "MedicalOrganization", "name": "TeleDirectMD", "url": "https://teledirectmd.com"}, "sameAs": ["https://npiregistry.cms.hhs.gov/provider-view/1104323203", "https://teledirectmd.com/about/"]}, "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["#ca-head-lice-treatment-online-opening", "#ca-head-lice-treatment-online-opening p", ".tdmd-ca-head-lice-treatment-online__byline", "#ca-head-lice-treatment-online-faq"]}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I get head lice treatment online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat head lice by secure video visit. Dr. Bhavsar follows CDC and AAP guidelines, prescribing permethrin 1% (or malathion 0.5% / benzyl alcohol 5% for permethrin-resistant California lice). Adults 18+ can book same-day. Self pay is $79. Aetna is in-network as of April 30, 2026."}}, {"@type": "Question", "name": "How common is head lice in California?", "acceptedAnswer": {"@type": "Answer", "text": "Head lice affect 6\u201312 million Americans annually per CDC data. CDPH acknowledges head lice as a persistent California school health issue, with California school districts reporting increasing rates of permethrin-resistant lice. Los Angeles and San Francisco counties \u2014 with high-density multi-generational households \u2014 have elevated rates of head lice transmission. Adults are most commonly affected through close contact with infested children."}}, {"@type": "Question", "name": "What head lice medications can a California telehealth doctor prescribe?", "acceptedAnswer": {"@type": "Answer", "text": "A California-licensed telehealth physician can prescribe: malathion 0.5% lotion (Ovide) for permethrin-resistant lice, benzyl alcohol 5% lotion (Ulesfia), and spinosad 0.9% suspension (Natroba). OTC permethrin 1% (Nix) is the first-line recommendation per CDC \u2014 try 2 courses (days 0 and 7\u201310) before seeking prescription treatment. Prescriptions are sent electronically under AB 2789."}}, {"@type": "Question", "name": "Does California require an in-person visit for head lice treatment?", "acceptedAnswer": {"@type": "Answer", "text": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. Adult head lice with visible nits or confirmed lice in a household outbreak \u2014 particularly when OTC permethrin has failed \u2014 is appropriately evaluated by video for prescription treatment."}}, {"@type": "Question", "name": "What is permethrin-resistant head lice and is it common in California?", "acceptedAnswer": {"@type": "Answer", "text": "Permethrin-resistant lice (sometimes called super lice) have genetic mutations that reduce pyrethroid sensitivity. CDC and AAP data confirm widespread permethrin resistance throughout the U.S., including California. If lice persist after 2 correct courses of permethrin 1%, resistance is likely \u2014 prescription malathion 0.5%, benzyl alcohol 5%, or spinosad 0.9% are the next steps per CDC/AAP."}}, {"@type": "Question", "name": "When does head lice require in-person care?", "acceptedAnswer": {"@type": "Answer", "text": "Seek in-person care for secondary scalp impetigo (bacterial infection from scratching) requiring antibiotic evaluation. If scalp involvement is so severe it cannot be assessed visually, in-person examination may be needed. Children under 18 must be seen by their pediatrician for head lice management \u2014 TeleDirectMD treats adults 18+ only."}}, {"@type": "Question", "name": "Is Aetna in-network for head lice treatment at TeleDirectMD in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026. Self pay is $79."}}, {"@type": "Question", "name": "What is the cost of head lice treatment in California?", "acceptedAnswer": {"@type": "Answer", "text": "TeleDirectMD charges $79 self-pay. OTC permethrin 1% (Nix) is ~$10\u2013$20 at California pharmacies. Prescription malathion 0.5% (Ovide) ~$60\u2013$120. Benzyl alcohol 5% (Ulesfia) ~$150\u2013$200. Spinosad 0.9% (Natroba) ~$200\u2013$400. The progression from OTC to prescription saves significant cost when OTC fails after only 2 courses."}}, {"@type": "Question", "name": "Does California's AB 744 parity law cover head lice telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, for in-network commercial plans. California AB 744 (2019) requires commercial health plans to reimburse telehealth on the same basis as in-person services. Aetna and UHC Commercial are in-network for TeleDirectMD in California."}}, {"@type": "Question", "name": "How do I prevent head lice from spreading in a California household?", "acceptedAnswer": {"@type": "Answer", "text": "CDC recommendations: avoid head-to-head contact during play, sports, and sleepovers; do not share combs, brushes, hats, helmets, or towels; wash bedding, clothing, and stuffed animals used by infested persons in hot water (130\u00b0F+) and dry on high heat; vacuum carpets and upholstered furniture. School-age children should not share hats or helmets \u2014 common in California youth sports. No-nit policies are no longer recommended by AAP (nits alone are not an indication to exclude from school)."}}, {"@type": "Question", "name": "Will my head lice prescription be sent electronically to a California pharmacy?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California AB 2789 (effective January 1, 2022) requires all prescriptions to be issued electronically. TeleDirectMD sends e-prescriptions to your chosen California pharmacy \u2014 CVS, Walgreens, Rite Aid, Walmart, Safeway \u2014 during or after your visit."}}, {"@type": "Question", "name": "How do I use a nit comb for head lice?", "acceptedAnswer": {"@type": "Answer", "text": "CDC recommends wet-combing with a fine-toothed nit comb after applying conditioner to damp hair to facilitate lice movement. Part hair into sections; comb from scalp to end of each section; wipe comb on a white paper towel after each stroke to identify lice and nits. Repeat every 2\u20133 days for 2 weeks. Wet-combing alone is less effective than medication but is a non-chemical option. Combining medication with nit combing per CDC maximizes treatment effectiveness."}}]}, {"@context": "https://schema.org", "@type": "HowTo", "name": "How to Get Head Lice (Pediculosis Capitis) Online in California", "description": "Three steps to receive head lice (pediculosis capitis) evaluation and, if appropriate, a prescription from a California-licensed board-certified physician.", "totalTime": "PT30M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "79"}, "step": [{"@type": "HowToStep", "position": 1, "name": "Book your video visit", "text": "Visit teledirectmd.com and select California Head Lice treatment. No referral needed. Self pay $79. Many visits available same day.", "url": "https://teledirectmd.com/book-online"}, {"@type": "HowToStep", "position": 2, "name": "See a California-licensed MD by secure video", "text": "Connect with a board-certified Family Medicine physician licensed in California. The physician reviews your symptoms, history, and red-flag screening. Consent per CA B&P Section 2290.5 confirmed.", "url": "https://teledirectmd.com/ca/head-lice-treatment-online/"}, {"@type": "HowToStep", "position": 3, "name": "Receive your treatment plan and e-prescription", "text": "If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy during or after the visit.", "url": "https://teledirectmd.com/ca/head-lice-treatment-online/"}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TeleDirectMD", "item": "https://teledirectmd.com"}, {"@type": "ListItem", "position": 2, "name": "California", "item": "https://teledirectmd.com/ca/"}, {"@type": "ListItem", "position": 3, "name": "Head Lice (Pediculosis Capitis) Online in California", "item": "https://teledirectmd.com/ca/head-lice-treatment-online/"}]}];
 
 const PAGE_CSS = `
 .tdmd-ca-cond{color:var(--tdmd-text);}
@@ -251,7 +251,7 @@ export default function CaHeadLiceTreatmentOnline() {
                 {/* v3: Inline opener paragraph — replaces CitableSummaryBlock */}
                 <div className="tdmd-condition-opener" id={`${pid}-opening`}>
                   <p>
-                    <strong>Can I get head lice (pediculosis capitis) online in California?</strong> Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California and are held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. Self pay is $79. <a href="/insurance/">Aetna is in-network</a> as of April 30, 2026; UnitedHealthcare Commercial approved May 29, 2026.
+                    <strong>Can I get head lice (pediculosis capitis) online in California?</strong> Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. Dr. Bhavsar is licensed in California and is held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. Self pay is $79. <a href="/insurance/">Aetna is in-network</a> as of April 30, 2026; UnitedHealthcare Commercial approved May 29, 2026.
                   </p>
                 </div>
 
@@ -290,9 +290,9 @@ export default function CaHeadLiceTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> B85.0 (Pediculosis due to Pediculus humanus capitis)</p>
@@ -304,7 +304,7 @@ export default function CaHeadLiceTreatmentOnline() {
                   <ul>
                     <li>Fast evaluation for head lice (pediculosis capitis) symptoms</li>
                     <li>Red-flag screening for serious complications requiring in-person care</li>
-                    <li>Guideline-based treatment per AAD</li>
+                    <li>Guideline-based treatment per CDC and AAP</li>
                     <li>e-Prescriptions to your CA pharmacy under AB 2789</li>
                     <li>Clear follow-up steps and prevention guidance</li>
                   </ul>
@@ -403,7 +403,7 @@ export default function CaHeadLiceTreatmentOnline() {
                   <h3>Receive your treatment plan and e-prescription</h3>
                   <p>If medication is clinically appropriate, a California-compliant e-prescription is sent to your chosen California pharmacy during or after the visit. You receive clear follow-up instructions regardless of treatment choice, including when to seek in-person care.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -416,10 +416,10 @@ export default function CaHeadLiceTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Head Lice in California?</h2>
             <p>
-              Head lice affect an estimated 6–12 million children and adults annually in the United States, according to the CDC Parasites — Head Lice program. In California, the California Department of Public Health (CDPH) acknowledges head lice as a common school health issue, with California school districts reporting persistent outbreaks due to permethrin-resistant lice — a growing problem. Los Angeles and San Francisco counties, with high-density multi-generational households, have elevated rates of head lice transmission. — <a href="https://www.cdc.gov/parasites/lice/head/index.html" rel="noopener" target="_blank">CDC Parasites — Head Lice</a>.
+              Head lice affect an estimated 6–12 million children and adults annually in the United States, according to the CDC Parasites — Head Lice program. In California, the California Department of Public Health (CDPH) acknowledges head lice as a common school health issue, with California school districts reporting persistent outbreaks due to permethrin-resistant lice — a growing problem. Los Angeles and San Francisco counties, with high-density multi-generational households, have elevated rates of head lice transmission. — <a href="https://www.cdc.gov/lice/about/head-lice.html" rel="noopener" target="_blank">CDC — About Head Lice</a>.
             </p>
             <p>
-              Clinical guidance for head lice (pediculosis capitis) is provided by <a href="https://www.cdc.gov/parasites/lice/head/treatment.html" rel="noopener" target="_blank">AAD</a> through the CDC Head Lice Guidelines + AAP 2022 Head Lice Clinical Report. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for head lice (pediculosis capitis) comes from the <a href="https://www.cdc.gov/lice/hcp/clinical-care/index.html" rel="noopener" target="_blank">CDC</a> and the AAP 2022 Head Lice Clinical Report. TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes head lice and who is most at risk in California?</h3>
             <p>
@@ -448,25 +448,6 @@ export default function CaHeadLiceTreatmentOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical Head Lice cost comparison">
-                <h3>Typical Head Lice Visit Cost in California</h3>
-                <p className="tdmd-price-caption">Common ranges Californians see before insurance. Actual costs vary by setting and city.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 16, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical California metro pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <h3 style={{ marginTop: '1.75rem' }}>California Payor Status — TeleDirectMD</h3>
@@ -504,7 +485,7 @@ export default function CaHeadLiceTreatmentOnline() {
               </table>
             </div>
             <p style={{ marginTop: '1rem' }}>
-              View all <a href="/insurance">insurance options</a> or <a href="/book-online">book a $79 self-pay visit</a>.
+              View all <a href="/insurance/">insurance options</a> or <a href="/book-online/">book a $79 self-pay visit</a>.
             </p>
           </div>
         </section>
@@ -514,7 +495,7 @@ export default function CaHeadLiceTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Head Lice (Pediculosis Capitis) Medication Options and Costs in California</h2>
             <p>
-              Medications for head lice (pediculosis capitis) are selected based on current guidelines from <a href="https://www.cdc.gov/parasites/lice/head/treatment.html" rel="noopener" target="_blank">AAD</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for head lice (pediculosis capitis) are selected based on current guidelines from the <a href="https://www.cdc.gov/lice/hcp/clinical-care/index.html" rel="noopener" target="_blank">CDC</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Head Lice (Pediculosis Capitis) medication options and GoodRx prices">
@@ -533,25 +514,25 @@ export default function CaHeadLiceTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Permethrin 1% lotion/cream rinse (Nix)</strong> · First-line</td>
                     <td>Apply to hair and scalp, leave 10 minutes, rinse — repeat in 7–10 days if live lice still present</td>
-                    <td><a href="https://www.goodrx.com/permethrin-topical" target="_blank" rel="noopener">~$10–$20 OTC or Rx</a></td>
+                    <td><a href="https://www.goodrx.com/permethrin" target="_blank" rel="noopener">~$10–$20 OTC or Rx</a></td>
                     <td>First-line per CDC/AAP for head lice. OTC available. Kills lice but not all eggs — repeat treatment in 7–10 days is essential. Resistance is increasing in California — if no improvement after 2 treatments, use malathion or benzyl alcohol.</td>
                   </tr>
                   <tr>
                     <td><strong>Malathion 0.5% lotion (Ovide)</strong></td>
                     <td>Apply to dry hair and scalp, leave 8–12 hours (overnight), rinse — repeat in 7–9 days if live lice present</td>
-                    <td><a href="https://www.goodrx.com/malathion-topical" target="_blank" rel="noopener">~$60–$120 / 59 mL</a></td>
+                    <td><a href="https://www.goodrx.com/malathion" target="_blank" rel="noopener">~$60–$120 / 59 mL</a></td>
                     <td>Second-line for permethrin-resistant head lice per CDC/AAP. Prescription only. Highly effective against both lice and eggs. Flammable — keep away from heat/flames during application. Not for children under 6.</td>
                   </tr>
                   <tr>
                     <td><strong>Benzyl alcohol 5% lotion (Ulesfia)</strong></td>
                     <td>Apply to dry hair and scalp, leave 10 minutes, rinse — repeat in 7 days</td>
-                    <td><a href="https://www.goodrx.com/benzyl-alcohol-topical" target="_blank" rel="noopener">~$150–$200 / 227 mL</a></td>
+                    <td><a href="https://www.goodrx.com/ulesfia" target="_blank" rel="noopener">~$150–$200 / 227 mL</a></td>
                     <td>Non-neurotoxic second-line for permethrin-resistant lice per CDC/AAP. Prescription only. Kills lice by suffocation — does not kill eggs, so repeat treatment is essential. Safe for children 6 months+ per AAP.</td>
                   </tr>
                   <tr>
                     <td><strong>Spinosad 0.9% suspension (Natroba)</strong></td>
                     <td>Apply to dry hair and scalp for 10 minutes, rinse — repeat in 7 days if live lice present</td>
-                    <td><a href="https://www.goodrx.com/spinosad-topical" target="_blank" rel="noopener">~$200–$400 / 120 mL</a></td>
+                    <td><a href="https://www.goodrx.com/spinosad" target="_blank" rel="noopener">~$200–$400 / 120 mL</a></td>
                     <td>FDA-approved for lice in adults and children ≥4 years per CDC. Prescription. High cure rate — often effective with single treatment. Expensive.</td>
                   </tr>
                 </tbody>
@@ -608,7 +589,7 @@ export default function CaHeadLiceTreatmentOnline() {
                 <p>Book a same-day video visit — California adults, 18+</p>
                 <small>Self pay $79 &middot; Aetna in-network &middot; UHC Commercial approved May 2026 &middot; No ER wait</small>
               </div>
-              <a className="tdmd-ca-cond__cta-btn" href="/book-online" rel="noopener">Book Now &rarr;</a>
+              <a className="tdmd-ca-cond__cta-btn" href="/book-online/" rel="noopener">Book Now &rarr;</a>
             </div>
           </div>
         </section>
@@ -626,8 +607,8 @@ export default function CaHeadLiceTreatmentOnline() {
                 <p>Book a same-day video visit. Self pay $79 &middot; Aetna in-network &middot; UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -678,10 +659,10 @@ export default function CaHeadLiceTreatmentOnline() {
               <a href="/head-lice-treatment-online/">National Head Lice page</a>
               <a href="/health-guides/">Head Lice health guides</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/insurance">Insurance</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/insurance/">Insurance</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>
@@ -692,14 +673,14 @@ export default function CaHeadLiceTreatmentOnline() {
             <h2>References and Primary Sources</h2>
             <ol className="tdmd-ref-list">
               <li><a href="https://www.cdc.gov/parasites/lice/head/treatment.html" rel="noopener" target="_blank">CDC — Head Lice Treatment. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.cdc.gov/parasites/lice/head/index.html" rel="noopener" target="_blank">CDC — Head Lice Overview. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.cdc.gov/lice/about/head-lice.html" rel="noopener" target="_blank">CDC — About Head Lice. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/HeadLice.aspx" rel="noopener" target="_blank">CDPH — Head Lice. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California B&P Code §2290.5. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 (AB 744). Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/permethrin-topical" rel="noopener" target="_blank">GoodRx — Permethrin. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/malathion-topical" rel="noopener" target="_blank">GoodRx — Malathion Topical. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/benzyl-alcohol-topical" rel="noopener" target="_blank">GoodRx — Benzyl Alcohol Topical. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/permethrin" rel="noopener" target="_blank">GoodRx — Permethrin. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/malathion" rel="noopener" target="_blank">GoodRx — Malathion Topical. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/ulesfia" rel="noopener" target="_blank">GoodRx — Benzyl Alcohol Topical. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Prescriptions/Electronic_Prescribing.aspx" rel="noopener" target="_blank">Medical Board of California — AB 2789. Retrieved 2026-05-22.</a></li>
             </ol>
           </div>

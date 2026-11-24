@@ -1,0 +1,935 @@
+{
+ "guide": "ai-chatbots-vs-physicians-diagnostic-accuracy",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 13 verified (10.1038/s41746-025-01543-z, 10.1038/s41591-025-04074-y, 10.1001/jama.2023.22295, 10.1001/jamanetworkopen.2024.40969, 10.1038/s41591-024-03456-y, 10.1016/S2468-1253(25)00133-5, 10.1038/s41746-025-01566-6, 10.2196/31810, 10.1136/bmj.h3480, 10.2196/49995, 10.2196/49907, 10.1038/s41746-022-00667-w, 10.1055/a-2858-7084), retractions: none; no expressions of concern; potential contrasting evidence flagged for Goh 2024, Budzyn 2025, Schmieding 2022 and Semigran 2015 (see entry notes). PubMed article types checked for all 13: no Retracted Publication or Retraction Notice. Bean 2026 has a Publisher Correction (figure axis labels only).",
+ "references": [
+  {
+   "n": 1,
+   "kind": "journal",
+   "pmid": "40121370",
+   "pmcid": "PMC11929846",
+   "doi": "10.1038/s41746-025-01543-z",
+   "record_title": "A systematic review and meta-analysis of diagnostic performance comparison between generative AI and physicians.",
+   "record_journal": "NPJ Digit Med",
+   "record_year": "2025",
+   "article_type": "Journal Article (systematic review and meta-analysis)",
+   "cited_as": "Takita H, Kabata D, Walston SL, et al. npj Digital Medicine. 2025;8(1):175.",
+   "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC)",
+   "notes": "Old citation had no authors, abbreviated title and wrong article number (148); corrected to 8(1):175 from PubMed. Studies published June 2018 to June 2024; physician comparators split into experts and non-experts (trainees or residents).",
+   "claims": [
+    {
+     "text": "83 studies, overall pooled diagnostic accuracy 52.1%",
+     "quote": "Analysis of 83 studies revealed an overall diagnostic accuracy of 52.1%.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "studies published June 2018 to June 2024",
+     "quote": "We conducted a systematic review and meta-analysis of studies validating generative AI models for diagnostic tasks published between June 2018 and June 2024.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "GPT-4 (54 studies) and GPT-3.5 (40) most tested; GPT-4o, Claude 3 Opus, Gemini 1.5 Pro in few",
+     "quote": "The most evaluated models were GPT-4(54 articles) and GPT-3.5(40), while models such as GPT-4V(9), PaLM2(9), Llama 2(5), Prometheus (4), Claude 3 Opus (4), Gemini 1.5 Pro (3), GPT-4o (2)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "76% of studies at high risk of bias; 12 of 83 were preprints",
+     "quote": "overall rating of 63/83 (76%) studies at high risk of bias ... Of the included studies, 71 were peer-reviewed, while 12 were preprints.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "17 studies compared AI with physicians",
+     "quote": "Seventeen studies compared the performance of generative AI models with that of physicians.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "physicians 9.9 points more accurate overall, not significant; non-experts 0.6 points, not significant",
+     "quote": "physicians' accuracy was 9.9% higher [95% CI: -2.3 to 22.0%], = 0.10) and non-expert physicians (non-expert physicians' accuracy was 0.6% higher [95% CI: -14.5 to 15.7%], = 0.93)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "expert physicians 15.8 points more accurate, p = 0.007",
+     "quote": "generative AI models overall were significantly inferior to expert physicians (difference in accuracy: 15.8% [95% CI: 4.4-27.1%], = 0.007",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "non-experts defined as trainees or residents",
+     "quote": "We classified physicians as non-experts if they were trainees or residents. In contrast, those beyond this stage in their career were categorized as experts.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "GPT-4o, Claude 3 Opus, Gemini 1.5 Pro showed no significant difference from experts",
+     "quote": "GPT-4V, GPT-4o, Prometheus, Llama 3 70B, Gemini 1.0 Pro, Gemini 1.5 Pro, Claude 3 Sonnet, Claude 3 Opus, and Perplexity demonstrated no significant difference against experts.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "AI may do worse in more complex, real-world scenarios",
+     "quote": "This suggests that generative AI model performance may degrade in more complex, real-world scenarios.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://www.nature.com/articles/s41746-025-01543-z",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 2,
+   "kind": "journal",
+   "pmid": "41663592",
+   "pmcid": "PMC12920132",
+   "doi": "10.1038/s41591-025-04074-y",
+   "record_title": "Reliability of LLMs as medical assistants for the general public: a randomized preregistered study.",
+   "record_journal": "Nat Med",
+   "record_year": "2026",
+   "article_type": "Journal Article; Randomized Controlled Trial",
+   "cited_as": "Bean AM, Payne RE, Parsons G, et al. Nature Medicine. 2026;32(2):609-615.",
+   "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC)",
+   "editorial_notices": [
+    "Publisher Correction, Nat Med 2026;32(5):1937 (PMID 41998345, doi 10.1038/s41591-026-04404-8): Fig. 2a y-axis labels corrected; findings unchanged"
+   ],
+   "notes": "Primary paper replacing the press release as the source for the study findings. Peer reviewed (not a preprint). Data collected 21 Aug to 14 Oct 2024. Models: GPT-4o, Llama 3, Command R+. The original page linked a wrong Nature URL (s41591-025-03624-0) in the citable summary.",
+   "claims": [
+    {
+     "text": "1,298 participants, randomized to GPT-4o, Llama 3, Command R+ or control; ten scenarios",
+     "quote": "We tested whether LLMs can assist members of the public in identifying underlying conditions and choosing a course of action (disposition) in ten medical scenarios in a controlled study with 1,298 participants.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "randomized and preregistered; UK adults",
+     "quote": "We recruited 1,298 participants living in the UK and over the age of 18",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "data collected August to October 2024",
+     "quote": "Data collection was run between 21 August 2024 and 14 October 2024.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "control used any source they would normally use at home",
+     "quote": "Participants in the control group were instructed to instead use any methods they would typically employ at home.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "scored against disposition agreed by three doctors and condition list from four other doctors",
+     "quote": "We scored the selected disposition based on whether it matched the answer given by the three physicians involved in drafting the case. We scored the listed medical conditions based on whether they appeared in a gold-standard list",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "models alone 94.9% conditions; users fewer than 34.5% conditions and 44.2% disposition, no better than control",
+     "quote": "correctly identifying conditions in 94.9% of cases ... participants using the same LLMs identified relevant conditions in fewer than 34.5% of cases and disposition in fewer than 44.2%, both no better than the control group.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "LLM users worse than control at identifying relevant conditions",
+     "quote": "participants using LLMs were significantly less likely than those in the control group to correctly identify at least one medical condition relevant to their scenario",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "benchmarks did not predict failures with real people",
+     "quote": "Standard benchmarks for medical knowledge and simulated patient interactions do not predict the failures we find with human participants.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "results are a lower bound; unclear whether newer models gains carry over to users",
+     "quote": "Our work can only provide a lower bound on performance: newer models ... are likely to provide higher performance on medical benchmarks. It is unclear, however, whether these gains will translate into higher performance with real users",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "authors: none of the tested models ready for direct patient care (FAQ JSON-LD)",
+     "quote": "In our work, we found that none of the tested language models were ready for deployment in direct patient care.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "16 of 30 sampled conversations began with partial information",
+     "quote": "In 16 of 30 sampled interactions, initial messages contained only partial information",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "opposite advice for similar subarachnoid hemorrhage descriptions",
+     "quote": "very similar messages describing symptoms of a subarachnoid hemorrhage but were given opposite advice ... One user was told to lie down in a dark room, and the other user was given the correct recommendation to seek emergency care.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "participants pointed to the chatbot apparent confidence",
+     "quote": "two users appeared to have made decisions by anthropomorphizing LLMs and considering them human-like (for example, 'the AI seemed pretty confident').",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41663592/",
+   "retrieved_at": "2026-11-15"
+  },
+  {
+   "n": 3,
+   "kind": "agency_page",
+   "version_or_date": "Jan 21, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "cited_as": "ECRI. Misuse of AI chatbots tops annual list of health technology hazards. January 21, 2026.",
+   "notes": "Page also says more than 40 million people a day use ChatGPT for health information, attributed to an OpenAI analysis; that secondhand company figure was removed from the guide (spec: cite the original; OpenAI report not retrieved).",
+   "claims": [
+    {
+     "text": "AI chatbots top ECRI 2026 health technology hazards list",
+     "quote": "Artificial intelligence (AI) chatbots in healthcare top the 2026 list of the most significant health technology hazards.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "chatbots suggested incorrect diagnoses, unnecessary testing, subpar supplies, invented body parts",
+     "quote": "ECRI experts say that chatbots have suggested incorrect diagnoses, recommended unnecessary testing, promoted subpar medical supplies, and even invented body parts in response to medical questions",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "electrosurgical return electrode over shoulder blade; risk of burns",
+     "quote": "one chatbot gave dangerous advice when ECRI asked whether it would be acceptable to place an electrosurgical return electrode over the patient's shoulder blade. The chatbot incorrectly stated that placement was appropriate",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "advice would leave patient at risk of burns",
+     "quote": "advice that, if followed, would leave the patient at risk of burns.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://home.ecri.org/blogs/ecri-news/misuse-of-ai-chatbots-tops-annual-list-of-health-technology-hazards",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 4,
+   "kind": "agency_page",
+   "version_or_date": "2026 report; no publication date shown on page (old citation printed March 9, 2026, not verifiable on page)",
+   "retrieved_with": "WebFetch of official page",
+   "cited_as": "ECRI. AI use in diagnostic care, rural care access, and surge in preventable diseases top annual report of patient safety concerns.",
+   "claims": [
+    {
+     "text": "AI in diagnostics the #1 patient safety concern for 2026",
+     "quote": "is the #1 patient safety concern for 2026 according to the annual Top 10 Patient Safety Concerns report by ECRI",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://home.ecri.org/blogs/ecri-news/ai-use-in-diagnostic-care-rural-care-access-and-surge-in-preventable-diseases-top-annual-report-of-patient-safety-concerns",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "pmid": "38112814",
+   "pmcid": "PMC10731487",
+   "doi": "10.1001/jama.2023.22295",
+   "record_title": "Measuring the Impact of AI in the Diagnosis of Hospitalized Patients: A Randomized Clinical Vignette Survey Study.",
+   "record_journal": "JAMA",
+   "record_year": "2023",
+   "article_type": "Comparative Study; Journal Article; Multicenter Study; Randomized Controlled Trial",
+   "cited_as": "Jabbour S, Fouhey D, Shepard S, et al. JAMA. 2023;330(23):2275-2284.",
+   "retrieved_with": "PubMed get_article_metadata",
+   "notes": "Old citation printed Gala D et al., JAMA 2024;331(23):2034-2043, all wrong. Link (jamanetwork 2812908) matches PubMed pii 2812908. The AI was an image-based (chest radiograph) model, not a chatbot. Old text said the 11.3-point drop held even with explanations; with explanations it was 9.1 points.",
+   "claims": [
+    {
+     "text": "457 clinicians: hospitalists, NPs, PAs; 13 US states",
+     "quote": "Randomized clinical vignette survey study administered between April 2022 and January 2023 across 13 US states involving hospitalist physicians, nurse practitioners, and physician assistants.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "baseline 73.0%; standard AI +2.9 points",
+     "quote": "Clinicians' baseline diagnostic accuracy was 73.0% (95% CI, 68.3% to 77.8%) ... When shown a standard AI model without explanations, clinician accuracy increased over baseline by 2.9 percentage points",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "biased AI -11.3 points; with explanations -9.1 points",
+     "quote": "Systematically biased AI model predictions decreased clinician accuracy by 11.3 percentage points (95% CI, 7.2 to 15.5) compared with baseline and providing biased AI model predictions with explanations decreased clinician accuracy by 9.1 percentage points",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "explanations did not protect against biased model",
+     "quote": "commonly used image-based AI model explanations did not mitigate this harmful effect.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "457 clinicians randomized",
+     "quote": "Four hundred fifty-seven clinicians were randomized and completed at least 1 vignette",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://jamanetwork.com/journals/jama/fullarticle/2812908",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "pmid": "39466245",
+   "pmcid": "PMC11519755",
+   "doi": "10.1001/jamanetworkopen.2024.40969",
+   "record_title": "Large Language Model Influence on Diagnostic Reasoning: A Randomized Clinical Trial.",
+   "record_journal": "JAMA Netw Open",
+   "record_year": "2024",
+   "article_type": "Journal Article; Randomized Controlled Trial",
+   "cited_as": "Goh E, Gallo R, Hom J, et al. JAMA Network Open. 2024;7(10):e2440969.",
+   "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC)",
+   "notes": "Primary paper replacing the UVA Health news release (old ref 6). Old page reported 76.3% vs 73.7% \"diagnostic accuracy\" from the release; the paper reports median diagnostic reasoning rubric scores 76% vs 74%. Old \"false sense of certainty\" speculation not in paper; cut. Scite flagged one citing preprint (10.1101/2025.06.06.25329104) reporting a lower control score in a different setting; does not bear on the claims cited.",
+   "claims": [
+    {
+     "text": "trial Nov 29 to Dec 29, 2023; physicians in FM, IM or EM",
+     "quote": "A single-blind randomized clinical trial was conducted from November 29 to December 29, 2023.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "50 physicians: 26 attendings, 24 residents",
+     "quote": "Fifty physicians (26 attendings, 24 residents; median years in practice, 3 [IQR, 2-8]) participated",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "mostly internal medicine (44 of 50)",
+     "quote": "Internal medicine 44 (88)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "sites Stanford, BIDMC, UVA",
+     "quote": "through email lists at Stanford University, Beth Israel Deaconess Medical Center, and the University of Virginia.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "ChatGPT Plus (GPT-4) vs conventional resources such as UpToDate, Google",
+     "quote": "physicians using a commercial LLM AI chatbot (ChatGPT Plus [GPT-4]; OpenAI) compared with conventional diagnostic resources (eg, UpToDate, Google).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "up to six cases based on actual patients",
+     "quote": "All cases in this study were based on actual patients and included information available on initial diagnostic evaluation",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "blinded expert graders scored structured diagnostic reasoning rubric",
+     "quote": "performance on a standardized rubric of diagnostic performance based on differential diagnosis accuracy, appropriateness of supporting and opposing factors, and next diagnostic evaluation steps, validated and graded via blinded expert consensus.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "median 76% vs 74%, not significant",
+     "quote": "The median diagnostic reasoning score per case was 76% (IQR, 66%-87%) for the LLM group and 74% (IQR, 63%-84%) for the conventional resources-only group, with an adjusted difference of 2 percentage points",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "GPT-4 alone run three times, median 92%",
+     "quote": "In the 3 runs of the LLM alone, the median score per case was 92% (IQR, 82%-97%).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "prompting may explain gap",
+     "quote": "This may be explained by the sensitivity of LLM output to prompt formulation.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "not support for autonomous LLM diagnosis without physician oversight",
+     "quote": "Results of this study should not be interpreted to indicate that LLMs should be used for diagnosis autonomously without physician oversight.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "GPT-4 access did not significantly improve physicians diagnostic scores",
+     "quote": "the availability of an LLM to physicians as a diagnostic aid did not significantly improve clinical reasoning compared with conventional resources.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39466245/",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 7,
+   "kind": "other_web",
+   "version_or_date": "News release dated February 10, 2026 (in URL)",
+   "retrieved_with": "WebFetch of official page",
+   "cited_as": "University of Oxford. New study warns of risks in AI chatbots giving medical advice. February 10, 2026.",
+   "notes": "Kept only for the Payne quote and the mix-of-information summary; study findings now cite the primary paper (ref 2). The BBC article (old ref 7) was blocked; the full Payne quote was verified on this page instead. The phrase \"blend of accurate and misleading information\" in the old text appears in neither source; replaced. Payne affiliation as a practising GP not verified on retrieved pages; dropped.",
+   "claims": [
+    {
+     "text": "Payne quote, part 1",
+     "quote": "Despite all the hype, AI just isn't ready to take on the role of the physician.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Payne quote, part 2",
+     "quote": "Patients need to be aware that asking a large language model about their symptoms can be dangerous, giving wrong diagnoses and failing to recognise when urgent help is needed.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "mix of good and bad information users struggled to distinguish",
+     "quote": "LLMs often provided a mix of good and bad information which users struggled to distinguish.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://www.ox.ac.uk/news/2026-02-10-new-study-warns-risks-ai-chatbots-giving-medical-advice",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 8,
+   "kind": "other_web",
+   "version_or_date": "April 7, 2026; survey of 5,111 US adults Oct 20 to 26, 2025",
+   "retrieved_with": "WebFetch of official page",
+   "cited_as": "Pasquini G, Stocking G, Kikuchi E, Pula I, Yam E. Pew Research Center. April 7, 2026.",
+   "notes": "Old text said \"only 18% of adults\" rate chatbot info highly accurate; the 18% is among chatbot health-information users, now stated so.",
+   "claims": [
+    {
+     "text": "22% of US adults get health information from AI chatbots at least sometimes",
+     "quote": "about two-in-ten (22%) Americans get health information from AI chatbots at least sometimes",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "among chatbot health users 23% not accurate vs 18% highly accurate",
+     "quote": "Slightly more chatbot health users say they're not too or not at all accurate as say they're highly accurate (23% vs. 18%).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "survey of 5,111 adults in October 2025",
+     "quote": "we surveyed 5,111 U.S. adults from Oct. 20 to 26, 2025.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://www.pewresearch.org/science/2026/04/07/users-of-social-media-and-ai-chatbots-for-health-information-are-more-likely-to-say-they-are-convenient-than-accurate/",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "pmid": "26157077",
+   "pmcid": "PMC4496786",
+   "doi": "10.1136/bmj.h3480",
+   "record_title": "Evaluation of symptom checkers for self diagnosis and triage: audit study.",
+   "record_journal": "BMJ",
+   "record_year": "2015",
+   "article_type": "Evaluation Study; Journal Article",
+   "cited_as": "Semigran HL, Linder JA, Gidengil C, Mehrotra A. BMJ. 2015;351:h3480.",
+   "retrieved_with": "PubMed get_article_metadata",
+   "notes": "Scite flagged a citing statement (Schmieding 2022, ref 11) noting a lower overtriage share in later data; consistent with how the page now presents the follow-up.",
+   "claims": [
+    {
+     "text": "23 symptom checkers, 45 standardized vignettes",
+     "quote": "23 symptom checkers that were in English and provided advice across a range of conditions. 45 standardized patient vignettes were compiled",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "correct diagnosis first 34%; appropriate triage 57%",
+     "quote": "The 23 symptom checkers provided the correct diagnosis first in 34% (95% confidence interval 31% to 37%) of standardized patient evaluations ... and provided the appropriate triage advice in 57%",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4496786/",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "pmid": "35977992",
+   "pmcid": "PMC9385087",
+   "doi": "10.1038/s41746-022-00667-w",
+   "record_title": "The diagnostic and triage accuracy of digital and online symptom checker tools: a systematic review.",
+   "record_journal": "NPJ Digit Med",
+   "record_year": "2022",
+   "article_type": "Journal Article; Review",
+   "cited_as": "Wallace W, Chan C, Chidambaram S, et al. npj Digital Medicine. 2022;5(1):118.",
+   "retrieved_with": "PubMed get_article_metadata",
+   "notes": "Added: the 19-37.9% / 48.8-90.1% figures were wrongly cited to Kopka 2025; this is the source that states them.",
+   "claims": [
+    {
+     "text": "10 studies; primary diagnosis accuracy 19% to 37.9%; varied between checkers despite consistent input",
+     "quote": "The diagnostic accuracy of the primary diagnosis was low across included studies (range: 19-37.9%) and varied between individual symptom checkers, despite consistent symptom data input.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "triage accuracy 48.8% to 90.1%",
+     "quote": "Triage accuracy (range: 48.8-90.1%) was typically higher than diagnostic accuracy.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "10 studies included",
+     "quote": "Of the 177 studies retrieved, 10 studies met the inclusion criteria.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35977992/",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 11,
+   "kind": "journal",
+   "pmid": "35536633",
+   "pmcid": "PMC9131144",
+   "doi": "10.2196/31810",
+   "record_title": "Triage Accuracy of Symptom Checker Apps: 5-Year Follow-up Evaluation.",
+   "record_journal": "J Med Internet Res",
+   "record_year": "2022",
+   "article_type": "Journal Article",
+   "cited_as": "Schmieding ML, Kopka M, Schmidt K, et al. J Med Internet Res. 2022;24(5):e31810.",
+   "retrieved_with": "PubMed get_article_metadata",
+   "notes": "Old text said researchers re-tested \"22 of the same apps\"; the 22 were apps found in a 2020 search, tested on the same 45 vignettes. Median emergency sensitivity 51.9% (full-text figure in old text) dropped; abstract figure (>40% of emergencies missed) used instead. Scite flagged a citing study (10.2196/48808) reporting higher ChatGPT-4 top-10 accuracy than earlier symptom checker reviews; noted, page does not claim LLMs are worse than apps on diagnosis.",
+   "claims": [
+    {
+     "text": "22 symptom checkers found in early 2020, same 45 vignettes",
+     "quote": "In early 2020, we searched for smartphone and web-based applications providing triage advice. We evaluated these apps on the same 45 case vignettes as the index study.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "odds 1.11:1 vs 2.82:1; missed more than 40% of emergencies",
+     "quote": "The apps in 2020 were less risk averse (odds 1.11:1, the ratio of overtriage errors to undertriage errors) than those in 2015 (odds 2.82:1), missing >40% of emergencies.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "median triage accuracy 55.8% vs 59.1%",
+     "quote": "The median triage accuracy in 2020 (55.8%, IQR 15.1%) was close to that in 2015 (59.1%, IQR 15.5%).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "22 apps retrieved",
+     "quote": "We retrieved 22 symptom checkers providing triage advice.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9131144/",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 12,
+   "kind": "journal",
+   "pmid": "40133390",
+   "pmcid": "PMC11937345",
+   "doi": "10.1038/s41746-025-01566-6",
+   "record_title": "Accuracy of online symptom assessment applications, large language models, and laypeople for self-triage decisions.",
+   "record_journal": "NPJ Digit Med",
+   "record_year": "2025",
+   "article_type": "Journal Article (systematic review)",
+   "cited_as": "Kopka M, von Kalckreuth N, Feufel MA. npj Digital Medicine. 2025;8(1):178.",
+   "retrieved_with": "PubMed get_article_metadata",
+   "notes": "Removed from the sentence about 2022 systematic review figures it did not contain.",
+   "claims": [
+    {
+     "text": "19 studies included",
+     "quote": "A total of 1549 studies were screened and 19 included.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "apps 11.5-90%; LLMs 57.8-76%; laypeople 47.3-62.4%",
+     "quote": "The self-triage accuracy of SAAs was moderate but highly variable (11.5-90.0%), while the accuracy of LLMs (57.8-76.0%) and laypeople (47.3-62.4%) was moderate with low variability.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "neither universally recommended nor discouraged",
+     "quote": "the use of SAAs or LLMs should neither be universally recommended nor discouraged",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://www.nature.com/articles/s41746-025-01566-6",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 13,
+   "kind": "journal",
+   "pmid": "37788063",
+   "pmcid": "PMC10582809",
+   "doi": "10.2196/49995",
+   "record_title": "Comparison of Diagnostic and Triage Accuracy of Ada Health and WebMD Symptom Checkers, ChatGPT, and Physicians for Patients in an Emergency Department: Clinical Data Analysis Study.",
+   "record_journal": "JMIR Mhealth Uhealth",
+   "record_year": "2023",
+   "article_type": "Journal Article",
+   "cited_as": "Fraser H, Crossland D, Bacher I, et al. JMIR mHealth and uHealth. 2023;11:e49995.",
+   "retrieved_with": "PubMed get_article_metadata",
+   "notes": "Models: ChatGPT 3.5 and 4.0 (test dates not stated in abstract). Physician comparators: three independent board-certified ED physicians reviewing the same self-report data. Old text said \"40 real de-identified patient cases\"; 37 were analyzable for triage and 30 for diagnosis.",
+   "claims": [
+    {
+     "text": "previously collected self-report data from 40 ED patients; ChatGPT 3.5, 4.0, WebMD, Ada",
+     "quote": "We used previously collected, deidentified, self-report data from 40 patients presenting to an ED for care who used the Ada SC to record their symptoms prior to seeing the ED physician.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "37 cases for triage, 30 for diagnosis",
+     "quote": "Overall, 30 and 37 cases had sufficient data for diagnostic and triage analysis, respectively.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "judged against three board-certified ED physicians",
+     "quote": "three independent board-certified ED physicians who had blindly reviewed the self-report clinical data from Ada.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "unsafe triage: ChatGPT 3.5 41%, ChatGPT 4.0 22%, Ada 14%",
+     "quote": "that for ChatGPT 3.5 was 59% (n=22) agree, 41% (n=15) unsafe ... that for ChatGPT 4.0 was 76% (n=28) agree, 22% (n=8) unsafe",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ada 14% unsafe",
+     "quote": "The distribution of triage results for Ada was 62% (n=23) agree, 14% unsafe (n=5)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "top-1 diagnosis: physicians 47% mean, ChatGPT 3.5 40%, ChatGPT 4.0 33%",
+     "quote": "The rate of top-1 diagnosis matches for Ada, ChatGPT 3.5, ChatGPT 4.0, and WebMD was 9 (30%), 12 (40%), 10 (33%), and 12 (40%), respectively, with a mean rate of 47% for the physicians.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "unsupervised patient use of ChatGPT not recommended",
+     "quote": "Unsupervised patient use of ChatGPT for diagnosis and triage is not recommended without improvements to triage accuracy and extensive clinical evaluation.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://mhealth.jmir.org/2023/1/e49995",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 14,
+   "kind": "journal",
+   "pmid": "38820578",
+   "pmcid": "PMC11179013",
+   "doi": "10.2196/49907",
+   "record_title": "Controlling Inputter Variability in Vignette Studies Assessing Web-Based Symptom Checkers: Evaluation of Current Practice and Recommendations for Isolated Accuracy Metrics.",
+   "record_journal": "JMIR Form Res",
+   "record_year": "2024",
+   "article_type": "Journal Article",
+   "cited_as": "Meczner A, Cohen N, Qureshi A, et al. JMIR Formative Research. 2024;8:e49907.",
+   "retrieved_with": "PubMed get_article_metadata",
+   "notes": "Authors are affiliated with Healthily (the checker's maker), now stated. Old text described 'three testers' and 'popular symptom checkers'; it was 3 groups of 3 testers on one checker. The 30.7% identical-entry figure (full text) was dropped because the full text was not re-read this run.",
+   "claims": [
+    {
+     "text": "Healthily's checker, 114 vignettes, 3 groups of 3 testers",
+     "quote": "Healthily's SC was assessed using 114 vignettes by 3 groups of 3 testers who processed vignettes with different instructions",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "kappa 0.49 free vs 0.72 restricted (most likely condition)",
+     "quote": "Intertester agreement of most likely condition and triage was, respectively, 0.49 and 0.51 for the free tester group, 0.66 and 0.66 for the partially free group, and 0.72 and 0.71 for the restricted group.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "strictest group accuracy 43.9% to 57% by tester",
+     "quote": "For the restricted group, accuracy ranged from 43.9% to 57% for individual testers, averaging 50.6% (SD 5.35%).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11179013/",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 15,
+   "kind": "agency_page",
+   "version_or_date": "Page dated Oct 24, 2024 (last reviewed Oct 26, 2023)",
+   "retrieved_with": "WebFetch of official page",
+   "cited_as": "CDC. About Heart Attack Symptoms, Risk, and Recovery.",
+   "claims": [
+    {
+     "text": "chest pain or discomfort lasting more than a few minutes",
+     "quote": "Most heart attacks involve discomfort in the center or left side of the chest that lasts for more than a few minutes",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "pain or discomfort in arms, shoulders, jaw, neck, back; shortness of breath",
+     "quote": "Pain or discomfort in the jaw, neck, or back. ... Pain or discomfort in one or both arms or shoulders. ... Shortness of breath.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "call 911 immediately",
+     "quote": "If you notice the symptoms of a heart attack in yourself or someone else, call 9-1-1 immediately.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://www.cdc.gov/heart-disease/about/heart-attack.html",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 16,
+   "kind": "other_web",
+   "version_or_date": "No page date; copyright 2021-2023 notice",
+   "retrieved_with": "WebFetch of official page",
+   "cited_as": "American Stroke Association. Stroke Symptoms and Warning Signs.",
+   "claims": [
+    {
+     "text": "face drooping, arm weakness, speech difficulty; call 911 immediately",
+     "quote": "F = Face Drooping ... A = Arm Weakness ... S = Speech Difficulty ... T = Time to call 911 – Stroke is an emergency. Every minute counts. Call 911 immediately.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "sudden trouble seeing, dizziness, loss of balance",
+     "quote": "Watch for Sudden: ... TROUBLE SEEING in one or both eyes ... TROUBLE WALKING, dizziness, loss of balance or coordination",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "1.9 million brain cells die every minute untreated",
+     "quote": "On average, 1.9 million brain cells die every minute that a stroke goes untreated.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://www.stroke.org/en/about-stroke/stroke-symptoms",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 17,
+   "kind": "agency_page",
+   "version_or_date": "Review Date 1/20/2026",
+   "retrieved_with": "WebFetch of official page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. Anaphylaxis.",
+   "notes": "Added to source the anaphylaxis red flag (previously supported only by an uncited inline ACAAI link). Inline ACAAI link kept; ACAAI page (reviewed 3/24/2025) states epinephrine immediately and that symptoms occur suddenly and can progress quickly.",
+   "claims": [
+    {
+     "text": "anaphylaxis is an emergency; call 911",
+     "quote": "Anaphylaxis is an emergency condition that needs medical attention right away. ... Call 911 or the local emergency number immediately.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "hives, trouble breathing, hoarse voice (throat swelling), face or tongue swelling",
+     "quote": "Hives, itchiness, redness of the skin ... Difficulty breathing, coughing, wheezing ... A warning sign of dangerous throat swelling is a very hoarse or whispered voice ... Swelling of the face, eyes, or tongue",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "use epinephrine right away if available",
+     "quote": "An epinephrine injector or intranasal epinephrine should be used immediately if it is available.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://medlineplus.gov/ency/article/000844.htm",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 18,
+   "kind": "guideline",
+   "version_or_date": "Final guidance issued January 29, 2026 (supersedes version issued January 6, 2026); page content current as of 01/29/2026; docket FDA-2017-D-6569",
+   "retrieved_with": "WebFetch of official page and guidance PDF (fda.gov/media/109618/download)",
+   "cited_as": "FDA. Clinical Decision Support Software: Guidance for Industry and FDA Staff. January 29, 2026.",
+   "notes": "Old citation said finalized September 27, 2022; the linked page now carries the January 2026 final guidance. Old claims that most consumer symptom checkers are not FDA-reviewed, that most consumer tools operate under general wellness policies, and that regulation is unsettled were not stated in the guidance; cut. Quotes come from WebFetch's reading of the PDF.",
+   "claims": [
+    {
+     "text": "software giving recommendations to patients or caregivers meets the device definition",
+     "quote": "Software functions that support or provide recommendations to patients or caregivers – not HCPs – meet the definition of a device.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "FDA intends to be consistent with existing policies including general wellness for CDS intended for non-HCPs",
+     "quote": "FDA intends to be consistent with existing policies (including ... General Wellness: Policy for Low Risk Devices) in the regulation of CDS intended for non-HCPs.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "issued January 29, 2026",
+     "quote": "Document issued on January 29, 2026.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-decision-support-software",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 19,
+   "kind": "journal",
+   "pmid": "40816301",
+   "doi": "10.1016/S2468-1253(25)00133-5",
+   "record_title": "Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy: a multicentre, observational study.",
+   "record_journal": "Lancet Gastroenterol Hepatol",
+   "record_year": "2025",
+   "article_type": "Journal Article; Observational Study; Multicenter Study",
+   "cited_as": "Budzyń K, Romańczyk M, Kitala D, et al. Lancet Gastroenterol Hepatol. 2025;10(10):896-903.",
+   "retrieved_with": "PubMed get_article_metadata (abstract only; no PMC full text)",
+   "editorial_notices": [
+    "Published letters: Lam K (PMID 41205614), Levartovsky A (41205615), van de Sande D (41205616), with authors' reply (41205617), Lancet Gastroenterol Hepatol 2025;10(12):1060-1062."
+   ],
+   "notes": "Primary paper replacing NPR (old ref 8, blocked). Old text said detection \"dropped roughly 20%\" and skills \"had started to erode\"; the paper reports an absolute 6.0-point ADR drop in an observational study and says AI \"might\" reduce ADR. Scite flagged contrasting evidence: Pedersen 2026 (now ref 20).",
+   "claims": [
+    {
+     "text": "retrospective observational study, four Polish centres, AI introduced end of 2021",
+     "quote": "We conducted a retrospective, observational study at four endoscopy centres in Poland ... These centres introduced AI tools for polyp detection at the end of 2021",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "ADR fell 28.4% to 22.4%, absolute -6.0 points, 3 months before vs after",
+     "quote": "The ADR of standard colonoscopy decreased significantly from 28·4% (226 of 795) before to 22·4% (145 of 648) after exposure to AI, corresponding with an absolute difference of -6·0%",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "3 months before and after",
+     "quote": "comparing two different phases: 3 months before and 3 months after AI implementation.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "authors: might reduce ADR, negative effect on endoscopist behaviour",
+     "quote": "Continuous exposure to AI might reduce the ADR of standard non-AI assisted colonoscopy, suggesting a negative effect on endoscopist behaviour.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40816301/",
+   "retrieved_at": "2026-11-15"
+  },
+  {
+   "n": 20,
+   "kind": "journal",
+   "pmid": "42235541",
+   "pmcid": "PMC13552228",
+   "doi": "10.1055/a-2858-7084",
+   "record_title": "Learning and deskilling effects of artificial intelligence in colonoscopy among endoscopists with different levels of experience: a pragmatic, prospective trial.",
+   "record_journal": "Endoscopy",
+   "record_year": "2026",
+   "article_type": "Journal Article; Multicenter Study; Pragmatic Clinical Trial",
+   "cited_as": "Pedersen TA, Mori Y, Botteri E, et al. Endoscopy. 2026;58(9):1003-1014.",
+   "retrieved_with": "PubMed get_article_metadata",
+   "notes": "Added as counter-evidence because Scite verify_papers flagged it as contrasting the Budzyń finding.",
+   "claims": [
+    {
+     "text": "prospective multicenter trial, 13 endoscopists",
+     "quote": "We performed a prospective, multicenter, registry-based, pragmatic clinical trial. ... 13 endoscopists (7 inexperienced, 6 experienced) performed 5013 colonoscopies",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "no upskilling or deskilling after AI exposure",
+     "quote": "In non-CADe-assisted colonoscopy, no upskilling or deskilling was observed following a period of CADe exposure.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42235541/",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  },
+  {
+   "n": 21,
+   "kind": "journal",
+   "pmid": "39910272",
+   "pmcid": "PMC12380382",
+   "doi": "10.1038/s41591-024-03456-y",
+   "record_title": "GPT-4 assistance for improvement of physician performance on patient care tasks: a randomized controlled trial.",
+   "record_journal": "Nat Med",
+   "record_year": "2025",
+   "article_type": "Journal Article; Randomized Controlled Trial",
+   "cited_as": "Goh E, Gallo RJ, Strong E, et al. Nature Medicine. 2025;31(4):1233-1238.",
+   "retrieved_with": "PubMed get_article_metadata",
+   "notes": "Source for the previously uncited \"Stanford study\". Old text said physicians with AI and the chatbot alone \"both outperformed physicians without AI access\"; the abstract supports physicians+LLM > conventional and physicians+LLM similar to LLM alone, but does not state LLM alone vs conventional, so that part was removed.",
+   "claims": [
+    {
+     "text": "92 practicing physicians, GPT-4 plus conventional vs conventional; five cases based on real encounters, sequential info; Nov 2023 to Apr 2024",
+     "quote": "From November 2023 to April 2024, 92 practicing physicians were randomized to use either GPT-4 plus conventional resources or conventional resources alone to answer five expert-developed clinical vignettes",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "cases from real de-identified encounters, information revealed sequentially",
+     "quote": "All cases were based on real, de-identified patient encounters, with information revealed sequentially to mirror the nature of clinical environments.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "6.5 points higher management reasoning",
+     "quote": "Physicians using the LLM scored significantly higher compared to those using conventional resources (mean difference = 6.5%, 95% confidence interval (CI) = 2.7 to 10.2, P < 0.001).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "no significant difference vs LLM alone",
+     "quote": "There was no significant difference between LLM-augmented physicians and LLM alone (-0.9%, 95% CI = -9.0 to 7.2, P = 0.8).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "needs validation in real practice",
+     "quote": "LLM assistance can improve physician management reasoning in complex clinical vignettes compared to conventional resources and should be validated in real clinical practice.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39910272/",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": []
+  }
+ ]
+}

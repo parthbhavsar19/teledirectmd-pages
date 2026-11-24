@@ -1,0 +1,529 @@
+{
+ "guide": "trichomoniasis-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 3 verified (10.1080/14787210.2022.2080656, 10.1016/S1473-3099(18)30423-7, 10.15585/mmwr.rr7004a1), retractions: none. One contrasting citation flagged for the MMWR guideline concerns gonorrhea loads and does not bear on any claim here. PubMed article types checked: no Retracted Publication or Retraction Notice.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "Centers for Disease Control and Prevention. Sexually Transmitted Infections Treatment Guidelines, 2021: Trichomoniasis. Last reviewed September 21, 2022. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/trichomoniasis.htm",
+   "record_title": "Trichomoniasis - STI Treatment Guidelines",
+   "record_year": "2021",
+   "version_or_date": "STI Treatment Guidelines 2021 web section; Last Reviewed September 21, 2022 (page metadata last published 2026-02-10)",
+   "retrieved_with": "Monid firecrawl /scrape (verbatim page markdown) and WebFetch; PMC full text of MMWR Recomm Rep 2021;70(4) (PMC8344968, DOI 10.15585/mmwr.rr7004a1) read for comparison",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Web page says 2.6 million US persons; the PMC copy of the 2021 MMWR says 3.7 million, so the page figure (current CDC web version) is used. Retesting wording on the page is 'approximately 3 months'. Page does not mention secnidazole. Scite verify_papers on the MMWR DOI: verified, no notices; one contrasting citation flagged concerns gonorrhea bacterial loads and does not bear on any claim here.",
+   "claims": [
+    {
+     "text": "most prevalent nonviral STI worldwide; about 2.6 million people in the US",
+     "quote": "Trichomoniasis is estimated to be the most prevalent nonviral STI worldwide, affecting approximately 2.6 million persons in the United States",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "70 to 85 percent have minimal or no symptoms; untreated infections might last months to years",
+     "quote": "The majority of persons who have trichomoniasis (70%–85%) either have minimal or no genital symptoms, and untreated infections might last from months to years",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "women: discharge can be diffuse, malodorous or yellow-green, with or without vulvar irritation (body, table, FAQ smell)",
+     "quote": "women with trichomoniasis sometimes have vaginal discharge, which can be diffuse, malodorous, or yellow-green with or without vulvar irritation",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "men sometimes have urethritis, epididymitis or prostatitis",
+     "quote": "Men with trichomoniasis sometimes have symptoms of urethritis, epididymitis, or prostatitis",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "passes during penile-vaginal sex and among women who have sex with women via vaginal fluids or fomites",
+     "quote": "it is readily passed between sex partners during penile-vaginal sex or through transmission of infected vaginal fluids or fomites among women who have sex with women",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "male partners of women with trichomoniasis are likely to be infected (FAQ men)",
+     "quote": "Male partners of women with trichomoniasis are likely to have infection",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "most recurrences likely result from reinfection, such as from an untreated partner",
+     "quote": "A recurrent infection can result from treatment failure (antimicrobial-resistant T. vaginalis or host-related problems), lack of adherence, or reinfection from an untreated sex partner. ... most recurrent infections likely result from reinfection.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "NAATs are highly sensitive, detecting more infections than wet mount; FDA-cleared NAATs report sensitivities of about 95 to 100 percent",
+     "quote": "NAATs are highly sensitive, detecting more T. vaginalis infections than wet-mount microscopy among women ... with a sensitivity of 95.3%–100% and specificity of 95.2%–100%",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "wet mount sensitivity 44 to 68 percent vs culture; follow a negative wet mount with a more sensitive test when possible",
+     "quote": "it has low sensitivity (44%–68%) compared with culture ... More highly sensitive and specific molecular diagnostic options are available, which should be used in conjunction with a negative wet mount when possible.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "nitroimidazoles are the only class with clinically demonstrated efficacy",
+     "quote": "The nitroimidazoles are the only class of medications with clinically demonstrated efficacy against T. vaginalis infections.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "women: metronidazole 500 mg twice daily for 7 days; men: metronidazole 2 g single dose (key points, table, FAQ, citable summary)",
+     "quote": "Recommended Regimen for Trichomoniasis Among Women Metronidazole 500 mg 2 times/day for 7 days Recommended Regimen for Trichomoniasis Among Men Metronidazole 2 g orally in a single dose",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "tinidazole 2 g single dose is the alternative for women and men; CDC 2021 regimens list only metronidazole and tinidazole",
+     "quote": "Alternative Regimen for Women and Men Tinidazole 2 g orally in a single dose",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "cure rates about 84 to 98 percent for recommended metronidazole regimens and 92 to 100 percent for tinidazole (table and figure 2)",
+     "quote": "In randomized clinical trials, recommended metronidazole regimens have resulted in cure rates of approximately 84%–98%, and the recommended tinidazole regimen has resulted in cure rates of approximately 92%–100%",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "women with HIV: metronidazole 500 mg twice daily for 7 days; single 2 g dose less effective in a trial",
+     "quote": "a single dose of metronidazole 2 g orally was less effective than 500 mg 2 times/day for 7 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "multidose treatment more effective, particularly for symptomatic women or those with prior trichomoniasis",
+     "quote": "Multidose oral metronidazole is more effective than single-dose treatment, particularly for women who are symptomatic or have a history of T. vaginalis",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "metronidazole gel not recommended: does not reach therapeutic levels in urethra and perivaginal glands, less effective",
+     "quote": "Metronidazole gel does not reach therapeutic levels in the urethra and perivaginal glands. Because it is less efficacious than oral metronidazole, it is not recommended.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "abstain until everyone has completed treatment and symptoms resolved",
+     "quote": "Providers should advise persons with T. vaginalis infections to abstain from sex until they and their sex partners are treated (i.e., when therapy has been completed and any symptoms have resolved).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "concurrent partner treatment is vital for preventing reinfection; current partners referred for treatment (key points, partners, red-flag box, FAQ)",
+     "quote": "Concurrent treatment of all sex partners is vital for preventing reinfections. Current partners should be referred for presumptive therapy.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "test for other STIs including HIV, syphilis, gonorrhea and chlamydia",
+     "quote": "Testing for other STIs, including HIV, syphilis, gonorrhea, and chlamydia, should be performed for persons with T. vaginalis.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "sexually active women retested about 3 months after treatment because reinfection is common",
+     "quote": "Because of the high rate of reinfection among women treated for trichomoniasis, retesting for T. vaginalis is recommended for all sexually active women approximately 3 months after initial treatment",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "metronidazole resistance in 4 to 10 percent of cases of vaginal trichomoniasis",
+     "quote": "Metronidazole resistance occurs in 4%–10% of cases of vaginal trichomoniasis",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "persistent infection without reexposure: clinicians can request CDC drug-resistance testing",
+     "quote": "For persons who are experiencing persistent infection not attributable to reexposure, clinicians should request a kit from CDC to perform drug-resistance testing",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "women reexposed: repeat the same 7-day regimen",
+     "quote": "If treatment failure occurs in a woman after completing a regimen of metronidazole 500 mg 2 times/day for 7 days and she has been reexposed to an untreated partner, a repeat course of the same regimen is recommended.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "women not reexposed: metronidazole or tinidazole 2 g once daily for 7 days",
+     "quote": "If no reexposure has occurred, she should be treated with metronidazole or tinidazole 2 g once daily for 7 days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "men reexposed: single 2 g dose again; men not reexposed: metronidazole 500 mg twice daily for 7 days",
+     "quote": "he should be retreated with a single 2-g dose of metronidazole. If he has not been reexposed, he should be administered a course of metronidazole 500 mg 2 times/day for 7 days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "documented resistance: can include metronidazole or tinidazole 2 g daily for 7 days",
+     "quote": "Treatments for infections demonstrating in vitro resistance can include metronidazole or tinidazole 2 g daily for 7 days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "1.5-fold increased risk of HIV acquisition and more HIV vaginal shedding (key points, complications, FAQ)",
+     "quote": "T. vaginalis infection is associated with a 1.5-fold increased risk for HIV acquisition and is associated with an increase in HIV vaginal shedding",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "among women with HIV, higher risk of pelvic inflammatory disease",
+     "quote": "Among women with HIV infection, T. vaginalis infection is associated with increased risk for PID.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "pregnancy: premature rupture of membranes, preterm birth, small-for-gestational-age infants",
+     "quote": "T. vaginalis infection among pregnant women is associated with adverse pregnancy outcomes, particularly premature rupture of membranes, preterm delivery, and delivery of infants who are small for gestational age",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "treatment reduces symptoms and might reduce transmission; cures infection",
+     "quote": "Treatment reduces symptoms and signs of T. vaginalis infection, cures infection, and might reduce transmission.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "data lacking on whether screening and treating women without symptoms in high-prevalence settings reduces harms",
+     "quote": "data are lacking regarding whether screening and treatment for asymptomatic trichomoniasis in high-prevalence settings for women at high risk can reduce any adverse health events",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "symptomatic pregnant people tested and treated at any stage",
+     "quote": "Symptomatic pregnant women, regardless of pregnancy stage, should be tested and treated.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "metronidazole low fetal risk; tinidazole avoided in pregnancy (body and FAQ)",
+     "quote": "Although metronidazole crosses the placenta, data indicate that it poses a low risk to the developing fetus ... Thus, tinidazole should be avoided for pregnant women",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "condoms are the best prevention; douching not recommended",
+     "quote": "the best way to prevent genital trichomoniasis is through consistent and correct use of condoms (external or internal) ... Douching is not recommended because it might increase the risk for vaginal infections, including trichomoniasis",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "testing recommended for women seeking care for vaginal discharge (red-flag box)",
+     "quote": "Diagnostic testing for T. vaginalis should be performed for women seeking care for vaginal discharge.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. About Trichomoniasis. Reviewed January 31, 2025. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/trichomoniasis/about/index.html",
+   "record_title": "About Trichomoniasis",
+   "record_year": "2025",
+   "version_or_date": "Published May 15, 2024; Updated and Reviewed January 31, 2025",
+   "retrieved_with": "Monid firecrawl /scrape (verbatim page markdown)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New reference. CDC patient fact sheet. Its 'about 30% develop symptoms' figure was not used; the 70 to 85 percent figure comes from ref 1.",
+   "claims": [
+    {
+     "text": "caused by Trichomonas vaginalis, a protozoan (single-celled) parasite; sexually transmitted",
+     "quote": "Trichomoniasis (or \"trich\") is a very common STI caused by infection with trichomonas vaginalis (a protozoan parasite).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "people without symptoms can still pass it on",
+     "quote": "People with trich can pass the infection to others, even if they do not have symptoms.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "women: lower genital tract (vulva, vagina, cervix or urethra); men: inside the penis (urethra)",
+     "quote": "In women, the infection is most commonly found in the lower genital tract (vulva, vagina, cervix, or urethra). In men, the infection is most commonly found inside the penis (urethra).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "women may notice itching, burning, redness or soreness, discomfort when peeing, discharge with a fishy smell",
+     "quote": "Itching, burning, redness or soreness of the genitals ... Discomfort when peeing ... A clear, white, yellowish, or greenish vaginal discharge (i.e., thin discharge or increased volume) with a fishy smell",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "men may notice itching or irritation inside the penis, burning after peeing or ejaculating, discharge",
+     "quote": "Itching or irritation inside the penis ... Burning after peeing or ejaculating ... Discharge from the penis",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "not common to infect other body parts like hands, mouth or anus",
+     "quote": "It is not common for the parasite to infect other body parts, like the hands, mouth, or anus.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "cannot be diagnosed on symptoms alone; a laboratory test confirms it",
+     "quote": "It is not possible to diagnose trich based on symptoms alone. Your healthcare provider can examine you and a laboratory test will confirm the diagnosis.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "reinfection in about 1 in 5 people within 3 months after treatment",
+     "quote": "Reinfection occurs in about 1 in 5 people within 3 months after receiving treatment.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "reinfection often from a partner who was not treated (FAQ)",
+     "quote": "This can happen if you have sex without a condom with a person who has trich. To avoid reinfection, your sex partners should receive treatment at the same time.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "talk about STI risk before sex with a new partner and ask a clinician whether to be tested (prevention; red-flag box: ask about testing after any new partner even without symptoms)",
+     "quote": "talk about the potential risk of STIs before having sex with a new partner ... Ask them if you should get tested for trich or other STIs.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "guideline",
+   "cited_as": "Centers for Disease Control and Prevention. Sexually Transmitted Infections Treatment Guidelines, 2021: Bacterial Vaginosis. Last reviewed July 22, 2021. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/bv.htm",
+   "record_title": "Bacterial Vaginosis - STI Treatment Guidelines",
+   "record_year": "2021",
+   "version_or_date": "Last Reviewed July 22, 2021",
+   "retrieved_with": "Monid firecrawl /scrape (verbatim page markdown)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New reference for the comparison table's BV column and the BV FAQ, which were uncited before.",
+   "claims": [
+    {
+     "text": "BV: normal lactobacilli replaced by high levels of anaerobic bacteria",
+     "quote": "BV is a vaginal dysbiosis resulting from replacement of normal hydrogen peroxide and lactic-acid–producing Lactobacillus species in the vagina with high concentrations of anaerobic bacteria",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV discharge thin, milklike; fishy odor",
+     "quote": "Homogeneous, thin discharge (milklike consistency) that smoothly coats the vaginal walls ... A fishy odor of vaginal discharge before or after addition of 10% KOH (i.e., the whiff test)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV: itch can occur",
+     "quote": "BV NAATs should be used among symptomatic women only (e.g., women with vaginal discharge, odor, or itch)",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "BV treated with metronidazole or clindamycin",
+     "quote": "Metronidazole 500 mg orally 2 times/day for 7 days OR Metronidazole gel 0.75% one full applicator (5 g) intravaginally, once a day for 5 days OR Clindamycin cream 2%",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV linked to sexual activity but whether it results from a single sexually transmitted pathogen is unknown (FAQ)",
+     "quote": "BV is associated with having multiple male sex partners, female partners ... a new sex partner, lack of condom use ... whether BV results from acquisition of a single sexually transmitted pathogen is unknown.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "guideline",
+   "cited_as": "Centers for Disease Control and Prevention. Sexually Transmitted Infections Treatment Guidelines, 2021: Vulvovaginal Candidiasis (VVC). Last reviewed July 22, 2021. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/candidiasis.htm",
+   "record_title": "Vulvovaginal Candidiasis - STI Treatment Guidelines",
+   "record_year": "2021",
+   "version_or_date": "Last Reviewed July 22, 2021",
+   "retrieved_with": "Monid firecrawl /scrape (verbatim page markdown)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New reference for the comparison table's yeast column, which was uncited before.",
+   "claims": [
+    {
+     "text": "yeast usually Candida albicans",
+     "quote": "VVC usually is caused by Candida albicans but can occasionally be caused by other Candida species or yeasts.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "yeast discharge thick, curdy",
+     "quote": "Signs include vulvar edema, fissures, excoriations, and thick curdy vaginal discharge.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "vulvar itching is a typical symptom; none of the symptoms is specific",
+     "quote": "Typical symptoms of VVC include pruritus, vaginal soreness, dyspareunia, external dysuria, and abnormal vaginal discharge. None of these symptoms is specific for VVC.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "azole antifungal treatment",
+     "quote": "Treatment with azoles results in relief of symptoms and negative cultures in 80%–90% of patients who complete therapy.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Kissinger P, Muzny CA, Mena LA, et al. Single-dose versus 7-day-dose metronidazole for the treatment of trichomoniasis in women: an open-label, randomised controlled trial. Lancet Infectious Diseases. 2018;18(11):1251-1259.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30297322/",
+   "pmid": "30297322",
+   "pmcid": "PMC6279510",
+   "doi": "10.1016/S1473-3099(18)30423-7",
+   "record_title": "Single-dose versus 7-day-dose metronidazole for the treatment of trichomoniasis in women: an open-label, randomised controlled trial.",
+   "record_journal": "Lancet Infect Dis",
+   "record_year": "2018",
+   "article_type": "Randomized Controlled Trial; Multicenter Study; Comparative Study; Journal Article",
+   "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New reference (the trial behind CDC's 7-day recommendation). Scite: verified, no notices, no contrasting evidence flagged. PubMed type is not Retracted Publication.",
+   "claims": [
+    {
+     "text": "randomized trial of 623 women without HIV; 11 percent of the 7-day group vs 19 percent of the single-dose group positive about 4 weeks after treatment",
+     "quote": "623 women were randomly assigned ... Patients in the 7-day-dose group were less likely to be T vaginalis positive at test-of-cure than those in the single-dose group (34 [11%] of 312 vs 58 [19%] of 311",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "participants were women without HIV; test of cure 4 weeks after completing treatment",
+     "quote": "among HIV-uninfected, non-pregnant women ... The primary outcome was T vaginalis infection by intention to treat, at test-of-cure 4 weeks after completion of treatment.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Muzny CA, Van Gerwen OT, Legendre D. Secnidazole: a treatment for trichomoniasis in adolescents and adults. Expert Review of Anti-infective Therapy. 2022;20(8):1067-1076.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35642509/",
+   "pmid": "35642509",
+   "pmcid": "PMC9844242",
+   "doi": "10.1080/14787210.2022.2080656",
+   "record_title": "Secnidazole: a treatment for trichomoniasis in adolescents and adults.",
+   "record_journal": "Expert Rev Anti Infect Ther",
+   "record_year": "2022",
+   "article_type": "Journal Article (drug review per abstract); Research Support, Non-U.S. Gov't",
+   "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Was ref 3. Link text changed from the DOI to the PubMed PMID because the href opens PubMed. Scite: verified, no notices.",
+   "claims": [
+    {
+     "text": "a review found secnidazole efficacious and well tolerated",
+     "quote": "This work summarizes the chemistry and pharmacology of SEC and reviews the evidence on its efficacy, tolerability, and safety ... SEC is an efficacious, well tolerated, and safe treatment for patients aged ≥12 years with trichomoniasis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "label",
+   "cited_as": "U.S. National Library of Medicine, DailyMed. SOLOSEC (secnidazole) oral granules: prescribing information. Evofem Inc. Label updated October 30, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=056485b6-8bba-4a21-ae00-cdb4e7ae4bfa",
+   "record_title": "SOLOSEC- secnidazole granule",
+   "record_year": "2026",
+   "version_or_date": "DailyMed label updated October 30, 2026",
+   "retrieved_with": "Monid firecrawl /scrape of DailyMed (search redirected to this setid)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New reference: confirms current FDA labeling for trichomoniasis and the single 2 g packet dose.",
+   "claims": [
+    {
+     "text": "secnidazole is FDA-approved (labeled) for trichomoniasis",
+     "quote": "SOLOSEC is indicated for the treatment of trichomoniasis caused by Trichomonas vaginalis in patients 12 years of age and older.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "taken as a single 2 g packet of oral granules",
+     "quote": "The recommended dosage of SOLOSEC for the treatment of trichomoniasis in patients 12 years of age and older is a single 2-gram packet of granules taken once orally",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "in one small study, 5 of 14 untreated men cleared the infection within a few weeks (FAQ)",
+     "quote": "The spontaneous resolution during a mean follow-up of 16 ± 12 days was noted in 36% (5/14) (95% CI: 12.8%, 64.9%) of untreated men.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "label",
+   "cited_as": "U.S. National Library of Medicine, DailyMed. TINDAMAX (tinidazole) tablets: prescribing information. Mission Pharmacal Company. Label updated December 27, 2021.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a0d01539-8413-4703-94cc-d221918630a1",
+   "record_title": "TINDAMAX- tinidazole tablet, film coated",
+   "record_year": "2021",
+   "version_or_date": "DailyMed label updated December 27, 2021",
+   "retrieved_with": "Monid firecrawl /scrape of DailyMed",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New reference for the over-the-counter FAQ.",
+   "claims": [
+    {
+     "text": "tinidazole is a prescription medicine",
+     "quote": "Category: HUMAN PRESCRIPTION DRUG LABEL",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "label says the organism should be identified by appropriate diagnostic tests",
+     "quote": "Tinidazole is indicated for the treatment of trichomoniasis caused by Trichomonas vaginalis. The organism should be identified by appropriate diagnostic procedures.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "label",
+   "cited_as": "U.S. National Library of Medicine, DailyMed. FLAGYL (metronidazole) capsules, 375 mg: prescribing information. Pfizer. Label updated May 22, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a2883ca1-5a9a-4259-9d80-46ab67274384",
+   "record_title": "FLAGYL- metronidazole capsule",
+   "record_year": "2026",
+   "version_or_date": "DailyMed label updated May 22, 2026",
+   "retrieved_with": "Monid firecrawl /scrape of DailyMed (search for FLAGYL redirected to this setid)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New reference for the over-the-counter FAQ only. Its 375 mg capsule regimen is not the CDC regimen and is not cited for dosing. It lists a first-trimester contraindication in trichomoniasis that the page does not mention (see CHANGES.md).",
+   "claims": [
+    {
+     "text": "metronidazole is a prescription medicine",
+     "quote": "Category: HUMAN PRESCRIPTION DRUG LABEL",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

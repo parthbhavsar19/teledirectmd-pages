@@ -302,3 +302,19 @@ The Vercel free tier works for testing but has limits. The Pro plan ($20/month) 
 ## Getting Help
 
 If you need someone to handle the initial deployment (Steps 2-4), any web developer familiar with Cloudflare and Vercel can set this up in under an hour. The ongoing workflow (adding conditions) requires no technical expertise beyond editing JSON files and running `npm run build`.
+
+---
+
+## Social images (`public/social/`)
+
+Images for social posts (LinkedIn, X, Instagram via Postiz) live in `public/social/YYYY-MM/<slug>.png`.
+Postiz can only attach media it can fetch from a public URL, so a graphic built outside Higgsfield
+or Canva is committed here, deployed, and then imported with Postiz's upload-from-URL tool from
+`https://teledirectmd.com/social/YYYY-MM/<slug>.png`.
+
+- Everything here is public. Only commit images that are meant to be posted publicly. No PHI, ever.
+- Responses carry `X-Robots-Tag: noindex` (see `vercel.json`), so the images are fetchable by
+  Postiz and link previews but stay out of search results.
+- Images are not linked from any page and are not in the sitemap.
+- Name files by month and a short slug, for example `2026-10/physician-hiring-evening-weekend.png`.
+- Higgsfield and Canva assets already have public URLs and do not need to come through here.

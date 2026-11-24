@@ -5,6 +5,7 @@
 // Static-export safe. Schema/JSON-LD stays in the parent page.
 
 import { AGGREGATE_RATING_VALUE, TOTAL_REVIEW_COUNT } from '../../lib/review-schema';
+import { cprDarkCSS } from '../../lib/redesign-dark-styles';
 
 const GOLD = '#E8A33D';
 
@@ -46,6 +47,9 @@ export default function ConditionPageRedesign({
   const whenNot = c.whenNotToUse || {};
   const decision = c.decisionGuide || {};
   const refs = Array.isArray(c.references) ? c.references : [];
+  const getRx = c.getMedicationOnline || null;
+  const getRxSteps = (getRx && Array.isArray(getRx.steps)) ? getRx.steps : [];
+  const getRxSources = (getRx && Array.isArray(getRx.sources)) ? getRx.sources : [];
   const relatedConds = Array.isArray(c.relatedConditions) ? c.relatedConditions : [];
 
   // Parse a "$X to $Y" style bar value into a relative width for the chart.
@@ -58,13 +62,12 @@ export default function ConditionPageRedesign({
 
   return (
     <div className="cpr">
-      <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600;700&display=swap');
-        .cpr{--navy:#003E52;--teal:#0C8F99;--gold:${GOLD};--ink:#12303b;--muted:#5c7078;--line:#e4ecee;font-family:'DM Sans',system-ui,sans-serif;color:var(--ink);}
+      <style dangerouslySetInnerHTML={{ __html: `
+        .cpr{--navy:#003E52;--teal:#0C8F99;--teal-ink:#006B73;--gold:${GOLD};--ink:#12303b;--muted:#5c7078;--line:#e4ecee;font-family:'DM Sans',system-ui,sans-serif;color:var(--ink);}
         .cpr h1,.cpr h2,.cpr h3,.cpr .disp{font-family:'Fraunces',Georgia,serif;font-weight:600;letter-spacing:-0.01em;}
         .cpr-wrap{max-width:1080px;margin:0 auto;padding:0 1.25rem;}
         .cpr-sec{padding:3rem 0;}
-        .cpr-kicker{text-transform:uppercase;letter-spacing:.14em;font-size:.72rem;font-weight:700;color:var(--teal);margin:0 0 .6rem;}
+        .cpr-kicker{text-transform:uppercase;letter-spacing:.14em;font-size:.72rem;font-weight:700;color:var(--teal-ink);margin:0 0 .6rem;}
         .cpr h2{font-size:clamp(1.55rem,3vw,2.05rem);line-height:1.14;color:var(--navy);margin:0 0 .5rem;}
         .cpr-lead{font-size:1.03rem;line-height:1.6;color:var(--muted);max-width:62ch;margin:0 0 1.5rem;}
         .cpr-alt{background:#f2f8f9;}
@@ -98,7 +101,7 @@ export default function ConditionPageRedesign({
         /* The card is the highest-intent element in the hero; it previously ended on
            the feature list with no action, sending the reader back to the copy column. */
         .cpr-hcard-cta{display:block;width:100%;box-sizing:border-box;margin:1.15rem 0 0;
-          padding:.85rem 1.25rem;border-radius:999px;background:var(--teal);color:#fff;
+          padding:.85rem 1.25rem;border-radius:999px;background:var(--teal-ink);color:#fff;
           font-weight:800;font-size:1rem;text-align:center;text-decoration:none;
           box-shadow:0 8px 22px rgba(0,107,115,.30);transition:background .15s,transform .15s;}
         .cpr-hcard-cta:hover,.cpr-hcard-cta:focus{background:var(--navy);transform:translateY(-1px);color:#fff;}
@@ -125,6 +128,10 @@ export default function ConditionPageRedesign({
 
         .cpr-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem;margin-top:1.4rem;}
         @media(max-width:760px){.cpr-steps{grid-template-columns:1fr;}}
+        .cpr-steps.cpr-steps4{grid-template-columns:repeat(4,1fr);}
+        @media(max-width:980px){.cpr-steps.cpr-steps4{grid-template-columns:repeat(2,1fr);}}
+        @media(max-width:760px){.cpr-steps.cpr-steps4{grid-template-columns:1fr;}}
+        .cpr-getrx-note{font-size:.92rem;line-height:1.55;color:var(--muted);max-width:80ch;margin:1.4rem 0 0;}
         .cpr-step{background:#fff;border:1px solid var(--line);border-radius:16px;padding:1.4rem 1.3rem;}
         .cpr-step .num{font-family:'Fraunces',serif;font-size:2.1rem;font-weight:600;color:var(--gold);line-height:1;margin-bottom:.5rem;}
         .cpr-step h3{font-size:1.02rem;color:var(--navy);margin:0 0 .35rem;}
@@ -137,7 +144,7 @@ export default function ConditionPageRedesign({
         .cpr-fit ul{list-style:none;margin:0;padding:0;}
         .cpr-fit li{position:relative;padding-left:1.7rem;margin:.5rem 0;font-size:.92rem;line-height:1.45;}
         .cpr-fit.good li::before{content:'✓';position:absolute;left:0;color:#2e9c5f;font-weight:800;}
-        .cpr-fit.bad li::before{content:'!';position:absolute;left:.35rem;color:#c2582f;font-weight:800;}
+        .cpr-fit.bad li::before{content:'!';position:absolute;left:.35rem;color:#A8441F;font-weight:800;}
 
         .cpr-table{width:100%;border-collapse:collapse;background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--line);}
         .cpr-table th{background:#f2f8f9;text-align:left;font-size:.82rem;text-transform:uppercase;letter-spacing:.04em;color:var(--navy);padding:.75rem 1rem;font-weight:700;}
@@ -153,7 +160,7 @@ export default function ConditionPageRedesign({
         .cpr-faqitem .cpr-plus::before{top:11px;left:3px;width:18px;height:2px;}
         .cpr-faqitem .cpr-plus::after{top:3px;left:11px;width:2px;height:18px;transition:opacity .2s;}
         .cpr-faqitem[open] .cpr-plus::after{opacity:0;}
-        .cpr-faqitem[open] summary{color:var(--teal);}
+        .cpr-faqitem[open] summary{color:var(--teal-ink);}
         .cpr-faqitem .cpr-ans{margin:0;padding:0 0 1.1rem;font-size:.94rem;line-height:1.6;color:var(--muted);}
 
         /* prose + list sections */
@@ -176,12 +183,12 @@ export default function ConditionPageRedesign({
         .cpr-dstep h3{font-size:1rem;color:var(--navy);margin:0 0 .5rem;}
         .cpr-dstep ul{margin:.3rem 0 .6rem;padding-left:1.2rem;font-size:.9rem;color:var(--ink);line-height:1.5;}
         .cpr-dstep .act{font-size:.88rem;margin:.15rem 0;}
-        .cpr-dstep .act b{color:var(--teal);}
-        .cpr-dstep.urgent .act b{color:#c2582f;}
+        .cpr-dstep .act b{color:var(--teal-ink);}
+        .cpr-dstep.urgent .act b{color:#A8441F;}
         .cpr-refs{list-style:none;margin:1.2rem 0 0;padding:0;display:grid;gap:.55rem;}
         .cpr-refs li{font-size:.88rem;line-height:1.5;color:var(--muted);padding-left:1.2rem;position:relative;}
         .cpr-refs li::before{content:'→';position:absolute;left:0;color:var(--teal);}
-        .cpr-refs a{color:var(--teal);text-decoration:none;}
+        .cpr-refs a{color:var(--teal-ink);text-decoration:none;}
         .cpr-refs a:hover{text-decoration:underline;}
         /* internal links footer (styled) */
         .cpr-links{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:.75rem;margin-top:1.2rem;}
@@ -191,14 +198,24 @@ export default function ConditionPageRedesign({
         .cpr-linkcard .d{display:block;font-size:.8rem;color:var(--muted);margin-top:.15rem;}
         .cpr-chips{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1rem;}
         .cpr-chip{font-size:.82rem;font-weight:600;color:var(--navy);background:#fff;border:1px solid var(--line);border-radius:999px;padding:.4rem .8rem;text-decoration:none;transition:all .15s;}
-        .cpr-chip:hover{border-color:var(--teal);color:var(--teal);}
+        .cpr-chip:hover{border-color:var(--teal);color:var(--teal-ink);}
 
         .cpr-close{background:linear-gradient(160deg,#01465a,#065f6b);color:#fff;border-radius:22px;padding:2.5rem;text-align:center;}
         .cpr-close h2{color:#fff;font-size:clamp(1.6rem,3.3vw,2.2rem);margin:0 0 .5rem;}
         .cpr-close p{color:#d7ebee;font-size:1.03rem;margin:0 0 1.5rem;}
         .cpr-answer{background:#EAF7F8;border-left:4px solid #006B73;border-radius:0 10px 10px 0;padding:.9rem 1.15rem;margin:1rem 0 1.1rem;}
         .cpr-answer p{margin:0;color:#003E52;font-size:1.02rem;line-height:1.55;font-weight:500;}
-      `}</style>
+
+        /* Condition video reel (vertical 9:16). Mobile-first: the frame fills the
+           viewport width up to a cap so the reel reads full-screen on a phone.
+           Desktop constrains it to a phone-like column on the right. */
+        .cpr-video-grid{display:grid;grid-template-columns:1fr;gap:1.5rem;align-items:center;}
+        .cpr-video-frame{position:relative;width:100%;max-width:430px;margin:0 auto;border-radius:18px;overflow:hidden;box-shadow:0 18px 44px rgba(0,30,46,.22);background:#012f3e;}
+        .cpr-video-frame video{display:block;width:100%;aspect-ratio:9/16;object-fit:cover;background:#012f3e;}
+        .cpr-video-copy h2{margin:0 0 .5rem;}
+        @media(min-width:761px){.cpr-video-grid{grid-template-columns:1fr 360px;}.cpr-video-frame{max-width:360px;margin:0 0 0 auto;}}
+        ${cprDarkCSS}
+      ` }} />
 
       {/* HERO */}
       <section className="cpr-hero">
@@ -213,8 +230,8 @@ export default function ConditionPageRedesign({
               </div>
             )}
             {hero.introParagraph && <p className="intro">{clean(hero.introParagraph, stateName)}</p>}
-            <div><a href="/book-online" className="cpr-cta">Book a Visit, {price} →</a></div>
-            <p className="cpr-trust">Board-certified MD · 44 states + DC · evenings &amp; weekends · HSA/FSA accepted · {AGGREGATE_RATING_VALUE}★ ({TOTAL_REVIEW_COUNT} reviews)</p>
+            <div><a href="/book-online/" className="cpr-cta">Book a Visit, {price} →</a></div>
+            <p className="cpr-trust">Board-certified MD · 40+ states + DC · evenings &amp; weekends · HSA/FSA accepted · {AGGREGATE_RATING_VALUE}★ ({TOTAL_REVIEW_COUNT} reviews)</p>
           </div>
           <div className="cpr-hcard">
             <h3>{clean((hero.sideCard && hero.sideCard.h2) || 'What the visit includes', stateName)}</h3>
@@ -225,11 +242,67 @@ export default function ConditionPageRedesign({
                 <li key={i}>{clean(typeof f === 'string' ? f : (f.text || f.label || ''), stateName)}</li>
               ))}
             </ul>
-            <a href="/book-online" className="cpr-hcard-cta">Book a Visit &rarr;</a>
+            <a href="/book-online/" className="cpr-hcard-cta">Book a Visit &rarr;</a>
             <p className="cpr-hcard-note">Same-day appointments · HSA/FSA accepted</p>
           </div>
         </div>
       </section>
+
+      {/* HOW TO GET THE MEDICATION ONLINE (optional, per-condition data:
+          getMedicationOnline). Price first, then plain steps, each sourced. */}
+      {getRx && getRxSteps.length > 0 && (
+        <section className="cpr-sec cpr-alt" id={`${c.conditionSlug}-get-online`}>
+          <div className="cpr-wrap">
+            {getRx.kicker && <p className="cpr-kicker">{clean(getRx.kicker, stateName)}</p>}
+            <h2>{clean(getRx.title, stateName)}</h2>
+            {getRx.priceLine && <p className="cpr-lead">{clean(getRx.priceLine, stateName)}</p>}
+            <ol className="cpr-steps cpr-steps4" style={{ listStyle: 'none', padding: 0 }}>
+              {getRxSteps.map((s, i) => (
+                <li className="cpr-step" key={i}>
+                  <div className="num">{i + 1}</div>
+                  <h3>{clean(s.title, stateName)}</h3>
+                  <p>{clean(s.text, stateName)}</p>
+                </li>
+              ))}
+            </ol>
+            {getRx.safetyNote && <p className="cpr-getrx-note">{clean(getRx.safetyNote, stateName)}</p>}
+            {getRxSources.length > 0 && (
+              <ul className="cpr-refs">
+                {getRxSources.map((r, i) => (
+                  <li key={i}><a href={r.url} rel="nofollow noopener" target="_blank">{clean(r.text, stateName)}</a></li>
+                ))}
+              </ul>
+            )}
+            <div style={{ marginTop: '1.5rem' }}>
+              <a href="/book-online/" className="cpr-cta cpr-cta--navy">Book a {price} Visit →</a>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* CONDITION VIDEO REEL (vertical 9:16) — one per condition, pairs the same
+          clip that publishes to Reels/TikTok/Shorts with the national page. */}
+      {/* UTI clip withheld until its narration is reviewed for the women-only scope. */}
+      {c.conditionSlug && c.conditionSlug !== 'uti-treatment-online' && (
+        <section className="cpr-sec">
+          <div className="cpr-wrap cpr-video-grid">
+            <div className="cpr-video-copy">
+              <p className="cpr-kicker">Watch</p>
+              <h2>{clean(c.conditionName, stateName)} care in 30 seconds</h2>
+              <p className="cpr-lead">A quick rundown of who the visit is for, what the flat-fee visit includes, and when symptoms mean going in person instead. An MD reviews your case by secure video.</p>
+            </div>
+            <div className="cpr-video-frame">
+              <video
+                src={`/videos/conditions/${c.conditionSlug}.mp4`}
+                poster={`/videos/conditions-posters/${c.conditionSlug}.jpg`}
+                controls
+                playsInline
+                preload="metadata"
+              />
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* PRICE + COMPARISON */}
       {bars.length > 0 && (
@@ -237,7 +310,7 @@ export default function ConditionPageRedesign({
           <div className="cpr-wrap">
             <p className="cpr-kicker">What it costs</p>
             <h2>{price} flat. HSA/FSA accepted.</h2>
-            <p className="cpr-lead">One fee covers the visit — no facility fees, no surprise billing. Here is how it compares to other care settings.</p>
+            <p className="cpr-lead">One fee covers the visit — no facility fees, no hidden fees. Here is how it compares to other care settings.</p>
             <div className="cpr-pcgrid">
               <div className="cpr-pcard">
                 <div className="big">{price}</div>
@@ -279,7 +352,7 @@ export default function ConditionPageRedesign({
               ))}
             </div>
             <div style={{ marginTop: '1.75rem' }}>
-              <a href="/book-online" className="cpr-cta cpr-cta--navy">Book a {price} Visit Now →</a>
+              <a href="/book-online/" className="cpr-cta cpr-cta--navy">Book a {price} Visit Now →</a>
             </div>
           </div>
         </section>
@@ -536,7 +609,7 @@ export default function ConditionPageRedesign({
           <div className="cpr-wrap">
             <p className="cpr-kicker">Learn more</p>
             <h2>Related health guide</h2>
-            <p style={{ margin: 0, lineHeight: 1.7 }}>For a deeper clinical guide to symptoms, prevention, and treatment, read our <a href={c.guideLink.url}>{c.guideLink.label}</a>, written and reviewed by our physicians to current clinical guidelines.</p>
+            <p style={{ margin: 0, lineHeight: 1.7 }}>For a deeper clinical guide to symptoms, prevention, and treatment, read our <a href={c.guideLink.url}>{c.guideLink.label}</a>, written and reviewed by Dr. Bhavsar to current clinical guidelines.</p>
           </div>
         </section>
       )}
@@ -552,7 +625,7 @@ export default function ConditionPageRedesign({
                 const slug = rc.slug || rc.href || '';
                 const name = rc.name || rc.title || rc.label || '';
                 return (
-                  <a className="cpr-linkcard" key={i} href={slug.startsWith('/') ? slug : `/${slug}`}>
+                  <a className="cpr-linkcard" key={i} href={slug.startsWith("/") ? slug : `/${slug}/`}>
                     <span className="t">{clean(name, stateName)}</span>
                     <span className="d">Online MD video visit</span>
                   </a>
@@ -564,7 +637,7 @@ export default function ConditionPageRedesign({
       )}
 
       {/* QUICK LINKS: cost, compare, symptoms (styled cards) */}
-      {(costLink || comparePage || (symptomLinks && symptomLinks.length > 0) || (secondaryCostPages && secondaryCostPages.length > 0)) && (
+      {(costLink || comparePage || (secondaryCostPages && secondaryCostPages.length > 0)) && (
         <section className="cpr-sec">
           <div className="cpr-wrap">
             <p className="cpr-kicker">Helpful links</p>
@@ -588,12 +661,6 @@ export default function ConditionPageRedesign({
                   <span className="d">Side-by-side comparison</span>
                 </a>
               )}
-              {(symptomLinks || []).filter(Boolean).map((s, i) => (
-                <a className="cpr-linkcard" href={`/symptoms/${s.slug}/`} key={`sy${i}`}>
-                  <span className="t">{s.title || s.name || s.slug}</span>
-                  <span className="d">Symptom guide</span>
-                </a>
-              ))}
             </div>
           </div>
         </section>
@@ -607,11 +674,11 @@ export default function ConditionPageRedesign({
             <h2>All conditions we treat online</h2>
             <div className="cpr-chips">
               {otherConditions.map((cc, i) => (
-                <a className="cpr-chip" key={i} href={`/${cc.slug}`}>{clean(cc.name, stateName)}</a>
+                <a className="cpr-chip" key={i} href={`/${cc.slug}/`}>{clean(cc.name, stateName)}</a>
               ))}
             </div>
             <div style={{ marginTop: '1.5rem' }}>
-              <a href="/what-we-treat" className="cpr-cta cpr-cta--navy">Explore All Adult Conditions →</a>
+              <a href="/what-we-treat/" className="cpr-cta cpr-cta--navy">Explore All Adult Conditions →</a>
             </div>
           </div>
         </section>
@@ -623,7 +690,7 @@ export default function ConditionPageRedesign({
           <div className="cpr-close">
             <h2>Get treated today</h2>
             <p>A board-certified MD, a same-day visit, and a flat {price}. No waiting room, no insurance required.</p>
-            <a href="/book-online" className="cpr-cta">Book a Visit, {price} →</a>
+            <a href="/book-online/" className="cpr-cta">Book a Visit, {price} →</a>
           </div>
         </div>
       </section>

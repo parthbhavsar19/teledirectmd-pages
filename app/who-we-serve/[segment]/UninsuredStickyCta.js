@@ -35,7 +35,7 @@ export default function UninsuredStickyCta() {
         <span className="uac-sticky-price">$79 <span>flat, no insurance</span></span>
         <span className="uac-sticky-sub">Same-day, evenings, weekends</span>
       </div>
-      <a className="uac-btn uac-btn--primary" href="/book-online" data-analytics="book_sticky">Book Now</a>
+      <a className="uac-btn uac-btn--primary" href="/book-online/" data-analytics="book_sticky">Book Now</a>
     </div>
   );
 }

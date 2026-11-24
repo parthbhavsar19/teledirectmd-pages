@@ -1,0 +1,423 @@
+{
+  "guide": "flu-test-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 4 verified (10.1093/cid/ciy866, 10.1136/bmjopen-2013-003885, 10.7326/0003-4819-156-7-201204030-00403, 10.7326/M17-0848), retractions: none; no editorial notices; contrasting-evidence flags on refs 7 and 8 noted in entries. PubMed article types checked: no Retracted Publication or Retraction Notice.",
+  "references": [
+    {
+      "n": 1,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention (CDC). Information for Clinicians on Rapid Diagnostic Testing for Influenza.",
+      "url": "https://www.cdc.gov/flu/hcp/testing-methods/rapidclin.html",
+      "record_title": "Information for Clinicians on Rapid Diagnostic Testing for Influenza",
+      "version_or_date": "Last reviewed January 5, 2026",
+      "retrieved_with": "WebFetch of official page (verbatim phrase checks run twice)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Rapid antigen tests have sensitivity of about 50-70%, so a negative does not rule out flu (key takeaways, table, chart, citable summary, FAQ)",
+          "verdict": "supported",
+          "quote": "Sensitivities of rapid influenza diagnostic tests are low to moderate – approximately 50-70%",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "Rapid antigen tests have roughly 95-99% specificity; false positives uncommon; positive usually reliable",
+          "verdict": "supported",
+          "quote": "specificities of rapid diagnostic tests for influenza are approximately 95-99%, which means that false positive results are uncommon",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "False negatives are more likely when flu is widespread, typically at the peak of flu season",
+          "verdict": "supported",
+          "quote": "False-negative results are more likely to occur when influenza prevalence is high in the community, which is typically at the peak of the influenza season.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "FDA now requires all rapid antigen tests to achieve 80% or higher sensitivity compared with RT-PCR",
+          "verdict": "supported",
+          "quote": "FDA now requires that all RIDTs achieve 80% or higher sensitivity compared with RT-PCR.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "Collect the sample early, within 3-4 days of symptom onset; rapid tests most accurate in that window (key takeaways, timing paragraph, timing chart)",
+          "verdict": "supported",
+          "quote": "Collect respiratory tract specimens as early in the illness as possible, (within 3-4 days of illness onset).",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "Rapid tests are most accurate on samples collected within 3-4 days of symptom onset",
+          "verdict": "supported",
+          "quote": "most accurate when used to test respiratory specimens collected within 3-4 days",
+          "quote_source": "official_page"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention (CDC). Overview of Influenza Testing Methods.",
+      "url": "https://www.cdc.gov/flu/hcp/testing-methods/index.html",
+      "record_title": "Overview of Influenza Testing Methods",
+      "version_or_date": "Last reviewed December 19, 2025",
+      "retrieved_with": "WebFetch of official page (verbatim phrase checks run twice)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Page gives no single sensitivity number for RT-PCR, so the page now says \"very high\" instead of \">95%\" or \"90-100%\". Page does not mention COVID-19 or home-test technology, so those claims were moved to refs 6, 9 and 10.",
+      "claims": [
+        {
+          "text": "Two broad families of flu tests: molecular assays and antigen detection tests (types section, FAQ \"What is a flu test?\")",
+          "verdict": "supported",
+          "quote": "Diagnostic tests available in clinical settings for detection of influenza viruses in respiratory specimens include molecular assays",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "Rapid molecular assays have about 90-95% sensitivity (table, chart, key takeaways, FAQ, citable summary)",
+          "verdict": "supported",
+          "quote": "in upper respiratory tract specimens with high sensitivity (90-95%) and specificity.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "Laboratory RT-PCR and other molecular assays have very high sensitivity and specificity (table \"Very high\", chart label, FAQ, timing paragraph)",
+          "verdict": "supported",
+          "quote": "in respiratory specimens with very high sensitivity and specificity.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "Rapid antigen tests give results in 10-15 minutes with 50-70% sensitivity",
+          "verdict": "supported",
+          "quote": "can detect influenza viral antigens in 10-15 minutes with moderate sensitivity (50-70%) and high specificity",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "Rapid molecular assays take about 15-30 minutes (table, chart, FAQ)",
+          "verdict": "supported",
+          "quote": "FDA-cleared rapid molecular assays are available that produce results in approximately 15-30 minutes.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "Laboratory molecular assays take about 45 minutes to several hours depending on the assay (table, chart, FAQ)",
+          "verdict": "supported",
+          "quote": "These assays can yield results in approximately 45 minutes to several hours depending upon the assay.",
+          "quote_source": "official_page"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention (CDC). Signs and Symptoms of Flu.",
+      "url": "https://www.cdc.gov/flu/signs-symptoms/index.html",
+      "record_title": "Signs and Symptoms of Flu",
+      "version_or_date": "Last reviewed August 26, 2024",
+      "retrieved_with": "WebSearch (cdc.gov) then WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Replaces the CDC laboratory-directors RIDT page, which did not support the red-flag list it was cited for. Warning-sign list items are quoted as separate bullet items from the page, joined here with semicolons.",
+      "claims": [
+        {
+          "text": "People with emergency warning signs should get medical care right away",
+          "verdict": "supported",
+          "quote": "People experiencing these warning signs should obtain medical care right away.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "Adult emergency warning signs list: difficulty breathing; persistent chest or abdominal pain or pressure; persistent dizziness, confusion, inability to arouse; seizures; not urinating; severe muscle pain; severe weakness or unsteadiness; fever or cough that improve then return or worsen; worsening chronic conditions",
+          "verdict": "supported",
+          "quote": "Difficulty breathing or shortness of breath; Persistent pain or pressure in the chest or abdomen; Persistent dizziness, confusion, inability to arouse; Seizures; Not urinating; Severe muscle pain; Severe weakness or unsteadiness",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "Remaining warning signs: fever or cough that improve then return or worsen; worsening of chronic conditions",
+          "verdict": "supported",
+          "quote": "Fever or cough that improve but then return or worsen; Worsening of chronic medical conditions",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "List is not all-inclusive; severe or concerning symptoms warrant care",
+          "verdict": "supported",
+          "quote": "These lists are not all inclusive. Please consult your medical provider for any other symptom that is severe or concerning.",
+          "quote_source": "official_page"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "guideline",
+      "cited_as": "Uyeki TM, Bernstein HH, Bradley JS, et al. Clinical Practice Guidelines by the Infectious Diseases Society of America: 2018 Update on Diagnosis, Treatment, Chemoprophylaxis, and Institutional Outbreak Management of Seasonal Influenza. Clin Infect Dis. 2019;68(6):e1-e47.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30566567/",
+      "pmid": "30566567",
+      "pmcid": "PMC6653685",
+      "doi": "10.1093/cid/ciy866",
+      "record_title": "Clinical Practice Guidelines by the Infectious Diseases Society of America: 2018 Update on Diagnosis, Treatment, Chemoprophylaxis, and Institutional Outbreak Management of Seasonal Influenza",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2019",
+      "article_type": "Journal Article (clinical practice guideline)",
+      "version_or_date": "IDSA 2018 update, published 2019 Mar 5",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC6653685); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "PMC web page returned a reCAPTCHA to WebFetch; not routed around. Full text obtained through the PubMed connector. Recommendation bullet lists for treatment criteria were stripped in the connector text, so the page cites only narrative passages quoted here.",
+      "claims": [
+        {
+          "text": "IDSA recommends rapid molecular assays over rapid antigen tests for outpatients (citable summary)",
+          "verdict": "supported",
+          "quote": "Clinicians should use rapid molecular assays (ie, nucleic acid amplification tests) over rapid influenza diagnostic tests (RIDTs) in outpatients to improve detection of influenza virus infection",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "Antiviral treatment should not be delayed while waiting for test results (key takeaways, when-to-test table, FAQ Tamiflu)",
+          "verdict": "supported",
+          "quote": "Antiviral treatment, when indicated, should not be delayed until the results of diagnostic testing are available for persons at high risk of complications, those with progressive disease, or patients being admitted to hospital.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "Antiviral therapy generally should not be delayed while awaiting test results (FAQ Tamiflu)",
+          "verdict": "supported",
+          "quote": "Therapy should be started as soon as possible and generally should not be delayed while awaiting influenza test results.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "During high flu activity, flu is typically diagnosed from signs and symptoms (FAQ Tamiflu)",
+          "verdict": "supported",
+          "quote": "During periods of high influenza activity, influenza is typically diagnosed based on presenting illness signs and symptoms.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "Testing is most useful when the result will change care: antiviral treatment, other tests, antibiotics, infection control (when-to-test intro, FAQ)",
+          "verdict": "supported",
+          "quote": "Influenza testing should be performed when the results are anticipated to influence clinical management (impact decision to initiate antiviral therapy, other diagnostic testing, antibiotic use, or IPC measures)",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "High-risk groups include adults 65 and older, pregnant people, and people with chronic conditions (when-to-test table)",
+          "verdict": "supported",
+          "quote": "adults aged ≥65 years, pregnant and postpartum women, people with certain chronic medical conditions including pulmonary, cardiac, and metabolic disease, people with immunosuppression",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "Testing someone who lives with a high-risk person can affect treatment decisions that help protect them (when-to-test table)",
+          "verdict": "partly_supported",
+          "quote": "early antiviral treatment of persons with uncomplicated influenza who have household members that are immunocompromised is recommended to provide potential benefit in reducing the risk of influenza in the household contacts.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "Greatest benefit when antiviral treatment starts within 2 days of illness onset (when-to-test paragraph, red-flags paragraph)",
+          "verdict": "supported",
+          "quote": "the greatest clinical benefit was reported when antiviral treatment was started within 2 days of illness onset",
+          "quote_source": "full_text"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Tanei M, Yokokawa H, Murai K, et al. Factors influencing the diagnostic accuracy of the rapid influenza antigen detection test (RIADT): a cross-sectional study. BMJ Open. 2014;4(1):e003885.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24384898/",
+      "pmid": "24384898",
+      "pmcid": "PMC3902527",
+      "doi": "10.1136/bmjopen-2013-003885",
+      "record_title": "Factors influencing the diagnostic accuracy of the rapid influenza antigen detection test (RIADT): a cross-sectional study.",
+      "record_journal": "BMJ Open",
+      "record_year": "2014",
+      "article_type": "Clinical Study; Journal Article (single-centre cross-sectional study)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Abstract only used. Supports only that very early testing (before 12 h) lowers sensitivity; the old \"day 1-2 best window\" and late-testing claims were removed.",
+      "claims": [
+        {
+          "text": "In a single-clinic study of 82 outpatients in Tokyo, false-negative patients were tested sooner after symptom onset",
+          "verdict": "supported",
+          "quote": "82 consecutive outpatients presenting with upper respiratory symptoms and fever ≥37°C ... Time from symptom onset to test was shorter for the FN group than the TP group (p=0.009).",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "Authors advised not using the rapid test until 12 hours after symptom onset during flu season (timing paragraph, key takeaways, chart, FAQ)",
+          "verdict": "supported",
+          "quote": "The RIADT sensitivity was low, due to early administration of the test. In the epidemic season, the RIADT should not be used for suspected influenza until 12 h after symptom onset.",
+          "quote_source": "abstract"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention (CDC). Diagnosis for Flu.",
+      "url": "https://www.cdc.gov/flu/testing/index.html",
+      "record_title": "Diagnosis for Flu",
+      "version_or_date": "Last reviewed March 10, 2026",
+      "retrieved_with": "WebFetch of official page (verbatim phrase checks run twice)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Not everyone with flu symptoms needs a test (when-to-test intro)",
+          "verdict": "supported",
+          "quote": "not everyone who goes to the health care provider with flu-like symptoms will be tested.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "A clinician may diagnose flu without testing (cost section, FAQ Tamiflu)",
+          "verdict": "supported",
+          "quote": "may choose to diagnose you with flu without the need for testing",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "A negative rapid flu test does not necessarily mean you do not have flu (FAQ)",
+          "verdict": "supported",
+          "quote": "However, a negative rapid flu test does not necessarily mean you do not have flu.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "CDC does not have specific guidance on at-home flu tests",
+          "verdict": "supported",
+          "quote": "CDC does not have specific guidance for the use of at-home flu tests.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "Some home tests detect influenza A and B and the COVID-19 virus at once (combined section, FAQ)",
+          "verdict": "supported",
+          "quote": "including tests that can detect influenza A and B viruses, and SARS-CoV-2 (the virus that causes COVID-19) in upper respiratory tract specimens.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "CDC recommends people at higher risk seek care promptly to find out whether they need antivirals",
+          "verdict": "supported",
+          "quote": "CDC recommends people at higher risk of serious flu complications seek medical care promptly for flu-like symptoms to determine if they need antiviral medications.",
+          "quote_source": "official_page"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "journal",
+      "cited_as": "Chartrand C, Leeflang MMG, Minion J, Brewer T, Pai M. Accuracy of rapid influenza diagnostic tests: a meta-analysis. Ann Intern Med. 2012;156(7):500-511.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22371850/",
+      "pmid": "22371850",
+      "doi": "10.7326/0003-4819-156-7-201204030-00403",
+      "record_title": "Accuracy of rapid influenza diagnostic tests: a meta-analysis.",
+      "record_journal": "Ann Intern Med",
+      "record_year": "2012",
+      "article_type": "Journal Article; Meta-Analysis; Review",
+      "retrieved_with": "PubMed search_articles + get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source (added). Abstract only. Scite flagged one contrasting citation (10.1016/j.ijid.2019.08.029) reporting better RIDT performance in one 2016/17 season; page does not present the 2012 figures as current for all tests and notes FDA 80% requirement (ref 1).",
+      "claims": [
+        {
+          "text": "159-study meta-analysis found lower sensitivity for influenza B (about 52%) than influenza A (about 65%)",
+          "verdict": "supported",
+          "quote": "159 studies evaluated 26 RIDTs ... a higher sensitivity for influenza A (64.6% [CI, 59.0% to 70.1%) than for influenza B (52.2% [CI, 45.0% to 59.3%).",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "Rapid antigen sensitivity higher in children (about 67%) than adults (about 54%); negative cannot rule out flu (FAQ children)",
+          "verdict": "supported",
+          "quote": "lower sensitivity in adults (53.9% [CI, 47.9% to 59.8%]) than in children (66.6% [CI, 61.6% to 71.7%]) ... Influenza can be ruled in but not ruled out through the use of RIDTs.",
+          "quote_source": "abstract"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "journal",
+      "cited_as": "Merckx J, Wali R, Schiller I, et al. Diagnostic Accuracy of Novel and Traditional Rapid Tests for Influenza Infection Compared With Reverse Transcriptase Polymerase Chain Reaction: A Systematic Review and Meta-analysis. Ann Intern Med. 2017;167(6):394-409.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28869986/",
+      "pmid": "28869986",
+      "doi": "10.7326/M17-0848",
+      "record_title": "Diagnostic Accuracy of Novel and Traditional Rapid Tests for Influenza Infection Compared With Reverse Transcriptase Polymerase Chain Reaction: A Systematic Review and Meta-analysis.",
+      "record_journal": "Ann Intern Med",
+      "record_year": "2017",
+      "article_type": "Journal Article; Meta-Analysis; Systematic Review",
+      "retrieved_with": "PubMed search_articles + get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source (added) as counter-evidence on the influenza B claim. Abstract only. Funding includes BD Diagnostic Systems (per abstract). Scite flagged one contrasting citation (10.1016/j.jvacx.2019.100011) reporting higher RIDT sensitivity in Japanese patients; page does not overstate.",
+      "claims": [
+        {
+          "text": "2017 meta-analysis found similar traditional rapid antigen sensitivity for influenza A (about 54%) and B (about 53%)",
+          "verdict": "supported",
+          "quote": "Pooled sensitivities for detecting influenza A ... were 54.4% (95% credible interval [CrI], 48.9% to 59.8%) for RIDTs ... Those for detecting influenza B were 53.2% (CrI, 41.7% to 64.4%) for RIDTs",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "Rapid molecular tests had markedly higher sensitivity than traditional rapid antigen tests in both children and adults (FAQ children)",
+          "verdict": "supported",
+          "quote": "Novel DIAs and rapid NAATs had markedly higher sensitivities for influenza A and B in both children and adults than did traditional RIDTs, with equally high specificities.",
+          "quote_source": "abstract"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration (FDA). FDA Authorizes Marketing of First Home Flu and COVID-19 Combination Test Outside of Emergency Use Authorities. Press announcement, October 7, 2024.",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-authorizes-marketing-first-home-flu-and-covid-19-combination-test-outside-emergency-use",
+      "record_title": "FDA Authorizes Marketing of First Home Flu and COVID-19 Combination Test Outside of Emergency Use Authorities",
+      "version_or_date": "For Immediate Release: October 07, 2024",
+      "retrieved_with": "WebSearch (fda.gov) then WebFetch of official page (verbatim excerpt check)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source (added). Test named on FDA page: Healgen Rapid Check COVID-19/Flu A&B Antigen Test (De Novo). Product not named on the guide.",
+      "claims": [
+        {
+          "text": "October 2024: first marketing authorization outside emergency use for a home flu and COVID-19 test",
+          "verdict": "supported",
+          "quote": "This is the first over-the-counter (OTC) test that can detect influenza to be granted marketing authorization",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "It is an antigen test with results in about 15 minutes",
+          "verdict": "supported",
+          "quote": "uses a nasal swab sample to deliver at-home results in approximately 15 minutes for COVID-19 and influenza (flu).",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "It correctly identified 92.5% of positive flu A and 90.5% of positive flu B samples",
+          "verdict": "supported",
+          "quote": "92.5% and 90.5% of positive Flu A and Flu B samples, respectively.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "Rapid antigen tests carry a risk of false negatives and generally have lower sensitivity than molecular tests (at-home section, key takeaways, FAQ)",
+          "verdict": "supported",
+          "quote": "As with all rapid antigen tests, which generally have lower sensitivity than molecular tests, there is a risk of false negative test results.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "People who test negative but still have symptoms should seek follow-up care (at-home section, FAQ)",
+          "verdict": "supported",
+          "quote": "should seek follow up care with their health care provider.",
+          "quote_source": "official_page"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration (FDA). At-Home OTC COVID-19 Diagnostic Tests. Content current as of February 23, 2026.",
+      "url": "https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/home-otc-covid-19-diagnostic-tests",
+      "record_title": "At-Home OTC COVID-19 Diagnostic Tests",
+      "version_or_date": "Content current as of 02/23/2026",
+      "retrieved_with": "WebSearch (fda.gov) then WebFetch of official page (table read)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source (added). Table read by WebFetch listed 8 at-home tests that also detect flu A/B: 6 labeled antigen, 2 labeled molecular (Lucira by Pfizer; Metrix COVID/Flu Test), all EUA. Table cell text was summarized by the fetch tool, not copied verbatim, so the antigen/molecular split is logged as partly_supported. Separately, the FDA Lucira EUA letter (fda.gov/media/165688) was retrieved with every page marked REVOKED, which conflicts with the list; the guide therefore names no product and says only \"a few are molecular\".",
+      "claims": [
+        {
+          "text": "FDA has authorized several at-home tests that check for flu A, flu B and COVID-19 from one nasal swab (at-home section, combined section, citable summary, FAQ)",
+          "verdict": "partly_supported",
+          "quote": "lists FDA-authorized at-home OTC COVID-19 diagnostic tests",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "Most of the combined tests on the list are antigen tests and a few are molecular",
+          "verdict": "partly_supported",
+          "quote": "lists FDA-authorized at-home OTC COVID-19 diagnostic tests",
+          "quote_source": "official_page"
+        }
+      ]
+    }
+  ]
+}

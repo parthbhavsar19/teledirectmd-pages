@@ -1,3 +1,4 @@
+import { contentDate } from '../../../lib/content-dates';
 import comparison from '../../../data/competitor-comparison.json';
 import states from '../../../data/states.json';
 import { uninsuredCSS } from '../../../lib/uninsured-styles';
@@ -5,6 +6,7 @@ import { PHYSICIAN_NAME, PHYSICIAN_NPI, CREDENTIAL_BOARD } from '../../../lib/gl
 import UninsuredCompareCards from './UninsuredCompareCards';
 import UninsuredCoverageMap from './UninsuredCoverageMap';
 import UninsuredStickyCta from './UninsuredStickyCta';
+import UninsuredVideoHero from './UninsuredVideoHero';
 
 /* Coverage comes from data/states.json, the same source the state pages and the
    sitemap build from, so a state launch updates the map, the list and the
@@ -30,7 +32,7 @@ const Tick = () => (
 );
 
 const HERO_CHIPS = [
-  { label: 'UTI', slug: 'uti-treatment-online' },
+  { label: 'UTI (women only)', slug: 'uti-treatment-online' },
   { label: 'Sinus infection', slug: 'sinus-infection-treatment-online' },
   { label: 'Blood pressure refill', slug: 'hypertension-refills-online' },
   { label: 'GERD', slug: 'acid-reflux-refills-online' },
@@ -47,12 +49,12 @@ const INCLUDED = [
 ];
 
 const TELEHEALTH_OK = [
-  'UTI, sinus infection, bronchitis, strep-like symptoms',
+  'UTI (women only), sinus infection, bronchitis, strep-like symptoms',
   'Cold, flu, cough, low-grade fever',
   'Rash, eczema, cold sore, mild acne',
   'Refills: hypertension, diabetes, GERD, statins (non-controlled)',
   'Migraine, reflux, mild allergic reaction',
-  'Pink eye, adult ear pain, recurrent UTI',
+  'Pink eye, adult ear pain, uncomplicated UTI (women only)',
   'Travel medicine, work notes, med reviews',
 ];
 
@@ -69,7 +71,7 @@ const GO_IN_PERSON = [
 const TAG_COLORS = { Infection: '#14706B', Chronic: '#E85D3C', Skin: '#C75B4A', Respiratory: '#2E7D6E' };
 
 const CONDITIONS = [
-  { tag: 'Infection', name: 'UTI', blurb: 'Uncomplicated UTI evaluation; antibiotics if appropriate.', slug: 'uti-treatment-online' },
+  { tag: 'Infection', name: 'UTI (women only)', blurb: 'Uncomplicated UTI evaluation; antibiotics if appropriate.', slug: 'uti-treatment-online' },
   { tag: 'Infection', name: 'Sinus infection', blurb: 'Bacterial vs viral; antibiotics only when indicated.', slug: 'sinus-infection-treatment-online' },
   { tag: 'Respiratory', name: 'Cold, flu, respiratory', blurb: 'Same-day evaluation, antivirals for eligible flu.', slug: 'common-cold-treatment-online' },
   { tag: 'Chronic', name: 'Hypertension', blurb: 'Ongoing BP management and refills, same physician.', slug: 'hypertension-refills-online' },
@@ -97,9 +99,9 @@ const PHARMACIES = [
 const REFERENCES = [
   { href: 'https://www.kff.org/uninsured/issue-brief/key-facts-about-the-uninsured-population/', label: 'Key facts about the uninsured population, KFF, 2025' },
   { href: 'https://doi.org/10.1136/bmjopen-2017-021161', label: 'Continuity of care with doctors and mortality: a systematic review, Pereira Gray et al., BMJ Open 2018' },
-  { href: 'https://www.pennmedicine.org/news/news-releases/2024/march/telemedicine-visits-cost-far-less-than-office-visits', label: 'Telemedicine visits cost far less than office visits, Penn Medicine / JAMA Network Open' },
-  { href: 'https://www.goodrx.com/healthcare-access/telehealth/how-much-does-a-telehealth-visit-cost', label: 'How much does a telehealth visit cost? GoodRx' },
-  { href: 'https://coveredusa.org/urgent-care-cost-without-insurance/', label: 'Urgent care visit cost without insurance, CoveredUSA 2026' },
+  { href: 'https://www.pennmedicine.org/news/study-finds-telemedicine-visits-cost-far-less-than-office-visits', label: 'Telemedicine visits cost far less than office visits, Penn Medicine / JAMA Network Open' },
+  { href: 'https://www.goodrx.com/healthcare-access/telehealth/how-much-does-telehealth-cost', label: 'How much does a telehealth visit cost? GoodRx' },
+  { href: 'https://coveredusa.org/en/cost/urgent-care', label: 'Urgent care visit cost without insurance, CoveredUSA 2026' },
 ];
 
 /* Prose gets "September 8, 2026"; JSON-LD keeps the ISO form. */
@@ -107,17 +109,17 @@ const LONG_DATE = new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeri
 const longDate = (iso) => LONG_DATE.format(new Date(`${iso}T00:00:00Z`));
 
 const OTHER_SEGMENTS = [
-  { href: '/who-we-serve/truck-drivers', label: 'Truck drivers' },
-  { href: '/who-we-serve/gig-workers', label: 'Gig workers & freelancers' },
-  { href: '/who-we-serve/hdhp-hsa-holders', label: 'HDHP & HSA holders' },
-  { href: '/who-we-serve/early-retirees', label: 'Early retirees' },
-  { href: '/who-we-serve', label: 'All communities' },
+  { href: '/who-we-serve/truck-drivers/', label: 'Truck drivers' },
+  { href: '/who-we-serve/gig-workers/', label: 'Gig workers & freelancers' },
+  { href: '/who-we-serve/hdhp-hsa-holders/', label: 'HDHP & HSA holders' },
+  { href: '/who-we-serve/early-retirees/', label: 'Early retirees' },
+  { href: '/who-we-serve/', label: 'All communities' },
 ];
 
 export default function UninsuredAffordableCarePage() {
   const baseUrl = 'https://teledirectmd.com';
   const pageUrl = `${baseUrl}/who-we-serve/uninsured-affordable-care`;
-  const today = new Date().toISOString().split('T')[0];
+  const today = contentDate('whoWeServe');
   const checkedOn = longDate(comparison.asOfDate);
 
   const faqItems = [
@@ -135,7 +137,7 @@ export default function UninsuredAffordableCarePage() {
     },
     {
       q: 'Can I get antibiotics or refills prescribed online?',
-      a: 'Prescriptions are issued only when the physician determines they are medically appropriate after evaluating you. Common examples include uncomplicated UTIs, bacterial sinus infections, and refills for blood pressure, diabetes, or GERD. Antibiotics are not prescribed for conditions that are usually viral, and no controlled substances are prescribed.',
+      a: 'Prescriptions are issued only when the physician determines they are medically appropriate after evaluating you. Common examples include uncomplicated UTIs in women only, bacterial sinus infections, and refills for blood pressure, diabetes, or GERD. Antibiotics are not prescribed for conditions that are usually viral, and no controlled substances are prescribed.',
     },
     {
       q: 'Does an uninsured visit affect future insurance?',
@@ -154,13 +156,13 @@ export default function UninsuredAffordableCarePage() {
       { '@type': ['MedicalBusiness','MedicalOrganization','Organization'], '@id': `${baseUrl}/#organization`,
         name: 'TeleDirectMD', url: baseUrl, logo: `${baseUrl}/assets/brand/teledirectmd-logo.png`,
         telephone: '+1-678-956-1855', medicalSpecialty: 'FamilyMedicine', priceRange: '$79',
-        areaServed: STATE_ABBRS, employee: { '@id': `${baseUrl}/about#physician` },
+        areaServed: STATE_ABBRS, employee: { '@id': `${baseUrl}/about/#physician` },
         makesOffer: { '@type': 'Offer', name: 'Online doctor video visit, cash pay',
           price: '79.00', priceCurrency: 'USD', category: 'Telehealth video visit',
           description: 'Flat $79 per visit with a board-certified family medicine physician. No insurance, no membership, no drug subscription required. Follow-up visits are the same $79.',
           eligibleRegion: STATE_ABBRS, availableAtOrFrom: { '@type': 'VirtualLocation', url: 'https://teledirectmd.as.me' } },
         availableService: { '@type': 'MedicalTherapy', name: 'Telehealth video visit for non-emergency adult conditions', howPerformed: 'Secure HIPAA-compliant video visit' } },
-      { '@type': 'Physician', '@id': `${baseUrl}/about#physician`, name: PHYSICIAN_NAME,
+      { '@type': 'Physician', '@id': `${baseUrl}/about/#physician`, name: PHYSICIAN_NAME,
         givenName: 'Parth', familyName: 'Bhavsar', honorificSuffix: 'MD', jobTitle: 'Founder and Physician',
         medicalSpecialty: 'FamilyMedicine', worksFor: { '@id': `${baseUrl}/#organization` },
         alumniOf: [
@@ -178,7 +180,7 @@ export default function UninsuredAffordableCarePage() {
         name: '$79 Online Doctor Without Insurance - Same MD, 40+ States',
         description: 'See the same board-certified physician every visit for $79 flat. No insurance, no membership, no drug subscriptions. 40+ states, same-day, evenings and weekends.',
         inLanguage: 'en-US', breadcrumb: { '@id': `${pageUrl}#breadcrumbs` },
-        author: { '@id': `${baseUrl}/about#physician` }, reviewedBy: { '@id': `${baseUrl}/about#physician` },
+        author: { '@id': `${baseUrl}/about/#physician` }, reviewedBy: { '@id': `${baseUrl}/about/#physician` },
         lastReviewed: today, datePublished: today, dateModified: today,
         publisher: { '@type': 'Organization', name: 'TeleDirectMD', url: baseUrl },
         audience: { '@type': 'MedicalAudience', audienceType: 'Patient' },
@@ -202,37 +204,44 @@ export default function UninsuredAffordableCarePage() {
       <style dangerouslySetInnerHTML={{ __html: uninsuredCSS }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }} />
 
-      {/* ── Hero ────────────────────────────────────────────────────────── */}
+      {/* ── Hero (video) ─────────────────────────────────────────────────── */}
       <section className="uac-hero">
-        <nav className="uac-crumbs" aria-label="Breadcrumb">
-          <a href="/">Home</a><span aria-hidden="true">/</span>
-          <a href="/who-we-serve">Who We Serve</a><span aria-hidden="true">/</span>
-          <span aria-current="page">Uninsured &amp; Affordable Care</span>
-        </nav>
+        <UninsuredVideoHero />
+        <div className="uac-hero-overlay" aria-hidden="true" />
+        <div className="uac-hero-container">
+          <nav className="uac-crumbs" aria-label="Breadcrumb">
+            <a href="/">Home</a><span aria-hidden="true">/</span>
+            <a href="/who-we-serve/">Who We Serve</a><span aria-hidden="true">/</span>
+            <span aria-current="page">Uninsured &amp; Affordable Care</span>
+          </nav>
 
-        <div className="uac-hero-grid">
           <div className="uac-hero-copy">
             <span className="uac-eyebrow uac-eyebrow--orange">Uninsured &amp; affordable care</span>
             <h1>$79. One doctor. No insurance needed.</h1>
             <p className="uac-hero-sub">A board-certified MD by video, same-day, in 40+ states. No membership, no drug subscription.</p>
 
             <div className="uac-hero-ctas">
-              <a className="uac-btn uac-btn--primary" href="/book-online" data-analytics="book_hero">Book a $79 Visit</a>
-              <a className="uac-btn uac-btn--ghost" href="#uninsured-compare">See How We Compare</a>
+              <a className="uac-btn uac-btn--primary" href="/book-online/" data-analytics="book_hero">Book a $79 Visit</a>
+              <a className="uac-btn uac-btn--glass" href="#uninsured-compare">See How We Compare</a>
             </div>
 
             <div className="uac-chiprow">
               <span className="uac-chiprow-label">Common visits:</span>
               {HERO_CHIPS.map((c) => (
-                <a key={c.slug} className="uac-chip" href={`/${c.slug}`}>{c.label}</a>
+                <a key={c.slug} className="uac-chip" href={`/${c.slug}/`}>{c.label}</a>
               ))}
             </div>
 
-            <p className="uac-byline">Medically reviewed by <a href="/about">{PHYSICIAN_NAME}</a> · Updated {longDate(today)}</p>
+            <p className="uac-byline">Medically reviewed by <a href="/about/">{PHYSICIAN_NAME}</a> · Updated {longDate(today)}</p>
           </div>
+        </div>
+      </section>
 
+      {/* ── Price + doctor (overlap the hero) ─────────────────────────────── */}
+      <section className="uac-overlap" aria-label="Pricing and physician">
+        <div className="uac-overlap-grid">
           <div className="uac-pricecard">
-            <span className="uac-eyebrow uac-eyebrow--dark">Cash-pay, all visits</span>
+            <span className="uac-eyebrow">Cash-pay, all visits</span>
             <div className="uac-pricecard-row">
               <span className="uac-price-big">$79</span>
               <span className="uac-price-note">flat rate<br />first visit &amp; every follow-up</span>
@@ -243,18 +252,24 @@ export default function UninsuredAffordableCarePage() {
               <li><Tick />No membership, no subscription, no add-on fees</li>
               <li><Tick />HSA and FSA cards accepted</li>
             </ul>
-            <a className="uac-btn uac-btn--primary" href="/book-online" data-analytics="book_price_card" style={{ width: '100%' }}>Book Now</a>
+            <a className="uac-btn uac-btn--primary" href="/book-online/" data-analytics="book_price_card" style={{ width: '100%' }}>Book Now</a>
             <p className="uac-pricecard-foot">Same-day, evenings, and weekends. Insurance optional in select states.</p>
+          </div>
+
+          <div className="uac-doctorcard">
+            <img className="uac-doctorcard-img" src="/images/dr-parth-bhavsar.jpg" alt={`${PHYSICIAN_NAME}, board-certified family medicine physician`} width="96" height="96" />
+            <div className="uac-doctorcard-body">
+              <span className="uac-doctorcard-name">{PHYSICIAN_NAME} <span>· Board-certified, {CREDENTIAL_BOARD}</span></span>
+              <span className="uac-doctorcard-quote">&ldquo;You&rsquo;ll see me on your first visit and every visit after. Same physician, same chart, no re-intake.&rdquo;</span>
+            </div>
+            <a className="uac-doctorcard-link" href="#uninsured-physician">Meet your doctor</a>
           </div>
         </div>
 
-        <div className="uac-doctorstrip">
-          <img src="/images/dr-parth-bhavsar.jpg" alt={`${PHYSICIAN_NAME}, board-certified family medicine physician`} width="64" height="64" />
-          <div className="uac-doctorstrip-body">
-            <span className="uac-doctorstrip-name">{PHYSICIAN_NAME} <span>· Board-certified, {CREDENTIAL_BOARD}</span></span>
-            <span className="uac-doctorstrip-quote">&ldquo;You&rsquo;ll see me on your first visit and every visit after. Same physician, same chart, no re-intake.&rdquo;</span>
-          </div>
-          <a className="uac-doctorstrip-link" href="#uninsured-physician">Meet your doctor</a>
+        <div className="uac-examplevisit">
+          <span className="uac-examplevisit-label">Example visit · UTI</span>
+          <span>Antibiotics e-sent to your pharmacy when clinically appropriate. Often ready in about an hour, depending on your pharmacy.</span>
+          <span className="uac-examplevisit-note">Dramatization</span>
         </div>
       </section>
 
@@ -302,7 +317,7 @@ export default function UninsuredAffordableCarePage() {
               <li key={line}><span className="uac-num">{String(i + 1).padStart(2, '0')}</span>{line}</li>
             ))}
           </ul>
-          <p className="uac-footnote">Insurance accepted in select states. <a href="/insurance">Confirm your plan.</a></p>
+          <p className="uac-footnote">Insurance accepted in select states. <a href="/insurance/">Confirm your plan.</a></p>
         </div>
 
         <div className="uac-col" id="uninsured-triage">
@@ -348,8 +363,8 @@ export default function UninsuredAffordableCarePage() {
               <dt>NPI</dt><dd>{PHYSICIAN_NPI}</dd>
             </dl>
             <div className="uac-doctor-actions">
-              <a className="uac-btn uac-btn--primary" href="/book-online" data-analytics="book_doctor">Book With Dr. Bhavsar</a>
-              <a href="/about">More about Dr. Bhavsar</a>
+              <a className="uac-btn uac-btn--primary" href="/book-online/" data-analytics="book_doctor">Book With Dr. Bhavsar</a>
+              <a href="/about/">More about Dr. Bhavsar</a>
             </div>
             <p className="uac-fineprint">HIPAA-compliant. Your health information is encrypted, never sold, never shared for advertising.</p>
             <p className="uac-fineprint uac-fineprint--quiet">If we expand in the future, we&rsquo;ll make every effort to keep you with your one doctor, wherever and whenever you need to see us.</p>
@@ -376,7 +391,7 @@ export default function UninsuredAffordableCarePage() {
             </div>
           </details>
 
-          <a className="uac-coverage-link" href="/states-we-serve">State-specific condition pages</a>
+          <a className="uac-coverage-link" href="/states-we-serve/">State-specific condition pages</a>
         </div>
 
         <div className="uac-map">
@@ -393,12 +408,12 @@ export default function UninsuredAffordableCarePage() {
               <h2>What we treat for $79</h2>
               <p>Every condition page explains what to expect, which medications are typically appropriate, and when telehealth isn&rsquo;t the right call.</p>
             </div>
-            <a className="uac-btn uac-btn--dark" href="/what-we-treat">View All 60+ Conditions</a>
+            <a className="uac-btn uac-btn--dark" href="/what-we-treat/">View All 60+ Conditions</a>
           </div>
 
           <div className="uac-conditions-grid">
             {CONDITIONS.map((c) => (
-              <a key={c.slug} className="uac-condition" href={`/${c.slug}`}>
+              <a key={c.slug} className="uac-condition" href={`/${c.slug}/`}>
                 <span className="uac-condition-tag" style={{ color: TAG_COLORS[c.tag] }}>{c.tag}</span>
                 <h3>{c.name}</h3>
                 <p>{c.blurb}</p>
@@ -450,7 +465,7 @@ export default function UninsuredAffordableCarePage() {
         <div className="uac-faq-head">
           <span className="uac-eyebrow">Questions &amp; answers</span>
           <h2>Straight answers about paying cash</h2>
-          <p>Still unsure? <a href="/faq">See the full FAQ.</a></p>
+          <p>Still unsure? <a href="/faq/">See the full FAQ.</a></p>
         </div>
         <div className="uac-faq-list">
           {faqItems.map((item) => (
@@ -475,8 +490,8 @@ export default function UninsuredAffordableCarePage() {
             <p>No insurance, no membership, no drug subscription. Same doctor every visit across 40+ states.</p>
           </div>
           <div className="uac-cta-actions">
-            <a className="uac-btn uac-btn--dark" href="/book-online" data-analytics="book_final_cta">Book a $79 Visit</a>
-            <a className="uac-btn uac-btn--light" href="/insurance">Pricing &amp; Insurance</a>
+            <a className="uac-btn uac-btn--dark" href="/book-online/" data-analytics="book_final_cta">Book a $79 Visit</a>
+            <a className="uac-btn uac-btn--light" href="/insurance/">Pricing &amp; Insurance</a>
           </div>
         </div>
       </section>

@@ -3,11 +3,11 @@
   "conditionShort": "Tick Bite",
   "conditionSlug": "tick-bite-treatment-online",
   "pageTitle": "Tick Bite Online Treatment in {state} | TeleDirectMD",
-  "metaDescription": "Evidence-based tick bite evaluation for {state} adults by secure video visit. Lyme disease risk assessment, doxycycline prophylaxis within the 72-hour window when appropriate, and clear monitoring guidance. Self pay option starting at $79. Insurance is not required.",
+  "metaDescription": "Evidence-based tick bite evaluation for {state} adults by secure video visit. Lyme disease risk assessment, doxycycline prophylaxis within the 72-hour window when appropriate, and clear monitoring guidance. Flat $79 self-pay option. Insurance is not required.",
   "ogImageAlt": "Tick bite treatment in {state} by TeleDirectMD",
   "hero": {
     "h1": "Tick Bite Treatment in {state} (Lyme Disease Prevention and Risk Assessment)",
-    "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
+    "subtitle": "{state} adult care by secure video visit, flat $79 self-pay option, MD-only, insurance is not required.",
     "introParagraph": "A tick bite raises immediate questions about Lyme disease risk and whether antibiotics are needed. Not every tick bite requires antibiotic prophylaxis, and the decision depends on the tick species, geographic risk, estimated attachment duration, and timing since removal. The IDSA/AAN/ACR 2020 Lyme Disease Guidelines recommend single-dose doxycycline prophylaxis only for high-risk bites meeting specific criteria, while low-risk bites are managed with watchful waiting and monitoring. TeleDirectMD uses a safety-first telehealth approach with photo-based tick and bite assessment, geographic risk evaluation, and structured triage to determine whether prophylaxis is appropriate, whether symptoms suggest early Lyme disease needing full treatment, or whether in-person evaluation is needed. If the history and photos support a straightforward tick bite without red flags, guideline-based management can be initiated by video, while adults with erythema migrans, systemic symptoms, or neurologic or cardiac concerns are directed to urgent in-person care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
       {
@@ -32,7 +32,7 @@
       }
     ],
     "benefits": [
-      "Self pay option starting at $79",
+      "Flat $79 self-pay option",
       "MD-only care (no mid-levels)",
       "Insurance is not required",
       "Licensed telehealth care for patients located in {state} at the time of the visit"
@@ -48,7 +48,7 @@
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for expanding bull's-eye rash (erythema migrans), fever with severe headache or neck stiffness, facial drooping or weakness, heart palpitations or chest pain after a tick bite, or tick paralysis symptoms such as ascending weakness. TeleDirectMD does not prescribe controlled substances."
     },
     "icd10Display": "S90.469A, T63.4XXA (final coding depends on clinical details)",
-    "quickAnswer": "Yes — adults (18+) in {state} with a recent tick bite can be evaluated online. A board-certified MD reviews your tick photo and bite timing by secure video and, per IDSA/AAN/ACR 2020 Lyme guidelines, prescribes single-dose doxycycline prophylaxis only when all high-risk criteria are met, or supportive watchful-waiting guidance otherwise. Visit price: $79 flat, no insurance required. The 72-hour window after the bite is important for prophylaxis eligibility. An expanding bull's-eye rash with fever, or facial drooping, needs in-person evaluation."
+    "quickAnswer": "Yes, adults (18+) in {state} with a recent tick bite can be evaluated online. A board-certified MD reviews your tick photo and bite timing by secure video and, per IDSA/AAN/ACR 2020 Lyme guidelines, prescribes single-dose doxycycline prophylaxis only when all high-risk criteria are met, or supportive watchful-waiting guidance otherwise. Visit price: $79 flat, no insurance required. The 72-hour window after the bite is important for prophylaxis eligibility. An expanding bull's-eye rash with fever, or facial drooping, needs in-person evaluation."
   },
   "eligibility": {
     "sectionTitle": "Tick Bite Telehealth Eligibility Checklist for {state}",
@@ -108,7 +108,7 @@
     "rows": [
       {
         "option": "TeleDirectMD",
-        "cost": "Self pay option starting at $79",
+        "cost": "Flat $79 self-pay option",
         "wait": "Same day, often within hours",
         "provider": "Board-certified MD only (no mid-levels)",
         "bestFor": "Tick bite risk assessment within the 72-hour prophylaxis window, with photo-based evaluation and Lyme prevention guidance",
@@ -116,7 +116,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Tick still embedded needing removal, uncertain rash diagnosis, or moderate symptoms needing in-person exam",
@@ -124,7 +124,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Neurologic symptoms, cardiac involvement, tick paralysis, severe systemic illness, or anaphylaxis from tick bite",
@@ -132,7 +132,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $250+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "3 to 14 days typical",
         "provider": "Family medicine or internal medicine MD or DO",
         "bestFor": "Follow-up for Lyme disease treatment, chronic symptoms after tick-borne illness, and ongoing monitoring",
@@ -140,7 +140,7 @@
       },
       {
         "option": "Infectious Disease",
-        "cost": "$200 to $500+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks (varies)",
         "provider": "Infectious disease MD or DO",
         "bestFor": "Complicated Lyme disease, co-infections with other tick-borne pathogens, treatment failure, or persistent symptoms",
@@ -212,27 +212,9 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $250+",
-        "width": 45,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 55,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
-    "footnote": "Total cost is transparent: the $79 visit plus, if prophylaxis criteria are met, a single dose of generic doxycycline (typically low cost at most pharmacies) means most patients pay a modest total all-in — no membership, and not every tick bite requires antibiotics.",
+    "footnote": "Total cost is transparent: the visit is $79 flat, and any prescription is paid separately at the pharmacy, where prices vary by medication and pharmacy. No membership, and not every tick bite requires antibiotics.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, risk assessment, monitoring guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -326,7 +308,7 @@
         "Ascending weakness in legs",
         "Possible tick paralysis (rare, caused by tick neurotoxin)",
         "No",
-        "ER immediately — resolves after tick removal"
+        "ER immediately: resolves after tick removal"
       ]
     ]
   },
@@ -407,7 +389,7 @@
       },
       {
         "title": "Treatment if erythema migrans develops",
-        "text": "If an expanding bull's-eye rash develops 3 to 30 days after the bite, full antibiotic treatment for early Lyme disease is needed. Doxycycline 100 mg twice daily for 10 to 21 days is the standard first-line treatment. Amoxicillin 500 mg three times daily for 14 to 21 days is an alternative when doxycycline cannot be used. TeleDirectMD can initiate treatment for uncomplicated erythema migrans and will direct patients with systemic symptoms to in-person care."
+        "text": "If an expanding bull's-eye rash develops 3 to 30 days after the bite, full antibiotic treatment for early Lyme disease is needed. Doxycycline 100 mg twice daily for 10 days is the standard first-line treatment (IDSA/AAN/ACR 2020). Amoxicillin 500 mg three times daily for 14 days is an alternative when doxycycline cannot be used. TeleDirectMD can initiate treatment for uncomplicated erythema migrans and will direct patients with systemic symptoms to in-person care."
       },
       {
         "title": "Wound care for all tick bites",
@@ -441,19 +423,19 @@
       [
         "Doxycycline (early Lyme treatment)",
         "100 mg by mouth twice daily",
-        "10 to 21 days",
+        "10 days",
         "First-line treatment when erythema migrans rash develops. Also effective against co-infections such as anaplasmosis. Avoid in pregnancy. Take with food to reduce GI upset."
       ],
       [
         "Amoxicillin (early Lyme treatment)",
         "500 mg by mouth three times daily",
-        "14 to 21 days",
+        "14 days",
         "Alternative when doxycycline cannot be used (pregnancy, allergy, age under 8). Does not cover anaplasmosis co-infection."
       ],
       [
         "Cefuroxime axetil (early Lyme treatment)",
         "500 mg by mouth twice daily",
-        "14 to 21 days",
+        "14 days",
         "Second-line alternative when both doxycycline and amoxicillin cannot be used. Slightly lower efficacy data compared to first-line options."
       ],
       [
@@ -551,7 +533,7 @@
       },
       {
         "question": "How much does online tick bite treatment cost in {state}?",
-        "answer": "TeleDirectMD offers a transparent self pay option starting at $79 for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy."
+        "answer": "TeleDirectMD offers a transparent flat $79 self-pay option for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy."
       },
       {
         "question": "Why is the 72-hour window so important after a tick bite?",
@@ -575,7 +557,7 @@
       },
       {
         "question": "Does TeleDirectMD treat tick bites in other states?",
-        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states where our physicians are licensed. You must be physically located in the state where you are requesting care at the time of your video visit."
+        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states where Dr. Bhavsar is licensed. You must be physically located in the state where you are requesting care at the time of your video visit."
       },
       {
         "question": "Does {state} allow telemedicine for this kind of visit?",
@@ -587,7 +569,7 @@
       },
       {
         "question": "How much does online tick bite treatment cost without insurance in {state}?",
-        "answer": "The visit is $79 flat, no insurance required, and if single-dose doxycycline prophylaxis is appropriate, it typically adds only a small amount at the pharmacy — most patients pay well under $100 total."
+        "answer": "The visit is $79 flat, paid at booking, with no insurance required. Any prescription is paid separately at the pharmacy, and its price varies by medication and pharmacy, so ask the pharmacy for its price before you fill it."
       },
       {
         "question": "Why does the timing of my tick bite matter so much for getting antibiotics in {state}?",
@@ -619,18 +601,13 @@
     {
       "text": "Tick-Borne Diseases of the United States: A Reference Manual for Healthcare Providers, CDC",
       "url": "https://www.cdc.gov/ticks/tickbornediseases/TickborneDiseases-P.pdf"
-    },
-    {
-      "text": "Evaluation of a Clinical Decision Rule for Prophylaxis of Lyme Disease Following Tick Bites (Warshafsky et al.)",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/20455694/"
     }
   ],
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
       "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate tick bites, provide evidence-based Lyme disease risk assessment, and prescribe prophylaxis or treatment when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
-      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during suspected neurologic Lyme disease, Lyme carditis, tick paralysis, or severe systemic illness. This service is intended for straightforward tick bite evaluation and is not a substitute for comprehensive in-person evaluation when red flags are present.",
-      "Online tick bite treatment in {state}. Lyme disease prevention online. Tick bite evaluation and doxycycline prophylaxis by video visit."
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during suspected neurologic Lyme disease, Lyme carditis, tick paralysis, or severe systemic illness. This service is intended for straightforward tick bite evaluation and is not a substitute for comprehensive in-person evaluation when red flags are present."
     ]
   },
   "relatedConditions": [

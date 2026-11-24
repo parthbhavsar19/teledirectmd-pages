@@ -1,19 +1,20 @@
+import { contentDate } from '../../../lib/content-dates';
 export default function FlightAttendantsPage() {
   const baseUrl = 'https://teledirectmd.com';
   const pageUrl = `${baseUrl}/who-we-serve/flight-attendants`;
-  const today = new Date().toISOString().split('T')[0];
+  const today = contentDate('whoWeServe');
 
-  /* Accurate current footprint: 44 states + DC (includes VA, VT, and DC per current licensing). */
-  const areaServed = ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WI","WY"];
+  /* Accurate current footprint: 40+ states + DC (includes VA, VT, and DC per current licensing). */
+  const areaServed = ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NY","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WY"];
 
   /* ── Conditions to link — reframed for the cabin-crew reality ─────── */
   const conditions = [
-    { name: 'UTI / Urinary Tract Infection', slug: 'uti-treatment-online', desc: 'Long duty days and limited lavatory breaks make it easy to hold off on fluids and bathroom trips — behaviors associated with UTIs, a common complaint among cabin crew. We can send an antibiotic to a pharmacy near your layover hotel when appropriate — no hunting for an urgent care in a city you land in tonight and leave tomorrow.' },
+    { name: 'UTI (women only)', slug: 'uti-treatment-online', desc: 'Long duty days and limited lavatory breaks make it easy to hold off on fluids and bathroom trips — behaviors associated with UTIs, a common complaint among cabin crew. We can send an antibiotic to a pharmacy near your layover hotel when appropriate — no hunting for an urgent care in a city you land in tonight and leave tomorrow.' },
     { name: 'Sinus & Ear Congestion', slug: 'sinus-infection-treatment-online', desc: 'Repeated cabin pressurization cycles aggravate sinus pressure, ear blockage, and facial pain. We evaluate and treat sinus infections so you are not flying multiple pressure changes a day with an untreated blockage.' },
     { name: 'Prescription Refills', slug: 'hypertension-refills-online', desc: 'When you are almost never in your home city during pharmacy or clinic hours, refills lapse. We review your history and route blood-pressure, thyroid, asthma, reflux, and allergy refills to any U.S. pharmacy near your current position. No controlled substances.' },
     { name: 'Motion Sickness & Nausea', slug: 'travel-medicine-treatment-online', desc: 'Turbulence-heavy rotations, back-of-the-clock flying, and rough approaches trigger nausea. We counsel on and prescribe non-controlled motion-sickness options where appropriate as part of our travel-medicine service.' },
     { name: "Traveler's Diarrhea (standby)", slug: 'travel-medicine-treatment-online', desc: 'International layovers and unfamiliar food and water are a recurring problem. We can provide standby antibiotic therapy guidance for traveler\u2019s diarrhea before a trip so you are not sick and stranded on a turn.' },
-    { name: "Women's Health", slug: 'bacterial-vaginosis-treatment-online', desc: 'BV, yeast infections, and birth-control refills are difficult to manage on a schedule that keeps you out of your home city for days at a time. We handle these by secure video without an in-person visit where clinically appropriate.' },
+    { name: "Women's Health", slug: 'bv-treatment-online', desc: 'BV, yeast infections, and birth-control refills are difficult to manage on a schedule that keeps you out of your home city for days at a time. We handle these by secure video without an in-person visit where clinically appropriate.' },
     { name: 'Seasonal Allergies', slug: 'seasonal-allergies-treatment-online', desc: 'A different base, a different city, and a different pollen season every few days. We evaluate and prescribe allergy treatment that works regardless of where this week\u2019s rotation takes you.' },
     { name: 'Skin, Bites & Rashes', slug: 'contact-dermatitis-treatment-online', desc: 'Hotel-room bites, contact rashes, and sun exposure from high-altitude UV are common. Send a photo, get evaluated, and get a prescription to a pharmacy near your hotel.' },
   ];
@@ -33,7 +34,7 @@ export default function FlightAttendantsPage() {
   const faqItems = [
     {
       q: 'Can I see a doctor from my layover hotel?',
-      a: 'Yes. As long as you are physically located in one of the 44 states or Washington, D.C. where TeleDirectMD is licensed at the time of your visit, you can connect by secure video from your hotel room, the crew lounge, or anywhere with a signal. You do not need to be a resident of that state \u2014 only physically present in it during the visit. This is the entire reason cabin crew use TeleDirectMD: you are rarely in your home city when a clinic is open, but you are almost always in a covered state during a layover. Tell us where you are landing and we will confirm eligibility before you book.'
+      a: 'Yes. As long as you are physically located in one of the 40+ states or Washington, D.C. where TeleDirectMD is licensed at the time of your visit, you can connect by secure video from your hotel room, the crew lounge, or anywhere with a signal. You do not need to be a resident of that state \u2014 only physically present in it during the visit. This is the entire reason cabin crew use TeleDirectMD: you are rarely in your home city when a clinic is open, but you are almost always in a covered state during a layover. Tell us where you are landing and we will confirm eligibility before you book.'
     },
     {
       q: 'Do you provide FAA medical certificates or fitness-to-fly clearance?',
@@ -53,7 +54,7 @@ export default function FlightAttendantsPage() {
     },
     {
       q: 'Do I need insurance, and what does it cost?',
-      a: 'No insurance is required. TeleDirectMD uses transparent cash-pay pricing at $79 per visit, and you know the price before you book \u2014 no surprise bills. Many crew members have employer coverage, but it is often impractical on the road: a network that varies by state, a high deductible, or the simple fact that you cannot get to an in-network clinic while you are on a three-day trip. We accept credit and debit cards, HSA, and FSA. For the off-hours, layover, reserve, and part-time gaps this service is built for, a flat $79 is usually the fastest and most predictable option.'
+      a: 'No insurance is required. TeleDirectMD uses transparent cash-pay pricing at $79 per visit, and you know the price before you book \u2014 no hidden fees. Many crew members have employer coverage, but it is often impractical on the road: a network that varies by state, a high deductible, or the simple fact that you cannot get to an in-network clinic while you are on a three-day trip. We accept credit and debit cards, HSA, and FSA. For the off-hours, layover, reserve, and part-time gaps this service is built for, a flat $79 is usually the fastest and most predictable option.'
     },
     {
       q: 'Will this compete with the free clinic or virtual care my airline already gives me?',
@@ -61,7 +62,7 @@ export default function FlightAttendantsPage() {
     },
     {
       q: 'What conditions can you treat, and what falls outside telehealth?',
-      a: 'We treat more than 60 non-emergency adult conditions by video \u2014 acute infections such as UTIs, sinus infections, and pink eye; women\u2019s health concerns; skin issues; travel-medicine needs such as motion sickness and standby therapy for traveler\u2019s diarrhea; and refills of non-controlled maintenance medications. We do not treat emergencies, do not prescribe controlled substances, and do not issue FAA medical certificates. Conditions that require an in-person exam, imaging, or lab testing \u2014 or any red-flag symptom \u2014 will be triaged and referred to appropriate local care rather than forced into a video visit.'
+      a: 'We treat more than 60 non-emergency adult conditions by video \u2014 acute infections such as UTIs (women only), sinus infections, and pink eye; women\u2019s health concerns; skin issues; travel-medicine needs such as motion sickness and standby therapy for traveler\u2019s diarrhea; and refills of non-controlled maintenance medications. We do not treat emergencies, do not prescribe controlled substances, and do not issue FAA medical certificates. Conditions that require an in-person exam, imaging, or lab testing \u2014 or any red-flag symptom \u2014 will be triaged and referred to appropriate local care rather than forced into a video visit.'
     },
   ];
 
@@ -93,7 +94,7 @@ export default function FlightAttendantsPage() {
       },
       {
         "@type": "Physician",
-        "@id": `${baseUrl}/about#physician`,
+        "@id": `${baseUrl}/about/#physician`,
         "name": "Parth Bhavsar, MD",
         "medicalSpecialty": "FamilyMedicine",
         "worksFor": {
@@ -119,10 +120,10 @@ export default function FlightAttendantsPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Telehealth for Flight Attendants: See a Doctor on Your Layover",
-        "description": "TeleDirectMD provides telehealth for flight attendants and cabin crew across 44 states plus D.C. \u2014 UTIs, sinus and ear issues, prescription refills, women's health, and travel medicine, treated by a board-certified physician from your layover hotel. Not for FAA certificates or in-flight emergencies. Same-day visits, evenings & weekends. Starting at $79.",
+        "description": "TeleDirectMD provides telehealth for flight attendants and cabin crew across 40+ states plus D.C. \u2014 UTIs (women only), sinus and ear issues, prescription refills, women's health, and travel medicine, treated by a board-certified physician from your layover hotel. Not for FAA certificates or in-flight emergencies. Same-day visits, evenings & weekends. Flat $79.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
-        "author": { "@id": `${baseUrl}/about#physician` },
+        "author": { "@id": `${baseUrl}/about/#physician` },
         "datePublished": today,
         "dateModified": today,
         "publisher": {
@@ -155,7 +156,7 @@ export default function FlightAttendantsPage() {
         <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: '0' }}>
           <a href="/">Home</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <a href="/who-we-serve">Who We Serve</a>
+          <a href="/who-we-serve/">Who We Serve</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
           <span aria-current="page">Flight Attendants</span>
         </div>
@@ -167,24 +168,24 @@ export default function FlightAttendantsPage() {
           <div className="tdmd-hero-grid">
             <div className="tdmd-hero-copy">
               <h1>Telehealth for Flight Attendants: See a Doctor on Your Layover</h1>
-              <p className="tdmd-hero-sub">A board-certified physician you can reach from your hotel room, in 44 states plus D.C. UTIs, sinus infections, refills, and travel medicine &mdash; same-day, evenings &amp; weekends. Not for FAA certificates or in-flight emergencies.</p>
+              <p className="tdmd-hero-sub">A board-certified physician you can reach from your hotel room, in 40+ states plus D.C. UTIs (women only), sinus infections, refills, and travel medicine &mdash; same-day, evenings &amp; weekends. Not for FAA certificates or in-flight emergencies.</p>
               <p>
                 Cabin crew are among the hardest-working people in the country to keep healthy &mdash; not because they neglect it, but because the job makes ordinary care nearly impossible to reach. You are rarely in your home city when a clinic or pharmacy is open. Reserve and on-call assignments make it impossible to plan an appointment. Long duty days, restricted lavatory breaks, and dry cabin air drive recurrent UTIs. Repeated pressurization aggravates sinuses and ears. And when something comes up on a layover, the alternative is finding an unfamiliar urgent care in a city you land in tonight and leave tomorrow. TeleDirectMD was built for exactly this: a real physician you can reach by secure video from your hotel, wherever this rotation has taken you.
               </p>
               <ul className="tdmd-hero-benefits">
                 <li>Board-certified Family Medicine physician &mdash; not a PA, not an NP, not an algorithm</li>
-                <li>Licensed in 44 states plus D.C. &mdash; care from nearly any layover or base</li>
+                <li>Licensed in 40+ states plus D.C. &mdash; care from nearly any layover or base</li>
                 <li>Prescriptions to any pharmacy near your hotel &mdash; no controlled substances</li>
                 <li>Same-day visits, evenings &amp; weekends &mdash; built around back-of-the-clock schedules</li>
-                <li>Transparent $79 cash-pay &mdash; no insurance required, no surprise bills</li>
+                <li>Transparent $79 cash-pay &mdash; no insurance required, no hidden fees</li>
               </ul>
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
               </div>
               <p className="tdmd-reviewed">
                 Last reviewed on {today} by{' '}
-                <a className="tdmd-author-link" href="/about" aria-label="About Parth Bhavsar, MD">
+                <a className="tdmd-author-link" href="/about/" aria-label="About Parth Bhavsar, MD">
                   Parth Bhavsar, MD
                 </a>
               </p>
@@ -239,10 +240,10 @@ export default function FlightAttendantsPage() {
             <div className="tdmd-card tdmd-card-good">
               <h3>What we do</h3>
               <ul style={{ margin: 0, paddingLeft: '1.1rem' }}>
-                <li>Treat non-emergency conditions by secure video &mdash; UTIs, sinus and ear issues, women&rsquo;s health, skin problems, allergies</li>
+                <li>Treat non-emergency conditions by secure video &mdash; UTIs (women only), sinus and ear issues, women&rsquo;s health, skin problems, allergies</li>
                 <li>Refill non-controlled maintenance medications to any U.S. pharmacy near you</li>
                 <li>Provide travel-medicine care such as motion sickness and standby therapy for traveler&rsquo;s diarrhea</li>
-                <li>See you from any of 44 states plus D.C., same-day, evenings and weekends</li>
+                <li>See you from any of 40+ states plus D.C., same-day, evenings and weekends</li>
               </ul>
             </div>
             <div className="tdmd-card tdmd-card-bad">
@@ -272,7 +273,7 @@ export default function FlightAttendantsPage() {
             {conditions.map((c) => (
               <a
                 key={c.name}
-                href={`/${c.slug}`}
+                href={`/${c.slug}/`}
                 className="tdmd-card"
                 style={{ textDecoration: 'none', color: 'var(--tdmd-text)', borderLeft: '4px solid var(--tdmd-teal)' }}
               >
@@ -282,7 +283,7 @@ export default function FlightAttendantsPage() {
             ))}
           </div>
           <div style={{ marginTop: '1.25rem' }}>
-            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All 60+ Conditions We Treat</a>
+            <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All 60+ Conditions We Treat</a>
           </div>
         </div>
       </section>
@@ -313,7 +314,7 @@ export default function FlightAttendantsPage() {
                 <h3>Get Treated &mdash; Rx to Any Pharmacy</h3>
                 <p>If medication is appropriate, we send it electronically to any U.S. pharmacy &mdash; including the one nearest your hotel. Pick it up and get your rest before the next duty day.</p>
                 <div className="tdmd-decision-cta">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit Now</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit Now</a>
                 </div>
               </div>
             </div>
@@ -324,7 +325,7 @@ export default function FlightAttendantsPage() {
       {/* ── 6. Pricing ──────────────────────────────────────────── */}
       <section className="tdmd-section" id="flight-attendants-pricing">
         <div className="tdmd-container">
-          <h2>Transparent Pricing &mdash; No Surprise Bills</h2>
+          <h2>Transparent Pricing &mdash; No Hidden Fees</h2>
           <p>For the layover, reserve, and off-hours gaps this service fills, a flat cash-pay visit is usually the fastest and most predictable option &mdash; no navigating an out-of-state network from a hotel. You know the price before you book.</p>
           <div className="tdmd-price-grid">
             <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
@@ -334,7 +335,7 @@ export default function FlightAttendantsPage() {
               <ul className="tdmd-price-includes">
                 <li>Board-certified Family Medicine physician consultation</li>
                 <li>Prescriptions sent to any U.S. pharmacy</li>
-                <li>No hidden fees or surprise billing</li>
+                <li>No hidden fees</li>
                 <li>HSA and FSA accepted</li>
                 <li>Itemized receipt for reimbursement</li>
               </ul>
@@ -369,11 +370,11 @@ export default function FlightAttendantsPage() {
         <div className="tdmd-container">
           <h2>Who You&rsquo;re Seeing &mdash; A Real Physician</h2>
           <p>
-            When you visit TeleDirectMD you are seeing a licensed, board-certified physician &mdash; not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is board-certified in Family Medicine and licensed across 44 states plus Washington, D.C. You get the same standard of care you would expect from an established primary-care physician &mdash; reachable from wherever your schedule has put you tonight.
+            When you visit TeleDirectMD you are seeing a licensed, board-certified physician &mdash; not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about/" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is board-certified in Family Medicine and licensed across 40+ states plus Washington, D.C. You get the same standard of care you would expect from an established primary-care physician &mdash; reachable from wherever your schedule has put you tonight.
           </p>
           <ul className="tdmd-hero-benefits">
             <li>Board-certified in Family Medicine &mdash; a real physician, not a PA or NP</li>
-            <li>Licensed in 44 states plus D.C. &mdash; care across nearly any layover or base</li>
+            <li>Licensed in 40+ states plus D.C. &mdash; care across nearly any layover or base</li>
             <li>HIPAA-compliant platform &mdash; encrypted visits, secure records</li>
             <li>LegitScript certified &mdash; a recognized mark of telehealth compliance</li>
             <li>TeleDirectMD does not sell or share your health information</li>
@@ -388,9 +389,9 @@ export default function FlightAttendantsPage() {
       <section className="tdmd-section tdmd-faq" id="flight-attendants-faq">
         <div className="tdmd-container">
           <h2>Frequently Asked Questions &mdash; Telehealth for Flight Attendants</h2>
-          <div className="tdmd-faq-list" role="list">
+          <div className="tdmd-faq-list">
             {faqItems.map((item, i) => (
-              <details key={i} className="tdmd-faq-item" role="listitem">
+              <details key={i} className="tdmd-faq-item">
                 <summary className="tdmd-faq-question">{item.q}</summary>
                 <div className="tdmd-faq-answer">
                   <p>{item.a}</p>
@@ -406,12 +407,12 @@ export default function FlightAttendantsPage() {
         <div className="tdmd-container">
           <div className="tdmd-bottom-cta">
             <div className="tdmd-bottom-cta-copy">
-              <h3>A doctor you can reach from your hotel. 44 states plus D.C.</h3>
+              <h3>A doctor you can reach from your hotel. 40+ states plus D.C.</h3>
               <p>Request a same-day visit, connect with a board-certified physician by secure video, and get a prescription sent to the pharmacy nearest your layover &mdash; before the next duty day.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-              <a href="/who-we-serve" className="tdmd-btn tdmd-btn-outline">Who We Serve</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+              <a href="/who-we-serve/" className="tdmd-btn tdmd-btn-outline">Who We Serve</a>
             </div>
           </div>
         </div>
@@ -421,16 +422,16 @@ export default function FlightAttendantsPage() {
       <section className="tdmd-section" id="flight-attendants-bases">
         <div className="tdmd-container">
           <h2>Telehealth for Flight Attendants &mdash; Available Across Crew Base States</h2>
-          <p>TeleDirectMD is licensed in 44 states plus D.C., including the states behind the busiest crew bases and layover cities. As long as you are physically present in a covered state during your visit, we can see you:</p>
+          <p>TeleDirectMD is licensed in 40+ states plus D.C., including the states behind the busiest crew bases and layover cities. As long as you are physically present in a covered state during your visit, we can see you:</p>
           <div className="tdmd-other-states-grid">
             {featuredBases.map((s) => (
-              <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}`}>
+              <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}/`}>
                 {s.name}
               </a>
             ))}
           </div>
           <p style={{ marginTop: '0.75rem' }}>
-            <a href="/states-we-serve" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>View all states we serve &rarr;</a>
+            <a href="/states-we-serve/" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>View all states we serve &rarr;</a>
           </p>
         </div>
       </section>
@@ -449,11 +450,11 @@ export default function FlightAttendantsPage() {
           <div className="tdmd-inline-links" style={{ marginTop: '1rem' }}>
             <h3>Other Communities We Serve</h3>
             <p className="tdmd-link-cloud">
-              <a href="/who-we-serve/travel-nurses">Travel Nurses</a>
-              <a href="/who-we-serve/truck-drivers">Truck Drivers</a>
-              <a href="/who-we-serve/remote-workers">Remote Workers</a>
-              <a href="/who-we-serve/international-visitors">International Visitors</a>
-              <a href="/who-we-serve">Who We Serve Hub</a>
+              <a href="/who-we-serve/travel-nurses/">Travel Nurses</a>
+              <a href="/who-we-serve/truck-drivers/">Truck Drivers</a>
+              <a href="/who-we-serve/remote-workers/">Remote Workers</a>
+              <a href="/who-we-serve/international-visitors/">International Visitors</a>
+              <a href="/who-we-serve/">Who We Serve Hub</a>
             </p>
           </div>
         </div>
@@ -469,8 +470,8 @@ export default function FlightAttendantsPage() {
             <li><a href="https://wwwnc.cdc.gov/travel/yellowbook/2024/preparing-international-travelers/travelers-diarrhea" rel="nofollow noopener" target="_blank">Travelers&rsquo; Diarrhea &mdash; CDC Yellow Book</a></li>
             <li><a href="https://www.idsociety.org/practice-guideline/uncomplicated-cystitis-and-pyelonephritis-uti/" rel="nofollow noopener" target="_blank">Uncomplicated UTI Treatment Guideline &mdash; Infectious Diseases Society of America (IDSA)</a></li>
             <li><a href="https://www.cdc.gov/niosh/topics/aircrew/" rel="nofollow noopener" target="_blank">Aircrew Safety &amp; Health &mdash; NIOSH / CDC</a></li>
-            <li><a href="https://www.pennmedicine.org/news/news-releases/2019/december/study-finds-telemedicine-visits-cost-far-less-than-office-visits" rel="nofollow noopener" target="_blank">Study finds telemedicine visits cost far less than office visits &mdash; Penn Medicine</a></li>
-            <li><a href="https://www.goodrx.com/healthcare-access/telehealth/how-much-does-a-telehealth-visit-cost" rel="nofollow noopener" target="_blank">How Much Does a Telehealth Visit Cost? &mdash; GoodRx</a></li>
+            <li><a href="https://www.pennmedicine.org/news/study-finds-telemedicine-visits-cost-far-less-than-office-visits" rel="nofollow noopener" target="_blank">Study finds telemedicine visits cost far less than office visits &mdash; Penn Medicine</a></li>
+            <li><a href="https://www.goodrx.com/healthcare-access/telehealth/how-much-does-telehealth-cost" rel="nofollow noopener" target="_blank">How Much Does a Telehealth Visit Cost? &mdash; GoodRx</a></li>
           </ul>
         </div>
       </section>

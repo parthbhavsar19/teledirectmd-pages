@@ -1,0 +1,864 @@
+{
+  "guide": "pink-eye-in-children-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 8 verified (10.3390/children10050808, 10.1097/01.inf.0000178066.24569.98, 10.1177/1357633X18793031, 10.1177/00099228221106554, 10.1089/jop.2024.0110, 10.1177/1120672119885050, 10.56920/cehj.10, 10.1097/00006454-200111000-00007), 1 could not verify (Bodor 1989, no DOI; PubMed record resolves, article type Journal Article), retractions: none; no editorial notices; no contrasting evidence flagged for cited papers. PubMed article types checked: no Retracted Publication or Retraction Notice.",
+  "references": [
+    {
+      "n": 1,
+      "kind": "journal",
+      "cited_as": "Mahoney MJ, Bekibele R, Notermann SL, Reuter TG, Borman-Shoap EC. Pediatric Conjunctivitis: A Review of Clinical Manifestations, Diagnosis, and Management. Children (Basel). 2023;10(5):808. doi:10.3390/children10050808 PMID: 37238356.",
+      "url": "https://doi.org/10.3390/children10050808",
+      "pmid": "37238356",
+      "pmcid": "PMC10217501",
+      "doi": "10.3390/children10050808",
+      "record_title": "Pediatric Conjunctivitis: A Review of Clinical Manifestations, Diagnosis, and Management.",
+      "record_journal": "Children (Basel)",
+      "record_year": "2023",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata and get_full_text_article (PMC10217501); WebFetch of MDPI full text (mdpi.com/2227-9067/10/5/808) for organism names stripped from PMC text; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Review cites the 2022 meta-analysis (70% bacterial in children, 16% adults), the 2003 meta-analysis, the Finnish trial and the AAP statement; primary sources for those were not retrieved, so the page attributes them to the review. The 35% serous-discharge figure is from adults, now stated as such.",
+      "claims": [
+        {
+          "text": "more than 50% of pediatric conjunctivitis is bacterial",
+          "quote": "Acute bacterial conjunctivitis is common in children, with more than 50% of conjunctivitis cases being bacterial in origin",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "2022 meta-analysis: up to 70% bacterial in children, about 16% in adults",
+          "quote": "with as many as 70% of conjunctivitis cases in children. The same meta-analysis found that adults presenting with acute conjunctivitis had an identified bacterial etiology much less often, only about 16% of the time.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "H. influenzae (most often non-typeable) most common, up to 70%; S. pneumoniae, M. catarrhalis common",
+          "quote": "Common pathogens include Haemophilus influenzae, Streptococcus pneumoniae, and Moraxella catarrhalis. ... remains the most common cause of bacterial conjunctivitis, present in up to 70% of cases",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "bacterial usually clears in 7 to 10 days without treatment",
+          "quote": "The vast majority of cases of bacterial conjunctivitis are self-limiting, lasting 7 to 10 days without treatment.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "one trial: 4.0 vs 3.8 days; 8% adverse reactions; acquired resistance in children",
+          "quote": "from a mean of 4.0 days with a placebo to a mean of 3.8 days with moxifloxacin treatment []. Antibiotics are not without risk, with adverse drug reactions reported by 8% of patients using ophthalmic antibiotics",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "acquired resistance in conjunctival bacteria of children prescribed antibiotics; no difference in sight-threatening outcomes",
+          "quote": "studies have shown acquired resistance to pathogenic bacteria in the conjunctiva of children prescribed antibiotics ... no differences in sight threatening outcomes have been observed between treatment and non-treatment groups",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "meta-analysis of 11 RCTs, 3,673 patients, 10% increase in clinical improvement",
+          "quote": "In a meta-analysis consisting of 11 randomized clinical trials and 3673 patients, there was a 10% increase in the rate of clinical improvement for patients who received early antibiotic treatment",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "no treatment, delayed treatment, immediate treatment all appropriate",
+          "quote": "no treatment, a delayed treatment approach, and immediate treatment all are appropriate responses to suspected uncomplicated bacterial conjunctivitis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Colorado study: drivers of the decision",
+          "quote": "the main drivers behind choosing to prescribe or withhold antibiotics were the patient’s clinical presentation, family expectations, antibiotic stewardship concerns, diagnostic uncertainty, and daycare and school policies",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "families often say antibiotics are needed for return to school or daycare",
+          "quote": "In many cases, families will assert that treatment with antibiotics is necessary for their child to return to school or daycare",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "AAP notes antibiotics should not be required for return to care",
+          "quote": "the American Academy of Pediatrics specifically notes that antibiotics should not be required for return to care",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "start with erythromycin ointment or trimethoprim-polymyxin B drops; improvement in 1 to 2 days",
+          "quote": "If treatment is desired, initial treatment would begin with erythromycin ointment or trimethoprim-polymyxin B ophthalmic drops. Symptoms would be expected to improve within one to two days.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "antibiotics indicated on an individual basis",
+          "quote": "antibiotics are indicated on an individual basis for cases of bacterial conjunctivitis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "2003 meta-analysis: no diagnostic usefulness of signs; adults with culture-positive bacterial conjunctivitis: 35% serous or no discharge",
+          "quote": "A multi-center study of adults with bacterial conjunctivitis demonstrated that the symptoms can widely vary. Of those patients with positive bacterial cultures, 65% had burning, 58% had itching, and 35% had serous or no discharge",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "bacterial: yellow-green purulent discharge, mattered eyelids in morning, one or both eyes",
+          "quote": "significant mucopurulent discharge, frequently yellow to green in color. Patients with acute bacterial conjunctivitis often complain of eyes that are mattered and adhered in the morning",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "viral: adenovirus, gritty, watery discharge, spreads to other eye within 24 to 48 h, prodrome, highly contagious",
+          "quote": "Presentation often consists of a burning or gritty feeling with watery discharge. This typically has an abrupt onset, starts with one eye, and infects the other eye within 24 to 48 h.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "adenoviral conjunctivitis highly contagious; symptomatic treatment with cool compresses and artificial tears",
+          "quote": "primarily symptomatic through the use of cool compresses and lubricating artificial tears. Adenoviral conjunctivitis is generally self-limited and highly contagious.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "46% of 26 adults had adenovirus from hand swabs",
+          "quote": "a study of 26 adults with conjunctivitis showed that 46% had positive adenovirus cultures grown from swabs of their hands",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "minimize contact with others for 10 to 14 days from symptom onset",
+          "quote": "Patients should be encouraged to make every attempt to minimize contact with others for 10 to 14 days from symptom onset",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "allergic: about 1 in 5 children, peak late childhood to adolescence, most common ocular complaint",
+          "quote": "This occurs in approximately 1 in 5 children, with a peak age from late childhood to adolescence []. In fact, allergic conjunctivitis is the most common ocular complaint to the pediatric healthcare provider",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "allergic: bilateral itching, seasonal, nasal congestion or sneezing; pollen, dander, dust, molds; IgE",
+          "quote": "The key differentiating factor is itching, sometimes occurring with other atopic symptoms such as nasal congestion, cough, or sneezing.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "allergic treatment: lubricants, second-generation antihistamines, azelastine/olopatadine, steroids 7 days or less, systemic antihistamines",
+          "quote": "Mild allergic conjunctivitis can be treated with topical antihistamine agents, preferably second generation topical H1-receptor antagonists ... topical steroids should only be used in a time-limited fashion, limited to 7 days or less.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "red flags: moderate to severe pain, vision loss, constant blurred vision, photophobia (vision changes, severe pain)",
+          "quote": "Symptoms that should prompt further evaluation include moderate to severe pain, vision loss, constant blurred vision, and severe purulent discharge. Photophobia should also prompt further evaluation",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "recurrent symptoms prompt referral",
+          "quote": "referral should be considered for those with symptoms lasting more than 7 to 10 days, recurrent symptoms, or who do not respond to treatment.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "contact lens wearer: refer to rule out corneal ulcer; keratitis risk",
+          "quote": "Patients who wear contact lenses should always be treated, encouraged to discontinue lens wear, and referred for a slit lamp exam to rule out a contact lens-related corneal ulcer.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "trauma/foreign body: complete eye exam; high-velocity injuries in adolescent males; nearly half wood, sand, dust",
+          "quote": "Nearly half of eye foreign bodies in pediatric patients are due to wood, sand, and dust and high velocity injuries from BB, paintball, and airsoft guns are especially common in adolescent males",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "neonatal: Chlamydia trachomatis about 40%, N. gonorrhoeae, HSV",
+          "quote": "with Chlamydia trachomatis causing the majority of cases (approximately 40% of total cases ... Neisseria gonorrhoeae is another cause of bacterial conjunctivitis ... primarily caused by the herpes simplex virus (HSV)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "congenital nasolacrimal duct obstruction in about 20% of infants, mimics neonatal conjunctivitis",
+          "quote": "Another cause of eye drainage that can mimic neonatal conjunctivitis is congenital nasolacrimal duct obstruction. ... It is a common presentation and is present in around 20% of infants",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Buznach N, Dagan R, Greenberg D. Clinical and bacterial characteristics of acute bacterial conjunctivitis in children in the antibiotic resistance era. Pediatr Infect Dis J. 2005;24(9):823-828. doi:10.1097/01.inf.0000178066.24569.98 PMID: 16148850.",
+      "url": "https://doi.org/10.1097/01.inf.0000178066.24569.98",
+      "pmid": "16148850",
+      "doi": "10.1097/01.inf.0000178066.24569.98",
+      "record_title": "Clinical and bacterial characteristics of acute bacterial conjunctivitis in children in the antibiotic resistance era.",
+      "record_journal": "Pediatr Infect Dis J",
+      "record_year": "2005",
+      "article_type": "Journal Article (prospective cohort)",
+      "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Replaces Pichichero 2011 (former ref 2), whose full text and abstract could not be retrieved (PubMed: abstract not available; Scite read_fulltext: no readable text; doi.org fetch failed). Abstract only; claims limited to the abstract.",
+      "claims": [
+        {
+          "text": "32% of children 2 to 36 months with conjunctivitis had conjunctivitis-otitis syndrome; 428 enrolled",
+          "quote": "There were 428 patients enrolled. ... Conjunctivitis-otitis syndrome was found in 32% of patients, of whom 82% of cultures yielded H. influenzae.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "H. influenzae and S. pneumoniae main isolates in children 2 to 36 months",
+          "quote": "conjunctival swabs of children 2-36 months old were collected prospectively. ... H. influenzae and S. pneumoniae were isolated from 29 and 20% of cultures, respectively.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "29% of H. influenzae produced beta-lactamase; 60% of S. pneumoniae penicillin-nonsusceptible",
+          "quote": "beta-Lactamase production was found in 29% of H. influenzae isolates, and penicillin nonsusceptibility was observed in 60% of S. pneumoniae isolates.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "journal",
+      "cited_as": "Penza KS, Murray MA, Myers JF, Maxson J, Furst JW, Pecina JL. Treating pediatric conjunctivitis without an exam: An evaluation of outcomes and antibiotic usage. J Telemed Telecare. 2020;26(1-2):73-78. doi:10.1177/1357633X18793031 PMID: 30153768.",
+      "url": "https://doi.org/10.1177/1357633X18793031",
+      "pmid": "30153768",
+      "doi": "10.1177/1357633X18793031",
+      "record_title": "Treating pediatric conjunctivitis without an exam: An evaluation of outcomes and antibiotic usage.",
+      "record_journal": "J Telemed Telecare",
+      "record_year": "2020 (epub 2018)",
+      "article_type": "Journal Article (retrospective chart review)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Abstract does not mention photographs; \"with photographs\" removed. Authors are Mayo Clinic affiliated; patients in Minnesota.",
+      "claims": [
+        {
+          "text": "prescribing 41.6% phone, 25.7% eVisit, 19.8% face-to-face retail clinic",
+          "quote": "Treatment rates with antibiotics were significantly higher in phone call encounters (41.6%) than in eVisits (25.7%) or face-to-face encounters (19.8%)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "eVisits not significantly different from face-to-face; phone calls higher",
+          "quote": "Antibiotic prescribing is greater with phone call triage encounters; however, there was no significant difference in antibiotic prescribing rates between eVisits and face-to-face visits.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Mannix MK, Vandehei T, Ulrich E, Black TA, Wrotniak B, Islam S. Pediatric Antibiotic Prescribing and Utilization Practices for RTIs at Private Urgent Care Centers. Clin Pediatr (Phila). 2022;61(12):830-839. doi:10.1177/00099228221106554 PMID: 35762069.",
+      "url": "https://doi.org/10.1177/00099228221106554",
+      "pmid": "35762069",
+      "doi": "10.1177/00099228221106554",
+      "record_title": "Pediatric Antibiotic Prescribing and Utilization Practices for RTIs at Private Urgent Care Centers.",
+      "record_journal": "Clin Pediatr (Phila)",
+      "record_year": "2022",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Study covers respiratory tract infections, not conjunctivitis; page now says so.",
+      "claims": [
+        {
+          "text": "82% vs 59% guideline adherence for bacterial RTIs at pediatric vs nonpediatric urgent care",
+          "quote": "Across all bacterial RTIs, 82% of encounters at the pediatric UCC were guideline-adherent versus 59% at nonpediatric UCCs",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Putri LR, Edwar L. Corticosteroid as Treatment in Infective Conjunctivitis: A Systematic Literature Review and Meta-Analysis. J Ocul Pharmacol Ther. 2025;41(4):187-198. doi:10.1089/jop.2024.0110 PMID: 40059644.",
+      "url": "https://doi.org/10.1089/jop.2024.0110",
+      "pmid": "40059644",
+      "doi": "10.1089/jop.2024.0110",
+      "record_title": "Corticosteroid as Treatment in Infective Conjunctivitis: A Systematic Literature Review and Meta-Analysis.",
+      "record_journal": "J Ocul Pharmacol Ther",
+      "record_year": "2025",
+      "article_type": "Systematic Review; Meta-Analysis",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "10 trials; better clinical resolution with dexamethasone-containing therapy, OR 1.51 (1.19 to 1.92)",
+          "quote": "We found ten clinical trials that met the inclusion criteria. Overall meta-analysis revealed significant clinical resolution in dexamethasone-containing therapy compared to non-corticosteroid treatment (OR 1.51; 95% CI 1.19-1.92)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "no difference in ocular adverse effects, OR 1.33 (0.82 to 2.16)",
+          "quote": "Meta-analysis indicated no difference in ocular adverse effects compared to nonsteroid therapy (OR 1.33; 95% CI 0.82-2.16).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "journal",
+      "cited_as": "Musleh MG, Bokre D, Dahlmann-Noor AH. Risk of intraocular pressure elevation after topical steroids in children and adults: A systematic review. Eur J Ophthalmol. 2020;30(5):856-866. doi:10.1177/1120672119885050 PMID: 31668084.",
+      "url": "https://doi.org/10.1177/1120672119885050",
+      "pmid": "31668084",
+      "doi": "10.1177/1120672119885050",
+      "record_title": "Risk of intraocular pressure elevation after topical steroids in children and adults: A systematic review.",
+      "record_journal": "Eur J Ophthalmol",
+      "record_year": "2020 (epub 2019)",
+      "article_type": "Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Cataract risk is not in this abstract; \"cataract\" removed from the page.",
+      "claims": [
+        {
+          "text": "topical steroids may raise IOP; risk may increase with prolonged use and young age",
+          "quote": "Topical steroids may induce a rise in intraocular pressure. The risk may increase with prolonged use, high frequency of administration, young age",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. About Pink Eye. Updated April 15, 2024. Accessed November 15, 2026. cdc.gov",
+      "url": "https://www.cdc.gov/conjunctivitis/about/index.html",
+      "version_or_date": "Updated April 15, 2024; reviewed April 15, 2024",
+      "retrieved_with": "Monid firecrawl /scrape of official page (full markdown)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "newborns with pink eye symptoms should be seen by a doctor right away",
+          "quote": "Anyone can get pink eye. However, newborns with symptoms of pink eye should be seen by a doctor right away.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "CDC return to school guidance (quoted verbatim on page)",
+          "quote": "If you don't have fever or other symptoms, you may be allowed to return with your doctor's approval. You should not attend if you still have symptoms, and if your work or school activities involve close contact with others.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. How to Treat Pink Eye. Updated April 15, 2024. Accessed November 15, 2026. cdc.gov",
+      "url": "https://www.cdc.gov/conjunctivitis/treatment/index.html",
+      "version_or_date": "Updated April 15, 2024; reviewed April 15, 2024",
+      "retrieved_with": "Monid firecrawl /scrape of official page (full markdown)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "see a provider: eye pain, light sensitivity, blurred vision",
+          "quote": "See a healthcare provider if you have pink eye along with any of the following: Eye pain Light sensitivity Blurred vision that does not improve when discharge is wiped from the eyes",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "see a provider if bacterial pink eye not improved after 24 hours of antibiotics, or symptoms worse",
+          "quote": "Symptoms that get worse or do not improve If you have bacterial pink eye which does not improve after 24 hours of antibiotic use",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "viral usually clears in 7 to 14 days; some 2 to 3 weeks or more",
+          "quote": "It usually clears up in 7 to 14 days without treatment and without any long-term consequences. However, in some cases, viral conjunctivitis can take 2 to 3 weeks or more to clear up.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "antibiotics will not improve viral pink eye",
+          "quote": "Antibiotics will NOT improve viral pink eye; these drugs are not effective against viruses.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "antivirals for HSV conjunctivitis",
+          "quote": "A doctor can prescribe antiviral medication to treat more serious forms of pink eye (like infection caused by herpes simplex virus or varicella-zoster virus).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Clinical Overview of Pink Eye (Conjunctivitis). Updated April 15, 2024. Accessed November 15, 2026. cdc.gov",
+      "url": "https://www.cdc.gov/conjunctivitis/hcp/clinical-overview/index.html",
+      "version_or_date": "Updated April 15, 2024 (page republished March 23, 2026)",
+      "retrieved_with": "Monid firecrawl /scrape of official page (full markdown)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "infected students should not attend school if they cannot avoid close contact (quoted verbatim)",
+          "quote": "Infected students should not attend school if they cannot avoid close contact with others.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "contact lens wearers: bacterial keratitis risk, promptly evaluated by ophthalmologist",
+          "quote": "Contact lens wearers with bacterial conjunctivitis are at higher risk of bacterial keratitis. They should be asked to remove their contact lenses; treated with topical antibiotics; and promptly evaluated by an ophthalmologist.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "viral causes include adenovirus, HSV, VZV",
+          "quote": "Adenoviruses (one of the most common causes) ... Herpesviruses, including Herpes simplex virus Varicella-zoster virus",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "HSV conjunctivitis with blister-like skin lesions; antivirals",
+          "quote": "Herpetic keratoconjunctivitis – a type of conjunctivitis associated with herpes simplex virus and blister-like lesions on the skin; it may affect only one eye.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "bacterial causes include H. influenzae, S. pneumoniae, M. catarrhalis, S. aureus",
+          "quote": "Many species of bacteria can cause bacterial conjunctivitis including: Haemophilus influenzae Streptococcus pneumoniae Moraxella catarrhalis Chlamydia trachomatis Staphylococcus aureus",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "allergic: pollen, dust mites, dander, molds; common with hay fever, asthma, eczema; not contagious",
+          "quote": "Allergic conjunctivitis is not contagious. It is common in people who have other signs of allergic disease, such as hay fever, asthma, and eczema.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Pink Eye in Newborns. Updated April 15, 2024. Accessed November 15, 2026. cdc.gov",
+      "url": "https://www.cdc.gov/conjunctivitis/newborns/index.html",
+      "version_or_date": "Updated April 15, 2024; reviewed April 15, 2024",
+      "retrieved_with": "Monid firecrawl /scrape of official page (full markdown)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "newborns should be seen by a doctor right away",
+          "quote": "Newborns should be seen by a doctor right away if they have pink eye symptoms.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "untreated gonococcal infection: corneal ulcers and blindness",
+          "quote": "If untreated, the newborn could develop corneal ulcerations (open sores in the cornea) and blindness.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "gonococcal begins first 2 to 5 days; chlamydial 5 to 12 days after birth",
+          "quote": "Symptoms are likely to appear 5 to 12 days after birth. ... Begins: First 2-5 days of life.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. How to Prevent Pink Eye. Updated April 15, 2024. Accessed November 15, 2026. cdc.gov",
+      "url": "https://www.cdc.gov/conjunctivitis/prevention/index.html",
+      "version_or_date": "Shown date April 15, 2024 (metadata republished 2025-11-24)",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "wash hands with soap and water",
+          "quote": "Wash your hands often with soap and water for at least 20 seconds.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "don't share towels, pillows, washcloths, makeup",
+          "quote": "Do not share personal items, like pillows, washcloths, towels, eye drops, eye or face makeup, makeup brushes",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "wash linens often in hot water",
+          "quote": "Wash pillowcases, sheets, washcloths, and towels often in hot water and detergent.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "avoid rubbing eyes",
+          "quote": "Avoid touching or rubbing your eyes with your fingers.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "contact lenses: stop until symptoms gone; clean, store, replace as instructed",
+          "quote": "Stop wearing contact lenses until you no longer have symptoms, or your eye doctor says it's ok to start wearing them again.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "other_web",
+      "cited_as": "American Academy of Pediatrics, HealthyChildren.org. Pinkeye (Conjunctivitis). Source: Managing Infectious Diseases in Child Care and Schools, 3rd Edition (2013). Accessed November 15, 2026. healthychildren.org",
+      "url": "https://www.healthychildren.org/English/health-issues/conditions/eyes/Pages/Pinkeye-Conjunctivitis.aspx",
+      "version_or_date": "Last updated 9/1/2004; source Managing Infectious Diseases in Child Care and Schools, 3rd Edition (2013 AAP)",
+      "retrieved_with": "Monid firecrawl /scrape of official page (full markdown)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "AAP parent page; old date, flagged for Parth.",
+      "claims": [
+        {
+          "text": "most children get better after 5 or 6 days without antibiotics; antibiotics shorten illness a very small amount",
+          "quote": "Antibiotics shorten the course of illness a very small amount. Most children with pinkeye get better after 5 or 6 days without antibiotics.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "viral: antibiotics do not help patient or reduce spread; adenovirus contagious for weeks; may uncommonly cause outbreaks",
+          "quote": "adenovirus, may be contagious for weeks after the appearance of signs or symptoms. ... This virus may uncommonly cause outbreaks in child care and school settings. Antibiotics for this condition do not help the patient or reduce spread.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "bacterial contagious period ends when medicine started or symptoms gone",
+          "quote": "The contagious period ends when the course of medication is started or when the symptoms are no longer present.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "viral contagious while symptoms present; allergic no contagious period",
+          "quote": "The contagious period continues while the signs or symptoms are present.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "allergic pink eye: no contagious period",
+          "quote": "Occurs in response to contact with the agent that causes the allergic reaction. ... No contagious period.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "hand hygiene best method to prevent spread",
+          "quote": "The best method for preventing spread is good hand hygiene.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "other_web",
+      "cited_as": "Román H. Do I need to keep my son home if he has pinkeye? American Academy of Pediatrics, HealthyChildren.org. Last updated August 27, 2016. Accessed November 15, 2026. healthychildren.org",
+      "url": "https://www.healthychildren.org/English/tips-tools/ask-the-pediatrician/Pages/Do-I-need-to-keep-my-son-home-if-he-has-pinkeye.aspx",
+      "version_or_date": "Last updated 8/27/2016 (Ask the Pediatrician, Heidi Román, MD, FAAP)",
+      "retrieved_with": "Monid firecrawl /scrape of official page (full markdown)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "many schools allow return 24 hours after starting antibiotic drops",
+          "quote": "Many schools have a policy that a child may return to school 24 hours after starting antibiotic drops for conjunctivitis.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "most pink eye in school-aged children is viral (contrasting view)",
+          "quote": "The majority of cases of pinkeye in school-aged children are viral in nature.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "other_web",
+      "cited_as": "American Academy of Pediatrics Council on Early Childhood, HealthyChildren.org. When to Keep Your Child Home From Child Care. Last updated August 23, 2024. Accessed November 15, 2026. healthychildren.org",
+      "url": "https://www.healthychildren.org/English/family-life/work-and-child-care/Pages/when-to-keep-your-child-home-from-child-care.aspx",
+      "version_or_date": "Last updated 8/23/2024; source AAP Council on Early Childhood (2022)",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "pinkeye without fever listed among conditions not necessarily requiring exclusion from child care",
+          "quote": "Children with the conditions below do not necessarily need to stay home from child care ... Yellow, green, white, or watery eye discharge without fever, even if the whites of the eyes are red (pinkeye)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "journal",
+      "cited_as": "Olusanya B, Baiyeroju A. Emergency management: ophthalmia neonatorum. Community Eye Health. 2018;31(103):61. PMC6253317 PMID: 30487681.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6253317/",
+      "pmid": "30487681",
+      "pmcid": "PMC6253317",
+      "doi": "10.56920/cehj.10",
+      "record_title": "Emergency management: ophthalmia neonatorum.",
+      "record_journal": "Community Eye Health",
+      "record_year": "2018",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata and get_full_text_article (PMC6253317); Scite verify_papers (DOI 10.56920/cehj.10 from Scite; PubMed lists no DOI)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "neonatal conjunctivitis is an acute emergency needing immediate treatment and referral",
+          "quote": "It is an acute emergency and requires immediate treatment and referral because of the significant risk of corneal perforation and intraocular infection that can very quickly lead to blindness.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "journal",
+      "cited_as": "Bodor FF. Systemic antibiotics for treatment of the conjunctivitis-otitis media syndrome. Pediatr Infect Dis J. 1989;8(5):287-290. PMID: 2631693",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2631693/",
+      "pmid": "2631693",
+      "record_title": "Systemic antibiotics for treatment of the conjunctivitis-otitis media syndrome.",
+      "record_journal": "Pediatr Infect Dis J",
+      "record_year": "1989",
+      "article_type": "Journal Article (practice case series)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers by reference: could not verify (no DOI; PubMed record resolves)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Old single-practice series; abstract only.",
+      "claims": [
+        {
+          "text": "114 episodes of conjunctivitis-otitis treated with oral antibiotics; eye symptoms cleared in 2 to 3 days in all but one",
+          "quote": "In a private pediatric practice setting 114 episodes of conjunctivitis-otitis syndrome were treated with orally administered antibiotics. ... Symptoms of conjunctivitis disappeared in 2 to 3 days in all but one patient.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "kind": "journal",
+      "cited_as": "Wald ER, Greenberg D, Hoberman A. Short term oral cefixime therapy for treatment of bacterial conjunctivitis. Pediatr Infect Dis J. 2001;20(11):1039-1042. doi:10.1097/00006454-200111000-00007 PMID: 11734708.",
+      "url": "https://doi.org/10.1097/00006454-200111000-00007",
+      "pmid": "11734708",
+      "doi": "10.1097/00006454-200111000-00007",
+      "record_title": "Short term oral cefixime therapy for treatment of bacterial conjunctivitis.",
+      "record_journal": "Pediatr Infect Dis J",
+      "record_year": "2001",
+      "article_type": "Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Replaces the cefixime claim formerly cited to Pichichero. The age range \"2 months to 6 years\" was not in the abstract and was cut.",
+      "claims": [
+        {
+          "text": "oral cefixime not more effective than topical polymyxin-bacitracin; no difference in clinical cure or later AOM",
+          "quote": "There was no difference between study groups with regard to either clinical cure or the development of AOM. ... Cefixime was not more effective than topical polymyxin-bacitracin",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "kind": "label",
+      "cited_as": "U.S. National Library of Medicine, DailyMed. Erythromycin ophthalmic ointment USP, 0.5%: prescribing information. Revised March 2025. Accessed November 15, 2026. dailymed.nlm.nih.gov",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=061ddd20-94a6-4e3c-ba84-1ebd8529eea6",
+      "version_or_date": "Label revised March 2025 (DailyMed page updated August 28, 2026)",
+      "retrieved_with": "WebFetch of DailyMed label",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "about 1 cm up to six times daily depending on severity",
+          "quote": "erythromycin ophthalmic ointment approximately 1 cm in length should be applied directly to the infected eye(s) up to six times daily, depending on the severity of the infection.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "labeled for prophylaxis of ophthalmia neonatorum",
+          "quote": "For prophylaxis of ophthalmia neonatorum due to N. gonorrhoeae or C. trachomatis.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "kind": "label",
+      "cited_as": "U.S. National Library of Medicine, DailyMed. Polymyxin B sulfate and trimethoprim ophthalmic solution: prescribing information. Revised October 2025. Accessed November 15, 2026. dailymed.nlm.nih.gov",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=87999254-1857-4d3c-817a-cb8f6a5b0cf7",
+      "version_or_date": "Label revised October 2025 (DailyMed updated January 6, 2026)",
+      "retrieved_with": "WebFetch of DailyMed label",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "1 drop every 3 hours, max 6 doses/day, 7 to 10 days",
+          "quote": "In mild to moderate infections, instill one drop in the affected eye(s) every 3 hours (maximum of 6 doses per day) for a period of 7 to 10 days.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "not established below 2 months; strengths 1 mg / 10,000 units per mL",
+          "quote": "Safety and effectiveness in children below the age of 2 months have not been established",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "kind": "label",
+      "cited_as": "U.S. National Library of Medicine, DailyMed. Moxifloxacin ophthalmic solution USP, 0.5%: prescribing information (repackaged label). Revised October 2023. Accessed November 15, 2026. dailymed.nlm.nih.gov",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c76f7d78-1e52-4557-a43b-cfc8e5842c80",
+      "version_or_date": "Label revised 10/2023 (repackager A-S Medication Solutions; source NDC 72266-158)",
+      "retrieved_with": "WebFetch of DailyMed label",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Original page said \"1 year and older\"; this label states safety and effectiveness established in all ages. Preservative-free claim cut (not stated on label).",
+      "claims": [
+        {
+          "text": "1 drop 3 times a day for 7 days",
+          "quote": "Instill one drop in the affected eye 3 times a day for 7 days.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "safety and effectiveness established in all ages",
+          "quote": "The safety and effectiveness of moxifloxacin ophthalmic solution have been established in all ages.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "labeled for bacterial conjunctivitis",
+          "quote": "indicated for the treatment of bacterial conjunctivitis caused by susceptible strains",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "kind": "label",
+      "cited_as": "U.S. National Library of Medicine, DailyMed. AzaSite (azithromycin ophthalmic solution) 1%: prescribing information. Revised July 2024. Accessed November 15, 2026. dailymed.nlm.nih.gov",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0c5d6f5e-18ea-436f-8c62-bbaf66effe3d",
+      "version_or_date": "Highlights revised 7/2024 (Thea Pharma; DailyMed updated July 25, 2024)",
+      "retrieved_with": "WebFetch of DailyMed label page and FDA label display (fdaDrugXsl)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Original page said \"1 year and older\"; label gives no age cutoff and states pediatric safety and effectiveness established; adverse-reaction trials enrolled patients 1 to 87 years old. \"Rising resistance\" note cut (former source unverifiable).",
+      "claims": [
+        {
+          "text": "twice daily 8 to 12 hours apart for 2 days, then once daily for 5 days",
+          "quote": "Instill 1 drop in the affected eye(s) twice daily, eight to twelve hours apart for the first two days ... then instill 1 drop in the affected eye(s) once daily for the next five days.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "pediatric safety and effectiveness established; patients 1 to 87 years",
+          "quote": "The safety and effectiveness of AzaSite solution in pediatric patients have been established. ... between 1 and 87 years old",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "labeled organisms include H. influenzae, S. aureus, S. pneumoniae",
+          "quote": "CDC coryneform group G, Haemophilus influenzae, Staphylococcus aureus, Streptococcus mitis group, and Streptococcus pneumoniae",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus Medical Encyclopedia. Periorbital cellulitis. Review date December 13, 2025. Accessed November 15, 2026. medlineplus.gov",
+      "url": "https://medlineplus.gov/ency/article/000976.htm",
+      "version_or_date": "Review date 12/13/2025",
+      "retrieved_with": "Monid firecrawl /scrape of official page (full markdown)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Added to source the eyelid swelling and fever-with-eye-swelling red flags (former ref 9, Mayo Clinic, did not state them).",
+      "claims": [
+        {
+          "text": "eyelid swelling/redness (preseptal cellulitis) needs prompt care",
+          "quote": "Contact your provider right away if: The eye becomes red or swollen Symptoms get worse after treatment Fever develops along with eye symptoms",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "fever with eye symptoms",
+          "quote": "Fever develops along with eye symptoms",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus Medical Encyclopedia. Eye emergencies. Review date April 29, 2025. Accessed November 15, 2026. medlineplus.gov",
+      "url": "https://medlineplus.gov/ency/article/000054.htm",
+      "version_or_date": "Review date 4/29/2025",
+      "retrieved_with": "Monid firecrawl /scrape of official page (full markdown)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "chemical in eye: flush at least 15 minutes, seek help right away / emergency care",
+          "quote": "Keep flushing the eye with clean water or saline solution for at least 15 minutes. Seek medical help right away. Do not delay.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "emergency care for chemical exposure, painful red eye, vision change, penetrating injury",
+          "quote": "Seek emergency medical care if: There appears to be a scratch, cut, or something has gone into (penetrated) the eyeball. Any chemical gets into the eye. The eye is painful and red.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "kind": "other_web",
+      "cited_as": "GoodRx. Erythromycin prices, coupons, and savings tips (3.5 g of 0.5% ointment). Accessed November 15, 2026. goodrx.com",
+      "url": "https://www.goodrx.com/erythromycin",
+      "version_or_date": "GoodRx coupon prices last updated 11/15/26; read November 15, 2026 (moving number)",
+      "retrieved_with": "Monid firecrawl /scrape (basic proxy) and WebFetch of GoodRx page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Read via Monid firecrawl scrape (basic proxy) and WebFetch. Location-specific pharmacy prices on the same page ranged from $0.00 with a paid Companion membership to $23.99; the page does not use the word ophthalmic. Polymyxin B/trimethoprim and moxifloxacin GoodRx pages (former refs 11 and 12) did not show a price for a stated ophthalmic size and were removed.",
+      "claims": [
+        {
+          "text": "3.5 g of 0.5% ointment: average retail $12.02, GoodRx price $11.79, as of Nov 15, 2026",
+          "quote": "Erythromycin tube of ointment prices ... 3.5g of 0.5% | 1 tube | $12.02 | $11.79 ... GoodRx coupon prices last updated on 11/15/26.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

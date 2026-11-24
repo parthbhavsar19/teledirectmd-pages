@@ -48,9 +48,10 @@
       },
       {
         "name": "Anthem Blue Cross",
-        "status": "Pending",
-        "effective_date": null,
-        "in_network": false
+        "status": "Active",
+        "effective_date": "2026-09-23",
+        "in_network": true,
+        "notes": "PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included."
       },
       {
         "name": "Cigna",
@@ -66,7 +67,7 @@
         "notes": "Commercial + Medicare Advantage. Excludes Medi-Cal, Individual Exchange, Navigate/Charter/Core."
       }
     ],
-    "cash_price": 49
+    "cash_price": 79
   },
   "california_epidemiology": {
     "summary": "California reported some of the highest influenza activity levels in the nation during recent seasons. The California Department of Public Health reports that flu causes an estimated 5\u201320% of the U.S. population to fall ill each year; in California, this translates to approximately 2\u20138 million illness episodes annually, with 140,000\u2013810,000 hospitalizations nationwide per CDC estimates.",
@@ -129,12 +130,12 @@
     {
       "id": "faq-1",
       "question": "Can I get flu treatment online in California?",
-      "answer": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California. Adults 18+ in California can book a same-day video visit. If your symptom onset is within 48 hours and you have classic flu symptoms without red flags, a physician may prescribe an antiviral such as oseltamivir (Tamiflu) or baloxavir (Xofluza). Self pay is $79; Aetna is in-network as of April 30, 2026."
+      "answer": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. Dr. Bhavsar is licensed in California. Adults 18+ in California can book a same-day video visit. If your symptom onset is within 48 hours and you have classic flu symptoms without red flags, a physician may prescribe an antiviral such as oseltamivir (Tamiflu) or baloxavir (Xofluza). Self pay is $79; Aetna is in-network as of April 30, 2026."
     },
     {
       "id": "faq-2",
       "question": "Is there a time window for antiviral flu medication to work?",
-      "answer": "Yes. Per CDC and IDSA 2025\u20132026 guidance, antiviral medications \u2014 oseltamivir (Tamiflu) and baloxavir (Xofluza) \u2014 are most effective when started within 48 hours of symptom onset. They reduce illness duration by approximately 1\u20132 days and reduce the risk of complications. Antivirals can still be beneficial for high-risk patients (age 65+, immunocompromised, chronic lung or heart disease, pregnancy) even after 48 hours. If you are in a high-risk group, book immediately even if symptoms started 2+ days ago."
+      "answer": "Yes. Per CDC and IDSA 2025\u20132026 guidance, antiviral medications \u2014 oseltamivir (Tamiflu) and baloxavir (Xofluza) \u2014 are most effective when started within 48 hours of symptom onset. CDC says they can lessen symptoms and shorten the time you are sick by about a day, and starting them soon after symptoms begin can help reduce some flu complications. Antivirals can still be beneficial for high-risk patients (age 65+, immunocompromised, chronic lung or heart disease, pregnancy) even after 48 hours. If you are in a high-risk group, book immediately even if symptoms started 2+ days ago."
     },
     {
       "id": "faq-3",
@@ -169,7 +170,7 @@
     {
       "id": "faq-9",
       "question": "Will Medi-Cal cover my TeleDirectMD flu visit in California?",
-      "answer": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, you can use the $79 self-pay rate, or find a Medi-Cal-enrolled telehealth provider through your managed care plan or the California DHCS directory at dhcs.ca.gov."
+      "answer": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, find a Medi-Cal-enrolled telehealth provider through your managed care plan or the California DHCS directory at dhcs.ca.gov."
     },
     {
       "id": "faq-10",
@@ -217,7 +218,7 @@
       "text": "IDSA \u2014 Influenza Clinical Practice Guideline. Retrieved May 2026."
     },
     {
-      "url": "https://www.cdc.gov/flu/about/burden/index.html",
+      "url": "https://www.cdc.gov/flu-burden/php/about/index.html",
       "text": "CDC \u2014 Influenza Disease Burden. Retrieved May 2026."
     },
     {

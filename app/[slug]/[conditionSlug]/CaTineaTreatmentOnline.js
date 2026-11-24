@@ -11,7 +11,7 @@
  * + HowTo + BreadcrumbList + SpeakableSpecification — NEVER QAPage).
  *
  * Authority: AAD
- * Guideline: CDC Ringworm (Dermatophytosis) Guidance + AAD Tinea Clinical Guidelines
+ * Guideline: CDC Ringworm (Dermatophytosis) Guidance + AAD ringworm treatment resources
  *
  * Hard rules respected:
  *   • No QAPage schema — FAQPage only.
@@ -38,7 +38,7 @@ const PHYSICIAN = {
   specialty: 'Family Medicine',
   licenseState: 'California',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 const CA_PAYORS = [
@@ -46,8 +46,8 @@ const CA_PAYORS = [
     notes: 'Commercial plans. In-network as of April 30, 2026. Verify plan eligibility with Aetna before booking.' },
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true,
     notes: 'Covers UHC Commercial and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types.' },
-  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Enrollment pending. Self pay ($79) available.' },
+  { name: 'Anthem Blue Cross', status: 'Active', effective: 'September 23, 2026', inNetwork: true,
+    notes: 'PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.' },
   { name: 'Cigna', status: 'Pending', effective: 'Pending determination', inNetwork: false,
     notes: 'Pending — Telehealth Only review in progress. Self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false,
@@ -62,7 +62,7 @@ const FAQ_ITEMS = [
     question: 'Can I get tinea (ringworm) treatment online in California?',
     answer: (
       <p>
-        Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat tinea (ringworm, athlete's foot, jock itch) by secure video visit. TeleDirectMD physicians follow CDC fungal disease guidance and AAD tinea guidelines, prescribing topical antifungals and oral terbinafine or fluconazole when topical therapy is insufficient. Adults 18+ in California can book same-day. Self pay is $79. Aetna is in-network as of April 30, 2026.
+        Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat tinea (ringworm, athlete's foot, jock itch) by secure video visit. Dr. Bhavsar follows CDC fungal disease guidance and AAD ringworm treatment guidance, prescribing topical antifungals and, when topical therapy is insufficient, oral fluconazole. Adults 18+ in California can book same-day. Self pay is $79. Aetna is in-network as of April 30, 2026.
       </p>
     ),
   },
@@ -71,7 +71,7 @@ const FAQ_ITEMS = [
     question: 'What tinea medications can a California telehealth doctor prescribe?',
     answer: (
       <p>
-        A California-licensed telehealth physician can prescribe: prescription-strength terbinafine 1% cream, ketoconazole 2% cream, oral terbinafine 250 mg daily for 2 weeks (tinea corporis/cruris) or 6 weeks (nail tinea), and oral fluconazole 150–300 mg weekly as an alternative. Many OTC antifungals (Lamisil, Lotrimin) are also recommended alongside or before prescription therapy for mild tinea. Prescriptions are sent electronically to your California pharmacy under AB 2789.
+        A California-licensed telehealth physician can prescribe: prescription-strength terbinafine 1% cream, ketoconazole 2% cream, and oral fluconazole 150–300 mg weekly as an alternative. Many OTC antifungals (Lamisil, Lotrimin) are also recommended alongside or before prescription therapy for mild tinea. Prescriptions are sent electronically to your California pharmacy under AB 2789.
       </p>
     ),
   },
@@ -116,7 +116,7 @@ const FAQ_ITEMS = [
     question: 'What is the cost of tinea treatment in California?',
     answer: (
       <p>
-        TeleDirectMD charges $79 self-pay for a complete MD video visit. OTC antifungals (Lamisil cream, Lotrimin) are $8–$15 at California pharmacies. Generic oral terbinafine 250 mg costs ~$15–$30 for 2 weeks with GoodRx. Oral fluconazole ~$5–$15 per dose. Prescription cost is separate from the TeleDirectMD visit fee.
+        TeleDirectMD charges $79 self-pay for a complete MD video visit. OTC antifungals (Lamisil cream, Lotrimin) are $8–$15 at California pharmacies. Oral fluconazole ~$5–$15 per dose. Prescription cost is separate from the TeleDirectMD visit fee.
       </p>
     ),
   },
@@ -158,16 +158,16 @@ const FAQ_ITEMS = [
   },
   {
     id: 'ca-tinea-treatment-online-faq-11',
-    question: 'Can I get oral terbinafine for nail fungus online in California?',
+    question: 'Can I get nail fungus treated online in California?',
     answer: (
       <p>
-        Oral terbinafine 250 mg daily for 6 weeks (fingernails) or 12 weeks (toenails) is a standard treatment for tinea unguium (onychomycosis) per AAD. A California-licensed telehealth physician can prescribe it after evaluating clinical presentation. Because prolonged oral terbinafine requires liver function monitoring, and because nail fungus diagnosis benefits from culture confirmation, in-person follow-up is recommended for extensive nail disease.
+        Nail fungus (tinea unguium, onychomycosis) usually needs oral antifungal therapy, culture confirmation, and liver function testing, so TeleDirectMD refers thickened or discolored nails for in-person evaluation. TeleDirectMD does not prescribe oral terbinafine or itraconazole.
       </p>
     ),
   },
 ];
 
-const SCHEMAS = [{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Tinea (Ringworm / Dermatophyte Infection) Online in California | TeleDirectMD", "url": "https://teledirectmd.com/ca/tinea-treatment-online/", "description": "Tinea (ringworm, athlete's foot, jock itch) treatment online for California adults. Board-certified Family Medicine MD. CDC + AAD guideline-based. Self pay $79. Aetna in-network. Same-day video visits.", "datePublished": "2026-05-20", "dateModified": "2026-05-20", "inLanguage": "en-US", "about": {"@type": "MedicalCondition", "name": "Tinea / Ringworm", "code": {"@type": "MedicalCode", "code": "B35.4", "codingSystem": "ICD-10-CM"}}, "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient", "geographicArea": {"@type": "AdministrativeArea", "name": "California"}}, "reviewedBy": {"@type": "Physician", "@id": "https://teledirectmd.com/about/#physician-parth-bhavsar", "name": "Parth Bhavsar, MD", "identifier": {"@type": "PropertyValue", "propertyID": "NPI", "value": "1104323203"}, "medicalSpecialty": "Family Medicine", "hasCredential": [{"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "Doctor of Medicine (MD)"}, {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Board Certification \u2014 American Board of Family Medicine"}], "licensedIn": "California", "worksFor": {"@type": "MedicalOrganization", "name": "TeleDirectMD", "url": "https://teledirectmd.com"}, "sameAs": ["https://npiregistry.cms.hhs.gov/provider-view/1104323203", "https://teledirectmd.com/about/"]}, "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["#ca-tinea-treatment-online-opening", "#ca-tinea-treatment-online-opening p", ".tdmd-ca-tinea-treatment-online__byline", "#ca-tinea-treatment-online-faq"]}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I get tinea (ringworm) treatment online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat tinea (ringworm, athlete's foot, jock itch) by secure video visit. TeleDirectMD physicians follow CDC fungal disease guidance and AAD tinea guidelines, prescribing topical antifungals and oral terbinafine or fluconazole when topical therapy is insufficient. Adults 18+ in California can book same-day. Self pay is $79. Aetna is in-network as of April 30, 2026."}}, {"@type": "Question", "name": "What tinea medications can a California telehealth doctor prescribe?", "acceptedAnswer": {"@type": "Answer", "text": "A California-licensed telehealth physician can prescribe: prescription-strength terbinafine 1% cream, ketoconazole 2% cream, oral terbinafine 250 mg daily for 2 weeks (tinea corporis/cruris) or 6 weeks (nail tinea), and oral fluconazole 150\u2013300 mg weekly as an alternative. Many OTC antifungals (Lamisil, Lotrimin) are also recommended alongside or before prescription therapy for mild tinea. Prescriptions are sent electronically to your California pharmacy under AB 2789."}}, {"@type": "Question", "name": "How common is tinea in California?", "acceptedAnswer": {"@type": "Answer", "text": "Dermatophyte infections affect 10\u201320% of the population at some point per CDC data. California's warm coastal areas, high gym density (Los Angeles, Bay Area), public pools, and athletic facilities create environments favorable for dermatophyte spread. CDPH tracks fungal infections in outbreak settings including California schools and sports teams. Tinea pedis (athlete's foot) and tinea corporis (ringworm) are year-round concerns in California's climate."}}, {"@type": "Question", "name": "Does California require an in-person visit before tinea telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. Classic tinea presentations \u2014 circular, scaly, advancing border rash (tinea corporis), interdigital maceration and scaling (tinea pedis), inguinal rash with scaly border (tinea cruris) \u2014 are appropriately evaluated by video. Tinea capitis, nail fungus, and kerion require in-person evaluation."}}, {"@type": "Question", "name": "When does tinea require in-person care?", "acceptedAnswer": {"@type": "Answer", "text": "Seek in-person care for tinea capitis (scalp ringworm) \u2014 requires oral antifungal and KOH prep or culture confirmation. Tinea unguium (nail fungus) involving multiple nails benefits from nail clipping for culture before extended oral therapy. Kerion (boggy inflamed scalp mass) requires in-person evaluation. Widespread tinea unresponsive to topical therapy warrants dermatology referral."}}, {"@type": "Question", "name": "Is Aetna in-network for tinea treatment at TeleDirectMD in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026. Self pay is $79."}}, {"@type": "Question", "name": "What is the cost of tinea treatment in California?", "acceptedAnswer": {"@type": "Answer", "text": "TeleDirectMD charges $79 self-pay for a complete MD video visit. OTC antifungals (Lamisil cream, Lotrimin) are $8\u2013$15 at California pharmacies. Generic oral terbinafine 250 mg costs ~$15\u2013$30 for 2 weeks with GoodRx. Oral fluconazole ~$5\u2013$15 per dose. Prescription cost is separate from the TeleDirectMD visit fee."}}, {"@type": "Question", "name": "What is the difference between tinea corporis, tinea pedis, and tinea cruris?", "acceptedAnswer": {"@type": "Answer", "text": "All three are dermatophyte (fungal) infections, differing by location: tinea corporis (ringworm) \u2014 on the trunk, limbs, or face; tinea pedis (athlete's foot) \u2014 on the feet and between toes; tinea cruris (jock itch) \u2014 in the inguinal fold/groin. All respond to topical terbinafine or azole antifungals. Treatment duration varies: tinea corporis 1\u20132 weeks, tinea pedis 2\u20136 weeks, tinea cruris 2 weeks."}}, {"@type": "Question", "name": "How is ringworm spread, and how can I prevent it in California?", "acceptedAnswer": {"@type": "Answer", "text": "Tinea is spread by direct contact with infected skin, contaminated surfaces, or animals (dogs, cats, cattle). Prevention strategies: use footwear in public showers and gym locker rooms, keep skin clean and dry, avoid sharing towels or athletic gear, treat pets with ringworm promptly, and change socks daily. CDC recommends these measures especially in high-contact settings prevalent in California's gym culture."}}, {"@type": "Question", "name": "Does California's AB 744 parity law cover tinea telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, for in-network commercial plans. California AB 744 (2019) requires commercial health plans to reimburse telehealth on the same basis as in-person services. Aetna and UHC Commercial are in-network for TeleDirectMD in California. The physician visit is billed as a telehealth office visit \u2014 the same CPT code as an in-person primary care visit."}}, {"@type": "Question", "name": "Will my antifungal prescription be sent electronically to a California pharmacy?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California AB 2789 (effective January 1, 2022) requires all prescriptions to be issued electronically. TeleDirectMD sends e-prescriptions to your chosen California pharmacy during or after your visit. The physician evaluates your symptoms, selects the appropriate antifungal, and transmits the prescription to CVS, Walgreens, Rite Aid, Walmart, or your preferred California pharmacy."}}, {"@type": "Question", "name": "Can I get oral terbinafine for nail fungus online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Oral terbinafine 250 mg daily for 6 weeks (fingernails) or 12 weeks (toenails) is a standard treatment for tinea unguium (onychomycosis) per AAD. A California-licensed telehealth physician can prescribe it after evaluating clinical presentation. Because prolonged oral terbinafine requires liver function monitoring, and because nail fungus diagnosis benefits from culture confirmation, in-person follow-up is recommended for extensive nail disease."}}]}, {"@context": "https://schema.org", "@type": "HowTo", "name": "How to Get Tinea (Ringworm / Dermatophyte Infection) Online in California", "description": "Three steps to receive tinea (ringworm / dermatophyte infection) evaluation and, if appropriate, a prescription from a California-licensed board-certified physician.", "totalTime": "PT30M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "79"}, "step": [{"@type": "HowToStep", "position": 1, "name": "Book your video visit", "text": "Visit teledirectmd.com and select California Tinea / Ringworm treatment. No referral needed. Self pay $79. Many visits available same day.", "url": "https://teledirectmd.com/book-online"}, {"@type": "HowToStep", "position": 2, "name": "See a California-licensed MD by secure video", "text": "Connect with a board-certified Family Medicine physician licensed in California. The physician reviews your symptoms, history, and red-flag screening. Consent per CA B&P Section 2290.5 confirmed.", "url": "https://teledirectmd.com/ca/tinea-treatment-online/"}, {"@type": "HowToStep", "position": 3, "name": "Receive your treatment plan and e-prescription", "text": "If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy during or after the visit.", "url": "https://teledirectmd.com/ca/tinea-treatment-online/"}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TeleDirectMD", "item": "https://teledirectmd.com"}, {"@type": "ListItem", "position": 2, "name": "California", "item": "https://teledirectmd.com/ca/"}, {"@type": "ListItem", "position": 3, "name": "Tinea (Ringworm / Dermatophyte Infection) Online in California", "item": "https://teledirectmd.com/ca/tinea-treatment-online/"}]}];
+const SCHEMAS = [{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Tinea (Ringworm / Dermatophyte Infection) Online in California | TeleDirectMD", "url": "https://teledirectmd.com/ca/tinea-treatment-online/", "description": "Tinea (ringworm, athlete's foot, jock itch) treatment online for California adults. Board-certified Family Medicine MD. CDC + AAD guidance-based. Self pay $79. Aetna in-network. Same-day video visits.", "datePublished": "2026-05-20", "dateModified": "2026-05-20", "inLanguage": "en-US", "about": {"@type": "MedicalCondition", "name": "Tinea / Ringworm", "code": {"@type": "MedicalCode", "code": "B35.4", "codingSystem": "ICD-10-CM"}}, "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient", "geographicArea": {"@type": "AdministrativeArea", "name": "California"}}, "reviewedBy": {"@type": "Physician", "@id": "https://teledirectmd.com/about/#physician", "name": "Parth Bhavsar, MD", "identifier": {"@type": "PropertyValue", "propertyID": "NPI", "value": "1104323203"}, "medicalSpecialty": "Family Medicine", "hasCredential": [{"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "Doctor of Medicine (MD)"}, {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Board Certification \u2014 American Board of Family Medicine"}], "licensedIn": "California", "worksFor": {"@type": "MedicalOrganization", "name": "TeleDirectMD", "url": "https://teledirectmd.com"}, "sameAs": ["https://npiregistry.cms.hhs.gov/provider-view/1104323203", "https://teledirectmd.com/about/"]}, "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["#ca-tinea-treatment-online-opening", "#ca-tinea-treatment-online-opening p", ".tdmd-ca-tinea-treatment-online__byline", "#ca-tinea-treatment-online-faq"]}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I get tinea (ringworm) treatment online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat tinea (ringworm, athlete's foot, jock itch) by secure video visit. Dr. Bhavsar follows CDC fungal disease guidance and AAD ringworm treatment guidance, prescribing topical antifungals and, when topical therapy is insufficient, oral fluconazole. Adults 18+ in California can book same-day. Self pay is $79. Aetna is in-network as of April 30, 2026."}}, {"@type": "Question", "name": "What tinea medications can a California telehealth doctor prescribe?", "acceptedAnswer": {"@type": "Answer", "text": "A California-licensed telehealth physician can prescribe: prescription-strength terbinafine 1% cream, ketoconazole 2% cream, and oral fluconazole 150\u2013300 mg weekly as an alternative. Many OTC antifungals (Lamisil, Lotrimin) are also recommended alongside or before prescription therapy for mild tinea. Prescriptions are sent electronically to your California pharmacy under AB 2789."}}, {"@type": "Question", "name": "How common is tinea in California?", "acceptedAnswer": {"@type": "Answer", "text": "Dermatophyte infections affect 10\u201320% of the population at some point per CDC data. California's warm coastal areas, high gym density (Los Angeles, Bay Area), public pools, and athletic facilities create environments favorable for dermatophyte spread. CDPH tracks fungal infections in outbreak settings including California schools and sports teams. Tinea pedis (athlete's foot) and tinea corporis (ringworm) are year-round concerns in California's climate."}}, {"@type": "Question", "name": "Does California require an in-person visit before tinea telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. Classic tinea presentations \u2014 circular, scaly, advancing border rash (tinea corporis), interdigital maceration and scaling (tinea pedis), inguinal rash with scaly border (tinea cruris) \u2014 are appropriately evaluated by video. Tinea capitis, nail fungus, and kerion require in-person evaluation."}}, {"@type": "Question", "name": "When does tinea require in-person care?", "acceptedAnswer": {"@type": "Answer", "text": "Seek in-person care for tinea capitis (scalp ringworm) \u2014 requires oral antifungal and KOH prep or culture confirmation. Tinea unguium (nail fungus) involving multiple nails benefits from nail clipping for culture before extended oral therapy. Kerion (boggy inflamed scalp mass) requires in-person evaluation. Widespread tinea unresponsive to topical therapy warrants dermatology referral."}}, {"@type": "Question", "name": "Is Aetna in-network for tinea treatment at TeleDirectMD in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026. Self pay is $79."}}, {"@type": "Question", "name": "What is the cost of tinea treatment in California?", "acceptedAnswer": {"@type": "Answer", "text": "TeleDirectMD charges $79 self-pay for a complete MD video visit. OTC antifungals (Lamisil cream, Lotrimin) are $8\u2013$15 at California pharmacies. Oral fluconazole ~$5\u2013$15 per dose. Prescription cost is separate from the TeleDirectMD visit fee."}}, {"@type": "Question", "name": "What is the difference between tinea corporis, tinea pedis, and tinea cruris?", "acceptedAnswer": {"@type": "Answer", "text": "All three are dermatophyte (fungal) infections, differing by location: tinea corporis (ringworm) \u2014 on the trunk, limbs, or face; tinea pedis (athlete's foot) \u2014 on the feet and between toes; tinea cruris (jock itch) \u2014 in the inguinal fold/groin. All respond to topical terbinafine or azole antifungals. Treatment duration varies: tinea corporis 1\u20132 weeks, tinea pedis 2\u20136 weeks, tinea cruris 2 weeks."}}, {"@type": "Question", "name": "How is ringworm spread, and how can I prevent it in California?", "acceptedAnswer": {"@type": "Answer", "text": "Tinea is spread by direct contact with infected skin, contaminated surfaces, or animals (dogs, cats, cattle). Prevention strategies: use footwear in public showers and gym locker rooms, keep skin clean and dry, avoid sharing towels or athletic gear, treat pets with ringworm promptly, and change socks daily. CDC recommends these measures especially in high-contact settings prevalent in California's gym culture."}}, {"@type": "Question", "name": "Does California's AB 744 parity law cover tinea telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, for in-network commercial plans. California AB 744 (2019) requires commercial health plans to reimburse telehealth on the same basis as in-person services. Aetna and UHC Commercial are in-network for TeleDirectMD in California. The physician visit is billed as a telehealth office visit \u2014 the same CPT code as an in-person primary care visit."}}, {"@type": "Question", "name": "Will my antifungal prescription be sent electronically to a California pharmacy?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California AB 2789 (effective January 1, 2022) requires all prescriptions to be issued electronically. TeleDirectMD sends e-prescriptions to your chosen California pharmacy during or after your visit. The physician evaluates your symptoms, selects the appropriate antifungal, and transmits the prescription to CVS, Walgreens, Rite Aid, Walmart, or your preferred California pharmacy."}}, {"@type": "Question", "name": "Can I get nail fungus treated online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Nail fungus (tinea unguium, onychomycosis) usually needs oral antifungal therapy, culture confirmation, and liver function testing, so TeleDirectMD refers thickened or discolored nails for in-person evaluation. TeleDirectMD does not prescribe oral terbinafine or itraconazole."}}]}, {"@context": "https://schema.org", "@type": "HowTo", "name": "How to Get Tinea (Ringworm / Dermatophyte Infection) Online in California", "description": "Three steps to receive tinea (ringworm / dermatophyte infection) evaluation and, if appropriate, a prescription from a California-licensed board-certified physician.", "totalTime": "PT30M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "79"}, "step": [{"@type": "HowToStep", "position": 1, "name": "Book your video visit", "text": "Visit teledirectmd.com and select California Tinea / Ringworm treatment. No referral needed. Self pay $79. Many visits available same day.", "url": "https://teledirectmd.com/book-online"}, {"@type": "HowToStep", "position": 2, "name": "See a California-licensed MD by secure video", "text": "Connect with a board-certified Family Medicine physician licensed in California. The physician reviews your symptoms, history, and red-flag screening. Consent per CA B&P Section 2290.5 confirmed.", "url": "https://teledirectmd.com/ca/tinea-treatment-online/"}, {"@type": "HowToStep", "position": 3, "name": "Receive your treatment plan and e-prescription", "text": "If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy during or after the visit.", "url": "https://teledirectmd.com/ca/tinea-treatment-online/"}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TeleDirectMD", "item": "https://teledirectmd.com"}, {"@type": "ListItem", "position": 2, "name": "California", "item": "https://teledirectmd.com/ca/"}, {"@type": "ListItem", "position": 3, "name": "Tinea (Ringworm / Dermatophyte Infection) Online in California", "item": "https://teledirectmd.com/ca/tinea-treatment-online/"}]}];
 
 const PAGE_CSS = `
 .tdmd-ca-cond{color:var(--tdmd-text);}
@@ -242,7 +242,7 @@ export default function CaTineaTreatmentOnline() {
               <div className="tdmd-hero-copy">
                 <h1 data-speakable="true">Tinea (Ringworm) Treatment Online in California</h1>
                 <p className="tdmd-hero-sub" data-speakable="true">
-                  California adult care by secure video visit. Self pay $79 · Aetna in-network · UHC Commercial approved · CDC + AAD guideline-based tinea treatment · CA B&P §2290.5 compliant.
+                  California adult care by secure video visit. Self pay $79 · Aetna in-network · UHC Commercial approved · CDC + AAD guidance-based tinea treatment · CA B&P §2290.5 compliant.
                 </p>
                 <p>
                   Tinea / Ringworm is a condition commonly evaluated and, when appropriate, treated via telehealth. TeleDirectMD uses a safety-first approach, screening for red-flag symptoms that require in-person or emergency care before determining whether treatment by video visit is appropriate. This page is for adults located in California, including Los Angeles, San Diego, San Jose, San Francisco, Fresno, Sacramento, Long Beach, Oakland, Bakersfield, Anaheim, and surrounding areas.
@@ -251,7 +251,7 @@ export default function CaTineaTreatmentOnline() {
                 {/* v3: Inline opener paragraph — replaces CitableSummaryBlock */}
                 <div className="tdmd-condition-opener" id={`${pid}-opening`}>
                   <p>
-                    <strong>Can I get tinea (ringworm / dermatophyte infection) online in California?</strong> Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California and are held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. Self pay is $79. <a href="/insurance/">Aetna is in-network</a> as of April 30, 2026; UnitedHealthcare Commercial approved May 29, 2026.
+                    <strong>Can I get tinea (ringworm / dermatophyte infection) online in California?</strong> Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. Dr. Bhavsar is licensed in California and is held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. Self pay is $79. <a href="/insurance/">Aetna is in-network</a> as of April 30, 2026; UnitedHealthcare Commercial approved May 29, 2026.
                   </p>
                 </div>
 
@@ -290,9 +290,9 @@ export default function CaTineaTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> B35.4 (Tinea corporis — ringworm of the body)</p>
@@ -374,7 +374,7 @@ export default function CaTineaTreatmentOnline() {
 
             <h3>Are tinea (ringworm / dermatophyte infection) medications controlled substances under California law?</h3>
             <p>
-              Topical antifungals (terbinafine cream, clotrimazole, ketoconazole) and oral terbinafine and fluconazole are not controlled substances. They can be prescribed via California telehealth and transmitted electronically to any California pharmacy under Assembly Bill 2789. California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022), per the <a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California</a>. TeleDirectMD does not prescribe controlled substances in any state.
+              Topical antifungals (terbinafine cream, clotrimazole, ketoconazole) and oral fluconazole are not controlled substances. They can be prescribed via California telehealth and transmitted electronically to any California pharmacy under Assembly Bill 2789. California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022), per the <a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California</a>. TeleDirectMD does not prescribe controlled substances in any state.
             </p>
           </div>
         </section>
@@ -404,7 +404,7 @@ export default function CaTineaTreatmentOnline() {
                   <h3>Receive your treatment plan and e-prescription</h3>
                   <p>If medication is clinically appropriate, a California-compliant e-prescription is sent to your chosen California pharmacy during or after the visit. You receive clear follow-up instructions regardless of treatment choice, including when to seek in-person care.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -417,10 +417,10 @@ export default function CaTineaTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Tinea / Ringworm in California?</h2>
             <p>
-              Dermatophyte infections (tinea corporis, tinea pedis, tinea cruris) affect an estimated 10–20% of the U.S. population at some point according to the CDC Fungal Diseases program. California's warm, humid coastal areas and high-traffic public facilities — gyms, locker rooms, public pools — create environments favorable for dermatophyte spread. The California Department of Public Health (CDPH) tracks fungal skin infections as a reportable condition in outbreak settings including California schools and sports teams. — <a href="https://www.cdc.gov/fungal/diseases/ringworm/index.html" rel="noopener" target="_blank">CDC — Ringworm (Dermatophytosis)</a>.
+              Dermatophyte infections (tinea corporis, tinea pedis, tinea cruris) affect an estimated 10–20% of the U.S. population at some point according to the CDC Fungal Diseases program. California's warm, humid coastal areas and high-traffic public facilities — gyms, locker rooms, public pools — create environments favorable for dermatophyte spread. The California Department of Public Health (CDPH) tracks fungal skin infections as a reportable condition in outbreak settings including California schools and sports teams. — <a href="https://www.cdc.gov/ringworm/about/index.html" rel="noopener" target="_blank">CDC — Ringworm (Dermatophytosis)</a>.
             </p>
             <p>
-              Clinical guidance for tinea (ringworm / dermatophyte infection) is provided by <a href="https://www.aad.org/public/diseases/a-z/ringworm-treatment" rel="noopener" target="_blank">AAD</a> through the CDC Ringworm (Dermatophytosis) Guidance + AAD Tinea Clinical Guidelines. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for tinea (ringworm / dermatophyte infection) is provided by <a href="https://www.aad.org/public/diseases/a-z/ringworm-treatment" rel="noopener" target="_blank">AAD</a> through the CDC Ringworm (Dermatophytosis) Guidance + AAD ringworm treatment resources. TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes tinea / ringworm and who is most at risk in California?</h3>
             <p>
@@ -449,25 +449,6 @@ export default function CaTineaTreatmentOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical Tinea / Ringworm cost comparison">
-                <h3>Typical Tinea / Ringworm Visit Cost in California</h3>
-                <p className="tdmd-price-caption">Common ranges Californians see before insurance. Actual costs vary by setting and city.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 16, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical California metro pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <h3 style={{ marginTop: '1.75rem' }}>California Payor Status — TeleDirectMD</h3>
@@ -505,7 +486,7 @@ export default function CaTineaTreatmentOnline() {
               </table>
             </div>
             <p style={{ marginTop: '1rem' }}>
-              View all <a href="/insurance">insurance options</a> or <a href="/book-online">book a $79 self-pay visit</a>.
+              View all <a href="/insurance/">insurance options</a> or <a href="/book-online/">book a $79 self-pay visit</a>.
             </p>
           </div>
         </section>
@@ -534,31 +515,25 @@ export default function CaTineaTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Terbinafine 1% cream (Lamisil)</strong> · First-line</td>
                     <td>Apply to affected area once or twice daily for 1–4 weeks depending on location</td>
-                    <td><a href="https://www.goodrx.com/terbinafine-topical" target="_blank" rel="noopener">~$8–$15 OTC / Rx</a></td>
+                    <td><a href="https://www.goodrx.com/terbinafine" target="_blank" rel="noopener">~$8–$15 OTC / Rx</a></td>
                     <td>First-line topical antifungal per AAD. Fungicidal against dermatophytes. OTC (1% cream) available for tinea pedis and tinea corporis. Most effective topical agent.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Clotrimazole 1% cream (Lotrimin)</strong> · First-line</td>
                     <td>Apply twice daily for 2–4 weeks</td>
-                    <td><a href="https://www.goodrx.com/clotrimazole-topical" target="_blank" rel="noopener">~$8–$15 OTC</a></td>
+                    <td><a href="https://www.goodrx.com/clotrimazole" target="_blank" rel="noopener">~$8–$15 OTC</a></td>
                     <td>First-line topical antifungal per AAD. Broad-spectrum azole — effective for all tinea subtypes. OTC available. Longer course than terbinafine for tinea pedis.</td>
-                  </tr>
-                  <tr className="tdmd-ca-uti__med-firstline">
-                    <td><strong>Oral terbinafine 250 mg</strong> · First-line</td>
-                    <td>250 mg once daily — 2 weeks for tinea corporis/cruris, 6 weeks for tinea unguium</td>
-                    <td><a href="https://www.goodrx.com/terbinafine" target="_blank" rel="noopener">~$15–$30 / 30 tabs</a></td>
-                    <td>First-line oral for tinea capitis, tinea unguium, or extensive tinea corporis per AAD. Check liver function for prolonged nail treatment courses. Avoid in liver disease.</td>
                   </tr>
                   <tr>
                     <td><strong>Fluconazole 150 mg weekly (oral)</strong></td>
                     <td>150–300 mg once weekly for 2–6 weeks depending on indication</td>
                     <td><a href="https://www.goodrx.com/fluconazole" target="_blank" rel="noopener">~$5–$15 / per dose</a></td>
-                    <td>Alternative oral antifungal per AAD. Useful for tinea corporis and tinea cruris when terbinafine not tolerated. Not superior to terbinafine for dermatophytes.</td>
+                    <td>Alternative oral antifungal per AAD. Option for extensive tinea corporis or tinea cruris when topical therapy is insufficient.</td>
                   </tr>
                   <tr>
                     <td><strong>Ketoconazole 2% cream</strong></td>
                     <td>Apply to affected area once or twice daily for 2–4 weeks</td>
-                    <td><a href="https://www.goodrx.com/ketoconazole-topical" target="_blank" rel="noopener">~$15–$35 / 30g</a></td>
+                    <td><a href="https://www.goodrx.com/ketoconazole" target="_blank" rel="noopener">~$15–$35 / 30g</a></td>
                     <td>Topical azole antifungal — effective but broad-spectrum (targets both dermatophytes and Malassezia). Prescription 2%. Alternative when terbinafine or clotrimazole not preferred.</td>
                   </tr>
                 </tbody>
@@ -616,7 +591,7 @@ export default function CaTineaTreatmentOnline() {
                 <p>Book a same-day video visit — California adults, 18+</p>
                 <small>Self pay $79 &middot; Aetna in-network &middot; UHC Commercial approved May 2026 &middot; No ER wait</small>
               </div>
-              <a className="tdmd-ca-cond__cta-btn" href="/book-online" rel="noopener">Book Now &rarr;</a>
+              <a className="tdmd-ca-cond__cta-btn" href="/book-online/" rel="noopener">Book Now &rarr;</a>
             </div>
           </div>
         </section>
@@ -634,8 +609,8 @@ export default function CaTineaTreatmentOnline() {
                 <p>Book a same-day video visit. Self pay $79 &middot; Aetna in-network &middot; UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -686,10 +661,10 @@ export default function CaTineaTreatmentOnline() {
               <a href="/tinea-treatment-online/">National Tinea / Ringworm page</a>
               <a href="/health-guides/">Tinea / Ringworm health guides</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/insurance">Insurance</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/insurance/">Insurance</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>
@@ -699,14 +674,14 @@ export default function CaTineaTreatmentOnline() {
           <div className="tdmd-container">
             <h2>References and Primary Sources</h2>
             <ol className="tdmd-ref-list">
-              <li><a href="https://www.cdc.gov/fungal/diseases/ringworm/index.html" rel="noopener" target="_blank">CDC — Ringworm (Dermatophytosis). Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.cdc.gov/ringworm/about/index.html" rel="noopener" target="_blank">CDC — Ringworm (Dermatophytosis). Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.aad.org/public/diseases/a-z/ringworm-treatment" rel="noopener" target="_blank">AAD — Ringworm Diagnosis and Treatment. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Ringworm.aspx" rel="noopener" target="_blank">CDPH — Ringworm. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California B&P Code §2290.5. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 (AB 744). Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.goodrx.com/terbinafine" rel="noopener" target="_blank">GoodRx — Terbinafine Oral. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/ketoconazole-topical" rel="noopener" target="_blank">GoodRx — Ketoconazole Topical. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/ketoconazole" rel="noopener" target="_blank">GoodRx — Ketoconazole Topical. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.goodrx.com/fluconazole" rel="noopener" target="_blank">GoodRx — Fluconazole. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Prescriptions/Electronic_Prescribing.aspx" rel="noopener" target="_blank">Medical Board of California — AB 2789 Electronic Prescribing. Retrieved 2026-05-22.</a></li>
             </ol>

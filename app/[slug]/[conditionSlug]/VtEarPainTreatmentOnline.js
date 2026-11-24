@@ -12,7 +12,9 @@
  *   • Parth Bhavsar, MD · Family Medicine · Vermont-licensed.
  */
 
+import { stateConditionHref } from '../../../lib/live-routes';
 import FaqAccordion from '../../components/FaqAccordion';
+import { VtNationalStyle } from '../../components/VtNationalChrome';
 import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock } from '../../components/CostCompareModules';
 
 // ────────────────────────────────────────────────────────────────────────────
@@ -31,7 +33,7 @@ const PHYSICIAN = {
   licenseState: 'Vermont',
   licenseNumber: '042.0040345-COMP',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 const MEDICATIONS = [
@@ -96,7 +98,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -221,7 +223,8 @@ export default function VtEarPainTreatmentOnline() {
       ))}
       <style dangerouslySetInnerHTML={{ __html: PAGE_CSS }} />
 
-      <div className="vt-ear-pain-treatment-online">
+      <div className="vt-ear-pain-treatment-online tdmd-natl">
+        <VtNationalStyle />
         {/* Breadcrumb */}
         <nav className="tdmd-breadcrumbs" aria-label="Breadcrumb">
           <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: 0 }}>
@@ -250,7 +253,7 @@ export default function VtEarPainTreatmentOnline() {
                       Reviewed by <a href={PHYSICIAN.bioUrl}>{PHYSICIAN.name}</a> — Board-Certified {PHYSICIAN.specialty}
                     </span>
                     <span className="vt-ear-pain-treatment-online__byline-meta">
-                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
+                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
                       <time dateTime={DATE_MODIFIED}>{new Date(DATE_MODIFIED).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
                     </span>
                   </div>
@@ -274,9 +277,9 @@ export default function VtEarPainTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
                   <a href="/vt/" className="tdmd-btn tdmd-btn-outline">Explore Vermont Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> H66.90 (Otitis media) / H60.339 (Otitis externa) — final coding depends on clinical details</p>
@@ -355,7 +358,7 @@ export default function VtEarPainTreatmentOnline() {
 
             <h3>What standard of care applies to Vermont telehealth physicians?</h3>
             <p>
-              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: the standard of care is the same whether a patient is seen in person or by telehealth. Physicians must be licensed in Vermont to treat Vermont patients — a requirement TeleDirectMD satisfies. Dr. Bhavsar is a Vermont-licensed, board-certified physician of the American Board of Family Medicine and holds Vermont Medical License #042.0040345-COMP issued by the Vermont Board of Medical Practice. <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">Verify license</a> · <a href="/about/">Dr. Bhavsar bio</a>.
+              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: the standard of care is the same whether a patient is seen in person or by telehealth. Physicians must be licensed in Vermont to treat Vermont patients — a requirement TeleDirectMD satisfies. Dr. Bhavsar is a Vermont-licensed, board-certified physician of the American Board of Family Medicine and holds Vermont Medical License #042.0040345-COMP issued by the Vermont Board of Medical Practice. <a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">Verify license</a> · <a href="/about/">Dr. Bhavsar bio</a>.
             </p>
 
             <h3>Are these medications controlled substances under Vermont law?</h3>
@@ -390,7 +393,7 @@ export default function VtEarPainTreatmentOnline() {
                   <h3>Get a plan and, if appropriate, an e-prescription</h3>
                   <p>If medication is clinically appropriate, a Vermont-compliant e-prescription is sent to your chosen Vermont pharmacy — CVS, Walgreens, Rite Aid, Walmart, or another pharmacy — during or after the visit. You receive clear follow-up steps, including when to seek in-person care.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -418,25 +421,6 @@ export default function VtEarPainTreatmentOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical cost comparison">
-                <h3>Typical Ear Pain (AOM & Swimmer’s Ear) Visit Cost in Vermont</h3>
-                <p className="tdmd-price-caption">Common ranges Vermonters see before insurance. Actual costs vary by setting and city.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 13, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical Vermont metro pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <div className="tdmd-cashpay-note">
@@ -449,7 +433,7 @@ export default function VtEarPainTreatmentOnline() {
         <section className="tdmd-section" id={`${pid}-clinical`}>
           <div className="tdmd-container">
             <h2>Middle-Ear Infection vs. Swimmer’s Ear: How Vermont Care Differs</h2>
-            <p dangerouslySetInnerHTML={{ __html: `Acute otitis media (AOM) in adults usually follows one to three days of cold or flu symptoms, then brings ear pain, a sense of fullness or pressure, and reduced hearing in the affected ear. Per <a href="https://www.aafp.org/afp/2013/1001/p435" rel="noopener" target="_blank">AAFP guidance on otitis media</a>, antibiotic principles in adults mirror those in children, and adult AOM generally warrants antibiotic treatment. First-line therapy is amoxicillin, escalating to amoxicillin-clavulanate (Augmentin) when there has been recent antibiotic use or when broader coverage is needed. The eardrum cannot be examined over video, so the physician relies on the symptom pattern and screens carefully for complications.` }} />
+            <p dangerouslySetInnerHTML={{ __html: `Acute otitis media (AOM) in adults usually follows one to three days of cold or flu symptoms, then brings ear pain, a sense of fullness or pressure, and reduced hearing in the affected ear. Per an <a href="https://www.aafp.org/afp/2013/1001/p435" rel="noopener" target="_blank">American Family Physician review on otitis media</a>, antibiotic principles in adults mirror those in children, and adult AOM generally warrants antibiotic treatment. First-line therapy is amoxicillin, escalating to amoxicillin-clavulanate (Augmentin) when there has been recent antibiotic use or when broader coverage is needed. The eardrum cannot be examined over video, so the physician relies on the symptom pattern and screens carefully for complications.` }} />
             <p dangerouslySetInnerHTML={{ __html: `Acute otitis externa (AOE), or swimmer's ear, infects the ear canal and is recognized by tragal tenderness — pain when the small flap at the front of the ear is pressed — usually after recent water exposure, without the hearing loss or fever of a middle-ear infection. Per the <a href="https://www.entnet.org/quality-practice/quality-products/clinical-practice-guidelines/aoe/" rel="noopener" target="_blank">American Academy of Otolaryngology–Head and Neck Surgery (AAO-HNS) clinical practice guideline on acute otitis externa</a>, topical antibiotic ear drops are first-line, not oral antibiotics. TeleDirectMD prefers CiproDex (ciprofloxacin-dexamethasone) or ofloxacin drops, because both are safe even if the eardrum is perforated — important when eardrum integrity cannot be confirmed by video. Ototoxic drops such as neomycin-containing Cortisporin are avoided when eardrum status is uncertain.` }} />
             <p dangerouslySetInnerHTML={{ __html: `Some ear complaints need an in-person exam regardless. Sudden pain relief with ear drainage suggests a ruptured eardrum; vertigo, facial weakness, or swelling and redness behind the ear can signal serious complications such as mastoiditis. Severe pain lasting beyond 72 hours, or any significant ear infection in an immunocompromised or diabetic adult — a setting where necrotizing (malignant) otitis externa is a risk — should be evaluated in person. Vermonters can prevent swimmer's ear by drying the ears after swimming and avoiding cotton swabs in the canal. The 2014 AAO-HNS guideline remains the current authoritative standard, as no newer guideline has been published.` }} />
           </div>
@@ -459,7 +443,7 @@ export default function VtEarPainTreatmentOnline() {
         <section className="tdmd-section" id={`${pid}-medications`}>
           <div className="tdmd-container">
             <h2>Ear Pain (AOM & Swimmer’s Ear) Options and Medication Costs in Vermont</h2>
-            <p dangerouslySetInnerHTML={{ __html: `The options below follow <a href="https://www.entnet.org/quality-practice/quality-products/clinical-practice-guidelines/aoe/" rel="noopener" target="_blank">AAO-HNS 2014 guidance for otitis externa</a> and <a href="https://www.aafp.org/afp/2013/1001/p435" rel="noopener" target="_blank">AAFP guidance for otitis media</a>. All are non-controlled and prescribable by Vermont telehealth. Prescription costs are separate from the $79 visit fee.` }} />
+            <p dangerouslySetInnerHTML={{ __html: `The options below follow <a href="https://www.entnet.org/quality-practice/quality-products/clinical-practice-guidelines/aoe/" rel="noopener" target="_blank">AAO-HNS 2014 guidance for otitis externa</a> and <a href="https://www.aafp.org/afp/2013/1001/p435" rel="noopener" target="_blank">American Family Physician review of otitis media</a>. All are non-controlled and prescribable by Vermont telehealth. Prescription costs are separate from the $79 visit fee.` }} />
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Ear Pain (AOM & Swimmer’s Ear) medication options and prices">
                 <caption style={{ captionSide: 'bottom', textAlign: 'left', padding: '0.5rem 0', fontSize: '0.85rem', color: 'var(--tdmd-muted)' }}>
@@ -528,7 +512,7 @@ export default function VtEarPainTreatmentOnline() {
                 <p>Book a same-day video visit — Vermont adults, 18+</p>
                 <small>Cash-pay $79 flat · No insurance billing in Vermont · No ER wait</small>
               </div>
-              <a className="vt-ear-pain-treatment-online__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
+              <a className="vt-ear-pain-treatment-online__cta-btn" href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -551,8 +535,8 @@ export default function VtEarPainTreatmentOnline() {
                 <p>Book a same-day video visit. Cash-pay $79 flat. No insurance billing in Vermont.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -565,7 +549,7 @@ export default function VtEarPainTreatmentOnline() {
             <p>These Vermont condition pages may help when symptoms overlap, or when you want to explore another Vermont telehealth visit from TeleDirectMD.</p>
             <div className="vt-ear-pain-treatment-online__sibling-grid">
               {VT_SIBLINGS.map((s) => (
-                <a key={s.slug} className="vt-ear-pain-treatment-online__sibling" href={`/vt/${s.slug}/`}>
+                <a key={s.slug} className="vt-ear-pain-treatment-online__sibling" href={stateConditionHref('vt', s.slug) || `/${s.slug}/`}>
                   <span className="vt-ear-pain-treatment-online__sibling-label">{s.label}</span>
                   <span className="vt-ear-pain-treatment-online__sibling-why">{s.why}</span>
                 </a>
@@ -584,9 +568,9 @@ export default function VtEarPainTreatmentOnline() {
               <a href="/vt/">Vermont (state pillar)</a>
               <a href="/ear-pain-treatment-online/">National Ear Pain (AOM & Swimmer’s Ear) page</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>

@@ -1,3 +1,5 @@
+import { stateConditionHref } from '../../lib/live-routes';
+import { contentDate } from '../../lib/content-dates';
 import { getStates, getConditionSlugs, getCondition, getConditionCategories, resolveConditionNational } from '../../lib/get-data';
 import { generateNationalJsonLd } from '../../lib/json-ld-national';
 import { INSURERS, INSURANCE_CONDITIONS } from '../../data/insurance/insuranceConfig';
@@ -16,26 +18,26 @@ export default function NationalConditionPage({ conditionSlug }) {
   const condition = resolveConditionNational(rawCondition);
   const baseUrl = 'https://teledirectmd.com';
   const jsonLd = generateNationalJsonLd(condition);
-  const today = new Date().toISOString().split('T')[0];
+  const today = contentDate('nationalConditionPages');
   const pid = conditionSlug;
   const allStates = getStates();
   const categories = getConditionCategories();
 
   const nationalH1 = condition.hero.h1;
 
-  const nationalSubtitle = 'Nationwide adult care by secure video visit, self pay option starting at $79, MD-only. Insurance is not required but select plans are accepted.';
+  const nationalSubtitle = conditionSlug === 'uti-treatment-online' ? 'UTI care for non-pregnant adult women (18+) only. We do not treat male UTIs.' : 'Nationwide adult care by secure video visit, flat $79 self-pay option, MD-only. Insurance is not required but select plans are accepted.';
 
   /* National intro — replace residual state-specific text with national copy */
   const nationalIntro = condition.hero.introParagraph
     .replace(/This page is for adults located in one of our covered states, including communities nationwide\./g,
-      `TeleDirectMD is currently licensed in 44 states + DC. Select your state below to find your state-specific treatment page.`);
+      `TeleDirectMD is currently licensed in 40+ states + DC. Select your state below to find your state-specific treatment page.`);
 
   const nationalSideH2 = condition.hero.sideCard.h2;
 
   /* National benefits — swap location line for state count */
   const nationalBenefits = condition.hero.benefits.map((b) =>
     b.replace(/Licensed telehealth care for patients located in one of our covered states at the time of the visit/g,
-      `Licensed in 44 states + DC — select yours below`)
+      `Licensed in 40+ states + DC — select yours below`)
   );
 
   /* Find related conditions from same category */
@@ -58,11 +60,15 @@ export default function NationalConditionPage({ conditionSlug }) {
   // ── Citable summary for AI extractors (National condition)
   const citableSummary_AI = summarizeNationalCondition({ condition });
   const pageUrl_AI = `https://teledirectmd.com/${conditionSlug}/`;
-  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
+  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI, dateModified: contentDate('nationalConditionPages') });
 
   // Conversion architecture (per-condition opt-in; UTI canary first)
   const conversion = condition.conversion || {};
 
+  // Show the cost-comparison chart only when the condition data carries
+  // comparison bars beyond TeleDirectMD's own price (UTI carries none).
+  const hasPriceComparison = Array.isArray(condition.pricing && condition.pricing.comparisonBars)
+    && condition.pricing.comparisonBars.some((bar) => !bar.isTdmd);
   return (
     <>
       <script
@@ -82,7 +88,7 @@ export default function NationalConditionPage({ conditionSlug }) {
         <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: '0' }}>
           <a href="/">Home</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <a href="/what-we-treat">What We Treat</a>
+          <a href="/what-we-treat/">What We Treat</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
           <span aria-current="page">{condition.conditionName}</span>
         </div>
@@ -102,6 +108,32 @@ export default function NationalConditionPage({ conditionSlug }) {
             comparePage={getTopComparePageForCondition(conditionSlug)}
             symptomLinks={getSymptomsForCondition(conditionSlug)}
           />
+          {/* State pages for this condition. The legacy template carried this
+              grid; it dropped out when the redesign became the default (Jul 9,
+              commit 66bf1f6b), leaving national pages with no links to their
+              own state variants. Only live, sitemap-listed state pages are
+              linked (stateConditionHref returns null otherwise). */}
+          {(() => {
+            const stateLinks = allStates
+              .map((s) => ({ ...s, href: stateConditionHref(s.slug, conditionSlug) }))
+              .filter((s) => s.href);
+            if (stateLinks.length === 0) return null;
+            return (
+              <div className="cpr">
+                <section className="cpr-sec" id={`${pid}-states`} aria-labelledby={`${pid}-states-h`}>
+                  <div className="cpr-wrap">
+                    <h2 id={`${pid}-states-h`}>{condition.conditionName} care by state</h2>
+                    <p>TeleDirectMD is licensed in 40+ states. Choose your state for a page with that state&apos;s telehealth and prescribing rules. You must be located in the state at the time of your visit.</p>
+                    <nav className="tdmd-other-states-grid" aria-label={`${condition.conditionName} by state`}>
+                      {stateLinks.map((s) => (
+                        <a key={s.slug} className="tdmd-other-state-link" href={s.href}>{s.name}</a>
+                      ))}
+                    </nav>
+                  </div>
+                </section>
+              </div>
+            );
+          })()}
         </>
       )}
 
@@ -118,7 +150,7 @@ export default function NationalConditionPage({ conditionSlug }) {
             {condition.conditionName} online telemedicine:
           </p>
           <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
-            TeleDirectMD offers same-day video visits with a board-certified MD for {condition.conditionName.toLowerCase()} in 44 states + DC, starting at $79. A physician evaluates your symptoms, confirms the diagnosis, and sends a prescription to your preferred pharmacy — no waiting room, no referral required. Select your state below to see your state-specific page.
+            TeleDirectMD offers same-day video visits with a board-certified MD for {condition.conditionName.toLowerCase()} in 40+ states + DC, for a flat $79 self-pay fee. A physician evaluates your symptoms, confirms the diagnosis, and sends a prescription to your preferred pharmacy — no waiting room, no referral required. Select your state below to see your state-specific page.
           </p>
         </div>
       </div>
@@ -141,7 +173,7 @@ export default function NationalConditionPage({ conditionSlug }) {
             <span style={{ fontSize: '0.95rem', color: '#ffffff' }}>
               Prescription to <strong style={{ color: '#ffffff' }}>your pharmacy</strong> within the hour
             </span>
-            <a href="/book-online" className="tdmd-btn tdmd-btn-primary" style={{ whiteSpace: 'nowrap' }}>
+            <a href="/book-online/" className="tdmd-btn tdmd-btn-primary" style={{ whiteSpace: 'nowrap' }}>
               Book Now &rarr;
             </a>
           </div>
@@ -173,13 +205,13 @@ export default function NationalConditionPage({ conditionSlug }) {
               </ul>
 
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
 
               <p className="tdmd-reviewed">
                 Last reviewed on {today} by{' '}
-                <a className="tdmd-author-link" href="/about" aria-label="About Parth Bhavsar, MD">
+                <a className="tdmd-author-link" href="/about/" aria-label="About Parth Bhavsar, MD">
                   Parth Bhavsar, MD
                 </a>
               </p>
@@ -214,7 +246,7 @@ export default function NationalConditionPage({ conditionSlug }) {
               <h3>✓ You Are Eligible If</h3>
               <ul className="tdmd-checklist tdmd-checklist--good">
                 {condition.eligibility.eligible.map((item, i) => (
-                  <li key={i}>{item.replace(/You are physically located in one of our covered states at the time of the visit/g, `You are physically located in one of our 44 licensed states + DC at the time of the visit`)}</li>
+                  <li key={i}>{item.replace(/You are physically located in one of our covered states at the time of the visit/g, `You are physically located in one of our 40+ licensed states + DC at the time of the visit`)}</li>
                 ))}
               </ul>
             </div>
@@ -248,7 +280,7 @@ export default function NationalConditionPage({ conditionSlug }) {
                   <p>{step.description}</p>
                   {step.showCta && (
                     <div className="tdmd-decision-cta">
-                      <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                      <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                     </div>
                   )}
                 </div>
@@ -262,7 +294,7 @@ export default function NationalConditionPage({ conditionSlug }) {
       <section className="tdmd-section" id={`${pid}-telehealth-regulations`}>
         <div className="tdmd-container">
           <h2>Telehealth Regulations Across Our Licensed States</h2>
-          <p>TeleDirectMD is currently licensed to provide telehealth services in 44 states + DC. Each state has its own telehealth regulations, prescribing guidelines, and scope-of-practice rules. Our physicians follow all applicable state and federal regulations for every patient encounter.</p>
+          <p>TeleDirectMD is currently licensed to provide telehealth services in 40+ states + DC. Each state has its own telehealth regulations, prescribing guidelines, and scope-of-practice rules. Dr. Bhavsar follows all applicable state and federal regulations for every patient encounter.</p>
           <p>When you book a visit, you will be matched with a physician licensed in the state where you are physically located. This ensures your care meets all regulatory requirements for that jurisdiction. Select your state below to see specific telehealth regulations for your location.</p>
         </div>
       </section>
@@ -331,7 +363,7 @@ export default function NationalConditionPage({ conditionSlug }) {
                   )}
                   {step.showCta && (
                     <div className="tdmd-decision-cta">
-                      <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                      <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                     </div>
                   )}
                 </div>
@@ -359,11 +391,12 @@ export default function NationalConditionPage({ conditionSlug }) {
               </ul>
             </div>
 
-            <div className="tdmd-price-chart" role="group" aria-label="Typical cost comparison chart">
-              <h3>Typical Cost Comparison</h3>
-              <p className="tdmd-price-caption">Common ranges people see before insurance. Actual costs vary.</p>
-
-              {/* v3 (2026-05-23): vertical tdmd-vbar chart replacing horizontal tdmd-bar-row.
+            <div className="tdmd-price-chart" role="group" aria-label={hasPriceComparison ? "Typical cost comparison chart" : "Cost notes"}>
+              {hasPriceComparison && (
+                <>
+                  <h3>Typical Cost Comparison</h3>
+                  <p className="tdmd-price-caption">Common ranges people see before insurance. Actual costs vary.</p>
+                  {/* v3 (2026-05-23): vertical tdmd-vbar chart replacing horizontal tdmd-bar-row.
                   heightPct comes from the bar.width value in data/conditions/*.json (same
                   numeric scale, vertical axis instead of horizontal). */}
               <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
@@ -379,6 +412,8 @@ export default function NationalConditionPage({ conditionSlug }) {
                   </div>
                 ))}
               </div>
+                </>
+              )}
 
               <p className="tdmd-price-footnote">{condition.pricing.footnote}</p>
             </div>
@@ -402,7 +437,7 @@ export default function NationalConditionPage({ conditionSlug }) {
         <section className="tdmd-section tdmd-section-highlight" id={`${pid}-health-guide`}>
           <div className="tdmd-container">
             <h2>Related Health Guide</h2>
-            <p>For a deeper clinical guide to symptoms, prevention, and treatment, read our <a href={condition.guideLink.url}>{condition.guideLink.label}</a>, written and reviewed by our physicians to current clinical guidelines.</p>
+            <p>For a deeper clinical guide to symptoms, prevention, and treatment, read our <a href={condition.guideLink.url}>{condition.guideLink.label}</a>, written and reviewed by Dr. Bhavsar to current clinical guidelines.</p>
           </div>
         </section>
       )}
@@ -571,6 +606,26 @@ export default function NationalConditionPage({ conditionSlug }) {
           <p className="tdmd-med-note">
             <strong>Important:</strong> {condition.medications.note}
           </p>
+          {condition.medications.fdaNotes && condition.medications.fdaNotes.length > 0 && (
+            <div className="tdmd-med-footnotes" data-fda-notes="true">
+              <p className="tdmd-med-footnotes-lead"><strong>FDA labeling notes.</strong> It is legal and common for physicians to prescribe an FDA-approved medication for a use that is not in its approved labeling (off-label) when the evidence and the physician's judgment support it. The notes below say where that applies on this page.</p>
+              <ol>
+                {condition.medications.fdaNotes.map((note, i) => (
+                  <li key={i}>{note}</li>
+                ))}
+              </ol>
+            </div>
+          )}
+          {condition.medications.notPrescribed && condition.medications.notPrescribed.length > 0 && (
+            <div className="tdmd-med-not-prescribed" data-not-prescribed="true">
+              <p><strong>Not prescribed by TeleDirectMD for this condition:</strong></p>
+              <ul>
+                {condition.medications.notPrescribed.map((item, i) => (
+                  <li key={i}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       </section>
 
@@ -642,8 +697,8 @@ export default function NationalConditionPage({ conditionSlug }) {
               <p>{condition.faq.bottomCta.text}</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-              <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+              <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
             </div>
           </div>
         </div>
@@ -730,11 +785,14 @@ export default function NationalConditionPage({ conditionSlug }) {
       <section className="tdmd-section" id={`${pid}-states`}>
         <div className="tdmd-container">
           <h2>Get {condition.conditionName} in Your State</h2>
-          <p>TeleDirectMD treats {condition.conditionName.toLowerCase()} via telehealth in 44 states + DC. Select your state for a page tailored to your location, including local telehealth regulations and pharmacy options.</p>
+          <p>TeleDirectMD treats {condition.conditionName.toLowerCase()} via telehealth in 40+ states + DC. Select your state for a page tailored to your location, including local telehealth regulations and pharmacy options.</p>
 
           <div className="tdmd-other-states-grid">
-            {allStates.map((s) => (
-              <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}/${conditionSlug}`}>
+            {allStates
+              .map((s) => ({ ...s, href: stateConditionHref(s.slug, conditionSlug) }))
+              .filter((s) => s.href)
+              .map((s) => (
+              <a key={s.slug} className="tdmd-other-state-link" href={s.href}>
                 {s.name}
               </a>
             ))}
@@ -755,7 +813,7 @@ export default function NationalConditionPage({ conditionSlug }) {
                   key={i}
                   className="tdmd-related-card"
                   role="listitem"
-                  href={`/${rc.slug}`}
+                  href={`/${rc.slug}/`}
                   aria-label={`${rc.name} treatment online`}
                 >
                   <span className="tdmd-related-title">{rc.name}</span>
@@ -769,13 +827,13 @@ export default function NationalConditionPage({ conditionSlug }) {
             <h3>All Conditions We Treat</h3>
             <p className="tdmd-link-cloud">
               {otherConditions.map((c, i) => (
-                <a key={i} href={`/${c.slug}`}>{c.name}</a>
+                <a key={i} href={`/${c.slug}/`}>{c.name}</a>
               ))}
             </p>
           </div>
 
           <div className="tdmd-related-cta">
-            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">Explore All Adult Conditions</a>
+            <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">Explore All Adult Conditions</a>
           </div>
         </div>
       </section>
@@ -788,7 +846,7 @@ export default function NationalConditionPage({ conditionSlug }) {
           <div className="tdmd-related-grid" role="list">
             <a className="tdmd-related-card" role="listitem" href="/who-we-serve/truck-drivers/">
               <span className="tdmd-related-title">Truck Drivers</span>
-              <span className="tdmd-related-desc">Healthcare from any truck stop in 44 states</span>
+              <span className="tdmd-related-desc">Healthcare from any truck stop in 40+ states</span>
             </a>
             <a className="tdmd-related-card" role="listitem" href="/who-we-serve/gig-workers/">
               <span className="tdmd-related-title">Gig Workers & Freelancers</span>
@@ -820,11 +878,11 @@ export default function NationalConditionPage({ conditionSlug }) {
           <h2>More from TeleDirectMD</h2>
           <div className="tdmd-inline-links">
             <p className="tdmd-link-cloud">
-              <a href="/insurance">Insurance & Pricing</a>
-              <a href="/states-we-serve">States We Serve</a>
-              <a href="/who-we-serve">Who We Serve</a>
-              <a href="/faq">Frequently Asked Questions</a>
-              <a href="/book-online">Book a Visit</a>
+              <a href="/insurance/">Insurance & Pricing</a>
+              <a href="/states-we-serve/">States We Serve</a>
+              <a href="/who-we-serve/">Who We Serve</a>
+              <a href="/faq/">Frequently Asked Questions</a>
+              <a href="/book-online/">Book a Visit</a>
             </p>
           </div>
         </div>

@@ -1,0 +1,256 @@
+{
+  "stateCode": "NV",
+  "stateName": "Nevada",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "rural",
+    "regulation": "permissive",
+    "payerLandscape": "single-payer",
+    "epidemiology": [
+      "sti-high",
+      "flu-clark-county",
+      "rabies-bats"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "west",
+    "voiceNotes": "Plainspoken and western. Statewide density is low (28.3 per square mile in 2020) even though most searches come from the Las Vegas and Reno areas, so speak to both. Nevada's statute lets a relationship start by telehealth when clinically appropriate; say that plainly and keep the Curative-only payer line exact."
+  },
+  "stateHero": {
+    "openingParagraph": "Under NRS 629.515, a provider holding a Nevada license may start a relationship with a patient through telehealth when it is clinically appropriate. Parth Bhavsar, MD, a board-certified family medicine physician, holds a Nevada medical license, which means adults who are physically in Nevada, from Las Vegas, Henderson and North Las Vegas to Reno, Sparks, Carson City, Elko and Mesquite, can book a video visit with him directly. Every visit costs a flat $79 at booking, HSA and FSA cards work, and members of Curative plans can use their in-network benefit. When a prescription fits, it is sent electronically to the Nevada pharmacy you choose.",
+    "stateContextHint": "Licensed in Nevada. Video visits under NRS 629.515 for adults located in Nevada. Flat $79 self-pay; Curative plans in-network.",
+    "saturation": {
+      "stateNameMentions": 4,
+      "stateEntityMentions": 4
+    }
+  },
+  "stateEligibility": {
+    "intro": "Nevada's law looks at two things: the physician's license and the patient's location. NRS 629.515 requires a provider treating a patient in Nevada by telehealth to hold a valid Nevada license, and it does not authorize care that falls below the provider's standard of care. TeleDirectMD therefore sees adults 18 and older only while they are physically in Nevada. A visitor staying in Las Vegas qualifies for the length of the stay, and a Nevada resident who is out of state that day does not, until back in Nevada.",
+    "localTriggers": [
+      "Be physically in Nevada during the video visit. Visitors staying in Las Vegas or Reno count while they are here.",
+      "Nevada's statute defines telehealth to include audio-only interaction, but TeleDirectMD visits are by video so the physician can see you.",
+      "Near a state line? What counts is the side you are on when the visit starts, not where you live or work.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "The price in Nevada is the same flat $79 used everywhere TeleDirectMD practices, charged at booking, and HSA or FSA cards are accepted. If your employer's health plan is through Curative, TeleDirectMD is in-network for Curative commercial PPO, EPO and self-funded plans in Nevada, and your plan determines any cost to you. Nevada Medicaid is not accepted. Nevadans without coverage through an employer, Medicaid or Medicare can compare plans on Nevada Health Link, the marketplace run by the state's Silver State Health Insurance Exchange.",
+    "additionalNotes": [
+      "$79 flat self-pay at booking.",
+      "HSA and FSA cards accepted.",
+      "Curative plans in-network in Nevada; Nevada Medicaid not accepted."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "Prescriptions from a TeleDirectMD visit, when appropriate, go electronically to the Nevada pharmacy you choose. Two Nevada pharmacy rules are worth knowing. First, under SB 190, a Nevada pharmacist who has completed the Board of Pharmacy's requirements can dispense a self-administered hormonal contraceptive without a prescription, following a Board protocol and a risk assessment questionnaire, with limits on quantity. Second, NRS 639.23535 has required every controlled substance prescription to be sent electronically since January 1, 2022, and those prescriptions are tracked by the Nevada Prescription Monitoring Program (NV PMP). TeleDirectMD does not prescribe controlled substances in Nevada or elsewhere.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "Nevada's own surveillance shows where a quick video visit can help. The Office of State Epidemiology counted 15,766 chlamydia cases in 2023, a rate of 481.9 per 100,000 residents. In Clark County, the Southern Nevada Health District reported 1,272 influenza-associated hospitalizations and 46 flu deaths in the 2025-2026 season through April 25, 2026. The Nevada Department of Agriculture reports that bats are the most common source of rabies transmission in the state, with three rabid bats identified in 2026 from Lyon, White Pine and Clark counties. These figures are context, not a substitute for an individual evaluation.",
+    "citations": [
+      {
+        "label": "NRS 629.515, telehealth (as reproduced in a Nevada State Board of Oriental Medicine 2025 meeting exhibit)",
+        "url": "https://www.orientalmedicine.nv.gov/uploadedFiles/orientalmedicinenvgov/content/Meetings/2025/Ex3  Telehealth NRS629.pdf",
+        "scope": "all"
+      },
+      {
+        "label": "Nevada State Board of Pharmacy, SB 190 self-administered hormonal contraceptive notice, April 22, 2022",
+        "url": "https://bop.nv.gov/uploadedFiles/bopnvgov/content/home/features/SB 190 Self-Administered Hormonal Contraceptive Notice 04.22.2022.pdf",
+        "conditions": [
+          "birth-control-refills-online"
+        ]
+      },
+      {
+        "label": "Nevada State Board of Pharmacy, electronic prescribing mandate for controlled substances (NRS 639.23535)",
+        "url": "https://bop.nv.gov/resources/ALL/Electronic_Prescribing_Mandate_for_Controlled_Substances",
+        "scope": "all"
+      },
+      {
+        "label": "Nevada Prescription Monitoring Program (NV PMP)",
+        "url": "https://bop.nv.gov/links/pmp/",
+        "scope": "all"
+      },
+      {
+        "label": "Nevada Health Link, about the Silver State Health Insurance Exchange",
+        "url": "https://www.nevadahealthlink.com/about-nevada-health-link/",
+        "scope": "all"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, Nevada (V2025)",
+        "url": "https://www.census.gov/quickfacts/NV",
+        "scope": "hub"
+      },
+      {
+        "label": "Nevada Office of State Epidemiology, State of Nevada 2023 STD Fast Facts",
+        "url": "https://nvose.org/wp-content/uploads/2025/05/Nevada-2023-STD-Fast-Facts_Final-SW.pdf",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "Nevada DPBH technical bulletin, expedited partner therapy, May 24, 2021",
+        "url": "https://dpbh.nv.gov/uploadedFiles/dpbh.nv.gov/content/Programs/STD/dta/Providers/EPT Technical Bulletin_05242021.pdf",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "trichomoniasis-treatment-online"
+        ]
+      },
+      {
+        "label": "Nevada DPBH technical bulletin, CDC doxy PEP guidelines, September 24, 2024",
+        "url": "https://dpbh.nv.gov/uploadedFiles/dpbhnvgov/content/Resources/TB- Doxyclycline-PEP-9-24-24.pdf",
+        "conditions": [
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "Southern Nevada Health District, Weekly Influenza Surveillance Snapshot, MMWR week 16, 2026",
+        "url": "https://media.southernnevadahealthdistrict.org/download/epi/influenza/2025-26/influenza-week-16.pdf",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "Nevada Department of Agriculture, residents urged to vaccinate pets against rabies, July 23, 2026",
+        "url": "https://agri.nv.gov/News/2026/Nevada_residents_urged_to_vaccinate_pets_against_rabies/",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Nevada DPBH, tobacco cessation and the Nevada Tobacco Quitline",
+        "url": "https://www.dpbh.nv.gov/programs/chronic-diseases/tobacco-prevention-and-control-tpc/tobacco-cessation/",
+        "conditions": [
+          "smoking-cessation-treatment-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds a Nevada medical license, issued by the Nevada State Board of Medical Examiners, and the license can be checked through the Board's public license lookup. NRS 629.515 requires anyone providing telehealth to a patient in Nevada from a distant site to hold a valid Nevada license and allows a relationship to be established by telehealth when clinically appropriate. NPI: 1104323203.",
+    "verifyUrl": "https://medboard.nv.gov/Patients/PC_Main/",
+    "statuteCitation": "Nevada Revised Statutes 629.515 (telehealth)",
+    "licenseNumber": "26878",
+    "boardName": "Nevada State Board of Medical Examiners",
+    "boardUrl": "https://medboard.nv.gov/"
+  },
+  "stateCities": {
+    "metroAndRural": "Nevada had 3,282,188 residents in the Census Bureau's July 1, 2025 estimate, spread at 28.3 people per square mile in 2020. TeleDirectMD sees adults wherever they are in the state: Las Vegas, Henderson, North Las Vegas and Boulder City, Reno, Sparks, Fernley and Carson City, and Elko and Mesquite. Distance to a clinic does not change the visit or the $79 fee.",
+    "cityList": [
+      {
+        "city": "Las Vegas"
+      },
+      {
+        "city": "Henderson"
+      },
+      {
+        "city": "Reno"
+      },
+      {
+        "city": "North Las Vegas"
+      },
+      {
+        "city": "Sparks"
+      },
+      {
+        "city": "Carson City"
+      },
+      {
+        "city": "Elko"
+      },
+      {
+        "city": "Mesquite"
+      },
+      {
+        "city": "Boulder City"
+      },
+      {
+        "city": "Fernley"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "single-payer",
+    "selfPayDisclosure": "In Nevada, TeleDirectMD is in-network with Curative, an employer-sponsored plan, for commercial PPO, EPO and self-funded plans. For every other plan, and for anyone without insurance, the visit is a flat $79 self-pay fee paid at booking; TeleDirectMD does not file those claims, and HSA and FSA cards are accepted. Coverage decisions belong to your plan. Nevada Medicaid is not accepted. Nevada Health Link lists marketplace plans for residents who need coverage.",
+    "payers": [
+      {
+        "name": "Curative",
+        "anchorId": "curative-coverage",
+        "planNames": "Commercial PPO, EPO, and self-funded plans (EPO Value, EPO (PPOx), PPO (PPO+), PPO Max)",
+        "validFrom": "2026-07-07",
+        "copayNote": "Your Curative plan determines any cost sharing. Medicaid, Managed Medicaid and D-SNP plans are not accepted."
+      }
+    ]
+  },
+  "stateFaqs": [
+    {
+      "question": "Is it legal to start care with a doctor over video in Nevada?",
+      "answer": "Yes. NRS 629.515 allows a provider to establish a relationship with a patient using telehealth when it is clinically appropriate, provided the provider holds a valid Nevada license and keeps to the standard of care. Dr. Bhavsar holds a Nevada medical license. TeleDirectMD sees adults 18 and older who are physically in Nevada during the video visit, residents and visitors alike."
+    },
+    {
+      "question": "Does TeleDirectMD take insurance in Nevada?",
+      "answer": "In Nevada, TeleDirectMD is in-network with Curative commercial PPO, EPO and self-funded plans. Your Curative plan decides any cost to you. With any other insurance, or none, the visit is a flat $79 paid at booking, and HSA and FSA cards are accepted. Nevada Medicaid is not accepted."
+    },
+    {
+      "question": "How do I verify Dr. Bhavsar's Nevada license?",
+      "answer": "Parth Bhavsar, MD holds a Nevada medical license, issued by the Nevada State Board of Medical Examiners. The Board offers a public license lookup on its website. He is board-certified in family medicine by the American Board of Family Medicine, and his National Provider Identifier is 1104323203."
+    },
+    {
+      "question": "Can a Nevada pharmacist provide birth control without a prescription?",
+      "answer": "Yes. Under SB 190, a Nevada pharmacist who meets Board of Pharmacy requirements can dispense a self-administered hormonal contraceptive without a prescription, following the Board's protocol and a risk assessment questionnaire, with limits on quantity. TeleDirectMD's birth control visit is for adults already using a pill, patch or ring who need a renewal."
+    },
+    {
+      "question": "Will TeleDirectMD prescribe controlled substances in Nevada?",
+      "answer": "No. TeleDirectMD does not prescribe controlled substances in Nevada or any other state. In Nevada, NRS 639.23535 requires every controlled substance prescription to be transmitted electronically, and those prescriptions are tracked by the Nevada Prescription Monitoring Program. Other prescriptions, when appropriate, are sent electronically to your chosen pharmacy."
+    }
+  ],
+  "conditionOverrides": {
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "Nevada's Office of State Epidemiology counted 15,766 chlamydia cases in 2023, a rate of 481.9 per 100,000, slightly below the 16,189 cases in 2022. Nevada permits expedited partner therapy under NAC 441A.200(2)(f) for partners of a person diagnosed with chlamydia or gonorrhea, according to a 2021 state technical bulletin, so treatment for a partner may be possible without a separate exam. If you have a positive test, a video visit for adults physically in Nevada can review the result, prescribe treatment when appropriate and plan a retest. TeleDirectMD does not perform STI testing. Flat $79, or Curative in-network."
+    },
+    "trichomoniasis-treatment-online": {
+      "stateConditionParagraph": "Nevada handles partners differently for trichomoniasis than for chlamydia. The state's 2021 expedited partner therapy bulletin allows EPT for partners of people with chlamydia or gonorrhea but lists women with trichomoniasis among the situations where it is not recommended, so a partner should plan on an evaluation of their own. For adults physically in Nevada with a positive test or typical symptoms, a video visit can review the picture, prescribe treatment when appropriate and send it electronically to a Nevada pharmacy. Pregnancy, pelvic pain with fever, or an infection that has already failed treatment needs in-person care. Flat $79."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "Nevada's Division of Public and Behavioral Health issued a technical bulletin on September 24, 2024 on the CDC's doxy PEP guidelines. It encourages providers to discuss doxy PEP with gay, bisexual and other men who have sex with men and transgender women who had at least one bacterial STI in the last 12 months, at 200 mg of doxycycline taken within 72 hours after oral, vaginal or anal sex. A video visit for adults physically in Nevada reviews whether you fit, how to take it, side effects and the testing that goes with it. Sores, discharge or other active symptoms call for testing first. Flat $79."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "For the 2025-2026 season, the Southern Nevada Health District reported 1,272 influenza-associated hospitalizations and 46 flu deaths in Clark County from the start of the season through April 25, 2026. Antivirals help most when started early, so for adults physically in Nevada whose symptoms began within roughly the last 48 hours, a video visit can decide whether an antiviral is appropriate and send it to a nearby pharmacy, including for visitors staying in Las Vegas. Trouble breathing, chest pain, confusion or being unable to keep fluids down needs emergency care. Flat $79."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "The Nevada Department of Agriculture urges residents to keep pets vaccinated against rabies, noting that bats are the most common source of rabies transmission in the state; its laboratory identified three rabid bats from Lyon, White Pine and Clark counties in 2026. After any cat bite, your cat's rabies vaccination history is one of the first questions. For a superficial to moderate bite from a known domestic cat in the last 24 hours, a video visit for adults physically in Nevada covers wound care and whether an antibiotic is appropriate. A stray cat, a swollen hand or spreading redness needs in-person care. Flat $79."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "The Nevada Department of Agriculture says bats are the most common source of transmission and urges owners to vaccinate pets, and it directs people who see a possibly rabid animal to animal control, vector control or a health department. After a bite from a known domestic dog, ask the owner for the dog's rabies vaccination record. A video visit for adults physically in Nevada can assess a superficial to moderate wound on camera and decide whether antibiotics are appropriate. Deep wounds, facial wounds or a bite from a stray need in-person care. Flat $79."
+    },
+    "birth-control-refills-online": {
+      "stateConditionParagraph": "Since SB 190, Nevada pharmacists who meet Board of Pharmacy requirements can dispense self-administered hormonal contraceptives without a prescription, using a Board protocol and a risk assessment questionnaire, and the Board notes limits on how much can be dispensed. That route suits many people starting or switching a method. TeleDirectMD's visit fills a narrower gap: adults physically in Nevada who already use a pill, patch or ring prescribed elsewhere and need it renewed and sent to a Nevada pharmacy. New migraines with aura, a new blood clot, very high blood pressure or pregnancy need in-person care. Flat $79."
+    },
+    "smoking-cessation-treatment-online": {
+      "stateConditionParagraph": "Nevada residents who want to quit tobacco can call the Nevada Tobacco Quitline at 1-800-QUIT-NOW, which the state Division of Public and Behavioral Health describes as free and confidential online and telephone counseling in English or Spanish. Counseling works best alongside medication, and that is the piece a video visit covers. For adults physically in Nevada, Dr. Bhavsar can review your smoking history, health conditions and medicines and prescribe a quit-smoking medication when appropriate, sent electronically to a Nevada pharmacy. Pregnancy, a seizure disorder or a recent heart attack or stroke needs in-person care. Flat $79."
+    }
+  },
+  "relatedLinks": [],
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Nevada Revised Statutes 629.515 (telehealth)",
+        "renderAt": "hero-credential",
+        "content": "Under NRS 629.515, a provider of health care at a distant site must hold a valid Nevada license to provide services through telehealth to a patient in Nevada, and may establish a relationship with a patient using telehealth when it is clinically appropriate. TeleDirectMD treats patients located in Nevada by real-time video through a Nevada-licensed physician."
+      },
+      {
+        "statute": "Nevada Revised Statutes 639.23535 (electronic transmission of controlled substance prescriptions)",
+        "renderAt": "footer",
+        "content": "Nevada requires controlled substance prescriptions to be transmitted electronically under NRS 639.23535. TeleDirectMD does not prescribe controlled substances; other prescriptions, when appropriate, are sent electronically to the patient's chosen Nevada pharmacy."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}
