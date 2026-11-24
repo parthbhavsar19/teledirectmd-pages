@@ -222,7 +222,7 @@ export default function StateLandingPage({ stateSlug }) {
           ...(stateSlug === 'ny' ? [] : [{
             "@type": "Question",
             "name": `Can I have my TeleDirectMD visit in ${state.name} in a language other than English?`,
-            "acceptedAnswer": { "@type": "Answer", "text": "Dr. Bhavsar sees patients in English, Hindi, Gujarati and Urdu. He does not speak Spanish; Spanish-speaking patients can have a medical interpreter join the video visit." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Dr. Bhavsar sees patients in English, Hindi, Gujarati and Urdu. He does not speak Spanish. For Spanish or any of 300+ other languages, including ASL, a live medical interpreter from Jeenie can join the video visit." }
           }])
         ]
       }
@@ -362,7 +362,7 @@ export default function StateLandingPage({ stateSlug }) {
                 </div>
                 <div className="shx-row">
                   <dt>Your physician</dt>
-                  <dd className="shx-doc"><img src="/images/bhavsar-avatar.webp" alt="Parth Bhavsar, MD" width="44" height="44" /><span><strong>Parth Bhavsar, MD</strong>, board-certified in family medicine. MD-only, never an NP or PA. Visits in English, Hindi, Gujarati or Urdu; a Spanish interpreter can join.</span></dd>
+                  <dd className="shx-doc"><img src="/images/bhavsar-avatar.webp" alt="Parth Bhavsar, MD" width="44" height="44" /><span><strong>Parth Bhavsar, MD</strong>, board-certified in family medicine. MD-only, never an NP or PA. Visits in English, Hindi, Gujarati or Urdu; a live interpreter can join for 300+ other languages, including Spanish.</span></dd>
                 </div>
                 {stateLicense?.licenseNumber && (
                   <div className="shx-row">
@@ -734,7 +734,7 @@ export default function StateLandingPage({ stateSlug }) {
               ...(stateSlug === 'ny' ? [] : [{
                 question: `Can I have my visit in a language other than English?`,
                 answer: (
-                  <p>Dr. Bhavsar sees patients in English, Hindi, Gujarati and Urdu. He does not speak Spanish; Spanish-speaking patients can have a medical interpreter join the video visit.</p>
+                  <p>Dr. Bhavsar sees patients in English, Hindi, Gujarati and Urdu. He does not speak Spanish. For Spanish or any of 300+ other languages, including ASL, a live medical interpreter from Jeenie can join the video visit.</p>
                 ),
               }]),
               {
