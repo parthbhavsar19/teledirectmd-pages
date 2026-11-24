@@ -235,6 +235,11 @@ function main() {
       // Walgreens Virtual Healthcare's own $49 visit prices are sourced competitor
       // pricing on the comparison pages, not stale TeleDirectMD copy.
       if (rel === 'lib/compare-pages-config.js' && /Walgreens/.test(line)) return;
+      // Published competitor telehealth prices on the doctor visit cost page
+      // (Amazon One Medical video care "from $49", and the $49 to $99 range of
+      // those prices), dated and sourced to each company's own site.
+      if (['lib/condition-cost-data.js', 'app/cost/page.js', 'public/llms.txt'].includes(rel)
+        && /One Medical|telehealth (services|prices)/.test(line)) return;
       if (DOLLAR_49.test(line)) {
         priceProblems.push(`${rel}:${i + 1}  ${line.trim().slice(0, 200)}`);
       }

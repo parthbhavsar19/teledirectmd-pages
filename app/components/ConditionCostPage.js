@@ -228,6 +228,13 @@ export default function ConditionCostPage({ slug }) {
 
         <section className="ccx-sec ccx-method" aria-labelledby="method-h">
           <h2 id="method-h" className="ccx-h2">How we built these numbers</h2>
+          {cfg.method ? (
+            <ul>
+              {cfg.method.map((m, i) => (
+                <li key={i}>{rich(m, refNum, `method-${i}`)}</li>
+              ))}
+            </ul>
+          ) : (
           <ul>
             <li>
               Visit benchmarks: Medicare 2026 national non-facility amounts, total relative value units multiplied by the
@@ -245,6 +252,7 @@ export default function ConditionCostPage({ slug }) {
             </li>
             <li>Refresh schedule: Medicare rates every January 1, NADAC monthly, guidelines when CDC or IDSA update them.</li>
           </ul>
+          )}
           {cfg.related?.length ? (
             <p className="ccx-related">
               Related:{' '}

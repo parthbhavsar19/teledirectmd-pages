@@ -83,6 +83,7 @@ const LASTMOD_BY_PREFIX = [
   ['/cost/sinus-infection-treatment-cost', 'conditionCostPages'],
   ['/cost/sore-throat-treatment-cost', 'conditionCostPages'],
   ['/cost/flu-treatment-cost', 'conditionCostPages'],
+  ['/cost/online-doctor-visit-cost', 'doctorVisitCost'],
   ['/cost', 'costPages'],
   ['/faq/deep-dive', 'faqDeepDive'],
   ['/faq', 'faq'],
