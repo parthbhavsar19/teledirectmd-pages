@@ -87,6 +87,20 @@
       "status": 301
     },
     {
+      "src": "/documents/(terms-of-service|privacy-policy|notice-of-privacy-practices|telehealth-informed-consent|state-consent-disclosures|financial-responsibility|controlled-substance-policy|good-faith-estimate|nondiscrimination-notice|accessibility|consumer-health-data-privacy|texas-medical-board-complaint-notice)\\.pdf",
+      "headers": {
+        "Location": "/legal/$1.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/legal/?",
+      "headers": {
+        "Location": "/patient-policies/"
+      },
+      "status": 301
+    },
+    {
       "src": "/privacy-policy/?",
       "headers": {
         "Location": "/legal/privacy-policy.pdf"

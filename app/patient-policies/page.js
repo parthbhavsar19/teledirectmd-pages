@@ -7,6 +7,13 @@ export const metadata = {
 };
 
 const DOCUMENTS = [
+  { href: '/legal/terms-of-service.pdf', label: 'Terms of Service', note: 'The agreement for every visit, including which practice provides your care in each state (PDF).' },
+  { href: '/legal/privacy-policy.pdf', label: 'Website and General Privacy Policy', note: 'How we collect, use and share information (PDF).' },
+  { href: '/legal/notice-of-privacy-practices.pdf', label: 'Notice of Privacy Practices', note: 'How your health information is used and your HIPAA rights (PDF).' },
+  { href: '/legal/consumer-health-data-privacy.pdf', label: 'Consumer Health Data Privacy Policy', note: 'Consumer health data rights, including under Washington law (PDF).' },
+  { href: '/legal/good-faith-estimate.pdf', label: 'Good Faith Estimate Notice', note: 'Your right to a cost estimate for self-pay visits (PDF).' },
+  { href: '/legal/nondiscrimination-notice.pdf', label: 'Nondiscrimination Notice', note: 'Your civil rights and free language assistance (PDF).' },
+  { href: '/legal/accessibility.pdf', label: 'Accessibility Statement', note: 'How we support patients with disabilities (PDF).' },
   { href: '/legal/telehealth-informed-consent.pdf', label: 'Telehealth Informed Consent', note: 'How video visits work, their risks and limits, and your right to decline (PDF).' },
   { href: '/legal/state-consent-disclosures.pdf', label: 'State Disclosures', note: 'Notices required by individual states (PDF).' },
   { href: '/legal/financial-responsibility.pdf', label: 'Financial Responsibility', note: 'Fees, payment and what you are responsible for (PDF).' },
