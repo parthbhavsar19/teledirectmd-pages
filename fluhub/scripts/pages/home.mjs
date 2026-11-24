@@ -61,7 +61,7 @@ export default async function ({ data, emit }) {
     <div class="stat"><span class="stat-label">Flu-like illness, share of outpatient visits</span><span class="stat-value">${nat.latest.v.toFixed(1)}%</span><span class="stat-ctx">prior week ${nat.prior.v.toFixed(1)}%</span></div>
     <div class="stat"><span class="stat-label">Lab tests positive for influenza</span><span class="stat-value">${lab.latest.v.toFixed(1)}%</span><span class="stat-ctx">prior week ${lab.prior.v.toFixed(1)}%</span></div>
     <div class="stat"><span class="stat-label">New flu hospital admissions</span><span class="stat-value">${us.at(-1)[1].toLocaleString("en-US")}</span><span class="stat-ctx">prior week ${us.at(-2)[1].toLocaleString("en-US")}</span></div>
-    <div class="stat"><span class="stat-label">States at Moderate or higher</span><span class="stat-value">${counts[2] + counts[3] + counts[4]}<small>of 51</small></span><span class="stat-ctx">respiratory illness activity</span></div>
+    <div class="stat"><span class="stat-label">States at Moderate respiratory illness or higher</span><span class="stat-value">${counts[2] + counts[3] + counts[4]}<small>of 51</small></span><span class="stat-ctx">respiratory illness activity</span></div>
   </div>
 </section>
 ${topStatesHTML({ R: "" })}
@@ -70,7 +70,7 @@ ${topStatesHTML({ R: "" })}
   <div class="task-list">${tasks.map(([h, t, d]) => `<a class="task" href="${h}"><h3>${t}</h3><p>${d}</p></a>`).join("")}</div>
 </section>
 <section class="section grid-2" style="grid-template-columns:minmax(0,1.5fr) minmax(0,1fr)">
-  <div><div class="section-head"><h2>Respiratory illness by state</h2><p class="muted">CDC activity level, week ending ${fmtDate(activity.week)}. Select your state.</p></div>${tileMap(jur, levels, (j) => `state/${j.slug}.html`)}<div style="margin-top:12px">${ladder()}</div></div>
+  <div><div class="section-head"><h2>Respiratory illness by state</h2><p class="muted">CDC respiratory illness level (all respiratory viruses, including COVID-19 and RSV), week ending ${fmtDate(activity.week)}. Select your state, or see <a href="states.html#ranked">every state ranked by flu-like illness</a>.</p></div>${tileMap(jur, levels, (j) => `state/${j.slug}.html`)}<div style="margin-top:12px">${ladder()}</div></div>
   <div style="display:grid;gap:16px;align-content:start">
     <div class="callout crit"><p class="callout-title">${icon.alert}When flu is an emergency</p><p>Trouble breathing, chest pain or pressure, confusion, a seizure, not urinating, or a fever or cough that improves then returns worse. In children, also fast breathing, bluish lips, dehydration, or not waking or interacting. <a href="warning-signs.html">All warning signs</a></p></div>
     ${ctaBox()}

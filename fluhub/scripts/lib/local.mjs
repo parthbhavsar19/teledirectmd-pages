@@ -227,7 +227,7 @@ export function topStatesHTML({ R = "", n = 5 } = {}) {
   return `<section class="section" id="highest-this-week">
 <div class="section-head"><h2>Where flu is highest this week</h2><p class="muted">States ranked by the share of emergency department visits diagnosed as flu, a flu-specific measure CDC updates weekly for nearly every state.</p></div>
 <p>${lead}</p>
-<div class="table-wrap"><table><thead><tr><th class="n">Rank</th><th>State</th><th class="n">ED visits for flu</th><th>Trend</th><th>CDC activity level</th></tr></thead><tbody>${body}</tbody></table></div>
-<p class="small muted" style="margin-top:8px">Source: CDC National Syndromic Surveillance Program, ${rows.filter((r) => r.j.abbr !== "DC").length} states${rows.some((r) => r.j.abbr === "DC") ? " and DC" : ""} reporting. The activity level is CDC's acute respiratory illness level, which covers all respiratory illness, including COVID-19 and RSV. A high share of visits is not the same as the most cases; large states can have more cases at a lower share. <a href="${R}activity.html">All states this week</a>.</p>
+<div class="table-wrap"><table><thead><tr><th class="n">Rank</th><th>State</th><th class="n">ED visits for flu</th><th>Trend</th><th>Respiratory illness level</th></tr></thead><tbody>${body}</tbody></table></div>
+<p class="small muted" style="margin-top:8px">Source: CDC National Syndromic Surveillance Program, ${rows.filter((r) => r.j.abbr !== "DC").length} states${rows.some((r) => r.j.abbr === "DC") ? " and DC" : ""} reporting. The respiratory illness level is CDC's acute respiratory illness level, which covers all respiratory illness, including COVID-19 and RSV, so it can differ from the flu-like illness map in CDC's FluView. A high share of visits is not the same as the most cases; large states can have more cases at a lower share. <a href="${R}states.html#ranked">Every state ranked by flu-like illness</a>.</p>
 </section>`;
 }

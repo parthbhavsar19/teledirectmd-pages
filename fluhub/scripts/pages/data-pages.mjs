@@ -5,7 +5,10 @@ import { tileMap, ladder, levelChip, levelIndex, LEVELS } from "../lib/tilemap.m
 import { iliSummary, bySeason, typicalBand, seasonTicks, weekIndexLabel, nhsnSeasons, cumulative, fmtDate, seasonLabel, pctChange, ATYPICAL, atIndex } from "../lib/derive.mjs";
 import { epiweekEndISO, seasonOf, seasonWeekIndex, dateToEpiweek } from "../lib/mmwr.mjs";
 import { SITE } from "../../content/site.mjs";
-import { fluNearYouBox, SHUTDOWN_NOTE, edRankSentence, topStatesHTML } from "../lib/local.mjs";
+import { fluNearYouBox, SHUTDOWN_NOTE, edRankSentence, topStatesHTML, localData, pctEd } from "../lib/local.mjs";
+
+/** One sentence telling readers why our respiratory illness level can differ from the FluView map news reports quote. */
+const RESP_NOTE = "The respiratory illness level is CDC's acute respiratory illness measure. It counts emergency department visits for all respiratory illness, including COVID-19 and RSV, so it can differ from the flu-like illness (ILINet) activity map in CDC's weekly FluView report.";
 
 // Link a state page to that state's flu-care page on teledirectmd.com, only for
 // states listed in SITE.cta.stateCare (see content/site.mjs).
@@ -98,7 +101,7 @@ export default async function ({ data, emit }) {
   <div class="stat"><span class="stat-label">Outpatient visits for flu-like illness, nationally</span><span class="stat-value">${pct(nat.latest.v)}</span><span class="stat-ctx">${delta(nat.latest.v, nat.prior?.v, " pts")}<span>prior week ${pct(nat.prior?.v)}; same week last season ${pct(nat.lastYearSameWeek)}</span></span></div>
   <div class="stat"><span class="stat-label">Clinical lab specimens positive for influenza</span><span class="stat-value">${pct(natLab.latest.v)}</span><span class="stat-ctx">${delta(natLab.latest.v, natLab.prior?.v, " pts")}<span>prior week ${pct(natLab.prior?.v)}</span></span></div>
   <div class="stat"><span class="stat-label">New hospital admissions with confirmed flu, U.S.</span><span class="stat-value">${num(usNhsn.at(-1)?.[1])}</span><span class="stat-ctx">${delta(usNhsn.at(-1)?.[1], usNhsn.at(-2)?.[1], "", 0)}<span>${num(usNhsn.at(-1)?.[2], 2)} per 100,000; prior week ${num(usNhsn.at(-2)?.[1])}</span></span></div>
-  <div class="stat"><span class="stat-label">States plus DC at Moderate activity or higher</span><span class="stat-value">${modPlus}<small>of 51</small></span><span class="stat-ctx"><span>${counts[0]} very low, ${counts[1]} low, ${counts[2]} moderate, ${counts[3]} high, ${counts[4]} very high</span></span></div>
+  <div class="stat"><span class="stat-label">States plus DC at Moderate respiratory illness activity or higher</span><span class="stat-value">${modPlus}<small>of 51</small></span><span class="stat-ctx"><span>${counts[0]} very low, ${counts[1]} low, ${counts[2]} moderate, ${counts[3]} high, ${counts[4]} very high</span></span></div>
 </div>`;
 
   /* ---------------- This week ---------------- */
@@ -136,15 +139,15 @@ export default async function ({ data, emit }) {
   });
 
   const activityBody = `${pageHead({
-    eyebrow: `MMWR week ${latestEw % 100} · ${esc(SITE.weekLabel)}`,
+    eyebrow: `MMWR week ${latestEw % 100} · ${esc(SITE.weekLabel)} · updated ${fmtDate(meta.built)}`,
     title: "Flu activity this week",
-    lede: `How much flu is circulating in the United States right now, measured four ways: outpatient visits, lab tests, hospital admissions, and CDC's state activity levels. Updated every Friday after CDC publishes FluView.`,
+    lede: `How much flu is circulating in the United States right now, measured four ways: outpatient visits, lab tests, hospital admissions, and CDC's respiratory illness levels by state. Updated every Friday after CDC publishes FluView.`,
   })}
 ${seasonNote ? `<div class="section" style="margin-top:28px">${seasonNote}</div>` : ""}
 <section class="section">${statStrip}</section>
 
 <section class="section">
-  <div class="section-head"><h2>Activity level by state</h2><p class="muted">CDC's acute respiratory illness (ARI) activity level compares each state's share of emergency department visits for respiratory illness with its own past seasons. Select a state for its full history.</p></div>
+  <div class="section-head"><h2>Respiratory illness level by state</h2><p class="muted">CDC's acute respiratory illness (ARI) activity level compares each state's share of emergency department visits for respiratory illness with its own past seasons. Select a state for its full history.</p></div>
   <div class="grid-2" style="grid-template-columns:minmax(0,1.6fr) minmax(0,1fr)">
     <div>${tileMap(jur, levels, (j) => `state/${j.slug}.html`)}</div>
     <div class="col" style="display:grid;gap:14px;align-content:start">
@@ -167,7 +170,7 @@ ${topStatesHTML({ R: "" })}
 
 <section class="section">
   <div class="section-head"><h2>Every state, this week</h2><p class="muted">Select a column header to sort. The trend line covers the last 16 weeks of outpatient flu-like illness.</p></div>
-  <div class="table-wrap"><table class="sortable"><thead><tr><th>State</th><th>Activity level</th><th class="n">Flu-like illness</th><th class="n">vs prior wk</th><th class="n">Lab % positive</th><th class="n">Admits per 100k</th><th>16 weeks</th></tr></thead><tbody>${stateRows}</tbody></table></div>
+  <div class="table-wrap"><table class="sortable"><thead><tr><th>State</th><th>Respiratory illness level</th><th class="n">Flu-like illness</th><th class="n">vs prior wk</th><th class="n">Lab % positive</th><th class="n">Admits per 100k</th><th>16 weeks</th></tr></thead><tbody>${stateRows}</tbody></table></div>
   <p class="chart-note" style="margin-top:8px">State flu-like illness is unweighted %ILI from providers in that state. A dash means the state did not report that week or the measure is not published for it.</p>
 </section>
 
@@ -185,13 +188,47 @@ ${topStatesHTML({ R: "" })}
 
   /* ---------------- States index ---------------- */
   const idx = states.concat(jur.filter((j) => j.territory)).map((s) => `<li><a href="state/${s.slug}.html">${esc(s.name)}</a>${levelChip(levels[s.activityName])}</li>`).join("");
+  // Ranked by outpatient flu-like illness (ILINet), the state measure CDC's FluView map and most news reports use.
+  // Only states whose latest ILINet week is the national latest week are ranked, so no stale value outranks a fresh one.
+  const { extra: edX } = localData();
+  const iliRank = states.map((s) => ({ s, x: J[s.abbr] }))
+    .filter((r) => r.x.ili && r.x.ili.latest.date === weekEnd && r.x.ili.latest.v != null)
+    .sort((a, b) => b.x.ili.latest.v - a.x.ili.latest.v);
+  const iliTop = iliRank.slice(0, 5).map((r) => `${esc(r.s.name)} (${pct(r.x.ili.latest.v)})`);
+  const iliLead = iliRank.length >= 10
+    ? `${iliTop.slice(0, 2).join(" and ")} had the highest share of outpatient visits for flu-like illness in the week ending ${fmtDate(weekEnd)}, followed by ${iliTop.slice(2, -1).join(", ")} and ${iliTop.at(-1)}, according to CDC ILINet data. Nationally, the weighted figure was ${pct(nat.latest.v)}.`
+    : "";
+  const iliRows = iliRank.map((r, i) => {
+    const x = r.x, e = edX[r.s.abbr], nh = x.nh?.at(-1);
+    const ly = x.ili.prevMissing ? null : x.ili.lastYearSameWeek;
+    return `<tr><td class="n" data-v="${i + 1}">${i + 1}</td><td><a href="state/${r.s.slug}.html">${esc(r.s.name)}</a></td><td class="n" data-v="${x.ili.latest.v}">${pct(x.ili.latest.v)}</td><td class="n" data-v="${ly ?? -1}">${pct(ly)}</td><td class="n" data-v="${e?.ed_pct ?? -1}">${pctEd(e?.ed_pct)}</td><td class="n" data-v="${nh?.[2] ?? -1}">${nh?.[2] != null ? num(nh[2], 2) : "–"}</td><td data-v="${levelIndex(x.level)}">${levelChip(x.level)}</td></tr>`;
+  }).join("");
+  const notRanked = states.filter((s) => !iliRank.some((r) => r.s.abbr === s.abbr)).map((s) => esc(s.name));
   await emit("states.html", page({ staleNote: true,
     path: "states.html", active: "states.html",
-    title: "Flu by state",
-    description: "Flu activity, history, hospital admissions, and vaccination coverage for every U.S. state, DC, and territory.",
-    body: `${pageHead({ eyebrow: esc(SITE.weekLabel), title: "Flu in your state", lede: "Every state page shows this week's level, the state's flu curve against its own past seasons, hospital admissions since 2020, and how many residents get vaccinated." })}
-<section class="section"><div class="grid-2" style="grid-template-columns:minmax(0,1.6fr) minmax(0,1fr)"><div>${tileMap(jur, levels, (j) => `state/${j.slug}.html`)}</div><div>${ladder()}</div></div></section>
+    title: "Flu by state this week",
+    description: iliRank.length >= 2
+      ? `Flu by state, week ending ${fmtDate(weekEnd)}: ${iliRank[0].s.name} (${pct(iliRank[0].x.ili.latest.v)}) and ${iliRank[1].s.name} (${pct(iliRank[1].x.ili.latest.v)}) led in outpatient flu-like illness. CDC data for every state, ranked.`
+      : "Flu activity, history, hospital admissions, and vaccination coverage for every U.S. state, DC, and territory.",
+    body: `${pageHead({ eyebrow: `${esc(SITE.weekLabel)} · updated ${fmtDate(meta.built)}`, title: "Flu by state this week", lede: iliLead || "Every state page shows this week's level, the state's flu curve against its own past seasons, hospital admissions since 2020, and how many residents get vaccinated." })}
+${iliRows ? `<section class="section" id="ranked">
+  <div class="section-head"><h2>Every state, ranked by flu-like illness</h2><p class="muted">Share of outpatient visits for fever with cough or sore throat (CDC ILINet), week ending ${fmtDate(weekEnd)}. Select a column header to sort.</p></div>
+  <div class="table-wrap"><table class="sortable"><thead><tr><th class="n">Rank</th><th>State</th><th class="n">Flu-like illness</th><th class="n">Same week last season</th><th class="n">ED visits for flu</th><th class="n">Admits per 100k</th><th>Respiratory illness level</th></tr></thead><tbody>${iliRows}</tbody></table></div>
+  <p class="chart-note" style="margin-top:8px">Flu-like illness is unweighted state %ILI from CDC ILINet; the national figure is weighted. ED visits for flu is the share of emergency department visits diagnosed as influenza (CDC NSSP)${edX.US?.ed_week ? `, week ending ${fmtDate(edX.US.ed_week)}` : ""}. Admissions are new hospital admissions with confirmed flu per 100,000 people (CDC NHSN). ${RESP_NOTE}${notRanked.length ? ` Not ranked this week because CDC has no current ILINet value: ${notRanked.join(", ")}.` : ""} Download this table as <a href="data/state-weekly-latest.csv">CSV</a>.</p>
+</section>` : ""}
+<section class="section"><div class="section-head"><h2>Respiratory illness level by state</h2><p class="muted">${RESP_NOTE}</p></div><div class="grid-2" style="grid-template-columns:minmax(0,1.6fr) minmax(0,1fr)"><div>${tileMap(jur, levels, (j) => `state/${j.slug}.html`)}</div><div>${ladder()}</div></div></section>
+<section class="section prose col" id="why-maps-differ">
+  <h2>Why flu maps by state disagree</h2>
+  <p>Three CDC measures are commonly called "flu activity," and they can rank the same state differently in the same week:</p>
+  <ul>
+    <li><b>Flu-like illness (ILINet):</b> the share of outpatient visits for fever with cough or sore throat. This drives the state map in CDC's weekly FluView report and the table above.</li>
+    <li><b>Emergency department visits for flu (NSSP):</b> the share of ED visits with a flu diagnosis. It is flu-specific and reported for nearly every state.</li>
+    <li><b>Respiratory illness level:</b> CDC's acute respiratory illness level, which counts all respiratory viruses, including COVID-19 and RSV.</li>
+  </ul>
+  <p>When you cite a state's level, name the measure and the week. Definitions and lags are on <a href="methods.html">Sources and methods</a>.</p>
+</section>
 <section class="section"><h2 style="margin-bottom:14px">All states and territories</h2><ul class="state-index">${idx}</ul></section>`,
+    jsonld: [datasetLD("U.S. influenza activity by state", `Weekly influenza-like illness, emergency department visits for flu, hospital admissions and respiratory illness level for every U.S. state and DC, from CDC ILINet, NSSP and NHSN, week ending ${weekEnd}.`, "2010-10-09/" + weekEnd, true)],
   }));
 
   /* ---------------- State pages ---------------- */
@@ -204,7 +241,7 @@ ${topStatesHTML({ R: "" })}
     const lab = x.labRows?.at(-1);
     const nh = x.nh?.at(-1);
     strip = `<div class="strip">
-<div class="stat"><span class="stat-label">CDC activity level</span><span class="stat-value" style="font-size:1.5rem">${levelChip(lv)}</span><span class="stat-ctx">week ending ${fmtDate(activity.week)}</span></div>
+<div class="stat"><span class="stat-label">Respiratory illness level (CDC)</span><span class="stat-value" style="font-size:1.5rem">${levelChip(lv)}</span><span class="stat-ctx">all respiratory viruses; week ending ${fmtDate(activity.week)}</span></div>
 <div class="stat"><span class="stat-label">Outpatient visits for flu-like illness</span><span class="stat-value">${pct(x.ili?.latest.v)}</span><span class="stat-ctx">${x.ili ? `${delta(x.ili.latest.v, x.ili.prior?.v, " pts")}<span>${x.ili.prevMissing ? `${seasonLabel(x.ili.expectedPrev)} not in CDC feed` : `same week last season ${pct(x.ili.lastYearSameWeek)}`}</span>` : "<span>Not reported for this jurisdiction</span>"}</span></div>
 <div class="stat"><span class="stat-label">New flu hospital admissions</span><span class="stat-value">${nh ? num(nh[1]) : "–"}</span><span class="stat-ctx">${nh ? `<span>${num(nh[2], 2)} per 100,000 (U.S. ${num(usNhsn.at(-1)[2], 2)})</span>` : "<span>Not reported</span>"}</span></div>
 <div class="stat"><span class="stat-label">Vaccinated last season, ${seasonLabel(lastCov)}</span><span class="stat-value">${covCur?.all != null ? pct(covCur.all, 0) : "–"}</span><span class="stat-ctx"><span>${covCur ? `adults ${pct(covCur.adult, 0)}, children ${pct(covCur.child, 0)}; U.S. ${pct(usCov[lastCov]?.all, 0)}` : "Not published"}</span></span></div>
@@ -260,15 +297,17 @@ ${topStatesHTML({ R: "" })}
     await emit(`state/${j.slug}.html`, page({ staleNote: true,
       path: `state/${j.slug}.html`, active: "states.html", noindex: thin,
       title: `Flu in ${j.name}`,
-      description: `${j.name} flu activity for the week ending ${fmtDate(weekEnd)}${lv ? ` (${lv})` : ""}, with the state's flu curve compared to past seasons, hospital admissions since 2020, and vaccination rates.`,
-      body: `${pageHead({ R: R1, crumbs: [["states.html", "States"], [null, j.name]], eyebrow: esc(SITE.weekLabel), title: `Flu in ${esc(j.name)}`, lede: x.ili ? `Outpatient flu-like illness in ${esc(j.name)} was ${pct(x.ili.latest.v)} of visits in the week ending ${fmtDate(x.ili.latest.date)}${x.ili.prevMissing ? `. CDC's state ILINet feed has no ${seasonLabel(x.ili.expectedPrev)} season for ${esc(j.name)}, so the chart compares this season with ${seasonLabel(x.ili.prev)} and the state's earlier seasons.` : `, compared with ${pct(x.ili.lastYearSameWeek)} at the same point last season.`}${edRankSentence(j)}` : `Here is what CDC publishes for ${esc(j.name)}. Some national surveillance systems do not report separately for every territory.` })}
-<section class="section">${strip}</section>
+      description: x.ili && x.ili.latest.date === weekEnd
+        ? `Flu in ${j.name}, week ending ${fmtDate(weekEnd)}: ${pct(x.ili.latest.v)} of outpatient visits were for flu-like illness${x.ili.prevMissing || x.ili.lastYearSameWeek == null ? "" : `, vs ${pct(x.ili.lastYearSameWeek)} a year earlier`}. CDC data on the state's flu curve, hospital admissions, and vaccination.`
+        : `${j.name} flu data for the week ending ${fmtDate(weekEnd)}: the state's flu curve compared to past seasons, hospital admissions since 2020, and vaccination rates, from CDC.`,
+      body: `${pageHead({ R: R1, crumbs: [["states.html", "States"], [null, j.name]], eyebrow: `${esc(SITE.weekLabel)} · updated ${fmtDate(meta.built)}`, title: `Flu in ${esc(j.name)}`, lede: x.ili ? `Outpatient flu-like illness in ${esc(j.name)} was ${pct(x.ili.latest.v)} of visits in the week ending ${fmtDate(x.ili.latest.date)}${x.ili.prevMissing ? `. CDC's state ILINet feed has no ${seasonLabel(x.ili.expectedPrev)} season for ${esc(j.name)}, so the chart compares this season with ${seasonLabel(x.ili.prev)} and the state's earlier seasons.` : `, compared with ${pct(x.ili.lastYearSameWeek)} at the same point last season.`}${edRankSentence(j)}` : `Here is what CDC publishes for ${esc(j.name)}. Some national surveillance systems do not report separately for every territory.` })}
+<section class="section">${strip}<p class="small muted" style="margin-top:8px">${RESP_NOTE}</p></section>
 <section class="section">${fluNearYouBox(j.abbr, { R: R1 })}</section>
 ${seasonNote ? `<div class="section" style="margin-top:28px">${seasonNote}</div>` : ""}
 <section class="section" style="display:grid;gap:44px">${charts || '<p class="muted">CDC does not publish weekly flu surveillance series for this jurisdiction.</p>'}</section>
 <section class="section grid-2">
   ${peaks ? `<div><h3 style="margin-bottom:10px">Season peaks</h3><div class="table-wrap"><table><thead><tr><th>Season</th><th class="n">Peak %ILI</th><th>Peak week</th></tr></thead><tbody>${peaks}</tbody></table></div></div>` : ""}
-  <div><h3 style="margin-bottom:10px">Activity level archive</h3><div class="table-wrap"><table><thead><tr><th>Week ending</th><th>Level</th></tr></thead><tbody>${archRows}</tbody></table><p class="small muted" style="padding:8px 12px">FluHub started archiving CDC's weekly levels on ${fmtDate(archWeeks[0])}; CDC keeps only the current week.</p></div></div>
+  <div><h3 style="margin-bottom:10px">Respiratory illness level archive</h3><div class="table-wrap"><table><thead><tr><th>Week ending</th><th>Level</th></tr></thead><tbody>${archRows}</tbody></table><p class="small muted" style="padding:8px 12px">FluHub started archiving CDC's weekly levels on ${fmtDate(archWeeks[0])}; CDC keeps only the current week.</p></div></div>
 </section>
 <section class="section"><div class="task-list">
   <a class="task" href="../find-a-flu-shot.html#${j.abbr}"><h3>Find a flu shot in ${esc(j.name)}</h3><p>Pharmacies, clinics, and health centers near you, sorted by distance.</p><span class="go">Search locations</span></a>
@@ -404,8 +443,9 @@ ${pedBars ? `<section class="section">${pedBars}</section>` : ""}
   const nhMap = new Map(usNhsn.map((r) => [dateToEpiweek(r[0]), r]));
   await emit("data/national-weekly.csv", csv([["mmwr_week", "week_ending", "season", "weighted_ili_pct", "lab_percent_positive", "nhsn_flu_admissions", "nhsn_admissions_per_100k"],
     ...ilinet.series.nat.map(([ew, v]) => [ew, epiweekEndISO(ew), seasonOf(ew), v, natLabMap.get(ew) ?? "", nhMap.get(ew)?.[1] ?? "", nhMap.get(ew)?.[2] ?? ""])]));
-  await emit("data/state-weekly-latest.csv", csv([["state", "abbr", "week_ending", "ari_activity_level", "ili_pct", "lab_percent_positive", "nhsn_flu_admissions", "nhsn_admissions_per_100k"],
-    ...jur.map((j) => { const x = J[j.abbr]; return [j.name, j.abbr, activity.week, x.level || "", x.ili?.latest.v ?? "", x.labRows?.at(-1)?.[1] ?? "", x.nh?.at(-1)?.[1] ?? "", x.nh?.at(-1)?.[2] ?? ""]; })]));
+  const { extra: edCsv } = localData();
+  await emit("data/state-weekly-latest.csv", csv([["state", "abbr", "week_ending", "ari_activity_level", "ili_pct", "ili_week_ending", "ili_pct_same_week_last_season", "ed_flu_pct", "ed_week_ending", "lab_percent_positive", "nhsn_flu_admissions", "nhsn_admissions_per_100k"],
+    ...jur.map((j) => { const x = J[j.abbr]; const e = edCsv[j.abbr]; return [j.name, j.abbr, activity.week, x.level || "", x.ili?.latest.v ?? "", x.ili?.latest.date ?? "", x.ili && !x.ili.prevMissing ? x.ili.lastYearSameWeek ?? "" : "", e?.ed_pct ?? "", e?.ed_pct != null ? e.ed_week ?? "" : "", x.labRows?.at(-1)?.[1] ?? "", x.nh?.at(-1)?.[1] ?? "", x.nh?.at(-1)?.[2] ?? ""]; })]));
   await emit("data/season-scorecard.csv", csv([["season", "peak_weighted_ili_pct", "peak_week_index", "flusurv_cum_rate_oct_apr", "est_illnesses", "est_hospitalizations", "est_deaths", "pediatric_deaths", "vaccine_effectiveness_pct", "adult_coverage_pct", "child_coverage_pct"],
     ...allSeasons.map((s) => { const p = nat.peak(s); return [s, p?.[1] ?? "", p?.[0] ?? "", fsTotal(s) ?? "", bMap[s]?.illnesses ?? "", bMap[s]?.hospitalizations ?? "", bMap[s]?.deaths ?? "", pMap[s]?.deaths ?? "", veMap[s]?.ve ?? "", usCov[s]?.adult ?? "", usCov[s]?.child ?? ""]; })]));
 
@@ -437,7 +477,7 @@ ${pedBars ? `<section class="section">${pedBars}</section>` : ""}
   <div class="section-head"><h2>Download the data</h2><p class="muted">Plain CSV, regenerated weekly. Free to reuse with attribution to CDC as the original source.</p></div>
   <div class="task-list">
     <a class="task" href="data/national-weekly.csv"><h3>National weekly series</h3><p>%ILI, lab percent positive, and hospital admissions for every week since October 2010.</p><span class="go mono">national-weekly.csv</span></a>
-    <a class="task" href="data/state-weekly-latest.csv"><h3>States, this week</h3><p>Activity level, %ILI, percent positive, and admissions for all 56 jurisdictions.</p><span class="go mono">state-weekly-latest.csv</span></a>
+    <a class="task" href="data/state-weekly-latest.csv"><h3>States, this week</h3><p>%ILI with the same week last season, ED visits for flu, respiratory illness level, percent positive, and admissions for all 56 jurisdictions.</p><span class="go mono">state-weekly-latest.csv</span></a>
     <a class="task" href="data/season-scorecard.csv"><h3>Season scorecard</h3><p>Peak, hospitalization rate, burden, child deaths, effectiveness, and coverage by season.</p><span class="go mono">season-scorecard.csv</span></a>
   </div>
 </section>
@@ -448,7 +488,7 @@ ${pedBars ? `<section class="section">${pedBars}</section>` : ""}
       <li><b>Is flu season here?</b> <a href="activity.html">This week</a>: national %ILI above CDC's baseline and lab percent positive above roughly 5% mark the season.</li>
       <li><b>Is this a bad season?</b> <a href="seasons.html">Seasons compared</a>: the FluSurv-NET hospitalization rate is the cleanest severity measure across years.</li>
       <li><b>How well does the shot work this year?</b> <a href="vaccines.html#effectiveness">Vaccine effectiveness</a>, with interim and past-season estimates.</li>
-      <li><b>Where is flu rising?</b> <a href="states.html">State pages</a>, each with a 15-season history.</li>
+      <li><b>Which states have the most flu?</b> <a href="states.html#ranked">Every state ranked</a> by flu-like illness, with the same week last season and ED visits for flu; each <a href="states.html">state page</a> has a 15-season history.</li>
       <li><b>Who should get Tamiflu or Xofluza?</b> <a href="treatment.html">Treatment</a>, written to CDC's March 2026 clinician summary.</li>
       <li><b>Bird flu?</b> <a href="bird-flu.html">H5N1 tracker</a> with CDC's latest human case count.</li>
       <li><b>Who sets vaccine recommendations now?</b> <a href="vaccines.html#policy">The 2025 and 2026 policy changes</a>, dated and sourced.</li>
@@ -456,11 +496,11 @@ ${pedBars ? `<section class="section">${pedBars}</section>` : ""}
   </div>
   <div class="panel" style="display:grid;gap:12px">
     <h3>How to cite</h3>
-    <p class="small">Attribute figures to their original source, for example "according to CDC FluView data." When you used this page to find them: "compiled by FluHub from CDC data, week ending ${fmtDate(weekEnd)}."</p>
+    <p class="small">Attribute figures to their original source, for example "according to CDC FluView data." When you used this page to find them: "compiled by TeleDirectMD's FluHub from CDC data, week ending ${fmtDate(weekEnd)}."</p>
     <h3>Methodology</h3>
     <p class="small">Definitions, data lags, and how each measure is calculated are on <a href="methods.html">Sources and methods</a>.</p>
     <h3>Physician interviews</h3>
-    <p class="small">${esc(SITE.editor)}, ${esc(SITE.editorCred)}, is available for comment on flu treatment, testing, and telehealth. <span class="mono">${esc(SITE.email)}</span></p>
+    <p class="small">${esc(SITE.editor)}, ${esc(SITE.editorCred)}, is available for comment on flu treatment, testing, and telehealth. <a class="mono" href="mailto:${esc(SITE.email)}">${esc(SITE.email)}</a></p>
   </div>
 </section>`;
   await emit("media.html", page({ staleNote: true,
@@ -476,6 +516,7 @@ ${pedBars ? `<section class="section">${pedBars}</section>` : ""}
       "@context": "https://schema.org", "@type": "Dataset", name, description,
       temporalCoverage: temporal, spatialCoverage: { "@type": "Place", name: "United States" },
       creator: { "@type": "Organization", name: SITE.name, url: SITE.baseUrl },
+      publisher: { "@type": "Organization", name: "TeleDirectMD", url: "https://teledirectmd.com/" },
       isBasedOn: ["https://www.cdc.gov/fluview/", "https://data.cdc.gov/d/ua7e-t2fy", "https://data.cdc.gov/d/vh55-3he6"],
       license: "https://www.usa.gov/government-copyright", dateModified: meta.built,
     };
