@@ -48,9 +48,10 @@
       },
       {
         "name": "Anthem Blue Cross",
-        "status": "Pending",
-        "effective_date": null,
-        "in_network": false
+        "status": "Active",
+        "effective_date": "2026-09-23",
+        "in_network": true,
+        "notes": "PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included."
       },
       {
         "name": "Cigna",
@@ -66,7 +67,7 @@
         "notes": "Commercial + Medicare Advantage. Excludes Medi-Cal, Individual Exchange, Navigate/Charter/Core."
       }
     ],
-    "cash_price": 49
+    "cash_price": 79
   },
   "california_epidemiology": {
     "summary": "Conjunctivitis (pink eye) is one of the most common eye conditions, with an estimated 6 million cases annually in the United States. The California Department of Public Health notes that adenoviral conjunctivitis is the most common cause of infectious conjunctivitis outbreaks in California schools, workplaces, and healthcare settings, with periodic statewide alerts during community outbreak events.",
@@ -104,7 +105,7 @@
         "name": "Ofloxacin ophthalmic solution 0.3%",
         "typical_regimen": "1\u20132 drops in affected eye(s) every 2\u20134 hours \u00d7 2 days, then QID \u00d7 5 days",
         "goodrx_price": "~$12\u2013$20 generic with GoodRx",
-        "source_url": "https://www.goodrx.com/ofloxacin-ophthalmic",
+        "source_url": "https://www.goodrx.com/ofloxacin",
         "first_line": true,
         "notes": "First-line fluoroquinolone eye drop for suspected bacterial conjunctivitis. Broad-spectrum coverage."
       },
@@ -112,7 +113,7 @@
         "name": "Polymyxin B / trimethoprim ophthalmic (Polytrim)",
         "typical_regimen": "1 drop in affected eye(s) every 3 hours up to 6 times/day \u00d7 7\u201310 days",
         "goodrx_price": "~$10\u2013$18 generic with GoodRx",
-        "source_url": "https://www.goodrx.com/polymyxin-b-trimethoprim-ophthalmic",
+        "source_url": "https://www.goodrx.com/polymyxin-b-trimethoprim",
         "first_line": true,
         "notes": "Alternative first-line for bacterial conjunctivitis. Lower cost option. Good gram-positive and gram-negative coverage."
       },
@@ -120,7 +121,7 @@
         "name": "Erythromycin ophthalmic ointment 0.5%",
         "typical_regimen": "Apply small amount to affected eye(s) up to 6 times/day \u00d7 5\u20137 days",
         "goodrx_price": "~$15\u2013$25 generic with GoodRx",
-        "source_url": "https://www.goodrx.com/erythromycin-ophthalmic",
+        "source_url": "https://www.goodrx.com/erythromycin",
         "first_line": false,
         "notes": "Alternative for mild bacterial conjunctivitis. Ointment formulation \u2014 may blur vision temporarily."
       },
@@ -138,7 +139,7 @@
     {
       "id": "faq-1",
       "question": "Can I get pink eye treatment online in California?",
-      "answer": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California. Adults 18+ in California with pink eye symptoms \u2014 redness, discharge, irritation \u2014 can book a same-day video visit. If your history suggests bacterial conjunctivitis without red-flag symptoms, antibiotic eye drops may be appropriate. Self pay is $79; Aetna is in-network as of April 30, 2026."
+      "answer": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. Dr. Bhavsar is licensed in California. Adults 18+ in California with pink eye symptoms \u2014 redness, discharge, irritation \u2014 can book a same-day video visit. If your history suggests bacterial conjunctivitis without red-flag symptoms, antibiotic eye drops may be appropriate. Self pay is $79; Aetna is in-network as of April 30, 2026."
     },
     {
       "id": "faq-2",
@@ -173,7 +174,7 @@
     {
       "id": "faq-8",
       "question": "Will Medi-Cal cover my TeleDirectMD visit for pink eye?",
-      "answer": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, you can use the $79 self-pay rate or find a Medi-Cal-enrolled telehealth provider through your managed care plan or California DHCS at dhcs.ca.gov."
+      "answer": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, find a Medi-Cal-enrolled telehealth provider through your managed care plan or California DHCS at dhcs.ca.gov."
     },
     {
       "id": "faq-9",
@@ -222,8 +223,8 @@
       "text": "American Academy of Ophthalmology \u2014 Managing Conjunctivitis. Retrieved May 2026."
     },
     {
-      "url": "https://www.cdc.gov/conjunctivitis/clinicians/index.html",
-      "text": "CDC \u2014 Conjunctivitis for Clinicians. Retrieved May 2026."
+      "url": "https://www.cdc.gov/conjunctivitis/hcp/clinical-overview/index.html",
+      "text": "CDC: Clinical Overview of Pink Eye (Conjunctivitis). Retrieved October 2026."
     },
     {
       "url": "https://www.mbc.ca.gov/News/",

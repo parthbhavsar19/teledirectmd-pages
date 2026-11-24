@@ -3,12 +3,17 @@
 import { useState, useEffect, useMemo, useRef } from 'react';
 import Image from 'next/image';
 import './wwt-redesign.css';
-import { PRESCRIBING_POLICY } from '../../lib/prescribing-policy';
+import './wwt-hero-doctor.css';
+import HeroDoctor from './HeroDoctor';
+import UtiScopeNotice from '../components/UtiScopeNotice';
+import { PRESCRIBING_POLICY, REFILL_POLICY, ED_REFILL_POLICY } from '../../lib/prescribing-policy';
 
 /* ── Config ──────────────────────────────────────────────────────────────── */
-/* Six states not yet available. Lowercase to match the SVG's <path class="XX"> */
-const NOT_COVERED = ['or', 'nm', 'ar', 'ny', 'ri', 'ma'];
-const COVERED_STATE_COUNT = 44;
+/* Seven states not yet available. Lowercase to match the SVG's <path class="XX"> */
+const NOT_COVERED = ['or', 'nm', 'ar', 'ri', 'ma', 'wi', 'ks'];
+// The counter animates up to 40 and then reads "40+": coverage copy is never
+// an exact count, so it stays true through each new state launch.
+const COVERED_STATE_COUNT = 40;
 
 const CATEGORY_LABELS = {
   'urgent-care': 'Urgent care',
@@ -55,12 +60,17 @@ function useOnceInView(ref, cb, threshold = 0.3) {
 
 /* ── US Map (inline SVG) ─────────────────────────────────────────────────── */
 function UsMap({ animate }) {
-  const [covered, setCovered] = useState(() => new Set(animate ? [] : ['*']));
-  const [count, setCount]     = useState(animate ? 0 : COVERED_STATE_COUNT);
+  // Start in the finished state so the server HTML (and crawlers, and anyone
+  // without JavaScript) shows the full map and "40+ states", not "0 states".
+  // The animation resets to empty only once the map scrolls into view.
+  const [covered, setCovered] = useState(() => new Set(['*']));
+  const [count, setCount]     = useState(COVERED_STATE_COUNT);
   const wrapRef = useRef(null);
 
   useOnceInView(wrapRef, () => {
     if (!animate) return;
+    setCovered(new Set());
+    setCount(0);
     const paths = wrapRef.current?.querySelectorAll('path[data-state]') || [];
     const list = Array.from(paths)
       .filter((p) => !NOT_COVERED.includes(p.dataset.state))
@@ -83,7 +93,7 @@ function UsMap({ animate }) {
     });
   });
 
-  const isOn = (code) => covered.has('*') || covered.has(code);
+  const isOn = (code) => (covered.has('*') && !NOT_COVERED.includes(code)) || covered.has(code);
 
   return (
     <div className="wwt-map-wrap" ref={wrapRef}>
@@ -105,7 +115,7 @@ function UsMap({ animate }) {
       <div className="wwt-map-legend">
         <span className="wwt-key"><span className="wwt-sw on" /> Covered</span>
         <span className="wwt-key"><span className="wwt-sw off" /> Not yet</span>
-        <span className="wwt-map-count">{count} states + D.C.</span>
+        <span className="wwt-map-count">{count}{count >= COVERED_STATE_COUNT ? '+' : ''} states + D.C.</span>
       </div>
     </div>
   );
@@ -115,24 +125,9 @@ function UsMap({ animate }) {
 function ByTheNumbers({ totalConditions, stateCount }) {
   const reduced = useReducedMotion();
   const bandRef = useRef(null);
-  const [n, setN] = useState(reduced ? totalConditions : 0);
+  // Start at the final value so the server HTML reads "60+", not "0+".
+  const [n, setN] = useState(totalConditions);
   const [chip, setChip] = useState('Urgent care');
-  const [ladderStates, setLadderStates] = useState(() =>
-    reduced
-      ? [
-          { amt: 2500, on: true, crossed: true },
-          { amt: 250,  on: true, crossed: true },
-          { amt: 175,  on: true, crossed: true },
-          { amt: 79,   on: true, crossed: false },
-        ]
-      : [
-          { amt: 0, on: false, crossed: false },
-          { amt: 0, on: false, crossed: false },
-          { amt: 0, on: false, crossed: false },
-          { amt: 0, on: false, crossed: false },
-        ]
-  );
-
   useOnceInView(bandRef, () => {
     if (reduced) return;
     /* conditions counter — 3s */
@@ -150,38 +145,7 @@ function ByTheNumbers({ totalConditions, stateCount }) {
       else setChip('All categories');
     };
     requestAnimationFrame(step);
-
-    /* price ladder — staggered ~4.2s */
-    const rows = [2500, 250, 175, 79];
-    const LDUR = 4200;
-    const stagger = LDUR / rows.length;
-    rows.forEach((target, i) => {
-      setTimeout(() => {
-        /* count up this row */
-        const rowStart = performance.now();
-        const RDUR = 1100;
-        const rowStep = (now) => {
-          const t = Math.min(1, (now - rowStart) / RDUR);
-          const v = Math.round(target * easeOut(t));
-          setLadderStates((prev) => prev.map((r, j) => j === i ? { ...r, on: true, amt: v } : r));
-          if (t < 1) requestAnimationFrame(rowStep);
-          else if (i < rows.length - 1) {
-            setTimeout(() => {
-              setLadderStates((prev) => prev.map((r, j) => j === i ? { ...r, crossed: true } : r));
-            }, 950);
-          }
-        };
-        requestAnimationFrame(rowStep);
-      }, i * stagger);
-    });
   });
-
-  const rows = [
-    { label: 'ER visit', pct: 100 },
-    { label: 'Urgent care', pct: 38 },
-    { label: 'In-person PCP', pct: 22 },
-    { label: 'TeleDirectMD', pct: 10, final: true },
-  ];
 
   return (
     <section className="wwt-numbers" id="wwt-numbers" ref={bandRef} aria-label="By the numbers">
@@ -204,40 +168,11 @@ function ByTheNumbers({ totalConditions, stateCount }) {
           </div>
 
           <div className="wwt-stat">
-            <span className="wwt-label">Cost of the same visit</span>
-            <h3>Same care. Different bill.</h3>
-            <ul className="wwt-ladder">
-              {rows.map((r, i) => {
-                const state = ladderStates[i];
-                const cls = [
-                  r.final ? 'final' : '',
-                  state.on ? 'on' : '',
-                  state.crossed ? 'crossed' : '',
-                ].filter(Boolean).join(' ');
-                return (
-                  <li key={r.label} className={cls}>
-                    <span className="wwt-who">
-                      {r.label}
-                      <span className="wwt-bar">
-                        <span style={{ transform: `scaleX(${state.on ? r.pct / 100 : 0})` }} />
-                      </span>
-                    </span>
-                    <span className="wwt-amt">${state.amt.toLocaleString('en-US')}</span>
-                  </li>
-                );
-              })}
-            </ul>
-            <p className="wwt-foot">
-              ER average based on <a href="https://www.kff.org/health-costs/emergency-department-visits-exceed-affordability-threshold-for-many-consumers-with-private-insurance/" target="_blank" rel="noopener noreferrer">KFF/Peterson-KFF Health System Tracker</a>. Illustrative comparison for uncomplicated adult visits; actual costs vary.
-            </p>
-          </div>
-
-          <div className="wwt-stat">
             <span className="wwt-label">States covered</span>
             <h3>Coast to coast, corner to corner.</h3>
             <UsMap animate={!reduced} />
             <p className="wwt-foot">
-              Key West to Anchorage to Honolulu. Six states not yet available: OR, NM, AR, NY, RI, MA.
+              Key West to Anchorage to Honolulu. Seven states not yet available: AR, KS, MA, NM, OR, RI, WI.
             </p>
           </div>
         </div>
@@ -305,31 +240,12 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
 
   return (
     <div className="wwt-root">
-      {/* Hero */}
-      <section className="wwt-hero">
-        <div className="wwt-container">
-          <div className="wwt-hero-copy">
-            <span className="wwt-eyebrow">What we treat</span>
-            <h1>
-              A real doctor —<br />
-              not a chatbot, not an algorithm.<br />
-              Without insurance, for $79.
-            </h1>
-            <p className="wwt-lede">
-              Same-day video visits with a board-certified MD. $79 flat, or select insurance.
-              Not a questionnaire, not a nurse queue — and a straight answer when telehealth isn’t the right tool for what you have.
-            </p>
-            <div className="wwt-cta-row">
-              <a className="wwt-btn wwt-btn-on-dark" href="/book-online">Book a visit · $79</a>
-              <a className="wwt-btn wwt-btn-outline-light" href="#wwt-results">Browse conditions</a>
-            </div>
-            <p className="wwt-hero-note">Adults 18+ · No controlled substances · Red-flag screening on every visit</p>
-          </div>
-        </div>
-      </section>
+      {/* Hero: doctor first, navy, with condition search (Parth, Nov 23 2026) */}
+      <HeroDoctor onSearch={(text) => { setQuery(text); setActiveCat('all'); scrollToCategory('all'); }} />
 
       {/* By the numbers */}
-      <ByTheNumbers totalConditions={totalConditions} stateCount={stateCount} />
+      {/* Counter reads "60+": condition copy is never an exact count. */}
+      <ByTheNumbers totalConditions={60} stateCount={stateCount} />
 
       {/* Browse + toolbar */}
       <div className="wwt-browse">
@@ -350,7 +266,7 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
             <span className="wwt-count">
               {filtered
                 ? `${totalShown} condition${totalShown === 1 ? '' : 's'} shown`
-                : `${totalConditions}+ conditions`}
+                : `60+ conditions`}
             </span>
           </div>
           <div className="wwt-container wwt-toolbar-row2">
@@ -392,6 +308,8 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
                 </div>
                 <span className="wwt-n">{cat.conditions.length} condition{cat.conditions.length === 1 ? '' : 's'}</span>
               </div>
+              {/* Male UTI exclusion sits beside the UTI card here, not in a top banner (Parth, Nov 23 2026). */}
+              {cat.categorySlug === 'urgent-care' && <UtiScopeNotice inline />}
               <div className="wwt-grid">
                 {cat.conditions.map((c) => {
                   const desc = conditionDescriptions[c.slug] || {};
@@ -411,10 +329,10 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
                         <h3>{c.name}</h3>
                         <p>{desc.description || ''}</p>
                         <div className="wwt-card-foot">
-                          <a className="wwt-link" href={`/${c.slug}`}>Learn more →</a>
+                          <a className="wwt-link" href={`/${c.slug}/`}>Learn more →</a>
                           <a
                             className="wwt-book-now"
-                            href="/book-online"
+                            href="/book-online/"
                             aria-label={`Book a visit for ${c.name}`}
                           >Book now →</a>
                         </div>
@@ -432,15 +350,11 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
       <section className="wwt-scope" id="wwt-scope">
         <div className="wwt-container">
           <span className="wwt-eyebrow">How we practice</span>
-          <h2>The care you need — and an honest no when you need something else.</h2>
+          <h2>The care you need, and an honest no when you need something else.</h2>
           <p className="wwt-scope-sub">
             Scope discipline is the product. These limits are written into every visit, not buried in a policy page.
           </p>
           <div className="wwt-scope-grid">
-            <div className="wwt-scope-item" data-prescribing-policy="scope" style={{ gridColumn: '1 / -1' }}>
-              <h3>IV/IM prescribing limits: EpiPen refill exception</h3>
-              <p>{PRESCRIBING_POLICY}</p>
-            </div>
             <div className="wwt-scope-item">
               <h3>Red-flag screening every visit</h3>
               <p>If your symptoms point to something that needs hands-on care, we say so and direct you to an ER or in-person clinic. No upsell.</p>
@@ -448,6 +362,10 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
             <div className="wwt-scope-item">
               <h3>No controlled substances</h3>
               <p>We do not prescribe Schedule II–V medications by telehealth. That line does not move.</p>
+            </div>
+            <div className="wwt-scope-item">
+              <h3>A published do-not-prescribe list</h3>
+              <p>Every condition page names the medications we do not prescribe for it, and FDA labeling notes mark any off-label use. Asking for a medication on that list ends the booking before a visit is scheduled, with no charge. <a href="/faq/#conditions">See the full list</a>.</p>
             </div>
             <div className="wwt-scope-item">
               <h3>Adults 18 and older</h3>
@@ -465,7 +383,7 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
       <section className="wwt-ins" id="insurance">
         <div className="wwt-container">
           <span className="wwt-eyebrow">Coverage</span>
-          <h2>In-network in select states — or $79 flat, anywhere.</h2>
+          <h2>In-network in select states, or $79 flat anywhere.</h2>
           <p className="wwt-ins-sub">
             We bill Aetna, select Blue Cross Blue Shield plans, UnitedHealthcare, and Curative. Self-pay visits are $79 and FSA/HSA eligible.
           </p>
@@ -487,7 +405,29 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
               <p>CA · DC · FL · GA · IN · LA · MD · OH · TX</p>
             </a>
           </div>
-          <p className="wwt-ins-all"><a href="/insurance">Check all coverage by state →</a></p>
+          <p className="wwt-ins-all"><a href="/insurance/">Check all coverage by state →</a></p>
+        </div>
+      </section>
+
+      {/* Prescribing limits */}
+      <section className="wwt-scope wwt-limits" id="wwt-limits">
+        <div className="wwt-container">
+          <span className="wwt-eyebrow">Prescribing limits</span>
+          <h2>Our prescribing limits, in one place.</h2>
+          <p className="wwt-scope-sub">
+            Two hard rules: no IV/IM medications except EpiPen refills, and a 90-day cap on every prescription, refills included.
+          </p>
+          <div className="wwt-scope-grid">
+            <div className="wwt-scope-item" data-prescribing-policy="scope" style={{ gridColumn: '1 / -1' }}>
+              <h3>IV/IM prescribing limits: EpiPen refill exception</h3>
+              <p>{PRESCRIBING_POLICY}</p>
+            </div>
+            <div className="wwt-scope-item" data-refill-policy="scope" style={{ gridColumn: '1 / -1' }}>
+              <h3>90-day refill limit, no exceptions</h3>
+              <p>{REFILL_POLICY}</p>
+              <p>{ED_REFILL_POLICY}</p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -497,7 +437,7 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
           <div className="wwt-container">
             <p>
               Last updated by{' '}
-              <a href="/about" rel="author">Parth Bhavsar, MD</a>
+              <a href="/about/" rel="author">Parth Bhavsar, MD</a>
               {' '}on{' '}
               <time dateTime={reviewDate}>{formatReviewDate(reviewDate)}</time>.
               {' '}Physician-written and reviewed for clinical accuracy.
@@ -510,8 +450,8 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
       <section className="wwt-final">
         <div className="wwt-container">
           <h2>Ready to see a doctor today?</h2>
-          <p>$79 flat, same day, with a board-certified MD. Available in 44 states and Washington, D.C. Select insurance also accepted.</p>
-          <a className="wwt-btn wwt-btn-primary wwt-btn-lg" href="/book-online">Book your visit</a>
+          <p>$79 flat, same day, with a board-certified MD. Available in 40+ states and Washington, D.C. Select insurance also accepted.</p>
+          <a className="wwt-btn wwt-btn-primary wwt-btn-lg" href="/book-online/">Book your visit</a>
           <div className="wwt-badges">
             <span>Adults 18+</span>
             <span>Board-certified MD</span>

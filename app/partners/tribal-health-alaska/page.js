@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'TeleDirectMD × Alaska Tribal Health: Partnership Brief for Regional Corporations and Village Care Systems',
   description:
-    'A partnership proposal for Alaska Native Tribal Health Consortium and regional health corporations. TeleDirectMD is a physician-founded telemedicine practice licensed in Alaska and 40 additional states. This brief lays out the case for an adult primary and urgent-care telehealth layer that plugs into the existing CHA and specialty-referral infrastructure.',
+    'A partnership proposal for Alaska Native Tribal Health Consortium and regional health corporations. TeleDirectMD is a physician-founded telemedicine practice licensed in 40+ states plus D.C., including Alaska. This brief lays out the case for an adult primary and urgent-care telehealth layer that plugs into the existing CHA and specialty-referral infrastructure.',
   alternates: { canonical: 'https://teledirectmd.com/partners/tribal-health-alaska' },
   robots: {
     index: true,
@@ -19,7 +19,7 @@ export const metadata = {
     description:
       'A physician-founded telemedicine practice offering an adult primary and urgent-care layer for Alaska Native Tribal Health partners. Alaska-licensed, evidence-grounded, complementary to CHA/P and specialty pathways.',
     url: 'https://teledirectmd.com/partners/tribal-health-alaska',
-    images: ['https://teledirectmd.com/og-alaska-partnership.jpg'],
+    images: ['https://teledirectmd.com/images/tdmd-og-navy.png'],
   },
   twitter: {
     card: 'summary_large_image',
@@ -56,7 +56,7 @@ const jsonLd = {
       inLanguage: 'en-US',
       breadcrumb: { '@id': 'https://teledirectmd.com/partners/tribal-health-alaska#breadcrumbs' },
       isPartOf: { '@id': 'https://teledirectmd.com/#website' },
-      author: { '@id': 'https://teledirectmd.com/about#physician' },
+      author: { '@id': 'https://teledirectmd.com/about/#physician' },
       about: { '@id': 'https://teledirectmd.com/#organization' },
       datePublished: '2026-08-13',
       dateModified: '2026-08-13',
@@ -85,7 +85,7 @@ const styles = `
 .tdmd-partner-breadcrumb a{color:var(--tdmd-teal);text-decoration:none}
 .tdmd-partner-breadcrumb span{margin:0 .4rem;color:#B0BEC5}
 .tdmd-partner-header{padding:1rem 0 1.5rem;border-bottom:1px solid var(--tdmd-border)}
-.tdmd-partner-badge{display:inline-block;background:var(--tdmd-teal);color:#fff;padding:.3rem .7rem;border-radius:999px;font-size:.75rem;font-weight:600;letter-spacing:.03em;text-transform:uppercase;margin-bottom:1rem}
+.tdmd-partner-badge{display:inline-block;background:var(--tdmd-teal);color:var(--tdmd-on-teal);padding:.3rem .7rem;border-radius:999px;font-size:.75rem;font-weight:600;letter-spacing:.03em;text-transform:uppercase;margin-bottom:1rem}
 .tdmd-partner-title{font-size:2.1rem;font-weight:700;color:var(--tdmd-teal-dark);margin:.4rem 0;line-height:1.2}
 @media (max-width:480px){.tdmd-partner-title{font-size:1.55rem;line-height:1.25}}
 .tdmd-partner-sub{color:var(--tdmd-muted);font-size:1.05rem;margin:.5rem 0 1rem;max-width:820px}
@@ -123,7 +123,7 @@ export default function TribalHealthAlaskaPartnership() {
           <nav className="tdmd-partner-breadcrumb" aria-label="Breadcrumb">
             <a href="/">Home</a>
             <span>›</span>
-            <a href="/partners/">Partners</a>
+            <span>Partners</span>
             <span>›</span>
             <span aria-current="page">Alaska Tribal Health</span>
           </nav>
@@ -134,8 +134,8 @@ export default function TribalHealthAlaskaPartnership() {
               A Complementary Adult Primary and Urgent-Care Telehealth Layer for Alaska Tribal Health Partners
             </h1>
             <p className="tdmd-partner-sub">
-              TeleDirectMD is a board-certified, physician-founded telemedicine practice licensed in Alaska and 40
-              additional states. This brief lays out the case for a partnership with Alaska Native Tribal Health
+              TeleDirectMD is a board-certified, physician-founded telemedicine practice licensed in 40+
+              states plus D.C., including Alaska. This brief lays out the case for a partnership with Alaska Native Tribal Health
               Consortium, regional health corporations, and village clinic systems, focused on where an adult primary
               and urgent-care telehealth layer complements, rather than duplicates, the existing Community Health Aide
               Program and specialty-referral pathways.
@@ -173,7 +173,7 @@ export default function TribalHealthAlaskaPartnership() {
                 <li>
                   Founded and led by Parth Bhavsar, MD, a board-certified family medicine physician (ABFM)
                 </li>
-                <li>Licensed in Alaska (license 257965) and 40 additional states plus D.C.</li>
+                <li>Licensed in 40+ states plus D.C., including Alaska (license 257965)</li>
                 <li>Adult primary and urgent-care scope; no controlled substances; no pediatrics</li>
                 <li>
                   In-network on the secondary lane with BlueCross BlueShield plans, Aetna, and UnitedHealthcare across
@@ -294,7 +294,7 @@ export default function TribalHealthAlaskaPartnership() {
                 sharing, and clear documentation lineage.
               </li>
               <li>
-                <strong>Cultural safety.</strong> Our clinicians work with the region's cultural context, not around it.
+                <strong>Cultural safety.</strong> Dr. Bhavsar works with the region's cultural context, not around it.
                 We are open to protocols, guidance, or training that the corporation determines necessary for its
                 communities.
               </li>
@@ -352,7 +352,7 @@ export default function TribalHealthAlaskaPartnership() {
                 <li id="pref-3">
                   Alaska Native Tribal Health Consortium. Community Health Aide Program.{' '}
                   <a
-                    href="https://anthc.org/what-we-do/community-health-services/community-health-aide-program/"
+                    href="https://www.anthc.org/community-health-aide/"
                     target="_blank"
                     rel="noopener"
                   >

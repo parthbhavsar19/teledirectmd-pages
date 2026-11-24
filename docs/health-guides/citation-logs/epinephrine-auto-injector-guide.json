@@ -1,0 +1,572 @@
+{
+ "guide": "epinephrine-auto-injector-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 6 verified, retractions: none (6 DOIs: refs 1-6; no editorial notices; contrasting evidence flagged for refs 5 and 6, see notes). PubMed article types checked for the 5 PubMed records (refs 1, 2, 3, 5, 6): no Retracted Publication or Retraction Notice. Refs 7-10 are labels and web pages with no DOI.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "Golden DBK, Wang J, Waserman S, et al. Anaphylaxis: A 2023 practice parameter update. Ann Allergy Asthma Immunol. 2024;132(2):124-176.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38108678/",
+   "pmid": "38108678",
+   "doi": "10.1016/j.anai.2023.09.015",
+   "record_title": "Anaphylaxis: A 2023 practice parameter update.",
+   "record_journal": "Ann Allergy Asthma Immunol",
+   "record_year": "2024 (epub Dec 18, 2023)",
+   "article_type": "Practice Guideline; Journal Article",
+   "version_or_date": "2023 update by the Joint Task Force on Practice Parameters; read Nov 15, 2026",
+   "retrieved_with": "PubMed get_article_metadata; WebFetch of AAAAI-hosted full-text PDF (aaaai.org/Aaaai/media/Media-Library-PDFs/.../Anaphylaxis-Practice-Paramaters-2023.pdf); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Full text read via WebFetch of the AAAAI-hosted PDF of the article (in-press version, same DOI); metadata from PubMed. WebFetch quotes are capped at 125 characters, so long passages are quoted in part. The prior page said the parameter supports carrying \"more than two\" devices and that \"US auto-injectors are sold in twin-packs\"; the parameter says \"more than one\" and the twin-pack statement was not found, so both were corrected.",
+   "claims": [
+    {
+     "text": "Anaphylaxis may progress rapidly, within minutes, from one severity grade to another",
+     "quote": "reactions may progress rapidly (within minutes) from one severity grade to another",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Under the NIAID/FAAN criteria reviewed in the parameter, anaphylaxis is highly likely when any one of three criteria is met",
+     "quote": "Anaphylaxis is highly likely when any one of the following 3 criteria are fulfilled",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Meeting diagnostic criteria is not required before using epinephrine",
+     "quote": "We suggest that meeting diagnostic criteria for anaphylaxis is not required before the use of epinephrine.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Anaphylaxis may occur without typical skin features",
+     "quote": "it may occur without typical skin features, circulatory shock, or compromised breathing being present.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Biphasic second phase within 1 to 48 hours after full resolution of first symptoms",
+     "quote": "occur within 1 to 48 h from complete resolution of the initial symptoms or examination findings",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Consider mastocytosis evaluation in adults with severe insect sting anaphylaxis or recurrent idiopathic anaphylaxis",
+     "quote": "Evaluation for mastocytosis, including a bone marrow biopsy, should be considered for adult patients with severe insect sting anaphylaxis or recurrent idiopathic anaphylaxis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Routinely prescribe EAIs to higher-risk patients; shared decision-making for lower-risk patients",
+     "quote": "We suggest clinicians routinely prescribe EAIs to patients at higher risk of anaphylaxis. ... we suggest that clinicians engage in a shared decisionmaking process",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Choose among EAIs by dosage, needle length, affordability, access and patient preference",
+     "quote": "consider dosage, needle length, affordability, access, and patient treatment preferences",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "When choosing one vs multiple EAIs, consider risk factors for severe anaphylaxis, values and preferences, contextual factors",
+     "quote": "clinicians consider a patient’s risk factors for severe anaphylaxis, their values and preferences, and contextual factors",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Routinely prescribe more than one EAI after previously needing multiple doses or a biphasic reaction",
+     "quote": "We suggest they routinely prescribe more than one EAI when patients have previously required multiple doses ... to treat an episode of anaphylaxis and/or have a history of biphasic reactions",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dose 0.01 mg/kg, max 0.3 mg for children and teenagers and 0.5 mg for adults",
+     "quote": "treat anaphylaxis with a dosage of epinephrine of 0.01 mg/kg, up to a maximum of 0.3 mg for children and teenagers and 0.5 mg for adults",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Support for switching to 0.3 mg at 25 kg to limit underdosing near 30 kg",
+     "quote": "support switching to 0.3 mg at 25 kg to limit underdosing in patients nearing 30 kg",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "For infants/toddlers under 15 kg, either the 0.1 mg or 0.15 mg EAI",
+     "quote": "prescribe either the 0.1 mg or the 0.15 mg EAI dose for infants/toddlers weighing less than 15 kg.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Give epinephrine at the first sign or symptom of suspected anaphylaxis",
+     "quote": "epinephrine should be administered at the first sign or symptom of suspected anaphylaxis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Call EMS if anaphylaxis is severe or does not resolve promptly",
+     "quote": "EMS should be activated if anaphylaxis is severe, fails to resolve promptly",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "EMS may not be required after prompt, complete, durable response if more epinephrine and care are readily available",
+     "quote": "If epinephrine is used promptly, immediate activation of emergency medical services may not be required if the patient experiences a prompt, complete, and durable response. / provided that additional epinephrine and medical care are readily available, if needed.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "journal",
+   "cited_as": "Prince BT, Mikhail I, Stukus DR. Underuse of epinephrine for the treatment of anaphylaxis: missed opportunities. J Asthma Allergy. 2018;11:143-151.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6016581/",
+   "pmid": "29950873",
+   "pmcid": "PMC6016581",
+   "doi": "10.2147/JAA.S159400",
+   "record_title": "Underuse of epinephrine for the treatment of anaphylaxis: missed opportunities.",
+   "record_journal": "J Asthma Allergy",
+   "record_year": "2018",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata and get_full_text_article (PMC6016581); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Title subtitle restored. Prior claim \"proper technique is non-critical\" contradicted this source and was rewritten. Review article; secondary numbers it quotes from other studies were not used.",
+   "claims": [
+    {
+     "text": "Antihistamines are not effective in treating anaphylaxis and should never replace epinephrine",
+     "quote": "Unfortunately, these medications are not effective in treating anaphylaxis and should never be used in place of epinephrine.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Epinephrine is the first-line treatment",
+     "quote": "Epinephrine is the only effective and first-line treatment for anaphylaxis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most reported anaphylaxis deaths associated with delayed epinephrine; fatal anaphylaxis associated with delay",
+     "quote": "most cases of reported deaths from anaphylaxis have been associated with delayed administration of epinephrine.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Patients, responders and ED physicians sometimes use antihistamines/corticosteroids instead of epinephrine",
+     "quote": "patients, emergency responders, and even emergency room physicians do not always treat anaphylaxis with epinephrine, instead using antihistamines and/or corticosteroids.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "NIAID/FAAN three criteria, onset within minutes to 3 hours; scenario wording",
+     "quote": "Acute onset (within minutes to 3 hours) of rapidly progressive symptoms involving the skin, mucosal tissue, or both ... Reduced blood pressure after exposure to known allergen for that patient (within minutes to 3 hours)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Biphasic anaphylaxis definition",
+     "quote": "Biphasic anaphylaxis is a recurrence of anaphylactic symptoms after initial resolution despite no additional exposure to the trigger.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most people do not know of food allergy until first reaction; some school reactions in children without known allergy",
+     "quote": "Most people do not know of their food allergy until they experience their first allergic reaction. Up to 25% of food allergic reactions within schools occur in children with no previous food allergy.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Drugs are the most common cause among adults seen in the ED",
+     "quote": "In adult patients seen in the ED, drugs are the most common cause of anaphylaxis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Device technique differs and pharmacy substitution can cause errors if technique not reviewed",
+     "quote": "Given the differences in technique with each device, such changes could result in errors in administration if proper technique is not reviewed at the time of substitution.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lack of training in correct technique is a barrier; IM thigh faster and higher peak than subcutaneous (supporting passage 1 of 2)",
+     "quote": "An additional barrier to the proper use of epinephrine is lack of proper training with regard to correct technique.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lack of training in correct technique is a barrier; IM thigh faster and higher peak than subcutaneous (supporting passage 2 of 2)",
+     "quote": "IM administration of epinephrine in the anterolateral thigh achieves faster and higher peak plasma concentrations compared with administration via the subcutaneous route",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Expert consensus: switch most children from 0.15 mg to 0.3 mg at 25 kg",
+     "quote": "expert consensus suggests switching most children from the 0.15 mg to the 0.3 mg dose when they reach a body weight of 25 kg.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "EpiPen hold time changed from 10 seconds to 3 to reduce injury when children move",
+     "quote": "this study helped in changing Epipen manufacturer instructions from a previous 10-second hold time to 3 seconds, with the goal of reducing risk from injury due to children moving their legs.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "EAIs may be prohibitively expensive; assistance programs exist but cost remains a concern",
+     "quote": "EAIs may be prohibitively expensive for many patients without health insurance/prescription coverage or for patients with high deductible insurance plans. / Patient assistance programs have been put in place ... but cost still remains a significant concern",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Laws across the US allow voluntary stocking of EAIs in schools",
+     "quote": "Recent legislative efforts have led to passage of laws throughout the USA that allow for voluntary stocking and use of EAIs within schools",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Guidelines recommend ED assessment after community epinephrine because of progression and biphasic risk",
+     "quote": "All published guidelines on the management of anaphylaxis recommend assessment at an ED after treatment with epinephrine in the community setting. This recommendation stems from concern that symptoms may continue to progress ... or due to risk of biphasic anaphylaxis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "Ma L, Danoff TM, Borish L. Case fatality and population mortality associated with anaphylaxis in the United States. J Allergy Clin Immunol. 2014;133(4):1075-1083.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24332862/",
+   "pmid": "24332862",
+   "pmcid": "PMC3972293",
+   "doi": "10.1016/j.jaci.2013.10.029",
+   "record_title": "Case fatality and population mortality associated with anaphylaxis in the United States.",
+   "record_journal": "J Allergy Clin Immunol",
+   "record_year": "2014 (epub Dec 2013; Scite year 2014)",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces Allergy & Asthma Network \"Anaphylaxis Statistics\" page. That page (re-read this run) cites PMC3972293 for its 225 deaths figure, so the primary study is cited instead (spec rule 4). The page did not contain the 11%, 27%, organ-system, trigger, NSAID, cost, school-nurse or all-50-states figures previously cited to it; those were cut or re-sourced. Abstract-only use. Authors are Endo Pharmaceuticals employees (affiliations in record).",
+   "claims": [
+    {
+     "text": "U.S. death certificate data 1999-2009 recorded about 186 to 225 anaphylaxis deaths per year",
+     "quote": "Overall mortality rates ranged from 0.63 to 0.76 per million population (186-225 deaths per year, MCDD)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "The chance of dying from any single episode is very low",
+     "quote": "Although anaphylactic reactions are potentially life-threatening, the probability of dying is actually very low.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Weller KN, Hsieh FH. Anaphylaxis: Highlights from the practice parameter update. Cleve Clin J Med. 2022;89(2):106-111.",
+   "url": "https://www.ccjm.org/content/89/2/106",
+   "doi": "10.3949/ccjm.89a.21076",
+   "record_title": "Anaphylaxis: Highlights from the practice parameter update",
+   "record_journal": "Cleve Clin J Med",
+   "record_year": "2022",
+   "article_type": "Review summary of the 2020 JTFPP anaphylaxis parameter (\"Guidelines to Practice\" section; page metadata says Research Article)",
+   "retrieved_with": "WebFetch of ccjm.org article page; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Printed authors \"Patel N, Sanjiv S\" were wrong; corrected to Weller KN, Hsieh FH and pages 106-111. Page now identifies it as summarizing the 2020 parameter. No PMID located this run; DOI verified by Scite.",
+   "claims": [
+    {
+     "text": "Biphasic anaphylaxis may occur up to 72 hours after resolution",
+     "quote": "is estimated to occur in 1% to 20% of patients and may occur up to 72 hours after resolution of",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "1-hour observation may be reasonable without severe risk factors; 6 hours or longer for higher risk (severe anaphylaxis, more than 1 dose) (supporting passage 1 of 3)",
+     "quote": "for patients with no severe risk factors, a 1-hour asymptomatic observation period may be reasonable.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "1-hour observation may be reasonable without severe risk factors; 6 hours or longer for higher risk (severe anaphylaxis, more than 1 dose) (supporting passage 2 of 3)",
+     "quote": "For patients at higher risk, 6 hours or longer should be strongly considered.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "1-hour observation may be reasonable without severe risk factors; 6 hours or longer for higher risk (severe anaphylaxis, more than 1 dose) (supporting passage 3 of 3)",
+     "quote": "patients presenting with severe anaphylaxis, especially those requiring more than 1 dose of epinephrine",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Kraft M, Scherer Hofmeier K, Ruëff F, et al. Risk factors and characteristics of biphasic anaphylaxis. J Allergy Clin Immunol Pract. 2020;8(10):3388-3395.e6.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32763470/",
+   "pmid": "32763470",
+   "doi": "10.1016/j.jaip.2020.07.036",
+   "record_title": "Risk Factors and Characteristics of Biphasic Anaphylaxis.",
+   "record_journal": "J Allergy Clin Immunol Pract",
+   "record_year": "2020",
+   "article_type": "Journal Article (registry cohort; observational)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Volume/issue/pages corrected (8(9):3143-3151 -> 8(10):3388-3395.e6) and second author corrected (Schaper A -> Scherer Hofmeier K). Abstract-only: the 1-72 h window, 9.6% peanut rate and \"delayed epinephrine\" risk factor are not in the abstract and were removed. Scite flagged one contrasting citation (10.1002/clt2.12166: a smaller cohort did not find the same associations), so the page presents these as associations from one registry and does not claim they predict risk.",
+   "claims": [
+    {
+     "text": "4.7% of reactions were biphasic in a registry from 11 countries",
+     "quote": "Data from the Anaphylaxis Registry (from 11 countries) ... The rate of biphasic reactions in this large cohort was 4.7%.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Risk factors: severity, multiorgan involvement, peanut/tree nut, unknown elicitor, exercise cofactor, >30 min to symptoms, chronic urticaria (supporting passage 1 of 2)",
+     "quote": "reaction severity ... multiorgan involvement ... anaphylaxis caused by peanut/tree nut ... or an unknown elicitor ... exercise as a cofactor ... chronic urticaria as a comorbidity ...",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Risk factors: severity, multiorgan involvement, peanut/tree nut, unknown elicitor, exercise cofactor, >30 min to symptoms, chronic urticaria (supporting passage 2 of 2)",
+     "quote": "a prolonged interval between the contact with the elicitor and start of primary symptoms (OR for >30 vs <30 min",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Identifying patients at risk is difficult",
+     "quote": "Little is known about the causes of biphasic anaphylaxis making the identification of patients at risk difficult.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Wood RA, Camargo CA, Lieberman P, et al. Anaphylaxis in America: the prevalence and characteristics of anaphylaxis in the United States. J Allergy Clin Immunol. 2014;133(2):461-467.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24144575/",
+   "pmid": "24144575",
+   "doi": "10.1016/j.jaci.2013.08.016",
+   "record_title": "Anaphylaxis in America: the prevalence and characteristics of anaphylaxis in the United States.",
+   "record_journal": "J Allergy Clin Immunol",
+   "record_year": "2014 (epub Oct 2013; Scite year 2014)",
+   "article_type": "Journal Article (cross-sectional random-digit-dial surveys)",
+   "retrieved_with": "PubMed search_articles and get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces AAFA \"Anaphylaxis in America\" web page; AAFA (re-read this run) describes this JACI study as its source, so the primary study is cited. The prior \"1 in 20 Americans\" claim overstated the page (base estimate about 1 in 50). Survey data are self-reported. Scite flagged a later survey by the same group (10.1016/j.jaci.2014.10.049) describing its findings as somewhat inconsistent with physician-reported EAI prescribing; noted, does not change the patient self-report figures cited.",
+   "claims": [
+    {
+     "text": "Only 11% self-administered epinephrine; 27% self-treated with antihistamines",
+     "quote": "27% self-treated with antihistamines, 10% called 911, 11% self-administered epinephrine",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prevalence at least 1.6% and probably higher",
+     "quote": "The prevalence of anaphylaxis in the general population is at least 1.6% and probably higher.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most common triggers medications 34%, foods 31%, insect stings 20%",
+     "quote": "The most common triggers reported were medications (34%), foods (31%), and insect stings (20%).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "label",
+   "cited_as": "kaleo, Inc. AUVI-Q (epinephrine injection, USP) auto-injector prescribing information. DailyMed.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6180fb40-7fca-4602-b3da-ce62b8cd2470",
+   "version_or_date": "DailyMed updated October 2, 2025; label revised 4/2025",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces the Kaleo marketing page (auvi-q.com/about-auvi-q), which did not contain the device, second-dose or carry-two claims. Corrections from the label: Auvi-Q hold time is 2 seconds (page implied 3), safety part is the red safety guard (page said pull tab), \"credit card-shaped\" not in label and removed.",
+   "claims": [
+    {
+     "text": "Weight bands 7.5 to <15 kg 0.1 mg; 15 to <30 kg 0.15 mg; 30 kg or more 0.3 mg; labeled from 16.5 pounds",
+     "quote": "7.5 kg to less than 15 kg ... AUVI-Q 0.1 mg; 15 kg to less than 30 kg ... AUVI-Q 0.15 mg; 30 kg or greater ... AUVI-Q 0.3 mg / who weigh 16.5 pounds (7.5 kilograms) or more",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Inject into outer thigh through clothing if necessary",
+     "quote": "into the anterolateral aspect of the thigh, through clothing if necessary",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Voice, beep and LED cues; 2-second countdown; needle retracts",
+     "quote": "AUVI-Q includes audible (electronic voice instructions, beeps) and visible (LED lights) cues for use. / AUVI-Q includes a 2-second countdown after it is activated / The needle automatically retracts after the injection is complete.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Red safety guard; push firmly until click and hiss; hold 2 seconds",
+     "quote": "Pull Red safety guard down and off of AUVI-Q. / push firmly until you hear a click and hiss sound, and hold in place for 2 seconds",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Second dose may be given starting 5 minutes after the first",
+     "quote": "a second dose of AUVI-Q may be administered with a second autoinjector starting 5 minutes after the first dose.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prescribed and immediate access to two devices at all times",
+     "quote": "It is recommended that patients are prescribed and have immediate access to two AUVI-Q devices at all times.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not inject IV, buttock, digits, hands or feet",
+     "quote": "Do not inject intravenously, into buttock, digits, hands, or feet.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Storage 20-25 C (68-77 F), excursions 15-30 C (59-86 F); keep in outer case to protect from light",
+     "quote": "Store at 20°C to 25°C (68°F to 77°F); excursions permitted to 15°C to 30°C (59°F to 86°F) / Keep AUVI-Q in the outer case it comes in to protect it from light.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "agency_page",
+   "cited_as": "ACAAI. New Guidelines Released for Practitioners Treating Anaphylaxis and Atopic Dermatitis. News release, December 19, 2023.",
+   "url": "https://acaai.org/news/new-guidelines-released-for-practitioners-treating-anaphylaxis-and-atopic-dermatitis/",
+   "version_or_date": "Posted December 19, 2023",
+   "retrieved_with": "WebFetch of acaai.org news page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Society news release (kind agency_page used for a professional society page). Previously listed but never cited; now cited for who developed the 2023 parameter.",
+   "claims": [
+    {
+     "text": "The 2023 parameter comes from the Joint Task Force for Practice Parameters, an ACAAI-AAAAI partnership",
+     "quote": "The Joint Task Force for Practice Parameters (JTFPP), a partnership between the ACAAI and the AAAAI",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "label",
+   "cited_as": "Viatris Specialty LLC. EpiPen and EpiPen Jr (epinephrine injection) auto-injector prescribing information. DailyMed.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7560c201-9246-487c-a13b-6295db04274a",
+   "version_or_date": "DailyMed updated February 15, 2023; label revised 02/2023",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source for device instructions, dosing bands, second dose, storage and inspection. Corrections from the label: the \"massage the injection site for 10 seconds\" step is not in the current label and was removed; storage is 20-25 C with excursions to 15-30 C (page had given 15-30 C as the storage range); \"press until you hear a click\" is not EpiPen label wording.",
+   "claims": [
+    {
+     "text": "0.3 mg for 30 kg (66 lbs) or more; EpiPen Jr 0.15 mg for 15 to 30 kg (33 to 66 lbs)",
+     "quote": "Patients greater than or equal to 30 kg (66 lbs): EpiPen 0.3 mg / Patients 15 to 30 kg (33 lbs to 66 lbs): EpiPen Jr 0.15 mg",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Inject into outer thigh through clothing if necessary",
+     "quote": "Inject intramuscularly or subcutaneously into the anterolateral aspect of the thigh, through clothing if necessary.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Always carry two; 2-Pak has two auto-injectors",
+     "quote": "Always carry 2 EpiPen or 2 EpiPen Jr auto-injectors with you. / EpiPen 2-Pak (epinephrine) injection is supplied with 2 single-dose pre-filled auto-injectors.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Second auto-injector if symptoms continue or come back; more than two doses only under medical supervision",
+     "quote": "You can use a second EpiPen or EpiPen Jr auto-injector if symptoms continue or come back / More than two sequential doses of epinephrine should only be administered under direct medical supervision.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Get emergency medical help right away after use",
+     "quote": "After injecting EpiPen or EpiPen Jr, get emergency medical help right away.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Keep blue safety top on until ready; never put thumb/fingers/hand over orange needle end; orange needle end",
+     "quote": "Keep the blue safety top in place until you are ready to inject. / Never put your thumb, fingers or hand over the orange needle end",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Swing and push firmly against outer thigh; hold at least 3 full seconds; lift straight out",
+     "quote": "should be administered by swinging and pushing the auto-injector firmly against the outer thigh / hold the EpiPen or EpiPen Jr auto-injector down for at least 3 full seconds / Lift the auto-injector straight out from the thigh.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hold leg of young children firmly and limit movement",
+     "quote": "Instruct caregivers to hold the leg of young children firmly in place and limit movement prior to and during injection.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not inject IV, buttock, digits, hands or feet",
+     "quote": "Do not inject intravenously, into buttock, or into digits, hands, or feet.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Rapid onset and short duration of action",
+     "quote": "has a rapid onset and short duration of action",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Use only if clear and colorless; replace if pinkish, brown, cloudy or particles; replace before expiration",
+     "quote": "Use the medicine if it is clear and colorless. / Replace the auto-injector if the solution is discolored (pinkish or brown color), cloudy, or contains particle / Replace it before the expiration date.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Storage 20-25 C (68-77 F), excursions 15-30 C (59-86 F); do not refrigerate; protect from light",
+     "quote": "Store at 20°C to 25°C (68°F to 77°F); excursions permitted to 15°C to 30°C (59°F to 86°F) / Do not refrigerate. / Protect from light",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "agency_page",
+   "cited_as": "U.S. Food and Drug Administration. Food Allergies: What You Need to Know.",
+   "url": "https://www.fda.gov/food/buy-store-serve-safe-food/food-allergies-what-you-need-know",
+   "version_or_date": "Content current as of 08/16/2024",
+   "retrieved_with": "WebSearch + WebFetch of fda.gov page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source for the previously uncited \"Big Nine\" allergen list; the uncited claim that they \"account for most food-induced anaphylaxis\" was removed.",
+   "claims": [
+    {
+     "text": "Nine major U.S. food allergens: milk, eggs, fish, crustacean shellfish, tree nuts, peanuts, wheat, soybeans, sesame",
+     "quote": "FALCPA identified eight foods as major food allergens: milk, eggs, fish, Crustacean shellfish, tree nuts, peanuts, wheat, and soybeans. / declaring sesame as the 9th major food allergen recognized by the United States.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

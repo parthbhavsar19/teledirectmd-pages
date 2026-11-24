@@ -1,3 +1,4 @@
+import { contentDate } from '../../../lib/content-dates';
 /* Page-scoped redesign styles — applied only under .tdmd-intl-redesign so no
    other page or shared component is affected. Brand tokens (navy #172140,
    coral #FF5A36, slate-blue #536c7c, warm off-white) are set as the same
@@ -108,7 +109,7 @@ const IV_STYLES = `
   /* Buttons — coral primary CTA, slate/white outline */
   .tdmd-intl-redesign .tdmd-btn{font-family:var(--iv-body);padding:0.75rem 1.6rem;}
   .tdmd-intl-redesign .tdmd-btn-primary{
-    background:var(--tdmd-accent);color:#ffffff;
+    background:var(--tdmd-accent);color:var(--tdmd-on-accent);
     box-shadow:0 8px 20px rgba(255,90,54,0.32);
   }
   .tdmd-intl-redesign .tdmd-btn-primary:hover{background:#e8492a;}
@@ -244,14 +245,14 @@ const IV_STYLES = `
 export default function InternationalVisitorsPage() {
   const baseUrl = 'https://teledirectmd.com';
   const pageUrl = `${baseUrl}/who-we-serve/international-visitors`;
-  const today = new Date().toISOString().split('T')[0];
+  const today = contentDate('whoWeServe');
   const reviewedDate = '2026-07-08';
   const pid = 'intl-visitors';
 
   const conditions = [
-    { name: 'UTI / Urinary Tract Infection', slug: 'uti-treatment-online', desc: 'Antibiotic prescription sent to any US pharmacy — no urgent care visit needed.' },
+    { name: 'UTI (women only)', slug: 'uti-treatment-online', desc: 'Antibiotic prescription sent to any US pharmacy — no urgent care visit needed.' },
     { name: 'Sinus Infection', slug: 'sinus-infection-treatment-online', desc: 'Evaluation and treatment for sinus pressure, congestion, and facial pain.' },
-    { name: 'Strep Throat', slug: 'strep-throat-treatment-online', desc: 'Antibiotic treatment for strep throat without waiting for an in-person appointment.' },
+    { name: 'Strep Throat', slug: 'sore-throat-treatment-online', desc: 'Antibiotic treatment for strep throat without waiting for an in-person appointment.' },
     { name: 'Respiratory Infections / Bronchitis', slug: 'common-cold-treatment-online', desc: 'Cold, flu, and bronchitis evaluation and treatment.' },
     { name: 'Pink Eye (Conjunctivitis)', slug: 'pink-eye-treatment-online', desc: 'Eye drop prescriptions sent to the nearest pharmacy.' },
     { name: 'Skin Infections / Rashes', slug: 'skin-infection-treatment-online', desc: 'Evaluation of rashes, cellulitis, and minor skin infections via video.' },
@@ -271,7 +272,7 @@ export default function InternationalVisitorsPage() {
   const faqItems = [
     {
       question: 'Can I use TeleDirectMD without US health insurance?',
-      answer: 'Absolutely. TeleDirectMD is a direct-pay platform — no US health insurance is required at any point. You pay a flat $79 fee at the time of booking. That covers the full visit, including the physician consultation and any prescriptions sent to a US pharmacy. There are no surprise bills or insurance claims to file.'
+      answer: 'Absolutely. TeleDirectMD is a direct-pay platform — no US health insurance is required at any point. You pay a flat $79 fee at the time of booking. That covers the full visit, including the physician consultation and any prescriptions sent to a US pharmacy. There are no hidden fees or insurance claims to file.'
     },
     {
       question: 'How much does an online doctor cost without insurance?',
@@ -283,7 +284,7 @@ export default function InternationalVisitorsPage() {
     },
     {
       question: 'Which states is TeleDirectMD available in for international visitors?',
-      answer: 'TeleDirectMD is licensed in 44 US states and Washington, D.C. You can be seen by Dr. Bhavsar as long as you are physically located in one of our covered jurisdictions at the time of the visit. This includes all major tourist destinations — Florida, California, New York, Texas, Nevada, Hawaii, Georgia, and more.'
+      answer: 'TeleDirectMD is licensed in 40+ US states and Washington, D.C. You can be seen by Dr. Bhavsar as long as you are physically located in one of our covered jurisdictions at the time of the visit. This includes all major tourist destinations — Florida, California, New York, Texas, Nevada, Hawaii, Georgia, and more.'
     },
     {
       question: 'Can you send a prescription to a pharmacy near me?',
@@ -291,7 +292,7 @@ export default function InternationalVisitorsPage() {
     },
     {
       question: 'What conditions can you treat during my visit to the US?',
-      answer: "We treat most common, non-emergency conditions that travelers experience: UTIs, sinus infections, strep throat, respiratory infections, pink eye, skin rashes, traveler's diarrhea, allergies, and more. We also provide prescription refills if you've run short of an ongoing medication. If your condition requires in-person evaluation or emergency care, we'll tell you clearly and help you find the right resource."
+      answer: "We treat most common, non-emergency conditions that travelers experience: UTIs (women only), sinus infections, strep throat, respiratory infections, pink eye, skin rashes, traveler's diarrhea, allergies, and more. We also provide prescription refills if you've run short of an ongoing medication. If your condition requires in-person evaluation or emergency care, we'll tell you clearly and help you find the right resource."
     },
     {
       question: 'Can I get a prescription refill while traveling in the US?',
@@ -311,7 +312,7 @@ export default function InternationalVisitorsPage() {
     },
     {
       question: 'Is a telehealth visit with TeleDirectMD legitimate medical care?',
-      answer: 'Yes. TeleDirectMD is operated by Dr. Parth Bhavsar, MD, a board-certified Family Medicine physician licensed in 44 US states and Washington, D.C. Prescriptions issued through TeleDirectMD are valid at any US pharmacy. Your visit is documented in a HIPAA-compliant medical record system, and you can receive a visit summary to share with your home-country physician if needed.'
+      answer: 'Yes. TeleDirectMD is operated by Dr. Parth Bhavsar, MD, a board-certified Family Medicine physician licensed in 40+ US states and Washington, D.C. Prescriptions issued through TeleDirectMD are valid at any US pharmacy. Your visit is documented in a HIPAA-compliant medical record system, and you can receive a visit summary to share with your home-country physician if needed.'
     },
   ];
 
@@ -331,7 +332,6 @@ export default function InternationalVisitorsPage() {
     { abbr: 'IL', name: 'Illinois' },
     { abbr: 'IN', name: 'Indiana' },
     { abbr: 'IA', name: 'Iowa' },
-    { abbr: 'KS', name: 'Kansas' },
     { abbr: 'KY', name: 'Kentucky' },
     { abbr: 'LA', name: 'Louisiana' },
     { abbr: 'ME', name: 'Maine' },
@@ -345,6 +345,7 @@ export default function InternationalVisitorsPage() {
     { abbr: 'NV', name: 'Nevada' },
     { abbr: 'NH', name: 'New Hampshire' },
     { abbr: 'NJ', name: 'New Jersey' },
+    { abbr: 'NY', name: 'New York' },
     { abbr: 'NC', name: 'North Carolina' },
     { abbr: 'ND', name: 'North Dakota' },
     { abbr: 'OH', name: 'Ohio' },
@@ -359,7 +360,6 @@ export default function InternationalVisitorsPage() {
     { abbr: 'VT', name: 'Vermont' },
     { abbr: 'WA', name: 'Washington' },
     { abbr: 'WV', name: 'West Virginia' },
-    { abbr: 'WI', name: 'Wisconsin' },
     { abbr: 'WY', name: 'Wyoming' },
   ];
 
@@ -389,7 +389,7 @@ export default function InternationalVisitorsPage() {
       },
       {
         "@type": "Physician",
-        "@id": `${baseUrl}/about#physician`,
+        "@id": `${baseUrl}/about/#physician`,
         "name": "Parth Bhavsar, MD",
         "medicalSpecialty": "FamilyMedicine",
         "alumniOf": { "@type": "EducationalOrganization", "name": "University of Mississippi Medical Center" },
@@ -410,7 +410,7 @@ export default function InternationalVisitorsPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Online Doctor for International Visitors & Tourists in the USA",
-        "description": "TeleDirectMD provides $79 flat-fee telehealth visits to international visitors and tourists in the USA. No US insurance required. Available in 44 states and Washington, D.C.",
+        "description": "TeleDirectMD provides $79 flat-fee telehealth visits to international visitors and tourists in the USA. No US insurance required. Available in 40+ states and Washington, D.C.",
         "datePublished": "2026-04-20",
         "dateModified": today,
         "author": { "@type": "Physician", "name": "Parth Bhavsar, MD" },
@@ -436,7 +436,7 @@ export default function InternationalVisitorsPage() {
         <div className="tdmd-container">
           <a href="/">Home</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <a href="/who-we-serve">Who We Serve</a>
+          <a href="/who-we-serve/">Who We Serve</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
           <span aria-current="page">International Visitors &amp; Tourists</span>
         </div>
@@ -459,7 +459,7 @@ export default function InternationalVisitorsPage() {
             Online doctor for international visitors to the USA:
           </p>
           <p style={{ margin: '0.35rem 0 0', color: 'var(--tdmd-text)', fontSize: '0.97rem' }}>
-            TeleDirectMD offers same-day video visits with a board-certified US physician for $79 flat — no US insurance required, available in 44 states and Washington, D.C. Get a diagnosis and prescription sent to a nearby pharmacy without leaving your hotel or vacation rental.
+            TeleDirectMD offers same-day video visits with a board-certified US physician for $79 flat — no US insurance required, available in 40+ states and Washington, D.C. Get a diagnosis and, if appropriate, a prescription sent to a nearby pharmacy without leaving your hotel or vacation rental.
           </p>
         </div>
       </div>
@@ -471,17 +471,17 @@ export default function InternationalVisitorsPage() {
             <div className="tdmd-hero-copy">
               <h1>Online Doctor for International Visitors &amp; Tourists in the USA — No US Insurance Required</h1>
               <p className="tdmd-hero-sub">
-                Visiting the US and need a doctor? TeleDirectMD connects you with a board-certified US physician via secure video — from your hotel room, vacation rental, or anywhere in 44 states and Washington, D.C.
+                Visiting the US and need a doctor? TeleDirectMD connects you with a board-certified US physician via secure video — from your hotel room, vacation rental, or anywhere in 40+ states and Washington, D.C.
               </p>
               <ul className="iv-trust-chips" aria-label="At a glance">
                 <li>$79 flat</li>
-                <li>44 states + D.C.</li>
+                <li>40+ states + D.C.</li>
                 <li>No US insurance</li>
                 <li>Same-day</li>
                 <li>300+ languages</li>
               </ul>
               <p>
-                Whether you're here on vacation, a business trip, visiting family, or studying on an F-1 visa, getting sick in the US without domestic insurance can be stressful and expensive. TeleDirectMD was built for exactly this situation: fast, legitimate medical care at a flat $79 fee — with no billing surprises.
+                Whether you're here on vacation, a business trip, visiting family, or studying on an F-1 visa, getting sick in the US without domestic insurance can be stressful and expensive. TeleDirectMD was built for exactly this situation: fast, legitimate medical care at a flat $79 fee — with no hidden fees.
               </p>
 
               <nav className="tdmd-toc" aria-label="Page contents">
@@ -509,15 +509,15 @@ export default function InternationalVisitorsPage() {
               <ul className="tdmd-hero-benefits">
                 <li>No US health insurance required — ever</li>
                 <li>$79 flat fee vs. $250–$350 for a cash-pay in-person US doctor visit</li>
-                <li>Available in 44 states + Washington, D.C. — all major tourist and business destinations covered</li>
+                <li>Available in 40+ states + Washington, D.C. — all major tourist and business destinations covered</li>
                 <li>Prescriptions sent to any US pharmacy: CVS, Walgreens, Walmart, Rite Aid, and more</li>
                 <li>Same-day visits, evenings &amp; weekends available</li>
                 <li>HIPAA-compliant records — visit summary suitable for travel insurance reimbursement</li>
               </ul>
 
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
               </div>
 
               <p className="tdmd-reviewed">Last reviewed on {reviewedDate} by Parth Bhavsar, MD — Board-Certified Family Medicine</p>
@@ -530,11 +530,11 @@ export default function InternationalVisitorsPage() {
                   <li>Video visit with board-certified MD (Dr. Parth Bhavsar)</li>
                   <li>Prescriptions sent to any US pharmacy</li>
                   <li>No US insurance required</li>
-                  <li>Available in 44 US states + Washington, D.C.</li>
+                  <li>Available in 40+ US states + Washington, D.C.</li>
                   <li>Same-day appointments, evenings &amp; weekends</li>
                   <li>HIPAA-compliant visit records</li>
                 </ul>
-                <p>No hidden fees. No billing. No surprise charges.</p>
+                <p>No hidden fees. No billing. No hidden fees.</p>
               </div>
             </div>
           </div>
@@ -549,7 +549,7 @@ export default function InternationalVisitorsPage() {
             <ul className="iv-quickfacts-grid">
               <li><span className="iv-qf-key">Service</span><span className="iv-qf-val">Video visits with a board-certified US physician (MD)</span></li>
               <li><span className="iv-qf-key">Price</span><span className="iv-qf-val">$79 flat, no insurance needed</span></li>
-              <li><span className="iv-qf-key">Coverage</span><span className="iv-qf-val">44 states + Washington, D.C.</span></li>
+              <li><span className="iv-qf-key">Coverage</span><span className="iv-qf-val">40+ states + Washington, D.C.</span></li>
               <li><span className="iv-qf-key">Availability</span><span className="iv-qf-val">Same-day, evenings &amp; weekends</span></li>
               <li><span className="iv-qf-key">Visit length</span><span className="iv-qf-val">10–15 minutes</span></li>
               <li><span className="iv-qf-key">Prescriptions</span><span className="iv-qf-val">Sent to any US pharmacy</span></li>
@@ -567,9 +567,9 @@ export default function InternationalVisitorsPage() {
             <div className="tdmd-card tdmd-card-good">
               <h3>You Are Eligible If</h3>
               <ul className="tdmd-checklist tdmd-checklist--good">
-                <li>You are physically located in one of our 44 licensed states or Washington, D.C. at the time of the visit</li>
+                <li>You are physically located in one of our 40+ licensed states or Washington, D.C. at the time of the visit</li>
                 <li>You are 18 years of age or older</li>
-                <li>You have a non-emergency condition (UTI, sinus infection, strep, rash, traveler's diarrhea, allergies, refills, etc.)</li>
+                <li>You have a non-emergency condition (UTI (women only), sinus infection, strep, rash, traveler's diarrhea, allergies, refills, etc.)</li>
                 <li>You have a smartphone or computer with camera and internet access</li>
                 <li>You do not have US health insurance — or prefer direct-pay over using your plan</li>
               </ul>
@@ -617,7 +617,7 @@ export default function InternationalVisitorsPage() {
                 <h3>Receive Your Prescription</h3>
                 <p>If medication is needed, Dr. Bhavsar sends it electronically to your preferred US pharmacy before the visit ends. Most visits take 10–15 minutes.</p>
                 <div className="tdmd-decision-cta">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book Your Visit Now</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book Your Visit Now</a>
                 </div>
               </div>
             </div>
@@ -647,7 +647,7 @@ export default function InternationalVisitorsPage() {
             Yes — telehealth care through TeleDirectMD is fully legal and available to any person physically located in a licensed US state, regardless of visa status, citizenship, or insurance coverage. The key regulatory rule is straightforward: the treating physician must be licensed in the state where the <strong>patient is physically located</strong> at the time of the visit.
           </p>
           <p>
-            Dr. Parth Bhavsar, MD is licensed in 44 US states and Washington, D.C. When you connect with TeleDirectMD, your visit is conducted under the laws of the state or jurisdiction you are in — your nationality, immigration status, and home-country insurance have no bearing on your eligibility for care.
+            Dr. Parth Bhavsar, MD is licensed in 40+ US states and Washington, D.C. When you connect with TeleDirectMD, your visit is conducted under the laws of the state or jurisdiction you are in — your nationality, immigration status, and home-country insurance have no bearing on your eligibility for care.
           </p>
           <p>
             Prescriptions issued through TeleDirectMD are valid at any US pharmacy and are governed by US federal and state pharmacy law — the same as any prescription from an in-person physician visit. There is no legal distinction between a telehealth prescription and one written in a clinic.
@@ -706,7 +706,7 @@ export default function InternationalVisitorsPage() {
             </table>
           </div>
           <p className="tdmd-comparison-note">
-            For the UTIs, sinus infections, strep throats, and prescription needs that define the vast majority of travel illness, TeleDirectMD delivers board-certified care at a fraction of the cost — without leaving your hotel or Airbnb.
+            For the UTIs (women only), sinus infections, strep throats, and prescription needs that define the vast majority of travel illness, TeleDirectMD delivers board-certified care at a fraction of the cost — without leaving your hotel or Airbnb.
           </p>
           <p className="iv-cost-cite">
             Cost context: the average US emergency-department visit runs roughly $2,453 (<a href="https://www.healthsystemtracker.org/brief/emergency-department-visits-exceed-affordability-thresholds-for-many-consumers-with-private-insurance/" target="_blank" rel="noopener noreferrer">Peterson-KFF Health System Tracker</a>), and urgent-care visits without insurance typically range from about $100 to $300 (<a href="https://www.solvhealth.com/health/how-much-does-urgent-care-cost-without-insurance" target="_blank" rel="noopener noreferrer">Solv Health</a>).
@@ -735,7 +735,7 @@ export default function InternationalVisitorsPage() {
               <div className="tdmd-decision-number">2</div>
               <div className="tdmd-decision-content">
                 <h3>Can symptoms be described via video?</h3>
-                <p><strong>YES</strong> — for these conditions: UTI, sinus infection, strep throat, eye infection, skin rash, traveler's diarrhea, allergies, prescription refill.</p>
+                <p><strong>YES</strong> — for these conditions: UTI (women only), sinus infection, strep throat, eye infection, skin rash, traveler's diarrhea, allergies, prescription refill.</p>
                 <p><strong>YES →</strong> Book TeleDirectMD. Proceed to step 3 to confirm.</p>
               </div>
             </div>
@@ -755,7 +755,7 @@ export default function InternationalVisitorsPage() {
                 <h3>Ready to book?</h3>
                 <p>Same-day appointments available. $79 flat fee. Board-certified MD. Prescriptions sent to any US pharmacy.</p>
                 <div className="tdmd-decision-cta">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                 </div>
               </div>
             </div>
@@ -816,7 +816,7 @@ export default function InternationalVisitorsPage() {
             </div>
           </div>
 
-          <p className="tdmd-cost-note">No hidden fees, co-pays, or billing surprises. You know the cost before you book.</p>
+          <p className="tdmd-cost-note">No hidden fees or co-pays. You know the cost before you book.</p>
         </div>
       </section>
 
@@ -871,7 +871,7 @@ export default function InternationalVisitorsPage() {
               </thead>
               <tbody>
                 <tr>
-                  <td>UTI</td>
+                  <td>UTI (women only)</td>
                   <td>Burning urination, frequency, pelvic pain</td>
                   <td>Yes — antibiotic Rx</td>
                   <td>Fever &gt;101°F, back pain, vomiting</td>
@@ -932,7 +932,7 @@ export default function InternationalVisitorsPage() {
             <div className="tdmd-card tdmd-card-good">
               <h3>Telehealth-Appropriate for Visitors</h3>
               <ul className="tdmd-checklist tdmd-checklist--good">
-                <li>UTI</li>
+                <li>UTI (women only)</li>
                 <li>Strep throat</li>
                 <li>Sinus infection</li>
                 <li>Pink eye (conjunctivitis)</li>
@@ -966,7 +966,7 @@ export default function InternationalVisitorsPage() {
         <div className="tdmd-container">
           <h2>What TeleDirectMD Provides</h2>
           <p>
-            Every TeleDirectMD visit is conducted by Dr. Parth Bhavsar, MD — board-certified in Family Medicine, residency-trained at the University of Mississippi Medical Center, and licensed in 44 US states and Washington, D.C. Here is what your $79 visit includes:
+            Every TeleDirectMD visit is conducted by Dr. Parth Bhavsar, MD — board-certified in Family Medicine, residency-trained at the University of Mississippi Medical Center, and licensed in 40+ US states and Washington, D.C. Here is what your $79 visit includes:
           </p>
 
           <h3>Diagnosis &amp; Treatment Plan</h3>
@@ -1018,7 +1018,7 @@ export default function InternationalVisitorsPage() {
               <tbody>
                 <tr>
                   <td>Antibiotics (amoxicillin, azithromycin, etc.)</td>
-                  <td>Strep, sinus infection, UTI, skin infections</td>
+                  <td>Strep, sinus infection, UTI (women only), skin infections</td>
                   <td>Sent to any US pharmacy</td>
                 </tr>
                 <tr>
@@ -1155,8 +1155,8 @@ export default function InternationalVisitorsPage() {
               <p>Same-day appointments. $79 flat fee. Board-certified MD. No US insurance required.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-              <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+              <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
             </div>
           </div>
         </div>
@@ -1183,12 +1183,12 @@ export default function InternationalVisitorsPage() {
               </a>
             </li>
             <li>
-              <a href="https://www.cms.gov/medicare/telehealth" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.cms.gov/medicare/coverage/telehealth" target="_blank" rel="noopener noreferrer">
                 Centers for Medicare &amp; Medicaid Services — Telehealth Policy
               </a>
             </li>
             <li>
-              <a href="https://www.cdc.gov/ncezid/dfwed/edlb/travelers-diarrhea.html" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/travelers-diarrhea.html" target="_blank" rel="noopener noreferrer">
                 CDC — Traveler's Diarrhea
               </a>
             </li>
@@ -1213,17 +1213,20 @@ export default function InternationalVisitorsPage() {
       {/* Section 21: States Grid */}
       <section className="tdmd-section" id={`${pid}-states`}>
         <div className="tdmd-container">
-          <h2>Available in 44 States + Washington, D.C. — Wherever Your Trip Takes You</h2>
+          <h2>Available in 40+ States + Washington, D.C. — Wherever Your Trip Takes You</h2>
           <p>
-            TeleDirectMD is licensed in 44 US states and Washington, D.C. Whether you're visiting New York City, the Florida Keys, the California coast, or any destination in between, you can access board-certified care from where you are. Select your state for location-specific information:
+            TeleDirectMD is licensed in 40+ US states and Washington, D.C. Whether you're visiting New York City, the Florida Keys, the California coast, or any destination in between, you can access board-certified care from where you are. Select your state for location-specific information:
           </p>
           <div className="tdmd-other-states-grid">
             {allStates.map(s => (
-              <a key={s.abbr} href={`/${s.abbr.toLowerCase()}`} className="tdmd-other-state-link">
+              <a key={s.abbr} href={`/${s.abbr.toLowerCase()}/`} className="tdmd-other-state-link">
                 {s.name}
               </a>
             ))}
           </div>
+          <p>
+            Visiting New York City? Read <a href="/health-guides/sick-visiting-new-york-city-guide/">Sick While Visiting New York City</a>, a physician&apos;s guide to when to call 911 and when urgent care, a house call, or a video visit fits.
+          </p>
         </div>
       </section>
 
@@ -1232,44 +1235,44 @@ export default function InternationalVisitorsPage() {
         <div className="tdmd-container">
           <h2>Who Else We Serve</h2>
           <div className="tdmd-related-grid">
-            <a href="/who-we-serve/college-students" className="tdmd-related-card">
+            <a href="/who-we-serve/college-students/" className="tdmd-related-card">
               <div className="tdmd-related-title">College Students</div>
-              <div className="tdmd-related-desc">Away at school and need a doctor? Same-day visits, 44 states + D.C.</div>
+              <div className="tdmd-related-desc">Away at school and need a doctor? Same-day visits, 40+ states + D.C.</div>
             </a>
-            <a href="/who-we-serve/early-retirees" className="tdmd-related-card">
+            <a href="/who-we-serve/early-retirees/" className="tdmd-related-card">
               <div className="tdmd-related-title">Early Retirees</div>
               <div className="tdmd-related-desc">Retired before 65? Bridge the gap with $79 visits.</div>
             </a>
-            <a href="/who-we-serve/uninsured-affordable-care" className="tdmd-related-card">
+            <a href="/who-we-serve/uninsured-affordable-care/" className="tdmd-related-card">
               <div className="tdmd-related-title">Uninsured Adults</div>
               <div className="tdmd-related-desc">No insurance? Transparent cash-pay care.</div>
             </a>
-            <a href="/who-we-serve/gig-workers" className="tdmd-related-card">
+            <a href="/who-we-serve/gig-workers/" className="tdmd-related-card">
               <div className="tdmd-related-title">Gig Workers</div>
               <div className="tdmd-related-desc">Flexible care for independent workers.</div>
             </a>
-            <a href="/who-we-serve/remote-workers" className="tdmd-related-card">
+            <a href="/who-we-serve/remote-workers/" className="tdmd-related-card">
               <div className="tdmd-related-title">Remote Workers</div>
               <div className="tdmd-related-desc">Healthcare that follows you anywhere.</div>
             </a>
-            <a href="/who-we-serve/truck-drivers" className="tdmd-related-card">
+            <a href="/who-we-serve/truck-drivers/" className="tdmd-related-card">
               <div className="tdmd-related-title">Truck Drivers</div>
-              <div className="tdmd-related-desc">Care from any truck stop in 44 states + D.C.</div>
+              <div className="tdmd-related-desc">Care from any truck stop in 40+ states + D.C.</div>
             </a>
           </div>
 
           <div className="tdmd-inline-links">
             <h3>More from TeleDirectMD</h3>
             <p className="tdmd-link-cloud">
-              <a href="/insurance">Insurance &amp; Pricing</a>
+              <a href="/insurance/">Insurance &amp; Pricing</a>
               {' · '}
-              <a href="/states-we-serve">States We Serve</a>
+              <a href="/states-we-serve/">States We Serve</a>
               {' · '}
-              <a href="/what-we-treat">What We Treat</a>
+              <a href="/what-we-treat/">What We Treat</a>
               {' · '}
-              <a href="/faq">FAQ</a>
+              <a href="/faq/">FAQ</a>
               {' · '}
-              <a href="/book-online">Book a Visit</a>
+              <a href="/book-online/">Book a Visit</a>
             </p>
           </div>
         </div>

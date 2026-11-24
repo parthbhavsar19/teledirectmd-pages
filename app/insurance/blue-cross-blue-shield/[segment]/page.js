@@ -1,5 +1,6 @@
 import { STATE_NAMES, INSURANCE_CONDITIONS, INSURERS } from '../../../../data/insurance/insuranceConfig';
 import BCBSStateClient from '../components/BCBSStateClient';
+import AnthemCaliforniaClient, { ANTHEM_CA_META } from '../components/AnthemCaliforniaClient';
 import InsuranceConditionClient from '../../components/InsuranceConditionClient';
 
 const insurer = INSURERS['blue-cross-blue-shield'];
@@ -7,10 +8,11 @@ const insurer = INSURERS['blue-cross-blue-shield'];
 // All valid BCBS state slugs → state code
 const STATE_SLUGS = {
   arizona: 'AZ',
-  florida: 'FL',
+  // California uses a dedicated state-specific page (AnthemCaliforniaClient):
+  // PPO / Indemnity / Medicare PPO only, and no state x condition fan-out.
+  california: 'CA',
   georgia: 'GA',
   illinois: 'IL',
-  michigan: 'MI',
   pennsylvania: 'PA',
   texas: 'TX',
 };
@@ -24,12 +26,13 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   const { segment } = await params;
+  if (segment === 'california') return ANTHEM_CA_META;
   if (STATE_SLUGS[segment]) {
     const stateName = STATE_NAMES[STATE_SLUGS[segment]];
     const affiliateName = insurer.affiliates?.[STATE_SLUGS[segment]] || 'Blue Cross Blue Shield';
     return {
       title: `Online Doctor That Accepts ${affiliateName} in ${stateName} | TeleDirectMD`,
-      description: `TeleDirectMD is in-network with ${affiliateName} in ${stateName}. Board-certified physician. Same-day video visits for UTI, sinus infection, asthma refills & more. Your BCBS copay applies.`,
+      description: `TeleDirectMD is in-network with ${affiliateName} in ${stateName}. Board-certified physician. Same-day video visits for UTI (women only), sinus infection, asthma refills & more. Your BCBS copay applies.`,
       alternates: { canonical: `https://teledirectmd.com/insurance/blue-cross-blue-shield/${segment}` },
       openGraph: {
         title: `Online Doctor That Accepts ${affiliateName} in ${stateName} | TeleDirectMD`,
@@ -43,7 +46,7 @@ export async function generateMetadata({ params }) {
   if (cond) {
     return {
       title: `Does Blue Cross Blue Shield Cover ${cond.displayName} Telemedicine? | TeleDirectMD`,
-      description: `Yes — BCBS commercial plans cover ${cond.name} telehealth visits. TeleDirectMD is in-network with Blue Cross Blue Shield in 7 states. Board-certified physician. Same-day video visits.`,
+      description: `Yes — BCBS commercial plans cover ${cond.name} telehealth visits. TeleDirectMD is in-network with Blue Cross Blue Shield affiliates in 8 states. Board-certified physician. Same-day video visits.`,
       alternates: { canonical: `https://teledirectmd.com/insurance/blue-cross-blue-shield/${segment}` },
       openGraph: {
         title: `Does Blue Cross Blue Shield Cover ${cond.displayName} Telemedicine? | TeleDirectMD`,
@@ -58,6 +61,7 @@ export async function generateMetadata({ params }) {
 
 export default async function BCBSSegmentPage({ params }) {
   const { segment } = await params;
+  if (segment === 'california') return <AnthemCaliforniaClient />;
   if (STATE_SLUGS[segment]) {
     return <BCBSStateClient stateSlug={segment} />;
   }

@@ -11,7 +11,7 @@
  * + HowTo + BreadcrumbList + SpeakableSpecification — NEVER QAPage).
  *
  * Authority: AAD
- * Guideline: AAD Contact Dermatitis Guidelines + AAAAI Allergic Contact Dermatitis Guidance
+ * Guideline: AAD poison ivy treatment resources + AAAAI allergic contact dermatitis guidance
  *
  * Hard rules respected:
  *   • No QAPage schema — FAQPage only.
@@ -38,7 +38,7 @@ const PHYSICIAN = {
   specialty: 'Family Medicine',
   licenseState: 'California',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 const CA_PAYORS = [
@@ -46,8 +46,8 @@ const CA_PAYORS = [
     notes: 'Commercial plans. In-network as of April 30, 2026. Verify plan eligibility with Aetna before booking.' },
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true,
     notes: 'Covers UHC Commercial and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types.' },
-  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Enrollment pending. Self pay ($79) available.' },
+  { name: 'Anthem Blue Cross', status: 'Active', effective: 'September 23, 2026', inNetwork: true,
+    notes: 'PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.' },
   { name: 'Cigna', status: 'Pending', effective: 'Pending determination', inNetwork: false,
     notes: 'Pending — Telehealth Only review in progress. Self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false,
@@ -62,7 +62,7 @@ const FAQ_ITEMS = [
     question: 'Can I get poison oak or ivy treatment online in California?',
     answer: (
       <p>
-        Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat poison oak and ivy (allergic contact dermatitis) by secure video visit. TeleDirectMD physicians follow AAD and AAAAI guidelines, prescribing oral prednisone for moderate-severe reactions and topical corticosteroids for localized rash. Adults 18+ in California can book same-day. Self pay is $79. Aetna is in-network as of April 30, 2026.
+        Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat poison oak and ivy (allergic contact dermatitis) by secure video visit. Dr. Bhavsar follows AAD and AAAAI clinical guidance, prescribing oral prednisone for moderate-severe reactions and topical corticosteroids for localized rash. Adults 18+ in California can book same-day. Self pay is $79. Aetna is in-network as of April 30, 2026.
       </p>
     ),
   },
@@ -116,7 +116,7 @@ const FAQ_ITEMS = [
     question: 'What is the cost of poison oak/ivy treatment in California?',
     answer: (
       <p>
-        TeleDirectMD charges $79 self-pay. Generic prednisone (10–14 day course) costs ~$5–$15. Generic triamcinolone ~$5–$15. Hydroxyzine ~$10–$20. Urgent care poison oak visits typically cost $150–$300 before insurance.
+        TeleDirectMD charges $79 self-pay. Generic prednisone (10–14 day course) costs ~$5–$15. Generic triamcinolone ~$5–$15. Hydroxyzine ~$10–$20.
       </p>
     ),
   },
@@ -125,7 +125,7 @@ const FAQ_ITEMS = [
     question: 'Why must prednisone for poison oak/ivy be taken for at least 10–14 days?',
     answer: (
       <p>
-        Urushiol (the causative allergen in poison oak and ivy) is highly lipophilic and binds to skin cells for extended periods. Rebound dermatitis — a severe return of the rash after short steroid courses — is a well-documented complication of short prednisone courses (5–7 days) for Toxicodendron contact dermatitis. AAD guidelines recommend a minimum 10–14 day taper. TeleDirectMD physicians prescribe the full-length taper per CA B&P §2290.5 standard of care.
+        Urushiol (the causative allergen in poison oak and ivy) is highly lipophilic and binds to skin cells for extended periods. Rebound dermatitis — a severe return of the rash after short steroid courses — is a well-documented complication of short prednisone courses (5–7 days) for Toxicodendron contact dermatitis. A taper lasting at least 10–14 days is generally recommended. Dr. Bhavsar prescribes the full-length taper per CA B&P §2290.5 standard of care.
       </p>
     ),
   },
@@ -161,13 +161,13 @@ const FAQ_ITEMS = [
     question: 'How long does poison oak/ivy rash last?',
     answer: (
       <p>
-        Untreated or mild poison oak/ivy reactions typically resolve in 1–3 weeks as the immune response subsides. Moderate reactions treated with oral prednisone taper typically improve within 5–7 days of starting treatment. The rash does not spread from scratching or oozing blister fluid — the appearance of new areas reflects where urushiol was originally deposited (areas that received more allergen erupt later). TeleDirectMD physicians explain this timeline and when to follow up if the rash is not improving.
+        Untreated or mild poison oak/ivy reactions typically resolve in 1–3 weeks as the immune response subsides. Moderate reactions treated with oral prednisone taper typically improve within 5–7 days of starting treatment. The rash does not spread from scratching or oozing blister fluid — the appearance of new areas reflects where urushiol was originally deposited (areas that received more allergen erupt later). Dr. Bhavsar explains this timeline and when to follow up if the rash is not improving.
       </p>
     ),
   },
 ];
 
-const SCHEMAS = [{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Poison Ivy/Oak (Allergic Contact Dermatitis from Toxicodendron) Online in California | TeleDirectMD", "url": "https://teledirectmd.com/ca/poison-ivy-oak-treatment-online/", "description": "Poison ivy/oak (allergic contact dermatitis) treatment online for California adults. Board-certified Family Medicine MD. AAD + AAAAI guideline-based. Self pay $79. Aetna in-network. Same-day video visits.", "datePublished": "2026-05-20", "dateModified": "2026-05-20", "inLanguage": "en-US", "about": {"@type": "MedicalCondition", "name": "Poison Oak / Ivy", "code": {"@type": "MedicalCode", "code": "L23.7", "codingSystem": "ICD-10-CM"}}, "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient", "geographicArea": {"@type": "AdministrativeArea", "name": "California"}}, "reviewedBy": {"@type": "Physician", "@id": "https://teledirectmd.com/about/#physician-parth-bhavsar", "name": "Parth Bhavsar, MD", "identifier": {"@type": "PropertyValue", "propertyID": "NPI", "value": "1104323203"}, "medicalSpecialty": "Family Medicine", "hasCredential": [{"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "Doctor of Medicine (MD)"}, {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Board Certification \u2014 American Board of Family Medicine"}], "licensedIn": "California", "worksFor": {"@type": "MedicalOrganization", "name": "TeleDirectMD", "url": "https://teledirectmd.com"}, "sameAs": ["https://npiregistry.cms.hhs.gov/provider-view/1104323203", "https://teledirectmd.com/about/"]}, "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["#ca-poison-ivy-oak-treatment-online-opening", "#ca-poison-ivy-oak-treatment-online-opening p", ".tdmd-ca-poison-ivy-oak-treatment-online__byline", "#ca-poison-ivy-oak-treatment-online-faq"]}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I get poison oak or ivy treatment online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat poison oak and ivy (allergic contact dermatitis) by secure video visit. TeleDirectMD physicians follow AAD and AAAAI guidelines, prescribing oral prednisone for moderate-severe reactions and topical corticosteroids for localized rash. Adults 18+ in California can book same-day. Self pay is $79. Aetna is in-network as of April 30, 2026."}}, {"@type": "Question", "name": "How common is poison oak exposure in California?", "acceptedAnswer": {"@type": "Answer", "text": "Poison oak (Toxicodendron diversilobum) is the most prevalent plant allergen in the western United States. An estimated 85% of people will develop allergic contact dermatitis with sufficient urushiol exposure per AAAAI data. California's chaparral, oak woodland, and coastal scrub ecosystems \u2014 covering much of the state's hiking trails, wildlands, and forests \u2014 make poison oak exposure extremely common for hikers, firefighters, and outdoor workers."}}, {"@type": "Question", "name": "What poison oak/ivy medications can a California telehealth doctor prescribe?", "acceptedAnswer": {"@type": "Answer", "text": "A California-licensed telehealth physician can prescribe: oral prednisone 40\u201360 mg tapering over 10\u201314 days for moderate-severe widespread reactions, topical triamcinolone 0.1% cream for localized rash, and hydroxyzine 25\u201350 mg for itch relief. The prednisone taper must be at least 10\u201314 days to prevent rebound dermatitis \u2014 shorter courses cause relapse."}}, {"@type": "Question", "name": "Does California require an in-person visit before poison oak telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. Localized or moderate poison oak/ivy reactions \u2014 affecting limbs or trunk but not face, eyes, or genitals \u2014 are appropriately evaluated by video. Reactions involving face, eyes, or mouth, inhaled urushiol, or signs of anaphylaxis require immediate in-person or emergency care."}}, {"@type": "Question", "name": "When does poison oak/ivy require emergency or in-person care?", "acceptedAnswer": {"@type": "Answer", "text": "Go to the ER for: anaphylaxis (throat swelling, difficulty breathing after plant exposure), inhaled urushiol (burning poison oak/ivy \u2014 severe respiratory distress), or reaction involving eyes, mouth, or genitals with swelling. Seek urgent care for widespread reactions covering >30% of body with fever, or secondarily infected rash. TeleDirectMD is appropriate for moderate reactions on limbs or trunk without these red flags."}}, {"@type": "Question", "name": "Is Aetna in-network for poison oak/ivy treatment at TeleDirectMD in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026. Self pay is $79."}}, {"@type": "Question", "name": "What is the cost of poison oak/ivy treatment in California?", "acceptedAnswer": {"@type": "Answer", "text": "TeleDirectMD charges $79 self-pay. Generic prednisone (10\u201314 day course) costs ~$5\u2013$15. Generic triamcinolone ~$5\u2013$15. Hydroxyzine ~$10\u2013$20. Urgent care poison oak visits typically cost $150\u2013$300 before insurance."}}, {"@type": "Question", "name": "Why must prednisone for poison oak/ivy be taken for at least 10\u201314 days?", "acceptedAnswer": {"@type": "Answer", "text": "Urushiol (the causative allergen in poison oak and ivy) is highly lipophilic and binds to skin cells for extended periods. Rebound dermatitis \u2014 a severe return of the rash after short steroid courses \u2014 is a well-documented complication of short prednisone courses (5\u20137 days) for Toxicodendron contact dermatitis. AAD guidelines recommend a minimum 10\u201314 day taper. TeleDirectMD physicians prescribe the full-length taper per CA B&P \u00a72290.5 standard of care."}}, {"@type": "Question", "name": "Does California's AB 744 parity law cover poison oak/ivy telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, for in-network commercial plans. California AB 744 (2019) requires commercial health plans to reimburse telehealth on the same basis as in-person services. Aetna and UHC Commercial are in-network for TeleDirectMD in California."}}, {"@type": "Question", "name": "How do I prevent poison oak exposure in California?", "acceptedAnswer": {"@type": "Answer", "text": "Prevention strategies from AAAAI and CDC: learn to identify poison oak leaves (three leaflets, shiny, reddish in spring/fall); wear long sleeves, gloves, and closed-toe shoes when hiking in California chaparral; use IvyX or Tecnu barrier cream before exposure; wash all exposed skin and clothing immediately after possible contact with soap and water; bathe pets that may have contacted the plant. Wildland firefighters and outdoor workers face highest exposure risk."}}, {"@type": "Question", "name": "Will my prescription be sent electronically to a California pharmacy?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California AB 2789 (effective January 1, 2022) requires all prescriptions to be issued electronically. TeleDirectMD sends e-prescriptions to your chosen California pharmacy \u2014 CVS, Walgreens, Rite Aid, Walmart, Safeway \u2014 during or after your visit."}}, {"@type": "Question", "name": "How long does poison oak/ivy rash last?", "acceptedAnswer": {"@type": "Answer", "text": "Untreated or mild poison oak/ivy reactions typically resolve in 1\u20133 weeks as the immune response subsides. Moderate reactions treated with oral prednisone taper typically improve within 5\u20137 days of starting treatment. The rash does not spread from scratching or oozing blister fluid \u2014 the appearance of new areas reflects where urushiol was originally deposited (areas that received more allergen erupt later). TeleDirectMD physicians explain this timeline and when to follow up if the rash is not improving."}}]}, {"@context": "https://schema.org", "@type": "HowTo", "name": "How to Get Poison Ivy/Oak (Allergic Contact Dermatitis from Toxicodendron) Online in California", "description": "Three steps to receive poison ivy/oak (allergic contact dermatitis from toxicodendron) evaluation and, if appropriate, a prescription from a California-licensed board-certified physician.", "totalTime": "PT30M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "79"}, "step": [{"@type": "HowToStep", "position": 1, "name": "Book your video visit", "text": "Visit teledirectmd.com and select California Poison Oak / Ivy treatment. No referral needed. Self pay $79. Many visits available same day.", "url": "https://teledirectmd.com/book-online"}, {"@type": "HowToStep", "position": 2, "name": "See a California-licensed MD by secure video", "text": "Connect with a board-certified Family Medicine physician licensed in California. The physician reviews your symptoms, history, and red-flag screening. Consent per CA B&P Section 2290.5 confirmed.", "url": "https://teledirectmd.com/ca/poison-ivy-oak-treatment-online/"}, {"@type": "HowToStep", "position": 3, "name": "Receive your treatment plan and e-prescription", "text": "If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy during or after the visit.", "url": "https://teledirectmd.com/ca/poison-ivy-oak-treatment-online/"}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TeleDirectMD", "item": "https://teledirectmd.com"}, {"@type": "ListItem", "position": 2, "name": "California", "item": "https://teledirectmd.com/ca/"}, {"@type": "ListItem", "position": 3, "name": "Poison Ivy/Oak (Allergic Contact Dermatitis from Toxicodendron) Online in California", "item": "https://teledirectmd.com/ca/poison-ivy-oak-treatment-online/"}]}];
+const SCHEMAS = [{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Poison Ivy/Oak (Allergic Contact Dermatitis from Toxicodendron) Online in California | TeleDirectMD", "url": "https://teledirectmd.com/ca/poison-ivy-oak-treatment-online/", "description": "Poison ivy/oak (allergic contact dermatitis) treatment online for California adults. Board-certified Family Medicine MD. AAD + AAAAI guidance-based. Self pay $79. Aetna in-network. Same-day video visits.", "datePublished": "2026-05-20", "dateModified": "2026-05-20", "inLanguage": "en-US", "about": {"@type": "MedicalCondition", "name": "Poison Oak / Ivy", "code": {"@type": "MedicalCode", "code": "L23.7", "codingSystem": "ICD-10-CM"}}, "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient", "geographicArea": {"@type": "AdministrativeArea", "name": "California"}}, "reviewedBy": {"@type": "Physician", "@id": "https://teledirectmd.com/about/#physician", "name": "Parth Bhavsar, MD", "identifier": {"@type": "PropertyValue", "propertyID": "NPI", "value": "1104323203"}, "medicalSpecialty": "Family Medicine", "hasCredential": [{"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "Doctor of Medicine (MD)"}, {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Board Certification \u2014 American Board of Family Medicine"}], "licensedIn": "California", "worksFor": {"@type": "MedicalOrganization", "name": "TeleDirectMD", "url": "https://teledirectmd.com"}, "sameAs": ["https://npiregistry.cms.hhs.gov/provider-view/1104323203", "https://teledirectmd.com/about/"]}, "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["#ca-poison-ivy-oak-treatment-online-opening", "#ca-poison-ivy-oak-treatment-online-opening p", ".tdmd-ca-poison-ivy-oak-treatment-online__byline", "#ca-poison-ivy-oak-treatment-online-faq"]}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I get poison oak or ivy treatment online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat poison oak and ivy (allergic contact dermatitis) by secure video visit. Dr. Bhavsar follows AAD and AAAAI clinical guidance, prescribing oral prednisone for moderate-severe reactions and topical corticosteroids for localized rash. Adults 18+ in California can book same-day. Self pay is $79. Aetna is in-network as of April 30, 2026."}}, {"@type": "Question", "name": "How common is poison oak exposure in California?", "acceptedAnswer": {"@type": "Answer", "text": "Poison oak (Toxicodendron diversilobum) is the most prevalent plant allergen in the western United States. An estimated 85% of people will develop allergic contact dermatitis with sufficient urushiol exposure per AAAAI data. California's chaparral, oak woodland, and coastal scrub ecosystems \u2014 covering much of the state's hiking trails, wildlands, and forests \u2014 make poison oak exposure extremely common for hikers, firefighters, and outdoor workers."}}, {"@type": "Question", "name": "What poison oak/ivy medications can a California telehealth doctor prescribe?", "acceptedAnswer": {"@type": "Answer", "text": "A California-licensed telehealth physician can prescribe: oral prednisone 40\u201360 mg tapering over 10\u201314 days for moderate-severe widespread reactions, topical triamcinolone 0.1% cream for localized rash, and hydroxyzine 25\u201350 mg for itch relief. The prednisone taper must be at least 10\u201314 days to prevent rebound dermatitis \u2014 shorter courses cause relapse."}}, {"@type": "Question", "name": "Does California require an in-person visit before poison oak telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. Localized or moderate poison oak/ivy reactions \u2014 affecting limbs or trunk but not face, eyes, or genitals \u2014 are appropriately evaluated by video. Reactions involving face, eyes, or mouth, inhaled urushiol, or signs of anaphylaxis require immediate in-person or emergency care."}}, {"@type": "Question", "name": "When does poison oak/ivy require emergency or in-person care?", "acceptedAnswer": {"@type": "Answer", "text": "Go to the ER for: anaphylaxis (throat swelling, difficulty breathing after plant exposure), inhaled urushiol (burning poison oak/ivy \u2014 severe respiratory distress), or reaction involving eyes, mouth, or genitals with swelling. Seek urgent care for widespread reactions covering >30% of body with fever, or secondarily infected rash. TeleDirectMD is appropriate for moderate reactions on limbs or trunk without these red flags."}}, {"@type": "Question", "name": "Is Aetna in-network for poison oak/ivy treatment at TeleDirectMD in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026. Self pay is $79."}}, {"@type": "Question", "name": "What is the cost of poison oak/ivy treatment in California?", "acceptedAnswer": {"@type": "Answer", "text": "TeleDirectMD charges $79 self-pay. Generic prednisone (10\u201314 day course) costs ~$5\u2013$15. Generic triamcinolone ~$5\u2013$15. Hydroxyzine ~$10\u2013$20."}}, {"@type": "Question", "name": "Why must prednisone for poison oak/ivy be taken for at least 10\u201314 days?", "acceptedAnswer": {"@type": "Answer", "text": "Urushiol (the causative allergen in poison oak and ivy) is highly lipophilic and binds to skin cells for extended periods. Rebound dermatitis \u2014 a severe return of the rash after short steroid courses \u2014 is a well-documented complication of short prednisone courses (5\u20137 days) for Toxicodendron contact dermatitis. A taper lasting at least 10\u201314 days is generally recommended. Dr. Bhavsar prescribes the full-length taper per CA B&P \u00a72290.5 standard of care."}}, {"@type": "Question", "name": "Does California's AB 744 parity law cover poison oak/ivy telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, for in-network commercial plans. California AB 744 (2019) requires commercial health plans to reimburse telehealth on the same basis as in-person services. Aetna and UHC Commercial are in-network for TeleDirectMD in California."}}, {"@type": "Question", "name": "How do I prevent poison oak exposure in California?", "acceptedAnswer": {"@type": "Answer", "text": "Prevention strategies from AAAAI and CDC: learn to identify poison oak leaves (three leaflets, shiny, reddish in spring/fall); wear long sleeves, gloves, and closed-toe shoes when hiking in California chaparral; use IvyX or Tecnu barrier cream before exposure; wash all exposed skin and clothing immediately after possible contact with soap and water; bathe pets that may have contacted the plant. Wildland firefighters and outdoor workers face highest exposure risk."}}, {"@type": "Question", "name": "Will my prescription be sent electronically to a California pharmacy?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California AB 2789 (effective January 1, 2022) requires all prescriptions to be issued electronically. TeleDirectMD sends e-prescriptions to your chosen California pharmacy \u2014 CVS, Walgreens, Rite Aid, Walmart, Safeway \u2014 during or after your visit."}}, {"@type": "Question", "name": "How long does poison oak/ivy rash last?", "acceptedAnswer": {"@type": "Answer", "text": "Untreated or mild poison oak/ivy reactions typically resolve in 1\u20133 weeks as the immune response subsides. Moderate reactions treated with oral prednisone taper typically improve within 5\u20137 days of starting treatment. The rash does not spread from scratching or oozing blister fluid \u2014 the appearance of new areas reflects where urushiol was originally deposited (areas that received more allergen erupt later). Dr. Bhavsar explains this timeline and when to follow up if the rash is not improving."}}]}, {"@context": "https://schema.org", "@type": "HowTo", "name": "How to Get Poison Ivy/Oak (Allergic Contact Dermatitis from Toxicodendron) Online in California", "description": "Three steps to receive poison ivy/oak (allergic contact dermatitis from toxicodendron) evaluation and, if appropriate, a prescription from a California-licensed board-certified physician.", "totalTime": "PT30M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "79"}, "step": [{"@type": "HowToStep", "position": 1, "name": "Book your video visit", "text": "Visit teledirectmd.com and select California Poison Oak / Ivy treatment. No referral needed. Self pay $79. Many visits available same day.", "url": "https://teledirectmd.com/book-online"}, {"@type": "HowToStep", "position": 2, "name": "See a California-licensed MD by secure video", "text": "Connect with a board-certified Family Medicine physician licensed in California. The physician reviews your symptoms, history, and red-flag screening. Consent per CA B&P Section 2290.5 confirmed.", "url": "https://teledirectmd.com/ca/poison-ivy-oak-treatment-online/"}, {"@type": "HowToStep", "position": 3, "name": "Receive your treatment plan and e-prescription", "text": "If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy during or after the visit.", "url": "https://teledirectmd.com/ca/poison-ivy-oak-treatment-online/"}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TeleDirectMD", "item": "https://teledirectmd.com"}, {"@type": "ListItem", "position": 2, "name": "California", "item": "https://teledirectmd.com/ca/"}, {"@type": "ListItem", "position": 3, "name": "Poison Ivy/Oak (Allergic Contact Dermatitis from Toxicodendron) Online in California", "item": "https://teledirectmd.com/ca/poison-ivy-oak-treatment-online/"}]}];
 
 const PAGE_CSS = `
 .tdmd-ca-cond{color:var(--tdmd-text);}
@@ -242,7 +242,7 @@ export default function CaPoisonIvyOakTreatmentOnline() {
               <div className="tdmd-hero-copy">
                 <h1 data-speakable="true">Poison Ivy/Oak Treatment Online in California</h1>
                 <p className="tdmd-hero-sub" data-speakable="true">
-                  California adult care by secure video visit. Self pay $79 · Aetna in-network · UHC Commercial approved · AAD + AAAAI guideline-based poison oak and ivy care · CA B&P §2290.5 compliant.
+                  California adult care by secure video visit. Self pay $79 · Aetna in-network · UHC Commercial approved · AAD + AAAAI guidance-based poison oak and ivy care · CA B&P §2290.5 compliant.
                 </p>
                 <p>
                   Poison Oak / Ivy is a condition commonly evaluated and, when appropriate, treated via telehealth. TeleDirectMD uses a safety-first approach, screening for red-flag symptoms that require in-person or emergency care before determining whether treatment by video visit is appropriate. This page is for adults located in California, including Los Angeles, San Diego, San Jose, San Francisco, Fresno, Sacramento, Long Beach, Oakland, Bakersfield, Anaheim, and surrounding areas.
@@ -251,7 +251,7 @@ export default function CaPoisonIvyOakTreatmentOnline() {
                 {/* v3: Inline opener paragraph — replaces CitableSummaryBlock */}
                 <div className="tdmd-condition-opener" id={`${pid}-opening`}>
                   <p>
-                    <strong>Can I get poison ivy/oak (allergic contact dermatitis from toxicodendron) online in California?</strong> Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California and are held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. Self pay is $79. <a href="/insurance/">Aetna is in-network</a> as of April 30, 2026; UnitedHealthcare Commercial approved May 29, 2026.
+                    <strong>Can I get poison ivy/oak (allergic contact dermatitis from toxicodendron) online in California?</strong> Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. Dr. Bhavsar is licensed in California and is held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. Self pay is $79. <a href="/insurance/">Aetna is in-network</a> as of April 30, 2026; UnitedHealthcare Commercial approved May 29, 2026.
                   </p>
                 </div>
 
@@ -290,9 +290,9 @@ export default function CaPoisonIvyOakTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> L23.7 (Allergic contact dermatitis due to plants, except food)</p>
@@ -404,7 +404,7 @@ export default function CaPoisonIvyOakTreatmentOnline() {
                   <h3>Receive your treatment plan and e-prescription</h3>
                   <p>If medication is clinically appropriate, a California-compliant e-prescription is sent to your chosen California pharmacy during or after the visit. You receive clear follow-up instructions regardless of treatment choice, including when to seek in-person care.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -420,7 +420,7 @@ export default function CaPoisonIvyOakTreatmentOnline() {
               Poison oak (Toxicodendron diversilobum) is California's most prevalent plant allergen and the leading cause of allergic contact dermatitis in the western United States, according to the California Department of Public Health (CDPH). An estimated 85% of the U.S. population will develop an allergic reaction to urushiol if exposed to sufficient amounts per AAAAI data. California's chaparral, oak woodland, and coastal scrub make poison oak exposure common for hikers, outdoor workers, firefighters, and wildland recreationists. — <a href="https://www.cdph.ca.gov/" rel="noopener" target="_blank">CDPH — California Department of Public Health</a>.
             </p>
             <p>
-              Clinical guidance for poison ivy/oak (allergic contact dermatitis from toxicodendron) is provided by <a href="https://www.aad.org/public/diseases/a-z/poison-ivy-treatment" rel="noopener" target="_blank">AAD</a> through the AAD Contact Dermatitis Guidelines + AAAAI Allergic Contact Dermatitis Guidance. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for poison ivy/oak (allergic contact dermatitis from toxicodendron) is provided by <a href="https://www.aad.org/public/everyday-care/itchy-skin/poison-ivy/treat-rash" rel="noopener" target="_blank">AAD</a> through its poison ivy treatment resources and AAAAI allergic contact dermatitis guidance. TeleDirectMD follows this guidance on every patient visit.
             </p>
             <h3>What causes poison oak / ivy and who is most at risk in California?</h3>
             <p>
@@ -449,25 +449,6 @@ export default function CaPoisonIvyOakTreatmentOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical Poison Oak / Ivy cost comparison">
-                <h3>Typical Poison Oak / Ivy Visit Cost in California</h3>
-                <p className="tdmd-price-caption">Common ranges Californians see before insurance. Actual costs vary by setting and city.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 16, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical California metro pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <h3 style={{ marginTop: '1.75rem' }}>California Payor Status — TeleDirectMD</h3>
@@ -505,7 +486,7 @@ export default function CaPoisonIvyOakTreatmentOnline() {
               </table>
             </div>
             <p style={{ marginTop: '1rem' }}>
-              View all <a href="/insurance">insurance options</a> or <a href="/book-online">book a $79 self-pay visit</a>.
+              View all <a href="/insurance/">insurance options</a> or <a href="/book-online/">book a $79 self-pay visit</a>.
             </p>
           </div>
         </section>
@@ -515,7 +496,7 @@ export default function CaPoisonIvyOakTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Poison Ivy/Oak (Allergic Contact Dermatitis from Toxicodendron) Medication Options and Costs in California</h2>
             <p>
-              Medications for poison ivy/oak (allergic contact dermatitis from toxicodendron) are selected based on current guidelines from <a href="https://www.aad.org/public/diseases/a-z/poison-ivy-treatment" rel="noopener" target="_blank">AAD</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for poison ivy/oak (allergic contact dermatitis from toxicodendron) are selected based on current guidelines from <a href="https://www.aad.org/public/everyday-care/itchy-skin/poison-ivy/treat-rash" rel="noopener" target="_blank">AAD</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Poison Ivy/Oak (Allergic Contact Dermatitis from Toxicodendron) medication options and GoodRx prices">
@@ -540,13 +521,13 @@ export default function CaPoisonIvyOakTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Triamcinolone 0.1% cream (mid-potency TCS)</strong> · First-line</td>
                     <td>Apply to localized affected areas twice daily for 7–14 days</td>
-                    <td><a href="https://www.goodrx.com/triamcinolone-topical" target="_blank" rel="noopener">~$5–$15 / 454g</a></td>
+                    <td><a href="https://www.goodrx.com/triamcinolone" target="_blank" rel="noopener">~$5–$15 / 454g</a></td>
                     <td>First-line for localized mild-moderate poison oak/ivy per AAD. Not adequate for widespread reactions — use oral prednisone for &gt;30% body surface involvement.</td>
                   </tr>
                   <tr>
                     <td><strong>Hydroxyzine 25–50 mg oral (antihistamine for itch)</strong></td>
                     <td>25–50 mg at bedtime — sedating, helps sleep disrupted by itch</td>
-                    <td><a href="https://www.goodrx.com/hydroxyzine" target="_blank" rel="noopener">~$10–$20 / 30 tabs</a></td>
+                    <td><a href="https://www.goodrx.com/hydroxyzine-hydrochloride" target="_blank" rel="noopener">~$10–$20 / 30 tabs</a></td>
                     <td>For symptomatic itch relief — antihistamines do not treat the rash itself. Sedating antihistamine preferred at bedtime. Non-sedating (cetirizine, loratadine) available OTC.</td>
                   </tr>
                 </tbody>
@@ -604,7 +585,7 @@ export default function CaPoisonIvyOakTreatmentOnline() {
                 <p>Book a same-day video visit — California adults, 18+</p>
                 <small>Self pay $79 &middot; Aetna in-network &middot; UHC Commercial approved May 2026 &middot; No ER wait</small>
               </div>
-              <a className="tdmd-ca-cond__cta-btn" href="/book-online" rel="noopener">Book Now &rarr;</a>
+              <a className="tdmd-ca-cond__cta-btn" href="/book-online/" rel="noopener">Book Now &rarr;</a>
             </div>
           </div>
         </section>
@@ -622,8 +603,8 @@ export default function CaPoisonIvyOakTreatmentOnline() {
                 <p>Book a same-day video visit. Self pay $79 &middot; Aetna in-network &middot; UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -674,10 +655,10 @@ export default function CaPoisonIvyOakTreatmentOnline() {
               <a href="/poison-ivy-oak-treatment-online/">National Poison Oak / Ivy page</a>
               <a href="/health-guides/">Poison Oak / Ivy health guides</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/insurance">Insurance</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/insurance/">Insurance</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>
@@ -687,15 +668,15 @@ export default function CaPoisonIvyOakTreatmentOnline() {
           <div className="tdmd-container">
             <h2>References and Primary Sources</h2>
             <ol className="tdmd-ref-list">
-              <li><a href="https://www.aad.org/public/diseases/a-z/poison-ivy-treatment" rel="noopener" target="_blank">AAD — Contact Dermatitis (Poison Ivy/Oak). Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.aaaai.org/conditions-treatments/related-conditions/contact-dermatitis" rel="noopener" target="_blank">AAAAI — Poison Ivy, Oak, and Sumac. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.aad.org/public/everyday-care/itchy-skin/poison-ivy/treat-rash" rel="noopener" target="_blank">AAD — Contact Dermatitis (Poison Ivy/Oak). Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.aaaai.org/Tools-for-the-Public/Conditions-Library/Allergies/Contact-Dermatitis-Overview" rel="noopener" target="_blank">AAAAI: Contact Dermatitis Overview. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.cdph.ca.gov/" rel="noopener" target="_blank">CDPH. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California B&P Code §2290.5. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 (AB 744). Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.goodrx.com/prednisone" rel="noopener" target="_blank">GoodRx — Prednisone. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/triamcinolone-topical" rel="noopener" target="_blank">GoodRx — Triamcinolone Topical. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/hydroxyzine" rel="noopener" target="_blank">GoodRx — Hydroxyzine. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/triamcinolone" rel="noopener" target="_blank">GoodRx — Triamcinolone Topical. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/hydroxyzine-hydrochloride" rel="noopener" target="_blank">GoodRx — Hydroxyzine. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Prescriptions/Electronic_Prescribing.aspx" rel="noopener" target="_blank">Medical Board of California — AB 2789. Retrieved 2026-05-22.</a></li>
             </ol>
           </div>

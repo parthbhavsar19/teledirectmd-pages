@@ -1,0 +1,203 @@
+{
+  "guide": "affordability/copay-vs-coinsurance-vs-deductible",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 0 verified (no journal references or DOIs in this guide; references are U.S. government web pages and the KFF survey report), retractions: none",
+  "references": [
+    {
+      "n": 1,
+      "kind": "agency_page",
+      "cited_as": "HealthCare.gov, Deductible",
+      "url": "https://www.healthcare.gov/glossary/deductible/",
+      "record_title": "Deductible (HealthCare.gov glossary)",
+      "record_journal": "HealthCare.gov (CMS)",
+      "version_or_date": "undated glossary page, read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0); direct fetch blocked by egress proxy",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Page includes inline glossary pop-up definitions of copayment ('like $30'), coinsurance and premium.",
+      "claims": [
+        {
+          "text": "Key takeaway and body: deductible is what you pay for covered services before the plan starts to pay; $2,000 example",
+          "quote": "The amount you pay for covered health care services before your insurance plan starts to pay. With a $2,000 deductible, for example, you pay the first $2,000 of covered services yourself.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Deductible section (rewritten): Marketplace plans pay full cost of certain preventive benefits before the deductible; many plans pay for some services like a checkup before it is met (also FAQ deductible vs coinsurance, FAQ deductible vs copay)",
+          "quote": "Many plans pay for certain services, like a checkup or disease management programs, before you've met your deductible. ... All Marketplace health plans pay the full cost of certain preventive benefits even before you meet your deductible.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Takeaway and stacking step 2: after the deductible you usually pay a copay or coinsurance while the insurer pays the rest",
+          "quote": "After you pay your deductible, you usually pay only a copayment or coinsurance for covered services. Your insurance company pays the rest.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Premium tradeoff (rewritten): lower-premium plans generally have higher deductibles; higher-premium plans lower deductibles",
+          "quote": "Generally, plans with lower monthly premiums have higher deductibles. Plans with higher monthly premiums usually have lower deductibles.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQ premium vs copay: premium is the monthly amount for coverage whether or not you get services; a copay is a fixed amount for a covered service",
+          "quote": "A monthly amount you pay for coverage whether you get services or not.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "agency_page",
+      "cited_as": "HealthCare.gov, Copayment",
+      "url": "https://www.healthcare.gov/glossary/co-payment/",
+      "record_title": "Copayment (HealthCare.gov glossary)",
+      "record_journal": "HealthCare.gov (CMS)",
+      "version_or_date": "undated glossary page, read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0); direct fetch blocked by egress proxy",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Takeaway and copay section (rewritten): copay is a fixed amount for a covered service, like $20 for a doctor visit",
+          "quote": "A fixed amount ($20, for example) you pay for a covered health care service after you've paid your deductible.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Copay section and FAQs (rewritten): HealthCare.gov's definition describes the copay as paid after the deductible; before that you pay the full allowed amount; copay continues after deductible",
+          "quote": "If you've paid your deductible : You pay $20, usually at the time of the visit. If you haven't met your deductible: You pay $100, the full allowable amount for the visit.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Premium tradeoff (rewritten): lower-premium plans generally have higher copayments",
+          "quote": "Generally plans with lower monthly premiums have higher copayments. Plans with higher monthly premiums usually have lower copayments.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "agency_page",
+      "cited_as": "HealthCare.gov, Coinsurance",
+      "url": "https://www.healthcare.gov/glossary/co-insurance/",
+      "record_title": "Coinsurance (HealthCare.gov glossary)",
+      "record_journal": "HealthCare.gov (CMS)",
+      "version_or_date": "undated glossary page, read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0); direct fetch blocked by egress proxy",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Takeaway, coinsurance section and FAQs: coinsurance is the percentage of a covered service (like 20%) you pay after the deductible",
+          "quote": "The percentage of costs of a covered health care service you pay (20%, for example) after you've paid your deductible.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Stacking step 1: before the deductible is met you pay the full allowed amount",
+          "quote": "If you haven't met your deductible: You pay the full allowed amount, $100.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Worked example: $3,000 deductible, 20% coinsurance, $12,000 of covered care; 20% of remaining $9,000 is $1,800",
+          "quote": "Allowable costs are $12,000. Deductible: $3,000 Coinsurance: 20% Out-of-pocket maximum: $6,850 You'd pay all of the first $3,000 (your deductible). You'll pay 20% of the remaining $9,000, or $1,800 (your coinsurance).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Worked example: total $4,800, below the example plan's $6,850 out-of-pocket maximum",
+          "quote": "So your total out-of-pocket costs would be $4,800",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Premium tradeoff (rewritten): lower-premium plans generally have higher coinsurance",
+          "quote": "Generally speaking, plans with low monthly premiums have higher coinsurance, and plans with higher monthly premiums have lower coinsurance.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "dataset",
+      "cited_as": "KFF, 2025 Employer Health Benefits Survey (published October 22, 2025)",
+      "url": "https://www.kff.org/health-costs/2025-employer-health-benefits-survey/",
+      "record_title": "2025 Employer Health Benefits Survey",
+      "record_journal": "KFF",
+      "record_year": "2025",
+      "version_or_date": "Published Oct 22, 2025 (2025 survey year); read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0); direct fetch blocked by egress proxy",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "KFF has since published the 2026 Employer Health Benefits Survey; the guide's figures are labeled 2025 and match the 2025 report.",
+      "claims": [
+        {
+          "text": "Takeaway and deductible section: 2025 average deductible for single coverage with a general annual deductible is $1,886",
+          "quote": "The average deductible amount in 2025 for workers with single coverage and a general annual deductible is $1,886, similar to last year.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Deductible section: 88% of single-coverage workers have a general annual deductible that must be met before most services are paid for",
+          "quote": "Eighty-eight percent of workers with single coverage have a general annual deductible that must be met before most services are paid for by the plan",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Copay section (new): most covered workers with a deductible in HMO, PPO and POS plans did not have to meet it before primary care office visits were covered; FAQ deductible vs copay",
+          "quote": "large shares (69% in HMOs, 78% in PPOs, 57% in POS plans, and 66% in HDHP/HRAs) are enrolled in plans where the deductible does not have to be met before physician office visits for primary care are covered",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Copay section (new): HSA-qualified HDHPs generally pay only for preventive services before the deductible",
+          "quote": "HSA-qualified plans generally only pay for preventive services before the deductible is met.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQ copay and coinsurance at once (new): 8% of covered workers had both a copayment and coinsurance for a hospital admission",
+          "quote": "When admitted to the hospital, 65% of covered workers have coinsurance requirements, 11% have a copayment, and 8% have both a copayment and coinsurance requirement.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "agency_page",
+      "cited_as": "HealthCare.gov, Out-of-pocket maximum/limit",
+      "url": "https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/",
+      "record_title": "Out-of-pocket maximum/limit (HealthCare.gov glossary)",
+      "record_journal": "HealthCare.gov (CMS)",
+      "version_or_date": "page lists plan years 2026 and 2027; read 2026-11-15",
+      "retrieved_with": "Monid firecrawl /batch/scrape (live fetch, maxAge 0); direct fetch blocked by egress proxy",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference added to source the out-of-pocket maximum statements that were uncited on the live page.",
+      "claims": [
+        {
+          "text": "Takeaway, stacking step 3, FAQs: deductibles, copays and coinsurance for in-network care count toward the out-of-pocket maximum; after it is reached the plan pays 100% of covered benefits",
+          "quote": "After you spend this amount on deductibles, copayments, and coinsurance for in-network care and services, your health plan pays 100% of the costs of covered benefits.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQs and stacking step 3: the out-of-pocket maximum caps what you pay for covered care in a plan year",
+          "quote": "The most you have to pay for covered services in a plan year.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ],
+  "quote_note": "Quotes are the visible sentence text. HealthCare.gov glossary pop-up definitions sit inline in the page markup between words; those pop-up texts and list bullet markers are omitted from quotes, except where the pop-up itself is the quoted text."
+}

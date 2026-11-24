@@ -1,10 +1,9 @@
-import { getStates } from '../../lib/get-data';
+import { contentDate } from '../../lib/content-dates';
 import {
   REVIEW_PLATFORMS,
   TOTAL_REVIEW_COUNT,
   AGGREGATE_RATING_VALUE,
-  getAggregateRating,
-  getPlatformReviews,
+  REVIEW_COUNTS_AS_OF_LABEL,
 } from '../../lib/review-schema';
 import { PRICE_SHORT, PHYSICIAN_NAME } from '../../lib/global-invariants';
 import reviewsData from '../../data/reviews.json';
@@ -13,14 +12,11 @@ import reviewsData from '../../data/reviews.json';
    Coverage and rating totals are derived from the same single sources of
    truth the rest of the site uses, so this page can never re-stale the way
    the old Squarespace page did. */
-const COVERAGE_AREAS = getStates().length; // 45 (44 states + DC)
-const STATE_COUNT = getStates().filter(
-  (s) => !/d\.?c\.?|district of columbia/i.test(s.name),
-).length; // 43
-const COVERAGE_PHRASE = `${STATE_COUNT} states + Washington, D.C.`;
+// Coverage copy is "40+ states" so it does not go stale on a launch.
+const COVERAGE_PHRASE = `40+ states + Washington, D.C.`;
 const SITE = 'https://teledirectmd.com';
 const PAGE_URL = `${SITE}/reviews/`;
-const BOOK_URL = '/book-online';
+const BOOK_URL = '/book-online/';
 
 /* ── Theme grouping for the review grid ───────────────────────────────────
    Each verbatim review from data/reviews.json is assigned to exactly one
@@ -29,7 +25,7 @@ const BOOK_URL = '/book-online';
    the larger "speed" bucket. Display order follows the brief. */
 const THEMES = [
   { key: 'speed', label: 'Speed' },
-  { key: 'prescriptions', label: 'Prescriptions' },
+  { key: 'prescriptions', label: 'Getting the right care' },
   { key: 'bedside', label: 'Bedside Manner' },
   { key: 'value', label: 'Value' },
 ];
@@ -52,8 +48,8 @@ function Stars({ count = 5 }) {
 export const metadata = {
   title: 'Patient Reviews | TeleDirectMD – Rated 4.9+ by Patients',
   description:
-    `Read ${TOTAL_REVIEW_COUNT} verified patient reviews of TeleDirectMD — a ${AGGREGATE_RATING_VALUE}★ ` +
-    `average across Google, Zocdoc, WebMD, and Healthgrades. Board-certified family medicine ` +
+    `Read reviews from patients of TeleDirectMD: ${TOTAL_REVIEW_COUNT} public ratings averaging ${AGGREGATE_RATING_VALUE}★ ` +
+    `across Google, Zocdoc, WebMD, and Healthgrades. Board-certified family medicine ` +
     `physician Dr. Parth Bhavsar offers ${PRICE_SHORT} flat-fee video visits across ${COVERAGE_PHRASE}`,
   robots: {
     index: true,
@@ -69,7 +65,7 @@ export const metadata = {
     locale: 'en_US',
     title: 'Patient Reviews | TeleDirectMD – Rated 4.9+ by Patients',
     description:
-      `${TOTAL_REVIEW_COUNT} verified patient reviews of TeleDirectMD — a ${AGGREGATE_RATING_VALUE}★ average ` +
+      `${TOTAL_REVIEW_COUNT} public patient ratings of TeleDirectMD averaging ${AGGREGATE_RATING_VALUE}★ ` +
       `across Google, Zocdoc, WebMD, and Healthgrades. ${PRICE_SHORT} flat-fee video visits with Dr. Parth Bhavsar.`,
     url: PAGE_URL,
   },
@@ -77,7 +73,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Patient Reviews | TeleDirectMD – Rated 4.9+ by Patients',
     description:
-      `${TOTAL_REVIEW_COUNT} verified patient reviews of TeleDirectMD — a ${AGGREGATE_RATING_VALUE}★ average ` +
+      `${TOTAL_REVIEW_COUNT} public patient ratings of TeleDirectMD averaging ${AGGREGATE_RATING_VALUE}★ ` +
       `across Google, Zocdoc, WebMD, and Healthgrades. ${PRICE_SHORT} flat-fee video visits with Dr. Parth Bhavsar.`,
   },
   alternates: { canonical: PAGE_URL },
@@ -100,24 +96,22 @@ const jsonLd = {
       url: PAGE_URL,
       name: 'Patient Reviews | TeleDirectMD',
       description:
-        `${TOTAL_REVIEW_COUNT} verified patient reviews of TeleDirectMD (a ${AGGREGATE_RATING_VALUE}★ average ` +
+        `${TOTAL_REVIEW_COUNT} public patient ratings of TeleDirectMD (a ${AGGREGATE_RATING_VALUE}★ average ` +
         `across Google, Zocdoc, WebMD, and Healthgrades), a physician-led telehealth practice offering ` +
         `${PRICE_SHORT} flat-fee video visits across ${COVERAGE_PHRASE}`,
       inLanguage: 'en-US',
       breadcrumb: { '@id': `${SITE}/reviews#breadcrumbs` },
-      about: { '@id': `${SITE}/#physician` },
-      mainEntity: { '@id': `${SITE}/#physician` },
+      about: { '@id': `${SITE}/about/#physician` },
+      mainEntity: { '@id': `${SITE}/about/#physician` },
       isPartOf: { '@id': `${SITE}/#website` },
-      lastReviewed: new Date().toISOString().split('T')[0],
+      lastReviewed: contentDate('reviews'),
     },
     {
       '@type': 'Physician',
-      '@id': `${SITE}/#physician`,
+      '@id': `${SITE}/about/#physician`,
       name: PHYSICIAN_NAME,
       medicalSpecialty: 'https://schema.org/FamilyPractice',
       url: `${SITE}/about/`,
-      aggregateRating: getAggregateRating(),
-      review: getPlatformReviews(),
     },
   ],
 };
@@ -146,6 +140,7 @@ const REVIEWS_CSS = `
   .rv-platform:hover{background:rgba(255,255,255,0.2);}
   .rv-platform .rv-pname{font-weight:700;font-size:0.95rem;}
   .rv-platform .rv-pcount{font-size:0.78rem;color:rgba(255,255,255,0.82);}
+  .rv-asof{font-size:0.82rem;color:rgba(255,255,255,0.78);margin:18px auto 0;max-width:660px;line-height:1.5;}
 
   /* ── Section shell ── */
   .rv-section{max-width:1100px;margin:0 auto;padding:56px 24px;}
@@ -167,7 +162,7 @@ const REVIEWS_CSS = `
   .rv-filter{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-bottom:30px;}
   .rv-pill{border:1px solid var(--tdmd-border);background:var(--tdmd-card);color:var(--tdmd-text);border-radius:999px;padding:8px 18px;font-size:0.9rem;font-weight:600;cursor:pointer;transition:all 0.15s;font-family:inherit;}
   .rv-pill:hover{border-color:var(--tdmd-teal);color:var(--tdmd-teal);}
-  .rv-pill.is-active{background:var(--tdmd-teal);border-color:var(--tdmd-teal);color:#fff;}
+  .rv-pill.is-active{background:var(--tdmd-teal);border-color:var(--tdmd-teal);color:var(--tdmd-on-teal);}
   .rv-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px;}
   .rv-card{background:var(--tdmd-card);border:1px solid var(--tdmd-border);border-radius:14px;padding:22px 20px;display:flex;flex-direction:column;gap:10px;}
   .rv-card[hidden]{display:none;}
@@ -245,26 +240,35 @@ export default function ReviewsPage() {
             <p>
               Dr. Parth Bhavsar, a board-certified family medicine physician, personally
               conducts every visit. Here is what patients say about {PRICE_SHORT} flat-fee
-              video care across {COVERAGE_PHRASE} ({COVERAGE_AREAS} coverage areas).
+              video care across {COVERAGE_PHRASE}
             </p>
 
             <div className="rv-trust">
               <div className="rv-trust-score">
                 <span className="rv-big">{AGGREGATE_RATING_VALUE}</span>
                 <Stars count={5} />
-                <small>avg across {TOTAL_REVIEW_COUNT} verified reviews</small>
+                <small>average of {TOTAL_REVIEW_COUNT} public ratings</small>
               </div>
               <div className="rv-platforms">
                 {REVIEW_PLATFORMS.map((p) => (
                   <a key={p.name} className="rv-platform" href={p.url} target="_blank" rel="noopener noreferrer">
                     <span className="rv-pname">{p.name}</span>
-                    <span className="rv-pcount">{p.ratingValue.toFixed(1)} ★ · {p.reviewCount}</span>
+                    <span className="rv-pcount">{p.displayRating} ★ · {p.reviewCount} ratings</span>
                   </a>
                 ))}
               </div>
             </div>
+            <p className="rv-asof">
+              Averages and counts as shown on each site on {REVIEW_COUNTS_AS_OF_LABEL}. The overall
+              figure is weighted by each site&apos;s number of ratings. Select a site to read every
+              review there, including any below five stars.
+            </p>
           </div>
         </header>
+
+        <p className="rv-disclaimer" style={{ maxWidth: 760, margin: '0 auto 1.5rem', padding: '0 1rem', fontSize: 14, lineHeight: 1.6, color: '#4a5d66' }}>
+          The quotes below are a selection of public reviews from Google, Zocdoc, WebMD and Healthgrades, not every review we have received. They are copied as written, typos included. Some are shortened, and an ellipsis (...) marks each place text was left out; no words were added or changed. Names are shown as initials, or as &quot;Patient&quot; where the review site hides them. Each review describes one patient&apos;s experience and is not a guarantee of any diagnosis, treatment or result. Whether a prescription is appropriate is decided by the physician at each visit.
+        </p>
 
         {/* ── FEATURED REVIEWS ── */}
         {featured.length > 0 && (
@@ -292,7 +296,7 @@ export default function ReviewsPage() {
         <section className="rv-section" aria-label="Patient reviews by theme" style={{ paddingTop: 0 }}>
           <div className="rv-section-head">
             <h2>More Patient Reviews</h2>
-            <p>Filter by what matters most to you.</p>
+            <p>A selection of reviews. Filter by what matters most to you.</p>
           </div>
 
           <div className="rv-filter" role="group" aria-label="Filter reviews by theme">
@@ -322,7 +326,7 @@ export default function ReviewsPage() {
         {/* ── CLOSING CTA ── */}
         <section className="rv-cta" aria-label="Book a visit">
           <div className="rv-cta-inner">
-            <h2>Join thousands of highly rated visits</h2>
+            <h2>Ready to see Dr. Bhavsar?</h2>
             <p>See Dr. Bhavsar by secure video today. Flat {PRICE_SHORT}, no insurance required.</p>
             <a href={BOOK_URL} className="rv-cta-btn">Book a {PRICE_SHORT} Visit</a>
           </div>

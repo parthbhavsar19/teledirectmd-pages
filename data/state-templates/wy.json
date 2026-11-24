@@ -1,0 +1,271 @@
+{
+  "stateCode": "WY",
+  "stateName": "Wyoming",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "frontier",
+    "regulation": "standard",
+    "payerLandscape": "self-pay-only",
+    "epidemiology": [
+      "no-lyme-vector",
+      "rabies-bat-skunk",
+      "sti-below-national-rate",
+      "sti-very-low",
+      "tick-colorado-tick-fever",
+      "tularemia-rising"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "frontier",
+    "voiceNotes": "Practical and unhurried for a frontier-density state (5.9 people per square mile in 2020). Lean on the Wyoming Department of Health's own outdoor-exposure guidance (wood ticks, rabid bats and skunks). No statute is quoted until the telemedicine law is primary-sourced."
+  },
+  "stateHero": {
+    "openingParagraph": "Wyoming averaged 5.9 people per square mile in 2020 (U.S. Census Bureau), and its 588,753 residents are spread across 97,088.76 square miles of land. TeleDirectMD offers adults located in Wyoming a video visit with Parth Bhavsar, MD, a board-certified family medicine physician who holds a license from the Wyoming Board of Medicine, whether you are in Cheyenne, Casper, Laramie, Gillette or Riverton. Every visit is with a physician, by live video. The fee is a flat $79, paid at booking, with HSA and FSA cards accepted. When a prescription is appropriate, it is sent electronically to the Wyoming pharmacy you choose.",
+    "conditionPageOpener": "Adults located in Wyoming can book a live video visit with Parth Bhavsar, MD, a board-certified family medicine physician licensed by the Wyoming Board of Medicine. Flat $79, paid at booking. Prescriptions, when appropriate, go electronically to your pharmacy.",
+    "stateContextHint": "Licensed in Wyoming. Live video visits for adults located anywhere in Wyoming, 5.9 people per square mile. Flat $79 self-pay.",
+    "saturation": {
+      "stateNameMentions": 0,
+      "stateEntityMentions": 0
+    }
+  },
+  "stateEligibility": {
+    "intro": "TeleDirectMD sees adults 18 and older who are physically in Wyoming at the time of the video visit, using Parth Bhavsar, MD's Wyoming medical license. Where you are during the visit is what counts: a Wyoming resident traveling in another state is seen only from Wyoming or another state TeleDirectMD serves, and a visitor who is in Wyoming that day can be seen. Visits are live video, so plan for a spot with a steady connection. Emergencies, controlled substances and care for anyone under 18 are outside what a TeleDirectMD visit covers.",
+    "localTriggers": [
+      "Be physically in Wyoming during the visit; your location that day, not your home address, is what matters.",
+      "Live video is required, so find a place with a steady connection before the visit starts.",
+      "No controlled substances are prescribed.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "TeleDirectMD does not bill insurance in Wyoming. Each visit for a patient located in Wyoming is a flat $79, shown before you book and paid at booking, and HSA and FSA cards are accepted. Medicine prescribed at the visit is paid at the pharmacy. Wyoming Medicaid, run by the Department of Health's Healthcare Financing division, Kid Care CHIP and Medicare are not billed, and Wyoming's marketplace plans are sold through HealthCare.gov. The Census Bureau estimates that 12.7 percent of Wyoming residents under 65 have no health insurance; for them and for anyone else, the fee is the same and is shown up front.",
+    "additionalNotes": [
+      "$79 flat self-pay, the full visit fee.",
+      "HSA and FSA cards accepted at booking.",
+      "No insurance, Medicaid or Medicare billing in Wyoming."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "When a prescription is appropriate, Dr. Bhavsar sends it electronically to the Wyoming pharmacy you choose. TeleDirectMD does not prescribe controlled substances in Wyoming or any other state. Some problems common in Wyoming have no prescription answer: the Wyoming Department of Health notes that there are no medications to treat Colorado tick fever, so a visit for a tick bite may end with guidance on symptoms to watch rather than a prescription. Dr. Bhavsar decides during the visit whether a prescription fits. Wyoming has required electronic prescriptions for controlled substances in every schedule since January 1, 2021 (W.S. 35-7-1030(e)).",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "Outdoor exposures shape many Wyoming visits. The Wyoming Department of Health describes Colorado tick fever as a viral disease spread by the Rocky Mountain wood tick and also tracks Rocky Mountain spotted fever and tularemia. Rabies in Wyoming is most commonly found in bats and skunks, and the department advises cleaning any animal bite with soap and water and contacting a medical professional immediately. For flu, the department posts weekly influenza reports for the 2026 to 2027 season and cautions that reported numbers undercount true illness. Wyoming's 2023 chlamydia rate, 313.2 per 100,000, was below the national rate (CDC). This context does not replace an individual evaluation.",
+    "citations": [
+      {
+        "label": "U.S. Census Bureau QuickFacts, Wyoming (Vintage 2025 estimate)",
+        "url": "https://www.census.gov/quickfacts/fact/table/WY/PST045225",
+        "scope": "all"
+      },
+      {
+        "label": "Wyoming Department of Health, Infectious Disease Epidemiology Unit",
+        "url": "https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/"
+      },
+      {
+        "label": "Wyoming Department of Health, Colorado Tick Fever",
+        "url": "https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/colorado-tick-fever/",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Wyoming Department of Health, Rabies",
+        "url": "https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/rabies/",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Wyoming Department of Health, Weekly Influenza Reports",
+        "url": "https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/influenza/influenza-reports/weekly-influenza-reports-wyoming/",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "CDC, Chlamydia Reported Cases and Rates by State, Ranked by Rates, United States, 2023",
+        "url": "https://cdc.gov/sti-statistics/media/pdfs/2024/10/2023-STD-Surveillance-State-Ranking-Tables.pdf",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "CDC, Legal Status of EPT in Wyoming",
+        "url": "https://www.cdc.gov/sti/php/ept-legal-status/wyoming.html",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "Wyoming Board of Medicine Rules, Chapter 1 (2023 filing ERR23-021)",
+        "url": "https://wyoleg.gov/arules/2012/rules/ERR23-021.pdf",
+        "scope": "all"
+      },
+      {
+        "label": "Wyoming Enrolled Act 53 (2017), W.S. 33-1-303(a)(iv)",
+        "url": "https://www.wyoleg.gov/2017/Enroll/HB0164.pdf",
+        "scope": "all"
+      },
+      {
+        "label": "Wyoming Enrolled Act 66 (2019), W.S. 35-7-1030(e)",
+        "url": "https://www.wyoleg.gov/2019/Enroll/SF0047.pdf",
+        "scope": "all"
+      },
+      {
+        "label": "Wyoming Department of Health, Reportable Diseases and Conditions (revised January 2026)",
+        "url": "https://health.wyo.gov/wp-content/uploads/2026/01/2026-Reportable-Disease-List.pdf",
+        "conditions": [
+          "dog-bite-treatment-online",
+          "cat-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Wyoming Department of Health, tick safety release (May 2025)",
+        "url": "https://health.wyo.gov/dont-let-ticks-take-a-bite-out-of-warm-weather-fun/",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Wyoming Department of Health, tularemia release (June 2024)",
+        "url": "https://health.wyo.gov/department-notes-unexpected-increase-in-tularemia-reports",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Wyoming Department of Health, Wyoming Quit Tobacco",
+        "url": "https://health.wyo.gov/publichealth/prevention/substanceabuseandsuicide/tobacco-prevention/wqtp/",
+        "conditions": [
+          "smoking-cessation-treatment-online"
+        ]
+      },
+      {
+        "label": "Wyoming Department of Health, Medicaid",
+        "url": "https://health.wyo.gov/healthcarefin/medicaid/"
+      },
+      {
+        "label": "CMS, Marketplace 2026 Open Enrollment Period Report: National Snapshot",
+        "url": "https://www.cms.gov/newsroom/fact-sheets/marketplace-2026-open-enrollment-period-report-national-snapshot-2"
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds a Wyoming medical license, issued by the Wyoming Board of Medicine. Board of Medicine rules require a Wyoming license for any physician diagnosing or treating a person physically present in the state, whatever the means. Patients can confirm the license through the Board's online license lookup. TeleDirectMD sees only adults who are physically located in Wyoming during the visit under this license, by live video, and does not prescribe controlled substances. NPI: 1104323203.",
+    "verifyUrl": "https://wyomedboard.wyo.gov/consumers/license-lookup",
+    "statuteCitation": "Wyoming Board of Medicine Rules, Chapter 1, Section 4(e) (license required to treat a person physically present in Wyoming); W.S. 33-1-303(a)(iv) (telemedicine rulemaking); W.S. 35-7-1030(e) (electronic prescribing of controlled substances)",
+    "licenseNumber": "19493C",
+    "boardName": "Wyoming Board of Medicine",
+    "boardUrl": "https://wyomedboard.wyo.gov/"
+  },
+  "stateCities": {
+    "metroAndRural": "TeleDirectMD sees adults located anywhere in Wyoming, home to 588,753 people (U.S. Census Bureau, July 1, 2025 estimate) spread across 97,088.76 square miles of land. Patients in Cheyenne, Casper, Laramie, Gillette, Rock Springs, Sheridan, Green River, Evanston and Riverton, and on ranches and in small towns far from any of them, see the same physician for the same flat $79.",
+    "cityList": [
+      {
+        "city": "Cheyenne"
+      },
+      {
+        "city": "Casper"
+      },
+      {
+        "city": "Laramie"
+      },
+      {
+        "city": "Gillette"
+      },
+      {
+        "city": "Rock Springs"
+      },
+      {
+        "city": "Sheridan"
+      },
+      {
+        "city": "Green River"
+      },
+      {
+        "city": "Evanston"
+      },
+      {
+        "city": "Riverton"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "self-pay-only",
+    "selfPayDisclosure": "TeleDirectMD is self-pay only in Wyoming and does not bill commercial insurance, Medicaid or Medicare. Each visit is a flat $79, paid at booking, with HSA and FSA cards accepted and no follow-up bill for the visit. If you have a health plan, you can still book at $79 and ask your plan whether it reimburses out-of-network visits; TeleDirectMD does not file claims and cannot promise reimbursement.",
+    "payers": []
+  },
+  "stateFaqs": [
+    {
+      "question": "Is Dr. Bhavsar licensed in Wyoming, and how can I check?",
+      "answer": "Yes. Parth Bhavsar, MD holds a Wyoming medical license, issued by the Wyoming Board of Medicine, and you can confirm it through the Board's online license lookup. He is board-certified in family medicine by the American Board of Family Medicine, and his National Provider Identifier is 1104323203."
+    },
+    {
+      "question": "Does TeleDirectMD take insurance in Wyoming?",
+      "answer": "No. TeleDirectMD is self-pay only in Wyoming: a flat $79 per visit, paid at booking, with HSA and FSA cards accepted. It does not bill commercial insurance, Medicaid or Medicare. If you have a plan, you can ask it about out-of-network reimbursement, but TeleDirectMD does not file claims and cannot promise reimbursement."
+    },
+    {
+      "question": "I found a tick in Wyoming. Is a video visit useful?",
+      "answer": "Often, yes. The Wyoming Department of Health advises removing an attached tick as soon as possible and notes that Colorado tick fever, spread by the Rocky Mountain wood tick, has no medication to treat it. A video visit can review a photo of the tick and bite, help you decide whether any treatment applies, and list the symptoms that should send you to in-person care, such as fever with severe headache or a spreading rash."
+    },
+    {
+      "question": "What should I do after an animal bite in Wyoming?",
+      "answer": "Wash the bite with soap and water and contact a medical professional right away, which is the Wyoming Department of Health's advice; it notes that rabies in Wyoming is most commonly found in bats and skunks, and animal bites or exposures needing rabies shots are reportable conditions. A small bite from a known, vaccinated pet can often be assessed by video. Bites from bats, skunks, strays or other wild animals need in-person care for a rabies evaluation."
+    },
+    {
+      "question": "I'm visiting Wyoming. Can I use TeleDirectMD?",
+      "answer": "Yes, if you are an adult physically in Wyoming during the visit. TeleDirectMD sees patients based on where they are at the time of the visit, so a visitor in Cheyenne or Casper can be seen like any resident. The fee is the same flat $79, and a prescription, if appropriate, can be sent to a Wyoming pharmacy near where you are staying."
+    },
+    {
+      "question": "Can a doctor licensed in another state treat me by video while I am in Wyoming?",
+      "answer": "Not unless that doctor holds a Wyoming license or fits a narrow exception. Wyoming Board of Medicine rules require any physician who diagnoses or treats a person physically present in Wyoming to be licensed by the Board, regardless of where the physician sits or how care is delivered. Parth Bhavsar, MD holds a Wyoming medical license, which you can check in the Board's license lookup."
+    }
+  ],
+  "conditionOverrides": {
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "The Wyoming Department of Health says ticks in Wyoming can spread tularemia, Rocky Mountain spotted fever and Colorado tick fever, and that the ticks that transmit Lyme disease are not found in the state. Colorado tick fever, carried by the Rocky Mountain wood tick, has no medication that treats it, and tularemia jumped in 2024 to eight cases by late June against a usual two a year. For adults in Wyoming who have removed a tick, a video visit reviews photos, where you were, any travel out of state and how long the tick was attached, then explains which symptoms need in-person care. Fever with severe headache, a skin ulcer, swollen lymph nodes or a spreading rash needs urgent evaluation. Flat $79."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "The Wyoming Department of Health says rabies in Wyoming is most commonly found in bats and skunks, and it lists animal bites or exposures requiring rabies prophylaxis among the conditions an attending provider must report. Its advice after any bite is to wash with soap and water and contact a medical professional immediately. Cat bites also tend to become infected quickly. For adults in Wyoming with a superficial to moderate bite from a known domestic cat within the last 24 hours, a video visit can review photos, plan wound care and decide whether a preventive antibiotic is appropriate. A hand bite with swelling, or a bite from a stray or wild animal, needs in-person care. Flat $79."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "In Wyoming, rabies is most commonly found in bats and skunks, according to the state Department of Health, which tells anyone bitten by an animal to clean the bite with soap and water and contact a medical professional immediately. Animal bites or exposures requiring rabies prophylaxis are on the department's 2026 reportable conditions list, reported by the attending provider. For adults in Wyoming with a cleaned, superficial to moderate bite from a known domestic dog with a vaccination history, a video visit can assess the wound from photos and decide on antibiotics and follow-up. Deep wounds, facial wounds needing repair or a bite from an unknown or wild animal need in-person care. Flat $79."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "The Wyoming Department of Health posts weekly influenza reports through the season, and its 2026 to 2027 reports began with MMWR week 40. The department is candid that reported numbers undercount illness, since not every provider reports and many sick people are never tested. For an individual adult, what matters is timing: flu antivirals work best when started within about 48 hours of symptoms. A video visit for adults in Wyoming can decide whether an antiviral fits and send it to a nearby pharmacy. Trouble breathing, chest pain, confusion or being unable to keep fluids down needs in-person care. Flat $79."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "Wyoming reported 1,829 chlamydia cases in 2023, a rate of 313.2 per 100,000 that ranked 45th among states and sat below the U.S. rate of 492.2 (CDC, 2023 state ranking tables). CDC lists expedited partner therapy as permissible in Wyoming. If you are an adult in Wyoming with a positive chlamydia test, a video visit with Dr. Bhavsar can review the result and, when appropriate, send treatment to your pharmacy. TeleDirectMD does not perform STI testing, so bring your result. Pelvic pain with fever, severe testicular pain or pregnancy needs in-person care. Flat $79."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "Wyoming had among the lowest rates in the country in 2023 for the infections doxy-PEP is meant to prevent: 13 primary and secondary syphilis cases (2.2 per 100,000, 49th among states) and 247 gonorrhea cases (42.3 per 100,000), according to CDC. A low state rate does not set your personal risk, which depends on recent infections and partners. TeleDirectMD's doxy-PEP visits are for adults in Wyoming who are men who have sex with men or transgender women with a bacterial STI in the past 12 months or condomless sex with male partners, and who have no active STI symptoms. Ongoing STI testing happens through a clinic or lab. Flat $79."
+    },
+    "smoking-cessation-treatment-online": {
+      "stateConditionParagraph": "The Wyoming Department of Health's Wyoming Quit Tobacco program, reached at 1-800-QUIT-NOW or quitwyo.org, serves Wyoming residents with coaching from trained quit coaches, free nicotine replacement (patches, gum, lozenges) and free cessation medications. A video visit with Dr. Bhavsar can review your history and decide whether a prescription quit medicine is appropriate, sent electronically to the Wyoming pharmacy you choose, alongside the state program. Pregnancy, a seizure history, a heart attack or stroke in the past 2 weeks, or active suicidal thoughts call for in-person care instead. Flat $79."
+    }
+  },
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Wyoming Board of Medicine Rules, Chapter 1, Section 4(e); W.S. 33-1-303(a)(iv)",
+        "renderAt": "hero-credential",
+        "content": "Wyoming Board of Medicine rules require any physician who diagnoses or treats a person physically present in Wyoming to hold a Wyoming license, whatever the physician's location or the means used (Chapter 1, Section 4(e)), and W.S. 33-1-303(a)(iv) lets Wyoming licensing boards adopt rules allowing the practice of telemedicine. TeleDirectMD sees patients located in Wyoming by live video through Parth Bhavsar, MD, licensed by the Wyoming Board of Medicine."
+      },
+      {
+        "statute": "W.S. 35-7-1030(e) (electronic prescriptions for controlled substances)",
+        "renderAt": "footer",
+        "content": "Since January 1, 2021, Wyoming has required controlled substances in every schedule to be dispensed on an electronic prescription, with exemptions set by the Board of Pharmacy (W.S. 35-7-1030(e)). TeleDirectMD does not prescribe controlled substances, and Wyoming prescriptions from a TeleDirectMD visit are sent electronically to the patient's chosen pharmacy."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

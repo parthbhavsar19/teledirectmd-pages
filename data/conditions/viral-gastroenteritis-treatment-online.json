@@ -3,11 +3,11 @@
   "conditionShort": "Stomach Flu",
   "conditionSlug": "viral-gastroenteritis-treatment-online",
   "pageTitle": "Stomach Flu Online Treatment in {state} | TeleDirectMD",
-  "metaDescription": "Fast, evidence-based stomach flu (viral gastroenteritis) treatment for {state} adults by secure video visit. Hydration assessment, anti-emetic prescriptions, and red-flag screening. Self pay option starting at $79. Insurance is not required.",
+  "metaDescription": "Fast, evidence-based stomach flu (viral gastroenteritis) treatment for {state} adults by secure video visit. Hydration assessment, anti-emetic prescriptions, and red-flag screening. Flat $79 self-pay option. Insurance is not required.",
   "ogImageAlt": "Viral gastroenteritis treatment in {state} by TeleDirectMD",
   "hero": {
     "h1": "Viral Gastroenteritis Treatment in {state} (Stomach Flu)",
-    "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
+    "subtitle": "{state} adult care by secure video visit, flat $79 self-pay option, MD-only, insurance is not required.",
     "introParagraph": "Viral gastroenteritis, commonly called the stomach flu, is an infection of the intestines that causes nausea, vomiting, diarrhea, and abdominal cramping. It is one of the most common acute illnesses in adults and is caused by viruses such as norovirus, rotavirus, and adenovirus. Most cases are self-limiting and resolve within 1 to 3 days with proper hydration and rest, but dehydration, severe vomiting, and the need for prescription anti-emetics can make timely medical evaluation valuable. TeleDirectMD uses a safety-first telehealth approach to screen for red flags including severe dehydration, bloody diarrhea, high fever, and signs of a more serious abdominal condition before determining whether an MD video visit is appropriate. If the history supports uncomplicated viral gastroenteritis without red flags, guideline-based supportive care and anti-emetic prescriptions such as ondansetron may be reasonable by video, while adults with signs of severe dehydration, bloody diarrhea, or suspected bacterial cause are directed to urgent in-person care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
       {
@@ -32,7 +32,7 @@
       }
     ],
     "benefits": [
-      "Self pay option starting at $79",
+      "Flat $79 self-pay option",
       "MD-only care (no mid-levels)",
       "Insurance is not required",
       "Licensed telehealth care for patients located in {state} at the time of the visit"
@@ -109,7 +109,7 @@
     "rows": [
       {
         "option": "TeleDirectMD",
-        "cost": "Self pay option starting at $79",
+        "cost": "Flat $79 self-pay option",
         "wait": "Same day, often within hours",
         "provider": "Board-certified MD only (no mid-levels)",
         "bestFor": "Uncomplicated viral gastroenteritis symptoms without red flags — hydration guidance, anti-emetic prescription, and clear next-step instructions",
@@ -117,7 +117,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Moderate dehydration, uncertain diagnosis, need for IV fluids or labs, or when diagnosis is unclear",
@@ -125,7 +125,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Severe dehydration, bloody diarrhea, high fever with severe abdominal pain, inability to keep fluids down, suspected surgical emergency, or signs of sepsis",
@@ -133,7 +133,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $350+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks typical",
         "provider": "MD or DO",
         "bestFor": "Follow-up for recurring GI illness, chronic diarrhea evaluation, or persistent symptoms after acute illness resolves",
@@ -207,24 +207,6 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $350+",
-        "width": 52,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 60,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
     "footnote": "Total cost is transparent: the $79 visit is often the main cost, since oral rehydration solution and loperamide are inexpensive over-the-counter options; if prescription ondansetron for nausea is appropriate, its pharmacy cost is separate and varies.",
@@ -462,15 +444,12 @@
         "As tolerated — sip frequently in small amounts if vomiting, 200 to 400 mL after each loose stool if tolerated",
         "Fluid and electrolyte replacement to prevent or treat mild dehydration",
         "Commercial ORS products containing glucose and electrolytes are superior to sports drinks for replacing GI losses. Recommended by the NIDDK for older adults and adults with severe diarrhea or dehydration symptoms."
-      ],
-      [
-        "Promethazine (Phenergan) — prescription, not routinely preferred",
-        "12.5 to 25 mg every 4 to 6 hours as needed",
-        "Nausea and vomiting in adults when ondansetron is not suitable",
-        "Less preferred than ondansetron due to sedation and anticholinergic side effects. TeleDirectMD does not prescribe controlled substances; promethazine is not a controlled substance but is used selectively."
       ]
     ],
-    "note": "Example regimens only. The actual medication, dosing, and appropriateness are determined by the MD after reviewing your symptoms, stool character, fever, fluid status, drug interactions, and medical history. Antibiotics are not appropriate for viral gastroenteritis and are not prescribed. TeleDirectMD does not prescribe controlled substances."
+    "note": "Example regimens only. The actual medication, dosing, and appropriateness are determined by the MD after reviewing your symptoms, stool character, fever, fluid status, drug interactions, and medical history. Antibiotics are not appropriate for viral gastroenteritis and are not prescribed. TeleDirectMD does not prescribe controlled substances.",
+    "notPrescribed": [
+      "Promethazine: not prescribed by TeleDirectMD (ondansetron is the antiemetic offered)."
+    ]
   },
   "homeCare": {
     "sectionTitle": "Home Care, Recovery Timeline, and Follow-up",
@@ -550,7 +529,7 @@
       },
       {
         "question": "How much does an online stomach flu visit cost in {state}?",
-        "answer": "TeleDirectMD offers a transparent self pay option starting at $79 for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy."
+        "answer": "TeleDirectMD offers a transparent flat $79 self-pay option for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy."
       },
       {
         "question": "Does {state} allow telemedicine for this kind of visit?",
@@ -586,7 +565,7 @@
       },
       {
         "question": "Can TeleDirectMD provide stomach flu care in other states?",
-        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states where our physicians are licensed. You must be physically located in the state where you are requesting care at the time of the video visit."
+        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states where Dr. Bhavsar is licensed. You must be physically located in the state where you are requesting care at the time of the video visit."
       },
       {
         "question": "Can TeleDirectMD treat children with the stomach flu?",
@@ -594,7 +573,7 @@
       },
       {
         "question": "Can I use my insurance for a TeleDirectMD visit?",
-        "answer": "Insurance is not required. A self pay option is available starting at $79. If your plan is eligible, you may be able to use insurance."
+        "answer": "Insurance is not required. A self pay option is available for a flat $79. If your plan is eligible, you may be able to use insurance."
       },
       {
         "question": "How do I prevent spreading the stomach flu to others in my household?",
@@ -644,8 +623,7 @@
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
       "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate viral gastroenteritis symptoms, provide evidence-based oral rehydration guidance, and prescribe anti-emetic treatment such as ondansetron when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
-      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care. Adults with severe dehydration requiring IV fluids, bloody diarrhea, high fever with severe abdominal pain, suspected appendicitis or bowel obstruction, or rapidly worsening illness should seek urgent in-person or emergency care immediately. This service is intended for uncomplicated viral gastroenteritis symptoms and is not a substitute for in-person evaluation when red flags are present.",
-      "Online stomach flu treatment in {state}. Viral gastroenteritis treatment by video visit. Ondansetron prescription online. Stomach flu doctor online in {state}. Anti-emetic prescription telehealth."
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care. Adults with severe dehydration requiring IV fluids, bloody diarrhea, high fever with severe abdominal pain, suspected appendicitis or bowel obstruction, or rapidly worsening illness should seek urgent in-person or emergency care immediately. This service is intended for uncomplicated viral gastroenteritis symptoms and is not a substitute for in-person evaluation when red flags are present."
     ]
   },
   "relatedConditions": [

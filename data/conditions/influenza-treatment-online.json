@@ -2,12 +2,12 @@
   "conditionName": "Influenza",
   "conditionShort": "flu",
   "conditionSlug": "influenza-treatment-online",
-  "pageTitle": "Influenza Online Treatment in {state} | TeleDirectMD",
-  "metaDescription": "Fast, evidence-based influenza treatment for {state} adults by secure video visit. Early antiviral evaluation within the 48-hour treatment window, red-flag screening, and prescriptions when clinically appropriate. Self pay option starting at $79. Insurance is not required.",
+  "pageTitle": "Flu Treatment and Tamiflu Online in {state}, $79 | TeleDirectMD",
+  "metaDescription": "Flu treatment for {state} adults by video with a board-certified physician: evaluation for Tamiflu (oseltamivir) or Xofluza (baloxavir) in the 48-hour window. Flat $79. Prescriptions only when clinically appropriate; insurance not required.",
   "ogImageAlt": "Influenza treatment in {state} by TeleDirectMD",
   "hero": {
-    "h1": "Influenza Treatment in {state} (Flu Antiviral Care)",
-    "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
+    "h1": "Flu Treatment in {state}: Tamiflu (Oseltamivir) and Other Antivirals",
+    "subtitle": "{state} adult care by secure video visit, flat $79 self-pay option, MD-only, insurance is not required.",
     "introParagraph": "Influenza antiviral treatment is most effective when started within 48 hours of symptom onset, making rapid access to medical evaluation critical during flu season. The CDC recommends antiviral treatment as soon as possible for patients at higher risk of complications, including adults 65 and older, those with chronic medical conditions, immunocompromised individuals, and pregnant women, and it can be considered for any otherwise healthy outpatient within the 48-hour window. TeleDirectMD uses a safety-first telehealth approach by screening for red flags including difficulty breathing, persistent chest pain, confusion, severe dehydration, and signs of secondary bacterial infection before determining whether antiviral treatment by video visit is appropriate. If the history supports uncomplicated influenza without red flags, antiviral treatment such as oseltamivir or baloxavir may be prescribed by video, while adults with severe or rapidly worsening symptoms are directed to urgent in-person care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
       {
@@ -32,7 +32,7 @@
       }
     ],
     "benefits": [
-      "Self pay option starting at $79",
+      "Flat $79 self-pay option",
       "MD-only care (no mid-levels)",
       "Insurance is not required",
       "Licensed telehealth care for patients located in {state} at the time of the visit"
@@ -48,7 +48,45 @@
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek urgent in-person care now for difficulty breathing or shortness of breath, persistent chest pain or pressure, confusion, inability to keep fluids down, severe muscle weakness, seizures, or high fever unresponsive to antipyretics. TeleDirectMD does not prescribe controlled substances."
     },
     "icd10Display": "J11.1, J10.1, J11.89, or J09.X2 (final coding depends on clinical details)",
-    "quickAnswer": "Yes — adults (18+) in {state} with flu symptoms can be treated online, and timing matters. A board-certified MD reviews your symptom onset by secure video and, per CDC guidance, prescribes an antiviral — oseltamivir, baloxavir, or zanamivir — ideally within 48 hours of symptom onset to shorten illness by 1–2 days, plus supportive medications like acetaminophen. Visit price: $79 flat, no insurance required. Difficulty breathing, chest pain, or confusion needs ER care, not telehealth."
+    "quickAnswer": "Yes, adults (18+) in {state} with flu symptoms can be treated online, and timing matters. A board-certified MD reviews your symptom onset by secure video and, following CDC guidance, decides whether an antiviral (oseltamivir, baloxavir, or zanamivir) is right for you. Started within 48 hours of symptom onset, an antiviral can lessen symptoms and shorten illness by about a day, and supportive medications like acetaminophen can help too. Visit price: $79 flat, no insurance required. Difficulty breathing, chest pain, or confusion needs ER care, not telehealth."
+  },
+  "getMedicationOnline": {
+    "kicker": "Tamiflu online",
+    "title": "How to Get Tamiflu Online",
+    "priceLine": "$79 flat for a video visit with a board-certified physician. Tamiflu (oseltamivir) is a prescription medicine, so it is prescribed only when the physician finds it clinically appropriate, and the medication is paid for separately at your pharmacy.",
+    "steps": [
+      {
+        "title": "Book a $79 video visit",
+        "text": "No insurance or membership is needed. Visits are for adults 18 and older who are physically located in one of the 40+ states TeleDirectMD serves at the time of the visit."
+      },
+      {
+        "title": "Tell the physician when symptoms started",
+        "text": "CDC says flu antiviral drugs work best when started within 1 to 2 days after symptoms begin, so book as soon as you can."
+      },
+      {
+        "title": "Get a decision on antiviral treatment",
+        "text": "The physician screens for red flags and decides whether an antiviral fits. CDC advises clinicians that starting treatment for suspected flu should not wait for laboratory confirmation."
+      },
+      {
+        "title": "Pick it up at your pharmacy",
+        "text": "If an antiviral is prescribed, the prescription is sent electronically to the pharmacy you choose. CDC says these drugs can lessen symptoms and shorten the time you are sick by about a day."
+      }
+    ],
+    "safetyNote": "Fill prescriptions only at a pharmacy that requires a prescription and is licensed by a state board of pharmacy; FDA lists both as signs of a safe online pharmacy. Trouble breathing, chest pain or pressure, or confusion need emergency care, not a video visit.",
+    "sources": [
+      {
+        "text": "CDC: Treating Flu with Antiviral Drugs (last reviewed June 26, 2026)",
+        "url": "https://www.cdc.gov/flu/treatment/antiviral-drugs.html"
+      },
+      {
+        "text": "CDC: Influenza Antiviral Medications: Summary for Clinicians (last reviewed March 10, 2026)",
+        "url": "https://www.cdc.gov/flu/hcp/antivirals/summary-clinicians.html"
+      },
+      {
+        "text": "FDA: How to Buy Medicines Safely From an Online Pharmacy",
+        "url": "https://www.fda.gov/consumers/consumer-updates/how-buy-medicines-safely-online-pharmacy"
+      }
+    ]
   },
   "eligibility": {
     "sectionTitle": "Influenza Telehealth Eligibility Checklist for {state}",
@@ -80,7 +118,7 @@
     "steps": [
       {
         "type": "check",
-        "title": "Book your visit quickly — timing matters",
+        "title": "Book your visit quickly: timing matters",
         "description": "Antiviral medications for influenza are most effective when started within 48 hours of symptom onset. Before your video visit, note when your symptoms began, your temperature, whether you have been around confirmed flu cases, your medical history including chronic conditions, and any medications you are currently taking."
       },
       {
@@ -109,7 +147,7 @@
     "rows": [
       {
         "option": "TeleDirectMD",
-        "cost": "Self pay option starting at $79",
+        "cost": "Flat $79 self-pay option",
         "wait": "Same day, often within hours",
         "provider": "Board-certified MD only (no mid-levels)",
         "bestFor": "Early antiviral evaluation within the 48-hour window, uncomplicated flu symptoms without red flags, and fast access to oseltamivir or baloxavir when appropriate",
@@ -117,7 +155,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Moderate flu symptoms, rapid flu testing, dehydration assessment, or when diagnosis is uncertain",
@@ -125,7 +163,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Difficulty breathing, persistent chest pain, confusion, severe dehydration, seizures, or rapidly worsening illness",
@@ -133,7 +171,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $250+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 7 days typical",
         "provider": "Family medicine or internal medicine MD or DO",
         "bestFor": "Post-flu follow-up, flu vaccination, and management of chronic conditions that increase flu complications",
@@ -175,7 +213,7 @@
           "Symptoms came on quickly rather than gradually",
           "Known flu exposure or active flu season in your area"
         ],
-        "yesAction": "If yes, continue to Step 4 — you are within the antiviral treatment window",
+        "yesAction": "If yes, continue to Step 4: you are within the antiviral treatment window",
         "noAction": "If symptoms started more than 48 hours ago, antiviral benefit is reduced but evaluation may still be helpful for high-risk patients or those with worsening symptoms"
       },
       {
@@ -191,7 +229,7 @@
     "sectionTitle": "What Does Influenza Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "$79 flat visit · no insurance required · generic oseltamivir often $15–$40",
+    "priceSubtext": "$79 flat visit · no insurance required · prescriptions priced separately",
     "includes": [
       "MD evaluation and red-flag screening",
       "Assessment for uncomplicated influenza vs complications",
@@ -205,27 +243,9 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $250+",
-        "width": 45,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 55,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
-    "footnote": "Total cost is transparent: the $79 visit plus generic oseltamivir (typically $15–$40 with a pharmacy coupon) means most patients pay about $94–$119 all-in — no membership, and starting treatment quickly is key to shortening your illness.",
+    "footnote": "Total cost is transparent: the visit is $79 flat, and any prescription is paid separately at the pharmacy, where prices vary by medication and pharmacy. No membership, and starting treatment quickly is key to shortening your illness.",
     "noHiddenFees": "No hidden fees. If antiviral medication is not clinically appropriate, you still receive a complete evaluation, symptom management guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -386,7 +406,7 @@
   },
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
-    "intro": "Influenza treatment combines antiviral medication when started early enough with supportive care for symptom management. The CDC recommends antiviral treatment as soon as possible for patients hospitalized with influenza, those at higher risk of complications, those with progressive or severe illness, and considers it for any otherwise healthy outpatient within 48 hours of symptom onset. Clinical trials show that early antiviral treatment can shorten the duration of fever and symptoms by approximately 1 to 2 days and may reduce complications.",
+    "intro": "Influenza treatment combines antiviral medication when started early enough with supportive care for symptom management. The CDC recommends antiviral treatment as soon as possible for patients hospitalized with influenza, those at higher risk of complications, those with progressive or severe illness, and considers it for any otherwise healthy outpatient within 48 hours of symptom onset. CDC says flu antiviral drugs can lessen symptoms and shorten the time you are sick by about a day, and starting them soon after symptoms begin can help reduce some flu complications.",
     "sections": [
       {
         "title": "Antiviral treatment within 48 hours",
@@ -538,7 +558,7 @@
       },
       {
         "question": "How much does an online flu visit cost in {state}?",
-        "answer": "TeleDirectMD offers a transparent self pay option starting at $79 for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy."
+        "answer": "TeleDirectMD offers a transparent flat $79 self-pay option for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy."
       },
       {
         "question": "Do I need a flu test before getting antiviral treatment?",
@@ -570,7 +590,7 @@
       },
       {
         "question": "Can TeleDirectMD treat the flu in other states?",
-        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states where our physicians are licensed. You must be physically located in the state where you are requesting care at the time of your video visit."
+        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states where Dr. Bhavsar is licensed. You must be physically located in the state where you are requesting care at the time of your video visit."
       },
       {
         "question": "How fast do I need to be seen online to get Tamiflu for the flu in {state}?",
@@ -578,7 +598,7 @@
       },
       {
         "question": "Do I need a positive flu test before an online visit in {state}?",
-        "answer": "Not necessarily — the MD can assess your symptoms, timing, and risk factors to determine whether starting antiviral treatment is appropriate without requiring a prior test result, though testing recommendations may still come up during your visit."
+        "answer": "Not necessarily: the MD can assess your symptoms, timing, and risk factors to determine whether starting antiviral treatment is appropriate without requiring a prior test result, though testing recommendations may still come up during your visit."
       }
     ],
     "bottomCta": {
@@ -608,8 +628,7 @@
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
       "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate influenza symptoms, provide evidence-based guidance, and prescribe antiviral treatment when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
-      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during severe influenza, influenza pneumonia, or rapidly worsening illness. This service is intended for uncomplicated influenza evaluation and early antiviral treatment and is not a substitute for emergency care when red flags are present.",
-      "Online flu treatment in {state}. Tamiflu online. Xofluza online. Influenza antiviral treatment by video visit."
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during severe influenza, influenza pneumonia, or rapidly worsening illness. This service is intended for uncomplicated influenza evaluation and early antiviral treatment and is not a substitute for emergency care when red flags are present."
     ]
   },
   "relatedConditions": [
@@ -672,7 +691,7 @@
       "label": "Cold Sore"
     },
     {
-      "slug": "blood-pressure-medication-refills-online",
+      "slug": "hypertension-refills-online",
       "label": "Blood Pressure Medication Refills"
     }
   ],

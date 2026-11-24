@@ -1,0 +1,490 @@
+{
+ "guide": "telehealth-acne-eczema-dermatology-evidence",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 11 verified (10 DOIs plus the Khosravi reference matched to DOI 10.5070/d3264048339), retractions: none. No expressions of concern or withdrawals. PubMed article types checked: none is a Retracted Publication or Retraction Notice. Jusuf 2023 (no DOI) could not be matched by Scite (it returned an unrelated book chapter); verified by PubMed PMID 36743968 and the publisher page. One contrasting-evidence flag on Hedman-Lagerlof 2021 reviewed and judged not to dispute the cited claims.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "journal",
+   "cited_as": "Mehta S, Metko D, Maazi M, Wang OJE, Li MK. Teledermatology and Virtual Visits for Acne Management: A Review. J Cutan Med Surg. 2025;29(1):63-68. Epub November 1, 2024.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11829499/",
+   "pmid": "39487591",
+   "pmcid": "PMC11829499",
+   "doi": "10.1177/12034754241291028",
+   "record_title": "Teledermatology and Virtual Visits for Acne Management: A Review",
+   "record_journal": "J Cutan Med Surg",
+   "record_year": "2024 (epub); print 2025;29(1):63-68",
+   "article_type": "Journal Article; Review (scoping review per PRISMA-ScR)",
+   "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC full text); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Old citation had wrong first author (Barbieri CE) and volume. Scoping review that did not pool data; single-study figures (87.94% GAGS, 71.8%, 100%, 65.2%, 13.7 vs 4.6 weeks) were cut because the review reports other studies' numbers and the primary sources could not be identified from the retrieved text; the 13% vs 31% figure now cites its primary source [9].",
+   "claims": [
+    {
+     "text": "Scoping review included 21 studies, 4 of them randomized controlled trials",
+     "quote": "A total of 21 studies were ultimately included in the review ... which include 1 case-control study, 1 cohort study, 9 cross-sectional studies, ... 4 randomized controlled trials",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Studies were described in narrative form because they were too different to pool",
+     "quote": "we determined that quantitative evidence synthesis was not feasible due to differences between design and measures of the studies included in our review. As such, our results are presented in narrative form for each outcome.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Teledermatology well-suited to acne; similar outcomes to in-person care on several acne-grading scales",
+     "quote": "It was found that teledermatology is well-suited to the effective management of acne vulgaris. When compared to in-person care, teledermatology resulted in similar outcomes on several acne-grading scales.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Follow-up/compliance lower with virtual care",
+     "quote": "However, compliance was found to be lower for virtual care.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Patient satisfaction comparable, large proportion preferring virtual care",
+     "quote": "Additionally, patient satisfaction was comparable, with a large proportion of patients preferring virtual care to traditional in-person visits.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Isotretinoin: virtual visits may ease pregnancy tests and iPLEDGE steps before each prescription",
+     "quote": "The preference for teledermatology for patients on isotretinoin may be related to the number of additional tasks to be completed prior to receiving a prescription, specifically for females, including pregnancy tests, and in the United States, satisfying iPLEDGE requirements.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Waits significantly longer in rural areas; teledermatology may improve rural access (farther travel)",
+     "quote": "Not only is teledermatology of particular value in rural areas, where there is a 30-fold increase in travel distance required to see a dermatologist, but wait times have been demonstrated to be significantly longer",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Delays matter most for acne patients at risk of permanent scarring who need prompt treatment",
+     "quote": "This is particularly important for patients adversely impacted by delays, such as those with irreversible scarring who need prompt treatment.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Review suggests an in-person first visit as one option, then virtual follow-up",
+     "quote": "One solution for this, however, may be for dermatologists to include their first visit as an in-person appointment to accurately assess the lesion and decide on the best form of treatment, and move to virtual appointments for follow-up",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "journal",
+   "cited_as": "Mordente I, Puglia F, Cassese R. A Telemedicine-Based Approach for Acne Management: Method Overview and Demographic Profile of Early Participants. Clin Cosmet Investig Dermatol. 2025;18:2259-2265.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12433630/",
+   "pmid": "40955428",
+   "pmcid": "PMC12433630",
+   "doi": "10.2147/CCID.S526952",
+   "record_title": "A Telemedicine-Based Approach for Acne Management: Method Overview and Demographic Profile of Early Participants",
+   "record_journal": "Clin Cosmet Investig Dermatol",
+   "record_year": "2025",
+   "article_type": "Letter (PubMed); no abstract",
+   "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC full text); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Old claim that the platform produced outcomes comparable to in-person care is not in the paper; rewritten to what it reports.",
+   "claims": [
+    {
+     "text": "Program combines live consultations and submitted photos",
+     "quote": "This study introduces a new telemedicine-based approach for acne management, combining synchronous and asynchronous methods to offer flexible, ongoing care.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "16,800 registrations and 3,305 completed visits in first 10 months",
+     "quote": "As of 31December 2024, 16,800 subjects registered on the online platform completing at least part of the pre-visit questionnaires. ... Of the 3305 visits completed",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "First 10 months",
+     "quote": "The online platform launched on 20February 2024, with data collected over a 10-month period, until 31December 2024.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Describes users, not whether treatment worked; no comparison group",
+     "quote": "these findings are preliminary and offer insights into users’ demographics and pre-assessment, rather than on effectiveness of telemedicine model and user satisfaction. ... the absence of a control group precludes direct comparisons with traditional in-person care.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "Jusuf NK, Putra IB, Puteri Rangkuti AD. Assessing Acne Severity: Teledermatology Versus Face to Face Consultations During the COVID-19 Pandemic. J Clin Aesthet Dermatol. 2023;16(1):30-34.",
+   "url": "https://jcadonline.com/acne-severity-teledermatology-covid-pandemic/",
+   "pmid": "36743968",
+   "pmcid": "PMC9891209",
+   "record_title": "Assessing Acne Severity: Teledermatology Versus Face to Face Consultations During the COVID-19 Pandemic",
+   "record_journal": "J Clin Aesthet Dermatol",
+   "record_year": "2023",
+   "article_type": "Journal Article (observational cross-sectional)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of jcadonline.com article page (full text)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Old citation year 2021 corrected to 2023; authors added. No DOI. Scite verify_papers matched the reference text to an unrelated book chapter, so the record rests on PMID 36743968 and the publisher page.",
+   "claims": [
+    {
+     "text": "105 patients; photo-based teledermatology; kappa 0.611 rated good agreement",
+     "quote": "The value of the capability test between teledermatology and face-to-face consultations in comparing the severity of acne vulgaris is 0.611, which means the capability is considered good.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "75.2% of assessments gave the same result",
+     "quote": "We found that 75.2 percent of both examination methods gave same results (concordant cells).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sample of 105 patients",
+     "quote": "The sample size in this study was 105 and was recruited using a consecutive sampling method.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Lam BJW, Loh MCS, Yew YW. Telemedicine in the Care of Patients with Atopic Dermatitis: A Systematic Review and Meta-Analysis. Dermatitis. 2025;37(4):632-639.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40314137/",
+   "pmid": "40314137",
+   "doi": "10.1089/derm.2024.0173",
+   "record_title": "Telemedicine in the Care of Patients with Atopic Dermatitis: A Systematic Review and Meta-Analysis",
+   "record_journal": "Dermatitis",
+   "record_year": "2025",
+   "article_type": "Systematic Review; Meta-Analysis",
+   "retrieved_with": "PubMed convert_article_ids + search_articles + get_article_metadata (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Journal corrected from \"Dermatologic Surgery\" to Dermatitis. Link changed from liebertpub.com (client error to automated reads) to the PubMed record. Abstract-only: claims limited to the abstract; \"comparable with the control arm\" now stated instead of implying superiority.",
+   "claims": [
+    {
+     "text": "In four teleconsultation studies, decreases in POEM, IGA, SCORAD and DLQI were comparable with the control arm",
+     "quote": "Regarding teleconsultation, four studies reported decreases in Patient-Oriented Eczema Measure (POEM), Investigator Global Assessment, Scoring Atopic Dermatitis, and Dermatology Life Quality Index (DLQI), which were comparable with the control arm.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Authors concluded telemedicine can be a useful adjunct to face-to-face consultations",
+     "quote": "Telemedicine can be a useful adjunct to traditional face-to-face consultations in AD but with potential cost savings and convenience for patients.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Gudmundsdottir SL, Ballarini T, Amundadottir ML, et al. Clinical Efficacy of a Digital Intervention for Patients with Atopic Dermatitis: a Prospective Single-Center Study. Dermatol Ther (Heidelb). 2022;12(11):2601-2611.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9588147/",
+   "pmid": "36239906",
+   "pmcid": "PMC9588147",
+   "doi": "10.1007/s13555-022-00821-y",
+   "record_title": "Clinical Efficacy of a Digital Intervention for Patients with Atopic Dermatitis: a Prospective Single-Center Study",
+   "record_journal": "Dermatol Ther (Heidelb)",
+   "record_year": "2022",
+   "article_type": "Journal Article (single-arm feasibility study)",
+   "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC full text); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Old text called this a \"telemedicine-based approach\" and paired it with \"compared to standard care\"; it was an uncontrolled 6-week app study in 21 adults with developer-affiliated authors. Rewritten.",
+   "claims": [
+    {
+     "text": "6-week smartphone app program (education, reminders, lifestyle coaching) in 21 adults, no comparison group",
+     "quote": "We conducted a 6-week, single-arm feasibility trial ... Twenty-one patients were recruited",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Program content",
+     "quote": "The intervention was delivered through a mobile app and consisted of symptom and trigger education, treatment reminders, lifestyle coaching, and healthy lifestyle support.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "SCORAD 56.1 to 31.2 (44%), POEM 15.7 to 8.5 (46%), p<0.001",
+     "quote": "The mean (SD) SCORAD significantly decreased from 56.1 (16.7) to 31.2 (18.4) (44% change,< 0.001), and subjective symptoms assessed by POEM decreased from 15.7 (6.7) to 8.5 (4.9) (46% change,< 0.001).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Patients who kept up or improved regular skin care had larger improvements",
+     "quote": "Individuals who maintained or increased their usage of regular skincare (“high treatment adherence”) showed significantly larger improvements in their total SCORAD scores",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Run with the company that developed the app",
+     "quote": "The digital intervention was delivered through a smartphone app developed by Sidekick Health",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Eczema control depends on avoiding triggers, hydration, treating inflammation and adherence",
+     "quote": "management of AD is focused on avoiding triggers, improving skin hydration, and reducing skin inflammation, and it is largely dependent on the disease severity and the patients’ adherence",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Yang H, Shu H, Wang LH, et al. Smartphone-Based Digital Eczema Education Program for Atopic Dermatitis in Children Aged 0 to 6 Years: Multicenter, Randomized, Parallel Controlled Clinical Study. J Med Internet Res. 2026;28:e79559.",
+   "url": "https://www.jmir.org/2026/1/e79559",
+   "pmid": "41499674",
+   "pmcid": "PMC12779099",
+   "doi": "10.2196/79559",
+   "record_title": "Smartphone-Based Digital Eczema Education Program for Atopic Dermatitis in Children Aged 0 to 6 Years: Multicenter, Randomized, Parallel Controlled Clinical Study",
+   "record_journal": "J Med Internet Res",
+   "record_year": "2026",
+   "article_type": "Randomized Controlled Trial; Multicenter Study",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Now stated as a trial in children aged 0 to 6 with caregiver education; removed \"31% lower relapse\" generalization to all eczema patients and \"high satisfaction\" (not in abstract).",
+   "claims": [
+    {
+     "text": "615 children aged 0 to 6 with moderate-to-severe AD",
+     "quote": "evaluate whether a smartphone-based patient-caregiver educational program could reduce relapse rates in children aged 0 to 6 years with moderate-to-severe AD ... 615 children were enrolled",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "12-week relapse 16.6% vs 24.0% (RR 0.69, P=.02) vs face-to-face consultation alone",
+     "quote": "relapse at 12 weeks occurred significantly less frequently in the digital education group than in the control group (16.6% vs 24.0%; relative risk 0.69, 95% CI 0.50-0.96; P=.02)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Differences beyond 12 weeks not significant; 58.0% weekly use",
+     "quote": "Differences in relapse rates beyond 12 weeks and in secondary outcomes were not statistically significant. Engagement tracking indicated high adherence to the intervention, with 58.0% of caregivers maintaining regular weekly use of the digital platform.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Giavina-Bianchi M, Giavina-Bianchi P, Santos AP, Rizzo LV, Cordioli E. Accuracy and efficiency of telemedicine in atopic dermatitis. JAAD Int. 2020;1(2):175-181.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8361877/",
+   "pmid": "34409337",
+   "pmcid": "PMC8361877",
+   "doi": "10.1016/j.jdin.2020.08.002",
+   "record_title": "Accuracy and efficiency of telemedicine in atopic dermatitis",
+   "record_journal": "JAAD Int",
+   "record_year": "2020",
+   "article_type": "Journal Article (retrospective cohort)",
+   "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC full text); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Wait-time figure confirmed in full text; now attributed to this Sao Paulo public health project and to the wait for an in-person visit. Study was photo-based (store-and-forward), not video.",
+   "claims": [
+    {
+     "text": "84.4% match in 109 checked cases",
+     "quote": "we retrieved 109 cases of them with the final in-person dermatologist diagnosis to compare with the teledermatologists’ diagnoses (). Both diagnoses agreed in 92 of 109 cases (84.4%).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "72% managed by primary care with teledermatology support",
+     "quote": "Primary care physicians were able to manage 72% of the atopic dermatitis patients, whereas 28% of them were referred to in-person dermatologists.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Mean wait for in-person dermatology visit fell 6.7 to 1.5 months during the project",
+     "quote": "The use of telemedicine reduced the mean waiting time for an in-person specialist visit from 6.7 to 1.5 months during this project (reduction of 78%).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sao Paulo, photo-based, supporting primary care",
+     "quote": "a trained health care technician obtained a short history of his or her complaint and demographic data, as well as 3 photographs at different angles and distances from each lesion",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "Hedman-Lagerlof E, Fust J, Axelsson E, et al. Internet-Delivered Cognitive Behavior Therapy for Atopic Dermatitis: A Randomized Clinical Trial. JAMA Dermatol. 2021;157(7):796-804.",
+   "url": "https://jamanetwork.com/journals/jamadermatology/fullarticle/2779785",
+   "pmid": "34009282",
+   "pmcid": "PMC8135053",
+   "doi": "10.1001/jamadermatol.2021.1450",
+   "record_title": "Internet-Delivered Cognitive Behavior Therapy for Atopic Dermatitis: A Randomized Clinical Trial",
+   "record_journal": "JAMA Dermatol",
+   "record_year": "2021",
+   "article_type": "Randomized Controlled Trial",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Removed claim that virtual behavioral support reduces flares in ways medication alone does not. Scite flagged one \"contrasting\" citation statement (from Gudmundsdottir 2022, ref 5); on reading, the excerpt cites CBT as effective and does not dispute the trial.",
+   "claims": [
+    {
+     "text": "102 adults; 12 weeks therapist-guided internet CBT vs standard-care control; POEM reduction larger, P<.001, d=0.75",
+     "quote": "participants receiving internet-delivered CBT, relative to the controls, had a significantly larger mean weekly reduction in symptoms ... (B = 0.32; 95% CI, 0.14-0.49; P < .001), with a moderate to large, controlled effect size after treatment (d = 0.75",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Also reduced itch, perceived stress, sleep problems; gains sustained at 12 months",
+     "quote": "internet-delivered CBT also produced significantly larger reductions in itch intensity, perceived stress, sleep problems, and depression. Gains were sustained at 12 months of follow-up.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "High treatment satisfaction",
+     "quote": "Treatment satisfaction was high",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Khosravi H, Zhang S, Siripong N, Moorhead A, English JC III. Comparing acne follow-up: teledermatology versus outpatient dermatology visits. Dermatol Online J. 2020;26(4).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32621674/",
+   "pmid": "32621674",
+   "doi": "10.5070/D3264048339",
+   "record_title": "Comparing acne follow-up: teledermatology versus outpatient dermatology visits.",
+   "record_journal": "Dermatol Online J",
+   "record_year": "2020",
+   "article_type": "Comparative Study; Journal Article (retrospective)",
+   "retrieved_with": "PubMed search_articles + get_article_metadata (abstract); Scite verify_papers (DOI from Scite match)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added as the primary source for the 13% vs 31% follow-up figure that the page previously cited to the review [1].",
+   "claims": [
+    {
+     "text": "Acne patients aged 18 to 35 at a U.S. academic center; teledermatology patients less likely to follow up within 90 days (13.0% vs 31.0%)",
+     "quote": "acne patients, 18-35 years-old seen via teledermatology and face-to-face evaluation at the University of Pittsburgh Medical Center ... Teledermatology patients were less likely to follow-up in the first 90 days (13.0% versus 31.0%, P<0.001)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Authors called for better follow-up education",
+     "quote": "Our data demonstrates a need to improve teledermatology follow-up education to improve follow-up care.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Watson AJ, Bergman H, Williams CM, Kvedar JC. A randomized trial to evaluate the efficacy of online follow-up visits in the management of acne. Arch Dermatol. 2010;146(4):406-411.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20404229/",
+   "pmid": "20404229",
+   "doi": "10.1001/archdermatol.2010.29",
+   "record_title": "A randomized trial to evaluate the efficacy of online follow-up visits in the management of acne.",
+   "record_journal": "Arch Dermatol",
+   "record_year": "2010",
+   "article_type": "Randomized Controlled Trial",
+   "retrieved_with": "PubMed search_articles + get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added: primary randomized evidence for acne online follow-up vs office care.",
+   "claims": [
+    {
+     "text": "151 patients with mild to moderate facial acne; 4 follow-up visits online (photos + update) or in office",
+     "quote": "A total of 151 patients with mild to moderate facial acne. Subjects were asked to carry out 4 follow-up visits using either an e-visit platform or conventional office care.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Decrease in inflammatory lesion count similar (6.67 and 9.39, P = .49); comparable satisfaction",
+     "quote": "The decrease in total inflammatory lesion count was similar in the e-visit and office visit groups (6.67 and 9.39, respectively) (P = .49). Both subjects and dermatologists reported comparable satisfaction with care regardless of visit type",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Online follow-up results similar to office visits",
+     "quote": "Delivering follow-up care to acne patients via an e-visit platform produced clinical outcomes equivalent to those of conventional office visits.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "journal",
+   "cited_as": "Armstrong AW, Johnson MA, Lin S, Maverakis E, Fazel N, Liu FT. Patient-centered, direct-access online care for management of atopic dermatitis: a randomized clinical trial. JAMA Dermatol. 2015;151(2):154-160.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25338198/",
+   "pmid": "25338198",
+   "doi": "10.1001/jamadermatol.2014.2299",
+   "record_title": "Patient-centered, direct-access online care for management of atopic dermatitis: a randomized clinical trial.",
+   "record_journal": "JAMA Dermatol",
+   "record_year": "2015",
+   "article_type": "Randomized Controlled Trial",
+   "retrieved_with": "PubMed search_articles + get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added: the JAMA Dermatology randomized equivalency trial of online vs in-person atopic dermatitis care. The old citable summary had attributed this kind of finding to the 2021 internet-CBT trial (ref 8), which did not test teledermatology against in-person care.",
+   "claims": [
+    {
+     "text": "1-year randomized equivalency trial, 156 children and adults; online follow-up after first in-person visit",
+     "quote": "This was a 1-year, randomized controlled equivalency clinical trial ... After an initial in-person visit, patients were randomized 1:1 to direct-access online or usual in-person care for follow-up management of atopic dermatitis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Online group sent images and history; dermatologists advised and prescribed online",
+     "quote": "patients captured and transmitted clinical images and history asynchronously to dermatologists online; dermatologists evaluated the clinical information, provided recommendations and education, and prescribed medications online asynchronously.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "POEM improvement equivalent; 38.4% vs 43.6% clear or nearly clear, within equivalence margin",
+     "quote": "The percentage of patients achieving clearance or near-clearance of their disease (IGA score of 0 or 1) was 38.4% ... in the direct-access online group and 43.6% ... in the in-person group",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Equivalent improvements vs in-person care",
+     "quote": "The direct-access online model results in equivalent improvements in atopic dermatitis clinical outcomes as in-person care.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "guideline",
+   "cited_as": "American Academy of Dermatology. AAD Teledermatology Standards. Teledermatology Committee. Undated web page; accessed November 15, 2026.",
+   "url": "https://aad.org/member/practice/telederm/standards",
+   "record_title": "AAD Teledermatology Standards",
+   "version_or_date": "No date shown on page (footer copyright 2026); read 2026-11-15",
+   "retrieved_with": "WebSearch then WebFetch of official AAD page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added to source the in-person-care section intro. Page is labeled standards, not a position statement.",
+   "claims": [
+    {
+     "text": "AAD standards describe access to in-person visits, when necessary, as a critical component of safe and effective telecare",
+     "quote": "access to in-person visits, when necessary, is a critical component of safe and effective telecare.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

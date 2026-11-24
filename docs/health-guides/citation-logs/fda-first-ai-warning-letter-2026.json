@@ -1,0 +1,371 @@
+{
+ "guide": "fda-first-ai-warning-letter-2026",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 2 verified (10.3390/ph18060901, 10.1038/s43856-025-00910-x), retractions: none; no expressions of concern, no contrasting evidence flagged. PubMed article types for both: Journal Article, Review (no Retracted Publication or Retraction Notice).",
+ "references": [
+  {
+   "n": 1,
+   "kind": "agency_page",
+   "cited_as": "U.S. Food and Drug Administration. Warning Letter 320-26-58 to Purolea Cosmetics Lab. April 2, 2026. CDER.",
+   "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/purolea-cosmetics-lab-722591-04022026",
+   "version_or_date": "Letter dated April 2, 2026; MARCS-CMS 722591; issued by CDER; recipient Ms. Maria N. Mattina, Purolea Cosmetics Lab, 12782 Currie Ct., Livonia, MI 48150-1109",
+   "retrieved_with": "WebFetch of official fda.gov page (direct curl blocked by session proxy); quotes returned in consecutive pieces",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "The letter does not describe itself as FDA's first AI-related warning letter, and no FDA press statement about it was found (fda.gov-restricted searches, Nov 15, 2026). 'First' claims removed from title, H1, meta and body; trade press calls it the first, but those are not FDA sources. The letter contains no requirement that QU review of AI output be 'documented'; that wording was removed. Some quoted sentences contain (b)(4) redactions between pieces in FDA's text.",
+   "claims": [
+    {
+     "text": "Issued April 2, 2026 by CDER as Warning Letter 320-26-58 to Purolea Cosmetics Lab",
+     "quote": "Warning Letter 320-26-58 ... Purolea Cosmetics Lab - 722591 - 04/02/2026",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Letter contains a section headed 'Inappropriate Use of Artificial Intelligence in Pharmaceutical Manufacturing'",
+     "quote": "Inappropriate Use of Artificial Intelligence in Pharmaceutical Manufacturing",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Firm told investigators it used AI agents to comply with FDA regulations and used AI to create specifications, procedures and master production or control records",
+     "quote": "you stated to FDA investigators that you utilized artificial intelligence (AI) agents to help your firm comply with FDA regulations. Specifically, you used AI to create drug product specifications, procedures, and master production or control records",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Quoted requirement to review AI-generated documents; failure is a violation of 21 CFR 211.22(c) (consecutive sentences)",
+     "quote": "If you use AI as an aid in document creation, you must review the AI generated documents to ensure they were accurate and actually compliant with CGMP. Your failure to do so is a violation of 21 CFR 211.22(c).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Overreliance on AI documented; no process validation before distribution as required by 21 CFR 211.100",
+     "quote": "Overreliance on artificial intelligence for your drug manufacturing operations was also documented during the inspection. For example, the FDA investigators found that you had not conducted process validation prior to distribution",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Firm said it was not aware of the requirement because the AI agent never told it",
+     "quote": "You replied that you were not aware of the legal requirement, as the AI agent you used never told you it was required.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "If production resumes, AI output must be reviewed and cleared by an authorized human representative of the QU per FD&C Act 501(a)(2)(B)",
+     "quote": "any output or recommendations from an AI agent must be reviewed and cleared by an authorized human representative of your firm's QU in accordance with section 501(a)(2)(B) of the FD&C Act.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Facility in Livonia, Michigan, inspected October 28 to 30, 2025",
+     "quote": "Purolea Cosmetics Lab, FEI 3011669383, at 12782 Currie Ct., Livonia, from October 28 to 30, 2025.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Insanitary conditions: insects, filth, leaves and clutter",
+     "quote": "our investigator observed the presence of insects, filth, leaves, and clutter in several areas within your facility.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Finished homeopathic products released without microbiological testing; 21 CFR 211.165(b)",
+     "quote": "Your firm released your finished homeopathic drug products without testing for microbiological attributes ... required to be free of objectionable microorganisms (21 CFR 211.165(b)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Failure to adequately test high-risk incoming components for identity; 21 CFR 211.84(d)",
+     "quote": "You failed to adequately test your incoming components at high risk of contamination for identity before using them ... (21 CFR 211.84(d)(1) and 211.84(d)(2) and 211.84(d)(6)).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Quality control unit failures cited under 21 CFR 211.22",
+     "quote": "Your firm's quality control unit failed to exercise its responsibility to ensure drug products manufactured are in compliance with CGMP ... (21 CFR 211.22).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Products including Dermveda shingles and genital herpes relief products are unapproved new drugs",
+     "quote": "including \"Dermveda Extra Strength Shingles Relief\" and \"Dermveda Extra Strength Ultra Genital Herpes Relief.\" ... Accordingly, these products are unapproved new drugs.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "FDA recognizes the firm has ceased drug production",
+     "quote": "We recognize that you have ceased drug production.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "FDA asked for written response within 15 working days, notification before resuming, and a 21 CFR 211.34 consultant six-system audit",
+     "quote": "respond to this office in writing within 15 working days ... that you will notify this office prior to resuming your drug manufacturing operations ... engage a consultant qualified as set forth in 21 CFR 211.34 ... comprehensive six-system audit",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Letter addresses AI 'as an aid in document creation' and objects to documents no one reviewed (table row 1, telehealth intro)",
+     "quote": "If you use AI as an aid in document creation, you must review the AI generated documents to ensure they were accurate",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "other_web",
+   "cited_as": "Electronic Code of Federal Regulations. 21 CFR 211.22, Responsibilities of quality control unit.",
+   "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.22",
+   "version_or_date": "eCFR Title 21 shown as up to date as of 8/07/2026",
+   "retrieved_with": "WebFetch of eCFR official page (replaces Cornell LII copy; same text also confirmed on Cornell LII this run)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "QCU responsible for approving or rejecting all procedures or specifications impacting identity, strength, quality and purity (quoted verbatim)",
+     "quote": "The quality control unit shall have the responsibility for approving or rejecting all procedures or specifications impacting on the identity, strength, quality, and purity of the drug product.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "guideline",
+   "cited_as": "FDA. Clinical Decision Support Software: Guidance for Industry and FDA Staff (Final). January 29, 2026.",
+   "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-decision-support-software",
+   "version_or_date": "Final guidance; document issued January 29, 2026; supersedes version issued January 6, 2026; landing page content current as of 01/29/2026; docket FDA-2017-D-6569",
+   "retrieved_with": "WebFetch of official landing page and guidance PDF (fda.gov/media/109618/download)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Old claims cut: 're-issued after Commissioner Makary described it as intended to cut unnecessary regulation' (no Makary statement on the page or PDF; no FDA press release found) and 'no explicit guidance for consumer-facing AI tools; a noted gap' (the guidance addresses patient/caregiver software directly). Quotes are from WebFetch's reading of the PDF, returned as consecutive pieces.",
+   "claims": [
+    {
+     "text": "Issued January 29, 2026, superseding the January 6, 2026 version",
+     "quote": "Document issued on January 29, 2026. ... This document supersedes \"Clinical Decision Support Software\" issued on January 6, 2026.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Criterion: enables HCP to independently review the basis so HCP does not rely primarily on recommendations",
+     "quote": "intended for the purpose of enabling such health care professional to independently review the basis ... so that it is not the intent that such health care professional rely primarily on any of such recommendations",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Software supporting patients or caregivers, not HCPs, meets the device definition",
+     "quote": "Software functions that support or provide recommendations to patients or caregivers – not HCPs – meet the definition of a device.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "FDA intends to stay consistent with existing policies including general wellness for CDS intended for non-HCPs",
+     "quote": "FDA intends to be consistent with existing policies (including ... General Wellness: Policy for Low Risk Devices) ... in the regulation of CDS intended for non-HCPs.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "guideline",
+   "cited_as": "FDA. Artificial Intelligence-Enabled Device Software Functions: Lifecycle Management and Marketing Submission Recommendations (Draft Guidance). January 2025.",
+   "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/artificial-intelligence-enabled-device-software-functions-lifecycle-management-and-marketing",
+   "version_or_date": "Draft guidance, January 2025; docket FDA-2024-D-4488; page content current as of 01/07/2025; still draft on Nov 15, 2026 (no final version found in fda.gov search)",
+   "retrieved_with": "WebFetch of official landing page; WebSearch restricted to fda.gov for a final version",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Old table claim 'risk-based credibility framework; lower-risk applications require minimal validation' is not in this guidance; moved to the drug AI draft guidance (ref 9), which does describe a credibility framework but excludes drug discovery.",
+   "claims": [
+    {
+     "text": "January 2025 draft guidance, still draft, provides recommendations on marketing submissions for devices with AI-enabled software functions",
+     "quote": "Draft ... Not for implementation. Contains non-binding recommendations. ... provides recommendations regarding the contents of marketing submissions for devices",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "agency_page",
+   "cited_as": "FDA. Quality Management System Regulation (QMSR).",
+   "url": "https://www.fda.gov/medical-devices/postmarket-requirements-devices/quality-management-system-regulation-qmsr",
+   "version_or_date": "Content current as of 02/02/2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Old claim that 'the same principle applies under 21 CFR 820.20 and 820.70' cut: page does not mention those sections or AI.",
+   "claims": [
+    {
+     "text": "Part 820 effective as QMSR February 2, 2026, incorporating ISO 13485:2016 by reference",
+     "quote": "The rule is effective February 2, 2026, and is now titled Quality Management System Regulation (QMSR). ... The QMSR incorporates by reference the international standard, ISO 13485:2016",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Niazi SK. Regulatory Perspectives for AI/ML Implementation in Pharmaceutical GMP Environments. Pharmaceuticals (Basel). 2025;18(6):901.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12195787/",
+   "pmid": "40573297",
+   "pmcid": "PMC12195787",
+   "doi": "10.3390/ph18060901",
+   "record_title": "Regulatory Perspectives for AI/ML Implementation in Pharmaceutical GMP Environments.",
+   "record_journal": "Pharmaceuticals (Basel)",
+   "record_year": "2025",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata and get_full_text_article; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Article number 901 taken from the PII (ph18060901). ICH Q9(R1) statement is the review's characterization, attributed as such; ICH primary text not retrieved. 'Measurable compliance and safety risk' framing removed.",
+   "claims": [
+    {
+     "text": "AI/ML should augment rather than replace human expertise",
+     "quote": "AI/ML should augment rather than replace human expertise",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Regulatory frameworks stress SMEs overseeing AI predictions",
+     "quote": "Regulatory frameworks stress the role of subject matter experts in overseeing AI predictions, validating outputs, and intervening when anomalies are detected.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Review describes ICH Q9(R1) as explicitly encouraging advanced tools",
+     "quote": "ICH Q9 (R1) explicitly encourages the use of advanced tools for quality risk management",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "High-risk applications affecting critical process parameters require rigorous validation and documentation",
+     "quote": "high-risk applications that affect critical process parameters require rigorous validation and documentation",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "ALCOA+ data attributes",
+     "quote": "GMP regulations emphasize ALCOA+ principles—data must be attributable, legible, contemporaneous, original, accurate, complete, consistent, enduring, and available",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Singh R, Paxton M, Auclair J. Regulating the AI-enabled ecosystem for human therapeutics. Commun Med (Lond). 2025;5(1):181.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12085592/",
+   "pmid": "40382515",
+   "pmcid": "PMC12085592",
+   "doi": "10.1038/s43856-025-00910-x",
+   "record_title": "Regulating the AI-enabled ecosystem for human therapeutics.",
+   "record_journal": "Commun Med (Lond)",
+   "record_year": "2025",
+   "article_type": "Journal Article; Review (the article calls itself a Perspective)",
+   "retrieved_with": "PubMed get_article_metadata and get_full_text_article; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Authors added (previously printed with none).",
+   "claims": [
+    {
+     "text": "Hallucination risks quote",
+     "quote": "Hallucination risks in AI, such as fabricating clinical insights or misinterpreting trends, pose significant challenges in drug development, safety monitoring, and regulatory submissions.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "AI-generated inaccuracies can lead to poor clinical decisions or regulatory non-compliance",
+     "quote": "AI-generated inaccuracies can lead to poor clinical decisions or non-compliance with regulatory requirements",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Authors list human oversight among mitigations",
+     "quote": "Mitigating these risks through diverse data collection, robust validation frameworks, transparency, and human oversight ensures that AI is reliable",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "other_web",
+   "cited_as": "Eglovitch JS. FDA warns firm for inappropriate use of AI in drug manufacturing. RAPS. April 17, 2026.",
+   "url": "https://www.raps.org/resource/fda-warns-firm-for-inappropriate-use-of-ai-in-drug-manufacturing.html",
+   "version_or_date": "Published 17 April 2026",
+   "retrieved_with": "WebFetch of page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Old quoted wording 'highlights fundamental GMP shortcomings and should not indicate that the agency is against the use of AI' is the reporter's paraphrase, not a direct quote; replaced with Richardson's actual quoted words. RAPS does not call the letter the 'first'.",
+   "claims": [
+    {
+     "text": "Richardson direct quote on FDA's issue being lack of review",
+     "quote": "I don't get the impression that the FDA has an issue with the use of AI to draft documents. Their issue is that no one reviewed it and it was completely inaccurate.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "guideline",
+   "cited_as": "FDA. Considerations for the Use of Artificial Intelligence To Support Regulatory Decision-Making for Drug and Biological Products (Draft Guidance). January 2025.",
+   "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-use-artificial-intelligence-support-regulatory-decision-making-drug-and-biological",
+   "version_or_date": "Draft guidance, January 2025; docket FDA-2024-D-4689; page content current as of 01/06/2025; still draft on Nov 15, 2026",
+   "retrieved_with": "WebFetch of official landing page and guidance PDF (fda.gov/media/184830/download)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New reference, replacing the cut Greenlight Guru blog slot. Supports the corrected table row formerly attributed to ref 4.",
+   "claims": [
+    {
+     "text": "7-step risk-based credibility assessment framework",
+     "quote": "The risk-based credibility assessment framework described here consists of the following 7-step process to establish and assess the credibility of an AI model output",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Does not address AI used in drug discovery",
+     "quote": "This guidance does not address the use of AI models (1) in drug discovery or (2) when used for operational efficiencies",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Steps: question of interest, context of use, model risk, plan, execute, document; commensurate with model risk",
+     "quote": "Step 1: Define the Question of Interest ... Step 2: Define the Context of Use for the AI Model ... Step 3: Assess the AI Model Risk ... should be commensurate with the AI model risk",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "other_web",
+   "cited_as": "Unger B. FDA Data Integrity Enforcement Trends and Practical Mitigation Measures. FDLI Update, March/April 2018.",
+   "url": "https://www.fdli.org/2018/04/update-fda-data-integrity-enforcement-trends-practical-mitigation-measures/",
+   "version_or_date": "Posted April 16, 2018",
+   "retrieved_with": "WebFetch of page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Old '60-80% over the following two decades' corrected to 'over the past three years' (as of 2018). 'Beginning in the early 2000s' replaced with the article's 'starting approximately 20 years ago'. ALCOA list now cited to ref 6 (FDLI does not mention ALCOA).",
+   "claims": [
+    {
+     "text": "FDA identified data governance and integrity failures starting about 20 years before 2018",
+     "quote": "The U.S. Food and Drug Administration (FDA) identified failures in data governance and data integrity starting approximately 20 years ago.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "60 to 80% of pharmaceutical warning letters over the three years before the article",
+     "quote": "FDA has identified failures in data governance and data integrity in 60-80% of pharmaceutical warning letters issued to both domestic and foreign sites over the past three years.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

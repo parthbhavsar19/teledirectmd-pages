@@ -3,11 +3,11 @@
   "conditionShort": "asthma",
   "conditionSlug": "asthma-refills-online",
   "pageTitle": "Asthma Online Refills in {state} | TeleDirectMD",
-  "metaDescription": "Fast, evidence-based asthma refill care for {state} adults by secure video visit. Red-flag screening, inhaler refill evaluation, and short bridge prescriptions when appropriate. Self pay option starting at $79. Insurance is not required.",
+  "metaDescription": "Fast, evidence-based asthma refill care for {state} adults by secure video visit. Red-flag screening, inhaler refill evaluation, and short bridge prescriptions when appropriate. Flat $79 self-pay option. Insurance is not required.",
   "ogImageAlt": "Asthma refills in {state} by TeleDirectMD",
   "hero": {
     "h1": "Asthma Refills in {state} (Inhaler Refill Care)",
-    "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
+    "subtitle": "{state} adult care by secure video visit, flat $79 self-pay option, MD-only, insurance is not required.",
     "introParagraph": "Adults often search for online asthma refills when they are running low on a rescue inhaler, controller inhaler, or both, but not every refill request is safe to handle as routine telehealth. Evidence-based asthma guidance emphasizes that inhaled corticosteroid treatment remains important in adults with asthma, and GINA advises not completely stopping ICS in adults or adolescents with asthma once treatment is being stepped down. TeleDirectMD uses a safety-first telemedicine approach by reviewing your current inhalers, frequency of symptoms, nighttime symptoms, recent exacerbations, urgent care or ER visits, oral steroid use, and whether this sounds like a stable refill request or poorly controlled asthma needing escalation. If the history supports a lower-risk bridge refill request, treatment may be reasonable by video, while adults with active exacerbation signs or unstable asthma are directed to urgent in-person care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
       {
@@ -32,7 +32,7 @@
       }
     ],
     "benefits": [
-      "Self pay option starting at $79",
+      "Flat $79 self-pay option",
       "MD-only care (no mid-levels)",
       "Insurance is not required",
       "Licensed telehealth care for patients located in {state} at the time of the visit"
@@ -108,7 +108,7 @@
     "rows": [
       {
         "option": "TeleDirectMD",
-        "cost": "Self pay option starting at $79",
+        "cost": "Flat $79 self-pay option",
         "wait": "Same day, often within hours",
         "provider": "Board-certified MD only (no mid-levels)",
         "bestFor": "Stable asthma refill requests, rescue inhaler or controller refill review, and short bridge care when appropriate",
@@ -116,7 +116,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Same-day in-person evaluation when symptoms are worsening but not clearly ER level",
@@ -124,7 +124,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Severe asthma attack, respiratory distress, blue lips, inability to speak full sentences, or rapidly worsening symptoms",
@@ -132,7 +132,7 @@
       },
       {
         "option": "Primary Care or Pulmonology",
-        "cost": "$100 to $350+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks",
         "provider": "MD or DO",
         "bestFor": "Long-term asthma management, step-up or step-down planning, spirometry, and action plan optimization",
@@ -202,24 +202,6 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care or Pulmonology",
-        "value": "$100 to $350+",
-        "width": 52,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 60,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
     "footnote": "Total cost is transparent: the $79 visit covers the refill evaluation; inhaler prices vary by brand and insurance status, so ask your pharmacist about generic or savings-card options to keep your total as low as possible.",
@@ -507,7 +489,7 @@
       },
       {
         "question": "How much does an online asthma refill visit cost in {state}?",
-        "answer": "TeleDirectMD offers a transparent self pay option starting at $79 for an adult video visit in {state}. Insurance is not required. Prescription costs are separate and vary by medication and pharmacy."
+        "answer": "TeleDirectMD offers a transparent flat $79 self-pay option for an adult video visit in {state}. Insurance is not required. Prescription costs are separate and vary by medication and pharmacy."
       },
       {
         "question": "Can I refill my rescue inhaler online?",
@@ -577,8 +559,7 @@
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
       "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate asthma refill concerns, provide evidence-based guidance, and prescribe short bridge refill treatment when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
-      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during a severe asthma attack. This service is intended for selected stable refill requests and is not a substitute for comprehensive long-term asthma management when control is poor.",
-      "Online asthma refills in {state}. Inhaler refill online. Rescue and controller refill bridge care."
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during a severe asthma attack. This service is intended for selected stable refill requests and is not a substitute for comprehensive long-term asthma management when control is poor."
     ]
   },
   "relatedConditions": [
@@ -598,7 +579,7 @@
       "description": "Respiratory irritation and cough can overlap with asthma flare symptoms"
     },
     {
-      "slug": "blood-pressure-medication-refills-online",
+      "slug": "hypertension-refills-online",
       "title": "Blood Pressure Medication Refills",
       "description": "Another common {state} chronic refill pathway for adults"
     }
@@ -637,7 +618,7 @@
       "label": "Birth Control Refills"
     },
     {
-      "slug": "blood-pressure-medication-refills-online",
+      "slug": "hypertension-refills-online",
       "label": "Blood Pressure Medication Refills"
     },
     {

@@ -1,0 +1,722 @@
+{
+  "guide": "vaginal-yeast-infection-guide",
+  "checked_at": "2026-11-07",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+  "references": [
+    {
+      "n": 1,
+      "kind": "guideline",
+      "cited_as": "Workowski KA, Bachmann LH, Chan PA, et al. Sexually Transmitted Infections Treatment Guidelines, 2021. MMWR Recomm Rep. 2021;70(4):1-187.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34292926/",
+      "pmid": "34292926",
+      "pmcid": "PMC8344968",
+      "doi": "10.15585/mmwr.rr7004a1",
+      "record_title": "Sexually Transmitted Infections Treatment Guidelines, 2021.",
+      "record_journal": "MMWR Recomm Rep",
+      "record_year": "2021",
+      "article_type": "Journal Article; Practice Guideline",
+      "version_or_date": "CDC STI Treatment Guidelines, 2021 (current edition; no newer CDC edition found in a web search on 2026-11-07). Web edition pages: Vulvovaginal Candidiasis and Bacterial Vaginosis last reviewed July 22, 2021; Trichomoniasis last reviewed September 21, 2022.",
+      "retrieved_with": "PubMed get_article_metadata (record, volume, pages, article types); PubMed get_full_text_article PMC8344968 (full text); WebFetch of CDC web edition pages cdc.gov/std/treatment-guidelines/candidiasis.htm, bv.htm, trichomoniasis.htm",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Retraction check: PubMed article types are Journal Article and Practice Guideline; no Retracted Publication or Retraction Notice. scite_unavailable. The PMC full-text extraction drops italicized organism names (for example Candida albicans), so quotes avoid those spans or are taken from the CDC web edition (official_page). Quotes marked official_page come from the CDC web edition of this same 2021 guideline.",
+      "claims": [
+        {
+          "text": "typical symptoms: itching, soreness, external dysuria (burning when urine touches irritated skin), pain with sex, abnormal discharge; none specific",
+          "quote": "Typical symptoms of VVC include pruritus, vaginal soreness, dyspareunia, external dysuria, and abnormal vaginal discharge. None of these symptoms is specific for VVC.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "thick, curd-like discharge; redness, swelling, fissures, excoriations",
+          "quote": "Signs include vulvar edema, fissures, excoriations, and thick curdy vaginal discharge.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "an estimated 75 percent of women have at least one episode; 40 to 45 percent have two or more",
+          "quote": "An estimated 75% of women will have at least one episode of VVC, and 40%–45% will have two or more episodes.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "VVC classified as uncomplicated or complicated based on presentation, organism, host factors and response to therapy",
+          "quote": "On the basis of clinical presentation, microbiology, host factors, and response to therapy, VVC can be classified as either uncomplicated or complicated",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "uncomplicated: sporadic or infrequent, mild to moderate, likely C. albicans, not immunocompromised",
+          "quote": "Uncomplicated: \"Sporadic or infrequent VVC\" AND \"Mild-to-moderate VVC\" AND \"Likely to be Candida albicans\" AND \"Nonimmunocompromised women\"",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "complicated: recurrent, severe, non-albicans, or diabetes, immunocompromising condition such as HIV, immunosuppressive therapy such as corticosteroids",
+          "quote": "Complicated: \"Recurrent VVC\" OR \"Severe VVC\" OR \"Non-albicans candidiasis\" OR \"Women with diabetes, immunocompromising conditions (e.g., HIV infection), underlying immunodeficiency,\" OR \"immunosuppressive therapy (e.g., corticosteroids)\"",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "over-the-counter regimens are for uncomplicated VVC; short courses effective",
+          "quote": "Short-course topical formulations (i.e., single dose and regimens of 1–3 days) effectively treat uncomplicated VVC.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "recurrent VVC defined as three or more episodes in under a year; affects under 5 percent of women",
+          "quote": "Recurrent VVC, usually defined as three or more episodes of symptomatic VVC in <1 year, affects <5% of women",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "frequent antibiotic use and diabetes are recognized causes of (secondary) recurrent infection; look for underlying causes",
+          "quote": "Recurrent VVC can be either idiopathic or secondary (related to frequent antibiotic use, diabetes, or other underlying host factors).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "severe VVC: extensive erythema, edema, excoriation, fissures",
+          "quote": "Severe VVC (i.e., extensive vulvar erythema, edema, excoriation, and fissure formation) is associated with lower clinical response rates",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "severe VVC: 7 to 14 days topical azole or two fluconazole 150 mg doses 72 hours apart; complicated cases need longer courses (often 7 to 14 days)",
+          "quote": "Either 7–14 days of topical azole or 150 mg of fluconazole in two sequential oral doses (second dose 72 hours after initial dose) is recommended.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "poorly controlled diabetes or immunosuppression: may not respond to short courses; correct modifiable conditions; 7 to 14 day treatment",
+          "quote": "might not respond as well to short-term therapies. Efforts to correct modifiable conditions should be made, and more prolonged (i.e., 7–14 days) conventional treatment is necessary.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "symptomatic VVC more frequent with HIV, tracking immunodeficiency",
+          "quote": "Symptomatic VVC is also more frequent among women with HIV infection and similarly correlates with severity of immunodeficiency",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "VVC associated with normal vaginal pH below 4.5 (text, table, pH figure)",
+          "quote": "Candida vaginitis is associated with normal vaginal pH (<4.5).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "pH above 4.5 common with BV or trichomoniasis; trichomoniasis can have normal pH; pH figure",
+          "quote": "an elevated pH (i.e., >4.5) is common with BV or trichomoniasis (although trichomoniasis can also be present with a normal vaginal pH).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "pH testing not highly specific, so microscopy follows",
+          "quote": "Because pH testing is not highly specific, vaginal discharge should be further examined microscopically",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "10% KOH clears cellular material so yeast is easier to see",
+          "quote": "Use of 10% KOH in wet preparations improves the visualization of yeast and mycelia by disrupting cellular material that might obscure the yeast or pseudohyphae.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "budding yeast, hyphae or pseudohyphae on wet prep, or positive culture, supports diagnosis in symptomatic women",
+          "quote": "a wet preparation (saline, 10% KOH) of vaginal discharge demonstrates budding yeasts, hyphae, or pseudohyphae, or a culture or other test yields a positive result for a yeast species.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "microscopy sensitivity about 50 percent vs culture; negative result does not rule out yeast",
+          "quote": "absence of trichomonads in saline or fungal elements in KOH samples does not rule out these infections because the sensitivity of microscopy is approximately 50% compared with NAAT (trichomoniasis) or culture (yeast)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "yeast culture is the reference standard",
+          "quote": "Yeast culture, which can identify a broad group of pathogenic yeasts, remains the reference standard for diagnosis.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "consider culture when wet mount negative but symptoms present",
+          "quote": "For those with negative wet mounts but existing signs or symptoms, vaginal cultures for Candida should be considered.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "usually caused by Candida albicans (citable summary)",
+          "quote": "VVC usually is caused by Candida albicans but can occasionally be caused by other Candida species or yeasts.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "culture or PCR in complicated VVC; susceptibility testing for patients who remain symptomatic",
+          "quote": "Vaginal culture or PCR should be obtained from women with complicated VVC to confirm clinical diagnosis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "susceptibility testing for patients who remain symptomatic",
+          "quote": "culture and susceptibility testing should be considered for patients who remain symptomatic.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "uncomplicated: single 150 mg oral fluconazole",
+          "quote": "Fluconazole 150 mg orally in a single dose",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "topical regimens such as miconazole, clotrimazole, terconazole",
+          "quote": "Clotrimazole 1% cream 5 g intravaginally daily for 7–14 days ... Miconazole 2% cream 5 g intravaginally daily for 7 days ... Terconazole 0.4% cream 5 g intravaginally daily for 7 days",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "azoles relieve symptoms and clear cultures in 80 to 90 percent who complete therapy",
+          "quote": "Treatment with azoles results in relief of symptoms and negative cultures in 80%–90% of patients who complete therapy.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "non-albicans: 7 to 14 days non-fluconazole azole; boric acid 600 mg vaginally once daily for 3 weeks if recurrence",
+          "quote": "a longer duration of therapy (7–14 days) with a nonfluconazole azole regimen (oral or topical) is recommended. If recurrence occurs, 600 mg of boric acid in a gelatin capsule administered vaginally once daily for 3 weeks is indicated.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "VVC occurs frequently during pregnancy",
+          "quote": "VVC occurs frequently during pregnancy.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "pregnancy: only topical azoles for 7 days",
+          "quote": "Only topical azole therapies, applied for 7 days, are recommended for use among pregnant women.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "pregnancy: single 150 mg fluconazole might be associated with miscarriage and birth defects; should not be used",
+          "quote": "Epidemiologic studies indicate a single 150-mg dose of fluconazole might be associated with spontaneous abortion () and congenital anomalies; therefore, it should not be used ().",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "a past clinician diagnosis does not make self-diagnosis reliable",
+          "quote": "Even women who have previously received a diagnosis of VVC by a clinician are not necessarily more likely to be able to diagnose themselves",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "evaluate and test if symptoms persist after OTC product or return within two months",
+          "quote": "any woman whose symptoms persist after using an over-the-counter preparation or who has a recurrence of symptoms <2 months after treatment for VVC should be evaluated clinically and tested.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "history alone not enough; careful history, examination and laboratory testing to find the cause of vaginal symptoms",
+          "quote": "Obtaining a medical history alone has been reported to be insufficient for accurate diagnosis of vaginitis and can lead to inappropriate administration of medication",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "careful history, examination and laboratory testing warranted",
+          "quote": "a careful history, examination, and laboratory testing to determine the etiology of any vaginal symptoms are warranted.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "uncomplicated VVC not usually acquired through sex; data do not support treating partners",
+          "quote": "Uncomplicated VVC is not usually acquired through sexual intercourse, and data do not support treatment of sex partners.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "balanitis on the glans in a minority of male partners",
+          "quote": "A minority of male sex partners have balanitis, characterized by erythematous areas on the glans of the penis in conjunction with pruritus or irritation.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "fishy (amine) odor suggests BV or trichomoniasis",
+          "quote": "samples that emit an amine odor immediately upon application of KOH suggest BV or trichomoniasis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "trichomoniasis discharge diffuse, foul-smelling or yellow-green, with or without vulvar irritation",
+          "quote": "women with trichomoniasis sometimes have vaginal discharge, which can be diffuse, malodorous, or yellow-green with or without vulvar irritation",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "motile trichomonads and clue cells on saline microscopy",
+          "quote": "The saline-solution specimen might display motile trichomonads or clue cells (i.e., epithelial cells with borders obscured by small anaerobic bacteria), which are characteristic of BV.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "BV: thin, milky discharge, fishy odor, pH above 4.5",
+          "quote": "Homogeneous, thin discharge (milklike consistency) that smoothly coats the vaginal walls",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "BV fishy odor criterion",
+          "quote": "A fishy odor of vaginal discharge before or after addition of 10% KOH (i.e., the whiff test)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "BV treated with metronidazole or clindamycin",
+          "quote": "Metronidazole 500 mg orally 2 times/day for 7 days ... Clindamycin cream 2% one full applicator (5 g) intravaginally at bedtime for 7 days",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "trichomoniasis treated with metronidazole; tinidazole alternative",
+          "quote": "Metronidazole 500 mg 2 times/day for 7 days ... Tinidazole 2 g orally in a single dose",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "trichomoniasis: treatment of all sex partners",
+          "quote": "Concurrent treatment of all sex partners is vital for preventing reinfections.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "inflammation without pathogens points to mechanical, chemical, allergic or other noninfectious cause",
+          "quote": "Presence of objective signs of vulvovaginal inflammation in the absence of vaginal pathogens after laboratory testing indicates the possibility of mechanical, chemical, allergic, or other noninfectious causes of vulvovaginal signs or symptoms.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "pelvic or lower abdominal pain can signal PID",
+          "quote": "if they are experiencing pelvic or lower abdominal pain, if no cause for the illness other than PID can be identified",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "clinicians evaluate PID with a low threshold",
+          "quote": "health care providers should maintain a low threshold for the clinical diagnosis of PID",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Gonçalves B, Ferreira C, Alves CT, et al. Vulvovaginal candidiasis: Epidemiology, microbiology and risk factors. Crit Rev Microbiol. 2016;42(6):905-927.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26690853/",
+      "pmid": "26690853",
+      "doi": "10.3109/1040841X.2015.1091805",
+      "record_title": "Vulvovaginal candidiasis: Epidemiology, microbiology and risk factors.",
+      "record_journal": "Crit Rev Microbiol",
+      "record_year": "2016",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract only; no PMC full text)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Abstract-only source; claims limited to the abstract. The previously cited 75 percent lifetime, 85 to 95 percent albicans and 90/7/3 species figures are not in the abstract and were removed from this reference. Retraction check: PubMed article types Journal Article and Review; no Retracted Publication or Retraction Notice. scite_unavailable.",
+      "claims": [
+        {
+          "text": "non-albicans species, especially C. glabrata, appear to be increasing",
+          "quote": "Although Candida albicans is the main cause of VVC, the identification of non-Candida albicans Candida (NCAC) species, especially Candida glabrata, as the cause of this infection, appears to be increasing.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "VVC develops when the balance between Candida and host is disturbed",
+          "quote": "The development of VVC is usually attributed to the disturbance of the balance between Candida vaginal colonization and host environment by physiological or nonphysiological changes.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "hygiene, clothing and sexual habits proposed as behavioral risk factors; role unclear",
+          "quote": "Behavioral risk factors include use of oral contraceptives, intrauterine device, spermicides and condoms and some habits of hygiene, clothing and sexual practices. Despite a growing list of recognized risk factors, much remains to be elucidated",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "journal",
+      "cited_as": "Foxman B, Muraglia R, Dietz JP, et al. Prevalence of recurrent vulvovaginal candidiasis in 5 European countries and the United States: results from an internet panel survey. J Low Genit Tract Dis. 2013;17(3):340-345.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23486072/",
+      "pmid": "23486072",
+      "doi": "10.1097/LGT.0b013e318273e8cf",
+      "record_title": "Prevalence of recurrent vulvovaginal candidiasis in 5 European countries and the United States: results from an internet panel survey.",
+      "record_journal": "J Low Genit Tract Dis",
+      "record_year": "2013",
+      "article_type": "Journal Article (cross-sectional internet survey)",
+      "retrieved_with": "PubMed get_article_metadata (abstract only)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Abstract-only. Now cited only for the 9 percent overall RVVC figure; the 75 percent lifetime figure it was previously co-cited for is not in this source (it reports 29 to 49 percent provider-diagnosed lifetime). Retraction check: PubMed article types; none. scite_unavailable.",
+      "claims": [
+        {
+          "text": "six-country internet survey: 9 percent overall reported a 12-month period with four or more infections",
+          "quote": "More than one fifth of women reporting one vaginal yeast infection also reported a 12-month period with 4 or more infections (RVVC) (overall 9%).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "six-country survey",
+          "quote": "An online omnibus survey was administered to 6,010 women aged 16 and older in 6 countries.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Denning DW, Kneale M, Sobel JD, Rautemaa-Richardson R. Global burden of recurrent vulvovaginal candidiasis: a systematic review. Lancet Infect Dis. 2018;18(11):e339-e347.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30078662/",
+      "pmid": "30078662",
+      "doi": "10.1016/S1473-3099(18)30103-8",
+      "record_title": "Global burden of recurrent vulvovaginal candidiasis: a systematic review.",
+      "record_journal": "Lancet Infect Dis",
+      "record_year": "2018",
+      "article_type": "Journal Article; Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Issue corrected from 10 to 11 per PubMed record. Retraction check: none in PubMed article types. scite_unavailable.",
+      "claims": [
+        {
+          "text": "recurrent VVC affects about 138 million women each year",
+          "quote": "Worldwide, recurrent vulvovaginal candidiasis affects about 138 million women annually (range 103-172 million)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Ferris DG, Nyirjesy P, Sobel JD, et al. Over-the-counter antifungal drug misuse associated with patient-diagnosed vulvovaginal candidiasis. Obstet Gynecol. 2002;99(3):419-425.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11864668/",
+      "pmid": "11864668",
+      "doi": "10.1016/s0029-7844(01)01759-8",
+      "record_title": "Over-the-counter antifungal drug misuse associated with patient-diagnosed vulvovaginal candidiasis.",
+      "record_journal": "Obstet Gynecol",
+      "record_year": "2002",
+      "article_type": "Journal Article (observational, time-location sample)",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Abstract does not say multicenter; guide wording changed to \"a study of 95 women\". Retraction check: none. scite_unavailable.",
+      "claims": [
+        {
+          "text": "95 women buying OTC antifungal for presumed yeast infection",
+          "quote": "A time-location sample of 95 symptomatic women who purchased and presented with an over-the-counter antifungal product for immediate and personal treatment of presumed vulvovaginal candidiasis",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "only 34 percent (about a third) actually had VVC; others BV, mixed vaginitis, normal, other",
+          "quote": "vulvovaginal candidiasis 33.7%, bacterial vaginosis 18.9%, mixed vaginitis 21.1%, normal 13.7%, other diagnoses 10.5%, and trichomonas vaginitis 2.1%.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "prior clinician diagnosis did not improve self-diagnosis accuracy",
+          "quote": "Women with a previous clinically based diagnosis of vulvovaginal candidiasis were not more accurate in diagnosing vulvovaginal candidiasis than women without a prior clinical diagnosis",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "journal",
+      "cited_as": "Abbott J. Clinical and microscopic diagnosis of vaginal yeast infection: a prospective analysis. Ann Emerg Med. 1995;25(5):587-591.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7741332/",
+      "pmid": "7741332",
+      "doi": "10.1016/s0196-0644(95)70168-0",
+      "record_title": "Clinical and microscopic diagnosis of vaginal yeast infection: a prospective analysis.",
+      "record_journal": "Ann Emerg Med",
+      "record_year": "1995",
+      "article_type": "Journal Article (prospective study)",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Removed the claim that this study found self-diagnosis accurate in only a third of cases (abstract names self-diagnosis of another yeast infection as a predictor of positive culture). Retraction check: none. scite_unavailable.",
+      "claims": [
+        {
+          "text": "watery discharge or amine odor pointed to another diagnosis, but no single sign very accurate",
+          "quote": "Watery discharge and amine odor (negative \"whiff\" test) were good predictors of an alternative diagnosis, but, again, accuracy was poor.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "KOH and other quick microscopy only moderately accurate with false negatives and false positives",
+          "quote": "Saline microscopy, potassium hydroxide, and methylene blue were all equal and only moderately accurate, with a significant proportion of false-negative and false-positive results.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "journal",
+      "cited_as": "Rautemaa-Richardson R, Sobel JD, Stone N, et al. State-of-the-Art Review: Managing Vulvovaginal Candidiasis. Clin Infect Dis. 2026;82(3):371-382.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41839452/",
+      "pmid": "41839452",
+      "pmcid": "PMC13017020",
+      "doi": "10.1093/cid/ciaf673",
+      "record_title": "State-of-the-Art Review: Managing Vulvovaginal Candidiasis.",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2026",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article PMC13017020",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Full text read. Volume, issue and pages added from the PubMed record. Extraction drops italicized genus names (Candida); quotes reproduce the retrieved text exactly. Retraction check: none. scite_unavailable.",
+      "claims": [
+        {
+          "text": "triggers: antibiotics, diabetes, hormonal changes (pregnancy, high estrogen), immune dysfunction",
+          "quote": "Multiple factors contribute to both forms, including hormonal changes, diabetes, antibiotic use, immune dysfunction, and genetics.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Candida lives harmlessly in the vagina of many healthy women",
+          "quote": "Asymptomatic vaginal colonization byis common, occurring in up to 20%–30% of healthy women",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "switches between yeast and hyphal forms; filamentation helps tissue invasion",
+          "quote": "capable of transitioning between yeast, pseudo-hyphal, and hyphal forms, a process known as filamentation []. This morphological plasticity is tightly linked to its pathogenicity, as filamentation promotes tissue invasion",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "significant symptoms and severe impact on quality of life",
+          "quote": "causing significant symptoms and severely impacting quality of life.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "non-albicans generally less sensitive to azoles",
+          "quote": "In general, most NAC species are less sensitive to azole drugs and more difficult to eradicate, in particular oral fluconazole.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "lactobacilli keep vagina acidic, protective against many germs; Candida tolerates acid",
+          "quote": "This acidic environment is protective against many potential pathogens, whereasspp. are acid-tolerant and can persist under these conditions",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "microbiome disruption (antibiotics, hormonal changes) leads to overgrowth",
+          "quote": "microbiome disruptions, caused by factors like antibiotic use, hormonal fluctuations, or sexual activity, can lead to fungal overgrowth",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "antibiotics a major contributor; disrupt protective vaginal bacteria (text, table, FAQ)",
+          "quote": "Antibiotic use is a major contributor to VVC by disrupting the protective vaginal microbiota",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "higher estrogen from pregnancy, luteal phase, combined pill, menopause hormone therapy encourages colonization",
+          "quote": "Elevated estrogen levels, whether endogenous during pregnancy or luteal phase of the cycle, or exogenous from combined oral contraceptives or menopause hormone therapy, enhancespp. colonization",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "combined pill linked to recurrent episodes; progestin-only pills and hormonal IUDs rarely; IUD itself can contribute",
+          "quote": "progestin-only contraceptive pill or hormonal (levonorgestrel-releasing) intrauterine contraceptive devices are rarely associated with increased risk, although the intrauterine contraceptive device itself can contribute to recurrent VVC",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "combined pill associated with recurrent episodes",
+          "quote": "Hormonal fluctuations, particularly during the luteal phase, or in the form of combined contraceptive pill are also associated with RVVC episodes",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "most cases in reproductive years; also adolescents and postmenopausal women",
+          "quote": "Although most cases occur in reproductive-aged women, VVC can also affect adolescents and postmenopausal women",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "uncontrolled diabetes raises vaginal glucose, promoting overgrowth, and impairs immunity",
+          "quote": "In addition to causing immune dysfunction, uncontrolled diabetes elevates vaginal glucose levels promoting yeast overgrowth and proliferation",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "SGLT2 inhibitors raise risk of recurrent infection",
+          "quote": "SLGT2 inhibitors used in the management of diabetes increase the risk for RVVC",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "untreated HIV, corticosteroids, chemotherapy, other immunosuppressants raise risk",
+          "quote": "Conditions like untreated human immunodeficiency virus (HIV) and AIDS increase VVC risk due to T-cell dysfunction.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "immunosuppressive therapies raise risk",
+          "quote": "Various immunosuppressive therapies, including corticosteroids, chemotherapy, calcineurin and tumor necrosis factor-α inhibitors, antimetabolites, and monoclonal antibodies, compromise immune surveillance",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "dry damaged vulvar skin from overwashing and feminine products a main modifiable risk factor",
+          "quote": "One of the main modifiable risk factors for VVC is dry and damaged vulval skin caused by overwashing and unnecessary use of feminine products",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "douching discouraged though not an official risk factor",
+          "quote": "vaginal douching should be discouraged, although it is not an official risk factor for VVC",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "tight synthetic clothing may trap heat and moisture",
+          "quote": "Tight synthetic clothing may trap heat and moisture, encouraging yeast growth.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "confirmatory tests important with poor response and recurrent infection",
+          "quote": "confirmatory tests are extremely helpful and essential in cases with poor or partial response and in RVVC",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "vulvar dermatitis, lichen sclerosus, lichen simplex chronicus can mimic yeast",
+          "quote": "alternative diagnoses, such as vulval dermatitis, lichen sclerosus, or lichen simplex chronicus, which may mimic VVC symptoms",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "boric acid not used in pregnancy",
+          "quote": "boric acid is contraindicated in pregnancy because of a lack of safety data",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "prevention: minimize unnecessary antibiotic courses",
+          "quote": "A detailed history of antibacterial use should be obtained, with efforts to minimize unnecessary antibiotic courses",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "prevention: control diabetes and other reversible causes",
+          "quote": "The initial step is to identify and address any reversible causes.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "prevention: avoid douching and feminine washes, wash without soap",
+          "quote": "Don’t use soaps, bubble baths, or shower gels. Avoid “feminine” washes and sprays.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "prevention: cotton underwear, avoid tight or synthetic clothing",
+          "quote": "Wear cotton underwear. Wash underwear with nonbiological products. Avoid wearing synthetic fabrics. Avoid wearing tight clothing.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "not an STI, rare partner transmission, partner treatment not recommended (FAQ)",
+          "quote": "VVC is not classified or considered a sexually transmitted infection, transmission between partners is rare, and partner treatment is not recommended",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "luteal-phase flares and relief during menstruation (FAQ)",
+          "quote": "Clinically, women with RVVC often report symptom flares during the luteal phase and relief during menstruation.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "journal",
+      "cited_as": "Akinosoglou K, Livieratos A, Asimos K, et al. Fluconazole-Resistant Vulvovaginal Candidosis: An Update on Current Management. Pharmaceutics. 2024;16(12):1555.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39771534/",
+      "pmid": "39771534",
+      "pmcid": "PMC11678211",
+      "doi": "10.3390/pharmaceutics16121555",
+      "record_title": "Fluconazole-Resistant Vulvovaginal Candidosis: An Update on Current Management.",
+      "record_journal": "Pharmaceutics",
+      "record_year": "2024",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article PMC11678211; WebFetch of publisher page mdpi.com/1999-4923/16/12/1555 to confirm the species name dropped in the PMC extraction",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Article number 1555 (PubMed record lists volume 16, issue 12, no page range). Boric acid treatment claims now cite the CDC guideline instead. Retraction check: none. scite_unavailable.",
+      "claims": [
+        {
+          "text": "Candida albicans causes more than 90 percent of cases (text and species figure)",
+          "quote": "The primary pathogen responsible for VVC is Candida albicans, which accounts for more than 90% of cases,",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "agency_page",
+      "cited_as": "National Institute of Diabetes and Digestive and Kidney Diseases. Symptoms & Causes of Bladder Infection in Adults. Last reviewed April 2024. Accessed November 7, 2026.",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/bladder-infection-uti-in-adults/symptoms-causes",
+      "version_or_date": "Last Reviewed April 2024",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New source added for the yeast vs UTI FAQ, which previously cited the CDC STI guideline for UTI symptoms it does not describe.",
+      "claims": [
+        {
+          "text": "bladder infection: burning when you urinate, frequent or intense urges, lower abdominal pain, cloudy, bloody or strong-smelling urine",
+          "quote": "a burning feeling when you urinate ... frequent or intense urges to urinate, even when you have little urine to pass ... pain or discomfort in the lower abdomen ... cloudy, bloody, or strong-smelling urine",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "agency_page",
+      "cited_as": "National Institute of Diabetes and Digestive and Kidney Diseases. Symptoms & Causes of Kidney Infection (Pyelonephritis). Last reviewed October 2024. Accessed November 7, 2026.",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-infection-pyelonephritis/symptoms-causes",
+      "version_or_date": "Last Reviewed October 2024",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New source added so the fever red flag is sourced.",
+      "claims": [
+        {
+          "text": "fever and chills, back or side pain, nausea or vomiting can signal kidney infection; seek care right away",
+          "quote": "fever and chills ... pain in your back, side, or groin ... nausea or vomiting ... Seek care right away if you have kidney infection symptoms.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

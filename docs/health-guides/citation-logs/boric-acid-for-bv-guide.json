@@ -1,0 +1,516 @@
+{
+ "guide": "boric-acid-for-bv-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 9 verified, retractions: none (no retraction, expression of concern or withdrawal). Correction/erratum on ref 3 (10.1097/olq.0000000000001635, 2022) noted from Scite search_literature. PubMed article types checked for all 9: no Retracted Publication or Retraction Notice.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "Workowski KA, Bachmann LH, Chan PA, et al. Sexually Transmitted Infections Treatment Guidelines, 2021. MMWR Recomm Rep. 2021;70(4):1-187. PMID 34292926",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34292926/",
+   "pmid": "34292926",
+   "pmcid": "PMC8344968",
+   "doi": "10.15585/mmwr.rr7004a1",
+   "record_title": "Sexually Transmitted Infections Treatment Guidelines, 2021.",
+   "record_journal": "MMWR Recomm Rep",
+   "record_year": "2021",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "CDC STI Treatment Guidelines 2021, MMWR Recomm Rep 70(4), published 2021-07-23; CDC BV web page last reviewed July 22, 2021 (read 2026-11-15)",
+   "retrieved_with": "PubMed get_article_metadata; Scite search_literature full-text excerpts (public-domain text of the guideline); WebFetch of CDC BV guideline page cdc.gov/std/treatment-guidelines/bv.htm as cross-check (direct curl to cdc.gov refused by the session proxy)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite verify_papers: verified, no editorial notices; one contrasting citation flagged concerns gonococcal loads (not BV) and does not bear on any claim here. Bracketed reference numbers removed from quotes.",
+   "claims": [
+    {
+     "text": "CDC recommended BV regimens: oral metronidazole 500 mg twice daily 7 days, metronidazole 0.75% gel once daily 5 days, clindamycin 2% cream at bedtime 7 days",
+     "quote": "Metronidazole 500 mg orally 2 times/day for 7 days Metronidazole gel 0.75% one full applicator (5 g) intravaginally, once daily for 5 days Clindamycin cream 2% one full applicator (5 g) intravaginally at bedtime for 7 days",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Secnidazole, tinidazole and other clindamycin forms are alternative regimens",
+     "quote": "Alternative regimens include secnidazole oral granules, multiple oral tinidazole regimens, or clindamycin (oral or intravaginal).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Secnidazole is an alternative because of higher cost and lack of long-term outcomes",
+     "quote": "Secnidazole is listed as an alternative regimen, due to its higher cost and lack of long-term outcomes compared with recommended BV treatments.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC mentions boric acid only for multiple recurrences, as a limited-data option: nitroimidazole 500 mg twice daily 7 days, then boric acid 600 mg daily 21 days, then 0.75% metronidazole gel twice weekly 4 to 6 months (protocol table, summary, FAQ duration, who-table)",
+     "quote": "for women with multiple recurrences, an oral nitroimidazole (metronidazole or tinidazole 500 mg 2 times/day for 7 days), followed by intravaginal boric acid 600 mg daily for 21 days and suppressive 0.75% metronidazole gel twice weekly for 4–6 months",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Boric acid is an option for recurrent BV, not a first-episode treatment; not among recommended or alternative regimens",
+     "quote": "might be an option for women with recurrent BV",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "In the published BV regimens the capsule is used vaginally once daily",
+     "quote": "followed by intravaginal boric acid 600 mg daily for 21 days",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recommended regimens should be used primarily for a first episode",
+     "quote": "Recommended regimens should be used primarily; alternative regimens can be considered in instances of notable drug allergy or other medical contraindications to the recommended regimens.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "After a first recurrence, retreatment with the same (or a different) recommended regimen is acceptable",
+     "quote": "Using a different recommended treatment regimen can be considered for women who have a recurrence; however, retreatment with the same recommended regimen is an acceptable approach for treating persistent or recurrent BV after the first occurrence",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Suppressive metronidazole gel or 750 mg suppositories twice weekly for more than 3 months reduce recurrences; benefit does not persist after stopping",
+     "quote": "either 0.75% metronidazole gel or 750 mg metronidazole vaginal suppository twice weekly for >3 months has been reported to reduce recurrences, although this benefit does not persist when suppressive therapy is discontinued",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC does not recommend routine treatment of sex partners",
+     "quote": "Therefore, routine treatment of sex partners is not recommended.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC recommends BV treatment for all symptomatic pregnant women, with antibiotic regimens",
+     "quote": "BV treatment is recommended for all symptomatic pregnant women because symptomatic BV has been associated with adverse pregnancy outcomes",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "journal",
+   "cited_as": "Reichman O, Akins R, Sobel JD. Boric acid addition to suppressive antimicrobial therapy for recurrent bacterial vaginosis. Sex Transm Dis. 2009;36(11):732-734. PMID 19704395",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19704395/",
+   "pmid": "19704395",
+   "doi": "10.1097/OLQ.0b013e3181b08456",
+   "record_title": "Boric acid addition to suppressive antimicrobial therapy for recurrent bacterial vaginosis.",
+   "record_journal": "Sex Transm Dis",
+   "record_year": "2009",
+   "article_type": "Journal Article (retrospective chart review per abstract)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only; claims limited to the abstract. Scite flagged one contrasting citation (10.1186/s12879-015-0971-3) reporting 6-month cure of 50 to 67 percent in its own trials vs other studies; it does not contradict the figures quoted here, and the page now states the review is uncontrolled and needs validation.",
+   "claims": [
+    {
+     "text": "Boric acid was added to nitroimidazole induction and maintenance therapy, aimed at biofilm removal (not a replacement for antibiotics)",
+     "quote": "topical boric acid (BA) aimed at biofilm removal was added to nitroimidazole induction and maintenance therapy creating a triple phase regimen",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Uncontrolled, nonrandomized retrospective chart review; 7 days oral nitroimidazole, 21 days intravaginal boric acid 600 mg/day, then metronidazole gel twice weekly 16 weeks if in remission",
+     "quote": "Uncontrolled, nonrandomized, retrospective chart review of patients with RBV treated with 7 days of oral nitroimidazole; followed by 21 days of intravaginal BA 600 mg/day and if in remission treated with metronidazole gel twice weekly for 16 weeks.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "58 women, 77 episodes, 60 episodes evaluated",
+     "quote": "Fifty-eight women were treated for a total of 77 episodes of RBV. Sixty episodes of BV were available for a follow-up evaluation 4 to 12 weeks after enrollment",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cure 88 to 92 percent at 7 and 12 weeks after antibiotic plus boric acid",
+     "quote": "Cure after nitroimidazole and BA therapy ranged from 88% to 92%, 7 and 12 weeks after the initial visit, respectively.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cumulative cure 87, 78, 65 percent at 12, 16, 28 weeks, with maintenance gel phase included",
+     "quote": "Cumulative cure at 12, 16, and 28 weeks from initial visit was 87%, 78%, and 65%, respectively.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "50 percent failure by 36 weeks",
+     "quote": "A failure rate of 50% was documented by 36 weeks of follow-up.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No adverse effects of boric acid observed",
+     "quote": "No adverse effects of BA were observed.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Authors said results require validation in a prospective randomized controlled study",
+     "quote": "Clinical experience with a triple phase maintenance regimen for women with RBV was encouraging but requires validation in a prospective randomized controlled study.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Boric acid has not been studied as a standalone BV cure in the published regimens; suppressive gel has randomized evidence that boric acid lacks",
+     "quote": "Uncontrolled, nonrandomized, retrospective chart review",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "Mittelstaedt R, Kretz A, Levine M, et al. Data on safety of intravaginal boric acid use in pregnant and nonpregnant women: a narrative review. Sex Transm Dis. 2021;48(12):e241-e247. PMID 34561373",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34561373/",
+   "pmid": "34561373",
+   "pmcid": "PMC10100571",
+   "doi": "10.1097/OLQ.0000000000001562",
+   "record_title": "Data on Safety of Intravaginal Boric Acid Use in Pregnant and Nonpregnant Women: A Narrative Review.",
+   "record_journal": "Sex Transm Dis",
+   "record_year": "2021",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite search_literature full-text excerpts (open access, PMC10100571); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [
+    "correction/erratum 10.1097/olq.0000000000001635 (2022), listed by Scite search_literature; a correction only. verify_papers this run returned no notices."
+   ],
+   "notes": "Pages corrected from e200-e206 to the PubMed-indexed e241-e247. Superscript reference numbers removed from quotes. Review cites CDC/ACOG/BASHH guidance for pregnancy avoidance.",
+   "claims": [
+    {
+     "text": "Not an FDA-approved drug; prescribed from compounding pharmacies or widely sold OTC, often marketed as homeopathic",
+     "quote": "Intravaginal boric acid is not a Food and Drug Administration–approved drug; rather, it can be prescribed from compounding pharmacies or is widely available over the counter (OTC; often marketed as a “homeopathic” product).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "OTC suppositories marketed for uses from odor and dryness to yeast infections and BV",
+     "quote": ">20 brands of boric acid (BA)–containing vaginal suppositories, marketed for indications ranging from vaginal odor, discharge, and dryness to VVC, BV, and dyspareunia",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Powder in a gelatin or vegetable-based capsule; formulations and per-capsule costs vary",
+     "quote": "Formulations vary; commonly, BA powder is placed in a gelatin or vegetable-based capsule for intravaginal use. Costs online range from $0.10 to $1.20 per capsule; costs at 2 compounding pharmacies were $0.19 to $2.33 per capsule.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Usually 600 mg",
+     "quote": "Most described 600 mg once daily or BID for 7 to 14 days",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Boric acid (H3BO3) is a borate compound formed when boron combines with oxygen",
+     "quote": "BA (H3BO3) is a borate compound resulting when boron combines with oxygen.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Much poisoning data involves accidental or purposeful swallowing of insecticides or cleaning products, often by children",
+     "quote": "Much of acute human toxicity data relates to case series of reported accidental or purposeful oral ingestion, often in children, of BA-containing insecticides or cleaning products.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Swallowed boric acid is almost completely absorbed",
+     "quote": "Orally ingested BA seems to be nearly 100% systemically absorbed, although quickly renally excreted.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Appears safe at commonly prescribed vaginal doses",
+     "quote": "available data suggest IBA use is safe, at least when used in doses commonly described in the literature as being prescribed by clinicians",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Safety data are sparse",
+     "quote": "IBA is not a Food and Drug Administration-approved drug, and safety data are sparse.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Few data on longer-term or suppressive regimens",
+     "quote": "Few data on the safety of longer-term or suppressive regimens prescribed are available, although significant toxicities have not been reported",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Documented adverse events since 1888 sporadic and mild, mainly local irritation or watery discharge",
+     "quote": "Since 1888, the only other documented adverse events have been sporadic and mild, primarily limited to local irritation or watery vaginal discharge",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Mechanism of action uncertain, under investigation",
+     "quote": "mechanisms of action are uncertain, although under investigation",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "600 mg dose never tested in dose-range studies",
+     "quote": "no dose-range studies to evaluate safety or efficacy have ever been performed",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Guidelines recommend avoiding boric acid in pregnancy; data insufficient to change that",
+     "quote": "Information on harms in pregnancy is limited, and data remain insufficient to change current guidelines, which recommend IBA avoidance in pregnancy.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "One human study and less clearly a second raised concern about birth defects",
+     "quote": "Data from one and less clearly a second human study have raised concerns regarding the teratogenic potential of IBA.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "The safety assessment is a narrative review",
+     "quote": "Data on Safety of Intravaginal Boric Acid Use in Pregnant and Nonpregnant Women: A Narrative Review.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Boric acid is one of the only options for azole-resistant yeast infections and appears in national guidelines for yeast infection or recurrent BV",
+     "quote": "represents one of the only options available to treat azole-resistant vulvovaginal candidiasis (VVC) and is included as part of multiple national guidelines (including the United Kingdom and the United States) for the treatment of VVC or recurrent bacterial vaginosis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Meant for vaginal use only (route row, FAQ, figure)",
+     "quote": "commonly, BA powder is placed in a gelatin or vegetable-based capsule for intravaginal use",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Because formulations vary and it is unapproved, best used under a clinician's direction",
+     "quote": "Formulations vary",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Surapaneni S, Akins R, Sobel JD. Recurrent bacterial vaginosis: an unmet therapeutic challenge. Experience with a combination pharmacotherapy long-term suppressive regimen. Sex Transm Dis. 2021;48(10):761-765. PMID 34110746",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34110746/",
+   "pmid": "34110746",
+   "pmcid": "PMC8460079",
+   "doi": "10.1097/OLQ.0000000000001420",
+   "record_title": "Recurrent Bacterial Vaginosis: An Unmet Therapeutic Challenge. Experience With a Combination Pharmacotherapy Long-Term Suppressive Regimen.",
+   "record_journal": "Sex Transm Dis",
+   "record_year": "2021",
+   "article_type": "Journal Article (uncontrolled retrospective cohort per abstract)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Issue corrected from 11 to the PubMed-indexed 10. Guide previously said boric acid followed the antibiotic; the study gave it simultaneously, for 30 days.",
+   "claims": [
+    {
+     "text": "105 women failing all recommended regimens; nitroimidazole 500 mg twice daily 7 days together with boric acid 600 mg daily for 30 days",
+     "quote": "One hundred five women with RBV failing all recommended regimens seen in the clinic were prescribed combination oral nitroimidazole 500 mg twice a day for 7 days and simultaneous boric acid 600 mg daily per vagina therapy for 30 days",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Then twice-weekly vaginal metronidazole gel for 5 months (maintenance step)",
+     "quote": "thereafter, they were prescribed twice-weekly vaginal metronidazole gel for 5 months",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Satisfactory response in 92 of 93 available patients",
+     "quote": "An initial regimen of nitroimidazole and simultaneous but prolonged vaginal boric acid achieved a satisfactory response (BV cure ≤2 Amsel criteria) in 92 of 93 available patients.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Maintenance gel prevented symptomatic recurrence in 69.6 percent of compliant patients at 6 months",
+     "quote": "a maintenance metronidazole gel prevented symptomatic BV recurrence in 69.6% of compliant patients at 6-month follow-up",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Vaginal yeast infections frequently complicated the course; loss to follow-up limited results",
+     "quote": "Vaginal candidiasis frequently complicated prolonged antibiotic prophylaxis requiring frequent antifungal rescue or prophylaxis. Frequent loss to follow-up in this long-term study influenced efficacy evaluation.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Uncontrolled retrospective cohort",
+     "quote": "Results reflect standard of clinic care in this uncontrolled retrospective cohort analysis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Regimen described as incorporating antibiofilm activity",
+     "quote": "women with RBV may benefit from a prolonged drug-intensive antimicrobial regimen incorporating antibiofilm activity",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Verstraelen H, Swidsinski A. The biofilm in bacterial vaginosis: implications for epidemiology, diagnosis and treatment. Curr Opin Infect Dis. 2013;26(1):86-89. PMID 23221767",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23221767/",
+   "pmid": "23221767",
+   "doi": "10.1097/QCO.0b013e32835c20cd",
+   "record_title": "The biofilm in bacterial vaginosis: implications for epidemiology, diagnosis and treatment.",
+   "record_journal": "Curr Opin Infect Dis",
+   "record_year": "2013",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers; Scite search_literature (full text restricted)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only (full text paywalled). Boric-acid mechanism and antibiotic-penetration claims previously cited here were cut or moved to refs 2, 3 and 9.",
+   "claims": [
+    {
+     "text": "Evidence supports BV as a polymicrobial biofilm infection",
+     "quote": "Recent evidence supports the view that bacterial vaginosis presents as a polymicrobial biofilm infection.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Gardnerella vaginalis is thought to adhere first and become scaffolding for other species",
+     "quote": "Gardnerella vaginalis is presumably the first species to adhere to the vaginal epithelium and then becomes the scaffolding to which other species adhere.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Sobel JD, Ferris D, Schwebke J, et al. Suppressive antibacterial therapy with 0.75% metronidazole vaginal gel to prevent recurrent bacterial vaginosis. Am J Obstet Gynecol. 2006;194(5):1283-1289. PMID 16647911",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16647911/",
+   "pmid": "16647911",
+   "doi": "10.1016/j.ajog.2005.11.041",
+   "record_title": "Suppressive antibacterial therapy with 0.75% metronidazole vaginal gel to prevent recurrent bacterial vaginosis.",
+   "record_journal": "Am J Obstet Gynecol",
+   "record_year": "2006",
+   "article_type": "Journal Article; Multicenter Study; Randomized Controlled Trial",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Randomized to twice-weekly metronidazole gel or placebo for 16 weeks",
+     "quote": "asymptomatic responders randomly assigned to receive twice weekly metronidazole vaginal gel or placebo for 16 weeks and off therapy for 12 weeks",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recurrence during treatment 25.5 percent vs 59.1 percent placebo",
+     "quote": "During suppressive therapy, recurrent bacterial vaginosis occurred in 13 women (25.5%) receiving metronidazole and 26 (59.1%) receiving placebo",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Over full 28 weeks recurrence 51 percent vs 75 percent",
+     "quote": "During the entire 28-week follow-up, recurrence occurred in 26 (51.0%) on treatment compared with 33 (75%) on placebo",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Twice-weekly gel reduced recurrence (randomized trial evidence)",
+     "quote": "Suppressive therapy with twice-weekly metronidazole gel achieves a significant reduction in the recurrence rate of bacterial vaginosis",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Bradshaw CS, Morton AN, Hocking J, et al. High recurrence rates of bacterial vaginosis over the course of 12 months after oral metronidazole therapy and factors associated with recurrence. J Infect Dis. 2006;193(11):1478-1486. PMID 16652274",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16652274/",
+   "pmid": "16652274",
+   "doi": "10.1086/503780",
+   "record_title": "High recurrence rates of bacterial vaginosis over the course of 12 months after oral metronidazole therapy and factors associated with recurrence.",
+   "record_journal": "J Infect Dis",
+   "record_year": "2006",
+   "article_type": "Journal Article (cohort)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite flagged one contrasting citation (10.1186/s12879-015-0971-3) reporting better 6-month cure in other trials; page states 58 percent as one cohort, not a universal rate. Extrapolation to boric-acid-only plans was cut.",
+   "claims": [
+    {
+     "text": "58 percent of women treated with 7 days of oral metronidazole had BV again within 12 months",
+     "quote": "BV was treated with 400 mg of oral metronidazole twice a day for 7 days. ... Sixty-eight women (58% [95% confidence interval {CI}, 49%-66%]) had a recurrence of BV (NS 7-10)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "Swidsinski A, Doerffel Y, Loening-Baucke V, et al. Gardnerella biofilm involves females and males and is transmitted sexually. Gynecol Obstet Invest. 2010;70(4):256-263. PMID 21051845",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21051845/",
+   "pmid": "21051845",
+   "doi": "10.1159/000314015",
+   "record_title": "Gardnerella biofilm involves females and males and is transmitted sexually.",
+   "record_journal": "Gynecol Obstet Invest",
+   "record_year": "2010",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Biofilm form of Gardnerella found in male partners of women with BV, in a small study of 20 patients and 10 partners",
+     "quote": "Urine from patients with bacterial vaginosis (BV, n = 20), their partners (n = 10) ... Cohesive Gardnerella was present in all patients with proven BV and their partners",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Swidsinski A, Mendling W, Loening-Baucke V, et al. An adherent Gardnerella vaginalis biofilm persists on the vaginal epithelium after standard therapy with oral metronidazole. Am J Obstet Gynecol. 2008;198(1):97.e1-97.e6. PMID 18005928",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18005928/",
+   "pmid": "18005928",
+   "doi": "10.1016/j.ajog.2007.06.039",
+   "record_title": "An adherent Gardnerella vaginalis biofilm persists on the vaginal epithelium after standard therapy with oral metronidazole.",
+   "record_journal": "Am J Obstet Gynecol",
+   "record_year": "2008",
+   "article_type": "Journal Article (interventional follow-up study, 18 patients)",
+   "retrieved_with": "PubMed search_articles and get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added this run to replace biofilm-persistence claims that the abstract-only ref 5 does not state. PubMed lists electronic date 2007-11-19; volume 198 issue 1 is the 2008 print issue (Scite year 2008).",
+   "claims": [
+    {
+     "text": "In a small study of 18 women with biopsies after a 1-week course of oral metronidazole, a dense active Gardnerella and Atopobium biofilm returned after treatment stopped although all recovered",
+     "quote": "Although all patients recovered, we consistently observed the resurgence with treatment cessation of a dense and active bacterial biofilm on the vaginal mucosa, primarily consisting of Gardnerella vaginalis and Atopobium vaginae.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "18 patients treated with oral metronidazole for 1 week",
+     "quote": "18 patients with bacterial vaginosis were treated with oral metronidazole during 1 week",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV biofilm can persist after standard metronidazole treatment (FAQ)",
+     "quote": "A large reservoir of the core bacteria to bacterial vaginosis persists as a biofilm after metronidazole treatment.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

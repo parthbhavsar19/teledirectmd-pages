@@ -1,4 +1,5 @@
 'use client';
+import { insuranceHref, insuranceHrefOrParent } from '../../../../lib/insurance-links';
 import { B, STATE_NAMES, INSURANCE_CONDITIONS, INSURERS, COPAY_DATA, STATE_INSURANCE_MAP, LAST_REVIEWED } from '../../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock, CopayCard, PatientJourney, CrossInsurerTable, CommissionerLink, InsurerTrustDetails } from '../../components/InsuranceShared';
 import { CompareToOtherTelehealthGrid, Or49CashLink } from '../../../components/CostCompareModules';
@@ -21,7 +22,7 @@ const STATE_CONTEXT = {
   OH:{cities:['Columbus','Cleveland','Cincinnati','Toledo','Akron'],note:"Ohio is a strong two-insurer market with both UHC and Aetna in-network at TeleDirectMD. Ohio UHC employer plans frequently carry $0 virtual care copays for large employer groups."},
   PA:{cities:['Philadelphia','Pittsburgh','Allentown','Erie','Reading'],note:"Pennsylvania has TeleDirectMD's broadest multi-insurer coverage: Aetna, Highmark BCBS, and UHC all in-network. UHC is especially strong in the Philadelphia market and large PA employer plans."},
   TN:{cities:['Nashville','Memphis','Knoxville','Chattanooga','Clarksville'],note:"Tennessee's major employer base — HCA Healthcare, Vanderbilt, FedEx, Dollar General — makes commercial plan coverage especially prevalent. UHC and Aetna are both in-network at TeleDirectMD in Tennessee."},
-  WA:{cities:['Seattle','Spokane','Tacoma','Bellevue','Everett'],note:"Washington requires telehealth payment parity under RCW 48.43.735 (effective January 1, 2021) and explicitly prohibits rural-vs-urban originating-site distinctions — commercial insurers cannot reimburse rural and urban telehealth visits at different rates. Audio-only coverage with an established patient relationship is required following Office of the Insurance Commissioner rulemaking effective January 1, 2023. UnitedHealthcare Washington commercial plans include Choice Plus, Navigate Plus, Select Plus, Core, Compass (a Washington-specific product), and Community Plan Exchange. Washington's dominant clinical driver for telehealth volume is Seasonal Affective Disorder: 59% of Washington residents report SAD-like effects during the overcast season (NAMI Eastside), and Washington's clinical SAD rate of 5–7% materially exceeds the national 1–2% average. King and Snohomish counties (Seattle metro) hold approximately 55% of Washington's commercially insured Puget Sound population, while eastern Washington's rural–urban divide — Spokane and the Tri-Cities particularly — reinforces telehealth demand statewide. Major Washington employers carrying UHC commercial plans include Amazon, Microsoft, Boeing, and Costco."},
+  WA:{cities:['Seattle','Spokane','Tacoma','Bellevue','Everett'],note:"Washington requires telehealth payment parity under RCW 48.43.735 (effective January 1, 2021) and explicitly prohibits rural-vs-urban originating-site distinctions — commercial insurers cannot reimburse rural and urban telehealth visits at different rates. Audio-only coverage with an established patient relationship is required following Office of the Insurance Commissioner rulemaking effective January 1, 2023. UnitedHealthcare Washington commercial plans include Choice Plus, Navigate Plus, Select Plus, Core, and Compass (a Washington-specific product). Washington's dominant clinical driver for telehealth volume is Seasonal Affective Disorder: 59% of Washington residents report SAD-like effects during the overcast season (NAMI Eastside), and Washington's clinical SAD rate of 5–7% materially exceeds the national 1–2% average. King and Snohomish counties (Seattle metro) hold approximately 55% of Washington's commercially insured Puget Sound population, while eastern Washington's rural–urban divide — Spokane and the Tri-Cities particularly — reinforces telehealth demand statewide. Major Washington employers carrying UHC commercial plans include Amazon, Microsoft, Boeing, and Costco."},
 };
 
 export default function UHCStateClient({ stateSlug }) {
@@ -35,7 +36,7 @@ export default function UHCStateClient({ stateSlug }) {
     { q:`Is TeleDirectMD in-network with UnitedHealthcare in ${stateName}?`, a:`Yes. TeleDirectMD is contracted as an in-network telehealth provider with UnitedHealthcare (UHC) commercial plans in ${stateName}. Dr. Parth Bhavsar, MD (NPI: 1104323203) is the treating physician. If you have a UHC employer-sponsored or individual commercial plan in ${stateName}, your telehealth visit may be covered subject to your plan's copay or deductible. Claims are submitted electronically using CPT codes 99213/99214.` },
     { q:`What is the UnitedHealthcare telehealth copay in ${stateName}?`, a:`${copayData ? `Most UHC commercial plans in ${stateName} have telehealth copays of ${copayData.typical}. ${copayData.employer}. ${copayData.note}` : `UHC commercial plan telehealth copays in ${stateName} typically range from $0 to $40.`} Log into your UHC member portal at myuhc.com or call the member services number on your UHC card to verify your exact cost. Self-pay is always available for $79 flat.` },
     { q:`Does UnitedHealthcare cover telemedicine in ${stateName}?`, a:`Yes. UHC covers telehealth visits for most commercial plan members in ${stateName}. Federal telehealth parity requirements and ${stateName} state law ensure that UnitedHealthcare must cover telehealth services comparably to in-person visits for most commercial plans. Your actual cost depends on your plan's copay, coinsurance, and deductible status. Medicaid, Medicare fee-for-service, and UHC Community Plan (Medicaid) are not accepted.` },
-    { q:`What conditions does UnitedHealthcare cover for telemedicine in ${stateName}?`, a:`UHC commercial plans in ${stateName} cover telehealth visits for UTI, sinus infection, strep throat, ear infection, pink eye, flu, asthma inhaler refills, hypertension medication refills, acid reflux, yeast infections, and many more. Coverage depends on your specific plan benefits. Use the conditions grid below to explore specific condition + UHC + ${stateName} coverage details.` },
+    { q:`What conditions does UnitedHealthcare cover for telemedicine in ${stateName}?`, a:`UHC commercial plans in ${stateName} cover telehealth visits for UTI (women only), sinus infection, strep throat, ear infection, pink eye, flu, asthma inhaler refills, hypertension medication refills, acid reflux, yeast infections, and many more. Coverage depends on your specific plan benefits. Use the conditions grid below to explore specific condition + UHC + ${stateName} coverage details.` },
     { q:`How do I book a TeleDirectMD visit using UnitedHealthcare in ${stateName}?`, a:`Book at teledirectmd.com/book-online, select "Insurance" as your payment method, and have your UHC member ID card ready. We verify your coverage before your visit begins. You can also book self-pay for $79 flat — no insurance required, same physician and quality of care.` },
     { q:`How does TeleDirectMD bill UnitedHealthcare for my visit in ${stateName}?`, a:`TeleDirectMD submits your claim electronically to UnitedHealthcare using CPT code 99213 (standard complexity) or 99214 (moderate complexity). UHC processes the claim and applies it to your benefits. You'll receive an Explanation of Benefits (EOB) from UHC within 2–4 weeks showing what was billed (typically $150–$250) and your responsibility (your copay or deductible portion). Questions? Call UHC member services at ${insurer.claimsPhone}.` },
     { q:`What UnitedHealthcare plans are NOT accepted at TeleDirectMD in ${stateName}?`, a:`The following UHC plan types are not accepted: UHC Community Plan (Medicaid), UHC Medicare Advantage plans, and Medicare fee-for-service. If you are unsure about your plan type, self-pay is available for $79 flat — same physician and care quality, no insurance required.` },
@@ -110,7 +111,7 @@ export default function UHCStateClient({ stateSlug }) {
       <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
       <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`united-healthcare-${stateSlug}`} />
-      <Breadcrumb items={[{label:"Home",href:"/"},{label:"Insurance",href:"/insurance"},{label:"UnitedHealthcare",href:"/insurance/united-healthcare"},{label:stateName}]} />
+      <Breadcrumb items={[{label:"Home",href:"/"},{label:"Insurance",href:"/insurance/"},{label:"UnitedHealthcare",href:"/insurance/united-healthcare/"},{label:stateName}]} />
 
       {/* HERO */}
       <div style={{ background:`linear-gradient(165deg, ${B.navyDarker} 0%, ${B.navy} 40%, ${B.navyDeep} 100%)`, padding:"56px 24px 64px", position:"relative", overflow:"hidden", marginTop:16 }}>
@@ -125,7 +126,7 @@ export default function UHCStateClient({ stateSlug }) {
             TeleDirectMD is in-network with UnitedHealthcare commercial plans in {stateName}. See a board-certified physician by video — your standard UHC copay applies{copayData ? ` (typically ${copayData.typical})` : ""}.
           </p>
           {ctx.note && <p style={{ fontFamily:B.fb, fontSize:14, color:"rgba(255,255,255,0.55)", lineHeight:1.6, margin:"0 0 24px", maxWidth:580 }}>{ctx.note}</p>}
-          <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener" style={{ display:"inline-flex", alignItems:"center", gap:8, padding:"14px 28px", background:B.accent, color:B.white, borderRadius:B.rs, fontWeight:700, fontSize:15, textDecoration:"none" }}>
+          <a href="https://www.teledirectmd.com/book-online/" target="_blank" rel="noopener" style={{ display:"inline-flex", alignItems:"center", gap:8, padding:"14px 28px", background:B.accent, color:B.white, borderRadius:B.rs, fontWeight:700, fontSize:15, textDecoration:"none" }}>
             <Ico.Cal c={B.white} s={18} /> Book with UHC in {stateName}
           </a>
         </div>
@@ -149,8 +150,8 @@ export default function UHCStateClient({ stateSlug }) {
           <h2 style={{ fontFamily:B.fd, fontSize:24, fontWeight:700, color:B.navy, margin:"0 0 8px" }}>Conditions UHC Covers via Telehealth in {stateName}</h2>
           <p style={{ fontSize:14, color:B.text, margin:"0 0 16px", lineHeight:1.6 }}>Select a condition to see UHC + {stateName} specific coverage details, copay estimates, and prescription information.</p>
           <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(220px, 1fr))", gap:10 }}>
-            {Object.values(INSURANCE_CONDITIONS).map((cond,i) => (
-              <a key={i} href={`/insurance/united-healthcare/${stateSlug}/${cond.slug}`} style={{ display:"flex", alignItems:"center", gap:10, background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow }}>
+            {Object.values(INSURANCE_CONDITIONS).filter((cond) => insuranceHref(`/insurance/united-healthcare/${stateSlug}/${cond.slug}`)).map((cond,i) => (
+              <a key={i} href={insuranceHref(`/insurance/united-healthcare/${stateSlug}/${cond.slug}`)} style={{ display:"flex", alignItems:"center", gap:10, background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow }}>
                 <Ico.Check c="#1A7A3A" s={15} />
                 <div>
                   <div style={{ fontSize:13, fontWeight:600, color:B.navy }}>{cond.displayName}</div>
@@ -215,9 +216,9 @@ export default function UHCStateClient({ stateSlug }) {
         </section>
 
         <div style={{ marginBottom:24, display:"flex", flexWrap:"wrap", gap:10 }}>
-          <a href="/insurance/united-healthcare" style={{ fontSize:14, color:B.teal, textDecoration:"none" }}>← All UHC States</a>
+          <a href="/insurance/united-healthcare/" style={{ fontSize:14, color:B.teal, textDecoration:"none" }}>← All UHC States</a>
           <span style={{ color:B.border }}>|</span>
-          <a href="/insurance" style={{ fontSize:14, color:B.teal, textDecoration:"none" }}>All Insurance Options</a>
+          <a href="/insurance/" style={{ fontSize:14, color:B.teal, textDecoration:"none" }}>All Insurance Options</a>
         </div>
 
         <CommissionerLink stateCode={stateCode} stateName={stateName} />

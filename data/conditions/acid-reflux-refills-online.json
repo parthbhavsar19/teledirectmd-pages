@@ -3,11 +3,11 @@
   "conditionShort": "acid reflux",
   "conditionSlug": "acid-reflux-refills-online",
   "pageTitle": "Acid Reflux Online Refills in {state} | TeleDirectMD",
-  "metaDescription": "Evidence-based acid reflux and GERD medication refill care for {state} adults by secure video visit. Red-flag screening, PPI and H2 blocker refill evaluation, and bridge prescriptions when appropriate. Self pay option starting at $79. Insurance is not required.",
+  "metaDescription": "Evidence-based acid reflux and GERD medication refill care for {state} adults by secure video visit. Red-flag screening, PPI and H2 blocker refill evaluation, and bridge prescriptions when appropriate. Flat $79 self-pay option. Insurance is not required.",
   "ogImageAlt": "Acid reflux medication refills in {state} by TeleDirectMD",
   "hero": {
     "h1": "Acid Reflux (GERD) Medication Refills in {state}",
-    "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
+    "subtitle": "{state} adult care by secure video visit, flat $79 self-pay option, MD-only, insurance is not required.",
     "introParagraph": "Adults often search for online acid reflux refills when they are running low on a proton pump inhibitor (PPI), H2 blocker, or both, but not every refill request is straightforward. The ACG Clinical Guideline for GERD recommends using the lowest effective PPI dose for maintenance therapy, and for patients with LA grade C or D erosive esophagitis, indefinite PPI maintenance is generally advised. TeleDirectMD uses a safety-first telemedicine approach by reviewing your current GERD medication, symptom frequency, duration of therapy, whether you have had alarm symptoms such as difficulty swallowing or GI bleeding, and whether this sounds like a stable bridge refill request or a situation needing gastroenterology referral. If the history supports a lower-risk bridge refill request, treatment may be reasonable by video, while adults with alarm symptoms, refractory GERD, or suspected complications are directed to in-person gastroenterology care. PPIs should be taken 30 to 60 minutes before a meal for maximum effectiveness. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
       {
@@ -32,7 +32,7 @@
       }
     ],
     "benefits": [
-      "Self pay option starting at $79",
+      "Flat $79 self-pay option",
       "MD-only care (no mid-levels)",
       "Insurance is not required",
       "Licensed telehealth care for patients located in {state} at the time of the visit"
@@ -48,7 +48,7 @@
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek urgent in-person care now for vomiting blood, black tarry stools, severe difficulty swallowing, chest pain that could be cardiac, persistent vomiting, or rapidly worsening symptoms. TeleDirectMD does not prescribe controlled substances."
     },
     "icd10Display": "K21.0, K21.9 (final coding depends on clinical details)",
-    "quickAnswer": "Yes \u2014 you can refill acid reflux (GERD) medication online in {state}. A board-certified MD reviews your history by secure video and, when appropriate, refills your PPI (omeprazole, pantoprazole, or esomeprazole) or H2 blocker (famotidine) sent to your pharmacy the same day. Visit price: $79 flat, no insurance required. Lifestyle steps \u2014 smaller meals, not lying down after eating, elevating the head of the bed \u2014 help too. Trouble swallowing, weight loss, black stools, or chest pain need in-person evaluation."
+    "quickAnswer": "Yes, you can refill acid reflux (GERD) medication online in {state}. A board-certified MD reviews your history by secure video and, when appropriate, refills your PPI (omeprazole, pantoprazole, or esomeprazole) or H2 blocker (famotidine) sent to your pharmacy the same day. Visit price: $79 flat, no insurance required. Lifestyle steps (smaller meals, not lying down after eating, elevating the head of the bed) help too. Trouble swallowing, weight loss, black stools, or chest pain need in-person evaluation."
   },
   "eligibility": {
     "sectionTitle": "Acid Reflux Refill Telehealth Eligibility Checklist for {state}",
@@ -110,7 +110,7 @@
     "rows": [
       {
         "option": "TeleDirectMD",
-        "cost": "Self pay option starting at $79",
+        "cost": "Flat $79 self-pay option",
         "wait": "Same day, often within hours",
         "provider": "Board-certified MD only (no mid-levels)",
         "bestFor": "Stable GERD medication refill requests, PPI or H2 blocker refill review, and short bridge care when appropriate",
@@ -118,7 +118,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Same-day in-person evaluation when symptoms are worsening or new alarm symptoms develop",
@@ -126,7 +126,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Vomiting blood, black tarry stools, chest pain concerning for cardiac cause, severe dehydration from persistent vomiting, or signs of upper GI hemorrhage",
@@ -134,7 +134,7 @@
       },
       {
         "option": "Primary Care or Gastroenterology",
-        "cost": "$100 to $350+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks",
         "provider": "MD or DO",
         "bestFor": "Long-term GERD management, PPI step-down planning, endoscopy, Barrett's esophagus surveillance, and refractory GERD evaluation",
@@ -191,7 +191,7 @@
     "sectionTitle": "What Do Online Acid Reflux Refills Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "$79 flat visit \u00b7 no insurance required \u00b7 generic PPIs often $4\u2013$12",
+    "priceSubtext": "$79 flat visit \u00b7 no insurance required \u00b7 prescriptions priced separately",
     "includes": [
       "MD evaluation and red-flag screening",
       "GERD control and medication refill review",
@@ -204,27 +204,9 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care or Gastroenterology",
-        "value": "$100 to $350+",
-        "width": 52,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 60,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
-    "footnote": "Total cost is transparent: the $79 visit plus a generic PPI (omeprazole, pantoprazole, or esomeprazole, often $4\u2013$12 with a GoodRx coupon) means most patients pay about $83\u2013$91 all-in \u2014 no membership, no surprise fees.",
+    "footnote": "Total cost is transparent: the visit is $79 flat, and any prescription is paid separately at the pharmacy, where prices vary by medication and pharmacy. No membership, no hidden fees.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -544,7 +526,7 @@
       },
       {
         "question": "How do I get acid reflux medication online without insurance?",
-        "answer": "Insurance is not required. TeleDirectMD is a flat $79 video visit. If a refill is appropriate, generic PPIs (omeprazole, pantoprazole, esomeprazole) typically add only $4\u2013$12 with a GoodRx coupon, so most patients pay about $83\u2013$91 total \u2014 no membership and no coupon math."
+        "answer": "Insurance is not required. TeleDirectMD is a flat $79 video visit, with no membership. If a refill is appropriate, the medication is paid separately at the pharmacy, and its price varies by medication and pharmacy."
       },
       {
         "question": "How do you get rid of acid reflux fast?",
@@ -552,7 +534,7 @@
       },
       {
         "question": "How much does an online acid reflux refill visit cost in {state}?",
-        "answer": "TeleDirectMD offers a transparent self pay option starting at $79 for an adult video visit in {state}. Insurance is not required. Prescription costs are separate and vary by medication and pharmacy."
+        "answer": "TeleDirectMD offers a transparent flat $79 self-pay option for an adult video visit in {state}. Insurance is not required. Prescription costs are separate and vary by medication and pharmacy."
       },
       {
         "question": "Can I refill my PPI (omeprazole, pantoprazole, esomeprazole) online?",
@@ -614,20 +596,19 @@
       "url": "https://gi.org/topics/acid-reflux/"
     },
     {
-      "text": "NIDDK \u2014 Gastroesophageal Reflux (GER) and GERD Information",
+      "text": "NIDDK: Gastroesophageal Reflux (GER) and GERD Information",
       "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults"
     },
     {
-      "text": "StatPearls \u2014 Gastroesophageal Reflux Disease",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK441938/"
+      "text": "StatPearls: Gastroesophageal Reflux Disease (GERD)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK554462/"
     }
   ],
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
       "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate acid reflux and GERD medication refill concerns, provide evidence-based guidance, and prescribe short bridge refill treatment when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
-      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during a GI emergency such as upper GI bleeding. This service is intended for selected stable refill requests and is not a substitute for comprehensive gastroenterology management, endoscopy, or Barrett's esophagus surveillance when indicated.",
-      "Online acid reflux refills in {state}. PPI refill online. GERD medication refill bridge care. Omeprazole refill online. Pantoprazole refill online {state}."
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during a GI emergency such as upper GI bleeding. This service is intended for selected stable refill requests and is not a substitute for comprehensive gastroenterology management, endoscopy, or Barrett's esophagus surveillance when indicated."
     ]
   },
   "relatedConditions": [

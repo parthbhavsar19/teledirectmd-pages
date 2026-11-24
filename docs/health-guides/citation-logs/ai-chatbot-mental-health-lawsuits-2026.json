@@ -1,0 +1,762 @@
+{
+  "guide": "ai-chatbot-mental-health-lawsuits-2026",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 7 verified, retractions: none (no editorial notices, no contrasting evidence flagged; PubMed article types show no Retracted Publication or Retraction Notice)",
+  "references": [
+    {
+      "n": 1,
+      "cited_as": "Garcia v. Character Technologies, Inc., et al. Notice of Resolution. No. 6:24-cv-01903-ACC-DCI (M.D. Fla., Orlando Division), Doc. 242. Filed January 7, 2026. Court filing via CourtListener RECAP.",
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.433581/gov.uscourts.flmd.433581.242.0_2.pdf",
+      "kind": "other_web",
+      "version_or_date": "Doc. 242, filed 2026-01-07",
+      "retrieved_with": "WebFetch of court PDF on CourtListener RECAP this run",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Primary court filing (Notice of Resolution, Local Rule 3.09(a)). Discloses no terms.",
+      "claims": [
+        {
+          "text": "Jan 7, 2026: parties in Garcia v. Character Technologies (M.D. Fla.), including Character.AI, its founders and Google, filed notice of a mediated settlement in principle resolving all claims",
+          "quote": "the Parties have agreed to a mediated settlement in principle to resolve all claims between them",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Notice requested a stay pending dismissal documents",
+          "quote": "The Parties request that this matter be stayed",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "cited_as": "Garcia v. Character Technologies, Inc., et al. Order of Dismissal. No. 6:24-cv-1903-ACC-DCI (M.D. Fla., Orlando Division), Doc. 244. January 7, 2026. Court order via CourtListener RECAP.",
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.433581/gov.uscourts.flmd.433581.244.0.pdf",
+      "kind": "other_web",
+      "version_or_date": "Doc. 244, dated 2026-01-07",
+      "retrieved_with": "WebFetch of court PDF on CourtListener RECAP this run",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Primary court order. The dismissal on settlement means no ruling on liability in this case; that inference is stated in the guide.",
+      "claims": [
+        {
+          "text": "Court dismissed the Florida case as settled on Jan 7, 2026",
+          "quote": "The Court has been advised by counsel for both parties that the above-styled action has been settled.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dismissal without prejudice for 90 days, then with prejudice; case ended without a court deciding liability",
+          "quote": "ORDERED AND ADJUDGED that this cause is hereby DISMISSED without prejudice and subject to the right of the parties, within ninety (90) days of the date of this order",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "cited_as": "Duffy C. \"Character.AI and Google agree to settle lawsuits over teen mental health harms and suicides.\" CNN, January 2026, as republished by KVIA. News report of court filings.",
+      "url": "https://kvia.com/news/business-technology/cnn-business-consumer/2026/01/07/character-ai-and-google-agree-to-settle-lawsuits-over-teen-mental-health-harms-and-suicides/",
+      "kind": "other_web",
+      "version_or_date": "CNN report (Clare Duffy) republished by KVIA, URL dated 2026-01-07",
+      "retrieved_with": "WebFetch of the page this run",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "News report, used only for what it says court documents show and what the suit claimed. Original Washington Post link (old ref 1) was blocked (client_error) and was removed.",
+      "claims": [
+        {
+          "text": "Defendants also settled four other cases in New York, Colorado and Texas, per court documents (as reported by CNN)",
+          "quote": "The defendants have also settled four other cases in New York, Colorado and Texas, court documents show.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "CNN reported the Florida suit claimed the platform did not adequately respond when the teen expressed self-harm thoughts",
+          "quote": "It also claimed the platform did not adequately respond when Setzer began expressing thoughts of self-harm",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "In fall 2025 Character.AI said it would bar under-18 users from open-ended chats",
+          "quote": "Last fall, Character.AI said it would no longer allow users under the age of 18",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "cited_as": "Garcia v. Character Technologies, Inc., et al. First Amended Complaint. No. 6:24-cv-01903-ACC-EJK (M.D. Fla., Orlando Division), Doc. 11. Filed November 9, 2024. Allegations only; not findings of the court. Via CourtListener RECAP.",
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.433581/gov.uscourts.flmd.433581.11.0_2.pdf",
+      "kind": "other_web",
+      "version_or_date": "Doc. 11, filed 2024-11-09",
+      "retrieved_with": "WebFetch of court PDF on CourtListener RECAP this run (first 100,000 of 114,032 characters read)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Primary court filing. Allegations only. Paragraph numbers not cited because two reads returned inconsistent numbering; quotes are verbatim.",
+      "claims": [
+        {
+          "text": "Garcia is a wrongful-death case; claims include strict product liability, negligence, wrongful death and FDUTPA violations",
+          "quote": "strict product liability, negligence per se, negligence, wrongful death and survivorship, loss of filial consortium,",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Complaint alleges no barriers to access for minors",
+          "quote": "Character.AI did not create any friction, or barriers to access for minors",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Complaint alleges company represented to app stores that product was safe for children under 13",
+          "quote": "C.AI marketed and represented to App stores that its product was safe and appropriate for children under 13.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Complaint alleges characters present themselves as real people, not bots",
+          "quote": "Character.AI also programs its characters to outwardly identify as real people and not bots.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Complaint alleges the teen became dependent on the app",
+          "quote": "Sewell became so dependent on C.AI that any action by his parents resulting in him being unable to keep using",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Complaint alleges sexualized interactions with a 14-year-old",
+          "quote": "Unbeknownst to anyone but Defendants, C.AI began sexually exploiting and abusing 14-year-old Sewell",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Complaint alleges the chatbot kept returning to the subject of suicide",
+          "quote": "C.AI continued to bring it up, through the Daenerys chatbot, over and over",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "cited_as": "Carter K. \"AI and Mental Health Care: What We Know, What We Don't, and What Comes Next.\" Bulletin, American Academy of Arts and Sciences, Winter 2026 (published February 20, 2026). Report on the December 9, 2025 launch event.",
+      "url": "https://www.amacad.org/bulletin/winter-2026/ai-and-mental-health-care",
+      "kind": "other_web",
+      "version_or_date": "Bulletin Winter 2026, published 2026-02-20; event 2025-12-09",
+      "retrieved_with": "WebFetch of the page this run",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Event was an American Academy of Arts and Sciences launch, not a National Academy of Medicine panel; guide corrected. 'Contraindicated' is the article author's report of Kleinman's view.",
+      "claims": [
+        {
+          "text": "Kleinman argued AI is contraindicated for people with chronic psychotic disorders",
+          "quote": "Kleinman was more candid: for people with chronic psychotic disorders, he argued, AI is contraindicated.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Academy held a public launch event on December 9, 2025",
+          "quote": "That orientation shaped both the publication and the public launch event on December 9, 2025",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Speakers noted some models rely on constant validation to keep users engaged",
+          "quote": "some models rely on constant validation to keep users engaged.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "cited_as": "Pichowicz W, Kotas M, Piotrowski P. Performance of mental health chatbot agents in detecting and managing suicidal ideation. Scientific Reports. 2025;15(1):31652. doi:10.1038/s41598-025-17242-4",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40866537/",
+      "kind": "journal",
+      "pmid": "40866537",
+      "pmcid": "PMC12391427",
+      "doi": "10.1038/s41598-025-17242-4",
+      "record_title": "Performance of mental health chatbot agents in detecting and managing suicidal ideation.",
+      "record_journal": "Sci Rep",
+      "record_year": "2025",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata this run; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Replaces the All Points North blog (old ref 9), which was a secondary report of this paper.",
+      "claims": [
+        {
+          "text": "29 AI chatbot agents in mental health apps from app stores were tested",
+          "quote": "we assessed the ability of 29 AI-powered chatbot agents to respond to simulated suicidal risk scenarios. Application repositories were searched",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Prompts based on Columbia-Suicide Severity Rating Scale simulating increasing risk",
+          "quote": "All agents were tested with a standardized set of prompts based on the Columbia-Suicide Severity Rating Scale designed to simulate increasing suicidal risk.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "0 of 29 adequate; 51.72% marginal; 48.28% inadequate; common errors incl. no emergency contact info",
+          "quote": "None of the tested agents satisfied our initial criteria for an adequate response, 51.72% satisfied the relaxed criteria for a marginal response, while 48.28% were deemed inadequate.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "cited_as": "Scott P. \"FDA Perspective: Regulatory Considerations for Digital Mental Health Therapeutics\" (presentation). U.S. Food and Drug Administration, Office of Neurological and Physical Medicine Devices. November 6, 2025.",
+      "url": "https://www.fda.gov/media/189835/download",
+      "kind": "agency_page",
+      "version_or_date": "Presentation dated 2025-11-06 (Pamela Scott, OHT5)",
+      "retrieved_with": "WebFetch of the page this run (PDF slide deck)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Slide presentation, not a guidance document as previously labeled. Names no PTSD device and does not call reSET the first; those claims were cut.",
+      "claims": [
+        {
+          "text": "FDA lists prescription-only computerized behavioral therapy devices for psychiatric disorders",
+          "quote": "21 CFR 882.5801 - Computerized behavioral therapy device for psychiatric disorders - Rx only",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "reSET for substance use disorders",
+          "quote": "reSET Substance use disorders",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "reSET-O for retention in outpatient OUD treatment as an adjunct",
+          "quote": "reSET-O Increase retention of patients with opioid use disorder in outpatient treatment as an adjunct to outpatient",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Somryst for chronic insomnia",
+          "quote": "Somryst Chronic insomnia*",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "MamaLift Plus for mild to moderate postpartum depression",
+          "quote": "MamaLift Plus Mild to moderate postpartum depression*",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Rejoyn for MDD symptoms in people on antidepressants",
+          "quote": "Rejoyn Major Depressive Disorder (MDD) symptoms (on antidepressant medication)*",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Daylight for generalized anxiety disorder",
+          "quote": "Daylight Generalized anxiety disorder*",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "EndeavorRx digital therapy device for ADHD in children 8-12",
+          "quote": "EndeavorRX Improve attention function as measured by computer-based testing in children ages 8-12 years old with",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FDA evidence considerations include a reasonable control arm and study endpoints",
+          "quote": "Evidence Considerations ... Reasonable control arm ... Study endpoints",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "cited_as": "Nolan B. \"Google and Character.AI agree to settle lawsuits over teen suicides linked to AI chatbots.\" Fortune. January 8, 2026. News report.",
+      "url": "https://fortune.com/2026/01/08/google-character-ai-settle-lawsuits-teenage-child-suicides-chatbots/",
+      "kind": "other_web",
+      "version_or_date": "Published 2026-01-08 (Beatrice Nolan)",
+      "retrieved_with": "WebFetch of the page this run",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "News report. Does not name Florida, give a lawsuit count, or describe escalation, parental notification or 2024 age-gating; those attributions were removed.",
+      "claims": [
+        {
+          "text": "Legal claims included negligence, wrongful death, deceptive trade practices, product liability",
+          "quote": "The legal claims included negligence, wrongful death, deceptive trade practices, and product liability.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Details not disclosed; no admission of liability appears in the filings",
+          "quote": "specific details have not been disclosed, and no admission of liability appears in the filings.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Character.AI said it would ban under-18 users from open-ended chats",
+          "quote": "it would ban users under 18 from engaging in “open-ended” chats with its AI personas.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Character.AI introduced an age-verification system",
+          "quote": "The platform also introduced a new age-verification system to group users into appropriate age brackets.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "First case concerned a 14-year-old who died by suicide",
+          "quote": "sexualized conversations with a Game of Thrones chatbot before he died by suicide.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "cited_as": "McBain RK, Bozick R, Diliberti M, et al. Use of Generative AI for Mental Health Advice Among US Adolescents and Young Adults. JAMA Network Open. 2025;8(11):e2542281. doi:10.1001/jamanetworkopen.2025.42281",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41201806/",
+      "kind": "journal",
+      "pmid": "41201806",
+      "pmcid": "PMC12595529",
+      "doi": "10.1001/jamanetworkopen.2025.42281",
+      "record_title": "Use of Generative AI for Mental Health Advice Among US Adolescents and Young Adults.",
+      "record_journal": "JAMA Netw Open",
+      "record_year": "2025",
+      "article_type": "Journal Article (cross-sectional survey, research letter)",
+      "retrieved_with": "PubMed get_article_metadata this run; PMC full text via PubMed get_full_text_article; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Primary survey replacing the blocked Washington Times report (old ref 3) and its unverifiable 'nearly 1 in 5' and 63% figures.",
+      "claims": [
+        {
+          "text": "Nationally representative survey of US youths aged 12-21, Feb-March 2025",
+          "quote": "Between February and March 2025, we surveyed youths from RAND’s American Life Panel and Ipsos’ KnowledgePanel",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "1,058 respondents",
+          "quote": "Of 2125 individuals contacted, 1058 responded (response rate, 49.8%",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "13.1% used generative AI for mental health advice; 22.2% among ages 18-21",
+          "quote": "In total, 13.1% of respondents reported using generative AI for mental health advice (), with higher rates among those aged 18 to 21 years (22.2%).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Authors caution that the 18-21 subgroup was small",
+          "quote": "Our sample size was particularly small (147 respondents) for ages 18 to 21 years, and findings should be interpreted with caution.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "cited_as": "American Psychological Association. \"APA Health Advisory on the Use of Generative AI Chatbots and Wellness Applications for Mental Health.\" November 2025.",
+      "url": "https://www.apa.org/topics/artificial-intelligence-machine-learning/health-advisory-ai-chatbots-wellness-apps-mental-health.pdf",
+      "kind": "guideline",
+      "version_or_date": "November 2025",
+      "retrieved_with": "WebFetch of the page this run (PDF)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Advisory does not describe lawsuit filings; earlier attributions of filing content to it were removed.",
+      "claims": [
+        {
+          "text": "All apps must integrate robust crisis response protocols and tested escalation pathways",
+          "quote": "All apps must integrate robust crisis response protocols and rigorously tested crisis escalation pathways",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Current AI tools are not designed for developmental stages",
+          "quote": "Current AI tools are not designed with specific developmental stages or technological needs in mind.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Many chatbots designed to validate and agree with users (sycophantic)",
+          "quote": "many GenAI chatbots are designed to validate and agree with users’ expressed views (i.e., be sycophantic)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Products often engineered for maximum engagement",
+          "quote": "which are often engineered for maximum engagement with users.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Parents and caregivers should learn about products and have open discussions with families",
+          "quote": "Parents and caregivers should learn more about these digital products and have open discussions with their families,",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Monitor for concerning changes in behavior, thinking or emotional state",
+          "quote": "It is vital to monitor for any concerning changes in behavior, thinking, or emotional state",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Talk with a qualified mental health professional if concerns arise",
+          "quote": "If concerns arise, parents and caregivers should talk with a qualified mental health professional",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Chatbots and apps at most a supportive adjunct, not substitute",
+          "quote": "may be appropriate as a supportive adjunct, not substitute, to an ongoing therapeutic relationship.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "General-purpose chatbots and wellness apps have not received regulatory approval",
+          "quote": "of these technologies are not designed or intended to provide clinical feedback or treatment, may lack scientific validation ... often do not include adequate safety protocols, and have not received regulatory approval.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "cited_as": "American Psychological Association. \"APA calls for guardrails, education, to protect adolescent AI users\" (press release on Artificial Intelligence and Adolescent Well-being: An APA Health Advisory). June 3, 2025.",
+      "url": "https://www.apa.org/news/press/releases/2025/06/protect-adolescent-ai-users",
+      "kind": "other_web",
+      "version_or_date": "Press release dated 2025-06-03",
+      "retrieved_with": "WebFetch of the page this run",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Press release on APA's adolescent AI health advisory. Does not contain 'exquisitely engineered', a loneliness finding, or parent-question advice; those claims were cut or re-sourced.",
+      "claims": [
+        {
+          "text": "APA defines adolescence as ages 10 to 25, a long development period",
+          "quote": "adolescence—which it defines as ages 10–25—is a long development period",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Calls for protection from exploitation, manipulation and erosion of real-world relationships",
+          "quote": "the erosion of real-world relationships",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Calls for healthy boundaries with simulated human relationships",
+          "quote": "Ensuring there are healthy boundaries with simulated human relationships.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "cited_as": "Kress M. \"When Young People Turn to AI for Emotional Support: JED's Response to the APA's New Advisory.\" The Jed Foundation. November 24, 2025.",
+      "url": "https://jedfoundation.org/american-psychological-association-on-generative-ai/",
+      "kind": "other_web",
+      "version_or_date": "Blog post dated 2025-11-24 (author per page metadata: Michael Kress)",
+      "retrieved_with": "WebFetch of the page this run",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Previously mislabeled as a RAND / Stanford Brainstorm Lab audit; it is a Jed Foundation blog post. Now cited only for its own statement.",
+      "claims": [
+        {
+          "text": "Jed Foundation writes AI tools have offered advice on hiding symptoms from parents",
+          "quote": "They have provided how-to instructions for suicide, offered advice on hiding symptoms from parents",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "cited_as": "Chamarthi VS, Das P, Kashyap R. AI as a Novel Digital Stressor in Adolescent Psychosis: Clinical and Ethical Implications. International Journal of Psychiatry in Medicine. 2025;61(4):486-497. Narrative review. doi:10.1177/00912174251392768",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41123303/",
+      "kind": "journal",
+      "pmid": "41123303",
+      "doi": "10.1177/00912174251392768",
+      "record_title": "AI as a Novel Digital Stressor in Adolescent Psychosis: Clinical and Ethical Implications.",
+      "record_journal": "Int J Psychiatry Med",
+      "record_year": "2025",
+      "article_type": "Journal Article; Review (narrative review and perspective)",
+      "retrieved_with": "PubMed get_article_metadata this run; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Journal corrected from 'Journal of Psychiatric Research' to International Journal of Psychiatry in Medicine. Abstract only.",
+      "claims": [
+        {
+          "text": "Defines AI-related psychosis as new-onset or exacerbated psychotic experiences associated with generative AI",
+          "quote": "AI-related psychosis, which can be defined as new-onset or exacerbated psychotic experiences associated with generative AI platforms",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Adolescents susceptible due to underdeveloped prefrontal circuits and limbic reactivity",
+          "quote": "Adolescents are particularly susceptible due to ongoing neurodevelopmental immaturity, including underdeveloped prefrontal regulatory circuits and heightened limbic system reactivity",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "It is a narrative review and perspective",
+          "quote": "MethodNarrative review and perspective.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "cited_as": "Scholich T, Barr M, Wiltsey Stirman S, Raj S. A Comparison of Responses from Human Therapists and Large Language Model-Based Chatbots to Assess Therapeutic Communication: Mixed Methods Study. JMIR Mental Health. 2025;12:e69709. doi:10.2196/69709",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40397927/",
+      "kind": "journal",
+      "pmid": "40397927",
+      "pmcid": "PMC12138294",
+      "doi": "10.2196/69709",
+      "record_title": "A Comparison of Responses from Human Therapists and Large Language Model-Based Chatbots to Assess Therapeutic Communication: Mixed Methods Study.",
+      "record_journal": "JMIR Ment Health",
+      "record_year": "2025",
+      "article_type": "Journal Article; Comparative Study",
+      "retrieved_with": "PubMed get_article_metadata this run; PMC full text via PubMed get_full_text_article; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "7 chatbots tested: GPT-4, Gemini 1.0 Pro, Claude 3 Sonnet, Replika, Pi, Character.ai, Chai",
+          "quote": "We selected 3 AI assistants (GPT-4 [Open AI], Gemini 1.0 Pro [Google LLC], and Claude 3 Sonnet [Anthropic]), 2 AI companions (Replika [Luka] and Pi [Inflection AI]) and 2 AI character platforms",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "2 scripted scenarios, one leading to suicidal ideation; 17 therapists",
+          "quote": "The second scenario involved a person describing their symptoms of depression and social anxiety and led to a situation involving suicidal ideation.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "17 therapists recruited",
+          "quote": "We recruited 17 therapists in total",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "3 of 7 gave a specific emergency phone number",
+          "quote": "Out of the 7 chatbots we tested, only 3 gave the user a specific phone number to call during an emergency situation.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "2 gave the number only two messages after suicidal ideation",
+          "quote": "Two chatbots (Claude and the Character.ai chatbot) suggested 1 specific phone number but only did so in message 10, two messages after the user indicated suicidal ideation.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Therapists noted lack of risk assessment and delayed referral by most chatbots",
+          "quote": "Therapists were alarmed by the lack of risk assessment and delay in referring individuals to a crisis line by most chatbots.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Therapists ranked ChatGPT above Pi and Replika in the suicidal-ideation scenario",
+          "quote": "Here, ChatGPT was rated highest with a mean (SD) score of 38 (0.64), followed by Pi 28 (0.83) and Replika 24 (0.83), indicating that therapists preferred ChatGPT in this context.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Authors conclude general-purpose chatbots currently unsuitable as therapeutic agents",
+          "quote": "The findings underscore that LLM-based chatbots are currently unsuitable as therapeutic agents and should not be viewed as substitutes for trained mental health professionals.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "cited_as": "Campbell LO, Babb K, Lambie GW, Hayes BG. An Examination of Generative AI Response to Suicide Inquires: Content Analysis. JMIR Mental Health. 2025;12:e73623. doi:10.2196/73623",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40811811/",
+      "kind": "journal",
+      "pmid": "40811811",
+      "pmcid": "PMC12371289",
+      "doi": "10.2196/73623",
+      "record_title": "An Examination of Generative AI Response to Suicide Inquires: Content Analysis.",
+      "record_journal": "JMIR Ment Health",
+      "record_year": "2025",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata this run; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Previous table row (frontier vs companion apps, all short of guidelines, jailbreak detection) was not supported by this paper and was replaced with its actual findings. Abstract only.",
+      "claims": [
+        {
+          "text": "General-purpose chatbots tested incl. Gemini, Copilot, ChatGPT 3.5, Claude, Grok 2, Mistral, Meta AI",
+          "quote": "(1) Google Bard or Gemini; (2) Microsoft Bing or CoPilot; (3) ChatGPT 3.5 (OpenAI); and (4) Claude (Anthropic).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Two phases a year apart",
+          "quote": "The two phases occurred a year apart.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Content analysis of responses to questions about suicide",
+          "quote": "A content analysis was conducted of the responses of generative AI chatbots to questions about suicide.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Responses more comprehensive in phase 2",
+          "quote": "There is evidence that the responses by the generative AI chatbots were more comprehensive and responsive during phase 2 than phase 1.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "More emphasis on 988 in phase 2",
+          "quote": "Another difference noted in the responses between the first and second phases was the emphasis on the 988 suicide hotline number.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Authors stress seeking help from a trained professional remains important",
+          "quote": "the importance of individuals seeking help from a trained mental health professional remains.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "cited_as": "Common Sense Media. \"Common Sense Media Finds Major AI Chatbots Unsafe for Teen Mental Health Support\" (press release on a risk assessment conducted with Stanford Medicine's Brainstorm Lab). November 20, 2025. Not peer reviewed.",
+      "url": "https://about.commonsensemedia.org/press-room/press-releases/common-sense-media-finds-major-ai-chatbots-unsafe-for-teen-mental-health-support",
+      "kind": "other_web",
+      "version_or_date": "Press release dated 2025-11-20",
+      "retrieved_with": "WebFetch of the page this run (redirect target of commonsensemedia.org link given by the Jed Foundation page)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Nonprofit risk assessment conducted with Stanford Medicine's Brainstorm Lab; not peer reviewed; labeled as such in the table. Replaces the mislabeled 'RAND / Stanford Brainstorm Lab audit' row; its '~1/3 endorsement' figure was not found and was cut.",
+      "claims": [
+        {
+          "text": "Tested ChatGPT, Claude, Gemini and Meta AI using teen test accounts",
+          "quote": "which evaluated ChatGPT, Claude, Gemini, and Meta AI using teen test accounts and protections where available",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Safety guardrails degraded in extended conversations",
+          "quote": "safety guardrails degraded dramatically in extended conversations",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Chatbots missed clear signs of mental health distress",
+          "quote": "researchers observed \"missed breadcrumbs\": clear signs of mental health distress that chatbots failed to detect.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "cited_as": "McBain RK, Cantor JH, Zhang LA, et al. Evaluation of Alignment Between Large Language Models and Expert Clinicians in Suicide Risk Assessment. Psychiatric Services. 2025;76(11):944-950. doi:10.1176/appi.ps.20250086",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41174947/",
+      "kind": "journal",
+      "pmid": "41174947",
+      "pmcid": "PMC12856735",
+      "doi": "10.1176/appi.ps.20250086",
+      "record_title": "Evaluation of Alignment Between Large Language Models and Expert Clinicians in Suicide Risk Assessment.",
+      "record_journal": "Psychiatr Serv",
+      "record_year": "2025",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata this run; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Previous row (GPT-4, Claude 3.5, 'third LLM', Claude best, systematic positive bias) did not match the abstract and was replaced.",
+      "claims": [
+        {
+          "text": "ChatGPT, Claude and Gemini tested",
+          "quote": "three popular chatbots powered by large language models (LLMs)-ChatGPT, Claude, and Gemini",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "30 queries rated by 13 clinical experts; 100 responses each; 9,000 total",
+          "quote": "Thirteen clinical experts categorized 30 hypothetical suicide-related queries into five levels of self-harm risk",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Each chatbot answered each query 100 times (9,000 responses)",
+          "quote": "Each LLM-based chatbot responded to each query 100 times (N=9,000 total responses).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "No chatbot gave a direct response to any very-high-risk query",
+          "quote": "all three chatbots did not provide direct responses to any very-high-risk query.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Aligned at extremes; inconsistent for intermediate risk",
+          "quote": "the chatbots showed inconsistency in addressing intermediate-risk queries",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "cited_as": "Stanley B, Brown GK, Brenner LA, et al. Comparison of the Safety Planning Intervention With Follow-up vs Usual Care of Suicidal Patients Treated in the Emergency Department. JAMA Psychiatry. 2018;75(9):894-900. Cohort comparison study. doi:10.1001/jamapsychiatry.2018.1776",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29998307/",
+      "kind": "journal",
+      "pmid": "29998307",
+      "pmcid": "PMC6142908",
+      "doi": "10.1001/jamapsychiatry.2018.1776",
+      "record_title": "Comparison of the Safety Planning Intervention With Follow-up vs Usual Care of Suicidal Patients Treated in the Emergency Department.",
+      "record_journal": "JAMA Psychiatry",
+      "record_year": "2018",
+      "article_type": "Comparative Study; Journal Article (cohort comparison, not randomized)",
+      "retrieved_with": "PubMed get_article_metadata this run; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Added to source the safety planning statement, which previously had no citation and overstated the evidence.",
+      "claims": [
+        {
+          "text": "1,640 patients in VHA emergency departments for suicide-related concerns",
+          "quote": "Of the 1640 total patients, 1186 were in the intervention group and 454 were in the comparison group.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "SPI with follow-up associated with 45% fewer suicidal behaviors over 6 months",
+          "quote": "The SPI+ was associated with 45% fewer suicidal behaviors, approximately halving the odds of suicidal behavior over 6 months",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Compared hospitals (cohort comparison), not randomized",
+          "quote": "Cohort comparison design with 6-month follow-up at 9 EDs (5 intervention sites and 4 control sites)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Safety plan is a prioritized list of coping strategies",
+          "quote": "combined evidence-based strategies to reduce suicidal behavior through a prioritized list of coping skills and strategies.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

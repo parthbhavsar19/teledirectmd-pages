@@ -2,7 +2,7 @@
   "page_meta": {
     "url": "https://teledirectmd.com/ca/uti-treatment-online/",
     "title": "UTI Treatment Online in California | TeleDirectMD",
-    "description": "UTI treatment by secure video visit for California adults. Board-certified Family Medicine physician. California telehealth law compliant. Aetna in-network. Self pay $79. Evidence-based antibiotic stewardship.",
+    "description": "UTI treatment by secure video visit for non-pregnant adult women in California. Board-certified Family Medicine physician. California telehealth law compliant. Aetna in-network. Self pay $79. Evidence-based antibiotic stewardship.",
     "canonical": "https://teledirectmd.com/ca/uti-treatment-online/",
     "datePublished": "2026-05-19",
     "dateModified": "2026-05-19",
@@ -15,7 +15,6 @@
     "condition": "UTI Treatment",
     "condition_slug": "uti-treatment-online"
   },
-
   "california_regulatory": {
     "primary_statute": {
       "name": "California Business and Professions Code Section 2290.5",
@@ -74,10 +73,9 @@
       "source_url": "https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx",
       "source_name": "California DHCS — Telehealth FAQ",
       "retrieved_date": "2026-05-19",
-      "value": "Medi-Cal covers synchronous video telehealth and audio-only telehealth for physical health services. Providers billing Medi-Cal for telehealth services must be enrolled as Medi-Cal rendering providers. TeleDirectMD is not currently enrolled as a Medi-Cal provider; Medi-Cal beneficiaries should use the $79 self-pay option or seek an enrolled Medi-Cal telehealth provider."
+      "value": "Medi-Cal covers synchronous video telehealth and audio-only telehealth for physical health services. Providers billing Medi-Cal for telehealth services must be enrolled as Medi-Cal rendering providers. TeleDirectMD is not currently enrolled as a Medi-Cal provider; Medi-Cal beneficiaries should seek an enrolled Medi-Cal telehealth provider."
     }
   },
-
   "california_insurance": {
     "source": "notion_payor_enrollment.csv",
     "retrieved_date": "2026-05-19",
@@ -92,10 +90,10 @@
       },
       {
         "name": "Anthem Blue Cross",
-        "status": "Pending",
-        "effective_date": null,
-        "in_network": false,
-        "notes": "Enrollment pending — waiting for determination on whether Anthem Blue Cross will enroll individual providers. Not currently in-network. Self-pay ($79) is available.",
+        "status": "Active",
+        "effective_date": "2026-09-23",
+        "in_network": true,
+        "notes": "PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.",
         "notion_id": "3415b828-3028-810c-98a7-ca4769073fbe"
       },
       {
@@ -118,12 +116,11 @@
     "medi_cal": {
       "program_name": "Medi-Cal",
       "accepted": false,
-      "note": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. Medi-Cal beneficiaries can use the $79 self-pay rate or seek a Medi-Cal-enrolled telehealth provider through Covered California or their managed care plan."
+      "note": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. Medi-Cal beneficiaries should seek a Medi-Cal-enrolled telehealth provider through Covered California or their managed care plan."
     },
     "kaiser_note": "Kaiser Permanente operates as a closed health system in California. TeleDirectMD is not part of the Kaiser network. Kaiser members should use Kaiser's telehealth services (kp.org) for UTI care.",
-    "cash_price": 49
+    "cash_price": 79
   },
-
   "california_epidemiology": {
     "uti_national_burden": {
       "value": "UTI accounts for more than 8 million healthcare visits annually in the United States, making it one of the most common bacterial infections treated in outpatient and emergency settings.",
@@ -132,7 +129,7 @@
       "retrieved_date": "2026-05-19"
     },
     "women_lifetime_risk": {
-      "value": "Women have a lifetime risk of approximately 53% of experiencing at least one UTI, according to IDSA 2025 guideline data. Approximately 25–40% of U.S. women aged 20–40 have had a UTI.",
+      "value": "About half of women will have at least one UTI in their lifetime. Approximately 25–40% of U.S. women aged 20–40 have had a UTI.",
       "source_url": "https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/",
       "source_name": "IDSA 2025 — Complicated UTI Guideline",
       "retrieved_date": "2026-05-19"
@@ -163,7 +160,6 @@
       "note": "Derived estimate — California population applied to national UTI rate. Not a direct CDPH statistic."
     }
   },
-
   "drug_pricing": {
     "retrieved_date": "2026-05-19",
     "source_note": "GoodRx prices are national averages; California-specific pricing not separately published by GoodRx. Prices represent the lowest GoodRx coupon price as of May 18, 2026.",
@@ -179,7 +175,15 @@
         "retrieved_date": "2026-05-19",
         "first_line": true,
         "idsa_recommendation": "Nitrofurantoin macrocrystals/monohydrate 100 mg BID × 5 days — first-line for uncomplicated cystitis (IDSA/AUA)",
-        "ca_pharmacy_chains": ["CVS Pharmacy", "Walgreens", "Rite Aid", "Walmart Pharmacy", "Safeway Pharmacy", "Target Pharmacy", "Costco Pharmacy"]
+        "ca_pharmacy_chains": [
+          "CVS Pharmacy",
+          "Walgreens",
+          "Rite Aid",
+          "Walmart Pharmacy",
+          "Safeway Pharmacy",
+          "Target Pharmacy",
+          "Costco Pharmacy"
+        ]
       },
       {
         "name": "Trimethoprim-sulfamethoxazole DS (TMP-SMX, Bactrim DS) 800/160mg",
@@ -224,13 +228,12 @@
       "note": "Prescription costs at pharmacy are separate and not included in the visit fee."
     }
   },
-
   "clinical_content": {
     "guidelines": [
       {
         "name": "IDSA/ESCMID Guideline for Acute Uncomplicated Cystitis and Pyelonephritis in Women",
         "authority": "Infectious Diseases Society of America (IDSA)",
-        "source_url": "https://www.idsociety.org/practice-guideline/urinary-tract-infections-in-women/",
+        "source_url": "https://www.idsociety.org/practice-guideline/uncomplicated-cystitis-and-pyelonephritis-uti/",
         "source_name": "IDSA — UTI Guidelines"
       },
       {
@@ -241,10 +244,10 @@
         "retrieved_date": "2026-05-19"
       },
       {
-        "name": "AUA/CUA/SUFU Guideline on Recurrent Uncomplicated UTIs in Women (2024)",
+        "name": "AUA/CUA/SUFU Guideline on Recurrent Uncomplicated UTIs in Women (2025 amendment)",
         "authority": "American Urological Association (AUA)",
         "source_url": "https://www.auanet.org/guidelines-and-quality/guidelines/recurrent-uti",
-        "source_name": "AUA — Recurrent UTI Guideline (2024)"
+        "source_name": "AUA — Recurrent UTI Guideline (2025 amendment)"
       },
       {
         "name": "Ann Arbor Guide to Triaging Adults With Suspected UTI (Meddings et al., JAMA Network Open, 2026)",
@@ -265,7 +268,7 @@
       "Pregnancy with urinary symptoms — higher-risk UTI requiring same-day evaluation",
       "Hematuria with severe pain — possible kidney stone or other serious cause",
       "Recurrent UTIs (≥2 in 6 months or ≥3 in 12 months) — warrants in-person workup",
-      "Male patients with UTI symptoms — often require workup for structural/prostate causes",
+      "TeleDirectMD does not treat male UTIs. UTI care is limited to non-pregnant adult women (18+) with uncomplicated symptoms. Men with UTI symptoms should seek in-person care and should not book a TeleDirectMD UTI visit.",
       "Indwelling urinary catheter — catheter-associated UTI requires in-person management",
       "Immunocompromise — higher risk for complicated infection",
       "Recent urologic instrumentation or procedure"
@@ -284,7 +287,7 @@
       "source_url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/01/treatment-of-urinary-tract-infections-in-nonpregnant-women",
       "source_name": "ACOG — UTI Treatment Committee Opinion"
     },
-    "recurrent_uti_criteria": "Recurrent UTI is defined as 2 or more infections in 6 months or 3 or more in 12 months (AUA 2024). These patients benefit from in-person urine culture, imaging considerations, and prevention planning that goes beyond acute telehealth management.",
+    "recurrent_uti_criteria": "Recurrent UTI is defined as 2 or more infections in 6 months or 3 or more in 12 months (AUA/CUA/SUFU guideline). These patients benefit from in-person urine culture, imaging considerations, and prevention planning that goes beyond acute telehealth management.",
     "dual_path_resources_california": [
       {
         "name": "Planned Parenthood California",
@@ -306,12 +309,11 @@
       }
     ]
   },
-
   "faqs": [
     {
       "id": "faq-ca-1",
       "question": "Does California require an in-person visit before telehealth?",
-      "answer": "No. California Business and Professions Code Section 2290.5 — the Telehealth Advancement Act — does not require a prior in-person visit before receiving telehealth services. A physician licensed in California can establish a new patient relationship and prescribe appropriate non-controlled medications through a synchronous video visit. TeleDirectMD physicians are licensed in California and comply with all Medical Board of California standards."
+      "answer": "No. California Business and Professions Code Section 2290.5 — the Telehealth Advancement Act — does not require a prior in-person visit before receiving telehealth services. A physician licensed in California can establish a new patient relationship and prescribe appropriate non-controlled medications through a synchronous video visit. Dr. Bhavsar is licensed in California and comply with all Medical Board of California standards."
     },
     {
       "id": "faq-ca-2",
@@ -326,7 +328,7 @@
     {
       "id": "faq-ca-4",
       "question": "Will Medi-Cal cover my TeleDirectMD visit in California?",
-      "answer": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. Medi-Cal does cover telehealth for physical health services — including UTI treatment — when the provider is an enrolled Medi-Cal rendering provider. If you have Medi-Cal, you can use the $79 self-pay rate at TeleDirectMD, or seek a Medi-Cal-enrolled telehealth provider through your managed care plan or the California Department of Health Care Services provider directory at dhcs.ca.gov."
+      "answer": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. Medi-Cal does cover telehealth for physical health services — including UTI treatment — when the provider is an enrolled Medi-Cal rendering provider. If you have Medi-Cal, seek a Medi-Cal-enrolled telehealth provider through your managed care plan or the California Department of Health Care Services provider directory at dhcs.ca.gov."
     },
     {
       "id": "faq-ca-5",
@@ -361,7 +363,7 @@
     {
       "id": "faq-ca-11",
       "question": "Can a doctor diagnose a UTI by video visit in California?",
-      "answer": "Often, yes. The Ann Arbor Guide to Triaging Adults With Suspected UTI supports empiric antibiotic treatment for new-onset classic cystitis symptoms — burning, frequency, urgency — in non-pregnant adults without red flags, even without urine testing. The Medical Board of California holds telehealth physicians to the same standard of care as in-person physicians, and careful symptom history and red-flag screening can appropriately identify which patients are safe to treat by video."
+      "answer": "Often, yes. The Ann Arbor Guide to Triaging Adults With Suspected UTI supports empiric antibiotic treatment for new-onset classic cystitis symptoms — burning, frequency, urgency — in non-pregnant adult women without red flags, even without urine testing. The Medical Board of California holds telehealth physicians to the same standard of care as in-person physicians, and careful symptom history and red-flag screening can appropriately identify which patients are safe to treat by video."
     },
     {
       "id": "faq-ca-12",

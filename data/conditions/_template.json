@@ -5,12 +5,12 @@
   "conditionShort": "SHORT NAME (e.g., 'UTI')",
   "conditionSlug": "URL-SLUG (e.g., 'uti-treatment-online')",
   "pageTitle": "CONDITION NAME Online in {state} | SUBTITLE | TeleDirectMD",
-  "metaDescription": "DESCRIPTION for {state} adults. Self pay option starting at $79. Insurance is not required.",
+  "metaDescription": "DESCRIPTION for {state} adults. Flat $79 self-pay option. Insurance is not required.",
   "ogImageAlt": "CONDITION in {state} by TeleDirectMD",
 
   "hero": {
     "h1": "CONDITION in {state} (SUBTITLE)",
-    "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
+    "subtitle": "{state} adult care by secure video visit, flat $79 self-pay option, MD-only, insurance is not required.",
     "introParagraph": "INTRO PARAGRAPH about the condition. Use {state} for state name and {cities} for city list placeholder.",
     "tocLinks": [
       { "href": "eligibility-checklist", "label": "Eligibility checklist" },
@@ -20,7 +20,7 @@
       { "href": "references", "label": "References" }
     ],
     "benefits": [
-      "Self pay option starting at $79",
+      "Flat $79 self-pay option",
       "MD-only care (no mid-levels)",
       "Insurance is not required",
       "Licensed telehealth care for patients located in {state} at the time of the visit"
@@ -91,7 +91,7 @@
     "rows": [
       {
         "option": "TeleDirectMD",
-        "cost": "Self pay option starting at $79",
+        "cost": "Flat $79 self-pay option",
         "wait": "Same day, often within hours",
         "provider": "Board-certified MD only (no mid-levels)",
         "bestFor": "BEST FOR DESCRIPTION",
@@ -99,7 +99,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "BEST FOR DESCRIPTION",
@@ -107,7 +107,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "BEST FOR DESCRIPTION",
@@ -115,7 +115,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $350+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks",
         "provider": "MD or DO",
         "bestFor": "BEST FOR DESCRIPTION",
@@ -177,10 +177,12 @@
       "Clear follow-up and escalation instructions"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$79", "width": 20, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $350+", "width": 52, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 60, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$79",
+        "width": 20,
+        "isTdmd": true
+      }
     ],
     "footnote": "Prescription costs are separate and vary by medication and pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
@@ -330,7 +332,7 @@
       },
       {
         "question": "How much does an online CONDITION visit cost in {state}?",
-        "answer": "TeleDirectMD offers a transparent self pay option starting at $79 for an adult video visit in {state}. Insurance is not required."
+        "answer": "TeleDirectMD offers a transparent flat $79 self-pay option for an adult video visit in {state}. Insurance is not required."
       },
       {
         "question": "Does {state} allow telemedicine for this kind of visit?",
@@ -355,8 +357,7 @@
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
       "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state}. CONDITION-SPECIFIC disclaimer text. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
-      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care. CONDITION-SPECIFIC scope limitation.",
-      "CONDITION SEO keywords for {state}."
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care. CONDITION-SPECIFIC scope limitation."
     ]
   },
 

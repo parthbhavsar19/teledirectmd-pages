@@ -1,0 +1,955 @@
+{
+ "guide": "uti-symptoms-in-women-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 11 verified (8 DOIs cited on the page: Bent 2002, Gupta 2011, Foxman 2002, Nicolle 2019, Hooton 2013, Schmiemann 2010, Hanno 2011, Hooton 1996; plus 3 dropped: Hooton 2012, Sobel 2007, Workowski 2021), retractions: none. No editorial notices. Colgan 2011, Kurotschka 2024 and Herness 2020 (AFP, no DOI) could not be matched by Scite; their PubMed records show no Retracted Publication or Retraction Notice type. Contrasting-evidence flags on Bent, Gupta, Foxman, Nicolle and Hanno reviewed, see entry notes; none changes a claim the page makes.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "journal",
+   "cited_as": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710. PMID: 12020306.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12020306/",
+   "pmid": "12020306",
+   "doi": "10.1001/jama.287.20.2701",
+   "record_title": "Does this woman have an acute uncomplicated urinary tract infection?",
+   "record_journal": "JAMA",
+   "record_year": "2002",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Review of 9 studies; the >90% figure is a post-test probability for dysuria plus frequency without vaginal discharge or irritation, from the one included study of symptom combinations. Page no longer says \"triad\", \"accuracy\", \"premenopausal\" or \"pooled\" for that figure. Scite flagged one contrasting citation (doi 10.1016/j.jadohealth.2006.12.010): in adolescents, vaginal symptoms did not lower UTI likelihood; page wording stays at \"less likely\" for adult women.",
+   "claims": [
+    {
+     "text": "Dysuria plus frequency without vaginal discharge or irritation raises probability of UTI to more than 90% (citable summary, Key Takeaways, first-signs paragraph, FAQ 1, chart)",
+     "quote": "Specific combinations of symptoms (eg, dysuria and frequency without vaginal discharge or irritation) raise the probability of UTI to more than 90%, effectively ruling in the diagnosis based on history alone.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Bent review looked at nine studies; the >90% figure comes from the one study of symptom combinations (text and chart footnote)",
+     "quote": "Nine of 464 identified studies met inclusion criteria. ... One study examined combinations of symptoms, and the resulting LRs were more powerful (24.6 for the combination of dysuria and frequency but no vaginal discharge or irritation).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Vaginal discharge, itching or irritation makes a simple bladder infection less likely (first signs, BV, yeast sections, Key Takeaways, FAQ)",
+     "quote": "the 2 most powerful were history of vaginal discharge and history of vaginal irritation, which significantly decreased the likelihood of UTI when present",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Blood in the urine alone is a weaker clue than dysuria plus frequency without vaginal symptoms (first signs; FAQ urine)",
+     "quote": "hematuria (LR, 2.0; 95% CI, 1.3-2.9) ... (24.6 for the combination of dysuria and frequency but no vaginal discharge or irritation)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "With classic symptoms and no vaginal discharge, diagnosis can often be made from history alone",
+     "quote": "effectively ruling in the diagnosis based on history alone",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "In a woman with symptoms, a negative dipstick does not reliably rule a UTI out",
+     "quote": "history taking, physical examination, and dipstick urinalysis are not able to reliably lower the posttest probability of disease to a level where a UTI can be ruled out when a patient presents with 1 or more symptoms",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "guideline",
+   "cited_as": "Gupta K, Hooton TM, Naber KG, et al. International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: A 2010 update by the Infectious Diseases Society of America and the European Society for Microbiology and Infectious Diseases. Clin Infect Dis. 2011;52(5):e103-e120. PMID: 21292654.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21292654/",
+   "pmid": "21292654",
+   "doi": "10.1093/cid/ciq257",
+   "record_title": "International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: A 2010 update by the Infectious Diseases Society of America and the European Society for Microbiology and Infectious Diseases.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2011",
+   "article_type": "Practice Guideline",
+   "version_or_date": "2010 update, published 1 March 2011; publisher full text read 2026-11-15",
+   "retrieved_with": "PubMed get_article_metadata; WebFetch of publisher full text (academic.oup.com/cid/article/52/5/e103/388285); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "The guideline does not itself use \"first-line\" for the trio (it calls each an appropriate choice and calls TMP-SMX the traditional first-line agent in the US); \"first-line\" wording on the page is carried by Colgan [4], CDC [23] and Kurotschka [24]. It does not address red flags, pregnancy management or recurrence, so it was removed as the source for those claims. Scite contrasting citation (doi 10.3855/jidc.8124) concerns high local resistance elsewhere; consistent with the 20% qualifier.",
+   "claims": [
+    {
+     "text": "Nitrofurantoin for 5 days is an appropriate treatment for uncomplicated cystitis (table; a bacterial UTI is treated with an antibiotic)",
+     "quote": "Nitrofurantoin monohydrate/macrocrystals (100 mg twice daily for 5 days) is an appropriate choice for therapy",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "TMP-SMX for 3 days, only where local resistance does not exceed 20% (table)",
+     "quote": "Trimethoprim-sulfamethoxazole (160/800 mg [1 double-strength tablet] twice-daily for 3 days) ... if local resistance rates of uropathogens causing acute uncomplicated cystitis do not exceed 20%",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fosfomycin as a single oral dose (table)",
+     "quote": "Fosfomycin trometamol (3 g in a single dose) is an appropriate choice for therapy where it is available",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "IDSA rates each as an appropriate choice; choice of therapy made on an individual basis, weighing resistance and collateral damage (ecological side effects)",
+     "quote": "Each agent has pros and cons related to its use and the choice of therapy is made on an individual basis. ... Collateral damage, a term describing ecological adverse effects of antimicrobial therapy",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fluoroquinolones have a propensity for collateral damage",
+     "quote": "have a propensity for collateral damage and should be reserved for important uses other than acute cystitis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nitrofurantoin: IDSA notes only minor collateral damage (table)",
+     "quote": "suggests these antimicrobials cause only minor collateral damage",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "First-line antibiotics include nitrofurantoin, TMP-SMX and fosfomycin (Key Takeaways, with refs 4, 23)",
+     "quote": "Nitrofurantoin monohydrate/macrocrystals (100 mg twice daily for 5 days) is an appropriate choice for therapy",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Pregnancy needs different evaluation: this guideline covers only non-pregnant women (Key Takeaways)",
+     "quote": "diagnoses limited in these guidelines to premenopausal, non-pregnant women with no known urological abnormalities or co-morbidities",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. Urinary tract infection - adults. U.S. National Library of Medicine. Review date July 22, 2026. Accessed November 15, 2026.",
+   "url": "https://medlineplus.gov/ency/article/000521.htm",
+   "version_or_date": "Review Date 7/22/2026",
+   "retrieved_with": "WebFetch of official page (MedlinePlus permits short quotes only)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces Hooton TM, N Engl J Med 2012 (PMID 22417256), which has no abstract and whose full text was not retrievable, so none of its claims could be checked.",
+   "claims": [
+    {
+     "text": "Women get UTIs more often because the urethra is shorter and closer to the anus than in men (Key Takeaways, why-women section, figure)",
+     "quote": "Women tend to get them more often because their urethra is shorter and closer to the anus than in men.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Urine may be cloudy or bloody with a strong or foul odor; pressure or cramping in the lower abdomen (first signs; FAQ urine)",
+     "quote": "Cloudy or bloody urine, which may have a foul or strong odor ... Pressure or cramping in the lower abdomen or back",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fever, back or side pain, chills, vomiting suggest kidney infection: contact a provider right away (Key Takeaways; callout; FAQ)",
+     "quote": "Contact your provider right away if you have signs of a possible kidney infection",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sexual activity, diaphragm use and menopause raise UTI risk",
+     "quote": "women are more likely to get an infection after sexual activity or when using a diaphragm for birth control ... Menopause also increases the risk for a UTI.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Urine culture identifies the bacteria and helps choose the best antibiotic",
+     "quote": "may be done to identify the bacteria and determine the best antibiotic for treatment",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Finish all of the antibiotic as prescribed, even if you feel better",
+     "quote": "Finish all of your antibiotics, even if you feel better.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Bladder infection symptoms most often go away within 24 to 48 hours after treatment begins",
+     "quote": "Bladder infection symptoms most often go away within 24 to 48 hours after treatment begins.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "If symptoms do not improve within about 48 hours, contact the prescribing clinician (with refs 22, 24)",
+     "quote": "Bladder infection symptoms most often go away within 24 to 48 hours after treatment begins.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Symptoms that keep coming back need care (callout)",
+     "quote": "if your UTI symptoms come back shortly after you have been treated with antibiotics",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Colgan R, Williams M. Diagnosis and treatment of acute uncomplicated cystitis. Am Fam Physician. 2011;84(7):771-776. PMID: 22010614.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22010614/",
+   "pmid": "22010614",
+   "record_title": "Diagnosis and treatment of acute uncomplicated cystitis.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2011",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "No DOI (AFP). Scite verify_papers could not match the reference text; PubMed article types show no Retracted Publication or Retraction Notice. Now cited only for what the abstract says.",
+   "claims": [
+    {
+     "text": "Most UTIs start in the bladder (acute uncomplicated cystitis); frequency and dysuria are identifiers",
+     "quote": "Most urinary tract infections are acute uncomplicated cystitis. Identifiers of acute uncomplicated cystitis are frequency and dysuria in an immunocompetent woman of childbearing age",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Discomfort just above the pubic bone",
+     "quote": "Physical examination is typically normal or positive for suprapubic tenderness.",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Guidelines name nitrofurantoin, TMP-SMX (resistance not over 20%) and fosfomycin as first-line options",
+     "quote": "Guidelines recommend three options for first-line treatment of acute uncomplicated cystitis: fosfomycin, nitrofurantoin, and trimethoprim/sulfamethoxazole (in regions where the prevalence of Escherichia coli resistance does not exceed 20 percent).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Urine culture recommended for suspected kidney infection, symptoms that do not resolve or recur within 2 to 4 weeks, atypical symptoms (diagnosis; not-a-UTI; FAQ recurrence)",
+     "quote": "Urine cultures are recommended in women with suspected pyelonephritis, women with symptoms that do not resolve or that recur within two to four weeks after completing treatment, and women who present with atypical symptoms.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Foxman B. Epidemiology of urinary tract infections: incidence, morbidity, and economic costs. Am J Med. 2002;113 Suppl 1A:5S-13S. PMID: 12113866.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12113866/",
+   "pmid": "12113866",
+   "doi": "10.1016/s0002-9343(02)01054-9",
+   "record_title": "Epidemiology of urinary tract infections: incidence, morbidity, and economic costs.",
+   "record_journal": "Am J Med",
+   "record_year": "2002",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite contrasting citation (catheter-associated UTI study) does not bear on the lifetime-incidence claim. No longer cited for anatomy, risk factors, recurrence thresholds or contagion (not in abstract).",
+   "claims": [
+    {
+     "text": "About half of women will have a UTI in their lifetime; women more likely than men",
+     "quote": "Women are significantly more likely to experience UTI than men. ... Almost half of all women will experience 1 UTI during their lifetime.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "guideline",
+   "cited_as": "Nicolle LE, Gupta K, Bradley SF, et al. Clinical Practice Guideline for the Management of Asymptomatic Bacteriuria: 2019 Update by the Infectious Diseases Society of America. Clin Infect Dis. 2019;68(10):e83-e110. PMID: 30895288.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30895288/",
+   "pmid": "30895288",
+   "doi": "10.1093/cid/ciy1121",
+   "record_title": "Clinical Practice Guideline for the Management of Asymptomatic Bacteriuria: 2019 Update by the Infectious Diseases Society of America.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2019",
+   "article_type": "Practice Guideline",
+   "version_or_date": "2019 update",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Removed as a source for the red-flag list (not in the abstract). Kept only for pregnancy being handled differently. Scite contrasting citation (doi 10.1177/0018578719888911) reports real-world over-treatment of ASB; does not bear on the pregnancy point.",
+   "claims": [
+    {
+     "text": "UTIs in pregnancy need different evaluation (pregnant women are screened and treated even for asymptomatic bacteriuria) (Key Takeaways)",
+     "quote": "recommended that ASB should be screened for and treated only in pregnant women or in an individual prior to undergoing invasive urologic procedures",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Hooton TM, Roberts PL, Cox ME, Stapleton AE. Voided midstream urine culture and acute cystitis in premenopausal women. N Engl J Med. 2013;369(20):1883-1891. PMID: 24224622.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24224622/",
+   "pmid": "24224622",
+   "pmcid": "PMC4041367",
+   "doi": "10.1056/NEJMoa1302186",
+   "record_title": "Voided midstream urine culture and acute cystitis in premenopausal women.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2013",
+   "article_type": "Journal Article (diagnostic study)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Claims rewritten: no longer says a midstream sample \"gives the most reliable culture result\" and no longer cited for causes of recurrence (audit: not_supported).",
+   "claims": [
+    {
+     "text": "In premenopausal women with cystitis, midstream cultures accurately showed bladder E. coli but not enterococci or group B streptococci",
+     "quote": "Cultures of voided midstream urine in healthy premenopausal women with acute uncomplicated cystitis accurately showed evidence of bladder E. coli but not of enterococci or group B streptococci",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "Schmiemann G, Kniehl E, Gebhardt K, Matejczyk MM, Hummers-Pradier E. The diagnosis of urinary tract infection: a systematic review. Dtsch Arztebl Int. 2010;107(21):361-367. PMID: 20539810.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20539810/",
+   "pmid": "20539810",
+   "pmcid": "PMC2883276",
+   "doi": "10.3238/arztebl.2010.0361",
+   "record_title": "The diagnosis of urinary tract infection: a systematic review.",
+   "record_journal": "Dtsch Arztebl Int",
+   "record_year": "2010",
+   "article_type": "Systematic Review",
+   "retrieved_with": "PubMed get_article_metadata; Scite read_fulltext (full text); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract notes clinical diagnosis alone has an error rate of about 33%; the page frames Bent's >90% figure narrowly to one symptom combination, so it is not overstated.",
+   "claims": [
+    {
+     "text": "Dipstick checks nitrite (product of typical urinary bacteria), leukocyte esterase and blood",
+     "quote": "may be able to detect nitrite (a metabolic product of typical pathogens of the urinary tract), leukocyte esterase, protein and blood (as a marker of inflammation)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Positive nitrite raises probability of UTI but sensitivity is relatively low",
+     "quote": "If nitrite is detected, this increases the probability of a urinary tract infection, with a likelihood ratio [LR] of 2.6 to 10.6. However, the sensitivity is relatively low.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Urine culture is the reference (gold standard) test",
+     "quote": "The gold standard for a urine test is to perform a bacteriological urine culture, with identification of the pathogen, with quantification and sensitivity testing.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "UTIs in pregnancy count as complicated and should get a urine culture; testing adds information in pregnancy",
+     "quote": "All infections of the urinary tract in children, men and pregnant women ... an attempt should generally be made to perform a urine culture",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sample collected with as little contamination as possible, usually a midstream sample",
+     "quote": "additional studies and urine culture require that the urine sample should be collected and processed with as little contamination as possible",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antibiotics can shorten symptoms by as long as two days (FAQ can it go away)",
+     "quote": "antibiotic treatment can significantly reduce the duration of the symptoms, by as long as two days",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "guideline",
+   "cited_as": "Centers for Disease Control and Prevention. Sexually Transmitted Infections Treatment Guidelines, 2021: Vulvovaginal Candidiasis. Last reviewed July 22, 2021. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/candidiasis.htm",
+   "version_or_date": "STI Treatment Guidelines 2021; page last reviewed July 22, 2021",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces Sobel JD, Lancet 2007 (PMID 17560449), whose abstract is general and whose full text was not retrievable. Page also says \"None of these symptoms is specific for VVC\"; the guide presents these as clues only.",
+   "claims": [
+    {
+     "text": "Yeast infection causes itching, soreness and external burning with urination",
+     "quote": "Typical symptoms of VVC include pruritus, vaginal soreness, dyspareunia, external dysuria, and abnormal vaginal discharge.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Yeast infection treated with an antifungal such as a single oral dose of fluconazole or a short course of a vaginal antifungal",
+     "quote": "Fluconazole 150 mg orally in a single dose ... Short-course topical formulations (i.e., single dose and regimens of 1–3 days) effectively treat uncomplicated VVC.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "guideline",
+   "cited_as": "Hanno PM, Burks DA, Clemens JQ, et al. AUA guideline for the diagnosis and treatment of interstitial cystitis/bladder pain syndrome. J Urol. 2011;185(6):2162-2170. PMID: 21497847.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21497847/",
+   "pmid": "21497847",
+   "pmcid": "PMC9341322",
+   "doi": "10.1016/j.juro.2011.03.064",
+   "record_title": "AUA guideline for the diagnosis and treatment of interstitial cystitis/bladder pain syndrome.",
+   "record_journal": "J Urol",
+   "record_year": "2011",
+   "article_type": "Practice Guideline; Systematic Review",
+   "version_or_date": "AUA 2011 guideline (later amended 2014/2015 and replaced by 2022 version; 2011 text read here)",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC9341322); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "\"Diagnosis of exclusion\" wording replaced by the guideline's own definition. AUA-hosted 2022 guideline PDF could not be fetched this run (client error), so the 2011 text (full text in PMC) is used. Scite contrasting citation concerns pressure-pain testing; not relevant.",
+   "claims": [
+    {
+     "text": "Many patients have bladder, urethral or pelvic pain and urinary symptoms with sterile cultures, many with identifiable causes",
+     "quote": "The bladder symptom complex includes a large group of patients with bladder and/or urethral and/or pelvic pain, lower urinary tract symptoms and sterile urine cultures, many with specific identifiable causes.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "AUA defines IC/BPS as bladder-related pain, pressure or discomfort with urinary symptoms over six weeks, without infection or other identifiable causes",
+     "quote": "An unpleasant sensation (pain, pressure, discomfort) perceived to be related to the urinary bladder, associated with lower urinary tract symptoms of more than six weeks duration, in the absence of infection or other identifiable causes.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "IC/BPS often comes with urgency and frequency",
+     "quote": "The prototypical IC/BPS patient may also present with marked urinary urgency and frequency",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Guideline advises against long-term antibiotics; no more antibiotics after failed antibiotics with negative culture",
+     "quote": "Long-term oral antibiotic administration should not be offered. ... antibiotic treatment is contraindicated in patients who have previously been administered antibiotics without efficacy and who present with a negative urine culture",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Returning symptoms can be a cause that is not an infection (FAQ recurrence)",
+     "quote": "lower urinary tract symptoms and sterile urine cultures, many with specific identifiable causes",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "guideline",
+   "cited_as": "Centers for Disease Control and Prevention. Sexually Transmitted Infections Treatment Guidelines, 2021: Diseases Characterized by Urethritis and Cervicitis. Last reviewed September 21, 2022. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/urethritis-and-cervicitis.htm",
+   "version_or_date": "STI Treatment Guidelines 2021; page last reviewed September 21, 2022",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces the whole-document PubMed record for Workowski KA et al., MMWR Recomm Rep 2021 (PMID 34292926) with the specific guideline sections that state each claim.",
+   "claims": [
+    {
+     "text": "Chlamydia and gonorrhea are established causes of urethritis; symptoms include dysuria and discharge",
+     "quote": "Although N. gonorrhoeae and C. trachomatis are well established as clinically important infectious causes of urethritis ... Symptoms, if present, include dysuria, urethral pruritis, and mucoid, mucopurulent, or purulent discharge.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cervical infection is often silent but can cause abnormal discharge and bleeding between periods (STI section; FAQ period)",
+     "quote": "Cervicitis frequently is asymptomatic; however, certain women might report an abnormal vaginal discharge and intermenstrual vaginal bleeding",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Chlamydia or gonorrhea are the most common causes of cervicitis",
+     "quote": "C. trachomatis or N. gonorrhoeae is the most common etiology of cervicitis defined by diagnostic testing.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Women with signs of cervical infection are tested for chlamydia and gonorrhea with NAAT; STI clues warrant testing",
+     "quote": "women should be assessed for signs of PID and tested for C. trachomatis and N. gonorrhoeae with NAAT",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. About Bacterial Vaginosis (BV). Last reviewed December 11, 2023. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/bacterial-vaginosis/about/",
+   "version_or_date": "Last reviewed December 11, 2023",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Corrects the earlier statement that BV typically does not cause burning with urination.",
+   "claims": [
+    {
+     "text": "BV: thin white or gray discharge, strong fish-like odor especially after sex (Key Takeaways; BV section)",
+     "quote": "A thin white or gray vaginal discharge ... A strong fish-like odor, especially after sex",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV can cause burning when peeing and vaginal itching; many have no symptoms; list does not include urgency/frequency",
+     "quote": "Many people with BV do not have symptoms. If you do have symptoms, you may notice: ... Pain, itching, or burning in the vagina ... Burning when peeing",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV is the most common vaginal condition in women ages 15 to 44",
+     "quote": "BV is the most common vaginal condition in women ages 15-44.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "guideline",
+   "cited_as": "Centers for Disease Control and Prevention. Sexually Transmitted Infections Treatment Guidelines, 2021: Bacterial Vaginosis. Last reviewed July 22, 2021. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/bv.htm",
+   "version_or_date": "STI Treatment Guidelines 2021; page last reviewed July 22, 2021",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "BV is an imbalance (dysbiosis) of vaginal bacteria",
+     "quote": "BV is a vaginal dysbiosis resulting from replacement of normal hydrogen peroxide",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A thin, milky discharge and fishy odor are among the criteria used to diagnose BV",
+     "quote": "Homogeneous, thin discharge (milklike consistency) that smoothly coats the vaginal walls ... A fishy odor of vaginal discharge before or after addition of 10% KOH (i.e., the whiff test)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "guideline",
+   "cited_as": "Centers for Disease Control and Prevention. Sexually Transmitted Infections Treatment Guidelines, 2021: Chlamydial Infections. Last reviewed July 22, 2021. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+   "version_or_date": "STI Treatment Guidelines 2021; page last reviewed July 22, 2021",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Clues for STI: new partner, more than one partner, partner with an STI (STI section; table)",
+     "quote": "a new sex partner, more than one sex partner, a sex partner with concurrent partners, or a sex partner who has an STI",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "CDC recommends NAAT to detect chlamydia",
+     "quote": "NAATs are the most sensitive tests for these specimens and are the recommended test for detecting",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Chlamydia can cause pelvic or abdominal pain in women; infection is often asymptomatic",
+     "quote": "pelvic or abdominal pain among women ... Asymptomatic infection is common among both men and women.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "agency_page",
+   "cited_as": "National Institute of Diabetes and Digestive and Kidney Diseases. Definition & Facts of Bladder Infection in Adults. Last reviewed April 2024. Accessed November 15, 2026.",
+   "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/bladder-infection-uti-in-adults/definition-facts",
+   "version_or_date": "Last Reviewed April 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Females have a short urethra close to the anus; anatomy is why women get more bladder infections (Key Takeaways; why-women; figure caption)",
+     "quote": "Females are more likely to develop bladder infections than males due to their anatomy. ... Females have a short urethra located close to the anus, a source of bacteria.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "About half of women will have a bladder infection; about a quarter of those have repeat infections; men under 50 rarely get them",
+     "quote": "about half of all women will develop a bladder infection in their lifetime ... About a quarter of those women will have repeat infections ... Men under age 50 rarely get bladder infections.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "An untreated bladder infection can spread to the kidneys (FAQ can it go away)",
+     "quote": "If untreated, a bladder infection can spread to one or both of your kidneys.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "agency_page",
+   "cited_as": "National Institute of Diabetes and Digestive and Kidney Diseases. Symptoms & Causes of Bladder Infection in Adults. Last reviewed April 2024. Accessed November 15, 2026.",
+   "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/bladder-infection-uti-in-adults/symptoms-causes",
+   "version_or_date": "Last Reviewed April 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Early signs: burning with urination, frequent or intense urges even with little urine, lower abdominal discomfort, cloudy, bloody or strong-smelling urine",
+     "quote": "a burning feeling when you urinate; frequent or intense urges to urinate, even when you have little urine to pass; pain or discomfort in the lower abdomen; cloudy, bloody, or strong-smelling urine",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Contact a clinician if you have symptoms of a bladder infection",
+     "quote": "Contact a health care professional if you have symptoms of a bladder infection.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "agency_page",
+   "cited_as": "National Institute of Diabetes and Digestive and Kidney Diseases. Symptoms & Causes of Kidney Infection (Pyelonephritis). Last reviewed October 2024. Accessed November 15, 2026.",
+   "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-infection-pyelonephritis/symptoms-causes",
+   "version_or_date": "Last Reviewed October 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Symptom quote is the page list joined with semicolons.",
+   "claims": [
+    {
+     "text": "Kidney infection symptoms: fever and chills, back/side/groin pain, nausea or vomiting",
+     "quote": "fever and chills; cloudy, dark, bloody, or foul-smelling urine; frequent, painful urination; pain in your back, side, or groin; nausea or vomiting",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fever, flank pain, nausea or vomiting need urgent care (Key Takeaways; callout; FAQ; figure)",
+     "quote": "Seek care right away if you have kidney infection symptoms.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most kidney infections start as bladder infections (same-day care paragraph)",
+     "quote": "Most kidney infections start as a bladder infection in your lower urinary tract.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "kind": "agency_page",
+   "cited_as": "National Institute of Diabetes and Digestive and Kidney Diseases. Symptoms & Causes of Kidney Stones. Last reviewed May 2017. Accessed November 15, 2026.",
+   "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-stones/symptoms-causes",
+   "version_or_date": "Last Reviewed May 2017",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Symptom quote is the page list joined with semicolons. Replaces Colgan [4] as the source for kidney stones (not in the Colgan abstract).",
+   "claims": [
+    {
+     "text": "Kidney stones can cause pain while urinating, blood in urine, constant need to urinate, sharp back/side/lower abdomen/groin pain",
+     "quote": "sharp pains in your back, side, lower abdomen, or groin; pink, red, or brown blood in your urine, also called hematuria; a constant need to urinate; pain while urinating",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. Urination - painful. U.S. National Library of Medicine. Review date January 1, 2025. Accessed November 15, 2026.",
+   "url": "https://medlineplus.gov/ency/article/003145.htm",
+   "version_or_date": "Review Date 1/1/2025",
+   "retrieved_with": "WebFetch of official page (short quotes)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces Colgan [4] for irritants and menopause changes. Original irritant list (scented soaps, douches, spermicides, hygiene products) and the name \"genitourinary syndrome of menopause\" are not on this page and were removed.",
+   "claims": [
+    {
+     "text": "Vaginal and sexually transmitted causes of burning (first signs)",
+     "quote": "Vulvovaginitis, such as yeast or other infections of the vulva and vagina ... Sexually transmitted infections (STIs), such as gonorrhea or chlamydia",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Irritation from bubble bath, perfumes or lotions can cause painful urination",
+     "quote": "Irritation of the vaginal tissue caused by bubble bath, perfumes, or lotions",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "After menopause, changes in vaginal tissue (atrophic vaginitis) can cause painful urination",
+     "quote": "Changes in the vaginal tissue during menopause (atrophic vaginitis)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "If pregnant with symptoms, contact a clinician promptly (Key Takeaways; callout; FAQ)",
+     "quote": "You are pregnant and are having any painful urination.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Visible blood in the urine is a reason for same-day care (callout; FAQ)",
+     "quote": "You notice blood in your urine.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. Vaginal yeast infection. U.S. National Library of Medicine. Review date August 18, 2025. Accessed November 15, 2026.",
+   "url": "https://medlineplus.gov/ency/article/001511.htm",
+   "version_or_date": "Review Date 8/18/2025",
+   "retrieved_with": "WebFetch of official page (short quotes)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Yeast infection: itching and burning, discharge thick, white and chunky like cottage cheese (Key Takeaways; yeast section; table; FAQ)",
+     "quote": "Itching and burning of the vagina and labia ... Discharge can range from slightly watery, white discharge to thick, white, and chunky (like cottage cheese).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antibiotics change the vaginal balance, one reason a yeast infection can follow antibiotics for a UTI",
+     "quote": "Antibiotics change the normal balance between germs in the vagina.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. Clinical Overview of Urinary Tract Infections. July 16, 2026. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/uti/hcp/clinical-overview/index.html",
+   "version_or_date": "July 16, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Healthy, premenopausal, nonpregnant women with classic symptoms: diagnosis often from history alone",
+     "quote": "In healthy, premenopausal, non-pregnant women with classic symptoms, clinicians can often diagnose an uncomplicated UTI based on history and physical exam alone.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "When the picture is less clear, testing adds information",
+     "quote": "When uncertainty exists, testing may include a urine sample, urinalysis, urine culture, or imaging.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "E. coli causes most cases",
+     "quote": "Escherichia coli (E. coli) causes 80-90% of cases.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Intercourse can introduce bacteria into the urethra; menopause hormonal changes and lower estrogen shift vaginal flora (why-women; FAQ contagious)",
+     "quote": "Sexual intercourse can introduce bacteria from the genital area into the urethra ... During menopause, hormonal changes can bring about shifts in vaginal flora and lower estrogen levels",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recurrent UTI: at least 2 infections in six months or at least 3 in one year",
+     "quote": "Recurrent UTI refers to at least 2 infections in six months or at least 3 infections in one year.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. About Urinary Tract Infections. Last reviewed September 22, 2026. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/uti/about/index.html",
+   "version_or_date": "Last reviewed September 22, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Page does not use the word \"contagious\"; the FAQ answer now says only what the page says (not an STI; bacteria from skin or rectum).",
+   "claims": [
+    {
+     "text": "UTIs start when bacteria, often from the skin or rectum, enter the urethra",
+     "quote": "bacteria, often from the skin or rectum, enter the urethra and infect the urinary tract.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A UTI is not a sexually transmitted infection",
+     "quote": "a UTI is not a sexually transmitted infection",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Talk with a clinician if symptoms do not improve after starting antibiotics (treatment; callout)",
+     "quote": "Talk with a healthcare professional if your symptoms do not improve after starting antibiotics",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "See a clinician for UTI symptoms",
+     "quote": "See a healthcare professional if you or your child has one or more symptoms of a UTI",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "For recurrent UTIs a clinician may recommend steps to help prevent them",
+     "quote": "If you have recurrent UTIs, a healthcare professional may recommend additional steps to help prevent them.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "kind": "guideline",
+   "cited_as": "Centers for Disease Control and Prevention. Outpatient Clinical Care for Adults (antibiotic prescribing and use). Last reviewed April 16, 2024. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html",
+   "version_or_date": "Last reviewed April 16, 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "First-line: nitrofurantoin, TMP-SMX where local resistance <20%, fosfomycin",
+     "quote": "Nitrofurantoin, trimethoprim/sulfamethoxazole (TMP-SMX, where local resistance is <20%), and fosfomycin ... are appropriate first-line agents.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fluoroquinolones such as ciprofloxacin should be reserved for when other agents are not appropriate",
+     "quote": "Fluoroquinolones (e.g., ciprofloxacin) should be reserved for situations in which other agents are not appropriate.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "kind": "journal",
+   "cited_as": "Kurotschka PK, Gágyor I, Ebell MH. Acute uncomplicated UTIs in adults: rapid evidence review. Am Fam Physician. 2024;109(2):167-174. PMID: 38393801.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38393801/",
+   "pmid": "38393801",
+   "record_title": "Acute Uncomplicated UTIs in Adults: Rapid Evidence Review.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2024",
+   "article_type": "Journal Article (rapid evidence review)",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "No DOI; Scite verify_papers could not match the reference text; PubMed article types show no retraction notice.",
+   "claims": [
+    {
+     "text": "Typical symptoms without vaginal discharge are accurate enough to diagnose without testing",
+     "quote": "a self-diagnosis of a UTI with the presence of typical symptoms (e.g., frequency, urgency, dysuria/burning sensation, nocturia, suprapubic pain), without vaginal discharge, is accurate enough to diagnose an uncomplicated UTI without further testing",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Culture for recurrent infection, treatment failure, resistant isolates or atypical presentation; resistant organism as reason symptoms persist or return",
+     "quote": "Urine culture and susceptibility testing should be reserved for women with recurrent infection, treatment failure, history of resistant isolates, or atypical presentation",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "First-line: nitrofurantoin 5 days, fosfomycin single dose, TMP-SMX 3 days (short course)",
+     "quote": "First-line antibiotics include nitrofurantoin for five days, fosfomycin in a single dose, trimethoprim for three days, or trimethoprim/sulfamethoxazole for three days.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clinicians may consider NSAID pain relief plus delayed antibiotics because complication risk is low (FAQ can it go away)",
+     "quote": "Symptomatic treatment with nonsteroidal anti-inflammatory drugs and delayed antibiotics may be considered because the risk of complications is low.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Drinking more fluids may help prevent repeat infections (FAQ home)",
+     "quote": "Increased fluids, intake of cranberry products, and methenamine hippurate can prevent recurrent infections.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "kind": "journal",
+   "cited_as": "Hooton TM, Scholes D, Hughes JP, et al. A prospective study of risk factors for symptomatic urinary tract infection in young women. N Engl J Med. 1996;335(7):468-474. PMID: 8672152.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8672152/",
+   "pmid": "8672152",
+   "doi": "10.1056/NEJM199608153350703",
+   "record_title": "A prospective study of risk factors for symptomatic urinary tract infection in young women.",
+   "record_journal": "N Engl J Med",
+   "record_year": "1996",
+   "article_type": "Journal Article (prospective cohort study)",
+   "retrieved_with": "PubMed search_articles + get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added as the primary source for sexual intercourse, diaphragm with spermicide and prior recurrent UTI as risk factors (previously cited to Hooton 2012 and Foxman 2002, neither checkable for this).",
+   "claims": [
+    {
+     "text": "Risk rose with recent intercourse, diaphragm with spermicide and history of recurrent UTI (why-women; FAQ keep getting UTIs; FAQ recurrence)",
+     "quote": "the risk is strongly and independently associated with recent sexual intercourse, recent use of a diaphragm with spermicide, and a history of recurrent urinary tract infections",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "kind": "journal",
+   "cited_as": "Herness J, Buttolph A, Hammer NC. Acute pyelonephritis in adults: rapid evidence review. Am Fam Physician. 2020;102(3):173-180. PMID: 32735433.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32735433/",
+   "pmid": "32735433",
+   "record_title": "Acute Pyelonephritis in Adults: Rapid Evidence Review.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2020",
+   "article_type": "Journal Article (rapid evidence review)",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "No DOI; Scite verify_papers could not match the reference text; PubMed article types show no retraction notice.",
+   "claims": [
+    {
+     "text": "Pregnancy changes the urgency of evaluation; UTIs in pregnancy need prompt and different evaluation",
+     "quote": "Pregnant patients with pyelonephritis are at significantly elevated risk of severe complications and should be admitted and treated initially with parenteral therapy.",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "kind": "label",
+   "cited_as": "DailyMed. AZO Urinary Pain Relief Maximum Strength (phenazopyridine hydrochloride tablet), OTC drug label, i-Health, Inc. U.S. National Library of Medicine. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b4874fe2-d98b-4b5c-baad-d75070947842",
+   "version_or_date": "DailyMed OTC label, i-Health, Inc. (read 2026-11-15)",
+   "retrieved_with": "WebFetch of DailyMed label",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "OTC phenazopyridine relieves urinary pain, burning, urgency and frequency; label says see a doctor for diagnosis and prescription to treat the infection",
+     "quote": "Relief from urinary pain, burning, urgency and frequency associated with urinary tract infections. ... you need to call your doctor to get diagnosed and obtain a prescription to treat the infection.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

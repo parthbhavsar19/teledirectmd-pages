@@ -11,7 +11,7 @@
  * + HowTo + BreadcrumbList + SpeakableSpecification — NEVER QAPage).
  *
  * Authority: Infectious Diseases Society of America (IDSA) and American Academy of Pediatrics (AAP)
- * Guideline: IDSA Clinical Practice Guideline for Diagnosis and Management of Group A Streptococcal Pharyngitis (2023 Update)
+ * Guideline: IDSA Clinical Practice Guideline for Diagnosis and Management of Group A Streptococcal Pharyngitis (2012 Update)
  *
  * Hard rules respected:
  *   • No QAPage schema — FAQPage only.
@@ -38,7 +38,7 @@ const PHYSICIAN = {
   specialty: 'Family Medicine',
   licenseState: 'California',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 const CA_PAYORS = [
@@ -46,8 +46,8 @@ const CA_PAYORS = [
     notes: 'Commercial plans. In-network as of April 30, 2026. Verify plan eligibility with Aetna before booking.' },
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true,
     notes: 'Covers UHC Commercial and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types.' },
-  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Enrollment pending. Self pay ($79) available.' },
+  { name: 'Anthem Blue Cross', status: 'Active', effective: 'September 23, 2026', inNetwork: true,
+    notes: 'PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.' },
   { name: 'Cigna', status: 'Pending', effective: 'Pending determination', inNetwork: false,
     notes: 'Pending — Telehealth Only review in progress. Self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false,
@@ -62,7 +62,7 @@ const FAQ_ITEMS = [
     question: 'Can I get sore throat treatment online in California?',
     answer: (
       <p>
-        Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California. Adults 18+ in California can book a same-day video visit for sore throat evaluation. If your symptom pattern supports bacterial pharyngitis (strep throat), an antibiotic prescription may be appropriate. Self pay is $79; Aetna is in-network as of April 30, 2026.
+        Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. Dr. Bhavsar is licensed in California. Adults 18+ in California can book a same-day video visit for sore throat evaluation. If your symptom pattern supports bacterial pharyngitis (strep throat), an antibiotic prescription may be appropriate. Self pay is $79; Aetna is in-network as of April 30, 2026.
       </p>
     ),
   },
@@ -71,7 +71,7 @@ const FAQ_ITEMS = [
     question: 'How can a doctor tell if I have strep throat without a rapid strep test?',
     answer: (
       <p>
-        Physicians use validated clinical scoring tools — most commonly the modified Centor/McIsaac criteria — to estimate the probability of Group A strep pharyngitis. Criteria include: fever (1 point), tonsillar exudate (1 point), tender anterior cervical lymphadenopathy (1 point), absence of cough (1 point), and age 15–44 (0 points) or 45+ (-1 point). A score of 3–4 suggests sufficient probability to treat empirically without testing in adults, per IDSA 2023 guidelines. A physician applies these criteria based on your video visit history.
+        Physicians use validated clinical scoring tools — most commonly the modified Centor/McIsaac criteria — to estimate the probability of Group A strep pharyngitis. Criteria include: fever (1 point), tonsillar exudate (1 point), tender anterior cervical lymphadenopathy (1 point), absence of cough (1 point), and age 15–44 (0 points) or 45+ (-1 point). Per IDSA 2012 guidelines, these features alone cannot confirm strep, so a rapid strep test or throat culture is recommended before antibiotics when strep is suspected; patients with clear viral features usually do not need testing. A physician applies these criteria based on your video visit history.
       </p>
     ),
   },
@@ -80,7 +80,7 @@ const FAQ_ITEMS = [
     question: 'What antibiotics are used for strep throat, and what do they cost in California?',
     answer: (
       <p>
-        First-line antibiotics per IDSA 2023 guideline are penicillin V 500 mg twice daily for 10 days (generic ~$8–$15 with GoodRx) or amoxicillin 500 mg twice daily for 10 days (~$6–$12). For penicillin-allergic patients, azithromycin or cephalexin are alternatives. A 10-day course is important to prevent complications like rheumatic fever. Prescription costs at pharmacy are separate from the TeleDirectMD visit fee ($79).
+        First-line antibiotics per IDSA 2012 guideline are penicillin V 500 mg twice daily for 10 days (generic ~$8–$15 with GoodRx) or amoxicillin 500 mg twice daily for 10 days (~$6–$12). For penicillin-allergic patients, azithromycin or cephalexin are alternatives. A 10-day course is important to prevent complications like rheumatic fever. Prescription costs at pharmacy are separate from the TeleDirectMD visit fee ($79).
       </p>
     ),
   },
@@ -125,7 +125,7 @@ const FAQ_ITEMS = [
     question: 'Will Medi-Cal cover my TeleDirectMD visit for a sore throat?',
     answer: (
       <p>
-        TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, you can use the $79 self-pay rate or find a Medi-Cal-enrolled telehealth provider through your managed care plan or California DHCS at dhcs.ca.gov.
+        TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, find a Medi-Cal-enrolled telehealth provider through your managed care plan or California DHCS at dhcs.ca.gov.
       </p>
     ),
   },
@@ -134,7 +134,7 @@ const FAQ_ITEMS = [
     question: 'What are the complications of untreated strep throat?',
     answer: (
       <p>
-        Untreated or inadequately treated Group A strep pharyngitis can lead to acute rheumatic fever — a potentially serious complication causing heart valve damage — as well as post-streptococcal glomerulonephritis. These complications are the primary reason a full 10-day antibiotic course is recommended even when symptoms improve early, per IDSA 2023 guidelines. Peritonsillar abscess is a more immediate local complication that requires urgent in-person drainage.
+        Untreated or inadequately treated Group A strep pharyngitis can lead to acute rheumatic fever — a potentially serious complication causing heart valve damage — as well as post-streptococcal glomerulonephritis. These complications are the primary reason a full 10-day antibiotic course is recommended even when symptoms improve early, per IDSA 2012 guidelines. Peritonsillar abscess is a more immediate local complication that requires urgent in-person drainage.
       </p>
     ),
   },
@@ -161,13 +161,13 @@ const FAQ_ITEMS = [
     question: 'Is most pharyngitis viral or bacterial in California adults?',
     answer: (
       <p>
-        The majority of acute pharyngitis in adults — approximately 85–95% of cases — is caused by viruses (rhinovirus, adenovirus, EBV) and does not require or benefit from antibiotics, per IDSA 2023 guideline data. Group A Streptococcus accounts for 5–15% of adult sore throats. Distinguishing viral from bacterial pharyngitis is a key clinical skill that avoids unnecessary antibiotic prescribing while ensuring appropriate treatment for true strep infections.
+        The majority of acute pharyngitis in adults — approximately 85–95% of cases — is caused by viruses (rhinovirus, adenovirus, EBV) and does not require or benefit from antibiotics, per IDSA 2012 guideline data. Group A Streptococcus accounts for 5–15% of adult sore throats. Distinguishing viral from bacterial pharyngitis is a key clinical skill that avoids unnecessary antibiotic prescribing while ensuring appropriate treatment for true strep infections.
       </p>
     ),
   },
 ];
 
-const SCHEMAS = [{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Sore Throat Treatment Online in California | TeleDirectMD", "url": "https://teledirectmd.com/ca/sore-throat-treatment-online/", "description": "Sore throat treatment online for California adults. Strep throat evaluation. Board-certified Family Medicine MD. Antibiotic prescriptions when appropriate. Self pay $79. Aetna in-network. Same-day visits.", "datePublished": "2026-05-20", "dateModified": "2026-05-20", "inLanguage": "en-US", "about": {"@type": "MedicalCondition", "name": "Sore Throat (Pharyngitis)", "code": {"@type": "MedicalCode", "code": "J02.9", "codingSystem": "ICD-10-CM"}}, "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient", "geographicArea": {"@type": "AdministrativeArea", "name": "California"}}, "reviewedBy": {"@type": "Physician", "@id": "https://teledirectmd.com/about/#physician-parth-bhavsar", "name": "Parth Bhavsar, MD", "identifier": {"@type": "PropertyValue", "propertyID": "NPI", "value": "1104323203"}, "medicalSpecialty": "Family Medicine", "hasCredential": [{"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "Doctor of Medicine (MD)"}, {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Board Certification \u2014 American Board of Family Medicine"}], "licensedIn": "California", "worksFor": {"@type": "MedicalOrganization", "name": "TeleDirectMD", "url": "https://teledirectmd.com"}, "sameAs": ["https://npiregistry.cms.hhs.gov/provider-view/1104323203", "https://teledirectmd.com/about/"]}, "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["#ca-sore-throat-treatment-online-opening", "#ca-sore-throat-treatment-online-opening p", ".tdmd-ca-sore-throat-treatment-online__byline", "#ca-sore-throat-treatment-online-faq"]}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I get sore throat treatment online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California. Adults 18+ in California can book a same-day video visit for sore throat evaluation. If your symptom pattern supports bacterial pharyngitis (strep throat), an antibiotic prescription may be appropriate. Self pay is $79; Aetna is in-network as of April 30, 2026."}}, {"@type": "Question", "name": "How can a doctor tell if I have strep throat without a rapid strep test?", "acceptedAnswer": {"@type": "Answer", "text": "Physicians use validated clinical scoring tools \u2014 most commonly the modified Centor/McIsaac criteria \u2014 to estimate the probability of Group A strep pharyngitis. Criteria include: fever (1 point), tonsillar exudate (1 point), tender anterior cervical lymphadenopathy (1 point), absence of cough (1 point), and age 15\u201344 (0 points) or 45+ (-1 point). A score of 3\u20134 suggests sufficient probability to treat empirically without testing in adults, per IDSA 2023 guidelines. A physician applies these criteria based on your video visit history."}}, {"@type": "Question", "name": "What antibiotics are used for strep throat, and what do they cost in California?", "acceptedAnswer": {"@type": "Answer", "text": "First-line antibiotics per IDSA 2023 guideline are penicillin V 500 mg twice daily for 10 days (generic ~$8\u2013$15 with GoodRx) or amoxicillin 500 mg twice daily for 10 days (~$6\u2013$12). For penicillin-allergic patients, azithromycin or cephalexin are alternatives. A 10-day course is important to prevent complications like rheumatic fever. Prescription costs at pharmacy are separate from the TeleDirectMD visit fee ($79)."}}, {"@type": "Question", "name": "Does California require an in-person visit before telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. A California-licensed physician can evaluate your throat symptoms through a synchronous video visit. TeleDirectMD documents telehealth consent at the start of every visit."}}, {"@type": "Question", "name": "Is my Aetna plan in California in-network with TeleDirectMD?", "acceptedAnswer": {"@type": "Answer", "text": "Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. If you hold an Aetna commercial plan in California, you may be able to use your in-network benefits. Verify current in-network status directly with Aetna before your visit."}}, {"@type": "Question", "name": "Is UnitedHealthcare in-network with TeleDirectMD in California?", "acceptedAnswer": {"@type": "Answer", "text": "UnitedHealthcare Commercial was approved for California effective May 29, 2026, covering commercial plans and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types. Verify your specific plan eligibility with UHC before booking."}}, {"@type": "Question", "name": "When is a sore throat dangerous and when should I go to the ER in California?", "acceptedAnswer": {"@type": "Answer", "text": "Seek emergency care immediately if you have difficulty swallowing or breathing, drooling, stridor, muffled or 'hot potato' voice, severe neck swelling, or if you are unable to open your mouth. These symptoms may indicate peritonsillar abscess, epiglottitis, or deep neck space infection \u2014 all medical emergencies. TeleDirectMD is not appropriate for these presentations."}}, {"@type": "Question", "name": "Will Medi-Cal cover my TeleDirectMD visit for a sore throat?", "acceptedAnswer": {"@type": "Answer", "text": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, you can use the $79 self-pay rate or find a Medi-Cal-enrolled telehealth provider through your managed care plan or California DHCS at dhcs.ca.gov."}}, {"@type": "Question", "name": "What are the complications of untreated strep throat?", "acceptedAnswer": {"@type": "Answer", "text": "Untreated or inadequately treated Group A strep pharyngitis can lead to acute rheumatic fever \u2014 a potentially serious complication causing heart valve damage \u2014 as well as post-streptococcal glomerulonephritis. These complications are the primary reason a full 10-day antibiotic course is recommended even when symptoms improve early, per IDSA 2023 guidelines. Peritonsillar abscess is a more immediate local complication that requires urgent in-person drainage."}}, {"@type": "Question", "name": "Does California's AB 744 telehealth parity law apply to sore throat visits?", "acceptedAnswer": {"@type": "Answer", "text": "California AB 744 (2019) requires commercial health plans to reimburse telehealth services on the same basis as in-person services. Parity applies when the provider is already in-network with your specific plan. Currently, Aetna (active April 30, 2026) and UnitedHealthcare Commercial (active May 29, 2026) are in-network in California for TeleDirectMD."}}, {"@type": "Question", "name": "How quickly will my antibiotic prescription reach a California pharmacy?", "acceptedAnswer": {"@type": "Answer", "text": "California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022). If an antibiotic is appropriate, TeleDirectMD sends an e-prescription electronically to your chosen California pharmacy during or after your visit. Most California pharmacies fill within one to four hours."}}, {"@type": "Question", "name": "Is most pharyngitis viral or bacterial in California adults?", "acceptedAnswer": {"@type": "Answer", "text": "The majority of acute pharyngitis in adults \u2014 approximately 85\u201395% of cases \u2014 is caused by viruses (rhinovirus, adenovirus, EBV) and does not require or benefit from antibiotics, per IDSA 2023 guideline data. Group A Streptococcus accounts for 5\u201315% of adult sore throats. Distinguishing viral from bacterial pharyngitis is a key clinical skill that avoids unnecessary antibiotic prescribing while ensuring appropriate treatment for true strep infections."}}]}, {"@context": "https://schema.org", "@type": "HowTo", "name": "How to Get Sore Throat Treatment Online in California", "description": "Three steps to receive sore throat treatment evaluation and, if appropriate, a prescription from a California-licensed board-certified physician.", "totalTime": "PT30M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "79"}, "step": [{"@type": "HowToStep", "position": 1, "name": "Book your video visit", "text": "Visit teledirectmd.com and select California Sore Throat (Pharyngitis) treatment. No referral needed. Self pay $79. Many visits available same day.", "url": "https://teledirectmd.com/book-online"}, {"@type": "HowToStep", "position": 2, "name": "See a California-licensed MD by secure video", "text": "Connect with a board-certified Family Medicine physician licensed in California. The physician reviews your symptoms, history, and red-flag screening. Consent per CA B&P Section 2290.5 confirmed.", "url": "https://teledirectmd.com/ca/sore-throat-treatment-online/"}, {"@type": "HowToStep", "position": 3, "name": "Receive your treatment plan and e-prescription", "text": "If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy during or after the visit.", "url": "https://teledirectmd.com/ca/sore-throat-treatment-online/"}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TeleDirectMD", "item": "https://teledirectmd.com"}, {"@type": "ListItem", "position": 2, "name": "California", "item": "https://teledirectmd.com/ca/"}, {"@type": "ListItem", "position": 3, "name": "Sore Throat Treatment Online in California", "item": "https://teledirectmd.com/ca/sore-throat-treatment-online/"}]}];
+const SCHEMAS = [{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Sore Throat Treatment Online in California | TeleDirectMD", "url": "https://teledirectmd.com/ca/sore-throat-treatment-online/", "description": "Sore throat treatment online for California adults. Strep throat evaluation. Board-certified Family Medicine MD. Antibiotic prescriptions when appropriate. Self pay $79. Aetna in-network. Same-day visits.", "datePublished": "2026-05-20", "dateModified": "2026-05-20", "inLanguage": "en-US", "about": {"@type": "MedicalCondition", "name": "Sore Throat (Pharyngitis)", "code": {"@type": "MedicalCode", "code": "J02.9", "codingSystem": "ICD-10-CM"}}, "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient", "geographicArea": {"@type": "AdministrativeArea", "name": "California"}}, "reviewedBy": {"@type": "Physician", "@id": "https://teledirectmd.com/about/#physician", "name": "Parth Bhavsar, MD", "identifier": {"@type": "PropertyValue", "propertyID": "NPI", "value": "1104323203"}, "medicalSpecialty": "Family Medicine", "hasCredential": [{"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "Doctor of Medicine (MD)"}, {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Board Certification \u2014 American Board of Family Medicine"}], "licensedIn": "California", "worksFor": {"@type": "MedicalOrganization", "name": "TeleDirectMD", "url": "https://teledirectmd.com"}, "sameAs": ["https://npiregistry.cms.hhs.gov/provider-view/1104323203", "https://teledirectmd.com/about/"]}, "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["#ca-sore-throat-treatment-online-opening", "#ca-sore-throat-treatment-online-opening p", ".tdmd-ca-sore-throat-treatment-online__byline", "#ca-sore-throat-treatment-online-faq"]}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I get sore throat treatment online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. Dr. Bhavsar is licensed in California. Adults 18+ in California can book a same-day video visit for sore throat evaluation. If your symptom pattern supports bacterial pharyngitis (strep throat), an antibiotic prescription may be appropriate. Self pay is $79; Aetna is in-network as of April 30, 2026."}}, {"@type": "Question", "name": "How can a doctor tell if I have strep throat without a rapid strep test?", "acceptedAnswer": {"@type": "Answer", "text": "Physicians use validated clinical scoring tools \u2014 most commonly the modified Centor/McIsaac criteria \u2014 to estimate the probability of Group A strep pharyngitis. Criteria include: fever (1 point), tonsillar exudate (1 point), tender anterior cervical lymphadenopathy (1 point), absence of cough (1 point), and age 15\u201344 (0 points) or 45+ (-1 point). Per IDSA 2012 guidelines, these features alone cannot confirm strep, so a rapid strep test or throat culture is recommended before antibiotics when strep is suspected; patients with clear viral features usually do not need testing. A physician applies these criteria based on your video visit history."}}, {"@type": "Question", "name": "What antibiotics are used for strep throat, and what do they cost in California?", "acceptedAnswer": {"@type": "Answer", "text": "First-line antibiotics per IDSA 2012 guideline are penicillin V 500 mg twice daily for 10 days (generic ~$8\u2013$15 with GoodRx) or amoxicillin 500 mg twice daily for 10 days (~$6\u2013$12). For penicillin-allergic patients, azithromycin or cephalexin are alternatives. A 10-day course is important to prevent complications like rheumatic fever. Prescription costs at pharmacy are separate from the TeleDirectMD visit fee ($79)."}}, {"@type": "Question", "name": "Does California require an in-person visit before telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. A California-licensed physician can evaluate your throat symptoms through a synchronous video visit. TeleDirectMD documents telehealth consent at the start of every visit."}}, {"@type": "Question", "name": "Is my Aetna plan in California in-network with TeleDirectMD?", "acceptedAnswer": {"@type": "Answer", "text": "Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. If you hold an Aetna commercial plan in California, you may be able to use your in-network benefits. Verify current in-network status directly with Aetna before your visit."}}, {"@type": "Question", "name": "Is UnitedHealthcare in-network with TeleDirectMD in California?", "acceptedAnswer": {"@type": "Answer", "text": "UnitedHealthcare Commercial was approved for California effective May 29, 2026, covering commercial plans and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types. Verify your specific plan eligibility with UHC before booking."}}, {"@type": "Question", "name": "When is a sore throat dangerous and when should I go to the ER in California?", "acceptedAnswer": {"@type": "Answer", "text": "Seek emergency care immediately if you have difficulty swallowing or breathing, drooling, stridor, muffled or 'hot potato' voice, severe neck swelling, or if you are unable to open your mouth. These symptoms may indicate peritonsillar abscess, epiglottitis, or deep neck space infection \u2014 all medical emergencies. TeleDirectMD is not appropriate for these presentations."}}, {"@type": "Question", "name": "Will Medi-Cal cover my TeleDirectMD visit for a sore throat?", "acceptedAnswer": {"@type": "Answer", "text": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, find a Medi-Cal-enrolled telehealth provider through your managed care plan or California DHCS at dhcs.ca.gov."}}, {"@type": "Question", "name": "What are the complications of untreated strep throat?", "acceptedAnswer": {"@type": "Answer", "text": "Untreated or inadequately treated Group A strep pharyngitis can lead to acute rheumatic fever \u2014 a potentially serious complication causing heart valve damage \u2014 as well as post-streptococcal glomerulonephritis. These complications are the primary reason a full 10-day antibiotic course is recommended even when symptoms improve early, per IDSA 2012 guidelines. Peritonsillar abscess is a more immediate local complication that requires urgent in-person drainage."}}, {"@type": "Question", "name": "Does California's AB 744 telehealth parity law apply to sore throat visits?", "acceptedAnswer": {"@type": "Answer", "text": "California AB 744 (2019) requires commercial health plans to reimburse telehealth services on the same basis as in-person services. Parity applies when the provider is already in-network with your specific plan. Currently, Aetna (active April 30, 2026) and UnitedHealthcare Commercial (active May 29, 2026) are in-network in California for TeleDirectMD."}}, {"@type": "Question", "name": "How quickly will my antibiotic prescription reach a California pharmacy?", "acceptedAnswer": {"@type": "Answer", "text": "California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022). If an antibiotic is appropriate, TeleDirectMD sends an e-prescription electronically to your chosen California pharmacy during or after your visit. Most California pharmacies fill within one to four hours."}}, {"@type": "Question", "name": "Is most pharyngitis viral or bacterial in California adults?", "acceptedAnswer": {"@type": "Answer", "text": "The majority of acute pharyngitis in adults \u2014 approximately 85\u201395% of cases \u2014 is caused by viruses (rhinovirus, adenovirus, EBV) and does not require or benefit from antibiotics, per IDSA 2012 guideline data. Group A Streptococcus accounts for 5\u201315% of adult sore throats. Distinguishing viral from bacterial pharyngitis is a key clinical skill that avoids unnecessary antibiotic prescribing while ensuring appropriate treatment for true strep infections."}}]}, {"@context": "https://schema.org", "@type": "HowTo", "name": "How to Get Sore Throat Treatment Online in California", "description": "Three steps to receive sore throat treatment evaluation and, if appropriate, a prescription from a California-licensed board-certified physician.", "totalTime": "PT30M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "79"}, "step": [{"@type": "HowToStep", "position": 1, "name": "Book your video visit", "text": "Visit teledirectmd.com and select California Sore Throat (Pharyngitis) treatment. No referral needed. Self pay $79. Many visits available same day.", "url": "https://teledirectmd.com/book-online"}, {"@type": "HowToStep", "position": 2, "name": "See a California-licensed MD by secure video", "text": "Connect with a board-certified Family Medicine physician licensed in California. The physician reviews your symptoms, history, and red-flag screening. Consent per CA B&P Section 2290.5 confirmed.", "url": "https://teledirectmd.com/ca/sore-throat-treatment-online/"}, {"@type": "HowToStep", "position": 3, "name": "Receive your treatment plan and e-prescription", "text": "If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy during or after the visit.", "url": "https://teledirectmd.com/ca/sore-throat-treatment-online/"}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TeleDirectMD", "item": "https://teledirectmd.com"}, {"@type": "ListItem", "position": 2, "name": "California", "item": "https://teledirectmd.com/ca/"}, {"@type": "ListItem", "position": 3, "name": "Sore Throat Treatment Online in California", "item": "https://teledirectmd.com/ca/sore-throat-treatment-online/"}]}];
 
 const PAGE_CSS = `
 .tdmd-ca-cond{color:var(--tdmd-text);}
@@ -251,7 +251,7 @@ export default function CaSoreThroatTreatmentOnline() {
                 {/* v3: Inline opener paragraph — replaces CitableSummaryBlock */}
                 <div className="tdmd-condition-opener" id={`${pid}-opening`}>
                   <p>
-                    <strong>Can I get sore throat treatment online in California?</strong> Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California and are held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. Self pay is $79. <a href="/insurance/">Aetna is in-network</a> as of April 30, 2026; UnitedHealthcare Commercial approved May 29, 2026.
+                    <strong>Can I get sore throat treatment online in California?</strong> Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. Dr. Bhavsar is licensed in California and is held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. Self pay is $79. <a href="/insurance/">Aetna is in-network</a> as of April 30, 2026; UnitedHealthcare Commercial approved May 29, 2026.
                   </p>
                 </div>
 
@@ -290,9 +290,9 @@ export default function CaSoreThroatTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> J02.9 (Acute pharyngitis, unspecified; actual code assigned at visit)</p>
@@ -405,7 +405,7 @@ export default function CaSoreThroatTreatmentOnline() {
                   <h3>Receive your treatment plan and e-prescription</h3>
                   <p>If medication is clinically appropriate, a California-compliant e-prescription is sent to your chosen California pharmacy during or after the visit. You receive clear follow-up instructions regardless of treatment choice, including when to seek in-person care.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -418,10 +418,10 @@ export default function CaSoreThroatTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Sore Throat (Pharyngitis) in California?</h2>
             <p>
-              Group A Streptococcus (GAS) is the most important bacterial cause of pharyngitis, accounting for 5–15% of adult sore throat cases and 20–30% of pediatric cases, per IDSA 2023 guideline data. The California Department of Public Health monitors Group A strep activity and reports periodic increases in invasive GAS infections; community pharyngitis rates follow seasonal patterns with peaks in late winter and spring across California's 58 counties. — <a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/InfectiousDiseases/GroupAStreptococcalInfection.aspx" rel="noopener" target="_blank">CDPH — Group A Streptococcal Infection</a>.
+              Group A Streptococcus (GAS) is the most important bacterial cause of pharyngitis, accounting for 5–15% of adult sore throat cases and 20–30% of pediatric cases, per IDSA 2012 guideline data. The California Department of Public Health monitors Group A strep activity and reports periodic increases in invasive GAS infections; community pharyngitis rates follow seasonal patterns with peaks in late winter and spring across California's 58 counties. — <a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Group-A-Streptococcus.aspx" rel="noopener" target="_blank">CDPH — Group A Streptococcus</a>.
             </p>
             <p>
-              Clinical guidance for sore throat treatment is provided by <a href="https://www.idsociety.org/practice-guideline/pharyngitis-strep/" rel="noopener" target="_blank">Infectious Diseases Society of America (IDSA) and American Academy of Pediatrics (AAP)</a> through the IDSA Clinical Practice Guideline for Diagnosis and Management of Group A Streptococcal Pharyngitis (2023 Update). TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for sore throat treatment is provided by <a href="https://www.idsociety.org/practice-guideline/streptococcal-pharyngitis/" rel="noopener" target="_blank">Infectious Diseases Society of America (IDSA) and American Academy of Pediatrics (AAP)</a> through the IDSA Clinical Practice Guideline for Diagnosis and Management of Group A Streptococcal Pharyngitis (2012 Update). TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes sore throat (pharyngitis) and who is most at risk in California?</h3>
             <p>
@@ -450,25 +450,6 @@ export default function CaSoreThroatTreatmentOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical Sore Throat (Pharyngitis) cost comparison">
-                <h3>Typical Sore Throat (Pharyngitis) Visit Cost in California</h3>
-                <p className="tdmd-price-caption">Common ranges Californians see before insurance. Actual costs vary by setting and city.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 13, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical California metro pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <h3 style={{ marginTop: '1.75rem' }}>California Payor Status — TeleDirectMD</h3>
@@ -506,7 +487,7 @@ export default function CaSoreThroatTreatmentOnline() {
               </table>
             </div>
             <p style={{ marginTop: '1rem' }}>
-              View all <a href="/insurance">insurance options</a> or <a href="/book-online">book a $79 self-pay visit</a>.
+              View all <a href="/insurance/">insurance options</a> or <a href="/book-online/">book a $79 self-pay visit</a>.
             </p>
           </div>
         </section>
@@ -516,7 +497,7 @@ export default function CaSoreThroatTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Sore Throat Treatment Medication Options and Costs in California</h2>
             <p>
-              Medications for sore throat treatment are selected based on current guidelines from <a href="https://www.idsociety.org/practice-guideline/pharyngitis-strep/" rel="noopener" target="_blank">Infectious Diseases Society of America (IDSA) and American Academy of Pediatrics (AAP)</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for sore throat treatment are selected based on current guidelines from <a href="https://www.idsociety.org/practice-guideline/streptococcal-pharyngitis/" rel="noopener" target="_blank">Infectious Diseases Society of America (IDSA) and American Academy of Pediatrics (AAP)</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Sore Throat Treatment medication options and GoodRx prices">
@@ -536,13 +517,13 @@ export default function CaSoreThroatTreatmentOnline() {
                     <td><strong>Penicillin V 500 mg</strong> · First-line</td>
                     <td>500 mg twice daily × 10 days (preferred per IDSA)</td>
                     <td><a href="https://www.goodrx.com/penicillin-v-potassium" target="_blank" rel="noopener">~$8–$15 generic with GoodRx</a></td>
-                    <td>First-line per IDSA 2023 guideline for Group A strep. Narrow-spectrum; preferred for antibiotic stewardship. Avoid if penicillin allergy.</td>
+                    <td>First-line per IDSA 2012 guideline for Group A strep. Narrow-spectrum; preferred for antibiotic stewardship. Avoid if penicillin allergy.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Amoxicillin 500 mg</strong> · First-line</td>
                     <td>500 mg twice daily × 10 days</td>
                     <td><a href="https://www.goodrx.com/amoxicillin" target="_blank" rel="noopener">~$6–$12 generic with GoodRx</a></td>
-                    <td>Equivalent first-line per IDSA 2023. Better palatability than penicillin V for some patients.</td>
+                    <td>Equivalent first-line per IDSA 2012. Better palatability than penicillin V for some patients.</td>
                   </tr>
                   <tr>
                     <td><strong>Azithromycin (Z-Pack) 250 mg</strong></td>
@@ -612,7 +593,7 @@ export default function CaSoreThroatTreatmentOnline() {
                 <p>Book a same-day video visit — California adults, 18+</p>
                 <small>Self pay $79 &middot; Aetna in-network &middot; UHC Commercial approved May 2026 &middot; No ER wait</small>
               </div>
-              <a className="tdmd-ca-cond__cta-btn" href="/book-online" rel="noopener">Book Now &rarr;</a>
+              <a className="tdmd-ca-cond__cta-btn" href="/book-online/" rel="noopener">Book Now &rarr;</a>
             </div>
           </div>
         </section>
@@ -630,8 +611,8 @@ export default function CaSoreThroatTreatmentOnline() {
                 <p>Book a same-day video visit. Self pay $79 &middot; Aetna in-network &middot; UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -678,10 +659,10 @@ export default function CaSoreThroatTreatmentOnline() {
               <a href="/sore-throat-treatment-online/">National Sore Throat (Pharyngitis) page</a>
               <a href="/health-guides/">Sore Throat (Pharyngitis) health guides</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/insurance">Insurance</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/insurance/">Insurance</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>
@@ -695,10 +676,10 @@ export default function CaSoreThroatTreatmentOnline() {
               <li><a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth Resources. Retrieved May 2026.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744). Retrieved May 2026.</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/InfectiousDiseases/GroupAStreptococcalInfection.aspx" rel="noopener" target="_blank">CDPH — Group A Streptococcal Infection. Retrieved May 2026.</a></li>
-              <li><a href="https://www.idsociety.org/practice-guideline/pharyngitis-strep/" rel="noopener" target="_blank">IDSA — Clinical Practice Guideline for Group A Streptococcal Pharyngitis (2023). Retrieved May 2026.</a></li>
-              <li><a href="https://www.cdc.gov/groupastrep/pharyngitis-clinicians.html" rel="noopener" target="_blank">CDC — Strep Throat: Information for Clinicians. Retrieved May 2026.</a></li>
-              <li><a href="https://www.aafp.org/pubs/afp/issues/2021/0901/p329.html" rel="noopener" target="_blank">AAFP — Pharyngitis: Rapid Antigen Detection Testing and Management. Retrieved May 2026.</a></li>
+              <li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Group-A-Streptococcus.aspx" rel="noopener" target="_blank">CDPH — Group A Streptococcus. Retrieved May 2026.</a></li>
+              <li><a href="https://www.idsociety.org/practice-guideline/streptococcal-pharyngitis/" rel="noopener" target="_blank">IDSA — Clinical Practice Guideline for Group A Streptococcal Pharyngitis (2012). Retrieved May 2026.</a></li>
+              <li><a href="https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html" rel="noopener" target="_blank">CDC — Clinical Guidance for Group A Streptococcal Pharyngitis. Retrieved May 2026.</a></li>
+              <li><a href="https://pubmed.ncbi.nlm.nih.gov/38648833/" rel="noopener" target="_blank">Hamilton JL, McCrea L. Streptococcal Pharyngitis: Rapid Evidence Review. Am Fam Physician. 2024;109(4):343-349. Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>
             </ol>
           </div>

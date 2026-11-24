@@ -15,7 +15,7 @@ const LAST_REVIEWED = '2026-05-22';
 
 const PHYSICIAN = {
   name: 'Parth Bhavsar, MD', npi: '1104323203', specialty: 'Family Medicine',
-  licenseState: 'California', headshot: '/images/dr-parth-bhavsar.jpg', bioUrl: '/about',
+  licenseState: 'California', headshot: '/images/dr-parth-bhavsar.jpg', bioUrl: '/about/',
 };
 
 const CA_PAYORS = [
@@ -35,10 +35,10 @@ const CA_PAYORS = [
   },
   {
     "name": "Anthem Blue Cross",
-    "status": "Pending",
-    "effective": "Pending determination",
-    "inNetwork": false,
-    "notes": "Enrollment pending \u2014 waiting for Anthem to confirm individual-provider enrollment for telehealth. Self pay ($79) available."
+    "status": "Active",
+    "effective": "September 23, 2026",
+    "inNetwork": true,
+    "notes": "PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included."
   },
   {
     "name": "Cigna",
@@ -64,12 +64,12 @@ const CA_PAYORS = [
 ];
 
 const FAQ_ITEMS = [
-  { id: 'ca-acne-treatment-online-faq-0', question: "Can I get acne treatment online in California?", answer: (<p>Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat acne via secure video visit. TeleDirectMD physicians follow AAD 2024 acne guidelines. Adults 18+ in California can book same-day. Self pay is $79. Aetna is in-network as of April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026.</p>) },
+  { id: 'ca-acne-treatment-online-faq-0', question: "Can I get acne treatment online in California?", answer: (<p>Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat acne via secure video visit. Dr. Bhavsar follows AAD 2024 acne guidelines. Adults 18+ in California can book same-day. Self pay is $79. Aetna is in-network as of April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026.</p>) },
   { id: 'ca-acne-treatment-online-faq-1', question: "What acne medications can a California telehealth doctor prescribe?", answer: (<p>A California-licensed telehealth physician can prescribe: topical tretinoin 0.025%–0.05%, topical clindamycin combined with benzoyl peroxide, oral doxycycline 50–100 mg, and oral minocycline for moderate-severe inflammatory acne. Spironolactone for hormonal acne in women may be evaluated by video. Isotretinoin (Accutane) requires an in-person iPLEDGE-enrolled prescriber — TeleDirectMD will refer when appropriate.</p>) },
   { id: 'ca-acne-treatment-online-faq-2', question: "Does California require an in-person dermatology visit before acne telehealth?", answer: (<p>No. California Business and Professions Code Section 2290.5 does not require a prior in-person visit. The Medical Board of California holds telehealth physicians to the same standard of care as in-person providers. Most mild-to-moderate acne is appropriately evaluated and treated by video.</p>) },
   { id: 'ca-acne-treatment-online-faq-3', question: "How common is acne in California?", answer: (<p>Acne affects up to 50 million Americans annually per AAD data. With California's population of approximately 39 million, an estimated 5–7 million Californians experience acne at any given time. Adult-onset acne is increasing, particularly in women ages 25–40. California's diverse population — with varying skin types affecting post-inflammatory hyperpigmentation risk — makes clinically competent acne management important.</p>) },
   { id: 'ca-acne-treatment-online-faq-4', question: "Is my Aetna plan in California in-network with TeleDirectMD for acne treatment?", answer: (<p>Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. Always verify current in-network status with Aetna before booking. UnitedHealthcare Commercial is approved effective May 29, 2026. Self pay is $79 regardless of insurance status.</p>) },
-  { id: 'ca-acne-treatment-online-faq-5', question: "What is the cost of acne treatment in California?", answer: (<p>TeleDirectMD charges $79 self-pay for a complete MD video visit. Prescriptions are sent to your California pharmacy: tretinoin ~$18–$40, clindamycin-BP combination ~$25–$60, doxycycline ~$12–$25 with GoodRx. Urgent care acne visits typically cost $150–$300 before insurance; dermatology visits cost $150–$350+ with 4–8 week waits typical in California metro areas.</p>) },
+  { id: 'ca-acne-treatment-online-faq-5', question: "What is the cost of acne treatment in California?", answer: (<p>TeleDirectMD charges $79 self-pay for a complete MD video visit. Prescriptions are sent to your California pharmacy: tretinoin ~$18–$40, clindamycin-BP combination ~$25–$60, doxycycline ~$12–$25 with GoodRx.</p>) },
   { id: 'ca-acne-treatment-online-faq-6', question: "When does acne require in-person dermatology care?", answer: (<p>Seek in-person dermatology for nodular or cystic acne potentially requiring isotretinoin (iPLEDGE-enrolled prescriber required), acne fulminans, suspected acne inversa (hidradenitis suppurativa), or when 2+ topical regimens have failed. TeleDirectMD will refer to California dermatology resources when appropriate.</p>) },
   { id: 'ca-acne-treatment-online-faq-7', question: "Why should topical antibiotics always be combined with benzoyl peroxide?", answer: (<p>AAD 2024 guidelines explicitly recommend combining topical antibiotics (clindamycin, erythromycin) with benzoyl peroxide rather than using topical antibiotics alone. Benzoyl peroxide kills C. acnes bacteria and prevents antibiotic-resistant strains from emerging — a growing problem in acne management. TeleDirectMD prescribes combination products per this guideline.</p>) },
   { id: 'ca-acne-treatment-online-faq-8', question: "Does California's AB 744 telehealth parity law cover acne treatment?", answer: (<p>California Assembly Bill 744 (2019), codified in California Insurance Code §10123.85, requires commercial health plans to reimburse telehealth on the same basis as in-person services. Parity applies when the provider is in-network with your plan. Aetna (April 30, 2026) and UHC Commercial (May 29, 2026) are in-network in California for TeleDirectMD acne visits.</p>) },
@@ -93,7 +93,7 @@ function buildSchemas() {
       geographicArea: { '@type': 'AdministrativeArea', name: 'California' },
     },
     reviewedBy: {
-      '@type': 'Physician', '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@type': 'Physician', '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty, licensedIn: PHYSICIAN.licenseState,
@@ -108,12 +108,12 @@ function buildSchemas() {
   const faqPage = {
     '@context': 'https://schema.org', '@type': 'FAQPage',
     mainEntity: [
-    { '@type': 'Question', name: "Can I get acne treatment online in California?", acceptedAnswer: { '@type': 'Answer', text: "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat acne via secure video visit. TeleDirectMD physicians follow AAD 2024 acne guidelines. Adults 18+ in California can book same-day. Self pay is $79. Aetna is in-network as of April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026." } },
+    { '@type': 'Question', name: "Can I get acne treatment online in California?", acceptedAnswer: { '@type': 'Answer', text: "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat acne via secure video visit. Dr. Bhavsar follows AAD 2024 acne guidelines. Adults 18+ in California can book same-day. Self pay is $79. Aetna is in-network as of April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026." } },
     { '@type': 'Question', name: "What acne medications can a California telehealth doctor prescribe?", acceptedAnswer: { '@type': 'Answer', text: "A California-licensed telehealth physician can prescribe: topical tretinoin 0.025%\u20130.05%, topical clindamycin combined with benzoyl peroxide, oral doxycycline 50\u2013100 mg, and oral minocycline for moderate-severe inflammatory acne. Spironolactone for hormonal acne in women may be evaluated by video. Isotretinoin (Accutane) requires an in-person iPLEDGE-enrolled prescriber \u2014 TeleDirectMD will refer when appropriate." } },
     { '@type': 'Question', name: "Does California require an in-person dermatology visit before acne telehealth?", acceptedAnswer: { '@type': 'Answer', text: "No. California Business and Professions Code Section 2290.5 does not require a prior in-person visit. The Medical Board of California holds telehealth physicians to the same standard of care as in-person providers. Most mild-to-moderate acne is appropriately evaluated and treated by video." } },
     { '@type': 'Question', name: "How common is acne in California?", acceptedAnswer: { '@type': 'Answer', text: "Acne affects up to 50 million Americans annually per AAD data. With California's population of approximately 39 million, an estimated 5\u20137 million Californians experience acne at any given time. Adult-onset acne is increasing, particularly in women ages 25\u201340. California's diverse population \u2014 with varying skin types affecting post-inflammatory hyperpigmentation risk \u2014 makes clinically competent acne management important." } },
     { '@type': 'Question', name: "Is my Aetna plan in California in-network with TeleDirectMD for acne treatment?", acceptedAnswer: { '@type': 'Answer', text: "Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. Always verify current in-network status with Aetna before booking. UnitedHealthcare Commercial is approved effective May 29, 2026. Self pay is $79 regardless of insurance status." } },
-    { '@type': 'Question', name: "What is the cost of acne treatment in California?", acceptedAnswer: { '@type': 'Answer', text: "TeleDirectMD charges $79 self-pay for a complete MD video visit. Prescriptions are sent to your California pharmacy: tretinoin ~$18\u2013$40, clindamycin-BP combination ~$25\u2013$60, doxycycline ~$12\u2013$25 with GoodRx. Urgent care acne visits typically cost $150\u2013$300 before insurance; dermatology visits cost $150\u2013$350+ with 4\u20138 week waits typical in California metro areas." } },
+    { '@type': 'Question', name: "What is the cost of acne treatment in California?", acceptedAnswer: { '@type': 'Answer', text: "TeleDirectMD charges $79 self-pay for a complete MD video visit. Prescriptions are sent to your California pharmacy: tretinoin ~$18\u2013$40, clindamycin-BP combination ~$25\u2013$60, doxycycline ~$12\u2013$25 with GoodRx." } },
     { '@type': 'Question', name: "When does acne require in-person dermatology care?", acceptedAnswer: { '@type': 'Answer', text: "Seek in-person dermatology for nodular or cystic acne potentially requiring isotretinoin (iPLEDGE-enrolled prescriber required), acne fulminans, suspected acne inversa (hidradenitis suppurativa), or when 2+ topical regimens have failed. TeleDirectMD will refer to California dermatology resources when appropriate." } },
     { '@type': 'Question', name: "Why should topical antibiotics always be combined with benzoyl peroxide?", acceptedAnswer: { '@type': 'Answer', text: "AAD 2024 guidelines explicitly recommend combining topical antibiotics (clindamycin, erythromycin) with benzoyl peroxide rather than using topical antibiotics alone. Benzoyl peroxide kills C. acnes bacteria and prevents antibiotic-resistant strains from emerging \u2014 a growing problem in acne management. TeleDirectMD prescribes combination products per this guideline." } },
     { '@type': 'Question', name: "Does California's AB 744 telehealth parity law cover acne treatment?", acceptedAnswer: { '@type': 'Answer', text: "California Assembly Bill 744 (2019), codified in California Insurance Code \u00a710123.85, requires commercial health plans to reimburse telehealth on the same basis as in-person services. Parity applies when the provider is in-network with your plan. Aetna (April 30, 2026) and UHC Commercial (May 29, 2026) are in-network in California for TeleDirectMD acne visits." } },
@@ -192,7 +192,7 @@ export default function CaAcneTreatmentOnline() {
                   <li>Licensed telehealth care for adults located in California at the time of the visit</li>
                 </ul>
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
                 </div>
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> L70.0 — Acne vulgaris (final coding depends on clinical details)</p>
@@ -218,7 +218,7 @@ export default function CaAcneTreatmentOnline() {
         <section className="tdmd-section" id={`${pid}-opening`}>
           <div className="tdmd-container">
             <div className="tdmd-condition-opener">
-              <p><strong>Can I get acne treatment online in California?</strong> Yes. <a href='https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC' rel='noopener' target='_blank'>California Business and Professions Code Section 2290.5</a> permits California-licensed physicians to evaluate and treat acne by secure video visit without a prior in-person visit. TeleDirectMD physicians follow <a href='https://www.aad.org/member/clinical-quality/guidelines/acne' rel='noopener' target='_blank'>AAD 2024 acne guidelines</a>, prescribing topical retinoids, topical antibiotics combined with benzoyl peroxide, oral doxycycline or minocycline for moderate-severe acne, and hormonal therapy for eligible women. Adults 18+ in California can book same-day. The <a href='https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx' rel='noopener' target='_blank'>Medical Board of California</a> holds telehealth physicians to the same standard as in-person care. Self pay is $79. <a href='/insurance/aetna/california/acne-treatment/'>Aetna is in-network</a> as of April 30, 2026.</p>
+              <p><strong>Can I get acne treatment online in California?</strong> Yes. <a href='https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC' rel='noopener' target='_blank'>California Business and Professions Code Section 2290.5</a> permits California-licensed physicians to evaluate and treat acne by secure video visit without a prior in-person visit. Dr. Bhavsar follows <a href='https://www.aad.org/member/clinical-quality/guidelines/acne' rel='noopener' target='_blank'>AAD 2024 acne guidelines</a>, prescribing topical retinoids, topical antibiotics combined with benzoyl peroxide, oral doxycycline or minocycline for moderate-severe acne, and hormonal therapy for eligible women. Adults 18+ in California can book same-day. The <a href='https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx' rel='noopener' target='_blank'>Medical Board of California</a> holds telehealth physicians to the same standard as in-person care. Self pay is $79. <a href='/insurance/aetna/california/acne-treatment/'>Aetna is in-network</a> as of April 30, 2026.</p>
             </div>
           </div>
         </section>
@@ -242,7 +242,7 @@ export default function CaAcneTreatmentOnline() {
         <section className="tdmd-section" id={`${pid}-ca-epi`}>
           <div className="tdmd-container">
             <h2>Acne in California — Prevalence and Context</h2>
-            <p dangerouslySetInnerHTML={{ __html: "Acne is the most common skin condition in the United States, affecting up to 50 million Americans annually, according to the <a href='https://www.aad.org/public/diseases/acne/really-is-acne' rel='noopener' target='_blank'>American Academy of Dermatology</a>. In California, <a href='https://places.cdc.gov/profiles/county' rel='noopener' target='_blank'>CDC PLACES county-level data</a> documents that skin conditions represent a major share of outpatient visits statewide. With California's population of approximately 39 million residents, an estimated 5\u20137 million Californians experience acne at any given time. Adult-onset acne is increasing \u2014 particularly among women ages 25\u201340. The <a href='https://www.cdph.ca.gov' rel='noopener' target='_blank'>California Department of Public Health (CDPH)</a> notes dermatologic conditions account for over 1.3 million outpatient visits in California annually, with acne comprising the largest single-condition share." }} />
+            <p dangerouslySetInnerHTML={{ __html: "Acne is the most common skin condition in the United States, affecting up to 50 million Americans annually, according to the <a href='https://www.aad.org/media/stats-numbers' rel='noopener' target='_blank'>American Academy of Dermatology</a>. With California's population of approximately 39 million residents, an estimated 5\u20137 million Californians experience acne at any given time. Adult-onset acne is increasing \u2014 particularly among women ages 25\u201340. The <a href='https://www.cdph.ca.gov' rel='noopener' target='_blank'>California Department of Public Health (CDPH)</a> notes dermatologic conditions account for over 1.3 million outpatient visits in California annually, with acne comprising the largest single-condition share." }} />
           </div>
         </section>
 
@@ -300,7 +300,7 @@ export default function CaAcneTreatmentOnline() {
                 <div className="tdmd-decision-content">
                   <h3>Receive your treatment plan and e-prescription</h3>
                   <p>If medication is clinically appropriate, a California-compliant e-prescription is sent to your chosen pharmacy under AB 2789. You receive clear follow-up steps and in-person referral guidance when needed.</p>
-                  <div className="tdmd-decision-cta"><a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a></div>
+                  <div className="tdmd-decision-cta"><a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a></div>
                 </div>
               </div>
             </div>
@@ -324,24 +324,6 @@ export default function CaAcneTreatmentOnline() {
                   <li>Follow-up instructions</li>
                   <li>No hidden fees</li>
                 </ul>
-              </div>
-              <div className="tdmd-price-chart" role="group" aria-label="Typical cost comparison">
-                <h3>Typical Acne Treatment Cost in California</h3>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 13, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical California pricing. Actual costs vary.</p>
               </div>
             </div>
 
@@ -369,9 +351,9 @@ export default function CaAcneTreatmentOnline() {
                   </tr>
                   <tr>
                     <td><strong>Anthem Blue Cross</strong></td>
-                    <td><span className="tdmd-ca-uti__payor-pill tdmd-ca-uti__payor-pill--pending">Pending</span></td>
-                    <td>Pending determination</td>
-                    <td>Enrollment pending — waiting for Anthem to confirm individual-provider enrollment for telehealth. Self pay ($79) available.</td>
+                    <td><span className="tdmd-ca-uti__payor-pill tdmd-ca-uti__payor-pill--good">✓ In-Network</span></td>
+                    <td>September 23, 2026</td>
+                    <td>PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.</td>
                   </tr>
                   <tr>
                     <td><strong>Cigna</strong></td>
@@ -426,13 +408,13 @@ export default function CaAcneTreatmentOnline() {
                     <tr className="tdmd-med-firstline">
                       <td><strong>Clindamycin 1% topical gel + benzoyl peroxide</strong> · First-line</td>
                       <td>Apply to affected areas twice daily — combination product preferred</td>
-                      <td><a href="https://www.goodrx.com/clindamycin-topical" target="_blank" rel="noopener">~$25–$60 / 60g</a></td>
+                      <td><a href="https://www.goodrx.com/clindamycin" target="_blank" rel="noopener">~$25–$60 / 60g</a></td>
                       <td>First-line topical antibiotic per AAD. Always combine with benzoyl peroxide to reduce C. acnes resistance. Combination products (BenzaClin) preferred.</td>
                     </tr>
                     <tr className="tdmd-med-firstline">
                       <td><strong>Doxycycline 50–100 mg oral</strong> · First-line</td>
                       <td>50–100 mg once or twice daily with food</td>
-                      <td><a href="https://www.goodrx.com/doxycycline" target="_blank" rel="noopener">~$12–$25 / 30 tabs</a></td>
+                      <td><a href="https://www.goodrx.com/doxycycline-hyclate" target="_blank" rel="noopener">~$12–$25 / 30 tabs</a></td>
                       <td>First-line oral antibiotic per AAD 2024 for moderate-severe acne. Limit to 3–6 months; combine with topical retinoid and BP. Not for use in pregnancy.</td>
                     </tr>
                     <tr>
@@ -445,6 +427,7 @@ export default function CaAcneTreatmentOnline() {
               </table>
             </div>
             <p className="tdmd-med-note"><strong>Important:</strong> Medication choice depends on allergies, medical history, and clinical evaluation at the visit. Do not start any medication without physician evaluation.</p>
+            <p className="tdmd-med-note" data-fda-notes="true"><strong>FDA labeling note:</strong> Spironolactone, Rx only, has not been approved by the FDA as safe and effective to treat acne; the American Academy of Dermatology 2024 acne guideline recommends it for adult women with hormonal acne. A potassium result from the last 90 days is required before it is prescribed. Only a licensed physician may prescribe this medication for this condition if, in his clinical judgment, use is medically appropriate. Report side effects to the FDA at www.fda.gov/medwatch or 1-800-FDA-1088.</p>
           </div>
         </section>
 
@@ -456,7 +439,7 @@ export default function CaAcneTreatmentOnline() {
                 <p>Book a same-day video visit — California adults, 18+</p>
                 <small>Self pay $79 · Aetna in-network · UHC Commercial approved May 2026 · No ER wait</small>
               </div>
-              <a className="tdmd-ca-uti__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
+              <a className="tdmd-ca-uti__cta-btn" href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -474,8 +457,8 @@ export default function CaAcneTreatmentOnline() {
                 <p>Book a same-day video visit. Self pay $79 · Aetna in-network · UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
               </div>
             </div>
           </div>
@@ -490,10 +473,6 @@ export default function CaAcneTreatmentOnline() {
                 <a key="rosacea-treatment-online" className="tdmd-ca-uti__sibling" href="/ca/rosacea-treatment-online/">
                   <span className="tdmd-ca-uti__sibling-label">Rosacea Treatment in CA</span>
                   <span className="tdmd-ca-uti__sibling-why">Facial redness and papules — often confused with acne.</span>
-                </a>
-                <a key="perioral-dermatitis-treatment-online" className="tdmd-ca-uti__sibling" href="/ca/perioral-dermatitis-treatment-online/">
-                  <span className="tdmd-ca-uti__sibling-label">Perioral Dermatitis Treatment in CA</span>
-                  <span className="tdmd-ca-uti__sibling-why">Perioral papulopustular rash mimics acne.</span>
                 </a>
                 <a key="eczema-treatment-online" className="tdmd-ca-uti__sibling" href="/ca/eczema-treatment-online/">
                   <span className="tdmd-ca-uti__sibling-label">Eczema Treatment in CA</span>
@@ -523,12 +502,12 @@ export default function CaAcneTreatmentOnline() {
               <a href="/">Home</a>
               <a href="/ca/">California (state pillar)</a>
               <a href="/ca/uti-treatment-online/">California UTI Treatment Online</a>
-              <a href="/insurance/aetna/california/acne-treatment-online/">Aetna × California × Acne Treatment</a>
+              <a href="/insurance/aetna/california/acne-treatment/">Aetna × California × Acne Treatment</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/insurance">Insurance</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/insurance/">Insurance</a>
+              <a href="/faq/">FAQ</a>
               <a href="/ca/acne-treatment-online/">Acne Treatment in CA</a>
               <a href="/ca/eczema-treatment-online/">Eczema Treatment in CA</a>
               <a href="/ca/rosacea-treatment-online/">Rosacea Treatment in CA</a>
@@ -548,15 +527,14 @@ export default function CaAcneTreatmentOnline() {
             <h2>References and Primary Sources</h2>
             <ol className="tdmd-ref-list">
               <li><a href="https://www.aad.org/member/clinical-quality/guidelines/acne" rel="noopener" target="_blank">AAD Acne Guidelines 2024</a>. Retrieved 2026-05-22.</li>
-              <li><a href="https://www.aad.org/public/diseases/acne/really-is-acne" rel="noopener" target="_blank">AAD — Acne Overview</a>. Retrieved 2026-05-22.</li>
+              <li><a href="https://www.aad.org/media/stats-numbers" rel="noopener" target="_blank">AAD: Skin conditions by the numbers</a>. Retrieved 2026-05-22.</li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California B&P Code §2290.5</a>. Retrieved 2026-05-22.</li>
               <li><a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth</a>. Retrieved 2026-05-22.</li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 (AB 744)</a>. Retrieved 2026-05-22.</li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS Telehealth FAQ</a>. Retrieved 2026-05-22.</li>
               <li><a href="https://www.goodrx.com/tretinoin" rel="noopener" target="_blank">GoodRx — Tretinoin</a>. Retrieved 2026-05-22.</li>
-              <li><a href="https://www.goodrx.com/doxycycline" rel="noopener" target="_blank">GoodRx — Doxycycline</a>. Retrieved 2026-05-22.</li>
-              <li><a href="https://www.goodrx.com/clindamycin-topical" rel="noopener" target="_blank">GoodRx — Clindamycin Topical</a>. Retrieved 2026-05-22.</li>
-              <li><a href="https://places.cdc.gov/profiles/county" rel="noopener" target="_blank">CDC PLACES</a>. Retrieved 2026-05-22.</li>
+              <li><a href="https://www.goodrx.com/doxycycline-hyclate" rel="noopener" target="_blank">GoodRx — Doxycycline</a>. Retrieved 2026-05-22.</li>
+              <li><a href="https://www.goodrx.com/clindamycin" rel="noopener" target="_blank">GoodRx — Clindamycin Topical</a>. Retrieved 2026-05-22.</li>
               <li><a href="https://www.cdph.ca.gov" rel="noopener" target="_blank">CDPH — Skin Health</a>. Retrieved 2026-05-22.</li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — AB 2789</a>. Retrieved 2026-05-22.</li>
             </ol>

@@ -1,12 +1,13 @@
+import { contentDate } from '../../../lib/content-dates';
 export default function RemoteWorkersPage() {
   const baseUrl = 'https://teledirectmd.com';
   const pageUrl = `${baseUrl}/who-we-serve/remote-workers`;
-  const today = new Date().toISOString().split('T')[0];
+  const today = contentDate('whoWeServe');
 
   /* ── Conditions to link ─────────────────────────────────────────── */
   const conditions = [
     { name: 'Sinus Infection', slug: 'sinus-infection-treatment-online', desc: 'Evaluation and treatment for sinus pressure, congestion, and facial pain — prescription sent to the nearest pharmacy wherever you\'re working this week.' },
-    { name: 'UTI / Urinary Tract Infection', slug: 'uti-treatment-online', desc: 'Fast antibiotic prescriptions for uncomplicated UTIs, sent electronically to any pharmacy in the U.S. — no need to find a local urgent care in an unfamiliar city.' },
+    { name: 'UTI (women only)', slug: 'uti-treatment-online', desc: 'Fast antibiotic prescriptions for uncomplicated UTIs in non-pregnant adult women, sent electronically to any pharmacy in the U.S. — no need to find a local urgent care in an unfamiliar city.' },
     { name: 'Anxiety / Stress Management', slug: 'performance-anxiety-treatment-online', desc: 'Support for anxiety and work-related stress — common among remote workers dealing with isolation, blurred work-life boundaries, and the pressure of always-on availability.' },
     { name: 'Migraines', slug: 'migraine-refills-online', desc: 'Prescription migraine treatment and refills so a debilitating headache doesn\'t cost you a full day of remote work — regardless of which state you\'re in.' },
     { name: 'Hypertension / High Blood Pressure', slug: 'hypertension-refills-online', desc: 'Blood pressure medication refills with continuity of care across state lines — especially valuable for remote workers who relocate or travel frequently.' },
@@ -31,15 +32,15 @@ export default function RemoteWorkersPage() {
   const faqItems = [
     {
       q: 'Can I use TeleDirectMD if I\'m working remotely in a different state than where I live?',
-      a: 'Yes. Telehealth visits are regulated by the state where you are physically located at the time of your visit — not your home state or the state on your driver\'s license. TeleDirectMD is licensed in 44 states, so as long as you are in one of our covered states when your visit begins, you can be seen. This makes TeleDirectMD a natural fit for remote workers who travel between cities, move seasonally, or work from different states throughout the year. Simply tell us which state you are currently in when you request your visit.'
+      a: 'Yes. Telehealth visits are regulated by the state where you are physically located at the time of your visit — not your home state or the state on your driver\'s license. TeleDirectMD is licensed in 40+ states, so as long as you are in one of our covered states when your visit begins, you can be seen. This makes TeleDirectMD a natural fit for remote workers who travel between cities, move seasonally, or work from different states throughout the year. Simply tell us which state you are currently in when you request your visit.'
     },
     {
       q: 'Do I need insurance to use TeleDirectMD?',
-      a: 'No. TeleDirectMD offers transparent cash-pay pricing starting at $79 per visit — no insurance required. You will know your cost before booking, with no surprise bills. We also accept insurance in select states. HSA and FSA cards are accepted. For remote workers without a local primary care physician — or those between insurance plans during a move — the flat-rate, self-pay model makes getting care straightforward regardless of your coverage situation.'
+      a: 'No. TeleDirectMD offers transparent cash-pay pricing: a flat $79 per visit — no insurance required. You will know your cost before booking, with no hidden fees. We also accept insurance in select states. HSA and FSA cards are accepted. For remote workers without a local primary care physician — or those between insurance plans during a move — the flat-rate, self-pay model makes getting care straightforward regardless of your coverage situation.'
     },
     {
       q: 'Can TeleDirectMD be my primary care doctor if I move frequently?',
-      a: 'TeleDirectMD can provide ongoing primary care-level services — routine prescription refills, follow-up visits, management of chronic conditions, and evaluation of new symptoms — across all 44 states where we are licensed. Because you are seeing the same board-certified physician regardless of your location, there is genuine continuity: your doctor knows your history, your medications, and your preferences. For remote workers and digital nomads who relocate frequently, this eliminates the need to establish care with a new local physician in every city.'
+      a: 'TeleDirectMD can provide ongoing primary care-level services — routine prescription refills, follow-up visits, management of chronic conditions, and evaluation of new symptoms — across 40+ states where we are licensed. Because you are seeing the same board-certified physician regardless of your location, there is genuine continuity: your doctor knows your history, your medications, and your preferences. For remote workers and digital nomads who relocate frequently, this eliminates the need to establish care with a new local physician in every city.'
     },
     {
       q: 'How does a telehealth visit work for remote workers?',
@@ -51,7 +52,7 @@ export default function RemoteWorkersPage() {
     },
     {
       q: 'What conditions can TeleDirectMD treat for remote workers?',
-      a: 'TeleDirectMD treats more than 60 conditions that are commonly needed by remote workers: sinus infections, UTIs, seasonal allergies, anxiety, migraines, hypertension, acid reflux, hypothyroidism, acne, and many more. We are particularly well-suited for ongoing prescription refills — managing chronic conditions across state lines without requiring patients to re-establish care with a new local doctor. Conditions requiring in-person examination, imaging, or laboratory testing that cannot be completed via video will be identified during your visit, and we can provide referral guidance.'
+      a: 'TeleDirectMD treats more than 60 conditions that are commonly needed by remote workers: sinus infections, UTIs in women only, seasonal allergies, anxiety, migraines, hypertension, acid reflux, hypothyroidism, acne, and many more. We are particularly well-suited for ongoing prescription refills — managing chronic conditions across state lines without requiring patients to re-establish care with a new local doctor. Conditions requiring in-person examination, imaging, or laboratory testing that cannot be completed via video will be identified during your visit, and we can provide referral guidance.'
     },
     {
       q: 'Is TeleDirectMD HIPAA compliant? Is my health data secure?',
@@ -83,18 +84,18 @@ export default function RemoteWorkersPage() {
           "@type": "MedicalTherapy",
           "name": "Telehealth Consultations"
         },
-        "areaServed": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WI","WY"]
+        "areaServed": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NY","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WY"]
       },
       {
         "@type": "Physician",
-        "@id": `${baseUrl}/about#physician`,
+        "@id": `${baseUrl}/about/#physician`,
         "name": "Parth Bhavsar, MD",
         "medicalSpecialty": "FamilyMedicine",
         "worksFor": {
           "@type": "MedicalOrganization",
           "name": "TeleDirectMD"
         },
-        "licensedIn": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WI","WY"]
+        "licensedIn": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NY","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WI","WY"]
       },
       {
         "@type": "FAQPage",
@@ -113,10 +114,10 @@ export default function RemoteWorkersPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Virtual Doctor for Remote Workers and Digital Nomads — TeleDirectMD",
-        "description": "TeleDirectMD provides telehealth for remote workers and digital nomads across 44 states. See the same board-certified physician wherever you work. No local PCP required. Same-day visits, evenings & weekends. Starting at $79.",
+        "description": "TeleDirectMD provides telehealth for remote workers and digital nomads across 40+ states. See the same board-certified physician wherever you work. No local PCP required. Same-day visits, evenings & weekends. Flat $79.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
-        "author": { "@id": `${baseUrl}/about#physician` },
+        "author": { "@id": `${baseUrl}/about/#physician` },
         "datePublished": today,
         "dateModified": today,
         "publisher": {
@@ -148,7 +149,7 @@ export default function RemoteWorkersPage() {
         <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: '0' }}>
           <a href="/">Home</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <a href="/who-we-serve">Who We Serve</a>
+          <a href="/who-we-serve/">Who We Serve</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
           <span aria-current="page">Remote Workers</span>
         </div>
@@ -160,24 +161,24 @@ export default function RemoteWorkersPage() {
           <div className="tdmd-hero-grid">
             <div className="tdmd-hero-copy">
               <h1>Virtual Doctor for Remote Workers and Digital Nomads</h1>
-              <p className="tdmd-hero-sub">Board-certified physician in 44 states. Same doctor, wherever you work. Same-day visits, evenings &amp; weekends.</p>
+              <p className="tdmd-hero-sub">Board-certified physician in 40+ states. Same doctor, wherever you work. Same-day visits, evenings &amp; weekends.</p>
               <p>
-                More than 35 million Americans now work remotely full-time or the majority of their working hours — a share that has grown dramatically since 2020 and shows no sign of reversing. Remote workers and digital nomads face a structural problem that traditional healthcare never anticipated: their work takes them across cities, states, and sometimes countries, making a stable relationship with a local primary care physician nearly impossible to maintain. TeleDirectMD provides continuity of care across 44 states with the same board-certified family medicine physician, starting at $79 per visit — no matter where your laptop is set up this week.
+                More than 35 million Americans now work remotely full-time or the majority of their working hours — a share that has grown dramatically since 2020 and shows no sign of reversing. Remote workers and digital nomads face a structural problem that traditional healthcare never anticipated: their work takes them across cities, states, and sometimes countries, making a stable relationship with a local primary care physician nearly impossible to maintain. TeleDirectMD provides continuity of care across 40+ states with the same board-certified family medicine physician, a flat $79, per visit — no matter where your laptop is set up this week.
               </p>
               <ul className="tdmd-hero-benefits">
                 <li>Board-certified family medicine physician — not a PA, not an NP, not an algorithm</li>
-                <li>Licensed in 44 states — the same doctor follows you wherever you work</li>
+                <li>Licensed in 40+ states — the same doctor follows you wherever you work</li>
                 <li>Same-day visits, evenings &amp; weekends — schedule around your remote work hours</li>
                 <li>Prescriptions sent to any pharmacy, anywhere in the U.S.</li>
-                <li>Transparent cash-pay pricing starting at $79 — no surprise bills</li>
+                <li>Transparent cash-pay pricing: a flat $79 — no hidden fees</li>
               </ul>
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
               </div>
               <p className="tdmd-reviewed">
                 Last reviewed on {today} by{' '}
-                <a className="tdmd-author-link" href="/about" aria-label="About Parth Bhavsar, MD">
+                <a className="tdmd-author-link" href="/about/" aria-label="About Parth Bhavsar, MD">
                   Parth Bhavsar, MD
                 </a>
               </p>
@@ -187,10 +188,10 @@ export default function RemoteWorkersPage() {
               <div className="tdmd-hero-card">
                 <h2>Why Remote Workers Choose TeleDirectMD</h2>
                 <ul>
-                  <li>See a doctor from your home office, co-working space, or Airbnb — in any of 44 states</li>
+                  <li>See a doctor from your home office, co-working space, or Airbnb — in 40+ states</li>
                   <li>No need to find a new local PCP every time you relocate or travel for work</li>
                   <li>Prescriptions sent to any pharmacy near your current location</li>
-                  <li>No insurance required — transparent cash-pay pricing starting at $79</li>
+                  <li>No insurance required — transparent cash-pay pricing: a flat $79</li>
                   <li>HIPAA-compliant, secure video visits from any device — no app download required</li>
                 </ul>
                 <p className="tdmd-hero-note">Works on any smartphone, tablet, or computer. No app required.</p>
@@ -230,8 +231,8 @@ export default function RemoteWorkersPage() {
           </p>
           <div className="tdmd-grid tdmd-grid-2">
             <div className="tdmd-card tdmd-card-good">
-              <h3>Continuity Across 44 States</h3>
-              <p>Work from California one month and Colorado the next? TeleDirectMD is licensed in 44 states, and the same board-certified physician sees you every time. There's no re-establishing care, no transferring records, and no starting over with a new provider who doesn't know your history.</p>
+              <h3>Continuity Across 40+ States</h3>
+              <p>Work from California one month and Colorado the next? TeleDirectMD is licensed in 40+ states, and the same board-certified physician sees you every time. There's no re-establishing care, no transferring records, and no starting over with a new provider who doesn't know your history.</p>
             </div>
             <div className="tdmd-card tdmd-card-good">
               <h3>Same-Day, Evenings &amp; Weekends</h3>
@@ -260,7 +261,7 @@ export default function RemoteWorkersPage() {
             {conditions.map((c) => (
               <a
                 key={c.slug}
-                href={`/${c.slug}`}
+                href={`/${c.slug}/`}
                 className="tdmd-card"
                 style={{ textDecoration: 'none', color: 'var(--tdmd-text)', borderLeft: '4px solid var(--tdmd-teal)' }}
               >
@@ -270,7 +271,7 @@ export default function RemoteWorkersPage() {
             ))}
           </div>
           <div style={{ marginTop: '1.25rem' }}>
-            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All 60+ Conditions We Treat</a>
+            <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All 60+ Conditions We Treat</a>
           </div>
         </div>
       </section>
@@ -301,7 +302,7 @@ export default function RemoteWorkersPage() {
                 <h3>Get Treated — Prescription Sent to Your Pharmacy</h3>
                 <p>If medication is appropriate, we send the prescription electronically to any pharmacy you choose — wherever you happen to be working today. Pick it up locally, or route to a mail-order pharmacy for delivery.</p>
                 <div className="tdmd-decision-cta">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit Now</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit Now</a>
                 </div>
               </div>
             </div>
@@ -312,7 +313,7 @@ export default function RemoteWorkersPage() {
       {/* ── 6. Transparent Pricing ──────────────────────────────── */}
       <section className="tdmd-section" id="remote-workers-pricing">
         <div className="tdmd-container">
-          <h2>Transparent Pricing — No Surprise Bills</h2>
+          <h2>Transparent Pricing — No Hidden Fees</h2>
           <p>Telehealth is significantly more cost-effective than in-person alternatives for the non-emergency conditions remote workers most commonly need care for. A Penn Medicine study found telehealth visits average $96 compared to $509 for comparable in-person episodes. For remote workers paying out-of-pocket — or those between insurance plans during a move — the difference between a $79 telehealth visit and a $150–$350 urgent care visit is substantial. GoodRx data consistently shows telehealth as the most affordable option for straightforward non-emergency conditions.</p>
           <div className="tdmd-price-grid">
             <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
@@ -322,7 +323,7 @@ export default function RemoteWorkersPage() {
               <ul className="tdmd-price-includes">
                 <li>Board-certified family medicine physician consultation</li>
                 <li>Prescriptions sent to any U.S. pharmacy</li>
-                <li>No hidden fees or surprise billing</li>
+                <li>No hidden fees</li>
                 <li>HSA &amp; FSA cards accepted</li>
                 <li>Insurance accepted in select states</li>
               </ul>
@@ -357,11 +358,11 @@ export default function RemoteWorkersPage() {
         <div className="tdmd-container">
           <h2>Who You're Seeing — A Real Doctor, Not an Algorithm</h2>
           <p>
-            When you visit TeleDirectMD, you are seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is a board-certified family medicine physician licensed in 44 states. Remote workers who use TeleDirectMD see the same physician across visits — building a genuine longitudinal care relationship that doesn't dissolve when you change your home base.
+            When you visit TeleDirectMD, you are seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about/" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is a board-certified family medicine physician licensed in 40+ states. Remote workers who use TeleDirectMD see the same physician across visits — building a genuine longitudinal care relationship that doesn't dissolve when you change your home base.
           </p>
           <ul className="tdmd-hero-benefits">
             <li>Board-certified in Family Medicine</li>
-            <li>Licensed in 44 U.S. states — follows you wherever you work</li>
+            <li>Licensed in 40+ U.S. states — follows you wherever you work</li>
             <li>HIPAA-compliant, LegitScript certified platform — your data is encrypted and protected</li>
             <li>TeleDirectMD does not sell or share your health information</li>
             <li>No app download required — works on any device, any browser</li>
@@ -376,9 +377,9 @@ export default function RemoteWorkersPage() {
       <section className="tdmd-section tdmd-faq" id="remote-workers-faq">
         <div className="tdmd-container">
           <h2>Frequently Asked Questions — Telehealth for Remote Workers</h2>
-          <div className="tdmd-faq-list" role="list">
+          <div className="tdmd-faq-list">
             {faqItems.map((item, i) => (
-              <details key={i} className="tdmd-faq-item" role="listitem">
+              <details key={i} className="tdmd-faq-item">
                 <summary className="tdmd-faq-question">{item.q}</summary>
                 <div className="tdmd-faq-answer">
                   <p>{item.a}</p>
@@ -394,12 +395,12 @@ export default function RemoteWorkersPage() {
         <div className="tdmd-container">
           <div className="tdmd-bottom-cta">
             <div className="tdmd-bottom-cta-copy">
-              <h3>Your doctor, wherever you work — same physician, 44 states, starting at $79.</h3>
+              <h3>Your doctor, wherever you work — same physician, 40+ states, for a flat $79.</h3>
               <p>Request a same-day visit, connect with a board-certified family medicine physician by secure video, and get a prescription sent to the pharmacy nearest to wherever you're working today — no local PCP required.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-              <a href="/who-we-serve" className="tdmd-btn tdmd-btn-outline">Who We Serve</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+              <a href="/who-we-serve/" className="tdmd-btn tdmd-btn-outline">Who We Serve</a>
             </div>
           </div>
         </div>
@@ -409,16 +410,16 @@ export default function RemoteWorkersPage() {
       <section className="tdmd-section" id="remote-workers-states">
         <div className="tdmd-container">
           <h2>Telehealth for Remote Workers — Available in These High-Concentration States</h2>
-          <p>TeleDirectMD is licensed in 44 states. Here are states with some of the highest concentrations of remote workers where we can see you today:</p>
+          <p>TeleDirectMD is licensed in 40+ states. Here are states with some of the highest concentrations of remote workers where we can see you today:</p>
           <div className="tdmd-other-states-grid">
             {featuredStates.map((s) => (
-              <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}`}>
+              <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}/`}>
                 {s.name}
               </a>
             ))}
           </div>
           <p style={{ marginTop: '0.75rem' }}>
-            <a href="/states-we-serve" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>View all 44 states we serve →</a>
+            <a href="/states-we-serve/" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>View all states we serve →</a>
           </p>
         </div>
       </section>
@@ -429,22 +430,22 @@ export default function RemoteWorkersPage() {
           <div className="tdmd-inline-links">
             <h3>Other Communities We Serve</h3>
             <p className="tdmd-link-cloud">
-              <a href="/who-we-serve/gig-workers">Gig Workers</a>
-              <a href="/who-we-serve/uninsured-affordable-care">Uninsured &amp; Affordable Care</a>
-              <a href="/who-we-serve/truck-drivers">Truck Drivers</a>
-              <a href="/who-we-serve/travel-nurses">Travel Nurses</a>
-              <a href="/who-we-serve/small-business-owners">Small Business Owners</a>
-              <a href="/who-we-serve">Who We Serve Hub</a>
+              <a href="/who-we-serve/gig-workers/">Gig Workers</a>
+              <a href="/who-we-serve/uninsured-affordable-care/">Uninsured &amp; Affordable Care</a>
+              <a href="/who-we-serve/truck-drivers/">Truck Drivers</a>
+              <a href="/who-we-serve/travel-nurses/">Travel Nurses</a>
+              <a href="/who-we-serve/small-business-owners/">Small Business Owners</a>
+              <a href="/who-we-serve/">Who We Serve Hub</a>
             </p>
           </div>
           <div className="tdmd-inline-links" style={{ marginTop: '1rem' }}>
             <h3>More from TeleDirectMD</h3>
             <p className="tdmd-link-cloud">
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/states-we-serve">States We Serve</a>
-              <a href="/insurance">Insurance &amp; Pricing</a>
-              <a href="/faq">FAQs</a>
-              <a href="/book-online">Book a Visit</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/states-we-serve/">States We Serve</a>
+              <a href="/insurance/">Insurance &amp; Pricing</a>
+              <a href="/faq/">FAQs</a>
+              <a href="/book-online/">Book a Visit</a>
             </p>
           </div>
         </div>
@@ -457,12 +458,10 @@ export default function RemoteWorkersPage() {
           <ul className="tdmd-ref-list">
             <li><a href="https://nbloom.people.stanford.edu/research" rel="nofollow noopener" target="_blank">Nick Bloom — Work From Home Research, Stanford University</a></li>
             <li><a href="https://www.pewresearch.org/social-trends/2022/02/16/covid-19-pandemic-continues-to-reshape-work-in-america/" rel="nofollow noopener" target="_blank">COVID-19 Pandemic Continues to Reshape Work in America — Pew Research Center</a></li>
-            <li><a href="https://www.pennmedicine.org/news/news-releases/2019/december/study-finds-telemedicine-visits-cost-far-less-than-office-visits" rel="nofollow noopener" target="_blank">Study finds telemedicine visits cost far less than office visits — Penn Medicine</a></li>
-            <li><a href="https://www.goodrx.com/healthcare-access/telehealth/how-much-does-a-telehealth-visit-cost" rel="nofollow noopener" target="_blank">How Much Does a Telehealth Visit Cost? — GoodRx</a></li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/33507490/" rel="nofollow noopener" target="_blank">Mental health consequences of remote work: a systematic review — Applied Psychology (PubMed)</a></li>
+            <li><a href="https://www.pennmedicine.org/news/study-finds-telemedicine-visits-cost-far-less-than-office-visits" rel="nofollow noopener" target="_blank">Study finds telemedicine visits cost far less than office visits — Penn Medicine</a></li>
+            <li><a href="https://www.goodrx.com/healthcare-access/telehealth/how-much-does-telehealth-cost" rel="nofollow noopener" target="_blank">How Much Does a Telehealth Visit Cost? — GoodRx</a></li>
             <li><a href="https://www.kff.org/uninsured/issue-brief/key-facts-about-the-uninsured-population/" rel="nofollow noopener" target="_blank">Key Facts About the Uninsured Population — KFF</a></li>
             <li><a href="https://www.bls.gov/news.release/atus.nr0.htm" rel="nofollow noopener" target="_blank">American Time Use Survey — U.S. Bureau of Labor Statistics</a></li>
-            <li><a href="https://www.upwork.com/press/releases/upwork-study-finds-36-of-the-us-workforce-freelance-amid-digital-revolution" rel="nofollow noopener" target="_blank">Future Workforce Report — Upwork</a></li>
           </ul>
         </div>
       </section>

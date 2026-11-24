@@ -1,3 +1,4 @@
+import { contentDate } from '../../lib/content-dates';
 import { getStates, getConditionCategories } from '../../lib/get-data';
 import { getAggregateRating, getReviewBlock } from '../../lib/review-schema';
 import StatesWeServeClient from './StatesWeServeClient';
@@ -11,8 +12,8 @@ const FEATURED_SLUGS = ['ga', 'fl', 'tx', 'ca', 'tn', 'pa', 'oh', 'nc'];
 export async function generateMetadata() {
   const allStates = getStates();
   const stateCount = allStates.length;
-  const title = `States We Serve — Licensed Telemedicine in 44 States + DC | TeleDirectMD`;
-  const description = `Board-certified physicians delivering $79 video consultations to adults 18+ across 44 states plus DC. Same-day availability, no insurance required. See our full coverage map and book online.`;
+  const title = `States We Serve — Licensed Telemedicine in 40+ States + DC | TeleDirectMD`;
+  const description = `A board-certified physician delivering $79 video consultations to adults 18+ across 40+ states plus DC. Same-day availability, no insurance required. See our full coverage map and book online.`;
   const pageUrl = 'https://teledirectmd.com/states-we-serve';
 
   return {
@@ -27,9 +28,9 @@ export async function generateMetadata() {
       title,
       description,
       url: pageUrl,
-      images: [{ url: 'https://teledirectmd.com/assets/og-states-we-serve.jpg', width: 1200, height: 630, alt: 'TeleDirectMD coverage map showing licensed telemedicine states' }],
+      images: [{ url: 'https://teledirectmd.com/images/tdmd-og-navy.png', width: 1200, height: 630, alt: 'TeleDirectMD coverage map showing licensed telemedicine states' }],
     },
-    twitter: { card: 'summary_large_image', title, description, images: ['https://teledirectmd.com/assets/og-states-we-serve.jpg'] },
+    twitter: { card: 'summary_large_image', title, description, images: ['https://teledirectmd.com/images/tdmd-og-navy.png'] },
     alternates: { canonical: pageUrl },
   };
 }
@@ -58,16 +59,16 @@ function buildJsonLd(allStates, categories) {
         '@type': 'MedicalWebPage',
         '@id': `${baseUrl}/states-we-serve#webpage`,
         url: `${baseUrl}/states-we-serve`,
-        name: `States We Serve — Licensed Telemedicine in 44 States + DC | TeleDirectMD`,
-        description: `Licensed states directory for TeleDirectMD adult-only physician-led telemedicine video visits across 44 states plus DC.`,
+        name: `States We Serve — Licensed Telemedicine in 40+ States + DC | TeleDirectMD`,
+        description: `Licensed states directory for TeleDirectMD adult-only physician-led telemedicine video visits across 40+ states plus DC.`,
         inLanguage: 'en-US',
-        dateModified: new Date().toISOString().split('T')[0],
-        lastReviewed: new Date().toISOString().split('T')[0],
-        reviewedBy: { '@id': `${baseUrl}#physician` },
+        dateModified: contentDate('statesWeServe'),
+        lastReviewed: contentDate('statesWeServe'),
+        reviewedBy: { '@id': `${baseUrl}/about/#physician` },
         breadcrumb: { '@id': `${baseUrl}/states-we-serve#breadcrumbs` },
         isPartOf: { '@type': 'WebSite', name: 'TeleDirectMD', url: baseUrl },
-        about: { '@id': `${baseUrl}#organization` },
-        publisher: { '@id': `${baseUrl}#organization` },
+        about: { '@id': `${baseUrl}/#organization` },
+        publisher: { '@id': `${baseUrl}/#organization` },
         specialty: ['Family Medicine', 'Urgent Care', 'Telemedicine', 'Dermatology', "Women's Health"],
         audience: { '@type': 'MedicalAudience', audienceType: 'Patient', requiredMinAge: 18 },
         significantLink: [`${baseUrl}/book-online`, `${baseUrl}/what-we-treat`, `${baseUrl}/faq`],
@@ -79,15 +80,15 @@ function buildJsonLd(allStates, categories) {
       /* MedicalOrganization / Physician */
       {
         '@type': 'MedicalOrganization',
-        '@id': `${baseUrl}#organization`,
+        '@id': `${baseUrl}/#organization`,
         name: 'TeleDirectMD',
         legalName: 'TeleDirectMD',
         url: baseUrl,
         telephone: '+1-678-956-1855',
         email: 'contact@teledirectmd.com',
         logo: `${baseUrl}/assets/teledirectmd-logo.png`,
-        image: `${baseUrl}/assets/og-states-we-serve.jpg`,
-        description: `TeleDirectMD is a direct-pay telemedicine practice offering $79 flat-fee video consultations with board-certified physicians across 40+ U.S. states and territories. Insurance is not required but select plans are accepted in some states.`,
+        image: `https://teledirectmd.com/images/tdmd-og-navy.png`,
+        description: `TeleDirectMD is a direct-pay telemedicine practice offering $79 flat-fee video consultations with a board-certified physician across 40+ U.S. states and territories. Insurance is not required but select plans are accepted in some states.`,
         medicalSpecialty: ['Family Medicine', 'Urgent Care', 'Dermatology', "Women's Health"],
         address: {
           '@type': 'PostalAddress',
@@ -103,15 +104,15 @@ function buildJsonLd(allStates, categories) {
           name: 'Telemedicine Video Consultation',
           procedureType: 'Virtual healthcare consultation',
         },
-        founder: { '@id': `${baseUrl}#physician` },
+        founder: { '@id': `${baseUrl}/about/#physician` },
         aggregateRating: getAggregateRating(),
       },
       {
         '@type': 'Physician',
-        '@id': `${baseUrl}#physician`,
+        '@id': `${baseUrl}/about/#physician`,
         name: 'Parth Bhavsar, MD',
         medicalSpecialty: 'Family Medicine',
-        memberOf: { '@id': `${baseUrl}#organization` },
+        memberOf: { '@id': `${baseUrl}/#organization` },
         ...getReviewBlock(),
       },
       /* FAQPage */
@@ -122,12 +123,12 @@ function buildJsonLd(allStates, categories) {
           {
             '@type': 'Question',
             name: 'What states does TeleDirectMD serve?',
-            acceptedAnswer: { '@type': 'Answer', text: `TeleDirectMD physicians are licensed and available in 40+ U.S. states and territories, including ${stateNamesList}. We are actively expanding to additional states.` },
+            acceptedAnswer: { '@type': 'Answer', text: `Dr. Bhavsar is licensed and available in 40+ U.S. states and territories, including ${stateNamesList}. We are actively expanding to additional states.` },
           },
           {
             '@type': 'Question',
             name: 'How much does a TeleDirectMD visit cost?',
-            acceptedAnswer: { '@type': 'Answer', text: 'Every TeleDirectMD visit is a flat $79 — no hidden fees, no copays, no surprise charges. This includes your full video consultation with a board-certified physician and any prescriptions sent to your pharmacy if clinically appropriate. No insurance is required.' },
+            acceptedAnswer: { '@type': 'Answer', text: 'Every TeleDirectMD visit is a flat $79 — no hidden fees, no copays, no hidden fees. This includes your full video consultation with a board-certified physician and any prescriptions sent to your pharmacy if clinically appropriate. No insurance is required.' },
           },
           {
             '@type': 'Question',
@@ -137,7 +138,7 @@ function buildJsonLd(allStates, categories) {
           {
             '@type': 'Question',
             name: 'What conditions does TeleDirectMD treat?',
-            acceptedAnswer: { '@type': 'Answer', text: `TeleDirectMD treats ${totalConditions}+ conditions via video visits, including virtual urgent care (UTIs, sinus infections, influenza, COVID-19, sore throat, pink eye, ear pain), women's health (bacterial vaginosis, yeast infections), men's health, skin conditions (acne, eczema, cellulitis, shingles, cold sores), and medication refills (migraine, asthma, GERD).` },
+            acceptedAnswer: { '@type': 'Answer', text: `TeleDirectMD treats 60+ conditions via video visits, including virtual urgent care (UTIs (women only), sinus infections, influenza, COVID-19, sore throat, pink eye, ear pain), women's health (bacterial vaginosis, yeast infections), men's health, skin conditions (acne, eczema, cellulitis, shingles, cold sores), and medication refills (migraine, asthma, GERD).` },
           },
           {
             '@type': 'Question',
@@ -152,7 +153,7 @@ function buildJsonLd(allStates, categories) {
           {
             '@type': 'Question',
             name: 'Are TeleDirectMD doctors board-certified?',
-            acceptedAnswer: { '@type': 'Answer', text: 'Yes. TeleDirectMD is an MD-only practice. Every consultation is conducted by a board-certified physician — not a nurse practitioner or physician assistant. Our physicians hold active medical licenses in every state where we operate.' },
+            acceptedAnswer: { '@type': 'Answer', text: 'Yes. TeleDirectMD is an MD-only practice. Every consultation is conducted by a board-certified physician — not a nurse practitioner or physician assistant. Dr. Bhavsar holds an active medical license in every state where we operate.' },
           },
           {
             '@type': 'Question',
@@ -166,7 +167,7 @@ function buildJsonLd(allStates, categories) {
         '@type': 'ItemList',
         '@id': `${baseUrl}/states-we-serve#statelist`,
         name: 'TeleDirectMD Licensed States',
-        description: `All U.S. states where TeleDirectMD physicians are licensed to provide telemedicine video consultations.`,
+        description: `All U.S. states where Dr. Bhavsar is licensed to provide telemedicine video consultations.`,
         numberOfItems: stateCount,
         itemListElement: allStates.map((s, i) => ({
           '@type': 'ListItem',
@@ -205,7 +206,7 @@ function buildFeaturedStates(allStates, categories) {
       categoryName: cat.categoryName,
       conditions: cat.conditions.map(c => ({
         name: c.name,
-        href: `/${slug}/${c.slug}`,
+        href: `/${slug}/${c.slug}/`,
       })),
     })).filter(cat => cat.conditions.length > 0);
 
@@ -219,26 +220,26 @@ function buildFeaturedStates(allStates, categories) {
     if (urgentCare) {
       previewCategories.push({
         label: 'Urgent Care',
-        conditions: urgentCare.conditions.slice(0, 4).map(c => ({ name: c.name, href: `/${slug}/${c.slug}` })),
+        conditions: urgentCare.conditions.slice(0, 4).map(c => ({ name: c.name, href: `/${slug}/${c.slug}/` })),
       });
     }
     if (womensHealth) {
       previewCategories.push({
         label: "Women's Health",
-        conditions: womensHealth.conditions.slice(0, 2).map(c => ({ name: c.name, href: `/${slug}/${c.slug}` })),
+        conditions: womensHealth.conditions.slice(0, 2).map(c => ({ name: c.name, href: `/${slug}/${c.slug}/` })),
       });
     }
     if (skinConditions || refills) {
       const src = skinConditions || refills;
       previewCategories.push({
         label: skinConditions ? 'Skin & Other' : 'Refills',
-        conditions: (src).conditions.slice(0, 2).map(c => ({ name: c.name, href: `/${slug}/${c.slug}` })),
+        conditions: (src).conditions.slice(0, 2).map(c => ({ name: c.name, href: `/${slug}/${c.slug}/` })),
       });
     }
 
     /* All conditions flat list for the expandable section */
     const allConditions = categories.flatMap(cat =>
-      cat.conditions.map(c => ({ name: c.name, href: `/${slug}/${c.slug}` }))
+      cat.conditions.map(c => ({ name: c.name, href: `/${slug}/${c.slug}/` }))
     );
 
     featured.push({
@@ -260,11 +261,13 @@ export default function StatesWeServePage() {
   const totalConditions = categories.reduce((sum, cat) => sum + cat.conditions.length, 0);
   const jsonLd = buildJsonLd(allStates, categories);
   const featuredStates = buildFeaturedStates(allStates, categories);
-  const directoryStates = allStates.filter(s => !FEATURED_SLUGS.includes(s.slug));
+  // The directory lists every licensed state, including the ones also shown as
+  // featured cards above, so "All Licensed States" is complete.
+  const directoryStates = allStates;
   const stateNamesList = allStates.map(s => s.name).join(', ');
 
   const citableSummary_AI = summarizeStatesWeServe();
-  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: 'https://teledirectmd.com/states-we-serve/' });
+  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: 'https://teledirectmd.com/states-we-serve/', dateModified: contentDate('statesWeServe') });
 
   return (
     <>

@@ -17,7 +17,7 @@
  *   • Physician schema includes NPI 1104323203.
  *   • No first-person prescribing language.
  *   • Only Notion-verified CA payors (Aetna Active, UHC Commercial Approved,
- *     Anthem Blue Cross Pending, Cigna Pending) plus regulatory-only
+ *     Anthem Blue Cross Active 2026-09-23, Cigna Pending) plus regulatory-only
  *     references for Medi-Cal and Kaiser (explicitly NOT in-network).
  *
  * Author / E-E-A-T: visible byline + headshot + last reviewed date.
@@ -35,7 +35,7 @@ import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock 
 // Page meta / constants
 // ────────────────────────────────────────────────────────────────────────────
 const PAGE_URL = 'https://teledirectmd.com/ca/uti-treatment-online/';
-const PAGE_TITLE = 'UTI Treatment Online in California | TeleDirectMD';
+const PAGE_TITLE = 'UTI Treatment for Women in California | TeleDirectMD';
 const DATE_PUBLISHED = '2026-05-19';
 const DATE_MODIFIED = '2026-05-19';
 const LAST_REVIEWED = '2026-05-19';
@@ -46,20 +46,20 @@ const PHYSICIAN = {
   specialty: 'Family Medicine',
   licenseState: 'California',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 // California payors — sourced from Notion payor enrollment (refreshed 2026-05-19)
 // Aetna: Active 2026-04-30 · UHC Commercial: Approved 2026-05-29
-// Anthem Blue Cross: Pending · Cigna: Pending
+// Anthem Blue Cross: Active 2026-09-23 (PPO/Indemnity/Medicare PPO) · Cigna: Pending
 // Medi-Cal / Kaiser shown for regulatory clarity only (NOT in-network).
 const CA_PAYORS = [
   { name: 'Aetna', status: 'Active', effective: 'April 30, 2026', inNetwork: true,
     notes: 'Commercial plans. In-network as of April 30, 2026. Verify plan eligibility with Aetna before booking.' },
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true,
     notes: 'Covers UHC Commercial and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types.' },
-  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Enrollment pending — waiting for Anthem to confirm individual-provider enrollment for telehealth. Self pay ($79) available.' },
+  { name: 'Anthem Blue Cross', status: 'Active', effective: 'September 23, 2026', inNetwork: true,
+    notes: 'PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.' },
   { name: 'Cigna', status: 'Pending', effective: 'Pending determination', inNetwork: false,
     notes: 'Pending — Telehealth Only review in progress. Self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false,
@@ -95,19 +95,14 @@ const MEDICATIONS = [
     priceHref: 'https://www.goodrx.com/cephalexin',
     firstLine: false,
     notes: 'Second-line when first-line agents are contraindicated.' },
-  { name: 'Phenazopyridine (AZO) — OTC analgesic',
-    regimen: '200 mg three times daily × up to 2 days',
-    price: 'Available OTC',
-    priceHref: null,
-    firstLine: false,
-    notes: 'Not an antibiotic — for symptom relief only. May turn urine orange.' },
 ];
 
 const FAQ_ITEMS = [
+  { question: 'Does TeleDirectMD treat male UTIs?', answer: <p>No. We do not treat male UTIs, even when symptoms seem mild or uncomplicated. UTI care is for non-pregnant adult women (18+) only. Men with UTI symptoms should seek in-person care and should not book a TeleDirectMD UTI visit.</p> },
   { question: 'Can I get UTI treatment online in California?',
     answer: (
       <p>
-        Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California and held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. If your symptoms are consistent with uncomplicated cystitis and you pass a red-flag screening, a prescription can be sent electronically to your California pharmacy. Self pay is $79. <a href="/insurance/aetna/california/uti-treatment/">Aetna is in-network</a> as of April 30, 2026.
+        Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. Dr. Bhavsar is licensed in California and held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Non-pregnant women 18+ located in California can book a same-day video visit. If your symptoms are consistent with uncomplicated cystitis and you pass a red-flag screening, a prescription can be sent electronically to your California pharmacy. Self pay is $79. <a href="/insurance/aetna/california/">Aetna is in-network</a> as of April 30, 2026.
       </p>
     ),
   },
@@ -121,21 +116,21 @@ const FAQ_ITEMS = [
   { question: 'Is my Aetna plan in California in-network with TeleDirectMD?',
     answer: (
       <p>
-        Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. If you hold an Aetna commercial plan in California, you may be able to use your in-network benefits. Always verify current in-network status directly with Aetna before your visit, as plan eligibility varies by specific plan type. See <a href="/insurance/aetna/california/uti-treatment/">Aetna × California × UTI coverage details</a>. Self pay ($79) is available regardless of insurance status.
+        Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. If you hold an Aetna commercial plan in California, you may be able to use your in-network benefits. Always verify current in-network status directly with Aetna before your visit, as plan eligibility varies by specific plan type. See <a href="/insurance/aetna/california/">Aetna × California × UTI coverage details</a>. Self pay ($79) is available regardless of insurance status.
       </p>
     ),
   },
   { question: 'Is UnitedHealthcare in-network with TeleDirectMD in California?',
     answer: (
       <p>
-        UnitedHealthcare Commercial was approved for California effective May 29, 2026, covering commercial plans and Medicare Advantage. This excludes Medi-Cal, Individual Exchange plans, and Navigate/Charter/Core plan types. Anthem Blue Cross and Cigna enrollments are currently pending. Verify your specific UHC plan eligibility before booking, or view all <a href="/insurance">insurance options</a>.
+        UnitedHealthcare Commercial was approved for California effective May 29, 2026, covering commercial plans and Medicare Advantage. This excludes Medi-Cal, Individual Exchange plans, and Navigate/Charter/Core plan types. Anthem Blue Cross PPO, Indemnity, and Medicare PPO plans are in-network as of September 23, 2026 (HMO and Medi-Cal plans are not included). Cigna is pending. Verify your specific UHC plan eligibility before booking, or view all <a href="/insurance/">insurance options</a>.
       </p>
     ),
   },
   { question: 'Will Medi-Cal cover my TeleDirectMD visit in California?',
     answer: (
       <p>
-        TeleDirectMD is not currently enrolled as a Medi-Cal provider. <a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS</a> confirms that Medi-Cal covers telehealth for physical health services when the provider is an enrolled Medi-Cal rendering provider. If you have Medi-Cal, you can use the $79 self-pay rate, or find a Medi-Cal-enrolled telehealth provider through your managed care plan or the DHCS directory at dhcs.ca.gov.
+        TeleDirectMD is not currently enrolled as a Medi-Cal provider. <a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS</a> confirms that Medi-Cal covers telehealth for physical health services when the provider is an enrolled Medi-Cal rendering provider. If you have Medi-Cal, find a Medi-Cal-enrolled telehealth provider through your managed care plan or the DHCS directory at dhcs.ca.gov.
       </p>
     ),
   },
@@ -191,7 +186,7 @@ const FAQ_ITEMS = [
   { question: 'Is TeleDirectMD appropriate for recurrent UTIs in California?',
     answer: (
       <p>
-        Recurrent UTIs — 2 or more in 6 months or 3 or more in 12 months per <a href="https://www.auanet.org/guidelines-and-quality/guidelines/recurrent-uti" rel="noopener" target="_blank">AUA 2024 guidelines</a> — benefit from in-person urine culture testing and evaluation for contributing factors. TeleDirectMD can discuss prevention strategies and direct you to a California primary care physician or urologist. In-person resources include Planned Parenthood California (plannedparenthood.org/get-care).
+        Recurrent UTIs — 2 or more in 6 months or 3 or more in 12 months per <a href="https://www.auanet.org/guidelines-and-quality/guidelines/recurrent-uti" rel="noopener" target="_blank">AUA/CUA/SUFU guideline (2019, amended 2025)</a> — benefit from in-person urine culture testing and evaluation for contributing factors. TeleDirectMD can discuss prevention strategies and direct you to a California primary care physician or urologist. In-person resources include Planned Parenthood California (plannedparenthood.org/get-care).
       </p>
     ),
   },
@@ -216,14 +211,14 @@ function buildSchemas() {
     '@type': 'MedicalWebPage',
     name: PAGE_TITLE,
     url: PAGE_URL,
-    description: 'UTI treatment by secure video visit for California adults. Board-certified Family Medicine physician. California telehealth law compliant. Aetna in-network. UHC Commercial approved. Self pay $79. Evidence-based antibiotic stewardship.',
+    description: 'UTI treatment by secure video visit for California women. Board-certified Family Medicine physician. California telehealth law compliant. Aetna in-network. UHC Commercial approved. Self pay $79. Evidence-based antibiotic stewardship.',
     datePublished: DATE_PUBLISHED,
     dateModified: DATE_MODIFIED,
     inLanguage: 'en-US',
     about: {
       '@type': 'MedicalCondition',
       name: 'Urinary Tract Infection',
-      alternateName: ['UTI', 'Bladder Infection', 'Cystitis', 'Acute Uncomplicated Cystitis'],
+      alternateName: ['UTI (women only)', 'Bladder Infection', 'Cystitis', 'Acute Uncomplicated Cystitis'],
       code: { '@type': 'MedicalCode', code: 'N39.0', codingSystem: 'ICD-10-CM' },
     },
     medicalAudience: {
@@ -233,7 +228,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -434,12 +429,12 @@ export default function CaUtiTreatmentOnline() {
           <div className="tdmd-container">
             <div className="tdmd-hero-grid">
               <div className="tdmd-hero-copy">
-                <h1 data-speakable="true">UTI Treatment Online in California (Acute Uncomplicated Cystitis)</h1>
+                <h1 data-speakable="true">UTI Treatment for Women in California</h1>
                 <p className="tdmd-hero-sub" data-speakable="true">
                   California adult care by secure video visit. Self pay $79 · Aetna in-network · UHC Commercial approved · MD-only · CA B&amp;P §2290.5 compliant.
                 </p>
                 <p>
-                  A urinary tract infection (UTI), often called a bladder infection, commonly causes burning with urination, urinary frequency, and urgency. Not every patient with these symptoms needs antibiotics, and not every urinary complaint is a simple bladder infection. TeleDirectMD uses a safety-first telehealth approach that screens for red flags — fever, flank pain, pregnancy, catheter use, immunosuppression, recent urologic procedures — before determining whether treatment by video visit is appropriate. If the history supports uncomplicated cystitis without red flags, guideline-based antibiotic treatment may be reasonable by video; adults with pyelonephritis concern, complicated UTI, or severe illness are directed to urgent in-person care. This page is for adults located in California, including {caCities.join(', ')}, and surrounding areas.
+                  A urinary tract infection (UTI), often called a bladder infection, commonly causes burning with urination, urinary frequency, and urgency. Not every patient with these symptoms needs antibiotics, and not every urinary complaint is a simple bladder infection. TeleDirectMD uses a safety-first telehealth approach that screens for red flags — fever, flank pain, pregnancy, catheter use, immunosuppression, recent urologic procedures — before determining whether treatment by video visit is appropriate. If the history supports uncomplicated cystitis without red flags, guideline-based antibiotic treatment may be reasonable by video; adults with pyelonephritis concern, complicated UTI, or severe illness are directed to urgent in-person care. This page is for non-pregnant adult women located in California, including {caCities.join(', ')}, and surrounding areas.
                 </p>
 
                 {/* Visible byline (E-E-A-T) */}
@@ -472,13 +467,13 @@ export default function CaUtiTreatmentOnline() {
                   <li>MD-only care (no mid-levels)</li>
                   <li>Aetna in-network (effective April 30, 2026)</li>
                   <li>UnitedHealthcare Commercial approved (effective May 29, 2026)</li>
-                  <li>Licensed telehealth care for adults located in California at the time of the visit</li>
+                  <li>UTI care for non-pregnant adult women located in California at the time of the visit</li>
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> N39.0 (final coding depends on clinical details)</p>
@@ -495,7 +490,7 @@ export default function CaUtiTreatmentOnline() {
                     <li>Clear follow-up steps and prevention guidance</li>
                   </ul>
                   <p className="tdmd-hero-note">
-                    Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for fever, flank pain, persistent vomiting, severe illness, confusion, pregnancy with concerning urinary symptoms, or worsening symptoms with back pain. TeleDirectMD does not prescribe controlled substances.
+                    Non-pregnant adult women (18+) only. We do not treat male UTIs. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for fever, flank pain, persistent vomiting, severe illness, confusion, pregnancy with concerning urinary symptoms, or worsening symptoms with back pain. TeleDirectMD does not prescribe controlled substances.
                   </p>
                 </div>
               </div>
@@ -512,7 +507,7 @@ export default function CaUtiTreatmentOnline() {
               <div className="tdmd-ca-uti__dual-card tdmd-ca-uti__dual-card--good">
                 <h3>✓ You Are Eligible If</h3>
                 <ul>
-                  <li>You are 18 years old or older</li>
+                  <li>You are a non-pregnant adult woman, 18 years old or older. We do not treat male UTIs.</li>
                   <li>You are physically located in California at the time of the visit</li>
                   <li>You have typical lower UTI symptoms (burning with urination, frequency, urgency, or suprapubic discomfort)</li>
                   <li>You do not have fever, chills, flank pain, or repeated vomiting</li>
@@ -525,7 +520,7 @@ export default function CaUtiTreatmentOnline() {
               <div className="tdmd-ca-uti__dual-card tdmd-ca-uti__dual-card--alert">
                 <h3>✗ You Are Not Eligible If</h3>
                 <ul>
-                  <li>You are under 18 years old</li>
+                  <li>You are male: TeleDirectMD does not treat male UTIs</li><li>You are under 18 years old</li>
                   <li>You are pregnant or could be pregnant with concerning symptoms</li>
                   <li>You have fever, flank pain, rigors, or repeated vomiting</li>
                   <li>You feel severely ill, confused, faint, or short of breath</li>
@@ -593,7 +588,7 @@ export default function CaUtiTreatmentOnline() {
                   <h3>Get a treatment plan and, if appropriate, a prescription</h3>
                   <p>If medication is clinically appropriate, a California-compliant e-prescription is sent to your chosen California pharmacy — CVS, Walgreens, Rite Aid, Walmart, Safeway, or another pharmacy — during or after the visit. You receive clear follow-up steps regardless of treatment choice, including when to seek in-person care if symptoms do not improve.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -621,25 +616,6 @@ export default function CaUtiTreatmentOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical UTI cost comparison">
-                <h3>Typical UTI Visit Cost in California</h3>
-                <p className="tdmd-price-caption">Common ranges Californians see before insurance. Actual costs vary by setting and city.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 13, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical California metro pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <h3 style={{ marginTop: '1.75rem' }}>California Payor Status — TeleDirectMD</h3>
@@ -678,7 +654,7 @@ export default function CaUtiTreatmentOnline() {
             </div>
 
             <p style={{ marginTop: '1rem' }}>
-              For deeper detail, see <a href="/insurance/aetna/california/uti-treatment/">Aetna × California × UTI coverage</a> or view all <a href="/insurance">insurance options</a>. The full <a href="/health-guides/telehealth-uti-clinical-evidence/">telehealth UTI clinical evidence guide</a> walks through the rationale behind our stewardship approach.
+              For deeper detail, see <a href="/insurance/aetna/california/">Aetna in California coverage</a> or view all <a href="/insurance/">insurance options</a>. The full <a href="/health-guides/telehealth-uti-clinical-evidence/">telehealth UTI clinical evidence guide</a> walks through the rationale behind our stewardship approach.
             </p>
           </div>
         </section>
@@ -690,10 +666,10 @@ export default function CaUtiTreatmentOnline() {
 
             <h3>How common are UTIs, and why does antibiotic resistance matter specifically in California?</h3>
             <p>
-              UTI is among the most common bacterial infections in adult women, accounting for more than 8 million healthcare visits annually in the United States. Women have a lifetime UTI risk of approximately 53%, per <a href="https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/" rel="noopener" target="_blank">IDSA 2025 guideline data</a>. The <a href="/health-guides/urinary-tract-infection-uti-guide/">TeleDirectMD UTI guide</a> covers symptoms, causes, and prevention in detail.
+              UTI is among the most common bacterial infections in adult women, accounting for more than 8 million healthcare visits annually in the United States. About half of all women will have at least one UTI in their lifetime. The <a href="/health-guides/urinary-tract-infection-uti-guide/">TeleDirectMD UTI guide</a> covers symptoms, causes, and prevention in detail.
             </p>
             <p>
-              National surveillance data published in <em>Clinical Infectious Diseases</em> show that <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8664433/" rel="noopener" target="_blank">25.4% of E. coli isolates from community-acquired UTIs are nonsusceptible to TMP-SMX, and 21.1% are nonsusceptible to fluoroquinolones</a> — both above the 20% threshold at which <a href="https://www.idsociety.org/practice-guideline/urinary-tract-infections-in-women/" rel="noopener" target="_blank">IDSA guidelines</a> recommend against empirical use. The <a href="https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/AntimicrobialResistanceLandingPage.aspx" rel="noopener" target="_blank">California Department of Public Health</a> reports that antimicrobial-resistant infections cause roughly 360,000 illnesses and nearly 4,500 deaths among Californians each year across all pathogens.
+              National surveillance data published in <em>Clinical Infectious Diseases</em> show that <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8664433/" rel="noopener" target="_blank">25.4% of E. coli isolates from community-acquired UTIs are nonsusceptible to TMP-SMX, and 21.1% are nonsusceptible to fluoroquinolones</a> — the TMP-SMX rate exceeds the 20% resistance threshold above which <a href="https://pubmed.ncbi.nlm.nih.gov/21292654/" rel="noopener" target="_blank">IDSA guidelines</a> advise against empirical TMP-SMX for cystitis, and IDSA reserves fluoroquinolones for situations other than first-line cystitis treatment. The <a href="https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/AntimicrobialResistanceLandingPage.aspx" rel="noopener" target="_blank">California Department of Public Health</a> reports that antimicrobial-resistant infections cause roughly 360,000 illnesses and nearly 4,500 deaths among Californians each year across all pathogens.
             </p>
 
             <h3>How does TeleDirectMD apply antibiotic stewardship in California?</h3>
@@ -708,7 +684,7 @@ export default function CaUtiTreatmentOnline() {
           <div className="tdmd-container">
             <h2>UTI Treatment Options and Medication Costs in California</h2>
             <p>
-              The <a href="https://www.idsociety.org/practice-guideline/urinary-tract-infections-in-women/" rel="noopener" target="_blank">IDSA guideline for acute uncomplicated cystitis</a> and the <a href="https://www.auanet.org/guidelines-and-quality/guidelines/recurrent-uti" rel="noopener" target="_blank">AUA/CUA/SUFU 2024 guideline on recurrent UTIs</a> identify nitrofurantoin, trimethoprim-sulfamethoxazole (when local resistance &lt; 20%), and fosfomycin as first-line agents for uncomplicated cystitis.
+              The <a href="https://pubmed.ncbi.nlm.nih.gov/21292654/" rel="noopener" target="_blank">IDSA guideline for acute uncomplicated cystitis</a> and the <a href="https://www.auanet.org/guidelines-and-quality/guidelines/recurrent-uti" rel="noopener" target="_blank">AUA/CUA/SUFU guideline on recurrent UTIs (2019, amended 2025)</a> identify nitrofurantoin, trimethoprim-sulfamethoxazole (when local resistance &lt; 20%), and fosfomycin as first-line agents for uncomplicated cystitis.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="UTI antibiotic options and GoodRx prices">
@@ -754,7 +730,7 @@ export default function CaUtiTreatmentOnline() {
                   <li>No fever, flank pain, chills, or vomiting</li>
                   <li>Not pregnant</li>
                   <li>No catheter or recent urologic procedure</li>
-                  <li>Adult 18+, located in California</li>
+                  <li>Non-pregnant adult woman, 18+, located in California</li>
                   <li>Aetna or UHC Commercial plan (in-network), or self pay $79</li>
                 </ul>
               </div>
@@ -778,10 +754,10 @@ export default function CaUtiTreatmentOnline() {
           <div className="tdmd-container">
             <div className="tdmd-ca-uti__cta-strip" role="complementary">
               <div>
-                <p>Book a same-day video visit — California adults, 18+</p>
+                <p>Book a same-day video visit — California women, 18+</p>
                 <small>Self pay $79 · Aetna in-network · UHC Commercial approved May 2026 · No ER wait</small>
               </div>
-              <a className="tdmd-ca-uti__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
+              <a className="tdmd-ca-uti__cta-btn" href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -800,8 +776,8 @@ export default function CaUtiTreatmentOnline() {
                 <p>Book a same-day video visit. Self pay $79 · Aetna in-network · UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -834,12 +810,12 @@ export default function CaUtiTreatmentOnline() {
               <a href="/uti-treatment-online/">National UTI page (condition pillar)</a>
               <a href="/health-guides/telehealth-uti-clinical-evidence/">Telehealth UTI clinical evidence guide</a>
               <a href="/health-guides/urinary-tract-infection-uti-guide/">Urinary tract infection (UTI) patient guide</a>
-              <a href="/insurance/aetna/california/uti-treatment/">Aetna × California × UTI coverage</a>
+              <a href="/insurance/aetna/california/">Aetna in California coverage</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/insurance">Insurance</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/insurance/">Insurance</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>
@@ -856,9 +832,9 @@ export default function CaUtiTreatmentOnline() {
               <li><a href="https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/AntimicrobialResistanceLandingPage.aspx" rel="noopener" target="_blank">CDPH — Antimicrobial Resistance</a>. Retrieved May 19, 2026.</li>
               <li><a href="https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/AntimicrobialStewardshipLandingPage.aspx" rel="noopener" target="_blank">CDPH — Antimicrobial Stewardship Program</a>. Retrieved May 19, 2026.</li>
               <li><a href="https://www.cdc.gov/uti/about/index.html" rel="noopener" target="_blank">CDC — Urinary Tract Infection Basics</a>. Retrieved May 19, 2026.</li>
-              <li><a href="https://www.idsociety.org/practice-guideline/urinary-tract-infections-in-women/" rel="noopener" target="_blank">IDSA/ESCMID Guideline for Acute Uncomplicated Cystitis and Pyelonephritis in Women</a>. Retrieved May 19, 2026.</li>
+              <li><a href="https://pubmed.ncbi.nlm.nih.gov/21292654/" rel="noopener" target="_blank">IDSA/ESCMID Guideline for Acute Uncomplicated Cystitis and Pyelonephritis in Women</a>. Retrieved May 19, 2026.</li>
               <li><a href="https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/" rel="noopener" target="_blank">IDSA 2025 Guideline Update — Complicated UTI</a>. Retrieved May 19, 2026.</li>
-              <li><a href="https://www.auanet.org/guidelines-and-quality/guidelines/recurrent-uti" rel="noopener" target="_blank">AUA/CUA/SUFU Guideline — Recurrent UTIs in Women (2024)</a>. Retrieved May 19, 2026.</li>
+              <li><a href="https://www.auanet.org/guidelines-and-quality/guidelines/recurrent-uti" rel="noopener" target="_blank">AUA/CUA/SUFU Guideline — Recurrent Uncomplicated UTIs in Women (2019, amended 2025)</a>. Retrieved May 19, 2026.</li>
               <li><a href="https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/01/treatment-of-urinary-tract-infections-in-nonpregnant-women" rel="noopener" target="_blank">ACOG — Treatment of UTIs in Nonpregnant Women</a>. Retrieved May 19, 2026.</li>
               <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8664433/" rel="noopener" target="_blank">Antimicrobial Resistance Trends in Urine E. coli Isolates, US Outpatients 2011–2019 (Clinical Infectious Diseases)</a>. Retrieved May 19, 2026.</li>
               <li><a href="https://telehealth.hhs.gov/providers/telehealth-policy/prescribing-controlled-substances-via-telehealth" rel="noopener" target="_blank">HHS Telehealth.HHS.gov — Prescribing Controlled Substances via Telehealth</a>. Retrieved May 19, 2026.</li>

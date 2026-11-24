@@ -14,13 +14,13 @@ const LAST_REVIEWED = '2026-05-20';
 
 const PHYSICIAN = {
   name: 'Parth Bhavsar, MD', npi: '1104323203', specialty: 'Family Medicine',
-  licenseState: 'California', headshot: '/images/dr-parth-bhavsar.jpg', bioUrl: '/about',
+  licenseState: 'California', headshot: '/images/dr-parth-bhavsar.jpg', bioUrl: '/about/',
 };
 
 const CA_PAYORS = [
   { name: 'Aetna', status: 'Active', effective: 'April 30, 2026', inNetwork: true, notes: 'Commercial plans. In-network as of April 30, 2026.' },
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true, notes: 'Commercial + Medicare Advantage. Excludes Medi-Cal, Individual Exchange, Navigate/Charter/Core.' },
-  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending', inNetwork: false, notes: 'Enrollment pending. Self pay ($79) available.' },
+  { name: 'Anthem Blue Cross', status: 'Active', effective: 'September 23, 2026', inNetwork: true, notes: 'PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.' },
   { name: 'Cigna', status: 'Pending', effective: 'Pending', inNetwork: false, notes: 'Telehealth Only review in progress. Self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false, notes: 'Closed system. Use Kaiser telehealth at kp.org.' },
   { name: 'Medi-Cal', status: 'Not enrolled', effective: '—', inNetwork: false, notes: 'Not enrolled. Find Medi-Cal providers at dhcs.ca.gov.' },
@@ -36,7 +36,7 @@ const MEDICATIONS = [
 
 const CA_SIBLINGS = [
   { slug: 'yeast-infection-treatment-online', label: 'Yeast Infection Treatment in CA', why: 'Most common differential — similar discharge symptoms but different treatment.' },
-  { slug: 'uti-treatment-online', label: 'UTI Treatment in CA', why: 'Dysuria and pelvic discomfort can occur alongside BV.' },
+  { slug: 'uti-treatment-online', label: 'UTI Treatment for Women in CA', why: 'Dysuria and pelvic discomfort can occur alongside BV.' },
   { slug: 'chlamydia-treatment-online', label: 'Chlamydia Treatment in CA', why: 'STI that can co-exist with BV and cause discharge.' },
   { slug: 'trichomoniasis-treatment-online', label: 'Trichomoniasis Treatment in CA', why: 'STI differential when odorous discharge is present.' },
   { slug: 'vaginal-dryness-treatment-online', label: 'Vaginal Dryness Treatment in CA', why: 'Vaginal pH changes in menopause may predispose to recurrent BV.' },
@@ -63,19 +63,19 @@ const FAQ_ITEMS = [
     answer: (<p>BV during pregnancy requires prompt treatment to reduce risk of preterm labor and other complications. However, treatment recommendations differ in pregnancy — oral metronidazole can be used (evidence supports safety in second and third trimesters), but the optimal regimen may differ from non-pregnant treatment. TeleDirectMD does not manage BV in pregnancy. Pregnant patients with BV symptoms should contact their OB/GYN or go to an appropriate in-person provider immediately, as the <a href="https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/vaginitis-in-nonpregnant-patients" rel="noopener" target="_blank">ACOG</a> recommends screening and treating BV in pregnancy for certain risk groups.</p>),
   },
   { question: 'Does California AB 744 telehealth parity apply to BV treatment visits?',
-    answer: (<p>Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85</a> (AB 744, 2019) requires commercial health plans to reimburse telehealth on the same basis as in-person services. Parity applies when TeleDirectMD is in-network with your plan. Aetna (active April 30, 2026) and UnitedHealthcare Commercial (approved May 29, 2026) are currently in-network in California. Anthem Blue Cross and Cigna enrollments are pending.</p>),
+    answer: (<p>Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85</a> (AB 744, 2019) requires commercial health plans to reimburse telehealth on the same basis as in-person services. Parity applies when TeleDirectMD is in-network with your plan. Aetna (active April 30, 2026) and UnitedHealthcare Commercial (approved May 29, 2026) are currently in-network in California. Anthem Blue Cross PPO, Indemnity, and Medicare PPO plans are in-network as of September 23, 2026 (HMO and Medi-Cal plans are not included). Cigna is pending.</p>),
   },
   { question: 'Is Aetna in-network with TeleDirectMD in California for BV treatment?',
-    answer: (<p>Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. If you hold an Aetna commercial plan in California, you may be able to use your in-network benefits. Always verify current in-network status directly with Aetna before your visit, as plan eligibility varies. Self pay ($79) is available regardless of insurance status. See <a href="/insurance">all insurance options</a>.</p>),
+    answer: (<p>Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. If you hold an Aetna commercial plan in California, you may be able to use your in-network benefits. Always verify current in-network status directly with Aetna before your visit, as plan eligibility varies. Self pay ($79) is available regardless of insurance status. See <a href="/insurance/">all insurance options</a>.</p>),
   },
   { question: 'Will Medi-Cal cover BV treatment at TeleDirectMD?',
-    answer: (<p>TeleDirectMD is not currently enrolled as a Medi-Cal rendering provider. <a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS</a> confirms that Medi-Cal covers telehealth for physical health services when the provider is enrolled. If you have Medi-Cal, use the $79 self-pay option or find a Medi-Cal-enrolled provider through your managed care plan or DHCS directory. <a href="https://www.plannedparenthood.org/get-care" rel="noopener" target="_blank">Planned Parenthood California</a> and California Title X clinics provide free or low-cost BV testing and treatment.</p>),
+    answer: (<p>TeleDirectMD is not currently enrolled as a Medi-Cal rendering provider. <a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS</a> confirms that Medi-Cal covers telehealth for physical health services when the provider is enrolled. If you have Medi-Cal, find a Medi-Cal-enrolled provider through your managed care plan or DHCS directory. <a href="https://www.plannedparenthood.org/get-care" rel="noopener" target="_blank">Planned Parenthood California</a> and California Title X clinics provide free or low-cost BV testing and treatment.</p>),
   },
   { question: 'Can BV come back after treatment?',
     answer: (<p>Yes. Recurrent BV is common — approximately 30% of women experience recurrence within 3 months of treatment, per the <a href="https://www.cdc.gov/std/treatment-guidelines/bv.htm" rel="noopener" target="_blank">CDC</a>. Factors contributing to recurrence include disruption of Lactobacillus-dominant flora (douching, antibiotic use, new sexual partners) and partner reinfection. For recurrent BV, extended suppressive therapy with metronidazole vaginal gel twice weekly for 4–6 months may be appropriate — this warrants in-person evaluation and culture. TeleDirectMD can treat acute episodes but recommends in-person evaluation for RVVC workup after multiple recurrences.</p>),
   },
   { question: 'Does BV need to be treated if I have no symptoms?',
-    answer: (<p>Asymptomatic BV in non-pregnant women generally does not require treatment outside of pregnancy or prior to certain gynecologic procedures. The <a href="https://www.cdc.gov/std/treatment-guidelines/bv.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines 2021</a> recommend treatment only for symptomatic women — or for asymptomatic BV before procedures such as abortion, hysterectomy, or IUD insertion. In pregnancy, screening and treatment of BV is recommended for women at high risk of preterm birth per ACOG.</p>),
+    answer: (<p>Asymptomatic BV in non-pregnant women generally does not require treatment outside of pregnancy or prior to certain gynecologic procedures. The <a href="https://www.cdc.gov/std/treatment-guidelines/bv.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines 2021</a> recommend treatment only for symptomatic women — or for asymptomatic BV before procedures such as abortion, hysterectomy, or IUD insertion. In pregnancy, symptomatic BV should be treated; routine screening of asymptomatic pregnant women is not recommended per USPSTF and CDC.</p>),
   },
   { question: 'Can BV increase my risk of STIs in California?',
     answer: (<p>Yes. The <a href="https://www.cdc.gov/std/treatment-guidelines/bv.htm" rel="noopener" target="_blank">CDC</a> reports that BV is associated with increased acquisition of HIV, gonorrhea, chlamydia, and other STIs — likely because BV disrupts the normal acidic vaginal environment that protects against pathogens. BV is also associated with increased risk of PID (pelvic inflammatory disease), an upper reproductive tract infection that can cause infertility if untreated. If you have symptoms of both BV and possible STI, in-person testing with STI screening is recommended before starting empiric BV treatment.</p>),
@@ -93,7 +93,7 @@ function buildSchemas() {
     datePublished: DATE_PUBLISHED, dateModified: DATE_MODIFIED, inLanguage: 'en-US',
     about: { '@type': 'MedicalCondition', name: 'Bacterial Vaginosis', alternateName: ['BV', 'Vaginal Bacteriosis'], code: { '@type': 'MedicalCode', code: 'N76.0', codingSystem: 'ICD-10-CM' } },
     medicalAudience: { '@type': 'MedicalAudience', audienceType: 'Patient', geographicArea: { '@type': 'AdministrativeArea', name: 'California' } },
-    reviewedBy: { '@type': 'Physician', '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar', name: PHYSICIAN.name, identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi }, medicalSpecialty: PHYSICIAN.specialty, hasCredential: [{ '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'Board Certification — American Board of Family Medicine' }], licensedIn: PHYSICIAN.licenseState, worksFor: { '@type': 'MedicalOrganization', name: 'TeleDirectMD', url: 'https://teledirectmd.com' }, sameAs: ['https://npiregistry.cms.hhs.gov/provider-view/1104323203', 'https://teledirectmd.com/about/'] },
+    reviewedBy: { '@type': 'Physician', '@id': 'https://teledirectmd.com/about/#physician', name: PHYSICIAN.name, identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi }, medicalSpecialty: PHYSICIAN.specialty, hasCredential: [{ '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'Board Certification — American Board of Family Medicine' }], licensedIn: PHYSICIAN.licenseState, worksFor: { '@type': 'MedicalOrganization', name: 'TeleDirectMD', url: 'https://teledirectmd.com' }, sameAs: ['https://npiregistry.cms.hhs.gov/provider-view/1104323203', 'https://teledirectmd.com/about/'] },
     speakable: { '@type': 'SpeakableSpecification', cssSelector: ['#ca-bv-opening', '#ca-bv-opening p', '.tdmd-ca-bv__byline', '#ca-bv-treatment-online-faq'] },
   };
   const faqPage = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: FAQ_ITEMS.map((faq) => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: extractPlain(faq.answer) } })) };
@@ -167,9 +167,9 @@ export default function CaBvTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
                 </div>
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> N76.0 (Vaginitis — final coding depends on clinical details)</p>
               </div>
@@ -272,7 +272,7 @@ export default function CaBvTreatmentOnline() {
               </div>
               <div className="tdmd-decision-step tdmd-decision-step-good">
                 <div className="tdmd-decision-number">3</div>
-                <div className="tdmd-decision-content"><h3>Receive treatment plan and, if appropriate, a prescription</h3><p>If metronidazole or another BV treatment is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy. Recurrence prevention and lifestyle guidance is provided regardless of treatment choice.</p><div className="tdmd-decision-cta"><a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a></div></div>
+                <div className="tdmd-decision-content"><h3>Receive treatment plan and, if appropriate, a prescription</h3><p>If metronidazole or another BV treatment is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy. Recurrence prevention and lifestyle guidance is provided regardless of treatment choice.</p><div className="tdmd-decision-cta"><a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a></div></div>
               </div>
             </div>
           </div>
@@ -285,15 +285,6 @@ export default function CaBvTreatmentOnline() {
             <p>TeleDirectMD&apos;s self-pay rate is <strong>$79</strong>. In-network insurance patients pay their plan&apos;s telehealth copay.</p>
             <div className="tdmd-price-grid">
               <div className="tdmd-price-card"><h3>TeleDirectMD Video Visit</h3><p className="tdmd-price-big">$79</p><p className="tdmd-price-sub">Self-pay flat fee — no subscription</p><ul className="tdmd-price-includes"><li>Board-certified MD evaluation</li><li>Red-flag STI and pregnancy screening</li><li>e-Prescription to your CA pharmacy</li><li>Recurrence prevention guidance</li></ul></div>
-              <div className="tdmd-price-chart" role="group" aria-label="BV cost comparison">
-                <h3>Typical BV Treatment Cost in California</h3>
-                <p className="tdmd-price-caption">Before insurance. Actual costs vary by location.</p>
-                <div className="tdmd-vbars" role="list">
-                  {[{ name: 'TeleDirectMD', value: '$79', heightPct: 13, isTdmd: true }, { name: 'Other telehealth', value: '$75–$150', heightPct: 22 }, { name: 'Urgent care', value: '$150–$300', heightPct: 45 }, { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 }].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem"><span className="tdmd-vbar__value">{bar.value}</span><div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" /><span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span></div>
-                  ))}
-                </div>
-              </div>
             </div>
             <h3 style={{ marginTop: '1.75rem' }}>California Payor Status — TeleDirectMD</h3>
             <div className="tdmd-table-wrap">
@@ -325,6 +316,7 @@ export default function CaBvTreatmentOnline() {
               </table>
             </div>
             <p className="tdmd-med-note"><strong>Important:</strong> Medication selection depends on allergies, pregnancy status, prior treatments, and tolerance. Do not start treatment without clinical evaluation.</p>
+            <p className="tdmd-med-note" data-fda-notes="true"><strong>FDA labeling note:</strong> Oral metronidazole, Rx only, has not been approved by the FDA as safe and effective to treat bacterial vaginosis; it is the CDC 2021 recommended first-line regimen. Only a licensed physician may prescribe this medication for this condition if, in his clinical judgment, use is medically appropriate. Report side effects to the FDA at www.fda.gov/medwatch or 1-800-FDA-1088.</p>
           </div>
         </section>
 
@@ -362,7 +354,7 @@ export default function CaBvTreatmentOnline() {
           <div className="tdmd-container">
             <div className="tdmd-ca-bv__cta-strip" role="complementary">
               <div><p>Book a same-day video visit — California adults, 18+</p><small>Self pay $79 · Aetna in-network · UHC Commercial approved May 2026</small></div>
-              <a className="tdmd-ca-bv__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
+              <a className="tdmd-ca-bv__cta-btn" href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -370,7 +362,7 @@ export default function CaBvTreatmentOnline() {
         <section className="tdmd-section tdmd-faq" id={`${pid}-faq`}>
           <div className="tdmd-container">
             <FaqAccordion sectionTitle="Frequently Asked Questions — BV Treatment in California" items={FAQ_ITEMS.map((f, i) => ({ ...f, id: `${pid}-faq-${i}` }))} />
-            <div className="tdmd-bottom-cta"><div className="tdmd-bottom-cta-copy"><h3>Ready to see a California-licensed MD?</h3><p>Book a same-day video visit. Self pay $79 · Aetna in-network · UHC Commercial approved.</p></div><div className="tdmd-bottom-cta-actions"><a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a><a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a></div></div>
+            <div className="tdmd-bottom-cta"><div className="tdmd-bottom-cta-copy"><h3>Ready to see a California-licensed MD?</h3><p>Book a same-day video visit. Self pay $79 · Aetna in-network · UHC Commercial approved.</p></div><div className="tdmd-bottom-cta-actions"><a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a><a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Conditions</a></div></div>
           </div>
         </section>
 

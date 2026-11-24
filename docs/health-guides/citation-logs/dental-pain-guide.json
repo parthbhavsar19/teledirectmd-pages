@@ -1,0 +1,808 @@
+{
+  "guide": "dental-pain-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 7 verified, retractions: none (7 DOIs: refs 1, 3, 4, 6, 7, 8, 19; no editorial notices, no contrasting evidence flagged, no predatory journals). PubMed article types checked for all 7: none is a Retracted Publication or Retraction Notice.",
+  "references": [
+    {
+      "n": 1,
+      "kind": "guideline",
+      "cited_as": "Carrasco-Labra A, Polk DE, Urquhart O, et al. Evidence-based clinical practice guideline for the pharmacologic management of acute dental pain in adolescents, adults, and older adults: A report from the American Dental Association Science and Research Institute, the University of Pittsburgh, and the University of Pennsylvania. J Am Dent Assoc. 2024;155(2):102-117.e9.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38325969/",
+      "pmid": "38325969",
+      "pmcid": "PMC10919895",
+      "doi": "10.1016/j.adaj.2023.10.009",
+      "record_title": "Evidence-based clinical practice guideline for the pharmacologic management of acute dental pain in adolescents, adults, and older adults: A report from the American Dental Association Science and Research Institute, the University of Pittsburgh, and the University of Pennsylvania.",
+      "record_journal": "J Am Dent Assoc",
+      "record_year": "2024",
+      "article_type": "Practice Guideline; Journal Article",
+      "version_or_date": "JADA 2024 Feb;155(2):102-117.e9",
+      "notes": "Replaces the ADA landing page previously cited as ref 1, which does not state the recommendations (audit). The dose table is not in the PMC text, so specific regimens are cited to ref 10 instead.",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC10919895); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "NSAIDs alone or with acetaminophen are first-line therapy for acute dental pain after extraction and for toothache in adolescents, adults, and older adults",
+          "quote": "The key recommendation from this guideline is that nonopioid medications, particularly NSAIDs alone or in combination with acetaminophen, are first-line therapy for the management of acute dental pain after tooth extraction(s) and toothache in adolescents, adults, and older adults.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "NSAIDs alone or with acetaminophen likely give better pain relief with a more favorable safety profile than opioids",
+          "quote": "nonsteroidal anti-inflammatory drugs alone or in combination with acetaminophen likely provide superior pain relief with a more favorable safety profile than opioids.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Guideline developed by the ADA Science and Research Institute with the University of Pittsburgh and the University of Pennsylvania",
+          "quote": "In developing this guideline, the American Dental Association Science and Research Institute, the University of Pittsburgh, the University of Pennsylvania, and McMaster University followed methodological standards",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Guideline used the GRADE approach",
+          "quote": "The panel used the Grading of Recommendations, Assessment, Development and Evaluation approach to assess the certainty of the evidence",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Recommendation rests on systematic reviews and meta-analyses",
+          "quote": "A panel convened by the American Dental Association Science and Research Institute, the University of Pittsburgh, and the University of Pennsylvania conducted systematic reviews and meta-analyses and formulated evidence-based recommendations",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Guideline tells clinicians to avoid routine just-in-case opioid prescribing",
+          "quote": "Clinicians should avoid the routine use of just-in-case prescribing of opioids and should exert extreme caution when prescribing opioids to adolescents and young adults.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Maximum daily dose of ibuprofen 2,400 mg and acetaminophen 4,000 mg",
+          "quote": "The maximum daily dose of ibuprofen is 2,400 mg, naproxen sodium is 1,100 mg, and acetaminophen is 4,000 mg.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Opioids increase the risk of dizziness, drowsiness, nausea, and vomiting",
+          "quote": "In comparison, opioids increase the risk of dizziness, drowsiness, nausea, and vomiting.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Opioids carry risks of physiological dependence, substance use disorder, misuse, and respiratory depression",
+          "quote": "covering potential opioid risks (including physiological dependence, risk of substance use disorder, opioid misuse, respiratory depression, adverse effects on driving and operating machinery)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "guideline",
+      "cited_as": "American Dental Association. Antibiotics for Dental Pain and Swelling Guideline (2019). Endorsed by the American College of Emergency Physicians. Accessed November 15, 2026.",
+      "url": "https://www.ada.org/resources/research/science/evidence-based-dental-research/antibiotics-for-dental-pain-and-swelling",
+      "version_or_date": "Antibiotics for Dental Pain and Swelling Guideline (2019); page shows no update date (read 2026-11-15)",
+      "notes": "Kept. Page does not mention specific antibiotics or doses; regimen claims are cited to ref 6 (the guideline itself).",
+      "retrieved_with": "WebFetch of official ADA page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "ADA antibiotic guideline recommends against antibiotics for most pulpal and periapical (toothache) conditions",
+          "quote": "The guideline recommends against using antibiotics for most pulpal and periapical conditions",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dentists should prioritize dental treatment (pulpotomy, pulpectomy, root canal treatment, incision and drainage) over antibiotics for SIP, SAP and localized acute apical abscess in adults not severely immunocompromised",
+          "quote": "dentists should prioritize dental treatments such as pulpotomy, pulpectomy, nonsurgical root canal treatment, or incision and drainage for symptomatic irreversible pulpitis, symptomatic apical periodontitis, and localized acute apical abscess in adult patients who are not severely immunocompromised.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Antibiotics are appropriate with systemic involvement such as fever or malaise",
+          "quote": "If a patient's condition progresses to systemic involvement, showing signs of fever or malaise, then dentists should prescribe antibiotics.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Guideline endorsed by the American College of Emergency Physicians",
+          "quote": "The guideline is endorsed by the American College of Emergency Physicians.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "journal",
+      "cited_as": "Moore PA, Ziegler KM, Lipman RD, et al. Benefits and harms associated with analgesic medications used in the management of acute dental pain: An overview of systematic reviews. J Am Dent Assoc. 2018;149(4):256-265.e3.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29599019/",
+      "pmid": "29599019",
+      "doi": "10.1016/j.adaj.2018.02.012",
+      "record_title": "Benefits and harms associated with analgesic medications used in the management of acute dental pain: An overview of systematic reviews.",
+      "record_journal": "J Am Dent Assoc",
+      "record_year": "2018",
+      "article_type": "Review (overview of systematic reviews)",
+      "notes": "Abstract only. Removed unsupported claims: that the five reviews were all Cochrane reviews, the 400 mg/500 mg every-6-hour regimen, and \"performed as well as or better than opioids\".",
+      "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Overview included five eligible systematic reviews",
+          "quote": "Five reviews were found eligible for inclusion.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Ibuprofen-acetaminophen combinations had the highest association with benefit and highest proportion of adults with maximum pain relief",
+          "quote": "The data identified combinations of ibuprofen and acetaminophen as having the highest association with treatment benefit in adult patients and the highest proportion of adult patients who experienced maximum pain relief.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "NSAIDs with or without acetaminophen offered the most favorable balance of benefits and harms",
+          "quote": "The best available data suggested that the use of nonsteroidal medications, with or without acetaminophen, offered the most favorable balance between benefits and harms",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Opioid-containing medications were among those most often associated with acute adverse events in children and adults",
+          "quote": "Medication and medication combinations that included opioids were among those associated most frequently with acute adverse events in both child and adult-aged patient populations.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Green VG, Polk DE, Turturro MA, Moore PA, Carrasco-Labra A. Evidence-based clinical practice guidelines for the management of acute dental pain. Am J Emerg Med. 2025;89:247-253.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12754838/",
+      "pmid": "39764906",
+      "pmcid": "PMC12754838",
+      "doi": "10.1016/j.ajem.2024.12.054",
+      "record_title": "Evidence-based clinical practice guidelines for the management of acute dental pain.",
+      "record_journal": "Am J Emerg Med",
+      "record_year": "2025 (epub 2024 Dec 22)",
+      "article_type": "Journal Article; Practice Guideline (self-described commentary)",
+      "version_or_date": "Am J Emerg Med 2025;89:247-253",
+      "notes": "Fixed citation: was printed as Carrasco-Labra A et al., 2024;88:1-14; record is Green VG et al., 2025;89:247-253. The fixed-schedule 400-600 mg + 500 mg regimen is not in this paper text; now cited to ref 10.",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC12754838); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Guideline panel recommends avoiding opioids for toothache, with NSAIDs alone or with acetaminophen first-line",
+          "quote": "The guideline panel recommends avoiding the use of opioid analgesics and instead using first-line therapy of NSAIDs alone or NSAIDs in combination with acetaminophen",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Opioids reserved for when first-line therapy is insufficient or NSAIDs are contraindicated",
+          "quote": "Opioids should be reserved for clinical situations when first-line therapy is insufficient or contraindications to NSAIDs exist.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Guideline used GRADE and produced 18 recommendations and six good practice statements",
+          "quote": "The GRADE approach was used to assess the certainty of the evidence; the GRADE Evidence-to-Decision Framework was used to formulate 18 recommendations and six good practice statements.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "2025 AJEM commentary summarizes the 2024 guideline for emergency and urgent care settings",
+          "quote": "This commentary summarizes the recommendations from a 2024 clinical practice guideline for the pharmacological management of acute dental pain associated with tooth extractions and toothache applicable to ED settings, hospitals, and urgent care clinics",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "other_web",
+      "cited_as": "Cleveland Clinic. Ludwig's Angina. Last updated February 26, 2025. Accessed November 15, 2026.",
+      "url": "https://my.clevelandclinic.org/health/diseases/23457-ludwigs-angina",
+      "version_or_date": "Last updated 02/26/2025 (read 2026-11-15)",
+      "notes": "Year corrected from 2022. Removed unsupported \"fatal airway obstruction within hours\", 101 F threshold and two-finger-width mouth opening.",
+      "retrieved_with": "WebFetch of Cleveland Clinic page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Ludwig's angina is a life-threatening emergency",
+          "quote": "Ludwig angina is a life-threatening emergency that needs immediate medical attention.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Ludwig's angina is a fast-growing cellulitis of the floor of the mouth",
+          "quote": "Ludwig's angina (Ludwig angina) is a fast-growing cellulitis infection that affects the floor of your mouth.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most common cause is an abscessed lower molar",
+          "quote": "The most common cause of Ludwig angina is an abscessed lower molar tooth.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "It can come on suddenly and spread rapidly",
+          "quote": "Ludwig angina can come on suddenly and spread rapidly.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Swelling can spread quickly to the tongue and throat and make it hard to breathe",
+          "quote": "Swelling can spread quickly to your tongue and throat, making it hard for you to breathe.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hospital care: securing the airway and antibiotics through a vein",
+          "quote": "Once your airway is open, your provider will likely give you antibiotics through an IV line.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Sometimes surgical drainage",
+          "quote": "In severe cases, healthcare providers may surgically drain the infection.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "guideline",
+      "cited_as": "Lockhart PB, Tampi MP, Abt E, et al. Evidence-based clinical practice guideline on antibiotic use for the urgent management of pulpal- and periapical-related dental pain and intraoral swelling: A report from the American Dental Association. J Am Dent Assoc. 2019;150(11):906-921.e12.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31668170/",
+      "pmid": "31668170",
+      "pmcid": "PMC8270006",
+      "doi": "10.1016/j.adaj.2019.08.020",
+      "record_title": "Evidence-based clinical practice guideline on antibiotic use for the urgent management of pulpal- and periapical-related dental pain and intraoral swelling: A report from the American Dental Association.",
+      "record_journal": "J Am Dent Assoc",
+      "record_year": "2019",
+      "article_type": "Journal Article; Practice Guideline; Systematic Review",
+      "version_or_date": "JADA 2019 Nov;150(11):906-921.e12",
+      "notes": "New reference (the guideline body behind ref 2), replacing the cut Therapeutics Initiative page. Red-flag claims are partly supported: the guideline says worsening needs urgent evaluation but gives no 24-48 hour window and no fever threshold.",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC8270006); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Suggests amoxicillin or penicillin VK for pulp necrosis with localized acute apical abscess when dental treatment is not immediately available, with urgent referral",
+          "quote": "The expert panel suggests dentists prescribe oral amoxicillin (500 milligrams, three times a day, 3–7d) or oral penicillin VK (500 milligrams, four times a day, 3–7d) for immunocompetent adults with pulp necrosis and localized acute apical abscess",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Delayed prescription for pulp necrosis with symptomatic apical periodontitis, to fill if symptoms worsen or dental treatment has not happened",
+          "quote": "the panel suggests the use of a delayed antibiotic prescription for use if patients’ symptoms worsen and/or DCDT has yet to be performed.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Antibiotics recommended with systemic involvement such as fever or malaise",
+          "quote": "They recommended antibiotics in patients with systemic involvement (for example, malaise or fever) due to the dental conditions or when the risk of experiencing progression to systemic involvement is high.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Amoxicillin 500 mg three times a day or penicillin VK 500 mg four times a day for 3 to 7 days",
+          "quote": "The expert panel suggests dentists prescribe oral amoxicillin (500 milligrams, three times a day, 3–7d) or oral penicillin VK (500 milligrams, four times a day, 3–7d) for immunocompetent adults with pulp necrosis and acute apical abscess with systemic involvement.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "For reported penicillin allergy: cephalexin, azithromycin, or clindamycin",
+          "quote": "The panel suggests prescribing oral cephalexin, oral azithromycin, or oral clindamycin.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "About 10% report a penicillin allergy but less than 1% are truly allergic",
+          "quote": "Although approximately 10% of the population self-reports a penicillin allergy, less than 1% of the entire population is truly allergic.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Clindamycin carries a greater risk of C. difficile infection; list ordered by balancing benefits and harms",
+          "quote": "Some antibiotics may be less effective, or carry a greater risk for harming patients through allergic reactions (penicillin) or CDI (clindamycin).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "For non-response: add metronidazole or switch to amoxicillin/clavulanate",
+          "quote": "For cases that do not respond promptly to antibiotics, clinicians may consider either complementing first-line treatment with oral metronidazole, or discontinue first-line treatment and prescribe oral amoxicillin/clavulanate",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Inflamed pulp in irreversible pulpitis is not caused by infection",
+          "quote": "patient populations with SIP with or without SAP, especially those with the option of DCDT, do not require antibiotics, given that the inflamed pulpal tissue associated with this condition is not due to an infection.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Oral antibiotics may not reach a tooth that lacks blood supply",
+          "quote": "oral antibiotics not reaching to the affected tooth because the lack of vascular supply",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Unnecessary antibiotics cause harms including resistance and C. difficile infection",
+          "quote": "probably cause large harms or undesirable effects (e.g., serious adverse events, antibiotic resistance, CDI, high costs, etc.)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Guideline does not cover adults with weakened immune systems (e.g., chemotherapy)",
+          "quote": "The scope of this guideline focuses on immunocompetent adult patients (18 years of age or older), with the target conditions, and without additional comorbidities.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Localized abscess without immediate dental treatment carries higher risk of spreading",
+          "quote": "there is an increased risk of disease progression to systemic involvement without immediate access to DCDT when compared to patients with PN-SAP.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Red flags: swelling worsening despite antibiotics; fever with facial or jaw swelling need urgent evaluation",
+          "quote": "If the clinical condition worsens or if there is concern for deeper space infection or immediate threat to life, refer patient for urgent evaluation",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "journal",
+      "cited_as": "Schmidt J, Kunderova M, Pilbauerova N, Kapitan M. A review of evidence-based recommendations for pericoronitis management and a systematic review of antibiotic prescribing for pericoronitis among dentists: Inappropriate pericoronitis treatment is a critical factor of antibiotic overuse in dentistry. Int J Environ Res Public Health. 2021;18(13). doi:10.3390/ijerph18136796.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8296928/",
+      "pmid": "34202699",
+      "pmcid": "PMC8296928",
+      "doi": "10.3390/ijerph18136796",
+      "record_title": "A Review of Evidence-Based Recommendations for Pericoronitis Management and a Systematic Review of Antibiotic Prescribing for Pericoronitis among Dentists: Inappropriate Pericoronitis Treatment Is a Critical Factor of Antibiotic Overuse in Dentistry.",
+      "record_journal": "Int J Environ Res Public Health",
+      "record_year": "2021",
+      "article_type": "Journal Article; Systematic Review (with narrative review part)",
+      "notes": "Fixed citation: was printed as Yuce E, Komerik N, article 6917; record is Schmidt J, Kunderova M, Pilbauerova N, Kapitan M. PubMed record gives no article number, so the DOI is printed instead. PMC page itself showed a bot check to WebFetch; full text read through the PubMed connector.",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC8296928); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Most pericoronitis resolves with local treatment including irrigation",
+          "quote": "Most cases of pericoronitis are resolved with local intervention, including debridement and irrigation of stagnation areas",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Antibiotics reserved for severe cases with spreading infection or systemic response",
+          "quote": "The use of antibiotics should be reserved for severe cases of pericoronitis where the spread of infection or systemic response is involved.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Careful oral hygiene is part of pericoronitis care",
+          "quote": "Careful oral hygiene is an essential part of any plaque-related disease prevention, including pericoronitis, and all patients should be instructed so",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Significant trismus, swollen floor of mouth, or difficult breathing need hospital care",
+          "quote": "Patients with significant trismus, the swollen floor of the mouth, or difficult breathing must be transferred to the hospital.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Ludwig's angina symptoms include swelling around jaw and upper neck, fever, dysphagia, dyspnea, elevated mouth floor, tongue displacement; airway risk",
+          "quote": "Symptoms of this phlegmonous infection include swelling around the mandible and upper neck, fever, lymphadenopathy, throat pain, dysphagia, dyspnea, elevation of the mouth floor, and tongue displacement",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Infection can spread through preformed spaces such as sublingual, submandibular and parapharyngeal",
+          "quote": "Local tissue structures, such as ligaments and preformed anatomical spaces, facilitate the progression of the infection into the surrounding areas like the sublingual space, submandibular space, parapharyngeal space",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Swollen neck glands and restricted mouth opening are warning signs of a more severe, spreading infection",
+          "quote": "Bilateral lymphadenopathy, pyrexia, palatoglossal arch asymmetry, facial asymmetry, malaise, difficulty swallowing (dysphagia), or restriction in mouth opening, which may be accompanied by pain (trismus) are warning marks indicating a more severe course",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "journal",
+      "cited_as": "Moore PA, Hersh EV. Combining ibuprofen and acetaminophen for acute pain management after third-molar extractions: translating clinical research to dental practice. J Am Dent Assoc. 2013;144(8):898-908.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23904576/",
+      "pmid": "23904576",
+      "doi": "10.14219/jada.archive.2013.0207",
+      "record_title": "Combining ibuprofen and acetaminophen for acute pain management after third-molar extractions: translating clinical research to dental practice.",
+      "record_journal": "J Am Dent Assoc",
+      "record_year": "2013",
+      "article_type": "Journal Article; Review",
+      "notes": "Described in the guide as a review, not an analysis that \"established\"; \"for decades\" removed.",
+      "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Combination gave greater pain relief than either drug alone after third-molar extractions",
+          "quote": "the ibuprofen-APAP combination provided greater pain relief than did ibuprofen or APAP alone after third-molar extractions.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Adverse effects of the combination similar to those of the individual drugs",
+          "quote": "The adverse effects associated with the combination were similar to those of the individual component drugs.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "other_web",
+      "cited_as": "Zapata K. Sinusitis, dental infection or both? UT Health San Antonio News; May 2, 2023. Accessed November 15, 2026.",
+      "url": "https://news.uthscsa.edu/sinusitis-dental-infection-or-both/",
+      "version_or_date": "Published May 2, 2023 (read 2026-11-15)",
+      "notes": "Removed \"dull\", \"sharp\", \"lying down\" and the \"more common than most people realize\" claim, which the page does not state. Author Kristen Zapata.",
+      "retrieved_with": "WebFetch of UT Health San Antonio News page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "In some people the roots of the upper teeth extend into the maxillary sinus",
+          "quote": "Some patients have dental roots that extend right into their maxillary sinus cavity.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Maxillary sinuses sit behind the cheekbones and above the teeth",
+          "quote": "located behind the cheekbones and above the teeth",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Sinus-related pain: tenderness of several upper teeth, stronger with change in head position such as bending over",
+          "quote": "tenderness of multiple upper teeth that increases in intensity with a change in head position, such as bending over",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dental toothache generally isolated to one tooth and may be temperature sensitive",
+          "quote": "A traditional toothache is generally isolated to individual teeth that may be sensitive to temperature changes",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "other_web",
+      "cited_as": "ADA Library & Archives. Oral Analgesics for Acute Dental Pain. American Dental Association. Last updated February 2, 2024. Accessed November 15, 2026.",
+      "url": "https://www.ada.org/resources/ada-library/oral-health-topics/oral-analgesics-for-acute-dental-pain",
+      "version_or_date": "Last Updated: February 2, 2024 (read 2026-11-15)",
+      "notes": "Previously listed but never cited inline; now the source for the dosing table. The page does not name the primary study for the 400 mg + 1,000 mg comparison, so the primary source could not be cited (listed in CHANGES.md).",
+      "retrieved_with": "WebFetch of ADA Library page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Mild to moderate pain: ibuprofen 400-600 mg fixed every 6 h for 24 h, then ibuprofen 400 mg every 4-6 h as needed",
+          "quote": "Ibuprofen 400 to 600 mg fixed interval every 6 hours for 24 hours ... Ibuprofen 400 mg as needed for pain every 4 to 6 hours",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Moderate to severe pain: ibuprofen 400-600 mg + acetaminophen 500 mg fixed every 6 h for 24 h, then ibuprofen 400 mg + acetaminophen 500 mg every 6 h as needed",
+          "quote": "Ibuprofen 400 to 600 mg plus acetaminophen 500 mg fixed interval every 6 hours for 24 hours ... Ibuprofen 400 mg plus acetaminophen 500 mg as needed for pain every 6 hours",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "400 mg ibuprofen with 1,000 mg acetaminophen was more effective than any opioid-containing regimen with lower adverse event risk",
+          "quote": "the combination of 400 mg ibuprofen with 1,000 mg acetaminophen was more effective than any opioid-containing regimen and was also associated with a lower risk of adverse events.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "label",
+      "cited_as": "U.S. National Library of Medicine, DailyMed. CLEOCIN HYDROCHLORIDE (clindamycin hydrochloride) capsule, prescribing information. Revised September 2026. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df9a2a41-b132-4f43-8940-b2d773b1369a",
+      "version_or_date": "CLEOCIN HYDROCHLORIDE capsule label, updated September 16, 2026 (Revised 9/2026)",
+      "retrieved_with": "WebFetch of DailyMed label",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Clindamycin boxed warning: severe colitis that may end fatally; reserve for serious infections where less toxic agents are inappropriate",
+          "quote": "Because CLEOCIN HCl therapy has been associated with severe colitis which may end fatally, it should be reserved for serious infections where less toxic antimicrobial agents are inappropriate",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "label",
+      "cited_as": "U.S. National Library of Medicine, DailyMed. TYLENOL EXTRA STRENGTH (acetaminophen) tablet, film coated, Drug Facts label. Updated April 15, 2024. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=65bf1556-f25a-9439-e053-2a91aa0a3194",
+      "version_or_date": "TYLENOL EXTRA STRENGTH label, updated April 15, 2024",
+      "retrieved_with": "WebFetch of DailyMed label",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Extra Strength 500 mg acetaminophen: no more than 6 caplets in 24 hours unless directed by a doctor",
+          "quote": "take 2 caplets every 6 hours while symptoms last ... do not take more than 6 caplets in 24 hours, unless directed by a doctor",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Severe liver damage with more than 4,000 mg in 24 h, other acetaminophen drugs, or 3+ alcoholic drinks daily",
+          "quote": "Severe liver damage may occur if you take ... more than 4,000 mg if acetaminophen in 24 hours ... with other drugs containing acetaminophen ... 3 or more alcoholic drinks every day while using this product",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "label",
+      "cited_as": "U.S. National Library of Medicine, DailyMed. IBUPROFEN (ibuprofen 200 mg) tablet, film coated, Drug Facts label. Revised June 19, 2024. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8fc65767-1783-4f7f-8680-9e43ba4d5481",
+      "version_or_date": "IBUPROFEN 200 mg film-coated tablet label (Lil' Drug Store Products), revised June 19, 2024",
+      "retrieved_with": "WebFetch of DailyMed label",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "OTC ibuprofen 200 mg: do not exceed 6 tablets in 24 hours unless directed by a doctor",
+          "quote": "do not exceed 6 tablets in 24 hours, unless directed by a doctor",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Take with food or milk if stomach upset occurs",
+          "quote": "take with food or milk if stomach upset occurs",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Ask a doctor first if stomach ulcers or bleeding, blood thinner, kidney disease, high blood pressure, heart disease",
+          "quote": "have had stomach ulcers or bleeding problems ... take a blood thinning (anticoagulant) or steroid drug ... Ask a doctor before use if ... you have high blood pressure, heart disease, liver cirrhosis, kidney disease, asthma or had a stroke",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pregnancy: ask a health professional; avoid in the last 3 months unless a doctor directs",
+          "quote": "If pregnant or breast-feeding, ask a health professional before use. ... It is especially important not to use ibuprofen during the last 3 months of pregnancy",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus. Acetaminophen. MedlinePlus Drug Information, U.S. National Library of Medicine. Last revised October 15, 2025. Accessed November 15, 2026.",
+      "url": "https://medlineplus.gov/druginfo/meds/a681004.html",
+      "version_or_date": "Last revised October 15, 2025",
+      "retrieved_with": "WebFetch of MedlinePlus page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Tell your doctor if you have or have ever had liver disease",
+          "quote": "tell your doctor if you have or have ever had liver disease",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus. Ludwig angina. MedlinePlus Medical Encyclopedia, U.S. National Library of Medicine. Reviewed January 29, 2025. Accessed November 15, 2026.",
+      "url": "https://medlineplus.gov/ency/article/001047.htm",
+      "version_or_date": "Review Date 1/29/2025",
+      "retrieved_with": "WebFetch of MedlinePlus page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Difficulty breathing or swallowing is a Ludwig angina symptom",
+          "quote": "Breathing difficulty ... Difficulty swallowing",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Neck swelling, pain or redness",
+          "quote": "Neck pain ... Neck swelling ... Redness of the neck",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Tongue swelling or protrusion",
+          "quote": "Tongue swelling or protrusion of the tongue out of the mouth",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Drooling and \"hot potato\" speech",
+          "quote": "Unusual speech (sounds like the person has a \"hot potato\" in the mouth)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Confusion, fatigue",
+          "quote": "Weakness, fatigue, excess tiredness ... Confusion or other mental changes",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Breathing difficulty is an emergency: go to the ER or call 911",
+          "quote": "Breathing difficulty is an emergency situation. Go to the emergency room or contact the local emergency number (such as 911) right away.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Antibiotics usually through a vein; surgery may be needed to drain",
+          "quote": "They are most often given through a vein until symptoms go away. ... Surgery may be needed to drain fluids that are causing the swelling.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus. Tooth abscess. MedlinePlus Medical Encyclopedia, U.S. National Library of Medicine. Reviewed February 5, 2026. Accessed November 15, 2026.",
+      "url": "https://medlineplus.gov/ency/article/001060.htm",
+      "version_or_date": "Review Date 2/5/2026",
+      "notes": "Page lists fever and jaw swelling as symptoms but does not itself say \"go to the ER\" for the combination; emergency framing rests on refs 6, 15 and 17.",
+      "retrieved_with": "WebFetch of MedlinePlus page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Swollen jaw is a very serious symptom of tooth abscess; fever is a symptom",
+          "quote": "Swollen area of the upper or lower jaw, which is a very serious symptom",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Blood infection is a recognized complication of a tooth abscess",
+          "quote": "Blood infection",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "kind": "agency_page",
+      "cited_as": "NHS. Dental abscess. Page last reviewed March 18, 2026. Accessed November 15, 2026.",
+      "url": "https://www.nhs.uk/conditions/dental-abscess/",
+      "version_or_date": "Page last reviewed 18 March 2026; next review due 18 March 2029",
+      "notes": "UK page (999/A&E); the guide keeps US wording (ER/911).",
+      "retrieved_with": "WebFetch of NHS page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Call emergency services if hard to breathe, speak or swallow",
+          "quote": "are finding it hard to breathe, speak or swallow",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Swollen or painful eye or sudden eyesight problems",
+          "quote": "have a swollen or painful eye, or suddenly start having problems with your eyesight",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Finding it hard to open your mouth",
+          "quote": "are finding it hard to open your mouth",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. About Sepsis. Last updated August 17, 2026. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/sepsis/about/index.html",
+      "version_or_date": "Last updated Aug. 17, 2026",
+      "retrieved_with": "WebFetch of CDC page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Almost any infection can lead to sepsis",
+          "quote": "Anyone can get an infection, and almost any infection can lead to sepsis.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Sepsis is the body's extreme response to an infection",
+          "quote": "the body's extreme response to an infection",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Signs include high heart rate or weak pulse, fever/shivering, confusion, shortness of breath, extreme pain, clammy skin",
+          "quote": "Clammy or sweaty skin ... Confusion or disorientation ... Extreme pain or discomfort ... Fever, shivering or feeling very cold ... High heart rate or weak pulse ... Shortness of breath.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Without fast treatment sepsis can lead to tissue damage, organ failure, and death",
+          "quote": "tissue damage, organ failure, and death",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "kind": "journal",
+      "cited_as": "Cobzeanu BM, Moisii L, Palade OD, et al. Management of deep neck infection associated with descending necrotizing mediastinitis: A scoping review. Medicina (Kaunas). 2025;61(2). doi:10.3390/medicina61020325.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40005441/",
+      "pmid": "40005441",
+      "pmcid": "PMC11857515",
+      "doi": "10.3390/medicina61020325",
+      "record_title": "Management of Deep Neck Infection Associated with Descending Necrotizing Mediastinitis: A Scoping Review.",
+      "record_journal": "Medicina (Kaunas)",
+      "record_year": "2025",
+      "article_type": "Journal Article; Scoping Review",
+      "notes": "New reference supporting the deep space infection paragraph, which previously had no citation.",
+      "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Deep neck infections most often start from a tooth or tonsil",
+          "quote": "The most common primary sources of deep neck infection are odontogenic and tonsillar.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "They can extend into the chest (mediastinitis)",
+          "quote": "In terms of its evolution, it can extend to the level of the thorax and result in mediastinitis",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Complications include airway obstruction and sepsis",
+          "quote": "Complications that may appear include jugular vein thrombosis, airway obstruction, acute respiratory distress syndrome, sepsis, and disseminated intravascular coagulation.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "CT is the standard test to identify spaces involved and guides surgical drainage",
+          "quote": "A CT scan is important for characterizing the nature of a deep neck lesion and identifying the spaces involved, and this method represents the gold standard for diagnosis of these lesions.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1004 @@
+{
+ "guide": "flu-treatment-guide",
+ "checked_at": "2026-11-07",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "CDC. Influenza Antiviral Medications: Summary for Clinicians. Page reviewed March 10, 2026. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/flu/hcp/antivirals/summary-clinicians.html",
+   "record_title": "Influenza Antiviral Medications: Summary for Clinicians",
+   "version_or_date": "Reviewed and updated March 10, 2026 (page metadata shows a later publish timestamp of October 1, 2026)",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Page does not discuss rapid test sensitivity or contagiousness after antivirals; those claims were moved to refs 7, 15, 4 and 10.",
+   "claims": [
+    {
+     "text": "prompt treatment recommended for hospitalized, severe/complicated/progressive or higher-risk patients (B5, B29, B31, B57, B95, FAQ 1, 6, 4)",
+     "quote": "Antiviral treatment is recommended as soon as possible for any patient with suspected or confirmed influenza who:",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "list of priority groups: hospitalized; severe, complicated or progressive illness; higher risk",
+     "quote": "has severe, complicated, or progressive illness; or",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "treatment can be considered for previously healthy outpatients based on clinical judgment within two days (B30, B31, B55)",
+     "quote": "also can be considered for any previously healthy, symptomatic outpatient not at higher risk for influenza complications.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "previously healthy outpatient treatment if it can begin within two days of onset",
+     "quote": "on the basis of clinical judgment, if treatment can be initiated within two days of illness onset",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "treatment may be beneficial after 48 hours in severe/hospitalized illness; severity overrides the clock (callout, B5, B57, B60, figure, FAQ 6)",
+     "quote": "even if treatment is started more than 48 hours after onset of illness",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "benefit in severe, complicated or progressive illness",
+     "quote": "can have clinical benefit in patients with severe, complicated or progressive illness.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "timing from symptom onset matters; benefit greatest early (B32, B59)",
+     "quote": "Clinical benefit is greatest when antiviral treatment is started as close to illness onset as possible.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "treatment of priority patients should not wait for laboratory confirmation (B9, B59, B97, FAQ 11)",
+     "quote": "Decisions about starting antiviral treatment should not wait for laboratory confirmation of influenza.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "adult oseltamivir treatment 75 mg twice daily (B7, B63, FAQ 8)",
+     "quote": "the approved dose of 75 mg orally twice daily for adults",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "oseltamivir treatment duration 5 days for uncomplicated outpatient influenza (B63)",
+     "quote": "Recommended duration for antiviral treatment of uncomplicated influenza in outpatients is 5 days for oral oseltamivir",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "renal dose adjustment at creatinine clearance 60 mL/min or lower (B64, B127)",
+     "quote": "Dose adjustment of oseltamivir is recommended for patients with creatinine clearance between 10 and 60 mL/min.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "hospitalized: oral or enteric oseltamivir recommended (table context, B86)",
+     "quote": "initiation of antiviral treatment with oral or enterically administered oseltamivir is recommended as soon as possible.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "baloxavir not recommended routinely for hospitalized patients (B86)",
+     "quote": "Inhaled zanamivir, oral baloxavir, and intravenous peramivir are not recommended routinely for hospitalized patients.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "no available data on baloxavir for severe influenza in non-hospitalized patients (B86)",
+     "quote": "in those with severe influenza who are not hospitalized",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "baloxavir not recommended in pregnancy or breastfeeding (B86)",
+     "quote": "Baloxavir is not recommended for the treatment of influenza during pregnancy or while breastfeeding",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "inhaled zanamivir contraindicated in underlying airways disease such as asthma (B87)",
+     "quote": "Inhaled zanamivir is contraindicated in patients with underlying airways disease such as asthma.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "adding baloxavir to a neuraminidase inhibitor in hospitalized patients did not add clinical benefit (B87)",
+     "quote": "adding baloxavir did not result in additional clinical benefit",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "baloxavir: avoid dairy, calcium-fortified beverages and polyvalent cation products; reduces exposure/efficacy (B85, B106)",
+     "quote": "Co-administration of baloxavir with polyvalent cation-containing products may decrease plasma concentrations of baloxavir.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "baloxavir and calcium, iron, magnesium, zinc supplements (B85, B106)",
+     "quote": "polyvalent cation-containing laxatives, antacids or oral supplements (e.g., calcium, iron, magnesium, selenium, or zinc)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "baloxavir with dairy products or calcium-fortified beverages (B85)",
+     "quote": "Baloxavir marboxil should not be administered with dairy products, calcium-fortified beverages.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "late worsening outpatient illness needs reassessment (B60)",
+     "quote": "For outpatients with complications or progressive disease >2 days after symptom onset",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "agency_page",
+   "cited_as": "CDC. Treatment of Flu. Page reviewed September 2, 2025. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/flu/treatment/index.html",
+   "record_title": "Treatment of Flu",
+   "version_or_date": "Last reviewed and updated September 2, 2025",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Reference title corrected from 'Treating Flu with Antiviral Drugs' to the page's current title. Page does not state flu duration or discuss OTC medicines; duration claims moved to ref 3, OTC claims to refs 13 and 14.",
+   "claims": [
+    {
+     "text": "antibiotics do not treat influenza virus (B38, B107, FAQ 10)",
+     "quote": "Antibiotics do not work on viruses.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "antivirals are prescription-only; OTC products are not antivirals (B6, B30, B42, FAQ 3)",
+     "quote": "Antiviral drugs are not sold over the counter.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "starting later can still help, especially for higher-risk people (B5, B57, figure, FAQ 6)",
+     "quote": "starting them later can still be helpful, especially if the sick person has a higher-risk health condition",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "antivirals work best when started within two days (B5)",
+     "quote": "Flu antiviral drugs work best when started early, ideally within two days after your flu symptoms begin.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "most people not at increased risk do not need antiviral treatment; stable mild illness often needs supportive care (B29, B31, FAQ 1)",
+     "quote": "Most people not at increased risk for flu complications who get sick with flu do not need to be treated",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "roughly one-day average benefit (B66)",
+     "quote": "can lessen symptoms and shorten the time you are sick by about a day.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "agency_page",
+   "cited_as": "CDC. Signs and Symptoms of Flu. Page reviewed August 26, 2024. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/flu/signs-symptoms/index.html",
+   "record_title": "Signs and Symptoms of Flu",
+   "version_or_date": "Last reviewed August 26, 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Tamiflu label claims formerly cited here were re-pointed to ref 5. The page lists dehydration only among children's warning signs; adult wording changed to 'not urinating'. 'Cough and fatigue may last longer' was cut (not stated).",
+   "claims": [
+    {
+     "text": "flu symptoms come on suddenly (B35)",
+     "quote": "Flu symptoms usually come on suddenly.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "symptoms include fever/chills, cough, sore throat, aches, headache, fatigue (B35)",
+     "quote": "fever* or feeling feverish/chills",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "not everyone with flu has a fever (B35, B124)",
+     "quote": "It's important to note that not everyone with flu will have a fever.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "most people recover in a few days to less than two weeks (B35, FAQ 2)",
+     "quote": "Most people who get flu will recover in a few days to less than two weeks",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "difficulty breathing as an emergency sign (callout, B29, B117, figure)",
+     "quote": "Difficulty breathing or shortness of breath",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "persistent chest pain or pressure (callout, B29, B117)",
+     "quote": "Persistent pain or pressure in the chest or abdomen",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "confusion, inability to arouse (callout, B29, B73, B117)",
+     "quote": "Persistent dizziness, confusion, inability to arouse",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "not urinating as an adult warning sign (callout, B29, B35, B75, B117, FAQ 2)",
+     "quote": "Not urinating",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "seizures, severe weakness (B117)",
+     "quote": "Severe weakness or unsteadiness",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "fever or cough that improves then returns or worsens needs attention (callout, B36, B38, B67, B107, B118, FAQ 2, 10)",
+     "quote": "Fever or cough that improve but then return or worsen",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "worsening chronic conditions; chronic disease may need earlier assessment (B39, B117)",
+     "quote": "Worsening of chronic medical conditions",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "breathing difficulty and other red flags need evaluation beyond a home test or video visit (B100, FAQ 1)",
+     "quote": "Difficulty breathing or shortness of breath",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "agency_page",
+   "cited_as": "CDC. Preventing Spread of Respiratory Viruses When You're Sick. Page updated August 18, 2025. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/respiratory-viruses/prevention/precautions-when-sick.html",
+   "record_title": "Preventing Spread of Respiratory Viruses When You're Sick",
+   "version_or_date": "Updated August 18, 2025",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "return when symptoms improving overall and fever-free 24 hours without fever reducers (B111, figure, FAQ 12, B42)",
+     "quote": "You have not had a fever (and are not using fever-reducing medication).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "24-hour criteria",
+     "quote": "You can go back to your normal activities when, for at least 24 hours, both are true:",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "added precautions for the next 5 days (B111, FAQ 12)",
+     "quote": "take added precautions over the next 5 days, such as taking steps for cleaner air",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "if fever returns or you feel worse, stay home again (B112)",
+     "quote": "If you develop a fever or you start to feel worse after you have gone back to normal activities,",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "may still spread virus while feeling better; antiviral not a noncontagiousness certificate (B10, B110, B115)",
+     "quote": "you may still be able to spread the virus that made you sick, even if you are feeling better.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "healthcare settings have separate guidance (B110, B112, FAQ 12)",
+     "quote": "CDC offers separate, specific guidance for healthcare settings,",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "protect people at higher risk (B115)",
+     "quote": "These actions can help reduce the risk of infecting people who are at higher risk of severe illness.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "label",
+   "cited_as": "DailyMed. TAMIFLU (oseltamivir phosphate) capsule and powder for oral suspension, Genentech, Inc.: prescribing information. Label revised 8/2019; DailyMed listing published December 19, 2025. Accessed November 7, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee3c9555-60f2-4f82-a760-11983c86e97b",
+   "record_title": "TAMIFLU (oseltamivir phosphate) capsule; TAMIFLU (oseltamivir phosphate) powder, for suspension [Genentech, Inc.]",
+   "version_or_date": "Revised: 8/2019; DailyMed page updated December 15, 2025; SPL published December 19, 2025",
+   "retrieved_with": "WebFetch of DailyMed page; DailyMed SPL search API to identify the manufacturer setid",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Link changed from a 2021 A-S Medication Solutions repackager SPL (setid 247fb507-...) to the Genentech manufacturer label. OTC/ibuprofen/acetaminophen-overdose claims formerly cited here were re-pointed to refs 13 and 14. WebFetch read the first 100,000 of 110,588 characters; quotes come from the part read.",
+   "claims": [
+    {
+     "text": "adult treatment 75 mg twice daily for 5 days (B7, B63, FAQ 8)",
+     "quote": "is 75 mg twice daily (one 75 mg capsule or 12.5 mL of oral suspension twice daily) for 5 days.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "once-daily prevention regimen differs from treatment (B7, B63, B68)",
+     "quote": "75 mg orally once daily (one 75 mg capsule or 12.5 mL of oral suspension once daily) for at least 10 days",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "renal adjustments at CrCl 60 mL/min or lower and dialysis schedules (B64, B32, B74, B127)",
+     "quote": "Renally impaired adult patients (creatinine clearance >30-60 mL/min): Reduce to 30 mg twice daily for 5 days",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "separate dialysis schedules (B64)",
+     "quote": "ESRD patients on hemodialysis: Reduce to 30 mg immediately and then 30 mg after every hemodialysis cycle.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "labeled treatment window: symptomatic no more than 48 hours; clock from symptom onset (B55, B59)",
+     "quote": "Initiate treatment with TAMIFLU within 48 hours of influenza symptom onset.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "indication timing",
+     "quote": "patients 2 weeks of age and older who have been symptomatic for no more than 48 hours.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "food may improve tolerability (B65, FAQ 7)",
+     "quote": "may be taken with or without food; however, tolerability may be enhanced if TAMIFLU is taken with food.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "oral suspension has its own concentration and measuring instructions (B65)",
+     "quote": "Ensure patients have an oral dosing dispenser that measures the appropriate volume in milliliters.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "nausea 10% vs 6% with placebo in adult/adolescent treatment trials (B70); Table 5 row, first two columns are TAMIFLU 75 mg twice daily (n = 2646) and Placebo (n = 1977)",
+     "quote": "Nausea | 10% | 6% | 8% | 4%",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "vomiting 8% vs 3% with placebo in adult/adolescent treatment trials (B70); Table 5 row, same columns",
+     "quote": "Vomiting | 8% | 3% | 2% | 1%",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "nausea, vomiting, headache most common in treatment studies (B75, FAQ 7)",
+     "quote": "Treatment studies – Nausea, vomiting, headache.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "serious skin and hypersensitivity reactions (B72, B125, FAQ 7)",
+     "quote": "Cases of anaphylaxis and serious skin reactions including toxic epidermal necrolysis, Stevens-Johnson Syndrome,",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "stop and seek treatment for allergic-like reaction (B72)",
+     "quote": "Stop TAMIFLU and institute appropriate treatment if an allergic-like reaction occurs or is suspected.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "influenza itself can cause neurologic and behavioral symptoms (B73)",
+     "quote": "Influenza can be associated with a variety of neurologic and behavioral symptoms",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "contribution of Tamiflu to neuropsychiatric events not established (B73)",
+     "quote": "The contribution of TAMIFLU to these events has not been established.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "bacterial infections may coexist or complicate influenza; antiviral does not rule them out (B67)",
+     "quote": "Serious bacterial infections may begin with influenza-like symptoms or may coexist with or occur as complications",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tamiflu is a neuraminidase inhibitor (B77)",
+     "quote": "Oseltamivir carboxylate is an inhibitor of influenza virus neuraminidase affecting release of viral particles.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "no dose adjustment with acetaminophen, aspirin, amoxicillin (B103)",
+     "quote": "when coadministering oseltamivir with amoxicillin, acetaminophen, aspirin, cimetidine,",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "modest benefit, about 1.3 days median in trials; no promise of improvement after first dose (B66, FAQ 5)",
+     "quote": "there was a 1.3-day reduction in the median time to improvement in influenza-infected subjects",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "label",
+   "cited_as": "DailyMed. XOFLUZA (baloxavir marboxil) tablets and granules for oral suspension, Genentech, Inc.: prescribing information. Label revised 5/2025; DailyMed listing published December 19, 2025. Accessed November 7, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e49e1a61-1b7c-4be5-ac84-af6240b511e7",
+   "record_title": "XOFLUZA (baloxavir marboxil) tablet, film coated; granule, for solution; granule, for suspension [Genentech, Inc.]",
+   "version_or_date": "Revised: 5/2025; SPL published December 19, 2025",
+   "retrieved_with": "WebFetch of DailyMed page; DailyMed SPL search API to identify the manufacturer setid",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Link changed from a SportPharm repackager SPL (setid b58b2899-...) to the Genentech manufacturer label.",
+   "claims": [
+    {
+     "text": "single dose 40 mg at 20 to under 80 kg (B84, table, FAQ 8)",
+     "quote": "20 kg to less than 80 kg | One 40 mg tablet (Table 1 row)",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "single dose 80 mg at 80 kg or more (B84)",
+     "quote": "At least 80 kg | One 80 mg tablet (Table 1 row)",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "single dose within the labeled 48-hour window from symptom onset (B59, FAQ 8)",
+     "quote": "Take XOFLUZA as a single dose as soon as possible and within 48 hours of influenza symptom onset.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "indication: uncomplicated influenza, symptomatic no more than 48 hours (B7)",
+     "quote": "acute uncomplicated influenza in patients 5 years of age and older who have been symptomatic for no more than 48 hours.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "avoid dairy, calcium-fortified beverages and polyvalent cation supplements (B85, B106)",
+     "quote": "polyvalent cation-containing laxatives, antacids, or oral supplements (e.g., calcium, iron, magnesium, selenium, or zinc)",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "avoid dairy and calcium-fortified beverages (B85)",
+     "quote": "Avoid coadministration of XOFLUZA with dairy products, calcium-fortified beverages,",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "baloxavir is an endonuclease inhibitor (B77)",
+     "quote": "Baloxavir inhibits the endonuclease activity of the polymerase acidic (PA) protein.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "hypersensitivity reactions reported; seek urgent advice (B125)",
+     "quote": "Cases of anaphylaxis, urticaria, angioedema, and erythema multiforme have been reported.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "guideline",
+   "cited_as": "Uyeki TM, Bernstein HH, Bradley JS, et al. Clinical Practice Guidelines by the Infectious Diseases Society of America: 2018 Update on Diagnosis, Treatment, Chemoprophylaxis, and Institutional Outbreak Management of Seasonal Influenza. Clin Infect Dis. 2019;68(6):e1-e47.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30566567/",
+   "pmid": "30566567",
+   "pmcid": "PMC6653685",
+   "doi": "10.1093/cid/ciy866",
+   "record_title": "Clinical Practice Guidelines by the Infectious Diseases Society of America: 2018 Update on Diagnosis, Treatment, Chemoprophylaxis, and Institutional Outbreak Management of Seasonal Influenzaa.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2019",
+   "article_type": "Journal Article (practice guideline)",
+   "version_or_date": "2018 update, published 2019; IDSA guideline page shows published December 19, 2018",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC6653685); WebFetch of idsociety.org guideline page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. PubMed title carries a trailing footnote letter ('Influenzaa'); reference list uses the PMC title 'Seasonal Influenza'. Guideline predates baloxavir approval and makes no baloxavir recommendation, so baloxavir claims no longer cite it. Kidney disease removed from the high-risk list because this guideline's list does not include it.",
+   "claims": [
+    {
+     "text": "start treatment as soon as possible for priority patients (B31, B57, B95, FAQ 4, 6)",
+     "quote": "Clinicians should start antiviral treatment as soon as possible for adults and children with documented or suspected influenza, irrespective of influenza vaccination history, who meet the following criteria:",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "treat hospitalized, high-risk and severe/progressive patients as soon as possible (B5, B57)",
+     "quote": "Therefore, antiviral treatment should be initiated as soon as possible in hospitalized patients, high-risk persons, and those with severe or progressive disease if influenza is suspected",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "benefit in hospitalized patients even when started after 48 hours (B5, B57, figure)",
+     "quote": "including when NAI treatment was started >48 hours after illness onset",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "early initiation within 2 days reduces fever and symptom duration in RCTs (B55, B89)",
+     "quote": "early initiation (within 2 days of illness onset) of antiviral treatment can reduce the duration of fever and symptoms",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "treatment should not be delayed for test results in priority patients (B9, B59, B97, FAQ 11)",
+     "quote": "Antiviral treatment, when indicated, should not be delayed until the results of diagnostic testing are available for persons at high risk of complications, those with progressive disease, or patients being admitted to hospital.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "clinical diagnosis can support empiric treatment (B97)",
+     "quote": "a clinical diagnosis of influenza without testing can support empiric antiviral treatment decisions.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "negative low-sensitivity test may be falsely negative and does not exclude influenza (B9, B99, FAQ 11)",
+     "quote": "A negative result of an influenza test with low to moderate sensitivity may be falsely negative and does not exclude a diagnosis of influenza",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "rapid molecular tests preferred over rapid antigen tests in outpatients (B99)",
+     "quote": "Clinicians should use rapid molecular assays (ie, nucleic acid amplification tests) over rapid influenza diagnostic tests (RIDTs) in outpatients to improve detection of influenza virus infection",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "prevalence/test performance influence interpretation (B99)",
+     "quote": "which are influenced primarily by the prevalence of influenza viruses in the population tested and on the sensitivity and specificity of the test",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "specimen timing affects results (B99)",
+     "quote": "Collection of upper respiratory tract specimens from immunocompetent outpatients with influenza >3–4 days after illness onset may yield negative results",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "test when results may change management (B98)",
+     "quote": "laboratory testing should be performed when the results may influence clinical management or infection prevention and control decisions.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "positive influenza test does not exclude bacterial coinfection (B98)",
+     "quote": "Clinicians should also consider that a positive influenza test result does not exclude bacterial coinfection",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "deterioration after improvement may reflect bacterial complication; reassess (B36, B60, B67, B107, B118, FAQ 10)",
+     "quote": "Clinicians should investigate and empirically treat bacterial coinfection in patients who deteriorate after initial improvement, particularly in those treated with antivirals",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "higher-risk groups: 65+, pregnant/postpartum, chronic lung/heart/metabolic disease, immunosuppression, extreme obesity (B58, B39)",
+     "quote": "adults aged ≥65 years, pregnant and postpartum women, people with certain chronic medical conditions including pulmonary, cardiac, and metabolic disease, people with immunosuppression, people with extreme obesity",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "guidelines draw on observational data in hospitalized/high-risk patients (B92)",
+     "quote": "The majority of observational studies, individual patient-level pooled analyses, and meta-analyses of patients with laboratory-confirmed influenza have reported clinical benefit of NAI treatment (primarily oral oseltamivir) among hospitalized patients",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "Jefferson T, Jones M, Doshi P, et al. Oseltamivir for influenza in adults and children: systematic review of clinical study reports and summary of regulatory comments. BMJ. 2014;348:g2545.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24811411/",
+   "pmid": "24811411",
+   "pmcid": "PMC3981975",
+   "doi": "10.1136/bmj.g2545",
+   "record_title": "Oseltamivir for influenza in adults and children: systematic review of clinical study reports and summary of regulatory comments.",
+   "record_journal": "BMJ",
+   "record_year": "2014",
+   "article_type": "Systematic Review; Meta-Analysis",
+   "retrieved_with": "PubMed get_article_metadata",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Lancet and JAMA Intern Med figures that previously carried only this marker now also cite refs 12 and 11.",
+   "claims": [
+    {
+     "text": "early treatment modestly shortens symptoms (B8, B37, B89, FAQ 4, 5)",
+     "quote": "In treatment studies it also modestly reduces the time to first alleviation of symptoms",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "16.8 hours shorter time to first alleviation in adults (B90, figure)",
+     "quote": "In treatment trials on adults, oseltamivir reduced the time to first alleviation of symptoms by 16.8 hours",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "no hospitalization reduction demonstrated (B8, B91, figure, FAQ 4)",
+     "quote": "In treatment trials there was no difference in admissions to hospital in adults",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "increased nausea and vomiting (B71)",
+     "quote": "but it causes nausea and vomiting and increases the risk of headaches and renal and psychiatric syndromes.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Hayden FG, Sugaya N, Hirotsu N, et al. Baloxavir Marboxil for Uncomplicated Influenza in Adults and Adolescents. N Engl J Med. 2018;379(10):913-923.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30184455/",
+   "pmid": "30184455",
+   "doi": "10.1056/NEJMoa1716197",
+   "record_title": "Baloxavir Marboxil for Uncomplicated Influenza in Adults and Adolescents.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2018",
+   "article_type": "Randomized Controlled Trial; Clinical Trial, Phase II; Clinical Trial, Phase III",
+   "retrieved_with": "PubMed get_article_metadata",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "baloxavir superior to placebo and similar to oseltamivir for symptoms (B93)",
+     "quote": "The time to alleviation of symptoms was similar with baloxavir and oseltamivir.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "superior to placebo; faster viral load reduction (B93, B114)",
+     "quote": "was superior to both oseltamivir and placebo in reducing the viral load 1 day after initiation of the trial regimen",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "group differences in hours (B37)",
+     "quote": "The median time to alleviation of symptoms was 53.7 hours (95% confidence interval [CI], 49.5 to 58.5) with baloxavir, as compared with 80.2 hours",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "baloxavir is a cap-dependent endonuclease inhibitor (B77)",
+     "quote": "Baloxavir marboxil is a selective inhibitor of influenza cap-dependent endonuclease.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Monto AS, Kuhlbusch K, Bernasconi C, et al. Efficacy of Baloxavir Treatment in Preventing Transmission of Influenza. N Engl J Med. 2025;392(16):1582-1593.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40267424/",
+   "pmid": "40267424",
+   "doi": "10.1056/NEJMoa2413156",
+   "record_title": "Efficacy of Baloxavir Treatment in Preventing Transmission of Influenza.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2025",
+   "article_type": "Randomized Controlled Trial; Clinical Trial, Phase III; Multicenter Study",
+   "retrieved_with": "PubMed get_article_metadata",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "9.5% vs 13.4% adjusted incidence of transmission by day 5 (B113)",
+     "quote": "By day 5, transmission of laboratory-confirmed influenza was significantly lower with baloxavir than with placebo (adjusted incidence, 9.5% vs. 13.4%",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "placebo-controlled, not head-to-head with oseltamivir (B113)",
+     "quote": "randomly assigned in a 1:1 ratio to receive baloxavir or placebo within 48 hours after symptom onset.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "symptomatic transmission is a different outcome (B114)",
+     "quote": "The adjusted incidence of transmission of influenza virus by day 5 that resulted in symptoms was 5.8% with baloxavir and 7.6% with placebo; however, the difference was not significant",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "antiviral treatment does not guarantee noncontagiousness; neuraminidase inhibitors not shown to prevent transmission (B10, B110, B115, FAQ 12)",
+     "quote": "Studies of treatment with neuraminidase inhibitors have not shown sufficient evidence that they prevent transmission to contacts.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "journal",
+   "cited_as": "Hanula R, Bortolussi-Courval É, Mendel A, et al. Evaluation of Oseltamivir Used to Prevent Hospitalization in Outpatients With Influenza: A Systematic Review and Meta-Analysis. JAMA Intern Med. 2024;184(1):18-27.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37306992/",
+   "pmid": "37306992",
+   "pmcid": "PMC10262060",
+   "doi": "10.1001/jamainternmed.2023.0699",
+   "record_title": "Evaluation of Oseltamivir Used to Prevent Hospitalization in Outpatients With Influenza: A Systematic Review and Meta-Analysis.",
+   "record_journal": "JAMA Intern Med",
+   "record_year": "2024",
+   "article_type": "Systematic Review; Meta-Analysis",
+   "retrieved_with": "PubMed get_article_metadata",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "did not establish hospitalization reduction; more GI adverse events (B8, B91, figure, FAQ 4)",
+     "quote": "oseltamivir was not associated with a reduced risk of hospitalization but was associated with increased gastrointestinal adverse events.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "limited evidence in older/higher-risk subgroups (B92)",
+     "quote": "To justify continued use for this purpose, an adequately powered trial in a suitably high-risk population is justified.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "estimates differ across reviews (B89)",
+     "quote": "summary evidence from prior meta-analyses has contradictory conclusions regarding whether oseltamivir decreases the risk of hospitalization",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "journal",
+   "cited_as": "Dobson J, Whitley RJ, Pocock S, et al. Oseltamivir treatment for influenza in adults: a meta-analysis of randomised controlled trials. Lancet. 2015;385(9979):1729-1737.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25640810/",
+   "pmid": "25640810",
+   "doi": "10.1016/S0140-6736(14)62449-1",
+   "record_title": "Oseltamivir treatment for influenza in adults: a meta-analysis of randomised controlled trials.",
+   "record_journal": "Lancet",
+   "record_year": "2015",
+   "article_type": "Meta-Analysis; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract only)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Abstract only; claims limited to the abstract.",
+   "claims": [
+    {
+     "text": "25.2-hour median difference in infected population (B90, figure; roughly one day B66)",
+     "quote": "The median times to alleviation were 97·5 h for oseltamivir and 122·7 h for placebo groups (difference -25·2 h, 95% CI -36·2 to -16·0).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "17.8-hour difference in intention-to-treat population (B90)",
+     "quote": "For the intention-to-treat population, the estimated treatment effect was attenuated (time ratio 0·85) but remained highly significant (median difference -17·8 h).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "fewer hospital admissions in infected analysis (B91, B8)",
+     "quote": "also fewer admittances to hospital for any cause (RR 0·37, 95% CI 0·17-0·81; p=0·013",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "increased nausea and vomiting (B71)",
+     "quote": "Regarding safety, oseltamivir increased the risk of nausea",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "modest symptom shortening; group-level estimates (B8, B37, B89, FAQ 4, 5)",
+     "quote": "we noted a 21% shorter time to alleviation of all symptoms for oseltamivir versus placebo recipients",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus, National Library of Medicine. Acetaminophen: MedlinePlus Drug Information. Last revised October 15, 2025. Accessed November 7, 2026.",
+   "url": "https://medlineplus.gov/druginfo/meds/a681004.html",
+   "record_title": "Acetaminophen: MedlinePlus Drug Information",
+   "version_or_date": "Last revised 10/15/2025",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "acetaminophen relieves pain and reduces fever (B42, B43, FAQ 3)",
+     "quote": "Acetaminophen is used to relieve mild to moderate pain and to reduce fever.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "do not take more than one acetaminophen product at a time; avoid duplicates (B6, B43, B103, B105, FAQ 3)",
+     "quote": "not take more than one product that contains acetaminophen at a time.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "acetaminophen is combined in cough and cold products (B43, B45)",
+     "quote": "Acetaminophen comes in combination with other medications to treat cough and cold symptoms.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "too much acetaminophen can cause liver damage (B105)",
+     "quote": "Taking too much acetaminophen can cause liver damage",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "do not exceed label dose (B52)",
+     "quote": "do not take more than 4000 mg of acetaminophen per day from all sources",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "suspected overdose: seek immediate help/Poison Control even without symptoms (B125)",
+     "quote": "get medical help immediately, even if the person does not have any symptoms",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus, National Library of Medicine. Ibuprofen: MedlinePlus Drug Information. Last revised September 15, 2023. Accessed November 7, 2026.",
+   "url": "https://medlineplus.gov/druginfo/meds/a682159.html",
+   "record_title": "Ibuprofen: MedlinePlus Drug Information",
+   "version_or_date": "Last revised 09/15/2023",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "'Dehydration' removed from the adult ibuprofen precautions because the page raises fluid loss only for children.",
+   "claims": [
+    {
+     "text": "ibuprofen reduces fever and relieves aches (B42, B104)",
+     "quote": "Nonprescription ibuprofen is used to reduce fever and to relieve minor aches and pain from headaches",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "heart attack and stroke risk (B44, FAQ 9)",
+     "quote": "may have a higher risk of having a heart attack or a stroke.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "ulcers and bleeding (B44, B104, FAQ 9)",
+     "quote": "NSAIDs such as ibuprofen may cause ulcers, bleeding, or holes in the esophagus",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "tell doctor about blood thinners, aspirin (B44, B103, B104, FAQ 9)",
+     "quote": "Tell your doctor if you take any of the following medications: anticoagulants ('blood thinners'); aspirin;",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "kidney disease (B44, B103, B104, FAQ 9)",
+     "quote": "liver or kidney disease",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "history of ulcers or stomach bleeding (B44, B103, B104)",
+     "quote": "have or have ever had ulcers, bleeding in your stomach or intestines",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "check labels; avoid duplicate NSAIDs across products (B6, B45, FAQ 3)",
+     "quote": "Check nonprescription product labels carefully before using two or more products at the same time.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "do not exceed directed dose or frequency (B52)",
+     "quote": "Do not take more or less of it or take it more often than directed",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "journal",
+   "cited_as": "Sur DKC, Khoo CP. Influenza: Prevention, Diagnosis, and Treatment. Am Fam Physician. 2026;114(4):369-378.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42886183/",
+   "pmid": "42886183",
+   "record_title": "Influenza: Prevention, Diagnosis, and Treatment.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2026",
+   "article_type": "Review",
+   "version_or_date": "October 2026 issue",
+   "retrieved_with": "PubMed get_article_metadata (abstract only; no DOI in record)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Abstract only; claims limited to the abstract.",
+   "claims": [
+    {
+     "text": "prompt treatment for hospitalized, severe/progressive or high-risk patients (B31, B94, B29)",
+     "quote": "antivirals should be initiated as soon as possible for patients who are hospitalized, have severe or progressive illness, or are at high risk of complications.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "most patients do not require treatment (B29)",
+     "quote": "Although most patients do not require treatment for influenza",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "modest symptom shortening, about 20 hours; no guarantee of fewer complications (B94, B95)",
+     "quote": "reduces symptoms by approximately 20 hours. However, there is little to no evidence that it reduces complications of influenza.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "negative rapid test does not exclude influenza (B9, B99, FAQ 11)",
+     "quote": "However, a negative rapid test result does not exclude influenza.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,632 @@
+{
+ "guide": "paxlovid-2026-efficacy-update",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 8 verified (all 8 journal DOIs), retractions: none. Contrasting evidence flagged for refs 3 and 9; noted, does not change cited claims. PubMed article types checked: no Retracted Publication or Retraction Notice.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "journal",
+   "cited_as": "Bhatia A, et al. PLoS Med. 2025;22(1):e1004493",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39823513/",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "pmid": "39823513",
+   "pmcid": "PMC11790232",
+   "doi": "10.1371/journal.pmed.1004493",
+   "record_title": "Effect of nirmatrelvir/ritonavir (Paxlovid) on hospitalization among adults with COVID-19: An electronic health record-based target trial emulation from N3C.",
+   "record_journal": "PLoS Med",
+   "record_year": "2025",
+   "article_type": "Journal Article (observational target trial emulation)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "notes": "Printed title, authors and pages corrected (was a paraphrased title with no authors). Absolute risk reductions added beside the relative figures. Publication date 2025-01-17 per PubMed record supports \"January 2025\". Citable summary link previously pointed to an unrelated TB trial (10.1371/journal.pmed.1004393, labelled \"Xie et al.\"); now links this record.",
+   "claims": [
+    {
+     "text": "703,647 patients at 34 US sites, April 2022 to August 2023",
+     "quote": "a cohort of 703,647 patients with COVID-19 seen at 34 clinical sites across the United States between April 1, 2022 and August 28, 2023",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "39% reduction in hospitalization (95% CI 36% to 41%, P<0.001), absolute 0.9 percentage points",
+     "quote": "Paxlovid reduced the risk of hospitalization by 39% (95% confidence interval (CI) [36%, 41%]; p < 0.001), with an absolute risk reduction of 0.9 percentage points",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "61% reduction in death (95% CI 55% to 67%, P<0.001), absolute 0.2 percentage points",
+     "quote": "reduced the risk of death by 61% (95% CI [55%, 67%]; p < 0.001), with an absolute risk reduction of 0.2 percentage points",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Absolute hospitalization reduction similar in vaccinated and unvaccinated, much greater in 65+ (also supports \"Age 65 or older\" benefit item)",
+     "quote": "Absolute risk reduction for hospitalization was similar among patients that were vaccinated and unvaccinate, but was much greater among patients aged 65+ years than among younger patients.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Effective including in vaccinated patients, in the Omicron era (Key Takeaway, summary, Bottom Line)",
+     "quote": "Paxlovid is effective at preventing hospitalization and death, including among vaccinated patients, and particularly among older patients. This remains true in the era of Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Omicron subvariants.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Millions of courses prescribed in the United States alone",
+     "quote": "Millions of treatment courses have been prescribed in the United States alone.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "journal",
+   "cited_as": "Hammond J, et al. N Engl J Med. 2024;390(13):1186-1195 (EPIC-SR)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38598573/",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "pmid": "38598573",
+   "pmcid": "PMC11156287",
+   "doi": "10.1056/NEJMoa2309003",
+   "record_title": "Nirmatrelvir for Vaccinated or Unvaccinated Adult Outpatients with Covid-19.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2024",
+   "article_type": "Randomized Controlled Trial (phase 2-3)",
+   "retrieved_with": "PubMed search_articles + get_article_metadata (abstract); Scite verify_papers",
+   "notes": "New ref 2. Replaces Lowe D, Science \"In the Pipeline\" blog (science.org returned client_error to WebFetch this run; not routed around). The 1.3% \"best case\" and \"median age in the 40s\" claims were cut. \"Not statistically significant\" is read from the 95% CI that crosses zero.",
+   "claims": [
+    {
+     "text": "EPIC-SR population: fully vaccinated with at least one risk factor, plus unvaccinated (or not vaccinated within a year) without risk factors",
+     "quote": "Patients who were fully vaccinated against Covid-19 and who had at least one risk factor for severe disease, as well as patients without such risk factors who had never been vaccinated",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No significant difference in time to sustained symptom alleviation, 12 vs 13 days, P=0.60",
+     "quote": "The median time to sustained alleviation of all targeted signs and symptoms of Covid-19 was 12 days in the nirmatrelvir-ritonavir group and 13 days in the placebo group (P = 0.60).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hospitalization or death 0.8% vs 1.6%, difference not statistically significant (95% CI -2.0 to 0.4)",
+     "quote": "Five participants (0.8%) in the nirmatrelvir-ritonavir group and 10 (1.6%) in the placebo group were hospitalized for Covid-19 or died from any cause (difference, -0.8 percentage points; 95% confidence interval, -2.0 to 0.4).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "Edelstein GE, et al. Ann Intern Med. 2023;176(12):1577-1585",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37956428/",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "pmid": "37956428",
+   "pmcid": "PMC10644265",
+   "doi": "10.7326/M23-1756",
+   "record_title": "SARS-CoV-2 Virologic Rebound With Nirmatrelvir-Ritonavir Therapy : An Observational Study.",
+   "record_journal": "Ann Intern Med",
+   "record_year": "2023",
+   "article_type": "Observational Study; Multicenter Study",
+   "retrieved_with": "PubMed search_articles + get_article_metadata (abstract); Scite verify_papers",
+   "notes": "New ref 3, the primary paper behind the former Harvard Medical School news item. The news item said 142 participants; the paper analysed 72 treated and 55 untreated (127). Shedding was median 14 vs 3 days (not \"fewer than 5\"). Scite flags one contrasting citation (10.1002/jmv.29333: higher clinical rebound than previously reported); it does not change the cited claims.",
+   "claims": [
+    {
+     "text": "Boston observational cohort, 72 treated vs 55 untreated",
+     "quote": "Compared with untreated persons (= 55), those taking N-R (= 72) were older, received more COVID-19 vaccinations, and more commonly had immunosuppression.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Virologic rebound 20.8% vs 1.8%; about 1 in 5",
+     "quote": "Fifteen participants (20.8%) taking N-R had VR versus 1 (1.8%) who was untreated",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Positive culture after prior negative; shedding median 14 vs 3 days; live virus shed during rebound",
+     "quote": "All persons with VR had a positive viral culture result after a prior negative result. ... those who had VR had prolonged shedding of replication-competent virus compared with those who did not have VR (median, 14 vs. 3 days).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Half with virologic rebound reported symptom rebound",
+     "quote": "Eight of 16 participants (50% [CI, 25% to 75%]) with VR also reported symptom rebound",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "About 1 in 5 (summary, Key Takeaway)",
+     "quote": "Virologic rebound occurred in approximately 1 in 5 people taking N-R, often without symptom rebound, and was associated with shedding of replication-competent virus.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Zhang W, et al. Clin Infect Dis. 2026;82(1):e33-e40",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41027009/",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "pmid": "41027009",
+   "doi": "10.1093/cid/ciaf548",
+   "record_title": "Retreatment With Nirmatrelvir/Ritonavir Following Return of COVID-19 Symptoms and SARS-CoV-2 Positivity.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2026 (print); Scite lists 2025",
+   "article_type": "Randomized Controlled Trial",
+   "retrieved_with": "PubMed search_articles + get_article_metadata (abstract); ClinicalTrials.gov get_trial_details NCT05567952 (phase); Scite verify_papers",
+   "notes": "New ref 4, the primary trial behind the former CIDRAP news item. \"October 2025\" publication month could not be confirmed and was dropped. Registry shows the trial excluded immunocompromised people and enrolled ages 12+ with a risk factor.",
+   "claims": [
+    {
+     "text": "Rebound typically mild, rarely progresses to severe disease",
+     "quote": "rebound is typically mildly symptomatic and rarely associated with progression to severe disease",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Phase 2 randomized, double-blind, placebo-controlled",
+     "quote": "AN INTERVENTIONAL, EFFICACY AND SAFETY, PHASE 2, RANDOMIZED, DOUBLE-BLIND, 2-ARM STUDY TO INVESTIGATE A REPEAT 5-DAY COURSE OF NIRMATRELVIR/RITONAVIR COMPARED TO PLACEBO/RITONAVIR",
+     "quote_source": "registry",
+     "verdict": "supported"
+    },
+    {
+     "text": "436 participants, 292 retreated and 144 placebo/ritonavir",
+     "quote": "The full analysis set included 436 participants assigned to treatment (292, nirmatrelvir/ritonavir; 144, placebo/ritonavir).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Faster viral RNA decline; symptom alleviation 8 vs 9 days",
+     "quote": "A second 5-day course of nirmatrelvir/ritonavir resulted in a significant reduction in viral RNA levels at Day 5 ... the median time to sustained alleviation of all targeted signs/symptoms was 8 versus 9 days",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Safe, well tolerated; no COVID-19 hospitalizations or deaths",
+     "quote": "Retreatment with nirmatrelvir/ritonavir was safe and well tolerated, and there were no occurrences of COVID-19-related hospitalizations or deaths.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No clear clinical benefit because rebound transient and mild; second course unlikely to help (body, FAQ, table)",
+     "quote": "there was no clear benefit of retreatment because rebound was transient and mild and did not lead to severe COVID-19.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Weinstein E, et al. Lancet Infect Dis. 2025;25(11):1243-1253 (EPIC-IC)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40675169/",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "pmid": "40675169",
+   "doi": "10.1016/S1473-3099(25)00221-X",
+   "record_title": "Extended nirmatrelvir-ritonavir treatment durations for immunocompromised patients with COVID-19 (EPIC-IC): a placebo-controlled, randomised, double-blind, phase 2 trial.",
+   "record_journal": "Lancet Infect Dis",
+   "record_year": "2025",
+   "article_type": "Randomized Controlled Trial; Clinical Trial, Phase II",
+   "retrieved_with": "PubMed search_articles + get_article_metadata (abstract); Scite verify_papers",
+   "notes": "New ref 5, primary trial behind the former Contagion Live item. \"May benefit immunocompromised patients\" overstated: primary endpoint did not differ; rebound reduction was called nominal. Trial enrolled ages 12+.",
+   "claims": [
+    {
+     "text": "Immunocompromised, ages 12 and older; 5-, 10-, 15-day courses compared",
+     "quote": "enrolled non-hospitalised, immunocompromised individuals aged 12 years or older with symptomatic COVID-19 ... We aimed to compare the approved 5-day regimen of nirmatrelvir-ritonavir with 10-day and 15-day regimens.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Longer courses did not improve primary viral endpoint",
+     "quote": "No difference was observed between the three treatment durations in the primary endpoint.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Rebound 17.3% vs 2.1% vs 2.0%",
+     "quote": "Viral rebound occurred in 17·3% (95% CI 8·2-30·3) of participants in the 5-day group, 2·1% (0·1-11·1) in the 10-day group, and 2·0% (0·1-10·6) in the 15-day group.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nominal improvement in rebound",
+     "quote": "Extending nirmatrelvir-ritonavir treatment beyond 5 days resulted in a nominal improvement in the frequency of viral rebound and was generally well tolerated.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Tamura TJ, et al. JAMA Netw Open. 2024;7(9):e2435431",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39320890/",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "pmid": "39320890",
+   "pmcid": "PMC11425144",
+   "doi": "10.1001/jamanetworkopen.2024.35431",
+   "record_title": "Emerging SARS-CoV-2 Resistance After Antiviral Treatment.",
+   "record_journal": "JAMA Netw Open",
+   "record_year": "2024",
+   "article_type": "Journal Article (cohort study)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); PubMed get_full_text_article PMC11425144; Scite verify_papers",
+   "notes": "Title corrected (was printed as \"Nirmatrelvir Resistance Mutations in SARS-CoV-2\"). Link changed from jamanetwork.com to the PubMed record. \"Rare\" corrected: the authors say \"commonly detected\". The ensitrelvir cross-susceptibility claim is not in this paper (full text read) and was cut.",
+   "claims": [
+    {
+     "text": "Paxlovid EUA December 2021",
+     "quote": "before and after the Food and Drug Administration’s (FDA) Emergency Use Authorization (EUA) was approved for nirmatrelvir in December 2021",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "156 Boston outpatients, sensitive sequencing of nasal swabs, published September 2024",
+     "quote": "This cohort study enrolled outpatient adults with acute COVID-19 ... at a multicenter health care system in Boston, Massachusetts. ... Next-generation sequencing was used to detect low frequency mutations down to 1%",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Resistance mutations 9 of 79 treated (11.4%) vs 2 of 63 untreated (3.2%), not significant",
+     "quote": "the 79 who received nirmatrelvir ... nirmatrelvir resistance mutations were detected in 9 individuals who received nirmatrelvir (11.4%) compared with 2 of those who did not (3.2%) (P = .09).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "5 of 22 immunosuppressed (22.7%)",
+     "quote": "those who were immunosuppressed had the highest frequency of resistance emergence (5 of 22 [22.7%])",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Commonly detected but low frequency and transient; 10 of 11 low frequency and reverted",
+     "quote": "treatment-emergent nirmatrelvir resistance mutations were commonly detected, especially in individuals who were immunosuppressed. However, these mutations were generally present at low frequencies and were transient",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Similar with and without rebound (13.0% vs 10.7%)",
+     "quote": "Similar rates of nirmatrelvir resistance were found in those who had virologic rebound (3 of 23 [13.0%]) vs those who did not (6 of 56 [10.7%])",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No sustained rise in US GISAID sequences; E166V peaked about 1 in 10,000, not sustained",
+     "quote": "the monthly peak E166V prevalence in the United States in June 2023 was only 1 in 10 000 sequences and was not sustained",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Low risk of spread; no significant risk with current variants and use patterns",
+     "quote": "did not appear to pose a significant risk with current variants and antiviral drug usage patterns",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Preiss A, et al. PLoS Med. 2025;22(9):e1004711",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12445499/",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "pmid": "40953059",
+   "pmcid": "PMC12445499",
+   "doi": "10.1371/journal.pmed.1004711",
+   "record_title": "Effect of Paxlovid treatment during acute COVID-19 on Long COVID onset: An EHR-based target trial emulation from the N3C and RECOVER consortia.",
+   "record_journal": "PLoS Med",
+   "record_year": "2025",
+   "article_type": "Journal Article (observational target trial emulation)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); PubMed get_full_text_article PMC12445499; Scite verify_papers",
+   "notes": "Title and authors corrected. Old subgroup figures were wrong: 65+ was RR 0.92 (8%), not 12%; ages 18 to 49 had no 7% reduction (18-24 RR 1.31 and 35-49 RR 1.08, which the authors attribute to likely confounding).",
+   "claims": [
+    {
+     "text": "445,738 risk-eligible patients, target trial emulation, September 2025",
+     "quote": "a cohort of 445,738 patients who had COVID-19 since April 1, 2022, and were eligible for Paxlovid treatment due to risk for progression to severe COVID-19. We used the target trial emulation framework",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No significant effect on overall Long COVID incidence",
+     "quote": "Compared to the control group, Paxlovid treatment did not have a significant effect on overall PASC incidence or incident respiratory symptoms.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "65+: RR 0.92, ARD 0.43 points, NNT 233; CCI 3-4: RR 0.83, NNT 76",
+     "quote": "small protective effects among patients aged 65 years or more (RR 0.92; 95% CI [0.88, 0.97]; p < 0.001; absolute risk difference [ARD] -0.43%; number needed to treat [NNT] 233) and with a CCI of 3 or 4",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No younger age group showed a protective effect",
+     "quote": "Among the age strata, Paxlovid had a protective effect on overall PASC onset only among patients aged 65 years or more.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Even the largest effects were small",
+     "quote": "Second, even the largest effect sizes are small, with NNTs in the hundreds.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Earlier observational studies suggested benefit (FAQ)",
+     "quote": "Although some prior observational studies suggested that Paxlovid held promise as a PASC preventive",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "Hammond J, et al. N Engl J Med. 2022;386(15):1397-1408 (EPIC-HR)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35172054/",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "pmid": "35172054",
+   "pmcid": "PMC8908851",
+   "doi": "10.1056/NEJMoa2118542",
+   "record_title": "Oral Nirmatrelvir for High-Risk, Nonhospitalized Adults with Covid-19.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2022",
+   "article_type": "Randomized Controlled Trial; Clinical Trial, Phase II",
+   "retrieved_with": "PubMed search_articles + get_article_metadata (abstract); Scite verify_papers",
+   "notes": "New. Supports the 89% figure and the 2,246 randomized, which were uncited before. Scite flags one contrasting citation (preprint 10.1101/2024.06.07.24307681, survival benefit in mostly vaccinated patients vs EPIC-SR); it does not affect the EPIC-HR claims.",
+   "claims": [
+    {
+     "text": "Population: symptomatic, unvaccinated, nonhospitalized adults at high risk",
+     "quote": "symptomatic, unvaccinated, nonhospitalized adults at high risk for progression to severe coronavirus disease 2019 (Covid-19)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "89% relative risk reduction in hospitalization or death through day 28, treated within 3 days",
+     "quote": "In the planned interim analysis of patients treated within 3 days after symptom onset ... Covid-19-related hospitalization or death by day 28 ... relative risk reduction, 89.1%",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "2,246 randomized",
+     "quote": "A total of 2246 patients underwent randomization",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Absolute reduction about 6 percentage points",
+     "quote": "Efficacy was maintained in the final analysis involving the 1379 patients in the modified intention-to-treat population, with a difference of -5.81 percentage points",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "label",
+   "cited_as": "PAXLOVID prescribing information, Pfizer, revised 2/2026 (DailyMed)",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8a99d6d6-fd9e-45bb-b1bf-48c7f761232a",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "version_or_date": "Revised: 2/2026; DailyMed updated February 19, 2026",
+   "retrieved_with": "WebFetch of DailyMed drug label page (curl blocked by proxy)",
+   "notes": "New. Primary source for indication, timing, 5-day course, boxed warning, interaction examples and (follow-up edit) renal dose adjustment from section 2.3 / Table 1, re-retrieved 2026-11-15. Newer than the 01/2025 revision cited in the sibling Xocova repair.",
+   "claims": [
+    {
+     "text": "Indicated for mild-to-moderate COVID-19 in adults at high risk",
+     "quote": "indicated for the treatment of mild-to-moderate coronavirus disease 2019 (COVID-19) in adults ... who are at high risk for progression to severe COVID-19, including hospitalization or death.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Start as soon as possible after diagnosis and within 5 days of symptom onset",
+     "quote": "should be initiated as soon as possible after a diagnosis of COVID-19 has been made ... within 5 days of symptom onset even if baseline COVID-19 symptoms are mild",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Approved course is 5 days",
+     "quote": "with all 3 tablets taken together orally twice daily in the morning and at bedtime for 5 days.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Boxed warning: ritonavir strong CYP3A inhibitor; potentially severe, life-threatening, or fatal events",
+     "quote": "WARNING: SIGNIFICANT DRUG INTERACTIONS WITH PAXLOVID ... PAXLOVID includes ritonavir, a strong CYP3A inhibitor, ... resulting in potentially severe, life-threatening, or fatal events",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Contraindicated examples: lovastatin, simvastatin, triazolam, oral midazolam, carbamazepine, phenytoin",
+     "quote": "HMG-CoA reductase inhibitors: lovastatin, simvastatin ... Sedative/hypnotics: triazolam, oral midazolam ... Anticonvulsant: carbamazepine, phenobarbital, primidone, phenytoin",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Rivaroxaban and calcineurin inhibitors to be avoided unless closely managed",
+     "quote": "Increased bleeding risk with rivaroxaban. Avoid concomitant use. ... Avoid concomitant use of calcineurin inhibitors with PAXLOVID when close monitoring of immunosuppressant concentrations is not feasible.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Moderate renal impairment (eGFR 30 to under 60 mL/min): 150 mg nirmatrelvir with 100 mg ritonavir twice daily, days 1 to 5",
+     "quote": "In patients with moderate renal impairment (eGFR ≥30 to <60 mL/min) ... 150 mg nirmatrelvir (one 150 mg tablet) with 100 mg ritonavir (one 100 mg tablet) twice daily",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Severe renal impairment (eGFR under 30 mL/min) incl. hemodialysis, day 1: 300 mg nirmatrelvir with 100 mg ritonavir once",
+     "quote": "severe renal impairment (eGFR <30 mL/min) including those requiring hemodialysis ... Day 1: 300 mg nirmatrelvir (two 150 mg tablets) with 100 mg ritonavir (one 100 mg tablet) once",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Severe renal impairment, days 2 to 5: 150 mg nirmatrelvir with 100 mg ritonavir once daily",
+     "quote": "Days 2-5: 150 mg nirmatrelvir (one 150 mg tablet) with 100 mg ritonavir (one 100 mg tablet) once daily",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Give dose after hemodialysis on dialysis days",
+     "quote": "On days patients with severe renal impairment undergo hemodialysis, the PAXLOVID dose should be administered after hemodialysis.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "No adjustment for mild renal impairment (eGFR 60 to under 90 mL/min)",
+     "quote": "No dosage adjustment is recommended in patients with mild renal impairment [estimated glomerular filtration rate (eGFR) ≥60 to <90 mL/min].",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Minimal-benefit item: drug interaction risk cannot be appropriately managed",
+     "quote": "Consider the benefit of PAXLOVID treatment in reducing hospitalization and death ... whether the risk of potential drug-drug interactions for an individual patient can be appropriately managed",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "guideline",
+   "cited_as": "IDSA COVID-19 Treatment and Management guideline, nirmatrelvir/ritonavir section updated 10/14/2025",
+   "url": "https://www.idsociety.org/practice-guideline/covid-19-guideline-treatment-and-management/",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "version_or_date": "Nirmatrelvir/ritonavir section last reviewed and updated 10/14/2025; page published September 23, 2026",
+   "retrieved_with": "WebFetch of IDSA guideline page",
+   "notes": "New. IDSA also states no comparative evidence on repeat treatment (section predates or did not include the Zhang trial).",
+   "claims": [
+    {
+     "text": "Recommends for high-risk adults within five days of symptom onset",
+     "quote": "In adults with mild to moderate COVID-19 at high risk ... the IDSA guideline panel recommends nirmatrelvir/ritonavir over no antiviral treatment (strong recommendation, moderate certainty of evidence)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Within five days of symptom onset",
+     "quote": "for progression to severe disease who are within five days of symptom onset",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Suggests against routine use without risk factors (body, Minimal-benefit item, Bottom Line, FAQ)",
+     "quote": "In adults without risk factors for progression to severe disease ... the IDSA guideline panel suggests against the routine use of nirmatrelvir/ritonavir",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "agency_page",
+   "cited_as": "CDC, Underlying Conditions and the Higher Risk for Severe COVID-19",
+   "url": "https://www.cdc.gov/covid/hcp/clinical-care/underlying-conditions.html",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "version_or_date": "Last updated October 8, 2026",
+   "retrieved_with": "WebFetch of CDC page",
+   "notes": "New. The former \"Severe obesity (BMI 40 or more)\" item was changed to the CDC threshold (BMI over 30). \"Active cancer treatment\" changed to \"cancer\".",
+   "claims": [
+    {
+     "text": "Age 65 or older",
+     "quote": "risk increasing substantially at ages >65 years",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Unvaccinated or not up to date",
+     "quote": "being unvaccinated or not being up to date on COVID-19 vaccinations also increases the risk of severe COVID-19 outcomes",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Immunocompromised: transplant, cancer, corticosteroids or other immunosuppressive medications",
+     "quote": "Solid organ or blood stem cell transplantation ... Cancer ... Use of corticosteroids or other immunosuppressive medications",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Chronic conditions: diabetes, heart, lung, kidney; multiple conditions",
+     "quote": "Diabetes mellitus, type 2 ... Heart conditions ... Chronic lung diseases ... Chronic kidney disease ... Having multiple conditions was also associated with severe COVID-19 illness.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Obesity BMI over 30",
+     "quote": "Obesity (BMI >30 kg/m2 or >95th percentile in children)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "other_web",
+   "cited_as": "Pfizer, paxlovid.com PAXCESS page",
+   "url": "https://paxlovid.com/paxcess",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": [],
+   "version_or_date": "Page undated; accessed 2026-11-15",
+   "retrieved_with": "WebFetch of paxlovid.com/paxcess",
+   "notes": "New; manufacturer page. Supports PAXCESS and the government patient assistance program (free access stated through December 31, 2026, not repeated on the guide).",
+   "claims": [
+    {
+     "text": "PAXCESS co-pay program may lower cost for eligible commercially insured patients",
+     "quote": "Eligible commercially insured patients may access PAXLOVID for as little as $0",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Government patient assistance program may remove cost for eligible patients",
+     "quote": "eligible Medicare, Medicaid, and uninsured patients may access PAXLOVID for free",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Eligible commercially insured may pay as little as $0 (savings capped at $1,000/yr); eligible Medicare, Medicaid and uninsured may get it free through Dec 31, 2026 (cost table row and cost paragraph, Nov 18)",
+     "quote": "Eligible commercially insured patients may access PAXLOVID for as little as $0, and eligible Medicare, Medicaid, and uninsured patients may access PAXLOVID for free. ... Eligible commercially insured patients can save up to a maximum of $1,000 annually. ... Eligible government insured and uninsured patients can access PAXLOVID for free through December 31, 2026.",
+     "quote_source": "paxlovid.com/paxcess, retrieved 2026-11-18",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "agency_page",
+   "cited_as": "CDC, Symptoms of COVID-19",
+   "url": "https://www.cdc.gov/covid/signs-symptoms/index.html",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "version_or_date": "Last updated March 10, 2025 (page also shows a June 17, 2026 publication timestamp)",
+   "retrieved_with": "WebFetch of CDC page",
+   "notes": "New (follow-up edit requested by coordinator). Supports the new When to Get Emergency Care section. Footnote on page: list does not include all possible symptoms.",
+   "claims": [
+    {
+     "text": "Emergency warning signs: trouble breathing; persistent chest pain or pressure; new confusion; inability to wake or stay awake",
+     "quote": "Look for emergency warning signs* for COVID 19: Trouble breathing Persistent pain or pressure in the chest New confusion Inability to wake or stay awake",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lips, nail beds or skin pale, gray, or blue depending on skin tone",
+     "quote": "Depending on skin tone, lips, nail beds and skin may appear pale, gray, or blue.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Call 911 or call ahead to emergency facility; tell operator about COVID-19",
+     "quote": "If someone is showing any of these signs, call 911 or call ahead to your local emergency facility. Notify the operator that you are seeking care for someone who has or may have COVID-19.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ],
+ "notes_2026_11_18": "Removed Medfinder blog price ref (old 8); refs 9-14 renumbered to 8-13. 'prescribed within hours' sentence reworded (no prescription promise)."
+}

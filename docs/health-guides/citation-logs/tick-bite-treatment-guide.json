@@ -1,0 +1,916 @@
+{
+ "guide": "tick-bite-treatment-guide",
+ "checked_at": "2026-11-07",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "Lantos PM, Rumbaugh J, Bockenstedt LK, et al. Clinical Practice Guidelines by the IDSA, AAN, and ACR: 2020 Guidelines for the Prevention, Diagnosis and Treatment of Lyme Disease. Clin Infect Dis. 2021;72(1):e1-e48. IDSA web text.",
+   "url": "https://www.idsociety.org/practice-guideline/lyme-disease/",
+   "pmid": "33417672",
+   "doi": "10.1093/cid/ciaa1215",
+   "record_title": "Clinical Practice Guidelines by the Infectious Diseases Society of America (IDSA), American Academy of Neurology (AAN), and American College of Rheumatology (ACR): 2020 Guidelines for the Prevention, Diagnosis and Treatment of Lyme Disease.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2021",
+   "article_type": "Practice guideline (PubMed types: Journal Article; Research Support, Non-U.S. Gov't)",
+   "version_or_date": "Page labeled CURRENT; published online November 30, 2020; print Clin Infect Dis 72(1), January 1, 2021. Read 2026-11-07.",
+   "retrieved_with": "WebFetch of official page (idsociety.org, read to character 100000 plus offset read of the remainder); PubMed get_article_metadata for PMID 33417672 and 33251700",
+   "notes": "Former ref 11 (ACR co-publication, PMID 33251700, abstract not available, no in-text claims) removed as a duplicate of this guideline. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types show no Retracted Publication or Retraction Notice. WebFetch returns quotes in fragments under 125 characters; multi-fragment quotes below are consecutive fragments as returned.",
+   "claims": [
+    {
+     "text": "single oral dose of doxycycline within 72 hours of removal for high-risk Ixodes bites, all age groups",
+     "quote": "For high-risk Ixodes spp. bites in all age groups, we recommend the administration of a single dose of oral doxycycline within 72 hours of tick removal over observation",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "high-risk bite = identified Ixodes vector, highly endemic area, attached >=36 hours; criteria apply to any Ixodes species",
+     "quote": "the tick bite was from (a) an identified Ixodes spp. vector species, (b) it occurred in a highly endemic area, and (c) the tick was attached for ≥36 hours.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "guidelines recommend against prophylaxis for equivocal or low-risk bites",
+     "quote": "but not for bites that are equivocal risk or low risk",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "wait-and-watch approach when a bite cannot be classified as high-risk",
+     "quote": "If a tick bite cannot be classified with a high level of certainty as a high-risk bite, a wait-and-watch approach is recommended.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "dose 200 mg adults, 4.4 mg/kg up to 200 mg for children",
+     "quote": "Doxycycline is given as a single oral dose, 200 mg for adults and 4.4 mg/kg (up to a maximum dose of 200 mg) for children.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "most B. burgdorferi transmission occurs after 36 to 48 hours of attachment",
+     "quote": "the majority of transmission occurs after 36–48 hours of attachment",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "pregnancy: informed discussion with physician about risks and benefits (no blanket recommendation against)",
+     "quote": "we advise pregnant women to have an informed discussion with their physicians about the risks, benefits",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "growing consensus that doxycycline is safe in young children for courses up to at least 14 days",
+     "quote": "A growing consensus accepts the safety of doxycycline use in young children for at least up to 14-days duration, but more data on safety would be desirable.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "IDSA endorses single-dose prophylaxis for high-risk bites",
+     "quote": "(strong recommendation, moderate-quality evidence)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "EM in endemic area: clinical diagnosis rather than laboratory testing",
+     "quote": "we recommend clinical diagnosis rather than laboratory testing",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "EM: doxycycline, amoxicillin or cefuroxime axetil; 10-day doxycycline or 14-day amoxicillin/cefuroxime axetil",
+     "quote": "we recommend using oral antibiotic therapy with doxycycline, amoxicillin, or cefuroxime axetil ... either a 10-day course of doxycycline or a 14-day course of amoxicillin or cefuroxime axetil",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "doxycycline needed if Anaplasma coinfection is suspected",
+     "quote": "which, if suspected, would necessitate the use of doxycycline",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "neurologic Lyme without brain or spinal cord involvement: IV ceftriaxone, cefotaxime, penicillin G or oral doxycycline, 14 to 21 days",
+     "quote": "we recommend using intravenous (IV) ceftriaxone, cefotaxime, penicillin G, or oral doxycycline over other antimicrobials ... The preferred antibiotic duration is 14–21 days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "brain or spinal cord parenchymal involvement: IV over oral",
+     "quote": "we recommend using IV over oral antibiotics",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "carditis: oral for outpatients, initial IV ceftriaxone for hospitalized until improvement, 14 to 21 days total",
+     "quote": "we suggest oral antibiotics over IV antibiotics ... we suggest initially using IV ceftriaxone over oral antibiotics until there is evidence of clinical improvement ... we suggest 14–21 days of total antibiotic therapy",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lyme arthritis: oral therapy 28 days; no or minimal response: 2 to 4 weeks IV ceftriaxone; partial response: no recommendation",
+     "quote": "we recommend using oral antibiotic therapy for 28 days ... we suggest a 2- to 4-week course of IV ceftriaxone over a second course of oral antibiotics ... we make no recommendation for a second course of antibiotic versus observation",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "persistent nonspecific symptoms without objective evidence of reinfection or failure: against additional antibiotics",
+     "quote": "we recommend against additional antibiotic therapy",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "investigate coinfection if persistent fever >1 day on Lyme treatment",
+     "quote": "Coinfection should be investigated in patients who have a persistent fever for >1 day while on antibiotic treatment for Lyme disease.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "guidelines give stage-specific recommendations",
+     "quote": "we recommend using oral antibiotic therapy for 28 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 2,
+   "kind": "agency_page",
+   "cited_as": "CDC. Lyme Disease Prophylaxis After Tick Bite (clinician algorithm PDF).",
+   "url": "https://www.cdc.gov/lyme/resources/pdfs/lyme-pep-low-ink-p.pdf",
+   "version_or_date": "No date on document; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "notes": "Document gives no 36-hour figure and no list of high-incidence areas; used only for dose, engorgement and CDC endorsement.",
+   "claims": [
+    {
+     "text": "single dose 200 mg adults, 4.4 mg/kg children under 45 kg; CDC endorses single-dose prophylaxis",
+     "quote": "Single dose of doxycycline (200 mg for adults or 4.4 mg/kg for children of any age weighing less than 45 kg)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "engorged tick means higher Lyme risk",
+     "quote": "If the tick is engorged with blood, the risk of Lyme disease is higher, and PEP should be considered.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "Kugeler KJ, Earley A, Mead PS, Hinckley AF. Surveillance for Lyme Disease After Implementation of a Revised Case Definition, United States, 2022. MMWR Morb Mortal Wkly Rep. 2024;73(6):118-123.",
+   "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm",
+   "pmid": "38358952",
+   "pmcid": "PMC10899080",
+   "doi": "10.15585/mmwr.mm7306a1",
+   "record_title": "Surveillance for Lyme Disease After Implementation of a Revised Case Definition - United States, 2022.",
+   "record_journal": "MMWR Morb Mortal Wkly Rep",
+   "record_year": "2024",
+   "article_type": "Journal Article (surveillance report)",
+   "retrieved_with": "PubMed get_article_metadata and get_full_text_article (PMC10899080); WebFetch of the MMWR page for the high-incidence footnote",
+   "notes": "Replaces former ref 3 (CDC Lyme Disease Case Maps), which did not contain the case count, rash timing, state list or Rhode Island rate. Corrects \"62,551 confirmed\" to confirmed and probable. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types show no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "Lyme is the most common vectorborne disease in the US",
+     "quote": "Lyme disease, a tickborne zoonosis caused by certain species of Borrelia spirochetes, is the most common vectorborne disease in the United States.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "62,551 cases reported in 2022, 1.7 times the 2017-2019 average",
+     "quote": "In 2022, 62,551 Lyme disease cases were reported to CDC, 1.7 times the annual average of 37,118 cases reported during 2017-2019.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "counts are confirmed plus probable",
+     "quote": "Case counts reflect the total number of cases (confirmed and probable).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "increase reflects surveillance methods rather than disease risk",
+     "quote": "The sharp increase in reported Lyme disease cases in 2022 likely reflects changes in surveillance methods rather than change in disease risk.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "surveillance likely does not capture all cases",
+     "quote": "it is likely that current surveillance does not capture all cases of Lyme disease",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "most cases from Northeast, mid-Atlantic, upper Midwest",
+     "quote": "Approximately 90% of all cases are reported from 15 high-incidence jurisdictions in the Northeast, mid-Atlantic, and upper-Midwest regions.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "steady increase in incidence and geographic range since 1991",
+     "quote": "National surveillance for Lyme disease in the United States began in 1991 and has documented a steady increase in incidence and geographic range.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "95.5% of 2022 cases from high-incidence jurisdictions",
+     "quote": "During 2022, 95.5% of reported cases were reported from high-incidence jurisdictions",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "list of high-incidence jurisdictions as of 2022",
+     "quote": "As of 2022, high-incidence jurisdictions are Connecticut, Delaware, District of Columbia, Maine, Maryland, Massachusetts, Minnesota, New Hampshire, New Jersey, New York, Pennsylvania, Rhode Island, Vermont, Virginia, West Virginia, and Wisconsin.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Rhode Island highest 2022 incidence 212.0 per 100,000, then Vermont and Maine",
+     "quote": "Rhode Island 1,071 2,326 117.2 97.6 212.0 114.3 ... Vermont 911 1,312 44.0 141.6 204.0 62.4 ... Maine 1,807 2,653 46.8 132.7 194.7 62.1",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "California, Oregon and Washington are low-incidence jurisdictions",
+     "quote": "High-incidence jurisdictions are defined as jurisdictions reporting 10 or more confirmed cases per 100,000 population for 3 years. All other jurisdictions are low incidence.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "highly endemic area exemplified by high-incidence jurisdictions (guide pairs IDSA term with CDC classification)",
+     "quote": "During 2022, 95.5% of reported cases were reported from high-incidence jurisdictions",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 4,
+   "kind": "agency_page",
+   "cited_as": "CDC. What to Do After a Tick Bite.",
+   "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html",
+   "version_or_date": "Last updated June 9, 2026; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "notes": "Page gives no attachment-time threshold; the 36-hour claim formerly cited here now cites ref 1 (36 to 48 hours). Saliva and squeezing-pathogen claims cut.",
+   "claims": [
+    {
+     "text": "delaying removal could increase risk; remove right away",
+     "quote": "Delaying tick removal to get help from a healthcare provider could increase your risk",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "grasp close to skin with clean fine-tipped tweezers",
+     "quote": "Grasp the tick as close to the skin's surface as possible using clean fine-tipped tweezers.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "pull with steady even pressure; twisting or jerking can break off mouthparts",
+     "quote": "Pull tick away from the skin with steady, even pressure. Don't twist or jerk the tick. This can cause the tick mouthparts to break off and remain in the skin.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "clean bite and hands with soap and water, alcohol or sanitizer",
+     "quote": "thoroughly clean the bite area and your hands with soap and water, rubbing alcohol, or hand sanitizer.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "disposal options; do not crush with fingers",
+     "quote": "place it in a sealed container; wrap it tightly in tape; flush it down the toilet; or put it in alcohol. ... Do not crush the tick with your fingers.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "do not use petroleum jelly, heat, nail polish",
+     "quote": "Do not use petroleum jelly, heat, nail polish, or other substances to try and make the tick detach from the skin.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "remove as quickly as possible rather than waiting",
+     "quote": "Do not wait to go to a healthcare provider to remove the tick.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "watch for rash or fever in the weeks after removal",
+     "quote": "If you develop a rash or fever within several weeks of removing a tick, see your doctor",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 5,
+   "kind": "other_web",
+   "cited_as": "Harvard Health Publishing, Lyme Wellness Initiative. Lyme Disease Stages and Symptoms.",
+   "url": "https://www.lyme.health.harvard.edu/stages-and-symptoms/",
+   "version_or_date": "Modified February 24, 2025 (page metadata); read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "notes": "Corrected \"20-30%\" to \"up to 30%\"; removed headache (not listed) and corrected lymph nodes \"near the bite\" to anywhere on the body.",
+   "claims": [
+    {
+     "text": "up to 30% never develop or notice EM",
+     "quote": "However, up to 30% of people with Lyme disease never develop or notice an EM rash.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "stage 1 symptoms: fatigue, migratory muscle or joint pain, loss of appetite, swollen lymph nodes anywhere, fever",
+     "quote": "Muscle or joint pain that moves around (is migratory). ... Loss of appetite ... You may notice swollen lymph nodes anywhere on your body, not just near the area of your tick bite. ... Fever.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "EM can be a solid red expanding rash of a different shape",
+     "quote": "However, it can also be a solid red, expanding rash of a different shape.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Nadelman RB, Nowakowski J, Fish D, et al. Prophylaxis with single-dose doxycycline for the prevention of Lyme disease after an Ixodes scapularis tick bite. N Engl J Med. 2001;345(2):79-84.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11450675/",
+   "pmid": "11450675",
+   "doi": "10.1056/NEJM200107123450201",
+   "record_title": "Prophylaxis with single-dose doxycycline for the prevention of Lyme disease after an Ixodes scapularis tick bite.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2001",
+   "article_type": "Randomized Controlled Trial; Multicenter Study; Clinical Trial",
+   "retrieved_with": "PubMed get_article_metadata (article types checked)",
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types show no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "single 200 mg dose within 72 hours; efficacy 87% (95% CI 25 to 98%)",
+     "quote": "The efficacy of treatment was 87 percent (95 percent confidence interval, 25 to 98 percent).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "endpoint was EM; 1 of 235 vs 8 of 247; 3.2% in placebo group; hyperendemic New York",
+     "quote": "Erythema migrans developed at the site of the tick bite in a significantly smaller proportion of the subjects in the doxycycline group than of those in the placebo group (1 of 235 subjects [0.4 percent] vs. 8 of 247 subjects [3.2 percent], P<0.04).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "adverse effects 30.1% vs 11.1%, mainly nausea and vomiting",
+     "quote": "Treatment with doxycycline was associated with more frequent adverse effects (in 30.1 percent of subjects, as compared with 11.1 percent of those assigned to placebo; P<0.001), primarily nausea (15.4 percent vs. 2.6 percent) and vomiting",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "no EM after flat unfed nymph bites vs 9.9% after partly engorged nymph bites",
+     "quote": "8 of 81 bites [9.9 percent], as compared with 0 of 59 bites from unfed, or flat, nymphal ticks [0 percent]; P=0.02",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "single 200 mg dose within 72 hours prevents Lyme",
+     "quote": "A single 200-mg dose of doxycycline given within 72 hours after an I. scapularis tick bite can prevent the development of Lyme disease.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 7,
+   "kind": "other_web",
+   "cited_as": "Mayo Clinic. Lyme Disease: Symptoms and Causes.",
+   "url": "https://www.mayoclinic.org/diseases-conditions/lyme-disease/symptoms-causes/syc-20374651",
+   "version_or_date": "Dated May 6, 2026; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "notes": "Poppy-seed claim moved to ref 11; stage 2 sentence rewritten to the page bullets (page does not mention meningitis or heart block; meningitis now cites ref 14).",
+   "claims": [
+    {
+     "text": "stage 2 features: many rashes, facial weakness, neck pain or stiffness, back/hip pain to legs, hand/foot numbness, irregular heartbeats",
+     "quote": "Many rashes on other parts of the body. Neck pain or stiffness. Muscle weakness on one or both sides of the face. Immune-system activity in heart tissue that causes irregular heartbeats.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "stage 2: radiating and peripheral nerve pain",
+     "quote": "Pain that starts from the back and hips and spreads to the legs. Pain, numbness or weakness in the hands or feet.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "late stage: arthritis in large joints, particularly knees",
+     "quote": "In the United States, the most common condition of this stage is arthritis in large joints, particularly the knees.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 8,
+   "kind": "guideline",
+   "cited_as": "Biggs HM, Behravesh CB, Bradley KK, et al. Diagnosis and Management of Tickborne Rickettsial Diseases. MMWR Recomm Rep. 2016;65(2):1-44.",
+   "url": "https://www.cdc.gov/mmwr/volumes/65/rr/rr6502a1.htm",
+   "pmid": "27172113",
+   "doi": "10.15585/mmwr.rr6502a1",
+   "record_title": "Diagnosis and Management of Tickborne Rickettsial Diseases: Rocky Mountain Spotted Fever and Other Spotted Fever Group Rickettsioses, Ehrlichioses, and Anaplasmosis - United States.",
+   "record_journal": "MMWR Recomm Rep",
+   "record_year": "2016",
+   "article_type": "Practice Guideline; Journal Article",
+   "version_or_date": "Published May 13, 2016; read 2026-11-07",
+   "retrieved_with": "PubMed get_article_metadata; WebFetch of the MMWR report page",
+   "notes": "Corrected: ehrlichiosis course (was \"minimum 10 days\"; source: at least 3 days after fever subsides, typical minimum 5-7 days); RMSF \"most lethal tick-borne disease\" to most frequently fatal rickettsial illness; RMSF geography. Babesiosis regimen moved to ref 15 (this report gives none). scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types show no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "I. pacificus principal anaplasmosis vector along West Coast",
+     "quote": "Ixodes pacificus is the principal vector along the West Coast",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "D. variabilis found in eastern, central and Pacific coastal US; D. andersoni western US",
+     "quote": "This tick is found primarily in the eastern, central, and Pacific coastal United States ... is associated with transmission in the western United States",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "anaplasmosis highest in northeastern and upper Midwest",
+     "quote": "Incidence is highest in the northeastern and upper Midwestern states.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "anaplasmosis symptoms 5-14 days: fever, headache, malaise, myalgia",
+     "quote": "Symptoms of anaplasmosis typically appear 5–14 days after the bite of an infected tick ... usually include fever (92%–100%), headache (82%), malaise (97%), myalgia (77%)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "anaplasmosis labs: thrombocytopenia, leukopenia, elevated transaminases",
+     "quote": "Characteristic laboratory findings in anaplasmosis include thrombocytopenia, leukopenia",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "adult doxycycline 100 mg twice daily",
+     "quote": "100 mg twice daily (orally or intravenously) for adults",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "fever subsides 24-48 hours if started in first 4-5 days",
+     "quote": "Fever typically subsides within 24–48 hours after treatment when the patient receives doxycycline in the first 4–5 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "anaplasmosis 10 days of doxycycline, covers Lyme coinfection",
+     "quote": "Patients with anaplasmosis should be treated with doxycycline for 10 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "deer tick transmits Babesia microti, main US cause of babesiosis",
+     "quote": "The blacklegged tick also transmits nonrickettsial pathogens in certain geographic areas ... Babesia microti (the primary cause of human babesiosis in the United States)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "63% of SFG rickettsiosis cases 2008-2012 from Arkansas, Missouri, North Carolina, Oklahoma, Tennessee",
+     "quote": "63% of reported SFG rickettsiosis cases originated from ... Arkansas, Missouri, North Carolina, Oklahoma, and Tennessee",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "RMSF most frequently fatal rickettsial illness in US",
+     "quote": "RMSF is the most frequently fatal rickettsial illness in the United States.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "RMSF rash begins as pink macules on ankles, wrists or forearms, later spreads, often petechial",
+     "quote": "begins as small (1–5 mm in diameter), blanching, pink macules on the ankles, wrists, or forearms",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "never delay treatment for lab confirmation; doxycycline for all ages",
+     "quote": "Treatment decisions for rickettsial pathogens should never be delayed while awaiting laboratory confirmation. ... Doxycycline is the drug of choice for treatment of all tickborne rickettsial diseases in patients of all ages",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "delay is the most important factor associated with death",
+     "quote": "Delay in diagnosis and treatment is the most important factor associated with increased likelihood of death",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "E. chaffeensis transmitted by lone star tick; features include low counts and elevated transaminases",
+     "quote": "E. chaffeensis is transmitted to humans by the lone star tick ... mildly or moderately elevated levels of hepatic transaminases",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "ehrlichiosis: at least 3 days after fever subsides, typical minimum 5-7 days",
+     "quote": "at least 3 days after subsidence of fever and until evidence of clinical improvement is noted ... typically the minimum total course of treatment is 5–7 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 9,
+   "kind": "other_web",
+   "cited_as": "Mayo Clinic. Alpha-Gal Syndrome: Symptoms and Causes.",
+   "url": "https://www.mayoclinic.org/diseases-conditions/alpha-gal-syndrome/symptoms-causes/syc-20428608",
+   "version_or_date": "Dated August 9, 2025; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "notes": "Ixodes pacificus claim (not on this page) moved to refs 11 and 8. \"Sugar molecule\" wording removed.",
+   "claims": [
+    {
+     "text": "in the US AGS most often begins with lone star tick bite",
+     "quote": "In the United States, the condition most often begins with the bite of the lone star tick.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "beef, pork, lamb, dairy, gelatin; reactions about 2 to 6 hours after eating",
+     "quote": "Alpha-gal syndrome causes mild to intense allergies to red meat, such as beef, pork or lamb. ... An alpha-gal allergic reaction often starts about 2 to 6 hours after you eat",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "other mammal foods: dairy products, gelatin",
+     "quote": "It also can cause reactions to other foods that come from mammals, such as dairy products or gelatin.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "symptoms: hives, itching, stomach symptoms, anaphylaxis",
+     "quote": "Hives and itching. Stomach pain, diarrhea, nausea or vomiting. Alpha-gal syndrome can cause a serious allergic reaction called anaphylaxis.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "only treatment is avoidance; serious reaction may need epinephrine and emergency care",
+     "quote": "The only treatment for alpha-gal syndrome is to not eat red meat or other products from mammals that can trigger reactions. ... A serious allergic reaction may need medicine called epinephrine and treatment in an emergency room.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Pace EJ, O'Reilly M. Tickborne Diseases: Diagnosis and Management. Am Fam Physician. 2020;101(9):530-540.",
+   "url": "https://www.aafp.org/pubs/afp/issues/2020/0501/p530.html",
+   "pmid": "32352736",
+   "record_title": "Tickborne Diseases: Diagnosis and Management.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2020",
+   "article_type": "Review",
+   "retrieved_with": "PubMed get_article_metadata; WebFetch of AFP page (confirms title, authors, issue)",
+   "notes": "Authors corrected from \"American Academy of Family Physicians\" to Pace EJ, O'Reilly M. Previously uncited in text; now supports the RMSF empiric-treatment sentence. No DOI in the PubMed record. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types show no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "empiric doxycycline for suspected RMSF in all patients including pregnant women and children",
+     "quote": "RMSF has a higher rate of mortality than other tickborne diseases; therefore, empiric treatment with doxycycline is recommended for all patients, including pregnant women and children, when high clinical suspicion is present.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 11,
+   "kind": "agency_page",
+   "cited_as": "CDC. How Lyme Disease Spreads.",
+   "url": "https://www.cdc.gov/lyme/causes/index.html",
+   "version_or_date": "Last updated September 24, 2024; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "notes": "New source; replaces Mayo (ref 7) for nymph size and Mayo alpha-gal (ref 9) for Ixodes pacificus.",
+   "claims": [
+    {
+     "text": "nymphs about the size of a poppy seed",
+     "quote": "nymphal ticks are approximately the size of a poppy seed.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "nymphs high risk due to abundance and small size",
+     "quote": "Nymphal ticks pose a particularly high risk due to their abundance and small size.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "I. scapularis transmits in northeastern, mid-Atlantic, north-central US",
+     "quote": "transmits infection in the northeastern, mid-Atlantic, and north-central United States.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "I. pacificus transmits along the Pacific Coast",
+     "quote": "The western blacklegged tick (lxodes pacificus) transmits infection in areas along the Pacific Coast.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "lone star and American dog ticks do not transmit Lyme bacteria",
+     "quote": "are not able to transmit Lyme disease bacteria.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "only Ixodes ticks transmit Lyme, and not all of them carry B. burgdorferi",
+     "quote": "are not able to transmit Lyme disease bacteria.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 12,
+   "kind": "agency_page",
+   "cited_as": "CDC. Signs and Symptoms of Untreated Lyme Disease.",
+   "url": "https://www.cdc.gov/lyme/signs-symptoms/index.html",
+   "version_or_date": "Last updated May 15, 2024; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "notes": "New source for EM timing, frequency and features (formerly cited to the case-map page).",
+   "claims": [
+    {
+     "text": "EM 3 to 30 days, average about 7 days",
+     "quote": "Begins at the site of a tick bite after a delay of 3 to 30 days (average is about 7 days)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "EM in approximately 70 to 80 percent",
+     "quote": "Occurs in approximately 70 to 80 percent of infected people",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "can reach 30 cm (12 inches) or more",
+     "quote": "Expands gradually over several days reaching up to 12 inches (30 cm) or more across",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "warm, rarely itchy or painful",
+     "quote": "May feel warm to the touch but is rarely itchy or painful",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "may clear centrally giving bull's-eye",
+     "quote": "Sometimes clears as it enlarges, resulting in a target or \"bull's-eye\" appearance",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "any area of body; additional EM rashes are a later sign",
+     "quote": "May appear on any area of the body ... Additional EM rashes on other areas of the body",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 13,
+   "kind": "agency_page",
+   "cited_as": "CDC. Clinical Treatment of Erythema Migrans Rash.",
+   "url": "https://www.cdc.gov/lyme/hcp/clinical-care/erythema-migrans-rash.html",
+   "version_or_date": "Last updated March 27, 2026; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "notes": "New source for EM doses (adult and pediatric). CDC lists doxycycline 10-14 days; IDSA (ref 1) 10 days; the page states both.",
+   "claims": [
+    {
+     "text": "doxycycline 100 mg twice daily 10-14 days; children 4.4 mg/kg/day in 2 doses, max 100 mg/dose",
+     "quote": "100 mg, twice per day orally ... 10-14 ... 4.4 mg/kg per day orally, divided into 2 doses ... 100 mg per dose",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "amoxicillin 500 mg three times daily 14 days; children 50 mg/kg/day in 3 doses, max 500 mg/dose",
+     "quote": "500 mg, three times per day orally ... 14 ... 50 mg/kg per day orally, divided into 3 doses ... 500 mg per dose",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "cefuroxime 500 mg twice daily 14 days; children 30 mg/kg/day in 2 doses, max 500 mg/dose",
+     "quote": "500 mg, twice per day orally ... 14 ... 30 mg/kg per day orally, divided into 2 doses ... 500 mg per dose",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "early treatment: usually recover rapidly and completely",
+     "quote": "People treated with appropriate antibiotics in the early stages of Lyme disease usually recover rapidly and completely.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "early diagnosis and treatment help prevent late Lyme",
+     "quote": "Early diagnosis and proper antibiotic treatment of Lyme disease can help prevent late Lyme disease.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "treat promptly regardless of serologic testing",
+     "quote": "Patients with likely EM and possible tick exposure in a Lyme disease endemic area should be treated promptly ... regardless of whether acute serologic testing is ordered",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 14,
+   "kind": "agency_page",
+   "cited_as": "CDC. Clinical Care and Treatment of Neurologic Lyme Disease.",
+   "url": "https://www.cdc.gov/lyme/hcp/clinical-care/neurologic-lyme-disease.html",
+   "version_or_date": "Last updated March 5, 2025; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "notes": "New source; the 200 mg/day neurologic doxycycline dose was not in the IDSA page text.",
+   "claims": [
+    {
+     "text": "Lyme meningitis symptoms",
+     "quote": "Lyme meningitis can cause fever, headache, sensitivity to light, and stiff neck.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "meningitis/radiculoneuritis adults: doxycycline 200 mg/day in 1 or 2 doses or ceftriaxone 2 g IV daily, 14-21 days",
+     "quote": "200 mg per day orally, divided into 1 or 2 doses ... 2 grams intravenously, once a day ... 14-21",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 15,
+   "kind": "agency_page",
+   "cited_as": "CDC. Tickborne Diseases of the United States: A Reference Manual for Healthcare Providers. Sixth Edition, 2022.",
+   "url": "https://www.cdc.gov/ticks/media/pdfs/2025/03/tickborne-diseases-manual-508.pdf",
+   "version_or_date": "Sixth Edition, 2022 (PDF hosted at a 2025/03 path); read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "notes": "New source for the tick table, EM size, RMSF rash timing and babesiosis. The PDF text extraction renders asplenia as \"a splenia\".",
+   "claims": [
+    {
+     "text": "blacklegged tick widely distributed in eastern US; diseases incl. babesiosis and Powassan",
+     "quote": "Widely distributed across the eastern United States. ... Babesia microti (babesiosis), and Powassan",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "American dog tick east of Rockies; tularemia, RMSF",
+     "quote": "widely distributed east of the Rocky Mountains ... Francisella tularensis (tularemia) and Rickettsia rickettsii (Rocky Mountain",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "lone star tick eastern US, more common in South; ehrlichiosis, STARI, tularemia; alpha-gal",
+     "quote": "Widely distributed in the eastern United States, but more common in the South. ... Southern tick-associated rash illness (STARI) ... alpha-gal syndrome (AGS) may be triggered by the bite of lone star ticks",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "EM expands to more than 5 cm",
+     "quote": "expands gradually over several days to >5 cm in diameter",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "RMSF rash 2-5 days after symptom onset",
+     "quote": "Typically appears 2–5 days after onset of symptoms",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Babesia microti main US cause, transmitted by I. scapularis, infects red cells",
+     "quote": "Most U.S. cases are caused by B. microti, which is transmitted mainly by Ixodes scapularis ticks ... parasites that infect red blood cells.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "many infections asymptomatic; hemolytic anemia; severe-disease risk factors",
+     "quote": "an estimated 25% of infected adults and 50% of children are asymptomatic ... Risk factors for severe babesiosis include a splenia, advanced age (age >50), and impaired immune function.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "atovaquone plus azithromycin 7-10 days; clindamycin plus quinine alternative; exchange transfusion",
+     "quote": "Atovaquone 750 mg orally every 12 hours 7–10 ... should be treated with clindamycin and quinine. ... may benefit from exchange transfusion.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 16,
+   "kind": "agency_page",
+   "cited_as": "CDC. About Alpha-gal Syndrome.",
+   "url": "https://www.cdc.gov/alpha-gal-syndrome/about/index.html",
+   "version_or_date": "Last updated January 5, 2026; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "notes": "New source. Replaces uncited \"CDC formally recognized AGS ... in 2023\" and \"blood test for IgE\".",
+   "claims": [
+    {
+     "text": "serious, potentially life-threatening allergy and tickborne disease",
+     "quote": "a serious, potentially life-threatening allergy and tickborne disease",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "diagnosis includes a test for antibodies to alpha-gal; managed with allergist",
+     "quote": "A test for antibodies your body produces in response to alpha-gal ... AGS should be managed under the care of an allergist or other healthcare provider.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 17,
+   "kind": "agency_page",
+   "cited_as": "CDC. Preventing Tick Bites.",
+   "url": "https://www.cdc.gov/ticks/prevention/index.html",
+   "version_or_date": "Last updated August 28, 2024; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "notes": "New source for prevention bullets; uncited \"DEET 20-30%\" and \"tick check within 2 hours\" removed (not on page).",
+   "claims": [
+    {
+     "text": "EPA-registered repellent ingredients; no OLE or PMD under age 3",
+     "quote": "DEET, picaridin, IR3535, Oil of Lemon Eucalyptus (OLE), para-menthane-diol (PMD), or 2-undecanone",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "0.5% permethrin on clothing and gear, protective through several washings",
+     "quote": "0.5% permethrin ... remain protective through several washings",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "shower within two hours reduces Lyme risk",
+     "quote": "Showering within two hours of coming indoors has been shown to reduce your risk of getting Lyme disease.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "tumble dry high heat 10 minutes; damp clothing longer",
+     "quote": "Tumble dry on high heat for 10 minutes to kill ticks on dry clothing",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "body check sites",
+     "quote": "Check these parts of your body and your child's body for ticks",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "examine pets, coats, daypacks",
+     "quote": "pets, coats, and daypacks",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  }
+ ]
+}

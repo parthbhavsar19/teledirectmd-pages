@@ -5,7 +5,9 @@
  * Authority: ACOG + IDSA (vaginal candidiasis is within IDSA scope)
  * Author: Parth Bhavsar, MD · NPI 1104323203 · ABFM · Licensed in VT
  */
+import { stateConditionHref } from '../../../lib/live-routes';
 import FaqAccordion from '../../components/FaqAccordion';
+import { VtNationalStyle } from '../../components/VtNationalChrome';
 import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock } from '../../components/CostCompareModules';
 
 const PAGE_URL = 'https://teledirectmd.com/vt/yeast-infection-treatment-online/';
@@ -20,7 +22,7 @@ const PHYSICIAN = {
   specialty: 'Family Medicine',
   licenseState: 'Vermont',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 
@@ -53,7 +55,7 @@ const MEDICATIONS = [
 
 const VT_SIBLINGS = [
   { slug: 'bv-treatment-online', label: 'BV Treatment in VT', why: 'Common differential — discharge symptoms overlap significantly with yeast infection.' },
-  { slug: 'uti-treatment-online', label: 'UTI Treatment in VT', why: 'Dysuria and pelvic discomfort can occur in both conditions.' },
+  { slug: 'uti-treatment-online', label: 'UTI Treatment for Women in VT', why: 'Dysuria and pelvic discomfort can occur in both conditions.' },
   { slug: 'chlamydia-treatment-online', label: 'Chlamydia Treatment in VT', why: 'STI differential when vaginal discharge is present.' },
   { slug: 'trichomoniasis-treatment-online', label: 'Trichomoniasis Treatment in VT', why: 'Trich can cause discharge and vulvar irritation similar to VVC.' },
   { slug: 'vaginal-dryness-treatment-online', label: 'Vaginal Dryness Treatment in VT', why: 'GSM/menopause-related symptoms sometimes confused with recurrent VVC.' },
@@ -85,7 +87,7 @@ const FAQ_ITEMS = [
   { question: 'How common are yeast infections in Vermont women?',
     answer: (
       <p>
-        Vulvovaginal candidiasis (VVC) affects an estimated 75% of women at least once in their lifetime and approximately 40–45% experience recurrent infections, according to the <a href="https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/vaginitis-in-nonpregnant-patients" rel="noopener" target="_blank">American College of Obstetricians and Gynecologists</a>. With Vermont&apos;s population of approximately 20 million women, this translates to millions experiencing VVC annually. Most infections are caused by <em>Candida albicans</em>, which is susceptible to standard azole therapy. Non-albicans species — more common after repeated treatment — require culture-guided therapy from an in-person provider.
+        Vulvovaginal candidiasis (VVC) affects an estimated 75% of women at least once in their lifetime and approximately 40–45% experience recurrent infections, according to the <a href="https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/vaginitis-in-nonpregnant-patients" rel="noopener" target="_blank">American College of Obstetricians and Gynecologists</a>. That makes VVC one of the most common reasons Vermont women seek care. Most infections are caused by <em>Candida albicans</em>, which is susceptible to standard azole therapy. Non-albicans species — more common after repeated treatment — require culture-guided therapy from an in-person provider.
       </p>
     ),
   },
@@ -113,7 +115,7 @@ const FAQ_ITEMS = [
   { question: 'When does a yeast infection require in-person care in Vermont?',
     answer: (
       <p>
-        Seek in-person evaluation if: symptoms don&apos;t improve within 72 hours of OTC treatment; this is your first episode or you are not certain of the diagnosis; you are pregnant; you have recurrent VVC (≥4 episodes per year); you have fever, abdominal pain, or pelvic pain (possible PID); or you may have been exposed to a sexually transmitted infection. Planned Parenthood Vermont provides in-person evaluation with sliding-scale fees at <a href="https://www.plannedparenthood.org/get-care" rel="noopener" target="_blank">plannedparenthood.org/get-care</a>. Vermont Title X clinics offer free or low-cost care through <a href="https://www.hhs.gov/opa/title-x-family-planning/index.html" rel="noopener" target="_blank">HHS Title X program</a>.
+        Seek in-person evaluation if: symptoms don&apos;t improve within 72 hours of OTC treatment; this is your first episode or you are not certain of the diagnosis; you are pregnant; you have recurrent VVC (≥4 episodes per year); you have fever, abdominal pain, or pelvic pain (possible PID); or you may have been exposed to a sexually transmitted infection. Planned Parenthood Vermont provides in-person evaluation with sliding-scale fees at <a href="https://www.plannedparenthood.org/get-care" rel="noopener" target="_blank">plannedparenthood.org/get-care</a>. Vermont Title X clinics offer free or low-cost care through <a href="https://opa.hhs.gov/grant-programs/title-x-service-grants" rel="noopener" target="_blank">HHS Title X program</a>.
       </p>
     ),
   },
@@ -163,7 +165,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -286,7 +288,8 @@ export default function VtYeastInfectionTreatmentOnline() {
       ))}
       <style dangerouslySetInnerHTML={{ __html: PAGE_CSS }} />
 
-      <div className="tdmd-vt-yeast">
+      <div className="tdmd-vt-yeast tdmd-natl">
+        <VtNationalStyle />
         {/* Breadcrumb */}
         <nav className="tdmd-breadcrumbs" aria-label="Breadcrumb">
           <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: 0 }}>
@@ -343,9 +346,9 @@ export default function VtYeastInfectionTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
                   <a href="/vt/" className="tdmd-btn tdmd-btn-outline">Explore Vermont Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> B37.3 (Candidiasis of vulva and vagina — final coding depends on clinical details)</p>
@@ -379,7 +382,7 @@ export default function VtYeastInfectionTreatmentOnline() {
                 <strong>Yes.</strong> <a href="https://legislature.vermont.gov/statutes/fullchapter/18/219" rel="noopener" target="_blank">18 V.S.A. Chapter 219 (Vermont&apos;s telemedicine statute)</a> — authorizes Vermont-licensed physicians to evaluate and treat uncomplicated vulvovaginal candidiasis (VVC) via synchronous video visit without a prior in-person examination. The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> holds telehealth physicians to the same standard of care as in-person physicians. Classic VVC — thick white discharge, vulvar itching, burning — can be reliably assessed by history when symptoms are typical and a prior diagnosis is established. Per <a href="https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/vaginitis-in-nonpregnant-patients" rel="noopener" target="_blank">ACOG Practice Bulletin 215</a>, empiric oral fluconazole 150 mg is appropriate for women with classic VVC symptoms. TeleDirectMD&apos;s self-pay rate is $79.
               </p>
               <small className="tdmd-condition-opener__meta">
-                Reviewed by <a href="/about/">Parth Bhavsar, MD</a> — Board-Certified Family Medicine · NPI 1104323203 · Licensed in Vermont (License #042.0040345-COMP · <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed June 4, 2026
+                Reviewed by <a href="/about/">Parth Bhavsar, MD</a> — Board-Certified Family Medicine · NPI 1104323203 · Licensed in Vermont (License #042.0040345-COMP · <a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed June 4, 2026
               </small>
             </div>
           </div>
@@ -450,7 +453,7 @@ export default function VtYeastInfectionTreatmentOnline() {
 
             <h3>How common are yeast infections in Vermont?</h3>
             <p>
-              Vulvovaginal candidiasis is one of the most common infections affecting Vermont women. The <a href="https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/vaginitis-in-nonpregnant-patients" rel="noopener" target="_blank">American College of Obstetricians and Gynecologists</a> estimates that 75% of women will have at least one episode of VVC in their lifetime, with 40–45% experiencing two or more episodes. Applying these rates to Vermont&apos;s approximately 20 million women, millions of Vermonters experience VVC annually. The condition accounts for a substantial proportion of primary care and urgent care visits, particularly in reproductive-age women aged 15–44.
+              Vulvovaginal candidiasis is one of the most common infections affecting Vermont women. The <a href="https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/vaginitis-in-nonpregnant-patients" rel="noopener" target="_blank">American College of Obstetricians and Gynecologists</a> estimates that 75% of women will have at least one episode of VVC in their lifetime, with 40–45% experiencing two or more episodes. Applied to Vermont, that means a large share of women will have at least one yeast infection in their lifetime. The condition accounts for a substantial proportion of primary care and urgent care visits, particularly in reproductive-age women aged 15–44.
             </p>
 
             <h3>What causes yeast infections and who is most at risk in Vermont?</h3>
@@ -460,7 +463,7 @@ export default function VtYeastInfectionTreatmentOnline() {
 
             <h3>What is the relationship between antibiotics and yeast infections?</h3>
             <p>
-              Antibiotic use is one of the strongest risk factors for VVC because broad-spectrum antibiotics suppress the normal bacterial flora of the vagina, allowing <em>Candida</em> to overgrow. This is a common pattern in Vermont patients who have recently been treated for a UTI, skin infection, dental infection, or respiratory infection with antibiotics. If you develop yeast infection symptoms within 1–2 weeks of completing an antibiotic course, this is a clinically recognizable scenario that TeleDirectMD can evaluate by telehealth.
+              Antibiotic use is one of the strongest risk factors for VVC because broad-spectrum antibiotics suppress the normal bacterial flora of the vagina, allowing <em>Candida</em> to overgrow. This is a common pattern in Vermont patients who have recently been treated for a UTI (women only), skin infection, dental infection, or respiratory infection with antibiotics. If you develop yeast infection symptoms within 1–2 weeks of completing an antibiotic course, this is a clinically recognizable scenario that TeleDirectMD can evaluate by telehealth.
             </p>
           </div>
         </section>
@@ -472,7 +475,7 @@ export default function VtYeastInfectionTreatmentOnline() {
 
             <h3>What are the symptoms of a yeast infection?</h3>
             <p>
-              Classic VVC symptoms include: thick, white, cottage cheese-like vaginal discharge (without odor); intense vulvar itching or burning; vulvar or vaginal redness and swelling; dyspareunia (pain with sex); and external dysuria (burning when urine contacts irritated vulvar skin). VVC is typically NOT associated with strong vaginal odor — odor is more characteristic of bacterial vaginosis (BV). The <a href="https://www.cdc.gov/std/treatment-guidelines/vaginitis-overview.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines</a> note that symptoms alone cannot reliably distinguish VVC from other vaginitis causes in the absence of prior confirmed diagnosis.
+              Classic VVC symptoms include: thick, white, cottage cheese-like vaginal discharge (without odor); intense vulvar itching or burning; vulvar or vaginal redness and swelling; dyspareunia (pain with sex); and external dysuria (burning when urine contacts irritated vulvar skin). VVC is typically NOT associated with strong vaginal odor — odor is more characteristic of bacterial vaginosis (BV). The <a href="https://www.cdc.gov/std/treatment-guidelines/vaginal-discharge.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines</a> note that symptoms alone cannot reliably distinguish VVC from other vaginitis causes in the absence of prior confirmed diagnosis.
             </p>
 
             <h3>How does the physician distinguish VVC from other causes of vaginitis?</h3>
@@ -512,7 +515,7 @@ export default function VtYeastInfectionTreatmentOnline() {
                   <h3>Get a treatment plan and, if appropriate, a prescription</h3>
                   <p>If antifungal therapy is clinically appropriate, a Vermont-compliant e-prescription is sent to your chosen Vermont pharmacy. OTC antifungal guidance is also provided. You receive follow-up instructions regardless of treatment choice.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -540,25 +543,6 @@ export default function VtYeastInfectionTreatmentOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical yeast infection cost comparison">
-                <h3>Typical Yeast Infection Care Cost in Vermont</h3>
-                <p className="tdmd-price-caption">Common ranges before insurance. Actual costs vary.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 13, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical Vermont metro pricing. Actual costs vary by location and plan.</p>
-              </div>
             </div>
 
             <div className="tdmd-cashpay-note">
@@ -640,7 +624,7 @@ export default function VtYeastInfectionTreatmentOnline() {
                 <p>Book a same-day video visit — Vermont adults, 18+</p>
                 <small>Cash-pay $79 flat · No insurance billing in Vermont · No ER wait</small>
               </div>
-              <a className="tdmd-vt-yeast__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
+              <a className="tdmd-vt-yeast__cta-btn" href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -659,8 +643,8 @@ export default function VtYeastInfectionTreatmentOnline() {
                 <p>Book a same-day video visit. Cash-pay $79 flat. No insurance billing in Vermont.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -672,7 +656,7 @@ export default function VtYeastInfectionTreatmentOnline() {
             <h2>Other Vermont Conditions We Treat</h2>
             <div className="tdmd-vt-yeast__sibling-grid">
               {VT_SIBLINGS.map((s) => (
-                <a key={s.slug} className="tdmd-vt-yeast__sibling" href={`/vt/${s.slug}/`}>
+                <a key={s.slug} className="tdmd-vt-yeast__sibling" href={stateConditionHref('vt', s.slug) || `/${s.slug}/`}>
                   <span className="tdmd-vt-yeast__sibling-label">{s.label}</span>
                   <span className="tdmd-vt-yeast__sibling-why">{s.why}</span>
                 </a>
@@ -691,15 +675,15 @@ export default function VtYeastInfectionTreatmentOnline() {
               <a href="/yeast-infection-treatment-online/">National Yeast Infection page</a>
               <a href="/health-guides/">Health Guides</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/faq/">FAQ</a>
               <a href="/vt/bv-treatment-online/">BV Treatment in VT</a>
-              <a href="/vt/uti-treatment-online/">UTI Treatment in VT</a>
+              <a href="/vt/uti-treatment-online/">UTI Treatment for Women in VT</a>
               <a href="/vt/chlamydia-treatment-online/">Chlamydia Treatment in VT</a>
-              <a href="/vt/trichomoniasis-treatment-online/">Trichomoniasis Treatment in VT</a>
-              <a href="/vt/vaginal-dryness-treatment-online/">Vaginal Dryness Treatment in VT</a>
-              <a href="/vt/birth-control-refills-online/">Birth Control Refills in VT</a>
+              <a href="/trichomoniasis-treatment-online/">Trichomoniasis Treatment in VT</a>
+              <a href="/vaginal-dryness-treatment-online/">Vaginal Dryness Treatment in VT</a>
+              <a href="/birth-control-refills-online/">Birth Control Refills in VT</a>
             </div>
           </div>
         </section>
@@ -714,7 +698,7 @@ export default function VtYeastInfectionTreatmentOnline() {
               <li><a href="https://legislature.vermont.gov/statutes/fullchapter/26/023" rel="noopener" target="_blank">26 V.S.A. Chapter 23 (Vermont Medical Practice Act)</a>. Retrieved May 2026.</li>
               <li><a href="https://legislature.vermont.gov/statutes/section/18/219/09361" rel="noopener" target="_blank">18 V.S.A. § 9361 (Vermont telemedicine prescribing)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/vaginitis-in-nonpregnant-patients" rel="noopener" target="_blank">ACOG Practice Bulletin 215 — Vaginitis in Nonpregnant Patients (2020)</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.cdc.gov/std/treatment-guidelines/vaginitis-overview.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines — Vaginitis (2021)</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.cdc.gov/std/treatment-guidelines/vaginal-discharge.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines — Vaginitis (2021)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.idsociety.org/practice-guideline/candidiasis/" rel="noopener" target="_blank">IDSA Clinical Practice Guideline for the Management of Candidiasis (2016)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.goodrx.com/fluconazole" rel="noopener" target="_blank">GoodRx — Fluconazole Prices (May 2026)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.plannedparenthood.org/get-care" rel="noopener" target="_blank">Planned Parenthood — Get Care</a>. Retrieved May 2026.</li>

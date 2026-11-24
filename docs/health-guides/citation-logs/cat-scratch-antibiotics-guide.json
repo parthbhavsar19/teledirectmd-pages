@@ -1,0 +1,710 @@
+{
+ "guide": "cat-scratch-antibiotics-guide",
+ "checked_at": "2026-11-23",
+ "checked_by": "Claude (AI-visibility refresh, 2026-11-23)",
+ "scite_verify_papers": "run 2026-11-15; 5 DOIs verified (10.1093/cid/ciu444, 10.1097/00006454-199806000-00002, 10.3201/eid2210.160115, 10.1056/NEJM199901143400202, 10.1016/j.otohns.2004.09.019), retractions: none; erratum on ciu444 noted; contrasting citations flagged for ciu444 (blood culture rates, not cited here), Nelson 2016 and Talan 1999 (see notes). Klotz 2011 and Falk 2025 have no DOI (text references: Scite mismatched Klotz and could not verify Falk; both confirmed in PubMed, no Retracted Publication type). | 2026-11-23: Scite verify_papers unavailable (account monthly MCP limit reached, resets 2026-12-14). No new journal articles added; ref 14 (IDSA full guideline) checked against Crossref and the publisher erratum page; PubMed article types re-checked for refs 4 to 9 (no Retracted Publication or Expression of Concern type).",
+ "references": [
+  {
+   "n": 1,
+   "kind": "agency_page",
+   "cited_as": "CDC. About Cat Scratch Disease. Updated March 23, 2026; reviewed September 11, 2026.",
+   "url": "https://www.cdc.gov/bartonella/about/about-cat-scratch-disease.html",
+   "version_or_date": "Published May 15, 2024; Updated March 23, 2026; Reviewed September 11, 2026",
+   "retrieved_with": "WebFetch and Monid firecrawl /scrape (markdown of official page); re-fetched 2026-11-23 with Monid tinyfish /free/fetch (run 01M858M9JSEH99JEF9E0GXSV27)",
+   "retrieved_at": "2026-11-23",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "CSD shows up as tender lymph nodes 1 to 3 weeks after the scratch; usually resolves on its own",
+     "quote": "Enlarged, tender lymph nodes that develop 1–3 weeks after exposure to a cat ... Most cases of CSD resolve without antibiotic treatment.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Enlarged tender nodes 1-3 weeks after exposure, sometimes papule or pustule at the scratch site and low-grade fever; caused by Bartonella henselae",
+     "quote": "Low-grade fever; Enlarged, tender lymph nodes that develop 1–3 weeks after exposure to a cat; A papule or pustule at the site of the scratch",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Table: lymph nodes enlarge 1 to 3 weeks after exposure",
+     "quote": "Enlarged, tender lymph nodes that develop 1–3 weeks after exposure to a cat",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Bacteria can spread when a scratch, particularly from a kitten, is contaminated with flea feces (replaces former ref 3)",
+     "quote": "develop CSD when scratched by domestic or feral cats, particularly kittens. ... The bacteria can be transmitted from a cat to a person when the scratch is contaminated with flea feces (poop).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Rarely, infection spreads to the eye, liver, spleen, brain, bones or heart valves",
+     "quote": "Rarely, infections of the eye, liver, spleen, brain, bones, or heart valves can occur.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prevention bullets: avoid scratches/bites/licks esp. kittens and strays; wash hands; clean scratch with soap and water; flea prevention, never permethrin on cats; keep cats indoors",
+     "quote": "Avoid cat scratches, bites, and licks, especially from kittens or stray cats. ... Wash hands promptly after handling cats. Clean scratch wounds with soap and water.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prevention bullets (continued): flea prevention, no permethrin, indoors",
+     "quote": "Talk to your veterinarian about flea prevention products for your cat. Never use products that contain permethrin on cats. Keep cats indoors and away from stray cats.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fever, pustule at the scratch site, and eye involvement are reasons to see a clinician (in-person list, Nov 18)",
+     "quote": "See a healthcare provider if you or your child develops a fever; enlarged, tender lymph nodes that develop 1–3 weeks after being scratched; or a pustule at the scratch site. ... Rarely, infections of the eye, liver, spleen, brain, bones, or heart valves can occur.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Key fact: CSD usually follows a scratch from a domestic or feral cat, especially a kitten",
+     "quote": "People usually get CSD after being scratched by domestic or feral cats, especially kittens.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Key fact / FAQ: Bartonella found in blood of up to 1 in 3 healthy cats, particularly kittens",
+     "quote": "Some studies have found the Bartonella bacteria in the blood of up to 1 in 3 healthy cats, particularly kittens.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most cat scratches do not result in CSD",
+     "quote": "Most cat scratches do not result in CSD.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "More common in children under 15, in the Southeast, mostly fall and winter; stray cats more likely infected",
+     "quote": "CSD is more common among children under the age of 15 ... more common in the Southeast ... most cases of CSD occur in the fall and winter. ... Stray cats are more likely than pet cats to be infected",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most infected cats show no illness",
+     "quote": "While some cats become ill, most simply have the bacteria in their blood without getting sick.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Immunocompromised at higher risk of severe CSD; antibiotics recommended for all immunocompromised",
+     "quote": "people with weakened immune systems are at higher risk for severe CSD ... is recommended for all patients who are immunocompromised (have a weakened immune system).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Examples of weakened immune system: advanced HIV, cancer treatment",
+     "quote": "occur primarily in people with weakened immune systems, such as those with advanced HIV infection. ... living with HIV, are being treated for cancer, or have another condition that might suppress your immune system.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Immunocompromised can own a cat, keep indoors, avoid cats under one year; healthy cat need not be tested or treated",
+     "quote": "People who have weakened immune systems should avoid owning cats less than one-year-old. ... Keep your cat indoors. You do not need to test or treat your cat for B. henselae if it is healthy.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Endocarditis with blood cultures often negative",
+     "quote": "B. henselae can sometimes cause infection of the heart valves, called endocarditis. In many cases, blood cultures are negative (culture-negative endocarditis)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Declawing not recommended to prevent CSD",
+     "quote": "Declawing cats is not recommended to prevent CSD.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "FAQ: bites or licks of open wounds can spread it; flea-bite spread not proven",
+     "quote": "Infected cats that bite, or lick a person's open wound, can also spread the bacteria. Some evidence suggests that these bacteria may spread directly to people by the bite of infected cat fleas, but this has not been proven.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Exposure risks: kittens, stray or feral cats, fleas",
+     "quote": "Bartonella henselae bacteria, which can be carried by fleas. ... scratched by domestic or feral cats, particularly kittens. Stray cats are more likely than pet cats to be infected",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "agency_page",
+   "cited_as": "CDC. Clinical Overview of Cat Scratch Disease. Updated March 23, 2026.",
+   "url": "https://www.cdc.gov/bartonella/hcp/clinical-overview/cat-scratch-disease.html",
+   "version_or_date": "Published March 24, 2026; Updated and Reviewed March 23, 2026",
+   "retrieved_with": "WebFetch and Monid firecrawl /scrape (markdown of official page); re-fetched 2026-11-23 with Monid tinyfish /free/fetch (run 01M858M9JSEH99JEF9E0GXSV27)",
+   "retrieved_at": "2026-11-23",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Key takeaway: antibiotics 'sometimes recommended' for otherwise healthy patients; severe cases and immunocompromised patients should be treated",
+     "quote": "Antibiotic treatment of otherwise healthy patients is sometimes recommended depending on patient and provider preference and symptom severity. ... Severe cases and immunocompromised patients should be treated with antibiotics.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC bullet: usually self-limited but antibiotics may reduce symptom duration; sometimes recommended; severe cases and immunocompromised treated; requires antibiotics if immunocompromised",
+     "quote": "CSD is usually self-limited but antibiotic treatment may reduce symptom duration. Severe cases and immunocompromised patients should be treated with antibiotics. ... CSD requires antibiotic treatment if the patient is immunocompromised.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC advises consulting an infectious disease expert about treatment for disseminated disease",
+     "quote": "Disseminated CSD such as retinitis, peliosis hepatis, and endocarditis, require longer treatment courses ... Consult with an infectious disease expert about treatment options for these presentations.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Needle drainage of a node generally not recommended except for severe pain and swelling or unclear diagnosis",
+     "quote": "lymph node aspiration is not generally recommended except to relieve severe pain and swelling or in cases where the diagnosis is unclear.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Weakened immune system with signs of infection needs care (in-person list, Nov 18)",
+     "quote": "CSD requires antibiotic treatment if the patient is immunocompromised.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC: one small study showed faster node shrinkage but overall health outcomes did not differ",
+     "quote": "A short course of azithromycin has been shown in one small study to decrease lymph node volume more rapidly ... Nevertheless, overall health outcomes in this study were not found to differ between treated and untreated patients.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Disseminated disease needs longer, often multi-drug treatment; macrolides, doxycycline, rifampin, aminoglycosides effective",
+     "quote": "require longer treatment courses often with more than one antibiotic. Macrolides, doxycycline, rifampin, and aminoglycosides have all been shown to be effective in treating B. henselae.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Table: CSD often needs no antibiotics; sometimes azithromycin; required if immunocompromised",
+     "quote": "CSD requires antibiotic treatment if the patient is immunocompromised. Antibiotic treatment of otherwise healthy patients is sometimes recommended depending on patient and provider preference and symptom severity.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "guideline",
+   "cited_as": "Stevens DL, Bisno AL, Chambers HF, et al. Executive Summary: Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections: 2014 Update by the IDSA. Clin Infect Dis. 2014;59(2):147-159.",
+   "url": "https://doi.org/10.1093/cid/ciu444",
+   "doi": "10.1093/cid/ciu444",
+   "record_title": "Executive Summary: Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections: 2014 Update by the Infectious Diseases Society of America",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2014",
+   "article_type": "Practice Guideline",
+   "version_or_date": "IDSA 2014 update, published July 15, 2014; erratum Clin Infect Dis 2015;60(9):1448 (doi 10.1093/cid/civ114) corrects Figure 1 legend and dosing in Tables 2, 4, 5 (clindamycin, mupirocin, ciprofloxacin, ceftriaxone); none of these bear on the claims cited here",
+   "retrieved_with": "WebFetch of doi.org redirect and academic.oup.com/cid/article/59/2/147/442347 (HTML text, sections XI and XII); Monid firecrawl /scrape for page metadata; Scite verify_papers; Scite read_fulltext returned abstract only; PubMed get_article_metadata",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [
+    "Erratum: Clin Infect Dis 2015;60(9):1448, doi 10.1093/cid/civ114 (retrieved 2026-11-23 via Monid context.dev); corrects figure 1 legend, mupirocin frequency in Table 2, clindamycin dose in Table 5, ciprofloxacin and ceftriaxone doses in Table 4. None affect the amoxicillin-clavulanate or rabies text cited here."
+   ],
+   "notes": "2026-11-23: Crossref (publisher DOI registration, fetched via Monid tinyfish) maps 10.1093/cid/ciu444 to the Executive Summary, pages 147-159, academic.oup.com/cid/article/59/2/147/442347, matching the reference as cited. PubMed has the DOIs crossed (PMID 24973422 e10-52 lists ciu444; PMID 24947530 147-59 lists ciu296). Publisher record treated as authoritative; no PMID recorded.",
+   "claims": [
+    {
+     "text": "For infected animal bite wounds, IDSA recommends an agent active against aerobic and anaerobic bacteria such as amoxicillin-clavulanate",
+     "quote": "An antimicrobial agent or agents active against both aerobic and anaerobic bacteria such as amoxicillin-clavulanate (Table 5) should be used (strong, moderate).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "For dog and cat bites, IDSA recommends consulting local health officials on whether rabies vaccination should be started",
+     "quote": "Postexposure prophylaxis for rabies may be indicated; consultation with local health officials is recommended to determine if vaccination should be initiated (strong, low).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Klotz SA, Ianas V, Elliott SP. Cat-scratch Disease. Am Fam Physician. 2011;83(2):152-155.",
+   "url": "https://www.aafp.org/pubs/afp/issues/2011/0115/p152.html",
+   "pmid": "21243990",
+   "record_title": "Cat-scratch Disease",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2011",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata; Monid firecrawl /scrape of the AAFP full-text page (URL redirects to https://www.aafp.org/afp/2011/0115/p152, same article); re-fetched 2026-11-23 with Monid tinyfish /free/fetch (AAFP full text) and PubMed get_article_metadata",
+   "retrieved_at": "2026-11-23",
+   "editorial_notices": [],
+   "notes": "No DOI. Scite verify_papers matched an unrelated 2012 paper to the text reference; identity confirmed by PubMed and the AAFP page instead. The review reports the Bass trial as 8 of 14 vs 1 of 15; the guide uses the primary trial abstract (7 of 14). 2026-11-23: AFP text states the Bass trial result as \"eight of 14\" in \"29 adult patients\"; the primary abstract (ref 5) says 7 of 14 and its MeSH terms include children, so the guide uses the primary-source numbers only.",
+   "claims": [
+    {
+     "text": "Node swelling typically lasts 2 to 8 weeks and can persist for months",
+     "quote": "Most patients, especially children, have self-limited lymphadenopathy lasting two to eight weeks and do not require antibiotics. ... Lymphadenopathy can persist for several months.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "AFP: most cases self-limited, no antibiotics (B); if an antibiotic is chosen azithromycin appears effective at reducing lymphadenopathy duration (B)",
+     "quote": "If an antibiotic is chosen to treat cat-scratch disease, azithromycin (Zithromax) appears to be effective at reducing the duration of lymphadenopathy. | B",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "AFP SORT: most cases self-limited and do not require antibiotic therapy (B)",
+     "quote": "Most cases of cat-scratch disease are self-limited and do not require antibiotic therapy. | B",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Serology is the best initial test; follow up unilateral nodes even with confirmed CSD; biopsy appropriate if nodes fail to involute and diagnosis uncertain",
+     "quote": "Serology is the best initial test ... it is appropriate in patients whose lymph nodes fail to involute and in whom diagnosis is uncertain. ... physicians follow up with patients who have unilateral lymphadenopathy, even those with confirmed CSD.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "AFP notes another expert panel recommended against antibiotics in mild or uncomplicated disease",
+     "quote": "another panel of authorities recommended against the use of antibiotics in patients with mild or uncomplicated disease.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Bacillary angiomatosis (red to purple papules, can involve bone and organs) and bacillary peliosis of the liver in immunosuppressed patients",
+     "quote": "In immunosuppressed patients, B. henselae can cause bacillary angiomatosis and peliosis. Bacillary peliosis ... involves the liver ... can also involve bone and internal organs. Lesions consist of single or multiple red to purple papules.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Encephalopathy: severe headache and acute confusion 1 to 6 weeks after node swelling; seizures may occur",
+     "quote": "encephalopathy, which manifests as severe headache and acute confusion one to six weeks after the onset of lymphadenopathy. Seizures may occur",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Neuroretinitis: acute unilateral visual loss from optic nerve swelling",
+     "quote": "Neuroretinitis can occur in CSD and manifests as acute unilateral visual field loss secondary to optic nerve edema and star-shaped macular exudates.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Some patients do not recall cat contact or a skin lesion",
+     "quote": "A small number of patients do not recall contact with cats or having skin lesions.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Bass JW, Freitas BC, Freitas AD, et al. Prospective randomized double blind placebo-controlled evaluation of azithromycin for treatment of cat-scratch disease. Pediatr Infect Dis J. 1998;17(6):447-452.",
+   "url": "https://doi.org/10.1097/00006454-199806000-00002",
+   "pmid": "9655532",
+   "doi": "10.1097/00006454-199806000-00002",
+   "record_title": "Prospective randomized double blind placebo-controlled evaluation of azithromycin for treatment of cat-scratch disease.",
+   "record_journal": "Pediatr Infect Dis J",
+   "record_year": "1998",
+   "article_type": "Clinical Trial; Randomized Controlled Trial (PubMed)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers; PubMed get_article_metadata re-run 2026-11-23",
+   "retrieved_at": "2026-11-23",
+   "editorial_notices": [],
+   "notes": "Abstract only. 29 = 14 + 15 randomized participants as reported in the abstract.",
+   "claims": [
+    {
+     "text": "In 29 patients, 7 of 14 on 5 days of azithromycin vs 1 of 15 on placebo reached 80% node volume reduction in first 30 days; no significant difference after 30 days",
+     "quote": "Eighty percent decrease of initial lymph node volume was documented in 7 of 14 azithromycin-treated patients compared with 1 of 15 placebo-treated controls during the first 30 days of observation (P = 0.026). After 30 days there was no significant difference",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Treatment course was 5 days of oral azithromycin",
+     "quote": "Study participants assigned by randomization to treatment with oral azithromycin or placebo for 5 days.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Trial endpoint was lymph node volume by ultrasound",
+     "quote": "Lymph node volume was calculated using three dimensional ultrasonography at entry and at weekly intervals. ... Endpoint evaluations were predetermined as time in days to 80% resolution of the initial total lymph node volume.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Key fact: only RCT, 29 patients, faster shrinkage in first 30 days, no significant difference after",
+     "quote": "7 of 14 azithromycin-treated patients compared with 1 of 15 placebo-treated controls during the first 30 days of observation (P = 0.026). After 30 days there was no significant difference in rate or degree of resolution",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Nelson CA, Saha S, Mead PS. Cat-Scratch Disease in the United States, 2005-2013. Emerg Infect Dis. 2016;22(10):1741-1746.",
+   "url": "https://doi.org/10.3201/eid2210.160115",
+   "pmid": "27648778",
+   "pmcid": "PMC5038427",
+   "doi": "10.3201/eid2210.160115",
+   "record_title": "Cat-Scratch Disease in the United States, 2005-2013.",
+   "record_journal": "Emerg Infect Dis",
+   "record_year": "2016",
+   "article_type": "Journal Article (retrospective claims analysis)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers; PubMed get_article_metadata re-run 2026-11-23",
+   "retrieved_at": "2026-11-23",
+   "editorial_notices": [],
+   "notes": "Scite flagged a contrasting citation (doi 10.3201/eid2903.221223) that did not find a southeastern predominance in molecular testing data, attributed to specimen submission patterns; the guide states the claims-data finding only and attributes it to this study.",
+   "claims": [
+    {
+     "text": "About 12,000 outpatient diagnoses and 500 hospitalizations yearly among people under 65; highest in South (6.4/100,000) and children 5-9",
+     "quote": "Incidence of CSD was highest among those who lived in the southern United States (6.4 cases/100,000 population) and among children 5-9 years of age ... each year, 12,000 outpatients are given a CSD diagnosis and 500 inpatients are hospitalized",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Key fact: 12,000 outpatient diagnoses and 500 hospitalizations per year, people under 65",
+     "quote": "identified patients <65 years of age ... We estimate that each year, 12,000 outpatients are given a CSD diagnosis and 500 inpatients are hospitalized for CSD.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Talan DA, Citron DM, Abrahamian FM, Moran GJ, Goldstein EJ. Bacteriologic analysis of infected dog and cat bites. N Engl J Med. 1999;340(2):85-92.",
+   "url": "https://doi.org/10.1056/NEJM199901143400202",
+   "pmid": "9887159",
+   "doi": "10.1056/NEJM199901143400202",
+   "record_title": "Bacteriologic analysis of infected dog and cat bites. Emergency Medicine Animal Bite Infection Study Group.",
+   "record_journal": "N Engl J Med",
+   "record_year": "1999",
+   "article_type": "Multicenter Study",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers; PubMed get_article_metadata re-run 2026-11-23",
+   "retrieved_at": "2026-11-23",
+   "editorial_notices": [],
+   "notes": "Scite contrasting citation concerns dog-bite species, not the cat-bite figure cited.",
+   "claims": [
+    {
+     "text": "Pasteurella species found in 75% of infected cat bites in a multicenter ED study",
+     "quote": "we conducted a prospective study at 18 emergency departments. ... Pasteurella species were the most frequent isolates from both dog bites (50 percent) and cat bites (75 percent).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Table: infected cat bites carry a mix of bacteria; Pasteurella in 75%",
+     "quote": "Infected dog and cat bites have a complex microbiologic mix that usually includes pasteurella species ... Pasteurella species were the most frequent isolates from both dog bites (50 percent) and cat bites (75 percent).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Table: signs of infected bite (redness, tenderness, swelling, pus; fever, abscess, lymphangitis)",
+     "quote": "major criteria for infection of a bite wound (fever, abscess, and lymphangitis) or four of five minor criteria (wound-associated erythema, tenderness at the wound site, swelling at the site, purulent drainage, and leukocytosis)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "Falk N, Joseph R, Dieujuste M. Lymphadenopathy: Evaluation and Differential Diagnosis. Am Fam Physician. 2025;112(3):286-293.",
+   "url": "https://www.aafp.org/afp/2025/0900/lymphadenopathy",
+   "pmid": "40961306",
+   "record_title": "Lymphadenopathy: Evaluation and Differential Diagnosis.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2025",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of AAFP page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "No DOI; Scite could not verify the text reference; PubMed and the AAFP page confirm it.",
+   "claims": [
+    {
+     "text": "Node larger than 2 cm, hard, or matted/fixed",
+     "quote": "Lymph nodes that are larger than 2 cm, hard, or matted/fused to surrounding structures may indicate malignancy or granulomatous diseases",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Node persisting beyond four weeks or with systemic symptoms such as fever, night sweats or unintentional weight loss",
+     "quote": "When lymphadenopathy persists beyond four weeks or is accompanied by systemic symptoms, imaging and appropriate laboratory studies ... should be obtained.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Supraclavicular or epitrochlear node",
+     "quote": "localized lymphadenopathy may represent infection or malignancy, particularly if epitrochlear or supraclavicular nodes are affected.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Enlarged nodes in several areas, usually caused by underlying systemic disease",
+     "quote": "Generalized lymphadenopathy is usually caused by underlying systemic disease.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Ridder GJ, Boedeker CC, Technau-Ihling K, Sander A. Cat-scratch disease: Otolaryngologic manifestations and management. Otolaryngol Head Neck Surg. 2005;132(3):353-358.",
+   "url": "https://doi.org/10.1016/j.otohns.2004.09.019",
+   "pmid": "15746844",
+   "doi": "10.1016/j.otohns.2004.09.019",
+   "record_title": "Cat-scratch disease: Otolaryngologic manifestations and management.",
+   "record_journal": "Otolaryngol Head Neck Surg",
+   "record_year": "2005",
+   "article_type": "Journal Article (prospective clinical study)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Prospective German study of 721 patients with unexplained head and neck masses: CSD in 13.7%",
+     "quote": "we conducted a prospective clinical study including 721 patients with primarily unclear masses in the head and neck. CSD was diagnosed by serology and molecular investigations in 99 patients (13.7%",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "agency_page",
+   "cited_as": "CDC. Adult Immunization Schedule Notes: Tdap and Td, wound management.",
+   "url": "https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-notes.html",
+   "version_or_date": "Page dated July 2, 2025 (last reviewed and updated)",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "With 3+ prior doses: Tdap/Td for clean minor wound if >10 years; all other wounds if >5 years",
+     "quote": "Persons with 3 or more doses of tetanus–toxoid–containing vaccine: For clean and minor wounds, administer Tdap or Td if more than 10 years since last dose ... for all other wounds, administer Tdap or Td if more than 5 years since last dose",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "label",
+   "cited_as": "DailyMed. ZITHROMAX (azithromycin) tablets and oral suspension, Pfizer. Revised July 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=db52b91e-79f7-4cc1-9564-f2eee8e31c45",
+   "version_or_date": "Revised 7/2026 (DailyMed updated July 24, 2026)",
+   "retrieved_with": "WebFetch of DailyMed search and label page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added. The label's own 5-day adult regimen (500 mg Day 1, 250 mg Days 2-5) is for labeled indications only; the guide does not attribute the CSD regimen to the label.",
+   "claims": [
+    {
+     "text": "Cat scratch disease is not among the indications on the azithromycin label (off-label use)",
+     "quote": "indicated for treatment of patients with mild to moderate infections caused by susceptible strains of the designated microorganisms in the specific conditions listed below: [list: chronic bronchitis exacerbations, sinusitis, uncomplicated skin infections, urethritis/cervicitis, genital ulcer disease, otitis media, community-acquired pneumonia, pharyngitis/tonsillitis; no cat scratch disease]",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "agency_page",
+   "cited_as": "CDC. About Rabies. Updated January 27, 2026.",
+   "url": "https://www.cdc.gov/rabies/about/index.html",
+   "version_or_date": "Updated January 27, 2026; Reviewed June 24, 2025",
+   "retrieved_with": "Monid firecrawl /scrape (markdown of official page)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added to support the rabies red-flag bullet for scratches, since IDSA's recommendation addresses bites.",
+   "claims": [
+    {
+     "text": "Rabies spreads mainly through bites or scratches from an infected animal; seek medical care urgently after possible exposure",
+     "quote": "Rabies spreads primarily through bites or scratches from an infected animal. ... If you may have been exposed to rabies, you should urgently seek medical attention.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "other_web",
+   "cited_as": "NHS. Cellulitis. nhs.uk. Accessed November 18, 2026.",
+   "url": "https://www.nhs.uk/conditions/cellulitis/",
+   "retrieved_with": "Monid firecrawl scrape",
+   "retrieved_at": "2026-11-18",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Fever or chills with a red, painful scratch needs in-person care",
+     "quote": "Ask for an urgent GP appointment or get help from NHS 111 if: your skin is painful, hot and swollen ... Call 999 or go to A&E if: You have cellulitis with: a very high temperature, or you feel hot, cold or shivery",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "guideline",
+   "cited_as": "Stevens DL, Bisno AL, Chambers HF, et al. Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections: 2014 Update by the Infectious Diseases Society of America. Clin Infect Dis. 2014;59(2):e10-e52. Erratum: Clin Infect Dis. 2015;60(9):1448.",
+   "url": "https://doi.org/10.1093/cid/ciu296",
+   "doi": "10.1093/cid/ciu296",
+   "record_title": "Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections: 2014 Update by the Infectious Diseases Society of America",
+   "record_journal": "Clinical Infectious Diseases",
+   "record_year": "2014",
+   "article_type": "Practice Guideline",
+   "version_or_date": "Published 15 July 2014; erratum 8 April 2015",
+   "retrieved_with": "Monid context.dev /web/scrape/markdown of academic.oup.com/cid/article/59/2/e10/2895845 (full text); Crossref record via Monid tinyfish /free/fetch confirms DOI ciu296 = pages e10-e52; erratum page via context.dev",
+   "retrieved_at": "2026-11-23",
+   "editorial_notices": [
+    "Erratum: Clin Infect Dis 2015;60(9):1448, doi 10.1093/cid/civ114; the erratum page lists itself as a correction to both ciu444 and ciu296. Corrections cover the figure 1 legend and Tables 2, 4 and 5 (mupirocin frequency, clindamycin 900 mg dose, ciprofloxacin and ceftriaxone doses); none touch the CSD recommendation, the Table 5 activity comments or the preemptive-therapy recommendation cited here."
+   ],
+   "notes": "PubMed maps this DOI to PMID 24947530 (the executive summary, 147-59); the publisher's Crossref record and OUP page show ciu296 = e10-e52. No PMID recorded. Scite verify_papers could not be run on 2026-11-23 (account monthly MCP limit reached).",
+   "claims": [
+    {
+     "text": "IDSA recommends azithromycin for CSD (strong, moderate); 500 mg day 1 then 250 mg for 4 more days for patients over 45 kg",
+     "quote": "Azithromycin is recommended for cat scratch disease (strong, moderate) according to the following dosing protocol: Patients >45 kg: 500 mg on day 1 followed by 250 mg for 4 additional days (strong, moderate).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "IDSA evidence summary: results variable but rarely dramatic; single 29-patient trial; FAQ 5-day course",
+     "quote": "Treatment of cat scratch disease with antimicrobial agents has had variable, but rarely dramatic, results. A single, double-blind placebo-controlled study involved 29 patients, 14 of whom received azithromycin",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Timeline: papule 3 to 30 days; nodes about 3 weeks",
+     "quote": "a papule or pustule develops from 3-30 days following a scratch or a bite. Lymph nodes that drain the infected area enlarge about 3 weeks after inoculation.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Timeline: resolve within 1 to 6 months; suppurate in about 10%",
+     "quote": "The disease course varies, but lymphadenopathy generally resolves within 1-6 months. In about 10% of cases, the nodes suppurate.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Bite table: doxycycline excellent activity against P. multocida; clindamycin misses P. multocida",
+     "quote": "Doxycycline | 100 mg bid | 100 mg every 12 h | Excellent activity against Pasteurella multocida ... Clindamycin | 300 mg tid | 600 mg every 6-8 h | Good activity against staphylococci, streptococci, and anaerobes; misses P. multocida",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Preemptive 3 to 5 days of antibiotics for higher-risk bites",
+     "quote": "Preemptive early antimicrobial therapy for 3-5 days is recommended for patients who (a) are immunocompromised; (b) are asplenic; (c) have advanced liver disease; (d) have preexisting or resultant edema ... (e) have moderate to severe injuries",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Preemptive therapy also for wounds that may reach bone or joint",
+     "quote": "(f) have injuries that may have penetrated the periosteum or joint capsule (strong, low).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. Healthy Pets, Healthy People: Cats. Page dated June 15, 2026.",
+   "url": "https://www.cdc.gov/healthy-pets/about/cats.html",
+   "version_or_date": "Page dated June 15, 2026",
+   "retrieved_with": "Monid tinyfish /free/fetch (run 01M858M9JSEH99JEF9E0GXSV27), markdown of official page",
+   "retrieved_at": "2026-11-23",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "About 20 to 80% of reported cat bites and scratches become infected; many incidents unreported",
+     "quote": "We don't know exactly how many people are bitten or scratched by cats each year because incidents often aren't reported. However, we do know that about 20-80% of reported cat bites and scratches become infected.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Signs of an infected scratch: red, painful, warm or swollen",
+     "quote": "Seek medical attention if: ... The wound becomes red, painful, warm or swollen.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC checklist after bite or scratch: wash; rabies status unknown; cat sick; wound serious",
+     "quote": "Wash wounds with warm soapy water immediately. Seek medical attention if: You don't know if the cat has been vaccinated against rabies. The cat appears sick. The wound is serious.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC checklist (continued): red, painful, warm or swollen; more than 5 years since tetanus shot",
+     "quote": "The wound becomes red, painful, warm or swollen. It has been more than 5 years since your last tetanus shot.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prevention: avoid rough play; fewer scratches as animals grow; trim nails; caution with unfamiliar cats",
+     "quote": "Be cautious with unfamiliar animals. ... Avoid rough play with cats and kittens. Rough play causes cats to be defensive toward people. ... fewer scratches and bites as animals become older. ... Trim your cat's nails regularly.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "other_web",
+   "cited_as": "Bush LM, Vazquez-Pertejo MT. Cat-Scratch Disease. MSD Manual Professional Edition. Full review June 2024; last updated September 2026.",
+   "url": "https://www.msdmanuals.com/professional/infectious-diseases/gram-negative-bacilli/cat-scratch-disease",
+   "version_or_date": "Full review Jun 2024; last updated Sept 2026",
+   "retrieved_with": "Monid tinyfish /free/fetch (run 01M858MT7SCMKQ03B0VKYDP0XZ), markdown of official page",
+   "retrieved_at": "2026-11-23",
+   "editorial_notices": [],
+   "notes": "Tertiary reference (clinical manual). Used for timeline ranges and atypical-manifestation percentages, attributed in text to the MSD Manual.",
+   "claims": [
+    {
+     "text": "Papule at the site within 3 to 10 days; nodes within 2 weeks",
+     "quote": "Within 3 to 10 days after a bite or scratch, most patients with cat-scratch disease develop an erythematous, crusted, painless papule (rarely, a pustule) at the scratch site. Regional lymphadenopathy develops within 2 weeks.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Node swelling subsides in 2 to 5 months",
+     "quote": "Lymphadenopathy subsides spontaneously within 2 to 5 months.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Unusual manifestations 11 to 12%, more often adults; Parinaud about half of atypical",
+     "quote": "Unusual manifestations occur in 11 to 12% of patients and are more likely to occur in adults: Parinaud oculoglandular syndrome (conjunctivitis associated with palpable preauricular nodes) (accounts for approximately 50% of atypical cases)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Neuro 2% incl. encephalopathy, seizures, neuroretinitis with acute unilateral vision loss; hepatosplenic under 1%",
+     "quote": "Neurologic manifestations (encephalopathy, seizures, neuroretinitis [causes acute unilateral vision loss] ...) in 2% ... Hepatosplenic granulomatous disease in < 1%",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Culture-negative endocarditis usually with predisposing valve disease",
+     "quote": "B. henselae is one of the more common causes of culture-negative endocarditis, usually in patients with predisposing valvular heart disease.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antibiotics generally not given for localized disease in immunocompetent; recommended if immunocompromised; azithromycin or doxycycline for systemic; weeks to months",
+     "quote": "Antibiotic treatment is generally not given for localized infection in immunocompetent patients. ... recommended for patients who are immunocompromised and generally given to patients with systemic disease. Azithromycin or doxycycline is commonly used",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prolonged courses of weeks to months usually needed",
+     "quote": "Prolonged therapy (eg, weeks to months) is usually necessary.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ],
+ "notes_2026_11_18": "Red streaks, finger/hand joint and face/eye/neck redness lines remain uncited physician-judgment lines (approved by Parth Nov 18).",
+ "notes_2026_11_23": "Added refs 14 to 16; refreshed refs 1, 2, 4, 5, 6, 7 in this run. Uncited physician-judgment cells: \"Usually within the first few days\" (infected scratch and infected bite onset), \"Bacteria entering the broken skin\", wound-care/drainage treatment cell. Removed AFP dosing claim from ref 4 (dose now cited to IDSA ref 14)."
+}

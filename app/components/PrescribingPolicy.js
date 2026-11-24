@@ -1,14 +1,5 @@
 import FaqAccordion from './FaqAccordion';
-import { PRESCRIBING_POLICY_SHORT, prescribingPolicyFaqs } from '../../lib/prescribing-policy';
-
-// Use the existing site typography and container; no new theme or layout system.
-export function PrescribingPolicyNotice({ conditionSlug }) {
-  return (
-    <aside data-prescribing-policy="notice" aria-label="Before booking: prescribing limits" style={{ maxWidth: 1080, margin: '1rem auto', padding: '0 1.25rem', fontFamily: "'DM Sans', 'Inter', sans-serif", fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--tdmd-text, #12323a)' }}>
-      <p style={{ margin: 0 }}><strong>Before booking: prescribing limits. </strong>{PRESCRIBING_POLICY_SHORT}</p>
-    </aside>
-  );
-}
+import { prescribingPolicyFaqs } from '../../lib/prescribing-policy';
 
 // The additional practice-policy FAQ is kept separate from condition-specific
 // FAQs. Its visible answers and structured data always come from the same array.
@@ -36,7 +27,6 @@ export function PrescribingPolicyFaq({ conditionSlug }) {
 export default function PrescribingPolicyScope({ children, conditionSlug }) {
   return (
     <>
-      <PrescribingPolicyNotice conditionSlug={conditionSlug} />
       {children}
       <PrescribingPolicyFaq conditionSlug={conditionSlug} />
     </>

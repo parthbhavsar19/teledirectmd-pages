@@ -2,12 +2,12 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { darkCSS } from '../../lib/dark-css';
 import FaqAccordion from '../components/FaqAccordion';
-import { PRESCRIBING_POLICY, PRESCRIBING_POLICY_QUESTION } from '../../lib/prescribing-policy';
+import { PRESCRIBING_POLICY, PRESCRIBING_POLICY_QUESTION, REFILL_POLICY, REFILL_POLICY_QUESTION, ED_REFILL_POLICY } from '../../lib/prescribing-policy';
 
 /* ─── FAQ-specific CSS using the What We Treat design system ─── */
 const faqCSS = `
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:wght@500;600;700&display=swap');
 
 .faq-page{font-family:'DM Sans',-apple-system,BlinkMacSystemFont,sans-serif;background:#FDFBF9;color:#1A1A1A;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden;width:100%;max-width:100%;position:relative}
 .faq-page *{box-sizing:border-box;margin:0;padding:0;word-wrap:break-word;overflow-wrap:break-word}
@@ -161,7 +161,30 @@ details[open] .faq-toggle-icon .faq-icon-minus{display:inline}
 .faq-section:nth-child(5){animation-delay:.3s}
 .faq-section:nth-child(6){animation-delay:.35s}
 @media(prefers-reduced-motion:reduce){.faq-hero,.faq-section{animation:none}}
-`;
+` + darkCSS(`
+/* Dark theme: the cream page and white cards turn into the site's dark
+   surfaces; the deep green banner and bottom CTA keep their color. */
+DARK .faq-page{background:#0a171c;color:#e2edf0;}
+DARK .faq-hero{background:linear-gradient(180deg,#0d1d23 0%,#0a171c 100%);border-bottom-color:#24404b;}
+DARK .faq-badge{background:#2a6b6a;}
+DARK .faq-hero h1,DARK .faq-section-text h2,DARK .faq-question,DARK .faq-answer strong{color:#e2edf0;}
+DARK .faq-hero-sub,DARK .faq-trust,DARK .faq-section-text p{color:#a9bec6;}
+DARK .faq-trust-item svg{color:#6fd39b;}
+DARK .faq-pill{background:#122028;border-color:#33505d;color:#e2edf0;}
+DARK .faq-pill:hover{background:#2a6b6a;border-color:#2a6b6a;color:#fff;}
+DARK .faq-section-icon{background:#2a6b6a;}
+DARK .faq-item{background:#122028;border-color:#2b4652;}
+DARK .faq-item:hover{border-color:#5fb3b1;box-shadow:0 2px 8px rgba(0,0,0,.35);}
+DARK .faq-toggle-icon{background:#0f1f24;border-color:#33505d;color:#7fd3d1;}
+DARK details[open] .faq-toggle-icon{background:#5fb3b1;border-color:#5fb3b1;color:#062221;}
+DARK .faq-answer{color:#cfdde2;}
+DARK .faq-answer a{color:#7fd3d1;}
+DARK .faq-answer a:hover{color:#a6e6e4;}
+DARK .faq-btn-primary,DARK .faq-bottom-cta,DARK .faq-mobile-cta a{color:#1f0d07;}
+DARK .faq-btn-secondary{color:#7fd3d1;border-color:#33505d;}
+DARK .faq-btn-secondary:hover{background:#5fb3b1;color:#062221;border-color:#5fb3b1;}
+DARK .faq-mobile-cta{background:#122028;border-top-color:#24404b;box-shadow:0 -4px 20px rgba(0,0,0,.5);}
+`);
 
 /* ─── Section icons (matching What We Treat style) ─── */
 const sectionIcons = {
@@ -223,7 +246,7 @@ const sections = [
               affordable healthcare from the comfort of your home.
             </p>
             <p>
-              We are currently available in <strong>44 U.S. states</strong> plus Washington, D.C.
+              We are currently available in <strong>40+ U.S. states</strong> plus Washington, D.C.
             </p>
           </>
         ),
@@ -276,16 +299,16 @@ const sections = [
               service is especially well-suited for:
             </p>
             <ul>
-              <li><Link href="/who-we-serve/truck-drivers"><strong>Truck drivers</strong></Link> and mobile workers</li>
-              <li><Link href="/who-we-serve/gig-workers"><strong>Gig workers</strong></Link> without employer-sponsored coverage</li>
-              <li><Link href="/who-we-serve/uninsured"><strong>Uninsured individuals</strong></Link> seeking affordable care</li>
-              <li><Link href="/who-we-serve/remote-workers"><strong>Remote workers</strong></Link> who prefer virtual-first healthcare</li>
-              <li><Link href="/who-we-serve/travel-nurses"><strong>Travel nurses</strong></Link> moving between states</li>
-              <li><Link href="/who-we-serve/small-business-owners"><strong>Small business owners</strong></Link> who need a flexible provider</li>
+              <li><Link href="/who-we-serve/truck-drivers/"><strong>Truck drivers</strong></Link> and mobile workers</li>
+              <li><Link href="/who-we-serve/gig-workers/"><strong>Gig workers</strong></Link> without employer-sponsored coverage</li>
+              <li><Link href="/who-we-serve/uninsured-affordable-care/"><strong>Uninsured individuals</strong></Link> seeking affordable care</li>
+              <li><Link href="/who-we-serve/remote-workers/"><strong>Remote workers</strong></Link> who prefer virtual-first healthcare</li>
+              <li><Link href="/who-we-serve/travel-nurses/"><strong>Travel nurses</strong></Link> moving between states</li>
+              <li><Link href="/who-we-serve/small-business-owners/"><strong>Small business owners</strong></Link> who need a flexible provider</li>
             </ul>
             <p>
               Visit our{' '}
-              <Link href="/who-we-serve"><strong>Who We Serve</strong></Link>{' '}
+              <Link href="/who-we-serve/"><strong>Who We Serve</strong></Link>{' '}
               page to learn more about how TeleDirectMD supports each group.
             </p>
           </>
@@ -313,18 +336,18 @@ const sections = [
         a: (
           <>
             <p>
-              TeleDirectMD is licensed and available in <strong>44 U.S. states</strong> plus the
+              TeleDirectMD is licensed and available in <strong>40+ U.S. states</strong> plus the
               District of Columbia:
             </p>
             <p>
               Alabama, Alaska, Arizona, California, Colorado, Connecticut, Delaware, Florida, Georgia,
-              Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland,
+              Hawaii, Idaho, Illinois, Indiana, Iowa, Kentucky, Louisiana, Maine, Maryland,
               Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire,
-              New Jersey, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina,
+              New Jersey, New York, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina,
               South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia,
-              Wisconsin, and Wyoming.
+              and Wyoming.
             </p>
-            <p>D.C. was added as our 42nd coverage area in March 2026.</p>
+            <p>D.C. was added to our coverage area in March 2026.</p>
           </>
         ),
       },
@@ -360,18 +383,18 @@ const sections = [
           <>
             <p>
               We treat a wide range of common urgent-care conditions including sinus infections,
-              UTIs, upper respiratory infections, allergies, skin rashes, pink eye, cold and flu, ear
+              UTIs in women only, upper respiratory infections, allergies, skin rashes, pink eye, cold and flu, ear
               infections, bronchitis, and more.
             </p>
             <p>
-              We also offer <Link href="/travel-medicine-treatment-online"><strong>travel medicine</strong></Link>{' '}
+              We also offer <Link href="/travel-medicine-treatment-online/"><strong>travel medicine</strong></Link>{' '}
               by video visit before you fly — including{' '}
-              <Link href="/altitude-sickness-treatment-online"><strong>altitude sickness prevention</strong></Link>{' '}
-              (acetazolamide/Diamox), malaria prophylaxis, a traveler’s diarrhea standby antibiotic, and motion sickness medication. These are non-controlled medications only; we do not administer travel vaccines.
+              <Link href="/altitude-sickness-treatment-online/"><strong>altitude sickness prevention</strong></Link>{' '}
+              (acetazolamide/Diamox), malaria prophylaxis, a traveler’s diarrhea standby antibiotic, motion sickness medication, and the oral typhoid vaccine (Vivotif) when appropriate. These are non-controlled medications only; we do not administer travel vaccines, so injected vaccines need an in-person clinic.
             </p>
             <p>
               Visit our{' '}
-              <Link href="/what-we-treat">
+              <Link href="/what-we-treat/">
                 <strong>What We Treat</strong>
               </Link>{' '}
               page for a full list of conditions.
@@ -384,10 +407,14 @@ const sections = [
         a: <p>{PRESCRIBING_POLICY}</p>,
       },
       {
+        q: REFILL_POLICY_QUESTION,
+        a: <p>{REFILL_POLICY}</p>,
+      },
+      {
         q: 'Can you prescribe medication?',
         a: (
           <p>
-            Yes. When clinically appropriate and within our prescribing limits, our providers can prescribe non-controlled medications and send prescriptions directly to your preferred pharmacy electronically. See our IV/IM prescribing policy, including the EpiPen refill exception.
+            Yes. When clinically appropriate and within our prescribing limits, Dr. Bhavsar can prescribe non-controlled medications and send prescriptions directly to your preferred pharmacy electronically. See our IV/IM prescribing policy, including the EpiPen refill exception.
           </p>
         ),
       },
@@ -398,6 +425,14 @@ const sections = [
             No. TeleDirectMD does not prescribe controlled substances (Schedule II–V), including
             narcotics, benzodiazepines, stimulants, or sleep medications. This is in accordance with
             federal telemedicine prescribing regulations and our commitment to responsible care.
+          </p>
+        ),
+      },
+      {
+        q: 'Which medications does TeleDirectMD not prescribe?',
+        a: (
+          <p>
+            Beyond controlled substances, TeleDirectMD does not prescribe: GLP-1 agonists or other weight-loss drugs; isotretinoin; IV or IM medications other than EpiPen refills; boric acid; gabapentin or pregabalin; urate-lowering therapy for gout (allopurinol, febuxostat); ospemifene or prasterone for vaginal dryness; levofloxacin for chlamydia; amitriptyline; promethazine; secnidazole; crisaborole or dupilumab; bempedoic acid or icosapent ethyl; hydroquinone 4% as a single agent (the FDA-approved triple combination cream remains available); and oral acyclovir for cold sores (valacyclovir or famciclovir is prescribed instead). Migraine preventives and hydroxyzine are refilled only for patients already taking them. Each condition page lists what is and is not prescribed for that condition, and a request for a medication we do not prescribe ends the booking before a visit is scheduled, so you are not charged.
           </p>
         ),
       },
@@ -434,6 +469,7 @@ const sections = [
               reviewed. If there are red flags, you may be referred for in-person evaluation with
               primary care or cardiology.
             </p>
+            <p>{ED_REFILL_POLICY}</p>
           </>
         ),
       },
@@ -481,16 +517,16 @@ const sections = [
                 <strong>Aetna</strong> — Commercial plans in AZ, CA, CO, FL, GA, IL, LA, MI, MN, NC, OH, PA, TN, WA
               </li>
               <li>
-                <strong>Blue Cross Blue Shield</strong> — Select plans in AZ (BCBS of Arizona), FL (Florida Blue), GA
-                (Anthem BCBS), IL (BCBS of Illinois), MI (BCBS of Michigan), PA (Highmark BCBS), TX (BCBS of Texas)
+                <strong>Blue Cross Blue Shield</strong> — Select plans in AZ (BCBS of Arizona), CA (Anthem Blue Cross PPO), GA
+                (Anthem BCBS), IL (BCBS of Illinois), PA (Highmark BCBS), TX (BCBS of Texas)
               </li>
               <li>
-                <strong>UnitedHealthcare</strong> — Commercial plans in AZ, CA, CO, FL, GA, IL, LA, MI, MN, NC, NJ, OH, OK, PA, TN, TX, WA
+                <strong>UnitedHealthcare</strong> — Commercial plans in AZ, CA, CO, GA, IL, MN, NC, NJ, OH, OK, PA, TX, WA
               </li>
             </ul>
             <p>
               Coverage is expanding to additional states and plans. Visit our{' '}
-              <Link href="/insurance">
+              <Link href="/insurance/">
                 <strong>Insurance page</strong>
               </Link>{' '}
               to check if your plan is covered. Standard copays and cost-sharing apply for insurance
@@ -561,7 +597,7 @@ const sections = [
         a: (
           <p>
             You can book a visit directly on our website at{' '}
-            <Link href="/book-online">
+            <Link href="/book-online/">
               <strong>teledirectmd.com/book-online</strong>
             </Link>
             . Simply choose your visit type, select an available time slot, enter your information,
@@ -732,15 +768,15 @@ export default function FAQClient() {
           <h1>Everything You Need to Know</h1>
           <p className="faq-hero-sub">
             Get answers about TeleDirectMD&apos;s physician-led telehealth services — from insurance
-            and pricing to prescriptions, appointments, and virtual urgent care across 44 states + D.C.
+            and pricing to prescriptions, appointments, and virtual urgent care across 40+ states + D.C.
           </p>
 
           <div className="faq-hero-ctas">
-            <Link href="/book-online" className="faq-btn faq-btn-primary">
+            <Link href="/book-online/" className="faq-btn faq-btn-primary">
               Book a Visit — $79
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="18" height="18"><line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" /></svg>
             </Link>
-            <Link href="/insurance" className="faq-btn faq-btn-secondary">
+            <Link href="/insurance/" className="faq-btn faq-btn-secondary">
               Check Insurance Coverage
             </Link>
           </div>
@@ -756,7 +792,7 @@ export default function FAQClient() {
             </span>
             <span className="faq-trust-item">
               <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
-              44 States + D.C.
+              40+ States + D.C.
             </span>
             <span className="faq-trust-item">
               <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
@@ -834,7 +870,7 @@ export default function FAQClient() {
           <p>
             Book a visit with a licensed physician today, or reach out — we&apos;re happy to help.
           </p>
-          <Link href="/book-online" className="faq-bottom-cta">
+          <Link href="/book-online/" className="faq-bottom-cta">
             Book a Visit — $79
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="20" height="20"><line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" /></svg>
           </Link>
@@ -861,7 +897,7 @@ export default function FAQClient() {
 
       {/* ── Mobile fixed CTA ── */}
       <div className="faq-mobile-cta">
-        <Link href="/book-online">
+        <Link href="/book-online/">
           Book a Visit — $79
         </Link>
       </div>

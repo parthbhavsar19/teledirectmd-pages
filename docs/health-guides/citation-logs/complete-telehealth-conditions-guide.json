@@ -1,0 +1,546 @@
+{
+  "guide": "complete-telehealth-conditions-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 11 verified (10 cited journal DOIs plus the cut Hamadi 2025 DOI), retractions: none. No editorial notices. One contrasting citation flagged for ref 11 (readmissions; not relevant to cited claims).",
+  "references": [
+    {
+      "n": 1,
+      "kind": "journal",
+      "cited_as": "Hatef E, Wilson RF, Zhang A, et al. npj Digital Medicine. 2024;7(1):157.",
+      "url": "https://doi.org/10.1038/s41746-024-01152-2",
+      "retrieved_with": "PubMed get_article_metadata + PMC full text (get_full_text_article PMC11180098); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "77 studies; differences in healthcare use and clinical outcomes generally small and/or not clinically meaningful (key takeaway, evidence section, FAQ, table row)",
+          "quote": "Differences, if any, in healthcare utilization and clinical outcomes between in-person and telehealth care were generally small and/or not clinically meaningful and varied across the type of outcome and clinical area.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most included studies had a serious or high risk of bias (61%)",
+          "quote": "We identified 77 studies, the majority of which (47, 61%) were judged to have a serious or high risk of bias.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most included studies were observational",
+          "quote": "The majority of the studies were observational studies (96%) and about one-third had fewer than 300 participants (32%).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Authors refrained from an overall conclusion about telehealth versus in-person visits",
+          "quote": "While we refrain from making an overall conclusion about the performance of telehealth versus in-person visits the use of telehealth is comparable to in-person care across a variety of outcomes and clinical areas.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "38879682",
+      "pmcid": "PMC11180098",
+      "doi": "10.1038/s41746-024-01152-2",
+      "record_title": "Effectiveness of telehealth versus in-person care during the COVID-19 pandemic: a systematic review.",
+      "record_journal": "NPJ Digit Med",
+      "record_year": "2024",
+      "article_type": "Journal Article; Review (systematic review)",
+      "notes": "Was cited as Shaver J et al., Johns Hopkins University / AHRQ, linked to pure.johnshopkins.edu. Corrected first author, journal, volume/article number and link (doi.org). Direct quote corrected from \"and\" to \"and/or\" with the dropped clause restored."
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Peters GM, Kooij L, Lenferink A, van Harten WH, Doggen CJM. J Med Internet Res. 2021;23(9):e25195.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34468324/",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Telehealth reduced the risk of condition-related hospitalization by 37 per 1,000 patients vs usual care, 127 RCTs (key takeaway, chronic section, table)",
+          "quote": "We included 127 RCTs in the meta-analysis. ... High-quality evidence shows that telehealth reduces the risk of all-cause or condition-related hospitalization by 18 (95% CI 0-30) and 37 (95% CI 20-60) per 1000 patients, respectively.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "110 fewer condition-related hospitalizations per 1,000 patients",
+          "quote": "telehealth leads to reductions in the mean all-cause and condition-related hospitalizations, with 50 and 110 fewer hospitalizations per 1000 patients, respectively.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Uncertainty about the size of the effects remains",
+          "quote": "despite the large number of included studies, uncertainties around the magnitude of effects remain, and not all effects are statistically significant.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "34468324",
+      "pmcid": "PMC8444037",
+      "doi": "10.2196/25195",
+      "record_title": "The Effect of Telehealth on Hospital Services Use: Systematic Review and Meta-analysis.",
+      "record_journal": "J Med Internet Res",
+      "record_year": "2021",
+      "article_type": "Journal Article; Meta-Analysis; Systematic Review",
+      "notes": "Was cited as Flodgren G et al.; first author is Peters GM. Link changed from jmir.org (returned empty to fetch) to the PubMed record. Cut the unsupported \"15.6% reduction\" and the unverified table figure N=34,423."
+    },
+    {
+      "n": 3,
+      "kind": "journal",
+      "cited_as": "Daumeyer NM, Kreitzberg D, Gavin KM, Bauer TA. PLoS One. 2023;18(2):e0280386.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9894494/",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Commercial telemedicine UTI program, 51,474 adult women, retrospective",
+          "quote": "We conducted a retrospective analysis of data obtained from a commercially available telemedicine program for the treatment of UTIs among adult women in the US between 2017 and 2021 (n = 51,474).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "94.0% of treated patients received protocol-recommended antibiotics",
+          "quote": "Across all treated patients, 94.0% received recommended antibiotics according to the clinical protocol.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "89.7% of 3,521 treated patients with follow-up reported 7-day resolution, similar to in-person standard of care",
+          "quote": "Of the treated patients who provided follow-up data (n = 3,521), 89.7% reported seven-day symptom resolution. ... symptom resolution among all treated patients (89.7%) was similar to reports for in-person standard of care.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "36730176",
+      "pmcid": "PMC9894494",
+      "doi": "10.1371/journal.pone.0280386",
+      "record_title": "Real-world evidence: Telemedicine for complicated cases of urinary tract infection.",
+      "record_journal": "PLoS One",
+      "record_year": "2023",
+      "article_type": "Journal Article (retrospective analysis)",
+      "notes": "Removed \"IDSA guideline adherence\" (abstract says protocol-recommended antibiotics) and \"matching or exceeding\" in-person care (abstract says similar). Authors are employees of Everly Health, which runs the program."
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Shaker AA, Austin SF, Storebø OJ, et al. JMIR Ment Health. 2023;10:e44790.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37277113/",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "20 RCTs; adults, outpatient treatment for PTSD, mood and anxiety disorders",
+          "quote": "This paper aimed to assess whether individual psychiatric outpatient treatment for posttraumatic stress disorder, mood disorders, and anxiety disorders in adults using telemedicine is equivalent to in-person treatment.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Comparable efficacy SMD -0.01, P=.84, 17 trials n=1,814; patient satisfaction and attrition comparable",
+          "quote": "telemedicine is comparable with in-person treatment regarding treatment efficacy (standardized mean difference -0.01, 95% CI -0.12 to 0.09; P=.84; I=19%, 17 trials, n=1814), patient satisfaction mean difference",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Attrition comparable; 20 trials included",
+          "quote": "A total of 7414 records were identified, and 20 trials were included in the systematic review and meta-analysis. ... and attrition rates (risk ratio 1.07, 95% CI 0.94-1.21; P=.32",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Working alliance comparable, results varied considerably between trials",
+          "quote": "the working alliance between telemedicine and in-person modalities was comparable, but the heterogeneity was substantial to considerable",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Certainty of efficacy evidence moderate",
+          "quote": "The certainty of the evidence regarding efficacy was rated as moderate.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "37277113",
+      "pmcid": "PMC10357375",
+      "doi": "10.2196/44790",
+      "record_title": "Psychiatric Treatment Conducted via Telemedicine Versus In-Person Modality in Posttraumatic Stress Disorder, Mood Disorders, and Anxiety Disorders: Systematic Review and Meta-Analysis.",
+      "record_journal": "JMIR Ment Health",
+      "record_year": "2023",
+      "article_type": "Journal Article; Review",
+      "notes": "Was cited as Melin K et al. with truncated title; first author is Shaker AA. Claims narrowed from \"telepsychiatry vs in-person psychiatric care\" to the review population. Link changed to PubMed record."
+    },
+    {
+      "n": 5,
+      "kind": "other_web",
+      "cited_as": "McDermott Will & Emery (Dec 30, 2025); California Telehealth Resource Center (Jan 5, 2026)",
+      "url": "https://www.mcdermottlaw.com/insights/dea-telemedicine-flexibilities-for-controlled-substances-2026/",
+      "retrieved_with": "WebFetch of both official pages",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "DEA flexibilities allow Schedule II-V prescribing via interactive audio-video telehealth, new or existing patients, without prior in-person visit (key takeaway, limitations, FAQ)",
+          "quote": "clinicians can continue prescribing Schedule II–V controlled substances via telehealth ... Prescribing via interactive audio-video telehealth for new or existing patients",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Extended through December 31, 2026",
+          "quote": "These flexibilities expire December 31, 2026.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "DEA said the extension gives it time to finalize a rule on telemedicine prescribing (McDermott page)",
+          "quote": "time to promulgate a final rule on telemedicine prescribing",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "version_or_date": "McDermott: December 30, 2025; CalTRC: January 5, 2026",
+      "notes": "First quote is from caltrc.org; third from mcdermottlaw.com. Replaced \"Permanent regulations are expected before that expiration\" with what the source says. McDermott date corrected from \"November 2025\" to December 30, 2025 and title to the page title. Moving regulatory fact: recheck at each refresh."
+    },
+    {
+      "n": 6,
+      "kind": "other_web",
+      "cited_as": "American Medical Association, Dec 8, 2025",
+      "url": "https://www.ama-assn.org/practice-management/digital-health/new-data-details-how-telehealth-use-varies-physician-specialty",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "71.4% of physicians used telehealth weekly in 2024, up from 25.1% in 2018",
+          "quote": "In 2024, 71.4% of physicians reported using telehealth in their practices weekly ... up from the 25.1% who reported that in 2018",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "version_or_date": "December 8, 2025",
+      "notes": "The 25% Medicare fee-for-service figure is not on this page; that claim now cites ref 14 (HHS), where it appears. Removed \"substantial share of U.S. physician visits\" (page reports 3.7% of telehealth-eligible physician spending billed as telehealth)."
+    },
+    {
+      "n": 7,
+      "kind": "other_web",
+      "cited_as": "American Hospital Association, Fact Sheet: Telehealth",
+      "url": "https://www.aha.org/fact-sheets/2025-02-07-fact-sheet-telehealth",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Epic study of 35M+ records: for most telehealth visits across 33 specialties, no in-person follow-up needed within 90 days",
+          "quote": "A study of over 35 million records by Epic found that for most telehealth visits across 33 specialties, there was no need for an in-person follow-up visit within 90 days of the telehealth visit.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "version_or_date": "URL dated 2025-02-07; page displayed April 2025 on fetch",
+      "notes": "Removed the added interpretation that the virtual visit \"resolved the clinical question for the large majority\"."
+    },
+    {
+      "n": 8,
+      "kind": "agency_page",
+      "cited_as": "AHRQ PSNet, Telehealth and Patient Safety (primer), Dec 14, 2022",
+      "url": "https://psnet.ahrq.gov/primer/telehealth-and-patient-safety",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Telehealth improved access and patient safety by increasing adherence to evidence-based visit guidelines and reducing delays in care and missed appointments (in cited programs)",
+          "quote": "Telehealth improved access to care and patient safety by increasing adherence to the evidence-based visit guidelines ... and reducing delays in care and missed appointments.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Telehealth can potentially worsen disparities; older adults, minorities, less resourced individuals less likely to receive telehealth",
+          "quote": "can potentially exacerbate disparities in access to telehealth. ... older adults, racial and ethnic minorities, and less resourced individuals are less likely to receive telehealth care",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "version_or_date": "December 14, 2022",
+      "notes": "The primer bases the first claim on pediatric telemedicine programs; the guide no longer generalizes it to \"well-designed workflows\". Replaced the unsupported \"equity-aware workflows reduce missed appointments\" sentence with the primer's disparities caution."
+    },
+    {
+      "n": 9,
+      "kind": "journal",
+      "cited_as": "Mounessa JS, et al. J Telemed Telecare. 2018;24(4):263-270.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28350281/",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Systematic review of 40 studies; 96% of store-and-forward studies assessing patient satisfaction found satisfaction (text and table)",
+          "quote": "Forty eligible studies were identified ... With SF TD, 96% of studies assessing patient satisfaction and 82% of studies assessing provider satisfaction demonstrated satisfaction",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "28350281",
+      "doi": "10.1177/1357633X17696587",
+      "record_title": "A systematic review of satisfaction with teledermatology.",
+      "record_journal": "J Telemed Telecare",
+      "record_year": "2018 (epub 2017)",
+      "article_type": "Journal Article; Systematic Review"
+    },
+    {
+      "n": 10,
+      "kind": "journal",
+      "cited_as": "Pedrotti CHS, et al. Int J Infect Dis. 2021;105:130-134.",
+      "url": "https://doi.org/10.1016/j.ijid.2021.02.020",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "2021 single-center DTC telemedicine study in Brazil, 2,328 adults, stewardship protocols for URI/pharyngitis/sinusitis/UTI/diarrhea",
+          "quote": "Adult patients who accessed a single direct-to-consumer telemedicine center (Jan/2019-Feb/2020) were retrospectively enrolled. ... A total of 2328 patients were included in the study.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Low antibiotic prescription rates and high adherence to international guidelines",
+          "quote": "Low prescription rate of antibiotics can be achieved using antibiotic stewardship protocols at direct-to-consumer telemedicine consultations, showing high adherence to international guidelines.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "33578013",
+      "doi": "10.1016/j.ijid.2021.02.020",
+      "record_title": "Antibiotic stewardship in direct-to-consumer telemedicine consultations leads to high adherence to best practice guidelines and a low prescription rate.",
+      "record_journal": "Int J Infect Dis",
+      "record_year": "2021",
+      "article_type": "Journal Article (retrospective cohort)",
+      "notes": "Text said \"2023 study\"; published 2021. Authors added to the reference."
+    },
+    {
+      "n": 11,
+      "kind": "journal",
+      "cited_as": "Flodgren G, Rachas A, Farmer AJ, Inzitari M, Shepperd S. Cochrane Database Syst Rev. 2015;(9):CD002098.",
+      "url": "https://www.cochrane.org/evidence/CD002098_interactive-telemedicine-effects-professional-practice-and-healthcare-outcomes",
+      "retrieved_with": "PubMed get_article_metadata; WebFetch of cochrane.org record page; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Cochrane review of 93 trials, N=22,047 (chronic section, intro \"over 22,000 participants\")",
+          "quote": "We included 93 eligible trials (N = 22,047 participants)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "SBP -4.33 mmHg vs usual care, 4 trials N=1,770, moderate certainty (text, table, FAQ)",
+          "quote": "blood pressure (four studies, N = 1770: MD: SBP:-4.33, 95% CI -5.30 to -3.35, P < 0.00001; I(2) = 17%; DBP: -2.75 95% CI -3.28 to -2.22, P < 0.00001; I(2) = 45% (moderate certainty evidence)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "HbA1c lower by 0.31 points, 16 trials N=2,768, high certainty (text, table, FAQ)",
+          "quote": "In studies recruiting participants with diabetes (16 studies; N = 2768) we found lower glycated haemoglobin (HbA1c %) levels in those allocated to TM than in controls (MD -0.31",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "26343551",
+      "pmcid": "PMC6473731",
+      "doi": "10.1002/14651858.CD002098.pub2",
+      "record_title": "Interactive telemedicine: effects on professional practice and health care outcomes.",
+      "record_journal": "Cochrane Database Syst Rev",
+      "record_year": "2015",
+      "article_type": "Meta-Analysis; Systematic Review",
+      "notes": "Table previously said \"Cochrane 21 studies, MD 0.30%\" for glucose (wrong count and value) and attributed the SBP result to all 93 RCTs. Scite flagged one contrasting citation about readmissions (10.1016/j.ahjo.2021.100045); it does not bear on the BP or HbA1c claims."
+    },
+    {
+      "n": 12,
+      "kind": "journal",
+      "cited_as": "Xiao Z, Han X. J Med Internet Res. 2023;25:e44256.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10176143/",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "20 RCTs reviewed; 10 RCTs N=2,095 in meta-analysis; QoL improved SMD 0.44, P=.002 (table)",
+          "quote": "Twenty RCTs with 4153 patients were included in the qualitative review. ... Ten RCTs with 2095 patients remained in meta-analysis. Compared to usual care, telehealth system can significantly improve the quality of life (SMD 0.44; 95% CI 0.16-0.73; P=.002)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "37103993",
+      "pmcid": "PMC10176143",
+      "doi": "10.2196/44256",
+      "record_title": "Evaluation of the Effectiveness of Telehealth Chronic Disease Management System: Systematic Review and Meta-analysis.",
+      "record_journal": "J Med Internet Res",
+      "record_year": "2023",
+      "article_type": "Journal Article; Meta-Analysis; Systematic Review",
+      "notes": "Table row previously gave N=4,153 (qualitative review) as if it were the meta-analysis population."
+    },
+    {
+      "n": 13,
+      "kind": "journal",
+      "cited_as": "Butzner M, Cuffee Y. J Med Internet Res. 2021;23(8):e29575.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8430850/",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Narrative review of 15 rural U.S. studies; lower travel cost and time, improved access",
+          "quote": "Among 15 included studies ... Other notable benefits included decreased direct and indirect costs to the patient (travel cost and time) ... improved access to care",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "34435965",
+      "pmcid": "PMC8430850",
+      "doi": "10.2196/29575",
+      "record_title": "Telehealth Interventions and Outcomes Across Rural Communities in the United States: Narrative Review.",
+      "record_journal": "J Med Internet Res",
+      "record_year": "2021",
+      "article_type": "Journal Article; Review",
+      "notes": "Cut \"helps patients with mobility limitations\" and \"translate into better long-term outcomes\", which the source does not state."
+    },
+    {
+      "n": 14,
+      "kind": "agency_page",
+      "cited_as": "HHS, Telehealth Trends, telehealth.hhs.gov",
+      "url": "https://telehealth.hhs.gov/research-trends",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "In 2024, 25% of Medicare fee-for-service users had a telehealth service (FAQ)",
+          "quote": "25% of Medicare fee-for-service users had a telehealth service in 2024.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "version_or_date": "Undated page; read 2026-11-15",
+      "notes": "Previously listed but not cited; now supports the Medicare figure that was wrongly attributed to the AMA page."
+    },
+    {
+      "n": 15,
+      "kind": "agency_page",
+      "cited_as": "CDC, Telehealth Interventions to Improve Chronic Disease",
+      "url": "https://www.cdc.gov/cardiovascular-resources/php/data-research/telehealth.html",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "CPSTF recommends several telehealth interventions for reducing chronic disease risk factors (chronic section)",
+          "quote": "The Community Preventive Services Task Force (CPSTF) recommends several telehealth interventions for reducing chronic disease risk factors in patients.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "version_or_date": "Last reviewed May 15, 2024",
+      "notes": "Previously listed but not cited; now cited for one added sentence that replaces the cut 15.6% claim."
+    },
+    {
+      "n": 16,
+      "kind": "other_web",
+      "cited_as": "American Psychiatric Association, Online Prescribing of Controlled Substances",
+      "url": "https://www.psychiatry.org/psychiatrists/practice/telepsychiatry/toolkit/ryan-haight-act",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Ryan Haight Act of 2008 requires an in-person medical evaluation, with specified exemptions, before prescribing controlled substances via telemedicine (limitations, FAQ)",
+          "quote": "to conduct an in-person medical evaluation (with certain specified exemptions) prior to prescribing controlled substances",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "version_or_date": "Undated page (2026 copyright); read 2026-11-15",
+      "notes": "Previously listed but not cited. Title corrected to the page title; the page names the Act as the Ryan Haight Online Pharmacy Consumer Protection Act of 2008."
+    },
+    {
+      "n": 17,
+      "kind": "journal",
+      "cited_as": "Bulkes NZ, Davis K, Kay B, Riemann BC. J Psychiatr Res. 2022;145:347-352.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8595951/",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Matched comparison of 1,192 telehealth and 1,192 in-person intensive-treatment patients: no significant differences in depressive symptom reduction",
+          "quote": "Results suggest telehealth as a viable care alternative with no significant differences between in-person and telehealth groups in depressive symptom reduction",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "34799124",
+      "pmcid": "PMC8595951",
+      "doi": "10.1016/j.jpsychires.2021.11.003",
+      "record_title": "Comparing efficacy of telehealth to in-person mental health care in intensive-treatment-seeking adults.",
+      "record_journal": "J Psychiatr Res",
+      "record_year": "2022 (epub 2021)",
+      "article_type": "Journal Article (matched observational comparison)",
+      "notes": "Previously listed but not cited. Sample sizes from abstract: in-person (N = 1,192) and telehealth (N = 1,192)."
+    },
+    {
+      "n": 18,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus, Recognizing medical emergencies",
+      "url": "https://medlineplus.gov/ency/article/001927.htm",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Emergency warning signs warrant 911 / emergency department: chest pain, breathing problems, change in mental status, fainting, severe abdominal pain, coughing or vomiting blood, suicidal feelings, head or spine injury",
+          "quote": "Breathing problems (difficulty breathing, shortness of breath) ... Change in mental status (such as unusual behavior, confusion, difficulty arousing) ... Chest pain or discomfort lasting for two minutes or more",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Call 911 or go to the emergency room without delay",
+          "quote": "You can also call 911 or the local emergency number or go to the hospital emergency room. DO NOT delay.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Facial swelling (anaphylaxis sign), severe abdominal pain, sudden change in vision, suicidal or homicidal feelings listed as warning signs",
+          "quote": "Severe abdominal pain or pressure ... Sudden dizziness, weakness, or change in vision ... Swelling of the face, eyes, or tongue ... Feeling of committing suicide or murder",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "version_or_date": "Reviewed 1/8/2025",
+      "notes": "New source added for the red-flag callout and the FAQ on symptoms needing in-person care. Several table items (specific thresholds and conditions) are not on this page; see CHANGES.md."
+    },
+    {
+      "n": 19,
+      "kind": "agency_page",
+      "cited_as": "CDC, Signs and Symptoms of Stroke",
+      "url": "https://www.cdc.gov/stroke/signs-symptoms/index.html",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Stroke signs: facial drooping, arm weakness, slurred speech, sudden vision trouble, sudden severe headache; call 911",
+          "quote": "Sudden numbness or weakness in the face, arm, or leg, especially on one side of the body. ... Sudden trouble seeing. Sudden severe headache with no known cause.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Call 911 right away for these symptoms",
+          "quote": "Call 9-1-1 right away if you or someone else has any of these symptoms.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "version_or_date": "Last reviewed May 19, 2026",
+      "notes": "New source added for the neurological red flags."
+    }
+  ]
+}

@@ -16,7 +16,7 @@
     "condition_slug": "ear-pain-treatment-online",
     "icd10": "H92.9",
     "specialty_authority": "American Academy of Otolaryngology \u2013 Head and Neck Surgery (AAO-HNS)",
-    "guideline": "AAO-HNS Clinical Practice Guideline: Otitis Media with Effusion and Acute Otitis Media (Adult)"
+    "guideline": "AAO-HNS Clinical Practice Guideline: Acute Otitis Externa (2014 Update)"
   },
   "california_regulatory": {
     "primary_statute": {
@@ -48,9 +48,10 @@
       },
       {
         "name": "Anthem Blue Cross",
-        "status": "Pending",
-        "effective_date": null,
-        "in_network": false
+        "status": "Active",
+        "effective_date": "2026-09-23",
+        "in_network": true,
+        "notes": "PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included."
       },
       {
         "name": "Cigna",
@@ -66,7 +67,7 @@
         "notes": "Commercial + Medicare Advantage. Excludes Medi-Cal, Individual Exchange, Navigate/Charter/Core."
       }
     ],
-    "cash_price": 49
+    "cash_price": 79
   },
   "california_epidemiology": {
     "summary": "Acute otitis externa (swimmer's ear) and otitis media together account for millions of physician visits annually in the United States. Adult acute otitis media (AOM) affects approximately 1 in 100 adults per year, while otitis externa is more common, particularly among California coastal communities with high water-activity participation. The CDC reports that ear infections are one of the top reasons for antibiotic prescriptions in outpatient settings nationwide.",
@@ -75,8 +76,8 @@
   },
   "clinical_content": {
     "specialty_authority": "American Academy of Otolaryngology \u2013 Head and Neck Surgery (AAO-HNS)",
-    "specialty_authority_url": "https://www.entnet.org/quality-practice/quality-and-performance/clinical-practice-guidelines/otitis-media-acute/",
-    "guideline": "AAO-HNS Clinical Practice Guideline: Otitis Media with Effusion and Acute Otitis Media (Adult)",
+    "specialty_authority_url": "https://www.entnet.org/quality-practice/quality-products/clinical-practice-guidelines/",
+    "guideline": "AAO-HNS Clinical Practice Guideline: Acute Otitis Externa (2014 Update)",
     "telehealth_appropriate_criteria": [
       "Adult 18+ located in California at time of visit",
       "Ear pain with or without drainage, fullness, or decreased hearing",
@@ -103,7 +104,7 @@
         "name": "Ofloxacin otic solution (Floxin Otic) 0.3%",
         "typical_regimen": "5 drops in affected ear twice daily \u00d7 7 days (otitis externa)",
         "goodrx_price": "~$25\u2013$45 generic with GoodRx",
-        "source_url": "https://www.goodrx.com/ofloxacin-otic",
+        "source_url": "https://www.goodrx.com/ofloxacin",
         "first_line": true,
         "notes": "First-line for uncomplicated otitis externa per AAO-HNS guideline. Fluoroquinolone otic \u2014 excellent coverage. Not systemically absorbed significantly."
       },
@@ -111,7 +112,7 @@
         "name": "Ciprofloxacin-dexamethasone otic (Ciprodex)",
         "typical_regimen": "4 drops in affected ear twice daily \u00d7 7 days",
         "goodrx_price": "~$30\u2013$60 with GoodRx",
-        "source_url": "https://www.goodrx.com/ciprofloxacin-dexamethasone-otic",
+        "source_url": "https://www.goodrx.com/ciprofloxacin-dexamethasone",
         "first_line": true,
         "notes": "First-line for otitis externa \u2014 antibiotic plus corticosteroid to reduce inflammation and pain. Brand name Ciprodex; generic available."
       },
@@ -127,7 +128,7 @@
         "name": "Amoxicillin-clavulanate 875/125 mg (for AOM)",
         "typical_regimen": "1 tablet twice daily \u00d7 5\u20137 days",
         "goodrx_price": "~$16\u2013$25 generic with GoodRx",
-        "source_url": "https://www.goodrx.com/amoxicillin-clavulanate",
+        "source_url": "https://www.goodrx.com/amoxicillin-potassium-clavulanate",
         "first_line": false,
         "notes": "Second-line for AOM when first-line amoxicillin fails or if recent antibiotic use or beta-lactamase-producing organisms suspected."
       }
@@ -137,7 +138,7 @@
     {
       "id": "faq-1",
       "question": "Can I get ear pain treatment online in California?",
-      "answer": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California. Adults 18+ in California can book a same-day video visit for ear pain evaluation. If your history supports otitis externa (swimmer's ear) or adult acute otitis media without red flags, prescription ear drops or oral antibiotics may be appropriate. Self pay is $79; Aetna is in-network as of April 30, 2026."
+      "answer": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. Dr. Bhavsar is licensed in California. Adults 18+ in California can book a same-day video visit for ear pain evaluation. If your history supports otitis externa (swimmer's ear) or adult acute otitis media without red flags, prescription ear drops or oral antibiotics may be appropriate. Self pay is $79; Aetna is in-network as of April 30, 2026."
     },
     {
       "id": "faq-2",
@@ -172,7 +173,7 @@
     {
       "id": "faq-8",
       "question": "Will Medi-Cal cover my TeleDirectMD visit for ear pain?",
-      "answer": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, you can use the $79 self-pay rate or find a Medi-Cal-enrolled telehealth provider through your managed care plan or California DHCS at dhcs.ca.gov."
+      "answer": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, find a Medi-Cal-enrolled telehealth provider through your managed care plan or California DHCS at dhcs.ca.gov."
     },
     {
       "id": "faq-9",
@@ -215,10 +216,6 @@
     {
       "url": "https://www.cdc.gov/antibiotic-use/ear-infection.html",
       "text": "CDC \u2014 Ear Infections and Antibiotic Use. Retrieved May 2026."
-    },
-    {
-      "url": "https://www.entnet.org/quality-practice/quality-and-performance/clinical-practice-guidelines/otitis-media-acute/",
-      "text": "AAO-HNS \u2014 Acute Otitis Media Clinical Practice Guideline. Retrieved May 2026."
     },
     {
       "url": "https://www.aafp.org/pubs/afp/issues/2019/0401/p445.html",

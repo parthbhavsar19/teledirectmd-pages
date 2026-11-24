@@ -1,248 +1,264 @@
-/* TeleDirectMD Health Guides — Dark Mode
-   Activated by adding class "tdmd-dark" to <html> element */
+/* TeleDirectMD Health Guides: dark theme.
+   Applies when <html data-theme="dark">, the same attribute the main site
+   uses. /health-guides/dark-mode.js sets it before first paint from the
+   saved choice (localStorage 'tdmd-theme') or the system setting.
+   Text pairs on the #122028 card: text #e2edf0 13.9:1, muted #9fb6bf 7.3:1,
+   teal #2bc4cf 7.8:1, navy #a0d8e8 10.7:1. */
 
-html.tdmd-dark {
-  --tdmd-navy: #7ecde0;
-  --tdmd-teal: #5bbfc9;
+html[data-theme="dark"] {
+  --tdmd-navy: #a0d8e8;
+  --tdmd-teal: #2bc4cf;
   --tdmd-accent: #ff7a5c;
-  --tdmd-text: #e0e8eb;
-  --tdmd-muted: #9bb0b8;
-  --tdmd-white: #1a1a2e;
-  --tdmd-bg-soft: #1e2a35;
-  --tdmd-border: #2a3a45;
-  --tdmd-footer-bg: #0a1e28;
+  --tdmd-text: #e2edf0;
+  --tdmd-muted: #9fb6bf;
+  --tdmd-white: #0a171c;
+  --tdmd-bg-soft: #0f1f24;
+  --tdmd-border: #33505d;
+  --tdmd-footer-bg: #0b2f3b;
+  --tdmd-card: #122028;
+  color-scheme: dark;
 }
 
-html.tdmd-dark body {
-  background: #121c24;
+html[data-theme="dark"] body {
+  background: #0a171c;
   color: var(--tdmd-text);
 }
 
 /* Nav */
-html.tdmd-dark .tdmd-nav {
+html[data-theme="dark"] .tdmd-nav {
   background: #0f1a22;
   border-bottom-color: var(--tdmd-border);
 }
 
-html.tdmd-dark .tdmd-nav-links a {
+html[data-theme="dark"] .tdmd-nav-links a {
   color: var(--tdmd-text);
 }
 
+/* Logo: the white-ink logo replaces the navy one in dark mode. */
+.tdmd-nav-logo img.tdmd-logo-dark { display: none; }
+html[data-theme="dark"] .tdmd-nav-logo img.tdmd-logo-light { display: none; }
+html[data-theme="dark"] .tdmd-nav-logo img.tdmd-logo-dark { display: block; }
+
 /* Breadcrumb */
-html.tdmd-dark .tdmd-breadcrumb {
+html[data-theme="dark"] .tdmd-breadcrumb {
   color: var(--tdmd-muted);
 }
 
 /* Cards */
-html.tdmd-dark .guide-card,
-html.tdmd-dark .article-card {
+html[data-theme="dark"] .guide-card,
+html[data-theme="dark"] .article-card {
   background: #1a2733;
   border-color: var(--tdmd-border);
 }
 
-html.tdmd-dark .guide-card:hover,
-html.tdmd-dark .article-card:hover {
+html[data-theme="dark"] .guide-card:hover,
+html[data-theme="dark"] .article-card:hover {
   border-color: var(--tdmd-teal);
   box-shadow: 0 8px 24px rgba(0,0,0,0.4);
 }
 
-html.tdmd-dark .guide-card-desc,
-html.tdmd-dark .article-card-desc {
+html[data-theme="dark"] .guide-card-desc,
+html[data-theme="dark"] .article-card-desc {
   color: var(--tdmd-muted);
 }
 
-html.tdmd-dark .guide-card-meta {
+html[data-theme="dark"] .guide-card-meta {
   color: var(--tdmd-muted);
 }
 
-html.tdmd-dark .guide-card-badge {
+html[data-theme="dark"] .guide-card-badge {
   background: rgba(91,191,201,0.15);
   color: var(--tdmd-teal);
 }
 
 /* Article card image */
-html.tdmd-dark .article-card-img {
+html[data-theme="dark"] .article-card-img {
   opacity: 0.9;
 }
 
 /* Category sections */
-html.tdmd-dark .guides-category {
+html[data-theme="dark"] .guides-category {
   background: #1a2733;
   border-color: var(--tdmd-border);
 }
 
-html.tdmd-dark .guides-category-icon {
+html[data-theme="dark"] .guides-category-icon {
   background: rgba(91,191,201,0.12);
 }
 
 /* Article body content */
-html.tdmd-dark .tdmd-article-body {
+html[data-theme="dark"] .tdmd-article-body {
   color: var(--tdmd-text);
 }
 
-html.tdmd-dark .tdmd-article-body h1,
-html.tdmd-dark .tdmd-article-body h2,
-html.tdmd-dark .tdmd-article-body h3 {
+html[data-theme="dark"] .tdmd-article-body h1,
+html[data-theme="dark"] .tdmd-article-body h2,
+html[data-theme="dark"] .tdmd-article-body h3 {
   color: #f0f4f6;
 }
 
 /* Key points / takeaways box */
-html.tdmd-dark .tdmd-key-points {
+html[data-theme="dark"] .tdmd-key-points {
   background: #1e2a35;
   border-color: var(--tdmd-border);
 }
 
 /* Section highlights */
-html.tdmd-dark .tdmd-section-highlight {
+html[data-theme="dark"] .tdmd-section-highlight {
   background: #1e2a35;
 }
 
 /* Tables */
-html.tdmd-dark .tdmd-table {
+html[data-theme="dark"] .tdmd-table {
   border-color: var(--tdmd-border);
 }
 
-html.tdmd-dark .tdmd-table th {
+html[data-theme="dark"] .tdmd-table th {
   background: #162028;
   color: #f0f4f6;
   border-color: var(--tdmd-border);
 }
 
-html.tdmd-dark .tdmd-table td {
+html[data-theme="dark"] .tdmd-table td {
   border-color: var(--tdmd-border);
   color: var(--tdmd-text);
 }
 
-html.tdmd-dark .tdmd-table tr:nth-child(even) {
+html[data-theme="dark"] .tdmd-table tr:nth-child(even) {
   background: #1a2733;
 }
 
 /* Sidebar TOC */
-html.tdmd-dark .tdmd-sidebar {
+html[data-theme="dark"] .tdmd-sidebar {
   background: #1a2733;
   border-color: var(--tdmd-border);
 }
 
-html.tdmd-dark .tdmd-toc a {
+html[data-theme="dark"] .tdmd-toc a {
   color: var(--tdmd-muted);
 }
 
-html.tdmd-dark .tdmd-toc a:hover,
-html.tdmd-dark .tdmd-toc a.active {
+html[data-theme="dark"] .tdmd-toc a:hover,
+html[data-theme="dark"] .tdmd-toc a.active {
   color: var(--tdmd-teal);
 }
 
 /* References */
-html.tdmd-dark .tdmd-references {
+html[data-theme="dark"] .tdmd-references {
   background: #1a2733;
   border-color: var(--tdmd-border);
 }
 
 /* Author bio */
-html.tdmd-dark .tdmd-author-card {
+html[data-theme="dark"] .tdmd-author-card {
   background: #1a2733;
   border-color: var(--tdmd-border);
 }
 
 /* FAQ */
-html.tdmd-dark .tdmd-faq-question {
+html[data-theme="dark"] .tdmd-faq-question {
   color: var(--tdmd-text);
 }
 
-html.tdmd-dark .tdmd-faq-question:hover {
+html[data-theme="dark"] .tdmd-faq-question:hover {
   background: #1e2a35;
 }
 
-html.tdmd-dark .tdmd-faq-answer {
+html[data-theme="dark"] .tdmd-faq-answer {
   color: var(--tdmd-muted);
 }
 
 /* Callout / warning boxes */
-html.tdmd-dark .tdmd-callout,
-html.tdmd-dark .tdmd-warning {
+html[data-theme="dark"] .tdmd-callout,
+html[data-theme="dark"] .tdmd-warning {
   background: #1e2a35;
   border-color: var(--tdmd-border);
 }
 
 /* Hero area */
-html.tdmd-dark .tdmd-hero {
+html[data-theme="dark"] .tdmd-hero {
   background: linear-gradient(135deg, #0a1e28 0%, #162028 100%);
 }
 
-html.tdmd-dark .tdmd-hero-title {
+html[data-theme="dark"] .tdmd-hero-title {
   color: #f0f4f6;
 }
 
-html.tdmd-dark .tdmd-hero-desc {
+html[data-theme="dark"] .tdmd-hero-desc {
   color: var(--tdmd-muted);
 }
 
 /* Search / filter */
-html.tdmd-dark .guides-search-input {
+html[data-theme="dark"] .guides-search-input {
   background: #1a2733;
   border-color: var(--tdmd-border);
   color: var(--tdmd-text);
 }
 
-html.tdmd-dark .guides-search-input::placeholder {
+html[data-theme="dark"] .guides-search-input::placeholder {
   color: var(--tdmd-muted);
 }
 
 /* Images - slight brightness reduction */
-html.tdmd-dark figure img {
+html[data-theme="dark"] figure img {
   opacity: 0.92;
   border-radius: var(--tdmd-radius);
 }
 
-html.tdmd-dark figcaption {
+html[data-theme="dark"] figcaption {
   color: var(--tdmd-muted);
 }
 
 /* Scrollbar */
-html.tdmd-dark ::-webkit-scrollbar-track {
+html[data-theme="dark"] ::-webkit-scrollbar-track {
   background: #121c24;
 }
 
-html.tdmd-dark ::-webkit-scrollbar-thumb {
+html[data-theme="dark"] ::-webkit-scrollbar-thumb {
   background: #2a3a45;
 }
 
 /* Book Now button - keep visible */
-html.tdmd-dark .tdmd-nav-book {
-  background: var(--tdmd-accent);
-  color: #fff !important;
+html[data-theme="dark"] .tdmd-nav-book {
+  background: #ff5a36;
+  color: #1a0b06 !important;
+}
+html[data-theme="dark"] .tdmd-nav-book:hover {
+  background: #ff7a5c;
 }
 
 /* Footer - already dark, minor adjustments */
-html.tdmd-dark .tdmd-footer {
+html[data-theme="dark"] .tdmd-footer {
   background: #080f14;
 }
 
 /* Article card footer */
-html.tdmd-dark .article-card-footer {
+html[data-theme="dark"] .article-card-footer {
   color: var(--tdmd-muted);
   border-top-color: var(--tdmd-border);
 }
 
 /* Code blocks if any */
-html.tdmd-dark code,
-html.tdmd-dark pre {
+html[data-theme="dark"] code,
+html[data-theme="dark"] pre {
   background: #1a2733;
   color: var(--tdmd-teal);
 }
 
-/* Dark mode toggle button */
+/* Theme toggle button: a moon in light mode, a sun in dark mode. */
 .tdmd-dark-toggle {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 38px;
-  height: 38px;
-  border: 1.5px solid var(--tdmd-border);
-  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1.5px solid #8a9ca3;
+  border-radius: 999px;
   background: transparent;
+  color: var(--tdmd-text);
   cursor: pointer;
-  transition: background 0.2s, border-color 0.2s;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
   margin-left: 0.5rem;
   flex-shrink: 0;
 }
@@ -252,12 +268,20 @@ html.tdmd-dark pre {
   border-color: var(--tdmd-teal);
 }
 
+.tdmd-dark-toggle:focus { outline: none; }
+.tdmd-dark-toggle:focus-visible {
+  outline: 3px solid #ff5a36;
+  outline-offset: 2px;
+}
+
 .tdmd-dark-toggle svg {
   width: 20px;
   height: 20px;
-  stroke: var(--tdmd-text);
+  stroke: currentColor;
   fill: none;
   stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
   transition: stroke 0.2s;
 }
 
@@ -265,8 +289,228 @@ html.tdmd-dark pre {
 .tdmd-dark-toggle .tdmd-icon-moon { display: block; }
 .tdmd-dark-toggle .tdmd-icon-sun { display: none; }
 
-html.tdmd-dark .tdmd-dark-toggle .tdmd-icon-moon { display: none; }
-html.tdmd-dark .tdmd-dark-toggle .tdmd-icon-sun { display: block; }
+html[data-theme="dark"] .tdmd-dark-toggle { border-color: #5d7984; color: #ffd27a; }
+html[data-theme="dark"] .tdmd-dark-toggle:hover { border-color: #ffd27a; background: #1a2c35; }
+html[data-theme="dark"] .tdmd-dark-toggle:focus-visible { outline-color: #ffb199; }
+html[data-theme="dark"] .tdmd-dark-toggle .tdmd-icon-moon { display: none; }
+html[data-theme="dark"] .tdmd-dark-toggle .tdmd-icon-sun { display: block; }
+
+/* Charts and diagrams drawn as inline SVG: swap their light palette for the
+   dark one. Shapes keep enough color for white labels on them (5.4:1 or
+   better); text on the chart background turns light. Photos and raster
+   illustrations are left alone. */
+html[data-theme="dark"] :is(figure svg, svg.tdmd-chart, svg.aza-chart, .tdmd-chart-wrap svg, .aza-chart-wrap svg) { background-color: #122028 !important; border-color: var(--tdmd-border) !important; }
+html[data-theme="dark"] :is(figure svg, svg.tdmd-chart, svg.aza-chart, .tdmd-chart-wrap svg, .aza-chart-wrap svg) :is(rect[fill="#fff" i],path[fill="#fff" i],circle[fill="#fff" i],ellipse[fill="#fff" i],polygon[fill="#fff" i],rect[fill="#ffffff" i],path[fill="#ffffff" i],circle[fill="#ffffff" i],ellipse[fill="#ffffff" i],polygon[fill="#ffffff" i],rect[fill="white" i],path[fill="white" i],circle[fill="white" i],ellipse[fill="white" i],polygon[fill="white" i],rect[fill="#F8F6F0" i],path[fill="#F8F6F0" i],circle[fill="#F8F6F0" i],ellipse[fill="#F8F6F0" i],polygon[fill="#F8F6F0" i],rect[fill="#F3FAFB" i],path[fill="#F3FAFB" i],circle[fill="#F3FAFB" i],ellipse[fill="#F3FAFB" i],polygon[fill="#F3FAFB" i],rect[fill="#DFEDEF" i],path[fill="#DFEDEF" i],circle[fill="#DFEDEF" i],ellipse[fill="#DFEDEF" i],polygon[fill="#DFEDEF" i],rect[fill="#E1F0F1" i],path[fill="#E1F0F1" i],circle[fill="#E1F0F1" i],ellipse[fill="#E1F0F1" i],polygon[fill="#E1F0F1" i],rect[fill="#E7F6F7" i],path[fill="#E7F6F7" i],circle[fill="#E7F6F7" i],ellipse[fill="#E7F6F7" i],polygon[fill="#E7F6F7" i],rect[fill="#F0FAF5" i],path[fill="#F0FAF5" i],circle[fill="#F0FAF5" i],ellipse[fill="#F0FAF5" i],polygon[fill="#F0FAF5" i],rect[fill="#EAF7F8" i],path[fill="#EAF7F8" i],circle[fill="#EAF7F8" i],ellipse[fill="#EAF7F8" i],polygon[fill="#EAF7F8" i],rect[fill="#F4FAFB" i],path[fill="#F4FAFB" i],circle[fill="#F4FAFB" i],ellipse[fill="#F4FAFB" i],polygon[fill="#F4FAFB" i],rect[fill="#E6F3F4" i],path[fill="#E6F3F4" i],circle[fill="#E6F3F4" i],ellipse[fill="#E6F3F4" i],polygon[fill="#E6F3F4" i]) { fill: #122028; }
+html[data-theme="dark"] :is(figure svg, svg.tdmd-chart, svg.aza-chart, .tdmd-chart-wrap svg, .aza-chart-wrap svg) :is(rect[fill="#FFF0EC" i],path[fill="#FFF0EC" i],circle[fill="#FFF0EC" i],ellipse[fill="#FFF0EC" i],polygon[fill="#FFF0EC" i],rect[fill="#FFF5F2" i],path[fill="#FFF5F2" i],circle[fill="#FFF5F2" i],ellipse[fill="#FFF5F2" i],polygon[fill="#FFF5F2" i],rect[fill="#FFF5F1" i],path[fill="#FFF5F1" i],circle[fill="#FFF5F1" i],ellipse[fill="#FFF5F1" i],polygon[fill="#FFF5F1" i],rect[fill="#FFF7ED" i],path[fill="#FFF7ED" i],circle[fill="#FFF7ED" i],ellipse[fill="#FFF7ED" i],polygon[fill="#FFF7ED" i],rect[fill="#FEF3C7" i],path[fill="#FEF3C7" i],circle[fill="#FEF3C7" i],ellipse[fill="#FEF3C7" i],polygon[fill="#FEF3C7" i]) { fill: #2c1a14; }
+html[data-theme="dark"] :is(figure svg, svg.tdmd-chart, svg.aza-chart, .tdmd-chart-wrap svg, .aza-chart-wrap svg) :is(rect[fill="#003E52" i],path[fill="#003E52" i],circle[fill="#003E52" i],ellipse[fill="#003E52" i],polygon[fill="#003E52" i],rect[fill="#0A2438" i],path[fill="#0A2438" i],circle[fill="#0A2438" i],ellipse[fill="#0A2438" i],polygon[fill="#0A2438" i],rect[fill="#12323A" i],path[fill="#12323A" i],circle[fill="#12323A" i],ellipse[fill="#12323A" i],polygon[fill="#12323A" i],rect[fill="#172140" i],path[fill="#172140" i],circle[fill="#172140" i],ellipse[fill="#172140" i],polygon[fill="#172140" i],rect[fill="#234C59" i],path[fill="#234C59" i],circle[fill="#234C59" i],ellipse[fill="#234C59" i],polygon[fill="#234C59" i],rect[fill="#1A3140" i],path[fill="#1A3140" i],circle[fill="#1A3140" i],ellipse[fill="#1A3140" i],polygon[fill="#1A3140" i],rect[fill="#002A3A" i],path[fill="#002A3A" i],circle[fill="#002A3A" i],ellipse[fill="#002A3A" i],polygon[fill="#002A3A" i]) { fill: #2a6f86; }
+html[data-theme="dark"] :is(figure svg, svg.tdmd-chart, svg.aza-chart, .tdmd-chart-wrap svg, .aza-chart-wrap svg) :is(rect[fill="#006B73" i],path[fill="#006B73" i],circle[fill="#006B73" i],ellipse[fill="#006B73" i],polygon[fill="#006B73" i],rect[fill="#0C8F99" i],path[fill="#0C8F99" i],circle[fill="#0C8F99" i],ellipse[fill="#0C8F99" i],polygon[fill="#0C8F99" i],rect[fill="#1A7F7F" i],path[fill="#1A7F7F" i],circle[fill="#1A7F7F" i],ellipse[fill="#1A7F7F" i],polygon[fill="#1A7F7F" i]) { fill: #0b7680; }
+html[data-theme="dark"] :is(figure svg, svg.tdmd-chart, svg.aza-chart, .tdmd-chart-wrap svg, .aza-chart-wrap svg) :is(text[fill="#003E52" i],tspan[fill="#003E52" i],g[fill="#003E52" i],text[fill="#0A2438" i],tspan[fill="#0A2438" i],g[fill="#0A2438" i],text[fill="#12323A" i],tspan[fill="#12323A" i],g[fill="#12323A" i],text[fill="#172140" i],tspan[fill="#172140" i],g[fill="#172140" i],text[fill="#234C59" i],tspan[fill="#234C59" i],g[fill="#234C59" i],text[fill="#1A3140" i],tspan[fill="#1A3140" i],g[fill="#1A3140" i],text[fill="#002A3A" i],tspan[fill="#002A3A" i],g[fill="#002A3A" i]) { fill: #e2edf0; }
+html[data-theme="dark"] :is(figure svg, svg.tdmd-chart, svg.aza-chart, .tdmd-chart-wrap svg, .aza-chart-wrap svg) :is(text[fill="#456676" i],tspan[fill="#456676" i],g[fill="#456676" i],text[fill="#4B5F66" i],tspan[fill="#4B5F66" i],g[fill="#4B5F66" i],text[fill="#5C6E78" i],tspan[fill="#5C6E78" i],g[fill="#5C6E78" i],text[fill="#536C7C" i],tspan[fill="#536C7C" i],g[fill="#536C7C" i],text[fill="#60727C" i],tspan[fill="#60727C" i],g[fill="#60727C" i]) { fill: #a9bec6; }
+html[data-theme="dark"] :is(figure svg, svg.tdmd-chart, svg.aza-chart, .tdmd-chart-wrap svg, .aza-chart-wrap svg) :is(text[fill="#006B73" i],tspan[fill="#006B73" i],text[fill="#0C8F99" i],tspan[fill="#0C8F99" i],text[fill="#1A7F7F" i],tspan[fill="#1A7F7F" i]) { fill: #2bc4cf; }
+html[data-theme="dark"] :is(figure svg, svg.tdmd-chart, svg.aza-chart, .tdmd-chart-wrap svg, .aza-chart-wrap svg) :is([stroke="#E6EDF0" i],[stroke="#DBE7E9" i],[stroke="#C2E0E5" i],[stroke="#DDE3E6" i],[stroke="#E4ECEE" i],[stroke="#D0E0E3" i]) { stroke: #2b4652; }
+html[data-theme="dark"] :is(figure svg, svg.tdmd-chart, svg.aza-chart, .tdmd-chart-wrap svg, .aza-chart-wrap svg) :is([stroke="#F8F6F0" i],[stroke="#fff" i],[stroke="#ffffff" i]) { stroke: #122028; }
+html[data-theme="dark"] :is(figure svg, svg.tdmd-chart, svg.aza-chart, .tdmd-chart-wrap svg, .aza-chart-wrap svg) :is([stroke="#003E52" i],[stroke="#0A2438" i],[stroke="#12323A" i],[stroke="#172140" i],[stroke="#234C59" i],[stroke="#1A3140" i],[stroke="#002A3A" i]) { stroke: #7fb8cc; }
+html[data-theme="dark"] :is(figure svg, svg.tdmd-chart, svg.aza-chart, .tdmd-chart-wrap svg, .aza-chart-wrap svg) :is([stroke="#006B73" i],[stroke="#0C8F99" i],[stroke="#1A7F7F" i]) { stroke: #2bc4cf; }
+html[data-theme="dark"] :is(figure svg, svg.tdmd-chart, svg.aza-chart, .tdmd-chart-wrap svg, .aza-chart-wrap svg) :is([stroke="#456676" i],[stroke="#4B5F66" i],[stroke="#5C6E78" i],[stroke="#536C7C" i],[stroke="#60727C" i]) { stroke: #8fa8b2; }
+
+/* ── Per-guide components ─────────────────────────────────────────
+   Guides carry their own inline styles. These rules cover the recurring
+   light boxes and hardcoded inks found by a contrast sweep of every guide
+   in dark mode. */
+
+/* Green "good fit" boxes */
+html[data-theme="dark"] .tdmd-appropriate-box.good,
+html[data-theme="dark"] .tdmd-scope-card-yes,
+html[data-theme="dark"] .tdmd-path-box.in-person,
+html[data-theme="dark"] .tdmd-path-box.trust,
+html[data-theme="dark"] .tdmd-path-box.reliable,
+html[data-theme="dark"] tr.zone-green td,
+html[data-theme="dark"] tr.zone-green {
+  background: #122a20 !important; border-color: #2c5a40 !important; color: var(--tdmd-text);
+}
+/* Coral and red caution boxes */
+html[data-theme="dark"] .tdmd-appropriate-box.caution,
+html[data-theme="dark"] .tdmd-scope-card-no,
+html[data-theme="dark"] .tdmd-path-box.verify,
+html[data-theme="dark"] .tdmd-quote-block,
+html[data-theme="dark"] .tdmd-crisis-card,
+html[data-theme="dark"] .tdmd-crisis-callout,
+html[data-theme="dark"] .tdmd-alert,
+html[data-theme="dark"] tr.zone-red td,
+html[data-theme="dark"] tr.zone-red {
+  background: #2c1a14 !important; border-color: #6a3b2a !important; color: var(--tdmd-text);
+}
+/* Amber notes */
+html[data-theme="dark"] aside[style*="#fff5df" i],
+html[data-theme="dark"] .tdmd-adults-only-note,
+html[data-theme="dark"] .tdmd-disclaimer,
+html[data-theme="dark"] .aff-blank,
+html[data-theme="dark"] div[style*="#fff3cd" i],
+html[data-theme="dark"] div[style*="#fff7e6" i] {
+  background: #2e2512 !important; border-color: #8a6a2c !important; color: #f3e6c8 !important;
+}
+html[data-theme="dark"] .tdmd-adults-only-note strong,
+html[data-theme="dark"] .tdmd-disclaimer strong,
+html[data-theme="dark"] aside[style*="#fff5df" i] strong { color: #fff2d8 !important; }
+/* Teal and blue tinted panels */
+html[data-theme="dark"] .tdmd-callout { background: #10242b !important; }
+html[data-theme="dark"] .tdmd-callout-warning,
+html[data-theme="dark"] .tdmd-callout.tdmd-callout-warning { background: #2c1a14 !important; }
+html[data-theme="dark"] .tdmd-chart-wrap,
+html[data-theme="dark"] .tdmd-path-box.telehealth,
+html[data-theme="dark"] .tdmd-path-box.inperson,
+html[data-theme="dark"] .tdmd-key-takeaways,
+html[data-theme="dark"] .tdmd-series-badge,
+html[data-theme="dark"] .tdmd-related-reading,
+html[data-theme="dark"] .tdmd-related-guide,
+html[data-theme="dark"] .tdmd-table-wrap {
+  background: #10242b !important; border-color: var(--tdmd-border) !important;
+}
+html[data-theme="dark"] .tdmd-stage-normal { background: #173226 !important; color: #8fe0a8 !important; }
+html[data-theme="dark"] .tdmd-stage-crisis,
+html[data-theme="dark"] .tdmd-badge-grade-no,
+html[data-theme="dark"] .tdmd-status-no { background: #3a1717 !important; color: #f3a0a0 !important; }
+
+/* Boxes filled with the navy token, which turns light in dark mode: keep
+   them deep so their white text still reads. */
+html[data-theme="dark"] .tdmd-sidebar-cta,
+html[data-theme="dark"] .tdmd-mission-statement,
+html[data-theme="dark"] .tdmd-bottom-cta,
+html[data-theme="dark"] .tdmd-bottom-cta-block,
+html[data-theme="dark"] .tdmd-membership-badge,
+html[data-theme="dark"] .tdmd-nav-cta {
+  background: #0f3a4a !important; border-color: #2b5866 !important;
+}
+html[data-theme="dark"] .tdmd-mission-statement h2,
+html[data-theme="dark"] .tdmd-bottom-cta h2,
+html[data-theme="dark"] .tdmd-bottom-cta-block h2,
+html[data-theme="dark"] .tdmd-sidebar-cta h4,
+html[data-theme="dark"] .tdmd-sidebar-cta p,
+html[data-theme="dark"] .tdmd-mission-statement p,
+html[data-theme="dark"] .tdmd-bottom-cta p,
+html[data-theme="dark"] .tdmd-nav-cta {
+  color: #ffffff !important;
+}
+/* Sidebar cards come in a light coral and a navy variant; give both one
+   dark surface so their text works either way. */
+html[data-theme="dark"] .tdmd-sidebar-card { background: #122028 !important; border-color: var(--tdmd-border) !important; }
+html[data-theme="dark"] .tdmd-sidebar-card h4,
+html[data-theme="dark"] .tdmd-sidebar-card p { color: var(--tdmd-text) !important; }
+/* Teal fills with white labels */
+html[data-theme="dark"] .tdmd-book-btn,
+html[data-theme="dark"] .tdmd-author-avatar {
+  background: #2bc4cf; color: #04252b !important;
+}
+html[data-theme="dark"] .tdmd-article-header .tdmd-badge,
+html[data-theme="dark"] .article-card-badge--evidence,
+html[data-theme="dark"] .article-card-badge--ai {
+  background: #10242b !important; color: #5fd6de !important; border-color: #2b5866 !important;
+}
+html[data-theme="dark"] .tdmd-badge-grade-new { background: #10242b !important; color: #8fd0f0 !important; }
+html[data-theme="dark"] .aff-key { color: #1a0b06 !important; }
+/* Text that used the --tdmd-white token as a color on a deep box. */
+html[data-theme="dark"] .tdmd-sidebar-price,
+html[data-theme="dark"] .tdmd-btn-outline-white,
+html[data-theme="dark"] .tdmd-bottom-cta-secondary { color: #ffffff !important; }
+/* Headings and links inside the tinted boxes. */
+html[data-theme="dark"] .tdmd-appropriate-box.good h4,
+html[data-theme="dark"] .tdmd-scope-card-yes h4,
+html[data-theme="dark"] .tdmd-scope-card h4[style*="1a7a4a" i] { color: #6fd39b !important; }
+html[data-theme="dark"] .tdmd-appropriate-box.caution h4,
+html[data-theme="dark"] .tdmd-scope-card-no h4,
+html[data-theme="dark"] .tdmd-crisis-callout-title { color: #ff9a7a !important; }
+html[data-theme="dark"] .tdmd-alert strong,
+html[data-theme="dark"] .tdmd-alert a { color: #ffb59c !important; }
+
+/* Hardcoded inks */
+html[data-theme="dark"] .tdmd-article-meta-item span { color: var(--tdmd-teal) !important; }
+html[data-theme="dark"] .tdmd-article-title,
+html[data-theme="dark"] .tdmd-lang-toggle,
+html[data-theme="dark"] .tdmd-decision-tag,
+html[data-theme="dark"] .tdmd-toc-sidebar h3,
+html[data-theme="dark"] .tdmd-callout-title,
+html[data-theme="dark"] .tdmd-guide-cta-message,
+html[data-theme="dark"] .tdmd-guide-cta-message strong,
+html[data-theme="dark"] .aff-figure figcaption,
+html[data-theme="dark"] .tdmd-path-box h4 {
+  color: var(--tdmd-navy) !important;
+}
+html[data-theme="dark"] .tdmd-guide-cta-disclaimer,
+html[data-theme="dark"] .tdmd-guide-cta-meta,
+html[data-theme="dark"] .tdmd-table-wrap > p,
+html[data-theme="dark"] .tdmd-related-care p,
+html[data-theme="dark"] .tdmd-related-guide p,
+html[data-theme="dark"] .tdmd-quote-block cite,
+html[data-theme="dark"] .tdmd-crisis-card p {
+  color: var(--tdmd-muted) !important;
+}
+html[data-theme="dark"] .rate-high { color: #ff9a7a !important; }
+html[data-theme="dark"] .rate-med { color: #f0c870 !important; }
+html[data-theme="dark"] .rate-low { color: #6fd39b !important; }
+
+/* Inline-style safety net, the same idea as the main site's. */
+html[data-theme="dark"] [style^="color:#003e52" i],
+html[data-theme="dark"] [style*=";color:#003e52" i],
+html[data-theme="dark"] [style*="; color:#003e52" i],
+html[data-theme="dark"] [style^="color:#0a2438" i],
+html[data-theme="dark"] [style*=";color:#0a2438" i],
+html[data-theme="dark"] [style*="; color:#0a2438" i],
+html[data-theme="dark"] [style^="color:#16333e" i],
+html[data-theme="dark"] [style*=";color:#16333e" i],
+html[data-theme="dark"] [style*="; color:#16333e" i],
+html[data-theme="dark"] [style^="color:#12323a" i],
+html[data-theme="dark"] [style*=";color:#12323a" i],
+html[data-theme="dark"] [style*="; color:#12323a" i] { color: var(--tdmd-text) !important; }
+html[data-theme="dark"] [style^="color:#456676" i],
+html[data-theme="dark"] [style*=";color:#456676" i],
+html[data-theme="dark"] [style*="; color:#456676" i],
+html[data-theme="dark"] [style^="color:#5a6b74" i],
+html[data-theme="dark"] [style*=";color:#5a6b74" i],
+html[data-theme="dark"] [style*="; color:#5a6b74" i],
+html[data-theme="dark"] [style^="color:#7a7974" i],
+html[data-theme="dark"] [style*=";color:#7a7974" i],
+html[data-theme="dark"] [style*="; color:#7a7974" i],
+html[data-theme="dark"] [style^="color:#4b5f66" i],
+html[data-theme="dark"] [style*=";color:#4b5f66" i],
+html[data-theme="dark"] [style*="; color:#4b5f66" i] { color: var(--tdmd-muted) !important; }
+html[data-theme="dark"] [style^="color:#006b73" i],
+html[data-theme="dark"] [style*=";color:#006b73" i],
+html[data-theme="dark"] [style*="; color:#006b73" i] { color: var(--tdmd-teal) !important; }
+html[data-theme="dark"] [style^="color:#c44520" i],
+html[data-theme="dark"] [style*=";color:#c44520" i],
+html[data-theme="dark"] [style*="; color:#c44520" i] { color: #ff9a7a !important; }
+html[data-theme="dark"] [style^="color:#533f03" i],
+html[data-theme="dark"] [style*=";color:#533f03" i],
+html[data-theme="dark"] [style*="; color:#533f03" i] { color: #f3d58a !important; }
+html[data-theme="dark"] [style^="background:#ffffff" i],
+html[data-theme="dark"] [style*=";background:#ffffff" i],
+html[data-theme="dark"] [style*="; background:#ffffff" i],
+html[data-theme="dark"] [style^="background:#fff;" i],
+html[data-theme="dark"] [style*=";background:#fff;" i],
+html[data-theme="dark"] [style*="; background:#fff;" i],
+html[data-theme="dark"] [style^="background:#f5f9fa" i],
+html[data-theme="dark"] [style*=";background:#f5f9fa" i],
+html[data-theme="dark"] [style*="; background:#f5f9fa" i],
+html[data-theme="dark"] [style^="background:#f4f2ee" i],
+html[data-theme="dark"] [style*=";background:#f4f2ee" i],
+html[data-theme="dark"] [style*="; background:#f4f2ee" i],
+html[data-theme="dark"] [style^="background:#f0f7f8" i],
+html[data-theme="dark"] [style*=";background:#f0f7f8" i],
+html[data-theme="dark"] [style*="; background:#f0f7f8" i],
+html[data-theme="dark"] [style^="background:#f5f7f8" i],
+html[data-theme="dark"] [style*=";background:#f5f7f8" i],
+html[data-theme="dark"] [style*="; background:#f5f7f8" i],
+html[data-theme="dark"] [style^="background:#fdfbf6" i],
+html[data-theme="dark"] [style*=";background:#fdfbf6" i],
+html[data-theme="dark"] [style*="; background:#fdfbf6" i],
+html[data-theme="dark"] [style^="background:#f3f8ff" i],
+html[data-theme="dark"] [style*=";background:#f3f8ff" i],
+html[data-theme="dark"] [style*="; background:#f3f8ff" i] {
+  background: #122028 !important; border-color: var(--tdmd-border) !important;
+}
+html[data-theme="dark"] [style^="background:#fff8f6" i],
+html[data-theme="dark"] [style*=";background:#fff8f6" i],
+html[data-theme="dark"] [style*="; background:#fff8f6" i] { background: #2c1a14 !important; }
 
 /* Smooth transition */
 html {
@@ -285,34 +529,34 @@ body, .tdmd-nav, .guide-card, .article-card, .guides-category,
    token resolves to the dark surface (#1a1a2e), which made these
    elements dark-on-dark. Pin them to a true light color here. */
 
-html.tdmd-dark .tdmd-footer-col h5 {
+html[data-theme="dark"] .tdmd-footer-col h5 {
   color: #e8f1f4;
 }
 
-html.tdmd-dark .tdmd-footer-cta {
+html[data-theme="dark"] .tdmd-footer-cta {
   color: #ffffff !important;
 }
 
-html.tdmd-dark .tdmd-footer a:hover {
+html[data-theme="dark"] .tdmd-footer a:hover {
   color: #ffffff;
 }
 
-html.tdmd-dark .tdmd-footer-social svg {
+html[data-theme="dark"] .tdmd-footer-social svg {
   fill: #e8f1f4;
 }
 
 /* Citable summary box is injected with inline hex styles, so these
    overrides need !important to take effect in dark mode. */
-html.tdmd-dark .tdmd-citable-summary {
+html[data-theme="dark"] .tdmd-citable-summary {
   background: #1a2733 !important;
   border-color: var(--tdmd-border) !important;
 }
 
-html.tdmd-dark .tdmd-citable-summary h2 {
+html[data-theme="dark"] .tdmd-citable-summary h2 {
   color: var(--tdmd-navy) !important;
 }
 
-html.tdmd-dark .tdmd-citable-summary div {
+html[data-theme="dark"] .tdmd-citable-summary div {
   color: var(--tdmd-text) !important;
   border-top-color: var(--tdmd-border) !important;
 }

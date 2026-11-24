@@ -1,0 +1,279 @@
+{
+  "stateCode": "NJ",
+  "stateName": "New Jersey",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "urban",
+    "regulation": "standard",
+    "payerLandscape": "single-payer",
+    "epidemiology": [
+      "lyme-high",
+      "sti-rising",
+      "flu-severe-2025-26",
+      "rabies-cats"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "northeast",
+    "voiceNotes": "Brisk and specific for a dense, commuter state. Lead with what the 2017 telemedicine law requires at the start of a visit (identity, credentials), and keep payer language exact: UnitedHealthcare is the only active plan; NJ FamilyCare is not accepted."
+  },
+  "stateHero": {
+    "openingParagraph": "Adults who are physically in New Jersey can book a video visit with Parth Bhavsar, MD, a board-certified family medicine physician who holds a New Jersey medical license. New Jersey's telemedicine law, P.L.2017, c.117, calls for interactive, real-time, two-way communication and applies the same standard of care that governs an in-person visit, so each visit begins by confirming who you are and who your physician is. The fee is a flat $79, paid at booking, and HSA and FSA cards are accepted; TeleDirectMD is also in-network with UnitedHealthcare plans in New Jersey. When a prescription is appropriate, it goes electronically to the New Jersey pharmacy you choose.",
+    "stateContextHint": "New Jersey-licensed physician. Real-time video visits under P.L.2017, c.117 for adults located in New Jersey. Flat $79 self-pay or UnitedHealthcare.",
+    "saturation": {
+      "stateNameMentions": 4,
+      "stateEntityMentions": 4
+    }
+  },
+  "stateEligibility": {
+    "intro": "Eligibility in New Jersey depends on where you are during the visit: TeleDirectMD sees adults 18 and older who are physically in New Jersey at that time. Under C.45:1-63, a telemedicine provider must establish a proper provider-patient relationship, which includes identifying the patient by, at a minimum, name, date of birth, phone number and address, and disclosing and validating the provider's identity and credentials. Expect those steps at the start of each visit.",
+    "localTriggers": [
+      "You must be physically in New Jersey during the video visit. A New Jersey home address does not count if you are somewhere else that day.",
+      "Have your name, date of birth, phone number and address ready. C.45:1-63 lists these as the minimum details for identifying a telemedicine patient in New Jersey.",
+      "Commuters: the state you are in when the visit starts is the one that counts, not the state where you live.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "A TeleDirectMD visit costs a flat $79, shown before you book and paid at booking, and HSA and FSA cards are accepted. In New Jersey, TeleDirectMD is also in-network with UnitedHealthcare commercial and Medicare Advantage plans (PPO, HMO, EPO, POS); what you owe depends on your plan, which decides coverage. TeleDirectMD does not accept NJ FamilyCare, which the state describes as New Jersey's publicly funded health insurance program for Medicaid and CHIP. Residents comparing coverage can use Get Covered New Jersey, the state's official health insurance marketplace.",
+    "additionalNotes": [
+      "$79 flat self-pay, the full visit fee.",
+      "HSA and FSA cards accepted at booking.",
+      "UnitedHealthcare plans in-network in New Jersey; NJ FamilyCare not accepted."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "When a prescription is appropriate, it is sent electronically to the New Jersey pharmacy you pick at booking. Birth control has a second route in this state: a Department of Health standing order, most recently revised December 16, 2025, lets New Jersey pharmacists furnish self-administered hormonal contraceptives without a patient-specific prescription, using a state health screening questionnaire. Rules adopted in May 2024 by the State Board of Medical Examiners and the Board of Pharmacy allow an initial supply of up to three months, with refills for up to nine more. Controlled dangerous substances are tracked through the New Jersey Prescription Monitoring Program (NJPMP); TeleDirectMD does not prescribe them in New Jersey or any other state.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "The New Jersey Department of Health publishes the numbers behind several common reasons for a video visit. Its Communicable Disease Service issues a weekly Respiratory Illness Surveillance Report covering COVID-19, influenza and RSV, and in January 2026 the Department said the 2025-2026 flu season was shaping up to be a very serious one, with more cases than previous years. The Department's vector-borne report counted 3,336 Lyme disease cases reported in New Jersey in 2026 by CDC week 27 (July 5 to 11). A June 2024 Department health alert reported record highs of chlamydia, up 22 percent over the last 10 years. This context is for awareness and does not replace an individual evaluation.",
+    "citations": [
+      {
+        "label": "New Jersey P.L.2017, c.117 (C.45:1-61 to 45:1-66), telemedicine and telehealth",
+        "url": "https://pub.njleg.gov/bills/2016/PL17/117_.HTM",
+        "scope": "all"
+      },
+      {
+        "label": "New Jersey Division of Consumer Affairs, pharmacists may furnish hormonal contraceptives without a prescription, May 20, 2024",
+        "url": "https://njconsumeraffairs.gov/News/Pages/05202024.aspx",
+        "conditions": [
+          "birth-control-refills-online"
+        ]
+      },
+      {
+        "label": "NJ Department of Health, resources for pharmacists dispensing self-administered hormonal contraceptives (standing order revised December 16, 2025)",
+        "url": "https://nj.gov/health/reproductivehealth/resources-for-providers",
+        "conditions": [
+          "birth-control-refills-online"
+        ]
+      },
+      {
+        "label": "New Jersey Prescription Monitoring Program (NJPMP)",
+        "url": "https://njconsumeraffairs.gov/pmp/Pages/reporting.aspx",
+        "scope": "all"
+      },
+      {
+        "label": "Get Covered New Jersey, frequently asked questions",
+        "url": "https://www.nj.gov/getcoverednj/findanswers/faqs/",
+        "scope": "all"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, New Jersey (V2025)",
+        "url": "https://www.census.gov/quickfacts/NJ",
+        "scope": "hub"
+      },
+      {
+        "label": "NJ Department of Health, Vector-borne Report, CDC Week 27, 2026",
+        "url": "https://nj.gov/health/cd/documents/topics/vectorborne/Reports/Vector-borne-report-week-27-2026.pdf",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "NJ Department of Health, health alert on doxy PEP for bacterial STIs, June 11, 2024",
+        "url": "https://nj.gov/health/sti/documents/health-alert-doxyPEP-june-2024.pdf",
+        "conditions": [
+          "doxypep-sti-prevention-online",
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "NJ Department of Health, STI resources for professionals (expedited partner therapy, N.J.S.A. 26:4-48.2)",
+        "url": "https://www.nj.gov/health/sti/professionals",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "NJ Department of Health, Rabies frequently asked questions",
+        "url": "https://www.nj.gov/health/cd/documents/faq/Rabies-2024_FAQ_logo.pdf",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "NJ Department of Health, first pediatric flu death of the 2025-2026 season, January 9, 2026",
+        "url": "https://www.nj.gov/health/news/2026/20260109a.shtml",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "NJ Department of Health, respiratory virus data and reports",
+        "url": "https://www.nj.gov/health/respiratory-viruses/data-and-reports",
+        "conditions": [
+          "influenza-treatment-online",
+          "covid-19-treatment-online"
+        ]
+      },
+      {
+        "label": "NJ State Health Assessment Data, high blood pressure among adults (2017)",
+        "url": "https://www-doh.state.nj.us/doh-shad/indicator/view/CardiovascularDiseaseHBP.html",
+        "conditions": [
+          "hypertension-refills-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds a New Jersey medical license issued by the New Jersey State Board of Medical Examiners. Anyone can look the license up through the New Jersey Division of Consumer Affairs verification search. TeleDirectMD practices in New Jersey under P.L.2017, c.117 (C.45:1-61 to 45:1-66), which applies the in-person standard of care to telemedicine and requires the provider to disclose and validate identity and credentials. NPI: 1104323203.",
+    "verifyUrl": "https://www.njconsumeraffairs.gov/verify",
+    "statuteCitation": "P.L.2017, c.117, codified at C.45:1-61 to 45:1-66 (telemedicine and telehealth)",
+    "licenseNumber": "25IA12513300",
+    "boardName": "New Jersey State Board of Medical Examiners",
+    "boardUrl": "https://www.njconsumeraffairs.gov/bme"
+  },
+  "stateCities": {
+    "metroAndRural": "TeleDirectMD sees adults anywhere in New Jersey, home to 9,548,215 people in the Census Bureau's July 1, 2025 estimate, with 1,263 residents per square mile in 2020. That covers Newark, Jersey City, Paterson and Elizabeth, Trenton, Camden and Cherry Hill, Edison and Woodbridge, Toms River, Clifton, Passaic and Hamilton, along with every smaller town in between. A patient in Toms River and a patient in Newark see the same physician for the same flat $79.",
+    "cityList": [
+      {
+        "city": "Newark"
+      },
+      {
+        "city": "Jersey City"
+      },
+      {
+        "city": "Paterson"
+      },
+      {
+        "city": "Elizabeth"
+      },
+      {
+        "city": "Trenton"
+      },
+      {
+        "city": "Clifton"
+      },
+      {
+        "city": "Camden"
+      },
+      {
+        "city": "Passaic"
+      },
+      {
+        "city": "Edison"
+      },
+      {
+        "city": "Woodbridge"
+      },
+      {
+        "city": "Toms River"
+      },
+      {
+        "city": "Hamilton"
+      },
+      {
+        "city": "Cherry Hill"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "single-payer",
+    "selfPayDisclosure": "Every TeleDirectMD visit in New Jersey can be paid as a flat $79 self-pay fee at booking, with HSA and FSA cards accepted. TeleDirectMD is in-network with UnitedHealthcare in New Jersey; for any other plan, the visit is self-pay and TeleDirectMD does not file the claim. Your plan, not TeleDirectMD, decides what it covers. TeleDirectMD does not accept NJ FamilyCare (Medicaid and CHIP). Get Covered New Jersey, the state's official marketplace, lists plans for residents who need coverage.",
+    "payers": [
+      {
+        "name": "UnitedHealthcare",
+        "anchorId": "uhc-coverage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage (excludes Medicaid, CHIP, Oxford Metro, Community Plan and Group PPO Medicare Advantage)",
+        "validFrom": "2026-04-21",
+        "copayNote": "Cost sharing depends on your plan. Medicaid, Managed Medicaid and D-SNP plans are not accepted."
+      }
+    ]
+  },
+  "stateFaqs": [
+    {
+      "question": "Can a doctor treat me over video while I'm in New Jersey?",
+      "answer": "Yes. New Jersey's telemedicine law, P.L.2017, c.117, allows care by interactive, real-time, two-way communication and holds it to the same standard of care as an in-person visit. The provider must establish a proper provider-patient relationship, which includes identifying you by name, date of birth, phone number and address and disclosing their own identity and credentials. TeleDirectMD sees adults 18 and older who are physically in New Jersey during the visit."
+    },
+    {
+      "question": "Is TeleDirectMD in-network with insurance in New Jersey?",
+      "answer": "TeleDirectMD is in-network with UnitedHealthcare commercial and Medicare Advantage plans in New Jersey. Your plan decides what you owe. With any other plan, or without insurance, the visit is a flat $79 paid at booking, and HSA and FSA cards are accepted. TeleDirectMD does not accept NJ FamilyCare, the state's Medicaid and CHIP program."
+    },
+    {
+      "question": "How can I check Dr. Bhavsar's New Jersey medical license?",
+      "answer": "Parth Bhavsar, MD holds a New Jersey medical license issued by the New Jersey State Board of Medical Examiners. You can look it up through the New Jersey Division of Consumer Affairs license verification search. His National Provider Identifier is 1104323203, and he is board-certified in family medicine by the American Board of Family Medicine."
+    },
+    {
+      "question": "Can a New Jersey pharmacist give me birth control without a prescription?",
+      "answer": "Yes, under a Department of Health standing order (revised December 16, 2025), New Jersey pharmacists can furnish self-administered hormonal contraceptives without a patient-specific prescription after a health screening questionnaire. TeleDirectMD's birth control visits are for adults who already use the pill, patch or ring and need it renewed; starting a method for the first time is outside that visit."
+    },
+    {
+      "question": "Does TeleDirectMD prescribe controlled substances in New Jersey?",
+      "answer": "No. TeleDirectMD does not prescribe controlled substances in New Jersey or in any state. In New Jersey, those prescriptions are tracked through the New Jersey Prescription Monitoring Program (NJPMP), which covers Schedule II through V controlled dangerous substances, human growth hormone and gabapentin. Other prescriptions, when appropriate, are sent electronically to the pharmacy you choose."
+    }
+  ],
+  "conditionOverrides": {
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "New Jersey's tick season produces real numbers: the state Department of Health's vector-borne report counted 3,336 Lyme disease cases reported in New Jersey in 2026 by CDC week 27 (July 5 to 11), and it cautions that counts for the other tickborne infections may run well below the true totals. If you have already removed a tick, a video visit for adults physically in New Jersey reviews a photo of the tick or bite, how long it was attached and when it came off. When the high-risk criteria are met within 72 hours of removal, a single preventive dose of doxycycline may be appropriate. An expanding rash, fever or facial weakness needs in-person care. Flat $79."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "In a June 2024 health alert, the New Jersey Department of Health reported record highs of chlamydia, up 22 percent over the last 10 years. If you already have a positive test, a video visit for adults physically in New Jersey can confirm the result, prescribe treatment when appropriate and plan retesting. New Jersey's expedited partner therapy statute, N.J.S.A. 26:4-48.2, lets a health care professional give a patient diagnosed with an STD medication or prescriptions for a sex partner without examining that partner; whether it fits your situation is decided in the visit. TeleDirectMD does not perform STI testing, and pelvic pain with fever needs in-person care. Flat $79."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "On June 11, 2024, the New Jersey Department of Health issued a health alert supporting doxycycline post-exposure prophylaxis (doxy PEP) for bacterial STIs. It follows the CDC recommendation for gay, bisexual and other men who have sex with men and transgender women with a recent bacterial STI: a 200 mg dose self-administered within 72 hours after oral, vaginal or anal sex. A video visit for adults physically in New Jersey reviews whether you fit those criteria, side effects and the testing schedule that goes with it. Doxy PEP is prevention, not treatment, so active symptoms such as sores or discharge need testing first. Flat $79."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "The New Jersey Department of Health called the 2025-2026 flu season one that was shaping up to be very serious, with more cases than previous years, and noted that flu activity can last as late as May. It also stressed that antiviral medications work best when started early. For adults physically in New Jersey whose symptoms began within about 48 hours, a video visit can decide whether an antiviral is appropriate and send it to a nearby pharmacy. The Department's weekly Respiratory Illness Surveillance Report shows how much flu is circulating. Trouble breathing, chest pain or confusion needs emergency care. Flat $79."
+    },
+    "covid-19-treatment-online": {
+      "stateConditionParagraph": "The New Jersey Department of Health's Communicable Disease Service tracks COVID-19 alongside influenza and RSV in a weekly Respiratory Illness Surveillance Report, which is the state's own view of what is circulating. If you test positive and your symptoms started within the last five days, a video visit for adults physically in New Jersey can review your test, symptoms and full medication list, since some COVID-19 antivirals interact with common medicines, and send a prescription electronically to a New Jersey pharmacy when treatment is appropriate. Shortness of breath at rest, chest pain or bluish lips need emergency care, not a video visit. Flat $79."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "In New Jersey, cats account for the vast majority of domestic animal rabies cases, according to the state Department of Health, which tells anyone bitten to report the bite to the local health department. That department can order a biting animal observed for 10 days. For a superficial to moderate bite from a known domestic cat within the last 24 hours, a video visit for adults physically in New Jersey covers wound care, whether an antibiotic is appropriate and the rabies question. A bite from a stray or unknown cat, a swollen hand or finger, or spreading redness needs in-person care. Flat $79."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "After a dog bite in New Jersey, the state Department of Health says to report the bite to the local health department, which can order the biting dog observed for 10 days. Cats, not dogs, account for the vast majority of the state's domestic animal rabies cases, but the report still matters. A video visit for adults physically in New Jersey can look at a superficial to moderate wound from a known domestic dog on camera, review tetanus status and decide whether antibiotics are appropriate. Deep wounds exposing bone or tendon, facial wounds that may need repair, or a bite from a stray or wild animal need in-person care. Flat $79."
+    },
+    "birth-control-refills-online": {
+      "stateConditionParagraph": "New Jersey gives adults two routes for hormonal birth control. Under a Department of Health standing order revised December 16, 2025, pharmacists can furnish self-administered hormonal contraceptives without a patient-specific prescription after a health screening questionnaire, and 2024 rules allow an initial supply of up to three months with refills for up to nine more. TeleDirectMD's visit covers the other case: adults physically in New Jersey who already use a pill, patch or ring prescribed elsewhere and need it renewed. New migraines with aura, a new blood clot or pregnancy change the plan and need in-person care. Flat $79."
+    },
+    "hypertension-refills-online": {
+      "stateConditionParagraph": "High blood pressure is common in New Jersey: in the state's 2017 Behavioral Risk Factor Survey, 30.2 percent of adults had been told they have it. Running out of a blood pressure medicine is one way control slips. For adults physically in New Jersey with an established diagnosis and stable home readings, a video visit can review those readings and current medicines and renew the regimen when appropriate, sent electronically to the pharmacy you choose. A reading above 180/120, chest pain, sudden severe headache or vision changes needs emergency care. In New Jersey, UnitedHealthcare plans are in-network, or the visit is a flat $79."
+    }
+  },
+  "relatedLinks": [],
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "New Jersey P.L.2017, c.117, C.45:1-61 to 45:1-66 (telemedicine and telehealth)",
+        "renderAt": "hero-credential",
+        "content": "New Jersey law (C.45:1-62) requires telemedicine to be provided using interactive, real-time, two-way communication technologies and holds it to the same standard of care as in-person settings. TeleDirectMD delivers care to patients located in New Jersey by real-time video, through a physician licensed in New Jersey."
+      },
+      {
+        "statute": "N.J.S.A. C.45:1-63 (provider-patient relationship)",
+        "renderAt": "footer",
+        "content": "Before treating by telemedicine, a New Jersey provider must establish a proper provider-patient relationship, including identifying the patient by at least name, date of birth, phone number and address, and disclosing and validating the provider's identity and credentials, such as license and title. TeleDirectMD does not prescribe controlled substances."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

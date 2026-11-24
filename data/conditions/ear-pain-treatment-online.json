@@ -3,11 +3,11 @@
   "conditionShort": "ear pain",
   "conditionSlug": "ear-pain-treatment-online",
   "pageTitle": "Ear Pain Online Treatment in {state} | TeleDirectMD",
-  "metaDescription": "Evidence-based ear pain evaluation for {state} adults by secure video visit. Otitis externa and otitis media assessment, red-flag screening, topical eardrops when appropriate, and guideline-based treatment. Self pay option starting at $79. Insurance is not required.",
+  "metaDescription": "Evidence-based ear pain evaluation for {state} adults by secure video visit. Otitis externa and otitis media assessment, red-flag screening, topical eardrops when appropriate, and guideline-based treatment. Flat $79 self-pay option. Insurance is not required.",
   "ogImageAlt": "Ear pain treatment in {state} by TeleDirectMD",
   "hero": {
     "h1": "Ear Pain Treatment in {state} (Otitis Externa & Otitis Media)",
-    "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
+    "subtitle": "{state} adult care by secure video visit, flat $79 self-pay option, MD-only, insurance is not required.",
     "introParagraph": "Ear pain is one of the most common reasons adults seek medical care, yet approximately one-third of acute otitis externa cases are inappropriately treated with oral antibiotics instead of the recommended topical therapy. The AAO-HNS 2014 Clinical Practice Guideline for acute otitis externa clearly recommends topical antibiotic eardrops with or without a corticosteroid as first-line treatment, not systemic antibiotics. For acute otitis media in adults, the AAP watchful waiting approach may be appropriate for mild cases, while oral antibiotics such as amoxicillin are indicated when bacterial infection criteria are met. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including mastoid tenderness, facial nerve involvement, severe fever, and signs of necrotizing otitis externa before determining whether treatment by video visit is appropriate. If the history supports uncomplicated ear pain without red flags, guideline-based treatment including topical eardrops for suspected otitis externa or oral antibiotics for otitis media when indicated may be reasonable by video, while adults with complications are directed to ENT or emergency care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
       {
@@ -32,7 +32,7 @@
       }
     ],
     "benefits": [
-      "Self pay option starting at $79",
+      "Flat $79 self-pay option",
       "MD-only care (no mid-levels)",
       "Insurance is not required",
       "Licensed telehealth care for patients located in {state} at the time of the visit"
@@ -48,7 +48,7 @@
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to the ER now for severe ear pain with high fever and mastoid swelling, facial nerve paralysis or facial droop, signs of necrotizing otitis externa (especially in diabetics or immunocompromised patients), ear pain with confusion or severe headache, bloody or clear fluid draining from the ear, or sudden complete hearing loss. TeleDirectMD does not prescribe controlled substances."
     },
     "icd10Display": "H60.9, H66.9, H92.0, or H60.5 (final coding depends on clinical details)",
-    "quickAnswer": "Yes — adults (18+) in {state} with ear pain can be evaluated online. A board-certified MD reviews your symptoms by secure video and, per AAO-HNS 2014 guidance, prescribes topical antibiotic eardrops like ofloxacin as first-line for swimmer's ear (not oral antibiotics), or amoxicillin when acute otitis media criteria are met, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Severe pain with high fever and swelling behind the ear, or facial weakness, needs in-person or ER evaluation."
+    "quickAnswer": "Yes, adults (18+) in {state} with ear pain can be evaluated online. A board-certified MD reviews your symptoms by secure video and, per AAO-HNS 2014 guidance, prescribes topical antibiotic eardrops like ofloxacin as first-line for swimmer's ear (not oral antibiotics), or amoxicillin when acute otitis media criteria are met, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Severe pain with high fever and swelling behind the ear, or facial weakness, needs in-person or ER evaluation."
   },
   "eligibility": {
     "sectionTitle": "Ear Pain Telehealth Eligibility Checklist for {state}",
@@ -108,7 +108,7 @@
     "rows": [
       {
         "option": "TeleDirectMD",
-        "cost": "Self pay option starting at $79",
+        "cost": "Flat $79 self-pay option",
         "wait": "Same day, often within hours",
         "provider": "Board-certified MD only (no mid-levels)",
         "bestFor": "Uncomplicated ear pain without red flags, with guideline-based topical therapy for otitis externa and appropriate oral antibiotics for otitis media",
@@ -116,7 +116,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Moderate symptoms, uncertain diagnosis, or when otoscopic examination is needed to visualize the tympanic membrane",
@@ -124,7 +124,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Severe ear pain with high fever and mastoid swelling, facial nerve paralysis, suspected necrotizing otitis externa, ear pain with confusion, or sudden complete hearing loss",
@@ -132,7 +132,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $250+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "3 to 14 days typical",
         "provider": "Family medicine or internal medicine MD or DO",
         "bestFor": "Recurrent ear infections, chronic ear conditions, hearing loss evaluation, and prevention planning",
@@ -140,7 +140,7 @@
       },
       {
         "option": "ENT (Otolaryngology)",
-        "cost": "$150 to $400+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks (varies)",
         "provider": "ENT specialist MD or DO",
         "bestFor": "Chronic otitis media, cholesteatoma, tympanic membrane perforation, recurrent infections needing ear examination under microscopy, and surgical evaluation",
@@ -198,7 +198,7 @@
     "sectionTitle": "What Does Ear Pain Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "$79 flat visit · no insurance required · generic otic drops often $10–$25",
+    "priceSubtext": "$79 flat visit · no insurance required · prescriptions priced separately",
     "includes": [
       "MD evaluation and red-flag screening",
       "Assessment for otitis externa vs otitis media vs referred pain",
@@ -212,27 +212,9 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $250+",
-        "width": 45,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 55,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
-    "footnote": "Total cost is transparent: the $79 visit plus generic ofloxacin otic drops or amoxicillin (typically $10–$25 with a pharmacy coupon) means most patients pay about $89–$104 all-in — no membership, and topical therapy is preferred over oral antibiotics for swimmer's ear.",
+    "footnote": "Total cost is transparent: the visit is $79 flat, and any prescription is paid separately at the pharmacy, where prices vary by medication and pharmacy. No membership, and topical therapy is preferred over oral antibiotics for swimmer's ear.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -459,6 +441,12 @@
         "200 to 400 mg by mouth every 6 to 8 hours as needed",
         "As needed",
         "Over-the-counter anti-inflammatory pain reliever. Provides both pain relief and anti-inflammatory effect. Take with food."
+      ],
+      [
+        "Amoxicillin-clavulanate (Augmentin)",
+        "875/125 mg by mouth twice daily",
+        "5 to 10 days",
+        "Second-line for acute otitis media after amoxicillin failure, recent amoxicillin use, or when a beta-lactamase producer is likely. Take with food."
       ]
     ],
     "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, risk factors, allergies, and red flags. Topical eardrops are first-line for otitis externa per AAO-HNS guidelines. Oral antibiotics are reserved for otitis media or when infection extends beyond the ear canal. TeleDirectMD does not prescribe controlled substances."
@@ -470,9 +458,9 @@
       "items": [
         "Otitis externa typically improves within 48 to 72 hours of starting topical eardrops",
         "Otitis media symptoms often improve within 48 to 72 hours of starting oral antibiotics if prescribed",
-        "Keep the affected ear dry during treatment for otitis externa — use a cotton ball with petroleum jelly during showers",
+        "Keep the affected ear dry during treatment for otitis externa: use a cotton ball with petroleum jelly during showers",
         "Use over-the-counter pain relievers as appropriate for ear pain management",
-        "Apply eardrops as directed — warm the bottle in your hand first and lie with the affected ear up for several minutes after instilling drops"
+        "Apply eardrops as directed: warm the bottle in your hand first and lie with the affected ear up for several minutes after instilling drops"
       ]
     },
     "whatToWatch": {
@@ -543,7 +531,7 @@
       },
       {
         "question": "How much does online ear pain treatment cost in {state}?",
-        "answer": "TeleDirectMD offers a transparent self pay option starting at $79 for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy."
+        "answer": "TeleDirectMD offers a transparent flat $79 self-pay option for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy."
       },
       {
         "question": "What is the difference between swimmer's ear and a middle ear infection?",
@@ -579,7 +567,7 @@
       },
       {
         "question": "How much does online ear pain treatment cost without insurance in {state}?",
-        "answer": "The visit is $79 flat, no insurance required, and generic prescription eardrops or amoxicillin typically add $10 to $25 at the pharmacy, keeping most visits under $105 total."
+        "answer": "The visit is $79 flat, paid at booking, with no insurance required. Any prescription is paid separately at the pharmacy, and its price varies by medication and pharmacy, so ask the pharmacy for its price before you fill it."
       },
       {
         "question": "Why did my doctor prescribe eardrops instead of an oral antibiotic pill for my ear pain in {state}?",
@@ -613,8 +601,7 @@
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
       "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate ear pain symptoms, provide evidence-based guidance, and prescribe treatment when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
-      "TeleDirectMD is not an emergency service and is not a replacement for emergency care during suspected mastoiditis, necrotizing otitis externa, or intracranial complications. Telehealth cannot replace otoscopic examination for definitive ear diagnosis, and patients with uncertain or worsening symptoms should seek in-person evaluation. This service is intended for uncomplicated ear pain and is not a substitute for comprehensive ENT evaluation when chronic otitis, cholesteatoma, or complicated infection is suspected.",
-      "Online ear pain treatment in {state}. Otitis treatment online. Ear infection care by video visit."
+      "TeleDirectMD is not an emergency service and is not a replacement for emergency care during suspected mastoiditis, necrotizing otitis externa, or intracranial complications. Telehealth cannot replace otoscopic examination for definitive ear diagnosis, and patients with uncertain or worsening symptoms should seek in-person evaluation. This service is intended for uncomplicated ear pain and is not a substitute for comprehensive ENT evaluation when chronic otitis, cholesteatoma, or complicated infection is suspected."
     ]
   },
   "relatedConditions": [

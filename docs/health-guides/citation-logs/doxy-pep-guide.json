@@ -1,0 +1,732 @@
+{
+ "guide": "doxy-pep-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 6 verified, retractions: none (no editorial notices; one contrasting citation flagged for the 2021 STI Treatment Guidelines, not bearing on cited claims)",
+ "pubmed_article_types_checked": "2026-11-15; no Retracted Publication or Retraction Notice types on any PMID",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "Bachmann LH, Barbee LA, Chan P, et al. CDC Clinical Guidelines on the Use of Doxycycline Postexposure Prophylaxis for Bacterial Sexually Transmitted Infection Prevention, United States, 2024. MMWR Recomm Rep. 2024;73(2):1-8.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38833414/",
+   "pmid": "38833414",
+   "pmcid": "PMC11166373",
+   "doi": "10.15585/mmwr.rr7302a1",
+   "record_title": "CDC Clinical Guidelines on the Use of Doxycycline Postexposure Prophylaxis for Bacterial Sexually Transmitted Infection Prevention, United States, 2024.",
+   "record_journal": "MMWR Recomm Rep",
+   "record_year": "2024",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "MMWR Recomm Rep 2024;73(2):1-8, published 2024-06-06; current CDC doxy PEP guideline as of 2026-11-15 (no 2025-2026 CDC revision found)",
+   "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC11166373); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Primary source for the CDC recommendation. The S. aureus 5% to 13% figure is CDC's summary of 12-month DoxyPEP follow-up data that is not in the original NEJM report; the page attributes it to CDC. PMC full-text extraction drops italic organism names, so some quotes show a gap where the species name was.",
+   "claims": [
+    {
+     "text": "Dose: 200 mg (any formulation) as soon as possible within 72 hours after oral, vaginal, or anal sex; maximum 200 mg per 24 hours",
+     "quote": "the recommended dose of 200 mg of doxycycline (any formulation) to be taken as soon as possible within 72 hours after having oral, vaginal, or anal sex with a maximum dose of 200 mg every 24 hours.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Across three large randomized trials, more than 70% reduction in syphilis and chlamydia and about 50% in gonorrhea (key takeaway, evidence section, FAQ, citable summary, SVG chart)",
+     "quote": "In three large randomized controlled trials, 200 mg of doxycycline taken within 72 hours after sex has been shown to reduce syphilis and chlamydia infections by >70% and gonococcal infections by approximately 50%.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC recommends providers counsel MSM and transgender women with a bacterial STI (syphilis, chlamydia, or gonorrhea) in the past 12 months",
+     "quote": "Providers should counsel all gay, bisexual, and other men who have sex with men (MSM) and transgender women (TGW) with a history of at least one bacterial sexually transmitted infection (STI)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "...specifically syphilis, chlamydia, or gonorrhea, in the past 12 months",
+     "quote": "(specifically, syphilis, chlamydia or gonorrhea) during the past 12 months about the benefits and harms of using doxycycline",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "...and offer doxy PEP through shared decision-making",
+     "quote": "of oral, vaginal, or anal sex and should offer doxycycline postexposure prophylaxis (doxy PEP) through shared decision-making.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Strong recommendation backed by high-quality evidence",
+     "quote": "High-quality evidence supports this strong recommendation to counsel MSM and TGW and offer doxy PEP.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "The trials that showed benefit enrolled MSM and transgender women",
+     "quote": "three large randomized controlled trials among MSM and transgender women (TGW) studied STI PEP in the form of 200 mg of doxycycline taken after sex. These trials all demonstrated significant reductions in bacterial STI acquisition",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Providers may discuss doxy PEP with MSM and TGW without a recent bacterial STI who plan sex that raises exposure risk; not directly studied",
+     "quote": "Although not directly assessed in the trials included in these guidelines, doxy PEP could be discussed with MSM and TGW who have not had a bacterial STI diagnosed during the previous year but will be participating in sexual activities",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "No CDC recommendation for cisgender women, cisgender heterosexual men, transgender men, or other queer and nonbinary people (replaces \"not recommended for\")",
+     "quote": "No recommendation can be given at this time on the use of doxy PEP for cisgender women, cisgender heterosexual men, transgender men, and other queer and nonbinary persons.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Evidence insufficient to assess balance of benefits and harms in these groups",
+     "quote": "Evidence is insufficient to assess the balance of benefits and harms of the use of doxy PEP",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC asks providers to use clinical judgment and shared decision-making for people outside its recommendation",
+     "quote": "providers should use their clinical judgement and shared decision-making to inform use of doxy PEP with populations that are not part of CDC recommendations.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Kenyan women trial: gonorrhea not significantly reduced (CDC summary)",
+     "quote": "It found no significant reduction in bacterial STIs (RR: 0.88; 95% CI = 0.60–1.29), chlamydia (RR: 0.73; 95% CI = 0.47–1.13), or gonorrhea (RR: 1.64; 95% CI = 0.78–3.47)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Syphilis could not be evaluated because only two early syphilis infections occurred",
+     "quote": "Syphilis efficacy could not be evaluated because there were only two early syphilis infections during the study.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "DOXYVAC initial results: syphilis 79% lower, chlamydia 89% lower, gonorrhea 51% lower (table, labeled initial results)",
+     "quote": "Initial results demonstrated that doxy PEP was associated with significant reductions in gonorrhea (adjusted hazard ratio [aHR]: 0.49; 95% CI = 0.32–0.76), chlamydia (aHR: 0.11; 95% CI = 0.04–0.30), and syphilis (aHR: 0.21; 95% CI = 0.09–0.47)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "12-month DoxyPEP follow-up: tetracycline-resistant S. aureus in the nose rose from 5% to 13% in the doxy PEP arm; no change in the standard-of-care arm (body, key takeaway, figure, FAQ)",
+     "quote": "had an increase in tetracycline-resistant(from 5% [20 of 428] to 13% [28 of 222]). There was no change in carriage or resistance in the standard of care arm",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Doxy PEP targets bacterial STIs (syphilis, chlamydia, gonorrhea) and does not prevent HIV; people at risk of HIV need HIV PrEP alongside it",
+     "quote": "Doxy PEP, when offered, should be implemented in the context of a comprehensive sexual health approach, including risk reduction counseling, STI screening and treatment, recommended vaccination and linkage to HIV PrEP, HIV care, or other services as appropriate.",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "People living with HIV should be linked to HIV care",
+     "quote": "Confirm or encourage linkage to HIV care for persons living with HIV infection.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Doxy PEP offered as part of comprehensive sexual health care, alongside condoms, HIV PrEP, vaccination and testing",
+     "quote": "Doxy PEP, when offered, should be implemented in the context of a comprehensive sexual health approach, including risk reduction counseling, STI screening and treatment, recommended vaccination and linkage to HIV PrEP",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC lists hepatitis A, hepatitis B, HPV and mpox vaccines among services to consider",
+     "quote": "Screen for hepatitis B and C infection; vaccinate against hepatitis B if susceptible. Administer other vaccines as indicated (mpox, hepatitis A, and human papillomavirus).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Side effects CDC highlights: nausea, vomiting, diarrhea, esophageal irritation, sun sensitivity; most common in FAQ",
+     "quote": "known side effects such as photosensitivity, esophagitis and esophageal discomfort, gastrointestinal intolerance (nausea, vomiting, and diarrhea)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Doxycycline is generally well tolerated",
+     "quote": "Doxycycline, a broad-spectrum tetracycline antimicrobial, is well absorbed and tolerated",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most side effects resolve after stopping",
+     "quote": "Most adverse effects resolve with discontinuation of the medication.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most common side effects include GI symptoms, esophageal irritation and sun sensitivity (FAQ)",
+     "quote": "Adverse effects most associated with doxycycline include photosensitivity and gastrointestinal symptoms including esophageal erosion and ulceration",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Take on a full stomach with full glass of liquid; do not lie down for 1 hour to prevent esophagitis",
+     "quote": "taking doxycycline on a full stomach with a full glass of liquid and avoiding lying down for 1 hour after taking doxycycline to prevent esophagitis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Separate dose by at least 2 hours from dairy, antacids, and calcium, iron, magnesium or sodium bicarbonate supplements",
+     "quote": "separating the doxycycline dose by at least 2 hours from dairy products, antacids, and supplements that contain calcium, iron, magnesium, or sodium bicarbonate.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not take more than 200 mg in 24 hours; as soon as possible, no later than 72 hours (FAQ, dosing paragraph, misconceptions)",
+     "quote": "Patients should not take more than 200 mg of doxycycline per 24 hours; doses should be taken as soon after sex as possible, but no later than 72 hours.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Trials advised taking the dose ideally within 24 hours (FAQ, dosing table)",
+     "quote": "oral doxycycline hyclate 200 mg self-administered ideally within 24 hours but no later than 72 hours after condomless anal, oral, or vaginal sex",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ongoing need reassessed every 3 to 6 months; enough doses until next visit",
+     "quote": "The prescription should account for enough doses on the basis of the person’s anticipated sexual activity until their next visit. Ongoing need for doxy PEP should be assessed every 3–6 months.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "PEP means taking a medicine after a possible exposure to prevent infection; doxycycline used preventively for malaria and Lyme disease",
+     "quote": "Postexposure prophylaxis (PEP) involves taking a medication to prevent an infection after a possible exposure",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Doxycycline is already used preventively for malaria and Lyme disease",
+     "quote": "Doxycycline is used as PrEP or PEP to prevent infections such as malaria and Lyme disease",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "June 2024: CDC published its doxy PEP clinical guidelines (record date 2024-06-06)",
+     "quote": "This report outlines CDC’s recommendation for the use of doxycycline postexposure prophylaxis (doxy PEP), a novel, ongoing, patient-managed biomedical STI prevention strategy for a selected population.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Event-driven: taken after sex, not on a daily schedule (key takeaway, FAQ)",
+     "quote": "CDC recommends that providers offer persons in this group a prescription for doxy PEP to be self-administered within 72 hours after having oral, vaginal, or anal sex.",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Doxy PEP is prevention, not treatment; symptoms need testing and treatment (misconceptions)",
+     "quote": "Screen and treat as indicated for sexually transmitted infections (STIs)",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "STI and HIV testing every 3 to 6 months (citable summary, FAQ)",
+     "quote": "Persons who are prescribed doxy PEP should undergo bacterial STI testing at anatomic sites of exposure at baseline and every 3–6 months thereafter.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "journal",
+   "cited_as": "Luetkemeyer AF, Donnell D, Dombrowski JC, et al. Postexposure Doxycycline to Prevent Bacterial Sexually Transmitted Infections. N Engl J Med. 2023;388(14):1296-1306.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37018493/",
+   "pmid": "37018493",
+   "pmcid": "PMC10140182",
+   "doi": "10.1056/NEJMoa2211934",
+   "record_title": "Postexposure Doxycycline to Prevent Bacterial Sexually Transmitted Infections.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2023",
+   "article_type": "Randomized Controlled Trial; Journal Article",
+   "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC10140182); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Original report does not contain the 5% to 13% S. aureus figure (it reports doxycycline-resistant S. aureus in 16% vs 8% of colonized participants at month 12, 5% vs 4% overall); that figure is now attributed to CDC [1]. \"Only five participants stopped\" replaced with the paper's own \"2% discontinued\".",
+   "claims": [
+    {
+     "text": "Table: syphilis 87% lower, chlamydia 88% lower, gonorrhea 55% lower in the PrEP cohort (RR 0.13, 0.12, 0.45)",
+     "quote": "in the PrEP cohort, the relative risks were 0.45 (95% CI, 0.32 to 0.65) for gonorrhea, 0.12 (95% CI, 0.05 to 0.25) for chlamydia, and 0.13 (95% CI, 0.03 to 0.59) for syphilis",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "FAQ: cut chlamydia by 88 percent in people taking HIV PrEP",
+     "quote": "The effectiveness of doxy-PEP against chlamydia was 88% in the PrEP cohort and 74% in the PLWH cohort.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Population: MSM and transgender women, U.S. (San Francisco and Seattle)",
+     "quote": "The study was conducted at two HIV clinics and two sexual health clinics in San Francisco and Seattle.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "NNT 4.7 (PrEP cohort) and 5.3 (PLWH cohort) to prevent a quarter with an incident STI",
+     "quote": "The number needed to treat to prevent a quarter with an incident STI was 4.7 in the PrEP cohort and 5.3 in the PLWH cohort.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Participants counseled to take 200 mg ideally within 24 hours, no later than 72 hours after condomless sex",
+     "quote": "Participants were counseled to take 200 mg of doxycycline ideally within 24 hours but no later than 72 hours after any condomless anogenital, vaginal, or oral sex and to take no more than one dose every 24 hours.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "No serious adverse events attributed to doxycycline",
+     "quote": "Five grade 3 adverse events and no serious adverse events were attributed to doxycycline.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "2% of participants assigned to doxycycline stopped because of unacceptable adverse events or preference",
+     "quote": "Of participants assigned to the doxycycline groups, 2% discontinued because of unacceptable adverse events or patient preference.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tetracycline-resistant gonorrhea in 5 of 13 isolates with doxycycline vs 2 of 16 with standard care; few cultures available",
+     "quote": "Of the participants with gonorrhea culture available, tetracycline-resistant gonorrhea occurred in 5 of 13 in the doxycycline groups and 2 of 16 in the standard-care groups.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Few gonorrhea cultures available",
+     "quote": "the number of available gonorrhea cultures was low.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Timeline 2023: DoxyPEP found lower rates of gonorrhea, chlamydia, and syphilis",
+     "quote": "The incidences of the three evaluated STIs were lower with doxycycline than with standard care",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Trial allowed up to one dose a day",
+     "quote": "The DoxyPEP study permitted up to daily administration of doxycycline, with a median of 4 doses reported per month",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "Molina JM, Charreau I, Chidiac C, et al. Post-exposure prophylaxis with doxycycline to prevent sexually transmitted infections in men who have sex with men: an open-label randomised substudy of the ANRS IPERGAY trial. Lancet Infect Dis. 2018;18(3):308-317.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29229440/",
+   "pmid": "29229440",
+   "doi": "10.1016/S1473-3099(17)30725-9",
+   "record_title": "Post-exposure prophylaxis with doxycycline to prevent sexually transmitted infections in men who have sex with men: an open-label randomised substudy of the ANRS IPERGAY trial.",
+   "record_journal": "Lancet Infect Dis",
+   "record_year": "2018 (vol 18 issue 3; e-pub 2017-12-08)",
+   "article_type": "Randomized Controlled Trial; Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract only; no PMC full text); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract-only; claims limited to the abstract.",
+   "claims": [
+    {
+     "text": "Table: chlamydia 70% lower (HR 0.30), syphilis 73% lower (HR 0.27), no significant reduction in gonorrhea; timeline 2018: reduced first episodes of chlamydia and syphilis",
+     "quote": "Similar results were observed for the occurrence of a first episode of chlamydia (HR 0·30; 95% CI 0·13-0·70; p=0·006) and of syphilis (0·27; 0·07-0·98; p=0·047); for a first episode of gonorrhoea the results did not differ significantly",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Population: MSM on HIV PrEP, France; 200 mg dose after sex",
+     "quote": "men aged 18 years or older having condomless sex with men and using pre-exposure prophylaxis for HIV with tenofovir disoproxil fumarate plus emtricitabine",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Single 200 mg dose after sex",
+     "quote": "Participants were randomly assigned (1:1) at a central site to take a single oral dose of 200 mg doxycycline PEP within 24 h after sex or no prophylaxis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "GI side effects 53% vs 41%",
+     "quote": "Gastrointestinal adverse events were reported in 62 (53%) participants in the PEP group and 47 (41%) in the no-PEP group (p=0·05).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Molina JM, Bercot B, Assoumou L, et al. Doxycycline prophylaxis and meningococcal group B vaccine to prevent bacterial sexually transmitted infections in France (ANRS 174 DOXYVAC): a multicentre, open-label, randomised trial with a 2 x 2 factorial design. Lancet Infect Dis. 2024;24(10):1093-1104.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38797183/",
+   "pmid": "38797183",
+   "doi": "10.1016/S1473-3099(24)00236-6",
+   "record_title": "Doxycycline prophylaxis and meningococcal group B vaccine to prevent bacterial sexually transmitted infections in France (ANRS 174 DOXYVAC): a multicentre, open-label, randomised trial with a 2 × 2 factorial design.",
+   "record_journal": "Lancet Infect Dis",
+   "record_year": "2024",
+   "article_type": "Randomized Controlled Trial; Multicenter Study; Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract only; no PMC full text); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract reports only the combined chlamydia-or-syphilis endpoint for doxy PEP. The per-infection 79/89/51% figures in the table now cite CDC [1] and are labeled initial results.",
+   "claims": [
+    {
+     "text": "Trial label in table: MSM on HIV PrEP, France",
+     "quote": "Eligible participants were MSM aged 18 years or older, HIV negative, had a history of bacterial STIs within the 12 months before enrolment, and who were already included in the ANRS PREVENIR study",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Final report: 83% lower risk of a first chlamydia or syphilis infection (aHR 0.17; 1 minus 0.17)",
+     "quote": "(adjusted hazard ratio [aHR] 0·17 [95% CI 0·12-0·26]; p<0·0001)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dose taken as two 100 mg pills",
+     "quote": "two pills of 100 mg each orally within 72 h after condomless sex, with no more than three doses of 200 mg per week",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Stewart J, Oware K, Donnell D, et al. Doxycycline Prophylaxis to Prevent Sexually Transmitted Infections in Women. N Engl J Med. 2023;389(25):2331-2340.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38118022/",
+   "pmid": "38118022",
+   "pmcid": "PMC10805625",
+   "doi": "10.1056/NEJMoa2304007",
+   "record_title": "Doxycycline Prophylaxis to Prevent Sexually Transmitted Infections in Women.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2023",
+   "article_type": "Randomized Controlled Trial; Comparative Study; Journal Article",
+   "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC10805625); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "No longer cited for cisgender heterosexual men (the trial enrolled only women); that statement now cites CDC [1]. Gonorrhea and syphilis details now cite CDC [1].",
+   "claims": [
+    {
+     "text": "449 cisgender women in Kenya; no significant reduction in STIs overall (RR 0.88)",
+     "quote": "A total of 449 participants underwent randomization",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "RR 0.88, not significant",
+     "quote": "with no significant between-group difference in incidence (relative risk, 0.88; 95% confidence interval [CI], 0.60 to 1.29; P = 0.51)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Kenyan women aged 18 to 30 on HIV PrEP",
+     "quote": "among Kenyan women 18 to 30 years of age who were receiving preexposure prophylaxis against human immunodeficiency virus (HIV)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No significant reduction in chlamydia",
+     "quote": "chlamydia accounted for 85 (78.0%) (35 in the doxycycline-PEP group and 50 in the standard-care group; relative risk, 0.73; 95% CI, 0.47 to 1.13)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "One large trial in cisgender women found no significant benefit",
+     "quote": "Among cisgender women, the incidence of STIs was not significantly lower with doxycycline PEP than with standard care.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hair testing found doxycycline in only 29% of samples",
+     "quote": "Among 50 randomly selected participants in the doxycycline-PEP group, doxycycline was detected in 58 of 200 hair samples (29.0%).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Investigators point to low use as a primary explanation",
+     "quote": "Low detection of doxycycline among participants assigned to receive doxycycline PEP offers a primary explanation for the differing results between this trial and other studies of doxycycline PEP.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. Doxy PEP for Bacterial STI Prevention (for health care providers). Reviewed December 5, 2024.",
+   "url": "https://www.cdc.gov/sti/hcp/doxy-pep/index.html",
+   "version_or_date": "Published Aug 14, 2024; updated Aug 14, 2024; reviewed Dec 5, 2024; page metadata last published 2026-03-03. Carries a court-order notice that HHS must restore the page to its Jan 29, 2025 version and that content may be modified or removed.",
+   "retrieved_with": "Monid firecrawl /scrape of the official page (full markdown)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "People using doxy PEP should be tested for STIs and HIV every 3 to 6 months",
+     "quote": "Patients on doxy PEP should test for STI and HIV every 3 - 6 months as appropriate.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Offer HIV PrEP to those at risk",
+     "quote": "Discuss and facilitate access to HIV pre-exposure prophylaxis (PrEP) for those who are HIV negative, not on HIV PrEP, and at risk for HIV",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Take with at least 8 ounces of water and food to reduce nausea, upset stomach, and esophageal irritation",
+     "quote": "Take doxy PEP with at least 8 ounces of water and food. This can help reduce side effects like nausea, upset stomach, and esophageal irritation",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Wear sunscreen or cover up",
+     "quote": "Wear sunscreen or cover up to stay protected from the sun while taking doxycycline",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Separate from dairy, antacids and iron, calcium or magnesium supplements by two hours (FAQ)",
+     "quote": "Do not take doxycycline within two hours of having any dairy products, antacids and supplements with iron, calcium, or magnesium",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "2024 to 2026: CDC using existing data systems to monitor uptake, STI rates, prescribing, and resistance",
+     "quote": "CDC, along with federal partners and other research organizations, is leveraging existing data systems to monitor the uptake of doxy PEP and how this impacts bacterial STI rates, understand national doxycycline prescribing rates, and identify potential development of antimicrobial resistance.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC will update guidelines as new data become available",
+     "quote": "As additional data are available from CDC systems and any other research in the field, CDC will update the guidelines.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC will use multiple data systems to monitor for increases in antimicrobial resistance",
+     "quote": "CDC will continue to use multiple data systems to help monitor for any increases in antimicrobial resistance associated with doxy PEP implementation.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC focuses doxy PEP on groups where it has proven effective rather than offering it broadly",
+     "quote": "To help minimize the potential for antimicrobial resistance while maximizing benefits, CDC's guidelines focus on the specific groups for whom doxy PEP has been proven effective for STI prevention",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Providers discuss known and unknown risks; reassessment at follow-up",
+     "quote": "Providers should discuss the proven benefits of doxy PEP in reducing STIs, as well as the known and unknown risks of this strategy.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Reassess need at follow-up visits",
+     "quote": "During these visits, reassess whether there is an ongoing need for doxy PEP.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "To date, doxy PEP has proven effective only in MSM and transgender women",
+     "quote": "To date, doxy PEP has only proven effective among gay, bisexual, and other men who have sex with men and transgender women at increased risk for STIs",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "guideline",
+   "cited_as": "Workowski KA, Bachmann LH, Chan PA, et al. Sexually Transmitted Infections Treatment Guidelines, 2021. MMWR Recomm Rep. 2021;70(4):1-187.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34292926/",
+   "pmid": "34292926",
+   "pmcid": "PMC8344968",
+   "doi": "10.15585/mmwr.rr7004a1",
+   "record_title": "Sexually Transmitted Infections Treatment Guidelines, 2021.",
+   "record_journal": "MMWR Recomm Rep",
+   "record_year": "2021",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "MMWR Recomm Rep 2021;70(4):1-187, published 2021-07-23",
+   "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC8344968, full text searched); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite flagged one contrasting citation (10.1128/jcm.01171-20) about gonococcal loads and symptoms; it does not bear on the claims cited here. Now also cited for condoms and for doxycycline in pregnancy.",
+   "claims": [
+    {
+     "text": "STI symptoms: discharge and burning with urination need evaluation",
+     "quote": "Symptoms, if present, include dysuria, urethral pruritis, and mucoid, mucopurulent, or purulent discharge.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "STI symptoms: sores (genital, anal, perianal ulcers) need evaluation",
+     "quote": "Therefore, all persons who have genital, anal, or perianal ulcers should be evaluated.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "STI symptoms: rash (secondary syphilis)",
+     "quote": "Secondary syphilis manifestations can include skin rash, mucocutaneous lesions, and lymphadenopathy.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "STI symptoms: pelvic pain (PID) warrants treatment",
+     "quote": "Presumptive treatment for PID should be initiated for sexually active young women and other women at risk for STIs if they are experiencing pelvic or lower abdominal pain",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "If you have symptoms you need testing and treatment, not just a preventive dose (red flag, FAQ, misconceptions)",
+     "quote": "In the United States, the majority of young, sexually active patients who have genital, anal, or perianal ulcers have either genital herpes or syphilis.",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Condoms, used consistently and correctly, help prevent HIV",
+     "quote": "When used consistently and correctly, external latex condoms, also known as male condoms, are effective in preventing the sexual transmission of HIV infection",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Condoms lower the risk of other STIs",
+     "quote": "studies demonstrate that consistent condom use reduces the risk for other STIs, including chlamydia, gonorrhea, hepatitis B, and trichomoniasis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Doxycycline contraindicated in second and third trimesters",
+     "quote": "Doxycycline is contraindicated during the second and third trimesters of pregnancy because of risk for tooth discoloration.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "label",
+   "cited_as": "Alembic Pharmaceuticals Inc. Doxycycline Hyclate Tablets, USP: prescribing information (FDA-approved label, revised 08/2025). DailyMed, National Library of Medicine.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cff08863-7156-49d0-abbd-8f9274302886",
+   "version_or_date": "Label revised 08/2025; DailyMed set id cff08863-7156-49d0-abbd-8f9274302886, page shows updated August 22, 2026",
+   "retrieved_with": "DailyMed v2 SPL API (spls.json) to select a set id, then Monid firecrawl /scrape of the label page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces the DailyMed search-results URL, which linked no specific label.",
+   "claims": [
+    {
+     "text": "Doxycycline inhibits bacterial protein synthesis and is bacteriostatic",
+     "quote": "Doxycycline inhibits bacterial protein synthesis by binding the 30S ribosomal subunit. Doxycycline has bacteriostatic activity against a broad range of Gram-positive and Gram-negative bacteria.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Rare esophagitis and esophageal ulcers with tablets and capsules, mostly when taken right before bed",
+     "quote": "Rare instances of esophagitis and esophageal ulcerations have been reported in patients receiving capsule and tablet forms of the drugs in the tetracycline class. Most of these patients took medications immediately before going to bed.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Take enough fluid with each dose",
+     "quote": "Administration of adequate amounts of fluid along with capsule and tablet forms of drugs in the tetracycline class is recommended to wash down the drugs and reduce the risk of esophageal irritation and ulceration.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Photosensitivity shows up as exaggerated sunburn",
+     "quote": "Photosensitivity manifested by an exaggerated sunburn reaction has been observed in some individuals taking tetracyclines.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sunscreen or sunblock should be considered",
+     "quote": "to avoid excessive sunlight or artificial ultraviolet light while receiving doxycycline and  to discontinue therapy if phototoxicity (e.g., skin eruption, etc.) occurs. Sunscreen or sunblock should be considered.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Red flag: difficulty swallowing or chest pain can signal esophageal irritation (chest pain not named in label)",
+     "quote": "Gastrointestinal: anorexia, nausea, vomiting, diarrhea, glossitis, dysphagia, enterocolitis",
+     "quote_source": "label",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Red flag: severe sunburn can indicate photosensitivity reaction",
+     "quote": "treatment should be discontinued at the first evidence of skin erythema.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus, National Library of Medicine. Doxycycline: MedlinePlus Drug Information. Last revised May 15, 2026.",
+   "url": "https://medlineplus.gov/druginfo/meds/a682063.html",
+   "version_or_date": "Last Revised 05/15/2026",
+   "retrieved_with": "Monid firecrawl /scrape of the official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source added for red-flag and pregnancy statements.",
+   "claims": [
+    {
+     "text": "Doxycycline works by stopping bacteria from growing and spreading",
+     "quote": "Doxycycline is in a class of medications called tetracycline antibiotics. It works to treat infections by stopping bacteria from growing and spreading.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Doxycycline can harm a developing fetus",
+     "quote": "If you become pregnant while taking doxycycline, call your doctor immediately. Doxycycline can harm the fetus.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Red flag: difficulty swallowing needs prompt contact with a clinician",
+     "quote": "Some side effects can be serious. If you experience any of these symptoms, call your doctor immediately",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Difficulty swallowing listed as serious",
+     "quote": "difficulty breathing or swallowing; swelling of the eyes, face, throat, tongue, or lips; hives",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Red flag: severe or blistering sunburn",
+     "quote": "skin redness or purple color, peeling, itching, burning, or blistering skin",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus, National Library of Medicine. Anaphylaxis: MedlinePlus Medical Encyclopedia. Reviewed January 20, 2026.",
+   "url": "https://medlineplus.gov/ency/article/000844.htm",
+   "version_or_date": "Review Date 1/20/2026",
+   "retrieved_with": "Monid firecrawl /scrape of the official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source for the allergic-reaction red flag; emergency wording strengthened to match it.",
+   "claims": [
+    {
+     "text": "Allergic reaction with hives, facial swelling, or trouble breathing: call 911 or seek emergency care right away",
+     "quote": "Anaphylaxis is an emergency condition that needs medical attention right away. Call 911 or the local emergency number immediately.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptoms include hives, facial swelling, difficulty breathing",
+     "quote": "Swelling of the face, eyes, or tongue",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

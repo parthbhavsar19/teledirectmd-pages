@@ -14,6 +14,7 @@
  */
 
 import FaqAccordion from '../../components/FaqAccordion';
+import { VtNationalStyle } from '../../components/VtNationalChrome';
 import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock } from '../../components/CostCompareModules';
 
 const PAGE_URL = 'https://teledirectmd.com/vt/sinus-infection-treatment-online/';
@@ -29,7 +30,7 @@ const PHYSICIAN = {
   licenseState: 'Vermont',
   licenseNumber: '042.0040345-COMP',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 const FAQ_ITEMS = [
@@ -59,7 +60,7 @@ const FAQ_ITEMS = [
       'Longer than in most of the country. The northern New England respiratory-virus season runs roughly October through April, stretching at both ends compared with southern states. Bacterial sinusitis, when it occurs, tends to follow a viral upper-respiratory infection and clusters from December through March. Knowing the calendar helps the physician weigh whether your timeline fits a lingering viral course or has crossed into bacterial territory.',
     answer: (
       <p>
-        Longer than in most of the country. The northern New England respiratory-virus season runs roughly October through April, stretching at both ends compared with southern states, consistent with <a href="https://www.healthvermont.gov/disease-control/respiratory-illness" rel="noopener" target="_blank">Vermont Department of Health respiratory-illness surveillance</a>. Bacterial sinusitis, when it occurs, tends to follow a viral upper-respiratory infection and clusters from December through March. Knowing the calendar helps the physician weigh whether your timeline fits a lingering viral course or has crossed into bacterial territory.
+        Longer than in most of the country. The northern New England respiratory-virus season runs roughly October through April, stretching at both ends compared with southern states, consistent with <a href="https://www.healthvermont.gov/disease-control/respiratory-illnesses" rel="noopener" target="_blank">Vermont Department of Health respiratory-illness surveillance</a>. Bacterial sinusitis, when it occurs, tends to follow a viral upper-respiratory infection and clusters from December through March. Knowing the calendar helps the physician weigh whether your timeline fits a lingering viral course or has crossed into bacterial territory.
       </p>
     ),
   },
@@ -116,10 +117,10 @@ const FAQ_ITEMS = [
   {
     question: 'Does cash-pay sinus care cost less than insured options in Vermont?',
     answerPlain:
-      'Often, yes, especially for the uninsured or anyone on a high-deductible plan. The TeleDirectMD visit is a flat $79 with no insurance billing in Vermont. There is no claim, no copay surprise, and no facility fee. You pay the fee at booking; any antibiotic is filled separately at your pharmacy and may be covered by a pharmacy benefit.',
+      'Often, yes, especially for the uninsured or anyone on a high-deductible plan. The TeleDirectMD visit is a flat $79 with no insurance billing in Vermont. There is no claim, no copay, and no facility fee. You pay the fee at booking; any antibiotic is filled separately at your pharmacy and may be covered by a pharmacy benefit.',
     answer: (
       <p>
-        Often, yes, especially for the uninsured or anyone on a high-deductible plan. The TeleDirectMD visit is a flat $79 with no insurance billing in Vermont. There is no claim, no copay surprise, and no facility fee. You pay the fee at booking; any antibiotic is filled separately at your pharmacy and may be covered by a pharmacy benefit.
+        Often, yes, especially for the uninsured or anyone on a high-deductible plan. The TeleDirectMD visit is a flat $79 with no insurance billing in Vermont. There is no claim, no copay, and no facility fee. You pay the fee at booking; any antibiotic is filled separately at your pharmacy and may be covered by a pharmacy benefit.
       </p>
     ),
   },
@@ -150,7 +151,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -276,7 +277,8 @@ export default function VtSinusInfectionTreatmentOnline() {
 
       <style dangerouslySetInnerHTML={{ __html: PAGE_CSS }} />
 
-      <div className="tdmd-vt-cond">
+      <div className="tdmd-vt-cond tdmd-natl">
+        <VtNationalStyle />
         <nav className="tdmd-breadcrumbs" aria-label="Breadcrumb">
           <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: 0 }}>
             <a href="/">Home</a>
@@ -315,7 +317,7 @@ export default function VtSinusInfectionTreatmentOnline() {
                       Reviewed by <a href={PHYSICIAN.bioUrl}>{PHYSICIAN.name}</a> — Board-Certified {PHYSICIAN.specialty} (American Board of Family Medicine)
                     </span>
                     <span className="tdmd-vt-cond__byline-meta">
-                      NPI {PHYSICIAN.npi} · Vermont Medical License #{PHYSICIAN.licenseNumber} (<a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
+                      NPI {PHYSICIAN.npi} · Vermont Medical License #{PHYSICIAN.licenseNumber} (<a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
                       <time dateTime={DATE_MODIFIED}>{new Date(DATE_MODIFIED).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
                     </span>
                   </div>
@@ -340,9 +342,9 @@ export default function VtSinusInfectionTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
                   <a href="/vt/" className="tdmd-btn tdmd-btn-outline">Explore Vermont Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> J01.90 (acute sinusitis, unspecified); final coding depends on the exam</p>
@@ -407,7 +409,7 @@ export default function VtSinusInfectionTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Vermont&apos;s Sinus Calendar: A Longer Season With a Sugaring Twist</h2>
             <p>
-              Sinus infections are not evenly spread across the year, and in Vermont the curve has its own shape. The respiratory-virus season here runs roughly October through April &mdash; longer at both ends than in much of the country &mdash; which is the backdrop for most of the sinus complaints the practice sees. Bacterial sinusitis, when it does occur, almost always rides in on the back of a viral upper-respiratory infection and clusters from December through March, in line with <a href="https://www.healthvermont.gov/disease-control/respiratory-illness" rel="noopener" target="_blank">Vermont Department of Health respiratory-illness surveillance</a>.
+              Sinus infections are not evenly spread across the year, and in Vermont the curve has its own shape. The respiratory-virus season here runs roughly October through April &mdash; longer at both ends than in much of the country &mdash; which is the backdrop for most of the sinus complaints the practice sees. Bacterial sinusitis, when it does occur, almost always rides in on the back of a viral upper-respiratory infection and clusters from December through March, in line with <a href="https://www.healthvermont.gov/disease-control/respiratory-illnesses" rel="noopener" target="_blank">Vermont Department of Health respiratory-illness surveillance</a>.
             </p>
             <p>
               Then comes the part of the calendar unique to this state. Maple sugaring season opens in late February and runs into April, and through those weeks patients describe a reliable uptick in sinus pressure and congestion. The cause is rarely a fresh infection. Sap shacks and evaporators put woodsmoke and steam into the air around anyone tending a boil, and smoke is a well-recognized irritant to nasal and sinus tissue that is already inflamed from a winter cold. Layer on the dramatic day-to-night temperature swings of a Vermont mud-season afternoon &mdash; warm enough to run the sap, freezing again by dark &mdash; and mucus thickens while drainage stalls. The net effect feels like an infection but is frequently irritant inflammation tacked onto the tail of the virus season.
@@ -439,7 +441,7 @@ export default function VtSinusInfectionTreatmentOnline() {
 
             <h3>What standard does the treating physician owe you?</h3>
             <p>
-              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> sets a single standard of care across in-person and telehealth visits alike. A Vermont license is required to treat patients located in Vermont. Dr. Bhavsar holds Vermont Medical License #042.0040345-COMP from the Board. <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">Verify the license</a> · <a href="/about/">Dr. Bhavsar&apos;s bio</a>.
+              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> sets a single standard of care across in-person and telehealth visits alike. A Vermont license is required to treat patients located in Vermont. Dr. Bhavsar holds Vermont Medical License #042.0040345-COMP from the Board. <a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">Verify the license</a> · <a href="/about/">Dr. Bhavsar&apos;s bio</a>.
             </p>
 
             <h3>Are sinusitis antibiotics controlled in Vermont?</h3>
@@ -474,7 +476,7 @@ export default function VtSinusInfectionTreatmentOnline() {
                   <h3>Get the right plan</h3>
                   <p>Most patients leave with a symptom-relief plan and a clear return marker. When the course is bacterial, an antibiotic is e-prescribed to your Vermont pharmacy with dosing and escalation guidance.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -502,25 +504,6 @@ export default function VtSinusInfectionTreatmentOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical sinusitis cost comparison">
-                <h3>Typical Sinus Visit Cost in Vermont</h3>
-                <p className="tdmd-price-caption">Ranges Vermonters commonly see. Actual cost varies by setting and town.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 16, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical Vermont pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <div className="tdmd-cashpay-note">
@@ -559,7 +542,7 @@ export default function VtSinusInfectionTreatmentOnline() {
                   <tr className="tdmd-vt-cond__med-firstline">
                     <td><strong>Amoxicillin-clavulanate 875/125 mg</strong> · First-line</td>
                     <td>875/125 mg PO twice daily &times; 5–7 days</td>
-                    <td><a href="https://www.goodrx.com/amoxicillin-clavulanate" target="_blank" rel="noopener">~$15–$30 generic</a></td>
+                    <td><a href="https://www.goodrx.com/amoxicillin-potassium-clavulanate" target="_blank" rel="noopener">~$15–$30 generic</a></td>
                     <td>Preferred when broader coverage is warranted (e.g., recent antibiotics, higher-risk features).</td>
                   </tr>
                   <tr>
@@ -614,7 +597,7 @@ export default function VtSinusInfectionTreatmentOnline() {
                 <p>Winter cold turned into sinus pressure? See a Vermont MD today</p>
                 <small>Cash-pay $79 flat · No insurance billing in Vermont · Antibiotics only when needed</small>
               </div>
-              <a className="tdmd-vt-cond__cta-btn" href="/book-online" rel="noopener">Book Now &rarr;</a>
+              <a className="tdmd-vt-cond__cta-btn" href="/book-online/" rel="noopener">Book Now &rarr;</a>
             </div>
           </div>
         </section>
@@ -632,8 +615,8 @@ export default function VtSinusInfectionTreatmentOnline() {
                 <p>Book a same-day video visit. Cash-pay $79 flat. No insurance billing in Vermont.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -649,8 +632,8 @@ export default function VtSinusInfectionTreatmentOnline() {
                 <span className="tdmd-vt-cond__sibling-label">Sore Throat Treatment in VT</span>
                 <span className="tdmd-vt-cond__sibling-why">Postnasal drip and sinus infection often arrive with a sore throat.</span>
               </a>
-              <a className="tdmd-vt-cond__sibling" href="/vt/cough-treatment-online/">
-                <span className="tdmd-vt-cond__sibling-label">Cough Treatment in VT</span>
+              <a className="tdmd-vt-cond__sibling" href="/vt/common-cold-treatment-online/">
+                <span className="tdmd-vt-cond__sibling-label">Cold and Cough Treatment in VT</span>
                 <span className="tdmd-vt-cond__sibling-why">A lingering post-viral cough commonly tags along after a sinus course.</span>
               </a>
               <a className="tdmd-vt-cond__sibling" href="/vt/ear-pain-treatment-online/">
@@ -676,9 +659,9 @@ export default function VtSinusInfectionTreatmentOnline() {
               <a href="/sinus-infection-treatment-online/">National sinus infection page</a>
               <a href="/health-guides/">Health guides</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>
@@ -691,7 +674,7 @@ export default function VtSinusInfectionTreatmentOnline() {
               <li><a href="https://legislature.vermont.gov/statutes/fullchapter/18/219" rel="noopener" target="_blank">18 V.S.A. Chapter 219 (Vermont telemedicine statute)</a>. Retrieved June 2026.</li>
               <li><a href="https://legislature.vermont.gov/statutes/fullchapter/26/023" rel="noopener" target="_blank">26 V.S.A. Chapter 23 (Vermont Medical Practice Act)</a>. Retrieved June 2026.</li>
               <li><a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a>. Retrieved June 2026.</li>
-              <li><a href="https://www.healthvermont.gov/disease-control/respiratory-illness" rel="noopener" target="_blank">Vermont Department of Health — Respiratory Illness Surveillance</a>. Retrieved June 2026.</li>
+              <li><a href="https://www.healthvermont.gov/disease-control/respiratory-illnesses" rel="noopener" target="_blank">Vermont Department of Health — Respiratory Illnesses</a>. Retrieved June 2026.</li>
               <li><a href="https://www.cdc.gov/sinus-infection/about/index.html" rel="noopener" target="_blank">CDC — Sinus Infection (Sinusitis) Basics</a>. Retrieved June 2026.</li>
               <li><a href="https://www.cdc.gov/antibiotic-use/sinus-infection.html" rel="noopener" target="_blank">CDC — Antibiotic Use and Sinus Infections</a>. Retrieved June 2026.</li>
             </ol>

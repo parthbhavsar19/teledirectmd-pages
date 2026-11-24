@@ -1,0 +1,600 @@
+{
+  "guide": "visby-at-home-sti-pcr-test-review",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 2 verified (10.1093/ofid/ofae631.009, 10.3390/diagnostics15131604), retractions: none; no expressions of concern, no contrasting evidence flagged. PubMed article type for PMID 40647603: Journal Article (no retraction notice). Ref 2 has no PMID.",
+  "references": [
+    {
+      "n": 1,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. FDA Grants Marketing Authorization of First Home Test for Chlamydia, Gonorrhea and Trichomoniasis. Press announcement, March 28, 2025.",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-grants-marketing-authorization-first-home-test-chlamydia-gonorrhea-and-trichomoniasis",
+      "record_title": "FDA Grants Marketing Authorization of First Home Test for Chlamydia, Gonorrhea and Trichomoniasis",
+      "version_or_date": "March 28, 2025",
+      "retrieved_with": "WebFetch of official page (verbatim sentence checks)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The release does not describe the device as PCR; PCR/DNA statements now cite the De Novo decision summary [6].",
+      "claims": [
+        {
+          "text": "first test for chlamydia, gonorrhea and trichomoniasis that can be bought without a prescription and performed entirely at home (March 2025)",
+          "quote": "This is the first diagnostic test for chlamydia, gonorrhea and trichomoniasis that can be purchased without a prescription and performed entirely at home.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "97.2% chlamydia, 100% gonorrhea, 97.8% trichomoniasis positive samples; 98.8%, 99.1%, 98.5% negative samples, in people with and without symptoms",
+          "quote": "In individuals with and without symptoms, the Visby Medical Women's Sexual Health Test correctly identified 98.8% of negative and 97.2% of positive Chlamydia trachomatis samples ... 99.1% of negative and 100% of positive Neisseria gonorrhoeae samples",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "trichomoniasis figures 98.5% negative, 97.8% positive",
+          "quote": "98.5% of negative and 97.8% of positive Trichomonas vaginalis samples",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "results in about 30 minutes; device communicates with the app which displays results",
+          "quote": "The test is intended for females with or without symptoms and delivers results in approximately 30 minutes.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "device sends result to Visby Medical App which displays results when complete",
+          "quote": "a powered testing device, which communicates securely to the Visby Medical App, which displays results when the test is complete.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "positive result requires clinician follow-up",
+          "quote": "Individuals with positive results for any of the three infections should seek medical care.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "symptoms despite a negative result: see a clinician",
+          "quote": "Individuals with symptoms, recent exposure to an STI or other concerns despite a negative result should contact their health care provider for additional testing.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "De Novo pathway for low- to moderate-risk devices of a new type",
+          "quote": "The FDA reviewed this test under the FDA's De Novo premarket review pathway, a regulatory pathway for low- to moderate-risk devices of a new type.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "later devices of the same type may go through 510(k)",
+          "quote": "Today's Action also Opens the 510(k) Pathway for Other Home Tests for Sexually Transmitted Infections",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "main risks are false positive and false negative results",
+          "quote": "As with many other tests, the risks associated with this test are mainly the possibility of false positive and false negative test results.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "test found about 97 to 100 of every 100 infections and correctly cleared about 98 to 99 of every 100 samples without infection (plain rounding of 97.2-100% and 98.5-99.1%)",
+          "quote": "correctly identified 98.8% of negative and 97.2% of positive Chlamydia trachomatis samples ... 99.1% of negative and 100% of positive Neisseria gonorrhoeae samples",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FDA-reviewed performance figures are strong",
+          "quote": "98.5% of negative and 97.8% of positive Trichomonas vaginalis samples",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Prabhulkar S, Albrecht J, Trinh W, et al. 378. Visby Medical Women's Sexual Health Test: An Over-the-Counter Molecular Diagnostics Solution to STI Testing. Open Forum Infect Dis. 2025;12(Suppl 1):ofae631.009.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11776574/",
+      "pmcid": "PMC11776574",
+      "doi": "10.1093/ofid/ofae631.009",
+      "record_title": "378. Visby Medical Women's Sexual Health Test: An Over-the-Counter Molecular Diagnostics Solution to STI Testing",
+      "record_journal": "Open Forum Infectious Diseases (Volume 12, Issue Supplement_1)",
+      "record_year": "2025",
+      "article_type": "Abstract in journal supplement (no PMID); authors disclose Visby Medical employment and stock",
+      "retrieved_with": "PubMed get_full_text_article (PMC abstract), convert_article_ids; WebFetch of academic.oup.com record for author list and dates; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Online 29 January 2025. Previously presented as independent validation; it is manufacturer-authored and about an investigational-use-only version, so the page now says so. Full author list from OUP: Prabhulkar, Albrecht, Trinh, Owings, Nandy, Buccino, Mutwakil, Dentinger, Schoolnik, Lingenfelter.",
+      "claims": [
+        {
+          "text": "earlier investigational version, 2,203 female participants at 13 sites",
+          "quote": "Performance characteristics of an investigational use only (IUO) version of the test were evaluated using clinical and analytical studies. The clinical study was carried out at 13 geographically diverse sites. A total of 2203 female subjects",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "sensitivity at least 95.0% and specificity at least 98.0% for each organism",
+          "quote": "had a sensitivity of at least 95.0% and a specificity of at least 98.0% (see Table 1) for each of the three target organisms.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "authors concluded lay-user home performance equivalent to high complexity centralized lab assays",
+          "quote": "when used by lay users in an at-home setting was equivalent to the results from high complexity assays, conducted in centralized laboratories by trained laboratory professionals.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "authors work for the company; not independent validation",
+          "quote": "Visby Medical, Inc: Employee, Visby Medical: Employee, Visby Medical: Stocks/Bonds (Private Company)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "company-authored abstract reports similar results to FDA figures",
+          "quote": "had a sensitivity of at least 95.0% and a specificity of at least 98.0% (see Table 1) for each of the three target organisms.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "other_web",
+      "cited_as": "Visby Medical. Visby Engages Quest and Labcorp to Broaden Consumer Access to First At-Home, FDA-Authorized PCR Test for STIs. News release, January 8, 2026.",
+      "url": "https://visby.com/blogs/media/visby-engages-quest-and-labcorp-to-broaden-consumer-access-to-first-at-home-fda-authorized-pcr-test-for-stis",
+      "record_title": "Visby Engages Quest and Labcorp to Broaden Consumer Access to First At-Home, FDA-Authorized PCR Test for STIs",
+      "version_or_date": "Dateline Jan. 8, 2026; page header January 09, 2026",
+      "retrieved_with": "WebFetch of manufacturer page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "States no price and does not mention Optum Now; price now cites ref 7, Optum Now removed.",
+      "claims": [
+        {
+          "text": "available on questhealth.com since November 2025",
+          "quote": "Since November 2025, the Visby Women's Sexual Health Test has been available for purchase on questhealth.com.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "available via Labcorp OnDemand as of January 2026",
+          "quote": "The test is also now available via Labcorp OnDemand.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "guideline",
+      "cited_as": "CDC. Chlamydial Infections. Sexually Transmitted Infections Treatment Guidelines, 2021.",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+      "record_title": "Chlamydial Infections",
+      "version_or_date": "STI Treatment Guidelines, 2021; Last Reviewed July 22, 2021",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Replaces the guideline index URL, which held none of the cited statements.",
+      "claims": [
+        {
+          "text": "chlamydia is the most frequently reported bacterial infectious disease in the US",
+          "quote": "Chlamydial infection is the most frequently reported bacterial infectious disease in the United States",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "asymptomatic infection is common",
+          "quote": "Asymptomatic infection is common among both men and women.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "annual screening for all sexually active women under 25",
+          "quote": "Annual screening of all sexually active women aged <25 years is recommended",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "chlamydia treated with oral doxycycline 100 mg twice daily for 7 days",
+          "quote": "Doxycycline 100 mg orally 2 times/day for 7 days",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "CDC recommends a specific drug and dose for each infection",
+          "quote": "Doxycycline 100 mg orally 2 times/day for 7 days",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "partners from the 60 days before symptoms or diagnosis referred for evaluation, testing and treatment",
+          "quote": "Sex partners should be referred for evaluation, testing, and presumptive treatment if they had sexual contact with the partner during the 60 days preceding the patient's onset of symptoms",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "pregnancy needs in-person clinician care (different regimen and test of cure); 'trying to conceive' not stated",
+          "quote": "Doxycycline is contraindicated during the second and third trimesters of pregnancy",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "chlamydia treated with doxycycline (citable summary)",
+          "quote": "Doxycycline 100 mg orally 2 times/day for 7 days",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Reddy K, Hao J, Sigcu N, et al. Validation of Rapid Point-of-Care Diagnostic Tests for Sexually Transmitted Infection Self-Testing Among Adolescent Girls and Young Women. Diagnostics (Basel). 2025;15(13):1604.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12249441/",
+      "pmid": "40647603",
+      "pmcid": "PMC12249441",
+      "doi": "10.3390/diagnostics15131604",
+      "record_title": "Validation of Rapid Point-of-Care Diagnostic Tests for Sexually Transmitted Infection Self-Testing Among Adolescent Girls and Young Women.",
+      "record_journal": "Diagnostics (Basel)",
+      "record_year": "2025",
+      "article_type": "Journal Article (cross-sectional validation plus small longitudinal pilot)",
+      "retrieved_with": "PubMed get_article_metadata, get_full_text_article (PMC full text); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Was printed as 'PROVE study investigators' with a paraphrased title. The study used an earlier CLIA-waived Visby Sexual Health Test, not the OTC Women's test; 78.8% is chlamydia only; the 100% positive accuracy is from the separate 28-person PALESA study. The discussion also mentions 'the few false positive results observed' in PALESA, which sits uneasily with the reported 100%; the page reports only what the authors state and notes negatives were not checked.",
+      "claims": [
+        {
+          "text": "earlier CLIA-waived version tested among AGYW in Johannesburg",
+          "quote": "We later added one fully integrated, automated PCR in vitro diagnostic test that had recently been granted a Clinical Laboratory Improvement Amendments of 1988 (CLIA) waiver",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Women's test is a newer version of the device",
+          "quote": "Recently, a new version of the Visby Medical Sexual Health test, the Visby Medical Women's Sexual Health Test, received FDA approval as an over-the-counter test",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "146 participants contributed 558 paired samples",
+          "quote": "In PROVE, 146 AGYW contributed 558 paired samples.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "self-collected swabs run by trained laboratory staff, compared with nurse-collected GeneXpert/OSOM",
+          "quote": "stored at 2–8 °C until testing by trained laboratory staff using the identified diagnostic kits",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "nurse-collected reference results",
+          "quote": "Paired GeneXpertNG/CT (Cepheid, Sunnyvale, CA, USA) and OSOMTrichomonas test (Sekisui Diagnostics, Burlington, MA, USA) results from nurse-collected samples served as reference results",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "chlamydia sensitivity 78.8%, specificity 80.0%; other rapid tests 0 to 9.7%",
+          "quote": "the Visby Medical Sexual Health Test exhibited the highest sensitivity at 78.8% along with 80.0% specificity, 87.5% PPV, and 66.7% NPV. For the remaining three tests, sensitivity varied from 0 to 9.7%",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "gonorrhea 100%",
+          "quote": "The Visby Medical Sexual Health Test exhibited 100% sensitivity, specificity, PPV, and NPV.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "trichomoniasis sensitivity 66.7%, specificity 90.9%",
+          "quote": "The Visby Medical Sexual Health Test exhibited 66.7% sensitivity, 90.9% specificity, 66.7% positive predictive value, 90.9% negative predictive value",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "separate home self-testing study of 28 participants aged 16-18 reported 100% accuracy for positives",
+          "quote": "In the longitudinal study, 28 AGYW contributed 84 paired samples, and the Visby Medical Sexual Health Test demonstrated 100% accuracy of positive results for CT, NG, and TV.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "that design could not check negative results",
+          "quote": "We were unable to calculate specificity and predictive values within the PALESA longitudinal study due to our study design, which did not incorporate confirmation of negative test results.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "small independent study of an earlier version found lower accuracy for chlamydia and trichomoniasis",
+          "quote": "the Visby Medical Sexual Health Test exhibited the highest sensitivity at 78.8% along with 80.0% specificity",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "label",
+      "cited_as": "U.S. FDA. De Novo Classification Request DEN240020: Visby Medical Women's Sexual Health Test (decision summary).",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN240020.pdf",
+      "record_title": "DEN240020 Visby Medical Women's Sexual Health Test",
+      "version_or_date": "De Novo decision summary, regulation 21 CFR 866.3386 (no decision date printed in retrieved text)",
+      "retrieved_with": "WebFetch of official PDF",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Renumbered from 7 to 6.",
+      "claims": [
+        {
+          "text": "single-use, automated, compact PCR device detecting DNA of CT, NG, TV",
+          "quote": "is a single-use (disposable), automated, rapid, compact device containing a PCR-based assay for the direct qualitative detection and differentiation of DNA",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "detects DNA of the three organisms in self-collected vaginal swabs",
+          "quote": "in vitro diagnostic self-test for the rapid detection and differentiation of DNA from Chlamydia trachomatis, Neisseria gonorrhoeae, and Trichomonas vaginalis in self-collected vaginal swab specimens.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "results available in less than 30 minutes",
+          "quote": "Test results are available in less than 30 minutes.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "app runs on user smartphone",
+          "quote": "The Visby Medical Application runs on a user-provided smartphone.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "male urine gave invalid results; men need a different test",
+          "quote": "Invalid results were observed with male urine.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "new Class II classification",
+          "quote": "Regulation: 21 CFR 866.3386 Class: II",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "2,293 prospectively enrolled lay users; 1,943 to 1,945 evaluable",
+          "quote": "The study consisted of 2293 prospectively enrolled lay users from March 2023 to April 2024.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "evaluable numbers",
+          "quote": "For CT, two additional specimens were excluded that did not have comparator result, leaving 1943 evaluable subjects.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "positive CT/NG reference required at least two positive FDA-cleared NAATs",
+          "quote": "For CT and NG, the positive comparator result was determined by at least two positive results from FDA-cleared NAATs.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "home test is not a substitute for clinical evaluation",
+          "quote": "This test is not a substitute for visits to a healthcare provider.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "other_web",
+      "cited_as": "Visby Medical. Visby Women's At-Home STI Test Kit product page. As shown November 15, 2026.",
+      "url": "https://visby.com/products/visby-womens-at-home-sti-test-kit",
+      "record_title": "Visby Women's At-Home STI Test Kit",
+      "version_or_date": "Read November 15, 2026",
+      "retrieved_with": "WebFetch of manufacturer product page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source. Page shows '$179.99 $149.99' with banner 'SAVE $30 TODAY | LIMITED TIME ONLY'. Price must be re-checked at every refresh.",
+      "claims": [
+        {
+          "text": "as of Nov 15, 2026 listed $179.99, shown $149.99 with limited-time $30 discount",
+          "quote": "$179.99 $149.99 ... SAVE $30 TODAY | LIMITED TIME ONLY",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "results in about 30 minutes without mailing a sample to a lab",
+          "quote": "Results in about 30 minutes—no labs, no mailing, no one else involved.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "sold directly by Visby (visby.com)",
+          "quote": "Visby Women's At-Home STI Test Kit ... $179.99 $149.99",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "same-day telehealth from third-party licensed provider included if positive",
+          "quote": "Same-day telehealth included if you test positive, provided by a third-party licensed provider.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "medication cost not included",
+          "quote": "Appropriate treatment options are at the provider's discretion - medication cost not included.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "guideline",
+      "cited_as": "CDC. Gonococcal Infections Among Adolescents and Adults. Sexually Transmitted Infections Treatment Guidelines, 2021.",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm",
+      "record_title": "Gonococcal Infections Among Adolescents and Adults",
+      "version_or_date": "STI Treatment Guidelines, 2021; Last Reviewed September 21, 2022",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source (claims previously cited the guideline index page).",
+      "claims": [
+        {
+          "text": "first-line gonorrhea treatment ceftriaxone 500 mg IM single dose; 1 g if 150 kg or more; injection given in person",
+          "quote": "Ceftriaxone 500 mg* IM in a single dose for persons weighing <150 kg ... * For persons weighing ≥150 kg, 1 g ceftriaxone should be administered.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "oral cefixime 800 mg alternative only if ceftriaxone not available or feasible",
+          "quote": "If ceftriaxone administration is not available or not feasible: Cefixime 800 mg orally in a single dose",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "gonorrhea partners from previous 60 days referred",
+          "quote": "Recent sex partners (i.e., persons having sexual contact with the infected patient <60 days preceding onset of symptoms or gonorrhea diagnosis) should be referred for evaluation, testing, and presumptive treatment.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "CDC specific drug and dose for gonorrhea",
+          "quote": "Ceftriaxone 500 mg* IM in a single dose for persons weighing <150 kg",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "in-person care required for first-line gonorrhea treatment (IM injection)",
+          "quote": "Ceftriaxone 500 mg* IM in a single dose for persons weighing <150 kg",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "guideline",
+      "cited_as": "CDC. Trichomoniasis. Sexually Transmitted Infections Treatment Guidelines, 2021.",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/trichomoniasis.htm",
+      "record_title": "Trichomoniasis",
+      "version_or_date": "STI Treatment Guidelines, 2021; Last Reviewed September 21, 2022",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "trichomoniasis affects an estimated 2.6 million people in the US",
+          "quote": "affecting approximately 2.6 million persons in the United States",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "trichomoniasis treated with oral metronidazole",
+          "quote": "Metronidazole 500 mg 2 times/day for 7 days",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "CDC specific drug and dose for trichomoniasis",
+          "quote": "Metronidazole 500 mg 2 times/day for 7 days",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "dataset",
+      "cited_as": "CDC. Sexually Transmitted Infections Surveillance, 2024 (Provisional). September 24, 2025.",
+      "url": "https://www.cdc.gov/sti-statistics/annual/index.html",
+      "record_title": "Sexually Transmitted Infections Surveillance, 2024 (Provisional)",
+      "version_or_date": "Page dated Sept. 24, 2025; data provisional as of August 14, 2025",
+      "retrieved_with": "WebFetch of official page (Trends in Reported Cases table)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Replaces the unsupported 'roughly 1.6 million annual cases' figure.",
+      "claims": [
+        {
+          "text": "1,515,985 reported chlamydia cases in 2024 (provisional)",
+          "quote": "Chlamydia | Total | 1,579,885 | 1,644,416 | 1,649,716 | 1,648,568 | 1,515,985",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "guideline",
+      "cited_as": "CDC. Pelvic Inflammatory Disease (PID). Sexually Transmitted Infections Treatment Guidelines, 2021.",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/pid.htm",
+      "record_title": "Pelvic Inflammatory Disease (PID)",
+      "version_or_date": "STI Treatment Guidelines, 2021; Last Reviewed September 21, 2022",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source for red flags (in-person care for fever, severe pelvic pain, pregnancy).",
+      "claims": [
+        {
+          "text": "pelvic pain can suggest PID",
+          "quote": "Presumptive treatment for PID should be initiated for sexually active young women and other women at risk for STIs if they are experiencing pelvic or lower abdominal pain",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "fever or severe illness with possible PID needs in-person care",
+          "quote": "Severe illness, nausea and vomiting, or oral temperature >38.5°C (101°F)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "pregnancy warrants in-person care",
+          "quote": "Pregnancy",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "guideline",
+      "cited_as": "CDC. Sexual Assault and Abuse and STIs: Adolescents and Adults. Sexually Transmitted Infections Treatment Guidelines, 2021.",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/sexual-assault-adults.htm",
+      "record_title": "Sexual Assault and Abuse and STIs – Adolescents and Adults",
+      "version_or_date": "STI Treatment Guidelines, 2021; Last Reviewed July 22, 2021",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Supports the PEP timing added to the assault red flag. The care settings (urgent care, ED, specialized clinic) are kept from the original wording; this page does not list settings.",
+      "claims": [
+        {
+          "text": "HIV PEP, if offered, works best started as soon as possible and within 72 hours",
+          "quote": "If PEP is offered, the following information should be discussed with the survivor: the necessity of early initiation of PEP to optimize potential benefits ... (i.e., as soon as possible after and <72 hours after the assault)",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "agency_page",
+      "cited_as": "U.S. FDA. OraQuick HIV Self-Test. Premarket approval information.",
+      "url": "https://www.fda.gov/vaccines-blood-biologics/premarket-approvals-pmas/oraquick-home-hiv-test",
+      "record_title": "OraQuick HIV Self-Test",
+      "version_or_date": "Page lists approval orders dated December 16, 2024 and September 15, 2026",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source used to correct the false statement that HIV tests require a blood sample.",
+      "claims": [
+        {
+          "text": "FDA-approved OraQuick HIV Self-Test uses an oral fluid sample (OTC)",
+          "quote": "to Human Immunodeficiency Virus Type 1 (HIV-1) and Type 2 (HIV-2) in oral fluid specimens ... is intended for over-the-counter use",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

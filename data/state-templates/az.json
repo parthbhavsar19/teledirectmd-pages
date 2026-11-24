@@ -1,0 +1,310 @@
+{
+  "stateCode": "AZ",
+  "stateName": "Arizona",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "mid",
+    "regulation": "standard",
+    "payerLandscape": "multi-payer",
+    "epidemiology": [
+      "valley-fever-endemic",
+      "rmsf-localized",
+      "rabies-wildlife",
+      "sti-high"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "west",
+    "voiceNotes": "Matter-of-fact desert West voice. Arizona's distinctive facts are environmental (Valley fever, skunk and bat rabies, rare Lyme) and the insurance picture is broad, so lead with what is different here rather than with law. Inferred values: density and regulation are judgment calls."
+  },
+  "stateHero": {
+    "openingParagraph": "Arizona law counts a live video call as telehealth and lets the physician examine you during it, so many everyday problems can be handled without a trip across the Valley. Adults 18 and older who are physically in Arizona, in Phoenix, Tucson, Flagstaff, Yuma or anywhere between, can see Parth Bhavsar, MD, a board-certified family medicine physician licensed in Arizona. TeleDirectMD is in-network with Aetna, UnitedHealthcare, Blue Cross Blue Shield of Arizona and Curative here, and anyone can choose the flat $79 self-pay price instead, paid at booking, with HSA and FSA cards accepted. You give informed consent before the visit, as Arizona requires.",
+    "conditionPageOpener": "Adults physically in Arizona can see Parth Bhavsar, MD, an Arizona-licensed physician, by video. In-network with Aetna, UnitedHealthcare, BCBS of Arizona and Curative, or a flat $79 self-pay. Prescriptions, when appropriate, go electronically to your pharmacy.",
+    "stateContextHint": "Arizona-licensed physician. Video visits for adults located in Arizona; in-network with four insurers, or a flat $79 self-pay paid at booking.",
+    "saturation": {
+      "stateNameMentions": 5,
+      "stateEntityMentions": 6
+    }
+  },
+  "stateEligibility": {
+    "intro": "Arizona Revised Statutes 36-3601 defines telehealth as the interactive use of audio, video or other electronic media for assessment, diagnosis, consultation or treatment, and it leaves out fax, instant messages, voicemail and email. TeleDirectMD visits are live video for adults 18 and older who are in Arizona during the call. Under A.R.S. 36-3602, you give verbal or written informed consent before care starts, and verbal consent is written into your record.",
+    "localTriggers": [
+      "Be in Arizona at the time of the visit. A snowbird or student is seen here while physically in the state; at home in another state, that state's rules apply.",
+      "Arizona does not let licensing boards require an in-person exam before most prescriptions, but TeleDirectMD still prescribes only when a video visit is enough to decide.",
+      "Controlled substances are not prescribed by TeleDirectMD in Arizona or elsewhere.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "Four insurers are in-network for TeleDirectMD in Arizona: Aetna and UnitedHealthcare plans (PPO, HMO, EPO, POS and Medicare Advantage), Blue Cross Blue Shield of Arizona commercial plans (not its Medicare Advantage) and Curative commercial plans are in-network. If you would rather not use insurance, or have a different plan, the visit is a flat $79 self-pay, paid at booking, and HSA and FSA cards work. Arizonans who buy their own coverage use HealthCare.gov, and AHCCCS, the Arizona Health Care Cost Containment System, is the state's Medicaid agency; TeleDirectMD does not take AHCCCS plans.",
+    "additionalNotes": [
+      "$79 flat self-pay option, paid at booking.",
+      "HSA and FSA cards accepted.",
+      "In-network in Arizona: Aetna, UnitedHealthcare, Blue Cross Blue Shield of Arizona, Curative."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "Under A.R.S. 36-3602, an Arizona licensing board cannot require an in-person exam before most prescriptions, and the statute says a physical or mental health status exam may be done during a telehealth encounter. Schedule II drugs are the exception, and since January 1, 2020 Arizona has required schedule II opioid prescriptions to go to the pharmacy electronically; the Arizona State Board of Pharmacy runs the Controlled Substances Prescription Monitoring Program that tracks them. None of that applies to TeleDirectMD, which does not prescribe controlled substances. When a prescription is appropriate after your visit, it is sent electronically to the Arizona pharmacy you choose.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "Arizona's disease picture differs from the rest of the country in ways that matter for a visit. Valley fever, a fungal infection from soil spores, was reported in 14,763 Arizonans in 2024, a rate of 193.7 per 100,000 by the state health department's count, with 10,697 cases in Maricopa County. Lyme disease is uncommon (12 cases statewide in 2024), while Rocky Mountain spotted fever is concentrated in Gila and Navajo counties. Rabies here lives in wildlife: of 118 rabid animals the state confirmed for 2025, skunks, bats and foxes made up most, and none were cats or dogs. This context is for awareness and does not replace an individual evaluation.",
+    "citations": [
+      {
+        "label": "A.R.S. 36-3601, Definitions (telehealth)",
+        "url": "https://www.azleg.gov/ars/36/03601.htm",
+        "scope": "all"
+      },
+      {
+        "label": "A.R.S. 36-3602, Delivery of health care through telehealth; requirements; exceptions",
+        "url": "https://www.azleg.gov/ars/36/03602.htm",
+        "scope": "all"
+      },
+      {
+        "label": "Arizona State Board of Pharmacy CSPMP, 2018 Arizona Opioid Epidemic Act",
+        "url": "https://pharmacypmp.az.gov/2018-arizona-opioid-epidemic-act",
+        "scope": "all"
+      },
+      {
+        "label": "CMS, States by Marketplace Type for Plan Year 2027",
+        "url": "https://www.cms.gov/marketplace/in-person-assisters/training-webinars/training/marketplaces-map",
+        "scope": "all"
+      },
+      {
+        "label": "AHCCCS, Arizona Health Care Cost Containment System",
+        "url": "https://www.azahcccs.gov/",
+        "scope": "all"
+      },
+      {
+        "label": "U.S. Census Bureau, Vintage 2025 state population estimates (NST-EST2025-ALLDATA)",
+        "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv",
+        "scope": "hub"
+      },
+      {
+        "label": "A.R.S. 32-1979.01, Self-administered hormonal contraceptives",
+        "url": "https://www.azleg.gov/ars/32/01979-01.htm",
+        "conditions": [
+          "birth-control-refills-online"
+        ]
+      },
+      {
+        "label": "ADHS, Valley Fever 2024 Annual Report",
+        "url": "https://www.azdhs.gov/documents/preparedness/epidemiology-disease-control/valley-fever/reports/valley-fever-2024.pdf",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "ADHS Director's Blog, Valley Fever Awareness Week, November 13, 2025",
+        "url": "https://directorsblog.health.azdhs.gov/stay-aware-stay-healthy-valley-fever-awareness-week-nov-8-16/",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "ADHS, Respiratory Virus Summary, Week 7, 2024 to 2025 season",
+        "url": "https://www.azdhs.gov/documents/preparedness/epidemiology-disease-control/flu/surveillance/2024-2025/influenza-rsv-2024-25-week07.pdf",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "ADHS, Confirmed and Probable Cases 2024, selected morbidities (final data)",
+        "url": "https://www.azdhs.gov/documents/preparedness/epidemiology-disease-control/disease-data-statistics-reports/data-statistics-archive/2024/weekly.pdf?v=20250225",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "ADHS, Arizona Health Status 2023, Table 3B-3 (gonorrhea, chlamydia, early syphilis)",
+        "url": "https://pub.azdhs.gov/health-stats/report/ahs/ahs2023/pdf/3b3.pdf",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "ADHS, Expedited Partner Therapy Fact Sheet for Medical Providers",
+        "url": "https://www.azdhs.gov/documents/preparedness/epidemiology-disease-control/disease-integrated-services/std-control/ept-factsheet-physicians.pdf",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "ADHS, 2025 Rabies in Arizona",
+        "url": "https://www.azdhs.gov/documents/preparedness/epidemiology-disease-control/rabies/data/2025.pdf?v=20250305",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "ADHS, Manual for Rabies Control and Animal Bite Management 2026",
+        "url": "https://www.azdhs.gov/documents/preparedness/epidemiology-disease-control/rabies/az-rabies-manual.pdf",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "ADHS Director's Blog, Great American Smokeout (ASHLine), November 17, 2022",
+        "url": "https://directorsblog.health.azdhs.gov/great-american-smokeout-ending-dependence-takes-time-planning-and-patience/",
+        "conditions": [
+          "smoking-cessation-treatment-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds an Arizona medical license issued by the Arizona Medical Board. The board's public license verification search shows the license record. Arizona's telehealth statute, A.R.S. 36-3602, requires informed consent before telehealth care and keeps a patient's existing confidentiality protections in place. NPI: 1104323203.",
+    "verifyUrl": "https://azbomprod.azmd.gov/glsuiteweb/clients/azbom/public/webverificationsearch.aspx",
+    "statuteCitation": "A.R.S. 36-3601 and 36-3602 (telehealth)",
+    "licenseNumber": "66608",
+    "boardName": "Arizona Medical Board",
+    "boardUrl": "https://www.azmd.gov/"
+  },
+  "stateCities": {
+    "metroAndRural": "Arizona had 7,623,818 residents on July 1, 2025, by the Census Bureau's estimate. TeleDirectMD sees adults anywhere in the state: across the Phoenix area in Phoenix, Mesa, Chandler, Scottsdale, Glendale, Gilbert, Tempe, Peoria, Surprise and Goodyear; in Tucson to the south; in Flagstaff up on the plateau; and in Yuma near the California line. The same physician and the same choices of insurance or $79 self-pay apply in each.",
+    "cityList": [
+      {
+        "city": "Phoenix"
+      },
+      {
+        "city": "Tucson"
+      },
+      {
+        "city": "Mesa"
+      },
+      {
+        "city": "Chandler"
+      },
+      {
+        "city": "Scottsdale"
+      },
+      {
+        "city": "Glendale"
+      },
+      {
+        "city": "Gilbert"
+      },
+      {
+        "city": "Tempe"
+      },
+      {
+        "city": "Peoria"
+      },
+      {
+        "city": "Surprise"
+      },
+      {
+        "city": "Flagstaff"
+      },
+      {
+        "city": "Yuma"
+      },
+      {
+        "city": "Goodyear"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "multi-payer",
+    "selfPayDisclosure": "TeleDirectMD is in-network in Arizona with Aetna and UnitedHealthcare (PPO, HMO, EPO, POS and Medicare Advantage plans), with Blue Cross Blue Shield of Arizona (commercial plans; its Medicare Advantage is not in-network) and with Curative (commercial PPO, EPO and self-funded plans). Your share of the cost depends on your plan. If your plan is not on that list, or you prefer not to use it, the flat $79 self-pay price is paid at booking and HSA and FSA cards are accepted. AHCCCS, Medicaid managed care and D-SNP plans are not accepted. TeleDirectMD cannot promise how any plan will pay.",
+    "payers": [
+      {
+        "name": "Aetna",
+        "anchorId": "aetna-coverage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
+        "validFrom": "2026-03-13",
+        "copayNote": "Cost sharing depends on your Aetna plan."
+      },
+      {
+        "name": "UnitedHealthcare",
+        "anchorId": "uhc-coverage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage (excludes Medicaid, Individual Exchange, Community Plan Medicare Advantage, Doctors Plan, Navigate, Core, Charter)",
+        "validFrom": "2026-08-24",
+        "copayNote": "Cost sharing depends on your UnitedHealthcare plan."
+      },
+      {
+        "name": "BCBS of Arizona",
+        "anchorId": "bcbs-az-coverage",
+        "planNames": "PPO, HMO, Indemnity (commercial only; Alliance, Neighborhood, PimaConnect, Focus and Medicare Advantage networks not in-network)",
+        "validFrom": "2026-07-01",
+        "copayNote": "Cost sharing depends on your BCBS of Arizona plan."
+      },
+      {
+        "name": "Curative",
+        "anchorId": "curative-coverage",
+        "planNames": "Commercial PPO, EPO, and self-funded plans (EPO Value, EPO (PPOx), PPO (PPO+), PPO Max)",
+        "validFrom": "2026-07-07",
+        "copayNote": "Cost sharing depends on your Curative plan."
+      }
+    ]
+  },
+  "stateFaqs": [
+    {
+      "question": "Does Arizona allow a doctor to examine and prescribe over video?",
+      "answer": "Yes. Arizona Revised Statutes 36-3602 says a physical or mental health status examination may be conducted during a telehealth encounter, and it bars licensing boards from requiring an in-person exam before most prescriptions, with schedule II drugs as the main exception. TeleDirectMD prescribes only when a video visit is enough to decide, and never prescribes controlled substances."
+    },
+    {
+      "question": "Which insurance does TeleDirectMD take in Arizona?",
+      "answer": "Aetna and UnitedHealthcare, including PPO, HMO, EPO, POS and Medicare Advantage plans, Blue Cross Blue Shield of Arizona commercial plans (not its Medicare Advantage), and Curative commercial plans. AHCCCS and other Medicaid plans are not accepted. Anyone can choose the flat $79 self-pay price instead, paid at booking, with HSA and FSA cards accepted. Your plan decides your share of the cost."
+    },
+    {
+      "question": "Do I have to give consent for a video visit in Arizona?",
+      "answer": "Yes. Before care through telehealth, Arizona law requires the treating provider to get your verbal or written informed consent, and verbal consent must be documented in your medical record. Your existing confidentiality protections under Arizona law still apply, and your images or identifiable information cannot be shared for research or education without your consent unless state or federal law allows it."
+    },
+    {
+      "question": "Can I get birth control at an Arizona pharmacy without a doctor's visit?",
+      "answer": "Arizona law (A.R.S. 32-1979.01) lets a pharmacist dispense a self-administered hormonal contraceptive to a patient 18 or older under a standing order, without a patient-specific prescription. If you are already on a pill, patch or ring and want a prescription refill instead, a TeleDirectMD video visit can review it for adults physically in Arizona."
+    },
+    {
+      "question": "How do I verify Dr. Bhavsar's Arizona license?",
+      "answer": "Parth Bhavsar, MD holds an Arizona medical license from the Arizona Medical Board. Search the board's public license verification page by name or license number to see the record. His National Provider Identifier is 1104323203. He is board-certified in family medicine by the American Board of Family Medicine."
+    }
+  ],
+  "conditionOverrides": {
+    "birth-control-refills-online": {
+      "stateConditionParagraph": "Arizona gives you two routes to keep birth control going. Under A.R.S. 32-1979.01, a pharmacist may dispense a self-administered hormonal contraceptive to anyone 18 or older under a standing prescription order, with no patient-specific prescription needed. If you would rather keep a physician involved, a video visit for adults physically in Arizona can review a pill, patch or ring you already take, check blood pressure readings and health changes that would make it unsafe, and send a refill to your pharmacy. Starting a new method, an IUD, implant, shot or emergency contraception is outside this visit. Flat $79 or in-network with your listed plan."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "Arizona reported 41,070 chlamydia cases in 2023, by the state health department's count (rounded to the nearest ten), with women making up the larger share. Since 2008, Arizona law (A.R.S. 32-1401(27)(tt)(v) for physicians) has allowed expedited partner therapy, so a clinician can treat a sex partner without a separate exam; the state notes those partner medicines cannot be billed to the patient's insurance. Whether it fits your situation is decided during the visit. For adults physically in Arizona with a positive test from a clinic or lab, a video visit can review the result and prescribe treatment when appropriate. TeleDirectMD cannot test you. Flat $79 or in-network."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "The Arizona Department of Health Services counted 3,620 early syphilis cases in 2023 (rounded to the nearest ten), alongside more than 41,000 chlamydia cases. Doxycycline post-exposure prophylaxis, taken within 72 hours after condomless sex, lowers the risk of syphilis, gonorrhea and chlamydia for gay and bisexual men and transgender women who meet the criteria. For adults physically in Arizona, a video visit checks whether you qualify, covers side effects and sets up the regular testing that goes with it. It is not for active symptoms, pregnancy or cisgender women. Flat $79 or in-network with Aetna, UnitedHealthcare, BCBS of Arizona or Curative."
+    },
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "Arizona's tick risk is not the East Coast's. The state health department's final 2024 data list only 12 Lyme disease cases statewide, while Rocky Mountain spotted fever had 10 cases, 5 of them in Gila County and 4 in Navajo County. That makes where you were and what kind of tick bit you the key questions. A video visit for adults physically in Arizona reviews a photo of the removed tick, how long it was attached and your location, and spells out which fever, headache or rash means you need to be seen in person that day. Fever after a tick bite is not a video visit. Flat $79 or in-network."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "Arizona rabies is a wildlife problem. The state health department confirmed 118 rabid animals for 2025, led by skunks (47), bats (34) and foxes (24), and not one was a cat or dog. Even so, Arizona's rabies manual says any cat or dog that bites a person must be observed for ten days (A.R.S. 11-1014) and asks that all bites be reported to local animal control. A video visit for adults physically in Arizona covers bites from a known domestic cat, wound care and antibiotics when appropriate. A swollen hand, a stray or a wild animal needs in-person care. Flat $79 or in-network."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "Arizona's rabies manual asks that every animal bite be reported to the local animal control agency, and any dog that bites a person, vaccinated or not, must be observed for ten days under A.R.S. 11-1014. No dog was among the 118 rabid animals the state confirmed for 2025; skunks, bats and foxes led. For a bite from a known domestic dog, a video visit for adults physically in Arizona reviews photos of the wound, decides whether antibiotics are needed and explains what the observation period means for you. Deep or facial wounds, a hand that will not move normally, or a bite from a stray or coyote needs in-person care. Flat $79 or in-network."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "Arizona's 2024 to 2025 flu season began September 29, 2024, and by mid-February 2025 the state had counted 53,112 laboratory-confirmed influenza cases, with activity still high. Arizona adds a wrinkle: Valley fever, a fungal infection, was reported in 14,763 Arizonans in 2024, and its common symptoms of cough, fever and fatigue overlap with flu. The state health department advises asking your provider about a Valley fever test if you may have been exposed. A video visit for adults physically in Arizona can decide whether a flu antiviral fits, ideally within 48 hours of symptoms, and whether in-person testing makes sense. Flat $79 or in-network."
+    },
+    "smoking-cessation-treatment-online": {
+      "stateConditionParagraph": "Arizona has had a state quit line for decades: the state health department says the Arizona Smokers Helpline, ASHLine, has offered eligible Arizonans free help since 1995, including free quit coaching and free over-the-counter nicotine replacement therapy. Prescription medicine is a separate step that a physician decides on. A video visit for adults physically in Arizona can go over your tobacco use, medicines and health history and decide whether a prescription quit-smoking medicine is appropriate, which you can use alongside ASHLine coaching. Pregnancy, a heart attack or stroke in the past two weeks, or a mental health crisis needs in-person care. Flat $79 or in-network."
+    }
+  },
+  "relatedLinks": [],
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "A.R.S. 36-3602 (delivery of health care through telehealth)",
+        "renderAt": "hero-credential",
+        "content": "Arizona Revised Statutes 36-3602 requires a health care provider to obtain the patient's verbal or written informed consent before delivering care through telehealth, and to document verbal consent in the medical record. TeleDirectMD obtains consent before every video visit with a patient located in Arizona. Parth Bhavsar, MD, Arizona-licensed physician."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

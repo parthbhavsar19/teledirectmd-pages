@@ -1,0 +1,602 @@
+{
+  "guide": "perioral-dermatitis-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 4 verified (10.1016/j.jaad.2025.10.138, 10.1111/jdv.17817, 10.1016/j.clindermatol.2010.09.007, 10.1007/s40257-014-0067-7), 0 editorial notices, 0 contrasting evidence flags; 2 refs without DOI (PMID 20823788, 26415314) could_not_verify in Scite and were checked in PubMed publication types instead; retractions: none",
+  "references": [
+    {
+      "n": 1,
+      "kind": "journal",
+      "cited_as": "Acevedo-Fontanez LA, Sanchez-Feliciano A, Ershadi S, Reichenberg J, Eichenfield LF, Barbieri JS. Periorificial dermatitis: Pathophysiology, diagnosis, and management. J Am Acad Dermatol. 2026;94(5):1483-1492.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41197738/",
+      "pmid": "41197738",
+      "doi": "10.1016/j.jaad.2025.10.138",
+      "record_title": "Periorificial dermatitis: Pathophysiology, diagnosis, and management.",
+      "record_journal": "J Am Acad Dermatol",
+      "record_year": "2026 (PubMed publication date 2025-11-04; volume 94, issue 5, pages 1483-1492)",
+      "article_type": "Review (PubMed: Journal Article; Review)",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract); Scite read_fulltext returned no readable text (paywalled); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Abstract-only. Claims limited to what the abstract states. Previous author list was truncated to 4 of 6 authors; now all 6 from the PubMed record. Treatment-specific and telehealth claims formerly cited here were moved to retrievable sources or rewritten.",
+      "claims": [
+        {
+          "text": "Perioral dermatitis is a chronic inflammatory rash of small bumps around the mouth and nose",
+          "quote": "Periorificial dermatitis is a chronic papulopustular facial dermatitis.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "It can have a significant effect on quality of life",
+          "quote": "associated with significant effects on quality of life",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "No medicine is specifically approved by the US FDA for perioral dermatitis",
+          "quote": "no therapies are specifically approved by the US Food and Drug Administration for its treatment",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Gray NA, Tod B, Rohwer A, Fincham L, Visser WI, McCaul M. Pharmacological interventions for periorificial (perioral) dermatitis in children and adults: a systematic review. J Eur Acad Dermatol Venereol. 36(3):380-390. Published online December 2, 2021.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34779023/",
+      "pmid": "34779023",
+      "doi": "10.1111/jdv.17817",
+      "record_title": "Pharmacological interventions for periorificial (perioral) dermatitis in children and adults: a systematic review.",
+      "record_journal": "J Eur Acad Dermatol Venereol",
+      "record_year": "2021 (PubMed publication date 2021-12-02; volume 36, issue 3, pages 380-390)",
+      "article_type": "Systematic Review (PubMed: Journal Article; Systematic Review)",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract); Scite read_fulltext (abstract only, full text access-restricted); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Replaces the StatPearls chapter (PMID 30247843), whose text could not be read: the NCBI Bookshelf page returned a bot check, so it was cut rather than routed around. No Cochrane review of perioral dermatitis interventions was found in PubMed (search of Cochrane Database Syst Rev for perioral/periorificial returned 3 unrelated reviews), so this systematic review is cited as the best retrievable synthesis. Abstract-only; claims limited to the abstract.",
+      "claims": [
+        {
+          "text": "The overall evidence for every treatment option is low or very low certainty",
+          "quote": "The body of evidence to inform treatment of POD currently consists of low and very low certainty evidence for important outcomes.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "The trial evidence for the available topical options is low or very low certainty",
+          "quote": "The body of evidence to inform treatment of POD currently consists of low and very low certainty evidence for important outcomes.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Azelaic acid gel may have made no difference to severity after 6 weeks",
+          "quote": "Azelaic acid gel may result in no change in either physician- or patient-reported severity after 6 weeks of treatment.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "A systematic review rated the evidence for oral tetracycline as low certainty",
+          "quote": "Oral tetracycline may improve physician-reported severity of POD from day 20 onwards (low certainty evidence).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Citable summary: the overall evidence is low or very low certainty",
+          "quote": "The body of evidence to inform treatment of POD currently consists of low and very low certainty evidence for important outcomes.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "other_web",
+      "cited_as": "Shah N. Periorificial dermatitis. DermNet. July 2022. Accessed November 15, 2026.",
+      "url": "https://dermnetnz.org/topics/periorificial-dermatitis",
+      "version_or_date": "Author line: Dr Nayab Shah, copy edited by Gus Mitchell, July 2022 (reference list previously said Updated 2023)",
+      "retrieved_with": "WebFetch of the page (quote extraction prompts); direct curl was refused by the session egress proxy",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Quotes were extracted through WebFetch, which returns the page via a summarizing model; each quote was requested word for word. The page does not mention fluoride, doxycycline or minocycline, or whether POD is contagious; those statements were removed or re-sourced.",
+      "claims": [
+        {
+          "text": "Small red bumps around the mouth that often spare a thin rim of skin next to the lips",
+          "quote": "The immediate peri-vermillion skin is often spared, only rarely is it affected in severe cases.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "The most common association is steroid use by any route, including creams, inhalers and nasal sprays; cosmetics are another trigger",
+          "quote": "Steroid use via all routes (topical, inhaled, nasal insufflation) is the most common association.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Mostly affects women aged about 20 to 45; slightly more common with lighter skin; also occurs in men and children",
+          "quote": "usually affects young to middle-aged women (20–45 years). ... slightly more common in lighter-skinned females",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Zero therapy is the first treatment; the rash may flare as the steroid is withdrawn",
+          "quote": "A flare may occur on discontinuation — steroids should not be restarted.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Treatment usually runs 4 to 8 weeks, sometimes longer; recurrence can occur if treatment is too short",
+          "quote": "duration is usually 4–8 weeks but may require an extension ... Recurrence can occur if treatment is too short.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Chronic inflammatory rash of small red bumps, sometimes with pus-filled heads, around the mouth and nose",
+          "quote": "Clusters of skin-coloured to red papules, vesicles, and pustules ... around the eyes, nostrils, mouth, and occasionally the genitals",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "More severe cases can extend to the chin, cheeks, eyelids and forehead",
+          "quote": "more severe POD may extend to the chin, cheeks, lateral lower eyelids, upper eyelids, forehead, and glabella.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Because it can also appear around the nostrils and eyes it is also called periorificial dermatitis",
+          "quote": "Periorificial dermatitis (POD) is a relatively common chronic inflammatory skin eruption. ... around the eyes, nostrils, mouth, and occasionally the genitals",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "The single most important trigger is topical corticosteroids",
+          "quote": "Steroid use via all routes (topical, inhaled, nasal insufflation) is the most common association.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Steroids from any route have been linked, including asthma inhalers and nasal sprays",
+          "quote": "Steroid use via all routes (topical, inhaled, nasal insufflation) is the most common association.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Other triggers: cosmetics, toothpaste and dental fillings, thick paraffin- or petroleum-based moisturizers",
+          "quote": "Allergens/irritants eg, toothpaste and dental fillings. ... Occlusive emollient use leading to overhydration eg, paraffin or petroleum-based emollients",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hormonal changes linked to birth control pills, pregnancy and premenstrual flares have been observed",
+          "quote": "Hormonal changes caused by oral contraceptive use, pregnancy, and premenstrual flares have been observed.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "In children it is often seen between 7 months and 13 years",
+          "quote": "However, it is also seen in young children, often between 7 months to 13 years old.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "It has no effect on overall health",
+          "quote": "Periorificial dermatitis is a benign self-limiting condition with no systemic consequences.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Bumps on a red, slightly scaly background around the mouth and nasal folds",
+          "quote": "Erythematous base with a sharp border ... Scaly and flaky skin surface",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Each bump usually under 2 millimeters; clear band against the lip edge",
+          "quote": "Usually less than 2mm each; may coalesce into larger lesions",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Table: location around mouth and nose, spares lip border",
+          "quote": "The immediate peri-vermillion skin is often spared, only rarely is it affected in severe cases.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Table: main trigger topical steroids, cosmetics",
+          "quote": "Steroid use via all routes (topical, inhaled, nasal insufflation) is the most common association.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Zero therapy: stop topical steroids, cosmetics and products, wash with warm water alone, bland preservative-free moisturizer",
+          "quote": "Preferably wash the face with warm water alone until the rash clears ... A bland emollient without preservatives/additives can be used for skin dryness.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "In mild cases zero therapy may be enough on its own",
+          "quote": "The zero-therapy approach should be utilised in all POD patients and may result in complete resolution of mild cases.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Do not stop prescribed inhaled, nasal or oral steroids; medically necessary ones should be continued though they can slow recovery",
+          "quote": "Medically necessary nasal, inhaled, and oral steroids should be continued but will increase recovery time.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Taper slowly over weeks, switching to a lower-potency steroid before stopping, substituting pimecrolimus",
+          "quote": "Slowly wean steroids over weeks, switching to a lower potency steroid before cessation ... substituting with topical pimecrolimus",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Do not restart the steroid once stopped",
+          "quote": "A flare may occur on discontinuation — steroids should not be restarted.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Topical metronidazole 0.75 to 1 percent, erythromycin 1 percent and pimecrolimus 1 percent are the commonly listed options",
+          "quote": "Metronidazole 0.75–1% ... Erythromycin 1% ... Pimecrolimus 1% twice daily for up to 4 weeks",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Tacrolimus has more limited evidence",
+          "quote": "Other topical therapies have limited evidence supporting efficacy and safety. These include: ... Tacrolimus",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Tetracycline is the recommended first-line oral choice and the response is usually quick",
+          "quote": "Tetracycline — recommended first-line, and the response is usually quick",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Treatment usually lasts 4 to 8 weeks but may need to be extended",
+          "quote": "duration is usually 4–8 weeks but may require an extension",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "For pregnant women and children under 8, erythromycin is the first-line oral choice",
+          "quote": "Erythromycin — first-line for pregnant women and children under 8 years",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "For very resistant cases oral isotretinoin can be considered, low-level evidence",
+          "quote": "Isotretinoin — low-level evidence for refractory cases.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Step table: zero therapy first every time, may clear mild cases alone",
+          "quote": "The zero-therapy approach should be utilised in all POD patients and may result in complete resolution of mild cases.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Step table: oral isotretinoin for refractory cases, low-level evidence",
+          "quote": "Isotretinoin — low-level evidence for refractory cases.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Treatment usually runs 4 to 8 weeks, though some people need longer",
+          "quote": "duration is usually 4–8 weeks but may require an extension",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Recurrence can occur if treatment is too short",
+          "quote": "Recurrence can occur if treatment is too short.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Untreated it can linger months to years; if it comes back the same treatment can be used again",
+          "quote": "often runs a chronic variable course that may last months to years without treatment ... the same treatment can be used again",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Do not restart topical steroids",
+          "quote": "A flare may occur on discontinuation — steroids should not be restarted.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Do not use heavy occlusive moisturizers or thick ointments, which can worsen the rash",
+          "quote": "Avoid occlusive creams and ointments as they can worsen POD.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQ: a common cause of rash around the mouth is perioral dermatitis, linked to steroids, cosmetics or toothpaste; spares thin rim",
+          "quote": "Steroid use via all routes (topical, inhaled, nasal insufflation) is the most common association. ... Allergens/irritants eg, toothpaste and dental fillings.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQ: steroid creams and inhaled and nasal steroids are linked to perioral dermatitis",
+          "quote": "Steroid use via all routes (topical, inhaled, nasal insufflation) is the most common association.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQ: perioral dermatitis often spares the lip border and is most often steroid-associated (acne comparison)",
+          "quote": "The immediate peri-vermillion skin is often spared, only rarely is it affected in severe cases.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "FAQ: treatment usually lasts 4 to 8 weeks; may last months to years untreated",
+          "quote": "duration is usually 4–8 weeks but may require an extension ... may last months to years without treatment",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQ: recurrence can occur if treatment is too short; restarting a steroid cream can set off the cycle; same treatment can be used again",
+          "quote": "Recurrence can occur if treatment is too short. ... steroids should not be restarted ... the same treatment can be used again",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQ: zero therapy means stopping facial products, warm water only, bland moisturizer; may clear mild cases",
+          "quote": "Stop all facial cosmetics and topical products, including sunscreens and emollients ... may result in complete resolution of mild cases.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQ: toothpaste listed among possible irritant or allergic triggers; steroid use most common association",
+          "quote": "Allergens/irritants eg, toothpaste and dental fillings.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQ: usually responds well to treatment; can recur; same treatment can be used again",
+          "quote": "Periorificial dermatitis usually responds well to treatments. ... the same treatment can be used again",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQ: the diagnosis is made clinically",
+          "quote": "POD is a clinical diagnosis.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQ: continuing steroids, occlusive moisturizers and heavy cosmetics worsen it; sun, heat and wind aggravate it",
+          "quote": "Physical factors including UV light, heat, and wind seem to worsen periorificial dermatitis. ... Avoid occlusive creams and ointments as they can worsen POD.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Citable summary: stopping facial corticosteroids and products (zero therapy); steroid use most common association; flare on withdrawal; treatment 4 to 8 weeks; recurrence if too short",
+          "quote": "Steroid use via all routes (topical, inhaled, nasal insufflation) is the most common association. ... duration is usually 4–8 weeks",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "other_web",
+      "cited_as": "American Academy of Dermatology. Red rash around your mouth could be perioral dermatitis. Accessed November 15, 2026.",
+      "url": "https://www.aad.org/public/diseases/a-z/perioral-dermatitis",
+      "version_or_date": "No page date shown; copyright 2026; read 2026-11-15",
+      "retrieved_with": "WebFetch of official AAD patient page (loaded normally, no bot check)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference added for the not-contagious statement (previously cited to DermNet, which does not say it), the withdrawal flare, and time to clear.",
+      "claims": [
+        {
+          "text": "It is not contagious",
+          "quote": "It’s not contagious.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "When a topical steroid is stopped the rash may flare before it improves",
+          "quote": "When you stop applying a corticosteroid or hydrocortisone cream, the rash can worsen.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "The rash may take a few weeks or a few months to clear completely",
+          "quote": "It may take a few weeks or a few months to clear completely.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQ: stopping a steroid cream can cause a temporary flare before the skin improves",
+          "quote": "When you stop applying a corticosteroid or hydrocortisone cream, the rash can worsen.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQ: toothpaste is a possible irritant trigger",
+          "quote": "Something may be irritating your skin, such as a skin care product or toothpaste.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FAQ: you cannot catch it from someone else",
+          "quote": "No matter where this rash appears, the mouth or even the genitals, you cannot catch this rash.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Hall CS, Reichenberg J. Evidence based review of perioral dermatitis therapy. G Ital Dermatol Venereol. 2010;145(4):433-444.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20823788/",
+      "pmid": "20823788",
+      "record_title": "Evidence based review of perioral dermatitis therapy.",
+      "record_journal": "G Ital Dermatol Venereol",
+      "record_year": "2010",
+      "article_type": "Review (PubMed: Journal Article; Review)",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract); PubMed publication-type search for retraction or expression of concern (none)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference. No DOI in the PubMed record; Scite verify_papers by reference text returned could_not_verify (no Scite record), so retraction status was checked in PubMed only (no Retracted Publication or Expression of Concern type). Abstract-only.",
+      "claims": [
+        {
+          "text": "Oral tetracycline has strong support as first line (key takeaway)",
+          "quote": "Many trials support the use of oral tetracyclines as a first line medication, as it significantly shortens the time to papule resolution.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Zero therapy may be enough on its own in mild cases",
+          "quote": "Most cases of perioral dermatitis are self-limited, if the possible exacerbants of cosmetics and topical corticosteroids are discontinued (\"zero therapy\").",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "The evidence for topical metronidazole is relatively weak, and one trial found it inferior to oral tetracycline",
+          "quote": "The evidence supporting topical metronidazole ... is relatively weak and supported only by case series and a trial showing it to be inferior to tetracycline.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pimecrolimus can reduce severity quickly, particularly after prior topical steroid use",
+          "quote": "it does rapidly reduce the severity of the disease, particularly if prior corticosteroid use has occurred.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Many trials support oral tetracycline as first line because it shortens the time for bumps to clear",
+          "quote": "Many trials support the use of oral tetracyclines as a first line medication, as it significantly shortens the time to papule resolution.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Citable summary: oral tetracycline is the best-supported first-line medicine",
+          "quote": "Many trials support the use of oral tetracyclines as a first line medication ... The evidence most strongly supports the efficacy of zero therapy, topical pimecrolimus, oral tetracycline, and topical erythromycin.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "journal",
+      "cited_as": "Lipozencic J, Ljubojevic S. Perioral dermatitis. Clin Dermatol. 2011;29(2):157-161.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21396555/",
+      "pmid": "21396555",
+      "doi": "10.1016/j.clindermatol.2010.09.007",
+      "record_title": "Perioral dermatitis.",
+      "record_journal": "Clin Dermatol",
+      "record_year": "2011",
+      "article_type": "Journal Article (PubMed type; narrative overview)",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference for azelaic acid use and for doxycycline and minocycline (DermNet does not name them; StatPearls was unreadable). Abstract-only.",
+      "claims": [
+        {
+          "text": "Azelaic acid is also used",
+          "quote": "Treatment may include topical metronidazole as for rosacea (once or twice daily), azelaic acid cream, benzyl peroxide preparations",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Doxycycline and minocycline may also help in more resistant cases",
+          "quote": "Oral tetracycline, doxycycline, or minocycline may also be helpful in presentations that are more resistant.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "journal",
+      "cited_as": "Mokos ZB, Kummer A, Mosler EL, Ceovic R, Basta-Juzbasic A. Perioral dermatitis: still a therapeutic challenge. Acta Clin Croat. 2015;54(2):179-185.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26415314/",
+      "pmid": "26415314",
+      "record_title": "PERIORAL DERMATITIS: STILL A THERAPEUTIC CHALLENGE.",
+      "record_journal": "Acta Clin Croat",
+      "record_year": "2015",
+      "article_type": "Review (PubMed: Journal Article; Review)",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract); PubMed publication-type search for retraction or expression of concern (none)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference. No DOI in the PubMed record; Scite verify_papers by reference text returned could_not_verify (no Scite record). Abstract-only.",
+      "claims": [
+        {
+          "text": "Topical metronidazole, erythromycin or pimecrolimus for moderate disease; oral tetracycline first line for more severe disease (key takeaway)",
+          "quote": "In moderate disease, treatment includes topical metronidazole, erythromycin, and pimecrolimus, whereas in more severe cases the best validated choice is oral tetracycline in a subantimicrobial dose",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "A granulomatous variant is more common in childhood",
+          "quote": "granulomatous form is more common in childhood and affects mostly prepubescent boys",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "In more severe cases tetracycline is often given at a subantimicrobial dose until the rash fully clears",
+          "quote": "in more severe cases the best validated choice is oral tetracycline in a subantimicrobial dose until complete remission is achieved.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Oral isotretinoin can be considered for very resistant cases",
+          "quote": "Systemic isotretinoin should be considered as a therapeutic option for patients refractory to all standard therapies.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Step table: topical metronidazole, erythromycin or pimecrolimus for moderate disease",
+          "quote": "In moderate disease, treatment includes topical metronidazole, erythromycin, and pimecrolimus",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Step table: oral tetracycline for more severe or stubborn disease",
+          "quote": "in more severe cases the best validated choice is oral tetracycline in a subantimicrobial dose",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "journal",
+      "cited_as": "Tempark T, Shwayder TA. Perioral dermatitis: a review of the condition with special attention to treatment options. Am J Clin Dermatol. 2014;15(2):101-113.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24623018/",
+      "pmid": "24623018",
+      "doi": "10.1007/s40257-014-0067-7",
+      "record_title": "Perioral dermatitis: a review of the condition with special attention to treatment options.",
+      "record_journal": "Am J Clin Dermatol",
+      "record_year": "2014",
+      "article_type": "Review (PubMed: Journal Article; Review)",
+      "retrieved_with": "PubMed connector get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference for the steroid rebound statement and the FAQ on non-dermatologist care. Abstract-only.",
+      "claims": [
+        {
+          "text": "Going back onto a topical steroid can improve the rash briefly, but there is a risk of rebound when stopped",
+          "quote": "Corticosteroid cream can improve the clinical picture, but there is a risk of rebound when treatment is stopped.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Published treatment algorithms are written for general practitioners as well as dermatologists",
+          "quote": "We propose a treatment algorithm to assist dermatologists, pediatric dermatologists, and general practitioners encountering this condition.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

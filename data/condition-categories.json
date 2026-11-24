@@ -2,7 +2,7 @@
   {
     "categoryName": "Urgent Care",
     "categorySlug": "urgent-care",
-    "categoryDescription": "Same-day treatment for common illnesses and infections — no appointment needed.",
+    "categoryDescription": "Same-day treatment for common illnesses and infections, no appointment needed.",
     "conditions": [
       { "slug": "common-cold-treatment-online", "name": "Common Cold" },
       { "slug": "covid-19-treatment-online", "name": "COVID-19" },
@@ -12,7 +12,7 @@
       { "slug": "ear-pain-treatment-online", "name": "Ear Pain" },
       { "slug": "pink-eye-treatment-online", "name": "Pink Eye" },
       { "slug": "dental-pain-treatment-online", "name": "Dental Pain" },
-      { "slug": "uti-treatment-online", "name": "UTI" },
+      { "slug": "uti-treatment-online", "name": "UTI (women only)" },
       { "slug": "cellulitis-treatment-online", "name": "Cellulitis" },
       { "slug": "shingles-treatment-online", "name": "Shingles" },
       { "slug": "gout-treatment-online", "name": "Gout" },
@@ -44,7 +44,6 @@
       { "slug": "cold-sore-treatment-online", "name": "Cold Sore" },
       { "slug": "genital-warts-treatment-online", "name": "Genital Warts" },
       { "slug": "trichomoniasis-treatment-online", "name": "Trichomoniasis" },
-      { "slug": "mycoplasma-genitalium-treatment-online", "name": "Mycoplasma Genitalium" },
       { "slug": "doxypep-sti-prevention-online", "name": "DoxyPEP STI Prevention" },
       { "slug": "erectile-dysfunction-treatment-online", "name": "Erectile Dysfunction" },
       { "slug": "performance-anxiety-treatment-online", "name": "Performance Anxiety" }
@@ -65,7 +64,6 @@
       { "slug": "tinea-versicolor-treatment-online", "name": "Tinea Versicolor" },
       { "slug": "excessive-sweating-treatment-online", "name": "Excessive Sweating" },
       { "slug": "poison-ivy-oak-treatment-online", "name": "Poison Ivy and Poison Oak" },
-      { "slug": "perioral-dermatitis-treatment-online", "name": "Perioral Dermatitis" },
       { "slug": "melasma-treatment-online", "name": "Melasma" }
     ]
   },
@@ -84,7 +82,7 @@
   {
     "categoryName": "Chronic Medication Refills",
     "categorySlug": "chronic-medication-refills",
-    "categoryDescription": "Convenient prescription renewals for ongoing conditions — no gaps in your medication.",
+    "categoryDescription": "Convenient prescription renewals for ongoing conditions, with no gaps in your medication.",
     "conditions": [
       { "slug": "asthma-refills-online", "name": "Asthma Refills" },
       { "slug": "hypertension-refills-online", "name": "Hypertension Refills" },
@@ -111,7 +109,7 @@
   {
     "categoryName": "Travel Medicine",
     "categorySlug": "travel-medicine",
-    "categoryDescription": "Pre-travel prescriptions by secure video visit — altitude sickness, malaria prophylaxis, traveler's diarrhea standby, and motion sickness. Non-controlled medications only; self-pay starting at $79.",
+    "categoryDescription": "Pre-travel prescriptions by secure video visit: altitude sickness, malaria prophylaxis, traveler's diarrhea standby, motion sickness, and the oral typhoid vaccine when appropriate. Non-controlled medications only; self-pay at a flat $79.",
     "conditions": [
       { "slug": "travel-medicine-treatment-online", "name": "Travel Medicine (Overview)" },
       { "slug": "altitude-sickness-treatment-online", "name": "Altitude Sickness" },

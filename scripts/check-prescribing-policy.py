@@ -20,6 +20,18 @@ POLICY = (
     "We cannot issue these prescriptions for administration at another clinic or by another provider."
 )
 QUESTION = "Can TeleDirectMD prescribe IV medications or IM shots?"
+REFILL = (
+    "Every TeleDirectMD prescription, including all refills, covers no more than a 90-day supply. "
+    "To continue a medication beyond 90 days, you need a new visit. There are no exceptions."
+)
+REFILL_Q = "How long can a TeleDirectMD prescription last, including refills?"
+ED_REFILL = (
+    "For as-needed sildenafil or tadalafil for erectile dysfunction, each fill is limited to no more than 15 tablets, "
+    "with a maximum of two refills, for a total of no more than 90 days. The prescribing clinician decides whether a "
+    "prescription is appropriate and at what dose. A video visit is required every 90 days to continue the prescription. "
+    "There are no exceptions to this policy."
+)
+ED_REFILL_Q = "How many ED tablets and refills can I get?"
 SHORT = "We do not prescribe IV medications or IM injections. EpiPen auto-injector refills are the only IM exception, when clinically appropriate."
 
 
@@ -127,6 +139,7 @@ import('data:text/javascript;base64,' + Buffer.from(src).toString('base64')).the
     short: m.PRESCRIBING_POLICY_SHORT,
     question: m.PRESCRIBING_POLICY_QUESTION,
     generic: m.prescribingPolicyFaqs('diabetes-refills-online'),
+    ed: m.prescribingPolicyFaqs('erectile-dysfunction-treatment-online'),
     specific: Object.fromEntries(['epipen-refills-online','chlamydia-treatment-online',
       'viral-gastroenteritis-treatment-online','poison-ivy-oak-treatment-online',
       'migraine-refills-online'].map(slug => [slug, m.prescribingPolicyFaqs(slug)]))
@@ -137,7 +150,10 @@ import('data:text/javascript;base64,' + Buffer.from(src).toString('base64')).the
     assert module["policy"] == POLICY
     assert module["short"] == SHORT
     assert module["question"] == QUESTION
-    assert module["generic"] == [{"question": QUESTION, "answer": POLICY}], "Do not add a diabetes/subcutaneous route exclusion"
+    assert module["generic"] == [{"question": QUESTION, "answer": POLICY},
+                                 {"question": REFILL_Q, "answer": REFILL}], "Do not add a diabetes/subcutaneous route exclusion"
+    assert module["ed"][-1] == {"question": ED_REFILL_Q, "answer": ED_REFILL}
+    assert REFILL in (ROOT / "public/llms.txt").read_text() and ED_REFILL in (ROOT / "public/llms.txt").read_text()
     assert POLICY in (ROOT / "public/llms.txt").read_text()
     archived_faqs = json.loads((ROOT / "data/faq.json").read_text())
     assert any(item["question"] == QUESTION and item["answer"] == POLICY
@@ -151,16 +167,18 @@ import('data:text/javascript;base64,' + Buffer.from(src).toString('base64')).the
     footer_count = 0
     for path in OUT.rglob("*.html"):
         parts = path.relative_to(OUT).parts
-        if parts[0] == "health-guides":
-            continue  # Independent static editorial content is intentionally untouched.
+        if parts[0] in ("health-guides", "next-steps", "flu-hub"):
+            continue  # Independent static pages without the shared footer are intentionally untouched.
         html = path.read_text()
-        assert 'data-prescribing-policy="footer"' in html and POLICY in html, f"{parts}: shared footer policy missing"
+        # The full policy text moved out of the footer to /patient-policies/; the footer links there.
+        assert 'href="/patient-policies/"' in html, f"{parts}: shared footer link to patient policies missing"
+        assert 'data-prescribing-policy="footer"' not in html, f"{parts}: policy text should not be back in the footer"
         footer_count += 1
         scoped = (parts[0] in states or parts[0] in conditions or parts[0] in scoped_families
                   or parts[:2] == ("faq", "deep-dive"))
         if scoped:
-            assert 'data-prescribing-policy="notice"' in html, f"{parts}: booking notice missing"
             assert 'data-prescribing-policy="faq"' in html, f"{parts}: prescribing FAQ missing"
+            assert 'data-prescribing-policy="notice"' not in html, f"{parts}: booking notice should be removed"
             scoped_count += 1
     assert scoped_count > 1000, "Static route generation unexpectedly shrank"
 
@@ -177,24 +195,38 @@ import('data:text/javascript;base64,' + Buffer.from(src).toString('base64')).the
     for slug in module["specific"]:
         routes.extend([f"/{slug}/", f"/ca/{slug}/", f"/tx/{slug}/"])
     routes.append("/vt/chlamydia-treatment-online/")
+    for route in ["/erectile-dysfunction-treatment-online/", "/ca/erectile-dysfunction-treatment-online/",
+                  "/tx/erectile-dysfunction-treatment-online/", "/ga/erectile-dysfunction-treatment-online/"]:
+        root = load(route)
+        faq_alignment(root, route, REFILL_Q, REFILL)
+        faq_alignment(root, route, ED_REFILL_Q, ED_REFILL)
+    faq_alignment(load("/uti-treatment-online/"), "/uti-treatment-online/", REFILL_Q, REFILL)
     for route in routes:
         root = load(route)
         faq_alignment(root, route)
         if route != "/faq/":
             main_content = next(el for el in root.all("main") if el.attrs.get("id") == "main-content")
             notices = [el for el in main_content.all("aside") if el.attrs.get("data-prescribing-policy") == "notice"]
-            assert len(notices) == 1 and SHORT in normalize(notices[0].text()), f"{route}: policy absent from main booking content"
+            assert not notices, f"{route}: booking notice should be removed"
         slug = route.strip("/").split("/")[-1]
         if slug in module["specific"]:
             specific = module["specific"][slug][1]
             faq_alignment(root, route, specific["question"], specific["answer"])
-            if slug == "epipen-refills-online":
-                assert "EpiPen auto-injector refills are the only IM exception, when clinically appropriate." in normalize(notices[0].text()), f"{route}: affirmative EpiPen exception absent from notice"
+    policies = load("/patient-policies/")
+    assert any(el.attrs.get("data-prescribing-policy") == "policies" and normalize(el.text()) == POLICY
+               for el in policies.all("p")), "Patient Policies page missing prescribing policy"
+    assert any(el.attrs.get("data-refill-policy") == "policies" and normalize(el.text()) == REFILL
+               for el in policies.all("p")), "Patient Policies page missing refill policy"
     scope = load("/what-we-treat/")
     assert any(el.attrs.get("data-prescribing-policy") == "scope" and POLICY in normalize(el.text())
                for el in scope.all()), "What We Treat scope section missing policy"
+    assert any(el.attrs.get("data-refill-policy") == "scope" and REFILL in normalize(el.text()) and ED_REFILL in normalize(el.text())
+               for el in scope.all()), "What We Treat scope section missing refill policy"
+    faq_alignment(load("/faq/"), "/faq/", REFILL_Q, REFILL)
+    # Terms is now a PDF (/legal/terms-of-service.pdf); the ED refill rule is checked on Patient Policies.
+    assert ED_REFILL in normalize(policies.text()), "Patient Policies missing ED refill policy"
     for route in ["/visit-ready/"]:
-        assert any(el.attrs.get("data-prescribing-policy") == "notice" for el in load(route).all("aside"))
+        assert not any(el.attrs.get("data-prescribing-policy") == "notice" for el in load(route).all("aside")), f"{route}: booking notice should be removed"
     # Existing service-specific GLP-1 criteria must not be changed by this route policy.
     faq_alignment(load("/faq/"), "/faq/", "What about GLP-1 or weight-loss medications?",
                   "TeleDirectMD does not prescribe GLP-1 agonists (such as semaglutide or tirzepatide) or other weight-loss medications. These require ongoing monitoring and management that falls outside the scope of episodic urgent-care telemedicine.")

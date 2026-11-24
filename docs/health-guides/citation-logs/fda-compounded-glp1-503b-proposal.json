@@ -1,0 +1,442 @@
+{
+  "guide": "fda-compounded-glp1-503b-proposal",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 1 verified, retractions: none (1 DOI; ref 13 has one Scite-flagged potential contrasting citation, see notes). Refs 1-12 are FDA and Federal Register pages without DOIs.",
+  "references": [
+    {
+      "n": 1,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. \"FDA Proposes to Exclude Semaglutide, Tirzepatide, and Liraglutide on 503B Bulks List.\" Press release, April 30, 2026. Accessed November 15, 2026.",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-proposes-exclude-semaglutide-tirzepatide-and-liraglutide-503b-bulks-list",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "Press release dated April 30, 2026; content current as of 04/30/2026",
+      "notes": "Page title on fda.gov reads \"...on 503B Bulks List\". The release itself does not define clinical need with examples; examples were removed from the guide and the FDA criteria are now cited to the Federal Register notice [2]. Docket shown via link to Federal Register document 2026-08552.",
+      "claims": [
+        {
+          "text": "April 30, 2026 FDA proposed excluding semaglutide, tirzepatide and liraglutide from the 503B bulks list, finding no clinical need for outsourcing facilities to compound from bulk",
+          "quote": "The U.S. Food and Drug Administration today announced it is proposing to exclude semaglutide, tirzepatide, and liraglutide on the 503B bulks list, finding no clinical need for outsourcing facilities to compound these drugs from bulk substances.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "A determination of clinical need is based on patient safety and medical necessity under the law",
+          "quote": "A determination of clinical need is based on patient safety and medical necessity under the law",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Makary quote on outsourcing facilities and clear clinical need",
+          "quote": "When FDA-approved drugs are available, outsourcing facilities cannot lawfully compound using bulk drug substances unless there is a clear clinical need",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Press release asked for comments by June 29, 2026",
+          "quote": "submit comments electronically through the docket by June 29, 2026",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FDA will consider submitted comments before making a final determination; final outcome not settled",
+          "quote": "The agency will consider submitted comments before making a final determination.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Sequence: then came the April 30 bulks-list proposal",
+          "quote": "For Immediate Release: April 30, 2026",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "agency_page",
+      "cited_as": "Food and Drug Administration. \"List of Bulk Drug Substances for Which There Is a Clinical Need Under Section 503B of the Federal Food, Drug, and Cosmetic Act.\" Notice. Federal Register 91 FR 23431 (May 1, 2026), Docket No. FDA-2018-N-3240, document 2026-08552. Accessed November 15, 2026.",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-05-01/html/2026-08552.htm",
+      "retrieved_with": "WebFetch of govinfo.gov HTML and federalregister.gov API record (comments_close_on 2026-06-30)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "Federal Register Vol. 91, No. 84, May 1, 2026, Notices, pp. 23431-23444; Docket FDA-2018-N-3240; FR Doc. 2026-08552",
+      "notes": "Document type is a Notice, not a proposed rule. The \"if finalized\" consequence is FDA's general statutory rule applied to a proposal, so it is logged partly_supported. The notice does not give allergy or formulation examples of clinical need; those were removed. Last 10,315 characters of the notice were not read.",
+      "claims": [
+        {
+          "text": "Notice published in the Federal Register on May 1, 2026",
+          "quote": "[Federal Register Volume 91, Number 84 (Friday, May 1, 2026)]",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Outsourcing facility could still compound from bulk if the drug appears on the drug shortage list",
+          "quote": "the drug compounded from the bulk drug substance appears on the drug shortage list in effect under section 506E",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FDA places a substance on the list only when it determines clinical need",
+          "quote": "FDA will only place a bulk drug substance on the 503B Bulks List when we have determined there is a clinical need",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Supply issues such as backorders do not count as clinical need",
+          "quote": "FDA does not interpret supply issues, such as backorders, to be within the meaning of \"clinical need\" for compounding with a bulk drug substance.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Convenience (ready-to-use form) and cost compared with approved drug are not clinical need",
+          "quote": "FDA does not consider convenience in administering a particular compounded drug product (e.g., a ready-to-use form) or the cost of the compounded drug product as compared with an FDA-approved drug product when assessing \"clinical need.\"",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FDA asks whether an attribute of the approved drug makes it medically unsuitable to treat certain patients",
+          "quote": "an attribute of the FDA-approved drug product makes it medically unsuitable to treat certain patients",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FDA tentatively found no basis that an attribute of the approved products makes them medically unsuitable; proposes not to include the three substances",
+          "quote": "This notice identifies three bulk drug substances that FDA has considered and proposes not to include on the 503B Bulks List: semaglutide, tirzepatide, and liraglutide.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Federal Register notice set a June 30, 2026 comment deadline",
+          "quote": "Either electronic or written comments on the notice must be submitted by June 30, 2026.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FDA intends to publish a final determination in the Federal Register",
+          "quote": "FDA intends to then publish in the Federal Register a final determination identifying the bulk drug substances for which we have determined there is a clinical need",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "If finalized as proposed, outsourcing facilities could not compound these drugs from bulk unless the drug is on the drug shortage list (guide states this in three places: section 2, section 3 closing paragraph, table row)",
+          "quote": "the drug compounded from the bulk drug substance appears on the drug shortage list in effect under section 506E",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Not an immediate ban; a proposal about the 503B bulks list not yet finalized",
+          "quote": "This notice identifies three bulk drug substances that FDA has considered and proposes not to include on the 503B Bulks List",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Approved brand names Ozempic, Wegovy, Rybelsus, Mounjaro, Zepbound, Victoza, Saxenda",
+          "quote": "Semaglutide for SC injection is approved by FDA under the brand names Ozempic, Wegovy, and Wegovy HD. ... oral tablets (Rybelsus ... solutions for SC injection (Mounjaro, NDA 215866; Zepbound, NDA 217806) ... (Victoza, NDA 022341) ... (Saxenda, NDA 206321)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "agency_page",
+      "cited_as": "Food and Drug Administration. \"List of Bulk Drug Substances for Which There Is a Clinical Need Under Section 503B of the Federal Food, Drug, and Cosmetic Act; Extension of Comment Period.\" Notice. Federal Register 91 FR 38719 (June 26, 2026), Docket No. FDA-2018-N-3240, document 2026-12937. Accessed November 15, 2026.",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-06-26/html/2026-12937.htm",
+      "retrieved_with": "WebFetch of govinfo.gov HTML and federalregister.gov API; docket listing via federalregister.gov API (conditions[docket_id]=FDA-2018-N-3240, order=newest) on 2026-11-15",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "Federal Register Vol. 91, No. 122, June 26, 2026, 91 FR 38719-38720; FR Doc. 2026-12937",
+      "notes": "Status check: the federalregister.gov API docket listing (newest first, 12 documents) on 2026-11-15 returned 2026-12937 (June 26, 2026) as the newest document; no final determination was listed. The human-readable federalregister.gov search page is robots-disallowed and was not read. FDA 503B bulks list page (content current 05/16/2024) does not list the three substances as not included. This absence finding is the last confirmed status, as of 2026-11-15.",
+      "claims": [
+        {
+          "text": "FDA extended the comment period to July 30, 2026 after a request for more time",
+          "quote": "Either electronic or written comments must be submitted by July 30, 2026.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Extension responded to a request for more time",
+          "quote": "The request conveyed concern that the current 60-day comment period does not allow sufficient time",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "As of November 15, 2026, the newest document found in the docket was the June 26 extension; no final determination found; remains a proposal",
+          "quote": "In the Federal Register of May 1, 2026, FDA published a notice with a 60-day comment period",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. \"FDA's Concerns with Unapproved GLP-1 Drugs Used for Weight Loss.\" Content current as of October 1, 2026. Accessed November 15, 2026.",
+      "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss",
+      "retrieved_with": "WebFetch of official page (canonical URL; old postmarket-drug-safety URL also resolved)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "Content current as of 10/01/2026",
+      "notes": "Link changed to the canonical URL shown on the page breadcrumb. The page does not report deaths.",
+      "claims": [
+        {
+          "text": "As of May 31, 2026, 990 adverse event reports for compounded semaglutide and more than 730 for compounded tirzepatide",
+          "quote": "As of May 31, 2026, the FDA has received: 990 reports of adverse events associated with compounded semaglutide. more than 730 reports of adverse events associated with compounded tirzepatide.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Adverse events, some requiring hospitalization, related to dosing errors from patient self-measurement and professional miscalculation",
+          "quote": "reports of adverse events, some requiring hospitalization ... These dosing errors resulted from patients measuring and self-administering incorrect doses of the drug, and in some cases, health care professionals miscalculating doses of the drug.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Salt forms are different active ingredients; FDA lacks information on whether they have the same properties",
+          "quote": "These salt forms, including semaglutide sodium and semaglutide acetate, are different active ingredients than are used in the approved drugs. The agency does not have information on whether these salts have the same chemical and pharmacologic properties",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Green list import alert 66-80",
+          "quote": "The agency has established a green list import alert (66-80) to help stop GLP-1 active pharmaceutical ingredients (APIs) that have potential quality concerns from entering the U.S. supply chain.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FDA does not review compounded drugs for safety, effectiveness or quality before marketing (also table rows)",
+          "quote": "This means the agency does not review compounded drugs for safety, effectiveness or quality before they are marketed.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Obtain a prescription and fill at a state-licensed pharmacy; warnings about products labeled for research purposes",
+          "quote": "Patients should obtain a prescription from their doctor and fill the prescription at a state-licensed pharmacy. ... falsely labeled \"for research purposes\" or \"not for human consumption.\"",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. \"FDA Alerts Health Care Providers, Compounders and Patients of Dosing Errors Associated with Compounded Injectable Semaglutide Products.\" July 26, 2024. Accessed November 15, 2026.",
+      "url": "https://www.fda.gov/drugs/human-drug-compounding/fda-alerts-health-care-providers-compounders-and-patients-dosing-errors-associated-compounded",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "Issued 07/26/2024; content current as of 07/26/2024",
+      "notes": "Hypoglycemia and emergency department visits were removed from the guide: the alert does not list them among the compounded-product reports.",
+      "claims": [
+        {
+          "text": "Patients took 5 to 20 times the intended dose of compounded semaglutide",
+          "quote": "patients administered five to 20 times more than the intended dose of semaglutide.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Reported adverse events list; some sought medical attention or required hospitalization",
+          "quote": "Adverse events included gastrointestinal effects (e.g., nausea, vomiting, abdominal pain), fainting, headache, migraine, dehydration, acute pancreatitis and gallstones. Some patients sought medical attention or required hospitalization.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Report adverse events or dosing errors to MedWatch",
+          "quote": "FDA encourages compounders, health care providers and patients to report adverse events and medication errors",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. \"FDA Clarifies Policies for Compounders as National GLP-1 Supply Begins to Stabilize.\" Content current as of April 1, 2026. Accessed November 15, 2026.",
+      "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-clarifies-policies-compounders-national-glp-1-supply-begins-stabilize",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "Content current as of 04/01/2026 (page metadata also shows published 09/16/2026)",
+      "notes": "Page shows conflicting metadata (modified 04/01/2026, published 09/16/2026); guide cites \"current as of April 1, 2026\". The page does not name Foundayo or Wegovy or say products are readily available; those claims were removed.",
+      "claims": [
+        {
+          "text": "503A compounding for an individual patient based on a prescription; no regular copies of commercially available drugs",
+          "quote": "The drug product is compounded for an individual patient based on receipt of a prescription. ... The compounder does not compound, regularly or in inordinate amounts, any that are essentially copies of a commercially available drug product.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Prescriber-documented significant difference exception",
+          "quote": "This is unless a prescriber determines and documents the compounded drug product contains a change that produces a significant difference from the commercially available drug product for an identified individual patient.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "As of April 1, 2026 update, neither drug on the 503B bulks list or drug shortage list",
+          "quote": "Tirzepatide and semaglutide do not currently appear on the 503B bulks list or on FDA’s drug shortage list.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Enforcement discretion for outsourcing facilities ran until March 19, 2025 (tirzepatide) and May 22, 2025 (semaglutide)",
+          "quote": "until March 19, 2025 ... until May 22, 2025",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. \"FDA Warns 30 Telehealth Companies Against Illegal Marketing of Compounded GLP-1s.\" Press release, March 3, 2026. Accessed November 15, 2026.",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-warns-30-telehealth-companies-against-illegal-marketing-compounded-glp-1s",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "Press release March 3, 2026; content current as of 03/03/2026",
+      "notes": "Release names no companies. It does not mention April peptide letters; that sentence was cut.",
+      "claims": [
+        {
+          "text": "March 3, 2026: 30 warning letters to telehealth companies for false or misleading claims about compounded GLP-1s",
+          "quote": "The U.S. Food and Drug Administration today announced the issuance of 30 warning letters to telehealth companies for making false or misleading claims regarding compounded GLP-1 products offered on their websites.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Violations included claims implying sameness and branding with telehealth firm name or trademark",
+          "quote": "Primary violations identified in the letters included making claims implying sameness with FDA-approved products and obscuring product sourcing by advertising drug products branded with the telehealth firm's name or trademark without qualification",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. \"Declaratory Order: Resolution of Shortages of Tirzepatide Injection Products (Mounjaro and Zepbound).\" December 19, 2024. Accessed November 15, 2026.",
+      "url": "https://www.fda.gov/media/184606/download",
+      "retrieved_with": "WebFetch of official PDF",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "Declaratory order dated December 19, 2024 (revokes and replaces October 2, 2024 decision)",
+      "claims": [
+        {
+          "text": "Tirzepatide injection shortage resolved December 19, 2024",
+          "quote": "FDA determines that the tirzepatide injection product shortage is resolved.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. \"Declaratory Order: Resolution of Shortages of Semaglutide Injection Products (Ozempic and Wegovy).\" February 21, 2025. Accessed November 15, 2026.",
+      "url": "https://www.fda.gov/media/185526/download",
+      "retrieved_with": "WebFetch of official PDF",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "Declaratory order dated February 21, 2025",
+      "claims": [
+        {
+          "text": "Semaglutide injection shortage resolved February 21, 2025",
+          "quote": "FDA has determined that the semaglutide injection product shortage is resolved.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. \"FD&C Act Provisions that Apply to Human Drug Compounding.\" Content current as of August 13, 2021. Accessed November 15, 2026.",
+      "url": "https://www.fda.gov/drugs/human-drug-compounding/fdc-act-provisions-apply-human-drug-compounding",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "Content current as of 08/13/2021",
+      "claims": [
+        {
+          "text": "503B bulks list controls which bulk substances outsourcing facilities may use",
+          "quote": "the bulk drug substance must appear on a list developed by FDA of bulk drug substances",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Outsourcing facilities may or may not obtain patient-specific prescriptions; bulk must be on list or drug on shortage list",
+          "quote": "An outsourcing facility may or may not obtain prescriptions for identified individual patients. ... the drug compounded from the bulk drug substance must appear on FDA’s drug shortage list",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. \"Information for Outsourcing Facilities.\" Content current as of March 29, 2022. Accessed November 15, 2026.",
+      "url": "https://www.fda.gov/drugs/human-drug-compounding/information-outsourcing-facilities",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "Content current as of 03/29/2022",
+      "claims": [
+        {
+          "text": "Outsourcing facilities must comply with CGMP and are inspected on a risk-based schedule",
+          "quote": "must comply with CGMP requirements ... are inspected by FDA according to a risk-based schedule",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Outsourcing facility drugs can qualify for exemptions from FDA approval requirements",
+          "quote": "can qualify for exemptions from FDA approval requirements",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. \"FDA Approves First New Molecular Entity Under National Priority Voucher Program.\" Press release, April 1, 2026. Accessed November 15, 2026.",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-new-molecular-entity-under-national-priority-voucher-program",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "Press release April 1, 2026",
+      "claims": [
+        {
+          "text": "FDA approved oral tablet Foundayo (orforglipron) for weight reduction in adults with obesity on April 1, 2026",
+          "quote": "The U.S. Food and Drug Administration today approved Foundayo (orforglipron) ... to reduce excess body weight and maintain weight reduction long term in adults with obesity ... in tablet form that should be taken orally once daily",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "journal",
+      "cited_as": "Wilding JPH, Batterham RL, Davies M, et al. Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension. Diabetes Obes Metab. 2022;24(8):1553-1564. PMID: 35441470.",
+      "url": "https://doi.org/10.1111/dom.14725",
+      "retrieved_with": "PubMed connector get_article_metadata; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "pmid": "35441470",
+      "pmcid": "PMC9542252",
+      "doi": "10.1111/dom.14725",
+      "record_title": "Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension.",
+      "record_journal": "Diabetes Obes Metab",
+      "record_year": "2022",
+      "article_type": "Journal Article; Randomized Controlled Trial",
+      "notes": "Abstract only. Population: adults without diabetes; extension analyses were exploratory (n=327). Scite flagged one potential contrasting citation (10.1136/bmjnph-2024-001006, a duodenal mucosal resurfacing study reporting no regain); the guide states only the STEP 1 extension result and does not generalize.",
+      "claims": [
+        {
+          "text": "Adults without diabetes who stopped semaglutide 2.4 mg and lifestyle program regained about two-thirds of weight loss within a year; most cardiometabolic improvements reverted",
+          "quote": "One year after withdrawal of once-weekly subcutaneous semaglutide 2.4 mg and lifestyle intervention, participants regained two-thirds of their prior weight loss, with similar changes in cardiometabolic variables.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

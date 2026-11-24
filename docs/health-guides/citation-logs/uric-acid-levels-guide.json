@@ -1,0 +1,514 @@
+{
+  "guide": "uric-acid-levels-guide",
+  "checked_at": "2026-11-07",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+  "references": [
+    {
+      "n": 1,
+      "kind": "guideline",
+      "cited_as": "FitzGerald JD, Dalbeth N, Mikuls T, et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care & Research. 2020;72(6):744-760. doi:10.1002/acr.24180. PMID: 32391934.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/",
+      "pmid": "32391934",
+      "pmcid": "PMC10563586",
+      "doi": "10.1002/acr.24180",
+      "record_title": "2020 American College of Rheumatology Guideline for the Management of Gout.",
+      "record_journal": "Arthritis Care Res (Hoboken)",
+      "record_year": "2020",
+      "article_type": "Journal Article; Practice Guideline",
+      "version_or_date": "2020 guideline (published 2020-05-11); read 2026-11-07",
+      "retrieved_with": "PubMed connector get_article_metadata (article types checked: no Retracted Publication or Retraction Notice); PubMed get_full_text_article PMC10563586",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status from PubMed article types. The Nov 6 audit (via Scite) reported errata 10.1002/acr.24401 (2020) and 10.1002/acr.24566 (2021); not re-verified this run because Scite was unavailable and PubMed metadata returned no correction links. Errata are corrections, not retractions.",
+      "claims": [
+        {
+          "text": "ULT target is below 6 mg/dL for people on urate-lowering therapy (summary, key takeaway, targets section, table, FAQ)",
+          "quote": "Achieving and maintaining an SU target of <6 mg/dl over the use of no target is strongly recommended for all patients receiving ULT.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "The guideline does not set a lower target for tophaceous or more severe gout, breaking from earlier ACR and EULAR guidelines",
+          "quote": "Breaking from prior ACR and European League Against Rheumatism (EULAR) guidelines, this guideline does not specify SU thresholds beyond <6 mg/dl for patient subsets with more severe disease (e.g., those with tophi).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Lower levels hasten tophus resolution, but no trial data support a specific lower threshold",
+          "quote": "There is ample evidence that lower SU levels hasten the resolution of tophi ... there are no trial data to support lower specific thresholds for such patients.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Treat-to-target strategy: dose titration and later dosing guided by serial urate measurements (strong recommendation); serial measurements guide dosing",
+          "quote": "A treat-to-target management strategy that includes ULT dose titration and subsequent dosing guided by serial SU measurements to achieve a target SU, over a fixed-dose ULT strategy, is strongly recommended for all patients receiving ULT.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Urate checked after each dose change; start low and titrate over weeks to months, not years",
+          "quote": "As described above, ULT titration should occur over weeks to months, not years. ... SU concentrations should be checked after each dose titration",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Starting urate-lowering medicine at a low dose and titrating up",
+          "quote": "These guidelines reinforce the strategy of starting with low-dose ULT and titrating up to achieve the SU target.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "ACR defines asymptomatic hyperuricemia as serum urate 6.8 mg/dL or higher with no prior flares or tophi; 7.0 meets this cutoff",
+          "quote": "asymptomatic hyperuricemia, which is defined as an SU concentration of ≥6.8 mg/dl with no prior gout flares or subcutaneous tophi",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "An elevated urate without gout is generally watched rather than treated",
+          "quote": "the benefits of ULT would not outweigh potential treatment costs or risks for the large number of patients unlikely to progress to gout",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Among people with asymptomatic hyperuricemia above 9 mg/dL, only 20 percent developed gout within 5 years",
+          "quote": "From observational studies, among patients with asymptomatic hyperuricemia with SU concentrations of >9 mg/dl, only 20% went on to develop gout within 5 years",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "ULT strongly recommended for tophi, radiographic damage, or two or more flares a year (FAQ)",
+          "quote": "Initiating ULT is strongly recommended for gout patients with any of the following: ≥1 subcutaneous tophi; evidence of radiographic damage (any modality) attributable to gout; OR frequent gout flares, with frequent being defined as ≥2 annually.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Flares treated with colchicine, NSAIDs, or glucocorticoids",
+          "quote": "For management of gout flares, colchicine, nonsteroidal antiinflammatory drugs, or glucocorticoids (oral, intraarticular, or intramuscular) were strongly recommended.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Flares can occur when ULT starts; anti-inflammatory prophylaxis for 3 to 6 months recommended (figure caption)",
+          "quote": "Continuing concomitant antiinflammatory prophylaxis therapy for 3–6 months over <3 months, with ongoing evaluation and continued prophylaxis as needed if the patient continues to experience gout flares, is strongly recommended.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Flare risk accompanies ULT initiation (figure: flares may rise first)",
+          "quote": "This strategy mitigates the risk of treatment-related adverse effects (e.g., hypersensitivity) as well as flare risk accompanying ULT initiation",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Allopurinol and febuxostat are urate-lowering drugs (table)",
+          "quote": "allopurinol as the preferred first-line ULT, including for those with moderate-to-severe chronic kidney disease (CKD; stage >3); using a low starting dose of allopurinol (≤100 mg/day, and lower in CKD) or febuxostat (<40 mg/day)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Weight loss: small study of 11 people, mean 5 kg loss lowered urate by mean 1.1 mg/dL; weight loss program conditionally recommended for overweight or obese gout patients",
+          "quote": "In a small cohort (n = 11) of obese patients, a mean weight loss of 5 kg resulted in a mean SU lowering of 1.1 mg/dl",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Weight loss program conditionally recommended for people with gout who are overweight or obese",
+          "quote": "Using a weight loss program (no specific program endorsed) is conditionally recommended for those patients with gout who are overweight/obese, regardless of disease activity.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Limiting alcohol lowers urate (table)",
+          "quote": "SU levels among patients who limited or abstained from alcohol were 1.6 mg/dl lower compared with patients who did not do so",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Diet or individual foods have a small effect on serum urate",
+          "quote": "the impact of diet or individual food items on SU concentration was small",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hydration appears as counseling for people taking uricosurics, not as a urate-lowering treatment",
+          "quote": "For patients who are treated with uricosurics, patients should receive counseling about adequate hydration",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Switching from hydrochlorothiazide and choosing losartan when feasible are conditionally recommended",
+          "quote": "Switching hydrochlorothiazide to an alternate antihypertensive when feasible is conditionally recommended for patients with gout ... Choosing losartan preferentially as an antihy-pertensive agent when feasible is conditionally recommended",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "For people with a history of kidney stones, allopurinol and febuxostat lower 24-hour urinary uric acid",
+          "quote": "For patients with a history of urolithiasis, allopurinol and febuxostat provide benefit, as both medications lower 24-hour urinary uric acid excretion more than placebo",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Chen-Xu M, Yokose C, Rai SK, Pillinger MH, Choi HK. Contemporary Prevalence of Gout and Hyperuricemia in the United States and Decadal Trends: NHANES 2007-2016. Arthritis & Rheumatology. 2019;71(6):991-999.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30618180/",
+      "pmid": "30618180",
+      "pmcid": "PMC6536335",
+      "doi": "10.1002/art.40807",
+      "record_title": "Contemporary Prevalence of Gout and Hyperuricemia in the United States and Decadal Trends: The National Health and Nutrition Examination Survey, 2007-2016.",
+      "record_journal": "Arthritis Rheumatol",
+      "record_year": "2019",
+      "article_type": "Journal Article (observational survey analysis)",
+      "retrieved_with": "PubMed connector get_article_metadata (article types checked: no Retracted Publication or Retraction Notice)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status from PubMed article types. No longer cited for lab reference ranges (the paper gives none).",
+      "claims": [
+        {
+          "text": "NHANES analysis defined hyperuricemia as above 7.0 mg/dL in men and above 5.7 mg/dL in women",
+          "quote": "Hyperuricemia was defined as having a serum urate level of >7.0 mg/dl in men and >5.7 mg/dl in women.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "In 2015-2016, hyperuricemia affected about one in five U.S. adults and gout 3.9 percent",
+          "quote": "In 2015-2016, the prevalence of gout was 3.9% among adults in the US ... hyperuricemia prevalence rates were 20.2% and 20.0%, respectively.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "journal",
+      "cited_as": "Campion EW, Glynn RJ, DeLabry LO. Asymptomatic hyperuricemia. Risks and consequences in the Normative Aging Study. The American Journal of Medicine. 1987;82(3):421-426.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3826098/",
+      "pmid": "3826098",
+      "doi": "10.1016/0002-9343(87)90441-4",
+      "record_title": "Asymptomatic hyperuricemia. Risks and consequences in the Normative Aging Study.",
+      "record_journal": "Am J Med",
+      "record_year": "1987",
+      "article_type": "Journal Article (prospective cohort)",
+      "retrieved_with": "PubMed connector get_article_metadata (article types checked: no Retracted Publication or Retraction Notice); abstract only",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status from PubMed article types. Abstract only; cohort was men only, now stated in the guide.",
+      "claims": [
+        {
+          "text": "Annual gout incidence 0.1% below 7.0, 0.5% at 7.0-8.9, 4.9% at 9 or above",
+          "quote": "the annual incidence rate of gouty arthritis was 4.9 percent, compared with 0.5 percent for urate levels of 7.0 to 8.9 mg/dl and 0.1 percent for urate levels below 7.0 mg/dl.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "22 percent five-year cumulative incidence at 9 or higher",
+          "quote": "With urate levels of 9 mg/dl or higher, cumulative incidence of gouty arthritis reached 22 percent after five years.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cohort of 2,046 initially healthy men followed 14.9 years",
+          "quote": "A cohort of 2,046 initially healthy men in the Normative Aging Study was followed for 14.9 years",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Elevated urate without gout is generally watched rather than treated",
+          "quote": "These data support conservative management of asymptomatic hyperuricemia.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Neogi T, Jansen TL, Dalbeth N, et al. 2015 Gout Classification Criteria: an American College of Rheumatology/European League Against Rheumatism collaborative initiative. Arthritis & Rheumatology. 2015;67(10):2557-2568.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26352873/",
+      "pmid": "26352873",
+      "pmcid": "PMC4566153",
+      "doi": "10.1002/art.39254",
+      "record_title": "2015 Gout Classification Criteria: an American College of Rheumatology/European League Against Rheumatism collaborative initiative.",
+      "record_journal": "Arthritis Rheumatol",
+      "record_year": "2015",
+      "article_type": "Consensus Statement; Journal Article; Systematic Review",
+      "retrieved_with": "PubMed connector get_article_metadata (article types checked: no Retracted Publication or Retraction Notice); PubMed get_full_text_article PMC4566153",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status from PubMed article types. PMC full text notes a corrected typographical error in Table 2 (a correction, not a retraction); the Nov 6 audit also reported erratum 10.1002/art.39536 via Scite, not re-verified this run. These are classification criteria, not diagnostic criteria; the guide no longer cites them for \"urate drops in the first day or two of a flare\" (cut).",
+      "claims": [
+        {
+          "text": "Urate ideally measured more than 4 weeks after an episode starts, off urate-lowering treatment, with retesting when practical",
+          "quote": "Ideally should be scored at a time when the patient was not receiving urate‐lowering treatment and it was >4 weeks from the start of an episode (i.e., during intercritical period)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Joint or tophus aspiration remains essential to establishing a gout diagnosis",
+          "quote": "Thus, in clinical practice, joint or tophus aspiration remains an essential component of establishing a diagnosis of gout.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Urate is reported in mg/dL and sometimes in millimoles per liter",
+          "quote": "if the serum urate level is <4 mg/dl (<0.24 mmoles/liter)",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Kuo CF, Grainge MJ, Zhang W, Doherty M. Global epidemiology of gout: prevalence, incidence and risk factors. Nature Reviews Rheumatology. 2015;11(11):649-662.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26150127/",
+      "pmid": "26150127",
+      "doi": "10.1038/nrrheum.2015.91",
+      "record_title": "Global epidemiology of gout: prevalence, incidence and risk factors.",
+      "record_journal": "Nat Rev Rheumatol",
+      "record_year": "2015",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed connector get_article_metadata (article types checked: no Retracted Publication or Retraction Notice); abstract only (full text not open)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status from PubMed article types. Abstract only. Purine biology, hypouricemia, uric acid vs urate and drug-specific claims moved to MedlinePlus or Choi, or cut.",
+      "claims": [
+        {
+          "text": "Gout results from chronic elevation of urate above the saturation point for crystal formation; problem is when it stays high long enough to crystallize",
+          "quote": "Gout is a crystal-deposition disease that results from chronic elevation of uric acid levels above the saturation point for monosodium urate (MSU) crystal formation.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Gout first shows as severely painful joint attacks; joint damage and tophi can develop over time",
+          "quote": "Initial presentation is mainly severely painful episodes of peripheral joint synovitis (acute self-limiting 'attacks') but joint damage and deformity, chronic usage-related pain and subcutaneous tophus deposition can eventually develop.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Gout risk reflects genetic predisposition, diet, other health conditions, and medicines that influence uric acid",
+          "quote": "supporting the importance of genetic predisposition. Socioeconomic and dietary factors, as well as comorbidities and medications that can influence uric acid levels and/or facilitate MSU crystal formation, are also important",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "journal",
+      "cited_as": "Choi HK, Soriano LC, Zhang Y, Rodríguez LA. Antihypertensive drugs and risk of incident gout among patients with hypertension: population based case-control study. BMJ. 2012;344:d8190.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22240117/",
+      "pmid": "22240117",
+      "pmcid": "PMC3257215",
+      "doi": "10.1136/bmj.d8190",
+      "record_title": "Antihypertensive drugs and risk of incident gout among patients with hypertension: population based case-control study.",
+      "record_journal": "BMJ",
+      "record_year": "2012",
+      "article_type": "Comparative Study; Journal Article (nested case-control)",
+      "retrieved_with": "PubMed connector get_article_metadata (article types checked: no Retracted Publication or Retraction Notice)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status from PubMed article types. Title in reference list corrected to include the subtitle.",
+      "claims": [
+        {
+          "text": "In a large UK case-control study, diuretics were associated with higher and losartan with lower gout risk",
+          "quote": "the multivariate relative risks of incident gout ... were ... 0.81 (0.70 to 0.94) for losartan, 2.36 (2.21 to 2.52) for diuretics",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus Medical Encyclopedia. Uric acid - blood. Review date April 1, 2025. Accessed November 7, 2026.",
+      "url": "https://medlineplus.gov/ency/article/003476.htm",
+      "version_or_date": "Review Date 4/1/2025; read 2026-11-07",
+      "retrieved_with": "WebFetch of official page (quotes extracted by the fetch tool; direct curl to medlineplus.gov was refused by this environment's proxy)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New source: replaces the unsupported NHANES attribution for normal ranges.",
+      "claims": [
+        {
+          "text": "Normal ranges 3.0 to 7.1 mg/dL women, 4.0 to 8.6 mg/dL men; 7.0 can fall inside a lab normal range",
+          "quote": "Normal values are 3.0 to 7.1 milligrams per deciliter (mg/dL) for women and 4.0 to 8.6 mg/dL for men.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Normal ranges vary by laboratory",
+          "quote": "Normal value ranges may vary slightly among different laboratories.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Goal for people treated for gout may be below 6 or below 5 mg/dL depending on clinical factors",
+          "quote": "For patients being treated for gout, the goal uric acid is either less than 6 mg/dL or 5 mg/dL based on clinical factors.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Uric acid is measured on a blood sample; test checks for a high level",
+          "quote": "A blood sample is needed. ... This test is done to see if you have a high level of uric acid in your blood.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Do not eat or drink for 4 hours before the test unless told otherwise",
+          "quote": "You should not eat or drink anything for 4 hours before the test unless told otherwise.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Many medicines can interfere with blood test results",
+          "quote": "Many medicines can interfere with blood test results.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Raises urate: some diuretics, alcohol, obesity, fructose, kidney failure, purine-rich diet, dehydration",
+          "quote": "Greater-than-normal levels of uric acid (hyperuricemia) may be due to: ... Alcohol (ethanol) consumption ... Dehydration ... Fructose consumption ... Medicines such as cyclosporine, diuretics ... Obesity ... Purine-rich diet ... Renal failure",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Purine-rich foods include liver, anchovies, mackerel, red meat, shellfish",
+          "quote": "Foods with a high content of purines include liver, anchovies, mackerel, red meat, shellfish, dried beans and peas, and beer.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Lowers urate / low levels linked to: low-purine diet, losartan, fenofibrate, atorvastatin, probenecid, Fanconi syndrome, SIADH",
+          "quote": "Lower-than-normal levels of uric acid may be due to: Fanconi syndrome ... Low purine diet ... Medicines such as atorvastatin, captopril, enalapril, fenofibrate, losartan, probenecid, and trimethoprim-sulfamethoxazole ... (SIADH) secretion",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Rapid destruction of cancer cells during cancer treatment can raise uric acid quickly",
+          "quote": "Rapid destruction of cancerous cells or weight loss, which may occur with such treatments, can rapidly increase the amount of uric acid in your blood.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus Medical Tests. Uric Acid Test. Last updated July 15, 2026. Accessed November 7, 2026.",
+      "url": "https://medlineplus.gov/lab-tests/uric-acid-test/",
+      "version_or_date": "Last updated July 15, 2026; read 2026-11-07",
+      "retrieved_with": "WebFetch of official page (quotes extracted by the fetch tool)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New source for terminology, low levels, kidney stones and test uses.",
+      "claims": [
+        {
+          "text": "Uric acid, serum urate and UA name the same test",
+          "quote": "Other names: serum urate, UA, uric acid: serum and urine",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Uric acid is a waste product of purine breakdown; purines come from dying cells and foods; uric acid dissolves in blood and is filtered by the kidneys",
+          "quote": "Uric acid is a normal waste product that your body makes when it breaks down chemicals called purines. These chemicals come from your cells when they die and can be found in certain foods and beverages.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Normally uric acid dissolves in blood and is filtered out by the kidneys",
+          "quote": "Normally, uric acid dissolves in your blood and is filtered out by the kidneys.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Many people have high uric acid without health problems",
+          "quote": "Many people have high levels of uric acid without having health problems.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Low uric acid levels are uncommon and usually do not cause health problems",
+          "quote": "Low levels of uric acid in blood are uncommon and usually don’t cause health problems.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "High uric acid can cause kidney stones or kidney failure, though not everyone with high levels has these problems",
+          "quote": "High uric acid levels can also cause kidney stones, or kidney failure. ... not everyone with high levels of uric acid will have these problems.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Blood test helps diagnose gout, usually with joint-fluid analysis",
+          "quote": "Help diagnose gout, usually when done with a synovial fluid analysis.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Test used to monitor uric acid in people having chemotherapy",
+          "quote": "Monitor uric acid levels in people who are having cancer chemotherapy or certain other cancer treatments.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "journal",
+      "cited_as": "Pascual E, Andrés M, Vela P. Gout treatment: should we aim for rapid crystal dissolution? Annals of the Rheumatic Diseases. 2013;72(5):635-637.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23322814/",
+      "pmid": "23322814",
+      "doi": "10.1136/annrheumdis-2012-202594",
+      "record_title": "Gout treatment: should we aim for rapid crystal dissolution?",
+      "record_journal": "Ann Rheum Dis",
+      "record_year": "2013",
+      "article_type": "Journal Article (short expert article; not a trial)",
+      "retrieved_with": "PubMed connector get_article_metadata (article types checked: no Retracted Publication or Retraction Notice); PubMed search_articles; abstract only",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status from PubMed article types. New source for the 6.8 mg/dL saturation point and crystal dissolution. The authors' view that lower targets are appropriate is not presented in the guide as a recommendation.",
+      "claims": [
+        {
+          "text": "Saturation point about 6.8 mg/dL; crystals can form above it and dissolve slowly below it, with certainty below 6 mg/dL",
+          "quote": "it is reversible and slowly dissolves when serum uric acid (SUA) is lowered below its saturation point of about 6.8 mg/dl and with certainty below 6 mg/dl.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Crystal deposition grows while hyperuricemia persists (crystals form above saturation)",
+          "quote": "Monosodium urate crystal deposition in gout precedes the first attack and, while hyperuricaemia persists, it grows and expands to other sites.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "journal",
+      "cited_as": "Lee JS, Kwon OC, Oh JS, et al. Clinical features and recurrent attack in gout patients according to serum urate levels during an acute attack. The Korean Journal of Internal Medicine. 35(1):240-248. Published online January 28, 2019.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30685959/",
+      "pmid": "30685959",
+      "pmcid": "PMC6960048",
+      "doi": "10.3904/kjim.2018.205",
+      "record_title": "Clinical features and recurrent attack in gout patients according to serum urate levels during an acute attack.",
+      "record_journal": "Korean J Intern Med",
+      "record_year": "2019",
+      "article_type": "Journal Article (retrospective cohort)",
+      "retrieved_with": "PubMed connector get_article_metadata (article types checked: no Retracted Publication or Retraction Notice); PubMed search_articles; abstract only",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status from PubMed article types. New source for normal urate during an acute attack. PubMed record gives publication date 2019-01-28 with volume 35, issue 1; the reference shows exactly that.",
+      "claims": [
+        {
+          "text": "In a hospital cohort of 221 people with gout, 39.8 percent had a normal serum urate during an acute attack",
+          "quote": "Among a total of 221 gout patients, 88 (39.8%) had normouricemia during an acute attack.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

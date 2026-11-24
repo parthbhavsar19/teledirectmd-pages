@@ -3,11 +3,11 @@
   "conditionShort": "cholesterol",
   "conditionSlug": "hyperlipidemia-refills-online",
   "pageTitle": "Hyperlipidemia Online Refills in {state} | TeleDirectMD",
-  "metaDescription": "Evidence-based cholesterol medication refills for {state} adults by secure video visit. Statin refill evaluation, red-flag screening, and short bridge prescriptions when appropriate. Self pay option starting at $79. Insurance is not required.",
+  "metaDescription": "Evidence-based cholesterol medication refills for {state} adults by secure video visit. Statin refill evaluation, red-flag screening, and short bridge prescriptions when appropriate. Flat $79 self-pay option. Insurance is not required.",
   "ogImageAlt": "Hyperlipidemia medication refills in {state} by TeleDirectMD",
   "hero": {
     "h1": "Hyperlipidemia Medication Refills in {state} (Statin Refill Care)",
-    "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
+    "subtitle": "{state} adult care by secure video visit, flat $79 self-pay option, MD-only, insurance is not required.",
     "introParagraph": "Adults often search for online cholesterol medication refills when they are running low on a statin or other lipid-lowering therapy, but not every refill request is safe to handle as routine telehealth. The ACC/AHA 2018 Guideline on the Management of Blood Cholesterol identifies statins as the cornerstone of atherosclerotic cardiovascular disease (ASCVD) risk reduction, and abrupt discontinuation of statin therapy is associated with increased cardiovascular event risk. TeleDirectMD uses a safety-first telemedicine approach by reviewing your current medication, dose, adherence history, most recent lipid panel results, any muscle symptoms, liver concerns, and whether this looks like a stable refill request or a situation requiring in-person evaluation with updated labs. If the history supports a lower-risk bridge refill, treatment may be reasonable by video visit, while adults with signs of rhabdomyolysis, new liver dysfunction, or no recent lab monitoring are directed to in-person care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
       {
@@ -32,7 +32,7 @@
       }
     ],
     "benefits": [
-      "Self pay option starting at $79",
+      "Flat $79 self-pay option",
       "MD-only care (no mid-levels)",
       "Insurance is not required",
       "Licensed telehealth care for patients located in {state} at the time of the visit"
@@ -109,7 +109,7 @@
     "rows": [
       {
         "option": "TeleDirectMD",
-        "cost": "Self pay option starting at $79",
+        "cost": "Flat $79 self-pay option",
         "wait": "Same day, often within hours",
         "provider": "Board-certified MD only (no mid-levels)",
         "bestFor": "Stable statin and lipid-lowering medication refill requests, bridge refill care with safety screening, and clear follow-up guidance",
@@ -117,7 +117,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Same-day in-person evaluation when new symptoms such as severe muscle pain or chest pain develop on statin therapy",
@@ -125,7 +125,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Suspected rhabdomyolysis with dark urine and severe muscle pain, chest pain, or acute cardiovascular events",
@@ -133,7 +133,7 @@
       },
       {
         "option": "Primary Care or Cardiology",
-        "cost": "$100 to $350+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks",
         "provider": "MD or DO",
         "bestFor": "Long-term lipid management, cardiovascular risk assessment, statin dose optimization, lab monitoring, and management of statin intolerance",
@@ -190,7 +190,7 @@
     "sectionTitle": "What Do Online Cholesterol Medication Refills Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "$79 flat visit · no insurance required · generic statins often $4–$15/month",
+    "priceSubtext": "$79 flat visit · no insurance required · prescriptions priced separately",
     "includes": [
       "MD evaluation and red-flag screening",
       "Statin and lipid-lowering medication refill review",
@@ -204,27 +204,9 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care or Cardiology",
-        "value": "$100 to $350+",
-        "width": 52,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 60,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
-    "footnote": "Total cost is transparent: the $79 visit plus a generic statin like atorvastatin or simvastatin (often $4–$15 per month) means most patients pay about $83–$94 all-in for a stable refill — no membership, no repeat lab draw at every single visit.",
+    "footnote": "Total cost is transparent: the visit is $79 flat, and any prescription is paid separately at the pharmacy, where prices vary by medication and pharmacy. No membership, no repeat lab draw at every single visit.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -454,21 +436,13 @@
         "Ezetimibe 10 mg",
         "Add-on to statin therapy for additional LDL lowering, or monotherapy for statin-intolerant patients",
         "Reduces LDL by an additional 15 to 20 percent. Generally well tolerated. Can be combined with any statin. Not a controlled substance."
-      ],
-      [
-        "Bempedoic acid",
-        "Bempedoic acid 180 mg (Nexletol), bempedoic acid/ezetimibe (Nexlizet)",
-        "Alternative for statin-intolerant patients or add-on when statin plus ezetimibe is insufficient",
-        "ACL inhibitor that works in the liver, not muscle, so less myalgia risk. Can increase uric acid. Usually managed by primary care or cardiology. Not a controlled substance."
-      ],
-      [
-        "Omega-3 fatty acid (prescription)",
-        "Icosapent ethyl 2 g twice daily (Vascepa)",
-        "Elevated triglycerides in patients already on statin therapy with ASCVD or high triglycerides",
-        "REDUCE-IT trial showed cardiovascular benefit. Different from OTC fish oil supplements. Usually initiated by primary care or cardiology. Not a controlled substance."
       ]
     ],
-    "note": "Medication selection and dosing are individualized by the MD after reviewing your lipid levels, cardiovascular risk, current regimen, side effect history, and overall health. All cholesterol medications listed are not controlled substances. TeleDirectMD does not prescribe controlled substances, and refill treatment online is intended as bridge care when clinically appropriate."
+    "note": "Medication selection and dosing are individualized by the MD after reviewing your lipid levels, cardiovascular risk, current regimen, side effect history, and overall health. All cholesterol medications listed are not controlled substances. TeleDirectMD does not prescribe controlled substances, and refill treatment online is intended as bridge care when clinically appropriate. Refill lab rule: a lipid panel (and ALT if there is a liver history) from the last 12 months is required, either uploaded before the visit or ordered through Quest at the visit; without one, the physician may provide no more than a 30-day bridge supply while the lab is obtained.",
+    "notPrescribed": [
+      "Bempedoic acid (Nexletol, Nexlizet) and icosapent ethyl (Vascepa): not prescribed by TeleDirectMD.",
+      "PCSK9 inhibitors and other injectables."
+    ]
   },
   "homeCare": {
     "sectionTitle": "Home Care, Prevention, and Follow-up",
@@ -546,7 +520,7 @@
       },
       {
         "question": "How much does an online cholesterol medication refill visit cost in {state}?",
-        "answer": "TeleDirectMD offers a transparent self pay option starting at $79 for an adult video visit in {state}. Insurance is not required. Prescription costs are separate and vary by medication and pharmacy. Generic statins such as atorvastatin and simvastatin are typically $4 to $15 per month at most pharmacies."
+        "answer": "TeleDirectMD offers a transparent flat $79 self-pay option for an adult video visit in {state}. Insurance is not required. Prescription costs are separate and vary by medication and pharmacy. Generic statins such as atorvastatin and simvastatin are typically $4 to $15 per month at most pharmacies."
       },
       {
         "question": "Can I refill my statin online?",
@@ -566,7 +540,7 @@
       },
       {
         "question": "How often do I need blood work while on a statin?",
-        "answer": "The ACC/AHA guidelines recommend a fasting lipid panel at least annually to confirm that LDL-C remains at goal. Liver function testing is recommended if symptoms of hepatotoxicity develop. CK levels should be checked if significant muscle pain or weakness occurs. If you have not had lab work in over 12 months, schedule blood work with your primary care physician."
+        "answer": "The ACC/AHA 2018 guideline recommends a lipid panel 4 to 12 weeks after starting or adjusting a statin, then every 3 to 12 months as needed, to confirm LDL-C response and adherence; a nonfasting sample is acceptable for most patients. Liver function testing is recommended if symptoms of hepatotoxicity develop. CK levels should be checked if significant muscle pain or weakness occurs. If you have not had lab work in over 12 months, schedule blood work with your primary care physician."
       },
       {
         "question": "What happens if I stop taking my statin?",
@@ -594,7 +568,7 @@
       },
       {
         "question": "How much does a cholesterol medication refill cost online without insurance in {state}?",
-        "answer": "The visit is $79 flat, no insurance required, and generic statins like atorvastatin or simvastatin typically cost $4 to $15 per month, so most patients pay under $95 total for the visit plus a month's supply."
+        "answer": "The visit is $79 flat, paid at booking, with no insurance required. Any prescription is paid separately at the pharmacy, and its price varies by medication and pharmacy, so ask the pharmacy for its price before you fill it."
       },
       {
         "question": "What happens if I stop my statin for a few weeks before getting a refill in {state}?",
@@ -616,8 +590,8 @@
       "url": "https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia"
     },
     {
-      "text": "Statin Safety and Associated Adverse Events, StatPearls (2025)",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK541024/"
+      "text": "Statin Medications, StatPearls (2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK430940/"
     },
     {
       "text": "Hyperlipidemia Overview, StatPearls (2025)",
@@ -632,8 +606,7 @@
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
       "TeleDirectMD provides MD-only virtual care for adults (18+) in {state} using secure video visits to evaluate cholesterol medication refill requests, provide evidence-based guidance, and prescribe short bridge refill treatment when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
-      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during suspected rhabdomyolysis, liver dysfunction, or acute cardiovascular events. This service is intended for selected stable refill requests and is not a substitute for comprehensive lipid management, cardiovascular risk assessment, or specialist evaluation when clinically indicated.",
-      "Online cholesterol medication refills in {state}. Statin refill online. Atorvastatin refill. Rosuvastatin refill. Lipid-lowering medication bridge care."
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during suspected rhabdomyolysis, liver dysfunction, or acute cardiovascular events. This service is intended for selected stable refill requests and is not a substitute for comprehensive lipid management, cardiovascular risk assessment, or specialist evaluation when clinically indicated."
     ]
   },
   "relatedConditions": [
@@ -769,10 +742,6 @@
       {
         "name": "Ezetimibe",
         "id": "ezetimibe"
-      },
-      {
-        "name": "Bempedoic acid",
-        "id": "bempedoic-acid"
       }
     ],
     "treatments": [
