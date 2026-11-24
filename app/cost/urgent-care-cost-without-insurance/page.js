@@ -251,7 +251,6 @@ export default function UrgentCareCostPage() {
         </nav>
 
         <header className="ucx-head">
-          <span className="ucx-badge">Cost data, 2026</span>
           <h1 className="ucx-h1">{TITLE}</h1>
           <p className="ucx-sub">
             Public benchmarks from Medicare, employer health plans and the national pharmacy cost survey, with what each
@@ -277,22 +276,6 @@ export default function UrgentCareCostPage() {
             per urgent care visit in 2022
             <Cite id="ref-hcci" />. X-rays, lab tests and prescriptions are billed on top.
           </p>
-          <ul className="ucx-keys">
-            <li>
-              <span className="ucx-key-n">{range([low13.v99213[0], high13.v99213[1]])}</span>
-              <span className="ucx-key-l">
-                Medicare 2026 returning-patient visit, lowest ({low13.state}) to highest ({high13.state}) area
-              </span>
-            </li>
-            <li>
-              <span className="ucx-key-n">{usd(N.x71046)}</span>
-              <span className="ucx-key-l">Medicare 2026 national amount, two-view chest x-ray</span>
-            </li>
-            <li>
-              <span className="ucx-key-n">Under $10</span>
-              <span className="ucx-key-l">What pharmacies paid for each of four common generic courses below</span>
-            </li>
-          </ul>
         </section>
 
         <figure className="ucx-hero">
@@ -300,7 +283,7 @@ export default function UrgentCareCostPage() {
             src={HERO}
             alt="Illustration of an urgent care clinic, a price tag and a paid receipt"
             width="1536"
-            height="1024"
+            height="500"
             loading="lazy"
           />
         </figure>
@@ -367,7 +350,8 @@ export default function UrgentCareCostPage() {
           <p>
             Medicare adjusts its rates for local costs. Where a state has more than one Medicare payment area, the table
             shows the lowest and highest. Use it as a reference point when a clinic quotes you a self-pay price; it is
-            not what any clinic must charge.
+            not what any clinic must charge. For a returning-patient visit, the 2026 amounts run from{' '}
+            {usd(low13.v99213[0])} in {low13.state} to {usd(high13.v99213[1])} in the highest-cost part of {high13.state}.
           </p>
           <p>
             <a className="ucx-dl" href={CSV_PATH} download>
@@ -626,59 +610,47 @@ export default function UrgentCareCostPage() {
 }
 
 const CSS = `
-.ucx{--ucx-navy:#003E52;--ucx-ink:#14232b;--ucx-muted:#4a5a62;--ucx-cream:#FBF6EE;--ucx-card:#ffffff;--ucx-line:#e6ddd0;--ucx-coral:#ff5a36;--ucx-coral-ink:#1a0b06;--ucx-teal:#0C8F99;--ucx-soft:#f4efe6;
-  background:var(--ucx-cream);color:var(--ucx-ink);font-family:'DM Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.65;padding:8px 0 56px}
+.ucx{--ucx-navy:#003E52;--ucx-ink:#16242b;--ucx-muted:#4f5f67;--ucx-bg:#ffffff;--ucx-line:#dfe5e8;--ucx-head:#f3f6f7;--ucx-coral:#ff5a36;--ucx-coral-ink:#1a0b06;--ucx-teal:#0C8F99;
+  background:var(--ucx-bg);color:var(--ucx-ink);font-family:'DM Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.65;padding:8px 0 56px}
 .ucx *{box-sizing:border-box}
-.ucx-wrap{max-width:880px;margin:0 auto;padding:0 20px}
+.ucx-wrap{max-width:860px;margin:0 auto;padding:0 20px}
 .ucx a{color:var(--ucx-navy);text-underline-offset:2px}
-.ucx-crumbs{display:flex;flex-wrap:wrap;gap:6px;font-size:14px;color:var(--ucx-muted);padding:16px 0 8px}
+.ucx-crumbs{display:flex;flex-wrap:wrap;gap:6px;font-size:14px;color:var(--ucx-muted);padding:18px 0 6px}
 .ucx-crumbs a{color:var(--ucx-muted)}
-.ucx-head{padding:12px 0 20px}
-.ucx-badge{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ucx-navy);background:#e7f1f3;border-radius:999px;padding:5px 12px}
-.ucx-h1{font-family:'Fraunces',Georgia,serif;font-weight:600;color:var(--ucx-navy);font-size:clamp(30px,5vw,46px);line-height:1.12;letter-spacing:-.01em;margin:14px 0 12px}
-.ucx-sub{font-size:clamp(17px,2.2vw,19px);color:var(--ucx-muted);margin:0 0 14px;max-width:760px}
-.ucx-meta{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;color:var(--ucx-muted)}
+.ucx-head{padding:10px 0 18px;border-bottom:1px solid var(--ucx-line);margin-bottom:24px}
+.ucx-h1{font-family:'Fraunces',Georgia,serif;font-weight:600;color:var(--ucx-navy);font-size:clamp(30px,5vw,44px);line-height:1.14;letter-spacing:-.01em;margin:8px 0 12px}
+.ucx-sub{font-size:clamp(17px,2.2vw,19px);color:var(--ucx-muted);margin:0 0 12px;max-width:760px}
+.ucx-meta{font-size:14px;color:var(--ucx-muted)}
+.ucx-answer{margin:0 0 28px}
+.ucx-answer-label{font-family:'Fraunces',Georgia,serif;font-size:clamp(21px,2.8vw,25px);font-weight:600;color:var(--ucx-navy);margin:0 0 8px}
+.ucx-answer p{margin:0;font-size:18px;line-height:1.7}
 .ucx-hero{margin:0 0 36px}
-.ucx-hero img{display:block;width:100%;height:auto;aspect-ratio:2/1;object-fit:cover;border-radius:14px;border:1px solid var(--ucx-line)}
-.ucx-answer{background:var(--ucx-card);border:1px solid var(--ucx-line);border-left:6px solid var(--ucx-coral);border-radius:14px;padding:22px 24px;margin:0 0 36px;box-shadow:0 2px 10px rgba(0,62,82,.05)}
-.ucx-answer-label{font-family:'DM Sans',sans-serif;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ucx-coral);margin:0 0 8px}
-.ucx-answer p{margin:0 0 16px;font-size:17px}
-.ucx-keys{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
-.ucx-keys li{background:var(--ucx-soft);border-radius:10px;padding:12px 14px}
-.ucx-key-n{display:block;font-family:'Fraunces',Georgia,serif;font-size:21px;font-weight:600;color:var(--ucx-navy);line-height:1.25}
-.ucx-key-l{display:block;font-size:13.5px;color:var(--ucx-muted);line-height:1.45;margin-top:4px}
+.ucx-hero img{display:block;width:100%;height:auto}
 .ucx-sec{margin:0 0 40px}
-.ucx-h2{font-family:'Fraunces',Georgia,serif;font-weight:600;color:var(--ucx-navy);font-size:clamp(23px,3.2vw,30px);line-height:1.25;margin:0 0 14px}
-.ucx-h3{font-family:'DM Sans',sans-serif;font-weight:700;color:var(--ucx-ink);font-size:18px;margin:22px 0 6px}
+.ucx-h2{font-family:'Fraunces',Georgia,serif;font-weight:600;color:var(--ucx-navy);font-size:clamp(23px,3.2vw,29px);line-height:1.25;margin:0 0 12px}
+.ucx-h3{font-family:'DM Sans',sans-serif;font-weight:700;color:var(--ucx-ink);font-size:17px;margin:22px 0 6px}
 .ucx-sec p{margin:0 0 12px}
 .ucx-note{font-size:14px;color:var(--ucx-muted)}
 .ucx-cite{font-size:.72em;line-height:0;margin-left:1px}
 .ucx-cite a{text-decoration:none;font-weight:600}
-.ucx-table-wrap{overflow-x:auto;border:1px solid var(--ucx-line);border-radius:12px;background:var(--ucx-card);margin:8px 0 12px}
+.ucx-table-wrap{overflow-x:auto;border-top:2px solid var(--ucx-navy);margin:8px 0 12px}
 .ucx-table-wrap:focus{outline:2px solid var(--ucx-teal);outline-offset:2px}
-.ucx-tall{max-height:560px;overflow-y:auto}
+.ucx-tall{max-height:560px;overflow-y:auto;border-bottom:1px solid var(--ucx-line)}
 .ucx-table{width:100%;border-collapse:collapse;font-size:15px}
-.ucx-table th,.ucx-table td{padding:11px 14px;text-align:left;vertical-align:top;border-bottom:1px solid var(--ucx-line)}
-.ucx-table thead th{background:var(--ucx-navy);color:#fff;font-size:13.5px;font-weight:700;position:sticky;top:0;z-index:1}
+.ucx-table th,.ucx-table td{padding:10px 12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--ucx-line)}
+.ucx-table thead th{background:var(--ucx-bg);color:var(--ucx-ink);font-size:13.5px;font-weight:700;position:sticky;top:0;z-index:1;box-shadow:inset 0 -1px 0 var(--ucx-ink)}
 .ucx-table tbody th{font-weight:600}
-.ucx-table tbody tr:last-child th,.ucx-table tbody tr:last-child td{border-bottom:0}
 .ucx-num{font-variant-numeric:tabular-nums;white-space:nowrap}
-.ucx-states tbody tr:nth-child(even){background:#fbf9f5}
-.ucx-natl{background:#e7f1f3 !important}
+.ucx-natl th,.ucx-natl td{font-weight:700;background:var(--ucx-head)}
 .ucx-loc{font-weight:400;color:var(--ucx-muted);font-size:13px}
-.ucx-dl{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:15px;border:1.5px solid var(--ucx-navy);border-radius:999px;padding:7px 16px;text-decoration:none}
-.ucx-dl::before{content:'↓'}
+.ucx-dl{font-weight:700;font-size:15px}
 .ucx-byline{font-size:14px;color:var(--ucx-muted);margin-top:-6px}
-.ucx-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-.ucx-card{background:var(--ucx-card);border:1px solid var(--ucx-line);border-radius:12px;padding:16px 18px}
-.ucx-card .ucx-h3{margin-top:0}
+.ucx-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;border-top:1px solid var(--ucx-line);padding-top:6px}
+.ucx-card .ucx-h3{margin-top:12px}
 .ucx-card p{font-size:15px;margin:0}
-.ucx-card-er{border-color:#e9b3a5;background:#fff6f3}
-.ucx-tdmd{background:var(--ucx-navy);color:#eef6f8;border-radius:16px;padding:26px 26px 28px}
-.ucx-tdmd .ucx-h2{color:#fff}
-.ucx-tdmd a{color:#ffd9cd}
-.ucx-tdmd strong{color:#fff}
-.ucx .ucx-cta{display:inline-block;margin-top:8px;background:var(--ucx-coral);color:var(--ucx-coral-ink);font-weight:700;font-size:16px;font-family:'DM Sans',sans-serif;border-radius:999px;padding:12px 24px;text-decoration:none}
+.ucx-card-er .ucx-h3{color:#b3261e}
+.ucx-tdmd{border-top:2px solid var(--ucx-navy);border-bottom:1px solid var(--ucx-line);padding:20px 0 24px}
+.ucx .ucx-cta{display:inline-block;margin-top:6px;background:var(--ucx-coral);color:var(--ucx-coral-ink);font-weight:700;font-size:16px;font-family:'DM Sans',sans-serif;border-radius:8px;padding:11px 22px;text-decoration:none}
 .ucx .ucx-cta:hover{background:#ff7a5c}
 .ucx-method ul{margin:0;padding-left:20px}
 .ucx-method li{margin:0 0 8px}
@@ -688,23 +660,15 @@ const CSS = `
 .ucx-disclaimer{font-size:14px;color:var(--ucx-muted);border-top:1px solid var(--ucx-line);padding-top:16px}
 .ucx-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media (max-width:760px){
-  .ucx-keys,.ucx-cards{grid-template-columns:1fr}
-  .ucx-answer{padding:18px}
+  .ucx-cards{grid-template-columns:1fr;gap:4px}
+  .ucx-answer p{font-size:17px}
   .ucx-table{font-size:14px}
-  .ucx-table th,.ucx-table td{padding:9px 10px}
-  .ucx-tdmd{padding:22px 18px}
+  .ucx-table th,.ucx-table td{padding:9px 8px}
 }
 ${darkCSS(`
-DARK .ucx{--ucx-navy:#a0d8e8;--ucx-ink:#e2edf0;--ucx-muted:#9fb6bf;--ucx-cream:#0a171c;--ucx-card:#122028;--ucx-line:#33505d;--ucx-soft:#0f1f24}
-DARK .ucx-badge{background:#16323b;color:#a0d8e8}
-DARK .ucx-table thead th{background:#16323b;color:#e2edf0}
-DARK .ucx-states tbody tr:nth-child(even){background:#0f1f24}
-DARK .ucx-natl{background:#16323b !important}
-DARK .ucx-card-er{background:#2a1712;border-color:#7a3a2a}
-DARK .ucx-tdmd{background:#0f2a33;color:#e2edf0}
-DARK .ucx-tdmd .ucx-h2,DARK .ucx-tdmd strong{color:#fff}
-DARK .ucx-tdmd a{color:#ffb39f}
+DARK .ucx{--ucx-navy:#a0d8e8;--ucx-ink:#e2edf0;--ucx-muted:#9fb6bf;--ucx-bg:#0a171c;--ucx-line:#2a4350;--ucx-head:#10232a}
+DARK .ucx-card-er .ucx-h3{color:#ff8a75}
+DARK .ucx-hero img{filter:brightness(.92);border-radius:10px}
 DARK .ucx .ucx-cta{color:#1a0b06}
-DARK .ucx-hero img{border-color:#33505d}
 `)}
 `;
