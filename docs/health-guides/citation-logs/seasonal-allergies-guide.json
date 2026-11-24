@@ -1,0 +1,875 @@
+{
+ "guide": "seasonal-allergies-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 7 verified, retractions: none (no editorial notices, no contrasting evidence flagged, no predatory journals). PubMed article types checked: no Retracted Publication or Retraction Notice.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "agency_page",
+   "cited_as": "National Center for Health Statistics. Diagnosed Allergic Conditions in Adults: United States, 2024. NCHS Data Brief No. 545, January 2026. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/nchs/products/databriefs/db545.htm",
+   "version_or_date": "NCHS Data Brief No. 545, January 2026 (first published January 8, 2026)",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "About one in four U.S. adults (25.2%) had a diagnosed seasonal allergy in 2024",
+     "quote": "One-quarter of adults had a seasonal allergy (25.2%).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Diagnosed seasonal allergy prevalence by age: 24.3% at 18 to 44, 27.7% at 45 to 64 (FAQ on adult onset)",
+     "quote": "The prevalence of seasonal allergies increased from 24.3% in adults ages 18–44 to 27.7% in those 45–64",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "other_web",
+   "cited_as": "Asthma and Allergy Foundation of America. Allergy Facts and Figures. Last updated April 2026. Accessed November 15, 2026.",
+   "url": "https://aafa.org/allergies/allergy-facts/",
+   "version_or_date": "Last updated April 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "AAFA's counts are its own estimates built on CDC data; NCHS Data Brief 545 gives percentages only and covers adults only.",
+   "claims": [
+    {
+     "text": "AAFA estimates more than 82 million people, about 67 million adults and 14 million children, diagnosed with seasonal allergies in 2024",
+     "quote": "In 2024, more than 82 million people in the U.S. were diagnosed with seasonal allergic rhinitis (seasonal allergies). Around 67 million adults, which is 25 out of 100 adults. Around 14 million children, which is 21 out of 100 children.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "More than 106 million people in the U.S. experience various types of allergies each year",
+     "quote": "More than 106 million people in the U.S. experience various types of allergies each year.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "other_web",
+   "cited_as": "Climate Central. Longer Growing Season, Longer Allergy Season in 172 U.S. Cities. March 5, 2025. Accessed November 15, 2026.",
+   "url": "https://www.climatecentral.org/climate-matters/2025-allergy-season",
+   "version_or_date": "March 5, 2025",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Climate change is making pollen seasons longer and more intense",
+     "quote": "Climate change makes pollen seasons not only longer, but also more intense due to heat-trapping pollution.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Freeze-free season lengthened in 172 of 198 cities since 1970, by 20 days on average, giving plants more time to release pollen earlier in spring and later into fall",
+     "quote": "The freeze-free season lengthened in 87% (172) of the 198 cities analyzed since 1970. These 172 cities saw their freeze-free season lengthen by 20 days on average.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Longer seasons give plants more time to release pollen earlier in spring and later into fall",
+     "quote": "giving plants more time to grow and release allergy-inducing pollen earlier in spring and later into fall.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "guideline",
+   "cited_as": "Dykewicz MS, Wallace DV, Amrol DJ, et al. Rhinitis 2020: A practice parameter update. J Allergy Clin Immunol. 2020;146(4):721-767. doi:10.1016/j.jaci.2020.07.007",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32707227/",
+   "pmid": "32707227",
+   "doi": "10.1016/j.jaci.2020.07.007",
+   "record_title": "Rhinitis 2020: A practice parameter update.",
+   "record_journal": "J Allergy Clin Immunol",
+   "record_year": "2020",
+   "article_type": "Journal Article; Review (PubMed type); practice parameter by title",
+   "version_or_date": "Rhinitis 2020 practice parameter update (published 2020)",
+   "retrieved_with": "PubMed get_article_metadata (abstract) and PubMed corporate-author search; Scite verify_papers; publisher page not read (Elsevier redirect with text-and-data-mining reservation)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Corporate author field matched 'Joint Task Force' and 'Practice Parameters' in PubMed field search. Sponsorship by AAAAI/ACAAI not stated in the retrieved abstract; publisher page not read (Elsevier redirect carries a text-and-data-mining reservation). PubMed article type is Review.",
+   "claims": [
+    {
+     "text": "Intranasal corticosteroids are the preferred monotherapy (single medicine) for persistent allergic rhinitis",
+     "quote": "Intranasal corticosteroids (INCS) remain the preferred monotherapy for persistent AR",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Added benefit from combining an intranasal corticosteroid with an intranasal antihistamine",
+     "quote": "additional studies support the additive benefit of combination treatment with INCS and intranasal antihistamines in both AR and NAR.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Montelukast should be reserved for inadequate response or intolerance to alternative therapies",
+     "quote": "Montelukast should only be used for AR if there has been an inadequate response or intolerance to alternative therapies.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Guidelines match treatment to severity and combine medicines when one is not enough (practice parameter algorithms)",
+     "quote": "Algorithms based on a combination of evidence and expert opinion are provided to guide in the selection of pharmacologic options for intermittent and persistent AR and NAR.",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Practice parameter is from the Joint Task Force on Practice Parameters (Rhinitis 2020 update)",
+     "quote": "Rhinitis 2020: A practice parameter update.",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "guideline",
+   "cited_as": "Seidman MD, Gurgel RK, Lin SY, et al. Clinical practice guideline: Allergic rhinitis. Otolaryngol Head Neck Surg. 2015;152(1 Suppl):S1-43. doi:10.1177/0194599814561600",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25644617/",
+   "pmid": "25644617",
+   "doi": "10.1177/0194599814561600",
+   "record_title": "Clinical practice guideline: Allergic rhinitis.",
+   "record_journal": "Otolaryngol Head Neck Surg",
+   "record_year": "2015",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "AAO-HNSF clinical practice guideline, February 2015",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Strong recommendation for intranasal steroids when symptoms affect quality of life",
+     "quote": "The development group made a strong recommendation that clinicians recommend intranasal steroids for patients with a clinical diagnosis of AR whose symptoms affect their quality of life.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Strong recommendation for oral second-generation antihistamines when sneezing and itching are the main complaints",
+     "quote": "The development group also made a strong recommendation that clinicians recommend oral second-generation/less sedating antihistamines for patients with AR and primary complaints of sneezing and itching.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Combination therapy is an option when one medicine is not enough",
+     "quote": "Clinicians may offer combination pharmacologic therapy in patients with AR who have inadequate response to pharmacologic monotherapy.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Allergy testing when empiric treatment fails, diagnosis uncertain, or specific allergen needed to target therapy",
+     "quote": "specific IgE (skin or blood) allergy testing ... who do not respond to empiric treatment, or when the diagnosis is uncertain, or when knowledge of the specific causative allergen is needed to target therapy.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Offer immunotherapy (sublingual or subcutaneous) when response to medicines is inadequate",
+     "quote": "Clinicians should offer, or refer to a clinician who can offer, immunotherapy (sublingual or subcutaneous) for patients with AR who have inadequate response to symptoms with pharmacologic therapy with or without environmental controls.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clinicians should check people with allergic rhinitis for asthma, atopic dermatitis and other associated conditions",
+     "quote": "Clinicians should assess patients with a clinical diagnosis of AR for, and document in the medical record, the presence of associated conditions such as asthma, atopic dermatitis, sleep-disordered breathing, conjunctivitis, rhinosinusitis, and otitis media.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recommends against oral leukotriene receptor antagonists as primary therapy",
+     "quote": "The panel recommended against ... (2) clinicians offering oral leukotriene receptor antagonists as primary therapy for patients with AR.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Avoidance of known allergens and environmental controls, including air filtration, are options",
+     "quote": "Clinicians may advise avoidance of known allergens or may advise environmental controls (ie, removal of pets; the use of air filtration systems, bed covers, and acaricides",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Intranasal antihistamines alone are an option",
+     "quote": "Clinicians may offer intranasal antihistamines for patients with seasonal, perennial, or episodic AR.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "guideline",
+   "cited_as": "Sousa-Pinto B, Bousquet J, Vieira RJ, et al. Allergic Rhinitis and Its Impact on Asthma (ARIA)-EAACI Guidelines-2024-2025 Revision: Part I-Guidelines on Intranasal Treatments. Allergy. 2025;81(4):954-976. doi:10.1111/all.70131",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41324154/",
+   "pmid": "41324154",
+   "pmcid": "PMC13040648",
+   "doi": "10.1111/all.70131",
+   "record_title": "Allergic Rhinitis and Its Impact on Asthma (ARIA)-EAACI Guidelines-2024-2025 Revision: Part I-Guidelines on Intranasal Treatments.",
+   "record_journal": "Allergy",
+   "record_year": "2025",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "ARIA 2024-2025 revision, Part I; PubMed publication date 2025-12-01; vol 81(4):954-976",
+   "retrieved_with": "PubMed get_article_metadata + PMC get_full_text_article (PMC13040648); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces prior citation (authors were listed as Bousquet J first; PubMed record lists Sousa-Pinto B first). Part I covers intranasal treatments only, so it is no longer cited for INCS vs oral antihistamine comparisons, step-up/VAS approach, 'gold standard' wording or asthma overlap percentages. Link changed from Wiley page (not fetched) to the PubMed record that was retrieved.",
+   "claims": [
+    {
+     "text": "ARIA suggests INAH+INCS over INAH or INCS alone, and INCS over INAH (conditional recommendations)",
+     "quote": "Overall, recommendations point to the suggested use of INAH+INCS over INAH or INCS and INCS over INAH.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recommendations are conditional ('suggest'); choices should consider disease variability, patient values and affordability",
+     "quote": "However, decisions on AR treatment should consider the clinical variability of the disease, patients' values, and the affordability of medications.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Part I addressed 11 questions on intranasal treatments; EAACI-endorsed; GRADE evidence-to-decision framework",
+     "quote": "Eleven guideline questions concerning intranasal treatments for AR were prioritized, leading to recommendations.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Revision was conceived as person-centered and digitally enabled, using GRADE",
+     "quote": "ARIA 2024–2025 guidelines have been conceived as person‐centered, digitally enabled, and assisted by artificial intelligence (AI), using the GRADE approach",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Suggests against long-term intranasal decongestants (longer than 5 days)",
+     "quote": "In patients with AR, we suggest against using intranasal decongestants in the long term (longer than 5 days) over no treatment.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "INAH+INCS suggested over INCS alone, particularly for more severe symptoms",
+     "quote": "we now suggest the use of INAH+INCS over INCS (particularly among patients with more severe symptoms).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Suggests azelastine-fluticasone over olopatadine-mometasone (conditional)",
+     "quote": "In adult patients with AR, we suggest using azelastine‐fluticasone over olopatadine‐mometasone. (Conditional recommendation based on moderate certainty of evidence for seasonal AR).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Suggests INCS over intranasal antihistamines (conditional)",
+     "quote": "In patients with AR, we suggest using INCS over INAH. (Conditional recommendation based on moderate certainty of evidence).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "ARIA classifies AR as intermittent or persistent; severity matters more than duration",
+     "quote": "recent studies pointing to the higher relative importance of severity over disease duration ... the ARIA classification (which classifies AR as “persistent” or “intermittent”",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "ARIA guidelines were first written in 2001 for allergic rhinitis and asthma together",
+     "quote": "the Allergic Rhinitis and its Impact on Asthma (ARIA) group first proposed its guidelines for AR and asthma multimorbidity in 2001",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Guidelines support combination therapy when one medicine is not enough (decision table)",
+     "quote": "In patients with AR in whom monotherapy is unlikely to lead to significant improvement in symptoms, we recommend using INAH+INCS over no treatment",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Bernstein DI. Aeroallergen immunotherapy update: Developments since the third Practice Parameter. Allergy Asthma Proc. 2025;46(6):450-454. doi:10.2500/aap.2025.46.250067",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41152677/",
+   "pmid": "41152677",
+   "doi": "10.2500/aap.2025.46.250067",
+   "record_title": "Aeroallergen immunotherapy update: Developments since the third Practice Parameter.",
+   "record_journal": "Allergy Asthma Proc",
+   "record_year": "2025",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Single-author review, not a practice parameter update (prior wording corrected). Abstract only; claims limited to abstract.",
+   "claims": [
+    {
+     "text": "SLIT tablets have near-equivalent efficacy to allergy shots with a superior safety profile allowing self-administration",
+     "quote": "Both SLIT and subcutaneous immunotherapy have near equivalent efficacy, but SLIT has a superior safety profile, allowing self-administration.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Immunotherapy is a proven treatment for allergic rhinitis and asthma that can modify their natural history",
+     "quote": "Allergy immunotherapy is a proven treatment for allergic rhinitis and asthma with the potential to modify the natural history of these disorders.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most new evidence since the third practice parameter comes from large double-blind placebo-controlled SLIT tablet trials in AR, allergic asthma and atopic dermatitis",
+     "quote": "Most new evidence has come from large double-blind placebo controlled trials of SLIT tablets, which better define efficacy and safety in patients with allergic rhinitis, allergic asthma, and atopic dermatitis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "New evidence identifies risk factors for anaphylaxis to allergy shots and ways to reduce risk; shots given by allergy specialists",
+     "quote": "More evidence has emerged that identifies risk factors for anaphylaxis to subcutaneous injections and approaches to mitigate risk.Two modalities of allergy immunotherapy are available to allergy specialists.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "other_web",
+   "cited_as": "Mayo Clinic Staff. Cold or allergy: Which is it? Mayo Clinic. February 13, 2024. Accessed November 15, 2026.",
+   "url": "https://www.mayoclinic.org/diseases-conditions/common-cold/expert-answers/common-cold/faq-20057857",
+   "version_or_date": "February 13, 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Supports allergy vs cold only; sinus column now cites CDC. The page's own text says allergies don't usually cause fever and almost never cause sore throat or cough, while its symptom table says fever Never and cough Sometimes for allergy; the guide follows the more cautious wording (fever not usual; cough sometimes).",
+   "claims": [
+    {
+     "text": "People with seasonal allergies don't usually have a fever; those with a cold often do",
+     "quote": "And people with seasonal allergies don't usually have a fever, but those with a cold often do.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Colds and allergies share runny or stuffy nose and sneezing; key symptoms and regularity help tell them apart",
+     "quote": "Some symptoms of colds and allergic reactions are the same, such as a runny or stuffy nose, and sneezing. You can tell the difference between a cold and a seasonal allergy by key symptoms and how regularly symptoms appear.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cold lasts 3 to 10 days in adults, cough may last longer; seasonal allergies may last several weeks",
+     "quote": "A cold may last 3 to 10 days in adults, although a cough may last for a couple of weeks longer. Seasonal allergies may last several weeks.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sore throat rare with allergies, usual with colds; cough sometimes with allergies, usually with colds (table); fever or sore throat point toward infection",
+     "quote": "Symptom table: Sore throat | Cold: Usually | Allergy: Rarely; Cough | Cold: Usually | Allergy: Sometimes. Text: people with seasonal allergies almost never have a sore throat or a cough.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Itchy eyes usual with allergies, rarely with colds; sneezing and runny/stuffy nose usual with both",
+     "quote": "Symptom table: Itchy eyes | Cold: Rarely | Allergy: Usually; Sneezing | Usually | Usually; Runny nose | Usually | Usually; Stuffy nose | Usually | Usually",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Colds come from the immune response to a virus; allergies from the response to allergens such as pollen",
+     "quote": "Colds are caused by your immune system's response when you catch a virus. Seasonal allergies are triggered by your immune system's response to allergens, such as pollen.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Zhang Y, Steiner AL. Projected climate-driven changes in pollen emission season length and magnitude over the continental United States. Nat Commun. 2022;13(1):1234. doi:10.1038/s41467-022-28764-0",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35292649/",
+   "pmid": "35292649",
+   "pmcid": "PMC8924258",
+   "doi": "10.1038/s41467-022-28764-0",
+   "record_title": "Projected climate-driven changes in pollen emission season length and magnitude over the continental United States.",
+   "record_journal": "Nat Commun",
+   "record_year": "2022",
+   "article_type": "Journal Article (modeling study)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Modeling study (projection), described as such in the guide.",
+   "claims": [
+    {
+     "text": "Spring pollen emissions could start 10 to 40 days earlier and summer/fall weed and grass emissions 5 to 15 days later by end of century",
+     "quote": "warmer end-of-century temperatures (4-6 K) shift the start of spring emissions 10-40 days earlier and summer/fall weeds and grasses 5-15 days later and lengthen the season duration.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Total annual pollen emissions could rise 16 to 40% by end of century",
+     "quote": "increase the annual total pollen emission by 16-40% due to changes in phenology and temperature-driven pollen production.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "other_web",
+   "cited_as": "American Academy of Allergy, Asthma & Immunology. Hay Fever (Rhinitis): Symptoms, Diagnosis, Management & Treatment. Page dated 7/16/2026. Accessed November 15, 2026.",
+   "url": "https://www.aaaai.org/conditions-treatments/allergies/hay-fever-rhinitis",
+   "version_or_date": "Page shows 7/16/2026",
+   "retrieved_with": "WebFetch of official page (two reads)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "No longer cited for environmental development factors or immunotherapy indications (not on the page). Page's nasal-saline line refers to non-allergic rhinitis and is not used.",
+   "claims": [
+    {
+     "text": "Allergic rhinitis is an immune overreaction: the immune system mistakenly identifies a typically harmless substance as an intruder",
+     "quote": "your immune system mistakenly identifies a typically harmless substance as an intruder",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hay fever symptoms tend to flare up in the spring, summer and fall; perennial allergic rhinitis symptoms are year-long",
+     "quote": "Hay fever symptoms tend to flare up in the spring, summer and fall. Perennial allergic rhinitis symptoms are year-long.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Check pollen counts and limit outdoor activities when counts are high",
+     "quote": "limiting outdoor activities during times of high pollen counts. Check out pollen counts in your area.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most allergy medications for seasonal allergic rhinitis work best if started before tree pollen is in the air and before symptoms develop",
+     "quote": "Most allergy medications for seasonal allergic rhinitis (hay fever) work best if started before tree pollen is in the air each spring and before your allergy symptoms develop.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Allergy symptoms include itching of the nose, roof of the mouth, throat and eyes (comparison table)",
+     "quote": "Itching in the nose, roof of the mouth, throat, eyes",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. Sinus Infection Basics. Last reviewed April 17, 2024. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/sinus-infection/about/index.html",
+   "version_or_date": "Last reviewed April 17, 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Seasonal allergies and a previous cold are risk factors for sinus infections; most are viral, some bacterial",
+     "quote": "Viruses cause most sinus infections, but bacteria can cause some sinus infections. (Risk factors listed: 'A previous cold', 'Seasonal allergies'.)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "See a provider for symptoms lasting more than 10 days without getting better, worse after improving, fever longer than 3-4 days, severe headache or facial pain",
+     "quote": "Severe symptoms, such as severe headache or facial pain. Symptoms that get worse after improving. Symptoms lasting more than 10 days without getting better. Fever longer than 3-4 days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sinus infection symptoms: runny/stuffy nose, facial pain or pressure, headache, post-nasal drip, sore throat, cough, bad breath",
+     "quote": "Runny nose; Stuffy nose; Facial pain or pressure; Headache; Mucus dripping down the throat (post-nasal drip); Sore throat; Cough; Bad breath",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "label",
+   "cited_as": "ALK-Abello A/S. GRASTEK (timothy grass pollen allergen extract) tablet: Prescribing Information, including Boxed Warning. Revised 9/2022. DailyMed, U.S. National Library of Medicine. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ebb02ba7-de81-4367-8ba7-d774816f85b0",
+   "version_or_date": "Label text revised 9/2022 (DailyMed updated September 19, 2022; archive table lists a version dated Oct 8, 2026)",
+   "retrieved_with": "WebFetch of DailyMed label page (same setid, consumer view)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "DailyMed page read via consumer-view URL of the same setid; guide links the setid record.",
+   "claims": [
+    {
+     "text": "First dose given in a healthcare setting under physician supervision with at least 30 minutes observation; later doses at home",
+     "quote": "Administer the first dose of GRASTEK in a healthcare setting under the supervision of a physician ... After receiving the first dose of GRASTEK, observe the patient for at least 30 minutes",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Grass tablet for timothy grass pollen allergic rhinitis, approved ages 5 through 65",
+     "quote": "indicated as immunotherapy for the treatment of grass pollen-induced allergic rhinitis with or without conjunctivitis ... GRASTEK is approved for use in persons 5 through 65 years of age.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Start at least 12 weeks before grass pollen season; may be taken daily for three consecutive years",
+     "quote": "Initiate treatment at least 12 weeks before the expected onset of each grass pollen season ... GRASTEK may be taken daily for three consecutive years",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Boxed warning for life-threatening allergic reactions; epinephrine auto-injector prescribed",
+     "quote": "GRASTEK can cause life-threatening allergic reactions such as anaphylaxis and severe laryngopharyngeal restriction. ... Prescribe auto-injectable epinephrine to patients prescribed GRASTEK",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "other_web",
+   "cited_as": "American Academy of Allergy, Asthma & Immunology. Anaphylaxis Symptoms, Diagnosis, Treatment & Management. Accessed November 15, 2026.",
+   "url": "https://www.aaaai.org/conditions-treatments/allergies/anaphylaxis",
+   "version_or_date": "No page date shown; read November 15, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Anaphylaxis warning signs include swollen throat, trouble breathing, hives, passing out",
+     "quote": "Swollen throat or swollen areas of the body; Trouble breathing, cough; Red rash, with hives/welts, that is usually itchy; Passing out",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Use your epinephrine and call 911 immediately",
+     "quote": "If you think you are having an anaphylactic reaction, use your epinephrine and call 911 immediately",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "label",
+   "cited_as": "Haleon US Holdings LLC. FLONASE ALLERGY RELIEF (fluticasone propionate) spray, metered: Drug Facts. DailyMed, U.S. National Library of Medicine. Updated December 19, 2024. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b6134ba0-b70a-4eac-9a82-cef64b242c1d",
+   "version_or_date": "DailyMed updated December 19, 2024",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Stop use and ask a doctor if symptoms do not get better within 7 days of starting",
+     "quote": "your symptoms do not get better within 7 days of starting use",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Relief may start the first day, with full effect after several days of regular once-a-day use",
+     "quote": "you may start to feel relief the first day and full effect after several days of regular, once-a-day use",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Adults and children 12+: 2 sprays per nostril once daily week 1, then 1 or 2 sprays per nostril once daily as needed; ask doctor after 6 months",
+     "quote": "Week 1- use 2 sprays in each nostril once daily ... Week 2 through 6 months- use 1 or 2 sprays in each nostril once daily ... After 6 months of daily use – ask your doctor",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ask a doctor before use with glaucoma or cataracts; stop for severe or frequent nosebleeds or vision changes",
+     "quote": "Ask a doctor before use if you have or had glaucoma or cataracts. ... you get new changes to your vision that develop after starting this product ... you have severe or frequent nosebleeds",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "label",
+   "cited_as": "Bayer HealthCare LLC. AFRIN ORIGINAL (oxymetazoline hydrochloride) spray: Drug Facts. DailyMed, U.S. National Library of Medicine. Updated December 4, 2025. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=89c165ba-3ad5-49b5-a5bb-423dc8e15bad",
+   "version_or_date": "DailyMed updated December 4, 2025 (version 12)",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Do not use decongestant nasal spray more than 3 days; frequent or prolonged use may cause congestion to recur or worsen",
+     "quote": "do not use for more than 3 days. Use only as directed. Frequent or prolonged use may cause nasal congestion to recur or worsen.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Self-treatment gaps: decongestant sprays used longer than the label allows can make congestion come back or worsen (steroid-spray inconsistency part is clinical observation, uncited)",
+     "quote": "Frequent or prolonged use may cause nasal congestion to recur or worsen.",
+     "quote_source": "label",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "label",
+   "cited_as": "Kenvue Brands LLC. ZYRTEC ALLERGY (cetirizine hydrochloride) tablet, film coated: Drug Facts. DailyMed, U.S. National Library of Medicine. Updated October 10, 2025. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b165db38-b302-4220-8627-77cb07bb078c",
+   "version_or_date": "DailyMed updated October 10, 2025",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Cetirizine adults and children 6+: one 10 mg tablet once daily, max one in 24 hours",
+     "quote": "one 10 mg tablet once daily; do not take more than one 10 mg tablet in 24 hours.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Drowsiness may occur; avoid alcohol; be careful driving",
+     "quote": "drowsiness may occur ... avoid alcoholic drinks ... be careful when driving a motor vehicle or operating machinery",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Adults 65 and over: ask a doctor",
+     "quote": "Adults 65 years and over: ask a doctor",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "label",
+   "cited_as": "Bayer HealthCare LLC. CLARITIN (loratadine) tablet: Drug Facts. DailyMed, U.S. National Library of Medicine. Updated December 4, 2025. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=acf2d393-53d7-062f-e053-2995a90a0d60",
+   "version_or_date": "DailyMed updated December 4, 2025",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Loratadine adults and children 6+: 1 tablet (10 mg) daily, not more than 1 in 24 hours",
+     "quote": "Loratadine, 10 mg USP ... 1 tablet daily; not more than 1 tablet in 24 hours",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Taking more than directed may cause drowsiness",
+     "quote": "When using this product do not take more than directed. Taking more than directed may cause drowsiness.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "kind": "label",
+   "cited_as": "Chattem, Inc. ALLEGRA ALLERGY (fexofenadine hydrochloride) tablet, film coated: Drug Facts. DailyMed, U.S. National Library of Medicine. Updated April 14, 2026. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=81c1dcbb-28b3-4ad5-9f3d-9ccc16ddd173",
+   "version_or_date": "DailyMed updated April 14, 2026",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Fexofenadine adults and children 12+: 180 mg once a day or 60 mg every 12 hours, with water",
+     "quote": "take one 180 mg tablet with water once a day; do not take more than 1 tablet in 24 hours ... take one 60 mg tablet with water every 12 hours",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not take with fruit juices or at the same time as aluminum or magnesium antacids",
+     "quote": "do not take at the same time as aluminum or magnesium antacids; do not take with fruit juices (see Directions)",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Adults 65 and older: ask a doctor",
+     "quote": "Adults 65 years of age and older: ask a doctor",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "kind": "label",
+   "cited_as": "Kenvue Brands LLC. BENADRYL ALLERGY LIQUI-GELS (diphenhydramine hydrochloride) capsule: Drug Facts. DailyMed, U.S. National Library of Medicine. Updated May 7, 2026. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bfeae100-e2d1-4607-be3b-2d9b15cd4f7f",
+   "version_or_date": "DailyMed updated May 7, 2026 (archive lists a current version dated May 13, 2026)",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Diphenhydramine: marked drowsiness may occur; be careful driving; ask a doctor first with glaucoma or enlarged-prostate urinary trouble",
+     "quote": "marked drowsiness may occur ... be careful when driving a motor vehicle or operating machinery ... Ask a doctor before use if you have ... glaucoma ... trouble urinating due to an enlarged prostate gland",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Not a good choice for routine daily use (clinical judgment based on drowsiness warning)",
+     "quote": "marked drowsiness may occur",
+     "quote_source": "label",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "kind": "label",
+   "cited_as": "Organon LLC. SINGULAIR (montelukast sodium) tablets, chewable tablets and oral granules: Prescribing Information, including Boxed Warning. Revised 6/2021. DailyMed, U.S. National Library of Medicine. Updated April 30, 2025. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842",
+   "version_or_date": "Label revised 6/2021; DailyMed updated April 30, 2025",
+   "retrieved_with": "WebFetch of DailyMed label page (first 100,000 characters, which include the boxed warning, indications and dosage)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Montelukast boxed warning: serious neuropsychiatric events including agitation, aggression, depression, sleep disturbances, suicidal thoughts and behavior",
+     "quote": "Serious neuropsychiatric (NP) events have been reported with the use of SINGULAIR. The types of events reported were highly variable, and included, but were not limited to, agitation, aggression, depression, sleep disturbances, suicidal thoughts and behavior (including suicide).",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "For allergic rhinitis, reserve for inadequate response or intolerance to alternative therapies",
+     "quote": "Reserve use of SINGULAIR for patients with allergic rhinitis who have an inadequate response or intolerance to alternative therapies.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "kind": "label",
+   "cited_as": "ALK-Abello A/S. RAGWITEK (Ambrosia artemisiifolia pollen) tablet: Prescribing Information. Revised 9/2022. DailyMed, U.S. National Library of Medicine. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=70216cba-11b5-40fd-8656-9f27b24f7b60",
+   "version_or_date": "Label text revised 9/2022 (archive table lists a version dated Oct 8, 2026)",
+   "retrieved_with": "WebFetch of DailyMed search result resolving to the label page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Ragwitek for short ragweed pollen allergic rhinitis, ages 5 through 65; first dose supervised with 30 minutes observation",
+     "quote": "immunotherapy for the treatment of short ragweed pollen-induced allergic rhinitis ... approved for use in persons 5 through 65 years of age ... Administer the first dose of RAGWITEK in a healthcare setting under the supervision of a physician",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "kind": "label",
+   "cited_as": "ALK-Abello A/S. ODACTRA (Dermatophagoides pteronyssinus and Dermatophagoides farinae) tablet: Prescribing Information. Revised 6/2026. DailyMed, U.S. National Library of Medicine. Updated June 18, 2026. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=71ca220d-78d5-47d4-be84-8d6e844b24b3",
+   "version_or_date": "Revised 6/2026; DailyMed updated June 18, 2026",
+   "retrieved_with": "WebFetch of DailyMed search result resolving to the label page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Odactra for house dust mite allergic rhinitis, ages 5 through 65; first dose supervised with 30 minutes observation",
+     "quote": "indicated as immunotherapy for the treatment of house dust mite (HDM)-induced allergic rhinitis ... 5 through 65 years of age ... Administer the first dose of ODACTRA in a healthcare setting under the supervision of a healthcare professional",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "kind": "journal",
+   "cited_as": "Wang Y, Jin L, Liu SX, et al. Role of nasal saline irrigation in the treatment of allergic rhinitis in children and adults: A systematic analysis. Allergol Immunopathol (Madr). 2020;48(4):360-367. doi:10.1016/j.aller.2020.01.002",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32331798/",
+   "pmid": "32331798",
+   "doi": "10.1016/j.aller.2020.01.002",
+   "record_title": "Role of nasal saline irrigation in the treatment of allergic rhinitis in children and adults: A systematic analysis.",
+   "record_journal": "Allergol Immunopathol (Madr)",
+   "record_year": "2020",
+   "article_type": "Journal Article; Meta-Analysis; Systematic Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only.",
+   "claims": [
+    {
+     "text": "Saline irrigation significantly improves AR symptoms in children and adults and is a safe add-on to medication in adults",
+     "quote": "Saline irrigation can significantly improve symptoms of AR in children and adults. Saline irrigation can serve as a safe adjunctive treatment to medication of AR in adults.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "kind": "agency_page",
+   "cited_as": "U.S. Food and Drug Administration. Is Rinsing Your Sinuses With Neti Pots Safe? Content current as of April 28, 2025. Accessed November 15, 2026.",
+   "url": "https://www.fda.gov/consumers/consumer-updates/rinsing-your-sinuses-neti-pots-safe",
+   "version_or_date": "Content current as of 04/28/2025",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Use only distilled, sterile or previously boiled water (boiled 3 to 5 minutes, cooled to lukewarm)",
+     "quote": "First, rinse only with distilled, sterile or previously boiled water. ... Boiled and cooled tap water — boiled for 3 to 5 minutes, then cooled until it is lukewarm.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tap water isn't safe for nasal rinsing because not adequately filtered or treated; organisms can cause potentially serious infections",
+     "quote": "Tap water isn't safe for use as a nasal rinse because it's not adequately filtered or treated. ... in your nose, these organisms can stay alive in nasal passages and cause potentially serious infections.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "kind": "journal",
+   "cited_as": "Xiao Z, Shi Y, Zhao D, et al. Triggering mechanisms of acute thunderstorm asthma: epithelial barrier disruption and immune dysregulation. Respir Res. 2026;27(1). doi:10.1186/s12931-026-03532-6",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41652394/",
+   "pmid": "41652394",
+   "pmcid": "PMC12977724",
+   "doi": "10.1186/s12931-026-03532-6",
+   "record_title": "Triggering mechanisms of acute thunderstorm asthma: epithelial barrier disruption and immune dysregulation.",
+   "record_journal": "Respir Res",
+   "record_year": "2026",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract read; review article.",
+   "claims": [
+    {
+     "text": "Thunderstorm asthma: sudden, large-scale, potentially fatal asthma attacks",
+     "quote": "Thunderstorm asthma (TA) refers to a phenomenon characterized by sudden onset, large-scale outbreaks, and potentially fatal acute exacerbations of asthma.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "During storms pollen hydrates and ruptures into particles smaller than 2.5 micrometers that reach small airways",
+     "quote": "high humidity and strong convection can cause pollen to hydrate and rupture into sub-pollen particles (SPPs) smaller than 2.5 μm, which may ... form bioaerosols capable of penetrating small airways.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "kind": "label",
+   "cited_as": "Kenvue Brands LLC. SUDAFED SINUS CONGESTION (pseudoephedrine hydrochloride) tablet: Drug Facts. DailyMed, U.S. National Library of Medicine. Updated November 8, 2024. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c05d7e27-6821-468f-b27d-9c0b02a07b0f",
+   "version_or_date": "DailyMed updated November 8, 2024",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Pseudoephedrine: ask a doctor first with heart disease, high blood pressure, thyroid disease, diabetes, enlarged-prostate urinary trouble; stop if no improvement in 7 days",
+     "quote": "Ask a doctor before use if you have heart disease, high blood pressure, thyroid disease, diabetes, trouble urinating due to an enlarged prostate gland ... symptoms do not improve within 7 days or occur with a fever",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

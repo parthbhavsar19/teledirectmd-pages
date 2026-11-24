@@ -30,7 +30,7 @@ const PHYSICIAN = {
   licenseState: 'Vermont',
   licenseNumber: '042.0040345-COMP',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 const FAQ_ITEMS = [
@@ -60,7 +60,7 @@ const FAQ_ITEMS = [
       'The Centor criteria award one point each for fever, tonsillar exudate (pus on the tonsils), tender swollen lymph nodes at the front of the neck, and absence of cough. The McIsaac modification adds an age adjustment; for adults 18 and older there is no added point, and for ages 45 and up one point is subtracted. A low total (0 to 1) makes strep unlikely and favors supportive care without testing. A middle score may warrant an in-person swab. A high total (3 or more) raises the probability enough that the physician either treats empirically when the history fits or sends you for an in-person test. The tool is built for adults paying out of pocket because it tells you when a test or an antibiotic is actually worth it.',
     answer: (
       <p>
-        The Centor criteria award one point each for fever, tonsillar exudate (pus on the tonsils), tender swollen lymph nodes at the front of the neck, and absence of cough. The McIsaac modification adds an age adjustment; for adults 18 and older there is no added point, and for ages 45 and up one point is subtracted. A low total (0 to 1) makes strep unlikely and favors supportive care without testing. A middle score may warrant an in-person swab. A high total (3 or more) raises the probability enough that the physician either treats empirically when the history fits or sends you for an in-person test, consistent with <a href="https://www.idsociety.org/practice-guideline/strep-throat/" rel="noopener" target="_blank">IDSA guidance</a>. The tool is built for adults paying out of pocket because it tells you when a test or an antibiotic is actually worth it.
+        The Centor criteria award one point each for fever, tonsillar exudate (pus on the tonsils), tender swollen lymph nodes at the front of the neck, and absence of cough. The McIsaac modification adds an age adjustment; for adults 18 and older there is no added point, and for ages 45 and up one point is subtracted. A low total (0 to 1) makes strep unlikely and favors supportive care without testing. A middle score may warrant an in-person swab. A high total (3 or more) raises the probability enough that the physician either treats empirically when the history fits or sends you for an in-person test, consistent with <a href="https://www.idsociety.org/practice-guideline/streptococcal-pharyngitis/" rel="noopener" target="_blank">IDSA guidance</a>. The tool is built for adults paying out of pocket because it tells you when a test or an antibiotic is actually worth it.
       </p>
     ),
   },
@@ -151,7 +151,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -317,7 +317,7 @@ export default function VtSoreThroatTreatmentOnline() {
                       Reviewed by <a href={PHYSICIAN.bioUrl}>{PHYSICIAN.name}</a> — Board-Certified {PHYSICIAN.specialty} (American Board of Family Medicine)
                     </span>
                     <span className="tdmd-vt-cond__byline-meta">
-                      NPI {PHYSICIAN.npi} · Vermont Medical License #{PHYSICIAN.licenseNumber} (<a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
+                      NPI {PHYSICIAN.npi} · Vermont Medical License #{PHYSICIAN.licenseNumber} (<a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
                       <time dateTime={DATE_MODIFIED}>{new Date(DATE_MODIFIED).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
                     </span>
                   </div>
@@ -342,9 +342,9 @@ export default function VtSoreThroatTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
                   <a href="/vt/" className="tdmd-btn tdmd-btn-outline">Explore Vermont Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> J02.9 (acute pharyngitis, unspecified); final coding depends on the exam</p>
@@ -445,7 +445,7 @@ export default function VtSoreThroatTreatmentOnline() {
 
             <h3>What standard does the treating physician owe you?</h3>
             <p>
-              Under the <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a>, the standard of care is identical across in-person and telehealth encounters, and a Vermont license is required to treat patients in the state. Dr. Bhavsar holds Vermont Medical License #042.0040345-COMP from the Board. <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">Verify the license</a> · <a href="/about/">Dr. Bhavsar&apos;s bio</a>.
+              Under the <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a>, the standard of care is identical across in-person and telehealth encounters, and a Vermont license is required to treat patients in the state. Dr. Bhavsar holds Vermont Medical License #042.0040345-COMP from the Board. <a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">Verify the license</a> · <a href="/about/">Dr. Bhavsar&apos;s bio</a>.
             </p>
 
             <h3>Are strep antibiotics controlled in Vermont?</h3>
@@ -480,7 +480,7 @@ export default function VtSoreThroatTreatmentOnline() {
                   <h3>Treat, swab, or soothe</h3>
                   <p>A low score means comfort care; a high score means an empiric antibiotic when the history fits, or a referral for an in-person rapid strep test. Any prescription is e-sent to your Vermont pharmacy with clear instructions.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -508,25 +508,6 @@ export default function VtSoreThroatTreatmentOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical sore throat cost comparison">
-                <h3>Typical Sore Throat Visit Cost in Vermont</h3>
-                <p className="tdmd-price-caption">Ranges Vermonters commonly see. Actual cost varies by setting and town.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 16, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical Vermont pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <div className="tdmd-cashpay-note">
@@ -540,7 +521,7 @@ export default function VtSoreThroatTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Strep Antibiotic Options and Dosing</h2>
             <p>
-              Antibiotics are reserved for confirmed or strongly suspected group A strep, never for a viral sore throat. Each option below is non-controlled and prescribable through Vermont telehealth; the physician sets the final agent by your allergies and history, guided by <a href="https://www.idsociety.org/practice-guideline/strep-throat/" rel="noopener" target="_blank">IDSA strep-throat guidelines</a> and <a href="https://www.cdc.gov/group-a-strep/about/strep-throat.html" rel="noopener" target="_blank">CDC group A strep information</a>.
+              Antibiotics are reserved for confirmed or strongly suspected group A strep, never for a viral sore throat. Each option below is non-controlled and prescribable through Vermont telehealth; the physician sets the final agent by your allergies and history, guided by <a href="https://www.idsociety.org/practice-guideline/streptococcal-pharyngitis/" rel="noopener" target="_blank">IDSA strep-throat guidelines</a> and <a href="https://www.cdc.gov/group-a-strep/about/strep-throat.html" rel="noopener" target="_blank">CDC group A strep information</a>.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Strep antibiotic options and GoodRx prices">
@@ -626,7 +607,7 @@ export default function VtSoreThroatTreatmentOnline() {
                 <p>Sore throat going around your school or workplace? See a Vermont MD today</p>
                 <small>Cash-pay $79 flat · No insurance billing in Vermont · Centor-scored decisions</small>
               </div>
-              <a className="tdmd-vt-cond__cta-btn" href="/book-online" rel="noopener">Book Now &rarr;</a>
+              <a className="tdmd-vt-cond__cta-btn" href="/book-online/" rel="noopener">Book Now &rarr;</a>
             </div>
           </div>
         </section>
@@ -644,8 +625,8 @@ export default function VtSoreThroatTreatmentOnline() {
                 <p>Book a same-day video visit. Cash-pay $79 flat. No insurance billing in Vermont.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -669,13 +650,9 @@ export default function VtSoreThroatTreatmentOnline() {
                 <span className="tdmd-vt-cond__sibling-label">Influenza Treatment in VT</span>
                 <span className="tdmd-vt-cond__sibling-why">Flu can bring a sore throat with fever and body aches during the winter season.</span>
               </a>
-              <a className="tdmd-vt-cond__sibling" href="/vt/oral-thrush-treatment-online/">
+              <a className="tdmd-vt-cond__sibling" href="/oral-thrush-treatment-online/">
                 <span className="tdmd-vt-cond__sibling-label">Oral Thrush Treatment in VT</span>
                 <span className="tdmd-vt-cond__sibling-why">White patches in the mouth can be thrush rather than strep exudate.</span>
-              </a>
-              <a className="tdmd-vt-cond__sibling" href="/vt/online-doctor-visits/">
-                <span className="tdmd-vt-cond__sibling-label">All Online Doctor Visits in VT</span>
-                <span className="tdmd-vt-cond__sibling-why">The general Vermont telehealth hub for everything we treat.</span>
               </a>
             </div>
           </div>
@@ -692,9 +669,9 @@ export default function VtSoreThroatTreatmentOnline() {
               <a href="/sore-throat-treatment-online/">National sore throat page</a>
               <a href="/health-guides/">Health guides</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>
@@ -707,7 +684,7 @@ export default function VtSoreThroatTreatmentOnline() {
               <li><a href="https://legislature.vermont.gov/statutes/fullchapter/18/219" rel="noopener" target="_blank">18 V.S.A. Chapter 219 (Vermont telemedicine statute)</a>. Retrieved June 2026.</li>
               <li><a href="https://legislature.vermont.gov/statutes/fullchapter/26/023" rel="noopener" target="_blank">26 V.S.A. Chapter 23 (Vermont Medical Practice Act)</a>. Retrieved June 2026.</li>
               <li><a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a>. Retrieved June 2026.</li>
-              <li><a href="https://www.idsociety.org/practice-guideline/strep-throat/" rel="noopener" target="_blank">IDSA — Clinical Practice Guideline for Group A Streptococcal Pharyngitis (2012, current)</a>. Retrieved June 2026.</li>
+              <li><a href="https://www.idsociety.org/practice-guideline/streptococcal-pharyngitis/" rel="noopener" target="_blank">IDSA — Clinical Practice Guideline for Group A Streptococcal Pharyngitis (2012, current)</a>. Retrieved June 2026.</li>
               <li><a href="https://www.cdc.gov/group-a-strep/about/strep-throat.html" rel="noopener" target="_blank">CDC — Strep Throat (Group A Strep) Information</a>. Retrieved June 2026.</li>
             </ol>
           </div>

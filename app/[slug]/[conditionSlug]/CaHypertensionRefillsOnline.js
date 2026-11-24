@@ -2,7 +2,7 @@
  * CaHypertensionRefillsOnline.js — California × Hypertension Refills condition page (v3)
  *
  * URL: /ca/hypertension-refills-online/
- * Authority: ACC/AHA 2017 + 2024 Update
+ * Authority: ACC/AHA 2017 + 2025 Update
  * Rendered by app/[slug]/[conditionSlug]/page.js when slug === 'ca'
  * and conditionSlug === 'hypertension-refills-online'.
  *
@@ -39,7 +39,7 @@ const PHYSICIAN = {
   specialty: 'Family Medicine',
   licenseState: 'California',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 // California payors — sourced from Notion payor enrollment (refreshed 2026-05-19)
@@ -48,8 +48,8 @@ const CA_PAYORS = [
     notes: 'Commercial plans. In-network as of April 30, 2026. Verify plan eligibility with Aetna before booking.' },
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true,
     notes: 'Covers UHC Commercial and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types.' },
-  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Enrollment pending — self pay ($79) available.' },
+  { name: 'Anthem Blue Cross', status: 'Active', effective: 'September 23, 2026', inNetwork: true,
+    notes: 'PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.' },
   { name: 'Cigna', status: 'Pending', effective: 'Pending determination', inNetwork: false,
     notes: 'Pending — self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false,
@@ -67,7 +67,7 @@ const FAQ_ITEMS = [
   {
     id: 'hypertension-refills-online-faq-1',
     question: "What blood pressure medications can TeleDirectMD refill in California?",
-    answer: <p>TeleDirectMD can refill established antihypertensive medications including ACE inhibitors (lisinopril, ramipril), ARBs (losartan, valsartan, olmesartan), dihydropyridine calcium channel blockers (amlodipine), thiazide-type diuretics (chlorthalidone, HCTZ), and cardioselective beta-blockers (metoprolol succinate) for appropriate indications. Medication selection follows ACC/AHA 2017 and 2024 update guidelines.</p>,
+    answer: <p>TeleDirectMD can refill established antihypertensive medications including ACE inhibitors (lisinopril, ramipril), ARBs (losartan, valsartan, olmesartan), dihydropyridine calcium channel blockers (amlodipine), thiazide-type diuretics (chlorthalidone, HCTZ), and cardioselective beta-blockers (metoprolol succinate) for appropriate indications. Medication selection follows ACC/AHA 2017 and 2025 guidelines.</p>,
   },
   {
     id: 'hypertension-refills-online-faq-2',
@@ -77,17 +77,17 @@ const FAQ_ITEMS = [
   {
     id: 'hypertension-refills-online-faq-3',
     question: "What blood pressure target does TeleDirectMD use for California hypertension patients?",
-    answer: <p>The ACC/AHA 2017 guideline recommends a blood pressure target of less than 130/80 mmHg for most adults with confirmed hypertension, particularly those with established cardiovascular disease or a 10-year ASCVD risk of ≥10%. The 2024 ACC hypertension update reinforces this target and identifies chlorthalidone as the preferred thiazide diuretic over hydrochlorothiazide due to superior 24-hour coverage. The physician individualizes targets for frail elderly patients or those with significant comorbidities.</p>,
+    answer: <p>The ACC/AHA 2017 guideline recommends a blood pressure target of less than 130/80 mmHg for most adults with confirmed hypertension, particularly those with established cardiovascular disease or a 10-year ASCVD risk of ≥10%. The 2025 AHA/ACC high blood pressure guideline reaffirms this target, and the 2017 guideline identifies chlorthalidone as the preferred thiazide diuretic based on its long half-life and proven reduction in cardiovascular events. The physician individualizes targets for frail elderly patients or those with significant comorbidities.</p>,
   },
   {
     id: 'hypertension-refills-online-faq-4',
     question: "Why is chlorthalidone preferred over HCTZ for hypertension in California?",
-    answer: <p>The 2024 ACC hypertension guideline update reinforces chlorthalidone as the preferred thiazide-type diuretic over hydrochlorothiazide (HCTZ). Chlorthalidone has a longer half-life (50–60 hours vs. 8–15 hours for HCTZ), providing better 24-hour blood pressure control and superior outcomes in the ALLHAT trial. Chlorthalidone is available as generic at approximately $10–$25 per month with a GoodRx coupon at California pharmacies.</p>,
+    answer: <p>The ACC/AHA 2017 hypertension guideline identifies chlorthalidone as the preferred thiazide-type diuretic over hydrochlorothiazide (HCTZ). Chlorthalidone has a longer half-life (50–60 hours vs. 8–15 hours for HCTZ), providing better 24-hour blood pressure control and superior outcomes in the ALLHAT trial. Chlorthalidone is available as generic at approximately $10–$25 per month with a GoodRx coupon at California pharmacies.</p>,
   },
   {
     id: 'hypertension-refills-online-faq-5',
     question: "Does California parity law require my insurer to cover telehealth blood pressure visits?",
-    answer: <p>California Assembly Bill 744 (2019), codified in Insurance Code §10123.85, requires commercial health plans to reimburse telehealth services on the same basis as in-person care. Parity applies only when TeleDirectMD is in-network with your plan. Aetna commercial plans are active in California as of April 30, 2026; UnitedHealthcare Commercial is approved effective May 29, 2026. Anthem Blue Cross and Cigna are pending. Kaiser Permanente is a closed system — use kp.org for Kaiser telehealth.</p>,
+    answer: <p>California Assembly Bill 744 (2019), codified in Insurance Code §10123.85, requires commercial health plans to reimburse telehealth services on the same basis as in-person care. Parity applies only when TeleDirectMD is in-network with your plan. Aetna commercial plans are active in California as of April 30, 2026; UnitedHealthcare Commercial is approved effective May 29, 2026. Anthem Blue Cross PPO, Indemnity, and Medicare PPO plans are in-network as of September 23, 2026 (HMO and Medi-Cal plans are not included). Cigna is pending. Kaiser Permanente is a closed system — use kp.org for Kaiser telehealth.</p>,
   },
   {
     id: 'hypertension-refills-online-faq-6',
@@ -112,7 +112,7 @@ const FAQ_ITEMS = [
   {
     id: 'hypertension-refills-online-faq-10',
     question: "Will Medi-Cal cover my blood pressure medication refill visit at TeleDirectMD?",
-    answer: <p>TeleDirectMD is not currently enrolled as a Medi-Cal provider. Medi-Cal does cover telehealth for chronic disease management including hypertension when the provider is an enrolled Medi-Cal rendering provider. If you have Medi-Cal, use the $79 self-pay option at TeleDirectMD or find an enrolled Medi-Cal telehealth provider through your managed care plan or the DHCS provider directory at dhcs.ca.gov. Medi-Cal formulary covers generic antihypertensives at low or no cost-sharing.</p>,
+    answer: <p>TeleDirectMD is not currently enrolled as a Medi-Cal provider. Medi-Cal does cover telehealth for chronic disease management including hypertension when the provider is an enrolled Medi-Cal rendering provider. If you have Medi-Cal, find an enrolled Medi-Cal telehealth provider through your managed care plan or the DHCS provider directory at dhcs.ca.gov. Medi-Cal formulary covers generic antihypertensives at low or no cost-sharing.</p>,
   },
   {
     id: 'hypertension-refills-online-faq-11',
@@ -127,7 +127,6 @@ const CA_SIBLINGS = [
   { slug: 'asthma-refills-online', label: "Asthma Refills in CA", why: "Beta-blocker caution in asthma+HTN overlap is clinically relevant." },
   { slug: 'acid-reflux-refills-online', label: "Acid Reflux Refills in CA", why: "Common comorbidity in the chronic disease patient population." },
   { slug: 'migraine-refills-online', label: "Migraine Refills in CA", why: "Beta-blockers used in both HTN and migraine prevention." },
-  { slug: 'online-doctor-visits', label: "All Online Doctor Visits in CA", why: "General CA telehealth hub." }
 ];
 
 function buildSchemas() {
@@ -136,7 +135,7 @@ function buildSchemas() {
     '@type': 'MedicalWebPage',
     name: PAGE_TITLE,
     url: PAGE_URL,
-    description: 'Refill blood pressure medications online in California. Board-certified Family Medicine MD. CA telehealth law compliant. Aetna in-network. Self pay $79. ACC/AHA 2017 + 2024 guideline-based care. CDPH data: ~30% CA adults have hypertension.',
+    description: 'Refill blood pressure medications online in California. Board-certified Family Medicine MD. CA telehealth law compliant. Aetna in-network. Self pay $79. ACC/AHA 2017 + 2025 guideline-based care. CDPH data: ~30% CA adults have hypertension.',
     datePublished: DATE_PUBLISHED,
     dateModified: DATE_MODIFIED,
     inLanguage: 'en-US',
@@ -151,7 +150,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -250,7 +249,7 @@ export default function CaHypertensionRefillsOnline() {
               <div className="tdmd-hero-copy">
                 <h1 data-speakable="true">Hypertension Refills</h1>
                 <p className="tdmd-hero-sub" data-speakable="true">
-                  California adults 18+ · Secure video visit · Self pay $79 · Aetna in-network · UHC Commercial approved · MD-only · CA B&amp;P §2290.5 compliant · ACC/AHA 2017 + 2024 Update
+                  California adults 18+ · Secure video visit · Self pay $79 · Aetna in-network · UHC Commercial approved · MD-only · CA B&amp;P §2290.5 compliant · ACC/AHA 2017 + 2025 Update
                 </p>
                 <p>
                   TeleDirectMD provides evidence-based hypertension refills by secure video visit for California adults. A California-licensed board-certified Family Medicine physician evaluates your history, reviews relevant lab values and prior treatments, and prescribes appropriate medication when clinically indicated. This page is for adults located in California, including {caCities.join(', ')}, and surrounding areas.
@@ -288,13 +287,13 @@ export default function CaHypertensionRefillsOnline() {
                   <li>Aetna in-network (effective April 30, 2026)</li>
                   <li>UnitedHealthcare Commercial approved (effective May 29, 2026)</li>
                   <li>California-licensed telehealth for adults located in California at time of visit</li>
-                  <li>Evidence-based treatment per ACC/AHA 2017 + 2024 Update</li>
+                  <li>Evidence-based treatment per ACC/AHA 2017 + 2025 Update</li>
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> I10 (Essential hypertension) — final coding per clinical details</p>
@@ -305,7 +304,7 @@ export default function CaHypertensionRefillsOnline() {
                   <h2>Online Hypertension Refills in California</h2>
                   <ul>
                     <li>Board-certified Family Medicine MD — California-licensed</li>
-                    <li>Evidence-based regimen per ACC/AHA 2017 + 2024 Update</li>
+                    <li>Evidence-based regimen per ACC/AHA 2017 + 2025 Update</li>
                     <li>Lab value review before prescribing</li>
                     <li>e-Prescriptions to your CA pharmacy under AB 2789</li>
                     <li>Clear follow-up steps and monitoring guidance</li>
@@ -324,7 +323,7 @@ export default function CaHypertensionRefillsOnline() {
           <div className="tdmd-container">
             <div className="tdmd-condition-opener" id="hypertension-refills-online-opening">
               <p>
-                California adults with established hypertension can refill blood pressure medications — including ACE inhibitors, ARBs, calcium channel blockers, and thiazide diuretics — by secure video visit through TeleDirectMD, consistent with California Business and Professions Code Section 2290.5. Approximately 30% of California adults have hypertension, per the California Department of Public Health. The ACC/AHA 2017 hypertension guideline, supplemented by the 2024 ACC hypertension update, guides medication selection and blood pressure targets. A California-licensed board-certified Family Medicine physician reviews your home blood pressure log, current medications, lab values, and adherence before authorizing refills. Self pay is $79. Aetna is in-network effective April 30, 2026.
+                California adults with established hypertension can refill blood pressure medications — including ACE inhibitors, ARBs, calcium channel blockers, and thiazide diuretics — by secure video visit through TeleDirectMD, consistent with California Business and Professions Code Section 2290.5. Approximately 30% of California adults have hypertension, per the California Department of Public Health. The ACC/AHA 2017 hypertension guideline, supplemented by the 2025 AHA/ACC high blood pressure guideline, guides medication selection and blood pressure targets. A California-licensed board-certified Family Medicine physician reviews your home blood pressure log, current medications, lab values, and adherence before authorizing refills. Self pay is $79. Aetna is in-network effective April 30, 2026.
               </p>
               <span className="tdmd-condition-opener__meta">
                 Reviewed by <a href="/about/">{PHYSICIAN.name}</a>, Board-Certified {PHYSICIAN.specialty} · NPI {PHYSICIAN.npi} · Licensed in {PHYSICIAN.licenseState} ·
@@ -346,7 +345,7 @@ export default function CaHypertensionRefillsOnline() {
 
             <h3>What standard of care applies to California telehealth physicians?</h3>
             <p>
-              The <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a> is explicit: &ldquo;The standard of care is the same whether the patient is seen in-person, through telehealth or other methods of electronically enabled health care.&rdquo; TeleDirectMD physicians are licensed in California. See <a href="/about/">Dr. Bhavsar&apos;s bio</a> for credential details.
+              The <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a> is explicit: &ldquo;The standard of care is the same whether the patient is seen in-person, through telehealth or other methods of electronically enabled health care.&rdquo; Dr. Bhavsar is licensed in California. See <a href="/about/">Dr. Bhavsar&apos;s bio</a> for credential details.
             </p>
 
             <h3>Does California insurance parity law cover telehealth visits?</h3>
@@ -395,25 +394,6 @@ export default function CaHypertensionRefillsOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical cost comparison">
-                <h3>Typical Hypertension Refills Visit Cost in California</h3>
-                <p className="tdmd-price-caption">Common ranges Californians see before insurance. Actual costs vary by setting and city.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 13, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical California metro pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <h3 style={{ marginTop: '1.75rem' }}>California Payor Status — TeleDirectMD</h3>
@@ -447,7 +427,7 @@ export default function CaHypertensionRefillsOnline() {
             </div>
 
             <p style={{ marginTop: '1rem' }}>
-              For deeper detail, see <a href="/insurance/aetna/california/hypertension-refills-online/">Aetna × California × Hypertension Refills</a> or view all <a href="/insurance">insurance options</a>.
+              For deeper detail, see <a href="/insurance/aetna/california/">Aetna × California × Hypertension Refills</a> or view all <a href="/insurance/">insurance options</a>.
             </p>
           </div>
         </section>
@@ -457,7 +437,7 @@ export default function CaHypertensionRefillsOnline() {
           <div className="tdmd-container">
             <h2>Hypertension Refills: Medication Options and CA Pricing</h2>
             <p>
-              The table below reflects evidence-based medication options per ACC/AHA 2017 + 2024 Update guidelines.
+              The table below reflects evidence-based medication options per ACC/AHA 2017 + 2025 Update guidelines.
               GoodRx prices retrieved May 2026 from goodrx.com — national coupon prices; actual cost varies by California pharmacy location.
               Prescription costs are separate from the $79 TeleDirectMD visit fee.
             </p>
@@ -497,12 +477,12 @@ export default function CaHypertensionRefillsOnline() {
                     <td><strong>Chlorthalidone 12.5/25 mg</strong></td>
                     <td>12.5–25 mg once daily in AM</td>
                     <td><a href="https://www.goodrx.com/chlorthalidone" target="_blank" rel="noopener">~$10–$25/month GoodRx (generic)</a></td>
-                    <td>Preferred over HCTZ per 2024 ACC update — longer half-life, superior 24-hour coverage.</td>
+                    <td>Preferred over HCTZ per ACC/AHA 2017 guideline; longer half-life, superior 24-hour coverage.</td>
                   </tr>
                   <tr>
                     <td><strong>Metoprolol succinate (Toprol XL) 25/50/100/200 mg</strong></td>
                     <td>25–200 mg once daily</td>
-                    <td><a href="https://www.goodrx.com/metoprolol-succinate" target="_blank" rel="noopener">~$10–$30/month GoodRx (generic)</a></td>
+                    <td><a href="https://www.goodrx.com/metoprolol-er" target="_blank" rel="noopener">~$10–$30/month GoodRx (generic)</a></td>
                     <td>Not first-line unless comorbid CAD, HFrEF, or rate control. Use cautiously in asthma.</td>
                   </tr>
                 </tbody>
@@ -554,7 +534,7 @@ export default function CaHypertensionRefillsOnline() {
                 <p>Book a same-day video visit — California adults, 18+</p>
                 <small>Self pay $79 · Aetna in-network · UHC Commercial approved May 2026 · Hypertension Refills</small>
               </div>
-              <a className="tdmd-ca-uti__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
+              <a className="tdmd-ca-uti__cta-btn" href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -573,8 +553,8 @@ export default function CaHypertensionRefillsOnline() {
                 <p>Book a same-day video visit. Self pay $79 · Aetna in-network · UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -619,12 +599,12 @@ export default function CaHypertensionRefillsOnline() {
               <a href="/ca/eyelash-growth-treatment-online/">Eyelash Growth in CA</a>
               <a href="/ca/smoking-cessation-treatment-online/">Smoking Cessation in CA</a>
               <a href="/ca/motion-sickness-treatment-online/">Motion Sickness in CA</a>
-              <a href="/ca/uti-treatment-online/">UTI Treatment in CA</a>
+              <a href="/ca/uti-treatment-online/">UTI Treatment for Women in CA</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/insurance">Insurance</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/insurance/">Insurance</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>
@@ -640,11 +620,11 @@ export default function CaHypertensionRefillsOnline() {
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ</a>. Retrieved May 2026.</li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — AB 2789 Electronic Prescribing</a>. Retrieved May 2026.</li>
               <li><a href="https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2017/11/09/11/41/2017-guideline-for-high-blood-pressure-in-adults" rel="noopener" target="_blank">ACC/AHA 2017 Guideline for High Blood Pressure in Adults</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.acc.org/guidelines" rel="noopener" target="_blank">ACC 2024 Hypertension Guideline Update</a>. Retrieved May 2026.</li>
+              <li><a href="https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline" rel="noopener" target="_blank">2025 AHA/ACC High Blood Pressure Guideline</a>. Retrieved May 2026.</li>
               <li><a href="https://www.jacc.org/doi/10.1016/j.jacc.2017.11.006" rel="noopener" target="_blank">Whelton PK et al. 2017 ACC/AHA Hypertension Guidelines — JACC</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CVEHB/Pages/HypertensionPrevention.aspx" rel="noopener" target="_blank">CDPH — Hypertension Prevention and Control</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CVEHB/Pages/HeartDiseaseandStrokePrevention.aspx" rel="noopener" target="_blank">CDPH Heart Disease and Stroke Prevention Program</a>. Retrieved May 2026.</li>
-              <li><a href="https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis/chis-data" rel="noopener" target="_blank">California Health Interview Survey (CHIS) 2023</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CDCB/Pages/CardiovascularHealthInnovationProgram.aspx" rel="noopener" target="_blank">CDPH Cardiovascular Health Innovation Program</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CDCB/Pages/CDPP.aspx" rel="noopener" target="_blank">CDPH Cardiovascular Disease Prevention Program</a>. Retrieved May 2026.</li>
+              <li><a href="https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis" rel="noopener" target="_blank">California Health Interview Survey (CHIS) 2023</a>. Retrieved May 2026.</li>
             </ol>
           </div>
         </section>

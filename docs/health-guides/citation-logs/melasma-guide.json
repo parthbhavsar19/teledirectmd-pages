@@ -1,0 +1,771 @@
+{
+  "guide": "melasma-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 8 verified, retractions: none (no editorial notices, no contrasting evidence flagged, no predatory journals). PubMed article types checked for all 8 journal refs: no Retracted Publication or Retraction Notice.",
+  "references": [
+    {
+      "n": 1,
+      "kind": "journal",
+      "cited_as": "McKesey J, Tovar-Garza A, Pandya AG. Melasma Treatment: An Evidence-Based Review. American Journal of Clinical Dermatology. 2020;21(2):173-225. Systematic review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31802394/",
+      "pmid": "31802394",
+      "doi": "10.1007/s40257-019-00488-w",
+      "record_title": "Melasma Treatment: An Evidence-Based Review.",
+      "record_journal": "Am J Clin Dermatol",
+      "record_year": "2020",
+      "article_type": "Journal Article; Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "claims": [
+        {
+          "text": "Hydroquinone alone and triple combination cream are the most effective, best-studied topicals",
+          "quote": "Hydroquinone monotherapy and triple combination cream are the most effective and well-studied treatments for melasma",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Oral tranexamic acid is an add-on / promising treatment for moderate to severe or recurrent melasma",
+          "quote": "Oral tranexamic acid is a promising new treatment for moderate and severe recurrent melasma.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Long-term safety of oral tranexamic acid for melasma still needs more study",
+          "quote": "Oral tranexamic acid may be a safe, systemic adjunctive treatment for melasma, but more studies are needed to determine its long-term safety and efficacy.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Melasma is a chronic pigment disorder (intro; chronic section)",
+          "quote": "Melasma is an acquired, chronic pigmentary disorder predominantly affecting women.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Appearance can significantly affect quality of life and self-esteem",
+          "quote": "It may significantly affect quality of life and self-esteem due to its disfiguring appearance.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Side effects in melasma trials mostly mild: irritation, dryness, burning, redness",
+          "quote": "Adverse events from all treatments tend to be mild, and mainly consist of skin irritation, dryness, burning, erythema, and post-inflammatory hyperpigmentation.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Peels and laser/light treatments equal or inferior to topicals with higher risk of side effects; procedures as adjunct",
+          "quote": "chemical peels and laser- and light-based therapies are equal or inferior to topicals, but offer a higher risk of adverse effects",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Rodrigues M, Pandya AG. Melasma: clinical diagnosis and management options. Australasian Journal of Dermatology. 2015;56(3):151-163. Review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25754098/",
+      "pmid": "25754098",
+      "doi": "10.1111/ajd.12290",
+      "record_title": "Melasma: clinical diagnosis and management options.",
+      "record_journal": "Australas J Dermatol",
+      "record_year": "2015",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract only; full text not accessible); Scite verify_papers",
+      "notes": "Abstract only. Used only for the two points its abstract states. Wood lamp and umbrella-term claims moved to refs 9 and 13.",
+      "claims": [
+        {
+          "text": "Melasma is a common, acquired pigment condition",
+          "quote": "Melasma is a common acquired disorder of pigmentation most commonly seen in those with skin of colour.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most often seen in people with skin of colour",
+          "quote": "Melasma is a common acquired disorder of pigmentation most commonly seen in those with skin of colour.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 3,
+      "kind": "journal",
+      "cited_as": "Leung JH, Leung HWC, Wang SY, Jang YC, Chan ALF. Efficacy and Safety of Different Treatments for Melasma: Network Meta-Analysis of Updated Data. Diseases (Basel). 2025;13(10):316.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41149049/",
+      "pmid": "41149049",
+      "pmcid": "PMC12562867",
+      "doi": "10.3390/diseases13100316",
+      "record_title": "Efficacy and Safety of Different Treatments for Melasma: Network Meta-Analysis of Updated Data.",
+      "record_journal": "Diseases",
+      "record_year": "2025",
+      "article_type": "Journal Article; Review (network meta-analysis)",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC); Scite verify_papers",
+      "notes": "Previously cited for triple cream outperforming hydroquinone alone; the NMA found them comparable. Claim rewritten. Author Chan ALF added to the reference.",
+      "claims": [
+        {
+          "text": "2025 network meta-analysis of recent randomized trials found fluocinolone-based triple cream comparable to 4% hydroquinone alone",
+          "quote": "Results of this NMA showed that the relative efficacy of topical triple combination cream fTCC was comparable to that of HQ4% alone for the treatment of MASI.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "There are currently no curative treatments for melasma",
+          "quote": "Although there are currently no curative treatments for melasma, current knowledge about photo-protection, topical and oral therapies, and procedures such as peels, lasers, and microneedling represent the main strategies",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Ribeiro Gonçalves O, de Souza MCF, Rocha AV, et al. Assessing the efficacy of oral tranexamic acid as an adjuvant to triple combination topical treatment in melasma: a meta-analysis of randomized controlled trials. Clinical and Experimental Dermatology. 2024;49(12):1518-1524.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38848545/",
+      "pmid": "38848545",
+      "doi": "10.1093/ced/llae226",
+      "record_title": "Assessing the efficacy of oral tranexamic acid as an adjuvant to triple combination topical treatment in melasma: a meta-analysis of randomized controlled trials.",
+      "record_journal": "Clin Exp Dermatol",
+      "record_year": "2024",
+      "article_type": "Journal Article; Meta-Analysis",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "claims": [
+        {
+          "text": "2024 meta-analysis of four randomized trials with 490 patients",
+          "quote": "Four trials involving 490 patients were included.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Adding oral TXA to triple combination cream lowered severity scores more than cream alone",
+          "quote": "the decrease from baseline in MASI score [mean difference -3.10, 95% confidence interval (CI) -5.85 to -0.35] was significantly higher in patients treated with oral TXA as an adjuvant to TCC compared with TCC alone",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "...and lowered recurrence",
+          "quote": "Melasma recurrence [risk ratio (RR) 0.28; 95% CI 0.16-0.49] was significantly lower in the group treated with TCC and TXA.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Kuceki G, Mendez D, Garza-Dueñas GG, et al. No thromboembolic events observed in randomized controlled trials of oral tranexamic acid: A systematic review and descriptive synthesis. Journal of the American Academy of Dermatology. 2025;93(4):1086-1088. Research letter.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40480374/",
+      "pmid": "40480374",
+      "doi": "10.1016/j.jaad.2025.06.001",
+      "record_title": "No thromboembolic events observed in randomized controlled trials of oral tranexamic acid: A systematic review and descriptive synthesis.",
+      "record_journal": "J Am Acad Dermatol",
+      "record_year": "2025",
+      "article_type": "Journal Article (research letter; PubMed shows no abstract)",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+      "notes": "No abstract or full text available; claim limited to what the record title states. Clot-history and pregnancy cautions moved to the label (ref 12).",
+      "claims": [
+        {
+          "text": "A 2025 systematic review reported no thromboembolic events in RCTs of oral tranexamic acid",
+          "quote": "No thromboembolic events observed in randomized controlled trials of oral tranexamic acid: A systematic review and descriptive synthesis.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 6,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. FDA works to protect consumers from potentially harmful OTC skin lightening products. Content current as of May 1, 2026. Accessed November 15, 2026.",
+      "url": "https://www.fda.gov/drugs/drug-safety-communications/fda-works-protect-consumers-potentially-harmful-otc-skin-lightening-products",
+      "version_or_date": "Content current as of 05/01/2026 (warning letters dated 4/19/2022)",
+      "retrieved_with": "WebFetch of official FDA page",
+      "notes": "Replaces StatPearls Hydroquinone (PMID 30969515). The StatPearls chapter was readable but states OTC formulations were taken off the market in 2006, which conflicts with this FDA page; regulatory status now cited to FDA.",
+      "claims": [
+        {
+          "text": "As a result of the CARES Act, effective September 23, 2020, OTC hydroquinone skin lightening products are treated as new drugs needing FDA approval and cannot be legally sold OTC",
+          "quote": "As a result of CARES Act, OTC skin lightening products containing hydroquinone are deemed to be new drugs and are misbranded. All OTC skin lightening products require an FDA approved new drug application before they can be legally marketed.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Effective date September 23, 2020",
+          "quote": "As a result of CARES Act, effective September 23, 2020, manufacturers and distributors",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Tri-Luma is the only FDA-approved drug containing hydroquinone",
+          "quote": "Currently, Tri-Luma is the only FDA-approved drug containing hydroquinone.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 7,
+      "kind": "other_web",
+      "cited_as": "American Academy of Dermatology. Melasma: Overview. Last updated February 15, 2022. Accessed November 15, 2026.",
+      "url": "https://www.aad.org/public/diseases/a-z/melasma-overview",
+      "version_or_date": "Last updated 2/15/22",
+      "retrieved_with": "WebFetch of official AAD page",
+      "notes": "Reference previously named two AAD pages but linked only this one; the treatment page is now its own reference (ref 9).",
+      "claims": [
+        {
+          "text": "Classic locations: cheeks, forehead, chin, above the upper lip",
+          "quote": "These usually appear on certain areas of face like the cheeks, forehead, chin, and even above the upper lip.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Typically appears on both sides of the face; flat",
+          "quote": "differs from skin cancer in that it typically feels flat and appears on both sides of your face",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Colors tan, brown, grayish brown, bluish gray",
+          "quote": "When melasma appears, it can cause tan, brown, grayish brown, or bluish gray patches and freckle-like spots.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Not cancer and not contagious",
+          "quote": "No, melasma is not a type of cancer.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Women with medium to dark skin tones are most likely to develop it",
+          "quote": "Women who have medium to dark skin tones are most likely to develop melasma.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Sometimes called the mask of pregnancy",
+          "quote": "Melasma is so common during pregnancy that it's sometimes called the \"mask of pregnancy.\"",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Many women first notice melasma during pregnancy",
+          "quote": "Many women first see these blotchy patches and freckle-like spots on their face during pregnancy",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "May fade but can last for years",
+          "quote": "While melasma may go away on its own, this skin condition can also last for years.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "AAD advises waiting until after the baby is born to treat",
+          "quote": "However, if you are pregnant, wait until you have your baby to treat melasma.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Commonly returns with unprotected sun exposure",
+          "quote": "It's common for melasma to return when you spend time outdoors without protecting your skin from the sun.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Some treatments irritate darker skin and can worsen melasma",
+          "quote": "For example, some melasma treatments can irritate darker skin, which can worsen melasma and make it darker.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Results take longer in darker skin",
+          "quote": "They also understand that it usually takes longer to see results from treatment if you have a dark skin tone.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Treatment usually begins with sun protection",
+          "quote": "Treatment usually begins with sun protection and creams that you apply to the melasma.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "A dermatologist can tell whether melasma or another condition is the cause",
+          "quote": "A board-certified dermatologist can tell you whether melasma or another condition is causing the skin discoloration.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 8,
+      "kind": "other_web",
+      "cited_as": "American Academy of Dermatology. Melasma: Causes. Last updated February 15, 2022. Accessed November 15, 2026.",
+      "url": "https://www.aad.org/public/diseases/a-z/melasma-causes",
+      "version_or_date": "Last updated 2/15/22",
+      "retrieved_with": "WebFetch of official AAD page",
+      "claims": [
+        {
+          "text": "Melanocytes tend to be more active; why is not well understood",
+          "quote": "the cells that give skin its color (melanocytes) tend to be more active. Exactly why this happens isn't well understood.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Sunlight is a trigger",
+          "quote": "When sunlight hits our skin, it triggers the body to produce more melanin.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Tanning beds and sunlamps produce stronger UV than sunlight",
+          "quote": "A tanning bed or sunlamp tends to produce stronger ultraviolet (UV) rays than sunlight.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Rise in estrogen and progesterone in pregnancy thought to trigger melasma",
+          "quote": "An increase in the hormones estrogen and progesterone, which occurs during pregnancy, is thought to trigger melasma.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Birth control pills are a trigger",
+          "quote": "Birth control pills (also known as oral contraceptive pills)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "324-person global study, 48% had a blood relative with melasma",
+          "quote": "In one study of 324 melasma patients around the globe, 48% reported that they have a blood relative with melasma.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Anti-seizure medicines and sun-sensitizing medicines (retinoids, some antibiotics, some blood pressure medicines)",
+          "quote": "Medications that make your skin more sensitive to sunlight (includes retinoids, some antibiotics, and some blood pressure medications)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Thyroid problems may raise risk",
+          "quote": "If your thyroid gland develops a problem, this may increase your risk of developing melasma.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Stress may trigger melasma, controversial",
+          "quote": "While this is controversial, some research findings suggest that stress can trigger melasma.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Much more common in women than men; higher risk for women ages 20 to 40",
+          "quote": "Melasma is much more common in women than men. Are a woman between the ages of 20 and 40",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Women of Latin, Asian, Black, or Native American heritage more likely",
+          "quote": "You're more likely to develop melasma if you are a woman of Latin, Asian, Black, or Native American heritage.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 9,
+      "kind": "other_web",
+      "cited_as": "American Academy of Dermatology. Melasma: Diagnosis and treatment. Last updated February 15, 2022. Accessed November 15, 2026.",
+      "url": "https://www.aad.org/public/diseases/a-z/melasma-treatment",
+      "version_or_date": "Last updated 2/15/22",
+      "retrieved_with": "WebFetch of official AAD page (Melasma: Diagnosis and treatment)",
+      "notes": "Sunscreen ingredient sentence introduces a bulleted list naming zinc oxide, titanium dioxide and iron oxide.",
+      "claims": [
+        {
+          "text": "Broad-spectrum SPF 30 or higher sunscreen",
+          "quote": "applying a broad-spectrum sunscreen (SPF 30 or higher) throughout the day.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Sunscreen containing zinc oxide, titanium dioxide, and iron oxide",
+          "quote": "For patients who have melasma, dermatologists often recommend using a sunscreen that contains: [list: zinc oxide, titanium dioxide, iron oxide]",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Tinted sunscreen if white cast",
+          "quote": "If you're tempted to skip the sunscreen because it leaves a white cast on your skin, consider using a tinted sunscreen.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Wide-brimmed hat and shade",
+          "quote": "This often involves wearing a wide-brimmed hat while outdoors, seeking shade, and applying a broad-spectrum sunscreen",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Sun protection helps fade melasma and prevent return",
+          "quote": "Sun protection can help fade melasma and prevent it from returning",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Sunlight darkens existing melasma and causes new patches",
+          "quote": "Sunlight causes the skin to make more pigment, which can darken existing melasma and cause new patches.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Results usually take 3 to 12 months",
+          "quote": "When you follow your treatment plan, it usually takes between 3 to 12 months to see results.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "May take longer if melasma present a long time",
+          "quote": "It may take longer if you've had melasma for a long time.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Wood's lamp or dermatoscope",
+          "quote": "To get a close-up look, your dermatologist may use a specialized device like a Wood's lamp or dermatoscope.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Triple combination contains tretinoin, a corticosteroid, and hydroquinone",
+          "quote": "This cream contains three medications — tretinoin (a retinoid), a corticosteroid to reduce inflammation, and hydroquinone",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hydroquinone evens out skin tone",
+          "quote": "It is applied to the skin and works to even out the skin tone.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Tretinoin with a corticosteroid; gentler options azelaic acid, kojic acid, vitamin C",
+          "quote": "Your dermatologist may prescribe a medication that's gentler on your skin like azelaic acid, kojic acid, or vitamin C.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Tranexamic acid decreased melasma when other treatments failed",
+          "quote": "In studies, tranexamic acid has been shown to decrease the patches of melasma when other treatments fail to work.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Tell your clinician if you have had a blood clot",
+          "quote": "If you've had a blood clot, be sure to tell your dermatologist.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Procedures: peels, microneedling, laser or light; a few studies found adding laser/light improves results",
+          "quote": "Laser and light treatments: A few studies have found that adding a laser or light treatment can improve results",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Melasma from pregnancy or a medication can fade after delivery or stopping it",
+          "quote": "When you deliver your baby or stop taking the medication, melasma can fade.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Procedures as adjunct in experienced hands",
+          "quote": "Getting the desired results requires in-depth knowledge of the skin.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 10,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. Skin Product Safety. Content current as of May 11, 2026. Accessed November 15, 2026.",
+      "url": "https://www.fda.gov/consumers/skin-facts-what-you-need-know-about-skin-lightening-products/skin-product-safety",
+      "version_or_date": "Content current as of 05/11/2026",
+      "retrieved_with": "WebFetch of official FDA page",
+      "claims": [
+        {
+          "text": "OTC hydroquinone not legally sold; available by prescription",
+          "quote": "Skin lightening products containing hydroquinone are not approved for over-the-counter sale. However, you can get a prescription skin product containing hydroquinone from your health care provider.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "FDA reports of rashes, facial swelling, permanent discoloration (ochronosis)",
+          "quote": "The FDA has received reports of serious side effects from the use of hydroquinone, including rashes, facial swelling, and permanent skin discoloration (ochronosis).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 11,
+      "kind": "label",
+      "cited_as": "Galderma Laboratories, L.P. TRI-LUMA (fluocinolone acetonide, hydroquinone, tretinoin) cream 0.01%/4%/0.05%: prescribing information. Revised February 2023. DailyMed. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a35fa709-5eb5-4429-b38f-f1e0019bf0ee",
+      "version_or_date": "Revised 2/2023 (DailyMed updated Oct 24, 2024); Galderma Laboratories",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "claims": [
+        {
+          "text": "Tri-Luma approved for short-term treatment of moderate to severe melasma of the face",
+          "quote": "indicated for the short-term treatment of moderate to severe melasma of the face.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Not for maintenance; stopped once control is achieved",
+          "quote": "TRI-LUMA Cream is NOT indicated for the maintenance treatment of melasma. Therapy should be discontinued when control is achieved.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Strengths fluocinolone 0.01%, hydroquinone 4%, tretinoin 0.05%",
+          "quote": "Each gram of TRI-LUMA Cream contains 0.1 mg of fluocinolone acetonide, 40 mg of hydroquinone, and 0.5 mg of tretinoin.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Ochronosis is a gradual blue-black darkening",
+          "quote": "TRI-LUMA Cream contains hydroquinone, which may produce exogenous ochronosis, a gradual blue-black darkening of the skin.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pregnancy: only if benefit justifies risk",
+          "quote": "TRI-LUMA Cream should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 12,
+      "kind": "label",
+      "cited_as": "Dr. Reddy's Laboratories Inc. Tranexamic acid tablets: prescribing information. Revised July 2025. DailyMed. Accessed November 15, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e5a52dad-e328-48f2-9182-4df46f5572ef",
+      "version_or_date": "Revised 7/2025 (DailyMed updated Aug 1, 2025); Dr. Reddy's Laboratories generic tranexamic acid tablets",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "notes": "Label indication is cyclic heavy menstrual bleeding; the label does not mention melasma (basis, with ref 15, for off-label wording).",
+      "claims": [
+        {
+          "text": "Approved for heavy menstrual bleeding (not melasma)",
+          "quote": "indicated for the treatment of cyclic heavy menstrual bleeding in females of reproductive potential.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Contraindications: active thromboembolic disease, history of thrombosis, intrinsic risk",
+          "quote": "Active thromboembolic disease (e.g., deep vein thrombosis, pulmonary embolism, or cerebral thrombosis); A history of thrombosis or thromboembolism, including retinal vein or artery occlusion; An intrinsic risk of thrombosis or thromboembolism",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Contraindicated with combined hormonal contraception",
+          "quote": "concomitant use of tranexamic acid with combined hormonal contraceptives is contraindicated",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Not indicated in pregnancy",
+          "quote": "Tranexamic acid is not indicated for use in pregnant women.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 13,
+      "kind": "journal",
+      "cited_as": "Fabian IM, Sinnathamby ES, Flanagan CJ, et al. Topical Hydroquinone for Hyperpigmentation: A Narrative Review. Cureus. 2023;15(11):e48840. Review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38106810/",
+      "pmid": "38106810",
+      "pmcid": "PMC10723018",
+      "doi": "10.7759/cureus.48840",
+      "record_title": "Topical Hydroquinone for Hyperpigmentation: A Narrative Review.",
+      "record_journal": "Cureus",
+      "record_year": "2023",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC); Scite verify_papers",
+      "claims": [
+        {
+          "text": "Flat darker patches on sun-exposed skin; symmetric",
+          "quote": "Melasma is a circumscribed hypermelanosis of sun-exposed skin that presents as symmetric, hyperpigmented macules.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Melasma, PIH, sun spots, freckles are hyperpigmentation disorders",
+          "quote": "It is used to treat various hyperpigmentation disorders, including melasma, solar lentigines, freckles, and post-inflammatory hyperpigmentation",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hydroquinone blocks tyrosinase, involved in melanin production",
+          "quote": "HQ works by inhibiting tyrosinase, an enzyme involved in melanin production.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hydroquinone is first-line for melasma",
+          "quote": "HQ is the first-line treatment for several hyperpigmentation conditions, including melasma, chloasma, freckles, age spots, and post-inflammatory hyperpigmentation caused by acne or trauma",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Ochronosis linked to long-term excessive use",
+          "quote": "Long-term excessive HQ use can result in ochronosis, a bluish-black skin discoloration.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Safe and effective under supervision within recommended concentrations",
+          "quote": "HQ is safe and effective when used appropriately under medical supervision and within recommended concentrations.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Melasma thought to be provoked by estrogen (FAQ)",
+          "quote": "it is hypothesized that the development of melasma is provoked by estrogen release",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 14,
+      "kind": "journal",
+      "cited_as": "Castanedo-Cazares JP, Hernandez-Blanco D, Carlos-Ortega B, et al. Near-visible light and UV photoprotection in the treatment of melasma: a double-blind randomized trial. Photodermatology, Photoimmunology &amp; Photomedicine. 30(1):35-42. Published online December 3, 2013. Randomized controlled trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24313385/",
+      "pmid": "24313385",
+      "doi": "10.1111/phpp.12086",
+      "record_title": "Near-visible light and UV photoprotection in the treatment of melasma: a double-blind randomized trial.",
+      "record_journal": "Photodermatol Photoimmunol Photomed",
+      "record_year": "2013 (epub Dec 3, 2013; vol 30 issue 1)",
+      "article_type": "Journal Article; Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "claims": [
+        {
+          "text": "Iron oxide is a pigment that absorbs visible light",
+          "quote": "sunscreen with broad-spectrum UV protection that contains iron oxide as a VL-absorbing pigment (UV-VL)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "RCT of 68 people, all on 4% hydroquinone, 8 weeks",
+          "quote": "Sixty-eight patients with melasma were randomized in two groups to receive either UV-VL sunscreen or UV-only sunscreen, both with sun protection factor ≥ 50, over 8 weeks. All patients received 4% hydroquinone",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Iron oxide sunscreen improved melasma more than UV-only; suggests visible light role",
+          "quote": "UV-VL sunscreen enhances the depigmenting efficacy of hydroquinone compared with UV-only sunscreen in treatment of melasma. These findings suggest a role for VL in melasma pathogenesis.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 15,
+      "kind": "journal",
+      "cited_as": "Mahjoub TT, Milibary HH. Oral tranexamic acid in the treatment of hyperpigmentation disorder beyond melasma: A review. Journal of Cosmetic Dermatology. 22(4):1157-1162. Published online December 27, 2022. Review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36575866/",
+      "pmid": "36575866",
+      "doi": "10.1111/jocd.15561",
+      "record_title": "Oral tranexamic acid in the treatment of hyperpigmentation disorder beyond melasma: A review.",
+      "record_journal": "J Cosmet Dermatol",
+      "record_year": "2022 (epub Dec 27, 2022; vol 22 issue 4)",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "claims": [
+        {
+          "text": "FDA-approved for heavy menstrual bleeding; antifibrinolytic",
+          "quote": "is an antifibrinolytic, procoagulant agent approved by the Food and Drug Administration for the treatment of cyclic heavy menstrual bleeding",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Used off-label for melasma",
+          "quote": "Oral tranexamic acid has been used off-label in dermatology in the treatment of melasma and other hyperpigmentation disorders.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 16,
+      "kind": "other_web",
+      "cited_as": "American Academy of Dermatology. Skin cancer types: Melanoma signs and symptoms. Accessed November 15, 2026.",
+      "url": "https://www.aad.org/public/diseases/skin-cancer/types/common/melanoma/symptoms",
+      "version_or_date": "No last-updated date shown (copyright 2026)",
+      "retrieved_with": "WebFetch of official AAD page",
+      "claims": [
+        {
+          "text": "Asymmetric, irregular border, varying colors, or changing spot can be melanoma",
+          "quote": "The spot looks different from the rest or is changing in size, shape, or color.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Jagged border, more than one color, growing",
+          "quote": "Spot that has a jagged border, more than one color, and is growing.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "New spot that looks different from others",
+          "quote": "Spot that looks like a new mole, freckle, or age spot, but it looks different from the others on your skin.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Itches, bleeds, or is painful",
+          "quote": "Growth or spot on your skin that itches, bleeds, or is painful.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    }
+  ]
+}

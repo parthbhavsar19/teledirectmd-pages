@@ -2,7 +2,7 @@
  * VtHypertensionRefillsOnline.js — Vermont × Hypertension Refills condition page (v3)
  *
  * URL: /ca/hypertension-refills-online/
- * Authority: ACC/AHA 2017 + 2024 Update
+ * Authority: ACC/AHA 2017 + 2025 Update
  * Rendered by app/[slug]/[conditionSlug]/page.js when slug === 'ca'
  * and conditionSlug === 'hypertension-refills-online'.
  *
@@ -25,6 +25,7 @@
  *   • NPI 1104323203 visible
  *   • All .gov and clinical society citations are live <a href> tags
  */
+import { stateConditionHref } from '../../../lib/live-routes';
 import FaqAccordion from '../../components/FaqAccordion';
 import { VtNationalStyle } from '../../components/VtNationalChrome';
 
@@ -40,7 +41,7 @@ const PHYSICIAN = {
   specialty: 'Family Medicine',
   licenseState: 'Vermont',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 
@@ -61,7 +62,7 @@ const FAQ_ITEMS = [
   {
     id: 'hypertension-refills-online-faq-1',
     question: "What blood pressure medications can TeleDirectMD refill in Vermont?",
-    answer: <p>TeleDirectMD can refill established antihypertensive medications including ACE inhibitors (lisinopril, ramipril), ARBs (losartan, valsartan, olmesartan), dihydropyridine calcium channel blockers (amlodipine), thiazide-type diuretics (chlorthalidone, HCTZ), and cardioselective beta-blockers (metoprolol succinate) for appropriate indications. Medication selection follows ACC/AHA 2017 and 2024 update guidelines.</p>,
+    answer: <p>TeleDirectMD can refill established antihypertensive medications including ACE inhibitors (lisinopril, ramipril), ARBs (losartan, valsartan, olmesartan), dihydropyridine calcium channel blockers (amlodipine), thiazide-type diuretics (chlorthalidone, HCTZ), and cardioselective beta-blockers (metoprolol succinate) for appropriate indications. Medication selection follows ACC/AHA 2017 and 2025 update guidelines.</p>,
   },
   {
     id: 'hypertension-refills-online-faq-2',
@@ -71,12 +72,12 @@ const FAQ_ITEMS = [
   {
     id: 'hypertension-refills-online-faq-3',
     question: "What blood pressure target does TeleDirectMD use for Vermont hypertension patients?",
-    answer: <p>The ACC/AHA 2017 guideline recommends a blood pressure target of less than 130/80 mmHg for most adults with confirmed hypertension, particularly those with established cardiovascular disease or a 10-year ASCVD risk of ≥10%. The 2024 ACC hypertension update reinforces this target and identifies chlorthalidone as the preferred thiazide diuretic over hydrochlorothiazide due to superior 24-hour coverage. The physician individualizes targets for frail elderly patients or those with significant comorbidities.</p>,
+    answer: <p>The ACC/AHA 2017 guideline recommends a blood pressure target of less than 130/80 mmHg for most adults with confirmed hypertension, particularly those with established cardiovascular disease or a 10-year ASCVD risk of ≥10%. The 2025 AHA/ACC hypertension guideline update keeps this target, and the 2017 guideline identifies chlorthalidone as the preferred thiazide diuretic over hydrochlorothiazide due to its longer half-life and proven outcome benefit. The physician individualizes targets for frail elderly patients or those with significant comorbidities.</p>,
   },
   {
     id: 'hypertension-refills-online-faq-4',
     question: "Why is chlorthalidone preferred over HCTZ for hypertension in Vermont?",
-    answer: <p>The 2024 ACC hypertension guideline update reinforces chlorthalidone as the preferred thiazide-type diuretic over hydrochlorothiazide (HCTZ). Chlorthalidone has a longer half-life (50–60 hours vs. 8–15 hours for HCTZ), providing better 24-hour blood pressure control and superior outcomes in the ALLHAT trial. Chlorthalidone is available as generic at approximately $10–$25 per month with a GoodRx coupon at Vermont pharmacies.</p>,
+    answer: <p>The ACC/AHA 2017 hypertension guideline names chlorthalidone as the preferred thiazide-type diuretic over hydrochlorothiazide (HCTZ). Chlorthalidone has a longer half-life (50–60 hours vs. 8–15 hours for HCTZ), providing better 24-hour blood pressure control and proven cardiovascular outcome benefit in the ALLHAT trial. Chlorthalidone is available as generic at approximately $10–$25 per month with a GoodRx coupon at Vermont pharmacies.</p>,
   },
   {
     id: 'hypertension-refills-online-faq-6',
@@ -106,7 +107,6 @@ const VT_SIBLINGS = [
   { slug: 'asthma-refills-online', label: "Asthma Refills in VT", why: "Beta-blocker caution in asthma+HTN overlap is clinically relevant." },
   { slug: 'acid-reflux-refills-online', label: "Acid Reflux Refills in VT", why: "Common comorbidity in the chronic disease patient population." },
   { slug: 'migraine-refills-online', label: "Migraine Refills in VT", why: "Beta-blockers used in both HTN and migraine prevention." },
-  { slug: 'online-doctor-visits', label: "All Online Doctor Visits in VT", why: "General VT telehealth hub." }
 ];
 
 function buildSchemas() {
@@ -115,7 +115,7 @@ function buildSchemas() {
     '@type': 'MedicalWebPage',
     name: PAGE_TITLE,
     url: PAGE_URL,
-    description: 'Refill blood pressure medications online in Vermont. Board-certified Family Medicine MD. Vermont telehealth law compliant. Cash-pay only at $79 flat. ACC/AHA 2017 + 2024 guideline-based care. Roughly 1 in 3 Vermont adults have hypertension (CDC).',
+    description: 'Refill blood pressure medications online in Vermont. Board-certified Family Medicine MD. Vermont telehealth law compliant. Cash-pay only at $79 flat. ACC/AHA 2017 + 2025 guideline-based care. Roughly 1 in 3 Vermont adults have hypertension (CDC).',
     datePublished: DATE_PUBLISHED,
     dateModified: DATE_MODIFIED,
     inLanguage: 'en-US',
@@ -130,7 +130,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -241,7 +241,7 @@ export default function VtHypertensionRefillsOnline() {
               <div className="tdmd-hero-copy">
                 <h1 data-speakable="true">Hypertension Refills</h1>
                 <p className="tdmd-hero-sub" data-speakable="true">
-                  Vermont adults 18+ · Secure video visit · Cash-pay $79 flat · MD-only · 18 V.S.A. Chapter 219 compliant · ACC/AHA 2017 + 2024 Update
+                  Vermont adults 18+ · Secure video visit · Cash-pay $79 flat · MD-only · 18 V.S.A. Chapter 219 compliant · ACC/AHA 2017 + 2025 Update
                 </p>
                 <p>
                   TeleDirectMD provides evidence-based hypertension refills by secure video visit for Vermont adults. A Vermont-licensed board-certified Family Medicine physician evaluates your history, reviews relevant lab values and prior treatments, and prescribes appropriate medication when clinically indicated. This page is for adults located in Vermont, including {vtCities.join(', ')}, and surrounding areas.
@@ -255,7 +255,7 @@ export default function VtHypertensionRefillsOnline() {
                       Reviewed by <a href={PHYSICIAN.bioUrl}>{PHYSICIAN.name}</a> — Board-Certified {PHYSICIAN.specialty}
                     </span>
                     <span className="tdmd-vt-uti__byline-meta">
-                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
+                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
                       <time dateTime={DATE_MODIFIED}>{new Date(DATE_MODIFIED).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
                     </span>
                   </div>
@@ -277,13 +277,13 @@ export default function VtHypertensionRefillsOnline() {
                   <li>$79 flat cash-pay — no insurance billing in Vermont</li>
                   <li>MD-only care (no mid-levels)</li>
                   <li>Vermont-licensed telehealth for adults located in Vermont at time of visit</li>
-                  <li>Evidence-based treatment per ACC/AHA 2017 + 2024 Update</li>
+                  <li>Evidence-based treatment per ACC/AHA 2017 + 2025 Update</li>
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
                   <a href="/vt/" className="tdmd-btn tdmd-btn-outline">Explore Vermont Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> I10 (Essential hypertension) — final coding per clinical details</p>
@@ -294,7 +294,7 @@ export default function VtHypertensionRefillsOnline() {
                   <h2>Online Hypertension Refills in Vermont</h2>
                   <ul>
                     <li>Board-certified Family Medicine MD — Vermont-licensed</li>
-                    <li>Evidence-based regimen per ACC/AHA 2017 + 2024 Update</li>
+                    <li>Evidence-based regimen per ACC/AHA 2017 + 2025 Update</li>
                     <li>Lab value review before prescribing</li>
                     <li>e-Prescriptions to your VT pharmacy electronically</li>
                     <li>Clear follow-up steps and monitoring guidance</li>
@@ -313,7 +313,7 @@ export default function VtHypertensionRefillsOnline() {
           <div className="tdmd-container">
             <div className="tdmd-condition-opener" id="hypertension-refills-online-opening">
               <p>
-                In Vermont, where 64.8% of residents live in rural areas — the second-highest rural share in the U.S. — managing blood pressure shouldn’t require a 60-mile round trip. Vermont adults with established hypertension can refill blood pressure medications — including lisinopril, amlodipine, losartan, hydrochlorothiazide, and metoprolol succinate — by secure video visit through TeleDirectMD, consistent with 18 V.S.A. Chapter 219. Vermont is also the second-oldest state by median age, and roughly 1 in 3 Vermont adults have hypertension (CDC). The ACC/AHA 2017 hypertension guideline, supplemented by the 2024 ACC hypertension update, guides medication selection and blood pressure targets. A Vermont-licensed board-certified Family Medicine physician reviews your home blood pressure log, current medications, lab values, and adherence before authorizing refills. Self pay is $79.
+                In Vermont, where 64.8% of residents live in rural areas — the second-highest rural share in the U.S. — managing blood pressure shouldn’t require a 60-mile round trip. Vermont adults with established hypertension can refill blood pressure medications — including lisinopril, amlodipine, losartan, hydrochlorothiazide, and metoprolol succinate — by secure video visit through TeleDirectMD, consistent with 18 V.S.A. Chapter 219. Vermont is also the second-oldest state by median age, and roughly 1 in 3 Vermont adults have hypertension (CDC). The ACC/AHA 2017 hypertension guideline, supplemented by the 2025 AHA/ACC hypertension update, guides medication selection and blood pressure targets. A Vermont-licensed board-certified Family Medicine physician reviews your home blood pressure log, current medications, lab values, and adherence before authorizing refills. Self pay is $79.
               </p>
               <span className="tdmd-condition-opener__meta">
                 Reviewed by <a href="/about/">{PHYSICIAN.name}</a>, Board-Certified {PHYSICIAN.specialty} · NPI {PHYSICIAN.npi} · Licensed in {PHYSICIAN.licenseState} ·
@@ -335,7 +335,7 @@ export default function VtHypertensionRefillsOnline() {
 
             <h3>What standard of care applies to Vermont telehealth physicians?</h3>
             <p>
-              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: &ldquo;The standard of care is the same whether the patient is seen in-person, through telehealth or other methods of electronically enabled health care.&rdquo; TeleDirectMD physicians are licensed in Vermont. See <a href="/about/">Dr. Bhavsar&apos;s bio</a> for credential details.
+              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: &ldquo;The standard of care is the same whether the patient is seen in-person, through telehealth or other methods of electronically enabled health care.&rdquo; Dr. Bhavsar is licensed in Vermont. See <a href="/about/">Dr. Bhavsar&apos;s bio</a> for credential details.
             </p>
 
             
@@ -380,25 +380,6 @@ export default function VtHypertensionRefillsOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical cost comparison">
-                <h3>Typical Hypertension Refills Visit Cost in Vermont</h3>
-                <p className="tdmd-price-caption">Common ranges Vermonters see before insurance. Actual costs vary by setting and city.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 13, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical Vermont metro pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <div className="tdmd-cashpay-note">
@@ -416,7 +397,7 @@ export default function VtHypertensionRefillsOnline() {
           <div className="tdmd-container">
             <h2>Hypertension Refills: Medication Options and Pricing</h2>
             <p>
-              The table below reflects evidence-based medication options per ACC/AHA 2017 + 2024 Update guidelines.
+              The table below reflects evidence-based medication options per ACC/AHA 2017 + 2025 Update guidelines.
               GoodRx prices retrieved May 2026 from goodrx.com — national coupon prices; actual cost varies by Vermont pharmacy location.
               Prescription costs are separate from the $79 TeleDirectMD visit fee.
             </p>
@@ -456,12 +437,12 @@ export default function VtHypertensionRefillsOnline() {
                     <td><strong>Chlorthalidone 12.5/25 mg</strong></td>
                     <td>12.5–25 mg once daily in AM</td>
                     <td><a href="https://www.goodrx.com/chlorthalidone" target="_blank" rel="noopener">~$10–$25/month GoodRx (generic)</a></td>
-                    <td>Preferred over HCTZ per 2024 ACC update — longer half-life, superior 24-hour coverage.</td>
+                    <td>Preferred over HCTZ per ACC/AHA 2017 guideline — longer half-life, superior 24-hour coverage.</td>
                   </tr>
                   <tr>
                     <td><strong>Metoprolol succinate (Toprol XL) 25/50/100/200 mg</strong></td>
                     <td>25–200 mg once daily</td>
-                    <td><a href="https://www.goodrx.com/metoprolol-succinate" target="_blank" rel="noopener">~$10–$30/month GoodRx (generic)</a></td>
+                    <td><a href="https://www.goodrx.com/metoprolol-er" target="_blank" rel="noopener">~$10–$30/month GoodRx (generic)</a></td>
                     <td>Not first-line unless comorbid CAD, HFrEF, or rate control. Use cautiously in asthma.</td>
                   </tr>
                 </tbody>
@@ -513,7 +494,7 @@ export default function VtHypertensionRefillsOnline() {
                 <p>Book a same-day video visit — Vermont adults, 18+</p>
                 <small>Cash-pay $79 flat · No insurance billing in Vermont · Hypertension Refills</small>
               </div>
-              <a className="tdmd-vt-uti__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
+              <a className="tdmd-vt-uti__cta-btn" href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -532,8 +513,8 @@ export default function VtHypertensionRefillsOnline() {
                 <p>Book a same-day video visit. Cash-pay $79 flat. No insurance billing in Vermont.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -546,7 +527,7 @@ export default function VtHypertensionRefillsOnline() {
             <p>These Vermont condition pages address related or frequently co-occurring conditions treated by TeleDirectMD in Vermont.</p>
             <div className="tdmd-vt-uti__sibling-grid">
               {VT_SIBLINGS.map((s) => (
-                <a key={s.slug} className="tdmd-vt-uti__sibling" href={`/vt/${s.slug}/`}>
+                <a key={s.slug} className="tdmd-vt-uti__sibling" href={stateConditionHref('vt', s.slug) || `/${s.slug}/`}>
                   <span className="tdmd-vt-uti__sibling-label">{s.label}</span>
                   <span className="tdmd-vt-uti__sibling-why">{s.why}</span>
                 </a>
@@ -564,25 +545,25 @@ export default function VtHypertensionRefillsOnline() {
               <a href="/">Home</a>
               <a href="/vt/">Vermont (state pillar)</a>
               <a href="/hypertension-refills-online/">Hypertension Refills (national)</a>
-              <a href="/vt/asthma-refills-online/">Asthma Refills in VT</a>
+              <a href="/asthma-refills-online/">Asthma Refills in VT</a>
               <a href="/vt/hypertension-refills-online/">Hypertension Refills in VT</a>
               <a href="/vt/hypothyroidism-refills-online/">Hypothyroidism Refills in VT</a>
               <a href="/vt/hyperlipidemia-refills-online/">Hyperlipidemia Refills in VT</a>
-              <a href="/vt/diabetes-refills-online/">Diabetes Refills in VT</a>
-              <a href="/vt/migraine-refills-online/">Migraine Refills in VT</a>
-              <a href="/vt/acid-reflux-refills-online/">Acid Reflux Refills in VT</a>
-              <a href="/vt/epipen-refills-online/">EpiPen Refills in VT</a>
-              <a href="/vt/hair-loss-treatment-online/">Hair Loss in VT</a>
+              <a href="/diabetes-refills-online/">Diabetes Refills in VT</a>
+              <a href="/migraine-refills-online/">Migraine Refills in VT</a>
+              <a href="/acid-reflux-refills-online/">Acid Reflux Refills in VT</a>
+              <a href="/epipen-refills-online/">EpiPen Refills in VT</a>
+              <a href="/hair-loss-treatment-online/">Hair Loss in VT</a>
               <a href="/vt/seasonal-allergies-treatment-online/">Seasonal Allergies in VT</a>
-              <a href="/vt/anti-aging-treatment-online/">Anti-Aging in VT</a>
-              <a href="/vt/eyelash-growth-treatment-online/">Eyelash Growth in VT</a>
-              <a href="/vt/smoking-cessation-treatment-online/">Smoking Cessation in VT</a>
-              <a href="/vt/motion-sickness-treatment-online/">Motion Sickness in VT</a>
-              <a href="/vt/uti-treatment-online/">UTI Treatment in VT</a>
+              <a href="/anti-aging-treatment-online/">Anti-Aging in VT</a>
+              <a href="/eyelash-growth-treatment-online/">Eyelash Growth in VT</a>
+              <a href="/smoking-cessation-treatment-online/">Smoking Cessation in VT</a>
+              <a href="/motion-sickness-treatment-online/">Motion Sickness in VT</a>
+              <a href="/vt/uti-treatment-online/">UTI Treatment for Women in VT</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>
@@ -598,11 +579,10 @@ export default function VtHypertensionRefillsOnline() {
               <li><a href="https://legislature.vermont.gov/statutes/section/18/219/09361" rel="noopener" target="_blank">18 V.S.A. § 9361 (Vermont telemedicine prescribing)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a>. Retrieved May 2026.</li>
               <li><a href="https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2017/11/09/11/41/2017-guideline-for-high-blood-pressure-in-adults" rel="noopener" target="_blank">ACC/AHA 2017 Guideline for High Blood Pressure in Adults</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.acc.org/guidelines" rel="noopener" target="_blank">ACC 2024 Hypertension Guideline Update</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.acc.org/guidelines" rel="noopener" target="_blank">2025 AHA/ACC Hypertension Guideline Update</a>. Retrieved May 2026.</li>
               <li><a href="https://www.jacc.org/doi/10.1016/j.jacc.2017.11.006" rel="noopener" target="_blank">Whelton PK et al. 2017 ACC/AHA Hypertension Guidelines — JACC</a>. Retrieved May 2026.</li>
               <li><a href="https://www.cdc.gov/antimicrobial-resistance/" rel="noopener" target="_blank">U.S. Centers for Disease Control and Prevention</a>. Retrieved May 2026.</li>
               <li><a href="https://www.cdc.gov/antimicrobial-resistance/" rel="noopener" target="_blank">U.S. Centers for Disease Control and Prevention</a>. Retrieved May 2026.</li>
-              <li><a href="https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis/chis-data" rel="noopener" target="_blank">Vermont Health Interview Survey (CHIS) 2023</a>. Retrieved May 2026.</li>
             </ol>
           </div>
         </section>

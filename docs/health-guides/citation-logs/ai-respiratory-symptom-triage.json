@@ -1,0 +1,611 @@
+{
+ "guide": "ai-respiratory-symptom-triage",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 7 verified (10.1038/s41591-026-04297-7, 10.1038/s41598-025-95233-1, 10.7759/cureus.97834, 10.1370/afm.2970, 10.2196/55099, 10.2196/88396, 10.7326/M23-2505), retractions: none; no expressions of concern, no contrasting evidence flagged. PubMed article types for all seven: no Retracted Publication or Retraction Notice.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "journal",
+   "cited_as": "Ramaswamy A, Tyagi A, Hugo H, et al. \"ChatGPT Health performance in a structured test of triage recommendations.\" Nature Medicine. 2026;32(5):1671-1675. doi:10.1038/s41591-026-04297-7.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41731097/",
+   "pmid": "41731097",
+   "pmcid": "PMC13190235",
+   "doi": "10.1038/s41591-026-04297-7",
+   "record_title": "ChatGPT Health performance in a structured test of triage recommendations.",
+   "record_journal": "Nat Med",
+   "record_year": "2026",
+   "article_type": "Journal Article",
+   "version_or_date": "Published 2026-02-23 (PubMed); Nat Med 2026;32(5):1671-1675. Responses collected 2026-01-09 to 2026-01-11 via ChatGPT Health web interface (gpt-5-mini thinking backbone).",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC13190235); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Tool and version tested: ChatGPT Health web interface, gpt-5-mini thinking backbone, 9-11 January 2026; single time point. Sample: 60 clinician-authored vignettes x 16 factorial conditions = 960 responses; clear-case emergencies = 4 vignettes from 2 scenarios (asthma exacerbation, DKA), 64 responses. Reference standard: triage levels assigned independently by three physicians from cited guidelines (Fleiss kappa 0.90). Old page wrongly quoted \"wait and monitor\" (model recommended 24-48 h evaluation) and read OR 11.7 as \"12 times more likely to downgrade\" (OR is for any triage shift in edge cases; 52.5% of shifts were de-escalations). Citable summary linked a nature.com URL (s41591-025-03624-0) that is not this paper's DOI; replaced with PubMed. Scite: verified, no notices, no contrasting evidence flagged. The PMC text renders CO2 without its subscript (\"COmildly elevated\"); the quote is given with CO2.",
+   "claims": [
+    {
+     "text": "ChatGPT Health launched January 2026 and has reached millions of users (intro, figcaption)",
+     "quote": "ChatGPT Health was launched in January 2026 as OpenAI’s consumer health tool and has reached millions of users.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tested via web interface on gpt-5-mini thinking backbone, January 9 to 11, 2026",
+     "quote": "Responses were obtained via the ChatGPT Health web interface (gpt-5-mini thinking backbone) between 9 and 11 January 2026",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "60 clinician-written vignettes, 16 conditions each, 960 responses",
+     "quote": "60 clinician-authored vignettes across 21 clinical domains under 16 factorial conditions, yielding 960 total responses",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "52% (33 of 64) of responses to gold-standard emergencies under-triaged to 24-48 h evaluation instead of ED, including impending respiratory failure (key takeaway, body, table, citable)",
+     "quote": "Among true emergencies, 51.6% (33/64) were undertriaged to 24–48 h evaluation.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Abstract wording for under-triage including impending respiratory failure",
+     "quote": "Among gold-standard emergencies, the system undertriaged 52% of cases, directing patients with diabetic ketoacidosis or impending respiratory failure to 24–48 h evaluation rather than the emergency department",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Emergency set was four vignettes from two scenarios, asthma exacerbation and DKA",
+     "quote": "The four emergency vignettes comprised two clinical scenarios—an asthma exacerbation and diabetic ketoacidosis (DKA)—each tested with and without objective findings.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Authors tested a single time point; model behavior may change with updates",
+     "quote": "We evaluated a single time point and model behavior may change with updates",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Asthma accounted for 28 of 33 under-triaged emergency responses",
+     "quote": "Undertriage was concentrated in asthma exacerbation, which accounted for 84.8% (28/33) of undertriaged emergency responses.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Model identified warning sign (CO2 mildly elevated) then rationalized it away (full sentences); recommended 24-48 h evaluation (key takeaway, body)",
+     "quote": "the model identified the warning sign—‘CO2 mildly elevated, an early sign you’re not ventilating well’—then rationalized it away—‘findings don’t prove immediate respiratory failure’ and ‘still speaking in full sentences’",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Missed emergencies can result in patient harm",
+     "quote": "missed emergencies can result in patient harm",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Four textbook emergencies (stroke, anaphylaxis, meningitis, aortic dissection; 128 responses) showed 0% undertriage; identifies classic presentations but fails when emergency depends on progression",
+     "quote": "A supplementary analysis of four textbook emergencies (stroke, anaphylaxis, meningitis and aortic dissection; 128 responses) showed 0% undertriage",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Model identifies classic presentations but fails when emergency status depends on clinical progression",
+     "quote": "suggesting the model identifies classic presentations but fails when emergency status depends on clinical progression",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Anchoring statements: false reassurance (e.g., friend said nothing serious) or false alarm",
+     "quote": "Anchoring statements consisted of patient-reported false reassurance (for example, ‘My friend said it’s nothing serious’) or false alarm.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Anchoring raised triage shift in edge cases from 3.3% to 13.3% (OR 11.7, 95% CI 3.7 to 36.6) (key takeaway, body, citable)",
+     "quote": "Anchoring statements increased the probability of triage shift from 3.3% (8/240) to 13.3% (32/240) in edge cases (odds ratio (OR) = 11.7, 95% confidence interval (CI) = 3.7–36.6",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Anchoring not significant for clear cases",
+     "quote": "anchoring was significant only for edge cases (OR = 11.7, 95% CI = 3.7–36.6), not for clear cases.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "52.5% (21 of 40) of shifts toward less urgent care; 93.8% (30 of 32) of anchored shifts within acceptable bounds; most shifts toward less urgent care (citable)",
+     "quote": "Among triage shifts, 52.5% (21/40) were de-escalations towards less urgent care and 93.8% (30/32) remained within acceptable clinical bounds.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Edge cases defined as two adjacent triage levels clinically reasonable",
+     "quote": "‘edge’ (two adjacent levels clinically reasonable",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Under-triage may delay life-saving treatment; over-triage mainly increases health care use",
+     "quote": "undertriage may delay or preclude life-saving treatment, while overtriage primarily increases healthcare utilization.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "journal",
+   "cited_as": "Wang J, Shue K, Liu L, Hu G. \"Preliminary evaluation of ChatGPT model iterations in emergency department diagnostics.\" Scientific Reports. 2025;15(1):10426. doi:10.1038/s41598-025-95233-1.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40140500/",
+   "pmid": "40140500",
+   "pmcid": "PMC11947261",
+   "doi": "10.1038/s41598-025-95233-1",
+   "record_title": "Preliminary evaluation of ChatGPT model iterations in emergency department diagnostics.",
+   "record_journal": "Sci Rep",
+   "record_year": "2025",
+   "article_type": "Journal Article",
+   "version_or_date": "Published 2025-03-26; Sci Rep 2025;15(1):10426. Models accessed via API in September 2024.",
+   "retrieved_with": "PubMed search_articles, get_article_metadata, get_full_text_article (PMC11947261); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces old ref 2 (Pittsburgh Post-Gazette article PDF on enews.wvu.edu) with the primary paper. Tools tested: ChatGPT API models gpt-3.5-turbo-1106/0125, gpt-4-0314/0613/1106-preview/0125-preview/turbo-2024-04-09, 4o-mini-2024-07-18, 4o-2024-05-13, 4o-2024-08-06, chatgpt-4o-latest, o1-mini, o1-preview; temperature 0.7; each case run 3 times. Sample: 30 ED cases from Ten Berg et al. dataset (physician notes, labs excluded). Reference standard: confirmed discharge diagnosis. Study is diagnosis, not triage and not symptom checkers; old key takeaway called it \"AI symptom checkers\". The 13 difficult cases are ones where health professionals in the original study misidentified the leading diagnosis; page now says so. Retrospective. Scite: verified, no notices, no contrasting evidence.",
+   "claims": [
+    {
+     "text": "ChatGPT GPT-3.5, GPT-4, GPT-4o and o1 series evaluated on 30 ED cases; retrospective",
+     "quote": "This retrospective study evaluated the diagnostic performance of various ChatGPT models-including GPT-3.5, GPT-4, GPT-4o, and o1 series-in predicting diagnoses for ED patients (n = 30)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Models accessed through API in September 2024",
+     "quote": "We included all GPT models where Application Programming Interface (API) access was available at the time of experiments (September 2024).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cases from previously published data set of de-identified physician notes; discharge diagnosis as ground truth",
+     "quote": "Each patient case included a single confirmed discharge diagnosis, which served as the ground truth for evaluation. The input to the ChatGPT models consisted of physician note",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Top-three accuracy up to 80.0% (gpt-3.5-turbo-1106)",
+     "quote": "the early GPT-3.5 model with an updated training dataset, gpt_3.5_turbo_1106, achieved the highest accuracy at 80.0%.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "13 difficult cases where health professionals in original study misidentified leading diagnosis",
+     "quote": "A total of 13 cases were identified where healthcare professionals from the original study misidentified the leading diagnosis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Best model chatgpt-4o-latest 38.5% leading-diagnosis accuracy on difficult cases (key takeaway, body, table)",
+     "quote": "with the best model—chatgpt-4o-latest—achieving an accuracy of only 38.5% for leading diagnosis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Three pneumonia cases noted no fever; nearly all models excluded pneumonia; with 39 C, chatgpt-4o-latest included pneumonia in all three (key takeaway, body, table, citable)",
+     "quote": "we focused on three pneumonia cases (cases 1, 26, and 28) where physician notes explicitly stated no fever. Nearly all models consistently excluded pneumonia from their differential diagnoses.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "With temperature changed to 39 C, chatgpt-4o-latest included pneumonia in all three",
+     "quote": "Under these revised conditions, chatgpt_4o_latest successfully included pneumonia in its differential diagnoses for all three cases",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Older adults, infants and immunocompromised people may not have fever with pneumonia",
+     "quote": "certain populations—such as older adults, infants, and immunocompromised individuals—may not exhibit fever as a symptom of pneumonia.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "Brown HL. \"Evaluation of Artificial Intelligence for Patient Self-Triage: Comparison of General-Purpose AI Platforms With the NHS 111 Online Symptom Checker in the United Kingdom.\" Cureus. 2025;17(11):e97834. doi:10.7759/cureus.97834.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12741861/",
+   "pmid": "41458776",
+   "pmcid": "PMC12741861",
+   "doi": "10.7759/cureus.97834",
+   "record_title": "Evaluation of Artificial Intelligence for Patient Self-Triage: Comparison of General-Purpose AI Platforms With the NHS 111 Online Symptom Checker in the United Kingdom.",
+   "record_journal": "Cureus",
+   "record_year": "2025",
+   "article_type": "Journal Article (technical report)",
+   "version_or_date": "Published 2025-11-26; Cureus 2025;17(11):e97834. Testing 20-25 September 2025.",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC12741861); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Old citation had no author and a paraphrased title; corrected from PubMed. Tools tested: ChatGPT (GPT-5) and Gemini AI v2.5 Flash via public web interfaces with default settings, plus rule-based NHS 111 online symptom checker; 20-25 Sep 2025. Sample: 10 simulated vignettes (5 emergency, 5 non-emergency), single author, each tested once. Reference standard: NICE guideline-based classification by the author. Old page said \"All three AI systems correctly caught all 5 emergency cases\"; NHS 111 is rule-based (not AI) and under-triaged acute angle-closure glaucoma. Scite: verified, no notices.",
+   "claims": [
+    {
+     "text": "ChatGPT GPT-5 and Gemini 2.5 Flash vs NHS 111; ten vignettes, five emergency and five non-emergency; NICE gold standard",
+     "quote": "two general-purpose artificial intelligence (AI) platforms (ChatGPT GPT-5 (OpenAI, San Francisco, California, USA) and Gemini AI v2.5 Flash (Google, Mountain View, California, USA)) for patient self-triage, compared with the NHS 111 online symptom checker. Ten simulated patient scenarios, including five emergency and five non-emergency cases",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Testing September 20 to 25, 2025",
+     "quote": "All AI and NHS 111 testing was conducted between September 20 and 25, 2025.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "NHS 111 is rule-based, not AI",
+     "quote": "the NHS 111 online symptom checker, which uses a rule-based algorithm that directs patients through predetermined pathways, rather than using AI-based prediction of large language models",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Single-author report (vignettes developed and reviewed by the author)",
+     "quote": "Ten patient vignettes were developed by the author, a UK-trained physician",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Both AI platforms identified all emergency cases; NHS 111 under-triaged one (acute angle-closure glaucoma)",
+     "quote": "Both AI platforms correctly identified all emergency cases; NHS 111 under-triaged one acute emergency.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Under-triaged case was acute angle closure glaucoma",
+     "quote": "For under-triaged outputs, acute angle closure glaucoma by NHS 111",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "27 of 30 outputs (90%) matched; both AI over-triaged pyelonephritis",
+     "quote": "The total outputs were 30 (10 vignettes × 3 platforms): 1) 27 matched the gold standard, 2) one was under-triaged, and 3) two were over-triaged.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pyelonephritis over-triaged to ED by both AI platforms",
+     "quote": "For over-triaged outputs, pyelonephritis was flagged as requiring ED by ChatGPT and Gemini AI.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pulmonary embolism vignette sent to ED by all three (table)",
+     "quote": "Pulmonary embolism\n\nED\n\nED\n\nED",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Author concluded current models not sufficiently reliable for standalone use",
+     "quote": "General-purpose AI platforms show potential as an adjunct to NHS 111 for patient self-triage, but current models are not sufficiently reliable for standalone use.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Ellertsson S, Hlynsson HD, Loftsson H, Sigurðsson EL. \"Triaging Patients With Artificial Intelligence for Respiratory Symptoms in Primary Care to Improve Patient Outcomes: A Retrospective Diagnostic Accuracy Study.\" Annals of Family Medicine. 2023;21(3):240-248. doi:10.1370/afm.2970.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10202502/",
+   "pmid": "37217331",
+   "pmcid": "PMC10202502",
+   "doi": "10.1370/afm.2970",
+   "record_title": "Triaging Patients With Artificial Intelligence for Respiratory Symptoms in Primary Care to Improve Patient Outcomes: A Retrospective Diagnostic Accuracy Study.",
+   "record_journal": "Ann Fam Med",
+   "record_year": "2023",
+   "article_type": "Journal Article; Research Support, Non-U.S. Gov't",
+   "version_or_date": "Ann Fam Med 2023;21(3):240-248",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC returned no body text, so abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract-only this run; claims limited to the abstract. Old reference had no authors or title. Old text said the model \"identified who didn't need imaging or antibiotics\"; the abstract supports only lower antibiotic prescription rates and fewer CXR referrals, so rewritten. Model is a purpose-built machine learning model, not a chatbot; retrospective; reference standard is observed outcomes (CXR findings, physician pneumonia diagnosis) in two extrinsic data sets. Scite: verified, no notices.",
+   "claims": [
+    {
+     "text": "Respiratory symptoms are the most common presenting complaint in primary care (intro)",
+     "quote": "Respiratory symptoms are the most common presenting complaint in primary care.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "ML model trained on clinical notes from 1,500 primary care records, Reykjavik area",
+     "quote": "Clinical text notes were extracted from 1,500 records for patients that received 1 of 7codes (J00, J10, JII, J15, J20, J44, J45). All primary care clinics in the Reykjavík area of Iceland were included.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Patients in two other data sets sorted into 10 risk groups",
+     "quote": "The model scored patients in 2 extrinsic data sets and divided them into 10 risk groups",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Groups 1-5 had lower antibiotic prescription rates than 6-10",
+     "quote": "Risk groups 1 through 5 consisted of younger patients with lower C-reactive protein values, re-evaluation rates in primary and emergency care, antibiotic prescription rates",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Groups 1-5 had no CXRs with signs of pneumonia or physician pneumonia diagnosis (body, table)",
+     "quote": "Groups 1 through 5 had no CXRs with signs of pneumonia or diagnosis of pneumonia by a physician.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Model could reduce CXR referrals by eliminating them in groups 1-5",
+     "quote": "The model can reduce the number of CXR referrals by eliminating them in risk groups 1 through 5",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Retrospective study",
+     "quote": "A Retrospective Diagnostic Accuracy Study",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Liu V, Kaila M, Koskela T. \"Triage Accuracy and the Safety of User-Initiated Symptom Assessment With an Electronic Symptom Checker in a Real-Life Setting: Instrument Validation Study.\" JMIR Human Factors. 2024;11:e55099. doi:10.2196/55099.",
+   "url": "https://humanfactors.jmir.org/2024/1/e55099",
+   "pmid": "39326038",
+   "pmcid": "PMC11467609",
+   "doi": "10.2196/55099",
+   "record_title": "Triage Accuracy and the Safety of User-Initiated Symptom Assessment With an Electronic Symptom Checker in a Real-Life Setting: Instrument Validation Study.",
+   "record_journal": "JMIR Hum Factors",
+   "record_year": "2024",
+   "article_type": "Journal Article; Validation Study",
+   "version_or_date": "Published 2024-09-26; JMIR Hum Factors 2024;11:e55099. Data June 2018 to December 2020; 2018 Omaolo version.",
+   "retrieved_with": "PubMed convert_article_ids, get_article_metadata, get_full_text_article (PMC11467609); WebFetch of humanfactors.jmir.org record (title, authors, DOI match); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Old reference had no authors or title. Tool: Omaolo electronic symptom checker (2018 version), CE-marked, structured questions and fixed algorithms; the authors state it does not use AI, so the page now labels it rule-based. Sample: 877 patients, 18 PHC centers in Finland. Reference standard: triage nurse assessment. The Results give 44% (46/104) overly conservative triage for respiratory tract infection; the Discussion gives 47.1% (49/104) false positives for the same group (different metric). Old text \"sending patients to medical visits they didn't need\" overstated (the paper measures urgency level vs nurse, not visits); rewritten. Scite: verified, no notices.",
+   "claims": [
+    {
+     "text": "Omaolo uses structured questions and fixed algorithms, not AI",
+     "quote": "Omaolo uses structured questions and fixed algorithms designed by professionals to provide medically qualified recommendations, though it does not use AI.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "18 PHC centers; data June 2018 to December 2020; 2018 version",
+     "quote": "the data were collected at 18 PHC centers nationwide in Finland. The data were collected between June 1, 2018, and December 31, 2020. The study used the version of the Omaolo ESC that was in use in 2018.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "877 patients compared with nurse triage",
+     "quote": "Findings on 877 patients were analyzed by matching the ESC recommendations with triage by the triage nurse.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nurse triage is the gold standard",
+     "quote": "The nurse triage assessment is the gold standard, to which the recommendations of the ESC were compared.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "97.6% safe; 53.7% exact match (body, table)",
+     "quote": "Safe assessments by the ESC accounted for 97.6% (856/877; 95% CI 95.6%-98.0%) of all assessments made. The mean of the exact match for all symptom assessments was 53.7% (471/877",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Respiratory tract infections rated more urgent than nurse in 44% (46 of 104) (key takeaway, body, table)",
+     "quote": "The overly conservative triage (overtriage) suggestions made by the ESC occurred most often for respiratory tract infection in 44% (46/104)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Overly conservative triage means the checker rated the case more urgent than the nurse",
+     "quote": "overly conservative but suitable (ESC’s assessment was 1 triage level higher than the nurse’s triage)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Set to be sensitive to rule out alarming symptoms; concerns about overcrowding and possible unnecessary health care use",
+     "quote": "raising concerns about overcrowding and possible unnecessary health care service use. However, due to potentially serious conditions, these ESCs are set to be sensitive in order to rule out alarming symptoms.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Alamoudi A, Kontopantelis E, Zghebi SS, Brown B. \"AI Triage in Primary Care: Building Safer and More Equitable Real-World Evidence.\" J Med Internet Res. 2026;28:e88396. doi:10.2196/88396.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13000377/",
+   "pmid": "41780919",
+   "pmcid": "PMC13000377",
+   "doi": "10.2196/88396",
+   "record_title": "AI Triage in Primary Care: Building Safer and More Equitable Real-World Evidence.",
+   "record_journal": "J Med Internet Res",
+   "record_year": "2026",
+   "article_type": "Journal Article (the text calls itself a viewpoint)",
+   "version_or_date": "Published 2026-03-04; J Med Internet Res 2026;28:e88396",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC13000377); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Citable entry previously linked jmir.org/2026/1/e58290 and called this a \"systematic review\" with \"AUC 0.82-0.94\"; it is a viewpoint (the AUC range describes other studies). Citable link corrected to PMC record. Scite: verified, no notices.",
+   "claims": [
+    {
+     "text": "Viewpoint: evidence drawn from retrospective validations, emergency settings, or vignettes; scant real-world outcomes; almost no equity-stratified safety data despite known disparities across age, ethnicity, language and deprivation (body, table, citable)",
+     "quote": "current evidence is drawn from retrospective validations, emergency settings, or vignettes, with scant evaluation of real-world outcomes and almost no equity-stratified safety data, despite known disparities across age, ethnicity, language, and deprivation.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Article is a viewpoint",
+     "quote": "In this viewpoint, we distinguish between 3 related but conceptually distinct system types",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Jones BE, Chapman AB, Ying J, et al. \"Diagnostic Discordance, Uncertainty, and Treatment Ambiguity in Community-Acquired Pneumonia: A National Cohort Study of 115 U.S. Veterans Affairs Hospitals.\" Annals of Internal Medicine. 2024;177(9):1179-1189. doi:10.7326/M23-2505.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39102729/",
+   "pmid": "39102729",
+   "doi": "10.7326/M23-2505",
+   "record_title": "Diagnostic Discordance, Uncertainty, and Treatment Ambiguity in Community-Acquired Pneumonia : A National Cohort Study of 115 U.S. Veterans Affairs Hospitals.",
+   "record_journal": "Ann Intern Med",
+   "record_year": "2024",
+   "article_type": "Journal Article (retrospective cohort)",
+   "version_or_date": "Published 2024-08-06; Ann Intern Med 2024;177(9):1179-1189",
+   "retrieved_with": "WebFetch of University of Utah Health newsroom page (to identify the study DOI); PubMed search_articles and get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces old ref 7 (University of Utah Health news release, 2024-08-06) with the primary study it reports. Abstract only (no PMC full text). Setting: U.S. VA medical centers (abstract says 118; title says 115), patients hospitalized from the ED 2015-2022. The 57% applies to patients who received an initial or discharge diagnosis and treatment of pneumonia, not to all hospitalizations. Scite: verified, no notices.",
+   "claims": [
+    {
+     "text": "2,383,899 hospitalizations from the ED at VA medical centers; initial and discharge pneumonia diagnoses disagreed 57% of the time among patients diagnosed and treated for pneumonia",
+     "quote": "Among 2383899 hospitalizations, 13.3% received an initial or discharge diagnosis and treatment of pneumonia: 9.1% received an initial diagnosis and 10.0% received a discharge diagnosis. Discordances between initial and discharge occurred in 57%.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hospitalized from the ED at U.S. VA medical centers",
+     "quote": "118 U.S. Veterans Affairs medical centers. Aged 18 years or older and hospitalized from the emergency department (ED) between 1 January 2015 and 31 January 2022.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pneumonia diagnoses are uncertain",
+     "quote": "More than half of all patients hospitalized and treated for pneumonia had discordant diagnoses from initial presentation to discharge.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. \"Breathing difficulty.\" U.S. National Library of Medicine. Review date April 1, 2025. Accessed November 15, 2026.",
+   "url": "https://medlineplus.gov/ency/article/003075.htm",
+   "record_title": "Breathing difficulty.",
+   "version_or_date": "Review Date 4/1/2025",
+   "retrieved_with": "WebFetch of official page (MedlinePlus Medical Encyclopedia, NLM); direct download blocked by proxy, so quotes are short exact phrases returned by the fetch tool",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source for red flags (safety advice). Page puts sudden or serious breathing difficulty under \"Go to the emergency room or call the local emergency number (such as 911)\"; chest discomfort/pain/pressure and shortness of breath with slight activity or at rest under contacting a provider.",
+   "claims": [
+    {
+     "text": "Red flag: difficulty breathing or shortness of breath at rest",
+     "quote": "Shortness of breath after only slight activity or while at rest.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Red flag: chest pain, pressure, tightness or discomfort (\"tightness\" not in source wording)",
+     "quote": "Chest discomfort, pain, or pressure. These are symptoms of angina.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Go to the ER or call 911 if breathing difficulty is sudden or serious; for others call your doctor right away or go to ER",
+     "quote": "Go to the emergency room or call the local emergency number (such as 911) if: Breathing difficulty comes on suddenly or seriously interferes with your breathing and even talking",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. \"Asthma.\" U.S. National Library of Medicine. Review date January 1, 2025. Accessed November 15, 2026.",
+   "url": "https://medlineplus.gov/ency/article/000141.htm",
+   "record_title": "Asthma.",
+   "version_or_date": "Review Date 1/1/2025",
+   "retrieved_with": "WebFetch of official page (MedlinePlus Medical Encyclopedia, NLM)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source for asthma and emergency red flags. \"Drowsiness or confusion\", \"Bluish color to the lips and face\", \"Severe chest pain\" and \"Extreme difficulty breathing\" are under \"Go to the emergency room or call Emergency Medical Services (EMS) right away\". Worsening despite treatment is under \"Contact your provider right away\".",
+   "claims": [
+    {
+     "text": "Red flag: worsening asthma despite using your rescue inhaler; call your doctor right away",
+     "quote": "Contact your provider right away if: An asthma attack requires more medicine than recommended; Symptoms get worse or do not improve with treatment",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Red flag: bluish color of lips or face; call 911 or go to ER",
+     "quote": "Go to the emergency room or call Emergency Medical Services (EMS) right away if these symptoms occur: ... Bluish color to the lips and face",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Red flag: new confusion or unusual drowsiness; ER right away",
+     "quote": "Go to the emergency room or call Emergency Medical Services (EMS) right away if these symptoms occur: Drowsiness or confusion",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "ER right away for chest pain and trouble breathing",
+     "quote": "Severe chest pain ... Extreme difficulty breathing",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. \"Community-acquired pneumonia in adults.\" U.S. National Library of Medicine. Review date August 19, 2024. Accessed November 15, 2026.",
+   "url": "https://medlineplus.gov/ency/article/000145.htm",
+   "record_title": "Community-acquired pneumonia in adults.",
+   "version_or_date": "Review Date 8/19/2024",
+   "retrieved_with": "WebFetch of official page (MedlinePlus Medical Encyclopedia, NLM)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source for the fever/cough red flag (community-acquired pneumonia in adults, \"Contact your provider if you have\").",
+   "claims": [
+    {
+     "text": "Red flag: persistent fever with productive cough",
+     "quote": "Contact your provider if you have: ... Shortness of breath, shaking chills, or persistent fevers",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. \"Symptoms of COVID-19.\" Last updated March 10, 2025. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/covid/signs-symptoms/index.html",
+   "record_title": "Symptoms of COVID-19.",
+   "version_or_date": "Last updated Mar. 10, 2025",
+   "retrieved_with": "WebFetch of official page (CDC, Symptoms of COVID-19)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source for emergency warning signs and the 911 instruction. CDC lists these for COVID-19; the page uses them as general respiratory emergency signs alongside MedlinePlus refs 8 and 9.",
+   "claims": [
+    {
+     "text": "Call 911 for trouble breathing, chest pain or pressure, blue or gray lips/nail beds, new confusion",
+     "quote": "Trouble breathing; Persistent pain or pressure in the chest; New confusion; ... If someone is showing any of these signs, call 911 or call ahead to your local emergency facility.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Bluish or gray lips, face, fingertips or nail beds",
+     "quote": "Depending on skin tone, lips, nail beds and skin may appear pale, gray, or blue.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Difficulty breathing as emergency warning sign",
+     "quote": "Trouble breathing",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

@@ -2,6 +2,7 @@
 // Content lives in lib/cost-pages-config.js. Structure mirrors the
 // 23-section gold standard in app/who-we-serve/[segment]/InternationalVisitorsPage.js.
 
+import { contentDate } from '../../../lib/content-dates';
 import { COST_PAGES, COST_PAGE_SLUGS, COST_RELATED_LINKS } from '../../../lib/cost-pages-config';
 import UtiAntibioticsPage from '../../components/UtiAntibioticsPage';
 import CostPageRedesign from '../../components/CostPageRedesign';
@@ -9,6 +10,7 @@ import { COMPARE_PAGES } from '../../../lib/compare-pages-config';
 import { AGGREGATE_RATING_VALUE, TOTAL_REVIEW_COUNT } from '../../../lib/review-schema';
 import { buildCostCompareJsonLd, buildCostComparisonAggregateOffer } from '../../../lib/cost-compare-schema';
 import { SYMPTOM_PAGES } from '../../../lib/symptom-pages-config';
+import { SYMPTOM_SLUG_TO_DESTINATION } from '../../../lib/internal-links';
 import { getPayerFamilyStateCount } from '../../../lib/insurance-data';
 
 // Map cost-page slug → symptom-page slugs that surface this cost guide.
@@ -24,7 +26,7 @@ const COST_PAGE_TO_SYMPTOMS = {
 };
 
 const STATE_LIST = [
-  ['AL','Alabama'],['AZ','Arizona'],['CA','California'],['CO','Colorado'],['CT','Connecticut'],['DE','Delaware'],['FL','Florida'],['GA','Georgia'],['HI','Hawaii'],['ID','Idaho'],['IL','Illinois'],['IN','Indiana'],['IA','Iowa'],['KS','Kansas'],['KY','Kentucky'],['LA','Louisiana'],['ME','Maine'],['MD','Maryland'],['MI','Michigan'],['MN','Minnesota'],['MS','Mississippi'],['MO','Missouri'],['MT','Montana'],['NE','Nebraska'],['NV','Nevada'],['NH','New Hampshire'],['NJ','New Jersey'],['NC','North Carolina'],['ND','North Dakota'],['OH','Ohio'],['OK','Oklahoma'],['PA','Pennsylvania'],['SC','South Carolina'],['SD','South Dakota'],['TN','Tennessee'],['TX','Texas'],['UT','Utah'],['VA','Virginia'],['WA','Washington'],['WV','West Virginia'],['WI','Wisconsin'],['WY','Wyoming'],
+  ['AL','Alabama'],['AK','Alaska'],['AZ','Arizona'],['CA','California'],['CO','Colorado'],['CT','Connecticut'],['DE','Delaware'],['FL','Florida'],['GA','Georgia'],['HI','Hawaii'],['IA','Iowa'],['ID','Idaho'],['IL','Illinois'],['IN','Indiana'],['KY','Kentucky'],['LA','Louisiana'],['MD','Maryland'],['ME','Maine'],['MI','Michigan'],['MN','Minnesota'],['MO','Missouri'],['MS','Mississippi'],['MT','Montana'],['NC','North Carolina'],['ND','North Dakota'],['NE','Nebraska'],['NH','New Hampshire'],['NJ','New Jersey'],['NY','New York'],['NV','Nevada'],['OH','Ohio'],['OK','Oklahoma'],['PA','Pennsylvania'],['SC','South Carolina'],['SD','South Dakota'],['TN','Tennessee'],['TX','Texas'],['UT','Utah'],['VA','Virginia'],['VT','Vermont'],['WA','Washington'],['WV','West Virginia'],['WY','Wyoming'],
 ];
 
 export async function generateStaticParams() {
@@ -49,7 +51,13 @@ export async function generateMetadata({ params }) {
       title: cfg.metaTitle,
       description: cfg.metaDescription,
       url: pageUrl,
+      // None of the 22 /cost/* pages set an og:image (verified: no `images` key
+      // anywhere in this file before 2026-08-11). Falls back to the sitewide
+      // editorial default until each page gets its own tdmd-<slug>-og.png
+      // following the convention already used on /[slug]/ and /[slug]/[conditionSlug]/.
+      images: [{ url: `${baseUrl}/og-default-editorial.jpg`, alt: cfg.h1 }],
     },
+    twitter: { card: 'summary_large_image', title: cfg.metaTitle, description: cfg.metaDescription, images: [`${baseUrl}/og-default-editorial.jpg`] },
     alternates: { canonical: pageUrl },
   };
 }
@@ -61,7 +69,7 @@ export default async function CostPage({ params }) {
 
   const baseUrl = 'https://teledirectmd.com';
   const pageUrl = `${baseUrl}/cost/${slug}/`;
-  const today = new Date().toISOString().split('T')[0];
+  const today = contentDate('costPages');
   const pid = cfg.pid;
   const related = COST_RELATED_LINKS[slug] || { relatedCost: [], relatedCompare: [] };
 
@@ -82,6 +90,7 @@ export default async function CostPage({ params }) {
     medicalCondition: cfg.medicalCondition,
     service: cfg.service,
     procedure: cfg.procedure,
+    costPlus: cfg.costPlus,
   });
 
   // ── AI-visibility FAQPage schema. Emits a standalone Question/Answer pair
@@ -101,7 +110,7 @@ export default async function CostPage({ params }) {
       'name': `How much does ${conditionLabel} cost in 2026?`,
       'acceptedAnswer': {
         '@type': 'Answer',
-        'text': cfg.citableSummary.replace(/<[^>]+>/g, ''), // strip inline HTML for the plain-text schema field
+        'text': cfg.citableSummary.replace(/<[^>]+>/g, '') + (cfg.costPlus ? ` Cost Plus Drugs: ${cfg.costPlus.drug}${cfg.costPlus.price ? ` — ${cfg.costPlus.price}` : ''}. ${cfg.costPlus.note}.` : ''), // strip inline HTML for the plain-text schema field
       },
     }],
   } : null;
@@ -217,13 +226,13 @@ export default async function CostPage({ params }) {
               </ul>
 
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
               </div>
 
               <p className="tdmd-reviewed">
                 Cost comparison last updated {today}. Reviewed by{' '}
-                <a className="tdmd-author-link" href="/about" aria-label="About Parth Bhavsar, MD">Parth Bhavsar, MD</a>{' '}— Board-Certified Family Medicine · NPI 1104323203 · LegitScript Certified · HIPAA-Compliant.
+                <a className="tdmd-author-link" href="/about/" aria-label="About Parth Bhavsar, MD">Parth Bhavsar, MD</a>{' '}— Board-Certified Family Medicine · NPI 1104323203 · LegitScript Certified · HIPAA-Compliant.
               </p>
             </div>
 
@@ -287,7 +296,7 @@ export default async function CostPage({ params }) {
         <div className="tdmd-container">
           <h2>Why TeleDirectMD: A Real Doctor, Not an Algorithm</h2>
           <p>
-            When you visit TeleDirectMD, you see <a href="/about" style={{ fontWeight: 700, color: 'var(--tdmd-navy)' }}>Dr. Parth Bhavsar, MD</a> — a board-certified Family Medicine physician licensed in 43 states. Not a panel of rotating providers, not a physician assistant, not a chatbot.
+            When you visit TeleDirectMD, you see <a href="/about/" style={{ fontWeight: 700, color: 'var(--tdmd-navy)' }}>Dr. Parth Bhavsar, MD</a> — a board-certified Family Medicine physician licensed in 40+ states. Not a panel of rotating providers, not a physician assistant, not a chatbot.
           </p>
           <ul className="tdmd-hero-benefits">
             <li>Board-certified Family Medicine — University of Mississippi Medical Center</li>
@@ -314,10 +323,10 @@ export default async function CostPage({ params }) {
         </div>
       </section>
 
-      {/* 8) States grid — 43 states */}
+      {/* 8) States grid — 40+ states */}
       <section className="tdmd-section" id={`${pid}-states`}>
         <div className="tdmd-container">
-          <h2>Available in 43 States</h2>
+          <h2>Available in 40+ States</h2>
           <p>{cfg.stateDeepLinkConditionSlug
             ? `The flat $79 ${conditionLabel} visit is available in every state where Dr. Bhavsar is licensed. Get state-specific pricing and book directly:`
             : 'The flat $79 rate applies in every state where Dr. Bhavsar is licensed. Select your state:'}</p>
@@ -352,7 +361,7 @@ export default async function CostPage({ params }) {
             <a href="/influenza-treatment-online/" className="tdmd-related-card"><span className="tdmd-related-title">Flu / Influenza</span><span className="tdmd-related-desc">$79 visit + Tamiflu when indicated</span></a>
           </div>
           <div className="tdmd-related-cta" style={{ marginTop: '1rem' }}>
-            <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View all 60 conditions we treat</a>
+            <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View all 60+ conditions we treat</a>
           </div>
         </div>
       </section>
@@ -385,7 +394,7 @@ export default async function CostPage({ params }) {
                 <li>Board-certified MD video consultation</li>
                 <li>E-prescription to any US pharmacy</li>
                 <li>HSA / FSA-eligible</li>
-                <li>No facility fees, no surprise billing</li>
+                <li>No facility fees, no hidden fees</li>
                 <li>Receipt suitable for travel-insurance reimbursement</li>
               </ul>
             </div>
@@ -400,18 +409,14 @@ export default async function CostPage({ params }) {
                 <div className="tdmd-bar-track"><div className="tdmd-bar-fill" style={{ '--w': 9 }} /></div>
               </div>
               <div className="tdmd-bar-row">
-                <div className="tdmd-bar-label"><span>Retail clinic</span><span>$99–$139</span></div>
-                <div className="tdmd-bar-track"><div className="tdmd-bar-fill" style={{ '--w': 13 }} /></div>
-              </div>
-              <div className="tdmd-bar-row">
                 <div className="tdmd-bar-label"><span>Urgent care</span><span>$150–$280</span></div>
                 <div className="tdmd-bar-track"><div className="tdmd-bar-fill" style={{ '--w': 28 }} /></div>
               </div>
               <div className="tdmd-bar-row">
-                <div className="tdmd-bar-label"><span>Emergency room</span><span>~$2,715</span></div>
+                <div className="tdmd-bar-label"><span>Emergency room</span><span>~$2,863</span></div>
                 <div className="tdmd-bar-track"><div className="tdmd-bar-fill" style={{ '--w': 100 }} /></div>
               </div>
-              <p className="tdmd-price-footnote">Sources: <a href="https://www.talktomira.com/post/how-much-does-an-er-visit-cost" rel="nofollow noopener">Mira Health 2025</a>; <a href="https://www.goodrx.com/health-topic/emergency-care/how-much-is-urgent-care-without-insurance" rel="nofollow noopener">GoodRx 2024</a>; <a href="https://www.cvs.com/minuteclinic/services/price-lists" rel="nofollow noopener">CVS MinuteClinic 2024</a>.</p>
+              <p className="tdmd-price-footnote">Sources: <a href="https://www.talktomira.com/post/how-much-does-an-er-visit-cost" rel="nofollow noopener">Mira Health, Sept 2026</a> (ER); <a href="https://www.solvhealth.com/health/how-much-does-urgent-care-cost-without-insurance" rel="nofollow noopener">Solv Health, June 2026</a> (urgent care).</p>
             </div>
           </div>
         </div>
@@ -426,7 +431,7 @@ export default async function CostPage({ params }) {
               <div className="tdmd-decision-number">1</div>
               <div className="tdmd-decision-content">
                 <h3>Book online</h3>
-                <p>Pick a same-day or next-available appointment at <a href="/book-online">teledirectmd.com/book-online</a>. Pay $79 at checkout (or use HSA/FSA, or apply your in-network insurance).</p>
+                <p>Pick a same-day or next-available appointment at <a href="/book-online/">teledirectmd.com/book-online</a>. Pay $79 at checkout (or use HSA/FSA, or apply your in-network insurance).</p>
               </div>
             </div>
             <div className="tdmd-decision-step tdmd-decision-step-good">
@@ -442,7 +447,7 @@ export default async function CostPage({ params }) {
                 <h3>Get treated, fill the script</h3>
                 <p>Receive a diagnosis, a written visit summary, and an e-prescription routed to your pharmacy of choice — usually within 30 minutes of the visit.</p>
                 <div className="tdmd-decision-cta">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a $79 Visit Now</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a $79 Visit Now</a>
                 </div>
               </div>
             </div>
@@ -601,9 +606,9 @@ export default async function CostPage({ params }) {
       <section className="tdmd-section tdmd-faq" id={`${pid}-faq`}>
         <div className="tdmd-container">
           <h2>Frequently Asked Questions</h2>
-          <div className="tdmd-faq-list" role="list">
+          <div className="tdmd-faq-list">
             {cfg.faqs.map((f, i) => (
-              <details key={i} className="tdmd-faq-item" role="listitem">
+              <details key={i} className="tdmd-faq-item">
                 <summary className="tdmd-faq-question" data-speakable="true">{f.question}</summary>
                 <div className="tdmd-faq-answer"><p>{f.answer}</p></div>
               </details>
@@ -612,7 +617,9 @@ export default async function CostPage({ params }) {
         </div>
       </section>
 
-      {/* 22b) Symptom guides that lead here — back-links to /symptoms/* */}
+      {/* 22b) Symptom guides that lead here — back-links to final destinations.
+          2026-07-18: standalone /symptoms/* URLs retired; each chip now links
+          directly to the post-301 target (see SYMPTOM_SLUG_TO_DESTINATION). */}
       {(COST_PAGE_TO_SYMPTOMS[slug] || []).length > 0 && (
         <section className="tdmd-section" id={`${pid}-symptom-back-links`}>
           <div className="tdmd-container" data-speakable="true">
@@ -621,9 +628,10 @@ export default async function CostPage({ params }) {
             <div className="tdmd-related-grid">
               {(COST_PAGE_TO_SYMPTOMS[slug] || []).map((s) => {
                 const r = SYMPTOM_PAGES[s];
-                if (!r) return null;
+                const dest = SYMPTOM_SLUG_TO_DESTINATION[s];
+                if (!r || !dest) return null;
                 return (
-                  <a key={s} href={`/symptoms/${s}/`} className="tdmd-related-card">
+                  <a key={s} href={dest} className="tdmd-related-card">
                     <span className="tdmd-related-title">{r.breadcrumb}</span>
                     <span className="tdmd-related-desc">"{r.query}"</span>
                   </a>
@@ -669,10 +677,10 @@ export default async function CostPage({ params }) {
           <div className="tdmd-bottom-cta" style={{ marginTop: '1.5rem' }}>
             <div className="tdmd-bottom-cta-copy">
               <h3>Stop guessing. Book a $79 visit and know your cost upfront.</h3>
-              <p>Same-day. No insurance required. HSA/FSA accepted. 43 states. Last verified {today}.</p>
+              <p>Same-day. No insurance required. HSA/FSA accepted. 40+ states. Last verified {today}.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Start a $79 Visit</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Start a $79 Visit</a>
               <a href="/insurance/" className="tdmd-btn tdmd-btn-outline">Use Insurance</a>
             </div>
           </div>
@@ -696,7 +704,7 @@ export default async function CostPage({ params }) {
         <div className="tdmd-container">
           <h2>Medical Disclaimer & Pricing Caveats</h2>
           <p>
-            Cost figures on this page reflect 2025–2026 cash-pay/uninsured averages or ranges from public sources (KFF, Mira Health, GoodRx, Penn Medicine, CVS MinuteClinic, BetterCare). Actual costs vary by geography, facility, and services rendered. This page is informational only and does not constitute medical advice or a guarantee of pricing. TeleDirectMD provides telehealth services for non-emergency conditions in adults 18+ physically located in one of our 43 licensed states at the time of the visit. We do not prescribe controlled substances. If you are experiencing a medical emergency, call 911 immediately.
+            Cost figures on this page reflect 2025–2026 cash-pay/uninsured averages or ranges from public sources (KFF, Mira Health, GoodRx, Penn Medicine, Solv Health, BetterCare). Actual costs vary by geography, facility, and services rendered. This page is informational only and does not constitute medical advice or a guarantee of pricing. TeleDirectMD provides telehealth services for non-emergency conditions in adults 18+ physically located in one of our 40+ licensed states at the time of the visit. We do not prescribe controlled substances. If you are experiencing a medical emergency, call 911 immediately.
           </p>
         </div>
       </section>

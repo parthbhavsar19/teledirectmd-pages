@@ -11,7 +11,6 @@ const STATE_SLUGS = {
   'new-jersey': 'NJ',
   ohio: 'OH',
   pennsylvania: 'PA',
-  tennessee: 'TN',
   washington: 'WA',
 };
 const CONDITION_SLUGS = Object.keys(INSURANCE_CONDITIONS);

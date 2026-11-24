@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="hero-title hero-desc" preserveAspectRatio="xMidYMid meet">
+  <title id="hero-title">Wildfire smoke settling over Interior Alaska</title>
+  <desc id="hero-desc">Stylized illustration of a smoke-filled valley between low mountain ranges with boreal spruce forest in the foreground, a sun obscured by orange-brown smoke haze, and a village of small structures near a river.</desc>
+
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8A4620"/>
+      <stop offset="45%" stop-color="#C67D3E"/>
+      <stop offset="80%" stop-color="#E4A76B"/>
+      <stop offset="100%" stop-color="#F0C58A"/>
+    </linearGradient>
+    <linearGradient id="mountainFar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5F5346" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#78685A" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="mountainMid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4A403A" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#5E524A" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7A6A4E"/>
+      <stop offset="50%" stop-color="#A08960"/>
+      <stop offset="100%" stop-color="#7A6A4E"/>
+    </linearGradient>
+    <linearGradient id="smokeBand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B47040" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#9C5A34" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7A4426" stop-opacity="0.7"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD97A"/>
+      <stop offset="40%" stop-color="#F0A050" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#C67D3E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="675" fill="url(#sky)"/>
+
+  <circle cx="880" cy="205" r="120" fill="url(#sunGlow)"/>
+  <circle cx="880" cy="205" r="42" fill="#FFC66B" opacity="0.9"/>
+
+  <g opacity="0.55">
+    <path d="M0,340 Q200,300 380,325 T760,330 T1200,320 L1200,395 L0,395 Z" fill="#8A5A32" opacity="0.5"/>
+    <path d="M0,360 Q220,335 420,355 T820,352 T1200,345 L1200,400 L0,400 Z" fill="#6E4626" opacity="0.55"/>
+  </g>
+
+  <path d="M0,345 L120,290 L240,330 L360,265 L480,315 L600,275 L720,320 L860,285 L980,325 L1100,300 L1200,335 L1200,410 L0,410 Z" fill="url(#mountainFar)"/>
+  <path d="M0,395 L100,340 L220,380 L340,325 L460,370 L600,340 L740,380 L880,345 L1020,385 L1140,360 L1200,385 L1200,455 L0,455 Z" fill="url(#mountainMid)"/>
+
+  <rect x="0" y="360" width="1200" height="120" fill="url(#smokeBand)"/>
+
+  <g fill="#A08960">
+    <path d="M0,470 L1200,470 L1200,485 L0,485 Z" opacity="0.8"/>
+  </g>
+  <path d="M0,470 Q300,465 620,475 T1200,472 L1200,510 Q900,495 640,505 T0,500 Z" fill="url(#river)" opacity="0.9"/>
+
+  <g fill="#2E2620" opacity="0.85">
+    <rect x="620" y="435" width="26" height="30"/>
+    <polygon points="620,435 633,420 646,435"/>
+    <rect x="654" y="440" width="22" height="25"/>
+    <polygon points="654,440 665,425 676,440"/>
+    <rect x="682" y="438" width="20" height="27"/>
+    <polygon points="682,438 692,423 702,438"/>
+    <rect x="707" y="442" width="18" height="23"/>
+    <polygon points="707,442 716,428 725,442"/>
+  </g>
+  <g stroke="#3A2E22" stroke-width="1" opacity="0.75">
+    <line x1="631" y1="425" x2="631" y2="418"/>
+    <line x1="665" y1="430" x2="665" y2="424"/>
+    <line x1="692" y1="428" x2="692" y2="422"/>
+  </g>
+
+  <g fill="#2A3A2A">
+    <g transform="translate(50,455)">
+      <polygon points="0,60 15,20 30,60" opacity="0.9"/>
+      <polygon points="5,45 15,10 25,45" opacity="0.95"/>
+    </g>
+    <g transform="translate(100,470)">
+      <polygon points="0,55 12,18 24,55"/>
+      <polygon points="3,40 12,8 21,40"/>
+    </g>
+    <g transform="translate(155,462)">
+      <polygon points="0,65 18,15 36,65"/>
+      <polygon points="6,50 18,5 30,50"/>
+    </g>
+    <g transform="translate(220,478)">
+      <polygon points="0,50 10,20 20,50"/>
+    </g>
+    <g transform="translate(265,470)">
+      <polygon points="0,60 14,18 28,60"/>
+      <polygon points="4,45 14,8 24,45"/>
+    </g>
+    <g transform="translate(325,485)">
+      <polygon points="0,50 12,22 24,50"/>
+    </g>
+    <g transform="translate(380,462)">
+      <polygon points="0,68 16,18 32,68"/>
+      <polygon points="6,53 16,6 26,53"/>
+    </g>
+    <g transform="translate(455,478)">
+      <polygon points="0,55 13,20 26,55"/>
+    </g>
+    <g transform="translate(505,468)">
+      <polygon points="0,60 14,16 28,60"/>
+      <polygon points="5,45 14,4 23,45"/>
+    </g>
+    <g transform="translate(770,470)">
+      <polygon points="0,55 13,18 26,55"/>
+    </g>
+    <g transform="translate(820,478)">
+      <polygon points="0,50 12,22 24,50"/>
+    </g>
+    <g transform="translate(870,465)">
+      <polygon points="0,60 15,18 30,60"/>
+      <polygon points="5,45 15,8 25,45"/>
+    </g>
+    <g transform="translate(940,472)">
+      <polygon points="0,58 14,20 28,58"/>
+    </g>
+    <g transform="translate(1000,464)">
+      <polygon points="0,65 16,15 32,65"/>
+      <polygon points="6,50 16,5 26,50"/>
+    </g>
+    <g transform="translate(1075,478)">
+      <polygon points="0,52 12,20 24,52"/>
+    </g>
+    <g transform="translate(1130,468)">
+      <polygon points="0,60 14,18 28,60"/>
+      <polygon points="5,45 14,6 23,45"/>
+    </g>
+  </g>
+
+  <rect x="0" y="510" width="1200" height="165" fill="#1A241C"/>
+  <g fill="#2A3A2A">
+    <g transform="translate(60,510)"><polygon points="0,70 22,20 44,70"/><polygon points="10,52 22,10 34,52"/></g>
+    <g transform="translate(115,510)"><polygon points="0,80 18,15 36,80"/><polygon points="6,60 18,5 30,60"/></g>
+    <g transform="translate(170,510)"><polygon points="0,90 26,12 52,90"/><polygon points="12,68 26,2 40,68"/></g>
+    <g transform="translate(240,510)"><polygon points="0,75 20,18 40,75"/><polygon points="8,55 20,8 32,55"/></g>
+    <g transform="translate(300,510)"><polygon points="0,85 24,14 48,85"/><polygon points="10,64 24,4 38,64"/></g>
+    <g transform="translate(370,510)"><polygon points="0,75 20,18 40,75"/><polygon points="8,55 20,8 32,55"/></g>
+    <g transform="translate(430,510)"><polygon points="0,90 26,12 52,90"/><polygon points="12,68 26,2 40,68"/></g>
+    <g transform="translate(510,510)"><polygon points="0,72 19,20 38,72"/></g>
+    <g transform="translate(560,510)"><polygon points="0,84 22,16 44,84"/><polygon points="9,62 22,6 35,62"/></g>
+    <g transform="translate(625,510)"><polygon points="0,78 20,18 40,78"/></g>
+    <g transform="translate(690,510)"><polygon points="0,88 24,13 48,88"/><polygon points="10,66 24,3 38,66"/></g>
+    <g transform="translate(760,510)"><polygon points="0,74 19,19 38,74"/></g>
+    <g transform="translate(820,510)"><polygon points="0,90 26,12 52,90"/><polygon points="12,68 26,2 40,68"/></g>
+    <g transform="translate(900,510)"><polygon points="0,76 20,18 40,76"/></g>
+    <g transform="translate(960,510)"><polygon points="0,86 24,14 48,86"/><polygon points="10,64 24,4 38,64"/></g>
+    <g transform="translate(1035,510)"><polygon points="0,74 19,19 38,74"/></g>
+    <g transform="translate(1090,510)"><polygon points="0,90 26,12 52,90"/><polygon points="12,68 26,2 40,68"/></g>
+    <g transform="translate(1155,510)"><polygon points="0,78 20,18 40,78"/></g>
+  </g>
+
+  <g opacity="0.6">
+    <ellipse cx="200" cy="210" rx="240" ry="45" fill="#B4784A"/>
+    <ellipse cx="600" cy="180" rx="320" ry="55" fill="#A06840"/>
+    <ellipse cx="1000" cy="230" rx="270" ry="50" fill="#B4784A"/>
+    <ellipse cx="350" cy="280" rx="200" ry="35" fill="#8A5A32" opacity="0.7"/>
+    <ellipse cx="850" cy="290" rx="220" ry="40" fill="#8A5A32" opacity="0.7"/>
+  </g>
+
+  <g transform="translate(50, 50)" fill="#FFFFFF">
+    <text x="0" y="0" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" letter-spacing="0.15em" opacity="0.85">FIELD GUIDE</text>
+    <text x="0" y="38" font-family="Georgia, serif" font-size="42" font-weight="700">Alaska Wildfire Smoke</text>
+    <text x="0" y="78" font-family="Georgia, serif" font-size="42" font-weight="700">and Your Lungs</text>
+  </g>
+</svg>

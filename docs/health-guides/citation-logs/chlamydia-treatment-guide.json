@@ -1,0 +1,780 @@
+{
+  "guide": "chlamydia-treatment-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 4 verified (10.1093/cid/ciab153, 10.1093/cid/ciz429, 10.1097/OLQ.0000000000000906, 10.15585/mmwr.rr7004a1), retractions: none. Ref 7 (MMWR 2014, no DOI) could not be matched by Scite; identity confirmed by PubMed PMID 24622331 and PMC full text. Scite flagged one potential contrasting citation for the 2021 MMWR guideline (10.1128/jcm.01171-20, about gonococcal loads and symptoms); it does not bear on any claim this guide cites. PubMed article types checked: no Retracted Publication or Retraction Notice for any cited record.",
+  "references": [
+    {
+      "n": 1,
+      "kind": "guideline",
+      "cited_as": "Centers for Disease Control and Prevention. Chlamydial Infections: STI Treatment Guidelines, 2021. Last reviewed July 22, 2021. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+      "version_or_date": "Last Reviewed July 22, 2021 (page metadata: last updated January 25, 2022)",
+      "retrieved_with": "WebFetch of official page (two passes)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Page gives no annual case count; the earlier '1.6 million cases annually' figure was cut. Page does not say azithromycin was formerly first-line; that history was cut.",
+      "claims": [
+        {
+          "text": "Chlamydial infection is the most frequently reported bacterial infectious disease in the US",
+          "quote": "Chlamydial infection is the most frequently reported bacterial infectious disease in the United States",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Recommended regimen: doxycycline 100 mg orally twice daily for 7 days (adolescents and adults)",
+          "quote": "Doxycycline 100 mg orally 2 times/day for 7 days",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Alternatives: azithromycin 1 g single dose; levofloxacin 500 mg once daily for 7 days",
+          "quote": "Azithromycin 1 g orally in a single dose ... Levofloxacin 500 mg orally once daily for 7 days",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Delayed-release doxycycline 200 mg once daily for 7 days; costs more, fewer GI side effects",
+          "quote": "Doxycycline is also available in a delayed-release 200-mg tablet formulation, which requires once-daily dosing for 7 days ... It is more costly but also has lower frequency of gastrointestinal side effects",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "C. trachomatis found at the anorectal site in 33% to 83% of women with urogenital infection, not associated with reported receptive anal sex",
+          "quote": "C. trachomatis was detected at the anorectal site among 33%–83% of women who had urogenital C. trachomatis infection ... its detection was not associated with report of receptive anorectal sexual activity",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Doxycycline might be more efficacious than azithromycin for oropharyngeal chlamydia",
+          "quote": "doxycycline might be more efficacious than azithromycin for oropharyngeal chlamydia",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pregnancy: azithromycin 1 g single dose recommended; amoxicillin 500 mg three times daily for 7 days alternative",
+          "quote": "Azithromycin 1 g orally in a single dose ... Amoxicillin 500 mg orally 3 times/day for 7 days",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Doxycycline contraindicated in second and third trimesters",
+          "quote": "Doxycycline is contraindicated during the second and third trimesters of pregnancy because of risk for tooth discoloration.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Test of cure not advised for nonpregnant persons on recommended/alternative regimens unless adherence in question, symptoms persist, or reinfection suspected",
+          "quote": "unless therapeutic adherence is in question, symptoms persist, or reinfection is suspected.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "NAAT less than 4 weeks after therapy not recommended; false positives",
+          "quote": "using chlamydial NAATs at <4 weeks after completion of therapy is not recommended ... can lead to false-positive results",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Retest about 3 months after treatment regardless of whether partners believed treated",
+          "quote": "should be retested approximately 3 months after treatment, regardless of whether they believe their sex partners were treated",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Abstain 7 days after single-dose therapy or until 7-day regimen complete, and until all partners treated",
+          "quote": "abstain from sexual intercourse for 7 days after single-dose therapy or until completion of a 7-day regimen ... abstain from sexual intercourse until all of their sex partners have been treated",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "People diagnosed with chlamydia should be tested for HIV, gonorrhea and syphilis",
+          "quote": "Persons who receive a diagnosis of chlamydia should be tested for HIV, gonorrhea, and syphilis.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "HIV-negative MSM with rectal chlamydia should be offered PrEP",
+          "quote": "MSM who are HIV negative with a rectal chlamydia diagnosis should be offered HIV PrEP.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "CDC chlamydia regimens are oral (telehealth section and FAQ)",
+          "quote": "Doxycycline 100 mg orally 2 times/day for 7 days",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "guideline",
+      "cited_as": "Workowski KA, Bachmann LH, Chan PA, et al. Sexually Transmitted Infections Treatment Guidelines, 2021. MMWR Recomm Rep. 2021;70(4):1-187. doi:10.15585/mmwr.rr7004a1.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8344968/",
+      "pmid": "34292926",
+      "pmcid": "PMC8344968",
+      "doi": "10.15585/mmwr.rr7004a1",
+      "record_title": "Sexually Transmitted Infections Treatment Guidelines, 2021.",
+      "record_journal": "MMWR Recomm Rep",
+      "record_year": "2021",
+      "article_type": "Journal Article; Practice Guideline",
+      "version_or_date": "Published July 23, 2021; volume 70, issue 4, pages 1-187",
+      "retrieved_with": "PubMed get_article_metadata and get_full_text_article (PMC8344968); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Link changed from the MMWR web page (served text truncated at 100,000 characters, before the regimen sections) to the PMC full text actually read. The PMC text drops italicized organism names and drug names inside regimen boxes; quotes below avoid those gaps, and regimen doses are cited to the CDC web pages (refs 1, 11, 12) where drug names appear. The epididymitis and LGV regimens formerly cited here now cite refs 11 and 12.",
+      "claims": [
+        {
+          "text": "Asymptomatic infection is common among men and women",
+          "quote": "Asymptomatic infection is common among both men and women.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most serious sequelae in women: PID, ectopic pregnancy, infertility; treatment prevents complications and transmission",
+          "quote": "the most serious of which include PID, ectopic pregnancy, and infertility. ... prevents adverse reproductive health complications and continued sexual transmission.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Meta-analysis and Cochrane review: microbiologic failure among men higher with azithromycin; observational studies: doxycycline more efficacious for rectal infection",
+          "quote": "determined that microbiologic treatment failure among men was higher for azithromycin than for doxycycline (,). Observational studies have also demonstrated that doxycycline is more efficacious for rectal",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Azithromycin high urogenital efficacy in women but concern for concomitant rectal infection, which cannot be predicted by reported sexual activity",
+          "quote": "Although azithromycin maintains high efficacy for urogenital",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Concern about azithromycin for concurrent rectal infection that occurs commonly in women and cannot be predicted by sexual activity",
+          "quote": "concern exists regarding effectiveness of azithromycin for concomitant rectal",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Inadequately treated rectal infection can increase transmission and risk of repeat urogenital infection via autoinoculation",
+          "quote": "can increase the risk for transmission and place women at risk for repeat urogenital",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Doxycycline efficacious for urogenital, rectal and oropharyngeal sites",
+          "quote": "Available evidence supports that doxycycline is efficacious for",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Azithromycin option when adherence to doxycycline is a substantial concern; lower efficacy rectal; may need posttreatment testing",
+          "quote": "When nonadherence to doxycycline regimen is a substantial concern, azithromycin 1 g regimen is an alternative treatment option but might require posttreatment evaluation and testing",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Levofloxacin effective alternative but more expensive",
+          "quote": "Levofloxacin is an effective treatment alternative but is more expensive.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Delayed-release doxycycline as effective as 100 mg twice daily for urogenital infection",
+          "quote": "is as effective as doxycycline 100 mg twice daily for 7 days for treating urogenital",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Levofloxacin in pregnancy: low fetal risk in human data, breastfeeding toxicity potential, animal cartilage concerns",
+          "quote": "Human data reveal that levofloxacin presents a low risk to the fetus during pregnancy but has potential for toxicity during breastfeeding; however, data from animal studies increase concerns regarding cartilage damage to neonates",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Erythromycin no longer recommended (GI effects, nonadherence); macrolides especially erythromycin associated with adverse child outcomes",
+          "quote": "Erythromycin is no longer recommended because of the frequency of gastrointestinal side effects ... an association with macrolide antimicrobials, especially erythromycin, during pregnancy and adverse child outcomes",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Severe sequelae for mothers and neonates if infection persists; neonatal conjunctivitis 5 to 12 days after birth; pneumonia at 1 to 3 months",
+          "quote": "severe sequelae can occur among mothers and neonates if the infection persists. ... conjunctivitis that develops 5–12 days after birth. ... subacute, afebrile pneumonia with onset at ages 1–3 months",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Neonatal infection from perinatal exposure; treating pregnant women usually prevents transmission at birth",
+          "quote": "Treating pregnant women usually prevents transmission",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Oropharyngeal chlamydia: routine screening not recommended, significance unclear, can transmit to genital sites, treat if found while screening for gonorrhea",
+          "quote": "Although the clinical significance of oropharyngeal",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Annual rectal screening for men with rectal sexual activity; rectal testing for women by shared decision-making; self-collected rectal swabs reasonable",
+          "quote": "Extragenital chlamydial testing at the rectal site can be considered for females on the basis of reported sexual behaviors and exposure through shared clinical decision-making by the patient and the provider.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Self-collected rectal swabs reasonable alternative",
+          "quote": "Self-collected rectal swabs are a reasonable alternative to clinician-collected rectal swabs",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "NAAT is the recommended test; first-catch urine optimal for men, vaginal swabs for women",
+          "quote": "NAATs are the most sensitive tests for these specimens and are the recommended test ... Optimal urogenital specimen types for chlamydia screening by using NAAT include first-catch urine (for men) and vaginal swabs (for women)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Rectal/oropharyngeal infection diagnosed at exposure site; certain NAAT platforms FDA cleared for these sites; certain NAATs detect both bacteria from one specimen",
+          "quote": "certain NAAT platforms have been cleared by FDA for these anatomic sites ... certain NAATs detect both bacteria from a single specimen.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "CDC recommends annual screening of sexually active women under 25",
+          "quote": "Annual screening of all sexually active women aged <25 years is recommended, as is screening of older women at increased risk for infection",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pregnancy: test of cure about 4 weeks, preferably NAAT; retest at 3 months; women under 25 or at increased risk screened at first prenatal visit and rescreened in third trimester",
+          "quote": "at approximately 4 weeks after therapy completion during pregnancy is recommended ... all pregnant women who have chlamydial infection diagnosed should be retested 3 months after treatment.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pregnant women under 25 and those at increased risk: first prenatal visit and third trimester rescreening",
+          "quote": "should be screened at the first prenatal visit and rescreened during the third trimester",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most posttreatment infections are reinfection from untreated partners or new infected partner, not treatment failure",
+          "quote": "The majority of posttreatment infections do not result from treatment failure but rather from reinfection caused by failure of sex partners to receive treatment or initiation of sexual activity with a new infected partner",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Repeat infections raise risk of PID and other complications in women",
+          "quote": "Repeat infections confer an elevated risk for PID and other complications among women.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "If 3-month retest not possible, retest at next care within 12 months",
+          "quote": "If retesting at 3 months is not possible, clinicians should retest whenever persons next seek medical care <12 months after initial treatment.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Abstain until symptoms resolve, after a 7-day regimen",
+          "quote": "abstain from sexual intercourse for 7 days after single-dose therapy or until completion of a 7-day regimen and resolution of symptoms if present.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Treating sex partners can prevent reinfection and infection of other partners",
+          "quote": "treating their sex partners can prevent reinfection and infection of other partners.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Providers should routinely offer EPT to patients with chlamydia unless prohibited by law when they cannot ensure partners from previous 60 days will seek treatment",
+          "quote": "Unless prohibited by law or other regulations, medical providers should routinely offer EPT to patients with chlamydia when the provider cannot ensure that all of a patient's sex partners from the previous 60 days will seek timely treatment.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Shared clinical decision-making about EPT for MSM",
+          "quote": "shared clinical decision-making regarding EPT is recommended.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "EPT legality varies by state and by infection",
+          "quote": "EPT is legal in the majority of states but varies by chlamydial or gonococcal infection.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Packaged oral medication preferred over prescriptions; many do not fill prescriptions; educational materials with warnings (pregnancy, allergy) and advice to seek evaluation for HIV and STI symptoms, particularly PID",
+          "quote": "Providing patients with packaged oral medication is the preferred approach because the efficacy of EPT using prescriptions has not been evaluated",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "EPT materials: warnings if partner pregnant or allergic; seek evaluation for HIV and STI symptoms, particularly PID",
+          "quote": "warnings about taking medications (e.g., if the partner is pregnant or has an allergy to the medication), general health counseling, and a statement advising that partners seek medical evaluation as soon as possible",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Partners abstain from condomless sex until they and their partners treated (after 7-day regimen) and symptoms resolved",
+          "quote": "sex partners should be instructed to abstain from condomless sexual intercourse until they and their sex partners have been treated (i.e., after completion of a 7-day regimen) and any symptoms have resolved.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Gonorrhea treatment involves an injection",
+          "quote": "current gonorrhea treatment involves an injection",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Some women with uncomplicated cervical infection already have subclinical upper tract infection; treatment delays linked to PID in a limited proportion",
+          "quote": "Certain women who receive a diagnosis of uncomplicated cervical infection already have subclinical upper genital tract infection. ... treatment delays have been associated with complications (e.g., PID) in a limited proportion of women",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Chlamydia screening programs reduce PID rates among women",
+          "quote": "Chlamydia screening programs have been demonstrated to reduce PID rates among women",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Prompt treatment and partner treatment help prevent complications (FAQ summary)",
+          "quote": "Treatment should be provided promptly for all persons with chlamydial infection; treatment delays have been associated with complications (e.g., PID) in a limited proportion of women",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "journal",
+      "cited_as": "Dombrowski JC, Wierzbicki MR, Newman LM, et al. Doxycycline Versus Azithromycin for the Treatment of Rectal Chlamydia in Men Who Have Sex With Men: A Randomized Controlled Trial. Clin Infect Dis. 2021;73(5):824-831.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33606009/",
+      "pmid": "33606009",
+      "pmcid": "PMC8571563",
+      "doi": "10.1093/cid/ciab153",
+      "record_title": "Doxycycline Versus Azithromycin for the Treatment of Rectal Chlamydia in Men Who Have Sex With Men: A Randomized Controlled Trial.",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2021",
+      "article_type": "Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Randomized double-blind placebo-controlled trial in MSM: microbiologic cure 100% doxycycline vs 74% azithromycin; absolute difference 26%, P<.001",
+          "quote": "Microbiologic cure was higher with doxycycline than azithromycin in both the CC population (100% [70 of 70] vs 74% [48 of 65]; absolute difference, 26%; 95% confidence interval [CI], 16-36%; P < .001)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Trial design: randomized, double-blind, placebo-controlled",
+          "quote": "This randomized, double-blind, placebo-controlled trial compared azithromycin (single 1-g dose) versus doxycycline (100 mg twice daily for 7 days) for the treatment of rectal CT in men who have sex with men",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Expedited Partner Therapy (clinical guidance). Updated July 16, 2024. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/sti/hcp/clinical-guidance/expedited-partner-therapy.html",
+      "version_or_date": "Visible date July 16, 2024 (metadata last_updated July 10, 2024)",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Page lists no EPT drug regimen and does not mention pregnancy; the former EPT regimen and azithromycin-preferred-in-pregnancy claims were cut.",
+      "claims": [
+        {
+          "text": "EPT definition (treating partners via prescriptions or medications given to the patient, without the provider first examining the partner)",
+          "quote": "Expedited Partner Therapy (EPT) is the clinical practice of treating the sex partners of patients diagnosed with chlamydia or gonorrhea by providing prescriptions or medications to the patient to take to his/her partner",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "EPT a useful option, particularly for male partners of women with chlamydia or gonorrhea",
+          "quote": "EPT is a useful option to facilitate partner management, particularly for treatment of male partners of women with chlamydial infection or gonorrhea.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "EPT is an added strategy that does not replace provider-assisted referral",
+          "quote": "EPT represents an additional strategy for partner management that does not replace other strategies such as provider-assisted referral, when available.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Legal Status of Expedited Partner Therapy (EPT) by State and Territory. Last updated July 1, 2026. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/sti/php/ept-legal-status/index.html",
+      "version_or_date": "Last updated July 1, 2026 (updated annually)",
+      "retrieved_with": "WebFetch of official page (two passes)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The page headline says 49 states and '1 state' potentially allowable, but its state list labels both South Dakota and Oklahoma 'potentially allowable', and Kansas 'permissible'. Because of that internal mismatch the guide gives no state count ('most states') and names only South Dakota as an example. The guide's former 48-state, Kansas-barred, Oklahoma-2024 and Massachusetts-chlamydia-only claims were not on the page and were cut.",
+      "claims": [
+        {
+          "text": "EPT permissible in most states and the District of Columbia",
+          "quote": "EPT is permissible in 49 states ... EPT is also permissible in the District of Columbia and in the Commonwealth of the Northern Mariana Islands.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "A few states, such as South Dakota, only potentially allowable",
+          "quote": "EPT is potentially allowable in South Dakota.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Map last updated July 1, 2026",
+          "quote": "This map is updated on an annual basis. It was last updated July 1, 2026.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Map is not legal advice; check current state law",
+          "quote": "The information presented here is not legal advice.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "guideline",
+      "cited_as": "U.S. Preventive Services Task Force. Chlamydia and Gonorrhea: Screening. Published September 14, 2021. Accessed November 15, 2026.",
+      "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/chlamydia-and-gonorrhea-screening",
+      "version_or_date": "Final recommendation, September 14, 2021",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "USPSTF sets no screening interval; 'annual' is now attributed to CDC (ref 2).",
+      "claims": [
+        {
+          "text": "Grade B: screen all sexually active women 24 or younger (including pregnant persons) and women 25+ at increased risk",
+          "quote": "The USPSTF recommends screening for chlamydia in all sexually active women 24 years or younger",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Recommendation includes pregnant persons",
+          "quote": "Sexually active women, including pregnant persons",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Risk factors: new or more than 1 partner, partner with concurrent partners or STI, inconsistent condom use outside mutual monogamy, previous or coexisting STI",
+          "quote": "A previous or coexisting STI ... A new or more than 1 sex partner ... A sex partner with an STI ... Inconsistent condom use when not in a mutually monogamous relationship",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "No set interval; rescreen with new or persistent risk factors",
+          "quote": "In the absence of studies on screening intervals, a reasonable approach would be to screen patients whose sexual history reveals new or persistent risk factors since the last negative test result.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "guideline",
+      "cited_as": "Centers for Disease Control and Prevention. Recommendations for the Laboratory-Based Detection of Chlamydia trachomatis and Neisseria gonorrhoeae, 2014. MMWR Recomm Rep. 2014;63(RR-02):1-19.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4047970/",
+      "pmid": "24622331",
+      "pmcid": "PMC4047970",
+      "record_title": "Recommendations for the laboratory-based detection of Chlamydia trachomatis and Neisseria gonorrhoeae--2014.",
+      "record_journal": "MMWR Recomm Rep",
+      "record_year": "2014",
+      "article_type": "Journal Article (CDC recommendations report)",
+      "version_or_date": "March 14, 2014; volume 63, RR-02, pages 1-19",
+      "retrieved_with": "PubMed get_article_metadata and get_full_text_article (PMC4047970)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "No DOI in the PubMed record; Scite could not match the reference string. Full text supports the sensitivity and specificity figures (sentence 'usually well above 90% ... usually >=99%'), resolving the audit's 'unverifiable'. Title rendered without the em dash for house style.",
+      "claims": [
+        {
+          "text": "NAAT sensitivity usually well above 90%, specificity usually 99% or higher",
+          "quote": "NAATs offer greatly expanded sensitivities of detection, usually well above 90%, while maintaining very high specificity, usually ≥99%.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "NAATs detect 20% to 50% more chlamydial infections than culture or earlier non-culture tests",
+          "quote": "NAATs typically detect 20%–50% more chlamydial infections than could be detected by culture or earlier nonculture tests",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "NAAT performance better than any other available test",
+          "quote": "The performance of nucleic acid amplification tests (NAATs) with respect to overall sensitivity, specificity, and ease of specimen transport is better than that of any of the other tests available",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "EIAs not as sensitive or specific as NAATs; use discouraged",
+          "quote": "None of the EIAs are as sensitive or specific as NAATs, and their use is discouraged.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Vaginal swab preferred; as sensitive as cervical; first-catch urine may detect up to 10% fewer; self-collected equivalent",
+          "quote": "specimens obtained with a vaginal swab are the preferred specimen type. Vaginal swab specimens are as sensitive as cervical swab specimens ... Self-collected vaginal swabs are equivalent in sensitivity and specificity to those collected by a clinician",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Female first-catch urine may detect up to 10% fewer infections",
+          "quote": "First catch urine from women, while acceptable for screening, might detect up to 10% fewer infections when compared with vaginal and endocervical swab samples",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Epididymitis complications affect a minority of infected men and rarely cause reproductive sequelae",
+          "quote": "Complications (e.g., epididymitis) affect a minority of infected men and rarely result in reproductive health sequelae",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "journal",
+      "cited_as": "den Heijer CDJ, Hoebe CJPA, Driessen JHM, et al. Chlamydia trachomatis and the Risk of Pelvic Inflammatory Disease, Ectopic Pregnancy, and Female Infertility: A Retrospective Cohort Study Among Primary Care Patients. Clin Infect Dis. 2019;69(9):1517-1525.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6792126/",
+      "pmid": "31504315",
+      "pmcid": "PMC6792126",
+      "doi": "10.1093/cid/ciz429",
+      "record_title": "Chlamydia trachomatis and the Risk of Pelvic Inflammatory Disease, Ectopic Pregnancy, and Female Infertility: A Retrospective Cohort Study Among Primary Care Patients.",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2019",
+      "article_type": "Journal Article (retrospective cohort study)",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers; erratum read via PubMed get_full_text_article (PMC7245142)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [
+        "Published erratum: Clin Infect Dis. 2020;70(11):2459, doi:10.1093/cid/ciz897 (PMID 31535123); corrects the funding statement only, no change to results"
+      ],
+      "notes": "The 'up to 40% of untreated cervical infections progress to PID' claim is not in this source and was cut.",
+      "claims": [
+        {
+          "text": "Retrospective cohort of 857,324 women aged 12 to 25 in primary care",
+          "quote": "This was a retrospective study of women aged 12-25 years at start of follow-up ... We studied 857 324 women",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "CT-positive women: adjusted HR 2.36 PID, 1.87 ectopic pregnancy, 1.85 infertility vs CT-negative (about 2.4x, 87% and 85% higher, about 1.9x)",
+          "quote": "women who tested CT-positive had an increased risk of PID (adjusted hazard ratio [aHR], 2.36; 95% confidence interval [CI], 2.01-2.79), ectopic pregnancy (aHR, 1.87; 95% CI, 1.38-2.54), and infertility (aHR, 1.85",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "PID risk higher with 2 or more positive tests than 1",
+          "quote": "The PID risk was higher for women with 2 or more positive CT tests than those with 1 positive test.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "journal",
+      "cited_as": "Cha S, Newman DR, Rahman M, Peterman TA. High Rates of Repeat Chlamydial Infections Among Young Women-Louisiana, 2000-2015. Sex Transm Dis. 2019;46(1):52-57.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6291349/",
+      "pmid": "30148756",
+      "pmcid": "PMC6291349",
+      "doi": "10.1097/OLQ.0000000000000906",
+      "record_title": "High Rates of Repeat Chlamydial Infections Among Young Women-Louisiana, 2000-2015.",
+      "record_journal": "Sex Transm Dis",
+      "record_year": "2019",
+      "article_type": "Journal Article (surveillance data analysis)",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The former 10-20% within 3 months, 11-17% at 1 year and 17-20% at 2 years figures are not in this source and were cut.",
+      "claims": [
+        {
+          "text": "1 in 4 women diagnosed at 15 to 34 had a reported repeat infection within 3 years; higher risk in younger women",
+          "quote": "One in 4 women diagnosed with a chlamydial infection at 15-34 years of age in Louisiana had a reported repeat infection in 3 years or less. Risk of repeat infection increased for younger women",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "True number likely higher; surveillance counts only detected and reported infections",
+          "quote": "The true number is likely higher because surveillance data only count infections that were detected and reported.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "guideline",
+      "cited_as": "Centers for Disease Control and Prevention. STI Screening Recommendations. Last reviewed March 22, 2024. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/screening-recommendations.htm",
+      "version_or_date": "Last Reviewed March 22, 2024",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Previously listed in references but never cited inline; now cited for the screening table and FAQ. Date corrected from 'Updated March 13, 2025'.",
+      "claims": [
+        {
+          "text": "Women 25+ if at increased risk; pregnant women under 25 and 25+ at increased risk; third-trimester retest",
+          "quote": "Pregnant women 25 years of age and older if at increased risk ... Retest during the 3rd trimester for women under 25 years of age or at risk.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "MSM at least annually at sites of contact; every 3 to 6 months if at increased risk (PrEP, HIV)",
+          "quote": "At least annually for sexually active MSM at sites of contact (urethra, rectum) regardless of condom use ... Every 3 to 6 months if at increased risk (i.e., MSM on PrEP, with HIV infection",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Retest about 3 months after treatment",
+          "quote": "Retest approximately 3 months after treatment.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Insufficient evidence for screening low-risk heterosexual men; can be considered in high-prevalence settings",
+          "quote": "There is insufficient evidence for screening among heterosexual men who are at low risk for infection",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "guideline",
+      "cited_as": "Centers for Disease Control and Prevention. Epididymitis: STI Treatment Guidelines, 2021. Last reviewed July 22, 2021. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/epididymitis.htm",
+      "version_or_date": "Last Reviewed July 22, 2021",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference; replaces ref 2 for the epididymitis regimen because the PMC copy of the MMWR omits drug names in the regimen box.",
+      "claims": [
+        {
+          "text": "Acute epididymitis most likely from chlamydia or gonorrhea: ceftriaxone 500 mg IM once plus doxycycline 100 mg twice daily for 10 days; 1 g ceftriaxone if 150 kg or more",
+          "quote": "Ceftriaxone 500 mg IM in a single dose ... Doxycycline 100 mg orally 2 times/day for 10 days",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Unilateral testicular pain and tenderness",
+          "quote": "Men who have acute epididymitis typically have unilateral testicular pain and tenderness",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Testicular torsion is a surgical emergency",
+          "quote": "this condition is a surgical emergency",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "guideline",
+      "cited_as": "Centers for Disease Control and Prevention. Lymphogranuloma Venereum (LGV): STI Treatment Guidelines, 2021. Last reviewed July 22, 2021. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/lgv.htm",
+      "version_or_date": "Last Reviewed July 22, 2021",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference; replaces ref 2 for the LGV regimen.",
+      "claims": [
+        {
+          "text": "LGV caused by serovars L1, L2, L3",
+          "quote": "LGV is caused by C. trachomatis serovars L1, L2, or L3",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Rectal exposure among MSM or women can cause proctocolitis, the most common presentation",
+          "quote": "Rectal exposure among MSM or women can result in proctocolitis, which is the most common presentation of LGV infection",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "LGV regimen doxycycline 100 mg twice daily for 21 days",
+          "quote": "Doxycycline 100 mg orally 2 times/day for 21 days",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Red flag: severe rectal symptoms with fever may be LGV proctocolitis or rectal gonorrhea",
+          "quote": "Rectal exposure among MSM or women can result in proctocolitis, which is the most common presentation of LGV infection",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "guideline",
+      "cited_as": "Centers for Disease Control and Prevention. Pelvic Inflammatory Disease (PID): STI Treatment Guidelines, 2021. Last reviewed September 21, 2022. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/pid.htm",
+      "version_or_date": "Last Reviewed September 21, 2022",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference for PID organisms, subclinical PID and hospitalization criteria.",
+      "claims": [
+        {
+          "text": "N. gonorrhoeae and C. trachomatis often implicated in PID",
+          "quote": "Sexually transmitted organisms, especially N. gonorrhoeae and C. trachomatis, often are implicated.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "PID often subtle, nonspecific or asymptomatic; mild or asymptomatic PID may carry infertility risk",
+          "quote": "Women with PID often have subtle or nonspecific symptoms or are asymptomatic. ... Even women with mild or asymptomatic PID might be at risk for infertility.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hospitalization criteria include tubo-ovarian abscess, pregnancy, severe illness, temperature above 38.5 C (101 F)",
+          "quote": "Tubo-ovarian abscess ... Pregnancy ... Severe illness, nausea and vomiting, or oral temperature >38.5°C (101°F)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pregnant women with suspected PID at high risk of maternal morbidity and preterm delivery, so suspected STI in pregnancy needs prompt evaluation",
+          "quote": "Pregnant women suspected of having PID are at high risk for maternal morbidity and preterm delivery.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. FDA Grants Marketing Authorization of First Home Test for Chlamydia, Gonorrhea and Trichomoniasis. Press announcement, March 28, 2025. Accessed November 15, 2026.",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-grants-marketing-authorization-first-home-test-chlamydia-gonorrhea-and-trichomoniasis",
+      "version_or_date": "March 28, 2025",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New reference for a previously uncited claim. The press release does not name the test technology, so 'PCR' was removed from this sentence.",
+      "claims": [
+        {
+          "text": "March 28, 2025 FDA marketing authorization of Visby Medical Women's Sexual Health Test, first chlamydia/gonorrhea/trichomoniasis test bought without prescription and performed entirely at home",
+          "quote": "the first diagnostic test for chlamydia, gonorrhea and trichomoniasis that can be purchased without a prescription and performed entirely at home",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

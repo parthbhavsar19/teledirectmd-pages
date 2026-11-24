@@ -24,6 +24,27 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
+// ---------------------------------------------------------------------------
+// Production-only gate.
+//
+// This script runs from the Vercel `postbuild` hook, which fires on EVERY
+// build (production, preview, and development). IndexNow submissions must
+// only fire from production builds, because preview URLs are not the
+// canonical production URLs and IndexNow would signal search engines /
+// AI answer engines about the wrong host.
+//
+// Vercel sets VERCEL_ENV to one of: 'production' | 'preview' | 'development'.
+// A locally-invoked run (e.g. `node scripts/indexnow-submit.js <url>` from a
+// dev machine) sets no VERCEL_ENV; treat that as an explicit manual call and
+// allow it, so ad-hoc submissions still work.
+//
+// Enforcement: this must exit BEFORE reading the key or building any request,
+// so a misconfigured preview cannot leak. Exit 0 so postbuild does not fail.
+if (process.env.VERCEL_ENV && process.env.VERCEL_ENV !== 'production') {
+  console.log(`IndexNow skipped: VERCEL_ENV=${process.env.VERCEL_ENV} is not production.`);
+  process.exit(0);
+}
+
 const HOST = process.env.HOST || 'teledirectmd.com';
 const SITEMAP_URL = process.env.SITEMAP_URL || `https://${HOST}/sitemap.xml`;
 const KEY = (process.env.INDEXNOW_KEY ||

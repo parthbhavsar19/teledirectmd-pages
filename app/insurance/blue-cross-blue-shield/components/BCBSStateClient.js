@@ -1,4 +1,5 @@
 'use client';
+import { insuranceHref, insuranceHrefOrParent } from '../../../../lib/insurance-links';
 import { B, STATE_NAMES, INSURANCE_CONDITIONS, INSURERS, COPAY_DATA, STATE_INSURANCE_MAP, LAST_REVIEWED } from '../../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock, CopayCard, PatientJourney, CrossInsurerTable, CommissionerLink, InsurerTrustDetails } from '../../components/InsuranceShared';
 import { CompareToOtherTelehealthGrid, Or49CashLink } from '../../../components/CostCompareModules';
@@ -11,20 +12,24 @@ import { summarizeInsuranceStateLanding, citableSummaryToJsonLd } from '../../..
 const insurer = INSURERS['blue-cross-blue-shield'];
 const shortName = 'BCBS';
 
-const STATE_CODE_MAP = { florida:'FL', georgia:'GA', illinois:'IL', pennsylvania:'PA', texas:'TX' };
+const STATE_CODE_MAP = { arizona:'AZ', florida:'FL', georgia:'GA', illinois:'IL', michigan:'MI', pennsylvania:'PA', texas:'TX' };
 
 const AFFILIATE_MAP = {
+  AZ: 'Blue Cross Blue Shield of Arizona',
   FL: 'Florida Blue',
   GA: 'Anthem Blue Cross Blue Shield',
   IL: 'Blue Cross Blue Shield of Illinois',
+  MI: 'Blue Cross Blue Shield of Michigan',
   PA: 'Highmark Blue Cross Blue Shield',
   TX: 'Blue Cross Blue Shield of Texas',
 };
 
 const STATE_CONTEXT = {
+  AZ: { cities:['Phoenix','Tucson','Scottsdale','Mesa','Chandler'], note:"Blue Cross Blue Shield of Arizona is a major commercial insurer in the Phoenix metro. TeleDirectMD is in-network with BCBS of Arizona PPO, HMO and Indemnity plans alongside Aetna and UHC. The Alliance, Neighborhood, PimaConnect and Focus networks are not included." },
   FL: { cities:['Miami','Orlando','Tampa','Jacksonville','Fort Lauderdale'], note:"Florida Blue is one of Florida's largest insurers, covering millions of Floridians. TeleDirectMD is in-network with Florida Blue — the BCBS affiliate in Florida — giving most Florida residents access to same-day telehealth visits. Aetna is also in-network in Florida, giving two major insurer options." },
   GA: { cities:['Atlanta','Savannah','Augusta','Columbus','Macon'], note:"Georgia is TeleDirectMD's home state. Anthem Blue Cross Blue Shield is a major insurer for Georgia employer plans in the Atlanta metro. All three major insurers — Aetna, Anthem BCBS, and UHC — are in-network in Georgia." },
-  IL: { cities:['Chicago','Aurora','Naperville','Joliet','Rockford'], note:"Blue Cross Blue Shield of Illinois is the dominant commercial insurer for large employer plans in the Chicago metro. TeleDirectMD is in-network with BCBS IL alongside Aetna and UHC, covering the majority of Illinois commercial members." },
+  IL: { cities:['Chicago','Aurora','Naperville','Joliet','Rockford'], note:"Blue Cross Blue Shield of Illinois is the dominant commercial insurer for large employer plans in the Chicago metro. TeleDirectMD is in-network with the BCBS IL Broad PPO, Blue Choice PPO and HPN (EPO) networks alongside Aetna and UHC. BCBS IL HMO networks are not included." },
+  MI: { cities:['Detroit','Grand Rapids','Ann Arbor','Lansing','Flint'], note:"Blue Cross Blue Shield of Michigan is the state's dominant commercial insurer, with strong presence in the Detroit metro. TeleDirectMD is in-network with BCBS of Michigan alongside Aetna and UHC. BCBS Complete (Medicaid) is not accepted." },
   PA: { cities:['Philadelphia','Pittsburgh','Allentown','Erie','Reading'], note:"Highmark Blue Cross Blue Shield is western Pennsylvania's largest commercial insurer, with dominant presence in the Pittsburgh market. Pennsylvania is TeleDirectMD's broadest multi-insurer state — Aetna, Highmark BCBS, and UHC all in-network." },
   TX: { cities:['Houston','Dallas','San Antonio','Austin','Fort Worth'], note:"Texas Insurance Code Chapter 1455 requires telehealth coverage (since 2005) and payment parity (since 2019), last amended September 1, 2025. Importantly, Chapter 1455 applies only to fully insured state-regulated commercial plans — approximately 15% of the Texas commercial market; the remaining ~85% are ERISA self-funded plans where coverage is governed by employer plan design rather than state statute. Audio-only telephone visits are explicitly excluded from Chapter 1455 parity under § 1455.004(c), so video must be functional for any insurance claim. BCBS Texas commercial plan names include Blue Choice PPO, Blue Advantage HMO, Blue Essentials, Blue Premier Access, Blue Choice PPO HSA, and Blue Choice PPO Basic (BCBS TX 2024 Mid-Market Producer Portfolio). BCBS of Texas is the state's largest commercial insurer, operated by Health Care Service Corporation (HCSC). Texas's distinctive clinical telehealth drivers are heat-related illness (HHS Region 6 had the highest national HRI rate at 483 per 100,000 in 2023 per CDC MMWR) and respiratory illness exacerbated by wildfire smoke and Gulf-coast humidity. Houston (Harris County), Dallas–Fort Worth, San Antonio (Bexar), and Austin (Travis) together hold the majority of BCBS TX commercial enrollment." },
 };
@@ -42,7 +47,7 @@ export default function BCBSStateClient({ stateSlug }) {
     { q:`Is TeleDirectMD in-network with ${affiliateName} in ${stateName}?`, a:`Yes. TeleDirectMD is contracted as an in-network telehealth provider with ${affiliateName} commercial plans in ${stateName}. Dr. Parth Bhavsar, MD (NPI: 1104323203) is the treating physician. If you have a ${affiliateName} employer-sponsored or individual commercial plan in ${stateName}, your telehealth visit may be covered subject to your plan's copay or deductible. Claims are submitted electronically using CPT codes 99213/99214.` },
     { q:`What is the ${affiliateName} telehealth copay in ${stateName}?`, a:`${copayData ? `Most ${affiliateName} commercial plans in ${stateName} have telehealth copays of ${copayData.typical}. ${copayData.employer}. ${copayData.note}` : `${affiliateName} commercial plan telehealth copays in ${stateName} typically range from $0 to $40.`} Log into your ${shortName} member portal at ${memberPortal} or call the member services number on your ${affiliateName} card to verify your exact cost. Self-pay is always available for $79 flat.` },
     { q:`Does ${affiliateName} cover telemedicine in ${stateName}?`, a:`Yes. ${affiliateName} covers telehealth visits for most commercial plan members in ${stateName}. Federal telehealth parity requirements and ${stateName} state law ensure that ${affiliateName} must cover telehealth services comparably to in-person visits for most commercial plans. Your actual cost depends on your plan's copay, coinsurance, and deductible status. Medicaid, Medicare fee-for-service, and ${shortName} Medicaid products are not accepted.` },
-    { q:`What conditions does ${affiliateName} cover for telemedicine in ${stateName}?`, a:`${affiliateName} commercial plans in ${stateName} cover telehealth visits for UTI, sinus infection, strep throat, ear infection, pink eye, flu, asthma inhaler refills, hypertension medication refills, acid reflux, yeast infections, and many more. Coverage depends on your specific plan benefits. Use the conditions grid below to explore specific condition + ${shortName} + ${stateName} coverage details.` },
+    { q:`What conditions does ${affiliateName} cover for telemedicine in ${stateName}?`, a:`${affiliateName} commercial plans in ${stateName} cover telehealth visits for UTI (women only), sinus infection, strep throat, ear infection, pink eye, flu, asthma inhaler refills, hypertension medication refills, acid reflux, yeast infections, and many more. Coverage depends on your specific plan benefits. Use the conditions grid below to explore specific condition + ${shortName} + ${stateName} coverage details.` },
     { q:`How do I book a TeleDirectMD visit using ${affiliateName} in ${stateName}?`, a:`Book at teledirectmd.com/book-online, select "Insurance" as your payment method, and have your ${affiliateName} member ID card ready. We verify your coverage before your visit begins. You can also book self-pay for $79 flat — no insurance required, same physician and quality of care.` },
     { q:`How does TeleDirectMD bill ${affiliateName} for my visit in ${stateName}?`, a:`TeleDirectMD submits your claim electronically to ${affiliateName} using CPT code 99213 (standard complexity) or 99214 (moderate complexity). ${affiliateName} processes the claim and applies it to your benefits. You'll receive an Explanation of Benefits (EOB) from ${affiliateName} within 2–4 weeks showing what was billed (typically $150–$250) and your responsibility (your copay or deductible portion). Questions? Call the member services number on the back of your ${affiliateName} card.` },
     { q:`What ${affiliateName} plans are NOT accepted at TeleDirectMD in ${stateName}?`, a:`The following plan types are not accepted: ${affiliateName} Medicaid, ${shortName} Community Health Plan, Medicare fee-for-service, and ${shortName} Medicare Advantage plans. If you are unsure about your plan type, self-pay is available for $79 flat — same physician and care quality, no insurance required.` },
@@ -117,7 +122,7 @@ export default function BCBSStateClient({ stateSlug }) {
       <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
       <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`blue-cross-blue-shield-${stateSlug}`} />
-      <Breadcrumb items={[{label:'Home',href:'/'},{label:'Insurance',href:'/insurance'},{label:'Blue Cross Blue Shield',href:'/insurance/blue-cross-blue-shield'},{label:stateName}]} />
+      <Breadcrumb items={[{label:'Home',href:'/'},{label:'Insurance',href:'/insurance/'},{label:'Blue Cross Blue Shield',href:'/insurance/blue-cross-blue-shield/'},{label:stateName}]} />
       {/* FL: A1 credential disclosure + A3 verify-link placement 1 of 3. */}
       {stateCode === 'FL' && <FlCredentialBlock />}
 
@@ -134,7 +139,7 @@ export default function BCBSStateClient({ stateSlug }) {
             TeleDirectMD is in-network with {affiliateName} commercial plans in {stateName}. See a board-certified physician by video — your standard {shortName} copay applies{copayData ? ` (typically ${copayData.typical})` : ''}.
           </p>
           {ctx.note && <p style={{ fontFamily:B.fb, fontSize:14, color:'rgba(255,255,255,0.55)', lineHeight:1.6, margin:'0 0 24px', maxWidth:580 }}>{ctx.note}</p>}
-          <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener" style={{ display:'inline-flex', alignItems:'center', gap:8, padding:'14px 28px', background:B.accent, color:B.white, borderRadius:B.rs, fontWeight:700, fontSize:15, textDecoration:'none' }}>
+          <a href="https://www.teledirectmd.com/book-online/" target="_blank" rel="noopener" style={{ display:'inline-flex', alignItems:'center', gap:8, padding:'14px 28px', background:B.accent, color:B.white, borderRadius:B.rs, fontWeight:700, fontSize:15, textDecoration:'none' }}>
             <Ico.Cal c={B.white} s={18} /> Book with {shortName} in {stateName}
           </a>
         </div>
@@ -158,8 +163,8 @@ export default function BCBSStateClient({ stateSlug }) {
           <h2 style={{ fontFamily:B.fd, fontSize:24, fontWeight:700, color:B.navy, margin:'0 0 8px' }}>Conditions {affiliateName} Covers via Telehealth in {stateName}</h2>
           <p style={{ fontSize:14, color:B.text, margin:'0 0 16px', lineHeight:1.6 }}>Select a condition to see {shortName} + {stateName} specific coverage details, copay estimates, and prescription information.</p>
           <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(220px, 1fr))', gap:10 }}>
-            {Object.values(INSURANCE_CONDITIONS).map((cond,i) => (
-              <a key={i} href={`/insurance/blue-cross-blue-shield/${stateSlug}/${cond.slug}`} style={{ display:'flex', alignItems:'center', gap:10, background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:'12px 14px', textDecoration:'none', boxShadow:B.shadow }}>
+            {Object.values(INSURANCE_CONDITIONS).filter((cond) => insuranceHref(`/insurance/blue-cross-blue-shield/${stateSlug}/${cond.slug}`)).map((cond,i) => (
+              <a key={i} href={insuranceHref(`/insurance/blue-cross-blue-shield/${stateSlug}/${cond.slug}`)} style={{ display:'flex', alignItems:'center', gap:10, background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:'12px 14px', textDecoration:'none', boxShadow:B.shadow }}>
                 <Ico.Check c="#1A5FB4" s={15} />
                 <div>
                   <div style={{ fontSize:13, fontWeight:600, color:B.navy }}>{cond.displayName}</div>
@@ -224,9 +229,9 @@ export default function BCBSStateClient({ stateSlug }) {
         </section>
 
         <div style={{ marginBottom:24, display:'flex', flexWrap:'wrap', gap:10 }}>
-          <a href="/insurance/blue-cross-blue-shield" style={{ fontSize:14, color:B.teal, textDecoration:'none' }}>← All {shortName} States</a>
+          <a href="/insurance/blue-cross-blue-shield/" style={{ fontSize:14, color:B.teal, textDecoration:'none' }}>← All {shortName} States</a>
           <span style={{ color:B.border }}>|</span>
-          <a href="/insurance" style={{ fontSize:14, color:B.teal, textDecoration:'none' }}>All Insurance Options</a>
+          <a href="/insurance/" style={{ fontSize:14, color:B.teal, textDecoration:'none' }}>All Insurance Options</a>
         </div>
 
         <CommissionerLink stateCode={stateCode} stateName={stateName} />

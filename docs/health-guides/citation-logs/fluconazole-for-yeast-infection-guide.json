@@ -1,0 +1,1081 @@
+{
+ "guide": "fluconazole-for-yeast-infection-guide",
+ "checked_at": "2026-11-23",
+ "checked_by": "Claude (repair run 2026-11-15; AI-visibility expansion run 2026-11-23)",
+ "scite_verify_papers": "run 2026-11-15; 10 verified, retractions: none (no editorial notices). Slavin 1992 (no DOI) could not be matched by Scite; PubMed record resolves and lists no retraction. Contrasting-evidence flags on the CDC 2021 guideline (gonorrhea loads) and IDSA 2016 (catheter candidemia) do not bear on any claim; IDSA was cut for other reasons. Run 2026-11-23 for new refs 13 to 16: Scite verify_papers unavailable (account monthly MCP limit reached, resets 2026-12-14). Fallback: PubMed records retrieved for all four (PMIDs and DOIs resolve), and a PubMed search restricted to Retracted Publication, Expression of Concern and Published Erratum publication types returned none of the four PMIDs. IDSA 2016 and Ferris 2002 carry PubMed comment links (normal commentary, not notices). Rerun Scite verify_papers on these four DOIs before marking the PR ready.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "label",
+   "cited_as": "Roerig. DIFLUCAN (fluconazole) tablet; DIFLUCAN (fluconazole) powder, for suspension. Prescribing information, DailyMed. SPL version 57, updated April 2, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f694c617-3383-416c-91b6-b94fda371204",
+   "version_or_date": "DailyMed setid f694c617-3383-416c-91b6-b94fda371204, SPL version 57, effective 2026-04-02",
+   "retrieved_with": "WebFetch of DailyMed label page and DailyMed SPL XML (services/v2/spls/<setid>.xml); 2026-11-23: Monid tinyfish /free/fetch of the DailyMed label page (ttl 0) and of the DailyMed SPL XML (services/v2/spls/f694c617-3383-416c-91b6-b94fda371204.xml), which includes the Dosage and Administration section",
+   "retrieved_at": "2026-11-23",
+   "editorial_notices": [],
+   "notes": "Replaces the 2011 accessdata label PDF (an outdated version). The current label adds pregnancy language the 2011 label lacked. WebFetch truncated both DailyMed renderings before the DOSAGE AND ADMINISTRATION section, so all dosing statements are cited to CDC [2], not the label. 2026-11-23: the SPL XML fetch includes Dosage and Administration, so the 150 mg single-dose statement is now also cited to the label. Label inconsistency noted: Clinical Pharmacology reports oral contraceptive AUC increases of 25% (levonorgestrel) and 38% (ethinyl estradiol) at 200 mg daily, while Precautions reports 40% and 24%; the guide FAQ quotes the Precautions wording. Alcohol: a full-text search of the label for \"alcohol\" and \"ethanol\" finds only the chemical name (benzyl alcohol) and no interaction or warning; the alcohol FAQ says the label does not list alcohol among its interactions.",
+   "claims": [
+    {
+     "text": "Fluconazole is a triazole antifungal (Diflucan brand)",
+     "quote": "DIFLUCAN\u00ae (fluconazole), the first of a new subclass of synthetic triazole antifungal agents",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "blocks lanosterol 14-alpha-demethylase, which converts lanosterol to ergosterol",
+     "quote": "Fluconazole is a highly selective inhibitor of fungal cytochrome P450 dependent enzyme lanosterol 14-\u03b1-demethylase. This enzyme functions to convert lanosterol to ergosterol.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "loss of normal sterols may be responsible for fungistatic effect",
+     "quote": "The subsequent loss of normal sterols correlates with the accumulation of 14-\u03b1-methyl sterols in fungi and may be responsible for the fungistatic activity of fluconazole.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "more than 90 percent of an oral dose is absorbed",
+     "quote": "the bioavailability of orally administered fluconazole is over 90% compared with intravenous administration.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "plasma half-life about 30 hours (range 20 to 50)",
+     "quote": "terminal plasma elimination half-life of approximately 30 hours (range: 20 to 50 hours)",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "single 150 mg dose reached vaginal tissue and vaginal fluid",
+     "quote": "A single oral 150 mg dose of fluconazole administered to 27 patients penetrated into vaginal tissue ... A single oral 150 mg dose of fluconazole administered to 14 patients penetrated into vaginal fluid",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "can be taken with or without food",
+     "quote": "exposure to the drug is not affected by food. Therefore, DIFLUCAN may be taken without regard to meals.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "use in pregnancy should be avoided except severe or life-threatening fungal infections, when benefit outweighs risk",
+     "quote": "Use in pregnancy should be avoided except in patients with severe or potentially life-threatening fungal infections in whom fluconazole may be used if the anticipated benefit outweighs the possible risk to the fetus.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "epidemiological studies suggest potential risk after 150 mg single or repeated dose in first trimester; limitations, not confirmed in controlled trials",
+     "quote": "Epidemiological studies suggest a potential risk of spontaneous abortion and congenital abnormalities in infants whose mothers were treated with 150 mg of fluconazole as a single or repeated dose in the first trimester, but these epidemiological studies have limitations",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "findings not confirmed in controlled clinical trials",
+     "quote": "these findings have not been confirmed in controlled clinical trials.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "high doses 400 to 800 mg/day during most or all of first trimester: distinct pattern of birth defects",
+     "quote": "Case reports describe a pattern of distinct congenital anomalies in infants exposed in utero to high dose maternal fluconazole (400 to 800 mg/day) during most or all of the first trimester.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "low levels in breast milk after single 150 mg dose; caution in nursing woman",
+     "quote": "Fluconazole was present in low levels in breast milk following administration of a single 150 mg dose ... Caution should be exercised when DIFLUCAN is administered to a nursing woman.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "side effects 26 percent vs 16 percent intravaginal in U.S. comparative studies",
+     "quote": "a higher incidence of drug related adverse events with DIFLUCAN (26%) versus intravaginal agents (16%) in U.S. comparative clinical studies.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "headache 13, nausea 7, abdominal pain 6, diarrhea 3 percent",
+     "quote": "were headache (13%), nausea (7%), and abdominal pain (6%) ... diarrhea (3%), dyspepsia (1%), dizziness (1%), and taste perversion (1%)",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "rare serious liver reactions; caution with liver dysfunction; stop if liver disease signs",
+     "quote": "there have been rare cases of serious hepatic reactions during treatment with DIFLUCAN ... DIFLUCAN should be administered with caution to patients with liver dysfunction. DIFLUCAN should be discontinued if clinical signs and symptoms consistent with liver disease develop",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "rare anaphylaxis and angioedema; exfoliative skin disorders",
+     "quote": "Rarely, angioedema and anaphylactic reaction have been reported in marketing experience. ... Exfoliative skin disorders during treatment with DIFLUCAN have been reported.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "moderate CYP2C9 and CYP3A4 inhibitor, strong CYP2C19 inhibitor",
+     "quote": "Fluconazole is a moderate CYP2C9 and CYP3A4 inhibitor. Fluconazole is also a strong inhibitor of CYP2C19.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "effect persists 4 to 5 days after stopping due to long half-life",
+     "quote": "The enzyme inhibiting effect of fluconazole persists 4 to 5 days after discontinuation of fluconazole treatment due to the long half-life of fluconazole.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "warfarin: prothrombin time can rise; monitoring and dose adjustment",
+     "quote": "Prothrombin time may be increased in patients receiving concomitant DIFLUCAN and coumarin-type anticoagulants. ... Dose adjustment of warfarin may be necessary.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "statins atorvastatin, simvastatin: myopathy and rhabdomyolysis",
+     "quote": "The risk of myopathy and rhabdomyolysis increases when fluconazole is coadministered with HMG-CoA reductase inhibitors metabolized through CYP3A4, such as atorvastatin and simvastatin",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "rare QT prolongation and torsade; erythromycin, pimozide, quinidine contraindicated",
+     "quote": "there have been rare cases of QT prolongation and torsade de pointes in patients taking fluconazole. ... such as erythromycin, pimozide, and quinidine are contraindicated",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "phenytoin levels rise",
+     "quote": "DIFLUCAN increases the plasma concentrations of phenytoin.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "sulfonylureas glipizide, glyburide, tolbutamide levels rise; hypoglycemia",
+     "quote": "DIFLUCAN reduces the metabolism of tolbutamide, glyburide, and glipizide and increases the plasma concentration of these agents. ... one fatality has been reported from hypoglycemia in association with combined DIFLUCAN and glyburide use.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "oral contraceptives: EE and LNG up 40 and 24 percent at 200 mg daily; unlikely to affect efficacy",
+     "quote": "at 200 mg daily, the AUCs of ethinyl estradiol and levonorgestrel were increased 40% and 24%, respectively. ... multiple-dose use of fluconazole at these doses is unlikely to have an effect on the efficacy of the combined oral contraceptive.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Vaginal candidiasis is a labeled indication",
+     "quote": "Vaginal candidiasis (vaginal yeast infections due to Candida).",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recommended dose for vaginal candidiasis is 150 mg as a single oral dose",
+     "quote": "The recommended dosage of DIFLUCAN for vaginal candidiasis is 150 mg as a single oral dose.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Peak plasma levels 1 to 2 hours after a dose in fasting volunteers",
+     "quote": "Peak plasma concentrations (Cmax) in fasted normal volunteers occur between 1 and 2 hours",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Vaginal tissue ratios 0.94 to 1.14 over first 48 hours; vaginal fluid over first 72 hours",
+     "quote": "penetrated into vaginal tissue, resulting in tissue: plasma ratios ranging from 0.94 to 1.14 over the first 48 hours ... penetrated into vaginal fluid ... over the first 72 hours following dosing.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "No renal dose adjustment for single-dose vaginal therapy",
+     "quote": "There is no need to adjust single dose therapy for vaginal candidiasis because of impaired renal function.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Label US trials: one-month clinical cure 69 vs 72 percent; eradication 61 vs 60; therapeutic cure 55 percent both; 448 vs 422 enrolled",
+     "quote": "Clinical cure 239/347 (69%) 235/327 (72%) Mycologic eradication 213/347 (61%) 196/327 (60%) Therapeutic cure 190/347 (55%) 179/327 (55%)",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Comparator was clotrimazole or miconazole intravaginally for 7 days, evaluated at one month",
+     "quote": "the results of the fluconazole regimen were comparable to the control regimen (clotrimazole or miconazole intravaginally for 7 days) both clinically and statistically at the one month post-treatment evaluation.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fewer than 4 episodes a year: 80 percent clinical cure; 4 or more: 57 percent",
+     "quote": "had acute vaginitis (<4 episodes/12 months) and achieved 80% clinical cure ... recurrent vaginitis (\u22654 episodes/12 months) and achieved 57% clinical cure",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Side effect table: headache 13 vs 7, nausea 7 vs 1, abdominal pain 6 vs 2, diarrhea 3 vs under 1, taste 1 vs 0, application site 0 vs 5 percent",
+     "quote": "Headache 58 (13%) 28 (7%) ... Abdominal pain 25 (6%) 7 (2%) Nausea 30 (7%) 3 (1%) Diarrhea 12 (3%) 2 (<1%) Application site event 0 (0%) 19 (5%) Taste Perversion 6 (1%) 0 (0%)",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most side effects mild to moderate; dyspepsia and dizziness 1 percent",
+     "quote": "dyspepsia (1%), dizziness (1%), and taste perversion (1%). Most of the reported side effects were mild to moderate in severity.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dizziness or seizures may occasionally occur; do not drive until you know how it affects you",
+     "quote": "When driving vehicles or operating machines, it should be taken into account that occasionally dizziness or seizures may occur. ... Do not drive or operate machinery until you know how DIFLUCAN affects you.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Amiodarone may increase QT prolongation, caution notably with high-dose fluconazole",
+     "quote": "Concomitant administration of fluconazole with amiodarone may increase QT prolongation. Caution must be exercised ... notably with high-dose fluconazole (800 mg).",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Warfarin: bleeding events reported with increased prothrombin time",
+     "quote": "bleeding events (bruising, epistaxis, gastrointestinal bleeding, hematuria, and melena) have been reported in association with increases in prothrombin time in patients receiving fluconazole concurrently with warfarin.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fluvastatin also listed for myopathy risk",
+     "quote": "or through CYP2C9, such as fluvastatin (decreased hepatic metabolism of the statin)",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Carbamazepine levels rise; dose adjustment may be needed",
+     "quote": "an increase in serum carbamazepine of 30% has been observed. ... Dosage adjustment of carbamazepine may be necessary",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Calcium channel blockers: higher exposure; monitor",
+     "quote": "(nifedipine, isradipine, amlodipine, verapamil, and felodipine) ... Fluconazole has the potential to increase the systemic exposure of the calcium channel antagonists. Frequent monitoring for adverse events is recommended.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cyclosporine levels rise significantly; monitoring recommended",
+     "quote": "DIFLUCAN significantly increases cyclosporine levels ... Careful monitoring of cyclosporine concentrations and serum creatinine is recommended",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fentanyl: delayed elimination; elevated levels may cause respiratory depression",
+     "quote": "fluconazole delayed the elimination of fentanyl significantly. Elevated fentanyl concentration may lead to respiratory depression.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Celecoxib exposure more than doubled; half dose may be needed",
+     "quote": "the celecoxib Cmax and AUC increased by 68% and 134%, respectively. Half of the celecoxib dose may be necessary when combined with fluconazole.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Abrocitinib: avoid concomitant use",
+     "quote": "Avoid concomitant use of abrocitinib with DIFLUCAN.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Amitriptyline and nortriptyline effect increased; dose may need adjusting",
+     "quote": "Fluconazole increases the effect of amitriptyline and nortriptyline. ... Dosage of amitriptyline/nortriptyline should be adjusted, if necessary.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Post-marketing QT and torsade mostly in seriously ill patients; hypokalemia and advanced heart failure increase risk",
+     "quote": "Most of these reports involved seriously ill patients with multiple confounding risk factors ... Patients with hypokalemia and advanced cardiac failure are at an increased risk",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Superinfection with non-albicans species such as C. krusei, often inherently not susceptible",
+     "quote": "cases of superinfection with Candida species other than C. albicans, which are often inherently not susceptible to DIFLUCAN (e.g., Candida krusei).",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Allergic reaction signs; stop and call provider or go to emergency room",
+     "quote": "Stop taking DIFLUCAN, call your healthcare provider or go to the nearest hospital emergency room right away if you get any signs or symptoms of an allergic reaction including: shortness of breath ... wheezing",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Liver problem signs: dark urine, jaundice, light stools, vomiting, loss of appetite; tell provider right away",
+     "quote": "Tell your healthcare provider right away if you have symptoms of serious liver problems including: dark colored urine ... yellowing of the skin and eyes (jaundice) light-colored stools tiredness vomiting loss of appetite",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Alcohol FAQ: label advises caution with liver dysfunction (label lists no alcohol interaction; see notes)",
+     "quote": "DIFLUCAN should be administered with caution to patients with liver dysfunction.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "guideline",
+   "cited_as": "Workowski KA, Bachmann LH, Chan PA, et al. Sexually Transmitted Infections Treatment Guidelines, 2021: Vulvovaginal Candidiasis (VVC). MMWR Recomm Rep. 2021;70(4):1-187.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/candidiasis.htm",
+   "pmid": "34292926",
+   "pmcid": "PMC8344968",
+   "doi": "10.15585/mmwr.rr7004a1",
+   "record_title": "Sexually Transmitted Infections Treatment Guidelines, 2021.",
+   "record_journal": "MMWR Recomm Rep",
+   "record_year": "2021",
+   "article_type": "Practice Guideline (PubMed)",
+   "version_or_date": "CDC VVC guideline page, Last Reviewed July 22, 2021; read 2026-11-15",
+   "retrieved_with": "WebFetch of official CDC guideline page; PubMed get_article_metadata; Scite verify_papers",
+   "retrieved_at": "2026-11-23",
+   "editorial_notices": [],
+   "notes": "Link changed from the PubMed record to the CDC VVC section page, where the quoted text lives; PMID and DOI kept in the visible reference. Scite flagged one contrasting citation about gonorrhea loads, unrelated to VVC. Re-verified 2026-11-23 (page1-push PR) by live fetch of the official page via Monid tinyfish /free/fetch. 2026-11-23 AI-visibility run: page re-fetched (Monid tinyfish /free/fetch, ttl 0, run 01M858MA2BSJ0RY00WKW5BKDFC); new claims below quoted from that fetch.",
+   "claims": [
+    {
+     "text": "single 150 mg oral dose for uncomplicated VVC",
+     "quote": "Fluconazole 150 mg orally in a single dose",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "OTC intravaginal agents: clotrimazole, miconazole, tioconazole; prescription: butoconazole, terconazole; regimens from single application to 7 to 14 days",
+     "quote": "Clotrimazole 1% cream 5 g intravaginally daily for 7\u201314 days ... Tioconazole 6.5% ointment 5 g intravaginally in a single application ... Prescription Intravaginal Agents ... Butoconazole 2% cream ... Terconazole 0.4% cream",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "azole treatment: relief and negative cultures in 80 to 90 percent who complete therapy",
+     "quote": "Treatment with azoles results in relief of symptoms and negative cultures in 80%\u201390% of patients who complete therapy.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "severe VVC: two 150 mg doses 72 hours apart or 7 to 14 days topical",
+     "quote": "Either 7\u201314 days of topical azole or 150 mg of fluconazole in two sequential oral doses (second dose 72 hours after initial dose) is recommended.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "recurrent VVC induction 100/150/200 mg every third day for 3 doses",
+     "quote": "(e.g., 7\u201314 days of topical therapy or a 100-mg, 150-mg, or 200-mg oral dose of fluconazole every third day for a total of 3 doses [days 1, 4, and 7]) is recommended",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "maintenance weekly for 6 months",
+     "quote": "Oral fluconazole (i.e., a 100-mg, 150-mg, or 200-mg dose) weekly for 6 months is the indicated maintenance regimen.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "recurrent VVC usually three or more episodes in less than a year",
+     "quote": "usually defined as three or more episodes of symptomatic VVC in <1 year",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "maintenance effective but rarely curative long-term",
+     "quote": "Suppressive maintenance therapies are effective at controlling recurrent VVC but are rarely curative long-term.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "pregnancy: only 7-day topical azoles",
+     "quote": "Only topical azole therapies, applied for 7 days, are recommended for use among pregnant women.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "single 150 mg dose might be associated with spontaneous abortion and congenital anomalies; should not be used",
+     "quote": "Epidemiologic studies indicate a single 150-mg dose of fluconazole might be associated with spontaneous abortion and congenital anomalies; therefore, it should not be used.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "C. glabrata and other non-albicans in 10 to 20 percent of recurrent VVC",
+     "quote": "C. glabrata and other non\u2013albicans Candida species are observed in 10%\u201320% of women with recurrent VVC.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "conventional therapies less effective against non-albicans",
+     "quote": "Conventional antimycotic therapies are not as effective against these non\u2013albicans yeasts as against C. albicans.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "culture or PCR for complicated VVC; susceptibility testing if culture positive despite maintenance",
+     "quote": "Vaginal culture or PCR should be obtained from women with complicated VVC ... susceptibility tests, if available, should be obtained among symptomatic patients who remain culture positive despite maintenance therapy.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "non-albicans: 7 to 14 days non-fluconazole azole",
+     "quote": "a longer duration of therapy (7\u201314 days) with a nonfluconazole azole regimen (oral or topical) is recommended.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "if recurrence, boric acid 600 mg vaginally once daily for 3 weeks",
+     "quote": "If recurrence occurs, 600 mg of boric acid in a gelatin capsule administered vaginally once daily for 3 weeks is indicated.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "persistent symptoms or recurrence within 2 months: evaluate and test; return for follow-up",
+     "quote": "women with persistent or recurrent symptoms after treatment should be instructed to return for follow-up visits. ... or who has a recurrence of symptoms <2 months after treatment for VVC should be evaluated clinically and tested.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "About 10 to 20 percent of women have complicated VVC",
+     "quote": "Approximately 10%\u201320% of women will have complicated VVC, requiring special diagnostic and therapeutic considerations.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Box 4 classification: uncomplicated = sporadic, mild-moderate, likely C. albicans, nonimmunocompromised; complicated = recurrent, severe, non-albicans, diabetes or immunocompromise",
+     "quote": "Uncomplicated VVC Sporadic or infrequent VVC AND Mild-to-moderate VVC AND Likely to be Candida albicans AND Nonimmunocompromised women Complicated VVC Recurrent VVC OR Severe VVC OR Non-albicans candidiasis OR Women with diabetes, immunocompromising conditions",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Severe VVC defined as extensive vulvar erythema, edema, excoriation, fissures",
+     "quote": "Severe VVC (i.e., extensive vulvar erythema, edema, excoriation, and fissure formation)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Compromised host may not respond to short therapy; 7 to 14 days needed",
+     "quote": "might not respond as well to short-term therapies. Efforts to correct modifiable conditions should be made, and more prolonged (i.e., 7\u201314 days) conventional treatment is necessary.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recurrent induction doses on days 1, 4 and 7",
+     "quote": "every third day for a total of 3 doses [days 1, 4, and 7]",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recurrent VVC affects fewer than 5 percent of women",
+     "quote": "affects <5% of women but carries a substantial economic burden",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptoms (pruritus, soreness, dyspareunia, external dysuria, discharge) not specific",
+     "quote": "Typical symptoms of VVC include pruritus, vaginal soreness, dyspareunia, external dysuria, and abnormal vaginal discharge. None of these symptoms is specific for VVC.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lifetime: 75 percent at least one episode, 40 to 45 percent two or more",
+     "quote": "An estimated 75% of women will have at least one episode of VVC, and 40%\u201345% will have two or more episodes.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prior clinician diagnosis does not make self-diagnosis more reliable",
+     "quote": "Even women who have previously received a diagnosis of VVC by a clinician are not necessarily more likely to be able to diagnose themselves",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Wet mount with KOH for all symptomatic women; normal pH below 4.5",
+     "quote": "Candida vaginitis is associated with normal vaginal pH (<4.5). ... Examination of a wet mount with KOH preparation should be performed for all women with symptoms or signs of VVC",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Candida without symptoms not a reason to treat; 10 to 20 percent carry yeast",
+     "quote": "Identifying Candida by culture in the absence of symptoms or signs is not an indication for treatment because approximately 10%\u201320% of women harbor Candida species",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Uncomplicated VVC not usually sexually acquired; no partner treatment; balanitis treated topically",
+     "quote": "Uncomplicated VVC is not usually acquired through sexual intercourse, and data do not support treatment of sex partners. A minority of male sex partners have balanitis ... These men benefit from treatment with topical antifungal agents",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Complicated VVC: no data, no recommendation for partners",
+     "quote": "No data exist to support treating sex partners of patients with complicated VVC. Therefore, no recommendation can be made.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "C. albicans azole resistance becoming more common in vaginal isolates",
+     "quote": "C. albicans azole resistance is becoming more common in vaginal isolates",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Boric acid regimen eradication about 70 percent",
+     "quote": "This regimen has clinical and mycologic eradication rates of approximately 70%",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Topicals: local burning or irritation might occur, usually no systemic side effects; oral azole interactions",
+     "quote": "Topical agents usually cause no systemic side effects, although local burning or irritation might occur. ... Clinically important interactions can occur when oral azoles are administered with other drugs",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Oil-based creams and suppositories might weaken latex condoms and diaphragms",
+     "quote": "The creams and suppositories in these regimens are oil based and might weaken latex condoms and diaphragms.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "agency_page",
+   "cited_as": "U.S. Food and Drug Administration. Drugs@FDA: DIFLUCAN, NDA 019949 (Pfizer), product and marketing status.",
+   "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=019949",
+   "version_or_date": "Drugs@FDA overview read 2026-11-15",
+   "retrieved_with": "WebFetch of official Drugs@FDA page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source added this run (replaces cut IDSA 2016 guideline in slot 3) to support prescription status and 1990 approval, which no retained source stated.",
+   "claims": [
+    {
+     "text": "Diflucan tablets, including 150 mg, are prescription products",
+     "quote": "DIFLUCAN | FLUCONAZOLE | 150MG | TABLET;ORAL | Prescription | PFIZER",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "FDA first approved Diflucan in 1990",
+     "quote": "Approval date: 01/29/1990 (Original Approval, Action Type \"Approval\")",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Slavin MB, Benrubi GI, Parker R, Griffin CR, Magee MJ. Single dose oral fluconazole vs intravaginal terconazole in treatment of Candida vaginitis. Comparison and pilot study. J Fla Med Assoc. 1992;79(10):693-696.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1460451/",
+   "pmid": "1460451",
+   "record_title": "Single dose oral fluconazole vs intravaginal terconazole in treatment of Candida vaginitis. Comparison and pilot study.",
+   "record_journal": "J Fla Med Assoc",
+   "record_year": "1992",
+   "article_type": "Randomized Controlled Trial; Clinical Trial; Comparative Study (PubMed)",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers could not match (no DOI)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. No DOI; PubMed article types show no retraction. Scite could not verify (no record), PubMed record resolves. Small pilot, 200 mg dose; the old chart figures (26/85/90 percent) are not in this source and were removed.",
+   "claims": [
+    {
+     "text": "22-woman pilot, single 200 mg oral vs 3-day terconazole, no significant difference",
+     "quote": "compared the efficacy of a single oral 200 mg dose of fluconazole with the application of terconazole 80 mg vaginal suppository daily for 3 days. Twenty-two patients ... A statistically significant difference did not exist for any of these measures.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "mean onset of relief 2.4 vs 1.8 days; complete relief 6.08 vs 6.6 days",
+     "quote": "The mean time to onset of symptom relief was 2.4 (1.7) days for the fluconazole group and 1.8 (1.8) days for the terconazole group. The mean time to complete relief of symptoms was 6.08 (2.84) and 6.6 (2.95) days",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Mikamo H, Matsumizu M, Nakazuru Y, Okayama A, Nagashima M. Efficacy and safety of a single oral 150 mg dose of fluconazole for the treatment of vulvovaginal candidiasis in Japan. J Infect Chemother. 2015;21(7):520-526.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25887336/",
+   "pmid": "25887336",
+   "doi": "10.1016/j.jiac.2015.03.011",
+   "record_title": "Efficacy and safety of a single oral 150 mg dose of fluconazole for the treatment of vulvovaginal candidiasis in Japan.",
+   "record_journal": "J Infect Chemother",
+   "record_year": "2015",
+   "article_type": "Clinical Trial, Phase III; Multicenter Study (PubMed)",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Fixed volume/pages (was 21(9):652-656) and title (added \"in Japan\") and fifth author. Symptom-timing FAQ claim no longer cited here.",
+   "claims": [
+    {
+     "text": "157 women, single 150 mg dose; day 28 m-ITT clinical cure 81.6, eradication 85.9, cure or improvement 95.9 percent",
+     "quote": "A total of 157 subjects received a single oral 150 mg dose of fluconazole. ... on Day 28 in the m-ITT population, the cure, cure or improvement, and eradication rates were 81.6%, 95.9%, and 85.9%, respectively.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Gardella B, Dominoni M, Cassani C, Francesca Pasquali M, Spinillo A. Treatment of uncomplicated vulvovaginal candidiasis: topical or oral drugs? Single-day or multiple-day therapy? A network meta-analysis of randomized trials. Am J Obstet Gynecol. 2025;233(3):152-161.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40157526/",
+   "pmid": "40157526",
+   "doi": "10.1016/j.ajog.2025.03.031",
+   "record_title": "Treatment of uncomplicated vulvovaginal candidiasis: topical or oral drugs? Single-day or multiple-day therapy? A network meta-analysis of randomized trials.",
+   "record_journal": "Am J Obstet Gynecol",
+   "record_year": "2025",
+   "article_type": "Network Meta-Analysis (PubMed)",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Completed title, added volume/pages. Page previously said oral and topical were equivalent; the abstract finds fluconazole slightly better for early clinical cure, so wording was corrected.",
+   "claims": [
+    {
+     "text": "50 randomized trials, 7,208 participants; all treatments highly efficacious (>75%) vs placebo",
+     "quote": "Fifty (N=7208 subjects) randomized studies ... Compared with placebo, all the treatments studied were highly efficacious (>75%) for the clinical and mycological cure of vulvovaginal candidiasis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "single-day 150 mg fluconazole slightly more effective than multiple-day topical for early clinical cure",
+     "quote": "Single-day use of 150 mg of fluconazole was slightly more effective than multiple-day topical therapy in early clinical cure",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "no significant difference in late clinical cure",
+     "quote": "In the evaluation of late clinical cure, there were no significant differences in the odds ratios of success between oral and topical treatment, either as single or multiple-day therapy",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "strict ranking probably inappropriate given high efficacy of both",
+     "quote": "Given the high efficacy of both oral and topical drugs, a strict hierarchy of competing treatments for uncomplicated vulvovaginal candidiasis is probably inappropriate",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Sobel JD, Wiesenfeld HC, Martens M, et al. Maintenance fluconazole therapy for recurrent vulvovaginal candidiasis. N Engl J Med. 2004;351(9):876-883.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15329425/",
+   "pmid": "15329425",
+   "doi": "10.1056/NEJMoa033114",
+   "record_title": "Maintenance fluconazole therapy for recurrent vulvovaginal candidiasis.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2004",
+   "article_type": "Randomized Controlled Trial; Multicenter Study (PubMed)",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Corrected the page claim that rates \"converge again\" after stopping: at 12 months the groups still differed (42.9 vs 21.9 percent).",
+   "claims": [
+    {
+     "text": "387 women; induction three 150 mg doses 72 hours apart, then weekly 150 mg or placebo for six months",
+     "quote": "After inducing clinical remission with open-label fluconazole given in three 150-mg doses at 72-hour intervals, we randomly assigned 387 women ... to receive treatment with fluconazole (150 mg) or placebo weekly for six months",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "90.8 vs 35.9 percent disease-free at 6 months; 42.9 vs 21.9 at 12 months",
+     "quote": "The proportions of women who remained disease-free at 6, 9, and 12 months in the fluconazole group were 90.8 percent, 73.2 percent, and 42.9 percent, as compared with 35.9 percent, 27.8 percent, and 21.9 percent",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "median time to recurrence 10.2 vs 4.0 months",
+     "quote": "The median time to clinical recurrence in the fluconazole group was 10.2 months, as compared with 4.0 months in the placebo group",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "long-term cure difficult; benefit wanes after stopping",
+     "quote": "Long-term weekly treatment with fluconazole can reduce the rate of recurrence of symptomatic vulvovaginal candidiasis. However, a long-term cure remains difficult to achieve.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "Akinosoglou K, Livieratos A, Asimos K, et al. Fluconazole-Resistant Vulvovaginal Candidosis: An Update on Current Management. Pharmaceutics. 2024;16(12):1555.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39771534/",
+   "pmid": "39771534",
+   "pmcid": "PMC11678211",
+   "doi": "10.3390/pharmaceutics16121555",
+   "record_title": "Fluconazole-Resistant Vulvovaginal Candidosis: An Update on Current Management.",
+   "record_journal": "Pharmaceutics",
+   "record_year": "2024",
+   "article_type": "Review (PubMed)",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC full text); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "PMC text extraction drops italicized species names, so quotes skip those words. Red-flag claim previously cited here was unsupported and is now cited to CDC [2] and label [1].",
+   "claims": [
+    {
+     "text": "resistant Candida or non-albicans species complicate management",
+     "quote": "the rising prevalence of resistantspecies, particularly, as well as non-albicans isolates such asand, represent challenges in their management",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "acquired resistance linked to prior fluconazole exposure",
+     "quote": "Research indicates a growing incidence of FRCA among women with RVVC, particularly those with significant prior exposure to fluconazole",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "some non-albicans species have inherent fluconazole resistance",
+     "quote": "The inherent fluconazole resistance among NAC species has also become a growing issue",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "topical preferred for breastfeeding; boric acid not used in pregnancy (teratogenic)",
+     "quote": "Topical therapy, except for boric acid due to teratogenic effects [], is preferred for pregnant women, breastfeeding mothers",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "alternatives discussed: nystatin, oteseconazole, ibrexafungerp",
+     "quote": "alternative antifungal therapies, including boric acid, nystatin, and newer agents like oteseconazole and ibrexafungerp",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "different diagnosis possible (self-misdiagnosis)",
+     "quote": "It is known that patients very often misdiagnose themselves based on their assumption of what causes their vulvovaginal discomfort",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Goje O, Azie NE, Angulo DA, et al. A phase 3, multicenter, randomized, placebo-controlled trial of monthly oral ibrexafungerp to reduce the incidence of recurrent vulvovaginal candidiasis. Am J Obstet Gynecol. 2025;233(6):617.e1-617.e18.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40752754/",
+   "pmid": "40752754",
+   "doi": "10.1016/j.ajog.2025.07.040",
+   "record_title": "A phase 3, multicenter, randomized, placebo-controlled trial of monthly oral ibrexafungerp to reduce the incidence of recurrent vulvovaginal candidiasis.",
+   "record_journal": "Am J Obstet Gynecol",
+   "record_year": "2025",
+   "article_type": "Randomized Controlled Trial; Clinical Trial, Phase III (PubMed)",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "once-monthly ibrexafungerp: 70.8 vs 58.5 percent no mycologically proven recurrence by test of cure",
+     "quote": "70.8% (n=92/130) of participants who received ibrexafungerp and 58.5% (n=76/130) who received placebo had no mycologically proven recurrence by Test-of-Cure",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Schwebke JR, Sobel R, Gersten JK, et al. Ibrexafungerp Versus Placebo for Vulvovaginal Candidiasis Treatment: A Phase 3, Randomized, Controlled Superiority Trial (VANISH 303). Clin Infect Dis. 2022;74(11):1979-1985.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34467969/",
+   "pmid": "34467969",
+   "pmcid": "PMC9187327",
+   "doi": "10.1093/cid/ciab750",
+   "record_title": "Ibrexafungerp Versus Placebo for Vulvovaginal Candidiasis Treatment: A Phase 3, Randomized, Controlled Superiority Trial (VANISH 303).",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2022",
+   "article_type": "Randomized Controlled Trial; Clinical Trial, Phase III (PubMed)",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Claim narrowed: trial was in acute VVC generally, not fluconazole-resistant infection.",
+   "claims": [
+    {
+     "text": "ibrexafungerp differs mechanistically from azoles and beat placebo for acute VVC",
+     "quote": "Patients receiving ibrexafungerp had significantly higher rates of clinical cure (50.5% [95/188] vs 28.6% [28/98]; P = .001) ... mechanistically differs from current azole treatment options for acute VVC.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "journal",
+   "cited_as": "Chayachinda C, Thamkhantho M, Rekhawasin T, Klerdklinhom C. Sertaconazole 300 mg versus clotrimazole 500 mg vaginal suppository for treating pregnant women with acute vaginal candidiasis: a double-blinded, randomized trial. BMC Pregnancy Childbirth. 2024;24(1):235.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38575932/",
+   "pmid": "38575932",
+   "pmcid": "PMC10993551",
+   "doi": "10.1186/s12884-024-06440-z",
+   "record_title": "Sertaconazole 300 mg versus clotrimazole 500 mg vaginal suppository for treating pregnant women with acute vaginal candidiasis: a double-blinded, randomized trial.",
+   "record_journal": "BMC Pregnancy Childbirth",
+   "record_year": "2024",
+   "article_type": "Randomized Controlled Trial; Comparative Study (PubMed)",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Title corrected to the PubMed record; added issue and article number 235.",
+   "claims": [
+    {
+     "text": "96 pregnant women; single 300 mg sertaconazole vs 500 mg clotrimazole comparable; no side effects reported",
+     "quote": "The analysis included 96 participants ... No side effects were reported. ... 300 mg SER and 500 mg CLO exhibited comparable efficacy in terms of clinical and microscopic cure rates",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "journal",
+   "cited_as": "Sobel JD, Donders G, Degenhardt T, et al. Efficacy and Safety of Oteseconazole in Recurrent Vulvovaginal Candidiasis. NEJM Evid. 2022;1(8):EVIDoa2100055.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38319878/",
+   "pmid": "38319878",
+   "doi": "10.1056/EVIDoa2100055",
+   "record_title": "Efficacy and Safety of Oteseconazole in Recurrent Vulvovaginal Candidiasis.",
+   "record_journal": "NEJM Evid",
+   "record_year": "2022",
+   "article_type": "Randomized Controlled Trial; Clinical Trial, Phase III (PubMed)",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Trials enrolled women with three or more episodes in 12 months, not specifically fluconazole-maintenance failures; page wording narrowed accordingly.",
+   "claims": [
+    {
+     "text": "recurrence through week 48 about 4 to 7 percent oteseconazole vs about 39 to 43 percent placebo",
+     "quote": "the averaged percentage of participants with one or more RVVC episodes through week 48 was 6.7% ... in CL-011 and 3.9% ... in CL-012 in the oteseconazole groups versus 42.8% ... and 39.4%",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "guideline",
+   "cited_as": "Pappas PG, Kauffman CA, Andes DR, et al. Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America. Clin Infect Dis. 2016;62(4):e1-e50.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26679628/",
+   "pmid": "26679628",
+   "pmcid": "PMC4725385",
+   "doi": "10.1093/cid/civ933",
+   "record_title": "Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2016",
+   "article_type": "Journal Article; Practice Guideline (PubMed)",
+   "version_or_date": "IDSA 2016 update, epub 2015-12-16; section XV (vulvovaginal candidiasis) read 2026-11-23",
+   "retrieved_with": "PubMed get_article_metadata; full text of PMC4725385 via Monid tinyfish /free/fetch (section XV recommendations 115 to 121 and evidence summary); PubMed publication-type search for retraction, expression of concern, erratum (none). Scite unavailable (monthly limit).",
+   "retrieved_at": "2026-11-23",
+   "editorial_notices": [],
+   "notes": "Re-added after the 2026-11-15 run cut it from slot 3 (reason not recorded in the log beyond 'other reasons'). It is the guideline ChatGPT cites for these queries. All claims below quoted from the PMC full text. Dated 2016; where it differs from CDC 2021 (recurrence definition, resistance), the guide presents both.",
+   "claims": [
+    {
+     "text": "Single 150 mg oral dose recommended for uncomplicated VVC; topicals equally recommended",
+     "quote": "116. Alternatively, for the treatment of uncomplicated Candida vulvovaginitis, a single 150-mg oral dose of fluconazole is recommended (strong recommendation; high-quality evidence).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Severe VVC: 150 mg every 72 hours for 2 or 3 doses",
+     "quote": "117. For severe acute Candida vulvovaginitis, fluconazole 150 mg, given every 72 hours for a total of 2 or 3 doses, is recommended",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Complicated VVC: topical 5 to 7 days or fluconazole 150 mg every 72 hours for 3 doses",
+     "quote": "Complicated vulvovaginal candidiasis requires that therapy be administered intravaginally with topical agents for 5\u20137 days or orally with fluconazole 150 mg every 72 hours for 3 doses",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recurrent: 10 to 14 days induction then 150 mg weekly for 6 months",
+     "quote": "121. For recurring vulvovaginal candidiasis, 10\u201314 days of induction therapy with a topical agent or oral fluconazole, followed by fluconazole, 150 mg weekly for 6 months, is recommended",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Uncomplicated about 90 percent of cases",
+     "quote": "can be classified as either uncomplicated, which is present in about 90% of cases, or complicated, which accounts for only about 10% of cases",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Single-dose or 3-day fluconazole: above 90 percent response; oral and topical entirely equivalent",
+     "quote": "oral and topical antifungal formulations have been shown to achieve entirely equivalent results [517]. Uncomplicated infection can be effectively treated with either single-dose fluconazole or short-course fluconazole for 3 days, both of which achieve >90% response",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most species respond to fluconazole except C. krusei and C. glabrata",
+     "quote": "Most Candida species, with the exception of C. krusei and C. glabrata, respond to oral fluconazole.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Azole-resistant C. albicans extremely rare but documented after prolonged exposure",
+     "quote": "Azole-resistant C. albicans infections are extremely rare. However, recent evidence has emerged documenting fluconazole and azole class resistance in women following prolonged azole exposure",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recurrent defined as 4 or more episodes in one year",
+     "quote": "Recurrent vulvovaginal candidiasis, defined as \u22654 episodes of symptomatic infection within one year",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "40 to 50 percent recurrence after maintenance stops",
+     "quote": "After cessation of maintenance therapy, a 40%\u201350% recurrence rate can be anticipated.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "C. glabrata unresponsive to azoles: boric acid 600 mg daily 14 days; nystatin 100,000 units daily 14 days",
+     "quote": "topical intravaginal boric acid, administered in a gelatin capsule, 600 mg daily, for 14 days is an alternative ... nystatin intravaginal suppositories, 100 000 units daily for 14 days",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "journal",
+   "cited_as": "Seidman LS, Skokos CK. An evaluation of butoconazole nitrate 2% site release vaginal cream (Gynazole-1) compared to fluconazole 150 mg tablets (Diflucan) in the time to relief of symptoms in patients with vulvovaginal candidiasis. Infect Dis Obstet Gynecol. 2005;13(4):197-206.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16338779/",
+   "pmid": "16338779",
+   "pmcid": "PMC1784583",
+   "doi": "10.1080/10647440500240615",
+   "record_title": "An evaluation of butoconazole nitrate 2% site release vaginal cream (Gynazole-1) compared to fluconazole 150 mg tablets (Diflucan) in the time to relief of symptoms in patients with vulvovaginal candidiasis.",
+   "record_journal": "Infect Dis Obstet Gynecol",
+   "record_year": "2005",
+   "article_type": "Randomized Controlled Trial; Comparative Study; Journal Article (PubMed)",
+   "retrieved_with": "PubMed get_article_metadata and get_full_text_article (PMC1784583); PubMed publication-type search (no retraction, expression of concern or erratum). Scite unavailable (monthly limit).",
+   "retrieved_at": "2026-11-23",
+   "editorial_notices": [],
+   "notes": "Open-label, 13 U.S. sites, moderate to severe symptoms, recurrent VVC excluded, KOH-confirmed without culture. Primary aim was to show the comparator cream gave faster first relief; the guide reports fluconazole-arm numbers and the comparison. Patient-diary endpoints. Funding source not stated in the retrieved text; acknowledgments list a CRO (Novum).",
+   "claims": [
+    {
+     "text": "Median first relief 22.9 h for fluconazole vs 17.5 h butoconazole; 55.7 percent by 24 h; 75 percent by 46.3 h",
+     "quote": "The median time to first relief of symptoms occurred at 17.5 h for butoconazole patients as compared to 22.9 h for fluconazole patients ... 75% ... 24.5 h versus 46.3 h ... 72.8% ... versus 29.1% and 55.7%",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "81 percent first relief within 48 h on fluconazole",
+     "quote": "Within the first 48 h post-treatment, 91.4% of butoconazole-treated patients experienced first relief of symptoms compared to 81% for patients treated with fluconazole.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Median complete relief 73.5 h; at 72 h 93.7 percent some relief, 47.8 percent complete",
+     "quote": "The median time for total relief was 64.0 h for butoconazole treatment and 73.5 h for fluconazole treatment. ... 93.7% of patients treated with fluconazole experienced some relief at 72 h and 47.8% achieved complete relief.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "79 fluconazole patients in first-relief analysis; 181 randomized; open-label randomized; moderate to severe",
+     "quote": "This randomized, open-label, parallel study evaluated 181 female patients with moderate to severe symptoms of VVC. ... (81 in the butoconazole treatment group and 79 in the fluconazole treatment group) were eligible for inclusion in the analysis of time to first relief.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "No difference in time to total relief between arms",
+     "quote": "There were no significant differences between the two groups with respect to time to total relief of symptoms or reoccurrence of infection within 30 days of treatment.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "journal",
+   "cited_as": "Sobel JD, Brooker D, Stein GE, et al. Single oral dose fluconazole compared with conventional clotrimazole topical therapy of Candida vaginitis. Fluconazole Vaginitis Study Group. Am J Obstet Gynecol. 1995;172(4 Pt 1):1263-1268.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7726267/",
+   "pmid": "7726267",
+   "doi": "10.1016/0002-9378(95)91490-0",
+   "record_title": "Single oral dose fluconazole compared with conventional clotrimazole topical therapy of Candida vaginitis. Fluconazole Vaginitis Study Group.",
+   "record_journal": "Am J Obstet Gynecol",
+   "record_year": "1995",
+   "article_type": "Randomized Controlled Trial; Multicenter Study; Comparative Study; Clinical Trial (PubMed)",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); PubMed publication-type search (no notices). Scite unavailable (monthly limit).",
+   "retrieved_at": "2026-11-23",
+   "editorial_notices": [],
+   "notes": "Abstract only; claims limited to the abstract.",
+   "claims": [
+    {
+     "text": "429 patients; day 14 cure or improvement 94 vs 97 percent",
+     "quote": "a multicenter, randomized, prospective, single-blinded study of 429 patients ... At the 14-day evaluation clinical cure or improvement was seen in 94% of fluconazole-treated patients and 97% of clotrimazole-treated patients.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Day 35: 75 percent of both groups clinically cured",
+     "quote": "At the 35-day evaluation 75% of both groups remained clinically cured",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "History of recurrent vaginitis: significantly less likely to respond",
+     "quote": "patients with a history of recurrent vaginitis ... were significantly less likely to respond clinically and mycologically (p < 0.001).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "journal",
+   "cited_as": "Ferris DG, Nyirjesy P, Sobel JD, Soper D, Pavletic A, Litaker MS. Over-the-counter antifungal drug misuse associated with patient-diagnosed vulvovaginal candidiasis. Obstet Gynecol. 2002;99(3):419-425.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11864668/",
+   "pmid": "11864668",
+   "doi": "10.1016/s0029-7844(01)01759-8",
+   "record_title": "Over-the-counter antifungal drug misuse associated with patient-diagnosed vulvovaginal candidiasis.",
+   "record_journal": "Obstet Gynecol",
+   "record_year": "2002",
+   "article_type": "Journal Article (observational, time-location sample) (PubMed)",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); PubMed publication-type search (no notices; record has comment links). Scite unavailable (monthly limit).",
+   "retrieved_at": "2026-11-23",
+   "editorial_notices": [],
+   "notes": "Abstract only. Observational study, described in the guide as a study, not a trial.",
+   "claims": [
+    {
+     "text": "95 symptomatic women buying OTC antifungal; 33.7 percent had VVC; BV 18.9, mixed 21.1, normal 13.7, other 10.5, trichomonas 2.1",
+     "quote": "A time-location sample of 95 symptomatic women ... vulvovaginal candidiasis 33.7%, bacterial vaginosis 18.9%, mixed vaginitis 21.1%, normal 13.7%, other diagnoses 10.5%, and trichomonas vaginitis 2.1%.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prior clinical diagnosis did not improve accuracy",
+     "quote": "Women with a previous clinically based diagnosis of vulvovaginal candidiasis were not more accurate in diagnosing vulvovaginal candidiasis than women without a prior clinical diagnosis",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "guideline",
+   "cited_as": "Workowski KA, Bachmann LH, Chan PA, et al. Sexually Transmitted Infections Treatment Guidelines, 2021: Pelvic Inflammatory Disease (PID). MMWR Recomm Rep. 2021;70(4):1-187.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/pid.htm",
+   "pmid": "34292926",
+   "doi": "10.15585/mmwr.rr7004a1",
+   "version_or_date": "CDC PID guideline page (2021 STI Treatment Guidelines); read 2026-11-23",
+   "retrieved_with": "Monid tinyfish /free/fetch of the official CDC page (ttl 0, run 01M858TR3MVHFEZXT1NMPXXT1Y)",
+   "retrieved_at": "2026-11-23",
+   "editorial_notices": [],
+   "notes": "Same MMWR as ref 2 (PMID and DOI already checked there); separate page for the PID section.",
+   "claims": [
+    {
+     "text": "PID guidance applies to women with pelvic or lower abdominal pain",
+     "quote": "Presumptive treatment for PID should be initiated for sexually active young women and other women at risk for STIs if they are experiencing pelvic or lower abdominal pain",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hospitalization criteria include severe illness, nausea and vomiting, or temperature above 38.5 C (101 F)",
+     "quote": "Severe illness, nausea and vomiting, or oral temperature >38.5\u00b0C (101\u00b0F)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

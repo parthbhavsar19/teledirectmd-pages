@@ -1,0 +1,558 @@
+{
+  "guide": "everlywell-sti-test-panel-review",
+  "checked_at": "2026-11-07",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+  "references": [
+    {
+      "n": 1,
+      "kind": "guideline",
+      "cited_as": "U.S. Preventive Services Task Force. Chlamydia and Gonorrhea: Screening. Final recommendation statement, September 14, 2021. Accessed November 7, 2026.",
+      "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/chlamydia-and-gonorrhea-screening",
+      "record_title": "Chlamydia and Gonorrhea: Screening",
+      "record_year": "2021",
+      "article_type": "Recommendation statement (official page)",
+      "version_or_date": "Release date September 14, 2021; read 2026-11-07",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Repair: removed 'annual' from the USPSTF claim. USPSTF says intervals are unstudied; the annual interval is now attributed to CDC (ref 7). Trichomonas table row no longer cites USPSTF (page does not mention trichomonas). WebFetch returned quotes in fragments of at most 125 characters.",
+      "claims": [
+        {
+          "text": "USPSTF recommends chlamydia and gonorrhea screening for all sexually active women 24 or younger and women 25 or older at increased risk",
+          "quote": "The USPSTF recommends screening for chlamydia in all sexually active women 24 years or younger ... women 25 years or older who are at increased risk for infection.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "USPSTF notes screening intervals have not been studied",
+          "quote": "In the absence of studies on screening intervals, a reasonable approach would be to screen patients",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "USPSTF review found sensitivity varied little across vaginal clinician-collected, vaginal self-collected and urine specimens",
+          "quote": "Sensitivity among collection methods, including vaginal clinician- or self-collection or urine collection, varied little.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Lunny C, Taylor D, Hoang L, et al. Self-Collected versus Clinician-Collected Sampling for Chlamydia and Gonorrhea Screening: A Systemic Review and Meta-Analysis. PLoS One. 2015;10(7):e0132776.",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0132776",
+      "pmid": "26168051",
+      "pmcid": "PMC4500554",
+      "doi": "10.1371/journal.pone.0132776",
+      "record_title": "Self-Collected versus Clinician-Collected Sampling for Chlamydia and Gonorrhea Screening: A Systemic Review and Meta-Analysis.",
+      "record_journal": "PLoS One",
+      "record_year": "2015",
+      "article_type": "Journal Article; Meta-Analysis; Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract) and get_full_text_article (PMC full text)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Repair: printed author 'Cook RL' and title were wrong; record is Lunny C et al. Gonorrhea vaginal-swab figures were not pooled (single study). PubMed article types checked for Retracted Publication / Retraction Notice: none found. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+      "claims": [
+        {
+          "text": "21 studies, over 6,100 paired samples comparing self- vs clinician-collected specimens by NAAT",
+          "quote": "We included 21 studies based on over 6100 paired samples.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Self-collected vaginal swabs: pooled chlamydia sensitivity 92% (95% CI 87-95) and specificity 98% (six studies)",
+          "quote": "The six chlamydia studies comparing self-collection by vaginal swab to a clinician-collected cervical swab had the highest sensitivity (92%, 95% CI 87-95) and specificity (98%, 95% CI 97-99)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Gonorrhea vaginal swab: one study of 309 women, sensitivity 98%, specificity 97%",
+          "quote": "One cross-sectional study (n = 309) compared self-collected vaginal samples to clinician-collected cervical samples ... The reported sensitivity was 0.98 (95% CI 0.88–1.00) and the specificity was 0.97 (95% CI 0.94–0.99).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Authors concluded results support vaginal swab as specimen of choice in home-based screening for chlamydia and gonorrhea",
+          "quote": "supports the use of vaginal swab as the recommended specimen of choice in home-based screening for chlamydia and gonorrhea.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Self-collected vaginal swabs perform close to clinician-collected specimens (key takeaway, collection section, bottom line, FAQ)",
+          "quote": "The sensitivity and specificity of vaginal self-collected swabs compared to swabs collected by clinicians supports the use of vaginal swab as the recommended specimen of choice in home-based screening",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "journal",
+      "cited_as": "Fajardo-Bernal L, Aponte-Gonzalez J, Vigil P, et al. Home-based versus clinic-based specimen collection in the management of Chlamydia trachomatis and Neisseria gonorrhoeae infections. Cochrane Database Syst Rev. 2015;2015(9):CD011317.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8666088/",
+      "pmid": "26418128",
+      "pmcid": "PMC8666088",
+      "doi": "10.1002/14651858.CD011317.pub2",
+      "record_title": "Home-based versus clinic-based specimen collection in the management of Chlamydia trachomatis and Neisseria gonorrhoeae infections.",
+      "record_journal": "Cochrane Database Syst Rev",
+      "record_year": "2015",
+      "article_type": "Journal Article; Meta-Analysis; Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Repair: the old ref 3 linked the same Lunny paper as ref 2, and its 'companion analysis with a separate population' claim was unsupported; that sentence was cut. Ref 3 now points to Fajardo-Bernal's actual 2015 Cochrane review, cited for what its abstract says (balance in the uptake section). Abstract only. PubMed article types checked for Retracted Publication / Retraction Notice: none found. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+      "claims": [
+        {
+          "text": "Gains in share tested with home collection offset by lower share of positive results",
+          "quote": "Increases in the proportion of individuals tested as a result of home-based, compared with clinic-based, specimen collection are offset by a lower proportion of positive results.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Evidence on index case management (tested, diagnosed and treated) was inconclusive",
+          "quote": "There was inconclusive evidence of an effect on the proportion of participants with index case management (defined as individuals tested, diagnosed and treated for CT or NG, or both)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Masek BJ, et al. Performance of Three Nucleic Acid Amplification Tests for Detection of Chlamydia trachomatis and Neisseria gonorrhoeae by Use of Self-Collected Vaginal Swabs Obtained via an Internet-Based Screening Program. J Clin Microbiol. 2009;47(6):1663-1667.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2691063/",
+      "pmid": "19386838",
+      "pmcid": "PMC2691063",
+      "doi": "10.1128/JCM.02387-08",
+      "record_title": "Performance of three nucleic acid amplification tests for detection of Chlamydia trachomatis and Neisseria gonorrhoeae by use of self-collected vaginal swabs obtained via an Internet-based screening program.",
+      "record_journal": "J Clin Microbiol",
+      "record_year": "2009",
+      "article_type": "Comparative Study; Evaluation Study; Journal Article",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Repair: removed unsupported claim that mailed swabs were 'comparable to swabs processed at the collection site' (no such comparison); added ProbeTec sensitivities. PubMed article types checked for Retracted Publication / Retraction Notice: none found. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+      "claims": [
+        {
+          "text": "Mail-in self-collection kits studied since at least the mid-2000s via an internet-based program",
+          "quote": "From July 2004 to August 2005, 500 self-collected vaginal swabs were tested for C. trachomatis and N. gonorrhoeae by using all three NAATs.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "1,000 self-collected vaginal swabs; Aptima Combo 2 100% sensitivity and specificity for both infections",
+          "quote": "For 1,000 self-collected vaginal swabs tested by NAATs, the sensitivities for C. trachomatis and N. gonorrhoeae for Combo2 were 100% and 100%",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "ProbeTec sensitivity 81.5% chlamydia and 80% gonorrhea; Combo2 specificity 100%",
+          "quote": "For C. trachomatis, ProbeTec and Combo2 had sensitivities of 81.5% and 100%, with specificities of 100% and 100%, respectively. For N. gonorrhoeae, ProbeTec and Combo2 had sensitivities of 80% and 100%",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Reference standard was two or more positive NAATs",
+          "quote": "the \"gold standard\" for an infected C. trachomatis or N. gonorrhoeae patient was defined as > or = 2 positive NAAT results.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Authors concluded NAATs perform well with self-obtained vaginal swabs shipped dry to a laboratory",
+          "quote": "NAATs perform well for detection of chlamydia and gonorrhea with self-obtained vaginal swabs shipped in a dry state to a laboratory.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Graseck AS, Secura GM, Allsworth JE, et al. Home compared with clinic-based screening for sexually transmitted infections: a randomized controlled trial. Obstet Gynecol. 2010;116(6):1311-1318.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3120128/",
+      "pmid": "21099596",
+      "pmcid": "PMC3120128",
+      "doi": "10.1097/AOG.0b013e3181fae60d",
+      "record_title": "Home compared with clinic-based screening for sexually transmitted infections: a randomized controlled trial.",
+      "record_journal": "Obstet Gynecol",
+      "record_year": "2010",
+      "article_type": "Randomized Controlled Trial; Multicenter Study; Journal Article",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Added completion figures. PubMed article types checked for Retracted Publication / Retraction Notice: none found. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+      "claims": [
+        {
+          "text": "RCT of 558 women using long-acting reversible contraception comparing home vs clinic CT/GC screening",
+          "quote": "We performed a randomized clinical trial of women using long-acting reversible contraception methods in the Contraceptive CHOICE Project (n=558).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "By tests received or documented, 56.3% home vs 25.0% clinic completed screening (RR 2.2)",
+          "quote": "When analyzed by tests received or documented in medical records, similar results were obtained (56.3% compared with 25.0%; RR 2.2; 95% CI 1.7-2.7).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "journal",
+      "cited_as": "Ogale Y, Yeh PT, Kennedy CE, et al. Self-collection of samples as an additional approach to deliver testing services for sexually transmitted infections: a systematic review and meta-analysis. BMJ Glob Health. 2019;4(2):e001349.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6509609/",
+      "pmid": "31139454",
+      "pmcid": "PMC6509609",
+      "doi": "10.1136/bmjgh-2018-001349",
+      "record_title": "Self-collection of samples as an additional approach to deliver testing services for sexually transmitted infections: a systematic review and meta-analysis.",
+      "record_journal": "BMJ Glob Health",
+      "record_year": "2019",
+      "article_type": "Systematic Review; Journal Article",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Repair: 'comparable case-finding ... across multiple geographies' changed to increased case finding in studies from three countries. PubMed article types checked for Retracted Publication / Retraction Notice: none found. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+      "claims": [
+        {
+          "text": "Self-collection increased uptake (RR 2.94) and case finding (RR 2.17)",
+          "quote": "programmes offering self-collection of samples increased overall uptake of STI testing services (RR: 2.941, 95% CI 1.188 to 7.281) and case finding (RR: 2.166, 95% CI 1.043 to 4.498).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "11 studies from Australia, Denmark and the USA",
+          "quote": "Eleven studies, including five RCTs and six observational studies with a total of 202 745 participants, met inclusion criteria. Studies were conducted in Australia, Denmark and the USA.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "guideline",
+      "cited_as": "Workowski KA, Bachmann LH, Chan PA, et al. (CDC). Sexually Transmitted Infections Treatment Guidelines, 2021. MMWR Recomm Rep. 2021;70(4):1-187.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8344968/",
+      "pmid": "34292926",
+      "pmcid": "PMC8344968",
+      "doi": "10.15585/mmwr.rr7004a1",
+      "record_title": "Sexually Transmitted Infections Treatment Guidelines, 2021.",
+      "record_journal": "MMWR Recomm Rep",
+      "record_year": "2021",
+      "article_type": "Journal Article; Practice Guideline",
+      "version_or_date": "MMWR Recomm Rep 2021;70(4), published 2021-07-23; PMC full text read 2026-11-07",
+      "retrieved_with": "PubMed get_article_metadata and get_full_text_article (complete PMC full text, about 658,000 characters, searched in full)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Repair: link changed from the cdc.gov PDF (only partly readable in the audit) to the PMC full text of the same MMWR report, which was read in full this run. In the PMC text, drug names inside regimen boxes are dropped (italic formatting), so regimen quotes use sentences that name the drug where available. Gonorrhea wording corrected: CDC lists alternative regimens if ceftriaxone is not available, so 'required in person' was softened. Chlamydia in pregnancy (azithromycin), PID, genital ulcer, sexual assault, EPT, partner windows and retesting statements now carry this citation. PubMed article types checked for Retracted Publication / Retraction Notice: none found. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+      "claims": [
+        {
+          "text": "CDC recommends annual chlamydia screening for sexually active women under 25, and screening of older women at increased risk",
+          "quote": "Annual screening of all sexually active women aged <25 years is recommended, as is screening of older women at increased risk for infection",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Positive results need clinician follow-up, confirmatory testing where indicated, treatment and partner notification (key takeaway and FAQ summary)",
+          "quote": "Preliminary positive screening tests for HIV should be followed by supplemental testing to establish the diagnosis.",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "One type of syphilis test is not enough; positive treponemal screen should be followed by quantitative nontreponemal test with titer",
+          "quote": "Persons with a positive treponemal screening test should have a standard quantitative nontreponemal test with titer performed reflexively by the laboratory to guide patient management decisions.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Single syphilis test type insufficient; can give false negatives during primary syphilis",
+          "quote": "Use of only one type of serologic test (nontreponemal or treponemal) is insufficient for diagnosis and can result in false-negative results among persons tested during primary syphilis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Preliminary positive HIV screening test should be followed by supplemental testing",
+          "quote": "Preliminary positive screening tests for HIV should be followed by supplemental testing to establish the diagnosis.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Chlamydia recommended regimen outside pregnancy: doxycycline 100 mg twice daily for 7 days",
+          "quote": "Recommended Regimen for Chlamydial Infection Among Adolescents and Adults 100 mg orally 2 times/day for 7 days ... treat for chlamydia with doxycycline 100 mg orally 2 times/day for 7 days.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Trichomonas: oral metronidazole; for women 500 mg twice daily for 7 days",
+          "quote": "Recommended Regimen for Trichomoniasis Among Women 500 mg orally 2 times/day for 7 days ... Multidose oral metronidazole is more effective than single-dose treatment, particularly for women",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Parenteral penicillin G is the preferred treatment for all stages of syphilis; given by injection",
+          "quote": "Penicillin G, administered parenterally, is the preferred drug for treating patients in all stages of syphilis.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Gonorrhea recommended regimen: single ceftriaxone 500 mg IM injection; 1 g if 150 kg or more",
+          "quote": "Recommended Regimen for Uncomplicated Gonococcal Infection of the Cervix, Urethra, or Rectum Among Adults and Adolescents 500 mg* IM in a single dose for persons weighing <150 kg ... For persons weighing ≥150 kg, 1 g ceftriaxone should be administered.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Gonorrhea treatment is an injection given in person; alternatives listed only if ceftriaxone not available",
+          "quote": "current gonorrhea treatment involves an injection ... Alternative Regimens if Ceftriaxone Is Not Available",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Partners from the past 60 days for chlamydia and gonorrhea",
+          "quote": "Recent sex partners (i.e., persons having sexual contact with the infected patient <60 days preceding onset of symptoms or gonorrhea diagnosis) should be referred for evaluation, testing, and presumptive treatment.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Syphilis partner windows by stage: 3 months plus symptoms (primary), 6 months plus symptoms (secondary), 1 year (early latent)",
+          "quote": "within 3 months plus the duration of symptoms for persons who receive a diagnosis of primary syphilis, within 6 months plus duration of symptoms for those with secondary syphilis, and within 1 year for persons with early latent syphilis.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Retest about 3 months after treatment for chlamydia and gonorrhea; reinfection from untreated or new partners",
+          "quote": "Men or women who have been treated for gonorrhea should be retested 3 months after treatment regardless of whether they believe their sex partners were treated",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Chlamydia retesting at about 3 months",
+          "quote": "Men and women who have been treated for chlamydia should be retested approximately 3 months after treatment, regardless of whether they believe their sex partners were treated",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Trichomonas NAAT (one FDA-cleared assay) on patient- or clinician-collected vaginal swabs and urine: sensitivity 96.2-100%, specificity 99.1-100%",
+          "quote": "FDA cleared for detection ofin patient-collected or clinician-collected vaginal swab specimens and male and female urine specimens, with sensitivity and specificity of 96.2%–100% and 99.1%–100%, respectively, depending on the specimen type",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "HSV NAAT of a genital lesion is the most sensitive test",
+          "quote": "HSV NAAT assays are the most sensitive tests because they detect HSV from genital ulcers or other mucocutaneous lesions",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "PID is diagnosed partly on pelvic examination findings in women with pelvic or lower abdominal pain",
+          "quote": "if they are experiencing pelvic or lower abdominal pain, if no cause for the illness other than PID can be identified, or if one or more of the following three minimum clinical criteria are present on pelvic examination",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most genital ulcers in young sexually active US patients are genital herpes or syphilis",
+          "quote": "In the United States, the majority of young, sexually active patients who have genital, anal, or perianal ulcers have either genital herpes or syphilis.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pregnancy: STI screening and treatment follow specific recommendations; all pregnant women screened for syphilis at first prenatal visit",
+          "quote": "In the United States, all pregnant women should be screened for syphilis at the first prenatal visit, even if they have been tested previously",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Chlamydia in pregnancy: azithromycin safe and effective; doxycycline contraindicated in second and third trimesters",
+          "quote": "Clinical experience and published studies indicate that azithromycin is safe and effective during pregnancy (–). Doxycycline is contraindicated during the second and third trimesters of pregnancy because of risk for tooth discoloration.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pregnant women treated for chlamydia: test of cure about 4 weeks and retest at 3 months",
+          "quote": "at approximately 4 weeks after therapy completion during pregnancy is recommended ... all pregnant women who have chlamydial infection diagnosed should be retested 3 months after treatment.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Sexual assault: examination by an experienced clinician minimizing further trauma (routing to ED or assault program is editorial advice)",
+          "quote": "Examinations of survivors of sexual assault should be conducted by an experienced clinician in a way that minimizes further trauma to the person.",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "EPT legal in the majority of states but varies by infection",
+          "quote": "EPT is legal in the majority of states but varies by chlamydial or gonococcal infection.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "journal",
+      "cited_as": "Vázquez-Morón S, Ardizone Jiménez B, Jiménez-Sousa MA, et al. Evaluation of the diagnostic accuracy of laboratory-based screening for hepatitis C in dried blood spot samples: A systematic review and meta-analysis. Sci Rep. 2019;9(1):7316.",
+      "url": "https://www.nature.com/articles/s41598-019-41139-8",
+      "pmid": "31086259",
+      "pmcid": "PMC6514168",
+      "doi": "10.1038/s41598-019-41139-8",
+      "record_title": "Evaluation of the diagnostic accuracy of laboratory-based screening for hepatitis C in dried blood spot samples: A systematic review and meta-analysis.",
+      "record_journal": "Sci Rep",
+      "record_year": "2019",
+      "article_type": "Evaluation Study; Journal Article; Meta-Analysis; Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Repair: printed author 'Shivkumar S' and article number 4985 were wrong; record is Vázquez-Morón S et al., article 7316. Pooled anti-HCV figures corrected from 98.1%/99.4% to 96.1%/99.2%. PubMed article types checked for Retracted Publication / Retraction Notice: none found. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+      "claims": [
+        {
+          "text": "21 studies of anti-HCV detection on DBS pooled",
+          "quote": "The literature search revealed 26 studies: 21 for detection of anti-HCV antibodies and 10 for detection of HCV-RNA.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pooled anti-HCV DBS sensitivity 96.1%, specificity 99.2%",
+          "quote": "For detection of HCV antibodies, pooled diagnostic accuracy measures were as follows: sensitivity 96.1%, specificity 99.2%",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Publication bias and significant heterogeneity noted",
+          "quote": "this meta-analysis is subject to limitations, especially publication bias and significant heterogeneity between studies.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Low positive predictive value when HCV prevalence under 10%",
+          "quote": "a low positive predicted value (PPV) when prevalence was < 10%, particularly in HCV-RNA tests.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "journal",
+      "cited_as": "van Loo IHM, Dukers-Muijrers NHTM, Heuts R, et al. Screening for HIV, hepatitis B and syphilis on dried blood spots: A promising method to better reach hidden high-risk populations with self-collected sampling. PLoS One. 2017;12(10):e0186722.",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0186722",
+      "pmid": "29053737",
+      "pmcid": "PMC5650165",
+      "doi": "10.1371/journal.pone.0186722",
+      "record_title": "Screening for HIV, hepatitis B and syphilis on dried blood spots: A promising method to better reach hidden high-risk populations with self-collected sampling.",
+      "record_journal": "PLoS One",
+      "record_year": "2017",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Repair: printed author 'Kosack CS' was wrong; record is van Loo IHM et al. Key takeaway misdated the study as 2019. Figures corrected: HIV 98.5%/99.2% -> 100%/100%; syphilis 96.8%/99.6% -> 93%/99%; HBsAg 90%/99% added. PubMed article types checked for Retracted Publication / Retraction Notice: none found. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+      "claims": [
+        {
+          "text": "217 participants, mostly MSM at a Dutch STI clinic, DBS vs venous blood",
+          "quote": "DBS were collected from men who have sex with men (MSM), visiting the STI clinic of the public health service South Limburg (n = 183) and HIV positive and HBV positive patients (n = 34)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "HIV 100% sensitivity and specificity (195 pairs)",
+          "quote": "For HIV (n = 195 DBS-serum pairs) sensitivity and specificity were 100%.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "HBsAg sensitivity 90%, specificity 99%; syphilis sensitivity 93%, specificity 99%",
+          "quote": "For HBV the sensitivity for HBsAg (n = 202) was 90% and specificity was 99%. For syphilis (n = 191) the sensitivity of the DBS was 93% with a specificity of 99%.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "91% of DBS cards had enough material for all three tests",
+          "quote": "In 91% (198) of DBS, sufficient material was collected to perform the three tests.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Authors concluded DBS is a valid alternative to venous blood draw",
+          "quote": "Test performance, i.e., its high sensitivity (>90%) and specificity (>99%) measures show that DBS is a valid alternative for venous blood puncture.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Treponemal antibody assay used for syphilis on DBS",
+          "quote": "Serological screening tests for HIV (HIV combi PT, Roche), HBV (HBsAg, Roche) and syphilis (Treponema pallidum Ig, Biokit 3.0) were performed on DBS",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "journal",
+      "cited_as": "Cholette F, Périnet S, Neufeld B, et al. Validity of dried blood spot testing for sexually transmitted and blood-borne infections: A narrative systematic review. PLOS Glob Public Health. 2024;4(6):e0003320.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11178196/",
+      "pmid": "38875246",
+      "pmcid": "PMC11178196",
+      "doi": "10.1371/journal.pgph.0003320",
+      "record_title": "Validity of dried blood spot testing for sexually transmitted and blood-borne infections: A narrative systematic review.",
+      "record_journal": "PLOS Glob Public Health",
+      "record_year": "2024",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Repair: printed author 'Hassan J' and journal 'PMC' were wrong; record is Cholette F et al., PLOS Glob Public Health. Link normalized from ncbi.nlm.nih.gov/pmc to pmc.ncbi.nlm.nih.gov (same PMCID). 'Validity is high for most assays' rewritten to the review's actual figures and caveats. PubMed article types checked for Retracted Publication / Retraction Notice: none found. scite_unavailable (Scite quota exhausted until 2026-11-14).",
+      "claims": [
+        {
+          "text": "Sensitivity >=90% in 62.5% of measurements; specificity >=90% in 84.9%",
+          "quote": "a substantial proportion demonstrated high sensitivity (≥90%) in 62.5% of cases (N = 334/534 sensitivity measurements), and high specificity (≥90%) was observed in 84.9% of instances (N = 383/451 specificity measurements).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Study quality varied greatly; validity depends on method development and validation",
+          "quote": "However, the quality of the studies varied greatly. Our findings support the validity of the use of DBS specimens in STBBI testing where sufficient evidence was available, but validity is highly dependent on thorough method development and validation.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Getting Tested for HIV. Reviewed and updated September 15, 2026. Accessed November 7, 2026.",
+      "url": "https://www.cdc.gov/hiv/testing/index.html",
+      "record_title": "Getting Tested for HIV",
+      "version_or_date": "Reviewed: September 15, 2026; Updated: September 15, 2026",
+      "retrieved_with": "WebFetch of official page (found via WebSearch restricted to cdc.gov)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New source. Replaces the uncited, incorrect '23-45 days' HIV antibody window period. The retesting sentence was summarized by the fetch tool rather than quoted in full, so that claim is logged partly_supported.",
+      "claims": [
+        {
+          "text": "Antibody tests usually detect HIV 23 to 90 days after exposure",
+          "quote": "Antibody tests can usually detect HIV 23 to 90 days after exposure.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Antigen/antibody lab test on venous blood usually detects HIV 18 to 45 days after exposure",
+          "quote": "An antigen/antibody lab test using blood from a vein can usually detect HIV 18 to 45 days after exposure.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "No HIV test can detect HIV immediately after infection",
+          "quote": "No HIV test can detect HIV immediately after infection.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Retest after the window period for the test used has passed",
+          "quote": "The window period depends on the type of HIV test.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    }
+  ]
+}

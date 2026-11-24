@@ -38,7 +38,7 @@ const PHYSICIAN = {
   specialty: 'Family Medicine',
   licenseState: 'California',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 const CA_PAYORS = [
@@ -46,8 +46,8 @@ const CA_PAYORS = [
     notes: 'Commercial plans. In-network as of April 30, 2026. Verify plan eligibility with Aetna before booking.' },
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true,
     notes: 'Covers UHC Commercial and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types.' },
-  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Enrollment pending. Self pay ($79) available.' },
+  { name: 'Anthem Blue Cross', status: 'Active', effective: 'September 23, 2026', inNetwork: true,
+    notes: 'PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.' },
   { name: 'Cigna', status: 'Pending', effective: 'Pending determination', inNetwork: false,
     notes: 'Pending — Telehealth Only review in progress. Self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false,
@@ -62,7 +62,7 @@ const FAQ_ITEMS = [
     question: 'Can I get stomach flu treatment online in California?',
     answer: (
       <p>
-        Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth. TeleDirectMD physicians are licensed in California. Adults 18+ in California with viral gastroenteritis symptoms — nausea, vomiting, diarrhea — can book a same-day video visit. A physician can prescribe an anti-nausea medication (ondansetron), assess for dehydration risk, provide oral rehydration guidance, and advise on when to seek in-person care. Self pay is $79; Aetna is in-network as of April 30, 2026.
+        Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth. Dr. Bhavsar is licensed in California. Adults 18+ in California with viral gastroenteritis symptoms — nausea, vomiting, diarrhea — can book a same-day video visit. A physician can prescribe an anti-nausea medication (ondansetron), assess for dehydration risk, provide oral rehydration guidance, and advise on when to seek in-person care. Self pay is $79; Aetna is in-network as of April 30, 2026.
       </p>
     ),
   },
@@ -116,7 +116,7 @@ const FAQ_ITEMS = [
     question: 'Will Medi-Cal cover my TeleDirectMD stomach flu visit?',
     answer: (
       <p>
-        TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, you can use the $79 self-pay rate or find a Medi-Cal-enrolled telehealth provider through your managed care plan or California DHCS at dhcs.ca.gov.
+        TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, find a Medi-Cal-enrolled telehealth provider through your managed care plan or California DHCS at dhcs.ca.gov.
       </p>
     ),
   },
@@ -167,7 +167,7 @@ const FAQ_ITEMS = [
   },
 ];
 
-const SCHEMAS = [{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Viral Gastroenteritis Treatment Online in California | TeleDirectMD", "url": "https://teledirectmd.com/ca/viral-gastroenteritis-treatment-online/", "description": "Stomach flu (viral gastroenteritis) treatment online for California adults. Board-certified Family Medicine MD. Supportive care guidance. Self pay $79. Aetna in-network. Same-day video visits.", "datePublished": "2026-05-20", "dateModified": "2026-05-20", "inLanguage": "en-US", "about": {"@type": "MedicalCondition", "name": "Viral Gastroenteritis (Stomach Flu)", "code": {"@type": "MedicalCode", "code": "A08.4", "codingSystem": "ICD-10-CM"}}, "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient", "geographicArea": {"@type": "AdministrativeArea", "name": "California"}}, "reviewedBy": {"@type": "Physician", "@id": "https://teledirectmd.com/about/#physician-parth-bhavsar", "name": "Parth Bhavsar, MD", "identifier": {"@type": "PropertyValue", "propertyID": "NPI", "value": "1104323203"}, "medicalSpecialty": "Family Medicine", "hasCredential": [{"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "Doctor of Medicine (MD)"}, {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Board Certification \u2014 American Board of Family Medicine"}], "licensedIn": "California", "worksFor": {"@type": "MedicalOrganization", "name": "TeleDirectMD", "url": "https://teledirectmd.com"}, "sameAs": ["https://npiregistry.cms.hhs.gov/provider-view/1104323203", "https://teledirectmd.com/about/"]}, "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["#ca-viral-gastroenteritis-treatment-online-opening", "#ca-viral-gastroenteritis-treatment-online-opening p", ".tdmd-ca-viral-gastroenteritis-treatment-online__byline", "#ca-viral-gastroenteritis-treatment-online-faq"]}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I get stomach flu treatment online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth. TeleDirectMD physicians are licensed in California. Adults 18+ in California with viral gastroenteritis symptoms \u2014 nausea, vomiting, diarrhea \u2014 can book a same-day video visit. A physician can prescribe an anti-nausea medication (ondansetron), assess for dehydration risk, provide oral rehydration guidance, and advise on when to seek in-person care. Self pay is $79; Aetna is in-network as of April 30, 2026."}}, {"@type": "Question", "name": "What is viral gastroenteritis ('stomach flu') and what causes it?", "acceptedAnswer": {"@type": "Answer", "text": "Viral gastroenteritis is inflammation of the stomach and intestines caused by a virus \u2014 most commonly norovirus, rotavirus, or adenovirus in California adults. It causes sudden onset nausea, vomiting, diarrhea, abdominal cramps, and sometimes low-grade fever. The illness typically lasts 1\u20133 days for norovirus. It is not caused by influenza virus; the term 'stomach flu' is a misnomer \u2014 true influenza (flu) primarily causes respiratory symptoms, not gastrointestinal illness."}}, {"@type": "Question", "name": "Can I get anti-nausea medication prescribed online for stomach flu in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Ondansetron (Zofran) 4 mg orally dissolving tablet is a commonly prescribed antiemetic for nausea and vomiting from viral gastroenteritis. Generic ondansetron is available with a GoodRx coupon for approximately $8\u2013$15 at California pharmacies. A physician evaluates whether anti-nausea medication is appropriate based on your history. Prescription costs at pharmacy are separate from the TeleDirectMD visit fee ($79)."}}, {"@type": "Question", "name": "Does California require an in-person visit before telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. A California-licensed physician can evaluate gastroenteritis symptoms through a synchronous video visit and assess hydration status, symptom severity, and red-flag indicators."}}, {"@type": "Question", "name": "When is stomach flu dangerous and when should I go to the ER in California?", "acceptedAnswer": {"@type": "Answer", "text": "Seek emergency care immediately if you have signs of severe dehydration \u2014 no urination for 8+ hours, extremely dark urine, rapid heartbeat, dizziness, or inability to keep any fluids down. Go to the ER for blood in your stool, severe abdominal pain, fever above 103\u00b0F, or symptoms lasting more than 7\u201310 days. Elderly adults, young children, and immunocompromised individuals dehydrate more quickly and should seek in-person care sooner. TeleDirectMD is not appropriate if severe dehydration or red-flag symptoms are present."}}, {"@type": "Question", "name": "Is my Aetna plan in California in-network with TeleDirectMD?", "acceptedAnswer": {"@type": "Answer", "text": "Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. Verify current in-network status directly with Aetna before your visit. Self pay is $79 regardless of insurance status."}}, {"@type": "Question", "name": "Will Medi-Cal cover my TeleDirectMD stomach flu visit?", "acceptedAnswer": {"@type": "Answer", "text": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, you can use the $79 self-pay rate or find a Medi-Cal-enrolled telehealth provider through your managed care plan or California DHCS at dhcs.ca.gov."}}, {"@type": "Question", "name": "What is the best way to rehydrate at home with stomach flu?", "acceptedAnswer": {"@type": "Answer", "text": "Oral rehydration solution (ORS) \u2014 such as Pedialyte, Ceralyte, or WHO-formulated ORS \u2014 is more effective than plain water or sports drinks for replacing fluids and electrolytes lost during vomiting and diarrhea. The CDC recommends sipping small amounts of ORS frequently rather than drinking large quantities at once, which can trigger vomiting. Clear broths, diluted fruit juices, and water are acceptable secondarily. Advance to bland foods (BRAT diet: bananas, rice, applesauce, toast) as tolerated."}}, {"@type": "Question", "name": "Is norovirus contagious and how can I prevent spreading it in California?", "acceptedAnswer": {"@type": "Answer", "text": "Norovirus is highly contagious. The CDC recommends: frequent handwashing with soap and water (alcohol-based hand sanitizers are less effective against norovirus); avoiding food preparation while symptomatic and for 48 hours after symptoms resolve; disinfecting contaminated surfaces with bleach-based cleaners; and laundering contaminated clothing/linens in hot water. California requires food handlers to report and be excluded from work during illness per California Health and Safety Code."}}, {"@type": "Question", "name": "Is UnitedHealthcare in-network with TeleDirectMD in California?", "acceptedAnswer": {"@type": "Answer", "text": "UnitedHealthcare Commercial was approved for California effective May 29, 2026, covering commercial plans and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types. Verify your specific plan eligibility with UHC before booking."}}, {"@type": "Question", "name": "Does California's AB 744 telehealth parity law apply to gastroenteritis visits?", "acceptedAnswer": {"@type": "Answer", "text": "California AB 744 (2019) requires commercial health plans to reimburse telehealth services on the same basis as in-person services. Parity applies when the provider is already in-network with your specific plan. Currently, Aetna (active April 30, 2026) and UnitedHealthcare Commercial (active May 29, 2026) are in-network in California for TeleDirectMD."}}, {"@type": "Question", "name": "How quickly will my prescription reach a California pharmacy for stomach flu?", "acceptedAnswer": {"@type": "Answer", "text": "California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022). If a prescription such as ondansetron is appropriate, TeleDirectMD sends an e-prescription electronically to your chosen California pharmacy during or after your visit. Most California pharmacies fill within one to four hours."}}]}, {"@context": "https://schema.org", "@type": "HowTo", "name": "How to Get Viral Gastroenteritis Treatment Online in California", "description": "Three steps to receive viral gastroenteritis treatment evaluation and, if appropriate, a prescription from a California-licensed board-certified physician.", "totalTime": "PT30M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "79"}, "step": [{"@type": "HowToStep", "position": 1, "name": "Book your video visit", "text": "Visit teledirectmd.com and select California Viral Gastroenteritis (Stomach Flu) treatment. No referral needed. Self pay $79. Many visits available same day.", "url": "https://teledirectmd.com/book-online"}, {"@type": "HowToStep", "position": 2, "name": "See a California-licensed MD by secure video", "text": "Connect with a board-certified Family Medicine physician licensed in California. The physician reviews your symptoms, history, and red-flag screening. Consent per CA B&P Section 2290.5 confirmed.", "url": "https://teledirectmd.com/ca/viral-gastroenteritis-treatment-online/"}, {"@type": "HowToStep", "position": 3, "name": "Receive your treatment plan and e-prescription", "text": "If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy during or after the visit.", "url": "https://teledirectmd.com/ca/viral-gastroenteritis-treatment-online/"}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TeleDirectMD", "item": "https://teledirectmd.com"}, {"@type": "ListItem", "position": 2, "name": "California", "item": "https://teledirectmd.com/ca/"}, {"@type": "ListItem", "position": 3, "name": "Viral Gastroenteritis Treatment Online in California", "item": "https://teledirectmd.com/ca/viral-gastroenteritis-treatment-online/"}]}];
+const SCHEMAS = [{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Viral Gastroenteritis Treatment Online in California | TeleDirectMD", "url": "https://teledirectmd.com/ca/viral-gastroenteritis-treatment-online/", "description": "Stomach flu (viral gastroenteritis) treatment online for California adults. Board-certified Family Medicine MD. Supportive care guidance. Self pay $79. Aetna in-network. Same-day video visits.", "datePublished": "2026-05-20", "dateModified": "2026-05-20", "inLanguage": "en-US", "about": {"@type": "MedicalCondition", "name": "Viral Gastroenteritis (Stomach Flu)", "code": {"@type": "MedicalCode", "code": "A08.4", "codingSystem": "ICD-10-CM"}}, "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient", "geographicArea": {"@type": "AdministrativeArea", "name": "California"}}, "reviewedBy": {"@type": "Physician", "@id": "https://teledirectmd.com/about/#physician", "name": "Parth Bhavsar, MD", "identifier": {"@type": "PropertyValue", "propertyID": "NPI", "value": "1104323203"}, "medicalSpecialty": "Family Medicine", "hasCredential": [{"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "Doctor of Medicine (MD)"}, {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Board Certification \u2014 American Board of Family Medicine"}], "licensedIn": "California", "worksFor": {"@type": "MedicalOrganization", "name": "TeleDirectMD", "url": "https://teledirectmd.com"}, "sameAs": ["https://npiregistry.cms.hhs.gov/provider-view/1104323203", "https://teledirectmd.com/about/"]}, "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["#ca-viral-gastroenteritis-treatment-online-opening", "#ca-viral-gastroenteritis-treatment-online-opening p", ".tdmd-ca-viral-gastroenteritis-treatment-online__byline", "#ca-viral-gastroenteritis-treatment-online-faq"]}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I get stomach flu treatment online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth. Dr. Bhavsar is licensed in California. Adults 18+ in California with viral gastroenteritis symptoms \u2014 nausea, vomiting, diarrhea \u2014 can book a same-day video visit. A physician can prescribe an anti-nausea medication (ondansetron), assess for dehydration risk, provide oral rehydration guidance, and advise on when to seek in-person care. Self pay is $79; Aetna is in-network as of April 30, 2026."}}, {"@type": "Question", "name": "What is viral gastroenteritis ('stomach flu') and what causes it?", "acceptedAnswer": {"@type": "Answer", "text": "Viral gastroenteritis is inflammation of the stomach and intestines caused by a virus \u2014 most commonly norovirus, rotavirus, or adenovirus in California adults. It causes sudden onset nausea, vomiting, diarrhea, abdominal cramps, and sometimes low-grade fever. The illness typically lasts 1\u20133 days for norovirus. It is not caused by influenza virus; the term 'stomach flu' is a misnomer \u2014 true influenza (flu) primarily causes respiratory symptoms, not gastrointestinal illness."}}, {"@type": "Question", "name": "Can I get anti-nausea medication prescribed online for stomach flu in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Ondansetron (Zofran) 4 mg orally dissolving tablet is a commonly prescribed antiemetic for nausea and vomiting from viral gastroenteritis. Generic ondansetron is available with a GoodRx coupon for approximately $8\u2013$15 at California pharmacies. A physician evaluates whether anti-nausea medication is appropriate based on your history. Prescription costs at pharmacy are separate from the TeleDirectMD visit fee ($79)."}}, {"@type": "Question", "name": "Does California require an in-person visit before telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. A California-licensed physician can evaluate gastroenteritis symptoms through a synchronous video visit and assess hydration status, symptom severity, and red-flag indicators."}}, {"@type": "Question", "name": "When is stomach flu dangerous and when should I go to the ER in California?", "acceptedAnswer": {"@type": "Answer", "text": "Seek emergency care immediately if you have signs of severe dehydration \u2014 no urination for 8+ hours, extremely dark urine, rapid heartbeat, dizziness, or inability to keep any fluids down. Go to the ER for blood in your stool, severe abdominal pain, fever above 103\u00b0F, or symptoms lasting more than 7\u201310 days. Elderly adults, young children, and immunocompromised individuals dehydrate more quickly and should seek in-person care sooner. TeleDirectMD is not appropriate if severe dehydration or red-flag symptoms are present."}}, {"@type": "Question", "name": "Is my Aetna plan in California in-network with TeleDirectMD?", "acceptedAnswer": {"@type": "Answer", "text": "Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. Verify current in-network status directly with Aetna before your visit. Self pay is $79 regardless of insurance status."}}, {"@type": "Question", "name": "Will Medi-Cal cover my TeleDirectMD stomach flu visit?", "acceptedAnswer": {"@type": "Answer", "text": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, find a Medi-Cal-enrolled telehealth provider through your managed care plan or California DHCS at dhcs.ca.gov."}}, {"@type": "Question", "name": "What is the best way to rehydrate at home with stomach flu?", "acceptedAnswer": {"@type": "Answer", "text": "Oral rehydration solution (ORS) \u2014 such as Pedialyte, Ceralyte, or WHO-formulated ORS \u2014 is more effective than plain water or sports drinks for replacing fluids and electrolytes lost during vomiting and diarrhea. The CDC recommends sipping small amounts of ORS frequently rather than drinking large quantities at once, which can trigger vomiting. Clear broths, diluted fruit juices, and water are acceptable secondarily. Advance to bland foods (BRAT diet: bananas, rice, applesauce, toast) as tolerated."}}, {"@type": "Question", "name": "Is norovirus contagious and how can I prevent spreading it in California?", "acceptedAnswer": {"@type": "Answer", "text": "Norovirus is highly contagious. The CDC recommends: frequent handwashing with soap and water (alcohol-based hand sanitizers are less effective against norovirus); avoiding food preparation while symptomatic and for 48 hours after symptoms resolve; disinfecting contaminated surfaces with bleach-based cleaners; and laundering contaminated clothing/linens in hot water. California requires food handlers to report and be excluded from work during illness per California Health and Safety Code."}}, {"@type": "Question", "name": "Is UnitedHealthcare in-network with TeleDirectMD in California?", "acceptedAnswer": {"@type": "Answer", "text": "UnitedHealthcare Commercial was approved for California effective May 29, 2026, covering commercial plans and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types. Verify your specific plan eligibility with UHC before booking."}}, {"@type": "Question", "name": "Does California's AB 744 telehealth parity law apply to gastroenteritis visits?", "acceptedAnswer": {"@type": "Answer", "text": "California AB 744 (2019) requires commercial health plans to reimburse telehealth services on the same basis as in-person services. Parity applies when the provider is already in-network with your specific plan. Currently, Aetna (active April 30, 2026) and UnitedHealthcare Commercial (active May 29, 2026) are in-network in California for TeleDirectMD."}}, {"@type": "Question", "name": "How quickly will my prescription reach a California pharmacy for stomach flu?", "acceptedAnswer": {"@type": "Answer", "text": "California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022). If a prescription such as ondansetron is appropriate, TeleDirectMD sends an e-prescription electronically to your chosen California pharmacy during or after your visit. Most California pharmacies fill within one to four hours."}}]}, {"@context": "https://schema.org", "@type": "HowTo", "name": "How to Get Viral Gastroenteritis Treatment Online in California", "description": "Three steps to receive viral gastroenteritis treatment evaluation and, if appropriate, a prescription from a California-licensed board-certified physician.", "totalTime": "PT30M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "79"}, "step": [{"@type": "HowToStep", "position": 1, "name": "Book your video visit", "text": "Visit teledirectmd.com and select California Viral Gastroenteritis (Stomach Flu) treatment. No referral needed. Self pay $79. Many visits available same day.", "url": "https://teledirectmd.com/book-online"}, {"@type": "HowToStep", "position": 2, "name": "See a California-licensed MD by secure video", "text": "Connect with a board-certified Family Medicine physician licensed in California. The physician reviews your symptoms, history, and red-flag screening. Consent per CA B&P Section 2290.5 confirmed.", "url": "https://teledirectmd.com/ca/viral-gastroenteritis-treatment-online/"}, {"@type": "HowToStep", "position": 3, "name": "Receive your treatment plan and e-prescription", "text": "If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy during or after the visit.", "url": "https://teledirectmd.com/ca/viral-gastroenteritis-treatment-online/"}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TeleDirectMD", "item": "https://teledirectmd.com"}, {"@type": "ListItem", "position": 2, "name": "California", "item": "https://teledirectmd.com/ca/"}, {"@type": "ListItem", "position": 3, "name": "Viral Gastroenteritis Treatment Online in California", "item": "https://teledirectmd.com/ca/viral-gastroenteritis-treatment-online/"}]}];
 
 const PAGE_CSS = `
 .tdmd-ca-cond{color:var(--tdmd-text);}
@@ -251,7 +251,7 @@ export default function CaViralGastroenteritisTreatmentOnline() {
                 {/* v3: Inline opener paragraph — replaces CitableSummaryBlock */}
                 <div className="tdmd-condition-opener" id={`${pid}-opening`}>
                   <p>
-                    <strong>Can I get viral gastroenteritis treatment online in California?</strong> Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California and are held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. Self pay is $79. <a href="/insurance/">Aetna is in-network</a> as of April 30, 2026; UnitedHealthcare Commercial approved May 29, 2026.
+                    <strong>Can I get viral gastroenteritis treatment online in California?</strong> Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. Dr. Bhavsar is licensed in California and is held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. Self pay is $79. <a href="/insurance/">Aetna is in-network</a> as of April 30, 2026; UnitedHealthcare Commercial approved May 29, 2026.
                   </p>
                 </div>
 
@@ -290,9 +290,9 @@ export default function CaViralGastroenteritisTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> A08.4 (Viral intestinal infection, unspecified); A08.11 (Acute gastroenteropathy due to Norwalk/Norovirus); actual code assigned at visit</p>
@@ -405,7 +405,7 @@ export default function CaViralGastroenteritisTreatmentOnline() {
                   <h3>Receive your treatment plan and e-prescription</h3>
                   <p>If medication is clinically appropriate, a California-compliant e-prescription is sent to your chosen California pharmacy during or after the visit. You receive clear follow-up instructions regardless of treatment choice, including when to seek in-person care.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -418,7 +418,7 @@ export default function CaViralGastroenteritisTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Viral Gastroenteritis (Stomach Flu) in California?</h2>
             <p>
-              Norovirus is the leading cause of viral gastroenteritis outbreaks in California, with the California Department of Public Health reporting 50–100 norovirus outbreak investigations annually in restaurant, healthcare, and group-care settings. California's large population, food service industry, and cruise ship activity at major ports contribute to norovirus exposure. CDC estimates 19–21 million Americans experience norovirus illness annually; applying population rates, California accounts for approximately 1.5–2 million norovirus cases per year. — <a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/InfectiousDiseases/Norovirus.aspx" rel="noopener" target="_blank">CDPH — Norovirus Information</a>.
+              Norovirus is the leading cause of viral gastroenteritis outbreaks in California, with the California Department of Public Health reporting 50–100 norovirus outbreak investigations annually in restaurant, healthcare, and group-care settings. California's large population, food service industry, and cruise ship activity at major ports contribute to norovirus exposure. CDC estimates 19–21 million Americans experience norovirus illness annually; applying population rates, California accounts for approximately 1.5–2 million norovirus cases per year. — <a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Norovirus.aspx" rel="noopener" target="_blank">CDPH — Norovirus Information</a>.
             </p>
             <p>
               Clinical guidance for viral gastroenteritis treatment is provided by <a href="https://gi.org/guidelines/" rel="noopener" target="_blank">American College of Gastroenterology (ACG)</a> through the ACG Clinical Guidelines: Acute Infectious Diarrhea and CDC Norovirus Clinical Information. TeleDirectMD follows these guidelines on every patient visit.
@@ -450,25 +450,6 @@ export default function CaViralGastroenteritisTreatmentOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical Viral Gastroenteritis (Stomach Flu) cost comparison">
-                <h3>Typical Viral Gastroenteritis (Stomach Flu) Visit Cost in California</h3>
-                <p className="tdmd-price-caption">Common ranges Californians see before insurance. Actual costs vary by setting and city.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 16, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical California metro pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <h3 style={{ marginTop: '1.75rem' }}>California Payor Status — TeleDirectMD</h3>
@@ -506,7 +487,7 @@ export default function CaViralGastroenteritisTreatmentOnline() {
               </table>
             </div>
             <p style={{ marginTop: '1rem' }}>
-              View all <a href="/insurance">insurance options</a> or <a href="/book-online">book a $79 self-pay visit</a>.
+              View all <a href="/insurance/">insurance options</a> or <a href="/book-online/">book a $79 self-pay visit</a>.
             </p>
           </div>
         </section>
@@ -543,12 +524,6 @@ export default function CaViralGastroenteritisTreatmentOnline() {
                     <td>4 mg initially, then 2 mg after each loose stool; max 16 mg/day</td>
                     <td>Available OTC ~$5–$10</td>
                     <td>For symptomatic diarrhea relief only. Avoid if blood in stool, fever &gt;38.5°C, or suspected invasive bacterial diarrhea — can worsen those conditions.</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Promethazine 12.5 mg</strong></td>
-                    <td>12.5–25 mg every 4–6 hours as needed for nausea</td>
-                    <td><a href="https://www.goodrx.com/promethazine" target="_blank" rel="noopener">~$10–$18 generic with GoodRx</a></td>
-                    <td>Alternative antiemetic. May cause sedation. Do not use in patients with respiratory conditions. Second-line to ondansetron.</td>
                   </tr>
                 </tbody>
               </table>
@@ -606,7 +581,7 @@ export default function CaViralGastroenteritisTreatmentOnline() {
                 <p>Book a same-day video visit — California adults, 18+</p>
                 <small>Self pay $79 &middot; Aetna in-network &middot; UHC Commercial approved May 2026 &middot; No ER wait</small>
               </div>
-              <a className="tdmd-ca-cond__cta-btn" href="/book-online" rel="noopener">Book Now &rarr;</a>
+              <a className="tdmd-ca-cond__cta-btn" href="/book-online/" rel="noopener">Book Now &rarr;</a>
             </div>
           </div>
         </section>
@@ -624,8 +599,8 @@ export default function CaViralGastroenteritisTreatmentOnline() {
                 <p>Book a same-day video visit. Self pay $79 &middot; Aetna in-network &middot; UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -654,12 +629,8 @@ export default function CaViralGastroenteritisTreatmentOnline() {
                   <span className="tdmd-ca-uti__sibling-why">Both are acute conditions with rapid onset that benefit from same-day telehealth evaluation.</span>
                 </a>
               <a key="uti-treatment-online" className="tdmd-ca-uti__sibling" href="/ca/uti-treatment-online/">
-                  <span className="tdmd-ca-uti__sibling-label">UTI Treatment in CA</span>
+                  <span className="tdmd-ca-uti__sibling-label">UTI Treatment for Women in CA</span>
                   <span className="tdmd-ca-uti__sibling-why">Both are common acute conditions often evaluated in same-day telehealth settings.</span>
-                </a>
-              <a key="online-doctor-visits" className="tdmd-ca-uti__sibling" href="/ca/online-doctor-visits/">
-                  <span className="tdmd-ca-uti__sibling-label">All Online Doctor Visits in CA</span>
-                  <span className="tdmd-ca-uti__sibling-why">General CA telehealth hub for any condition we treat.</span>
                 </a>
             </div>
           </div>
@@ -676,10 +647,10 @@ export default function CaViralGastroenteritisTreatmentOnline() {
               <a href="/viral-gastroenteritis-treatment-online/">National Viral Gastroenteritis (Stomach Flu) page</a>
               <a href="/health-guides/">Viral Gastroenteritis (Stomach Flu) health guides</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/insurance">Insurance</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/insurance/">Insurance</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>
@@ -693,8 +664,8 @@ export default function CaViralGastroenteritisTreatmentOnline() {
               <li><a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth Resources. Retrieved May 2026.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744). Retrieved May 2026.</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/InfectiousDiseases/Norovirus.aspx" rel="noopener" target="_blank">CDPH — Norovirus Information. Retrieved May 2026.</a></li>
-              <li><a href="https://www.cdc.gov/norovirus/clinicians/index.html" rel="noopener" target="_blank">CDC — Norovirus for Health Professionals. Retrieved May 2026.</a></li>
+              <li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Norovirus.aspx" rel="noopener" target="_blank">CDPH — Norovirus Information. Retrieved May 2026.</a></li>
+              <li><a href="https://www.cdc.gov/norovirus/about/index.html" rel="noopener" target="_blank">CDC — About Norovirus. Retrieved May 2026.</a></li>
               <li><a href="https://gi.org/guidelines/" rel="noopener" target="_blank">American College of Gastroenterology — Clinical Guidelines. Retrieved May 2026.</a></li>
               <li><a href="https://www.cdc.gov/norovirus/about/prevention.html" rel="noopener" target="_blank">CDC — Norovirus Prevention and Control. Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>

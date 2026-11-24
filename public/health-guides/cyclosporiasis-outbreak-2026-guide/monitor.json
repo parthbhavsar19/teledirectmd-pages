@@ -1,0 +1,48 @@
+{
+  "$comment": "SINGLE SOURCE OF TRUTH for the 2026 cyclosporiasis outbreak monitor. Updated by scripts/update-cyclosporiasis-monitor via scheduled task, then injected into the guide HTML by scripts/inject-outbreak-monitor.js at build time. Never hand-edit case numbers without a primary-source URL + verifiedDate. All regulatory/surveillance claims must trace to CDC or FDA.",
+  "slug": "cyclosporiasis-outbreak-2026-guide",
+  "outbreakActive": false,
+  "season": "May 1 – August 31, 2026",
+  "lastVerified": "2026-11-07",
+  "sourceIdentified": {
+    "product": "Iceberg lettuce from Taylor Farms de Mexico",
+    "confirmedBy": "FDA and CDC epidemiologic and traceback data",
+    "clusterCases": 12883,
+    "clusterStates": 21,
+    "clusterHospitalizations": 570,
+    "clusterDeaths": 2,
+    "status": "Ended. CDC declared the outbreak over on September 11, 2026; FDA has concluded its investigation (content current as of October 2, 2026).",
+    "sourceUrl": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigation-5-state-outbreak-cyclospora-illnesses-iceberg-lettuce-july-2026",
+    "sourceName": "FDA Outbreak Investigation",
+    "cdcUrl": "https://www.cdc.gov/cyclosporiasis/outbreaks/07-26/investigation.html"
+  },
+  "cdc": {
+    "asOf": "2026-10-23",
+    "seasonWindow": "May 1 – August 31, 2026",
+    "domesticCases": 20996,
+    "statesReporting": 49,
+    "statesReportingNote": "49 plus the District of Columbia",
+    "hospitalizations": 1161,
+    "deaths": 2,
+    "additionalUnderReview": 13002,
+    "additionalUnderReviewNote": "Laboratory-confirmed cases requiring further investigation to determine whether they were acquired in the United States or during travel",
+    "travelAssociatedCases": 2218,
+    "medianAge": 47,
+    "ageRange": "1–99",
+    "sourceUrl": "https://www.cdc.gov/cyclosporiasis/cases/index.html",
+    "sourceName": "CDC Cyclosporiasis Case Data (updated October 23, 2026)"
+  },
+  "fda": {
+    "asOf": "2026-10-02",
+    "activeInvestigations": 0,
+    "sourceIdentified": true,
+    "investigationStatus": "Ended",
+    "sourceUrl": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigation-5-state-outbreak-cyclospora-illnesses-iceberg-lettuce-july-2026",
+    "sourceName": "FDA Outbreak Investigation"
+  },
+  "statesHardestHit": [],
+  "keyClinical": {
+    "treatment": "TMP-SMX one double-strength tablet (160/800 mg) twice daily for 7–10 days, per CDC clinical care page",
+    "personToPerson": false
+  }
+}

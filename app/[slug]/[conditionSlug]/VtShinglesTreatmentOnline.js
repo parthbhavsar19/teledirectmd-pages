@@ -34,7 +34,7 @@ const PHYSICIAN = {
   licenseState: 'Vermont',
   licenseNumber: '042.0040345-COMP',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 const FAQ_ITEMS = [
@@ -155,7 +155,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -321,7 +321,7 @@ export default function VtShinglesTreatmentOnline() {
                       Reviewed by <a href={PHYSICIAN.bioUrl}>{PHYSICIAN.name}</a> — Board-Certified {PHYSICIAN.specialty} (American Board of Family Medicine)
                     </span>
                     <span className="tdmd-vt-cond__byline-meta">
-                      NPI {PHYSICIAN.npi} · Vermont Medical License #{PHYSICIAN.licenseNumber} (<a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
+                      NPI {PHYSICIAN.npi} · Vermont Medical License #{PHYSICIAN.licenseNumber} (<a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
                       <time dateTime={DATE_MODIFIED}>{new Date(DATE_MODIFIED).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
                     </span>
                   </div>
@@ -346,9 +346,9 @@ export default function VtShinglesTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
                   <a href="/vt/" className="tdmd-btn tdmd-btn-outline">Explore Vermont Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> B02.9 (zoster without complications); final coding depends on the exam</p>
@@ -445,7 +445,7 @@ export default function VtShinglesTreatmentOnline() {
 
             <h3>What standard does the treating physician owe you?</h3>
             <p>
-              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> holds that the standard of care does not change between an in-person and a telehealth encounter. The physician must carry a Vermont license to treat patients located in Vermont. Dr. Bhavsar holds Vermont Medical License #042.0040345-COMP from the Board. <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">Verify the license</a> · <a href="/about/">Dr. Bhavsar&apos;s bio</a>.
+              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> holds that the standard of care does not change between an in-person and a telehealth encounter. The physician must carry a Vermont license to treat patients located in Vermont. Dr. Bhavsar holds Vermont Medical License #042.0040345-COMP from the Board. <a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">Verify the license</a> · <a href="/about/">Dr. Bhavsar&apos;s bio</a>.
             </p>
 
             <h3>Are shingles antivirals controlled in Vermont?</h3>
@@ -480,7 +480,7 @@ export default function VtShinglesTreatmentOnline() {
                   <h3>Start antivirals the same day</h3>
                   <p>When zoster fits, an oral antiviral is e-prescribed to your chosen Vermont pharmacy with dosing and pain guidance. You leave with written instructions on when to escalate if the rash spreads or new symptoms appear.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -508,25 +508,6 @@ export default function VtShinglesTreatmentOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical shingles cost comparison">
-                <h3>Typical Shingles Visit Cost in Vermont</h3>
-                <p className="tdmd-price-caption">Ranges Vermonters commonly see. Actual cost varies by setting and town.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 16, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical Vermont pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <div className="tdmd-cashpay-note">
@@ -573,12 +554,6 @@ export default function VtShinglesTreatmentOnline() {
                     <td>500 mg PO three times daily &times; 7 days</td>
                     <td><a href="https://www.goodrx.com/famciclovir" target="_blank" rel="noopener">~$30–$50 generic</a></td>
                     <td>Clinically equivalent to valacyclovir with the same convenient dosing.</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Gabapentin 300 mg</strong> (nerve-pain adjunct)</td>
-                    <td>300 mg PO three times daily, titrated by the physician</td>
-                    <td><a href="https://www.goodrx.com/gabapentin" target="_blank" rel="noopener">~$15–$25 generic</a></td>
-                    <td>Considered for acute pain and postherpetic-neuralgia risk; not a controlled substance in Vermont.</td>
                   </tr>
                 </tbody>
               </table>
@@ -627,7 +602,7 @@ export default function VtShinglesTreatmentOnline() {
                 <p>See a Vermont-licensed MD today — adults 18+</p>
                 <small>Cash-pay $79 flat · No insurance billing in Vermont · Start antivirals fast</small>
               </div>
-              <a className="tdmd-vt-cond__cta-btn" href="/book-online" rel="noopener">Book Now &rarr;</a>
+              <a className="tdmd-vt-cond__cta-btn" href="/book-online/" rel="noopener">Book Now &rarr;</a>
             </div>
           </div>
         </section>
@@ -645,8 +620,8 @@ export default function VtShinglesTreatmentOnline() {
                 <p>Book a same-day video visit. Cash-pay $79 flat. No insurance billing in Vermont.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -674,10 +649,6 @@ export default function VtShinglesTreatmentOnline() {
                 <span className="tdmd-vt-cond__sibling-label">Sinus Infection Treatment in VT</span>
                 <span className="tdmd-vt-cond__sibling-why">Facial pain has many sources; trigeminal zoster is one to rule in or out.</span>
               </a>
-              <a className="tdmd-vt-cond__sibling" href="/vt/online-doctor-visits/">
-                <span className="tdmd-vt-cond__sibling-label">All Online Doctor Visits in VT</span>
-                <span className="tdmd-vt-cond__sibling-why">The general Vermont telehealth hub for everything we treat.</span>
-              </a>
             </div>
           </div>
         </section>
@@ -693,9 +664,9 @@ export default function VtShinglesTreatmentOnline() {
               <a href="/shingles-treatment-online/">National shingles page</a>
               <a href="/health-guides/">Health guides</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>

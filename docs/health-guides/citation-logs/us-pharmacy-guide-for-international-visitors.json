@@ -1,0 +1,755 @@
+{
+  "guide": "us-pharmacy-guide-for-international-visitors",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 1 verified (10.1097/00045391-200303000-00004), retractions: none. PubMed article type Journal Article; no Retracted Publication or Retraction Notice. No other reference has a DOI.",
+  "references": [
+    {
+      "n": 1,
+      "kind": "agency_page",
+      "cited_as": "North Carolina General Statutes § 90-106.1 (S.L. 2011-349, s. 1). North Carolina General Assembly. Accessed November 15, 2026.",
+      "url": "https://ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_90/GS_90-106.1.html",
+      "version_or_date": "Section history (2011-349, s. 1); no later amendment listed",
+      "retrieved_with": "WebFetch of ncleg.gov statute page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "North Carolina requires one of four photo IDs (driver's license, state special ID card, military ID, passport) before dispensing a Schedule II controlled substance; Aadhaar, INE, national ID cards and student IDs are not among the listed types",
+          "quote": "Immediately prior to dispensing a Schedule II controlled substance, ... valid, unexpired forms of government-issued photographic identification ... (i) a drivers license, (ii) a special identification card issued under G.S. 20-37.7, (iii) a military identification card, or (iv) a passport.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "The pharmacy records the person's name, the type of ID and the ID number (so a passport number may be recorded)",
+          "quote": "Upon presentation of the required photographic identification, the pharmacy shall document the name ... the type of photographic identification presented by the person seeking the dispensation and the photographic identification number.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "A US state driver's license or ID card is accepted under the North Carolina rule",
+          "quote": "(i) a drivers license, (ii) a special identification card issued under G.S. 20-37.7",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "agency_page",
+      "cited_as": "North Carolina Board of Pharmacy. Frequently Asked Questions About S.L. 2011-349, An Act to Direct Pharmacies to Require Photo Identification Prior to Dispensing Certain Controlled Substances. Issued November 29, 2011; updated through March 13, 2012. Accessed November 15, 2026.",
+      "url": "https://ncbop.org/downloads/PhotoIDControlledSubstancesFAQ.pdf",
+      "version_or_date": "Issued November 29, 2011; updated January 5, February 20, March 6, March 7 and March 13, 2012",
+      "retrieved_with": "WebFetch of ncbop.org PDF",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Board guidance on S.L. 2011-349; 2012 updates are the latest shown. Statute page lists no later amendment.",
+      "claims": [
+        {
+          "text": "Board says a passport used under the rule need not be US-issued",
+          "quote": "the statute does not state that the passport must be “U.S.-government issued.”",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Board says a foreign-government driver's license does not appear to be excluded",
+          "quote": "does not appear to exclude a foreign-government issued driver's license or military identification from eligibility",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Board says employee badges do not meet the rule; only the four listed documents count",
+          "quote": "A number of pharmacists have inquired whether employee identification badges meet this requirement. ... the statute recognizes four, and only four, government-issued identification documents.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Board says Mexican consulate IDs and green cards do not meet the rule",
+          "quote": "Such identifications are not a “driver’s license,” “passport,” or “military identification” ... “green cards” are not a “driver’s license,” “passport,” or “military identification.”",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "agency_page",
+      "cited_as": "21 U.S.C. § 353(b)(1). United States Code, via GovInfo (as amended through Pub. L. 117-328). Accessed November 15, 2026.",
+      "url": "https://www.govinfo.gov/link/uscode/21/353",
+      "version_or_date": "As amended through Pub. L. 117-328 (Dec. 29, 2022)",
+      "retrieved_with": "WebFetch of govinfo.gov US Code link (cross-checked against LII text)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The statement that a home-country-only prescription will not be filled is an inference from \"practitioner licensed by law\" read with state pharmacy law; partly_supported.",
+      "claims": [
+        {
+          "text": "Prescription drugs are dispensed only on the prescription of a practitioner licensed by law to administer the drug",
+          "quote": "shall be dispensed only (i) upon a written prescription of a practitioner licensed by law to administer such drug",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "A visitor with a prescription only from a home-country doctor should plan on a new prescription from a US-licensed clinician (inference)",
+          "quote": "shall be dispensed only (i) upon a written prescription of a practitioner licensed by law to administer such drug",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "The federal dispensing rule turns on a licensed practitioner's prescription, not a Social Security number; legitimate pharmacies require a prescription",
+          "quote": "shall be dispensed only (i) upon a written prescription of a practitioner licensed by law to administer such drug",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "agency_page",
+      "cited_as": "21 CFR § 1306.03(a). Electronic Code of Federal Regulations, up to date as of October 19, 2026. Accessed November 15, 2026.",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-II/part-1306/subject-group-ECFR1eb5bb3a23fddd0/section-1306.03",
+      "version_or_date": "Up to date as of 10/19/2026",
+      "retrieved_with": "WebFetch of eCFR",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "A controlled substance prescription must come from a practitioner authorized where licensed and registered with, or exempted by, DEA",
+          "quote": "A prescription for a controlled substance may be issued only by an individual practitioner who is: Authorized to prescribe controlled substances by the jurisdiction in which he is licensed to practice his profession and Either registered or exempted from registration",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "other_web",
+      "cited_as": "GoodRx. How Does GoodRx Work, and Is It Legit? Company page. Accessed November 15, 2026.",
+      "url": "https://www.goodrx.com/how-goodrx-works",
+      "version_or_date": "Read 2026-11-15",
+      "retrieved_with": "WebFetch of company page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Company claims, attributed in text. Savings and price-spread figures are GoodRx figures, not independent data. Page FAQ answers on insurance stacking were empty, so no stacking claim is attributed to GoodRx.",
+      "claims": [
+        {
+          "text": "GoodRx is a free app and website",
+          "quote": "GoodRx is a free mobile app and website.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "GoodRx is not insurance",
+          "quote": "GoodRx is NOT insurance.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Show the coupon when picking up the prescription; GoodRx says savings can reach up to 80%",
+          "quote": "Show your coupon when picking up your prescription and save up to 80%.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "GoodRx says more than 70,000 US pharmacies accept it",
+          "quote": "70K ... U.S. pharmacies accept GoodRx",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "GoodRx says the price for the same prescription can differ by $100 or more between pharmacies",
+          "quote": "$100+ ... The potential difference in price for the same prescription at different pharmacies",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "other_web",
+      "cited_as": "SingleCare. Prescription discount service, homepage. Company page. Accessed November 15, 2026.",
+      "url": "https://www.singlecare.com/",
+      "version_or_date": "Read 2026-11-15",
+      "retrieved_with": "WebFetch of company page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "SingleCare offers free coupons on thousands of drugs and cannot be combined with insurance; it is not insurance",
+          "quote": "SingleCare is a prescription discount service that offers free coupons on thousands of prescription drugs ... but it cannot be combined with insurance.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "SingleCare says savings may reach up to 80%",
+          "quote": "Prescription savings vary by prescription and by pharmacy, and may reach up to 80% off cash price.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "SingleCare says it is available at 35,000+ pharmacies",
+          "quote": "Available at 35,000+ pharmacies",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "SingleCare sign-up is free",
+          "quote": "Sign up free to get the lowest prices ... No monthly fees. No cost. No catch.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "other_web",
+      "cited_as": "ScriptSave WellRx. Homepage (savings figures based on 2015 program data). Company page. Accessed November 15, 2026.",
+      "url": "https://www.wellrx.com/",
+      "version_or_date": "Savings figures based on 2015 program data (page footnote)",
+      "retrieved_with": "WebFetch of company page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "ScriptSave WellRx says savings average 45% per prescription, based on 2015 program data",
+          "quote": "Savings average 45% per prescription ... based on all discounted prescriptions that were run through the WellRx program in 2015.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "ScriptSave says WellRx is accepted at over 62,000 pharmacies",
+          "quote": "Accepted nationwide at over 62,000 pharmacies.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "other_web",
+      "cited_as": "Lilly Cares Foundation. How to Apply (eligibility criteria). Accessed November 15, 2026.",
+      "url": "https://www.lillycares.com/how-to-apply",
+      "version_or_date": "Read 2026-11-15",
+      "retrieved_with": "WebFetch of program page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Lilly Cares requires permanent US residency (including Puerto Rico and the US Virgin Islands)",
+          "quote": "You are a permanent resident of the United States (inclusive of Puerto Rico and the U.S. Virgin Islands).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Lilly Cares has household income limits (financial-need program)",
+          "quote": "To qualify, your household annual income before taxes cannot be more than the values listed below.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "other_web",
+      "cited_as": "Eli Lilly and Company. Lilly Insulin Value Program (eligibility terms). Accessed November 15, 2026.",
+      "url": "https://insulins.lilly.com/lilly-insulin-value-program",
+      "version_or_date": "Read 2026-11-15",
+      "retrieved_with": "WebFetch of program page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Corrects the earlier page, which said visitors can use this program.",
+      "claims": [
+        {
+          "text": "Lilly insulins are $35 a month with commercial insurance or no insurance",
+          "quote": "all Lilly insulins are available for $35 a month whether you have commercial insurance or no insurance",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "The program requires US or US-territory residency and no enrollment in a government-funded health program; a short-term visitor does not meet the residency term",
+          "quote": "resident of the United States or a United States Territory ... You are not enrolled in any state, federal, or government funded healthcare program",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "agency_page",
+      "cited_as": "US Department of Health and Human Services, Office for Civil Rights. Personal Representatives (HIPAA Privacy Rule, 45 CFR 164.502(g)). Content last reviewed January 5, 2024. Accessed November 15, 2026.",
+      "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/personal-representatives/index.html",
+      "version_or_date": "Content last reviewed January 5, 2024",
+      "retrieved_with": "WebFetch of HHS page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "An adult child is a personal representative only with legal authority to make health care decisions, e.g., health care power of attorney, court-appointed guardian, or durable power of attorney covering health care decisions",
+          "quote": "A person with legal authority to make health care decisions on behalf of the individual ... Health care power of attorney ... Court appointed legal guardian ... General power of attorney or durable power of attorney that includes the power to make health care decisions",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Without that authority, 45 CFR 164.510(b) covers family members involved in the individual's care",
+          "quote": "family members or other persons who are involved in the individual's health care or payment for care",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "agency_page",
+      "cited_as": "US Department of Health and Human Services. HIPAA FAQ 263: Can a patient have a friend or family member pick up a prescription for her? Content last reviewed December 28, 2022. Accessed November 15, 2026.",
+      "url": "https://www.hhs.gov/hipaa/for-professionals/faq/263/can-a-patient-have-a-friend-or-family-member-pick-up-a-prescription/index.html",
+      "version_or_date": "Content last reviewed December 28, 2022",
+      "retrieved_with": "WebFetch of HHS FAQ page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "A pharmacist may use professional judgment to let a relative or friend pick up a filled prescription; names need not be given in advance",
+          "quote": "A pharmacist may use professional judgment and experience with common practice to make reasonable inferences of the patient's best interest in allowing a person, other that the patient, to pick up a prescription. ... The individual does not need to provide the pharmacist with the names of such persons in advance.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "agency_page",
+      "cited_as": "42 U.S.C. § 1396r-8(g)(2)(A)(ii) (patient counseling standards). United States Code, via GovInfo. Accessed November 15, 2026.",
+      "url": "https://www.govinfo.gov/link/uscode/42/1396r-8",
+      "version_or_date": "Current US Code as served by GovInfo, read 2026-11-15",
+      "retrieved_with": "WebFetch of govinfo.gov US Code link",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Federal law requires pharmacists to offer to discuss prescriptions with Medicaid patients",
+          "quote": "The pharmacist must offer to discuss with each individual receiving benefits under this subchapter",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Matters the pharmacist may discuss: name and description; route, dosage form, dosage, duration; special directions and precautions; common severe side effects, interactions and therapeutic contraindications; self-monitoring; storage; refills; missed dose",
+          "quote": "The name and description of the medication. ... Common severe side or adverse effects or interactions and therapeutic contraindications ... Techniques for self-monitoring drug therapy. Proper storage. Prescription refill information. Action to be taken in the event of a missed dose.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "journal",
+      "cited_as": "Schatz R, Belloto RJ, White DB, Bachmann K. Provision of drug information to patients by pharmacists: the impact of the Omnibus Budget Reconciliation Act of 1990 a decade later. Am J Ther. 2003;10(2):93-103. doi:10.1097/00045391-200303000-00004.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12629587/",
+      "pmid": "12629587",
+      "doi": "10.1097/00045391-200303000-00004",
+      "record_title": "Provision of drug information to patients by pharmacists: the impact of the Omnibus Budget Reconciliation Act of 1990 a decade later.",
+      "record_journal": "Am J Ther",
+      "record_year": "2003",
+      "article_type": "Journal Article (PubMed)",
+      "version_or_date": "Abstract via PubMed, read 2026-11-15",
+      "retrieved_with": "mcp__PubMed__get_article_metadata; mcp__Scite__verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Abstract only. Claims limited to the abstract. Scite: verified, no editorial notices, no contrasting evidence flagged.",
+      "claims": [
+        {
+          "text": "OBRA 1990 mandated counseling for Medicaid patients; implemented in 1993; most states extended counseling to all patients",
+          "quote": "The Omnibus Budget Reconciliation Act of 1990 (OBRA 1990) contained provisions for mandating such counseling to Medicaid patients. OBRA 1990 was implemented in 1993, but most states acted quickly to extend counseling services to all patients receiving prescription drugs.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "In the 2003 study (one hydrochlorothiazide test prescription), 69% of pharmacies offered counseling",
+          "quote": "We found that most (69%) pharmacies offered to provide prescription counseling service",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "agency_page",
+      "cited_as": "US Drug Enforcement Administration. Drug Scheduling. Accessed November 15, 2026.",
+      "url": "https://www.dea.gov/drug-information/drug-scheduling",
+      "version_or_date": "No page date shown; read 2026-11-15",
+      "retrieved_with": "WebFetch of DEA page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "DEA classifies controlled substances into five schedules",
+          "quote": "Drugs, substances, and certain chemicals used to make drugs are classified into five (5) distinct categories or schedules",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Schedule II includes Adderall and Ritalin; Schedule IV includes Xanax and Valium",
+          "quote": "fentanyl, Dexedrine, Adderall, and Ritalin ... Xanax, Soma, Darvon, Darvocet, Valium, Ativan, Talwin, Ambien, Tramadol",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "agency_page",
+      "cited_as": "Unique Identification Authority of India. Glossary. Government of India. Accessed November 15, 2026.",
+      "url": "https://uidai.gov.in/en/glossary",
+      "version_or_date": "Read 2026-11-15",
+      "retrieved_with": "WebFetch of UIDAI glossary",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "UIDAI defines Aadhaar as a 12-digit identification number; enrolment collects face photograph, ten fingerprints and iris images",
+          "quote": "Aadhaar is a 12 digit individual identification number issued by the Unique Identification Authority of India ... Biometric Information shall mean face photograph, ten finger prints and iris image of an individual seeking to enrol",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "agency_page",
+      "cited_as": "Instituto Nacional Electoral (Mexico). Credencial para Votar. Official information page. Accessed November 15, 2026.",
+      "url": "https://www.ine.mx/credencial/",
+      "version_or_date": "Read 2026-11-15",
+      "retrieved_with": "WebFetch of INE page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Page supports only that INE handles the Credencial para Votar; the CURP and US-recognition claims were cut.",
+      "claims": [
+        {
+          "text": "Mexico's Credencial para Votar is the voter credential handled by INE",
+          "quote": "Aquí encontrarás toda la información para llevar a cabo cualquier trámite de tu Credencial para Votar.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "kind": "other_web",
+      "cited_as": "Walmart. Prescriptions starting at $4 (program page). Company page. Accessed November 15, 2026.",
+      "url": "https://www.walmart.com/cp/4-prescriptions/1078664",
+      "version_or_date": "Read 2026-11-15",
+      "retrieved_with": "WebFetch of company page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Walmart says covered generics start at $4 for a 30-day supply and $10 for a 90-day supply",
+          "quote": "30-day supply of medications starting as low as $4. ... 90-day supply of medications starting as low as $10.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Prices for some drugs may vary by state, including California and Minnesota",
+          "quote": "may vary by state including, but not necessarily limited to, CA & MN",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Walmart publishes the program's medication list",
+          "quote": "U.S./PR medication list",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "kind": "other_web",
+      "cited_as": "Bacon A. Rite Aid closes all remaining stores after 63 years in business. CNN Wire, via ABC7 News San Francisco. October 4, 2025. Accessed November 15, 2026.",
+      "url": "https://abc7news.com/post/rite-aid-closes-remaining-stores-more-60-years-business/17937848/",
+      "version_or_date": "Published October 4, 2025",
+      "retrieved_with": "WebFetch of ABC7 News (CNN Wire) article",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Secondary news report quoting the company statement; consistent with multiple other news reports in search results.",
+      "claims": [
+        {
+          "text": "Rite Aid closed all of its remaining stores in 2025",
+          "quote": "\"All Rite Aid stores have now closed,\" the company said in a statement on its website.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "kind": "other_web",
+      "cited_as": "Amazon Pharmacy. Homepage. Company page. Accessed November 15, 2026.",
+      "url": "https://pharmacy.amazon.com/",
+      "version_or_date": "Read 2026-11-15",
+      "retrieved_with": "WebFetch of company page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Page gives no delivery time; the earlier 2 to 5 business days claim was cut.",
+      "claims": [
+        {
+          "text": "Amazon Pharmacy delivers medications to the door",
+          "quote": "deliver covered medications directly to your door",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "kind": "other_web",
+      "cited_as": "Mulcahy AW, Schwam D, Lovejoy SL. International Prescription Drug Price Comparisons: Estimates Using 2022 Data. RAND Corporation research report RR-A788-3, sponsored by the HHS Office of the Assistant Secretary for Planning and Evaluation. February 1, 2024. Accessed November 15, 2026.",
+      "url": "https://www.rand.org/pubs/research_reports/RRA788-3.html",
+      "version_or_date": "Published February 1, 2024; 2022 data",
+      "retrieved_with": "WebFetch of RAND report page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Government-sponsored (ASPE) research report, not a journal article. Comparison set is 33 high-income countries, so it does not describe India or Mexico; the page says so.",
+      "claims": [
+        {
+          "text": "Across all drugs, US prices were 278 percent of prices in 33 other high-income countries, 2022 data",
+          "quote": "Across all drugs, U.S. prices were 278 percent of other countries’ prices.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "US gross prices for brand-name originator drugs were 422 percent of comparison-country prices",
+          "quote": "U.S. gross prices for brand-name originator drugs were 422 percent of prices in comparison countries.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "The US had lower prices for unbranded generics than most comparison countries",
+          "quote": "The United States had lower prices for unbranded generics than most countries.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "kind": "other_web",
+      "cited_as": "Mark Cuban Cost Plus Drug Company (Cost Plus Drugs). Homepage and FAQ. Company page. Accessed November 15, 2026.",
+      "url": "https://costplusdrugs.com/",
+      "version_or_date": "Read 2026-11-15",
+      "retrieved_with": "WebFetch of company page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The earlier \"$5 dispensing fee\" and \"$4 to $10 for 30 days\" figures were not on the page and were cut.",
+      "claims": [
+        {
+          "text": "A new fill requires a prescription from a US-based provider",
+          "quote": "you will need to request a new prescription from your U.S.-based provider",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cost Plus publishes its price components: 15% markup and a pharmacy labor fee, with shipping added at checkout",
+          "quote": "15% Markup ... Pharmacy Labor ... *Additional cost at checkout",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "kind": "other_web",
+      "cited_as": "Novo Nordisk. NovoCare: Novo Nordisk Patient Assistance Program (PAP). Company page. Accessed November 15, 2026.",
+      "url": "https://www.novocare.com/diabetes/help-with-costs/pap.html",
+      "version_or_date": "Read 2026-11-15 (page notes 2026 product changes)",
+      "retrieved_with": "WebFetch of program page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Novo Nordisk's PAP requires US citizenship or legal residency, Medicare or no insurance, and qualifying household income",
+          "quote": "Be a US citizen or legal resident ... Have Medicare or no insurance ... Have a total household income that qualifies.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "kind": "other_web",
+      "cited_as": "Pfizer RxPathways. Find a Program. Company page. Accessed November 15, 2026.",
+      "url": "https://www.pfizerrxpathways.com/find-program",
+      "version_or_date": "Read 2026-11-15",
+      "retrieved_with": "WebFetch of program page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "No eligibility criteria on the page; the earlier \"requires US patient status\" claim was removed.",
+      "claims": [
+        {
+          "text": "Pfizer RxPathways says it connects eligible patients to assistance programs and that terms apply, but lists no criteria",
+          "quote": "connects eligible patients to a range of assistance programs ... *Terms and conditions apply.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "kind": "other_web",
+      "cited_as": "Sanofi. Sanofi Patient Connection, homepage. Company page. Accessed November 15, 2026.",
+      "url": "https://www.sanofipatientconnection.com/",
+      "version_or_date": "Read 2026-11-15",
+      "retrieved_with": "WebFetch of program page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Sanofi Patient Connection is for US residents only",
+          "quote": "This site is intended for use by U.S.residents only.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "It helps connect patients to certain Sanofi medications",
+          "quote": "help connect you at no cost to certain Sanofi medications, where eligible",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "kind": "other_web",
+      "cited_as": "Sanofi US. Sanofi expands patient affordability program by offering access to all its insulins for $35 per month in the US. Press release, September 26, 2025. Accessed November 15, 2026.",
+      "url": "https://www.news.sanofi.us/2025-09-26-Sanofi-expands-patient-affordability-program-by-offering-access-to-all-its-insulins-for-35-per-month-in-the-US",
+      "version_or_date": "Press release dated September 26, 2025",
+      "retrieved_with": "WebFetch of Sanofi press release",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Release does not address short-term visitors; the earlier claim that visitors can use the offer was replaced by a statement that Sanofi does not say.",
+      "claims": [
+        {
+          "text": "All Sanofi insulins at $35 for a 30-day supply for patients in the US with a valid prescription, beginning January 1, 2026",
+          "quote": "30-day supply of any Sanofi insulin for $35 to all patients in the US with a valid prescription ... beginning January 1, 2026",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Enrollment runs through Sanofi Patient Connection; Sanofi does not say whether short-term visitors qualify",
+          "quote": "Patients can enroll at Sanofi Patient Connection",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "kind": "agency_page",
+      "cited_as": "US Health Resources and Services Administration, Office of Pharmacy Affairs. 340B Drug Pricing Program. Accessed November 15, 2026.",
+      "url": "https://www.hrsa.gov/opa",
+      "version_or_date": "Read 2026-11-15",
+      "retrieved_with": "WebFetch of HRSA OPA page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "HRSA-supported health centers are covered entities; manufacturers agree to provide outpatient drugs at significantly reduced prices",
+          "quote": "agree to provide outpatient drugs to covered entities at significantly reduced prices ... HRSA-supported health centers and look-alikes",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "kind": "agency_page",
+      "cited_as": "US Health Resources and Services Administration. Get Health Care. Date last reviewed May 2022. Accessed November 15, 2026.",
+      "url": "https://www.hrsa.gov/get-health-care",
+      "version_or_date": "Date last reviewed May 2022",
+      "retrieved_with": "WebFetch of HRSA page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Earlier claims that health centers treat patients regardless of immigration status and accept self-declared income were not on the page and were cut.",
+      "claims": [
+        {
+          "text": "Health centers provide care whether or not patients have insurance",
+          "quote": "Health centers provide primary medical and dental care to people of all ages, whether or not they have health insurance.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Services are on a sliding fee scale based on ability to pay",
+          "quote": "Services are provided on a sliding fee scale, based on your ability to pay.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "kind": "agency_page",
+      "cited_as": "US Food and Drug Administration. How to Buy Medicines Safely From an Online Pharmacy. Consumer Update; content current as of January 2, 2025. Accessed November 15, 2026.",
+      "url": "https://www.fda.gov/consumers/consumer-updates/how-buy-medicines-safely-online-pharmacy",
+      "version_or_date": "Content current as of 01/02/2025",
+      "retrieved_with": "WebFetch of FDA consumer update",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Replaces the BeSafeRx landing page, which only links onward and does not list warning signs or mention NABP.",
+      "claims": [
+        {
+          "text": "Unsafe online pharmacies may not require a prescription; safe ones always require one",
+          "quote": "Do not require a doctor's prescription. ... Always require a doctor's prescription.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Warning signs: not licensed in the US and by the state board; no licensed pharmacist; deep discounts",
+          "quote": "Are not licensed in the U.S. and by your state board of pharmacy. ... Do not have a licensed pharmacist on staff to answer your questions. ... Offer deep discounts or prices that seem too good to be true.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Unsafe sites may suggest their medicines come from countries with high safety standards when they could have been made anywhere",
+          "quote": "make you think their medicines come from countries with high safety standards ... could have been made anywhere",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "kind": "agency_page",
+      "cited_as": "US Federal Trade Commission, Consumer Advice. Avoiding and Reporting Gift Card Scams. Last modified June 9, 2026. Accessed November 15, 2026.",
+      "url": "https://consumer.ftc.gov/articles/avoiding-and-reporting-gift-card-scams",
+      "version_or_date": "Last modified June 9, 2026",
+      "retrieved_with": "WebFetch of FTC consumer page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Only scammers ask for payment by gift card",
+          "quote": "Only scammers will tell you to buy a gift card",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "kind": "other_web",
+      "cited_as": "Safe.Pharmacy. Safe Site Search Tool, homepage. Accessed November 15, 2026.",
+      "url": "https://safe.pharmacy/",
+      "version_or_date": "Read 2026-11-15",
+      "retrieved_with": "WebFetch of safe.pharmacy",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Page does not state who operates it, so the guide no longer attributes it to NABP.",
+      "claims": [
+        {
+          "text": "Safe.Pharmacy lets you enter a website URL to verify it before buying",
+          "quote": "Enter a website URL to verify before you buy using the Safe Site Search Tool.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

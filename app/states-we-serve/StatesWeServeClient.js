@@ -1,5 +1,25 @@
 'use client';
 import { useState, useEffect, useRef, useCallback } from 'react';
+import { darkCSS } from '../../lib/dark-css';
+import { getInsuranceStateCount } from '../../lib/insurance-data';
+
+// Dark theme: swap the page palette and turn the white cards dark. The navy
+// hero keeps its color.
+const SWS_DARK = darkCSS(`
+DARK .sws-root{
+  --sws-teal:#2bc4cf;--sws-teal-deep:#1a9aa4;--sws-navy:#a0d8e8;
+  --sws-cream:#0f1f24;--sws-warm-white:#0d1c22;--sws-sand:#1f3540;
+  --sws-text:#e2edf0;--sws-text-secondary:#b4c6cd;--sws-text-tertiary:#9fb6bf;
+  --sws-border:rgba(160,216,232,0.16);--sws-border-strong:rgba(160,216,232,0.28);
+  --sws-shadow-xs:0 1px 3px rgba(0,0,0,0.4);--sws-shadow-sm:0 2px 8px rgba(0,0,0,0.45);
+  --sws-shadow-md:0 8px 24px rgba(0,0,0,0.5);
+}
+DARK .sws-card,DARK .sws-dir-card,DARK .sws-faq-item,DARK .sws-map-popup{background:#122028;}
+DARK .sws-section-header h2,DARK .sws-popup-header h3,DARK .sws-card-header h3,DARK .sws-dir-card h4{color:#e2edf0;}
+DARK .sws-popup-close:hover,DARK .sws-popup-tag:hover,DARK .sws-tag:hover{color:#04252b;}
+DARK .sws-popup-cta,DARK .sws-btn-primary{color:#1a0b06;}
+DARK .sws-filter-select{background-image:url("data:image/svg+xml,%3Csvg width='12' height='8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1.5L6 6.5l5-5' stroke='%23a0d8e8' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");}
+`);
 
 /* ── FIPS-to-abbr map for the D3 map ── */
 const FIPS_TO_ABBR = {'01':'AL','02':'AK','04':'AZ','05':'AR','06':'CA','08':'CO','09':'CT','10':'DE','11':'DC','12':'FL','13':'GA','15':'HI','16':'ID','17':'IL','18':'IN','19':'IA','20':'KS','21':'KY','22':'LA','23':'ME','24':'MD','25':'MA','26':'MI','27':'MN','28':'MS','29':'MO','30':'MT','31':'NE','32':'NV','33':'NH','34':'NJ','35':'NM','36':'NY','37':'NC','38':'ND','39':'OH','40':'OK','41':'OR','42':'PA','44':'RI','45':'SC','46':'SD','47':'TN','48':'TX','49':'UT','50':'VT','51':'VA','53':'WA','54':'WV','55':'WI','56':'WY'};
@@ -43,11 +63,11 @@ export default function StatesWeServeClient({
       name: s.name,
       slug: s.slug,
       conditions: [
-        ['UTI', `/${s.slug}/uti-treatment-online`],
-        ['Sinus Infection', `/${s.slug}/sinus-infection-treatment-online`],
-        ['Influenza', `/${s.slug}/influenza-treatment-online`],
-        ['Pink Eye', `/${s.slug}/pink-eye-treatment-online`],
-        ['BV', `/${s.slug}/bv-treatment-online`],
+        ['UTI (women only)', `/${s.slug}/uti-treatment-online/`],
+        ['Sinus Infection', `/${s.slug}/sinus-infection-treatment-online/`],
+        ['Influenza', `/${s.slug}/influenza-treatment-online/`],
+        ['Pink Eye', `/${s.slug}/pink-eye-treatment-online/`],
+        ['BV', `/${s.slug}/bv-treatment-online/`],
       ],
     };
   });
@@ -191,13 +211,13 @@ export default function StatesWeServeClient({
 
   /* ── FAQ items (dynamic state names) ── */
   const faqItems = [
-    { q: 'What states does TeleDirectMD serve?', a: `TeleDirectMD physicians are licensed and available in 40+ U.S. states and territories, including ${stateNamesList}. We are actively expanding to additional states.` },
-    { q: 'How much does a TeleDirectMD visit cost?', a: 'TeleDirectMD self-pay visits are a flat $79 — no hidden fees and no surprise charges. This includes your full video consultation with a board-certified physician and any prescriptions sent to your pharmacy if clinically appropriate. We also accept select insurance plans (Aetna, Blue Cross Blue Shield, and UnitedHealthcare) in a growing number of states — standard copays apply.' },
-    { q: 'Do I need insurance to use TeleDirectMD?', a: 'No. Insurance is never required. You can always book a $79 self-pay visit with no insurance filing and no prior authorization. However, we now accept select commercial insurance plans in 13 states. Visit our Insurance page to check if your plan is covered.' },
-    { q: 'What conditions does TeleDirectMD treat?', a: `TeleDirectMD treats a wide range of conditions via video visits, including virtual urgent care (UTIs, sinus infections, influenza, COVID-19, sore throat, pink eye, ear pain), women\u2019s health (bacterial vaginosis, yeast infections), men\u2019s health, skin conditions (acne, eczema, cellulitis, shingles, cold sores), and medication refills (migraine, asthma, GERD). Visit our <a href="/what-we-treat">What We Treat</a> page for the complete list.` },
-    { q: 'How do I book a TeleDirectMD appointment?', a: 'Booking takes about 2 minutes. Visit <a href="/book-online">teledirectmd.com/book-online</a>, select your condition and preferred time, confirm your state of residence, and complete the $79 payment. Same-day appointments are available 7 days a week. No app download required.' },
+    { q: 'What states does TeleDirectMD serve?', a: `Dr. Bhavsar is licensed and available in 40+ U.S. states and territories, including ${stateNamesList}. We are actively expanding to additional states.` },
+    { q: 'How much does a TeleDirectMD visit cost?', a: 'TeleDirectMD self-pay visits are a flat $79 — no hidden fees and no hidden fees. This includes your full video consultation with a board-certified physician and any prescriptions sent to your pharmacy if clinically appropriate. We also accept select insurance plans (Aetna, Blue Cross Blue Shield, and UnitedHealthcare) in a growing number of states — standard copays apply.' },
+    { q: 'Do I need insurance to use TeleDirectMD?', a: `No. Insurance is never required. You can always book a $79 self-pay visit with no insurance filing and no prior authorization. However, we now accept select commercial insurance plans in ${getInsuranceStateCount()} states. Visit our Insurance page to check if your plan is covered.` },
+    { q: 'What conditions does TeleDirectMD treat?', a: `TeleDirectMD treats a wide range of conditions via video visits, including virtual urgent care (UTIs (women only), sinus infections, influenza, COVID-19, sore throat, pink eye, ear pain), women\u2019s health (bacterial vaginosis, yeast infections), men\u2019s health, skin conditions (acne, eczema, cellulitis, shingles, cold sores), and medication refills (migraine, asthma, GERD). Visit our <a href="/what-we-treat/">What We Treat</a> page for the complete list.` },
+    { q: 'How do I book a TeleDirectMD appointment?', a: 'Booking takes about 2 minutes. Visit <a href="/book-online/">teledirectmd.com/book-online</a>, select your condition and preferred time, confirm your state of residence, and complete the $79 payment. Same-day appointments are available 7 days a week. No app download required.' },
     { q: 'Do I have to be physically located in a licensed state during my visit?', a: "Yes. Per state medical licensing regulations, you must be physically present in one of TeleDirectMD\u2019s licensed states at the time of your video visit. You will be asked to confirm your current physical location during booking and again at the start of your consultation." },
-    { q: 'Are TeleDirectMD doctors board-certified?', a: 'Yes. TeleDirectMD is an MD-only practice. Every consultation is conducted by a board-certified physician — not a nurse practitioner or physician assistant. Our physicians hold active medical licenses in every state where we operate.' },
+    { q: 'Are TeleDirectMD doctors board-certified?', a: 'Yes. TeleDirectMD is an MD-only practice. Every consultation is conducted by a board-certified physician — not a nurse practitioner or physician assistant. Dr. Bhavsar holds an active medical license in every state where we operate.' },
     { q: 'Can TeleDirectMD prescribe medication?', a: 'Yes. When clinically appropriate, your physician can prescribe medications and send them electronically to the pharmacy of your choice. Prescription costs are separate from the $79 visit fee and depend on your pharmacy and medication. TeleDirectMD does not prescribe controlled substances.' },
   ];
 
@@ -224,7 +244,7 @@ export default function StatesWeServeClient({
           Licensed Physician-Led Telemedicine
         </div>
         <h1 id="tdmd-hero-title">States <em>We Serve</em></h1>
-        <p className="tdmd-hero-sub">Board-certified physicians delivering secure video consultations to adults 18+ across 40+ U.S. states and territories. Same-day appointments, transparent pricing, select insurance plans accepted.</p>
+        <p className="tdmd-hero-sub">A board-certified physician delivering secure video consultations to adults 18+ across 40+ U.S. states and territories. Same-day appointments, transparent pricing, select insurance plans accepted.</p>
         <div className="sws-stats-row">
           <div className="sws-stat-chip">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -244,9 +264,9 @@ export default function StatesWeServeClient({
           </div>
         </div>
         <div className="sws-hero-ctas">
-          <a href="/book-online" className="sws-btn sws-btn-primary">Book Your $79 Visit <ArrowIcon /></a>
-          <a href="/what-we-treat" className="sws-btn sws-btn-ghost">View All Conditions</a>
-          <a href="/insurance" className="sws-btn sws-btn-ghost">Insurance & Pricing</a>
+          <a href="/book-online/" className="sws-btn sws-btn-primary">Book Your $79 Visit <ArrowIcon /></a>
+          <a href="/what-we-treat/" className="sws-btn sws-btn-ghost">View All Conditions</a>
+          <a href="/insurance/" className="sws-btn sws-btn-ghost">Insurance & Pricing</a>
         </div>
         <div className="sws-emergency">
           <WarningIcon />
@@ -263,7 +283,7 @@ export default function StatesWeServeClient({
               Coverage Map
             </div>
             <h2>Where We Practice</h2>
-            <p className="sws-section-desc">Our physicians hold active medical licenses in every highlighted state. Click any teal state to see available conditions and book a visit.</p>
+            <p className="sws-section-desc">Dr. Bhavsar holds an active medical license in every highlighted state. Click any teal state to see available conditions and book a visit.</p>
           </div>
           <div className="sws-map-container">
             <div className="sws-map-legend">
@@ -296,7 +316,7 @@ export default function StatesWeServeClient({
                       <a key={name} href={href} className="sws-popup-tag">{name}</a>
                     ))}
                   </div>
-                  <a href="/book-online" className="sws-popup-cta">Book a Visit <SmallArrowIcon /></a>
+                  <a href="/book-online/" className="sws-popup-cta">Book a Visit <SmallArrowIcon /></a>
                 </div>
               )}
               {/* Noscript fallback */}
@@ -306,7 +326,7 @@ export default function StatesWeServeClient({
                   <ul style={{ columns: 3, columnGap: 24, listStyle: 'none', padding: 0, margin: 0 }}>
                     {allStates.map(s => (
                       <li key={s.abbr} style={{ breakInside: 'avoid', padding: '6px 0', fontSize: 14 }}>
-                        <strong>{s.name}</strong> — <a href={`/${s.slug}`} style={{ color: '#006B73' }}>View conditions</a>
+                        <strong>{s.name}</strong> — <a href={`/${s.slug}/`} style={{ color: '#006B73' }}>View conditions</a>
                       </li>
                     ))}
                   </ul>
@@ -403,7 +423,7 @@ export default function StatesWeServeClient({
                 </div>
               </div>
               <div className="sws-card-footer">
-                <a href="/what-we-treat" className="sws-card-link">View all treatments <SmallArrowIcon /></a>
+                <a href="/what-we-treat/" className="sws-card-link">View all treatments <SmallArrowIcon /></a>
               </div>
             </article>
           ))}
@@ -417,16 +437,16 @@ export default function StatesWeServeClient({
               Complete Directory
             </div>
             <h2>All Licensed States</h2>
-            <p className="sws-section-desc">TeleDirectMD physicians are licensed and available for $79 video consultations in every state listed below. Conditions shown are representative — <a href="/what-we-treat" style={{ color: 'var(--sws-teal)', fontWeight: 600, textDecoration: 'none', borderBottom: '1px solid rgba(0,107,115,0.25)' }}>view our full conditions list</a>.</p>
+            <p className="sws-section-desc">Dr. Bhavsar is licensed and available for $79 video consultations in every state listed below. Conditions shown are representative — <a href="/what-we-treat/" style={{ color: 'var(--sws-teal)', fontWeight: 600, textDecoration: 'none', borderBottom: '1px solid rgba(0,107,115,0.25)' }}>view our full conditions list</a>.</p>
           </div>
           <div className="sws-directory-grid">
             {directoryStates.map(s => (
               <div key={s.slug} className="sws-dir-card">
-                <h4>{s.name}</h4>
+                <h4><a href={`/${s.slug}/`} style={{ color: 'inherit', textDecoration: 'none' }}>{s.name}</a></h4>
                 <div className="sws-dir-card-conditions">
-                  {['UTI', 'Sinus Infection', 'Influenza', 'Pink Eye', 'BV'].map(c => <span key={c} className="sws-dir-tag">{c}</span>)}
+                  {['UTI (women only)', 'Sinus Infection', 'Influenza', 'Pink Eye', 'BV'].map(c => <span key={c} className="sws-dir-tag">{c}</span>)}
                 </div>
-                <a href="/book-online" className="sws-dir-cta">Book a visit <SmallArrow14 /></a>
+                <a href="/book-online/" className="sws-dir-cta">Book a visit <SmallArrow14 /></a>
               </div>
             ))}
           </div>
@@ -462,7 +482,7 @@ export default function StatesWeServeClient({
         {/* ═══ FOOTER NOTE ═══ */}
         <div className="sws-footer-note">
           <p><strong>Important:</strong> You must be physically located in a licensed state at the time of your visit. You will be asked to confirm your location during booking and again at the start of your video visit.</p>
-          <p><a href="/book-online">Book your $79 visit now</a> · <a href="/insurance">Check insurance coverage</a> · <a href="/faq">Learn more about our services</a> · Questions? Email <a href="mailto:contact@teledirectmd.com">contact@teledirectmd.com</a>.</p>
+          <p><a href="/book-online/">Book your $79 visit now</a> · <a href="/insurance/">Check insurance coverage</a> · <a href="/faq/">Learn more about our services</a> · Questions? Email <a href="mailto:contact@teledirectmd.com">contact@teledirectmd.com</a>.</p>
         </div>
       </div>
     </section>
@@ -474,7 +494,7 @@ export default function StatesWeServeClient({
    ═══════════════════════════════════════════════════ */
 function Styles() {
   return (
-    <style>{`
+    <style dangerouslySetInnerHTML={{ __html: `
 /* ── Variables ── */
 .sws-root {
   --sws-teal: #006B73;
@@ -693,6 +713,7 @@ function Styles() {
 @media(prefers-reduced-motion:reduce) {
   .sws-root *, .sws-root *::before, .sws-root *::after { animation-duration:0.01ms !important; transition-duration:0.01ms !important; }
 }
-`}</style>
+${SWS_DARK}
+` }} />
   );
 }

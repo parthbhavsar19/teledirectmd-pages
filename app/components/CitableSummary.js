@@ -100,7 +100,11 @@ export function CitableSummaryBlock({
   visualMode = 'sr-only', // 'sr-only' (default) | 'visible'
 }) {
   if (!summary || !summary.question || !summary.answerHtml) return null;
-  const reviewed = formatReviewed(dateModified || DEFAULT_REVIEWED);
+  // Prefer the caller's date, then the JSON-LD's own dateModified, so the visible
+  // line never contradicts the page's structured data.
+  const ldDate = jsonLd && (jsonLd.dateModified
+    || (Array.isArray(jsonLd['@graph']) && jsonLd['@graph'][0] && jsonLd['@graph'][0].dateModified));
+  const reviewed = formatReviewed(dateModified || ldDate || DEFAULT_REVIEWED);
   const isSrOnly = visualMode === 'sr-only' || visualMode === 'hidden';
   const containerStyle = isSrOnly ? SR_ONLY_STYLE : VISIBLE_STYLE;
   return (
@@ -128,7 +132,10 @@ export function CitableSummaryBlock({
           {reviewed ? ` · Updated ${reviewed}` : ''}
         </div>
       </section>
-      {jsonLd && (
+      {/* 2026-11-03: no JSON-LD for the hidden (sr-only) mode. Google's structured
+          data policy: "Don't mark up content that is not visible to readers of
+          the page." FAQ rich results also stopped showing on May 7, 2026. */}
+      {jsonLd && !isSrOnly && (
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

@@ -1,0 +1,603 @@
+{
+ "guide": "gout-vs-pseudogout-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 8 verified (all 8 DOIs), retractions: none. The 2 AFP references have no DOI; Scite could not match their reference text (could_not_verify), and both were confirmed by PubMed record with no Retracted Publication type. Contrasting-evidence flags on refs 3, 5, 6 and 7 do not bear on the claims cited.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "journal",
+   "cited_as": "Rosenthal AK, Ryan LM. Calcium Pyrophosphate Deposition Disease. New England Journal of Medicine. 2016;374(26):2575-2584. doi:10.1056/NEJMra1511117. PMID: 27355536.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27355536/",
+   "pmid": "27355536",
+   "pmcid": "PMC6240444",
+   "doi": "10.1056/NEJMra1511117",
+   "record_title": "Calcium Pyrophosphate Deposition Disease.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2016",
+   "article_type": "Review",
+   "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC6240444)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite verify_papers: verified, no editorial notices, no contrasting evidence flagged. PubMed article types: Journal Article, Review (no Retracted Publication). Does not state that serum urate is usually normal in CPPD and does not list thyroid disease; both claims removed.",
+   "claims": [
+    {
+     "text": "CPPD is arthritis caused by calcium pyrophosphate crystals; formerly called pseudogout",
+     "quote": "Calcium pyrophosphate deposition (CPPD) disease is arthritis caused by calcium pyrophosphate (CPP) crystals (). Until recently, CPPD disease has been referred to as pseudogout.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "acute pseudogout attack can be indistinguishable from gout or joint infection; warmth, redness, swelling",
+     "quote": "The vigorous inflammatory response to CPP crystals manifests as warmth, erythema, and swelling in and around the affected joint, and the clinical picture is often indistinguishable from acute gouty arthritis or septic arthritis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "knee most common, then wrist; acute big-toe attack rare",
+     "quote": "The knee is the most commonly involved joint, followed by the wrist; acute podagra in the first metatarsophalangeal joint is rare.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "chronic CPPD favors shoulder, wrist and MCP joints",
+     "quote": "The involvement of joints such as the glenohumeral joint, the wrist, and the metacarpophalangeal joints, which are not often affected by typical osteoarthritis, should lead one to suspect the presence of CPPD disease",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "fever and chills can occur with a pseudogout attack",
+     "quote": "Systemic symptoms including fevers, chills, and constitutional symptoms often occur with acute CPP crystal arthritis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "pseudogout attacks may last weeks to months, longer than gout attacks",
+     "quote": "In contrast to the brief attacks of acute gouty arthritis that typically last for several days to 1 week, acute attacks of CPPD disease may last for weeks to months.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "CPP crystals form in cartilage; rarely form outside cartilage",
+     "quote": "the formation of CPP crystals in the pericellular matrix of cartilage is the essential first step in the disease process (). CPP crystals rarely form in noncartilaginous tissues.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "pyrophosphate plays a role in CPPD analogous to urate in gout (not driven by urate)",
+     "quote": "Inorganic pyrophosphate plays a central role in CPPD that is analogous to that of urate in gout and may be a key therapeutic target.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "rare before 60; X-ray chondrocalcinosis doubles each decade over 60; 44% over 84",
+     "quote": "rare in patients younger than 60 years of age. ... chondrocalcinosis is detected in 44% of patients older than 84 years of age; the prevalence doubles with each decade over 60 years of age.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "joint injury raises risk",
+     "quote": "Previous trauma to the joint is also a strong risk factor for CPPD.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "associations: hyperparathyroidism, hemochromatosis, hypomagnesemia, hypophosphatasia; screening especially under 60",
+     "quote": "CPPD disease can be a presenting sign of hyperparathyroidism, hypophosphatasia, hemochromatosis, or hypomagnesemia. Screening is indicated for these conditions, particularly in patients younger than 60 years of age who present with CPPD disease.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "up to 5% of people with gout have CPP crystals in joint fluid (coexistence)",
+     "quote": "As many as 5% of patients with gout have CPP crystals in their synovial fluid,which supports the hypothesis that these diseases share common local and systemic risk factors.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "screening blood tests: iron studies, calcium, alkaline phosphatase, parathyroid hormone",
+     "quote": "We recommend iron studies, including measurement of iron, transferrin, and ferritin levels, as well as measurement of levels of serum calcium, alkaline phosphatase, and parathyroid hormone.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "attacks follow acute illness, joint injury, surgery; no known dietary associations",
+     "quote": "Acute attacks of CPPD disease often occur in the context of acute illness or joint trauma or in the postoperative period, particularly after parathyroidectomyor hip-fracture repair.There are no known dietary associations of CPPD disease.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "CPP crystals positively birefringent, rhomboid; often weakly birefringent",
+     "quote": "CPPD disease is most accurately diagnosed by the finding of positively birefringent, rhomboid-shaped crystals in synovial fluid from the affected joint (). ... these crystals are small and often show weak birefringence.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "red-filter color pattern: CPP blue parallel/yellow perpendicular; urate opposite",
+     "quote": "CPP crystals appear blue when they are parallel to the axis of the polarizer and yellow when they are perpendicular. In contrast, monosodium urate crystals appear yellow when they are parallel ... and blue when they are perpendicular.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "diagnosis confirmed by crystals; joint pattern is a clue",
+     "quote": "Along with other findings, the distribution of joint involvement may provide a helpful clue with regard to the presence of acute CPP crystal arthritis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "chondrocalcinosis on X-ray supports but does not replace crystal diagnosis",
+     "quote": "Although chondrocalcinosis is the radiographic finding that is most closely aligned with CPPD disease, it should not be used as a sole diagnostic criterion in the absence of clinical arthritis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "acute treatment: intra-articular steroid often first-line; colchicine, NSAIDs, systemic steroids alternatives",
+     "quote": "Intraarticular glucocorticoids work well for patients with acute CPP crystal arthritis, and this treatment is typically recommended as first-line therapy for joints that are amenable to injection.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "NSAIDs and systemic glucocorticoids used for acute flares",
+     "quote": "Nonsteroidal antiinflammatory drugs (NSAIDs), given at antiinflammatory daily doses and preferably used along with gastroprotection, may be effective for treating acute flares. Systemic glucocorticoids are also frequently used",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "no urate-lowering or disease-modifying drug for CPPD",
+     "quote": "Unlike the case with gout, in which long-term therapies reduce the urate burden, no current disease-modulating treatments are available for CPPD disease.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "low-dose colchicine may reduce recurrences",
+     "quote": "The daily use of oral colchicine at a low dose (0.6 to 1.2 mg) may be useful in reducing the frequency of acute attacks.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "rare tumor-like soft tissue CPP deposits (tophi FAQ)",
+     "quote": "Rarely, tumoral deposits of CPP crystals occur in soft tissues, where they can cause considerable tissue damage and may be mistaken for cancers.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "fever with a hot joint should not be assumed to be crystal arthritis without evaluation (fever can occur in pseudogout; picture indistinguishable from septic arthritis)",
+     "quote": "the clinical picture is often indistinguishable from acute gouty arthritis or septic arthritis.",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "guideline",
+   "cited_as": "Zhang W, Doherty M, Pascual E, et al. EULAR recommendations for calcium pyrophosphate deposition. Part II: management. Annals of the Rheumatic Diseases. 2011;70(4):571-575. doi:10.1136/ard.2010.139360. PMID: 21257614.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21257614/",
+   "pmid": "21257614",
+   "doi": "10.1136/ard.2010.139360",
+   "record_title": "EULAR recommendations for calcium pyrophosphate deposition. Part II: management.",
+   "record_journal": "Ann Rheum Dis",
+   "record_year": "2011",
+   "article_type": "Consensus Statement; Practice Guideline",
+   "version_or_date": "EULAR 2011 (published Jan 2011)",
+   "retrieved_with": "PubMed get_article_metadata (abstract only)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only; claims limited to the abstract. Joint-distribution, epidemiology and metabolic-association citations to this ref were removed (moved to refs 1 and 6). Scite: verified, no notices.",
+   "claims": [
+    {
+     "text": "acute attack: cool packs, rest, aspiration plus steroid injection often sufficient",
+     "quote": "For acute CPP crystal arthritis, cool packs, temporary rest and joint aspiration combined with steroid injection are often sufficient.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "prophylaxis/recurrences: NSAID or low-dose colchicine",
+     "quote": "For prophylaxis or chronic inflammatory arthritis with CPPD, oral non-steroidal anti-inflammatory drugs with gastroprotective treatment and/or low-dose colchicine 0.5-1.0 mg daily may be used.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "oral or parenteral corticosteroid for acute attacks",
+     "quote": "Other recommendations included parenteral or oral corticosteroid for acute CPP arthritis in those unresponsive or unsuited to other measures",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "guideline",
+   "cited_as": "FitzGerald JD, Dalbeth N, Mikuls T, et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care & Research. 2020;72(6):744-760. doi:10.1002/acr.24180. PMID: 32391934.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/",
+   "pmid": "32391934",
+   "pmcid": "PMC10563586",
+   "doi": "10.1002/acr.24180",
+   "record_title": "2020 American College of Rheumatology Guideline for the Management of Gout.",
+   "record_journal": "Arthritis Care Res (Hoboken)",
+   "record_year": "2020",
+   "article_type": "Practice Guideline",
+   "version_or_date": "ACR 2020 guideline",
+   "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC10563586). The PMC web page showed a bot check to WebFetch and was not routed around.",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Guideline covers gout only; all pseudogout, podagra and typical-urate-value claims previously cited here were removed. Scite verified; one contrasting citation (ULT deprescribing in dialysis) does not bear on the claims cited.",
+   "claims": [
+    {
+     "text": "hyperuricemia defined as serum urate 6.8 mg/dL or higher",
+     "quote": "asymptomatic hyperuricemia, which is defined as an SU concentration of ≥6.8 mg/dl with no prior gout flares or subcutaneous tophi.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "serum urate target below 6 mg/dL on urate-lowering therapy",
+     "quote": "Achieving and maintaining an SU target of <6 mg/dl over the use of no target is strongly recommended for all patients receiving ULT.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "allopurinol preferred first-line urate-lowering drug",
+     "quote": "Treatment with allopurinol as the preferred first-line agent, over all other ULTs, is strongly recommended for all patients, including those with moderate-to-severe CKD (stage ≥3).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "gout flares: colchicine, NSAIDs or glucocorticoids first-line",
+     "quote": "Using colchicine, NSAIDs, or glucocorticoids (oral, intraarticular, or intramuscular) as appropriate first-line therapy for gout flares over IL-1 inhibitors or adrenocorticotropic hormone (ACTH) is strongly recommended",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "alcohol linked to gout flares",
+     "quote": "consuming >1–2 alcoholic beverage servings in the prior 24 hours was associated with a 40% higher risk of gout flare than periods without alcohol consumption, with a dose-response relationship",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "purine-rich foods linked to gout flares",
+     "quote": "there was a dose-response relationship between increasing purine intake and risk of gout flare",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Newberry SJ, FitzGerald JD, Motala A, et al. Diagnosis of Gout: A Systematic Review in Support of an American College of Physicians Clinical Practice Guideline. Annals of Internal Medicine. 2017;166(1):27-36. doi:10.7326/M16-0462. PMID: 27802505.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27802505/",
+   "pmid": "27802505",
+   "doi": "10.7326/M16-0462",
+   "record_title": "Diagnosis of Gout: A Systematic Review in Support of an American College of Physicians Clinical Practice Guideline.",
+   "record_journal": "Ann Intern Med",
+   "record_year": "2017 (epub Nov 2016)",
+   "article_type": "Systematic Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract only)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. Septic-arthritis, birefringence and pseudogout claims previously cited here were moved to refs 1, 6, 8, 10, 13. Scite verified, no notices.",
+   "claims": [
+    {
+     "text": "ultrasound double contour sign and dual-energy CT useful but imperfect for gout",
+     "quote": "Three studies of dual-energy computed tomography (DECT) showed sensitivities of 85% to 100% and specificities of 83% to 92% ... (pooled sensitivity and specificity for the double contour sign: 74% ... and 88%",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Kuo CF, Grainge MJ, Zhang W, Doherty M. Global epidemiology of gout: prevalence, incidence and risk factors. Nature Reviews Rheumatology. 2015;11(11):649-662. doi:10.1038/nrrheum.2015.91. PMID: 26150127.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26150127/",
+   "pmid": "26150127",
+   "doi": "10.1038/nrrheum.2015.91",
+   "record_title": "Global epidemiology of gout: prevalence, incidence and risk factors.",
+   "record_journal": "Nat Rev Rheumatol",
+   "record_year": "2015",
+   "article_type": "Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract only)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. Sex/age specifics and the age chart previously cited here were removed (sex/age now cited to NIAMS, risk factors to AAFP ref 9). Scite verified; contrasting citation about gout risk in immigrants does not bear on claims cited.",
+   "claims": [
+    {
+     "text": "gout results from chronic elevation of uric acid above the saturation point (high urate drives gout)",
+     "quote": "Gout is a crystal-deposition disease that results from chronic elevation of uric acid levels above the saturation point for monosodium urate (MSU) crystal formation.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "tophi are a feature of long-standing gout",
+     "quote": "joint damage and deformity, chronic usage-related pain and subcutaneous tophus deposition can eventually develop.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "guideline",
+   "cited_as": "Zhang W, Doherty M, Bardin T, et al. European League Against Rheumatism recommendations for calcium pyrophosphate deposition. Part I: terminology and diagnosis. Annals of the Rheumatic Diseases. 2011;70(4):563-570. doi:10.1136/ard.2010.139105. PMID: 21216817.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21216817/",
+   "pmid": "21216817",
+   "doi": "10.1136/ard.2010.139105",
+   "record_title": "European League Against Rheumatism recommendations for calcium pyrophosphate deposition. Part I: terminology and diagnosis.",
+   "record_journal": "Ann Rheum Dis",
+   "record_year": "2011",
+   "article_type": "Consensus Statement; Practice Guideline",
+   "version_or_date": "EULAR 2011 (published Jan 2011)",
+   "retrieved_with": "PubMed get_article_metadata (abstract only)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added in repair. Abstract only. Scite verified; one contrasting citation concerns the RA-chondrocalcinosis association, which the guide does not cite.",
+   "claims": [
+    {
+     "text": "definitive diagnosis of CPPD relies on CPP crystals in joint fluid",
+     "quote": "Definitive diagnosis of CPPD relies on identification of SF CPP crystals.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "risk factors: ageing, OA, hyperparathyroidism, haemochromatosis, hypomagnesaemia",
+     "quote": "Recognised risk factors for CPPD include ageing, OA and metabolic conditions such as primary hyperparathyroidism, haemochromatosis and hypomagnesaemia; familial forms are rare.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "X-ray chondrocalcinosis not highly sensitive or specific; ultrasound more useful in peripheral joints",
+     "quote": "Radiographic CC is not highly sensitive or specific, whereas ultrasonography appears more useful (LR=24.2, 95% CI 3.51 to 168.01) for peripheral joints.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "chondrocalcinosis is cartilage calcification mostly due to CPPD",
+     "quote": "Chondrocalcinosis (CC) defines cartilage calcification, most commonly due to CPPD and detected by imaging or histological examination.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "guideline",
+   "cited_as": "Abhishek A, Tedeschi SK, Pascart T, et al. The 2023 ACR/EULAR classification criteria for calcium pyrophosphate deposition disease. Annals of the Rheumatic Diseases. 2023;82(10):1248-1257. doi:10.1136/ard-2023-224575. PMID: 37495237.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37495237/",
+   "pmid": "37495237",
+   "pmcid": "PMC10529191",
+   "doi": "10.1136/ard-2023-224575",
+   "record_title": "The 2023 ACR/EULAR classification criteria for calcium pyrophosphate deposition disease.",
+   "record_journal": "Ann Rheum Dis",
+   "record_year": "2023",
+   "article_type": "Journal Article",
+   "version_or_date": "2023 ACR/EULAR classification criteria (co-published in Arthritis Rheumatol 2023;75(10):1703-1713, PMID 37494275)",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added in repair. Classification (research) criteria, described as such in the text. Scite verified; contrasting citation concerns crowned dens syndrome sex ratio, not cited.",
+   "claims": [
+    {
+     "text": "CPP crystals in joint fluid alone sufficient to classify CPPD disease",
+     "quote": "Among patients with joint pain, swelling, or tenderness (entry criterion) ... the presence of crowned dens syndrome or calcium pyrophosphate crystals in synovial fluid are sufficient to classify a patient as having CPPD disease.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "guideline",
+   "cited_as": "Richette P, Doherty M, Pascual E, et al. 2018 updated European League Against Rheumatism evidence-based recommendations for the diagnosis of gout. Annals of the Rheumatic Diseases. 2020;79(1):31-38. doi:10.1136/annrheumdis-2019-215315. PMID: 31167758.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31167758/",
+   "pmid": "31167758",
+   "doi": "10.1136/annrheumdis-2019-215315",
+   "record_title": "2018 updated European League Against Rheumatism evidence-based recommendations for the diagnosis of gout.",
+   "record_journal": "Ann Rheum Dis",
+   "record_year": "2020 (epub June 2019)",
+   "article_type": "Consensus Statement; Practice Guideline",
+   "version_or_date": "EULAR 2018 update",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added in repair. Scite verified, no notices.",
+   "claims": [
+    {
+     "text": "MSU crystals in joint fluid allow a definite diagnosis of gout",
+     "quote": "A search for crystals in synovial fluid or tophus aspirates is recommended in every person with suspected gout, because demonstration of monosodium urate (MSU) crystals allows a definite diagnosis of gout.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "big toe/foot-ankle monoarthritis, male sex, hyperuricaemia suggest gout",
+     "quote": "These are monoarticular involvement of a foot or ankle joint (especially the first metatarsophalangeal joint); previous episodes of similar acute arthritis; rapid onset of severe pain and swelling; erythema; male gender and associated cardiovascular diseases and hyperuricaemia.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "diagnosis of gout should not be based on high urate alone",
+     "quote": "There was consensus that a diagnosis of gout should not be based on the presence of hyperuricaemia alone.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "ultrasound double contour sign supports gout when crystals cannot be identified",
+     "quote": "When crystal identification is not possible, it is recommended that any atypical presentation should be investigated by imaging, in particular with ultrasound to seek features suggestive of MSU crystal deposition (double contour sign and tophi).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Clebak KT, Morrison A, Croad JR. Gout: Rapid Evidence Review. American Family Physician. 2020;102(9):533-538. PMID: 33118789.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33118789/",
+   "pmid": "33118789",
+   "record_title": "Gout: Rapid Evidence Review.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2020",
+   "article_type": "Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added in repair. No DOI in PubMed record (AFP). Scite verify_papers could not match the reference text (could_not_verify, not a retraction finding); PubMed article types Journal Article, Review, no Retracted Publication.",
+   "claims": [
+    {
+     "text": "gout risk factors: male sex, obesity, alcohol, diuretics, meat and seafood, CKD",
+     "quote": "Risk factors include male sex; obesity; hypertension; alcohol intake; diuretic use; a diet rich in meat and seafood; chronic kidney disease",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "joint fluid analysis needed when septic joint suspected",
+     "quote": "Arthrocentesis should be performed when suspicion for an underlying septic joint is present",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Earwood JS, Walker TR, Sue GJC. Septic Arthritis: Diagnosis and Treatment. American Family Physician. 2021;104(6):589-597. PMID: 34913662.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34913662/",
+   "pmid": "34913662",
+   "record_title": "Septic Arthritis: Diagnosis and Treatment.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2021",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added in repair to source the red-flag callout. No DOI in PubMed record. Scite could not match the reference text (could_not_verify); PubMed article type Journal Article, no Retracted Publication.",
+   "claims": [
+    {
+     "text": "fever with a hot swollen joint needs prompt (same-day emergency) evaluation for septic arthritis",
+     "quote": "Septic arthritis must be considered and promptly diagnosed in any patient presenting with acute atraumatic joint pain, swelling, and fever.",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "septic arthritis requires joint fluid analysis and antibiotics",
+     "quote": "Synovial fluid studies are required to confirm the diagnosis. ... After synovial fluid has been obtained, empiric antibiotic therapy should be initiated if there is clinical concern for septic arthritis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "delay can cause permanent harm or death",
+     "quote": "A delay in diagnosis and treatment can result in permanent morbidity and mortality.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "risk factors include recent joint surgery and skin infection (wound near joint)",
+     "quote": "Risk factors for septic arthritis include age older than 80 years, diabetes mellitus, rheumatoid arthritis, recent joint surgery, hip or knee prosthesis, skin infection, and immunosuppressive medication use.",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "agency_page",
+   "cited_as": "National Institute of Arthritis and Musculoskeletal and Skin Diseases. Gout. Accessed November 15, 2026.",
+   "url": "https://www.niams.nih.gov/health-topics/gout",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "version_or_date": "Page shows a 'Last Reviewed' label with no date; read 2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "gout: urate builds up and forms needle-shaped crystals in joints",
+     "quote": "Gout happens when urate, a substance in your body, builds up and forms needle-shaped crystals in your joints.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "first flare often in a big toe; other joints too",
+     "quote": "Many people have their first flare of gout in one of their big toes, but it can also affect other joints in your body.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "more common in men; middle age; women usually not before menopause",
+     "quote": "It is more common in men than in women. ... Gout usually develops in middle age. ... Women usually do not develop gout before menopause",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "many people with high urate never develop gout",
+     "quote": "However, many people with high levels of serum urate will not develop gout.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. Calcium pyrophosphate arthritis. Review date January 16, 2026. Accessed November 15, 2026.",
+   "url": "https://medlineplus.gov/ency/article/000421.htm",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "version_or_date": "Review Date 1/16/2026",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "attacks also involve ankles and shoulders",
+     "quote": "This leads to attacks of joint swelling and pain most often in the knees, wrists, ankles, and shoulders.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "big toe not often affected in CPPD",
+     "quote": "In contrast to gout, the metatarsal-phalangeal joint of the big toe is not often affected.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "blood tests used to screen for linked conditions",
+     "quote": "Blood tests to screen for conditions that are linked to calcium pyrophosphate arthritis",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. Septic arthritis. Review date May 12, 2025. Accessed November 15, 2026.",
+   "url": "https://medlineplus.gov/ency/article/000430.htm",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "version_or_date": "Review Date 5/12/2025",
+   "editorial_notices": [],
+   "notes": "'Rapidly spreading redness', 'inability to bear weight' and 'severe illness' in the red-flag sentence are not stated verbatim here or in ref 10; closest wording is joint redness, not able to move the limb, and infection from injury or surgery. Sentence kept unchanged per the safety rule and flagged in CHANGES.md.",
+   "claims": [
+    {
+     "text": "fever with a swollen joint, usually one joint",
+     "quote": "There is a fever and joint swelling that is usually in just one joint.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "symptoms include joint redness, fever, not able to move the limb",
+     "quote": "Not able to move the limb with the infected joint (pseudoparalysis)",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "wound near joint: infection from injury or surgery",
+     "quote": "It may also occur when the joint is directly infected with a microorganism from an injury or during surgery.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "joint fluid cell count, crystals, Gram stain, culture",
+     "quote": "Aspiration of joint fluid for cell count, examination of crystals under the microscope, Gram stain, and culture",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

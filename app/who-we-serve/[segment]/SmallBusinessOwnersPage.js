@@ -1,7 +1,8 @@
+import { contentDate } from '../../../lib/content-dates';
 export default function SmallBusinessOwnersPage() {
   const baseUrl = 'https://teledirectmd.com';
   const pageUrl = `${baseUrl}/who-we-serve/small-business-owners`;
-  const today = new Date().toISOString().split('T')[0];
+  const today = contentDate('whoWeServe');
 
   /* ── Conditions to link ─────────────────────────────────────────── */
   const conditions = [
@@ -10,7 +11,7 @@ export default function SmallBusinessOwnersPage() {
     { name: 'Anxiety / Stress', slug: 'performance-anxiety-treatment-online', desc: 'Support for anxiety, chronic stress, and the psychological weight of running a business — financial pressure, managing employees, and the constant uncertainty of self-employment.' },
     { name: 'Acid Reflux / GERD', slug: 'acid-reflux-refills-online', desc: 'Prescription management for heartburn and reflux — especially common when meals are rushed, irregular, or eaten at a desk between client calls.' },
     { name: 'Migraines', slug: 'migraine-refills-online', desc: 'Prescription migraine treatment and refills so a debilitating headache doesn\'t cost you a day of billable hours or force you to reschedule clients.' },
-    { name: 'UTI / Urinary Tract Infection', slug: 'uti-treatment-online', desc: 'Fast evaluation and antibiotic prescriptions sent to the nearest pharmacy — without closing your business for a clinic visit that could have been handled in a video call.' },
+    { name: 'UTI (women only)', slug: 'uti-treatment-online', desc: 'Fast evaluation and antibiotic prescriptions sent to the nearest pharmacy — without closing your business for a clinic visit that could have been handled in a video call.' },
     { name: 'Sinus Infection', slug: 'sinus-infection-treatment-online', desc: 'Treatment for sinus pressure, congestion, and post-nasal drip so you can get back to work — instead of suffering through a full week waiting for an appointment.' },
     { name: 'High Cholesterol', slug: 'hyperlipidemia-refills-online', desc: 'Ongoing statin and cholesterol medication management for self-employed professionals who don\'t have time for routine visits but can\'t afford to skip preventive care either.' },
     { name: 'Hypothyroidism', slug: 'hypothyroidism-refills-online', desc: 'Thyroid medication refills and routine management — keeping your energy, focus, and metabolism stable without the overhead of frequent in-person appointments.' },
@@ -32,7 +33,7 @@ export default function SmallBusinessOwnersPage() {
   const faqItems = [
     {
       q: 'How much does TeleDirectMD cost for small business owners without insurance?',
-      a: 'TeleDirectMD visits start at $79 self-pay — no insurance required. You know the cost before you book, with no surprise bills afterward. For comparison, a Penn Medicine study published in JAMA Network Open found that telehealth visits average $96 compared to $509 for equivalent in-person episodes. Urgent care without insurance typically runs $150–$350, and an ER visit can reach $500–$3,000 or more. For a self-employed professional without employer benefits, a $79 telehealth visit is often the most cost-effective option for the vast majority of non-emergency conditions. We also accept HSA and FSA funds, which many small business owners use to manage out-of-pocket healthcare costs.'
+      a: 'TeleDirectMD visits start at $79 self-pay — no insurance required. You know the cost before you book, with no hidden fees afterward. For comparison, a Penn Medicine study published in JAMA Network Open found that telehealth visits average $96 compared to $509 for equivalent in-person episodes. Urgent care without insurance typically runs $150–$350, and an ER visit can reach $500–$3,000 or more. For a self-employed professional without employer benefits, a $79 telehealth visit is often the most cost-effective option for the vast majority of non-emergency conditions. We also accept HSA and FSA funds, which many small business owners use to manage out-of-pocket healthcare costs.'
     },
     {
       q: 'Can TeleDirectMD manage ongoing conditions like high blood pressure or diabetes?',
@@ -44,7 +45,7 @@ export default function SmallBusinessOwnersPage() {
     },
     {
       q: 'Is TeleDirectMD available in my state?',
-      a: 'TeleDirectMD is licensed in 43 states. The states we serve include Texas, California, Florida, Georgia, North Carolina, Ohio, Pennsylvania, and 36 more across the country. The states we do not currently serve are New York, Alaska, Arkansas, Massachusetts, New Mexico, Oregon, and Rhode Island. As long as you are physically located in one of our covered states at the time of your visit, you can be seen — regardless of where your business is registered or where you primarily live. Visit our States We Serve page for the complete list.'
+      a: 'TeleDirectMD is licensed in 40+ states. The states we serve include Texas, California, Florida, Georgia, North Carolina, Ohio, Pennsylvania, and dozens more across the country. The states we do not currently serve are Arkansas, Kansas, Massachusetts, New Mexico, Oregon, Rhode Island, and Wisconsin. As long as you are physically located in one of our covered states at the time of your visit, you can be seen — regardless of where your business is registered or where you primarily live. Visit our States We Serve page for the complete list.'
     },
     {
       q: 'Can you prescribe medications during a telehealth visit?',
@@ -56,7 +57,7 @@ export default function SmallBusinessOwnersPage() {
     },
     {
       q: 'Can I see the same doctor every time?',
-      a: 'TeleDirectMD is a solo physician practice. When you visit TeleDirectMD, you are seeing Dr. Parth Bhavsar, MD — a board-certified family medicine physician licensed in 43 states. This means continuity of care is built into the model. Your physician knows your history, your medications, and your ongoing conditions from visit to visit — which is meaningfully different from large telehealth platforms that route you to whoever is available. Consistent care with a physician who knows your history is especially valuable for small business owners managing chronic conditions over time.'
+      a: 'TeleDirectMD is a solo physician practice. When you visit TeleDirectMD, you are seeing Dr. Parth Bhavsar, MD — a board-certified family medicine physician licensed in 40+ states. This means continuity of care is built into the model. Your physician knows your history, your medications, and your ongoing conditions from visit to visit — which is meaningfully different from large telehealth platforms that route you to whoever is available. Consistent care with a physician who knows your history is especially valuable for small business owners managing chronic conditions over time.'
     },
     {
       q: 'What forms of payment does TeleDirectMD accept?',
@@ -88,18 +89,18 @@ export default function SmallBusinessOwnersPage() {
           "@type": "MedicalTherapy",
           "name": "Telehealth Consultations"
         },
-        "areaServed": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","WA","WV","WI","WY"]
+        "areaServed": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NY","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WY"]
       },
       {
         "@type": "Physician",
-        "@id": `${baseUrl}/about#physician`,
+        "@id": `${baseUrl}/about/#physician`,
         "name": "Parth Bhavsar, MD",
         "medicalSpecialty": "FamilyMedicine",
         "worksFor": {
           "@type": "MedicalOrganization",
           "name": "TeleDirectMD"
         },
-        "licensedIn": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","WA","WV","WI","WY"]
+        "licensedIn": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NY","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WI","WY"]
       },
       {
         "@type": "FAQPage",
@@ -118,10 +119,10 @@ export default function SmallBusinessOwnersPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Telehealth for Small Business Owners and Self-Employed Professionals",
-        "description": "TeleDirectMD offers telehealth for small business owners and self-employed professionals across 43 states. No insurance required. Transparent $79 visits with a board-certified physician. Same-day visits, evenings & weekends.",
+        "description": "TeleDirectMD offers telehealth for small business owners and self-employed professionals across 40+ states. No insurance required. Transparent $79 visits with a board-certified physician. Same-day visits, evenings & weekends.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
-        "author": { "@id": `${baseUrl}/about#physician` },
+        "author": { "@id": `${baseUrl}/about/#physician` },
         "datePublished": today,
         "dateModified": today,
         "publisher": {
@@ -153,7 +154,7 @@ export default function SmallBusinessOwnersPage() {
         <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: '0' }}>
           <a href="/">Home</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <a href="/who-we-serve">Who We Serve</a>
+          <a href="/who-we-serve/">Who We Serve</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
           <span aria-current="page">Small Business Owners</span>
         </div>
@@ -165,24 +166,24 @@ export default function SmallBusinessOwnersPage() {
           <div className="tdmd-hero-grid">
             <div className="tdmd-hero-copy">
               <h1>Telehealth for Small Business Owners and Self-Employed Professionals</h1>
-              <p className="tdmd-hero-sub">Licensed physician in 43 states. No insurance required. Same-day visits, evenings &amp; weekends.</p>
+              <p className="tdmd-hero-sub">Licensed physician in 40+ states. No insurance required. Same-day visits, evenings &amp; weekends.</p>
               <p>
-                There are more than 34 million small businesses in the United States — nearly 99.9% of all U.S. businesses. But small business owners and self-employed professionals are among the most likely to delay their own healthcare. Without employer benefits, many are navigating expensive individual marketplace plans or going without insurance entirely. With ACA enhanced subsidies expiring at the end of 2025, annual premiums more than doubled for many marketplace enrollees — rising from an average of $888 to $1,904 per year according to Kaiser Family Foundation estimates. TeleDirectMD offers transparent cash-pay visits starting at $79 with a board-certified physician, same-day availability including evenings and weekends, and coverage across 43 states — built for professionals whose time is their most valuable asset.
+                There are more than 34 million small businesses in the United States — nearly 99.9% of all U.S. businesses. But small business owners and self-employed professionals are among the most likely to delay their own healthcare. Without employer benefits, many are navigating expensive individual marketplace plans or going without insurance entirely. With ACA enhanced subsidies expiring at the end of 2025, annual premiums more than doubled for many marketplace enrollees — rising from an average of $888 to $1,904 per year according to Kaiser Family Foundation estimates. TeleDirectMD offers transparent flat $79 cash-pay visits with a board-certified physician, same-day availability including evenings and weekends, and coverage across 40+ states — built for professionals whose time is their most valuable asset.
               </p>
               <ul className="tdmd-hero-benefits">
                 <li>Board-certified physician — not a PA, not an NP, not an algorithm</li>
-                <li>Licensed in 43 states — wherever you run your business</li>
+                <li>Licensed in 40+ states — wherever you run your business</li>
                 <li>No waiting rooms — same-day visits, evenings &amp; weekends</li>
                 <li>Prescriptions sent to any pharmacy near you</li>
-                <li>Transparent cash-pay pricing starting at $79 — HSA/FSA accepted</li>
+                <li>Transparent cash-pay pricing: a flat $79 — HSA/FSA accepted</li>
               </ul>
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
               </div>
               <p className="tdmd-reviewed">
                 Last reviewed on {today} by{' '}
-                <a className="tdmd-author-link" href="/about" aria-label="About Parth Bhavsar, MD">
+                <a className="tdmd-author-link" href="/about/" aria-label="About Parth Bhavsar, MD">
                   Parth Bhavsar, MD
                 </a>
               </p>
@@ -194,7 +195,7 @@ export default function SmallBusinessOwnersPage() {
                 <ul>
                   <li>See a doctor from your office, home, or job site — no commute required</li>
                   <li>Get prescriptions sent to any pharmacy near you</li>
-                  <li>No insurance required — transparent cash-pay pricing starting at $79</li>
+                  <li>No insurance required — transparent cash-pay pricing: a flat $79</li>
                   <li>Same-day visits, evenings &amp; weekends — no lost business hours</li>
                   <li>HIPAA-compliant, secure video visits from your phone or laptop</li>
                 </ul>
@@ -247,8 +248,8 @@ export default function SmallBusinessOwnersPage() {
               <p>High blood pressure, diabetes, high cholesterol, hypothyroidism — managing chronic conditions is one of the most common uses of TeleDirectMD for small business owners. Get medication refills and routine management without scheduling a dedicated in-person visit every time.</p>
             </div>
             <div className="tdmd-card tdmd-card-good">
-              <h3>41-State Coverage — Works Where You Work</h3>
-              <p>Whether you run a business from home in Ohio, travel for client work across multiple states, or operate in a state with limited local healthcare options, TeleDirectMD is licensed in 43 states. The same physician sees you wherever you are.</p>
+              <h3>40+ State Coverage — Works Where You Work</h3>
+              <p>Whether you run a business from home in Ohio, travel for client work across multiple states, or operate in a state with limited local healthcare options, TeleDirectMD is licensed in 40+ states. The same physician sees you wherever you are.</p>
             </div>
           </div>
         </div>
@@ -265,7 +266,7 @@ export default function SmallBusinessOwnersPage() {
             {conditions.map((c) => (
               <a
                 key={c.slug}
-                href={`/${c.slug}`}
+                href={`/${c.slug}/`}
                 className="tdmd-card"
                 style={{ textDecoration: 'none', color: 'var(--tdmd-text)', borderLeft: '4px solid var(--tdmd-teal)' }}
               >
@@ -275,7 +276,7 @@ export default function SmallBusinessOwnersPage() {
             ))}
           </div>
           <div style={{ marginTop: '1.25rem' }}>
-            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All 60 Conditions We Treat</a>
+            <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All 60+ Conditions We Treat</a>
           </div>
         </div>
       </section>
@@ -306,7 +307,7 @@ export default function SmallBusinessOwnersPage() {
                 <h3>Get Treated — Prescriptions Sent to Your Pharmacy</h3>
                 <p>If medication is clinically appropriate, your prescription is sent electronically to the pharmacy of your choice — CVS, Walgreens, Walmart, Rite Aid, or any independent pharmacy. Pick it up on your way to your next meeting or job site.</p>
                 <div className="tdmd-decision-cta">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit Now</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit Now</a>
                 </div>
               </div>
             </div>
@@ -317,7 +318,7 @@ export default function SmallBusinessOwnersPage() {
       {/* ── 6. Transparent Pricing ──────────────────────────────── */}
       <section className="tdmd-section" id="small-business-owners-pricing">
         <div className="tdmd-container">
-          <h2>Transparent Pricing — No Surprise Bills</h2>
+          <h2>Transparent Pricing — No Hidden Fees</h2>
           <p>For small business owners without employer-sponsored coverage, the cost difference between telehealth and traditional care is significant. A Penn Medicine study published in <em>JAMA Network Open</em> found that telehealth visits average $96 compared to $509 for in-person episodes — five times less expensive. For a self-employed professional paying full freight on healthcare, the math matters.</p>
           <div className="tdmd-price-grid">
             <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
@@ -327,7 +328,7 @@ export default function SmallBusinessOwnersPage() {
               <ul className="tdmd-price-includes">
                 <li>Board-certified physician consultation</li>
                 <li>Prescriptions sent to any U.S. pharmacy</li>
-                <li>No hidden fees or surprise billing</li>
+                <li>No hidden fees</li>
                 <li>HSA and FSA funds accepted</li>
                 <li>Insurance accepted in select states</li>
               </ul>
@@ -362,11 +363,11 @@ export default function SmallBusinessOwnersPage() {
         <div className="tdmd-container">
           <h2>Who You're Seeing — A Real Doctor, Not a Platform</h2>
           <p>
-            When you visit TeleDirectMD, you're seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot routing your case to whoever is available. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is a board-certified family medicine physician licensed across 43 states. Because TeleDirectMD is a solo physician practice, you're seeing the same doctor every visit — building continuity of care that matters for small business owners managing ongoing conditions over time.
+            When you visit TeleDirectMD, you're seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot routing your case to whoever is available. <a href="/about/" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is a board-certified family medicine physician licensed across 40+ states. Because TeleDirectMD is a solo physician practice, you're seeing the same doctor every visit — building continuity of care that matters for small business owners managing ongoing conditions over time.
           </p>
           <ul className="tdmd-hero-benefits">
             <li>Board-certified in Family Medicine</li>
-            <li>Licensed in 43 U.S. states</li>
+            <li>Licensed in 40+ U.S. states</li>
             <li>LegitScript certified — verified by the gold standard for online healthcare</li>
             <li>HIPAA-compliant platform — your data is encrypted and protected</li>
             <li>TeleDirectMD does not sell or share your health information</li>
@@ -381,9 +382,9 @@ export default function SmallBusinessOwnersPage() {
       <section className="tdmd-section tdmd-faq" id="small-business-owners-faq">
         <div className="tdmd-container">
           <h2>Frequently Asked Questions — Telehealth for Small Business Owners</h2>
-          <div className="tdmd-faq-list" role="list">
+          <div className="tdmd-faq-list">
             {faqItems.map((item, i) => (
-              <details key={i} className="tdmd-faq-item" role="listitem">
+              <details key={i} className="tdmd-faq-item">
                 <summary className="tdmd-faq-question">{item.q}</summary>
                 <div className="tdmd-faq-answer">
                   <p>{item.a}</p>
@@ -403,8 +404,8 @@ export default function SmallBusinessOwnersPage() {
               <p>Request a same-day visit, connect with a board-certified physician via secure video, and get a prescription sent to the pharmacy of your choice — all without closing your business for the afternoon.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-              <a href="/who-we-serve" className="tdmd-btn tdmd-btn-outline">Who We Serve</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+              <a href="/who-we-serve/" className="tdmd-btn tdmd-btn-outline">Who We Serve</a>
             </div>
           </div>
         </div>
@@ -414,16 +415,16 @@ export default function SmallBusinessOwnersPage() {
       <section className="tdmd-section" id="small-business-owners-states">
         <div className="tdmd-container">
           <h2>Telehealth for Small Business Owners — Available in These States</h2>
-          <p>TeleDirectMD is licensed in 43 states. Here are some of the states with the highest concentrations of small businesses and self-employed professionals where we can see you today:</p>
+          <p>TeleDirectMD is licensed in 40+ states. Here are some of the states with the highest concentrations of small businesses and self-employed professionals where we can see you today:</p>
           <div className="tdmd-other-states-grid">
             {featuredStates.map((s) => (
-              <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}`}>
+              <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}/`}>
                 {s.name}
               </a>
             ))}
           </div>
           <p style={{ marginTop: '0.75rem' }}>
-            <a href="/states-we-serve" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>View all 43 states we serve →</a>
+            <a href="/states-we-serve/" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>View all states we serve →</a>
           </p>
         </div>
       </section>
@@ -434,22 +435,22 @@ export default function SmallBusinessOwnersPage() {
           <div className="tdmd-inline-links">
             <h3>Other Communities We Serve</h3>
             <p className="tdmd-link-cloud">
-              <a href="/who-we-serve/uninsured-affordable-care">Uninsured &amp; Affordable Care</a>
-              <a href="/who-we-serve/gig-workers">Gig Workers</a>
-              <a href="/who-we-serve/remote-workers">Remote Workers</a>
-              <a href="/who-we-serve/truck-drivers">Truck Drivers</a>
-              <a href="/who-we-serve/travel-nurses">Travel Nurses</a>
-              <a href="/who-we-serve">Who We Serve Hub</a>
+              <a href="/who-we-serve/uninsured-affordable-care/">Uninsured &amp; Affordable Care</a>
+              <a href="/who-we-serve/gig-workers/">Gig Workers</a>
+              <a href="/who-we-serve/remote-workers/">Remote Workers</a>
+              <a href="/who-we-serve/truck-drivers/">Truck Drivers</a>
+              <a href="/who-we-serve/travel-nurses/">Travel Nurses</a>
+              <a href="/who-we-serve/">Who We Serve Hub</a>
             </p>
           </div>
           <div className="tdmd-inline-links" style={{ marginTop: '1rem' }}>
             <h3>More from TeleDirectMD</h3>
             <p className="tdmd-link-cloud">
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/states-we-serve">States We Serve</a>
-              <a href="/insurance">Insurance &amp; Pricing</a>
-              <a href="/faq">FAQs</a>
-              <a href="/book-online">Book a Visit</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/states-we-serve/">States We Serve</a>
+              <a href="/insurance/">Insurance &amp; Pricing</a>
+              <a href="/faq/">FAQs</a>
+              <a href="/book-online/">Book a Visit</a>
             </p>
           </div>
         </div>
@@ -465,7 +466,7 @@ export default function SmallBusinessOwnersPage() {
             <li><a href="https://ogletree.com/insights-resources/blog-posts/enhanced-aca-health-insurance-subsidies-likely-to-end/" rel="nofollow noopener" target="_blank">Enhanced ACA Health Insurance Subsidies Likely to End — Ogletree</a></li>
             <li><a href="https://kevinmd.com/2026/04/how-expiring-aca-enhanced-premium-tax-credits-hurt-business.html" rel="nofollow noopener" target="_blank">How Expiring ACA Enhanced Premium Tax Credits Hurt Business — KevinMD (2026)</a></li>
             <li><a href="https://www.pennmedicine.org/news/study-finds-telemedicine-visits-cost-far-less-than-office-visits" rel="nofollow noopener" target="_blank">Study Finds Telemedicine Visits Cost Far Less Than Office Visits — Penn Medicine / JAMA Network Open</a></li>
-            <li><a href="https://www.goodrx.com/healthcare-access/telehealth/how-much-does-a-telehealth-visit-cost" rel="nofollow noopener" target="_blank">How Much Does a Telehealth Visit Cost? — GoodRx</a></li>
+            <li><a href="https://www.goodrx.com/healthcare-access/telehealth/how-much-does-telehealth-cost" rel="nofollow noopener" target="_blank">How Much Does a Telehealth Visit Cost? — GoodRx</a></li>
             <li><a href="https://lifehackmethod.com/blog/entrepreneur-mental-health-statistics/" rel="nofollow noopener" target="_blank">Entrepreneur Mental Health and Burnout Statistics — Lifehack Method (citing Truist survey data)</a></li>
             <li><a href="https://www.nav.com/blog/report-mapping-mental-health-in-small-business-ownership/" rel="nofollow noopener" target="_blank">Report: Mapping Mental Health in Small Business Ownership — Nav (2026)</a></li>
             <li><a href="https://www.kff.org/uninsured/issue-brief/key-facts-about-the-uninsured-population/" rel="nofollow noopener" target="_blank">Key Facts About the Uninsured Population — KFF</a></li>

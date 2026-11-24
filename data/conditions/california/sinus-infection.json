@@ -16,7 +16,7 @@
     "condition_slug": "sinus-infection-treatment-online",
     "icd10": "J01.90",
     "specialty_authority": "American Academy of Otolaryngology \u2013 Head and Neck Surgery (AAO-HNS) and IDSA",
-    "guideline": "AAO-HNS Adult Sinusitis Clinical Practice Guideline (2023 Update) and IDSA Bacterial Rhinosinusitis Guideline"
+    "guideline": "AAO-HNS Adult Sinusitis Clinical Practice Guideline (2025 Update) and IDSA Bacterial Rhinosinusitis Guideline"
   },
   "california_regulatory": {
     "primary_statute": {
@@ -48,9 +48,10 @@
       },
       {
         "name": "Anthem Blue Cross",
-        "status": "Pending",
-        "effective_date": null,
-        "in_network": false
+        "status": "Active",
+        "effective_date": "2026-09-23",
+        "in_network": true,
+        "notes": "PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included."
       },
       {
         "name": "Cigna",
@@ -66,17 +67,17 @@
         "notes": "Commercial + Medicare Advantage. Excludes Medi-Cal, Individual Exchange, Navigate/Charter/Core."
       }
     ],
-    "cash_price": 49
+    "cash_price": 79
   },
   "california_epidemiology": {
     "summary": "Sinusitis (rhinosinusitis) is one of the most common reasons adults seek medical care in the United States, with approximately 29 million adults diagnosed annually per CDC NHIS data. Applying national rates to California's population of approximately 39 million, an estimated 3\u20134 million Californians experience acute sinusitis each year. The California Department of Public Health notes that sinusitis is among the top 5 diagnoses leading to antibiotic prescriptions in California outpatient settings.",
-    "source_url": "https://www.cdc.gov/nchs/fastats/sinusitis.htm",
-    "source_name": "CDC \u2014 Sinusitis (NCHS FastStats)"
+    "source_url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/NHIS/SHS/2018_SHS_Table_A-2.pdf",
+    "source_name": "CDC NCHS: Summary Health Statistics, National Health Interview Survey 2018 (Table A-2)"
   },
   "clinical_content": {
     "specialty_authority": "American Academy of Otolaryngology \u2013 Head and Neck Surgery (AAO-HNS) and IDSA",
-    "specialty_authority_url": "https://www.entnet.org/quality-practice/quality-and-performance/clinical-practice-guidelines/sinusitis/",
-    "guideline": "AAO-HNS Adult Sinusitis Clinical Practice Guideline (2023 Update) and IDSA Bacterial Rhinosinusitis Guideline",
+    "specialty_authority_url": "https://www.entnet.org/resource/clinical-practice-guideline-adult-sinusitis/",
+    "guideline": "AAO-HNS Adult Sinusitis Clinical Practice Guideline (2025 Update) and IDSA Bacterial Rhinosinusitis Guideline",
     "telehealth_appropriate_criteria": [
       "Adult 18+ located in California at time of visit",
       "Nasal congestion, facial pressure/pain, purulent nasal discharge for \u226510 days without improvement",
@@ -103,7 +104,7 @@
         "name": "Amoxicillin-clavulanate (Augmentin) 875/125 mg",
         "typical_regimen": "1 tablet twice daily \u00d7 5\u20137 days",
         "goodrx_price": "~$16\u2013$25 generic with GoodRx",
-        "source_url": "https://www.goodrx.com/amoxicillin-clavulanate",
+        "source_url": "https://www.goodrx.com/amoxicillin-potassium-clavulanate",
         "first_line": true,
         "notes": "First-line per IDSA bacterial rhinosinusitis guideline. Covers S. pneumoniae, H. influenzae, M. catarrhalis. Avoid if penicillin allergy."
       },
@@ -137,7 +138,7 @@
     {
       "id": "faq-1",
       "question": "Can I get sinus infection treatment online in California?",
-      "answer": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California. Adults 18+ in California with classic bacterial sinusitis symptoms \u2014 nasal congestion, facial pressure, purulent discharge for 10+ days \u2014 can book a same-day video visit. If the history supports bacterial sinusitis without red flags, an antibiotic prescription may be appropriate. Self pay is $79; Aetna is in-network as of April 30, 2026."
+      "answer": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. Dr. Bhavsar is licensed in California. Adults 18+ in California with classic bacterial sinusitis symptoms \u2014 nasal congestion, facial pressure, purulent discharge for 10+ days \u2014 can book a same-day video visit. If the history supports bacterial sinusitis without red flags, an antibiotic prescription may be appropriate. Self pay is $79; Aetna is in-network as of April 30, 2026."
     },
     {
       "id": "faq-2",
@@ -167,7 +168,7 @@
     {
       "id": "faq-7",
       "question": "Will Medi-Cal cover my TeleDirectMD visit for a sinus infection?",
-      "answer": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, you can use the $79 self-pay rate or find a Medi-Cal-enrolled telehealth provider through your managed care plan or the California DHCS directory at dhcs.ca.gov."
+      "answer": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, find a Medi-Cal-enrolled telehealth provider through your managed care plan or the California DHCS directory at dhcs.ca.gov."
     },
     {
       "id": "faq-8",
@@ -213,11 +214,11 @@
       "text": "California DHCS \u2014 Telehealth FAQ. Retrieved May 2026."
     },
     {
-      "url": "https://www.cdc.gov/nchs/fastats/sinusitis.htm",
-      "text": "CDC \u2014 Sinusitis (NCHS FastStats). Retrieved May 2026."
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/NHIS/SHS/2018_SHS_Table_A-2.pdf",
+      "text": "CDC NCHS: Summary Health Statistics, National Health Interview Survey 2018 (Table A-2). Retrieved October 2026."
     },
     {
-      "url": "https://www.entnet.org/quality-practice/quality-and-performance/clinical-practice-guidelines/sinusitis/",
+      "url": "https://www.entnet.org/resource/clinical-practice-guideline-adult-sinusitis/",
       "text": "AAO-HNS \u2014 Adult Sinusitis Clinical Practice Guideline. Retrieved May 2026."
     },
     {

@@ -10,11 +10,14 @@ const STATE_SLUGS = {
   florida: 'FL',
   georgia: 'GA',
   illinois: 'IL',
+  louisiana: 'LA',
   michigan: 'MI',
   minnesota: 'MN',
+  'north-carolina': 'NC',
   ohio: 'OH',
   pennsylvania: 'PA',
   tennessee: 'TN',
+  washington: 'WA',
 };
 const CONDITION_SLUGS = Object.keys(INSURANCE_CONDITIONS);
 

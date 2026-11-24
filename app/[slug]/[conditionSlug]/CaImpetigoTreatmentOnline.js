@@ -11,7 +11,7 @@
  * + HowTo + BreadcrumbList + SpeakableSpecification — NEVER QAPage).
  *
  * Authority: American Academy of Dermatology (AAD)
- * Guideline: AAD Clinical Guidelines: Impetigo — 2023 Update and IDSA SSTI Guideline
+ * Guideline: AAD impetigo guidance and IDSA SSTI Guideline
  *
  * Hard rules respected:
  *   • No QAPage schema — FAQPage only.
@@ -38,7 +38,7 @@ const PHYSICIAN = {
   specialty: 'Family Medicine',
   licenseState: 'California',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 const CA_PAYORS = [
@@ -46,8 +46,8 @@ const CA_PAYORS = [
     notes: 'Commercial plans. In-network as of April 30, 2026. Verify plan eligibility with Aetna before booking.' },
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true,
     notes: 'Covers UHC Commercial and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types.' },
-  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Enrollment pending. Self pay ($79) available.' },
+  { name: 'Anthem Blue Cross', status: 'Active', effective: 'September 23, 2026', inNetwork: true,
+    notes: 'PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.' },
   { name: 'Cigna', status: 'Pending', effective: 'Pending determination', inNetwork: false,
     notes: 'Pending — Telehealth Only review in progress. Self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false,
@@ -62,7 +62,7 @@ const FAQ_ITEMS = [
     question: 'Can I get impetigo treatment online in California?',
     answer: (
       <p>
-        Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth. TeleDirectMD physicians are licensed in California and follow AAD and IDSA SSTI guidelines for impetigo management. Adults 18+ in California with honey-colored crusted or vesicular skin lesions can book a same-day video visit — the physician evaluates the affected area on camera and prescribes topical mupirocin or oral antibiotics when appropriate. Self pay is $79; Aetna is in-network as of April 30, 2026.
+        Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth. Dr. Bhavsar is licensed in California and follows the IDSA SSTI guideline and AAD impetigo guidance for impetigo management. Adults 18+ in California with honey-colored crusted or vesicular skin lesions can book a same-day video visit — the physician evaluates the affected area on camera and prescribes topical mupirocin or oral antibiotics when appropriate. Self pay is $79; Aetna is in-network as of April 30, 2026.
       </p>
     ),
   },
@@ -71,7 +71,7 @@ const FAQ_ITEMS = [
     question: 'What does impetigo look like and how is it diagnosed?',
     answer: (
       <p>
-        Non-bullous impetigo (the most common form) presents as small red sores that rupture, ooze, and form characteristic honey-colored or golden-brown crusts, typically on the face — around the nose and mouth — or on the arms and legs. Bullous impetigo causes larger fluid-filled blisters (bullae) that rupture to leave a reddish raw surface. The rash is usually not painful but can be itchy. Diagnosis is typically clinical — based on appearance — and does not require culture in uncomplicated cases, per AAD guidelines.
+        Non-bullous impetigo (the most common form) presents as small red sores that rupture, ooze, and form characteristic honey-colored or golden-brown crusts, typically on the face — around the nose and mouth — or on the arms and legs. Bullous impetigo causes larger fluid-filled blisters (bullae) that rupture to leave a reddish raw surface. The rash is usually not painful but can be itchy. Diagnosis is typically clinical — based on appearance — and does not require culture in uncomplicated cases, per the IDSA SSTI guideline.
       </p>
     ),
   },
@@ -98,7 +98,7 @@ const FAQ_ITEMS = [
     question: 'How contagious is impetigo and when can I return to work or school in California?',
     answer: (
       <p>
-        Impetigo is highly contagious through direct contact with infected secretions. Per AAD guidelines, the infection is no longer contagious 24–48 hours after starting antibiotic treatment. California school guidelines typically require exclusion until lesions are crusted over or 24 hours after antibiotic initiation. Cover lesions with clean bandages to prevent spreading. Avoid sharing towels, razors, or clothing. Wash hands frequently.
+        Impetigo is highly contagious through direct contact with infected secretions. Per AAD patient guidance, the infection is usually no longer contagious 24–48 hours after starting antibiotic treatment. California school guidelines typically require exclusion until lesions are crusted over or 24 hours after antibiotic initiation. Cover lesions with clean bandages to prevent spreading. Avoid sharing towels, razors, or clothing. Wash hands frequently.
       </p>
     ),
   },
@@ -125,7 +125,7 @@ const FAQ_ITEMS = [
     question: 'Will Medi-Cal cover my TeleDirectMD impetigo visit?',
     answer: (
       <p>
-        TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, you can use the $79 self-pay rate or find a Medi-Cal-enrolled telehealth provider through your managed care plan or California DHCS at dhcs.ca.gov.
+        TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, find a Medi-Cal-enrolled telehealth provider through your managed care plan or California DHCS at dhcs.ca.gov.
       </p>
     ),
   },
@@ -134,7 +134,7 @@ const FAQ_ITEMS = [
     question: 'Why does California have higher CA-MRSA rates relevant to impetigo?',
     answer: (
       <p>
-        California was an early epicenter for community-acquired MRSA (CA-MRSA) — particularly the USA300 strain — beginning in the late 1990s and early 2000s. The California Department of Public Health monitors CA-MRSA in community settings. CA-MRSA commonly causes bullous impetigo and other purulent SSTIs. For bullous or recurrent impetigo with CA-MRSA concern, IDSA SSTI guidelines recommend TMP-SMX DS as first-line — TeleDirectMD applies this California-specific antibiotic stewardship principle.
+        California was an early epicenter for community-acquired MRSA (CA-MRSA) — particularly the USA300 strain — beginning in the late 1990s and early 2000s. CA-MRSA remains a consideration in community settings. CA-MRSA commonly causes bullous impetigo and other purulent SSTIs. For bullous or recurrent impetigo with CA-MRSA concern, IDSA SSTI guidelines list TMP-SMX DS (along with doxycycline or clindamycin) as an oral option — TeleDirectMD applies this California-specific antibiotic stewardship principle.
       </p>
     ),
   },
@@ -167,7 +167,7 @@ const FAQ_ITEMS = [
   },
 ];
 
-const SCHEMAS = [{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Impetigo Treatment Online in California | TeleDirectMD", "url": "https://teledirectmd.com/ca/impetigo-treatment-online/", "description": "Impetigo treatment online for California adults. AAD guideline-based evaluation. Board-certified Family Medicine MD. Topical and oral antibiotic prescriptions. Self pay $79. Aetna in-network. Same-day visits.", "datePublished": "2026-05-20", "dateModified": "2026-05-20", "inLanguage": "en-US", "about": {"@type": "MedicalCondition", "name": "Impetigo", "code": {"@type": "MedicalCode", "code": "L01.00", "codingSystem": "ICD-10-CM"}}, "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient", "geographicArea": {"@type": "AdministrativeArea", "name": "California"}}, "reviewedBy": {"@type": "Physician", "@id": "https://teledirectmd.com/about/#physician-parth-bhavsar", "name": "Parth Bhavsar, MD", "identifier": {"@type": "PropertyValue", "propertyID": "NPI", "value": "1104323203"}, "medicalSpecialty": "Family Medicine", "hasCredential": [{"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "Doctor of Medicine (MD)"}, {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Board Certification \u2014 American Board of Family Medicine"}], "licensedIn": "California", "worksFor": {"@type": "MedicalOrganization", "name": "TeleDirectMD", "url": "https://teledirectmd.com"}, "sameAs": ["https://npiregistry.cms.hhs.gov/provider-view/1104323203", "https://teledirectmd.com/about/"]}, "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["#ca-impetigo-treatment-online-opening", "#ca-impetigo-treatment-online-opening p", ".tdmd-ca-impetigo-treatment-online__byline", "#ca-impetigo-treatment-online-faq"]}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I get impetigo treatment online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth. TeleDirectMD physicians are licensed in California and follow AAD and IDSA SSTI guidelines for impetigo management. Adults 18+ in California with honey-colored crusted or vesicular skin lesions can book a same-day video visit \u2014 the physician evaluates the affected area on camera and prescribes topical mupirocin or oral antibiotics when appropriate. Self pay is $79; Aetna is in-network as of April 30, 2026."}}, {"@type": "Question", "name": "What does impetigo look like and how is it diagnosed?", "acceptedAnswer": {"@type": "Answer", "text": "Non-bullous impetigo (the most common form) presents as small red sores that rupture, ooze, and form characteristic honey-colored or golden-brown crusts, typically on the face \u2014 around the nose and mouth \u2014 or on the arms and legs. Bullous impetigo causes larger fluid-filled blisters (bullae) that rupture to leave a reddish raw surface. The rash is usually not painful but can be itchy. Diagnosis is typically clinical \u2014 based on appearance \u2014 and does not require culture in uncomplicated cases, per AAD guidelines."}}, {"@type": "Question", "name": "What antibiotics treat impetigo, and what do they cost in California?", "acceptedAnswer": {"@type": "Answer", "text": "For localized non-bullous impetigo, first-line topical treatment is mupirocin 2% ointment applied three times daily for 5 days (generic ~$15\u2013$25 with GoodRx). For extensive or bullous impetigo, oral cephalexin 500 mg four times daily for 7 days (~$10\u2013$20 with GoodRx) is first-line. For suspected CA-MRSA (bullous or purulent), TMP-SMX DS twice daily is recommended per IDSA SSTI guideline (~$8\u2013$15 with GoodRx). Prescription costs at pharmacy are separate from the TeleDirectMD visit fee ($79)."}}, {"@type": "Question", "name": "Does California require an in-person visit before telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. A California-licensed physician can evaluate impetigo lesions through a synchronous video visit \u2014 the patient shows the affected area on camera. This is particularly practical for impetigo, where the visual appearance guides diagnosis."}}, {"@type": "Question", "name": "How contagious is impetigo and when can I return to work or school in California?", "acceptedAnswer": {"@type": "Answer", "text": "Impetigo is highly contagious through direct contact with infected secretions. Per AAD guidelines, the infection is no longer contagious 24\u201348 hours after starting antibiotic treatment. California school guidelines typically require exclusion until lesions are crusted over or 24 hours after antibiotic initiation. Cover lesions with clean bandages to prevent spreading. Avoid sharing towels, razors, or clothing. Wash hands frequently."}}, {"@type": "Question", "name": "When is impetigo dangerous and when should I go to the ER in California?", "acceptedAnswer": {"@type": "Answer", "text": "Seek urgent in-person care if impetigo spreads rapidly with fever and systemic illness, if bullous impetigo covers large body surface areas, if you are immunocompromised, if lesions appear near the eye, or if there are signs of deeper skin infection (cellulitis). Rare complications of untreated impetigo include post-streptococcal glomerulonephritis (kidney inflammation) \u2014 completing the full antibiotic course is important."}}, {"@type": "Question", "name": "Is my Aetna plan in California in-network with TeleDirectMD?", "acceptedAnswer": {"@type": "Answer", "text": "Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. Verify current in-network status directly with Aetna before your visit. Self pay is $79 regardless of insurance status."}}, {"@type": "Question", "name": "Will Medi-Cal cover my TeleDirectMD impetigo visit?", "acceptedAnswer": {"@type": "Answer", "text": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, you can use the $79 self-pay rate or find a Medi-Cal-enrolled telehealth provider through your managed care plan or California DHCS at dhcs.ca.gov."}}, {"@type": "Question", "name": "Why does California have higher CA-MRSA rates relevant to impetigo?", "acceptedAnswer": {"@type": "Answer", "text": "California was an early epicenter for community-acquired MRSA (CA-MRSA) \u2014 particularly the USA300 strain \u2014 beginning in the late 1990s and early 2000s. The California Department of Public Health monitors CA-MRSA in community settings. CA-MRSA commonly causes bullous impetigo and other purulent SSTIs. For bullous or recurrent impetigo with CA-MRSA concern, IDSA SSTI guidelines recommend TMP-SMX DS as first-line \u2014 TeleDirectMD applies this California-specific antibiotic stewardship principle."}}, {"@type": "Question", "name": "Is UnitedHealthcare in-network with TeleDirectMD in California?", "acceptedAnswer": {"@type": "Answer", "text": "UnitedHealthcare Commercial was approved for California effective May 29, 2026, covering commercial plans and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types. Verify your specific plan eligibility with UHC before booking."}}, {"@type": "Question", "name": "Does California's AB 744 telehealth parity law apply to impetigo visits?", "acceptedAnswer": {"@type": "Answer", "text": "California AB 744 (2019) requires commercial health plans to reimburse telehealth services on the same basis as in-person services. Parity applies when the provider is already in-network with your specific plan. Currently, Aetna (active April 30, 2026) and UnitedHealthcare Commercial (active May 29, 2026) are in-network in California for TeleDirectMD."}}, {"@type": "Question", "name": "How quickly will my antibiotic prescription reach a California pharmacy?", "acceptedAnswer": {"@type": "Answer", "text": "California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022). If an antibiotic is appropriate, TeleDirectMD sends an e-prescription electronically to your chosen California pharmacy during or after your visit. Most California pharmacies fill within one to four hours. Starting antibiotics promptly reduces contagious period and prevents complications."}}]}, {"@context": "https://schema.org", "@type": "HowTo", "name": "How to Get Impetigo Treatment Online in California", "description": "Three steps to receive impetigo treatment evaluation and, if appropriate, a prescription from a California-licensed board-certified physician.", "totalTime": "PT30M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "79"}, "step": [{"@type": "HowToStep", "position": 1, "name": "Book your video visit", "text": "Visit teledirectmd.com and select California Impetigo treatment. No referral needed. Self pay $79. Many visits available same day.", "url": "https://teledirectmd.com/book-online"}, {"@type": "HowToStep", "position": 2, "name": "See a California-licensed MD by secure video", "text": "Connect with a board-certified Family Medicine physician licensed in California. The physician reviews your symptoms, history, and red-flag screening. Consent per CA B&P Section 2290.5 confirmed.", "url": "https://teledirectmd.com/ca/impetigo-treatment-online/"}, {"@type": "HowToStep", "position": 3, "name": "Receive your treatment plan and e-prescription", "text": "If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy during or after the visit.", "url": "https://teledirectmd.com/ca/impetigo-treatment-online/"}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TeleDirectMD", "item": "https://teledirectmd.com"}, {"@type": "ListItem", "position": 2, "name": "California", "item": "https://teledirectmd.com/ca/"}, {"@type": "ListItem", "position": 3, "name": "Impetigo Treatment Online in California", "item": "https://teledirectmd.com/ca/impetigo-treatment-online/"}]}];
+const SCHEMAS = [{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Impetigo Treatment Online in California | TeleDirectMD", "url": "https://teledirectmd.com/ca/impetigo-treatment-online/", "description": "Impetigo treatment online for California adults. IDSA guideline-based evaluation. Board-certified Family Medicine MD. Topical and oral antibiotic prescriptions. Self pay $79. Aetna in-network. Same-day visits.", "datePublished": "2026-05-20", "dateModified": "2026-05-20", "inLanguage": "en-US", "about": {"@type": "MedicalCondition", "name": "Impetigo", "code": {"@type": "MedicalCode", "code": "L01.00", "codingSystem": "ICD-10-CM"}}, "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient", "geographicArea": {"@type": "AdministrativeArea", "name": "California"}}, "reviewedBy": {"@type": "Physician", "@id": "https://teledirectmd.com/about/#physician", "name": "Parth Bhavsar, MD", "identifier": {"@type": "PropertyValue", "propertyID": "NPI", "value": "1104323203"}, "medicalSpecialty": "Family Medicine", "hasCredential": [{"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "Doctor of Medicine (MD)"}, {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Board Certification \u2014 American Board of Family Medicine"}], "licensedIn": "California", "worksFor": {"@type": "MedicalOrganization", "name": "TeleDirectMD", "url": "https://teledirectmd.com"}, "sameAs": ["https://npiregistry.cms.hhs.gov/provider-view/1104323203", "https://teledirectmd.com/about/"]}, "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["#ca-impetigo-treatment-online-opening", "#ca-impetigo-treatment-online-opening p", ".tdmd-ca-impetigo-treatment-online__byline", "#ca-impetigo-treatment-online-faq"]}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I get impetigo treatment online in California?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth. Dr. Bhavsar is licensed in California and follows the IDSA SSTI guideline and AAD impetigo guidance for impetigo management. Adults 18+ in California with honey-colored crusted or vesicular skin lesions can book a same-day video visit \u2014 the physician evaluates the affected area on camera and prescribes topical mupirocin or oral antibiotics when appropriate. Self pay is $79; Aetna is in-network as of April 30, 2026."}}, {"@type": "Question", "name": "What does impetigo look like and how is it diagnosed?", "acceptedAnswer": {"@type": "Answer", "text": "Non-bullous impetigo (the most common form) presents as small red sores that rupture, ooze, and form characteristic honey-colored or golden-brown crusts, typically on the face \u2014 around the nose and mouth \u2014 or on the arms and legs. Bullous impetigo causes larger fluid-filled blisters (bullae) that rupture to leave a reddish raw surface. The rash is usually not painful but can be itchy. Diagnosis is typically clinical \u2014 based on appearance \u2014 and does not require culture in uncomplicated cases, per the IDSA SSTI guideline."}}, {"@type": "Question", "name": "What antibiotics treat impetigo, and what do they cost in California?", "acceptedAnswer": {"@type": "Answer", "text": "For localized non-bullous impetigo, first-line topical treatment is mupirocin 2% ointment applied three times daily for 5 days (generic ~$15\u2013$25 with GoodRx). For extensive or bullous impetigo, oral cephalexin 500 mg four times daily for 7 days (~$10\u2013$20 with GoodRx) is first-line. For suspected CA-MRSA (bullous or purulent), TMP-SMX DS twice daily is recommended per IDSA SSTI guideline (~$8\u2013$15 with GoodRx). Prescription costs at pharmacy are separate from the TeleDirectMD visit fee ($79)."}}, {"@type": "Question", "name": "Does California require an in-person visit before telehealth?", "acceptedAnswer": {"@type": "Answer", "text": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. A California-licensed physician can evaluate impetigo lesions through a synchronous video visit \u2014 the patient shows the affected area on camera. This is particularly practical for impetigo, where the visual appearance guides diagnosis."}}, {"@type": "Question", "name": "How contagious is impetigo and when can I return to work or school in California?", "acceptedAnswer": {"@type": "Answer", "text": "Impetigo is highly contagious through direct contact with infected secretions. Per AAD patient guidance, the infection is usually no longer contagious 24\u201348 hours after starting antibiotic treatment. California school guidelines typically require exclusion until lesions are crusted over or 24 hours after antibiotic initiation. Cover lesions with clean bandages to prevent spreading. Avoid sharing towels, razors, or clothing. Wash hands frequently."}}, {"@type": "Question", "name": "When is impetigo dangerous and when should I go to the ER in California?", "acceptedAnswer": {"@type": "Answer", "text": "Seek urgent in-person care if impetigo spreads rapidly with fever and systemic illness, if bullous impetigo covers large body surface areas, if you are immunocompromised, if lesions appear near the eye, or if there are signs of deeper skin infection (cellulitis). Rare complications of untreated impetigo include post-streptococcal glomerulonephritis (kidney inflammation) \u2014 completing the full antibiotic course is important."}}, {"@type": "Question", "name": "Is my Aetna plan in California in-network with TeleDirectMD?", "acceptedAnswer": {"@type": "Answer", "text": "Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. Verify current in-network status directly with Aetna before your visit. Self pay is $79 regardless of insurance status."}}, {"@type": "Question", "name": "Will Medi-Cal cover my TeleDirectMD impetigo visit?", "acceptedAnswer": {"@type": "Answer", "text": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, find a Medi-Cal-enrolled telehealth provider through your managed care plan or California DHCS at dhcs.ca.gov."}}, {"@type": "Question", "name": "Why does California have higher CA-MRSA rates relevant to impetigo?", "acceptedAnswer": {"@type": "Answer", "text": "California was an early epicenter for community-acquired MRSA (CA-MRSA) \u2014 particularly the USA300 strain \u2014 beginning in the late 1990s and early 2000s. CA-MRSA remains a consideration in community settings. CA-MRSA commonly causes bullous impetigo and other purulent SSTIs. For bullous or recurrent impetigo with CA-MRSA concern, IDSA SSTI guidelines list TMP-SMX DS (along with doxycycline or clindamycin) as an oral option \u2014 TeleDirectMD applies this California-specific antibiotic stewardship principle."}}, {"@type": "Question", "name": "Is UnitedHealthcare in-network with TeleDirectMD in California?", "acceptedAnswer": {"@type": "Answer", "text": "UnitedHealthcare Commercial was approved for California effective May 29, 2026, covering commercial plans and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types. Verify your specific plan eligibility with UHC before booking."}}, {"@type": "Question", "name": "Does California's AB 744 telehealth parity law apply to impetigo visits?", "acceptedAnswer": {"@type": "Answer", "text": "California AB 744 (2019) requires commercial health plans to reimburse telehealth services on the same basis as in-person services. Parity applies when the provider is already in-network with your specific plan. Currently, Aetna (active April 30, 2026) and UnitedHealthcare Commercial (active May 29, 2026) are in-network in California for TeleDirectMD."}}, {"@type": "Question", "name": "How quickly will my antibiotic prescription reach a California pharmacy?", "acceptedAnswer": {"@type": "Answer", "text": "California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022). If an antibiotic is appropriate, TeleDirectMD sends an e-prescription electronically to your chosen California pharmacy during or after your visit. Most California pharmacies fill within one to four hours. Starting antibiotics promptly reduces contagious period and prevents complications."}}]}, {"@context": "https://schema.org", "@type": "HowTo", "name": "How to Get Impetigo Treatment Online in California", "description": "Three steps to receive impetigo treatment evaluation and, if appropriate, a prescription from a California-licensed board-certified physician.", "totalTime": "PT30M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "79"}, "step": [{"@type": "HowToStep", "position": 1, "name": "Book your video visit", "text": "Visit teledirectmd.com and select California Impetigo treatment. No referral needed. Self pay $79. Many visits available same day.", "url": "https://teledirectmd.com/book-online"}, {"@type": "HowToStep", "position": 2, "name": "See a California-licensed MD by secure video", "text": "Connect with a board-certified Family Medicine physician licensed in California. The physician reviews your symptoms, history, and red-flag screening. Consent per CA B&P Section 2290.5 confirmed.", "url": "https://teledirectmd.com/ca/impetigo-treatment-online/"}, {"@type": "HowToStep", "position": 3, "name": "Receive your treatment plan and e-prescription", "text": "If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy during or after the visit.", "url": "https://teledirectmd.com/ca/impetigo-treatment-online/"}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TeleDirectMD", "item": "https://teledirectmd.com"}, {"@type": "ListItem", "position": 2, "name": "California", "item": "https://teledirectmd.com/ca/"}, {"@type": "ListItem", "position": 3, "name": "Impetigo Treatment Online in California", "item": "https://teledirectmd.com/ca/impetigo-treatment-online/"}]}];
 
 const PAGE_CSS = `
 .tdmd-ca-cond{color:var(--tdmd-text);}
@@ -251,7 +251,7 @@ export default function CaImpetigoTreatmentOnline() {
                 {/* v3: Inline opener paragraph — replaces CitableSummaryBlock */}
                 <div className="tdmd-condition-opener" id={`${pid}-opening`}>
                   <p>
-                    <strong>Can I get impetigo treatment online in California?</strong> Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California and are held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. Self pay is $79. <a href="/insurance/">Aetna is in-network</a> as of April 30, 2026; UnitedHealthcare Commercial approved May 29, 2026.
+                    <strong>Can I get impetigo treatment online in California?</strong> Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. Dr. Bhavsar is licensed in California and is held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. Self pay is $79. <a href="/insurance/">Aetna is in-network</a> as of April 30, 2026; UnitedHealthcare Commercial approved May 29, 2026.
                   </p>
                 </div>
 
@@ -290,9 +290,9 @@ export default function CaImpetigoTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> L01.00 (Impetigo, unspecified); L01.01 (Non-bullous impetigo); actual code assigned at visit</p>
@@ -304,7 +304,7 @@ export default function CaImpetigoTreatmentOnline() {
                   <ul>
                     <li>Fast evaluation for impetigo treatment symptoms</li>
                     <li>Red-flag screening for serious complications requiring in-person care</li>
-                    <li>Guideline-based treatment per American Academy of Dermatology (AAD)</li>
+                    <li>Guideline-based treatment per the IDSA SSTI guideline and AAD guidance</li>
                     <li>e-Prescriptions to your CA pharmacy under AB 2789</li>
                     <li>Clear follow-up steps and prevention guidance</li>
                   </ul>
@@ -404,7 +404,7 @@ export default function CaImpetigoTreatmentOnline() {
                   <h3>Receive your treatment plan and e-prescription</h3>
                   <p>If medication is clinically appropriate, a California-compliant e-prescription is sent to your chosen California pharmacy during or after the visit. You receive clear follow-up instructions regardless of treatment choice, including when to seek in-person care.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -417,10 +417,10 @@ export default function CaImpetigoTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Impetigo in California?</h2>
             <p>
-              Impetigo is the most common bacterial skin infection in the United States. While it peaks in children, it occurs in adults — particularly in warm, humid climates, contact sports participants, and those with pre-existing skin conditions. California's warm climate and active outdoor sports culture contribute to impetigo transmission. The California Department of Public Health notes that CA-MRSA strains (including USA300) commonly cause bullous impetigo; topical mupirocin resistance is increasingly recognized in California community settings. — <a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/InfectiousDiseases/MRSA.aspx" rel="noopener" target="_blank">CDPH — MRSA and Skin Infections in California</a>.
+              Impetigo is the most common bacterial skin infection in the United States. While it peaks in children, it occurs in adults — particularly in warm, humid climates, contact sports participants, and those with pre-existing skin conditions. California's warm climate and active outdoor sports culture contribute to impetigo transmission. MRSA spreads in the community through skin-to-skin contact, including in contact sports, and broken skin is often the site of infection. — <a href="https://www.cdc.gov/mrsa/about/index.html" rel="noopener" target="_blank">CDC — MRSA Basics</a>.
             </p>
             <p>
-              Clinical guidance for impetigo treatment is provided by <a href="https://www.aad.org/member/practice/clinical-care/guidelines/impetigo" rel="noopener" target="_blank">American Academy of Dermatology (AAD)</a> through the AAD Clinical Guidelines: Impetigo — 2023 Update and IDSA SSTI Guideline. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for impetigo treatment is provided by <a href="https://www.aad.org/public/diseases/a-z/impetigo-overview" rel="noopener" target="_blank">American Academy of Dermatology (AAD)</a> through AAD impetigo guidance and the IDSA SSTI Guideline. TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes impetigo and who is most at risk in California?</h3>
             <p>
@@ -449,25 +449,6 @@ export default function CaImpetigoTreatmentOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical Impetigo cost comparison">
-                <h3>Typical Impetigo Visit Cost in California</h3>
-                <p className="tdmd-price-caption">Common ranges Californians see before insurance. Actual costs vary by setting and city.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 16, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical California metro pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <h3 style={{ marginTop: '1.75rem' }}>California Payor Status — TeleDirectMD</h3>
@@ -505,7 +486,7 @@ export default function CaImpetigoTreatmentOnline() {
               </table>
             </div>
             <p style={{ marginTop: '1rem' }}>
-              View all <a href="/insurance">insurance options</a> or <a href="/book-online">book a $79 self-pay visit</a>.
+              View all <a href="/insurance/">insurance options</a> or <a href="/book-online/">book a $79 self-pay visit</a>.
             </p>
           </div>
         </section>
@@ -515,7 +496,7 @@ export default function CaImpetigoTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Impetigo Treatment Medication Options and Costs in California</h2>
             <p>
-              Medications for impetigo treatment are selected based on current guidelines from <a href="https://www.aad.org/member/practice/clinical-care/guidelines/impetigo" rel="noopener" target="_blank">American Academy of Dermatology (AAD)</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for impetigo treatment are selected based on the IDSA SSTI guideline, guidance from <a href="https://www.aad.org/public/diseases/a-z/impetigo-overview" rel="noopener" target="_blank">American Academy of Dermatology (AAD)</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Impetigo Treatment medication options and GoodRx prices">
@@ -537,17 +518,11 @@ export default function CaImpetigoTreatmentOnline() {
                     <td><a href="https://www.goodrx.com/mupirocin" target="_blank" rel="noopener">~$15–$25 generic with GoodRx</a></td>
                     <td>First-line for localized non-bullous impetigo per AAD and IDSA SSTI guideline. Apply thin layer to affected area after cleaning. Covers S. aureus and S. pyogenes.</td>
                   </tr>
-                  <tr>
-                    <td><strong>Retapamulin ointment (Altabax) 1% — topical Rx</strong></td>
-                    <td>Apply twice daily × 5 days</td>
-                    <td><a href="https://www.goodrx.com/retapamulin" target="_blank" rel="noopener">~$80–$120 brand; check GoodRx</a></td>
-                    <td>Alternative topical for non-bullous impetigo. More expensive than mupirocin; typically second-line. Per AAD guideline.</td>
-                  </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Cephalexin 500 mg — oral</strong> · First-line</td>
                     <td>500 mg four times daily × 7 days</td>
                     <td><a href="https://www.goodrx.com/cephalexin" target="_blank" rel="noopener">~$10–$20 generic with GoodRx</a></td>
-                    <td>First-line systemic antibiotic for extensive impetigo or bullous impetigo per AAD/IDSA guideline. Covers MSSA and Streptococcus. Avoid if penicillin allergy.</td>
+                    <td>First-line systemic antibiotic for extensive impetigo or bullous impetigo per IDSA SSTI guideline. Covers MSSA and Streptococcus. Avoid if penicillin allergy.</td>
                   </tr>
                   <tr>
                     <td><strong>TMP-SMX DS (Bactrim DS)</strong></td>
@@ -561,6 +536,7 @@ export default function CaImpetigoTreatmentOnline() {
             <p className="tdmd-med-note">
               <strong>Important:</strong> The choice of medication depends on your medical history, allergies, drug interactions, and clinical factors assessed by the physician at the visit. Do not start any prescription medication without a clinical evaluation.
             </p>
+            <p className="tdmd-med-note" data-fda-notes="true"><strong>FDA labeling note:</strong> Trimethoprim-sulfamethoxazole (TMP-SMX), Rx only, has not been approved by the FDA as safe and effective to treat skin and soft tissue infections; the Infectious Diseases Society of America 2014 guideline recommends it where MRSA is a concern and as the penicillin-allergy alternative for bite wounds. Only a licensed physician may prescribe this medication for this condition if, in his clinical judgment, use is medically appropriate. Report side effects to the FDA at www.fda.gov/medwatch or 1-800-FDA-1088.</p>
           </div>
         </section>
 
@@ -610,7 +586,7 @@ export default function CaImpetigoTreatmentOnline() {
                 <p>Book a same-day video visit — California adults, 18+</p>
                 <small>Self pay $79 &middot; Aetna in-network &middot; UHC Commercial approved May 2026 &middot; No ER wait</small>
               </div>
-              <a className="tdmd-ca-cond__cta-btn" href="/book-online" rel="noopener">Book Now &rarr;</a>
+              <a className="tdmd-ca-cond__cta-btn" href="/book-online/" rel="noopener">Book Now &rarr;</a>
             </div>
           </div>
         </section>
@@ -628,8 +604,8 @@ export default function CaImpetigoTreatmentOnline() {
                 <p>Book a same-day video visit. Self pay $79 &middot; Aetna in-network &middot; UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -661,10 +637,6 @@ export default function CaImpetigoTreatmentOnline() {
                   <span className="tdmd-ca-uti__sibling-label">Pink Eye Treatment in CA</span>
                   <span className="tdmd-ca-uti__sibling-why">Periorbital impetigo can cause eye involvement and spread to conjunctiva.</span>
                 </a>
-              <a key="online-doctor-visits" className="tdmd-ca-uti__sibling" href="/ca/online-doctor-visits/">
-                  <span className="tdmd-ca-uti__sibling-label">All Online Doctor Visits in CA</span>
-                  <span className="tdmd-ca-uti__sibling-why">General CA telehealth hub for any condition we treat.</span>
-                </a>
             </div>
           </div>
         </section>
@@ -680,10 +652,10 @@ export default function CaImpetigoTreatmentOnline() {
               <a href="/impetigo-treatment-online/">National Impetigo page</a>
               <a href="/health-guides/">Impetigo health guides</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/insurance">Insurance</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/insurance/">Insurance</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>
@@ -697,8 +669,8 @@ export default function CaImpetigoTreatmentOnline() {
               <li><a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth Resources. Retrieved May 2026.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744). Retrieved May 2026.</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/InfectiousDiseases/MRSA.aspx" rel="noopener" target="_blank">CDPH — MRSA Information. Retrieved May 2026.</a></li>
-              <li><a href="https://www.aad.org/member/practice/clinical-care/guidelines/impetigo" rel="noopener" target="_blank">AAD — Impetigo Clinical Practice Guidelines. Retrieved May 2026.</a></li>
+              <li><a href="https://www.cdc.gov/mrsa/about/index.html" rel="noopener" target="_blank">CDC — MRSA Basics. Retrieved October 2026.</a></li>
+              <li><a href="https://www.aad.org/public/diseases/a-z/impetigo-overview" rel="noopener" target="_blank">AAD — Impetigo: Overview. Retrieved October 2026.</a></li>
               <li><a href="https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/" rel="noopener" target="_blank">IDSA — Skin and Soft Tissue Infection Guidelines. Retrieved May 2026.</a></li>
               <li><a href="https://www.cdc.gov/groupastrep/diseases-public/impetigo.html" rel="noopener" target="_blank">CDC — Impetigo Information. Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>

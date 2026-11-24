@@ -1,0 +1,825 @@
+{
+  "guide": "alaska-wildfire-smoke-respiratory-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 8 verified (all 8 journal DOIs), retractions: none. No expressions of concern, withdrawals or predatory-journal flags; verify_papers surfaced no contrasting evidence. PubMed article types checked for the 6 PubMed-indexed papers: none is a Retracted Publication or Retraction Notice.",
+  "references": [
+    {
+      "n": 1,
+      "kind": "journal",
+      "cited_as": "Hahn MB, Athauda NR, Dong Z, Bradley M, Mao J, Mickley LJ. Advancing new metrics for wildfire smoke exposure: case study in Alaska to bridge public health, climate adaptation, and fire management. Environ Res Lett. 2025;20(8):084073.",
+      "url": "https://doi.org/10.1088/1748-9326/adeff6",
+      "pmid": "40727432",
+      "pmcid": "PMC12290276",
+      "doi": "10.1088/1748-9326/adeff6",
+      "record_title": "Advancing new metrics for wildfire smoke exposure: case study in Alaska to bridge public health, climate adaptation, and fire management.",
+      "record_journal": "Environ Res Lett",
+      "record_year": "2025",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite search_literature (full-text sentences from the paper via its own Smart Citation snippets); Scite verify_papers",
+      "notes": "New source; replaces the AICC homepage (old ref 1), which said nothing about smoke exposure. Modeled exposure dataset 2003-2020; observational/modeling study.",
+      "claims": [
+        {
+          "text": "Interior has been the region of Alaska most severely affected by wildfire smoke",
+          "quote": "As in Chen et al [38], we found that the Interior region of Alaska has been most severely affected by smoke.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Northern Interior Alaska over 300 cumulative days of poor air quality 2003-2020 (about 10% of summer days), smoke waves as long as 43 days",
+          "quote": "Northern Interior Alaska had over 300 cumulative days of poor air quality (∼10% of summer days) over the 18 year period, with smoke waves lasting as long as 43 d.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "In years when over 2 million acres burned, 86% to 98% of census tracts had at least one day of moderate smoke",
+          "quote": "In years when over 2 million acres burned, 86%–98% of census tracts recorded at least 1 d of moderate smoke, and up to 73% experienced dense smoke.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "In summer, wildfires have become the sole driver of air quality exceedances in Alaska",
+          "quote": "As a result, wildfires have become the sole driver of air quality exceedances in Alaska during summer, when other anthropogenic and natural sources are negligible.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most wildfire activity is in the Interior but nearly every Alaska community has experienced smoke; smoke travels hundreds of miles",
+          "quote": "We also found that nearly every community in Alaska has experienced wildfire smoke, even though most wildfire activity is concentrated in the Interior. Wildfire smoke can travel hundreds of miles beyond the burned area",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Urban census tracts in Southcentral were among those flagged for high smoke exposure and vulnerability",
+          "quote": "Tracts identified as having high smoke exposure and high smoke vulnerability were generally in rural Interior Alaska; however, urban tracts in Interior and Southcentral were also identified.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Kasischke ES, Verbyla DL, Rupp TS, et al. Alaska's changing fire regime: implications for the vulnerability of its boreal forests. Can J For Res. 2010;40(7):1313-1324.",
+      "url": "https://doi.org/10.1139/x10-098",
+      "doi": "10.1139/x10-098",
+      "record_title": "Alaska’s changing fire regime — implications for the vulnerability of its boreal forests",
+      "record_journal": "Canadian Journal of Forest Research",
+      "record_year": "2010",
+      "article_type": "Synthesis (journal article; not indexed in PubMed)",
+      "retrieved_with": "Scite search_literature (abstract, volume, issue, pages); Scite verify_papers; PubMed convert_article_ids (no PMID)",
+      "notes": "New source; replaces old ref 2 (AICC yearly summaries, no link). Abstract only (full text restricted); claims limited to the abstract. Scite lists only the first three authors, so the list is printed with et al. Em dash in the record title rendered as a colon to meet the no-em-dash house rule.",
+      "claims": [
+        {
+          "text": "Lightning-dominated fire regime: human-ignited fires fell to about 5% of area burned in the 1990s and 2000s (the page says the regime is dominated by lightning; the abstract gives the 5% human share, from which the lightning share is inferred)",
+          "quote": "The fraction of area burned from human-ignited fires fell from 26% for the 1950s and 1960s to 5% for the 1990s and 2000s",
+          "quote_source": "abstract",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Average of 767,000 hectares burned per year in the 2000s, 50% more than any previous decade since the 1940s",
+          "quote": "During the 2000s, an average of 767 000 ha·year–1 burned, 50% higher than in any previous decade since the 1940s.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "In black spruce forests, late-season fires and fires on well-drained sites burn deeper into surface organic layers",
+          "quote": "Deeper burning of surface organic layers in black spruce ( Picea mariana (Mill.) BSP) forests occurred during late-growing-season fires and on more well-drained sites.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 3,
+      "kind": "agency_page",
+      "cited_as": "U.S. EPA. Green Book: PM-2.5 (2006) Nonattainment Area Area/State/County Report (Fairbanks, AK).",
+      "url": "https://www3.epa.gov/airquality/greenbook/rnca.html",
+      "version_or_date": "Data is current as of October 31, 2026",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "Page gives no designation date; the since-2009 claim is now cited to DEC (ref 13). Approved-SIP claim cut.",
+      "claims": [
+        {
+          "text": "Fairbanks North Star Borough area is currently classified as a Serious PM2.5 nonattainment area",
+          "quote": "Fairbanks, AK (Serious - Nonattainment)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Lei TH, Lu C, Zhang X, et al. Wildfire Smoke: Health Effects, Mechanisms, and Mitigation. Environ Sci Technol. 2024;58(48):21097-21119.",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.est.4c06653",
+      "doi": "10.1021/acs.est.4c06653",
+      "record_title": "Wildfire Smoke: Health Effects, Mechanisms, and Mitigation",
+      "record_journal": "Environmental Science & Technology",
+      "record_year": "2024",
+      "article_type": "Systematic review and meta-analysis (not indexed in PubMed)",
+      "retrieved_with": "Scite read_fulltext (abstract only; full text restricted), Scite search_literature (authors, volume, pages), Scite verify_papers; PubMed convert_article_ids (no PMID); publisher page fetch failed",
+      "notes": "Author list corrected: first author is Tze-Huan Lei (Scite), not \"Lei Y\". Scite returns first three authors only, hence et al. Abstract only: heart-failure, peat and per-microgram claims previously attributed to this source were removed.",
+      "claims": [
+        {
+          "text": "2024 meta-analysis linked wildfire smoke to premature deaths and respiratory illness",
+          "quote": "We discovered that wildfire smoke increases the risk of premature deaths and respiratory morbidity in the general population.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Strongest links to cardiovascular mortality and asthma hospitalizations and emergency visits",
+          "quote": "wildfire smoke had the strongest associations with cardiovascular mortality (RR: 1.018, 95% CI: 1.014−1.021), asthma hospitalization (RR: 1.054, 95% CI: 1.026− 1.082), and asthma emergency department visits",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Older adults included among sensitive groups",
+          "quote": "Subgroup analyses of age found that adults and elderly adults were more susceptible to the cardiopulmonary effects of wildfire smoke.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Hao H, Xu K, Zhang D, et al. Long-Term Wildfire Smoke Exposure and Increased Risk of Heart Failure in Older Adults. J Am Coll Cardiol. 2025;85(25):2439-2451.",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0735109725064046",
+      "pmid": "40562508",
+      "pmcid": "PMC12367337",
+      "doi": "10.1016/j.jacc.2025.04.058",
+      "record_title": "Long-Term Wildfire Smoke Exposure and Increased Risk of Heart Failure in Older Adults.",
+      "record_journal": "J Am Coll Cardiol",
+      "record_year": "2025",
+      "article_type": "Journal Article (retrospective cohort)",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+      "notes": "Volume and pages added from PubMed. Contiguous US Medicare cohort; Alaska not included, now stated on the page.",
+      "claims": [
+        {
+          "text": "Long-term smoke PM2.5 linked to heart failure at a notably higher per-microgram rate than non-smoke PM2.5",
+          "quote": "The HR associated with each 1-μg/m increase in the past 2-year average smoke PM was 1.014 (95% CI: 1.007-1.020), which was notably higher than the corresponding HR for nonsmoke PM (1.005",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Stronger associations in women, Medicaid-eligible people and lower-income areas",
+          "quote": "the association between smoke PM and HF was stronger in women, Medicaid-eligible individuals, and those living in lower income areas",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cohort covered the contiguous U.S. (not Alaska)",
+          "quote": "among older adults across the contiguous United States",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 6,
+      "kind": "agency_page",
+      "cited_as": "Alaska DEC, Division of Air Quality. Air Monitoring & Quality Assurance.",
+      "url": "https://dec.alaska.gov/air/air-monitoring/",
+      "version_or_date": "Last revised 10/15/2026",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "Page names no monitor sites; site list now cited to ref 13 and sensor caveats to ref 14.",
+      "claims": [
+        {
+          "text": "DEC operates and oversees air quality monitoring networks throughout Alaska",
+          "quote": "The Air Monitoring and Quality Assurance Program operates and oversees air quality monitoring networks throughout Alaska.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "DEC issues air advisories when hazardous air conditions occur",
+          "quote": "issue Air Advisories when hazardous air conditions occur",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 7,
+      "kind": "journal",
+      "cited_as": "Emmett SD, Platt A, Turner EL, et al. Mobile health school screening and telemedicine referral to improve access to specialty care in rural Alaska: a cluster-randomised controlled trial. Lancet Glob Health. 2022;10(7):e1023-e1033.",
+      "url": "https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(22)00184-X/fulltext",
+      "pmid": "35714630",
+      "pmcid": "PMC10642973",
+      "doi": "10.1016/S2214-109X(22)00184-X",
+      "record_title": "Mobile health school screening and telemedicine referral to improve access to specialty care in rural Alaska: a cluster- randomised controlled trial.",
+      "record_journal": "Lancet Glob Health",
+      "record_year": "2022",
+      "article_type": "Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+      "notes": "\"17.6 times faster\" removed: 17.6 is an adjusted event-time ratio, not a speed multiple; page now gives mean 41.5 vs 92.0 days.",
+      "claims": [
+        {
+          "text": "Cluster RCT in 15 rural Alaska communities (Bering Strait School District)",
+          "quote": "In this cluster-randomised controlled trial conducted in 15 rural Alaskan communities, USA, we randomised communities to telemedicine specialty referral (intervention) or standard primary care referral (control) for school hearing screening.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Follow-up within 9 months 68.5% vs 32.1% (roughly doubled)",
+          "quote": "268 (68·5%) in the telemedicine referral communities and 128 (32·1%) in primary care referral communities received follow-up within 9 months.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Mean time to follow-up 41.5 vs 92.0 days among children seen",
+          "quote": "mean time to follow-up was 41·5 days (SD 55·7) in the telemedicine referral communities and 92·0 days (75·8) in the primary care referral communities",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Authors suggest telemedicine might apply to other preventive school-based services",
+          "quote": "Telemedicine might apply to other preventive school-based services to improve access to specialty care for rural children.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 8,
+      "kind": "journal",
+      "cited_as": "Yuan X, Yang L, Li C, et al. Wildfire and asthma - The prospective interventions. World Allergy Organ J. 2025;18(9):101110.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12441628/",
+      "pmid": "40969385",
+      "pmcid": "PMC12441628",
+      "doi": "10.1016/j.waojou.2025.101110",
+      "record_title": "Wildfire and asthma - The prospective interventions.",
+      "record_journal": "World Allergy Organ J",
+      "record_year": "2025",
+      "article_type": "Review",
+      "retrieved_with": "PubMed get_article_metadata; Scite search_literature (full-text excerpts, CC-BY); Scite verify_papers",
+      "notes": "The 7-14 day ICS step-up and green/yellow/red protocol were not in this review and were cut. Review cites other papers for these statements; used here only for general statements the review makes.",
+      "claims": [
+        {
+          "text": "Telehealth technologies have been shown to be effective for asthma management",
+          "quote": "Telehealth technologies have been shown to be effective for asthma management",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Doubling the inhaled corticosteroid dose can reduce severe exacerbations",
+          "quote": "A combination of medium dose long-acting beta2-agonist (LABA) or a long-acting muscarinic antagonist (LAMA) with inhaled corticosteroid (ICS) can significantly reduce severe asthma exacerbations, as can doubling the dose of ICS.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Oral corticosteroids are effective for managing asthma attacks",
+          "quote": "For managing asthma attacks, treatments such as oral corticosteroid (OCS), salbutamol sulfate, and omalizumab are highly effective, especially in children.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Doses depend on age and severity",
+          "quote": "asthma from different sources may require different doses or medications, which may depend on age and severity.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Children's high metabolic rates, narrow airways and ongoing development increase susceptibility",
+          "quote": "children and adolescents, due to their high metabolic rates, narrow airways, and ongoing physical development, are more susceptible to respiratory symptoms and require increased medical attention.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 9,
+      "kind": "other_web",
+      "cited_as": "Alaska Native Tribal Health Consortium. Health Aide Programs.",
+      "url": "https://anthc.org/education-training/health-aides/",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "Telemedicine connection, village clinics, twelve regional corporations and since-the-1960s were not on the page and were removed.",
+      "claims": [
+        {
+          "text": "CHA/Ps are the patient's first contact in the Alaska Tribal Health System",
+          "quote": "CHA/Ps are the patient’s first contact within the network of health professionals in the Alaska Tribal Health System.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "CHA/Ps work with a physician or other provider on treatment, medication, stabilization and transport",
+          "quote": "CHA/Ps facilitate health care for a community by working with a physician or other provider to make choices about treatment, medication, stabilization and transport.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "More than 500 CHA/Ps serving more than 170 communities",
+          "quote": "Alaska Health Aide programs have created a workforce of more than 500 Community Health Aides or Practitioners (CHA/Ps), serving more than 170 communities throughout our state.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Program began nearly 60 years ago",
+          "quote": "The evolution of the Community Health Aide program began nearly 60 years ago",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 10,
+      "kind": "agency_page",
+      "cited_as": "U.S. EPA. Research on DIY Air Cleaners to Reduce Wildfire Smoke Indoors.",
+      "url": "https://www.epa.gov/air-research/research-diy-air-cleaners-reduce-wildfire-smoke-indoors",
+      "version_or_date": "Published August 19, 2021; last updated July 6, 2026",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "\"Roughly on par with a $700 commercial HEPA\" removed; not on the page.",
+      "claims": [
+        {
+          "text": "Corsi-Rosenthal box with four 1-inch MERV 13 filters and shroud: CADR 401 plus or minus 31",
+          "quote": "Corsi-Rosenthal Box with four 1” MERV 13 filters and cardboard shroud | 401 ± 31",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Shrouded multi-filter DIY designs more effective at removing particles than higher-priced commercial units",
+          "quote": "DIY air cleaner designs with a cardboard shroud and multiple filters increased the cost effectiveness of DIY air cleaners making them more effective at removing particles than higher-priced commercial units.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dirty filters made DIY units almost completely ineffective; change filters often",
+          "quote": "DIY air cleaners were almost completely ineffective with dirty filters, highlighting the need for frequent filter replacement during smoke events",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 11,
+      "kind": "journal",
+      "cited_as": "Vega SL, Childs M, Aggarwal S, Nethery RC. Wildfire Smoke Exposure and Cause-Specific Hospitalization in Older Adults. JAMA Netw Open. 2025;8(4):e257956.",
+      "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2833326",
+      "pmid": "40305019",
+      "pmcid": "PMC12044514",
+      "doi": "10.1001/jamanetworkopen.2025.7956",
+      "record_title": "Wildfire Smoke Exposure and Cause-Specific Hospitalization in Older Adults.",
+      "record_journal": "JAMA Netw Open",
+      "record_year": "2025",
+      "article_type": "Journal Article (retrospective cohort)",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+      "notes": "Now cited inline in the heart-risk FAQ (previously uncited). Cardiovascular increase was not statistically significant, now stated.",
+      "claims": [
+        {
+          "text": "High smoke levels associated with more respiratory hospitalizations in older adults in western states",
+          "quote": "In this cohort study, exposure to high levels of smoke pollution was associated with an increase in hospitalizations for respiratory diseases.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Rise in cardiovascular hospitalizations was not statistically significant",
+          "quote": "hospitalizations for cardiovascular concerns increased by 2.61 (95% CI, -0.09 to 5.30), a difference that was not statistically significant.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 12,
+      "kind": "agency_page",
+      "cited_as": "CDC. How Wildfire Smoke Affects Your Body.",
+      "url": "https://www.cdc.gov/wildfires/risk-factors/index.html",
+      "version_or_date": "Published May 15, 2024; updated and reviewed August 24, 2026",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "Printed title corrected from \"Wildfires and Chronic Conditions\" to the linked page's title. Previously uncited; now supports the at-risk groups.",
+      "claims": [
+        {
+          "text": "People with asthma, COPD, heart disease or other chronic conditions are among those most at risk",
+          "quote": "People with chronic conditions like asthma, Chronic Obstructive Pulmonary Disease (COPD), diabetes, chronic kidney disease, or heart disease",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pregnant people, children and responders are among those most at risk",
+          "quote": "People most at-risk include: ... Those who are pregnant ... Children ... Responders",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Sensitive-group list for acting one AQI category earlier (older adults part supported by ref 4, not this page)",
+          "quote": "Wildfire smoke can make anyone sick, but some people have a higher risk of getting sick.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 13,
+      "kind": "agency_page",
+      "cited_as": "Alaska DEC, Division of Air Quality. 2025 Air Monitoring Network Plan Final.",
+      "url": "https://dec.alaska.gov/air/air-monitoring/guidance/monitoring-plans/2025-annual-network-plan/",
+      "version_or_date": "Due to EPA by July 1, 2025; site data as of May 2025",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "New source. The plan lists PM2.5 at Garden (Anchorage), Palmer, A Street and NCore (Fairbanks), Hurst Road (North Pole, SPM) and Floyd Dryden (Juneau).",
+      "claims": [
+        {
+          "text": "Fairbanks North Star Borough in nonattainment for PM2.5 since 2009",
+          "quote": "The FNSB has been in non-attainment for PM2.5 since 2009.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "PM2.5 monitoring sites in Fairbanks, North Pole, Anchorage, Palmer and Juneau",
+          "quote": "397 Hamilton Ave., Fairbanks, AK | PM2.5 | SLAMS ... 5310 Bodenburg Spur Rd., Palmer, AK | PM10 PM2.5 | SLAMS ... 3800 Mendenhall Loop Rd., Juneau, AK | PM10 PM2.5 | SLAMS",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Additional wildland fire monitoring sites and a focus on PM2.5 during wildfire seasons",
+          "quote": "additional sites for rural road dust and wildland fire monitoring",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 14,
+      "kind": "agency_page",
+      "cited_as": "Alaska DEC, Division of Air Quality. Community-Based Air Monitoring Network.",
+      "url": "https://dec.alaska.gov/air/air-monitoring/instruments-sites/community-based-monitoring/",
+      "version_or_date": "Last Updated: 9/22/2026",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "New source. Replaces the uncited claim that PurpleAir reads high in humidity; DEC describes low-cost sensor limits in general and lists the PurpleAir Map as an external resource.",
+      "claims": [
+        {
+          "text": "Low-cost sensors more sensitive to humidity and temperature",
+          "quote": "internal technology is more sensitive to environmental conditions such as humidity and temperature",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Fog and ice fog can cause artificially high readings (DEC ties the artificially high readings to fog and ice fog overcounting larger particles, PM10)",
+          "quote": "Ice fog and fog can cause optical sensors in low-cost sensors ... resulting in artificially high readings",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Best for relative comparisons and trends, not exact values; only regulatory-grade monitors meet full accuracy and QA",
+          "quote": "Only regulatory-grade monitors meet the accuracy, precision, and rigorous calibration and quality assurance",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Sensors placed in rural communities",
+          "quote": "placed directly in rural communities at libraries, tribal headquarters, schools, and other community spaces",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 15,
+      "kind": "agency_page",
+      "cited_as": "Alaska DEC, Division of Air Quality. Wildfire Smoke: Particulate Matter Information.",
+      "url": "https://dec.alaska.gov/air/air-monitoring/alaska-concerns/wildfire-smoke-info/",
+      "version_or_date": "Last revised 9/10/2026",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "New source; replaces the uncited \"DEC daily smoke forecast ... media outlets\" line.",
+      "claims": [
+        {
+          "text": "DEC issues air quality advisories for pollution events including wildfires",
+          "quote": "DEC issues air quality advisories for pollution events throughout the state, including wildfires.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Fairbanks North Star Borough prepares a summer 3-day air quality forecast",
+          "quote": "During the summer months, the Fairbanks North Star Borough prepares a 3‐day Air Quality forecast for the Fairbanks area.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 16,
+      "kind": "agency_page",
+      "cited_as": "AirNow. AQI Basics for Ozone and Particle Pollution.",
+      "url": "https://www.airnow.gov/aqi/aqi-basics",
+      "version_or_date": "No page date shown",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "New inline citation (URL was already in the JSON-LD citation list). Category ranges in the grid match.",
+      "claims": [
+        {
+          "text": "AQI runs from Good (0 to 50) to Hazardous (301 and higher)",
+          "quote": "Green | \"Good\" | \"0 to 50\" ... Maroon | \"Hazardous\" | \"301 and higher\"",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "At 101 to 150, members of sensitive groups may experience health effects",
+          "quote": "Members of sensitive groups may experience health effects. The general public is less likely to be affected.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 17,
+      "kind": "agency_page",
+      "cited_as": "U.S. EPA. Final Updates to the Air Quality Index (AQI) for Particulate Matter. Fact sheet, February 2024.",
+      "url": "https://www.epa.gov/system/files/documents/2024-02/pm-naaqs-air-quality-index-fact-sheet.pdf",
+      "version_or_date": "February 2024; effective May 6, 2024",
+      "retrieved_with": "WebFetch of official PDF",
+      "notes": "New source for the 2024 PM2.5 AQI update.",
+      "claims": [
+        {
+          "text": "EPA updated the PM2.5 AQI breakpoints effective May 6, 2024",
+          "quote": "The AQI updates will become effective May 6, 2024.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hazardous now begins at 225.5 µg/m³ PM2.5",
+          "quote": "Hazardous (301+) | 225.5+",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 18,
+      "kind": "agency_page",
+      "cited_as": "CDC. Wildfire Smoke and People with Chronic Conditions.",
+      "url": "https://www.cdc.gov/wildfires/risk-factors/wildfire-smoke-and-people-with-chronic-conditions.html",
+      "version_or_date": "Published May 15, 2024; updated and reviewed August 24, 2026",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "New source for emergency red flags, respirators, action plan and medicine supply.",
+      "claims": [
+        {
+          "text": "Call 911 or go to an emergency department for severe trouble breathing, chest pain, or a suspected heart attack or stroke",
+          "quote": "Call 9-1-1 or go right away to an emergency department for medical emergencies like severe trouble breathing, chest pain, or if you think you are having a heart attack or stroke.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Wear a NIOSH Approved N95 respirator if you must go outdoors during smoke",
+          "quote": "If you must go outdoors during a wildfire smoke event, wear a NIOSH Approved N95 respirator.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Follow your asthma action plan during wildfire smoke",
+          "quote": "Follow your healthcare provider's advice and your asthma action plan if you have one.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Keep a 7 to 10-day supply of prescription medicines ready for evacuation",
+          "quote": "Store a 7 to 10-day supply of prescription medicines in a waterproof, childproof container to take with you if you evacuate.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 19,
+      "kind": "agency_page",
+      "cited_as": "CDC. Safety Guidelines: Wildfires and Wildfire Smoke.",
+      "url": "https://www.cdc.gov/wildfires/safety/how-to-safely-stay-safe-during-a-wildfire.html",
+      "version_or_date": "Published May 15, 2024; updated July 17, 2026; reviewed August 24, 2026",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "New source for clean room, MERV 13, DIY fan safety, respirator fit.",
+      "claims": [
+        {
+          "text": "Choose a room you can close off and set up a portable air cleaner or filter there",
+          "quote": "Choose a room you can close off from outside air. ... Set up a portable air cleaner or a filter to keep the air in this room clean.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Use high-efficiency filters, preferably MERV 13 or higher, in central systems",
+          "quote": "If you have a central air conditioning system, use high efficiency filters (preferably MERV 13 or higher if your system can use it) to help clean the air.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Never leave a DIY box fan unit unattended",
+          "quote": "If you use a do-it-yourself box fan filtration unit, never leave it unattended.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "An N95 or P100 is most protective; respirators must fit tightly",
+          "quote": "An N95 or P100 is most protective. ... A respirator is a face covering that fits tightly to your face to filter out smoke before you breathe it in.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 20,
+      "kind": "agency_page",
+      "cited_as": "CDC. Asthma Action Plan (patient template).",
+      "url": "https://www.cdc.gov/asthma/action-plan/documents/asthma-action-plan-508.pdf",
+      "version_or_date": "Template; no date printed",
+      "retrieved_with": "WebFetch of official PDF",
+      "notes": "New source for action-plan zones and danger signs. Replaces the unsourced \"rescue inhaler more than every four hours\" threshold with the template's red-zone wording.",
+      "claims": [
+        {
+          "text": "Green zone: no coughing, wheezing, chest tightness or shortness of breath",
+          "quote": "Green Zone: No coughing, wheezing, chest tightness, or shortness of breath.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Yellow zone: one or more of those symptoms",
+          "quote": "Yellow Zone: One or more of these symptoms: coughing, wheezing, chest tighness,",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Red zone: very short of breath or quick-relief medicines have not helped; asthma attack not responding to quick-relief inhaler is an emergency",
+          "quote": "Red Zone: EMERGENCY! Very short of breath, or quick-relief medicines have not helped,",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Danger signs (trouble walking or talking from shortness of breath; blue, pale or gray lips or fingernails): go to the hospital or call 911",
+          "quote": "If you have these DANGER SIGNS: trouble walking or talking due to shortness of breath or your lips or fingernails are blue, pale, or gray, ... These DANGER SIGNS mean you need help right away.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 21,
+      "kind": "journal",
+      "cited_as": "Hahn MB, Kuiper G, O'Dell K, Fischer EV, Magzamen S. Wildfire Smoke Is Associated With an Increased Risk of Cardiorespiratory Emergency Department Visits in Alaska. GeoHealth. 2021;5(5):e2020GH000349.",
+      "url": "https://doi.org/10.1029/2020GH000349",
+      "pmid": "34036208",
+      "pmcid": "PMC8137270",
+      "doi": "10.1029/2020GH000349",
+      "record_title": "Wildfire Smoke Is Associated With an Increased Risk of Cardiorespiratory Emergency Department Visits in Alaska.",
+      "record_journal": "Geohealth",
+      "record_year": "2021",
+      "article_type": "Journal Article (case-crossover study)",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers (one contrasting citation in Scite tally; not surfaced by verify_papers)",
+      "notes": "New Alaska-specific source (Anchorage, Fairbanks, Mat-Su, 2015-2019).",
+      "claims": [
+        {
+          "text": "Smoke days linked to higher odds of asthma-related ED visits among people over 65 and Alaska Native people",
+          "quote": "increased odds of asthma-related ED visits among 15-65 year olds (OR = 1.12, 95% CI = 1.08, 1.16), people >65 years (OR = 1.15, 95% CI = 1.01, 1.31), among Alaska Native people (OR = 1.16",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Asthma-related ED visits rose on smoke days in Anchorage and Fairbanks",
+          "quote": "and in Anchorage (OR = 1.10, 95% CI = 1.05, 1.15) and Fairbanks (OR = 1.12, 95% CI = 1.07, 1.17).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Heart failure-related ED visits increased among Alaska Native people",
+          "quote": "There was an increased risk of heart failure related ED visits for Alaska Native people (Lag Day 5 OR = 1.13, 95% CI = 1.02, 1.25).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Rural populations may delay seeking care",
+          "quote": "We found evidence that rural populations may delay seeking care.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 22,
+      "kind": "agency_page",
+      "cited_as": "Alaska DEC. DEC Finalizes Fairbanks Serious SIP. News release, December 13, 2019.",
+      "url": "https://dec.alaska.gov/commish/newsroom/archive/19-12-dec-finalizes-fairbanks-serious-sip",
+      "version_or_date": "December 13, 2019",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "New source for the winter wood-smoke and inversion mechanism. Release says the Serious SIP does not require EPA approval to take effect, so the old \"approved state implementation plan\" wording was cut.",
+      "claims": [
+        {
+          "text": "Winter wood smoke from home heating, coupled with temperature inversions, is a source of Fairbanks-area PM2.5",
+          "quote": "Wood smoke from home heating in the winter, coupled with temperature inversions and other natural conditions",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 23,
+      "kind": "agency_page",
+      "cited_as": "Alaska Division of Corporations, Business and Professional Licensing. Telehealth Information.",
+      "url": "https://commerce.alaska.gov/web/cbpl/TelehealthInformation",
+      "version_or_date": "No page date; references SB 91 effective October 17, 2024",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "New source for the Alaska telehealth FAQ; replaces the uncited \"established and new-patient telehealth for most primary and urgent care\" legal claim.",
+      "claims": [
+        {
+          "text": "A provider may deliver care via telehealth without an initial in-person exam",
+          "quote": "A provider may deliver health care services via telehealth without an initial in-person exam",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Alaska laws are based on where the patient receives service",
+          "quote": "Alaska laws are based on where the patient receives service.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    },
+    {
+      "n": 24,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus Medical Encyclopedia. Asthma.",
+      "url": "https://medlineplus.gov/ency/article/000141.htm",
+      "version_or_date": "Review Date 1/1/2025",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "New source for asthma red flags, quick-relief use, triggers and pre-exercise use.",
+      "claims": [
+        {
+          "text": "Emergency care for severe chest pain, extreme difficulty breathing, bluish lips, drowsiness or confusion",
+          "quote": "Go to the emergency room or call Emergency Medical Services (EMS) right away if these symptoms occur: Drowsiness or confusion ... Severe chest pain ... Bluish color to the lips and face ... Extreme difficulty breathing",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Contact provider right away if an asthma attack requires more medicine than recommended",
+          "quote": "Contact your provider right away if: An asthma attack requires more medicine than recommended",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Tell your clinician if using quick-relief medicine twice a week or more",
+          "quote": "Tell your provider if you are using quick-relief medicines twice a week or more.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cold weather is a common asthma trigger",
+          "quote": "Changes in weather (most often cold weather)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Quick-relief medicine can be taken just before physical activity",
+          "quote": "Just before physical activity to help prevent asthma symptoms",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Fainting as an emergency sign (listed on page as uncited red flag; MedlinePlus supports confusion and bluish lips in the same list item)",
+          "quote": "Decreased level of alertness, such as severe drowsiness or confusion, during an asthma attack",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ],
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": []
+    }
+  ]
+}

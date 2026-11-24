@@ -3,11 +3,11 @@
   "conditionShort": "Eczema",
   "conditionSlug": "eczema-treatment-online",
   "pageTitle": "Eczema Online Treatment in {state} | TeleDirectMD",
-  "metaDescription": "Evidence-based eczema treatment for {state} adults by secure video visit. Moisturizer guidance, topical steroid prescriptions, flare management, and red-flag screening. Self pay option starting at $79. Insurance is not required.",
+  "metaDescription": "Evidence-based eczema treatment for {state} adults by secure video visit. Moisturizer guidance, topical steroid prescriptions, flare management, and red-flag screening. Flat $79 self-pay option. Insurance is not required.",
   "ogImageAlt": "Eczema treatment in {state} by TeleDirectMD",
   "hero": {
     "h1": "Eczema Treatment in {state} (Atopic Dermatitis)",
-    "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
+    "subtitle": "{state} adult care by secure video visit, flat $79 self-pay option, MD-only, insurance is not required.",
     "introParagraph": "Eczema, also called atopic dermatitis, is a chronic inflammatory skin condition that causes itching, redness, dryness, and recurrent flares. It is one of the most common skin conditions in the United States and can significantly affect quality of life and sleep. Telehealth has demonstrated 84.4 percent diagnostic accuracy for eczema per published studies, making video-based assessment a well-supported option for mild to moderate disease. Not every itchy rash is eczema, and not every eczema flare is safe for telehealth management. TeleDirectMD uses a safety-first approach that screens for red flags including eczema herpeticum, widespread secondary bacterial infection, erythroderma, and signs of severe disease needing systemic therapy before determining whether treatment by video visit is appropriate. If the clinical picture supports mild to moderate atopic dermatitis without red flags, guideline-based treatment including moisturizer counseling, topical corticosteroids, and flare management can be initiated by video, while adults with severe or complicated presentations are directed to dermatology or urgent in-person care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
       {
@@ -32,7 +32,7 @@
       }
     ],
     "benefits": [
-      "Self pay option starting at $79",
+      "Flat $79 self-pay option",
       "MD-only care (no mid-levels)",
       "Insurance is not required",
       "Licensed telehealth care for patients located in {state} at the time of the visit"
@@ -48,7 +48,7 @@
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for grouped vesicles with punched-out erosions and fever (possible eczema herpeticum), widespread honey-crusted lesions suggesting bacterial superinfection, severe rash covering most of the body, signs of severe illness, or rapidly worsening symptoms. TeleDirectMD does not prescribe controlled substances."
     },
     "icd10Display": "L30.9, L20.9, L20.89 (final coding depends on clinical details)",
-    "quickAnswer": "Yes — adults (18+) in {state} with mild to moderate eczema can be treated online. A board-certified MD reviews your rash photos and flare history by secure video and, following AAAAI/AAD 2023 guidance, prescribes a topical corticosteroid like hydrocortisone or triamcinolone, or a steroid-sparing option such as tacrolimus, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Consistent moisturizing is foundational. Grouped vesicles with fever (eczema herpeticum) is a medical emergency requiring immediate in-person care."
+    "quickAnswer": "Yes, adults (18+) in {state} with mild to moderate eczema can be treated online. A board-certified MD reviews your rash photos and flare history by secure video and, following AAAAI/AAD 2023 guidance, prescribes a topical corticosteroid like hydrocortisone or triamcinolone, or a steroid-sparing option such as tacrolimus, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Consistent moisturizing is foundational. Grouped vesicles with fever (eczema herpeticum) is a medical emergency requiring immediate in-person care."
   },
   "eligibility": {
     "sectionTitle": "Eczema Telehealth Eligibility Checklist for {state}",
@@ -108,7 +108,7 @@
     "rows": [
       {
         "option": "TeleDirectMD",
-        "cost": "Self pay option starting at $79",
+        "cost": "Flat $79 self-pay option",
         "wait": "Same day, often within hours",
         "provider": "Board-certified MD only (no mid-levels)",
         "bestFor": "Mild to moderate eczema flares, moisturizer and topical steroid guidance, photo-based assessment, and ongoing flare management",
@@ -116,7 +116,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Uncertain rash diagnosis, moderate flares needing in-person exam, or suspected secondary skin infection",
@@ -124,7 +124,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Eczema herpeticum, erythroderma, severe systemic illness, or rapidly worsening rash with fever",
@@ -132,7 +132,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $250+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "3 to 14 days typical",
         "provider": "Family medicine or internal medicine MD or DO",
         "bestFor": "Chronic eczema management, trigger evaluation, allergy assessment, and coordination of long-term care",
@@ -140,7 +140,7 @@
       },
       {
         "option": "Dermatology",
-        "cost": "$150 to $400+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Weeks to months (varies)",
         "provider": "Dermatologist MD or DO",
         "bestFor": "Severe or refractory eczema, biologic therapy (dupilumab), patch testing, phototherapy, and systemic immunosuppressant management",
@@ -197,7 +197,7 @@
     "sectionTitle": "What Does Eczema Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "$79 flat visit · no insurance required · generic topical steroids often $5–$15",
+    "priceSubtext": "$79 flat visit · no insurance required · prescriptions priced separately",
     "includes": [
       "MD evaluation and red-flag screening",
       "Photo-based assessment for eczema vs conditions requiring in-person care",
@@ -212,27 +212,9 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $250+",
-        "width": 45,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 55,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
-    "footnote": "Total cost is transparent: the $79 visit plus a generic topical corticosteroid (typically $5–$15 with a pharmacy coupon) means most patients pay about $84–$94 all-in — no membership, and your treatment plan is tailored to flare severity and location.",
+    "footnote": "Total cost is transparent: the visit is $79 flat, and any prescription is paid separately at the pharmacy, where prices vary by medication and pharmacy. No membership, and your treatment plan is tailored to flare severity and location.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -296,12 +278,12 @@
         "Oozing, weeping, or honey-crusted lesions over eczema patches",
         "Possible secondary bacterial infection (impetiginized eczema)",
         "Sometimes",
-        "If widespread, with fever, or rapidly spreading — needs in-person evaluation"
+        "If widespread, with fever, or rapidly spreading: needs in-person evaluation"
       ],
       [
         "Grouped vesicles, punched-out erosions, fever",
         "Eczema herpeticum (herpes superinfection of eczema)",
-        "No — emergency",
+        "No, emergency",
         "Medical emergency. Seek ER care immediately."
       ],
       [
@@ -376,7 +358,7 @@
     "redFlags": {
       "title": "Red Flags Requiring In-Person or ER Care",
       "items": [
-        "Grouped vesicles or punched-out erosions with fever (eczema herpeticum — medical emergency)",
+        "Grouped vesicles or punched-out erosions with fever (eczema herpeticum: medical emergency)",
         "Widespread honey-crusted or oozing lesions with fever (bacterial superinfection)",
         "Severe redness covering most of the body (erythroderma)",
         "Eczema unresponsive to topical corticosteroids and moisturizer therapy",
@@ -400,11 +382,11 @@
       },
       {
         "title": "Steroid-sparing options",
-        "text": "Topical calcineurin inhibitors (TCIs) such as tacrolimus ointment and pimecrolimus cream are steroid-sparing alternatives particularly useful for the face, eyelids, and skin folds where long-term TCS use is less ideal. Crisaborole, a topical PDE4 inhibitor, is another non-steroidal option for mild to moderate eczema. These agents can also be used for proactive maintenance therapy."
+        "text": "Topical calcineurin inhibitors (TCIs) such as tacrolimus ointment and pimecrolimus cream are steroid-sparing alternatives particularly useful for the face, eyelids, and skin folds where long-term TCS use is less ideal. These agents can also be used for proactive maintenance therapy."
       },
       {
         "title": "Trigger avoidance and adjunctive care",
-        "text": "Identifying and avoiding triggers is essential for long-term management. Common triggers include harsh soaps and detergents, hot water, wool and rough fabrics, dry air, stress, and known allergens. Dilute bleach baths may be suggested for moderate to severe eczema per guideline recommendations. Antihistamines such as hydroxyzine or diphenhydramine may help with nighttime itch and sleep disruption. The guidelines do not recommend elimination diets unless a specific food allergy has been confirmed by testing."
+        "text": "Identifying and avoiding triggers is essential for long-term management. Common triggers include harsh soaps and detergents, hot water, wool and rough fabrics, dry air, stress, and known allergens. Dilute bleach baths are sometimes suggested for people with frequent skin infections, although the 2023 AAD adult guideline conditionally recommends against topical antiseptics such as bleach. Antihistamines such as hydroxyzine or diphenhydramine may help with nighttime itch and sleep disruption. The guidelines do not recommend elimination diets unless a specific food allergy has been confirmed by testing."
       }
     ],
     "doesNotManage": [
@@ -450,19 +432,16 @@
         "Prescription. Steroid-sparing alternative. May cause mild burning initially. Good option when steroid use is a concern."
       ],
       [
-        "Crisaborole 2% ointment (PDE4 inhibitor)",
-        "Mild to moderate eczema in adults",
-        "Apply thin layer to affected area twice daily",
-        "Prescription. Non-steroidal topical anti-inflammatory. May cause application site burning or stinging."
-      ],
-      [
         "Hydroxyzine 25 mg (antihistamine)",
         "Nighttime itch and sleep disruption from eczema",
         "Take by mouth at bedtime as directed",
         "Prescription. Sedating antihistamine that may help with itch-related sleep disruption. Not for daytime use due to drowsiness."
       ]
     ],
-    "note": "Example regimens only. The actual medication, potency, and treatment plan are determined by the MD after reviewing your rash, flare history, affected areas, prior treatments, and red flags. TeleDirectMD does not prescribe controlled substances."
+    "note": "Example regimens only. The actual medication, potency, and treatment plan are determined by the MD after reviewing your rash, flare history, affected areas, prior treatments, and red flags. TeleDirectMD does not prescribe controlled substances.",
+    "notPrescribed": [
+      "Crisaborole (Eucrisa) and dupilumab (Dupixent): not prescribed by TeleDirectMD; biologic therapy needs in-person specialty evaluation."
+    ]
   },
   "homeCare": {
     "sectionTitle": "Home Care, Flare Prevention, and Follow-up",
@@ -472,7 +451,7 @@
         "Apply thick, fragrance-free moisturizer (cream or ointment, not lotion) liberally and frequently throughout the day",
         "Take lukewarm baths or showers (not hot) for 10 to 15 minutes, then apply moisturizer immediately while skin is still damp",
         "Use prescribed topical medications as directed, applying them before your moisturizer",
-        "Avoid scratching — keep nails short, and consider cotton gloves at night if scratching during sleep",
+        "Avoid scratching: keep nails short, and consider cotton gloves at night if scratching during sleep",
         "Wear soft, breathable fabrics such as cotton and avoid wool and rough synthetics"
       ]
     },
@@ -503,7 +482,7 @@
       "title": "You Should Not Use TeleDirectMD If",
       "items": [
         "You are under 18 years old",
-        "You have grouped vesicles, punched-out erosions, and fever (eczema herpeticum — this is a medical emergency)",
+        "You have grouped vesicles, punched-out erosions, and fever (eczema herpeticum: this is a medical emergency)",
         "You have widespread oozing or honey-crusted lesions with fever (bacterial superinfection)",
         "Your rash covers most of your body with severe redness (erythroderma)",
         "You have severe eczema that has not responded to topical corticosteroids and moisturizer therapy",
@@ -543,7 +522,7 @@
       },
       {
         "question": "How much does online eczema treatment cost in {state}?",
-        "answer": "TeleDirectMD offers a transparent self pay option starting at $79 for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy."
+        "answer": "TeleDirectMD offers a transparent flat $79 self-pay option for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy."
       },
       {
         "question": "Can a doctor diagnose eczema without an in-person exam?",
@@ -567,7 +546,7 @@
       },
       {
         "question": "Does TeleDirectMD treat eczema in other states?",
-        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states where our physicians are licensed. You must be physically located in the state where you are requesting care at the time of your video visit."
+        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states where Dr. Bhavsar is licensed. You must be physically located in the state where you are requesting care at the time of your video visit."
       },
       {
         "question": "Does {state} allow telemedicine for this kind of visit?",
@@ -593,16 +572,16 @@
   },
   "references": [
     {
-      "text": "AAD Guidelines of Care for the Management of Atopic Dermatitis (Sidbury et al., 2023)",
-      "url": "https://www.jaad.org/article/S0190-9622(23)02884-6/fulltext"
+      "text": "AAD Guidelines of Care for the Management of Atopic Dermatitis in Adults with Topical Therapies (Sidbury et al., J Am Acad Dermatol, 2023)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36641009/"
     },
     {
       "text": "AAAAI/ACAAI Joint Task Force Practice Parameter for Atopic Dermatitis (2024 Update)",
       "url": "https://www.aaaai.org/practice-resources/practice-parameters-and-other-guidelines/atopic-dermatitis"
     },
     {
-      "text": "Atopic Dermatitis: Diagnosis and Treatment, American Family Physician",
-      "url": "https://www.aafp.org/pubs/afp/issues/2022/0700/atopic-dermatitis.html"
+      "text": "Atopic Dermatitis: Diagnosis and Treatment, American Family Physician (2020)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32412211/"
     },
     {
       "text": "Atopic Dermatitis, StatPearls (2025)",
@@ -621,8 +600,7 @@
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
       "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate eczema symptoms, provide evidence-based guidance, and prescribe topical treatments when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
-      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during suspected eczema herpeticum, erythroderma, or severe illness. This service is intended for mild to moderate atopic dermatitis and is not a substitute for dermatology evaluation when systemic therapy or biologic agents are needed.",
-      "Online eczema treatment in {state}. Atopic dermatitis prescription online. Eczema flare treatment by video visit."
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during suspected eczema herpeticum, erythroderma, or severe illness. This service is intended for mild to moderate atopic dermatitis and is not a substitute for dermatology evaluation when systemic therapy or biologic agents are needed."
     ]
   },
   "relatedConditions": [
@@ -756,10 +734,6 @@
       {
         "name": "Pimecrolimus",
         "id": "pimecrolimus"
-      },
-      {
-        "name": "Crisaborole",
-        "id": "crisaborole"
       }
     ],
     "treatments": [
@@ -782,7 +756,7 @@
     "guidelines": [
       {
         "name": "AAD Guidelines of Care for Atopic Dermatitis",
-        "url": "https://www.jaad.org/article/S0190-9622(23)02884-6/fulltext",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36641009/",
         "publisher": "American Academy of Dermatology",
         "id": "aad-ad"
       },
@@ -812,5 +786,9 @@
     "webpageDescription": "{state} eczema treatment by secure MD video visit for adults. Evidence-based evaluation of atopic dermatitis, photo-based rash assessment, guideline-based moisturizer and topical treatment when appropriate, and clear rules for when in-person dermatology care is needed."
   },
   "guidelineSource": "aadEczema",
-  "conditionType": "treatment"
+  "conditionType": "treatment",
+  "guideLink": {
+    "label": "Eczema (Atopic Dermatitis) Guide",
+    "url": "/health-guides/eczema-atopic-dermatitis-guide/"
+  }
 }

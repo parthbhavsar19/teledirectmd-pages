@@ -20,7 +20,7 @@ const PHYSICIAN = {
   specialty: 'Family Medicine',
   licenseState: 'California',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 const CA_PAYORS = [
@@ -28,8 +28,8 @@ const CA_PAYORS = [
     notes: 'Commercial plans. In-network as of April 30, 2026. Verify plan eligibility with Aetna before booking.' },
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true,
     notes: 'Covers UHC Commercial and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types.' },
-  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Enrollment pending. Self pay ($79) available.' },
+  { name: 'Anthem Blue Cross', status: 'Active', effective: 'September 23, 2026', inNetwork: true,
+    notes: 'PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.' },
   { name: 'Cigna', status: 'Pending', effective: 'Pending determination', inNetwork: false,
     notes: 'Pending — Telehealth Only review in progress. Self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false,
@@ -67,7 +67,7 @@ const MEDICATIONS = [
 
 const CA_SIBLINGS = [
   { slug: 'bv-treatment-online', label: 'BV Treatment in CA', why: 'Common differential — discharge symptoms overlap significantly with yeast infection.' },
-  { slug: 'uti-treatment-online', label: 'UTI Treatment in CA', why: 'Dysuria and pelvic discomfort can occur in both conditions.' },
+  { slug: 'uti-treatment-online', label: 'UTI Treatment for Women in CA', why: 'Dysuria and pelvic discomfort can occur in both conditions.' },
   { slug: 'chlamydia-treatment-online', label: 'Chlamydia Treatment in CA', why: 'STI differential when vaginal discharge is present.' },
   { slug: 'trichomoniasis-treatment-online', label: 'Trichomoniasis Treatment in CA', why: 'Trich can cause discharge and vulvar irritation similar to VVC.' },
   { slug: 'vaginal-dryness-treatment-online', label: 'Vaginal Dryness Treatment in CA', why: 'GSM/menopause-related symptoms sometimes confused with recurrent VVC.' },
@@ -120,21 +120,21 @@ const FAQ_ITEMS = [
   { question: 'When does a yeast infection require in-person care in California?',
     answer: (
       <p>
-        Seek in-person evaluation if: symptoms don&apos;t improve within 72 hours of OTC treatment; this is your first episode or you are not certain of the diagnosis; you are pregnant; you have recurrent VVC (≥4 episodes per year); you have fever, abdominal pain, or pelvic pain (possible PID); or you may have been exposed to a sexually transmitted infection. Planned Parenthood California provides in-person evaluation with sliding-scale fees at <a href="https://www.plannedparenthood.org/get-care" rel="noopener" target="_blank">plannedparenthood.org/get-care</a>. California Title X clinics offer free or low-cost care through <a href="https://www.hhs.gov/opa/title-x-family-planning/index.html" rel="noopener" target="_blank">HHS Title X program</a>.
+        Seek in-person evaluation if: symptoms don&apos;t improve within 72 hours of OTC treatment; this is your first episode or you are not certain of the diagnosis; you are pregnant; you have recurrent VVC (≥4 episodes per year); you have fever, abdominal pain, or pelvic pain (possible PID); or you may have been exposed to a sexually transmitted infection. Planned Parenthood California provides in-person evaluation with sliding-scale fees at <a href="https://www.plannedparenthood.org/get-care" rel="noopener" target="_blank">plannedparenthood.org/get-care</a>. California Title X clinics offer free or low-cost care through <a href="https://opa.hhs.gov/grant-programs/title-x-service-grants" rel="noopener" target="_blank">HHS Title X program</a>.
       </p>
     ),
   },
   { question: 'Is my Aetna plan in California in-network with TeleDirectMD?',
     answer: (
       <p>
-        Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. Aetna commercial plan members in California may be able to use in-network benefits. Always verify current in-network status directly with Aetna before your visit. See <a href="/insurance">all insurance options</a>. Self pay ($79) is available regardless of insurance status.
+        Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. Aetna commercial plan members in California may be able to use in-network benefits. Always verify current in-network status directly with Aetna before your visit. See <a href="/insurance/">all insurance options</a>. Self pay ($79) is available regardless of insurance status.
       </p>
     ),
   },
   { question: 'Will Medi-Cal cover my yeast infection treatment visit at TeleDirectMD?',
     answer: (
       <p>
-        TeleDirectMD is not currently enrolled as a Medi-Cal rendering provider. <a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS</a> confirms that Medi-Cal covers telehealth for physical health services when the provider is enrolled. If you have Medi-Cal, you can use the $79 self-pay rate at TeleDirectMD, or find a Medi-Cal-enrolled telehealth provider through your managed care plan or the DHCS directory.
+        TeleDirectMD is not currently enrolled as a Medi-Cal rendering provider. <a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS</a> confirms that Medi-Cal covers telehealth for physical health services when the provider is enrolled. If you have Medi-Cal, find a Medi-Cal-enrolled telehealth provider through your managed care plan or the DHCS directory.
       </p>
     ),
   },
@@ -191,7 +191,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -361,9 +361,9 @@ export default function CaYeastInfectionTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> B37.3 (Candidiasis of vulva and vagina — final coding depends on clinical details)</p>
@@ -394,7 +394,7 @@ export default function CaYeastInfectionTreatmentOnline() {
             <div className="tdmd-condition-opener" id="ca-yeast-opening">
               <h2>Can I Get Yeast Infection Treatment Online in California?</h2>
               <p>
-                <strong>Yes.</strong> <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — authorizes California-licensed physicians to evaluate and treat uncomplicated vulvovaginal candidiasis (VVC) via synchronous video visit without a prior in-person examination. The <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a> holds telehealth physicians to the same standard of care as in-person physicians. Classic VVC — thick white discharge, vulvar itching, burning — can be reliably assessed by history when symptoms are typical and a prior diagnosis is established. Per <a href="https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/vaginitis-in-nonpregnant-patients" rel="noopener" target="_blank">ACOG Practice Bulletin 215</a>, empiric oral fluconazole 150 mg is appropriate for women with classic VVC symptoms. TeleDirectMD&apos;s self-pay rate is $79. <a href="/insurance/aetna/california/yeast-infection-treatment/">Aetna is in-network</a> as of April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026.
+                <strong>Yes.</strong> <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — authorizes California-licensed physicians to evaluate and treat uncomplicated vulvovaginal candidiasis (VVC) via synchronous video visit without a prior in-person examination. The <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a> holds telehealth physicians to the same standard of care as in-person physicians. Classic VVC — thick white discharge, vulvar itching, burning — can be reliably assessed by history when symptoms are typical and a prior diagnosis is established. Per <a href="https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/vaginitis-in-nonpregnant-patients" rel="noopener" target="_blank">ACOG Practice Bulletin 215</a>, empiric oral fluconazole 150 mg is appropriate for women with classic VVC symptoms. TeleDirectMD&apos;s self-pay rate is $79. <a href="/insurance/aetna/california/">Aetna is in-network</a> as of April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026.
               </p>
               <small className="tdmd-condition-opener__meta">
                 Reviewed by <a href="/about/">Parth Bhavsar, MD</a> — Board-Certified Family Medicine · NPI 1104323203 · Licensed in California · Last reviewed May 20, 2026
@@ -483,7 +483,7 @@ export default function CaYeastInfectionTreatmentOnline() {
 
             <h3>What is the relationship between antibiotics and yeast infections?</h3>
             <p>
-              Antibiotic use is one of the strongest risk factors for VVC because broad-spectrum antibiotics suppress the normal bacterial flora of the vagina, allowing <em>Candida</em> to overgrow. This is a common pattern in California patients who have recently been treated for a UTI, skin infection, dental infection, or respiratory infection with antibiotics. If you develop yeast infection symptoms within 1–2 weeks of completing an antibiotic course, this is a clinically recognizable scenario that TeleDirectMD can evaluate by telehealth.
+              Antibiotic use is one of the strongest risk factors for VVC because broad-spectrum antibiotics suppress the normal bacterial flora of the vagina, allowing <em>Candida</em> to overgrow. This is a common pattern in California patients who have recently been treated for a UTI (women only), skin infection, dental infection, or respiratory infection with antibiotics. If you develop yeast infection symptoms within 1–2 weeks of completing an antibiotic course, this is a clinically recognizable scenario that TeleDirectMD can evaluate by telehealth.
             </p>
           </div>
         </section>
@@ -495,7 +495,7 @@ export default function CaYeastInfectionTreatmentOnline() {
 
             <h3>What are the symptoms of a yeast infection?</h3>
             <p>
-              Classic VVC symptoms include: thick, white, cottage cheese-like vaginal discharge (without odor); intense vulvar itching or burning; vulvar or vaginal redness and swelling; dyspareunia (pain with sex); and external dysuria (burning when urine contacts irritated vulvar skin). VVC is typically NOT associated with strong vaginal odor — odor is more characteristic of bacterial vaginosis (BV). The <a href="https://www.cdc.gov/std/treatment-guidelines/vaginitis-overview.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines</a> note that symptoms alone cannot reliably distinguish VVC from other vaginitis causes in the absence of prior confirmed diagnosis.
+              Classic VVC symptoms include: thick, white, cottage cheese-like vaginal discharge (without odor); intense vulvar itching or burning; vulvar or vaginal redness and swelling; dyspareunia (pain with sex); and external dysuria (burning when urine contacts irritated vulvar skin). VVC is typically NOT associated with strong vaginal odor — odor is more characteristic of bacterial vaginosis (BV). The <a href="https://www.cdc.gov/std/treatment-guidelines/vaginal-discharge.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines</a> note that symptoms alone cannot reliably distinguish VVC from other vaginitis causes in the absence of prior confirmed diagnosis.
             </p>
 
             <h3>How does the physician distinguish VVC from other causes of vaginitis?</h3>
@@ -535,7 +535,7 @@ export default function CaYeastInfectionTreatmentOnline() {
                   <h3>Get a treatment plan and, if appropriate, a prescription</h3>
                   <p>If antifungal therapy is clinically appropriate, a California-compliant e-prescription is sent to your chosen California pharmacy. OTC antifungal guidance is also provided. You receive follow-up instructions regardless of treatment choice.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -563,25 +563,6 @@ export default function CaYeastInfectionTreatmentOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical yeast infection cost comparison">
-                <h3>Typical Yeast Infection Care Cost in California</h3>
-                <p className="tdmd-price-caption">Common ranges before insurance. Actual costs vary.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 13, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical California metro pricing. Actual costs vary by location and plan.</p>
-              </div>
             </div>
 
             <h3 style={{ marginTop: '1.75rem' }}>California Payor Status — TeleDirectMD</h3>
@@ -689,7 +670,7 @@ export default function CaYeastInfectionTreatmentOnline() {
                 <p>Book a same-day video visit — California adults, 18+</p>
                 <small>Self pay $79 · Aetna in-network · UHC Commercial approved May 2026 · No ER wait</small>
               </div>
-              <a className="tdmd-ca-yeast__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
+              <a className="tdmd-ca-yeast__cta-btn" href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -708,8 +689,8 @@ export default function CaYeastInfectionTreatmentOnline() {
                 <p>Book a same-day video visit. Self pay $79 · Aetna in-network · UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -740,12 +721,12 @@ export default function CaYeastInfectionTreatmentOnline() {
               <a href="/yeast-infection-treatment-online/">National Yeast Infection page</a>
               <a href="/health-guides/">Health Guides</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/insurance">Insurance</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/insurance/">Insurance</a>
+              <a href="/faq/">FAQ</a>
               <a href="/ca/bv-treatment-online/">BV Treatment in CA</a>
-              <a href="/ca/uti-treatment-online/">UTI Treatment in CA</a>
+              <a href="/ca/uti-treatment-online/">UTI Treatment for Women in CA</a>
               <a href="/ca/chlamydia-treatment-online/">Chlamydia Treatment in CA</a>
               <a href="/ca/trichomoniasis-treatment-online/">Trichomoniasis Treatment in CA</a>
               <a href="/ca/vaginal-dryness-treatment-online/">Vaginal Dryness Treatment in CA</a>
@@ -764,7 +745,7 @@ export default function CaYeastInfectionTreatmentOnline() {
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ</a>. Retrieved May 2026.</li>
               <li><a href="https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/vaginitis-in-nonpregnant-patients" rel="noopener" target="_blank">ACOG Practice Bulletin 215 — Vaginitis in Nonpregnant Patients (2020)</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.cdc.gov/std/treatment-guidelines/vaginitis-overview.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines — Vaginitis (2021)</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.cdc.gov/std/treatment-guidelines/vaginal-discharge.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines — Vaginitis (2021)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.idsociety.org/practice-guideline/candidiasis/" rel="noopener" target="_blank">IDSA Clinical Practice Guideline for the Management of Candidiasis (2016)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.goodrx.com/fluconazole" rel="noopener" target="_blank">GoodRx — Fluconazole Prices (May 2026)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.plannedparenthood.org/get-care" rel="noopener" target="_blank">Planned Parenthood — Get Care</a>. Retrieved May 2026.</li>

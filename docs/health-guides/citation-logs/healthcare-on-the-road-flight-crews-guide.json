@@ -1,0 +1,637 @@
+{
+  "guide": "healthcare-on-the-road-flight-crews-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 7 verified (10.3390/nu12092574, 10.2147/NSS.S6683, 10.1002/14651858.CD001520, 10.1371/journal.pmed.0040290, 10.1016/B978-0-323-54696-6.00047-1, 10.1093/cid/ciq257, 10.1001/jamainternmed.2018.4204), retractions: none; contrasting evidence flagged for 10.1093/cid/ciq257 only (local resistance), see ref 5 notes. PubMed article types checked: no Retracted Publication or Retraction Notice.",
+  "references": [
+    {
+      "n": 1,
+      "kind": "agency_page",
+      "cited_as": "U.S. Bureau of Labor Statistics. \"Flight Attendants.\" Occupational Outlook Handbook. Last modified August 27, 2026. Accessed November 15, 2026.",
+      "url": "https://www.bls.gov/ooh/transportation-and-material-moving/flight-attendants.htm",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "Last modified August 27, 2026",
+      "notes": "Replaces the unsupported 90,000-110,000 figure. Pilot headcount clause removed (not on this page).",
+      "claims": [
+        {
+          "text": "Flight attendants held about 133,700 jobs in the US in 2025",
+          "quote": "Flight attendants held about 133,700 jobs in 2025.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "agency_page",
+      "cited_as": "National Institute for Occupational Safety and Health (NIOSH). \"Aircrew and Workplace Exposures.\" Centers for Disease Control and Prevention. Last reviewed June 4, 2024. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/niosh/aviation/prevention/index.html",
+      "retrieved_with": "WebFetch of official page (old /niosh/topics/aircrew/ URL redirects here)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "Last reviewed June 4, 2024; page updated October 28, 2026",
+      "notes": "Page does not say NIOSH classifies aircrew as radiation-exposed workers; that wording was removed. The 'even without crossing zones' inference is the guide's own and is logged as partly supported.",
+      "claims": [
+        {
+          "text": "Aircrew are exposed to cosmic radiation from the sun and space",
+          "quote": "Aircrew often travel across time zones, work when others normally sleep, ... and are exposed to cosmic radiation from the sun and space.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Aircrew cross time zones and work when others normally sleep; NIOSH describes jet lag as circadian disruption",
+          "quote": "Aircrew may experience jet lag, a type of circadian disruption, as they work.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Back-of-the-clock flying (working when others normally sleep) adds circadian disruption",
+          "quote": "Aircrew often travel across time zones, work when others normally sleep,",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. \"Travelers' Diarrhea.\" CDC Yellow Book 2026: Health Information for International Travel. Last reviewed March 24, 2026. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/travelers-diarrhea.html",
+      "retrieved_with": "WebFetch of official page (CDC Yellow Book 2026; the 2024 wwwnc URL was blocked by robots and replaced)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "CDC Yellow Book 2026; last reviewed March 24, 2026",
+      "claims": [
+        {
+          "text": "Food and water precautions help reduce but never fully eliminate risk",
+          "quote": "Traveler adherence to recommended approaches can, however, help reduce—although never fully eliminate—the risk for illness.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Replacement of fluid losses is key to diarrhea therapy",
+          "quote": "Nonetheless, replacement of fluid losses is key to diarrhea therapy and helps the traveler feel better more quickly.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Healthcare professionals should counsel on medication options; antibiotics not recommended for mild TD",
+          "quote": "Healthcare professionals should advise on food safety and options for medications to prevent and treat travelers' diarrhea.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Antibiotic treatment not recommended for mild travelers' diarrhea (FAQ medical kit)",
+          "quote": "Antibiotic treatment not recommended.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. \"Deep Vein Thrombosis & Pulmonary Embolism.\" CDC Yellow Book 2024: Health Information for International Travel. Accessed November 15, 2026.",
+      "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/air-land-sea/deep-vein-thrombosis-and-pulmonary-embolism",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "CDC Yellow Book 2024 (no page date shown)",
+      "notes": "UTI claims previously cited here were unsupported; UTI text now cites Hooton 2018 and MedlinePlus instead.",
+      "claims": [
+        {
+          "text": "Added clot risk with long-distance air travel is due mainly to prolonged limited mobility rather than the cabin",
+          "quote": "increased risk is due mainly to prolonged limited mobility rather than by the air cabin environment",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Long-haul flying raises clot risk (2- to 4-fold; ~threefold in key takeaway)",
+          "quote": "Studies indicate that long-distance air travel might increase a person’s overall risk for VTE by 2- to 4-fold.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Absolute risk about 1 in 4,656 long-haul flights",
+          "quote": "For flights >4 hours, one study reported an absolute risk for VTE of 1 in 4,656 flights;",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "guideline",
+      "cited_as": "Gupta K, Hooton TM, Naber KG, et al. \"International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: A 2010 update by the Infectious Diseases Society of America and the European Society for Microbiology and Infectious Diseases.\" Clinical Infectious Diseases. 2011;52(5):e103-e120. PMID 21292654.",
+      "url": "https://doi.org/10.1093/cid/ciq257",
+      "retrieved_with": "WebFetch of journal full text (academic.oup.com/cid/article/52/5/e103/388285) plus PubMed get_article_metadata; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "pmid": "21292654",
+      "doi": "10.1093/cid/ciq257",
+      "record_title": "International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: A 2010 update by the Infectious Diseases Society of America and the European Society for Microbiology and Infectious Diseases.",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2011",
+      "article_type": "Practice Guideline; Review",
+      "version_or_date": "2010 update, published March 1, 2011; IDSA page labels it archived / in development",
+      "notes": "Link changed from the IDSA landing page (abstract only) to the DOI of the guideline itself. Scite flagged one contrasting citation (10.3855/jidc.8124) reporting high local TMP-SMX resistance in another setting; the guide keeps the 20% local-resistance condition, so it does not overstate. Doses not reproduced in the guide.",
+      "claims": [
+        {
+          "text": "Nitrofurantoin is an appropriate first-line choice for acute uncomplicated cystitis",
+          "quote": "Nitrofurantoin monohydrate/macrocrystals (100 mg twice daily for 5 days) is an appropriate choice for therapy",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "TMP-SMX appropriate if local resistance does not exceed 20% or strain known susceptible",
+          "quote": "is an appropriate choice for therapy, given its efficacy as assessed in numerous clinical trials, if local resistance rates of uropathogens causing acute uncomplicated cystitis do not exceed 20%",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Fosfomycin is an appropriate choice",
+          "quote": "Fosfomycin trometamol (3 g in a single dose) is an appropriate choice for therapy where it is available",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Guideline population: otherwise healthy, non-pregnant premenopausal women",
+          "quote": "diagnoses limited in these guidelines to premenopausal, non-pregnant women with no known urological abnormalities or co-morbidities",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "agency_page",
+      "cited_as": "Federal Aviation Administration. \"Aviation Medical Examiner (AME) Locator.\" Last updated April 12, 2024. Accessed November 15, 2026.",
+      "url": "https://www.faa.gov/pilots/amelocator",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "Last updated April 12, 2024",
+      "notes": "Certification-requirement claims moved to ref 15 (14 CFR 67.405).",
+      "claims": [
+        {
+          "text": "The FAA maintains an official AME locator",
+          "quote": "This tool provides an up-to-date listing of AMEs, based on search criteria you select.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "journal",
+      "cited_as": "Zubac D, Buoite Stella A, Morrison SA. \"Up in the Air: Evidence of Dehydration Risk and Long-Haul Flight on Athletic Performance.\" Nutrients. 2020;12(9):2574. Narrative review. PMID 32854320.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7551461/",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "pmid": "32854320",
+      "pmcid": "PMC7551461",
+      "doi": "10.3390/nu12092574",
+      "record_title": "Up in the Air: Evidence of Dehydration Risk and Long-Haul Flight on Athletic Performance.",
+      "record_journal": "Nutrients",
+      "record_year": "2020",
+      "article_type": "Journal Article; Review",
+      "notes": "Abstract-only use. Title corrected. Removed the unsupported 'increased insensible water loss' and 'hydration advice understates needs' wording.",
+      "claims": [
+        {
+          "text": "Review argues long-haul flights may accelerate dehydration",
+          "quote": "There is evidence that long-haul flights promote fluid shifts to the lower extremity and induce changes in blood viscosity which may accelerate dehydration",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Review calls fluid balance on long-haul flights an overlooked issue",
+          "quote": "the combination of fluid balance and long-haul flight remains a critically overlooked issue for traveling persons",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Few studies; no real evidence of how acute dehydration affects health of traveling athletes",
+          "quote": "there are few studies which have been conducted on actual traveling athletes, and those that have provide no real evidence of how the incidence rate, magnitude, or duration of acute dehydration may affect",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "agency_page",
+      "cited_as": "UK Civil Aviation Authority. \"Physiology of flight.\" Guidance for health professionals. Accessed November 15, 2026.",
+      "url": "https://www.caa.co.uk/air-passengers/about-your-trip/health-and-medical/guidance-for-health-professionals/physiology-of-flight/",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "No page date shown; read November 15, 2026",
+      "notes": "Cabin altitude corrected from 6,000-8,000 ft to 5,000-7,500 ft typical, 8,000 ft ceiling. Eustachian-tube mechanism now cited to ref 9.",
+      "claims": [
+        {
+          "text": "Cabin altitude should not exceed 8,000 ft in normal operations; typically 5,000 to 7,500 ft",
+          "quote": "The 'cabin altitude' in commercial aircraft should not exceed 8000 feet in normal operations ... but in practice is typically between 5,000 and 7,500 feet.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cabin humidity typically 10 to 20% vs about 40 to 50% in buildings",
+          "quote": "the humidity levels in the cabin are typically in the range 10 to 20% compared to that in buildings, which is in the order of 40 to 50%.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Low cabin humidity does not result in dehydration",
+          "quote": "contrary to a widely held belief, the low humidity in the aircraft cabin does not result in dehydration.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Added fluid loss about 150 mL over 8 hours with no change in plasma osmolality",
+          "quote": "the additional insensible fluid loss amounts to approximately 150ml over an 8 hour flight ... with no evidence of any change in plasma osmolality.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dry air can dry lips, tongue and eyes",
+          "quote": "The low humidity may result in drying of the mucous membranes of the lips and tongue",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "People flying with an upper respiratory infection may get ear or sinus pain and bleeding from barotrauma",
+          "quote": "most commonly seen in passengers suffering from upper respiratory tract infections who may suffer ear or sinus pain and bleeding (otic / sinus barotraumas).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "other_web",
+      "cited_as": "Bagshaw M, Illig P. \"The Aircraft Cabin Environment.\" In: Travel Medicine. Elsevier; 2019:429-436. Book chapter. doi:10.1016/B978-0-323-54696-6.00047-1.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7152029/",
+      "retrieved_with": "PubMed get_full_text_article (PMC7152029); Crossref record for authors/book/pages; Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "pmcid": "PMC7152029",
+      "doi": "10.1016/B978-0-323-54696-6.00047-1",
+      "record_title": "The Aircraft Cabin Environment",
+      "record_journal": "Travel Medicine (Elsevier book), pp. 429-436",
+      "record_year": "2019",
+      "article_type": "Book chapter",
+      "notes": "Authors (Bagshaw M, Illig P), book and pages taken from the Crossref record for the DOI. Brand names of aeromedical providers in the same sentence are not from this source.",
+      "claims": [
+        {
+          "text": "No evidence that flying itself is a risk factor for DVT",
+          "quote": "There is no evidence that flying itself is a risk factor for the development of DVT",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "During descent air must re-enter the middle ear via the Eustachian tube; failure causes fullness, reduced hearing, pain",
+          "quote": "The air in the middle ear contracts and air from the nasopharynx must enter the middle ear ... and may result in a sensation of fullness, a decrease in hearing acuity, and pain.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "ICRP occupational limit 20 mSv/yr averaged over 5 years, including flight crew",
+          "quote": "recommends maximum mean body effective dose limits of 20 milliSieverts (mSv) per year (averaged over 5 years) for workers exposed to radiation as part of their occupation (including flight crew)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Long-haul crew accumulate around 4 to 5 mSv a year",
+          "quote": "For typical annual flight schedules, crew members accumulate around 4–5 mSv/year on long-haul operations",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most airlines have ground-based medical consultation services for in-flight care",
+          "quote": "most airlines have ground-based medical consultation services available to provide recommendations for care during flight.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. \"Understanding Your Risk for Blood Clots with Travel.\" Last reviewed May 15, 2024. Accessed November 15, 2026.",
+      "url": "https://www.cdc.gov/blood-clots/risk-factors/travel.html",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "Last reviewed May 15, 2024",
+      "notes": "Other listed items verified on page: 'Use of estrogen-containing contraceptives', 'Hormone replacement therapy', 'A previous blood clot', 'An inherited blood clotting disorder', 'Overweight or obesity', 'Active cancer or recent cancer treatment', 'Older age (risk increases after age 40)'. Table 'why it matters' column labeled as general physiology, not CDC.",
+      "claims": [
+        {
+          "text": "Anyone traveling more than 4 hours by any mode can be at risk",
+          "quote": "anyone traveling more than 4 hours, whether by air, car, bus, or train, can be at risk for blood clots.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Risk factors include recent surgery (within 3 months), estrogen contraceptives, hormone therapy, pregnancy/postpartum up to 3 months, previous clot, inherited clotting disorder, obesity, active cancer, age over 40",
+          "quote": "Recent surgery or injury (within 3 months)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Postpartum period up to 3 months after childbirth",
+          "quote": "Pregnancy and the postpartum period (up to 3 months after childbirth)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Move legs frequently and exercise calf muscles on long trips",
+          "quote": "Move your legs frequently when on long trips and exercise your calf muscles to improve the flow of blood.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "DVT signs: contact your doctor as soon as possible",
+          "quote": "contact your doctor as soon as possible",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "PE signs (difficulty breathing, chest pain worse with deep breath or cough, fast/irregular heartbeat, coughing up blood, lightheadedness, fainting): seek medical help immediately",
+          "quote": "Chest pain or discomfort, which usually worsens with a deep breath or coughing ... seek medical help immediately.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "journal",
+      "cited_as": "Vosko AM, Colwell CS, Avidan AY. \"Jet lag syndrome: circadian organization, pathophysiology, and management strategies.\" Nature and Science of Sleep. 2010;2:187-198. Review. PMID 23616709.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3630947/",
+      "retrieved_with": "PubMed get_article_metadata and get_full_text_article (PMC3630947); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "pmid": "23616709",
+      "pmcid": "PMC3630947",
+      "doi": "10.2147/NSS.S6683",
+      "record_title": "Jet lag syndrome: circadian organization, pathophysiology, and management strategies.",
+      "record_journal": "Nat Sci Sleep",
+      "record_year": "2010",
+      "article_type": "Journal Article (review)",
+      "notes": "Title and authors corrected. 'Mood' replaced by 'general malaise'; 'real but modest' effect-size wording removed (not in source, and conflicts with ref 12).",
+      "claims": [
+        {
+          "text": "Jet lag symptoms: difficulty sleeping, daytime sleepiness, malaise, impaired performance, GI upset",
+          "quote": "they can be disruptive and include difficulty sleeping, excessive daytime sleepiness, general malaise, impaired performance, and gastrointestinal (GI) upset.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Adaptation slower after eastward travel",
+          "quote": "typically influenced by the direction of travel (slower adaptation when traveling east) and the number of time zones crossed.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Light is the strongest signal for resetting the clock",
+          "quote": "Although there are other, nonphotic means to resetting the clock, light has been shown to be the most robust.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Efficacy of light and melatonin depends greatly on timing",
+          "quote": "There are a number of treatment options for jet lag involving bright light exposure, melatonin, and use of hypnotics, but their efficacy greatly depends on their time of use",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "journal",
+      "cited_as": "Herxheimer A, Petrie KJ. \"Melatonin for preventing and treating jet lag.\" Cochrane Database of Systematic Reviews. 2002;(1):CD001520. Systematic review. PMID 11279722.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8958662/",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "pmid": "11279722",
+      "pmcid": "PMC8958662",
+      "doi": "10.1002/14651858.CD001520",
+      "record_title": "Melatonin for preventing and treating jet lag.",
+      "record_journal": "Cochrane Database Syst Rev",
+      "record_year": "2001 (citation 2002, issue 1)",
+      "article_type": "Systematic Review",
+      "notes": "Authors added. Review dates from 2001/2002; no newer Cochrane version was checked.",
+      "claims": [
+        {
+          "text": "Melatonin near target bedtime (10 pm to midnight) decreased jet lag in nine of ten trials, flights crossing 5+ zones",
+          "quote": "Nine of the ten trials found that melatonin, taken close to the target bedtime at the destination (10pm to midnight), decreased jet-lag from flights crossing five or more time zones.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Taken early in the day it can cause sleepiness and delay adaptation",
+          "quote": "if it is taken at the wrong time, early in the day, it is liable to cause sleepiness and delay adaptation to local time.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "other_web",
+      "cited_as": "Association of Flight Attendants-CWA (AFA-CWA). \"Employee Assistance Program.\" Accessed November 15, 2026.",
+      "url": "https://www.afacwa.org/employee_assistance",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "Page metadata last modified January 7, 2026",
+      "notes": "Removed 'counseling and referral services ... often at no direct cost' (not on page).",
+      "claims": [
+        {
+          "text": "AFA EAP helps members get medical help for mental health issues",
+          "quote": "AFA's Employee Assistance Program (EAP) helps members get appropriate medical help for mental health issues",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Members and families can confidentially connect with local EAP reps at any time",
+          "quote": "AFA Flight Attendants and our family can confidentially connect with our Local AFA EAP Reps at any time",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "No problem too big or too small",
+          "quote": "Contact AFA EAP at any time. No problem is too big or too small.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "journal",
+      "cited_as": "Kuipers S, Cannegieter SC, Middeldorp S, Robyn L, Büller HR, Rosendaal FR. \"The absolute risk of venous thrombosis after air travel: a cohort study of 8,755 employees of international organisations.\" PLoS Medicine. 2007;4(9):e290. Cohort study. PMID 17896862.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1989755/",
+      "retrieved_with": "PubMed get_article_metadata and get_full_text_article (PMC1989755); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "pmid": "17896862",
+      "pmcid": "PMC1989755",
+      "doi": "10.1371/journal.pmed.0040290",
+      "record_title": "The absolute risk of venous thrombosis after air travel: a cohort study of 8,755 employees of international organisations.",
+      "record_journal": "PLoS Med",
+      "record_year": "2007",
+      "article_type": "Comparative Study; Journal Article (cohort)",
+      "notes": "1.1-fold per hour figure confirmed in PMC full text (Results).",
+      "claims": [
+        {
+          "text": "Risk after flights of at least 4 h about 3.2 times that of not flying",
+          "quote": "incidence rate ratio 3.2, 95% confidence interval 1.8-5.6",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Each extra hour of flight duration raised risk about 1.1-fold",
+          "quote": "For each extra hour of flight duration, the IRR increased 1.1-fold (95% CI 1.1–1.2).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Absolute risk about one event per 4,656 long-haul flights",
+          "quote": "This rate was equivalent to a risk of one event per 4,656 long-haul flights.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Working cohort, mean age 40; general-population risk likely higher",
+          "quote": "the absolute risk of venous thrombosis in the general population is likely to be higher than the risk we found.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "agency_page",
+      "cited_as": "Electronic Code of Federal Regulations. Title 14, Part 67, Subpart E, § 67.405 \"Medical examinations: Who may perform?\" Accessed November 15, 2026.",
+      "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67/subpart-E",
+      "retrieved_with": "WebFetch of eCFR official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "eCFR current as read November 15, 2026 (Title 14 last amended October 15, 2026)",
+      "notes": "New source. Supports AME-only medical certificate exams. BasicMed (an alternative for some pilots) is not discussed in the guide.",
+      "claims": [
+        {
+          "text": "First-class medical certificate exams only by AMEs specifically designated for the purpose",
+          "quote": "(a) First-class. Any aviation medical examiner who is specifically designated for the purpose may perform examinations for the first-class medical certificate.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Second- and third-class exams by any AME",
+          "quote": "(b) Second- and third-class. Any aviation medical examiner may perform examinations for the second-or third-class medical certificate.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "agency_page",
+      "cited_as": "Federal Aviation Administration. \"Do Not Issue - Do Not Fly.\" Guide for Aviation Medical Examiners. Updated September 30, 2026. Accessed November 15, 2026.",
+      "url": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf",
+      "retrieved_with": "WebFetch of official FAA PDF",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "Updated 09/30/2026",
+      "notes": "New source, added at caller's request to state pilot medication rules only as the FAA states them.",
+      "claims": [
+        {
+          "text": "All sleep aids, Rx and OTC, can impair mental processes and reaction times even when feeling awake",
+          "quote": "All currently available sleep aids, both prescription and OTC, can cause impairment of mental processes and reaction times, even when the individual feels fully awake.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "AMEs caution pilots not to fly until a specific period has elapsed after the dose",
+          "quote": "AMEs must provide additional safety information to applicants and caution them not to fly until a specific period of time has elapsed.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "kind": "journal",
+      "cited_as": "Hooton TM, Vecchio M, Iroz A, et al. \"Effect of Increased Daily Water Intake in Premenopausal Women With Recurrent Urinary Tract Infections: A Randomized Clinical Trial.\" JAMA Internal Medicine. 2018;178(11):1509-1515. PMID 30285042.",
+      "url": "https://doi.org/10.1001/jamainternmed.2018.4204",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "pmid": "30285042",
+      "pmcid": "PMC6584323",
+      "doi": "10.1001/jamainternmed.2018.4204",
+      "record_title": "Effect of Increased Daily Water Intake in Premenopausal Women With Recurrent Urinary Tract Infections: A Randomized Clinical Trial.",
+      "record_journal": "JAMA Intern Med",
+      "record_year": "2018",
+      "article_type": "Randomized Controlled Trial",
+      "notes": "New source replacing the unsupported UTI citations to ref 4. Open-label trial; funded in part by Danone (several authors Danone Nutricia Research).",
+      "claims": [
+        {
+          "text": "Women with recurrent cystitis who drank an extra 1.5 L water/day had fewer episodes",
+          "quote": "the mean (SD) number of cystitis episodes was 1.7 (95% CI, 1.5-1.8) in the water group compared with 3.2 (95% CI, 3.0-3.4) in the control group",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "140 premenopausal women drinking <1.5 L/day, randomized to add 1.5 L water daily for 12 months",
+          "quote": "Participants were randomly assigned to drink, in addition to their usual fluid intake, 1.5 L of water daily (water group) or no additional fluids (control group) for 12 months.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus (U.S. National Library of Medicine). \"Urinary tract infection in women - self-care.\" Review date May 22, 2025. Accessed November 15, 2026.",
+      "url": "https://medlineplus.gov/ency/patientinstructions/000391.htm",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "Review date 5/22/2025",
+      "notes": "New source for the UTI red-flag callout. Blood in urine and pregnancy items in the same callout are not on this page and are uncited in the guide's own sentence.",
+      "claims": [
+        {
+          "text": "Contact provider right away for back or side pain, chills, fever, vomiting (possible kidney infection); also if symptoms return after antibiotics",
+          "quote": "Contact your provider right away if the following symptoms develop (these may be signs of a possible kidney infection.): Back or side pain Chills Fever Vomiting",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus (U.S. National Library of Medicine). \"Traveler's diarrhea diet.\" Review date October 1, 2025. Accessed November 15, 2026.",
+      "url": "https://medlineplus.gov/ency/article/002433.htm",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "version_or_date": "Review date 10/1/2025",
+      "notes": "New source for travelers' diarrhea seek-care advice.",
+      "claims": [
+        {
+          "text": "Get medical help right away for severe dehydration, fever or bloody stools",
+          "quote": "Get medical help right away if you or your child has symptoms of severe dehydration, or if you have a fever or bloody stools.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

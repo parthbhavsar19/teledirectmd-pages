@@ -20,11 +20,11 @@ export const INDUSTRY_DATA = {
     shortName: 'Trucking',
     audienceLabel: 'OTR Drivers, Owner-Operators, Fleet HR',
     metaDescription:
-      'Virtual care for OTR truck drivers and owner-operators. Manage hypertension, diabetes, and dyslipidemia to support drivers between DOT exams. Same-day visits in 43 states + DC. $0 employer cost.',
+      'Virtual care for OTR truck drivers and owner-operators. Manage hypertension, diabetes, and dyslipidemia to support drivers between DOT exams. Same-day visits in 40+ states + DC. $0 employer cost.',
     heroHeadline: 'Virtual care for the people who keep America moving.',
     heroHeadlineEm: 'No truck-stop detour required.',
     heroSub:
-      "TeleDirectMD is physician-led virtual care designed for OTR drivers and owner-operators. We don't perform or replace your DOT medical exam — federal law requires that in person. What we do is provide the day-to-day care that drivers struggle to access on the road: managing high blood pressure, diabetes, cholesterol, mental health, and acute illness from anywhere a driver can get online. Licensed in 43 states + DC.",
+      "TeleDirectMD is physician-led virtual care designed for OTR drivers and owner-operators. We don't perform or replace your DOT medical exam — federal law requires that in person. What we do is provide the day-to-day care that drivers struggle to access on the road: managing high blood pressure, diabetes, cholesterol, mental health, and acute illness from anywhere a driver can get online. Licensed in 40+ states + DC.",
     workforceProfile: {
       shortDesc: 'OTR driver',
       intro:
@@ -110,7 +110,7 @@ export const INDUSTRY_DATA = {
       },
       {
         name: 'Urinary tract infection',
-        why: 'Limited restroom access on routes forces delayed voiding; dehydration is common. Classic UTI symptom presentation can be diagnosed and treated entirely by video, with prescriptions sent to the nearest pharmacy.',
+        why: 'Limited restroom access on routes forces delayed voiding; dehydration is common. For non-pregnant adult women only, uncomplicated UTI symptoms may be evaluated and treated by video, with prescriptions sent to the nearest pharmacy.',
         citations: [
           { label: 'CDC NIOSH LHTD', url: 'https://www.cdc.gov/niosh/motor-vehicle/long-haul-truck-drivers/index.html' },
         ],
@@ -144,7 +144,7 @@ export const INDUSTRY_DATA = {
 <ul>
   <li><strong>FMCSA §391.41(b)(6) context for chronic disease.</strong> Blood pressure, diabetes, and cholesterol are FMCSA-relevant conditions. Drivers with well-managed BP &lt;140/90 typically qualify for the full 2-year certification period; drivers with uncontrolled disease often receive shorter cards. Consistent primary-care management — what we do — supports better health and, by extension, more straightforward DOT exams.</li>
   <li><strong>National Registry II (2025–2026).</strong> Exam results now transmit electronically to the driver's CDLIS/MVR overnight. Drivers who let chronic disease drift between exams are more visible to employers under the new system.</li>
-  <li><strong>Acute illness on the road.</strong> UTIs, sinus infections, skin infections, GI illness — handled by video, prescriptions sent to the pharmacy nearest the driver.</li>
+  <li><strong>Acute illness on the road.</strong> UTIs (women only), sinus infections, skin infections, GI illness — handled by video, prescriptions sent to the pharmacy nearest the driver.</li>
   <li><strong>Drug & alcohol program (49 CFR Part 382).</strong> Testing is administered by employers/TPAs — not by physicians. TeleDirectMD does not perform DOT drug screens.</li>
 </ul>
 `,
@@ -155,15 +155,15 @@ export const INDUSTRY_DATA = {
       },
       {
         headline: 'Eliminate clinic detours for acute illness',
-        body: 'UTIs, sinus infections, skin infections, GI illness — handled by video, prescriptions sent to the pharmacy nearest the driver. No 2–4 hour route deviation.',
+        body: 'UTIs (women only), sinus infections, skin infections, GI illness — handled by video, prescriptions sent to the pharmacy nearest the driver. No 2–4 hour route deviation.',
       },
       {
         headline: 'Mental health support on the road',
         body: 'SSRIs and SNRIs (non-controlled) are within scope. We do not treat addiction or prescribe controlled-substance ADHD or anxiety medications, but stable management of depression and anxiety is exactly what virtual care does well.',
       },
       {
-        headline: 'One physician across 43 states + DC',
-        body: 'OTR drivers move between states constantly. Dr. Bhavsar holds licenses in 43 states + DC — drivers get care wherever they happen to be (as long as they are physically located in a licensed state at the time of the visit).',
+        headline: 'One physician across 40+ states + DC',
+        body: 'OTR drivers move between states constantly. Dr. Bhavsar holds licenses in 40+ states + DC — drivers get care wherever they happen to be (as long as they are physically located in a licensed state at the time of the visit).',
       },
     ],
     whatWeDont: [
@@ -192,7 +192,7 @@ export const INDUSTRY_DATA = {
       },
       {
         q: 'My fleet has drivers in multiple states. Can one telehealth doctor cover all of them?',
-        a: 'Yes. Dr. Bhavsar is licensed in 43 states plus DC — which covers the vast majority of US interstate OTR routes. Drivers must be physically located in a licensed state at the time of the visit; we confirm this at booking. This is the operational reason a telehealth-first practice works for geographically distributed workforces in a way that a single-state clinic cannot.',
+        a: 'Yes. Dr. Bhavsar is licensed in 40+ states plus DC — which covers the vast majority of US interstate OTR routes. Drivers must be physically located in a licensed state at the time of the visit; we confirm this at booking. This is the operational reason a telehealth-first practice works for geographically distributed workforces in a way that a single-state clinic cannot.',
       },
     ],
   },
@@ -204,7 +204,7 @@ export const INDUSTRY_DATA = {
     shortName: 'Restaurant',
     audienceLabel: 'Restaurant Owners, F&B HR, Hospitality GMs',
     metaDescription:
-      'Virtual care for restaurant workers — minor burn assessment, cut and wound care, contact dermatitis, work notes when staff are sick. Same-day visits, $0 employer cost, 43 states + DC.',
+      'Virtual care for restaurant workers — minor burn assessment, cut and wound care, contact dermatitis, work notes when staff are sick. Same-day visits, $0 employer cost, 40+ states + DC.',
     heroHeadline: "A telehealth benefit your kitchen and front-of-house can actually use.",
     heroHeadlineEm: 'Without losing a shift.',
     heroSub:
@@ -294,7 +294,7 @@ export const INDUSTRY_DATA = {
       },
       {
         name: 'Late-shift anxiety and depression',
-        why: 'Shift work increases depression and anxiety risk dose-dependently with shift frequency. SSRIs/SNRIs and behavioral counseling referral are core scope.',
+        why: 'Shift work is linked to physical and mental fatigue that affects worker health. For anxiety and depression, SSRIs/SNRIs and behavioral counseling referral are core scope.',
         citations: [
           { label: 'Brazilian J Occup Med 2025', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11822966/' },
         ],
@@ -316,7 +316,7 @@ export const INDUSTRY_DATA = {
     whatWeSolve: [
       { headline: 'Same-day burn, cut, and skin care', body: 'A line cook with a minor burn or laceration can be assessed by video within an hour and treated by primary care if the injury is within virtual scope — or triaged to in-person care if it is not.' },
       { headline: 'GI illness and standard work-excuse notes', body: 'When a worker calls in with norovirus-style symptoms, we treat the illness and provide a standard work-excuse note covering the symptomatic period. Returning to food handling is per the worker\'s health department guidance, not ours.' },
-      { headline: 'Care for the 22% uninsured', body: 'Many restaurant workers will not see a doctor without our flat-rate option. UTIs, cellulitis, and minor burns that would otherwise become ER visits are handled by primary care.' },
+      { headline: 'Care for the 22% uninsured', body: 'Many restaurant workers will not see a doctor without our flat-rate option. UTIs in women only, cellulitis, and minor burns that would otherwise become ER visits are handled by primary care.' },
       { headline: 'Mental health for late shifts', body: 'Dr. Bhavsar treats anxiety, depression, and shift-work insomnia within standard primary-care scope — SSRIs, SNRIs, sleep hygiene counseling. No controlled substances.' },
       { headline: 'One benefit across multiple locations', body: 'Restaurant groups with multiple sites can offer one virtual care benefit to all hourly workers — no negotiating with multiple local clinics or insurance networks.' },
     ],
@@ -349,7 +349,7 @@ export const INDUSTRY_DATA = {
       },
       {
         q: "Half my staff doesn't have health insurance and they call out sick without seeing a doctor. What can I do?",
-        a: 'TeleDirectMD\'s flat-rate visits cost a fraction of urgent care or ER, with no transportation barrier and no lost shift to get an appointment. Employers who add this as a voluntary benefit see uninsured workers use it for conditions they\'d previously push through — viral GI, UTIs, skin infections — reducing both spread and absenteeism.',
+        a: 'TeleDirectMD\'s flat-rate visits cost a fraction of urgent care or ER, with no transportation barrier and no lost shift to get an appointment. Employers who add this as a voluntary benefit see uninsured workers use it for conditions they\'d previously push through — viral GI, UTIs in women only, skin infections — reducing both spread and absenteeism.',
       },
     ],
   },
@@ -361,7 +361,7 @@ export const INDUSTRY_DATA = {
     shortName: 'Home Care',
     audienceLabel: 'Home Care Agencies, Home Health HR',
     metaDescription:
-      'Virtual care for home health aides and personal care aides — acute care, back and shoulder pain, chronic disease management, mental health. $0 employer cost, 43 states + DC.',
+      'Virtual care for home health aides and personal care aides — acute care, back and shoulder pain, chronic disease management, mental health. $0 employer cost, 40+ states + DC.',
     heroHeadline: 'Virtual care for the people who care for everyone else.',
     heroHeadlineEm: "Built for an aging, mostly-female, mostly-immigrant workforce.",
     heroSub:
@@ -412,7 +412,7 @@ export const INDUSTRY_DATA = {
         why: 'Home care environments require floor-level work that institutional settings minimize. Anti-inflammatory management, ergonomic counseling, referral as needed.',
       },
       {
-        name: 'Acute illness (URI, GI, UTI, skin infections)',
+        name: 'Acute illness (URI, GI, UTI (women only), skin infections)',
         why: 'Aides travel between multiple patients\' homes daily, with high exposure and limited time for clinic visits. Standard primary-care management of common acute conditions, with prescriptions sent to the worker\'s preferred pharmacy.',
       },
       {
@@ -421,7 +421,7 @@ export const INDUSTRY_DATA = {
       },
       {
         name: 'Urinary tract infection',
-        why: 'Women are 87% of the workforce. Limited restroom access during home visits and shift-based dehydration drive UTI risk. Nitrofurantoin / TMP-SMX prescribing is fully telehealth-friendly.',
+        why: 'Women are 87% of the workforce. Limited restroom access during home visits and shift-based dehydration drive UTI risk. TeleDirectMD UTI care is limited to non-pregnant adult women with uncomplicated symptoms. We do not treat male UTIs.',
       },
       {
         name: 'Burnout, anxiety, depression',
@@ -447,7 +447,7 @@ export const INDUSTRY_DATA = {
       { headline: 'Back and shoulder injury assessment within virtual scope', body: 'When an aide reports a back or shoulder injury after a transfer, we provide same-day primary-care assessment and conservative management (NSAIDs, ergonomic counseling, PT referral). The clinical note is yours to share with WC if needed. Injuries that need imaging or in-person exam are triaged.' },
       { headline: 'Accessible care for a low-wage workforce', body: 'A workforce that\'s 87% female, median $34,900/year, 36% near poverty cannot easily take a daytime appointment. Virtual visits remove the transportation, childcare, and unpaid-time barriers.' },
       { headline: 'Chronic disease management for an older workforce', body: '38.5% of aides are 55+. Managing their HTN, DM2, depression, and other chronic conditions through primary care keeps experienced workers on the job.' },
-      { headline: 'Acute illness handled without missing a shift', body: 'URI, GI illness, UTI, skin infections — standard primary-care management with prescriptions sent to the worker\'s pharmacy.' },
+      { headline: 'Acute illness handled without missing a shift', body: 'URI, GI illness, UTI (women only), skin infections — standard primary-care management with prescriptions sent to the worker\'s pharmacy.' },
       { headline: 'Continuity with one physician', body: 'Unlike random-doctor rotations on carrier-bundled telehealth, patients are assigned to a board-certified physician and stay with them — so continuity of care is real.' },
     ],
     whatWeDont: [
@@ -477,7 +477,7 @@ export const INDUSTRY_DATA = {
       },
       {
         q: 'Our agency has very high turnover. Can healthcare benefits really make a difference?',
-        a: 'Research consistently links healthcare access to reduced turnover in hourly workforce roles. For a workforce where 36% live near poverty and 49% rely on public assistance, access to a low-cost primary care option is meaningful in a way voluntary wellness programs are not. An aide who can call a doctor for a UTI or an illness does not miss two shifts waiting to feel better.',
+        a: 'Research consistently links healthcare access to reduced turnover in hourly workforce roles. For a workforce where 36% live near poverty and 49% rely on public assistance, access to a low-cost primary care option is meaningful in a way voluntary wellness programs are not. An aide who can call a doctor for an eligible UTI in a non-pregnant adult woman or another covered illness does not miss two shifts waiting to feel better.',
       },
     ],
   },
@@ -489,7 +489,7 @@ export const INDUSTRY_DATA = {
     shortName: 'Construction',
     audienceLabel: 'GCs, Subcontractors, Construction HR',
     metaDescription:
-      'Virtual care for construction crews — same-day care for back pain, sprains, minor lacerations, hypertension management for the 27.8% uninsured workforce. $0 employer cost, 43 states + DC.',
+      'Virtual care for construction crews — same-day care for back pain, sprains, minor lacerations, hypertension management for the 27.8% uninsured workforce. $0 employer cost, 40+ states + DC.',
     heroHeadline: 'Virtual care for the trades.',
     heroHeadlineEm: 'For the days you do not need to be in a clinic.',
     heroSub:
@@ -584,7 +584,7 @@ export const INDUSTRY_DATA = {
 `,
     whatWeSolve: [
       { headline: 'Hypertension and chronic disease management for the 27.8% uninsured', body: 'These workers have no primary care home. We initiate treatment, monitor labs, and manage routine refills via flat-rate visits — the kind of primary care this workforce typically goes without.' },
-      { headline: 'Acute illness without losing a day', body: 'Sinus infections, UTIs, skin infections, GI illness — handled by video, prescriptions sent to the worker\'s pharmacy. No clinic detour mid-job.' },
+      { headline: 'Acute illness without losing a day', body: 'Sinus infections, UTIs in women only, skin infections, GI illness — handled by video, prescriptions sent to the worker\'s pharmacy. No clinic detour mid-job.' },
       { headline: 'Back and shoulder pain within virtual scope', body: 'Minor MSK injuries (lumbar strain, rotator cuff irritation) can be assessed and conservatively managed by primary care. Injuries that need imaging or in-person exam are triaged.' },
       { headline: 'Mental health for trades workers', body: 'A construction worker who needs an SSRI or SNRI for depression or anxiety can get one through primary care. No controlled substances, no addiction treatment.' },
       { headline: 'Spanish-language accessibility', body: '33% Hispanic workforce. Professional interpretation services expand access for crews where English is not the primary language.' },
@@ -630,7 +630,7 @@ export const INDUSTRY_DATA = {
     shortName: 'Janitorial',
     audienceLabel: 'Cleaning Contractors, Janitorial HR',
     metaDescription:
-      'Virtual care for janitorial crews — contact dermatitis management, asthma care, chronic disease, mental health. Night-shift accessible, $0 employer cost, 43 states + DC.',
+      'Virtual care for janitorial crews — contact dermatitis management, asthma care, chronic disease, mental health. Night-shift accessible, $0 employer cost, 40+ states + DC.',
     heroHeadline: 'Virtual care for cleaning crews.',
     heroHeadlineEm: 'A doctor your team can actually reach.',
     heroSub:
@@ -675,9 +675,6 @@ export const INDUSTRY_DATA = {
       {
         name: 'Allergic contact dermatitis (sensitization)',
         why: 'Quaternary ammonium compounds (QACs) in disinfectants are documented contact allergens. Once sensitized, trace exposure triggers reactions. Topical management, allergen avoidance counseling, patch test referral.',
-        citations: [
-          { label: 'Curr Opin Allergy Clin Immunol', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3125175/' },
-        ],
       },
       {
         name: 'Asthma management',
@@ -711,7 +708,7 @@ export const INDUSTRY_DATA = {
       },
       {
         name: 'Urinary tract infection',
-        why: 'Female cleaning workers face limited restroom access during shifts. Classic UTI presentation can be diagnosed and treated entirely virtually.',
+        why: 'Female cleaning workers face limited restroom access during shifts. TeleDirectMD treats uncomplicated UTIs in non-pregnant adult women only. We do not treat male UTIs.',
       },
       {
         name: 'Mental health — anxiety, depression, isolation',

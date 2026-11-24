@@ -3,6 +3,7 @@
 // 23-section gold standard in app/who-we-serve/[segment]/InternationalVisitorsPage.js
 // (and the cost + compare dynamic routes added in prior PRs).
 
+import { contentDate } from '../../../lib/content-dates';
 import { getPayerFamilyStateCount } from '../../../lib/insurance-data';
 import {
   USE_CASE_PAGES,
@@ -18,7 +19,7 @@ import { CitableSummaryBlock } from '../../components/CitableSummary';
 import { summarizeCompare, summarizeUseCase, summarizeWhoWeServe, summarizeFaqDeepDive, citableSummaryToJsonLd } from '../../../lib/citable-summary';
 
 const STATE_LIST = [
-  ['AL','Alabama'],['AZ','Arizona'],['CA','California'],['CO','Colorado'],['CT','Connecticut'],['DE','Delaware'],['FL','Florida'],['GA','Georgia'],['HI','Hawaii'],['ID','Idaho'],['IL','Illinois'],['IN','Indiana'],['IA','Iowa'],['KS','Kansas'],['KY','Kentucky'],['LA','Louisiana'],['ME','Maine'],['MD','Maryland'],['MI','Michigan'],['MN','Minnesota'],['MS','Mississippi'],['MO','Missouri'],['MT','Montana'],['NE','Nebraska'],['NV','Nevada'],['NH','New Hampshire'],['NJ','New Jersey'],['NC','North Carolina'],['ND','North Dakota'],['OH','Ohio'],['OK','Oklahoma'],['PA','Pennsylvania'],['SC','South Carolina'],['SD','South Dakota'],['TN','Tennessee'],['TX','Texas'],['UT','Utah'],['VA','Virginia'],['WA','Washington'],['WV','West Virginia'],['WI','Wisconsin'],['WY','Wyoming'],
+  ['AL','Alabama'],['AK','Alaska'],['AZ','Arizona'],['CA','California'],['CO','Colorado'],['CT','Connecticut'],['DE','Delaware'],['FL','Florida'],['GA','Georgia'],['HI','Hawaii'],['IA','Iowa'],['ID','Idaho'],['IL','Illinois'],['IN','Indiana'],['KY','Kentucky'],['LA','Louisiana'],['MD','Maryland'],['ME','Maine'],['MI','Michigan'],['MN','Minnesota'],['MO','Missouri'],['MS','Mississippi'],['MT','Montana'],['NC','North Carolina'],['ND','North Dakota'],['NE','Nebraska'],['NH','New Hampshire'],['NJ','New Jersey'],['NY','New York'],['NV','Nevada'],['OH','Ohio'],['OK','Oklahoma'],['PA','Pennsylvania'],['SC','South Carolina'],['SD','South Dakota'],['TN','Tennessee'],['TX','Texas'],['UT','Utah'],['VA','Virginia'],['VT','Vermont'],['WA','Washington'],['WV','West Virginia'],['WY','Wyoming'],
 ];
 
 export async function generateStaticParams() {
@@ -55,7 +56,7 @@ export default async function UseCasePage({ params }) {
 
   const baseUrl = 'https://teledirectmd.com';
   const pageUrl = `${baseUrl}/use-case/${slug}/`;
-  const today = new Date().toISOString().split('T')[0];
+  const today = contentDate('useCasePages');
   const pid = cfg.pid;
   const related = USE_CASE_RELATED[slug] || { useCases: [], cost: [], compare: [] };
 
@@ -93,7 +94,7 @@ export default async function UseCasePage({ params }) {
 
   const citableSummary_AI = summarizeUseCase({ useCaseTitle: cfg.h1 || cfg.title || slug, useCaseDescription: cfg.metaDescription || cfg.heroSubtitle || null });
   const pageUrl_AI = `https://teledirectmd.com/use-case/${slug}/`;
-  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
+  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI, dateModified: contentDate('useCasePages') });
 
 
   return (
@@ -138,13 +139,13 @@ export default async function UseCasePage({ params }) {
               </ul>
 
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">{cfg.primaryCta || 'Start a $79 Visit With an MD'}</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">{cfg.primaryCta || 'Start a $79 Visit With an MD'}</a>
                 <a href="/insurance/" className="tdmd-btn tdmd-btn-outline">Use Insurance</a>
               </div>
 
               <p className="tdmd-reviewed">
                 Last updated {today}. Sources verified on {USE_CASE_LAST_VERIFIED}. Reviewed by{' '}
-                <a className="tdmd-author-link" href="/about" aria-label="About Parth Bhavsar, MD">Parth Bhavsar, MD</a>{' '}— Board-Certified Family Medicine · NPI 1104323203 · LegitScript Certified · HIPAA-Compliant.
+                <a className="tdmd-author-link" href="/about/" aria-label="About Parth Bhavsar, MD">Parth Bhavsar, MD</a>{' '}— Board-Certified Family Medicine · NPI 1104323203 · LegitScript Certified · HIPAA-Compliant.
               </p>
             </div>
 
@@ -242,11 +243,11 @@ export default async function UseCasePage({ params }) {
         <div className="tdmd-container">
           <h2>States Where TeleDirectMD Can Help</h2>
           <p>
-            TeleDirectMD is licensed in <strong>43 states</strong>. You must be physically located in a covered state at the time of the visit. If your state isn\u2019t below, see <a href="/states-we-serve/">all states we serve</a>.
+            TeleDirectMD is licensed in <strong>40+ states</strong>. You must be physically located in a covered state at the time of the visit. If your state isn\u2019t below, see <a href="/states-we-serve/">all states we serve</a>.
           </p>
           <div className="tdmd-other-states-grid">
             {STATE_LIST.map(([abbr, name]) => (
-              <a key={abbr} href={`/${name.toLowerCase().replace(/\s+/g, '-')}/`} className="tdmd-other-state-link">{name}</a>
+              <a key={abbr} href={`/${abbr.toLowerCase()}/`} className="tdmd-other-state-link">{name}</a>
             ))}
           </div>
         </div>
@@ -269,7 +270,7 @@ export default async function UseCasePage({ params }) {
         <div className="tdmd-container">
           <h2>Why TeleDirectMD: A Real Doctor, Not an Algorithm</h2>
           <p>
-            Every visit is with <a href="/about" style={{ fontWeight: 700, color: 'var(--tdmd-navy)' }}>Dr. Parth Bhavsar, MD</a> — a board-certified Family Medicine physician licensed in 43 states. Not a panel of rotating providers, not a physician assistant, not a chatbot.
+            Every visit is with <a href="/about/" style={{ fontWeight: 700, color: 'var(--tdmd-navy)' }}>Dr. Parth Bhavsar, MD</a> — a board-certified Family Medicine physician licensed in 40+ states. Not a panel of rotating providers, not a physician assistant, not a chatbot.
           </p>
           <ul className="tdmd-hero-benefits">
             <li>Board-certified Family Medicine — University of Mississippi Medical Center</li>
@@ -310,7 +311,7 @@ export default async function UseCasePage({ params }) {
             <a href="/birth-control-refills-online/"     className="tdmd-related-card"><span className="tdmd-related-title">Birth Control Refills</span><span className="tdmd-related-desc">$79 visit + $5\u2013$30 generic</span></a>
           </div>
           <div className="tdmd-related-cta" style={{ marginTop: '1rem' }}>
-            <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View all 60 conditions we treat</a>
+            <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View all 60+ conditions we treat</a>
           </div>
         </div>
       </section>
@@ -396,7 +397,7 @@ export default async function UseCasePage({ params }) {
                 <li>Board-certified MD video consultation</li>
                 <li>E-prescription to any US pharmacy</li>
                 <li>HSA / FSA-eligible</li>
-                <li>No facility fees, no surprise billing</li>
+                <li>No facility fees, no hidden fees</li>
                 <li>Receipt suitable for reimbursement</li>
               </ul>
             </div>
@@ -408,9 +409,9 @@ export default async function UseCasePage({ params }) {
       <section className="tdmd-section tdmd-faq" id={`${pid}-faq`}>
         <div className="tdmd-container">
           <h2>{cfg.faqTitle || 'Frequently Asked Questions'}</h2>
-          <div className="tdmd-faq-list" role="list">
+          <div className="tdmd-faq-list">
             {cfg.faqs.map((f, i) => (
-              <details key={i} className="tdmd-faq-item" role="listitem">
+              <details key={i} className="tdmd-faq-item">
                 <summary className="tdmd-faq-question" data-speakable="true">{f.question}</summary>
                 <div className="tdmd-faq-answer"><p dangerouslySetInnerHTML={{ __html: f.answer }} /></div>
               </details>
@@ -424,11 +425,11 @@ export default async function UseCasePage({ params }) {
         <div className="tdmd-container">
           <div className="tdmd-bottom-cta">
             <div className="tdmd-bottom-cta-copy">
-              <h3>$79. Live MD video. 43 states. Same-day evenings & weekends.</h3>
+              <h3>$79. Live MD video. 40+ states. Same-day evenings & weekends.</h3>
               <p>{cfg.finalCtaSub || 'Book a visit in under two minutes.'}</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">{cfg.primaryCta || 'Start a $79 Visit With an MD'}</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">{cfg.primaryCta || 'Start a $79 Visit With an MD'}</a>
               <a href="/insurance/" className="tdmd-btn tdmd-btn-outline">Use Insurance</a>
             </div>
           </div>
@@ -451,7 +452,7 @@ export default async function UseCasePage({ params }) {
       <section className="tdmd-section tdmd-footnote" id={`${pid}-disclaimer`}>
         <div className="tdmd-container">
           <h2>Disclaimer & Verification</h2>
-          <p dangerouslySetInnerHTML={{ __html: cfg.disclaimer || 'This page is for informational purposes only and is not medical advice. TeleDirectMD provides telehealth services for non-emergency conditions in adults 18+ physically located in one of our 43 licensed states at the time of the visit. We do not prescribe controlled substances. If you are experiencing a medical emergency, call 911 immediately.' }} />
+          <p dangerouslySetInnerHTML={{ __html: cfg.disclaimer || 'This page is for informational purposes only and is not medical advice. TeleDirectMD provides telehealth services for non-emergency conditions in adults 18+ physically located in one of our 40+ licensed states at the time of the visit. We do not prescribe controlled substances. If you are experiencing a medical emergency, call 911 immediately.' }} />
           <p>
             <strong>Page last updated {today}. Sources verified on {USE_CASE_LAST_VERIFIED}.</strong> Pricing and policies cited from third parties change frequently — confirm with the source directly before relying on it.
           </p>

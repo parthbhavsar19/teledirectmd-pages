@@ -1,0 +1,271 @@
+{
+  "stateCode": "GA",
+  "stateName": "Georgia",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "mid",
+    "regulation": "standard",
+    "payerLandscape": "multi-payer",
+    "epidemiology": [
+      "sti-high-volume",
+      "tick-spotted-fever",
+      "flu-oct-may"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "south",
+    "voiceNotes": "Plain and warm, with the board rule doing the talking. Georgia is the one assigned state where TeleDirectMD is in-network with four payers, so the insured reader and the self-pay reader both need a clear path. Tick content leans on spotted fever, not Lyme."
+  },
+  "stateHero": {
+    "openingParagraph": "Adults who are in Georgia at the time of the visit can see Parth Bhavsar, MD, a board-certified family medicine physician licensed in Georgia, by secure video. The Georgia Composite Medical Board requires that care delivered by electronic means come from Georgia-licensed practitioners and holds it to the same standard of care as an office visit, and its rule requires that patients receive the physician's name, credentials and emergency contact information. In Georgia, TeleDirectMD is in-network with Aetna, Anthem Blue Cross Blue Shield, UnitedHealthcare and Curative. The self-pay option is a flat $79, paid at booking, and HSA and FSA cards are accepted. Prescriptions, when appropriate, go electronically to the Georgia pharmacy you choose.",
+    "conditionPageOpener": "Video visits for adults located in Georgia with Parth Bhavsar, MD, board-certified in family medicine and licensed by the Georgia Composite Medical Board. In-network with Aetna, Anthem Blue Cross Blue Shield, UnitedHealthcare and Curative in Georgia, or a flat $79 self-pay paid at booking.",
+    "stateContextHint": "Georgia-licensed physician. Video visits for adults located in Georgia. In-network with Aetna, Anthem Blue Cross Blue Shield, UnitedHealthcare and Curative, or $79 flat self-pay.",
+    "saturation": {
+      "stateNameMentions": 5,
+      "stateEntityMentions": 6
+    }
+  },
+  "stateEligibility": {
+    "intro": "TeleDirectMD sees adults 18 and older who are physically in Georgia during the video visit. Georgia Composite Medical Board Rule 360-3-.07 requires that all treatment and consultations delivered by electronic means be done by Georgia-licensed practitioners, so location at visit time is what counts. A resident of another state who is in Savannah or Atlanta for the week can be seen; a Georgian calling in from a state TeleDirectMD does not serve cannot be seen until back in Georgia or another served state.",
+    "localTriggers": [
+      "You must be in Georgia during the visit. Georgia's board rule requires care delivered by electronic means to come from Georgia-licensed practitioners.",
+      "Under the same rule, you receive the physician's name, credentials and emergency contact information, plus instructions on follow-up if you need emergency care.",
+      "If you are being treated over time for a condition such as high blood pressure, the Georgia rule asks the physician to make diligent efforts to have you seen in person at least once a year.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "A self-pay visit is a flat $79, paid at booking, with HSA and FSA cards accepted. Georgians with Aetna, Anthem Blue Cross Blue Shield, UnitedHealthcare or Curative coverage can use those plans, and the plan sets any copay or deductible. Coverage for a given visit depends on the plan. Georgians shopping for a marketplace plan use Georgia Access, the state's own enrollment platform since November 1, 2024. Georgia Pathways offers coverage to some residents who are not eligible for traditional Medicaid and meet its Qualifying Activities requirements. TeleDirectMD does not accept Medicaid or Pathways coverage.",
+    "additionalNotes": [
+      "$79 flat self-pay, paid at booking.",
+      "HSA and FSA cards accepted.",
+      "In-network in Georgia with Aetna, Anthem Blue Cross Blue Shield, UnitedHealthcare and Curative."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "When a prescription is appropriate, it is sent electronically to the Georgia pharmacy you pick when you book. TeleDirectMD does not prescribe controlled substances in Georgia or anywhere else. Georgia tracks those drugs through its Prescription Drug Monitoring Program, which the Department of Public Health describes as an electronic database used to monitor the prescribing and dispensing of controlled substances, with Schedule II through V prescriptions entered into it. The Georgia Composite Medical Board's telemedicine rule separately states that it does not authorize prescribing controlled substances for pain or chronic pain by electronic means. For the infections, skin conditions and refills TeleDirectMD treats, the Georgia standard is the same as in an office: the physician decides whether a prescription fits after the visit.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "general": "Georgia's Department of Public Health reports a large sexually transmitted infection burden: 66,884 chlamydia cases and 27,649 gonorrhea cases in 2024, both down from 2023. Ticks in Georgia carry more than Lyme disease; from 2020 to 2024 the Department counted 143 spotted fever rickettsiosis cases in Georgia residents against 130 Lyme disease cases, and it notes ticks are most active in warm months. Flu is tracked in the Georgia Weekly Influenza Report each year from October to mid-May. This context is general and does not replace an individual evaluation.",
+    "generalOnHubOnly": true,
+    "citations": [
+      {
+        "label": "Georgia Composite Medical Board, Ga. Comp. R. & Regs. 360-3-.07, Practice Through Electronic or Other Such Means (Chapter 360-3)",
+        "url": "https://rules.sos.ga.gov/gac/360-3",
+        "scope": "all"
+      },
+      {
+        "label": "Georgia Department of Public Health, Prescription Drug Monitoring Program",
+        "url": "https://dph.georgia.gov/pdmp",
+        "scope": "all"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, Georgia (V2025)",
+        "url": "https://www.census.gov/quickfacts/GA"
+      },
+      {
+        "label": "Georgia Access, About Georgia Access",
+        "url": "https://georgiaaccess.gov/about-georgia-access/"
+      },
+      {
+        "label": "Georgia Pathways to Coverage",
+        "url": "https://pathways.georgia.gov/"
+      },
+      {
+        "label": "CDC, Legal Status of Expedited Partner Therapy (updated July 1, 2026)",
+        "url": "https://cdc.gov/sti/php/ept-legal-status/index.html",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "Georgia Department of Public Health, STD Data & Statistics",
+        "url": "https://dph.georgia.gov/node/13646",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "Georgia Department of Public Health, Tick-borne Diseases",
+        "url": "https://dph.georgia.gov/node/903",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Georgia Department of Public Health, Rabies",
+        "url": "https://dph.georgia.gov/node/873",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Georgia Department of Public Health, Rabies FAQ",
+        "url": "https://dph.georgia.gov/document/document/rabies-faq/download",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Georgia Department of Public Health, Influenza Reports (Georgia Weekly Influenza Report)",
+        "url": "https://dph.georgia.gov/node/51501",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds a Georgia medical license issued by the Georgia Composite Medical Board. Anyone can confirm the license through the board's online verification search. Georgia telemedicine practice is governed by board Rule 360-3-.07, which requires care by Georgia-licensed practitioners, the same standard of care as in-person practice, and disclosure of the physician's name, credentials and emergency contact information. NPI: 1104323203.",
+    "verifyUrl": "https://gateway.medicalboard.georgia.gov/verification/search.aspx",
+    "statuteCitation": "Ga. Comp. R. & Regs. 360-3-.07 (Practice Through Electronic or Other Such Means)",
+    "licenseNumber": "89053",
+    "boardName": "Georgia Composite Medical Board",
+    "boardUrl": "https://medicalboard.georgia.gov/"
+  },
+  "stateCities": {
+    "metroAndRural": "Georgia had an estimated 11,302,748 residents on July 1, 2025 (U.S. Census Bureau, V2025), at 185.6 people per square mile in 2020. TeleDirectMD sees adults wherever they are in Georgia during the visit: Atlanta and suburbs such as Sandy Springs, Roswell, Johns Creek and Marietta; Augusta and Columbus on the state line; Savannah on the coast; Athens and Macon; and Albany and Warner Robins in the south. The same physician and the same flat $79 self-pay fee apply in every Georgia county.",
+    "cityList": [
+      {
+        "city": "Atlanta"
+      },
+      {
+        "city": "Augusta"
+      },
+      {
+        "city": "Columbus"
+      },
+      {
+        "city": "Savannah"
+      },
+      {
+        "city": "Athens"
+      },
+      {
+        "city": "Macon"
+      },
+      {
+        "city": "Sandy Springs"
+      },
+      {
+        "city": "Roswell"
+      },
+      {
+        "city": "Albany"
+      },
+      {
+        "city": "Johns Creek"
+      },
+      {
+        "city": "Warner Robins"
+      },
+      {
+        "city": "Marietta"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "multi-payer",
+    "selfPayDisclosure": "In Georgia, TeleDirectMD is in-network with Aetna, Anthem Blue Cross Blue Shield, UnitedHealthcare and Curative. Whether a specific visit is covered, and what you owe, depends on your plan. If you prefer not to use insurance, or have a plan TeleDirectMD is not in-network with, the visit is a flat $79, paid at booking, and HSA and FSA cards are accepted. TeleDirectMD does not accept Georgia Medicaid, Georgia Pathways, Managed Medicaid or D-SNP plans.",
+    "payers": [
+      {
+        "name": "Aetna",
+        "anchorId": "aetna-coverage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage",
+        "validFrom": "2026-02-10",
+        "copayNote": "Your copay or deductible, if any, is set by your Aetna plan."
+      },
+      {
+        "name": "Anthem Blue Cross Blue Shield",
+        "anchorId": "anthem-coverage",
+        "planNames": "BlueChoice PPO, BlueChoice HMO/POS, Blue Open Access HMO/POS, Pathway HMO plans, Medicare Advantage HMO and PPO",
+        "validFrom": "2026-02-12",
+        "copayNote": "Your copay or deductible, if any, is set by your Anthem plan."
+      },
+      {
+        "name": "UnitedHealthcare",
+        "anchorId": "uhc-coverage",
+        "planNames": "PPO, HMO, EPO, POS, Medicare Advantage (excludes Medicaid, Individual Exchange, Charter, Core, Navigate, Group PPO Medicare Advantage)",
+        "validFrom": "2026-04-03",
+        "copayNote": "Your copay or deductible, if any, is set by your UnitedHealthcare plan."
+      },
+      {
+        "name": "Curative",
+        "anchorId": "curative-coverage",
+        "planNames": "Commercial PPO, EPO, and self-funded plans (EPO Value, EPO (PPOx), PPO (PPO+), PPO Max)",
+        "validFrom": "2026-07-07",
+        "copayNote": "Your cost, if any, is set by your Curative plan."
+      }
+    ]
+  },
+  "stateFaqs": [
+    {
+      "question": "Can a doctor treat me by video in Georgia?",
+      "answer": "Yes, when the doctor is licensed in Georgia and the board's conditions are met. Georgia Composite Medical Board Rule 360-3-.07 requires that all treatment and consultations by electronic means be done by Georgia-licensed practitioners and holds them to the same standard of care as in-person practice. Parth Bhavsar, MD holds a Georgia medical license and sees adults who are in Georgia during the visit. Emergencies are not a fit for video: call 911."
+    },
+    {
+      "question": "Is TeleDirectMD in-network with insurance in Georgia?",
+      "answer": "Yes, with four plans: Aetna, Anthem Blue Cross Blue Shield, UnitedHealthcare and Curative. Your plan decides any copay or deductible, and coverage for a particular visit depends on your plan. Without one of those plans, a visit is a flat $79 self-pay, paid at booking, with HSA and FSA cards accepted. TeleDirectMD does not accept Georgia Medicaid or Georgia Pathways."
+    },
+    {
+      "question": "How do I check Dr. Bhavsar's Georgia medical license?",
+      "answer": "Use the Georgia Composite Medical Board's online license verification search and look up Parth Bhavsar. His National Provider Identifier is 1104323203. Georgia's telemedicine rule also requires that patients be given the treating physician's name, credentials and emergency contact information."
+    },
+    {
+      "question": "I get blood pressure refills by video. Will I need an in-person visit in Georgia?",
+      "answer": "Probably at some point. The Georgia Composite Medical Board's telemedicine rule asks physicians treating by electronic means to make diligent efforts to have the patient seen and examined in person by a Georgia-licensed physician, physician assistant or nurse practitioner at least annually. A video visit can bridge a refill, and keeping a yearly in-person checkup with a local clinician fits the rule."
+    },
+    {
+      "question": "Does TeleDirectMD prescribe controlled substances in Georgia?",
+      "answer": "No, in Georgia or anywhere else. Georgia monitors controlled substance prescribing through the Department of Public Health's Prescription Drug Monitoring Program, which covers Schedule II through V prescriptions, and the board's telemedicine rule states that it does not authorize prescribing controlled substances for pain or chronic pain by electronic means."
+    },
+    {
+      "question": "Where can Georgians shop for health insurance?",
+      "answer": "Georgia Access is the state's program for Georgians to shop for and enroll in health insurance; it became a state-based exchange on November 1, 2024, run by the Office of the Insurance and Safety Fire Commissioner. Georgia Pathways offers coverage to some residents who meet its program requirements. TeleDirectMD does not accept Medicaid or Pathways, and its self-pay visit is $79.",
+      "onHub": true
+    }
+  ],
+  "conditionOverrides": {
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "In Georgia, the tick question is often about spotted fever, not only Lyme disease. The Georgia Department of Public Health counted 143 spotted fever rickettsiosis cases in Georgia residents from 2020 to 2024, more than the 130 Lyme disease cases and 50 anaplasmosis and ehrlichiosis cases in the same five years, and it notes ticks are most active in warm months. A video visit for adults in Georgia can review a photo of the tick and the bite, how long it was attached and where you picked it up, and decide whether preventive treatment fits or watchful waiting is safer. Fever, a spreading rash or severe headache after a bite needs in-person care."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "The Georgia Department of Public Health says rabies in Georgia occurs primarily in wild mammals such as raccoons, skunks, foxes and bats, and that a domestic animal may be placed under 10-day quarantine and observed after a bite. If a pet cat bit you, the Department tells residents reporting an animal bite to call their county health department or 1-866-PUB-HLTH. A video visit for adults in Georgia can look at the wound, discuss whether an antibiotic is appropriate given how often cat bites become infected, and go over the rabies question. Hand bites with swelling or reduced movement, and bites from stray or wild animals, need in-person care."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "After a dog bite in Georgia, two things run in parallel: caring for the wound and answering the rabies question. Georgia's Department of Public Health tells residents reporting an animal bite to call their county health department or 1-866-PUB-HLTH, and its rabies guidance says a domestic animal may be quarantined and observed for 10 days. TeleDirectMD's video visit fits superficial to moderate bites from a known domestic dog, where the physician reviews photos, cleaning and whether antibiotics make sense. A bite from a stray or wild animal, a deep wound, or bleeding that will not stop belongs in an emergency department."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "Chlamydia is common in Georgia. The Department of Public Health reports 66,884 cases reported to the CDC in 2024, down from 71,294 in 2023. If you have a positive test, a video visit for adults in Georgia can confirm the result, prescribe treatment when appropriate and go over retesting. Georgia law (O.C.G.A. 31-17-7.1) allows expedited partner therapy for chlamydia, so a licensed practitioner can prescribe antibiotics for a sex partner without examining that partner, following Department of Public Health rules; whether it fits your situation is decided during the visit. Pelvic pain with fever, testicular swelling or pregnancy calls for in-person care."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "Doxy-PEP is a single dose of doxycycline taken within 72 hours after sex to lower the chance of a bacterial STI. Georgia's numbers explain the interest: the Department of Public Health reports 27,649 gonorrhea cases and 1,842 primary and secondary syphilis cases in 2024, both lower than in 2023 but still high. For adults in Georgia who meet the eligibility in current CDC guidance, a video visit can review recent testing and decide whether a standing prescription is appropriate. Active symptoms such as sores or discharge need testing and treatment, and an HIV exposure in the last 72 hours needs urgent HIV PEP."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "Georgia's Department of Public Health tracks flu each year from October to mid-May and posts its findings in the Georgia Weekly Influenza Report, so you can see whether flu is rising where you live. For adults in Georgia whose flu-like symptoms began within about 48 hours, a video visit can decide whether an antiviral is appropriate and send it to your pharmacy. Antivirals help most when started early and matter more for people at higher risk of complications. Trouble breathing, chest pain, confusion or being unable to keep fluids down needs emergency care, not a video visit."
+    },
+    "hypertension-refills-online": {
+      "stateConditionParagraph": "A video visit can keep your blood pressure medicine from running out while you are in Georgia, if your readings are stable and you have no new symptoms. Georgia's telemedicine rule adds one expectation that matters for ongoing care: the physician must make diligent efforts to have you seen and examined in person by a Georgia-licensed physician, physician assistant or nurse practitioner at least once a year. So a refill visit works best alongside a yearly in-person check. Readings above 180/120, chest pain, a sudden severe headache or vision changes need emergency care."
+    }
+  },
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Ga. Comp. R. & Regs. 360-3-.07 (Practice Through Electronic or Other Such Means)",
+        "renderAt": "hero-credential",
+        "content": "The Georgia Composite Medical Board's Rule 360-3-.07 requires that all treatment and consultations delivered by electronic means be done by Georgia-licensed practitioners, that patients be given the physician's name, credentials and emergency contact information and clear instructions on follow-up for emergent care, and that licensees be held to the same standard of care as in-person practice. TeleDirectMD sees Georgia patients by real-time video through Parth Bhavsar, MD, a Georgia-licensed physician."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

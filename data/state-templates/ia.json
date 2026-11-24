@@ -1,0 +1,252 @@
+{
+  "stateCode": "IA",
+  "stateName": "Iowa",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "mid",
+    "regulation": "standard",
+    "payerLandscape": "self-pay-only",
+    "epidemiology": [
+      "lyme-moderate",
+      "tick-dog-tick-statewide",
+      "sti-young-adult",
+      "rabies-skunk-bat"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "midwest",
+    "voiceNotes": "Matter-of-fact and practical. Iowa's board rule is detailed and explicit about video versus phone and questionnaires, so the copy leans on what the rule actually says. Self-pay only; no insurer names."
+  },
+  "stateHero": {
+    "openingParagraph": "Iowa's Board of Medicine defines telemedicine as medicine practiced through electronic audio-visual communication, and it requires any physician treating a patient located in Iowa to hold an active Iowa medical license. Parth Bhavsar, MD, a board-certified family medicine physician, holds an Iowa medical license and sees adults who are in Iowa during a secure video visit. Under the same rule, care by telemedicine is held to the same standards as an in-person visit, and a prescription cannot rest on an online questionnaire alone. TeleDirectMD is self-pay only in Iowa: a flat $79, paid at booking, with HSA and FSA cards accepted. Prescriptions, when appropriate, are sent electronically, as Iowa law requires.",
+    "conditionPageOpener": "Video visits for adults located in Iowa with Parth Bhavsar, MD, board-certified in family medicine and licensed by the Iowa Board of Medicine. Flat $79 self-pay, paid at booking. Prescriptions, when appropriate, go electronically to your Iowa pharmacy.",
+    "stateContextHint": "Licensed in Iowa. Real-time video visits, not questionnaires, for adults located in Iowa. Flat $79 self-pay, HSA and FSA accepted.",
+    "saturation": {
+      "stateNameMentions": 7,
+      "stateEntityMentions": 4
+    }
+  },
+  "stateEligibility": {
+    "intro": "TeleDirectMD sees adults 18 and older who are physically located in Iowa at the time of the video visit. Iowa Administrative Code 653-13.9 ties the license requirement to where the patient is: a physician treating a patient located in Iowa must hold an active Iowa license. The same rule lets a physician-patient relationship start through telemedicine when the standard of care does not require an in-person encounter, and it calls for informed consent to the use of telemedicine. If an exam in person is needed, the visit will say so.",
+    "localTriggers": [
+      "You must be located in Iowa during the visit; Iowa's rule applies to any patient located in Iowa.",
+      "Visits are by real-time video. Iowa's definition of telemedicine excludes services provided only through an audio-only telephone.",
+      "You will be asked to consent to telemedicine, as Iowa's rule requires, and you will be told the physician's identity, licensure and credentials.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "Every Iowa visit is a flat $79 self-pay fee, paid at booking, with HSA and FSA cards accepted. TeleDirectMD does not bill insurance in Iowa, so there is no claim, copay or follow-up bill for the visit. Iowans who want individual coverage can compare plans through healthcare.gov, where the Iowa Insurance Division reports six insurers offering ACA plans for 2026. Iowa Medicaid members in Iowa Health Link, the program that combines physical, behavioral and long-term care services, should use their plan's network; TeleDirectMD does not accept Medicaid.",
+    "additionalNotes": [
+      "$79 flat self-pay, the full visit fee.",
+      "HSA and FSA cards accepted.",
+      "No insurance billing in Iowa."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "Iowa is one of the states where every prescription must travel electronically. The Iowa Board of Pharmacy explains that Iowa Code sections 155A.27 and 124.308 mandate the electronic transmission of all prescriptions, controlled and non-controlled, as of January 1, 2020. A TeleDirectMD prescription, when the physician decides one is appropriate, goes to the Iowa pharmacy you name at booking. Iowa's telemedicine rule also bars prescribing based solely on an Internet request or questionnaire, which is why each visit is a live conversation. TeleDirectMD does not prescribe controlled substances, the drugs tracked by the Iowa Prescription Monitoring Program.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "general": "Iowa HHS counted 13,684 chlamydia cases in 2023, and more than a third were in adults aged 20 to 24. Its vector-borne disease reports list 212 Lyme disease cases in 2023, spread by the blacklegged tick, while the American dog tick can be found in every Iowa county. Skunks and bats are the animals that most often get rabies in Iowa. Iowa HHS posts a weekly respiratory virus surveillance report through flu season. These figures are background only and do not replace an individual evaluation.",
+    "generalOnHubOnly": true,
+    "citations": [
+      {
+        "label": "Iowa Administrative Code 653-13.9, Standards of practice: telemedicine (effective 5/21/25)",
+        "url": "https://www.legis.iowa.gov/docs/iac/rule/04-16-2025.653.13.9.pdf",
+        "scope": "all"
+      },
+      {
+        "label": "Iowa Board of Pharmacy, Electronic Prescribing",
+        "url": "https://dial.iowa.gov/boards-0/pharmacy/electronic-prescribing",
+        "scope": "all"
+      },
+      {
+        "label": "Iowa Board of Pharmacy, About the Prescription Monitoring Program",
+        "url": "https://dial.iowa.gov/licenses/medical/pharmacy/prescription-monitoring-program"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, Iowa (V2025)",
+        "url": "https://www.census.gov/quickfacts/IA"
+      },
+      {
+        "label": "Iowa Insurance Division, ACA open enrollment press release, October 31, 2025",
+        "url": "https://iid.iowa.gov/press-release/2025-10-31/iowa-insurance-commissioner-aca-open-enrollment-begins-congress-needs-fix-structural-flaws-plague"
+      },
+      {
+        "label": "Iowa HHS, Iowa Health Link",
+        "url": "https://hhs.iowa.gov/medicaid/plans-programs/iowa-health-link"
+      },
+      {
+        "label": "CDC, Legal Status of Expedited Partner Therapy (updated July 1, 2026)",
+        "url": "https://cdc.gov/sti/php/ept-legal-status/index.html",
+        "conditions": [
+          "chlamydia-treatment-online"
+        ]
+      },
+      {
+        "label": "Iowa HHS STI Program, 2023 Surveillance Data Report: Chlamydia, Gonorrhea, and Syphilis",
+        "url": "https://publications.iowa.gov/50325/1/2023%20surveillance%20data%20for%20website_12pt_AF.pdf",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "Iowa HHS, DoxyPEP for the Prevention of Bacterial STIs (updated June 2025)",
+        "url": "https://hhs.iowa.gov/media/16642/download",
+        "conditions": [
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "Iowa HHS, Vector-Borne Disease 2024 Weekly Surveillance Report, December 6, 2024",
+        "url": "https://publications.iowa.gov/51267/1/VBD%20Surveillance%20Report%20-12-06-2024.pdf",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Iowa HHS, Rabies",
+        "url": "https://hhs.iowa.gov/health-prevention/animal-safety-and-disease-prevention/rabies",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Iowa HHS Epi Manual, Rabies: Controlling the Spread",
+        "url": "https://hhs.iowa.gov/public-health/center-acute-disease-epidemiology/epi-manual/reportable-diseases/rabies/controlling-spread-rabies",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Iowa HHS, Iowa Influenza Surveillance (weekly respiratory virus report)",
+        "url": "https://hhs.iowa.gov/health-prevention/providers-professionals/iowa-influenza-surveillance",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, certified by the American Board of Family Medicine, holds an Iowa medical license from the Iowa Board of Medicine, which can be checked through the state's online physician license verification. Iowa Administrative Code 653-13.9 governs telemedicine for patients located in Iowa: it requires an active Iowa license, informed consent to telemedicine, disclosure of the physician's identity, licensure and credentials, and the same standard of care as an office visit. NPI: 1104323203.",
+    "verifyUrl": "https://dial.iowa.gov/licenses/health-professions/physicians/verifications",
+    "statuteCitation": "Iowa Administrative Code 653-13.9 (Standards of practice: telemedicine); Iowa Code sections 155A.27 and 124.308 (electronic prescriptions)",
+    "licenseNumber": "MD-53469",
+    "boardName": "Iowa Board of Medicine",
+    "boardUrl": "https://medicalboard.iowa.gov/"
+  },
+  "stateCities": {
+    "metroAndRural": "The Census Bureau estimated Iowa's population at 3,238,387 on July 1, 2025, spread at 57.1 people per square mile as of 2020. Any adult located in Iowa can book: in Des Moines, West Des Moines, Ankeny and Urbandale; Cedar Rapids and Iowa City; Davenport and Dubuque along the Mississippi; Waterloo and Ames; and Sioux City and Council Bluffs on the western edge. A farm town and a Des Moines suburb get the same physician and the same flat $79 fee.",
+    "cityList": [
+      {
+        "city": "Des Moines"
+      },
+      {
+        "city": "Cedar Rapids"
+      },
+      {
+        "city": "Davenport"
+      },
+      {
+        "city": "Sioux City"
+      },
+      {
+        "city": "Iowa City"
+      },
+      {
+        "city": "Waterloo"
+      },
+      {
+        "city": "Ames"
+      },
+      {
+        "city": "West Des Moines"
+      },
+      {
+        "city": "Council Bluffs"
+      },
+      {
+        "city": "Ankeny"
+      },
+      {
+        "city": "Dubuque"
+      },
+      {
+        "city": "Urbandale"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "self-pay-only",
+    "selfPayDisclosure": "TeleDirectMD does not bill any insurer in Iowa, including Medicaid, Iowa Health Link plans and Medicare. Each Iowa visit is a flat $79, paid at booking, with no facility fee or later bill for the visit, and HSA and FSA cards are accepted. If you have insurance, you may ask your plan about out-of-network reimbursement; TeleDirectMD does not file claims and cannot promise reimbursement.",
+    "payers": []
+  },
+  "stateFaqs": [
+    {
+      "question": "Is a video visit legal medicine in Iowa?",
+      "answer": "Yes. Iowa Administrative Code 653-13.9 defines telemedicine as medicine practiced through electronic audio-visual communication, allows a physician-patient relationship to be established through telemedicine when the standard of care does not require an in-person encounter, and holds it to the same standards as office care. The physician must hold an active Iowa license; Dr. Bhavsar is licensed by the Iowa Board of Medicine."
+    },
+    {
+      "question": "Why can't I just fill out a form and get a prescription in Iowa?",
+      "answer": "Iowa's telemedicine rule prohibits prescribing based solely on an Internet request or Internet questionnaire, and its definition of telemedicine excludes audio-only phone care. That is why every TeleDirectMD visit in Iowa is a live video conversation with the physician, who decides after the visit whether a prescription is appropriate."
+    },
+    {
+      "question": "Does TeleDirectMD take insurance or Medicaid in Iowa?",
+      "answer": "No. TeleDirectMD is self-pay only in Iowa: a flat $79, paid at booking, with HSA and FSA cards accepted. It does not bill Medicaid, Iowa Health Link plans, Medicare or commercial insurance. Iowans shopping for individual coverage can use healthcare.gov, where six insurers offer ACA plans in Iowa for 2026."
+    },
+    {
+      "question": "How do I verify Dr. Bhavsar's Iowa license?",
+      "answer": "Use the State of Iowa's online physician license verification and search for Parth Bhavsar. His Iowa medical license is issued by the Iowa Board of Medicine, and his National Provider Identifier is 1104323203. Iowa's rule also requires that telemedicine patients be told the physician's identity, licensure and credentials."
+    },
+    {
+      "question": "Will my prescription be sent electronically to my Iowa pharmacy?",
+      "answer": "Yes. Iowa Code sections 155A.27 and 124.308 have required electronic transmission of all prescriptions, controlled and non-controlled, since January 1, 2020. When the physician decides a prescription is appropriate, it goes electronically to the Iowa pharmacy you choose. TeleDirectMD does not prescribe controlled substances.",
+      "onHub": true
+    }
+  ],
+  "conditionOverrides": {
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "Iowa HHS reported 212 Lyme disease cases in 2023, spread by the blacklegged (deer) tick, and its surveillance reports note that the American dog tick can be found in every county in the state and the lone star tick is also found in Iowa. That mix means the species matters. A video visit for adults in Iowa can look at a photo of the removed tick, ask how long it was attached and where you were, and decide whether a preventive dose fits or watchful waiting is the better plan. A fever, a spreading rash, facial weakness or palpitations after a bite needs in-person care."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "Iowa HHS says wild animals, especially skunks and bats, most often get rabies in Iowa, but cats can be infected too. Under Iowa HHS guidance, a cat, dog or ferret that bites a person and appears healthy may be quarantined for 10 days, and Local Boards of Health collect bite exposure reports. A video visit for adults in Iowa fits a recent, superficial to moderate bite from a known domestic cat: wound care, whether an antibiotic is appropriate, and the rabies question. A hand bite with swelling or stiffness, or a bite from a stray, needs in-person care."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "In Iowa, a dog that bites someone and appears healthy may be quarantined for 10 days under Iowa HHS rabies guidance, and Local Boards of Health handle human exposure reports and animal confinement. Iowa HHS lists skunks, bats, raccoons, foxes and coyotes as the high-risk wild animals. For adults located in Iowa with a superficial to moderate bite from a known domestic dog, a video visit covers photos of the wound, cleaning, whether antibiotics make sense and what to watch for. Deep wounds, bleeding that will not stop, or a bite from a wild or unknown animal need an emergency department."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "The Iowa HHS STI Program counted 13,684 chlamydia cases in Iowa in 2023, a rate of 428 per 100,000, and adults aged 20 to 24 accounted for 4,963 of them. If you already have a positive result, a video visit for adults in Iowa can confirm it, prescribe treatment when appropriate, and plan a retest. The CDC lists expedited partner therapy as permissible in Iowa, so treatment for a partner may be possible without a separate exam; whether it fits is decided in the visit. Pelvic pain with fever, testicular swelling or pregnancy means in-person care instead."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "Iowa HHS published its own DoxyPEP guidance, updated June 2025, noting that the incidence of bacterial STIs continues to increase in Iowa. It describes a single 200 mg dose of doxycycline taken ideally within 24 hours, and no later than 72 hours, after condomless sex, and notes that doxycycline is not recommended in pregnancy. TeleDirectMD offers doxy-PEP by video to adults in Iowa who meet the eligibility on this page, after reviewing recent STI and HIV testing. Sores, discharge or other active symptoms need testing and treatment first, and a recent HIV exposure needs urgent HIV PEP."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "Iowa HHS publishes a weekly respiratory virus surveillance report, built from voluntary reporting by laboratories, schools, hospitals and others, which shows when flu is climbing across Iowa. If you are an adult in Iowa and flu symptoms started within about the last 48 hours, a video visit can decide whether an antiviral is appropriate and send it electronically to your pharmacy, as Iowa requires for all prescriptions. Early treatment helps most, especially for people at higher risk. Shortness of breath, chest pain, confusion or being unable to keep fluids down needs emergency care."
+    }
+  },
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Iowa Administrative Code 653-13.9 (Standards of practice: telemedicine)",
+        "renderAt": "hero-credential",
+        "content": "Iowa Administrative Code 653-13.9 defines telemedicine as the practice of medicine using electronic audio-visual communications and information technologies, and requires a physician who uses telemedicine to diagnose and treat a patient located in Iowa to hold an active Iowa medical license. The rule requires informed consent to telemedicine, holds telemedicine to the same standards of care as in-person encounters, and prohibits prescribing based solely on an Internet questionnaire. TeleDirectMD sees Iowa patients by real-time video through Parth Bhavsar, MD, licensed by the Iowa Board of Medicine."
+      },
+      {
+        "statute": "Iowa Code sections 155A.27 and 124.308 (electronic prescriptions)",
+        "renderAt": "footer",
+        "content": "Iowa Code sections 155A.27 and 124.308 require that all prescriptions, controlled and non-controlled, be transmitted electronically from prescriber to pharmacy, effective January 1, 2020. TeleDirectMD sends Iowa prescriptions electronically to the pharmacy the patient chooses and does not prescribe controlled substances."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

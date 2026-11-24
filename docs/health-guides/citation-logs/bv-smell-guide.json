@@ -1,0 +1,704 @@
+{
+ "guide": "bv-smell-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 18 verified (15 cited journal DOIs plus the 3 removed: Cherpes 2008, Sobel 2007, Bilardi 2017), retractions: none (no retraction, expression of concern or withdrawal). PubMed article types checked for all 15 cited PubMed records: no Retracted Publication or Retraction Notice. Scite contrasting-evidence excerpts on refs 1, 3, 4, 5, 6, 12, 14 reviewed; only ref 5 bears on the cited claim and the page frames 58 percent as one cohort.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "Workowski KA, Bachmann LH, Chan PA, et al. Sexually Transmitted Infections Treatment Guidelines, 2021. MMWR Recomm Rep. 2021;70(4):1-187.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34292926/",
+   "pmid": "34292926",
+   "pmcid": "PMC8344968",
+   "doi": "10.15585/mmwr.rr7004a1",
+   "record_title": "Sexually Transmitted Infections Treatment Guidelines, 2021.",
+   "record_journal": "MMWR Recomm Rep",
+   "record_year": "2021",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "CDC STI Treatment Guidelines 2021 (MMWR RR 70(4), July 23, 2021); read 2026-11-15",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC8344968, vaginitis, BV, trichomoniasis, VVC and PID sections); WebFetch of https://www.cdc.gov/std/treatment-guidelines/bv.htm for regimen drug names (PMC text drops italic drug names); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "PMC full text strips italicized drug and organism names; regimen drug names confirmed on the CDC BV treatment-guideline web page (WebFetch returned short excerpts). Doses quoted verbatim from PMC text.",
+   "claims": [
+    {
+     "text": "Whiff test: fishy odor before or after 10% KOH is one of the four Amsel criteria; at least three of four needed (key takeaway, whiff section, FAQ)",
+     "quote": "Clinical diagnosis of BV by Amsel criteria requires at least three of the following four symptoms or signs: ... A fishy odor of vaginal discharge before or after addition of 10% KOH (i.e., the whiff test)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Other Amsel criteria: thin homogeneous discharge coating the vaginal walls, pH above 4.5, clue cells",
+     "quote": "Homogeneous, thin discharge (milklike consistency) that smoothly coats the vaginal walls Clue cells (e.g., vaginal epithelial cells studded with adherent bacteria) on microscopic examination pH of vaginal fluid >4.5",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Douching: no data support it for treatment or symptom relief; might increase relapse (summary, takeaway, hygiene section, FAQ)",
+     "quote": "Douching might increase the risk for relapse, and no data support use of douching for treatment or symptom relief.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recommended regimens: metronidazole 500 mg orally twice daily 7 days; metronidazole 0.75% gel one full applicator (5 g) once daily 5 days; clindamycin 2% cream one full applicator (5 g) at bedtime 7 days",
+     "quote": "Recommended Regimens for Bacterial Vaginosis 500 mg orally 2 times/day for 7 days or one full applicator (5 g) intravaginally, once daily for 5 days or one full applicator (5 g) intravaginally at bedtime for 7 days",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Alternatives: secnidazole 2 g oral granules single dose, tinidazole, oral clindamycin, clindamycin ovules",
+     "quote": "Alternative Regimens 300 mg orally 2 times/day for 7 days or 100 mg intravaginally once at bedtime for 3 days* or 2 g oral granules in a single dose or 2 g orally once daily for 2 days",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Secnidazole is an alternative because of higher cost and lack of long-term outcomes",
+     "quote": "Secnidazole is listed as an alternative regimen, due to its higher cost and lack of long-term outcomes compared with recommended BV treatments.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV is replacement of lactic acid producing lactobacilli by high concentrations of anaerobes with a polymicrobial biofilm; FAQ: BV involves a biofilm",
+     "quote": "BV is a vaginal dysbiosis resulting from replacement of normal hydrogen peroxide and lactic-acid–producing species in the vagina with high concentrations of anaerobic bacteria ... A notable feature is the appearance of a polymicrobial biofilm on vaginal epithelial cells",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV is the most common cause of vaginal discharge worldwide",
+     "quote": "BV is a highly prevalent condition and the most common cause of vaginal discharge worldwide",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Amine odor right after KOH suggests BV or trichomoniasis, so a positive whiff test is not specific to BV",
+     "quote": "samples that emit an amine odor immediately upon application of KOH suggest BV or trichomoniasis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Trichomoniasis can cause a discharge that is diffuse, malodorous or yellow-green, with or without vulvar irritation",
+     "quote": "women with trichomoniasis sometimes have vaginal discharge, which can be diffuse, malodorous, or yellow-green with or without vulvar irritation",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC recommends testing for trichomoniasis in women seeking care for vaginal discharge",
+     "quote": "Diagnostic testing for [T. vaginalis] should be performed for women seeking care for vaginal discharge.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "None of the yeast symptoms is specific; yeast symptoms include itching, soreness",
+     "quote": "Typical symptoms of VVC include pruritus, vaginal soreness, dyspareunia, external dysuria, and abnormal vaginal discharge. None of these symptoms is specific for VVC.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "pH paper; elevated pH above 4.5 common with BV or trichomoniasis; pH testing not highly specific",
+     "quote": "The pH of the vaginal secretions can be measured by pH paper; an elevated pH (i.e., >4.5) is common with BV or trichomoniasis ... Because pH testing is not highly specific",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Yeast infection associated with a normal pH below 4.5 (text and table)",
+     "quote": "vaginitis is associated with normal vaginal pH (<4.5).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "A history alone is not enough for accurate diagnosis of vaginitis and can lead to the wrong medication",
+     "quote": "Obtaining a medical history alone has been reported to be insufficient for accurate diagnosis of vaginitis and can lead to inappropriate administration of medication",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV prevalence increases during menses",
+     "quote": "In addition, BV prevalence increases during menses",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Vulvovaginal inflammation without infection can have chemical or allergic causes (cited after the sentence that scented washes, wipes and sprays are not BV treatments)",
+     "quote": "Presence of objective signs of vulvovaginal inflammation in the absence of vaginal pathogens after laboratory testing indicates the possibility of mechanical, chemical, allergic, or other noninfectious causes",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "People often try OTC products before or alongside a clinician visit",
+     "quote": "symptomatic women often seek these products before or in addition to an evaluation by a medical provider",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Treating BV relieves its symptoms",
+     "quote": "Established benefits of therapy among nonpregnant women are to relieve vaginal symptoms and signs of infection.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Retreatment with the same regimen is acceptable after a first recurrence; options for multiple recurrences",
+     "quote": "retreatment with the same recommended regimen is an acceptable approach for treating persistent or recurrent BV after the first occurrence",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Twice-weekly metronidazole gel for more than 3 months reduces recurrences; benefit does not persist after stopping",
+     "quote": "either 0.75% metronidazole gel or 750 mg metronidazole vaginal suppository twice weekly for >3 months has been reported to reduce recurrences, although this benefit does not persist when suppressive therapy is discontinued",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Boric acid (limited data, multiple recurrences): oral nitroimidazole 7 days, then boric acid 600 mg daily 21 days, then twice-weekly gel 4 to 6 months (section and FAQ)",
+     "quote": "for women with multiple recurrences, an oral nitroimidazole (metronidazole or tinidazole 500 mg 2 times/day for 7 days), followed by intravaginal boric acid 600 mg daily for 21 days and suppressive 0.75% metronidazole gel twice weekly for 4–6 months",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "FAQ: boric acid is not part of CDC regimens for a first episode (read from its placement only under multiple recurrences)",
+     "quote": "Limited data indicate that for women with multiple recurrences ... intravaginal boric acid 600 mg daily for 21 days",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "CDC does not recommend routine treatment of sex partners",
+     "quote": "Therefore, routine treatment of sex partners is not recommended.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC advises returning for evaluation when symptoms recur",
+     "quote": "Because persistent or recurrent BV is common, women should be advised to return for evaluation if symptoms recur.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lack of condom use and douching are associated with BV",
+     "quote": "BV is associated with having multiple male sex partners, female partners, sexual relationships with more than one person, a new sex partner, lack of condom use, douching",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "PID often missed because signs such as abnormal bleeding, pain with sex and vaginal discharge are mild or nonspecific (not-BV section, red flags, FAQ)",
+     "quote": "others are not diagnosed because the patient or the health care provider do not recognize the implications of mild or nonspecific symptoms or signs (e.g., abnormal bleeding, dyspareunia, and vaginal discharge).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pelvic or lower abdominal pain in at-risk women is a reason to consider PID treatment",
+     "quote": "Presumptive treatment for PID should be initiated for sexually active young women and other women at risk for STIs if they are experiencing pelvic or lower abdominal pain",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Temperature above 101 F is among findings that support PID diagnosis",
+     "quote": "Oral temperature >38.3°C (>101°F)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Treat all symptomatic BV in pregnancy because of links with preterm birth and other complications",
+     "quote": "BV treatment is recommended for all symptomatic pregnant women because symptomatic BV has been associated with adverse pregnancy outcomes, including premature rupture of membranes, preterm birth",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptoms during pregnancy are a reason to see a clinician rather than self-treat (inferred from treat-all-symptomatic recommendation)",
+     "quote": "BV treatment is recommended for all symptomatic pregnant women",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "FAQ: a foul smell can point to other causes such as trichomoniasis",
+     "quote": "women with trichomoniasis sometimes have vaginal discharge, which can be diffuse, malodorous, or yellow-green",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "FAQ: fishy odor points toward BV or trichomoniasis, both of which can give an amine odor on testing",
+     "quote": "samples that emit an amine odor immediately upon application of KOH suggest BV or trichomoniasis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "journal",
+   "cited_as": "Amsel R, Totten PA, Spiegel CA, Chen KC, Eschenbach D, Holmes KK. Am J Med. 1983;74(1):14-22.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6600371/",
+   "pmid": "6600371",
+   "doi": "10.1016/0002-9343(83)91112-9",
+   "record_title": "Nonspecific vaginitis. Diagnostic criteria and microbial and epidemiologic associations.",
+   "record_journal": "Am J Med",
+   "record_year": "1983",
+   "article_type": "Comparative Study; Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract, article types); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only (full text paywalled). Now cited only for what the abstract says; the criteria themselves are cited to CDC 2021.",
+   "claims": [
+    {
+     "text": "The criteria trace to a 1983 study of 397 university students that proposed practical diagnostic criteria for clinic use",
+     "quote": "We studied 397 consecutive unselected female university students ... Practical diagnostic criteria for standard clinical use are proposed.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Gardnerella was isolated from 51.3 percent of all the women tested, so its presence alone does not mean BV",
+     "quote": "G. vaginalis was isolated from 51.3 percent of the total population using a highly selective medium",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "Fredricks DN, Fiedler TL, Marrazzo JM. N Engl J Med. 2005;353(18):1899-1911.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16267321/",
+   "pmid": "16267321",
+   "doi": "10.1056/NEJMoa043802",
+   "record_title": "Molecular identification of bacteria associated with bacterial vaginosis.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2005",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract, article types); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. Amine and named-genera claims moved off this source. Scite contrasting excerpt concerns L. crispatus detection in another population; not relevant to the cited claim.",
+   "claims": [
+    {
+     "text": "Molecular study: 9 to 17 species per sample in BV vs 1 to 6, mostly lactobacilli, without BV",
+     "quote": "Women without bacterial vaginosis had 1 to 6 vaginal bacterial species (phylotypes) in each sample ... lactobacillus species were the predominant bacteria ... Women with bacterial vaginosis had greater bacterial diversity (P<0.001), with 9 to 17 phylotypes",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Ravel J, Gajer P, Abdo Z, et al. Proc Natl Acad Sci U S A. 2011;108(Suppl 1):4680-4687.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20534435/",
+   "pmid": "20534435",
+   "pmcid": "PMC3063603",
+   "doi": "10.1073/pnas.1002611107",
+   "record_title": "Vaginal microbiome of reproductive-age women.",
+   "record_journal": "Proc Natl Acad Sci U S A",
+   "record_year": "2011 (print, vol 108 Suppl 1; epub 2010-06-03)",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract, article types); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. Odor and amine claims removed from this source. Scite contrasting excerpt concerns number of community clusters in another cohort; not relevant to the pH claim.",
+   "claims": [
+    {
+     "text": "In 396 women without symptoms, average vaginal pH ranged from 4.2 to 5.0 across ethnic groups",
+     "quote": "was higher in Hispanic (pH 5.0 ± 0.59) and black (pH 4.7 ± 1.04) women as compared with Asian (pH 4.4 ± 0.59) and white (pH 4.2 ± 0.3) women",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Bradshaw CS, Morton AN, Hocking J, et al. J Infect Dis. 2006;193(11):1478-1486.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16652274/",
+   "pmid": "16652274",
+   "doi": "10.1086/503780",
+   "record_title": "High recurrence rates of bacterial vaginosis over the course of 12 months after oral metronidazole therapy and factors associated with recurrence.",
+   "record_journal": "J Infect Dis",
+   "record_year": "2006",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract, article types); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. Study used 400 mg twice daily for 7 days; page states 7 days of oral metronidazole without a dose. Scite contrasting excerpt: a later trial reports better 6-month cure; the page now presents 58 percent as one cohort, not a universal rate.",
+   "claims": [
+    {
+     "text": "In one Australian cohort treated with 7 days of oral metronidazole, 58 percent had BV again within 12 months (section and FAQ)",
+     "quote": "BV was treated with 400 mg of oral metronidazole twice a day for 7 days ... Sixty-eight women (58% [95% confidence interval {CI}, 49%-66%]) had a recurrence of BV (NS 7-10) ... by 12 months.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Koumans EH, Sternberg M, Bruce C, et al. Sex Transm Dis. 2007;34(11):864-869.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17621244/",
+   "pmid": "17621244",
+   "doi": "10.1097/OLQ.0b013e318074e565",
+   "record_title": "The prevalence of bacterial vaginosis in the United States, 2001-2004; associations with symptoms, sexual behaviors, and reproductive health.",
+   "record_journal": "Sex Transm Dis",
+   "record_year": "2007",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract, article types); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces Cherpes 2008 at position 6. Primary source for the 84 percent figure (CDC 2021 says only \"the majority\"). Abstract only.",
+   "claims": [
+    {
+     "text": "In a national U.S. survey, 84 percent of women with BV did not report symptoms (takeaway and FAQ)",
+     "quote": "BV is a common condition; 84% of women with BV did not report symptoms.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "In a national U.S. survey, BV was more common with increasing douching frequency",
+     "quote": "in the multivariate model, BV only remained positively associated with race/ethnicity, increasing lifetime sex partners (chi2 P <0.001 for trend), increasing douching frequency (chi2 P for trend <0.001)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Boskey ER, Telsch KM, Whaley KJ, Moench TR, Cone RA. Infect Immun. 1999;67(10):5170-5175.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10496892/",
+   "pmid": "10496892",
+   "pmcid": "PMC96867",
+   "doi": "10.1128/IAI.67.10.5170-5175.1999",
+   "record_title": "Acid production by vaginal flora in vitro is consistent with the rate and extent of vaginal acidification.",
+   "record_journal": "Infect Immun",
+   "record_year": "1999",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract, article types); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Lactobacilli keep a healthy vagina acidic, pH 3.6 to 4.5 in most women",
+     "quote": "acidified their growth medium to an asymptotic pH (3.2 to 4.8) that matches the range seen in the Lactobacillus-dominated human vagina (pH 3.6 to 4.5 in most women)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "In BV lactobacilli are lost, other bacteria overgrow and pH rises above 4.5",
+     "quote": "During bacterial vaginosis (BV), there is a loss of vaginal acidity, and the vaginal pH rises to >4.5. This correlates with a loss of lactobacilli and an overgrowth of diverse bacteria.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Gardnerella vaginalis and Prevotella bivia are among BV-associated bacteria",
+     "quote": "Three BV-associated bacteria, Gardnerella vaginalis, Prevotella bivia, and Peptostreptococcus anaerobius, acidified their growth medium",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "After sex, lactobacilli work to reacidify the vagina after neutralization by semen",
+     "quote": "vaginal lactobacilli could reacidify the vagina at the rate observed postcoitally following neutralization by the male ejaculate",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "guideline",
+   "cited_as": "Mendling W, Brasch J, Cornely OA, et al. Guideline: vulvovaginal candidosis (AWMF 015/072), S2k. Mycoses. 2015;58(Suppl 1):1-15.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25711406/",
+   "pmid": "25711406",
+   "doi": "10.1111/myc.12292",
+   "record_title": "Guideline: vulvovaginal candidosis (AWMF 015/072), S2k (excluding chronic mucocutaneous candidosis).",
+   "record_journal": "Mycoses",
+   "record_year": "2015",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "AWMF 015/072 S2k, published March 2015 (German national guideline)",
+   "retrieved_with": "PubMed get_article_metadata (abstract, article types); Scite verify_papers; found with PubMed search_articles",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces Sobel 2007 (Lancet review) at position 8, whose abstract does not address odor. Abstract only.",
+   "claims": [
+    {
+     "text": "Yeast infection typically causes an odorless discharge, with itching, burning and redness (sections, table, FAQ)",
+     "quote": "Typical symptoms include premenstrual itching, burning, redness and odourless discharge.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Bilardi JE, Walker S, Temple-Smith M, et al. PLoS One. 2013;8(9):e74378.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24040236/",
+   "pmid": "24040236",
+   "pmcid": "PMC3770676",
+   "doi": "10.1371/journal.pone.0074378",
+   "record_title": "The burden of bacterial vaginosis: women's experience of the physical, emotional, sexual and social impact of living with recurrent bacterial vaginosis.",
+   "record_journal": "PLoS One",
+   "record_year": "2013",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract, article types); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Replaces Bilardi 2017 (questionnaire on perceived triggers) at position 9; this is the qualitative interview study on the impact of BV symptoms.",
+   "claims": [
+    {
+     "text": "35 women with recurrent BV felt embarrassed, ashamed and dirty, and concerned others would detect odor and discharge",
+     "quote": "Women commonly reported that symptoms of bacterial vaginosis made them feel embarrassed, ashamed, 'dirty' and very concerned others may detect their malodour and abnormal discharge.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Biggest impact was on self-esteem and sex lives, with women regularly avoiding sex, particularly oral sex",
+     "quote": "The biggest impact of recurrent bacterial vaginosis was on women's self-esteem and sex lives, with women regularly avoiding sexual activity, in particular oral sex",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Chen KC, Forsyth PS, Buchanan TM, Holmes KK. J Clin Invest. 1979;63(5):828-835.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/447831/",
+   "pmid": "447831",
+   "pmcid": "PMC372023",
+   "doi": "10.1172/JCI109382",
+   "record_title": "Amine content of vaginal fluid from untreated and treated patients with nonspecific vaginitis.",
+   "record_journal": "J Clin Invest",
+   "record_year": "1979",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract, article types); Scite verify_papers; found with PubMed search_articles",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New. Study of 10 patients with nonspecific vaginitis (older name for BV). The anaerobe link is stated as the authors' hypothesis.",
+   "claims": [
+    {
+     "text": "Seven amines identified; putrescine and cadaverine most abundant; may be partly responsible for fishy odor",
+     "quote": "Seven amines were identified including methylamine, isobutylamine, putrescine, cadaverine ... They may also be partly responsible for the \"fishy\" odor ... putrescine and cadaverine were the most abundant",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Authors proposed the anaerobic bacteria increased in BV produce the amines (takeaway says \"thought to be made by\")",
+     "quote": "We hypothesize the anaerobic vaginal organisms, previously shown to be quantitatively increased in NSV, are responsible for the amine production",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "journal",
+   "cited_as": "Wolrath H, Boren H, Hallen A, Forsum U. APMIS. 2002;110(11):819-824.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12588422/",
+   "pmid": "12588422",
+   "doi": "10.1034/j.1600-0463.2002.1101108.x",
+   "record_title": "Trimethylamine content in vaginal secretion and its relation to bacterial vaginosis.",
+   "record_journal": "APMIS",
+   "record_year": "2002",
+   "article_type": "Comparative Study; Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract, article types); Scite verify_papers; found with PubMed search_articles",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New. Abstract only.",
+   "claims": [
+    {
+     "text": "The fishy odor is due to trimethylamine, which bacteria make from trimethylamine oxide (summary, source section, table)",
+     "quote": "The odor is due to bacterial reduction of trimethylamine oxide to trimethylamine (TMA) in vaginal secretion.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Adding an alkali releases trimethylamine, the basis of the whiff test (summary, whiff section, figure 2, FAQ)",
+     "quote": "The release of TMA from specimens of vaginal fluid following the addition of alkali is often used in making a clinical diagnosis of bacterial vaginosis (BV).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Alkaline conditions after sex release trimethylamine, the likely explanation for stronger odor after sex (takeaway, why-worse section, figure 3, FAQ); inference combining refs 11, 13 and 15, odor after sex not measured",
+     "quote": "The release of TMA from specimens of vaginal fluid following the addition of alkali",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "journal",
+   "cited_as": "Nelson TM, Borgogna JL, Brotman RM, Ravel J, Walk ST, Yeoman CJ. Front Physiol. 2015;6:253.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26483694/",
+   "pmid": "26483694",
+   "pmcid": "PMC4586437",
+   "doi": "10.3389/fphys.2015.00253",
+   "record_title": "Vaginal biogenic amines: biomarkers of bacterial vaginosis or precursors to vaginal dysbiosis?",
+   "record_journal": "Front Physiol",
+   "record_year": "2015",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract, article types); Scite verify_papers; found with PubMed search_articles",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New. Small cross-sectional study (37 women). Abstract only.",
+   "claims": [
+    {
+     "text": "In 37 women, putrescine, cadaverine and tyramine were higher in lactobacillus-depleted communities",
+     "quote": "we show in a small cross sectional study of 37 women that the BAs putrescine, cadaverine and tyramine are significantly higher in CST IV over CSTs I and III",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "CST IV is depleted of lactobacilli",
+     "quote": "the vaginal microbial community state type (CST) IV, which is depleted in lactobacilli",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "journal",
+   "cited_as": "Tevi-Benissan C, Belec L, Levy M, et al. Clin Diagn Lab Immunol. 1997;4(3):367-374.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9144379/",
+   "pmid": "9144379",
+   "pmcid": "PMC170534",
+   "doi": "10.1128/cdli.4.3.367-374.1997",
+   "record_title": "In vivo semen-associated pH neutralization of cervicovaginal secretions.",
+   "record_journal": "Clin Diagn Lab Immunol",
+   "record_year": "1997",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract, article types); Scite verify_papers; found with PubMed search_articles",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New. 56 women in Bangui. Supports semen raising vaginal pH; does not measure odor.",
+   "claims": [
+    {
+     "text": "Semen neutralizes vaginal acidity; semen components correlated strongly with higher pH (takeaway, section, figure 3, FAQ)",
+     "quote": "concentrations of both PAP and PSA correlated positively and strongly with cervicovaginal pH (P < 0.001) ... Frequent persistence of semen in CVS ... leads to a shift from acidity to neutrality",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "journal",
+   "cited_as": "Srinivasan S, Liu C, Mitchell CM, et al. PLoS One. 2010;5(4):e10197.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20419168/",
+   "pmid": "20419168",
+   "pmcid": "PMC2855365",
+   "doi": "10.1371/journal.pone.0010197",
+   "record_title": "Temporal variability of human vaginal bacteria and relationship with bacterial vaginosis.",
+   "record_journal": "PLoS One",
+   "record_year": "2010",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract, article types); Scite verify_papers; found via citation in an earlier repair log, re-retrieved this run",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New. 22 women. Abstract only. Treatment was 5 days of vaginal metronidazole; the page says so.",
+   "claims": [
+    {
+     "text": "Healthy lactobacilli levels can change dramatically over a month; fell with onset of menstruation while Gardnerella rose (normal-scent and why-worse sections)",
+     "quote": "With onset of menstruation, quantities of Lactobacillus jensenii and Lactobacillus crispatus decreased and were found to be inversely related to Gardnerella vaginalis concentrations ... levels can change dramatically over a month",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV bacteria dropped below detection 1 to 5 days after starting vaginal metronidazole (treatment section, FAQ)",
+     "quote": "Women with BV had a variety of fastidious bacteria whose concentrations dropped below detection thresholds 1-5 days after starting metronidazole.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "In women who relapsed, BV bacteria fell after treatment and later reemerged (FAQ)",
+     "quote": "Women with recurrent BV initially respond to antibiotic treatment with steep declines in bacterial concentrations, but these bacteria later reemerge",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. About Bacterial Vaginosis (BV). Last reviewed December 11, 2023.",
+   "url": "https://www.cdc.gov/bacterial-vaginosis/about/index.html",
+   "record_title": "About Bacterial Vaginosis (BV)",
+   "version_or_date": "Page dated Dec. 11, 2023 (meta last_reviewed and last_updated December 11, 2023); read 2026-11-15",
+   "retrieved_with": "WebFetch of official page (verbatim short quotes)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New. Patient-facing CDC page.",
+   "claims": [
+    {
+     "text": "Strong fish-like odor, especially after sex, is a BV symptom (intro, takeaway, sections, FAQ)",
+     "quote": "A strong fish-like odor, especially after sex",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV discharge is thin white or gray",
+     "quote": "A thin white or gray vaginal discharge",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Douching can upset the normal balance of vaginal bacteria (hygiene section, FAQ)",
+     "quote": "Douching, not using condoms, and having new or multiple sex partners can upset the normal balance of vaginal bacteria",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV is an imbalance of vaginal bacteria (FAQ hygiene)",
+     "quote": "BV is a result of an imbalance of \"good\" and \"harmful\" bacteria in a vagina.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Take all the medicine prescribed even if symptoms go away (treatment section, FAQ)",
+     "quote": "It is important to take all the medicine your provider prescribes, even if your symptoms go away.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prevention not fully understood; not douching and using condoms correctly every time may help lower risk",
+     "quote": "Healthcare providers and scientists do not completely understand how BV spreads or know how best to prevent it. ... Not douching ... Using condoms the right way every time you have sex",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV at times goes away without treatment; anyone with symptoms should be checked and treated (FAQ)",
+     "quote": "At times, BV will go away without treatment. ... If you have symptoms, you should be checked and treated by a healthcare provider.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "journal",
+   "cited_as": "Dunphy L, Sheridan G. BMJ Case Rep. 2021;14(3):e239461.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33653848/",
+   "pmid": "33653848",
+   "pmcid": "PMC7929806",
+   "doi": "10.1136/bcr-2020-239461",
+   "record_title": "Vaginal foreign body insertion in a patient with emotionally unstable personality disorder.",
+   "record_journal": "BMJ Case Rep",
+   "record_year": "2021",
+   "article_type": "Case Reports; Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract, article types); Scite verify_papers; found with PubMed search_articles",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New. A case report with a literature overview; labeled \"Case report\" in the reference list. Page number e239461 taken from the DOI suffix and PII; the PubMed record lists volume 14, issue 3 without pages.",
+   "claims": [
+    {
+     "text": "A forgotten tampon or other object in the vagina can cause bleeding or blood-stained or foul-smelling discharge (sections, table, red flags, FAQ)",
+     "quote": "Commonly retrieved foreign bodies from the vagina includes tampons ... Individuals may present with bleeding, blood stained or foul-smelling vaginal discharge.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prompt removal and care prevent complications",
+     "quote": "Prompt management can prevent morbidity and mortality resulting from complications.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

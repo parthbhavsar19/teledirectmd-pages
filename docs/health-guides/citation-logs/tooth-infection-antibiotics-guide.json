@@ -1,0 +1,608 @@
+{
+  "guide": "tooth-infection-antibiotics-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 10 DOIs checked, 9 verified (10.3290/j.qi.b6762787 could_not_verify: registered at doi.org, no Scite record; PubMed record PMID 41410042 confirms it); retractions: none. No PubMed record carries Retracted Publication or Retraction Notice. Scite flagged one contrasting citation for the ESE position statement (10.1111/iej.12781), which was cut from the guide for other reasons.",
+  "references": [
+    {
+      "n": 1,
+      "kind": "guideline",
+      "cited_as": "Lockhart PB, Tampi MP, Abt E, et al. Evidence-based clinical practice guideline on antibiotic use for the urgent management of pulpal- and periapical-related dental pain and intraoral swelling: A report from the American Dental Association. J Am Dent Assoc. 2019;150(11):906-921.e12.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31668170/",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "ADA recommends against antibiotics in most scenarios; antibiotics when systemic involvement or high risk of progression; DCDT prioritized in all cases",
+          "quote": "the panel recommended against using antibiotics in most clinical scenarios ... They recommended antibiotics in patients with systemic involvement (for example, malaise or fever) due to the dental conditions or when the risk of experiencing progression to systemic involvement is high.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Definitive treatment includes root canal treatment or incision and drainage",
+          "quote": "definitive, conservative (tooth preserving) dental treatment (DCDT) (i.e. pulpotomy, pulpectomy, nonsurgical root canal treatment, or incision and drainage)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Amoxicillin 500 mg three times a day or penicillin VK 500 mg four times a day, 3 to 7 days, plus urgent referral, for abscess with systemic involvement",
+          "quote": "The expert panel suggests dentists prescribe oral amoxicillin (500 milligrams, three times a day, 3–7d) or oral penicillin VK (500 milligrams, four times a day, 3–7d) for immunocompetent adults with pulp necrosis and acute apical abscess with systemic involvement.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Non-response: add metronidazole or switch to amoxicillin-clavulanate, to enhance activity against Gram-negative anaerobes",
+          "quote": "For cases that do not respond promptly to antibiotics, clinicians may consider either complementing first-line treatment with oral metronidazole, or discontinue first-line treatment and prescribe oral amoxicillin/clavulanate, to enhance the efficacy against Gram negative anaerobic organisms.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Metronidazole add-on 500 mg three times a day for 7 days",
+          "quote": "complement first-line treatment with oral metronidazole (500 milligrams, three times a day, 7d)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Amoxicillin-clavulanate 500/125 mg three times a day for 7 days",
+          "quote": "prescribe oral amoxicillin/clavulanate (500/125 milligrams, three times a day, 7d)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cephalexin 500 mg four times a day 3 to 7 days for penicillin allergy without anaphylaxis, angioedema or hives",
+          "quote": "the panel suggests dentists prescribe oral cephalexin (500 milligrams, four times a day, 3–7d)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Azithromycin 500 mg day 1 then 250 mg for four more days, for allergy with anaphylaxis/angioedema/hives",
+          "quote": "oral azithromycin (loading dose of 500 milligrams on day 1, followed by 250 milligrams for an additional four days)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Clindamycin 300 mg four times a day 3 to 7 days (allergy with anaphylaxis/angioedema/hives)",
+          "quote": "oral clindamycin (300 milligram,s four times a day, 3–7d)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Systemic involvement = fascial space or local lymph node involvement, fever and/or malaise",
+          "quote": "evidence of fascial space or local lymph node involvement, fever, and/or malaise",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Scope is immunocompetent adults; cellulitis and compromised immune systems outside scope",
+          "quote": "The management of adults with cellulitis and/or compromised immune systems ... are not within the scope of this guideline",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Irreversible pulpitis: strong recommendation against antibiotics; refer for definitive treatment",
+          "quote": "The expert panel recommends dentists do not prescribe oral systemic antibiotics for immunocompetent adults with symptomatic irreversible pulpitis with or without symptomatic apical periodontitis (Strong recommendation, low certainty of the evidence).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "PN-SAP: suggests no antibiotics; delayed prescription if DCDT not feasible",
+          "quote": "If definitive, conservative dental treatment is not feasible, a delayed prescription for oral amoxicillin (500 milligrams, three times a day, 3–7d) or oral penicillin VK (500 milligrams, four times a day, 3–7d) should be provided",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Localized abscess without immediate DCDT: amoxicillin or pen VK plus urgent referral",
+          "quote": "The expert panel suggests dentists prescribe oral amoxicillin (500 milligrams, three times a day, 3–7d) or oral penicillin VK (500 milligrams, four times a day, 3–7d) for immunocompetent adults with pulp necrosis and localized acute apical abscess",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "When DCDT is immediately available, recommends against adjunct antibiotics",
+          "quote": "The expert panel recommends dentists do not prescribe oral systemic antibiotics as an adjunct to definitive, conservative dental treatment for immunocompetent adults with pulp necrosis and symptomatic apical periodontitis or localized acute apical abscess",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Benefits likely negligible, harms potentially large",
+          "quote": "With likely negligible benefits and potentially large harms, the panel recommended against using antibiotics in most clinical scenarios",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Oral antibiotics may not reach the affected tooth because of lack of vascular supply",
+          "quote": "oral antibiotics not reaching to the affected tooth because the lack of vascular supply",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Antibiotic list ordered balancing desirable and undesirable consequences, incl. allergy and CDI risk",
+          "quote": "Some antibiotics may be less effective, or carry a greater risk for harming patients through allergic reactions (penicillin) or CDI (clindamycin). Therefore, the list of antibiotics presented in this guideline is ordered balancing desirable and undesirable consequences",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Reevaluate within 3 days, in person or by phone",
+          "quote": "Clinicians should reevaluate patient within 3 days (e.g., in-person visit or phone call).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Stop antibiotic 24 hours after symptoms resolve",
+          "quote": "Dentists should instruct patients to discontinue antibiotics 24 hours after patient's symptoms resolve",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Little to no evidence that shortened courses contribute to resistance",
+          "quote": "There is currently little to no evidence supporting the common belief that a shortened course of antibiotics contributes to antimicrobial resistance.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Worsening, deeper space infection or threat to life: urgent evaluation",
+          "quote": "If the clinical condition worsens or if there is concern for deeper space infection or immediate threat to life, refer patient for urgent evaluation",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "About 10% self-report penicillin allergy, less than 1% truly allergic; proceed with non-penicillin antibiotics until confirmation",
+          "quote": "Although approximately 10% of the population self-reports a penicillin allergy, less than 1% of the entire population is truly allergic.Clinicians should proceed with non-penicillin drug class antibiotics until further confirmation of a true penicillin allergy.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Clindamycin substantially increases C. difficile risk even after a single dose",
+          "quote": "clindamycin substantially increases the risk of C. difficile infection even after a single dose",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Clindamycin Black Box warning; call PCP for fever, abdominal cramping or 3 or more loose bowel movements per day",
+          "quote": "clindamycin has a U.S. Food and Drug Administration Black Box warning for Clostridium difficile infection ... call their primary care provider if they develop fever, abdominal cramping or ≥3 loose bowel movements per day",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Azithromycin resistance rates higher than for other antibiotics",
+          "quote": "Bacterial resistance rates for azithromycin are higher than for other antibiotics",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "For pain: ibuprofen 400 to 600 mg plus acetaminophen 1,000 mg",
+          "quote": "for the management of pain, other strategies, such as the use of NSAIDS and acetaminophen (400–600 mg ibuprofen + 1000 mg acetaminophen), should be considered instead.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Telehealth appropriate when signs meet the ADA threshold for antibiotics (fever or malaise)",
+          "quote": "They recommended antibiotics in patients with systemic involvement (e.g., malaise, fever) due to the dental conditions",
+          "quote_source": "abstract",
+          "verdict": "partly_supported"
+        }
+      ],
+      "doi": "10.1016/j.adaj.2019.08.020",
+      "pmid": "31668170",
+      "pmcid": "PMC8270006",
+      "record_title": "Evidence-based clinical practice guideline on antibiotic use for the urgent management of pulpal- and periapical-related dental pain and intraoral swelling: A report from the American Dental Association.",
+      "record_journal": "J Am Dent Assoc",
+      "record_year": "2019",
+      "article_type": "Journal Article; Practice Guideline; Systematic Review",
+      "version_or_date": "ADA 2019 guideline (JADA Nov 2019; 150(11):906-921.e12); read Nov 15, 2026",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC8270006); WebFetch of PMC8270006 page for Table 1 and Table 2 footnotes; Scite verify_papers",
+      "notes": "Table 2 footnote regimens (cephalexin, azithromycin, clindamycin, metronidazole, amox-clav; 3-day reevaluation; stop 24 h after symptoms resolve) were not in the PMC text from the connector and were read from the PMC article page by WebFetch, with each quote confirmed across repeat reads. The 10%/<1% penicillin-allergy figure is the guideline's own statement; it cites an upstream source that was not retrieved this run."
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Agnihotry A, Thompson W, Fedorowicz Z, van Zuuren EJ, Sprakel J. Antibiotic use for irreversible pulpitis. Cochrane Database Syst Rev. 2019;5(5):CD004969.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31145805/",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Insufficient evidence whether antibiotics reduce irreversible pulpitis pain; single trial of 40 participants",
+          "quote": "One trial at low risk of bias evaluating oral penicillin in combination with analgesics versus placebo with analgesics, involving 40 participants ... there is insufficient evidence to determine whether antibiotics reduce pain or not compared to not having antibiotics.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "31145805",
+      "pmcid": "PMC6542501",
+      "doi": "10.1002/14651858.CD004969.pub5",
+      "record_title": "Antibiotic use for irreversible pulpitis.",
+      "record_journal": "Cochrane Database Syst Rev",
+      "record_year": "2019",
+      "article_type": "Journal Article; Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers"
+    },
+    {
+      "n": 3,
+      "kind": "journal",
+      "cited_as": "Murphy AM, Patel UC, Wilson GM, Suda KJ. Prevalence of unnecessary antibiotic prescriptions among dental visits, 2019. Infect Control Hosp Epidemiol. 2024;45(7):890-899.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38374683/",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "17.5% met guideline-based definition; 64.3% met broader definition (VA 2019)",
+          "quote": "At the visit level, 15,476 (17.5%) met the consensus-based definition for appropriate antibiotic usage and 56,946 (64.3%) met the nonconsensus definition.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "92,224 prescriptions at 88,539 VA dental visits; 63% amoxicillin",
+          "quote": "In total, 92,224 antibiotic prescriptions (63% amoxicillin; mean supply, 8.0 days) were associated with 88,539 dental visits.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "More than half of dentist-prescribed antibiotics lack guideline support",
+          "quote": "More than half of antibiotics prescribed by dentists do not have guidelines supporting their use.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most common reasons: prophylaxis for medically compromised 30.9%, postsurgical 20.1%, infective endocarditis 18.0%",
+          "quote": "Prophylaxis for complications in medically compromised patients was associated with the most (30.9%) antibiotic prescriptions, followed by prevention of postsurgical complications (20.1%) and infective endocarditis (18.0%).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "38374683",
+      "doi": "10.1017/ice.2024.13",
+      "record_title": "Prevalence of unnecessary antibiotic prescriptions among dental visits, 2019.",
+      "record_journal": "Infect Control Hosp Epidemiol",
+      "record_year": "2024",
+      "article_type": "Journal Article (cross-sectional analysis)",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+      "notes": "Abstract only (no PMC full text). VA population, not all US dental visits; the page says so."
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Vieira F, Allen SM, Stocks RM, Thompson JW. Deep neck infection. Otolaryngol Clin North Am. 2008;41(3):459-483, vii.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18435993/",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Odontogenic infection is the most common source of deep neck infection; complications include airway obstruction and sepsis",
+          "quote": "Common and potentially life-threatening complications include airway obstruction, jugular vein thrombosis, descending mediastinitis, sepsis ... The most common primary sources of deep neck infection are odontogenic",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Treatment rests on securing the airway, drainage and appropriate antibiotics",
+          "quote": "The treatment cornerstone remains securing the airway, providing efficient drainage and appropriate antibiotics, and improving immunologic status.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Feeling very ill with fever as swelling spreads can signal sepsis",
+          "quote": "Common and potentially life-threatening complications include airway obstruction, jugular vein thrombosis, descending mediastinitis, sepsis",
+          "quote_source": "abstract",
+          "verdict": "partly_supported"
+        }
+      ],
+      "pmid": "18435993",
+      "doi": "10.1016/j.otc.2008.01.002",
+      "record_title": "Deep neck infection.",
+      "record_journal": "Otolaryngol Clin North Am",
+      "record_year": "2008",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+      "notes": "Page range corrected to 459-483, vii per PubMed record. Abstract only."
+    },
+    {
+      "n": 5,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus Medical Encyclopedia. Ludwig angina. U.S. National Library of Medicine. Review date 1/29/2025.",
+      "url": "https://medlineplus.gov/ency/article/001047.htm",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Breathing difficulty is an emergency: go to the ER or call 911",
+          "quote": "Breathing difficulty is an emergency situation. Go to the emergency room or contact the local emergency number (such as 911) right away.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Difficulty swallowing, drooling, hot-potato speech, tongue swelling or protrusion, neck swelling/redness/pain",
+          "quote": "Difficulty swallowing; Drooling; Unusual speech (sounds like the person has a \"hot potato\" in the mouth); Tongue swelling or protrusion of the tongue out of the mouth; Neck pain; Neck swelling; Redness of the neck",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Ludwig angina: infection of floor of mouth under the tongue, often from teeth or jaw infection; airway blockage, sepsis, septic shock",
+          "quote": "Ludwig angina is an infection of the floor of the mouth under the tongue. It is often due to a bacterial infection of the teeth or jaw. ... Airway blockage; Generalized infection (sepsis); Septic shock",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "version_or_date": "Review Date 1/29/2025; read Nov 15, 2026",
+      "retrieved_with": "WebFetch of official page"
+    },
+    {
+      "n": 6,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus Medical Encyclopedia. Tooth abscess. U.S. National Library of Medicine. Review date 2/5/2026.",
+      "url": "https://medlineplus.gov/ency/article/001060.htm",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Untreated abscesses may get worse and lead to life-threatening complications",
+          "quote": "Untreated abscesses may get worse and can lead to life-threatening complications.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Swollen area of the upper or lower jaw is a very serious symptom",
+          "quote": "Swollen area of the upper or lower jaw, which is a very serious symptom",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "version_or_date": "Review Date 2/5/2026; read Nov 15, 2026",
+      "retrieved_with": "WebFetch of official page"
+    },
+    {
+      "n": 7,
+      "kind": "agency_page",
+      "cited_as": "MedlinePlus Medical Encyclopedia. Orbital cellulitis. U.S. National Library of Medicine. Review date 8/29/2024.",
+      "url": "https://medlineplus.gov/ency/article/001012.htm",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Eyelid swelling especially with fever, bulging eye, decreased/double vision, pain moving eye: emergency",
+          "quote": "Orbital cellulitis is a medical emergency that needs to be treated right away. ... Contact your health care provider if there are signs of eyelid swelling, especially with a fever.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Orbital cellulitis is an infection of fat and muscles around the eye; prompt treatment of a dental infection may prevent it",
+          "quote": "an infection of the fat and muscles around the eye ... Prompt treatment of a sinus or dental infection may prevent it from spreading and becoming orbital cellulitis.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "version_or_date": "Review Date 8/29/2024; read Nov 15, 2026",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "Symptoms list includes painful eyelid swelling, bulging eyes, decreased vision, pain when moving the eye, double vision."
+    },
+    {
+      "n": 8,
+      "kind": "journal",
+      "cited_as": "Cope AL, Francis N, Wood F, Chestnutt IG. Systemic antibiotics for symptomatic apical periodontitis and acute apical abscess in adults. Cochrane Database Syst Rev. 2018;9(9):CD010136.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30259968/",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Two trials, 62 participants, penicillin VK vs placebo with pulpectomy and analgesics; no significant differences in pain or swelling; very low-quality evidence insufficient",
+          "quote": "two trials in this review, with 62 participants ... no statistically significant differences in participant-reported measures of pain or swelling at any of the time points ... very low-quality evidence that is insufficient to determine the effects",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "30259968",
+      "pmcid": "PMC6513530",
+      "doi": "10.1002/14651858.CD010136.pub3",
+      "record_title": "Systemic antibiotics for symptomatic apical periodontitis and acute apical abscess in adults.",
+      "record_journal": "Cochrane Database Syst Rev",
+      "record_year": "2018",
+      "article_type": "Journal Article; Meta-Analysis; Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+      "notes": "No longer cited for any amoxicillin dose."
+    },
+    {
+      "n": 9,
+      "kind": "label",
+      "cited_as": "Amoxicillin capsules. Prescribing information. Micro Labs Limited. Revised 01/2024; DailyMed updated October 3, 2024.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=42f935ca-45ba-4b3e-8b40-9b2d4eb56281",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Use during pregnancy only if clearly needed",
+          "quote": "amoxicillin should be used during pregnancy only if clearly needed",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Serious and occasionally fatal anaphylactic reactions",
+          "quote": "Serious and occasionally fatal anaphylactic reactions have been reported in patients on penicillin therapy.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "C. difficile-associated diarrhea from mild to fatal colitis",
+          "quote": "Clostridium difficile-associated diarrhea (ranging from mild diarrhea to fatal colitis)",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Possible reduced efficacy of combined oral contraceptives",
+          "quote": "reduced efficacy of combined oral estrogen/progesterone contraceptives.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ],
+      "version_or_date": "Revised 01/2024; DailyMed updated October 3, 2024; read Nov 15, 2026",
+      "retrieved_with": "WebFetch of DailyMed label page (search result for amoxicillin)"
+    },
+    {
+      "n": 10,
+      "kind": "journal",
+      "cited_as": "Li S, Huang X, McNeil R, Malmstrom H, Ren Y. Systemic health implications of dental prescribing in general practices. Quintessence Int. 2026;57(2):172-186.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41410042/",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Penicillin-allergy mislabeling widespread; may promote clindamycin",
+          "quote": "Mislabeling of penicillin allergies is widespread and may promote the use of higher-risk alternatives such as clindamycin.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Not-indicated antibiotics may increase AMR, gut dysbiosis, C. difficile",
+          "quote": "Antibiotics continue to be prescribed for conditions that are not clinically indicated but may increase the risks of antimicrobial resistance, gut microbiome dysbiosis, and Clostridioides difficile infection.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Brief NSAID course can affect renal function, BP, GI; cumulative acetaminophen hepatotoxicity",
+          "quote": "even a brief course can affect renal function, blood pressure, and gastrointestinal integrity in susceptible patients. Acetaminophen ... its cumulative dosing may increase the risk of hepatotoxicity.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Opioids offer no advantage over non-opioids and contribute to misuse",
+          "quote": "they offer no advantage over non-opioid analgesics and contribute to opioid misuse in the community.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "41410042",
+      "doi": "10.3290/j.qi.b6762787",
+      "record_title": "Systemic health implications of dental prescribing in general practices.",
+      "record_journal": "Quintessence Int",
+      "record_year": "2026",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers (could_not_verify: DOI registered at doi.org, no Scite record)",
+      "notes": "Fixed: pages 1-15 -> 57(2):172-186 and journal-homepage link -> PubMed record. No longer cited for the 10%/<1% or <0.05% figures (not in abstract; the 10%/<1% statement now cites ref 1; <0.05% cut). Abstract only."
+    },
+    {
+      "n": 11,
+      "kind": "journal",
+      "cited_as": "Moore PA, Ziegler KM, Lipman RD, Aminoshariae A, Carrasco-Labra A, Mariotti A. Benefits and harms associated with analgesic medications used in the management of acute dental pain: An overview of systematic reviews. J Am Dent Assoc. 2018;149(4):256-265.e3.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29599019/",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Ibuprofen plus acetaminophen highest association with benefit; opioid regimens most often linked to acute adverse events",
+          "quote": "The data identified combinations of ibuprofen and acetaminophen as having the highest association with treatment benefit in adult patients ... Medication and medication combinations that included opioids were among those associated most frequently with acute adverse events",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "29599019",
+      "doi": "10.1016/j.adaj.2018.02.012",
+      "record_title": "Benefits and harms associated with analgesic medications used in the management of acute dental pain: An overview of systematic reviews.",
+      "record_journal": "J Am Dent Assoc",
+      "record_year": "2018",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+      "notes": "Abstract only; no longer cited for NNT values or q6h doses."
+    },
+    {
+      "n": 12,
+      "kind": "journal",
+      "cited_as": "Moore RA, Derry S, Aldington D, Wiffen PJ. Single dose oral analgesics for acute postoperative pain in adults: an overview of Cochrane reviews. Cochrane Database Syst Rev. 2015;2015(9):CD008659.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26414123/",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "NNT ibuprofen 200 + acetaminophen 500 = 1.6; fast-acting ibuprofen 200 = 2.1; diclofenac potassium 50 = 2.1; ibuprofen 400 = 2.5",
+          "quote": "ibuprofen 200 mg plus paracetamol (acetaminophen) 500 mg (NNT compared with placebo 1.6 ...), ibuprofen fast acting 200 mg (2.1 ...); ... diclofenac potassium 50 mg (2.1 ...) ... ibuprofen acid 400 mg had an NNT of 2.5",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "No evidence of analgesic effect for oxycodone 5 mg (low quality)",
+          "quote": "There was no evidence of analgesic effect for aceclofenac 150 mg, aspirin 500 mg, and oxycodone 5 mg (low quality evidence).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Long duration (8 h or more) for naproxen 500/550 and ibuprofen 400 + acetaminophen 1000",
+          "quote": "Long duration of action (eight hours or greater) was found for etoricoxib 120 mg, diflunisal 500 mg, paracetamol 650 mg plus oxycodone 10 mg, naproxen 500/550 mg, celecoxib 400 mg, and ibuprofen 400 mg plus paracetamol 1000 mg.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "26414123",
+      "pmcid": "PMC6485441",
+      "doi": "10.1002/14651858.CD008659.pub3",
+      "record_title": "Single dose oral analgesics for acute postoperative pain in adults - an overview of Cochrane reviews.",
+      "record_journal": "Cochrane Database Syst Rev",
+      "record_year": "2015",
+      "article_type": "Journal Article; Meta-Analysis; Systematic Review",
+      "retrieved_with": "PubMed search_articles; PubMed get_article_metadata; Scite verify_papers",
+      "notes": "New source for the NNT chart and table (replaces unsourced NNTs previously attributed to ref 8). Postoperative pain model; most trials are dental; outcome is at least 50% max pain relief over 4 to 6 hours vs placebo; no statistical comparison between drugs."
+    },
+    {
+      "n": 13,
+      "kind": "label",
+      "cited_as": "Ibuprofen tablets USP, 200 mg. Drug Facts label. Better Living Brands, LLC. DailyMed updated August 3, 2023.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=eb60a1e5-fb6e-360f-e053-2a95a90ade04",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Do not use ibuprofen at 20 weeks or later in pregnancy unless a doctor directs",
+          "quote": "It is especially important not to use ibuprofen at 20 weeks or later in pregnancy unless definitely directed to do so by a doctor",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ],
+      "version_or_date": "DailyMed updated August 3, 2023; read Nov 15, 2026",
+      "retrieved_with": "WebFetch of DailyMed label page"
+    },
+    {
+      "n": 14,
+      "kind": "journal",
+      "cited_as": "Roberts RM, Bohm MK, Bartoces MG, Fleming-Dutra KE, Hicks LA, Chalmers NI. Antibiotic and opioid prescribing for dental-related conditions in emergency departments: United States, 2012 through 2014. J Am Dent Assoc. 2020;151(3):174-181.e1.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31959329/",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "About 55% filled antibiotic within 7 days; 39.6% Medicaid and 42.0% commercial filled opioid",
+          "quote": "Within 7 days of a dental-related ED visit, 54.9% of Medicaid beneficiaries and 55.0% of commercially insured beneficiaries filled a prescription for an antibiotic and 39.6% of Medicaid patients and 42.0% of commercially insured patients filled an opioid prescription.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Potentially avoidable antibiotic and opioid use",
+          "quote": "This may lead to potentially avoidable antibiotic and opioid use.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmid": "31959329",
+      "pmcid": "PMC9426303",
+      "doi": "10.1016/j.adaj.2019.11.013",
+      "record_title": "Antibiotic and opioid prescribing for dental-related conditions in emergency departments: United States, 2012 through 2014.",
+      "record_journal": "J Am Dent Assoc",
+      "record_year": "2020",
+      "article_type": "Journal Article (retrospective study)",
+      "retrieved_with": "PubMed get_article_metadata; Scite verify_papers",
+      "notes": "Previously cited for microbiome/C. difficile harms it does not address; now cited only for its ED prescribing figures."
+    },
+    {
+      "n": 15,
+      "kind": "label",
+      "cited_as": "Doxycycline hyclate capsules. Prescribing information. Ajanta Pharma USA Inc. Revised 10/2025.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f18daceb-33a3-4931-9be7-ecd6356cc119",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Tetracycline-class drugs during tooth development (last half of pregnancy) may cause permanent tooth discoloration",
+          "quote": "The use of drugs of the tetracycline class during tooth development (last half of pregnancy, infancy and childhood to the age of 8 years) may cause permanent discoloration of the teeth (yellow-gray-brown).",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ],
+      "version_or_date": "Revised 10/2025; read Nov 15, 2026",
+      "retrieved_with": "WebFetch of DailyMed label page"
+    }
+  ]
+}

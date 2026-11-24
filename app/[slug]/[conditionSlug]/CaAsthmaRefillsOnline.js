@@ -39,7 +39,7 @@ const PHYSICIAN = {
   specialty: 'Family Medicine',
   licenseState: 'California',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 // California payors — sourced from Notion payor enrollment (refreshed 2026-05-19)
@@ -48,8 +48,8 @@ const CA_PAYORS = [
     notes: 'Commercial plans. In-network as of April 30, 2026. Verify plan eligibility with Aetna before booking.' },
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true,
     notes: 'Covers UHC Commercial and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types.' },
-  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Enrollment pending — self pay ($79) available.' },
+  { name: 'Anthem Blue Cross', status: 'Active', effective: 'September 23, 2026', inNetwork: true,
+    notes: 'PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.' },
   { name: 'Cigna', status: 'Pending', effective: 'Pending determination', inNetwork: false,
     notes: 'Pending — self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false,
@@ -77,7 +77,7 @@ const FAQ_ITEMS = [
   {
     id: 'asthma-refills-online-faq-3',
     question: "Does California Medi-Cal cover asthma controller inhalers?",
-    answer: <p>TeleDirectMD is not currently enrolled as a Medi-Cal provider, so Medi-Cal will not cover TeleDirectMD visits. However, Medi-Cal\'s formulary does cover asthma controller inhalers including budesonide and generic formulations. If you have Medi-Cal, you can use TeleDirectMD\'s $79 self-pay rate or seek a Medi-Cal-enrolled primary care provider for your refills. Visit dhcs.ca.gov for the Medi-Cal provider directory.</p>,
+    answer: <p>TeleDirectMD is not currently enrolled as a Medi-Cal provider, so Medi-Cal will not cover TeleDirectMD visits. However, Medi-Cal\'s formulary does cover asthma controller inhalers including budesonide and generic formulations. If you have Medi-Cal, seek a Medi-Cal-enrolled primary care provider for your refills. Visit dhcs.ca.gov for the Medi-Cal provider directory.</p>,
   },
   {
     id: 'asthma-refills-online-faq-4',
@@ -107,7 +107,7 @@ const FAQ_ITEMS = [
   {
     id: 'asthma-refills-online-faq-9',
     question: "Does California parity law (AB 744) require my insurer to cover telehealth asthma care?",
-    answer: <p>California AB 744 (2019), codified in Insurance Code §10123.85, requires commercial health plans to reimburse telehealth services on the same basis as in-person services. Parity applies only when TeleDirectMD is already in-network with your specific plan. Currently, Aetna commercial (active April 30, 2026) and UnitedHealthcare Commercial (active May 29, 2026) are in-network in California. Anthem Blue Cross and Cigna enrollments are pending.</p>,
+    answer: <p>California AB 744 (2019), codified in Insurance Code §10123.85, requires commercial health plans to reimburse telehealth services on the same basis as in-person services. Parity applies only when TeleDirectMD is already in-network with your specific plan. Currently, Aetna commercial (active April 30, 2026) and UnitedHealthcare Commercial (active May 29, 2026) are in-network in California. Anthem Blue Cross PPO, Indemnity, and Medicare PPO plans are in-network as of September 23, 2026 (HMO and Medi-Cal plans are not included). Cigna is pending.</p>,
   },
   {
     id: 'asthma-refills-online-faq-10',
@@ -127,7 +127,6 @@ const CA_SIBLINGS = [
   { slug: 'epipen-refills-online', label: "EpiPen Refills in CA", why: "Anaphylaxis risk in allergic asthma — emergency action plan companion." },
   { slug: 'smoking-cessation-treatment-online', label: "Smoking Cessation in CA", why: "Smoking worsens asthma — cessation is core management." },
   { slug: 'acid-reflux-refills-online', label: "Acid Reflux Refills in CA", why: "GERD is a common asthma trigger — often co-managed." },
-  { slug: 'online-doctor-visits', label: "All Online Doctor Visits in CA", why: "General CA telehealth hub." }
 ];
 
 function buildSchemas() {
@@ -151,7 +150,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -292,9 +291,9 @@ export default function CaAsthmaRefillsOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> J45.20 (mild intermittent), J45.30 (mild persistent), J45.40 (moderate persistent) — final coding per clinical details</p>
@@ -346,7 +345,7 @@ export default function CaAsthmaRefillsOnline() {
 
             <h3>What standard of care applies to California telehealth physicians?</h3>
             <p>
-              The <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a> is explicit: &ldquo;The standard of care is the same whether the patient is seen in-person, through telehealth or other methods of electronically enabled health care.&rdquo; TeleDirectMD physicians are licensed in California. See <a href="/about/">Dr. Bhavsar&apos;s bio</a> for credential details.
+              The <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a> is explicit: &ldquo;The standard of care is the same whether the patient is seen in-person, through telehealth or other methods of electronically enabled health care.&rdquo; Dr. Bhavsar is licensed in California. See <a href="/about/">Dr. Bhavsar&apos;s bio</a> for credential details.
             </p>
 
             <h3>Does California insurance parity law cover telehealth visits?</h3>
@@ -395,25 +394,6 @@ export default function CaAsthmaRefillsOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical cost comparison">
-                <h3>Typical Asthma Refills Visit Cost in California</h3>
-                <p className="tdmd-price-caption">Common ranges Californians see before insurance. Actual costs vary by setting and city.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 13, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical California metro pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <h3 style={{ marginTop: '1.75rem' }}>California Payor Status — TeleDirectMD</h3>
@@ -447,7 +427,7 @@ export default function CaAsthmaRefillsOnline() {
             </div>
 
             <p style={{ marginTop: '1rem' }}>
-              For deeper detail, see <a href="/insurance/aetna/california/asthma-refills-online/">Aetna × California × Asthma Refills</a> or view all <a href="/insurance">insurance options</a>.
+              For deeper detail, see <a href="/insurance/aetna/california/">Aetna × California × Asthma Refills</a> or view all <a href="/insurance/">insurance options</a>.
             </p>
           </div>
         </section>
@@ -554,7 +534,7 @@ export default function CaAsthmaRefillsOnline() {
                 <p>Book a same-day video visit — California adults, 18+</p>
                 <small>Self pay $79 · Aetna in-network · UHC Commercial approved May 2026 · Asthma Refills</small>
               </div>
-              <a className="tdmd-ca-uti__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
+              <a className="tdmd-ca-uti__cta-btn" href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -573,8 +553,8 @@ export default function CaAsthmaRefillsOnline() {
                 <p>Book a same-day video visit. Self pay $79 · Aetna in-network · UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -619,12 +599,12 @@ export default function CaAsthmaRefillsOnline() {
               <a href="/ca/eyelash-growth-treatment-online/">Eyelash Growth in CA</a>
               <a href="/ca/smoking-cessation-treatment-online/">Smoking Cessation in CA</a>
               <a href="/ca/motion-sickness-treatment-online/">Motion Sickness in CA</a>
-              <a href="/ca/uti-treatment-online/">UTI Treatment in CA</a>
+              <a href="/ca/uti-treatment-online/">UTI Treatment for Women in CA</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/insurance">Insurance</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/insurance/">Insurance</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>
@@ -639,11 +619,11 @@ export default function CaAsthmaRefillsOnline() {
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ</a>. Retrieved May 2026.</li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — AB 2789 Electronic Prescribing</a>. Retrieved May 2026.</li>
-              <li><a href="https://ginasthma.org/2024-gina-main-report/" rel="noopener" target="_blank">GINA 2024 Main Report — Global Strategy for Asthma Management and Prevention</a>. Retrieved May 2026.</li>
+              <li><a href="https://ginasthma.org/archived-reports/" rel="noopener" target="_blank">GINA 2024 Main Report — Global Strategy for Asthma Management and Prevention</a>. Retrieved May 2026.</li>
               <li><a href="https://www.nhlbi.nih.gov/health-topics/guidelines-for-diagnosis-management-of-asthma" rel="noopener" target="_blank">NAEPP Expert Panel Report 3 (EPR-3) — Guidelines for the Diagnosis and Management of Asthma</a>. Retrieved May 2026.</li>
-              <li><a href="https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis/chis-data" rel="noopener" target="_blank">California Health Interview Survey (CHIS) 2023 — Asthma</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.arb.ca.gov/research/resnotes/notes/2021-01.htm" rel="noopener" target="_blank">California Air Resources Board (CARB) — Wildfire Smoke and Air Quality</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.cdph.ca.gov/Programs/OHE/Pages/NR23-005.aspx" rel="noopener" target="_blank">CDPH — Air Quality and Health</a>. Retrieved May 2026.</li>
+              <li><a href="https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis" rel="noopener" target="_blank">California Health Interview Survey (CHIS) 2023 — Asthma</a>. Retrieved May 2026.</li>
+              <li><a href="https://ww2.arb.ca.gov/news/california-battles-wildfires-officials-outline-how-protect-yourself-and-your-family-damaging" rel="noopener" target="_blank">California Air Resources Board (CARB) — Wildfire Smoke and Air Quality</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHIB/Pages/ClimateChangeSmoke.aspx" rel="noopener" target="_blank">CDPH: Climate Change, Fires and Smoke</a>. Retrieved May 2026.</li>
             </ol>
           </div>
         </section>

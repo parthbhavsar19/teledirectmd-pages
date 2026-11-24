@@ -1,13 +1,18 @@
+import { stateConditionHref, INSURER_STATES } from '../lib/live-routes';
+import { contentDate } from '../lib/content-dates';
+import { stateLandingDate } from '../lib/state-template';
 import fs from 'fs';
 import path from 'path';
+import { getFluHubSitemapEntries } from '../lib/flu-hub-sitemap.mjs';
 import { getStates, getConditionSlugs } from '../lib/get-data';
-import { INSURERS, INSURANCE_CONDITIONS } from '../data/insurance/insuranceConfig';
+import { INSURERS, INSURANCE_CONDITIONS, getInsurerStateSlugs } from '../data/insurance/insuranceConfig';
 import { AETNA_CA_CONDITION_DETAILS } from '../data/insurance/aetna-ca-conditions';
 import { isRetiredInsuranceUrl } from '../data/insurance/retired-urls';
 import { COST_PAGE_SLUGS } from '../lib/cost-pages-config';
 import { COMPARE_PAGE_SLUGS } from '../lib/compare-pages-config';
-import { SYMPTOM_PAGE_SLUGS } from '../lib/symptom-pages-config';
+// SYMPTOM_PAGE_SLUGS import removed 2026-07-18 — standalone /symptoms/* URLs retired.
 import { USE_CASE_PAGE_SLUGS } from '../lib/use-case-pages-config';
+import { FAQ_PAGES } from '../lib/faq-deep-dive-pages';
 
 const SITE = 'https://teledirectmd.com';
 
@@ -20,23 +25,24 @@ const STATIC_ROUTES = [
   { path: '/insurance', priority: 0.95, changefreq: 'weekly' },
   { path: '/faq', priority: 0.7, changefreq: 'monthly' },
   { path: '/media-mentions', priority: 0.6, changefreq: 'monthly' },
-  { path: '/about', priority: 0.6, changefreq: 'monthly' },
+  { path: '/about/', priority: 0.6, changefreq: 'monthly' },
+  { path: '/careers/', priority: 0.5, changefreq: 'monthly' },
+  { path: '/reviews', priority: 0.7, changefreq: 'weekly' },
   // 2026-05-23: Employer + Broker pages
   { path: '/employers', priority: 0.9, changefreq: 'weekly' },
   { path: '/employers/brokers', priority: 0.8, changefreq: 'weekly' },
-  // 2026-05-23: Gated PDF lead magnet landing page
-  { path: '/employers/brief', priority: 0.8, changefreq: 'monthly' },
+  { path: '/partners', priority: 0.8, changefreq: 'monthly' },
   // 2026-05-23: Industry-specific employer pages
-  { path: '/employers/trucking', priority: 0.85, changefreq: 'monthly' },
-  { path: '/employers/restaurants', priority: 0.85, changefreq: 'monthly' },
-  { path: '/employers/home-care', priority: 0.85, changefreq: 'monthly' },
-  { path: '/employers/construction', priority: 0.85, changefreq: 'monthly' },
-  { path: '/employers/cleaning', priority: 0.85, changefreq: 'monthly' },
+  { path: '/employers/trucking/', priority: 0.85, changefreq: 'monthly' },
+  { path: '/employers/restaurants/', priority: 0.85, changefreq: 'monthly' },
+  { path: '/employers/home-care/', priority: 0.85, changefreq: 'monthly' },
+  { path: '/employers/construction/', priority: 0.85, changefreq: 'monthly' },
+  { path: '/employers/cleaning/', priority: 0.85, changefreq: 'monthly' },
   // 2026-05-23: 5 hub pages added to repair orphan-parent breadcrumb violations
   // (each was previously HTTP 404 while child pages declared them as parents
   // in BreadcrumbList JSON-LD). See /home/user/workspace/insurance_cleanup for
   // related Q1 2026 deindex audit context.
-  { path: '/symptoms', priority: 0.85, changefreq: 'weekly' },
+  // 2026-07-18: /symptoms hub removed — entire cluster retired, 301s in vercel.json
   { path: '/compare', priority: 0.85, changefreq: 'weekly' },
   { path: '/cost', priority: 0.85, changefreq: 'weekly' },
   { path: '/faq/deep-dive', priority: 0.75, changefreq: 'monthly' },
@@ -45,32 +51,80 @@ const STATIC_ROUTES = [
   { path: '/california-aetna', priority: 0.9, changefreq: 'weekly' },
   { path: '/california/telehealth-urgent-care-aetna', priority: 0.85, changefreq: 'weekly' },
   { path: '/news/aetna-california-may-2026', priority: 0.7, changefreq: 'monthly' },
-  // Florida Blue dedicated hub — June 2026 (single-state BCBS licensee)
-  { path: '/insurance/florida-blue', priority: 0.95, changefreq: 'weekly' },
+  { path: '/news/anthem-blue-cross-california-september-2026', priority: 0.7, changefreq: 'monthly' },
+  // Anthem Blue Cross CA: single state page, no condition fan-out, so it is
+  // listed here instead of INSURER_STATES (which would emit fan-out URLs).
+  { path: '/insurance/blue-cross-blue-shield/california/', priority: 0.9, changefreq: 'weekly' },
+  // Alaska rural telemedicine package — August 2026
+  // (Alaska wildfire health guide auto-enumerated from public/health-guides/)
+  { path: '/partners/tribal-health-alaska', priority: 0.7, changefreq: 'monthly' },
+  { path: '/clinical-evidence', priority: 0.75, changefreq: 'monthly' },
+  // Health guide library index (the guides themselves are enumerated in section 13).
+  { path: '/health-guides', priority: 0.85, changefreq: 'weekly' },
+  { path: '/clinical-evidence/rural-telemedicine-alaska', priority: 0.8, changefreq: 'monthly' },
 ];
 
-// Who We Serve segments (11 pages)
+// Who We Serve segments (12 pages)
 const WWS_SEGMENTS = [
   'uninsured-affordable-care', 'truck-drivers', 'travel-nurses', 'small-business-owners',
   'remote-workers', 'military-families', 'international-visitors', 'early-retirees',
-  'college-students', 'hdhp-hsa-holders', 'world-cup-2026',
+  'college-students', 'hdhp-hsa-holders', 'gig-workers', 'flight-attendants',
 ];
 
-// Insurer state slugs (full state names used by hub routes)
-const INSURER_STATES = {
-  aetna: ['arizona','california','colorado','florida','georgia','illinois','michigan','minnesota','ohio','pennsylvania','tennessee'],
-  'blue-cross-blue-shield': ['florida','georgia','illinois','pennsylvania','texas'],
-  'united-healthcare': ['colorado','georgia','illinois','minnesota','north-carolina','new-jersey','ohio','pennsylvania','tennessee','washington'],
-};
 
-function url(path, priority = 0.7, changefreq = 'monthly') {
-  return {
-    url: `${SITE}${path}`,
-    lastModified: new Date(),
+// lastmod must be a real content date. Stamping every URL with the build time
+// (as this did before) makes search engines ignore lastmod entirely.
+const LASTMOD_BY_PREFIX = [
+  ['/who-we-serve', 'whoWeServe'],
+  ['/use-case/', 'useCasePages'],
+  ['/compare', 'comparePages'],
+  ['/cost', 'costPages'],
+  ['/faq/deep-dive', 'faqDeepDive'],
+  ['/faq', 'faq'],
+  ['/about/', 'about'],
+  ['/states-we-serve', 'statesWeServe'],
+  ['/insurance', 'insurance'],
+  ['/reviews', 'reviews'],
+];
+
+function lastmodFor(path) {
+  for (const [prefix, key] of LASTMOD_BY_PREFIX) {
+    if (path.startsWith(prefix)) return contentDate(key);
+  }
+  const segs = path.split('/').filter(Boolean);
+  if (segs.length === 2 && STATE_SLUG_SET.has(segs[0])) return contentDate('conditionPages');
+  if (segs.length === 1 && STATE_SLUG_SET.has(segs[0])) return stateLandingDate(segs[0]);
+  if (segs.length === 1 && CONDITION_SLUG_SET.has(segs[0])) return contentDate('nationalConditionPages');
+  return undefined; // unknown: omit rather than invent a date
+}
+
+// Health guides carry their own dateModified / lastReviewed in JSON-LD.
+function guideLastmod(indexPath) {
+  try {
+    const html = fs.readFileSync(indexPath, 'utf8');
+    const m = html.match(/"dateModified"\s*:\s*"(\d{4}-\d{2}-\d{2})/)
+      || html.match(/"lastReviewed"\s*:\s*"(\d{4}-\d{2}-\d{2})/);
+    return m ? m[1] : undefined;
+  } catch {
+    return undefined;
+  }
+}
+
+function url(path, priority = 0.7, changefreq = 'monthly', lastmod) {
+  // Every page is served with a trailing slash; a bare path costs a redirect.
+  const p = path.endsWith('/') || /\.[a-z0-9]+$/i.test(path) ? path : `${path}/`;
+  const entry = {
+    url: `${SITE}${p}`,
     changeFrequency: changefreq,
     priority,
   };
+  const lm = lastmod || lastmodFor(p);
+  if (lm) entry.lastModified = lm;
+  return entry;
 }
+
+const STATE_SLUG_SET = new Set(getStates().map((st) => st.slug));
+const CONDITION_SLUG_SET = new Set(getConditionSlugs());
 
 export default function sitemap() {
   const urls = [];
@@ -86,63 +140,42 @@ export default function sitemap() {
   // condition pages. Do NOT emit /vt/<every-condition>/ — only the 10 pilot URLs are surgical-
   // routed; the rest would fall through to the generic template and trigger Google's
   // scaled-content classifier (the April 2026 deindex pattern).
-  const VT_PILOT_CONDITIONS = new Set([
-    // ── VT Pilot 1 (2026-06-04) ──
-    'uti-treatment-online',
-    'yeast-infection-treatment-online',
-    'bv-treatment-online',
-    'cold-sore-treatment-online',
-    'seasonal-allergies-treatment-online',
-    'hypertension-refills-online',
-    'pink-eye-treatment-online',
-    'shingles-treatment-online',
-    'sinus-infection-treatment-online',
-    'sore-throat-treatment-online',
-    // ── VT Pilot 2 marquee (2026-06-04) ──
-    'tick-bite-treatment-online',
-    // ── VT Pilot 2 remaining 9 (2026-06-08) ──
-    'influenza-treatment-online',
-    'common-cold-treatment-online',
-    'ear-pain-treatment-online',
-    'hyperlipidemia-refills-online',
-    'hypothyroidism-refills-online',
-    'chlamydia-treatment-online',
-    'doxypep-sti-prevention-online',
-    'acne-treatment-online',
-    'cellulitis-treatment-online',
-  ]);
-  // NATIONAL-ONLY conditions (2026-06-14): travel-medicine and altitude-sickness are
+// NATIONAL-ONLY conditions (2026-06-14): travel-medicine and altitude-sickness are
   // single, unique national pages. Do NOT emit /{state}/<these>/ — they have no per-state
   // clinical differentiation, so 42 templated state variants each would re-create the exact
   // near-duplicate cluster that drove the May 2026 deindex. Only the national /{cond}/ URLs
   // are submitted; the state-prefixed variants still render (routing) but are kept out of the
-  // sitemap until the Delaware-canary recovery validates the deep-content state template.
+  // sitemap. The original plan was to hold them until the Delaware-canary recovery validated
+  // the deep-content state template. That gate was set aside at the owner's direction (PR #41,
+  // 2026-06-14) and then removed at the owner's request (PR #78, 2026-08-12); no formal canary
+  // pass was recorded. These conditions stay national-only by choice, not pending a check.
+  // The one exception is the hand-built Colorado altitude page below (PR #185, 2026-11-03).
   const NATIONAL_ONLY_CONDITIONS = new Set([
     'travel-medicine-treatment-online',
     'altitude-sickness-treatment-online',
     'malaria-prophylaxis-treatment-online',
     'travelers-diarrhea-treatment-online',
   ]);
-  // VA pilot cohort (2026-07-11): mirror VT's cohort exactly. Virginia is a
-  // demand-gated cash-pay pilot — only the /va/ hub and these condition pages
-  // are emitted; no /va/online-doctor-visits/ and no non-cohort condition URLs.
-  const VA_PILOT_CONDITIONS = new Set(VT_PILOT_CONDITIONS);
-  const states = getStates();
+  // Vermont, Virginia, and Alaska share the same demand-gated pilot cohort. Only these
+  // condition slugs generate and enter the sitemap; every other state-condition route stays
+  // unpublished. Alaska is cash-pay only and receives state-specific compliance content from
+    const states = getStates();
   const conditionSlugs = getConditionSlugs();
   for (const state of states) {
     urls.push(url(`/${state.slug}/`, 0.9, 'weekly'));
-    // VA pilot: no state-level online-doctor-visits page is generated.
-    if (state.slug !== 'va') {
-      urls.push(url(`/${state.slug}/online-doctor-visits/`, 0.7, 'monthly'));
-    }
+    // 2026-08-12: online-doctor-visits pages retired site-wide (301 to state hub,
+    // see vercel.json). They were 90-94% Jaccard-similar across states — the same
+    // duplication signature behind the May 2026 deindexing event — and every hub
+    // outperformed its own online-doctor-visits page in Search Console.
     for (const cond of conditionSlugs) {
       // National-only conditions: never emit a state-prefixed variant
-      if (NATIONAL_ONLY_CONDITIONS.has(cond)) continue;
-      // VT: emit only the pilot cohort condition pages
-      if (state.slug === 'vt' && !VT_PILOT_CONDITIONS.has(cond)) continue;
-      // VA: emit only the pilot cohort condition pages
-      if (state.slug === 'va' && !VA_PILOT_CONDITIONS.has(cond)) continue;
-      urls.push(url(`/${state.slug}/${cond}/`, 0.8, 'weekly'));
+      // Exception (2026-11-03): /co/altitude-sickness-treatment-online/ is a hand-built,
+      // Colorado-only page (see CoAltitudeSicknessTreatmentOnline.js). Every other state
+      // stays out of the sitemap for these conditions.
+      if (NATIONAL_ONLY_CONDITIONS.has(cond) && !(state.slug === 'co' && cond === 'altitude-sickness-treatment-online')) continue;
+      const href = stateConditionHref(state.slug, cond);
+      if (!href) continue;
+      urls.push(url(href, 0.8, 'weekly'));
     }
   }
 
@@ -167,7 +200,11 @@ export default function sitemap() {
 
   // 7) Insurer × condition national pages (/insurance/{insurer}/{condition}/) — 30 pages
   const insuranceConditionSlugs = Object.keys(INSURANCE_CONDITIONS);
+  // Insurers flagged conditionMatrix: false have hub + state pages only, so the
+  // insurer x condition and insurer x state x condition URLs do not exist for them.
+  const hasConditionMatrix = (slug) => INSURERS[slug]?.conditionMatrix !== false;
   for (const insurerSlug of Object.keys(INSURERS)) {
+    if (!hasConditionMatrix(insurerSlug)) continue;
     for (const condSlug of insuranceConditionSlugs) {
       const p = `/insurance/${insurerSlug}/${condSlug}/`;
       if (!isRetiredInsuranceUrl(p)) urls.push(url(p, 0.85, 'weekly'));
@@ -176,6 +213,7 @@ export default function sitemap() {
 
   // 8) Insurer × state × condition triple-matrix pages — the biggest bucket
   for (const [insurerSlug, stateList] of Object.entries(INSURER_STATES)) {
+    if (!hasConditionMatrix(insurerSlug)) continue;
     for (const stateSlug of stateList) {
       for (const condSlug of insuranceConditionSlugs) {
         const p = `/insurance/${insurerSlug}/${stateSlug}/${condSlug}/`;
@@ -204,30 +242,18 @@ export default function sitemap() {
     urls.push(url(`/compare/${slug}/`, 0.8, 'monthly'));
   }
 
-  // 11) Symptom-led landing pages (/symptoms/{slug}/)
-  // 2026-05-23 PRUNE: this list is now the canonical sitemap source for symptom
-  // URLs. Do NOT use SYMPTOM_PAGE_SLUGS (which still contains the 9 cannibalizing
-  // slugs + the 3 renamed-from slugs, all of which now 301 via vercel.json).
-  const SYMPTOM_SITEMAP_SLUGS = [
-    'acid-reflux',
-    'acne-breakout',
-    'allergy-symptoms',
-    'bronchitis',
-    'burning-urination',
-    'ear-pain',
-    'migraine',
-    'persistent-cough',
-    'sinus-pressure',
-    'skin-rash',
-    'sore-throat',
-  ];
-  for (const slug of SYMPTOM_SITEMAP_SLUGS) {
-    urls.push(url(`/symptoms/${slug}/`, 0.75, 'monthly'));
-  }
+  // 11) Symptom-led landing pages — REMOVED 2026-07-18
+  // Entire /symptoms/* cluster retired. All slugs now 301 via vercel.json to
+  // the winning sibling (mostly /cost/* and /health-guides/*).
 
   // 12) Use-case landing pages (/use-case/{slug}/)
   for (const slug of USE_CASE_PAGE_SLUGS) {
     urls.push(url(`/use-case/${slug}/`, 0.8, 'monthly'));
+  }
+
+  // 12b) UTI deep-dive FAQ pages (/faq/deep-dive/{slug}/), one per served state.
+  for (const page of FAQ_PAGES) {
+    urls.push(url(`/faq/deep-dive/${page.slug}/`, 0.6, 'monthly'));
   }
 
   // 13) Health guides (/health-guides/{slug}/)
@@ -241,11 +267,39 @@ export default function sitemap() {
       if (!e.isDirectory()) continue;
       const indexPath = path.join(guidesRoot, e.name, 'index.html');
       if (fs.existsSync(indexPath)) {
-        urls.push(url(`/health-guides/${e.name}/`, 0.85, 'monthly'));
+        urls.push(url(`/health-guides/${e.name}/`, 0.85, 'monthly', guideLastmod(indexPath)));
       }
     }
   } catch (err) {
     console.warn('[sitemap] could not enumerate /public/health-guides:', err.message);
+  }
+
+  // 13b) Affordability guides (/health-guides/affordability/{slug}/)
+  //     Nested one level below the main library; enumerated separately so the
+  //     'Paying for Care in America' section is discoverable.
+  try {
+    const affRoot = path.join(process.cwd(), 'public', 'health-guides', 'affordability');
+    const affEntries = fs.readdirSync(affRoot, { withFileTypes: true });
+    for (const e of affEntries) {
+      if (!e.isDirectory()) continue;
+      const indexPath = path.join(affRoot, e.name, 'index.html');
+      if (fs.existsSync(indexPath)) {
+        urls.push(url(`/health-guides/affordability/${e.name}/`, 0.8, 'monthly', guideLastmod(path.join(affRoot, e.name, 'index.html'))));
+      }
+    }
+  } catch (err) {
+    console.warn('[sitemap] could not enumerate /health-guides/affordability:', err.message);
+  }
+
+  // Existing FluHub pages live under /public, not app routes. Include only
+  // real, indexable, same-origin canonicals; reuse source dates, never build time.
+  const listed = new Set(urls.map(entry => entry.url));
+  for (const entry of getFluHubSitemapEntries(path.join(process.cwd(), 'public'), SITE)) {
+    const record = url(entry.path, 0.85, 'weekly', guideLastmod(entry.file));
+    if (!listed.has(record.url)) {
+      urls.push(record);
+      listed.add(record.url);
+    }
   }
 
   return urls;

@@ -1,0 +1,283 @@
+{
+  "stateCode": "AL",
+  "stateName": "Alabama",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "mid",
+    "regulation": "strict",
+    "payerLandscape": "single-payer",
+    "epidemiology": [
+      "sti-rising-syphilis",
+      "tick-southern-mixed",
+      "rabies-raccoon"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "south",
+    "voiceNotes": "Plain, neighborly and specific. Alabama's telehealth statute is unusually concrete (location check, consent, a four-visit limit for the same unresolved problem), so explain each rule in one plain sentence instead of citing it as fine print. Inferred values: density and regulation are judgment calls from the statute's detail, not measured."
+  },
+  "stateHero": {
+    "openingParagraph": "Alabama's telehealth law spells out what happens before a video visit starts: the physician confirms who you are, asks the city and state you are in, tells you his name and credentials, and records your consent. TeleDirectMD follows that sequence for adults 18 and older who are physically in Alabama, from Birmingham and Huntsville to Mobile and Dothan. Every visit is with Parth Bhavsar, MD, a board-certified family medicine physician licensed in Alabama. The self-pay price is a flat $79, paid at booking, and HSA and FSA cards work. Curative members can use their plan. Prescriptions, when appropriate, go electronically to the Alabama pharmacy you pick.",
+    "conditionPageOpener": "Adults physically in Alabama can see Parth Bhavsar, MD, an Alabama-licensed physician, by video. Flat $79 self-pay, paid at booking, or in-network with Curative. Prescriptions, when appropriate, go electronically to the pharmacy you choose.",
+    "stateContextHint": "Alabama-licensed physician. Video visits for adults located in Alabama, with the identity, location and consent steps state law requires. Flat $79 or Curative.",
+    "saturation": {
+      "stateNameMentions": 5,
+      "stateEntityMentions": 4
+    }
+  },
+  "stateEligibility": {
+    "intro": "TeleDirectMD sees adults 18 and older who are physically in Alabama when the visit happens. Under the state's telemedicine law (Ala. Code 34-24-700 to 707), the physician-patient relationship starts when the patient asks for care or is referred by an established physician, so you can book directly. At the start of the call you will be asked to confirm your identity and name the city and state you are in, and to agree to care by telehealth, which is recorded in your chart.",
+    "localTriggers": [
+      "You must be in Alabama during the visit and able to say which city you are in. A resident who is out of state that day is seen only if TeleDirectMD serves the state they are in.",
+      "Alabama limits repeat telehealth for one problem: after more than four telehealth visits in 12 months for the same condition without resolution, the physician must see you in person or refer you. TeleDirectMD does not offer in-person care, so a fifth visit for the same unresolved problem means a referral.",
+      "Controlled substances are not available by video from TeleDirectMD in Alabama or anywhere else.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "The self-pay price for an Alabama visit is a flat $79, shown before you book and paid at booking. HSA and FSA cards are accepted. Members of Curative commercial plans can use their coverage instead. Medicine is paid at the pharmacy. Alabama shops for individual insurance through HealthCare.gov, the federally run marketplace, and the Alabama Medicaid Agency runs the state's Medicaid program; TeleDirectMD does not take Medicaid.",
+    "additionalNotes": [
+      "$79 flat self-pay, the full visit fee.",
+      "HSA and FSA cards accepted at booking.",
+      "In-network with Curative commercial PPO, EPO and self-funded plans in Alabama."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "Alabama's telemedicine statute lets a physician prescribe a legend drug by telehealth when state and federal law authorize it, so routine prescriptions such as antibiotics or antivirals can follow a video visit when they are appropriate. TeleDirectMD sends them electronically to the Alabama pharmacy you choose. Controlled substances are a different matter in Alabama: the law allows them by telehealth only with live audio or video and an in-person encounter in the previous 12 months, and the dispensing records feed the Prescription Drug Monitoring Program at the Alabama Department of Public Health. TeleDirectMD does not prescribe controlled substances in any state.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "Two Alabama public health trends shape the conditions adults bring to a visit. Sexually transmitted infections are common and syphilis is climbing: the Alabama Department of Public Health counted 30,604 chlamydia cases in 2024, and primary and secondary syphilis cases roughly doubled from 751 in 2021 to 1,513 in 2024. Ticks are part of outdoor life here; the department lists the blacklegged, American dog and lone star ticks as the species of concern and says tick activity can occur year-round, especially in warmer months. Rabies in Alabama is mostly a raccoon story, and the department asks that every animal bite or scratch be checked by a physician and reported to the county health department. This context is for awareness and does not replace an individual evaluation.",
+    "citations": [
+      {
+        "label": "Alabama Board of Medical Examiners, Telemedicine (summary of Ala. Code 34-24-700 to 707, Act 2022-302)",
+        "url": "https://albme.gov/resources/licensees/telemedicine",
+        "scope": "all"
+      },
+      {
+        "label": "Alabama Board of Medical Examiners, Prescribing Issues (Prescription Drug Monitoring Program)",
+        "url": "https://www.albme.gov/resources/licensees/prescribing-issues",
+        "scope": "all"
+      },
+      {
+        "label": "CMS, States by Marketplace Type for Plan Year 2027",
+        "url": "https://www.cms.gov/marketplace/in-person-assisters/training-webinars/training/marketplaces-map",
+        "scope": "all"
+      },
+      {
+        "label": "Alabama Medicaid Agency",
+        "url": "https://medicaid.alabama.gov/",
+        "scope": "all"
+      },
+      {
+        "label": "U.S. Census Bureau, Vintage 2025 state population estimates (NST-EST2025-ALLDATA)",
+        "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv",
+        "scope": "hub"
+      },
+      {
+        "label": "Alabama Department of Public Health, STD Report January 2021 to December 2024",
+        "url": "https://www.alabamapublichealth.gov/std/assets/stdreport_jan2021-dec2024.pdf",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "doxypep-sti-prevention-online"
+        ]
+      },
+      {
+        "label": "Alabama Department of Public Health, Health Alert: Expedited Partner Therapy, December 16, 2024",
+        "url": "https://www.alabamapublichealth.gov/STD/assets/han-ept-12-16-24.pdf",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "trichomoniasis-treatment-online"
+        ]
+      },
+      {
+        "label": "Alabama Department of Public Health, Ticks of Public Health Concern in Alabama",
+        "url": "https://www.alabamapublichealth.gov/tick/assets/phc-ticks-al.pdf",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Alabama Department of Public Health, mosquito and tick season release, March 27, 2026",
+        "url": "https://www.alabamapublichealth.gov/blog/2026/03/nr-27.html",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Alabama Department of Public Health, Rabies",
+        "url": "https://www.alabamapublichealth.gov/infectiousdiseases/rabies.html",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Alabama Department of Public Health, Rabies Program Home Quarantine Guidelines (Code of Alabama 3-7A-9)",
+        "url": "https://www.alabamapublichealth.gov/infectiousdiseases/assets/rabiesquarantinefactsheet.pdf",
+        "conditions": [
+          "cat-bite-treatment-online",
+          "dog-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Alabama Department of Public Health, rabid stray cat in Russell County, January 16, 2026",
+        "url": "https://alabamapublichealth.gov/blog/2026/01/nr-16.html",
+        "conditions": [
+          "cat-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Alabama Department of Public Health, Respiratory Illnesses (ILINet surveillance)",
+        "url": "https://www.alabamapublichealth.gov/infectiousdiseases/respiratory.html",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      },
+      {
+        "label": "Alabama Department of Public Health, 20 years of the Alabama Tobacco Quitline, February 7, 2025",
+        "url": "https://alabamapublichealth.gov/blog/2025/02/nr-07.html",
+        "conditions": [
+          "smoking-cessation-treatment-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds an Alabama medical license, listed with the Alabama Board of Medical Examiners. Anyone can look the license up through the board's physician search. Alabama's telemedicine statute, summarized by the board, requires the physician to disclose his identity and credentials to each telehealth patient before care begins. NPI: 1104323203.",
+    "verifyUrl": "https://www.albme.org/Resources/DoctorSearch",
+    "statuteCitation": "Ala. Code §§ 34-24-700 to 34-24-707 (Act 2022-302); telehealth duties at § 34-24-703",
+    "licenseNumber": "43653",
+    "boardName": "Alabama Board of Medical Examiners",
+    "boardUrl": "https://www.albme.org/"
+  },
+  "stateCities": {
+    "metroAndRural": "Alabama had 5,193,088 residents on July 1, 2025, by the Census Bureau's estimate, and TeleDirectMD sees adults located anywhere in the state. That includes Birmingham, Hoover and Gadsden in the north-central part of the state, Huntsville, Madison, Decatur and Florence in the Tennessee Valley, Montgomery and Auburn in the east-central region, Tuscaloosa in the west, Mobile on the Gulf Coast and Dothan in the Wiregrass. The fee and the physician are the same whether you log on from a downtown apartment or a farmhouse.",
+    "cityList": [
+      {
+        "city": "Birmingham"
+      },
+      {
+        "city": "Montgomery"
+      },
+      {
+        "city": "Huntsville"
+      },
+      {
+        "city": "Mobile"
+      },
+      {
+        "city": "Tuscaloosa"
+      },
+      {
+        "city": "Hoover"
+      },
+      {
+        "city": "Dothan"
+      },
+      {
+        "city": "Auburn"
+      },
+      {
+        "city": "Decatur"
+      },
+      {
+        "city": "Madison"
+      },
+      {
+        "city": "Florence"
+      },
+      {
+        "city": "Gadsden"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "single-payer",
+    "selfPayDisclosure": "In Alabama TeleDirectMD is in-network with one insurer, Curative, for its commercial PPO, EPO and self-funded plans. Everyone else can book at the flat $79 self-pay price, paid at booking, with HSA and FSA cards accepted. TeleDirectMD does not take Alabama Medicaid, Managed Medicaid or D-SNP plans. If you have another plan, you can still pay $79 and ask your insurer about out-of-network reimbursement; TeleDirectMD cannot promise it. Individual coverage in Alabama is sold through HealthCare.gov.",
+    "payers": [
+      {
+        "name": "Curative",
+        "anchorId": "curative-coverage",
+        "planNames": "Commercial PPO, EPO, and self-funded plans (EPO Value, EPO (PPOx), PPO (PPO+), PPO Max)",
+        "validFrom": "2026-07-07",
+        "copayNote": "Your cost depends on your Curative plan; check your plan details before booking."
+      }
+    ]
+  },
+  "stateFaqs": [
+    {
+      "question": "Can a doctor in Alabama treat me over video without seeing me first?",
+      "answer": "Yes. Alabama's telemedicine law lets a physician-patient relationship begin when the patient asks for care, so you can book directly. Before the visit starts, the physician must verify your identity, ask the city and state you are in, disclose his credentials and record your consent to telehealth. TeleDirectMD sees adults 18 and older physically in Alabama."
+    },
+    {
+      "question": "Why does the doctor ask what city I am in?",
+      "answer": "Alabama law requires it. Before any telehealth service, the physician must have the patient identify his or her physical location, including city and state. It confirms you are in Alabama, where Dr. Bhavsar is licensed."
+    },
+    {
+      "question": "Is TeleDirectMD in-network with insurance in Alabama?",
+      "answer": "Only with Curative, for its commercial PPO, EPO and self-funded plans. For any other plan, or no plan, the visit is a flat $79 self-pay, paid at booking, and HSA and FSA cards are accepted. TeleDirectMD does not take Alabama Medicaid. Individual health plans in Alabama are sold through HealthCare.gov."
+    },
+    {
+      "question": "Can I keep seeing TeleDirectMD for the same problem?",
+      "answer": "Up to a point. Alabama requires an in-person visit or a referral once a patient has had more than four telehealth visits in 12 months for the same condition without resolution. TeleDirectMD does not see patients in person, so at that point Dr. Bhavsar will refer you to a physician who can."
+    },
+    {
+      "question": "Can TeleDirectMD prescribe controlled substances in Alabama?",
+      "answer": "No. TeleDirectMD does not prescribe controlled substances in any state. Alabama law separately allows a controlled substance prescription by telehealth only with live audio or video, a legitimate medical purpose and an in-person encounter with the prescriber in the previous 12 months. For pain, anxiety or sleep medicines that are controlled, see a physician in person."
+    },
+    {
+      "question": "How can I check Dr. Bhavsar's Alabama license?",
+      "answer": "Parth Bhavsar, MD holds an Alabama medical license, listed with the Alabama Board of Medical Examiners. You can search for him by name on the board's public physician search, linked on this page. His National Provider Identifier is 1104323203. Alabama law also requires the physician to disclose his identity and credentials to you before a telehealth visit begins."
+    }
+  ],
+  "conditionOverrides": {
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "The Alabama Department of Public Health's STD report counted 30,604 chlamydia cases statewide in 2024, after 30,716 in 2023. If you have a positive test from a clinic, lab or health department, a video visit can review it and prescribe treatment when appropriate. Since a December 16, 2024 health alert, expedited partner therapy has been permissible in Alabama, so a clinician can prescribe treatment for a partner; the department requires the partner's full name and date of birth for that prescription. Whether it fits is decided during the visit. TeleDirectMD needs a positive test and cannot test you. Flat $79 for adults physically in Alabama."
+    },
+    "trichomoniasis-treatment-online": {
+      "stateConditionParagraph": "Alabama's expedited partner therapy alert of December 16, 2024 names trichomoniasis alongside chlamydia and gonorrhea, which means a partner of someone with a laboratory-confirmed trichomoniasis result can be prescribed treatment. The Alabama Department of Public Health asks for the partner's full name and date of birth and does not allow insurance billing for those partner prescriptions. For adults in Alabama with a positive test or typical symptoms, a video visit can decide on treatment and send it electronically to your pharmacy. Pregnancy, fever with pelvic pain, or an infection that already failed treatment needs in-person care. Flat $79."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "Syphilis is rising fast in Alabama. The state Department of Health's STD report shows primary and secondary syphilis going from 751 cases in 2021 to 1,513 in 2024, and chlamydia stayed above 30,000 cases a year. Doxycycline post-exposure prophylaxis, a dose taken within 72 hours after condomless sex, lowers the chance of syphilis, gonorrhea and chlamydia for gay and bisexual men and transgender women who meet the criteria. A video visit for adults physically in Alabama reviews whether you qualify, the side effects and the testing schedule that goes with it. It is not for active symptoms, pregnancy or cisgender women. Flat $79."
+    },
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "The Alabama Department of Public Health lists three ticks of concern: the blacklegged tick (Lyme disease, anaplasmosis, babesiosis, ehrlichiosis), the American dog tick (spotted fever rickettsiosis, tularemia) and the lone star tick (ehrlichiosis, tularemia). The department says ticks live in brushy and wooded areas throughout the state and can be active year-round, especially in warmer months. Because the risk depends on which tick bit you, a clear photo of the removed tick matters. A video visit for adults physically in Alabama looks at the photo, how long it was attached and when it came off, decides whether preventive antibiotics fit, and explains which fever or rash should send you in. Flat $79."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "In January 2026 the Alabama Department of Public Health reported a stray cat in Russell County that scratched a person through gloves and was later confirmed rabid. Raccoons cause most Alabama rabies, but cats can carry it, and the department asks that every bite or scratch be checked by a physician and reported to the county health department. State law (Code of Alabama 3-7A-9) requires a cat that exposes a person to be quarantined for 10 days under a veterinarian. A video visit covers bites from a known domestic cat: wound care, antibiotics when appropriate and the rabies question. A bite from a stray or wild animal, or a swollen hand, needs in-person care. Flat $79."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "Alabama law requires dogs, cats and ferrets to be vaccinated against rabies, and Code of Alabama 3-7A-9 requires a dog that bites a person to be quarantined for 10 days under a licensed veterinarian. The Alabama Department of Public Health asks that any animal bite be checked by a physician and reported to the county health department. For adults in Alabama bitten by a known domestic dog, a video visit can review photos of the wound, decide whether antibiotics are needed, and go over what the quarantine means for your rabies risk. Deep wounds, facial cuts, a hand that will not move normally, or a bite from a stray need in-person care. Flat $79."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "Alabama tracks flu through ILINet, a network of providers who report every week how many patients they saw with influenza-like illness, defined as fever with cough or sore throat; no flu test is required to count. Influenza deaths are a notifiable condition in the state. That surveillance tells you when flu is spreading, but treatment timing is personal: antivirals help most when started within 48 hours of the first symptoms. A video visit for adults physically in Alabama can decide whether an antiviral fits and send it to your pharmacy. Trouble breathing, chest pain or confusion needs 911. Flat $79."
+    },
+    "smoking-cessation-treatment-online": {
+      "stateConditionParagraph": "Alabama has run a free state tobacco quitline since 2005. The Alabama Department of Public Health says the Alabama Tobacco Quitline offers phone and online coaching and up to eight weeks of free nicotine patches for people who enroll in coaching and are medically eligible, and more than 93,000 Alabamians had enrolled as of February 2025. A video visit for adults physically in Alabama can review your smoking history and health conditions and decide whether a prescription quit-smoking medicine is appropriate alongside the quitline. Pregnancy, a recent heart attack or stroke, or a mental health crisis needs in-person care. Flat $79."
+    }
+  },
+  "relatedLinks": [],
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Ala. Code § 34-24-703(e) (Act 2022-302)",
+        "renderAt": "hero-credential",
+        "content": "Under Alabama's telemedicine law, before a telehealth visit the physician verifies the patient's identity, asks the patient's physical location including city and state, discloses the physician's identity and credentials, and obtains and documents the patient's consent to telehealth. TeleDirectMD follows these steps for every patient located in Alabama. Parth Bhavsar, MD, Alabama-licensed physician."
+      },
+      {
+        "statute": "Ala. Code § 34-24-703(f)",
+        "renderAt": "footer",
+        "content": "Alabama requires that a patient seen by telehealth more than four times in 12 months for the same condition without resolution be seen in person or referred to a physician who can provide in-person care. TeleDirectMD does not provide in-person care and refers patients when this applies. TeleDirectMD does not prescribe controlled substances."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

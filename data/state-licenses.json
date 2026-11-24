@@ -1,5 +1,5 @@
 {
-  "_comment": "TeleDirectMD physician state medical licenses. Single source of truth for Physician.hasCredential JSON-LD across all state-specific pages. Add new states here when license is issued. Empty entries are intentionally blank \u2014 page-level code falls back to generic 'Licensed in <state>' without a credential identifier when no number is present.",
+  "_comment": "TeleDirectMD physician state medical licenses. Single source of truth for Physician.hasCredential JSON-LD across all state-specific pages. Add new states here when license is issued. Empty entries are intentionally blank — page-level code falls back to generic 'Licensed in <state>' without a credential identifier when no number is present.",
   "_physician": {
     "name": "Parth Bhavsar, MD",
     "npi": "1104323203",
@@ -21,6 +21,20 @@
       "dateExpires": "2026-12-31",
       "phase3Ready": true
     },
+    "ak": {
+      "stateName": "Alaska",
+      "licenseNumber": "257965",
+      "issuingBoard": "Alaska State Medical Board",
+      "issuingBoardUrl": "https://www.commerce.alaska.gov/cbp/main/board/med",
+      "verificationUrl": "https://www.commerce.alaska.gov/cbp/main/search/professional",
+      "credentialCategory": "Medical License",
+      "credentialDisplayShort": "Alaska Medical License",
+      "credentialDisplayLong": "Alaska Medical License (issued by Alaska State Medical Board)",
+      "phrasingForPages": "Alaska-licensed physician",
+      "dateIssued": "",
+      "dateExpires": "",
+      "phase3Ready": true
+    },
     "az": {
       "stateName": "Arizona",
       "licenseNumber": "66608",
@@ -32,7 +46,7 @@
       "credentialDisplayLong": "Arizona Medical License (issued by Arizona Medical Board)",
       "phrasingForPages": "Arizona-licensed physician",
       "dateIssued": "2024-07-26",
-      "dateExpires": "2026-09-19",
+      "dateExpires": "",
       "phase3Ready": true
     },
     "ca": {
@@ -46,14 +60,14 @@
       "credentialDisplayLong": "California Medical License (issued by Medical Board of California)",
       "phrasingForPages": "California-licensed physician",
       "dateIssued": "2022-09-22",
-      "dateExpires": "2026-09-30",
+      "dateExpires": "2028-09-30",
       "phase3Ready": true
     },
     "co": {
       "stateName": "Colorado",
       "licenseNumber": "CDR.0004739",
       "issuingBoard": "Colorado Medical Board",
-      "issuingBoardUrl": "https://dpo.colorado.gov/MedicalBoard",
+      "issuingBoardUrl": "https://dpo.colorado.gov/Medical",
       "verificationUrl": "https://apps2.colorado.gov/dora/licensing/lookup/LicenseLookup.aspx",
       "credentialCategory": "Medical License",
       "credentialDisplayShort": "Colorado Medical License",
@@ -67,19 +81,19 @@
       "stateName": "Connecticut",
       "licenseNumber": "083935",
       "issuingBoard": "Connecticut Medical Examining Board",
-      "issuingBoardUrl": "https://portal.ct.gov/dph/practitioner-licensing--investigations/plis/general-information-practitioner-licensing",
+      "issuingBoardUrl": "https://portal.ct.gov/dph/practitioner-licensing--investigations/physician/physician-licensure",
       "verificationUrl": "https://www.elicense.ct.gov/lookup/licenselookup.aspx",
       "credentialCategory": "Medical License",
       "credentialDisplayShort": "Connecticut Medical License",
       "credentialDisplayLong": "Connecticut Medical License (issued by Connecticut Medical Examining Board)",
       "phrasingForPages": "Connecticut-licensed physician",
       "dateIssued": "2026-02-23",
-      "dateExpires": "2026-09-30",
+      "dateExpires": "2027-09-30",
       "phase3Ready": true
     },
     "dc": {
       "stateName": "Washington D.C.",
-      "licenseNumber": null,
+      "licenseNumber": "MD600005773",
       "issuingBoard": "DC Board of Medicine",
       "issuingBoardUrl": "https://dchealth.dc.gov/bomed",
       "verificationUrl": "https://dchealth.dc.gov/service/get-verification-your-license",
@@ -87,15 +101,17 @@
       "credentialDisplayShort": "DC Medical License",
       "credentialDisplayLong": "District of Columbia Medical License (issued by DC Board of Medicine)",
       "phrasingForPages": "District of Columbia-licensed physician",
-      "notes": "License number not found in Notion License Registry. State Licenses page (2026-03-26) marks DC as confirmed active. BEFORE PHASE 3 ROLLOUT FOR DC: obtain license number directly from DC Board of Medicine (https://dchealth.dc.gov/service/get-verification-your-license) and add to this record. Until then, phase3Ready=false and DC will be excluded from state-template scale-out.",
-      "phase3Ready": false
+      "notes": "Verified 2026-07-11 via DC Health License Verification Portal (dohenterprise.my.site.com/ver/s/): Medicine and Surgery, Active, no discipline. phase3Ready left false deliberately - state-template scale-out is halted as content strategy, not a data gap.",
+      "phase3Ready": false,
+      "dateIssued": "2026-03-26",
+      "dateExpires": "2028-09-30"
     },
     "de": {
       "stateName": "Delaware",
       "licenseNumber": "C1-0029257",
       "issuingBoard": "Delaware Board of Medical Licensure and Discipline",
       "issuingBoardUrl": "https://dpr.delaware.gov/boards/medicalpractice/",
-      "verificationUrl": "https://delpros.delaware.gov/OH_Web_Agency_Login",
+      "verificationUrl": "https://delpros.delaware.gov/OH_VerifyLicense",
       "credentialCategory": "Medical License",
       "credentialDisplayShort": "Delaware Medical License",
       "credentialDisplayLong": "Delaware Medical License (issued by Delaware Board of Medical Licensure and Discipline)",
@@ -112,10 +128,10 @@
       "verificationUrl": "https://flhealthsource.gov/telehealth/",
       "credentialCategory": "Telehealth Provider Registration",
       "credentialDisplayShort": "FL Telehealth Provider Registration",
-      "credentialDisplayLong": "Florida Out-of-State Telehealth Provider Registration (under Fla. Stat. \u00a7 456.47(4))",
+      "credentialDisplayLong": "Florida Out-of-State Telehealth Provider Registration (under Fla. Stat. § 456.47(4))",
       "phrasingForPages": "Florida-registered telehealth physician",
-      "statuteAuthority": "Fla. Stat. \u00a7 456.47(4)",
-      "notes": "Out-of-state telehealth provider registration. NOT a full Florida medical license. Dr. Bhavsar holds a Georgia medical license; this registration permits telehealth practice with Florida patients per \u00a7456.47. Does not expire or require renewal per FL DOH record.",
+      "statuteAuthority": "Fla. Stat. § 456.47(4)",
+      "notes": "Out-of-state telehealth provider registration. NOT a full Florida medical license. Dr. Bhavsar holds a Georgia medical license; this registration permits telehealth practice with Florida patients per §456.47. Does not expire or require renewal per FL DOH record.",
       "phase3Ready": true
     },
     "ga": {
@@ -128,7 +144,7 @@
       "credentialDisplayShort": "Georgia Medical License",
       "credentialDisplayLong": "Georgia Medical License (issued by Georgia Composite Medical Board)",
       "phrasingForPages": "Georgia-licensed physician",
-      "dateExpires": "2026-09-30",
+      "dateExpires": "",
       "notes": "Issue date not stated in Notion record.",
       "phase3Ready": true
     },
@@ -151,13 +167,13 @@
       "licenseNumber": "MD-53469",
       "issuingBoard": "Iowa Board of Medicine",
       "issuingBoardUrl": "https://medicalboard.iowa.gov/",
-      "verificationUrl": "https://medicalboard.iowa.gov/license-verification",
+      "verificationUrl": "https://dial.iowa.gov/licenses/health-professions/physicians/verifications",
       "credentialCategory": "Medical License",
       "credentialDisplayShort": "Iowa Medical License",
       "credentialDisplayLong": "Iowa Medical License (issued by Iowa Board of Medicine)",
       "phrasingForPages": "Iowa-licensed physician",
       "dateIssued": "2024-07-23",
-      "dateExpires": "2026-09-01",
+      "dateExpires": "",
       "phase3Ready": true
     },
     "id": {
@@ -165,7 +181,7 @@
       "licenseNumber": "2971790",
       "issuingBoard": "Idaho State Board of Medicine",
       "issuingBoardUrl": "https://bom.idaho.gov/",
-      "verificationUrl": "https://elitepublic.bom.idaho.gov/IBOMPublic/LicenseSearch.aspx",
+      "verificationUrl": "https://edopl.idaho.gov/OnlineServices/?link=PubSearch",
       "credentialCategory": "Medical License",
       "credentialDisplayShort": "Idaho Medical License",
       "credentialDisplayLong": "Idaho Medical License (issued by Idaho State Board of Medicine)",
@@ -185,7 +201,7 @@
       "credentialDisplayLong": "Illinois Medical License (issued by Illinois Department of Financial and Professional Regulation)",
       "phrasingForPages": "Illinois-licensed physician",
       "dateIssued": "2023-07-26",
-      "dateExpires": "2026-07-31",
+      "dateExpires": "2029-07-31",
       "phase3Ready": true
     },
     "in": {
@@ -203,17 +219,20 @@
       "phase3Ready": true
     },
     "ks": {
+      "servingPaused": "2026-10-20",
       "stateName": "Kansas",
-      "licenseNumber": null,
+      "licenseNumber": "04-52853",
       "issuingBoard": "Kansas Board of Healing Arts",
       "issuingBoardUrl": "https://www.ksbha.org/",
-      "verificationUrl": "https://www.ksbha.org/licensing/license-lookup",
+      "verificationUrl": "https://www.kansas.gov/ssrv-ksbhada/details.html?id=731257913",
       "credentialCategory": "Medical License",
       "credentialDisplayShort": "Kansas Medical License",
       "credentialDisplayLong": "Kansas Medical License (issued by Kansas Board of Healing Arts)",
       "phrasingForPages": "Kansas-licensed physician",
-      "notes": "STATUS CONFLICT: License Registry shows 'Pending' (application submitted, awaiting approval); State Licenses page (2026-03-26) shows 'Active'. License number not available. RESOLUTION as of 2026-06-12: trust the Registry \u2014 license is PENDING. BEFORE PHASE 3 ROLLOUT FOR KS: confirm license issued (poll Kansas Board of Healing Arts) and add license number to this record. Until then, phase3Ready=false and KS will be excluded.",
-      "phase3Ready": false
+      "notes": "Verified 2026-07-11 via KSBHA licensee search: MD 04-52853, Current/Active, issued 2026-03-20, renewed 2026-07-09, expires 2027-07-31. Prior PENDING conflict resolved - license is active. phase3Ready left false deliberately - state-template scale-out is halted as content strategy, not a data gap.",
+      "phase3Ready": false,
+      "dateIssued": "2026-03-20",
+      "dateExpires": "2027-07-31"
     },
     "ky": {
       "stateName": "Kentucky",
@@ -240,7 +259,7 @@
       "credentialDisplayLong": "Louisiana Medical License (issued by Louisiana State Board of Medical Examiners)",
       "phrasingForPages": "Louisiana-licensed physician",
       "dateIssued": "2024-01-05",
-      "dateExpires": "2026-09-30",
+      "dateExpires": "",
       "phase3Ready": true
     },
     "md": {
@@ -254,7 +273,7 @@
       "credentialDisplayLong": "Maryland Medical License (issued by Maryland Board of Physicians)",
       "phrasingForPages": "Maryland-licensed physician",
       "dateIssued": "2026-02-13",
-      "dateExpires": "2026-09-30",
+      "dateExpires": "",
       "phase3Ready": true
     },
     "me": {
@@ -268,7 +287,7 @@
       "credentialDisplayLong": "Maine Medical License (issued by Maine Board of Licensure in Medicine)",
       "phrasingForPages": "Maine-licensed physician",
       "dateIssued": "2026-03-18",
-      "dateExpires": "2026-09-30",
+      "dateExpires": "",
       "phase3Ready": true
     },
     "mi": {
@@ -283,7 +302,7 @@
       "phrasingForPages": "Michigan-licensed physician",
       "dateIssued": "2026-01-05",
       "dateExpires": "2029-02-16",
-      "notes": "Michigan IMLC sunset effective 2026-03-28. License EMC0002968 (exp 2029-02-16) \u2014 must verify whether issued via IMLC compact or traditional Michigan pathway. If IMLC-issued, the license may require conversion to a traditional Michigan license to remain valid post-sunset. BEFORE PHASE 3 ROLLOUT FOR MI: confirm license pathway with Michigan LARA (https://www.michigan.gov/lara/bureau-list/bpl/health). Current phase3Ready=false pending this verification \u2014 to enable, change phase3Ready to true after confirmation.",
+      "notes": "Michigan IMLC sunset effective 2026-03-28. License EMC0002968 (exp 2029-02-16) — must verify whether issued via IMLC compact or traditional Michigan pathway. If IMLC-issued, the license may require conversion to a traditional Michigan license to remain valid post-sunset. BEFORE PHASE 3 ROLLOUT FOR MI: confirm license pathway with Michigan LARA (https://www.michigan.gov/lara/bureau-list/bpl/health). Current phase3Ready=false pending this verification — to enable, change phase3Ready to true after confirmation.",
       "phase3Ready": false
     },
     "mn": {
@@ -297,7 +316,7 @@
       "credentialDisplayLong": "Minnesota Medical License (issued by Minnesota Board of Medical Practice)",
       "phrasingForPages": "Minnesota-licensed physician",
       "dateIssued": "2025-11-02",
-      "dateExpires": "2026-09-30",
+      "dateExpires": "",
       "phase3Ready": true
     },
     "mo": {
@@ -325,7 +344,7 @@
       "credentialDisplayLong": "Mississippi Medical License (issued by Mississippi State Board of Medical Licensure)",
       "phrasingForPages": "Mississippi-licensed physician",
       "dateIssued": "2025-07-01",
-      "dateExpires": "2026-06-30",
+      "dateExpires": "",
       "phase3Ready": true
     },
     "mt": {
@@ -353,7 +372,7 @@
       "credentialDisplayLong": "North Carolina Medical License (issued by North Carolina Medical Board)",
       "phrasingForPages": "North Carolina-licensed physician",
       "dateIssued": "2025-02-07",
-      "dateExpires": "2026-09-19",
+      "dateExpires": "",
       "phase3Ready": true
     },
     "nd": {
@@ -381,22 +400,22 @@
       "credentialDisplayLong": "Nebraska Medical License (issued by Nebraska Department of Health and Human Services)",
       "phrasingForPages": "Nebraska-licensed physician",
       "dateIssued": "2026-02-10",
-      "dateExpires": "2026-10-01",
+      "dateExpires": "",
       "phase3Ready": true
     },
     "nh": {
       "stateName": "New Hampshire",
       "licenseNumber": "39234",
       "issuingBoard": "New Hampshire Board of Medicine",
-      "issuingBoardUrl": "https://www.oplc.nh.gov/medicine",
-      "verificationUrl": "https://nhlicenses.nh.gov/online-services/verification-of-license",
+      "issuingBoardUrl": "https://www.oplc.nh.gov/board-medicine",
+      "verificationUrl": "https://www.oplc.nh.gov/license-lookup",
       "credentialCategory": "Medical License",
       "credentialDisplayShort": "New Hampshire Medical License",
       "credentialDisplayLong": "New Hampshire Medical License (issued by New Hampshire Board of Medicine)",
       "phrasingForPages": "physician licensed in New Hampshire via the Interstate Medical Licensure Compact",
       "dateIssued": "2026-03-12",
       "dateExpires": "2028-03-12",
-      "notes": "Compact Physician \u2013 Family Practice/Family Medicine. Issued via IMLC. OPLC license PDF received 3/12/2026.",
+      "notes": "Compact Physician – Family Practice/Family Medicine. Issued via IMLC. OPLC license PDF received 3/12/2026.",
       "phase3Ready": true
     },
     "nj": {
@@ -425,6 +444,20 @@
       "phrasingForPages": "Nevada-licensed physician",
       "dateIssued": "2025-05-20",
       "dateExpires": "2027-06-30",
+      "phase3Ready": true
+    },
+    "ny": {
+      "stateName": "New York",
+      "licenseNumber": "345804",
+      "issuingBoard": "New York State Education Department, Office of the Professions (State Board for Medicine)",
+      "issuingBoardUrl": "https://www.op.nysed.gov/professions/physicians",
+      "verificationUrl": "https://eservices.nysed.gov/professions/verification-search",
+      "credentialCategory": "Medical License",
+      "credentialDisplayShort": "New York Medical License",
+      "credentialDisplayLong": "New York Medical License (issued by the New York State Education Department, Office of the Professions)",
+      "phrasingForPages": "New York-licensed physician",
+      "dateIssued": "",
+      "dateExpires": "",
       "phase3Ready": true
     },
     "oh": {
@@ -488,7 +521,7 @@
       "licenseNumber": "18273",
       "issuingBoard": "South Dakota Board of Medical and Osteopathic Examiners",
       "issuingBoardUrl": "https://doh.sd.gov/licensing-and-records/boards/",
-      "verificationUrl": "https://sdbmoe.gov/provider-search",
+      "verificationUrl": "https://www.sdbmoe.gov/sdbmoe-licensee-lookup/",
       "credentialCategory": "Medical License",
       "credentialDisplayShort": "South Dakota Medical License",
       "credentialDisplayLong": "South Dakota Medical License (issued by South Dakota Board of Medical and Osteopathic Examiners)",
@@ -508,7 +541,7 @@
       "credentialDisplayLong": "Tennessee Medical License (issued by Tennessee Board of Medical Examiners)",
       "phrasingForPages": "Tennessee-licensed physician",
       "dateIssued": "2024-09-25",
-      "dateExpires": "2026-09-30",
+      "dateExpires": "",
       "phase3Ready": true
     },
     "tx": {
@@ -558,7 +591,7 @@
       "licenseNumber": "042.0040345-COMP",
       "issuingBoard": "Vermont Board of Medical Practice",
       "issuingBoardUrl": "https://www.healthvermont.gov/systems/board-medical-practice",
-      "verificationUrl": "https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage",
+      "verificationUrl": "https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional",
       "credentialCategory": "Medical License",
       "credentialDisplayShort": "Vermont Medical License",
       "credentialDisplayLong": "Vermont Medical License (issued by Vermont Board of Medical Practice)",
@@ -580,11 +613,12 @@
       "phase3Ready": true
     },
     "wi": {
+      "servingPaused": "2026-10-20",
       "stateName": "Wisconsin",
       "licenseNumber": "1605-320",
       "issuingBoard": "Wisconsin Medical Examining Board",
-      "issuingBoardUrl": "https://dsps.wi.gov/Pages/Professions/Physician/Default.aspx",
-      "verificationUrl": "https://licensesearch.wi.gov/",
+      "issuingBoardUrl": "https://dsps.wi.gov/Pages/BoardsCouncils/MEB/Default.aspx",
+      "verificationUrl": "https://license.wi.gov/s/license-lookup",
       "credentialCategory": "Medical License",
       "credentialDisplayShort": "Wisconsin Medical License",
       "credentialDisplayLong": "Wisconsin Medical License (issued by Wisconsin Medical Examining Board)",
@@ -604,7 +638,7 @@
       "credentialDisplayLong": "West Virginia Medical License (issued by West Virginia Board of Medicine)",
       "phrasingForPages": "West Virginia-licensed physician",
       "dateIssued": "2026-02-12",
-      "dateExpires": "2026-06-30",
+      "dateExpires": "2028-06-30",
       "phase3Ready": true
     },
     "wy": {
@@ -618,7 +652,7 @@
       "credentialDisplayLong": "Wyoming Medical License (issued by Wyoming Board of Medicine)",
       "phrasingForPages": "Wyoming-licensed physician",
       "dateIssued": "2026-02-19",
-      "dateExpires": "2026-06-30",
+      "dateExpires": "",
       "phase3Ready": true
     }
   }

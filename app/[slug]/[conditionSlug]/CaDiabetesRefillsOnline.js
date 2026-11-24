@@ -39,7 +39,7 @@ const PHYSICIAN = {
   specialty: 'Family Medicine',
   licenseState: 'California',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 // California payors — sourced from Notion payor enrollment (refreshed 2026-05-19)
@@ -48,8 +48,8 @@ const CA_PAYORS = [
     notes: 'Commercial plans. In-network as of April 30, 2026. Verify plan eligibility with Aetna before booking.' },
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true,
     notes: 'Covers UHC Commercial and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types.' },
-  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Enrollment pending — self pay ($79) available.' },
+  { name: 'Anthem Blue Cross', status: 'Active', effective: 'September 23, 2026', inNetwork: true,
+    notes: 'PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.' },
   { name: 'Cigna', status: 'Pending', effective: 'Pending determination', inNetwork: false,
     notes: 'Pending — self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false,
@@ -62,12 +62,12 @@ const FAQ_ITEMS = [
   {
     id: 'diabetes-refills-online-faq-0',
     question: "Can I refill my Type 2 diabetes medications online in California?",
-    answer: <p>Yes. California Business and Professions Code Section 2290.5 permits licensed physicians to prescribe medications via synchronous video telehealth without a prior in-person visit. TeleDirectMD\'s California-licensed board-certified Family Medicine physician reviews your most recent HbA1c, kidney function (eGFR), blood glucose logs, and medication adherence before authorizing refills for stable established Type 2 diabetes. Metformin, GLP-1 agonists (for T2DM), SGLT2 inhibitors, and sulfonylureas are in scope. Self pay is $79; Aetna is in-network effective April 30, 2026.</p>,
+    answer: <p>Yes. California Business and Professions Code Section 2290.5 permits licensed physicians to prescribe medications via synchronous video telehealth without a prior in-person visit. TeleDirectMD\'s California-licensed board-certified Family Medicine physician reviews your most recent HbA1c, kidney function (eGFR), blood glucose logs, and medication adherence before authorizing refills for stable established Type 2 diabetes. Metformin, SGLT2 inhibitors, and sulfonylureas are in scope. TeleDirectMD does not prescribe GLP-1 agonists. Self pay is $79; Aetna is in-network effective April 30, 2026.</p>,
   },
   {
     id: 'diabetes-refills-online-faq-1',
-    question: "Does TeleDirectMD prescribe GLP-1 agonists (semaglutide, tirzepatide) for weight loss?",
-    answer: <p>No. TeleDirectMD prescribes GLP-1 receptor agonists including semaglutide (Ozempic) and tirzepatide (Mounjaro) for Type 2 diabetes glycemic control only. The physician does not prescribe semaglutide (Wegovy) or tirzepatide (Zepbound) for weight loss in the absence of a Type 2 diabetes diagnosis. Patients seeking weight-loss GLP-1 therapy without Type 2 diabetes should consult a physician with obesity medicine expertise.</p>,
+    question: "Does TeleDirectMD prescribe GLP-1 agonists (semaglutide, tirzepatide)?",
+    answer: <p>No. TeleDirectMD does not prescribe GLP-1 receptor agonists such as semaglutide (Ozempic, Wegovy) or tirzepatide (Mounjaro, Zepbound), for weight loss or for Type 2 diabetes. Patients who need a GLP-1 should see their primary care physician, an endocrinologist, or a physician with obesity medicine expertise.</p>,
   },
   {
     id: 'diabetes-refills-online-faq-2',
@@ -87,12 +87,12 @@ const FAQ_ITEMS = [
   {
     id: 'diabetes-refills-online-faq-5',
     question: "What is the benefit of SGLT2 inhibitors for Type 2 diabetes in California?",
-    answer: <p>SGLT2 inhibitors — empagliflozin (Jardiance) and dapagliflozin (Farxiga) — provide proven cardiovascular and kidney benefits beyond glycemic control. The EMPA-REG OUTCOME trial showed empagliflozin reduced cardiovascular death by 38% in T2DM patients with established ASCVD. The DAPA-CKD trial demonstrated dapagliflozin slowed progression of CKD regardless of T2DM status. ADA 2024 guidelines recommend an SGLT2 inhibitor with proven CV/kidney benefit for T2DM patients with established ASCVD, heart failure, or CKD (eGFR ≥25).</p>,
+    answer: <p>SGLT2 inhibitors — empagliflozin (Jardiance) and dapagliflozin (Farxiga) — provide proven cardiovascular and kidney benefits beyond glycemic control. The EMPA-REG OUTCOME trial showed empagliflozin reduced cardiovascular death by 38% in T2DM patients with established ASCVD. The DAPA-CKD trial demonstrated dapagliflozin slowed progression of CKD regardless of T2DM status. ADA 2024 guidelines recommend an SGLT2 inhibitor with proven CV/kidney benefit for T2DM patients with established ASCVD, heart failure, or CKD (eGFR ≥20).</p>,
   },
   {
     id: 'diabetes-refills-online-faq-6',
     question: "Does California Medi-Cal cover Type 2 diabetes medications?",
-    answer: <p>Medi-Cal covers metformin and sulfonylureas at low or no cost-sharing. SGLT2 inhibitors and GLP-1 agonists require prior authorization under Medi-Cal managed care formularies. The California DHCS Diabetes Prevention Program also funds lifestyle intervention programs through enrolled community organizations. TeleDirectMD is not currently enrolled as a Medi-Cal provider — Medi-Cal members can use the $79 self-pay rate or seek care from a Medi-Cal-enrolled primary care provider.</p>,
+    answer: <p>Medi-Cal covers metformin and sulfonylureas at low or no cost-sharing. SGLT2 inhibitors and GLP-1 agonists require prior authorization under Medi-Cal managed care formularies. The California DHCS Diabetes Prevention Program also funds lifestyle intervention programs through enrolled community organizations. TeleDirectMD is not currently enrolled as a Medi-Cal provider — Medi-Cal members should seek care from a Medi-Cal-enrolled primary care provider.</p>,
   },
   {
     id: 'diabetes-refills-online-faq-7',
@@ -127,7 +127,6 @@ const CA_SIBLINGS = [
   { slug: 'hypothyroidism-refills-online', label: "Hypothyroidism Refills in CA", why: "Thyroid dysfunction affects glycemic control in T2DM." },
   { slug: 'acid-reflux-refills-online', label: "Acid Reflux Refills in CA", why: "GLP-1 agonists may worsen GERD — relevant drug effect counseling." },
   { slug: 'migraine-refills-online', label: "Migraine Refills in CA", why: "Metabolic syndrome association with migraine." },
-  { slug: 'online-doctor-visits', label: "All Online Doctor Visits in CA", why: "General CA telehealth hub." }
 ];
 
 function buildSchemas() {
@@ -136,7 +135,7 @@ function buildSchemas() {
     '@type': 'MedicalWebPage',
     name: PAGE_TITLE,
     url: PAGE_URL,
-    description: 'Refill Type 2 diabetes medications online in California. Board-certified Family Medicine MD. CA telehealth compliant. Aetna in-network. Self pay $79. ADA Standards of Care 2024–2025. Metformin, GLP-1 agonists, SGLT2 inhibitors. T2DM only.',
+    description: 'Refill Type 2 diabetes medications online in California. Board-certified Family Medicine MD. CA telehealth compliant. Aetna in-network. Self pay $79. ADA Standards of Care 2024–2025. Metformin, SGLT2 inhibitors. T2DM only.',
     datePublished: DATE_PUBLISHED,
     dateModified: DATE_MODIFIED,
     inLanguage: 'en-US',
@@ -151,7 +150,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -292,9 +291,9 @@ export default function CaDiabetesRefillsOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> E11.9 (Type 2 diabetes mellitus without complications) — final coding per clinical details</p>
@@ -324,7 +323,7 @@ export default function CaDiabetesRefillsOnline() {
           <div className="tdmd-container">
             <div className="tdmd-condition-opener" id="diabetes-refills-online-opening">
               <p>
-                California adults with established Type 2 diabetes (T2DM) can refill medications — including metformin, GLP-1 receptor agonists (for T2DM glycemic control), SGLT2 inhibitors, sulfonylureas, and DPP-4 inhibitors — by secure video visit through TeleDirectMD, consistent with California Business and Professions Code Section 2290.5. A California-licensed board-certified Family Medicine physician reviews your most recent HbA1c, blood glucose logs, kidney function (eGFR), and medication adherence before authorizing refills. ADA Standards of Care 2024–2025 guide therapeutic decisions. GLP-1 agonists are prescribed for T2DM glycemic control only — not for weight loss in the absence of diabetes. Self pay is $79. Aetna is in-network effective April 30, 2026.
+                California adults with established Type 2 diabetes (T2DM) can refill medications — including metformin, SGLT2 inhibitors, sulfonylureas, and DPP-4 inhibitors — by secure video visit through TeleDirectMD, consistent with California Business and Professions Code Section 2290.5. A California-licensed board-certified Family Medicine physician reviews your most recent HbA1c, blood glucose logs, kidney function (eGFR), and medication adherence before authorizing refills. ADA Standards of Care 2024–2025 guide therapeutic decisions. TeleDirectMD does not prescribe GLP-1 agonists. Self pay is $79. Aetna is in-network effective April 30, 2026.
               </p>
               <span className="tdmd-condition-opener__meta">
                 Reviewed by <a href="/about/">{PHYSICIAN.name}</a>, Board-Certified {PHYSICIAN.specialty} · NPI {PHYSICIAN.npi} · Licensed in {PHYSICIAN.licenseState} ·
@@ -339,7 +338,7 @@ export default function CaDiabetesRefillsOnline() {
           <div className="tdmd-container">
             <div style={{ background: '#FFF3CD', border: '2px solid #FFC107', borderRadius: 'var(--tdmd-radius,18px)', padding: '1.1rem 1.5rem', marginTop: '1.5rem' }}>
               <h3 style={{ color: '#856404', marginTop: 0 }}>⚠ Type 2 Diabetes Only — Scope of Service</h3>
-              <p style={{ color: '#533f03', margin: 0 }}>TeleDirectMD manages Type 2 diabetes mellitus (T2DM) only. Type 1 diabetes mellitus (T1DM) insulin titration is outside the scope of this service — T1DM patients require endocrinology management. GLP-1 receptor agonists (semaglutide, tirzepatide, liraglutide) are prescribed for T2DM glycemic control only — TeleDirectMD does NOT prescribe GLP-1 agonists for weight loss in patients without Type 2 diabetes. Insulin titration for T2DM: simple regimens (basal insulin initiation and conservative adjustment) are in scope; complex insulin titration requiring endocrinology expertise is referred.</p>
+              <p style={{ color: '#533f03', margin: 0 }}>TeleDirectMD manages Type 2 diabetes mellitus (T2DM) only. Type 1 diabetes mellitus (T1DM) insulin titration is outside the scope of this service — T1DM patients require endocrinology management. TeleDirectMD does NOT prescribe GLP-1 receptor agonists (semaglutide, tirzepatide, liraglutide), for weight loss or for diabetes. Insulin for T2DM: Dr. Bhavsar can refill a current, stable insulin dose as a bridge until you see your primary care physician. Insulin is not started or adjusted, and your most recent HbA1c is required.</p>
             </div>
           </div>
         </section>
@@ -356,7 +355,7 @@ export default function CaDiabetesRefillsOnline() {
 
             <h3>What standard of care applies to California telehealth physicians?</h3>
             <p>
-              The <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a> is explicit: &ldquo;The standard of care is the same whether the patient is seen in-person, through telehealth or other methods of electronically enabled health care.&rdquo; TeleDirectMD physicians are licensed in California. See <a href="/about/">Dr. Bhavsar&apos;s bio</a> for credential details.
+              The <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a> is explicit: &ldquo;The standard of care is the same whether the patient is seen in-person, through telehealth or other methods of electronically enabled health care.&rdquo; Dr. Bhavsar is licensed in California. See <a href="/about/">Dr. Bhavsar&apos;s bio</a> for credential details.
             </p>
 
             <h3>Does California insurance parity law cover telehealth visits?</h3>
@@ -405,25 +404,6 @@ export default function CaDiabetesRefillsOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical cost comparison">
-                <h3>Typical Diabetes Refills Visit Cost in California</h3>
-                <p className="tdmd-price-caption">Common ranges Californians see before insurance. Actual costs vary by setting and city.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 13, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical California metro pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <h3 style={{ marginTop: '1.75rem' }}>California Payor Status — TeleDirectMD</h3>
@@ -457,7 +437,7 @@ export default function CaDiabetesRefillsOnline() {
             </div>
 
             <p style={{ marginTop: '1rem' }}>
-              For deeper detail, see <a href="/insurance/aetna/california/diabetes-refills-online/">Aetna × California × Diabetes Refills</a> or view all <a href="/insurance">insurance options</a>.
+              For deeper detail, see <a href="/insurance/aetna/california/diabetes-refills/">Aetna × California × Diabetes Refills</a> or view all <a href="/insurance/">insurance options</a>.
             </p>
           </div>
         </section>
@@ -492,12 +472,6 @@ export default function CaDiabetesRefillsOnline() {
                     <td>First-line. Hold if eGFR &lt;30. ER formulation reduces GI side effects. Monitor B12 annually.</td>
                   </tr>
                   <tr>
-                    <td><strong>Semaglutide (Ozempic) 0.5/1/2 mg weekly injection</strong></td>
-                    <td>0.25 mg weekly × 4 weeks, then 0.5 mg weekly (titrate to 1–2 mg)</td>
-                    <td><a href="https://www.goodrx.com/ozempic" target="_blank" rel="noopener">~$800–$950/month list; GoodRx may not reduce significantly; Novo Nordisk patient assistance programs available</a></td>
-                    <td>T2DM ONLY — not for weight loss without diabetes. Significant CV benefit in SUSTAIN-6. GI side effects common. Requires prior auth for many plans.</td>
-                  </tr>
-                  <tr>
                     <td><strong>Empagliflozin (Jardiance) 10/25 mg</strong></td>
                     <td>10 mg once daily in AM; may increase to 25 mg</td>
                     <td><a href="https://www.goodrx.com/empagliflozin" target="_blank" rel="noopener">~$500–$600/month list; GoodRx varies; Lilly patient assistance available</a></td>
@@ -519,7 +493,7 @@ export default function CaDiabetesRefillsOnline() {
                     <td><strong>Insulin glargine (Basaglar, Lantus, Toujeo) 100 U/mL</strong></td>
                     <td>10 units at bedtime initial; titrate 2 units every 3 days if fasting glucose &gt;130</td>
                     <td><a href="https://www.goodrx.com/insulin-glargine" target="_blank" rel="noopener">~$100–$200/pen GoodRx; Lilly insulin program available for affordability</a></td>
-                    <td>Basal insulin initiation for T2DM in scope. Complex titration/multiple daily injections: endocrinology referral. Walmart ReliOn insulin available OTC at lower cost.</td>
+                    <td>Bridge refill of your current dose only, with your most recent HbA1c. No insulin starts or dose changes. Walmart ReliOn insulin available OTC at lower cost.</td>
                   </tr>
                 </tbody>
               </table>
@@ -570,7 +544,7 @@ export default function CaDiabetesRefillsOnline() {
                 <p>Book a same-day video visit — California adults, 18+</p>
                 <small>Self pay $79 · Aetna in-network · UHC Commercial approved May 2026 · Diabetes Refills</small>
               </div>
-              <a className="tdmd-ca-uti__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
+              <a className="tdmd-ca-uti__cta-btn" href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -589,8 +563,8 @@ export default function CaDiabetesRefillsOnline() {
                 <p>Book a same-day video visit. Self pay $79 · Aetna in-network · UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -635,12 +609,12 @@ export default function CaDiabetesRefillsOnline() {
               <a href="/ca/eyelash-growth-treatment-online/">Eyelash Growth in CA</a>
               <a href="/ca/smoking-cessation-treatment-online/">Smoking Cessation in CA</a>
               <a href="/ca/motion-sickness-treatment-online/">Motion Sickness in CA</a>
-              <a href="/ca/uti-treatment-online/">UTI Treatment in CA</a>
+              <a href="/ca/uti-treatment-online/">UTI Treatment for Women in CA</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/insurance">Insurance</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/insurance/">Insurance</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>
@@ -656,11 +630,11 @@ export default function CaDiabetesRefillsOnline() {
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ</a>. Retrieved May 2026.</li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — AB 2789 Electronic Prescribing</a>. Retrieved May 2026.</li>
               <li><a href="https://diabetesjournals.org/care/issue/47/Supplement_1" rel="noopener" target="_blank">ADA Standards of Medical Care in Diabetes 2024 — Diabetes Care Supplement 1</a>. Retrieved May 2026.</li>
-              <li><a href="https://diabetesjournals.org/care/article/48/Supplement_1/S27/157554" rel="noopener" target="_blank">ADA — Classification and Diagnosis of Diabetes: Standards of Care 2025</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CVEHB/Pages/DiabetesPrevention.aspx" rel="noopener" target="_blank">CDPH — Diabetes Data and Statistics</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CVEHB/Pages/DiabetesPrevention.aspx" rel="noopener" target="_blank">CDPH — Diabetes Prevention Program</a>. Retrieved May 2026.</li>
+              <li><a href="https://pubmed.ncbi.nlm.nih.gov/39651986/" rel="noopener" target="_blank">ADA — Classification and Diagnosis of Diabetes: Standards of Care 2025</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CDCB/Pages/DiabetesPrevention.aspx" rel="noopener" target="_blank">CDPH — Diabetes Data and Statistics</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CDCB/Pages/DiabetesPrevention.aspx" rel="noopener" target="_blank">CDPH — Diabetes Prevention Program</a>. Retrieved May 2026.</li>
               <li><a href="https://diabetesjournals.org/care/issue/47/Supplement_1" rel="noopener" target="_blank">ADA Standards of Medical Care in Diabetes 2024–2025 — Diabetes Care</a>. Retrieved May 2026.</li>
-              <li><a href="https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis/chis-data" rel="noopener" target="_blank">California Health Interview Survey (CHIS) 2023</a>. Retrieved May 2026.</li>
+              <li><a href="https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis/access-chis-data" rel="noopener" target="_blank">California Health Interview Survey (CHIS) 2023</a>. Retrieved May 2026.</li>
             </ol>
           </div>
         </section>

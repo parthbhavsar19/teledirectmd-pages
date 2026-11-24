@@ -1,0 +1,950 @@
+{
+ "guide": "genital-herpes-treatment-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 10 verified (10.15585/mmwr.rr7004a1, 10.1001/archinternmed.2009.177, 10.1056/NEJMoa035144, 10.1111/jdv.20450, 10.1093/infdis/jiq035, 10.1016/j.jinf.2025.106636, 10.1001/jama.2022.19061, 10.7326/0003-4819-121-11-199412010-00004, 10.1002/14651858.CD004946.pub2, 10.1001/jama.2023.0057), retractions: none. No editorial notices. Scite flagged one potential contrasting citation each for the 2021 MMWR guideline (10.1128/jcm.01171-20, about gonococcal loads; does not bear on any herpes claim) and Martin 2009 (10.1136/sti.2010.047142, a diaphragm trial finding no effect; the page describes condoms as moderate, incomplete protection). PubMed article types checked for all PubMed-indexed records: no Retracted Publication or Retraction Notice.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). Genital Herpes: STI Treatment Guidelines, 2021. Last reviewed September 21, 2022. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/herpes.htm",
+   "version_or_date": "Last Reviewed September 21, 2022 (web version of the 2021 STI Treatment Guidelines)",
+   "retrieved_with": "WebFetch of official page (four passes)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Regimen boxes on this page carry drug names; the PMC text of ref 2 omits them, so regimens are cited here. Footnote symbols (dagger, asterisk) dropped from quotes.",
+   "claims": [
+    {
+     "text": "Most recurrent genital herpes is caused by HSV-2; an estimated 11.9% of people aged 14 to 49 in the US are infected (about 12%)",
+     "quote": "Most cases of recurrent genital herpes are caused by HSV-2 ... 11.9% of persons aged 14–49 years are estimated to be infected in the United States",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "First-episode regimens: acyclovir 400 mg three times daily, famciclovir 250 mg three times daily, or valacyclovir 1 g twice daily, each for 7 to 10 days",
+     "quote": "Acyclovir 400 mg orally 3 times/day for 7–10 days ... Famciclovir 250 mg orally 3 times/day for 7–10 days ... Valacyclovir 1 gm orally 2 times/day for 7–10 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Acyclovir 200 mg five times daily is effective but not recommended because of dosing frequency",
+     "quote": "Acyclovir 200 mg orally five times/day is also effective but is not recommended because of the frequency of dosing.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Treatment can be extended if healing is incomplete after 10 days",
+     "quote": "Treatment can be extended if healing is incomplete after 10 days of therapy.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "IV acyclovir 5 to 10 mg/kg every 8 hours for severe disease or complications needing hospitalization (disseminated infection, pneumonitis, hepatitis) or CNS complications (meningitis, encephalitis)",
+     "quote": "Intravenous (IV) acyclovir therapy (5–10 mg/kg body weight IV every 8 hours) should be provided ... (e.g., disseminated infection, pneumonitis, or hepatitis) ... or CNS complications (e.g., meningitis or encephalitis)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Suppressive therapy reduces recurrences by 70% to 80% in people with frequent outbreaks (key takeaways)",
+     "quote": "Suppressive therapy reduces frequency of genital herpes recurrences by 70%–80% among patients who have frequent recurrences",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC suppressive regimens: acyclovir 400 mg twice daily, valacyclovir 500 mg once daily, valacyclovir 1 g once daily, famciclovir 250 mg twice daily",
+     "quote": "Acyclovir 400 mg orally 2 times/day ... Valacyclovir 500 mg orally once a day ... Valacyclovir 1 gm orally once a day ... Famciclovir 250 mg orally 2 times/day",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Valacyclovir 500 mg once daily might be less effective for people with 10 or more episodes a year",
+     "quote": "Valacyclovir 500 mg once a day might be less effective than other valacyclovir or acyclovir dosing regimens ... for persons who have frequent recurrences (i.e., ≥10 episodes/year).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Episodic regimens (acyclovir, valacyclovir): acyclovir 800 mg twice daily x5 d or three times daily x2 d; valacyclovir 500 mg twice daily x3 d or 1 g daily x5 d",
+     "quote": "Acyclovir 800 mg orally 2 times/day for 5 days ... Acyclovir 800 mg orally 3 times/day for 2 days ... Valacyclovir 500 mg orally 2 times/day for 3 days ... Valacyclovir 1 gm orally once daily for 5 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Episodic regimens (famciclovir): 1 g twice daily x1 d, 500 mg once then 250 mg twice daily x2 d, or 125 mg twice daily x5 d",
+     "quote": "Famciclovir 1 gm orally 2 times/day for 1 day ... Famciclovir 500 mg once, followed by 250 mg 2 times/day for 2 days ... Famciclovir 125 mg 2 times/day for 5 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Episodic therapy most effective within 1 day of lesion onset or during prodrome; start as soon as symptoms begin; antivirals at onset shorten outbreaks",
+     "quote": "Episodic treatment of recurrent herpes is most effective if therapy is initiated within 1 day of lesion onset or during the prodrome that precedes some outbreaks.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Patients should be given a supply of the drug or a prescription to start treatment immediately when symptoms begin",
+     "quote": "The patient should be provided with a supply of drug or a prescription for the medication",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC recommends suppressive therapy from 36 weeks for women with recurrent genital herpes: acyclovir 400 mg three times daily or valacyclovir 500 mg twice daily",
+     "quote": "Acyclovir 400 mg orally 3 times/day ... Valacyclovir 500 mg orally 2 times/day ... Treatment recommended starting at 36 weeks' gestation.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Acyclovir believed safe in all trimesters; valacyclovir prenatal data more limited",
+     "quote": "believed to be safe for use during all trimesters of pregnancy ... data regarding prenatal exposure to valacyclovir and famciclovir are limited",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Acyclovir is believed to be safe during breastfeeding",
+     "quote": "Acyclovir is also believed to be safe during breastfeeding.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "HIV daily suppression: acyclovir 400-800 mg 2-3 times daily, famciclovir 500 mg twice daily, valacyclovir 500 mg twice daily",
+     "quote": "Acyclovir 400–800 mg orally 2-3 times/day ... Famciclovir 500 mg orally 2 times/day ... Valacyclovir 500 mg orally 2 times/day",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "HIV episodic: acyclovir 400 mg three times daily, famciclovir 500 mg twice daily, valacyclovir 1 g twice daily, each 5 to 10 days",
+     "quote": "Acyclovir 400 mg orally 3 times/day for 5–10 days ... Famciclovir 500 mg orally 2 times/day for 5–10 days ... Valacyclovir 1 gm orally 2 times/day for 5–10 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cesarean delivery when recurrent lesions are present at the onset of labor (key takeaways)",
+     "quote": "women with recurrent genital herpetic lesions at the onset of labor should have a cesarean delivery",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "guideline",
+   "cited_as": "Workowski KA, Bachmann LH, Chan PA, et al. Sexually Transmitted Infections Treatment Guidelines, 2021. MMWR Recomm Rep. 2021;70(4):1-187. doi:10.15585/mmwr.rr7004a1",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8344968/",
+   "pmid": "34292926",
+   "pmcid": "PMC8344968",
+   "doi": "10.15585/mmwr.rr7004a1",
+   "record_title": "Sexually Transmitted Infections Treatment Guidelines, 2021.",
+   "record_journal": "MMWR Recomm Rep",
+   "record_year": "2021",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "MMWR Recomm Rep 2021;70(4):1-187, published July 23, 2021",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC full text, Genital Herpes section read in full)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Link changed from the MMWR web page to the PMC full text actually read. Citation corrected from 70(RR-4) to 70(4) per PubMed. The PMC text strips drug names from regimen boxes, so regimens are cited to ref 1.",
+   "claims": [
+    {
+     "text": "Recurrences become less frequent over time for many people",
+     "quote": "frequency of genital HSV-2 recurrence diminishes over time for many persons",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Majority of HSV-2 infections undiagnosed; most transmitted by people unaware of infection or asymptomatic at transmission",
+     "quote": "The majority of persons infected with HSV-2 have not had the condition diagnosed ... shed virus intermittently ... most genital herpes infections are transmitted by persons unaware that they have the infection or who are asymptomatic when transmission occurs.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recurrences and subclinical shedding much more frequent with genital HSV-2 than HSV-1",
+     "quote": "Recurrences and subclinical shedding are much more frequent for HSV-2 genital herpes infection than for HSV-1 genital herpes",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Genital HSV-1 recurrences less frequent; shedding decreases rapidly during the first year",
+     "quote": "Recurrences are less frequent after the first episode of HSV-1 genital herpes, compared with genital HSV-2 genital herpes, and genital shedding rapidly decreases during the first year of infection",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "No data on suppressive therapy for preventing HSV-1 transmission; HSV-1 suppression reserved for frequent recurrences by shared decision-making",
+     "quote": "No data are available regarding the efficacy of suppressive therapy for preventing transmission among persons with HSV-1 genital herpes infection ... suppressive therapy for HSV-1 genital herpes should be reserved for those with frequent recurrences through shared clinical decision-making",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "People with mild or infrequent outbreaks can benefit; options should be discussed with everyone",
+     "quote": "Certain persons, including those with mild or infrequent recurrent outbreaks, benefit from antiviral therapy; therefore, options for treatment should be discussed.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Daily suppressive therapy (not episodic) is the approach that also lowers the risk of transmitting HSV-2 to partners",
+     "quote": "Many persons prefer suppressive therapy, which has the additional advantage of decreasing the risk for transmitting HSV-2 genital herpes to susceptible partners",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "NAAT is the most sensitive test; culture sensitivity is low, especially for recurrent lesions, and declines as lesions heal",
+     "quote": "HSV NAAT assays are the most sensitive tests ... The sensitivity of viral culture is low, especially for recurrent lesions, and decreases rapidly as lesions begin to heal",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Appearance alone is unreliable; genital ulcers can be caused by syphilis, chancroid and other infections, and noninfectious causes such as trauma",
+     "quote": "Less common infectious causes of genital, anal, or perianal ulcers include chancroid ... (e.g., yeast, trauma, carcinoma ... A diagnosis based only on medical history and physical examination frequently can be inaccurate.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antibodies develop during the first weeks; repeat testing 12 weeks after suspected recent acquisition",
+     "quote": "Both type-specific and type-common antibodies to HSV develop during the first weeks after infection ... in cases of recent suspected HSV-2 acquisition, repeat type-specific antibody testing 12 weeks after the presumed time of acquisition is indicated",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC does not recommend HSV-2 serologic screening of the general population",
+     "quote": "HSV-2 serologic screening among the general population is not recommended.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Serology indications: recurrent or atypical symptoms with negative PCR or culture, clinical diagnosis without lab confirmation, partner has genital herpes",
+     "quote": "useful in the following scenarios: recurrent or atypical genital symptoms or lesions with a negative HSV PCR or culture result, clinical diagnosis of genital herpes without laboratory confirmation, and a patient’s partner has genital herpes",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Serology in pregnancy for a woman with no history whose partner has HSV; considered for persons with HIV at initial evaluation",
+     "quote": "such testing might be offered to a woman with no history of genital herpes whose sex partner has HSV infection ... HSV-2 type-specific serologic testing can be considered for persons with HIV infection during their initial evaluation",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "HerpeSelect often falsely positive at index 1.1 to 3.0; specificity 39.8% at 1.1 to 2.9; confirmatory Biokit or Western blot below 3.0",
+     "quote": "often is falsely positive at low index values (1.1–3.0) ... a specificity of 39.8% for index values of 1.1–2.9 ... particularly with low index values (<3.0), a confirmatory test (Biokit or Western blot) with a second method should be performed",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "New genital herpes can cause prolonged illness with severe ulcers and neurologic involvement; all first episodes should receive antiviral therapy",
+     "quote": "Newly acquired genital herpes can cause a prolonged clinical illness with severe genital ulcerations and neurologic involvement ... all patients with first episodes of genital herpes should receive antiviral therapy.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Valacyclovir better absorbed than acyclovir allowing less frequent dosing; famciclovir high oral bioavailability",
+     "quote": "Valacyclovir is the valine ester of acyclovir and has enhanced absorption after oral administration, allowing for less frequent dosing than acyclovir. Famciclovir also has high oral bioavailability.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "IV then oral to complete more than 10 days total; longer for CNS complications",
+     "quote": "IV therapy should be considered until clinical improvement followed by oral antiviral therapy to complete >10 days of total therapy. Longer duration is recommended for CNS complications.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Suppression reduces recurrences 70-80% with frequent recurrences; often no outbreaks; also effective with less frequent recurrences",
+     "quote": "Suppressive therapy reduces frequency of genital herpes recurrences by 70%–80% among patients who have frequent recurrences ... Persons receiving such therapy often report having experienced no symptomatic outbreaks. Suppressive therapy also is effective for patients with less frequent recurrences.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Discuss annually; no discontinuation or lab monitoring needed because adverse events and resistance uncommon",
+     "quote": "Providers should discuss with patients on an annual basis whether they want to continue suppressive therapy ... neither treatment discontinuation nor laboratory monitoring is necessary because adverse events and development of HSV antiviral resistance related to long-term antiviral use are uncommon",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Famciclovir appears somewhat less effective for suppressing viral shedding",
+     "quote": "Famciclovir appears somewhat less effective for suppression of viral shedding",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Acyclovir 400 mg three times daily for 5 days (episodic) effective but not recommended",
+     "quote": "Acyclovir 400 mg orally 3 times/day for 5 days is also effective but is not recommended because of frequency of dosing.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prodrome: pain or burning at the site before a lesion appears",
+     "quote": "prodromal symptoms (e.g., pain or burning at site before appearance of lesion)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Discordant couples encouraged to consider suppressive therapy in addition to consistent condom use and avoiding sex during recurrences (also the combined-strategy table row)",
+     "quote": "Such couples should be encouraged to consider suppressive antiviral therapy as part of a strategy for preventing transmission, in addition to consistent condom use and avoidance of sexual activity during recurrences.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Shedding most frequent in the first 12 months after acquiring HSV-2",
+     "quote": "asymptomatic viral shedding is most frequent during the first 12 months after acquiring HSV-2",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Condoms used consistently and correctly reduce but do not eliminate transmission risk",
+     "quote": "The effectiveness of male latex condoms, which when used consistently and correctly can reduce, but not eliminate, the risk for genital herpes transmission",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Abstain with uninfected partners when lesions or prodromal symptoms present (CDC counseling recommendation)",
+     "quote": "The importance of abstaining from sexual activity with uninfected partners when lesions or prodromal symptoms are present.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Inform current partners and future partners before a sexual relationship",
+     "quote": "The importance of informing current sex partners about genital herpes and informing future partners before initiating a sexual relationship.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Asymptomatic partners asked about symptoms and offered type-specific HSV-2 serology",
+     "quote": "Asymptomatic sex partners of patients who have symptomatic genital herpes should be asked about a history of genital symptoms and offered type-specific serologic testing for HSV-2.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "No PEP or PrEP with antivirals for uninfected partners; should not be offered",
+     "quote": "For partners without genital herpes, no data are available on which to base a recommendation for PEP or PrEP with antiviral medications or that they would prevent acquisition, and this should not be offered to patients as a prevention strategy.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "All persons with genital herpes should be tested for HIV; HSV-2 increases HIV acquisition risk twofold to threefold",
+     "quote": "HSV-2 genital herpes infection increases the risk for acquiring HIV twofold to threefold; therefore, all persons with genital herpes should be tested for HIV",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Neonatal transmission 30% to 50% when acquired near delivery; under 1% with prenatal history of recurrent herpes or acquisition in first half of pregnancy",
+     "quote": "high (30%–50%) among women who acquire genital herpes near the time of delivery and low (<1%) among women with prenatal histories of recurrent herpes or who acquire genital herpes during the first half of pregnancy",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Suppression from 36 weeks reduces cesarean by reducing recurrences at term; might not prevent neonatal transmission in all cases",
+     "quote": "Suppressive acyclovir treatment starting at 36 weeks’ gestation reduces the frequency of cesarean delivery ... by diminishing the frequency of recurrences at term ... such treatment might not protect against transmission to neonates in all cases",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Acyclovir believed safe in all trimesters; valacyclovir prenatal data limited, animal data indicate low risk",
+     "quote": "believed to be safe for use during all trimesters of pregnancy ... data regarding prenatal exposure to valacyclovir and famciclovir are limited, data from animal trials indicate that these drugs also pose a low risk among pregnant women",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cesarean for recurrent lesions at onset of labor, does not eliminate risk; vaginal delivery without symptoms or prodrome",
+     "quote": "Women without symptoms or signs of genital herpes or its prodrome can deliver vaginally. Although cesarean delivery does not eliminate the risk ... women with recurrent genital herpetic lesions at the onset of labor should have a cesarean delivery",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Acquisition in second half of pregnancy managed with maternal-fetal medicine and infectious disease specialists (pregnancy section and red flag)",
+     "quote": "Women who acquire HSV in the second half of pregnancy should be managed in consultation with maternal-fetal medicine and infectious disease specialists.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "HSV hepatitis in pregnancy: fever, markedly elevated transaminases, may have no lesions; IV acyclovir",
+     "quote": "Pregnant women in any trimester can present with fever and hepatitis (markedly elevated transaminases) but might not have any genital or skin lesions ... empiric IV acyclovir should be initiated pending confirmation",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Routine HSV-2 serologic screening of pregnant women not recommended",
+     "quote": "Routine HSV-2 serologic screening of pregnant women is not recommended.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "HSV lesions common, possibly severe, painful, atypical in HIV; shedding increased",
+     "quote": "Lesions caused by HSV are common among persons with HIV infection and might be severe, painful, and atypical (). HSV shedding is increased among persons with HIV infection",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "HIV first-episode treatment same, courses might need extending",
+     "quote": "Recommended therapy for first-episode genital herpes is the same as for persons without HIV infection, although treatment courses might need to be extended for lesion resolution.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "GUD risk rises in first 6 months after ART, especially CD4 below 200; suppression reduces it and can be continued 6 months",
+     "quote": "The risk for GUD increases during the first 6 months after starting ART, especially among persons who have a CD4T-cell count <200 cell/mm. Suppressive antiviral therapy reduces the risk for GUD ... can be continued for 6 months",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "In HIV/HSV, suppression does not reduce HIV or HSV-2 transmission and does not delay HIV progression on ART",
+     "quote": "Suppressive antiviral therapy among persons with HIV and HSV infection does not reduce the risk for either HIV transmission or HSV-2 transmission to susceptible sex partners (,). Suppressive antiviral therapy does not delay HIV disease progression",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Red flag: headache, light sensitivity, fever, stiff neck suggest HSV meningitis needing IV acyclovir",
+     "quote": "HSV-2 meningitis is characterized clinically by signs of headache, photophobia, fever, meningismus ... acyclovir 5–10 mg/kg body weight IV every 8 hours until clinical improvement is observed",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Red flag: lesions persisting or recurring on treatment suggest acyclovir resistance; specialist care",
+     "quote": "If lesions persist or recur in a patient receiving antiviral treatment, acyclovir resistance should be suspected ... Such persons should be managed in consultation with an infectious disease specialist",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Red flag: babies with neonatal herpes need prompt evaluation and IV acyclovir",
+     "quote": "All newborn infants who have neonatal herpes should be promptly evaluated and treated with systemic acyclovir. The recommended regimen ... is acyclovir 20 mg/kg body weight IV every 8 hours",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Red flag: disseminated herpes (hepatitis, pneumonitis) requires hospital care and IV acyclovir",
+     "quote": "should be provided for patients who have severe HSV disease or complications that necessitate hospitalization (e.g., disseminated infection, pneumonitis, or hepatitis)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "FAQ: antivirals do not eradicate latent virus",
+     "quote": "these drugs neither eradicate latent virus nor affect the risk, frequency, or severity of recurrences after the drug is discontinued",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "Martin ET, Krantz E, Gottlieb SL, et al. A pooled analysis of the effect of condoms in preventing HSV-2 acquisition. Arch Intern Med. 2009;169(13):1233-40. doi:10.1001/archinternmed.2009.177",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2860381/",
+   "pmid": "19597073",
+   "pmcid": "PMC2860381",
+   "doi": "10.1001/archinternmed.2009.177",
+   "record_title": "A pooled analysis of the effect of condoms in preventing HSV-2 acquisition.",
+   "record_journal": "Arch Intern Med",
+   "record_year": "2009",
+   "article_type": "Comparative Study; Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Wald 2005 (Ann Intern Med) removed from this reference: no claim on the page relied on it and the table wrongly credited Wald 2005 with the n=5384 pooled analysis. Scite flagged one contrasting citation (10.1136/sti.2010.047142, a diaphragm trial); the page says condoms give moderate, not complete, protection.",
+   "claims": [
+    {
+     "text": "Consistent condom users had 30% lower HSV-2 acquisition than never-users (HR 0.70); pooled analysis of 5384 people",
+     "quote": "A total of 5384 HSV-2-negative people at baseline ... Consistent condom users (used 100% of the time) had a 30% lower risk of HSV-2 acquisition compared with those who never used condoms (hazard ratio [HR], 0.70",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Protection not as large as other STIs but moderate for men and women",
+     "quote": "Although the magnitude of protection was not as large as has been observed with other STIs, we found that condoms offer moderate protection against HSV-2 acquisition in men and women.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Corey L, Wald A, Patel R, et al. Once-daily valacyclovir to reduce the risk of transmission of genital herpes. N Engl J Med. 2004;350(1):11-20. doi:10.1056/NEJMoa035144",
+   "url": "https://doi.org/10.1056/NEJMoa035144",
+   "pmid": "14702423",
+   "doi": "10.1056/NEJMoa035144",
+   "record_title": "Once-daily valacyclovir to reduce the risk of transmission of genital herpes.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2004",
+   "article_type": "Randomized Controlled Trial; Multicenter Study; Clinical Trial",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Link changed from the BMJ 2005 discussion piece (PMC544977) to the trial record itself. Abstract only: the '141 couples using both with no transmission' detail is not in the abstract and was cut.",
+   "claims": [
+    {
+     "text": "1484 couples; acquisition 1.9% vs 3.6% (HR 0.52), roughly half; symptomatic 4/743 vs 16/741 (HR 0.25)",
+     "quote": "Clinically symptomatic HSV-2 infection developed in 4 of 743 ... as compared with 16 of 741 ... (hazard ratio, 0.25 ... acquisition of HSV-2 ... (1.9 percent), as compared with 27 (3.6 percent) ... (hazard ratio, 0.52",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Trial enrolled 1484 discordant heterosexual couples; valacyclovir 500 mg once daily in infected partner",
+     "quote": "We followed 1484 immunocompetent, heterosexual, monogamous couples ... randomly assigned to receive either 500 mg of valacyclovir once daily or placebo",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "HSV DNA on 2.9% of days with valacyclovir vs 10.8% with placebo",
+     "quote": "HSV DNA was detected in samples of genital secretions on 2.9 percent of the days among the HSV-2-infected (source) partners who received valacyclovir, as compared with 10.8 percent of the days among those who received placebo",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Daily valacyclovir 500 mg shown to reduce transmission in discordant couples (table, FAQ)",
+     "quote": "Once-daily suppressive therapy with valacyclovir significantly reduces the risk of transmission of genital herpes among heterosexual, HSV-2-discordant couples.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "guideline",
+   "cited_as": "Patel R, Moran B, Clarke E, et al. 2024 European guidelines for the management of genital herpes. J Eur Acad Dermatol Venereol. 39(4):742-758. Published online December 2, 2024. doi:10.1111/jdv.20450",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11934026/",
+   "pmid": "39620271",
+   "pmcid": "PMC11934026",
+   "doi": "10.1111/jdv.20450",
+   "record_title": "2024 European guidelines for the management of genital herpes.",
+   "record_journal": "J Eur Acad Dermatol Venereol",
+   "record_year": "2024",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "2024 guideline; published online December 2, 2024; 39(4):742-758; proposed review 2029",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC full text)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Authors added (Patel R et al.; previously credited only to 'European Academy of Dermatology and Venereology'). Regimen tables in the PMC text are images and were not read; no dose is cited to this source.",
+   "claims": [
+    {
+     "text": "Virus becomes latent in the sensory ganglion",
+     "quote": "Following infection, the virus becomes latent in the local sensory ganglion",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most people on suppressive therapy still have an occasional recurrence",
+     "quote": "the majority of patients on such a regimen will still experience an occasional symptomatic recurrence",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Genital HSV-1 can be acquired through receptive oral sex",
+     "quote": "Pregnant women should be advised of the risk of acquiring HSV‐1 as a result of receptive orogenital contact",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Swab from the lesion base; early testing more likely to detect virus",
+     "quote": "swabs should be taken from the base of the lesion (vesicles should be unroofed with a needle or scalpel blade) (1, A).Viral detection in early disease (for both first episodes and recurrences) are much more likely to be successful",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "First episode: systemic symptoms, local adenitis; presentation depends on prior infection; urinary retention or meningism can require hospitalization",
+     "quote": "there may be systemic symptoms ... the actual clinical presentation may depend upon previous HSV‐1 or HSV‐2 infection ... Hospitalization may be required for urinary retention, meningism, severe constitutional symptoms",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Start first-episode therapy at earliest opportunity on clinical suspicion alone",
+     "quote": "Therapy can be highly effective and should be instigated at the earliest opportunity and on clinical suspicion alone (1,A).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Stopping allows reassessment; many find little change; safe to restart",
+     "quote": "Discontinuation of therapy at this time, if the patient is willing, will allow a reassessment of recurrence frequency ... It is safe and reasonable to restart treatment",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Many patients find no significant change after discontinuation",
+     "quote": "many patients do not find a significant alteration in disease frequency or severity upon discontinuation and reassessment",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "No fixed threshold: early trials in about 6 or more recurrences a year; benefit across spectrum; decision balances frequency, impact, transmission",
+     "quote": "The majority of early trials of suppressive therapy were done in patients with a recurrence rate equivalent to ≥6 recurrences/annum ... patients across all spectrums of disease will benefit ... needs to balance the frequency of recurrence, the impact of disease",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Episodic therapy shortens outbreaks by a median of 1 to 2 days",
+     "quote": "The reduction in duration is a median of 1–2 days (1, A).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "No advantage of 5-day courses over ultra-short courses",
+     "quote": "Head‐to‐head studies of their effects show no advantage of one therapy over another or the advantage of extended 5‐day treatment over ultra‐short therapy.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Transmission risk greatest during recurrences or prodrome; can occur without lesions via subclinical shedding (text and table row)",
+     "quote": "Risk of transmission appears to be greatest during lesional recurrences or prodrome ... Transmission can occur in the absence of lesional recurrence as a result of sub‐clinical viral shedding.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Disclosure advice practical and tailored; frank about subclinical shedding and limited impact of condoms and antivirals",
+     "quote": "Advice on disclosure should be practical and tailored to the patient's personal situation ... It is important to be frank about transmission risks including subclinical shedding and the limited impact of condoms and antivirals.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Distress common, persists, may be reduced by antivirals; depression; withdrawal from relationships for fear of disclosure",
+     "quote": "High distress at diagnosis is common, often persists with recurrences and may be reduced by antivirals ... can develop symptoms of depression ... Fear of disclosure may be an important contributor to withdrawal from intimate relationships",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Suppression from 36 weeks should be offered to all women with a history of genital herpes",
+     "quote": "Daily suppressive aciclovir 400 mg three times a day from 36 weeks gestation should therefore be offered to all women with a history of genital herpes (1, A).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Third-trimester first episode: cesarean considered, particularly symptoms within 6 weeks of delivery, high shedding risk",
+     "quote": "Caesarean section should be considered for all women, particularly those developing symptoms within 6 weeks of delivery, as the risk of viral shedding in labour is very high (1, A).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "First or second trimester first episode managed per clinical condition with oral or IV acyclovir; vaginal delivery anticipated",
+     "quote": "Management of the woman should be in line with her clinical condition and will often involve the use of either oral or intravenous aciclovir ... Providing that delivery does not ensue ... vaginal delivery anticipated",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sequential PCR in late pregnancy to predict shedding not indicated",
+     "quote": "Sequential PCR during late gestation to predict viral shedding at term is not indicated.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Herpes activates HIV replication and may facilitate HIV transmission",
+     "quote": "Herpes simplex infections activate HIV replication and may facilitate onward HIV transmission to sexual partners.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Suppressive therapy has no impact on HIV acquisition or transmission risk",
+     "quote": "Suppressive antiviral therapy with currently available agents has been shown in multiple studies to have no impact on HIV acquisition or transmission risk.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recurrences self-limiting with minor symptoms; antivirals shorten them",
+     "quote": "Genital herpes recurrences are self‐limiting and generally cause minor symptoms ... Oral aciclovir, valaciclovir and famciclovir are effective at reducing the duration and severity of recurrent genital herpes.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Disseminated disease in immunocompromised: fulminant hepatitis, pneumonia, multifocal mucocutaneous lesions",
+     "quote": "progressive, multifocal, and coalescing mucocutaneous anogenital lesions. Moreover, serious complications such as meningitis, and potentially life‐threatening systemic complications such as fulminant hepatitis, pneumonia, neurological disease and disseminated infection, have been reported.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Red flag: urinary retention can need hospital care",
+     "quote": "Hospitalization may be required for urinary retention, meningism, severe constitutional symptoms or adverse social circumstances.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Phipps W, Saracino M, Magaret A, et al. Persistent genital herpes simplex virus-2 shedding years following the first clinical episode. J Infect Dis. 2011;203(2):180-7. doi:10.1093/infdis/jiq035",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21288817/",
+   "pmid": "21288817",
+   "pmcid": "PMC3058740",
+   "doi": "10.1093/infdis/jiq035",
+   "record_title": "Persistent genital herpes simplex virus-2 shedding years following the first clinical episode.",
+   "record_journal": "J Infect Dis",
+   "record_year": "2011",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New primary source replacing the UW Medicine newsroom release (old ref 6), which reported these HSV-2 shedding figures second-hand. PubMed lists electronic publication December 9, 2010; Scite lists 2011 (volume 203, 2011). Corrects the page: 33.6% is total shedding; shedding without symptoms was 26.2%.",
+   "claims": [
+    {
+     "text": "377 adults; shedding 33.6% of days <1 year, 16.7% at 10+ years; subclinical 26.2% and 9.3%",
+     "quote": "377 healthy adults ... Total HSV shedding occurred on 33.6% of days in participants <1 year ... 16.7% in those ≥10 years ... Subclinical HSV shedding occurred on 26.2% of days among participants <1 year ... 9.3% in those ≥10 years",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Andreu S, Galdo-Torres D, Ripa I, et al. From HSV-2 to HSV-1: A change in the epidemiology of genital herpes. J Infect. 2025;91(5):106636. doi:10.1016/j.jinf.2025.106636",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41115532/",
+   "pmid": "41115532",
+   "doi": "10.1016/j.jinf.2025.106636",
+   "record_title": "From HSV-2 to HSV-1: A change in the epidemiology of genital herpes.",
+   "record_journal": "J Infect",
+   "record_year": "2025",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Authors corrected (was 'Sciencedirect'); link changed to the PubMed record that was read. The 15.9% vs 8.2% figures it repeats are now cited to the primary NCHS source (ref 9).",
+   "claims": [
+    {
+     "text": "Genital HSV-1 increasing; attributed mainly to falling HSV-1 seroprevalence, less childhood exposure, changing sexual practices",
+     "quote": "there has been an increase in genital infections caused by herpes simplex virus type 1 (HSV-1) ... This epidemiological shift may be mainly due to the decline in HSV-1 seroprevalence, decreased childhood exposure to the virus, and changes in sexual practices.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "agency_page",
+   "cited_as": "World Health Organization. Over 1 in 5 adults worldwide has a genital herpes infection. News release, December 11, 2024. Accessed November 15, 2026.",
+   "url": "https://www.who.int/news/item/11-12-2024-over-1-in-5-adults-worldwide-has-a-genital-herpes-infection-who",
+   "version_or_date": "News release, 11 December 2024",
+   "retrieved_with": "WebFetch of official page (three passes)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Around 846 million aged 15 to 49 living with genital herpes; more than 1 in 5",
+     "quote": "Over 1 in 5 adults worldwide has a genital herpes infection ... Around 846 million people aged between 15 and 49 are living with genital herpes infections",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "520 million genital HSV-2 and 376 million genital HSV-1 in 2020; 50 million both; HSV-2 transmitted during sexual activity",
+     "quote": "520 million people in 2020 had genital HSV-2, which is transmitted during sexual activity ... Some 376 million people are estimated to have had genital HSV-1 infections in 2020 ... Of these, 50 million are estimated also to have HSV-2",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "dataset",
+   "cited_as": "McQuillan G, Kruszon-Moran D, Flagg EW, Paulose-Ram R. Prevalence of Herpes Simplex Virus Type 1 and Type 2 in Persons Aged 14-49: United States, 2015-2016. NCHS Data Brief No. 304. National Center for Health Statistics; February 2018. Accessed November 15, 2026.",
+   "url": "https://www.cdc.gov/nchs/products/databriefs/db304.htm",
+   "pmid": "29442994",
+   "version_or_date": "NCHS Data Brief No. 304, February 2018 (NHANES 2015-2016)",
+   "retrieved_with": "WebFetch of official page (two passes)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New primary source for the sex-specific HSV-2 figures previously cited to a review (ref 7).",
+   "claims": [
+    {
+     "text": "Age-adjusted HSV-2 prevalence 15.9% females vs 8.2% males aged 14 to 49, 2015 to 2016",
+     "quote": "Age-adjusted prevalence was higher among females (15.9%) than males (8.2%).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Johnston C, Magaret A, Son H, et al. Viral shedding 1 year following first-episode genital HSV-1 infection. JAMA. 2022;328(17):1730-1739. doi:10.1001/jama.2022.19061",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36272098/",
+   "pmid": "36272098",
+   "pmcid": "PMC9588168",
+   "doi": "10.1001/jama.2022.19061",
+   "record_title": "Viral Shedding 1 Year Following First-Episode Genital HSV-1 Infection.",
+   "record_journal": "JAMA",
+   "record_year": "2022",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC returned abstract and key points only)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New primary source for genital HSV-1 shedding (the UW newsroom release summarized this study). Recurrence counts are not in the abstract, so no HSV-1 recurrence number is given on the page.",
+   "claims": [
+    {
+     "text": "82 people, Seattle cohort; genital HSV-1 shedding 12.1% of days at 2 months, 7.1% at 11 months; declined rapidly",
+     "quote": "clinics in Seattle, Washington ... Among the 82 participants ... Genital HSV-1 shedding was detected on 275 of 2264 days (12.1%) at 2 months and declined significantly to 122 of 1719 days (7.1%) at 11 months",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Genital HSV-1 shedding falls quickly in the first year (FAQ)",
+     "quote": "Genital HSV-1 shedding was frequent after first-episode genital HSV-1, particularly among those with primary infection, and declined rapidly during the first year after infection.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "journal",
+   "cited_as": "Benedetti J, Corey L, Ashley R. Recurrence rates in genital herpes after symptomatic first-episode infection. Ann Intern Med. 1994;121(11):847-54. doi:10.7326/0003-4819-121-11-199412010-00004",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7978697/",
+   "pmid": "7978697",
+   "doi": "10.7326/0003-4819-121-11-199412010-00004",
+   "record_title": "Recurrence rates in genital herpes after symptomatic first-episode infection.",
+   "record_journal": "Ann Intern Med",
+   "record_year": "1994",
+   "article_type": "Journal Article (prospective observational cohort)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source. Replaces the unsourced '4 to 5 recurrences per year' figure with the reported median monthly rate.",
+   "claims": [
+    {
+     "text": "89% had a recurrence; median 0.34 per month; 38% had at least 6 in year 1; 20% more than 10",
+     "quote": "Eighty-nine percent of patients with HSV-2 had at least one recurrence during follow-up ... the median monthly recurrence rate was 0.34. Thirty-eight percent had at least 6 recurrences during the first year and 20% had more than 10 recurrences.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Men about 20% more recurrences; may contribute to higher male-to-female transmission",
+     "quote": "Men with genital HSV-2 infection have about 20% more recurrences than do women, a factor that may contribute to the higher rate of HSV-2 transmission from men to women than from women to men",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "journal",
+   "cited_as": "Hollier LM, Wendel GD. Third trimester antiviral prophylaxis for preventing maternal genital herpes simplex virus (HSV) recurrences and neonatal infection. Cochrane Database Syst Rev. 2008;(1):CD004946. doi:10.1002/14651858.CD004946.pub2",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18254066/",
+   "pmid": "18254066",
+   "doi": "10.1002/14651858.CD004946.pub2",
+   "record_title": "Third trimester antiviral prophylaxis for preventing maternal genital herpes simplex virus (HSV) recurrences and neonatal infection.",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2008",
+   "article_type": "Systematic Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New reference for the previously uncited Cochrane paragraph. The abstract gives relative risks only; the percentages on the old page (15% vs 3.8%, 14% vs 3.8%, 6.3% vs 0.4%) were not retrieved and were cut.",
+   "claims": [
+    {
+     "text": "Seven RCTs, 1249 participants; RR 0.28 recurrence at delivery, 0.30 cesarean for herpes, 0.14 HSV detected at delivery",
+     "quote": "Seven randomized controlled trials (1249 participants) ... (relative risk (RR) 0.28 ... cesarean delivery for genital herpes (RR 0.30 ... HSV detected at delivery (RR 0.14",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Effect on neonatal herpes could not be estimated; discuss risks, benefits, alternatives",
+     "quote": "The effect of antepartum antiviral prophylaxis on neonatal herpes could not be estimated ... The risks, benefits, and alternatives to antenatal prophylaxis should be discussed with women who have a history",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "guideline",
+   "cited_as": "US Preventive Services Task Force; Mangione CM, Barry MJ, Nicholson WK, et al. Serologic Screening for Genital Herpes Infection: US Preventive Services Task Force Reaffirmation Recommendation Statement. JAMA. 2023;329(6):502-507. doi:10.1001/jama.2023.0057",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36786784/",
+   "pmid": "36786784",
+   "doi": "10.1001/jama.2023.0057",
+   "record_title": "Serologic Screening for Genital Herpes Infection: US Preventive Services Task Force Reaffirmation Recommendation Statement.",
+   "record_journal": "JAMA",
+   "record_year": "2023",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "Reaffirmation recommendation statement, February 14, 2023 (USPSTF page also read: D recommendation, released February 14, 2023)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of USPSTF recommendation page; Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "USPSTF recommends against routine serologic screening in asymptomatic adolescents and adults including pregnant persons (D); harms outweigh benefits, moderate certainty",
+     "quote": "The USPSTF concludes with moderate certainty that the harms outweigh the benefits ... The USPSTF recommends against routine serologic screening for genital HSV infection in asymptomatic adolescents and adults, including pregnant persons. (D recommendation).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cesarean delivery can reduce transmission when genital lesions or prodromal symptoms are present",
+     "quote": "when genital lesions or prodromal symptoms are present, cesarean delivery can reduce the risk of transmission",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "label",
+   "cited_as": "DailyMed, U.S. National Library of Medicine. VALTREX (valacyclovir hydrochloride) tablet, film coated: prescribing information. GlaxoSmithKline LLC. Updated November 12, 2025. Accessed November 15, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f8e0d8f8-cb73-4206-a484-88f5c4fbd719",
+   "version_or_date": "VALTREX label, Updated November 12, 2025 (GlaxoSmithKline LLC; setid f8e0d8f8-cb73-4206-a484-88f5c4fbd719)",
+   "retrieved_with": "WebFetch of DailyMed label page (two passes)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Suppressive 1 g once daily; 500 mg once daily alternative for 9 or fewer recurrences a year",
+     "quote": "is 1 gram once daily in patients with normal immune function. ... In patients with a history of 9 or fewer recurrences per year, an alternative dose is 500 mg once daily.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Benefit not established when treatment of a recurrence starts more than 24 hours after onset",
+     "quote": "when initiated more than 24 hours after the onset of signs and symptoms has not been established.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Decades of clinical data have not identified a drug-associated risk of major birth defects",
+     "quote": "Clinical data over several decades with valacyclovir and its metabolite, acyclovir, in pregnant women, have not identified a drug associated risk of major birth defects.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Acyclovir, the metabolite, is present in human milk",
+     "quote": "its metabolite, acyclovir, is present in human milk following oral administration of valacyclovir.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "agency_page",
+   "cited_as": "National Health Service (NHS). Neonatal herpes. Page last reviewed July 24, 2025. Accessed November 15, 2026.",
+   "url": "https://www.nhs.uk/conditions/neonatal-herpes/",
+   "version_or_date": "Page last reviewed: 24 July 2025",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source for the newborn red flag (UK service; the page says to call 999, the UK emergency number). US readers are told to get emergency care.",
+   "claims": [
+    {
+     "text": "Herpes can be very serious for a young baby",
+     "quote": "Herpes can be very serious for a young baby, whose immune system might not have fully developed to fight off the virus.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Unwell newborn (fever, poor feeding, sores on skin, eyes, mouth; lethargy, floppiness) needs care straight away; emergency (999) for lethargy or floppiness",
+     "quote": "Call a GP or NHS 111 straight away if your baby: ... has a high temperature (fever) of 38C or more ... Call 999 immediately if your baby: is lacking in energy (lethargic and listless) ... is becoming floppy",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "agency_page",
+   "cited_as": "National Health Service (NHS). Herpes simplex eye infections. Page last reviewed September 10, 2026. Accessed November 15, 2026.",
+   "url": "https://www.nhs.uk/conditions/herpes-simplex-eye-infections/",
+   "version_or_date": "Page last reviewed: 10 September 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New source for the eye red flag.",
+   "claims": [
+    {
+     "text": "Herpes eye infection can affect sight; eye pain or vision changes need urgent assessment; red eye that hurts to look at light needs emergency care",
+     "quote": "it can sometimes affect your sight ... you have eye pain ... you have any changes to your eyesight ... Call 999 or go to A&E if: You have a red eye and: it hurts to look at light",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

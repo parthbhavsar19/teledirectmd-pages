@@ -1,0 +1,279 @@
+{
+  "stateCode": "MD",
+  "stateName": "Maryland",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-11-21",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "sourcingNote": "Every fact maps to a primary source retrieved Nov 20-21, 2026; evidence and verification reports are kept outside the repo (seo-dashboard/state-content)."
+  },
+  "voiceProfile": {
+    "density": "urban",
+    "regulation": "standard",
+    "payerLandscape": "single-payer",
+    "epidemiology": [
+      "sti-baltimore-city-high",
+      "lyme-most-common-tickborne",
+      "rabies-raccoon-cat",
+      "flu-h3-2025-26"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "northeast",
+    "voiceNotes": "Efficient and specific, for busy commuters between Baltimore, the Washington suburbs and the Eastern Shore. Maryland's telehealth statute spells out what a video visit must include (a clinical evaluation fit to the condition), so lean on that clarity. Curative is the only in-network plan; say so plainly and lead with the $79 option."
+  },
+  "stateHero": {
+    "openingParagraph": "Parth Bhavsar, MD, a board-certified family medicine physician licensed in Maryland, sees adults by video while they are physically in Maryland. State law spells out the rules for that kind of care: Health Occupations Article 1-1003 holds telehealth to the same standards of practice as an in-person setting and requires a clinical evaluation suited to your condition before any treatment or prescription, which a real-time video visit can provide. The fee is a flat $79 at booking, HSA and FSA cards accepted, and Curative members can use their plan. Prescriptions, when appropriate, go electronically to the pharmacy you choose in Baltimore, Columbia, Silver Spring, Frederick, Waldorf or anywhere else in the state.",
+    "stateContextHint": "Licensed in Maryland. Video visits for adults located in Maryland, $79 flat or through Curative plans.",
+    "saturation": {
+      "stateNameMentions": 4,
+      "stateEntityMentions": 6
+    }
+  },
+  "stateEligibility": {
+    "intro": "To book, you need to be 18 or older and physically in Maryland when the video visit begins. Maryland defines telehealth as care delivered to a patient at a different physical location than the practitioner, by real-time or store-and-forward exchange (Health Occupations 1-1001), and the definition leaves out care given solely by audio-only calls, e-mail or fax. TeleDirectMD visits are live video for that reason. Before treating or prescribing, the physician must complete a clinical evaluation appropriate to you and your condition (Health Occupations 1-1003), and when that evaluation points to in-person care, the law expects a referral.",
+    "localTriggers": [
+      "Your location during the visit decides eligibility. A Montgomery County resident who logs in from an office across the line in Washington, D.C. or Virginia is not in Maryland for that visit.",
+      "Maryland's telehealth definition excludes care given solely by audio-only call, e-mail or fax, so plan on a working camera.",
+      "Adults 18 and older only."
+    ]
+  },
+  "statePricing": {
+    "context": "Most Maryland patients pay the flat $79 visit fee at booking, with HSA and FSA cards accepted. TeleDirectMD's one in-network Maryland plan is Curative (commercial PPO, EPO and self-funded employer plans); Curative members can book through their plan, and their plan's terms apply. Census figures put 7.9 percent of Marylanders under 65 without health insurance. Maryland Health Connection is the state's official health insurance marketplace and, in its own words, the only place to get financial help with a plan. Maryland Medicaid, also called Medical Assistance, covers about 1.5 million people; TeleDirectMD does not accept Medicaid.",
+    "additionalNotes": [
+      "$79 flat self-pay, paid at booking.",
+      "In-network in Maryland: Curative only.",
+      "HSA and FSA cards accepted.",
+      "Medicaid (Medical Assistance) is not accepted."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "TeleDirectMD sends every Maryland prescription electronically to the pharmacy you name. Maryland separately requires prescriptions for controlled dangerous substances to be issued electronically (Health-General 21-220, in force since January 1, 2022, according to the Board of Pharmacy), and Health Occupations 1-1003 places limits on prescribing Schedule II opiates for pain by telehealth. Neither applies to TeleDirectMD visits, because TeleDirectMD does not prescribe controlled substances. In Maryland, a trained pharmacist may also prescribe and dispense FDA-approved contraceptives after a self-screening (Health Occupations 12-511), so a pharmacy can be a second route for birth control.",
+    "pharmacyChains": []
+  },
+  "stateEpidemiology": {
+    "generalOnHubOnly": true,
+    "general": "The Maryland Department of Health's 2024 STI profile counted 30,744 chlamydia diagnoses (490.9 per 100,000), down 14.2 percent from 2023, and 11,001 gonorrhea diagnoses, with Baltimore City residents carrying the highest rates of both. The 2025 to 2026 flu season was driven mainly by influenza A/H3, with 5,933 influenza-associated hospitalizations and a peak of 1,095 in late December. Lyme disease is the most common tickborne disease in the state, and rabies circulates in raccoons, foxes, skunks and bats, with cats the most frequently identified rabid domestic animal. This context is for awareness only and is not a substitute for an individual evaluation.",
+    "citations": [
+      {
+        "label": "Maryland Health Occupations Article 1-1001 (telehealth definitions)",
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gho&section=1-1001&enactments=false",
+        "scope": "all"
+      },
+      {
+        "label": "Maryland Health Occupations Article 1-1003 (telehealth standards and clinical evaluation)",
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gho&section=1-1003&enactments=false",
+        "scope": "all"
+      },
+      {
+        "label": "Maryland Health-General Article 21-220 (electronic prescriptions for controlled dangerous substances)",
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=21-220&enactments=false",
+        "scope": "all"
+      },
+      {
+        "label": "Maryland Board of Pharmacy, Electronic Prescribing of Controlled Substances",
+        "url": "https://health.maryland.gov/pharmacy/Pages/Electronic-Prescribing-of-Controlled-Subtances.aspx",
+        "scope": "all"
+      },
+      {
+        "label": "Maryland Health Occupations Article 14-201 (State Board of Physicians)",
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gho&section=14-201&enactments=false",
+        "scope": "all"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, Maryland (Vintage 2025 estimates)",
+        "url": "https://www.census.gov/quickfacts/fact/table/LA,MD,ME,MI,MN,MO/PST045225",
+        "scope": "hub"
+      },
+      {
+        "label": "Maryland Health Connection",
+        "url": "https://www.marylandhealthconnection.gov/",
+        "scope": "hub"
+      },
+      {
+        "label": "Maryland Department of Health, Medicaid",
+        "url": "https://health.maryland.gov/mmcp/Pages/home.aspx",
+        "scope": "hub"
+      },
+      {
+        "label": "Maryland Department of Health, Maryland Annual STI Epidemiological Profile 2024",
+        "url": "https://health.maryland.gov/phpa/IDPHSB/Documents/Maryland-Annual-STI-Epidemiological-Profile-2024.pdf",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "trichomoniasis-treatment-online"
+        ]
+      },
+      {
+        "label": "Maryland Health-General Article 18-214.1 (expedited partner therapy)",
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=18-214.1&enactments=false",
+        "conditions": [
+          "chlamydia-treatment-online",
+          "trichomoniasis-treatment-online",
+          "bv-treatment-online"
+        ]
+      },
+      {
+        "label": "Maryland General Assembly, 2026 Chapter 194 (HB 422), expedited partner therapy for bacterial vaginosis",
+        "url": "https://mgaleg.maryland.gov/2026RS/Chapters_noln/CH_194_hb0422t.pdf",
+        "conditions": [
+          "bv-treatment-online"
+        ]
+      },
+      {
+        "label": "Maryland Health Occupations Article 12-511 (pharmacists prescribing contraceptives)",
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gho&section=12-511&enactments=false",
+        "conditions": [
+          "birth-control-refills-online"
+        ]
+      },
+      {
+        "label": "Maryland Department of Health, Lyme Disease",
+        "url": "https://health.maryland.gov/phpa/OIDEOR/CZVBD/Pages/Lyme-Disease.aspx",
+        "conditions": [
+          "tick-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Maryland Department of Health, Rabies",
+        "url": "https://health.maryland.gov/phpa/OIDEOR/CZVBD/Pages/Rabies.aspx",
+        "conditions": [
+          "dog-bite-treatment-online",
+          "cat-bite-treatment-online"
+        ]
+      },
+      {
+        "label": "Maryland Department of Health, Annual Maryland Influenza Season Summary: 2025-2026",
+        "url": "https://health.maryland.gov/phpa/influenza/fluwatch/Past%20Flu%20Season%20Summaries/2025-2026%20Influenza%20Summary_FINAL.pdf",
+        "conditions": [
+          "influenza-treatment-online"
+        ]
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds a Maryland medical license from the Maryland Board of Physicians, which Health Occupations Article 14-201 establishes as the State Board of Physicians within the Maryland Department of Health. Telehealth care in Maryland is governed by Health Occupations Article, Title 1, Subtitle 10 (sections 1-1001 and 1-1003), which holds video care to in-person standards of practice. The board's online license lookup lets anyone confirm the license. NPI: 1104323203.",
+    "verifyUrl": "https://www.mbp.state.md.us/bpqapp/",
+    "statuteCitation": "Maryland Health Occupations Article 1-1001 and 1-1003 (telehealth); Health-General Article 21-220 (electronic prescriptions for controlled dangerous substances); Health Occupations Article 14-201 (State Board of Physicians)",
+    "licenseNumber": "D0106008",
+    "boardName": "Maryland Board of Physicians",
+    "boardUrl": "https://www.mbp.state.md.us/"
+  },
+  "stateCities": {
+    "metroAndRural": "Maryland packs 6,265,347 residents (U.S. Census Bureau, July 1, 2025 estimate) into a small state, 636.1 people per square mile in 2020. TeleDirectMD sees adults located anywhere within its borders: Baltimore, Towson and Dundalk; Columbia and Ellicott City in Howard County; Glen Burnie; the Montgomery County suburbs of Rockville, Bethesda, Silver Spring and Germantown; Frederick to the west; and Waldorf in Southern Maryland. The physician and the $79 fee are the same in every one of them.",
+    "cityList": [
+      {
+        "city": "Baltimore"
+      },
+      {
+        "city": "Columbia"
+      },
+      {
+        "city": "Germantown"
+      },
+      {
+        "city": "Silver Spring"
+      },
+      {
+        "city": "Waldorf"
+      },
+      {
+        "city": "Frederick"
+      },
+      {
+        "city": "Ellicott City"
+      },
+      {
+        "city": "Glen Burnie"
+      },
+      {
+        "city": "Rockville"
+      },
+      {
+        "city": "Bethesda"
+      },
+      {
+        "city": "Dundalk"
+      },
+      {
+        "city": "Towson"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "single-payer",
+    "selfPayDisclosure": "Unless you are a Curative member, a Maryland visit is self-pay: a flat $79 at booking, HSA and FSA cards accepted, no follow-up bill for the visit. TeleDirectMD does not accept Maryland Medicaid (Medical Assistance), Managed Medicaid or D-SNP plans and does not file claims with other insurers in Maryland. If you have other coverage, you can still choose the $79 visit, but TeleDirectMD cannot promise your plan will reimburse it.",
+    "payers": [
+      {
+        "name": "Curative",
+        "anchorId": "curative-coverage",
+        "planNames": "Commercial PPO, EPO, and self-funded plans (EPO Value, EPO (PPOx), PPO (PPO+), PPO Max)",
+        "validFrom": "2026-07-07",
+        "copayNote": "Your plan's terms apply."
+      }
+    ]
+  },
+  "stateFaqs": [
+    {
+      "question": "What does Maryland law require for a telehealth visit?",
+      "answer": "Maryland's Health Occupations Article 1-1003 holds a telehealth practitioner to the same standards of practice as in-person care and requires a clinical evaluation appropriate to you and your condition before any treatment or prescription. That evaluation may be done in real time. If it shows you need hands-on care, the law expects a referral to in-person services. You need to be physically in Maryland during a TeleDirectMD visit."
+    },
+    {
+      "question": "Does TeleDirectMD take my insurance in Maryland?",
+      "answer": "Only Curative. TeleDirectMD is in-network with Curative commercial PPO, EPO and self-funded employer plans in Maryland. Everyone else pays a flat $79 at booking, with HSA and FSA cards accepted. TeleDirectMD does not accept Maryland Medicaid. People looking for their own coverage can compare plans and financial help through Maryland Health Connection, the state's official marketplace."
+    },
+    {
+      "question": "Where can I check Dr. Bhavsar's Maryland license?",
+      "answer": "Parth Bhavsar, MD holds a Maryland medical license issued by the Maryland Board of Physicians, the board created by Health Occupations Article 14-201. The board's online practitioner lookup shows license status. His National Provider Identifier is 1104323203. Telehealth care for patients in Maryland is governed by Health Occupations Article 1-1001 and 1-1003, which hold video visits to in-person standards of practice."
+    },
+    {
+      "question": "Can my partner get treated in Maryland without a visit?",
+      "answer": "Maryland's expedited partner therapy law, Health-General 18-214.1, lets a physician provide antibiotic therapy to a sexual partner of a patient diagnosed with chlamydia, gonorrhea, trichomoniasis or, since October 1, 2026, bacterial vaginosis, without examining the partner, and lets pharmacists dispense it. Whether partner therapy fits your situation is decided during the visit. Partners with symptoms should be evaluated."
+    },
+    {
+      "question": "Does Maryland require prescriptions to be sent electronically?",
+      "answer": "For controlled dangerous substances, yes: Health-General 21-220 has required electronic prescribing of them since January 1, 2022, with listed exceptions. TeleDirectMD does not prescribe controlled substances at all, and it sends every other prescription electronically to the Maryland pharmacy you choose."
+    }
+  ],
+  "conditionOverrides": {
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "Maryland reported 30,744 chlamydia diagnoses in 2024, a rate of 490.9 per 100,000 and 14.2 percent below 2023, according to the Maryland Department of Health. The burden is uneven: Baltimore City residents had the highest rate, 1,170.6 per 100,000. Maryland's expedited partner therapy law (Health-General 18-214.1) lets a physician provide antibiotics for a patient's sexual partner without examining that partner, which helps prevent reinfection. TeleDirectMD treats adults in Maryland who already have a positive chlamydia test. Pregnancy, pelvic pain with fever, testicular pain and swelling, or gonorrhea needing an injection are reasons to be seen in person instead."
+    },
+    "trichomoniasis-treatment-online": {
+      "stateConditionParagraph": "Maryland's expedited partner therapy statute names trichomoniasis outright. Health-General 18-214.1 allows a physician to provide antibiotic therapy to the sexual partner of a patient diagnosed with trich without a separate exam, and a Maryland pharmacist may dispense it. The statute's stated purpose is to stop further spread and reduce the chance of reinfection in the diagnosed patient. TeleDirectMD sees adults physically in Maryland with a positive trichomoniasis test or typical symptoms, and recommends testing for HIV, gonorrhea, chlamydia and syphilis alongside treatment. Pregnancy, pelvic pain with fever, or infection that has already failed standard treatment needs in-person care."
+    },
+    "bv-treatment-online": {
+      "stateConditionParagraph": "Maryland changed its law on bacterial vaginosis this year. Chapter 194 of 2026 (House Bill 422) added BV to the infections covered by the state's expedited partner therapy statute, effective October 1, 2026, so a physician may now provide treatment for a BV patient's sexual partner without examining that partner. Separately, TeleDirectMD's own BV guidance cites ACOG's 2025 recommendation to consider partner therapy for recurrent BV. TeleDirectMD treats adult women physically in Maryland with typical, uncomplicated BV symptoms who are not pregnant. Pelvic pain with fever, abnormal bleeding or symptoms suggesting an STI need in-person evaluation and testing."
+    },
+    "birth-control-refills-online": {
+      "stateConditionParagraph": "Marylanders have two routes to keep a hormonal contraceptive going. Under Health Occupations 12-511, a pharmacist who meets Board of Pharmacy requirements may prescribe and dispense FDA-approved contraceptives after you complete a self-screening, and must then refer you to a primary care or reproductive health practitioner for further care. TeleDirectMD offers the physician route: refills for adults in Maryland already stable on a pill, patch or ring prescribed elsewhere, sent electronically to your pharmacy. New migraines with aura, a new clot, blood pressure above 140/90, pregnancy, or smoking 15 or more cigarettes a day at 35 or older mean an in-person visit instead."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "Maryland's 2025 to 2026 flu season was dominated by influenza A/H3. The Maryland Department of Health's season summary counted 5,933 influenza-associated hospitalizations, a weekly peak of 1,095 in late December, and 166 adult deaths, with the caveat that figures are final only late in 2026. That season crested around the holidays. Whatever the calendar, antivirals work best started within 48 hours of the first symptoms. TeleDirectMD sees adults in Maryland with typical flu symptoms by video. Shortness of breath at rest, chest pain, confusion or inability to keep fluids down needs 911 or an emergency department."
+    },
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "The Maryland Department of Health calls Lyme disease the most common tickborne disease in the state, so a tick bite after time in the woods, a park or a tall-grass backyard deserves a real risk assessment rather than a guess. What matters most is the kind of tick, how long it was attached and how soon you seek care: preventive doxycycline is considered only for higher-risk bites, within 72 hours of removal. TeleDirectMD reviews photos of the tick and bite for adults located in Maryland. An expanding rash, fever, facial drooping, palpitations or new weakness after a bite should be seen in person promptly."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "In Maryland, cats are the most frequently identified rabid domestic animal, according to the Maryland Department of Health, and rabies circulates in the state's raccoons, foxes, skunks and bats, which outdoor cats can meet. That makes the cat's vaccination status and whereabouts part of every bite evaluation; the department's zoonotic disease center works with Maryland's 24 local health departments and advises clinicians on preventive rabies treatment. TeleDirectMD sees adults bitten by a known domestic cat in the past 24 hours with a superficial to moderate wound. A stray or feral cat, a hand bite with swelling, or spreading redness needs in-person care."
+    },
+    "dog-bite-treatment-online": {
+      "stateConditionParagraph": "Maryland's rabies picture is mostly wildlife: the Maryland Department of Health names raccoons, foxes, skunks and bats as the usual carriers. A bite from a familiar, vaccinated household dog is a different question from a bite by an unknown dog, and local health departments, working with the state's Center for Zoonotic and Vectorborne Diseases, help decide when preventive treatment is needed. TeleDirectMD evaluates superficial to moderate bites from a known domestic dog for adults physically in Maryland, covering wound care, antibiotic need and tetanus status. Deep wounds, facial bites, hand bites with reduced movement, or any stray or wild animal bite need in-person care."
+    }
+  },
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Maryland Health Occupations Article 1-1001 and 1-1003 (Telehealth)",
+        "renderAt": "hero-credential",
+        "content": "Maryland Health Occupations Article 1-1001 defines telehealth as the delivery of health care services through telecommunications technologies to a patient at a different physical location than the practitioner. Under section 1-1003, a practitioner providing telehealth is held to the same standards of practice as in-person care and must perform a clinical evaluation appropriate to the patient and condition before treating or prescribing. TeleDirectMD provides care to patients located in Maryland by real-time video, through a Maryland-licensed physician."
+      },
+      {
+        "statute": "Maryland Health-General Article 21-220 (Electronic prescriptions for controlled dangerous substances)",
+        "renderAt": "footer",
+        "content": "Maryland requires prescriptions for controlled dangerous substances to be issued electronically under Health-General Article 21-220. TeleDirectMD does not prescribe controlled substances and sends all prescriptions electronically to the pharmacy the patient chooses."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

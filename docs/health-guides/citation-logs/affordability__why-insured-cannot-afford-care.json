@@ -1,0 +1,286 @@
+{
+ "guide": "affordability/why-insured-cannot-afford-care",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 0 verified (no journal references or DOIs on this page; all 8 references are agency, survey or news web pages), retractions: none",
+ "references": [
+  {
+   "n": 1,
+   "kind": "other_web",
+   "cited_as": "KFF, Americans' Challenges with Health Care Costs (updated October 23, 2026)",
+   "url": "https://www.kff.org/health-costs/americans-challenges-with-health-care-costs/",
+   "record_title": "Americans' Challenges with Health Care Costs",
+   "version_or_date": "Published Oct 23, 2026; editorial note: updated October 23, 2026, originally published December 14, 2021",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Data note compiling several KFF polls. 44% from KFF Health Tracking Poll (May 5-26, 2025); 26% very worried from KFF Health Tracking Poll (September 16-21, 2026); 28% skipped care and 15%/27% health worse from KFF Survey of Health Access and Caregiving (May 4-26, 2026); 43%/19% from KFF Health Tracking Poll (Feb. 24 - Mar. 2, 2026); $500 bill from KFF Health Care Debt Survey (Feb. 25-Mar. 20, 2022). Prior '27% very worried' was the gasoline figure; corrected to 26%.",
+   "claims": [
+    {
+     "text": "44% of adults say health care costs are difficult to afford",
+     "quote": "Just under half of U.S. adults say that it is very or somewhat difficult for them to afford their health care costs (44%).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "26% are very worried about affording health care costs",
+     "quote": "about a quarter (26%) saying they are “very” worried about affording health care costs for themselves and their families",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "28% skipped or postponed needed care in the past 12 months because of cost",
+     "quote": "About three in ten (28%) adults say in the past 12 months they have skipped or postponed getting health care they needed because of the cost.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "15% say health got worse after skipping or delaying care for any reason, including cost",
+     "quote": "about one in seven (15%) adults overall say their health got worse because they skipped or delayed needed care for any reason, including cost",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "27% among adults 18 to 64 with three or more health conditions",
+     "quote": "About one-third (36%) of adults ages 18-64 with three or more health conditions report ... and a quarter (27%) say their health got worse because they skipped or delayed care for any reason, including cost.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "82% of uninsured vs 42% of insured adults under 65 find costs difficult to afford",
+     "quote": "Uninsured adults under age 65 are much more likely to say affording health care costs is difficult (82%) compared to those with health insurance coverage (42%).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Three in ten insured adults under 65 skipped or postponed care because of cost",
+     "quote": "three in ten adults ages 18 to 64 with insurance still report not getting health care they needed due to cost.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "43% did not take a medicine as prescribed because of cost, including 19% who cut pills or skipped doses (Feb to Mar 2026 poll)",
+     "quote": "About four in ten (43%) U.S. adults say they have not taken their medication as prescribed in the past year due to costs. This includes ... one in five (19%) who have cut pills in half or skipped doses",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "About half could not pay an unexpected $500 medical bill, 19% not at all (2022 Health Care Debt Survey)",
+     "quote": "About half of U.S. adults say they would not be able to pay an unexpected medical bill that came to $500 out of pocket. This includes one in five (19%) who would not be able to pay it at all",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "dataset",
+   "cited_as": "KFF, 2025 Employer Health Benefits Survey (October 2025)",
+   "url": "https://www.kff.org/health-costs/2025-employer-health-benefits-survey/",
+   "record_title": "2025 Employer Health Benefits Survey",
+   "version_or_date": "2025 survey year (released October 2025)",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "88% of covered workers with single coverage have a general annual deductible",
+     "quote": "Eighty-eight percent of workers with single coverage have a general annual deductible that must be met before most services are paid for by the plan",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Average single-coverage deductible $1,886 among workers with a deductible (2025)",
+     "quote": "The average deductible amount in 2025 for workers with single coverage and a general annual deductible is $1,886, similar to last year.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "34% have a single-coverage deductible of $2,000 or more, up 77% over ten years",
+     "quote": "Thirty-four percent of covered workers in 2025 are in a plan with a general annual deductible of $2,000 or more for single coverage ... has increased 32% over the last five years and 77% over the last ten",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Average premiums $9,325 single and $26,993 family in 2025",
+     "quote": "The average annual premiums for employer-sponsored health insurance in 2025 are $9,325 for single coverage and $26,993 for family coverage.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Worker contributions $1,440 single and $6,850 family",
+     "quote": "The average annual contribution amounts for covered workers are $1,440 for single coverage, similar to the amount last year, and $6,850 for family coverage",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "agency_page",
+   "cited_as": "HealthCare.gov, Out-of-pocket maximum/limit (glossary)",
+   "url": "https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/",
+   "record_title": "Out-of-pocket maximum/limit - Glossary",
+   "version_or_date": "Glossary page read 2026-11-15; lists plan years 2026 and 2027",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Figures are stated for Marketplace plans; page wording now says so.",
+   "claims": [
+    {
+     "text": "Out-of-pocket limit is the most you pay for covered services in a plan year; after it, the plan pays 100% of covered in-network benefits",
+     "quote": "The most you have to pay for covered services in a plan year. After you spend this amount on deductibles, copayments, and coinsurance for in-network care and services, your health plan pays 100% of the costs of covered benefits.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "2026 Marketplace limit no more than $10,600 individual / $21,200 family",
+     "quote": "2026: No more than $10,600 for an individual or $21,200 for a family",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "2027 limit $12,000 individual / $24,000 family",
+     "quote": "2027: No more than $12,000 for an individual or $24,000 for a family",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Limit excludes premiums, out-of-network care and non-covered services",
+     "quote": "The out-of-pocket limit doesn't include: Your monthly premiums; Anything you spend for services your plan doesn't cover; Out-of-network care and services",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "other_web",
+   "cited_as": "West Health, Americans' Ability to Afford Healthcare Falls to Five-Year Low (June 18, 2026)",
+   "url": "https://westhealth.org/news/americans-ability-to-afford-healthcare-falls-to-five-year-low/",
+   "record_title": "Americans' Ability to Afford Healthcare Falls to Five-Year Low",
+   "version_or_date": "Press release June 18, 2026",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Press release from the index's co-publisher (West Health-Gallup Center on Healthcare in America).",
+   "claims": [
+    {
+     "text": "49% Cost Secure, lowest since index began in 2021",
+     "quote": "fewer than half of Americans (49%) are considered “Cost Secure,” meaning they can consistently afford healthcare and prescription medications ... the lowest level recorded since West Health and Gallup launched its Healthcare Affordability Index in 2021.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "41% Cost Insecure, 10% Cost Desperate (lacking access and unable to pay for both care and drugs)",
+     "quote": "Cost Insecure — lacking access to care or recently unable to pay for either care or medicine (41% of U.S. adults in 2025) ... Cost Desperate — lacking access and recently unable to pay for both care and prescription drugs",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Survey of 5,660 adults fielded October to December 2025",
+     "quote": "Results are based on a Gallup Panel study completed by 5,660 U.S. adults ages 18 and older, conducted Oct. 27-Dec. 22, 2025.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "other_web",
+   "cited_as": "Levey NN. KFF Health News and NPR, 100 Million People in America Are Saddled With Health Care Debt (Diagnosis: Debt, June 16, 2022)",
+   "url": "https://kffhealthnews.org/health-care-costs/diagnosis-debt-investigation-100-million-americans-hidden-medical-debt/",
+   "record_title": "100 Million People in America Are Saddled With Health Care Debt",
+   "version_or_date": "Published June 16, 2022",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Numeric poll findings moved to the primary KFF Health Care Debt Survey report (ref 8) per spec 4.4; this ref now supports only the investigation's own headline estimate and its description.",
+   "claims": [
+    {
+     "text": "Investigation by KFF Health News and NPR reported more than 100 million people, including 41% of adults, with health care debt",
+     "quote": "more than 100 million people in America ― including 41% of adults ― beset by a health care system that is systematically pushing patients into debt on a mass scale, an investigation by KHN and NPR shows.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "The investigation drew on the KFF Health Care Debt Survey",
+     "quote": "the KHN-NPR investigation draws on a nationwide poll conducted by KFF for this project.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "other_web",
+   "cited_as": "Rakshit S, Rae M, Claxton G, Amin K, Cox C. KFF, The Burden of Medical Debt in the United States (February 12, 2024)",
+   "url": "https://www.kff.org/health-costs/the-burden-of-medical-debt-in-the-united-states/",
+   "record_title": "The Burden of Medical Debt in the United States",
+   "version_or_date": "Published Feb 12, 2024; based on 2021 Survey of Income and Program Participation",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Total medical debt at least $220 billion; about 14 million owe more than $1,000 (analysis of government survey data)",
+     "quote": "This analysis of government data estimates that people in the United States owe at least $220 billion in medical debt. Approximately 14 million people (6% of adults) in the U.S. owe over $1,000 in medical debt",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "agency_page",
+   "cited_as": "CMS, Premium Adjustment Percentage and Maximum Annual Limitation on Cost Sharing for 2025, November 15, 2023",
+   "url": "https://www.cms.gov/files/document/2025-papi-parameters-guidance-2023-11-15.pdf",
+   "record_title": "Premium Adjustment Percentage, Maximum Annual Limitation on Cost Sharing, Reduced Maximum Annual Limitation on Cost Sharing, and Required Contribution Percentage for the 2025 Benefit Year",
+   "version_or_date": "CMS guidance dated November 15, 2023 (2025 benefit year)",
+   "retrieved_with": "Monid firecrawl /scrape of official PDF (6 pages)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Now cited only for the 2025 figures; 2026 figures cited to ref 3.",
+   "claims": [
+    {
+     "text": "2025 federal limit $9,200 self-only and $18,400 other coverage",
+     "quote": "the 2025 maximum annual limitation on cost sharing is $9,200 for self-only coverage and $18,400 for other than self-only coverage.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "other_web",
+   "cited_as": "Lopes L, Kearney A, Montero A, Hamel L, Brodie M. KFF, Health Care Debt In The U.S.: The Broad Consequences Of Medical And Dental Bills (KFF Health Care Debt Survey, June 16, 2022)",
+   "url": "https://www.kff.org/health-costs/kff-health-care-debt-survey/",
+   "record_title": "Health Care Debt In The U.S.: The Broad Consequences Of Medical And Dental Bills",
+   "version_or_date": "Published Jun 16, 2022; survey fielded February 25 to March 20, 2022",
+   "retrieved_with": "Monid firecrawl /scrape of official page (markdown)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Added as the primary source for poll figures previously cited to the KFF Health News article (ref 5).",
+   "claims": [
+    {
+     "text": "41% of adults currently had some debt caused by medical or dental bills (2022)",
+     "quote": "The KFF Health Care Debt Survey finds that 41% of adults currently have some debt caused by medical or dental bills.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Among adults under 65, 44% of insured vs 62% of uninsured had current health care debt",
+     "quote": "among adults under 65, those who are currently uninsured are more likely to say they have health care debt than those who currently have health insurance (62% vs. 44%)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "26% of adults in households earning $90,000 or more currently had health care debt",
+     "quote": "it is also notable that health care debt is not entirely uncommon among those with higher incomes (26% of those in households earning $90,000 or more).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

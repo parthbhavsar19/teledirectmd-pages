@@ -1,0 +1,749 @@
+{
+ "guide": "bv-vs-yeast-infection-guide",
+ "checked_at": "2026-11-15",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "run 2026-11-15; 11 verified (10 journal DOIs cited plus the cut Sutton 2026 DOI), retractions: none (no retraction, withdrawal or expression-of-concern notices); contrasting-evidence flags on refs 1, 4, 5 and 9, none bearing on the claims as now worded (see notes). PubMed article types checked for all PMIDs: no Retracted Publication or Retraction Notice.",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "Workowski KA, Bachmann LH, Chan PA, et al. Sexually Transmitted Infections Treatment Guidelines, 2021. MMWR Recomm Rep. 2021;70(4):1-187. PMID 34292926",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34292926/",
+   "pmid": "34292926",
+   "pmcid": "PMC8344968",
+   "doi": "10.15585/mmwr.rr7004a1",
+   "record_title": "Sexually Transmitted Infections Treatment Guidelines, 2021.",
+   "record_journal": "MMWR Recomm Rep",
+   "record_year": "2021",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "MMWR Recomm Rep 70(4), published 2021-07-23. CDC web versions read 2026-11-15: BV and VVC pages Last Reviewed July 22, 2021; trichomoniasis page Last Reviewed September 21, 2022 (used only for drug names stripped from the PMC text).",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC8344968, full text saved and searched locally); WebFetch of cdc.gov/std/treatment-guidelines/bv.htm, candidiasis.htm and trichomoniasis.htm (drug and organism names, which the PMC text renders without italicized names); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite verify_papers: verified, no editorial notices; one classifier-flagged contrasting citation concerns gonorrhea loads, not relevant to any claim here. PMC full text drops italicized organism and drug names; where a quote needed a name, the CDC web page wording was used and marked official_page.",
+   "claims": [
+    {
+     "text": "BV is a vaginal dysbiosis: normal lactic acid producing Lactobacillus replaced by high concentrations of anaerobes including Gardnerella vaginalis (core difference)",
+     "quote": "BV is a vaginal dysbiosis resulting from replacement of normal hydrogen peroxide and lactic-acid–producing Lactobacillus",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "VVC usually caused by Candida albicans, occasionally other Candida species or yeasts (takeaway, core difference, citable summary)",
+     "quote": "VVC usually is caused by Candida albicans but can occasionally be caused by other Candida species or yeasts.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC BV regimens are antibiotics: recommended metronidazole oral or gel, clindamycin cream; alternatives oral clindamycin, clindamycin ovules, secnidazole, tinidazole (core difference, treatment section and table)",
+     "quote": "Metronidazole 500 mg orally 2 times/day for 7 days ... Metronidazole gel 0.75% ... Clindamycin cream 2% ... Clindamycin ovules 100 mg ... Secnidazole 2 g oral granules in a single dose ... Tinidazole 2 g orally once daily for 2 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV course: 5 or 7 days for recommended regimens; alternatives from a single dose to 7 days (treatment table)",
+     "quote": "Metronidazole gel 0.75% one full applicator (5 g) intravaginally, once a day for 5 days ... Clindamycin ovules 100 mg intravaginally once at bedtime for 3 days ... Secnidazole 2 g oral granules in a single dose",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Yeast antifungals: OTC vaginal clotrimazole, miconazole, tioconazole; prescription butoconazole, terconazole; fluconazole 150 mg single oral dose (core difference, treatment section, table)",
+     "quote": "Over-the-Counter Intravaginal Agents ... Prescription Intravaginal Agents (single-dose bioadhesive product) ... Oral Agent 150 mg orally in a single dose",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Yeast vaginal products run from a single application to 7 days for most, some up to 14 days (treatment table)",
+     "quote": "5 g intravaginally daily for 7–14 days or 5 g intravaginally daily for 3 days or 5 g intravaginally daily for 7 days ... one suppository for 1 day or 5 g intravaginally in a single application",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Unnecessary or unapproved OTC use is common and can delay treatment of other causes of vaginitis (core difference, treatment section)",
+     "quote": "Unnecessary or unapproved use of over-the-counter preparations is common and can lead to a delay in treatment of other vulvovaginitis etiologies, which can result in adverse outcomes.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Yeast associated with normal pH below 4.5; pH above 4.5 common with BV or trichomoniasis, which can also occur with normal pH (takeaway, pH section, figure, home strip, FAQ, decision guide)",
+     "quote": "an elevated pH (i.e., >4.5) is common with BV or trichomoniasis (although trichomoniasis can also be present with a normal vaginal pH).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Yeast associated with normal vaginal pH (<4.5)",
+     "quote": "vaginitis is associated with normal vaginal pH (<4.5).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "pH testing is not highly specific; discharge should also be examined microscopically (pH section, takeaway, FAQ)",
+     "quote": "Because pH testing is not highly specific, vaginal discharge should be further examined microscopically",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Amsel criteria: at least 3 of 4: thin homogeneous milklike discharge coating walls, clue cells, pH >4.5, fishy odor before or after 10% KOH (pH section, discharge, diagnosis, FAQ)",
+     "quote": "Clinical diagnosis of BV by Amsel criteria requires at least three of the following four symptoms or signs: Homogeneous, thin discharge (milklike consistency) that smoothly coats the vaginal walls ... pH of vaginal fluid >4.5",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Whiff test is an Amsel criterion",
+     "quote": "A fishy odor of vaginal discharge before or after addition of 10% KOH (i.e., the whiff test)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nugent score 7 to 10 consistent with BV (diagnosis)",
+     "quote": "A Nugent score of 0–3 is consistent with a-predominant vaginal microbiota, 4–6 with intermediate microbiota (emergence of), and 7–10 with BV.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Typical yeast symptoms (itching, soreness, external dysuria) are not specific (takeaways, symptoms, FAQ)",
+     "quote": "Typical symptoms of VVC include pruritus, vaginal soreness, dyspareunia, external dysuria, and abnormal vaginal discharge. None of these symptoms is specific for VVC.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Yeast signs: vulvar edema, fissures, excoriations, thick curdy discharge (table, discharge, FAQ, decision guide)",
+     "quote": "Signs include vulvar edema, fissures, excoriations, and thick curdy vaginal discharge.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Odor is not among the typical yeast symptoms CDC lists (table, FAQ)",
+     "quote": "Typical symptoms of VVC include pruritus, vaginal soreness, dyspareunia, external dysuria, and abnormal vaginal discharge.",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "CDC: 75% of women will have at least one VVC episode; 40-45% two or more (takeaway, prevalence, FAQ)",
+     "quote": "An estimated 75% of women will have at least one episode of VVC, and 40%–45% will have two or more episodes.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recurrent VVC usually defined as three or more symptomatic episodes in less than a year (prevalence, recurrence, table)",
+     "quote": "Recurrent VVC (three or more episodes of symptomatic VVC in <1 year)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV associated with multiple male partners, female partners, new partner, lack of condom use, douching (triggers, table)",
+     "quote": "BV is associated with having multiple male sex partners, female partners, sexual relationships with more than one person (), a new sex partner, lack of condom use (), douching",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Douching might increase BV relapse (trigger table)",
+     "quote": "Douching might increase the risk for relapse, and no data support use of douching for treatment or symptom relief.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hormonal contraception does not increase BV risk and might protect (triggers, table)",
+     "quote": "Hormonal contraception does not increase risk for BV () and might protect against BV development",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antibiotics and diabetes are not among CDC listed BV risk factors (trigger table)",
+     "quote": "BV is associated with having multiple male sex partners, female partners, sexual relationships with more than one person (), a new sex partner, lack of condom use (), douching (,), and HSV-2 seropositivity",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Uncomplicated yeast not usually sexually acquired (trigger table)",
+     "quote": "Uncomplicated VVC is not usually acquired through sexual intercourse, and data do not support treatment of sex partners.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Yeast diagnosis: wet prep with saline and 10% KOH shows budding yeasts, hyphae or pseudohyphae, or positive culture or other test (diagnosis)",
+     "quote": "a wet preparation (saline, 10% KOH) of vaginal discharge demonstrates budding yeasts, hyphae, or pseudohyphae, or a culture or other test yields a positive result for a yeast species.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Molecular panels diagnose BV and also report Candida species and T. vaginalis (diagnosis, FAQ tests)",
+     "quote": "Max Vaginal Panel: \"It also provides results for Candida species and T. vaginalis.\"",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV molecular tests can be run on clinician- or self-collected vaginal specimens (diagnosis, self-diagnosis)",
+     "quote": "They can be performed on either clinician- or self-collected vaginal specimens with results available in <24 hours",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Persistent or recurrent BV is common; return for evaluation if symptoms recur (recurrence, table, FAQ)",
+     "quote": "Because persistent or recurrent BV is common, women should be advised to return for evaluation if symptoms recur.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Evaluate and test if symptoms persist after OTC product or recur within 2 months of yeast treatment (recurrence, table, treatment, FAQ, decision guide)",
+     "quote": "any woman whose symptoms persist after using an over-the-counter preparation or who has a recurrence of symptoms <2 months after treatment for VVC should be evaluated clinically and tested.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV, trichomoniasis and VVC are the infections most often behind vaginal symptoms (can-both, self-diagnosis)",
+     "quote": "The infections most frequently associated with vaginal symptoms are BV ... trichomoniasis, and vulvovaginal candidiasis (VVC).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Medical history alone insufficient for accurate vaginitis diagnosis and can lead to inappropriate medication (self-diagnosis)",
+     "quote": "Obtaining a medical history alone has been reported to be insufficient for accurate diagnosis of vaginitis and can lead to inappropriate administration of medication",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Trichomoniasis most prevalent nonviral STI worldwide; discharge diffuse, malodorous or yellow-green with or without vulvar irritation (trichomoniasis, FAQ odor)",
+     "quote": "Trichomoniasis is estimated to be the most prevalent nonviral STI worldwide ... women with trichomoniasis sometimes have vaginal discharge, which can be diffuse, malodorous, or yellow-green with or without vulvar irritation",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cause of the microbial alteration in BV not fully understood (trichomoniasis)",
+     "quote": "The cause of the microbial alteration that precipitates BV is not fully understood, and whether BV results from acquisition of a single sexually transmitted pathogen is unknown.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Trichomoniasis in women: metronidazole 500 mg twice daily for 7 days; tinidazole 2 g single dose alternative; abstain until partners treated (trichomoniasis)",
+     "quote": "Metronidazole 500 mg 2 times/day for 7 days ... Tinidazole 2 g orally in a single dose ... to abstain from sex until they and their sex partners are treated",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptomatic BV in pregnancy: treatment recommended for all; associated with PROM and preterm birth (self-diagnosis, FAQ worse)",
+     "quote": "BV treatment is recommended for all symptomatic pregnant women because symptomatic BV has been associated with adverse pregnancy outcomes, including premature rupture of membranes, preterm birth",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Yeast in pregnancy: only 7-day topical azoles (self-diagnosis, FAQ worse)",
+     "quote": "Only topical azole therapies, applied for 7 days, are recommended for use among pregnant women.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV raises STI and HIV acquisition risk (FAQ worse)",
+     "quote": "Women with BV are at increased risk for STI acquisition, such as HIV",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Immune compromise makes VVC complicated (FAQ worse)",
+     "quote": "Women with diabetes, immunocompromising conditions (e.g., HIV infection), underlying immunodeficiency, or immunosuppressive therapy (e.g., corticosteroids)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "All women with BV should be tested for HIV and other STIs (red flags)",
+     "quote": "All women with BV should be tested for HIV and other STIs.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pelvic or lower abdominal pain in women at STI risk warrants PID consideration; fever (oral temperature >38.3 C) is a supportive criterion; PID symptoms can be subtle (red flags)",
+     "quote": "Presumptive treatment for PID should be initiated for sexually active young women and other women at risk for STIs if they are experiencing pelvic or lower abdominal pain",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. About Bacterial Vaginosis (BV). Last reviewed December 11, 2023.",
+   "url": "https://www.cdc.gov/bacterial-vaginosis/about/index.html",
+   "version_or_date": "Page Last Reviewed December 11, 2023; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page (two reads; verbatim short quotes)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Now cited for what the page says. The old claim (lactobacilli decline, Gardnerella and Atopobium overgrow, pH rises) was moved to CDC 2021 [1] with Atopobium and the pH-raising mechanism removed.",
+   "claims": [
+    {
+     "text": "BV is an overgrowth of certain vaginal bacteria (takeaway, citable summary)",
+     "quote": "Bacterial vaginosis (BV) is a condition that happens when there is too much of certain bacteria in the vagina",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A healthcare provider treats BV with prescribed antibiotics (takeaway, treatment, FAQ, decision guide, citable summary)",
+     "quote": "A healthcare provider can treat BV with antibiotics. ... It is important to take all the medicine your provider prescribes, even if your symptoms go away.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV discharge thin white or gray; strong fish-like odor especially after sex (discharge, table, FAQ, citable summary)",
+     "quote": "A thin white or gray vaginal discharge ... A strong fish-like odor, especially after sex",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV can cause itching, pain or burning, burning when peeing, itching around the outside of the vagina (takeaway, table, FAQ)",
+     "quote": "Pain, itching, or burning in the vagina ... Burning when peeing ... Itching around the outside of the vagina",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "Amsel R, Totten PA, Spiegel CA, Chen KC, Eschenbach D, Holmes KK. Nonspecific vaginitis. Diagnostic criteria and microbial and epidemiologic associations. Am J Med. 1983;74(1):14-22. PMID 6600371",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6600371/",
+   "pmid": "6600371",
+   "doi": "10.1016/0002-9343(83)91112-9",
+   "record_title": "Nonspecific vaginitis. Diagnostic criteria and microbial and epidemiologic associations.",
+   "record_journal": "Am J Med",
+   "record_year": "1983",
+   "article_type": "Comparative Study; Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. The abstract proposes practical criteria but does not list them, so the criteria themselves, the pH threshold, discharge descriptions, and risk factors are now cited to CDC 2021 [1]. Scite: verified, no notices.",
+   "claims": [
+    {
+     "text": "Practical office criteria first proposed in a 1983 study of 397 university students (pH section)",
+     "quote": "We studied 397 consecutive unselected female university students ... Practical diagnostic criteria for standard clinical use are proposed.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Koumans EH, Sternberg M, Bruce C, et al. The prevalence of bacterial vaginosis in the United States, 2001-2004; associations with symptoms, sexual behaviors, and reproductive health. Sex Transm Dis. 2007;34(11):864-869. PMID 17621244",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17621244/",
+   "pmid": "17621244",
+   "doi": "10.1097/OLQ.0b013e318074e565",
+   "record_title": "The prevalence of bacterial vaginosis in the United States, 2001-2004; associations with symptoms, sexual behaviors, and reproductive health.",
+   "record_journal": "Sex Transm Dis",
+   "record_year": "2007",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Scite: verified, no notices; one contrasting citation (a Brazilian study found no association with self-defined ethnicity); the guide makes no ethnicity claim. Title punctuation corrected to the PubMed record (semicolon).",
+   "claims": [
+    {
+     "text": "BV in 29.2% of U.S. women aged 14-49 (NHANES 2001-2004) (takeaway, prevalence, figure, FAQ, citable summary)",
+     "quote": "Women aged 14-49 years participating in the National Health and Nutrition Examination Survey 2001-2004 ... The prevalence of BV was 29.2% (95% confidence interval 27.2%-31.3%)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "84% of women with BV reported no symptoms (takeaway, prevalence, figure)",
+     "quote": "BV is a common condition; 84% of women with BV did not report symptoms.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "After adjustment BV linked to lifetime partners and douching; smoking only before adjustment (triggers)",
+     "quote": "Although BV was also associated with poverty (P <0.01), smoking (P <0.05) ... in the multivariate model, BV only remained positively associated with race/ethnicity, increasing lifetime sex partners",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV associated with STI and HIV acquisition and adverse pregnancy outcomes (FAQ worse)",
+     "quote": "is associated with an increased risk of acquisition of sexually transmitted infections, HIV, and with adverse pregnancy outcomes.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Sobel JD. Vulvovaginal candidosis. Lancet. 2007;369(9577):1961-1971. PMID 17560449",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17560449/",
+   "pmid": "17560449",
+   "doi": "10.1016/S0140-6736(07)60917-9",
+   "record_title": "Vulvovaginal candidosis.",
+   "record_journal": "Lancet",
+   "record_year": "2007",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only (paywalled). All eight earlier claims (C. albicans, discharge, itching, pH, treatments) moved to CDC 2021 or removed. Scite: verified, no notices; one contrasting citation about recurrent VVC prevalence in another setting, not used here.",
+   "claims": [
+    {
+     "text": "Without rapid, simple tests yeast is both over- and underdiagnosed (self-diagnosis)",
+     "quote": "The absence of rapid, simple, and inexpensive diagnostic tests continues to result in both overdiagnosis and underdiagnosis of vulvovaginal candidosis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Sobel JD. Vulvovaginitis. When Candida becomes a problem. Dermatol Clin. 1998;16(4):763-768, xii. PMID 9891677",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9891677/",
+   "pmid": "9891677",
+   "doi": "10.1016/s0733-8635(05)70043-7",
+   "record_title": "Vulvovaginitis. When Candida becomes a problem.",
+   "record_journal": "Dermatol Clin",
+   "record_year": "1998",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Abstract only. The \"three or more distinct diagnoses\" claim was moved to CDC 2021. Pages now include \", xii\" per PubMed.",
+   "claims": [
+    {
+     "text": "First step is confirming the diagnosis rather than treating empirically (self-diagnosis)",
+     "quote": "An essential first step is confirmation of clinical diagnosis and avoidance of empiricism.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most yeast episodes are uncomplicated and respond to antifungal therapy (FAQ worse)",
+     "quote": "Once correctly diagnosed, most episodes of vaginitis due to Candida are uncomplicated, responding to all forms of antifungal therapy.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Blostein F, Levin-Sparenberg E, Wagner J, Foxman B. Recurrent vulvovaginal candidiasis. Ann Epidemiol. 2017;27(9):575-582.e3. PMID 28927765",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28927765/",
+   "pmid": "28927765",
+   "doi": "10.1016/j.annepidem.2017.08.010",
+   "record_title": "Recurrent vulvovaginal candidiasis.",
+   "record_journal": "Ann Epidemiol",
+   "record_year": "2017",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Was cited for ~75% lifetime and 5-8% recurrent; the abstract gives a mean 39% by age 50 and a mean 23% probability of RVVC after VVC. Rewritten to those figures; 5-8% cut. Pages now 575-582.e3 per PubMed.",
+   "claims": [
+    {
+     "text": "Seven-country survey: probability of VVC by age 50 23-49%, mean 39% (prevalence)",
+     "quote": "The estimated probability of VVC by age 50 varied widely by country (from 23% to 49%, mean 39%)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Average 23% probability of recurrent infection after a first yeast infection; authors say RVVC is common (prevalence, recurrence, figure, table, FAQ)",
+     "quote": "the estimated probability of RVVC after VVC (from 14% to 28%, mean 23%). However estimated, the probability of RVVC was high suggesting RVVC is a common condition.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recurrent yeast affects quality of life (FAQ worse)",
+     "quote": "Recurrent vulvovaginal candidiasis (RVVC) ... adversely affects quality of life, mental health, and sexual activity.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "Rautemaa-Richardson R, Sobel JD, Stone N, et al. State-of-the-Art Review: Managing Vulvovaginal Candidiasis. Clin Infect Dis. 2026;82(3):371-382. PMID 41839452",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41839452/",
+   "pmid": "41839452",
+   "pmcid": "PMC13017020",
+   "doi": "10.1093/cid/ciaf673",
+   "record_title": "State-of-the-Art Review: Managing Vulvovaginal Candidiasis.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2026",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC13017020 full text); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New reference, replacing Sutton 2026 in slot 8. Review article: cited for its own statements on risk factors and management, not for primary prevalence numbers. Scite: verified, no notices.",
+   "claims": [
+    {
+     "text": "Yeast linked to hormonal changes, diabetes, antibiotic use, immune dysfunction (triggers, table)",
+     "quote": "Multiple factors contribute to both forms, including hormonal changes, diabetes, antibiotic use, immune dysfunction, and genetics.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Higher estrogen in pregnancy or with combined oral contraceptives raises yeast risk (triggers, table)",
+     "quote": "Elevated estrogen levels, whether endogenous during pregnancy or luteal phase of the cycle, or exogenous from combined oral contraceptives or menopause hormone therapy, enhance",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Uncontrolled diabetes promotes yeast overgrowth (table)",
+     "quote": "uncontrolled diabetes elevates vaginal glucose levels promoting yeast overgrowth and proliferation",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antibiotic use is a major contributor; BV may predispose to VVC independently or after antibacterial treatment (table, triggers, can-both, FAQ)",
+     "quote": "Antibiotic use is a major contributor to VVC by disrupting the protective vaginal microbiota ... may predispose women to VVC, either independently or following antibacterial treatment",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Douching discouraged but not an official VVC risk factor (trigger table)",
+     "quote": "vaginal douching should be discouraged, although it is not an official risk factor for VVC",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dual or co-existing conditions are common (can-both)",
+     "quote": "This together with dual/concomitant pathologies being common provide significant diagnostic challenges.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recurrent yeast: fluconazole induction then once-weekly fluconazole for 6 months (recurrence)",
+     "quote": "induction therapy (eg, three 150-mg tablets of fluconazole 72 hours apart) followed by maintenance/suppression therapy (eg, once weekly 150 mg fluconazole) for 6 months",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Confirmatory tests essential in recurrent yeast (recurrence)",
+     "quote": "confirmatory tests are extremely helpful and essential in cases with poor or partial response and in RVVC",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Bradshaw CS, Morton AN, Hocking J, et al. High recurrence rates of bacterial vaginosis over the course of 12 months after oral metronidazole therapy and factors associated with recurrence. J Infect Dis. 2006;193(11):1478-1486. PMID 16652274",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16652274/",
+   "pmid": "16652274",
+   "doi": "10.1086/503780",
+   "record_title": "High recurrence rates of bacterial vaginosis over the course of 12 months after oral metronidazole therapy and factors associated with recurrence.",
+   "record_journal": "J Infect Dis",
+   "record_year": "2006",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "The biofilm and lactobacillus-failure explanation was not in the abstract and was replaced with the abstract's own factors. Scite: verified, no notices; one contrasting citation reports different (6-month) cure rates in other trials, so the page presents 58% as one study's figure.",
+   "claims": [
+    {
+     "text": "58% had BV again within 12 months after oral metronidazole (recurrence, figure, table, FAQ)",
+     "quote": "BV was treated with 400 mg of oral metronidazole twice a day for 7 days ... Sixty-eight women (58% [95% confidence interval {CI}, 49%-66%]) had a recurrence of BV (NS 7-10)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Past BV and a regular partner linked to recurrence; supports possible role for sexual transmission (recurrence)",
+     "quote": "A past history of BV, a regular sex partner throughout the study, and female sex partners were significantly associated with recurrence ... support a possible role for sexual transmission",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Pentikis H, Adetoro N, Tipping D, Levy S. An integrated efficacy and safety analysis of single-dose secnidazole 2 g in the treatment of bacterial vaginosis. Reprod Sci. 2020;27(2):523-528. PMID 32046418",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32046418/",
+   "pmid": "32046418",
+   "pmcid": "PMC7077929",
+   "doi": "10.1007/s43032-019-00048-x",
+   "record_title": "An Integrated Efficacy and Safety Analysis of Single-Dose Secnidazole 2 g in the Treatment of Bacterial Vaginosis.",
+   "record_journal": "Reprod Sci",
+   "record_year": "2020",
+   "article_type": "Journal Article; Multicenter Study; Randomized Controlled Trial (integrated analysis of two trials)",
+   "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "Sponsor-authored (Symbiomix/Lupin affiliations); the page says so. OTC statements no longer cited here. Scite: verified, no notices.",
+   "claims": [
+    {
+     "text": "Single-dose secnidazole 2 g FDA approved for BV in adult women (treatment)",
+     "quote": "A single-dose oral granule formulation of secnidazole 2 g ... has been approved by the US Food and Drug Administration for the treatment of BV in adult women.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Longer regimens associated with poor adherence, per sponsor-authored analysis (treatment)",
+     "quote": "Currently recommended treatments require extended dosing and are thus associated with poor adherence.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "journal",
+   "cited_as": "Ferris DG, Nyirjesy P, Sobel JD, et al. Over-the-counter antifungal drug misuse associated with patient-diagnosed vulvovaginal candidiasis. Obstet Gynecol. 2002;99(3):419-425. PMID 11864668",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11864668/",
+   "pmid": "11864668",
+   "doi": "10.1016/s0029-7844(01)01759-8",
+   "record_title": "Over-the-counter antifungal drug misuse associated with patient-diagnosed vulvovaginal candidiasis.",
+   "record_journal": "Obstet Gynecol",
+   "record_year": "2002",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata (abstract only); Scite verify_papers",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New reference, supporting the self-diagnosis claims that had no source (\"most women who self-treat choose the wrong product\" was rewritten to the study numbers). Scite: verified, no notices.",
+   "claims": [
+    {
+     "text": "95 women buying OTC antifungal: 33.7% VVC, 18.9% BV, 21.1% mixed, 13.7% normal, 10.5% other, 2.1% trichomonas (diagnosis, can-both, self-diagnosis, FAQ)",
+     "quote": "vulvovaginal candidiasis 33.7%, bacterial vaginosis 18.9%, mixed vaginitis 21.1%, normal 13.7%, other diagnoses 10.5%, and trichomonas vaginitis 2.1%.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prior clinician diagnosis did not improve accuracy (self-diagnosis)",
+     "quote": "Women with a previous clinically based diagnosis of vulvovaginal candidiasis were not more accurate in diagnosing vulvovaginal candidiasis than women without a prior clinical diagnosis",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "An antifungal may fail because it was not yeast (FAQ worse)",
+     "quote": "Many women who self-diagnose and use an over-the-counter product for treatment of presumed vulvovaginal candidiasis do not have vulvovaginal candidiasis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "label",
+   "cited_as": "DailyMed, U.S. National Library of Medicine. VANDAZOLE (metronidazole gel) 0.75%, vaginal: prescribing information. Label revised February 2021; DailyMed entry updated December 2, 2025.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27d71471-8f89-4a1e-8c55-020a58961454",
+   "version_or_date": "DailyMed setid 27d71471-8f89-4a1e-8c55-020a58961454, version 14, updated December 2, 2025; label text Revised 2/2021",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New reference. Replaces the unsupported citations of CDC and Sobel 2007 for \"BV antibiotics trigger yeast\".",
+   "claims": [
+    {
+     "text": "About 10% developed Candida vaginitis during or immediately after therapy (triggers, can-both, FAQ)",
+     "quote": "Approximately 10% of patients treated with VANDAZOLE developed Candida vaginitis during or immediately after therapy.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Counsel patients that vaginal fungal infections can occur after use (can-both, treatment)",
+     "quote": "Inform the patient that vaginal fungal infections can occur following use of VANDAZOLE",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Metronidazole vaginal gel is a prescription (Rx only) BV product (takeaway, treatment)",
+     "quote": "Rx only ... VANDAZOLE is a nitroimidazole antimicrobial indicated for the treatment of bacterial vaginosis in post-menarchal females.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "label",
+   "cited_as": "DailyMed, U.S. National Library of Medicine. CLEOCIN (clindamycin phosphate) Vaginal Cream 2%: prescribing information. Label revised March 2025; DailyMed entry updated November 19, 2025.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f9be442d-0782-4b93-828f-9ebbf67dbced",
+   "version_or_date": "DailyMed setid f9be442d-0782-4b93-828f-9ebbf67dbced, SPL version 23, updated November 19, 2025; label text Revised 3/2025",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New reference. 10.4% is the 7-day regimen in non-pregnant women (Table 1).",
+   "claims": [
+    {
+     "text": "Vaginal moniliasis in 10.4% on the 7-day regimen; about 1 in 10 (triggers, can-both, FAQ)",
+     "quote": "Table 1: Event | CLEOCIN Vaginal Cream 3 Day n=600 | 7 Day n=1325 ... Vaginal moniliasis | 7.7 | 10.4",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Use may result in overgrowth of nonsusceptible organisms (can-both)",
+     "quote": "The use of CLEOCIN Vaginal Cream 2% may result in the overgrowth of nonsusceptible organisms in the vagina.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clindamycin vaginal cream is a prescription (Rx only) BV product (takeaway, treatment)",
+     "quote": "Rx only ... CLEOCIN Vaginal Cream 2%, is indicated in the treatment of bacterial vaginosis",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "label",
+   "cited_as": "DailyMed, U.S. National Library of Medicine. MONISTAT 7 (miconazole nitrate) vaginal cream, Drug Facts label. Insight Pharmaceuticals. DailyMed entry updated November 12, 2024.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c4b68aff-e95f-47ae-b190-6a671bef1877",
+   "version_or_date": "DailyMed setid c4b68aff-e95f-47ae-b190-6a671bef1877, version 6, updated November 12, 2024 (HUMAN OTC DRUG LABEL)",
+   "retrieved_with": "WebFetch of DailyMed label page (three reads; verbatim Drug Facts quotes)",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New reference. Supports the OTC-antifungal statements and adds the label's own safety warnings. It reverses the original advice that a first-time classic episode can be self-treated over the counter.",
+   "claims": [
+    {
+     "text": "Monistat (miconazole) is labeled to treat vaginal yeast infections (FAQ Monistat)",
+     "quote": "treats vaginal yeast infections",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not use unless a doctor has diagnosed a vaginal yeast infection before (self-diagnosis, decision guide)",
+     "quote": "Do not use if you have never had a vaginal yeast infection diagnosed by a doctor.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Stop and ask a doctor if no better in 3 days or symptoms last more than 7 days (treatment, FAQ)",
+     "quote": "symptoms do not get better in 3 days ... symptoms last more than 7 days",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "If pregnant ask a health professional before use (self-diagnosis, red flags)",
+     "quote": "If pregnant or breast-feeding, ask a health professional before use.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Mild increase in burning, itching or irritation may occur (FAQ worse)",
+     "quote": "mild increase in vaginal burning, itching or irritation may occur",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lower abdominal pain, fever, chills, foul-smelling discharge may mean a more serious condition (red flags)",
+     "quote": "lower abdominal, back or shoulder pain, fever, chills, nausea, vomiting, or foul-smelling vaginal discharge. You may have a more serious condition.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus, U.S. National Library of Medicine. Pelvic Inflammatory Disease. Last updated July 15, 2025.",
+   "url": "https://medlineplus.gov/pelvicinflammatorydisease.html",
+   "version_or_date": "Last updated July 15, 2025; read 2026-11-15",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-15",
+   "editorial_notices": [],
+   "notes": "New reference, added so the red-flag sentence (fever, pelvic pain, pain with intercourse, abnormal bleeding as possible PID) has a source that names each sign. CDC 2021 alone did not name pain with sex or abnormal bleeding.",
+   "claims": [
+    {
+     "text": "PID signs: lower abdominal pain, fever, pain or bleeding during sex, bleeding between periods; see a provider (red flags)",
+     "quote": "pain in the lower abdomen (belly) ... Fever ... Foul-smelling vaginal discharge ... Bleeding between periods ... Pain or bleeding during sex ... See your health care provider if you have any symptoms of PID",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

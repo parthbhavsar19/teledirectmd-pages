@@ -4,6 +4,7 @@
  * Authority: CDC + IDSA (HSV-1)
  * ICD-10: B00.1
  */
+import { stateConditionHref } from '../../../lib/live-routes';
 import FaqAccordion from '../../components/FaqAccordion';
 import { VtNationalStyle } from '../../components/VtNationalChrome';
 import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock } from '../../components/CostCompareModules';
@@ -12,17 +13,16 @@ const PAGE_URL = 'https://teledirectmd.com/vt/cold-sore-treatment-online/';
 const PAGE_TITLE = 'Cold Sore Treatment Online in Vermont | TeleDirectMD';
 const DATE_PUBLISHED = '2026-06-04';
 const DATE_MODIFIED = '2026-06-04';
-const PHYSICIAN = { name: 'Parth Bhavsar, MD', npi: '1104323203', specialty: 'Family Medicine', licenseState: 'Vermont', headshot: '/images/dr-parth-bhavsar.jpg', bioUrl: '/about' };
+const PHYSICIAN = { name: 'Parth Bhavsar, MD', npi: '1104323203', specialty: 'Family Medicine', licenseState: 'Vermont', headshot: '/images/dr-parth-bhavsar.jpg', bioUrl: '/about/' };
 
 
 const MEDICATIONS = [
   { name: 'Valacyclovir (Valtrex) 2 g', regimen: '2 g twice daily × 1 day (started at prodrome)', price: '~$26.19 / 30 tablets (1g)', priceHref: 'https://www.goodrx.com/valacyclovir', firstLine: true, notes: 'FDA-approved for orolabial herpes — 2-dose single-day regimen. Start at first tingling/prodrome for maximum benefit. GoodRx price for 30×1g tabs.' },
-  { name: 'Acyclovir 400 mg', regimen: '400 mg 5× daily × 5 days OR 800 mg 3× daily × 2 days', price: '~$11.36 / 30 tablets', priceHref: 'https://www.goodrx.com/acyclovir', firstLine: true, notes: 'First-line alternative per CDC. Multiple daily doses; equally effective to valacyclovir for cold sores.' },
   { name: 'Valacyclovir 500 mg (suppressive)', regimen: '500 mg once daily for frequent recurrences (≥6/year)', price: '~$37.67 / 90 tablets (500mg)', priceHref: 'https://www.goodrx.com/valacyclovir', firstLine: false, notes: 'Suppressive therapy for patients with ≥6 episodes/year. Reduces recurrence frequency by approximately 50%.' }
 ];
 
 const VT_SIBLINGS = [
-  {'slug': 'genital-herpes-treatment-online', 'label': 'Genital Herpes Treatment in VT', 'why': 'Related HSV infection — HSV-1 can also cause genital herpes.'}, {'slug': 'uti-treatment-online', 'label': 'UTI Treatment in VT', 'why': 'Other common telehealth condition frequently treated alongside.'}, {'slug': 'chlamydia-treatment-online', 'label': 'Chlamydia Treatment in VT', 'why': 'Sexual health co-management common in reproductive-age adults.'}, {'slug': 'performance-anxiety-treatment-online', 'label': 'Performance Anxiety Treatment in VT', 'why': 'Stress is a common cold sore trigger — managed as primary care condition.'}, {'slug': 'birth-control-refills-online', 'label': 'Birth Control Refills in VT', 'why': "Women's health condition frequently discussed in same visit."}, {'slug': 'yeast-infection-treatment-online', 'label': 'Yeast Infection Treatment in VT', 'why': 'Common condition in women with active cold sores or HSV.'}
+  {'slug': 'genital-herpes-treatment-online', 'label': 'Genital Herpes Treatment in VT', 'why': 'Related HSV infection — HSV-1 can also cause genital herpes.'}, {'slug': 'uti-treatment-online', 'label': 'UTI Treatment for Women in VT', 'why': 'Other common telehealth condition frequently treated alongside.'}, {'slug': 'chlamydia-treatment-online', 'label': 'Chlamydia Treatment in VT', 'why': 'Sexual health co-management common in reproductive-age adults.'}, {'slug': 'performance-anxiety-treatment-online', 'label': 'Performance Anxiety Treatment in VT', 'why': 'Stress is a common cold sore trigger — managed as primary care condition.'}, {'slug': 'birth-control-refills-online', 'label': 'Birth Control Refills in VT', 'why': "Women's health condition frequently discussed in same visit."}, {'slug': 'yeast-infection-treatment-online', 'label': 'Yeast Infection Treatment in VT', 'why': 'Common condition in women with active cold sores or HSV.'}
 ];
 
 const FAQ_ITEMS = [
@@ -34,18 +34,18 @@ const FAQ_ITEMS = [
     ),
   },
   { question: 'Can I get cold sore treatment online in Vermont?', answer: (<p dangerouslySetInnerHTML={{ __html: "Yes. <a href='https://legislature.vermont.gov/statutes/fullchapter/18/219' rel='noopener' target='_blank'>18 V.S.A. Chapter 219 (Vermont&apos;s telemedicine statute)</a> permits Vermont-licensed physicians to treat recurrent orolabial herpes by synchronous video visit. The <a href='https://www.healthvermont.gov/systems/board-medical-practice' rel='noopener' target='_blank'>Vermont Board of Medical Practice</a> holds telehealth physicians to the same standard of care as in-person physicians. For adults with a history of cold sores and classic prodrome symptoms, telehealth antiviral prescribing is appropriate. Self pay is $79." }} />) },
-  { question: 'What is the best treatment for cold sores in Vermont?', answer: (<p dangerouslySetInnerHTML={{ __html: "Per the <a href='https://www.cdc.gov/std/treatment-guidelines/herpes.htm' rel='noopener' target='_blank'>CDC STI Treatment Guidelines 2021</a>, valacyclovir 2 g twice daily × 1 day (started at first prodrome) is FDA-approved for orolabial herpes and significantly reduces healing time. Acyclovir 400 mg 5× daily × 5 days is an equally effective alternative. Antivirals work best when started within the first 24–72 hours of prodrome symptoms — before blisters fully form." }} />) },
-  { question: 'How common are cold sores in Vermont?', answer: (<p dangerouslySetInnerHTML={{ __html: "Cold sores affect approximately 67% of adults under age 50 globally per the <a href='https://www.cdc.gov/herpes/statistics/index.html' rel='noopener' target='_blank'>CDC</a>. In Vermont with approximately 39 million residents, an estimated 20–25 million Vermonters carry HSV-1. Recurrences are triggered by sun exposure, stress, illness, and immunosuppression — all common in Vermont's climate and lifestyle." }} />) },
+  { question: 'What is the best treatment for cold sores in Vermont?', answer: (<p dangerouslySetInnerHTML={{ __html: "Per the <a href='https://www.cdc.gov/std/treatment-guidelines/herpes.htm' rel='noopener' target='_blank'>CDC STI Treatment Guidelines 2021</a>, valacyclovir 2 g twice daily × 1 day (started at first prodrome) is FDA-approved for orolabial herpes and significantly reduces healing time. Antivirals work best when started within the first 24–72 hours of prodrome symptoms — before blisters fully form." }} />) },
+  { question: 'How common are cold sores in Vermont?', answer: (<p dangerouslySetInnerHTML={{ __html: "HSV-1, the virus that causes cold sores, infects an estimated 64% of people under age 50 globally per the <a href='https://www.who.int/news-room/fact-sheets/detail/herpes-simplex-virus' rel='noopener' target='_blank'>WHO</a>. That means most Vermont adults carry HSV-1, even if they have never had a noticeable outbreak. Recurrences are triggered by sun exposure, stress, illness, and immunosuppression — all common in Vermont's climate and lifestyle." }} />) },
   { question: 'How much does valacyclovir cost in Vermont with GoodRx?', answer: (<p dangerouslySetInnerHTML={{ __html: "With a GoodRx coupon at <a href='https://www.goodrx.com/valacyclovir' rel='noopener' target='_blank'>goodrx.com</a>, valacyclovir 1g costs approximately $26.19 for 30 tablets and $37.67 for 90 tablets (500mg) as of May 2026. The 2-dose episodic regimen (valacyclovir 2 g × 2 doses, 12 hours apart) requires approximately 4 × 1g tablets total — approximately $3–$5 per episode. Prescription costs are separate from the TeleDirectMD $79 visit fee." }} />) },
   { question: 'Can cold sores spread to the eyes or other body parts?', answer: (<p dangerouslySetInnerHTML={{ __html: 'Yes. HSV-1 can spread to the eye through autoinoculation (touching a cold sore and then touching the eye) — causing herpes simplex keratitis, a serious condition that requires urgent ophthalmology evaluation. HSV can also spread to the fingers (herpetic whitlow) or genitals (through oral-genital contact). TeleDirectMD does not manage HSV keratitis or CNS involvement — these require immediate in-person specialist care.' }} />) },
   { question: 'Does Vermont require an in-person visit before telehealth for cold sore treatment?', answer: (<p dangerouslySetInnerHTML={{ __html: "No. <a href='https://legislature.vermont.gov/statutes/fullchapter/18/219' rel='noopener' target='_blank'>18 V.S.A. Chapter 219 (Vermont&apos;s telemedicine statute)</a> does not require a prior in-person visit before telehealth services. For patients with recurrent cold sores and a clear history, antiviral treatment can be prescribed through a video visit." }} />) },
   { question: 'When do cold sores require urgent in-person care in Vermont?', answer: (<p dangerouslySetInnerHTML={{ __html: "Seek urgent in-person evaluation if: cold sores are near the eye (possible herpes keratitis — can threaten vision); you have systemic fever or very severe illness; cold sores occur in a newborn or young infant; you are severely immunocompromised and sores are spreading or non-healing; or this is a first episode with very severe symptoms. <a href='https://www.plannedparenthood.org/get-care' rel='noopener' target='_blank'>Planned Parenthood Vermont</a> and urgent care facilities provide in-person evaluation across the state." }} />) },
-  { question: 'How quickly will my cold sore prescription reach a Vermont pharmacy?', answer: (<p dangerouslySetInnerHTML={{ __html: 'Vermont permits electronic prescribing for non-controlled medications and imposes no e-prescribing mandate. If valacyclovir or acyclovir is appropriate, TeleDirectMD sends an e-prescription to your chosen Vermont pharmacy during or after your visit — most pharmacies fill within 1–4 hours. These antivirals are not controlled substances.' }} />) },
+  { question: 'How quickly will my cold sore prescription reach a Vermont pharmacy?', answer: (<p dangerouslySetInnerHTML={{ __html: 'Vermont permits electronic prescribing for non-controlled medications and imposes no e-prescribing mandate. If valacyclovir is appropriate, TeleDirectMD sends an e-prescription to your chosen Vermont pharmacy during or after your visit — most pharmacies fill within 1–4 hours. These antivirals are not controlled substances.' }} />) },
   { question: 'Can cold sore antivirals be used for suppressive therapy in Vermont?', answer: (<p dangerouslySetInnerHTML={{ __html: "Yes. For patients with frequent cold sore recurrences (6 or more per year), daily suppressive therapy with valacyclovir 500 mg once daily reduces recurrence frequency by approximately 50% per the <a href='https://www.cdc.gov/std/treatment-guidelines/herpes.htm' rel='noopener' target='_blank'>CDC</a>. TeleDirectMD can prescribe suppressive antiviral therapy for appropriate patients after evaluating recurrence frequency and contraindications." }} />) }
 ];
 
 function buildSchemas() {
-  const medicalWebPage = { '@context': 'https://schema.org', '@type': 'MedicalWebPage', name: PAGE_TITLE, url: PAGE_URL, description: 'Cold Sore Treatment Online in Vermont | TeleDirectMD by secure video visit for Vermont adults. Board-certified Family Medicine physician. Vermont telehealth law compliant. Cash-pay only at $79 flat.', datePublished: DATE_PUBLISHED, dateModified: DATE_MODIFIED, inLanguage: 'en-US', about: { '@type': 'MedicalCondition', name: 'Cold Sores', code: { '@type': 'MedicalCode', code: 'B00.1', codingSystem: 'ICD-10-CM' } }, medicalAudience: { '@type': 'MedicalAudience', audienceType: 'Patient', geographicArea: { '@type': 'AdministrativeArea', name: 'Vermont' } }, reviewedBy: { '@type': 'Physician', '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar', name: PHYSICIAN.name, identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi }, medicalSpecialty: PHYSICIAN.specialty, hasCredential: [{ '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'Board Certification — American Board of Family Medicine' }, { '@type': 'EducationalOccupationalCredential', credentialCategory: 'Medical License', name: 'Vermont Medical License', identifier: '042.0040345-COMP', recognizedBy: { '@type': 'GovernmentOrganization', name: 'Vermont Board of Medical Practice', url: 'https://www.healthvermont.gov/systems/board-medical-practice' } }], areaServed: { '@type': 'State', name: 'Vermont' }, licensedIn: PHYSICIAN.licenseState, worksFor: { '@type': 'MedicalOrganization', name: 'TeleDirectMD', url: 'https://teledirectmd.com' }, sameAs: ['https://npiregistry.cms.hhs.gov/provider-view/1104323203', 'https://teledirectmd.com/about/'] }, speakable: { '@type': 'SpeakableSpecification', cssSelector: ['#vt-cold-sore-opening', '#vt-cold-sore-opening p', '.tdmd-vt-cold-sore__byline', '#vt-cold-sore-treatment-online-faq'] } };
+  const medicalWebPage = { '@context': 'https://schema.org', '@type': 'MedicalWebPage', name: PAGE_TITLE, url: PAGE_URL, description: 'Cold Sore Treatment Online in Vermont | TeleDirectMD by secure video visit for Vermont adults. Board-certified Family Medicine physician. Vermont telehealth law compliant. Cash-pay only at $79 flat.', datePublished: DATE_PUBLISHED, dateModified: DATE_MODIFIED, inLanguage: 'en-US', about: { '@type': 'MedicalCondition', name: 'Cold Sores', code: { '@type': 'MedicalCode', code: 'B00.1', codingSystem: 'ICD-10-CM' } }, medicalAudience: { '@type': 'MedicalAudience', audienceType: 'Patient', geographicArea: { '@type': 'AdministrativeArea', name: 'Vermont' } }, reviewedBy: { '@type': 'Physician', '@id': 'https://teledirectmd.com/about/#physician', name: PHYSICIAN.name, identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi }, medicalSpecialty: PHYSICIAN.specialty, hasCredential: [{ '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'Board Certification — American Board of Family Medicine' }, { '@type': 'EducationalOccupationalCredential', credentialCategory: 'Medical License', name: 'Vermont Medical License', identifier: '042.0040345-COMP', recognizedBy: { '@type': 'GovernmentOrganization', name: 'Vermont Board of Medical Practice', url: 'https://www.healthvermont.gov/systems/board-medical-practice' } }], areaServed: { '@type': 'State', name: 'Vermont' }, licensedIn: PHYSICIAN.licenseState, worksFor: { '@type': 'MedicalOrganization', name: 'TeleDirectMD', url: 'https://teledirectmd.com' }, sameAs: ['https://npiregistry.cms.hhs.gov/provider-view/1104323203', 'https://teledirectmd.com/about/'] }, speakable: { '@type': 'SpeakableSpecification', cssSelector: ['#vt-cold-sore-opening', '#vt-cold-sore-opening p', '.tdmd-vt-cold-sore__byline', '#vt-cold-sore-treatment-online-faq'] } };
   const faqPage = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: FAQ_ITEMS.map((faq) => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: extractPlain(faq.answer) } })) };
   const howTo = { '@context': 'https://schema.org', '@type': 'HowTo', name: 'How to Get Cold Sores Treatment Online in Vermont', totalTime: 'PT30M', estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '79' }, step: [{ '@type': 'HowToStep', position: 1, name: 'Book your video visit', text: 'Visit teledirectmd.com. Self pay $79. No referral needed.', url: 'https://teledirectmd.com/book-online' }, { '@type': 'HowToStep', position: 2, name: 'See a Vermont-licensed MD', text: 'Physician reviews symptoms and completes red-flag screening per clinical guidelines.', url: PAGE_URL }, { '@type': 'HowToStep', position: 3, name: 'Receive e-prescription', text: 'If appropriate, e-prescription sent to your Vermont pharmacy electronically.', url: PAGE_URL }] };
   const breadcrumb = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'TeleDirectMD', item: 'https://teledirectmd.com' }, { '@type': 'ListItem', position: 2, name: 'Vermont', item: 'https://teledirectmd.com/vt/' }, { '@type': 'ListItem', position: 3, name: 'Cold Sore Treatment Online', item: PAGE_URL }] };
@@ -87,7 +87,7 @@ export default function VtColdSoreTreatmentOnline() {
               <div className="tdmd-hero-copy">
                 <h1 data-speakable="true">Cold Sore Treatment Online in Vermont</h1>
                 <p className="tdmd-hero-sub" data-speakable="true">Vermont adults: board-certified MD by secure video. Cash-pay $79 flat · No insurance billing in Vermont · 18 V.S.A. § 9361 compliant.</p>
-                <p dangerouslySetInnerHTML={{ __html: "Cold sores — caused by herpes simplex virus type 1 (HSV-1) — affect approximately 67% of adults worldwide under age 50, according to the <a href='https://www.cdc.gov/herpes/statistics/index.html' rel='noopener' target='_blank'>CDC</a>. In Vermont, with a population of approximately 39 million, an estimated 20–25 million Vermonters carry HSV-1. Cold sores (orolabial herpes) appear as painful blisters on or around the lips, typically preceded by a tingling or burning prodrome. They are self-limited but antiviral therapy shortens healing time, reduces viral shedding, and decreases recurrence frequency when used promptly. TeleDirectMD evaluates Vermont adults with classic recurrent orolabial herpes and prescribes guideline-based antiviral treatment when appropriate. Serving Los Angeles, San Diego, San Jose, San Francisco, Fresno, Sacramento, Long Beach, Oakland, Bakersfield, and Anaheim." }} />
+                <p dangerouslySetInnerHTML={{ __html: "Cold sores are caused by herpes simplex virus type 1 (HSV-1), which infects an estimated 64% of people worldwide under age 50, according to the <a href='https://www.who.int/news-room/fact-sheets/detail/herpes-simplex-virus' rel='noopener' target='_blank'>WHO</a>. That means most Vermont adults carry HSV-1, even if they have never had a noticeable outbreak. Cold sores (orolabial herpes) appear as painful blisters on or around the lips, typically preceded by a tingling or burning prodrome. They are self-limited but antiviral therapy shortens healing time, reduces viral shedding, and decreases recurrence frequency when used promptly. TeleDirectMD evaluates Vermont adults with classic recurrent orolabial herpes and prescribes guideline-based antiviral treatment when appropriate." }} />
                 <div className='tdmd-vt-cold-sore__byline' aria-label="Reviewed by physician">
                   <img src={PHYSICIAN.headshot} alt={`${PHYSICIAN.name} headshot`} loading="eager" width={56} height={56} />
                   <div className='tdmd-vt-cold-sore__byline-text'>
@@ -111,9 +111,9 @@ export default function VtColdSoreTreatmentOnline() {
                   <li>Licensed telehealth for Vermont adults at time of visit</li>
                 </ul>
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
                   <a href="/vt/" className="tdmd-btn tdmd-btn-outline">Explore Vermont Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
                 </div>
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> B00.1</p>
               </div>
@@ -139,7 +139,7 @@ export default function VtColdSoreTreatmentOnline() {
             <div className="tdmd-condition-opener" id='vt-cold-sore-opening'>
               <h2>Can I Get Cold Sore Treatment Online in Vermont?</h2>
               <p dangerouslySetInnerHTML={{ __html: "<strong>Yes.</strong> <a href='https://legislature.vermont.gov/statutes/fullchapter/18/219' rel='noopener' target='_blank'>18 V.S.A. Chapter 219 (Vermont&apos;s telemedicine statute)</a> permits Vermont-licensed physicians to evaluate and prescribe antiviral treatment for cold sores by synchronous video visit. The <a href='https://www.healthvermont.gov/systems/board-medical-practice' rel='noopener' target='_blank'>Vermont Board of Medical Practice</a> holds telehealth physicians to the same standard of care as in-person physicians. For adults with classic recurrent orolabial HSV-1 — familiar prodrome followed by labial blistering — telehealth evaluation is clinically appropriate. Per the <a href='https://www.cdc.gov/std/treatment-guidelines/herpes.htm' rel='noopener' target='_blank'>CDC STI Treatment Guidelines 2021</a>, valacyclovir 2 g twice daily × 1 day (2-dose episodic regimen) significantly reduces cold sore healing time when initiated at prodrome. Self pay is $79." }} />
-              <small className="tdmd-condition-opener__meta">Reviewed by <a href="/about/">Parth Bhavsar, MD</a> · Board-Certified Family Medicine · NPI 1104323203 · Licensed in Vermont (License #042.0040345-COMP · <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed June 4, 2026</small>
+              <small className="tdmd-condition-opener__meta">Reviewed by <a href="/about/">Parth Bhavsar, MD</a> · Board-Certified Family Medicine · NPI 1104323203 · Licensed in Vermont (License #042.0040345-COMP · <a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed June 4, 2026</small>
             </div>
           </div>
         </section>
@@ -159,7 +159,7 @@ export default function VtColdSoreTreatmentOnline() {
         <section className="tdmd-section" id={`${pid}-epidemiology`}>
           <div className="tdmd-container">
             <h2>Cold Sores in Vermont</h2>
-            <p dangerouslySetInnerHTML={{ __html: "Cold sores affect approximately 67% of adults under age 50 globally, per the <a href='https://www.cdc.gov/herpes/statistics/index.html' rel='noopener' target='_blank'>CDC</a>. In Vermont, millions of adults experience recurrent orolabial HSV-1 outbreaks — often triggered by sun exposure, stress, illness, or immunosuppression. Vermont&apos;s diverse population and high UV exposure make sun-triggered cold sore recurrences particularly common. Orolabial herpes is not a reportable condition in Vermont, but it represents a significant clinical and quality-of-life burden for affected individuals. Antiviral suppressive therapy reduces recurrence frequency by approximately 50% for patients with frequent cold sores." }} />
+            <p dangerouslySetInnerHTML={{ __html: "HSV-1, the virus that causes cold sores, infects an estimated 64% of people under age 50 globally, per the <a href='https://www.who.int/news-room/fact-sheets/detail/herpes-simplex-virus' rel='noopener' target='_blank'>WHO</a>. Many Vermont adults experience recurrent orolabial HSV-1 outbreaks, often triggered by sun exposure (including sun reflected off snow), stress, illness, or immunosuppression. Orolabial herpes is not a reportable condition in Vermont, but it represents a significant clinical and quality-of-life burden for affected individuals. Antiviral suppressive therapy reduces recurrence frequency by approximately 50% for patients with frequent cold sores." }} />
           </div>
         </section>
 
@@ -177,7 +177,7 @@ export default function VtColdSoreTreatmentOnline() {
               </div>
               <div className="tdmd-decision-step tdmd-decision-step-good">
                 <div className="tdmd-decision-number">3</div>
-                <div className="tdmd-decision-content"><h3>Receive treatment plan and, if appropriate, a prescription</h3><p>If treatment is clinically appropriate, a Vermont-compliant e-prescription is sent to your chosen Vermont pharmacy during or after your visit. Follow-up instructions are provided.</p><div className="tdmd-decision-cta"><a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a></div></div>
+                <div className="tdmd-decision-content"><h3>Receive treatment plan and, if appropriate, a prescription</h3><p>If treatment is clinically appropriate, a Vermont-compliant e-prescription is sent to your chosen Vermont pharmacy during or after your visit. Follow-up instructions are provided.</p><div className="tdmd-decision-cta"><a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a></div></div>
               </div>
             </div>
           </div>
@@ -189,15 +189,6 @@ export default function VtColdSoreTreatmentOnline() {
             <p>TeleDirectMD&apos;s self-pay rate is <strong>$79</strong> for a complete MD video visit.</p>
             <div className="tdmd-price-grid">
               <div className="tdmd-price-card"><h3>TeleDirectMD Video Visit</h3><p className="tdmd-price-big">$79</p><p className="tdmd-price-sub">Self-pay flat fee — no subscription</p><ul className="tdmd-price-includes"><li>Board-certified MD evaluation</li><li>Guideline-based treatment plan</li><li>e-Prescription to your VT pharmacy</li><li>Follow-up instructions and prevention guidance</li></ul></div>
-              <div className="tdmd-price-chart" role="group" aria-label="Cost comparison">
-                <h3>Typical Treatment Cost in Vermont</h3>
-                <p className="tdmd-price-caption">Common ranges before insurance. Actual costs vary.</p>
-                <div className="tdmd-vbars" role="list">
-                  {[{ name: 'TeleDirectMD', value: '$79', heightPct: 13, isTdmd: true }, { name: 'Other telehealth', value: '$75–$150', heightPct: 22 }, { name: 'Urgent care', value: '$150–$300', heightPct: 45 }, { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 }].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem"><span className="tdmd-vbar__value">{bar.value}</span><div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" /><span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span></div>
-                  ))}
-                </div>
-              </div>
             </div>
             <div className="tdmd-cashpay-note">
               <p><strong>$79 flat self-pay.</strong> No insurance billing in Vermont &mdash; straightforward, transparent pricing. Your visit fee is paid at booking. HSA and FSA cards are accepted. Prescription costs are filled separately at your pharmacy of choice and may be covered by your pharmacy benefit.</p>
@@ -208,7 +199,7 @@ export default function VtColdSoreTreatmentOnline() {
         <section className="tdmd-section" id={`${pid}-medications`}>
           <div className="tdmd-container">
             <h2>Cold Sores Treatment Options and Costs in Vermont</h2>
-            <p dangerouslySetInnerHTML={{ __html: "Per the <a href='https://www.cdc.gov/std/treatment-guidelines/herpes.htm' rel='noopener' target='_blank'>CDC STI Treatment Guidelines 2021</a> and <a href='https://www.idsociety.org/practice-guideline/herpes-simplex-virus/' rel='noopener' target='_blank'>IDSA guidelines</a>, antiviral therapy reduces cold sore duration and severity when initiated promptly at prodrome." }} />
+            <p dangerouslySetInnerHTML={{ __html: "Per the <a href='https://www.cdc.gov/std/treatment-guidelines/herpes.htm' rel='noopener' target='_blank'>CDC STI Treatment Guidelines 2021</a>, antiviral therapy reduces cold sore duration and severity when initiated promptly at prodrome." }} />
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Cold Sores treatment options and GoodRx prices">
                 <caption style={{ captionSide: 'bottom', textAlign: 'left', padding: '0.5rem 0', fontSize: '0.85rem', color: 'var(--tdmd-muted)' }}>GoodRx prices retrieved May 2026. Prescription costs separate from visit fee.</caption>
@@ -237,7 +228,7 @@ export default function VtColdSoreTreatmentOnline() {
                   <li><strong><a href="https://www.plannedparenthood.org/get-care" rel="noopener" target="_blank">Planned Parenthood Vermont</a>:</strong> Free/low-cost sexual health evaluation and testing</li>
                   <li><strong><a href="https://www.familypact.org" rel="noopener" target="_blank">Vermont Family PACT</a>:</strong> Free reproductive health care for eligible low-income Vermonters</li>
                   <li><strong><a href="https://vermont211.org" rel="noopener" target="_blank">Vermont 211</a>:</strong> Find local sexual health clinics statewide</li>
-                  <li><strong><a href="https://www.hhs.gov/opa/title-x-family-planning/index.html" rel="noopener" target="_blank">Vermont Title X Clinics</a>:</strong> Free or low-cost reproductive health care</li>
+                  <li><strong><a href="https://opa.hhs.gov/grant-programs/title-x-service-grants" rel="noopener" target="_blank">Vermont Title X Clinics</a>:</strong> Free or low-cost reproductive health care</li>
                 </ul>
               </div>
             </div>
@@ -248,7 +239,7 @@ export default function VtColdSoreTreatmentOnline() {
           <div className="tdmd-container">
             <div className='tdmd-vt-cold-sore__cta-strip' role="complementary">
               <div><p>Book a same-day video visit — Vermont adults, 18+</p><small>Cash-pay $79 flat · No insurance billing in Vermont May 2026</small></div>
-              <a className='ca-cold-sore__cta-btn' href="/book-online" rel="noopener">Book Now →</a>
+              <a className='ca-cold-sore__cta-btn' href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -256,7 +247,7 @@ export default function VtColdSoreTreatmentOnline() {
         <section className="tdmd-section tdmd-faq" id={`${pid}-faq`}>
           <div className="tdmd-container">
             <FaqAccordion sectionTitle={`Frequently Asked Questions — Cold Sores Treatment in Vermont`} items={FAQ_ITEMS.map((f, i) => ({ ...f, id: `${pid}-faq-${i}` }))} />
-            <div className="tdmd-bottom-cta"><div className="tdmd-bottom-cta-copy"><h3>Ready to see a Vermont-licensed MD?</h3><p>Book a same-day video visit. Cash-pay $79 flat. No insurance billing in Vermont.</p></div><div className="tdmd-bottom-cta-actions"><a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a><a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a></div></div>
+            <div className="tdmd-bottom-cta"><div className="tdmd-bottom-cta-copy"><h3>Ready to see a Vermont-licensed MD?</h3><p>Book a same-day video visit. Cash-pay $79 flat. No insurance billing in Vermont.</p></div><div className="tdmd-bottom-cta-actions"><a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a><a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Conditions</a></div></div>
           </div>
         </section>
 
@@ -264,7 +255,7 @@ export default function VtColdSoreTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Other Vermont Conditions We Treat</h2>
             <div className='tdmd-vt-cold-sore__sibling-grid'>
-              {VT_SIBLINGS.map((s) => (<a key={s.slug} className='tdmd-vt-cold-sore__sibling' href={`/vt/${s.slug}/`}><span className='tdmd-vt-cold-sore__sibling-label'>{s.label}</span><span className='tdmd-vt-cold-sore__sibling-why'>{s.why}</span></a>))}
+              {VT_SIBLINGS.map((s) => (<a key={s.slug} className='tdmd-vt-cold-sore__sibling' href={stateConditionHref('vt', s.slug) || `/${s.slug}/`}><span className='tdmd-vt-cold-sore__sibling-label'>{s.label}</span><span className='tdmd-vt-cold-sore__sibling-why'>{s.why}</span></a>))}
             </div>
           </div>
         </section>
@@ -278,10 +269,8 @@ export default function VtColdSoreTreatmentOnline() {
               <li><a href='https://legislature.vermont.gov/statutes/fullchapter/26/023' rel='noopener' target='_blank'>26 V.S.A. Chapter 23 (Vermont Medical Practice Act)</a>. Retrieved May 2026.</li>
               <li><a href='https://legislature.vermont.gov/statutes/section/18/219/09361' rel='noopener' target='_blank'>18 V.S.A. § 9361 (Vermont telemedicine prescribing)</a>. Retrieved May 2026.</li>
               <li><a href='https://www.cdc.gov/std/treatment-guidelines/herpes.htm' rel="noopener" target="_blank">CDC STI Treatment Guidelines 2021 — Genital and Orolabial HSV Infections</a>. Retrieved May 2026.</li>
-              <li><a href='https://www.cdc.gov/herpes/statistics/index.html' rel="noopener" target="_blank">CDC — Herpes Simplex Virus Prevalence Statistics</a>. Retrieved May 2026.</li>
-              <li><a href='https://www.idsociety.org/practice-guideline/herpes-simplex-virus/' rel="noopener" target="_blank">IDSA — Herpes Simplex Virus Guidelines</a>. Retrieved May 2026.</li>
+              <li><a href='https://www.who.int/news-room/fact-sheets/detail/herpes-simplex-virus' rel="noopener" target="_blank">World Health Organization: Herpes Simplex Virus Fact Sheet</a>. Retrieved October 2026.</li>
               <li><a href='https://www.goodrx.com/valacyclovir' rel="noopener" target="_blank">GoodRx — Valacyclovir Prices (May 2026)</a>. Retrieved May 2026.</li>
-              <li><a href='https://www.goodrx.com/acyclovir' rel="noopener" target="_blank">GoodRx — Acyclovir Prices (May 2026)</a>. Retrieved May 2026.</li>
               <li><a href='https://www.plannedparenthood.org/get-care' rel="noopener" target="_blank">Planned Parenthood — Get Care</a>. Retrieved May 2026.</li>
               <li><a href='https://www.familypact.org' rel="noopener" target="_blank">Vermont Family PACT</a>. Retrieved May 2026.</li>
               <li><a href='https://vermont211.org' rel="noopener" target="_blank">Vermont 211</a>. Retrieved May 2026.</li>

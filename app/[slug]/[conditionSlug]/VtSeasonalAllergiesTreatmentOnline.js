@@ -2,7 +2,7 @@
  * VtSeasonalAllergiesTreatmentOnline.js — Vermont × Seasonal Allergies Treatment condition page (v3)
  *
  * URL: /ca/seasonal-allergies-treatment-online/
- * Authority: AAAAI/ACAAI + ARIA-EAACI 2026
+ * Authority: AAAAI/ACAAI + ARIA-EAACI 2024-2025
  * Rendered by app/[slug]/[conditionSlug]/page.js when slug === 'ca'
  * and conditionSlug === 'seasonal-allergies-treatment-online'.
  *
@@ -25,6 +25,7 @@
  *   • NPI 1104323203 visible
  *   • All .gov and clinical society citations are live <a href> tags
  */
+import { stateConditionHref } from '../../../lib/live-routes';
 import FaqAccordion from '../../components/FaqAccordion';
 import { VtNationalStyle } from '../../components/VtNationalChrome';
 
@@ -40,7 +41,7 @@ const PHYSICIAN = {
   specialty: 'Family Medicine',
   licenseState: 'Vermont',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 
@@ -65,8 +66,8 @@ const FAQ_ITEMS = [
   },
   {
     id: 'seasonal-allergies-treatment-online-faq-2',
-    question: "What is the first-line treatment for seasonal allergies per ARIA 2026?",
-    answer: <p>The ARIA 2026 (Allergic Rhinitis and Its Impact on Asthma) updated guideline and AAAAI/ACAAI practice parameters establish intranasal corticosteroids (INCS) as the most effective first-line treatment for persistent or moderate-severe allergic rhinitis. INCS — including fluticasone propionate (Flonase), mometasone (Nasonex), and budesonide (Rhinocort) — reduce nasal congestion, rhinorrhea, sneezing, and nasal pruritus more effectively than oral antihistamines alone. For mild intermittent symptoms, second-generation antihistamines (cetirizine, fexofenadine, loratadine) are appropriate as monotherapy.</p>,
+    question: "What is the first-line treatment for seasonal allergies per ARIA 2024-2025?",
+    answer: <p>The ARIA-EAACI 2024-2025 (Allergic Rhinitis and Its Impact on Asthma) guideline revision and AAAAI/ACAAI practice parameters establish intranasal corticosteroids (INCS) as the most effective first-line treatment for persistent or moderate-severe allergic rhinitis. INCS — including fluticasone propionate (Flonase), mometasone (Nasonex), and budesonide (Rhinocort) — reduce nasal congestion, rhinorrhea, sneezing, and nasal pruritus more effectively than oral antihistamines alone. For mild intermittent symptoms, second-generation antihistamines (cetirizine, fexofenadine, loratadine) are appropriate as monotherapy.</p>,
   },
   {
     id: 'seasonal-allergies-treatment-online-faq-3',
@@ -101,7 +102,7 @@ const FAQ_ITEMS = [
   {
     id: 'seasonal-allergies-treatment-online-faq-10',
     question: "Can TeleDirectMD treat children\'s seasonal allergies in Vermont?",
-    answer: <p>TeleDirectMD treats adults 18 years of age and older only. Children with seasonal allergies should be seen by their pediatrician, a board-certified allergist, or a pediatric primary care provider. Pediatric allergy resources in Vermont include the AAAAI Find an Allergist tool at aaaai.org and Medi-Cal managed care pediatric providers for insured children.</p>,
+    answer: <p>TeleDirectMD treats adults 18 years of age and older only. Children with seasonal allergies should be seen by their pediatrician, a board-certified allergist, or a pediatric primary care provider. Pediatric allergy resources in Vermont include the AAAAI Find an Allergist tool at aaaai.org and pediatric providers that accept Dr. Dynasaur, Vermont's Medicaid coverage for children.</p>,
   },
   {
     id: 'seasonal-allergies-treatment-online-faq-11',
@@ -116,7 +117,6 @@ const VT_SIBLINGS = [
   { slug: 'anti-aging-treatment-online', label: "Anti-Aging Treatment in VT", why: "Allergic contact dermatitis can mimic anti-aging skin concerns — differential context." },
   { slug: 'smoking-cessation-treatment-online', label: "Smoking Cessation in VT", why: "Smoking worsens allergic rhinitis — cessation reduces nasal inflammation." },
   { slug: 'acid-reflux-refills-online', label: "Acid Reflux Refills in VT", why: "Nasal drip can trigger reflux — postnasal drip and GERD often co-occur." },
-  { slug: 'online-doctor-visits', label: "All Online Doctor Visits in VT", why: "General VT telehealth hub." }
 ];
 
 function buildSchemas() {
@@ -125,7 +125,7 @@ function buildSchemas() {
     '@type': 'MedicalWebPage',
     name: PAGE_TITLE,
     url: PAGE_URL,
-    description: 'Get seasonal allergy treatment online in Vermont. Board-certified Family Medicine MD. Vermont telehealth law compliant. Cash-pay only at $79 flat. AAAAI/ACAAI + ARIA-EAACI 2026 guidelines. Antihistamines, nasal steroids, immunotherapy referral.',
+    description: 'Get seasonal allergy treatment online in Vermont. Board-certified Family Medicine MD. Vermont telehealth law compliant. Cash-pay only at $79 flat. AAAAI/ACAAI + ARIA-EAACI 2024-2025 guidelines. Antihistamines, nasal steroids, immunotherapy referral.',
     datePublished: DATE_PUBLISHED,
     dateModified: DATE_MODIFIED,
     inLanguage: 'en-US',
@@ -140,7 +140,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -251,7 +251,7 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
               <div className="tdmd-hero-copy">
                 <h1 data-speakable="true">Seasonal Allergies Treatment</h1>
                 <p className="tdmd-hero-sub" data-speakable="true">
-                  Vermont adults 18+ · Secure video visit · Cash-pay $79 flat · MD-only · 18 V.S.A. Chapter 219 compliant · AAAAI/ACAAI + ARIA-EAACI 2026
+                  Vermont adults 18+ · Secure video visit · Cash-pay $79 flat · MD-only · 18 V.S.A. Chapter 219 compliant · AAAAI/ACAAI + ARIA-EAACI 2024-2025
                 </p>
                 <p>
                   TeleDirectMD provides evidence-based seasonal allergies treatment by secure video visit for Vermont adults. A Vermont-licensed board-certified Family Medicine physician evaluates your history, reviews relevant lab values and prior treatments, and prescribes appropriate medication when clinically indicated. This page is for adults located in Vermont, including {vtCities.join(', ')}, and surrounding areas.
@@ -265,7 +265,7 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
                       Reviewed by <a href={PHYSICIAN.bioUrl}>{PHYSICIAN.name}</a> — Board-Certified {PHYSICIAN.specialty}
                     </span>
                     <span className="tdmd-vt-uti__byline-meta">
-                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
+                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
                       <time dateTime={DATE_MODIFIED}>{new Date(DATE_MODIFIED).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
                     </span>
                   </div>
@@ -287,13 +287,13 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
                   <li>$79 flat cash-pay — no insurance billing in Vermont</li>
                   <li>MD-only care (no mid-levels)</li>
                   <li>Vermont-licensed telehealth for adults located in Vermont at time of visit</li>
-                  <li>Evidence-based treatment per AAAAI/ACAAI + ARIA-EAACI 2026</li>
+                  <li>Evidence-based treatment per AAAAI/ACAAI + ARIA-EAACI 2024-2025</li>
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
                   <a href="/vt/" className="tdmd-btn tdmd-btn-outline">Explore Vermont Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> J30.1 (Allergic rhinitis due to pollen), J30.9 (Allergic rhinitis, unspecified) — final coding per clinical details</p>
@@ -304,7 +304,7 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
                   <h2>Online Seasonal Allergies Treatment in Vermont</h2>
                   <ul>
                     <li>Board-certified Family Medicine MD — Vermont-licensed</li>
-                    <li>Evidence-based regimen per AAAAI/ACAAI + ARIA-EAACI 2026</li>
+                    <li>Evidence-based regimen per AAAAI/ACAAI + ARIA-EAACI 2024-2025</li>
                     <li>Lab value review before prescribing</li>
                     <li>e-Prescriptions to your VT pharmacy electronically</li>
                     <li>Clear follow-up steps and monitoring guidance</li>
@@ -323,7 +323,7 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
           <div className="tdmd-container">
             <div className="tdmd-condition-opener" id="seasonal-allergies-treatment-online-opening">
               <p>
-                Vermont adults with seasonal allergic rhinitis can receive evaluation and prescription allergy treatment — including intranasal corticosteroids, antihistamines, leukotriene receptor antagonists, and nasal antihistamine/steroid combinations — by secure video visit through TeleDirectMD, consistent with 18 V.S.A. Chapter 219. A Vermont-licensed board-certified Family Medicine physician reviews your allergen trigger history, symptom pattern, prior treatment response, and comorbid conditions (asthma, allergic conjunctivitis). AAAAI, ACAAI, and the updated ARIA-EAACI 2026 guidelines inform treatment selection. Vermont's allergy season typically starts in March and peaks in April and May, driven by tree pollen from maple, birch, and oak, followed by grass pollen (May–July) and ragweed (August–October). Self pay is $79.
+                Vermont adults with seasonal allergic rhinitis can receive evaluation and prescription allergy treatment — including intranasal corticosteroids, antihistamines, leukotriene receptor antagonists, and nasal antihistamine/steroid combinations — by secure video visit through TeleDirectMD, consistent with 18 V.S.A. Chapter 219. A Vermont-licensed board-certified Family Medicine physician reviews your allergen trigger history, symptom pattern, prior treatment response, and comorbid conditions (asthma, allergic conjunctivitis). AAAAI, ACAAI, and the updated ARIA-EAACI 2024-2025 guidelines inform treatment selection. Vermont's allergy season typically starts in March and peaks in April and May, driven by tree pollen from maple, birch, and oak, followed by grass pollen (May–July) and ragweed (August–October). Self pay is $79.
               </p>
               <span className="tdmd-condition-opener__meta">
                 Reviewed by <a href="/about/">{PHYSICIAN.name}</a>, Board-Certified {PHYSICIAN.specialty} · NPI {PHYSICIAN.npi} · Licensed in {PHYSICIAN.licenseState} ·
@@ -345,7 +345,7 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
 
             <h3>What standard of care applies to Vermont telehealth physicians?</h3>
             <p>
-              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: &ldquo;The standard of care is the same whether the patient is seen in-person, through telehealth or other methods of electronically enabled health care.&rdquo; TeleDirectMD physicians are licensed in Vermont. See <a href="/about/">Dr. Bhavsar&apos;s bio</a> for credential details.
+              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: &ldquo;The standard of care is the same whether the patient is seen in-person, through telehealth or other methods of electronically enabled health care.&rdquo; Dr. Bhavsar is licensed in Vermont. See <a href="/about/">Dr. Bhavsar&apos;s bio</a> for credential details.
             </p>
 
             
@@ -390,25 +390,6 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical cost comparison">
-                <h3>Typical Seasonal Allergies Treatment Visit Cost in Vermont</h3>
-                <p className="tdmd-price-caption">Common ranges Vermonters see before insurance. Actual costs vary by setting and city.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 13, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical Vermont metro pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <div className="tdmd-cashpay-note">
@@ -426,7 +407,7 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Seasonal Allergies Treatment: Medication Options and Pricing</h2>
             <p>
-              The table below reflects evidence-based medication options per AAAAI/ACAAI + ARIA-EAACI 2026 guidelines.
+              The table below reflects evidence-based medication options per AAAAI/ACAAI + ARIA-EAACI 2024-2025 guidelines.
               GoodRx prices retrieved May 2026 from goodrx.com — national coupon prices; actual cost varies by Vermont pharmacy location.
               Prescription costs are separate from the $79 TeleDirectMD visit fee.
             </p>
@@ -447,19 +428,19 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
                   <tr>
                     <td><strong>Fluticasone propionate nasal spray 50 mcg (Flonase, generic)</strong></td>
                     <td>2 sprays each nostril once daily; 1 spray maintenance</td>
-                    <td><a href="https://www.goodrx.com/fluticasone-nasal" target="_blank" rel="noopener">Available OTC (~$15–$25/month); Rx strength same</a></td>
-                    <td>First-line for moderate-persistent allergic rhinitis per ARIA 2026. Minimal systemic absorption. Also available as Flonase Sensimist (aqueous mist, less drip).</td>
+                    <td><a href="https://www.goodrx.com/fluticasone-propionate" target="_blank" rel="noopener">Available OTC (~$15–$25/month); Rx strength same</a></td>
+                    <td>First-line for moderate-persistent allergic rhinitis per ARIA-EAACI 2024-2025. Minimal systemic absorption. Also available as Flonase Sensimist (aqueous mist, less drip).</td>
                   </tr>
                   <tr>
                     <td><strong>Mometasone nasal spray 50 mcg (Nasonex, generic)</strong></td>
                     <td>2 sprays each nostril once daily</td>
-                    <td><a href="https://www.goodrx.com/mometasone-nasal" target="_blank" rel="noopener">~$15–$30/month GoodRx (generic)</a></td>
+                    <td><a href="https://www.goodrx.com/mometasone" target="_blank" rel="noopener">~$15–$30/month GoodRx (generic)</a></td>
                     <td>Similar efficacy to fluticasone. Generic available.</td>
                   </tr>
                   <tr>
                     <td><strong>Budesonide nasal spray 32 mcg (Rhinocort, generic)</strong></td>
                     <td>1–4 sprays per nostril once daily</td>
-                    <td><a href="https://www.goodrx.com/budesonide-nasal" target="_blank" rel="noopener">Available OTC and Rx (~$15–$25/month)</a></td>
+                    <td><a href="https://www.goodrx.com/budesonide" target="_blank" rel="noopener">Available OTC and Rx (~$15–$25/month)</a></td>
                     <td>Gentle aqueous formulation, well-tolerated. Good choice for patients prone to nasal dryness.</td>
                   </tr>
                   <tr>
@@ -535,7 +516,7 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
                 <p>Book a same-day video visit — Vermont adults, 18+</p>
                 <small>Cash-pay $79 flat · No insurance billing in Vermont · Seasonal Allergies Treatment</small>
               </div>
-              <a className="tdmd-vt-uti__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
+              <a className="tdmd-vt-uti__cta-btn" href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -554,8 +535,8 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
                 <p>Book a same-day video visit. Cash-pay $79 flat. No insurance billing in Vermont.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -568,7 +549,7 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
             <p>These Vermont condition pages address related or frequently co-occurring conditions treated by TeleDirectMD in Vermont.</p>
             <div className="tdmd-vt-uti__sibling-grid">
               {VT_SIBLINGS.map((s) => (
-                <a key={s.slug} className="tdmd-vt-uti__sibling" href={`/vt/${s.slug}/`}>
+                <a key={s.slug} className="tdmd-vt-uti__sibling" href={stateConditionHref('vt', s.slug) || `/${s.slug}/`}>
                   <span className="tdmd-vt-uti__sibling-label">{s.label}</span>
                   <span className="tdmd-vt-uti__sibling-why">{s.why}</span>
                 </a>
@@ -586,25 +567,25 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
               <a href="/">Home</a>
               <a href="/vt/">Vermont (state pillar)</a>
               <a href="/seasonal-allergies-treatment-online/">Seasonal Allergies Treatment (national)</a>
-              <a href="/vt/asthma-refills-online/">Asthma Refills in VT</a>
+              <a href="/asthma-refills-online/">Asthma Refills in VT</a>
               <a href="/vt/hypertension-refills-online/">Hypertension Refills in VT</a>
               <a href="/vt/hypothyroidism-refills-online/">Hypothyroidism Refills in VT</a>
               <a href="/vt/hyperlipidemia-refills-online/">Hyperlipidemia Refills in VT</a>
-              <a href="/vt/diabetes-refills-online/">Diabetes Refills in VT</a>
-              <a href="/vt/migraine-refills-online/">Migraine Refills in VT</a>
-              <a href="/vt/acid-reflux-refills-online/">Acid Reflux Refills in VT</a>
-              <a href="/vt/epipen-refills-online/">EpiPen Refills in VT</a>
-              <a href="/vt/hair-loss-treatment-online/">Hair Loss in VT</a>
+              <a href="/diabetes-refills-online/">Diabetes Refills in VT</a>
+              <a href="/migraine-refills-online/">Migraine Refills in VT</a>
+              <a href="/acid-reflux-refills-online/">Acid Reflux Refills in VT</a>
+              <a href="/epipen-refills-online/">EpiPen Refills in VT</a>
+              <a href="/hair-loss-treatment-online/">Hair Loss in VT</a>
               <a href="/vt/seasonal-allergies-treatment-online/">Seasonal Allergies in VT</a>
-              <a href="/vt/anti-aging-treatment-online/">Anti-Aging in VT</a>
-              <a href="/vt/eyelash-growth-treatment-online/">Eyelash Growth in VT</a>
-              <a href="/vt/smoking-cessation-treatment-online/">Smoking Cessation in VT</a>
-              <a href="/vt/motion-sickness-treatment-online/">Motion Sickness in VT</a>
-              <a href="/vt/uti-treatment-online/">UTI Treatment in VT</a>
+              <a href="/anti-aging-treatment-online/">Anti-Aging in VT</a>
+              <a href="/eyelash-growth-treatment-online/">Eyelash Growth in VT</a>
+              <a href="/smoking-cessation-treatment-online/">Smoking Cessation in VT</a>
+              <a href="/motion-sickness-treatment-online/">Motion Sickness in VT</a>
+              <a href="/vt/uti-treatment-online/">UTI Treatment for Women in VT</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>
@@ -619,13 +600,11 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
               <li><a href="https://legislature.vermont.gov/statutes/fullchapter/26/023" rel="noopener" target="_blank">26 V.S.A. Chapter 23 (Vermont Medical Practice Act)</a>. Retrieved May 2026.</li>
               <li><a href="https://legislature.vermont.gov/statutes/section/18/219/09361" rel="noopener" target="_blank">18 V.S.A. § 9361 (Vermont telemedicine prescribing)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.ariaguidelines.com/" rel="noopener" target="_blank">ARIA 2022 GRADE Guideline — Allergic Rhinitis</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.aaaai.org/conditions-and-treatments/allergies/rhinitis" rel="noopener" target="_blank">AAAAI — Practice Parameters for the Diagnosis and Management of Rhinitis</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.acaai.org/allergies/types/hay-fever/" rel="noopener" target="_blank">ACAAI — Allergic Rhinitis Treatment Guidelines</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.aaaai.org/conditions-and-treatments/allergies/rhinitis" rel="noopener" target="_blank">AAAAI — Allergic Rhinitis (Hay Fever) Overview</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.acaai.org/allergies/types/hay-fever/" rel="noopener" target="_blank">ACAAI — Hay Fever (Allergic Rhinitis)</a>. Retrieved May 2026.</li>
+              <li>Brożek JL, Bousquet J, Agache I, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/28602936/" rel="noopener" target="_blank">Allergic Rhinitis and its Impact on Asthma (ARIA) guidelines-2016 revision</a>. J Allergy Clin Immunol. 2017.</li>
+              <li><a href="https://www.aaaai.org/conditions-treatments/allergies/hay-fever-rhinitis" rel="noopener" target="_blank">AAAAI — Allergic Rhinitis (Hay Fever) Overview</a>. Retrieved May 2026.</li>
+              <li><a href="https://acaai.org/allergies/allergic-conditions/hay-fever/" rel="noopener" target="_blank">ACAAI — Hay Fever (Allergic Rhinitis)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.wyndly.com/blogs/allergy-season/vermont" rel="noopener" target="_blank">Wyndly — Vermont Allergy Season Guide and Pollen Calendar</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.ariaguidelines.com/" rel="noopener" target="_blank">ARIA-EAACI Guidelines — Allergic Rhinitis and Its Impact on Asthma</a>. Retrieved May 2026.</li>
+              <li>Sousa-Pinto B, Bousquet J, Vieira RJ, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/41324154/" rel="noopener" target="_blank">Allergic Rhinitis and Its Impact on Asthma (ARIA)-EAACI Guidelines-2024-2025 Revision: Part I-Guidelines on Intranasal Treatments</a>. Allergy. 2026.</li>
             </ol>
           </div>
         </section>

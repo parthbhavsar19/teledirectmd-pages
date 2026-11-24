@@ -21,8 +21,17 @@ export const metadata = {
 
 const BASE_URL = 'https://teledirectmd.com';
 
-// Published news articles — the only confirmed child is the Aetna California announcement
+// Published news articles, newest first
 const NEWS_ARTICLES = [
+  {
+    slug: 'anthem-blue-cross-california-september-2026',
+    title: 'TeleDirectMD Now In-Network with Anthem Blue Cross in California',
+    date: '2026-09-26',
+    dateDisplay: 'September 26, 2026',
+    category: 'Announcement',
+    summary:
+      'TeleDirectMD is now in-network with Anthem Blue Cross Commercial PPO, Commercial Indemnity, and Medicare PPO plans in California, effective September 23, 2026. HMO, Medicare Advantage HMO, and Medi-Cal plans are not included.',
+  },
   {
     slug: 'aetna-california-may-2026',
     title: 'TeleDirectMD Now In-Network with Aetna in California',
@@ -51,7 +60,7 @@ const FAQS = [
   {
     question: 'Does TeleDirectMD publish news about its services?',
     answer:
-      'Yes. TeleDirectMD publishes service announcements, coverage expansions, and insurance partnership news at teledirectmd.com/news. The most recent announcement covers the Aetna California in-network addition (May 2026). Additional announcements will be published as new insurance contracts and state licenses are added.',
+      'Yes. TeleDirectMD publishes service announcements, coverage expansions, and insurance partnership news at teledirectmd.com/news. The most recent announcement covers the Anthem Blue Cross California in-network addition (September 2026). Additional announcements will be published as new insurance contracts and state licenses are added.',
   },
   {
     question: 'Where has Dr. Parth Bhavsar, MD been quoted as a medical expert?',
@@ -66,7 +75,7 @@ const FAQS = [
   {
     question: 'Is TeleDirectMD expanding to new states?',
     answer:
-      'Yes. TeleDirectMD is actively pursuing additional state medical licenses and insurance contracts. The practice currently serves 43 states + Washington DC. Expansions to additional states will be announced on this news page when they are completed. Patients in currently unserved states (AK, HI, NY, MA, RI, NM, OR, AR) can check back periodically or contact the practice directly for an update on their state.',
+      'Yes. TeleDirectMD is actively pursuing additional state medical licenses and insurance contracts. The practice currently serves 40+ states + Washington DC. Expansions to additional states will be announced on this news page when they are completed. Patients in currently unserved states (AR, MA, NM, NY, OR, RI) can check back periodically or contact the practice directly for an update on their state.',
   },
   {
     question: 'What is TeleDirectMD\'s position on telehealth regulation?',
@@ -101,7 +110,7 @@ const jsonLd = {
       inLanguage: 'en-US',
       breadcrumb: { '@id': `${BASE_URL}/news#breadcrumbs` },
       publisher: { '@id': `${BASE_URL}/#organization` },
-      reviewedBy: { '@id': `${BASE_URL}/#physician` },
+      reviewedBy: { '@id': `${BASE_URL}/about/#physician` },
       lastReviewed: '2026-05-23',
       hasPart: NEWS_ARTICLES.map((a) => ({
         '@type': 'NewsArticle',
@@ -110,7 +119,7 @@ const jsonLd = {
         headline: a.title,
         datePublished: a.date,
         description: a.summary,
-        author: { '@id': `${BASE_URL}/#physician` },
+        author: { '@id': `${BASE_URL}/about/#physician` },
         publisher: { '@id': `${BASE_URL}/#organization` },
       })),
     },
@@ -131,12 +140,11 @@ const jsonLd = {
         'https://www.zocdoc.com/practice/teledirectmd-98837',
         'https://www.healthgrades.com/group-directory/ga-georgia/lawrenceville/teledirectmd-ooop5jn',
         'https://www.instagram.com/teledirectmd/',
-        'https://www.webmd.com/provider/parth-bhavsar/overview',
       ],
     },
     {
       '@type': 'Physician',
-      '@id': `${BASE_URL}/#physician`,
+      '@id': `${BASE_URL}/about/#physician`,
       name: 'Parth Bhavsar, MD',
       url: `${BASE_URL}/about`,
       identifier: { '@type': 'PropertyValue', name: 'NPI', value: '1104323203' },
@@ -158,9 +166,6 @@ const jsonLd = {
 };
 
 const PAGE_CSS = `
-  :root{--tdmd-teal:#006b73;--tdmd-navy:#003e52;--tdmd-accent:#ff5a36;--tdmd-bg-soft:#f3fafb;--tdmd-border:#dde3e6;--tdmd-text:#12323a;--tdmd-muted:#4b5f66;--tdmd-card:#ffffff;--tdmd-shadow:0 8px 20px rgba(0,0,0,0.06);--tdmd-radius:18px;}
-  @media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--tdmd-teal:#2bc4cf;--tdmd-navy:#a0d8e8;--tdmd-accent:#ff7a5c;--tdmd-bg-soft:#0f1f24;--tdmd-border:#1e3340;--tdmd-text:#e2edf0;--tdmd-muted:#8fa8b2;--tdmd-card:#122028;--tdmd-shadow:0 8px 20px rgba(0,0,0,0.3);color-scheme:dark;}}
-  :root[data-theme="dark"]{--tdmd-teal:#2bc4cf;--tdmd-navy:#a0d8e8;--tdmd-accent:#ff7a5c;--tdmd-bg-soft:#0f1f24;--tdmd-border:#1e3340;--tdmd-text:#e2edf0;--tdmd-muted:#8fa8b2;--tdmd-card:#122028;--tdmd-shadow:0 8px 20px rgba(0,0,0,0.3);color-scheme:dark;}
   .nws-wrap{max-width:1100px;margin:0 auto;padding:0 1.5rem 4rem;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--tdmd-text);}
   .nws-hero{background:var(--tdmd-bg-soft);padding:3rem 0 2.5rem;}
   .nws-hero-inner{max-width:1100px;margin:0 auto;padding:0 1.5rem;}
@@ -171,10 +176,10 @@ const PAGE_CSS = `
   .nws-lead{font-size:1.05rem;line-height:1.65;max-width:72ch;margin:0 0 1.25rem;color:var(--tdmd-text);}
   .nws-badge-row{display:flex;flex-wrap:wrap;gap:0.5rem 0.75rem;margin-bottom:1.25rem;}
   .nws-badge{background:var(--tdmd-card);border:1px solid var(--tdmd-border);border-radius:999px;padding:0.3rem 0.85rem;font-size:0.88rem;font-weight:700;color:var(--tdmd-navy);}
-  .nws-badge--accent{background:var(--tdmd-accent);color:#fff;border-color:var(--tdmd-accent);}
+  .nws-badge--accent{background:var(--tdmd-accent);color:var(--tdmd-on-accent);border-color:var(--tdmd-accent);}
   .nws-ctas{display:flex;flex-wrap:wrap;gap:0.75rem;margin-bottom:1.25rem;}
   .nws-btn{display:inline-block;padding:0.65rem 1.5rem;border-radius:999px;font-weight:700;font-size:0.95rem;text-decoration:none;text-align:center;}
-  .nws-btn-primary{background:var(--tdmd-teal);color:#fff;}
+  .nws-btn-primary{background:var(--tdmd-teal);color:var(--tdmd-on-teal);}
   .nws-btn-outline{border:2px solid var(--tdmd-teal);color:var(--tdmd-teal);background:var(--tdmd-card);}
   .nws-reviewed{font-size:0.85rem;color:var(--tdmd-muted);margin:0.5rem 0 0;}
   .nws-reviewed a{color:var(--tdmd-navy);font-weight:700;text-decoration:underline;text-underline-offset:2px;}
@@ -245,9 +250,9 @@ export default function NewsHubPage() {
           </p>
           <p className="nws-lead">
             For in-depth health guides written by Dr. Bhavsar, visit the{' '}
-            <a href="/health-guides" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>Health Guides</a> section.
+            <a href="/health-guides/" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>Health Guides</a> section.
             For a curated list of media appearances with direct source links, see the{' '}
-            <a href="/media-mentions" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>Media Mentions</a> page.
+            <a href="/media-mentions/" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>Media Mentions</a> page.
           </p>
           <div className="nws-badge-row">
             <span className="nws-badge nws-badge--accent">Latest: Aetna California — May 2026</span>
@@ -256,12 +261,12 @@ export default function NewsHubPage() {
             <span className="nws-badge">Insurance Updates</span>
           </div>
           <div className="nws-ctas">
-            <a href="/media-mentions" className="nws-btn nws-btn-primary">Media Mentions</a>
-            <a href="/health-guides" className="nws-btn nws-btn-outline">Health Guides</a>
+            <a href="/media-mentions/" className="nws-btn nws-btn-primary">Media Mentions</a>
+            <a href="/health-guides/" className="nws-btn nws-btn-outline">Health Guides</a>
           </div>
           <p className="nws-reviewed">
             Content reviewed by{' '}
-            <a href="/about">Parth Bhavsar, MD</a>
+            <a href="/about/">Parth Bhavsar, MD</a>
             {' '}(NPI&nbsp;1104323203) &mdash; Last updated: May 23, 2026
           </p>
         </div>
@@ -279,7 +284,7 @@ export default function NewsHubPage() {
           </p>
           <div className="nws-article-grid">
             {NEWS_ARTICLES.map((article) => (
-              <a key={article.slug} href={`/news/${article.slug}`} className="nws-article-card">
+              <a key={article.slug} href={`/news/${article.slug}/`} className="nws-article-card">
                 <div className="nws-article-meta">
                   <span className="nws-article-cat">{article.category}</span>
                   <time className="nws-article-date" dateTime={article.date}>{article.dateDisplay}</time>
@@ -304,7 +309,7 @@ export default function NewsHubPage() {
           <div className="nws-timeline">
             {[
               { date: 'May 2026', title: 'Aetna California in-network', desc: 'TeleDirectMD becomes in-network with Aetna commercial plans in California, effective April 30, 2026. Expands Aetna coverage to California adults across all California markets.' },
-              { date: 'Spring 2026', title: '43 states + DC covered', desc: 'Telehealth licensure expands to 43 states and Washington DC, making TeleDirectMD available to a majority of US adults. Select insurance now accepted in multiple states.' },
+              { date: 'Spring 2026', title: '40+ states + DC covered', desc: 'Telehealth licensure expands to 40+ states and Washington DC, making TeleDirectMD available to a majority of US adults. Select insurance now accepted in multiple states.' },
               { date: '2026', title: 'LegitScript certified', desc: 'TeleDirectMD receives LegitScript certification, an independent verification of compliant and ethical online pharmacy and telemedicine practices.' },
               { date: '2025\u20132026', title: 'Media expert commentary', desc: 'Dr. Bhavsar quoted as medical expert in 21+ national publications including TIME, Newsweek, HuffPost, U.S. News, Fox News Digital, and NY Post.' },
               { date: '2025', title: 'BCBS and UHC partnerships', desc: 'TeleDirectMD establishes in-network relationships with Blue Cross Blue Shield and UnitedHealthcare commercial plans in select states, expanding insurance options for patients.' },
@@ -336,7 +341,7 @@ export default function NewsHubPage() {
           </p>
           <p className="nws-p">
             The outlets below represent a selection of publications that have quoted Dr. Bhavsar. For direct links to each
-            article, visit the <a href="/media-mentions">Media Mentions</a> page, which maintains a curated list with URLs.
+            article, visit the <a href="/media-mentions/">Media Mentions</a> page, which maintains a curated list with URLs.
           </p>
           <div className="nws-media-grid">
             {MEDIA_MENTIONS.map((m) => (
@@ -361,7 +366,7 @@ export default function NewsHubPage() {
           <p className="nws-p">
             The news and health guides sections together address a wide range of telehealth topics. The division is intentional:
             this news page covers service announcements, industry context, and media coverage. The{' '}
-            <a href="/health-guides">health guides</a> section contains longer, clinically sourced articles written by or under
+            <a href="/health-guides/">health guides</a> section contains longer, clinically sourced articles written by or under
             the supervision of Dr. Bhavsar. Both sections are updated on an ongoing basis as new information becomes available.
           </p>
           <div className="nws-two-col">
@@ -379,12 +384,12 @@ export default function NewsHubPage() {
             <div className="nws-info-box nws-info-box--teal">
               <h3 className="nws-h3">Health Guides &amp; Clinical Content</h3>
               <ul className="nws-list">
-                <li>Condition-specific treatment guides (UTI, sinus, strep, etc.)</li>
+                <li>Condition-specific treatment guides (UTI (women only), sinus, strep, etc.)</li>
                 <li>Medication explainers (finasteride, sildenafil, valacyclovir)</li>
                 <li>Cost comparison analyses with sources</li>
                 <li>When to go to urgent care vs. telehealth vs. ER</li>
                 <li>Men&apos;s health: ED, hair loss, performance anxiety</li>
-                <li>Women&apos;s health: UTI, yeast infection, birth control</li>
+                <li>Women&apos;s health: UTI (women only), yeast infection, birth control</li>
               </ul>
             </div>
           </div>
@@ -412,7 +417,7 @@ export default function NewsHubPage() {
             TeleDirectMD operates in the &ldquo;acute care and medication refill&rdquo; segment of telehealth — the largest
             by volume and most directly competitive with urgent care centers and retail health clinics. The practice&apos;s
             $79 price point, MD-only model, and growing insurance network position it in a distinct niche from both the
-            large employer-benefit platforms (Teladoc, MDLIVE) and the subscription-model startups (K Health, Ro, Hims).
+            large employer-benefit platforms (Teladoc, MDLIVE) and the subscription-model startups (Ro, Hims).
           </p>
           <p className="nws-p">
             Dr. Bhavsar has commented publicly on the importance of physician-led telehealth, the risks of AI-only diagnostic
@@ -437,13 +442,13 @@ export default function NewsHubPage() {
         <section className="nws-section" aria-labelledby="related-heading">
           <h2 id="related-heading" className="nws-h2">Related Resources</h2>
           <div className="nws-link-cloud">
-            <a href="/media-mentions">Media Mentions</a>
-            <a href="/health-guides">Health Guides</a>
-            <a href="/about">About Dr. Bhavsar, MD</a>
-            <a href="/insurance">Insurance &amp; Pricing</a>
-            <a href="/faq">FAQ</a>
-            <a href="/compare">Compare Telehealth Services</a>
-            <a href="/states-we-serve">States We Serve</a>
+            <a href="/media-mentions/">Media Mentions</a>
+            <a href="/health-guides/">Health Guides</a>
+            <a href="/about/">About Dr. Bhavsar, MD</a>
+            <a href="/insurance/">Insurance &amp; Pricing</a>
+            <a href="/faq/">FAQ</a>
+            <a href="/compare/">Compare Telehealth Services</a>
+            <a href="/states-we-serve/">States We Serve</a>
           </div>
         </section>
 
@@ -457,8 +462,8 @@ export default function NewsHubPage() {
             </p>
           </div>
           <div className="nws-cta-bar-actions">
-            <a href="/book-online" className="nws-btn nws-btn-primary">Book a Visit</a>
-            <a href="/about" className="nws-btn nws-btn-outline">About Dr. Bhavsar</a>
+            <a href="/book-online/" className="nws-btn nws-btn-primary">Book a Visit</a>
+            <a href="/about/" className="nws-btn nws-btn-outline">About Dr. Bhavsar</a>
           </div>
         </div>
 

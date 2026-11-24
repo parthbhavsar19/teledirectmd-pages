@@ -12,6 +12,7 @@
  *   • Parth Bhavsar, MD · Family Medicine · Vermont-licensed.
  */
 
+import { stateConditionHref } from '../../../lib/live-routes';
 import FaqAccordion from '../../components/FaqAccordion';
 import { VtNationalStyle } from '../../components/VtNationalChrome';
 
@@ -31,7 +32,7 @@ const PHYSICIAN = {
   licenseState: 'Vermont',
   licenseNumber: '042.0040345-COMP',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 const MEDICATIONS = [
@@ -48,6 +49,7 @@ const FAQ_ITEMS = [
   { question: "How should I take levothyroxine?", answerHtml: `Take levothyroxine on an empty stomach, 30 to 60 minutes before eating, and keep calcium and iron supplements at least four hours apart because they reduce absorption. Stay on the same brand or generic, since switching can shift your TSH.`, answerPlain: "Take levothyroxine on an empty stomach, 30 to 60 minutes before eating, and keep calcium and iron supplements at least four hours apart because they reduce absorption. Stay on the same brand or generic, since switching can shift your TSH." },
   { question: "Do I need lab work for a levothyroxine refill?", answerHtml: `TSH monitoring is the patient&apos;s responsibility between visits — typically every 6 to 12 weeks after a dose change and every 6 to 12 months when stable. Refills assume a TSH within the past 12 months; if it has been longer, the physician will recommend a check at a local Vermont lab.`, answerPlain: "TSH monitoring is the patient’s responsibility between visits — typically every 6 to 12 weeks after a dose change and every 6 to 12 months when stable. Refills assume a TSH within the past 12 months; if it has been longer, the physician will recommend a check at a local Vermont lab." },
   { question: "Can an underactive thyroid raise my cholesterol?", answerHtml: `Yes. Untreated hypothyroidism raises LDL cholesterol by reducing LDL-receptor activity in the liver, so getting thyroid levels in range can improve lipids. See our Vermont hyperlipidemia refills page for cholesterol management. <a href="/vt/hyperlipidemia-refills-online/">Vermont hyperlipidemia refills page</a>.`, answerPlain: "Yes. Untreated hypothyroidism raises LDL cholesterol by reducing LDL-receptor activity in the liver, so getting thyroid levels in range can improve lipids. See our Vermont hyperlipidemia refills page for cholesterol management." },
+  { question: "Does TeleDirectMD prescribe Armour Thyroid, NP Thyroid, or natural desiccated thyroid in Vermont?", answerHtml: `No. TeleDirectMD prescribes levothyroxine (or Tirosint) only, per ATA guidelines. We do not prescribe, refill, or transfer Armour Thyroid, NP Thyroid, Nature-Throid, WP Thyroid, any natural desiccated thyroid (NDT) product, or compounded T3/T4 combination therapy under any circumstances. Patients seeking NDT or T3 therapy should follow up with their primary care provider or an endocrinologist.`, answerPlain: "No. TeleDirectMD prescribes levothyroxine (or Tirosint) only, per ATA guidelines. We do not prescribe, refill, or transfer Armour Thyroid, NP Thyroid, Nature-Throid, WP Thyroid, any natural desiccated thyroid (NDT) product, or compounded T3/T4 combination therapy under any circumstances. Patients seeking NDT or T3 therapy should follow up with their primary care provider or an endocrinologist." },
   { question: "When does hypothyroidism need in-person care?", answerHtml: `See a clinician in person for a new diagnosis, a TSH markedly out of range requiring titration, pregnancy, post-thyroid-cancer suppressive therapy, new cardiac symptoms, or rare signs of thyroid storm. TeleDirectMD is appropriate for stable, established hypothyroidism.`, answerPlain: "See a clinician in person for a new diagnosis, a TSH markedly out of range requiring titration, pregnancy, post-thyroid-cancer suppressive therapy, new cardiac symptoms, or rare signs of thyroid storm. TeleDirectMD is appropriate for stable, established hypothyroidism." },
   { question: "Do you accept insurance in Vermont?", answerHtml: `TeleDirectMD operates as a cash-pay practice in Vermont. Your $79 visit fee is paid at booking. Prescription costs are filled separately at your pharmacy and may be covered by your pharmacy benefit. HSA and FSA cards are accepted. There is no insurance billing in Vermont.`, answerPlain: "TeleDirectMD operates as a cash-pay practice in Vermont. Your $79 visit fee is paid at booking. Prescription costs are filled separately at your pharmacy and may be covered by your pharmacy benefit. HSA and FSA cards are accepted. There is no insurance billing in Vermont." }
 ];
@@ -58,7 +60,6 @@ const VT_SIBLINGS = [
   { slug: "diabetes-refills-online", label: "Diabetes Refills in VT", why: "Common endocrine and metabolic comorbidity." },
   { slug: "acid-reflux-refills-online", label: "Acid Reflux Refills in VT", why: "Another stable chronic refill we manage by telehealth." },
   { slug: "migraine-refills-online", label: "Migraine Refills in VT", why: "Chronic-condition refill in the same population." },
-  { slug: "online-doctor-visits", label: "All Online Doctor Visits in VT", why: "General VT telehealth hub for any condition we treat." }
 ];
 
 const REFERENCES = [
@@ -78,7 +79,7 @@ function buildSchemas() {
     '@type': 'MedicalWebPage',
     name: PAGE_TITLE,
     url: PAGE_URL,
-    description: "Refill levothyroxine and manage stable hypothyroidism online in Vermont. Board-certified Family Medicine MD. Care aligned with American Thyroid Association guidance and TSH monitoring. Cash-pay only at $79 flat.",
+    description: "Refill levothyroxine and manage stable hypothyroidism online in Vermont. Board-certified Family Medicine MD. Care aligned with American Thyroid Association guidance and TSH monitoring. Cash-pay only at $79 flat. Levothyroxine only — no Armour, no NP Thyroid, no desiccated thyroid (NDT).",
     datePublished: DATE_PUBLISHED,
     dateModified: DATE_MODIFIED,
     lastReviewed: LAST_REVIEWED,
@@ -96,7 +97,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -241,7 +242,7 @@ export default function VtHypothyroidismRefillsOnline() {
               <div className="tdmd-hero-copy">
                 <h1 data-speakable="true">Hypothyroidism (Levothyroxine) Refills Online in Vermont</h1>
                 <p className="tdmd-hero-sub" data-speakable="true">Vermont adults 18+ · Secure video visit · Cash-pay $79 flat · MD-only · 18 V.S.A. Chapter 219 compliant · ATA + AACE guidance</p>
-                <p dangerouslySetInnerHTML={{ __html: `TeleDirectMD provides levothyroxine refills by secure video visit for Vermont adults with stable, established hypothyroidism. A Vermont-licensed board-certified Family Medicine physician reviews your symptom control, screens for signs of over- or under-treatment, confirms you are taking a consistent brand or formulation, and continues your current dose when it remains appropriate. Care follows American Thyroid Association guidance, with levothyroxine as the standard of care and TSH as the primary monitoring marker. This page is for adults located in Vermont, including {CITIES}, and surrounding areas.`.replace('{CITIES}', vtCities.join(', ')) }} />
+                <p dangerouslySetInnerHTML={{ __html: `TeleDirectMD provides levothyroxine refills by secure video visit for Vermont adults with stable, established hypothyroidism. A Vermont-licensed board-certified Family Medicine physician reviews your symptom control, screens for signs of over- or under-treatment, confirms you are taking a consistent brand or formulation, and continues your current dose when it remains appropriate. Care follows American Thyroid Association guidance, with levothyroxine as the standard of care and TSH as the primary monitoring marker. TeleDirectMD prescribes levothyroxine (or Tirosint) only and does NOT prescribe, refill, or transfer natural desiccated thyroid (Armour Thyroid, NP Thyroid, Nature-Throid, WP Thyroid), any NDT product, or compounded T3/T4 therapy under any circumstances. This page is for adults located in Vermont, including {CITIES}, and surrounding areas.`.replace('{CITIES}', vtCities.join(', ')) }} />
 
                 {/* Visible byline (E-E-A-T) */}
                 <div className="vt-hypothyroidism-refills-online__byline" aria-label="Reviewed by physician">
@@ -251,7 +252,7 @@ export default function VtHypothyroidismRefillsOnline() {
                       Reviewed by <a href={PHYSICIAN.bioUrl}>{PHYSICIAN.name}</a> — Board-Certified {PHYSICIAN.specialty}
                     </span>
                     <span className="vt-hypothyroidism-refills-online__byline-meta">
-                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
+                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
                       <time dateTime={DATE_MODIFIED}>{new Date(DATE_MODIFIED).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
                     </span>
                   </div>
@@ -275,9 +276,9 @@ export default function VtHypothyroidismRefillsOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
                   <a href="/vt/" className="tdmd-btn tdmd-btn-outline">Explore Vermont Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> E03.9 (Hypothyroidism, unspecified) — final coding depends on clinical details</p>
@@ -311,6 +312,16 @@ export default function VtHypothyroidismRefillsOnline() {
           </div>
         </section>
 
+        {/* ─── 2b) MEDICATION SCOPE: LEVOTHYROXINE ONLY (NDT exclusion) ─── */}
+        <section className="tdmd-section" id={`${pid}-scope`}>
+          <div className="tdmd-container">
+            <div style={{ background: '#FFF3CD', border: '2px solid #FFC107', borderRadius: 'var(--tdmd-radius,18px)', padding: '1.1rem 1.5rem', marginTop: '1.5rem' }}>
+              <h3 style={{ color: '#856404', marginTop: 0 }}>⚠ Medication Scope: Levothyroxine Only</h3>
+              <p style={{ color: '#533f03', margin: 0 }}>TeleDirectMD prescribes LEVOTHYROXINE (or Tirosint) ONLY for hypothyroidism management. This service does NOT prescribe, refill, or transfer: Armour Thyroid, NP Thyroid, Nature-Throid, WP Thyroid, any natural desiccated thyroid (NDT) product, liothyronine (Cytomel, generic T3), or any compounded T3/T4 combination therapy — under any circumstances. The ATA guidelines establish levothyroxine monotherapy as the standard of care. Patients seeking NDT or T3 therapy should consult their primary care provider or an endocrinologist.</p>
+            </div>
+          </div>
+        </section>
+
         {/* ─── 3) ELIGIBILITY CHECKLIST ─── */}
         <section className="tdmd-section" id={`${pid}-eligibility`}>
           <div className="tdmd-container">
@@ -335,6 +346,7 @@ export default function VtHypothyroidismRefillsOnline() {
               <li>You are pregnant (TSH targets change; OB or endocrinology should manage)</li>
               <li>You are on suppressive therapy after thyroid cancer or thyroidectomy</li>
               <li>You have new cardiac symptoms or signs of thyroid storm (fever, racing heart, confusion)</li>
+              <li>You take or want natural desiccated thyroid (Armour Thyroid, NP Thyroid, Nature-Throid, WP Thyroid) or compounded T3/T4 — we do not prescribe or refill NDT products</li>
                 </ul>
                 <p style={{ marginTop: '0.75rem', color: 'var(--tdmd-muted)', fontSize: '0.92rem' }}>
                   <strong>If you have red-flag symptoms, seek urgent in-person care or emergency care immediately. TeleDirectMD is not appropriate for complex or severe cases.</strong>
@@ -356,7 +368,7 @@ export default function VtHypothyroidismRefillsOnline() {
 
             <h3>What standard of care applies to Vermont telehealth physicians?</h3>
             <p>
-              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: the standard of care is the same whether a patient is seen in person or by telehealth. Physicians must be licensed in Vermont to treat Vermont patients — a requirement TeleDirectMD satisfies. Dr. Bhavsar is a Vermont-licensed, board-certified physician of the American Board of Family Medicine and holds Vermont Medical License #042.0040345-COMP issued by the Vermont Board of Medical Practice. <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">Verify license</a> · <a href="/about/">Dr. Bhavsar bio</a>.
+              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: the standard of care is the same whether a patient is seen in person or by telehealth. Physicians must be licensed in Vermont to treat Vermont patients — a requirement TeleDirectMD satisfies. Dr. Bhavsar is a Vermont-licensed, board-certified physician of the American Board of Family Medicine and holds Vermont Medical License #042.0040345-COMP issued by the Vermont Board of Medical Practice. <a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">Verify license</a> · <a href="/about/">Dr. Bhavsar bio</a>.
             </p>
 
             <h3>Are these medications controlled substances under Vermont law?</h3>
@@ -391,7 +403,7 @@ export default function VtHypothyroidismRefillsOnline() {
                   <h3>Get a plan and, if appropriate, an e-prescription</h3>
                   <p>If medication is clinically appropriate, a Vermont-compliant e-prescription is sent to your chosen Vermont pharmacy — CVS, Walgreens, Rite Aid, Walmart, or another pharmacy — during or after the visit. You receive clear follow-up steps, including when to seek in-person care.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -419,25 +431,6 @@ export default function VtHypothyroidismRefillsOnline() {
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical cost comparison">
-                <h3>Typical Hypothyroidism Refills Visit Cost in Vermont</h3>
-                <p className="tdmd-price-caption">Common ranges Vermonters see before insurance. Actual costs vary by setting and city.</p>
-                <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
-                  {[
-                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 13, isTdmd: true },
-                    { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
-                    { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
-                    { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
-                  ].map((bar, i) => (
-                    <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
-                      <span className="tdmd-vbar__value">{bar.value}</span>
-                      <div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" />
-                      <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="tdmd-price-footnote">Comparison reflects typical Vermont metro pricing. Actual costs vary.</p>
-              </div>
             </div>
 
             <div className="tdmd-cashpay-note">
@@ -460,7 +453,7 @@ export default function VtHypothyroidismRefillsOnline() {
         <section className="tdmd-section" id={`${pid}-medications`}>
           <div className="tdmd-container">
             <h2>Levothyroxine Refill Options and Pricing in Vermont</h2>
-            <p dangerouslySetInnerHTML={{ __html: `Levothyroxine is the only medication TeleDirectMD refills in this category, consistent with <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4267409/" rel="noopener" target="_blank">ATA guidance</a>. It is non-controlled and prescribable by Vermont telehealth. GoodRx prices retrieved May 2026; actual cost varies by Vermont pharmacy. Prescription costs are separate from the $79 visit fee.` }} />
+            <p dangerouslySetInnerHTML={{ __html: `Levothyroxine is the only medication TeleDirectMD refills in this category, consistent with <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4267409/" rel="noopener" target="_blank">ATA guidance</a>. It is non-controlled and prescribable by Vermont telehealth. <strong>TeleDirectMD does NOT prescribe, refill, or transfer natural desiccated thyroid (Armour Thyroid, NP Thyroid, Nature-Throid, WP Thyroid), any NDT product, or compounded T3/T4 therapy under any circumstances.</strong> GoodRx prices retrieved May 2026; actual cost varies by Vermont pharmacy. Prescription costs are separate from the $79 visit fee.` }} />
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Hypothyroidism Refills medication options and prices">
                 <caption style={{ captionSide: 'bottom', textAlign: 'left', padding: '0.5rem 0', fontSize: '0.85rem', color: 'var(--tdmd-muted)' }}>
@@ -530,7 +523,7 @@ export default function VtHypothyroidismRefillsOnline() {
                 <p>Book a same-day video visit — Vermont adults, 18+</p>
                 <small>Cash-pay $79 flat · No insurance billing in Vermont · No ER wait</small>
               </div>
-              <a className="vt-hypothyroidism-refills-online__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
+              <a className="vt-hypothyroidism-refills-online__cta-btn" href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -553,8 +546,8 @@ export default function VtHypothyroidismRefillsOnline() {
                 <p>Book a same-day video visit. Cash-pay $79 flat. No insurance billing in Vermont.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -567,7 +560,7 @@ export default function VtHypothyroidismRefillsOnline() {
             <p>These Vermont condition pages may help when symptoms overlap, or when you want to explore another Vermont telehealth visit from TeleDirectMD.</p>
             <div className="vt-hypothyroidism-refills-online__sibling-grid">
               {VT_SIBLINGS.map((s) => (
-                <a key={s.slug} className="vt-hypothyroidism-refills-online__sibling" href={`/vt/${s.slug}/`}>
+                <a key={s.slug} className="vt-hypothyroidism-refills-online__sibling" href={stateConditionHref('vt', s.slug) || `/${s.slug}/`}>
                   <span className="vt-hypothyroidism-refills-online__sibling-label">{s.label}</span>
                   <span className="vt-hypothyroidism-refills-online__sibling-why">{s.why}</span>
                 </a>
@@ -586,9 +579,9 @@ export default function VtHypothyroidismRefillsOnline() {
               <a href="/vt/">Vermont (state pillar)</a>
               <a href="/hypothyroidism-refills-online/">National Hypothyroidism Refills page</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>

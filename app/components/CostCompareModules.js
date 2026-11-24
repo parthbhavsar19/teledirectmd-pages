@@ -14,6 +14,9 @@ import {
 // "What does this cost?" block — used on national + state×condition pages.
 // Produces 1 outbound edge to the matching cost page (or the master) per
 // page rendered.
+// The body states only what TeleDirectMD charges: no "most patients pay" range
+// and no comparison with other care settings, which the cost guide covers with
+// its own sources.
 export function WhatDoesThisCostBlock({ conditionSlug, conditionName, stateName }) {
   const link = getCostPageLinkForCondition(conditionSlug);
   const secondary = getSecondaryCostPagesForCondition(conditionSlug);
@@ -27,8 +30,8 @@ export function WhatDoesThisCostBlock({ conditionSlug, conditionName, stateName 
     ? `What does ${phrase} cost${where}?`
     : `What does an online doctor visit${where} cost?`;
   const body = link.isCondition
-    ? `A telehealth visit at TeleDirectMD is $79 flat. With a generic prescription via GoodRx, most patients pay $80–$145 total — a fraction of in-person urgent care. See the full breakdown by care setting on our cost guide.`
-    : `TeleDirectMD\'s $79 flat rate is up to 3× cheaper than an in-person urgent care visit and ~11× cheaper than an uninsured ER visit. See verified 2026 cash-pay prices across every care setting.`;
+    ? `A TeleDirectMD video visit is $79 flat, paid at booking. Prescription costs at the pharmacy are separate and vary by medication and pharmacy. See the cost guide for typical self-pay prices by care setting.`
+    : `A TeleDirectMD video visit is $79 flat, paid at booking. See the cost guide for typical self-pay prices by care setting.`;
 
   return (
     <section className="tdmd-section" id={`cost-cta-${conditionSlug || 'default'}`}>
@@ -105,7 +108,7 @@ export function Or49CashLink() {
     <p style={{ margin: '1.25rem 0 0', fontSize: '0.95rem', color: 'var(--tdmd-muted)' }}>
       Or pay $79 cash —{' '}
       <a href={MASTER_COST_PAGE} style={{ color: 'var(--tdmd-teal)', fontWeight: 600 }}>see the full pricing breakdown</a>
-      {' '}across every care setting (TeleDirectMD vs. ER, urgent care, retail clinic, and other telehealth platforms).
+      {' '}across every care setting (TeleDirectMD vs. ER, urgent care, and other telehealth platforms).
     </p>
   );
 }
@@ -118,7 +121,7 @@ export function WhoWeServePricingCTA({ pricingHook, relatedCostPage }) {
     <section className="tdmd-section" id="cost-breakdown-cta">
       <div className="tdmd-container" data-speakable="true">
         <h2>What you&apos;ll actually pay</h2>
-        <p>{pricingHook || 'A flat $79 visit is up to 3× cheaper than urgent care and ~11× cheaper than an uninsured ER visit. We\'ve published the full price breakdown so you know your total cost upfront.'}</p>
+        <p>{pricingHook || 'A flat $79 visit is about one-quarter to one-half the cost of cash-pay urgent care and a small fraction of an uninsured ER visit. We\'ve published the full price breakdown so you know your total cost upfront.'}</p>
         <div className="tdmd-related-grid" style={{ marginTop: '0.75rem' }}>
           <a href={MASTER_COST_PAGE} className="tdmd-related-card">
             <span className="tdmd-related-title">Online Doctor Visit Cost in 2026</span>

@@ -1,12 +1,13 @@
+import { contentDate } from '../../../lib/content-dates';
 export default function HdhpHsaHoldersPage() {
   const baseUrl = 'https://teledirectmd.com';
   const pageUrl = `${baseUrl}/who-we-serve/hdhp-hsa-holders`;
-  const today = new Date().toISOString().split('T')[0];
+  const today = contentDate('whoWeServe');
 
   /* ── Conditions to link ─────────────────────────────────────────── */
   const conditions = [
     { name: 'Sinus Infection', slug: 'sinus-infection-treatment-online', desc: 'Evaluation and antibiotics when appropriate for sinus pressure and post-nasal drip — flat $79, HSA card accepted at checkout.' },
-    { name: 'UTI / Urinary Tract Infection', slug: 'uti-treatment-online', desc: 'Fast antibiotic prescriptions sent to your local pharmacy — predictable $79 visit cost regardless of where you sit on your deductible.' },
+    { name: 'UTI (women only)', slug: 'uti-treatment-online', desc: 'Fast antibiotic prescriptions sent to your local pharmacy — predictable $79 visit cost regardless of where you sit on your deductible.' },
     { name: 'Cough, Cold &amp; Respiratory Infections', slug: 'common-cold-treatment-online', desc: 'Cold, flu, and respiratory infection treatment with transparent cash-pay pricing — no deductible math.' },
     { name: 'Allergies', slug: 'seasonal-allergies-treatment-online', desc: 'Seasonal allergy evaluation and prescription antihistamines — flat $79, no insurance paperwork.' },
     { name: 'Skin Conditions / Rashes', slug: 'eczema-treatment-online', desc: 'Prescription treatment for eczema, contact dermatitis, and common skin issues — board-certified physician evaluation.' },
@@ -14,7 +15,7 @@ export default function HdhpHsaHoldersPage() {
     { name: 'Acid Reflux / GERD Refills', slug: 'acid-reflux-refills-online', desc: 'PPI and H2 blocker refills for stable reflux — transparent flat fee, HSA/FSA card accepted.' },
     { name: 'Pink Eye / Conjunctivitis', slug: 'pink-eye-treatment-online', desc: 'Fast evaluation and prescription drops for pink eye — know your cost before you book.' },
     { name: 'Influenza', slug: 'influenza-treatment-online', desc: 'Same-day evaluation and antiviral prescriptions when clinically appropriate.' },
-    { name: 'Migraine Refills', slug: 'migraine-refills-online', desc: 'Prescription migraine medication refills at a predictable $79 — no surprise urgent-care bill.' },
+    { name: 'Migraine Refills', slug: 'migraine-refills-online', desc: 'Prescription migraine medication refills at a predictable $79 — no urgent-care bill.' },
   ];
 
   /* ── FAQ data ────────────────────────────────────────────────────── */
@@ -49,7 +50,7 @@ export default function HdhpHsaHoldersPage() {
     },
     {
       q: 'Is TeleDirectMD available in my state?',
-      a: 'TeleDirectMD is licensed in 43 states: Alabama, Arizona, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina, South Dakota, Tennessee, Texas, Utah, Virginia, Washington, West Virginia, Wisconsin, and Wyoming. You must be physically located in one of these states at the time of your visit. See our States We Serve page for the current list.'
+      a: 'TeleDirectMD is licensed in 40+ states plus Washington, D.C.: Alabama, Alaska, Arizona, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kentucky, Louisiana, Maine, Maryland, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, New York, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina, South Dakota, Tennessee, Texas, Utah, Virginia, Vermont, Washington, West Virginia, Wyoming. You must be physically located in a covered jurisdiction at the time of your visit. See our States We Serve page for the full list.'
     },
     {
       q: 'Can I see the same physician for ongoing care?',
@@ -84,18 +85,18 @@ export default function HdhpHsaHoldersPage() {
           "@type": "MedicalTherapy",
           "name": "Telehealth Consultations"
         },
-        "areaServed": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","WA","WV","WI","WY"]
+        "areaServed": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NY","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WY"]
       },
       {
         "@type": "Physician",
-        "@id": `${baseUrl}/about#physician`,
+        "@id": `${baseUrl}/about/#physician`,
         "name": "Parth Bhavsar, MD",
         "medicalSpecialty": "FamilyMedicine",
         "worksFor": {
           "@type": "MedicalOrganization",
           "name": "TeleDirectMD"
         },
-        "licensedIn": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","WA","WV","WI","WY"]
+        "licensedIn": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NY","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WI","WY"]
       },
       {
         "@type": "FAQPage",
@@ -114,10 +115,10 @@ export default function HdhpHsaHoldersPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Online Doctor for HDHP & HSA Holders — Flat $79, HSA/FSA Accepted",
-        "description": "Adult telehealth for HDHP and high-deductible plan members. Flat $79 physician visits with HSA/FSA acceptance, board-certified care in 43 states.",
+        "description": "Adult telehealth for HDHP and high-deductible plan members. Flat $79 physician visits with HSA/FSA acceptance, board-certified care in 40+ states.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
-        "author": { "@id": `${baseUrl}/about#physician` },
+        "author": { "@id": `${baseUrl}/about/#physician` },
         "datePublished": today,
         "dateModified": today,
         "publisher": {
@@ -149,7 +150,7 @@ export default function HdhpHsaHoldersPage() {
         <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: '0' }}>
           <a href="/">Home</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <a href="/who-we-serve">Who We Serve</a>
+          <a href="/who-we-serve/">Who We Serve</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
           <span aria-current="page">HDHP &amp; HSA Holders</span>
         </div>
@@ -170,15 +171,15 @@ export default function HdhpHsaHoldersPage() {
                 <li>Flat $79 cash-pay visit &mdash; no facility, enrollment, or subscription fees</li>
                 <li>HSA and FSA cards accepted at checkout</li>
                 <li>Itemized receipt for deductible accumulation</li>
-                <li>Licensed in 43 states &mdash; same physician across state lines</li>
+                <li>Licensed in 40+ states &mdash; same physician across state lines</li>
               </ul>
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a $79 Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a $79 Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
               </div>
               <p className="tdmd-reviewed">
                 Last reviewed on {today} by{' '}
-                <a className="tdmd-author-link" href="/about" aria-label="About Parth Bhavsar, MD">
+                <a className="tdmd-author-link" href="/about/" aria-label="About Parth Bhavsar, MD">
                   Parth Bhavsar, MD
                 </a>
               </p>
@@ -188,7 +189,7 @@ export default function HdhpHsaHoldersPage() {
               <div className="tdmd-hero-card">
                 <h2>Why HDHP Members Choose TeleDirectMD</h2>
                 <ul>
-                  <li>Predictable $79 flat fee &mdash; no deductible-math surprises</li>
+                  <li>Predictable $79 flat fee &mdash; no deductible math</li>
                   <li>HSA &amp; FSA cards accepted at checkout</li>
                   <li>Itemized receipt for deductible &amp; FSA reimbursement</li>
                   <li>Physician-led care, not an NP or marketplace provider</li>
@@ -264,7 +265,7 @@ export default function HdhpHsaHoldersPage() {
           </p>
           <div className="tdmd-cost-note" style={{ marginBottom: '1.5rem' }}>
             <p style={{ margin: 0 }}>
-              <strong>$79 flat. HSA/FSA accepted. No subscription. No surprise billing.</strong>
+              <strong>$79 flat. HSA/FSA accepted. No subscription. No hidden fees.</strong>
             </p>
           </div>
           <div className="tdmd-price-grid">
@@ -277,7 +278,7 @@ export default function HdhpHsaHoldersPage() {
                 <li>Treatment plan + e-prescription when appropriate</li>
                 <li>Itemized receipt for deductible &amp; FSA reimbursement</li>
                 <li>No facility, enrollment, or subscription fees</li>
-                <li>Same physician across all 43 licensed states</li>
+                <li>Same physician across 40+ licensed states</li>
               </ul>
             </div>
             <div className="tdmd-price-chart" role="group" aria-label="Cost comparison">
@@ -354,7 +355,7 @@ export default function HdhpHsaHoldersPage() {
                 <li>You are under 18 &mdash; we are an adult-only service</li>
                 <li>You need emergency care &mdash; call 911 or go to the ER</li>
                 <li>You are seeking controlled substances &mdash; we do not prescribe them</li>
-                <li>You are physically located outside one of our 43 licensed states at the time of the visit</li>
+                <li>You are physically located outside one of our 40+ licensed states at the time of the visit</li>
                 <li>Your concern requires hands-on examination or in-person imaging</li>
               </ul>
             </div>
@@ -372,7 +373,7 @@ export default function HdhpHsaHoldersPage() {
               <div className="tdmd-decision-number">1</div>
               <div className="tdmd-decision-content">
                 <h3>Book Online &mdash; Pay With Your HSA Card</h3>
-                <p>Pick a time that works for you, enter your HSA, FSA, or any major credit/debit card, and confirm the $79 flat fee before booking. No surprise charges &mdash; you see the exact cost upfront.</p>
+                <p>Pick a time that works for you, enter your HSA, FSA, or any major credit/debit card, and confirm the $79 flat fee before booking. No hidden fees &mdash; you see the exact cost upfront.</p>
               </div>
             </div>
             <div className="tdmd-decision-step tdmd-decision-step-good">
@@ -394,7 +395,7 @@ export default function HdhpHsaHoldersPage() {
               <div className="tdmd-decision-content">
                 <h3>Get Your Prescription + Itemized Receipt</h3>
                 <p>If a prescription is appropriate, it&rsquo;s sent electronically to the pharmacy of your choice anywhere in the U.S. You receive an itemized receipt by email &mdash; suitable for HSA reimbursement, FSA submission, and deductible accumulation.</p>
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary" style={{ marginTop: '0.75rem', display: 'inline-block' }}>Book a $79 Visit</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary" style={{ marginTop: '0.75rem', display: 'inline-block' }}>Book a $79 Visit</a>
               </div>
             </div>
           </div>
@@ -409,7 +410,7 @@ export default function HdhpHsaHoldersPage() {
             When you&rsquo;re paying out of pocket, you want the visit to count. Many low-cost telehealth platforms route patients to a rotating mix of clinicians or marketplace providers &mdash; sometimes a nurse practitioner, sometimes a physician assistant, sometimes a physician you&rsquo;ve never seen and won&rsquo;t see again. TeleDirectMD is built differently.
           </p>
           <p>
-            Every TeleDirectMD visit is conducted by <a href="/about">Dr. Parth Bhavsar, a board-certified family medicine physician</a> (NPI 1104323203). One physician, across all 43 licensed states, accountable to you across visits. That continuity matters more on an HDHP because each visit is a real out-of-pocket cost &mdash; you don&rsquo;t want to pay $79 to repeat your history to a new clinician every time.
+            Every TeleDirectMD visit is conducted by <a href="/about/">Dr. Parth Bhavsar, a board-certified family medicine physician</a> (NPI 1104323203). One physician, across 40+ licensed states, accountable to you across visits. That continuity matters more on an HDHP because each visit is a real out-of-pocket cost &mdash; you don&rsquo;t want to pay $79 to repeat your history to a new clinician every time.
           </p>
         </div>
       </section>
@@ -436,10 +437,10 @@ export default function HdhpHsaHoldersPage() {
         <div className="tdmd-container">
           <h2>Ready for a Predictable $79 Physician Visit?</h2>
           <p>
-            Book a same-day visit with a board-certified physician. Use your HSA, FSA, or any major card. No insurance required. No surprise bills.
+            Book a same-day visit with a board-certified physician. Use your HSA, FSA, or any major card. No insurance required. No hidden fees.
           </p>
           <div className="tdmd-hero-ctas">
-            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a $79 Visit</a>
+            <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a $79 Visit</a>
             <a href="/cost/online-doctor-visit-cost/" className="tdmd-btn tdmd-btn-outline">See Pricing Details</a>
           </div>
           <p style={{ marginTop: '1rem', fontSize: '0.9rem' }}>

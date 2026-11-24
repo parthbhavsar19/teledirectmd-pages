@@ -1,8 +1,9 @@
 'use client';
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { homepageCSS } from '../lib/homepage-styles';
-import CONDITION_ICONS from '../lib/condition-icons';
 import US_STATE_PATHS from '../lib/us-map-paths';
+import { PrescribingPolicyFaq } from './components/PrescribingPolicy';
+import ConditionDriftRows from './components/ConditionDriftRows';
 
 /* ============================
    DATA
@@ -10,202 +11,185 @@ import US_STATE_PATHS from '../lib/us-map-paths';
 const SERVICE_CATEGORIES = [
   {
     title: 'Virtual Urgent Care',
-    desc: 'Cold, flu, COVID, UTI, ear pain, pink eye, and more — treated same-day.',
+    desc: 'Cold, flu, COVID, UTI (women only), ear pain, pink eye, and more — treated same-day.',
     icon: 'urgent',
-    img: '/images/services/svc-urgent-care.png',
-    href: '/what-we-treat',
+    img: '/images/services/svc-urgent-care.webp',
+    href: '/what-we-treat/',
   },
   {
     title: "Women's Health",
     desc: 'Yeast infections, BV, birth control refills, vaginal dryness care.',
     icon: 'womens',
-    img: '/images/services/svc-womens-health.png',
-    href: '/what-we-treat',
+    img: '/images/services/svc-womens-health.webp',
+    href: '/what-we-treat/',
   },
   {
     title: "Men's & Sexual Health",
     desc: 'ED, STI treatment, DoxyPEP, genital herpes — discreet and fast.',
     icon: 'mens',
-    img: '/images/services/svc-mens-health.png',
-    href: '/what-we-treat',
+    img: '/images/services/svc-mens-health.webp',
+    href: '/what-we-treat/',
   },
   {
     title: 'Skin Conditions',
     desc: 'Acne, eczema, rosacea, psoriasis, fungal infections, and more.',
     icon: 'skin',
-    img: '/images/services/svc-skin.png',
-    href: '/what-we-treat',
+    img: '/images/services/svc-skin.webp',
+    href: '/what-we-treat/',
   },
   {
     title: 'Lifestyle & Refills',
     desc: 'Hair loss, anti-aging, asthma, BP, thyroid, migraine refills.',
     icon: 'refills',
-    img: '/images/services/svc-lifestyle.png',
-    href: '/what-we-treat',
+    img: '/images/services/svc-lifestyle.webp',
+    href: '/what-we-treat/',
   },
   {
     title: 'Travel Medicine',
     desc: 'Altitude sickness prevention, malaria prophylaxis, traveler’s diarrhea standby, and motion sickness — before you fly.',
     icon: 'travel',
-    img: '/images/services/svc-travel.png',
-    href: '/travel-medicine-treatment-online',
-  },
-];
-
-const CONDITION_CATEGORIES = [
-  {
-    name: 'Urgent Care',
-    conditions: ['Common Cold', 'COVID-19', 'Influenza', 'Sinus Infection', 'Sore Throat', 'Ear Pain', 'Pink Eye', 'Dental Pain', 'UTI', 'Cellulitis', 'Shingles', 'Gout', 'Mastitis', 'Viral Gastroenteritis', 'Impetigo', 'Oral Thrush'],
-  },
-  {
-    name: "Women's Health",
-    conditions: ['Yeast Infection', 'Bacterial Vaginosis', 'Vaginal Dryness', 'Birth Control Refills'],
-  },
-  {
-    name: 'Sexual Health',
-    conditions: ['Chlamydia', 'Genital Herpes', 'Cold Sore', 'Genital Warts', 'Trichomoniasis', 'Mycoplasma Genitalium', 'DoxyPEP STI Prevention', 'Erectile Dysfunction', 'Performance Anxiety'],
-  },
-  {
-    name: 'Skin Conditions',
-    conditions: ['Acne', 'Eczema', 'Rosacea', 'Contact Dermatitis', 'Dandruff', 'Psoriasis Refills', 'Skin Fungus', 'Tinea Versicolor', 'Excessive Sweating', 'Poison Ivy & Oak', 'Perioral Dermatitis', 'Melasma'],
-  },
-  {
-    name: 'Bites & Infestations',
-    conditions: ['Dog Bite', 'Cat Bite', 'Tick Bite', 'Head Lice', 'Scabies'],
-  },
-  {
-    name: 'Chronic Refills',
-    conditions: ['Asthma Refills', 'Hypertension Refills', 'Hypothyroidism Refills', 'Hyperlipidemia Refills', 'Diabetes Refills', 'Migraine Refills', 'Acid Reflux Refills', 'EpiPen Refills', 'Seasonal Allergies'],
-  },
-  {
-    name: 'Wellness & Lifestyle',
-    conditions: ['Hair Loss', 'Anti-Aging', 'Eyelash Growth', 'Smoking Cessation'],
-  },
-  {
-    name: 'Travel Medicine',
-    conditions: ['Travel Medicine', 'Altitude Sickness', 'Malaria Prophylaxis', "Traveler's Diarrhea", 'Motion Sickness'],
+    img: '/images/services/svc-travel.webp',
+    href: '/travel-medicine-treatment-online/',
   },
 ];
 
 const REVIEWS = [
   { text: "Great visit! Could not recommend him more. He was a very thoughtful and kind doctor who understood my concerns and helped answer all my questions.", author: 'Verified Patient', source: 'WebMD' },
   { text: "Very satisfied! I was diagnosed with Graves Disease 15 years ago. This is the first time I ever tried virtual doctor visits for my prescription refills. I'm so excited that I found Dr. Parth Bhavsar. He was very kind and got me hooked up with my prescription.", author: 'Verified Patient', source: 'WebMD' },
-  { text: "I had a virtual health visit with Dr. Parth Bhavsar on New Year's Eve and had an extremely positive experience. What stood out most was how incredibly responsive his office was — they replied within minutes and were amazingly flexible and patient.", author: 'Claudia Ewing', source: 'Google' },
+  { text: "I had a virtual health visit with Dr. Parth Bhavsar on New Year's Eve and had an extremely positive experience. What stood out most was how incredibly responsive his office was — they replied within minutes and were amazingly flexible and patient.", author: 'C.E.', source: 'Google' },
   { text: "Amazing to say the least! Was in dire straits, needing a doctor ASAP! Was able to book a virtual appointment the same day and pick up my medication from my local pharmacy. Dr. Parth was very knowledgeable, down to earth and professional.", author: 'Verified Patient', source: 'WebMD' },
-  { text: "Patient and prompt! Exactly what I was looking for, had great availability even over the weekend which was much appreciated. Felt professional and got the care I was expecting, if not exceeded my expectations.", author: 'Duncan W.', source: 'Zocdoc' },
-  { text: "Wonderful experience! Got off a cruise with a sinus infection and knew I needed antibiotics. Super easy to book, quick appointment, inexpensive, and I got my prescription the same day.", author: 'Vicki D', source: 'Google' },
+  { text: "Patient and prompt! Exactly what I was looking for, had great availability even over the weekend which was much appreciated. Felt professional and got the care I was expecting, if not exceeded my expectations.", author: 'D.W.', source: 'Zocdoc' },
+  { text: "Wonderful experience! Got off a cruise with a sinus infection and knew I needed antibiotics. Super easy to book, quick appointment, inexpensive, and I got my prescription the same day.", author: 'V.D.', source: 'Google' },
   { text: "My visit with Dr. Bhavsar went well. He was on time and I didn't feel rushed. He took time to find out what my issue was, explained symptoms I had in great detail, and I understood my issue even better because of this.", author: 'Verified Patient', source: 'WebMD' },
   { text: "He listened to my symptoms and immediately knew what I needed. After my visit I got my prescription very fast and started to feel better within a few hours. 10/10.", author: 'Verified Patient', source: 'Healthgrades' },
   { text: "I had a wonderful experience during my TeleMed visit. Dr. Bhavsar was very personable and took the time to listen to my concerns. Highly highly recommended.", author: 'Verified Patient', source: 'WebMD' },
-  { text: "Dr. Bhavsar was so knowledgeable and friendly. He really takes the time to listen and explain everything clearly. Highly recommend!", author: 'Gautam Baid', source: 'Zocdoc' },
-  { text: "Great experience. Got an appointment right away for only $49 with no insurance. Doctor was cool. Gave me my meds with refills.", author: 'Devin T.', source: 'Google' },
-  { text: "Fast personalized service. I had a simple bladder infection and for $49 and quick turnaround — only waited 1 hour for the virtual appointment — I was able to get the prescription I needed quickly.", author: 'Eliza', source: 'Google' },
+  { text: "Dr. Bhavsar was so knowledgeable and friendly. He really takes the time to listen and explain everything clearly. Highly recommend!", author: 'G.B.', source: 'Zocdoc' },
   { text: "Glad I found this Dr and service. Booked and had a virtual appointment the same day. Pricing was very fair. Dr. P was kind and helpful, so I would definitely use this service again if needed.", author: 'Verified Patient', source: 'WebMD' },
   { text: "Dr. Parth was professional, attentive, and made the visit feel easy and comfortable. He listened carefully, explained everything clearly, and prescribed medication that worked quickly. I really appreciated how efficient and effective his care was.", author: 'Verified Patient', source: 'Healthgrades' },
-  { text: "I really appreciated Dr. Bhavsar's assistance. He was very kind and knowledgeable, and it was probably one of the most pleasant Telehealth experiences I've ever had!", author: 'CC', source: 'Healthgrades' },
+  { text: "I really appreciated Dr. Bhavsar's assistance. He was very kind and knowledgeable, and it was probably one of the most pleasant Telehealth experiences I've ever had!", author: 'C.C.', source: 'Healthgrades' },
   { text: "Was very understanding, didn't try to get off the video call right away, kept asking me if I had any additional questions or concerns. Could not recommend Dr. Bhavsar enough!", author: 'Verified Patient', source: 'Zocdoc' },
-  { text: "I am extremely happy with the care provided by Dr. Bhavsar!! Very timely and straightforward. He even took the time to ask questions about my condition that weren't previously covered in the paperwork.", author: 'AT', source: 'Zocdoc' },
+  { text: "I am extremely happy with the care provided by Dr. Bhavsar!! Very timely and straightforward. He even took the time to ask questions about my condition that weren't previously covered in the paperwork.", author: 'A.T.', source: 'Zocdoc' },
   { text: "I had a great experience with Dr. Bhavsar during an online visit for strep throat. He was kind, attentive, and a very good listener, and I never felt rushed. His bedside manner was excellent.", author: 'Verified Patient', source: 'Healthgrades' },
   { text: "Dr. Bhavsar is a nice personable guy. He's knowledgeable and professional, but makes the consultation comfortable. Highly recommend.", author: 'Verified Patient', source: 'Zocdoc' },
   { text: "I had a great experience with Dr. Parth Bhavsar. He was really helpful, understanding, and made the whole process super easy. I got my prescription quickly and felt well taken care of.", author: 'Verified Patient', source: 'Google' },
 ];
 
-/* 17 logos — all outlets with self-hosted logos, links to /media-mentions for full coverage */
+/* Press logos: transparent white marks in public/logos/media/ (cut from the old white-on-grey
+   screenshots). h is each logo's height in px, set for equal visual weight. SHEfinds is left out
+   until there is a real logo file (the old shefinds.png was a copy of the Woman's World logo). */
 const MEDIA_OUTLETS = [
-  { name: 'TIME', logo: '/logos/time.png', href: '/media-mentions' },
-  { name: 'Newsweek', logo: '/logos/newsweek.png', href: '/media-mentions' },
-  { name: 'HuffPost', logo: '/logos/huffpost.jpg', href: '/media-mentions' },
-  { name: 'U.S. News', logo: '/logos/usnews.png', href: '/media-mentions' },
-  { name: 'British GQ', logo: '/logos/gq.jpg', href: '/media-mentions' },
-  { name: 'Atlanta Journal-Constitution', logo: '/logos/ajc.svg', href: '/media-mentions' },
-  { name: 'New York Post', logo: '/logos/nypost.png', href: '/media-mentions' },
-  { name: 'Fox News', logo: '/logos/fox.png', href: '/media-mentions' },
-  { name: 'Daily Mail', logo: '/logos/dailymail.png', href: '/media-mentions' },
-  { name: 'Healthline', logo: '/logos/healthline.png', href: '/media-mentions' },
-  { name: 'Yahoo Health', logo: '/logos/yahoo.png', href: '/media-mentions' },
-  { name: "Woman's World", logo: '/logos/womansworld.png', href: '/media-mentions' },
-  { name: 'EatingWell', logo: '/logos/eatingwell.jpg', href: '/media-mentions' },
-  { name: 'Everyday Health', logo: '/logos/everydayhealth.png', href: '/media-mentions' },
-  { name: 'Parade', logo: '/logos/parade.png', href: '/media-mentions' },
-  { name: "Men's Journal", logo: '/logos/mensjournal.png', href: '/media-mentions' },
-  { name: 'SHEfinds', logo: '/logos/shefinds.png', href: '/media-mentions' },
+  { name: 'TIME', logo: '/logos/media/time.png', h: 34.4, href: '/media-mentions/' },
+  { name: 'Newsweek', logo: '/logos/media/newsweek.png', h: 24.8, href: '/media-mentions/' },
+  { name: 'HuffPost', logo: '/logos/media/huffpost.png', h: 23.6, href: '/media-mentions/' },
+  { name: 'U.S. News', logo: '/logos/media/usnews.png', h: 29.2, href: '/media-mentions/' },
+  { name: 'British GQ', logo: '/logos/media/gq.png', h: 43.9, href: '/media-mentions/' },
+  { name: 'Atlanta Journal-Constitution', logo: '/logos/media/ajc.svg', h: 28.0, mono: true, href: '/media-mentions/' },
+  { name: 'New York Post', logo: '/logos/media/nypost.png', h: 46.0, href: '/media-mentions/' },
+  { name: 'Fox News', logo: '/logos/media/fox.png', h: 46.0, href: '/media-mentions/' },
+  { name: 'Daily Mail', logo: '/logos/media/dailymail.png', h: 28.8, href: '/media-mentions/' },
+  { name: 'Healthline', logo: '/logos/media/healthline.png', h: 25.1, href: '/media-mentions/' },
+  { name: 'Yahoo Health', logo: '/logos/media/yahoo.png', h: 40.3, href: '/media-mentions/' },
+  { name: "Woman's World", logo: '/logos/media/womansworld.png', h: 23.6, href: '/media-mentions/' },
+  { name: 'EatingWell', logo: '/logos/media/eatingwell.png', h: 34.4, href: '/media-mentions/' },
+  { name: 'Everyday Health', logo: '/logos/media/everydayhealth.png', h: 37.1, href: '/media-mentions/' },
+  { name: 'Parade', logo: '/logos/media/parade.png', h: 29.6, href: '/media-mentions/' },
+  { name: "Men's Journal", logo: '/logos/media/mensjournal.png', h: 28.5, href: '/media-mentions/' },
 ];
 
 /* Condition name → URL slug mapping (from live site) */
 const CONDITION_SLUGS = {
-  'Common Cold': '/common-cold-treatment-online',
-  'COVID-19': '/covid-19-treatment-online',
-  'Influenza': '/influenza-treatment-online',
-  'Sinus Infection': '/sinus-infection-treatment-online',
-  'Sore Throat': '/sore-throat-treatment-online',
-  'Ear Pain': '/ear-pain-treatment-online',
-  'Pink Eye': '/pink-eye-treatment-online',
-  'Dental Pain': '/dental-pain-treatment-online',
-  'UTI': '/uti-treatment-online',
-  'Cellulitis': '/cellulitis-treatment-online',
-  'Shingles': '/shingles-treatment-online',
-  'Gout': '/gout-treatment-online',
+  'Common Cold': '/common-cold-treatment-online/',
+  'COVID-19': '/covid-19-treatment-online/',
+  'Influenza': '/influenza-treatment-online/',
+  'Sinus Infection': '/sinus-infection-treatment-online/',
+  'Sore Throat': '/sore-throat-treatment-online/',
+  'Ear Pain': '/ear-pain-treatment-online/',
+  'Pink Eye': '/pink-eye-treatment-online/',
+  'Dental Pain': '/dental-pain-treatment-online/',
+  'UTI (women only)': '/uti-treatment-online/',
+  'Cellulitis': '/cellulitis-treatment-online/',
+  'Shingles': '/shingles-treatment-online/',
+  'Gout': '/gout-treatment-online/',
   'Mastitis': '/mastitis-treatment-online',
-  'Viral Gastroenteritis': '/viral-gastroenteritis-treatment-online',
+  'Viral Gastroenteritis': '/viral-gastroenteritis-treatment-online/',
   'Impetigo': '/impetigo-treatment-online',
   'Oral Thrush': '/oral-thrush-treatment-online',
-  'Yeast Infection': '/yeast-infection-treatment-online',
-  'Bacterial Vaginosis': '/bv-treatment-online',
-  'Vaginal Dryness': '/vaginal-dryness-treatment-online',
-  'Birth Control Refills': '/birth-control-refills-online',
-  'Chlamydia': '/chlamydia-treatment-online',
-  'Genital Herpes': '/genital-herpes-treatment-online',
-  'Cold Sore': '/cold-sore-treatment-online',
-  'Genital Warts': '/genital-warts-treatment-online',
-  'Trichomoniasis': '/trichomoniasis-treatment-online',
-  'Mycoplasma Genitalium': '/mycoplasma-genitalium-treatment-online',
-  'DoxyPEP STI Prevention': '/doxypep-sti-prevention-online',
-  'Erectile Dysfunction': '/erectile-dysfunction-treatment-online',
-  'Performance Anxiety': '/performance-anxiety-treatment-online',
-  'Acne': '/acne-treatment-online',
-  'Eczema': '/eczema-treatment-online',
-  'Rosacea': '/rosacea-treatment-online',
-  'Contact Dermatitis': '/contact-dermatitis-treatment-online',
-  'Dandruff': '/dandruff-treatment-online',
+  'Yeast Infection': '/yeast-infection-treatment-online/',
+  'Bacterial Vaginosis': '/bv-treatment-online/',
+  'Vaginal Dryness': '/vaginal-dryness-treatment-online/',
+  'Birth Control Refills': '/birth-control-refills-online/',
+  'Chlamydia': '/chlamydia-treatment-online/',
+  'Genital Herpes': '/genital-herpes-treatment-online/',
+  'Cold Sore': '/cold-sore-treatment-online/',
+  'Genital Warts': '/genital-warts-treatment-online/',
+  'Trichomoniasis': '/trichomoniasis-treatment-online/',
+  'DoxyPEP STI Prevention': '/doxypep-sti-prevention-online/',
+  'Erectile Dysfunction': '/erectile-dysfunction-treatment-online/',
+  'Performance Anxiety': '/performance-anxiety-treatment-online/',
+  'Acne': '/acne-treatment-online/',
+  'Eczema': '/eczema-treatment-online/',
+  'Rosacea': '/rosacea-treatment-online/',
+  'Contact Dermatitis': '/contact-dermatitis-treatment-online/',
+  'Dandruff': '/dandruff-treatment-online/',
   'Psoriasis Refills': '/psoriasis-refills-online',
-  'Skin Fungus': '/tinea-treatment-online',
+  'Skin Fungus': '/tinea-treatment-online/',
   'Tinea Versicolor': '/tinea-versicolor-treatment-online',
-  'Excessive Sweating': '/excessive-sweating-treatment-online',
+  'Excessive Sweating': '/excessive-sweating-treatment-online/',
   'Poison Ivy & Oak': '/poison-ivy-oak-treatment-online',
-  'Perioral Dermatitis': '/perioral-dermatitis-treatment-online',
   'Melasma': '/melasma-treatment-online',
   'Dog Bite': '/dog-bite-treatment-online',
   'Cat Bite': '/cat-bite-treatment-online',
   'Tick Bite': '/tick-bite-treatment-online',
   'Head Lice': '/head-lice-treatment-online',
-  'Scabies': '/scabies-treatment-online',
-  'Asthma Refills': '/asthma-refills-online',
-  'Hypertension Refills': '/hypertension-refills-online',
-  'Hypothyroidism Refills': '/hypothyroidism-refills-online',
-  'Hyperlipidemia Refills': '/hyperlipidemia-refills-online',
+  'Scabies': '/scabies-treatment-online/',
+  'Asthma Refills': '/asthma-refills-online/',
+  'Hypertension Refills': '/hypertension-refills-online/',
+  'Hypothyroidism Refills': '/hypothyroidism-refills-online/',
+  'Hyperlipidemia Refills': '/hyperlipidemia-refills-online/',
   'Diabetes Refills': '/diabetes-refills-online',
   'Migraine Refills': '/migraine-refills-online',
-  'Acid Reflux Refills': '/acid-reflux-refills-online',
+  'Acid Reflux Refills': '/acid-reflux-refills-online/',
   'EpiPen Refills': '/epipen-refills-online',
-  'Seasonal Allergies': '/seasonal-allergies-treatment-online',
-  'Hair Loss': '/hair-loss-treatment-online',
-  'Anti-Aging': '/anti-aging-treatment-online',
-  'Eyelash Growth': '/eyelash-growth-treatment-online',
-  'Smoking Cessation': '/smoking-cessation-treatment-online',
-  'Motion Sickness': '/motion-sickness-treatment-online',
-  'Travel Medicine': '/travel-medicine-treatment-online',
-  'Altitude Sickness': '/altitude-sickness-treatment-online',
-  'Malaria Prophylaxis': '/malaria-prophylaxis-treatment-online',
-  "Traveler's Diarrhea": '/travelers-diarrhea-treatment-online',
+  'Seasonal Allergies': '/seasonal-allergies-treatment-online/',
+  'Hair Loss': '/hair-loss-treatment-online/',
+  'Anti-Aging': '/anti-aging-treatment-online/',
+  'Eyelash Growth': '/eyelash-growth-treatment-online/',
+  'Smoking Cessation': '/smoking-cessation-treatment-online/',
+  'Motion Sickness': '/motion-sickness-treatment-online/',
+  'Travel Medicine': '/travel-medicine-treatment-online/',
+  'Altitude Sickness': '/altitude-sickness-treatment-online/',
+  'Malaria Prophylaxis': '/malaria-prophylaxis-treatment-online/',
+  "Traveler's Diarrhea": '/travelers-diarrhea-treatment-online/',
 };
 
+// Homepage moving rows. Names are CONDITION_SLUGS keys; img is the
+// /images/wwt/<img>.webp illustration from the What We Treat page.
+const HOMEPAGE_CONDITION_TILES = [
+  ['UTI (women only)', 'uti-treatment-online'],
+  ['Sinus Infection', 'sinus-infection-treatment-online'],
+  ['Sore Throat', 'sore-throat-treatment-online'],
+  ['Pink Eye', 'pink-eye-treatment-online'],
+  ['Influenza', 'influenza-treatment-online'],
+  ['COVID-19', 'covid-19-treatment-online'],
+  ['Yeast Infection', 'yeast-infection-treatment-online'],
+  ['Bacterial Vaginosis', 'bv-treatment-online'],
+  ['Birth Control Refills', 'birth-control-refills-online'],
+  ['Erectile Dysfunction', 'erectile-dysfunction-treatment-online'],
+  ['Genital Herpes', 'genital-herpes-treatment-online'],
+  ['Cold Sore', 'cold-sore-treatment-online'],
+  ['Acne', 'acne-treatment-online'],
+  ['Hair Loss', 'hair-loss-treatment-online'],
+  ['Seasonal Allergies', 'seasonal-allergies-treatment-online'],
+  ['Hypertension Refills', 'hypertension-refills-online'],
+].map(([name, img]) => ({ name, img, href: CONDITION_SLUGS[name] || '/what-we-treat' }));
+
 const WHY_FEATURES = [
-  { title: 'Board-Certified MD', desc: 'Every visit is with Dr. Parth Bhavsar, a licensed family medicine physician.', icon: 'doctor', img: '/images/why/why-board-certified.png' },
-  { title: '$79 Flat Fee', desc: 'One transparent price. No surprise bills, no co-pays, no hidden charges.', icon: 'dollar', img: '/images/why/why-flat-fee.png' },
-  { title: '40+ States', desc: 'Licensed in 43 states + DC — 44 coverage areas across the U.S.', icon: 'map', img: '/images/why/why-states.png' },
+  { title: 'Board-Certified MD', desc: 'Every visit is with Dr. Parth Bhavsar, a licensed family medicine physician.', icon: 'doctor', img: '/images/why/why-board-certified.jpg' },
+  { title: '$79 Flat Fee', desc: 'One transparent price. No co-pays, no hidden fees.', icon: 'dollar', img: '/images/why/why-flat-fee.jpg' },
+  { title: '40+ States + DC', desc: 'Licensed in 40+ states plus DC', icon: 'map', img: '/images/why/why-states.jpg' },
   { title: 'LegitScript Certified', desc: 'Verified by LegitScript for safe, compliant telehealth prescribing.', icon: 'shield', img: '/images/why/why-legitscript.png' },
-  { title: 'Fast Prescriptions', desc: 'Rx sent to your pharmacy — often within an hour of your visit.', icon: 'rx', img: '/images/why/why-fast-rx.png' },
-  { title: 'No Waiting Rooms', desc: 'Skip the drive and the wait. See a doctor from your couch.', icon: 'home', img: '/images/why/why-no-waiting.png' },
+  { title: 'Fast Prescriptions', desc: 'Rx sent to your pharmacy — often within an hour of your visit.', icon: 'rx', img: '/images/why/why-fast-rx.jpg' },
+  { title: 'No Waiting Rooms', desc: 'Skip the drive and the wait. See a doctor from your couch.', icon: 'home', img: '/images/why/why-no-waiting.jpg' },
 ];
 
 const ALL_US_STATES = [
@@ -215,15 +199,15 @@ const ALL_US_STATES = [
 ];
 
 const LICENSED_STATES = new Set([
-  'AL','AZ','CA','CO','CT','DC','DE','FL','GA','HI','IA','ID','IL','IN','KS','KY','LA','MD','ME','MI',
-  'MN','MO','MS','MT','NC','ND','NE','NH','NJ','NV','OH','OK','PA','SC','SD','TN','TX','UT','VA','VT','WA','WI','WV','WY',
+  'AL','AK','AZ','CA','CO','CT','DC','DE','FL','GA','HI','IA','ID','IL','IN','KY','LA','MD','ME','MI',
+  'MN','MO','MS','MT','NC','ND','NE','NH','NJ','NY','NV','OH','OK','PA','SC','SD','TN','TX','UT','VA','VT','WA','WV','WY',
 ]);
 
 const STATE_SLUGS = {
-  AL:'al',AZ:'az',CA:'ca',CO:'co',CT:'ct',DC:'dc',DE:'de',FL:'fl',GA:'ga',HI:'hi',IA:'ia',ID:'id',
-  IL:'il',IN:'in',KS:'ks',KY:'ky',LA:'la',MD:'md',ME:'me',MI:'mi',MN:'mn',MO:'mo',MS:'ms',MT:'mt',
-  NC:'nc',ND:'nd',NE:'ne',NH:'nh',NJ:'nj',NV:'nv',OH:'oh',OK:'ok',PA:'pa',SC:'sc',SD:'sd',TN:'tn',
-  TX:'tx',UT:'ut',VA:'va',VT:'vt',WA:'wa',WI:'wi',WV:'wv',WY:'wy',
+  AL:'al',AK:'ak',AZ:'az',CA:'ca',CO:'co',CT:'ct',DC:'dc',DE:'de',FL:'fl',GA:'ga',HI:'hi',IA:'ia',ID:'id',
+  IL:'il',IN:'in',KY:'ky',LA:'la',MD:'md',ME:'me',MI:'mi',MN:'mn',MO:'mo',MS:'ms',MT:'mt',
+  NC:'nc',ND:'nd',NE:'ne',NH:'nh',NJ:'nj',NY:'ny',NV:'nv',OH:'oh',OK:'ok',PA:'pa',SC:'sc',SD:'sd',TN:'tn',
+  TX:'tx',UT:'ut',VA:'va',VT:'vt',WA:'wa',WV:'wv',WY:'wy',
 };
 
 /* ============================
@@ -327,14 +311,19 @@ function useScrollAnimation() {
   useEffect(() => {
     const root = ref.current;
     if (!root) return;
-    const els = root.querySelectorAll('.hp-animate');
+    // Only elements that start below the fold are hidden and revealed on
+    // scroll. Anything on the first screen stays visible from the first paint.
+    const viewH = window.innerHeight || document.documentElement.clientHeight;
+    const els = Array.from(root.querySelectorAll('.hp-animate'))
+      .filter((el) => el.getBoundingClientRect().top > viewH);
     if (!els.length) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add('hp-visible');
+            entry.target.classList.remove('hp-pending');
             observer.unobserve(entry.target);
           }
         });
@@ -342,8 +331,11 @@ function useScrollAnimation() {
       { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
     );
 
-    els.forEach((el) => observer.observe(el));
-    return () => observer.disconnect();
+    els.forEach((el) => { el.classList.add('hp-pending'); observer.observe(el); });
+    return () => {
+      observer.disconnect();
+      els.forEach((el) => el.classList.remove('hp-pending'));
+    };
   }, []);
 
   return ref;
@@ -393,7 +385,9 @@ function useStickyScroll(itemCount, { scrollPerItem = 200 } = {}) {
    NUMBER COUNTER HOOKS
    ============================ */
 function useCountUp(end, duration = 1200) {
-  const [count, setCount] = useState(0);
+  // Start at the final value so the server HTML (what crawlers and no-JS
+  // readers see) says "40+", not "0+". The count-up still plays on scroll.
+  const [count, setCount] = useState(end);
   const ref = useRef(null);
   const triggered = useRef(false);
 
@@ -471,7 +465,7 @@ const HOW_STEPS = [
   { num: 1, title: 'Book Online', desc: 'Choose a visit time that works for you. Available 7 days a week.', img: '/images/steps/step-book.png' },
   { num: 2, title: 'Quick Intake', desc: 'Fill out a brief health questionnaire so your doctor is prepared.', img: '/images/steps/step-intake.png' },
   { num: 3, title: 'Video Visit', desc: 'Meet with Dr. Bhavsar via secure video. Discuss symptoms, get a diagnosis.', img: '/images/steps/step-video.png' },
-  { num: 4, title: 'Get Your Rx', desc: 'Prescription sent to your pharmacy — often within the hour.', img: '/images/steps/step-rx.png' },
+  { num: 4, title: 'Get Your Rx', desc: 'If clinically appropriate, your prescription goes to your pharmacy, often within the hour.', img: '/images/steps/step-rx.png' },
 ];
 
 function StickyHowItWorks() {
@@ -519,7 +513,7 @@ function StickyHowItWorks() {
               </div>
             </div>
             <div style={{ textAlign: 'center', marginTop: 40 }}>
-              <a href="/book-online" className="hp-btn hp-btn-primary">Book Your $79 Visit</a>
+              <a href="/book-online/" className="hp-btn hp-btn-primary">Book Your $79 Visit</a>
             </div>
           </div>
         </div>
@@ -565,7 +559,7 @@ function StickyWhySection() {
               ))}
             </div>
             <div style={{ textAlign: 'center' }}>
-              <a href="/book-online" className="hp-btn hp-btn-primary">Book a $79 MD Visit</a>
+              <a href="/book-online/" className="hp-btn hp-btn-primary">Book a $79 MD Visit</a>
             </div>
           </div>
         </div>
@@ -579,24 +573,35 @@ function StickyWhySection() {
    ============================ */
 export default function HomepageClient() {
   const wrapRef = useScrollAnimation();
-  const [activeCategory, setActiveCategory] = useState(0);
   const reviewTrackRef = useRef(null);
 
   // Counter hooks for stats
-  const stateCounter = useCountUp(43, 1500);
+  const stateCounter = useCountUp(40, 1500); // renders "40+": coverage copy is never an exact count
   const conditionCounter = useCountUp(60, 1200);
   const ratingCounter = useCountUp(49, 1000); // 4.9 -> we'll display as 4.9
   const priceCountdown = { count: 79, ref: null }; // Static — countdown mid-animation showed wrong values on mobile
 
-  // Load the canvas hero animation script after mount
+  // Load the canvas hero animation once the page is idle, so it does not
+  // compete with the first paint. The Book button is real HTML and works
+  // before (and without) the animation.
   useEffect(() => {
     const el = document.getElementById('tmd-root');
     if (!el) return;
-    const script = document.createElement('script');
-    script.src = '/tmd-hero-animation.js';
-    script.async = true;
-    document.body.appendChild(script);
-    return () => { script.remove(); };
+    let script = null;
+    const load = () => {
+      script = document.createElement('script');
+      script.src = '/tmd-hero-animation.js';
+      script.async = true;
+      document.body.appendChild(script);
+    };
+    const idle = window.requestIdleCallback
+      ? window.requestIdleCallback(load, { timeout: 2500 })
+      : window.setTimeout(load, 1200);
+    return () => {
+      if (window.cancelIdleCallback && window.requestIdleCallback) window.cancelIdleCallback(idle);
+      else window.clearTimeout(idle);
+      if (script) script.remove();
+    };
   }, []);
 
   const scrollReviews = useCallback((dir) => {
@@ -629,27 +634,45 @@ export default function HomepageClient() {
             <rect x="60" y="160" width="3" height="20" rx="1.5" fill="#FF5A36" opacity="0.05" transform="rotate(-20 61.5 170)"/>
           </svg>
         </div>
-        <h1 className="hp-visually-hidden">Board-Certified Online Doctor Visits &mdash; $79 Flat Fee, No Subscription, 43 States</h1>
+        <h1 className="hp-visually-hidden">Board-Certified Online Doctor Visits &mdash; $79 Flat Fee, No Subscription, 40+ States</h1>
         <div id="tmd-root">
           <div id="tmd-wrap-d">
-            <canvas id="tmd-c"></canvas>
-            <button className="tmd-cta" id="tmd-cta-d">Book Your $79 Visit →</button>
+            <canvas id="tmd-c" aria-hidden="true"></canvas>
+            <a href="/book-online/" className="tmd-cta" id="tmd-cta-d">Book Your $79 Visit →</a>
             <button className="tmd-replay" id="tmd-replay-d">↺ replay</button>
           </div>
           <div id="tmd-wrap-m">
-            <canvas id="tmd-cm"></canvas>
-            <button className="tmd-cta" id="tmd-cta-m">Book Your $79 Visit →</button>
+            <canvas id="tmd-cm" aria-hidden="true"></canvas>
+            <a href="/book-online/" className="tmd-cta" id="tmd-cta-m">Book Your $79 Visit →</a>
             <button className="tmd-replay" id="tmd-replay-m">↺ replay</button>
           </div>
         </div>
         <div className="hp-hero-insurance-cta hp-animate hp-fade-up">
-          <a href="/insurance" className="hp-hero-insurance-link">Aetna, Anthem BCBS &amp; UnitedHealthcare accepted &rarr;</a>
+          <a href="/insurance/" className="hp-hero-insurance-link">Aetna, Anthem BCBS &amp; UnitedHealthcare <span style={{ whiteSpace: 'nowrap' }}>accepted &rarr;</span></a>
         </div>
       </section>
 
       {/* ===== SECTION 2: SERVICE CATEGORIES ===== */}
       <section className="hp-services hp-section">
         <div className="hp-container">
+          {/* Press strip: first thing in the navy band, right under the hero */}
+          <div className="hp-featured-strip hp-animate hp-fade-up">
+            <span>As featured in</span>
+            <div className="hp-marquee-wrap">
+              <div className="hp-marquee-track">
+                {/* Doubled for a seamless loop; the second copy is hidden from screen readers */}
+                {[...MEDIA_OUTLETS, ...MEDIA_OUTLETS].map((item, i) => {
+                  const dup = i >= MEDIA_OUTLETS.length;
+                  return (
+                    <a key={`${item.name}-${i}`} href={item.href} aria-label={dup ? undefined : item.name} aria-hidden={dup || undefined} tabIndex={dup ? -1 : undefined}>
+                      <img src={item.logo} alt={dup ? '' : item.name} className={item.mono ? 'hp-logo-mono' : undefined} style={{ '--h': `${item.h}px` }} loading="lazy" />
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+            <a className="hp-featured-more" href="/media-mentions/">Read the coverage &rarr;</a>
+          </div>
           <div style={{ textAlign: 'center' }}>
             <span className="hp-section-label hp-animate hp-fade-up">WHAT WE TREAT</span>
             <h2 className="hp-section-title hp-animate hp-fade-up">
@@ -664,25 +687,12 @@ export default function HomepageClient() {
             {SERVICE_CATEGORIES.map((svc, i) => (
               <a key={i} href={svc.href} className="hp-service-card hp-animate hp-fade-up">
                 <div className="hp-service-img">
-                  <img src={svc.img} alt={svc.title} loading="lazy" />
+                  <img src={svc.img} alt={svc.title} loading="lazy" decoding="async" width={600} height={448} />
                 </div>
                 <h3>{svc.title}</h3>
                 <p>{svc.desc}</p>
               </a>
             ))}
-          </div>
-          <div className="hp-featured-strip hp-animate hp-fade-up">
-            <span>AS FEATURED IN</span>
-            <div className="hp-marquee-wrap">
-              <div className="hp-marquee-track">
-                {/* Double the logos for seamless loop */}
-                {[...MEDIA_OUTLETS, ...MEDIA_OUTLETS].map((item, i) => (
-                  <a key={`${item.name}-${i}`} href={item.href} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', lineHeight: 0 }}>
-                    <img src={item.logo} alt={item.name} loading="lazy" />
-                  </a>
-                ))}
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -695,41 +705,12 @@ export default function HomepageClient() {
         <div className="hp-container">
           <span className="hp-section-label hp-animate hp-fade-up">CONDITIONS WE TREAT</span>
           <h2 className="hp-section-title hp-animate hp-fade-up">Find care for what you need</h2>
-          <div className="hp-conditions-tabs hp-animate hp-fade-up" role="tablist" aria-label="Condition categories">
-            {CONDITION_CATEGORIES.map((cat, i) => (
-              <button
-                key={i}
-                role="tab"
-                aria-selected={activeCategory === i}
-                aria-controls={`hp-tab-panel-${i}`}
-                id={`hp-tab-${i}`}
-                className={`hp-tab${activeCategory === i ? ' hp-tab-active' : ''}`}
-                onClick={() => setActiveCategory(i)}
-              >
-                {cat.name}
-              </button>
-            ))}
-          </div>
-          <div
-            className="hp-conditions-grid hp-animate hp-fade-up"
-            role="tabpanel"
-            id={`hp-tab-panel-${activeCategory}`}
-            aria-labelledby={`hp-tab-${activeCategory}`}
-          >
-            {CONDITION_CATEGORIES[activeCategory].conditions.map((c, i) => (
-              <a key={i} href={CONDITION_SLUGS[c] || '/what-we-treat'} className="hp-condition-pill">
-                {CONDITION_ICONS[c] ? (
-                  <span className="hp-condition-icon" dangerouslySetInnerHTML={{ __html: CONDITION_ICONS[c] }} />
-                ) : (
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
-                )}
-                {c}
-              </a>
-            ))}
-          </div>
+        </div>
+        <ConditionDriftRows items={HOMEPAGE_CONDITION_TILES} />
+        <div className="hp-container">
           <div className="hp-conditions-actions hp-animate hp-fade-up">
-            <a href="/what-we-treat" className="hp-btn hp-btn-secondary hp-btn-sm">View All Conditions</a>
-            <a href="/book-online" className="hp-btn hp-btn-primary hp-btn-sm">Book Now</a>
+            <a href="/what-we-treat/" className="hp-btn hp-btn-secondary hp-btn-sm">View All Conditions</a>
+            <a href="/book-online/" className="hp-btn hp-btn-primary hp-btn-sm">Book Now</a>
           </div>
         </div>
       </section>
@@ -757,7 +738,7 @@ export default function HomepageClient() {
             </a>
           </div>
           <div style={{ textAlign: 'center', marginTop: '1.5rem' }} className="hp-animate hp-fade-up">
-            <a href="/insurance" className="hp-btn hp-btn-secondary hp-btn-sm">Check Your Coverage &rarr;</a>
+            <a href="/insurance/" className="hp-btn hp-btn-secondary hp-btn-sm">Check Your Coverage &rarr;</a>
           </div>
         </div>
       </section>
@@ -778,8 +759,8 @@ export default function HomepageClient() {
               </p>
               <p className="hp-doctor-npi hp-animate hp-fade-up">NPI: 1104323203</p>
               <div className="hp-doctor-actions hp-animate hp-fade-up">
-                <a href="/about" className="hp-btn hp-btn-secondary hp-btn-sm">Read Full Bio</a>
-                <a href="/book-online" className="hp-btn hp-btn-primary hp-btn-sm">Book a Visit</a>
+                <a href="/about/" className="hp-btn hp-btn-secondary hp-btn-sm">Read Full Bio</a>
+                <a href="/book-online/" className="hp-btn hp-btn-primary hp-btn-sm">Book a Visit</a>
               </div>
             </div>
             <div className="hp-doctor-photo-wrap hp-animate hp-slide-left">
@@ -807,6 +788,7 @@ export default function HomepageClient() {
       </section>
 
       {/* ===== SECTION 7: REVIEWS ===== */}
+      <PrescribingPolicyFaq />
       <section className="hp-reviews hp-section">
         <div className="hp-container">
           <div className="hp-reviews-header">
