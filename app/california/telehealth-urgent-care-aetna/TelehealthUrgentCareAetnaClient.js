@@ -76,7 +76,7 @@ const FAQS = [
   },
   {
     q: 'Do you offer visits in Spanish or other languages?',
-    a: "Dr. Bhavsar speaks English and Hindi natively and conversational Spanish for routine visits. For visits requiring full Spanish fluency or other languages (Mandarin, Cantonese, Vietnamese, Tagalog, Korean, Armenian, etc.), we provide three options: (1) a family member or trusted adult can join the video call to interpret, (2) we can use a HIPAA-compliant phone interpreter line during the visit (no extra cost to you), or (3) we can reschedule to a language-matched physician partner. California Senate Bill 223 supports patient language access; please note your preference at booking.",
+    a: "Dr. Bhavsar sees patients in English, Hindi, Gujarati and Urdu. He does not speak Spanish; Spanish-speaking patients can have a medical interpreter join the video visit. Please note your preferred language when you book.",
   },
   {
     q: 'What technology do I need to join the visit?',
@@ -99,6 +99,7 @@ const SCHEMA = {
         '@type': 'Physician',
         name: 'Parth Bhavsar, MD',
         identifier: { '@type': 'PropertyValue', name: 'NPI', value: '1104323203' },
+        knowsLanguage: ['en', 'hi', 'gu', 'ur'],
       },
       medicalAudience: { '@type': 'MedicalAudience', audienceType: 'Patient' },
       speakable: { '@type': 'SpeakableSpecification', cssSelector: ['[data-speakable]'] },
