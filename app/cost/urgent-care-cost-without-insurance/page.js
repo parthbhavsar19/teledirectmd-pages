@@ -259,21 +259,12 @@ export default function UrgentCareCostPage() {
           </p>
           <div className="ucx-meta">
             <span>
-              Written and medically reviewed by <a href="/about/">Parth Bhavsar, MD</a>, board-certified family medicine physician
+              Written and medically reviewed by <a href="/about/">Parth Bhavsar, MD</a>, board-certified family medicine
+              physician. Data checked {CHECKED}.
             </span>
-            <span>Data checked {CHECKED}</span>
           </div>
         </header>
 
-        <figure className="ucx-hero">
-          <img
-            src={HERO}
-            alt="Illustration of an urgent care clinic, a price tag and a paid receipt"
-            width="1536"
-            height="1024"
-            fetchPriority="high"
-          />
-        </figure>
 
         <section id="quick-answer" className="ucx-answer" aria-labelledby="quick-answer-h">
           <h2 id="quick-answer-h" className="ucx-answer-label">The short answer</h2>
@@ -303,6 +294,16 @@ export default function UrgentCareCostPage() {
             </li>
           </ul>
         </section>
+
+        <figure className="ucx-hero">
+          <img
+            src={HERO}
+            alt="Illustration of an urgent care clinic, a price tag and a paid receipt"
+            width="1536"
+            height="1024"
+            loading="lazy"
+          />
+        </figure>
 
         <section className="ucx-sec" aria-labelledby="measures-h">
           <h2 id="measures-h" className="ucx-h2">Four kinds of &ldquo;price,&rdquo; and which one you are looking at</h2>
@@ -637,9 +638,8 @@ const CSS = `
 .ucx-h1{font-family:'Fraunces',Georgia,serif;font-weight:600;color:var(--ucx-navy);font-size:clamp(30px,5vw,46px);line-height:1.12;letter-spacing:-.01em;margin:14px 0 12px}
 .ucx-sub{font-size:clamp(17px,2.2vw,19px);color:var(--ucx-muted);margin:0 0 14px;max-width:760px}
 .ucx-meta{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;color:var(--ucx-muted)}
-.ucx-meta span+span::before{content:'';display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--ucx-coral);margin:0 12px 2px 0;vertical-align:middle}
-.ucx-hero{margin:4px 0 28px}
-.ucx-hero img{display:block;width:100%;height:auto;border-radius:14px;border:1px solid var(--ucx-line)}
+.ucx-hero{margin:0 0 36px}
+.ucx-hero img{display:block;width:100%;height:auto;aspect-ratio:2/1;object-fit:cover;border-radius:14px;border:1px solid var(--ucx-line)}
 .ucx-answer{background:var(--ucx-card);border:1px solid var(--ucx-line);border-left:6px solid var(--ucx-coral);border-radius:14px;padding:22px 24px;margin:0 0 36px;box-shadow:0 2px 10px rgba(0,62,82,.05)}
 .ucx-answer-label{font-family:'DM Sans',sans-serif;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ucx-coral);margin:0 0 8px}
 .ucx-answer p{margin:0 0 16px;font-size:17px}
