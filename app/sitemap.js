@@ -78,6 +78,7 @@ const LASTMOD_BY_PREFIX = [
   ['/who-we-serve', 'whoWeServe'],
   ['/use-case/', 'useCasePages'],
   ['/compare', 'comparePages'],
+  ['/cost/urgent-care-cost-without-insurance', 'urgentCareCost'],
   ['/cost', 'costPages'],
   ['/faq/deep-dive', 'faqDeepDive'],
   ['/faq', 'faq'],
@@ -236,6 +237,8 @@ export default function sitemap() {
   for (const slug of COST_PAGE_SLUGS) {
     urls.push(url(`/cost/${slug}/`, 0.8, 'monthly'));
   }
+  // Static route (not in COST_PAGE_SLUGS): data-led urgent care cost page.
+  urls.push(url('/cost/urgent-care-cost-without-insurance/', 0.8, 'monthly'));
 
   // 10) Platform-comparison pages (/compare/{competitor}/)
   for (const slug of COMPARE_PAGE_SLUGS) {
