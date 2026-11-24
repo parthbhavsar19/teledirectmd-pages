@@ -230,7 +230,7 @@ export default function EarlyRetireesPage() {
               </ul>
 
               <div className="tdmd-hero-ctas">
-                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
                 <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
               </div>
 
@@ -313,7 +313,7 @@ export default function EarlyRetireesPage() {
             </div>
           </div>
           <div className="tdmd-decision-cta">
-            <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+            <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
           </div>
         </div>
       </section>
@@ -429,7 +429,7 @@ export default function EarlyRetireesPage() {
             </div>
           </div>
           <div className="tdmd-decision-cta">
-            <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+            <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
           </div>
         </div>
       </section>
@@ -822,7 +822,7 @@ export default function EarlyRetireesPage() {
               <p>$79 flat fee. Same-day availability. 40+ states. No insurance required.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
               <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
             </div>
           </div>

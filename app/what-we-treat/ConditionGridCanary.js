@@ -163,7 +163,7 @@ export default function ConditionGridCanary({ category, conditionDescriptions })
       </div>
 
       <div className="wwtc-section-cta">
-        <a href="/book-online/" className="tdm-btn tdm-btn-primary wwtc-section-cta-btn">Book a Visit — $79</a>
+        <a href="/book-online/" className="tdm-btn tdm-btn-primary wwtc-section-cta-btn">Book a Visit, $79</a>
       </div>
     </section>
   );
