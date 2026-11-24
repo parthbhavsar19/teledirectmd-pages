@@ -16,19 +16,24 @@ export const metadata = {
     locale: 'en_US',
     title: 'Telehealth Cost Guides by Condition | TeleDirectMD',
     description:
-      '$79 flat self-pay telehealth. Cost guides for 22 topics — sourced comparisons vs. urgent care and the ER.',
+      '$79 flat self-pay telehealth. Cost guides for 23 topics — sourced comparisons vs. urgent care and the ER.',
     url: 'https://teledirectmd.com/cost',
   },
 };
 
 const BASE_URL = 'https://teledirectmd.com';
 
-// Cost page catalog — 22 children
+// Cost page catalog — 23 children
 const COST_CATALOG = [
   {
     slug: 'urgent-care-cost-without-insurance',
     name: 'Urgent Care Cost Without Insurance (2026)',
     desc: 'Medicare 2026 benchmarks for every state, employer plan averages, what x-rays and generic medicine add, and your right to a Good Faith Estimate.',
+  },
+  {
+    slug: 'flu-treatment-cost',
+    name: 'Flu Treatment Cost (2026)',
+    desc: 'The visit, the test and the antiviral: Medicare visit benchmarks and what pharmacies pay for generic oseltamivir and Xofluza (CMS NADAC).',
   },
   {
     slug: 'acne-treatment-cost',
@@ -107,18 +112,18 @@ const COST_CATALOG = [
   },
   {
     slug: 'sinus-infection-treatment-cost',
-    name: 'Sinus Infection Treatment Cost',
-    desc: 'Antibiotic treatment for bacterial sinusitis — $79 flat vs. $150+ at a walk-in clinic. Sourced cost comparison included.',
+    name: 'Sinus Infection Treatment Cost (2026)',
+    desc: 'Why most sinus infections need no test or antibiotic, Medicare visit benchmarks, and what pharmacies pay for amoxicillin-clavulanate and doxycycline.',
   },
   {
     slug: 'sore-throat-treatment-cost',
-    name: 'Sore Throat Treatment Cost',
-    desc: 'Viral vs. strep evaluation and treatment: $79 at TeleDirectMD vs. $150+ for cash-pay urgent care.',
+    name: 'Strep Throat Test and Treatment Cost (2026)',
+    desc: 'When a strep test is worth paying for, Medicare visit benchmarks, and what pharmacies pay for a 10-day course of amoxicillin or penicillin.',
   },
   {
     slug: 'uti-treatment-cost',
-    name: 'UTI Treatment Cost',
-    desc: 'Uncomplicated UTI antibiotics online for non-pregnant adult women: $79 for the visit. Full sourced comparison to urgent care and the ER.',
+    name: 'UTI Treatment Cost (2026)',
+    desc: 'The visit, the urine test and the antibiotic: UTI visit prices at urgent care and the ER, and what pharmacies pay for each first-line antibiotic.',
   },
   {
     slug: 'uti-antibiotics-cost',
@@ -193,7 +198,7 @@ const FAQS = [
 // Display grouping for the hub. Every COST_CATALOG slug must appear exactly once.
 const COST_GROUPS = [
   { title: 'Visits and prescriptions', slugs: ['urgent-care-cost-without-insurance', 'online-doctor-visit-cost', 'online-prescription-cost'] },
-  { title: 'Infections', slugs: ['uti-treatment-cost', 'uti-antibiotics-cost', 'sinus-infection-treatment-cost', 'sore-throat-treatment-cost', 'pink-eye-cost', 'ear-infection-cost', 'yeast-infection-cost', 'bv-treatment-cost', 'covid-19-treatment-cost'] },
+  { title: 'Infections', slugs: ['uti-treatment-cost', 'flu-treatment-cost', 'uti-antibiotics-cost', 'sinus-infection-treatment-cost', 'sore-throat-treatment-cost', 'pink-eye-cost', 'ear-infection-cost', 'yeast-infection-cost', 'bv-treatment-cost', 'covid-19-treatment-cost'] },
   { title: 'Skin and hair', slugs: ['acne-treatment-cost', 'eczema-treatment-cost', 'cold-sore-cost', 'shingles-cost', 'hair-loss-treatment-cost'] },
   { title: 'Refills and ongoing care', slugs: ['birth-control-refills-cost', 'diabetes-refills-cost', 'migraine-treatment-cost', 'erectile-dysfunction-cost', 'seasonal-allergies-cost'] },
 ];
