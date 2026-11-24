@@ -159,6 +159,7 @@ export default function StateLandingPage({ stateSlug }) {
         "url": `${baseUrl}/about`,
         "identifier": { "@type": "PropertyValue", "name": "NPI", "value": "1104323203" },
         "medicalSpecialty": "Family Medicine",
+        "knowsLanguage": ["en", "hi", "gu", "ur"],
         "areaServed": { "@type": "State", "name": state.name },
         "affiliation": { "@id": `${baseUrl}/#organization` },
         ...(stateCredential ? { "hasCredential": stateCredential } : {}),
@@ -194,6 +195,9 @@ export default function StateLandingPage({ stateSlug }) {
         "@id": `${pageUrl}#faq`,
         "isPartOf": { "@id": `${pageUrl}#webpage` },
         "mainEntity": [
+          ...((stateTpl && Array.isArray(stateTpl.stateFaqs) ? stateTpl.stateFaqs : [])
+            .filter((f) => f && f.onHub && f.question && f.answer)
+            .map((f) => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } }))),
           {
             "@type": "Question",
             "name": `What conditions does TeleDirectMD treat in ${state.name}?`,
@@ -213,7 +217,13 @@ export default function StateLandingPage({ stateSlug }) {
             "@type": "Question",
             "name": `How do I get a prescription through TeleDirectMD in ${state.name}?`,
             "acceptedAnswer": { "@type": "Answer", "text": `After your video visit, your TeleDirectMD physician can send prescriptions electronically to any ${state.name} pharmacy, including ${pharmacies.join(', ')}. Prescriptions are typically available for pickup within 1–2 hours. TeleDirectMD does not prescribe controlled substances.` }
-          }
+          },
+          // New York carries its own language questions in data/state-templates/ny.json.
+          ...(stateSlug === 'ny' ? [] : [{
+            "@type": "Question",
+            "name": `Can I have my TeleDirectMD visit in ${state.name} in a language other than English?`,
+            "acceptedAnswer": { "@type": "Answer", "text": "Dr. Bhavsar sees patients in English, Hindi, Gujarati and Urdu. He does not speak Spanish; Spanish-speaking patients can have a medical interpreter join the video visit." }
+          }])
         ]
       }
     ]
@@ -352,7 +362,7 @@ export default function StateLandingPage({ stateSlug }) {
                 </div>
                 <div className="shx-row">
                   <dt>Your physician</dt>
-                  <dd className="shx-doc"><img src="/images/bhavsar-avatar.webp" alt="Parth Bhavsar, MD" width="44" height="44" /><span><strong>Parth Bhavsar, MD</strong>, board-certified in family medicine. MD-only, never an NP or PA.</span></dd>
+                  <dd className="shx-doc"><img src="/images/bhavsar-avatar.webp" alt="Parth Bhavsar, MD" width="44" height="44" /><span><strong>Parth Bhavsar, MD</strong>, board-certified in family medicine. MD-only, never an NP or PA. Visits in English, Hindi, Gujarati or Urdu; a Spanish interpreter can join.</span></dd>
                 </div>
                 {stateLicense?.licenseNumber && (
                   <div className="shx-row">
@@ -720,6 +730,13 @@ export default function StateLandingPage({ stateSlug }) {
                   <p>Every TeleDirectMD visit is conducted by a licensed MD, not a nurse practitioner or physician assistant. Dr. Bhavsar is licensed to practice medicine in {state.name} and is board-certified.</p>
                 ),
               },
+              // New York carries its own language questions in data/state-templates/ny.json.
+              ...(stateSlug === 'ny' ? [] : [{
+                question: `Can I have my visit in a language other than English?`,
+                answer: (
+                  <p>Dr. Bhavsar sees patients in English, Hindi, Gujarati and Urdu. He does not speak Spanish; Spanish-speaking patients can have a medical interpreter join the video visit.</p>
+                ),
+              }]),
               {
                 question: 'How quickly can I get an appointment?',
                 answer: (
