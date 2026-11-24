@@ -4,6 +4,7 @@
 
 import { contentDate } from '../../../lib/content-dates';
 import { COST_PAGES, COST_PAGE_SLUGS, COST_RELATED_LINKS } from '../../../lib/cost-pages-config';
+import { CONDITION_COST_REBUILT_SLUGS } from '../../../lib/condition-cost-data';
 import UtiAntibioticsPage from '../../components/UtiAntibioticsPage';
 import CostPageRedesign from '../../components/CostPageRedesign';
 import { COMPARE_PAGES } from '../../../lib/compare-pages-config';
@@ -30,7 +31,8 @@ const STATE_LIST = [
 ];
 
 export async function generateStaticParams() {
-  return COST_PAGE_SLUGS.map((slug) => ({ slug }));
+  // Rebuilt condition total-cost pages have their own static routes under app/cost/.
+  return COST_PAGE_SLUGS.filter((slug) => !CONDITION_COST_REBUILT_SLUGS.includes(slug)).map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }) {
