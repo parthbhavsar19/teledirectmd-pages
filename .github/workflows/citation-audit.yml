@@ -61,9 +61,12 @@ jobs:
       - name: Prepare reports dir
         run: mkdir -p scripts/audit/reports
 
-      # --- HARD GATE 1: link audit (deterministic, no key needed) ---
+      # --- REPORT-ONLY 1: link audit (deterministic, no key needed) ---
+      # Report-only: third-party sites block bots and move pages, so a failure
+      # here is a prompt to look, not a reason to block a guide PR.
       - name: Link audit
         id: linkaudit
+        continue-on-error: true
         run: |
           if [ "${{ github.event.inputs.run_full_repo }}" = "true" ] || [ "${{ github.event_name }}" != "pull_request" ]; then
             python3 scripts/audit/audit_links.py
@@ -74,10 +77,15 @@ jobs:
             echo "No guide files changed; skipping link audit."
           fi
 
-      # --- HARD GATE 2: number attribution (deterministic, baselined) ---
+      # --- REPORT-ONLY 2: number attribution (deterministic, baselined) ---
+      # Report-only: the sentence heuristic flags some numbers that are sourced
+      # in the same sentence (e.g. "per the Bent 2002 JAMA review"). The
+      # baseline was refreshed to all guides on 2026-11-23, so only new flags
+      # show up; the PR comment lists them for review.
       - name: Number attribution audit
         id: numaudit
         if: always()
+        continue-on-error: true
         run: |
           if [ "${{ github.event_name }}" = "pull_request" ] && [ -s /tmp/changed_guides.txt ]; then
             python3 scripts/audit/check_number_attribution.py --no-network --changed-files /tmp/changed_guides.txt

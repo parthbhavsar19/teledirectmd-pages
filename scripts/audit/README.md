@@ -4,9 +4,9 @@ Three checks that run in CI on every PR touching `public/health-guides/**/*.html
 
 ## The checks
 
-### 1. `audit_links.py` — link audit (hard gate, deterministic)
+### 1. `audit_links.py` — link audit (report-only in CI, deterministic)
 
-For every URL in every guide's References section, verify HTTP 2xx. Cloudflare/Akamai bot-blocks (CDC, publisher domains) are classified as WARN, not FAIL. Real 404s and 5xxs fail the build.
+For every URL in every guide's References section, verify HTTP 2xx. Cloudflare/Akamai bot-blocks (CDC, publisher domains) are classified as WARN, not FAIL. Real 404s and 5xxs fail the script; in CI the step is report-only and its result appears in the PR comment.
 
 Run locally:
 
@@ -16,11 +16,11 @@ python3 scripts/audit/audit_links.py
 
 Fixes: swap publisher-direct URLs (Wiley, NEJM, JAMA, BMJ, Lancet, JAAD, OUP, Nature) to `https://pubmed.ncbi.nlm.nih.gov/<PMID>/` or `https://pmc.ncbi.nlm.nih.gov/articles/<PMCID>/`.
 
-### 2. `check_number_attribution.py` — number attribution (hard gate, deterministic, baselined)
+### 2. `check_number_attribution.py` — number attribution (report-only in CI, deterministic, baselined)
 
 For every clinical number in body prose (percentages, doses, HR/RR/OR, CIs, p-values), verify that there is a `<sup><a href="#ref-N">[N]</a></sup>` within the same or an adjacent sentence.
 
-Runs against a **baseline** (`baselines/number_attribution_baseline.json`) that snapshots the current state per guide. CI fails only when a PR **increases** the unattributed count for a guide. This lets us ship the gate today without a wholesale backfill of 87 guides.
+Runs against a **baseline** (`baselines/number_attribution_baseline.json`) that snapshots the current state per guide. The script fails only when a PR **increases** the unattributed count for a guide; in CI the step is report-only (it can flag numbers sourced in the same sentence), and the baseline was refreshed to all current guides on 2026-11-23. This lets us ship the gate today without a wholesale backfill of 87 guides.
 
 Run locally:
 
