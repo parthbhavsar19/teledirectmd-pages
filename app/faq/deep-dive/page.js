@@ -285,7 +285,7 @@ export default function FaqDeepDiveHubPage() {
             <span className="fdd-badge">Non-Controlled Meds Only</span>
           </div>
           <div className="fdd-ctas">
-            <a href="/book-online/" className="fdd-btn fdd-btn-primary">Book a Visit — $79</a>
+            <a href="/book-online/" className="fdd-btn fdd-btn-primary">Book a Visit, $79</a>
             <a href="/faq/" className="fdd-btn fdd-btn-outline">Main FAQ</a>
           </div>
           <p className="fdd-reviewed">

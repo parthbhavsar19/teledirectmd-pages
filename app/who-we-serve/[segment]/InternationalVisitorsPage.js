@@ -516,7 +516,7 @@ export default function InternationalVisitorsPage() {
               </ul>
 
               <div className="tdmd-hero-ctas">
-                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
                 <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
               </div>
 
@@ -755,7 +755,7 @@ export default function InternationalVisitorsPage() {
                 <h3>Ready to book?</h3>
                 <p>Same-day appointments available. $79 flat fee. Board-certified MD. Prescriptions sent to any US pharmacy.</p>
                 <div className="tdmd-decision-cta">
-                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
                 </div>
               </div>
             </div>

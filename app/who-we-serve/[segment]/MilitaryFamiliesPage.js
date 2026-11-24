@@ -214,7 +214,7 @@ export default function MilitaryFamiliesPage() {
                 <li>HIPAA-compliant visit records you can share with your new provider</li>
               </ul>
               <div className="tdmd-hero-ctas">
-                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
                 <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
               </div>
               <p className="tdmd-reviewed">Medically reviewed by Parth Bhavsar, MD, board-certified Family Medicine · Updated {today}</p>
@@ -292,7 +292,7 @@ export default function MilitaryFamiliesPage() {
                 <h3>Prescriptions &amp; Documentation</h3>
                 <p>Dr. Bhavsar prescribes bridge medications, treats acute conditions, and provides a visit summary for your new provider. Prescriptions sent to any US pharmacy — including TRICARE Express Scripts.</p>
                 <div className="tdmd-decision-cta">
-                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
                 </div>
               </div>
             </div>
@@ -395,7 +395,7 @@ export default function MilitaryFamiliesPage() {
                 <p><strong>YES:</strong> Book TeleDirectMD — same-day evaluation and treatment.</p>
                 <p><strong>Needs in-person exam/imaging:</strong> Urgent Care or ER.</p>
                 <div className="tdmd-decision-cta">
-                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
                 </div>
               </div>
             </div>
@@ -418,7 +418,7 @@ export default function MilitaryFamiliesPage() {
                 <li>Visit summary for new provider</li>
                 <li>HIPAA-compliant records</li>
               </ul>
-              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book Now — $79</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book Now, $79</a>
             </div>
           </div>
           <p className="tdmd-cost-note">When TRICARE is active and you're in-network, use it. During a transition, a TeleDirectMD visit is $79 flat, paid at booking, with no TRICARE authorization needed. Prescriptions are paid separately at the pharmacy.</p>
@@ -724,7 +724,7 @@ export default function MilitaryFamiliesPage() {
               <p>$79 flat-fee visits. Same-day availability. 40+ states. No insurance required.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
               <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
             </div>
           </div>
