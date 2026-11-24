@@ -6,6 +6,9 @@ out/
 build_drafts/
 .indexnow-key
 
+# Citation audit outputs (baselines are committed, reports are not)
+scripts/audit/reports/
+
 # FluHub regenerated caches (rebuilt weekly by .github/workflows/flu-hub-refresh.yml)
 fluhub/data/cache/
 fluhub/dist/
