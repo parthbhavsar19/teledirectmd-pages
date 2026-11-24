@@ -334,7 +334,9 @@ export default function PartnersPage() {
             </div>
 
             <p className="tdmd-partner-fine">
-              TeleDirectMD is operated by Mahavir Health Services LLC. Services are available to adults 18+ located in
+              TeleDirectMD is the trade name of Mahavir Health Services, LLC. Care for patients located in California, Texas
+              and New York is provided by TeleDirectMD, a California professional medical corporation, TeleDirectMD, PLLC and
+              Parth Bhavsar Medicine PLLC, respectively. Services are available to adults 18+ located in
               states we serve and are subject to applicable law. All treatment decisions are made by the treating
               physician based on clinical appropriateness; no diagnosis, prescription or outcome is guaranteed.
             </p>
