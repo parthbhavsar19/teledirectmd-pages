@@ -88,7 +88,7 @@ const COST_CATALOG = [
   {
     slug: 'online-doctor-visit-cost',
     name: 'Online Doctor Visit Cost',
-    desc: 'How much does a telehealth visit cost? TeleDirectMD: $79 flat. Compare to in-person urgent care ($150–$280) and the ER (about $2,863).',
+    desc: 'Published telehealth prices from seven services ($49 to $99), Medicare office visit benchmarks, and the cheapest ways to see a doctor without insurance.',
   },
   {
     slug: 'online-prescription-cost',
