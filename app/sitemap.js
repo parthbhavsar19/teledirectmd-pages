@@ -84,6 +84,7 @@ const LASTMOD_BY_PREFIX = [
   ['/cost/sore-throat-treatment-cost', 'conditionCostPages'],
   ['/cost/flu-treatment-cost', 'conditionCostPages'],
   ['/cost/online-doctor-visit-cost', 'doctorVisitCost'],
+  ['/cost/er-visit-cost-without-insurance', 'erVisitCost'],
   ['/cost', 'costPages'],
   ['/faq/deep-dive', 'faqDeepDive'],
   ['/faq', 'faq'],
@@ -246,6 +247,8 @@ export default function sitemap() {
   urls.push(url('/cost/urgent-care-cost-without-insurance/', 0.8, 'monthly'));
   // Static route (not in COST_PAGE_SLUGS): flu total-cost page (lib/condition-cost-data.js).
   urls.push(url('/cost/flu-treatment-cost/', 0.8, 'monthly'));
+  // Static route (not in COST_PAGE_SLUGS): ER visit cost page (lib/condition-cost-data.js).
+  urls.push(url('/cost/er-visit-cost-without-insurance/', 0.8, 'monthly'));
 
   // 10) Platform-comparison pages (/compare/{competitor}/)
   for (const slug of COMPARE_PAGE_SLUGS) {
