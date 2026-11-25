@@ -31,6 +31,11 @@ const COST_CATALOG = [
     desc: 'Medicare 2026 benchmarks for every state, employer plan averages, what x-rays and generic medicine add, and your right to a Good Faith Estimate.',
   },
   {
+    slug: 'er-visit-cost-without-insurance',
+    name: 'ER Visit Cost Without Insurance (2026)',
+    desc: 'What employer plans and patients paid per ER visit, Medicare ER physician rates by level, and the financial assistance rules that can lower an uninsured ER bill.',
+  },
+  {
     slug: 'flu-treatment-cost',
     name: 'Flu Treatment Cost (2026)',
     desc: 'The visit, the test and the antiviral: Medicare visit benchmarks and what pharmacies pay for generic oseltamivir and Xofluza (CMS NADAC).',
@@ -197,7 +202,7 @@ const FAQS = [
 
 // Display grouping for the hub. Every COST_CATALOG slug must appear exactly once.
 const COST_GROUPS = [
-  { title: 'Visits and prescriptions', slugs: ['urgent-care-cost-without-insurance', 'online-doctor-visit-cost', 'online-prescription-cost'] },
+  { title: 'Visits and prescriptions', slugs: ['urgent-care-cost-without-insurance', 'er-visit-cost-without-insurance', 'online-doctor-visit-cost', 'online-prescription-cost'] },
   { title: 'Infections', slugs: ['uti-treatment-cost', 'flu-treatment-cost', 'uti-antibiotics-cost', 'sinus-infection-treatment-cost', 'sore-throat-treatment-cost', 'pink-eye-cost', 'ear-infection-cost', 'yeast-infection-cost', 'bv-treatment-cost', 'covid-19-treatment-cost'] },
   { title: 'Skin and hair', slugs: ['acne-treatment-cost', 'eczema-treatment-cost', 'cold-sore-cost', 'shingles-cost', 'hair-loss-treatment-cost'] },
   { title: 'Refills and ongoing care', slugs: ['birth-control-refills-cost', 'diabetes-refills-cost', 'migraine-treatment-cost', 'erectile-dysfunction-cost', 'seasonal-allergies-cost'] },
