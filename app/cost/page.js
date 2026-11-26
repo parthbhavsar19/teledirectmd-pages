@@ -118,7 +118,7 @@ const COST_CATALOG = [
   {
     slug: 'covid-19-treatment-cost',
     name: 'COVID-19 Treatment Cost (2026)',
-    desc: 'Who CDC lists Paxlovid for, the 5-day window, and what pharmacies pay for a Paxlovid course and for symptom relief (CMS NADAC).',
+    desc: 'Who CDC lists Paxlovid for, the 5-day window, what pharmacies pay for a Paxlovid course (CMS NADAC), and Pfizer\'s free and $0 co-pay offers through December 31, 2026.',
   },
   {
     slug: 'acne-treatment-cost',
