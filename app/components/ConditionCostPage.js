@@ -106,8 +106,8 @@ function buildJsonLd(cfg) {
         description: cfg.metaDescription,
         inLanguage: 'en-US',
         image: `${BASE_URL}${cfg.ogImage}`,
-        dateModified: CONDITION_COST_CHECKED,
-        lastReviewed: CONDITION_COST_CHECKED,
+        dateModified: cfg.checked || CONDITION_COST_CHECKED,
+        lastReviewed: cfg.checked || CONDITION_COST_CHECKED,
         author,
         reviewedBy: author,
         publisher: { '@type': 'MedicalOrganization', '@id': `${BASE_URL}/#organization`, name: 'TeleDirectMD', url: `${BASE_URL}/` },
@@ -162,7 +162,7 @@ export default function ConditionCostPage({ slug }) {
   const cfg = CONDITION_COST_PAGES[slug];
   if (!cfg) throw new Error(`ConditionCostPage: unknown slug ${slug}`);
   const refNum = (id) => cfg.refs.indexOf(id) + 1;
-  const checked = longDate(CONDITION_COST_CHECKED);
+  const checked = longDate(cfg.checked || CONDITION_COST_CHECKED);
   const jsonLd = buildJsonLd(cfg);
 
   return (
