@@ -17,7 +17,7 @@ const BASE_URL = 'https://teledirectmd.com';
 // ── Tiny rich-text renderer: **bold**, [[ref-id]] citations, [label](/internal-path) links.
 const TOKEN = /(\*\*[^*]+\*\*|\[\[ref-[a-z0-9-]+\]\]|\[[^\]]+\]\(\/[^)\s]*\))/g;
 
-function rich(text, refNum, keyBase = 'r') {
+export function rich(text, refNum, keyBase = 'r') {
   return text.split(TOKEN).filter(Boolean).map((part, i) => {
     const key = `${keyBase}-${i}`;
     if (part.startsWith('**')) return <strong key={key}>{part.slice(2, -2)}</strong>;
