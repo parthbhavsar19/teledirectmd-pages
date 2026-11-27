@@ -3,7 +3,7 @@
  "checked_at": "2026-11-27",
  "checked_by": "Claude (scheduled refresh run, Nov 27, 2026)",
  "scite_verify_papers": "not run: Scite monthly quota exhausted until 2026-12-14. PubMed article types checked for every PMID; none is a Retracted Publication or carries a retraction notice.",
- "unlinked_red_flag_lines": "Visible blood in urine and severe pain or inability to urinate carry no source; they are labeled on the page as Dr. Bhavsar's cautious standard (NIDDK hematuria page returned 404 this run).",
+ "unlinked_red_flag_lines": "Severe pain or inability to urinate (including clot retention) carries no source; it is labeled on the page as Dr. Bhavsar's cautious standard. Visible blood in the urine alone moved from the ER list to same-day in-person care on Nov 27, 2026 at Parth's request (\"Fix both first\"); the page cites Bent 2002 (hematuria LR 2.0 for UTI) for that context.",
  "references": [
   {
    "n": 1,
@@ -349,6 +349,12 @@
     {
      "text": "Dysuria + frequency without discharge/irritation >90%",
      "quote": "Specific combinations of symptoms (eg, dysuria and frequency without vaginal discharge or irritation) raise the probability of UTI to more than 90%",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hematuria raises the probability of UTI (LR 2.0)",
+     "quote": "Four symptoms and 1 sign significantly increased the probability of UTI: dysuria (summary positive likelihood ratio [LR], 1.5; 95% confidence interval [CI], 1.2-2.0), frequency (LR, 1.8; 95% CI, 1.1-3.0), hematuria (LR, 2.0; 95% CI, 1.3-2.9)",
      "quote_source": "abstract",
      "verdict": "supported"
     },
