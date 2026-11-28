@@ -133,7 +133,7 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
         "about": { "@type": "MedicalCondition", "name": cond.displayName, "code": { "@type": "MedicalCode", "code": cond.icd10, "codingSystem": "ICD-10" } },
         "mentions": [
           { "@type": "HealthInsurancePlan", "name": `${affiliateName} Commercial Plans — ${stateName}` },
-          { "@type": "Drug", "name": cond.rxInfo?.typical?.split(' ')[0] || "See visit for prescription details" },
+          { "@type": "MedicalTherapy", "name": cond.rxInfo?.typical?.split(' ')[0] || "See visit for prescription details" },
         ],
         "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["[data-speakable]"] },
       },

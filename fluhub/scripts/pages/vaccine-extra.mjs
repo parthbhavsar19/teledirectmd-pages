@@ -289,7 +289,7 @@ ${sourceList(list)}`;
       path: "kids-tamiflu.html", active: "treatment.html", title, description, body,
       jsonld: [medPageLD("Oseltamivir and baloxavir for children with influenza", "kids-tamiflu.html", description, {
         audience: { "@type": "PeopleAudience", audienceType: "Parents" },
-        mentions: [{ "@type": "Drug", name: "Oseltamivir", alternateName: "Tamiflu" }, { "@type": "Drug", name: "Baloxavir marboxil", alternateName: "Xofluza" }],
+        mentions: [{ "@type": "MedicalTherapy", name: "Oseltamivir", alternateName: "Tamiflu" }, { "@type": "MedicalTherapy", name: "Baloxavir marboxil", alternateName: "Xofluza" }],
       })],
     }));
   }
