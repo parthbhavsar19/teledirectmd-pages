@@ -1,8 +1,8 @@
 {
  "guide": "sick-visiting-new-york-city-guide",
- "checked_at": "2026-11-15",
- "checked_by": "Claude (repair run)",
- "scite_verify_papers": "run 2026-11-15; 0 verified, retractions: none (the guide cites no journal articles and no DOIs, so there was nothing to send to Scite)",
+ "checked_at": "2026-11-28",
+ "checked_by": "Claude (full rebuild, 43 references re-retrieved 2026-11-28)",
+ "scite_verify_papers": "not run 2026-11-28: the guide cites no journal articles and no DOIs, so there is nothing to send to Scite",
  "references": [
   {
    "n": 1,
@@ -10,7 +10,7 @@
    "cited_as": "New York City Tourism + Conventions. 2025 Visitation Surpasses Forecast, Generating $84.7B in Economic Impact. Press release, March 24, 2026.",
    "url": "https://business.nyctourism.com/press-media/press-releases/NYC-Tourism-Annual-Report-March-2026",
    "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
-   "retrieved_at": "2026-11-15",
+   "retrieved_at": "2026-11-28",
    "editorial_notices": [],
    "claims": [
     {
@@ -41,7 +41,7 @@
    "cited_as": "CMS. Emergency Medical Treatment & Labor Act (EMTALA).",
    "url": "https://www.cms.gov/medicare/regulations-guidance/legislation/emergency-medical-treatment-labor-act",
    "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
-   "retrieved_at": "2026-11-15",
+   "retrieved_at": "2026-11-28",
    "editorial_notices": [],
    "claims": [
     {
@@ -67,6 +67,12 @@
      "verdict": "partly_supported",
      "quote": "to ensure public access to emergency services regardless of ability to pay.",
      "quote_source": "official_page"
+    },
+    {
+     "text": "EMTALA applies to every Medicare-participating hospital that offers emergency services, public or private",
+     "verdict": "supported",
+     "quote": "Section 1867 of the Social Security Act imposes specific obligations on Medicare-participating hospitals that offer emergency services to provide a medical screening examination (MSE) when a request is made for examination or treatment",
+     "quote_source": "official_page"
     }
    ],
    "version_or_date": "Page last modified 03/10/2026",
@@ -79,7 +85,7 @@
    "cited_as": "NYC311. Hospitals (KA-02793).",
    "url": "https://portal.311.nyc.gov/article/?kanumber=KA-02793",
    "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
-   "retrieved_at": "2026-11-15",
+   "retrieved_at": "2026-11-28",
    "editorial_notices": [],
    "claims": [
     {
@@ -134,7 +140,7 @@
    "cited_as": "NYC311. Find a Doctor (KA-03254).",
    "url": "https://portal.311.nyc.gov/article/?kanumber=KA-03254",
    "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
-   "retrieved_at": "2026-11-15",
+   "retrieved_at": "2026-11-28",
    "editorial_notices": [],
    "claims": [
     {
@@ -165,7 +171,7 @@
    "cited_as": "NYC DOHMH, NYC Health + Hospitals and NYC MOIA. Open Letter to Immigrant New Yorkers. March 14, 2025.",
    "url": "https://www.nyc.gov/site/doh/about/press/pr2025/nyc-doh-hh-moia-release-open-letter-to-immigrants.page",
    "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
-   "retrieved_at": "2026-11-15",
+   "retrieved_at": "2026-11-28",
    "editorial_notices": [],
    "claims": [
     {
@@ -179,6 +185,12 @@
      "verdict": "partly_supported",
      "quote": "When you visit our health care facilities, you are not required to share information about your immigration status to receive care.",
      "quote_source": "official_page"
+    },
+    {
+     "text": "People have the right to care regardless of immigration status and are not required to share it",
+     "verdict": "supported",
+     "quote": "When you visit our health care facilities, you are not required to share information about your immigration status to receive care.",
+     "quote_source": "official_page"
     }
    ],
    "version_or_date": "Press release March 14, 2025",
@@ -190,7 +202,7 @@
    "cited_as": "MetroPlusHealth (NYC Health + Hospitals). ExpressCare.",
    "url": "https://metroplus.org/expresscare/",
    "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
-   "retrieved_at": "2026-11-15",
+   "retrieved_at": "2026-11-28",
    "editorial_notices": [],
    "claims": [
     {
@@ -208,9 +220,15 @@
     {
      "text": "The pages checked did not list a visit price",
      "verdict": "partly_supported"
+    },
+    {
+     "text": "ExpressCare offers interpretation in 200+ languages",
+     "verdict": "supported",
+     "quote": "Available 24/7 across New York State, ExpressCare requires no appointment and offers interpretation in 200+ languages",
+     "quote_source": "official_page"
     }
    ],
-   "version_or_date": "last updated: August 3, 2026",
+   "version_or_date": "Last updated August 3, 2026",
    "notes": "No price appears on the page (absence claim, checked 2026-11-15). Walk-in care and the (631) number come from refs 3 and 4."
   },
   {
@@ -219,7 +237,7 @@
    "cited_as": "CDC. About Heart Attack Symptoms, Risk, and Recovery.",
    "url": "https://www.cdc.gov/heart-disease/about/heart-attack.html",
    "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
-   "retrieved_at": "2026-11-15",
+   "retrieved_at": "2026-11-28",
    "editorial_notices": [],
    "claims": [
     {
@@ -255,7 +273,7 @@
    "cited_as": "CDC. Signs and Symptoms of Stroke.",
    "url": "https://www.cdc.gov/stroke/signs-symptoms/index.html",
    "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
-   "retrieved_at": "2026-11-15",
+   "retrieved_at": "2026-11-28",
    "editorial_notices": [],
    "claims": [
     {
@@ -285,7 +303,7 @@
    "cited_as": "CityMD. Payment Overview.",
    "url": "https://www.citymd.com/payment",
    "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
-   "retrieved_at": "2026-11-15",
+   "retrieved_at": "2026-11-28",
    "editorial_notices": [],
    "claims": [
     {
@@ -304,7 +322,7 @@
    "cited_as": "NY Public Health Law §281 (NYS Senate OpenLegislation).",
    "url": "https://www.nysenate.gov/legislation/laws/PBH/281",
    "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
-   "retrieved_at": "2026-11-15",
+   "retrieved_at": "2026-11-28",
    "editorial_notices": [],
    "claims": [
     {
@@ -322,7 +340,7 @@
    "cited_as": "NYS DOH Bureau of Narcotic Enforcement. Electronic Prescribing.",
    "url": "https://www.health.ny.gov/professionals/narcotic/electronic_prescribing/",
    "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
-   "retrieved_at": "2026-11-15",
+   "retrieved_at": "2026-11-28",
    "editorial_notices": [],
    "claims": [
     {
@@ -340,7 +358,7 @@
    "cited_as": "NY Education Law §6810, Prescriptions (NYS Senate OpenLegislation).",
    "url": "https://www.nysenate.gov/legislation/laws/EDN/6810",
    "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
-   "retrieved_at": "2026-11-15",
+   "retrieved_at": "2026-11-28",
    "editorial_notices": [],
    "claims": [
     {
@@ -365,7 +383,7 @@
    "cited_as": "CDC Travelers' Health. Traveling Abroad with Medicine.",
    "url": "https://wwwnc.cdc.gov/travel/page/travel-abroad-with-medicine",
    "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
-   "retrieved_at": "2026-11-15",
+   "retrieved_at": "2026-11-28",
    "editorial_notices": [],
    "claims": [
     {
@@ -396,7 +414,7 @@
    "cited_as": "FDA. Personal Importation.",
    "url": "https://www.fda.gov/industry/import-basics/personal-importation",
    "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
-   "retrieved_at": "2026-11-15",
+   "retrieved_at": "2026-11-28",
    "editorial_notices": [],
    "claims": [
     {
@@ -414,7 +432,7 @@
    "cited_as": "CDC Yellow Book 2026. Travelers with Chronic Illnesses.",
    "url": "https://www.cdc.gov/yellow-book/hcp/travelers-with-additional-considerations/travelers-with-chronic-illnesses.html",
    "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
-   "retrieved_at": "2026-11-15",
+   "retrieved_at": "2026-11-28",
    "editorial_notices": [],
    "claims": [
     {
@@ -438,7 +456,7 @@
    "cited_as": "MetroPlusHealth. Find a Pharmacy.",
    "url": "https://metroplus.org/members/pharmacy/",
    "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
-   "retrieved_at": "2026-11-15",
+   "retrieved_at": "2026-11-28",
    "editorial_notices": [],
    "claims": [
     {
@@ -457,7 +475,7 @@
    "cited_as": "NYC311. About NYC311.",
    "url": "https://portal.311.nyc.gov/about-nyc-311/",
    "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
-   "retrieved_at": "2026-11-15",
+   "retrieved_at": "2026-11-28",
    "editorial_notices": [],
    "claims": [
     {
@@ -493,7 +511,7 @@
    "cited_as": "CDC Yellow Book 2026. Travel Insurance, Travel Health Insurance, and Medical Evacuation Insurance.",
    "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/travel-insurance.html",
    "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
-   "retrieved_at": "2026-11-15",
+   "retrieved_at": "2026-11-28",
    "editorial_notices": [],
    "claims": [
     {
@@ -518,7 +536,7 @@
    "cited_as": "NYC Health + Hospitals. About NYC Care: What Is NYC Care.",
    "url": "https://www.nyccare.nyc/about/",
    "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
-   "retrieved_at": "2026-11-15",
+   "retrieved_at": "2026-11-28",
    "editorial_notices": [],
    "claims": [
     {
@@ -542,42 +560,157 @@
    "cited_as": "MedlinePlus Medical Encyclopedia. Recognizing medical emergencies.",
    "url": "https://medlineplus.gov/ency/article/001927.htm",
    "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
-   "retrieved_at": "2026-11-15",
+   "retrieved_at": "2026-11-28",
    "editorial_notices": [],
    "claims": [
     {
-     "text": "Breathing trouble, or swelling of the lips, tongue or throat after a food, medicine or sting, is a reason to call 911",
-     "verdict": "partly_supported",
+     "text": "Call 911 for breathing problems, choking, or swelling of the face, eyes or tongue",
+     "verdict": "supported",
      "quote": "Breathing problems (difficulty breathing, shortness of breath)",
      "quote_source": "official_page"
     },
     {
-     "text": "Serious injury with bleeding that does not stop with pressure",
+     "text": "Choking is an emergency warning sign",
+     "verdict": "supported",
+     "quote": "Choking",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Swelling of the face, eyes or tongue is an emergency warning sign (adults and children)",
+     "verdict": "supported",
+     "quote": "Swelling of the face, eyes, or tongue",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Serious injury: head or spine injury, deep or large wound, burns or smoke inhalation, traffic collision injury",
+     "verdict": "supported",
+     "quote": "Sudden injury due to a motor vehicle accident, burns or smoke inhalation, near drowning, a deep or large wound, or other injuries",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Head or spine injury",
+     "verdict": "supported",
+     "quote": "Head or spine injury",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Bleeding that will not stop",
      "verdict": "supported",
      "quote": "Bleeding that will not stop",
      "quote_source": "official_page"
     },
     {
-     "text": "Serious injury: a fall or collision with a head injury or confusion",
-     "verdict": "partly_supported",
-     "quote": "Head or spine injury",
-     "quote_source": "official_page"
-    },
-    {
-     "text": "High fever with confusion, a stiff neck or a new non-fading rash, or someone hard to wake",
-     "verdict": "partly_supported",
+     "text": "Change in mental status such as unusual behavior, confusion or difficulty waking",
+     "verdict": "supported",
      "quote": "Change in mental status (such as unusual behavior, confusion, difficulty arousing)",
      "quote_source": "official_page"
     },
     {
-     "text": "Thoughts of harming yourself are a medical emergency",
+     "text": "Fainting",
+     "verdict": "supported",
+     "quote": "Fainting or loss of consciousness",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Severe abdominal pain",
+     "verdict": "supported",
+     "quote": "Severe abdominal pain or pressure",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Coughing up or vomiting blood",
+     "verdict": "supported",
+     "quote": "Coughing up or vomiting blood",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Severe or persistent vomiting or diarrhea",
+     "verdict": "supported",
+     "quote": "Severe or persistent vomiting or diarrhea",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Thoughts of suicide are a medical emergency",
      "verdict": "supported",
      "quote": "Feeling of committing suicide or murder",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "988 Lifeline is free, confidential, 24 hours a day; call or text 988",
+     "verdict": "supported",
+     "quote": "If someone you know is thinking about hurting yourself or others, call or text 988 or chat 988lifeline.org.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "988 Lifeline is free and confidential, 24/7",
+     "verdict": "supported",
+     "quote": "The 988 Suicide and Crisis Lifeline provides free and confidential support 24/7, anytime day or night.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Call 911 if someone has attempted suicide",
+     "verdict": "supported",
+     "quote": "If someone you know has attempted suicide, call 911 or the local emergency number right away.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Child warning sign: bluish or grey skin",
+     "verdict": "supported",
+     "quote": "Bluish or grey coloration of the skin (cyanosis)",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Child warning sign: difficulty eating or feeding",
+     "verdict": "supported",
+     "quote": "Difficulty in eating or feeding",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Child warning sign: fever followed by change in mental status, or stiff neck or back",
+     "verdict": "supported",
+     "quote": "Fever followed by a change in mental status, stiffness in the neck or back",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Child warning sign: increased sleepiness, lack of alertness or diminished response",
+     "verdict": "supported",
+     "quote": "Lack of alertness or diminished response",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Child warning sign: seizure",
+     "verdict": "supported",
+     "quote": "Seizure",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Child warning sign: severe headache or vomiting, especially after head injury",
+     "verdict": "supported",
+     "quote": "Severe headache or vomiting, especially following a head injury",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Child warning sign: trouble or abnormal breathing",
+     "verdict": "supported",
+     "quote": "Trouble or abnormal breathing",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Child warning sign: unable to stand or walk",
+     "verdict": "supported",
+     "quote": "Unable to stand or walk",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Child warning sign: bleeding that will not stop",
+     "verdict": "supported",
+     "quote": "Unstoppable bleeding",
      "quote_source": "official_page"
     }
    ],
    "version_or_date": "Review date 1/8/2025",
-   "notes": "New source added to support previously uncited 911 red flags. Page also lists 'Swelling of the face, eyes, or tongue' and 'Head or spine injury'. It does not name the food/medicine/sting trigger, a stiff neck, a non-fading rash, or possible broken bones; those parts stay in the guide uncited (flagged in CHANGES.md). Wording was not softened."
+   "notes": "New source added to support previously uncited 911 red flags. Page also lists 'Swelling of the face, eyes, or tongue' and 'Head or spine injury'. It does not name the food/medicine/sting trigger, a stiff neck, a non-fading rash, or possible broken bones; those parts stay in the guide uncited (flagged in CHANGES.md). Wording was not softened.",
+   "correction_note": "2026-11-28: earlier wording ('new rash that does not fade when pressed'; swelling 'after a food, medicine or sting') was not in the source and was rewritten to MedlinePlus's own list."
   },
   {
    "n": 21,
@@ -585,7 +718,7 @@
    "cited_as": "NYSED Office of the Professions. Telepractice Guidance.",
    "url": "https://www.op.nysed.gov/telepractice-guidance",
    "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
-   "retrieved_at": "2026-11-15",
+   "retrieved_at": "2026-11-28",
    "editorial_notices": [],
    "claims": [
     {
@@ -602,6 +735,807 @@
     }
    ],
    "notes": "Added for the telehealth licensure paragraph and the prescriptions paragraph. The page does not itself say 'where the patient is located'; the guide sentence citing it states only what the page says."
+  },
+  {
+   "n": 22,
+   "kind": "agency_page",
+   "cited_as": "FDNY. Ambulance Fees and Financial Assistance.",
+   "url": "https://www.nyc.gov/site/fdny/about/resources/policy-and-agreements/fee-schedule.page",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-28",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "FDNY charges for ambulance treatment and transport based on services provided",
+     "verdict": "supported",
+     "quote": "The Fire Department of the City of New York (FDNY) charges for ambulance treatment and transportation based on the services provided.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Rates effective July 1, 2026",
+     "verdict": "supported",
+     "quote": "The following rates are effective July 1, 2026.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "BLS ambulance service $1,793",
+     "verdict": "supported",
+     "quote": "Basic Life Support (BLS) ambulance service: $1,793",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "BLS treatment in place $896",
+     "verdict": "supported",
+     "quote": "Basic Life Support treatment in place: $896",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "ALS1 $2,196",
+     "verdict": "supported",
+     "quote": "Advanced Life Support Level 1 (ALS1) ambulance service: $2,196",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "ALS2 $2,212",
+     "verdict": "supported",
+     "quote": "Advanced Life Support Level 2 (ALS2) ambulance service: $2,212",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "ALS treatment in place $1,098",
+     "verdict": "supported",
+     "quote": "Advanced Life Support treatment in place: $1,098",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Mileage $20 per mile",
+     "verdict": "supported",
+     "quote": "Mileage to the hospital or medical facility: $20 per mile",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Oxygen $66",
+     "verdict": "supported",
+     "quote": "Oxygen, when provided: $66",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Charitable Care Policy eligibility based on Federal Poverty Level; available when no insurance would pay",
+     "verdict": "supported",
+     "quote": "Eligibility is based on Federal Poverty Level guidelines. Financial assistance may be available when the patient does not have insurance that would pay for the ambulance service.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "FDNY ambulance billing 844-394-5716",
+     "verdict": "supported",
+     "quote": "Call FDNY ambulance billing customer service at 844-394-5716.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Rates effective July 1, 2026",
+   "record_title": "Ambulance Fees and Financial Assistance"
+  },
+  {
+   "n": 23,
+   "kind": "agency_page",
+   "cited_as": "NYC Health + Hospitals. Locations.",
+   "url": "https://www.nychealthandhospitals.org/locations/",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-28",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "NYC Health + Hospitals runs 11 hospitals",
+     "verdict": "supported",
+     "quote": "11 Hospitals, 30 Gotham Centers, 5 Long-term Care Centers.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Hospital addresses in the table (Bellevue, Harlem, Metropolitan, Jacobi, Lincoln, North Central Bronx, Kings County, South Brooklyn Health, Woodhull, Elmhurst, Queens)",
+     "verdict": "supported",
+     "quote": "NYC Health + Hospitals/Bellevue 462 First Avenue New York, NY 10016",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Staten Island has no hospital in this system (inferred from the location list, which shows none on Staten Island)",
+     "verdict": "partly_supported",
+     "quote": "NYC Health + Hospitals/South Brooklyn Health, Ruth Bader Ginsburg Hospital 2601 Ocean Parkway Brooklyn, NY 11235",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Accessed November 28, 2026",
+   "record_title": "Locations - NYC Health + Hospitals",
+   "notes": "All 11 addresses copied from the page's location list on 2026-11-28; Correctional Health Services (55 Water Street) excluded as it does not serve the public."
+  },
+  {
+   "n": 24,
+   "kind": "agency_page",
+   "cited_as": "CMS. What is a good faith estimate?",
+   "url": "https://www.cms.gov/initiatives/your-patient-rights/medical-bill-rights/get-help/guides-resources/what-good-faith-estimate",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-28",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "If not using insurance, provider usually must give a good faith estimate if requested or if services scheduled 3 business days ahead",
+     "verdict": "supported",
+     "quote": "Usually, if you aren’t using health insurance to pay for your care, your health care provider must give you a good faith estimate of expected charges if you request one or schedule services at least 3 business days in advance.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "You need the estimate to dispute a bill",
+     "verdict": "supported",
+     "quote": "You’ll need a good faith estimate if you need to dispute your bill. You can’t dispute your bill without an estimate.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Page dated October 5, 2026",
+   "record_title": "What is a good faith health insurance estimate? | CMS"
+  },
+  {
+   "n": 25,
+   "kind": "agency_page",
+   "cited_as": "CBP. Traveling with Medication to the United States (Article 1444).",
+   "url": "https://www.help.cbp.gov/s/article/Article-1444?language=en_US",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-28",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Non-US citizens should carry a valid prescription or doctor's note written in English",
+     "verdict": "supported",
+     "quote": "In general, you should have with you a valid prescription or doctor’s note—written in English—to bring medication to the United States.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Medicine in its original container with the doctor's instructions",
+     "verdict": "supported",
+     "quote": "The medication should be in its original container with the doctor’s instructions printed on the bottle.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Rule of thumb: no more than a 90-day supply",
+     "verdict": "supported",
+     "quote": "A rule of thumb: Bring no more than a 90-day supply of medication.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Declare all drugs and medicinal products to CBP",
+     "verdict": "supported",
+     "quote": "Declare all drugs, medicinal, and similar products to the appropriate CBP official;",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Some drugs legal elsewhere, with high abuse potential, may not enter and will be confiscated if not FDA-approved, even with a foreign prescription",
+     "verdict": "supported",
+     "quote": "if the FDA has not approved them for use in the United States, they may not legally enter the country and will be confiscated, even if they are prescribed by a foreign physician.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Date published 2/13/2026",
+   "record_title": "Traveling with Medication to the United States"
+  },
+  {
+   "n": 26,
+   "kind": "label",
+   "cited_as": "FDA. Acetaminophen.",
+   "url": "https://www.fda.gov/drugs/safe-use-over-counter-pain-relievers-and-fever-reducers/acetaminophen",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-28",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Outside the US, acetaminophen is commonly known as paracetamol",
+     "verdict": "supported",
+     "quote": "Outside of the United States, acetaminophen is commonly known as paracetamol.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Do not use more than one acetaminophen product at a time",
+     "verdict": "supported",
+     "quote": "Do not use more than one acetaminophen-containing product at a time.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Adult maximum 4,000 mg in 24 hours",
+     "verdict": "supported",
+     "quote": "The maximum total amount of acetaminophen taken in 24 hours should not be more than 4,000 mg for adults and children 12 years of age and older.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Severe liver damage with three or more drinks a day",
+     "verdict": "supported",
+     "quote": "Be aware that severe liver damage may occur if you have three or more alcoholic drinks per day while using acetaminophen.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Accessed November 28, 2026",
+   "record_title": "Acetaminophen | FDA"
+  },
+  {
+   "n": 27,
+   "kind": "agency_page",
+   "cited_as": "DEA Diversion Control Division. CMEA General Information.",
+   "url": "https://www.deadiversion.usdoj.gov/meth/cma2005.html",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-28",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Pseudoephedrine sold behind the counter or in a locked cabinet",
+     "verdict": "supported",
+     "quote": "Regulated seller must place product such that customers do not have direct access before the sale is made (\"behind the counter\" placement) or in a locked cabinet",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Photo ID issued by a state or the federal government, or other accepted document",
+     "verdict": "supported",
+     "quote": "prospective purchaser presents a photographic identification card issued by a State or the Federal Government, or a document considered acceptable for purposes of 8 CFR § 274a.2(b)(1)(v)(A) or (B).",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Daily limit 3.6 grams per purchaser",
+     "verdict": "supported",
+     "quote": "This sets the daily sales limit of ephedrine base, pseudoephedrine base, or phenylpropanolamine base at 3.6 grams per purchaser, regardless of the number of transactions.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Logbook records name and address",
+     "verdict": "supported",
+     "quote": "Seller maintains written or electronic list (logbook) of sales that identifies: (1) Products by name; (2) Quantity sold; (3) Names and addresses of purchasers; and, (4) Date and time of the sales.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Accessed November 28, 2026",
+   "record_title": "Diversion Control Division | CMEA General Information"
+  },
+  {
+   "n": 28,
+   "kind": "agency_page",
+   "cited_as": "FDA. Key Information about OTC Oral Phenylephrine.",
+   "url": "https://www.fda.gov/drugs/understanding-over-counter-medicines/key-information-about-nonprescription-over-counter-otc-oral-phenylephrine",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-28",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "FDA proposed removing oral phenylephrine from nasal congestion products",
+     "verdict": "supported",
+     "quote": "FDA is proposing to remove oral phenylephrine as an active ingredient from certain common medications that temporarily relieve symptoms of nasal congestion from the common cold or allergies.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Products can still be sold until a final order",
+     "verdict": "supported",
+     "quote": "Drug products that contain oral phenylephrine can still be marketed until the agency issues a final order.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Applies only to oral products, not nasal sprays",
+     "verdict": "supported",
+     "quote": "FDA’s action only applies to phenylephrine-containing products that are taken orally.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Accessed November 28, 2026",
+   "record_title": "Key Information about Nonprescription, Over-the-Counter (OTC), Oral Phenylephrine | FDA"
+  },
+  {
+   "n": 29,
+   "kind": "label",
+   "cited_as": "FDA. Plan B One-Step (1.5 mg levonorgestrel) Information.",
+   "url": "https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/plan-b-one-step-15-mg-levonorgestrel-information",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-28",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Approved June 20, 2013 for nonprescription use without age restrictions",
+     "verdict": "supported",
+     "quote": "On June 20, 2013, FDA approved PBOS for nonprescription use without age restrictions.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Take as soon as possible within 72 hours after unprotected sex or contraceptive failure",
+     "verdict": "supported",
+     "quote": "take the product as soon as possible within 72 hours after unprotected sex or contraceptive failure.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Will not affect an existing pregnancy",
+     "verdict": "supported",
+     "quote": "Plan B One-Step will not work if a person is already pregnant, meaning it will not affect an existing pregnancy.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Accessed November 28, 2026",
+   "record_title": "Plan B One-Step (1.5 mg levonorgestrel) Information | FDA"
+  },
+  {
+   "n": 30,
+   "kind": "other_web",
+   "cited_as": "NYU College of Dentistry. Emergency Services/Urgent Care.",
+   "url": "https://dental.nyu.edu/patientcare/emergency-services-urgent-care.html",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-28",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Location 345 E. 24th Street at First Avenue",
+     "verdict": "supported",
+     "quote": "NYU College of Dentistry is located at 345 E. 24th Street (corner of First Avenue) in Manhattan.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Walk-in urgent care for pain, bleeding, swelling, infection or trauma, first come first served",
+     "verdict": "supported",
+     "quote": "Urgent care for patients with pain, excessive bleeding, swelling, oral infection and/or trauma is provided at our Manhattan location with no appointment necessary, on a first-come, first-served basis",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Hours from 9/8/2026: Mon-Thu 8:30 AM-3:00 PM; Fri 8:30 AM-12:00 PM",
+     "verdict": "supported",
+     "quote": "Monday - Thursday: 8:30 AM - 3:00 PM Friday: 8:30 AM - 12:00 PM",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "$85 fee covers limited exam and radiographs; palliative procedures extra",
+     "verdict": "supported",
+     "quote": "Patients presenting for Emergency Services/Urgent Care will be assessed a $85 fee, which covers the cost of a limited examination and applicable radiographs. Palliative procedures to relieve patients from pain are charged additionally.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "ID required: passport accepted; proof of address",
+     "verdict": "supported",
+     "quote": "Proof of Identification: License, State-Issued ID, or Passport. Proof of Address: License, State-Issued ID, or a Bill in the Patient's Name.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "When closed, go to nearest ER; Bellevue at 462 First Avenue is closest",
+     "verdict": "supported",
+     "quote": "The closest emergency room to NYU College of Dentistry is the Bellevue Hospital Emergency Room located at 462 1st Avenue (at 27th Street).",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Hours effective 9/8/2026",
+   "record_title": "Emergency Services/Urgent Care",
+   "notes": "Hours and ID quotes join list items; wording verbatim."
+  },
+  {
+   "n": 31,
+   "kind": "agency_page",
+   "cited_as": "NYC DOHMH. Sexual Health Clinics.",
+   "url": "https://www.nyc.gov/site/doh/services/sexual-health-clinics.page",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-28",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Low- to no-cost STI and HIV services regardless of immigration status",
+     "verdict": "supported",
+     "quote": "The NYC Sexual Health Clinics provide low- to no-cost services for sexually transmitted infections (STIs), including HIV. Anyone who is 12 or older can receive services at any clinic, regardless of immigration status.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Services even without insurance or ability to pay sliding fee",
+     "verdict": "supported",
+     "quote": "If you do not have health insurance or cannot pay the sliding scale fee, you can still get services.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "PEP within 72 hours; 24/7 PEP Hotline 844-373-7692 or ER when closed",
+     "verdict": "supported",
+     "quote": "Medication must be started within 72 hours of exposure. If the Sexual Health Clinics are closed, call the NYC 24/7 PEP Hotline at 844-3-PEPNYC (844-373-7692), go to an emergency room",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Clinics provide emergency contraception",
+     "verdict": "supported",
+     "quote": "Emergency contraception.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Doxy PEP by walk-in; prevents STIs including chlamydia, gonorrhea and syphilis",
+     "verdict": "supported",
+     "quote": "Doxycycline post-exposure prophylaxis (doxy PEP) treatment is available by walk-in at all Sexual Health Clinics. Taking doxy PEP after sex can prevent STIs, including chlamydia, gonorrhea and syphilis.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Most services walk-in; clinics may close early at capacity",
+     "verdict": "supported",
+     "quote": "Most clinic services are walk-in only (no appointments) and clinics may close early once capacity is reached.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Accessed November 28, 2026",
+   "record_title": "Sexual Health Clinics - NYC Health",
+   "notes": "Page also discusses insurance billing; the guide does not reproduce it."
+  },
+  {
+   "n": 32,
+   "kind": "agency_page",
+   "cited_as": "NYC DOHMH. Hot Weather and Your Health.",
+   "url": "https://www.nyc.gov/site/doh/health/emergency-preparedness/emergencies-extreme-weather-heat.page",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-28",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Heat stroke: call 911; signs list",
+     "verdict": "supported",
+     "quote": "Heat stroke occurs when the body's temperature rises quickly, which can lead to death. Call 911 or go to an emergency room if you or someone you know has the following symptoms:",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Heat stroke signs: hot dry skin; confusion; loss of consciousness; nausea or vomiting; trouble breathing; fast strong pulse; weakness; dizziness",
+     "verdict": "supported",
+     "quote": "Hot, dry skin - Confusion, hallucinations and disorientation - Loss of consciousness or being unresponsive - Nausea or vomiting - Trouble breathing - Fast, strong pulse - Weakness - Dizziness",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Heat exhaustion: cool place, remove clothes, drink water",
+     "verdict": "supported",
+     "quote": "If you or someone you know has signs of heat exhaustion, get to a cool place, remove extra clothes and drink lots of water.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Heat exhaustion signs",
+     "verdict": "supported",
+     "quote": "Heavy sweating - Cold, clammy skin - Muscle cramps - Lightheadedness or feeling faint - Headache - Decreased energy - Loss of appetite or nausea",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Heat index above 95°F especially dangerous",
+     "verdict": "supported",
+     "quote": "A heat index above 95°F is especially dangerous.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Call 311 or find a cooling center",
+     "verdict": "supported",
+     "quote": "Call 311 or find a cooling center in New York City during a heat wave.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Air quality advisory during heat: staying cool most important",
+     "verdict": "supported",
+     "quote": "If there is an air quality advisory while it is also hot, remember that staying cool is most important.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Babies and children up to 4 more sensitive to heat; never leave in vehicle",
+     "verdict": "supported",
+     "quote": "Babies and children up to 4 years old are more sensitive to heat. Caregivers need to make sure that infants and children stay cool and have enough to drink.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Accessed November 28, 2026",
+   "record_title": "Hot Weather and Your Health - NYC Health",
+   "notes": "Symptom-list quotes join the page bullet items with \" - \"; item wording is verbatim."
+  },
+  {
+   "n": 33,
+   "kind": "agency_page",
+   "cited_as": "NYC DOHMH. Report on Heat-Related Deaths. Press release, June 15, 2026.",
+   "url": "https://www.nyc.gov/site/doh/about/press/pr2026/nyc-health-department-releases-report-on-heat-related-deaths.page",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-28",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "About 500 New Yorkers die from heat-related causes each year",
+     "verdict": "supported",
+     "quote": "approximately 500 New Yorkers die from heat-related causes each year",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "About 80% of heat deaths on hot but not extreme days, 82-94°F",
+     "verdict": "supported",
+     "quote": "approximately 80% of heat-related deaths occur on hot, but not extreme heat days, when temperatures are between 82 and 94 degrees Fahrenheit",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Press release June 15, 2026",
+   "record_title": "NYC Health Department Releases Report on Heat-Related Deaths"
+  },
+  {
+   "n": 34,
+   "kind": "agency_page",
+   "cited_as": "NYC DOHMH. Measles.",
+   "url": "https://www.nyc.gov/site/doh/health/health-topics/measles.page",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-28",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Eight confirmed NYC measles cases in 2026 as of November 27",
+     "verdict": "supported",
+     "quote": "As of November 27, there have been eight confirmed measles cases in NYC in 2026",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Call before going to a provider if you think you have measles",
+     "verdict": "supported",
+     "quote": "If you think you have measles, call before going to a provider.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Count as of November 27, 2026",
+   "record_title": "Measles - NYC Health"
+  },
+  {
+   "n": 35,
+   "kind": "dataset",
+   "cited_as": "CDC. Measles Cases and Outbreaks.",
+   "url": "https://www.cdc.gov/measles/data-research/index.html",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-28",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "6,039 confirmed US cases in 2026 as of November 24",
+     "verdict": "supported",
+     "quote": "As of November 24, 2026, 6,039 confirmed measles cases were reported in the United States in 2026.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Data as of November 24, 2026",
+   "record_title": "Measles Cases and Outbreaks | CDC"
+  },
+  {
+   "n": 36,
+   "kind": "agency_page",
+   "cited_as": "NYC DOHMH. Letter Grading for Restaurants.",
+   "url": "https://www.nyc.gov/site/doh/business/food-operators/letter-grading-for-restaurants.page",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-28",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Score 0-13 A, 14-27 B, 28+ C",
+     "verdict": "supported",
+     "quote": "An inspection score of 0 to 13 is an A, 14 to 27 points is a B, and 28 or more points is a C.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Grade cards posted where passersby can see",
+     "verdict": "supported",
+     "quote": "Grade cards must be posted where they can easily be seen by people passing by.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Accessed November 28, 2026",
+   "record_title": "Letter Grading for Restaurants - NYC Health"
+  },
+  {
+   "n": 37,
+   "kind": "agency_page",
+   "cited_as": "NYC DEP. Drinking Water Supply and Quality Report.",
+   "url": "https://www.nyc.gov/site/dep/about/drinking-water-supply-quality-report.page",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-28",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "City states NYC has some of the best tap water in the world (attributed)",
+     "verdict": "supported",
+     "quote": "New York City continues to enjoy some of the best tap water in the world.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Accessed November 28, 2026",
+   "record_title": "Drinking Water Supply and Quality Report - DEP"
+  },
+  {
+   "n": 38,
+   "kind": "agency_page",
+   "cited_as": "EPA. Introduction to Bed Bugs.",
+   "url": "https://www.epa.gov/bedbugs/introduction-bed-bugs",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-28",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Bed bugs not known to transmit or spread disease",
+     "verdict": "supported",
+     "quote": "However, unlike most public health pests, bed bugs are not known to transmit or spread disease.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Bed bugs cause itchy bites",
+     "verdict": "supported",
+     "quote": "The common bed bug (Cimex lectularius) is a pest – feeding on blood, causing itchy bites and generally irritating their human hosts.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Recent increase may be partly due to more travel",
+     "verdict": "supported",
+     "quote": "Experts believe the recent increase in bed bugs in the United States may be due to more travel, lack of knowledge about preventing infestations",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Last updated September 8, 2026",
+   "record_title": "Introduction to Bed Bugs | US EPA"
+  },
+  {
+   "n": 39,
+   "kind": "agency_page",
+   "cited_as": "NYC DOHMH. 988 Suicide and Crisis Lifeline.",
+   "url": "https://www.nyc.gov/site/doh/health/health-topics/988.page",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-28",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "988 counselors help in over 200 languages over the phone",
+     "verdict": "supported",
+     "quote": "over 200 languages over the phone",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Accessed November 28, 2026",
+   "record_title": "988 - NYC Health"
+  },
+  {
+   "n": 40,
+   "kind": "guideline",
+   "cited_as": "22 CFR 62.14, Insurance (Exchange Visitor Program).",
+   "url": "https://www.ecfr.gov/current/title-22/chapter-I/subchapter-G/part-62/subpart-A/section-62.14",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-28",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Sponsors must require insurance covering sickness and accidents for the program period",
+     "verdict": "supported",
+     "quote": "Sponsors must require that all exchange visitors have insurance in effect that covers the exchange visitors for sickness or accidents during the period of time that they participate in the sponsor's exchange visitor program.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "At least $100,000 per accident or illness",
+     "verdict": "supported",
+     "quote": "(1) Medical benefits of at least $100,000 per accident or illness;",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "$25,000 repatriation of remains",
+     "verdict": "supported",
+     "quote": "(2) Repatriation of remains in the amount of $25,000;",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "$50,000 medical evacuation",
+     "verdict": "supported",
+     "quote": "(3) Expenses associated with the medical evacuation of exchange visitors to his or her home country in the amount of $50,000; and",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Deductible not more than $500",
+     "verdict": "supported",
+     "quote": "(4) Deductibles not to exceed $500 per accident or illness.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Up to date as of 11/25/2026",
+   "record_title": "22 CFR 62.14 -- Insurance."
+  },
+  {
+   "n": 41,
+   "kind": "guideline",
+   "cited_as": "CDC Yellow Book. Jet Lag Disorder.",
+   "url": "https://www.cdc.gov/yellow-book/hcp/travel-air-sea/jet-lag-disorder.html",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-28",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Westward easier; 1.5 h/day west vs 1 h/day east",
+     "verdict": "supported",
+     "quote": "westward travel is easier to adapt to than eastward travel, with an average rate of adaptation of 1.5 hrs/day for westward travel and 1 hr/day for eastward travel.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Shift sleep toward destination a few days before",
+     "verdict": "supported",
+     "quote": "If possible, adjust sleep time to more closely match the sleep period at the destination for a few days prior to the trip.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Timed light exposure helps adaptation",
+     "verdict": "supported",
+     "quote": "Intentional light exposure (or avoidance of such light exposure) at appropriate times of day can help facilitate circadian adaptation to the destination time zone.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Melatonin 0.5-1 mg often sufficient; avoid >5 mg",
+     "verdict": "supported",
+     "quote": "Melatonin dosages vary, but 0.5–1 mg is often sufficient to produce a circadian shift. It is not recommended to take high-dose melatonin (>5mg)",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Avoid antihistamines and long-acting sleep drugs: cognition, falls, performance",
+     "verdict": "supported",
+     "quote": "Antihistamines, long-acting benzodiazepines, and long-acting benzodiazepine receptor agonists should be avoided as they can worsen cognitive impairment, increase risk of falls, impair physical performance",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Last reviewed April 23, 2025",
+   "record_title": "Jet Lag Disorder | CDC Yellow Book"
+  },
+  {
+   "n": 42,
+   "kind": "agency_page",
+   "cited_as": "CDC. Understanding Your Risk for Blood Clots with Travel.",
+   "url": "https://www.cdc.gov/blood-clots/risk-factors/travel.html",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-28",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "More than 4 hours by air, car or bus carries risk",
+     "verdict": "supported",
+     "quote": "Anyone traveling more than 4 hours by air, by car, or by bus … can be at risk for blood clots.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Longer immobility, greater risk",
+     "verdict": "supported",
+     "quote": "The longer you are immobile, the greater your risk is of developing a blood clot.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "DVT signs: swelling, unexplained pain or tenderness, warm skin, redness; contact doctor",
+     "verdict": "supported",
+     "quote": "Swelling of your leg or arm; Pain or tenderness that you can't explain; Skin that is warm to the touch; Redness or discoloration of the skin",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "DVT: contact doctor as soon as possible",
+     "verdict": "supported",
+     "quote": "If you have any of these symptoms, contact your doctor as soon as possible.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "PE signs; seek medical help immediately",
+     "verdict": "supported",
+     "quote": "Difficulty breathing; Faster than normal or irregular heartbeat; Chest pain or discomfort, which usually worsens with a deep breath or coughing",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "PE: seek help immediately",
+     "verdict": "supported",
+     "quote": "If you have any of these symptoms, seek medical help immediately.",
+     "quote_source": "official_page"
+    },
+    {
+     "text": "Move legs, exercise calves, stretch",
+     "verdict": "supported",
+     "quote": "Move your legs frequently when on long trips and exercise your calf muscles to improve the flow of blood.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Last reviewed May 15, 2024",
+   "record_title": "Understanding Your Risk for Blood Clots with Travel | CDC",
+   "notes": "Symptom-list quotes join the page bullet items with \"; \"; item wording is verbatim."
+  },
+  {
+   "n": 43,
+   "kind": "agency_page",
+   "cited_as": "TSA. Medications (Liquid).",
+   "url": "https://www.tsa.gov/travel/security-screening/whatcanibring/items/medications-liquid",
+   "retrieved_with": "Monid firecrawl /scrape of official page (direct fetch blocked by proxy)",
+   "retrieved_at": "2026-11-28",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Larger amounts of medically necessary liquids allowed; must declare",
+     "verdict": "supported",
+     "quote": "TSA allows larger amounts of medically necessary liquids, gels, and aerosols in reasonable quantities for your trip, but you must declare them to TSA officers at the checkpoint for inspection.",
+     "quote_source": "official_page"
+    }
+   ],
+   "version_or_date": "Last updated October 9, 2024",
+   "record_title": "Medications (Liquid) | Transportation Security Administration"
   }
  ]
 }
